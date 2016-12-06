@@ -11,6 +11,11 @@
 // @run          document-start
 // ==/UserScript==
 (function(){
+  // alle Settings die immer wieder benötigt werden
+  var set = {
+    praefix:'LSS_Manager_v3_'
+    ModuleKey:set.praefix+'Module'
+  };
   var Module = {
     MissionOut:{
       name:'MissionOut',
@@ -30,4 +35,11 @@
     }
   };
   
+  // Speichern der Einstellungen
+  function speichern(){
+    var arr = {};
+    for(var i in Module)
+      arr[i]=Module[i].aktiv;
+    localStorage.setItem(set.ModuleKey,JSON.stringify(arr));
+  }
 })()
