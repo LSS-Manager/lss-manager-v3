@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name drag 
 // @grant none
-// @include http://www.leitstellenspiel.de/*
-// @exclude http://www.leitstellenspiel.de/*missions*
+// @include https://www.leitstellenspiel.de/*
+// @exclude https://www.leitstellenspiel.de/*missions*
 // @version 0.2
 // @updateURL 
 // ==/UserScript==
@@ -21,7 +21,7 @@
         stop: function() {
             map.invalidateSize(map);
         }
-    })
+    });
 
     $('#map').css({
         'height': '100%'
