@@ -42,4 +42,9 @@
       arr[i]=Module[i].aktiv;
     localStorage.setItem(set.ModuleKey,JSON.stringify(arr));
   }
+  // laden der Einstellungen
+  function laden(){
+    var load = JSON.parse(localStorage.getItem(set.ModuleKey)) || {};
+    for(var i in load)
+      Module[i].aktiv =load[i];
 })()
