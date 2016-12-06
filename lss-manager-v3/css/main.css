@@ -1,1 +1,100 @@
+/*
+TOC:
+- main css
+- general css
+- switch css
+*/
 
+/* main css */
+.panel{
+  margin: 10px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  display: inline-block;
+}
+
+.panel-default{
+  border-color: #ddd;
+  width: 40%
+}
+
+.panel-body{
+  padding: 15px
+}
+
+.panel-footer{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.pull-right{
+  float: right !important
+}
+
+/* general css */
+small {
+  font-size: 85%
+}
+h4{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit
+}
+
+/* switch css
+- noch in eigenes Partial per SCSS packen */
+.onoffswitch{
+    position:relative;
+    width:30px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none
+}
+.onoffswitch-checkbox{
+    display:none
+}
+.onoffswitch-label{
+    display:block;
+    overflow:hidden;
+    cursor:pointer;
+    height:15px;
+    padding:0;
+    line-height:15px;
+    border:2px solid #CCC;
+    border-radius:15px;
+    background-color:#FFF;
+    transition:background-color .3s ease-in
+}
+.onoffswitch-label:before{
+    content:"";
+    display:block;
+    width:15px;
+    margin:0;
+    background:#FFF;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:13px;
+    border:2px solid #CCC;
+    border-radius:15px;
+    transition:all .3s ease-in 0
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label{
+    background-color:#49E845
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
+    border-color:#49E845
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before{
+   right:0
+}
