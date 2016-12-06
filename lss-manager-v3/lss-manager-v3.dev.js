@@ -10,3 +10,24 @@
 // @grant        none
 // @run          document-start
 // ==/UserScript==
+(function(){
+  var Module = {
+    MissionOut:{
+      name:'MissionOut',
+      aktiv:true,
+      description:{
+        de:'Einklappen der Einsätze'
+      }
+      sorce:'/lss-MissionOut/MissionOut.user.js'
+    },
+    Chat:{
+      name:'Chat',
+      aktiv:true,
+      description:{
+        de:'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
+      }
+      sorce:'/lss-chat/Chat.user.js'
+    }
+  };
+  
+})()
