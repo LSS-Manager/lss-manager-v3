@@ -1,0 +1,180 @@
+<div id="dasboard_buttons">
+	<a class="btn btn-default" href="#" id="db_main">Dashboard</a>
+	<a class="btn btn-default" href="#" id="db_fzg">Fahrzeuge</a>
+	<a class="btn btn-default" href="#" id="db_wachen">Wachen Planung</a>
+</div>
+<!-- <i class="fa fa-circle" style="color:#e74c3c;"></i> -->
+<div id="wp_sub" class="btn-group">
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">Feuerwehr</a>
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">Rettungswache</a>
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">Polizei</a>
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">Schulen</a>
+	<a class="btn btn-sm btn-default" href="#" id="wp_a_son">Sonstiges</a>
+
+</div>
+
+<div id="wp_sub2" class="btn-group pull-right">
+	<div class="form-group" style="display:inline-block;margin-left:5px;">
+		<a href="#" id="wp_switch"><i class="fa fa-building"></i></a>
+		<input type="text" class="form-control" id="wp_search" placeholder="Suche" style="width:90%;display:inline-block;">
+	</div>
+  	<div class="btn-group" role="group" placeholder="Suche">
+	    <button type="button" class="btn btn-sm btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	      Gruppierung
+	      <span class="caret"></span>
+	    </button>
+	    <ul class="dropdown-menu">
+	      <li><a href="#">Gruppe 1</a></li>
+	      <li><a href="#">Gruppe 2</a></li>
+	    </ul>
+  	</div>
+  	<a class="btn btn-sm btn-success" role="group" href="#" id="" data-toggle="modal" data-target="#new_filter"><i class="fa fa-plus"></i> Gruppe hinzufügen</a>
+<br><br>
+</div>
+
+<div class="modal fade" id="new_filter" tabindex="-1" role="dialog" aria-labelledby="new_filter_label" style="z-index: 9999;">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Neue Gruppierung</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">Titel:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">Notiz:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Schließen</button>
+        <button type="button" class="btn btn-success">Speichern</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--<ul id="dashboard_tabs" class="nav nav-tabs" role="tablist" style="border:none;">
+	<li role="presentation" class="active"><a href="#" id="db_main">Dashboard</a></li>
+	<li role="presentation"><a href="#" id="db_wachen">Wachen-Planung</a></li>
+</ul>
+<ul id="wp_sub" class="nav nav-tabs" role="tablist" style="border:none;">
+	<li role="presentation"class="active"><a href="#" id="wp_a_fw">Feuerwehr</a></li>
+	<li role="presentation"><a href="#" id="wp_a_rd">Rettungswache</a></li>
+	<li role="presentation"><a href="#" id="wp_a_pol">Polizei</a></li>
+	<li role="presentation"><a href="#" id="wp_a_thw">THW</a></li>
+	<li role="presentation"><a href="#" id="wp_a_sch">Schulen</a></li>
+	<li role="presentation"><a href="#" id="wp_a_son">Sonstige</a></li>
+</ul>-->
+<br>
+	<!-- Wachenplanung -->
+	<div id="db_wachen_outer" style="display:none;">
+		<div id="wp_fw"></div>
+		<div id="wp_rd" style="display:none;"></div>
+		<div id="wp_pol" style="display:none;"></div>
+		<div id="wp_thw" style="display:none;"></div>
+		<div id="wp_sch" style="display:none;"></div>
+		<div id="wp_son" style="display:none;"></div>
+	</div>
+	<!-- Fahrzeugplanung -->
+	<div id="db_fzg_outer" style="display:none;">
+	<table class="table table-striped">
+		<thead>
+			<tr>
+				<th>Fahrzeugtyp</th>
+				<th>Verf&uuml;gbar</th>
+				<th>Im Einsatz</th>
+				<th>Sprechwunsch</th>
+				<th>FMS6</th>
+				<th>Summe</th>
+			</tr>
+		</thead>
+		<tbody>
+		</tbody>
+		<tfoot>
+		</tfoot>
+	</table>
+	</div>
+	<div id="db_main_outer">
+		<div class="container-fluid col-md-12">
+			<!-- Gebäudeübersicht -->
+			<div class="col-md-8">
+				<div class="panel panel-default panel-chart pie" id="building-s_outer">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-building"></i> Gebäudeübersicht</h3>
+					</div>
+					<div class="panel-body" id="buildings_chart">
+					</div>
+				</div>
+			</div>
+			<!-- Notizbuch -->
+			<div class="col-md-4">
+				<div class="panel panel-default panel-chart pie">
+					<div class="panel-heading">
+						<h4 class="panel-title"><i class="fa fa-info"></i> Geplantes</h4>
+					</div>
+					<div class="panel-body">
+					- Notizbuch<br>
+					- Creditverdienst Wochen oder Monatsübersicht<br>
+					- Gruppierung der Wachen mit eingenem Filter<br>
+					- Notizen für die einzelnen Wachen<br>
+					- Drag & Drop für die Sortierung innerhalb einer Gruppierung<br>
+					- Fahrzeuge per FMS Status anzeigen<br>
+					- Responsive Mode<br>
+					- mehr folgt
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid col-md-12">
+			<!-- Fahrzeugaufteilung -->
+			<div class="col-md-8">
+
+				<div class="panel panel-default panel-chart pie" id="fz-s_outer">
+					<div class="panel-heading">
+						<h3 class="panel-title"><i class="fa fa-car"></i> Fahrzeug Aufteilung</h3>
+					</div>
+
+					<div class="panel-body">
+						<div class="col-md-3"><h4 style="text-align:center;">Feuerwehr</h4>
+							<div id="ff-fz" style="height:200px"></div>
+						</div>
+						<div class="col-md-3"><h4 style="text-align:center;">Rettungsdienst</h4>
+							<div id="rd-fz" style="height:200px"></div>
+						</div>
+						<div class="col-md-3"><h4 style="text-align:center;">Polizei</h4>
+							<div id="pol-fz" style="height:200px"></div>
+						</div>
+						<div class="col-md-3"><h4 style="text-align:center;">THW</h4>
+							<div id="thw-fz" style="height:200px"></div>
+						</div>
+					</div>
+
+					<div class="panel-footer clearfix" style="background-color: #fff;">
+						<div class="col-md-3">
+							<span id="ff-ges"></span>
+						</div>
+						<div class="col-md-3">
+							<span id="rd-ges"></span>
+						</div>
+						<div class="col-md-3">
+							<span id="pol-ges"></span>
+						</div>
+						<div class="col-md-3">
+							<span id="thw-ges"></span>
+						</div>
+					</div>
+				</div>
+			</div><!-- Fahrzeuganzahl Ende -->
+
+		</div><!-- Dashboard Ende -->
+	</div>
