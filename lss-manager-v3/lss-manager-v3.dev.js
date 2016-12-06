@@ -47,4 +47,5 @@
     var load = JSON.parse(localStorage.getItem(set.ModuleKey)) || {};
     for(var i in load)
       Module[i].aktiv =load[i];
+  }
 })()
