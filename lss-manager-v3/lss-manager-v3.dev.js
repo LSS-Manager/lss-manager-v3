@@ -14,7 +14,8 @@
   // alle Settings die immer wieder benötigt werden
   var set = {
     praefix:'LSS_Manager_v3_'
-    ModuleKey:set.prefix+'Module'
+    ModuleKey:set.prefix+'Module',
+    locale:I18n.locale||'de'
   };
   var Module = {
     MissionOut:{
@@ -23,6 +24,7 @@
       description:{
         de:'Einklappen der Einsätze'
       }
+      more:'/sources/lss-chat/readme.md',
       source:'/lss-MissionOut/MissionOut.user.js'
     },
     Chat:{
@@ -31,6 +33,7 @@
       description:{
         de:'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
       }
+      more:'/sources/lss-chat/readme.md',
       source:'/lss-chat/Chat.user.js'
     }
   };
@@ -47,5 +50,28 @@
     var load = JSON.parse(localStorage.getItem(set.ModuleKey)) || {};
     for(var i in load)
       Module[i].aktiv =load[i];
+  }
+  
+  // Erstellen der Pandels
+  function creatModulPanels(){
+    var html='';
+    for(var i in Module){
+          html+='<div class="panel panel-default" style="display: inline-block;margin: 10px;">'
+          +'<div class="panel-body">'
+              +'<span class="pull-right">'
+                  +'<div class="onoffswitch">'
+                      +'<input class="onoffswitch-checkbox" id="'+set[ModuleKey]+'_'+i+'" name="onoffswitch" type="checkbox">'
+                      '<label class="onoffswitch-label" for="'set[ModuleKey]+'_'+i+'"></label>'
+                  +'</div><!-- end .onoffswitch-->'
+               +'</span>'
+               +'<h4>'+i+'</h4>'
+                    +'<small>'+Module[i].description[set.locale]+'</small>'
+          +'</div><!-- end .panel-body-->'
+          +'<div class="panel-footer">'
+              +'<a href="'+Module[i].more'">Github</a>'
+          +'</div>'
+      +'</div><!-- end .panel-->"';
+    }
+    return html;
   }
 })()
