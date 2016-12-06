@@ -14,7 +14,7 @@
   // alle Settings die immer wieder benötigt werden
   var set = {
     praefix:'LSS_Manager_v3_'
-    ModuleKey:set.praefix+'Module'
+    ModuleKey:set.prefix+'Module'
   };
   var Module = {
     MissionOut:{
@@ -23,7 +23,7 @@
       description:{
         de:'Einklappen der Einsätze'
       }
-      sorce:'/lss-MissionOut/MissionOut.user.js'
+      source:'/lss-MissionOut/MissionOut.user.js'
     },
     Chat:{
       name:'Chat',
@@ -31,19 +31,19 @@
       description:{
         de:'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
       }
-      sorce:'/lss-chat/Chat.user.js'
+      source:'/lss-chat/Chat.user.js'
     }
   };
   
   // Speichern der Einstellungen
-  function speichern(){
+  function saveSettings(){
     var arr = {};
     for(var i in Module)
       arr[i]=Module[i].aktiv;
     localStorage.setItem(set.ModuleKey,JSON.stringify(arr));
   }
   // laden der Einstellungen
-  function laden(){
+  function loadSettings(){
     var load = JSON.parse(localStorage.getItem(set.ModuleKey)) || {};
     for(var i in load)
       Module[i].aktiv =load[i];
