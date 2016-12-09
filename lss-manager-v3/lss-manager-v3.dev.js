@@ -14,7 +14,9 @@
     // alle Settings die immer wieder ben√∂tigt werden
     var set = {
         praefix: 'LSS_Manager_v3_',
-        ModuleKey: set.prefix + 'Module',
+        ModuleKey: function () {
+            return this.praefix + 'Module';
+        },
         locale: I18n.locale || 'de'
     };
     var Module = {
@@ -37,17 +39,16 @@
             source: '/lss-chat/Chat.user.js'
         }
     };
-
     // Speichern der Einstellungen
     function saveSettings() {
         var arr = {};
         for (var i in Module)
             arr[i] = Module[i].aktiv;
-        localStorage.setItem(set.ModuleKey, JSON.stringify(arr));
+        localStorage.setItem(set.ModuleKey(), JSON.stringify(arr));
     }
     // laden der Einstellungen
     function loadSettings() {
-        var load = JSON.parse(localStorage.getItem(set.ModuleKey)) || {};
+        var load = JSON.parse(localStorage.getItem(set.ModuleKey())) || {};
         for (var i in load)
             Module[i].aktiv = load[i];
     }
@@ -60,8 +61,8 @@
                     + '<div class="panel-body">'
                     + '<span class="pull-right">'
                     + '<div class="onoffswitch">'
-                    + '<input class="onoffswitch-checkbox" id="' + set.ModuleKey + '_' + i + '" name="onoffswitch" type="checkbox">'
-                    + '<label class="onoffswitch-label" for="' + set.ModuleKey + '_' + i + '"></label>'
+                    + '<input class="onoffswitch-checkbox" id="' + set.ModuleKey() + '_' + i + '" ' + (Module[i].aktiv ? 'checked="true"' : '') + ' value="' + i + '"name="onoffswitch" type="checkbox">'
+                    + '<label class="onoffswitch-label" for="' + set.ModuleKey() + '_' + i + '"></label>'
                     + '</div><!-- end .onoffswitch-->'
                     + '</span>'
                     + '<h4>' + i + '</h4>'
@@ -70,8 +71,19 @@
                     + '<div class="panel-footer">'
                     + '<a href="' + Module[i].more + '">Github</a>'
                     + '</div>'
-                    + '</div><!-- end .panel-->"';
+                    + '</div><!-- end .panel-->';
         }
         return html;
+    }
+    // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge‰ndert  & gespeichert;
+    // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
+    function creatModulMain() {
+        var div = $('<div></div>');
+        div.on('change', '.onoffswitch-checkbox', function (ev) {
+            var e = ev.target;
+            Module[e.value].aktiv = e.checked;
+            saveSettings();
+        });
+        div.append(creatModulPanels());
     }
 })()
