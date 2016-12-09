@@ -13,6 +13,7 @@
 (function () {
     // alle Settings die immer wieder benötigt werden
     var set = {
+        server:"",// Domain wo alles liegt
         praefix: 'LSS_Manager_v3_',
         ModuleKey: function () {
             return this.praefix + 'Module';
@@ -39,6 +40,16 @@
             source: '/lss-chat/Chat.user.js'
         }
     };
+    // Zum zwischenspeichern der schon geladenen Module
+    var aktivModule = [];
+    function loadModule(){
+        for(var i in Module){
+            if(aktivModule.indexOf(i)===-1){
+                aktivModule.push(i);
+                $.getScript(Module[i].source);
+            }
+        }
+    }
     // Speichern der Einstellungen
     function saveSettings() {
         var arr = {};
@@ -86,4 +97,5 @@
         });
         div.append(creatModulPanels());
     }
+    
 })()
