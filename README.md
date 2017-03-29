@@ -1,6 +1,6 @@
 # LSS MANAGER V3
 
-[![NAME](bild)](verlinkung)
+![name](https://i.imgur.com/d2ZQXm8.png)
 
 Der LSS MANAGER v3 ist eine Erweiterung für das Spiel [leitstellenspiel.de](https://www.leitstellenspiel.de). Mit dieser Erweiterung wird ein Appstore zum Spiel hinzugefügt, welches das Installieren von Plugins ermöglicht. Dabei sind alle Funktionen Modular aufgebaut - man kann bis auf den letzten Baustein bestimmen, was man alles nutzen möchte.
 
