@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 AutoUpdate
-// @version      beta 0.1
+// @version      beta 0.2
 // @description  Das Tool für LSS
 // @author       lost | mausmajor | chaoskai | northdegree
 // @include      *://www.leitstellenspiel.de/
@@ -9,7 +9,19 @@
 // @include      *://www.missionchief.com/
 // @grant        none
 // @run          document-start
-
+// ==/UserScript==
+//$.getScript('https://lost.design/lssm-develop-beta/lss-manager-v3.dev.js');
+// ============================================================
+// ALLGEMEINE INFORMATIONEN:
+// - prefix immer mit prefix + _name verwenden
+// -
+// ============================================================
+// TABLE OF CONTENTS
+// main function
+// setzt meta variablen
+// einladen der verfügbaren module
+// activeModule()
+//
 (function() {
     // alle Settings die immer wieder benötigt werden
     $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
@@ -31,7 +43,7 @@
             },
             active: true,
             description: {
-                de: 'Einklappen der EinsÃ¤tze'
+                de: 'Einklappen der Einsätze'
             },
             ghuser: 'Mausmajor',
             source: '/lss-MissionOut/MissionOut.user.js',
@@ -63,7 +75,7 @@
             },
             active: false,
             description: {
-                de: 'Neues Design fÃ¼r die OberflÃ¤che'
+                de: 'Neues Design für die Oberfläche'
             },
             ghuser: 'lostdesign',
             source: '/lss-redesign-01/Redesign-01.user.js',
@@ -118,7 +130,7 @@
         var modulePanelHtml = '';
         for (var i in Module) {
             var mod = Module[i];
-            modulePanelHtml += '<div class="col-md-3 '+ (mod.develop ? set.ModuleKey()+ '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;margin: 10px; width:100%;">' +
+            modulePanelHtml += '<div class="col-md-3 '+ (mod.develop ? set.ModuleKey()+ '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
@@ -137,11 +149,11 @@
         }
         return modulePanelHtml;
     }
-    // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen geändert  & gespeichert;
+    // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
         var prefix = set.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><p>Erstellt von lostdesign - northdegree - mausmajor - chaoskai</p><div class="row" style="padding-left:35px; padding-right:35px"><button type="button" class="btn btn-danger btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">ZurÃ¼ck zum Leitstellenspiel</span></button></div></div>');
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>APPSTORE</h1><p>Willkommen im LSS Manager Appstore.</p><p>Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder » hier « im Forum einen Beitrag verfassen.</p><br><p><button type="button" class="btn btn-danger btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">Zurück zum Leitstellenspiel</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">EINSTELLUNGEN:</a></li><li><a href="#" role="tab" data-toggle="tab">Redesign #01 <span class="label label-success">ok</span></a></li><li><a href="#" role="tab" data-toggle="tab">Tastatur Alarmierung</a></li><li><a href="#el-k" role="tab" data-toggle="tab">Einsatzliste komprimieren</a> </li><li><a href="#wachen-planung" role="tab" data-toggle="tab">Wachenplanung</a> </li></ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         div.on('change', '.onoffswitch-checkbox', function(ev) {
             var e = ev.target;
             Module[e.value].active = e.checked;
@@ -164,7 +176,7 @@
 
         //div.append(createModulePanels());
         settingButton.click(function() {
-            // versteckt den HauptkÃ¶rper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
+            // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
             content.hide().after(div);
             $('footer').hide();
             $('#' + prefix + '_close').click(function() {
