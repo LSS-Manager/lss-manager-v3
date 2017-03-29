@@ -31,7 +31,7 @@
         $('#icon_' + t.id).length && $('#icon_' + t.id).attr('src', s);
         var $header = $('#mission_panel_heading_' + t.id);
         if (!$header.find('.MissionOut').length) {
-            var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut" data-header="' + t.id + '" title="Mission aus/ein-blenden">hide</a>');
+            var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + t.id + '" title="Mission aus/ein-blenden">hide</a>');
             $header.prepend($button);
             var $icon = $('<img src="' + s + '" id="icon_' + t.id + '">').css({'max-height': '20px;'
                 , 'max-width': '17px', 'display': 'none'});
@@ -40,6 +40,6 @@
         patienten(t.id, t.patients_count);
     };
     function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).append('<small id="pat_' + id + '">Pat.: ' + t + '</small>');
+        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).append('<small class="pull-right lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>');
     }
 })();
