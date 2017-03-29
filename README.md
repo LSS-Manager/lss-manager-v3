@@ -107,22 +107,22 @@ OPTIONAL (aber sehr Hilfreich)
   * Solltest du es nicht zeitnah schaffen, wird dein Plugin entfernt!
 
 Solltest du alle Punkte oben erfüllen, kannst du uns hier erreichen:
-* @lost auf
+* @lostdesign
   * [leitstellenspiel](https://www.leitstellenspiel.de/profile/81460)
   * [leitstellenspiel forum](https://forum.leitstellenspiel.de/index.php/User/3442-lost/)
   * [github](https://github.com/lostdesign)
 
-* @Northdegree auf
+* @Northdegree
   * [leitstellenspiel game](https://www.leitstellenspiel.de/profile/168556)
   * [leitstellenspiel forum](https://forum.leitstellenspiel.de/index.php/User/5627-Northdegree/)
   * [github](https://github.com/Tsumiki-Chan)
 
-* @Mausmajor auf
+* @Mausmajor
   * [leitstellenspiel game](https://www.leitstellenspiel.de/profile/201213)
   * [leitstellenspiel forum](https://forum.leitstellenspiel.de/index.php/User/6184-Mausmajor/)
   * [github](https://github.com/Mausmajor)
 
-* @ChaosKai93 auf
+* @ChaosKai
   * [leitstellenspiel game](https://www.leitstellenspiel.de/profile/32912)
   * [leitstellenspiel forum](https://forum.leitstellenspiel.de/index.php/User/2213-ChaosKai93/)
   * [github](https://github.com/ChaosKai)
