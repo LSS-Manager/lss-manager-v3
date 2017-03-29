@@ -25,9 +25,6 @@
             $e.html('hide');
         }
     });
-    function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).prepend('<small id="pat_' + id + '">Pat.: ' + t + '</small>');
-    }
     win.missionMarkerAdd = function (t) {
         missionMarkerAddBuffer(t);
         var s = s = "undefined" != typeof mission_graphics[t.mtid] && null != mission_graphics[t.mtid] && "undefined" != typeof mission_graphics[t.mtid][t.vehicle_state] && "" != mission_graphics[t.mtid][t.vehicle_state] ? mission_graphics[t.mtid][t.vehicle_state] : "/images/" + t.icon + ".png";
@@ -42,4 +39,7 @@
         }
         patienten(t.id, t.patients_count);
     };
+    function patienten(id, t) {
+        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).prepend('<small id="pat_' + id + '">Pat.: ' + t + '</small>');
+    }
 })();
