@@ -4,10 +4,53 @@ TOC:
 - general css
 - switch css
 */
+div#lightbox_box{
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
+  padding: 20px;
+}
+
+
+* {
+  background-image: none !important;
+}
+body {
+  background-color: #eee !important;
+}
+
+div#preloader { text-align:center;z-index:9999;position: fixed; left: 0; top: 0; z-index: 999; width: 100%; height: 100%; overflow: visible; background: rgba(255,255,255,1) url('https://i.stack.imgur.com/h6viz.gif') no-repeat center center !important; }
+div#preloader:after{
+  content:'Speichere Einstellungen!';
+}
+
+.lssm_Module_develop .panel-footer {
+background: repeating-linear-gradient(
+  45deg,
+  rgba(255, 219, 27, 1),
+  rgba(255, 219, 27, 1) 10px,
+  rgba(74, 74, 74, 1) 10px,
+  rgba(74, 74, 74, 1) 25px
+  ) !important;
+}
+
+#lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
+  background-color: #f3ebee;
+  color: #4a4a4a !important; 
+  padding: 5px;
+  border-radius: 2px;
+
+}
+
+#lssm_appstore h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.lssm_Module_develop label {
+  display: none;
+}
 
 /* main css */
-.panel{
-  margin: 10px;
+#lssm_appstore .panel{
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 4px;
@@ -16,12 +59,12 @@ TOC:
   display: inline-block;
 }
 
-.panel-default{
+#lssm_appstore .panel-default{
   border-color: #ddd;
   width: 40%
 }
 
-.panel-body{
+#lssm_appstore .panel-body{
   padding: 15px
 }
 
@@ -33,15 +76,15 @@ TOC:
   border-bottom-left-radius: 3px
 }
 
-.pull-right{
+/*.pull-right{
   float: right !important
-}
+}*/
 
 /* general css */
-small {
+#lssm_appstore  small {
   font-size: 85%
 }
-h4{
+#lssm_appstore  h4{
   font-size: 18px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -98,3 +141,155 @@ h4{
 .onoffswitch-checkbox:checked + .onoffswitch-label:before{
    right:0
 }
+
+/* reset sebastians shitty bootstrap design ffs */
+#col_navbar_holder {
+  padding:0 !important;
+  border-radius: 0 !important;
+  position: fixed;
+  z-index: 9999;
+}
+nav, .navbar-default {
+  background-color: #E74C3C !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#navbar-main-collapse {
+  border:0 !important;
+}
+
+
+.logo {display:none !important;}
+
+#map_adress_search {
+  border: none !important;
+  height: 50px;
+  padding: 15px;
+  margin: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  -moz-box-shadow:    inset 0 0 10px rgba(74, 74, 74, 0.45);
+  -webkit-box-shadow: inset 0 0 10px rgba(74, 74, 74, 0.45);
+  box-shadow:         inset 0 0 10px rgba(74, 74, 74, 0.45);
+  background-color: #f3352e;
+  color: white !important;
+}
+
+#map_adress_search:focus {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+#map_adress_search_form{
+  padding: 0;
+  margin: 0;
+}
+
+/* CUSTOM CSS TEST */
+/* Hauptcontainer ohne Rand */
+.container-fluid {
+  padding:0;
+}
+
+/* fixes für den row container */
+div#content.row {
+  margin: 0;
+  margin-top: 80px;
+}
+
+/* Navbar Abstand zum Container entfernen */
+nav.navbar.navbar-default {
+  margin-bottom: 1px;
+}
+
+.missionSideBarEntry .panel-heading {
+  padding: 3px;
+}
+
+/* Einsatzliste Hervorhebung Einsatz wird bearbeitet 
+https://i.imgur.com/b2XhPdo.png */
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #2ecc71;
+  border-radius: 3px
+}
+
+/* Einsatzliste Hervorhebung Einsatz NEU 
+https://i.imgur.com/Pa3Y6V4.png
+*/
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #e74c3c;
+  border-radius: 3px
+}
+
+/* small patienten anzahl */
+small[id^='pat_'] {
+  margin: 3px;
+  margin-top: 6px;
+}
+
+/* show hide button */
+.MissionOut {
+  margin: 2px;
+}
+
+/* Einsatz Icon */
+img#icon_ {
+  display: none;
+}
+
+/* Alarm Button Einsatzliste*/
+a#alarm_button {
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+/* Versteckt die Addresse in der Einsatzliste 
+.map_position_mover small {
+  display: none;
+}
+*/
+/* panel heading einsatzliste 
+div.panel-heading {
+  margin-bottom: 10px;
+}
+*/
+
+#lssm_appstore_row {
+  margin-top: 65px;
+}
+
+#lssm_appstore_row .jumbotron {
+  background-color: #ddd;
+  margin-bottom: 0 !important;
+}
+
+.username-link {
+  color: white;
+  text-decoration: none;
+}
+
+.username-link:hover {
+  color: #ddd !important;
+  text-decoration: none !important; 
+}
+
+#lssm_appstore_settingsbar {
+  width: 100%;
+  border-radius: 0 0 7px 7px !important;
+  margin-top: -5px;
+  background-color: #4a4a4a !important;
+  margin-bottom: 15px;
+}
+
+.lssm_appstore_settingsbar_div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/*
+*/
+
+
