@@ -19,6 +19,6 @@ Im [Wiki](https://github.com/lostdesign/lss-manager-v3/wiki) findest du alles zu
   - Alle Plugins unter einem Dach
   - bessere Performance
 
-# HAFTUNG / Sonstiges
+# Haftung / Sonstiges
 Die Nutzung des Scripts geschieht auf eigene Gefahr. Wir haften nicht für eventuell auftretende Schäden oder ähnliches, die durch die Nutzung dieses Scripts entstanden sind.
 SHPlay GmbH (Sebastian Heinisch) ist in keinster Weise für den Inhalt des Scripts verantwortlich.
