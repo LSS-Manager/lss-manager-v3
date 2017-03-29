@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         MissionOut
-// @version      2.3
+// @version      2.4
 // @description  Einklappen der Einsätze
 // @author       Mausmajor
 // @include      *://www.leitstellenspiel.de/
@@ -40,6 +40,6 @@
         patienten(t.id, t.patients_count);
     };
     function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).prepend('<small id="pat_' + id + '">Pat.: ' + t + '</small>');
+        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).append('<small id="pat_' + id + '">Pat.: ' + t + '</small>');
     }
 })();
