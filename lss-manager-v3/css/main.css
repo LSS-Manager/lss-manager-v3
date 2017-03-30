@@ -29,6 +29,8 @@ div#lightbox_box {
   background-color: rgba(0, 0, 0, 0) !important;
   border: none !important;
   padding: 20px;
+  width: 100px !important;
+  height: 100px !important;
 }
 
 .panel-footer{
@@ -60,6 +62,11 @@ nav, .navbar-default {
   border:0 !important;
 }
 
+.dropdown-menu {
+  background-color: rgb(225, 74, 42) !important;
+  border:none !important;
+  border-radius: 0 0 5px 5px;
+}
 
 .logo {display:none !important;}
 
@@ -379,16 +386,7 @@ div.panel-heading {
 
 für die nachrichten popups - klassen auf label label-danger stellen
 statt 'Chat' -> 'Neue Nachricht!'
-position: fixed;
-width: 25vw;
-z-index: 99999;
-margin-left: -255px;
-bottom: 30px;
-right: 40px;
-cursor: pointer;
-display: block;
--webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+
 
 
 map styles/filter
@@ -410,6 +408,36 @@ colorful
 
 
 */
+
+.lss_allianceChat {
+  position: fixed;
+  width: 25vw;
+  z-index: 99999;
+  margin-left: -255px;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  display: none;
+}
+
+.lss_label {
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em
+}
+
+.lss_label-danger {
+  background-color: #d9534f
+}
+
 .leaflet-tile-container img {
   filter: saturate(.5);
 }
@@ -485,4 +513,20 @@ span.building_list_fms.building_list_fms_5 {
   border-radius: 5px;
   padding: 0px;
   margin-right: 3px;
+}
+
+.lss_new_case {
+  border-left: solid red 5px !important;
+}
+
+.lss_new_case_in_progress {
+  border-left: solid limegreen 5px !important;
+}
+
+.lss_allianceCase {
+  animation: blinkAlliance .5s step-end infinite alternate;
+}
+
+@keyframes blinkAlliance { 
+   50% { border-color: #ff0000; } 
 }
