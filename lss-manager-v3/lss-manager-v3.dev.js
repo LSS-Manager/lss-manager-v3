@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 AutoUpdate
-// @version      beta 0.2
+// @version      alpha 0.3
 // @description  Das Tool für LSS
 // @author       lost | mausmajor | chaoskai | northdegree
 // @include      *://www.leitstellenspiel.de/
@@ -98,6 +98,54 @@
             develop: false,
             version: 'v 0.1',
             copyright: '@ChaosKai93'
+        },
+        FMS5InMap: {
+            name: {
+                de: 'FMS 5 in der Karte',
+                en: 'FMS 5 within Map',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'Zeigt alle FMS 5 in der Karte an.'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-FMS5InMap/FMS5InMap.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
+        },
+        Clock: {
+            name: {
+                de: 'Clock',
+                en: 'Clock',
+                nl: 'Clock'
+            },
+            active: false,
+            description: {
+                de: 'Zeigt eine Uhr in der Karte an'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-clock/clock.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
+        },
+        WachenplanungOnMap: {
+            name: {
+                de: 'Wachenplanung auf der Karte',
+                en: 'Stationmanagement on Map',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Wachen sind wählbar.'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
@@ -153,7 +201,7 @@
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
         var prefix = set.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>APPSTORE</h1><p>Willkommen im LSS Manager Appstore.</p><p>Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder » hier « im Forum einen Beitrag verfassen.</p><br><p><button type="button" class="btn btn-danger btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">Zurück zum Leitstellenspiel</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">EINSTELLUNGEN:</a></li><li><a href="#" role="tab" data-toggle="tab">Redesign #01 <span class="label label-success">ok</span></a></li><li><a href="#" role="tab" data-toggle="tab">Tastatur Alarmierung</a></li><li><a href="#el-k" role="tab" data-toggle="tab">Einsatzliste komprimieren</a> </li><li><a href="#wachen-planung" role="tab" data-toggle="tab">Wachenplanung</a> </li></ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>APPSTORE</h1><p>Willkommen im LSS Manager Appstore.</p><p>Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder » hier « im Forum einen Beitrag verfassen.</p><br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">Zurück zum Leitstellenspiel</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">EINSTELLUNGEN:</a></li><li><a href="#" role="tab" data-toggle="tab">Redesign #01 <span class="label label-success">ok</span></a></li><li><a href="#" role="tab" data-toggle="tab">Tastatur Alarmierung</a></li><li><a href="#el-k" role="tab" data-toggle="tab">Einsatzliste komprimieren</a> </li><li><a href="#wachen-planung" role="tab" data-toggle="tab">Wachenplanung</a> </li></ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         div.on('change', '.onoffswitch-checkbox', function(ev) {
             var e = ev.target;
             Module[e.value].active = e.checked;
