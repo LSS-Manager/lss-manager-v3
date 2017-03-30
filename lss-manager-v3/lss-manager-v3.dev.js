@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 AutoUpdate
-// @version      alpha 0.3
+// @version      beta 0.1
 // @description  Das Tool für LSS
 // @author       lost | mausmajor | chaoskai | northdegree
 // @include      *://www.leitstellenspiel.de/
@@ -146,6 +146,22 @@
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
+        },
+        tagMissions: {
+            name: {
+                de: 'Einsätze markieren',
+                en: 'Emergencycase mark',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'Markiert die Einsätze auf der linken Seite mit einem grünen (Einsatz mit Beteiligung) oder roten Balken (Einsatz ohne Beteiligung). Freigegebene Einsätze haben einen rot blinkenden Rahmen.'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-tagMissions/tagMissions.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
@@ -241,8 +257,8 @@
         // einhängen des Buttons in der Navi
         $('#navbar-main-collapse > ul').append(settingButton);
     }
+
     loadSettings();
     appendAppstore();
     loadModule();
-
 })()
