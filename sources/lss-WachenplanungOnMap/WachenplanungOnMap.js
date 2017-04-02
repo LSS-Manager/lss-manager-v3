@@ -32,7 +32,6 @@
                 break;
             case settings.prefix + '_x_radius':
                 settings['radius'] = Number(el.val());
-
                 break;
             case settings.prefix + '_mark_fw':
                 remove = settings['fw'] = el.prop('checked');
@@ -100,7 +99,7 @@
         html += '</div>';
         html += '</div>';
         html += '</div>';
-        $('#settings_outer').append(html);
+        $('body').append(html);
         $('#' + settings.prefix + '_settings').change(changeSetting);
     }
     function drawCircles(all, type, remove) {
