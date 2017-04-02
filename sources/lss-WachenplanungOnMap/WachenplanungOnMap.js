@@ -11,6 +11,7 @@
             });
             markers = {};
         } else {
+            console.log(markers[id]);
             map.removeLayer(markers[id]);
             delete markers[id];
         }
@@ -49,8 +50,8 @@
                 drawCircles(false,'rw', remove);
                 break;
             case settings.prefix + '_mark_thw':
-                drawCircles(false,'thw', remove);
                 remove=settings['thw'] = el.prop('checked');
+                drawCircles(false,'thw', remove);
                 break;
             case settings.prefix + '_mark_bp':
                 remove=settings['bp'] = el.prop('checked');
@@ -110,9 +111,8 @@
                             riseOnHover: true
                         }).addTo(map);
                 circle.bindLabel(cars);
-                console.log(markers);
                 markers[value.stationId] = circle;
-            } else if (!remove) {
+            } else if (!remove && markers[value.stationId]) {
                 rmLayer(value.stationId);
             }
         });
