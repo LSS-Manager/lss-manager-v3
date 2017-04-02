@@ -110,6 +110,7 @@
                             riseOnHover: true
                         }).addTo(map);
                 circle.bindLabel(cars);
+                console.log(markers);
                 markers[value.stationId] = circle;
             } else if (!remove) {
                 rmLayer(value.stationId);
