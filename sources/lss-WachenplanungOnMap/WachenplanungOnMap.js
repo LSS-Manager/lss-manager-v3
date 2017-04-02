@@ -22,7 +22,8 @@
         }, 300);
     }
     function changeSetting(e) {
-        var el = $(this), id = el.attr('id'), remove;
+        var el = $(e.target), id = el.attr('id'), remove;
+        console.log(el.prop('checked'),el);
         switch (id) {
             case settings.prefix + '_map_reload':
                 mapReload(id);
@@ -38,6 +39,7 @@
                 break;
             case settings.prefix + '_mark_pol':
                 remove=settings['pol'] = el.prop('checked');
+                drawCircles(false,'pol', remove);
                 break;
             case settings.prefix + '_mark_rw':
                 remove=settings['rw'] = el.prop('checked');
@@ -51,53 +53,21 @@
             case settings.prefix + '_mark_kh':
                 remove=settings['kh'] = el.prop('checked');
                 break;
-                console.log(settings);
         }
+        console.log(settings);
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
-        html += '<div class="col-md-12">';
-        html += '<div class="col-md-4">';
-        html += 'Map Reload';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_map_reload" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_map_reload"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Wachen - Planung';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_building_helper" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_building_helper"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Radius';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_x_radius" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_x_radius"> </label></div>';
-        html += '</div>';
-        html += '</div>';
-        html += '<div class="col-md-12">';
-        html += '<div class="col-md-4">';
-        html += 'Feuerwehr';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_fw"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Polizei';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_pol"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Rettungsdienst';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rw" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_rw"> </label></div>';
-        html += '</div>';
-        html += '</div>';
-        html += '<div class="col-md-12">';
-        html += '<div class="col-md-4">';
-        html += 'THW';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_thw"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Bereitschaftspolizei';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_bp"> </label></div>';
-        html += '</div>';
-        html += '<div class="col-md-4">';
-        html += 'Krankenhaus';
-        html += '<div class="onoffswitch"> <input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" name="onoffswitch" type="checkbox"> <label class="onoffswitch-label" id="' + settings.prefix + '_mark_kh"> </label></div>';
-        html += '</div>';
-        html += '</div>';
+            html += '<div class="col-md-4">Map Reload<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_map_reload" checked="false" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_map_reload"></label></div></div>';
+            html += '<div class="col-md-4">Wachen - Planung<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_building_helper" checked="'+settings.helper+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_building_helper"></label></div></div>';
+            html += '<div class="col-md-4">Radius<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_x_radius" checked="'+settings.radius+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_x_radius"></label></div></div>';
+            html += '<div class="col-md-4">Feuerwehr<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" checked="'+settings.fw+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div></div>';
+            html += '<div class="col-md-4">Polizei<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" checked="'+settings.pol+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div></div>';
+            html += '<div class="col-md-4">Rettungsdienst<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rw" checked="'+settings.rw+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rw"></label></div></div>';
+            html += '<div class="col-md-4">THW<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" checked="'+settings.thw+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div></div>';
+            html += '<div class="col-md-4">Bereitschaftspolizei<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" checked="'+settings.bp+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_bp"></label></div></div>';
+            html += '<div class="col-md-4">Krankenhaus<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" checked="'+settings.kh+'" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_kh"></label></div></div>';
+            
         html += '</div>';
         $('body').append(html);
         $('#' + settings.prefix + '_settings').change(changeSetting);
