@@ -1,5 +1,5 @@
 (function (map, I18n, $) {
-    var markers = {}, settings = {helper: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5, locale: I18n.locale || 'de', translations: {
+    var markers = [], settings = {helper: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5, locale: I18n.locale || 'de', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
@@ -30,12 +30,15 @@
                 break;
             case settings.prefix + '_building_helper':
                 remove=settings['helper'] = el.prop('checked');
+                drawCircles(true,'', remove);
                 break;
             case settings.prefix + '_x_radius':
                 settings['radius'] = Number(el.val());
+                drawCircles(true,'', true);
                 break;
             case settings.prefix + '_mark_fw':
                 remove = settings['fw'] = el.prop('checked');
+                drawCircles(false,'fw', remove);
                 break;
             case settings.prefix + '_mark_pol':
                 remove=settings['pol'] = el.prop('checked');
@@ -43,15 +46,19 @@
                 break;
             case settings.prefix + '_mark_rw':
                 remove=settings['rw'] = el.prop('checked');
+                drawCircles(false,'rw', remove);
                 break;
             case settings.prefix + '_mark_thw':
+                drawCircles(false,'thw', remove);
                 remove=settings['thw'] = el.prop('checked');
                 break;
             case settings.prefix + '_mark_bp':
                 remove=settings['bp'] = el.prop('checked');
+                drawCircles(false,'bp', remove);
                 break;
             case settings.prefix + '_mark_kh':
                 remove=settings['kh'] = el.prop('checked');
+                drawCircles(false,'kh', remove);
                 break;
         }
         console.log(settings);
