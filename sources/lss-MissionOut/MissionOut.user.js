@@ -25,10 +25,12 @@
         }
     });
     function create(h, id, icon) {
+        var div = $('<div class="pull-right" id="mission_out_'+id+'"></div>');
         var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="Mission aus/ein-blenden">hide</a>');
-        h.prepend($button);
+        div.prepend($button);
         icon.attr('id', 'icon_' + id).hide();
         h.prepend(icon);
+        h.prepend(div);
     }
     win.missionMarkerAdd = function (t) {
         missionMarkerAddBuffer(t);
@@ -41,7 +43,7 @@
         patienten(t.id, t.patients_count);
     };
     function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_panel_heading_' + id).append('<small class="pull-right lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>');
+        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_out_' + id).append('<small class="pull-right lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>');
     }
     // Fix load Problem einmalig am Anfang alle schon vorhandenen Einsätze durgehen und bearbeiten
     $('div.missionSideBarEntry:not(:hidden)').each(function () {
