@@ -65,6 +65,7 @@
                         e.html('show');
                         e.removeClass('btn-success').addClass('btn-danger');
                         $('#mission_panel_heading_' + e.data('header')).next().hide();
+                        $('#icon_'+ e.data('header')).toggle();
                     });
                 } else {
                     e.removeClass('btn-danger').addClass('btn-success');
@@ -72,6 +73,7 @@
                     $('.MissionOut').not(':hidden').each(function () {
                         var e = $(this);
                         e.html('hide');
+                        $('#icon_'+ e.data('header')).toggle();
                         $('#mission_panel_heading_' + e.data('header')).next().show();
                         e.removeClass('btn-danger').addClass('btn-success');
                     });
