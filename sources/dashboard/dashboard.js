@@ -1,13 +1,13 @@
-(function ($,I18n,window) {
+(function ($, I18n, window) {
     var set = {
-        locale: I18n.locale||'de',
-        translations:{
-            de:{
-                categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus','Wasserrettung'],
-                ge:'Gebäude',
-                school:'Schulen',
-                wachen:'Wachen',
-                anz:'Anzahl'
+        locale: I18n.locale || 'de',
+        translations: {
+            de: {
+                categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung'],
+                ge: 'Gebäude',
+                school: 'Schulen',
+                wachen: 'Wachen',
+                anz: 'Anzahl'
             }
         }
     };
@@ -32,7 +32,7 @@
                 case BUILDING_TYPE_FEUERWEHRSCHULE:
                     building_amount.fw_school += 1;
                     break;
-                /*Rettungsdienst*/
+                    /*Rettungsdienst*/
                 case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
                 case BUILDING_TYPE_SEG:
                 case BUILDING_TYPE_RETTUNGSWACHE:
@@ -43,8 +43,8 @@
                     break;
                 case BUILDING_TYPE_HOSPITAL:
                     building_amount.kh += 1;
-                    break;    
-                /*Pol*/
+                    break;
+                    /*Pol*/
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                 case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
                 case BUILDING_TYPE_POLIZEIWACHE:
@@ -53,186 +53,82 @@
                 case BUILDING_TYPE_POLIZEISCHULE:
                     building_amount.pol_school += 1;
                     break;
-                /*THW*/
+                    /*THW*/
                 case BUILDING_TYPE_THW:
                     building_amount.thw += 1;
                     break;
                 case BUILDING_TYPE_THW_BUNDESSCHULE:
                     building_amount.thw_school += 1;
                     break;
-                /*Wasserrettung*/
+                    /*Wasserrettung*/
                 case BUILDING_TYPE_WASSERRETTUNG:
                     building_amount.wret += 1;
             }
         });
         $('#buildings_chart').highcharts({
             chart: {type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200'},
-            colors: ["red", "orange", "green", "blue", "gold",'black'],
+            colors: ["red", "orange", "green", "blue", "gold", 'black'],
             title: {text: set.translations[set.locale].ge},
-            xAxis: {categories:set.translations[set.locale].categories},
-            yAxis: {title: {text:set.translations[set.locale].anz}},
+            xAxis: {categories: set.translations[set.locale].categories},
+            yAxis: {title: {text: set.translations[set.locale].anz}},
             legend: {enabled: false},
             series: [{
                     name: set.translations[set.locale].wachen,
                     colorByPoint: true,
-                    data: [building_amount.fw, building_amount.rd, building_amount.pol, building_amount.thw,building_amount.wret]
+                    data: [building_amount.fw, building_amount.rd, building_amount.pol, building_amount.thw, building_amount.wret]
                 },
                 {
-                    name: set.translations[set.locale].school+'/'+set.translations[set.locale].ge,
+                    name: set.translations[set.locale].school + '/' + set.translations[set.locale].ge,
                     colorByPoint: true,
                     data: [building_amount.fw_school, building_amount.rd_school, building_amount.pol_school, building_amount.thw_school, building_amount.kh]
                 }]
         });
         // Car-Donut-Charts
-        var cars = {
-            'fw': {'data': [], 'total': 0},
-            'rd': {'data': [], 'total': 0},
-            'pol': {'data': [], 'total': 0},
-            'thw': {'data': [], 'total': 0}};
+        var cars = [
+            {'data': [], 'total': 0},
+            {'data': [], 'total': 0},
+            {'data': [], 'total': 0},
+            {'data': [], 'total': 0},
+            {'data': [], 'total': 0}];
         // Go through all cars and put them where they belong
         $.each(car_list_all(), function (key, veh) {
-            if (fz_type(veh.type) == 0) {
-                // Firefighters
-                cars.fw.total += 1;
-                if (Object.prototype.hasOwnProperty.call(cars.fw.data, veh.type)) {
-                    cars.fw.data[veh.type].y += 1;
-                } else {
-                    cars.fw.data[veh.type] = {name: carsById[veh.type], y: 1};
-                }
-            } else if (fz_type(veh.type) == 1) {
-                // Ambulance
-                cars.rd.total += 1;
-                if (Object.prototype.hasOwnProperty.call(cars.rd.data, veh.type)) {
-                    cars.rd.data[veh.type].y += 1;
-                } else {
-                    cars.rd.data[veh.type] = {name: carsById[veh.type], y: 1};
-                }
-            } else if (fz_type(veh.type) == 2) {
-                // Police
-                cars.pol.total += 1;
-                if (Object.prototype.hasOwnProperty.call(cars.pol.data, veh.type)) {
-                    cars.pol.data[veh.type].y += 1;
-                } else {
-                    cars.pol.data[veh.type] = {name: carsById[veh.type], y: 1};
-                }
+            var c = fz_type[veh.type];
+            cars[c].total += 1;
+            if (typeof (cars[c].data[veh.type]) !== 'undefined') {
+                cars[c].data[veh.type].y += 1;
             } else {
-                // Technical emergency service
-                cars.thw.total += 1;
-                if (Object.prototype.hasOwnProperty.call(cars.thw.data, veh.type)) {
-                    cars.thw.data[veh.type].y += 1;
-                } else {
-                    cars.thw.data[veh.type] = {name: carsById[veh.type], y: 1};
-                }
+                cars[c].data[veh.type] = {name: carsById[veh.type], y: 1};
             }
         });
         // Remove unused keys
-        cars.fw.data = $.grep(cars.fw.data, function (k, v) {
+        function gr(k) {
             return (k != "" && k != null);
-        });
-        cars.rd.data = $.grep(cars.rd.data, function (k, v) {
-            return (k != "" && k != null);
-        });
-        cars.pol.data = $.grep(cars.pol.data, function (k, v) {
-            return (k != "" && k != null);
-        });
-        cars.thw.data = $.grep(cars.thw.data, function (k, v) {
-            return (k != "" && k != null);
-        });
-        if (cars.fw.total > 0) {
-            // Firefighter chart
-            $('#ff-fz').highcharts({
-                chart: {backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false},
-                title: {text: ''},
-                tooltip: {pointFormat: '<b>{series.name}: <b>{point.y}</b>'},
-                plotOptions: {
-                    pie: {
-                        dataLabels: {enabled: false},
-                        center: ['50%', '50%']
-                    }
-                },
-                colors: ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"],
-                series: [{
-                        type: 'pie',
-                        name: set.translations[set.locale].anz,
-                        innerSize: '50%',
-                        data: cars.fw.data
-                    }]
-            });
-            $("#ff-ges").html('<h4 style="text-align:center;">Total: ' + cars.fw.total + '</h4>');
-        } else {
-            $("#ff-fz").html('<div class="alert alert-danger">Keine Fahrzeuge vorhanden!</div>');
         }
-        if (cars.rd.total > 0) {
-            // Ambulance chart
-            $('#rd-fz').highcharts({
-                chart: {backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false},
-                title: {text: ''},
-                tooltip: {pointFormat: '<b>{series.name}: <b>{point.y}</b>'},
-                plotOptions: {
-                    pie: {
-                        dataLabels: {enabled: false},
-                        center: ['50%', '50%']
-                    }
-                },
-                colors: ["#f9690e", "#f9bf3b", "#d35400"],
-                series: [{
-                        type: 'pie',
-                        name: set.translations[set.locale].anz,
-                        innerSize: '50%',
-                        data: cars.rd.data
-                    }]
-            });
-            $("#rd-ges").html('<h4 style="text-align:center;">Total: ' + cars.rd.total + '</h4>');
-        } else {
-            $("#rd-fz").html('<div class="alert alert-danger">Keine Fahrzeuge vorhanden!</div>');
-        }
-        if (cars.pol.total > 0) {
-            // Police chart
-            $('#pol-fz').highcharts({
-                chart: {backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false},
-                title: {text: ''},
-                tooltip: {pointFormat: '<b>{series.name}: <b>{point.y}</b>'},
-                plotOptions: {
-                    pie: {
-                        dataLabels: {enabled: false},
-                        center: ['50%', '50%']
-                    }
-                },
-                colors: ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"],
-                series: [{
-                        type: 'pie',
-                        name: set.translations[set.locale].anz,
-                        innerSize: '50%',
-                        data: cars.pol.data
-                    }]
-            });
-            $("#pol-ges").html('<h4 style="text-align:center;">Total: ' + cars.pol.total + '</h4>');
-        } else {
-            $("#pol-fz").html('<div class="alert alert-danger">Keine Fahrzeuge vorhanden!</div>');
-        }
-        if (cars.thw.total > 0) {
-            // Technical emergency service chart
-            $('#thw-fz').highcharts({
-                chart: {backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false},
-                title: {text: ''},
-                tooltip: {pointFormat: '<b>{series.name}: <b>{point.y}</b>'},
-                plotOptions: {
-                    pie: {
-                        dataLabels: {enabled: false},
-                        center: ['50%', '50%']
-                    }
-                },
-                colors: ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#92A1CF"],
-                series: [{
-                        type: 'pie',
-                        name: set.translations[set.locale].anz,
-                        innerSize: '50%',
-                        data: cars.thw.data
-                    }]
-            });
-            $("#thw-ges").html('<h4 style="text-align:center;">Total: ' + cars.thw.total + '</h4>');
-        } else {
-            $("#thw-fz").html('<div class="alert alert-danger">Keine Fahrzeuge vorhanden!</div>');
+        var divs = [['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]], ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]], ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]], ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#92A1CF"]], ["#wret-ges", "#wret-fz"]];
+        for (var i = 0; i < 5; i++) {
+            cars[i].data = $.grep(cars[i].data, gr);
+            if (cars[i].total > 0) {
+                $(divs[i][1]).highcharts({
+                    chart: {backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false},
+                    title: {text: ''},
+                    tooltip: {pointFormat: '<b>{series.name}: <b>{point.y}</b>'},
+                    plotOptions: {
+                        pie: {
+                            dataLabels: {enabled: false},
+                            center: ['50%', '50%']
+                        }
+                    },
+                    colors: divs[i][3],
+                    series: [{
+                            type: 'pie',
+                            name: set.translations[set.locale].anz,
+                            innerSize: '50%',
+                            data: cars[i].data
+                        }]
+                });
+                $(divs[i][0]).html('<h4 style="text-align:center;">Total: ' + cars[i].total + '</h4>');
+            } else
+                $(divs[i][1]).html('<div class="alert alert-danger">Keine Fahrzeuge vorhanden!</div>');
         }
     }
     function load_build_planning() {
@@ -502,5 +398,5 @@
             wp_suche();
         });
     }
-   loadGraphs();
-})(jQuery,I18n,window)
+    loadGraphs();
+})(jQuery, I18n, window)
