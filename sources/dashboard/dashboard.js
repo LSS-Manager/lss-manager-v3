@@ -145,33 +145,24 @@
          personal_count: 6
          user_id: 168556
          */
-        var leitstelle = 0;
         $.each(building_markers_cache, function (i, building) {
             if (building.user_id != user_id) {
                 return;
             }
-            var appendto = "son"
-            vehicles = car_list(building.id)
-            printcars = ""
-            icon = "fa-building-o"
-            icon3 = "fa-car"
-            maxcars = building.level + 1;
+            var appendto = "son",
+                    vehicles = car_list(building.id),
+                    printcars = "",
+                    icon = "fa-building-o",
+                    icon3 = "fa-car",
+                    maxcars = building.level + 1;
 
             switch (building.building_type) {
                 case BUILDING_TYPE_FEUERWACHE:
                     appendto = "fw";
                     break;
-                case BUILDING_TYPE_FEUERWEHRSCHULE:
-                    appendto = "sch";
-                    icon = "fa-university";
-                    break;
                 case BUILDING_TYPE_RETTUNGSWACHE:
                     appendto = "rd";
                     icon = "fa-ambulance";
-                    break;
-                case BUILDING_TYPE_RETTUNGSSCHULE:
-                    appendto = "sch";
-                    icon = "fa-university";
                     break;
                 case BUILDING_TYPE_HOSPITAL:
                     icon3 = "fa-bed";
@@ -187,28 +178,20 @@
                     maxcars = 0;
                     break;
                 case BUILDING_TYPE_POLIZEIWACHE:
+                case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                     appendto = "pol";
-                    break;
-                case BUILDING_TYPE_POLIZEISCHULE:
-                    appendto = "sch";
-                    icon = "fa-university";
                     break;
                 case BUILDING_TYPE_THW:
                     appendto = "thw";
                     break;
+                case BUILDING_TYPE_FEUERWEHRSCHULE:
+                case BUILDING_TYPE_RETTUNGSSCHULE:
+                case BUILDING_TYPE_POLIZEISCHULE:
                 case BUILDING_TYPE_THW_BUNDESSCHULE:
+                    maxcars = 0;
                     appendto = "sch";
                     icon = "fa-university";
                     break;
-                case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
-                    appendto = "pol";
-                    break;
-            }
-            // Schools, Hospitals and Stuff don't have cars
-            if (appendto == "sch")
-                maxcars = 0;
-            if (building.building_type == 7) {
-                leitstelle = building.id;
             }
             $.each(vehicles, function (k, car) {
                 printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open">' + car.name + '</a><br>';
