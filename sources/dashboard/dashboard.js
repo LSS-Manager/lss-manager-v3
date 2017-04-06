@@ -1,4 +1,4 @@
-(function ($, I18n, window) {
+(function ($, I18n) {
     var set = {
         locale: I18n.locale || 'de',
         translations: {
@@ -19,7 +19,6 @@
 
     $('head').append("<style type='text/css' rel='stylesheet' id='dashboard-css'>body {-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#db_wachen_outer>div {-moz-column-count: 4;-moz-column-gap: 10px;-webkit-column-count: 4;-webkit-column-gap: 10px;column-count: 4;column-gap: 10px;width: 100%;height: 100%;-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#wp_sub, #wp_sub2{ display:none;}.db_wachen_item {display: inline-block;width: 100%;}</style>");
 
-    var searchby = "wache";
     function loadGraphs() {
         // Building Bar Chart
         var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0};
@@ -270,36 +269,34 @@
         curtab_wp = tab;
     }
 // Suche nach Wache/Fahrzeug
+    var searchby = "wache";
     function wp_suche() {
-        var val = $("#wp_search").val();
+        var val = $("#wp_search").val(),elements =$("#db_wachen_outer .db_wachen_item"); 
         if (val.length > 0) {
-            if (searchby == "wache") {
-                $(".db_wachen_item .panel-title:not(:conaintsci('" + val + "'))").closest(".db_wachen_item").fadeOut();
-                $(".db_wachen_item .panel-title:conaintsci('" + val + "')").closest(".db_wachen_item").fadeIn();
+            if (searchby === "wache") {
+                elements.find(".panel-title:not(:conaintsci('" + val + "'))").closest(".db_wachen_item").fadeOut();
+                elements.find(".panel-title:conaintsci('" + val + "')").closest(".db_wachen_item").fadeIn();
             } else {
-                $(".db_wachen_item .fz-body:not(:conaintsci('" + val + "'))").closest(".db_wachen_item").fadeOut();
-                $(".db_wachen_item .fz-body:conaintsci('" + val + "')").closest(".db_wachen_item").fadeIn();
+                elements.find(".fz-body:not(:conaintsci('" + val + "'))").closest(".db_wachen_item").fadeOut();
+                elements.find(".fz-body:conaintsci('" + val + "')").closest(".db_wachen_item").fadeIn();
             }
         } else {
-            $("#db_wachen_outer .db_wachen_item").fadeIn();
+            elements.fadeIn();
         }
     }
 // Fill vehicle table
     function populate_fzgtable() {
-        var c_table = $("#db_fzg_outer table tbody")
+        var c_table = $("#db_fzg_outer table tbody");
         c_table.html("");
         var cars = {};
         var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
         $.each(car_list_all(), function (key, veh) {
             var type = carsById[veh.type];
-            if (Object.prototype.hasOwnProperty.call(cars, type) == false) {
+            if(typeof (cars[type]) !== 'undefined'){
                 cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
             }
             switch (veh.fms) {
                 case '3':
-                    cars[type].miss += 1;
-                    total.miss += 1;
-                    break;
                 case '4':
                     cars[type].miss += 1;
                     total.miss += 1;
@@ -342,22 +339,10 @@
 			<td>' + total.fms6 + '</td>\
 			<td>' + total.sum + '</td>\
 		</tr>');
-        /*
-         $.each(car_list_all(),function (key,veh) {
-         if (fz_type(veh.type)==0) {
-         // Firefighters
-         cars.fw.total+=1;
-         if (Object.prototype.hasOwnProperty.call(cars.fw.data, veh.type)) {
-         cars.fw.data[veh.type].y+=1;
-         }else{
-         cars.fw.data[veh.type] = {name:carsById[veh.type] ,y:1};
-         }
-         */
-
     }
 // Bind dashboard buttons (called after dashboard has been loaded... fuck you jquery...)
     function bind_db_buttons() {
-        $("a[id^='wp_a_']").click(function () {
+        $("a[id^='wp_a_']").click(function (e) {
             $("#wp_sub>a").removeClass("active");
             $(this).parent().addClass("active");
             switch_wp_tab($(this).attr('id'));
@@ -371,7 +356,7 @@
             wp_suche();
         });
         $("#wp_switch").click(function () {
-            if (searchby == "wache") {
+            if (searchby === "wache") {
                 $("#wp_switch").html('<i class="fa fa-car"></i>');
                 searchby = "car";
             } else {
@@ -382,4 +367,6 @@
         });
     }
     loadGraphs();
-})(jQuery, I18n, window)
+    bind_db_buttons();
+    load_build_planning();
+})(jQuery, I18n)
