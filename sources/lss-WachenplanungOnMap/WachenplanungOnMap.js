@@ -22,7 +22,7 @@
                     fillOpacity: 0.3,
                     riseOnHover: true
                 }).addTo(map);
-        circle.bindLabel(cars);
+        circle.bindTooltip(cars);
         markers[id] = circle;
     }
     function mapReload(e) {
