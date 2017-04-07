@@ -22,7 +22,7 @@
 // einladen der verfügbaren module
 // activeModule()
 //
-(function() {
+(function(I18n,$) {
     // alle Settings die immer wieder benötigt werden
     $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
     var set = {
@@ -162,6 +162,86 @@
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
+        },
+        keyboard: {
+            name: {
+                de: 'Keyboard Alarmierung',
+                en: 'Keyboard control',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'Einsatzmaske mit Tastatur steuern.'
+            },
+            ghuser: 'ChaosKai',
+            source: '/lss-tastaturalarmierung/keyboard.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@ChaosKai'
+        },
+        get_buildings_helper: {
+            name: {
+                de: 'get_buildings_helper',
+                en: 'Keyboard control',
+                nl: '-'
+            },
+            active: true,
+            description: {
+                de: 'get_buildings_helper.'
+            },
+            ghuser: 'lss-manager',
+            source: '/helperFunctions/get_buildings.js',
+            develop: true,
+            version: 'v 0.1',
+            copyright: '@lss-manager'
+        },
+        car_list_printable: {
+            name: {
+                de: 'car_list_printable',
+                en: 'Keyboard control',
+                nl: '-'
+            },
+            active: true,
+            description: {
+                de: 'car_list_printable.'
+            },
+            ghuser: 'lss-manager',
+            source: '/helperFunctions/car_list_printable.js',
+            develop: true,
+            version: 'v 0.1',
+            copyright: '@lss-manager'
+        },
+        car_list: {
+            name: {
+                de: 'car_list',
+                en: 'Keyboard control',
+                nl: '-'
+            },
+            active: true,
+            description: {
+                de: 'car_list.'
+            },
+            ghuser: 'lss-manager',
+            source: '/helperFunctions/car_list.js',
+            develop: true,
+            version: 'v 0.1',
+            copyright: '@lss-manager'
+        },
+        dashboard: {
+            name: {
+                de: 'Dashboard',
+                en: 'SDashboard',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'Statistik'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-dashboard/dashboard.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
@@ -260,5 +340,5 @@
 
     loadSettings();
     appendAppstore();
-    loadModule();
-})()
+    loadModule();    
+})(I18n,jQuery)
