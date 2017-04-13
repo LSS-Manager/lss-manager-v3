@@ -3,7 +3,7 @@
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
-        }, prefix: 'WachenplanungOnMap'}, types = {0: ['red', 'fw'], 6: ['green', 'pol'], 2: ['orange', 'rw'], 9: ['darkblue', 'thw'], 11: ['lightblue', 'bp'], 4: ['black', 'kh']};
+        }, prefix: 'WachenplanungOnMap'}, types = {0: ['#ff4b38', 'fw'], 6: ['#1d9b1d', 'pol'], 2: ['#f9ffb7', 'rw'], 9: ['#002aff', 'thw'], 11: ['#0e4f0e', 'bp'], 4: ['#fff000', 'kh'], 12: ['#cdd668','seg'], 15: ['#009dff','wr'], 13: ['#147014','phl'], 5: ['#e6f268','rhl']};
     function rmLayer(id) {
         if (typeof id === 'undefined') {
             $.each(markers, function (key, value) {
@@ -37,10 +37,10 @@
             case settings.prefix + '_map_reload':
                 mapReload(el);
                 break;
-            case settings.prefix + '_x_radius':
-                settings.set['radius'] = Number(el.val());
-                drawCircles(true);
-                break;
+            //case settings.prefix + '_x_radius':
+            //    settings.set['radius'] = Number(el.val());
+            //    drawCircles(true);
+            //    break;
             case settings.prefix + '_mark_fw':
                 settings.set['fw'] = el.prop('checked');
                 drawCircles(false, 0);
@@ -65,22 +65,42 @@
                 settings.set['kh'] = el.prop('checked');
                 drawCircles(false, 4);
                 break;
+            case settings.prefix + '_mark_seg':
+                settings.set['seg'] = el.prop('checked');
+                drawCircles(false, 12);
+                break;
+            case settings.prefix + '_mark_wr':
+                settings.set['wr'] = el.prop('checked');
+                drawCircles(false, 15);
+                break;
+            case settings.prefix + '_mark_phl':
+                settings.set['phl'] = el.prop('checked');
+                drawCircles(false, 13);
+                break;
+            case settings.prefix + '_mark_rhl':
+                settings.set['rhl'] = el.prop('checked');
+                drawCircles(false, 5);
+                break;
         }
         localStorage.setItem(settings.prefix,JSON.stringify(settings.set));
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
-        html += '<div class="col-md-4">Map Reload<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_map_reload" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_map_reload"></label></div></div>';
-        html += '<div class="col-md-4">Radius<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_x_radius" ' + (settings.set.radius ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_x_radius"></label></div></div>';
-        html += '<div class="col-md-4">Feuerwehr<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div></div>';
-        html += '<div class="col-md-4">Polizei<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div></div>';
-        html += '<div class="col-md-4">Rettungsdienst<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rw" ' + (settings.set.rw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rw"></label></div></div>';
-        html += '<div class="col-md-4">THW<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" ' + (settings.set.thw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div></div>';
-        html += '<div class="col-md-4">Bereitschaftspolizei<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" ' + (settings.set.bp ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_bp"></label></div></div>';
-        html += '<div class="col-md-4">Krankenhaus<div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" ' + (settings.set.kh ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_kh"></label></div></div>';
+        html += '<div><span class="label label-default" style="margin-bottom:10px;">Radius</span><div id="lssm_radius_slider"><div id="lssm_radius_handle" class="label label-info ui-slider-handle"></div></div></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div><span class="label label-fw">Feuerwehr</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div><span class="label label-pol">Polizei</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_phl" ' + (settings.set.phl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_phl"></label></div><span class="label label-phl">Polizei Helikopter</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" ' + (settings.set.bp ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_bp"></label></div><span class="label label-bp">Bereitschaftspolizei</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rw" ' + (settings.set.rw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rw"></label></div><span class="label label-rw">Rettungsdienst</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rhl" ' + (settings.set.rhl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rhl"></label></div><span class="label label-rhl">Rettungs Helikopter</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_seg" ' + (settings.set.seg ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_seg"></label></div><span class="label label-seg">SEG</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" ' + (settings.set.kh ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_kh"></label></div><span class="label label-kh">Krankenhaus</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" ' + (settings.set.thw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div><span class="label label-thw">THW</span></div>';        
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_wr" ' + (settings.set.wr ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_wr"></label></div><span class="label label-wr">Wasserrettung</span></div>';
         html += '</div>';
-        $('body').append(html);
+        $('#map_outer').append(html);
         $('#' + settings.prefix + '_settings').change(changeSetting);
+        setCircleRadius();
     }
     function drawCircles(all, type) {
         var data = get_buildings();
@@ -96,6 +116,26 @@
             }
         });
     }
+
+    function setCircleRadius(){
+        var handle = $( "#lssm_radius_handle" );
+        $( "#lssm_radius_slider" ).slider({
+            min: 3,
+            max: 50,
+            value: settings.set.radius,
+            
+            create: function() {
+                handle.text( $( this ).slider( 'value' ) + ' km');
+            },
+            slide: function( event, ui ) {
+                handle.text( ui.value + ' km' );
+                settings.set.radius = ui.value;
+            },
+            stop: function( event, ui ) {
+                drawCircles(true);
+            }
+        });
+    }
     // settings mit settings aus Storage erweitern
     map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
     $.extend(settings.set,JSON.parse(localStorage.getItem(settings.prefix)));
@@ -104,4 +144,3 @@
     // alle aktiven Typen zeichnen
     drawCircles(true);
 })(map, I18n, jQuery)
-

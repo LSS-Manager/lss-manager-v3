@@ -13,10 +13,17 @@
         translations: {
             de: {
                 example: "Dies ist ein Beipsiel",
+<<<<<<< HEAD
                 id:"{id} fügt die FahrzeugId ein",
                 old:"{old} fügt den Alten Namen ein",
                 vehicleType:"{vehicleType} fügt den Typen des Fahrzeuges ein ",
                 stationName:"{stationName} fügt den Wachennamen ein"
+=======
+                id:"{id} fÃ¼gt die FahrzeugId ein",
+                old:"{old} fÃ¼gt den Alten Namen ein",
+                vehicleType:"{vehicleType} fÃ¼gt den Typen des Fahrzeuges ein ",
+                stationName:"{stationName} fÃ¼gt den Wachennamen ein"
+>>>>>>> origin/dev
             }
         }
     }, token;
@@ -53,7 +60,7 @@
     });*/
     function creatForm(vehicleId, value) {
         var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '">';
-        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
+        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="âœ“"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
         formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
         formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
         $('#vehicle_form_holder_' + vehicleId).html(formHTML);
