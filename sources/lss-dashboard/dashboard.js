@@ -11,9 +11,9 @@
             }
         }
     };
-    jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
+    $.expr[":"].conaintsci = $.expr.createPseudo(function (arg) {
         return function (elem) {
-            return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
         };
     });
 
@@ -365,6 +365,9 @@
             }
             wp_suche();
         });
+    }
+    function createDashboard(){
+        $('#content').after('<div id="dashboard_outer"></div>');
     }
     loadGraphs();
     bind_db_buttons();
