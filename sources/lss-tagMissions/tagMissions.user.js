@@ -1,4 +1,5 @@
-// save game functions to keep them alive
+(function($){
+        // save game functions to keep them alive
 var buffermMa = missionMarkerAdd;
 var buffermPa = mission_participation_add;
 
@@ -33,3 +34,4 @@ function tagMissions(t){
 $('.glyphicon.glyphicon-asterisk.hidden').parent().parent().addClass('lss_new_case_in_progress');
 $('.glyphicon.glyphicon-asterisk:not(.hidden)').parent().parent().addClass('lss_new_case');
 $('.panel.panel-default.lss_new_case_in_progress.panel-success, .panel.panel-default.lss_new_case.panel-success').addClass('lss_allianceCase');  
+})($);
