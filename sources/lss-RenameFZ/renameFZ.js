@@ -12,11 +12,15 @@
         },
         translations: {
             de: {
-                example: "Dies ist ein Beipsiel"
+                example: "Dies ist ein Beipsiel",
+                id:"{id} fügt die FahrzeugId ein",
+                old:"{old} fügt den Alten Namen ein",
+                vehicleType:"{vehicleType} fügt den Typen des Fahrzeuges ein ",
+                stationName:"{stationName} fügt den Wachennamen ein"
             }
         }
     }, token;
-    $.ajax({url: '/vehicles/5710510/editName', success: function (d) {
+    /*$.ajax({url: '/vehicles/5710510/editName', success: function (d) {
             token = d.match(/authenticity_token.* value="(.*)"/)[1];
             $('.vehicle_edit_button').each(showForms);
         }});
@@ -46,10 +50,10 @@
         });
 
 
-    });
+    });*/
     function creatForm(vehicleId, value) {
         var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '">';
-        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
+        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
         formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
         formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
         $('#vehicle_form_holder_' + vehicleId).html(formHTML);
@@ -72,10 +76,16 @@
         set.option.vehicleType = cars[vehicleType];
         creatForm(id, replaceString(vehicleType));
     }
-    /*function createSettings(){
+    function createSettings(){
+        var str =set.translations[set.locale];
         var mainDiv = $('<div id=renameFzSettings></div>');
-        var html = 
-    }*/
-    
+        var html = '<div>'+str.example+'<br>'+set.str.default+'<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div>';
+        html +='<div><a href="#">'+str.id+'</a><a href="#">'+str.old+'</a><a href="#">'+str.vehicleType+'</a><a href="#">'+str.stationName+'</a></div>';
+        html+='<div><input id="lss_rename" type="text"\></div>';
+        mainDiv.append(html);
+        var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
+        $('#vehicle_table tbody:first').prepend(tr);
+    }
+    createSettings();
 
 })(I18n, jQuery);
