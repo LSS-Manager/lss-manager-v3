@@ -1,5 +1,6 @@
 (function (I18n, $) {
     var set = {
+        locale:I18n.locale,
         option: {
             id: '',
             old: '',
@@ -19,14 +20,6 @@
             token = d.match(/authenticity_token.* value="(.*)"/)[1];
             $('.vehicle_edit_button').each(showForms);
         }});
-    function creatForm(vehicleId, value) {
-        var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '">';
-        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
-        formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-3 control-label"></div><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
-        formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
-        $('#vehicle_form_holder_' + vehicleId).html(formHTML);
-    }
-
     $('#tab_vehicle').on('submit', '.vehicle_form', function (e) {
 
         var post_data = $(this).serialize();
@@ -42,7 +35,7 @@
                 tellParent('buildingLoadContent("/buildings");');
                 $("#vehicle_form_holder_" + vehicle_id).hide();
                 var newName = $("#vehicle_new_name_" + vehicle_id).val();
-                $("#vehicle_link_" + vehicle_id).html(newName);
+                $("#vehicle_link_" + vehicle_id).html(newName).next().show();
 
                 $(this).html("saved");
             },
@@ -54,6 +47,13 @@
 
 
     });
+    function creatForm(vehicleId, value) {
+        var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '">';
+        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="?"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
+        formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
+        formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
+        $('#vehicle_form_holder_' + vehicleId).html(formHTML);
+    }
     function replaceString(type) {
         var str = set.str[type] ? set.str[type].repeat(1) : set.str.default;
         for (var i in set.option) {
@@ -61,7 +61,6 @@
         }
         return str;
     }
-
     function showForms() {
         $(this).hide(); // stife weg
         var tr = $(this).closest('tr');
@@ -73,5 +72,10 @@
         set.option.vehicleType = cars[vehicleType];
         creatForm(id, replaceString(vehicleType));
     }
+    /*function createSettings(){
+        var mainDiv = $('<div id=renameFzSettings></div>');
+        var html = 
+    }*/
+    
 
 })(I18n, jQuery);
