@@ -13,17 +13,10 @@
         translations: {
             de: {
                 example: "Dies ist ein Beipsiel",
-<<<<<<< HEAD
                 id:"{id} fügt die FahrzeugId ein",
                 old:"{old} fügt den Alten Namen ein",
                 vehicleType:"{vehicleType} fügt den Typen des Fahrzeuges ein ",
                 stationName:"{stationName} fügt den Wachennamen ein"
-=======
-                id:"{id} fÃ¼gt die FahrzeugId ein",
-                old:"{old} fÃ¼gt den Alten Namen ein",
-                vehicleType:"{vehicleType} fÃ¼gt den Typen des Fahrzeuges ein ",
-                stationName:"{stationName} fÃ¼gt den Wachennamen ein"
->>>>>>> origin/dev
             }
         }
     }, token;
