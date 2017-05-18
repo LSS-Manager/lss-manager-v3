@@ -1,0 +1,95 @@
+#map_outer {
+	top: 0px;
+	width: 70%;
+	height: calc(100vh - 90px);
+	padding: 0;
+}
+
+#map {
+	height:100% !important;
+}
+
+#missions_outer, #buildings_outer, #chat_outer, #radio_outer{
+	width: calc(30% - 90px);
+	height: calc(100vh - 90px);
+	margin-left: 20px;
+	padding: 0 !important;
+	float:left;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+#buildings_outer, #chat_outer, #radio_outer {
+	display:none;
+}
+
+#missions-panel-body {
+	height: 100% !important;
+	padding: 0 !important;
+}
+#buildings_outer .panel-body{
+	height: calc(100vh - 135px) !important;
+	padding-bottom: 0;
+	max-height:100% !important;
+}
+#chat_outer .panel-body, #radio_outer .panel-body{
+	height: calc(100% - 40px) !important;
+	max-height: 100% !important;
+	padding-bottom: 0 !important;
+}
+
+#chat_outer > div, #radio_outer > div, #radio > div {
+	height: 100%;
+	margin: 0;
+}
+#missions {
+	height:100%;
+}
+
+#lssm_menu {
+	width: 45px;
+	height: calc(100vh - 90px);
+	position: absolute;
+	top: 80px;
+	right: 17px;
+	border-radius: 5px;
+	z-index: 999;
+}
+
+#lssm_menu div {
+	margin-bottom:20px;
+}
+
+.lssm_menu_btn {
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 4px;
+}
+
+.lssm_menu_btn:hover {
+	background-color: #fb3c35;
+	cursor: pointer;
+}
+
+.lssm_menu_btn_active {
+	padding: 10px;
+	background-color: #c9302c;
+	border-radius: 4px;
+}
+.lssm_menu_btn_active img{
+	-webkit-filter: invert(100%) contrast(10); 
+	filter: invert(100%) contrast(10);
+}
+.lssm_menu_btn_svg:hover{
+	-webkit-filter: invert(100%) contrast(10); 
+	filter: invert(100%) contrast(10);
+}
+
+.lssm_menu_btn_svg {
+	width: 20px;
+}
+
+
+#WachenplanungOnMap_settings{
+	left:0 !important;
+}
