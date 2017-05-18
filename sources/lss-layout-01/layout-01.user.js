@@ -33,7 +33,27 @@
       allianceChatBuffer(e);
   };
   $('#chat').click(function(){
-    var newMessages = 0;
+    newMessages = 0;
     $('#lssm_messageAmount').text('');
   });
+
+	$('a#missions').append('<span id="lssm_callsAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
+		var newCalls = 0;
+
+		var missionMarkerAddBuffer = missionMarkerAdd;
+		missionMarkerAdd = function(e){
+			console.log('new missionmarker add: ', e,$('#mission_'+e.id).length,$('#missions_outer').is(':hidden'));
+			if(!$('#mission_'+e.id).length && $('#missions_outer').is(':hidden')){
+				newCalls++;
+				$('#lssm_callsAmount').text(newCalls);
+				console.log('neu: '+newCalls);
+			};
+			missionMarkerAddBuffer(e);
+		};
+
+		$('a#missions').click(function(){
+			newCalls = 0;
+			$('#lssm_callsAmount').text('');
+		});
+
 })();
