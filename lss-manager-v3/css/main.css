@@ -1,7 +1,7 @@
-/* ################################## 
+/* ##################################
   TABLE OF CONTENTS STLYES
         reset LSS
-        general 
+        general
         appstore/plugin
         switch
         custom
@@ -19,7 +19,7 @@
 
 
 
-/* ################################################## 
+/* ##################################################
 
               LSS STYLE RESETS
 
@@ -98,7 +98,7 @@ nav, .navbar-default {
 
 
 
-/* ################################################## 
+/* ##################################################
 
               GENERAL STYLES
 
@@ -111,23 +111,32 @@ body {
   background-color: #eee !important;
 }
 
-div#preloader { 
+div#preloader {
   text-align:center;
   z-index:9999;
-  position: fixed; 
-  left: 0; 
-  top: 0; 
-  z-index: 999; 
-  width: 100%; 
-  height: 100%; 
-  overflow: visible; 
-  background: rgba(255,255,255,1) 
-  url('https://i.stack.imgur.com/h6viz.gif') no-repeat center center !important; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: rgba(255,255,255,1)
+  url('https://i.stack.imgur.com/h6viz.gif') no-repeat center center !important;
+}
+
+.btn__disabled{
+  pointer-events: none;
+  color: #ddd;
+  background-color: #eee;
+}
+
+.btn__disabled:hover{
+
 }
 
 
-
-/* ################################################## 
+/* ##################################################
 
               APPSTORE/PLUGIN STYLES
 
@@ -146,7 +155,7 @@ div#preloader {
 
 #lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
   background-color: #f3ebee;
-  color: #4a4a4a !important; 
+  color: #4a4a4a !important;
   padding: 5px;
   border-radius: 2px;
 
@@ -210,7 +219,7 @@ div#preloader {
 
 .username-link:hover {
   color: #ddd !important;
-  text-decoration: none !important; 
+  text-decoration: none !important;
 }
 
 #lssm_appstore_settingsbar {
@@ -341,7 +350,7 @@ div#preloader {
 
 
 
-/* ################################################## 
+/* ##################################################
 
               SWITCH STYLES
 
@@ -396,7 +405,7 @@ div#preloader {
 
 
 
-/* ################################################## 
+/* ##################################################
 
               CUSTOM STYLES
 
@@ -422,14 +431,14 @@ nav.navbar.navbar-default {
   padding: 3px;
 }
 
-/* Einsatzliste Hervorhebung Einsatz wird bearbeitet 
+/* Einsatzliste Hervorhebung Einsatz wird bearbeitet
 https://i.imgur.com/b2XhPdo.png
 div#mission_panel_473668535.panel.panel-default {
   border-left: solid 5px #2ecc71;
   border-radius: 3px
 }
 */
-/* Einsatzliste Hervorhebung Einsatz NEU 
+/* Einsatzliste Hervorhebung Einsatz NEU
 https://i.imgur.com/Pa3Y6V4.png
 
 div#mission_panel_473668535.panel.panel-default {
@@ -460,12 +469,12 @@ a#alarm_button {
   margin-left: 1px;
 }
 
-/* Versteckt die Addresse in der Einsatzliste 
+/* Versteckt die Addresse in der Einsatzliste
 .map_position_mover small {
   display: none;
 }
 */
-/* panel heading einsatzliste 
+/* panel heading einsatzliste
 div.panel-heading {
   margin-bottom: 10px;
 }
@@ -613,8 +622,8 @@ span.building_list_fms.building_list_fms_5 {
   animation: blinkAlliance .5s step-end infinite alternate;
 }
 
-@keyframes blinkAlliance { 
-   50% { border-color: #ff0000; } 
+@keyframes blinkAlliance {
+   50% { border-color: #ff0000; }
 }
 
 
