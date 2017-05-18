@@ -1,0 +1,699 @@
+/* ################################## 
+  TABLE OF CONTENTS STLYES
+        reset LSS
+        general 
+        appstore/plugin
+        switch
+        custom
+
+        PLUGIN STYLES
+        missionout
+        redesign
+        chat-popup
+        tableau
+        nightmode
+        wachenplanung
+        gebäudeplanung
+
+################################## */
+
+
+
+/* ################################################## 
+
+              LSS STYLE RESETS
+
+################################################## */
+
+div#lightbox_box {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
+  padding: 20px;
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.panel-footer{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+/*.pull-right{
+  float: right !important
+}*/
+
+/* reset sebastians shitty bootstrap design ffs */
+/* #col_navbar_holder {
+  padding:0 !important;
+  border-radius: 0 !important;
+  position: fixed;
+  z-index: 9999;
+}*/
+nav, .navbar-default {
+  background-color: #E74C3C !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+#navbar-main-collapse {
+  border:0 !important;
+}
+
+.dropdown-menu {
+  background-color: rgb(225, 74, 42) !important;
+  border:none !important;
+  border-radius: 0 0 5px 5px;
+}
+
+.logo {display:none !important;}
+
+/*#map_adress_search {
+  border: none !important;
+  height: 50px;
+  padding: 15px;
+  margin: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  -moz-box-shadow:    inset 0 0 10px rgba(74, 74, 74, 0.45);
+  -webkit-box-shadow: inset 0 0 10px rgba(74, 74, 74, 0.45);
+  box-shadow:         inset 0 0 10px rgba(74, 74, 74, 0.45);
+  background-color: #f3352e;
+  color: white !important;
+}
+
+#map_adress_search:focus {
+  border: 0 !important;
+  outline: 0 !important;
+}
+
+#map_adress_search_form{
+  padding: 0;
+  margin: 0;
+}*/
+
+
+
+/* ################################################## 
+
+              GENERAL STYLES
+
+################################################## */
+
+* {
+  background-image: none !important;
+}
+body {
+  background-color: #eee !important;
+}
+
+div#preloader { 
+  text-align:center;
+  z-index:9999;
+  position: fixed; 
+  left: 0; 
+  top: 0; 
+  z-index: 999; 
+  width: 100%; 
+  height: 100%; 
+  overflow: visible; 
+  background: rgba(255,255,255,1) 
+  url('https://i.stack.imgur.com/h6viz.gif') no-repeat center center !important; 
+}
+
+
+
+/* ################################################## 
+
+              APPSTORE/PLUGIN STYLES
+
+################################################## */
+
+/*# SETZT EINEN GELB/SCHWARZ GESTREIFTEN BANNER AM ENDE EINES PLUGINS #*/
+.lssm_Module_develop .panel-footer {
+  background: repeating-linear-gradient(
+  45deg,
+  rgba(255, 219, 27, 1),
+  rgba(255, 219, 27, 1) 10px,
+  rgba(74, 74, 74, 1) 10px,
+  rgba(74, 74, 74, 1) 25px
+  ) !important;
+}
+
+#lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
+  background-color: #f3ebee;
+  color: #4a4a4a !important; 
+  padding: 5px;
+  border-radius: 2px;
+
+}
+
+#lssm_appstore h4 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.lssm_Module_develop label {
+  display: none;
+}
+
+
+#lssm_appstore .panel{
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  display: inline-block;
+}
+
+#lssm_appstore .panel-default{
+  border-color: #ddd;
+  width: 40%
+}
+
+#lssm_appstore .panel-body{
+  padding: 15px
+}
+
+
+#lssm_appstore  small {
+  font-size: 85%
+}
+#lssm_appstore  h4{
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit
+}
+
+
+#lssm_appstore_row {
+  margin-top: 15px;
+}
+
+#lssm_appstore_row .jumbotron {
+  background-color: #ddd;
+  margin-bottom: 0 !important;
+}
+
+.username-link {
+  color: white;
+  text-decoration: none;
+}
+
+.username-link:hover {
+  color: #ddd !important;
+  text-decoration: none !important; 
+}
+
+#lssm_appstore_settingsbar {
+  width: 100%;
+  border-radius: 0 0 7px 7px !important;
+  margin-top: -5px;
+  background-color: #4a4a4a !important;
+  margin-bottom: 15px;
+}
+
+.lssm_appstore_settingsbar_div {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-grey {
+  background-color: #afadb2 !important;
+  border:none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  color: white;
+}
+
+.btn-grey:hover {
+  background-color:#a2a0a5 !important;
+  color: #eee !important;
+}
+
+#lss_clock {
+  position: relative;
+  z-index: 9998;
+  color: #fff;
+  float: right;
+  margin: 10px;
+  font-weight: 900;
+}
+#lss_clock + span:after {
+  content: ':'
+}
+
+#lss_clock span {
+  padding:3px;
+  background-color: #212121;
+}
+
+#WachenplanungOnMap_settings {
+  position: absolute !important;
+  z-index: 9999;
+  background-color: rgba(255, 255, 255, 0.86);
+  bottom: 0;
+  left: 15px;
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+  padding: 5px !important;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+#lssm_radius_slider {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+.lssm_wachen_selector {
+  display: flex;
+  margin: 2px;
+
+}
+
+.lssm_wachen_selector .onoffswitch {
+  margin-right:5px;
+}
+
+.lssm_wachen_selector .onoffswitch  .onoffswitch-label:before {
+  margin-top: -.5px !important;
+  margin-bottom: 4.5px !important;+
+  right: 14.5px;
+}
+
+.label-fw {
+  background-color: #ff4b38 !important;
+}
+
+
+.label-rw {
+  background-color: #f9ffb7 !important;
+  color: #4a4a4a !important
+}
+
+.label-rhl {
+  background-color: #e6f268 !important;
+  color: #4a4a4a !important;
+}
+
+.label-seg{
+  background-color: #cdd668 !important;
+  color: #4a4a4a !important;
+}
+
+.label-pol {
+  background-color: #1d9b1d !important;
+}
+
+.label-phl {
+  background-color: #147014 !important;
+}
+
+.label-bp {
+  background-color: #0e4f0e !important
+}
+
+.label-thw {
+  background-color: #002aff !important;
+}
+
+.label-kh {
+  background-color: #fff000 !important;
+  color: #4a4a4a !important;
+}
+
+.label-wr {
+  background-color: #009dff !important
+}
+
+
+
+
+/* ################################################## 
+
+              SWITCH STYLES
+
+################################################## */
+
+
+.onoffswitch{
+    position:relative;
+    width:30px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none
+}
+.onoffswitch-checkbox{
+    display:none
+}
+.onoffswitch-label{
+    display:block;
+    overflow:hidden;
+    cursor:pointer;
+    height:15px;
+    padding:0;
+    line-height:15px;
+    border:2px solid #CCC;
+    border-radius:15px;
+    background-color:#FFF;
+    transition:background-color .3s ease-in
+}
+.onoffswitch-label:before{
+    content:"";
+    display:block !important;
+    width:15px;
+    margin:0;
+    background:#FFF;
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:13px;
+    border:2px solid #CCC;
+    border-radius:15px;
+    transition:all .3s ease-in 0
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label{
+    background-color:#49E845
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
+    border-color:#49E845
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before{
+   right:0
+}
+
+
+
+/* ################################################## 
+
+              CUSTOM STYLES
+
+################################################## */
+
+/* Hauptcontainer ohne Rand */
+.container-fluid {
+  padding:0;
+}
+
+/* fixes für den row container */
+div#content.row {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* Navbar Abstand zum Container entfernen */
+nav.navbar.navbar-default {
+  margin-bottom: 1px;
+}
+
+.missionSideBarEntry .panel-heading {
+  padding: 3px;
+}
+
+/* Einsatzliste Hervorhebung Einsatz wird bearbeitet 
+https://i.imgur.com/b2XhPdo.png
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #2ecc71;
+  border-radius: 3px
+}
+*/
+/* Einsatzliste Hervorhebung Einsatz NEU 
+https://i.imgur.com/Pa3Y6V4.png
+
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #e74c3c;
+  border-radius: 3px
+}
+*/
+
+/* small patienten anzahl */
+small[id^='pat_'] {
+  margin: 3px;
+  margin-top: 6px;
+}
+
+/* show hide button */
+.MissionOut {
+  margin: 2px;
+}
+
+/* Einsatz Icon */
+img#icon_ {
+  display: none;
+}
+
+/* Alarm Button Einsatzliste*/
+a#alarm_button {
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+/* Versteckt die Addresse in der Einsatzliste 
+.map_position_mover small {
+  display: none;
+}
+*/
+/* panel heading einsatzliste 
+div.panel-heading {
+  margin-bottom: 10px;
+}
+
+für die nachrichten popups - klassen auf label label-danger stellen
+statt 'Chat' -> 'Neue Nachricht!'
+
+
+
+map styles/filter
+
+colerful » filter: saturate(2) contrast(.7) brightness(1.2);
+nightmode » filter: saturate(.5) contrast(.5) brightness(1.2) invert();
+vintage » filter: saturate(.5);
+colors » filter: hue-rotate(90deg);
+
+
+hue-rotate(20deg)contrast(.8) saturate(.5) invert();
+
+colorful
+#map{
+  filter: saturate(2) contrast(.7) brightness(1.2);
+}
+
+  css für fms5 in map
+
+
+*/
+
+.lss_allianceChat {
+  position: fixed;
+  width: 25vw;
+  z-index: 99999;
+  margin-left: -255px;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  display: none;
+}
+
+.lss_label {
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em
+}
+
+.lss_label-danger {
+  background-color: #d9534f
+}
+
+.leaflet-tile-container img {
+  filter: saturate(.5);
+}
+
+
+/* fms 5 in map*/
+
+
+li[class^='radio_message_vehicle_']{
+  margin-bottom: 2px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+li[class^='radio_message_vehicle_'] span {
+  border-radius: 5px 0 0 5px !important;
+  padding: 2px;
+  margin-right: 3px;
+  border: none !important;
+  font-weight: 900;
+}
+li[class^='radio_message_vehicle_'] img {
+  height: 20px;
+  margin-bottom: 2px;
+  margin-left: -3px;
+}
+
+li[class^='radio_message_vehicle_'] a {
+  margin-bottom: 1px;
+  font-size: 11px;
+  padding: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: -3px;
+  border-radius: 0 !important;
+  border: none !important;
+  color: #212121 !important;
+}
+
+li[class^='radio_message_vehicle_'] a + a {
+  margin-left: 1px;
+  background: red;
+  color: white !important;
+  text-transform: uppercase;
+  /*background-color: #ff0000;
+color: white;
+-webkit-animation-name: blink;
+animation-name: blink;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+animation-timing-function: cubic-bezier(1, 0, 0, 1);
+-webkit-animation-duration: 1s;
+  animation-duration: 1s*/
+}
+
+ul#radio_messages_important {
+  position: absolute;
+  z-index: 999;
+  left: 10px  !important;
+  bottom:10px  !important;
+  opacity: 0.7;
+  display: block;
+  list-style-type: none;
+  width: 50%;
+  color: rgba(0, 0, 0, 0);
+  border: none !important;
+  margin: 0  !important;
+  padding: 0  !important;
+}
+
+span.building_list_fms.building_list_fms_5 {
+  border-radius: 5px;
+  padding: 0px;
+  margin-right: 3px;
+}
+
+.lss_new_case {
+  border-left: solid red 5px !important;
+}
+
+.lss_new_case_in_progress {
+  border-left: solid limegreen 5px !important;
+}
+
+.lss_allianceCase {
+  animation: blinkAlliance .5s step-end infinite alternate;
+}
+
+@keyframes blinkAlliance { 
+   50% { border-color: #ff0000; } 
+}
+
+
+
+.ui-slider {
+  position: relative;
+  text-align: left;
+}
+.ui-slider .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  width: 4em;
+  height: 2em;
+  cursor: default;
+  padding: 4px;
+  border-radius: 10px;
+  -ms-touch-action: none;
+  touch-action: none;
+}
+
+.ui-slider-horizontal {
+    height: .8em;
+}
+.ui-slider-horizontal .ui-slider-handle {
+  top: -.6em;
+  margin-left: -.8em;
+}
+
+.ui-widget {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+
+.ui-widget.ui-widget-content {
+    /* border: 1px solid #c5c5c5; */
+}
+.ui-widget-content {
+  border: 1px solid #dddddd;
+  background: #ffffff;
+  color: #333333;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+
+/* We use html here because we need a greater specificity to make sure disabled
+works properly when clicked or hovered */
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+  border: 1px solid #c5c5c5;
+  background: #f6f6f6;
+  font-weight: normal;
+  color: #454545;
+}
+
+/* Corner radius */
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-left,
+.ui-corner-tl {
+  border-top-left-radius: 3px;
+}
+.ui-corner-all,
+.ui-corner-top,
+.ui-corner-right,
+.ui-corner-tr {
+    border-top-right-radius: 3px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-left,
+.ui-corner-bl {
+    border-bottom-left-radius: 3px;
+}
+.ui-corner-all,
+.ui-corner-bottom,
+.ui-corner-right,
+.ui-corner-br {
+    border-bottom-right-radius: 3px;
+}
