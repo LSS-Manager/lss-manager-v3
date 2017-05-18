@@ -15,7 +15,7 @@ var ScriptAPI;
             /*
              * Regstriert das Script
              * erwartet den Scriptnamen,Version des Scrpts, Name des Scripters, ForenLink
-             * lifert true/false zurück
+             * lifert true/false zurï¿½ck
              * true: Script darf laufen
              * false: Script darf nicht laufen
              */
@@ -34,7 +34,7 @@ var ScriptAPI;
                 var standart = false;
                 /*legt das Script neu an*/
                 this.scripts[name] = {'name': name, version: version, 'scripter': scripter, 'forumThread': forumThread, 'freigabe': standart};
-                /*informiert den Server/Sebastian über das neue Script*/
+                /*informiert den Server/Sebastian ï¿½ber das neue Script*/
                 script = this.scripts[name];
                 this.InfoSebastian(this.scripts[name]);
             }
@@ -47,14 +47,14 @@ var ScriptAPI;
         },
         showMessage: function (s) {
             /*
-             * Erzeugt eine Infomessage für den User
+             * Erzeugt eine Infomessage fï¿½r den User
              * Link zum Forumsthreat wird mir angegeben
              */
-            var msg = '<div class="alert alert-danger"><b>' + s.name + '</b> functionirt leider nicht! Bitte Fehler an <a href="' + s.forumThread + '" target="_blank">' + s.scripter + '</a> melden</div>';
+            var msg = '<div class="alert alert-danger"><b>' + s.name + '</b> funktioniert leider nicht! Bitte Fehler an <a href="' + s.forumThread + '" target="_blank">' + s.scripter + '</a> melden</div>';
             $('.container-fluid:first').before(msg);
         },
         InfoSebastian: function (s) {
-            /*schickt aktelles Script, welches wohl noch nicht von Sebastian aufgenommen wurde, 
+            /*schickt aktelles Script, welches wohl noch nicht von Sebastian aufgenommen wurde,
              * an Server
              * So kann Sebastian das Script automatisch aufnehemen
              */
