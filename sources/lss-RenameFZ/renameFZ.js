@@ -13,10 +13,10 @@
         translations: {
             de: {
                 example: "Dies ist ein Beipsiel",
-                id:"{id} fügt die FahrzeugId ein",
-                old:"{old} fügt den Alten Namen ein",
-                vehicleType:"{vehicleType} fügt den Typen des Fahrzeuges ein ",
-                stationName:"{stationName} fügt den Wachennamen ein"
+                id:"{id} FahrzeugId ",
+                old:"{old} Alten Namen ein",
+                vehicleType:"{vehicleType} Typen des Fahrzeugs",
+                stationName:"{stationName} Wachennamen"
             }
         }
     }, token;
@@ -80,7 +80,7 @@
         var str =set.translations[set.locale];
         var mainDiv = $('<div id=renameFzSettings></div>');
         var html = '<div>'+str.example+'<br>'+set.str.default+'<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div>';
-        html +='<div><a href="#">'+str.id+'</a><a href="#">'+str.old+'</a><a href="#">'+str.vehicleType+'</a><a href="#">'+str.stationName+'</a></div>';
+        html +='<div><a href="#" class="btn btn-default btn-xs">'+str.id+'</a><a href="#" class="btn btn-default btn-xs">'+str.old+'</a><a href="#" class="btn btn-default btn-xs">'+str.vehicleType+'</a><a href="#" class="btn btn-default btn-xs">'+str.stationName+'</a></div>';
         html+='<div><input id="lss_rename" type="text"\></div>';
         mainDiv.append(html);
         var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
