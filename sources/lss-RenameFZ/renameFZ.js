@@ -19,7 +19,7 @@
                 stationName:"{stationName} Wachennamen"
             }
         }
-    }, token;
+    }, token,prefix="renameFzSettings";
     /*$.ajax({url: '/vehicles/5710510/editName', success: function (d) {
             token = d.match(/authenticity_token.* value="(.*)"/)[1];
             $('.vehicle_edit_button').each(showForms);
@@ -78,13 +78,15 @@
     }
     function createSettings(){
         var str =set.translations[set.locale];
-        var mainDiv = $('<div id=renameFzSettings></div>');
-        var html = '<div>'+str.example+'<br>'+set.str.default+'<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div>';
-        html +='<div><a href="#" class="btn btn-default btn-xs">'+str.id+'</a><a href="#" class="btn btn-default btn-xs">'+str.old+'</a><a href="#" class="btn btn-default btn-xs">'+str.vehicleType+'</a><a href="#" class="btn btn-default btn-xs">'+str.stationName+'</a></div>';
-        html+='<div><input id="lss_rename" type="text"\></div>';
+        var mainDiv = $('<div id="'+prefix+'"></div>');
+        var html = ''+str.example+'<br>'+set.str.default+'<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div><div id="'+prefix+'_buttons">';
+        for(var i in set.option)
+            html +='<a href="#" class="btn btn-default btn-xs" data-str="{'+i+'}">'+str[i]+'</a>';
+        html+='</div><div><input id="'+prefix+'_string" type="text" value=""\></div>';
         mainDiv.append(html);
         var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
         $('#vehicle_table tbody:first').prepend(tr);
+        
     }
     createSettings();
 
