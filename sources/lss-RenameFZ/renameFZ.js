@@ -1,7 +1,7 @@
 (function (I18n, $) {
     if (!$('#tab_vehicle').length || !$('#iframe-inside-container  img[src*=building_leitstelle]').length)
         return;
-    $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
+    $('#tab_vehicle').one('DOMNodeInserted', 'script', createSettings);
     var set = {
         locale: I18n.locale,
         rename: false,
