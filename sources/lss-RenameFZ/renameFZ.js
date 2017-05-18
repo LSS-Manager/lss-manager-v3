@@ -1,7 +1,7 @@
 (function (I18n, $) {
     if (!$('#tab_vehicle').length || !$('#iframe-inside-container  img[src*=building_leitstelle]').length)
         return;
-    $('#tab_vehicle').one('DOMNodeInserted', 'script', createSettings);
+    $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     var set = {
         locale: I18n.locale,
         rename: false,
@@ -63,12 +63,7 @@
                     $('.vehicle_edit_button').each(showForms);
                 }});
         } else {
-            $('.vehicle_edit_button').each(function () {
-                var data = setOptionsForVehicle($(this));
-                $('#vehicle_new_name_' + data.id).val(replaceString(data.vehicleType));
-                $(this).parent().next().show();
-                $(this).hide();
-            });
+            $('.vehicle_edit_button').each(showForms);
         }
     }
     function creatForm(vehicleId, value) {
@@ -76,7 +71,7 @@
         formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
         formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
         formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
-        $('#vehicle_form_holder_' + vehicleId).html(formHTML);
+        $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
     }
     function replaceString(type) {
         var str = set.str.str != '' ? set.str.str : set.str.default;
@@ -101,6 +96,7 @@
         creatForm(data.id, replaceString(data.vehicleType));
     }
     function createSettings() {
+        if($('#'+prefix).length) return;
         var str = set.translations[set.locale];
         var mainDiv = $('<div id="' + prefix + '"></div>');
         var html = '' + str.example + '<br>' + set.str.bsp + '<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div><div id="' + prefix + '_buttons">';
