@@ -1,6 +1,6 @@
 (function () {
 	if (!window.location.pathname.match(/missions\//)) {
-		$('head').append('<link href="https://lssm-develop.lost.design/sources/lss-layout-01/layout-01.css" type="text/css" rel="stylesheet">');	
+		$('head').append('<link href="https://lssm-develop.lost.design/sources/lss-layout-01/layout-01.css" type="text/css" rel="stylesheet">');
 
 		$('#missions_outer').addClass('lssm_menu_active');
 		$('#missions_outer').after(
@@ -10,7 +10,7 @@
 				+'<div class="lssm_menu_btn_wrapper"><a class="lssm_menu_btn" id="chat"><img class="lssm_menu_btn_svg" src="/images/icons8-chat.svg"></a></div>'
 				+'<div class="lssm_menu_btn_wrapper"><a class="lssm_menu_btn" id="radio"><img class="lssm_menu_btn_svg" src="/images/icons8-walkie_talkie_radio.svg"></a></div>'
 			+'</div>');
-		
+
 		$('.lssm_menu_btn').click(function () {
 			map.invalidateSize(true);
 			var lssm_menu_view = this.id + '_outer';
@@ -20,4 +20,20 @@
 			$('#' + lssm_menu_view).show().addClass('lssm_menu_active');
 		});
 	}
+
+	var newMessages = 0;
+  $('#chat').append('<span id="lssm_messageAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
+
+  var allianceChatBuffer = allianceChat;
+  allianceChat = function (e) {
+      if (e.user_id!=user_id && !e.ignore_audio && $('#chat_outer').is(':hidden')) {
+          newMessages++;
+          $('#lssm_messageAmount').text(newMessages);
+      }
+      allianceChatBuffer(e);
+  };
+  $('#chat').click(function(){
+    var newMessages = 0;
+    $('#lssm_messageAmount').text('');
+  });
 })();
