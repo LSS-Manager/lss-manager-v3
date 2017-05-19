@@ -14,7 +14,7 @@ $('#map_adress_search').on('keyup', function() {
     var searchTerm = $(this).val().toLowerCase();
     delay(function() {
         $('#lssm_searchMissionsWrapper').remove();
-        $('#map_outer').append('<div id="lssm_searchMissionsWrapper" style="z-index: 10006;position: fixed;left: 10px;top: 10px;max-width: 90px;max-height: calc(100vh - 20px);overflow: scroll; min-width:100px; min-height:50px;"><span class="label label-primary" style="position:fixed">'+ searchTerm +'</span><br><a class="label label-info" id="lssm_searchEntryToggle"><i class="glyphicon glyphicon-eye-open"></i></a><div id="lssm_searchMissionsContainer"></div><div>');
+        $('#map_outer').append('<div id="lssm_searchMissionsWrapper" style="z-index: 10006;position: fixed;left: 10px;bottom: 10px;max-height: calc(100vh - 20px);overflow: scroll; min-height:50px;"><div id="lssm_searchMissionsContainer"><span class="label label-primary" style="margin-right:5px;">'+ searchTerm +'</span><a class="label label-info" style="margin-right:5px;" id="lssm_searchEntryToggle"><i class="glyphicon glyphicon-eye-open"></i></a></div><div>');
         $('#lssm_searchEntryToggle').click(function(){
             $('#lssm_searchMissionsContainer').toggle();
         });
@@ -24,7 +24,7 @@ $('#map_adress_search').on('keyup', function() {
                 var missionCaptionID = $(this).attr('id').split('_');
                 var newMissionLink = missionCaptionID[2];
                 var btnText = $(this).text().split(',');
-                $('#lssm_searchMissionsContainer').append('<a href="/missions/' + newMissionLink + '" class="label label-danger lightbox-open" style="display: inline-block;">' + newMissionLink + '</a>');
+                $('#lssm_searchMissionsContainer').append('<a href="/missions/' + newMissionLink + '" class="label label-danger lightbox-open" style="display: inline-block; margin-right:5px">' + newMissionLink + '</a>');
 
             } else {
                 $(this).parent().parent().hide();
