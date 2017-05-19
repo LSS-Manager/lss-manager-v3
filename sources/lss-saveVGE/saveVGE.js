@@ -70,6 +70,7 @@
             set.isCreate=true;
         }else if(!$("#mission_position_mission_type_id_-1").prop("checked")){
             $('#'+prefix).remove();
+            set.isCreate=false;
         }
     });
 })(I18n, jQuery);
