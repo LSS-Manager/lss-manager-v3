@@ -9,7 +9,7 @@
                 del:"Löschen"
             }
         }
-    }
+    };
     var prefix="saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix))||{};
     function readData() {
         var daten = $("#new_mission_position").serializeArray(), notSave = ["utf8", "authenticity_token", "mission_position[poi_type]", "mission_position[latitude]", "mission_position[longitude]", "mission_position[address]","mission_position[coins]","mission_position[mission_type_id]",prefix+"_selctOptions"], datenToSave = [];
