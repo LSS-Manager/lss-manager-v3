@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         MissionOut
-// @version      2.4
-// @description  Einklappen der Einsätze
-// @author       Mausmajor
-// @include      *://www.leitstellenspiel.de/
-// @exclude      *://www.leitstellenspiel.de/mission*
-// @grant        none
-// ==/UserScript==
 (function ($, win) {
     var missionMarkerAddBuffer = win.missionMarkerAdd;
     // /hode/show Event abfangen
@@ -17,16 +8,16 @@
         if ($(this).hasClass('btn-success')) {
             $('#mission_panel_heading_' + $e.data('header')).next().hide();
             $e.removeClass('btn-success').addClass('btn-danger');
-            $e.html('show');
+            $e.html('<i class="glyphicon glyphicon-eye-close"></i>');
         } else {
             $('#mission_panel_heading_' + $e.data('header')).next().show();
             $e.removeClass('btn-danger').addClass('btn-success');
-            $e.html('hide');
+            $e.html('<i class="glyphicon glyphicon-eye-open"></i>');
         }
     });
     function create(h, id, icon) {
         var div = $('<div class="pull-right" id="mission_out_'+id+'"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="Mission aus/ein-blenden">hide</a>');
+        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>');
         div.prepend($button);
         icon.attr('id', 'icon_' + id).hide();
         h.prepend(icon);
@@ -45,7 +36,7 @@
     function patienten(id, t) {
         $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_out_' + id).append('<small class="pull-right lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>');
     }
-    // Fix load Problem einmalig am Anfang alle schon vorhandenen Eins�tze durgehen und bearbeiten
+    // Fix load Problem einmalig am Anfang alle schon vorhandenen Einsätze durgehen und bearbeiten
     $('div.missionSideBarEntry:not(:hidden)').each(function () {
         var e = $(this);
         if (e.find('.MissionOut').length === 0) {
@@ -54,25 +45,25 @@
             patienten(id, $('#mission_patients_' + id + ' .patient_progress').length);
         }
     });
-    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="Missions aus/ein-blenden">hide Alle</a>')
+    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="Missions aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>')
             .click(function () {
                 var e = $(this);
                 if (e.hasClass('btn-success')) {
                     e.removeClass('btn-success').addClass('btn-danger');
-                    e.html('show Alle');
+                    e.html('<i class="glyphicon glyphicon-eye-close"></i>');
                     $('.MissionOut').not(':hidden').each(function () {
                         var e = $(this);
-                        e.html('show');
+                        e.html('<i class="glyphicon glyphicon-eye-close"></i>');
                         e.removeClass('btn-success').addClass('btn-danger');
                         $('#mission_panel_heading_' + e.data('header')).next().hide();
                         $('#icon_'+ e.data('header')).toggle();
                     });
                 } else {
                     e.removeClass('btn-danger').addClass('btn-success');
-                    e.html('hide Alle');
+                    e.html('<i class="glyphicon glyphicon-eye-open"></i>');
                     $('.MissionOut').not(':hidden').each(function () {
                         var e = $(this);
-                        e.html('hide');
+                        e.html('<i class="glyphicon glyphicon-eye-open"></i>');
                         $('#icon_'+ e.data('header')).toggle();
                         $('#mission_panel_heading_' + e.data('header')).next().show();
                         e.removeClass('btn-danger').addClass('btn-success');

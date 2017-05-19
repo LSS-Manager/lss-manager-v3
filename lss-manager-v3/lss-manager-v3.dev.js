@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 AutoUpdate
-// @version      beta 0.1
+// @version      beta 0.4
 // @description  Das Tool für LSS
 // @author       lost | mausmajor | chaoskai | northdegree
 // @include      *://www.leitstellenspiel.de/
@@ -22,9 +22,87 @@
 // einladen der verfügbaren module
 // activeModule()
 //
+
+var carsById = {
+        "0": "LF 20",
+        "1": "LF 10",
+        "2": "DLK 23",
+        "3": "ELW 1",
+        "4": "RW",
+        "5": "GW-A",
+        "6": "LF 8/6",
+        "7": "LF 20/16",
+        "8": "LF 10/6",
+        "9": "LF 16-TS",
+        "10": "GW-Öl",
+        "11": "GW-L2-Wasser",
+        "12": "GW-Messtechnik",
+        "13": "SW 1000",
+        "14": "SW 2000",
+        "15": "SW 2000-Tr",
+        "16": "SW Kats",
+        "17": "TLF 2000",
+        "18": "TLF 3000",
+        "19": "TLF 8/18",
+        "20": "TLF 8/18",
+        "21": "TLF 16/24-Tr",
+        "22": "TLF 16/25",
+        "23": "TLF 16/45",
+        "24": "TLF 20/40",
+        "25": "TLF 20/40-SL",
+        "26": "TLF 16",
+        "27": "GW-Gefahrgut",
+        "28": "RTW",
+        "29": "NEF",
+        "30": "HLF 20",
+        "31": "RTH",
+        "32": "FuStW",
+        "33": "GW-Höhenrettung",
+        "34": "ELW 2",
+        "35": "leBefKw",
+        "36": "MTW",
+        "37": "TSF-W",
+        "38": "KTW",
+        "39": "GKW",
+        "40": "MTW-TZ",
+        "41": "MzKW",
+        "42": "LKW K 9",
+        "43": "BRmG R",
+        "44": "Anh DLE",
+        "45": "MLW 5",
+        "46": "WLF",
+        "47": "AB-Rüst",
+        "48": "AB-Atemschutz",
+        "49": "AB-Öl",
+        "50": "GruKw",
+        "51": "FüKw",
+        "52": "GefKw",
+        "53": "Dekon-P",
+        "54": "AB-Dekon-P",
+        "55": "KdoW-LNA",
+        "56": "KdoW-Orgl",
+        "57": "FwK",
+        "58": "KTW Typ B",
+        "59": "ELW 1 (SEG)",
+        "60": "GW-San",
+        "61": "Polizeihubschrauber",
+        "62": "AB-Schlauch",
+        "63": "GW-Taucher",
+        "64": "GW-Wasserrettung",
+        "65": "LKW 7 Lkr 19 tm",
+        "66": "Anh MzB",
+        "67": "Anh SchlB",
+        "68": "Anh MzAB",
+        "69": "Tauchkraftwagen",
+        "70": "MZB",
+    "71": "AB-MZB"
+};
+
 (function(I18n,$) {
     // alle Settings die immer wieder benötigt werden
     $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
+    $('head').append('<script src="https://lssm-develop.lost.design/sources/helperFunctions/highcharts.min.js" type="text/javascript"></script>');
+
     var set = {
         server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
         prefix: 'lssm',
@@ -35,6 +113,38 @@
         locale: I18n.locale || 'de'
     };
     var Module = {
+        Layout01: {
+            name: {
+                de: 'Layout 01',
+                en: 'Layout 01',
+                nl: 'Layout 01'
+            },
+            active: true,
+            description: {
+                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-layout-01/layout-01.user.js',
+            develop: false,
+            version: 'v 1.1',
+            copyright: '@lostdesign'
+        },
+        Layout02: {
+            name: {
+                de: 'Layout 02',
+                en: 'Layout 02',
+                nl: 'Layout 02'
+            },
+            active: true,
+            description: {
+                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-layout-02/layout-02.user.js',
+            develop: false,
+            version: 'v 1.0',
+            copyright: '@lostdesign'
+        },
         MissionOut: {
             name: {
                 de: 'Einsatzliste komprimieren',
@@ -48,7 +158,7 @@
             ghuser: 'Mausmajor',
             source: '/lss-MissionOut/MissionOut.user.js',
             develop: false,
-            version: 'v 1.0',
+            version: 'v 1.4',
             copyright: '@Mausmajor'
         },
         ChatPopup: {
@@ -155,12 +265,44 @@
             },
             active: false,
             description: {
-                de: 'Markiert die Einsätze auf der linken Seite mit einem grünen (Einsatz mit Beteiligung) oder roten Balken (Einsatz ohne Beteiligung). Freigegebene Einsätze haben einen rot blinkenden Rahmen.'
+                de: 'Wurde ins Spiel integriert, vorerst deaktiviert'
             },
             ghuser: 'lostdesign',
             source: '/lss-tagMissions/tagMissions.user.js',
-            develop: false,
+            develop: true,
             version: 'v 0.1',
+            copyright: '@lostdesign'
+        },
+        allianceMissionlistShare: {
+            name: {
+                de: 'Einsätze freigeben',
+                en: 'Mission share',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'In der Übersicht ohne den Einsatz zu öffnen, freigeben.'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
+            develop: false,
+            version: 'v 0.2',
+            copyright: '@lostdesign'
+        },
+        searchMissions: {
+            name: {
+                de: 'Einsätze suchen',
+                en: 'Mission search',
+                nl: '-'
+            },
+            active: false,
+            description: {
+                de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-searchMissions/searchMissions.user.js',
+            develop: false,
+            version: 'v 0.2',
             copyright: '@lostdesign'
         },
         keyboard: {
@@ -227,6 +369,22 @@
             version: 'v 0.1',
             copyright: '@lss-manager'
         },
+        Statistik: {
+            name: {
+                de: 'Statistik',
+                en: 'Statistik',
+                nl: 'Statistik'
+            },
+            active: true,
+            description: {
+                de: 'Statistik'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-Statistik/statistik.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
+        },
         dashboard: {
             name: {
                 de: 'Dashboard',
@@ -242,6 +400,38 @@
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
+        },
+        WachenHoverStati: {
+            name: {
+                de: 'WachenHoverStati',
+                en: 'WachenHoverStati',
+                nl: 'WachenHoverStati'
+            },
+            active: false,
+            description: {
+                de: 'WachenHoverStati'
+            },
+            ghuser: 'lostdesign',
+            source: '/lss-WachenHoverStati/WachenHoverStati.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign'
+        },
+        RenameFZ: {
+            name: {
+                de: 'RenameFZ',
+                en: 'RenameFZ',
+                nl: 'RenameFZ'
+            },
+            active: true,
+            description: {
+                de: 'RenameFZ'
+            },
+            ghuser: 'Mausmajor',
+            source: '/lss-RenameFZ/RenameFZ.js',
+            develop: false,
+            version: 'v 0.2',
+            copyright: '@Mausmajor'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
@@ -315,7 +505,7 @@
         var settingButton = $('<li><a id="' + prefix + '_activate" href="#"><span class="label label-success">LSS Manager</span></a></li>');
         var div = $('<div class="row" id="' + prefix + '_row"></div>').append(createModuleMain());
         var content = $('#navbar-mobile-footer').prev();
-        // hier ist alles drin 
+        // hier ist alles drin
         content.attr('id','content');
 
         //div.append(createModulePanels());
@@ -331,7 +521,7 @@
                     location.reload();
                 });
                 //div.remove();
-                
+
             });
         });
         // einhängen des Buttons in der Navi
@@ -340,5 +530,5 @@
 
     loadSettings();
     appendAppstore();
-    loadModule();    
+    loadModule();
 })(I18n,jQuery)
