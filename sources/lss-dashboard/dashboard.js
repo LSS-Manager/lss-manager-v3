@@ -117,7 +117,7 @@
                             center: ['50%', '50%']
                         }
                     },
-                    colors: divs[i][3],
+                    colors: divs[i][2],
                     series: [{
                             type: 'pie',
                             name: set.translations[set.locale].anz,
@@ -369,7 +369,7 @@
     function createDashboard(){
         $('#content').after('<div id="dashboard_outer"></div>');
     }
-    loadGraphs();
-    bind_db_buttons();
-    load_build_planning();
+    setTimeout(loadGraphs,2000);
+    //bind_db_buttons();
+    //load_build_planning();
 })(jQuery, I18n)
