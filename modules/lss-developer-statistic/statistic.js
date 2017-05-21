@@ -30,6 +30,7 @@
         if(typeof alliance_id !== "undefined")
             data.all = alliance_id;
         data.bui = get_buildings().length;
+        data.version = lss_config.version;
         data = JSON.stringify(data);
         $.ajax({
             type: "POST",

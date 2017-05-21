@@ -100,7 +100,8 @@ var carsById = {
 
 lss_config = {
     server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
-    stats_uri: "https://proxy.lss-manager.de/stat.php"
+    stats_uri: "https://proxy.lss-manager.de/stat.php",
+    version: "3.1"
 };
 
 (function(I18n,$) {
