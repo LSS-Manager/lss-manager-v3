@@ -382,7 +382,7 @@ lss_config = {
                 en: 'Statistik',
                 nl: 'Statistik'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Statistik'
             },
