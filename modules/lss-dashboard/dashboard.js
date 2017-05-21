@@ -4,7 +4,7 @@
         translations: {
             de: {
                 categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung'],
-                ge: 'Geb‰ude',
+                ge: 'Geb√§ude',
                 school: 'Schulen',
                 wachen: 'Wachen',
                 anz: 'Anzahl'

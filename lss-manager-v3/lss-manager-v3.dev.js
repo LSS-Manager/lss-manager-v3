@@ -105,8 +105,9 @@ lss_config = {
 
 (function(I18n,$) {
     // alle Settings die immer wieder benötigt werden
+    $("head").prepend('<link href="'+lss_config.server+'/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">');
     $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
-    $('head').append('<script src="'+lss_config.server+'/modules/helperFunctions/highcharts.min.js" type="text/javascript"></script>');
+    $('head').append('<script src="'+lss_config.server+'/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
     var set = {
         //server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
@@ -434,7 +435,7 @@ lss_config = {
                 de: 'RenameFZ'
             },
             ghuser: 'Mausmajor',
-            source: '/modules/lss-RenameFZ/RenameFZ.js',
+            source: '/modules/lss-RenameFZ/renameFZ.js',
             develop: false,
             version: 'v 0.2',
             copyright: '@Mausmajor'

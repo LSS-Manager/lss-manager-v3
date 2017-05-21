@@ -159,7 +159,7 @@ $('head')
     //.append('<link href="https://fonts.googleapis.com/css?family=Sintony:400,700" rel="stylesheet" type="text/css">')
     .append('<link id="lss_icon_css" async rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">')
     .append('<script id="lss_dashboard_js" async src="'+server+'/lss-dashboard.dev.js" type="text/javascript">')
-    .append('<script id="lss_chart_js" async src="'+server+'/highcarts.min.js" type="text/javascript">')
+    .append('<script id="lss_chart_js" async src="'+server+'/highcharts.min.js" type="text/javascript">')
     .append('<script async src="'+server+'/json2.js" type="text/javascript">')
     .append("<style type='text/css' rel='stylesheet' id='switch-css'>.onoffswitch{position:relative;width:30px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}.onoffswitch-checkbox{display:none}.onoffswitch-label{display:block;overflow:hidden;cursor:pointer;height:15px;padding:0;line-height:15px;border:2px solid #CCC;border-radius:15px;background-color:#FFF;transition:background-color .3s ease-in}.onoffswitch-label:before{content:'';display:block;width:15px;margin:0;background:#FFF;position:absolute;top:0;bottom:0;right:13px;border:2px solid #CCC;border-radius:15px;transition:all .3s ease-in 0}.onoffswitch-checkbox:checked + .onoffswitch-label{background-color:#49E845}.onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{border-color:#49E845}.onoffswitch-checkbox:checked + .onoffswitch-label:before{right:0}</style>");
 
