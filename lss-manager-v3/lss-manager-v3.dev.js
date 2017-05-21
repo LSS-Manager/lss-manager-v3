@@ -98,13 +98,19 @@ var carsById = {
     "71": "AB-MZB"
 };
 
+lss_config = {
+    server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+    stats_uri: "https://proxy.lss-manager.de/stat.php"
+};
+
 (function(I18n,$) {
     // alle Settings die immer wieder benötigt werden
     $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
-    $('head').append('<script src="https://lssm-develop.lost.design/sources/helperFunctions/highcharts.min.js" type="text/javascript"></script>');
+    $('head').append('<script src="'+lss_config.server+'/modules/helperFunctions/highcharts.min.js" type="text/javascript"></script>');
 
     var set = {
-        server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
+        //server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
+        server: lss_config.server, // Domain wo alles liegt
         prefix: 'lssm',
         github: 'https://github.com/',
         ModuleKey: function() {
@@ -124,7 +130,7 @@ var carsById = {
                 de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
             },
             ghuser: 'lostdesign',
-            source: '/lss-layout-01/layout-01.user.js',
+            source: '/modules/lss-layout-01/layout-01.user.js',
             develop: false,
             version: 'v 1.1',
             copyright: '@lostdesign'
@@ -140,7 +146,7 @@ var carsById = {
                 de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
             },
             ghuser: 'lostdesign',
-            source: '/lss-layout-02/layout-02.user.js',
+            source: '/modules/lss-layout-02/layout-02.user.js',
             develop: false,
             version: 'v 1.0',
             copyright: '@lostdesign'
@@ -156,7 +162,7 @@ var carsById = {
                 de: 'Einklappen der Einsätze'
             },
             ghuser: 'Mausmajor',
-            source: '/lss-MissionOut/MissionOut.user.js',
+            source: '/modules/lss-MissionOut/MissionOut.user.js',
             develop: false,
             version: 'v 1.4',
             copyright: '@Mausmajor'
@@ -172,7 +178,7 @@ var carsById = {
                 de: 'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
             },
             ghuser: 'Mausmajor',
-            source: '/lss-chat/Chat.user.js',
+            source: '/modules/lss-chat/Chat.user.js',
             develop: false,
             version: 'v 1.0',
             copyright: '@Mausmajor'
@@ -188,7 +194,7 @@ var carsById = {
                 de: 'Neues Design für die Oberfläche'
             },
             ghuser: 'lostdesign',
-            source: '/lss-redesign-01/Redesign-01.user.js',
+            source: '/modules/lss-redesign-01/Redesign-01.user.js',
             develop: true,
             version: 'alpha-0.1',
             copyright: '@lostdesign'
@@ -204,7 +210,7 @@ var carsById = {
                 de: 'Exportiert Fahrzeuge und Wachen zum Fahrzeugtableau'
             },
             ghuser: 'ChaosKai',
-            source: '/lss-tableau/tableau.user.js',
+            source: '/modules/lss-tableau/tableau.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@ChaosKai93'
@@ -220,7 +226,7 @@ var carsById = {
                 de: 'Zeigt alle FMS 5 in der Karte an.'
             },
             ghuser: 'lostdesign',
-            source: '/lss-FMS5InMap/FMS5InMap.user.js',
+            source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -236,7 +242,7 @@ var carsById = {
                 de: 'Zeigt eine Uhr in der Karte an'
             },
             ghuser: 'lostdesign',
-            source: '/lss-clock/clock.user.js',
+            source: '/modules/lss-clock/clock.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -252,7 +258,7 @@ var carsById = {
                 de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Wachen sind wählbar.'
             },
             ghuser: 'lostdesign',
-            source: '/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
+            source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -268,7 +274,7 @@ var carsById = {
                 de: 'Wurde ins Spiel integriert, vorerst deaktiviert'
             },
             ghuser: 'lostdesign',
-            source: '/lss-tagMissions/tagMissions.user.js',
+            source: '/modules/lss-tagMissions/tagMissions.user.js',
             develop: true,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -284,7 +290,7 @@ var carsById = {
                 de: 'In der Übersicht ohne den Einsatz zu öffnen, freigeben.'
             },
             ghuser: 'lostdesign',
-            source: '/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
+            source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
             develop: false,
             version: 'v 0.2',
             copyright: '@lostdesign'
@@ -300,7 +306,7 @@ var carsById = {
                 de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.'
             },
             ghuser: 'lostdesign',
-            source: '/lss-searchMissions/searchMissions.user.js',
+            source: '/modules/lss-searchMissions/searchMissions.user.js',
             develop: false,
             version: 'v 0.2',
             copyright: '@lostdesign'
@@ -316,7 +322,7 @@ var carsById = {
                 de: 'Einsatzmaske mit Tastatur steuern.'
             },
             ghuser: 'ChaosKai',
-            source: '/lss-tastaturalarmierung/keyboard.user.js',
+            source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@ChaosKai'
@@ -380,7 +386,7 @@ var carsById = {
                 de: 'Statistik'
             },
             ghuser: 'lostdesign',
-            source: '/lss-Statistik/statistik.js',
+            source: '/modules/lss-Statistik/statistik.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -396,7 +402,7 @@ var carsById = {
                 de: 'Statistik'
             },
             ghuser: 'lostdesign',
-            source: '/lss-dashboard/dashboard.js',
+            source: '/modules/lss-dashboard/dashboard.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -412,7 +418,7 @@ var carsById = {
                 de: 'WachenHoverStati'
             },
             ghuser: 'lostdesign',
-            source: '/lss-WachenHoverStati/WachenHoverStati.js',
+            source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -428,10 +434,27 @@ var carsById = {
                 de: 'RenameFZ'
             },
             ghuser: 'Mausmajor',
-            source: '/lss-RenameFZ/RenameFZ.js',
+            source: '/modules/lss-RenameFZ/RenameFZ.js',
             develop: false,
             version: 'v 0.2',
             copyright: '@Mausmajor'
+        },
+        statistic: {
+            name: {
+                de: 'Entwicklerstatistik',
+                en: 'Developer Statistics',
+                nl: '-'
+            },
+            active: true,
+            description: {
+                de: 'Sendet statistische Daten an das Entwicklerteam zur Verbesserung der Erweiterung',
+                en: 'Sends statistical data to the developer team to improve the addon'
+            },
+            ghuser: 'Tsumiki-Chan',
+            source: '/modules/lss-developer-statistic/statistic.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lss-manager'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
@@ -441,7 +464,7 @@ var carsById = {
         for (var i in Module) {
             if (Module[i].active && Module.status != 'develop' && activeModule.indexOf(i) === -1) {
                 activeModule.push(i);
-                $('body').append('<script src="'+set.server + Module[i].source+'" type="text/javascript"></script>');
+                $('body').append('<script src="'+ lss_config.server + Module[i].source+'" type="text/javascript"></script>');
             }
         }
     }
