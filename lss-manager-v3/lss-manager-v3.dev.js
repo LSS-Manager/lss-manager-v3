@@ -133,7 +133,7 @@ lss_config = {
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-01/layout-01.user.js',
-            develop: true,
+            develop: false,
             version: 'v 1.1',
             copyright: '@lostdesign'
         },
