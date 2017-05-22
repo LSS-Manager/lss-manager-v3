@@ -494,6 +494,23 @@ lss_config = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager'
+        },
+        mapreload: {
+            name: {
+                de: 'Map Reload',
+                en: 'Map Reload',
+                nl: 'Map Reload'
+            },
+            active: true,
+            description: {
+                de: '-',
+            },
+            ghuser: 'Tsumiki-Chan',
+            source: '/modules/lss-mapReload/mapreload.user.js',
+            noapp: true, // Nicht im App-Store auflisten
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lss-manager'
         }
     };
     // Zum zwischenspeichern der schon geladenen Module
