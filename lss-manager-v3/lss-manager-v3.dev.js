@@ -441,19 +441,20 @@ lss_config = {
             version: 'v 0.2',
             copyright: '@Mausmajor'
         },
-        statistic: {
+        telemetry: {
             name: {
-                de: 'Entwicklerstatistik',
-                en: 'Developer Statistics',
-                nl: '-'
+                de: 'Telemetrie',
+                en: 'Telemetry',
+                nl: 'Telemetrie'
             },
             active: true,
             description: {
-                de: 'Sendet statistische Daten an das Entwicklerteam zur Verbesserung der Erweiterung',
-                en: 'Sends statistical data to the developer team to improve the addon'
+                de: 'Sendet Daten an das Entwicklerteam zum Zweck der Erstellung einer Statistik',
+                en: 'Sends data to the developer team for the purpose of creating a statistic',
+                en: 'Stuurt gegevens naar het development team voor het doel van de schepping van een statistiek'
             },
             ghuser: 'Tsumiki-Chan',
-            source: '/modules/lss-developer-statistic/statistic.js',
+            source: '/modules/telemetry/telemetry.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager'

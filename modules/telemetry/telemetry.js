@@ -10,6 +10,10 @@ function getModules()
 {
     var active = [];
     var modules = JSON.parse(localStorage.getItem("lssm_Module"));
+    if (modules == null)
+    {
+        return active;
+    }
     $.each(modules, function(key,val) {
        if (val.toString() == "true")
        {
