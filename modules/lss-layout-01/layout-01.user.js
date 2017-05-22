@@ -1,3 +1,4 @@
+//github hook test
 (function () {
 	if (!window.location.pathname.match(/missions\//)) {
 		$('head').append('<link href="'+lss_config.server+'/modules/lss-layout-01/layout-01.css" type="text/css" rel="stylesheet">');
