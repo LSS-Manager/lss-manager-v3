@@ -13,7 +13,7 @@
         tableau
         nightmode
         wachenplanung
-        gebäudeplanung
+        gebÃ¤udeplanung
 
 ################################## */
 
@@ -25,13 +25,13 @@
 
 ################################################## */
 
-div#lightbox_box {
+/*div#lightbox_box {
   background-color: rgba(0, 0, 0, 0) !important;
   border: none !important;
   padding: 20px;
   width: 100px !important;
   height: 100px !important;
-}
+}*/
 
 .panel-footer{
   padding: 10px 15px;
@@ -39,6 +39,10 @@ div#lightbox_box {
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px
+}
+
+.mission_patient {
+  background-color: #e1e1e1;
 }
 
 /*.pull-right{
@@ -127,14 +131,9 @@ div#preloader {
 
 .btn__disabled{
   pointer-events: none;
-  color: #ddd;
-  background-color: #eee;
+  color: #ddd !important;
+  background-color: #eee !important;
 }
-
-.btn__disabled:hover{
-
-}
-
 
 /* ##################################################
 
@@ -145,11 +144,11 @@ div#preloader {
 /*# SETZT EINEN GELB/SCHWARZ GESTREIFTEN BANNER AM ENDE EINES PLUGINS #*/
 .lssm_Module_develop .panel-footer {
   background: repeating-linear-gradient(
-  45deg,
-  rgba(255, 219, 27, 1),
-  rgba(255, 219, 27, 1) 10px,
-  rgba(74, 74, 74, 1) 10px,
-  rgba(74, 74, 74, 1) 25px
+          45deg,
+          rgba(255, 219, 27, 1),
+          rgba(255, 219, 27, 1) 10px,
+          rgba(74, 74, 74, 1) 10px,
+          rgba(74, 74, 74, 1) 25px
   ) !important;
 }
 
@@ -299,7 +298,7 @@ div#preloader {
 .lssm_wachen_selector .onoffswitch  .onoffswitch-label:before {
   margin-top: -.5px !important;
   margin-bottom: 4.5px !important;+
-  right: 14.5px;
+right: 14.5px;
 }
 
 .label-fw {
@@ -358,49 +357,49 @@ div#preloader {
 
 
 .onoffswitch{
-    position:relative;
-    width:30px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none
+  position:relative;
+  width:30px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none
 }
 .onoffswitch-checkbox{
-    display:none
+  display:none
 }
 .onoffswitch-label{
-    display:block;
-    overflow:hidden;
-    cursor:pointer;
-    height:15px;
-    padding:0;
-    line-height:15px;
-    border:2px solid #CCC;
-    border-radius:15px;
-    background-color:#FFF;
-    transition:background-color .3s ease-in
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+  height:15px;
+  padding:0;
+  line-height:15px;
+  border:2px solid #CCC;
+  border-radius:15px;
+  background-color:#FFF;
+  transition:background-color .3s ease-in
 }
 .onoffswitch-label:before{
-    content:"";
-    display:block !important;
-    width:15px;
-    margin:0;
-    background:#FFF;
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:13px;
-    border:2px solid #CCC;
-    border-radius:15px;
-    transition:all .3s ease-in 0
+  content:"";
+  display:block !important;
+  width:15px;
+  margin:0;
+  background:#FFF;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:13px;
+  border:2px solid #CCC;
+  border-radius:15px;
+  transition:all .3s ease-in 0
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label{
-    background-color:#49E845
+  background-color:#49E845
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
-    border-color:#49E845
+  border-color:#49E845
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before{
-   right:0
+  right:0
 }
 
 
@@ -416,7 +415,7 @@ div#preloader {
   padding:0;
 }
 
-/* fixes für den row container */
+/* fixes fÃ¼r den row container */
 div#content.row {
   margin: 0;
   margin-top: 20px;
@@ -479,17 +478,17 @@ div.panel-heading {
   margin-bottom: 10px;
 }
 
-für die nachrichten popups - klassen auf label label-danger stellen
+fÃ¼r die nachrichten popups - klassen auf label label-danger stellen
 statt 'Chat' -> 'Neue Nachricht!'
 
 
 
 map styles/filter
 
-colerful » filter: saturate(2) contrast(.7) brightness(1.2);
-nightmode » filter: saturate(.5) contrast(.5) brightness(1.2) invert();
-vintage » filter: saturate(.5);
-colors » filter: hue-rotate(90deg);
+colerful Â» filter: saturate(2) contrast(.7) brightness(1.2);
+nightmode Â» filter: saturate(.5) contrast(.5) brightness(1.2) invert();
+vintage Â» filter: saturate(.5);
+colors Â» filter: hue-rotate(90deg);
 
 
 hue-rotate(20deg)contrast(.8) saturate(.5) invert();
@@ -499,7 +498,7 @@ colorful
   filter: saturate(2) contrast(.7) brightness(1.2);
 }
 
-  css für fms5 in map
+  css fÃ¼r fms5 in map
 
 
 */
@@ -548,10 +547,6 @@ li[class^='radio_message_vehicle_']{
 }
 
 li[class^='radio_message_vehicle_'] span {
-  border-radius: 5px 0 0 5px !important;
-  padding: 2px;
-  margin-right: 3px;
-  border: none !important;
   font-weight: 900;
 }
 li[class^='radio_message_vehicle_'] img {
@@ -605,10 +600,9 @@ ul#radio_messages_important {
 }
 
 span.building_list_fms.building_list_fms_5 {
-  border-radius: 5px;
-  padding: 0px;
-  margin-right: 3px;
+
 }
+
 
 .lss_new_case {
   border-left: solid red 5px !important;
@@ -618,15 +612,25 @@ span.building_list_fms.building_list_fms_5 {
   border-left: solid limegreen 5px !important;
 }
 
+div#iframe-inside-container.container-fluid.lss_new_case {
+  border: none !important;
+}
+
 .lss_allianceCase {
   animation: blinkAlliance .5s step-end infinite alternate;
 }
 
 @keyframes blinkAlliance {
-   50% { border-color: #ff0000; }
+  50% { border-color: #ff0000; }
 }
 
-
+#container_navbar_alarm {
+  margin-bottom: 0px !important;
+}
+/*
+#iframe-inside-container .clearfix {
+	display: none;
+}*/
 
 .ui-slider {
   position: relative;
@@ -645,7 +649,7 @@ span.building_list_fms.building_list_fms_5 {
 }
 
 .ui-slider-horizontal {
-    height: .8em;
+  height: .8em;
 }
 .ui-slider-horizontal .ui-slider-handle {
   top: -.6em;
@@ -658,7 +662,7 @@ span.building_list_fms.building_list_fms_5 {
 }
 
 .ui-widget.ui-widget-content {
-    /* border: 1px solid #c5c5c5; */
+  /* border: 1px solid #c5c5c5; */
 }
 .ui-widget-content {
   border: 1px solid #dddddd;
@@ -671,8 +675,8 @@ span.building_list_fms.building_list_fms_5 {
 .ui-widget-header .ui-state-default,
 .ui-button,
 
-/* We use html here because we need a greater specificity to make sure disabled
-works properly when clicked or hovered */
+  /* We use html here because we need a greater specificity to make sure disabled
+  works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border: 1px solid #c5c5c5;
@@ -692,17 +696,17 @@ html .ui-button.ui-state-disabled:active {
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
-    border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
-    border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
 .ui-corner-br {
-    border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
