@@ -373,6 +373,7 @@ lss_config = {
             },
             ghuser: 'lss-manager',
             source: '/helperFunctions/get_buildings.js',
+            noapp: true, // Nicht im App-Store auflisten
             develop: true,
             version: 'v 0.1',
             copyright: '@lss-manager'
@@ -389,6 +390,7 @@ lss_config = {
             },
             ghuser: 'lss-manager',
             source: '/helperFunctions/car_list_printable.js',
+            noapp: true, // Nicht im App-Store auflisten
             develop: true,
             version: 'v 0.1',
             copyright: '@lss-manager'
@@ -405,6 +407,7 @@ lss_config = {
             },
             ghuser: 'lss-manager',
             source: '/helperFunctions/car_list.js',
+            noapp: true, // Nicht im App-Store auflisten
             develop: true,
             version: 'v 0.1',
             copyright: '@lss-manager'
@@ -453,7 +456,7 @@ lss_config = {
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
-            develop: false,
+            develop: true,
             version: 'v 0.1',
             copyright: '@lostdesign'
         },
@@ -481,12 +484,13 @@ lss_config = {
             },
             active: true,
             description: {
-                de: 'Sendet Daten an das Entwicklerteam zum Zweck der Erstellung einer Statistik',
+                de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
                 en: 'Sends data to the developer team for the purpose of creating a statistic',
                 en: 'Stuurt gegevens naar het development team voor het doel van de schepping van een statistiek'
             },
             ghuser: 'Tsumiki-Chan',
             source: '/modules/telemetry/telemetry.user.js',
+            noapp: true, // Nicht im App-Store auflisten
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager'
@@ -529,6 +533,11 @@ lss_config = {
         var modulePanelHtml = '';
         for (var i in Module) {
             var mod = Module[i];
+            // Do not show certain modules in the appstore
+            if ('noapp' in mod && mod.noapp === true)
+            {
+                continue;
+            }
             modulePanelHtml += '<div class="col-md-3 '+ (mod.develop ? set.ModuleKey()+ '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
