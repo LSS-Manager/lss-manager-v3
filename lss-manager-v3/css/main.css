@@ -25,13 +25,13 @@
 
 ################################################## */
 
-/*div#lightbox_box {
+div#lightbox_box {
   background-color: rgba(0, 0, 0, 0) !important;
   border: none !important;
   padding: 20px;
   width: 100px !important;
   height: 100px !important;
-}*/
+}
 
 .panel-footer{
   padding: 10px 15px;
@@ -39,10 +39,6 @@
   border-top: 1px solid #ddd;
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px
-}
-
-.mission_patient {
-  background-color: #e1e1e1;
 }
 
 /*.pull-right{
@@ -131,9 +127,14 @@ div#preloader {
 
 .btn__disabled{
   pointer-events: none;
-  color: #ddd !important;
-  background-color: #eee !important;
+  color: #ddd;
+  background-color: #eee;
 }
+
+.btn__disabled:hover{
+
+}
+
 
 /* ##################################################
 
@@ -547,6 +548,10 @@ li[class^='radio_message_vehicle_']{
 }
 
 li[class^='radio_message_vehicle_'] span {
+  border-radius: 5px 0 0 5px !important;
+  padding: 2px;
+  margin-right: 3px;
+  border: none !important;
   font-weight: 900;
 }
 li[class^='radio_message_vehicle_'] img {
@@ -600,9 +605,10 @@ ul#radio_messages_important {
 }
 
 span.building_list_fms.building_list_fms_5 {
-
+  border-radius: 5px;
+  padding: 0px;
+  margin-right: 3px;
 }
-
 
 .lss_new_case {
   border-left: solid red 5px !important;
@@ -610,10 +616,6 @@ span.building_list_fms.building_list_fms_5 {
 
 .lss_new_case_in_progress {
   border-left: solid limegreen 5px !important;
-}
-
-div#iframe-inside-container.container-fluid.lss_new_case {
-	border: none !important;
 }
 
 .lss_allianceCase {
@@ -624,13 +626,7 @@ div#iframe-inside-container.container-fluid.lss_new_case {
    50% { border-color: #ff0000; }
 }
 
-#container_navbar_alarm {
-	margin-bottom: 0px !important;
-}
-/*
-#iframe-inside-container .clearfix {
-	display: none;
-}*/
+
 
 .ui-slider {
   position: relative;
