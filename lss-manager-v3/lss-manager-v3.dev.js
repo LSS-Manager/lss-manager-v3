@@ -127,7 +127,7 @@ lss_config = {
                 en: 'Layout 01',
                 nl: 'Layout 01'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
             },
@@ -191,7 +191,7 @@ lss_config = {
                 en: 'minify Mission',
                 nl: 'MissionOut'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Einklappen der Einsätze'
             },
@@ -207,7 +207,7 @@ lss_config = {
                 en: 'Chat Popup',
                 nl: 'Chat Popup'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
             },
@@ -466,7 +466,7 @@ lss_config = {
                 en: 'RenameFZ',
                 nl: 'RenameFZ'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'RenameFZ'
             },
