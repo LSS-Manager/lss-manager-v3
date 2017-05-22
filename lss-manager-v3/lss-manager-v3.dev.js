@@ -513,8 +513,15 @@ lss_config = {
     // laden der Einstellungen
     function loadSettings() {
         var load = JSON.parse(localStorage.getItem(set.ModuleKey())) || {};
-        for (var i in load)
+        for (var i in load) {
+            var modname = i.toString();
+            if ((modname in Module) === false)
+            {
+                console.log(modname +" is not a valid app. Skipping.");
+                continue;
+            }
             Module[i].active = load[i];
+        }
     }
 
     // Erstellen der Pandels
