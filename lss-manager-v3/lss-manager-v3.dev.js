@@ -161,7 +161,7 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+                de: 'Layout ohne Karte'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-03/layout-03.user.js',
