@@ -133,7 +133,7 @@ lss_config = {
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-01/layout-01.user.js',
-            develop: false,
+            develop: true,
             version: 'v 1.1',
             copyright: '@lostdesign'
         },
@@ -143,12 +143,44 @@ lss_config = {
                 en: 'Layout 02',
                 nl: 'Layout 02'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-02/layout-02.user.js',
+            develop: false,
+            version: 'v 1.0',
+            copyright: '@lostdesign'
+        },
+        Layout03: {
+            name: {
+                de: 'Layout 03',
+                en: 'Layout 03',
+                nl: 'Layout 03'
+            },
+            active: false,
+            description: {
+                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+            },
+            ghuser: 'lostdesign',
+            source: '/modules/lss-layout-03/layout-03.user.js',
+            develop: false,
+            version: 'v 1.0',
+            copyright: '@lostdesign'
+        },
+        Layout04: {
+            name: {
+                de: 'Layout 04',
+                en: 'Layout 04',
+                nl: 'Layout 04'
+            },
+            active: false,
+            description: {
+                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+            },
+            ghuser: 'lostdesign',
+            source: '/modules/lss-layout-04/layout-04.user.js',
             develop: false,
             version: 'v 1.0',
             copyright: '@lostdesign'
@@ -454,7 +486,7 @@ lss_config = {
                 en: 'Stuurt gegevens naar het development team voor het doel van de schepping van een statistiek'
             },
             ghuser: 'Tsumiki-Chan',
-            source: '/modules/telemetry/telemetry.js',
+            source: '/modules/telemetry/telemetry.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager'
