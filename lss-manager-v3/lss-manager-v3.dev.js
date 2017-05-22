@@ -420,7 +420,7 @@ lss_config = {
                 de: 'Statistik'
             },
             ghuser: 'lostdesign',
-            source: '/modules/lss-Statistik/statistik.js',
+            source: '/modules/lss-Statistik/statistik.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -436,7 +436,7 @@ lss_config = {
                 de: 'Statistik'
             },
             ghuser: 'lostdesign',
-            source: '/modules/lss-dashboard/dashboard.js',
+            source: '/modules/lss-dashboard/dashboard.user.js',
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign'
@@ -468,7 +468,7 @@ lss_config = {
                 de: 'RenameFZ'
             },
             ghuser: 'Mausmajor',
-            source: '/modules/lss-RenameFZ/renameFZ.js',
+            source: '/modules/lss-RenameFZ/renameFZ.user.js',
             develop: false,
             version: 'v 0.2',
             copyright: '@Mausmajor'
