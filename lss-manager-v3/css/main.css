@@ -206,6 +206,10 @@ right: 14.5px;
 }
 
 .label-fw {
+  background-color: #5e5e5e !important;
+}
+
+.label-fw {
   background-color: #ff4b38 !important;
 }
 
