@@ -39,7 +39,7 @@ function getUserAgent()
         data.bro = getUserAgent();
         if(typeof alliance_id !== "undefined")
             data.all = alliance_id;
-
+        data.pro = user_premium;
         data.bui = get_buildings().length;
         data.version = lss_config.version;
         data.mods = getModules();
