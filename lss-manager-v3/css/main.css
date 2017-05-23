@@ -39,6 +39,10 @@ div#preloader {
   background-color: #eee !important;
 }
 
+#map_outer {
+  border:1px solid #bdbdbd;
+  border-radius:5px;
+}
 /* ##################################################
 
               APPSTORE/PLUGIN STYLES

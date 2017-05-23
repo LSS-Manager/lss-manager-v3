@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 AutoUpdate
-// @version      beta 0.4
+// @version      beta 0.5
 // @description  Das Tool für LSS
 // @author       lost | mausmajor | chaoskai | northdegree
 // @include      *://www.leitstellenspiel.de/
@@ -130,7 +130,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+                de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen Fensters im Menu.',
+                en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-01/layout-01.user.js',
@@ -151,7 +153,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+                de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & Funksprüche.',
+                en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-02/layout-02.user.js',
@@ -172,7 +176,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Layout ohne Karte'
+                de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
+                en: 'Layout without map. The four windows are using 100% of the given browser height.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-03/layout-03.user.js',
@@ -193,7 +199,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Ansicht mit großer Karte, alle anderen Elemente rechts davon auswählbar'
+                de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
+                en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-04/layout-04.user.js',
@@ -208,13 +216,15 @@ lss_config = {
         },
         MissionOut: {
             name: {
-                de: 'Einsatzliste komprimieren',
-                en: 'minify Mission',
+                de: 'MissionOut',
+                en: 'MissionOut',
                 nl: 'MissionOut'
             },
             active: false,
             description: {
-                de: 'Einklappen der Einsätze'
+                de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
+                en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for each one.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -235,7 +245,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint'
+                de: 'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint',
+                en: 'Shows a Chatpopup on new messages.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-chat/Chat.user.js',
@@ -250,13 +262,15 @@ lss_config = {
         },
         saveVGE: {
             name: {
-                de: 'Eigene VGE speichern!',
-                en: 'Save own created alliance Missions!',
-                nl: 'Save VGE'
+                de: 'Eigene VGE speichern',
+                en: 'Save created alliance calls',
+                nl: 'Save created alliance calls'
             },
             active: false,
             description: {
-                de: 'Funktion um sebst erstlle VGE zu speichern.'
+                de: 'Funktion um sebst erstlle VGE zu speichern.',
+                en: 'Enables a function to save own created mission calls to use them as template.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-saveVGE/saveVGE.user.js',
@@ -277,7 +291,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)'
+                de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)',
+                en: 'HTML5 Chatnotifications using the browser notificationsystem.',
+                nl: 'PLEASE TRANSLATE THIS.',
             },
             ghuser: 'DLRG-Dominik',
             source: '/modules/lss-notification_alert/Notification_alarm.user.js',
@@ -298,7 +314,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Neues Design für die Oberfläche'
+                de: 'Neues Design für die Oberfläche',
+                en: 'New design for the game.'
+                nl: 'PLEASE TRANSLATE THIS'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-redesign-01/redesign-01.user.js',
@@ -311,36 +329,17 @@ lss_config = {
               function_code: ""
             }
         },
-        Tableau: {
-            name: {
-                de: 'Fahrzeug Tableau',
-                en: 'Vehicle Tableau',
-                nl: 'Fahrzeug Tableau'
-            },
-            active: false,
-            description: {
-                de: 'Exportiert Fahrzeuge und Wachen zum Fahrzeugtableau'
-            },
-            ghuser: 'ChaosKai',
-            source: '/modules/lss-tableau/tableau.user.js',
-            develop: false,
-            version: 'v 0.1',
-            copyright: '@ChaosKai93',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
         FMS5InMap: {
             name: {
                 de: 'FMS 5 in der Karte',
-                en: 'FMS 5 within Map',
-                nl: '-'
+                en: 'Request transport in map',
+                nl: 'PLEASE TRANSLATE THIS'
             },
             active: false,
             description: {
-                de: 'Zeigt alle FMS 5 in der Karte an.'
+                de: 'Zeigt alle FMS 5 in der Karte an.',
+                en: 'Shows request transports within the map lower left corner.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
@@ -361,7 +360,9 @@ lss_config = {
             },
             active: false,
             description: {
-                de: 'Zeigt eine Uhr in der Karte an'
+                de: 'Zeigt eine Uhr in der Karte an.',
+                en: 'Enables a small clock within the map.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-clock/clock.user.js',
@@ -377,12 +378,14 @@ lss_config = {
         WachenplanungOnMap: {
             name: {
                 de: 'Wachenplanung auf der Karte',
-                en: 'Stationmanagement on Map',
-                nl: '-'
+                en: 'Station management on map',
+                nl: 'Station management on map'
             },
             active: false,
             description: {
-                de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Wachen sind wählbar.'
+                de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Gebäude sind wählbar.',
+                en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for specific buildings.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
@@ -398,12 +401,14 @@ lss_config = {
         tagMissions: {
             name: {
                 de: 'Einsätze markieren',
-                en: 'Emergencycase mark',
-                nl: '-'
+                en: 'Mark calls',
+                nl: 'Mark calls'
             },
             active: false,
             description: {
-                de: 'Wurde ins Spiel integriert, vorerst deaktiviert'
+                de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
+                en: 'Got inplemented into the game - deactivated for now.',
+                nl: 'PELASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-tagMissions/tagMissions.user.js',
@@ -420,11 +425,13 @@ lss_config = {
             name: {
                 de: 'Einsätze freigeben',
                 en: 'Mission share',
-                nl: '-'
+                nl: 'Mission share'
             },
             active: false,
             description: {
-                de: 'In der Übersicht ohne den Einsatz zu öffnen, freigeben.'
+                de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
+                en: 'Instantly share missions without opening the call by clicking a button in the overview.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
@@ -441,11 +448,13 @@ lss_config = {
             name: {
                 de: 'Einsätze suchen',
                 en: 'Mission search',
-                nl: '-'
+                nl: 'Mission search'
             },
             active: false,
             description: {
-                de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.'
+                de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
+                en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-searchMissions/searchMissions.user.js',
@@ -460,13 +469,15 @@ lss_config = {
         },
         keyboard: {
             name: {
-                de: 'Keyboard Alarmierung',
-                en: 'Keyboard control',
-                nl: '-'
+                de: 'Alarmmasken Steuerung',
+                en: 'Callview control',
+                nl: 'Callview control'
             },
             active: false,
             description: {
-                de: 'Einsatzmaske mit Tastatur steuern.'
+                de: 'Einsatzmaske mit Tastatur steuern.',
+                en: 'Control the mission view with the keyboard.',
+                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'ChaosKai',
             source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
@@ -474,6 +485,98 @@ lss_config = {
             inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
             version: 'v 0.1',
             copyright: '@ChaosKai',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
+        Statistik: {
+            name: {
+                de: 'Statistik',
+                en: 'Statistic',
+                nl: 'Statistic'
+            },
+            active: false,
+            description: {
+                de: 'Statistik',
+                en: 'Statistic',
+                nl: 'Statistic'
+            },
+            ghuser: 'lostdesign',
+            source: '/modules/lss-Statistik/statistik.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
+        dashboard: {
+            name: {
+                de: 'Dashboard',
+                en: 'Dashboard',
+                nl: 'Dashboard'
+            },
+            active: false,
+            description: {
+                de: 'Statistik',
+                en: 'Statistic',
+                nl: 'Statistic'
+            },
+            ghuser: 'lostdesign',
+            source: '/modules/lss-dashboard/dashboard.user.js',
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lostdesign',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
+        WachenHoverStati: {
+            name: {
+                de: 'Wachen Status',
+                en: 'Station status',
+                nl: 'Station status'
+            },
+            active: false,
+            description: {
+                de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
+                en: 'Shows the code of vehciles on station hover on the map.',
+                nl: 'PLEASE TRANSLATE THIS.'
+            },
+            ghuser: 'lostdesign',
+            source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
+            develop: true,
+            version: 'v 0.1',
+            copyright: '@lostdesign',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
+        RenameFZ: {
+            name: {
+                de: 'Fahrzeuge umbennenen',
+                en: 'Rename vehicle',
+                nl: 'RenameFZ'
+            },
+            active: false,
+            description: {
+                de: 'Fahrzeuge in bulk mit Tags umbennenen.',
+                en: 'Rename vehicles in bulk using tags.',
+                nl: 'PLEASE TRANSLATE THIS.'
+            },
+            ghuser: 'Mausmajor',
+            source: '/modules/lss-RenameFZ/renameFZ.user.js',
+            develop: false,
+            version: 'v 0.2',
+            copyright: '@Mausmajor',
             settings:
             {
               has: false,
@@ -540,90 +643,6 @@ lss_config = {
             develop: true,
             version: 'v 0.1',
             copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        Statistik: {
-            name: {
-                de: 'Statistik',
-                en: 'Statistik',
-                nl: 'Statistik'
-            },
-            active: false,
-            description: {
-                de: 'Statistik'
-            },
-            ghuser: 'lostdesign',
-            source: '/modules/lss-Statistik/statistik.user.js',
-            develop: false,
-            version: 'v 0.1',
-            copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        dashboard: {
-            name: {
-                de: 'Dashboard',
-                en: 'SDashboard',
-                nl: '-'
-            },
-            active: false,
-            description: {
-                de: 'Statistik'
-            },
-            ghuser: 'lostdesign',
-            source: '/modules/lss-dashboard/dashboard.user.js',
-            develop: false,
-            version: 'v 0.1',
-            copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        WachenHoverStati: {
-            name: {
-                de: 'WachenHoverStati',
-                en: 'WachenHoverStati',
-                nl: 'WachenHoverStati'
-            },
-            active: false,
-            description: {
-                de: 'WachenHoverStati'
-            },
-            ghuser: 'lostdesign',
-            source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
-            develop: true,
-            version: 'v 0.1',
-            copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        RenameFZ: {
-            name: {
-                de: 'RenameFZ',
-                en: 'RenameFZ',
-                nl: 'RenameFZ'
-            },
-            active: false,
-            description: {
-                de: 'RenameFZ'
-            },
-            ghuser: 'Mausmajor',
-            source: '/modules/lss-RenameFZ/renameFZ.user.js',
-            develop: false,
-            version: 'v 0.2',
-            copyright: '@Mausmajor',
             settings:
             {
               has: false,
