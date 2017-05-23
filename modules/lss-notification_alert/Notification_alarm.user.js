@@ -230,7 +230,6 @@ notifyMe(set.translations[set.locale].inithead,set.translations[set.locale].init
 (function(){
     var allianceChatBuffer = allianceChat;
     var radioMessageBuffer = radioMessage;
-    var missionListBuffer = mission_list;
     allianceChat = function(t){
         allianceChatBuffer(t);
         if(user_id !== t.user_id && allianceChatNotifcation && !allianceChatPNotifcation){
