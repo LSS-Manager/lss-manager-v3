@@ -104,12 +104,10 @@ lss_config = {
 };
 
 (function(I18n,$) {
-    config.i18n.fallbacks = true;
-    config.i18n.fallbacks = ["en", "de"];
     // alle Settings die immer wieder benötigt werden
-    $("head").prepend('<link href="'+lss_config.server+'/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">');
-    $('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>');
-    $('head').append('<script src="'+lss_config.server+'/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
+    $("head").prepend('<link href="'+lss_config.server+'/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">')
+            .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+            .append('<script src="'+lss_config.server+'/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
     var set = {
         //server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
@@ -315,7 +313,7 @@ lss_config = {
             active: false,
             description: {
                 de: 'Neues Design für die Oberfläche',
-                en: 'New design for the game.'
+                en: 'New design for the game.',
                 nl: 'PLEASE TRANSLATE THIS'
             },
             ghuser: 'lostdesign',
