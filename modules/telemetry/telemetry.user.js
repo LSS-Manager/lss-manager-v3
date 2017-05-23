@@ -1,11 +1,3 @@
-// ==UserScript==
-// @name Developer Statistics
-// @grant none
-// @include https://www.leitstellenspiel.de/*
-// @exclude https://www.leitstellenspiel.de/*missions*
-// @version 0.1
-// @updateURL 
-// ==/UserScript==
 function getModules()
 {
     var active = [];

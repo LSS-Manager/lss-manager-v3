@@ -26,7 +26,7 @@ function shareMissions(t) {
 
     function create(h, id, allianceShareButtonDisabled) {
         var div = $('<div class="pull-right" id="allianceShareButton_' + id + '"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" style="margin-top:2px;" data-header="' + id + '" title="Im Verband freigeben"><i class="glyphicon glyphicon-share-alt"></i></a>');
+        var $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="Im Verband freigeben"><i class="glyphicon glyphicon-share-alt"></i></a>');
         div.prepend($button);
         h.prepend(div);
 

@@ -173,7 +173,7 @@ div#preloader {
   z-index: 9999;
   background-color: rgba(255, 255, 255, 0.86);
   bottom: 0;
-  left: 15px;
+  left: 5px;
   padding-right: 5px !important;
   padding-left: 5px !important;
   padding: 5px !important;
@@ -203,6 +203,10 @@ div#preloader {
   margin-top: -.5px !important;
   margin-bottom: 4.5px !important;+
 right: 14.5px;
+}
+
+.label-ils {
+  background-color: #5e5e5e !important;
 }
 
 .label-fw {

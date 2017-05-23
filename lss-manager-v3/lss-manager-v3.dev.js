@@ -22,7 +22,6 @@
 // einladen der verfügbaren module
 // activeModule()
 //
-
 var carsById = {
         "0": "LF 20",
         "1": "LF 10",
@@ -279,8 +278,8 @@ lss_config = {
                 de: 'Neues Design für die Oberfläche'
             },
             ghuser: 'lostdesign',
-            source: '/modules/lss-redesign-01/Redesign-01.user.js',
-            develop: true,
+            source: '/modules/lss-redesign-01/redesign-01.user.js',
+            develop: false,
             version: 'alpha-0.1',
             copyright: '@lostdesign',
             settings:
@@ -449,6 +448,7 @@ lss_config = {
             ghuser: 'ChaosKai',
             source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
             develop: false,
+            inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
             version: 'v 0.1',
             copyright: '@ChaosKai',
             settings:
@@ -659,9 +659,11 @@ lss_config = {
 
     function loadModule() {
         for (var i in Module) {
+            var uc = (window.location.pathname.match(/\//g)).length;
             if (Module[i].active && Module.status != 'develop' && activeModule.indexOf(i) === -1) {
-                activeModule.push(i);
-                $('body').append('<script src="'+ lss_config.server + Module[i].source+'" type="text/javascript"></script>');
+                if (uc <= 1 || ("inframe" in Module[i] && Module[i].inframe == true && uc>1)) {
+                    $('body').append('<script src="' + lss_config.server + Module[i].source + '" type="text/javascript"></script>');
+                }
             }
         }
     }
