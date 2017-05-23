@@ -246,6 +246,27 @@ lss_config = {
               function_code: ""
             }
         },
+        saveVGE: {
+            name: {
+                de: 'Eigene VGE speichern!',
+                en: 'Save own created alliance Missions!',
+                nl: 'Save VGE'
+            },
+            active: false,
+            description: {
+                de: 'Funktion um sebst erstlle VGE zu speichern.'
+            },
+            ghuser: 'Mausmajor',
+            source: '/modules/lss-saveVGE/saveVGE.user.js',
+            develop: false,
+            version: 'v 1.0',
+            copyright: '@Mausmajor',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
         Notification_Alert: {
             name: {
                 de: 'Notification Alert',
