@@ -1,61 +1,3 @@
-/* ##################################
-  TABLE OF CONTENTS STLYES
-        reset LSS
-        general
-        appstore/plugin
-        switch
-        custom
-
-        PLUGIN STYLES
-        missionout
-        redesign
-        chat-popup
-        tableau
-        nightmode
-        wachenplanung
-        gebÃ¤udeplanung
-
-################################## */
-
-
-
-/* ##################################################
-
-              LSS STYLE RESETS
-
-################################################## */
-
-/*div#lightbox_box {
-  background-color: rgba(0, 0, 0, 0) !important;
-  border: none !important;
-  padding: 20px;
-  width: 100px !important;
-  height: 100px !important;
-}*/
-
-.panel-footer{
-  padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px
-}
-
-.mission_patient {
-  background-color: #e1e1e1;
-}
-
-/*.pull-right{
-  float: right !important
-}*/
-
-/* reset sebastians shitty bootstrap design ffs */
-/* #col_navbar_holder {
-  padding:0 !important;
-  border-radius: 0 !important;
-  position: fixed;
-  z-index: 9999;
-}*/
 nav, .navbar-default {
   background-color: #E74C3C !important;
   border: 0 !important;
@@ -66,41 +8,6 @@ nav, .navbar-default {
   border:0 !important;
 }
 
-.dropdown-menu {
-  background-color: rgb(225, 74, 42) !important;
-  border:none !important;
-  border-radius: 0 0 5px 5px;
-}
-
-.logo {display:none !important;}
-
-/*#map_adress_search {
-  border: none !important;
-  height: 50px;
-  padding: 15px;
-  margin: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 250px;
-  -moz-box-shadow:    inset 0 0 10px rgba(74, 74, 74, 0.45);
-  -webkit-box-shadow: inset 0 0 10px rgba(74, 74, 74, 0.45);
-  box-shadow:         inset 0 0 10px rgba(74, 74, 74, 0.45);
-  background-color: #f3352e;
-  color: white !important;
-}
-
-#map_adress_search:focus {
-  border: 0 !important;
-  outline: 0 !important;
-}
-
-#map_adress_search_form{
-  padding: 0;
-  margin: 0;
-}*/
-
-
 
 /* ##################################################
 
@@ -110,9 +17,6 @@ nav, .navbar-default {
 
 * {
   background-image: none !important;
-}
-body {
-  background-color: #eee !important;
 }
 
 div#preloader {
@@ -410,79 +314,9 @@ right: 14.5px;
 
 ################################################## */
 
-/* Hauptcontainer ohne Rand */
-.container-fluid {
-  padding:0;
-}
-
-/* fixes fÃ¼r den row container */
-div#content.row {
-  margin: 0;
-  margin-top: 20px;
-}
-
-/* Navbar Abstand zum Container entfernen */
-nav.navbar.navbar-default {
-  margin-bottom: 1px;
-}
-
-.missionSideBarEntry .panel-heading {
-  padding: 3px;
-}
-
-/* Einsatzliste Hervorhebung Einsatz wird bearbeitet
-https://i.imgur.com/b2XhPdo.png
-div#mission_panel_473668535.panel.panel-default {
-  border-left: solid 5px #2ecc71;
-  border-radius: 3px
-}
-*/
-/* Einsatzliste Hervorhebung Einsatz NEU
-https://i.imgur.com/Pa3Y6V4.png
-
-div#mission_panel_473668535.panel.panel-default {
-  border-left: solid 5px #e74c3c;
-  border-radius: 3px
-}
-*/
-
-/* small patienten anzahl */
-small[id^='pat_'] {
-  margin: 3px;
-  margin-top: 6px;
-}
-
-/* show hide button */
-.MissionOut {
-  margin: 2px;
-}
-
-/* Einsatz Icon */
-img#icon_ {
-  display: none;
-}
-
-/* Alarm Button Einsatzliste*/
-a#alarm_button {
-  margin-top: 1px;
-  margin-left: 1px;
-}
-
-/* Versteckt die Addresse in der Einsatzliste
-.map_position_mover small {
-  display: none;
-}
-*/
-/* panel heading einsatzliste
-div.panel-heading {
-  margin-bottom: 10px;
-}
-
-fÃ¼r die nachrichten popups - klassen auf label label-danger stellen
-statt 'Chat' -> 'Neue Nachricht!'
 
 
-
+/*
 map styles/filter
 
 colerful Â» filter: saturate(2) contrast(.7) brightness(1.2);
@@ -503,19 +337,6 @@ colorful
 
 */
 
-.lss_allianceChat {
-  position: fixed;
-  width: 25vw;
-  z-index: 99999;
-  margin-left: -255px;
-  bottom: 30px;
-  right: 40px;
-  cursor: pointer;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  display: none;
-}
-
 .lss_label {
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -532,105 +353,10 @@ colorful
   background-color: #d9534f
 }
 
-.leaflet-tile-container img {
-  filter: saturate(.5);
-}
-
-
-/* fms 5 in map*/
-
-
-li[class^='radio_message_vehicle_']{
-  margin-bottom: 2px;
-  border-radius: 5px;
-  border: none !important;
-}
-
-li[class^='radio_message_vehicle_'] span {
-  font-weight: 900;
-}
-li[class^='radio_message_vehicle_'] img {
-  height: 20px;
-  margin-bottom: 2px;
-  margin-left: -3px;
-}
-
-li[class^='radio_message_vehicle_'] a {
-  margin-bottom: 1px;
-  font-size: 11px;
-  padding: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: -3px;
-  border-radius: 0 !important;
-  border: none !important;
-  color: #212121 !important;
-}
-
-li[class^='radio_message_vehicle_'] a + a {
-  margin-left: 1px;
-  background: red;
-  color: white !important;
-  text-transform: uppercase;
-  /*background-color: #ff0000;
-color: white;
--webkit-animation-name: blink;
-animation-name: blink;
--webkit-animation-iteration-count: infinite;
-animation-iteration-count: infinite;
--webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
-animation-timing-function: cubic-bezier(1, 0, 0, 1);
--webkit-animation-duration: 1s;
-  animation-duration: 1s*/
-}
-
-ul#radio_messages_important {
-  position: absolute;
-  z-index: 999;
-  left: 10px  !important;
-  bottom:10px  !important;
-  opacity: 0.7;
-  display: block;
-  list-style-type: none;
-  width: 50%;
-  color: rgba(0, 0, 0, 0);
-  border: none !important;
-  margin: 0  !important;
-  padding: 0  !important;
-}
-
-span.building_list_fms.building_list_fms_5 {
-
-}
-
-
-.lss_new_case {
-  border-left: solid red 5px !important;
-}
-
-.lss_new_case_in_progress {
-  border-left: solid limegreen 5px !important;
-}
-
-div#iframe-inside-container.container-fluid.lss_new_case {
-  border: none !important;
-}
-
-.lss_allianceCase {
-  animation: blinkAlliance .5s step-end infinite alternate;
-}
-
-@keyframes blinkAlliance {
-  50% { border-color: #ff0000; }
-}
-
 #container_navbar_alarm {
   margin-bottom: 0px !important;
 }
-/*
-#iframe-inside-container .clearfix {
-	display: none;
-}*/
+
 
 .ui-slider {
   position: relative;
