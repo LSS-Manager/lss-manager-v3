@@ -279,7 +279,7 @@ lss_config = {
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-redesign-01/redesign-01.user.js',
-            develop: true,
+            develop: false,
             version: 'alpha-0.1',
             copyright: '@lostdesign',
             settings:
