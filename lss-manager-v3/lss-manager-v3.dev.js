@@ -279,7 +279,7 @@ lss_config = {
                 de: 'Neues Design für die Oberfläche'
             },
             ghuser: 'lostdesign',
-            source: '/modules/lss-redesign-01/Redesign-01.user.js',
+            source: '/modules/lss-redesign-01/redesign-01.user.js',
             develop: true,
             version: 'alpha-0.1',
             copyright: '@lostdesign',
