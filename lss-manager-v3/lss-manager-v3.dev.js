@@ -695,7 +695,7 @@ lss_config = {
             {
                 continue;
             }
-            if ('settings' in mod && mod.settings.has == true)
+            if ('settings' in mod && mod.settings.has == true && mod.active == true)
             {
                 settingsHtml += '<li><a href="#" role="tab" onclick="'+ mod.settings.function_code +'();" data-toggle="tab">'+ mod.name[set.locale] +'</a></li>';
             }
