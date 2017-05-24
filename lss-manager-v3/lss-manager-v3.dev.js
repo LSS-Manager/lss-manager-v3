@@ -235,29 +235,6 @@ lss_config = {
               function_code: ""
             }
         },
-        ChatPopup: {
-            name: {
-                de: 'Chat Popup',
-                en: 'Chat Popup',
-                nl: 'Chat Popup'
-            },
-            active: false,
-            description: {
-                de: 'Zeigt ein Popup an wenn eine neue Chatnachricht erscheint',
-                en: 'Shows a Chatpopup on new messages.',
-                nl: 'PLEASE TRANSLATE THIS.'
-            },
-            ghuser: 'Mausmajor',
-            source: '/modules/lss-chat/Chat.user.js',
-            develop: false,
-            version: 'v 1.0',
-            copyright: '@Mausmajor',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
         saveVGE: {
             name: {
                 de: 'Eigene VGE speichern',
