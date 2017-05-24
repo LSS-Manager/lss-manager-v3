@@ -44,6 +44,7 @@ I18n.translations.de['lssm'] = {
     settings: "Einstellungen",
     saving: "Speichere...",
     save: "Speichern",
+    cantactivate: "kann nicht aktiviert werden, da es mit folgenden Modul(en) inkompatibel ist:",
     apps: {}
 }
 I18n.translations.en['lssm'] = {
@@ -55,6 +56,7 @@ I18n.translations.en['lssm'] = {
     settings: "Settings",
     saving: "Saving...",
     save: "Save",
+    cantactivate: "can't be activated as it's incompatible with the following modul(es):",
     apps: {}
 }
 I18n.translations.nl['lssm'] = {
@@ -172,6 +174,7 @@ var carsById = {
             develop: false,
             version: 'v 1.1',
             copyright: '@lostdesign',
+            collisions: ['Layout02', 'Layout03', 'Layout04'],
             settings:
             {
               has: false,
@@ -192,6 +195,7 @@ var carsById = {
             develop: false,
             version: 'v 1.0',
             copyright: '@lostdesign',
+            collisions: ['Layout01', 'Layout03', 'Layout04'],
             settings:
             {
               has: false,
@@ -212,6 +216,7 @@ var carsById = {
             develop: false,
             version: 'v 1.0',
             copyright: '@lostdesign',
+            collisions: ['Layout01', 'Layout02', 'Layout04', 'FMS5InMap'],
             settings:
             {
               has: false,
@@ -232,6 +237,7 @@ var carsById = {
             develop: false,
             version: 'v 1.0',
             copyright: '@lostdesign',
+            collisions: ['Layout01', 'Layout02', 'Layout03'],
             settings:
             {
               has: false,
@@ -338,7 +344,8 @@ var carsById = {
             {
               has: false,
               function_code: ""
-            }
+            },
+            collisions: ['Layout03']
         },
         Clock: {
             name: {
@@ -652,8 +659,26 @@ var carsById = {
             }
         }
     };
+
+    /**
+     * Checks if a module collides with other modules
+     * @param module
+     * @returns {boolean}
+     */
+    var active_mods = [];
+    function canActivate(mod)
+    {
+        var ca = true;
+        if ('collisions' in mod) {
+            for (var c in mod.collisions) {
+                var c = mod.collisions[c];
+                if (active_mods.indexOf(c) != -1)
+                    ca = false;
+            }
+        }
+        return ca;
+    }
     // Zum zwischenspeichern der schon geladenen Module
-    var activeModule = [];
     function addLocales(module) {
         var mod = module.toString();
         if (mod in Module) {
@@ -677,8 +702,9 @@ var carsById = {
         for (var i in Module) {
             addLocales(i);
             var uc = (window.location.pathname.match(/\//g)).length;
-            if (Module[i].active && Module.status != 'develop' && activeModule.indexOf(i) === -1) {
+            if (Module[i].active && Module.status != 'develop' && canActivate(Module[i])) {
                 if (uc <= 1 || ("inframe" in Module[i] && Module[i].inframe == true && uc>1)) {
+                    active_mods.push(i.toString());
                     $('body').append('<script src="' + lss_config.server + Module[i].source + '" type="text/javascript"></script>');
                 }
             }
@@ -728,9 +754,7 @@ var carsById = {
             var mod = Module[i];
             // Do not show certain modules in the appstore
             if ('noapp' in mod && mod.noapp === true)
-            {
                 continue;
-            }
             modulePanelHtml += '<div class="col-md-3 '+ (mod.develop ? set.ModuleKey()+ '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
@@ -740,10 +764,10 @@ var carsById = {
                 '</div>' +
                 '</span>' +
                 '<h4>' + I18n.t('lssm.apps.'+i.toString()+'.name') + '</h4>' +
-                '<small>' + I18n.t('lssm.apps.'+i.toString()+'.description') + '</small>' +
+                '<small>' + I18n.t('lssm.apps.'+i.toString()+'.description') + '</small>'+
                 '</div>' +
                 '<div class="panel-footer">' +
-                '<a href="' + set.github + mod.ghuser + '">Github</a><div class="pull-right"><span>'+ mod.version +'</span> / <span>'+ mod.copyright +'</span></div>' +
+                '<a href="' + set.github + mod.ghuser + '">Github</a><div class="pull-right"><span>'+ mod.version +'</span> / <span>'+ mod.copyright +'</span></div>'+
                 '</div>' +
                 '</div>' +
                 '</div>';
@@ -754,10 +778,30 @@ var carsById = {
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
         var prefix = set.prefix + '_appstore';
-      var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>'+ I18n.t('lssm.appstore') +'</h1><p>'+I18n.t('lssm.appstore_welcome')+'.</p><p>'+I18n.t('lssm.appstore_desc')+'</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">'+I18n.t('lssm.back_lss')+'</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">'+I18n.t('lssm.settings')+'</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>'+ I18n.t('lssm.appstore') +'</h1><p>'+I18n.t('lssm.appstore_welcome')+'.</p><p>'+I18n.t('lssm.appstore_desc')+'</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">'+I18n.t('lssm.back_lss')+'</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">'+I18n.t('lssm.settings')+'</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         div.on('change', '.onoffswitch-checkbox', function(ev) {
             var e = ev.target;
+            if(e.checked && !canActivate(Module[e.value]))
+            {
+                $(e).prop('checked', false);
+                var warn = "\""+I18n.t('lssm.apps.'+e.value+'.name')+"\" "+I18n.t('lssm.cantactivate');
+                for (var c in Module[e.value].collisions) {
+                    var c = Module[e.value].collisions[c];
+                    if (active_mods.indexOf(c) != -1)
+                        warn += "\r\n"+I18n.t('lssm.apps.'+c+'.name');
+                }
+                alert(warn);
+                return;
+            }
             Module[e.value].active = e.checked;
+            if(e.checked)
+            {
+                active_mods.push(e.value);
+            }
+            else
+            {
+                active_mods.splice(active_mods.indexOf(e.value), 1);
+            }
             saveSettings();
         });
 
@@ -797,4 +841,5 @@ var carsById = {
     loadSettings();
     loadModule();
     appendAppstore();
+
 })(I18n,jQuery)
