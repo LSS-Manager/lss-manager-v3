@@ -51,7 +51,7 @@
                 if (e.hasClass('btn-success')) {
                     e.removeClass('btn-success').addClass('btn-danger');
                     e.html('<i class="glyphicon glyphicon-eye-close"></i>');
-                    $('.MissionOut').not(':hidden').each(function () {
+                    $('.MissionOut.btn-success').not(':hidden').each(function () {
                         var e = $(this);
                         e.html('<i class="glyphicon glyphicon-eye-close"></i>');
                         e.removeClass('btn-success').addClass('btn-danger');
@@ -61,7 +61,7 @@
                 } else {
                     e.removeClass('btn-danger').addClass('btn-success');
                     e.html('<i class="glyphicon glyphicon-eye-open"></i>');
-                    $('.MissionOut').not(':hidden').each(function () {
+                    $('.MissionOut.btn-danger').not(':hidden').each(function () {
                         var e = $(this);
                         e.html('<i class="glyphicon glyphicon-eye-open"></i>');
                         $('#icon_'+ e.data('header')).toggle();
