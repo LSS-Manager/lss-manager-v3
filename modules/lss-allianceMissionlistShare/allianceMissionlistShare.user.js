@@ -16,7 +16,7 @@ function shareMissions(t) {
         var e = $(this);
         if (e.find('.allianceShareButton').length === 0) {
             var id = e.attr('mission_id');
-            if (!$('#mission_panel_' + id).hasClass('panel-success')) {
+            if (!$('#mission_panel_' + id).hasClass('panel-success') && typeof alliance_id !== "undefined" && alliance_id != 0) {
                 create($('#mission_panel_heading_' + id), id, '');
             } else {
                 create($('#mission_panel_heading_' + id), id, ' btn__disabled');
