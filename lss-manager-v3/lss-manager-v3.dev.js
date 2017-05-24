@@ -22,6 +22,43 @@
 // einladen der verfügbaren module
 // activeModule()
 //
+/**
+ * Localization
+ */
+I18n.defaultLocale = 'de';
+I18n.fallbacks = true;
+I18n.locales.nl = ['nl', 'en', 'de'];
+I18n.translations.de['lssm'] = {
+    lssm: "LSS-Manager",
+    appstore: "App Store",
+    appstore_welcome: "Willkommen im Appstore vom LSS Manager",
+    appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder im Forum einen Beitrag verfassen.",
+    back_lss: "Zurück zu Leistellenspiel",
+    settings: "Einstellungen",
+    saving: "Speichere...",
+    save: "Speichern",
+    apps: {}
+}
+I18n.translations.en['lssm'] = {
+    lssm: "LSS-Manager",
+    appstore: "App Store",
+    appstore_welcome: "Welcome to the appstore of LSS Manager",
+    appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or write a message in the forum.",
+    back_lss: "Back to missionchief",
+    settings: "Settings",
+    saving: "Saving...",
+    save: "Save",
+    apps: {}
+}
+I18n.translations.nl['lssm'] = {
+    lssm: "LSS-Manager",
+    appstore: "App winkel",
+    appstore_welcome: "Welkom bij de App winkel van LSS Manager",
+    appstore_desc: "Dit zijn verschillende plug-ins die uw game-ervaring zal verbeteren. Elke plugin kan individueel worden geactiveerd, door te vragen de hendel naar groen. Mochten er problemen zijn, kunt u een bericht plaatsen of een bericht posten op het forum zoals wij.",
+    back_lss: "Terug naar meldkamerspel",
+    apps: {}
+}
+
 var carsById = {
         "0": "LF 20",
         "1": "LF 10",
@@ -123,14 +160,11 @@ lss_config = {
         Layout01: {
             name: {
                 de: 'Layout 01',
-                en: 'Layout 01',
-                nl: 'Layout 01'
             },
             active: false,
             description: {
                 de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen Fensters im Menu.',
-                en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-01/layout-01.user.js',
@@ -145,15 +179,12 @@ lss_config = {
         },
         Layout02: {
             name: {
-                de: 'Layout 02',
-                en: 'Layout 02',
-                nl: 'Layout 02'
+                de: 'Layout 02'
             },
             active: false,
             description: {
                 de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & Funksprüche.',
-                en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-02/layout-02.user.js',
@@ -168,15 +199,12 @@ lss_config = {
         },
         Layout03: {
             name: {
-                de: 'Layout 03',
-                en: 'Layout 03',
-                nl: 'Layout 03'
+                de: 'Layout 03'
             },
             active: false,
             description: {
                 de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
-                en: 'Layout without map. The four windows are using 100% of the given browser height.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'Layout without map. The four windows are using 100% of the given browser height.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-03/layout-03.user.js',
@@ -191,15 +219,12 @@ lss_config = {
         },
         Layout04: {
             name: {
-                de: 'Layout 04',
-                en: 'Layout 04',
-                nl: 'Layout 04'
+                de: 'Layout 04'
             },
             active: false,
             description: {
                 de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
-                en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-layout-04/layout-04.user.js',
@@ -214,15 +239,12 @@ lss_config = {
         },
         MissionOut: {
             name: {
-                de: 'MissionOut',
-                en: 'MissionOut',
-                nl: 'MissionOut'
+                de: 'MissionOut'
             },
             active: false,
             description: {
                 de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
                 en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for each one.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -238,14 +260,12 @@ lss_config = {
         saveVGE: {
             name: {
                 de: 'Eigene VGE speichern',
-                en: 'Save created alliance calls',
-                nl: 'Save created alliance calls'
+                en: 'Save created alliance calls'
             },
             active: false,
             description: {
                 de: 'Funktion um sebst erstlle VGE zu speichern.',
                 en: 'Enables a function to save own created mission calls to use them as template.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-saveVGE/saveVGE.user.js',
@@ -260,15 +280,12 @@ lss_config = {
         },
         Notification_Alert: {
             name: {
-                de: 'Notification Alert',
-                en: 'Notification Alert',
-                nl: 'Notification Alert'
+                de: 'Notification Alert'
             },
             active: false,
             description: {
                 de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)',
                 en: 'HTML5 Chatnotifications using the browser notificationsystem.',
-                nl: 'PLEASE TRANSLATE THIS.',
             },
             ghuser: 'DLRG-Dominik',
             source: '/modules/lss-notification_alert/Notification_alarm.user.js',
@@ -283,15 +300,12 @@ lss_config = {
         },
         Redesign01: {
             name: {
-                de: 'Redesign 01',
-                en: 'Redesign 01',
-                nl: 'Redesign 01'
+                de: 'Redesign 01'
             },
             active: false,
             description: {
                 de: 'Neues Design für die Oberfläche',
-                en: 'New design for the game.',
-                nl: 'PLEASE TRANSLATE THIS'
+                en: 'New design for the game.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-redesign-01/redesign-01.user.js',
@@ -307,14 +321,12 @@ lss_config = {
         FMS5InMap: {
             name: {
                 de: 'FMS 5 in der Karte',
-                en: 'Request transport in map',
-                nl: 'PLEASE TRANSLATE THIS'
+                en: 'Request transport in map'
             },
             active: false,
             description: {
                 de: 'Zeigt alle FMS 5 in der Karte an.',
-                en: 'Shows request transports within the map lower left corner.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'Shows request transports within the map lower left corner.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
@@ -329,15 +341,12 @@ lss_config = {
         },
         Clock: {
             name: {
-                de: 'Clock',
-                en: 'Clock',
-                nl: 'Clock'
+                de: 'Clock'
             },
             active: false,
             description: {
                 de: 'Zeigt eine Uhr in der Karte an.',
                 en: 'Enables a small clock within the map.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-clock/clock.user.js',
@@ -353,14 +362,12 @@ lss_config = {
         WachenplanungOnMap: {
             name: {
                 de: 'Wachenplanung auf der Karte',
-                en: 'Station management on map',
-                nl: 'Station management on map'
+                en: 'Station management on map'
             },
             active: false,
             description: {
                 de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Gebäude sind wählbar.',
                 en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for specific buildings.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
@@ -376,14 +383,12 @@ lss_config = {
         tagMissions: {
             name: {
                 de: 'Einsätze markieren',
-                en: 'Mark calls',
-                nl: 'Mark calls'
+                en: 'Mark calls'
             },
             active: false,
             description: {
                 de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
                 en: 'Got inplemented into the game - deactivated for now.',
-                nl: 'PELASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-tagMissions/tagMissions.user.js',
@@ -399,14 +404,12 @@ lss_config = {
         allianceMissionlistShare: {
             name: {
                 de: 'Einsätze freigeben',
-                en: 'Mission share',
-                nl: 'Mission share'
+                en: 'Mission share'
             },
             active: false,
             description: {
                 de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
-                en: 'Instantly share missions without opening the call by clicking a button in the overview.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'Instantly share missions without opening the call by clicking a button in the overview.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
@@ -422,14 +425,12 @@ lss_config = {
         searchMissions: {
             name: {
                 de: 'Einsätze suchen',
-                en: 'Mission search',
-                nl: 'Mission search'
+                en: 'Mission search'
             },
             active: false,
             description: {
                 de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
-                en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.',
-                nl: 'PLEASE TRANSLATE THIS.'
+                en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-searchMissions/searchMissions.user.js',
@@ -445,14 +446,12 @@ lss_config = {
         keyboard: {
             name: {
                 de: 'Alarmmasken Steuerung',
-                en: 'Callview control',
-                nl: 'Callview control'
+                en: 'Callview control'
             },
             active: false,
             description: {
                 de: 'Einsatzmaske mit Tastatur steuern.',
                 en: 'Control the mission view with the keyboard.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'ChaosKai',
             source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
@@ -469,14 +468,11 @@ lss_config = {
         Statistik: {
             name: {
                 de: 'Statistik',
-                en: 'Statistic',
-                nl: 'Statistic'
+                en: 'Statistic'
             },
             active: false,
             description: {
-                de: 'Statistik',
-                en: 'Statistic',
-                nl: 'Statistic'
+                de: 'Statistik'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-Statistik/statistik.user.js',
@@ -491,15 +487,12 @@ lss_config = {
         },
         dashboard: {
             name: {
-                de: 'Dashboard',
-                en: 'Dashboard',
-                nl: 'Dashboard'
+                de: 'Dashboard'
             },
             active: false,
             description: {
-                de: 'Statistik',
-                en: 'Statistic',
-                nl: 'Statistic'
+                de: 'Dashboard',
+                en: 'Dashboard'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-dashboard/dashboard.user.js',
@@ -515,14 +508,12 @@ lss_config = {
         WachenHoverStati: {
             name: {
                 de: 'Wachen Status',
-                en: 'Station status',
-                nl: 'Station status'
+                en: 'Station status'
             },
             active: false,
             description: {
                 de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
                 en: 'Shows the code of vehciles on station hover on the map.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'lostdesign',
             source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
@@ -538,14 +529,12 @@ lss_config = {
         RenameFZ: {
             name: {
                 de: 'Fahrzeuge umbennenen',
-                en: 'Rename vehicle',
-                nl: 'RenameFZ'
+                en: 'Rename vehicle'
             },
             active: false,
             description: {
                 de: 'Fahrzeuge in bulk mit Tags umbennenen.',
                 en: 'Rename vehicles in bulk using tags.',
-                nl: 'PLEASE TRANSLATE THIS.'
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-RenameFZ/renameFZ.user.js',
@@ -560,9 +549,7 @@ lss_config = {
         },
         get_buildings_helper: {
             name: {
-                de: 'get_buildings_helper',
-                en: 'Keyboard control',
-                nl: '-'
+                de: 'get_buildings_helper'
             },
             active: true,
             description: {
@@ -582,9 +569,7 @@ lss_config = {
         },
         car_list_printable: {
             name: {
-                de: 'car_list_printable',
-                en: 'Keyboard control',
-                nl: '-'
+                de: 'car_list_printable'
             },
             active: true,
             description: {
@@ -604,9 +589,7 @@ lss_config = {
         },
         car_list: {
             name: {
-                de: 'car_list',
-                en: 'Keyboard control',
-                nl: '-'
+                de: 'car_list'
             },
             active: true,
             description: {
@@ -627,8 +610,7 @@ lss_config = {
         telemetry: {
             name: {
                 de: 'Telemetrie',
-                en: 'Telemetry',
-                nl: 'Telemetrie'
+                en: 'Telemetry'
             },
             active: true,
             description: {
@@ -650,9 +632,7 @@ lss_config = {
         },
         mapreload: {
             name: {
-                de: 'Map Reload',
-                en: 'Map Reload',
-                nl: 'Map Reload'
+                de: 'Map Reload'
             },
             active: true,
             description: {
@@ -673,9 +653,28 @@ lss_config = {
     };
     // Zum zwischenspeichern der schon geladenen Module
     var activeModule = [];
-
+    function addLocales(module) {
+        var mod = module.toString();
+        if (mod in Module) {
+            for (i in Module[module].name) {
+                var lang = i.toString();
+                if (!(mod in I18n.translations[lang]['lssm']['apps'])) {
+                    I18n.translations[lang]['lssm']['apps'][mod] = {}
+                }
+                I18n.translations[lang]['lssm']['apps'][mod]['name'] = Module[module]['name'][lang];
+            }
+            for (i in Module[module].description) {
+                var lang = i.toString();
+                if (!(mod in I18n.translations[lang]['lssm']['apps'])) {
+                    I18n.translations[lang]['lssm']['apps'][mod] = {}
+                }
+                I18n.translations[lang]['lssm']['apps'][mod]['description'] = Module[module]['description'][lang];
+            }
+        }
+    }
     function loadModule() {
         for (var i in Module) {
+            addLocales(i);
             var uc = (window.location.pathname.match(/\//g)).length;
             if (Module[i].active && Module.status != 'develop' && activeModule.indexOf(i) === -1) {
                 if (uc <= 1 || ("inframe" in Module[i] && Module[i].inframe == true && uc>1)) {
@@ -696,8 +695,7 @@ lss_config = {
         var load = JSON.parse(localStorage.getItem(set.ModuleKey())) || {};
         for (var i in load) {
             var modname = i.toString();
-            if ((modname in Module) === false)
-            {
+            if ((modname in Module) === false) {
                 console.log(modname +" is not a valid app. Skipping.");
                 continue;
             }
@@ -716,7 +714,7 @@ lss_config = {
             }
             if ('settings' in mod && mod.settings.has == true && mod.active == true)
             {
-                settingsHtml += '<li><a href="#" role="tab" onclick="'+ mod.settings.function_code +'();" data-toggle="tab">'+ mod.name[set.locale] +'</a></li>';
+                settingsHtml += '<li><a href="#" role="tab" onclick="'+ mod.settings.function_code +'();" data-toggle="tab">'+ I18n.t('lssm.apps.'+i.toString()+'.name') +'</a></li>';
             }
         }
         return settingsHtml;
@@ -740,8 +738,8 @@ lss_config = {
                 '<label class="onoffswitch-label" for="' + set.ModuleKey() + '_' + i + '"></label>' +
                 '</div>' +
                 '</span>' +
-                '<h4>' + mod.name[set.locale] + '</h4>' +
-                '<small>' + mod.description[set.locale] + '</small>' +
+                '<h4>' + I18n.t('lssm.apps.'+i.toString()+'.name') + '</h4>' +
+                '<small>' + I18n.t('lssm.apps.'+i.toString()+'.description') + '</small>' +
                 '</div>' +
                 '<div class="panel-footer">' +
                 '<a href="' + set.github + mod.ghuser + '">Github</a><div class="pull-right"><span>'+ mod.version +'</span> / <span>'+ mod.copyright +'</span></div>' +
@@ -755,7 +753,7 @@ lss_config = {
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
         var prefix = set.prefix + '_appstore';
-      var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>APPSTORE</h1><p>Willkommen im LSS Manager Appstore.</p><p>Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder » hier « im Forum einen Beitrag verfassen.</p><br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">Zurück zum Leitstellenspiel</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">EINSTELLUNGEN:</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+      var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>'+ I18n.t('lssm.appstore') +'</h1><p>'+I18n.t('lssm.appstore_welcome')+'.</p><p>'+I18n.t('lssm.appstore_desc')+'</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">'+I18n.t('lssm.back_lss')+'</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">'+I18n.t('lssm.settings')+'</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         div.on('change', '.onoffswitch-checkbox', function(ev) {
             var e = ev.target;
             Module[e.value].active = e.checked;
@@ -770,7 +768,7 @@ lss_config = {
     function appendAppstore() {
         // Variablen setzen für weitere Verwendung
         var prefix = set.prefix + '_appstore';
-        var settingButton = $('<li><a id="' + prefix + '_activate" href="#"><span class="label label-success">LSS Manager</span></a></li>');
+        var settingButton = $('<li><a id="' + prefix + '_activate" href="#"><span class="label label-success">'+I18n.t('lssm.lssm')+'</span></a></li>');
         var div = $('<div class="row" id="' + prefix + '_row"></div>').append(createModuleMain());
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
@@ -783,7 +781,7 @@ lss_config = {
             $('footer').hide();
             $('#' + prefix + '_close').click(function() {
                 loadModule();
-                $('body').append('<div id="preloader">Speichere Einstellugen</div>');
+                $('body').append('<div id="preloader">'+ I18n.t('lssm.saving') +'</div>');
                 content.delay(50).show(function(){
                     $('#preloader').delay(50).remove();
                     location.reload();
@@ -795,8 +793,7 @@ lss_config = {
         // einhängen des Buttons in der Navi
         $('#navbar-main-collapse > ul').append(settingButton);
     }
-
     loadSettings();
-    appendAppstore();
     loadModule();
+    appendAppstore();
 })(I18n,jQuery)
