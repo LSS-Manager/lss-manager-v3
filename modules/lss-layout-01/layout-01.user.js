@@ -51,5 +51,5 @@
         newCalls = 0;
         $('#lssm_callsAmount').text('');
     });
-
+    map.invalidateSize(true);
 })();
