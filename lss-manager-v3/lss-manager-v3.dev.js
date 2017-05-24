@@ -22,6 +22,13 @@
 // einladen der verfügbaren module
 // activeModule()
 //
+lss_config = {
+    server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+    stats_uri: "https://proxy.lss-manager.de/stat.php",
+    forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
+    version: "3.1"
+};
+
 /**
  * Localization
  */
@@ -32,7 +39,7 @@ I18n.translations.de['lssm'] = {
     lssm: "LSS-Manager",
     appstore: "App Store",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
-    appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder im Forum einen Beitrag verfassen.",
+    appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\""+lss_config.forum_link+"\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leistellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -43,7 +50,7 @@ I18n.translations.en['lssm'] = {
     lssm: "LSS-Manager",
     appstore: "App Store",
     appstore_welcome: "Welcome to the appstore of LSS Manager",
-    appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or write a message in the forum.",
+    appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or <a href=\""+lss_config.forum_link+"\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
     saving: "Saving...",
@@ -54,7 +61,7 @@ I18n.translations.nl['lssm'] = {
     lssm: "LSS-Manager",
     appstore: "App winkel",
     appstore_welcome: "Welkom bij de App winkel van LSS Manager",
-    appstore_desc: "Dit zijn verschillende plug-ins die uw game-ervaring zal verbeteren. Elke plugin kan individueel worden geactiveerd, door te vragen de hendel naar groen. Mochten er problemen zijn, kunt u een bericht plaatsen of een bericht posten op het forum zoals wij.",
+    appstore_desc: "Dit zijn verschillende plug-ins die uw game-ervaring zal verbeteren. Elke plugin kan individueel worden geactiveerd, door te vragen de hendel naar groen. Mochten er problemen zijn, kunt u <a href=\""+lss_config.forum_link+"\" target=\"blank\">een bericht plaatsen of een bericht posten op het forum zoals wij</a>.",
     back_lss: "Terug naar meldkamerspel",
     apps: {}
 }
@@ -132,12 +139,6 @@ var carsById = {
         "69": "Tauchkraftwagen",
         "70": "MZB",
     "71": "AB-MZB"
-};
-
-lss_config = {
-    server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
-    stats_uri: "https://proxy.lss-manager.de/stat.php",
-    version: "3.1"
 };
 
 (function(I18n,$) {
