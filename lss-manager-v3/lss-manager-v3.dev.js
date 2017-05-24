@@ -682,19 +682,16 @@ var carsById = {
     function addLocales(module) {
         var mod = module.toString();
         if (mod in Module) {
-            for (i in Module[mod].name) {
-                var lang = i.toString();
-                if (!(mod in I18n.translations[lang]['lssm']['apps'])) {
-                    I18n.translations[lang]['lssm']['apps'][mod] = {}
+            var keys = ['name', 'description']
+            for (var k in keys) {
+                k = keys[k];
+                for (var l in Module[mod][k]) {
+                    l = l.toString();
+                    if (!(mod in I18n.translations[l]['lssm']['apps'])) {
+                        I18n.translations[l]['lssm']['apps'][mod] = {}
+                    }
+                    I18n.translations[l]['lssm']['apps'][mod][k] = Module[mod][k][l];
                 }
-                I18n.translations[lang]['lssm']['apps'][mod]['name'] = Module[mod]['name'][lang];
-            }
-            for (i in Module[mod].description) {
-                var lang = i.toString();
-                if (!(mod in I18n.translations[lang]['lssm']['apps'])) {
-                    I18n.translations[lang]['lssm']['apps'][mod] = {}
-                }
-                I18n.translations[lang]['lssm']['apps'][mod]['description'] = Module[mod]['description'][lang];
             }
         }
     }
