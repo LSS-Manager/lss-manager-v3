@@ -685,6 +685,8 @@ var carsById = {
             var keys = ['name', 'description']
             for (var k in keys) {
                 k = keys[k];
+                if (!k in Module[mod])
+                    continue;
                 for (var l in Module[mod][k]) {
                     l = l.toString();
                     if (!(mod in I18n.translations[l]['lssm']['apps'])) {
