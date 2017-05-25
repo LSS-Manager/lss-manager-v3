@@ -8,85 +8,80 @@ var timeout_S5 = localStorage.getItem("S5_blend"); //Zeit in Sekunden wie lange 
 var timeout_Status = localStorage.getItem("Status_blend"); //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
 var timeout_ChatPopup = localStorage.getItem("ChatP_blend");
 
+I18n.translations.de['lssm']['n-alarm'] = {
+    not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
+    init:"Notification-Alarm wird initalisiert, Bitte warten...",
+    inithead:"Initalisierung",
+    chat_message: "Chatnachricht von ",
+    blend:"Ausblenden nach:",
+    seconds:"Sekunden",
+    settings: {
+        title: "Einstellungen - Notification-Alarm",
+        text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
+        text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+        chat_title: "Chatnachrichten",
+        chat_text: "Chatnachrichten als Notification bekommen.",
+        s5_title: "Status 5",
+        save: "Speichern",
+        s5_text: "Status 5 als Notification bekommen",
+        status_title: "Status",
+        status_text: "Alle Status-Meldungen als Notification bekommen.",
+        chatp_title: "Chatnachrichten als Info-Popup",
+        chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
+    }
+}
 
-var set = {
-       locale: I18n.locale,
-       translations: {
-           de: {
-               not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
-               init:"Notification-Alarm wird initalisiert, Bitte warten...",
-               inithead:"Initalisierung",
-               chat_message: "Chatnachricht von ",
-               blend:"Ausblenden nach:",
-               seconds:"Sekunden",
-               settings:{
-                      title: "Einstellungen - Notification-Alarm",
-                      text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-                      text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
-                      chat_title: "Chatnachrichten",
-                      chat_text: "Chatnachrichten als Notification bekommen.",
-                      s5_title:"Status 5",
-                      save: "Speichern",
-                      s5_text: "Status 5 als Notification bekommen",
-                      status_title: "Status",
-                      status_text:"Alle Status-Meldungen als Notification bekommen.",
-                      chatp_title: "Chatnachrichten als Info-Popup",
-                      chatp_text:"Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
-             }
-           },
-           en: {
-               not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
-               init:"Notification-Alarm wird initalisiert, Bitte warten...",
-               inithead:"Initalisierung",
-               chat_message: "Chatnachricht von ",
-               blend:"Ausblenden nach:",
-               seconds:"Sekunden",
-               settings:{
-                      title: "Einstellungen - Notification-Alarm",
-                      text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-                      text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
-                      chat_title: "Chatnachrichten",
-                      chat_text: "Chatnachrichten als Notification bekommen.",
-                      s5_title:"Status 5",
-                      save: "Save",
-                      s5_text: "Status 5 als Notification bekommen",
-                      status_title: "Status",
-                      status_text:"Alle Status-Meldungen als Notification bekommen.",
-                      chatp_title: "Chatnachrichten als Info-Popup",
-                      chatp_text:"Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
-             }
-           },
-           nl: {
-               not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
-               init:"Notification-Alarm wird initalisiert, Bitte warten...",
-               inithead:"Initalisierung",
-               chat_message: "Chatnachricht von ",
-               blend:"Ausblenden nach:",
-               seconds:"Sekunden",
-               settings:{
-                      title: "Einstellungen - Notification-Alarm",
-                      text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-                      text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
-                      chat_title: "Chatnachrichten",
-                      chat_text: "Chatnachrichten als Notification bekommen.",
-                      s5_title:"Status 5",
-                      save: "Speichern",
-                      s5_text: "Status 5 als Notification bekommen",
-                      status_title: "Status",
-                      status_text:"Alle Status-Meldungen als Notification bekommen.",
-                      chatp_title: "Chatnachrichten als Info-Popup",
-                      chatp_text:"Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
-             }
-           }
-       }
-   };
+I18n.translations.en['lssm']['n-alarm'] = {
+    not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
+    init:"Notification-Alarm wird initalisiert, Bitte warten...",
+    inithead:"Initalisierung",
+    chat_message: "Chatnachricht von ",
+    blend:"Ausblenden nach:",
+    seconds:"Sekunden",
+    settings: {
+        title: "Einstellungen - Notification-Alarm",
+        text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
+        text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+        chat_title: "Chatnachrichten",
+        chat_text: "Chatnachrichten als Notification bekommen.",
+        s5_title: "Status 5",
+        save: "Save",
+        s5_text: "Status 5 als Notification bekommen",
+        status_title: "Status",
+        status_text: "Alle Status-Meldungen als Notification bekommen.",
+        chatp_title: "Chatnachrichten als Info-Popup",
+        chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
+    }
+}
 
+I18n.translations.nl['lssm']['n-alarm'] = {
+    not_support:"Dieser Browser unterstützt leider keine HTML5-Notifications",
+    init:"Notification-Alarm wird initalisiert, Bitte warten...",
+    inithead:"Initalisierung",
+    chat_message: "Chatnachricht von ",
+    blend:"Ausblenden nach:",
+    seconds:"Sekunden",
+    settings:{
+        title: "Einstellungen - Notification-Alarm",
+        text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
+        text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+        chat_title: "Chatnachrichten",
+        chat_text: "Chatnachrichten als Notification bekommen.",
+        s5_title:"Status 5",
+        save: "Speichern",
+        s5_text: "Status 5 als Notification bekommen",
+        status_title: "Status",
+        status_text:"Alle Status-Meldungen als Notification bekommen.",
+        chatp_title: "Chatnachrichten als Info-Popup",
+        chatp_text:"Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
+    }
+}
 
 
 function notifyMe(username,message,type="init",fms="2",vid="0") {
 
     if (!("Notification" in window)) {
-        alert(set.translations[set.locale].not_support);
+        alert(I18n.t('lssm.n-alarm.not_support'));
     }
 
 
@@ -101,7 +96,7 @@ function notifyMe(username,message,type="init",fms="2",vid="0") {
         }
         else if(type =="Chat")
         {
-            var notification = new Notification(set.translations[set.locale].chat_message+username, {
+            var notification = new Notification(I18n.t('lssm.n-alarm.chat_message')+username, {
                 body: message,
                 icon: "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/134895.png"
             });
@@ -202,17 +197,17 @@ function ChatPopup(date,user_id,username,mission_id,message)
 function NotificationAlarm_show_settings()
 {
   var content = $('#navbar-mobile-footer').prev();
-  var settings_html = '<div class="row" id="lssm_appstore_row"><div class="col-md-12 lssm_appstore" id="lssm_appstore"><div class="jumbotron" style="padding:5px;"><h1>'+set.translations[set.locale].settings.title+'</h1><p>'+set.translations[set.locale].settings.text_1+'</p><p>'+set.translations[set.locale].settings.text_2+'</p><br><p></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;';
+  var settings_html = '<div class="row" id="lssm_appstore_row"><div class="col-md-12 lssm_appstore" id="lssm_appstore"><div class="jumbotron" style="padding:5px;"><h1>'+I18n.t('lssm.n-alarm.settings.title')+'</h1><p>'+I18n.t('lssm.n-alarm.settings.text_1')+'</p><p>'+I18n.t('lssm.n-alarm.settings.text_2')+'</p><br><p></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;';
 
   settings_html += '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 2.0</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""><div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav">';
 
-  settings_html += '<button style="padding:5px;" class="btn btn-success" onclick="save_settings();">'+set.translations[set.locale].settings.save+'</button></ul></div></div></nav><div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chat" checked="true" value="N-A_chat" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chat"></label></div></span><h4>'+set.translations[set.locale].settings.chat_title+'</h4><small>'+set.translations[set.locale].settings.chat_text+'</small></div><div class="panel-footer">'+set.translations[set.locale].blend+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_chat_blend" /></span><span>'+set.translations[set.locale].seconds+'</span></div></div></div></div>';
+  settings_html += '<button style="padding:5px;" class="btn btn-success" onclick="save_settings();">'+I18n.t('lssm.n-alarm.settings.save')+'</button></ul></div></div></nav><div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chat" checked="true" value="N-A_chat" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chat"></label></div></span><h4>'+I18n.t('lssm.n-alarm.settings.chat_title')+'</h4><small>'+I18n.t('lssm.n-alarm.settings.chat_text')+'</small></div><div class="panel-footer">'+I18n.t('lssm.n-alarm.blend')+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_chat_blend" /></span><span>'+I18n.t('lssm.n-alarm.seconds')+'</span></div></div></div></div>';
 
-  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_S5" checked="true" value="N-A_S5" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_S5"></label></div></span><h4>'+set.translations[set.locale].settings.s5_title+'</h4><small>'+set.translations[set.locale].settings.s5_text+'</small></div><div class="panel-footer">'+set.translations[set.locale].blend+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_S5_blend" /></span><span>'+set.translations[set.locale].seconds+'</span></div></div></div></div>';
+  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_S5" checked="true" value="N-A_S5" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_S5"></label></div></span><h4>'+I18n.t('lssm.n-alarm.settings.s5_title')+'</h4><small>'+I18n.t('lssm.n-alarm.settings.s5_text')+'</small></div><div class="panel-footer">'+I18n.t('lssm.n-alarm.blend')+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_S5_blend" /></span><span>'+I18n.t('lssm.n-alarm.seconds')+'</span></div></div></div></div>';
 
-  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_status" checked="false" value="N-A_status" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_status"></label></div></span><h4>'+set.translations[set.locale].settings.status_title+'</h4><small>'+set.translations[set.locale].settings.status_text+'</small></div><div class="panel-footer">'+set.translations[set.locale].blend+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_status_blend" /></span><span>'+set.translations[set.locale].seconds+'</span></div></div></div></div>';
+  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_status" checked="false" value="N-A_status" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_status"></label></div></span><h4>'+I18n.t('lssm.n-alarm.settings.status_title')+'</h4><small>'+I18n.t('lssm.n-alarm.settings.status_text')+'</small></div><div class="panel-footer">'+I18n.t('lssm.n-alarm.blend')+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_status_blend" /></span><span>'+I18n.t('lssm.n-alarm.seconds')+'</span></div></div></div></div>';
 
-  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" checked="true" value="N-A_chatp" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>'+set.translations[set.locale].settings.chatp_title+'</h4><small>'+set.translations[set.locale].settings.chatp_text+'</small></div><div class="panel-footer">'+set.translations[set.locale].blend+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_chatp_blend" /></span><span>'+set.translations[set.locale].seconds+'</span></div></div></div></div></div></div>';
+  settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" checked="true" value="N-A_chatp" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>'+I18n.t('lssm.n-alarm.settings.chatp_title')+'</h4><small>'+I18n.t('lssm.n-alarm.settings.chatp_text')+'</small></div><div class="panel-footer">'+I18n.t('lssm.n-alarm.blend')+'<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_chatp_blend" /></span><span>'+I18n.t('lssm.n-alarm.seconds')+'</span></div></div></div></div></div></div>';
 
   settings_html += '<div id="backtolss"></div><script>var Chat = localStorage.getItem("Chat") == null ? true : localStorage.getItem("Chat"); var S5 = localStorage.getItem("S5") == null ? true : localStorage.getItem("S5"); var Status = localStorage.getItem("Status") == null ? false : localStorage.getItem("Status"); var ChatP = localStorage.getItem("ChatP") == null ? true : localStorage.getItem("ChatP"); var Chat_blend = localStorage.getItem("Chat_blend") == null ? "3" : localStorage.getItem("Chat_blend"); var S5_blend = localStorage.getItem("S5_blend") == null ? "3" : localStorage.getItem("S5_blend"); var Status_blend = localStorage.getItem("Status_blend") == null ? "3" : localStorage.getItem("Status_blend"); var ChatP_blend = localStorage.getItem("ChatP_blend") == null ? "3" : localStorage.getItem("ChatP_blend"); document.getElementById("N-A_chat").checked = (Chat == "true");';
 
@@ -226,7 +221,7 @@ function NotificationAlarm_show_settings()
   $('body').append(settings_html);
 
 }
-notifyMe(set.translations[set.locale].inithead,set.translations[set.locale].init,"init");
+notifyMe(I18n.t('lssm.n-alarm.inithead'),I18n.t('lssm.n-alarm.init'),"init");
 (function(){
     var allianceChatBuffer = allianceChat;
     var radioMessageBuffer = radioMessage;
