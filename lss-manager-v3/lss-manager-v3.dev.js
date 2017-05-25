@@ -657,6 +657,27 @@ var carsById = {
               has: false,
               function_code: ""
             }
+        },
+        showBackAlarmAbove: {
+            name: {
+                de: 'show Back Alarm Above',
+                en: 'show Back Alarm Above'
+            },
+            active: true,
+            description: {
+                de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
+            },
+            ghuser: 'Mausmajor',
+            source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
+            noapp: false, // Nicht im App-Store auflisten
+            develop: false,
+            version: 'v 0.1',
+            copyright: '@lss-manager',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
         }
     };
 
