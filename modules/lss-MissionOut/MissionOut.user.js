@@ -1,7 +1,7 @@
-I18n.translations.de['lssm']['missionout']={
+(function ($, win,I18n) {
+    I18n.translations.de['lssm']['missionout']={
         title:"Mission aus/ein-blenden"
     };
-(function ($, win,I18n) {
     var missionMarkerAddBuffer = win.missionMarkerAdd;
     // /hode/show Event abfangen
     $('#missions-panel-body').on('click', '.MissionOut', function (e) {
@@ -20,7 +20,7 @@ I18n.translations.de['lssm']['missionout']={
     });
     function create(h, id, icon) {
         var div = $('<div class="pull-right" id="mission_out_'+id+'"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="'+I18n.t('lss.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>');
+        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="'+I18n.t('lssm.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>');
         div.prepend($button);
         icon.attr('id', 'icon_' + id).hide();
         h.prepend(icon);
@@ -48,7 +48,7 @@ I18n.translations.de['lssm']['missionout']={
             patienten(id, $('#mission_patients_' + id + ' .patient_progress').length);
         }
     });
-    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="'+I18n.t('lss.MissionOut.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>')
+    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="'+I18n.t('lssm.MissionOut.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>')
             .click(function () {
                 var e = $(this);
                 if (e.hasClass('btn-success')) {
