@@ -95,10 +95,10 @@
         if ($('#' + prefix).length)
             return;
         var mainDiv = $('<div id="' + prefix + '"></div>');
-        var html = '' + I18n.t('lssm,renameFZ.example') + '<br>' + set.str.bsp + '<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div><div id="' + prefix + '_buttons">';
+        var html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div><div id="' + prefix + '_buttons">';
         for (var i in set.option)
-            html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm,renameFZ.'+i) + '</a>';
-        html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm,renameFZ.rename') + '</a></div>';
+            html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
+        html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
         mainDiv.append(html);
         var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
         $('#vehicle_table tbody:first').prepend(tr);
