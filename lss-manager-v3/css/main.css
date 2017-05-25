@@ -43,6 +43,10 @@ div#preloader {
   border:1px solid #bdbdbd;
   border-radius:5px;
 }
+
+.allianceShareButton {
+  margin-top:2px;
+}
 /* ##################################################
 
               APPSTORE/PLUGIN STYLES
