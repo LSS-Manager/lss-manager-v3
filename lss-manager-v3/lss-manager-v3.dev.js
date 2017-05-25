@@ -575,6 +575,26 @@ var carsById = {
               function_code: ""
             }
         },
+        car_list_all: {
+            name: {
+                de: 'car_list_all'
+            },
+            active: true,
+            description: {
+                de: 'car_list_all'
+            },
+            ghuser: 'lss-manager',
+            source: '/helperFunctions/car_list_all.js',
+            noapp: true, // Nicht im App-Store auflisten
+            develop: true,
+            version: 'v 0.1',
+            copyright: '@lss-manager',
+            settings:
+            {
+              has: false,
+              function_code: ""
+            }
+        },
         car_list_printable: {
             name: {
                 de: 'car_list_printable'
