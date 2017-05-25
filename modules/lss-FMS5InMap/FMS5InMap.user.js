@@ -1,4 +1,4 @@
-(function() {
+(function($) {
     $("#radio_messages_important").detach().appendTo("#map"), $("#map #radio_messages_important").css({
       "position": "absolute",
       "z-index": "999",
@@ -12,4 +12,4 @@
       "margin": "0 !important",
       "padding": "10px"
     })
-})();
+})($);

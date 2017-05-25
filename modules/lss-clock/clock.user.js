@@ -1,4 +1,4 @@
-(function() {
+(function($) {
     function clock(id, target) {
       /*
       	* Clock Objekt erstellt ein div mit hour,minute,second und aktualisiert dies sekündlich
@@ -53,4 +53,4 @@
 
     }
   var lssClock = new clock('lss_clock',$('#map'));
-})();
+})($);

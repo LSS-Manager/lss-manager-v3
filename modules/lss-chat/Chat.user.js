@@ -7,7 +7,7 @@
 // @exclude      *://www.leitstellenspiel.de/mission*
 // @grant        none
 // ==/UserScript==
-(function(){
+(function($,I18n){
     // Settings
     var settings = {
         allianceChatNotifcation:true,
@@ -68,4 +68,4 @@
             hideMainDiv();
         }
     };
-})();
+})($,I18n);
