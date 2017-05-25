@@ -259,7 +259,7 @@ function populate_fzgtable() {
     var cars = {};
     var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
     $.each(car_list_all(), function (key, veh) {
-        var type = carsById[veh.type][0];
+        var type = carsById[veh.type][1];
         if(typeof cars[type]== 'undefined'){
             cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
         }
