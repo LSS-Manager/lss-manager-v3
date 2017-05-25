@@ -1,7 +1,7 @@
-(function ($, win,I18n) {
-    I18n.translations.de['lssm']['missionout']={
+I18n.translations.de['lssm']['missionout']={
         title:"Mission aus/ein-blenden"
     };
+(function ($, win,I18n) {
     var missionMarkerAddBuffer = win.missionMarkerAdd;
     // /hode/show Event abfangen
     $('#missions-panel-body').on('click', '.MissionOut', function (e) {
