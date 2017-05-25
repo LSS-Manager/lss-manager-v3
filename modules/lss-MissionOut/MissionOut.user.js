@@ -72,6 +72,7 @@
                         e.removeClass('btn-danger').addClass('btn-success');
                     });
                 }
+                return false;
             });
     $('#mission_select_sicherheitswache').after(hideAll);
 })(jQuery, window,I18n);
