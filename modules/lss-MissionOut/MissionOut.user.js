@@ -48,7 +48,7 @@
             patienten(id, $('#mission_patients_' + id + ' .patient_progress').length);
         }
     });
-    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="'+I18n.t('lssm.MissionOut.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>')
+    var hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="'+I18n.t('lssm.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>')
             .click(function () {
                 var e = $(this);
                 if (e.hasClass('btn-success')) {
