@@ -1,4 +1,4 @@
-/*function car_list(building) {
+function car_list(building) {
     // liefert die Fahrzeuge einer Wache zurück
     var data = [];
     $('#vehicle_building_' + building).find('li').each(function (index, element) {
@@ -10,8 +10,7 @@
         });
     });
     return data;
-}*/
-
+}
 function car_list_all() {
     var data = [];
     $("[id^='vehicle_building']").find('li').each(function (index, element) {

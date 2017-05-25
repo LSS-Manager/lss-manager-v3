@@ -11,20 +11,6 @@ I18n.translations.nl['lssm']['dashboard'] = {
     loading: "Dashboard geladen"
 }
 
-
-function car_list(building) {
-    // liefert die Fahrzeuge einer Wache zurück
-    var data = [];
-    $('#vehicle_building_' + building).find('li').each(function (index, element) {
-        data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html()
-        });
-    });
-    return data;
-}
 var set = {
     locale: I18n.locale || 'de',
     translations: {

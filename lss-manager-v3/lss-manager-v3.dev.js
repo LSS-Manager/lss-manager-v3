@@ -46,6 +46,7 @@ I18n.translations.de['lssm'] = {
     saving: "Speichere...",
     save: "Speichern",
     cantactivate: "kann nicht aktiviert werden, da es mit folgenden Modul(en) inkompatibel ist:",
+    cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2><br>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     apps: {}
 }
 I18n.translations.en['lssm'] = {
@@ -58,6 +59,7 @@ I18n.translations.en['lssm'] = {
     saving: "Saving...",
     save: "Save",
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
+    cantload: "<h2>LSS-Manager could not be loaded</h2><br>Please contact a member of the development team.",
     apps: {}
 }
 I18n.translations.nl['lssm'] = {
@@ -219,16 +221,28 @@ var fz_type = {
 };
 
 (function(I18n,$) {
+    $.get(lss_config.server+'/lss-manager-v3/helperfunctions.js',function(data) {
+        $('header').append('<script type="text/javascript">'+data+'</script>');
+    })
+    .fail(function(){
+        $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>'+ I18n.t('lssm.cantload') +'</div>');
+    })
+    .done(function(){
+        loadCore();
+    });
+})(I18n,jQuery);
+
+function loadCore() {
     // alle Settings die immer wieder benötigt werden
-    $("head").prepend('<link href="'+lss_config.server+'/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">')
-            .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
-            .append('<script src="'+lss_config.server+'/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
+    $("head").prepend('<link href="' + lss_config.server + '/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">')
+        .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+        .append('<script src="' + lss_config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
     var set = {
         //server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
         server: lss_config.server, // Domain wo alles liegt
         github: 'https://github.com/',
-        ModuleKey: function() {
+        ModuleKey: function () {
             return lss_config.prefix + '_Module';
         },
         locale: I18n.locale || 'de'
@@ -249,10 +263,9 @@ var fz_type = {
             version: 'v 1.1',
             copyright: '@lostdesign',
             collisions: ['Layout02', 'Layout03', 'Layout04'],
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         Layout02: {
@@ -270,10 +283,9 @@ var fz_type = {
             version: 'v 1.0',
             copyright: '@lostdesign',
             collisions: ['Layout01', 'Layout03', 'Layout04'],
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         Layout03: {
@@ -291,10 +303,9 @@ var fz_type = {
             version: 'v 1.0',
             copyright: '@lostdesign',
             collisions: ['Layout01', 'Layout02', 'Layout04', 'FMS5InMap'],
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         Layout04: {
@@ -312,10 +323,9 @@ var fz_type = {
             version: 'v 1.0',
             copyright: '@lostdesign',
             collisions: ['Layout01', 'Layout02', 'Layout03'],
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         MissionOut: {
@@ -332,10 +342,9 @@ var fz_type = {
             develop: false,
             version: 'v 1.4',
             copyright: '@Mausmajor',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         saveVGE: {
@@ -353,10 +362,9 @@ var fz_type = {
             develop: false,
             version: 'v 1.0',
             copyright: '@Mausmajor',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         Notification_Alert: {
@@ -373,10 +381,9 @@ var fz_type = {
             develop: false,
             version: 'v 2.0',
             copyright: '@DLRG-Dominik / @Mausmajor',
-            settings:
-            {
-              has: true,
-              function_code: "NotificationAlarm_show_settings"
+            settings: {
+                has: true,
+                function_code: "NotificationAlarm_show_settings"
             }
         },
         Redesign01: {
@@ -393,10 +400,9 @@ var fz_type = {
             develop: false,
             version: 'alpha-0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         FMS5InMap: {
@@ -414,10 +420,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             },
             collisions: ['Layout03']
         },
@@ -435,10 +440,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         WachenplanungOnMap: {
@@ -456,10 +460,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         tagMissions: {
@@ -477,10 +480,9 @@ var fz_type = {
             develop: true,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         allianceMissionlistShare: {
@@ -498,10 +500,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.2',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         searchMissions: {
@@ -519,10 +520,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.2',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         keyboard: {
@@ -541,10 +541,9 @@ var fz_type = {
             inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
             version: 'v 0.1',
             copyright: '@ChaosKai',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         Statistik: {
@@ -561,10 +560,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         dashboard: {
@@ -581,10 +579,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         WachenHoverStati: {
@@ -602,10 +599,9 @@ var fz_type = {
             develop: true,
             version: 'v 0.1',
             copyright: '@lostdesign',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         RenameFZ: {
@@ -623,70 +619,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.2',
             copyright: '@Mausmajor',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        get_buildings_helper: {
-            name: {
-                de: 'get_buildings_helper'
-            },
-            active: true,
-            description: {
-                de: 'get_buildings_helper.'
-            },
-            ghuser: 'lss-manager',
-            source: '/helperFunctions/get_buildings.js',
-            noapp: true, // Nicht im App-Store auflisten
-            develop: true,
-            version: 'v 0.1',
-            copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        car_list_all: {
-            name: {
-                de: 'car_list_all'
-            },
-            active: true,
-            description: {
-                de: 'car_list_all'
-            },
-            ghuser: 'lss-manager',
-            source: '/helperFunctions/car_list_all.js',
-            noapp: true, // Nicht im App-Store auflisten
-            develop: true,
-            version: 'v 0.1',
-            copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
-        car_list_printable: {
-            name: {
-                de: 'car_list_printable'
-            },
-            active: true,
-            description: {
-                de: 'car_list_printable.'
-            },
-            ghuser: 'lss-manager',
-            source: '/helperFunctions/car_list_printable.js',
-            noapp: true, // Nicht im App-Store auflisten
-            develop: true,
-            version: 'v 0.1',
-            copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         telemetry: {
@@ -706,10 +641,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         mapreload: {
@@ -726,10 +660,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         },
         showBackAlarmAbove: {
@@ -747,10 +680,9 @@ var fz_type = {
             develop: false,
             version: 'v 0.1',
             copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
+            settings: {
+                has: false,
+                function_code: ""
             }
         }
     };
@@ -761,8 +693,8 @@ var fz_type = {
      * @returns {boolean}
      */
     var active_mods = [];
-    function canActivate(mod)
-    {
+
+    function canActivate(mod) {
         var ca = true;
         if ('collisions' in mod) {
             for (var c in mod.collisions) {
@@ -773,6 +705,7 @@ var fz_type = {
         }
         return ca;
     }
+
     // Zum zwischenspeichern der schon geladenen Module
     function addLocales(module) {
         var mod = module.toString();
@@ -792,18 +725,20 @@ var fz_type = {
             }
         }
     }
+
     function loadModule() {
         for (var i in Module) {
             addLocales(i);
             var uc = (window.location.pathname.match(/\//g)).length;
             if (Module[i].active && Module.status != 'develop' && canActivate(Module[i])) {
-                if (uc <= 1 || ("inframe" in Module[i] && Module[i].inframe == true && uc>1)) {
+                if (uc <= 1 || ("inframe" in Module[i] && Module[i].inframe == true && uc > 1)) {
                     active_mods.push(i.toString());
                     $('body').append('<script src="' + lss_config.server + Module[i].source + '" type="text/javascript"></script>');
                 }
             }
         }
     }
+
     // Speichern der Einstellungen
     function saveSettings() {
         var arr = {};
@@ -811,13 +746,14 @@ var fz_type = {
             arr[i] = Module[i].active;
         localStorage.setItem(set.ModuleKey(), JSON.stringify(arr));
     }
+
     // laden der Einstellungen
     function loadSettings() {
         var load = JSON.parse(localStorage.getItem(set.ModuleKey())) || {};
         for (var i in load) {
             var modname = i.toString();
             if ((modname in Module) === false) {
-                console.log(modname +" is not a valid app. Skipping.");
+                console.log(modname + " is not a valid app. Skipping.");
                 continue;
             }
             Module[i].active = load[i];
@@ -829,13 +765,11 @@ var fz_type = {
         for (var i in Module) {
             var mod = Module[i];
             // Do not show certain modules in the appstore
-            if ('noapp' in mod && mod.noapp === true)
-            {
+            if ('noapp' in mod && mod.noapp === true) {
                 continue;
             }
-            if ('settings' in mod && mod.settings.has == true && mod.active == true)
-            {
-                settingsHtml += '<li><a href="#" role="tab" onclick="'+ mod.settings.function_code +'();" data-toggle="tab">'+ I18n.t('lssm.apps.'+i.toString()+'.name') +'</a></li>';
+            if ('settings' in mod && mod.settings.has == true && mod.active == true) {
+                settingsHtml += '<li><a href="#" role="tab" onclick="' + mod.settings.function_code + '();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
             }
         }
         return settingsHtml;
@@ -849,7 +783,7 @@ var fz_type = {
             // Do not show certain modules in the appstore
             if ('noapp' in mod && mod.noapp === true)
                 continue;
-            modulePanelHtml += '<div class="col-md-3 '+ (mod.develop ? set.ModuleKey()+ '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
+            modulePanelHtml += '<div class="col-md-3 ' + (mod.develop ? set.ModuleKey() + '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
@@ -857,43 +791,41 @@ var fz_type = {
                 '<label class="onoffswitch-label" for="' + set.ModuleKey() + '_' + i + '"></label>' +
                 '</div>' +
                 '</span>' +
-                '<h4>' + I18n.t('lssm.apps.'+i.toString()+'.name') + '</h4>' +
-                '<small>' + I18n.t('lssm.apps.'+i.toString()+'.description') + '</small>'+
+                '<h4>' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</h4>' +
+                '<small>' + I18n.t('lssm.apps.' + i.toString() + '.description') + '</small>' +
                 '</div>' +
                 '<div class="panel-footer">' +
-                '<a href="' + set.github + mod.ghuser + '">Github</a><div class="pull-right"><span>'+ mod.version +'</span> / <span>'+ mod.copyright +'</span></div>'+
+                '<a href="' + set.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span></div>' +
                 '</div>' +
                 '</div>' +
                 '</div>';
         }
         return modulePanelHtml;
     }
+
     // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
         var prefix = lss_config.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>'+ I18n.t('lssm.appstore') +'</h1><p>'+I18n.t('lssm.appstore_welcome')+'.</p><p>'+I18n.t('lssm.appstore_desc')+'</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">'+I18n.t('lssm.back_lss')+'</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">'+I18n.t('lssm.settings')+'</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
-        div.on('change', '.onoffswitch-checkbox', function(ev) {
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">' + I18n.t('lssm.settings') + '</a></li>' + createSettings() + '</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
-            if(e.checked && !canActivate(Module[e.value]))
-            {
+            if (e.checked && !canActivate(Module[e.value])) {
                 $(e).prop('checked', false);
-                var warn = "\""+I18n.t('lssm.apps.'+e.value+'.name')+"\" "+I18n.t('lssm.cantactivate');
+                var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in Module[e.value].collisions) {
                     var c = Module[e.value].collisions[c];
                     if (active_mods.indexOf(c) != -1)
-                        warn += "\r\n"+I18n.t('lssm.apps.'+c+'.name');
+                        warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
                 }
                 alert(warn);
                 return;
             }
             Module[e.value].active = e.checked;
-            if(e.checked)
-            {
+            if (e.checked) {
                 active_mods.push(e.value);
             }
-            else
-            {
+            else {
                 active_mods.splice(active_mods.indexOf(e.value), 1);
             }
             saveSettings();
@@ -907,21 +839,21 @@ var fz_type = {
     function appendAppstore() {
         // Variablen setzen für weitere Verwendung
         var prefix = lss_config.prefix + '_appstore';
-        var settingButton = $('<li role="presentation" id="'+ prefix +'"><a id="' + prefix + '_activate" href="#">'+I18n.t('lssm.appstore')+'</a></li>');
+        var settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix + '_activate" href="#">' + I18n.t('lssm.appstore') + '</a></li>');
         var div = $('<div class="row" id="' + prefix + '_row"></div>').append(createModuleMain());
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
-        content.attr('id','content');
+        content.attr('id', 'content');
 
         //div.append(createModulePanels());
-        settingButton.click(function() {
+        settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
             content.hide().after(div);
             $('footer').hide();
-            $('#' + prefix + '_close').click(function() {
+            $('#' + prefix + '_close').click(function () {
                 loadModule();
-                $('body').append('<div id="preloader">'+ I18n.t('lssm.saving') +'</div>');
-                content.delay(50).show(function(){
+                $('body').append('<div id="preloader">' + I18n.t('lssm.saving') + '</div>');
+                content.delay(50).show(function () {
                     $('#preloader').delay(50).remove();
                     location.reload();
                 });
@@ -930,20 +862,21 @@ var fz_type = {
             });
         });
         // einhängen des Buttons in der Navi
-        $('#'+lss_config.prefix+'_menu').append(settingButton);
+        $('#' + lss_config.prefix + '_menu').append(settingButton);
     }
+
     function createDropDown() {
-        var lssm_dropdown = $(' <li class="dropdown" id="'+ lss_config.prefix+'_dropdown">\
-            <a href="#" id="'+lss_config.prefix+'_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">\
-                <span class="label label-success">'+I18n.t('lssm.lssm')+'</span> <b class="caret"></b>\
+        var lssm_dropdown = $(' <li class="dropdown" id="' + lss_config.prefix + '_dropdown">\
+            <a href="#" id="' + lss_config.prefix + '_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">\
+                <span class="label label-success">' + I18n.t('lssm.lssm') + '</span> <b class="caret"></b>\
             </a>\
-            <ul id="'+lss_config.prefix+'_menu"class="dropdown-menu" role="menu" aria-labelledby="'+lss_config.prefix+'_menu_switch"> </ul>\
+            <ul id="' + lss_config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' + lss_config.prefix + '_menu_switch"> </ul>\
             </li>');
         $('#navbar-main-collapse > ul').append(lssm_dropdown);
     }
+
     createDropDown();
     loadSettings();
     loadModule();
     appendAppstore();
-
-})(I18n,jQuery)
+}
