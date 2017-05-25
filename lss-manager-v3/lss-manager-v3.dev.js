@@ -23,7 +23,7 @@
 // activeModule()
 //
 lss_config = {
-    server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+    server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
     stats_uri: "https://proxy.lss-manager.de/stat.php",
     forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
     version: "3.1",
@@ -596,7 +596,7 @@ var carsById = {
                 },
                 active: false,
                 description: {
-                    de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
+                    de: 'Zeigt den Alle Rï¿½ckalamieren Button auch ï¿½berhalb der Fahrzeuge an',
                 },
                 ghuser: 'Mausmajor',
                 source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
@@ -605,6 +605,28 @@ var carsById = {
                 develop: false,
                 version: 'v 0.1',
                 copyright: '@lss-manager',
+                settings: {
+                    has: false,
+                    function_code: ""
+                }
+            },
+            recolor: {
+                name: {
+                    de: 'EinfÃ¤rben',
+                    en: 'Colorize'
+                },
+                active: false,
+                description: {
+                    de: 'Ã„ndere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
+                    de: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
+                },
+                ghuser: 'Tsumiki-Chan',
+                source: '/modules/lss-recolor/recolor.user.js',
+                noapp: false, // Nicht im App-Store auflisten
+                inframe: true,
+                develop: false,
+                version: 'v 0.1',
+                copyright: '@Northdegree',
                 settings: {
                     has: false,
                     function_code: ""
