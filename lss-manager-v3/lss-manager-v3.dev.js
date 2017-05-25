@@ -541,6 +541,7 @@ var carsById = {
                 ghuser: 'Mausmajor',
                 source: '/modules/lss-RenameFZ/renameFZ.user.js',
                 develop: false,
+                inframe: true,
                 version: 'v 0.2',
                 copyright: '@Mausmajor',
                 settings: {
