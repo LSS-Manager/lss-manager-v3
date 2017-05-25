@@ -369,7 +369,9 @@ function loadCore() {
         },
         Notification_Alert: {
             name: {
-                de: 'Notification Alert'
+                de: 'Notification Alert',
+                en: 'Notification Alert',
+                nl: 'Notification Alert'
             },
             active: false,
             description: {
