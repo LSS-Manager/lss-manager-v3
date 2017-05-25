@@ -126,7 +126,7 @@
         var handle = $( "#lssm_radius_handle" );
         $( "#lssm_radius_slider" ).slider({
             min: 3,
-            max: 50,
+            max: 400,
             value: settings.set.radius,
 
             create: function() {

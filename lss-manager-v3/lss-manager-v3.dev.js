@@ -26,7 +26,8 @@ lss_config = {
     server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
     stats_uri: "https://proxy.lss-manager.de/stat.php",
     forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-    version: "3.1"
+    version: "3.1",
+    prefix: 'lssm'
 };
 
 /**
@@ -226,10 +227,9 @@ var fz_type = {
     var set = {
         //server: "https://lssm-develop.lost.design/sources", // Domain wo alles liegt
         server: lss_config.server, // Domain wo alles liegt
-        prefix: 'lssm',
         github: 'https://github.com/',
         ModuleKey: function() {
-            return this.prefix + '_Module';
+            return lss_config.prefix + '_Module';
         },
         locale: I18n.locale || 'de'
     };
@@ -689,26 +689,6 @@ var fz_type = {
               function_code: ""
             }
         },
-        car_list: {
-            name: {
-                de: 'car_list'
-            },
-            active: true,
-            description: {
-                de: 'car_list.'
-            },
-            ghuser: 'lss-manager',
-            source: '/helperFunctions/car_list.js',
-            noapp: true, // Nicht im App-Store auflisten
-            develop: true,
-            version: 'v 0.1',
-            copyright: '@lss-manager',
-            settings:
-            {
-              has: false,
-              function_code: ""
-            }
-        },
         telemetry: {
             name: {
                 de: 'Telemetrie',
@@ -759,7 +739,7 @@ var fz_type = {
             },
             active: false,
             description: {
-                de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
+                de: 'Zeigt den Alle Rï¿½ckalamieren Button auch ï¿½berhalb der Fahrzeuge an',
             },
             ghuser: 'Mausmajor',
             source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
@@ -891,7 +871,7 @@ var fz_type = {
     // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     function createModuleMain() {
-        var prefix = set.prefix + '_appstore';
+        var prefix = lss_config.prefix + '_appstore';
         var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>'+ I18n.t('lssm.appstore') +'</h1><p>'+I18n.t('lssm.appstore_welcome')+'.</p><p>'+I18n.t('lssm.appstore_desc')+'</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">'+I18n.t('lssm.back_lss')+'</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/32912" target="_blank" class="username-link">@ChaosKai93</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=ChaosKai93" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">'+I18n.t('lssm.settings')+'</a></li>'+createSettings()+'</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         div.on('change', '.onoffswitch-checkbox', function(ev) {
             var e = ev.target;
@@ -926,8 +906,8 @@ var fz_type = {
     // MenÃ¼punkt zu den Modulen / Einstellungen / Dashboard
     function appendAppstore() {
         // Variablen setzen fÃ¼r weitere Verwendung
-        var prefix = set.prefix + '_appstore';
-        var settingButton = $('<li><a id="' + prefix + '_activate" href="#"><span class="label label-success">'+I18n.t('lssm.lssm')+'</span></a></li>');
+        var prefix = lss_config.prefix + '_appstore';
+        var settingButton = $('<li role="presentation" id="'+ prefix +'"><a id="' + prefix + '_activate" href="#">'+I18n.t('lssm.appstore')+'</a></li>');
         var div = $('<div class="row" id="' + prefix + '_row"></div>').append(createModuleMain());
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
@@ -950,8 +930,18 @@ var fz_type = {
             });
         });
         // einhÃ¤ngen des Buttons in der Navi
-        $('#navbar-main-collapse > ul').append(settingButton);
+        $('#'+lss_config.prefix+'_menu').append(settingButton);
     }
+    function createDropDown() {
+        var lssm_dropdown = $(' <li class="dropdown" id="'+ lss_config.prefix+'_dropdown">\
+            <a href="#" id="'+lss_config.prefix+'_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">\
+                <span class="label label-success">'+I18n.t('lssm.lssm')+'</span> <b class="caret"></b>\
+            </a>\
+            <ul id="'+lss_config.prefix+'_menu"class="dropdown-menu" role="menu" aria-labelledby="'+lss_config.prefix+'_menu_switch"> </ul>\
+            </li>');
+        $('#navbar-main-collapse > ul').append(lssm_dropdown);
+    }
+    createDropDown();
     loadSettings();
     loadModule();
     appendAppstore();
