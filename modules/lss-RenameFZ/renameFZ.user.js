@@ -110,6 +110,7 @@
             input.selectionEnd = pos;
             changeInput({'target': input});
             input.focus();
+            return false;
         });
         function changeInput(e) {
             set.str.str = e.target.value.trim();
