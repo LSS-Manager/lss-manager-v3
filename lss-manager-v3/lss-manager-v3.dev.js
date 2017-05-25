@@ -215,7 +215,7 @@ var fz_type = {
     "69": 4,
     "70": 4,
     "71": 4
-}
+};
 
 (function(I18n,$) {
     // alle Settings die immer wieder benötigt werden
