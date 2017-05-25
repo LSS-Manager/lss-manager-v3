@@ -1,5 +1,5 @@
 (function ($, win,I18n) {
-    I18n.translations.de['lssm']['MissionOut']={
+    I18n.translations.de['lssm']['missionout']={
         title:"Mission aus/ein-blenden"
     };
     var missionMarkerAddBuffer = win.missionMarkerAdd;
@@ -20,7 +20,7 @@
     });
     function create(h, id, icon) {
         var div = $('<div class="pull-right" id="mission_out_'+id+'"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="'+I18n.t('lss.MissionOut.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>');
+        var $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="'+I18n.t('lss.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>');
         div.prepend($button);
         icon.attr('id', 'icon_' + id).hide();
         h.prepend(icon);
