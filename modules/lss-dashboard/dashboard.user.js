@@ -95,12 +95,12 @@ function loadGraphs() {
         {'data': [], 'total': 0}];
     // Go through all cars and put them where they belong
     $.each(car_list_all(), function (key, veh) {
-        var c = fz_type[veh.type];
+        var c = carsById[veh.type][1];
         cars[c].total += 1;
         if (typeof (cars[c].data[veh.type]) !== 'undefined') {
             cars[c].data[veh.type].y += 1;
         } else {
-            cars[c].data[veh.type] = {name: carsById[veh.type], y: 1};
+            cars[c].data[veh.type] = {name: carsById[veh.type][0], y: 1};
         }
     });
     // Remove unused keys
@@ -259,15 +259,13 @@ function populate_fzgtable() {
     var cars = {};
     var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
     $.each(car_list_all(), function (key, veh) {
-        var type = carsById[veh.type];
+        var type = carsById[veh.type][1];
         if(typeof cars[type]== 'undefined'){
             cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
         }
         switch (veh.fms) {
             case '3':
             case '4':
-            case '7':
-            case '8':
                 cars[type].miss += 1;
                 total.miss += 1;
                 break;
