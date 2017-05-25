@@ -23,7 +23,7 @@
 // activeModule()
 //
 lss_config = {
-    server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
+    server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
     stats_uri: "https://proxy.lss-manager.de/stat.php",
     forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
     version: "3.1",
@@ -541,7 +541,6 @@ var carsById = {
                 ghuser: 'Mausmajor',
                 source: '/modules/lss-RenameFZ/renameFZ.user.js',
                 develop: false,
-                inframe: true,
                 version: 'v 0.2',
                 copyright: '@Mausmajor',
                 settings: {
@@ -731,7 +730,7 @@ var carsById = {
                 // Do not show certain modules in the appstore
                 if ('noapp' in mod && mod.noapp === true)
                     continue;
-                modulePanelHtml += '<div class="col-md-3 ' + (mod.develop ? set.ModuleKey() + '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
+                modulePanelHtml += '<div style="margin-top:10px;height: 190px!important;overflow-y:auto;" class="col-md-3 ' + (mod.develop ? set.ModuleKey() + '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                         '<div class="panel-body">' +
                         '<span class="pull-right">' +
                         '<div class="onoffswitch">' +
