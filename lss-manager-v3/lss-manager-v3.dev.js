@@ -757,7 +757,7 @@ var fz_type = {
                 de: 'show Back Alarm Above',
                 en: 'show Back Alarm Above'
             },
-            active: true,
+            active: false,
             description: {
                 de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
             },
