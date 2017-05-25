@@ -266,6 +266,8 @@ function populate_fzgtable() {
         switch (veh.fms) {
             case '3':
             case '4':
+            case '7':
+            case '8':
                 cars[type].miss += 1;
                 total.miss += 1;
                 break;
