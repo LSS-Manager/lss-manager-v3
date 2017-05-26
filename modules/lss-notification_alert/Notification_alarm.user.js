@@ -270,14 +270,3 @@
     ;
             window.NotificationAlarm_show_settings = NotificationAlarm_show_settings;
 })($, I18n);
-
-function save_settings() { localStorage.setItem("Chat", document.getElementById("N-A_chat").checked);
-    localStorage.setItem("S5", document.getElementById("N-A_S5").checked); 
-    localStorage.setItem("Status", document.getElementById("N-A_status").checked); 
-    localStorage.setItem("ChatP", document.getElementById(""p").checked); \n\
-localStorage.setItem("Chat_blend", document.getElementById("N-A_chat_blend").value); \n\
-localStorage.setItem("S5_blend", document.getElementById("N-A_S5_blend").value);
-        localStorage.setItem("Status_blend", document.getElementById("N-A_status_blend").value); 
-        localStorage.setItem("ChatP_blend", document.getElementById("N-A_chatp_blend").value); 
-        document.getElementById("backtolss").innerHTML = \'<li><a href="https://www.leitstellenspiel.de/" class="btn btn-success" style="display:none;" target="_top" id="N-A_activate">N-A Settings</a></li>\';\n\
-     document.getElementById("N-A_activate").click(); };
