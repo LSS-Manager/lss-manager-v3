@@ -196,8 +196,7 @@
     }
     function NotificationAlarm_show_settings()
     {
-        var content = $('#navbar-mobile-footer').prev();
-        var settings_html = '<div class="row" id="lssm_appstore_row"><div class="col-md-12 lssm_appstore" id="lssm_appstore"><div class="jumbotron" style="padding:5px;"><h1>' + I18n.t('lssm.n-alarm.settings.title') + '</h1><p>' + I18n.t('lssm.n-alarm.settings.text_1') + '</p><p>' + I18n.t('lssm.n-alarm.settings.text_2') + '</p><br><p></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;';
+        var settings_html = '<div id="'+lss_config.prefix + '_appstore_Module" class="'+lss_config.prefix + '__appstore_hideForSettings"><div class="jumbotron" style="padding:5px;"><h1>' + I18n.t('lssm.n-alarm.settings.title') + '</h1><p>' + I18n.t('lssm.n-alarm.settings.text_1') + '</p><p>' + I18n.t('lssm.n-alarm.settings.text_2') + '</p><br><p></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;';
 
         settings_html += '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 2.0</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""><div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav">';
 
@@ -207,19 +206,14 @@
 
         settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_status" '+(set.allianceStatusNotifcation?'checked="true"':'')+'" value="allianceStatusNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_status"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.status_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.status_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_Status" value="'+set.timeout_Status+'" id="N-A_status_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div>';
 
-        settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" '+(set.allianceChatPNotifcation?'checked="true"':'')+'" value="allianceChatPNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chatp_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chatp_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_ChatPopup" value="'+set.timeout_ChatPopup+'" id="N-A_chatp_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div></div></div>';
-        content.hide();
-        $('footer').hide();
-        $('col_navbar_holder').hide();
-        $('body').append(settings_html);
+        settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" '+(set.allianceChatPNotifcation?'checked="true"':'')+'" value="allianceChatPNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chatp_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chatp_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_ChatPopup" value="'+set.timeout_ChatPopup+'" id="N-A_chatp_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div></div>';
+        $('#lssm_appstore').append(settings_html);
         $('#N-A_chat,#N-A_S5,#N-A_status,#N-A_chatp').change(function(){
-            console.log(this.value,this.checked);
             set[this.value] = this.checked;
             saveSettings();
         });
         $('#N-A_chat_blend,#N-A_S5_blend,#N-A_status_blend,#N-A_chatp_blend').change(function(){
             set[$(this).data('set')]=this.value;
-            console.log($(this).data('set'),this.value);
             saveSettings();
         });
     }
