@@ -596,7 +596,7 @@ var carsById = {
                 },
                 active: false,
                 description: {
-                    de: 'Zeigt den Alle R�ckalamieren Button auch �berhalb der Fahrzeuge an',
+                    de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
                 },
                 ghuser: 'Mausmajor',
                 source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
@@ -618,7 +618,7 @@ var carsById = {
                 active: false,
                 description: {
                     de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
-                    de: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
+                    en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
                 },
                 ghuser: 'Tsumiki-Chan',
                 source: '/modules/lss-recolor/recolor.user.js',
