@@ -279,5 +279,4 @@
         }
     }
     ;
-            window.NotificationAlarm_show_settings = NotificationAlarm_show_settings;
 })($, I18n);
