@@ -717,7 +717,7 @@ var carsById = {
                     continue;
                 }
                 if ('settings' in mod && mod.settings.has == true && mod.active == true) {
-                    settingsHtml += '<li><a href="#" role="tab" onclick="' + mod.settings.function_code + '();hideAllForSettings();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
+                    settingsHtml += '<li><a href="#" role="tab" onclick="hideAllForSettings();' + mod.settings.function_code + '();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
                 }
             }
             return settingsHtml;
