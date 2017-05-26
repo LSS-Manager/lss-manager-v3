@@ -86,7 +86,7 @@ function loadGraphs() {
             {
                 name: set.translations[set.locale].school + '/' + set.translations[set.locale].ge,
                 colorByPoint: true,
-                data: [building_amount.fw_school, building_amount.rd_school, building_amount.pol_school, building_amount.thw_school, building_amount.kh, building_amount.seg]
+                data: [building_amount.fw_school, building_amount.rd_school, building_amount.pol_school, building_amount.thw_school, building_amount.kh]
             }]
     });
     // Car-Donut-Charts
