@@ -725,7 +725,7 @@ var carsById = {
 
         // Erstellen der Pandels
         function createModulePanels() {
-            var modulePanelHtml = '';
+            var modulePanelHtml = '<div id="'+lss_config.prefix + '_appstore_Module" class="'+lss_config.prefix + '__appstore_hideForSettings">';
             for (var i in Module) {
                 var mod = Module[i];
                 // Do not show certain modules in the appstore
@@ -748,6 +748,7 @@ var carsById = {
                         '</div>' +
                         '</div>';
             }
+            modulePanelHtml="</div>";
             return modulePanelHtml;
         }
 
