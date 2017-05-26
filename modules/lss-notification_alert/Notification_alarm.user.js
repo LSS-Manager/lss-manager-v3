@@ -208,7 +208,7 @@
 
         settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" '+(set.allianceChatPNotifcation?'checked="true"':'')+'" value="allianceChatPNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chatp_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chatp_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_ChatPopup" value="'+set.timeout_ChatPopup+'" id="N-A_chatp_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div></div>';
         $('#content').after(settings_html);
-        $('#'+lss_config.prefix + '_appstore_NotificationSettings').dialog({ height: "auto",width:"auto",create:function(){$('#content').hide();},close:function(){$('#content').show();}});
+        $('#'+lss_config.prefix + '_appstore_NotificationSettings').dialog({ height: "auto",width:"auto",create:function(){$('#content').hide();$('footer').hide();},close:function(){$('#content').show();$('footer').show();}});
         $('#N-A_chat,#N-A_S5,#N-A_status,#N-A_chatp').change(function(){
             set[this.value] = this.checked;
             saveSettings();
