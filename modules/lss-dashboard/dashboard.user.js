@@ -15,7 +15,7 @@ var set = {
     locale: I18n.locale || 'de',
     translations: {
         de: {
-            categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung'],
+            categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG'],
             ge: 'Gebäude',
             school: 'Schulen',
             wachen: 'Wachen',
@@ -25,7 +25,7 @@ var set = {
 };
 function loadGraphs() {
     // Building Bar Chart
-    var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0};
+    var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0};
     $.each(get_buildings(), function (key, build) {
         switch (build.stationType) {
             //Feuerwehr
@@ -66,6 +66,9 @@ function loadGraphs() {
             //Wasserrettung
             case BUILDING_TYPE_WASSERRETTUNG:
                 building_amount.wret += 1;
+              //SEG
+            case BUILDING_TYPE_SEG:
+                    building_amount.seg += 1;
         }
     });
     $('#buildings_chart').highcharts({
@@ -78,12 +81,12 @@ function loadGraphs() {
         series: [{
             name: set.translations[set.locale].wachen,
             colorByPoint: true,
-            data: [building_amount.fw, building_amount.rd, building_amount.pol, building_amount.thw, building_amount.wret]
+            data: [building_amount.fw, building_amount.rd, building_amount.pol, building_amount.thw, building_amount.wret,building_amount.seg]
         },
             {
                 name: set.translations[set.locale].school + '/' + set.translations[set.locale].ge,
                 colorByPoint: true,
-                data: [building_amount.fw_school, building_amount.rd_school, building_amount.pol_school, building_amount.thw_school, building_amount.kh]
+                data: [building_amount.fw_school, building_amount.rd_school, building_amount.pol_school, building_amount.thw_school, building_amount.kh, building_amount.seg]
             }]
     });
     // Car-Donut-Charts
