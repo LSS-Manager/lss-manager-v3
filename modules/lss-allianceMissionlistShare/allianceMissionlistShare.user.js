@@ -1,4 +1,7 @@
-(function ($, win) {
+(function ($, win,I18n) {
+    I18n.translations.de['lssm']['allianceMissionlistShare']={
+        title:"Im Verband freigeben"
+    };
     var buffermMa_sm = missionMarkerAdd;
     // NOchmals checken kann aber denke ich raus
     /*var buffermPa_sm = mission_participation_add;
@@ -28,7 +31,7 @@
     }
     function create(h, id, allianceShareButtonDisabled) {
         var div = $('<div class="pull-right" id="allianceShareButton_' + id + '"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="Im Verband freigeben"><i class="glyphicon glyphicon-share-alt"></i></a>');
+        var $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="'+I18n.t('lssm.allianceMissionlistShare.title')+'"><i class="glyphicon glyphicon-share-alt"></i></a>');
         div.prepend($button);
         h.prepend(div);
     }
@@ -42,4 +45,4 @@
         });
         $(this).addClass('btn__disabled');
     });
-})($, window);
+})($, window,I18n);
