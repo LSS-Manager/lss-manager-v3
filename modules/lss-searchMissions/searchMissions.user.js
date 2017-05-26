@@ -15,7 +15,7 @@
         var searchTerm = $(this).val().toLowerCase();
         delay(function () {
             $('#lssm_searchMissionsWrapper').remove();
-            $('#map_outer').append('<div id="lssm_searchMissionsWrapper" style="z-index: 10006;position: fixed;left: 10px;bottom: 10px;max-height: calc(100vh - 20px);overflow: scroll; min-height:50px;"><div id="lssm_searchMissionsContainer"><span class="label label-primary" style="margin-right:5px;">' + searchTerm + '</span><a class="label label-info" style="margin-right:5px;" id="lssm_searchEntryToggle"><i class="glyphicon glyphicon-eye-open"></i></a></div><div>');
+            $('#missions_outer').append('<div id="lssm_searchMissionsWrapper" style="z-index: 10006;position: fixed;left: 10px;bottom: 10px;max-height: calc(100vh - 20px);overflow: scroll; min-height:50px;"><div id="lssm_searchMissionsContainer"><span class="label label-primary" style="margin-right:5px;">' + searchTerm + '</span><a class="label label-info" style="margin-right:5px;" id="lssm_searchEntryToggle"><i class="glyphicon glyphicon-eye-open"></i></a></div><div>');
             $('#lssm_searchEntryToggle').click(function () {
                 $('#lssm_searchMissionsContainer').toggle();
             });
