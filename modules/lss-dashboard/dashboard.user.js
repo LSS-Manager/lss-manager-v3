@@ -75,7 +75,7 @@ function loadGraphs() {
     });
     $('#buildings_chart').highcharts({
         chart: {type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200'},
-        colors: ["red", "orange", "green", "blue", "gold", 'black'],
+        colors: ["red", "orange", "green", "blue", "gold", 'black', 'white'],
         title: {text: set.translations[set.locale].ge},
         xAxis: {categories: set.translations[set.locale].categories},
         yAxis: {title: {text: set.translations[set.locale].anz}},
