@@ -66,9 +66,11 @@ function loadGraphs() {
             //Wasserrettung
             case BUILDING_TYPE_WASSERRETTUNG:
                 building_amount.wret += 1;
-              //SEG
+                break;
+            //SEG
             case BUILDING_TYPE_SEG:
-                    building_amount.seg += 1;
+                building_amount.seg += 1;
+                break;
         }
     });
     $('#buildings_chart').highcharts({
