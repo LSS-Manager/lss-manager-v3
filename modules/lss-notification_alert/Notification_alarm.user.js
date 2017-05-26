@@ -1,12 +1,14 @@
 (function () {
-    var allianceChatNotifcation = (localStorage.getItem("Chat") == "true"); // true = Chat-Notification sind standardmäßig aktiviert (Standard: true).
-    var allianceS5Notifcation = (localStorage.getItem("S5") == "true"); // true = Status 5-Notification sind standardmäßig aktiviert (Standard: true).
-    var allianceStatusNotifcation = (localStorage.getItem("Status") == "true"); // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
-    var allianceChatPNotifcation = (localStorage.getItem("ChatP") == "true"); // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
-    var timeout_Chat = localStorage.getItem("Chat_blend"); //Zeit in Sekunden wie lange Chat-Notifications angezeigt werden sollen (Standard: 3).
-    var timeout_S5 = localStorage.getItem("S5_blend"); //Zeit in Sekunden wie lange S5-Notifications angezeigt werden sollen (Standard: 3).
-    var timeout_Status = localStorage.getItem("Status_blend"); //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
-    var timeout_ChatPopup = localStorage.getItem("ChatP_blend");
+    var set = JSON.parse(localStorage.getItem('Notification')) ||{
+    allianceChatNotifcation:true, // true = Chat-Notification sind standardmäßig aktiviert (Standard: true).
+    allianceS5Notifcation:true, // true = Status 5-Notification sind standardmäßig aktiviert (Standard: true).
+    allianceStatusNotifcation:true, // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
+    allianceChatPNotifcation:true, // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
+    timeout_Chat:3, //Zeit in Sekunden wie lange Chat-Notifications angezeigt werden sollen (Standard: 3).
+    timeout_S5:3, //Zeit in Sekunden wie lange S5-Notifications angezeigt werden sollen (Standard: 3).
+    timeout_Status:3, //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
+    timeout_ChatPopup:3
+    };
 
     I18n.translations.de['lssm']['n-alarm'] = {
         not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
@@ -98,7 +100,7 @@
                 });
                 setTimeout(function () {
                     notification.close();
-                }, timeout_Chat * 1000);
+                }, set.timeout_Chat * 1000);
                 notification.onclick = function () {
                     window.focus();
                 };
@@ -110,7 +112,7 @@
                 });
                 setTimeout(function () {
                     notification.close();
-                }, timeout_Status * 1000);
+                }, set.timeout_Status * 1000);
                 notification.onclick = function () {
 
                     $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
@@ -126,7 +128,7 @@
                 });
                 setTimeout(function () {
                     notification.close();
-                }, timeout_S5 * 1000);
+                }, set.timeout_S5 * 1000);
                 notification.onclick = function () {
 
                     $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
@@ -178,14 +180,14 @@
         clearTimeout(MainDivTimer);
         MainDivTimer = setTimeout(function () {
             $mainDiv.hide('slow');
-        }, timeout_ChatPopup * 1000);
+        }, set.timeout_ChatPopup * 1000);
     }
     function ChatPopup(date, user_id, username, mission_id, message)
     {
         var e = "<li><span class='mission_chat_message_username'>[" + date + "] <a href='/profile/" + user_id + "' class='lightbox-open'>" + username + ":</a></span>";
         mission_id && (e = e + "<a href='/missions/" + mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
         e = e + " " + message + "</li>";
-        $(e).appendTo($ul).delay(timeout_ChatPopup * 1000).hide('slow', function () {
+        $(e).appendTo($ul).delay(set.timeout_ChatPopup * 1000).hide('slow', function () {
             $(this).remove();
         });
         $mainDiv.show('slow');
@@ -225,12 +227,12 @@
     var radioMessageBuffer = radioMessage;
     allianceChat = function (t) {
         allianceChatBuffer(t);
-        if (user_id !== t.user_id && allianceChatNotifcation && !allianceChatPNotifcation) {
+        if (user_id !== t.user_id && set.allianceChatNotifcation && !set.allianceChatPNotifcation) {
 
             notifyMe(t.username, t.message, "Chat");
-        } else if (user_id !== t.user_id && allianceChatPNotifcation && !allianceChatNotifcation) {
+        } else if (user_id !== t.user_id && set.allianceChatPNotifcation && !set.allianceChatNotifcation) {
             ChatPopup(t.date, t.user_id, t.username, t.mission_id, t.message);
-        } else if (user_id !== t.user_id && allianceChatPNotifcation && allianceChatNotifcation)
+        } else if (user_id !== t.user_id && set.allianceChatPNotifcation && set.allianceChatNotifcation)
         {
             ChatPopup(t.date, t.user_id, t.username, t.mission_id, t.message);
             notifyMe(t.username, t.message, "Chat");
@@ -238,7 +240,7 @@
     };
     radioMessage = function (t) {
         radioMessageBuffer(t);
-        if (t.fms_real == 5 && allianceS5Notifcation) {
+        if (t.fms_real == 5 && set.allianceS5Notifcation) {
             if (t.fms_text.startsWith("[Verband]"))
             {
                 if (!alliance_ignore_fms)
@@ -249,7 +251,7 @@
             {
                 notifyMe(t.caption, t.fms_text, "S5", t.fms_real, t.id);
             }
-        } else if (t.fms_real != 5 && allianceStatusNotifcation) {
+        } else if (t.fms_real != 5 && set.allianceStatusNotifcation) {
             if (t.fms_text.startsWith("[Verband]"))
             {
                 if (!alliance_ignore_fms)
@@ -262,4 +264,5 @@
             }
         }
     };
+    return NotificationAlarm_show_settings;
 })();
