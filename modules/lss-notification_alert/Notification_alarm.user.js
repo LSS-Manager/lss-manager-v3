@@ -199,7 +199,7 @@
 
         settings_html += '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 2.0</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""><div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"><div class="navbar-header"><button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav">';
 
-        settings_html += '<button style="padding:5px;" class="btn btn-success" onclick="save_settings();">' + I18n.t('lssm.n-alarm.settings.save') + '</button></ul></div></div></nav><div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chat" '+(set.allianceChatNotifcation?'checked="true"':'')+'" value="allianceChatNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chat"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chat_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chat_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_Chat" value="'+set.timeout_Chat+'" id="N-A_chat_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div>';
+        settings_html += '<button style="padding:5px;" class="btn btn-success" id="'+lss_config.prefix + '_appstore_NotificationSettings_close">' + I18n.t('lssm.n-alarm.settings.close') + '</button></ul></div></div></nav><div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chat" '+(set.allianceChatNotifcation?'checked="true"':'')+'" value="allianceChatNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chat"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chat_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chat_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_Chat" value="'+set.timeout_Chat+'" id="N-A_chat_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div>';
 
         settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_S5" '+(set.allianceS5Notifcation?'checked="true"':'')+'" value="allianceS5Notifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_S5"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.s5_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.s5_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_S5" value="'+set.timeout_S5+'" id="N-A_S5_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div>';
 
@@ -207,6 +207,10 @@
 
         settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" '+(set.allianceChatPNotifcation?'checked="true"':'')+'" value="allianceChatPNotifcation" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chatp_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chatp_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" data-set="timeout_ChatPopup" value="'+set.timeout_ChatPopup+'" id="N-A_chatp_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div></div>';
         $('#map_outer').before(settings_html);
+        $('#'+lss_config.prefix + '_appstore_NotificationSettings_close').click(function(){
+            $('#'+lss_config.prefix + '_appstore_NotificationSettings').hide();
+            return false;
+        })
         $('#N-A_chat,#N-A_S5,#N-A_status,#N-A_chatp').change(function(){
             set[this.value] = this.checked;
             saveSettings();
@@ -216,6 +220,7 @@
             saveSettings();
         });
     }
+    createSettings();
     function NotificationAlarm_show_settings()
     {
         $('#'+lss_config.prefix + '_appstore_NotificationSettings').show();
