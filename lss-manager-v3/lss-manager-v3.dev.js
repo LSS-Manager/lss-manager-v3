@@ -348,7 +348,7 @@ var carsById = {
                     has: false,
                     function_code: ""
                 },
-                collisions: ['Layout03']
+                collisions: ['Layout03', 'WachenplanungOnMap']
             },
             Clock: {
                 name: {
@@ -387,7 +387,8 @@ var carsById = {
                 settings: {
                     has: false,
                     function_code: ""
-                }
+                },
+                collisions: ['Layout03', 'FMS5InMap']
             },
             tagMissions: {
                 name: {
