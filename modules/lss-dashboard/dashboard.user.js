@@ -37,7 +37,7 @@ function loadGraphs() {
                 break;
             //Rettungsdienst
             case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
-            case BUILDING_TYPE_SEG:
+            //case BUILDING_TYPE_SEG:
             case BUILDING_TYPE_RETTUNGSWACHE:
                 building_amount.rd += 1;
                 break;
