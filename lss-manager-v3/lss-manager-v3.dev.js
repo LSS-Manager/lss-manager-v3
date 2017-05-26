@@ -306,7 +306,7 @@ var carsById = {
                 version: 'v 2.0',
                 copyright: '@DLRG-Dominik / @Mausmajor',
                 settings: {
-                    has: true,
+                    has: false,
                     function_code: "NotificationAlarm_show_settings"
                 }
             },
