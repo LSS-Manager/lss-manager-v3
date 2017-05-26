@@ -1,4 +1,4 @@
-(function () {
+(function ($,I18n) {
     var set = JSON.parse(localStorage.getItem('Notification')) ||{
     allianceChatNotifcation:true, // true = Chat-Notification sind standardmäßig aktiviert (Standard: true).
     allianceS5Notifcation:true, // true = Status 5-Notification sind standardmäßig aktiviert (Standard: true).
@@ -8,7 +8,7 @@
     timeout_S5:3, //Zeit in Sekunden wie lange S5-Notifications angezeigt werden sollen (Standard: 3).
     timeout_Status:3, //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
     timeout_ChatPopup:3
-    };
+    },imgSRC = "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/";
 
     I18n.translations.de['lssm']['n-alarm'] = {
         not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
@@ -96,7 +96,7 @@
             {
                 var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
                     body: message,
-                    icon: "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/134895.png"
+                    icon: imgSRC +"134895.png"
                 });
                 setTimeout(function () {
                     notification.close();
@@ -108,7 +108,7 @@
             {
                 var notification = new Notification(username, {
                     body: message,
-                    icon: "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/Status_" + fms + ".png",
+                    icon: imgSRC +"Status_" + fms + ".png",
                 });
                 setTimeout(function () {
                     notification.close();
@@ -124,7 +124,7 @@
             {
                 var notification = new Notification(username, {
                     body: message,
-                    icon: "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/Status_" + fms + ".png",
+                    icon: imgSRC +"Status_" + fms + ".png",
                 });
                 setTimeout(function () {
                     notification.close();
@@ -209,7 +209,8 @@
 
         settings_html += '<div class="col-md-3 "><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-right"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="N-A_chatp" checked="true" value="N-A_chatp" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="N-A_chatp"></label></div></span><h4>' + I18n.t('lssm.n-alarm.settings.chatp_title') + '</h4><small>' + I18n.t('lssm.n-alarm.settings.chatp_text') + '</small></div><div class="panel-footer">' + I18n.t('lssm.n-alarm.blend') + '<div class="pull-right"><span><input type="number" min="1" max="60" value="3" id="N-A_chatp_blend" /></span><span>' + I18n.t('lssm.n-alarm.seconds') + '</span></div></div></div></div></div></div>';
 
-        settings_html += '<div id="backtolss"></div><script>var Chat = localStorage.getItem("Chat") == null ? true : localStorage.getItem("Chat"); var S5 = localStorage.getItem("S5") == null ? true : localStorage.getItem("S5"); var Status = localStorage.getItem("Status") == null ? false : localStorage.getItem("Status"); var ChatP = localStorage.getItem("ChatP") == null ? true : localStorage.getItem("ChatP"); var Chat_blend = localStorage.getItem("Chat_blend") == null ? "3" : localStorage.getItem("Chat_blend"); var S5_blend = localStorage.getItem("S5_blend") == null ? "3" : localStorage.getItem("S5_blend"); var Status_blend = localStorage.getItem("Status_blend") == null ? "3" : localStorage.getItem("Status_blend"); var ChatP_blend = localStorage.getItem("ChatP_blend") == null ? "3" : localStorage.getItem("ChatP_blend"); document.getElementById("N-A_chat").checked = (Chat == "true");';
+        settings_html += '<div id="backtolss"></div>';
+        settings_html += '<script>var Chat = localStorage.getItem("Chat") == null ? true : localStorage.getItem("Chat"); var S5 = localStorage.getItem("S5") == null ? true : localStorage.getItem("S5"); var Status = localStorage.getItem("Status") == null ? false : localStorage.getItem("Status"); var ChatP = localStorage.getItem("ChatP") == null ? true : localStorage.getItem("ChatP"); var Chat_blend = localStorage.getItem("Chat_blend") == null ? "3" : localStorage.getItem("Chat_blend"); var S5_blend = localStorage.getItem("S5_blend") == null ? "3" : localStorage.getItem("S5_blend"); var Status_blend = localStorage.getItem("Status_blend") == null ? "3" : localStorage.getItem("Status_blend"); var ChatP_blend = localStorage.getItem("ChatP_blend") == null ? "3" : localStorage.getItem("ChatP_blend"); document.getElementById("N-A_chat").checked = (Chat == "true");';
 
         settings_html += 'document.getElementById("N-A_S5").checked = (S5 == "true"); document.getElementById("N-A_status").checked = (Status == "true"); document.getElementById("N-A_chatp").checked = (ChatP == "true"); document.getElementById("N-A_chat_blend").value = Chat_blend; document.getElementById("N-A_S5_blend").value = S5_blend; document.getElementById("N-A_status_blend").value = Status_blend; document.getElementById("N-A_chatp_blend").value = ChatP_blend; function save_settings() { localStorage.setItem("Chat",document.getElementById("N-A_chat").checked); localStorage.setItem("S5",document.getElementById("N-A_S5").checked); localStorage.setItem("Status",document.getElementById("N-A_status").checked); localStorage.setItem("ChatP",document.getElementById("N-A_chatp").checked); localStorage.setItem("Chat_blend",document.getElementById("N-A_chat_blend").value); localStorage.setItem("S5_blend",document.getElementById("N-A_S5_blend").value);';
 
@@ -265,4 +266,4 @@
         }
     };
     window.NotificationAlarm_show_settings=NotificationAlarm_show_settings;
-})();
+})($,I18n);
