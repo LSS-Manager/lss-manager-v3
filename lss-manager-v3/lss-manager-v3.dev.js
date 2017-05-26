@@ -748,7 +748,7 @@ var carsById = {
                         '</div>' +
                         '</div>';
             }
-            modulePanelHtml="</div>";
+            modulePanelHtml+="</div>";
             return modulePanelHtml;
         }
 
@@ -778,7 +778,7 @@ var carsById = {
                 }
                 saveSettings();
             });
-
+            console.log(createModulePanels());
             div.append(createModulePanels());
             return div;
         }
