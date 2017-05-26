@@ -717,12 +717,15 @@ var carsById = {
                     continue;
                 }
                 if ('settings' in mod && mod.settings.has == true && mod.active == true) {
-                    settingsHtml += '<li><a href="#" role="tab" onclick="' + mod.settings.function_code + '();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
+                    settingsHtml += '<li><a href="#" role="tab" onclick="' + mod.settings.function_code + '();hideAllForSettings();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
                 }
             }
             return settingsHtml;
         }
-
+        function hideAllForSettings(){
+            $('.'+lss_config.prefix+'__appstore_hideForSettings').hide();
+        }
+        window.hideAllForSettings = hideAllForSettings;
         // Erstellen der Pandels
         function createModulePanels() {
             var modulePanelHtml = '<div id="'+lss_config.prefix + '_appstore_Module" class="'+lss_config.prefix + '__appstore_hideForSettings">';
@@ -778,7 +781,6 @@ var carsById = {
                 }
                 saveSettings();
             });
-            console.log(createModulePanels());
             div.append(createModulePanels());
             return div;
         }
