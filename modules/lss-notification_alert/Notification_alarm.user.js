@@ -264,5 +264,5 @@
             }
         }
     };
-    return NotificationAlarm_show_settings;
+    window.NotificationAlarm_show_settings=NotificationAlarm_show_settings;
 })();
