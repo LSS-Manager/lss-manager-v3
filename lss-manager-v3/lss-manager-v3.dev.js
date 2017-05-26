@@ -625,7 +625,7 @@ var carsById = {
                 source: '/modules/lss-recolor/recolor.user.js',
                 noapp: false, // Nicht im App-Store auflisten
                 inframe: true,
-                develop: false,
+                develop: true,
                 version: 'v 0.1',
                 copyright: '@Northdegree',
                 settings: {
