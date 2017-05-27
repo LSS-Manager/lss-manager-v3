@@ -2,6 +2,9 @@
     I18n.translations.de['lssm']['missionout']={
         title:"Mission aus/ein-blenden"
     };
+    I18n.translations.en['lssm']['missionout']={
+        title:"Hide/Show mission"
+    };
     var missionMarkerAddBuffer = win.missionMarkerAdd;
     // /hode/show Event abfangen
     $('#missions-panel-body').on('click', '.MissionOut', function (e) {
@@ -37,7 +40,7 @@
         patienten(t.id, t.patients_count);
     };
     function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_out_' + id).append('<small class="pull-right lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>');
+        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_out_' + id).append('<small class="lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>&nbsp;');
     }
     // Fix load Problem einmalig am Anfang alle schon vorhandenen Einsätze durgehen und bearbeiten
     $('div.missionSideBarEntry:not(:hidden)').each(function () {
