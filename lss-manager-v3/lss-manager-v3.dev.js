@@ -749,7 +749,6 @@ var settings = {
         var arr = {};
         for (var i in lssm.Module)
             arr[i] = lssm.Module[i].active;
-        console.log(arr);
         localStorage.setItem(lssm.config.ModuleKey(), JSON.stringify(arr));
     },
 
