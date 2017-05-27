@@ -360,7 +360,6 @@ function loadDashboard() {
 }
 
 (function ($, I18n) {
-    console.log("loading dashboard");
     var prefix = lssm.config.prefix +'_db';
     $('#map_outer').before('<div id="'+ prefix +'"></div>');
     $('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>')

@@ -26,7 +26,6 @@
 /**
  * Localization
  */
-console.log("Initializing...");
 
 var lssm = {
     config: {
@@ -80,7 +79,6 @@ I18n.translations.nl['lssm'] = {
     apps: {}
 };
 
-console.log("Language: Okay");
 
 var carsById = {
     "0": ["LF 20", 0],
@@ -156,7 +154,7 @@ var carsById = {
     "70": ["MZB", 4],
     "71": ["AB-MZB", 4],
 };
-console.log("Cars: Okay");
+
 
 lssm.Module = {
     Layout01: {
@@ -621,7 +619,6 @@ lssm.Module = {
         }
     }
 };
-console.log("LSSM: Okay");
 
 var appstore = {
     active_mods: [],
@@ -744,7 +741,7 @@ var appstore = {
         $('#navbar-main-collapse > ul').append(lssm_dropdown);
     }
 };
-console.log("Appstore: Okay");
+
 var settings = {
     // Speichern der Einstellungen
     save: function() {
@@ -782,7 +779,7 @@ var settings = {
         return settingsHtml;
     }
 };
-console.log("Settings: Okay");
+
 var module = {
     // Zum zwischenspeichern der schon geladenen Module
     addLocales: function(module) {
@@ -817,21 +814,20 @@ var module = {
         }
     }
 };
-console.log("Module: Okay");
+
 
 (function (I18n, $) {
-    console.log("loading helpers");
     $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js', function (data) {
         $('header').append('<script type="text/javascript">' + data + '</script>');
     })
-            .fail(function () {
-                $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
-            })
-            .done(function () {
-                loadCore();
-            });
+    .fail(function () {
+        $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
+    })
+    .done(function () {
+        loadCore();
+    });
+
     function loadCore() {
-        console.log("loading core");
         // alle Settings die immer wieder benötigt werden
         $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
