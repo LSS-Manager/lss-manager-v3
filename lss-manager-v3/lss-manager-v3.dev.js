@@ -679,10 +679,7 @@ var appstore = {
         var self = this;
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
-            var cb = false;
-            if ("checked" in e)
-                cb = false;
-            if (cb && !self.canActivate(lssm.Module[e.value])) {
+            if (e.checked && !self.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in lssm.Module[e.value].collisions) {
@@ -693,8 +690,8 @@ var appstore = {
                 alert(warn);
                 return;
             }
-            lssm.Module[e.value].active = cb;
-            if (cb) {
+            lssm.Module[e.value].active = e.checked;
+            if (e.checked) {
                 self.active_mods.push(e.value);
             } else {
                 self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
