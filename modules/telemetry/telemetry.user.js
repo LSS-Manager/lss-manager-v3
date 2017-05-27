@@ -44,13 +44,13 @@
             data.all = alliance_id;
         data.pro = user_premium;
         data.bui = get_buildings().length;
-        data.version = lss_config.version;
+        data.version = lssm.config.version;
         data.mods = getModules();
         data = JSON.stringify(data);
         $.ajax({
             type: "POST",
             timeout: 1000,
-            url: lss_config.stats_uri,
+            url: lssm.config.stats_uri,
             data: {uid: user_id, uname: name, data: data}
         })
     }
