@@ -13,7 +13,12 @@ nav, .navbar-default {
 
 ################################################## */
 
-* {
+/*Dies verbugt den Color-Selector in den AAO-Einstellungen*/
+/* * {
+  background-image: none !important;
+}*/
+
+.panel-heading {
   background-image: none !important;
 }
 
