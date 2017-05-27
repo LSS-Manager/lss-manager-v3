@@ -802,11 +802,11 @@ var module = {
     },
 
     load: function() {
+        var path = window.location.pathname.length;
         for (var i in lssm.Module) {
             this.addLocales(i);
-            var uc = (window.location.pathname.match(/\//g)).length;
             if (lssm.Module[i].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[i])) {
-                if (uc <= 1 || ("inframe" in lssm.Module[i] && lssm.Module[i].inframe == true && uc > 1)) {
+                if (path <= 2 || ("inframe" in lssm.Module[i] && lssm.Module[i].inframe == true && uc > 1)) {
                     appstore.active_mods.push(i.toString());
                     $('body').append('<script src="' + lssm.config.server + lssm.Module[i].source + '" type="text/javascript"></script>');
                 }
