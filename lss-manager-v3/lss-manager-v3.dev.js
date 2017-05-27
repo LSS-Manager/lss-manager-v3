@@ -676,24 +676,28 @@ var appstore = {
     createModuleMain: function () {
         var prefix = lssm.config.prefix + '_appstore';
         var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">' + I18n.t('lssm.settings') + '</a></li>' + settings.create() + '</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        var self = this;
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
-            if (e.checked && !this.canActivate(lssm.Module[e.value])) {
+            var cb = false;
+            if ("checked" in e)
+                cb = false;
+            if (cb && !self.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in lssm.Module[e.value].collisions) {
                     var c = lssm.Module[e.value].collisions[c];
-                    if (this.active_mods.indexOf(c) != -1)
+                    if (self.active_mods.indexOf(c) != -1)
                         warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
                 }
                 alert(warn);
                 return;
             }
-            lssm.Module[e.value].active = e.checked;
-            if (e.checked) {
-                this.active_mods.push(e.value);
+            lssm.Module[e.value].active = cb;
+            if (cb) {
+                self.active_mods.push(e.value);
             } else {
-                this.active_mods.splice(this.active_mods.indexOf(e.value), 1);
+                self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
             }
             settings.save();
         });
@@ -748,6 +752,7 @@ var settings = {
         var arr = {};
         for (var i in lssm.Module)
             arr[i] = lssm.Module[i].active;
+        console.log(arr);
         localStorage.setItem(lssm.config.ModuleKey(), JSON.stringify(arr));
     },
 
