@@ -785,31 +785,24 @@ var appstore = {
 
 var settings = {
     // Speichern der Einstellungen
+    // TODO: Replace this with new set function. This is only for modules anyway.
     save: function() {
         var arr = {};
         for (var i in lssm.Module)
             arr[i] = lssm.Module[i].active;
         localStorage.setItem(lssm.config.ModuleKey(), JSON.stringify(arr));
     },
+
+    //TODO: append prefix automatically
+    // TODO: Optional "default" parameter that will be returned if localstorage doesnt return anything
     get: function(variable) {
         "use strict";
         var load = JSON.parse(localStorage.getItem(variable)) || {};
         return load;
     },
+    // TODO: set-Function with automatic prefix for keys
 
-    // laden der Einstellungen
-    load: function() {
-        var load = JSON.parse(localStorage.getItem(lssm.config.ModuleKey())) || {};
-        for (var i in load) {
-            var modname = i.toString();
-            if ((modname in lssm.Module) === false) {
-                console.log(modname + " is not a valid app. Skipping.");
-                continue;
-            }
-            lssm.Module[i].active = load[i];
-        }
-    },
-
+    // Not needed anymore, if above is done (this only does modules anyway)
     create: function() {
         var settingsHtml = '';
         for (var i in lssm.Module) {
@@ -892,7 +885,18 @@ var module = {
                 .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
         appstore.createDropDown();
-        settings.load();
+        // laden der Einstellungen
+        var modules = settings.get(lssm.config.ModuleKey()) || {};
+        for (var i in modules) {
+            var modname = i.toString();
+            if ((modname in lssm.Module) === false) {
+                console.log(modname + " is not a valid app. Skipping.");
+                continue;
+            }
+            lssm.Module[i].active = modules[i];
+
+        }
+
         module.loadall();
         appstore.appendAppstore();
     }}
