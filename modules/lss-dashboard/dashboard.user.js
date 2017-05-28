@@ -172,8 +172,13 @@ function load_build_planning() {
                 icon = "fa-rss";
                 maxcars = 0;
                 break;
+            case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
+                icon = "fa-h-square";
+                appendto = "pol";
+                break;
             case BUILDING_TYPE_POLIZEIWACHE:
             case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
+                icon = "fa fa-balance-scale"
                 appendto = "pol";
                 break;
             case BUILDING_TYPE_THW:
@@ -191,28 +196,32 @@ function load_build_planning() {
         $.each(vehicles, function (k, car) {
             printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open">' + car.name + '</a><br>';
         });
+        console.log(building);
         var bd_data = '\
-		<div class="db_wachen_item">\
+		<div class="db_wachen_item" id="db_wache_'+ building.id +'">\
 			<div class="panel panel-default">\
 				<div class="panel-heading">\
 					<h3 class="panel-title"><i class="fa ' + icon + '"></i>\
-						<a href="/buildings/' + building.id + '" class="lightbox-open">' + building.name + '</a></h3>\
+						<a href="/buildings/' + building.id + '" class="lightbox-open">' + building.name + '</a>\
+                    </h3>\
 				</div>\
-				<div class="panel-body" style="height:50px;">\
-					<h3 style="position:relative; bottom:25px; text-align:center !important">';
-        if (building.level != null)
-            bd_data += '<span><i class="fa  fa-exclamation-triangle"></i> ' + building.level + '</span>';
-        if (building.personal_count > 0)
-            bd_data += '&nbsp;&nbsp;&nbsp;<span><i class="fa fa-users"></i> ' + building.personal_count + '</span>';
-        if (maxcars > 0)
-            bd_data += '&nbsp;&nbsp;&nbsp;<span><i class="fa ' + icon3 + '"></i>  ' + vehicles.length + '/' + maxcars + '</span>\</h3>';
-        bd_data += '</div>\
-				<div class="panel-body fz-body">\
-					' + printcars + '\
-				</div>\
-				<div class="panel-footer" style="background-color:#fff;">\
-					<a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
-				</div>\
+				<div class="panel-body">\
+				    <div class="col-md-3" style="font-size: 1.5em;text-align:center;">';
+                        if (building.level != null)
+                            bd_data += '<span style="white-space:nowrap;"><i class="fa fa-level-up"></i> ' + building.level + '</span><br>';
+                        if (building.personal_count > 0)
+                            bd_data += '<span style="white-space:nowrap;"><i class="fa fa-users"></i> ' + building.personal_count + '</span><br>';
+                        if (maxcars > 0)
+                            bd_data += '<span style="white-space:nowrap;"><i class="fa ' + icon3 + '"></i>  ' + vehicles.length + '/' + maxcars + '</span>';
+                bd_data += '\
+                    </div>\
+				    <div class="col-md-9 fz-body">\
+					    ' + printcars + '\
+				    </div>\
+                </div>\
+                <div class="panel-footer" style="background-color:#fff;">\
+                    <a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
+                </div>\
 			</div>\
 		</div>';
         $("#wp_" + appendto).append(bd_data);
