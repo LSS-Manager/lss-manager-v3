@@ -696,7 +696,7 @@ var appstore = {
             } else {
                 self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
             }
-            settings.save();
+            //settings.save();
         });
         div.append(this.createModulePanels());
         return div;
@@ -711,25 +711,65 @@ var appstore = {
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
         content.attr('id', 'content');
-
+        var self = this;
         //div.append(createModulePanels());
         settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
             content.hide().after(div);
             $('footer').hide();
             $('#' + prefix + '_close').click(function () {
-                module.load();
-                $('body').append('<div id="preloader">' + I18n.t('lssm.saving') + '</div>');
-                content.delay(50).show(function () {
-                    $('#preloader').delay(50).remove();
-                    location.reload();
-                });
-                //div.remove();
-
+                self.closeAppstore();
             });
         });
         // einhängen des Buttons in der Navi
         $('#' + lssm.config.prefix + '_menu').append(settingButton);
+    },
+    closeAppstore: function() {
+        "use strict";
+        var action = this.checkModChanges();
+        settings.save();
+        if(action == "Reload")
+            location.reload();
+        else
+        {
+            for (var m in action)
+            {
+                module.load(action[m]);
+                console.log($('#'+lssm.config.prefix + '_appstore_row'));
+                $('#'+lssm.config.prefix + '_appstore_row').remove();
+                $('#content').show();
+                $('footer').show();
+
+            }
+        }
+    },
+
+    /**
+     * Check if modules have been activated/deactivated and tell the caller what to do.
+     * Returns: "Reload" or a array of modules to load
+     */
+    checkModChanges: function() {
+        "use strict";
+        //this.active_mods
+        var activated = [];
+        var deactivated = [];
+        var modules = settings.get(lssm.config.ModuleKey());
+        for (var m in modules)
+        {
+            // Wenn das Modul in modules true ist, aber nicht mehr in active_mods -> Wurde deaktiviert
+            // Wenn das Modul in modules false ist, aber in active_mods -> Wurde aktiviert
+            if (modules[m] == true && this.active_mods.indexOf(m) == -1) {
+                deactivated.push(m);
+            }
+            else if ((modules[m] == false) && this.active_mods.indexOf(m) != -1) {
+                activated.push(m);
+            }
+        }
+        if(deactivated.length > 0)
+        {
+            return "Reload";
+        }
+        return activated;
     },
 
     createDropDown: function () {
@@ -750,6 +790,11 @@ var settings = {
         for (var i in lssm.Module)
             arr[i] = lssm.Module[i].active;
         localStorage.setItem(lssm.config.ModuleKey(), JSON.stringify(arr));
+    },
+    get: function(variable) {
+        "use strict";
+        var load = JSON.parse(localStorage.getItem(variable)) || {};
+        return load;
     },
 
     // laden der Einstellungen
@@ -801,17 +846,29 @@ var module = {
             }
         }
     },
+    loadall: function() {
+        "use strict";
+        try {
+            for (var m in lssm.Module) {
+                this.load(m);
+            }
+        } catch (e) {
+            console.log("LOADALL: "+ e.message);
+        }
+    },
 
-    load: function() {
-        var path = window.location.pathname.length;
-        for (var i in lssm.Module) {
-            this.addLocales(i);
-            if (lssm.Module[i].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[i])) {
-                if (path <= 2 || ("inframe" in lssm.Module[i] && lssm.Module[i].inframe == true && uc > 1)) {
-                    appstore.active_mods.push(i.toString());
-                    $('body').append('<script src="' + lssm.config.server + lssm.Module[i].source + '" type="text/javascript"></script>');
+    load: function(module) {
+        try {
+            var path = window.location.pathname.length;
+            this.addLocales(module);
+            if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
+                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
+                    appstore.active_mods.push(module);
+                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + '" type="text/javascript"></script>');
                 }
             }
+        } catch (e) {
+            console.log("On module load: "+e.message);
         }
     }
 };
@@ -835,8 +892,8 @@ var module = {
                 .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
         appstore.createDropDown();
-        settings.load()
-        module.load();
+        settings.load();
+        module.loadall();
         appstore.appendAppstore();
     }}
 )(I18n, jQuery);
