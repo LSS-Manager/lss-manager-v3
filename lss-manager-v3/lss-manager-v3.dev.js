@@ -29,7 +29,7 @@
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.1",
@@ -893,8 +893,8 @@ var module = {
                 console.log(modname + " is not a valid app. Skipping.");
                 continue;
             }
-            lssm.Module[i].active = modules[i];
-
+            if (lssm.Module[i].active == false)
+                lssm.Module[i].active = modules[i];
         }
 
         module.loadall();

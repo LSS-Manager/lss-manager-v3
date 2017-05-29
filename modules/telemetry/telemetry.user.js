@@ -49,9 +49,9 @@
         data = JSON.stringify(data);
         $.ajax({
             type: "POST",
-            timeout: 1000,
+            timeout: 4000,
             url: lssm.config.stats_uri,
             data: {uid: user_id, uname: name, data: data}
-        })
+        });
     }
 })($);
