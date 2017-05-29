@@ -474,25 +474,6 @@ lssm.Module = {
             function_code: ""
         }
     },
-    Statistik: {
-        name: {
-            de: 'Statistik',
-            en: 'Statistic'
-        },
-        active: false,
-        description: {
-            de: 'Statistik'
-        },
-        ghuser: 'lostdesign',
-        source: '/modules/lss-Statistik/statistik.user.js',
-        develop: false,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
-        settings: {
-            has: false,
-            function_code: ""
-        }
-    },
     dashboard: {
         name: {
             de: 'Dashboard'
