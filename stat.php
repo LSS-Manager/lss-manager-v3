@@ -39,7 +39,7 @@ else
       $data = $sqllink->real_escape_string(mb_convert_encoding($_POST['data'],"utf8"));
       $date = $sqllink->real_escape_string(time());
       if($return['success'] == true){
-        $query = "INSERT INTO users (user,game,name,time,data,origin) VALUES ('".$user."','".$game."',''".$name."','".$date."','".$data."','DE') ON DUPLICATE KEY UPDATE name='".$name."', time='".$date."', data='".$data."';";
+        $query = "INSERT INTO users (user,game,name,time,data,origin) VALUES ('".$user."','".$game."','".$name."','".$date."','".$data."','DE') ON DUPLICATE KEY UPDATE name='".$name."', game='".$game."',time='".$date."', data='".$data."';";
         $result = $sqllink->query($query);
         $id = $sqllink->insert_id;
         if(!$result){
