@@ -162,6 +162,27 @@ var carsById = {
 
 
 lssm.Module = {
+    keyboardAlert: {
+        name: {
+            de: 'Keyboard Alarmierung',
+            en: 'Callview control'
+        },
+        active: false,
+        description: {
+            de: 'Einsatzmaske mit Tastatur steuern.',
+            en: 'Control the mission view with the keyboard.',
+        },
+        ghuser: 'lostdesign',
+        source: '/modules/lss-keyboardAlert/keyboardAlert.user.js',
+        develop: false,
+        inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
+        version: 'v 0.1',
+        copyright: '@lostdesign',
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     Layout01: {
         name: {
             de: 'Layout 01',
