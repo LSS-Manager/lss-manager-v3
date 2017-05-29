@@ -44,14 +44,13 @@
         data.bui = get_buildings().length;
         data.version = lssm.config.version;
         data.mods = getModules();
-        data.game = window.location.hostname;
-        console.log(data.mods);
+        var game = window.location.hostname;
         data = JSON.stringify(data);
         $.ajax({
             type: "POST",
             timeout: 4000,
             url: lssm.config.stats_uri,
-            data: {uid: user_id, uname: name, data: data}
+            data: {uid: user_id, game: game, uname: name, data: data}
         });
     }
 })($);
