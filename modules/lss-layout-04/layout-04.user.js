@@ -8,5 +8,6 @@
     $('#buildings_outer').addClass('col-sm-3');
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
+    $('#eventInfo').detach().insertBefore('#missions-panel-body');
     map.invalidateSize(true);
 })();
