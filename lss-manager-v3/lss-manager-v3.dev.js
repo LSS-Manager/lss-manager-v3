@@ -173,7 +173,7 @@ lssm.Module = {
             en: 'Control the mission view with the keyboard.',
         },
         ghuser: 'lostdesign',
-        source: '/modules/lss-keyboardAlert/keyboardAlert.user.js',
+        source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         develop: false,
         inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
         version: 'v 0.1',
