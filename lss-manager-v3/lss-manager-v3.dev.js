@@ -32,12 +32,9 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.1",
+        version: "3.1.7",
         github: 'https://github.com/',
-        prefix: 'lssm',
-        ModuleKey: function () {
-            return lssm.config.prefix + '_Module';
-        }
+        prefix: 'lssm'
     }
 };
 
@@ -46,6 +43,7 @@ I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de['lssm'] = {
     lssm: "LSS-Manager",
+    version: "Beta",
     appstore: "App Store",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
@@ -59,6 +57,7 @@ I18n.translations.de['lssm'] = {
 };
 I18n.translations.en['lssm'] = {
     lssm: "LSS-Manager",
+    version: "Beta",
     appstore: "App Store",
     appstore_welcome: "Welcome to the appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
@@ -650,12 +649,12 @@ var appstore = {
             // Do not show certain modules in the appstore
             if ('noapp' in mod && mod.noapp === true)
                 continue;
-            modulePanelHtml += '<div style="margin-top:10px;height: 190px!important;overflow-y:auto;" class="col-md-3 ' + (mod.develop ? lssm.config.ModuleKey() + '_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
+            modulePanelHtml += '<div style="margin-top:10px;height: 190px!important;overflow-y:auto;" class="col-md-3 ' + (mod.develop ? 'lssm_module_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
-                '<input class="onoffswitch-checkbox" id="' + lssm.config.ModuleKey() + '_' + i + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + i + '"name="onoffswitch" type="checkbox">' +
-                '<label class="onoffswitch-label" for="' + lssm.config.ModuleKey() + '_' + i + '"></label>' +
+                '<input class="onoffswitch-checkbox" id="lssm_modules_' + i + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + i + '"name="onoffswitch" type="checkbox">' +
+                '<label class="onoffswitch-label" for="lssm_modules_' + i + '"></label>' +
                 '</div>' +
                 '</span>' +
                 '<h4>' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</h4>' +
@@ -675,7 +674,7 @@ var appstore = {
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     createModuleMain: function () {
         var prefix = lssm.config.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav"><li><a href="#" role="tab" data-toggle="tab">' + I18n.t('lssm.settings') + '</a></li>' + settings.create() + '</ul><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
         var self = this;
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
@@ -696,7 +695,6 @@ var appstore = {
             } else {
                 self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
             }
-            //settings.save();
         });
         div.append(this.createModulePanels());
         return div;
@@ -727,20 +725,16 @@ var appstore = {
     closeAppstore: function() {
         "use strict";
         var action = this.checkModChanges();
-        settings.save();
+        module.saveall();
         if(action == "Reload")
             location.reload();
         else
         {
             for (var m in action)
-            {
                 module.load(action[m]);
-                console.log($('#'+lssm.config.prefix + '_appstore_row'));
-                $('#'+lssm.config.prefix + '_appstore_row').remove();
-                $('#content').show();
-                $('footer').show();
-
-            }
+            $('#'+lssm.config.prefix + '_appstore_row').remove();
+            $('#content').show();
+            $('footer').show();
         }
     },
 
@@ -753,15 +747,15 @@ var appstore = {
         //this.active_mods
         var activated = [];
         var deactivated = [];
-        var modules = settings.get(lssm.config.ModuleKey());
-        for (var m in modules)
+        var modules = lssm_settings.get("Modules", {});
+        for (var m in lssm.Module)
         {
             // Wenn das Modul in modules true ist, aber nicht mehr in active_mods -> Wurde deaktiviert
             // Wenn das Modul in modules false ist, aber in active_mods -> Wurde aktiviert
-            if (modules[m] == true && this.active_mods.indexOf(m) == -1) {
+            if (modules[m] && this.active_mods.indexOf(m) == -1) {
                 deactivated.push(m);
             }
-            else if ((modules[m] == false) && this.active_mods.indexOf(m) != -1) {
+            else if ((!modules[m]) && this.active_mods.indexOf(m) != -1) {
                 activated.push(m);
             }
         }
@@ -780,46 +774,48 @@ var appstore = {
                 '<ul id="' + lssm.config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' + lssm.config.prefix + '_menu_switch"> </ul>'+
                 '</li>');
         $('#navbar-main-collapse > ul').append(lssm_dropdown);
-    }
+    },
 };
 
-var settings = {
-    // Speichern der Einstellungen
-    // TODO: Replace this with new set function. This is only for modules anyway.
-    save: function() {
-        var arr = {};
-        for (var i in lssm.Module)
-            arr[i] = lssm.Module[i].active;
-        localStorage.setItem(lssm.config.ModuleKey(), JSON.stringify(arr));
-    },
-
-    //TODO: append prefix automatically
-    // TODO: Optional "default" parameter that will be returned if localstorage doesnt return anything
-    get: function(variable) {
+var lssm_settings = {
+    // Set a value to the localstorage
+    set: function(key, value) {
         "use strict";
-        var load = JSON.parse(localStorage.getItem(variable)) || {};
-        return load;
+        if (typeof value == "object")
+            // We have a object, parse it to json and save it.
+            localStorage.setItem(lssm.config.prefix +'_'+ key, JSON.stringify(value));
+        else
+            // Otherwise we save the raw value
+            localStorage.setItem(lssm.config.prefix +'_'+ key, value);
     },
-    // TODO: set-Function with automatic prefix for keys
 
-    // Not needed anymore, if above is done (this only does modules anyway)
-    create: function() {
-        var settingsHtml = '';
-        for (var i in lssm.Module) {
-            var mod = lssm.Module[i];
-            // Do not show certain modules in the appstore
-            if ('noapp' in mod && mod.noapp === true) {
-                continue;
-            }
-            if ('settings' in mod && mod.settings.has == true && mod.active == true) {
-                settingsHtml += '<li><a href="#" role="tab" onclick="appstore.hideAllForSettings();' + mod.settings.function_code + '();" data-toggle="tab">' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</a></li>';
-            }
+    // Get a config value from localstorage
+    get: function(key, defaultvalue) {
+        "use strict";
+        if (typeof defaultvalue == "undefined")
+            // defaultvalue is not set, return null if nothing found
+            defaultvalue = null;
+        var data;
+        try {
+            // Try to parse the config string as json
+            data = JSON.parse(localStorage.getItem(lssm.config.prefix +'_'+key)) || defaultvalue;
+        } catch (e) {
+            // Couldn't parse the config value as json. Return the raw value
+            data = (localStorage.getItem(lssm.config.prefix +'_'+key)) || defaultvalue;
         }
-        return settingsHtml;
+        return data;
     }
 };
 
 var module = {
+    saveall: function()
+    {
+        "use strict";
+        var arr = {};
+        for (var i in lssm.Module)
+            arr[i] = lssm.Module[i].active;
+        lssm_settings.set("Modules", arr);
+    },
     // Zum zwischenspeichern der schon geladenen Module
     addLocales: function(module) {
         var mod = module.toString();
@@ -879,14 +875,19 @@ var module = {
     });
 
     function loadCore() {
+        // Delete old datasets
+        if(lssm_settings.get("Module", false) != false)
+        {
+            localStorage.clear();
+        }
         // alle Settings die immer wieder benötigt werden
-        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">')
+        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
 
         appstore.createDropDown();
         // laden der Einstellungen
-        var modules = settings.get(lssm.config.ModuleKey()) || {};
+        var modules = lssm_settings.get('Modules') || {};
         for (var i in modules) {
             var modname = i.toString();
             if ((modname in lssm.Module) === false) {
@@ -899,5 +900,6 @@ var module = {
 
         module.loadall();
         appstore.appendAppstore();
+        $('#'+lssm.config.prefix+'_menu').prepend('<li class="menu-center">'+I18n.t('lssm.version')+': '+lssm.config.version+'</li><li class="divider"></li>');
     }}
 )(I18n, jQuery);

@@ -86,5 +86,11 @@
             $('footer').show();
             $('col_navbar_holder').show();
         });
+        $('#'+ lssm.config.prefix + '_recolor_save').click(function() {
+            $('#'+lssm.config.prefix+'_recolor').remove();
+            content.show();
+            $('footer').show();
+            $('col_navbar_holder').show();
+        });
     });
 })(jQuery, I18n);

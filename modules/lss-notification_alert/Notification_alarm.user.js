@@ -1,5 +1,6 @@
 (function ($, I18n) {
-    var set = JSON.parse(localStorage.getItem('Notification')) || {
+    //var set = JSON.parse(localStorage.getItem('Notification')) || { // Outdated
+    var set = lssm_settings.get('Notification', null) || {
         allianceChatNotifcation: true, // true = Chat-Notification sind standardmäßig aktiviert (Standard: true).
         allianceS5Notifcation: true, // true = Status 5-Notification sind standardmäßig aktiviert (Standard: true).
         allianceStatusNotifcation: true, // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
@@ -233,7 +234,8 @@
     })
     $('#lssm_menu').append(li)
     function saveSettings(){
-        localStorage.setItem('Notification',JSON.stringify(set));
+        //localStorage.setItem('Notification',JSON.stringify(set)); // Outdated
+        lssm_settings.set("Notification", set);
     }
     notifyMe(I18n.t('lssm.n-alarm.inithead'), I18n.t('lssm.n-alarm.init'), "init");
 

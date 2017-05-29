@@ -54,7 +54,7 @@ div#preloader {
 ################################################## */
 
 /*# SETZT EINEN GELB/SCHWARZ GESTREIFTEN BANNER AM ENDE EINES PLUGINS #*/
-.lssm_Module_develop .panel-footer {
+.lssm_module_develop .panel-footer {
   background: repeating-linear-gradient(
           45deg,
           rgba(255, 219, 27, 1),
@@ -76,7 +76,7 @@ div#preloader {
   text-transform: uppercase;
   font-weight: 900;
 }
-.lssm_Module_develop label {
+.lssm_module_develop label {
   display: none;
 }
 
@@ -348,7 +348,9 @@ colorful
 
 
 */
-
+.menu-center {
+  text-align: center;
+}
 .lss_label {
   padding: .2em .6em .3em;
   font-size: 75%;

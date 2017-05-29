@@ -86,7 +86,7 @@
                 drawCircles(false, 5);
                 break;
         }
-        localStorage.setItem(settings.prefix,JSON.stringify(settings.set));
+        lssm_settings.set(settings.prefix, settings.set);
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
@@ -143,7 +143,7 @@
     }
     // settings mit settings aus Storage erweitern
     map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
-    $.extend(settings.set,JSON.parse(localStorage.getItem(settings.prefix)));
+    $.extend(settings.set,lssm_settings.get(settings.prefix, null));
     // Einstellungen erstellen
     createSettings();
     // alle aktiven Typen zeichnen

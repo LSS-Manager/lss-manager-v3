@@ -196,7 +196,6 @@ function load_build_planning() {
         $.each(vehicles, function (k, car) {
             printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open">' + car.name + '</a><br>';
         });
-        console.log(building);
         var bd_data = '\
 		<div class="db_wachen_item" id="db_wache_'+ building.id +'">\
 			<div class="panel panel-default">\
