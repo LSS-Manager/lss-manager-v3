@@ -40,12 +40,11 @@
 
         var name = $.trim($("#navbar_profile_link").text());
         data.bro = getUserAgent();
-        if (typeof alliance_id !== "undefined")
-            data.all = alliance_id;
         data.pro = user_premium;
         data.bui = get_buildings().length;
         data.version = lssm.config.version;
         data.mods = getModules();
+        data.game = window.location.hostname;
         console.log(data.mods);
         data = JSON.stringify(data);
         $.ajax({
