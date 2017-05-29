@@ -2,7 +2,7 @@
     function getModules()
     {
         var active = [];
-        var modules = JSON.parse(localStorage.getItem("lssm_Module"));
+        var modules = lssm_settings.get("Modules", {});
         if (modules == null)
         {
             return active;
@@ -46,6 +46,7 @@
         data.bui = get_buildings().length;
         data.version = lssm.config.version;
         data.mods = getModules();
+        console.log(data.mods);
         data = JSON.stringify(data);
         $.ajax({
             type: "POST",

@@ -745,8 +745,10 @@ var appstore = {
         "use strict";
         var action = this.checkModChanges();
         module.saveall();
-        if(action == "Reload")
+        if(action == "Reload") {
+            console.log("reload");
             location.reload();
+        }
         else
         {
             for (var m in action)
