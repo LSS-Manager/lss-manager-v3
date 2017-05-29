@@ -170,7 +170,7 @@ lssm.Module = {
         develop: false,
         version: 'v 1.1',
         copyright: '@lostdesign',
-        collisions: ['Layout02', 'Layout03', 'Layout04'],
+        collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
             has: false,
             function_code: ""
@@ -190,7 +190,7 @@ lssm.Module = {
         develop: false,
         version: 'v 1.0',
         copyright: '@lostdesign',
-        collisions: ['Layout01', 'Layout03', 'Layout04'],
+        collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
             has: false,
             function_code: ""
@@ -210,7 +210,7 @@ lssm.Module = {
         develop: false,
         version: 'v 1.0',
         copyright: '@lostdesign',
-        collisions: ['Layout01', 'Layout02', 'Layout04', 'FMS5InMap'],
+        collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap'],
         settings: {
             has: false,
             function_code: ""
@@ -230,7 +230,26 @@ lssm.Module = {
         develop: false,
         version: 'v 1.0',
         copyright: '@lostdesign',
-        collisions: ['Layout01', 'Layout02', 'Layout03'],
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    Layout05: {
+        name: {
+            de: 'Layout 05'
+        },
+        active: false,
+        description: {
+            de: 'Vollständig anpassbares Layout',
+        },
+        ghuser: 'Tsumiki-Chan',
+        source: '/modules/lss-layout-05/layout-05.user.js',
+        develop: true,
+        version: 'v 1.0',
+        copyright: '@Northdegree',
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04'],
         settings: {
             has: false,
             function_code: ""
