@@ -7,6 +7,9 @@ nav, .navbar-default {
   border:0 !important;
 }
 
+#lssm_aao_dropdown {
+  min-width:200px;
+}
 /* ##################################################
 
               GENERAL STYLES

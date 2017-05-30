@@ -38,7 +38,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.1.7",
+        version: "3.1.8",
         github: 'https://github.com/',
         prefix: 'lssm'
     }
@@ -622,6 +622,27 @@ lssm.Module = {
             function_code: ""
         }
     },
+    aaosearch: {
+        name: {
+            de: 'AAO-Suche',
+            en: 'AAO-Search'
+        },
+        active: false,
+        description: {
+            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown'
+        },
+        ghuser: 'Tsumiki-Chan',
+        source: '/modules/lss-aao-search/aao-search.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false,
+        version: 'v 0.1',
+        copyright: '@lss-manager',
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     recolor: {
         name: {
             de: 'Einfärben',
@@ -912,7 +933,8 @@ var module = {
         // alle Settings die immer wieder benötigt werden
         $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
-                .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>');
+                .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
+                .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
 
         appstore.createDropDown();
         // laden der Einstellungen
