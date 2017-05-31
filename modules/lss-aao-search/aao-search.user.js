@@ -21,13 +21,14 @@
             if (aao_id == -1)
                 return;
             // Get the original button
-            var aao_e = $("a[id='aao_"+aao_id+"']");
+            $("a[id='aao_"+aao_id+"']").click();
+            /*var aao_e = $("a[id='aao_"+aao_id+"']");
             var aao_a = aao_e.get(0).attributes;
             // Iterate through all the attributes and call sebastians aao function
             for(var i = 6; i<aao_a.length; i++)
             {
                 aao(aao_a[i].nodeName, $(aao_e.get(0)), I18n.t("intervention_order.vehicles."+aao_a[i].nodeName));
-            }
+            }*/
             // Reset the select
             setTimeout(function(){
                 $('#lssm_aao_dropdown').val("-1");
