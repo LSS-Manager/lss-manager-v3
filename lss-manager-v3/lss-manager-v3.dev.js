@@ -925,11 +925,6 @@ var module = {
     });
 
     function loadCore() {
-        // Delete old datasets
-        if(lssm_settings.get("Module", false) != false)
-        {
-            localStorage.clear();
-        }
         // alle Settings die immer wieder benötigt werden
         $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
