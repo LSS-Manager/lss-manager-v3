@@ -4,30 +4,6 @@
 //██║.....╚════██║╚════██║....██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║██║...██║██╔══╝..██╔══██╗
 //███████╗███████║███████║....██║.╚═╝.██║██║..██║██║.╚████║██║..██║╚██████╔╝███████╗██║..██║
 //╚══════╝╚══════╝╚══════╝....╚═╝.....╚═╝╚═╝..╚═╝╚═╝..╚═══╝╚═╝..╚═╝.╚═════╝.╚══════╝╚═╝..╚═╝
-// ==UserScript==
-// @name         LSS Manager v3 AutoUpdate
-// @version      beta 0.5
-// @description  Das Tool für LSS
-// @author       lost | mausmajor | chaoskai | northdegree
-// @include      *://www.leitstellenspiel.de/
-// @include      *://www.leitstellenspiel.de/*
-// @include      *://www.missionchief.com/*
-// @include      *://www.missionchief.com/
-// @grant        none
-// @run          document-start
-// ==/UserScript==
-//$.getScript('https://lost.design/lssm-develop-beta/lss-manager-v3.dev.js');
-// ============================================================
-// ALLGEMEINE INFORMATIONEN:
-// - prefix immer mit prefix + _name verwenden
-// -
-// ============================================================
-// TABLE OF CONTENTS
-// main function
-// setzt meta variablen
-// einladen der verfügbaren module
-// activeModule()
-//
 
 /**
  * Localization
@@ -552,6 +528,7 @@ lssm.Module = {
         },
         ghuser: 'Mausmajor',
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
+        inframe: true,
         develop: false,
         version: 'v 0.2',
         copyright: '@Mausmajor',
