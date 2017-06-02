@@ -9,7 +9,7 @@
         timeout_S5: 3, //Zeit in Sekunden wie lange S5-Notifications angezeigt werden sollen (Standard: 3).
         timeout_Status: 3, //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
         timeout_ChatPopup: 3
-    }, imgSRC = "https://dlrg-dominik.github.io/DEV-Notification-Alert/img/";
+    };
 
     I18n.translations.de['lssm']['n-alarm'] = {
         not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
@@ -99,7 +99,7 @@
         {
             var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
                 body: message,
-                icon: imgSRC + "134895.png"
+                icon: lssm.getlink("/modules/lss-notification-alert/img/134895.png")
             });
             setTimeout(function () {
                 notification.close();
@@ -111,7 +111,7 @@
         {
             var notification = new Notification(username, {
                 body: message,
-                icon: imgSRC + "Status_" + fms + ".png",
+                icon: lssm.getlink("/modules/lss-notification-alert/img/Status_" + fms + ".png"),
             });
             setTimeout(function () {
                 notification.close();
@@ -127,7 +127,7 @@
         {
             var notification = new Notification(username, {
                 body: message,
-                icon: imgSRC + "Status_" + fms + ".png",
+                icon: lssm.getlink("/modules/lss-notification-alert/img/Status_" + fms + ".png"),
             });
             setTimeout(function () {
                 notification.close();

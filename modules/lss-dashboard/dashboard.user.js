@@ -354,7 +354,7 @@ function loadDashboard() {
     var prefix = lssm.config.prefix +'_db';
     $('#'+prefix).html('<span class="glyphicon glyphicon-refresh spinning"></span> '+ I18n.t('lssm.dashboard.loading') +' ...');
     setTimeout(function() {
-        $.get(lssm.config.server+'/modules/lss-dashboard/dashboard.html',function(data) {
+        $.get(lssm.getlink("/modules/lss-dashboard/dashboard.html"),function(data) {
             $('#'+prefix).html(data);
         })
             .done(function(){
