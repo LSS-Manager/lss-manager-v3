@@ -5,10 +5,34 @@
             loeschfz: "Löschfahrzeuge",
             tankloeschfz: "Tanklöschfahrzeuge",
             schlauchwg: "Schlauchwagen",
+            ruest: "Rüstwagen",
+            oel: "Öl",
+            dekon: "Dekon-P",
+            atem: "Atemschutz",
+            elw: "ELW 1+2",
             radius: "Radius",
             activated: "Aktiviert",
             intensity: "Intensität",
-            vehicleType: "Fahrzeug-Typ"
+            vehicleType: "Fahrzeug-Typ",
+            reset: "Zurücksetzen",
+            close: "Schließen"
+    };
+    
+    I18n.translations.en['lssm']['heatmap'] = {
+            loeschfz: "Fire Trucks",
+            tankloeschfz: "Tank Fire Trucks",
+            schlauchwg: "Watercar",
+            ruest: "Supply Truck",
+            oel: "Oil",
+            dekon: "Decon-P",
+            atem: "Respiratory",
+            elw: "ELW 1+2",
+            radius: "Radius",
+            activated: "Activated",
+            intensity: "Intensity",
+            vehicleType: "Vehicle type",
+            reset: "Reset",
+            close: "Close"
     };
     
     $('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
@@ -19,6 +43,11 @@
         '1000': {'name': '[' + I18n.t('lssm.heatmap.loeschfz') + ']', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
         '1001': {'name': '[' + I18n.t('lssm.heatmap.tankloeschfz') + ']', 'vehicleTypeIds': [17,18,19,20,21,22,23,24,25,26]},
         '1002': {'name': '[' + I18n.t('lssm.heatmap.schlauchwg') + ']', 'vehicleTypeIds': [11,13,14,15,16]},
+        '1003': {'name': '[' + I18n.t('lssm.heatmap.ruest') + ']', 'vehicleTypeIds': [4,30,47]},
+        '1004': {'name': '[' + I18n.t('lssm.heatmap.oel') + ']', 'vehicleTypeIds': [10,49]},
+        '1005': {'name': '[' + I18n.t('lssm.heatmap.dekon') + ']', 'vehicleTypeIds': [53,54]},
+        '1006': {'name': '[' + I18n.t('lssm.heatmap.atem') + ']', 'vehicleTypeIds': [5,48]},
+        '1007': {'name': '[' + I18n.t('lssm.heatmap.elw') + ']', 'vehicleTypeIds': [3,34]}
     };
 
     function getSettings(){
@@ -26,7 +55,7 @@
             'heatmap-activated': {'name': I18n.t('lssm.heatmap.activated'), 'type': 'boolean', 'default': false},
             'heatmap-radius': {'name': I18n.t('lssm.heatmap.radius'), 'type': 'range', 'default': '80'},
             'heatmap-intensity': {'name': I18n.t('lssm.heatmap.intensity'), 'type': 'range', 'default': '15'},
-            'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '0'}
+            'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '1000'}
         };
 
         if (!window.localStorage.getItem(LS_HEATMAP_STORAGE)) {
@@ -149,7 +178,7 @@
                 });
 
                 // Buttons
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn">Schließen</button><td><button id="heatmap_reset" class="btn">Zurücksetzen</button></td></td></tr>');
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
 
                 $('#heatmap_reset').click(function () {
                     window.localStorage.removeItem(LS_HEATMAP_STORAGE);
