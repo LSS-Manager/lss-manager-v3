@@ -888,7 +888,8 @@ var module = {
             var path = window.location.pathname.length;
             var uid = "";
             if (typeof user_id != "undefined")
-                uid = "?uid="+user_id;
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+                uid = "?uid="+game+user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
@@ -917,7 +918,8 @@ var module = {
     function loadCore() {
         var uid = "";
         if (typeof user_id != "undefined")
-            uid = "uid="+user_id+"&";
+            var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "uid="+game + user_id+"&";
         // alle Settings die immer wieder benötigt werden
         $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?'+uid+'v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
