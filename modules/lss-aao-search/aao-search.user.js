@@ -116,6 +116,7 @@
         if(this.checked)
         {
             $("#lssm_aao_search").remove();
+            $("#lssm_aao_results").remove();
             // Hide all original AAO buttons
             $("#mission-aao-group div:not(.clearfix)").each(function() {
                 this.style.setProperty("display", "none");
@@ -130,7 +131,6 @@
         }
         else
         {
-            // Hide all original AAO buttons
             $("#mission-aao-group div:not(.clearfix)").each(function() {
                 this.style.setProperty("display", "block");
             });
