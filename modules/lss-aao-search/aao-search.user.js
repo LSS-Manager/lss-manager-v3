@@ -115,8 +115,7 @@
         lssm_settings.set("aaos_dropdown", this.checked);
         if(this.checked)
         {
-            $("#lssm_aao_search").remove();
-            $("#lssm_aao_results").remove();
+            $("#lssm_aao_search,#lssm_aao_results").remove();
             // Hide all original AAO buttons
             $("#mission-aao-group div:not(.clearfix)").each(function() {
                 this.style.setProperty("display", "none");

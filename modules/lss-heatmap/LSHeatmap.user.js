@@ -34,9 +34,8 @@
             reset: "Reset",
             close: "Close"
     };
-    
-    //$('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
-    lssm.loadScript("/modules/lss-heatmap/vendor/leaflet-heat.js");
+
+    //lssm.loadScript("/modules/lss-heatmap/vendor/leaflet-heat.js");
 
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
 
@@ -241,5 +240,13 @@
             heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
         }
     }
-    handleMainWindow();
+    $.get(lssm.getlink("/modules/lss-heatmap/vendor/leaflet-heat.js"), function (data) {
+        $('header').append('<script type="text/javascript">' + data + '</script>');
+    })
+    .fail(function () {
+        console.log("LSHeatmap: Clouldn't load leaflet extension")
+    })
+    .done(function () {
+        handleMainWindow();
+    });
 })(I18n, jQuery);
