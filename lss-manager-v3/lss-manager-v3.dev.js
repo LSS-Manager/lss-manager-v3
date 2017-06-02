@@ -11,7 +11,7 @@
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.1.9",
@@ -19,6 +19,16 @@ var lssm = {
         prefix: 'lssm'
     }
 };
+
+/**
+ * Tell jQuery to allow caching beforehand!
+ */
+$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+    if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
+        options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
+        options.cache = true;
+    }
+});
 
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
@@ -876,11 +886,14 @@ var module = {
     load: function(module) {
         try {
             var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                uid = "?uid="+user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
                     appstore.active_mods.push(module);
-                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + '" type="text/javascript"></script>');
+                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
                 }
             }
         } catch (e) {
@@ -902,8 +915,11 @@ var module = {
     });
 
     function loadCore() {
+        var uid = "";
+        if (typeof user_id != "undefined")
+            uid = "uid="+user_id+"&";
         // alle Settings die immer wieder benötigt werden
-        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
+        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?'+uid+'v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
                 .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
