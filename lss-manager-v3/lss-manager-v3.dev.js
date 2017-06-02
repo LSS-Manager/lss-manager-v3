@@ -641,6 +641,28 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
+    },
+    heatmap: {
+        name: {
+            de: 'LS-Heatmap',
+            en: 'LS-Heatmap'
+        },
+        active: true,
+        description: {
+            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
+            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.'
+        },
+        ghuser: 'Jalibu',
+        source: '/modules/lss-heatmap/LSHeatmap.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        version: 'v 1.0',
+        copyright: '@Jalibu',
+        settings: {
+            has: false,
+            function_code: ""
+        }
     }
 };
 

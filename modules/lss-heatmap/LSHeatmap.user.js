@@ -1,22 +1,32 @@
-(function() {
+(function(I18n, $) {
     'use strict';
+    
+    I18n.translations.de['lssm']['heatmap'] = {
+            loeschfz: "Löschfahrzeuge",
+            tankloeschfz: "Tanklöschfahrzeuge",
+            schlauchwg: "Schlauchwagen",
+            radius: "Radius",
+            activated: "Aktiviert",
+            intensity: "Intensität",
+            vehicleType: "Fahrzeug-Typ"
+    };
     
     $('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
 
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
 
     var vehicleClasses = {
-        '1000': {'name': '[Löschfahrzeuge]', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
-        '1001': {'name': '[Tanklöschfahrzeuge]', 'vehicleTypeIds': [17,18,19,20,21,22,23,24,25,26]},
-        '1002': {'name': '[Schlauchwagen]', 'vehicleTypeIds': [11,13,14,15,16]},
+        '1000': {'name': '[' + I18n.t('lssm.heatmap.loeschfz') + ']', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
+        '1001': {'name': '[' + I18n.t('lssm.heatmap.tankloeschfz') + ']', 'vehicleTypeIds': [17,18,19,20,21,22,23,24,25,26]},
+        '1002': {'name': '[' + I18n.t('lssm.heatmap.schlauchwg') + ']', 'vehicleTypeIds': [11,13,14,15,16]},
     };
 
     function getSettings(){
         var settings = {
-            'heatmap-activated': {'name': 'Aktiviert', 'type': 'boolean', 'default': false},
-            'heatmap-radius': {'name': 'Radius', 'type': 'range', 'default': '80'},
-            'heatmap-intensity': {'name': 'Intensität', 'type': 'range', 'default': '15'},
-            'heatmap-vehicle': {'name': 'Fahrzeug-Typ', 'type': 'select', 'default': '0'}
+            'heatmap-activated': {'name': I18n.t('lssm.heatmap.activated'), 'type': 'boolean', 'default': false},
+            'heatmap-radius': {'name': I18n.t('lssm.heatmap.radius'), 'type': 'range', 'default': '80'},
+            'heatmap-intensity': {'name': I18n.t('lssm.heatmap.intensity'), 'type': 'range', 'default': '15'},
+            'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '0'}
         };
 
         if (!window.localStorage.getItem(LS_HEATMAP_STORAGE)) {
@@ -88,13 +98,7 @@
                 if(getSetting('heatmap-activated')){
                     $('#heatmap-activated').attr('checked', 'checked');
                 }
-
-                // Radius
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Radius</td><td><div class="value-slider" data-min="0" data-max="200" data-value="'+ getSetting('heatmap-radius') +'" id="heatmap-radius"></div></td></tr>');
-
-                // Intensity
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Intensität</td><td><div class="value-slider" data-min="0" data-max="20" data-value="'+ getSetting('heatmap-intensity') +'" id="heatmap-intensity"></div></td></tr>');
-
+                
                 // Vehicle
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Fahrzeug</td><td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>');
 
@@ -113,6 +117,13 @@
                         $('#heatmap-vehicle').append('<option value="'+ this + '">' + carsById[this][0] + '</option>');
                     }
                 });
+
+                // Radius
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Radius</td><td><div class="value-slider" data-min="0" data-max="200" data-value="'+ getSetting('heatmap-radius') +'" id="heatmap-radius"></div></td></tr>');
+
+                // Intensity
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Intensität</td><td><div class="value-slider" data-min="0" data-max="20" data-value="'+ getSetting('heatmap-intensity') +'" id="heatmap-intensity"></div></td></tr>');
+
 
                 $('#ls-heatmap-config .ls-input').on('change', function () {
                     setSettings();
@@ -199,4 +210,4 @@
             heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
         }
     }
-})();
+})(I18n, jQuery);
