@@ -50,7 +50,6 @@
     {
         "use strict";
         if(typeof option.id == "undefined" || option.id == "-1") {
-            console.log("undef");
             return option.text;
         }
         var available = document.getElementById("available_aao_"+option.id).innerHTML;
