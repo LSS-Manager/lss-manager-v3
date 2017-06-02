@@ -14,7 +14,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.1.8",
+        version: "3.1.9",
         github: 'https://github.com/',
         prefix: 'lssm'
     }
@@ -171,7 +171,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-01/layout-01.user.js',
         develop: false,
-        version: 'v 1.1',
+        version: 'v 1.5',
         copyright: '@lostdesign',
         collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
@@ -191,7 +191,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
         develop: false,
-        version: 'v 1.0',
+        version: 'v 1.1',
         copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
@@ -211,7 +211,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-03/layout-03.user.js',
         develop: false,
-        version: 'v 1.0',
+        version: 'v 1.1',
         copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap'],
         settings: {
@@ -231,7 +231,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
-        version: 'v 1.0',
+        version: 'v 1.5',
         copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
         settings: {
@@ -290,7 +290,7 @@ lssm.Module = {
         ghuser: 'Mausmajor',
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false,
-        version: 'v 1.0',
+        version: 'v 1.1',
         copyright: '@Mausmajor',
         settings: {
             has: false,
@@ -489,7 +489,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-dashboard/dashboard.user.js',
         develop: false,
-        version: 'v 0.1',
+        version: 'v 0.5',
         copyright: '@lostdesign',
         settings: {
             has: false,
