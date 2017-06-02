@@ -50,7 +50,7 @@
         }
         var available = document.getElementById("available_aao_"+option.id).innerHTML;
         var bg = $("#aao_"+option.id).css("background-color");
-        option = $('<span style="background-color: '+bg+';" class="label">'+available + option.text+'</span>');
+        option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
         return option;
     }
 
@@ -62,9 +62,9 @@
         this.style.setProperty("display", "none");
     });
     // Create a new select
-    $("#mission-aao-group").prepend('<input id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"/>');
+    $("#mission-aao-group").prepend('<select id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"><option value="-1">Bitte wählen...</option></select>');
     // Add a reset button
-    $("#mission-aao-group").prepend('<button id="lssm_aao_reset" class="btn btn-xs btn-danger">Zurücksetzen</button>');
+    $("#mission-aao-group").prepend('<button id="lssm_aao_reset" class="btn btn-small btn-danger">Zurücksetzen</button>');
     // Add the original AAO's to the select
     addToDropdown();
     // Format the options from the select
