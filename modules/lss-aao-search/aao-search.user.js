@@ -1,4 +1,16 @@
-(function ($) {
+(function ($, I18n) {
+    I18n.translations.de['lssm']['aaosearch'] = {
+        search_aao: "AAO suchen",
+        use_dd: "Dropdown nutzen: ",
+        reset: "Zurücksetzen",
+        select: "Bitte wählen..."
+    };
+    I18n.translations.en['lssm']['aaosearch'] = {
+        search_aao: "Search AAO",
+        use_dd: "Use dropdown: ",
+        reset: "Reset",
+        select: "Please select..."
+    };
     /**
      * Creates a select
      */
@@ -49,7 +61,7 @@
     function activateSearch()
     {
         "use strict";
-        $("#mission-aao-group").before('<input type="text" id="lssm_aao_search" style="min-width: 400px;" placeholder="AAO suchen">');
+        $("#mission-aao-group").before('<input type="text" id="lssm_aao_search" style="min-width: 400px;" placeholder="'+I18n.t('lssm.aaosearch.search_aao')+'">');
         $("#mission-aao-group").before('<div id="lssm_aao_results"></div>');
         $("a[id^='aao_']").css("display", "inline-block");
         $("#lssm_aao_search").on("keyup", function(){
@@ -76,10 +88,9 @@
     /**
      * Initialize
      */
-
-    $("#mission-aao-group").before('Dropdown nutzen: <div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm_aao_search_dropdown" '+((use_dropdown=="true")?'checked="checked':'')+' value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm_aao_search_dropdown"></label></div>');
+    $("#mission-aao-group").before(I18n.t('lssm.aaosearch.use_dd')+'<div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm_aao_search_dropdown" '+((use_dropdown=="true")?'checked="checked"':'')+' value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm_aao_search_dropdown"></label></div>');
     // Add a reset button
-    $("#mission-aao-group").before('<button id="lssm_aao_reset" class="btn btn-small btn-danger">Zurücksetzen</button>');
+    $("#mission-aao-group").before('<button id="lssm_aao_reset" class="btn btn-small btn-danger">'+I18n.t('lssm.aaosearch.reset')+'</button>');
     if(use_dropdown == "true")
     {
         // Hide all original AAO buttons
@@ -87,7 +98,7 @@
             this.style.setProperty("display", "none");
         });
         // Create a new select
-        $("#mission-aao-group").before('<select id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"><option value="-1">Bitte wählen...</option></select>');
+        $("#mission-aao-group").before('<select id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"><option value="-1">'+I18n.t('lssm.aaosearch.select')+'</option></select>');
         // Add the original AAO's to the select
         addToDropdown();
         // Format the options from the select
@@ -111,7 +122,7 @@
                 this.style.setProperty("display", "none");
             });
             // Create a new select
-            $("#mission-aao-group").before('<select id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"><option value="-1">Bitte wählen...</option></select>');
+            $("#mission-aao-group").before('<select id="lssm_aao_dropdown" name="lssm_aao_dropdown" style="min-width: 400px;"><option value="-1">'+I18n.t('lssm.aaosearch.select')+'</option></select>');
             addToDropdown();
             // Format the options from the select
             $( "#lssm_aao_dropdown" ).select2({
@@ -133,4 +144,4 @@
         "use strict";
         vehicleSelectionReset();
     });
-})($);
+})($, I18n);
