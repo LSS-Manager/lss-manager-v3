@@ -1,87 +1,9 @@
 (function() {
     'use strict';
-
-    //$('head').append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>');
-    //$('head').append('<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"></script>');
-
+    
     $('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
 
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
-    
-    var carIds = {
-        0: 'LF 20',
-        1: 'LF 10',
-        2: 'DLK 23',
-        3: 'ELW 1',
-        4: 'RW',
-        5: 'GW-A',
-        6: 'LF 8/6',
-        7: 'LF 20/16',
-        8: 'LF 10/6',
-        9: 'LF 16-TS',
-        10: 'GW-Öl',
-        11: 'GW-L2-Wasser',
-        12: 'GW-Messtechnik',
-        13: 'SW 1000',
-        14: 'SW 2000',
-        15: 'SW 2000-Tr',
-        16: 'SW KatS',
-        17: 'TLF 2000',
-        18: 'TLF 3000',
-        19: 'TLF 8/8',
-        20: 'TLF 8/18',
-        21: 'TLF 16/24-Tr',
-        22: 'TLF 16/25',
-        23: 'TLF 16/45',
-        24: 'TLF 20/40',
-        25: 'TLF 20/40-SL',
-        26: 'TLF 16',
-        27: 'GW-Gefahrgut',
-        28: 'RTW',
-        29: 'NEF',
-        30: 'HLF 20',
-        31: 'RTH',
-        32: 'FuStW',
-        33: 'GW-Höhenrettung',
-        34: 'ELW 2',
-        35: 'leBefKw',
-        36: 'MTW',
-        37: 'TSF-W',
-        38: 'KTW',
-        39: 'GKW',
-        40: 'MTW-TZ',
-        41: 'MzKW',
-        42: 'LKW K9',
-        43: 'BRmG R',
-        44: 'Anh. DLE',
-        45: 'MLW 5',
-        46: 'WLF',
-        47: 'AB-Rüst',
-        48: 'AB-Atemschutz',
-        49: 'AB-Öl',
-        50: 'GruKw',
-        51: 'FüKw',
-        52: 'GefKw',
-        53: 'GW Dekon-P',
-        54: 'AB-Dekon-P',
-        55: 'KdoW-LNA',
-        56: 'KdoW-OrgL',
-        57: 'Kran',
-        58: 'KTW Typ B',
-        59: 'ELW 1 (SEG)',
-        60: 'GW-SAN',
-        61: 'Polizeihubschrauber',
-        62: 'AB-Schlauch',
-        63: 'GW-Taucher',
-        64: 'GW-Wasserrettung',
-        65: 'LKW 7 Lkr 19 tm',
-        66: 'Anh MzB',
-        67: 'Anh SchlB',
-        68: 'Anh MzAB',
-        69: 'Tauchkraftwagen',
-        70: 'MZB',
-        71: 'AB-MZB'
-    };
 
     var vehicleClasses = {
         '1000': {'name': '[Löschfahrzeuge]', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
@@ -186,9 +108,9 @@
 
                 $(availableVehicleTypes).each(function(){
                     if(getSetting('heatmap-vehicle') == this){
-                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + carIds[this] + '</option>');
+                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + carsById[this][0] + '</option>');
                     } else {
-                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + carIds[this] + '</option>');
+                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + carsById[this][0] + '</option>');
                     }
                 });
 
