@@ -11,14 +11,60 @@
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.1.9",
         github: 'https://github.com/',
         prefix: 'lssm'
-    }
+    },
+    loadScript: function(link) {
+        try {
+            var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "?uid="+game+user_id;
+            $('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
+        } catch (e) {
+            console.log("On script load: "+e.message);
+        }
+    },
+    loadStyle: function(link) {
+        try {
+            var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "?uid="+game+user_id;
+            $('body').append('<link href="' + this.config.server + link + uid +'" rel="stylesheet" type="text/css">');
+        } catch (e) {
+            console.log("On script load: "+e.message);
+        }
+    },
+    getlink: function(file) {
+        try {
+            var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "?uid="+game+user_id;
+            return this.config.server + file + uid;
+        } catch (e) {
+            console.log("On script load: "+e.message);
+        }
+    },
 };
+
+/**
+ * Tell jQuery to allow caching beforehand!
+ */
+$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+    if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
+        options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
+        options.cache = false;
+    }
+});
 
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
@@ -647,7 +693,7 @@ lssm.Module = {
             de: 'LS-Heatmap',
             en: 'LS-Heatmap'
         },
-        active: true,
+        active: false,
         description: {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.'
@@ -655,7 +701,7 @@ lssm.Module = {
         ghuser: 'Jalibu',
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
-        inframe: true,
+        inframe: false,
         develop: false,
         version: 'v 1.0',
         copyright: '@Jalibu',
@@ -842,7 +888,7 @@ var lssm_settings = {
     get: function(key, defaultvalue) {
         "use strict";
         if (typeof defaultvalue == "undefined")
-            // defaultvalue is not set, return null if nothing found
+        // defaultvalue is not set, return null if nothing found
             defaultvalue = null;
         var data;
         try {
@@ -853,6 +899,12 @@ var lssm_settings = {
             data = (localStorage.getItem(lssm.config.prefix +'_'+key)) || defaultvalue;
         }
         return data;
+    },
+
+    // Remove a config value from localstorage
+    remove: function(key) {
+        "use strict";
+        localStorage.removeItem(key);
     }
 };
 
@@ -898,11 +950,16 @@ var module = {
     load: function(module) {
         try {
             var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+                uid = "?uid="+game+user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
                     appstore.active_mods.push(module);
-                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + '" type="text/javascript"></script>');
+                    //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
+                    lssm.loadScript(lssm.Module[module].source);
                 }
             }
         } catch (e) {
@@ -925,11 +982,10 @@ var module = {
 
     function loadCore() {
         // alle Settings die immer wieder benötigt werden
-        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
-                .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
-                .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
-                .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
-
+        $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+            .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
+        lssm.loadStyle("/lss-manager-v3/css/main.css");
+        lssm.loadScript("/lss-manager-v3/js/highcharts.min.js");
         appstore.createDropDown();
         // laden der Einstellungen
         var modules = lssm_settings.get('Modules') || {};

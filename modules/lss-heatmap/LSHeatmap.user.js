@@ -35,7 +35,8 @@
             close: "Close"
     };
     
-    $('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
+    //$('head').append('<script type="text/javascript" src="' + lssm.config.server + '/modules/lss-heatmap/vendor/leaflet-heat.js"></script>');
+    lssm.loadScript("/modules/lss-heatmap/vendor/leaflet-heat.js");
 
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
 
@@ -58,12 +59,12 @@
             'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '1000'}
         };
 
-        if (!window.localStorage.getItem(LS_HEATMAP_STORAGE)) {
+        if (!lssm_settings.get(LS_HEATMAP_STORAGE)) {
             for (var key in settings) {
                 settings[key].value = settings[key].default;
             }
         } else {
-            settings = JSON.parse(window.localStorage.getItem(LS_HEATMAP_STORAGE));
+            settings = lssm_settings.get(LS_HEATMAP_STORAGE);
         }
         return settings;
     }
@@ -90,19 +91,19 @@
             }
         }
 
-        window.localStorage.removeItem(LS_HEATMAP_STORAGE);
-        window.localStorage.setItem(LS_HEATMAP_STORAGE, JSON.stringify(settings));
+        lssm_settings.remove(LS_HEATMAP_STORAGE);
+        lssm_settings.set(LS_HEATMAP_STORAGE, settings);
 
         if(reload) parent.location.reload();
     }
 
-    $( window ).load(function() {
+    /*$( window ).load(function() {
         if (window.top != window.self){
             // Nothing to do here yet.
         } else {
             handleMainWindow();
         }
-    });
+    });*/
 
     function handleMainWindow(){
         renderMap();
@@ -110,7 +111,8 @@
     }
 
     function renderMapSettings(){
-        $('.leaflet-control-container .leaflet-bottom.leaflet-left').append('<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="' + lssm.config.server +'/modules/lss-heatmap/img/ls-heat-layer.png"></div>');
+        console.log(lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png"));
+        $('.leaflet-control-container .leaflet-bottom.leaflet-left').append('<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="' + lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>');
         $('#ls-heatmap-config-img').on('click', function(){
             var wrapper = $('#ls-heatmap-config-wrapper');
             var isOpened = $(wrapper).attr('data-opened') == 'true';
@@ -181,7 +183,7 @@
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
 
                 $('#heatmap_reset').click(function () {
-                    window.localStorage.removeItem(LS_HEATMAP_STORAGE);
+                    lssm_settings.remove(LS_HEATMAP_STORAGE);
                     renderMap();
                     $('#ls-heatmap-config-img').click();
                     $('#ls-heatmap-config-img').click();
@@ -239,4 +241,5 @@
             heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
         }
     }
+    handleMainWindow();
 })(I18n, jQuery);
