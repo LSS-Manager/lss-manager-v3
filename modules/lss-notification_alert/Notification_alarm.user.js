@@ -99,7 +99,7 @@
         {
             var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
                 body: message,
-                icon: lssm.getlink("/modules/lss-notification-alert/img/134895.png")
+                icon: lssm.getlink("/modules/lss-notification_alert/img/134895.png")
             });
             setTimeout(function () {
                 notification.close();
@@ -111,7 +111,7 @@
         {
             var notification = new Notification(username, {
                 body: message,
-                icon: lssm.getlink("/modules/lss-notification-alert/img/Status_" + fms + ".png"),
+                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
             });
             setTimeout(function () {
                 notification.close();
@@ -127,7 +127,7 @@
         {
             var notification = new Notification(username, {
                 body: message,
-                icon: lssm.getlink("/modules/lss-notification-alert/img/Status_" + fms + ".png"),
+                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
             });
             setTimeout(function () {
                 notification.close();
