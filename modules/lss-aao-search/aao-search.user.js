@@ -57,6 +57,10 @@
         option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
         return option;
     }
+    jQuery.expr[':'].containsci = function(a, i, m) {
+        return jQuery(a).text().toUpperCase()
+                .indexOf(m[3].toUpperCase()) >= 0;
+    };
     function activateSearch()
     {
         "use strict";
@@ -68,12 +72,18 @@
             var value = this.value;
             if(value.length > 0)
             {
-                if($("#lssm_aao_results > a[id^='aao_']:contains('"+value+"')").length == 0)
-                    $("a[id^='aao_']:contains('"+value+"')").clone().appendTo("#lssm_aao_results");
+                if($("#lssm_aao_results > a[id^='lssm_aao_']:containsci('"+value+"')").length == 0) {
+                    $("a[id^='aao_']:containsci('" + value + "')").each(function() {
+                        var id = this.id;
+                        var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
+                            $("#"+this.id.substring(5)).click();
+                        });
+                    });
+                }
                 $("#mission-aao-group div:not(.clearfix)").each(function() {
                     this.style.setProperty("display", "none");
                 });
-                $("#lssm_aao_results > a[id^='aao_']:not(:contains('"+value+"'))").remove();
+                $("#lssm_aao_results > a[id^='lssm_aao_']:not(:containsci('"+value+"'))").remove();
             }
             else
             {

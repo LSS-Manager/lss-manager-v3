@@ -62,7 +62,7 @@ var lssm = {
 $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
         options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = true;
+        options.cache = false;
     }
 });
 
@@ -958,8 +958,7 @@ var module = {
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
                     appstore.active_mods.push(module);
-                    //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
-                    lssm.loadScript(lssm.Module[module].source);
+                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
                 }
             }
         } catch (e) {
@@ -981,11 +980,16 @@ var module = {
     });
 
     function loadCore() {
+        var uid = "";
+        if (typeof user_id != "undefined")
+            var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "uid="+game + user_id+"&";
         // alle Settings die immer wieder benötigt werden
-        $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
-            .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
-        lssm.loadStyle("/lss-manager-v3/css/main.css");
-        lssm.loadScript("/lss-manager-v3/js/highcharts.min.js");
+        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?'+uid+'v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
+                .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+                .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
+                .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
+
         appstore.createDropDown();
         // laden der Einstellungen
         var modules = lssm_settings.get('Modules') || {};
