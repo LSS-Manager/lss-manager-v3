@@ -14,7 +14,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.1.9",
+        version: "3.2.0",
         github: 'https://github.com/',
         prefix: 'lssm'
     },
@@ -81,6 +81,7 @@ I18n.translations.de['lssm'] = {
     save: "Speichern",
     cantactivate: "kann nicht aktiviert werden, da es mit folgenden Modul(en) inkompatibel ist:",
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2><br>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
+    login: "Bitte zuerst anmelden",
     apps: {}
 };
 I18n.translations.en['lssm'] = {
@@ -95,6 +96,7 @@ I18n.translations.en['lssm'] = {
     save: "Save",
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
     cantload: "<h2>LSS-Manager could not be loaded</h2><br>Please contact a member of the development team.",
+    login: "Please log in first",
     apps: {}
 };
 I18n.translations.nl['lssm'] = {
@@ -969,42 +971,45 @@ var module = {
 
 
 (function (I18n, $) {
-    $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js', function (data) {
-        $('header').append('<script type="text/javascript">' + data + '</script>');
-    })
-    .fail(function () {
-        $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
-    })
-    .done(function () {
-        loadCore();
-    });
+    $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">');
+    appstore.createDropDown();
+    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</li><li class="divider"></li>');
+    // Only execute everything else if user is logged in
+    if (typeof user_id == "undefined") {
+        $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
+    } else {
+        $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js', function (data) {
+            $('header').append('<script type="text/javascript">' + data + '</script>');
+        })
+            .fail(function () {
+                $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
+            })
+            .done(function () {
+                loadCore();
+            });
 
-    function loadCore() {
-        var uid = "";
-        if (typeof user_id != "undefined")
-            var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
-            uid = "uid="+game + user_id+"&";
-        // alle Settings die immer wieder benötigt werden
-        $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css?'+uid+'v='+lssm.config.version+'" rel="stylesheet" type="text/css">')
-                .append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+        function loadCore() {
+            var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+            var uid = "uid=" + game + user_id + "&";
+            // alle Settings die immer wieder benötigt werden
+            $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
 
-        appstore.createDropDown();
-        // laden der Einstellungen
-        var modules = lssm_settings.get('Modules') || {};
-        for (var i in modules) {
-            var modname = i.toString();
-            if ((modname in lssm.Module) === false) {
-                console.log(modname + " is not a valid app. Skipping.");
-                continue;
+            // laden der Einstellungen
+            var modules = lssm_settings.get('Modules') || {};
+            for (var i in modules) {
+                var modname = i.toString();
+                if ((modname in lssm.Module) === false) {
+                    console.log(modname + " is not a valid app. Skipping.");
+                    continue;
+                }
+                if (lssm.Module[i].active == false)
+                    lssm.Module[i].active = modules[i];
             }
-            if (lssm.Module[i].active == false)
-                lssm.Module[i].active = modules[i];
-        }
 
-        module.loadall();
-        appstore.appendAppstore();
-        $('#'+lssm.config.prefix+'_menu').prepend('<li class="menu-center">'+I18n.t('lssm.version')+': '+lssm.config.version+'</li><li class="divider"></li>');
-    }}
-)(I18n, jQuery);
+            module.loadall();
+            appstore.appendAppstore();
+        }
+    }
+})(I18n, jQuery);
