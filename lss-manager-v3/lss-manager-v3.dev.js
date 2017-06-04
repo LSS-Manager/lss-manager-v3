@@ -1009,9 +1009,7 @@ var module = {
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
     } else {
-        $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js', function (data) {
-            $('header').append('<script type="text/javascript">' + data + '</script>');
-        }, "text")
+        $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js')
             .fail(function () {
                 $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
             })

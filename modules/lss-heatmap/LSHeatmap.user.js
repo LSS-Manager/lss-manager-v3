@@ -110,7 +110,6 @@
     }
 
     function renderMapSettings(){
-        console.log(lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png"));
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append('<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="' + lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>');
         $('#ls-heatmap-config-img').on('click', function(){
             var wrapper = $('#ls-heatmap-config-wrapper');
@@ -239,9 +238,7 @@
             heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
         }
     }
-    $.get(lssm.getlink("/modules/lss-heatmap/vendor/leaflet-heat.js"), function (data) {
-        $('header').append('<script type="text/javascript">' + data + '</script>');
-    },"text")
+    $.get(lssm.getlink("/modules/lss-heatmap/vendor/leaflet-heat.js"))
     .fail(function () {
         console.log("LSHeatmap: Clouldn't load leaflet extension")
     })
