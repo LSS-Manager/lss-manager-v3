@@ -738,38 +738,69 @@ var appstore = {
     },
     // Erstellen der Pandels
     createModulePanels: function () {
-        var modulePanelHtml = '<div id="' + lssm.config.prefix + '_appstore_Module" class="' + lssm.config.prefix + '__appstore_hideForSettings">';
-        for (var i in lssm.Module) {
-            var mod = lssm.Module[i];
+        var panels = $('<div class="row">'+
+        '<div class="col-sm-4" id="apps_col_0"></div>'+
+        '<div class="col-sm-4" id="apps_col_1"></div>'+
+        '<div class="col-sm-4" id="apps_col_2"></div>'+
+        '</div>');
+        var col = 0;
+        // Get all the keys of the modules
+        var mods = $.map(lssm.Module, function(value, index) {
+            return [index];
+        });
+        // Sort the module keys
+        mods.sort(function (a,b){
+            "use strict";
+            var aName = I18n.t("lssm.apps."+a+".name").toLowerCase();
+            var bName = I18n.t("lssm.apps."+b+".name").toLowerCase();
+            return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+        });
+        for (var i in mods)
+        {
+            var mod = lssm.Module[mods[i]];
             // Do not show certain modules in the appstore
             if ('noapp' in mod && mod.noapp === true)
                 continue;
-            modulePanelHtml += '<div style="margin-top:10px;height: 190px!important;overflow-y:auto;" class="col-md-3 ' + (mod.develop ? 'lssm_module_develop' : '') + '"><div class="panel panel-default" style="display: inline-block;width:100%;">' +
+            var panel = $('<div style="margin-top:10px;"'+(mod.develop ? ' class="lssm_module_develop"' : '')+'">' +
+                '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
-                '<input class="onoffswitch-checkbox" id="lssm_modules_' + i + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + i + '"name="onoffswitch" type="checkbox">' +
-                '<label class="onoffswitch-label" for="lssm_modules_' + i + '"></label>' +
-                '</div>' +
+                '<input class="onoffswitch-checkbox" id="lssm_modules_' + mods[i] + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] + '"name="onoffswitch" type="checkbox">' +
+                '<label class="onoffswitch-label" for="lssm_modules_' + mods[i] + '"></label>' +
+                '</div>'+
                 '</span>' +
-                '<h4>' + I18n.t('lssm.apps.' + i.toString() + '.name') + '</h4>' +
-                '<small>' + I18n.t('lssm.apps.' + i.toString() + '.description') + '</small>' +
+                '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
+                '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') + '</small>' +
                 '</div>' +
                 '<div class="panel-footer">' +
-                '<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span></div>' +
+                '<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span>' +
                 '</div>' +
                 '</div>' +
-                '</div>';
+                '</div>');
+            panel.find("h4").on("click", function(){
+                "use strict";
+                var next = $(this).next();
+                if(next.is(":hidden"))
+                {
+                    next.slideDown("slow");
+                } else {
+                    next.slideUp("slow");
+                }
+            });
+            panels.find("#apps_col_"+col).append(panel);
+            col++;
+            if(col>2)
+                col = 0;
         }
-        modulePanelHtml += "</div>";
-        return modulePanelHtml;
+        return panels;
     },
 
     // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     createModuleMain: function () {
         var prefix = lssm.config.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div><nav class="navbar navbar-default navbar-static-top" role="navigation" id="lssm_appstore_settingsbar" style=""> <div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button></div><div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><!--<ul class="nav navbar-nav navbar-right"><li><a href="#"><span class="glyphicon glyphicon-ok"></span>ok</a></li></ul>--></div></div></nav></div>');
+        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div></div>');
         var self = this;
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
