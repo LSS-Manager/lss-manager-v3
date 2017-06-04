@@ -227,7 +227,6 @@
         }
 
         if(getSetting('heatmap-activated')){
-
             var entries = [];
             $(vehicles).each(function(){
                 var vehicle = this;
@@ -242,7 +241,7 @@
     }
     $.get(lssm.getlink("/modules/lss-heatmap/vendor/leaflet-heat.js"), function (data) {
         $('header').append('<script type="text/javascript">' + data + '</script>');
-    })
+    },"text")
     .fail(function () {
         console.log("LSHeatmap: Clouldn't load leaflet extension")
     })
