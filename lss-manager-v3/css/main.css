@@ -67,9 +67,9 @@ div#preloader {
   ) !important;
 }*/
 
-.lssm_module_develop > .panel-default {
+.lssm_module_develop > div {
   border: 1px red dashed !important;
-  opacity: .4
+  opacity: .4 !important;
 }
 
 .lssm_map_reload {
