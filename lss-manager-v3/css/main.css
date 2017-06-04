@@ -67,8 +67,8 @@ div#preloader {
   ) !important;
 }*/
 
-.lssm_module_develop .panel .panel-default {
-  border: 1px red dashed;
+.lssm_module_develop .panel {
+  border: 1px red dashed !important;
   opacity: .4
 }
 
