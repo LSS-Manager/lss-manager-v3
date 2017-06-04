@@ -5,14 +5,8 @@
                 case 68:
                     $("#mission_next_mission_btn")[0].click();
                     break;
-                case 87:
-                    $("#mission_alliance_share_btn")[0].click();
-                    break;
                 case 65:
                     $("#mission_previous_mission_btn")[0].click();
-                    break;
-                case 83:
-                    $(".alert_next").first().click();
                     break;
                 case 81:
                     $('a:contains("Sprechwunsch bearbeiten")')[0].click();
@@ -43,9 +37,6 @@
                     break;
                 case 70:
                     tellParent($('#lssm_searchEntryToggle').click());
-                    break;
-                case 27:
-                    tellParent(lightboxClose());
                     break;
             }
             return e.returnValue;
