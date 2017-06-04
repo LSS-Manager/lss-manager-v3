@@ -1,12 +1,3 @@
-// ==UserScript==
-// @name         Chat
-// @version      1.3
-// @description  Zeigt ein Popup an wenn eine neue Chatnachricht erscheint
-// @author       Mausmajor
-// @include      *://www.leitstellenspiel.de/
-// @exclude      *://www.leitstellenspiel.de/mission*
-// @grant        none
-// ==/UserScript==
 (function($,I18n){
     // Settings
     var settings = {
@@ -55,7 +46,7 @@
         clearTimeout(MainDivTimer);
         MainDivTimer = setTimeout(function(){
             $mainDiv.hide('slow');
-        },settings.delayTime); 
+        },settings.delayTime);
     }
     allianceChat = function(t){
         allianceChatBuffer(t);

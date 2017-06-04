@@ -72,6 +72,18 @@ div#preloader {
   opacity: .4
 }
 
+.lssm_map_reload {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  z-index: 9998;
+  float: left;
+  margin-left: 10px;
+  margin-top: 110px;
+  outline: none;
+  background-color: white;
+}
+
 #lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
   background-color: #f3ebee;
   color: #4a4a4a !important;
