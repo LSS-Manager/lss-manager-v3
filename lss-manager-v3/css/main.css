@@ -67,7 +67,7 @@ div#preloader {
   ) !important;
 }*/
 
-.lssm_module_develop .panel {
+.lssm_module_develop > div {
   border: 1px red dashed !important;
   opacity: .4
 }
