@@ -28,13 +28,13 @@
       '</style>'
     );
 
-    $('#btn-alliance-new-mission').parent().detach().insertAfter('.container-fluid');
+    $('#btn-alliance-new-mission').parent().detach().insertAfter('#missions .btn-group');
     $('#map_outer').removeClass('col-sm-8').addClass('col-sm-4');
     $('#missions_outer, #buildings_outer, #radio_outer, #chat_outer').removeClass('col-sm-4');
     $('#missions_outer').addClass('col-md-8');
     $('#buildings_outer').addClass('col-sm-3');
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
-    $('#eventInfo').detach().insertBefore('#missions-panel-body');
+    $('#eventInfo').detach().insertBefore('body .container-fluid');
     map.invalidateSize(true);
 })();
