@@ -72,7 +72,7 @@ I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de['lssm'] = {
     lssm: "LSS-Manager",
     version: "Beta",
-    appstore: "App Store",
+    appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leistellenspiel",
@@ -87,7 +87,7 @@ I18n.translations.de['lssm'] = {
 I18n.translations.en['lssm'] = {
     lssm: "LSS-Manager",
     version: "Beta",
-    appstore: "App Store",
+    appstore: "APPSTORE",
     appstore_welcome: "Welcome to the appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
@@ -773,9 +773,9 @@ var appstore = {
                 '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
                 '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') + '</small>' +
                 '</div>' +
-                '<div class="panel-footer">' +
-                '<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span>' +
-                '</div>' +
+                //'<div class="panel-footer">' +
+                //'<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span>' +
+                //'</div>' +
                 '</div>' +
                 '</div>');
             panel.find("h4").on("click", function(){
@@ -800,7 +800,44 @@ var appstore = {
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     createModuleMain: function () {
         var prefix = lssm.config.prefix + '_appstore';
-        var div = $('<div class="col-md-12 lssm_appstore" id="' + prefix + '"><div class="jumbotron"><h1>' + I18n.t('lssm.appstore') + '</h1><p>' + I18n.t('lssm.appstore_welcome') + '.</p><p>' + I18n.t('lssm.appstore_desc') + '</p> <br><p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close"><span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span></button></p><span class="pull-right"><small>MADE BY:</small>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-primary"><a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></span>&nbsp;<span class="label label-danger">Version 0.1</span></span></div></div>');
+        var div = $(
+          '<div class="col-md-12 lssm_appstore" id="' + prefix + '">'+
+            '<div class="jumbotron">'+
+              '<h1>' + I18n.t('lssm.appstore') + '</h1>'+
+              '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>'+
+              '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>'+
+              '<p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
+                '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>'+
+              '</button></p>'+
+              '<span class="pull-right"><small>MADE BY:</small>&nbsp;'+
+              '<span class="label label-primary">'+
+                '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;'+
+                '<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link">'+
+                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+                '</a>'+
+              '</span>&nbsp;'+
+              '<span class="label label-primary">'+
+                '<a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;'+
+                '<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link">'+
+                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+                '</a>'+
+              '</span>&nbsp;'+
+              '<span class="label label-primary">'+
+                '<a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;'+
+                '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link">'+
+                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+                '</a>'+
+              '</span>&nbsp;'+
+              '<span class="label label-primary">'+
+                '<a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;'+
+                '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link">'+
+                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+                '</a>'+
+              '</span>'+
+            '</div>'+
+          '</div>'
+        );
+
         var self = this;
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
