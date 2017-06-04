@@ -196,12 +196,9 @@ lssm.Module = {
             de: 'Einsatzmaske mit Tastatur steuern.',
             en: 'Control the mission view with the keyboard.',
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         develop: false,
         inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -216,11 +213,8 @@ lssm.Module = {
             de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen Fensters im Menu.',
             en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-layout-01/layout-01.user.js',
         develop: false,
-        version: 'v 1.5',
-        copyright: '@lostdesign',
         collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
             has: false,
@@ -239,8 +233,6 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
         develop: false,
-        version: 'v 1.1',
-        copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05'],
         settings: {
             has: false,
@@ -256,11 +248,8 @@ lssm.Module = {
             de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
             en: 'Layout without map. The four windows are using 100% of the given browser height.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-layout-03/layout-03.user.js',
         develop: false,
-        version: 'v 1.1',
-        copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap'],
         settings: {
             has: false,
@@ -276,11 +265,8 @@ lssm.Module = {
             de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
             en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
-        version: 'v 1.5',
-        copyright: '@lostdesign',
         collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
         settings: {
             has: false,
@@ -295,11 +281,8 @@ lssm.Module = {
         description: {
             de: 'Vollständig anpassbares Layout',
         },
-        ghuser: 'Tsumiki-Chan',
         source: '/modules/lss-layout-05/layout-05.user.js',
         develop: true,
-        version: 'v 1.0',
-        copyright: '@Northdegree',
         collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04'],
         settings: {
             has: false,
@@ -315,11 +298,8 @@ lssm.Module = {
             de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for each one.',
         },
-        ghuser: 'Mausmajor',
         source: '/modules/lss-MissionOut/MissionOut.user.js',
         develop: false,
-        version: 'v 1.4',
-        copyright: '@Mausmajor',
         settings: {
             has: false,
             function_code: ""
@@ -335,11 +315,8 @@ lssm.Module = {
             de: 'Funktion um sebst erstlle VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
         },
-        ghuser: 'Mausmajor',
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false,
-        version: 'v 1.1',
-        copyright: '@Mausmajor',
         settings: {
             has: false,
             function_code: ""
@@ -354,11 +331,8 @@ lssm.Module = {
             de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)',
             en: 'HTML5 Chatnotifications using the browser notificationsystem.',
         },
-        ghuser: 'DLRG-Dominik',
         source: '/modules/lss-notification_alert/Notification_alarm.user.js',
         develop: false,
-        version: 'v 2.0',
-        copyright: '@DLRG-Dominik / @Mausmajor',
         settings: {
             has: false,
             function_code: "NotificationAlarm_show_settings"
@@ -373,11 +347,8 @@ lssm.Module = {
             de: 'Neues Design für die Oberfläche',
             en: 'New design for the game.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-redesign-01/redesign-01.user.js',
         develop: false,
-        version: 'alpha-0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -393,11 +364,8 @@ lssm.Module = {
             de: 'Zeigt alle FMS 5 in der Karte an.',
             en: 'Shows request transports within the map lower left corner.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -413,11 +381,8 @@ lssm.Module = {
             de: 'Zeigt eine Uhr in der Karte an.',
             en: 'Enables a small clock within the map.',
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-clock/clock.user.js',
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -433,11 +398,8 @@ lssm.Module = {
             de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Gebäude sind wählbar.',
             en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for specific buildings.',
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -454,11 +416,8 @@ lssm.Module = {
             de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
             en: 'Got inplemented into the game - deactivated for now.',
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-tagMissions/tagMissions.user.js',
         develop: true,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -474,11 +433,8 @@ lssm.Module = {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en: 'Instantly share missions without opening the call by clicking a button in the overview.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false,
-        version: 'v 0.2',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -494,11 +450,8 @@ lssm.Module = {
             de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
             en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-searchMissions/searchMissions.user.js',
         develop: false,
-        version: 'v 0.2',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -514,12 +467,9 @@ lssm.Module = {
             de: 'Einsatzmaske mit Tastatur steuern.',
             en: 'Control the mission view with the keyboard.',
         },
-        ghuser: 'ChaosKai',
         source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
         develop: false,
         inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
-        version: 'v 0.1',
-        copyright: '@ChaosKai',
         settings: {
             has: false,
             function_code: ""
@@ -534,11 +484,8 @@ lssm.Module = {
             de: 'Dashboard',
             en: 'Dashboard'
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-dashboard/dashboard.user.js',
         develop: false,
-        version: 'v 0.5',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -554,11 +501,8 @@ lssm.Module = {
             de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en: 'Shows the code of vehciles on station hover on the map.',
         },
-        ghuser: 'lostdesign',
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
         develop: true,
-        version: 'v 0.1',
-        copyright: '@lostdesign',
         settings: {
             has: false,
             function_code: ""
@@ -574,12 +518,9 @@ lssm.Module = {
             de: 'Fahrzeuge in bulk mit Tags umbennenen.',
             en: 'Rename vehicles in bulk using tags.',
         },
-        ghuser: 'Mausmajor',
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
         inframe: true,
         develop: false,
-        version: 'v 0.2',
-        copyright: '@Mausmajor',
         settings: {
             has: false,
             function_code: ""
@@ -596,12 +537,9 @@ lssm.Module = {
             en: 'Sends data to the developer team for the purpose of creating a statistic',
             en: 'Stuurt gegevens naar het development team voor het doel van de schepping van een statistiek'
         },
-        ghuser: 'Tsumiki-Chan',
         source: '/modules/telemetry/telemetry.user.js',
         noapp: true, // Nicht im App-Store auflisten
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lss-manager',
         settings: {
             has: false,
             function_code: ""
@@ -615,12 +553,9 @@ lssm.Module = {
         description: {
             de: '-',
         },
-        ghuser: 'Tsumiki-Chan',
         source: '/modules/lss-mapReload/mapreload.user.js',
         noapp: true, // Nicht im App-Store auflisten
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lss-manager',
         settings: {
             has: false,
             function_code: ""
@@ -635,13 +570,10 @@ lssm.Module = {
         description: {
             de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an'
         },
-        ghuser: 'Mausmajor',
         source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lss-manager',
         settings: {
             has: false,
             function_code: ""
@@ -656,13 +588,10 @@ lssm.Module = {
         description: {
             de: 'Packt alle AAO\'s in ein durchsuchbares dropdown'
         },
-        ghuser: 'Tsumiki-Chan',
         source: '/modules/lss-aao-search/aao-search.user.js',
         noapp: false,
         inframe: true,
         develop: false,
-        version: 'v 0.1',
-        copyright: '@lss-manager',
         settings: {
             has: false,
             function_code: ""
@@ -678,13 +607,10 @@ lssm.Module = {
             de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
             en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS'
         },
-        ghuser: 'Tsumiki-Chan',
         source: '/modules/lss-recolor/recolor.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
         develop: true,
-        version: 'v 0.1',
-        copyright: '@Northdegree',
         settings: {
             has: false,
             function_code: ""
@@ -700,17 +626,34 @@ lssm.Module = {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.'
         },
-        ghuser: 'Jalibu',
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
         develop: false,
-        version: 'v 1.0',
-        copyright: '@Jalibu',
         settings: {
             has: false,
             function_code: ""
         }
+    },
+    missionTabs: {
+        name: {
+            de: 'Einsatztabs',
+            en: 'Missiontabs'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
+            en: 'Shows the missions in own dedicated tabs instead of filtering them.'
+        },
+        source: '/modules/lss-missionTabs/missionTabs.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        },
+        collisions: ['Layout04']
     }
 };
 
