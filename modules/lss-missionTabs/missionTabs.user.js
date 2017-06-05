@@ -46,7 +46,7 @@
             'SW (<span id="scriptSWCounter"></span>)</a>'+
           '</li>'+
           '<li>'+
-            '<a href="#" class="MissionOut" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>'+
+            '<a href="#" class="btn btn-xs btn-success MissionOut" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>'+
           '</li>'+
         '</ul>'+
       '</div>');
