@@ -840,23 +840,26 @@ var appstore = {
         }
         else
         {
+
+            $('#'+lssm.config.prefix + '_appstore_row').hide();
+            $('#content').show();
+            $('footer').show();
+            // Inform the user about activated modules.
             var activated = ""
             for (var m in action) {
                 module.load(action[m])
                 activated += I18n.t('lssm.apps.' + action[m] + '.name') +', ';
             }
             activated = activated.substring(0, activated.length-2);
-
-            $('#'+lssm.config.prefix + '_appstore_row').hide();
-            $('#content').show();
-            $('footer').show();
-
-            $("#content").before('<div class="alert alert-success alert-dismissable" id="lssm_activated_notify" style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.activated') + ' '+ activated +'</div>');
-            setTimeout(function () {
-                $("#lssm_activated_notify").slideUp("slow",function(){
-                    $("#lssm_activated_notify").remove();
-                });
-            }, 2000);
+            if(activated.length > 0)
+            {
+                $("#content").before('<div class="alert alert-success alert-dismissable" id="lssm_activated_notify" style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.activated') + ' '+ activated +'</div>');
+                setTimeout(function () {
+                    $("#lssm_activated_notify").slideUp("slow",function(){
+                        $("#lssm_activated_notify").remove();
+                    });
+                }, 2000);
+            }
         }
     },
 
