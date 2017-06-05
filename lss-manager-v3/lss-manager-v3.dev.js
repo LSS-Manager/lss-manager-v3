@@ -983,14 +983,14 @@ var module = {
 
 
 (function (I18n, $) {
-    $("head").prepend('<link href="' + lssm.config.server + '/lss-manager-v3/css/main.css" rel="stylesheet" type="text/css">');
+    $("head").prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +'" rel="stylesheet" type="text/css">');
     appstore.createDropDown();
     $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</li><li class="divider"></li>');
     // Only execute everything else if user is logged in
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
     } else {
-        $.get(lssm.config.server + '/lss-manager-v3/helperfunctions.js')
+        $.get(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
             .fail(function () {
                 $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
             })
@@ -1003,7 +1003,7 @@ var module = {
             var uid = "uid=" + game + user_id + "&";
             // alle Settings die immer wieder benötigt werden
             $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
-                .append('<script src="' + lssm.config.server + '/lss-manager-v3/js/highcharts.min.js" type="text/javascript"></script>')
+                .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
 
             // laden der Einstellungen
