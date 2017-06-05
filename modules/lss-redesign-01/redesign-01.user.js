@@ -136,6 +136,10 @@
         'border-radius: 3px;'+
         'margin-bottom: 5px'+
       '}'+
+      '.navbar-icon {'+
+        'width: 19px;'+
+        'height: 19px'+
+      '}'+
     '</style>');
 })();
 
