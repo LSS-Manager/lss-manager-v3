@@ -278,7 +278,8 @@
     try{
       missionString += eval(missionName);
     }catch(err){
-      missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
+      missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;
+    }
       info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
 
       document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
