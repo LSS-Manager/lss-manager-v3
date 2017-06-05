@@ -13,7 +13,7 @@
   $('body').prepend(
     '<style type="text/css" id="lss-redesign-01">'+
       'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
-        'display:none;'+
+        'display:none !important;'+
       '}'+
       'div[id^="mission_bar_outer_"],div[id^="patient_bar_outer_"]{'+
         'margin-bottom: 0px !important;'+
@@ -152,7 +152,7 @@
         'background-color: #dff0d8 !important;'+
         'border-color: #d6e9c6 !important'+
       '}'+
-      '.mission_vehicle_state, .logoSmall{'+
+      '.mission_vehicle_state, .logoSmall, .building_marker_image{'+
         'width:22px;'+
         'display:inline-block !important;'+
       '}'+
