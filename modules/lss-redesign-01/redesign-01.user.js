@@ -1,15 +1,15 @@
-(function ($, win) {
+(function ($) {
   $('head').prepend('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>');
   $('head').prepend('<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" type="text/css" rel="stylesheet"/>');
   //$('.missionSideBarEntry > div > div > div > .col-xs-1 > img').detach().insertBefore('.panel-heading');
-  var missionMarkerAddBuffer = win.missionMarkerAdd;
+  var missionMarkerAddBuffer = missionMarkerAdd;
 
-  win.missionMarkerAdd = function (t) {
+  missionMarkerAdd = function (t) {
       missionMarkerAddBuffer(t);
       var $header = $('#mission_panel_heading_' + t.id);
       create($header, t.id, $('#mission_vehicle_state_' + t.id).clone());
   };
-  
+
   missionMarkerAdd();
 
   $('body').prepend(
@@ -183,7 +183,7 @@
       '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
-})($, win);
+})($);
 
 
 /*
