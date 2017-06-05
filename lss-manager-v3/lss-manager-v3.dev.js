@@ -80,6 +80,7 @@ I18n.translations.de['lssm'] = {
     saving: "Speichere...",
     save: "Speichern",
     cantactivate: "kann nicht aktiviert werden, da es mit folgenden Modul(en) inkompatibel ist:",
+    activated: "Folgende Module wurden aktiviert:",
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
     apps: {}
@@ -94,6 +95,7 @@ I18n.translations.en['lssm'] = {
     settings: "Settings",
     saving: "Saving...",
     save: "Save",
+    activated: "Following Modules have been activated:",
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
     cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
@@ -782,25 +784,27 @@ var appstore = {
           '</div>'
         );
 
-        var self = this;
+        div.on('click', '#' + prefix + '_close', function () {
+            appstore.closeAppstore();
+        });
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
-            if (e.checked && !self.canActivate(lssm.Module[e.value])) {
+            if (e.checked && !appstore.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in lssm.Module[e.value].collisions) {
                     var c = lssm.Module[e.value].collisions[c];
-                    if (self.active_mods.indexOf(c) != -1)
+                    if (appstore.active_mods.indexOf(c) != -1)
                         warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
                 }
                 alert(warn);
                 return;
             }
-            if (e.checked) {
-                self.active_mods.push(e.value);
-            } else {
-                self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
-            }
+            if (!$(e).is(":checked")) {
+                var index = appstore.active_mods.indexOf(e.value);
+                if (index != -1)
+                    appstore.active_mods = appstore.active_mods.splice(index, 1);
+            } else appstore.active_mods.push(e.value);
             lssm.Module[e.value].active = e.checked;
         });
         div.append(this.createModulePanels());
@@ -821,10 +825,8 @@ var appstore = {
         settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
             content.hide().after(div);
+            $('#'+lssm.config.prefix + '_appstore_row').show();
             $('footer').hide();
-            $('#' + prefix + '_close').click(function () {
-                self.closeAppstore();
-            });
         });
         // einhängen des Buttons in der Navi
         $('#' + lssm.config.prefix + '_menu').append(settingButton);
@@ -834,16 +836,27 @@ var appstore = {
         var action = this.checkModChanges();
         module.saveall();
         if(action == "Reload") {
-            console.log("reload");
             location.reload();
         }
         else
         {
-            for (var m in action)
-                module.load(action[m]);
-            $('#'+lssm.config.prefix + '_appstore_row').remove();
+            var activated = ""
+            for (var m in action) {
+                module.load(action[m])
+                activated += I18n.t('lssm.apps.' + action[m] + '.name') +', ';
+            }
+            activated = activated.substring(0, activated.length-2);
+
+            $('#'+lssm.config.prefix + '_appstore_row').hide();
             $('#content').show();
             $('footer').show();
+
+            $("#content").before('<div class="alert alert-success alert-dismissable" id="lssm_activated_notify" style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.activated') + ' '+ activated +'</div>');
+            setTimeout(function () {
+                $("#lssm_activated_notify").slideUp("slow",function(){
+                    $("#lssm_activated_notify").remove();
+                });
+            }, 2000);
         }
     },
 
@@ -853,7 +866,6 @@ var appstore = {
      */
     checkModChanges: function() {
         "use strict";
-        //this.active_mods
         var activated = [];
         var deactivated = [];
         var modules = lssm_settings.get("Modules", {});
