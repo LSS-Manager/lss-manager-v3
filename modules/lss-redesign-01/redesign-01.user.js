@@ -6,7 +6,7 @@
         'display:none;'+
       '}'+
       'div[id^="mission_bar_outer_"]{'+
-        'margin-bottom: 0px !important'
+        'margin-bottom: 0px !important'+
       '}'+
       '#mission_chat_messages, .building_list_vehicles {'+
         'padding: 0 !important;'+
