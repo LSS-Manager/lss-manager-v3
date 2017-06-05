@@ -156,7 +156,7 @@
       '#map {'+
         'height: 550px;'+
       '}'+
-      '.missions-panel-body {'+
+      '#missions-panel-body {'+
         'height: 528px;'+
         'overflow-x: hidden;'+
         'overflow-y: scroll;'+
@@ -165,6 +165,7 @@
       '}'+
       '.navbar-default .dropdown-menu{'+
         'background-color:#c9302c;'+
+        'color: white !important;'+
       '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
