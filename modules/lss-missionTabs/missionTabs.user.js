@@ -62,4 +62,20 @@
     scriptTabContent.append('<div class="tab-pane" id="scriptSw"><div id="mission_list_sicherheitswache"' +
         ' style="padding-left:0">' + missionListSicherheitswache + '</div></div>');
 
+    function showMissionCounterInTab() {
+    var missionsBtn = $('#missions').find('.btn-group');
+    var toReplace = [
+        'scriptEmergencyCounter',
+        'scriptTransportCounter',
+        'scriptAllianceCounter',
+        'scriptEventsCounter',
+        'scriptSWCounter'
+    ];
+    for (var key in toReplace) {
+        if (toReplace.hasOwnProperty(key)) {
+            $('#'+ toReplace[key]).html(missionsBtn.find('a:eq('+ key +')').html().replace(')', '').split('(')[1]);
+        }
+    }
+  }
+  showMissionCounterInTab();
 })($);
