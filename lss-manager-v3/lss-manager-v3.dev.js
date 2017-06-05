@@ -62,7 +62,7 @@ var lssm = {
 $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
         options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = true;
+        options.cache = false;
     }
 });
 
@@ -483,8 +483,8 @@ lssm.Module = {
             de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en: 'Shows the code of vehciles on station hover on the map.',
         },
-        source: '/modules/lss-WachenHoverStati/WachenHoverStati.js',
-        develop: true,
+        source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
+        develop: false,
         settings: {
             has: false,
             function_code: ""

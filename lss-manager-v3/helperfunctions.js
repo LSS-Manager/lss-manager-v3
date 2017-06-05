@@ -30,7 +30,7 @@ function car_list_all() {
 function car_list_printable(list) {
     var data = "";
     $.each(list, function (key, car) {
-        data += "<br>&nbsp;&nbsp;&nbsp;<span class='building_list_fms building_list_fms_" + car.fms + "'>" + car.fms + "</span> " + car.name;
+        data += "<div style=\"margin-top: 3px;\"><span class='building_list_fms building_list_fms_" + car.fms + "'>" + car.fms + "</span> " + car.name +"</div>";
     });
     return data;
 }
