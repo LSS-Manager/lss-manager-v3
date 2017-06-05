@@ -45,9 +45,10 @@
             '<a href="#scriptSw" data-toggle="tab">'+
             'SW (<span id="scriptSWCounter"></span>)</a>'+
           '</li>'+
-          '<li>'+
-            '<a href="#" class="btn btn-xs btn-success MissionOut" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>'+
-          '</li>'+
+          // TODO ADD MISSIONOUT TO TABS
+          //'<li>'+
+          //  '<a href="#" class="btn btn-xs btn-success MissionOut" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>'+
+          //'</li>'+
         '</ul>'+
       '</div>');
     scriptMissionTab.append('<div class="tab-content" id="scriptTabContent"></div>');
