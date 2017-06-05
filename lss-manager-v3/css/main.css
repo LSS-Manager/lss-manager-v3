@@ -219,6 +219,11 @@ div#preloader {
   border-radius: 10px;
 }
 
+.lssm_tabMenu {
+  border-radius: 4px;
+  padding: 4px 8px;
+  border:none !important;
+}
 .lssm_wachen_selector {
   display: flex;
   margin: 2px;

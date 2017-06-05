@@ -26,23 +26,23 @@
       '<div id="scriptMissionMenu">' +
         '<ul class="nav nav-tabs small" style="padding-left:0">' +
           '<li class="active">'+
-            '<a href="#scriptEmergencies" data-toggle="tab">'+
+            '<a href="#scriptEmergencies" data-toggle="tab" class="lssm_tabMenu">'+
             'NF (<span id="scriptEmergencyCounter"></span>)</a>'+
           '</li>' +
           '<li>'+
-            '<a href="#scriptTransports" data-toggle="tab">'+
+            '<a href="#scriptTransports" data-toggle="tab" class="lssm_tabMenu">'+
             'KTP (<span id="scriptTransportCounter"></span>)</a>'+
           '</li>' +
           '<li>'+
-            '<a href="#scriptAlliances" data-toggle="tab">'+
+            '<a href="#scriptAlliances" data-toggle="tab" class="lssm_tabMenu">'+
             'VE (<span id="scriptAllianceCounter"></span>)</a>'+
           '</li>' +
           '<li>'+
-            '<a href="#scriptEvents" data-toggle="tab">'+
+            '<a href="#scriptEvents" data-toggle="tab" class="lssm_tabMenu">'+
             'EVT (<span id="scriptEventsCounter"></span>)</a>'+
           '</li>' +
           '<li>'+
-            '<a href="#scriptSw" data-toggle="tab">'+
+            '<a href="#scriptSw" data-toggle="tab" class="lssm_tabMenu">'+
             'SW (<span id="scriptSWCounter"></span>)</a>'+
           '</li>'+
           // TODO ADD MISSIONOUT TO TABS
