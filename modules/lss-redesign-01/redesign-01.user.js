@@ -1,6 +1,7 @@
 (function () {
   $('head').prepend('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>');
   $('head').prepend('<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" type="text/css" rel="stylesheet"/>');
+  $('.missionSideBarEntry > div > div > div > .col-xs-1 > img').detach().insertBefore('.panel-heading');
   $('body').prepend(
     '<style type="text/css" id="lss-redesign-01">'+
       'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
@@ -166,6 +167,9 @@
       '.navbar-default .dropdown-menu{'+
         'background-color:#c9302c;'+
         'color: white !important;'+
+      '}'+
+      '.dropdown-menu>li>a {'+
+        'color:white !important'+
       '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
