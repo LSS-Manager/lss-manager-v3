@@ -140,6 +140,11 @@
         'width: 19px;'+
         'height: 19px'+
       '}'+
+      '.panel-success > .panel-heading {'+
+        'color: #3c763d;'+
+        'background-color: #dff0d8;'+
+        'border-color: #d6e9c6'+
+      '}'+
     '</style>');
 })();
 
