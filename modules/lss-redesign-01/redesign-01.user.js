@@ -10,7 +10,7 @@
       'div[id^="mission_bar_outer_"]{'+
         'margin-bottom: 0px !important'+
       '}'+
-      '#mission_chat_messages, .building_list_vehicles {'+
+      '#mission_chat_messages, .building_list_vehicles, #building_list {'+
         'padding: 0 !important;'+
       '}'+
       '#mission_chat_messages li, .building_list_li, .building_list_vehicle_element {'+
@@ -18,9 +18,7 @@
       '}'+
       'div[id^="mission_missing_"]{'+
         'margin-bottom: 0px !important;'+
-        'margin-top: 10px !important;'+
         'font-size: 11px !important;'+
-        'padding: 10px !important;'+
       '}'+
       '.panel-heading {'+
         'background-color: #fff !important;'+
@@ -140,10 +138,13 @@
         'width: 19px;'+
         'height: 19px'+
       '}'+
-      '.panel-success > .panel-heading {'+
-        'color: #3c763d;'+
-        'background-color: #dff0d8;'+
-        'border-color: #d6e9c6'+
+      '.panel-success > .panel-heading, .panel-success > .panel-body {'+
+        'color: #3c763d !important;'+
+        'background-color: #dff0d8 !important;'+
+        'border-color: #d6e9c6 !important'+
+      '}'+
+      '.mission_vehicle_state{'+
+        'width:25px'+
       '}'+
     '</style>');
 })();
