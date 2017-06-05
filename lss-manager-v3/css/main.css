@@ -220,8 +220,8 @@ div#preloader {
 }
 
 .lssm_tabMenu {
-  border-radius: 4px;
-  padding: 4px 8px;
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
   border:none !important;
 }
 .lssm_wachen_selector {
