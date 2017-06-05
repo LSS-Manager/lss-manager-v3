@@ -48,6 +48,9 @@ div#preloader {
 #map_outer {
   border:1px solid #bdbdbd;
   border-radius:5px;
+  padding: 0;
+  margin-left: 15px;
+  width: calc(66.66666667% - 30px);
 }
 
 /* ##################################################
