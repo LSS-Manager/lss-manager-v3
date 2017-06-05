@@ -163,6 +163,9 @@
         'margin-bottom: 10px;'
         'padding: 0 20px 0 0'+
       '}'+
+      '.navbar-default .dropdown-menu{'+
+        'background-color:#c9302c;'+
+      '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
 })();
