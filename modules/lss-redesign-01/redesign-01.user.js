@@ -7,7 +7,7 @@
   missionMarkerAdd = function (t) {
       missionMarkerAddBuffer(t);
       var $header = $('#mission_panel_heading_' + t.id);
-      create($header, t.id, $('#mission_vehicle_state_' + t.id).clone());
+      $('#mission_vehicle_state_' + t.id).detach().insertBefore($header);
   };
 
   $('body').prepend(
