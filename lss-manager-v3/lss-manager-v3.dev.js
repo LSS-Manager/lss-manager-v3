@@ -654,6 +654,25 @@ lssm.Module = {
             function_code: ""
         },
         collisions: ['Layout04']
+    },
+    missionHelper: {
+        name: {
+            de: 'Einsatzhelfer',
+            en: 'Missionhelper'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt benötigte Fahrzeuge an!.',
+            en: 'Shows required vehicles in mission mask.'
+        },
+        source: '/modules/lss-missionHelper/missionHelper.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     }
 };
 
