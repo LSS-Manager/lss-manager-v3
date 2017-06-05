@@ -1,7 +1,7 @@
 (function () {
     $('body').prepend(
       '<style type="text/css" id="lss-layout-03-style">'+
-      '#map_outer{height:calc(100vh - 90px)!important;padding-left:0!important;padding-right:0!important;margin-left:20px}'+
+      '#map_outer{height:calc(100vh - 90px)!important;padding-left:0!important;padding-right:0!important;margin-left:20px;width: 33.33333333% !important;}'+
       '#missions_outer{height:49vh!important;padding-left:0;width:calc(66.66666667% - 30px);margin-left:10px;padding-right:10px}'+
       '#missions-panel-body{height:calc(49vh - 45px)!important;display:flex;padding:0!important;margin-right:-10px!important}'+
       'div[id^=mission_list]{display:inline-block;width:100% !important;padding:10px;overflow:scroll}'+
