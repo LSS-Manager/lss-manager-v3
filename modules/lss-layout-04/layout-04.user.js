@@ -28,6 +28,7 @@
       '</style>'
     );
 
+    //dis got fixd plis cache deliver dis.....
     $('#btn-alliance-new-mission').parent().detach().insertAfter('#missions .btn-group').addClass('pull-right');
     $('#map_outer').removeClass('col-sm-8').addClass('col-sm-4');
     $('#missions_outer, #buildings_outer, #radio_outer, #chat_outer').removeClass('col-sm-4');
