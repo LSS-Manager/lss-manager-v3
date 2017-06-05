@@ -267,7 +267,7 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05', 'missionTabs'],
         settings: {
             has: false,
             function_code: ""
