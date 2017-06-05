@@ -7,8 +7,9 @@
       'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
         'display:none;'+
       '}'+
-      'div[id^="mission_bar_outer_"]{'+
-        'margin-bottom: 0px !important'+
+      'div[id^="mission_bar_outer_"],div[id^="patient_bar_outer_"]{'+
+        'margin-bottom: 0px !important;'+
+        'height: 10px !important;'+
       '}'+
       '#mission_chat_messages, .building_list_vehicles, #building_list {'+
         'padding: 0 !important;'+
