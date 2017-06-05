@@ -224,6 +224,12 @@ div#preloader {
   padding: 4px 8px !important;
   border:none !important;
 }
+
+#scriptMissionMenu ul{
+    border:none !important;
+    margin-bottom: 2px;
+}
+
 .lssm_wachen_selector {
   display: flex;
   margin: 2px;
