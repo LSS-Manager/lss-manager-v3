@@ -10,8 +10,6 @@
       create($header, t.id, $('#mission_vehicle_state_' + t.id).clone());
   };
 
-  missionMarkerAdd();
-
   $('body').prepend(
     '<style type="text/css" id="lss-redesign-01">'+
       'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
