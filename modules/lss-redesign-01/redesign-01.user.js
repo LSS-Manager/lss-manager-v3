@@ -147,6 +147,10 @@
       '.mission_vehicle_state{'+
         'width:25px'+
       '}'+
+      '.missionSideBarEntry > div > .panel-body{'+
+        'padding:15px;'+
+        'padding-top:0px;'+
+      '}'+
     '</style>');
 })();
 
