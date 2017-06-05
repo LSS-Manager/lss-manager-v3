@@ -272,41 +272,39 @@
   var EingestürztesWohnhaus ="2x GKW (100%)</br>2x LKW K9 (100%)</br>2x BRmG R (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (30%)</br>1x Einsatzleitwagen (100%)</br>1x Feuerwehrkran (75%)</br>1x Rüstwagen (100%)</br>2x Funkstreifenwagen (100%)";
 
   function addInfo(missionName) {
-      var info = document.createElement('div');
-      info.className = "alert alert-warning";
-      var missionString = "";
-      try{
+    var info = document.createElement('div');
+    info.className = "alert alert-warning";
+    var missionString = "";
+    try{
       missionString += eval(missionName);
-      }catch(err){
-          missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
+    }catch(err){
+      missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;    }
       info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
 
-       document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
+      document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
 
-  }
+    }
 
-  function Normalize(missionname){
-  var longname = missionname;
+    function Normalize(missionname){
+      var longname = missionname;
       var short = longname.innerHTML.trim().split("\n");
       for(var i = 0; i<short.length;i++){
-          var current = ""+short[i].toString();
-      if(current.search('<') != -1 || current === "" || !(/\S/.test(current))){
-         short.splice(i,1);
+        var current = ""+short[i].toString();
+        if(current.search('<') != -1 || current === "" || !(/\S/.test(current))){
+          short.splice(i,1);
           i--;
-         }
+        }
       }
       var shortendname = short[0].trim().replace(/\s/g,'').replace(/[(]/g,'').replace(/[)]/g,'').replace(/[-]/g,'').replace("Brandmeldeanlage","");
       if(shortendname === "Volkslauf"||shortendname === "Dorf/Stadtfest"||shortendname === "BrandsicherheitswachdienstimTheater"||shortendname === "BrandsicherheitswachebeiVolksfest"||shortendname === "AngemeldeteDemonstration"||shortendname === "AbsicherungMusikumzug"||shortendname === "AbsicherungRadrennen"||shortendname === "FeuerprobealarmanSchule"||shortendname === "EntschärfungvonWeltkriegsbombe"||shortendname === "Verkehrsüberwachung"||shortendname === "AbsicherungRockkonzert"||shortendname === "Schwertransport" || shortendname ==="HasentreffeninOstereistedt"){
-       return "nope";
+        return "nope";
       }
       return shortendname;
-  }
+    }
 
+    var missionname = Normalize(document.getElementById("missionH1"));
+    if(missionname != "nope"){
+      addInfo(missionname);
+    }
 
-
-      var missionname = Normalize(document.getElementById("missionH1"));
-      if(missionname != "nope"){
-          addInfo(missionname);
-
-
-})();
+  })();
