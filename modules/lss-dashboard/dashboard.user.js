@@ -50,7 +50,7 @@ I18n.translations.nl['lssm']['dashboard'] = {
     name: "Dashboard",
     loading: "Dashboard geladen"
 }
-I18n.locale = 'en';
+//I18n.locale = 'en';
 
 function loadGraphs() {
     // Building Bar Chart
