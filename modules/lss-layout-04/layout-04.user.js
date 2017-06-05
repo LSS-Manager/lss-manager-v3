@@ -1,4 +1,5 @@
 (function () {
+    $('#map_outer').removeClass('col-sm-8').addClass('col-sm-4');
     $('body').prepend(
       '<style type="text/css" id="lss-layout-03-style">'+
       '#map_outer{height:calc(100vh - 90px)!important;padding-left:0!important;padding-right:0!important;margin-left:20px;width: 33.33333333% !important;}'+
@@ -30,7 +31,7 @@
 
     //dis got fixd plis cache deliver dis.....
     $('#btn-alliance-new-mission').parent().detach().insertAfter('#missions .btn-group').addClass('pull-right');
-    $('#map_outer').removeClass('col-sm-8').addClass('col-sm-4');
+
     $('#missions_outer, #buildings_outer, #radio_outer, #chat_outer').removeClass('col-sm-4');
     $('#missions_outer').addClass('col-md-8');
     $('#buildings_outer').addClass('col-sm-3');
