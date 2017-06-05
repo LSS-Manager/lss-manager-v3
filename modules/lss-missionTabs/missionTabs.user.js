@@ -22,7 +22,7 @@
     missionListDiv.before('<div id="scriptMissionTab"></div>');
     scriptMissionTab = $('#scriptMissionTab');
 
-    missionDiv.find('strong:eq(0)').append('<div id="scriptMissionMenu">' +
+    missionDiv.find('strong:eq(0)').insertBefore('<div id="scriptMissionMenu">' +
         '<ul class="nav nav-tabs small" style="padding-left:0">' +
         '<li class="active"><a href="#scriptEmergencies" data-toggle="tab">NF (<span id="scriptEmergencyCounter"></span>)</a></li>' +
         '<li><a href="#scriptTransports" data-toggle="tab">KTP (<span id="scriptTransportCounter"></span>)</a></li>' +
