@@ -22,27 +22,13 @@
     missionListDiv.before('<div id="scriptMissionTab"></div>');
     scriptMissionTab = $('#scriptMissionTab');
 
-    missionDiv.find('strong:eq(0)').append(
-      '<div id="scriptMissionMenu">' +
+    missionDiv.find('strong:eq(0)').append('<div id="scriptMissionMenu">' +
         '<ul class="nav nav-tabs small" style="padding-left:0">' +
-          '<li class="active"><a href="#scriptEmergencies" data-toggle="tab">'+
-            'NF (<span id="scriptEmergencyCounter"></span>)'+
-          '</a></li>' +
-          '<li><a href="#scriptTransports" data-toggle="tab">'+
-            'KTP (<span id="scriptTransportCounter"></span>)'+
-          '</a></li>' +
-          '<li><a href="#scriptAlliances" data-toggle="tab">'+
-            'VE (<span id="scriptAllianceCounter"></span>'+
-          ')</a></li>' +
-          '<li><a href="#scriptEvents" data-toggle="tab">'+
-            'EVT (<span id="scriptEventsCounter"></span>)'+
-          '</a></li>' +
-          '<li><a href="#scriptSw" data-toggle="tab">'+
-            'SW (<span id="scriptSWCounter"></span>)'+
-          '</a></li>'+
-        '</ul>'+
-      '</div>'
-    );
+        '<li class="active"><a href="#scriptEmergencies" data-toggle="tab">NF (<span id="scriptEmergencyCounter"></span>)</a></li>' +
+        '<li><a href="#scriptTransports" data-toggle="tab">KTP (<span id="scriptTransportCounter"></span>)</a></li>' +
+        '<li><a href="#scriptAlliances" data-toggle="tab">VE (<span id="scriptAllianceCounter"></span>)</a></li>' +
+        '<li><a href="#scriptEvents" data-toggle="tab">EVT (<span id="scriptEventsCounter"></span>)</a></li>' +
+        '<li><a href="#scriptSw" data-toggle="tab">SW (<span id="scriptSWCounter"></span>)</a></li></ul></div>');
     scriptMissionTab.append('<div class="tab-content" id="scriptTabContent"></div>');
 
     missionList = missionListDiv.html();
@@ -75,27 +61,5 @@
     missionListSicherheitswacheDiv.remove();
     scriptTabContent.append('<div class="tab-pane" id="scriptSw"><div id="mission_list_sicherheitswache"' +
         ' style="padding-left:0">' + missionListSicherheitswache + '</div></div>');
-
-    function showMissionCounterInTab() {
-    var missionsBtn = $('#missions').find('.btn-group');
-    var toReplace = [
-        'scriptEmergencyCounter',
-        'scriptTransportCounter',
-        'scriptAllianceCounter',
-        'scriptEventsCounter',
-        'scriptSWCounter'
-    ];
-    for (var key in toReplace) {
-        if (toReplace.hasOwnProperty(key)) {
-            $('#'+ toReplace[key]).html(missionsBtn.find('a:eq('+ key +')').html().replace(')', '').split('(')[1]);
-        }
-    }
-  }
-
-  function fayeEvent() {
-    if (settings.missionTabs) {
-        showMissionCounterInTab();
-    }
-}
 
 })($);
