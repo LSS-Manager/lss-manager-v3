@@ -80,7 +80,7 @@ I18n.translations.de['lssm'] = {
     saving: "Speichere...",
     save: "Speichern",
     cantactivate: "kann nicht aktiviert werden, da es mit folgenden Modul(en) inkompatibel ist:",
-    cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2><br>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
+    cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
     apps: {}
 };
@@ -95,7 +95,7 @@ I18n.translations.en['lssm'] = {
     saving: "Saving...",
     save: "Save",
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
-    cantload: "<h2>LSS-Manager could not be loaded</h2><br>Please contact a member of the development team.",
+    cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
     apps: {}
 };

@@ -67,6 +67,8 @@ div#preloader {
   ) !important;
 }*/
 
+#missions > div > div > strong{display:none !important}
+
 .lssm_module_develop > div {
   border: 1px red dashed !important;
   opacity: .4 !important;
