@@ -457,24 +457,6 @@ lssm.Module = {
             function_code: ""
         }
     },
-    keyboard: {
-        name: {
-            de: 'Alarmmasken Steuerung',
-            en: 'Callview control'
-        },
-        active: false,
-        description: {
-            de: 'Einsatzmaske mit Tastatur steuern.',
-            en: 'Control the mission view with the keyboard.',
-        },
-        source: '/modules/lss-tastaturalarmierung/keyboard.user.js',
-        develop: false,
-        inframe: true, // Soll das Modul auch in iframes (mission, gebäude ...) geladen werden?
-        settings: {
-            has: false,
-            function_code: ""
-        }
-    },
     dashboard: {
         name: {
             de: 'Dashboard'
