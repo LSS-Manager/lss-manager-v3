@@ -62,7 +62,7 @@ var lssm = {
 $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
         options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = false;
+        options.cache = true;
     }
 });
 
@@ -796,12 +796,12 @@ var appstore = {
                 alert(warn);
                 return;
             }
-            lssm.Module[e.value].active = e.checked;
             if (e.checked) {
                 self.active_mods.push(e.value);
             } else {
                 self.active_mods.splice(self.active_mods.indexOf(e.value), 1);
             }
+            lssm.Module[e.value].active = e.checked;
         });
         div.append(this.createModulePanels());
         return div;
