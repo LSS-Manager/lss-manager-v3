@@ -1,7 +1,17 @@
-(function () {
+(function ($, win) {
   $('head').prepend('<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>');
   $('head').prepend('<link href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" type="text/css" rel="stylesheet"/>');
   //$('.missionSideBarEntry > div > div > div > .col-xs-1 > img').detach().insertBefore('.panel-heading');
+  var missionMarkerAddBuffer = win.missionMarkerAdd;
+
+  win.missionMarkerAdd = function (t) {
+      missionMarkerAddBuffer(t);
+      var $header = $('#mission_panel_heading_' + t.id);
+      create($header, t.id, $('#mission_vehicle_state_' + t.id).clone());
+  };
+  
+  missionMarkerAdd();
+
   $('body').prepend(
     '<style type="text/css" id="lss-redesign-01">'+
       'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
@@ -173,7 +183,7 @@
       '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
-})();
+})($, win);
 
 
 /*
