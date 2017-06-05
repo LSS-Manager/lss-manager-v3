@@ -160,7 +160,7 @@
         'height: 528px;'+
         'overflow-x: hidden;'+
         'overflow-y: scroll;'+
-        'margin-bottom: 10px;'
+        'margin-bottom: 10px;'+
         'padding: 0 20px 0 0'+
       '}'+
       '.navbar-default .dropdown-menu{'+
