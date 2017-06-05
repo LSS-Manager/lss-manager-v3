@@ -144,12 +144,15 @@
         'background-color: #dff0d8 !important;'+
         'border-color: #d6e9c6 !important'+
       '}'+
-      '.mission_vehicle_state{'+
+      '.mission_vehicle_state, .logoSmall{'+
         'width:25px'+
       '}'+
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
         'padding-top:0px;'+
+      '}'+
+      '.missionSideBarEntry > .panel {'+
+        'margin-bottom: 10px !important;'+
       '}'+
     '</style>');
 })();
