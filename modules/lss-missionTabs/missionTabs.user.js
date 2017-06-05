@@ -22,13 +22,34 @@
     missionListDiv.before('<div id="scriptMissionTab"></div>');
     scriptMissionTab = $('#scriptMissionTab');
 
-    missionDiv.find('strong:eq(0)').parent().append('<div id="scriptMissionMenu">' +
+    missionDiv.find('strong:eq(0)').parent().append(
+      '<div id="scriptMissionMenu">' +
         '<ul class="nav nav-tabs small" style="padding-left:0">' +
-        '<li class="active"><a href="#scriptEmergencies" data-toggle="tab">NF (<span id="scriptEmergencyCounter"></span>)</a></li>' +
-        '<li><a href="#scriptTransports" data-toggle="tab">KTP (<span id="scriptTransportCounter"></span>)</a></li>' +
-        '<li><a href="#scriptAlliances" data-toggle="tab">VE (<span id="scriptAllianceCounter"></span>)</a></li>' +
-        '<li><a href="#scriptEvents" data-toggle="tab">EVT (<span id="scriptEventsCounter"></span>)</a></li>' +
-        '<li><a href="#scriptSw" data-toggle="tab">SW (<span id="scriptSWCounter"></span>)</a></li></ul></div>');
+          '<li class="active">'+
+            '<a href="#scriptEmergencies" data-toggle="tab">'+
+            'NF (<span id="scriptEmergencyCounter"></span>)</a>'+
+          '</li>' +
+          '<li>'+
+            '<a href="#scriptTransports" data-toggle="tab">'+
+            'KTP (<span id="scriptTransportCounter"></span>)</a>'+
+          '</li>' +
+          '<li>'+
+            '<a href="#scriptAlliances" data-toggle="tab">'+
+            'VE (<span id="scriptAllianceCounter"></span>)</a>'+
+          '</li>' +
+          '<li>'+
+            '<a href="#scriptEvents" data-toggle="tab">'+
+            'EVT (<span id="scriptEventsCounter"></span>)</a>'+
+          '</li>' +
+          '<li>'+
+            '<a href="#scriptSw" data-toggle="tab">'+
+            'SW (<span id="scriptSWCounter"></span>)</a>'+
+          '</li>'+
+          '<li>'+
+            '<a href="#" class="btn btn-xs btn-success" title="Mission aus/ein-blenden"><i class="glyphicon glyphicon-eye-open"></i></a>'+
+          '</li>'+
+        '</ul>'+
+      '</div>');
     scriptMissionTab.append('<div class="tab-content" id="scriptTabContent"></div>');
 
     missionList = missionListDiv.html();
