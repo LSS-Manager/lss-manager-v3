@@ -154,6 +154,7 @@
       '}'+
       '.mission_vehicle_state, .logoSmall{'+
         'width:25px'+
+        'display:block !important;'+
       '}'+
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
