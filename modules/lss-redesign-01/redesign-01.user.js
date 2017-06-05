@@ -153,8 +153,8 @@
         'border-color: #d6e9c6 !important'+
       '}'+
       '.mission_vehicle_state, .logoSmall{'+
-        'width:25px;'+
-        'display:block !important;'+
+        'width:22px;'+
+        'display:inline-block !important;'+
       '}'+
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
