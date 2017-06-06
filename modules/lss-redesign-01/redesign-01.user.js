@@ -12,7 +12,7 @@
 
   $('body').prepend(
     '<style type="text/css" id="lss-redesign-01">'+
-      'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select, .glyphicon-user, .glyphicon-asterisk {'+
+      'img.vehicle_search, .map_position_mover small, #arrow_build_feuerwache, #arrow_location_select {'+
         'display:none !important;'+
       '}'+
       'div[id^="mission_bar_outer_"],div[id^="patient_bar_outer_"]{'+
@@ -133,6 +133,18 @@
           'background-color: #f58558;'+
           'color: black'+
       '}'+
+      '.building_list_fms_5 {'+
+        'background-color: #ff0000;'+
+        'color: white;'+
+        '-webkit-animation-name: blink;'+
+        'animation-name: blink;'+
+        '-webkit-animation-iteration-count: infinite;'+
+        'animation-iteration-count: infinite;'+
+        '-webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);'+
+        'animation-timing-function: cubic-bezier(1, 0, 0, 1);'+
+        '-webkit-animation-duration: 1s;'+
+        'animation-duration: 1s'+
+      '}'+
       '.building_list_fms_7 {'+
           'background-color: #ff8600;'+
           'color: black'+
@@ -199,6 +211,19 @@
       	'display: inline-block !important;'+
       	'background-color: rgb(255, 73, 5) !important;'+
       	'color: white !important;'+
+      '}'+
+      '@keyframes highlight {'+
+        '0% {background: rgba(0, 0, 0, 0)}'+
+        '50% {background: #62c462}'+
+        '100% {background: rgba(0, 0, 0, 0)}'+
+      '}'+
+      '@-webkit-keyframes "blink" {'+
+        '0% {background: #000000}'+
+        '100% {background: #ff0000}'+
+      '}'+
+      '@keyframes "blink" {'+
+        '0% {background: #000000}'+
+        '100% {background: #ff0000}'+
       '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
