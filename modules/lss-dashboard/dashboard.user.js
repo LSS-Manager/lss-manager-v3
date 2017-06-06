@@ -109,13 +109,11 @@ function loadGraphs() {
     {
         data_station.push(building_amount[ds[i]]);
     }
-    console.log(data_station);
     var ds = I18n.t('lssm.dashboard.categories_data_school');
     for (var i in ds)
     {
         data_school.push(building_amount[ds[i]]);
     }
-    console.log(data_school);
     $('#buildings_chart').highcharts({
         chart: {type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200'},
         colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow'],
