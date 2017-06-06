@@ -101,7 +101,7 @@
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
         mainDiv.append(html);
         var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
-        $('#vehicle_table tbody:first').prepend(tr);
+        $('#vehicle_table thead:first').append(tr);
         $('#' + prefix + '_buttons').click(function (e) {
             var input = document.getElementById(prefix + '_string'), start = input.selectionStart, end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);

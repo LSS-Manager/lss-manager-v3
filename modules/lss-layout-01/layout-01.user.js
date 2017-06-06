@@ -14,6 +14,7 @@
         '#lssm_layout01_menu div{margin-bottom:20px}'+
         '.lssm_menu_btn{padding:10px;background-color:#fff;border-radius:4px}'+
         '.lssm_menu_btn:hover{background-color:#fb3c35;cursor:pointer}'+
+        '.lssm_menu_btn:hover .lssm_menu_btn_svg {-webkit-filter:invert(100%) contrast(10);filter:invert(100%) contrast(10);cursor:pointer}'+
         '.lssm_menu_btn_active{padding:10px;background-color:#c9302c;border-radius:4px}'+
         '.lssm_menu_btn_active img,.lssm_menu_btn_svg:hover{-webkit-filter:invert(100%) contrast(10);filter:invert(100%) contrast(10)}'+
         '.lssm_menu_btn_svg{width:20px}#WachenplanungOnMap_settings{left:0!important}'+
@@ -66,7 +67,7 @@
         }
         allianceChatBuffer(e);
     });
-    
+
     $('#lss-layout-01-chat').click(function() {
         newMessages = 0;
         $('#lssm_messageAmount').text('');
