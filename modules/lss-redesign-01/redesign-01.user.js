@@ -228,7 +228,7 @@
         '0% {background: #000000}'+
         '100% {background: #ff0000}'+
       '}'+
-      'li[class^="radio_messages_important"],li[class^="radio_messages_important"] > span ,li[class^="radio_messages_important"] > a{'+
+      '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
         'font-size:11px;'+
       '}'+
     '</style>');
