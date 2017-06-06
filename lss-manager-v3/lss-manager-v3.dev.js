@@ -270,7 +270,7 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05', 'missionTabs'],
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
         settings: {
             has: false,
             function_code: ""
@@ -619,7 +619,7 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
-    },
+    },/*
     missionTabs: {
         name: {
             de: 'Einsatztabs',
@@ -639,7 +639,7 @@ lssm.Module = {
             function_code: ""
         },
         collisions: ['Layout04']
-    },
+    },*/
     missionHelper: {
         name: {
             de: 'Einsatzhelfer',
