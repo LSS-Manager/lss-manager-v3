@@ -118,7 +118,7 @@ function loadGraphs() {
     console.log(data_school);
     $('#buildings_chart').highcharts({
         chart: {type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200'},
-        colors: ["red", "orange", "green", "blue", "gold", 'black', 'white'],
+        colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow'],
         title: {text: I18n.t('lssm.dashboard.ge')},
         xAxis: {categories: I18n.t('lssm.dashboard.categories')},
         yAxis: {title: {text: I18n.t('lssm.dashboard.anz')}},
