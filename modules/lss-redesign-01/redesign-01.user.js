@@ -180,6 +180,26 @@
       '.dropdown-menu>li>a {'+
         'color:white !important'+
       '}'+
+      '#mission_chat_messages li {'+
+      	'padding: 5px;'+
+      	'color: #424242;'+
+      	'margin-bottom: 5px;'+
+      	'border: 2px solid #ddd;'+
+      	'border-radius: 5px;'+
+      '}'+
+      '#mission_chat_messages li span {'+
+      	'background: #eee;'+
+      	'display: block;'+
+      	'padding: 5px;'+
+      	'border-radius: 3px;'+
+      	'margin-bottom: 2px;'+
+      	'color: #424242;'+
+      '}'+
+      '.glyphicon-bell {'+
+      	'display: inline-block !important;'+
+      	'background-color: rgb(255, 73, 5) !important;'+
+      	'color: white !important;'+
+      '}'+
     '</style>');
     $("LINK[href*='/assets/application']").remove();
 })($);
