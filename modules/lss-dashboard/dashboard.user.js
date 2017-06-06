@@ -259,11 +259,12 @@ function load_build_planning() {
 					    ' + printcars + '\
 				    </div>\
                 </div>\
-                <div class="panel-footer" style="background-color:#fff;">\
-                    <a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
-                </div>\
 			</div>\
 		</div>';
+
+    /*<div class="panel-footer" style="background-color:#fff;">\
+        <a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
+    </div>\*/
         $("#wp_" + appendto).append(bd_data);
     });
 }
