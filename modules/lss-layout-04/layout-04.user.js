@@ -29,7 +29,6 @@
       '</style>'
     );
 
-    //dis got fixd plis cache deliver dis.....
     $('#btn-alliance-new-mission').parent().detach().insertAfter('#missions .btn-group').addClass('pull-right');
 
     $('#missions_outer, #buildings_outer, #radio_outer, #chat_outer').removeClass('col-sm-4');
@@ -37,6 +36,6 @@
     $('#buildings_outer').addClass('col-sm-3');
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
-    $('#eventInfo').detach().insertBefore('body .container-fluid');
+    $('#eventInfo').appendTo('#content');
     map.invalidateSize(true);
 })();

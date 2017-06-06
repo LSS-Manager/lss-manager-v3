@@ -230,9 +230,7 @@
       '}'+
     '</style>');
 
-    setTimeout(function(){
-      $("LINK[href*='/assets/application']").remove();
-    },200);
+    $("LINK[href*='/assets/application']").remove();
 })($);
 
 
