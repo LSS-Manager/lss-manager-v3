@@ -231,6 +231,9 @@
       '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
         'font-size:10px;'+
       '}'+
+      '#radio_messages_important li > span {'+
+        'max-width:2ch;'+
+      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();
