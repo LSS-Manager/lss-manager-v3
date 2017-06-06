@@ -229,7 +229,7 @@
         '100% {background: #ff0000}'+
       '}'+
       '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
-        'font-size:11px;'+
+        'font-size:10px;'+
       '}'+
     '</style>');
 
