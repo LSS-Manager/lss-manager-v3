@@ -29,6 +29,9 @@
         'margin-bottom: 0px !important;'+
         'font-size: 11px !important;'+
       '}'+
+      'div[id^="patients_missing_"]'+
+        'margin-bottom:0px !important'+
+      '}'+
       '.panel-heading {'+
         'background-color: #fff !important;'+
         'border:none !important;'+
@@ -226,7 +229,7 @@
         '100% {background: #ff0000}'+
       '}'+
     '</style>');
-    $("LINK[href*='/assets/application']").remove();
+    //$("LINK[href*='/assets/application']").remove();
 })($);
 
 
