@@ -246,16 +246,16 @@ function load_build_planning() {
                     </h3>\
 				</div>\
 				<div class="panel-body">\
-				    <div class="col-md-3" style="font-size: 1.5em;text-align:center;">';
+				    <div class="col-md-4" style="padding:0 !important; border-radius:6px; background:#333;">';
                         if (building.level != null)
-                            bd_data += '<span style="white-space:nowrap;"><i class="fa fa-level-up"></i> ' + building.level + '</span><br>';
+                            bd_data += '<span class="label label-default" style="border-radius: .25em 0 0 .25em;">STUFE:</span><span class="label label-danger" style="border-radius: 0 .25em .25em 0;">' + building.level + '</span><br>';
                         if (building.personal_count > 0)
-                            bd_data += '<span style="white-space:nowrap;"><i class="fa fa-users"></i> ' + building.personal_count + '</span><br>';
+                            bd_data += '<span class="label label-default" style="border-radius: .25em 0 0 .25em;">MITARBEITER:</span><span class="label label-info" style="border-radius: 0 .25em .25em 0;">' + building.personal_count + '</span><br>';
                         if (maxcars > 0)
-                            bd_data += '<span style="white-space:nowrap;"><i class="fa ' + icon3 + '"></i>  ' + vehicles.length + '/' + maxcars + '</span>';
+                            bd_data += '<span class="label label-default" style="border-radius: .25em 0 0 .25em;">FAHRZEUGE:</span><span class="label label-success" style="border-radius: 0 .25em .25em 0;">' + vehicles.length + '/' + maxcars + '</span><br>';
                 bd_data += '\
                     </div>\
-				    <div class="col-md-9 fz-body">\
+				    <div class="col-md-8 fz-body">\
 					    ' + printcars + '\
 				    </div>\
                 </div>\
