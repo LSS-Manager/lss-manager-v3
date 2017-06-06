@@ -19,10 +19,10 @@
         'margin-bottom: 0px !important;'+
         'height: 10px !important;'+
       '}'+
-      '#mission_chat_messages, .building_list_vehicles, #building_list {'+
+      '#mission_chat_messages, .building_list_vehicles, #building_list, #radio_messages_important {'+
         'padding: 0 !important;'+
       '}'+
-      '#mission_chat_messages li, .building_list_li, .building_list_vehicle_element {'+
+      '#mission_chat_messages li, .building_list_li, .building_list_vehicle_element, #radio_messages_important li {'+
         'list-style: none !important;'+
       '}'+
       'div[id^="mission_missing_"]{'+
