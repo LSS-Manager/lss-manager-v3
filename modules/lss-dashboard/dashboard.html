@@ -1,7 +1,7 @@
-<div id="dashboard_buttons">
+<div id="dashboard_buttons" style="width: 100%;padding: 15px;">
 </div>
 <!-- <i class="fa fa-circle" style="color:#e74c3c;"></i> -->
-<div id="wp_sub" class="btn-group">
+<div id="wp_sub" class="btn-group" stlye="margin-left:15px;">
 	<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">Feuerwehr</a>
 	<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">Rettungswache</a>
 	<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">Polizei</a>
@@ -57,25 +57,9 @@
   </div>
 </div>
 
-
-
-
-<!--<ul id="dashboard_tabs" class="nav nav-tabs" role="tablist" style="border:none;">
-	<li role="presentation" class="active"><a href="#" id="db_main">Dashboard</a></li>
-	<li role="presentation"><a href="#" id="db_wachen">Wachen-Planung</a></li>
-</ul>
-<ul id="wp_sub" class="nav nav-tabs" role="tablist" style="border:none;">
-	<li role="presentation"class="active"><a href="#" id="wp_a_fw">Feuerwehr</a></li>
-	<li role="presentation"><a href="#" id="wp_a_rd">Rettungswache</a></li>
-	<li role="presentation"><a href="#" id="wp_a_pol">Polizei</a></li>
-	<li role="presentation"><a href="#" id="wp_a_thw">THW</a></li>
-	<li role="presentation"><a href="#" id="wp_a_sch">Schulen</a></li>
-	<li role="presentation"><a href="#" id="wp_a_son">Sonstige</a></li>
-</ul>-->
-<br>
 	<!-- Wachenplanung -->
 	<div id="db_pages">
-		<div id="db_wachen_outer" style="display:none;">
+		<div id="db_wachen_outer" style="display:none;" class="container-fluid">
 			<div id="wp_fw"></div>
 			<div id="wp_rd" style="display:none;"></div>
 			<div id="wp_pol" style="display:none;"></div>
@@ -84,7 +68,7 @@
 			<div id="wp_son" style="display:none;"></div>
 		</div>
 		<!-- Fahrzeugplanung -->
-		<div id="db_fzg_outer" style="display:none;">
+		<div id="db_fzg_outer" style="display:none;" class="container-fluid">
 		<table class="table table-striped">
 			<thead>
 			</thead>
@@ -95,7 +79,7 @@
 		</table>
 		</div>
 		<div id="db_main_outer">
-			<div class="container-fluid col-md-12">
+			<div class="">
 				<!-- Gebäudeübersicht -->
 				<div class="col-md-12">
 					<div class="panel panel-default panel-chart pie" id="building-s_outer">
@@ -106,29 +90,9 @@
 						</div>
 					</div>
 				</div>
-				<!-- Notizbuch
-				<div class="col-md-4">
-					<div class="panel panel-default panel-chart pie">
-						<div class="panel-heading">
-							<h4 class="panel-title"><i class="fa fa-info"></i> Geplantes</h4>
-						</div>
-						<div class="panel-body">
-						- Notizbuch<br>
-						- Creditverdienst Wochen oder Monatsübersicht<br>
-						- Gruppierung der Wachen mit eingenem Filter<br>
-						- Notizen für die einzelnen Wachen<br>
-						- Drag & Drop für die Sortierung innerhalb einer Gruppierung<br>
-						- Fahrzeuge per FMS Status anzeigen<br>
-						- Responsive Mode<br>
-						- mehr folgt
-						</div>
-					</div>
-				</div>
-			</div>-->
-			<div class="container-fluid col-md-12">
-				<!-- Fahrzeugaufteilung -->
-				<div class="col-md-8">
 
+			<div class="col-md-12">
+				<!-- Fahrzeugaufteilung -->
 					<div class="panel panel-default panel-chart pie" id="fz-s_outer">
 						<div class="panel-heading">
 							<h3 class="panel-title"></h3>
@@ -164,7 +128,7 @@
 							</div>
 						</div>
 					</div>
-				</div><!-- Fahrzeuganzahl Ende -->
+
 
 			</div><!-- Dashboard Ende -->
 		</div>
