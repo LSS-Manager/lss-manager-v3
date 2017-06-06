@@ -250,24 +250,23 @@ function load_build_planning() {
                   ' + printcars + '\
                 </div>\
 				        <div class="col-md-4" style="padding:0 !important;">';
-                        if (building.level != null)
+                        /*if (building.level != null)
                             bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">STUFE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.level + '</span><br>';
                         if (building.personal_count > 0)
                             bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.personal_count + '</span><br>';
                         if (maxcars > 0)
-                            bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">FAHRZEUGE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + vehicles.length + '/' + maxcars + '</span>';
+                            bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">FAHRZEUGE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + vehicles.length + '/' + maxcars + '</span>';*/
                 bd_data += '\
                 </div>\
             </div>\
             <div class="panel-footer" style="background-color:#fff;">';
                 if (building.level != null)
-                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">STUFE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.level + '</span><br>';
+                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">STUFE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.level + '</span>&nbsp;';
                 if (building.personal_count > 0)
-                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.personal_count + '</span><br>';
+                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.personal_count + '</span>&nbsp;';
                 if (maxcars > 0)
                     bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">FAHRZEUGE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + vehicles.length + '/' + maxcars + '</span>';
                 bd_data += '\
-                <a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
             </div>\
 			</div>\
 		</div>';
