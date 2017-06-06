@@ -6,7 +6,7 @@
 		'#missions_outer{padding-left:15!important}'+
 		'#buildings_outer{padding-right:7.5px!important;padding-left:0!important}'+
 		'#chat_outer{padding-left:7.5px!important;padding-right:0!important}'+
-		'#radio_outer{padding-right:0; width: calc(25% - 30px) !important;}'+
+		'#radio_outer{padding-right:0; width: calc(25% - 15px) !important;}'+
 		'#map{height:400px}'+
 		'#missions-panel-body{padding:0;height:500px!important}'+
 		'#missions > div > div > strong{display:none}'+

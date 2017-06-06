@@ -3,7 +3,7 @@
       '<style rel="stylesheet" id="lss-layout-01" type="text/css">'+
         '#map,#missions-panel-body{height:100%!important}'+
         '#map_outer{top:0;width:70%;height:calc(100vh - 90px);padding:0}'+
-        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 90px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:scroll}'+
+        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 110px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:scroll}'+
         '#buildings_outer,#chat_outer,#radio_outer{display:none}'+
         '#missions-panel-body{padding:0!important}'+
         '#buildings_outer .panel-body{height:calc(100vh - 135px)!important;padding-bottom:0;max-height:100%!important}'+
@@ -67,7 +67,7 @@
         }
         allianceChatBuffer(e);
     };
-    
+
     $('#lss-layout-01-chat').click(function() {
         newMessages = 0;
         $('#lssm_messageAmount').text('');
