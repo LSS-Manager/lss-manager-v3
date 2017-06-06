@@ -25,7 +25,8 @@ var lssm = {
             if (typeof user_id != "undefined")
                 var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
             uid = "?uid="+game+user_id;
-            $('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
+            //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
+            $.getScript(this.config.server + link + uid);
         } catch (e) {
             console.log("On script load: "+e.message);
         }
@@ -37,7 +38,7 @@ var lssm = {
             if (typeof user_id != "undefined")
                 var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
             uid = "?uid="+game+user_id;
-            $('body').append('<link href="' + this.config.server + link + uid +'" rel="stylesheet" type="text/css">');
+            $('body').append('<link href="' + this.getlink(link) +'" rel="stylesheet" type="text/css">');
         } catch (e) {
             console.log("On script load: "+e.message);
         }
@@ -987,7 +988,8 @@ var module = {
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
                     appstore.active_mods.push(module);
-                    $('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
+                    //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
+                    $.getScript(lssm.getlink(lssm.Module[module].source));
                 }
             }
         } catch (e) {
@@ -1005,7 +1007,7 @@ var module = {
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
     } else {
-        $.get(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
+        $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
             .fail(function () {
                 $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
             })
