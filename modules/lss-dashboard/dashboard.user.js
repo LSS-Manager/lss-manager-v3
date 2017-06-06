@@ -235,7 +235,7 @@ function load_build_planning() {
                 break;
         }
         $.each(vehicles, function (k, car) {
-            printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '" style="border-radius: .25em 0 0 .25em; display:inline-block; margin-bottom:5px;">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms label-default" style="margin-left: -4px;border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;">' + car.name + '</a><br>';
+            printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '" style="border-radius: .25em 0 0 .25em; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms label-default" style="margin-left: -9px;border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.name + '</a><br>';
         });
         var bd_data = '\
 		<div class="db_wachen_item" id="db_wache_'+ building.id +'">\
@@ -246,13 +246,13 @@ function load_build_planning() {
                     </h3>\
 				</div>\
 				<div class="panel-body">\
-				    <div class="col-md-4" style="padding:0 !important; border-radius:6px; background:#333;">';
+				    <div class="col-md-4" style="padding:0 !important;">';
                         if (building.level != null)
-                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;">STUFE:</span><span class="building_list_fms label-danger" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;">' + building.level + '</span><br>';
+                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;">STUFE:</span><span class="building_list_fms label-danger" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + building.level + '</span><br>';
                         if (building.personal_count > 0)
-                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;">' + building.personal_count + '</span><br>';
+                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + building.personal_count + '</span><br>';
                         if (maxcars > 0)
-                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;">FAHRZEUGE:</span><span class="building_list_fms label-success" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;">' + vehicles.length + '/' + maxcars + '</span><br>';
+                            bd_data += '<span class="building_list_fms label-default" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">FAHRZEUGE:</span><span class="building_list_fms label-success" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + vehicles.length + '/' + maxcars + '</span><br>';
                 bd_data += '\
                     </div>\
 				    <div class="col-md-8 fz-body">\
