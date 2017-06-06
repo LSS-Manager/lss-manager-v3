@@ -228,6 +228,9 @@
         '0% {background: #000000}'+
         '100% {background: #ff0000}'+
       '}'+
+      'li[class^="radio_messages_important"],li[class^="radio_messages_important"] > span ,li[class^="radio_messages_important"] > a{'+
+        'font-size:11px;'+
+      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();
