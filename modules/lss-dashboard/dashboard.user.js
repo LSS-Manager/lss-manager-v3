@@ -235,7 +235,7 @@ function load_build_planning() {
                 break;
         }
         $.each(vehicles, function (k, car) {
-            printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '" style="border-radius: .25em 0 0 .25em; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms" style="color: #4a4a4a;border: 1px solid #4a4a4a;margin-left: -9px;border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.name + '</a><br>';
+            printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '" style="border-radius: .25em 0 0 .25em; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms" style="color: #4a4a4a;border: 1px solid #4a4a4a;margin-left: -9px;border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.name + '</a><br>';
         });
         var bd_data = '\
 		<div class="db_wachen_item" id="db_wache_'+ building.id +'">\
