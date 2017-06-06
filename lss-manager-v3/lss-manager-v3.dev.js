@@ -662,7 +662,6 @@ lssm.Module = {
 };
 
 var appstore = {
-    active_mods: [],
     /**
      * Checks if a module collides with other modules
      * @param mod
@@ -673,7 +672,7 @@ var appstore = {
         if ('collisions' in mod) {
             for (var c in mod.collisions) {
                 var c = mod.collisions[c];
-                if (this.active_mods.indexOf(c) != -1)
+                if (lssm.Module[c].active)
                     ca = false;
             }
         }
@@ -795,17 +794,12 @@ var appstore = {
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in lssm.Module[e.value].collisions) {
                     var c = lssm.Module[e.value].collisions[c];
-                    if (appstore.active_mods.indexOf(c) != -1)
+                    if (lssm.Module[c].active)
                         warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
                 }
                 alert(warn);
                 return;
             }
-            if (!$(e).is(":checked")) {
-                var index = appstore.active_mods.indexOf(e.value);
-                if (index != -1)
-                    appstore.active_mods = appstore.active_mods.splice(index, 1);
-            } else appstore.active_mods.push(e.value);
             lssm.Module[e.value].active = e.checked;
         });
         div.append(this.createModulePanels());
@@ -875,12 +869,10 @@ var appstore = {
         var modules = lssm_settings.get("Modules", {});
         for (var m in lssm.Module)
         {
-            // Wenn das Modul in modules true ist, aber nicht mehr in active_mods -> Wurde deaktiviert
-            // Wenn das Modul in modules false ist, aber in active_mods -> Wurde aktiviert
-            if (modules[m] && this.active_mods.indexOf(m) == -1) {
+            if (modules[m] && !lssm.Module[m].active) {
                 deactivated.push(m);
             }
-            else if ((!modules[m]) && this.active_mods.indexOf(m) != -1) {
+            else if ((!modules[m]) && lssm.Module[m].active) {
                 activated.push(m);
             }
         }
@@ -987,7 +979,6 @@ var module = {
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
-                    appstore.active_mods.push(module);
                     //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
                     $.getScript(lssm.getlink(lssm.Module[module].source));
                 }
