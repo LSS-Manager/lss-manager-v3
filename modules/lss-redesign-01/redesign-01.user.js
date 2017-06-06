@@ -229,7 +229,10 @@
         '100% {background: #ff0000}'+
       '}'+
     '</style>');
-    //$("LINK[href*='/assets/application']").remove();
+
+    setTimeout(function(){
+      $("LINK[href*='/assets/application']").remove();
+    },200);
 })($);
 
 
