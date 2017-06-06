@@ -231,8 +231,12 @@
       '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
         'font-size:10px;'+
       '}'+
-      '#radio_messages_important li > span {'+
-        'max-width:2ch;'+
+      '#radio_messages_important li > a {'+
+        'max-width: 25ch;'+
+        'overflow:hidden;'+
+      '}'+
+      '.dropdown-menu>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{'+
+        'background-color: rgb(177, 0, 0)'+
       '}'+
     '</style>');
 
