@@ -36,6 +36,6 @@
     $('#buildings_outer').addClass('col-sm-3');
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
-    $('#eventInfo').appendTo('#content');
+    $('#eventInfo').prependTo('#content');
     map.invalidateSize(true);
 })();

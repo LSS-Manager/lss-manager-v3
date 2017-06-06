@@ -215,21 +215,7 @@
       	'background-color: rgb(255, 73, 5) !important;'+
       	'color: white !important;'+
       '}'+
-      '@keyframes highlight {'+
-        '0% {background: rgba(0, 0, 0, 0)}'+
-        '50% {background: #62c462}'+
-        '100% {background: rgba(0, 0, 0, 0)}'+
-      '}'+
-      '@-webkit-keyframes "blink" {'+
-        '0% {background: #000000}'+
-        '100% {background: #ff0000}'+
-      '}'+
-      '@keyframes "blink" {'+
-        '0% {background: #000000}'+
-        '100% {background: #ff0000}'+
-      '}'+
     '</style>');
-
     $("LINK[href*='/assets/application']").remove();
 })($);
 
