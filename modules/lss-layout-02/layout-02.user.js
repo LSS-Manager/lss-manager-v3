@@ -2,7 +2,7 @@
 	$('body').prepend(
 		'<style type="text/css" id="lss-layout-02-style">'+
 		'.row{margin-top:0!important}'+
-		'#map_outer{padding:0;margin-bottom:15px}'+
+		'#map_outer{padding:0;margin-bottom:15px; width:100% !important;}'+
 		'#missions_outer{padding-left:0!important}'+
 		'#buildings_outer{padding-right:7.5px!important;padding-left:0!important}'+
 		'#chat_outer{padding-left:7.5px!important;padding-right:0!important}'+
