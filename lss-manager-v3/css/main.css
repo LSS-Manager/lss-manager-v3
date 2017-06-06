@@ -21,6 +21,16 @@ nav, .navbar-default {
   background-image: none !important;
 }*/
 
+.logoSmall{
+  width:22px;
+  display:inline-block !important;
+}
+
+.navbar-icon {
+  width: 19px;
+  height: 19px
+}
+
 .panel-heading {
   background-image: none !important;
 }
