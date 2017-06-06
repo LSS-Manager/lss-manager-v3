@@ -14,7 +14,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.2.1",
+        version: "3.2.2",
         github: 'https://github.com/',
         prefix: 'lssm'
     },
@@ -989,6 +989,36 @@ var module = {
     }
 };
 
+var lssm_hook = {
+    orgfunctions: {},
+    prename: function(event, func){
+        "use strict";
+        var self = this;
+        if(!this.orgfunctions.hasOwnProperty(event)){
+            this.orgfunctions[event] = window[event];
+            window[event] = function(){
+                $(document).trigger("lssm_"+event+"_before",arguments);
+                self.orgfunctions[event].apply(window, arguments);
+                $(document).trigger("lssm_"+event+"_after",arguments);
+            }
+        }
+        return "lssm_"+event+"_before";
+    },
+    postname: function(event, func){
+        "use strict";
+        var self = this;
+        if(!this.orgfunctions.hasOwnProperty(event)){
+            this.orgfunctions[event] = window[event];
+            window[event] = function(){
+                $(document).trigger("lssm_"+event+"_before",arguments);
+                self.orgfunctions[event].apply(window, arguments);
+                $(document).trigger("lssm_"+event+"_after",arguments);
+            }
+        }
+        return "lssm_"+event+"_after";
+    }
+};
+
 
 (function (I18n, $) {
     $("head").prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +'" rel="stylesheet" type="text/css">');
@@ -1025,7 +1055,6 @@ var module = {
                 if (lssm.Module[i].active == false)
                     lssm.Module[i].active = modules[i];
             }
-
             module.loadall();
             appstore.appendAppstore();
         }

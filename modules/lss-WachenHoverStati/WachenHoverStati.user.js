@@ -2,18 +2,14 @@
  * Created by Northdegree on 05.06.2017.
  */
 (function ($, I18n) {
-    var org_building_maps_draw = building_maps_draw;
-    var org_radioMessage = radioMessage;
-    building_maps_draw = function (e) {
+    $(document).bind(lssm_hook.postname("building_maps_draw"),function(event,e){
         "use strict";
-        org_building_maps_draw(e);
         redraw_Labels();
-    };
-    radioMessage = function(t) {
+    });
+    $(document).bind(lssm_hook.postname("radioMessage"),function(event,t){
         "use strict";
-        org_radioMessage(t);
         redraw_Labels();
-    }
+    });
     function redraw_Labels() {
         $.each(building_markers, function (key, marker) {
             // Is the tooltip currently open?

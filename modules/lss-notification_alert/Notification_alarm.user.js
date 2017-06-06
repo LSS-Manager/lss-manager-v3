@@ -239,10 +239,7 @@
     }
     notifyMe(I18n.t('lssm.n-alarm.inithead'), I18n.t('lssm.n-alarm.init'), "init");
 
-    var allianceChatBuffer = allianceChat;
-    var radioMessageBuffer = radioMessage;
-    allianceChat = function (t) {
-        allianceChatBuffer(t);
+    $(document).bind(lssm_hook.postname("allianceChat"),function(event,t){
         if (user_id !== t.user_id && set.allianceChatNotifcation && !set.allianceChatPNotifcation) {
 
             notifyMe(t.username, t.message, "Chat");
@@ -253,9 +250,8 @@
             ChatPopup(t.date, t.user_id, t.username, t.mission_id, t.message);
             notifyMe(t.username, t.message, "Chat");
         }
-    };
-    radioMessage = function (t) {
-        radioMessageBuffer(t);
+    });
+    $(document).bind(lssm_hook.postname("radioMessage"),function(event,t){
         if (t.fms_real == 5 && set.allianceS5Notifcation) {
             if (t.fms_text.startsWith("[Verband]"))
             {
@@ -279,6 +275,5 @@
                 notifyMe(t.caption, t.fms_text, "Status", t.fms_real, t.id);
             }
         }
-    }
-    ;
+    });
 })($, I18n);
