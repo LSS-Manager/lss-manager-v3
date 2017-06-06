@@ -3,7 +3,7 @@
       '<style rel="stylesheet" id="lss-layout-01" type="text/css">'+
         '#map,#missions-panel-body{height:100%!important}'+
         '#map_outer{top:0;width:70%;height:calc(100vh - 90px);padding:0}'+
-        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 110px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:scroll}'+
+        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 90px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:scroll}'+
         '#buildings_outer,#chat_outer,#radio_outer{display:none}'+
         '#missions-panel-body{padding:0!important}'+
         '#buildings_outer .panel-body{height:calc(100vh - 135px)!important;padding-bottom:0;max-height:100%!important}'+
@@ -59,15 +59,14 @@
     var newMessages = 0;
     $('#lss-layout-01-chat').append('<span id="lssm_messageAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
 
-    var allianceChatBuffer = allianceChat;
-    allianceChat = function(e) {
+    $(document).bind(lssm_hook.prename("allianceChat"),function(event,e){
         if (e.user_id != user_id && !e.ignore_audio && $('#chat_outer').is(':hidden')) {
             newMessages++;
             $('#lssm_messageAmount').text(newMessages);
         }
         allianceChatBuffer(e);
-    };
-
+    });
+    
     $('#lss-layout-01-chat').click(function() {
         newMessages = 0;
         $('#lssm_messageAmount').text('');
@@ -76,15 +75,13 @@
     $('#lss-layout-01-missions').append('<span id="lssm_callsAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
     var newCalls = 0;
 
-    var missionMarkerAddBuffer = missionMarkerAdd;
-    missionMarkerAdd = function(e) {
+    $(document).bind(lssm_hook.prename("missionMarkerAdd"),function(event,e){
         if (!$('#mission_' + e.id).length && $('#missions_outer').is(':hidden')) {
             newCalls++;
             $('#lssm_callsAmount').text(newCalls);
             console.log('Neue Einsätze: ' + newCalls);
-        };
-        missionMarkerAddBuffer(e);
-    };
+        }
+    });
 
     $('#lss-layout-01-missions').click(function() {
         newCalls = 0;
