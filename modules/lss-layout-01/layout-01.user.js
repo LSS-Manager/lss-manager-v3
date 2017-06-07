@@ -65,7 +65,6 @@
             newMessages++;
             $('#lssm_messageAmount').text(newMessages);
         }
-        allianceChatBuffer(e);
     });
 
     $('#lss-layout-01-chat').click(function() {
