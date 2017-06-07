@@ -75,6 +75,26 @@ nav, .navbar-default {
   flex-wrap: wrap;
 }
 
+#wp-fw {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw - 60px);
+}
+
+.db_wachen_item {
+  width: calc(25% - 20px);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.db_wachen_item .panel-default {
+  border-color: #ddd;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
 .logoSmall{
   width:22px;
   display:inline-block !important;

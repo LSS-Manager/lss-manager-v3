@@ -264,7 +264,7 @@ function load_build_planning() {
 
                       if (building.personal_count > 0)
                           bd_data +=
-                            '<span class="label label-danger">'+
+                            '<span class="label label-default">'+
                               '<span>' + building.personal_count + '</span>'+
                               '<i class="glyphicon glyphicon-user"></i>'+
                                 ' MITARBEITER'+
