@@ -76,16 +76,16 @@ nav, .navbar-default {
 }
 
 #wp-fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
-  display: flex!important;
-  flex-wrap: wrap!important;
+  display: flex;
+  flex-wrap: wrap;
   width: calc(100vw - 60px)!important;
 }
 
 .db_wachen_item {
   width: calc(25% - 20px) !important;
-  display: -webkit-flex !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin: 10px !important;
 }
 
