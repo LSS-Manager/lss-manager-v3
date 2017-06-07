@@ -11,9 +11,7 @@ nav, .navbar-default {
   min-width:200px;
 }
 
-body {
-  background: #ddd !important;
-}
+
 /* ##################################################
 
               GENERAL STYLES
@@ -23,7 +21,13 @@ body {
 /*Dies verbugt den Color-Selector in den AAO-Einstellungen*/
 /* * {
   background-image: none !important;
-}*/
+}
+
+body {
+  background: #ddd !important;
+}
+
+*/
 
 .lssm_wp_fz_stati {
 
