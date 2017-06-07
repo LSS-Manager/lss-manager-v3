@@ -265,16 +265,16 @@ function load_build_planning() {
                       if (building.personal_count > 0)
                           bd_data +=
                             '<span class="label label-default">'+
+                              '<i class="glyphicon glyphicon-user"></i> '+
                               '<span>' + building.personal_count + '</span>'+
-                              '<i class="glyphicon glyphicon-user"></i>'+
                                 ' MITARBEITER'+
                             '</span>&nbsp;';
 
                       if (maxcars > 0)
                           bd_data +=
                             '<span class="label label-primary">'+
+                            '<i class="glyphicon glyphicon-home"></i> '+
                               '<span>' + vehicles.length + '/' + maxcars + '</span>'+
-                              '<i class="glyphicon glyphicon-home"></i>'+
                               ' FAHRZEUGE'+
                             '</span>';
                     bd_data += '\
