@@ -10,6 +10,10 @@ nav, .navbar-default {
 #lssm_aao_dropdown {
   min-width:200px;
 }
+
+body {
+  background: #ddd !important;
+}
 /* ##################################################
 
               GENERAL STYLES
