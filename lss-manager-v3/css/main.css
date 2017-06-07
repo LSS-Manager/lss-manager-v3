@@ -76,23 +76,23 @@ nav, .navbar-default {
 }
 
 #wp-fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
-  display: flex;
-  flex-wrap: wrap;
-  width: calc(100vw - 60px);
+  display: flex!important;
+  flex-wrap: wrap!important;
+  width: calc(100vw - 60px)!important;
 }
 
 .db_wachen_item {
-  width: calc(25% - 20px);
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 10px;
+  width: calc(25% - 20px) !important;
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  margin: 10px !important;
 }
 
 .db_wachen_item .panel-default {
   border-color: #ddd;
-  width: 100%;
-  margin-bottom: 0px;
+  width: 100% !important;
+  margin-bottom: 0px !important;
 }
 
 .logoSmall{
