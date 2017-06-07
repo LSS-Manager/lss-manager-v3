@@ -253,11 +253,30 @@ function load_build_planning() {
 						                <a href="/buildings/' + building.id + '" class="lightbox-open">' + building.name + '</a>\
                       </h3>';
                       if (building.level != null)
-                          bd_data += '<span class="building_list_fms lssm-wp-fz--info"><i class="glyphicon glyphicon-arrow-up"></i> STUFE: <span class="building_list_fms label-info lssm-wp-fz--value">' + building.level + '</span></span>&nbsp;';
+                          bd_data +=
+                            '<span class="label label-danger">'+
+                              '<i class="glyphicon glyphicon-arrow-up"></i>'+
+                              ' STUFE '+
+                              '<span>'
+                                + building.level +
+                              '</span>'+
+                            '</span>&nbsp;';
+
                       if (building.personal_count > 0)
-                          bd_data += '<span class="building_list_fms lssm-wp-fz--info"><i class="glyphicon glyphicon-user"></i> MITARBEITER: <span class="building_list_fms label-info lssm-wp-fz--value">' + building.personal_count + '</span></span>&nbsp;';
+                          bd_data +=
+                            '<span class="label label-danger">'+
+                              '<span>' + building.personal_count + '</span>'+
+                              '<i class="glyphicon glyphicon-user"></i>'+
+                                ' MITARBEITER'+
+                            '</span>&nbsp;';
+
                       if (maxcars > 0)
-                          bd_data += '<span class="building_list_fms lssm-wp-fz--info"><i class="glyphicon glyphicon-home"></i> FAHRZEUGE: <span class="building_list_fms label-info lssm-wp-fz--value">' + vehicles.length + '/' + maxcars + '</span></span>';
+                          bd_data +=
+                            '<span class="label label-primary">'+
+                              '<span>' + vehicles.length + '/' + maxcars + '</span>'+
+                              '<i class="glyphicon glyphicon-home"></i>'+
+                              ' FAHRZEUGE'+
+                            '</span>';
                     bd_data += '\
                  </div>\
 				     <div class="panel-body">\

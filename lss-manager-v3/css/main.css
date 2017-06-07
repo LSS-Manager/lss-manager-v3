@@ -49,25 +49,30 @@ nav, .navbar-default {
 }
 
 .lssm-wp-fz--fms {
-  border-radius: .25em 0 0 .25em;
-  display: inline-block;
+  border-radius: .25em 0 0 .25em !important;
+  display: inline-block !important;
   margin-bottom: 5px;
-  padding: .4em .6em .3em;
-  color: #4a4a4a;
-  border: 1px solid #4a4a4a;
+  padding: .4em .6em .3em !important;
+  border: 1px solid #4a4a4a !important;
 }
 
 
 .lssm-wp-fz--fms-vehicle {
-  color: #4a4a4a;
+  color: #4a4a4a !important;
   border: 1px solid #4a4a4a;
   border-left: 0;
   margin-left: -5px;
-  border-radius: 0 .25em .25em 0;
-  display: inline-block;
+  border-radius: 0 .25em .25em 0 !important;
+  display: inline-block !important;
   margin-bottom: 5px;
-  padding: .4em .6em .3em;
+  padding: .4em .6em .3em !important;
   background: #fff;
+}
+
+.fz-body {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .logoSmall{
