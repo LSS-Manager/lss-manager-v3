@@ -57,10 +57,6 @@
         option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
         return option;
     }
-    jQuery.expr[':'].containsci = function(a, i, m) {
-        return jQuery(a).text().toUpperCase()
-                .indexOf(m[3].toUpperCase()) >= 0;
-    };
     function activateSearch()
     {
         "use strict";
