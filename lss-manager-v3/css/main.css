@@ -10,6 +10,8 @@ nav, .navbar-default {
 #lssm_aao_dropdown {
   min-width:200px;
 }
+
+
 /* ##################################################
 
               GENERAL STYLES
@@ -19,7 +21,91 @@ nav, .navbar-default {
 /*Dies verbugt den Color-Selector in den AAO-Einstellungen*/
 /* * {
   background-image: none !important;
-}*/
+}
+
+body {
+  background: #ddd !important;
+}
+
+*/
+
+.lssm_wp_fz_stati {
+
+}
+
+.lssm-wp-fz-panel-heading--red {
+  background-color:
+}
+
+.lssm-wp-fz--info {
+  border-radius: .25em !important;
+  display: inline-block !important;
+  padding: 0px !important;
+  padding-left: 3px !important;
+  color: #4a4a4a !important;
+  border: 1px solid #4a4a4a;
+  margin-right: 0 !important;
+  font-size: 11px !important;
+}
+
+.lssm-wp-fz--value {
+  border-radius: 0 !important;
+  display: inline-block !important;
+  margin-right: 0px !important;
+  padding: .4em .6em .3em !important;
+  color: #4a4a4a !important;
+}
+
+.lssm-wp-fz--fms {
+  border-radius: .25em 0 0 .25em !important;
+  display: inline-block !important;
+  margin-bottom: 5px;
+  padding: .4em .6em .3em !important;
+  border: 1px solid #4a4a4a !important;
+}
+
+
+.lssm-wp-fz--fms-vehicle {
+  color: #4a4a4a !important;
+  border: 1px solid #4a4a4a;
+  border-left: 0;
+  margin-left: -5px;
+  border-radius: 0 .25em .25em 0 !important;
+  display: inline-block !important;
+  margin-bottom: 5px;
+  padding: .4em .6em .3em !important;
+  background: #fff;
+}
+
+.fz-body {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#wp_fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw - 60px)!important;
+}
+
+.db_wachen_item {
+  width: calc(25% - 20px) !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px !important;
+}
+
+.db_wachen_item .panel-default {
+  border-color: #ddd;
+  width: 100% !important;
+  margin-bottom: 0px !important;
+  background: #fafafa !important
+}
+.db_wachen_item .panel-default .panel-heading {
+  background: #fafafa !important
+}
 
 .logoSmall{
   width:22px;

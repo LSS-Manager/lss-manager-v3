@@ -235,38 +235,54 @@ function load_build_planning() {
                 break;
         }
         $.each(vehicles, function (k, car) {
-            printcars += '<span id="db_veh_' + car.id + '" class="building_list_fms building_list_fms_' + car.fms + '" style="border-radius: .25em 0 0 .25em; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">' + car.fms + '</span> <a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms" style="color: #4a4a4a;border: 1px solid #4a4a4a;margin-left: -9px;border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;">' + car.name + '</a><br>';
+            printcars +=
+              '<div id="db_veh_' + car.id + '">'+
+                '<span class="building_list_fms building_list_fms_' + car.fms + ' lssm-wp-fz--fms">'
+                  + car.fms +
+                  '</span>'+
+                  '<a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms lssm-wp-fz--fms-vehicle">'
+                    + car.name +
+                  '</a>'+
+              '</div>';
         });
         var bd_data = '\
 		      <div class="db_wachen_item" id="db_wache_'+ building.id +'">\
 			       <div class="panel panel-default">\
 				         <div class="panel-heading">\
-					            <h3 class="panel-title"><i class="fa ' + icon + '"></i>\
+					            <h3 class="panel-title" style="margin-bottom:5px;"><i class="fa ' + icon + '"></i>\
 						                <a href="/buildings/' + building.id + '" class="lightbox-open">' + building.name + '</a>\
-                      </h3>\
-				         </div>\
+                      </h3>';
+                      if (building.level != null)
+                          bd_data +=
+                            '<span class="label label-danger">'+
+                              '<i class="glyphicon glyphicon-arrow-up"></i>'+
+                              ' STUFE '+
+                              '<span>'
+                                + building.level +
+                              '</span>'+
+                            '</span>&nbsp;';
+
+                      if (building.personal_count > 0)
+                          bd_data +=
+                            '<span class="label label-default">'+
+                              '<i class="glyphicon glyphicon-user"></i> '+
+                              '<span>' + building.personal_count + '</span>'+
+                                ' MITARBEITER'+
+                            '</span>&nbsp;';
+
+                      if (maxcars > 0)
+                          bd_data +=
+                            '<span class="label label-primary">'+
+                            '<i class="glyphicon glyphicon-home"></i> '+
+                              '<span>' + vehicles.length + '/' + maxcars + '</span>'+
+                              ' FAHRZEUGE'+
+                            '</span>';
+                    bd_data += '\
+                 </div>\
 				     <div class="panel-body">\
-                <div class="col-md-8 fz-body">\
+                <div class="fz-body">\
                   ' + printcars + '\
                 </div>\
-				        <div class="col-md-4" style="padding:0 !important;">';
-                        /*if (building.level != null)
-                            bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">STUFE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.level + '</span><br>';
-                        if (building.personal_count > 0)
-                            bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.personal_count + '</span><br>';
-                        if (maxcars > 0)
-                            bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">FAHRZEUGE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + vehicles.length + '/' + maxcars + '</span>';*/
-                bd_data += '\
-                </div>\
-            </div>\
-            <div class="panel-footer" style="background-color:#fff;">';
-                if (building.level != null)
-                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px; padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">STUFE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0; display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.level + '</span>&nbsp;';
-                if (building.personal_count > 0)
-                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">MITARBEITER:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + building.personal_count + '</span>&nbsp;';
-                if (maxcars > 0)
-                    bd_data += '<span class="building_list_fms" style="border-radius: .25em 0 0 .25em;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;color: #4a4a4a;border: 1px solid #4a4a4a;">FAHRZEUGE:</span><span class="building_list_fms label-info" style="border-radius: 0 .25em .25em 0;display:inline-block; margin-bottom:5px;padding: .4em .6em .3em;margin-left: -9px;color: #4a4a4a;border: 1px solid #4a4a4a;">' + vehicles.length + '/' + maxcars + '</span>';
-                bd_data += '\
             </div>\
 			</div>\
 		</div>';
@@ -434,8 +450,8 @@ function loadDashboard() {
 (function ($, I18n) {
     var prefix = lssm.config.prefix +'_db';
     $('#map_outer').before('<div id="'+ prefix +'" class="container-fluid"></div>');
-    $('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>')
-            .append("<style type='text/css' rel='stylesheet' id='dashboard-css'>body {-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#db_wachen_outer>div {-moz-column-count: 4;-moz-column-gap: 10px;-webkit-column-count: 4;-webkit-column-gap: 10px;column-count: 4;column-gap: 10px;width: 100%;height: 100%;-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#wp_sub, #wp_sub2{ display:none;}.db_wachen_item {display: inline-block;width: 100%;}</style>");
+    $('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>');
+            //.append("<style type='text/css' rel='stylesheet' id='dashboard-css'>body {-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#db_wachen_outer>div {-moz-column-count: 4;-moz-column-gap: 10px;-webkit-column-count: 4;-webkit-column-gap: 10px;column-count: 4;column-gap: 10px;width: 100%;height: 100%;-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#wp_sub, #wp_sub2{ display:none;}.db_wachen_item {display: inline-block;width: 100%;}</style>");
     var dasboard_button = $('<li><a id="' + prefix + '_activate" href="#"><span class="glyphicon glyphicon-stats"></span> '+I18n.t('lssm.dashboard.name')+'</a></li>');
     $('#'+lssm.config.prefix+'_menu').append(dasboard_button);
     $('#'+prefix + '_activate').click(function() {

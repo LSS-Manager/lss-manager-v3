@@ -1,5 +1,5 @@
 (function (I18n, $) {
-    if (!$('#tab_vehicle').length || !$('#iframe-inside-container  img[src*=building_leitstelle]').length)
+    if (!$('#tab_vehicle').length || !$('#iframe-inside-container  img[alt="Building_leitstelle"]').length)
         return;
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     I18n.translations.de['lssm']['renameFZ'] = {
@@ -63,10 +63,7 @@
         }
     }
     function creatForm(vehicleId, value) {
-        var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '">';
-        formHTML += '<div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div>';
-        formHTML += '<div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div>';
-        formHTML += '<input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
+        var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
         $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
     }
     function replaceString(type) {
@@ -100,8 +97,7 @@
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
         mainDiv.append(html);
-        var tr = $('<tr></tr>').append($('<td colspan="6"></td>').append(mainDiv));
-        $('#vehicle_table thead:first').append(tr);
+        $('#vehicle_table').parent().prepend(mainDiv);
         $('#' + prefix + '_buttons').click(function (e) {
             var input = document.getElementById(prefix + '_string'), start = input.selectionStart, end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);
