@@ -22,10 +22,10 @@ nav, .navbar-default {
 }*/
 
 .lssm_wp_fz_stati {
-  
+
 }
 
-.lss-wp-fz--info {
+.lssm-wp-fz--info {
   border-radius: .25em 0 0 .25em;
   display:inline-block;
   margin-bottom:5px;
@@ -35,7 +35,7 @@ nav, .navbar-default {
 
 }
 
-.lss-wp-fz--value {
+.lssm-wp-fz--value {
   border-radius: 0 .25em .25em 0;
   display:inline-block;
   margin-bottom:5px;
