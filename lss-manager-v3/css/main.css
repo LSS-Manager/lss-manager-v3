@@ -21,6 +21,39 @@ nav, .navbar-default {
   background-image: none !important;
 }*/
 
+.lssm_wp_fz_stati {
+  
+}
+
+.lss-wp-fz--info {
+  border-radius: .25em 0 0 .25em;
+  display:inline-block;
+  margin-bottom:5px;
+  padding: .4em .6em .3em;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4a;
+
+}
+
+.lss-wp-fz--value {
+  border-radius: 0 .25em .25em 0;
+  display:inline-block;
+  margin-bottom:5px;
+  padding: .4em .6em .3em;
+  margin-left: -9px;
+  color: #4a4a4a;
+  border: 1px solid #4a4a4a;
+}
+
+.lssm-wp-fz--fms {
+  border-radius: .25em;
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: .4em .6em .3em;
+  color: #fff;
+  border: 1px solid #4a4a4a;
+}
+
 .logoSmall{
   width:22px;
   display:inline-block !important;
