@@ -2,17 +2,12 @@
     function getModules()
     {
         var active = [];
-        var modules = lssm_settings.get("Modules", {});
-        if (modules == null)
-        {
-            return active;
-        }
-        $.each(modules, function (key, val) {
-            if (val.toString() == "true")
+        for (var m in lssm.Module){
+            if (lssm.Module[m].active)
             {
-                active.push(key);
+                active.push(m);
             }
-        });
+        };
         return active;
     }
     function getUserAgent()

@@ -5,6 +5,7 @@
 //███████╗███████║███████║....██║.╚═╝.██║██║..██║██║.╚████║██║..██║╚██████╔╝███████╗██║..██║
 //╚══════╝╚══════╝╚══════╝....╚═╝.....╚═╝╚═╝..╚═╝╚═╝..╚═══╝╚═╝..╚═╝.╚═════╝.╚══════╝╚═╝..╚═╝
 
+
 /**
  * Localization
  */
@@ -67,6 +68,13 @@ $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     }
 });
 
+/**
+ * Make case insensetive :contains() possible
+ */
+jQuery.expr[':'].containsci = function(a, i, m) {
+    return jQuery(a).text().toUpperCase()
+            .indexOf(m[3].toUpperCase()) >= 0;
+};
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
@@ -707,7 +715,7 @@ var appstore = {
             // Do not show certain modules in the appstore
             if ('noapp' in mod && mod.noapp === true)
                 continue;
-            var panel = $('<div style="margin-top:10px;"'+(mod.develop ? ' class="lssm_module_develop"' : '')+'">' +
+            var panel = $('<div style="margin-top:10px;" class="lssm_module'+(mod.develop ? ' lssm_module_develop' : '')+'">' +
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
@@ -752,7 +760,9 @@ var appstore = {
               '<h1>' + I18n.t('lssm.appstore') + '</h1>'+
               '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>'+
               '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>'+
-              '<p><button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
+              '<p>' +
+          '<input type="text" class="form-control pull-right" id="'+prefix+'_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
+          '<button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
                 '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>'+
               '</button></p>'+
               '<span class="pull-right"><small>MADE BY:</small>&nbsp;'+
@@ -783,7 +793,16 @@ var appstore = {
             '</div>'+
           '</div>'
         );
-
+        div.on('keyup', '#' + prefix + '_search', function () {
+            "use strict";
+            var ss = $(this).val();
+            if (ss.length>0) {
+                div.find(".lssm_module:containsci("+ss+")").show();
+                div.find(".lssm_module:not(:containsci("+ss+"))").hide();
+            } else {
+                div.find(".lssm_module").show();
+            }
+        });
         div.on('click', '#' + prefix + '_close', function () {
             appstore.closeAppstore();
         });

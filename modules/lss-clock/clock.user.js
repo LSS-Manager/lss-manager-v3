@@ -1,5 +1,10 @@
 (function($) {
-    function clock(id, target) {
+    /*
+     * id: id des umschließendesn Divs
+     * targt: hier wird das umschließende Div an erster stelle eingehängt
+     * draggable: true draggable möglich, false draggable nicht möglich
+     */
+    function clock(id, target,draggable) {
       /*
       	* Clock Objekt erstellt ein div mit hour,minute,second und aktualisiert dies sekündlich
         * Parameter:
@@ -24,6 +29,7 @@
         function setClock() {
             var d = new Date();
             if (d.getSeconds() == 0 && active)
+                if(!draggable)
                 $("#lss_clock").effect("bounce");
             hour.html(padding(d.getHours()));
             minute.html(padding(d.getMinutes()));
@@ -43,14 +49,25 @@
             clockDiv.hide();
         }
         clockDiv.append(hour, minute, second);
+        if(draggable){
+        clockDiv.draggable({containment: "#map",
+                scroll: false,
+                start: function () {
+                    map.dragging.disable();
+                },
+                stop: function (e, i) {
+                    map.dragging.enable();
+                    lssm_settings.set(lssm.config.prefix + "_ClockPosition", i.position);
+                }})    
+        }
         target.prepend(clockDiv);
       	start();
-
+        
         return {
             start: start,
             stop: stop
         }
 
     }
-  var lssClock = new clock('lss_clock',$('#map'));
+  var lssClock = new clock('lss_clock',$('#map'),true);
 })($);

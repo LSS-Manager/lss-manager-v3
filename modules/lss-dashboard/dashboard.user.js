@@ -464,10 +464,5 @@ function loadDashboard() {
             loadDashboard();
         }
     });
-    $.expr[":"].conaintsci = $.expr.createPseudo(function (arg) {
-        return function (elem) {
-            return $(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
-        };
-    });
 
 })(jQuery, I18n)
