@@ -29,6 +29,7 @@
         function setClock() {
             var d = new Date();
             if (d.getSeconds() == 0 && active)
+                if(!draggable)
                 $("#lss_clock").effect("bounce");
             hour.html(padding(d.getHours()));
             minute.html(padding(d.getMinutes()));
