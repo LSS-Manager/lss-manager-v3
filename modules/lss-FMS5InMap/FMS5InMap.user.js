@@ -30,7 +30,7 @@
 
     radio_message_important.css({
         "z-index": "999",
-        "opacity": "0.7",
+        "opacity": "0.9",
         "bottom": "0px",
         "left": "0px",
         "display": "block",
