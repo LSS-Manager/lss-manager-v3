@@ -238,6 +238,19 @@
       '.dropdown-menu>li>a:hover, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{'+
         'background-color: rgb(177, 0, 0)'+
       '}'+
+      '.building_build_costs_active{'+
+        'display: block !important;'+
+        'animation-name: fadeInFromNone;'+
+        'animation-duration: 1s'+
+      '}'+
+      '.building_build_costs{'+
+        'display: none;'+
+      '}'+
+      '@keyframes fadeInFromNone {'+
+        '0% {display: none;opacity: 0}'+
+        '1% {display: block;opacity: 0}'+
+        '100% {display: block;opacity: 1}'+
+      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();
