@@ -52,7 +52,7 @@ I18n.translations.nl['lssm']['dashboard'] = {
 }
 //I18n.locale = 'en';
 
-(function ($, I18n) {
+(function ($) {
     function loadGraphs() {
         // Building Bar Chart
         var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0};
