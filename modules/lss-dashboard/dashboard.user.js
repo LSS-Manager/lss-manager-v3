@@ -319,6 +319,7 @@ function switch_wp_tab(tab) {
 // Suche nach Wache/Fahrzeug
 var searchby = "wache";
 function wp_suche() {
+    console.log("wp_suche");
     var val = $("#wp_search").val(),elements =$("#db_wachen_outer .db_wachen_item");
     if (val.length > 0) {
         if (searchby === "wache") {
@@ -411,9 +412,7 @@ function bind_db_buttons() {
         $(this).addClass("active");
         switch_dashboard($(this).attr('id'));
     });
-    $("#wp_search").keyup(function () {
-        wp_suche();
-    });
+    $("#wp_search").keyup(wp_suche);
     $("#wp_switch").click(function () {
         if (searchby === "wache") {
             $("#wp_switch").html('<i class="fa fa-car"></i>');
