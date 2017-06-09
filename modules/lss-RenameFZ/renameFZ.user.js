@@ -1,5 +1,5 @@
 (function (I18n, $) {
-    if (!$('#tab_vehicle').length || !$('#iframe-inside-container  img[alt="Building_leitstelle"]').length)
+    if (!document.URL.match(/buildings/) || !$('#iframe-inside-container > h1[building_type="7"]'))
         return;
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     I18n.translations.de['lssm']['renameFZ'] = {
