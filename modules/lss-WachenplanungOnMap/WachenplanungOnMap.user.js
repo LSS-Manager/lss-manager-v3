@@ -1,5 +1,5 @@
 (function (map, I18n, $) {
-    var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5}, locale: I18n.locale || 'de', translations: {
+    var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5,showCars:true,showSlider:true,showRadInput:false}, locale: I18n.locale || 'de', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
@@ -16,7 +16,7 @@
         }
     }
     function draw(name, col, id, Lat, Lng) {
-        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + car_list_printable(car_list(id)),
+        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + (settings.set.showCars?car_list_printable(car_list(id)):''),
                 circle = L.circle([Lat, Lng], settings.set.radius * 1000, {
                     color: col,
                     fillOpacity: 0.3,
@@ -85,12 +85,17 @@
                 settings.set['rhl'] = el.prop('checked');
                 drawCircles(false, 5);
                 break;
+            case settings.prefix + '_mark_showCars':
+                settings.set['showCars'] = el.prop('checked');
+                drawCircles(true);
+                break;
         }
         lssm_settings.set(settings.prefix, settings.set);
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
         html += '<div><span class="label label-default" style="margin-bottom:10px;">Radius</span><div id="lssm_radius_slider"><div id="lssm_radius_handle" class="label label-info ui-slider-handle"></div></div></div>';
+        html+= '<div><input class="numeric integer" '+(settings.set.showRadInput?'':'style="display:none;"')+' id="lssm_radius_slider_input" step="1" type="number" value="0"></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_ils" ' + (settings.set.ils ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_ils"></label></div><span class="label label-ils">Leitstelle</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div><span class="label label-fw">Feuerwehr</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div><span class="label label-pol">Polizei</span></div>';
@@ -102,6 +107,7 @@
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" ' + (settings.set.kh ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_kh"></label></div><span class="label label-kh">Krankenhaus</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" ' + (settings.set.thw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div><span class="label label-thw">THW</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_wr" ' + (settings.set.wr ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_wr"></label></div><span class="label label-wr">Wasserrettung</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_showCars" ' + (settings.set.showCars ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_showCars"></label></div><span class="label label-default">Zeige Fahrzeuge?</span></div>';
         html += '</div>';
         $('#map_outer').append(html);
         $('#' + settings.prefix + '_settings').change(changeSetting);
@@ -124,6 +130,19 @@
 
     function setCircleRadius(){
         var handle = $( "#lssm_radius_handle" );
+        $('#lssm_radius_slider_input').val(settings.set.radius).change(function(){
+            settings.set.radius = $(this).val();
+            $( "#lssm_radius_slider" ).slider("option", "value",  settings.set.radius);
+            handle.text( settings.set.radius + ' km');
+            drawCircles(true);
+            lssm_settings.set(settings.prefix, settings.set);
+        });
+        $('#lssm_radius_slider,#lssm_radius_slider_input').dblclick(function(){
+            $('#lssm_radius_slider_input,#lssm_radius_slider').toggle("slow");
+            settings.set.showRadInput = !settings.set.showRadInput;
+            settings.set.showSlider = !settings.set.showSlider;
+            lssm_settings.set(settings.prefix, settings.set);
+        });
         $( "#lssm_radius_slider" ).slider({
             min: 3,
             max: 400,
@@ -131,10 +150,13 @@
 
             create: function() {
                 handle.text( $( this ).slider( 'value' ) + ' km');
+                !settings.set.showSlider && $(this).hide();
+                
             },
             slide: function( event, ui ) {
                 handle.text( ui.value + ' km' );
                 settings.set.radius = ui.value;
+                $('#lssm_radius_slider_input').val(settings.set.radius);
             },
             stop: function( event, ui ) {
                 drawCircles(true);
