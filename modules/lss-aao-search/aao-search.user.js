@@ -19,10 +19,10 @@
     {
         "use strict";
         // Add all the original AAO options
-        $("a[id^='aao_']").each(function (i,e) {
+        $(".aao,.vehicle_group").each(function (i,e) {
             e = $(e);
             var option = document.createElement("option");
-            option.value = e.attr('id').substring(4);
+            option.value = e.attr('id');
             option.text = e.text();
             $("#lssm_aao_dropdown").append(option);
         });
@@ -34,7 +34,7 @@
             if (aao_id == -1)
                 return;
             // Get the original button
-            $("a[id='aao_"+aao_id+"']").click();
+            $("#"+aao_id).click();
             setTimeout(function(){
                 $('#lssm_aao_dropdown').val("-1");
             }, 500);
@@ -52,7 +52,7 @@
         if(typeof option.id == "undefined" || option.id == "-1") {
             return option.text;
         }
-        var available = document.getElementById("available_aao_"+option.id).innerHTML;
+        var available = document.getElementById("available_"+option.id.replace(/vehicle_group_/,'')).innerHTML;
         var bg = $("#aao_"+option.id).css("background-color");
         option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
         return option;
@@ -62,16 +62,25 @@
         "use strict";
         $("#mission-aao-group").before('<input type="text" id="lssm_aao_search" style="min-width: 400px;" placeholder="'+I18n.t('lssm.aaosearch.search_aao')+'">');
         $("#mission-aao-group").before('<div id="lssm_aao_results"></div>');
+        $("#mission-aao-group").before('<div id="lssm_vehicle_group_results"></div>');
         $("a[id^='aao_']").css("display", "inline-block");
         $("#lssm_aao_search").on("keyup", function(){
             "use strict";
             var value = this.value;
             if(value.length > 0)
             {
-                if($("#lssm_aao_results > a[id^='lssm_aao_']:containsci('"+value+"')").length == 0) {
+                if($("#lssm_aao_results > a[id^='lssm_aao']:containsci('"+value+"')").length == 0) {
                     $("a[id^='aao_']:containsci('" + value + "')").each(function() {
                         var id = this.id;
                         var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
+                            $("#"+this.id.substring(5)).click();
+                        });
+                    });
+                }
+                if($("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group']:containsci('"+value+"')").length == 0) {
+                    $("a[id^='vehicle_group_']:containsci('" + value + "')").each(function() {
+                        var id = this.id;
+                        var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_vehicle_group_results").on("click", function(){
                             $("#"+this.id.substring(5)).click();
                         });
                     });
@@ -80,6 +89,7 @@
                     this.style.setProperty("display", "none");
                 });
                 $("#lssm_aao_results > a[id^='lssm_aao_']:not(:containsci('"+value+"'))").remove();
+                $("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group_']:not(:containsci('"+value+"'))").remove();
             }
             else
             {
@@ -87,6 +97,7 @@
                     this.style.setProperty("display", "block");
                 });
                 $("#lssm_aao_results > a").remove();
+                $("#lssm_vehicle_group_results > a").remove();
             }
         });
     }
@@ -121,7 +132,7 @@
         lssm_settings.set("aaos_dropdown", this.checked);
         if(this.checked)
         {
-            $("#lssm_aao_search,#lssm_aao_results").remove();
+            $("#lssm_aao_search,#lssm_aao_results,#lssm_vehicle_group_results").remove();
             // Hide all original AAO buttons
             $("#mission-aao-group div:not(.clearfix)").each(function() {
                 this.style.setProperty("display", "none");
