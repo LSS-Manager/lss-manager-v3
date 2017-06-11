@@ -19,7 +19,7 @@
             minute = $('<span class="minute"></span>'),
             second = $('<span class="second"></span>'),
             active = true,
-            clockDiv = $('<div id="' + id + '"></div>'),
+            clockDiv = $('<div id="' + id + '"></div>').css(lssm_settings.get("ClockPosition_"+id, {"top":0,"left":0})),
             interval;
 
         function padding(n) {
@@ -57,7 +57,7 @@
                 },
                 stop: function (e, i) {
                     map.dragging.enable();
-                    lssm_settings.set(lssm.config.prefix + "_ClockPosition", i.position);
+                    lssm_settings.set("ClockPosition_"+id, i.position);
                 }})    
         }
         target.prepend(clockDiv);
