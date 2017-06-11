@@ -148,6 +148,10 @@
         '-webkit-animation-duration: 1s;'+
         'animation-duration: 1s'+
       '}'+
+      '.building_list_fms_6 {'+
+        'background-color: black;'+
+        'color:white;'+
+      '}'+
       '.building_list_fms_7 {'+
           'background-color: #ff8600;'+
           'color: black'+
