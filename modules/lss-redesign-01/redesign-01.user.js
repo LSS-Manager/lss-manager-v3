@@ -219,6 +219,11 @@
       	'background-color: rgb(255, 73, 5) !important;'+
       	'color: white !important;'+
       '}'+
+      '.highlight {'+
+        'animation-name: highlight;'
+        'animation-duration: 0.5s;'
+        'animation-iteration-count: 3;'
+      '}'+
       '@keyframes highlight {'+
         '0% {background: rgba(0, 0, 0, 0)}'+
         '50% {background: #62c462}'+
