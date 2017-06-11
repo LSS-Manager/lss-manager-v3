@@ -16,7 +16,7 @@ var lssm = {
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.2",
-        github: 'https://github.com/',
+        github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
     loadScript: function(link) {
@@ -1042,7 +1042,7 @@ var lssm_hook = {
 (function (I18n, $) {
     $("head").prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +'" rel="stylesheet" type="text/css">');
     appstore.createDropDown();
-    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</li><li class="divider"></li>');
+    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center"><a href="'+lssm.github+'" target="_blank">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
     // Only execute everything else if user is logged in
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
