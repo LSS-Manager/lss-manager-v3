@@ -1,59 +1,4 @@
-/* ##################################
-  TABLE OF CONTENTS STLYES
-        reset LSS
-        general
-        appstore/plugin
-        switch
-        custom
-
-        PLUGIN STYLES
-        missionout
-        redesign
-        chat-popup
-        tableau
-        nightmode
-        wachenplanung
-        gebäudeplanung
-
-################################## */
-
-
-
-/* ##################################################
-
-              LSS STYLE RESETS
-
-################################################## */
-
-div#lightbox_box {
-  background-color: rgba(0, 0, 0, 0) !important;
-  border: none !important;
-  padding: 20px;
-  width: 100px !important;
-  height: 100px !important;
-}
-
-.panel-footer{
-  padding: 10px 15px;
-  background-color: #f5f5f5;
-  border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px
-}
-
-/*.pull-right{
-  float: right !important
-}*/
-
-/* reset sebastians shitty bootstrap design ffs */
-/* #col_navbar_holder {
-  padding:0 !important;
-  border-radius: 0 !important;
-  position: fixed;
-  z-index: 9999;
-}*/
 nav, .navbar-default {
-  background-color: #E74C3C !important;
   border: 0 !important;
   border-radius: 0 !important;
 }
@@ -62,40 +7,9 @@ nav, .navbar-default {
   border:0 !important;
 }
 
-.dropdown-menu {
-  background-color: rgb(225, 74, 42) !important;
-  border:none !important;
-  border-radius: 0 0 5px 5px;
+#lssm_aao_dropdown {
+  min-width:200px;
 }
-
-.logo {display:none !important;}
-
-/*#map_adress_search {
-  border: none !important;
-  height: 50px;
-  padding: 15px;
-  margin: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 250px;
-  -moz-box-shadow:    inset 0 0 10px rgba(74, 74, 74, 0.45);
-  -webkit-box-shadow: inset 0 0 10px rgba(74, 74, 74, 0.45);
-  box-shadow:         inset 0 0 10px rgba(74, 74, 74, 0.45);
-  background-color: #f3352e;
-  color: white !important;
-}
-
-#map_adress_search:focus {
-  border: 0 !important;
-  outline: 0 !important;
-}
-
-#map_adress_search_form{
-  padding: 0;
-  margin: 0;
-}*/
-
 
 
 /* ##################################################
@@ -104,11 +18,107 @@ nav, .navbar-default {
 
 ################################################## */
 
-* {
+/*Dies verbugt den Color-Selector in den AAO-Einstellungen*/
+/* * {
   background-image: none !important;
 }
+
 body {
-  background-color: #eee !important;
+  background: #ddd !important;
+}
+
+*/
+
+.lssm_wp_fz_stati {
+
+}
+
+.lssm-wp-fz-panel-heading--red {
+  background-color:
+}
+
+.lssm-wp-fz--info {
+  border-radius: .25em !important;
+  display: inline-block !important;
+  padding: 0px !important;
+  padding-left: 3px !important;
+  color: #4a4a4a !important;
+  border: 1px solid #4a4a4a;
+  margin-right: 0 !important;
+  font-size: 11px !important;
+}
+
+.lssm-wp-fz--value {
+  border-radius: 0 !important;
+  display: inline-block !important;
+  margin-right: 0px !important;
+  padding: .4em .6em .3em !important;
+  color: #4a4a4a !important;
+}
+
+.lssm-wp-fz--fms {
+  border-radius: .25em 0 0 .25em !important;
+  display: inline-block !important;
+  margin-bottom: 5px;
+  padding: .4em .6em .3em !important;
+  border: 1px solid #4a4a4a !important;
+}
+
+
+.lssm-wp-fz--fms-vehicle {
+  color: #4a4a4a !important;
+  border: 1px solid #4a4a4a;
+  border-left: 0;
+  margin-left: -5px;
+  border-radius: 0 .25em .25em 0 !important;
+  display: inline-block !important;
+  margin-bottom: 5px;
+  padding: .4em .6em .3em !important;
+  background: #fff;
+}
+
+.fz-body {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#wp_fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw - 60px)!important;
+}
+
+.db_wachen_item {
+  width: calc(25% - 20px) !important;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px !important;
+}
+
+.db_wachen_item .panel-default {
+  border-color: #ddd;
+  width: 100% !important;
+  margin-bottom: 0px !important;
+  background: #fafafa !important
+}
+.db_wachen_item .panel-default .panel-heading {
+  background: #fafafa !important
+}
+
+.logoSmall{
+  width:22px;
+  display:inline-block !important;
+}
+
+.navbar-icon {
+  width: 19px;
+  height: 19px
+}
+
+.panel-heading {
+  background-image: none !important;
 }
 
 div#preloader {
@@ -127,14 +137,17 @@ div#preloader {
 
 .btn__disabled{
   pointer-events: none;
-  color: #ddd;
-  background-color: #eee;
+  color: #ddd !important;
+  background-color: #eee !important;
 }
 
-.btn__disabled:hover{
-
+#map_outer {
+  border:1px solid #bdbdbd;
+  border-radius:5px;
+  padding: 0;
+  margin-left: 15px;
+  width: calc(66.66666667% - 30px);
 }
-
 
 /* ##################################################
 
@@ -142,15 +155,34 @@ div#preloader {
 
 ################################################## */
 
-/*# SETZT EINEN GELB/SCHWARZ GESTREIFTEN BANNER AM ENDE EINES PLUGINS #*/
-.lssm_Module_develop .panel-footer {
+/*# SETZT EINEN GELB/SCHWARZ GESTREIFTEN BANNER AM ENDE EINES PLUGINS #
+.lssm_module_develop .panel-footer {
   background: repeating-linear-gradient(
-  45deg,
-  rgba(255, 219, 27, 1),
-  rgba(255, 219, 27, 1) 10px,
-  rgba(74, 74, 74, 1) 10px,
-  rgba(74, 74, 74, 1) 25px
+          45deg,
+          rgba(255, 219, 27, 1),
+          rgba(255, 219, 27, 1) 10px,
+          rgba(74, 74, 74, 1) 10px,
+          rgba(74, 74, 74, 1) 25px
   ) !important;
+}*/
+
+#missions > div > div > strong{display:none !important}
+
+.lssm_module_develop > div {
+  border: 1px red dashed !important;
+  opacity: .4 !important;
+}
+
+.lssm_map_reload {
+  height: 26px;
+  width: 26px;
+  position: relative;
+  z-index: 9998;
+  float: left;
+  margin-left: 10px;
+  margin-top: 110px;
+  outline: none;
+  background-color: white;
 }
 
 #lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
@@ -165,7 +197,7 @@ div#preloader {
   text-transform: uppercase;
   font-weight: 900;
 }
-.lssm_Module_develop label {
+.lssm_module_develop label {
   display: none;
 }
 
@@ -270,7 +302,7 @@ div#preloader {
   z-index: 9999;
   background-color: rgba(255, 255, 255, 0.86);
   bottom: 0;
-  left: 15px;
+  left: 5px;
   padding-right: 5px !important;
   padding-left: 5px !important;
   padding: 5px !important;
@@ -286,6 +318,17 @@ div#preloader {
   border-radius: 10px;
 }
 
+.lssm_tabMenu {
+  border-radius: 4px !important;
+  padding: 4px 8px !important;
+  border:none !important;
+}
+
+#scriptMissionMenu ul{
+    border:none !important;
+    margin-bottom: 2px;
+}
+
 .lssm_wachen_selector {
   display: flex;
   margin: 2px;
@@ -299,7 +342,11 @@ div#preloader {
 .lssm_wachen_selector .onoffswitch  .onoffswitch-label:before {
   margin-top: -.5px !important;
   margin-bottom: 4.5px !important;+
-  right: 14.5px;
+right: 14.5px;
+}
+
+.label-ils {
+  background-color: #5e5e5e !important;
 }
 
 .label-fw {
@@ -358,49 +405,49 @@ div#preloader {
 
 
 .onoffswitch{
-    position:relative;
-    width:30px;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    -ms-user-select:none
+  position:relative;
+  width:30px;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none
 }
 .onoffswitch-checkbox{
-    display:none
+  display:none
 }
 .onoffswitch-label{
-    display:block;
-    overflow:hidden;
-    cursor:pointer;
-    height:15px;
-    padding:0;
-    line-height:15px;
-    border:2px solid #CCC;
-    border-radius:15px;
-    background-color:#FFF;
-    transition:background-color .3s ease-in
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+  height:15px;
+  padding:0;
+  line-height:15px;
+  border:2px solid #CCC;
+  border-radius:15px;
+  background-color:#FFF;
+  transition:background-color .3s ease-in
 }
 .onoffswitch-label:before{
-    content:"";
-    display:block !important;
-    width:15px;
-    margin:0;
-    background:#FFF;
-    position:absolute;
-    top:0;
-    bottom:0;
-    right:13px;
-    border:2px solid #CCC;
-    border-radius:15px;
-    transition:all .3s ease-in 0
+  content:"";
+  display:block !important;
+  width:15px;
+  margin:0;
+  background:#FFF;
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:13px;
+  border:2px solid #CCC;
+  border-radius:15px;
+  transition:all .3s ease-in 0
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label{
-    background-color:#49E845
+  background-color:#49E845
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
-    border-color:#49E845
+  border-color:#49E845
 }
 .onoffswitch-checkbox:checked + .onoffswitch-label:before{
-   right:0
+  right:0
 }
 
 
@@ -411,85 +458,15 @@ div#preloader {
 
 ################################################## */
 
-/* Hauptcontainer ohne Rand */
-.container-fluid {
-  padding:0;
-}
-
-/* fixes für den row container */
-div#content.row {
-  margin: 0;
-  margin-top: 20px;
-}
-
-/* Navbar Abstand zum Container entfernen */
-nav.navbar.navbar-default {
-  margin-bottom: 1px;
-}
-
-.missionSideBarEntry .panel-heading {
-  padding: 3px;
-}
-
-/* Einsatzliste Hervorhebung Einsatz wird bearbeitet
-https://i.imgur.com/b2XhPdo.png
-div#mission_panel_473668535.panel.panel-default {
-  border-left: solid 5px #2ecc71;
-  border-radius: 3px
-}
-*/
-/* Einsatzliste Hervorhebung Einsatz NEU
-https://i.imgur.com/Pa3Y6V4.png
-
-div#mission_panel_473668535.panel.panel-default {
-  border-left: solid 5px #e74c3c;
-  border-radius: 3px
-}
-*/
-
-/* small patienten anzahl */
-small[id^='pat_'] {
-  margin: 3px;
-  margin-top: 6px;
-}
-
-/* show hide button */
-.MissionOut {
-  margin: 2px;
-}
-
-/* Einsatz Icon */
-img#icon_ {
-  display: none;
-}
-
-/* Alarm Button Einsatzliste*/
-a#alarm_button {
-  margin-top: 1px;
-  margin-left: 1px;
-}
-
-/* Versteckt die Addresse in der Einsatzliste
-.map_position_mover small {
-  display: none;
-}
-*/
-/* panel heading einsatzliste
-div.panel-heading {
-  margin-bottom: 10px;
-}
-
-für die nachrichten popups - klassen auf label label-danger stellen
-statt 'Chat' -> 'Neue Nachricht!'
 
 
-
+/*
 map styles/filter
 
-colerful » filter: saturate(2) contrast(.7) brightness(1.2);
-nightmode » filter: saturate(.5) contrast(.5) brightness(1.2) invert();
-vintage » filter: saturate(.5);
-colors » filter: hue-rotate(90deg);
+colerful Â» filter: saturate(2) contrast(.7) brightness(1.2);
+nightmode Â» filter: saturate(.5) contrast(.5) brightness(1.2) invert();
+vintage Â» filter: saturate(.5);
+colors Â» filter: hue-rotate(90deg);
 
 
 hue-rotate(20deg)contrast(.8) saturate(.5) invert();
@@ -499,24 +476,13 @@ colorful
   filter: saturate(2) contrast(.7) brightness(1.2);
 }
 
-  css für fms5 in map
+  css fÃ¼r fms5 in map
 
 
 */
-
-.lss_allianceChat {
-  position: fixed;
-  width: 25vw;
-  z-index: 99999;
-  margin-left: -255px;
-  bottom: 30px;
-  right: 40px;
-  cursor: pointer;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
-  display: none;
+.menu-center {
+  text-align: center;
 }
-
 .lss_label {
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -533,99 +499,9 @@ colorful
   background-color: #d9534f
 }
 
-.leaflet-tile-container img {
-  filter: saturate(.5);
+#container_navbar_alarm {
+  margin-bottom: 0px !important;
 }
-
-
-/* fms 5 in map*/
-
-
-li[class^='radio_message_vehicle_']{
-  margin-bottom: 2px;
-  border-radius: 5px;
-  border: none !important;
-}
-
-li[class^='radio_message_vehicle_'] span {
-  border-radius: 5px 0 0 5px !important;
-  padding: 2px;
-  margin-right: 3px;
-  border: none !important;
-  font-weight: 900;
-}
-li[class^='radio_message_vehicle_'] img {
-  height: 20px;
-  margin-bottom: 2px;
-  margin-left: -3px;
-}
-
-li[class^='radio_message_vehicle_'] a {
-  margin-bottom: 1px;
-  font-size: 11px;
-  padding: 1px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-left: -3px;
-  border-radius: 0 !important;
-  border: none !important;
-  color: #212121 !important;
-}
-
-li[class^='radio_message_vehicle_'] a + a {
-  margin-left: 1px;
-  background: red;
-  color: white !important;
-  text-transform: uppercase;
-  /*background-color: #ff0000;
-color: white;
--webkit-animation-name: blink;
-animation-name: blink;
--webkit-animation-iteration-count: infinite;
-animation-iteration-count: infinite;
--webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
-animation-timing-function: cubic-bezier(1, 0, 0, 1);
--webkit-animation-duration: 1s;
-  animation-duration: 1s*/
-}
-
-ul#radio_messages_important {
-  position: absolute;
-  z-index: 999;
-  left: 10px  !important;
-  bottom:10px  !important;
-  opacity: 0.7;
-  display: block;
-  list-style-type: none;
-  width: 50%;
-  color: rgba(0, 0, 0, 0);
-  border: none !important;
-  margin: 0  !important;
-  padding: 0  !important;
-}
-
-span.building_list_fms.building_list_fms_5 {
-  border-radius: 5px;
-  padding: 0px;
-  margin-right: 3px;
-}
-
-.lss_new_case {
-  border-left: solid red 5px !important;
-}
-
-.lss_new_case_in_progress {
-  border-left: solid limegreen 5px !important;
-}
-
-.lss_allianceCase {
-  animation: blinkAlliance .5s step-end infinite alternate;
-}
-
-@keyframes blinkAlliance {
-   50% { border-color: #ff0000; }
-}
-
 
 
 .ui-slider {
@@ -645,7 +521,7 @@ span.building_list_fms.building_list_fms_5 {
 }
 
 .ui-slider-horizontal {
-    height: .8em;
+  height: .8em;
 }
 .ui-slider-horizontal .ui-slider-handle {
   top: -.6em;
@@ -658,7 +534,7 @@ span.building_list_fms.building_list_fms_5 {
 }
 
 .ui-widget.ui-widget-content {
-    /* border: 1px solid #c5c5c5; */
+  /* border: 1px solid #c5c5c5; */
 }
 .ui-widget-content {
   border: 1px solid #dddddd;
@@ -671,8 +547,8 @@ span.building_list_fms.building_list_fms_5 {
 .ui-widget-header .ui-state-default,
 .ui-button,
 
-/* We use html here because we need a greater specificity to make sure disabled
-works properly when clicked or hovered */
+  /* We use html here because we need a greater specificity to make sure disabled
+  works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border: 1px solid #c5c5c5;
@@ -692,17 +568,35 @@ html .ui-button.ui-state-disabled:active {
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
-    border-top-right-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
-    border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
 .ui-corner-br {
-    border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/************
+Animations
+ */
+.glyphicon.spinning {
+  animation: spin 1s infinite linear;
+  -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+  from { transform: scale(1) rotate(0deg); }
+  to { transform: scale(1) rotate(360deg); }
+}
+
+@-webkit-keyframes spin2 {
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
 }

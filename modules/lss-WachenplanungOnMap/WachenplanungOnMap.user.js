@@ -1,9 +1,9 @@
 (function (map, I18n, $) {
-    var markers = [], settings = {set:{fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5}, locale: I18n.locale || 'de', translations: {
+    var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5,showCars:true,showSlider:true,showRadInput:false}, locale: I18n.locale || 'de', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
-        }, prefix: 'WachenplanungOnMap'}, types = {0: ['#ff4b38', 'fw'], 6: ['#1d9b1d', 'pol'], 2: ['#f9ffb7', 'rw'], 9: ['#002aff', 'thw'], 11: ['#0e4f0e', 'bp'], 4: ['#fff000', 'kh'], 12: ['#cdd668','seg'], 15: ['#009dff','wr'], 13: ['#147014','phl'], 5: ['#e6f268','rhl']};
+        }, prefix: 'WachenplanungOnMap'}, types = {7:['#5e5e5e', 'ils'],0: ['#ff4b38', 'fw'], 6: ['#1d9b1d', 'pol'], 2: ['#f9ffb7', 'rw'], 9: ['#002aff', 'thw'], 11: ['#0e4f0e', 'bp'], 4: ['#fff000', 'kh'], 12: ['#cdd668','seg'], 15: ['#009dff','wr'], 13: ['#147014','phl'], 5: ['#e6f268','rhl']};
     function rmLayer(id) {
         if (typeof id === 'undefined') {
             $.each(markers, function (key, value) {
@@ -16,7 +16,7 @@
         }
     }
     function draw(name, col, id, Lat, Lng) {
-        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + car_list_printable(car_list(id)),
+        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + (settings.set.showCars?car_list_printable(car_list(id)):''),
                 circle = L.circle([Lat, Lng], settings.set.radius * 1000, {
                     color: col,
                     fillOpacity: 0.3,
@@ -41,6 +41,10 @@
             //    settings.set['radius'] = Number(el.val());
             //    drawCircles(true);
             //    break;
+            case settings.prefix + '_mark_ils':
+                settings.set['ils'] = el.prop('checked');
+                drawCircles(false, 7);
+                break;
             case settings.prefix + '_mark_fw':
                 settings.set['fw'] = el.prop('checked');
                 drawCircles(false, 0);
@@ -81,12 +85,18 @@
                 settings.set['rhl'] = el.prop('checked');
                 drawCircles(false, 5);
                 break;
+            case settings.prefix + '_mark_showCars':
+                settings.set['showCars'] = el.prop('checked');
+                drawCircles(true);
+                break;
         }
-        localStorage.setItem(settings.prefix,JSON.stringify(settings.set));
+        lssm_settings.set(settings.prefix, settings.set);
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
         html += '<div><span class="label label-default" style="margin-bottom:10px;">Radius</span><div id="lssm_radius_slider"><div id="lssm_radius_handle" class="label label-info ui-slider-handle"></div></div></div>';
+        html+= '<div><input class="numeric integer" '+(settings.set.showRadInput?'':'style="display:none;"')+' id="lssm_radius_slider_input" step="1" type="number" value="0"></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_ils" ' + (settings.set.ils ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_ils"></label></div><span class="label label-ils">Leitstelle</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div><span class="label label-fw">Feuerwehr</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div><span class="label label-pol">Polizei</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_phl" ' + (settings.set.phl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_phl"></label></div><span class="label label-phl">Polizei Helikopter</span></div>';
@@ -95,8 +105,9 @@
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rhl" ' + (settings.set.rhl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rhl"></label></div><span class="label label-rhl">Rettungs Helikopter</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_seg" ' + (settings.set.seg ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_seg"></label></div><span class="label label-seg">SEG</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_kh" ' + (settings.set.kh ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_kh"></label></div><span class="label label-kh">Krankenhaus</span></div>';
-        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" ' + (settings.set.thw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div><span class="label label-thw">THW</span></div>';        
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_thw" ' + (settings.set.thw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_thw"></label></div><span class="label label-thw">THW</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_wr" ' + (settings.set.wr ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_wr"></label></div><span class="label label-wr">Wasserrettung</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_showCars" ' + (settings.set.showCars ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_showCars"></label></div><span class="label label-default">Zeige Fahrzeuge?</span></div>';
         html += '</div>';
         $('#map_outer').append(html);
         $('#' + settings.prefix + '_settings').change(changeSetting);
@@ -119,17 +130,33 @@
 
     function setCircleRadius(){
         var handle = $( "#lssm_radius_handle" );
+        $('#lssm_radius_slider_input').val(settings.set.radius).change(function(){
+            settings.set.radius = $(this).val();
+            $( "#lssm_radius_slider" ).slider("option", "value",  settings.set.radius);
+            handle.text( settings.set.radius + ' km');
+            drawCircles(true);
+            lssm_settings.set(settings.prefix, settings.set);
+        });
+        $('#lssm_radius_slider,#lssm_radius_slider_input').dblclick(function(){
+            $('#lssm_radius_slider_input,#lssm_radius_slider').toggle("slow");
+            settings.set.showRadInput = !settings.set.showRadInput;
+            settings.set.showSlider = !settings.set.showSlider;
+            lssm_settings.set(settings.prefix, settings.set);
+        });
         $( "#lssm_radius_slider" ).slider({
             min: 3,
-            max: 50,
+            max: 400,
             value: settings.set.radius,
-            
+
             create: function() {
                 handle.text( $( this ).slider( 'value' ) + ' km');
+                !settings.set.showSlider && $(this).hide();
+                
             },
             slide: function( event, ui ) {
                 handle.text( ui.value + ' km' );
                 settings.set.radius = ui.value;
+                $('#lssm_radius_slider_input').val(settings.set.radius);
             },
             stop: function( event, ui ) {
                 drawCircles(true);
@@ -138,7 +165,7 @@
     }
     // settings mit settings aus Storage erweitern
     map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
-    $.extend(settings.set,JSON.parse(localStorage.getItem(settings.prefix)));
+    $.extend(settings.set,lssm_settings.get(settings.prefix, null));
     // Einstellungen erstellen
     createSettings();
     // alle aktiven Typen zeichnen

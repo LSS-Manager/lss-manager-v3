@@ -71,17 +71,18 @@
 	cursor: pointer;
 }
 
+.lssm_menu_btn:hover svg, .lssm_menu_btn:hover img {
+	-webkit-filter: invert(100%) contrast(10);
+	filter: invert(100%) contrast(10);
+}
+
 .lssm_menu_btn_active {
 	padding: 10px;
 	background-color: #c9302c;
 	border-radius: 4px;
 }
 .lssm_menu_btn_active img{
-	-webkit-filter: invert(100%) contrast(10); 
-	filter: invert(100%) contrast(10);
-}
-.lssm_menu_btn_svg:hover{
-	-webkit-filter: invert(100%) contrast(10); 
+	-webkit-filter: invert(100%) contrast(10);
 	filter: invert(100%) contrast(10);
 }
 

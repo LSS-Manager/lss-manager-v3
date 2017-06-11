@@ -1,0 +1,222 @@
+
+.panel-footer{
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px
+}
+
+.dropdown-menu {
+  background-color: rgb(225, 74, 42) !important;
+  border:none !important;
+  border-radius: 0 0 5px 5px;
+}
+
+
+
+
+
+/* ##################################################
+
+              CUSTOM STYLES
+
+################################################## */
+
+/* Hauptcontainer ohne Rand */
+.container-fluid {
+  padding:0;
+}
+
+/* fixes fÃ¼r den row container */
+div#content.row {
+  margin: 0;
+  margin-top: 20px;
+}
+
+/* Navbar Abstand zum Container entfernen */
+nav.navbar.navbar-default {
+  margin-bottom: 1px;
+}
+
+.missionSideBarEntry .panel-heading {
+  padding: 3px;
+}
+
+/* Einsatzliste Hervorhebung Einsatz wird bearbeitet
+https://i.imgur.com/b2XhPdo.png
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #2ecc71;
+  border-radius: 3px
+}
+*/
+/* Einsatzliste Hervorhebung Einsatz NEU
+https://i.imgur.com/Pa3Y6V4.png
+
+div#mission_panel_473668535.panel.panel-default {
+  border-left: solid 5px #e74c3c;
+  border-radius: 3px
+}
+*/
+
+/* small patienten anzahl */
+small[id^='pat_'] {
+  margin: 3px;
+  margin-top: 6px;
+}
+
+/* show hide button */
+.MissionOut {
+  margin: 2px;
+}
+
+/* Einsatz Icon */
+img#icon_ {
+  display: none;
+}
+
+/* Alarm Button Einsatzliste*/
+a#alarm_button {
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+/* Versteckt die Addresse in der Einsatzliste
+.map_position_mover small {
+  display: none;
+}
+*/
+/* panel heading einsatzliste
+div.panel-heading {
+  margin-bottom: 10px;
+}
+
+fÃ¼r die nachrichten popups - klassen auf label label-danger stellen
+statt 'Chat' -> 'Neue Nachricht!'
+
+
+
+map styles/filter
+
+colerful Â» filter: saturate(2) contrast(.7) brightness(1.2);
+nightmode Â» filter: saturate(.5) contrast(.5) brightness(1.2) invert();
+vintage Â» filter: saturate(.5);
+colors Â» filter: hue-rotate(90deg);
+
+
+hue-rotate(20deg)contrast(.8) saturate(.5) invert();
+
+colorful
+#map{
+  filter: saturate(2) contrast(.7) brightness(1.2);
+}
+
+  css fÃ¼r fms5 in map
+
+
+*/
+
+.lss_allianceChat {
+  position: fixed;
+  width: 25vw;
+  z-index: 99999;
+  margin-left: -255px;
+  bottom: 30px;
+  right: 40px;
+  cursor: pointer;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  box-shadow: rgba(0, 0, 0, 0.619608) 0px 0px 28px -11px;
+  display: none;
+}
+
+.lss_label {
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em
+}
+
+.lss_label-danger {
+  background-color: #d9534f
+}
+
+.leaflet-tile-container img {
+  filter: saturate(.5);
+}
+
+
+/* fms 5 in map*/
+
+
+li[class^='radio_message_vehicle_']{
+  margin-bottom: 2px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+li[class^='radio_message_vehicle_'] span {
+  font-weight: 900;
+}
+li[class^='radio_message_vehicle_'] img {
+  height: 20px;
+  margin-bottom: 2px;
+  margin-left: -3px;
+}
+
+li[class^='radio_message_vehicle_'] a {
+  margin-bottom: 1px;
+  font-size: 11px;
+  padding: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: -3px;
+  border-radius: 0 !important;
+  border: none !important;
+  color: #212121 !important;
+}
+
+li[class^='radio_message_vehicle_'] a + a {
+  margin-left: 1px;
+  background: red;
+  color: white !important;
+  text-transform: uppercase;
+  /*background-color: #ff0000;
+color: white;
+-webkit-animation-name: blink;
+animation-name: blink;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+animation-timing-function: cubic-bezier(1, 0, 0, 1);
+-webkit-animation-duration: 1s;
+  animation-duration: 1s*/
+}
+
+.lss_new_case {
+  border-left: solid red 5px !important;
+}
+
+.lss_new_case_in_progress {
+  border-left: solid limegreen 5px !important;
+}
+
+div#iframe-inside-container.container-fluid.lss_new_case {
+  border: none !important;
+}
+
+.lss_allianceCase {
+  animation: blinkAlliance .5s step-end infinite alternate;
+}
+
+@keyframes blinkAlliance {
+  50% { border-color: #ff0000; }
+}
+
+#container_navbar_alarm {
+  margin-bottom: 0px !important;
+}
