@@ -121,6 +121,10 @@ body {
   background-image: none !important;
 }
 
+body.dark .panel-heading {
+  background: #212121 !important;
+}
+
 div#preloader {
   text-align:center;
   z-index:9999;
