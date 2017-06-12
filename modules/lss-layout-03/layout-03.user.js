@@ -20,6 +20,8 @@
 	$('#building_selection_rettung').text('RD');
 	$('#building_selection_polizei').text('POL');
 	$('#building_selection_wasserrettung').text('WR');
+	$('#building_selection_schule').text('SCH');
+	$('#building_selection_leitstelle').text('ILS');
 	map.invalidateSize(true);
 
 })();
