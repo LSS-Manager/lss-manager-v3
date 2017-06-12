@@ -205,7 +205,7 @@ lssm.Module = {
     keyboardAlert: {
         name: {
             de: 'Keyboard Alarmierung',
-            en: 'Callview control'
+            en: 'Callview control',
             nl: 'Besturing met toetsenbord'
         },
         active: false,
@@ -284,7 +284,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
-            en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.'
+            en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.',
             nl: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
@@ -314,7 +314,7 @@ lssm.Module = {
     },
     MissionOut: {
         name: {
-            de: 'MissionOut'
+            de: 'MissionOut',
             nl: 'Meldingen inklappen'
         },
         active: false,
@@ -351,7 +351,7 @@ lssm.Module = {
     },
     Notification_Alert: {
         name: {
-            de: 'Notification Alert'
+            de: 'Notification Alert',
             nl: 'Browsermeldingen'
         },
         active: false,
@@ -374,7 +374,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Neues Design für die Oberfläche',
-            en: 'New design for the game.'
+            en: 'New design for the game.',
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
@@ -446,7 +446,7 @@ lssm.Module = {
         name: {
             de: 'Einsätze markieren',
             en: 'Mark calls',
-            nl: 'Meldingen markeren.
+            nl: 'Meldingen markeren.'
         },
         active: false,
         description: {
@@ -705,7 +705,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeigt benötigte Fahrzeuge an!.',
-            en: 'Shows required vehicles in mission mask.'
+            en: 'Shows required vehicles in mission mask.',
             nl: 'Toont de benodigde voertuigen in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
