@@ -88,5 +88,9 @@
         newCalls = 0;
         $('#lssm_callsAmount').text('');
     });
+    $('#building_selection_feuerwehr').text('FW');
+  	$('#building_selection_rettung').text('RD');
+  	$('#building_selection_polizei').text('POL');
+  	$('#building_selection_wasserrettung').text('WR');
     map.invalidateSize(true);
 })();
