@@ -18,7 +18,7 @@ I18n.translations.de['lssm']['dashboard'] = {
     wachen: 'Wachen',
     anz: 'Anzahl',
     categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
-    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg'],
+    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg','bepo'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
     nofz: "Keine Fahrzeuge vorhanden",
 }
