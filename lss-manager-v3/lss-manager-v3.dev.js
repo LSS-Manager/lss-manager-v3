@@ -565,7 +565,7 @@ lssm.Module = {
         description: {
             de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
             en: 'Sends data to the developer team for the purpose of creating a statistic',
-            en: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
+            nl: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
         },
         source: '/modules/telemetry/telemetry.user.js',
         noapp: true, // Nicht im App-Store auflisten
