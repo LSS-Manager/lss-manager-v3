@@ -112,10 +112,15 @@ I18n.translations.en['lssm'] = {
 };
 I18n.translations.nl['lssm'] = {
     lssm: "LSS-Manager",
-    appstore: "App winkel",
-    appstore_welcome: "Welkom bij de App winkel van LSS Manager",
-    appstore_desc: "Dit zijn verschillende plug-ins die uw game-ervaring zal verbeteren. Elke plugin kan individueel worden geactiveerd, door te vragen de hendel naar groen. Mochten er problemen zijn, kunt u <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">een bericht plaatsen of een bericht posten op het forum zoals wij</a>.",
-    back_lss: "Terug naar meldkamerspel",
+    appstore: "App Store",
+    appstore_welcome: "Welkom bij de App Store van LSS Manager",
+    appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er problemen zijn, kunt u <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
+    back_lss: "Terug naar Meldkamerspel",
+    settings: "Instellingen",
+    saving: "Wijzigingen aan het opslaan...",
+    save: "Opslaan",
+    activated: "De volgende modules zijn geactiveerd:",
+    cantactivate: "Kan niet worden geactiveerd omdat deze module niet samenwerkt met de volgende module(s):",
     apps: {}
 };
 
@@ -200,12 +205,14 @@ lssm.Module = {
     keyboardAlert: {
         name: {
             de: 'Keyboard Alarmierung',
-            en: 'Callview control'
+            en: 'Callview control',
+            nl: 'Besturing met toetsenbord'
         },
         active: false,
         description: {
             de: 'Einsatzmaske mit Tastatur steuern.',
             en: 'Control the mission view with the keyboard.',
+            nl: 'Bestuur het meldingscherm met het toetsenbord.'
         },
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         develop: false,
@@ -222,7 +229,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen Fensters im Menu.',
-            en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.'
+            en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge is telling you how many missions etc. you have since your last visit within that window.',
+            nl: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
         develop: false,
@@ -239,7 +247,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & Funksprüche.',
-            en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.'
+            en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
+            nl: 'Design met een grote kaart bovenaan je scherm. onder de kaart zijn de vier overige schermen; meldingen, gebouwen, chat en statusmeldingen weergegeven.'
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
@@ -257,7 +266,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
-            en: 'Layout without map. The four windows are using 100% of the given browser height.'
+            en: 'Layout without map. The four windows are using 100% of the given browser height.',
+            nl: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
         develop: false,
@@ -274,7 +284,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
-            en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.'
+            en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. Below that the buildings, chat and radio.',
+            nl: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
@@ -291,6 +302,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Vollständig anpassbares Layout',
+            nl: 'Een volledig aanpasbaar design'
         },
         source: '/modules/lss-layout-05/layout-05.user.js',
         develop: true,
@@ -302,12 +314,14 @@ lssm.Module = {
     },
     MissionOut: {
         name: {
-            de: 'MissionOut'
+            de: 'MissionOut',
+            nl: 'Meldingen inklappen'
         },
         active: false,
         description: {
             de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for each one.',
+            nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
         develop: false,
@@ -319,12 +333,14 @@ lssm.Module = {
     saveVGE: {
         name: {
             de: 'Eigene VGE speichern',
-            en: 'Save created alliance calls'
+            en: 'Save created alliance calls',
+            nl: 'Zelgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
             de: 'Funktion um sebst erstlle VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
+            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens kan gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false,
@@ -335,12 +351,14 @@ lssm.Module = {
     },
     Notification_Alert: {
         name: {
-            de: 'Notification Alert'
+            de: 'Notification Alert',
+            nl: 'Browsermeldingen'
         },
         active: false,
         description: {
             de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)',
             en: 'HTML5 Chatnotifications using the browser notificationsystem.',
+            nl: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit meer een chat of melding hoeft te missen.'
         },
         source: '/modules/lss-notification_alert/Notification_alarm.user.js',
         develop: false,
@@ -356,7 +374,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Neues Design für die Oberfläche',
-            en: 'New design for the game.'
+            en: 'New design for the game.',
+            nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
         develop: false,
@@ -368,12 +387,14 @@ lssm.Module = {
     FMS5InMap: {
         name: {
             de: 'FMS 5 in der Karte',
-            en: 'Request transport in map'
+            en: 'Request transport in map',
+            nl: 'Spraakaanvragen op de kaart weergeven.'
         },
         active: false,
         description: {
             de: 'Zeigt alle FMS 5 in der Karte an.',
-            en: 'Shows request transports within the map lower left corner.'
+            en: 'Shows request transports within the map lower left corner.',
+            nl: 'Toont alle spraakaanvragen op de kaart.'
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
         develop: false,
@@ -385,12 +406,14 @@ lssm.Module = {
     },
     Clock: {
         name: {
-            de: 'Clock'
+            de: 'Clock',
+            nl: 'Klok'
         },
         active: false,
         description: {
             de: 'Zeigt eine Uhr in der Karte an.',
             en: 'Enables a small clock within the map.',
+            nl: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
         develop: false,
@@ -402,12 +425,14 @@ lssm.Module = {
     WachenplanungOnMap: {
         name: {
             de: 'Wachenplanung auf der Karte',
-            en: 'Station management on map'
+            en: 'Station management on map',
+            nl: 'Gebouwplanning op de kaart.'
         },
         active: false,
         description: {
             de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Gebäude sind wählbar.',
             en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for specific buildings.',
+            nl: 'Toont cirkels met een zelf in te stellen radius rondom gebouwen. Je kunt ook filteren op specifieke gebouwen.'
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         develop: false,
@@ -420,12 +445,14 @@ lssm.Module = {
     tagMissions: {
         name: {
             de: 'Einsätze markieren',
-            en: 'Mark calls'
+            en: 'Mark calls',
+            nl: 'Meldingen markeren.'
         },
         active: false,
         description: {
             de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
             en: 'Got inplemented into the game - deactivated for now.',
+            nl: 'Zit in het spel ingebouwd - momenteel gedeactiveerd.'
         },
         source: '/modules/lss-tagMissions/tagMissions.user.js',
         develop: true,
@@ -437,12 +464,14 @@ lssm.Module = {
     allianceMissionlistShare: {
         name: {
             de: 'Einsätze freigeben',
-            en: 'Mission share'
+            en: 'Mission share',
+            nl: 'Meldingen vrijgeven'
         },
         active: false,
         description: {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
-            en: 'Instantly share missions without opening the call by clicking a button in the overview.'
+            en: 'Instantly share missions without opening the call by clicking a button in the overview.',
+            nl: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in de meldingenlijst.'
         },
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false,
@@ -454,12 +483,14 @@ lssm.Module = {
     searchMissions: {
         name: {
             de: 'Einsätze suchen',
-            en: 'Mission search'
+            en: 'Mission search',
+            nl: 'Meldingen doorzoeken'
         },
         active: false,
         description: {
             de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
-            en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.'
+            en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.',
+            nl: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat je snel door je meldingen bladeren.'
         },
         source: '/modules/lss-searchMissions/searchMissions.user.js',
         develop: false,
@@ -475,7 +506,8 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Dashboard',
-            en: 'Dashboard'
+            en: 'Dashboard',
+            nl: 'Een Dashboard waarin je een duidelijk overzicht krijgt van je gebouwen en voertuigen.'
         },
         source: '/modules/lss-dashboard/dashboard.user.js',
         develop: false,
@@ -487,12 +519,14 @@ lssm.Module = {
     WachenHoverStati: {
         name: {
             de: 'Wachen Status',
-            en: 'Station status'
+            en: 'Station status',
+            nl: 'Voertuigstatus bij gebouwen'
         },
         active: false,
         description: {
             de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en: 'Shows the code of vehciles on station hover on the map.',
+            nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
         develop: false,
@@ -504,12 +538,14 @@ lssm.Module = {
     RenameFZ: {
         name: {
             de: 'Fahrzeuge umbennenen',
-            en: 'Rename vehicle'
+            en: 'Rename vehicle',
+            nl: 'Voertuigen herbenoemen'
         },
         active: false,
         description: {
             de: 'Fahrzeuge in bulk mit Tags umbennenen.',
             en: 'Rename vehicles in bulk using tags.',
+            nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met behulp van tags.'
         },
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
         inframe: true,
@@ -522,13 +558,14 @@ lssm.Module = {
     telemetry: {
         name: {
             de: 'Telemetrie',
-            en: 'Telemetry'
+            en: 'Telemetry',
+            nl: 'Telemetrie'
         },
         active: true,
         description: {
             de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
             en: 'Sends data to the developer team for the purpose of creating a statistic',
-            en: 'Stuurt gegevens naar het development team voor het doel van de schepping van een statistiek'
+            en: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
         },
         source: '/modules/telemetry/telemetry.user.js',
         noapp: true, // Nicht im App-Store auflisten
@@ -540,7 +577,8 @@ lssm.Module = {
     },
     mapreload: {
         name: {
-            de: 'Map Reload'
+            de: 'Map Reload',
+            nl: 'Kaart opnieuw laden'
         },
         active: true,
         description: {
@@ -557,11 +595,13 @@ lssm.Module = {
     showBackAlarmAbove: {
         name: {
             de: 'show Back Alarm Above',
-            en: 'show Back Alarm Above'
+            en: 'show Back Alarm Above',
+            nl: 'Extra annuleerknop'
         },
         active: false,
         description: {
-            de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an'
+            de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
+            nl: 'Voegt een extra annuleerknop toe bovenaan de voertuiglijst.'
         },
         source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -575,11 +615,13 @@ lssm.Module = {
     aaosearch: {
         name: {
             de: 'AAO-Suche',
-            en: 'AAO-Search'
+            en: 'AAO-Search',
+            nl; 'AUR-zoekfuncties'
         },
         active: false,
         description: {
-            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown'
+            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
+            nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
         },
         source: '/modules/lss-aao-search/aao-search.user.js',
         noapp: false,
@@ -593,12 +635,14 @@ lssm.Module = {
     recolor: {
         name: {
             de: 'Einfärben',
-            en: 'Colorize'
+            en: 'Colorize',
+            nl 'Hoofdkleur veranderen'
         },
         active: false,
         description: {
             de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
-            en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS'
+            en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
+            nl: 'Verander de kleur van meldkamerspel. DEZE FUNCTIE IS NOG IN AANBOUW.'
         },
         source: '/modules/lss-recolor/recolor.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -612,12 +656,14 @@ lssm.Module = {
     heatmap: {
         name: {
             de: 'LS-Heatmap',
-            en: 'LS-Heatmap'
+            en: 'LS-Heatmap',
+            nl: 'Voertuigspreiding weergeven'
         },
         active: false,
         description: {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
-            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.'
+            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
+            nl; 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -631,12 +677,14 @@ lssm.Module = {
     missionTabs: {
         name: {
             de: 'Einsatztabs',
-            en: 'Missiontabs'
+            en: 'Missiontabs',
+            nl: 'Meldingtabbladen'
         },
         active: false,
         description: {
             de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
-            en: 'Shows the missions in own dedicated tabs instead of filtering them.'
+            en: 'Shows the missions in own dedicated tabs instead of filtering them.',
+            nl: 'Geeft de Meldingen in tabbladen weer.'
         },
         source: '/modules/lss-missionTabs/missionTabs.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -651,12 +699,14 @@ lssm.Module = {
     missionHelper: {
         name: {
             de: 'Einsatzhelfer',
-            en: 'Missionhelper'
+            en: 'Missionhelper',
+            nl: 'Meldinghelper'
         },
         active: false,
         description: {
             de: 'Zeigt benötigte Fahrzeuge an!.',
-            en: 'Shows required vehicles in mission mask.'
+            en: 'Shows required vehicles in mission mask.',
+            nl: 'Toont de benodigde voertuigen in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
         noapp: false, // Nicht im App-Store auflisten
