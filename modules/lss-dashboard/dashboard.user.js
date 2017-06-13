@@ -17,7 +17,7 @@ I18n.translations.de['lssm']['dashboard'] = {
     school: 'Schulen',
     wachen: 'Wachen',
     anz: 'Anzahl',
-    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG'],
+    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
     categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
     nofz: "Keine Fahrzeuge vorhanden",
@@ -62,7 +62,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 (function ($, I18n) {
     function loadGraphs() {
         // Building Bar Chart
-        var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0};
+        var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0, 'bepo':0};
         $.each(get_buildings(), function (key, build) {
             switch (build.stationType) {
                 //Feuerwehr
@@ -85,7 +85,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     building_amount.kh += 1;
                     break;
                     //Pol
-                case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                 case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
                 case BUILDING_TYPE_POLIZEIWACHE:
                     building_amount.pol += 1;
@@ -108,6 +107,9 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_SEG:
                     building_amount.seg += 1;
                     break;
+                case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
+                    building_amount.bepo += 1;
+                    break;
             }
         });
         data_station = [];
@@ -124,7 +126,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         }
         $('#buildings_chart').highcharts({
             chart: {type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200'},
-            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow'],
+            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow', 'darkgreen'],
             title: {text: I18n.t('lssm.dashboard.ge')},
             xAxis: {categories: I18n.t('lssm.dashboard.categories')},
             yAxis: {title: {text: I18n.t('lssm.dashboard.anz')}},
