@@ -616,7 +616,7 @@ lssm.Module = {
         name: {
             de: 'AAO-Suche',
             en: 'AAO-Search',
-            nl; 'AUR-zoekfuncties'
+            nl: 'AUR-zoekfuncties'
         },
         active: false,
         description: {
@@ -663,7 +663,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
-            nl; 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
+            nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
