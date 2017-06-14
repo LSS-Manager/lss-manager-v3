@@ -636,7 +636,7 @@ lssm.Module = {
         name: {
             de: 'Einfärben',
             en: 'Colorize',
-            nl 'Hoofdkleur veranderen'
+            nl: 'Hoofdkleur veranderen'
         },
         active: false,
         description: {
