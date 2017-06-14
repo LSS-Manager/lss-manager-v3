@@ -12,7 +12,7 @@
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://cdn.rawgit.com/Suchty112/lss-manager-v3/dev", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.2",
