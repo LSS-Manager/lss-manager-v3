@@ -124,7 +124,7 @@ de = {
     "8": ["Utility unit", 0],
     "9": ["HazMat", 0],
     "10": ["Patrol Car", 2],
-    "11": ["HEMS", 0],
+    "11": ["HEMS", 1],
     "12": ["Mobile command vehicle", 0],
     "13": ["Quint", 0],
     "14": ["Policehelicopter", 2],
