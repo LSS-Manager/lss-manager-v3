@@ -964,7 +964,6 @@
 
     var mission_id = Number(tmp_arr[length-1]);
 
-    I18n.locale = 'nl';
     switch(mission_id)
     {
         case 0:
