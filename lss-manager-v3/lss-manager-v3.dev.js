@@ -673,6 +673,25 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
+    },
+    centermap: {
+        name: {
+            de: 'Center-Map',
+            en: 'Center-Map'
+        },
+        active: false,
+        description: {
+            de: 'Ändert das Standardverhalten dahingehend, dass beim Aufruf der Seite nicht mehr zwingend die Leitstelle im Mittelpunkt steht, sondern alle Einsätze auf einen Blick im optimalen Zoom-Level sichtbar sind.',
+            en: 'Modifies default behavior that all missions are visible on page load with an optimal zoom-level.'
+        },
+        source: '/modules/lss-centermap/Centermap.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     },/*
     missionTabs: {
         name: {
