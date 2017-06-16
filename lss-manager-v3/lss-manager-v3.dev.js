@@ -10,7 +10,7 @@
 $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
         options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = true;
+        options.cache = false;
     }
 });
 
@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function(a, i, m) {
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://lss-manager.de/lss-entwicklung-mirko", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.3",

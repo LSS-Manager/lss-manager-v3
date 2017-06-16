@@ -131,7 +131,8 @@ lssm.car_list = function(building) {
             "id": $(element).attr('vehicle_id'),
             "name": $(element).find('a').html(),
             "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html()
+            "fms": $(element).find(".building_list_fms").html(),
+            "classes": $(element).find(".building_list_fms").attr('class')
         });
     });
     return data;
@@ -143,7 +144,8 @@ lssm.car_list_all = function() {
             "id": $(element).attr('vehicle_id'),
             "name": $(element).find('a').html(),
             "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html()
+            "fms": $(element).find(".building_list_fms").html(),
+            "classes": $(element).find(".building_list_fms").attr('class')
         });
     });
     return data;
@@ -152,7 +154,7 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     var data = "";
     $.each(list, function (key, car) {
-        data += "<div style=\"margin-top: 3px;\"><span class='building_list_fms building_list_fms_" + car.fms + "'>" + car.fms + "</span> " + car.name +"</div>";
+        data += "<div style=\"margin-top: 3px;\"><span class=\""+ car.classes +"\">" + car.fms + "</span> " + car.name +"</div>";
     });
     return data;
 }
@@ -180,19 +182,6 @@ lssm.get_buildings = function() {
     return data;
 };
 
-lssm.car_list = function(building) {
-    // liefert die Fahrzeuge einer Wache zurück
-    var data = [];
-    $('#vehicle_building_' + building).find('li').each(function (index, element) {
-        data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html()
-        });
-    });
-    return data;
-};
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
