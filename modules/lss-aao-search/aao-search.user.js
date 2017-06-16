@@ -52,9 +52,16 @@
         if(typeof option.id == "undefined" || option.id == "-1") {
             return option.text;
         }
-        var available = document.getElementById("available_"+option.id.replace(/vehicle_group_/,'')).innerHTML;
-        var bg = $("#aao_"+option.id).css("background-color");
-        option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
+        option.id = option.id.replace(/vehicle_group_/,'');
+        console.log(option.id);
+        var available = document.getElementById("available_"+option.id).innerHTML;
+        var bg = $("#"+option.id).css("background-color");
+        console.log(bg);
+        if (typeof bg != "undefined")
+            option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
+        else
+            option = $('<span>'+available + option.text+'</span>');
+        console.log(option);
         return option;
     }
     function activateSearch()
