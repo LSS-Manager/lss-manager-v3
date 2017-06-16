@@ -24,17 +24,9 @@
     	map.fitBounds([[lat_min, lng_min],[lat_max, lng_max]]);
     }
     
-    function renderCenterButton(){
-        $('.leaflet-control-container .leaflet-top.leaflet-left').append('<div id="lss-centermap" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="lss-centermap-img" style="height: 24px; width: 24px; cursor: pointer;" src="' + lssm.getlink("/modules/lss-centermap/img/lss-centermap.png") + '" alt="' + I18n.t('lssm.centermap.center') + '"></div>');
-        $('#lss-centermap-img').on('click', function(){
-        	$(map).trigger('lssm-map-reload');
-        });
-    }
-    
     $(map).on('lssm-map-reload', function(){
     	centerMap();
     });
-    
-    renderCenterButton();
+   
     centerMap();
 })(I18n, jQuery);

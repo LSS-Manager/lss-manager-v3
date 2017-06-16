@@ -735,7 +735,7 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
-    }
+    },
     statusDispatching: {
         name: {
             de: 'Verbesserte Status 5',
