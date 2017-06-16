@@ -27,7 +27,6 @@ var BrennendeHecke = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var ÄsteaufFahrbahn = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var UmherfliegendesBaumaterial = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BaumaufRadweg = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-//var Kabeldiebstahl = "2x Funkstreifenwagen (100%) </br> 1x Polizeihubschrauber (100%)";
 //2 FW-Wache
 var Wohnwagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennenderLKW ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
