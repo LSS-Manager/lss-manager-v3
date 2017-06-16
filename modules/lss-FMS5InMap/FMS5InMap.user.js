@@ -14,7 +14,7 @@
      })*/
     var radio_message_important = $("#radio_messages_important");
     $('<div id="' + lssm.config.prefix + '_fm5InMapDiv' + '"></div>')
-            .css(lssm_settings.get(lssm.config.prefix + "_fm5InMapPosition", {}))
+            .css(lssm.settings.get(lssm.config.prefix + "_fm5InMapPosition", {}))
             .css({"position": "absolute", "z-index": "9999"})
             .draggable({containment: "#map",
                 scroll: false,
@@ -23,7 +23,7 @@
                 },
                 stop: function (e, i) {
                     map.dragging.enable();
-                    lssm_settings.set(lssm.config.prefix + "_fm5InMapPosition", i.position);
+                    lssm.settings.set(lssm.config.prefix + "_fm5InMapPosition", i.position);
                 }})
             .prependTo('#map')
             .append(radio_message_important);

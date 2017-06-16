@@ -56,12 +56,12 @@
             'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '1000'}
         };
 
-        if (!lssm_settings.get(LS_HEATMAP_STORAGE)) {
+        if (!lssm.settings.get(LS_HEATMAP_STORAGE)) {
             for (var key in settings) {
                 settings[key].value = settings[key].default;
             }
         } else {
-            settings = lssm_settings.get(LS_HEATMAP_STORAGE);
+            settings = lssm.settings.get(LS_HEATMAP_STORAGE);
         }
         return settings;
     }
@@ -88,8 +88,8 @@
             }
         }
 
-        lssm_settings.remove(LS_HEATMAP_STORAGE);
-        lssm_settings.set(LS_HEATMAP_STORAGE, settings);
+        lssm.settings.remove(LS_HEATMAP_STORAGE);
+        lssm.settings.set(LS_HEATMAP_STORAGE, settings);
 
         if(reload) parent.location.reload();
     }
@@ -131,9 +131,9 @@
 
                 $(availableVehicleTypes).each(function(){
                     if(getSetting('heatmap-vehicle') == this){
-                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + carsById[this][0] + '</option>');
+                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     } else {
-                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + carsById[this][0] + '</option>');
+                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     }
                 });
 
@@ -171,7 +171,7 @@
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
 
                 $('#heatmap_reset').click(function () {
-                    lssm_settings.remove(LS_HEATMAP_STORAGE);
+                    lssm.settings.remove(LS_HEATMAP_STORAGE);
                     renderMap();
                     $('#ls-heatmap-config-img').click();
                     $('#ls-heatmap-config-img').click();

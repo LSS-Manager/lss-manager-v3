@@ -14,7 +14,7 @@
     /**
      * Creates a select
      */
-    var use_dropdown = lssm_settings.get("aaos_dropdown", false).toString();
+    var use_dropdown = lssm.settings.get("aaos_dropdown", false).toString();
     function addToDropdown()
     {
         "use strict";
@@ -129,7 +129,7 @@
 
     $("#lssm_aao_search_dropdown").on("click", function() {
         "use strict";
-        lssm_settings.set("aaos_dropdown", this.checked);
+        lssm.settings.set("aaos_dropdown", this.checked);
         if(this.checked)
         {
             $("#lssm_aao_search,#lssm_aao_results,#lssm_vehicle_group_results").remove();

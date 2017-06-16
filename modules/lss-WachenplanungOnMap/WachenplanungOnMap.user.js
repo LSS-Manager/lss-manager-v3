@@ -16,7 +16,7 @@
         }
     }
     function draw(name, col, id, Lat, Lng) {
-        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + (settings.set.showCars?car_list_printable(car_list(id)):''),
+        var cars = '<span class="building_leaflet_text" style="z-index:99999; color: ' + col + ';"><i class="fa fa-building"></i> ' + name + '</span>' + (settings.set.showCars?lssm.car_list_printable(lssm.car_list(id)):''),
                 circle = L.circle([Lat, Lng], settings.set.radius * 1000, {
                     color: col,
                     fillOpacity: 0.3,
@@ -90,7 +90,7 @@
                 drawCircles(true);
                 break;
         }
-        lssm_settings.set(settings.prefix, settings.set);
+        lssm.settings.set(settings.prefix, settings.set);
     }
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
@@ -114,7 +114,7 @@
         setCircleRadius();
     }
     function drawCircles(all, type) {
-        var data = get_buildings();
+        var data = lssm.get_buildings();
         $.each(data, function (key, value) {
             if (all) {
                 rmLayer(value.stationId);
@@ -135,13 +135,13 @@
             $( "#lssm_radius_slider" ).slider("option", "value",  settings.set.radius);
             handle.text( settings.set.radius + ' km');
             drawCircles(true);
-            lssm_settings.set(settings.prefix, settings.set);
+            lssm.settings.set(settings.prefix, settings.set);
         });
         $('#lssm_radius_slider,#lssm_radius_slider_input').dblclick(function(){
             $('#lssm_radius_slider_input,#lssm_radius_slider').toggle("slow");
             settings.set.showRadInput = !settings.set.showRadInput;
             settings.set.showSlider = !settings.set.showSlider;
-            lssm_settings.set(settings.prefix, settings.set);
+            lssm.settings.set(settings.prefix, settings.set);
         });
         $( "#lssm_radius_slider" ).slider({
             min: 3,
@@ -165,7 +165,7 @@
     }
     // settings mit settings aus Storage erweitern
     map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
-    $.extend(settings.set,lssm_settings.get(settings.prefix, null));
+    $.extend(settings.set,lssm.settings.get(settings.prefix, null));
     // Einstellungen erstellen
     createSettings();
     // alle aktiven Typen zeichnen

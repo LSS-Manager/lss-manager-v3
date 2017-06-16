@@ -7,15 +7,29 @@
 
 
 /**
- * Localization
+ * Tell jQuery to allow caching beforehand!
  */
+$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
+    if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
+        options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
+        options.cache = true;
+    }
+});
+
+/**
+ * Make case insensetive :contains() possible
+ */
+jQuery.expr[':'].containsci = function(a, i, m) {
+    return jQuery(a).text().toUpperCase()
+            .indexOf(m[3].toUpperCase()) >= 0;
+};
 
 var lssm = {
     config: {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.2.2",
+        version: "3.2.3",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
@@ -59,22 +73,8 @@ var lssm = {
 };
 
 /**
- * Tell jQuery to allow caching beforehand!
+ * Localization
  */
-$.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
-    if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
-        options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = true;
-    }
-});
-
-/**
- * Make case insensetive :contains() possible
- */
-jQuery.expr[':'].containsci = function(a, i, m) {
-    return jQuery(a).text().toUpperCase()
-            .indexOf(m[3].toUpperCase()) >= 0;
-};
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
@@ -98,7 +98,7 @@ I18n.translations.en['lssm'] = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
-    appstore_welcome: "Welcome to the appstore of LSS Manager",
+    appstore_welcome: "Welcome to the lssm.appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be activated individually by placing the lever on green. If there are any problems, you can write us a message or <a href=\"" + lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
@@ -120,87 +120,13 @@ I18n.translations.nl['lssm'] = {
     saving: "Wijzigingen aan het opslaan...",
     save: "Opslaan",
     activated: "De volgende modules zijn geactiveerd:",
-    cantactivate: "Kan niet worden geactiveerd omdat deze module niet samenwerkt met de volgende module(s):",
+    cantactivate: "Kan niet worden geactiveerd omdat deze lssm_module niet samenwerkt met de volgende lssm_module(s):",
     apps: {}
 };
 
-
-var carsById = {
-    "0": ["LF 20", 0],
-    "1": ["LF 10", 0],
-    "2": ["DLK 23", 0],
-    "3": ["ELW 1", 0],
-    "4": ["RW", 0],
-    "5": ["GW-A", 0],
-    "6": ["LF 8/6", 0],
-    "7": ["LF 20/16", 0],
-    "8": ["LF 10/6", 0],
-    "9": ["LF 16-TS", 0],
-    "10": ["GW-Öl", 0],
-    "11": ["GW-L2-Wasser", 0],
-    "12": ["GW-Messtechnik", 0],
-    "13": ["SW 1000", 0],
-    "14": ["SW 2000", 0],
-    "15": ["SW 2000-Tr", 0],
-    "16": ["SW Kats", 0],
-    "17": ["TLF 2000", 0],
-    "18": ["TLF 3000", 0],
-    "19": ["TLF 8/18", 0],
-    "20": ["TLF 8/18", 0],
-    "21": ["TLF 16/24-Tr", 0],
-    "22": ["TLF 16/25", 0],
-    "23": ["TLF 16/45", 0],
-    "24": ["TLF 20/40", 0],
-    "25": ["TLF 20/40-SL", 0],
-    "26": ["TLF 16", 0],
-    "27": ["GW-Gefahrgut", 0],
-    "28": ["RTW", 1],
-    "29": ["NEF", 1],
-    "30": ["HLF 20", 0],
-    "31": ["RTH", 1],
-    "32": ["FuStW", 2],
-    "33": ["GW-Höhenrettung", 0],
-    "34": ["ELW 2", 0],
-    "35": ["leBefKw", 2],
-    "36": ["MTW", 0],
-    "37": ["TSF-W", 0],
-    "38": ["KTW", 1],
-    "39": ["GKW", 3],
-    "40": ["MTW-TZ", 3],
-    "41": ["MzKW", 3],
-    "42": ["LKW K 9", 3],
-    "43": ["BRmG R", 3],
-    "44": ["Anh DLE", 3],
-    "45": ["MLW 5", 3],
-    "46": ["WLF", 0],
-    "47": ["AB-Rüst", 0],
-    "48": ["AB-Atemschutz", 0],
-    "49": ["AB-Öl", 0],
-    "50": ["GruKw", 2],
-    "51": ["FüKw", 2],
-    "52": ["GefKw", 2],
-    "53": ["Dekon-P", 0],
-    "54": ["AB-Dekon-P", 0],
-    "55": ["KdoW-LNA", 1],
-    "56": ["KdoW-Orgl", 1],
-    "57": ["FwK", 0],
-    "58": ["KTW Typ B", 1],
-    "59": ["ELW 1 (SEG)", 1],
-    "60": ["GW-San", 1],
-    "61": ["Polizeihubschrauber", 2],
-    "62": ["AB-Schlauch", 0],
-    "63": ["GW-Taucher", 4],
-    "64": ["GW-Wasserrettung", 4],
-    "65": ["LKW 7 Lkr 19 tm", 4],
-    "66": ["Anh MzB", 4],
-    "67": ["Anh SchlB", 4],
-    "68": ["Anh MzAB", 4],
-    "69": ["Tauchkraftwagen", 4],
-    "70": ["MZB", 4],
-    "71": ["AB-MZB", 4],
-};
-
-
+/**
+ * Add the modules to lssm
+ */
 lssm.Module = {
     keyboardAlert: {
         name: {
@@ -636,7 +562,7 @@ lssm.Module = {
         name: {
             de: 'Einfärben',
             en: 'Colorize',
-            nl:'Hoofdkleur veranderen'
+            nl: 'Hoofdkleur veranderen'
         },
         active: false,
         description: {
@@ -692,29 +618,29 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
-    },/*
-    missionTabs: {
-        name: {
-            de: 'Einsatztabs',
-            en: 'Missiontabs',
-            nl: 'Meldingtabbladen'
-        },
-        active: false,
-        description: {
-            de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
-            en: 'Shows the missions in own dedicated tabs instead of filtering them.',
-            nl: 'Geeft de Meldingen in tabbladen weer.'
-        },
-        source: '/modules/lss-missionTabs/missionTabs.user.js',
-        noapp: false, // Nicht im App-Store auflisten
-        inframe: false,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        },
-        collisions: ['Layout04']
-    },*/
+    }, /*
+     missionTabs: {
+     name: {
+     de: 'Einsatztabs',
+     en: 'Missiontabs',
+     nl: 'Meldingtabbladen'
+     },
+     active: false,
+     description: {
+     de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
+     en: 'Shows the missions in own dedicated tabs instead of filtering them.',
+     nl: 'Geeft de Meldingen in tabbladen weer.'
+     },
+     source: '/modules/lss-missionTabs/missionTabs.user.js',
+     noapp: false, // Nicht im App-Store auflisten
+     inframe: false,
+     develop: false,
+     settings: {
+     has: false,
+     function_code: ""
+     },
+     collisions: ['Layout04']
+     },*/
     missionHelper: {
         name: {
             de: 'Einsatzhelfer',
@@ -759,9 +685,12 @@ lssm.Module = {
     }
 };
 
-var appstore = {
+/**
+ * Add the appstore to LSSM
+ */
+lssm.appstore = {
     /**
-     * Checks if a module collides with other modules
+     * Checks if a lssm_module collides with other modules
      * @param mod
      * @returns {boolean}
      */
@@ -783,16 +712,16 @@ var appstore = {
     // Erstellen der Pandels
     createModulePanels: function () {
         var panels = $('<div class="row">'+
-        '<div class="col-sm-4" id="apps_col_0"></div>'+
-        '<div class="col-sm-4" id="apps_col_1"></div>'+
-        '<div class="col-sm-4" id="apps_col_2"></div>'+
-        '</div>');
+            '<div class="col-sm-4" id="apps_col_0"></div>'+
+            '<div class="col-sm-4" id="apps_col_1"></div>'+
+            '<div class="col-sm-4" id="apps_col_2"></div>'+
+            '</div>');
         var col = 0;
         // Get all the keys of the modules
         var mods = $.map(lssm.Module, function(value, index) {
             return [index];
         });
-        // Sort the module keys
+        // Sort the lssm_module keys
         mods.sort(function (a,b){
             "use strict";
             var aName = I18n.t("lssm.apps."+a+".name").toLowerCase();
@@ -802,7 +731,7 @@ var appstore = {
         for (var i in mods)
         {
             var mod = lssm.Module[mods[i]];
-            // Do not show certain modules in the appstore
+            // Do not show certain modules in the lssm.appstore
             if ('noapp' in mod && mod.noapp === true)
                 continue;
             var panel = $('<div style="margin-top:10px;" class="lssm_module'+(mod.develop ? ' lssm_module_develop' : '')+'">' +
@@ -810,8 +739,8 @@ var appstore = {
                 '<div class="panel-body">' +
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
-                '<input class="onoffswitch-checkbox" id="lssm_modules_' + mods[i] + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] + '"name="onoffswitch" type="checkbox">' +
-                '<label class="onoffswitch-label" for="lssm_modules_' + mods[i] + '"></label>' +
+                '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] + '"name="onoffswitch" type="checkbox">' +
+                '<label class="onoffswitch-label" for="lssm.modules_' + mods[i] + '"></label>' +
                 '</div>'+
                 '</span>' +
                 '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
@@ -845,43 +774,43 @@ var appstore = {
     createModuleMain: function () {
         var prefix = lssm.config.prefix + '_appstore';
         var div = $(
-          '<div class="col-md-12 lssm_appstore" id="' + prefix + '">'+
+            '<div class="col-md-12 lssm.appstore" id="' + prefix + '">'+
             '<div class="jumbotron">'+
-              '<h1>' + I18n.t('lssm.appstore') + '</h1>'+
-              '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>'+
-              '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>'+
-              '<p>' +
-          '<input type="text" class="form-control pull-right" id="'+prefix+'_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
-          '<button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
-                '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>'+
-              '</button></p>'+
-              '<span class="pull-right"><small>MADE BY:</small>&nbsp;'+
-              '<span class="label label-primary">'+
-                '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;'+
-                '<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link">'+
-                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
-                '</a>'+
-              '</span>&nbsp;'+
-              '<span class="label label-primary">'+
-                '<a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;'+
-                '<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link">'+
-                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
-                '</a>'+
-              '</span>&nbsp;'+
-              '<span class="label label-primary">'+
-                '<a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;'+
-                '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link">'+
-                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
-                '</a>'+
-              '</span>&nbsp;'+
-              '<span class="label label-primary">'+
-                '<a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;'+
-                '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link">'+
-                  '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
-                '</a>'+
-              '</span>'+
+            '<h1>' + I18n.t('lssm.appstore') + '</h1>'+
+            '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>'+
+            '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>'+
+            '<p>' +
+            '<input type="text" class="form-control pull-right" id="'+prefix+'_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
+            '<button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
+            '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>'+
+            '</button></p>'+
+            '<span class="pull-right"><small>MADE BY:</small>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>'+
             '</div>'+
-          '</div>'
+            '</div>'
         );
         div.on('keyup', '#' + prefix + '_search', function () {
             "use strict";
@@ -894,11 +823,11 @@ var appstore = {
             }
         });
         div.on('click', '#' + prefix + '_close', function () {
-            appstore.closeAppstore();
+            lssm.appstore.closeAppstore();
         });
         div.on('change', '.onoffswitch-checkbox', function (ev) {
             var e = ev.target;
-            if (e.checked && !appstore.canActivate(lssm.Module[e.value])) {
+            if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
                 for (var c in lssm.Module[e.value].collisions) {
@@ -938,7 +867,7 @@ var appstore = {
     closeAppstore: function() {
         "use strict";
         var action = this.checkModChanges();
-        module.saveall();
+        lssm.modules.saveall();
         if(action == "Reload") {
             location.reload();
         }
@@ -951,7 +880,7 @@ var appstore = {
             // Inform the user about activated modules.
             var activated = ""
             for (var m in action) {
-                module.load(action[m])
+                lssm.modules.load(action[m])
                 activated += I18n.t('lssm.apps.' + action[m] + '.name') +', ';
             }
             activated = activated.substring(0, activated.length-2);
@@ -975,7 +904,7 @@ var appstore = {
         "use strict";
         var activated = [];
         var deactivated = [];
-        var modules = lssm_settings.get("Modules", {});
+        var modules = lssm.settings.get("Modules", {});
         for (var m in lssm.Module)
         {
             if (modules[m] && !lssm.Module[m].active) {
@@ -994,24 +923,27 @@ var appstore = {
 
     createDropDown: function () {
         var lssm_dropdown = $(' <li class="dropdown" id="' + lssm.config.prefix + '_dropdown">'+
-                '<a href="#" id="' + lssm.config.prefix + '_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">'+
-                    '<span class="label label-success">' + I18n.t('lssm.lssm') + '</span> <b class="caret"></b>'+
-                '</a>'+
-                '<ul id="' + lssm.config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' + lssm.config.prefix + '_menu_switch"> </ul>'+
-                '</li>');
+            '<a href="#" id="' + lssm.config.prefix + '_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">'+
+            '<span class="label label-success">' + I18n.t('lssm.lssm') + '</span> <b class="caret"></b>'+
+            '</a>'+
+            '<ul id="' + lssm.config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' + lssm.config.prefix + '_menu_switch"> </ul>'+
+            '</li>');
         $('#navbar-main-collapse > ul').append(lssm_dropdown);
-    },
+    }
 };
 
-var lssm_settings = {
+/**
+ * Add the settings-functions to lssm
+ */
+lssm.settings = {
     // Set a value to the localstorage
     set: function(key, value) {
         "use strict";
         if (typeof value == "object")
-            // We have a object, parse it to json and save it.
+        // We have a object, parse it to json and save it.
             localStorage.setItem(lssm.config.prefix +'_'+ key, JSON.stringify(value));
         else
-            // Otherwise we save the raw value
+        // Otherwise we save the raw value
             localStorage.setItem(lssm.config.prefix +'_'+ key, value);
     },
 
@@ -1039,14 +971,17 @@ var lssm_settings = {
     }
 };
 
-var module = {
+/**
+ * Add the module-handler to LSSM
+ */
+lssm.modules = {
     saveall: function()
     {
         "use strict";
         var arr = {};
         for (var i in lssm.Module)
             arr[i] = lssm.Module[i].active;
-        lssm_settings.set("Modules", arr);
+        lssm.settings.set("Modules", arr);
     },
     // Zum zwischenspeichern der schon geladenen Module
     addLocales: function(module) {
@@ -1084,21 +1019,24 @@ var module = {
             var uid = "";
             if (typeof user_id != "undefined")
                 var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
-                uid = "?uid="+game+user_id;
+            uid = "?uid="+game+user_id;
             this.addLocales(module);
-            if (lssm.Module[module].active && lssm.Module.status != 'develop' && appstore.canActivate(lssm.Module[module])) {
+            if (lssm.Module[module].active && lssm.Module.status != 'develop' && lssm.appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
                     //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
                     $.getScript(lssm.getlink(lssm.Module[module].source));
                 }
             }
         } catch (e) {
-            console.log("On module load: "+e.message);
+            console.log("On lssm_module load: "+e.message);
         }
     }
 };
 
-var lssm_hook = {
+/**
+ * Add hooks to lssm
+ */
+lssm.hook = {
     orgfunctions: {},
     prename: function(event, func){
         "use strict";
@@ -1129,14 +1067,21 @@ var lssm_hook = {
 };
 
 
+/**
+ * Lets roll!
+ */
 (function (I18n, $) {
+    // Append our main css
     $("head").prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +'" rel="stylesheet" type="text/css">');
-    appstore.createDropDown();
+    // Create the lssm dropdown menu
+    lssm.appstore.createDropDown();
+    // And append the version to it
     $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center"><a href="'+lssm.github+'" target="_blank">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
     // Only execute everything else if user is logged in
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
     } else {
+        // Oh, and don't forget the helperfunctions
         $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
             .fail(function () {
                 $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
@@ -1144,8 +1089,9 @@ var lssm_hook = {
             .done(function () {
                 loadCore();
             });
-
+        // There goes the core
         function loadCore() {
+            // Load required library's
             var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             var uid = "uid=" + game + user_id + "&";
             // alle Settings die immer wieder benötigt werden
@@ -1153,8 +1099,8 @@ var lssm_hook = {
                 .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
 
-            // laden der Einstellungen
-            var modules = lssm_settings.get('Modules') || {};
+            // Get the last activated modules
+            var modules = lssm.settings.get('Modules') || {};
             for (var i in modules) {
                 var modname = i.toString();
                 if ((modname in lssm.Module) === false) {
@@ -1164,8 +1110,10 @@ var lssm_hook = {
                 if (lssm.Module[i].active == false)
                     lssm.Module[i].active = modules[i];
             }
-            module.loadall();
-            appstore.appendAppstore();
+            // Let's load all the modules
+            lssm.modules.loadall();
+            // Oh, we also need a appstore
+            lssm.appstore.appendAppstore();
         }
     }
 })(I18n, jQuery);

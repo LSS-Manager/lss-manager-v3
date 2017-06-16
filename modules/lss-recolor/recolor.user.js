@@ -34,7 +34,7 @@
     $('#'+ lssm.config.prefix + '_recolor_open').click(function(){
         var content = $('#navbar-mobile-footer').prev();
         var settings = '</div><div class="row" id="'+lssm.config.prefix+'_recolor">' +
-            '<div class="col-md-12 lssm_appstore>' +
+            '<div class="col-md-12 lssm.appstore>' +
             '<p>Recolor settings</p>' +
             '</div>';
         var settings_html = '<div id="'+ lssm.config.prefix+'_recolor"><div class="jumbotron">' +
@@ -44,7 +44,7 @@
             '</div>';
 
         settings_html += '<nav class="navbar navbar-default navbar-static-top" role="navigation">' +
-            '<div class="lssm_appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;">' +
+            '<div class="lssm.appstore_settingsbar_div" style="padding-left: 20px;padding-right: 20px;">' +
             '<ul class="nav navbar-nav">' +
             '<li><a href="#" id="'+lssm.config.prefix+'_recolor_save" class="btn btn-success">Speichern</a></li></ul>' +
             '</div></nav>';

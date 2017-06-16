@@ -63,7 +63,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
     function loadGraphs() {
         // Building Bar Chart
         var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0, 'bepo':0};
-        $.each(get_buildings(), function (key, build) {
+        $.each(lssm.get_buildings(), function (key, build) {
             switch (build.stationType) {
                 //Feuerwehr
                 case BUILDING_TYPE_FEUERWACHE:
@@ -150,13 +150,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             {'data': [], 'total': 0},
             {'data': [], 'total': 0}];
         // Go through all cars and put them where they belong
-        $.each(car_list_all(), function (key, veh) {
-            var c = carsById[veh.type][1];
+        $.each(lssm.car_list_all(), function (key, veh) {
+            var c = lssm.carsById[veh.type][1];
             cars[c].total += 1;
             if (typeof (cars[c].data[veh.type]) !== 'undefined') {
                 cars[c].data[veh.type].y += 1;
             } else {
-                cars[c].data[veh.type] = {name: carsById[veh.type][0], y: 1};
+                cars[c].data[veh.type] = {name: lssm.carsById[veh.type][0], y: 1};
             }
         });
         // Remove unused keys
@@ -196,7 +196,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 return;
             }
             var appendto = "son",
-                    vehicles = car_list(building.id),
+                    vehicles = lssm.car_list(building.id),
                     printcars = "",
                     icon = "fa-building-o",
                     icon3 = "fa-car",
@@ -317,8 +317,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         c_table.html("");
         var cars = {};
         var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
-        $.each(car_list_all(), function (key, veh) {
-            var type = carsById[veh.type][0];
+        $.each(lssm.car_list_all(), function (key, veh) {
+            var type = lssm.carsById[veh.type][0];
             if (typeof cars[type] == 'undefined') {
                 cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
             }
