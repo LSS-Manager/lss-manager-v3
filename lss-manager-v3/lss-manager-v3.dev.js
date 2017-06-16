@@ -719,9 +719,9 @@ lssm.Module = {
     }
     statusDispatching: {
         name: {
-            de: 'Status Dispatching',
-            en: 'Status Dispatching',
-            nl: 'Staat Dispatching'
+            de: 'Verbesserte Status 5',
+            en: 'Enhanced transport requests',
+            nl: 'Verbeterde spraakaanvragen'
         },
         active: false,
         description: {
