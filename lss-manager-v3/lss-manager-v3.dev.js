@@ -681,6 +681,27 @@ lssm.Module = {
             function_code: ""
         }
     }
+	missionKeyword: {
+        name: {
+            de: 'Einsatzstichworte',
+            en: 'Mission Keywords',
+            nl: 'Steekwoorden bij meldingen'
+        },
+        active: false,
+        description: {
+            de: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen für Bayern.',
+            en: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
+            nl: 'Toont steekwoorden bij de meldingen. Deze steekwoorden zijn grotendeels gebaseerd op de steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
+        },
+        source: '/modules/lss-missionKeyword/missionKeyword.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    }
 };
 
 /**
