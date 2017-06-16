@@ -16,6 +16,7 @@ I18n.translations.de['lssm']['dashboard'] = {
     ge: 'Gebäude',
     school: 'Schulen',
     wachen: 'Wachen',
+    other: 'Sonstige',
     anz: 'Anzahl',
     categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
     categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg','bepo'],
@@ -40,6 +41,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     ge: 'Buildings',
     school: 'Schools',
     wachen: 'Station',
+    other: 'Other',
     anz: 'Amount',
     categories: ['Firefighter', 'Rescue', 'Police', 'Hospital'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
@@ -151,12 +153,16 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             {'data': [], 'total': 0}];
         // Go through all cars and put them where they belong
         $.each(lssm.car_list_all(), function (key, veh) {
-            var c = lssm.carsById[veh.type][1];
-            cars[c].total += 1;
-            if (typeof (cars[c].data[veh.type]) !== 'undefined') {
-                cars[c].data[veh.type].y += 1;
-            } else {
-                cars[c].data[veh.type] = {name: lssm.carsById[veh.type][0], y: 1};
+            var c = ["Undefined", 0];
+            if (veh.type in lssm.carsById)
+                c = lssm.carsById[veh.type][1];
+            if (c in cars) {
+                cars[c].total += 1;
+                if (typeof (cars[c].data[veh.type]) !== 'undefined') {
+                    cars[c].data[veh.type].y += 1;
+                } else {
+                    cars[c].data[veh.type] = {name: c[0], y: 1};
+                }
             }
         });
         // Remove unused keys
@@ -318,7 +324,9 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         var cars = {};
         var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
         $.each(lssm.car_list_all(), function (key, veh) {
-            var type = lssm.carsById[veh.type][0];
+            var type = 0
+            if (veh.type in lssm.carsById)
+                type = lssm.carsById[veh.type][0];
             if (typeof cars[type] == 'undefined') {
                 cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
             }
@@ -448,6 +456,16 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                         $('#dashboard_buttons').append('<a class="btn btn-default" href="#" id="db_main">' + I18n.t('lssm.dashboard.name') + '</a>')
                                 .append('<a class="btn btn-default" href="#" id="db_fzg">' + I18n.t('lssm.dashboard.vehicles.name') + '</a>')
                                 .append('<a class="btn btn-default" href="#" id="db_wachen">' + I18n.t('lssm.dashboard.station_plan') + '</a>');
+
+                        $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">'+I18n.t('lssm.dashboard.categories')[0]+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">'+I18n.t('lssm.dashboard.categories')[1]+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">'+I18n.t('lssm.dashboard.categories')[2]+'</a>');
+                        if(I18n.locale == "de")
+                            $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>')
+
+                        $("#wp_sub").append('<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">'+I18n.t('lssm.dashboard.school')+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_son">'+I18n.t('lssm.dashboard.other')+'</a>');
+
                         bind_db_buttons();
                         curtab_db = "#db_main_outer";
                         curtab_wp = "#wp_fw";
