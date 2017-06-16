@@ -75,7 +75,6 @@ var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Ate
 var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen 1</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (20 oder 40%)";
 var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen</br>min. 1x Rettungstransportwagen</br>Notarzteinsatzfahrzeug (10%)";
 //7 FW-Wachen
-//var PersonhinterTür ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennendeLok ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (50%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Atemschutz (30%)</br>1x Schlauchwagen (100%)";
 var Flächenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (20%)</br>2x Funkstreifenwagen (100%)";
 var MittlererFeldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen 1 (50%)";
@@ -99,7 +98,6 @@ var Baumaschineumgestürzt ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x 
 //11 FW-Wachen
 var Tankstellenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Gefahrgut (70%)</br>1x GW-Messtechnik (80%)";
 var LKWAuffahrunfall ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (75%)</br>1x GW-Öl (25%)</br>1x GW-Gefahrgut (10%)</br>2x Funkstreifenwagen (100%)</br>Notarzteinsatzfahrzeug (70%)";
-//var GefahrgutLKWverunglückt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (???%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (???%)</br>1x GW-Gefahrgut (100%)</br>1x GW-Messtechnik (???%)</br>1x DEkon P (???%)</br>2x Funkstreifenwagen (100%)";
 //12 FW-Wachen
 var BrandinWerkstatt = "4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (10%)";
 var BewusstloserKranführer = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)";
@@ -376,6 +374,7 @@ var EingestürztesWohnhaus ="2x GKW (100%)</br>2x LKW K9 (100%)</br>2x BRmG R (1
   var Theftofpropertyfromvehicles ="1x Police Car (100%)";
   var AnimalAttack ="1x Police Car (100%)</br>1x Ambulance";
   var NoiseComplaint ="1x Police Car (100%)";
+  var AggressivePassenger ="1x Police Car (100%)";
   var Rioter ="2x Police Cars (100%)";
   var WarrantStandby ="3x Police Cars (100%)</br>1x Police Helicopter(100%)";
   var Brawl ="3x Police Cars (100%)";
@@ -576,6 +575,7 @@ var Verwardpersoon ="1x Politieauto (100%)";
 //2 Politiebureaus
 var Huiselijkgeweld ="1x Politieautos (100%)";
 var Overvalwinkel ="2x Politieautos (100%)";
+var Assistentietreinconducteur ="3x Politieautos (100%)";
 //3 Politiebureaus
 var Achtervolgingpersonenauto ="4x Politieautos (100%)</br>1x Politie Helikopter (100%)";
 var Vermistpersoon ="3x Politieautos (100%)</br>1x Politie Helikopter (100%)";
