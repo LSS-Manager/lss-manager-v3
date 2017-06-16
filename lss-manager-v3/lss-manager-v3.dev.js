@@ -717,6 +717,27 @@ lssm.Module = {
             function_code: ""
         }
     }
+    statusDispatching: {
+        name: {
+            de: 'Status Dispatching',
+            en: 'Status Dispatching',
+            nl: 'Staat Dispatching'
+        },
+        active: false,
+        description: {
+            de: 'Schnellere Abarbeitung von Status 5 Meldungen.',
+            en: 'Faster processing of transport requests.',
+            nl: 'Sneller verwerken van spraakaanvragen.'
+        },
+        source: '/modules/lss-statusDispatching/statusDispatching.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    }
 };
 
 var appstore = {
