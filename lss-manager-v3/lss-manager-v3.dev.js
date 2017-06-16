@@ -702,6 +702,27 @@ lssm.Module = {
             function_code: ""
         }
     }
+	missionDate: {
+        name: {
+            de: 'Meldedatum für Einsätze',
+            en: 'Mission Date',
+            nl: 'Begintijd melding weergen'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
+            en: 'Shows the date when the mission was generated and the hours/minutes since then',
+            nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er verstreken is sinds de melding binnenkwam.'
+        },
+        source: '/modules/lss-missionDate/missionDate.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    }
 };
 
 /**
