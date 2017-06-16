@@ -1038,7 +1038,7 @@ lssm.modules = {
  */
 lssm.hook = {
     orgfunctions: {},
-    prename: function(event, func){
+    prename: function(event){
         "use strict";
         var self = this;
         if(!this.orgfunctions.hasOwnProperty(event)){
@@ -1051,7 +1051,7 @@ lssm.hook = {
         }
         return "lssm_"+event+"_before";
     },
-    postname: function(event, func){
+    postname: function(event){
         "use strict";
         var self = this;
         if(!this.orgfunctions.hasOwnProperty(event)){
