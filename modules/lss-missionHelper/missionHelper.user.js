@@ -618,6 +618,8 @@ var Besteldvervoer ="1x Zorgambulance (100%)";
     }
 
     function Normalize(missionname){
+      if (!missionname)
+          return "nope";
       var longname = missionname;
       var short = longname.innerHTML.trim().split("\n");
       for(var i = 0; i<short.length;i++){
