@@ -706,7 +706,7 @@ lssm.Module = {
         name: {
             de: 'Meldedatum für Einsätze',
             en: 'Mission Date',
-            nl: 'Begintijd melding weergen'
+            nl: 'Begintijd melding weergeven'
         },
         active: false,
         description: {
