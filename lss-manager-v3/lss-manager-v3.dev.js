@@ -226,4 +226,894 @@ lssm.Module = {
             de: 'Layout 05'
         },
         active: false,
-  
+        description: {
+            de: 'Vollständig anpassbares Layout',
+            nl: 'Een volledig aanpasbaar design'
+        },
+        source: '/modules/lss-layout-05/layout-05.user.js',
+        develop: true,
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04'],
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    MissionOut: {
+        name: {
+            de: 'MissionOut',
+            nl: 'Meldingen inklappen'
+        },
+        active: false,
+        description: {
+            de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
+            en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for each one.',
+            nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
+        },
+        source: '/modules/lss-MissionOut/MissionOut.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    saveVGE: {
+        name: {
+            de: 'Eigene VGE speichern',
+            en: 'Save created alliance calls',
+            nl: 'Zelgemaakte inzetten opslaan.'
+        },
+        active: false,
+        description: {
+            de: 'Funktion um sebst erstlle VGE zu speichern.',
+            en: 'Enables a function to save own created mission calls to use them as template.',
+            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens kan gebruiken.'
+        },
+        source: '/modules/lss-saveVGE/saveVGE.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    Notification_Alert: {
+        name: {
+            de: 'Notification Alert',
+            nl: 'Browsermeldingen'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. (ChatPoput included)',
+            en: 'HTML5 Chatnotifications using the browser notificationsystem.',
+            nl: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit meer een chat of melding hoeft te missen.'
+        },
+        source: '/modules/lss-notification_alert/Notification_alarm.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: "NotificationAlarm_show_settings"
+        }
+    },
+    Redesign01: {
+        name: {
+            de: 'Redesign 01'
+        },
+        active: false,
+        description: {
+            de: 'Neues Design für die Oberfläche',
+            en: 'New design for the game.',
+            nl: 'Een nieuw uiterlijk voor het spel.'
+        },
+        source: '/modules/lss-redesign-01/redesign-01.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    FMS5InMap: {
+        name: {
+            de: 'FMS 5 in der Karte',
+            en: 'Request transport in map',
+            nl: 'Spraakaanvragen op de kaart weergeven.'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt alle FMS 5 in der Karte an.',
+            en: 'Shows request transports within the map lower left corner.',
+            nl: 'Toont alle spraakaanvragen op de kaart.'
+        },
+        source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        },
+        collisions: ['Layout03', 'WachenplanungOnMap']
+    },
+    Clock: {
+        name: {
+            de: 'Clock',
+            nl: 'Klok'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt eine Uhr in der Karte an.',
+            en: 'Enables a small clock within the map.',
+            nl: 'Toont een kleine klok op de kaart.'
+        },
+        source: '/modules/lss-clock/clock.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    WachenplanungOnMap: {
+        name: {
+            de: 'Wachenplanung auf der Karte',
+            en: 'Station management on map',
+            nl: 'Gebouwplanning op de kaart.'
+        },
+        active: false,
+        description: {
+            de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die Gebäude sind wählbar.',
+            en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for specific buildings.',
+            nl: 'Toont cirkels met een zelf in te stellen radius rondom gebouwen. Je kunt ook filteren op specifieke gebouwen.'
+        },
+        source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        },
+        collisions: ['Layout03', 'FMS5InMap']
+    },
+    tagMissions: {
+        name: {
+            de: 'Einsätze markieren',
+            en: 'Mark calls',
+            nl: 'Meldingen markeren.'
+        },
+        active: false,
+        description: {
+            de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
+            en: 'Got inplemented into the game - deactivated for now.',
+            nl: 'Zit in het spel ingebouwd - momenteel gedeactiveerd.'
+        },
+        source: '/modules/lss-tagMissions/tagMissions.user.js',
+        develop: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    allianceMissionlistShare: {
+        name: {
+            de: 'Einsätze freigeben',
+            en: 'Mission share',
+            nl: 'Meldingen vrijgeven'
+        },
+        active: false,
+        description: {
+            de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
+            en: 'Instantly share missions without opening the call by clicking a button in the overview.',
+            nl: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in de meldingenlijst.'
+        },
+        source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    searchMissions: {
+        name: {
+            de: 'Einsätze suchen',
+            en: 'Mission search',
+            nl: 'Meldingen doorzoeken'
+        },
+        active: false,
+        description: {
+            de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
+            en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions quickly.',
+            nl: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat je snel door je meldingen bladeren.'
+        },
+        source: '/modules/lss-searchMissions/searchMissions.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    dashboard: {
+        name: {
+            de: 'Dashboard'
+        },
+        active: false,
+        description: {
+            de: 'Dashboard',
+            en: 'Dashboard',
+            nl: 'Een Dashboard waarin je een duidelijk overzicht krijgt van je gebouwen en voertuigen.'
+        },
+        source: '/modules/lss-dashboard/dashboard.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    WachenHoverStati: {
+        name: {
+            de: 'Wachen Status',
+            en: 'Station status',
+            nl: 'Voertuigstatus bij gebouwen'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
+            en: 'Shows the code of vehciles on station hover on the map.',
+            nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
+        },
+        source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    RenameFZ: {
+        name: {
+            de: 'Fahrzeuge umbennenen',
+            en: 'Rename vehicle',
+            nl: 'Voertuigen herbenoemen'
+        },
+        active: false,
+        description: {
+            de: 'Fahrzeuge in bulk mit Tags umbennenen.',
+            en: 'Rename vehicles in bulk using tags.',
+            nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met behulp van tags.'
+        },
+        source: '/modules/lss-RenameFZ/renameFZ.user.js',
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    telemetry: {
+        name: {
+            de: 'Telemetrie',
+            en: 'Telemetry',
+            nl: 'Telemetrie'
+        },
+        active: true,
+        description: {
+            de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
+            en: 'Sends data to the developer team for the purpose of creating a statistic',
+            nl: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
+        },
+        source: '/modules/telemetry/telemetry.user.js',
+        noapp: true, // Nicht im App-Store auflisten
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    mapreload: {
+        name: {
+            de: 'Map Reload',
+            nl: 'Kaart opnieuw laden'
+        },
+        active: true,
+        description: {
+            de: '-',
+        },
+        source: '/modules/lss-mapReload/mapreload.user.js',
+        noapp: true, // Nicht im App-Store auflisten
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    showBackAlarmAbove: {
+        name: {
+            de: 'show Back Alarm Above',
+            en: 'show Back Alarm Above',
+            nl: 'Extra annuleerknop'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt den Alle Rückalamieren Button auch überhalb der Fahrzeuge an',
+            nl: 'Voegt een extra annuleerknop toe bovenaan de voertuiglijst.'
+        },
+        source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    aaosearch: {
+        name: {
+            de: 'AAO-Suche',
+            en: 'AAO-Search',
+            nl: 'AUR-zoekfuncties'
+        },
+        active: false,
+        description: {
+            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
+            nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
+        },
+        source: '/modules/lss-aao-search/aao-search.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    recolor: {
+        name: {
+            de: 'Einfärben',
+            en: 'Colorize',
+            nl: 'Hoofdkleur veranderen'
+        },
+        active: false,
+        description: {
+            de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
+            en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
+            nl: 'Verander de kleur van meldkamerspel. DEZE FUNCTIE IS NOG IN AANBOUW.'
+        },
+        source: '/modules/lss-recolor/recolor.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    heatmap: {
+        name: {
+            de: 'LS-Heatmap',
+            en: 'LS-Heatmap',
+            nl: 'Voertuigspreiding weergeven'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
+            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
+            nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
+        },
+        source: '/modules/lss-heatmap/LSHeatmap.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    centermap: {
+        name: {
+            de: 'Center-Map',
+            en: 'Center-Map'
+        },
+        active: false,
+        description: {
+            de: 'Ändert das Standardverhalten dahingehend, dass beim Aufruf der Seite nicht mehr zwingend die Leitstelle im Mittelpunkt steht, sondern alle Einsätze auf einen Blick im optimalen Zoom-Level sichtbar sind.',
+            en: 'Modifies default behavior that all missions are visible on page load with an optimal zoom-level.'
+        },
+        source: '/modules/lss-centermap/Centermap.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    }, /*
+     missionTabs: {
+     name: {
+     de: 'Einsatztabs',
+     en: 'Missiontabs',
+     nl: 'Meldingtabbladen'
+     },
+     active: false,
+     description: {
+     de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
+     en: 'Shows the missions in own dedicated tabs instead of filtering them.',
+     nl: 'Geeft de Meldingen in tabbladen weer.'
+     },
+     source: '/modules/lss-missionTabs/missionTabs.user.js',
+     noapp: false, // Nicht im App-Store auflisten
+     inframe: false,
+     develop: false,
+     settings: {
+     has: false,
+     function_code: ""
+     },
+     collisions: ['Layout04']
+     },*/
+    missionHelper: {
+        name: {
+            de: 'Einsatzhelfer',
+            en: 'Missionhelper',
+            nl: 'Meldinghelper'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt benötigte Fahrzeuge an!.',
+            en: 'Shows required vehicles in mission mask.',
+            nl: 'Toont de benodigde voertuigen in het meldingscherm.'
+        },
+        source: '/modules/lss-missionHelper/missionHelper.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    statusDispatching: {
+        name: {
+            de: 'Verbesserte Status 5',
+            en: 'Enhanced transport requests',
+            nl: 'Verbeterde spraakaanvragen'
+        },
+        active: false,
+        description: {
+            de: 'Schnellere Abarbeitung von Status 5 Meldungen.',
+            en: 'Faster processing of transport requests.',
+            nl: 'Sneller verwerken van spraakaanvragen.'
+        },
+        source: '/modules/lss-statusDispatching/statusDispatching.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    }
+};
+
+/**
+ * Add the appstore to LSSM
+ */
+lssm.appstore = {
+    /**
+     * Checks if a lssm_module collides with other modules
+     * @param mod
+     * @returns {boolean}
+     */
+    canActivate: function (mod) {
+        var ca = true;
+        if ('collisions' in mod) {
+            for (var c in mod.collisions) {
+                var c = mod.collisions[c];
+                if (lssm.Module[c].active)
+                    ca = false;
+            }
+        }
+        return ca;
+    },
+
+    hideAllForSettings: function () {
+        $('.' + lssm.config.prefix + '__appstore_hideForSettings').hide();
+    },
+    // Erstellen der Pandels
+    createModulePanels: function () {
+        var panels = $('<div class="row">'+
+            '<div class="col-sm-4" id="apps_col_0"></div>'+
+            '<div class="col-sm-4" id="apps_col_1"></div>'+
+            '<div class="col-sm-4" id="apps_col_2"></div>'+
+            '</div>');
+        var col = 0;
+        // Get all the keys of the modules
+        var mods = $.map(lssm.Module, function(value, index) {
+            return [index];
+        });
+        // Sort the lssm_module keys
+        mods.sort(function (a,b){
+            "use strict";
+            var aName = I18n.t("lssm.apps."+a+".name").toLowerCase();
+            var bName = I18n.t("lssm.apps."+b+".name").toLowerCase();
+            return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+        });
+        for (var i in mods)
+        {
+            var mod = lssm.Module[mods[i]];
+            // Do not show certain modules in the lssm.appstore
+            if ('noapp' in mod && mod.noapp === true)
+                continue;
+            var panel = $('<div style="margin-top:10px;" class="lssm_module'+(mod.develop ? ' lssm_module_develop' : '')+'">' +
+                '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
+                '<div class="panel-body">' +
+                '<span class="pull-right">' +
+                '<div class="onoffswitch">' +
+                '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' + (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] + '"name="onoffswitch" type="checkbox">' +
+                '<label class="onoffswitch-label" for="lssm.modules_' + mods[i] + '"></label>' +
+                '</div>'+
+                '</span>' +
+                '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
+                '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') + '</small>' +
+                '</div>' +
+                //'<div class="panel-footer">' +
+                //'<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' + mod.version + '</span> / <span>' + mod.copyright + '</span>' +
+                //'</div>' +
+                '</div>' +
+                '</div>');
+            panel.find("h4").on("click", function(){
+                "use strict";
+                var next = $(this).next();
+                if(next.is(":hidden"))
+                {
+                    next.slideDown("slow");
+                } else {
+                    next.slideUp("slow");
+                }
+            });
+            panels.find("#apps_col_"+col).append(panel);
+            col++;
+            if(col>2)
+                col = 0;
+        }
+        return panels;
+    },
+
+    // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
+    // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
+    createModuleMain: function () {
+        var prefix = lssm.config.prefix + '_appstore';
+        var div = $(
+            '<div class="col-md-12 lssm.appstore" id="' + prefix + '">'+
+            '<div class="jumbotron">'+
+            '<h1>' + I18n.t('lssm.appstore') + '</h1>'+
+            '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>'+
+            '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>'+
+            '<p>' +
+            '<input type="text" class="form-control pull-right" id="'+prefix+'_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
+            '<button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">'+
+            '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>'+
+            '</button></p>'+
+            '<span class="pull-right"><small>MADE BY:</small>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">@lost</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">@Northdegree</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">@Mausmajor</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">@DLRG-Dominik</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+            '</span>'+
+            '</div>'+
+            '</div>'
+        );
+        div.on('keyup', '#' + prefix + '_search', function () {
+            "use strict";
+            var ss = $(this).val();
+            if (ss.length>0) {
+                div.find(".lssm_module:containsci("+ss+")").show();
+                div.find(".lssm_module:not(:containsci("+ss+"))").hide();
+            } else {
+                div.find(".lssm_module").show();
+            }
+        });
+        div.on('click', '#' + prefix + '_close', function () {
+            lssm.appstore.closeAppstore();
+        });
+        div.on('change', '.onoffswitch-checkbox', function (ev) {
+            var e = ev.target;
+            if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
+                $(e).prop('checked', false);
+                var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
+                for (var c in lssm.Module[e.value].collisions) {
+                    var c = lssm.Module[e.value].collisions[c];
+                    if (lssm.Module[c].active)
+                        warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
+                }
+                alert(warn);
+                return;
+            }
+            lssm.Module[e.value].active = e.checked;
+        });
+        div.append(this.createModulePanels());
+        return div;
+    },
+
+    // Menüpunkt zu den Modulen / Einstellungen / Dashboard
+    appendAppstore: function () {
+        // Variablen setzen für weitere Verwendung
+        var prefix = lssm.config.prefix + '_appstore';
+        var settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix + '_activate" href="#">' + I18n.t('lssm.appstore') + '</a></li>');
+        var div = $('<div class="row" id="' + prefix + '_row"></div>').append(this.createModuleMain());
+        var content = $('#navbar-mobile-footer').prev();
+        // hier ist alles drin
+        content.attr('id', 'content');
+        var self = this;
+        //div.append(createModulePanels());
+        settingButton.click(function () {
+            // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
+            content.hide().after(div);
+            $('#'+lssm.config.prefix + '_appstore_row').show();
+            $('footer').hide();
+        });
+        // einhängen des Buttons in der Navi
+        $('#' + lssm.config.prefix + '_menu').append(settingButton);
+    },
+    closeAppstore: function() {
+        "use strict";
+        var action = this.checkModChanges();
+        lssm.modules.saveall();
+        if(action == "Reload") {
+            location.reload();
+        }
+        else
+        {
+
+            $('#'+lssm.config.prefix + '_appstore_row').hide();
+            $('#content').show();
+            $('footer').show();
+            // Inform the user about activated modules.
+            var activated = ""
+            for (var m in action) {
+                lssm.modules.load(action[m])
+                activated += I18n.t('lssm.apps.' + action[m] + '.name') +', ';
+            }
+            activated = activated.substring(0, activated.length-2);
+            if(activated.length > 0)
+            {
+                $("#content").before('<div class="alert alert-success alert-dismissable" id="lssm_activated_notify" style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.activated') + ' '+ activated +'</div>');
+                setTimeout(function () {
+                    $("#lssm_activated_notify").slideUp("slow",function(){
+                        $("#lssm_activated_notify").remove();
+                    });
+                }, 2000);
+            }
+        }
+    },
+
+    /**
+     * Check if modules have been activated/deactivated and tell the caller what to do.
+     * Returns: "Reload" or a array of modules to load
+     */
+    checkModChanges: function() {
+        "use strict";
+        var activated = [];
+        var deactivated = [];
+        var modules = lssm.settings.get("Modules", {});
+        for (var m in lssm.Module)
+        {
+            if (modules[m] && !lssm.Module[m].active) {
+                deactivated.push(m);
+            }
+            else if ((!modules[m]) && lssm.Module[m].active) {
+                activated.push(m);
+            }
+        }
+        if(deactivated.length > 0)
+        {
+            return "Reload";
+        }
+        return activated;
+    },
+
+    createDropDown: function () {
+        var lssm_dropdown = $(' <li class="dropdown" id="' + lssm.config.prefix + '_dropdown">'+
+            '<a href="#" id="' + lssm.config.prefix + '_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">'+
+            '<span class="label label-success">' + I18n.t('lssm.lssm') + '</span> <b class="caret"></b>'+
+            '</a>'+
+            '<ul id="' + lssm.config.prefix + '_menu"class="dropdown-menu" role="menu" aria-labelledby="' + lssm.config.prefix + '_menu_switch"> </ul>'+
+            '</li>');
+        $('#navbar-main-collapse > ul').append(lssm_dropdown);
+    }
+};
+
+/**
+ * Add the settings-functions to lssm
+ */
+lssm.settings = {
+    // Set a value to the localstorage
+    set: function(key, value) {
+        "use strict";
+        if (typeof value == "object")
+        // We have a object, parse it to json and save it.
+            localStorage.setItem(lssm.config.prefix +'_'+ key, JSON.stringify(value));
+        else
+        // Otherwise we save the raw value
+            localStorage.setItem(lssm.config.prefix +'_'+ key, value);
+    },
+
+    // Get a config value from localstorage
+    get: function(key, defaultvalue) {
+        "use strict";
+        if (typeof defaultvalue == "undefined")
+        // defaultvalue is not set, return null if nothing found
+            defaultvalue = null;
+        var data;
+        try {
+            // Try to parse the config string as json
+            data = JSON.parse(localStorage.getItem(lssm.config.prefix +'_'+key)) || defaultvalue;
+        } catch (e) {
+            // Couldn't parse the config value as json. Return the raw value
+            data = (localStorage.getItem(lssm.config.prefix +'_'+key)) || defaultvalue;
+        }
+        return data;
+    },
+
+    // Remove a config value from localstorage
+    remove: function(key) {
+        "use strict";
+        localStorage.removeItem(key);
+    }
+};
+
+/**
+ * Add the module-handler to LSSM
+ */
+lssm.modules = {
+    saveall: function()
+    {
+        "use strict";
+        var arr = {};
+        for (var i in lssm.Module)
+            arr[i] = lssm.Module[i].active;
+        lssm.settings.set("Modules", arr);
+    },
+    // Zum zwischenspeichern der schon geladenen Module
+    addLocales: function(module) {
+        var mod = module.toString();
+        if (mod in lssm.Module) {
+            var keys = ['name', 'description'];
+            for (var k in keys) {
+                k = keys[k];
+                if (!k in lssm.Module[mod])
+                    continue;
+                for (var l in lssm.Module[mod][k]) {
+                    l = l.toString();
+                    if (!(mod in I18n.translations[l]['lssm']['apps'])) {
+                        I18n.translations[l]['lssm']['apps'][mod] = {}
+                    }
+                    I18n.translations[l]['lssm']['apps'][mod][k] = lssm.Module[mod][k][l];
+                }
+            }
+        }
+    },
+    loadall: function() {
+        "use strict";
+        try {
+            for (var m in lssm.Module) {
+                this.load(m);
+            }
+        } catch (e) {
+            console.log("LOADALL: "+ e.message);
+        }
+    },
+
+    load: function(module) {
+        try {
+            var path = window.location.pathname.length;
+            var uid = "";
+            if (typeof user_id != "undefined")
+                var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
+            uid = "?uid="+game+user_id;
+            this.addLocales(module);
+            if (lssm.Module[module].active && lssm.Module.status != 'develop' && lssm.appstore.canActivate(lssm.Module[module])) {
+                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
+                    //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
+                    $.getScript(lssm.getlink(lssm.Module[module].source));
+                }
+            }
+        } catch (e) {
+            console.log("On lssm_module load: "+e.message);
+        }
+    }
+};
+
+/**
+ * Add hooks to lssm
+ */
+lssm.hook = {
+    orgfunctions: {},
+    prename: function(event, func){
+        "use strict";
+        var self = this;
+        if(!this.orgfunctions.hasOwnProperty(event)){
+            this.orgfunctions[event] = window[event];
+            window[event] = function(){
+                $(document).trigger("lssm_"+event+"_before",arguments);
+                self.orgfunctions[event].apply(window, arguments);
+                $(document).trigger("lssm_"+event+"_after",arguments);
+            }
+        }
+        return "lssm_"+event+"_before";
+    },
+    postname: function(event, func){
+        "use strict";
+        var self = this;
+        if(!this.orgfunctions.hasOwnProperty(event)){
+            this.orgfunctions[event] = window[event];
+            window[event] = function(){
+                $(document).trigger("lssm_"+event+"_before",arguments);
+                self.orgfunctions[event].apply(window, arguments);
+                $(document).trigger("lssm_"+event+"_after",arguments);
+            }
+        }
+        return "lssm_"+event+"_after";
+    }
+};
+
+
+/**
+ * Lets roll!
+ */
+(function (I18n, $) {
+    // Append our main css
+    $("head").prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +'" rel="stylesheet" type="text/css">');
+    // Create the lssm dropdown menu
+    lssm.appstore.createDropDown();
+    // And append the version to it
+    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center"><a href="'+lssm.github+'" target="_blank">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
+    // Only execute everything else if user is logged in
+    if (typeof user_id == "undefined") {
+        $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
+    } else {
+        // Oh, and don't forget the helperfunctions
+        $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
+            .fail(function () {
+                $("#map_outer").before('<div class="alert alert-danger alert-dismissable" style="text-align:center"><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>' + I18n.t('lssm.cantload') + '</div>');
+            })
+            .done(function () {
+                loadCore();
+            });
+        // There goes the core
+        function loadCore() {
+            // Load required library's
+            var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+            var uid = "uid=" + game + user_id + "&";
+            // alle Settings die immer wieder benötigt werden
+            $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
+                .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
+                .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
+
+            // Get the last activated modules
+            var modules = lssm.settings.get('Modules') || {};
+            for (var i in modules) {
+                var modname = i.toString();
+                if ((modname in lssm.Module) === false) {
+                    console.log(modname + " is not a valid app. Skipping.");
+                    continue;
+                }
+                if (lssm.Module[i].active == false)
+                    lssm.Module[i].active = modules[i];
+            }
+            // Let's load all the modules
+            lssm.modules.loadall();
+            // Oh, we also need a appstore
+            lssm.appstore.appendAppstore();
+        }
+    }
+})(I18n, jQuery);
