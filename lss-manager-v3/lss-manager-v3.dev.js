@@ -10,7 +10,7 @@
 $.ajaxPrefilter(function( options, originalOptions, jqXHR ) {
     if ( options.dataType == 'script' || originalOptions.dataType == 'script' ||
         options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
-        options.cache = false;
+        options.cache = true;
     }
 });
 
