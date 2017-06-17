@@ -4,11 +4,11 @@
         ago: 'Vor'
     };
 
-    I18n.translations.de['lssm']['missionDate'] = {
+    I18n.translations.en['lssm']['missionDate'] = {
         ago: 'ago'
     };
 	
-	I18n.translations.de['lssm']['missionDate'] = {
+	I18n.translations.nl['lssm']['missionDate'] = {
         ago: 'geleden'
     };
 	
