@@ -1,12 +1,34 @@
 (function() {
+	
+	I18n.translations.de['lssm']['missionDate'] = {
+        ago: 'Vor'
+    };
+
+    I18n.translations.de['lssm']['missionDate'] = {
+        ago: 'ago'
+    };
+	
+	I18n.translations.de['lssm']['missionDate'] = {
+        ago: 'geleden'
+    };
+	
     var h1 = document.getElementById('missionH1');
     var einsatzdate = h1.getAttribute("data-original-title");
-    h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - Vor <span id="einsatzdate"></span></small><br>');
+	var a;
+	if(I18n.locale == 'de')
+	{
+		h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
+		a = einsatzdate.replace(/[a-zA-Z]/ig,'').replace(': ','').replace('.','').replace(' , ',':').trim().split(':');
+	}
+	else
+	{	
+		h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span></small>'+I18n.t('lssm.missionDate.ago')+'<br>');
+		a = einsatzdate.replace(/[a-zA-Z]/ig,'').replace(': ','').replace('  ',':').trim().split(':');
+	}	
 
-    var a = einsatzdate.replace(/[a-zA-Z]/ig,'').split(',');
-    var b = a[1].split(':');
-    var oldHour = b[0];
-    var oldMin = b[1];
+    
+    var oldHour = a[1];
+    var oldMin = a[2];
 
     var strcount;
     var x = new Date();
