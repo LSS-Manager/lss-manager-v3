@@ -680,7 +680,7 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
-    }
+    },
 	missionKeyword: {
         name: {
             de: 'Einsatzstichworte',
@@ -701,7 +701,7 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
-    }
+    },
 	missionDate: {
         name: {
             de: 'Meldedatum für Einsätze',
