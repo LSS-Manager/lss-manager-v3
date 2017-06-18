@@ -220,9 +220,10 @@
       	'color: white !important;'+
       '}'+
       '.highlight {'+
-        'animation-name: highlight;'
-        'animation-duration: 0.5s;'
-        'animation-iteration-count: 3;'
+        'animation-name: highlight;'+
+        'animation-iteration-count: 3;'+
+        '-webkit-animation-duration: 1s;'+
+        'animation-duration: 1s;'+
       '}'+
       '@keyframes highlight {'+
         '0% {background: rgba(0, 0, 0, 0)}'+
