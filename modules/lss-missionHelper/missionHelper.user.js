@@ -2,8 +2,6 @@
 
   //1 FW-Wache
 var KleinerWaldbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-var Burningtrailer = "1x Firetruck (100%)";
-var Diabeticproblems  ="1x Ambulance (100%)";
 var KleintierinNot = "1x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (20%)";
 var BrennendesGebüsch = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
 var BrennenderAnhänger = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
