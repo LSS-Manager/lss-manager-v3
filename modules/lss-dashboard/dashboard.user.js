@@ -155,13 +155,14 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         $.each(lssm.car_list_all(), function (key, veh) {
             var c = ["Undefined", 0];
             if (veh.type in lssm.carsById)
-                c = lssm.carsById[veh.type][1];
-            if (c in cars) {
-                cars[c].total += 1;
-                if (typeof (cars[c].data[veh.type]) !== 'undefined') {
-                    cars[c].data[veh.type].y += 1;
+                console.log(lssm.carsById[veh.type]);
+                c = lssm.carsById[veh.type];
+            if (c[1] in cars) {
+                cars[c[1]].total += 1;
+                if (typeof (cars[c[1]].data[veh.type]) !== 'undefined') {
+                    cars[c[1]].data[veh.type].y += 1;
                 } else {
-                    cars[c].data[veh.type] = {name: c[0], y: 1};
+                    cars[c[1]].data[veh.type] = {name: c[0], y: 1};
                 }
             }
         });
@@ -170,6 +171,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             return (k != "" && k != null);
         }
         var divs = [['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]], ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]], ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]], ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#92A1CF"]], ["#wret-ges", "#wret-fz"]];
+        console.log(cars);
         for (var i = 0; i < 5; i++) {
             cars[i].data = $.grep(cars[i].data, gr);
             if (cars[i].total > 0) {
