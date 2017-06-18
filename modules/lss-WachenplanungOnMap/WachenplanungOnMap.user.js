@@ -1,4 +1,28 @@
 (function (map, I18n, $) {
+    I18n.translations.de['lssm']['wpom'] = {
+        setmarker: "Marker Setzen",
+        remmarker: "Marker entfernen",
+        plan: "Wache planen",
+        vehicles: "Fahrzeuge",
+        btype: "Gebäudetyp",
+        bname: "Name",
+        addveh: "Fahrzeug hinzufügen",
+        set: "Setzen",
+        rem: "Entfernen",
+        brem: "Geplante Wache entfernen"
+    };
+    I18n.translations.en['lssm']['wpom'] = {
+        setmarker: "Set marker",
+        remmarker: "Remove marker",
+        plan: "Add planned building",
+        vehicles: "Vehicles",
+        btype: "Building type",
+        bname: "Name",
+        addveh: "Add vehicle",
+        set: "Set",
+        rem: "Remove",
+        brem: "Remove planned building"
+    };
     var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5,showCars:true,showSlider:true,showRadInput:false}, locale: I18n.locale || 'de', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
@@ -92,10 +116,220 @@
         }
         lssm.settings.set(settings.prefix, settings.set);
     }
+    function generatetooltip(marker, name, cars) {
+        var car_n = [];
+        for (var c in cars)
+        {
+            var c = cars[c];
+            var n = lssm.carsById[c];
+            car_n.push({classes:"", fms: "", name: n[0]});
+        }
+        data = name;
+        if (car_n.length > 0) {
+            data += '&nbsp;<i class="fa fa-car"></i>' + car_n.length;
+            data += lssm.car_list_printable(car_n);
+        }
+        // Re-Bind the content
+        marker.bindTooltip(data, {direction: "top", offset: L.point(0,-marker.options.icon.options.iconSize[1]),zIndex: 999});
+    }
+    function addBuildingToMap(id, name, type, cars, pos)
+    {
+        "use strict";
+        var building_marker_image = "/images/building_leitstelle.png";
+        switch (type) {
+            case BUILDING_TYPE_FEUERWEHRSCHULE:
+                building_marker_image = "/images/building_fireschool.png";
+                break;
+
+            case BUILDING_TYPE_FEUERWACHE:
+                building_marker_image = "/images/building_fire.png";
+                break;
+
+            case BUILDING_TYPE_RETTUNGSWACHE:
+                building_marker_image = "/images/building_rettungswache.png";
+                break;
+
+            case BUILDING_TYPE_RETTUNGSSCHULE:
+                building_marker_image = "/images/building_rettungsschule.png";
+                break;
+
+            case BUILDING_TYPE_HOSPITAL:
+                building_marker_image = "/images/building_hospital.png";
+                break;
+
+            case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
+                building_marker_image = "/images/building_helipad.png";
+                break;
+
+            case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
+                building_marker_image = "/images/building_helipad.png";
+                break;
+            case BUILDING_TYPE_POLIZEIZELLE:
+            case BUILDING_TYPE_POLIZEIWACHE:
+                building_marker_image = "/images/building_polizeiwache.png";
+                break;
+            case BUILDING_TYPE_LEITSTELLE:
+                building_marker_image = "/images/building_leitstelle.png";
+                break;
+
+            case BUILDING_TYPE_POLIZEISCHULE:
+                building_marker_image = "/images/building_polizeischule.png";
+                break;
+
+            case BUILDING_TYPE_THW:
+                building_marker_image = "/images/building_thw.png";
+                break;
+
+            case BUILDING_TYPE_THW_BUNDESSCHULE:
+                building_marker_image = "/images/building_thw_school.png";
+                break;
+
+            case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
+                building_marker_image = "/images/building_bereitschaftspolizei.png";
+                break;
+
+            case BUILDING_TYPE_SEG:
+                building_marker_image = "/images/building_seg.png";
+                break;
+
+            case BUILDING_TYPE_BEREITSTELLUNGSRAUM:
+                building_marker_image = "/images/building_bereitstellungsraum.png";
+                break;
+
+            case BUILDING_TYPE_WASSERRETTUNG:
+                building_marker_image = "/images/building_wasserwacht.png";
+                break;
+        }
+        var icon = L.icon({iconUrl: building_marker_image, iconSize: [32, 37], iconAnchor: iconAnchorCalculate([32, 37])});
+        if (typeof pos == "undefined")
+            pos = map.getCenter();
+        var marker = L.marker(pos, {
+            draggable: true,
+            opacity: 0.8,
+            icon: icon,
+            id: id,
+            zIndexOffset: 20000
+        }).on("dragend", function(e){
+            var id = e.target.options.id;
+            var pos = e.target._latlng;
+            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id == id) {return index}});
+            plannedMarkers[index[0]].p = pos;
+            lssm.settings.set("wpomp", plannedMarkers);
+        })
+            .addTo(map);
+        generatetooltip(marker, name, cars);
+        plannedMarkersMap.push(marker);
+        return pos;
+    }
+    function setMarker()
+    {
+        "use strict";
+        var form = "<h1>Wache planen</h1>";
+        // Type
+
+        form += '<div class="input-group select required building_building_type"><div class="input-group-addon"><label class="select required " for="building_building_type"><abbr title="required">*</abbr> '+ I18n.t('lssm.wpom.btype') +'</label></div><select class="select required form-control" id="building_building_type"><option value=""></option>';
+        for (var i in btypes)
+        {
+            form += '<option value="'+i+'">'+btypes[i]+'</option>';
+        }
+        form += '</select></div>';
+        // Name
+        form += '<div class="input-group string required building_name">';
+        form += '<div class="input-group-addon"><label class="string required " for="building_name"><abbr title="required">*</abbr> '+ I18n.t('lssm.wpom.bname') +'</label></div>';
+        form += '<input class="string required form-control" id="building_name" size="50" type="text"></div>';
+        // Vehicles
+        form += '<div class="input-group select required building_vehicle"><div class="input-group-addon"><label class="select required " for="building_vehicle"><abbr title="required">*</abbr> '+ I18n.t('lssm.wpom.addveh') +'</label></div><select class="select required form-control" id="building_vehicle"><option value=""></option>';
+        for (var c in lssm.carsById)
+        {
+            var car = lssm.carsById[c];
+            form += '<option value="'+c+'">'+car[0]+'</option>';
+        }
+        form += '</select></div>';
+        form += '<button class="btn btn-success btn pull-right" style="display:none;" id="addmarker">'+ I18n.t('lssm.wpom.set') +'</button>';
+        form += "<h2>"+ I18n.t('lssm.wpom.vehicles') +"</h2>";
+        form += '<div id="building_vehicles"></div>';
+        var modal = lssm.modal.show(form);
+        form = $(form);
+
+        $(modal +" #building_building_type").on('change', function () {
+            if(this.value != "" && $(modal +" #building_name").val().length > 0)
+                $(modal +" #addmarker").show();
+            else
+                $(modal +" #addmarker").hide();
+        });
+        $(modal +" #building_name").on('keyup', function () {
+            if(this.value.length >0 && $(modal +" #building_building_type").val() != "")
+                $(modal +" #addmarker").show();
+            else
+                $(modal +" #addmarker").hide();
+        });
+        $(modal +' #building_vehicle').on('change', function (ev) {
+            var e = ev.target;
+            if (e.value != "")
+            {
+                var val = parseInt(e.value);
+                $( modal + " #building_vehicles" ).append('<div style="margin: 5px;" data-type="'+val+'"><a href="#" onclick="$(this).parent().remove();"><i class="fa fa-times red"></i></a>&nbsp;'+e[val+1].text+'</div>');
+                $( modal + " #building_vehicle" ).val("");
+            }
+        });
+        $(modal +' #addmarker').on('click', function (ev) {
+            var name = $(modal +" #building_name").val();
+            var type =  parseInt($(modal +" #building_building_type").val());
+            var cars = [];
+            $( modal + " #building_vehicles div" ).each(function(i,e) {
+                cars.push($(e).attr('data-type'));
+            });
+            var pos = addBuildingToMap(pmid, name, type, cars);
+            plannedMarkers.push({id:pmid, n:name, t:type, c:cars, p:pos});
+            pmid++;
+            lssm.settings.set("wpomp", plannedMarkers);
+            lightboxClose();
+        });
+    };
+
+    function remMarker()
+    {
+        "use strict";
+        var form = "<h1>"+ I18n.t('lssm.wpom.brem') +"</h1>";
+        // Type
+        form += '<div class="input-group select required planned_building"><div class="input-group-addon"><label class="select required " for="planned_building"><abbr title="required">*</abbr> '+ I18n.t('lssm.wpom.bname') +'</label></div><select class="select required form-control" id="planned_building"><option value=""></option>';
+        for (var m in plannedMarkers) {
+            m = plannedMarkers[m];
+            form += '<option value="'+m.id+'">'+m.n+'</option>';
+        }
+        form += '</select></div>';
+
+        form += '<button class="btn btn-success btn pull-right" style="display:none;" id="remmarker">'+ I18n.t('lssm.wpom.rem') +'</button>';
+        var modal = lssm.modal.show(form);
+        $(modal +" #planned_building").on('change', function () {
+            if(this.value != "")
+                $(modal +" #remmarker").show();
+            else
+                $(modal +" #remmarker").hide();
+        });
+        $(modal +' #remmarker').on('click', function (ev) {
+            /*plannedMarkers.push({id: pmid, n:name, t:type, c:cars});*/
+            var id = parseInt($(modal +" #planned_building").val());
+            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id == id) {return index}});
+            plannedMarkers.splice(index[0], 1);
+            lssm.settings.set("wpomp", plannedMarkers);
+            var index = $.map(plannedMarkersMap, function(obj, index) {
+                if(obj.options.id == id) {
+                    map.removeLayer(obj);
+                    return index
+                }
+            });
+            plannedMarkersMap.splice(index[0], 1);
+            lightboxClose();
+        });
+    };
+
     function createSettings() {
         var html = '<div id="' + settings.prefix + '_settings">';
         html += '<div><span class="label label-default" style="margin-bottom:10px;">Radius</span><div id="lssm_radius_slider"><div id="lssm_radius_handle" class="label label-info ui-slider-handle"></div></div></div>';
         html+= '<div><input class="numeric integer" '+(settings.set.showRadInput?'':'style="display:none;"')+' id="lssm_radius_slider_input" step="1" type="number" value="0"></div>';
+        html += '<div class="lssm_wachen_selector"><button id="' + settings.prefix + '_setmarker">'+ I18n.t('lssm.wpom.setmarker') +'</button></div>';
+        html += '<div class="lssm_wachen_selector"><button id="' + settings.prefix + '_remmarker">'+ I18n.t('lssm.wpom.remmarker') +'</button></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_ils" ' + (settings.set.ils ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_ils"></label></div><span class="label label-ils">Leitstelle</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div><span class="label label-fw">Feuerwehr</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div><span class="label label-pol">Polizei</span></div>';
@@ -110,6 +344,8 @@
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_showCars" ' + (settings.set.showCars ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_showCars"></label></div><span class="label label-default">Zeige Fahrzeuge?</span></div>';
         html += '</div>';
         $('#map_outer').append(html);
+        $('#' + settings.prefix + '_setmarker').on("click", setMarker);
+        $('#' + settings.prefix + '_remmarker').on("click", remMarker);
         $('#' + settings.prefix + '_settings').change(changeSetting);
         setCircleRadius();
     }
@@ -170,4 +406,28 @@
     createSettings();
     // alle aktiven Typen zeichnen
     drawCircles(true);
+    var btypes = {};
+    $.get('/buildings/new')
+        .fail(function () {
+            console.log("Could not get building list. Disabling mapmarkers.")
+            $("#WachenplanungOnMap_remmarker").remove();
+            $("#WachenplanungOnMap_addmarker").remove();
+        })
+        .done(function (data) {
+            $.each($(data).find("#building_building_type option"), function (key, value) {
+                "use strict";
+                if (value.value != "")
+                    btypes[value.value] = value.text;
+            });
+        });
+    var pmid = 0;
+    var plannedMarkers = lssm.settings.get("wpomp", []);
+    var plannedMarkersMap = [];
+    if (plannedMarkers.length>0) {
+        pmid = (plannedMarkers[plannedMarkers.length - 1].id)+1;
+        for (var b in plannedMarkers) {
+            b = plannedMarkers[b];
+            addBuildingToMap(b.id, b.n, b.t, b.c, b.p);
+        }
+    }
 })(map, I18n, jQuery)

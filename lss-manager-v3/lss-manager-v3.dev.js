@@ -900,12 +900,14 @@ lssm.appstore = {
             content.hide().after(div);
             $('#'+lssm.config.prefix + '_appstore_row').show();
             $('footer').hide();
+            //lssm.modal.show(div[0].innerHTML, lssm.appstore.closeAppstore);
         });
         // einhängen des Buttons in der Navi
         $('#' + lssm.config.prefix + '_menu').append(settingButton);
     },
     closeAppstore: function() {
         "use strict";
+        //var action = lssm.appstore.checkModChanges();
         var action = this.checkModChanges();
         lssm.modules.saveall();
         if(action == "Reload") {
@@ -917,6 +919,7 @@ lssm.appstore = {
             $('#'+lssm.config.prefix + '_appstore_row').hide();
             $('#content').show();
             $('footer').show();
+            //$(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
             // Inform the user about activated modules.
             var activated = ""
             for (var m in action) {
@@ -1106,6 +1109,38 @@ lssm.hook = {
     }
 };
 
+lssm.modal = {
+    /**
+     * Creates a new modal
+     * @param content The content
+     * @param closefunc Function to call when closed
+     * @returns {string} The ID of the modal
+     */
+    show: function(content, closefunc){
+        "use strict";
+        var e = parseInt($("#lightbox_background").css("width")),
+            i = parseInt($("#lightbox_background").css("height")),
+            n = i - 100;
+        592 > n && (n = i - 30);
+        var s = e - 70;
+        862 > s && (s = e - 0);
+        var o = s - 2,
+            a = n - 34,
+            r = (e - s) / 2;
+        $("#lightbox_box").css("width", s + "px")
+        .css("height", n + "px")
+        .show();
+        $("#lightbox_box").append('<div class="lightbox_iframe" style="width:' + o + "px;height:" + a + 'px" id="lightbox_iframe_' + iframe_lightbox_number + '"><div id="iframe-inside-container">'+content+'</div></div>');
+        $("#lightbox_background").show();
+        $("#lightbox_box").css("left", r + "px");
+        $("#lightbox_box").css("top", (i - n) / 2 + "px");
+        $("#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container").css("height", a).css("width", o);
+        if (typeof closefunc != "undefined")
+            $(document).bind(lssm.hook.prename("lightboxClose"),closefunc);
+        setTimeout('$("#lightbox_iframe_" + iframe_lightbox_number).show().focus();', 100);
+        return "#lightbox_iframe_" + iframe_lightbox_number+" #iframe-inside-container";
+    }
+};
 
 /**
  * Lets roll!
