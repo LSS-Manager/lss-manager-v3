@@ -1,5 +1,5 @@
-(function() {
-
+﻿(function() {
+	//Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de['lssm']['missionKeyword'] = {
         fw: 'B ',
         thl: 'THL',
@@ -29,7 +29,7 @@
         18: 'B 1',
         19: 'B 2',
         20: 'B 3',
-        21: 'B 3',
+        21: 'B 2',
         22: 'B 3',
         23: 'B 3',
         24: 'B 1',
@@ -40,7 +40,7 @@
         29: 'B 3',
         30: 'THL 1',
         31: 'THL 1',
-        32: 'B 3',
+        32: 'B 2',
         33: 'B 3',
         34: 'B 3',
         35: 'B 4',
@@ -80,14 +80,14 @@
         69: 'POL 1',
         70: 'POL 1',
         71: 'POL 1',
-        72: 'THL P H�HENRETTUNG',
+        72: 'THL P HÖHENRETTUNG',
         73: 'POL 3',
         74: 'POL 1',
         75: 'POL 7',
         76: 'B 3',
         77: 'THL P WOHNUNG',
         78: 'THL 1',
-        79: 'THL P H�HENRETTUNG',
+        79: 'THL P HÖHENRETTUNG',
         80: 'B 3',
         81: 'POL 1',
         82: 'POL 1',
@@ -246,8 +246,8 @@
         232: 'POL 3',
         233: 'POL 2',
         234: 'THL BOMBENFUND',
-        235: 'THL P H�HENRETTUNG',
-        236: 'THL P H�HENRETTUNG',
+        235: 'THL P HÖHENRETTUNG',
+        236: 'THL P HÖHENRETTUNG',
         237: 'THL ZUG',
         238: 'THL 2',
         2381:'THL 4',
@@ -945,15 +945,21 @@
         299: ''
     }
 
+	//Farben für das Label
     var color_fw       = 'red';
     var color_pol      = '#00de13';
     var color_rd       = '#ff90a4';
     var color_thw      = '#03a8f9';
     var color_sonst    = '#03a8f9';
 
+	//Stichwort Element
     var title_stichwort = document.getElementById('missionH1');
+	
+	//Anzahl Patientenbalken
     var anzahl_patients = document.getElementsByClassName("patient_progress").length;
     var aao_text = '';
+	
+	//Link für Hilfe (wird für ID benötigt)
     var help_el = document.getElementById('mission_help');
     var help = "";
     if (help_el !== null)
@@ -1886,7 +1892,8 @@
             break;
     }
 
-    if(title_stichwort.innerText.includes('Brandmeldeanlage'))
+    if(title_stichwort !== null && title_stichwort.innerText.includes('Brandmeldeanlage'))
+	//Wenn BMA im Titel, setze Stichwort mit BMA am Ende
     {
         aao_text = aao_text +' BMA';
     }
@@ -1895,58 +1902,61 @@
     {
         if(I18n.locale == 'de') {
 
+			//Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY PERSON
             if(aao_text.match(/B [0-9]/ig))
             {
                 aao_text = aao_text + ' PERSON';
             }
 
-            if (anzahl_patients > 1 && anzahl_patients < 4 && !aao_text.match('RD'))
+			//Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
+            if (anzahl_patients > 1 && anzahl_patients < 4 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">RD 3</span>';
-            else if (anzahl_patients >= 4 && anzahl_patients < 6 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 4 && anzahl_patients < 6 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">RD 4</span>';
-            else if (anzahl_patients >= 6 && anzahl_patients < 10 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 6 && anzahl_patients < 10 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">RD 5</span>';
-            else if (anzahl_patients >= 10 && anzahl_patients < 16 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 10 && anzahl_patients < 16 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 10-15</span>';
-            else if (anzahl_patients >= 25 && anzahl_patients < 26 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 25 && anzahl_patients < 26 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 16-25</span>';
-            else if (anzahl_patients >= 26 && anzahl_patients < 51 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 26 && anzahl_patients < 51 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 26-50</span>';
-            else if (anzahl_patients >= 51 && anzahl_patients < 101 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 51 && anzahl_patients < 101 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 51-100</span>';
-            else if (anzahl_patients >= 101 && !aao_text.match('RD'))
+            else if (anzahl_patients >= 101 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 100+</span>';
         }
         else if (I18n.locale == 'en')
         {
-            if (anzahl_patients >= 10 && anzahl_patients < 21 && !aao_text.match('MED'))
+            if (anzahl_patients >= 10 && anzahl_patients < 21 && !aao_text.match('MED '))
                 additional_aao_text = '<span class="label label-warning">MED CODE 10</span>';
-            else if (anzahl_patients >= 21 && anzahl_patients < 30 && !aao_text.match('MED'))
+            else if (anzahl_patients >= 21 && anzahl_patients < 30 && !aao_text.match('MED '))
                 additional_aao_text = '<span class="label label-warning">MED CODE 20</span>';
-            else if (anzahl_patients >= 30 && anzahl_patients < 40 && !aao_text.match('MED'))
+            else if (anzahl_patients >= 30 && anzahl_patients < 40 && !aao_text.match('MED '))
                 additional_aao_text = '<span class="label label-warning">MED CODE 30</span>';
-            else if (anzahl_patients >= 40 && anzahl_patients < 50 && !aao_text.match('MED'))
+            else if (anzahl_patients >= 40 && anzahl_patients < 50 && !aao_text.match('MED '))
                 additional_aao_text = '<span class="label label-warning">MED CODE 40</span>';
-            else if (anzahl_patients >= 50 && !aao_text.match('MED'))
+            else if (anzahl_patients >= 50 && !aao_text.match('MED '))
                 additional_aao_text = '<span class="label label-warning">MED CODE 50</span>';
         }
         else if (I18n.locale == 'nl')
         {
             if (anzahl_patients >= 10 && anzahl_patients < 21 && !aao_text.match('A1'))
                 additional_aao_text = '<span class="label label-warning">A1 CODE 10</span>';
-            else if (anzahl_patients >= 21 && anzahl_patients < 30 && !aao_text.match('A1'))
+            else if (anzahl_patients >= 21 && anzahl_patients < 30 && !aao_text.match('A 1'))
                 additional_aao_text = '<span class="label label-warning">A1 CODE 20</span>';
-            else if (anzahl_patients >= 30 && anzahl_patients < 40 && !aao_text.match('A1'))
+            else if (anzahl_patients >= 30 && anzahl_patients < 40 && !aao_text.match('A 1'))
                 additional_aao_text = '<span class="label label-warning">A1 CODE 30</span>';
-            else if (anzahl_patients >= 40 && anzahl_patients < 50 && !aao_text.match('A1'))
+            else if (anzahl_patients >= 40 && anzahl_patients < 50 && !aao_text.match('A 1'))
                 additional_aao_text = '<span class="label label-warning">A1 CODE 40</span>';
-            else if (anzahl_patients >= 50 && !aao_text.match('A1'))
+            else if (anzahl_patients >= 50 && !aao_text.match('A 1'))
                 additional_aao_text = '<span class="label label-warning">A1 CODE 50</span>';
         }
     }
     var color = 'black';
     var label = 'label-info';
 
+	//Setze Label Farben
     if(aao_text.match(I18n.t('lssm.missionKeyword.rd')))
     {
         color = color_rd;
@@ -1968,6 +1978,7 @@
         label = 'label-primary';
     }
 
+	//Füge Label hinzu
     //title_stichwort.insertAdjacentHTML('afterbegin', '<b>:'+mission_id+':<font color="'+color+'">'+aao_text+'</font></b>');
     title_stichwort.insertAdjacentHTML('beforeend', '<span class="label '+label+'">'+aao_text+'</span>'+additional_aao_text);
 })();
