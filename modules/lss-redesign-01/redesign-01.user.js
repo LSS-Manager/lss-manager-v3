@@ -261,6 +261,9 @@
         '1% {display: block;opacity: 0}'+
         '100% {display: block;opacity: 1}'+
       '}'+
+      '.hideLeitstelle, .hideBuildingType {'+
+        'display:none'+
+      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();

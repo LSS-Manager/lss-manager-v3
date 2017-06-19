@@ -11,6 +11,9 @@ nav, .navbar-default {
   min-width:200px;
 }
 
+li {
+  list-style: none !important;
+}
 
 /* ##################################################
 

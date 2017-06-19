@@ -37,11 +37,5 @@
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
-    $('#building_selection_feuerwehr').text('FW');
-  	$('#building_selection_rettung').text('RD');
-  	$('#building_selection_polizei').text('POL');
-  	$('#building_selection_wasserrettung').text('WR');
-    $('#building_selection_schule').text('SCH');
-    $('#building_selection_leitstelle').text('ILS');
     map.invalidateSize(true);
 })();

@@ -364,7 +364,7 @@ lssm.Module = {
             has: false,
             function_code: ""
         },
-        collisions: ['Layout03', 'FMS5InMap']
+        collisions: ['Layout03', 'FMS5InMap', 'heatmap']
     },
     tagMissions: {
         name: {
@@ -596,7 +596,8 @@ lssm.Module = {
         settings: {
             has: false,
             function_code: ""
-        }
+        },
+        collisions: ['Layout03', 'WachenplanungOnMap']
     },
     centermap: {
         name: {
@@ -717,6 +718,27 @@ lssm.Module = {
         source: '/modules/lss-missionDate/missionDate.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+	iconFilter: {
+        name: {
+            de: 'Icon Gebäude Filter',
+            en: 'Icon building filter',
+            nl: 'Icon building filter'
+        },
+        active: false,
+        description: {
+            de: 'Tauscht den Gebäude Filter mit Icons aus.',
+            en: 'Replaces the building filter with icons.',
+            nl: 'Replaces the building filter with icons.'
+        },
+        source: '/modules/lss-iconFilter/iconFilter.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
         develop: false,
         settings: {
             has: false,

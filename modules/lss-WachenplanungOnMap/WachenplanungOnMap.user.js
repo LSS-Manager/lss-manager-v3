@@ -1,6 +1,6 @@
 (function (map, I18n, $) {
     I18n.translations.de['lssm']['wpom'] = {
-        setmarker: "Marker Setzen",
+        setmarker: "Marker setzen",
         remmarker: "Marker entfernen",
         plan: "Wache planen",
         vehicles: "Fahrzeuge",
@@ -387,7 +387,7 @@
             create: function() {
                 handle.text( $( this ).slider( 'value' ) + ' km');
                 !settings.set.showSlider && $(this).hide();
-                
+
             },
             slide: function( event, ui ) {
                 handle.text( ui.value + ' km' );
