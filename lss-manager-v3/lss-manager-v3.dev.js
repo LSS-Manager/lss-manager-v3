@@ -1173,7 +1173,7 @@ lssm.modal = {
     // Create the lssm dropdown menu
     lssm.appstore.createDropDown();
     // And append the version to it
-    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center"><a href="'+lssm.github+'" target="_blank">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
+    $('#' + lssm.config.prefix + '_menu').prepend('<li class="menu-center"><a href="'+lssm.config.github+'" target="_blank">' + I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
     // Only execute everything else if user is logged in
     if (typeof user_id == "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
