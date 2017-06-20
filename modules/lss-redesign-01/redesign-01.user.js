@@ -264,6 +264,9 @@
       '.hideLeitstelle, .hideBuildingType {'+
         'display:none'+
       '}'+
+      '.news_new, .alliance_forum_new, .alliance_message_new, .message_new,.alliance_apply_new, .alliance_news_new {'+
+        'background-color: #77dc81'+
+      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();
