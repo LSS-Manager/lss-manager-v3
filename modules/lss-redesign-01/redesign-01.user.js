@@ -19,7 +19,7 @@
         'margin-bottom: 0px !important;'+
         'height: 10px !important;'+
       '}'+
-      '#mission_chat_messages, .building_list_vehicles, #building_list, #radio_messages_important {'+
+      '#mission_chat_messages, .building_list_vehicles, #building_list, #radio_messages_important, #radio_messages {'+
         'padding: 0 !important;'+
       '}'+
       '#mission_chat_messages li, .building_list_li, .building_list_vehicle_element, #radio_messages_important li {'+
@@ -238,7 +238,7 @@
         '0% {background: #000000}'+
         '100% {background: #ff0000}'+
       '}'+
-      '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
+      '#radio_messages_important li, #radio_messages_important li > span, #radio_messages_important li > a, #radio_messages li, #radio_messages li > a, #radio_messages li > span{'+
         'font-size:10px;'+
       '}'+
       '#radio_messages_important li > a {'+
