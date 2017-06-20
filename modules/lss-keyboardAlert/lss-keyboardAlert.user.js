@@ -38,6 +38,12 @@
                 case 70:
                     tellParent($('#lssm_searchEntryToggle').click());
                     break;
+                case 107: //Plus-Symbol Num-Block
+                    tellParent($('.missing_vehicles_load')[0].click());
+                    break;
+                case 187: //Plus-Symbol
+                    tellParent($('.missing_vehicles_load')[0].click());
+                    break;
             }
             return e.returnValue;
         }
