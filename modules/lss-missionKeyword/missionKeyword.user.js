@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
 	//Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de['lssm']['missionKeyword'] = {
         fw: 'B ',
@@ -198,8 +198,8 @@
         183: 'RD 1',
         184: 'RD 1',
         185: 'RD 1',
-        186: 'B 5',
-        187: 'B 5',
+        186: 'B 4',
+        187: 'B 3',
         188: 'POL 1',
         189: 'POL 1',
         190: 'POL 1',
@@ -514,8 +514,8 @@
         183: 'MED 1',
         184: 'MED 1',
         185: 'MED 1',
-        186: 'FIRE 5',
-        187: 'FIRE 5',
+        186: 'FIRE 4',
+        187: 'FIRE 3',
         188: 'POL 1',
         189: 'POL 1',
         190: 'POL 1',
