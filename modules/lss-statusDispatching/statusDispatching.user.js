@@ -2,8 +2,8 @@
 
     I18n.translations.de['lssm']['statusDispatching'] = {
         fms: 'Sprechwunsch bearbeiten',
-        nextVehicle: 'Zum nächsten Fahrzeug im Status 5',
-        backToAlarm: 'Zurück zum Einsatz'
+        nextVehicle: 'Zum nÃ¤chsten Fahrzeug im Status 5',
+        backToAlarm: 'ZurÃ¼ck zum Einsatz'
     };
 
     I18n.translations.en['lssm']['statusDispatching'] = {
@@ -33,10 +33,10 @@
             next_clicked = true;
         }
     }
-    for (var i = 0;i<nextVehicle.length;i++)
-    {
-        if (nextVehicle.length > 0 && nextVehicle[i].innerText.match(I18n.t('lssm.statusDispatching.backToAlarm')) && !next_clicked) {
-            nextVehicle[i].click();
-        }
-    }
+	
+	var backToMission = document.getElementById('btn_back_to_mission');
+    
+	if (backToMission !== null && !next_clicked) {
+		backToMission.click();
+	}
 })();
