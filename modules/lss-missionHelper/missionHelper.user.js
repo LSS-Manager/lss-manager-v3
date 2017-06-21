@@ -60,6 +60,7 @@
   var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Funkstreifenwagen (100%) Nur bei Patient";
   var Bürobrand  ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-Atemschutz (100%)</br> 1x Einsatzleitwagen (100%)</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)";
   var LKWinSupermarkt  ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Drehleiter (70%)</br> 1x Einsatzleitwagen (100%)</br>1x Feuerwehrkran (70%)</br>1x Gerätekraftwagen (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Funkstreifenwagen (100%)";
+  var GasunfallinWerkstatt = "3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Rüstwagen (30%)</br> 1x Einsatzleitwagen (100%)";
   //6 FW-Wachen
   var AufgerissenerÖltank ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Öl (100%)";
   var GroßeÖlspur ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Öl (75%)";
@@ -183,6 +184,7 @@
   var GestürzterFußgänger  ="1x Rettungstransportwagen (100%)";
   var GestürzterRadfahrer ="1x Rettungstransportwagen (100%)";
   var Kopfplatzwunde ="1x Rettungstransportwagen oder Krankentransportwagen (100%)";
+  var ArbeitsunfallimGarten = "1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
   //3 Rettungswachen
   var Herzinfarkt ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
   var akuterAsthmaAnfall ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
@@ -193,6 +195,7 @@
   var Unterzuckerung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
   var AkuteBauchschmerzen ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
   var ReitunfallmitPkw ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1-4x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (50%)";
+  var Bluthochdruck = "1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (50%)";
   //4 Rettungswachen
   var UnfallmitMotorsäge ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
   var BewusstlosePerson ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
