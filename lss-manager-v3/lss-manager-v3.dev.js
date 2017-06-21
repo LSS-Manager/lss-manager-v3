@@ -744,6 +744,27 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
+    },
+	sumDailyMissions: {
+        name: {
+            de: 'Summe für die tägliche Zusammenfassung',
+            en: 'Sum for daily stats',
+            nl: 'Totaalweergave in dagsamenvatting'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der täglichen Zusammenfassung an.',
+            en: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
+            nl: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
+        },
+        source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     }
 };
 
