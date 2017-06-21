@@ -1981,5 +1981,6 @@
 
 	//Füge Label hinzu
     //title_stichwort.insertAdjacentHTML('afterbegin', '<b>:'+mission_id+':<font color="'+color+'">'+aao_text+'</font></b>');
-    title_stichwort.insertAdjacentHTML('beforeend', '<span class="label '+label+'">'+aao_text+'</span>'+additional_aao_text);
+    if(title_stichwort !== null)
+	    title_stichwort.insertAdjacentHTML('beforeend', '<span class="label '+label+'">'+aao_text+'</span>'+additional_aao_text);
 })();
