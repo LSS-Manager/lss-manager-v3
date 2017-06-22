@@ -891,7 +891,19 @@ lssm.appstore = {
             '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" class="username-link">'+
             '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
             '</a>'+
-            '</span>'+
+            '</span>&nbsp;'+
+            '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/68742" target="_blank" class="username-link">@MrWeezle</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=MrWeezle" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+	    '</span>&nbsp;'+
+	    '<span class="label label-primary">'+
+            '<a href="https://www.leitstellenspiel.de/profile/675" target="_blank" class="username-link">@SanniHameln</a>&nbsp;'+
+            '<a href="https://www.leitstellenspiel.de/messages/new?target=SanniHameln" target="_blank" class="username-link">'+
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>'+
+            '</a>'+
+	    '</span>'+
             '</div>'+
             '</div>'
         );
