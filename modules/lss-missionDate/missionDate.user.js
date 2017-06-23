@@ -24,7 +24,7 @@
 		}
 		else
 		{
-			h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span></small> '+I18n.t('lssm.missionDate.ago')+'<br>');
+			h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
 			a = einsatzdate.replace(/[a-zA-Z]/ig,'').replace(': ','').replace('  ',':').trim().split(':');
 		}
 
@@ -82,6 +82,12 @@
 		else
 			newHour = '';
 
+	    	if (I18n.locale == 'en')
+		{
+		    var offset = x.getTimezoneOffset()/60;
+	    	    newHour += offset;
+    		}
+	    
 		if (newMin < 0)
 			newMin = 0;
 		if (document.getElementById('einsatzdate') !== null)
