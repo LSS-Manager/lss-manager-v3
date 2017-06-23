@@ -327,7 +327,7 @@
         18: '1x Firetruck (100%)',
         19: '1x Firetruck (100%)',
         20: '3x Firetrucks (100%)<br/>1x Battalion Chief (90%)',
-        21: '3x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (100%)',
+        21: '1x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (100%)',
         22: '3x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (50%)',
         23: '1x Firetruck (100%)',
         24: '1x Firetruck (100%)',
