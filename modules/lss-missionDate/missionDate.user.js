@@ -85,7 +85,9 @@
 	    	if (I18n.locale == 'en')
 		{
 		    var offset = x.getTimezoneOffset()/60;
-	    	    newHour += offset;
+		    //Zahl 4, weil EST UTC+4 ist
+		    var newOffset = 4 - offset;
+	    	    newHour -= offset;
     		}
 	    
 		if (newMin < 0)
