@@ -120,7 +120,7 @@
 										 I18n.t('lssm.sumDailyMissions.num_prisoners')+'<span id="num_anzahl">'+sum_gefangene+'</span></div>'+
 
 										 '<div class="label label-info" id="num_label"><i class="glyphicon glyphicon-plus" id="num_icon"></i>'+
-										 I18n.t('lssm.sumDailyMissions.num_team')+'<span id="num_anzahl">'+sum_verband+'</span></div>');
+										 I18n.t('lssm.sumDailyMissions.num_team')+'<span id="num_anzahl">'+sum_verband+'</span></div><br><br>');
         }
     }
 })();
