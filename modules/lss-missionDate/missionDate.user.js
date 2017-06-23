@@ -77,11 +77,6 @@
 		else
 			newDay = '';
 		
-		if (newHour >= 1)
-			newHour = newHour + 'h ';
-		else
-			newHour = '';
-
 	    	if (I18n.locale == 'en')
 		{
 		    var offset = x.getTimezoneOffset()/60;
@@ -89,6 +84,11 @@
 		    var newOffset = 4 - offset;
 	    	    newHour -= newOffset;
     		}
+	    
+		if (newHour >= 1)
+			newHour = newHour + 'h ';
+		else
+			newHour = '';
 	    
 		if (newMin < 0)
 			newMin = 0;
