@@ -1065,7 +1065,7 @@
 					additional_aao_text += 'A 1 CODE 10';
 				else if (anzahl_patients >= 21 && anzahl_patients < 30)
 					additional_aao_text += 'A 1 CODE 20';
-				else if (anzahl_patients >= 30 && anzahl_patients < 40))
+				else if (anzahl_patients >= 30 && anzahl_patients < 40)
 					additional_aao_text += 'A 1 CODE 30';
 				else if (anzahl_patients >= 40 && anzahl_patients < 50)
 					additional_aao_text += 'A 1 CODE 40';
