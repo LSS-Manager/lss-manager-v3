@@ -1918,7 +1918,7 @@
                 additional_aao_text = '<span class="label label-warning">RD 5</span>';
             else if (anzahl_patients >= 10 && anzahl_patients < 16 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 10-15</span>';
-            else if (anzahl_patients >= 25 && anzahl_patients < 26 && !aao_text.match('RD '))
+            else if (anzahl_patients >= 16 && anzahl_patients < 26 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 16-25</span>';
             else if (anzahl_patients >= 26 && anzahl_patients < 51 && !aao_text.match('RD '))
                 additional_aao_text = '<span class="label label-warning">MANV 26-50</span>';
