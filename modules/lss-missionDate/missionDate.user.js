@@ -87,7 +87,7 @@
 		    var offset = x.getTimezoneOffset()/60;
 		    //Zahl 4, weil EST UTC+4 ist
 		    var newOffset = 4 - offset;
-	    	    newHour -= offset;
+	    	    newHour -= newOffset;
     		}
 	    
 		if (newMin < 0)
