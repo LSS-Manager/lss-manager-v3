@@ -274,6 +274,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    coinConfirm: {
+        name: {
+            de: 'Coin Confirm',
+            en: 'Coin Confirm'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Fordert zur Bestätigung bei Coin Ausgaben auf, um versehendliche Ausgaben zu vermeiden. (Ohne Gewähr)',
+            en: 'Asks for confirmation on coin spendings to avoid mistakes. (Without warranty)'
+        },
+        source: '/modules/lss-coinconfirm/CoinConfirm.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     Notification_Alert: {
         name: {
             de: 'Notification Alert',
