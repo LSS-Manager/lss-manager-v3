@@ -24,7 +24,8 @@ jQuery.expr[':'].containsci = function(a, i, m) {
 
 var lssm = {
     config: {
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        //server: "https://localhost/lss-manager-v3",
+    	server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.3",
@@ -606,8 +607,8 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Ändert das Standardverhalten dahingehend, dass beim Aufruf der Seite nicht mehr zwingend die Leitstelle im Mittelpunkt steht, sondern alle Einsätze auf einen Blick im optimalen Zoom-Level sichtbar sind.',
-            en: 'Modifies default behavior that all missions are visible on page load with an optimal zoom-level.'
+            de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
+            en: 'Centers the map on page load and on click. Just as you prefer.'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -615,7 +616,7 @@ lssm.Module = {
         develop: false,
         settings: {
             has: false,
-            function_code: ""
+            function_code: "CenterMap_show_settings"
         }
     }, /*
      missionTabs: {
