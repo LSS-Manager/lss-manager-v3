@@ -13,14 +13,48 @@
 		
 		// Gebäude bauen
 		$(document).ajaxComplete(function() {
-			 $('.coins_activate').attr('onclick', 'return confirm("' + I18n.t('lssm.coinconfirm.message') + '")');
+			$('.coins_activate').each(function(){
+				preventProcessing($(this));
+			});
 		});
 		
 		// Ausbau starten, Personal einstellen
-		$('a[href*="coins"]').attr('onclick', 'return confirm("' + I18n.t('lssm.coinconfirm.message') + '")');
-		$('a[href*="Coins"]').attr('onclick', 'return confirm("' + I18n.t('lssm.coinconfirm.message') + '")');
+		$('a[href*="coins"]').each(function(){
+			preventProcessing($(this));
+		});
+		$('a[href*="Coins"]').each(function(){
+			preventProcessing($(this));
+		});
+		
 		// Ausbau fertigstellen
-		$('a[href*="extension_finish"]').attr('onclick', 'return confirm("' + I18n.t('lssm.coinconfirm.message') + '")');
+		$('a[href*="extension_finish"]').each(function(){
+			preventProcessing($(this));
+		});
+		
+		// Gebäude verschieben
+		$('input[value*="Coins"]').each(function(){
+			preventProcessing($(this));
+		});
+		
+		// Lehrgang
+		$('a[href*="education/finish"]').each(function(){
+			preventProcessing($(this));
+		});
+		
+	}
+	
+	function preventProcessing(element){
+		if(element.data('bound') !== 'true'){
+			element.click(function(ev){
+				var response = confirm(I18n.t('lssm.coinconfirm.message'));
+				if(!response){
+					ev.stopPropagation();
+				}
+				return response;
+			});
+			element.data('bound', 'true');
+		}
+
 	}
 	
 	protectCoins();
