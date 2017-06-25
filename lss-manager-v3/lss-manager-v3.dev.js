@@ -698,7 +698,7 @@ lssm.Module = {
         develop: false,
         settings: {
             has: false,
-            function_code: ""
+            function_code: "statusDispatching_show_settings"
         }
     },
 	missionKeyword: {
