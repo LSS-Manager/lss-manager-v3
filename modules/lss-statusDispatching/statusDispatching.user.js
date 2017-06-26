@@ -1,37 +1,37 @@
 (function(){
 
-	var LSS_FASTS5_STORAGE = "StatusDispatching";
+    var LSS_FASTS5_STORAGE = "StatusDispatching";
     I18n.translations.de['lssm']['statusDispatching'] = {
         fms: 'Sprechwunsch bearbeiten',
         nextVehicle: 'Zum nächsten Fahrzeug im Status 5',
         backToAlarm: 'Zurück zum Einsatz',
-		settingsTitle: 'Verbesserte Status 5 - Einstellungen',
-		settingsAttr: '"Sprechwunsch bearbeiten" in Einsatzmaske automatisch anklicken',
-		settingsAttrDesc: 'Die Aktivierung dieser Option bewirkt, dass bei einem Einsatz mit einem offenen Status 5 zuerst der Status bearbeitet werden muss, bevor der Einsatz weiter bearbeitet werden kann. Wird diese Option also aktiviert, werden alle Status 5 schneller bearbeitet.<br><br>'+
-							'Wird die Option deaktiviert, werden nur noch die Buttons "Zum nächsten Fahrzeug im Status 5" und "Zurück zum Einsatz" automatisch angeklickt.',
-		close:'Schließen'
+	settingsTitle: 'Verbesserte Status 5 - Einstellungen',
+	settingsAttr: '"Sprechwunsch bearbeiten" in Einsatzmaske automatisch anklicken',
+	settingsAttrDesc: 'Die Aktivierung dieser Option bewirkt, dass bei einem Einsatz mit einem offenen Status 5 zuerst der Status bearbeitet werden muss, bevor der Einsatz weiter bearbeitet werden kann. Wird diese Option also aktiviert, werden alle Status 5 schneller bearbeitet.<br><br>'+
+						'Wird die Option deaktiviert, werden nur noch die Buttons "Zum nächsten Fahrzeug im Status 5" und "Zurück zum Einsatz" automatisch angeklickt.',
+	close:'Schließen'
     };
 
     I18n.translations.en['lssm']['statusDispatching'] = {
         fms: 'Transport Requested',
         nextVehicle: 'Go to the next vehicle with a transport request',
         backToAlarm: 'Back to mission',
-		settingsTitle: 'Enhanced transport requests - Settings',
-		settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
-		settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br><br>'+
-		'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
-		close:'Close'
+	settingsTitle: 'Enhanced transport requests - Settings',
+	settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
+	settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br><br>'+
+	'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
+	close:'Close'
     };
 
     I18n.translations.nl['lssm']['statusDispatching'] = {
         fms: 'Spraakaanvraag beantwoorden',
         nextVehicle: 'Naar het volgende status 7 voertuig',
         backToAlarm: 'Naar het incident',
-		settingsTitle: 'Verbeterde spraakaanvragen - Instellingen',
-		settingsAttr: 'Click the button "Transport Requested" in mission mask automatically', //TODO: NL
-		settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br><br>'+
-		'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.', //TODO: NL
-		close:'Dicht'
+	settingsTitle: 'Verbeterde spraakaanvragen - Instellingen',
+	settingsAttr: 'De knop "Spraakaanvraag beantwoorden" in het meldingsvenster automatisch indrukken.', //TODO: NL
+	settingsAttrDesc: 'Door deze optie in te schakelen wordt de knop "spraakaanvraag beantwoorden" in het meldingsvenster automatisch ingedrukt. Op deze manier verwerk je sneller achter elkaar alle spraakaanvragen in plaats van dat je eerst nog de details van de desbetreffende melding te zien krijgt.<br><br>'+
+	'Uitgeschakeld krijg je wel nog alle meldingen apart te zien voordat je de spraakaanvraag beantwoordt. De knoppen "Naar het volgende status 7 voertuig" en "Naar het incident" worden niet door deze instelling beïnvloed.', //TODO: NL
+	close:'Dicht'
     };
 	
 	function getSettings(){
