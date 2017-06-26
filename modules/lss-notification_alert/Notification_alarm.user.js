@@ -21,7 +21,7 @@
         settings: {
             title: "Einstellungen - Notification-Alarm",
             text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-            text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
@@ -43,9 +43,9 @@
         blend: "Ausblenden nach:",
         seconds: "Sekunden",
         settings: {
-            title: "Einstellungen - Notification-Alarm",
-            text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-            text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+            title: "Settings - Notification-Alarm",
+            text_1: "Welcome to the Settingsarea of the Notification Alarm.",
+            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
@@ -69,7 +69,7 @@
         settings: {
             title: "Einstellungen - Notification-Alarm",
             text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-            text_2: "Hier findest du alle einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Beduetet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
+            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
