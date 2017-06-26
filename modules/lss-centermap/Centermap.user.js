@@ -47,6 +47,18 @@
 		}
 	};
 	
+	var globalSettings = {
+			'id': LSS_CENTERMAP_STORAGE, 
+			'title': I18n.t('lssm.centermap.settings.title'),
+			'settings': {
+		        'centermap-option': {'label': I18n.t('lssm.centermap.settings.choose'),'type': 'radio', 'default': 2},
+		        'centermap-alliance': {'label': I18n.t('lssm.centermap.settings.alliance'),'type': 'boolean','default': true},
+		        'centermap-center-lat': {'label': '','float': 'int','default': null},
+		        'centermap-center-lng': {'label': '','float': 'int','default': null},
+		        'centermap-zoom': {'label': '','type': 'int', 'default': null}
+		    }
+		};
+	
 	   function getSettings(){
 	        var settings = {
 	            'centermap-option': {'type': 'radio', 'default': 2},
@@ -97,6 +109,7 @@
 	        lssm.settings.remove(LSS_CENTERMAP_STORAGE);
 	        lssm.settings.set(LSS_CENTERMAP_STORAGE, settings);
 	    }
+	        
 
 	function centerMap() {
 		if(getSetting('centermap-option') == 2){
