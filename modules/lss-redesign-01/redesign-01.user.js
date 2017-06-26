@@ -19,7 +19,7 @@
         'margin-bottom: 0px !important;'+
         'height: 10px !important;'+
       '}'+
-      '#mission_chat_messages, .building_list_vehicles, #building_list, #radio_messages_important {'+
+      '#mission_chat_messages, .building_list_vehicles, #building_list, #radio_messages_important, #radio_messages {'+
         'padding: 0 !important;'+
       '}'+
       '#mission_chat_messages li, .building_list_li, .building_list_vehicle_element, #radio_messages_important li {'+
@@ -148,6 +148,10 @@
         '-webkit-animation-duration: 1s;'+
         'animation-duration: 1s'+
       '}'+
+      '.building_list_fms_6 {'+
+        'background-color: black;'+
+        'color:white;'+
+      '}'+
       '.building_list_fms_7 {'+
           'background-color: #ff8600;'+
           'color: black'+
@@ -215,6 +219,12 @@
       	'background-color: rgb(255, 73, 5) !important;'+
       	'color: white !important;'+
       '}'+
+      '.highlight {'+
+        'animation-name: highlight;'+
+        'animation-iteration-count: 3;'+
+        '-webkit-animation-duration: 1s;'+
+        'animation-duration: 1s;'+
+      '}'+
       '@keyframes highlight {'+
         '0% {background: rgba(0, 0, 0, 0)}'+
         '50% {background: #62c462}'+
@@ -228,7 +238,7 @@
         '0% {background: #000000}'+
         '100% {background: #ff0000}'+
       '}'+
-      '#radio_messages_important li, #radio_messages_important li > span ,#radio_messages_important li > a{'+
+      '#radio_messages_important li, #radio_messages_important li > span, #radio_messages_important li > a, #radio_messages li, #radio_messages li > a, #radio_messages li > span{'+
         'font-size:10px;'+
       '}'+
       '#radio_messages_important li > a {'+
@@ -250,6 +260,12 @@
         '0% {display: none;opacity: 0}'+
         '1% {display: block;opacity: 0}'+
         '100% {display: block;opacity: 1}'+
+      '}'+
+      '.hideLeitstelle, .hideBuildingType {'+
+        'display:none'+
+      '}'+
+      '.news_new, .alliance_forum_new, .alliance_message_new, .message_new,.alliance_apply_new, .alliance_news_new {'+
+        'background-color: #77dc81'+
       '}'+
     '</style>');
 

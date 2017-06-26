@@ -1,4 +1,4 @@
-function get_buildings() {
+function lssm.get_buildings() {
     var data = [],
         stationId, stationName, stationLat, stationLng, stationType, el, map;
     $('#building_list').find('.building_list_li').each(function(index, element) {

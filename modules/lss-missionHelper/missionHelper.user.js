@@ -1,292 +1,718 @@
-(function () {
+(function() {
+	I18n.translations.de['lssm']['missionHelper'] = {
+	carmh: 'Benötigte Fahrzeuge',
+	msmh: 'Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben:',
+	0: '1x Löschfahrzeug (100%)',
+        1: '1x Löschfahrzeug (100%)',
+        2: '1x Löschfahrzeug (100%)',
+        3: '1x Löschfahrzeug (100%)',
+        4: '1x Löschfahrzeug (100%)',
+        5: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (30%)<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        6: '2x Löschfahrzeuge (100%)',
+        7: '1x Löschfahrzeug (100%)',
+        8: '1x Löschfahrzeug (100%)',
+        9: '1x Löschfahrzeug (100%)',
+        10: '1x Löschfahrzeug (100%)',
+        11: '1x Löschfahrzeug (100%)',
+        12: '1x Löschfahrzeug (100%)',
+        13: '2x Löschfahrzeuge (100%)',
+        14: '2x Löschfahrzeuge (100%)',
+        15: '1x Löschfahrzeug (100%)',
+        16: '2x Löschfahrzeuge (100%)',
+        17: '1x Löschfahrzeug (100%)',
+        18: '1x Löschfahrzeug (100%)',
+        19: '1x Löschfahrzeug (100%)',
+        20: '3x Löschfahrzeuge (100%)<br/> 1x Einsatzleitwagen 1 (90%)',
+        21: '1x Löschfahrzeug (100%)<br/> 1x Drehleiter (100%) <br/> 1x Einsatzleitwagen 1 (100%)',
+        22: '3x Löschfahrzeuge (100%)<br/> 1x Drehleiter (100%) <br/> 1x Einsatzleitwagen 1 (50%)',
+        23: '1x Löschfahrzeug (100%)',
+        24: '1x Löschfahrzeug (100%)',
+        25: '1x Löschfahrzeug (100%)<br/>evtl. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (20%)',
+        26: '3x Löschfahrzeuge (100%) <br/> 1x Drehleiter (70%)<br/>1x Rüstwagen (30%) <br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)',
+        27: 'Deaktiviert von Sebastian',
+        28: '2x Löschfahrzeuge (100%)',
+        29: '3x Löschfahrzeuge (100%)<br/> 1x Rüstwagen (100%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (20%)<br/>1x Schlauchwagen (30%)',
+        30: '1x Löschfahrzeug (100%)<br/>1x GW-Öl (75%)',
+        31: '1x Löschfahrzeug (100%)',
+        32: '1x Löschfahrzeug (100%)<br/> 1x Drehleiter (100%) <br/>1x Einsatzleitwagen 1 (100%)',
+        33: '2x Löschfahrzeuge (100%)',
+        34: '3x Löschfahrzeuge (100%) <br/> 1x Drehleiter (70%)<br/>1x Rüstwagen (30%) <br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (20%) <br/> 1x GW-Messtechnik (30%)',
+        35: '4x Löschfahrzeuge (100%)<br/> 2x Rüstwagen (30%)<br/> 1x Drehleiter (100%)<br/> 1x Einsatzleitwagen 1 (100%)<br/> 1x Einsatzleitwagen 2 (30%)<br/>2x Funkstreifenwagen (100%)',
+        36: '4x Löschfahrzeuge (100%)<br/>2x Rüstwagen (30%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Messtechnik (20%)<br/>1x Dekon P (10%)',
+        37: '1x Löschfahrzeug (100%)',
+        38: '1x Löschfahrzeug (100%)',
+        39: '1x Löschfahrzeug (100%)',
+        40: '1x Löschfahrzeug (100%)',
+        41: '6x Löschfahrzeuge (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (90%)<br/>2x Drehleiter (100%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (100%)<br/>1x GW-Messtechnik (100%)',
+        42: '4x Löschfahrzeuge (100%)<br/>2x Rüstwagen (30%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)<br/>1x GW-Gefahrgut (70%)<br/>1x GW-Messtechnik (80%)',
+        43: '10x Löschfahrzeuge (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>5x Rüstwagen (100%)<br/>2x GW-Öl (100%)<br/>min. 10x Rettungstransportwagen(100%)',
+        44: '1x Rettungstransportwagen oder Krankentransportwagen (100%)',
+        45: '1x Rettungstransportwagen oder Krankentransportwagen (100%)',
+        46: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)',
+        47: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)',
+        48: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%)',
+        49: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (20%)',
+        50: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (10%)',
+        51: '4x Löschfahrzeuge (100%)<br/>1x Rüstwagen (30%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)',
+        52: '1x Löschfahrzeug (100%)',
+        53: '1x Löschfahrzeug (100%)<br/>1x Rüstwagen (100%)',
+        54: 'Deaktiviert durch Sebastian',
+        55: '1x Löschfahrzeug (100%)',
+        56: 'Deaktiviert durch Sebastian',
+        57: '1x Rettungstransportwagen',
+        58: '1x Rettungstransportwagen',
+        59: '20x Löschfahrzeuge (100%)<br/>2x Drehleiter (100%)<br/>5x Rüstwagen (100%)<br/>3x GW-Atemschutz (100%)<br/>3x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (80%)<br/>4x GW-Messtechnik (100%)<br/>4x GW-Gefahrgut (100%)<br/>min. 10x Rettungstransportwagen',
+        60: '1x Funkstreifenwagen (100%)',
+        61: '1x Funkstreifenwagen (100%)',
+        62: '1x Funkstreifenwagen (100%)',
+        63: '1x Funkstreifenwagen (100%)',
+        64: '1x Funkstreifenwagen (100%)',
+        65: '1x Funkstreifenwagen (100%)',
+        66: '1x Funkstreifenwagen (100%)',
+        67: '1x Funkstreifenwagen (100%)',
+        68: '1x Funkstreifenwagen (100%)',
+        69: '1x Funkstreifenwagen (100%)',
+        70: '1x Funkstreifenwagen (100%)',
+        71: '1x Funkstreifenwagen (100%)',
+        72: '1x Löschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%)',
+        73: '3x Funkstreifenwagen (100%)',
+        74: '2x Funkstreifenwagen (100%)',
+        75: '7x Funkstreifenwagen (100%)',
+        76: '2x Löschfahrzeuge (100%)',
+        77: '1x Funkstreifenwagen (100%)<br/>1x Löschfahrzeug (100%)',
+        78: '1x Löschfahrzeug (100%)<br/>1x Drehleiter (20%)',
+        79: '1x Löschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Drehleiter (30%)<br/>1x Rettungstransportwagen (100%)',
+        80: '3x Löschfahrzeuge (100%)<br/>1x Drehleiter (100%)<br/>1x GW-Atemschutz (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (75%)',
+        81: '1x Funkstreifenwagen (100%)',
+        82: '1x Funkstreifenwagen (100%)',
+        83: '3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (40%)<br/>1x Rüstwagen (50%)<br/>1x GW-Gefahrgut (100%)<br/>1x GW-Messtechnik (30%)<br/>1x Dekon P (10%)<br/>2x Funkstreifenwagen (100%)',
+        84: '4x Löschfahrzeug (100%)<br/>1x Rüstwagen (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)<br/>1x GW-Atemschutz (30%)<br/>1x Schlauchwagen (100%)',
+        85: '1x Funkstreifenwagen (100%)',
+        86: '7x Löschfahrzeug (100%)<br/>2x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>1x Schlauchwagen (30%)<br/>1x GW-Atemschutz (50%)',
+        87: '3x Löschfahrzeug (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (10%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (80%)',
+        88: '1x Löschfahrzeug (100%)',
+        89: '3x Löschfahrzeug (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (75%)<br/>1x GW-Öl (25%)<br/>1x GW-Gefahrgut (10%)<br/>2x Funkstreifenwagen (100%)<br/>Notarzteinsatzfahrzeug (70%)',
+        90: '1x Funkstreifenwagen (100%)',
+        91: '1x Löschfahrzeug',
+        92: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (45%)',
+        93: '5x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (75%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (30%)',
+        94: '1x Löschfahrzeug',
+        95: '6x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Öl (100%)<br/>2x Funkstreifenwagen (100%)',
+        96: '3x Löschfahrzeuge (100%)',
+        97: '3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (60%)<br/>1x GW-Öl (80%)',
+        98: '1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)',
+        99: '22x Löschfahrzeuge (100%)<br/>1x GW-Atemschutz (45%)<br/>1x GW-Öl (25%)<br/>1x GW-Messtechnik (100%)<br/>1x Drehleiter (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>2x Einsatzleitwagen 2 (100%)<br/>6x Rüstwagen (100%)<br/>10x Funkstreifenwagen (100%)<br/>min. 10x Rettungstransportwagen (100%)<br/>Notarzteinsatzfahrzeug (80%)',
+        100: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (50%)',
+        101: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (30%)<br/>1x Funkstreifenwagen (50%)<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        102: '3x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (70%)',
+        103: '3x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (70%)<br/>1x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        104: '3x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (70%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        105: '3x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (70%)<br/>1x Funkstreifenwagen (100%)',
+        106: '5x Funkstreifenwagen (100%)',
+        107: '5x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen (100%)<br/>Notarzteinsatzfahrzeug (10%)',
+        108: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (100%)',
+        109: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (95%)',
+        110: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        111: '1x Löschfahrzeug (100%)',
+        112: '2x Löschfahrzeuge (100%)',
+        113: '2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (50%)',
+        114: '1x Löschfahrzeug (100%)<br/>1x Drehleiter (100%)',
+        115: 'Deaktiviert durch Sebastian',
+        116: '4x Funkstreifenwagen (100%)',
+        117: '1x Funkstreifenwagen (100%)',
+        118: '3x Funkstreifenwagen (100%)',
+        119: '1x Funkstreifenwagen (100%)',
+        120: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (75%)<br/>1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        121: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (75%)<br/>2x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        122: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (70%)',
+        123: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        124: '1x Löschfahrzeug (100%)<br/>1x Rüstwagen (50%)<br/>min. 2x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        125: '1x Löschfahrzeug (100%)<br/>1x Rüstwagen (50%)<br/>1x Funkstreifenwagen (100%)<br/>min. 2x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        126: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>min. 2x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        127: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 2x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        128: '1x Funkstreifenwagen (100%)<br/>1x Löschfahrzeug (10%)',
+        129: '1x Löschfahrzeug (100%)',
+        130: '2x Funkstreifenwagen (100%)',
+        131: '3x Löschfahrzeuge (100%)<br/>1x Schlauchwagen (20%)<br/> 1x Einsatzleitwagen 1 (50%))',
+        132: '5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Schlauchwagen (100%)',
+        133: '5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Schlauchwagen (100%)<br/>1x Funkstreifenwagen (100%)',
+        134: '3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Schlauchwagen (70%)',
+        135: '3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Schlauchwagen (70%)<br/>1x Funkstreifenwagen (100%)',
+        136: '10x Löschfahrzeuge (100%)<br/>1x Drehleiter (10%)<br/>1x Schlauchwagen (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>1x GW-Atemschutz (100%)<br/>1x Funkstreifenwagen (100%)',
+        137: '10x Löschfahrzeuge (100%)<br/>1x Drehleiter (10%)<br/>1x Schlauchwagen (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>1x GW-Atemschutz (100%)<br/>3x Funkstreifenwagen (100%)',
+        138: '2x Löschfahrzeuge (100%)',
+        139: '4x Löschfahrzeuge (100%)<br/>1x Schlauchwagen (20%)<br/> 1x Einsatzleitwagen 1 (20%)',
+        140: '2x Löschfahrzeuge (100%)<br/>2x Funkstreifenwagen (100%)',
+        141: '4x Löschfahrzeuge (100%)<br/>1x Schlauchwagen (20%)<br/> 1x Einsatzleitwagen 1 (20%)<br/>2x Funkstreifenwagen (100%)',
+        142: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (30%)',
+        143: '1x Löschfahrzeug (100%)',
+        144: '1x Löschfahrzeug (100%)',
+        145: '1x Funkstreifenwagen (100%)',
+        146: '5x Löschfahrzeuge (100%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (30%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        147: '1x Krankentransportwagen (100%)',
+        148: '1x Funkstreifenwagen (100%)',
+        149: '1x Funkstreifenwagen (100%)',
+        150: '1x Funkstreifenwagen (100%)',
+        151: '3x Funkstreifenwagen (100%)',
+        152: '2x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen',
+        153: '1x Funkstreifenwagen (100%)',
+        154: '1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)',
+        155: '1x Rettungstransportwagen',
+        156: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        157: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (60%)',
+        158: '1x Löschfahrzeug (100%)',
+        159: '1x Löschfahrzeug (100%)',
+        160: '1x Löschfahrzeug (100%)',
+        161: '1x Löschfahrzeug (100%)',
+        162: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%) Nur bei Patient<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (50%)',
+        163: '1x Löschfahrzeug (100%)<br/>1x Drehleiter (10%)<br/>1x Feuerwehrkran (10%)',
+        164: '1x Rettungstransportwagen',
+        165: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        166: '1x Löschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (40%)<br/>1x Drehleiter (40%)<br/>1x Funkstreifenwagen (100%)',
+        167: '1x Löschfahrzeug (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (20%)<br/>1x Drehleiter (50%)<br/>1x Funkstreifenwagen (100%)',
+        168: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%)',
+        169: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%)',
+        170: '1x Löschfahrzeug (100%)<br/>2x Funkstreifenwagen (100%)',
+        171: '1x Löschfahrzeug (100%)<br/>1x Schlauchwagen (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Öl (100%)<br/>2x Funkstreifenwagen (100%)',
+        172: '1x Löschfahrzeug (100%)',
+        173: '1x Löschfahrzeug (100%)<br/>2x Funkstreifenwagen (100%)',
+        174: '1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x LKW K9 (100%)<br/>1x BRmG R (100%)<br/>2x Funkstreifenwagen (100%)',
+        175: '1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x LKW K9 (100%)<br/>1x BRmG R (100%)',
+        176: '1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x MzKW (100%)<br/>2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (70%)<br/>1x Feuerwehrkran (75%)',
+        177: '2x GKW (100%)<br/>2x LKW K9 (100%)<br/>2x BRmG R (100%)<br/>1x MTW-TZ (100%)<br/>1x MzKW (100%)<br/>3x Löschfahrzeuge (100%)<br/>1x Drehleiter (30%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (75%)<br/>1x Rüstwagen (100%)<br/>2x Funkstreifenwagen (100%)',
+        178: '1x GKW (100%)<br/>1x LKW K9 (100%)<br/>1x BRmG R (100%)<br/>3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (40%)<br/>1x Rüstwagen (50%)<br/>1x GW-Gefahrgut (100%)<br/>1x GW-Messtechnik (30%)<br/>1x Dekon P (10%)<br/>2x Funkstreifenwagen (100%)',
+        179: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)',
+        180: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)',
+        181: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)',
+        182: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (50%)',
+        183: '1x Rettungstransportwagen (100%)',
+        184: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (40%)',
+        185: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%)',
+        186: '5x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Drehleiter (100%)<br/>1x Schlauchwagen (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Atemschutz (100%)<br/>1x GW-Messtechnik (100%)<br/>1x Feuerwehrkran (15%)<br/>2x Funkstreifenwagen (100%)<br/>1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x LKW K9 (100%)<br/>1x BRmG R (100%)<br/>1x Anh DLE (100%)<br/>Notarzteinsatzfahrzeug (20%)',
+        187: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Messtechnik (20%)',
+        188: '1x Funkstreifenwagen (100%)',
+        189: '1x Funkstreifenwagen (100%)',
+        190: '1x Funkstreifenwagen (100%)',
+        191: '1x Löschfahrzeug (100%)',
+        192: '2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)',
+        193: '2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Funkstreifenwagen (100%)',
+        194: '1x Löschfahrzeug (100%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)',
+        195: '3x GruKw (100%)<br/>1x leBefKw (100%)',
+        196: '3x GruKw (100%)<br/>1x leBefKw (100%)',
+        197: '3x GruKw (100%)<br/>1x leBefKw (100%)',
+        198: '3x GruKw (100%)<br/>1x leBefKw (100%)<br/>2x Funkstreifenwagen (100%)',
+        199: '3x GruKw (100%)<br/>1x leBefKw (100%)',
+        200: '6x GruKw (100%)<br/>2x leBefKw (100%)<br/>1x GefKw (100%)<br/>2x Funkstreifenwagen (100%)',
+        201: '9x GruKw (100%)<br/>3x leBefKw (100%)<br/>1x FüKw (100%)<br/>1x GefKw (100%)<br/>2x Funkstreifenwagen (100%)',
+        202: '1x Funkstreifenwagen (100%)',
+        203: '2x Löschfahrzeuge (100%)',
+        204: '4x Löschfahrzeuge (100%)<br/>1x Drehleiter (50%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (25%)',
+        205: '7x Löschfahrzeuge (100%)<br/>2x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz(100%)<br/>1x GW-L2-Wasser (100%)<br/>3x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (33%)',
+        206: '15x Löschfahrzeuge (100%)<br/>2x Schlauchwagen (90%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>2x GW-Atemschutz (70%)<br/>4x Drehleiter (100%)<br/>1x Feuerwehrkran (15%)<br/>3x Funkstreifenwagen (100%)<br/>2x GKW (100%)<br/>1x MTW-TZ (100%)<br/>2x BRmG R (100%)<br/>2x LKW K9 (100%)<br/>min. 2x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        207: '20x Löschfahrzeuge (100%)<br/>2x Drehleiter (100%)<br/>5x Rüstwagen (100%)<br/>2x GW-Atemschutz (100%)<br/>3x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>4x GW-Messtechnik (100%)<br/>4x GW-Gefahrgut (100%)<br/>1x Dekon P (100%)<br/>2x GKW (100%)<br/>1x MTW-TZ (100%)<br/>2x BRmG R (100%)<br/>2x LKW K9 (100%)<br/>3x Funkstreifenwagen (100%)',
+        208: '8x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Schlauchwagen (20%)<br/>1x GW-Atemschutz (100%)<br/>1x GW-Öl (50%)<br/>2x GW-Messtechnik (100%)<br/>1x GW-Gefahrgut (100%)<br/>1x Dekon P (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (15%)',
+        209: '1x Funkstreifenwagen (100%)',
+        210: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (95%)',
+        211: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        212: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
+        213: '20x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<br/>2x Schlauchwagen (100%)<br/>4x Einsatzleitwagen 1 (100%)<br/>2x Einsatzleitwagen 2 (100%)<br/>2x GW-Messtechnik (100%)<br/>2x GW-Atemschutz (100%)<br/>2x Drehleiter (100%)<br/>1x Dekon P (10%)<br/>1x Feuerwehrkran (40 %)<br/>4x Funkstreifenwagen (100%)<br/>1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x BRmG R (100%)<br/>1x LKW K9 (100%)<br/>1x MzKW (100%)<br/>1x Anh DLE (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)',
+        214: '6x Löschfahrzeuge (100%)<br/>2x Drehleiter (100%)<br/>2x Rüstwagen (30%)<br/>1x GW-Atemschutz (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (30%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)',
+        215: '7x Löschfahrzeuge(100%)<br/>2x GW-Atemschutz (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Messtechnik (100%)<br/>1x GW-Gefahrgut (100%)<br/>4x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (60%)',
+        216: '1x Löschfahrzeug (100%)',
+        217: '1x Löschfahrzeug (100%)',
+        218: '1x Löschfahrzeug (100%)',
+        219: '1x Löschfahrzeug (100%)',
+        220: '1x Löschfahrzeug (100%)',
+        221: '30x Löschfahrzeuge (100%)<br/>4x GW-Atemschutz (100%)<br/>1x GW-Öl (100%)<br/>2x GW-L2-Wasser (100%)<br/>3x Drehleiter (100%)<br/>6x Einsatzleitwagen 1 (100%)<br/>3x Einsatzleitwagen 2 (100%)<br/>6x Rüstwagen (100%)<br/>4x FwK (100%)<br/>2x BRmG R (100%)<br/>2x LKW K9 (100%)<br/>1x MTW-TZ (100%)<br/>1x GKW (100%)<br/>1x MzKW (100%)<br/>12x Funkstreifenwagen (100%)',
+        222: '20x Löschfahrzeuge(100%)<br/>2x GW-Atemschutz (100%)<br/>1x GW-Öl (100%)<br/>1x GW-L2-Wasser (100%)<br/>2x Drehleiter (100%)<br/>3x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>3x Rüstwagen (100%)<br/>2x FwK (100%)<br/>1x BRmG R (100%)<br/>1x LKW K9 (100%)<br/>1x MTW-TZ (100%)<br/> 6x Funkstreifenwagen (100%)',
+        223: 'SICHERHEITSWACHE',
+        224: 'SICHERHEITSWACHE',
+        225: 'SICHERHEITSWACHE',
+        226: 'VERKEHRSSICHERUNG',
+        227: 'ABSICHERUNG',
+        228: 'VERKEHRSSICHERUNG',
+        229: 'VERKEHRSSICHERUNG',
+        230: '1x Löschfahrzeug (100%)',
+        231: '10x Funkstreifenwagen (100%)<br/>1x Polizeihubschrauber (100%)',
+        232: '2x Funkstreifenwagen (100%)<br/>1x Polizeihubschrauber (100%)',
+        233: '2x Funkstreifenwagen (100%)<br/>1x Polizeihubschrauber (100%)<br/>1x Löschfahrzeug (100%)<br/>1x Rettungstransportwagen (100%)',
+        234: 'THL BOMBENFUND',
+        235: '2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Drehleiter (20%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (80%)',
+        236: '2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Höhenrettung (100%)<br/>1x Drehleiter (20%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)',
+        237: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (80%)',
+        238: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (20%)',
+        239: '5x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<br/>2x Einsatzleitwagen 1<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Öl (100%)<br/>1x Feuerwehrkran (100%)<br/>4x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)',
+        240: '3x Löschfahrzeuge (100%)<br/>1x Dekon P (30%)<br/>1x GW-Messtechnik (30%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Gefahrgut (30%)<br/>1x FuStW<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (40%)',
+        241: '1x Funkstreifenwagen (100%)',
+        242: '2x Löschfahrzeuge (100%)<br/>1x GW-Messtechnik (50%)<br/>3x Funkstreifenwagen<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (10%)',
+        243: '1x Löschfahrzeug (100%)<br/>1-4x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (50%)',
+        244: '1x Boot (100%)',
+        245: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)',
+        246: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)<br/>3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)',
+        247: '2x Boote (100%)<br/>2x GW-Taucher (100%)<br/>2x GW-Wasserrettung<br/>3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)<br/>2x Funkstreifenwagen (100%)',
+        248: '3x Boote (100%)<br/>3x GW-Taucher (100%)<br/>3x GW-Wasserrettung<br/>5x Löschfahrzeuge(100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (30%)<br/>3x Funkstreifenwagen (100%)',
+        249: '3x Boote (100%)<br/>3x GW-Taucher (100%)<br/>3x GW-Wasserrettung<br/>5x Löschfahrzeuge(100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (30%)<br/>3x Funkstreifenwagen (100%)',
+        250: '1x Boot (100%)',
+        251: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)',
+        252: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)<br/>3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)',
+        253: '2x Boote (100%)<br/>2x GW-Taucher (100%)<br/>2x GW-Wasserrettung<br/>3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)<br/>2x Funkstreifenwagen (100%)',
+        254: '3x Boote (100%)<br/>3x GW-Taucher (100%)<br/>3x GW-Wasserrettung<br/>5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (30%)<br/>3x Funkstreifenwagen (100%)',
+        255: '3x Boote (100%)<br/>3x GW-Taucher (100%)<br/>3x GW-Wasserrettung<br/>5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (30%)<br/>3x Funkstreifenwagen (100%)',
+        256: '6x Löschfahrzeuge (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>6x GW-Taucher (100%)<br/>6x Boote (100%)<br/>5x Funkstreifenwagen (100%)',
+        257: '1x Funkstreifenwagen (100%)',
+        258: '4x Löschfahrzeuge (100%)<br/>1x Drehleiter (100%)<br/>2x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Öl (100%)<br/>1x Feuerwehrkran (100%)<br/>3x Funkstreifenwagen (100%)',
+        259: '1x Löschfahrzeug (100%)',
+        260: '1x Löschfahrzeug (100%)',
+        261: '2x Löschfahrzeuge (100%)',
+        262: '3x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)',
+        263: '1x Löschfahrzeug (100%)',
+        264: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (30%)',
+        265: '1x Löschfahrzeug (100%)',
+        266: '1x Löschfahrzeug (100%)',
+        267: '1x Funkstreifenwagen (100%)',
+        268: '5x Löschfahrzeuge (100%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Atemschutz (30%)<br/>2x Funkstreifenwagen (100%)',
+        269: '1x Funkstreifenwagen (100%)',
+        270: '1x Funkstreifenwagen (100%)',
+        271: '10x Löschfahrzeuge (100%)<br/>2x Einsatzleitwagen 1 (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>1x Drehleiter (100%)<br/>1x Dekon P (100%)<br/>1x GW-Gefahrgut(100%)<br/>1x GW-Messtechnik (100%)<br/>3x Funkstreifenwagen (100%)<br/>1x GKW',
+        272: '1x Boot (100%)<br/>2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-ÖL (100%)<br/>1x Funkstreifenwagen (100%)',
+        273: '1x Boot (100%)<br/>2x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-ÖL (100%)<br/>1x Funkstreifenwagen (100%)',
+        274: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%)',
+        275: 'ABSICHERUNG',
+        276: '4x Funkstreifenwagen (100%)',
+        277: '1x Löschfahrzeug (100%)<br/>1x Rettungstransportwagen (100%)',
+        278: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (70%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (70%)<br/>1x Gerätekraftwagen (100%)<br/>1x MTW-TZ (100%)<br/>1x MzKW (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        279: '2x Löschfahrzeuge (100%)<br/>1x Drehleiter (70%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Feuerwehrkran (70%)<br/>1x Gerätekraftwagen (100%)<br/>1x MTW-TZ (100%)<br/>1x MzKW (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (50%)',
+        280: '3x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Drehleiter (100%)<br/>1x Einsatzleitwagen 1 (100%)',
+        281: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (100%)/Rettungshubschrauber (50%)',
+        282: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (20%)<br/>1x Einsatzleitwagen 1 (20%)',
+        283: '10x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 2 (100%)<br/>3x Einsatzleitwagen 1 (100%)<br/>2x Drehleiter (100%)<br/>2x Rüstwagen (30%)<br/>1x GW-A (100%)<br/>3x Funkstreifenwagen (100%)<br/>min. 5x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)',
+        284: '1x Funkstreifenwagen (100%)',
+        285: '1x Funkstreifenwagen (100%)',
+        286: '2x Funkstreifenwagen (100%)<br/>1x GKW (100%)<br/>1x MTW-TZ (100%)<br/>1x BRmG R (100%)<br/>1x LKW K9 (100%)',
+        287: '1x Rettungstransportwagen (100%)<br/>1x Funkstreifenwagen (100%)',
+        288: '1x Löschfahrzeug (100%)',
+        289: '1x Löschfahrzeug (100%)',
+        290: '2x Löschfahrzeuge (100%)',
+        291: 'BP 3',
+        292: '1x Funkstreifenwagen (100%)',
+        293: '1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (50%)',
+        294: 'BP 9',
+        295: '6x Funkstreifenwagen (100%)',
+        296: '3x Löschfahrzeuge (100%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Rüstwagen (30%)<br/>1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)',
+        297: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug(20%)',
+        298: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%) / evtl. auch 1x RTH (50%)<br/>1x Löschfahrzeug (20%)<br/>1x GW-Taucher (10%)'
+    }
 
-  //1 FW-Wache
-  var KleinerWaldbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var KleintierinNot = "1x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (20%)";
-  var BrennendesGebüsch = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennenderAnhänger = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var TraktorBrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var MotorradBrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennenderPKW = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendeTelefonzelle = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrandinBriefkasten = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendesGras = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BaumaufStraße = "1x Löschfahrzeug/Tanklöschfahrzeug oder </br>1x Rüstwagen ";
-  var StrohballenBrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Sperrmüllbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendesLaub = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Containerbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Mülleimerbrand = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var AuslaufendeBetriebsstoffe = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var KleineÖlspur = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Motorradunfall = "1x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Funkstreifenwagen (100%)";
-  var BrennendePapiercontainer = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendeHecke = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var ÄsteaufFahrbahn = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var UmherfliegendesBaumaterial = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BaumaufRadweg = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  //var Kabeldiebstahl = "2x Funkstreifenwagen (100%) </br> 1x Polizeihubschrauber (100%)";
-  //2 FW-Wache
-  var Wohnwagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennenderLKW ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Gartenlaubenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Zimmerbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (30%) </br> 1x Funkstreifenwagen (50%)";
-  var KleinerFeldbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var FeueraufBalkon = "2x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (100%)";
-  var Küchenbrand = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (50%)";
-  var PersonimAufzug = "1x Löschfahrzeug/Tanklöschfahrzeug (100%) oder </br>1x Rüstwagen ";
-  //3 FW-Wache
-  var FettbrandinPommesbude = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var FeuerinSchnellrestaurant = "3x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Dachstuhlbrand = "3x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (100%) </br> 1x Einsatzleitwagen (50%)";
-  var Kellerbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Einsatzleitwagen (90%)";
-  var Schornsteinbrand ="1x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (100%) </br> 1x Einsatzleitwagen (100%)";
-  var BrennendesBusHäuschen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var GeplatzteWasserleitung ="2x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Rüstwagen (20%) </br> 1x Einsatzleitwagen (20%)";
-  var Verkehrsunfall ="Hier wird nur der größte VU angenommen:</br>2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>2x Funkstreifenwagen (100%)";
-  //4 FW-Wache
-  var BrandimSupermarkt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%) </br> 1x Drehleiter (70%)</br>1x Rüstwagen (30%) </br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (20%) </br> 1x GW-Messtechnik (30%)";
-  var Garagenbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var KellerunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var FeuerinEinfamilienhaus ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen (70%)";
-  var TiefgarageunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  //var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendeTrafostation ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)";
-  var Gasgeruch ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Dekon P (30%)</br>1x GW-Messtechnik (30%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Gefahrgut (30%)";
-  //5 FW-Wachen
-  var Maschinenbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Rüstwagen (100%)</br> 1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz (20%)</br>1x Schlauchwagen (30%)";
-  var RauchentwicklunginMuseum  ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Drehleiter (100%)</br>1x GW-Atemschutz (100%)</br> 1x Einsatzleitwagen (100%)</br>2x Funkstreifenwagen (100%)";
-  var FeuerimKrankenhaus  ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 2x Rüstwagen (30%)</br> 1x Drehleiter (100%)</br> 1x Einsatzleitwagen (100%)</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)";
-  var BaumaufPKW ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Funkstreifenwagen (100%) Nur bei Patient";
-  var Bürobrand  ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 2x Drehleiter (100%)</br>2x Rüstwagen (30%)</br>1x GW-Atemschutz (100%)</br> 1x Einsatzleitwagen (100%)</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)";
-  var LKWinSupermarkt  ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br> 1x Drehleiter (70%)</br> 1x Einsatzleitwagen (100%)</br>1x Feuerwehrkran (70%)</br>1x Gerätekraftwagen (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Funkstreifenwagen (100%)";
-  //6 FW-Wachen
-  var AufgerissenerÖltank ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Öl (100%)";
-  var GroßeÖlspur ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Öl (75%)";
-  var Kaminbrand ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)";
-  var Kleinflugzeugabgestürzt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (10%)</br>2x Funkstreifenwagen (100%)";
-  var MähdrescherBrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BaumaufDach ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (10%)</br>1x Feuerwehrkran (10%)";
-  var PersonunterBaumeingeklemmt ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)";
-  var Chlorgasaustritt ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Atemschutz (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>4x Funkstreifenwagen (100%)";
-  var VerkehrsunfallmitLinienbus ="unterschieden wird in klein(bis 5 Patienten) - groß (bis 10 Patienten)</br>2 oder 5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1 oder 2x Rüstwagen (100%)</br>1 oder 2x Einsatzleitwagen</br>0 oder 1x Einsatzleitwagen 2 (100%)</br>0 oder 1x GW-Öl (100%)</br>0 oder 1x Feuerwehrkran (100%)</br> 2 oder 4x Funkstreifenwagen (100%)";
-  var PfeffersprayinSchule ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Messtechnik (50%)</br>3x Funkstreifenwagen";
-  //7 FW-Wachen
-  //var PersonhinterTür ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendeLok ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (50%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Atemschutz (30%)</br>1x Schlauchwagen (100%)";
-  var Flächenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen (20%)</br>2x Funkstreifenwagen (100%)";
-  var MittlererFeldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (20%)</br> 1x Einsatzleitwagen (50%)";
-  var BrennendesReetdachhaus ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz (30%)</br>2x Funkstreifenwagen (100%)";
-  var Scheunenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz (25%)";
-  // 8 FW-Wachen
-  var AusgedehnteÖlspur = "6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)";
-  var BrennenderBus = "5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (75%)</br>2x Funkstreifenwagen (100%)";
-  var LKWumgestürzt = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x Feuerwehrkran (75%)</br>2x Funkstreifenwagen (100%)";
-  var GroßerWaldbrand ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x Schlauchwagen(100%)</br>1x Funkstreifenwagen (100%)";
-  var BaumaufGleisen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)";
-  //9 FW-Wachen
-  var StraßeunterWasser ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Funkstreifenwagen (100%)";
-  var FeueraufBauernhofMittel ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz(100%)</br>1x GW-L2-Wasser (100%)</br>3x Funkstreifenwagen (100%)";
-  var VerkehrsunfallmitZug ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>2x Funkstreifenwagen (100%)";
-  var BaumaufOberleitung ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)";
-  //10 FW-Wachen
-  var BrennenderGüterwaggon ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Messtechnik (20%)</br>1x Dekon P (10%)";
-  var GroßerFeldbrand ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x Schlauchwagen (100%)</br>1x Funkstreifenwagen (100%)";
-  var Baumaschineumgestürzt ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>2x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Öl (100%)</br>1x Feuerwehrkran (100%)</br>3x Funkstreifenwagen (100%)";
-  //11 FW-Wachen
-  var Tankstellenbrand ="4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (10%)</br>1x GW-Gefahrgut (70%)</br>1x GW-Messtechnik (80%)";
-  var LKWAuffahrunfall ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen (75%)</br>1x GW-Öl (25%)</br>1x GW-Gefahrgut (10%)</br>2x Funkstreifenwagen (100%)";
-  //var GefahrgutLKWverunglückt ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (???%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (???%)</br>1x GW-Gefahrgut (100%)</br>1x GW-Messtechnik (???%)</br>1x DEkon P (???%)</br>2x Funkstreifenwagen (100%)";
-  //12 FW-Wachen
-  var BrandinWerkstatt = "4x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (10%)";
-  var BewusstloserKranführer = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Höhenrettung (100%)</br>1x Funkstreifenwagen (100%)";
-  var VerletztePersonaufBaugerüst = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Höhenrettung (100%)</br>1x Drehleiter (30%)";
-  var Fassadenteiledrohenzufallen = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Höhenrettung (40%)</br>1x Drehleiter (40%)</br>1x Funkstreifenwagen (100%)";
-  var BeschädigterDachbereich = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Höhenrettung (20%)</br>1x Drehleiter (50%)</br>1x Funkstreifenwagen (100%)";
-  var VerletztePersonaufHochspannungsmast = "2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Höhenrettung (100%)</br>1x Drehleiter (20%)</br>1x Funkstreifenwagen (100%)";
-  var BeschädigterKesselwagen = "10x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Drehleiter (100%)</br>1x Dekon P (100%)</br>1x GW-Gefahrgut(100%)</br>1x GW-Messtechnik (100%)</br>3x Funkstreifenwagen (100%)";
-  //13 FW-Wachen
-  var Sporthallenbrand ="7x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (30%)</br>1x Schlauchwagen (30%)</br>1x GW-Atemschutz (50%)";
-  var LeckinChemikalientank ="8x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Schlauchwagen (20%)</br>1x GW-Atemschutz (100%)</br>1x GW-Öl (50%)</br>2x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>1x Dekon P (100%)</br>2x Funkstreifenwagen (100%)";
-  //15 FW-Wachen
-  var ParkdeckvollWassergelaufen ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Schlauchwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)";
-  //18 FW-Wachen
-  var Lagerhallenbrand ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)</br>1x Drehleiter (100%)</br>1x Schlauchwagen (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Atemschutz (100%)</br>1x GW-Messtechnik (100%)</br>1x Feuerwehrkran (15%)</br>2x Funkstreifenwagen (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x LKW K9 (100%)</br>1x BRmG R (100%)</br>1x Anh DLE (100%)";
-  var FeuerimLagerraum ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Messtechnik (20%)";
-  //20 FW-Wachen
-  var GroßfeuerimWald = "10x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (10%)</br>1x Schlauchwagen (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (30%)</br>1x GW-Atemschutz (100%)</br>3x Funkstreifenwagen (100%)";
-  //25 FW-Wachen
-  var Gasexplosion ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Rüstwagen (100%)</br>2x Schlauchwagen (100%)</br>4x Einsatzleitwagen (100%)</br>2x Einsatzleitwagen 2 (100%)</br>2x GW-Messtechnik (100%)</br>2x GW-Atemschutz (100%)</br>2x Drehleiter (100%)</br>1x Dekon P (10%)</br>1x Feuerwehrkran (40 %)</br>4x Funkstreifenwagen (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x BRmG R (100%)</br>1x LKW K9 (100%)</br>1x MzKW (100%)</br>1x Anh DLE (100%)";
-  //30 FW-Wachen
-  var FeueraufBauernhofGroß ="15x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Schlauchwagen (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>2x GW-Atemschutz (100%)</br>4x Drehleiter (100%)</br>1x Feuerwehrkran (15%)</br>3x Funkstreifenwagen (100%)</br>2x GKW (100%)</br>1x MTW-TZ (100%)</br>2x BRmG R (100%)</br>2x LKW K9 (100%)";
-  var BürobrandGroß = "10x Löschfahrzeug (100%)</br> 1x Einsatzleitwagen 2 (100%)</br> 3x Einsatzleitwagen (100%)</br> 2x Drehleiter (100%)</br> 2x Rüstwagen (30%)</br> 1x GW-A (100%)</br> 3x Funkstreifenwagen (100%)";
-  //Temporär:
-  //Winter
-  var BrennenderTannenbaum ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrandaufWeihnachtsmarkt  ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var VerkehrsunfalldurchGlatteis ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Rüstwagen (100%)";
-  var BrennenderAdventskranz ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var RangeleiaufWeihnachtsmarkt ="2x Funkstreifenwagen (100%)";
-  var DiebstahlaufWeihnachtsmarkt ="1x Funkstreifenwagen (100%)";
-  var BrennendeWeihnachtsmarktbude  ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  //Vatertag
-  var BrennenderBollerwagen = "1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  //Silverster
-  var BrennenderPKWdurchFeuerwerkskörper ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var SperrmüllbranddurchFeuerwerkskörper ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var KleinerFeldbranddurchFeuerwerkskörper ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var KellerbranddurchFeuerwerkskörper ="3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)";
-  var BrennendesBusHäuschendurchFeuerwerkskörper ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var FeueraufBalkondurchFeuerwerkskörper ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (30%)";
-  var BrennendePapiercontainerdurchFeuerwerkskörper ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendeHeckedurchFeuerwerkskörper ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var TrunkenheitsfahrtnachSilvesterparty ="1x Funkstreifenwagen (100%)";
-  var BrennendesReetdachhausdurchFeuerwerkskörper ="5x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz (30%)</br>2x Funkstreifenwagen (100%)";
-  var KfzdurchFeuerwerkskörperbeschädigt ="1x Funkstreifenwagen (100%)";
-  var VerstoßgegenSprengstoffverordnung ="1x Funkstreifenwagen (100%)";
-  //Halloween
-  var BrennendeVogelscheuche ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var BrennendesKürbisfeld ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Kürbissuppeübergekocht ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x GW-Atemschutz (100%)";
-  var HexehängtinBaum ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (100%)";
-  var Zombiebiss ="1x Rettungstransportwagen (100%)";
-  var Monsterausgebrochen ="4x Funkstreifenwagen (100%)";
-  var Kürbissegeklaut ="1x Funkstreifenwagen (100%)";
-  var Frankensteingesichtet ="3x Funkstreifenwagen (100%)";
-  var Süßigkeitendiebstahl ="1x Funkstreifenwagen (100%)";
-  //Sommerlich
-  var Sonnenstich ="1x Rettungstransportwagen (100%)";
-  var Hitzschlag ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var Hitzekrampf ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  //Ostern
-  var OstereierDieb ="1x Funkstreifenwagen (100%)";
-  var PinselausWerkstattentwendet ="1x Funkstreifenwagen (100%)";
-  var EingestürzterHasenbau ="2x Funkstreifenwagen (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x BRmG R (100%)</br>1x LKW K9 (100%)";
-  var AngefahrenerOsterhase ="1x Rettungstransportwagen (100%)</br>1x Funkstreifenwagen (100%)";
-  var BrennendesOsternest ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var SchokoladenspuraufStrasse ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var Eierkocherbrand ="2x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  //Verbandsgroßeinsätze
-  var Großbrand ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Einsatzleitwagen (100%)</br>2x Drehleiter (100%)</br>1x GW-Atemschutz (100%)</br>1x Schlauchwagen (100%)</br>1x GW-Messtechnik (???%)";
-  var Massenkarambolage ="10x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Einsatzleitwagen (100%)</br>5x Rüstwagen (100%)</br>2x GW-Öl (100%)";
-  var Gefahrgutunfall ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>5x Rüstwagen (100%)</br>3x GW-Atemschutz (100%)</br>3x Einsatzleitwagen (100%)</br>4x GW-Messtechnik (100%)</br>4x GW-Gefahrgut (100%)";
-  var GefahrgutunfallGroß ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Drehleiter (100%)</br>5x Rüstwagen (100%)</br>2x GW-Atemschutz (100%)</br>3x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>4x GW-Messtechnik (100%)</br>4x GW-Gefahrgut (100%)</br>1x Dekon P (100%)</br>2x GKW (100%)</br>1x MTW-TZ (100%)</br>2x BRmG R (100%)</br>2x LKW K9 (100%)</br>3x Funkstreifenwagen (100%)";
-  var unangekündigteDemonstration ="7x Funkstreifenwagen (100%)";
-  var Flugzeugabgestürzt ="22x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x GW-Atemschutz (45%)</br>1x GW-Öl (25%)</br>1x GW-Messtechnik (100%)</br>1x Drehleiter (100%)</br>2x Einsatzleitwagen (100%)</br>2x Einsatzleitwagen 2 (100%)</br>6x Rüstwagen (100%)</br>10x Funkstreifenwagen (100%)</br>1x leBefKw (40%)";
-  var ZugunglückKlein ="20x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x GW-Atemschutz (100%)</br>1x GW-Öl (100%)</br>1x GW-L2-Wasser (100%)</br>2x Drehleiter (100%)</br>3x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>3x Rüstwagen (100%)</br>2x FwK (100%)</br>1x BRmG R (100%)</br>1x LKW K9 (100%)</br>1x MTW-TZ (100%)</br> 6x Funkstreifenwagen (100%)";
-  var ZugunglückGroß ="30x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>4x GW-Atemschutz (100%)</br>1x GW-Öl (100%)</br>2x GW-L2-Wasser (100%)</br>3x Drehleiter (100%)</br>6x Einsatzleitwagen (100%)</br>3x Einsatzleitwagen 2 (100%)</br>6x Rüstwagen (100%)</br>4x FwK (100%)</br>2x BRmG R (100%)</br>2x LKW K9 (100%)</br>1x MTW-TZ (100%)</br>1x GKW (100%)</br>1x MzKW (100%)</br>12x Funkstreifenwagen (100%)";
-  var ZusammenstoßzweierBoote ="6x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>2x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>6x GW-Taucher (100%)</br>6x Boote (100%)</br>5x Funkstreifenwagen (100%)";
-  //1 Rettungswache
-  var Alkoholintoxikation ="1x Rettungstransportwagen oder Krankentransportwagen (100%)";
-  var Nasenblutenunstillbar ="1x Rettungstransportwagen oder Krankentransportwagen (100%)";
-  var GestürztePerson ="1x Rettungstransportwagen (100%)";
-  var GestürzterFußgänger  ="1x Rettungstransportwagen (100%)";
-  var GestürzterRadfahrer ="1x Rettungstransportwagen (100%)";
-  var Kopfplatzwunde ="1x Rettungstransportwagen oder Krankentransportwagen (100%)";
-  //3 Rettungswachen
-  var Herzinfarkt ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var akuterAsthmaAnfall ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var Fieber ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  var Schlaganfall ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (45%)";
-  var Krampfanfall ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var AngefahrenePerson ="1x Rettungstransportwagen (100%)</br>1x Funkstreifenwagen (100%)";
-  var Unterzuckerung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  var AkuteBauchschmerzen ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  var ReitunfallmitPkw ="1x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1-4x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (50%)";
-  //4 Rettungswachen
-  var UnfallmitMotorsäge ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var BewusstlosePerson ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  //5 Rettungswachen
-  var SchwangereinNotsituation ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var BeginnendeGeburt ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var VaginaleBlutung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  var Gehirnerschütterung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  //7 Rettungswachen
-  var AkuterHarnstau ="1x Rettungstransportwagen (100%)";
-  var HarnleiterBlutung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (20%)";
-  var Herzrhythmusstörungen ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)";
-  //9 Rettungswachen
-  var Schädelverletzung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)";
-  var Wirbelsäulenverletzung ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (100%)";
-  var SturzausHöhe ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug/Rettungshubschrauber (50%)";
-  var Stromschlag ="1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)/Rettungshubschrauber (50%)";
-  //1 Polizei Wache
-  //var Küchenbrand ="1x Funkstreifenwagen (100%)";
-  var Ladendiebstahl ="1x Funkstreifenwagen (100%)";
-  var Taschendiebstahl ="1x Funkstreifenwagen (100%)";
-  var Metalldiebstahl ="1x Funkstreifenwagen (100%)";
-  var PersonhinterTür ="1x Funkstreifenwagen (100%)</br>1x Löschfahrzeug/Tanklöschfahrzeug (100%)";
-  var PersonalienaufnahmevonSchwarzfahrer ="1x Funkstreifenwagen (100%)";
-  var ParkendesAutogerammt ="1x Funkstreifenwagen (100%)";
-  var NotebookausSchuleentwendet ="1x Funkstreifenwagen (100%)";
-  var EinbruchinKeller ="1x Funkstreifenwagen (100%)";
-  var EinbruchinWohnung ="1x Funkstreifenwagen (100%)";
-  var Sachbeschädigung ="1x Funkstreifenwagen (100%)";
-  var Ruhestörung ="1x Funkstreifenwagen (100%)";
-  var Auffahrunfall ="1x Funkstreifenwagen (100%)</br>1x Löschfahrzeug/Tanklöschfahrzeug (10%)";
-  var AngefahrenePerson ="1x Funkstreifenwagen (100%)";
-  var Trunkenheitsfahrt ="1x Funkstreifenwagen (100%)";
-  var Ampelausfall ="1x Funkstreifenwagen (100%)";
-  var Pannenfahrzeug ="1x Funkstreifenwagen (100%)";
-  var Hausfriedensbruch ="1x Funkstreifenwagen (100%)";
-  var HilflosePerson ="1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen oder Krankentransportwagen (---%) ";
-  var Verkehrsbehinderung ="1x Funkstreifenwagen (100%)";
-  var DiebstahlausKfz ="1x Funkstreifenwagen (100%)";
-  var Fahrraddiebstahl ="1x Funkstreifenwagen (100%)";
-  var Wildunfall ="1x Funkstreifenwagen (100%)";
-  //2 Polizei Wachen
-  var RandalierendePerson ="2x Funkstreifenwagen (100%)";
-  var HäuslicheGewalt ="2x Funkstreifenwagen (100%)";
-  var SuchenachVermissten ="2x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)</br>1x Polizeihubschrauber (100%)</br>1x Löschfahrzeug/Tanklöschfahrzeug (100%) ";
-  var Kabeldiebstahl ="2x Funkstreifenwagen (100%)</br>1x Polizeihubschrauber (100%)";
-  //3 Polizei Wachen
-  var Schlägerei ="3x Funkstreifenwagen (100%)";
-  var Raub ="3x Funkstreifenwagen (100%)";
-  var Personenkontrolle ="1x Funkstreifenwagen (100%)";
-  //5 Polizei Wachen
-  var Massenschlägerei ="5x Funkstreifenwagen (100%)";
-  //7 Polizei Wachen
-  var EntflohenerGefangener ="10x Funkstreifenwagen (100%)</br>1x Polizeihubschrauber (100%)";
-  //1 WR Wache
-  var PersoninWasser ="1x Boot (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br>3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)";
-  var GewässerverschmutzungdurchÖl ="1x Boot (100%)</br>2x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-ÖL (100%)</br>1x Funkstreifenwagen (100%)";
-  //2 WR Wache
-  var PkwinWasser ="2x Boote (100%)</br>2x GW-Taucher (100%)</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br>1x Funkstreifenwagen (100%)";
-  //3 WR Wache
-  var LKWinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br>3x Funkstreifenwagen (100%)";
-  var BusinWasser ="3x Boote (100%)</br>3x GW-Taucher (100%)</br>5x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Notarzteinsatzfahrzeug (30%)</br>3x Funkstreifenwagen (100%)";
-  //1 BePo Wache
-  var SchwerpunkteinsatzTageswohnungseinbrüche ="3x GruKw (100%)</br>1x leBefKw (100%)";
-  var SchwerpunkteinsatzVerkehrsüberwachung ="3x GruKw (100%)</br>1x leBefKw (100%)";
-  var PräsenzeinsatzVolksfest ="3x GruKw (100%)</br>1x leBefKw (100%)";
-  var JugendschutzkontrolleinDiskothek ="3x GruKw (100%)</br>1x leBefKw (100%)</br>2x Funkstreifenwagen (100%)";
-  var GeländedurchsuchungnachBeweismittel ="3x GruKw (100%)</br>1x leBefKw (100%)";
-  var GeplanteRazzia ="6x GruKw (100%)</br>2x leBefKw (100%)</br>1x GefKw (100%)</br>2x Funkstreifenwagen (100%)";
-  var FußballBundesligaSpiel ="9x GruKw (100%)</br>3x leBefKw (100%)</br>1x FüKw (100%)</br>1x GefKw (100%)</br>2x Funkstreifenwagen (100%)";
-  //KT
-  var Krankentransport ="1x Krankentransportwagen (100%)";
-  //THW Einsätze
-  var Erdrutsch ="1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x LKW K9 (100%)</br>1x BRmG R (100%)</br>2x Funkstreifenwagen (100%)";
-  var GefahrgutLKWverunglückt ="1x GKW (100%)</br>1x LKW K9 (100%)</br>1x BRmG R (100%)</br>3x Löschfahrzeuge/Tanklöschfahrzeuge (100%)</br>1x Einsatzleitwagen (100%)</br>1x Einsatzleitwagen 2 (40%)</br>1x Rüstwagen (50%)</br>1x GW-Gefahrgut (100%)</br>1x GW-Messtechnik (30%)</br>1x Dekon P (10%)</br>2x Funkstreifenwagen (100%)";
-  var LKWinHauswand ="1x GKW (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>2x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Einsatzleitwagen (100%)</br>1x Drehleiter (70%)</br>1x Feuerwehrkran (75%)</br>";
-  var EingestürztesWohnhaus ="2x GKW (100%)</br>2x LKW K9 (100%)</br>2x BRmG R (100%)</br>1x MTW-TZ (100%)</br>1x MzKW (100%)</br>3x Löschfahrzeug/Tanklöschfahrzeug (100%)</br>1x Drehleiter (30%)</br>1x Einsatzleitwagen (100%)</br>1x Feuerwehrkran (75%)</br>1x Rüstwagen (100%)</br>2x Funkstreifenwagen (100%)";
+    I18n.translations.en['lssm']['missionHelper'] = {
+        carmh: 'Required vehicles:',
+		msmh: 'Error loading vehicles.<br/> Please forward to developer:',
+        0: '1x Firetruck (100%)',
+        1: '1x Firetruck (100%)',
+        2: '1x Firetruck (100%)',
+        3: '1x Firetruck (100%)',
+        4: '1x Firetruck (100%)',
+        5: '2x Firetrucks (100%)<br/>1x Platform Truck (30%)',
+        6: '2x Firetrucks (100%)',
+        7: '1x Firetruck (100%)',
+        8: '1x Firetruck (100%)',
+        9: '1x Firetruck (100%)',
+        10: '1x Firetruck (100%)',
+        11: '1x Firetruck (100%)',
+        12: '1x Firetruck (100%)',
+        13: '2x Firetrucks (100%)',
+        14: '2x Firetrucks (100%)',
+        15: '1x Firetruck (100%)',
+        16: '2x Firetrucks (100%)',
+        17: '1x Firetruck (100%)',
+        18: '1x Firetruck (100%)',
+        19: '1x Firetruck (100%)',
+        20: '3x Firetrucks (100%)<br/>1x Battalion Chief (90%)',
+        21: '1x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (100%)',
+        22: '3x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (50%)',
+        23: '1x Firetruck (100%)',
+        24: '1x Firetruck (100%)',
+        25: '1x Firetruck (100%)',
+        26: '2x Firetrucks (100%)',
+        27: '1x Firetruck (100%)',
+        28: '1x Firetruck (100%)<br/> 1x Platform Truck (100%)<br/>1x Battalion Chief (100%)',
+        29: '2x Firetrucks (100%)',
+        30: '1x Firetruck (100%)',
+        31: '1x Firetruck (100%)',
+        32: '1x Firetruck (100%)',
+        33: '1x Firetruck (100%)',
+        34: '1x Ambulance (100%)<br/>1x Police Car (100%)',
+        35: '1x Ambulance (100%)',
+        36: '1x Ambulance (100%)',
+        37: '1x Ambulance (100%)',
+        38: '1x Ambulance (100%)',
+        39: '1x Ambulance (100%)',
+        40: '1x Ambulance (100%)',
+        41: '10x Firetrucks (100%)<br/>2x Battalion Chiefs (100%)<br/>2x Platform Trucks (100%)<br/>1x Mobile Air (100%)<br/>1x Water Tanker (100%)<br/>2x Heavy Rescues (100%)<br/>1x Mobile Command (100%)',
+        42: '2x Firetrucks (100%)<br/>1x Battalion Chief (100%)',
+        43: '1x Ambulance (100%)',
+        44: '3x Firetrucks (100%)<br/> 1x Heavy Rescue (100%)<br/> 1x Battalion Chief (100%)<br/>1x Mobile Air (20%)<br/>1x Water Tanker (30%)',
+        45: '4x Firetrucks (100%)<br/>1x Heavy Rescue (50%)<br/>1x Battalion Chief (100%)<br/>1x Mobile Air (30%)<br/>1x Water Tanker (100%)',
+        46: '4x Firetrucks (100%)<br/>2x Heavy Rescues (30%)<br/>1x Platform Trucks (100%)<br/>1x Battalion Chief (100%)<br/>1x Mobile Command (100%)<br/>1x Hazmat (70%)<br/>1x Mobile Air(30%)',
+        47: '3x Firetrucks (100%)<br/>1x Heavy Rescue (50%)<br/>1x Battalion Chief (100%)<br/>1x Hazmat (100%)',
+        48: '1x Police Car (100%)',
+        49: '1x Police Car (100%)',
+        50: '1x Police Car (100%)',
+        51: '1x Police Car (100%)',
+        52: '1x Police Car (100%)',
+        53: '1x Police Car (100%)',
+        54: '1x Police Car (100%)',
+        55: '1x Police Car (100%)',
+        56: '1x Police Car (100%)',
+        57: '1x Police Car (100%)',
+        58: '1x Police Car (100%)',
+        59: '3x Police Cars (100%)',
+        60: '2x Police Cars (100%)',
+        61: '7x Police Cars (100%)',
+        62: '10x Firetrucks (100%)<br/>2x Battalion Chiefs (100%)<br/>5x Heavy Rescues (100%)<br/>2x Hazmats (100%)<br/> min. 10x Ambulance(100%)',
+        63: '1x Firetruck (100%)',
+        64: '2x Firetrucks (100%)',
+        65: '1x Firetruck (100%)<br/>1x Battalion Chief (100%)<br/>1x Mobile Air (50%)',
+        66: '1x Firetruck (100%)<br/>1x Platform Trucks (100%)',
+        67: 'Deactivated from Sebastian',
+        68: '4x Police Cars (100%)',
+        69: '1x Police Car (100%)',
+        70: '3x Police Cars (100%)',
+        71: '1x Police Car (100%)',
+        72: '1x Police Car (100%)',
+        73: '1x Police Car (100%)',
+        74: '1x Police Car (100%)',
+        75: '1x Firetruck (100%)',
+        76: '2x Firetrucks (100%)<br/>1x Battalion Chief (100%)',
+        77: '2x Firetrucks (100%)<br/>1x Battalion Chief (100%)',
+        78: '1x Firetruck (100%)<br/>1x Ambulance (100%)',
+        79: '1x Police Car (100%)',
+        80: '1x Firetruck (100%)',
+        81: '1x Firetruck (100%)',
+        82: '1x Firetruck (100%)<br/>1x Heavy Rescue (100%)',
+        83: '1x Firetruck (100%)',
+        84: '1x Firetruck (100%)',
+        85: '2x Police Cars (100%)',
+        86: '3x Firetrucks (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Platform Truck (50%)<br/>1x Heavy Resuce (100%)<br/>2x Police Cars<br/>min. 1x Ambulance(100%)',
+        87: '5x Firetrucks (100%)<br/>2x Platform Trucks (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>1x Hazmat (100%)<br/>min. 1x Ambulance',
+        88: '2x Firetrucks (100%)<br/>2x Platform Trucks (100%)<br/>2x Battalion Chiefs (100%)<br/>2x Heavy Rescues (100%)<br/>1x Mobile Command (100%)<br/>min. 1x Ambulance (100%)',
+        89: '3x Firetrucks (100%)<br/> 2x Heavy Rescues (100%)<br/> 1x Battalion Chief (100%)<br/>1x Police Car (100%)<br/>min. 2x Ambulance (100%)',
+        90: '6x Police Cars (100%)<br/>1x Ambulance (100%)',
+        91: '',
+        92: '',
+        93: '',
+        94: '10x Police Cars (100%)<br/>1x Police Helicopter (100%)',
+        95: '5x Police Cars (100%)<br/>1x Police Helicopter (100%)',
+        96: '5x Police Cars (100%)<br/>1x Police Helicopter (100%)<br/>2x Firetrucks (100%)<br/>1x Battalion Chief (100%)',
+        97: '3x Police Cars (100%)<br/>1x Police Helicopter(100%)',
+        98: '4x Firetrucks (100%)<br/>2x Heavy Rescues (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>3x Police Cars (100%)<br/>2x Hazmat (100%)',
+        99: '6x Firetrucks (100%)<br/>2x Platform Trucks (100%)<br/>2x Heavy Rescues (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>2x Police Cars (100%)',
+        100: '1x Police Car (100%)<br/>1x Ambulance',
+        101: '4x Firetrucks (100%)<br/>2x Heavy Rescues (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>3x Police Cars (100%)<br/>1x Hazmat (100%)',
+        102: '5x Firetrucks (100%)<br/>2x Platform Trucks (100%)<br/>1x Heavy Rescue (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>1x Water Tanker (100%)<br/>2x Mobile Air(50%)<br/> min. 4x Ambulance',
+        103: '2x Police Cars (100%)',
+        104: '4x Police Cars (100%)<br/>2x SWAT Cars (100%)<br/>1x Ambulance (100%)',
+        105: '4x Police Cars (100%)<br/>1x Police Helicopter (100%)<br/>4x SWAT Cars (100%)<br/>min. 1x Ambulance (100%)',
+        106: '1x Police Car (100%)<br/>3x SWAT Cars (100%)',
+        107: '1x Police Car (100%)<br/>1x SWAT Car (100%)',
+        108: '1x Ambulance (100%)',
+        109: '1x Ambulance (100%)',
+        110: '3x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (100%)<br/>2x Police Cars (100%)<br/>min. 1x Ambulance (100%)',
+        111: '5x Police Cars (100%)<br/>min. 1x Ambulance (100%)',
+        112: '6 Firetruck (100%)<br/>2x Platform Trucks (100%)<br/>2x Heavy Rescue (100%)<br/>1x Mobile Command (100%)<br/>2x Battalion Chief (100%)<br/>1x Police Helicopter (100%)<br/>14x Police Cars (100%)<br/> 4x Swat Cars',
+        113: '2x Firetrucks (100%)<br/> 1x ARFF (100%)',
+        114: '2x Firetrucks (100%)<br/> 1x ARFF (100%)',
+        115: '1x Firetruck (100%)<br/> 1x ARFF (100%)<br/>1x Battalion Chief (100%)',
+        116: '1x Firetruck (100%)<br/> 1x ARFF (100%)<br/>1x Battalion Chief (100%)',
+        117: '1x Firetrucks (100%)<br/> 2x ARFF (100%)<br/>1x Battalion Chief (100%)',
+        118: '1x Firetrucks (100%)<br/> 3x ARFF (100%)<br/>1x Battalion Chief (100%)',
+        119: '1x Ambulance (100%)',
+        120: '3x Firetrucks (100%)<br/>4x ARFF (100%)<br/>1x Battalion Chief (100%)<br/>5x Police Cars (100%)<br/>min. 1x Ambulance (100%) max. 25 Ambulance',
+        121: '10x Police Cars (100%)<br/>4x SWAT Cars (100%)<br/>1x Battalion Chief<br/>min. 1x Ambulance (100%)',
+        122: '1x Firetruck (100%)',
+        123: '6x Police Cars (100%)<br/>2x SWAT Cars (100%)',
+        124: '7x Police Cars (100%)<br/>min. 1 Ambulance (100%)',
+        125: '',
+        126: '',
+        127: '',
+        128: '1x Police Car (100%)',
+        129: '1x Police Car (100%)'
+    }
 
-  function addInfo(missionName) {
+    I18n.translations.nl['lssm']['missionHelper'] = {
+        carmh: 'Benodigde voertuigen:',
+		msmh: 'Fout bij het laden van de voertuigen. <br/>Gelieve het volgende door te geven aan de ontwikkelaars:',
+        0: '1x Tankautospuit (100%)',
+        1: '1x Tankautospuit (100%)',
+        2: '1x Tankautospuit (100%)',
+        3: '1x Tankautospuit (100%)',
+        4: '1x Tankautospuit (100%)',
+        5: '2x Tankautospuits (100%)<br/>1x OvD-B (100%)<br/>1x Redvoertuig (80%)<br/>1x Politieauto (100%)',
+        6: '1x Tankautospuit (100%)',
+        7: '1x Tankautospuit (100%)',
+        8: '1x Tankautospuit (100%)',
+        9: '1x Tankautospuit (100%)',
+        10: '1x Tankautospuit (100%)',
+        11: '1x Tankautospuit (100%)',
+        12: '1x Tankautospuit (100%)',
+        13: '1x Tankautospuit (100%)<br/>1x OvD-B (100%)<br/>1x Slangenwagen (10%)',
+        14: '2x Tankautospuiten (100%)',
+        15: '1x Tankautospuit (100%)<br/>1x Slangenwagen (10%)',
+        16: '1x Tankautospuit (100%)<br/>1x OvD-B (100%)<br/>1x Redvoertuig (80%)',
+        17: '1x Tankautospuit (100%)',
+        18: '1x Tankautospuit (100%)',
+        19: '1x Tankautospuit (100%)',
+        20: '3x Tankautospuiten (100%)<br/>1x Politieauto (100%)<br/>1x HOVD (50%)<br/>1x Slangenwagen (10%)<br/>1x Ambulance (100%)',
+        21: '1x Tankautospuit (100%)<br/>1x Redvoertuig (100%)',
+        22: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x Politieauto (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)',
+        23: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        24: '1x Tankautospuit (100%)',
+        25: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)<br/>1x Politieauto (100%)<br/>1x OvD-B (100%)<br/>1x Ambulance (100%)',
+        26: '2x Tankautospuiten (100%)<br/>1x Politieauto (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)<br/>1x Redvoertuig (100%)<br/>1x Slangenwagen (30%)',
+        27: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (30%)',
+        28: '2x Tankautospuiten (100%)',
+        29: '3x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x Slangenwagen (30%)<br/>1x Adembeschermingsvoertuig (20%)',
+        30: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (20%)',
+        31: '1x Tankautospuit (100%)',
+        32: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)',
+        33: '1x Tankautospuit (100%)',
+        34: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)',
+        35: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (10%)<br/>1x Commandowagen (10%)',
+        36: '3x Tankautospuiten (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)<br/>1x Waarschuwings- en Verkenningsdienst (60%)<br/>1x Adviseurs Gevaarlijke Stoffen (90%)',
+        37: '1x Tankautospuit (100%)',
+        38: '1x Tankautospuit (100%)',
+        39: '1x Tankautospuit (100%)',
+        40: '1x Tankautospuit (100%)',
+        41: '8x Tankautospuiten (100%)<br/>2x OvD-Bs (100%)<br/>1x HOVD (100%)<br/>2x Redvoertuiges (100%)<br/>1x Slangenwagen (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>1x Waarschuwings- en Verkenningsdienst (100%)<br/>1x Adviseurs Gevaarlijke Stoffen (100%)',
+        42: '4x Tankautospuiten (100%)<br/>2x Hulpverleningsvoertuigen (30%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)',
+        43: '12x Tankautospuiten (100%)<br/>3x Hulpverleningsvoertuigen (100%)<br/>3x OvD-Bs (100%)<br/>2x HOVDs (100%)<br/>5x Politieautos<br/>min. 8 Ambulances',
+        44: '1x Tankautospuit (100%)',
+        45: '1x Ambulance (100%)',
+        46: '1x Ambulance (100%)',
+        47: '1x Ambulance (100%)',
+        48: '1x Ambulance (100%)',
+        49: '1x Ambulance (100%)',
+        50: '1x Ambulance (100%)',
+        51: '1x Ambulance (100%)',
+        52: '4x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (30%)<br/>1x Slangenwagen (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)',
+        53: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>1x Slangenwagen (100%)<br/>1x Commandowagen (60%)',
+        54: '1x Tankautospuit (100%)<br/>1x Redvoertuig (20%)',
+        55: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)',
+        56: '8x Tankautospuiten (100%)<br/>2x Redvoertuiges (100%)<br/>2x OvD-Bs (100%)<br/>1x HOVD (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>1x Slangenwagen (100%)<br/>1x Commandowagen (100%)',
+        57: '1x Tankautospuit (100%)<br/>1x Redvoertuig (20%)',
+        58: '1x Tankautospuit (100%)',
+        59: '16x Tankautospuiten (100%)<br/></br>4x Redvoertuigs (100%)</br>4x Hulpverleningsvoertuig (100%)</br>2x HVODs (100%)</br>4x OvD-B (100%)</br>3x Slangenwagen(100%)</br>2x Waarschuwings- en Verkenningsdienst(100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Adembeschermingsvoertuig (100%)',
+        60: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (80%)<br/>1x OvD-B (100%)',
+        61: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        62: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)',
+        63: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        64: '2x Tankautospuiten<br/>1x Redvoertuig (80%)<br/>1x OvD-B (100%)',
+        65: '1x Tankautospuit (100%)',
+        66: '1x Tankautospuit (100%)',
+        67: '1x Tankautospuit (100%)<br/>1x Redvoertuig (30%)',
+        68: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        69: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (40%)<br/>1x OvD-B (100%)<br/>1x Ambulance (100%)',
+        70: '1x Politieauto (100%)',
+        71: '1x Politieauto (100%)',
+        72: '1x Politieauto (100%)',
+        73: '1x Politieauto (100%)',
+        74: '1x Politieauto (100%)<br/>1x Ambulance (100%)',
+        75: '1x Politieauto (100%)',
+        76: '2x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (10%)<br/>2x Politieautos(100%)<br/>min. 1x Ambulance (100%)',
+        77: '2x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (80%)<br/>1x OvD-B (100%)<br/>2x Politieautos(100%)<br/>min. 1x Ambulance (100%)',
+        78: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        79: '1x Ambulance (100%)',
+        80: '1x Ambulance (100%)',
+        81: '1x Politieauto (100%)',
+        82: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (70%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)',
+        83: '1x Ambulance (100%)<br/>1x MMT-Auto (100%)',
+        84: '1x Ambulance (100%)<br/>1x MMT-Auto (100%)',
+        85: '1x Ambulance (100%)<br/>1x MMT-Auto (100%)<br/>1x Politieauto (100%)',
+        86: '1x Ambulance (100%)<br/>1x MMT-Auto (100%)<br/>1x Politieauto (100%)',
+        87: '1x Ambulance (100%)',
+        88: '1x Ambulance (100%)',
+        89: '1x Ambulance (100%)',
+        90: '1x Ambulance (100%)',
+        91: '1x Ambulance (100%)',
+        92: '1x Ambulance (100%)',
+        93: '1x Ambulance (100%)',
+        94: '1x Ambulance (100%)',
+        95: '1x Ambulance (100%)',
+        96: '1x Ambulance (100%)',
+        97: '1x Ambulance (100%)',
+        98: '1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (10%)</br>1x OvD-B (30%)</br>1x Adviseurs Gevaarlijke Stoffen (20%)',
+        99: '1x Tankautospuit (100%)</br>1x OvD-B (10%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)',
+        100: '1x Tankautospuit (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Hulpverleningsvoertuig (80%)</br>1x OvD-B (100%)</br>1x HOVD (20%)</br>1x Waarschuwings- en Verkenningsdienst (10%)</br>1x Commandowagen(10%)',
+        101: '1x Tankautospuit (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>1x Politieauto (100%)',
+        102: '1x Tankautospuit (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>1x Hulpverleningsvoertuig (100%)',
+        103: '1x Tankautospuit (100%)<br/>1x Redvoertuig (100%)',
+        104: '1x Tankautospuit (100%)',
+        105: '1x Tankautospuit (100%)',
+        106: '1x Tankautospuit (100%)',
+        107: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (80%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)<br/>1x Ambulance (100%)',
+        108: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (90%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)<br/>1x Ambulance (100%)',
+        109: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (80%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)<br/>1x Ambulance (100%)',
+        110: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        111: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (80%)<br/>1x Slangenwagen (10%)<br/>1x OvD-B (100%)',
+        112: '2x Politieautos (100%)',
+        113: '3x Politieautos (100%)',
+        114: '1x Tankautospuit (100%)<br/>1x Redvoertuig (100%)',
+        115: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)',
+        116: '',
+        117: '',
+        118: '',
+        119: '',
+        120: '',
+        121: '',
+        122: '5x Politieautos (100%)<br/>1x Politie Helikopter (100%)',
+        123: '5x Politieautos (100%)<br/>1x Politie Helikopter (100%)',
+        124: '4x Politieautos (100%)<br/>1x Politie Helikopter (100%)',
+        125: '3x Politieautos (100%)<br/>1x Politie Helikopter (100%)',
+        126: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        127: '3x Tankautospuiten (100%)<br/>1x OvD-B (100%)<br/>1x Redvoertuig (100%)<br/>1x HOVD (50%)<br/>1x Slangenwagen (60%)',
+        128: '1x Tankautospuit (100%)<br/>1x Slangenwagen (10%)',
+        129: '4x Tankautospuiten (100%)<br/>1x Slangenwagen (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)',
+        130: '2x Tankautospuiten (100%)<br/>1x Redvoertuig (50%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)',
+        131: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x Slangenwagen (10%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)<br/>1x Politieauto',
+        132: '1x Tankautospuit (100%)',
+        133: '1x Tankautospuit (100%)',
+        134: '1x Tankautospuit (100%)',
+        135: '1x Tankautospuit (100%)',
+        136: '1x Tankautospuit (100%)',
+        137: '1x Zorgambulance (100%)',
+        138: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        139: '2x Tankautospuiten (100%)<br/>1x Slangenwagen (10%)',
+        140: '2x Tankautospuiten (100%)<br/>1x Slangenwagen (40%)<br/>1x OvD-B (100%)',
+        141: '3x Tankautospuiten (100%)<br/>1x Slangenwagen (100%)<br/>1x Adembeschermingsvoertuig (10%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)',
+        142: '4x Tankautospuiten (100%)<br/>2x Slangenwagen (100%)<br/>1x Hulpverleningsvoertuig (50%)<br/>1x Adembeschermingsvoertuig (20%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)',
+        143: '8x Tankautospuiten (100%)<br/>2x Slangenwagen (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x Adembeschermingsvoertuig (30%)<br/>2x OvD-Bs (100%)<br/>1x HOVD (100%)',
+        144: '12x Tankautospuiten (100%)<br/>3x Slangenwagen (100%)<br/>2x Hulpverleningsvoertuigen (100%)<br/>1x Adembeschermingsvoertuig (50%)<br/>3x OvD-Bs<br/>2x HOVDs',
+        145: '40x Tankautospuiten (100%)<br/>8x Slangenwagen (100%)<br/>4x Hulpverleningsvoertuigen (100%)<br/>1x Adembeschermingsvoertuig (100%)<br/>10x OvD-Bs (100%)<br/>4x HOVDs (100%)<br/>2x Commandowagen (100%)',
+        146: '1x Tankautospuit (100%)',
+        147: '2x Tankautospuiten (100%)<br/>1x OvD-B (100%)',
+        148: '1x Tankautospuit (100%)',
+        149: '1x Tankautospuit (100%)<br/>1x Redvoertuig (100%)<br/>1x Ambulance (100%)',
+        150: '4x Politieautos (100%)',
+        151: '1x Politieauto (100%)',
+        152: '3x Politieautos (100%)',
+        153: '1x Politieauto (100%)',
+        154: '2x Politieautos (100%)',
+        155: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (30%)<br/>1x OvD-B (100%)<br/>1x HOVD (10%)<br/>1x Commandowagen (10%)',
+        156: '2x Tankautospuiten (100%)<br/>1x Hulpverleningsvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)<br/>1x Commandowagen (50%)<br/>1x Adviseurs Gevaarlijke Stoffen (20%)',
+        157: '3x Tankautospuiten (100%)<br/>2x Redvoertuiges (100%)<br/>1x Adembeschermingsvoertuig (50%)<br/>1x OvD-B (100%)<br/>1x HOVD (100%)<br/>1x Commandowagen (90%)',
+        158: '1x Tankautospuit (100%)',
+        159: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x Adembeschermingsvoertuig (20%)<br/>1x OvD-B (100%)<br/>1x HOVD (50%)',
+        160: '1x Tankautospuit (100%)',
+        161: '1x Ambulance (100%)',
+        162: '1x Ambulance (100%)',
+        163: '1x Politieauto (100%)',
+        164: '1x Ambulance (100%)',
+        165: '1x Tankautospuit (100%)<br/>1x Redvoertuig (100%)<br/>1x Ambulance (100%)',
+        166: '4x Politieautos (100%)',
+        167: '1x Politieauto (100%)',
+        168: '1x Ambulance (100%)',
+        169: '1x Tankautospuit (100%)',
+        170: '1x Tankautospuit (100%)',
+        171: '1x Tankautospuit (100%)<br/>1x OvD-B (40%)<br/>1x Politieauto (100%)<br/>1x Ambulance (100%)',
+        172: '1x Ambulance (100%)',
+        173: '2x Politieautos (100%)',
+        174: '2x Politieautos (100%)',
+        175: '1x Tankautospuit (100%)',
+        176: '1x Ambulance (100%)',
+        177: '1x Ambulance (100%)',
+        178: '2x Politieautos (100%)',
+        179: '1x Ambulance (100%)',
+        180: '1x Tankautospuit (100%)<br/>1x Waterongevallenvoertuig (100%)<br/>2x Politieautos (100%)',
+        181: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (40%)<br/>1x OvD-B (100%)<br/>1x Waterongevallenvoertuig (20%)<br/>2x Politieautos (100%)<br/>1x Ambulance (100%)',
+        182: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (50%)<br/>1x OvD-B (100%)<br/>1x Waterongevallenvoertuig (80%)<br/>2x Politieautos (100%)<br/>1x Ambulance (100%)',
+        183: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (20%)<br/>1x Waterongevallenvoertuig (10%)',
+        184: '1x Tankautospuit (100%)<br/>1x Waterongevallenvoertuig (20%)',
+        185: '1x Tankautospuit (100%)<br/>1x Waterongevallenvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x Politieauto (100%)',
+        186: '1x Tankautospuit (100%)<br/>1x Slangenwagen (40%)',
+        187: '1x Tankautospuit (100%)<br/>1x Slangenwagen (20%)',
+        188: '1x Tankautospuit (100%)<br/>1x Redvoertuig (50%)',
+        189: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (60%)',
+        190: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        191: '1x Tankautospuit (100%)<br/>1x Redvoertuig (80%)',
+        192: '1x Tankautospuit (100%)<br/>1x Slangenwagen (20%)',
+        193: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        194: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        195: '1x Tankautospuit (100%)<br/>1x Hulpverleningsvoertuig (10%)',
+        196: '1x Tankautospuit (100%)',
+        197: '1x Tankautospuit (100%)',
+        198: '1x Tankautospuit (100%)<br/>1x Redvoertuig (10%)',
+        199: '1x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br>1x Politie Helikopter (100%)',
+        200: '1x Tankautospuit (100%)</br>1x OvD-B (50%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)</br>4x Politieauto (100%)</br>1x Officier van Dienst Politie (100%)',
+        201: '4x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)',
+        202: '3x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)</br>1x Ambulance (100%)</br>1x MMT-Auto (100%)',
+        203: '2x Politieautos (100%)</br>1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (80%)</br>1x Adviseurs Gevaarlijke Stoffen (60%)</br>1x Ambulance (100%)',
+        204: '2x Politieautos (100%)</br>1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>1x Waarschuwings- en Verkenningsdienst(50%)</br>1x HOVD(50%)</br>1x Commandowagen (50%)</br>1x Ambulance (100%)',
+        205: '1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(50%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)',
+        206: '1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(100%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)',
+        207: '1x Tankautospuit (100%)</br>1x Redvoertuig(10%)</br>1x Hulpverleningsvoertuig(40%)</br>1x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(10%)</br>2x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)',
+        208: '1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>1x Hulpverleningsvoertuig(60%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(50%)</br>3x Politieauto (100%)</br>1x OvD-B (100%)</br>min. 1x Ambulance(100%)',
+        209: '1x Tankautospuit (100%)</br>1x Redvoertuig(10%)</br>1x Hulpverleningsvoertuig(50%)</br>1x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(100%)</br>2x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)',
+        210: '1x Tankautospuit (100%)</br>1x Redvoertuig(50%)</br>1x Hulpverleningsvoertuig(50%)</br>2x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(100%)</br>2x Politieauto (100%)</br>1x OvD-B (100%)</br>min. 2x Ambulance(100%)',
+        211: '2x Tankautospuiten (100%)</br>1x Redvoertuig(80%)</br>1x Hulpverleningsvoertuig(80%)</br>3x Waterongevallenvoertuig (100%)</br>2x Waterongevallena Anhangers(100%)</br>2x Politieauto (100%)</br>1x OvD-B (100%)</br>1x HOvD (50%)</br>1x Commandowagen (50%)</br>min. 3x Ambulance(100%)',
+        212: '1x Tankautospuit (100%)</br>1x Waterongevallenvoertuig (100%)</br>1x Waterongevallena Anhangers(80%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)</br>1x Ambulance(100%)',
+        213: '1x Tankautospuit (100%)</br>1x Redvoertuig (10%)<br/>2x Waterongevallenvoertuig (100%)</br>2x Waterongevallena Anhangers(100%)</br>1x Politieauto (100%)</br>1x OvD-B (100%)</br>min. 1x Ambulance(100%)',
+        214: '2x Tankautospuiten (100%)</br>1x OvD-B (100%)</br>1x Slangenwagen (40%)',
+        215: '3x Tankautospuiten (100%)</br>1x HOVD (50%)</br>1x OvD-B (100%)</br>1x Slangenwagen (100%)',
+        216: '4x Tankautospuiten (100%)</br>1x HOVD (100%)</br>1x OvD-B (100%)</br>1x Commandowagen(10%)</br>1x Slangenwagen (100%)',
+        217: '5x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)',
+        218: '5x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)</br>1x Politie Helikopter (100%)</br>1x OvD-B (100%)</br>1x Tankautospuit (100%)',
+        219: '',
+        220: '',
+        221: '3x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)',
+        222: '4x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br>1x Politie Helikopter (100%)',
+        223: '2x Tankautospuiten (100%)<br/>1x OvD-B (100%)',
+        224: '1x Tankautospuit (100%)',
+        225: '1x Ambulance (100%)',
+        226: '1x Ambulance (100%)',
+        227: '3x Politieautos (100%)',
+        228: '3x Politieautos (100%)'
+    }
+
+
+    var title_stichwort = document.getElementById('missionH1');
+    var aao_text = '';
+    var help_el = document.getElementById('mission_help');
+    var help = "";
+    if (help_el !== null)
+        help = help_el.href;
+
+    var tmp_arr = help.split('/');
+    var length = tmp_arr.length;
+
+    var mission_id = Number(tmp_arr[length-1]);
+
+	aao_text = I18n.t('lssm.missionHelper.'+mission_id);
+
+	
+  if(title_stichwort.innerText.includes('Brandmeldeanlage'))
+    {
+        aao_text = aao_text +' BMA';
+    }
+    var additional_aao_text = '';
+    
+ 
+	function addInfo(missionName) {
     var info = document.createElement('div');
     info.className = "alert alert-warning";
     var missionString = "";
     try{
       missionString += eval(missionName);
     }catch(err){
-      missionString = "Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben: "+err;
+      missionString = ""+I18n.t('lssm.missionHelper.msmh')+" "+err;
     }
-      info.innerHTML = "<h3>Benötigte Fahrzeuge:</h3> "+missionString + "</br>";
+      info.innerHTML = "<h3>"+I18n.t('lssm.missionHelper.carmh')+"</h3> "+aao_text+"<br/>";
 
       document.getElementById('mission-form').insertBefore(info,document.getElementById("next_mission"));
 
     }
 
     function Normalize(missionname){
+      if (!missionname)
+          return "nope";
       var longname = missionname;
       var short = longname.innerHTML.trim().split("\n");
       for(var i = 0; i<short.length;i++){
@@ -297,7 +723,7 @@
         }
       }
       var shortendname = short[0].trim().replace(/\s/g,'').replace(/[(]/g,'').replace(/[)]/g,'').replace(/[-]/g,'').replace("Brandmeldeanlage","");
-      if(shortendname === "Volkslauf"||shortendname === "Dorf/Stadtfest"||shortendname === "BrandsicherheitswachdienstimTheater"||shortendname === "BrandsicherheitswachebeiVolksfest"||shortendname === "AngemeldeteDemonstration"||shortendname === "AbsicherungMusikumzug"||shortendname === "AbsicherungRadrennen"||shortendname === "FeuerprobealarmanSchule"||shortendname === "EntschärfungvonWeltkriegsbombe"||shortendname === "Verkehrsüberwachung"||shortendname === "AbsicherungRockkonzert"||shortendname === "Schwertransport" || shortendname ==="HasentreffeninOstereistedt"){
+      if(shortendname === "Volkslauf"||shortendname === "Dorf/Stadtfest"||shortendname === "BrandsicherheitswachdienstimTheater"||shortendname === "BrandsicherheitswachebeiVolksfest"||shortendname === "AngemeldeteDemonstration"||shortendname === "AbsicherungMusikumzug"||shortendname === "AbsicherungRadrennen"||shortendname === "FeuerprobealarmanSchule"||shortendname === "EntschärfungvonWeltkriegsbombe"||shortendname === "Verkehrsüberwachung"||shortendname === "AbsicherungRockkonzert"||shortendname === "Schwertransport" || shortendname ==="HasentreffeninOstereistedt" || shortendname ==="FußballBundesligaRisikospiel" || shortendname === "Concert"||shortendname === "SoccerGame"||shortendname === "BaseballGame" || shortendname === "Voetbalwedstrijd"||shortendname === "Voetbalwedstrijd,risicowedstrijd"||shortendname === "Hardloopevenement"||shortendname === "Begeleidingorkest"||shortendname === "Begeleidingwielrenners"||shortendname === "Testbrandalarmschool"||shortendname === "Open dag,klein"||shortendname === "Open dag,groot"){
         return "nope";
       }
       return shortendname;
@@ -307,5 +733,4 @@
     if(missionname != "nope"){
       addInfo(missionname);
     }
-
-  })();
+})();

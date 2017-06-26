@@ -9,7 +9,7 @@
         buffermPa_sm(e);
         shareMissions(e);
     };*/
-    $(document).bind(lssm_hook.postname("missionMarkerAdd"),function(event,e){
+    $(document).bind(lssm.hook.postname("missionMarkerAdd"),function(event,e){
         shareMissions(e.id);
     });
 

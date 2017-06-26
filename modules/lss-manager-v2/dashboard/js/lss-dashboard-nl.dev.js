@@ -11,7 +11,7 @@ var searchby = "wache";
 function loadGraphs() {
 	// Building Bar Chart
 	var building_amount = { 'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0 };
-	$.each(get_buildings(),function (key,build) {
+	$.each(lssm.get_buildings(),function (key,build) {
 		switch (build.stationType) {
 			case BUILDING_TYPE_FEUERWACHE:
 				building_amount.fw+=1;
@@ -79,14 +79,14 @@ function loadGraphs() {
         'pol':{'data':[],'total':0},
         'thw':{'data':[],'total':0}};
 	// Go through all cars and put them where they belong
-    $.each(car_list_all(),function (key,veh) {
+    $.each(lssm.car_list_all(),function (key,veh) {
         if (fz_type(veh.type)==0) {
 			// Firefighters
             cars.fw.total+=1;
             if (Object.prototype.hasOwnProperty.call(cars.fw.data, veh.type)) {
                 cars.fw.data[veh.type].y+=1;
             }else{
-                cars.fw.data[veh.type] = {name:carsById[veh.type] ,y:1};
+                cars.fw.data[veh.type] = {name:lssm.carsById[veh.type] ,y:1};
             }
         }else if (fz_type(veh.type)==1) {
 			// Ambulance
@@ -94,7 +94,7 @@ function loadGraphs() {
             if (Object.prototype.hasOwnProperty.call(cars.rd.data, veh.type)) {
                 cars.rd.data[veh.type].y+=1;
             }else{
-                cars.rd.data[veh.type] = {name:carsById[veh.type] ,y:1};
+                cars.rd.data[veh.type] = {name:lssm.carsById[veh.type] ,y:1};
             }
         }else if (fz_type(veh.type)==2) {
 			// Police
@@ -102,7 +102,7 @@ function loadGraphs() {
             if (Object.prototype.hasOwnProperty.call(cars.pol.data, veh.type)) {
                 cars.pol.data[veh.type].y+=1;
             }else{
-                cars.pol.data[veh.type] = {name:carsById[veh.type] ,y:1};
+                cars.pol.data[veh.type] = {name:lssm.carsById[veh.type] ,y:1};
             }
         }else{
 			// Technical emergency service
@@ -110,7 +110,7 @@ function loadGraphs() {
             if (Object.prototype.hasOwnProperty.call(cars.thw.data, veh.type)) {
                 cars.thw.data[veh.type].y+=1;
             }else{
-                cars.thw.data[veh.type] = {name:carsById[veh.type] ,y:1};
+                cars.thw.data[veh.type] = {name:lssm.carsById[veh.type] ,y:1};
             }
         }
     });
@@ -236,7 +236,7 @@ user_id: 168556
 			return;
 		}
       	var appendto = "son"
-			vehicles = car_list(building.id)
+			vehicles = lssm.car_list(building.id)
 			printcars = ""
 			icon = "fa-building-o"
 			icon3 = "fa-car"
@@ -389,8 +389,8 @@ function populate_fzgtable(){
 	var c_table = $("#db_fzg_outer table tbody")
 	c_table.html("");
 	var cars = {};
-	$.each(car_list_all(),function (key,veh) {
-		var type = carsById[veh.type];
+	$.each(lssm.car_list_all(),function (key,veh) {
+		var type = lssm.carsById[veh.type];
 		if (Object.prototype.hasOwnProperty.call(cars, type)==false) {
 			cars[type] = {'free':0,'miss':0,'fms5':0,'fms6':0,'sum':0};
 		}
@@ -426,14 +426,14 @@ function populate_fzgtable(){
 		');
 	});
 	/*
-	$.each(car_list_all(),function (key,veh) {
+	$.each(lssm.car_list_all(),function (key,veh) {
 	if (fz_type(veh.type)==0) {
 		// Firefighters
 		cars.fw.total+=1;
 		if (Object.prototype.hasOwnProperty.call(cars.fw.data, veh.type)) {
 			cars.fw.data[veh.type].y+=1;
 		}else{
-			cars.fw.data[veh.type] = {name:carsById[veh.type] ,y:1};
+			cars.fw.data[veh.type] = {name:lssm.carsById[veh.type] ,y:1};
 		}
 	*/
 	

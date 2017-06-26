@@ -1,4 +1,4 @@
-function car_list(building) {
+function lssm.car_list(building) {
     // liefert die Fahrzeuge einer Wache zurück
     var data = [];
     $('#vehicle_building_' + building).find('li').each(function (index, element) {
@@ -11,7 +11,7 @@ function car_list(building) {
     });
     return data;
 }
-function car_list_all() {
+function lssm.car_list_all() {
     var data = [];
     $("[id^='vehicle_building']").find('li').each(function (index, element) {
         data.push({

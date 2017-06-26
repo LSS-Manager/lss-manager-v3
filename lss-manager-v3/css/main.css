@@ -11,6 +11,9 @@ nav, .navbar-default {
   min-width:200px;
 }
 
+li {
+  list-style: none !important;
+}
 
 /* ##################################################
 
@@ -119,6 +122,10 @@ body {
 
 .panel-heading {
   background-image: none !important;
+}
+
+body.dark .panel-heading {
+  background: #212121 !important;
 }
 
 div#preloader {
