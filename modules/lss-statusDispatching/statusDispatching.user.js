@@ -2,6 +2,7 @@
 
     var LSS_FASTS5_STORAGE = "StatusDispatching";
     I18n.translations.de['lssm']['statusDispatching'] = {
+	name: 'Verbesserte Status 5',
         fms: 'Sprechwunsch bearbeiten',
         nextVehicle: 'Zum nächsten Fahrzeug im Status 5',
         backToAlarm: 'Zurück zum Einsatz',
@@ -13,6 +14,7 @@
     };
 
     I18n.translations.en['lssm']['statusDispatching'] = {
+	name: 'Enhanced transport requests',
         fms: 'Transport Requested',
         nextVehicle: 'Go to the next vehicle with a transport request',
         backToAlarm: 'Back to mission',
@@ -24,6 +26,7 @@
     };
 
     I18n.translations.nl['lssm']['statusDispatching'] = {
+	name: 'Verbeterde spraakaanvragen',
         fms: 'Spraakaanvraag beantwoorden',
         nextVehicle: 'Naar het volgende status 7 voertuig',
         backToAlarm: 'Naar het incident',
