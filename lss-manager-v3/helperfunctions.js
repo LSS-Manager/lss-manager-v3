@@ -182,7 +182,7 @@ lssm.get_buildings = function() {
     return data;
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
-lssm.newDragableDivOnMap:function(id, classe, pos) {
+lssm.newDragableDivOnMap=function(id, classe, pos) {
     function changeX(p, m) {
         if (p <= -m + info._div.offsetWidth + 20)
             return -m + info._div.offsetWidth + 20;
@@ -224,7 +224,7 @@ lssm.newDragableDivOnMap:function(id, classe, pos) {
     t.enable();
     t.on('drag', info.update);
     return $(info._div);
-}
+};
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
