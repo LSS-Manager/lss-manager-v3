@@ -292,6 +292,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    vonginator: {
+        name: {
+            de: 'Vonginator',
+            en: 'Vonginator'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Hallo i bims. 1 total sinnlose Skript vong Bedeutung her. lol',
+            en: 'Not seriously meant script for german language only.'
+        },
+        source: '/modules/lss-vonginator/Vonginator.user.js',
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     Notification_Alert: {
         name: {
             de: 'Notification Alert',
