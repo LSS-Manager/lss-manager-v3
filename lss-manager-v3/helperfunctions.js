@@ -181,7 +181,50 @@ lssm.get_buildings = function() {
     });
     return data;
 };
+// liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
+lssm.newDragableDivOnMap=function(id, classe, pos) {
+    function changeX(p, m) {
+        if (p <= -m + info._div.offsetWidth + 20)
+            return -m + info._div.offsetWidth + 20;
+        else if (p >= 0)
+            return 0
+        else
+            return p;
+    }
 
+    function changeY(p, m) {
+        if (p >= m - info._div.offsetHeight)
+            return (m - info._div.offsetHeight - 10);
+        else if (p <= 0)
+            return 0;
+        else
+            return p
+    }
+    var info = L.control();
+
+    info.onAdd = function () {
+        this._div = L.DomUtil.create('div', classe || "");
+        this._div.id = id+"Div";
+        var m = map.getSize();
+        L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
+        this.update();
+        return this._div;
+    };
+
+    info.update = function () {
+        var m = map.getSize();
+        var p = L.DomUtil.getPosition(info._div);
+        var pos = {x:changeX(p.x, m.x),y:changeY(p.y, m.y)};
+        lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
+        L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
+    };
+
+    info.addTo(map);
+    var t = new L.Draggable(info._div);
+    t.enable();
+    t.on('drag', info.update);
+    return $(info._div);
+}
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
