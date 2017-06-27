@@ -27,6 +27,7 @@
         function replacePatientMarker(text){
         if(text !== null && text !== ""){
             text = text.replace('Wir benötigen ein NEF.', 'Wir brauchen 1 NEF vong Dringlichkeit her.');
+            text = text.replace('Wir benötigen einen RTW.', 'lol. Chique mal 1 RTW.');
         }
         return text;
     }
@@ -52,7 +53,7 @@
     // Mission Marker
     var patientMarkerAddOrig = patientMarkerAdd;
     patientMarkerAdd = function(t){
-        console.log(t);
+        t.missing_text = replacePatientMarker(t.missing_text);
         patientMarkerAddOrig(t);
     };
 })(I18n, jQuery);
