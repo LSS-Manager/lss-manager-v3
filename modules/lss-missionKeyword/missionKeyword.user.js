@@ -1,6 +1,7 @@
 (function() {
-	//Alle Einsatz-IDs mit Stichwort-Zuweisung
-    I18n.translations.de['lssm']['missionKeyword'] = {
+
+	var bayern_aao = {
+		name: 'bay',
         fw: 'B ',
         thl: 'THL',
         abc: 'ABC',
@@ -9,6 +10,7 @@
         pol: 'POL',
         thw: 'THW',
         bp: 'BP ',
+		bma: 'BMA',
         0: 'B 1',
         1: 'B 2',
         2: 'B 2',
@@ -314,9 +316,331 @@
         297: 'RD 1',
         298: 'THL WASSER',
         299: ''
+    };
+	var hh_aao = {
+		name: 'hh';
+        fw: 'FEU',
+        thl: 'TH',
+        abc: 'ABC',
+        rd: 'NOTF',
+        ktp: 'KTP',
+        pol: 'POL',
+        thw: 'THW',
+        bp: 'BP ',
+		bma: 'BMA',
+        0: 'B 1',
+        1: 'B 2',
+        2: 'B 2',
+        3: 'B 1',
+        4: 'B 1',
+        5: 'B 3',
+        6: 'B 2',
+        7: 'B 1',
+        8: 'B 1',
+        9: 'B 2',
+        10: 'B 2',
+        11: 'B 1',
+        12: 'THL 1',
+        13: 'B 3',
+        14: 'B 2',
+        15: 'B WALD',
+        16: 'B 2',
+        17: 'B 1',
+        18: 'B 1',
+        19: 'B 2',
+        20: 'B 3',
+        21: 'B 2',
+        22: 'B 3',
+        23: 'B 3',
+        24: 'B 1',
+        25: 'THL 1',
+        26: 'B 3',
+        27: 'THL 1',
+        28: 'B 3',
+        29: 'B 3',
+        30: 'THL 1',
+        31: 'THL 1',
+        32: 'B 2',
+        33: 'B 3',
+        34: 'B 3',
+        35: 'B 4',
+        36: 'B 4',
+        37: 'B 1',
+        38: 'B 1',
+        39: 'B 1',
+        40: 'B 1',
+        41: 'ABC B',
+        42: 'ABC B 4',
+        43: 'THL 5',
+        44: 'RD 1',
+        45: 'RD 1',
+        46: 'RD 2',
+        47: 'RD 2',
+        48: 'RD 2',
+        49: 'RD 1',
+        50: 'RD 1',
+        51: 'B 4',
+        52: 'B 1',
+        53: 'THL 1',
+        54: 'RD 1',
+        55: 'B 1',
+        56: 'RD 1',
+        57: 'RD 1',
+        58: 'RD 1',
+        59: 'ABC 3',
+        60: 'POL 1',
+        61: 'POL 1',
+        62: 'POL 1',
+        63: 'POL 1',
+        64: 'POL 1',
+        65: 'POL 1',
+        66: 'POL 1',
+        67: 'POL 1',
+        68: 'POL 1',
+        69: 'POL 1',
+        70: 'POL 1',
+        71: 'POL 1',
+        72: 'THL P HÖHENRETTUNG',
+        73: 'POL 3',
+        74: 'POL 1',
+        75: 'POL 7',
+        76: 'B 3',
+        77: 'THL P WOHNUNG',
+        78: 'THL 1',
+        79: 'THL P HÖHENRETTUNG',
+        80: 'B 3',
+        81: 'POL 1',
+        82: 'POL 1',
+        83: 'ABC THL 3',
+        84: 'B ZUG',
+        85: 'POL 1',
+        86: 'B 4',
+        87: 'THL VU FLUGZEUG 1',
+        88: 'B 1',
+        89: 'THL 2',
+        891:'THL 4',
+        90: 'POL 1',
+        91: 'THL 1',
+        92: 'RD 2',
+        93: 'B 3',
+        94: 'THL 1',
+        95: 'THL 2',
+        96: 'B 3',
+        97: 'ABC ÖL',
+        98: 'POL 1',
+        99: 'THL VU FLUGZEUG 2',
+        100: 'B 3',
+        101: 'B 3',
+        102: 'B 3',
+        103: 'B 3',
+        104: 'B 3',
+        105: 'B 3',
+        106: 'POL 5',
+        107: 'POL 5',
+        108: 'RD 2',
+        109: 'RD 2',
+        110: 'RD 1',
+        111: 'B 1',
+        112: 'B 1',
+        113: 'B 1',
+        114: 'THL 1',
+        115: 'RD 1',
+        116: 'POL 4',
+        117: 'POL 1',
+        118: 'POL 3',
+        119: 'POL 1',
+        120: 'THL 2',
+        1201:'THL 4',
+        121: 'THL 2',
+        1211:'THL 4',
+        122: 'THL 1',
+        123: 'THL 1',
+        124: 'THL 1',
+        125: 'THL 1',
+        126: 'THL 1',
+        127: 'THL 1',
+        128: 'POL 1',
+        129: 'B 1',
+        130: 'POL 2',
+        131: 'B 2',
+        132: 'B 2',
+        133: 'B 2',
+        134: 'B WALD',
+        135: 'B WALD',
+        136: 'B WALD',
+        137: 'B WALD',
+        138: 'B 2',
+        139: 'B 2',
+        140: 'B 2',
+        141: 'B 2',
+        142: 'B 3',
+        143: 'B 1',
+        144: 'B 1',
+        145: 'POL 1',
+        146: 'B 4',
+        147: 'RD KTP',
+        148: 'POL 1',
+        149: 'POL 1',
+        150: 'POL 1',
+        151: 'POL 1',
+        152: 'POL 2',
+        153: 'POL 1',
+        154: 'POL 1',
+        155: 'RD 1',
+        156: 'RD 1',
+        157: 'RD 2',
+        158: 'THL 1',
+        159: 'THL 1',
+        160: 'THL 1',
+        161: 'THL 1',
+        162: 'THL 1',
+        163: 'THL 1',
+        164: 'RD 1',
+        165: 'RD 1',
+        166: 'THL 1',
+        167: 'THL 1',
+        168: 'THL 1',
+        169: 'THL 1',
+        170: 'THL 1',
+        171: 'THL 1',
+        172: 'THL 1',
+        173: 'THL 1',
+        174: 'THW 1',
+        175: 'THW 1',
+        176: 'THW 1',
+        177: 'THL EINSTURZ',
+        178: 'ABC THL 3',
+        179: 'RD 2',
+        180: 'RD 2',
+        181: 'RD 2',
+        182: 'RD 1',
+        183: 'RD 1',
+        184: 'RD 1',
+        185: 'RD 1',
+        186: 'B 4',
+        187: 'B 3',
+        188: 'POL 1',
+        189: 'POL 1',
+        190: 'POL 1',
+        191: 'THL 1',
+        192: 'B ELEKTRO',
+        193: 'B ELEKTRO',
+        194: 'THL 1',
+        195: 'BP 1',
+        196: 'BP 1',
+        197: 'BP 1',
+        198: 'BP 1',
+        199: 'BP 1',
+        200: 'BP 2',
+        201: 'BP 3',
+        202: 'POL 1',
+        203: 'B 2',
+        204: 'B 4',
+        205: 'B 4',
+        206: 'B 5',
+        207: 'ABC 3',
+        208: 'ABC 2',
+        209: 'POL 1',
+        210: 'RD 2',
+        211: 'RD 1',
+        212: 'RD 1',
+        213: 'B EXPLOSION',
+        214: 'B 4',
+        215: 'ABC 3',
+        216: 'B 1',
+        217: 'B 1',
+        218: 'B 1',
+        219: 'B 1',
+        220: 'B 1',
+        221: 'THL VU ZUG',
+        222: 'THL VU ZUG',
+        223: 'SICHERHEITSWACHE',
+        224: 'SICHERHEITSWACHE',
+        225: 'SICHERHEITSWACHE',
+        226: 'VERKEHRSSICHERUNG',
+        227: 'ABSICHERUNG',
+        228: 'VERKEHRSSICHERUNG',
+        229: 'VERKEHRSSICHERUNG',
+        230: 'B 1',
+        231: 'POL 10',
+        232: 'POL 3',
+        233: 'POL 2',
+        234: 'THL BOMBENFUND',
+        235: 'THL P HÖHENRETTUNG',
+        236: 'THL P HÖHENRETTUNG',
+        237: 'THL ZUG',
+        238: 'THL 2',
+        2381:'THL 4',
+        239: 'THL 2',
+        2391:'THL 4',
+        240: 'ABC 1',
+        241: 'POL 1',
+        242: 'POL 3',
+        243: 'THL 1',
+        244: 'THL WASSER',
+        245: 'THL WASSER',
+        246: 'THL WASSER',
+        247: 'THL WASSER',
+        248: 'THL WASSER',
+        249: 'THL WASSER',
+        250: 'THL WASSER',
+        251: 'THL WASSER',
+        252: 'THL WASSER',
+        253: 'THL WASSER',
+        254: 'THL WASSER',
+        255: 'THL WASSER',
+        256: 'THL VU SCHIFF',
+        257: 'POL 2',
+        258: 'THL 3',
+        259: 'B 1',
+        260: 'B 1',
+        261: 'B 1',
+        262: 'B 3',
+        263: 'B 1',
+        264: 'B 3',
+        265: 'B 1',
+        266: 'B 1',
+        267: 'POL 1',
+        268: 'B 4',
+        269: 'POL 1',
+        270: 'POL 1',
+        271: 'THL ZUG',
+        272: 'ABC WASSER',
+        273: 'ABC WASSER',
+        274: 'RD 2',
+        275: 'ABSICHERUNG',
+        276: 'POL 4',
+        277: 'THL 1',
+        278: 'THL 2',
+        279: 'THL 2',
+        280: 'THL 3',
+        281: 'RD 2',
+        282: 'THL 1',
+        283: 'B 5',
+        284: 'POL 1',
+        285: 'POL 1',
+        286: 'THL EINSTURZ',
+        287: 'POL 1',
+        288: 'B 1',
+        289: 'THL 1',
+        290: 'B 2',
+        291: 'BP 3',
+        292: 'POL 1',
+        293: 'RD 1',
+        294: 'BP 9',
+        295: 'POL 6',
+        296: 'THL 2',
+        297: 'RD 1',
+        298: 'THL WASSER',
+        299: ''
     }
 
+
+	//Alle Einsatz-IDs mit Stichwort-Zuweisung
+    I18n.translations.de['lssm']['missionKeyword'] = bayern_aao;
+	
     I18n.translations.en['lssm']['missionKeyword'] = {
+		name: 'en';        
         fw: 'FIRE',
         thl: 'TECH',
         abc: 'CBRN',
@@ -325,6 +649,7 @@
         pol: 'POL',
         thw: 'TECH',
         bp: 'POL',
+		bma: 'BMA',
         0: 'FIRE 1',
         1: 'FIRE 1',
         2: 'FIRE 1',
@@ -633,6 +958,7 @@
     }
 
     I18n.translations.nl['lssm']['missionKeyword'] = {
+		name: 'nl',
         fw: 'BRAND',
         thl: 'HV',
         abc: 'OGS',
@@ -640,6 +966,8 @@
         ktp: 'B 1',
         pol: 'P 1',
         thw: 'HV',
+        bp: 'POL',
+		bma: 'BMA',
         0: 'KLEINE BRAND',
         1: 'KLEINE BRAND',
         2: 'KLEINE BRAND',
@@ -1001,7 +1329,7 @@
     if(title_stichwort !== null && title_stichwort.innerText.includes('Brandmeldeanlage'))
 	//Wenn BMA im Titel, setze Stichwort mit BMA am Ende
     {
-        aao_text = aao_text +' BMA';
+        aao_text = aao_text +' '+I18n.t('lssm.missionKeyword.bma');
     }
     var additional_aao_text = '';
     if(anzahl_patients > 0)
@@ -1009,32 +1337,65 @@
         if(I18n.locale == 'de') {
 
 			//Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY PERSON
+						
             if(aao_text.match(/B [0-9]/ig))
             {
                 aao_text = aao_text + ' PERSON';
             }
+			else if(aao_text.match(/FEU [0-9]|TH [0-9]/ig))
+			{
+				var n = aao_text.search(/[0-9]/i);
+				if (n > 0)
+				{
+					aao_text = [a.slice(0, n+1), ' Y', a.slice(n+1)].join('');
+				}
+					
+			}
 			
-			if(!aao_text.match('RD '))
+			if(!aao_text.match(I18n.t('lssm.missionKeyword.rd')))
 			{
 				additional_aao_text = '<span class="label label-warning">';
-				//Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
-				if (anzahl_patients > 1 && anzahl_patients < 4)
-					additional_aao_text += 'RD 3';
-				else if (anzahl_patients >= 4 && anzahl_patients < 6)
-					additional_aao_text += 'RD 4';
-				else if (anzahl_patients >= 6 && anzahl_patients < 10)
-					additional_aao_text += 'RD 5';
-				else if (anzahl_patients >= 10 && anzahl_patients < 16)
-					additional_aao_text += 'MANV 10-15';
-				else if (anzahl_patients >= 16 && anzahl_patients < 26)
-					additional_aao_text += 'MANV 16-25';
-				else if (anzahl_patients >= 26 && anzahl_patients < 51)
-					additional_aao_text += 'MANV 26-50';
-				else if (anzahl_patients >= 51 && anzahl_patients < 101)
-					additional_aao_text += 'MANV 51-100';
-				else if (anzahl_patients >= 101)
-					additional_aao_text += 'MANV 100+';
-					
+				
+				if(I18n.t('lssm.missionKeyword.rd') == 'RD')
+				{
+					//Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
+					if (anzahl_patients > 1 && anzahl_patients < 4)
+						additional_aao_text += 'RD 3';
+					else if (anzahl_patients >= 4 && anzahl_patients < 6)
+						additional_aao_text += 'RD 4';
+					else if (anzahl_patients >= 6 && anzahl_patients < 10)
+						additional_aao_text += 'RD 5';
+					else if (anzahl_patients >= 10 && anzahl_patients < 16)
+						additional_aao_text += 'MANV 10-15';
+					else if (anzahl_patients >= 16 && anzahl_patients < 26)
+						additional_aao_text += 'MANV 16-25';
+					else if (anzahl_patients >= 26 && anzahl_patients < 51)
+						additional_aao_text += 'MANV 26-50';
+					else if (anzahl_patients >= 51 && anzahl_patients < 101)
+						additional_aao_text += 'MANV 51-100';
+					else if (anzahl_patients >= 101)
+						additional_aao_text += 'MANV 100+';
+				}
+				if(I18n.t('lssm.missionKeyword.rd') == 'NOTF')
+				{
+					//Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
+					if (anzahl_patients > 1 && anzahl_patients < 4)
+						additional_aao_text += 'RD 3';
+					else if (anzahl_patients >= 4 && anzahl_patients < 6)
+						additional_aao_text += 'RD 4';
+					else if (anzahl_patients >= 6 && anzahl_patients < 10)
+						additional_aao_text += 'RD 5';
+					else if (anzahl_patients >= 10 && anzahl_patients < 16)
+						additional_aao_text += 'MANV 10-15';
+					else if (anzahl_patients >= 16 && anzahl_patients < 26)
+						additional_aao_text += 'MANV 16-25';
+					else if (anzahl_patients >= 26 && anzahl_patients < 51)
+						additional_aao_text += 'MANV 26-50';
+					else if (anzahl_patients >= 51 && anzahl_patients < 101)
+						additional_aao_text += 'MANV 51-100';
+					else if (anzahl_patients >= 101)
+						additional_aao_text += 'MANV 100+';
+				}	
 				additional_aao_text += '</span>';
 			}
         }
