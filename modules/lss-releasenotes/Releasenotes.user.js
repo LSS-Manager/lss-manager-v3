@@ -5,12 +5,14 @@
 
 	I18n.translations.de['lssm']['releasenotes'] = {
 		title : "Neuerungen",
-		close : "Cool!"
+		close : "Cool!",
+		errorloading: "Fehler beim Laden der Releasenotes."
 	};
 
 	I18n.translations.en['lssm']['releasenotes'] = {
 		title : "New",
-		close : "Cool!"
+		close : "Cool!",
+		errorloading: "Error loading Releasenotes."
 	};
 	
 	var latestVersion = lssm.settings.get(LSS_RELEASENOTES_STORAGE);
@@ -32,7 +34,7 @@
 		
 	    $.get(lssm.getlink("/modules/lss-releasenotes/releaseNotes.json"))
 	    .fail(function () {
-	        console.log("LSHeatmap: Clouldn't load leaflet extension")
+	    	$('#releaseNotesContent').html("<div>" + I18n.t('lssm.releasenotes.errorloading') + "</div>");
 	    })
 	    .done(function (data) {
 	    	var releaseMarkup = "";
