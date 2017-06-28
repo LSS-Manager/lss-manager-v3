@@ -21,7 +21,7 @@
     var h1 = document.getElementById('missionH1');
 	if (h1 !== null)
     {
-		var einsatzdate = h1.getAttribute("data-original-title");
+		var einsatzdate = $('#missionH1').data('original-title');
 		if(I18n.locale == 'de')
 		{
 			h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
@@ -33,7 +33,7 @@
 		
 		
 		var currDate = new Date();
-		var tempOlddate = h1.getAttribute("data-original-title").replace(',', ' '+currDate.getFullYear()+',').replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
+		var tempOlddate = einsatzdate.replace(',', ' '+currDate.getFullYear()+',').replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
 		missionDate = new Date(tempOlddate);
 	
 		var timeDiff = currDate.getTime() - missionDate.getTime();
@@ -42,7 +42,7 @@
 		{
 			tempOlddate = h1.getAttribute("data-original-title").replace(',', ' '+currDate.getFullYear()-1+',').replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
 			missionDate = new Date(tempOlddate);
-			timeDiff = currDate.getTime() - missionDate.getTime();
+			timeDiff = currDate.getTime() - xDate.getTime();
 		}
 		
 		var minutes = (timeDiff/1000)/60;
