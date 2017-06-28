@@ -292,6 +292,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    releaseNotes: {
+        name: {
+            de: 'Release Notes',
+            en: 'Release Notes'
+        },
+        active: false,
+        inframe: false,
+        description: {
+            de: 'Informiert immer über die Neusten Updates im LSSM',
+            en: 'Provides information about the latest updates in LSSM'
+        },
+        source: '/modules/lss-releasenotes/Releasenotes.user.js',
+        develop: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     vonginator: {
         name: {
             de: 'Vonginator',
