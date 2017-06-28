@@ -16,7 +16,8 @@
 	};
 	
 	var latestVersion = lssm.settings.get(LSS_RELEASENOTES_STORAGE);
-	latestVersion = null;
+	
+	latestVersion = null; // COMMENT THIS OUT FOR PRODUCTION!!
 	
 	if(latestVersion != lssm.config.version){
 		
@@ -43,7 +44,12 @@
 	    		releaseMarkup += "<h5>" + this.version + "</h5>";
 	    		releaseMarkup += "<ul>";
 	    		$(this.changes).each(function(){
-	    			releaseMarkup += "<li>" + this + "</li>";
+	    			if(this.id != ""){
+	    				releaseMarkup += "<li>" + this.type + ": <a href='https://github.com/LSS-Manager/lss-manager-v3/issues/" + this.id + "'>" + this[I18n.currentLocale()] +"</a></li>";
+	    			} else {
+	    				releaseMarkup += "<li>" + this.type + ": " + this[I18n.currentLocale()] +"</li>";
+	    			}
+	    			
 	    		});
 	    		releaseMarkup += "<ul>";
 	    		releaseMarkup += "</div>";
