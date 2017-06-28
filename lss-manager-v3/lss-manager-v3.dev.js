@@ -304,6 +304,7 @@ lssm.Module = {
             en: 'Not seriously meant script for german language only.'
         },
         source: '/modules/lss-vonginator/Vonginator.user.js',
+        supportedLocales: ['de'],
         develop: false,
         settings: {
             has: false,
@@ -851,8 +852,9 @@ lssm.appstore = {
         for (var i in mods)
         {
             var mod = lssm.Module[mods[i]];
-            // Do not show certain modules in the lssm.appstore
-            if ('noapp' in mod && mod.noapp === true)
+            var isSupportedLocale = !('supportedLocales' in mod) || mod.supportedLocales.indexOf(I18n.currentLocale()) >= 0;
+            // Do not show certain modules in the lssm.appstore or is not supported with this locale
+            if ('noapp' in mod && mod.noapp === true || !isSupportedLocale)
                 continue;
             var panel = $('<div style="margin-top:10px;" class="lssm_module'+(mod.develop ? ' lssm_module_develop' : '')+'">' +
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
