@@ -2,7 +2,7 @@
 // @name         LSS Manager v3
 // @version      3.x (Autoupdate)
 // @description  Das Tool für LSS
-// @author       lost | northdegree | mausmajor | dlrg-dominik
+// @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
 // @include      *://www.leitstellenspiel.de/
 // @include      *://www.leitstellenspiel.de/*
 // @include      *://www.missionchief.com/*
