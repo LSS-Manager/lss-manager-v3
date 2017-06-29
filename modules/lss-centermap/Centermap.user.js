@@ -227,7 +227,7 @@
 				return false;
 			})
 
-	$('#lssm_menu').append(li)
+	$('#lssm_menu').append(li);
 
 	$(map).on('lssm-map-reload', function() {
 		centerMap();
