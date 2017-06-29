@@ -1366,7 +1366,7 @@
 		if(title_stichwort !== null && title_stichwort.innerText.includes('Brandmeldeanlage'))
 		//Wenn BMA im Titel, setze Stichwort mit BMA am Ende
 		{
-			aao_text = aao_text +' '+I18n.t('lssm.missionKeyword.bma');
+			aao_text = aao_text +' '+I18n.t('lssm.missionKeywordTitle.bma');
 		}
 		var additional_aao_text = '';
 		if(anzahl_patients > 0)
