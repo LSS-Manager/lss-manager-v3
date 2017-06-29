@@ -415,7 +415,7 @@
         106: '1x Police Car (100%)<br/>3x SWAT Cars (100%)<br/><br/><span class="badge">Credits: ~ 1400 </span>',
         107: '1x Police Car (100%)<br/>1x SWAT Car (100%)<br/><br/><span class="badge">Credits: ~ 1000 </span>',
         108: '1x Ambulance (100%)',
-        109: '1x Ambulance (100%)',
+        109: '1x Police Car (100%)<br/><br/><span class="badge">Credits: ~ 400 </span>',
         110: '3x Firetrucks (100%)<br/>1x Platform Truck (100%)<br/>1x Battalion Chief (100%)<br/>2x Police Cars (100%)<br/>min. 1x Ambulance (100%)<br/><br/><span class="badge">Credits: ~ 1750 </span>',
         111: '5x Police Cars (100%)<br/>min. 1x Ambulance (100%)<br/><br/><span class="badge">Credits: ~ 1500 </span>',
         112: '6 Firetruck (100%)<br/>2x Platform Trucks (100%)<br/>2x Heavy Rescue (100%)<br/>1x Mobile Command (100%)<br/>2x Battalion Chief (100%)<br/>1x Police Helicopter (100%)<br/>14x Police Cars (100%)<br/> 4x Swat Cars<br/><br/><span class="badge">Credits: ~ 14000 </span>',
