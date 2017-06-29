@@ -24,8 +24,8 @@ jQuery.expr[':'].containsci = function(a, i, m) {
 
 var lssm = {
     config: {
-        server: "https://localhost/lss-manager-v3",
-    	//server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        //server: "https://localhost/lss-manager-v3",
+    	server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.4",
@@ -737,6 +737,26 @@ lssm.Module = {
             has: false,
             function_code: "statusDispatching_show_settings"
         }
+    }
+    ,
+    managedSettings: {
+        name: {
+            de: 'Einstellungen',
+            en: 'Settings'
+        },
+        active: true,
+        description: {
+            de: 'Globale Einstellungen',
+            en: 'Global Settings'
+        },
+        source: '/modules/lss-managedsettings/ManagedSettings.user.js',
+        noapp: true, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     },
 	missionKeyword: {
         name: {
@@ -1136,12 +1156,12 @@ lssm.managedSettings = {
 	   "use strict";
 	   var moduleId = moduleSettings.id;
 	   // If settings don't exist, overwrite with defaults
-       if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)[settings]) {
+       if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)['settings']) {
            for (var key in moduleSettings.settings) {
         	   moduleSettings.settings[key].value = moduleSettings.settings[key].default;
            }
-       } else {
-    	   moduleSettings.settings = lssm.settings.get(moduleId);
+       } else {   
+    	   moduleSettings = lssm.settings.get(moduleId);
        }
        lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
    },
@@ -1149,8 +1169,8 @@ lssm.managedSettings = {
    getSetting : function(module, field){
 	   "use strict";
 	   var settings = this.getSettings(module);
-	   if(settings !== undefined && settings['settings'][field] !== undefined) {
-		   return settings['settings'][field]['value'];
+	   if(settings !== undefined && settings[field] !== undefined) {
+		   return settings[field]['value'];
 	   } else {
 		   return undefined;
 	   }
@@ -1158,41 +1178,18 @@ lssm.managedSettings = {
    
    getSettings : function(module){
 	   "use strict";
-	   return lssm.managedSettings.registeredModules[module];
+	   if(lssm.managedSettings.registeredModules[module]){
+		   return lssm.managedSettings.registeredModules[module]['settings'];
+	   } else {
+		   return null;
+	   }
    },
    
-   setSettings : function(){
+   update : function(moduleSettings){
 	   "use strict";
-	   /* To be done
-	   $(registeredModules).each(function(module){
-		   var settings = this.getSettings();
-	       for (var key in settings) {
-	           var formElement = $('#' + key);
-	           if(settings[key].type == 'boolean'){
-	               if (formElement.is(':checked')) {
-	                   settings[key].value = true;
-	               } else {
-	                   settings[key].value = false;
-	               }
-	           } else if(settings[key].type == 'range'){
-	               settings[key].value = formElement.slider("value");
-	           } else if(settings[key].type == 'radio'){
-	               settings[key].value = $("input[name='" + key + "']:checked").val()
-	           } else if(settings[key].type == 'int'){
-	           	settings[key].value = parseInt(formElement.val());
-	           } else if(settings[key].type == 'float'){
-	           	settings[key].value = parseFloat(formElement.val());
-	           } else {
-	               settings[key].value = formElement.val();
-	           }
-	       }
-
-	       lssm.settings.remove(module);
-	       lssm.settings.set(module, settings);
-	       
-	       
-	   });
-	   */
+	   var moduleId = moduleSettings.id;
+	   lssm.settings.set(moduleSettings.id, moduleSettings);
+       lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
    },
    
 };
