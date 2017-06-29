@@ -41,18 +41,8 @@
     };
 	
 	function getSettings(){
-		var settings = {
-			'fastS5': {'type': 'boolean', 'default': false} // false = Der Button "Sprechwunsch bearbeiten" in der Einsatzmaske wird nicht automatisch angeklickt.
-		};
-
-		if (!lssm.settings.get(LSS_FASTS5_STORAGE) || Object.keys(lssm.settings.get(LSS_FASTS5_STORAGE)).length !== Object.keys(settings).length) {
-			for (var key in settings) {
-				settings[key].value = settings[key].default;
-			}
-		} else {
-			settings = lssm.settings.get(LSS_FASTS5_STORAGE);
-		}
-		return settings;
+		var settings = {'fastS5': {'type': 'boolean', 'default': false}};// false = Der Button "Sprechwunsch bearbeiten" in der Einsatzmaske wird nicht automatisch angeklickt.
+		return lssm.settings.get(LSS_FASTS5_STORAGE, settings);
 	}
 	
 	function getSetting(name){
