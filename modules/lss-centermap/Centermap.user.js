@@ -1,7 +1,7 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "2.0";
+	var VERSION = "2";
 	
 	var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
