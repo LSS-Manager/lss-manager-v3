@@ -36,7 +36,7 @@ var lssm = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined")
+            if (typeof user_id !== "undefined")
                 var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
             uid = "?uid="+game+user_id;
             //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
@@ -49,7 +49,7 @@ var lssm = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined")
+            if (typeof user_id !== "undefined")
                 var game = window.location.hostname.toLowerCase().replace("www.","").split(".")[0];
             uid = "?uid="+game+user_id;
             $('body').append('<link href="' + this.getlink(link) +'" rel="stylesheet" type="text/css">');
