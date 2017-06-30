@@ -1,18 +1,6 @@
 (function ($, I18n) {
 	
 	var LSS_NOTIFICATION_STORAGE = "LSS_NOTIFICATION_STORAGE";
-	
-    //var set = JSON.parse(localStorage.getItem('Notification')) || { // Outdated
-    var set = lssm.settings.get('Notification', null) || {
-        allianceChatNotifcation: true, // true = Chat-Notification sind standardmäßig aktiviert (Standard: true).
-        allianceS5Notifcation: true, // true = Status 5-Notification sind standardmäßig aktiviert (Standard: true).
-        allianceStatusNotifcation: true, // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
-        allianceChatPNotifcation: true, // true = Alle anderen Status-Notification sind standardmäßig aktiviert (Standard: false).
-        timeout_Chat: 3, //Zeit in Sekunden wie lange Chat-Notifications angezeigt werden sollen (Standard: 3).
-        timeout_S5: 3, //Zeit in Sekunden wie lange S5-Notifications angezeigt werden sollen (Standard: 3).
-        timeout_Status: 3, //Zeit in Sekunden wie lange Status-Notifications angezeigt werden sollen (Standard: 3).
-        timeout_ChatPopup: 3
-    };
 
     I18n.translations.de['lssm']['n-alarm'] = {
         not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
@@ -23,8 +11,6 @@
         seconds: "Sekunden",
         settings: {
             title: "Notification-Alarm",
-            text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
@@ -47,8 +33,6 @@
         seconds: "Sekunden",
         settings: {
             title: "Notification-Alarm",
-            text_1: "Welcome to the Settingsarea of the Notification Alarm.",
-            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
@@ -71,8 +55,6 @@
         seconds: "Sekunden",
         settings: {
             title: "Notification-Alarm",
-            text_1: "Willkommen im Einstellungsbereich vom Notification-Alarm.",
-            text_2: "Hier findest du alle Einstellungen, um den N-A auf dich zu personalisieren. Die Einstellungen werden pro Browser gespeichert. Bedeutet du kannst hier andere Einstellungen vornehmen als zb. auf deinem 2. Rechner.",
             chat_title: "Chatnachrichten",
             chat_text: "Chatnachrichten als Notification bekommen.",
             s5_title: "Status 5",
@@ -165,74 +147,72 @@
 
 
     function notifyMe(username, message, type = "init", fms = "2", vid = "0") {
-
-    if (!("Notification" in window)) {
-        alert(I18n.t('lssm.n-alarm.not_support'));
-    } else if (Notification.permission === "granted") {
-
-        if (type == "init")
-        {
-            var notification = new Notification(username, {
-                body: message,
-                icon: "https://www.leitstellenspiel.de/images/logo-header.png"
-            });
-        } else if (type == "Chat")
-        {
-            var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
-                body: message,
-                icon: lssm.getlink("/modules/lss-notification_alert/img/134895.png")
-            });
-            setTimeout(function () {
-                notification.close();
-            }, getSetting('n-alarm-timeout-chat') * 1000);
-            notification.onclick = function () {
-                window.focus();
-            };
-        } else if (type == "Status")
-        {
-            var notification = new Notification(username, {
-                body: message,
-                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
-            });
-            setTimeout(function () {
-                notification.close();
-            }, getSetting('n-alarm-timeout-status') * 1000);
-            notification.onclick = function () {
-
-                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
-                $('#v_' + vid + '_' + fms + '').click();
-                window.focus();
-                $('#v_' + vid + '_' + fms + '').remove();
-            };
-        } else if (type == "S5")
-        {
-            var notification = new Notification(username, {
-                body: message,
-                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
-            });
-            setTimeout(function () {
-                notification.close();
-            }, getSetting('n-alarm-timeout-s5') * 1000);
-            notification.onclick = function () {
-
-                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
-                $('#v_' + vid + '_' + fms + '').click();
-                window.focus();
-                $('#v_' + vid + '_' + fms + '').remove();
-            };
-        }
-
-    } else if (Notification.permission !== 'denied') {
-        Notification.requestPermission(function (permission) {
-
-            if (permission === "granted") {
-                var notification = new Notification("Benachrichtungen aktiviert!");
-            } else {
-
-            }
-        });
-    }
-
+	    if (!("Notification" in window)) {
+	        alert(I18n.t('lssm.n-alarm.not_support'));
+	    } else if (Notification.permission === "granted") {
+	
+	        if (type == "init")
+	        {
+	            var notification = new Notification(username, {
+	                body: message,
+	                icon: "https://www.leitstellenspiel.de/images/logo-header.png"
+	            });
+	        } else if (type == "Chat")
+	        {
+	            var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
+	                body: message,
+	                icon: lssm.getlink("/modules/lss-notification_alert/img/134895.png")
+	            });
+	            setTimeout(function () {
+	                notification.close();
+	            }, getSetting('n-alarm-timeout-chat') * 1000);
+	            notification.onclick = function () {
+	                window.focus();
+	            };
+	        } else if (type == "Status")
+	        {
+	            var notification = new Notification(username, {
+	                body: message,
+	                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
+	            });
+	            setTimeout(function () {
+	                notification.close();
+	            }, getSetting('n-alarm-timeout-status') * 1000);
+	            notification.onclick = function () {
+	
+	                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
+	                $('#v_' + vid + '_' + fms + '').click();
+	                window.focus();
+	                $('#v_' + vid + '_' + fms + '').remove();
+	            };
+	        } else if (type == "S5")
+	        {
+	            var notification = new Notification(username, {
+	                body: message,
+	                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
+	            });
+	            setTimeout(function () {
+	                notification.close();
+	            }, getSetting('n-alarm-timeout-s5') * 1000);
+	            notification.onclick = function () {
+	
+	                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
+	                $('#v_' + vid + '_' + fms + '').click();
+	                window.focus();
+	                $('#v_' + vid + '_' + fms + '').remove();
+	            };
+	        }
+	
+	    } else if (Notification.permission !== 'denied') {
+	        Notification.requestPermission(function (permission) {
+	
+	            if (permission === "granted") {
+	                var notification = new Notification("Benachrichtungen aktiviert!");
+	            } else {
+	
+	            }
+	        });
+	    }
 
     }
     var $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
