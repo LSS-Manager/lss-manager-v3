@@ -1025,7 +1025,6 @@ lssm.appstore = {
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
         content.attr('id', 'content');
-        var self = this;
         //div.append(createModulePanels());
         settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
@@ -1225,7 +1224,7 @@ lssm.modules = {
             var keys = ['name', 'description'];
             for (var k in keys) {
                 k = keys[k];
-                if (!k in lssm.Module[mod])
+                if (!(k in lssm.Module[mod]))
                     continue;
                 for (var l in lssm.Module[mod][k]) {
                     l = l.toString();
@@ -1359,9 +1358,6 @@ lssm.modal = {
         // There goes the core
         function loadCore() {
             // Load required library's
-            var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            var uid = "uid=" + game + user_id + "&";
-            // alle Settings die immer wieder benötigt werden
             $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
