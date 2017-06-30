@@ -1,7 +1,7 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "2.1";
+	var VERSION = "2.2";
 
 	var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
@@ -75,7 +75,7 @@
 				"default" : false,
 				"ui" : {
 					"label" : I18n.t('lssm.centermap.settings.alliance'),
-					"type" : "boolean",
+					"type" : "checkbox",
 					"parent" : "LSS_CENTERMAP_STORAGE_centermap-option_1"
 				}
 			},
