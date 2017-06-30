@@ -18,6 +18,9 @@ I18n.translations.de['lssm']['dashboard'] = {
     wachen: 'Wachen',
     other: 'Sonstige',
     anz: 'Anzahl',
+    perwp: 'MITARBEITER',
+    carswp: 'FAHRZEUGE',
+    levwp: 'STUFE',
     categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
     categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg','bepo'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
@@ -43,6 +46,9 @@ I18n.translations.en['lssm']['dashboard'] = {
     wachen: 'Station',
     other: 'Other',
     anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    levwp: 'LEVEL',
     categories: ['Firefighter', 'Rescue', 'Police', 'Hospital'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
@@ -50,7 +56,31 @@ I18n.translations.en['lssm']['dashboard'] = {
 }
 I18n.translations.nl['lssm']['dashboard'] = {
     name: "Dashboard",
-    loading: "Dashboard geladen"
+    vehicles: {
+        name: "Voertuigen",
+        type: "Voertuig type",
+        available: "Beschikbaar",
+        onsite: "Ter plaatse",
+        request: "Spraakaanvraag",
+        transport: "Transport",
+    },
+    total: "Totaal",
+    overview: "Overzicht",
+    distribution: "Verdeling",
+    station_plan: "Gebouwplanning",
+    loading: "Dashboard is aan het laden",
+    ge: 'Gebouwen',
+    school: 'Scholen',
+    wachen: 'Kazernes',
+    other: 'Overige',
+    anz: 'Aantal',
+    perwp: 'PERSONEEL',
+    carswp: 'VOERTUIGEN',
+    levwp: 'LEVEL',
+    categories: ['Brandweer', 'Ambulance', 'Politie', 'Ziekenhuis'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
+    nofz: "Geen voertuigen gevonden",
 }
 //I18n.locale = 'en';
 
@@ -274,26 +304,24 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 bd_data +=
                         '<span class="label label-danger">' +
                         '<i class="glyphicon glyphicon-arrow-up"></i>' +
-                        ' STUFE ' +
-                        '<span>'
-                        + building.level +
-                        '</span>' +
+                          I18n.t('lssm.dashboard.levwp') +
+                        '<span> ' + building.level + '</span>' +
                         '</span>&nbsp;';
 
             if (building.personal_count > 0)
                 bd_data +=
                         '<span class="label label-default">' +
                         '<i class="glyphicon glyphicon-user"></i> ' +
-                        '<span>' + building.personal_count + '</span>' +
-                        ' MITARBEITER' +
+                        '<span>' + building.personal_count + ' </span>' +
+                          I18n.t('lssm.dashboard.perwp') +
                         '</span>&nbsp;';
 
             if (maxcars > 0)
                 bd_data +=
                         '<span class="label label-primary">' +
                         '<i class="glyphicon glyphicon-home"></i> ' +
-                        '<span>' + vehicles.length + '/' + maxcars + '</span>' +
-                        ' FAHRZEUGE' +
+                        '<span>' + vehicles.length + '/' + maxcars + ' </span>' +
+                          I18n.t('lssm.dashboard.carswp') +
                         '</span>';
             bd_data += '\
                  </div>\
