@@ -1165,7 +1165,7 @@ lssm.managedSettings = {
        } else if(lssm.settings.get(moduleId).version != moduleSettings.version ){
     	   var storedSettings = lssm.settings.get(moduleId)['settings'];
            for (var settingsKey in moduleSettings.settings) {
-        	   if(storedSettings[settingsKey].value){
+        	   if(storedSettings[settingsKey] && storedSettings[settingsKey].value){
         		   moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
         	   } else {        		   
         		   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;

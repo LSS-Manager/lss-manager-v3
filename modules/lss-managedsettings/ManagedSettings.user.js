@@ -56,21 +56,21 @@
 		// Save & Close function
 		$('#' + lssm.config.prefix + '_appstore_ManagedSettings_close').click(function() {
 			saveSettings();
-			$('#' + lssm.config.prefix + '_appstore_ManagedSettings').remove();
+			location.reload();
 		});
 	}
 	
 	function applyFunctions() {
-		for(var moduleKey in lssm.managedSettings.registeredModules) {
-			var module = lssm.managedSettings.registeredModules[moduleKey];
-			for(var settingsKey in module.settings) {
-				var setting = module.settings[settingsKey];
-				if(setting.ui.custom_function){
-					$('#' + moduleKey + '_' + settingsKey).click(setting.ui.custom_function);	
-				}
-			}
-		};
-	}
+        for(var moduleKey in lssm.managedSettings.registeredModules) {
+            var module = lssm.managedSettings.registeredModules[moduleKey];
+            for(var settingsKey in module.settings) {
+                var setting = module.settings[settingsKey];
+                if(setting.ui.custom_function && setting.ui.custom_function_event){
+                    $('#' + moduleKey + '_' + settingsKey).bind(setting.ui.custom_function_event,setting.ui.custom_function);    
+                }
+            }
+        };
+    }
 	
 	function renderUIElement(moduleKey, settingsKey, element){
 		var elementName = moduleKey + '_' + settingsKey;
@@ -96,6 +96,12 @@
 			response += '<button type="button" class="btn btn-grey btn-sm" id="' + elementName +'" style="margin-left: 16px;">';
 			response += '<span>' + element.ui.label + '</span>';
 			response += '</button>';
+		} else if(element.ui.type == "text" || element.ui.type == "int" || element.ui.type == "float"){
+			response += '<div id="' + elementName + '_wrap">';
+			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value + '">';
+			response += '<label style="margin-left: 4px;" for="radio-1">' + element.ui.label + '</label>';
+			response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
+			response += '</div>';
 		} else {
 			console.log(elementName + ' has unknown ui type: ' + element.ui.type);
 		}

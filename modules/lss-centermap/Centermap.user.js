@@ -1,7 +1,7 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "2";
+	var VERSION = "2.1";
 	
 	var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
@@ -95,16 +95,17 @@
 		        "centermap-button": {
 		            "default": "",
 		            "ui": {
-		                "label": I18n.t('lssm.centermap.settings.set'),
-		                "type": "button",
-		                "custom_function": function() {
-		                	var prefix = "LSS_CENTERMAP_STORAGE_";
-		                	$('#' + prefix + 'centermap-center-lat').val(map.getCenter().lat);
-		                	$('#' + prefix + 'centermap-center-lng').val(map.getCenter().lng);
-		                	$('#' + prefix + 'centermap-zoom').val(map.getZoom());
-		                },
-		                "parent": "LSS_CENTERMAP_STORAGE_centermap-option_2"
-		            }
+                        "label": I18n.t('lssm.centermap.settings.set'),
+                        "type": "button",
+                        "custom_function_event": "click",
+                        "custom_function": function() {
+                            var prefix = "LSS_CENTERMAP_STORAGE_";
+                            $('#' + prefix + 'centermap-center-lat').val(map.getCenter().lat);
+                            $('#' + prefix + 'centermap-center-lng').val(map.getCenter().lng);
+                            $('#' + prefix + 'centermap-zoom').val(map.getZoom());
+                        },
+                        "parent": "LSS_CENTERMAP_STORAGE_centermap-option_2"
+                    }
 		        }
 		    }
 		};
