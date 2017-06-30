@@ -1,7 +1,7 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "2.0";
+	var VERSION = "2.1";
 	
 	var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
@@ -9,10 +9,6 @@
 		center : "Zentrieren",
 		settings : {
 			title : "Center-Map",
-			autor: "Ein Plugin von",
-			text1 : "Zentriert die Karte beim Aufruf des Spiels. So wie du es möchtest.",
-			save : "Speichern",
-			version : "Version",
 			choose : "Bitte auswählen",
 			option1 : "Standard",
 			option1desc : "Vorgegebenes Zoom-Level und Zentrierung der Leitstelle.",
@@ -21,8 +17,7 @@
 			option2desc : "Karte zentriert sich so, dass alle Wachen und Einsätze sichtbar sind.",
 			option3 : "Voreingestellt",
 			option3desc : "Karte initialisiert sich auf vorgegebene Position und Zoom-Level.",
-			set : "Jetzige Position speichern",
-			error1 : "Feher: Bitte Position speichern!"
+			set : "Jetzige Position speichern"
 		}
 	};
 
@@ -30,10 +25,6 @@
 		center : "Center",
 		settings : {
 			title : "Center-Map",
-			autor: "A plugin made by",
-			text1 : "Centers map. Just as you prefer.",
-			save : "Save",
-			version : "Version",
 			choose : "Please select",
 			option1 : "Default",
 			option1desc : "Default zoom level and centering on control center ",
@@ -42,61 +33,84 @@
 			option2desc : "Center map that all missions and stations are visible.",
 			option3 : "Custom",
 			option3desc : "Set custom position and zoom-level.",
-			set : "Save current position",
-			error1 : "Error! Please set a position first."
+			set : "Save current position"
 		}
 	};
 	
-	   function getSettings(){
-	        var settings = {
-	            'centermap-option': {'type': 'radio', 'default': 2},
-	            'centermap-alliance': {'type': 'boolean','default': true},
-	            'centermap-center-lat': {'float': 'int','default': null},
-	            'centermap-center-lng': {'float': 'int','default': null},
-	            'centermap-zoom': {'type': 'int', 'default': null}
-	        };
-
-	        if (!lssm.settings.get(LSS_CENTERMAP_STORAGE) || Object.keys(lssm.settings.get("LSS_CENTERMAP_STORAGE")).length !== Object.keys(settings).length) {
-	            for (var key in settings) {
-	                settings[key].value = settings[key].default;
-	            }
-	        } else {
-	            settings = lssm.settings.get(LSS_CENTERMAP_STORAGE);
-	        }
-	        return settings;
-	    }
-
-	    function getSetting(name){
-	        var settings = getSettings();
-	        return settings[name].value;
-	    }
-
-	    function setSettings(){
-	        var settings = getSettings();
-	        for (var key in settings) {
-	            var formElement = $('#' + key);
-	            if(settings[key].type == 'boolean'){
-	                if (formElement.is(':checked')) {
-	                    settings[key].value = true;
-	                } else {
-	                    settings[key].value = false;
-	                }
-	            } else if(settings[key].type == 'range'){
-	                settings[key].value = formElement.slider("value");
-	            } else if(settings[key].type == 'radio'){
-	                settings[key].value = $("input[name='" + key + "']:checked").val()
-	            } else if(settings[key].type == 'int'){
-	            	settings[key].value = parseInt(formElement.val());
-	            } else if(settings[key].type == 'float'){
-	            	settings[key].value = parseFloat(formElement.val());
-	            } else {
-	                settings[key].value = formElement.val();
-	            }
-	        }
-
-	        lssm.settings.remove(LSS_CENTERMAP_STORAGE);
-	        lssm.settings.set(LSS_CENTERMAP_STORAGE, settings);
-	    }
+	var managedSettings = {
+		    "id": LSS_CENTERMAP_STORAGE,
+		    "title": I18n.t('lssm.centermap.settings.title'),
+		    "version": VERSION,
+		    "settings": {
+		        "centermap-option": {
+		            "default": "2",
+		            "ui": {
+		                "label": I18n.t('lssm.centermap.settings.choose'),
+		                "type": "radio",
+		                "options": [
+		                	{	"title": I18n.t('lssm.centermap.settings.option1'),
+		                		"value": "1",
+		                		"description" : I18n.t('lssm.centermap.settings.option1desc')
+		                	},
+		                	{	"title": I18n.t('lssm.centermap.settings.option2'),
+		                		"value": "2",
+		                		"description" : I18n.t('lssm.centermap.settings.option2desc')
+		                	},
+		                	{	"title": I18n.t('lssm.centermap.settings.option3'),
+		                		"value": "3",
+		                		"description" : I18n.t('lssm.centermap.settings.option3desc')
+		                	}
+		            	]
+		            }
+		        },
+		        "centermap-alliance": {
+		            "default": false,
+		            "ui": {
+		                "label": I18n.t('lssm.centermap.settings.alliance'),
+		                "type": "boolean",
+		                "parent": "LSS_CENTERMAP_STORAGE_centermap-option_1"
+		            }
+		        },
+		        "centermap-center-lat": {
+		            "default": "",
+		            "ui": {
+		                "label": "",
+		                "type": "hidden"
+		            }
+		        },
+		        "centermap-center-lng": {
+		            "default": "",
+		            "ui": {
+		                "label": "",
+		                "type": "hidden"
+		            }
+		        },
+		        "centermap-zoom": {
+		            "default": "",
+		            "ui": {
+		                "label": "",
+		                "type": "hidden"
+		            }
+		        },
+		        "centermap-button": {
+		            "default": "",
+		            "ui": {
+                        "label": I18n.t('lssm.centermap.settings.set'),
+                        "type": "button",
+                        "custom_function_event": "click",
+                        "custom_function": function() {
+                            var prefix = "LSS_CENTERMAP_STORAGE_";
+                            $('#' + prefix + 'centermap-center-lat').val(map.getCenter().lat);
+                            $('#' + prefix + 'centermap-center-lng').val(map.getCenter().lng);
+                            $('#' + prefix + 'centermap-zoom').val(map.getZoom());
+                        },
+                        "parent": "LSS_CENTERMAP_STORAGE_centermap-option_2"
+                    }
+		        }
+		    }
+		};
+	
+	lssm.managedSettings.register(managedSettings);
 
 	function centerMap() {
 		if(getSetting('centermap-option') == 2){
@@ -135,99 +149,12 @@
 		}
 		
 	}
-
-	function createSettings() {
-
-		var markup = '<div class="jumbotron" style="display: none" id="' + lssm.config.prefix + '_appstore_CentermapSettings">';
-		markup += '<h1>' + I18n.t('lssm.centermap.settings.title') + '</h1>';
-		markup += '<p>' + I18n.t('lssm.centermap.settings.text1') + '</p>';
-		markup += '<div><fieldset style="margin-bottom: 10px;">';
-		markup += '<legend>' + I18n.t('lssm.centermap.settings.choose') + '</legend>';
-
-		// 1st option
-		markup += '<div>';
-		markup += '<input type="radio" name="centermap-option" id="centermap-option1" value="1">';
-		markup += '<label style="margin-left: 4px;" for="radio-1">' + I18n.t('lssm.centermap.settings.option1') + '</label>';
-		markup += '<div style="margin-left: 16px;">' + I18n.t('lssm.centermap.settings.option1desc') + '</div>';
-		markup += '</div>';
-		
-		// 2nd option
-		markup += '<div>';
-		markup += '<input type="radio" name="centermap-option" id="centermap-option2" value="2">';
-		markup += '<label style="margin-left: 4px;" for="radio-2">' + I18n.t('lssm.centermap.settings.option2') + '</label>';
-		markup += '<div style="margin-left: 16px;">' + I18n.t('lssm.centermap.settings.option2desc') + '</div>';
-		markup += '<div style="margin-left: 16px;"><input type="checkbox" style="margin-right: 4px;" name="centermap-aliance" id="centermap-alliance">' + I18n.t('lssm.centermap.settings.alliance') + '</div>';
-		markup += '</div>';
-		
-		// 3rd option
-		markup += '<div>';
-		markup += '<input type="radio" name="centermap-option" id="centermap-option3" value="3">';
-		markup += '<label style="margin-left: 4px;" for="radio-3">' + I18n.t('lssm.centermap.settings.option3') + '</label>';
-		markup += '<div style="margin-left: 16px;">' + I18n.t('lssm.centermap.settings.option3desc') + '</div>';
-		markup += '<button type="button" class="btn btn-grey btn-sm" id="' + lssm.config.prefix + '_appstore_CentermapSettings_setPosition" style="margin-left: 16px;">';
-		markup += '<span>' + I18n.t('lssm.centermap.settings.set') + '</span>';
-		markup += '</button>';
-		markup += '<input type="hidden" value="' + getSetting('centermap-center-lat') + '" id="centermap-center-lat">';
-		markup += '<input type="hidden" value="' + getSetting('centermap-center-lng') + '" id="centermap-center-lng">';
-		markup += '<input type="hidden" value="' + getSetting('centermap-zoom') + '" id="centermap-zoom">';
-		markup += '</div>';
-		
-		markup += '</fieldset></div>';
-		markup += '<p>';
-		markup += '<button type="button" class="btn btn-success btn-sm" id="' + lssm.config.prefix + '_appstore_CentermapSettings_close" aria-label="Close">';
-		markup += '<span aria-hidden="true">' + I18n.t('lssm.centermap.settings.save') + '</span>';
-		markup += '</button>';
-		markup += '</p>';
-		markup += '<span class="pull-right">';
-		markup += '<span class="label label-primary">' + I18n.t('lssm.centermap.settings.autor') + ' Jalibu</span>&nbsp;';
-		markup += '<span class="label label-danger">' + I18n.t('lssm.centermap.settings.version') + ' ' + VERSION + '</span>';
-		markup += '</span>';
-		markup += '</div>';
-
-		$('#map_outer').before(markup);
-		
-		$('#centermap-option' + getSetting('centermap-option')).prop('checked', true);
-		
-		if(getSetting('centermap-alliance')){
-			$('#centermap-alliance').prop('checked', true);
-		}
-		
-		$('#centermap-alliance').click(function(){
-			$('#centermap-option2').prop('checked', true);
-		});
-		
-		$('#' + lssm.config.prefix + '_appstore_CentermapSettings_close').click(function() {
-			if($("input[name='centermap-option']:checked").val() == 3 && (isNaN($('#centermap-center-lat').val()) || isNaN($('#centermap-center-lng').val())|| isNaN($('#centermap-zoom').val()))){
-				alert(I18n.t('lssm.centermap.settings.error1'));
-			} else {
-				setSettings();
-				$('#' + lssm.config.prefix + '_appstore_CentermapSettings').hide();
-				centerMap();
-			}
-			return false;
-		});
-		
-		$('#' + lssm.config.prefix + '_appstore_CentermapSettings_setPosition').click(function() {
-			$('#centermap-zoom').val(map.getZoom());
-			$('#centermap-center-lat').val(map.getCenter().lat);
-			$('#centermap-center-lng').val(map.getCenter().lng);
-			$('#centermap-option3').prop('checked', true);
-			
-			setSettings();
-		});
-	}
-	createSettings();
-
-	function CenterMap_show_settings() {
-		$('#' + lssm.config.prefix + '_appstore_CentermapSettings').show();
+	
+	function getSetting(setting){
+		return lssm.managedSettings.getSetting(LSS_CENTERMAP_STORAGE, setting);
 	}
 
-	var li = $('<li role="presentation"><a href="#">Center-Map</a></li>').click(function() {
-				CenterMap_show_settings();
-				return false;
-			})
-
-	$('#lssm_menu').append(li);
+	
 
 	$(map).on('lssm-map-reload', function() {
 		centerMap();

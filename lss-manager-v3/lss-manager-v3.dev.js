@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function(a, i, m) {
 
 var lssm = {
     config: {
-	//server: "https://localhost/lss-manager-v3",
+        //server: "https://localhost/lss-manager-v3",
     	server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
@@ -737,6 +737,26 @@ lssm.Module = {
             has: false,
             function_code: "statusDispatching_show_settings"
         }
+    }
+    ,
+    managedSettings: {
+        name: {
+            de: 'Einstellungen',
+            en: 'Settings'
+        },
+        active: true,
+        description: {
+            de: 'Globale Einstellungen',
+            en: 'Global Settings'
+        },
+        source: '/modules/lss-managedsettings/ManagedSettings.user.js',
+        noapp: true, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     },
 	missionKeyword: {
         name: {
@@ -1124,6 +1144,66 @@ lssm.settings = {
         "use strict";
         localStorage.removeItem(key);
     }
+};
+
+/**
+ * Add the managed settings-functions to lssm
+ */
+lssm.managedSettings = {
+   registeredModules : [],
+   
+   register : function(moduleSettings){
+	   "use strict";
+	   var moduleId = moduleSettings.id;
+	   
+	   // If settings don't exist, overwrite with defaults
+       if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)['settings']) {
+           for (var settingsKey in moduleSettings.settings) {
+        	   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
+           }
+       // If there is a new version try to convert old values
+       } else if(lssm.settings.get(moduleId).version != moduleSettings.version ){
+    	   var storedSettings = lssm.settings.get(moduleId)['settings'];
+           for (var settingsKey in moduleSettings.settings) {
+        	   if(storedSettings[settingsKey] && storedSettings[settingsKey].value){
+        		   moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
+        	   } else {        		   
+        		   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
+        	   }
+           }
+       // If settings exist in matching version use them    
+       } else {
+    	   moduleSettings = lssm.settings.get(moduleId);
+       }
+       lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
+   },
+   
+   getSetting : function(module, field){
+	   "use strict";
+	   var settings = this.getSettings(module);
+	   if(settings !== undefined && settings[field] !== undefined) {
+		   return settings[field]['value'];
+	   } else {
+		   return undefined;
+	   }
+   },
+   
+   getSettings : function(module){
+	   "use strict";
+	   if(lssm.managedSettings.registeredModules[module]){
+		   return lssm.managedSettings.registeredModules[module]['settings'];
+	   } else {
+		   return undefined;
+	   }
+   },
+   
+   update : function(moduleSettings){
+	   "use strict";
+	   var moduleId = moduleSettings.id;
+	   lssm.settings.set(moduleSettings.id, moduleSettings);
+       lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
+   },
+   
 };
 
 /**
