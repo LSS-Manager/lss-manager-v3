@@ -6,7 +6,29 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if(I18n.locale == "nl")
+if(I18n.locale == "en")
+    lssm.carsById = {
+		"0": ["Type 1 fire engine", 0],
+		"1": ["Type 2 fire engine", 0],
+		"2": ["Platform truck", 0],
+		"3": ["Bataillon Chief Unit", 0],
+		"4": ["Heavy Rescue Vehicle", 0],
+		"5": ["Ambulance", 1],
+		"6": ["Mobile air", 0],
+		"7": ["Water Tanker", 0],
+		"8": ["Utility unit", 0],
+		"9": ["HazMat", 0],
+		"10": ["Patrol Car", 2],
+		"11": ["HEMS", 1],
+		"12": ["Mobile command vehicle", 0],
+		"13": ["Quint", 0],
+		"14": ["Policehelicopter", 2],
+		"15": ["Fly-Car", 1],
+		"16": ["SWAT", 2],
+		"17": ["ARFF Crash Tender", 0]
+    }
+else if
+	(I18n.locale == "nl")
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -47,7 +69,8 @@ if(I18n.locale == "nl")
         "36": ["WOA | Waterongevallenaanhanger", 0],
         "37": ["MMT-Auto", 1]
     }
-else
+else if
+(I18n.locale == "de")
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
