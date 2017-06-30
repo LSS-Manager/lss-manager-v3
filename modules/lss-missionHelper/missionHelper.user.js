@@ -2,7 +2,7 @@
 	I18n.translations.de['lssm']['missionHelper'] = {
 	carmh: 'Benötigte Fahrzeuge',
 	msmh: 'Fehler beim laden der Fahrzeuge </br>Bitte an Entwickler weitergeben:',
-	0: '1x Löschfahrzeug (100%)<br/><br/><span class="badge">Credits: ~ 110 </span>',
+				0: '1x Löschfahrzeug (100%)<br/><br/><span class="badge">Credits: ~ 110 </span>',
         1: '1x Löschfahrzeug (100%)<br/><br/><span class="badge">Credits: ~ 170 </span>',
         2: '1x Löschfahrzeug (100%)<br/><br/><span class="badge">Credits: ~ 370 </span>',
         3: '1x Löschfahrzeug (100%)<br/><br/><span class="badge">Credits: ~ 340 </span>',
@@ -242,7 +242,7 @@
         237: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (80%)<br/><br/><span class="badge">Credits: ~ 1700 </span>',
         238: '2x Löschfahrzeuge (100%)<br/>1x Rüstwagen (100%)<br/>1x Einsatzleitwagen 1<br/>2x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (20%)<br/><br/><span class="badge">Credits: ~ 2000 </span>',
         239: '5x Löschfahrzeuge (100%)<br/>2x Rüstwagen (100%)<br/>2x Einsatzleitwagen 1<br/>1x Einsatzleitwagen 2 (100%)<br/>1x GW-Öl (100%)<br/>1x Feuerwehrkran (100%)<br/>4x Funkstreifenwagen (100%)<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)<br/><br/><span class="badge">Credits: ~ 3000 </span>',
-        240: '3x Löschfahrzeuge (100%)<br/>1x Dekon P (30%)<br/>1x GW-Messtechnik (30%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Gefahrgut (30%)<br/>1x FuStW<br/>1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (40%)<br/><br/><span class="badge">Credits: ~ 2500 </span>',
+        240: '3x Löschfahrzeuge (100%)<br/>1x Dekon P (30%)<br/>1x GW-Messtechnik (30%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x GW-Gefahrgut (30%)<br/>1x Funkstreifenwagen (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (40%)<br/><br/><span class="badge">Credits: ~ 2500 </span>',
         241: '1x Funkstreifenwagen (100%)<br/><br/><span class="badge">Credits: ~ 200 </span>',
         242: '2x Löschfahrzeuge (100%)<br/>1x GW-Messtechnik (50%)<br/>3x Funkstreifenwagen<br/>min. 1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (10%)<br/><br/><span class="badge">Credits: ~ 2100 </span>',
         243: '1x Löschfahrzeug (100%)<br/>1-4x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (50%)<br/><br/><span class="badge">Credits: ~ 1200 </span>',
@@ -301,12 +301,12 @@
         296: '3x Löschfahrzeuge (100%)<br/> 1x Einsatzleitwagen 1 (100%)<br/>1x Rüstwagen (30%)<br/>1x Rettungstransportwagen<br/>Notarzteinsatzfahrzeug (40%)<br/><br/><span class="badge">Credits: ~ 2020 </span>',
         297: '1x Rettungstransportwagen<br/>1x Notarzteinsatzfahrzeug (20%)',
         298: '1x Boot (100%)<br/>1x Rettungstransportwagen (100%)<br/>1x Notarzteinsatzfahrzeug (90%) / evtl. auch 1x RTH (50%)<br/>1x Löschfahrzeug (20%)<br/>1x GW-Taucher (10%)<br/><br/><span class="badge">Credits: ~ 1500 </span>',
-		299: '5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (75%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (50%)<br/><br/><span class="badge">Credits: ~ 2500 </span>'
+				299: '5x Löschfahrzeuge (100%)<br/>1x Einsatzleitwagen 1 (100%)<br/>1x Drehleiter (75%)<br/>1x GW-Atemschutz (100%)<br/>1x Schlauchwagen (50%)<br/><br/><span class="badge">Credits: ~ 2500 </span>'
     }
 
     I18n.translations.en['lssm']['missionHelper'] = {
         carmh: 'Required vehicles:',
-		msmh: 'Error loading vehicles.<br/> Please forward to developer:',
+				msmh: 'Error loading vehicles.<br/> Please forward to developer:',
         0: '1x Firetruck (100%)<br/><br/><span class="badge">Credits: ~ 110 </span>',
         1: '1x Firetruck (100%)<br/><br/><span class="badge">Credits: ~ 170 </span>',
         2: '1x Firetruck (100%)<br/><br/><span class="badge">Credits: ~ 370 </span>',
@@ -437,12 +437,12 @@
         127: '10x Firetrucks (100%)<br/>4x Platform Trucks (100%)<br/>2x Heavy Rescues (100%)<br/>2x Battalion Chiefs (100%)<br/>1x Mobile Command (100%)<br/>3x Police Cars (100%)<br/>1x Mobile Air (100%)<br/>1x Water Tanker (100%)<br/>min. 1x Ambulance (100%)<br/><br/><span class="badge">Credits: ~ 7000 </span>',
         128: '1x Police Car (100%)<br/><br/><span class="badge">Credits: ~ 600 </span>',
         129: '1x Police Car (100%)<br/><br/><span class="badge">Credits: ~ 600 </span>',
-		130: '1x Firetruck (100%)<br/><br/><span class="badge">Credits: ~ 400 </span>'
+				130: '1x Firetruck (100%)<br/><br/><span class="badge">Credits: ~ 400 </span>'
     }
 
     I18n.translations.nl['lssm']['missionHelper'] = {
         carmh: 'Benodigde voertuigen:',
-		msmh: 'Fout bij het laden van de voertuigen. <br/>Gelieve het volgende door te geven aan de ontwikkelaars:',
+				msmh: 'Fout bij het laden van de voertuigen. <br/>Gelieve het volgende door te geven aan de ontwikkelaars:',
         0: '1x Tankautospuit (100%)',
         1: '1x Tankautospuit (100%)',
         2: '1x Tankautospuit (100%)',
@@ -672,7 +672,7 @@
         226: '1x Ambulance (100%)',
         227: '3x Politieautos (100%)',
         228: '3x Politieautos (100%)',
-		229: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOvD (50%)<br/>1x Slangenwagen (50%)<br/>1x Adembeschermingsvoertuig (20%)<br/>1x Adviseurs Gevaarlijke Stoffen (10%)<br/>1x Waarschuwings- en Verkenningsdienst(10%)<br/>1x Politieauto (100%)'
+				229: '3x Tankautospuiten (100%)<br/>1x Redvoertuig (100%)<br/>1x OvD-B (100%)<br/>1x HOvD (50%)<br/>1x Slangenwagen (50%)<br/>1x Adembeschermingsvoertuig (20%)<br/>1x Adviseurs Gevaarlijke Stoffen (10%)<br/>1x Waarschuwings- en Verkenningsdienst(10%)<br/>1x Politieauto (100%)'
     }
 
 
@@ -690,14 +690,14 @@
 
 	aao_text = I18n.t('lssm.missionHelper.'+mission_id);
 
-	
+
   if(title_stichwort.innerText.includes('Brandmeldeanlage'))
     {
         aao_text = aao_text +' BMA';
     }
     var additional_aao_text = '';
-    
- 
+
+
 	function addInfo(missionName) {
     var info = document.createElement('div');
     info.className = "alert alert-warning";
