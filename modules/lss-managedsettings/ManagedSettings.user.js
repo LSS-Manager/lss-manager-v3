@@ -16,6 +16,13 @@
 			save : "Save & Close",
 			settings_tab: "Settings"
 	};
+	I18n.translations.nl['lssm']['managedsettings'] = {
+			title: "LSSM instellingen",
+            text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",
+            text2: "",
+            save : "Opslaan & sluiten",
+            settings_tab: "Instellingen"
+	};
 	
 	function renderSettings() {
 		var markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
