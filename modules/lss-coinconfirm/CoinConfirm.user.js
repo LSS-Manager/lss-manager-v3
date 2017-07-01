@@ -8,7 +8,9 @@
 	I18n.translations.en['lssm']['coinconfirm'] = {
 		message : "Please confirm the payment with coins."
 	};
-
+	I18n.translations.nl['lssm']['coinconfirm'] = {
+		message : "Bevestig alsjeblieft de betaling met coins."
+	};
 	function protectCoins() {
 
 		// Gebäude bauen
