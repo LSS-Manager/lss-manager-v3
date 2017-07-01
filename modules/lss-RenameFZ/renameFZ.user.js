@@ -10,6 +10,14 @@
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
         stationName: "{stationName} Wachennamen"
     };
+	I18n.translations.nl['lssm']['renameFZ'] = {
+        example: "Dit is een voorbeeld",
+		rename: "Naam aanpassen",
+		id: "{id} Voertuignaam ",
+		old: "{old} Oude naam",
+		vehicleType: "{vehicleType} Voertuigtype",
+		stationName: "{stationName} Gebouwnaam"
+    };
     var set = {
         rename: false,
         option: {
