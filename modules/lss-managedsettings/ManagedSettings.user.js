@@ -65,8 +65,11 @@
             var module = lssm.managedSettings.registeredModules[moduleKey];
             for(var settingsKey in module.settings) {
                 var setting = module.settings[settingsKey];
+                console.log(setting.ui.custom_function);
+                console.log(setting.ui.custom_function_event);
                 if(setting.ui.custom_function && setting.ui.custom_function_event){
-                    $('#' + moduleKey + '_' + settingsKey).bind(setting.ui.custom_function_event,setting.ui.custom_function);    
+                	console.log("huuu");
+                    $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);    
                 }
             }
         };
