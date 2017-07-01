@@ -16,6 +16,13 @@
 		errorloading: "Error loading Releasenotes.",
 		link_caption: "Release Notes"
 	};
+	I18n.translations.en['lssm']['releasenotes'] = {
+		title : "Updates",
+		close : "Cool!",
+		errorloading: "Fout bij het laden van de releasenote.",
+		link_caption: "Releasenote"
+	var latestVersion = lssm.
+	};
 	
 	var latestVersion = lssm.settings.get(LSS_RELEASENOTES_STORAGE);
 	
