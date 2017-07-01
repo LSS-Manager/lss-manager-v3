@@ -23,47 +23,45 @@
             chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
         }
     }
-
     I18n.translations.en['lssm']['n-alarm'] = {
-        not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
-        init: "Notification-Alarm wird initalisiert, Bitte warten...",
-        inithead: "Initalisierung",
-        chat_message: "Chatnachricht von ",
-        blend: "Ausblenden nach:",
-        seconds: "Sekunden",
+        not_support: "This browser doesn't support HTML5-Notifications",
+        init: "Initializing Notification-Alert, please wait...",
+        inithead: "Initalization",
+        chat_message: "Chat message from ",
+        blend: "Hide after:",
+        seconds: "seconds",
         settings: {
-            title: "Notification-Alarm",
-            chat_title: "Chatnachrichten",
-            chat_text: "Chatnachrichten als Notification bekommen.",
-            s5_title: "Status 5",
+            title: "Notification-Alert",
+            chat_title: "Chat messages",
+            chat_text: "Get chat messages as notification.",
+            s5_title: "Transport Request",
             save: "Save",
             close:"Close",
-            s5_text: "Status 5 als Notification bekommen",
+            s5_text: "Get Transport Requests as notification",
             status_title: "Status",
-            status_text: "Alle Status-Meldungen als Notification bekommen.",
-            chatp_title: "Chatnachrichten als Info-Popup",
-            chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
+            status_text: "Get all status messages as notification.",
+            chatp_title: "Get chat messages as info popup",
+            chatp_text: "Get all chat messages as popup message on the right side"
         }
     }
-
     I18n.translations.nl['lssm']['n-alarm'] = {
-        not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
-        init: "Notification-Alarm wird initalisiert, Bitte warten...",
-        inithead: "Initalisierung",
-        chat_message: "Chatnachricht von ",
-        blend: "Ausblenden nach:",
-        seconds: "Sekunden",
+		not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
+        init: "Meldingen-Alarm wordt opgestart, Even geduld AUB...",
+        inithead: "Aan het laden",
+        chat_message: "Chatbericht van ",
+        blend: "Vervagen na:",
+        seconds: "seconden",
         settings: {
-            title: "Notification-Alarm",
-            chat_title: "Chatnachrichten",
-            chat_text: "Chatnachrichten als Notification bekommen.",
-            s5_title: "Status 5",
-            save: "Speichern",
-            s5_text: "Status 5 als Notification bekommen",
+            title: "Meldingen-Alarm",
+            chat_title: "Chatmeldingen",
+            chat_text: "Ontvang notificaties van nieuwe berichten in de chat.",
+            s5_title: "Spraakaanvragen",
+            save: "Opslaan",
+            s5_text: "Ontvang notificaties van spraakaanvragen",
             status_title: "Status",
-            status_text: "Alle Status-Meldungen als Notification bekommen.",
-            chatp_title: "Chatnachrichten als Info-Popup",
-            chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
+            status_text: "Ontvang notificaties van alle status-meldingen.",
+            chatp_title: "Chatberichten als Info-Popup",
+            chatp_text: "Alle chatberichten ook als Popup-berichten aan de rechter rand van het scherm tonen)"
         }
     }
     
