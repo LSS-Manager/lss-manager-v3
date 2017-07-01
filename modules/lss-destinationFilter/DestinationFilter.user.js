@@ -90,7 +90,7 @@
 	}
 	
 	var sprechwunsch = $('#h2_sprechwunsch');
-	if (sprechwunsch && sprechwunsch.parent().text().indexOf(I18n.t('lssm.destfilter.hospital')) >= 0) {
+	if (sprechwunsch.length > 0 && sprechwunsch.parent().text().indexOf(I18n.t('lssm.destfilter.hospital')) >= 0) {
 		setUi();
 		filter();
 	}
