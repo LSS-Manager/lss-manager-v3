@@ -36,7 +36,21 @@
 			set : "Save current position"
 		}
 	};
-
+	I18n.translations.nl['lssm']['centermap'] = {
+		        center : "Centreren",
+        settings : {
+            title : "Kaart centreren",
+            choose : "Selecteer een plaats",
+            option1 : "Standaard-instellingen",
+            option1desc : "Standaard zoom-niveau en gecentreerd op meldkamer",
+            option2 : "Dynamisch",
+            alliance : "Houdt rekening met gebouwen van teamleden",
+            option2desc : "Schaal de kaart zodat alle gebouwen en meldingen zichtbaar zijn.",
+            option3 : "Aangepast",
+            option3desc : "Kies een aangepaste locatie en zoom-niveau.",
+            set : "Sla huidige positie op"
+		}
+	};
 	var managedSettings = {
 		"id" : LSS_CENTERMAP_STORAGE,
 		"title" : I18n.t('lssm.centermap.settings.title'),
@@ -49,20 +63,25 @@
 					"type" : "radio",
 					"options" : [
 							{
-								"title" : I18n.t('lssm.centermap.settings.option1'),
+								"title" : I18n
+										.t('lssm.centermap.settings.option1'),
 								"value" : "1",
-								"description" : I18n.t('lssm.centermap.settings.option1desc')
+								"description" : I18n
+										.t('lssm.centermap.settings.option1desc')
 							},
 							{
-								"title" : I18n.t('lssm.centermap.settings.option2'),
+								"title" : I18n
+										.t('lssm.centermap.settings.option2'),
 								"value" : "2",
 								"description" : I18n
 										.t('lssm.centermap.settings.option2desc')
 							},
 							{
-								"title" : I18n.t('lssm.centermap.settings.option3'),
+								"title" : I18n
+										.t('lssm.centermap.settings.option3'),
 								"value" : "3",
-								"description" : I18n.t('lssm.centermap.settings.option3desc')
+								"description" : I18n
+										.t('lssm.centermap.settings.option3desc')
 							} ]
 				}
 			},
