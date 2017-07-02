@@ -16,7 +16,7 @@
 	I18n.translations.en['lssm']['destfilter'] = {
 		title : "Destination Filter",
 		beds : "Hide full hospitals",
-		elegible : "Hide unelegible hospitals"
+		elegible : "Hide unelegible hospitals",
 		hospital: "Hospital",
 		yes: "Yes"
 	};
@@ -24,7 +24,7 @@
 	I18n.translations.nl['lssm']['destfilter'] = {
 		title : "Bestemmingsfilter",
         	beds : "Verberg volle ziekenhuizen",
-        	elegible : "Verberg ziekenhuizen die niet de juiste afdeling hebben."
+        	elegible : "Verberg ziekenhuizen die niet de juiste afdeling hebben.",
 		hospital: "Ziekenhuis",
 		yes: "Ja"
 	};
