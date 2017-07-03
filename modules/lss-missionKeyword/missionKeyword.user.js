@@ -461,7 +461,7 @@
 		126: 'Overdose',
 		127: 'Fire in an Office Building',
 		128: 'Aggressive Passenger',
-		129: 'Aggressive Passenger
+		129: 'Aggressive Passenger'
 	};
 	I18n.translations.nl['lssm']['missionKeywordDefaults'] = {
 		name: 'Steekwoorden bij meldingen',
