@@ -346,7 +346,7 @@
         thw: 'HV',
         bp: 'POL',
 		bma: 'BMA',
-		show: "Verberg/toon"
+		show: "Show/Hide"
 	};
 		
 	
@@ -1306,7 +1306,6 @@
 	
 	$.each(default_aao, function(key, val) {
 		var settingsPropertyName = 'missionKeyword-'+key;
-		console.log(settingsPropertyName);
 		var tmpObject = {
 			[settingsPropertyName] : {
 				"default": val,
@@ -1323,7 +1322,6 @@
 	});
 		
 	lssm.managedSettings.register(managedSettings);	
-	console.log(JSON.stringify( managedSettings ));
 	
 	function getSetting(setting) {
 		return lssm.managedSettings.getSetting(LSS_MISSIONKEYWORD_STORAGE, setting);
