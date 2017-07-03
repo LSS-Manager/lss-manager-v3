@@ -7,7 +7,7 @@
      * @return boolean true, wenn die aktuelle URL der Einsatzseite entspricht, false wenn nicht.
      */
     function pruefeObEinsatzseiteOffen() {
-        return !!window.location.href.match(/https:\/\/www.leitstellenspiel.de\/missions\/[0-9]+$/g);
+        return !!window.location.href.match(/https:\/\/www\.[a-z]+\.[a-z]+\/missions\/[0-9]+$/g);
     }
 
     /**
