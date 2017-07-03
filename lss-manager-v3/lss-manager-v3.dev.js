@@ -841,6 +841,27 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
+    },
+    aaoZaehler: {
+        name: {
+            de: 'AAO-Klick-Zähler',
+            en: 'Alarm-Regulations-Counter',
+            nl: 'Alarm-Klik-Teller'
+        },
+        active: false,
+        description: {
+            de: 'Zählt die Klicks auf einen AAO-Button',
+            en: 'Counts the clicks on an alarm-regulations-button',
+            nl: 'Telt het klikken op een alarm-knop'
+        },
+        source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
+        noapp: false,
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     }
 };
 
