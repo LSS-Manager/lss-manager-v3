@@ -364,6 +364,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    DestinationFilter: {
+        name: {
+            de: 'Zielort Filter',
+            en: 'Destination filter'
+        },
+        active: false,
+        description: {
+            de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
+            en: 'Allows hiding full or unelegible hospitals'
+        },
+        source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
+        develop: false,
+        inframe: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     FMS5InMap: {
         name: {
             de: 'FMS 5 in der Karte',
