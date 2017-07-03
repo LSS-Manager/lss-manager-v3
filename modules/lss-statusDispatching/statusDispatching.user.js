@@ -1,6 +1,8 @@
 (function(){
 
     var LSS_FASTS5_STORAGE = "StatusDispatching";
+	var VERSION = "1.0";
+	
     I18n.translations.de['lssm']['statusDispatching'] = {
 	name: 'Verbesserte Status 5',
         fms: 'Sprechwunsch bearbeiten',
@@ -8,7 +10,7 @@
         backToAlarm: 'Zurück zum Einsatz',
 	settingsTitle: 'Verbesserte Status 5 - Einstellungen',
 	settingsAttr: '"Sprechwunsch bearbeiten" in Einsatzmaske automatisch anklicken',
-	settingsAttrDesc: 'Die Aktivierung dieser Option bewirkt, dass bei einem Einsatz mit einem offenen Status 5 zuerst der Status bearbeitet werden muss, bevor der Einsatz weiter bearbeitet werden kann. Wird diese Option also aktiviert, werden alle Status 5 schneller bearbeitet.<br><br>'+
+	settingsAttrDesc: 'Die Aktivierung dieser Option bewirkt, dass bei einem Einsatz mit einem offenen Status 5 zuerst der Status bearbeitet werden muss, bevor der Einsatz weiter bearbeitet werden kann. Wird diese Option also aktiviert, werden alle Status 5 schneller bearbeitet.<br>'+
 						'Wird die Option deaktiviert, werden nur noch die Buttons "Zum nächsten Fahrzeug im Status 5" und "Zurück zum Einsatz" automatisch angeklickt.',
 	close:'Schließen',
 	fms5H1: 'transportiert'
@@ -21,7 +23,7 @@
         backToAlarm: 'Back to mission',
 	settingsTitle: 'Enhanced transport requests - Settings',
 	settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
-	settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br><br>'+
+	settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br>'+
 	'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
 	close:'Close',
 	fms5H1: 'transportiert'
@@ -34,46 +36,28 @@
         backToAlarm: 'Naar het incident',
 	settingsTitle: 'Verbeterde spraakaanvragen - Instellingen',
 	settingsAttr: 'De knop "Spraakaanvraag beantwoorden" in het meldingsvenster automatisch indrukken.', //TODO: NL
-	settingsAttrDesc: 'Door deze optie in te schakelen wordt de knop "spraakaanvraag beantwoorden" in het meldingsvenster automatisch ingedrukt. Op deze manier verwerk je sneller achter elkaar alle spraakaanvragen in plaats van dat je eerst nog de details van de desbetreffende melding te zien krijgt.<br><br>'+
+	settingsAttrDesc: 'Door deze optie in te schakelen wordt de knop "spraakaanvraag beantwoorden" in het meldingsvenster automatisch ingedrukt. Op deze manier verwerk je sneller achter elkaar alle spraakaanvragen in plaats van dat je eerst nog de details van de desbetreffende melding te zien krijgt.<br>'+
 	'Uitgeschakeld krijg je wel nog alle meldingen apart te zien voordat je de spraakaanvraag beantwoordt. De knoppen "Naar het volgende status 7 voertuig" en "Naar het incident" worden niet door deze instelling beïnvloed.', //TODO: NL
 	close:'Dicht',
 	fms5H1: 'transportiert'
     };
 	
-	function getSettings(){
-		var settings = {
-			'fastS5': {'type': 'boolean', 'default': false} // false = Der Button "Sprechwunsch bearbeiten" in der Einsatzmaske wird nicht automatisch angeklickt.
-		};
-
-		if (!lssm.settings.get(LSS_FASTS5_STORAGE) || Object.keys(lssm.settings.get(LSS_FASTS5_STORAGE)).length !== Object.keys(settings).length) {
-			for (var key in settings) {
-				settings[key].value = settings[key].default;
+	var managedSettings = {
+		"id": LSS_FASTS5_STORAGE,
+		"title": I18n.t('lssm.statusDispatching.name'),
+		"version": VERSION,
+		"settings": {
+			"fastS5" : {
+				"default" : false,
+				"ui" : {
+					"label" : I18n.t('lssm.statusDispatching.settingsAttr')+"<br><br>"+I18n.t('lssm.statusDispatching.settingsAttrDesc')+"<br>",
+					"type" : "boolean"
+				}
 			}
-		} else {
-			settings = lssm.settings.get(LSS_FASTS5_STORAGE);
 		}
-		return settings;
-	}
+	};	
 	
-	function getSetting(name){
-		var settings = getSettings();
-		return settings[name].value;
-	}
-
-	function setSettings(){
-		var settings = getSettings();
-		for (var key in settings) {
-			var formElement = $('#' + key);
-			if (formElement.is(':checked')) {
-				settings[key].value = true;
-			} else {
-				settings[key].value = false;
-			}
-		}
-
-		lssm.settings.remove(LSS_FASTS5_STORAGE);
-		lssm.settings.set(LSS_FASTS5_STORAGE, settings);
-	}
+	lssm.managedSettings.register(managedSettings);	
 
 	function statusDispatching()
 	{
@@ -120,40 +104,6 @@
 			tellParent("lightboxClose();");
 		}
 	}
-		
-	function createSettings() {
-		var settingsHTML = 	'<div id="' + lssm.config.prefix + '_appstore_statusDispatchingSettings" class="jumbotron" style="display: none">'+
-							'<h3>' + I18n.t('lssm.statusDispatching.settingsTitle') + '</h3>'+
-							'<div class="col-md-12"><div class="panel panel-default" style="display: inline-block;width:100%;"><div class="panel-body"><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="fastS5" name="statusDispatchingSetting_fasterS5" type="checkbox"><label class="onoffswitch-label" for="fastS5"></label></div></span><br><h4>' + I18n.t('lssm.statusDispatching.settingsAttr') + '</h4><small>' + I18n.t('lssm.statusDispatching.settingsAttrDesc') + '</small></div></div></div>'+
-							'<button type="button" class="btn btn-success btn-sm" id="' + lssm.config.prefix + '_appstore_statusDispatchingSettings_close" aria-label="Close"><span aria-hidden="true">Schließen</span></button></div>';
-							
-		$('#map_outer').before(settingsHTML);
-		if(getSetting('fastS5')){
-			$('#fastS5').prop('checked', true);
-		}
-	}
-	createSettings();
-	
-	function statusDispatching_show_settings() {
-		$('#' + lssm.config.prefix + '_appstore_statusDispatchingSettings').show();
-	}
-	
-
-	
-	var button = $('<li><a id="statusDispatchingSettings" href="#"> Verbesserte S5</a></li>');
-    $('#' + lssm.config.prefix + '_menu').append(button);
-	
-	    $('#statusDispatchingSettings').click(function () {
-        statusDispatching_show_settings();
-		
-		$('#fastS5').change(function(){
-            setSettings();
-        });
-		
-		$('#' + lssm.config.prefix + '_appstore_statusDispatchingSettings_close').click(function () {
-			$('#' + lssm.config.prefix + '_appstore_statusDispatchingSettings').hide();
-		});
-    });
 	
 	statusDispatching();
 })();
