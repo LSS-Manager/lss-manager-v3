@@ -845,7 +845,6 @@ lssm.Module = {
     aaoZaehler: {
         name: {
             de: 'AAO-Klick-Zähler',
-            // Wtf was heißtn das auf Englisch und Holländisch?
             en: 'Alarm-Regulations-Counter',
             nl: 'Alarm-Klik-Teller'
         },
