@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function(a, i, m) {
 
 var lssm = {
     config: {
-	//server: "https://localhost/lss-manager-v3",
+        //server: "https://localhost/lss-manager-v3",
     	server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
@@ -737,6 +737,26 @@ lssm.Module = {
             has: false,
             function_code: "statusDispatching_show_settings"
         }
+    }
+    ,
+    managedSettings: {
+        name: {
+            de: 'Einstellungen',
+            en: 'Settings'
+        },
+        active: true,
+        description: {
+            de: 'Globale Einstellungen',
+            en: 'Global Settings'
+        },
+        source: '/modules/lss-managedsettings/ManagedSettings.user.js',
+        noapp: true, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     },
 	missionKeyword: {
         name: {
@@ -1005,7 +1025,6 @@ lssm.appstore = {
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
         content.attr('id', 'content');
-        var self = this;
         //div.append(createModulePanels());
         settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
@@ -1127,6 +1146,66 @@ lssm.settings = {
 };
 
 /**
+ * Add the managed settings-functions to lssm
+ */
+lssm.managedSettings = {
+   registeredModules : [],
+   
+   register : function(moduleSettings){
+	   "use strict";
+	   var moduleId = moduleSettings.id;
+	   
+	   // If settings don't exist, overwrite with defaults
+       if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)['settings']) {
+           for (var settingsKey in moduleSettings.settings) {
+        	   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
+           }
+       // If there is a new version try to convert old values
+       } else if(lssm.settings.get(moduleId).version != moduleSettings.version ){
+    	   var storedSettings = lssm.settings.get(moduleId)['settings'];
+           for (var settingsKey in moduleSettings.settings) {
+        	   if(storedSettings[settingsKey] && storedSettings[settingsKey].value){
+        		   moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
+        	   } else {        		   
+        		   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
+        	   }
+           }
+       // If settings exist in matching version use them    
+       } else {
+    	   moduleSettings = lssm.settings.get(moduleId);
+       }
+       lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
+   },
+   
+   getSetting : function(module, field){
+	   "use strict";
+	   var settings = this.getSettings(module);
+	   if(settings !== undefined && settings[field] !== undefined) {
+		   return settings[field]['value'];
+	   } else {
+		   return undefined;
+	   }
+   },
+   
+   getSettings : function(module){
+	   "use strict";
+	   if(lssm.managedSettings.registeredModules[module]){
+		   return lssm.managedSettings.registeredModules[module]['settings'];
+	   } else {
+		   return undefined;
+	   }
+   },
+   
+   update : function(moduleSettings){
+	   "use strict";
+	   var moduleId = moduleSettings.id;
+	   lssm.settings.set(moduleSettings.id, moduleSettings);
+       lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
+   },
+   
+};
+
+/**
  * Add the module-handler to LSSM
  */
 lssm.modules = {
@@ -1145,7 +1224,7 @@ lssm.modules = {
             var keys = ['name', 'description'];
             for (var k in keys) {
                 k = keys[k];
-                if (!k in lssm.Module[mod])
+                if (!(k in lssm.Module[mod]))
                     continue;
                 for (var l in lssm.Module[mod][k]) {
                     l = l.toString();
@@ -1279,9 +1358,6 @@ lssm.modal = {
         // There goes the core
         function loadCore() {
             // Load required library's
-            var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            var uid = "uid=" + game + user_id + "&";
-            // alle Settings die immer wieder benötigt werden
             $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');

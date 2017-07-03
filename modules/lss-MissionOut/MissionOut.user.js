@@ -5,6 +5,9 @@
     I18n.translations.en['lssm']['missionout']={
         title:"Hide/Show mission"
     };
+	I18n.translations.nl['lssm']['missionout']={
+		title:"Verberg/toon melding"
+    };
     // /hode/show Event abfangen
     $('#missions-panel-body').on('click', '.MissionOut', function (e) {
         e.preventDefault();
