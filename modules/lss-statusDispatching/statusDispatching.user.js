@@ -58,6 +58,10 @@
 	};	
 	
 	lssm.managedSettings.register(managedSettings);	
+	
+	function getSetting(setting) {
+		return lssm.managedSettings.getSetting(LSS_FASTS5_STORAGE, setting);
+	}
 
 	function statusDispatching()
 	{
