@@ -16,6 +16,7 @@
         thw: 'THW',
         bp: 'BP ',
 		bma: 'BMA',
+		show: "Ein-/Ausblenden",
 		0:'Mülleimerbrand',
 		1:'Containerbrand',
 		2:'Brennender PKW',
@@ -314,7 +315,8 @@
 		295:'Tankstellenüberfall',
 		296:'Gasunfall in Werkstatt',
 		297:'Arbeitsunfall im Garten',
-		298:'Hilflose Person auf Wasser'
+		298:'Hilflose Person auf Wasser',
+		299:'Strohballen qualmen in Scheune'
 	};
 	I18n.translations.en['lssm']['missionKeywordDefaults'] = {	
 		name: 'Mission Keywords',
@@ -328,7 +330,8 @@
         pol: 'POL',
         thw: 'TECH',
         bp: 'POL',
-		bma: 'BMA'
+		bma: 'BMA',
+		show: "Show/Hide"
 	};
 	I18n.translations.nl['lssm']['missionKeywordDefaults'] = {
 		name: 'Steekwoorden bij meldingen',
@@ -342,7 +345,8 @@
         pol: 'P 1',
         thw: 'HV',
         bp: 'POL',
-		bma: 'BMA'
+		bma: 'BMA',
+		show: "Show/Hide"
 	};
 		
 	
@@ -351,7 +355,23 @@
 		"title": I18n.t('lssm.missionKeywordDefaults.name'),
 		"version": VERSION,
 		"settings": {}
+	};
+	
+	var tmpObject = {
+		"missionKeywordImportButton" : {
+			"default" : "",
+			"ui" : {
+				"label" : I18n.t('lssm.missionKeywordDefaults.show'),
+				"type" : "button",
+				"custom_function_event" : "click",
+				"custom_function" : function() {
+					var prefix = "LSS_MISSIONKEYWORD_STORAGE";					
+					$('[id^='+prefix+'_missionKeyword-]').toggle();					
+				}
+			}
+		}
 	}
+	$.extend(managedSettings.settings, tmpObject);
 
 //Einsatz-ID zu Stichwort
 	var default_aao_de = {
@@ -654,7 +674,7 @@
         296: 'THL 2',
         297: 'RD 1',
         298: 'THL WASSER',
-        299: ''
+        299: 'B 3'
     };
 	var default_aao_en = {
         0: 'FIRE 1',
@@ -1284,6 +1304,31 @@
 		default_aao = default_aao_de;
 		
 	
+	$.each(default_aao, function(key, val) {
+		var settingsPropertyName = 'missionKeyword-'+key;
+		console.log(settingsPropertyName);
+		var tmpObject = {
+			[settingsPropertyName] : {
+				"default": val,
+				"ui": {
+					"label": I18n.t('lssm.missionKeywordDefaults.'+key)+ " (ID "+key+")",
+					"type": "text",
+					"description": ""
+				}
+			}
+		};
+		
+		$.extend(managedSettings.settings, tmpObject);
+		
+	});
+		
+	lssm.managedSettings.register(managedSettings);	
+	console.log(JSON.stringify( managedSettings ));
+	
+	function getSetting(setting) {
+		return lssm.managedSettings.getSetting(LSS_MISSIONKEYWORD_STORAGE, setting);
+	}
+	
 	function missionKeyword() {
 		//Stichwort Element
 		var title_stichwort = document.getElementById('missionH1');
@@ -1303,7 +1348,8 @@
 
 		var mission_id = Number(tmp_arr[length-1]);
 
-		aao_text = I18n.t('lssm.missionKeyword.'+mission_id);
+		//aao_text = I18n.t('lssm.missionKeyword.'+mission_id);
+		aao_text = getSetting('missionKeyword-'+mission_id);
 		
 		if(title_stichwort !== null && title_stichwort.innerText.includes('Brandmeldeanlage'))
 		//Wenn BMA im Titel, setze Stichwort mit BMA am Ende
