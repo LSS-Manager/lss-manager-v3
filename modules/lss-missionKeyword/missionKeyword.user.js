@@ -346,7 +346,7 @@
         thw: 'HV',
         bp: 'POL',
 		bma: 'BMA',
-		show: "Show/Hide"
+		show: "Verberg/toon"
 	};
 		
 	
