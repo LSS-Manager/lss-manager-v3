@@ -864,13 +864,13 @@ lssm.Module = {
         name: {
             de: 'AAO-Klick-Zähler',
             en: 'Alarm-Regulations-Counter',
-            nl: 'Alarm-Klik-Teller'
+            nl: 'AUR-Klik-Teller'
         },
         active: false,
         description: {
             de: 'Zählt die Klicks auf einen AAO-Button',
             en: 'Counts the clicks on an alarm-regulations-button',
-            nl: 'Telt het klikken op een alarm-knop'
+            nl: 'Telt het aantal keer dat een AUR aangeklikt is.'
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
         noapp: false,
