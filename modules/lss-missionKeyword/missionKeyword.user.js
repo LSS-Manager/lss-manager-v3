@@ -461,13 +461,7 @@
 		126: 'Overdose',
 		127: 'Fire in an Office Building',
 		128: 'Aggressive Passenger',
-		129: 'Aggressive Passenger',
-		130: 'MISSING',
-		131: 'MISSING',
-		132: 'MISSING',
-		133: 'MISSING',
-		134: 'MISSING',
-		135: 'MISSING'
+		129: 'Aggressive Passenger
 	};
 	I18n.translations.nl['lssm']['missionKeywordDefaults'] = {
 		name: 'Steekwoorden bij meldingen',
@@ -712,18 +706,7 @@
 		226: 'Val van trap',
 		227: 'Assistentie treinconducteur',
 		228: 'Assistentie treinconducteur',
-		229: 'Brand in tankstation',
-		230: 'MISSING',
-		231: 'MISSING',
-		232: 'MISSING',
-		233: 'MISSING',
-		234: 'MISSING',
-		235: 'MISSING',
-		236: 'MISSING',
-		237: 'MISSING',
-		238: 'MISSING',
-		239: 'MISSING',
-		240: 'MISSING'
+		229: 'Brand in tankstation'
 	};
 		
 	
