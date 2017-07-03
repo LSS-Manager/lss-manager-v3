@@ -90,6 +90,7 @@
 		} else if(element.ui.type == "boolean"){
 			var checked = element.value == true ? " checked " : "";
 			response += '<div style="margin-left: 16px;"><input type="checkbox" ' + checked + ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '">' + element.ui.label + '</div>';
+			response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
 		} else if(element.ui.type == "hidden"){
 			response += '<input type="hidden" value="' + element.value + '" id="' + elementName + '" name="' + elementName + '">';
 		} else if(element.ui.type == "button"){

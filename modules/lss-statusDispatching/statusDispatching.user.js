@@ -1,7 +1,7 @@
 (function(){
 
     var LSS_FASTS5_STORAGE = "StatusDispatching";
-	var VERSION = "1.0";
+	var VERSION = "1.1";
 	
     I18n.translations.de['lssm']['statusDispatching'] = {
 	name: 'Verbesserte Status 5',
@@ -50,7 +50,8 @@
 			"fastS5" : {
 				"default" : false,
 				"ui" : {
-					"label" : I18n.t('lssm.statusDispatching.settingsAttr')+"<br><br>"+I18n.t('lssm.statusDispatching.settingsAttrDesc')+"<br>",
+					"label" : I18n.t('lssm.statusDispatching.settingsAttr'),
+					"description": I18n.t('lssm.statusDispatching.settingsAttrDesc'),
 					"type" : "boolean"
 				}
 			}
