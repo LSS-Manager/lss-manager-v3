@@ -16,6 +16,7 @@
         thw: 'THW',
         bp: 'BP ',
         bma: 'BMA',
+        bmaLong: 'Brandmeldeanlage',
         show: "Ein-/Ausblenden",
         keywords: {
             0:'Mülleimerbrand',
@@ -332,7 +333,8 @@
         pol: 'POL',
         thw: 'TECH',
         bp: 'POL',
-        bma: 'BMA',
+        bma: 'FAS',
+        bmaLong: 'Fire Alarm System',
         show: 'Show/Hide',
         keywords: {
             0: 'Bin fire',
@@ -481,6 +483,7 @@
         thw: 'HV',
         bp: 'POL',
         bma: 'BMA',
+        bmaLong: 'Fire Alarm System',
         show: 'Verberg/toon',		
         keywords: {
             0: 'Brandende afvalbak',
@@ -1625,7 +1628,7 @@
         //aao_text = I18n.t('lssm.missionKeyword.'+missionId);
         aaoText = getSetting('missionKeyword-'+missionId);
         
-        if(titleStichwort !== null && titleStichwort.innerText.includes('Brandmeldeanlage'))
+        if(titleStichwort !== null && titleStichwort.toLowerCase().innerText.includes(I18n.t('lssm.missionKeywordDefaults.bmaLong').toLowerCase()))
         //Wenn BMA im Titel, setze Stichwort mit BMA am Ende
         {
             aaoText = aaoText +' '+I18n.t('lssm.missionKeywordDefaults.bma');
