@@ -676,7 +676,6 @@
     }
 
 
-    $('#missionH1')
     var aao_text = '';
     var help_el = document.getElementById('mission_help');
     var help = "";
@@ -706,9 +705,9 @@
 
     }
 
-    function Normalize(missionname){
+    function normalize(missionname){
       if (!missionname)
-          return "nope";
+          return null;
       var longname = missionname;
       var short = longname.innerHTML.trim().split("\n");
       for(var i = 0; i<short.length;i++){
@@ -725,8 +724,8 @@
       return shortendname;
     }
 
-    var missionname = Normalize(document.getElementById("missionH1"));
-    if(missionname !== "nope"){
+    var missionname = normalize(document.getElementById("missionH1"));
+    if(missionname !== null){
       addInfo(missionname);
     }
 })();
