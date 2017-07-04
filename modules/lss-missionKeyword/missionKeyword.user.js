@@ -482,8 +482,8 @@
         pol: 'P 1',
         thw: 'HV',
         bp: 'POL',
-        bma: 'BMA',
-        bmaLong: 'Fire Alarm System',
+        bma: 'OMS',
+        bmaLong: 'OMS',
         show: 'Verberg/toon',		
         keywords: {
             0: 'Brandende afvalbak',
