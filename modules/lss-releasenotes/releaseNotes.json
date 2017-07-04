@@ -1,0 +1,27 @@
+{
+	"releases": [
+		{
+			"version": "3.2.5",
+			"changes": [
+				{
+					"id": "156",
+					"type": "NEW",
+					"en": "Releasenotes Plugin",
+					"de": "Releasenotes Plugin"
+				},
+				{
+					"id": "",
+					"type": "NEW",
+					"en": "Vonginator Plugin",
+					"de": "Vonginator Plugin"
+				},
+				{
+					"id": "",
+					"type": "FIX",
+					"en": "Fixed Bug in FMS5inMap",
+					"de": "Bugfix im Modul FMS4inMap"
+				}
+			]
+		}
+	]
+}

@@ -36,7 +36,7 @@
         var name = $.trim($("#navbar_profile_link").text());
         data.bro = getUserAgent();
         data.pro = user_premium;
-        data.bui = get_buildings().length;
+        data.bui = lssm.get_buildings().length;
         data.version = lssm.config.version;
         data.mods = getModules();
         var game = window.location.hostname;

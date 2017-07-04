@@ -3,20 +3,24 @@ I18n.translations.de['lssm']['dashboard'] = {
     vehicles: {
         name: "Fahrzeuge",
         type: "Fahrzeugtyp",
-        available: "Verf&uuml;gbar",
+        available: "Verfügbar",
         onsite: "Im Einsatz",
         request: "Sprechwunsch",
         transport: "Transport",
     },
     total: "Summe",
-    overview: "&Uuml;bersicht",
+    overview: "Übersicht",
     distribution: "Aufteilung",
     station_plan: "Wachenplanung",
     loading: "Dashboard wird geladen",
     ge: 'Gebäude',
     school: 'Schulen',
     wachen: 'Wachen',
+    other: 'Sonstige',
     anz: 'Anzahl',
+    perwp: 'MITARBEITER',
+    carswp: 'FAHRZEUGE',
+    levwp: 'STUFE',
     categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
     categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg','bepo'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
@@ -40,7 +44,11 @@ I18n.translations.en['lssm']['dashboard'] = {
     ge: 'Buildings',
     school: 'Schools',
     wachen: 'Station',
+    other: 'Other',
     anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    levwp: 'LEVEL',
     categories: ['Firefighter', 'Rescue', 'Police', 'Hospital'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
@@ -48,7 +56,31 @@ I18n.translations.en['lssm']['dashboard'] = {
 }
 I18n.translations.nl['lssm']['dashboard'] = {
     name: "Dashboard",
-    loading: "Dashboard geladen"
+    vehicles: {
+        name: "Voertuigen",
+        type: "Voertuig type",
+        available: "Beschikbaar",
+        onsite: "Ter plaatse",
+        request: "Spraakaanvraag",
+        transport: "Transport",
+    },
+    total: "Totaal",
+    overview: "Overzicht",
+    distribution: "Verdeling",
+    station_plan: "Gebouwplanning",
+    loading: "Dashboard is aan het laden",
+    ge: 'Gebouwen',
+    school: 'Scholen',
+    wachen: 'Kazernes',
+    other: 'Overige',
+    anz: 'Aantal',
+    perwp: 'PERSONEEL',
+    carswp: 'VOERTUIGEN',
+    levwp: 'LEVEL',
+    categories: ['Brandweer', 'Ambulance', 'Politie', 'Ziekenhuis'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
+    nofz: "Geen voertuigen gevonden",
 }
 //I18n.locale = 'en';
 
@@ -63,7 +95,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
     function loadGraphs() {
         // Building Bar Chart
         var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0, 'bepo':0};
-        $.each(get_buildings(), function (key, build) {
+        $.each(lssm.get_buildings(), function (key, build) {
             switch (build.stationType) {
                 //Feuerwehr
                 case BUILDING_TYPE_FEUERWACHE:
@@ -150,13 +182,18 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             {'data': [], 'total': 0},
             {'data': [], 'total': 0}];
         // Go through all cars and put them where they belong
-        $.each(car_list_all(), function (key, veh) {
-            var c = carsById[veh.type][1];
-            cars[c].total += 1;
-            if (typeof (cars[c].data[veh.type]) !== 'undefined') {
-                cars[c].data[veh.type].y += 1;
-            } else {
-                cars[c].data[veh.type] = {name: carsById[veh.type][0], y: 1};
+        $.each(lssm.car_list_all(), function (key, veh) {
+            var c = ["Undefined", 0];
+            if (veh.type in lssm.carsById)
+                console.log(lssm.carsById[veh.type]);
+                c = lssm.carsById[veh.type];
+            if (c[1] in cars) {
+                cars[c[1]].total += 1;
+                if (typeof (cars[c[1]].data[veh.type]) !== 'undefined') {
+                    cars[c[1]].data[veh.type].y += 1;
+                } else {
+                    cars[c[1]].data[veh.type] = {name: c[0], y: 1};
+                }
             }
         });
         // Remove unused keys
@@ -164,6 +201,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             return (k != "" && k != null);
         }
         var divs = [['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]], ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]], ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]], ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#92A1CF"]], ["#wret-ges", "#wret-fz"]];
+        console.log(cars);
         for (var i = 0; i < 5; i++) {
             cars[i].data = $.grep(cars[i].data, gr);
             if (cars[i].total > 0) {
@@ -196,7 +234,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 return;
             }
             var appendto = "son",
-                    vehicles = car_list(building.id),
+                    vehicles = lssm.car_list(building.id),
                     printcars = "",
                     icon = "fa-building-o",
                     icon3 = "fa-car",
@@ -247,7 +285,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $.each(vehicles, function (k, car) {
                 printcars +=
                         '<div id="db_veh_' + car.id + '">' +
-                        '<span class="building_list_fms building_list_fms_' + car.fms + ' lssm-wp-fz--fms">'
+                        '<span class="'+car.classes+' lssm-wp-fz--fms">'
                         + car.fms +
                         '</span>' +
                         '<a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms lssm-wp-fz--fms-vehicle">'
@@ -266,26 +304,24 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 bd_data +=
                         '<span class="label label-danger">' +
                         '<i class="glyphicon glyphicon-arrow-up"></i>' +
-                        ' STUFE ' +
-                        '<span>'
-                        + building.level +
-                        '</span>' +
+                          I18n.t('lssm.dashboard.levwp') +
+                        '<span> ' + building.level + '</span>' +
                         '</span>&nbsp;';
 
             if (building.personal_count > 0)
                 bd_data +=
                         '<span class="label label-default">' +
                         '<i class="glyphicon glyphicon-user"></i> ' +
-                        '<span>' + building.personal_count + '</span>' +
-                        ' MITARBEITER' +
+                        '<span>' + building.personal_count + ' </span>' +
+                          I18n.t('lssm.dashboard.perwp') +
                         '</span>&nbsp;';
 
             if (maxcars > 0)
                 bd_data +=
                         '<span class="label label-primary">' +
                         '<i class="glyphicon glyphicon-home"></i> ' +
-                        '<span>' + vehicles.length + '/' + maxcars + '</span>' +
-                        ' FAHRZEUGE' +
+                        '<span>' + vehicles.length + '/' + maxcars + ' </span>' +
+                          I18n.t('lssm.dashboard.carswp') +
                         '</span>';
             bd_data += '\
                  </div>\
@@ -317,8 +353,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         c_table.html("");
         var cars = {};
         var total = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
-        $.each(car_list_all(), function (key, veh) {
-            var type = carsById[veh.type][0];
+        $.each(lssm.car_list_all(), function (key, veh) {
+            var type = 0
+            if (veh.type in lssm.carsById)
+                type = lssm.carsById[veh.type][0];
             if (typeof cars[type] == 'undefined') {
                 cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
             }
@@ -448,6 +486,16 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                         $('#dashboard_buttons').append('<a class="btn btn-default" href="#" id="db_main">' + I18n.t('lssm.dashboard.name') + '</a>')
                                 .append('<a class="btn btn-default" href="#" id="db_fzg">' + I18n.t('lssm.dashboard.vehicles.name') + '</a>')
                                 .append('<a class="btn btn-default" href="#" id="db_wachen">' + I18n.t('lssm.dashboard.station_plan') + '</a>');
+
+                        $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">'+I18n.t('lssm.dashboard.categories')[0]+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">'+I18n.t('lssm.dashboard.categories')[1]+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">'+I18n.t('lssm.dashboard.categories')[2]+'</a>');
+                        if(I18n.locale == "de")
+                            $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>')
+
+                        $("#wp_sub").append('<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">'+I18n.t('lssm.dashboard.school')+'</a>')
+                            .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_son">'+I18n.t('lssm.dashboard.other')+'</a>');
+
                         bind_db_buttons();
                         curtab_db = "#db_main_outer";
                         curtab_wp = "#wp_fw";

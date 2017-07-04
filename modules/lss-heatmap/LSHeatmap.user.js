@@ -35,8 +35,6 @@
             close: "Close"
     };
 
-    //lssm.loadScript("/modules/lss-heatmap/vendor/leaflet-heat.js");
-
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
 
     var vehicleClasses = {
@@ -58,12 +56,12 @@
             'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '1000'}
         };
 
-        if (!lssm_settings.get(LS_HEATMAP_STORAGE)) {
+        if (!lssm.settings.get(LS_HEATMAP_STORAGE)) {
             for (var key in settings) {
                 settings[key].value = settings[key].default;
             }
         } else {
-            settings = lssm_settings.get(LS_HEATMAP_STORAGE);
+            settings = lssm.settings.get(LS_HEATMAP_STORAGE);
         }
         return settings;
     }
@@ -90,19 +88,11 @@
             }
         }
 
-        lssm_settings.remove(LS_HEATMAP_STORAGE);
-        lssm_settings.set(LS_HEATMAP_STORAGE, settings);
+        lssm.settings.remove(LS_HEATMAP_STORAGE);
+        lssm.settings.set(LS_HEATMAP_STORAGE, settings);
 
         if(reload) parent.location.reload();
     }
-
-    /*$( window ).load(function() {
-        if (window.top != window.self){
-            // Nothing to do here yet.
-        } else {
-            handleMainWindow();
-        }
-    });*/
 
     function handleMainWindow(){
         renderMap();
@@ -123,13 +113,13 @@
                 $(wrapper).attr('data-opened', 'true');
 
                 // Aktiviert
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Aktiviert</td><td><input class="ls-input" type="checkbox" id="heatmap-activated"></td></tr>');
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.activated') + '</td><td><input class="ls-input" type="checkbox" id="heatmap-activated"></td></tr>');
                 if(getSetting('heatmap-activated')){
                     $('#heatmap-activated').attr('checked', 'checked');
                 }
                 
                 // Vehicle
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Fahrzeug</td><td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>');
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.vehicleType') + '</td><td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>');
 
                 for(var key in vehicleClasses){
                     if(getSetting('heatmap-vehicle') == this){
@@ -141,17 +131,17 @@
 
                 $(availableVehicleTypes).each(function(){
                     if(getSetting('heatmap-vehicle') == this){
-                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + carsById[this][0] + '</option>');
+                        $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     } else {
-                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + carsById[this][0] + '</option>');
+                        $('#heatmap-vehicle').append('<option value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     }
                 });
 
                 // Radius
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Radius</td><td><div class="value-slider" data-min="0" data-max="200" data-value="'+ getSetting('heatmap-radius') +'" id="heatmap-radius"></div></td></tr>');
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.radius') + '</td><td><div class="value-slider" data-min="0" data-max="200" data-value="'+ getSetting('heatmap-radius') +'" id="heatmap-radius"></div></td></tr>');
 
                 // Intensity
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>Intensität</td><td><div class="value-slider" data-min="0" data-max="20" data-value="'+ getSetting('heatmap-intensity') +'" id="heatmap-intensity"></div></td></tr>');
+                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.intensity') + '</td><td><div class="value-slider" data-min="0" data-max="20" data-value="'+ getSetting('heatmap-intensity') +'" id="heatmap-intensity"></div></td></tr>');
 
 
                 $('#ls-heatmap-config .ls-input').on('change', function () {
@@ -181,7 +171,7 @@
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
 
                 $('#heatmap_reset').click(function () {
-                    lssm_settings.remove(LS_HEATMAP_STORAGE);
+                    lssm.settings.remove(LS_HEATMAP_STORAGE);
                     renderMap();
                     $('#ls-heatmap-config-img').click();
                     $('#ls-heatmap-config-img').click();

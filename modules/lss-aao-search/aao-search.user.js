@@ -11,10 +11,16 @@
         reset: "Reset",
         select: "Please select..."
     };
+	I18n.translations.nl['lssm']['aaosearch'] = {
+        search_aao: "AUR Doorzoeken",
+		use_dd: "Gebruik dropdown-menu: ",
+		reset: "Reset",
+		select: "Maak je keuze.."
+    };
     /**
      * Creates a select
      */
-    var use_dropdown = lssm_settings.get("aaos_dropdown", false).toString();
+    var use_dropdown = lssm.settings.get("aaos_dropdown", false).toString();
     function addToDropdown()
     {
         "use strict";
@@ -52,9 +58,13 @@
         if(typeof option.id == "undefined" || option.id == "-1") {
             return option.text;
         }
-        var available = document.getElementById("available_"+option.id.replace(/vehicle_group_/,'')).innerHTML;
-        var bg = $("#aao_"+option.id).css("background-color");
-        option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
+        option.id = option.id.replace(/vehicle_group_/,'');
+        var available = document.getElementById("available_"+option.id).innerHTML;
+        var bg = $("#"+option.id).css("background-color");
+        if (typeof bg != "undefined")
+            option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
+        else
+            option = $('<span>'+available + option.text+'</span>');
         return option;
     }
     function activateSearch()
@@ -129,7 +139,7 @@
 
     $("#lssm_aao_search_dropdown").on("click", function() {
         "use strict";
-        lssm_settings.set("aaos_dropdown", this.checked);
+        lssm.settings.set("aaos_dropdown", this.checked);
         if(this.checked)
         {
             $("#lssm_aao_search,#lssm_aao_results,#lssm_vehicle_group_results").remove();

@@ -47,7 +47,7 @@
             $mainDiv.hide('slow');
         },settings.delayTime);
     }
-    $(document).bind(lssm_hook.postname("allianceChat"),function(event,t){
+    $(document).bind(lssm.hook.postname("allianceChat"),function(event,t){
         if(user_id !== t.user_id && settings.allianceChatNotifcation && !t.ignore_audio){
             var e = "<li><span class='mission_chat_message_username'>[" + t.date + "] <a href='/profile/" + t.user_id + "' class='lightbox-open'>" + t.username + ":</a></span>";
             t.mission_id && (e = e + "<a href='/missions/" + t.mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");

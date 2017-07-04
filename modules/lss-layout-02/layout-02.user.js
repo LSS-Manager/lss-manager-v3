@@ -18,12 +18,6 @@
 
 	$('#map_outer').removeClass('col-sm-8').addClass('col-sm-12');
 	$('#missions_outer, #buildings_outer, #chat_outer, #radio_outer').removeClass('col-sm-4').addClass('col-sm-3');
-	$('#building_selection_feuerwehr').text('FW');
-	$('#building_selection_rettung').text('RD');
-	$('#building_selection_polizei').text('POL');
-	$('#building_selection_wasserrettung').text('WR');
-	$('#building_selection_schule').text('SCH');
-	$('#building_selection_leitstelle').text('ILS');
 	map.invalidateSize(true);
 
 })();

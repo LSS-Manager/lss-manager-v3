@@ -61,7 +61,7 @@
     var newMessages = 0;
     $('#lss-layout-01-chat').append('<span id="lssm_messageAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
 
-    $(document).bind(lssm_hook.prename("allianceChat"),function(event,e){
+    $(document).bind(lssm.hook.prename("allianceChat"),function(event,e){
         if (e.user_id != user_id && !e.ignore_audio && $('#chat_outer').is(':hidden')) {
             newMessages++;
             $('#lssm_messageAmount').text(newMessages);
@@ -76,7 +76,7 @@
     $('#lss-layout-01-missions').append('<span id="lssm_callsAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
     var newCalls = 0;
 
-    $(document).bind(lssm_hook.prename("missionMarkerAdd"),function(event,e){
+    $(document).bind(lssm.hook.prename("missionMarkerAdd"),function(event,e){
         if (!$('#mission_' + e.id).length && $('#missions_outer').is(':hidden')) {
             newCalls++;
             $('#lssm_callsAmount').text(newCalls);
@@ -88,11 +88,5 @@
         newCalls = 0;
         $('#lssm_callsAmount').text('');
     });
-    $('#building_selection_feuerwehr').text('FW');
-  	$('#building_selection_rettung').text('RD');
-  	$('#building_selection_polizei').text('POL');
-  	$('#building_selection_wasserrettung').text('WR');
-    $('#building_selection_schule').text('SCH');
-    $('#building_selection_leitstelle').text('ILS');
     map.invalidateSize(true);
 })();

@@ -10,6 +10,14 @@
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
         stationName: "{stationName} Wachennamen"
     };
+	I18n.translations.nl['lssm']['renameFZ'] = {
+        example: "Dit is een voorbeeld",
+		rename: "Naam aanpassen",
+		id: "{id} Voertuignaam ",
+		old: "{old} Oude naam",
+		vehicleType: "{vehicleType} Voertuigtype",
+		stationName: "{stationName} Gebouwnaam"
+    };
     var set = {
         rename: false,
         option: {
@@ -80,7 +88,7 @@
         set.option.old = $('#vehicle_link_' + id).text().trim();
         set.option.stationName = tr.find('td').eq(3).text().trim();
         var vehicleType = tr.find('.vehicle_image_reload:first').attr('vehicle_type_id');
-        set.option.vehicleType = carsById[vehicleType][0];
+        set.option.vehicleType = lssm.carsById[vehicleType][0];
         return {'id': id, 'vehicleType': vehicleType};
     }
     function showForms() {

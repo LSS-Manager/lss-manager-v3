@@ -2,6 +2,10 @@
     I18n.translations.de['lssm']['allianceMissionlistShare']={
         title:"Im Verband freigeben"
     };
+	I18n.translations.nl['lssm']['allianceMissionlistShare']={
+        title:"In team vrijgeven"
+    };
+	
     // NOchmals checken kann aber denke ich raus
     /*var buffermPa_sm = mission_participation_add;
 
@@ -9,7 +13,7 @@
         buffermPa_sm(e);
         shareMissions(e);
     };*/
-    $(document).bind(lssm_hook.postname("missionMarkerAdd"),function(event,e){
+    $(document).bind(lssm.hook.postname("missionMarkerAdd"),function(event,e){
         shareMissions(e.id);
     });
 
