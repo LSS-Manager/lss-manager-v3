@@ -707,7 +707,7 @@
 
     function normalize(missionname){
       if (!missionname)
-          return null;
+          return "nope";
       var longname = missionname;
       var short = longname.innerHTML.trim().split("\n");
       for(var i = 0; i<short.length;i++){
@@ -725,7 +725,7 @@
     }
 
     var missionname = normalize(document.getElementById("missionH1"));
-    if(missionname !== null){
+    if(missionname !== "nope"){
       addInfo(missionname);
     }
 })();
