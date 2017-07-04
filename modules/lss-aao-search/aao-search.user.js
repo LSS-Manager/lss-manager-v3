@@ -11,6 +11,12 @@
         reset: "Reset",
         select: "Please select..."
     };
+	I18n.translations.nl['lssm']['aaosearch'] = {
+        search_aao: "AUR Doorzoeken",
+		use_dd: "Gebruik dropdown-menu: ",
+		reset: "Reset",
+		select: "Maak je keuze.."
+    };
     /**
      * Creates a select
      */

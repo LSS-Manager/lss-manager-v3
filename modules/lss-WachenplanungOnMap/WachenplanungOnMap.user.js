@@ -23,6 +23,18 @@
         rem: "Remove",
         brem: "Remove planned building"
     };
+    I18n.translations.nl['lssm']['wpom'] = {
+		setmarker: "Plaats markering",
+		remmarker: "Verwijder markering",
+		plan: "Plaats een gepland gebouw",
+		vehicles: "Voertuigen",
+		btype: "Gebouwtype",
+		bname: "Naam",
+		addveh: "voeg voertuig toe",
+		set: "Plaats",
+		rem: "Verwijder",
+		brem: "Verwijder gepland gebouw"
+    };
     var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5,showCars:true,showSlider:true,showRadInput:false}, locale: I18n.locale || 'de', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"

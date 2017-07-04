@@ -364,6 +364,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    DestinationFilter: {
+        name: {
+            de: 'Zielort Filter',
+            en: 'Destination filter'
+        },
+        active: false,
+        description: {
+            de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
+            en: 'Allows hiding full or unelegible hospitals'
+        },
+        source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
+        develop: false,
+        inframe: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     FMS5InMap: {
         name: {
             de: 'FMS 5 in der Karte',
@@ -841,6 +859,27 @@ lssm.Module = {
             has: false,
             function_code: ""
         }
+    },
+    aaoZaehler: {
+        name: {
+            de: 'AAO-Klick-Zähler',
+            en: 'Alarm-Regulations-Counter',
+            nl: 'AUR-Klik-Teller'
+        },
+        active: false,
+        description: {
+            de: 'Zählt die Klicks auf einen AAO-Button',
+            en: 'Counts the clicks on an alarm-regulations-button',
+            nl: 'Telt het aantal keer dat een AUR aangeklikt is.'
+        },
+        source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
+        noapp: false,
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
     }
 };
 
@@ -1025,7 +1064,6 @@ lssm.appstore = {
         var content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
         content.attr('id', 'content');
-        var self = this;
         //div.append(createModulePanels());
         settingButton.click(function () {
             // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
@@ -1221,7 +1259,7 @@ lssm.modules = {
             var keys = ['name', 'description'];
             for (var k in keys) {
                 k = keys[k];
-                if (!k in lssm.Module[mod])
+                if (!(k in lssm.Module[mod]))
                     continue;
                 for (var l in lssm.Module[mod][k]) {
                     l = l.toString();
@@ -1355,9 +1393,6 @@ lssm.modal = {
         // There goes the core
         function loadCore() {
             // Load required library's
-            var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            var uid = "uid=" + game + user_id + "&";
-            // alle Settings die immer wieder benötigt werden
             $("head").append('<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   +crossorigin="anonymous"></script>')
                 .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +'" type="text/javascript"></script>')
                 .append('<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
