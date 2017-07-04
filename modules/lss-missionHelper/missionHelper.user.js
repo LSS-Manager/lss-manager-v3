@@ -676,7 +676,7 @@
     }
 
 
-    var title_stichwort = document.getElementById('missionH1');
+    $('#missionH1')
     var aao_text = '';
     var help_el = document.getElementById('mission_help');
     var help = "";
@@ -689,13 +689,6 @@
     var mission_id = Number(tmp_arr[length-1]);
 
 	aao_text = I18n.t('lssm.missionHelper.'+mission_id);
-
-
-  if(title_stichwort.innerText.includes('Brandmeldeanlage'))
-    {
-        aao_text = aao_text +' BMA';
-    }
-    var additional_aao_text = '';
 
 
 	function addInfo(missionName) {
@@ -733,7 +726,7 @@
     }
 
     var missionname = Normalize(document.getElementById("missionH1"));
-    if(missionname != "nope"){
+    if(missionname !== "nope"){
       addInfo(missionname);
     }
 })();
