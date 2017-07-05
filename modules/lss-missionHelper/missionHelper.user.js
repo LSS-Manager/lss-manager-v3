@@ -690,7 +690,7 @@
 	aao_text = I18n.t('lssm.missionHelper.'+mission_id);
 
 
-	function addInfo(missionName) {
+function addInfo(missionName) {
     var info = document.createElement('div');
     info.className = "alert alert-warning";
     var missionString = "";
@@ -710,7 +710,7 @@
           return null;
     }
 
-    var missionname = normalize(document.getElementById("missionH1"));
+    var missionname = normalize($("#missionH1"));
     if(missionname !== null){
       addInfo(missionname);
     }
