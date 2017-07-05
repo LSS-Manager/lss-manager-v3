@@ -25,6 +25,7 @@
 	};
 	
 	function renderSettings() {
+		if($('#' + lssm.config.prefix + '_appstore_ManagedSettings').length > 0) return false;
 		var markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
 		markup += '<h1>' + I18n.t('lssm.managedsettings.title') + '</h1>';
 		markup += '<p>' + I18n.t('lssm.managedsettings.text1') + '</p>';
@@ -42,8 +43,20 @@
 		markup += '</div>';
 		$('#map_outer').before(markup);
 		
-		for(var moduleKey in lssm.managedSettings.registeredModules) {
-			var module = lssm.managedSettings.registeredModules[moduleKey];
+		var sortable = [];
+		for (var module in lssm.managedSettings.registeredModules) {
+		    sortable.push(lssm.managedSettings.registeredModules[module]);
+		}
+		
+		sortable.sort(function(a,b){
+		    if(a.title < b.title) return -1;
+		    if(a.title > b.title) return 1;
+		    return 0;
+		});
+		
+		$.each(sortable, function(){
+			var module = this;
+			var moduleKey = module.id;
 			markup = "";
 			markup += '<div id="' + moduleKey + '_wrap">';
 			markup += '<h3>' + module.title + '</h3>';
@@ -56,7 +69,7 @@
 					$('#' + moduleKey + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
 				}
 			}
-		};
+		});
 	
 
 		
@@ -72,10 +85,7 @@
             var module = lssm.managedSettings.registeredModules[moduleKey];
             for(var settingsKey in module.settings) {
                 var setting = module.settings[settingsKey];
-                console.log(setting.ui.custom_function);
-                console.log(setting.ui.custom_function_event);
                 if(setting.ui.custom_function && setting.ui.custom_function_event){
-                	console.log("huuu");
                     $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);    
                 }
             }
