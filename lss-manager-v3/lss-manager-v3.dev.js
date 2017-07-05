@@ -364,6 +364,24 @@ lssm.Module = {
             function_code: ""
         }
     },
+    DestinationFilter: {
+        name: {
+            de: 'Zielort Filter',
+            en: 'Destination filter'
+        },
+        active: false,
+        description: {
+            de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
+            en: 'Allows hiding full or unelegible hospitals'
+        },
+        source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
+        develop: false,
+        inframe: true,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
     FMS5InMap: {
         name: {
             de: 'FMS 5 in der Karte',
@@ -835,6 +853,27 @@ lssm.Module = {
         },
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
         noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false,
+        settings: {
+            has: false,
+            function_code: ""
+        }
+    },
+    aaoZaehler: {
+        name: {
+            de: 'AAO-Klick-Zähler',
+            en: 'Alarm-Regulations-Counter',
+            nl: 'AUR-Klik-Teller'
+        },
+        active: false,
+        description: {
+            de: 'Zählt die Klicks auf einen AAO-Button',
+            en: 'Counts the clicks on an alarm-regulations-button',
+            nl: 'Telt het aantal keer dat een AUR aangeklikt is.'
+        },
+        source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
+        noapp: false,
         inframe: true,
         develop: false,
         settings: {
