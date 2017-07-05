@@ -16,6 +16,13 @@
 			save : "Save & Close",
 			settings_tab: "Settings"
 	};
+	I18n.translations.nl['lssm']['managedsettings'] = {
+			title: "LSSM instellingen",
+            text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",
+            text2: "",
+            save : "Opslaan & sluiten",
+            settings_tab: "Instellingen"
+	};
 	
 	function renderSettings() {
 		var markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
@@ -39,7 +46,7 @@
 			var module = lssm.managedSettings.registeredModules[moduleKey];
 			markup = "";
 			markup += '<div id="' + moduleKey + '_wrap">';
-			markup += '<h4>' + module.title + '</h4>';
+			markup += '<h3>' + module.title + '</h3>';
 			markup += '</div>';
 			$('#module_settings').append(markup);
 			for(var settingsKey in module.settings) {
@@ -65,8 +72,11 @@
             var module = lssm.managedSettings.registeredModules[moduleKey];
             for(var settingsKey in module.settings) {
                 var setting = module.settings[settingsKey];
+                console.log(setting.ui.custom_function);
+                console.log(setting.ui.custom_function_event);
                 if(setting.ui.custom_function && setting.ui.custom_function_event){
-                    $('#' + moduleKey + '_' + settingsKey).bind(setting.ui.custom_function_event,setting.ui.custom_function);    
+                	console.log("huuu");
+                    $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);    
                 }
             }
         };
@@ -87,7 +97,7 @@
 				response += '</div>';
 				optionCount ++;
 			});
-		} else if(element.ui.type == "boolean"){
+		} else if(element.ui.type == "checkbox"){
 			var checked = element.value == true ? " checked " : "";
 			response += '<div style="margin-left: 16px;"><input type="checkbox" ' + checked + ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '">' + element.ui.label + '</div>';
 			response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
@@ -98,12 +108,20 @@
 			response += '<span>' + element.ui.label + '</span>';
 			response += '</button>';
 		} else if(element.ui.type == "text" || element.ui.type == "int" || element.ui.type == "float"){
-			response += '<div id="' + elementName + '_wrap">';
+			response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ?  'class="' + element.ui.class + '"' : "") + '>';
+			response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
 			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value + '">';
-			response += '<label style="margin-left: 4px;" for="radio-1">' + element.ui.label + '</label>';
-			response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
+			if(element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
 			response += '</div>';
-		} else {
+		} else if(element.ui.type == "toggle"){
+			response += '<div class="col-md-3"><div class="panel panel-default" style="display: inline-block;width:100%;" id="' + elementName + '_toggle_wrap">';
+			response += '<div class="panel-body"><span class="pull-right"><div class="onoffswitch">';
+			response += '<input class="onoffswitch-checkbox" '+ (element.value ? 'checked="true"':'')+' id="' + elementName + '" value="true" name="onoffswitch" type="checkbox">';
+			response += '<label class="onoffswitch-label" for="' + elementName + '"></label>';
+			response += '</div></span>';
+			response += '<h4>' + element.ui.label + '</h4><small>' + element.ui.description + '</small></div>'
+			response += '</div></div>';
+		}else {
 			console.log(elementName + ' has unknown ui type: ' + element.ui.type);
 		}
 		return response;
@@ -116,7 +134,7 @@
 				var setting = module.settings[settingsKey];
 				var elementName = moduleKey + '_' + settingsKey;
 				var formElement = $('#' + elementName);
-				if(setting.ui.type == 'boolean'){
+				if(setting.ui.type == 'checkbox' || setting.ui.type == 'toggle'){
 	                if (formElement.is(':checked')) {
 	                    setting.value = true;
 	                } else {

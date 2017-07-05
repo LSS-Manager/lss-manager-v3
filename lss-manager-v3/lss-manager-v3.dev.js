@@ -1193,26 +1193,22 @@ lssm.managedSettings = {
    register : function(moduleSettings){
 	   "use strict";
 	   var moduleId = moduleSettings.id;
-	   
 	   // If settings don't exist, overwrite with defaults
        if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)['settings']) {
            for (var settingsKey in moduleSettings.settings) {
         	   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
            }
-       // If there is a new version try to convert old values
-       } else if(lssm.settings.get(moduleId).version != moduleSettings.version ){
+       // If we have values use them
+       } else {
     	   var storedSettings = lssm.settings.get(moduleId)['settings'];
            for (var settingsKey in moduleSettings.settings) {
         	   if(storedSettings[settingsKey] && storedSettings[settingsKey].value){
         		   moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
-        	   } else {        		   
+        	   } else {       
         		   moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
         	   }
            }
-       // If settings exist in matching version use them    
-       } else {
-    	   moduleSettings = lssm.settings.get(moduleId);
-       }
+       }  
        lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
    },
    
