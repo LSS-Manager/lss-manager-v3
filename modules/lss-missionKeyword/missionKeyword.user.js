@@ -1414,7 +1414,6 @@
 	    I18n.translations.en['lssm']['missionKeyword'] = DEFAULT_AAO_EN;
 	    I18n.translations.nl['lssm']['missionKeyword'] = DEFAULT_AAO_NL;
 	    
-	
 	    if(I18n.locale === 'de')
 	        defaultAao = DEFAULT_AAO_DE;
 	    else if(I18n.locale === 'en')
@@ -1470,8 +1469,7 @@
         {
             if(I18n.locale === 'de') {
 
-                // Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY
-				// PERSON
+                // Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY PERSON
                             
                 if(aaoText.match(/B [0-9]/ig))
                 {
@@ -1493,8 +1491,7 @@
                     
                     if(I18n.t('lssm.missionKeyword.rd') === 'RD')
                     {
-                        // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN
-						// RD-Einsatz ist
+                        // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
                         if (anzahlPatients > 1 && anzahlPatients < 4)
                             additionalAaoText += 'RD 3';
                         else if (anzahlPatients >= 4 && anzahlPatients < 6)
@@ -1514,8 +1511,7 @@
                     }
                     if(I18n.t('lssm.missionKeyword.rd') === 'NOTF')
                     {
-                        // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN
-						// RD-Einsatz ist
+                        // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
                         if (anzahlPatients > 5 && anzahlPatients < 11)
                             additionalAaoText += 'MANV10';
                         else if (anzahlPatients >= 11 && anzahlPatients < 26)
@@ -1600,7 +1596,5 @@
     if(missionHelp.length >0){
     	setSettings();
     	missionKeyword();
-    }
-    
-    
+    } 
 })();
