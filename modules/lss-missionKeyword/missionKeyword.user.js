@@ -1590,11 +1590,12 @@
         }
     }
     
+    setSettings();
+    
     // Only execute this script in the alert iframe.
-    // Identify the iframe with mission_help link.
+    // Identify the iframe with mission_help link.    
     var missionHelp = $('#mission_help');
     if(missionHelp.length >0){
-    	setSettings();
     	missionKeyword();
     } 
 })();
