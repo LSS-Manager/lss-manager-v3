@@ -55,7 +55,7 @@
 					"label" : I18n.t('lssm.statusDispatching.settingsAttr'),
 					"description" : I18n
 							.t('lssm.statusDispatching.settingsAttrDesc'),
-					"type" : "boolean"
+					"type" : "checkbox"
 				}
 			}
 		}

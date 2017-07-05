@@ -38,14 +38,14 @@
 				"default" : true,
 				"ui" : {
 					"label" : I18n.t('lssm.destfilter.beds'),
-					"type" : "boolean"
+					"type" : "checkbox"
 				}
 			},
 			"destfilter-elegible" : {
 				"default" : true,
 				"ui" : {
 					"label" : I18n.t('lssm.destfilter.elegible'),
-					"type" : "boolean"
+					"type" : "checkbox"
 				}
 			}
 
