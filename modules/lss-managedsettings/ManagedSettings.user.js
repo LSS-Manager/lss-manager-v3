@@ -95,7 +95,7 @@
 	function renderUIElement(moduleKey, settingsKey, element){
 		var elementName = moduleKey + '_' + settingsKey;
 		var response = '<div id="' + elementName + '_wrap">';
-		if(element.ui.type == "radio"){
+		if(element.ui.type === "radio"){
 			var optionCount = 0;
 			$.each(element.ui.options, function(){
 				var prop_checked = "";
@@ -107,23 +107,23 @@
 				response += '</div>';
 				optionCount ++;
 			});
-		} else if(element.ui.type == "checkbox"){
-			var checked = element.value == true ? " checked " : "";
+		} else if(element.ui.type === "checkbox"){
+			var checked = element.value === true ? " checked " : "";
 			response += '<div style="margin-left: 16px;"><input type="checkbox" ' + checked + ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '">' + element.ui.label + '</div>';
-			response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
-		} else if(element.ui.type == "hidden"){
+			if(element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
+		} else if(element.ui.type === "hidden"){
 			response += '<input type="hidden" value="' + element.value + '" id="' + elementName + '" name="' + elementName + '">';
-		} else if(element.ui.type == "button"){
+		} else if(element.ui.type === "button"){
 			response += '<button type="button" class="btn btn-grey btn-sm" id="' + elementName +'" style="margin-left: 16px;">';
 			response += '<span>' + element.ui.label + '</span>';
 			response += '</button>';
-		} else if(element.ui.type == "text" || element.ui.type == "int" || element.ui.type == "float"){
+		} else if(element.ui.type === "text" || element.ui.type == "int" || element.ui.type == "float"){
 			response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ?  'class="' + element.ui.class + '"' : "") + '>';
 			response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
 			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value + '">';
 			if(element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
 			response += '</div>';
-		} else if(element.ui.type == "toggle"){
+		} else if(element.ui.type === "toggle"){
 			response += '<div class="col-md-3"><div class="panel panel-default" style="display: inline-block;width:100%;" id="' + elementName + '_toggle_wrap">';
 			response += '<div class="panel-body"><span class="pull-right"><div class="onoffswitch">';
 			response += '<input class="onoffswitch-checkbox" '+ (element.value ? 'checked="true"':'')+' id="' + elementName + '" value="true" name="onoffswitch" type="checkbox">';
@@ -144,17 +144,17 @@
 				var setting = module.settings[settingsKey];
 				var elementName = moduleKey + '_' + settingsKey;
 				var formElement = $('#' + elementName);
-				if(setting.ui.type == 'checkbox' || setting.ui.type == 'toggle'){
+				if(setting.ui.type === 'checkbox' || setting.ui.type == 'toggle'){
 	                if (formElement.is(':checked')) {
 	                    setting.value = true;
 	                } else {
 	                    setting.value = false;
 	                }
-				} else if(setting.ui.type == 'radio'){
+				} else if(setting.ui.type === 'radio'){
 	                setting.value = $("input[name='" + elementName + "']:checked").val()
-	            } else if(setting.ui.type == 'int'){
+	            } else if(setting.ui.type === 'int'){
 	            	setting.value = parseInt(formElement.val());
-	            } else if(setting.ui.type == 'float'){
+	            } else if(setting.ui.type === 'float'){
 	            	setting.value = parseFloat(formElement.val());
 	            } else {
 	                setting.value = formElement.val();
