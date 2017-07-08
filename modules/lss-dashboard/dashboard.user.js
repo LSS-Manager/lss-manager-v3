@@ -49,7 +49,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     perwp: 'EMPLOYEE',
     carswp: 'CARS',
     levwp: 'LEVEL',
-    categories: ['Firefighter', 'Rescue', 'Police', 'Hospital'],
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
     nofz: "No vehicles found",
