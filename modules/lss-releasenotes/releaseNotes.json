@@ -4,6 +4,55 @@
 			"version": "3.2.5",
 			"changes": [
 				{
+					"id": "182",
+					"type": "FIX",
+					"en": "Refactoring Missionhelper",
+					"de": "Refactoring Einsatzhelfer",
+					"nl": "Refactoring Meldinghelper"
+				},
+				{
+					"id": "175",
+					"type": "NEW",
+					"de": "AAO-Klick-Zähler",
+					"en": "Alarm-Regulations-Counter",
+					"nl": "AUR-Klik-Teller"
+				},
+				{
+					"id": "174",
+					"type": "FIX",
+					"en": "Refactoring Missionkeywords",
+					"de": "Refactoring Missionkeywords",
+					"nl": "Refactoring Missionkeywords"
+				},
+				{
+					"id": "",
+					"type": "FIX",
+					"en": "Some Translations added for Dutch",
+					"de": "Einige Übersetzungen hinzugefügt für Niederländish",
+					"nl": "Sommige vertalingen zijn toegevoegd aan het Nederlands"
+				},
+				{
+					"id": "149",
+					"type": "NEW",
+					"en": "Filter for Hospitals",
+					"de": "Filter für Krankenhäuser",
+					"nl": "Filters voor Ziekenhuizen"
+				},
+				{
+					"id": "159",
+					"type": "NEW",
+					"en": "Settings in one place",
+					"de": "Einstellungen an einem Ort",
+					"nl": "Instellingen op één plek"
+				},
+				{
+					"id": "158",
+					"type": "ADDED",
+					"en": "Credits added to Missionhelper",
+					"de": "Credits added to Missionhelper",
+					"nl": "Credits added to Meldinghelper"
+				},
+				{
 					"id": "156",
 					"type": "NEW",
 					"en": "Releasenotes Plugin",
