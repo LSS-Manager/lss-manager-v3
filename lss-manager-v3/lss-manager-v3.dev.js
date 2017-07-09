@@ -1432,7 +1432,7 @@ lssm.modal = {
                 loadCore();
             });
         // There goes the core
-        function loadCore() {
+        var loadCore = function() {
             // Load required library's
             $("head")
                 .append(
