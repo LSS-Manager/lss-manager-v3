@@ -80,7 +80,7 @@ var lssm = {
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
-I18n.translations.de['lssm'] = {
+I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
@@ -97,7 +97,7 @@ I18n.translations.de['lssm'] = {
     login: "Bitte zuerst anmelden",
     apps: {}
 };
-I18n.translations.en['lssm'] = {
+I18n.translations.en.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
@@ -114,7 +114,7 @@ I18n.translations.en['lssm'] = {
     login: "Please log in first",
     apps: {}
 };
-I18n.translations.nl['lssm'] = {
+I18n.translations.nl.lssm = {
     lssm: "LSS-Manager",
     appstore: "App Store",
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
@@ -1214,13 +1214,13 @@ lssm.managedSettings = {
         "use strict";
         var moduleId = moduleSettings.id;
         // If settings don't exist, overwrite with defaults
-        if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId)['settings']) {
+        if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId).settings) {
             for (var settingsKey in moduleSettings.settings) {
                 moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
             }
             // If we have values use them
         } else {
-            var storedSettings = lssm.settings.get(moduleId)['settings'];
+            var storedSettings = lssm.settings.get(moduleId).settings;
             for (var settingsKey in moduleSettings.settings) {
                 if (storedSettings[settingsKey] && storedSettings[settingsKey].value) {
                     moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
@@ -1236,7 +1236,7 @@ lssm.managedSettings = {
         "use strict";
         var settings = this.getSettings(module);
         if (settings !== undefined && settings[field] !== undefined) {
-            return settings[field]['value'];
+            return settings[field].value;
         } else {
             return undefined;
         }
@@ -1245,7 +1245,7 @@ lssm.managedSettings = {
     getSettings: function (module) {
         "use strict";
         if (lssm.managedSettings.registeredModules[module]) {
-            return lssm.managedSettings.registeredModules[module]['settings'];
+            return lssm.managedSettings.registeredModules[module].settings;
         } else {
             return undefined;
         }
@@ -1284,10 +1284,10 @@ lssm.modules = {
                 }
                 for (var l in lssm.Module[mod][k]) {
                     l = l.toString();
-                    if (!(mod in I18n.translations[l]['lssm']['apps'])) {
-                        I18n.translations[l]['lssm']['apps'][mod] = {}
+                    if (!(mod in I18n.translations[l].lssm.apps)) {
+                        I18n.translations[l].lssm.apps[mod] = {}
                     }
-                    I18n.translations[l]['lssm']['apps'][mod][k] = lssm.Module[mod][k][l];
+                    I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
                 }
             }
         }
