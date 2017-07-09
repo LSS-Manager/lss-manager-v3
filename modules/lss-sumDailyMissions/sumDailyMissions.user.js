@@ -33,7 +33,7 @@
 			num_prisoners: 'Sum prisoners',
 			num_team: 'Sum alliance'
 		};
-		
+
 		I18n.translations.nl['lssm']['sumDailyMissions'] = {
 			patient_treatment: 'Patiënten behandeling',
 			education: 'Opleiding',
@@ -49,7 +49,7 @@
 			num_prisoners: 'Aantal gevangenen',
 			num_team: 'Aantal Teamopnames'
 		};
-	
+
         var anzahl_pro_einsatz = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(2)");
         var einsatz_titel = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(3)");
         var sum_einsaetze = 0;
