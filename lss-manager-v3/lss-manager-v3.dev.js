@@ -1105,9 +1105,9 @@ lssm.appstore = {
             $('footer').show();
             //$(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
             // Inform the user about activated modules.
-            var activated = ""
+            var activated = "";
             for (var m in action) {
-                lssm.modules.load(action[m])
+                lssm.modules.load(action[m]);
                 activated += I18n.t('lssm.apps.' + action[m] + '.name') + ', ';
             }
             activated = activated.substring(0, activated.length - 2);
@@ -1287,7 +1287,7 @@ lssm.modules = {
                 for (var l in lssm.Module[mod][k]) {
                     l = l.toString();
                     if (!(mod in I18n.translations[l].lssm.apps)) {
-                        I18n.translations[l].lssm.apps[mod] = {}
+                        I18n.translations[l].lssm.apps[mod] = {};
                     }
                     I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
                 }
@@ -1342,7 +1342,7 @@ lssm.hook = {
                 $(document).trigger("lssm_" + event + "_before", arguments);
                 self.orgfunctions[event].apply(window, arguments);
                 $(document).trigger("lssm_" + event + "_after", arguments);
-            }
+            };
         }
         return "lssm_" + event + "_before";
     },
@@ -1355,7 +1355,7 @@ lssm.hook = {
                 $(document).trigger("lssm_" + event + "_before", arguments);
                 self.orgfunctions[event].apply(window, arguments);
                 $(document).trigger("lssm_" + event + "_after", arguments);
-            }
+            };
         }
         return "lssm_" + event + "_after";
     }
