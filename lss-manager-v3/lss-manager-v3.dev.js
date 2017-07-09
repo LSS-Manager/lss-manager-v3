@@ -762,8 +762,7 @@ lssm.Module = {
             has: false,
             function_code: "statusDispatching_show_settings"
         }
-    }
-    ,
+    },
     managedSettings: {
         name: {
             de: 'Einstellungen',
