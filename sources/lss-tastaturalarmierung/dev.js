@@ -82,7 +82,7 @@ keyList = {
 // -             Check for jQuery
 // - -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
-if(typeof(jQuery) == 'undefined')
+if(typeof(jQuery) === 'undefined')
 {
    throw new Error("LSS Tastaturalarmierung: missing jQuery");
 }
@@ -173,7 +173,7 @@ $(function(){
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     $( "#key_settings_button" ).on( "click", function()
     {
-        if( $("#key_settings").css("display") == "none" )
+        if( $("#key_settings").css("display") === "none" )
         {
             $("#key_settings").css("display", "flex");
             $("#key_settings_button").removeClass("btn-success").addClass("btn-danger");
@@ -184,20 +184,20 @@ $(function(){
             $("#key_settings_button").removeClass("btn-danger").addClass("btn-success");
         }
     });
-    
+
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     // -             Update Table on Key Input
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     $( "#search_vehicle" ).on( "input", function() {
         updateTable();
     });
-    
+
     // - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     // -
     // -             Key Action
     // -
     // - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
-    
+
     $(document).on( "keyup", function( event )
     {
         // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -210,29 +210,29 @@ $(function(){
             var table = $("#vehicle_show_table_body_all").length ? "#vehicle_show_table_body_all tr":"#vehicle_show_table_rett tr";
 
             // - - - - - Submit  - - - - -
-            if(event.which == getKeyStorage("submit"))
+            if(event.which === getKeyStorage("submit"))
             {
                 $( "#mission-form" ).submit();
             }
 
             // - - - - - Delete  - - - - -
-            if(event.which == getKeyStorage("delete"))
+            if(event.which === getKeyStorage("delete"))
             {
                 $( "#search_vehicle" ).val(""); updateTable();
             }
-            
+
             // - - - - - Select all  - - - - -
-            if(event.which == getKeyStorage("select_all"))
+            if(event.which === getKeyStorage("select_all"))
             {
                 $( table + ":visible" ).each(function() {
                     $( this ).find("input").attr('checked', true);
                 });
-                
+
                 $( "#search_vehicle" ).val(""); updateTable();
             }
 
             // - - - - - Ergebnis 1  - - - - -
-            if(event.which == getKeyStorage("fhz1"))
+            if(event.which === getKeyStorage("fhz1"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -242,7 +242,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 2  - - - - -
-            if(event.which == getKeyStorage("fhz2"))
+            if(event.which === getKeyStorage("fhz2"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -250,7 +250,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 3  - - - - -
-            if(event.which == getKeyStorage("fhz3"))
+            if(event.which === getKeyStorage("fhz3"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -258,7 +258,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 4  - - - - -
-            if(event.which == getKeyStorage("fhz4"))
+            if(event.which === getKeyStorage("fhz4"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -266,7 +266,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 5  - - - - -
-            if(event.which == getKeyStorage("fhz5"))
+            if(event.which === getKeyStorage("fhz5"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -274,7 +274,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 6  - - - - -
-            if(event.which == getKeyStorage("fhz6"))
+            if(event.which === getKeyStorage("fhz6"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -282,7 +282,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 7  - - - - -
-            if(event.which == getKeyStorage("fhz7"))
+            if(event.which === getKeyStorage("fhz7"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -290,7 +290,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 8  - - - - -
-            if(event.which == getKeyStorage("fhz8"))
+            if(event.which === getKeyStorage("fhz8"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -298,7 +298,7 @@ $(function(){
             }
 
             // - - - - - Ergebnis 9  - - - - -
-            if(event.which == getKeyStorage("fhz9"))
+            if(event.which === getKeyStorage("fhz9"))
             {
                 $( "#search_vehicle" ).val( $( "#search_vehicle" ).val().substring(0, $( "#search_vehicle" ).val().length - 1) );
                 updateTable();
@@ -307,7 +307,7 @@ $(function(){
         }
 
     });
-    
+
     // - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
     // -
     // -             Save pressed Key
@@ -321,7 +321,7 @@ $(function(){
 
             $( "#key_settings_console" ).find("font").text("Die Taste wurde gespeichert!");
             window.setTimeout(function() { $( "#key_settings_console" ).find("font").text("") }, 1500);
-           
+
             set_key_mode = false;
         }
     });
@@ -331,7 +331,7 @@ $(function(){
 function updateTable()
 {
     var table = $("#vehicle_show_table_body_all").length ? "#vehicle_show_table_body_all tr":"#vehicle_show_table_rett tr";
-        
+
     $( table ).each(function() {
 
         if( $( this ).find("label").text().toLowerCase().indexOf( $( "#search_vehicle" ).val().toLowerCase() ) >= 0 )
@@ -350,15 +350,15 @@ function updateTable()
             $( this ).css("display", "none");
         }
 
-        if( $( "#search_vehicle" ).val().length == 0 )
+        if( $( "#search_vehicle" ).val().length === 0 )
         {
             $( this ).css("display", "table-row");
         }
 
     });
-   
-   
-    
+
+
+
 }
 
 // - = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
@@ -379,7 +379,7 @@ function updateTable()
    {
        set_key_mode = true;
        set_key_name = key;
-       $( "#key_settings_console" ).find("font").text("Drücke die Taste, die Du für diese Funktion belegen möchtest...");
+       $( "#key_settings_console" ).find("font").text("Drücke die Taste, die Du für diese Funktion belegen möchtest..");
        $( "#search_vehicle" ).focus();
    }
 
