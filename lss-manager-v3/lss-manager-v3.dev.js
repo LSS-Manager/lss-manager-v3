@@ -900,10 +900,11 @@ lssm.appstore = {
      */
     canActivate: function (mod) {
         var ca = true;
+        // TODO: Sprechendere Variablennamen
         if ('collisions' in mod) {
             for (var c in mod.collisions) {
-                var c = mod.collisions[c];
-                if (lssm.Module[c].active) {
+                var d = mod.collisions[c];
+                if (lssm.Module[d].active) {
                     ca = false;
                 }
             }
@@ -1052,9 +1053,10 @@ lssm.appstore = {
             if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
                 var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
+                // TODO: Sprechendere Variablennamen
                 for (var c in lssm.Module[e.value].collisions) {
-                    var c = lssm.Module[e.value].collisions[c];
-                    if (lssm.Module[c].active) {
+                    var d = lssm.Module[e.value].collisions[c];
+                    if (lssm.Module[d].active) {
                         warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
                     }
                 }
@@ -1212,15 +1214,16 @@ lssm.managedSettings = {
     register: function (moduleSettings) {
         "use strict";
         var moduleId = moduleSettings.id;
+        var settingsKey;
         // If settings don't exist, overwrite with defaults
         if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId).settings) {
-            for (var settingsKey in moduleSettings.settings) {
+            for (settingsKey in moduleSettings.settings) {
                 moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
             }
             // If we have values use them
         } else {
             var storedSettings = lssm.settings.get(moduleId).settings;
-            for (var settingsKey in moduleSettings.settings) {
+            for (settingsKey in moduleSettings.settings) {
                 if (storedSettings[settingsKey] && storedSettings[settingsKey].value) {
                     moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
                 } else {
