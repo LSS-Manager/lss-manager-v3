@@ -65,7 +65,7 @@
 			for(var settingsKey in module.settings) {
 				if(module.settings[settingsKey].ui.parent){
 					$('#' + module.settings[settingsKey].ui.parent + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
-				} else {		
+				} else {	
 					$('#' + moduleKey + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
 				}
 			}
