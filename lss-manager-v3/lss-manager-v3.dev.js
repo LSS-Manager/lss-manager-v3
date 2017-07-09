@@ -1331,16 +1331,17 @@ lssm.modules = {
         if (mod in lssm.Module) {
             var keys = ['name', 'description'];
             for (var k in keys) {
-                k = keys[k];
-                if (!(k in lssm.Module[mod])) {
+                // TODO: sprechendere Variablennamen
+                j = keys[k];
+                if (!(j in lssm.Module[mod])) {
                     continue;
                 }
                 for (var l in lssm.Module[mod][k]) {
-                    l = l.toString();
-                    if (!(mod in I18n.translations[l].lssm.apps)) {
-                        I18n.translations[l].lssm.apps[mod] = {};
+                    m = l.toString();
+                    if (!(mod in I18n.translations[m].lssm.apps)) {
+                        I18n.translations[m].lssm.apps[mod] = {};
                     }
-                    I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
+                    I18n.translations[m].lssm.apps[mod][k] = lssm.Module[mod][k][m];
                 }
             }
         }
