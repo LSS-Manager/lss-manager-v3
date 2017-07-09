@@ -1396,7 +1396,9 @@ lssm.modal = {
         if (typeof closefunc !== "undefined") {
             $(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
         }
-        setTimeout('$("#lightbox_iframe_" + iframe_lightbox_number).show().focus();', 100);
+        setTimeout(function() {
+            $("#lightbox_iframe_" + iframe_lightbox_number).show().focus();
+        }, 100);
         return "#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container";
     }
 };
