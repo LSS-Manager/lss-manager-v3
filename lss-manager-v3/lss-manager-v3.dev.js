@@ -1458,6 +1458,6 @@ lssm.modal = {
             lssm.modules.loadall();
             // Oh, we also need a appstore
             lssm.appstore.appendAppstore();
-        }
+        };
     }
 })(I18n, jQuery);
