@@ -1489,7 +1489,8 @@ lssm.modal = {
                     $("head")
                         .append(
                             '<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" ' +
-                            'integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>')
+                            'integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous">' +
+                            '</script>')
                         .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +
                             '" type="text/javascript"></script>')
                         .append(
