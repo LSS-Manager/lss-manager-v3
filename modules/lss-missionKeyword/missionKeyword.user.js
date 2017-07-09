@@ -732,8 +732,8 @@
 	                    "label" : I18n.t('lssm.missionKeywordDefaults.show'),
 	                    "type" : "button",
 	                    "custom_function_event" : "click",
-	                    "custom_function" : function() {		
-	                        $('[id^='+LSS_MISSIONKEYWORD_STORAGE+'_missionKeyword-]').toggle();		
+	                    "custom_function" : function() {
+	                        $('[id^='+LSS_MISSIONKEYWORD_STORAGE+'_missionKeyword-]').toggle();
 	                    }
 	                }
 	            }
@@ -1439,7 +1439,7 @@
 	        $.extend(managedSettings.settings, tmpObject);
 
 	    });
-   
+
 	    lssm.managedSettings.register(managedSettings);
 	}
 
