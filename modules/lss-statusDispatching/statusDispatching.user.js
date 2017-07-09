@@ -106,7 +106,7 @@
 				allTransported = true;
 			}
 		}
-		if (backToMission === null && count == nextVehicle.length
+		if (backToMission === null && count === nextVehicle.length
 				&& allTransported) {
 			tellParent("lightboxClose();");
 		}
