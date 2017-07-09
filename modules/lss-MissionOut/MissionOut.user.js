@@ -34,10 +34,10 @@
         if(isHideAll){
             $button.click();
         }
-        
+
     }
     $(document).bind(lssm.hook.postname("missionMarkerAdd"),function(event,t){
-        var s = s = "undefined" != typeof mission_graphics[t.mtid] && null != mission_graphics[t.mtid] && "undefined" != typeof mission_graphics[t.mtid][t.vehicle_state] && "" != mission_graphics[t.mtid][t.vehicle_state] ? mission_graphics[t.mtid][t.vehicle_state] : "/images/" + t.icon + ".png";
+        var s = s = "undefined" !== typeof mission_graphics[t.mtid] && null != mission_graphics[t.mtid] && "undefined" != typeof mission_graphics[t.mtid][t.vehicle_state] && "" != mission_graphics[t.mtid][t.vehicle_state] ? mission_graphics[t.mtid][t.vehicle_state] : "/images/" + t.icon + ".png";
         $('#icon_' + t.id).length && $('#icon_' + t.id).attr('src', s);
         var $header = $('#mission_panel_heading_' + t.id);
         if (!$header.find('.MissionOut').length) {
