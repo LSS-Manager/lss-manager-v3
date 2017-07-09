@@ -1,6 +1,6 @@
 (function(I18n, $) {
     'use strict';
-    
+
     I18n.translations.de['lssm']['heatmap'] = {
             loeschfz: "Löschfahrzeuge",
             tankloeschfz: "Tanklöschfahrzeuge",
@@ -17,7 +17,7 @@
             reset: "Zurücksetzen",
             close: "Schließen"
     };
-    
+
     I18n.translations.en['lssm']['heatmap'] = {
             loeschfz: "Fire Trucks",
             tankloeschfz: "Tank Fire Trucks",
@@ -75,13 +75,13 @@
         var settings = getSettings();
         for (var key in settings) {
             var formElement = $('#' + key);
-            if(settings[key].type == 'boolean'){
+            if(settings[key].type === 'boolean'){
                 if (formElement.is(':checked')) {
                     settings[key].value = true;
                 } else {
                     settings[key].value = false;
                 }
-            } else if(settings[key].type == 'range'){
+            } else if(settings[key].type === 'range'){
                 settings[key].value = formElement.slider("value");
             } else{
                 settings[key].value = parseInt(formElement.val());
@@ -103,7 +103,7 @@
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append('<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="' + lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>');
         $('#ls-heatmap-config-img').on('click', function(){
             var wrapper = $('#ls-heatmap-config-wrapper');
-            var isOpened = $(wrapper).attr('data-opened') == 'true';
+            var isOpened = $(wrapper).attr('data-opened') === 'true';
             if(isOpened){
                 $('#ls-heatmap-config').remove();
                 $(wrapper).attr('data-opened', 'false');
@@ -117,12 +117,12 @@
                 if(getSetting('heatmap-activated')){
                     $('#heatmap-activated').attr('checked', 'checked');
                 }
-                
+
                 // Vehicle
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.vehicleType') + '</td><td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>');
 
                 for(var key in vehicleClasses){
-                    if(getSetting('heatmap-vehicle') == this){
+                    if(getSetting('heatmap-vehicle') === this){
                         $('#heatmap-vehicle').append('<option selected value="'+ key + '">' + vehicleClasses[key].name + '</option>');
                     } else {
                         $('#heatmap-vehicle').append('<option value="'+ key + '">' + vehicleClasses[key].name + '</option>');
@@ -130,7 +130,7 @@
                 }
 
                 $(availableVehicleTypes).each(function(){
-                    if(getSetting('heatmap-vehicle') == this){
+                    if(getSetting('heatmap-vehicle') === this){
                         $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     } else {
                         $('#heatmap-vehicle').append('<option value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
@@ -219,7 +219,7 @@
             var entries = [];
             $(vehicles).each(function(){
                 var vehicle = this;
-                if(vehicle.vehicle_type_id == getSetting('heatmap-vehicle')){
+                if(vehicle.vehicle_type_id === getSetting('heatmap-vehicle')){
                     entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
                 } else if(vehicleClasses[getSetting('heatmap-vehicle')] !== undefined && vehicleClasses[getSetting('heatmap-vehicle')].vehicleTypeIds.indexOf(vehicle.vehicle_type_id ) !== -1){
                     entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
