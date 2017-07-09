@@ -4,6 +4,6 @@ node {
     def workspace = pwd()
 
     withSonarQubeEnv('Sonar') {
-        sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarqubeScanner/bin/sonar-scanner -Dproject.settings=sonar.properties -Dsonar.github.login=eaglefsd -Dsonar.branch=${BRANCH_NAME} -Dsonar.host.url=https://sonar.hassels.eu/ -Dsonar.projectBaseDir=${WORKSPACE} -Dsonar.login=${SONAR_AUTH_TOKEN}'
+        sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarqubeScanner/bin/sonar-scanner -Dproject.settings=sonar.properties -Dsonar.branch=${BRANCH_NAME} -Dsonar.projectBaseDir=${WORKSPACE} -Dsonar.login=${SONAR_AUTH_TOKEN}'
     }
 }
