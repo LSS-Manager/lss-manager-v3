@@ -964,7 +964,11 @@ lssm.appstore = {
             "use strict";
             var aName = I18n.t("lssm.apps." + a + ".name").toLowerCase();
             var bName = I18n.t("lssm.apps." + b + ".name").toLowerCase();
-            return ((aName < bName) ? -1 : ((aName > bName) ? 1 : 0));
+            if (aName < bName) {
+                return -1;
+            } else {
+                return (aName > bName) ? 1 : 0;
+            }
         });
         for (var i in mods) {
             var mod = lssm.Module[mods[i]];
