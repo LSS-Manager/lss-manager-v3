@@ -65,7 +65,7 @@
 			for(var settingsKey in module.settings) {
 				if(module.settings[settingsKey].ui.parent){
 					$('#' + module.settings[settingsKey].ui.parent + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
-				} else {			
+				} else {		
 					$('#' + moduleKey + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
 				}
 			}
@@ -86,7 +86,7 @@
             for(var settingsKey in module.settings) {
                 var setting = module.settings[settingsKey];
                 if(setting.ui.custom_function && setting.ui.custom_function_event){
-                    $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);    
+                    $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);
                 }
             }
         };
