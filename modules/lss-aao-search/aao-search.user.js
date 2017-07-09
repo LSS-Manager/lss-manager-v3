@@ -13,9 +13,9 @@
     };
 	I18n.translations.nl['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
-		use_dd: "Gebruik dropdown-menu: ",
-		reset: "Reset",
-		select: "Maak je keuze.."
+	use_dd: "Gebruik dropdown-menu: ",
+	reset: "Reset",
+	select: "Maak je keuze.."
     };
     /**
      * Creates a select
@@ -37,7 +37,7 @@
         $("#lssm_aao_dropdown").on("change", function(){
             var aao_id = $(this).val();
             // We need a ID
-            if (aao_id == -1)
+            if (aao_id === -1)
                 return;
             // Get the original button
             $("#"+aao_id).click();
@@ -55,7 +55,7 @@
     function formatOptions(option)
     {
         "use strict";
-        if(typeof option.id == "undefined" || option.id == "-1") {
+        if(typeof option.id == "undefined" || option.id === "-1") {
             return option.text;
         }
         option.id = option.id.replace(/vehicle_group_/,'');
@@ -79,7 +79,7 @@
             var value = this.value;
             if(value.length > 0)
             {
-                if($("#lssm_aao_results > a[id^='lssm_aao']:containsci('"+value+"')").length == 0) {
+                if($("#lssm_aao_results > a[id^='lssm_aao']:containsci('"+value+"')").length === 0) {
                     $("a[id^='aao_']:containsci('" + value + "')").each(function() {
                         var id = this.id;
                         var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
@@ -87,7 +87,7 @@
                         });
                     });
                 }
-                if($("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group']:containsci('"+value+"')").length == 0) {
+                if($("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group']:containsci('"+value+"')").length === 0) {
                     $("a[id^='vehicle_group_']:containsci('" + value + "')").each(function() {
                         var id = this.id;
                         var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_vehicle_group_results").on("click", function(){
@@ -114,10 +114,10 @@
     /**
      * Initialize
      */
-    $("#mission-aao-group").before(I18n.t('lssm.aaosearch.use_dd')+'<div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm_aao_search_dropdown" '+((use_dropdown=="true")?'checked="checked"':'')+' value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm_aao_search_dropdown"></label></div>');
+    $("#mission-aao-group").before(I18n.t('lssm.aaosearch.use_dd')+'<div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm_aao_search_dropdown" '+((use_dropdown==="true")?'checked="checked"':'')+' value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm_aao_search_dropdown"></label></div>');
     // Add a reset button
     $("#mission-aao-group").before('<button id="lssm_aao_reset" class="btn btn-small btn-danger">'+I18n.t('lssm.aaosearch.reset')+'</button>');
-    if(use_dropdown == "true")
+    if(use_dropdown === "true")
     {
         // Hide all original AAO buttons
         $("#mission-aao-group div:not(.clearfix)").each(function() {
