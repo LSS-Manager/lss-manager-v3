@@ -5,7 +5,7 @@
 	I18n.translations.nl['lssm']['allianceMissionlistShare']={
         title:"In team vrijgeven"
     };
-	
+
     // NOchmals checken kann aber denke ich raus
     /*var buffermPa_sm = mission_participation_add;
 
@@ -18,7 +18,7 @@
     });
 
     function shareMissions(id) {
-        if (typeof win.alliance_id === "undefined" || win.alliance_id == 0)
+        if (typeof win.alliance_id === "undefined" || win.alliance_id === 0)
             return;
         if ($('#allianceShareButton_' + id).length === 0) {
             if (!$('#mission_panel_' + id).hasClass('panel-success')) {

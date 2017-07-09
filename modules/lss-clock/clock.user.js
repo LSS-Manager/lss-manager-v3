@@ -14,7 +14,7 @@
         * start: startet die Uhr erneut und beldet diese ein
         * stop: beendet die Uhr und blendet diese aus
       */
-      
+
         var hour = $('<span class="hour"></span>'),
             minute = $('<span class="minute"></span>'),
             second = $('<span class="second"></span>'),
@@ -58,11 +58,11 @@
                 stop: function (e, i) {
                     map.dragging.enable();
                     lssm.settings.set("ClockPosition_"+id, i.position);
-                }})    
+                }})
         }
         target.prepend(clockDiv);
       	start();
-        
+
         return {
             start: start,
             stop: stop
