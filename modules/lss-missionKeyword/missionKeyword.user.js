@@ -1563,7 +1563,6 @@
                 }
             }
         }
-        var color = 'black';
         var label = 'label-info';
 
         // Setze Label Farben
@@ -1585,7 +1584,7 @@
         }
 
         // Füge Label hinzu
-        if(titleStichwort !== null){
+        if(titleStichwort != null){
         	titleStichwort.append('<span class="label '+label+'">'+aaoText+'</span>'+additionalAaoText);
         }
     }
