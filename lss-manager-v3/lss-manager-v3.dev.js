@@ -35,8 +35,9 @@ var lssm = {
     loadScript: function (link) {
         try {
             var uid = "";
+            var game = "";
             if (typeof user_id !== "undefined") {
-                var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
             //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
@@ -48,8 +49,9 @@ var lssm = {
     loadStyle: function (link) {
         try {
             var uid = "";
+            var game = "";
             if (typeof user_id !== "undefined") {
-                var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
             $('body').append('<link href="' + this.getlink(link) + '" rel="stylesheet" type="text/css">');
@@ -60,8 +62,9 @@ var lssm = {
     getlink: function (file) {
         try {
             var uid = "";
+            var game = "";
             if (typeof user_id !== "undefined") {
-                var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
             return this.config.server + file + uid;
@@ -1304,8 +1307,9 @@ lssm.modules = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
+            var game = "";
             if (typeof user_id !== "undefined") {
-                var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
+                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
             this.addLocales(module);
