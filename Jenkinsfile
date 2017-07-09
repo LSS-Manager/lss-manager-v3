@@ -1,5 +1,5 @@
 node {
-    git branch: '${BRANCH_NAME}', credentialsId: 'githubProjekt', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
+    git branch: '${BRANCH_NAME}', credentialsId: 'LssmBotAuthKey', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
 
     def workspace = pwd()
 
