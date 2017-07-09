@@ -1,6 +1,6 @@
 (function(I18n, $) {
 	'use strict';
-	
+
 	I18n.translations.de['lssm']['managedsettings'] = {
 			title: "LSSM Einstellungen",
 			text1: "Hier kannst du Einstellungen für deine aktivierten Plugins vornehmen",
@@ -23,7 +23,7 @@
             save : "Opslaan & sluiten",
             settings_tab: "Instellingen"
 	};
-	
+
 	function renderSettings() {
 		if($('#' + lssm.config.prefix + '_appstore_ManagedSettings').length > 0) return false;
 		var markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
@@ -42,18 +42,18 @@
 		markup += '</span>';
 		markup += '</div>';
 		$('#map_outer').before(markup);
-		
+
 		var sortable = [];
 		for (var module in lssm.managedSettings.registeredModules) {
 		    sortable.push(lssm.managedSettings.registeredModules[module]);
 		}
-		
+
 		sortable.sort(function(a,b){
 		    if(a.title < b.title) return -1;
 		    if(a.title > b.title) return 1;
 		    return 0;
 		});
-		
+
 		$.each(sortable, function(){
 			var module = this;
 			var moduleKey = module.id;
@@ -65,21 +65,21 @@
 			for(var settingsKey in module.settings) {
 				if(module.settings[settingsKey].ui.parent){
 					$('#' + module.settings[settingsKey].ui.parent + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
-				} else {					
+				} else {			
 					$('#' + moduleKey + '_wrap').append(renderUIElement(moduleKey, settingsKey, module.settings[settingsKey]));
 				}
 			}
 		});
-	
 
-		
+
+
 		// Save & Close function
 		$('#' + lssm.config.prefix + '_appstore_ManagedSettings_close').click(function() {
 			saveSettings();
 			location.reload();
 		});
 	}
-	
+
 	function applyFunctions() {
         for(var moduleKey in lssm.managedSettings.registeredModules) {
             var module = lssm.managedSettings.registeredModules[moduleKey];
@@ -91,7 +91,7 @@
             }
         };
     }
-	
+
 	function renderUIElement(moduleKey, settingsKey, element){
 		var elementName = moduleKey + '_' + settingsKey;
 		var response = '<div id="' + elementName + '_wrap">';
@@ -99,7 +99,7 @@
 			var optionCount = 0;
 			$.each(element.ui.options, function(){
 				var prop_checked = "";
-				if(this.value == element.value) prop_checked = " checked ";
+				if(this.value === element.value) prop_checked = " checked ";
 				response += '<div id="' + elementName + '_' + optionCount +'_wrap">';
 				response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount +'" ' + prop_checked + ' value="' + this.value + '">';
 				response += '<label style="margin-left: 4px;" for="radio-1">' + this.title + '</label>';
@@ -117,7 +117,7 @@
 			response += '<button type="button" class="btn btn-grey btn-sm" id="' + elementName +'" style="margin-left: 16px;">';
 			response += '<span>' + element.ui.label + '</span>';
 			response += '</button>';
-		} else if(element.ui.type === "text" || element.ui.type == "int" || element.ui.type == "float"){
+		} else if(element.ui.type === "text" || element.ui.type === "int" || element.ui.type === "float"){
 			response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ?  'class="' + element.ui.class + '"' : "") + '>';
 			response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
 			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value + '">';
@@ -136,7 +136,7 @@
 		}
 		return response;
 	}
-	
+
 	function saveSettings(){
 		for(var moduleKey in lssm.managedSettings.registeredModules) {
 			var module = lssm.managedSettings.registeredModules[moduleKey];
@@ -144,7 +144,7 @@
 				var setting = module.settings[settingsKey];
 				var elementName = moduleKey + '_' + settingsKey;
 				var formElement = $('#' + elementName);
-				if(setting.ui.type === 'checkbox' || setting.ui.type == 'toggle'){
+				if(setting.ui.type === 'checkbox' || setting.ui.type === 'toggle'){
 	                if (formElement.is(':checked')) {
 	                    setting.value = true;
 	                } else {
@@ -159,7 +159,7 @@
 	            } else {
 	                setting.value = formElement.val();
 	            }
-				
+
 			}
 			lssm.managedSettings.update(module);
 		}
