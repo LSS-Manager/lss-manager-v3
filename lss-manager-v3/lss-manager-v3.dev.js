@@ -1373,9 +1373,13 @@ lssm.modal = {
         var e = parseInt($("#lightbox_background").css("width")),
             i = parseInt($("#lightbox_background").css("height")),
             n = i - 100;
-        592 > n && (n = i - 30);
+        if (592 > n) {
+            n = i - 30;
+        }
         var s = e - 70;
-        862 > s && (s = e - 0);
+        if (862 > s) {
+            s = e - 0;
+        }
         var o = s - 2,
             a = n - 34,
             r = (e - s) / 2;
