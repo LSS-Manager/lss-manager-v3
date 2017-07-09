@@ -1332,12 +1332,12 @@ lssm.modules = {
             var keys = ['name', 'description'];
             for (var k in keys) {
                 // TODO: sprechendere Variablennamen
-                j = keys[k];
+                var j = keys[k];
                 if (!(j in lssm.Module[mod])) {
                     continue;
                 }
                 for (var l in lssm.Module[mod][k]) {
-                    m = l.toString();
+                    var m = l.toString();
                     if (!(mod in I18n.translations[m].lssm.apps)) {
                         I18n.translations[m].lssm.apps[mod] = {};
                     }
@@ -1483,37 +1483,37 @@ lssm.modal = {
                         I18n.t('lssm.cantload') + '</div>');
             })
             .done(function () {
+                // There goes the core
+                var loadCore = function () {
+                    // Load required library's
+                    $("head")
+                        .append(
+                            '<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" ' +
+                            'integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>')
+                        .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +
+                            '" type="text/javascript"></script>')
+                        .append(
+                            '<link rel="stylesheet" ' +
+                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
+
+                    // Get the last activated modules
+                    var modules = lssm.settings.get('Modules') || {};
+                    for (var i in modules) {
+                        var modname = i.toString();
+                        if ((modname in lssm.Module) === false) {
+                            console.log(modname + " is not a valid app. Skipping.");
+                            continue;
+                        }
+                        if (lssm.Module[i].active === false) {
+                            lssm.Module[i].active = modules[i];
+                        }
+                    }
+                    // Let's load all the modules
+                    lssm.modules.loadall();
+                    // Oh, we also need a appstore
+                    lssm.appstore.appendAppstore();
+                };
                 loadCore();
             });
-        // There goes the core
-        var loadCore = function () {
-            // Load required library's
-            $("head")
-                .append(
-                    '<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" ' +
-                    'integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>')
-                .append('<script src="' + lssm.getlink('/lss-manager-v3/js/highcharts.min.js') +
-                    '" type="text/javascript"></script>')
-                .append(
-                    '<link rel="stylesheet" ' +
-                    'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
-
-            // Get the last activated modules
-            var modules = lssm.settings.get('Modules') || {};
-            for (var i in modules) {
-                var modname = i.toString();
-                if ((modname in lssm.Module) === false) {
-                    console.log(modname + " is not a valid app. Skipping.");
-                    continue;
-                }
-                if (lssm.Module[i].active === false) {
-                    lssm.Module[i].active = modules[i];
-                }
-            }
-            // Let's load all the modules
-            lssm.modules.loadall();
-            // Oh, we also need a appstore
-            lssm.appstore.appendAppstore();
-        };
     }
 })(I18n, jQuery);
