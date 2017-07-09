@@ -325,7 +325,7 @@ $(function(){
             set_key_mode = false;
         }
     });
-    
+
 }());
 
 function updateTable()
