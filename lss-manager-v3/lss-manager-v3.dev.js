@@ -7,7 +7,7 @@
 /**
  * Tell jQuery to allow caching beforehand!
  */
-$.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+$.ajaxPrefilter(function (options, originalOptions) {
     if (options.dataType === 'script' || originalOptions.dataType === 'script' ||
         options.dataType === 'stylesheet' || originalOptions.dataType === 'stylesheet') {
         options.cache = true;
@@ -34,7 +34,6 @@ var lssm = {
     },
     loadScript: function (link) {
         try {
-            var path = window.location.pathname.length;
             var uid = "";
             if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
@@ -48,7 +47,6 @@ var lssm = {
     },
     loadStyle: function (link) {
         try {
-            var path = window.location.pathname.length;
             var uid = "";
             if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
@@ -61,7 +59,6 @@ var lssm = {
     },
     getlink: function (file) {
         try {
-            var path = window.location.pathname.length;
             var uid = "";
             if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
