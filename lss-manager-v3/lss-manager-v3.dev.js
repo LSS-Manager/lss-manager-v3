@@ -8,8 +8,8 @@
  * Tell jQuery to allow caching beforehand!
  */
 $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
-    if (options.dataType == 'script' || originalOptions.dataType == 'script' ||
-        options.dataType == 'stylesheet' || originalOptions.dataType == 'stylesheet') {
+    if (options.dataType === 'script' || originalOptions.dataType === 'script' ||
+        options.dataType === 'stylesheet' || originalOptions.dataType === 'stylesheet') {
         options.cache = true;
     }
 });
@@ -36,7 +36,7 @@ var lssm = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined") {
+            if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
@@ -50,7 +50,7 @@ var lssm = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined") {
+            if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
@@ -63,7 +63,7 @@ var lssm = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined") {
+            if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
@@ -1094,7 +1094,7 @@ lssm.appstore = {
         //var action = lssm.appstore.checkModChanges();
         var action = this.checkModChanges();
         lssm.modules.saveall();
-        if (action == "Reload") {
+        if (action === "Reload") {
             location.reload();
         }
         else {
@@ -1167,7 +1167,7 @@ lssm.settings = {
     // Set a value to the localstorage
     set: function (key, value) {
         "use strict";
-        if (typeof value == "object")
+        if (typeof value === "object")
         // We have a object, parse it to json and save it.
         {
             localStorage.setItem(lssm.config.prefix + '_' + key, JSON.stringify(value));
@@ -1181,7 +1181,7 @@ lssm.settings = {
     // Get a config value from localstorage
     get: function (key, defaultvalue) {
         "use strict";
-        if (typeof defaultvalue == "undefined")
+        if (typeof defaultvalue === "undefined")
         // defaultvalue is not set, return null if nothing found
         {
             defaultvalue = null;
@@ -1307,14 +1307,14 @@ lssm.modules = {
         try {
             var path = window.location.pathname.length;
             var uid = "";
-            if (typeof user_id != "undefined") {
+            if (typeof user_id !== "undefined") {
                 var game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
             this.addLocales(module);
-            if (lssm.Module[module].active && lssm.Module.status != 'develop' &&
+            if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
                 lssm.appstore.canActivate(lssm.Module[module])) {
-                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe == true)) {
+                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe === true)) {
                     //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid +'" type="text/javascript"></script>');
                     $.getScript(lssm.getlink(lssm.Module[module].source));
                 }
@@ -1386,7 +1386,7 @@ lssm.modal = {
         $("#lightbox_box").css("left", r + "px");
         $("#lightbox_box").css("top", (i - n) / 2 + "px");
         $("#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container").css("height", a).css("width", o);
-        if (typeof closefunc != "undefined") {
+        if (typeof closefunc !== "undefined") {
             $(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
         }
         setTimeout('$("#lightbox_iframe_" + iframe_lightbox_number).show().focus();', 100);
@@ -1408,7 +1408,7 @@ lssm.modal = {
         .prepend('<li class="menu-center"><a href="' + lssm.config.github + '" target="_blank">' +
             I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
     // Only execute everything else if user is logged in
-    if (typeof user_id == "undefined") {
+    if (typeof user_id === "undefined") {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
     } else {
         // Oh, and don't forget the helperfunctions
@@ -1441,7 +1441,7 @@ lssm.modal = {
                     console.log(modname + " is not a valid app. Skipping.");
                     continue;
                 }
-                if (lssm.Module[i].active == false) {
+                if (lssm.Module[i].active === false) {
                     lssm.Module[i].active = modules[i];
                 }
             }
