@@ -20,7 +20,7 @@
 		hospital: "Hospital",
 		yes: "Yes"
 	};
-	
+
 	I18n.translations.nl['lssm']['destfilter'] = {
 		title : "Bestemmingsfilter",
         	beds : "Verberg volle ziekenhuizen",
@@ -53,8 +53,8 @@
 	};
 
 	lssm.managedSettings.register(managedSettings);
-	
-	
+
+
 
 	function setUi() {
 		var markup = "<div>";
@@ -62,7 +62,7 @@
 		markup +='<div><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-elegible" ' + (getSetting('destfilter-elegible') ? 'checked="checked': '' )  + '" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-destfilter-elegible"></label></div></span>'+ I18n.t('lssm.destfilter.elegible') + '</div>';
 		markup += "</div>";
 		$('.alert-info').after(markup);
-		
+
 		$('.onoffswitch-checkbox').click(function(){
 			managedSettings.settings['destfilter-beds'].value = $('#lssm-inline-destfilter-beds').is(':checked');
 			managedSettings.settings['destfilter-elegible'].value = $('#lssm-inline-destfilter-elegible').is(':checked');
@@ -81,22 +81,22 @@
 						.trim().indexOf('%') === -1) ? el.find(
 						'td:nth-child(4)').text() : el.find(
 						':nth-child(5)').text()).trim() === I18n.t('lssm.destfilter.yes');
-				if ((beds == 0 && getSetting('destfilter-beds')) || (!elegible && getSetting('destfilter-elegible'))) {
+				if ((beds === 0 && getSetting('destfilter-beds')) || (!elegible && getSetting('destfilter-elegible'))) {
 					el.fadeOut();
 				} else {
 					el.show();
 				}
 			});
 	}
-	
+
 	var sprechwunsch = $('#h2_sprechwunsch');
 	if (sprechwunsch.length > 0 && sprechwunsch.parent().text().indexOf(I18n.t('lssm.destfilter.hospital')) >= 0) {
 		setUi();
 		filter();
 	}
-	
+
 	function getSetting(setting){
 		return lssm.managedSettings.getSetting(LSS_DESTFILTER_STORAGE, setting);
 	}
-	
+
 })(I18n, jQuery);
