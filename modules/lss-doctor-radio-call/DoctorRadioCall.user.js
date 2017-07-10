@@ -1,12 +1,21 @@
 (function(I18n, $) {
 	'use strict';
+	
+    I18n.translations.de.lssm.doctorradiocall = {
+            nef: "NEF"
+    };
+    I18n.translations.en.lssm.doctorradiocall = {
+            nef: "HEMS"
+    };
+    I18n.translations.nl.lssm.doctorradiocall = {
+            nef: "MMT-Auto"
+    };
 
 	// Hook-in Patient Marker function to retrieve event
 	var patientMarkerAddOrig = patientMarkerAdd;
 	// NOSONAR: Variable is declared globally in the main game.
 	patientMarkerAdd = function(t) {
-		if (t.missing_text && t.missing_text.indexOf('NEF') >= 0) {
-			var fakeMissionUrl = "/../missions/" + t.mission_id;
+		if (t.missing_text && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0) {
 			radioMessage({
 				"mission_id" : t.mission_id,
 				"additionalText" : "",
@@ -23,6 +32,10 @@
 			// corresponding button manually.
 			$('#radio_messages_important').find('a[href="/vehicles/"]')
 					.remove();
+			
+			$('#radio_messages_important a').click(function(){
+				$(this).parent().hide();
+			});
 		}
 		patientMarkerAddOrig(t);
 	};
