@@ -188,7 +188,7 @@
 
         });
     }
-    
+
     function getVehicles(){
         var vehicles = [];
         $('#building_list .building_list_li').each(function(){
@@ -211,7 +211,7 @@
     function renderMap(){
         if (heat !== undefined) {
             map.removeLayer(heat);
-            heat = undefined;
+            heat = null;
         }
 
         if(vehicles === undefined){
