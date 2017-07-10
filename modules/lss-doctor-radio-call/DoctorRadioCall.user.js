@@ -11,7 +11,7 @@
 		nef : "MMT-Auto"
 	};
 
-	// Hook-in Patient Marker function to retrieve event
+	// Hook in Patient Marker function to retrieve event
 	var patientMarkerAddOrig = patientMarkerAdd;
 
 	patientMarkerAdd = function(t) { // NOSONAR: Variable is declared globally in the main game.
