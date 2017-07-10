@@ -261,7 +261,6 @@
         form += "<h2>"+ I18n.t('lssm.wpom.vehicles') +"</h2>";
         form += '<div id="building_vehicles"></div>';
         var modal = lssm.modal.show(form);
-        form = $(form);
 
         $(modal +" #building_building_type").on('change', function () {
             if(this.value !== "" && $(modal +" #building_name").val().length > 0)

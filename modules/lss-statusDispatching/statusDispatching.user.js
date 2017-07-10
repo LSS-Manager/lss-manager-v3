@@ -68,7 +68,6 @@
 	}
 
 	function statusDispatching() {
-		var backMission_clicked = false;
 		var next_clicked = false;
 
 		if (getSetting('fastS5')) {
@@ -95,7 +94,6 @@
 		var backToMission = document.getElementById('btn_back_to_mission');
 		if (backToMission !== null && !next_clicked) {
 			backToMission.click();
-			backMission_clicked = true;
 		}
 
 		var label = document.getElementsByClassName('alert alert-success');

@@ -82,7 +82,7 @@
                 if($("#lssm_aao_results > a[id^='lssm_aao']:containsci('"+value+"')").length === 0) {
                     $("a[id^='aao_']:containsci('" + value + "')").each(function() {
                         var id = this.id;
-                        var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
+                        $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
                             $("#"+this.id.substring(5)).click();
                         });
                     });
@@ -90,7 +90,7 @@
                 if($("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group']:containsci('"+value+"')").length === 0) {
                     $("a[id^='vehicle_group_']:containsci('" + value + "')").each(function() {
                         var id = this.id;
-                        var el = $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_vehicle_group_results").on("click", function(){
+                        $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_vehicle_group_results").on("click", function(){
                             $("#"+this.id.substring(5)).click();
                         });
                     });
