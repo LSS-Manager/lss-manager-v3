@@ -13,8 +13,8 @@
 
 	// Hook-in Patient Marker function to retrieve event
 	var patientMarkerAddOrig = patientMarkerAdd;
-	// NOSONAR: Variable is declared globally in the main game.
-	patientMarkerAdd = function(t) {
+	
+	patientMarkerAdd = function(t) { // NOSONAR: Variable is declared globally in the main game.
 		if (t.missing_text && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0) {
 			radioMessage({
 				"mission_id" : t.mission_id,
