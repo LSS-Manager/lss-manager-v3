@@ -17,9 +17,6 @@ pipeline {
                     } else {
                         extraParameter = ""
                     }
-                    echo 'PARAMETER'
-                    echo "$CHANGE_ID"
-                    echo "$extraParameter"
                     
                     withSonarQubeEnv('Sonar') {
                         withCredentials([string(credentialsId: 'LssmBotAuthKey', variable: 'TOKEN')]) {
