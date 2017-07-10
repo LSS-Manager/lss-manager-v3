@@ -11,14 +11,14 @@ pipeline {
                 script {
                     def workspace = pwd()
 
-                    if (env.CHANGE_ID) {
+                    if (CHANGE_ID) {
                         def extraParameter = ' -Dsonar.github.pullRequest=${env.CHANGE_ID} -Dsonar.analysis.mode=preview'
                     } else {
                         def extraParameter = ''
                     }
                     echo 'PARAMETER'
-                    echo '$env.CHANGE_ID'
-                    echo '$extraParameter'
+                    echo "$CHANGE_ID"
+                    echo "$extraParameter"
                 }
 
                 withSonarQubeEnv('Sonar') {
