@@ -25,7 +25,8 @@
 
 	var latestVersion = lssm.settings.get(LSS_RELEASENOTES_STORAGE);
 
-	latestVersion = null; // COMMENT THIS OUT FOR PRODUCTION!!
+	// TODO: COMMENT THIS OUT FOR PRODUCTION!!
+	latestVersion = null;
 
 	if(latestVersion !== lssm.config.version){
 		renderLayer();

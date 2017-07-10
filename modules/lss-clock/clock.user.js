@@ -69,5 +69,5 @@
         }
 
     }
-  var lssClock = new clock('lss_clock',$('#map'),true);
+  new clock('lss_clock',$('#map'),true);
 })($);
