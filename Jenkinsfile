@@ -1,9 +1,29 @@
-node {
-    git branch: '${BRANCH_NAME}', credentialsId: 'githubProjekt', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
+pipeline {
+    agent any
 
-    def workspace = pwd()
+    stages {
+        stage('Build') {
+            steps {
+                echo 'GIT CLONE'
+                checkout scm
 
-    withSonarQubeEnv('Sonar') {
-        sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarqubeScanner/bin/sonar-scanner -Dproject.settings=sonar.properties -Dsonar.github.login=eaglefsd -Dsonar.branch=${BRANCH_NAME} -Dsonar.host.url=https://sonar.hassels.eu/ -Dsonar.projectBaseDir=${WORKSPACE} -Dsonar.login=${SONAR_AUTH_TOKEN}'
+                echo 'SONARQUBE'
+                script {
+                    def workspace = pwd()
+
+                    if (env.CHANGE_ID != null && env.CHANGE_ID.startsWith('PR-')) {
+                        def extraParameter = ' -Dsonar.github.pullRequest=${CHANGE_ID} -Dsonar.analysis.mode=preview'
+                    } else {
+                        def extraParameter = ''
+                    }
+                }
+
+                withSonarQubeEnv('Sonar') {
+                    withCredentials([string(credentialsId: 'LssmBotAuthKey', variable: 'TOKEN')]) {
+                            sh '/var/lib/jenkins/tools/hudson.plugins.sonar.SonarRunnerInstallation/SonarqubeScanner/bin/sonar-scanner -Dproject.settings=sonar.properties -Dsonar.branch=${BRANCH_NAME} -Dsonar.projectBaseDir=${WORKSPACE} -Dsonar.login=${SONAR_AUTH_TOKEN} -Dsonar.github.oauth=${TOKEN} ${extraParameter}'
+                    }
+                }
+            }
+        }
     }
 }
