@@ -12,11 +12,16 @@ pipeline {
                     def workspace = pwd()
                     def extraParameter = ""
 
-                    if (CHANGE_ID) {
-                        extraParameter = " -Dsonar.github.pullRequest=${CHANGE_ID} -Dsonar.analysis.mode=preview"
-                    } else {
-                        extraParameter = ""
+                    try {
+                        if (CHANGE_ID) {
+                            extraParameter = " -Dsonar.github.pullRequest=${CHANGE_ID} -Dsonar.analysis.mode=preview"
+                        } else {
+                            extraParameter = ""
+                        }
+                    } catch (exception) {
+                        echo 'Kein PR'
                     }
+                    
                     
                     withSonarQubeEnv('Sonar') {
                         withCredentials([string(credentialsId: 'LssmBotAuthKey', variable: 'TOKEN')]) {
