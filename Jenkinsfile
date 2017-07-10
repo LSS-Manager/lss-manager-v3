@@ -5,7 +5,8 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'GIT CLONE'
-                git branch: '${BRANCH_NAME}', credentialsId: 'LssmBotAuthKey', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
+                // git branch: '${BRANCH_NAME}', credentialsId: 'LssmBotAuthKey', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
+                checkout scm
 
                 echo 'SONARQUBE'
                 script {
