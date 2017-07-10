@@ -11,7 +11,7 @@ pipeline {
                 script {
                     def workspace = pwd()
 
-                    if (env.CHANGE_ID != null) {
+                    if (CHANGE_ID != null) {
                         def extraParameter = ' -Dsonar.github.pullRequest=${CHANGE_ID} -Dsonar.analysis.mode=preview'
                     } else {
                         def extraParameter = ''
