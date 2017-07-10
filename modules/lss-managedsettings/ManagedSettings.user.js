@@ -23,6 +23,12 @@
             save : "Opslaan & sluiten",
             settings_tab: "Instellingen"
 	};
+	
+	function sortTitles(a,b){
+	    if(a.title < b.title) return -1;
+	    if(a.title > b.title) return 1;
+	    return 0;
+	}
 
 	function renderSettings() {
 		if($('#' + lssm.config.prefix + '_appstore_ManagedSettings').length > 0) return false;
@@ -48,11 +54,7 @@
 		    sortable.push(lssm.managedSettings.registeredModules[module]);
 		}
 
-		sortable.sort(function(a,b){
-		    if(a.title < b.title) return -1;
-		    if(a.title > b.title) return 1;
-		    return 0;
-		});
+		sortable.sort(sortTitles(a,b));
 
 		$.each(sortable, function(){
 			var module = this;
@@ -89,7 +91,7 @@
                     $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event,setting.ui.custom_function);
                 }
             }
-        };
+        }
     }
 
 	function renderUIElement(moduleKey, settingsKey, element){
@@ -101,7 +103,8 @@
 				var prop_checked = "";
 				if(this.value === element.value) prop_checked = " checked ";
 				response += '<div id="' + elementName + '_' + optionCount +'_wrap">';
-				response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount +'" ' + prop_checked + ' value="' + this.value + '">';
+				response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount +'" ' + prop_checked + ';
+				response += ' value="' + this.value + '">';
 				response += '<label style="margin-left: 4px;" for="radio-1">' + this.title + '</label>';
 				response += '<div style="margin-left: 16px;">' + this.description + '</div>';
 				response += '</div>';
