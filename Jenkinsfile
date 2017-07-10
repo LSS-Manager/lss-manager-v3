@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo $CHANGE_ID'
+                echo '$CHANGE_ID'
                 echo 'GIT CLONE'
                 git branch: '${BRANCH_NAME}', credentialsId: 'LssmBotAuthKey', url: 'https://github.com/LSS-Manager/lss-manager-v3.git'
 
