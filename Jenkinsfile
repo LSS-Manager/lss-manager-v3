@@ -17,8 +17,8 @@ pipeline {
                         def extraParameter = ''
                     }
                     echo 'PARAMETER'
-                    echo '${env.CHANGE_ID}'
-                    echo '${extraParameter}'
+                    echo '$env.CHANGE_ID'
+                    echo '$extraParameter'
                 }
 
                 withSonarQubeEnv('Sonar') {
