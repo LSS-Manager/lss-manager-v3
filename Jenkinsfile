@@ -10,11 +10,12 @@ pipeline {
                 echo 'SONARQUBE'
                 script {
                     def workspace = pwd()
+                    def extraParameter = ""
 
                     if (CHANGE_ID) {
-                        def extraParameter = ' -Dsonar.github.pullRequest=${env.CHANGE_ID} -Dsonar.analysis.mode=preview'
+                        extraParameter = " -Dsonar.github.pullRequest=${CHANGE_ID} -Dsonar.analysis.mode=preview"
                     } else {
-                        def extraParameter = ''
+                        extraParameter = ""
                     }
                     echo 'PARAMETER'
                     echo "$CHANGE_ID"
