@@ -387,65 +387,6 @@
 					"nl": "Tastaturalarmierung"
 				}
 			]
-		},
-		{
-			"version": "Alpha 0.3",
-			"changes": [
-				{
-					"id": "182",
-					"type": "NEW",
-					"en": "Clock",
-					"de": "Clock",
-					"nl": "Clock"
-				},
-				{
-					"id": "",
-					"type": "NEW",
-					"de": "FMS5InMap",
-					"en": "FMS5InMap",
-					"nl": "FMS5InMap"
-				},
-				{
-					"id": "",
-					"type": "NEW",
-					"de": "WachenplanungOnMap",
-					"en": "WachenplanungOnMap",
-					"nl": "WachenplanungOnMap"
-				}
-			]
-		},
-		{
-			"version": "Alpha 0.1",
-			"changes": [
-				{
-					"id": "",
-					"type": "NEW",
-					"en": "Redesign01",
-					"de": "Redesign01",
-					"nl": "Redesign01"
-				},
-				{
-					"id": "",
-					"type": "NEW",
-					"de": "Tableau",
-					"en": "Tableau",
-					"nl": "Tableau"
-				},
-				{
-					"id": "",
-					"type": "NEW",
-					"de": "Chat",
-					"en": "Chat",
-					"nl": "Chat"
-				},
-				{
-					"id": "",
-					"type": "NEW",
-					"de": "Missionout",
-					"en": "Missionout",
-					"nl": "Missionout"
-				}
-			]
 		}
 	]
 }
