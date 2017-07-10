@@ -30,12 +30,11 @@
 
 			// Due we do not get a calling vehicle_id we have to remove the
 			// corresponding button manually.
-			$('#radio_messages_important').find('a[href="/vehicles/"]')
-					.remove();
-			
-			$('#radio_messages_important a').click(function(){
+			var el = $('#radio_messages_important').find('a[href="/vehicles/"]');
+			el.parent().find('a').click(function(){
 				$(this).parent().hide();
 			});
+			el.remove();
 		}
 		patientMarkerAddOrig(t);
 	};
