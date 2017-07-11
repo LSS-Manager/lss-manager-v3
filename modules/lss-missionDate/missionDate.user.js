@@ -22,7 +22,7 @@
         var einsatzdate = $('#missionH1').data('original-title');
         if(I18n.locale === 'de')
         {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
+            $('#missionH1').insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
  -                                  '<span id="einsatzdate"></span></small><br>');
 
             einsatzdate = einsatzdate
@@ -35,7 +35,7 @@
         }
         else
         {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+
+            $('#missionH1').insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+
  -                                  I18n.t('lssm.missionDate.ago')+'</small><br>');
 
             einsatzdate = einsatzdate
