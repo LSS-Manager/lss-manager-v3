@@ -26,7 +26,7 @@
         if(I18n.locale == 'de')
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
-            einsatzdate = einsatzdate.replace(/ Januar /i, ' January ').replace(/ Februar /i, ' February ').replace(/ März /i, ' March ').replace(/ Mai /i, ' May ').replace(/ Juni /i, ' June ').replace(/ Juli /i, ' July ').replace(/ Oktober /i, ' October ').replace(/ Dezember /i, ' December ');
+            einsatzdate = einsatzdate.replace(/ Januar,/i, ' January ').replace(/ Februar,/i, ' February ').replace(/ März,/i, ' March ').replace(/ April,/i, 'April ').replace(/ Mai,/i, ' May ').replace(/ Juni,/i, ' June ').replace(/ Juli,/i, ' July ').replace(/ August,/i, 'August ').replace(/ September,/i, 'September ').replace(/ Oktober,/i, ' October ').replace(/ November,/i, 'November ').replace(/ Dezember,/i, ' December ');
         }
         else
         {
