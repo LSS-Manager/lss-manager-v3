@@ -26,11 +26,13 @@
         if(I18n.locale == 'de')
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
+            einsatzdate = einsatzdate.replace(/ Januar /i, ' January ').replace(/ Februar /i, ' February ').replace(/ März /i, ' March ').replace(/ Mai /i, ' May ').replace(/ Juni /i, ' June ').replace(/ Juli /i, ' July ').replace(/ Oktober /i, ' October ').replace(/ Dezember /i, ' December ');
+        }
         }
         else
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
-            einsatzdate = einsatzdate.replace(/ Jan /i, ' Januar 2017 ').replace(/ Feb /i, ' Februar 2017 ').replace(/ Mar /i, ' März 2017 ').replace(/ Apr /i, ' April 2017 ').replace(/ May /i, ' Mai 2017 ').replace(/ Jun /i, ' Juni 2017 ').replace(/ Jul /i, ' Juli 2017 ').replace(/ Aug /i, ' August 2017 ').replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' Oktober 2017 ').replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' Dezember 2017 ');
+            einsatzdate = einsatzdate.replace(/ Jan /i, ' January ').replace(/ Feb /i, ' February ').replace(/ Mar /i, ' March ').replace(/ Apr /i, ' April ').replace(/ May /i, ' May ').replace(/ Jun /i, ' June ').replace(/ Jul /i, ' July ').replace(/ Aug /i, ' August ').replace(/ Sep /i, ' September ').replace(/ Okt /i, ' October ').replace(/ Nov /i, ' November ').replace(/ Dec /i, ' December ');
         }            
         console.log("MD 2: "+einsatzdate);
         
@@ -38,7 +40,7 @@
         var currDate = new Date();
         console.log("MD 3: "+currDate);
         var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
-        console.log("MD 4: "+tempOlddate);
+        console.log("MD 4: "+tempOlddate);        
         missionDate = new Date(tempOlddate);
         missionDate.setFullYear(currDate.getFullYear());
         console.log("MD 5: "+missionDate);
