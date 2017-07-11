@@ -38,7 +38,7 @@
         
         var currDate = new Date();
         console.log("MD 3: "+currDate);
-        var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'')+":00";
+        var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'').replace('.','')+":00";
         console.log("MD 4: "+tempOlddate);        
         missionDate = new Date(tempOlddate);
         missionDate.setFullYear(currDate.getFullYear());
