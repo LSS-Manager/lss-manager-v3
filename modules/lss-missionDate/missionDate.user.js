@@ -30,7 +30,7 @@
         else
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
-            einsatzdate = einsatzdate.replace(/ Jan /i, ' Januar ').replace(/ Feb /i, ' Februar ').replace(/ Mar /i, ' März ').replace(/ Apr /i, ' April ').replace(/ May /i, ' Mai ').replace(/ Jun /i, ' Juni ').replace(/ Jul /i, ' Juli ').replace(/ Aug /i, ' August ').replace(/ Sep /i, ' September ').replace(/ Okt /i, ' Oktober ').replace(/ Nov /i, ' November').replace(/ Dec /i, ' Dezember');
+            einsatzdate = einsatzdate.replace(/ Jan /i, ' Januar 2017 ').replace(/ Feb /i, ' Februar 2017 ').replace(/ Mar /i, ' März 2017 ').replace(/ Apr /i, ' April 2017 ').replace(/ May /i, ' Mai 2017 ').replace(/ Jun /i, ' Juni 2017 ').replace(/ Jul /i, ' Juli 2017 ').replace(/ Aug /i, ' August 2017 ').replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' Oktober 2017 ').replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' Dezember 2017 ');
         }            
         console.log("MD 2: "+einsatzdate);
         
