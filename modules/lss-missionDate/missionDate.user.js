@@ -28,7 +28,6 @@
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
             einsatzdate = einsatzdate.replace(/ Januar /i, ' January ').replace(/ Februar /i, ' February ').replace(/ März /i, ' March ').replace(/ Mai /i, ' May ').replace(/ Juni /i, ' June ').replace(/ Juli /i, ' July ').replace(/ Oktober /i, ' October ').replace(/ Dezember /i, ' December ');
         }
-        }
         else
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
