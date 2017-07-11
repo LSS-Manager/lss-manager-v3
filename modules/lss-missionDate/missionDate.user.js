@@ -29,6 +29,7 @@
 		else
 		{
 			h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
+            einsatzdate = einsatzdate.replace(/ Jan /i, ' Januar ').replace(/ Feb /i, ' Februar ').replace(/ Mar /i, ' März ').replace(/ Apr /i, ' April ').replace(/ May /i, ' Mai ').replace(/ Jun /i, ' Juni ').replace(/ Jul /i, ' Juli ').replace(/ Aug /i, ' August ').replace(/ Sep /i, ' September ').replace(/ Okt /i, ' Oktober ').replace(/ Nov /i, ' November').replace(/ Dec /i, ' Dezember');
 		}
 		
 		
