@@ -55,7 +55,7 @@
 
         var timeGone = "";
         if (newDay > 0)
-        	timeGone += newDay + 'd ';
+        	timeGone += ' ' + newDay + 'd ';
 
         if (I18n.locale === 'en'){
             var offset = today.getTimezoneOffset()/60;
@@ -69,7 +69,7 @@
         }
         
         if (newMin > 0){
-        	timeGone += newMin + 'min'        	
+        	timeGone += ' ' + newMin + ' min'        	
         }
 
         var markup;
@@ -81,6 +81,6 @@
             markup += '<span>' + timeGone + '</span>' + I18n.t("lssm.missionDate.ago") + '</small>';
         }
 
-        $('#missionH1').next().append(markup);
+        $('#missionH1').after('<div>' + markup + '</div>');
     }
 })();
