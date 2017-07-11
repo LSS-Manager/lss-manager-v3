@@ -26,12 +26,12 @@
         if(I18n.locale == 'de')
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+' <span id="einsatzdate"></span></small><br>');
-            einsatzdate = einsatzdate.replace(/ Januar,/i, ' January ').replace(/ Februar,/i, ' February ').replace(/ März,/i, ' March ').replace(/ April,/i, 'April ').replace(/ Mai,/i, ' May ').replace(/ Juni,/i, ' June ').replace(/ Juli,/i, ' July ').replace(/ August,/i, 'August ').replace(/ September,/i, 'September ').replace(/ Oktober,/i, ' October ').replace(/ November,/i, 'November ').replace(/ Dezember,/i, ' December ');
+            einsatzdate = einsatzdate.replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ').replace(/ März,/i, ' March 2017 ').replace(/ April,/i, 'April 2017 ').replace(/ Mai,/i, ' May 2017 ').replace(/ Juni,/i, ' June 2017 ').replace(/ Juli,/i, ' July 2017 ').replace(/ August,/i, 'August 2017 ').replace(/ September,/i, 'September 2017 ').replace(/ Oktober,/i, ' October 2017 ').replace(/ November,/i, 'November 2017 ').replace(/ Dezember,/i, ' December 2017 ');
         }
         else
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
-            einsatzdate = einsatzdate.replace(/ Jan /i, ' January ').replace(/ Feb /i, ' February ').replace(/ Mar /i, ' March ').replace(/ Apr /i, ' April ').replace(/ May /i, ' May ').replace(/ Jun /i, ' June ').replace(/ Jul /i, ' July ').replace(/ Aug /i, ' August ').replace(/ Sep /i, ' September ').replace(/ Okt /i, ' October ').replace(/ Nov /i, ' November ').replace(/ Dec /i, ' December ');
+            einsatzdate = einsatzdate.replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ').replace(/ Mar /i, ' March 2017 ').replace(/ Apr /i, ' April 2017 ').replace(/ May /i, ' May 2017 ').replace(/ Jun /i, ' June 2017 ').replace(/ Jul /i, ' July 2017 ').replace(/ Aug /i, ' August 2017 ').replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' October 2017 ').replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' December 2017 ');
         }            
         console.log("MD 2: "+einsatzdate);
         
