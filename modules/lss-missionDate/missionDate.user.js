@@ -17,7 +17,7 @@
         created: 'Inzet begonnen: ',
         time_postfix: ' Uhr'
     };
-    
+    console.log("MD 0: v123");
     var h1 = document.getElementById('missionH1');
     if (h1 !== null)
     {
