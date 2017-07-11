@@ -17,14 +17,17 @@
         time_postfix: ' Uhr'
     };
 
-    var h1 = document.getElementById('missionH1');
-    if (h1 !== null)
+    if ($('#missionH1') !== null)
     {
         var einsatzdate = $('#missionH1').data('original-title');
         if(I18n.locale === 'de')
         {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
-                                  '<span id="einsatzdate"></span></small><br>');
+            $('#missionH1').append(
+                  '<small>' +
+                      einsatzdate + ' - ' + I18n.t('lssm.missionDate.ago') +
+                      '<span id="einsatzdate"></span>'+
+                  '</small><br>'
+            );
 
             einsatzdate = einsatzdate
                 .replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ')
@@ -36,8 +39,13 @@
         }
         else
         {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+
-                                  I18n.t('lssm.missionDate.ago')+'</small><br>');
+            $('#missionH1').append(
+                  '<small>' +
+                      einsatzdate + ' - '+
+                      <span id="einsatzdate"></span> '+
+                      I18n.t('lssm.missionDate.ago')+
+                  '</small><br>'
+            );
 
             einsatzdate = einsatzdate
                 .replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ')
