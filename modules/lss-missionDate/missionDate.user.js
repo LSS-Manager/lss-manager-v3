@@ -40,7 +40,6 @@
     if(missionDate != null){
     	// Parse mission date to Date() object
     	var parsedMissionDate = parseMissionDate(missionDate);
-    	console.log(parsedMissionDate);
 
     	var today = new Date();
     	var timeDiff = today.getTime() - parsedMissionDate.getTime();
@@ -59,7 +58,7 @@
 
         var timeGone = "";
         if (newDay > 0)
-        	timeGone += ' ' + newDay + 'd ';
+        	timeGone += ' ' + newDay + ' d';
 
         if (I18n.locale === 'en'){
             var offset = today.getTimezoneOffset()/60;
@@ -69,7 +68,7 @@
         }
 
         if (newHour > 0){
-        	timeGone += newHour + 'h '        	
+        	timeGone += ' ' + newHour + ' h'        	
         }
         
         if (newMin > 0){
@@ -79,10 +78,10 @@
         var markup;
         if (I18n.locale === 'de'){
             markup = '<small>' + missionDate + ' - ' + I18n.t("lssm.missionDate.ago");
-            markup += '<span>' + timeGone + '</span></small>';	
+            markup += '<span> ' + timeGone + '</span></small>';	
         } else {
             markup = '<small>' + missionDate + ' - ';
-            markup += '<span>' + timeGone + '</span>' + I18n.t("lssm.missionDate.ago") + '</small>';
+            markup += '<span>' + timeGone + '</span> ' + I18n.t("lssm.missionDate.ago") + '</small>';
         }
 
         $('#missionH1').after('<div>' + markup + '</div>');
