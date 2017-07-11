@@ -21,7 +21,6 @@
     if (h1 !== null)
     {
         var einsatzdate = $('#missionH1').data('original-title');
-        console.log("MD 1: "+einsatzdate);
         if(I18n.locale === 'de')
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
