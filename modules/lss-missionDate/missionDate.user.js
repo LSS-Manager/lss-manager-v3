@@ -37,9 +37,10 @@
         
         var currDate = new Date();
         console.log("MD 3: "+currDate);
-        var tempOlddate = einsatzdate.replace(',', ' '+currDate.getFullYear()+',').replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
+        var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
         console.log("MD 4: "+tempOlddate);
         missionDate = new Date(tempOlddate);
+        missionDate.setFullYear(currDate.getFullYear());
         console.log("MD 5: "+missionDate);
     
         var timeDiff = currDate.getTime() - missionDate.getTime();
@@ -47,9 +48,10 @@
         
         if(timeDiff < 0)
         {
-            tempOlddate = h1.getAttribute("data-original-title").replace(',', ' '+currDate.getFullYear()-1+',').replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
+            tempOlddate = h1.getAttribute("data-original-title").replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
             console.log("MD 7: "+tmpOlddate);
             missionDate = new Date(tempOlddate);
+            missionDate.setFullYear(currDate.getFullYear()-1);
             console.log("MD 8: "+missionDate);
             
             timeDiff = currDate.getTime() - xDate.getTime();
