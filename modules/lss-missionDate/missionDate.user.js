@@ -40,7 +40,7 @@
         console.log("MD 3: "+currDate);
         var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
         console.log("MD 4: "+tempOlddate);        
-        missionDate = new Date(tempOlddate);
+        missionDate = new Date(tempOlddate+":00");
         missionDate.setFullYear(currDate.getFullYear());
         console.log("MD 5: "+missionDate);
     
