@@ -22,12 +22,8 @@
         var einsatzdate = $('#missionH1').data('original-title');
         if(I18n.locale === 'de')
         {
-            $('#missionH1').append(
-                  '<small>' +
-                      einsatzdate + ' - ' + I18n.t('lssm.missionDate.ago') +
-                      '<span id="einsatzdate"></span>'+
-                  '</small><br>'
-            );
+            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
+ -                                  '<span id="einsatzdate"></span></small><br>');
 
             einsatzdate = einsatzdate
                 .replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ')
@@ -39,13 +35,8 @@
         }
         else
         {
-            $('#missionH1').append(
-                  '<small>' +
-                      einsatzdate + ' - '+
-                      '<span id="einsatzdate"></span> '+
-                      I18n.t('lssm.missionDate.ago')+
-                  '</small><br>'
-            );
+            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+
+ -                                  I18n.t('lssm.missionDate.ago')+'</small><br>');
 
             einsatzdate = einsatzdate
                 .replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ')
