@@ -1,74 +1,48 @@
 (function() {
     I18n.translations.de['lssm']['missionDate'] = {
         ago: 'Vor',
-        created: 'Einsatz eingegangen: ',
-        time_postfix: ' Uhr'
+        dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
     };
 
     I18n.translations.en['lssm']['missionDate'] = {
         ago: 'ago',
-        created: 'Created at: ',
-        time_postfix: ' Uhr'
+        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
     };
 
     I18n.translations.nl['lssm']['missionDate'] = {
         ago: 'geleden',
-        created: 'Inzet begonnen: ',
-        time_postfix: ' Uhr'
+        dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
     };
 
-    var h1 = document.getElementById('missionH1');
-    if (h1 !== null)
-    {
-        var einsatzdate = $('#missionH1').data('original-title');
-        if(I18n.locale === 'de')
-        {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
-                                  '<span id="einsatzdate"></span></small><br>');
+    function parseMissionDate(dateString){
+    	var matches = dateString.match(I18n.t('lssm.missionDate.dateRegex'));
+    	var day = matches[1];
+    	var month = matches[2];
+    	var hour = matches[3];
+    	var minute = matches[4];
+    	if(I18n.currentLocale() === "de"){
+    		months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+    		month = months.indexOf(month);
+    	} else if(I18n.currentLocale() === "nl"){
+    		months = ['jan', 'febr', 'maart', 'apr', 'mei', 'juni', 'juli', 'aug', 'sept', 'okt', 'nov', 'dec'];
+    		month = months.indexOf(month);
+    	}
+    	var today = new Date();
+    	var year = today.getFullYear();
+    	return new Date(year, month, day, hour, minute, 0, 0);
+    }
 
-            einsatzdate = einsatzdate
-                .replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ')
-                .replace(/ März,/i, ' March 2017 ').replace(/ April,/i, 'April 2017 ')
-                .replace(/ Mai,/i, ' May 2017 ').replace(/ Juni,/i, ' June 2017 ')
-                .replace(/ Juli,/i, ' July 2017 ').replace(/ August,/i, 'August 2017 ')
-                .replace(/ September,/i, 'September 2017 ').replace(/ Oktober,/i, ' October 2017 ')
-                .replace(/ November,/i, 'November 2017 ').replace(/ Dezember,/i, ' December 2017 ');
-        }
-        else
-        {
-            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+
-                                  I18n.t('lssm.missionDate.ago')+'</small><br>');
+    // Just execute the script when there is a mission Headline
+    var missionDate = $('#missionH1').length > 0 ? $('#missionH1').data('original-title') : null;
+    if(missionDate != null){
+    	// Parse mission date to Date() object
+    	var parsedMissionDate = parseMissionDate(missionDate);
 
-            einsatzdate = einsatzdate
-                .replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ')
-                .replace(/ Mar /i, ' March 2017 ').replace(/ Apr /i, ' April 2017 ')
-                .replace(/ May /i, ' May 2017 ').replace(/ Jun /i, ' June 2017 ')
-                .replace(/ Jul /i, ' July 2017 ').replace(/ Aug /i, ' August 2017 ')
-                .replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' October 2017 ')
-                .replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' December 2017 ');
-        }
-
-        var currDate = new Date();
-        var tempOlddate = einsatzdate
-        .replace(I18n.t('lssm.missionDate.time_postfix'),'')
-        .replace(I18n.t('lssm.missionDate.created'),'')
-        .replace('.','')+":00";
-
-        var missionDate = new Date(tempOlddate);
-        missionDate.setFullYear(currDate.getFullYear());
-
-        var timeDiff = currDate.getTime() - missionDate.getTime();
-
-        if(timeDiff < 0)
-        {
-            tempOlddate = h1.getAttribute("data-original-title")
-                .replace(I18n.t('lssm.missionDate.time_postfix'),'')
-                .replace(I18n.t('lssm.missionDate.created'),'');
-
-            missionDate = new Date(tempOlddate);
-            missionDate.setFullYear(currDate.getFullYear()-1);
-
-            timeDiff = currDate.getTime() - missionDate.getTime();
+    	var today = new Date();
+    	var timeDiff = today.getTime() - parsedMissionDate.getTime();
+        if(timeDiff < 0) {
+        	parsedMissionDate.setFullYear(currDate.getFullYear()-1);
+            timeDiff = today.getTime() - parsedMissionDate.getTime();
         }
 
         var minutes = (timeDiff/1000)/60;
@@ -79,28 +53,34 @@
         var newHour = Math.floor(hours % 24);
         var newMin = Math.floor(minutes % 60);
 
-        if (newDay >= 1)
-            newDay = newDay + 'd ';
-        else
-            newDay = '';
+        var timeGone = "";
+        if (newDay > 0)
+        	timeGone += newDay + 'd ';
 
-        if (I18n.locale === 'en')
-        {
-            var offset = currDate.getTimezoneOffset()/60;
-            //Zahl 4, weil EST UTC+4 ist
+        if (I18n.locale === 'en'){
+            var offset = today.getTimezoneOffset()/60;
+            // Zahl 4, weil EST UTC+4 ist
             var newOffset = 4 - offset;
             newHour -= newOffset;
         }
 
-        if (newHour >= 1)
-            newHour = newHour + 'h ';
-        else
-            newHour = '';
+        if (newHour > 0){
+        	timeGone += newHour + 'h '        	
+        }
+        
+        if (newMin > 0){
+        	timeGone += newMin + 'min'        	
+        }
 
-        if (newMin < 0)
-            newMin = 0;
+        var markup;
+        if (I18n.locale === 'de'){
+            markup = '<small>' + missionDate + ' - ' + I18n.t("lssm.missionDate.ago");
+            markup += '<span>' + timeGone + '</span></small>';	
+        } else {
+            markup = '<small>' + missionDate + ' - ';
+            markup += '<span>' + timeGone + '</span>' + I18n.t("lssm.missionDate.ago") + '</small>';
+        }
 
-        if (document.getElementById('einsatzdate') !== null)
-            document.getElementById('einsatzdate').innerHTML = newDay + newHour + newMin + ' min';
+        $('#missionH1').next().append(markup);
     }
 })();
