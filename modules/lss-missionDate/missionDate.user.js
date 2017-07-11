@@ -42,7 +42,7 @@
             $('#missionH1').append(
                   '<small>' +
                       einsatzdate + ' - '+
-                      <span id="einsatzdate"></span> '+
+                      '<span id="einsatzdate"></span> '+
                       I18n.t('lssm.missionDate.ago')+
                   '</small><br>'
             );
