@@ -11,7 +11,7 @@
 
     I18n.translations.nl['lssm']['missionDate'] = {
         ago: 'geleden',
-        dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
+        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
     };
 
     function parseMissionDate(dateString){
@@ -24,7 +24,10 @@
     		months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
     		month = months.indexOf(month);
     	} else if(I18n.currentLocale() === "nl"){
-    		months = ['jan', 'febr', 'maart', 'apr', 'mei', 'juni', 'juli', 'aug', 'sept', 'okt', 'nov', 'dec'];
+    		months = ['jan', 'feb', 'maart', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+    		month = months.indexOf(month);
+    	} else if(I18n.currentLocale() === "en"){
+    		months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     		month = months.indexOf(month);
     	}
     	var today = new Date();
@@ -37,6 +40,7 @@
     if(missionDate != null){
     	// Parse mission date to Date() object
     	var parsedMissionDate = parseMissionDate(missionDate);
+    	console.log(parsedMissionDate);
 
     	var today = new Date();
     	var timeDiff = today.getTime() - parsedMissionDate.getTime();
