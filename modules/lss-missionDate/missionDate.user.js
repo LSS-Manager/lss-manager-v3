@@ -17,12 +17,13 @@
         time_postfix: ' Uhr'
     };
 
-    if ($('#missionH1') !== null)
+    var h1 = document.getElementById('missionH1');
+    if (h1 !== null)
     {
         var einsatzdate = $('#missionH1').data('original-title');
         if(I18n.locale === 'de')
         {
-            $('#missionH1').insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
+            h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - '+I18n.t('lssm.missionDate.ago')+
  -                                  '<span id="einsatzdate"></span></small><br>');
 
             einsatzdate = einsatzdate
