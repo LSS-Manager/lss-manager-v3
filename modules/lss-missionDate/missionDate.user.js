@@ -10,13 +10,13 @@
         created: 'Created at: ',
         time_postfix: ' Uhr'
     };
-    
+
     I18n.translations.nl['lssm']['missionDate'] = {
         ago: 'geleden',
         created: 'Inzet begonnen: ',
         time_postfix: ' Uhr'
     };
-    
+
     var h1 = document.getElementById('missionH1');
     if (h1 !== null)
     {
@@ -28,10 +28,12 @@
                                   '<span id="einsatzdate"></span></small><br>');
             
             einsatzdate = einsatzdate
-                            .replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ').replace(/ März,/i, ' March 2017 ')
-                            .replace(/ April,/i, 'April 2017 ').replace(/ Mai,/i, ' May 2017 ').replace(/ Juni,/i, ' June 2017 ')
-                            .replace(/ Juli,/i, ' July 2017 ').replace(/ August,/i, 'August 2017 ').replace(/ September,/i, 'September 2017 ')
-                            .replace(/ Oktober,/i, ' October 2017 ').replace(/ November,/i, 'November 2017 ').replace(/ Dezember,/i, ' December 2017 ');
+                            .replace(/ Januar,/i, ' January 2017 ').replace(/ Februar,/i, ' February 2017 ')
+                            .replace(/ März,/i, ' March 2017 ').replace(/ April,/i, 'April 2017 ')
+                            .replace(/ Mai,/i, ' May 2017 ').replace(/ Juni,/i, ' June 2017 ')
+                            .replace(/ Juli,/i, ' July 2017 ').replace(/ August,/i, 'August 2017 ')
+                            .replace(/ September,/i, 'September 2017 ').replace(/ Oktober,/i, ' October 2017 ')
+                            .replace(/ November,/i, 'November 2017 ').replace(/ Dezember,/i, ' December 2017 ');
         }
         else
         {
@@ -39,10 +41,12 @@
                                   I18n.t('lssm.missionDate.ago')+'</small><br>');
             
             einsatzdate = einsatzdate
-                            .replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ').replace(/ Mar /i, ' March 2017 ')
-                            .replace(/ Apr /i, ' April 2017 ').replace(/ May /i, ' May 2017 ').replace(/ Jun /i, ' June 2017 ')
-                            .replace(/ Jul /i, ' July 2017 ').replace(/ Aug /i, ' August 2017 ').replace(/ Sep /i, ' September 2017 ')
-                            .replace(/ Okt /i, ' October 2017 ').replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' December 2017 ');
+                            .replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ')
+                            .replace(/ Mar /i, ' March 2017 ').replace(/ Apr /i, ' April 2017 ')
+                            .replace(/ May /i, ' May 2017 ').replace(/ Jun /i, ' June 2017 ')
+                            .replace(/ Jul /i, ' July 2017 ').replace(/ Aug /i, ' August 2017 ')
+                            .replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' October 2017 ')
+                            .replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' December 2017 ');
         }                    
         
         var currDate = new Date();
