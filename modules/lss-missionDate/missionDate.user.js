@@ -17,7 +17,7 @@
         created: 'Inzet begonnen: ',
         time_postfix: ' Uhr'
     };
-    console.log("MD 0: v123");
+    
     var h1 = document.getElementById('missionH1');
     if (h1 !== null)
     {
@@ -32,49 +32,36 @@
         {
             h1.insertAdjacentHTML('afterend', '<small>'+einsatzdate+' - <span id="einsatzdate"></span> '+I18n.t('lssm.missionDate.ago')+'</small><br>');
             einsatzdate = einsatzdate.replace(/ Jan /i, ' January 2017 ').replace(/ Feb /i, ' February 2017 ').replace(/ Mar /i, ' March 2017 ').replace(/ Apr /i, ' April 2017 ').replace(/ May /i, ' May 2017 ').replace(/ Jun /i, ' June 2017 ').replace(/ Jul /i, ' July 2017 ').replace(/ Aug /i, ' August 2017 ').replace(/ Sep /i, ' September 2017 ').replace(/ Okt /i, ' October 2017 ').replace(/ Nov /i, ' November 2017 ').replace(/ Dec /i, ' December 2017 ');
-        }            
-        console.log("MD 2: "+einsatzdate);
-        
+        }                    
         
         var currDate = new Date();
-        console.log("MD 3: "+currDate);
-        var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'').replace('.','')+":00";
-        console.log("MD 4: "+tempOlddate);        
+        var tempOlddate = einsatzdate.replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'').replace('.','')+":00";      
         missionDate = new Date(tempOlddate);
         missionDate.setFullYear(currDate.getFullYear());
-        console.log("MD 5: "+missionDate);
     
         var timeDiff = currDate.getTime() - missionDate.getTime();
-        console.log("MD 6: "+timeDiff);
         
         if(timeDiff < 0)
         {
             tempOlddate = h1.getAttribute("data-original-title").replace(I18n.t('lssm.missionDate.time_postfix'),'').replace(I18n.t('lssm.missionDate.created'),'');
-            console.log("MD 7: "+tmpOlddate);
             missionDate = new Date(tempOlddate);
             missionDate.setFullYear(currDate.getFullYear()-1);
-            console.log("MD 8: "+missionDate);
             
             timeDiff = currDate.getTime() - missionDate.getTime();
-            console.log("MD 9: "+timeDiff);
         }
         
         var minutes = (timeDiff/1000)/60;
         var hours = minutes/60;
         var days = hours/24;
-        console.log("MD 10: "+days+" - "+hours+" - "+minutes);
                         
         var newDay = Math.floor(days);
         var newHour = Math.floor(hours % 24);
         var newMin = Math.floor(minutes % 60);
-        console.log("MD 11: "+newDay+" - "+newHour+" - "+newMin);
         
         if (newDay >= 1)
             newDay = newDay + 'd ';
         else
             newDay = '';
-        
-        console.log("MD 12: "+newDay);
         
         if (I18n.locale == 'en')
         {
@@ -83,19 +70,14 @@
             var newOffset = 4 - offset;
                 newHour -= newOffset;
         }
-        console.log("MD 13: "+newHour);
         
         if (newHour >= 1)
             newHour = newHour + 'h ';
         else
             newHour = '';
         
-        console.log("MD 14: "+newHour);
-        
         if (newMin < 0)
             newMin = 0;
-        
-        console.log("MD 15: "+newMin);
         
         if (document.getElementById('einsatzdate') !== null)
             document.getElementById('einsatzdate').innerHTML = newDay + newHour + newMin + ' min';
