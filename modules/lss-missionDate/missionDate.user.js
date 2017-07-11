@@ -54,7 +54,7 @@
             missionDate.setFullYear(currDate.getFullYear()-1);
             console.log("MD 8: "+missionDate);
             
-            timeDiff = currDate.getTime() - xDate.getTime();
+            timeDiff = currDate.getTime() - missionDate.getTime();
             console.log("MD 9: "+timeDiff);
         }
         
