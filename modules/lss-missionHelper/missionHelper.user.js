@@ -8,8 +8,8 @@
 				2 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 370 </span>',
 				3 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 340 </span>',
 				4 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 200 </span>',
-				5 : '2x Löschfahrzeuge (100%)</br>1x Drehleiter (30%)</br>1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (50%)</br></br><span class="badge">Credits: ~ 1400 </span>',
-				6 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
+				5 : '2x Löschfahrzeuge (100%)</br>1x Drehleiter (30%)</br>1x Rettungstransportwagen</br>' +
+				'1x Notarzteinsatzfahrzeug (50%)</br></br><span class="badge">Credits: ~ 1400 </span>',				6 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				7 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 210 </span>',
 				8 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 220 </span>',
 				9 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 250 </span>',
