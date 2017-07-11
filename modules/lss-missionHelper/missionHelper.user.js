@@ -45,9 +45,11 @@
 				'</br></br><span class="badge">Credits: ~ 1310 </span>',
 				33 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1200 </span>',
 				34 : '3x Löschfahrzeuge (100%) </br>1x Drehleiter (70%)</br>1x Rüstwagen (30%) </br>1x Einsatzleitwagen 1 (100%)' +
-				'</br>1x Einsatzleitwagen 2 (20%) </br> 1x GW-Messtechnik (30%)</br></br><span class="badge">Credits: ~ 3710 </span>',
+				'</br>1x Einsatzleitwagen 2 (20%) </br> 1x GW-Messtechnik (30%)</br></br><span class="badge">' +
+				'Credits: ~ 3710 </span>',
 				35 : '4x Löschfahrzeuge (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)' +
-				'</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 3810 </span>',
+				'</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br></br>' +
+				'<span class="badge">Credits: ~ 3810 </span>',
 				36 : '4x Löschfahrzeuge (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)' +
 				'</br>1x GW-Messtechnik (20%)</br>1x Dekon P (10%)</br></br><span class="badge">Credits: ~ 3310 </span>',
 				37 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 110 </span>',
@@ -146,7 +148,8 @@
 				'</br>Notarzteinsatzfahrzeug (80%)</br></br><span class="badge">Credits: ~ 17000 </span>',
 				100 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (50%)</br></br><span class="badge">Credits: ~ 900 </span>',
 				101 : '2x Löschfahrzeuge (100%)</br>1x Drehleiter (30%)</br>1x Funkstreifenwagen (50%)</br>' +
-				'1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (50%)</br></br><span class="badge">Credits: ~ 1500 </span>',
+				'1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (50%)</br></br>' +
+				'<span class="badge">Credits: ~ 1500 </span>',
 				102 : '3x Löschfahrzeuge (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (70%)' +
 				'</br></br><span class="badge">Credits: ~ 2000 </span>',
 				103 : '3x Löschfahrzeuge (100%)</br>1x Drehleiter (50%)</br>1x Einsatzleitwagen 1 (70%)' +
@@ -1054,7 +1057,8 @@
 		setValues();
 		var missionId = missionHelp.attr('href').split("/").pop();
 		aaoText = I18n.t('lssm.missionHelper.missions.' + missionId);
-		var markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') + '</h3>' + aaoText + '</div>';
+		var markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') +
+		'</h3>' + aaoText + '</div>';
 		$('#mission-form').prepend(markup);
 	}
 
