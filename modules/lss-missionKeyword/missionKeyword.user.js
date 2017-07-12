@@ -1,7 +1,7 @@
 (function() {
 
     var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
-    var VERSION = "1.0";
+    var VERSION = "1.1";
     
 	function setSettings(){
 
@@ -1484,12 +1484,11 @@
                     }
                         
                 }
-                
-                if(!aaoText.match(I18n.t('lssm.missionKeyword.rd')))
+                if(!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')))
                 {
                     additionalAaoText = '<span class="label label-warning">';
                     
-                    if(I18n.t('lssm.missionKeyword.rd') === 'RD')
+                    if(I18n.t('lssm.missionKeywordDefaults.rd') === 'RD')
                     {
                         // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
                         if (anzahlPatients > 1 && anzahlPatients < 4)
@@ -1509,7 +1508,7 @@
                         else if (anzahlPatients >= 101)
                             additionalAaoText += 'MANV 100+';
                     }
-                    if(I18n.t('lssm.missionKeyword.rd') === 'NOTF')
+                    if(I18n.t('lssm.missionKeywordDefaults.rd') === 'NOTF')
                     {
                         // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
                         if (anzahlPatients > 5 && anzahlPatients < 11)
@@ -1526,7 +1525,7 @@
             }
             else if (I18n.locale === 'en')
             {
-                if(!aaoText.match('MED '))
+                if(!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')))
                 {
                     additionalAaoText = '<span class="label label-warning">';
                     if (anzahlPatients >= 10 && anzahlPatients < 21)
@@ -1545,7 +1544,7 @@
             }
             else if (I18n.locale === 'nl')
             {
-                if(!aaoText.match('A 1'))
+                if(!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')))
                 {
                     additionalAaoText = '<span class="label label-warning">';
                     if (anzahlPatients >= 10 && anzahlPatients < 21)
