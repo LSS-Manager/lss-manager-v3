@@ -91,7 +91,7 @@
         }
 
         var label = document.getElementsByClassName('alert alert-success');
-        allTransported = false;
+        var allTransported = false;
         for (var i = 0; i < label.length; i++) {
             if (label[i].innerText.match(I18n.t('lssm.statusDispatching.fms5H1'))) {
                 allTransported = true;
