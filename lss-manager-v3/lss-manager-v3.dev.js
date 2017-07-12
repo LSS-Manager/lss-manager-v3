@@ -1302,11 +1302,11 @@ lssm.managedSettings = {
 
     update: function (moduleSettings) {
         "use strict";
-        
+
         // Store managedSettings for runtime
         var moduleId = moduleSettings.id;
         lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
-        
+
         // Strip down settings object to values only and persist them
         var storeSettings = {};
         var settingsKey;
