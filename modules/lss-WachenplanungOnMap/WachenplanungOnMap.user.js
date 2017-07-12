@@ -24,16 +24,16 @@
         brem: "Remove planned building"
     };
     I18n.translations.nl['lssm']['wpom'] = {
-		setmarker: "Plaats markering",
-		remmarker: "Verwijder markering",
-		plan: "Plaats een gepland gebouw",
-		vehicles: "Voertuigen",
-		btype: "Gebouwtype",
-		bname: "Naam",
-		addveh: "voeg voertuig toe",
-		set: "Plaats",
-		rem: "Verwijder",
-		brem: "Verwijder gepland gebouw"
+	setmarker: "Plaats markering",
+	remmarker: "Verwijder markering",
+	plan: "Plaats een gepland gebouw",
+	vehicles: "Voertuigen",
+	btype: "Gebouwtype",
+	bname: "Naam",
+	addveh: "voeg voertuig toe",
+	set: "Plaats",
+	rem: "Verwijder",
+	brem: "Verwijder gepland gebouw"
     };
     var markers = [], settings = {set:{ils: false, fw: false, pol: false, rw: false, thw: false, bp: false, kh: false, radius: 5,showCars:true,showSlider:true,showRadInput:false}, locale: I18n.locale || 'de', translations: {
             de: {
@@ -224,7 +224,7 @@
         }).on("dragend", function(e){
             var id = e.target.options.id;
             var pos = e.target._latlng;
-            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id == id) {return index}});
+            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id === id) {return index}});
             plannedMarkers[index[0]].p = pos;
             lssm.settings.set("wpomp", plannedMarkers);
         })
@@ -261,23 +261,22 @@
         form += "<h2>"+ I18n.t('lssm.wpom.vehicles') +"</h2>";
         form += '<div id="building_vehicles"></div>';
         var modal = lssm.modal.show(form);
-        form = $(form);
 
         $(modal +" #building_building_type").on('change', function () {
-            if(this.value != "" && $(modal +" #building_name").val().length > 0)
+            if(this.value !== "" && $(modal +" #building_name").val().length > 0)
                 $(modal +" #addmarker").show();
             else
                 $(modal +" #addmarker").hide();
         });
         $(modal +" #building_name").on('keyup', function () {
-            if(this.value.length >0 && $(modal +" #building_building_type").val() != "")
+            if(this.value.length >0 && $(modal +" #building_building_type").val() !== "")
                 $(modal +" #addmarker").show();
             else
                 $(modal +" #addmarker").hide();
         });
         $(modal +' #building_vehicle').on('change', function (ev) {
             var e = ev.target;
-            if (e.value != "")
+            if (e.value !== "")
             {
                 var val = parseInt(e.value);
                 $( modal + " #building_vehicles" ).append('<div style="margin: 5px;" data-type="'+val+'"><a href="#" onclick="$(this).parent().remove();"><i class="fa fa-times red"></i></a>&nbsp;'+e[val+1].text+'</div>');
@@ -314,7 +313,7 @@
         form += '<button class="btn btn-success btn pull-right" style="display:none;" id="remmarker">'+ I18n.t('lssm.wpom.rem') +'</button>';
         var modal = lssm.modal.show(form);
         $(modal +" #planned_building").on('change', function () {
-            if(this.value != "")
+            if(this.value !== "")
                 $(modal +" #remmarker").show();
             else
                 $(modal +" #remmarker").hide();
@@ -322,11 +321,11 @@
         $(modal +' #remmarker').on('click', function (ev) {
             /*plannedMarkers.push({id: pmid, n:name, t:type, c:cars});*/
             var id = parseInt($(modal +" #planned_building").val());
-            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id == id) {return index}});
+            var index = $.map(plannedMarkers, function(obj, index) {if(obj.id === id) {return index}});
             plannedMarkers.splice(index[0], 1);
             lssm.settings.set("wpomp", plannedMarkers);
             var index = $.map(plannedMarkersMap, function(obj, index) {
-                if(obj.options.id == id) {
+                if(obj.options.id === id) {
                     map.removeLayer(obj);
                     return index
                 }
@@ -428,7 +427,7 @@
         .done(function (data) {
             $.each($(data).find("#building_building_type option"), function (key, value) {
                 "use strict";
-                if (value.value != "")
+                if (value.value !== "")
                     btypes[value.value] = value.text;
             });
         });
