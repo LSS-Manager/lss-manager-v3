@@ -992,10 +992,6 @@ lssm.appstore = {
                 '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
                 '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') + '</small>' +
                 '</div>' +
-                //'<div class="panel-footer">' +
-                //'<a href="' + lssm.config.github + mod.ghuser + '">Github</a><div class="pull-right"><span>' +
-                // mod.version + '</span> / <span>' + mod.copyright + '</span>' +
-                //'</div>' +
                 '</div>' +
                 '</div>');
             panel.find("h4").on("click", function () {
