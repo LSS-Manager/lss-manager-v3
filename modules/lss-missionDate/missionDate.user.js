@@ -21,13 +21,13 @@
     	var hour = matches[3];
     	var minute = matches[4];
     	if(I18n.currentLocale() === "de"){
-    		months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+    		var months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
     		month = months.indexOf(month);
     	} else if(I18n.currentLocale() === "nl"){
-    		months = ['jan', 'feb', 'maart', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
+    		var months = ['jan', 'feb', 'maart', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'];
     		month = months.indexOf(month);
     	} else if(I18n.currentLocale() === "en"){
-    		months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    		var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     		month = months.indexOf(month);
     	}
     	var today = new Date();
@@ -68,17 +68,17 @@
         }
 
         if (newHour > 0){
-        	timeGone += ' ' + newHour + ' h'        	
+        	timeGone += ' ' + newHour + ' h';
         }
-        
+
         if (newMin > 0){
-        	timeGone += ' ' + newMin + ' min'        	
+        	timeGone += ' ' + newMin + ' min';
         }
 
         var markup;
         if (I18n.locale === 'de'){
             markup = '<small>' + missionDate + ' - ' + I18n.t("lssm.missionDate.ago");
-            markup += '<span> ' + timeGone + '</span></small>';	
+            markup += '<span> ' + timeGone + '</span></small>';
         } else {
             markup = '<small>' + missionDate + ' - ';
             markup += '<span>' + timeGone + '</span> ' + I18n.t("lssm.missionDate.ago") + '</small>';
