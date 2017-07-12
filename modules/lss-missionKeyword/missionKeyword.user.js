@@ -5,7 +5,7 @@
 
     function setSettings(){
 
-        I18n.translations.de['lssm']['missionKeywordDefaults'] = {	
+        I18n.translations.de['lssm']['missionKeywordDefaults'] = {
             name: 'Einsatzstichworte',
             settingsName: 'Einsatzstichworte - Einstellungen',
             domain: 'leitstellenspiel.de',
