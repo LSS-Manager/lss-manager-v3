@@ -1,9 +1,8 @@
 (function() {
 
     var LSS_FASTS5_STORAGE = "StatusDispatching";
-    var VERSION = "1.1";
 
-    I18n.translations.de['lssm']['statusDispatching'] = {
+    I18n.translations.de.lssm.statusDispatching = {
         name : 'Verbesserte Status 5',
         fms : 'Sprechwunsch bearbeiten',
         nextVehicle : 'Zum nächsten Fahrzeug im Status 5',
@@ -16,7 +15,7 @@
         fms5H1 : 'transportiert'
     };
 
-    I18n.translations.en['lssm']['statusDispatching'] = {
+    I18n.translations.en.lssm.statusDispatching = {
         name : 'Enhanced transport requests',
         fms : 'Transport Requested',
         nextVehicle : 'Go to the next vehicle with a transport request',
@@ -29,7 +28,7 @@
         fms5H1 : 'transportiert'
     };
 
-    I18n.translations.nl['lssm']['statusDispatching'] = {
+    I18n.translations.nl.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',
         nextVehicle : 'Naar het volgende status 7 voertuig',
@@ -47,7 +46,6 @@
     var managedSettings = {
         "id" : LSS_FASTS5_STORAGE,
         "title" : I18n.t('lssm.statusDispatching.name'),
-        "version" : VERSION,
         "settings" : {
             "fastS5" : {
                 "default" : false,

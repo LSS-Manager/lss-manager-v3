@@ -1263,16 +1263,16 @@ lssm.managedSettings = {
         var moduleId = moduleSettings.id;
         var settingsKey;
         // If settings don't exist, overwrite with defaults
-        if (!lssm.settings.get(moduleId) || !lssm.settings.get(moduleId).settings) {
+        if (!lssm.settings.get(moduleId)) {
             for (settingsKey in moduleSettings.settings) {
                 moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
             }
             // If we have values use them
         } else {
-            var storedSettings = lssm.settings.get(moduleId).settings;
+            var storedSettings = lssm.settings.get(moduleId);
             for (settingsKey in moduleSettings.settings) {
-                if (storedSettings[settingsKey] && storedSettings[settingsKey].value) {
-                    moduleSettings.settings[settingsKey].value = storedSettings[settingsKey].value;
+                if (storedSettings[settingsKey] != null) {
+                    moduleSettings.settings[settingsKey].value = storedSettings[settingsKey];
                 } else {
                     moduleSettings.settings[settingsKey].value = moduleSettings.settings[settingsKey].default;
                 }
@@ -1284,10 +1284,10 @@ lssm.managedSettings = {
     getSetting: function (module, field) {
         "use strict";
         var settings = this.getSettings(module);
-        if (settings !== undefined && settings[field] !== undefined) {
+        if (settings && settings[field] !== undefined) {
             return settings[field].value;
         } else {
-            return undefined;
+            return null;
         }
     },
 
@@ -1296,16 +1296,25 @@ lssm.managedSettings = {
         if (lssm.managedSettings.registeredModules[module]) {
             return lssm.managedSettings.registeredModules[module].settings;
         } else {
-            return undefined;
+            return null;
         }
     },
 
     update: function (moduleSettings) {
         "use strict";
+        
+        // Store managedSettings for runtime
         var moduleId = moduleSettings.id;
-        lssm.settings.set(moduleSettings.id, moduleSettings);
         lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
-    },
+        
+        // Strip down settings object to values only and persist them
+        var storeSettings = {};
+        var settingsKey;
+        for (settingsKey in moduleSettings.settings) {
+        	storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
+        }
+        lssm.settings.set(moduleId, storeSettings);
+    }
 
 };
 

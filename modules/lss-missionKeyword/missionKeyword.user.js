@@ -1,7 +1,6 @@
 (function() {
 
     var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
-    var VERSION = "1.0";
 
 	function setSettings(){
 
@@ -724,7 +723,6 @@
 	    var managedSettings = {
 	        "id": LSS_MISSIONKEYWORD_STORAGE,
 	        "title": I18n.t('lssm.missionKeywordDefaults.name'),
-	        "version": VERSION,
 	        "settings": {
 	            "missionKeywordShowHideButton" : {
 	                "default" : "",

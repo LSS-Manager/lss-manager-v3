@@ -1,11 +1,9 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "1";
-
 	var LSS_DESTFILTER_STORAGE = "LSS_DESTFILTER_STORAGE";
 
-	I18n.translations.de['lssm']['destfilter'] = {
+	I18n.translations.de.lssm.destfilter = {
 		title : "Zielort Filter",
 		beds : "Belegte KH ausblenden",
 		elegible : "KH ohne Fachabteilung ausblenden",
@@ -13,7 +11,7 @@
 		yes : "Ja"
 	};
 
-	I18n.translations.en['lssm']['destfilter'] = {
+	I18n.translations.en.lssm.destfilter = {
 		title : "Destination Filter",
 		beds : "Hide full hospitals",
 		elegible : "Hide unelegible hospitals",
@@ -21,7 +19,7 @@
 		yes : "Yes"
 	};
 
-	I18n.translations.nl['lssm']['destfilter'] = {
+	I18n.translations.nl.lssm.destfilter = {
 		title : "Bestemmingsfilter",
 		beds : "Verberg volle ziekenhuizen",
 		elegible : "Verberg ziekenhuizen die niet de juiste afdeling hebben.",
@@ -32,7 +30,6 @@
 	var managedSettings = {
 		"id" : LSS_DESTFILTER_STORAGE,
 		"title" : I18n.t('lssm.destfilter.title'),
-		"version" : VERSION,
 		"settings" : {
 			"destfilter-beds" : {
 				"default" : true,
