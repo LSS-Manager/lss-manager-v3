@@ -244,7 +244,6 @@ lssm.Module = {
         name: {
             de: 'NEF Nachforderung per FMS',
             en: 'HEMS request in radio'
-            
         },
         active: false,
         description: {
