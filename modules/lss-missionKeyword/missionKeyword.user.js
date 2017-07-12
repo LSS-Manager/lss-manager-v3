@@ -1,11 +1,11 @@
 (function() {
 
     var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
-    var VERSION = "1.0";
+    var VERSION = "1.1";
 
     function setSettings(){
 
-        I18n.translations.de['lssm']['missionKeywordDefaults'] = {
+        I18n.translations.de['lssm']['missionKeywordDefaults'] = {	
             name: 'Einsatzstichworte',
             settingsName: 'Einsatzstichworte - Einstellungen',
             domain: 'leitstellenspiel.de',
@@ -1571,7 +1571,7 @@
            aaoText.match(I18n.t('lssm.missionKeywordDefaults.ktp')))
         {
             label = 'label-warning';
-
+        }
         if( aaoText.match(I18n.t('lssm.missionKeywordDefaults.fw')) ||
            aaoText.match(I18n.t('lssm.missionKeywordDefaults.thl')) ||
            aaoText.match(I18n.t('lssm.missionKeywordDefaults.abc')))
