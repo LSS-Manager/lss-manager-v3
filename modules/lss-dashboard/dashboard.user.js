@@ -198,7 +198,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         });
         // Remove unused keys
         function gr(k) {
-            return (k != "" && k != null);
+            return (k !== "" && k !== null);
         }
         var divs = [['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]], ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]], ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]], ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#92A1CF"]], ["#wret-ges", "#wret-fz"]];
         console.log(cars);
@@ -230,7 +230,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
     }
     function load_build_planning() {
         $.each(building_markers_cache, function (i, building) {
-            if (building.user_id != user_id) {
+            if (building.user_id !== user_id) {
                 return;
             }
             var appendto = "son",

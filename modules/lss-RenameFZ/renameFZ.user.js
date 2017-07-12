@@ -75,7 +75,7 @@
         $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
     }
     function replaceString(type) {
-        var str = set.str.str != '' ? set.str.str : set.str.default;
+        var str = set.str.str !== '' ? set.str.str : set.str.default;
         for (var i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }

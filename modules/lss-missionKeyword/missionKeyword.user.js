@@ -2,10 +2,10 @@
 
     var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
     var VERSION = "1.0";
-    
+
 	function setSettings(){
 
-	    I18n.translations.de['lssm']['missionKeywordDefaults'] = {	
+	    I18n.translations.de['lssm']['missionKeywordDefaults'] = {
 	        name: 'Einsatzstichworte',
 	        settingsName: 'Einsatzstichworte - Einstellungen',
 	        domain: 'leitstellenspiel.de',
@@ -323,7 +323,7 @@
 	            299:'Strohballen qualmen in Scheune'
 	        }
 	    };
-	    I18n.translations.en['lssm']['missionKeywordDefaults'] = {	
+	    I18n.translations.en['lssm']['missionKeywordDefaults'] = {
 	        name: 'Mission Keywords',
 	        settingsName: 'Mission Keywords - Settings',
 	        domain: 'missionchief.com',
@@ -486,7 +486,7 @@
 	        bp: 'POL',
 	        bma: 'OMS',
 	        bmaLong: 'OMS',
-	        show: 'Verberg/toon',		
+	        show: 'Verberg/toon',
 	        keywords: {
 	            0: 'Brandende afvalbak',
 	            1: 'Brandende container',
@@ -719,8 +719,8 @@
 	            228: 'Assistentie treinconducteur',
 	            229: 'Brand in tankstation'
 	        }
-	    };	
-	    
+	    };
+
 	    var managedSettings = {
 	        "id": LSS_MISSIONKEYWORD_STORAGE,
 	        "title": I18n.t('lssm.missionKeywordDefaults.name'),
@@ -732,14 +732,14 @@
 	                    "label" : I18n.t('lssm.missionKeywordDefaults.show'),
 	                    "type" : "button",
 	                    "custom_function_event" : "click",
-	                    "custom_function" : function() {			
-	                        $('[id^='+LSS_MISSIONKEYWORD_STORAGE+'_missionKeyword-]').toggle();					
+	                    "custom_function" : function() {
+	                        $('[id^='+LSS_MISSIONKEYWORD_STORAGE+'_missionKeyword-]').toggle();
 	                    }
 	                }
-	            }			
+	            }
 	        }
 	    };
-	
+
 	// Einsatz-ID zu Stichwort
 	    var DEFAULT_AAO_DE = {
 	        0: 'B 1',
@@ -1408,12 +1408,12 @@
 	        228: 'P 1',
 	        229: 'ZEER GROTE BRAND'
 	    };
-	    
+
 	// Alle Einsatz-IDs mit Stichwort-Zuweisung
-	    I18n.translations.de['lssm']['missionKeyword'] = DEFAULT_AAO_DE;	
+	    I18n.translations.de['lssm']['missionKeyword'] = DEFAULT_AAO_DE;
 	    I18n.translations.en['lssm']['missionKeyword'] = DEFAULT_AAO_EN;
 	    I18n.translations.nl['lssm']['missionKeyword'] = DEFAULT_AAO_NL;
-	    
+
 	    if(I18n.locale === 'de')
 	        defaultAao = DEFAULT_AAO_DE;
 	    else if(I18n.locale === 'en')
@@ -1422,8 +1422,8 @@
 	        defaultAao = DEFAULT_AAO_NL;
 	    else
 	        defaultAao = DEFAULT_AAO_DE;
-	        
-	    
+
+
 	    $.each(defaultAao, function(key, val) {
 	        var tmpObject = {
 	            ['missionKeyword-'+key] : {
@@ -1435,25 +1435,25 @@
 	                }
 	            }
 	        };
-	        
+
 	        $.extend(managedSettings.settings, tmpObject);
-	        
+
 	    });
-	        
-	    lssm.managedSettings.register(managedSettings);	
+
+	    lssm.managedSettings.register(managedSettings);
 	}
-    
+
     function getSetting(setting) {
         return lssm.managedSettings.getSetting(LSS_MISSIONKEYWORD_STORAGE, setting);
     }
-    
+
     function missionKeyword() {
         // Stichwort Element
         var titleStichwort = $('#missionH1');
         // Anzahl Patientenbalken
         var anzahlPatients = $(".patient_progress").length;
         var aaoText = '';
-        
+
         // Einsatz-ID aus Hilfe-Link
         var missionId = $('#mission_help').attr('href').split("/").pop();
 
@@ -1470,7 +1470,7 @@
             if(I18n.locale === 'de') {
 
                 // Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY PERSON
-                            
+
                 if(aaoText.match(/B [0-9]/ig))
                 {
                     aaoText = aaoText + ' PERSON';
@@ -1482,13 +1482,13 @@
                     {
                         aaoText = [a.slice(0, n+1), ' Y', a.slice(n+1)].join('');
                     }
-                        
+
                 }
-                
+
                 if(!aaoText.match(I18n.t('lssm.missionKeyword.rd')))
                 {
                     additionalAaoText = '<span class="label label-warning">';
-                    
+
                     if(I18n.t('lssm.missionKeyword.rd') === 'RD')
                     {
                         // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
@@ -1520,7 +1520,7 @@
                             additionalAaoText += 'MANV50';
                         else if (anzahlPatients >= 51)
                             additionalAaoText += 'MANV50+';
-                    }	
+                    }
                     additionalAaoText += '</span>';
                 }
             }
@@ -1539,7 +1539,7 @@
                         additionalAaoText += 'MED CODE 40';
                     else if (anzahlPatients >= 50)
                         additionalAaoText += 'MED CODE 50';
-                        
+
                     additionalAaoText += '</span>';
                 }
             }
@@ -1558,12 +1558,11 @@
                         additionalAaoText += 'A 1 CODE 40';
                     else if (anzahlPatients >= 50)
                         additionalAaoText += 'A 1 CODE 50';
-                        
+
                     additionalAaoText += '</span>';
                 }
             }
         }
-        var color = 'black';
         var label = 'label-info';
 
         // Setze Label Farben
@@ -1585,17 +1584,17 @@
         }
 
         // Füge Label hinzu
-        if(titleStichwort !== null){
+        if(titleStichwort != null){
         	titleStichwort.append('<span class="label '+label+'">'+aaoText+'</span>'+additionalAaoText);
         }
     }
-    
+
     setSettings();
-    
+
     // Only execute this script in the alert iframe.
-    // Identify the iframe with mission_help link.    
+    // Identify the iframe with mission_help link.
     var missionHelp = $('#mission_help');
     if(missionHelp.length >0){
     	missionKeyword();
-    } 
+    }
 })();
