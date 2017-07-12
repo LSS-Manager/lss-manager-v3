@@ -1414,6 +1414,7 @@
 	    I18n.translations.en['lssm']['missionKeyword'] = DEFAULT_AAO_EN;
 	    I18n.translations.nl['lssm']['missionKeyword'] = DEFAULT_AAO_NL;
 
+	    var defaultAao;
 	    if(I18n.locale === 'de')
 	        defaultAao = DEFAULT_AAO_DE;
 	    else if(I18n.locale === 'en')
