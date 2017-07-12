@@ -1330,18 +1330,18 @@ lssm.modules = {
         var mod = module.toString();
         if (mod in lssm.Module) {
             var keys = ['name', 'description'];
+            // TODO: sprechendere Variablennamen
             for (var k in keys) {
-                // TODO: sprechendere Variablennamen
-                var j = keys[k];
-                if (!(j in lssm.Module[mod])) {
+                k = keys[k];
+                if (!(k in lssm.Module[mod])) {
                     continue;
                 }
                 for (var l in lssm.Module[mod][k]) {
-                    var m = l.toString();
-                    if (!(mod in I18n.translations[m].lssm.apps)) {
-                        I18n.translations[m].lssm.apps[mod] = {};
+                    l = l.toString();
+                    if (!(mod in I18n.translations[l].lssm.apps)) {
+                        I18n.translations[l].lssm.apps[mod] = {};
                     }
-                    I18n.translations[m].lssm.apps[mod][k] = lssm.Module[mod][k][m];
+                    I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
                 }
             }
         }
