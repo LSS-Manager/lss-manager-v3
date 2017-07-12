@@ -38,6 +38,6 @@
       });
       el.remove();
     }
-  };
+  }
 
 })(I18n, jQuery);
