@@ -243,12 +243,14 @@ lssm.Module = {
     DoctorRadioCall: {
         name: {
             de: 'NEF Nachforderung per FMS',
-            en: 'HEMS request in radio'
+            en: 'HEMS request in radio',
+            nl: 'Spraakaanvraag voor MMT'
         },
         active: false,
         description: {
             de: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.',
-            en: 'Issues a radio call if HEMS is required.'
+            en: 'Issues a radio call if HEMS is required.',
+            nl: 'Spraakaanvraag weergeven indien MMT benodigd is.'
         },
         source: '/modules/lss-doctor-radio-call/DoctorRadioCall.user.js',
         develop: false
