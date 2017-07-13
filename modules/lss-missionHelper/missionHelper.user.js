@@ -378,7 +378,8 @@
 				'<span class="badge">Credits: ~ 3500 </span>',
 				233 : '2x Funkstreifenwagen (100%)</br>1x Polizeihubschrauber (100%)</br>1x Löschfahrzeug (100%)' +
 				'</br>1x Rettungstransportwagen (100%)</br></br><span class="badge">Credits: ~ 4500 </span>',
-				234 : '<h4>BOMBENFUND</h4>10x Löschfahrzeuge (100%)</br>5x Funkstreifenwagen (100%)',
+				234 : '<h4>BOMBENFUND</h4>10x Löschfahrzeuge (100%)</br>5x Funkstreifenwagen (100%)' + 
+				'</br>1x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)',
 				235 : '2x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (100%)' +
 				'</br>1x Drehleiter (20%)</br>1x Funkstreifenwagen (100%)</br>1x Rettungstransportwagen (100%)' +
 				'</br>1x Notarzteinsatzfahrzeug (80%)</br></br><span class="badge">Credits: ~ 1500 </span>',
