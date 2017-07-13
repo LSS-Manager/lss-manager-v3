@@ -1,7 +1,7 @@
 (function(I18n, $) {
 	'use strict';
 
-	I18n.translations.de['lssm']['managedsettings'] = {
+	I18n.translations.de.lssm.managedsettings = {
 			title: "LSSM Einstellungen",
 			text1: "Hier kannst du Einstellungen für deine aktivierten Plugins vornehmen",
 			text2: "",
@@ -9,14 +9,14 @@
 			settings_tab: "Einstellungen"
 	};
 
-	I18n.translations.en['lssm']['managedsettings'] = {
+	I18n.translations.en.lssm.managedsettings = {
 			title: "LSSM Settings",
 			text1: "Here you can change the settings of your activated plugins.",
 			text2: "",
 			save : "Save & Close",
 			settings_tab: "Settings"
 	};
-	I18n.translations.nl['lssm']['managedsettings'] = {
+	I18n.translations.nl.lssm.managedsettings = {
 			title: "LSSM instellingen",
             text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",
             text2: "",

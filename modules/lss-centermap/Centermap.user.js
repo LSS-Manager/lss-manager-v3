@@ -1,11 +1,9 @@
 (function(I18n, $) {
 	'use strict';
 
-	var VERSION = "2.3";
-
 	var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
-	I18n.translations.de['lssm']['centermap'] = {
+	I18n.translations.de.lssm.centermap = {
 		center : "Zentrieren",
 		settings : {
 			title : "Center-Map",
@@ -21,7 +19,7 @@
 		}
 	};
 
-	I18n.translations.en['lssm']['centermap'] = {
+	I18n.translations.en.lssm.centermap = {
 		center : "Center",
 		settings : {
 			title : "Center-Map",
@@ -36,7 +34,7 @@
 			set : "Save current position"
 		}
 	};
-	I18n.translations.nl['lssm']['centermap'] = {
+	I18n.translations.nl.lssm.centermap = {
 		center : "Centreren",
 		settings : {
 			title : "Kaart centreren",
@@ -54,7 +52,6 @@
 	var managedSettings = {
 		"id" : LSS_CENTERMAP_STORAGE,
 		"title" : I18n.t('lssm.centermap.settings.title'),
-		"version" : VERSION,
 		"settings" : {
 			"centermap-option" : {
 				"default" : "2",
@@ -115,14 +112,14 @@
 					"type" : "button",
 					"custom_function_event" : "click",
 					"custom_function" : function() {
-						var prefix = "LSS_CENTERMAP_STORAGE_";
+						var prefix = LSS_CENTERMAP_STORAGE + "_";
 						$('#' + prefix + 'centermap-center-lat').val(
 								map.getCenter().lat);
 						$('#' + prefix + 'centermap-center-lng').val(
 								map.getCenter().lng);
 						$('#' + prefix + 'centermap-zoom').val(map.getZoom());
 					},
-					"parent" : "LSS_CENTERMAP_STORAGE_centermap-option_2"
+					"parent" : LSS_CENTERMAP_STORAGE + "_centermap-option_2"
 				}
 			}
 		}
