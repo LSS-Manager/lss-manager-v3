@@ -12,12 +12,16 @@
   };
 
   // Hook into LSS function call
-  $(document).bind(lssm.hook.postname("patientMarkerAdd"),function(event,payload){
-	  handleFeedback(payload);
+  $(document).bind(lssm.hook.postname("patientMarkerAdd"), function(event, payload) {
+    handleFeedback(payload);
   });
 
-  function handleFeedback(t) { // NOSONAR: Variable is declared globally in the main game.
-    if (t.missing_text && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0) {
+  function handleFeedback(t) {
+    // Does the message contain a NEF demand?
+    var isMissingNef = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0;
+    // Issue radio message either when it's an own mission or alliance radio is on
+    var showMessage = $('#alliance_radio_on').is(':visible') || $('#mission_list > div[mission_id=' + t.mission_id + ']').length > 0;
+    if (isMissingNef && showMessage) {
       radioMessage({
         "mission_id": t.mission_id,
         "additionalText": "",
