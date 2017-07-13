@@ -177,11 +177,7 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
         develop: false,
-        collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05'],
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05']
     },
     Layout02: {
         name: {
@@ -198,11 +194,7 @@ lssm.Module = {
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
         develop: false,
-        collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05'],
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05']
     },
     Layout03: {
         name: {
@@ -216,11 +208,7 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
         develop: false,
-        collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap'],
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap']
     },
     Layout04: {
         name: {
@@ -237,11 +225,7 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05'],
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05']
     },
     Layout05: {
         name: {
@@ -254,11 +238,22 @@ lssm.Module = {
         },
         source: '/modules/lss-layout-05/layout-05.user.js',
         develop: true,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04'],
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04']
+    },
+    DoctorRadioCall: {
+        name: {
+            de: 'NEF Nachforderung per FMS',
+            en: 'HEMS request in radio',
+            nl: 'Spraakaanvraag voor MMT'
+        },
+        active: false,
+        description: {
+            de: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.',
+            en: 'Issues a radio call if HEMS is required.',
+            nl: 'Spraakaanvraag weergeven indien MMT benodigd is.'
+        },
+        source: '/modules/lss-doctor-radio-call/DoctorRadioCall.user.js',
+        develop: false
     },
     MissionOut: {
         name: {
@@ -273,11 +268,7 @@ lssm.Module = {
             nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     saveVGE: {
         name: {
@@ -293,11 +284,7 @@ lssm.Module = {
             'kan gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     coinConfirm: {
         name: {
@@ -311,11 +298,7 @@ lssm.Module = {
             en: 'Asks for confirmation on coin spendings to avoid mistakes. (Without warranty)'
         },
         source: '/modules/lss-coinconfirm/CoinConfirm.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     releaseNotes: {
         name: {
@@ -329,11 +312,7 @@ lssm.Module = {
             en: 'Provides information about the latest updates in LSSM'
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
-        develop: true,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: true
     },
     vonginator: {
         name: {
@@ -348,11 +327,7 @@ lssm.Module = {
         },
         source: '/modules/lss-vonginator/Vonginator.user.js',
         supportedLocales: ['de'],
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     Notification_Alert: {
         name: {
@@ -368,11 +343,7 @@ lssm.Module = {
             'meer een chat of melding hoeft te missen.'
         },
         source: '/modules/lss-notification_alert/Notification_alarm.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: "NotificationAlarm_show_settings"
-        }
+        develop: false
     },
     Redesign01: {
         name: {
@@ -385,11 +356,7 @@ lssm.Module = {
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     DestinationFilter: {
         name: {
@@ -403,11 +370,7 @@ lssm.Module = {
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         develop: false,
-        inframe: true,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        inframe: true
     },
     FMS5InMap: {
         name: {
@@ -423,10 +386,6 @@ lssm.Module = {
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
         develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        },
         collisions: ['Layout03', 'WachenplanungOnMap']
     },
     Clock: {
@@ -441,11 +400,7 @@ lssm.Module = {
             nl: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     WachenplanungOnMap: {
         name: {
@@ -464,10 +419,6 @@ lssm.Module = {
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        },
         collisions: ['Layout03', 'FMS5InMap', 'heatmap']
     },
     tagMissions: {
@@ -483,11 +434,7 @@ lssm.Module = {
             nl: 'Zit in het spel ingebouwd - momenteel gedeactiveerd.'
         },
         source: '/modules/lss-tagMissions/tagMissions.user.js',
-        develop: true,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: true
     },
     allianceMissionlistShare: {
         name: {
@@ -503,11 +450,7 @@ lssm.Module = {
             'de meldingenlijst.'
         },
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     searchMissions: {
         name: {
@@ -524,11 +467,7 @@ lssm.Module = {
             'je snel door je meldingen bladeren.'
         },
         source: '/modules/lss-searchMissions/searchMissions.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     dashboard: {
         name: {
@@ -541,11 +480,7 @@ lssm.Module = {
             nl: 'Een Dashboard waarin je een duidelijk overzicht krijgt van je gebouwen en voertuigen.'
         },
         source: '/modules/lss-dashboard/dashboard.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     WachenHoverStati: {
         name: {
@@ -560,11 +495,7 @@ lssm.Module = {
             nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     RenameFZ: {
         name: {
@@ -581,11 +512,7 @@ lssm.Module = {
         },
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     telemetry: {
         name: {
@@ -601,11 +528,7 @@ lssm.Module = {
         },
         source: '/modules/telemetry/telemetry.user.js',
         noapp: true, // Nicht im App-Store auflisten
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     mapreload: {
         name: {
@@ -618,11 +541,7 @@ lssm.Module = {
         },
         source: '/modules/lss-mapReload/mapreload.user.js',
         noapp: true, // Nicht im App-Store auflisten
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     showBackAlarmAbove: {
         name: {
@@ -638,11 +557,7 @@ lssm.Module = {
         source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     aaosearch: {
         name: {
@@ -658,11 +573,7 @@ lssm.Module = {
         source: '/modules/lss-aao-search/aao-search.user.js',
         noapp: false,
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     recolor: {
         name: {
@@ -679,11 +590,7 @@ lssm.Module = {
         source: '/modules/lss-recolor/recolor.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: true,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: true
     },
     heatmap: {
         name: {
@@ -702,10 +609,6 @@ lssm.Module = {
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
         develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        },
         collisions: ['Layout03', 'WachenplanungOnMap']
     },
     centermap: {
@@ -721,34 +624,8 @@ lssm.Module = {
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: "CenterMap_show_settings"
-        }
-    }, /*
-     missionTabs: {
-     name: {
-     de: 'Einsatztabs',
-     en: 'Missiontabs',
-     nl: 'Meldingtabbladen'
-     },
-     active: false,
-     description: {
-     de: 'Zeigt Einsätze in eigenen Tabs an anstatt sie zu Filtern.',
-     en: 'Shows the missions in own dedicated tabs instead of filtering them.',
-     nl: 'Geeft de Meldingen in tabbladen weer.'
-     },
-     source: '/modules/lss-missionTabs/missionTabs.user.js',
-     noapp: false, // Nicht im App-Store auflisten
-     inframe: false,
-     develop: false,
-     settings: {
-     has: false,
-     function_code: ""
-     },
-     collisions: ['Layout04']
-     },*/
+        develop: false
+    },
     missionHelper: {
         name: {
             de: 'Einsatzhelfer',
@@ -764,11 +641,7 @@ lssm.Module = {
         source: '/modules/lss-missionHelper/missionHelper.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     statusDispatching: {
         name: {
@@ -804,11 +677,7 @@ lssm.Module = {
         source: '/modules/lss-managedsettings/ManagedSettings.user.js',
         noapp: true, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     missionKeyword: {
         name: {
@@ -827,11 +696,7 @@ lssm.Module = {
         source: '/modules/lss-missionKeyword/missionKeyword.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     missionDate: {
         name: {
@@ -849,11 +714,7 @@ lssm.Module = {
         source: '/modules/lss-missionDate/missionDate.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     iconFilter: {
         name: {
@@ -870,11 +731,7 @@ lssm.Module = {
         source: '/modules/lss-iconFilter/iconFilter.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     sumDailyMissions: {
         name: {
@@ -892,11 +749,7 @@ lssm.Module = {
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     },
     aaoZaehler: {
         name: {
@@ -913,11 +766,7 @@ lssm.Module = {
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
         noapp: false,
         inframe: true,
-        develop: false,
-        settings: {
-            has: false,
-            function_code: ""
-        }
+        develop: false
     }
 };
 
