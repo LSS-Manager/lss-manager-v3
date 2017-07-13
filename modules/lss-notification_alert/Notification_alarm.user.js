@@ -145,7 +145,7 @@
         Notification.requestPermission(function (permission) {
 
             if (permission === "granted") {
-                var notification = new Notification("Benachrichtungen aktiviert!");
+                new Notification("Benachrichtungen aktiviert!");
             } else {
 
             }

@@ -25,12 +25,12 @@
         }
         return text;
     }
-    
+
         function replacePatientMarker(text){
         if(text !== null && text !== ""){
             text = text.replace('Wir benötigen ein NEF.', 'Wir brauchen 1 NEF vong Dringlichkeit her.');
             text = text.replace('Wir benötigen einen RTW.', 'lol. Chique mal 1 RTW.');
-            
+
         }
         return text;
     }
@@ -48,7 +48,7 @@
             text = text.replace('Hilflose Person', 'Hilfloser Lauch');
             text = text.replace('Wohnwagenbrand', 'Caravan am burnen');
             text = text.replace('Feuerprobealarm an Schule', 'Probealarm in Schule.lol');
-            
+
         }
         return text;
     }
@@ -57,15 +57,15 @@
 
     // Mission Marker
     var missionMarkerAddOrig = missionMarkerAdd;
-    missionMarkerAdd = function(t){
+    missionMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.missing_text = replaceMissingText(t.missing_text);
         t.caption = replaceMissionCaption(t.caption);
         missionMarkerAddOrig(t);
     };
-    
+
     // Mission Marker
     var patientMarkerAddOrig = patientMarkerAdd;
-    patientMarkerAdd = function(t){
+    patientMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.missing_text = replacePatientMarker(t.missing_text);
         patientMarkerAddOrig(t);
     };
