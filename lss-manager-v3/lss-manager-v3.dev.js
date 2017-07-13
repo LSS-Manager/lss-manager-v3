@@ -24,8 +24,8 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 
 var lssm = {
     config: {
-        //server: "https://localhost/lss-manager-v3",
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://localhost/lss-manager-v3",
+        //server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.2.4",
@@ -294,11 +294,13 @@ lssm.Module = {
         active: false,
         inframe: true,
         description: {
-            de: 'Fordert zur Bestätigung bei Coin Ausgaben auf, um versehendliche Ausgaben zu vermeiden. (Ohne Gewähr)',
-            en: 'Asks for confirmation on coin spendings to avoid mistakes. (Without warranty)'
+            de: 'Fordert zur Bestätigung bei Coin Ausgaben auf, um versehendliche Ausgaben zu vermeiden.<br>' +
+                'Funktionalität ist mittlerweile im Basisspiel integriert.',
+            en: 'Asks for confirmation on coin spendings to avoid mistakes.<br>' +
+                'Functionality is integrated in base game now.'
         },
-        source: '/modules/lss-coinconfirm/CoinConfirm.user.js',
-        develop: false
+        source: null,
+        develop: true
     },
     releaseNotes: {
         name: {
@@ -1224,9 +1226,9 @@ lssm.modules = {
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
                 lssm.appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe === true)) {
-                    //$('body').append('<script src="' + lssm.config.server + lssm.Module[module].source + uid
-                    // +'" type="text/javascript"></script>');
-                    $.getScript(lssm.getlink(lssm.Module[module].source));
+                    if(lssm.Module[module].source){                    	
+                    	$.getScript(lssm.getlink(lssm.Module[module].source));
+                    }
                 }
             }
         } catch (e) {
