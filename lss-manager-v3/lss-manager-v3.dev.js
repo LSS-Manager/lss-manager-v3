@@ -1256,7 +1256,7 @@ lssm.settings = {
  * Add the managed settings-functions to lssm
  */
 lssm.managedSettings = {
-    registeredModules: [],
+    registeredModules: {},
 
     register: function (moduleSettings) {
         "use strict";
