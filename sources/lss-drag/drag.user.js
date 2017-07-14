@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name drag 
+// @name drag
 // @grant none
 // @include https://www.leitstellenspiel.de/*
 // @exclude https://www.leitstellenspiel.de/*missions*
 // @version 0.2
-// @updateURL 
+// @updateURL
 // ==/UserScript==
 (function() {
     $('head').append('<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet"></script>');

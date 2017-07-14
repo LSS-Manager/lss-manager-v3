@@ -33,10 +33,7 @@
     $('#' + lssm.config.prefix + '_menu').append(settingButton);
     $('#'+ lssm.config.prefix + '_recolor_open').click(function(){
         var content = $('#navbar-mobile-footer').prev();
-        var settings = '</div><div class="row" id="'+lssm.config.prefix+'_recolor">' +
-            '<div class="col-md-12 lssm.appstore>' +
-            '<p>Recolor settings</p>' +
-            '</div>';
+
         var settings_html = '<div id="'+ lssm.config.prefix+'_recolor"><div class="jumbotron">' +
             '<a href="#" class="close" data-dismiss="alert" aria-label="close" id="'+ lssm.config.prefix+'_recolor_close">&times;</a>' +
             '<h1>Recolor</h1>' +

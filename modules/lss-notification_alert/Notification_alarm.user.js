@@ -1,5 +1,4 @@
 (function ($, I18n) {
-	
 	var LSS_NOTIFICATION_STORAGE = "LSS_NOTIFICATION_STORAGE";
 
     I18n.translations.de['lssm']['n-alarm'] = {
@@ -23,6 +22,7 @@
             chatp_text: "Alle Chatnachrichten auch als Popup-Nachrichten am rechten Rand anzeigen(ehemals Chat-Notification)"
         }
     }
+
     I18n.translations.en['lssm']['n-alarm'] = {
         not_support: "This browser doesn't support HTML5-Notifications",
         init: "Initializing Notification-Alert, please wait...",
@@ -44,6 +44,7 @@
             chatp_text: "Get all chat messages as popup message on the right side"
         }
     }
+
     I18n.translations.nl['lssm']['n-alarm'] = {
 		not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
         init: "Meldingen-Alarm wordt opgestart, Even geduld AUB...",
@@ -64,7 +65,7 @@
             chatp_text: "Alle chatberichten ook als Popup-berichten aan de rechter rand van het scherm tonen)"
         }
     }
-    
+
 	var managedSettings = {
 		    "id": LSS_NOTIFICATION_STORAGE,
 		    "title": I18n.t('lssm.n-alarm.settings.title'),
@@ -143,74 +144,75 @@
 	
 	lssm.managedSettings.register(managedSettings);
 
-
     function notifyMe(username, message, type = "init", fms = "2", vid = "0") {
-	    if (!("Notification" in window)) {
-	        alert(I18n.t('lssm.n-alarm.not_support'));
-	    } else if (Notification.permission === "granted") {
-	
-	        if (type == "init")
-	        {
-	            var notification = new Notification(username, {
-	                body: message,
-	                icon: "https://www.leitstellenspiel.de/images/logo-header.png"
-	            });
-	        } else if (type == "Chat")
-	        {
-	            var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
-	                body: message,
-	                icon: lssm.getlink("/modules/lss-notification_alert/img/134895.png")
-	            });
-	            setTimeout(function () {
-	                notification.close();
+
+    if (!("Notification" in window)) {
+        alert(I18n.t('lssm.n-alarm.not_support'));
+    } else if (Notification.permission === "granted") {
+
+        if (type == "init")
+        {
+            var notification = new Notification(username, {
+                body: message,
+                icon: "https://www.leitstellenspiel.de/images/logo-header.png"
+            });
+        } else if (type == "Chat")
+        {
+            var notification = new Notification(I18n.t('lssm.n-alarm.chat_message') + username, {
+                body: message,
+                icon: lssm.getlink("/modules/lss-notification_alert/img/134895.png")
+            });
+            setTimeout(function () {
+                notification.close();
 	            }, getSetting('n-alarm-timeout-chat') * 1000);
-	            notification.onclick = function () {
-	                window.focus();
-	            };
-	        } else if (type == "Status")
-	        {
-	            var notification = new Notification(username, {
-	                body: message,
-	                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
-	            });
-	            setTimeout(function () {
-	                notification.close();
+            notification.onclick = function () {
+                window.focus();
+            };
+        } else if (type == "Status")
+        {
+            var notification = new Notification(username, {
+                body: message,
+                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
+            });
+            setTimeout(function () {
+                notification.close();
 	            }, getSetting('n-alarm-timeout-status') * 1000);
-	            notification.onclick = function () {
-	
-	                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
-	                $('#v_' + vid + '_' + fms + '').click();
-	                window.focus();
-	                $('#v_' + vid + '_' + fms + '').remove();
-	            };
-	        } else if (type == "S5")
-	        {
-	            var notification = new Notification(username, {
-	                body: message,
-	                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
-	            });
-	            setTimeout(function () {
-	                notification.close();
+            notification.onclick = function () {
+
+                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
+                $('#v_' + vid + '_' + fms + '').click();
+                window.focus();
+                $('#v_' + vid + '_' + fms + '').remove();
+            };
+        } else if (type == "S5")
+        {
+            var notification = new Notification(username, {
+                body: message,
+                icon: lssm.getlink("/modules/lss-notification_alert/img/Status_" + fms + ".png"),
+            });
+            setTimeout(function () {
+                notification.close();
 	            }, getSetting('n-alarm-timeout-s5') * 1000);
-	            notification.onclick = function () {
-	
-	                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
-	                $('#v_' + vid + '_' + fms + '').click();
-	                window.focus();
-	                $('#v_' + vid + '_' + fms + '').remove();
-	            };
-	        }
-	
-	    } else if (Notification.permission !== 'denied') {
-	        Notification.requestPermission(function (permission) {
-	
-	            if (permission === "granted") {
-	                var notification = new Notification("Benachrichtungen aktiviert!");
-	            } else {
-	
-	            }
-	        });
-	    }
+            notification.onclick = function () {
+
+                $("body").append('<a href="/vehicles/' + vid + '" id="v_' + vid + '_' + fms + '" class="btn btn-xs btn-default lightbox-open">' + username + '</a>');
+                $('#v_' + vid + '_' + fms + '').click();
+                window.focus();
+                $('#v_' + vid + '_' + fms + '').remove();
+            };
+        }
+
+    } else if (Notification.permission !== 'denied') {
+        Notification.requestPermission(function (permission) {
+
+            if (permission === "granted") {
+                new Notification("Benachrichtungen aktiviert!");
+            } else {
+
+            }
+        });
+    }
+
 
     }
     var $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
@@ -256,7 +258,7 @@
         hideMainDiv();
 
     }
-    
+
     notifyMe(I18n.t('lssm.n-alarm.inithead'), I18n.t('lssm.n-alarm.init'), "init");
 
     $(document).bind(lssm.hook.postname("allianceChat"),function(event,t){
