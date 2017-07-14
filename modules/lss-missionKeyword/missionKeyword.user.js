@@ -469,7 +469,8 @@
         127: 'Fire in an Office Building',
         128: 'Aggressive Passenger',
         129: 'Aggressive Passenger',
-        130: 'Powerline Down'
+        130: 'Powerline Down',
+        131: 'Parole Violation'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -717,7 +718,8 @@
         226: 'Val van trap',
         227: 'Assistentie treinconducteur',
         228: 'Assistentie treinconducteur',
-        229: 'Brand in tankstation'
+        229: 'Brand in tankstation',
+        230: 'Onwelwording'
       }
     };
 
@@ -1174,7 +1176,8 @@
       127: 'FIRE 5',
       128: 'POL 1',
       129: 'POL 1',
-      130: 'TECH 1'
+      130: 'TECH 1',
+      131: 'POL 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1406,7 +1409,8 @@
       226: 'A 1',
       227: 'P 1',
       228: 'P 1',
-      229: 'ZEER GROTE BRAND'
+      229: 'ZEER GROTE BRAND',
+      230: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
