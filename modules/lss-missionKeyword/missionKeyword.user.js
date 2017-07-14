@@ -319,7 +319,8 @@
         296: 'Gasunfall in Werkstatt',
         297: 'Arbeitsunfall im Garten',
         298: 'Hilflose Person auf Wasser',
-        299: 'Strohballen qualmen in Scheune'
+        299: 'Strohballen qualmen in Scheune',
+        300: 'Abgestürzter Kletterer'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1039,7 +1040,8 @@
       296: 'THL 2',
       297: 'RD 1',
       298: 'THL WASSER',
-      299: 'B 3'
+      299: 'B 3',
+      300: 'THL P HÖHENRETTUNG'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
