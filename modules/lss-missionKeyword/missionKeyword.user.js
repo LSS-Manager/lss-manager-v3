@@ -1479,10 +1479,10 @@
 
         }
 
-        if (!aaoText.match(I18n.t('lssm.missionKeyword.rd'))) {
+        if (!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd'))) {
           additionalAaoText = '<span class="label label-warning">';
 
-          if (I18n.t('lssm.missionKeyword.rd') === 'RD') {
+          if (I18n.t('lssm.missionKeywordDefaults.rd') === 'RD') {
             // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
             if (anzahlPatients > 1 && anzahlPatients < 4)
               additionalAaoText += 'RD 3';
