@@ -69,7 +69,6 @@
 	var managedSettings = {
 		    "id": LSS_NOTIFICATION_STORAGE,
 		    "title": I18n.t('lssm.n-alarm.settings.title'),
-		    "version": "1.4",
 		    "settings": {
 		        "n-alarm-chat": {
 		            "default": true,
