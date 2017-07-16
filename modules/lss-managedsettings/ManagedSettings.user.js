@@ -1,8 +1,8 @@
 (function(I18n, $) {
   'use strict';
 
-  var VERSION = 1.1;
-  var EXPORT_COMPATIBILITY = 1.1;
+  var VERSION = 1.2;
+  var EXPORT_COMPATIBILITY = 1.2;
   var EXPORT_FILE_NAME = "settings.lssm";
 
   I18n.translations.de.lssm.managedsettings = {
@@ -175,12 +175,13 @@
             lssm.settings.set("Modules", importedJson.activeModules);
 
             // Store module settings
-            for (moduleKey in importedJson.moduleSettings) {
+            for (var moduleKey in importedJson.moduleSettings) {
               var module = importedJson.moduleSettings[moduleKey];
               lssm.settings.set(moduleKey, module);
             }
             // Push notification
             lssm.notification(I18n.t('lssm.managedsettings.import_success'), null, 10000);
+            $('#' + lssm.config.prefix + '_appstore_ManagedSettings').remove();
           } catch (e) {
             // Oh no :-(
             lssm.notification(String.format(I18n.t('lssm.managedsettings.import_fail'), e), 'alert-danger', 15000);
