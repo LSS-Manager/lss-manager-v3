@@ -6,259 +6,276 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if(I18n.locale == "en")
-    lssm.carsById = {
-		"0": ["Type 1 fire engine", 0],
-		"1": ["Type 2 fire engine", 0],
-		"2": ["Platform truck", 0],
-		"3": ["Bataillon Chief Unit", 0],
-		"4": ["Heavy Rescue Vehicle", 0],
-		"5": ["Ambulance", 1],
-		"6": ["Mobile air", 0],
-		"7": ["Water Tanker", 0],
-		"8": ["Utility unit", 0],
-		"9": ["HazMat", 0],
-		"10": ["Patrol Car", 2],
-		"11": ["HEMS", 1],
-		"12": ["Mobile command vehicle", 0],
-		"13": ["Quint", 0],
-		"14": ["Policehelicopter", 2],
-		"15": ["Fly-Car", 1],
-		"16": ["SWAT", 2],
-		"17": ["ARFF Crash Tender", 0]
-    }
-else if
-	(I18n.locale == "nl")
-    lssm.carsById = {
-        "0": ["SIV | Snel Interventie Voertuig", 0],
-        "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
-        "2": ["AL | Autoladder", 0],
-        "3": ["DA-OVD-B | Officier van Dienst Brandweer", 0],
-        "4": ["HV-G | Hulpverleningsvoertuig Groot", 0],
-        "5": ["AB | Adembeschermingsvoertuig", 0],
-        "6": ["TST 8/9 | Tankautospuit Terreinvaardig (8/9 personen)", 0],
-        "7": ["TST 6/7 | Tankautospuit Terreinvaardig (6/7 personen)", 0],
-        "8": ["TST 4 | Tankautospuit Terreinvaardig (4 personen)", 0],
-        "9": ["TS 4 | Tankautospuit (4 personen)", 0],
-        "10": ["SL | Slangenwagen", 0],
-        "11": ["WvD | Waarschuwings- en Verkenningsdienst", 0],
-        "12": ["TST-NBB 8/9 | Tankautospuit Natuurbrandbestrijding (8/9 personen)", 0],
-        "13": ["TS8 (4x4)", 0],
-        "14": ["TST-NBB 6/7 | Tankautospuit Natuurbrandbestrijding (6/7 personen)", 0],
-        "15": ["TST-NBB 4 | Tankautospuit Natuurbrandbestrijding (4 personen)", 0],
-        "16": ["Ambulance", 1],
-        "17": ["TS 6/7 | Tankautospuit (6/7 personen)", 0],
-        "18": ["HW | Hoogwerker", 0],
-        "19": ["DA-HOvD-B | Hoofd Officier van Dienst", 0],
-        "20": ["DA | Dienstauto (4 personen)", 0],
-        "21": ["DB | Dienstbus (9 personen)", 0],
-        "22": ["DA NOODHULP | Dienstauto Noodhulp", 2],
-        "23": ["Lifeliner", 1],
-        "24": ["AGS | Adviseur Gevaarlijke Stoffen", 0],
-        "25": ["DB Noodhulp | Dienstbus Noodhulp", 2],
-        "26": ["HA | Haakarmvoertuig", 0],
-        "27": ["ABH | Adembeschermingshaakarmbak", 0],
-        "28": ["Politiehelikopter", 2],
-        "29": ["WTH | Watertransporthaakarmbak", 0],
-        "30": ["Zorgambulance | B-ambulance", 1],
-        "31": ["CO | Commandovoertuig", 0],
-        "32": ["COH | Commandohaakarmbak", 0],
-        "33": ["WO | Waterongevallenvoertuig", 0],
-        "34": ["TW | Tankwagen", 0],
-        "35": ["OVD-P | Officier van Dienst - Politie", 2],
-        "36": ["WOA | Waterongevallenaanhanger", 0],
-        "37": ["MMT-Auto", 1]
-    }
-else if
-(I18n.locale == "de")
-    lssm.carsById = {
-        "0": ["LF 20", 0],
-        "1": ["LF 10", 0],
-        "2": ["DLK 23", 0],
-        "3": ["ELW 1", 0],
-        "4": ["RW", 0],
-        "5": ["GW-A", 0],
-        "6": ["LF 8/6", 0],
-        "7": ["LF 20/16", 0],
-        "8": ["LF 10/6", 0],
-        "9": ["LF 16-TS", 0],
-        "10": ["GW-Öl", 0],
-        "11": ["GW-L2-Wasser", 0],
-        "12": ["GW-Messtechnik", 0],
-        "13": ["SW 1000", 0],
-        "14": ["SW 2000", 0],
-        "15": ["SW 2000-Tr", 0],
-        "16": ["SW Kats", 0],
-        "17": ["TLF 2000", 0],
-        "18": ["TLF 3000", 0],
-        "19": ["TLF 8/18", 0],
-        "20": ["TLF 8/18", 0],
-        "21": ["TLF 16/24-Tr", 0],
-        "22": ["TLF 16/25", 0],
-        "23": ["TLF 16/45", 0],
-        "24": ["TLF 20/40", 0],
-        "25": ["TLF 20/40-SL", 0],
-        "26": ["TLF 16", 0],
-        "27": ["GW-Gefahrgut", 0],
-        "28": ["RTW", 1],
-        "29": ["NEF", 1],
-        "30": ["HLF 20", 0],
-        "31": ["RTH", 1],
-        "32": ["FuStW", 2],
-        "33": ["GW-Höhenrettung", 0],
-        "34": ["ELW 2", 0],
-        "35": ["leBefKw", 2],
-        "36": ["MTW", 0],
-        "37": ["TSF-W", 0],
-        "38": ["KTW", 1],
-        "39": ["GKW", 3],
-        "40": ["MTW-TZ", 3],
-        "41": ["MzKW", 3],
-        "42": ["LKW K 9", 3],
-        "43": ["BRmG R", 3],
-        "44": ["Anh DLE", 3],
-        "45": ["MLW 5", 3],
-        "46": ["WLF", 0],
-        "47": ["AB-Rüst", 0],
-        "48": ["AB-Atemschutz", 0],
-        "49": ["AB-Öl", 0],
-        "50": ["GruKw", 2],
-        "51": ["FüKw", 2],
-        "52": ["GefKw", 2],
-        "53": ["Dekon-P", 0],
-        "54": ["AB-Dekon-P", 0],
-        "55": ["KdoW-LNA", 1],
-        "56": ["KdoW-Orgl", 1],
-        "57": ["FwK", 0],
-        "58": ["KTW Typ B", 1],
-        "59": ["ELW 1 (SEG)", 1],
-        "60": ["GW-San", 1],
-        "61": ["Polizeihubschrauber", 2],
-        "62": ["AB-Schlauch", 0],
-        "63": ["GW-Taucher", 4],
-        "64": ["GW-Wasserrettung", 4],
-        "65": ["LKW 7 Lkr 19 tm", 4],
-        "66": ["Anh MzB", 4],
-        "67": ["Anh SchlB", 4],
-        "68": ["Anh MzAB", 4],
-        "69": ["Tauchkraftwagen", 4],
-        "70": ["MZB", 4],
-        "71": ["AB-MZB", 4],
-    };
+if (I18n.locale == "en")
+  lssm.carsById = {
+    "0": ["Type 1 fire engine", 0],
+    "1": ["Type 2 fire engine", 0],
+    "2": ["Platform truck", 0],
+    "3": ["Bataillon Chief Unit", 0],
+    "4": ["Heavy Rescue Vehicle", 0],
+    "5": ["Ambulance", 1],
+    "6": ["Mobile air", 0],
+    "7": ["Water Tanker", 0],
+    "8": ["Utility unit", 0],
+    "9": ["HazMat", 0],
+    "10": ["Patrol Car", 2],
+    "11": ["HEMS", 1],
+    "12": ["Mobile command vehicle", 0],
+    "13": ["Quint", 0],
+    "14": ["Policehelicopter", 2],
+    "15": ["Fly-Car", 1],
+    "16": ["SWAT", 2],
+    "17": ["ARFF Crash Tender", 0]
+  }
+else if (I18n.locale == "nl")
+  lssm.carsById = {
+    "0": ["SIV | Snel Interventie Voertuig", 0],
+    "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
+    "2": ["AL | Autoladder", 0],
+    "3": ["DA-OVD-B | Officier van Dienst Brandweer", 0],
+    "4": ["HV-G | Hulpverleningsvoertuig Groot", 0],
+    "5": ["AB | Adembeschermingsvoertuig", 0],
+    "6": ["TST 8/9 | Tankautospuit Terreinvaardig (8/9 personen)", 0],
+    "7": ["TST 6/7 | Tankautospuit Terreinvaardig (6/7 personen)", 0],
+    "8": ["TST 4 | Tankautospuit Terreinvaardig (4 personen)", 0],
+    "9": ["TS 4 | Tankautospuit (4 personen)", 0],
+    "10": ["SL | Slangenwagen", 0],
+    "11": ["WvD | Waarschuwings- en Verkenningsdienst", 0],
+    "12": ["TST-NBB 8/9 | Tankautospuit Natuurbrandbestrijding (8/9 personen)", 0],
+    "13": ["TS8 (4x4)", 0],
+    "14": ["TST-NBB 6/7 | Tankautospuit Natuurbrandbestrijding (6/7 personen)", 0],
+    "15": ["TST-NBB 4 | Tankautospuit Natuurbrandbestrijding (4 personen)", 0],
+    "16": ["Ambulance", 1],
+    "17": ["TS 6/7 | Tankautospuit (6/7 personen)", 0],
+    "18": ["HW | Hoogwerker", 0],
+    "19": ["DA-HOvD-B | Hoofd Officier van Dienst", 0],
+    "20": ["DA | Dienstauto (4 personen)", 0],
+    "21": ["DB | Dienstbus (9 personen)", 0],
+    "22": ["DA NOODHULP | Dienstauto Noodhulp", 2],
+    "23": ["Lifeliner", 1],
+    "24": ["AGS | Adviseur Gevaarlijke Stoffen", 0],
+    "25": ["DB Noodhulp | Dienstbus Noodhulp", 2],
+    "26": ["HA | Haakarmvoertuig", 0],
+    "27": ["ABH | Adembeschermingshaakarmbak", 0],
+    "28": ["Politiehelikopter", 2],
+    "29": ["WTH | Watertransporthaakarmbak", 0],
+    "30": ["Zorgambulance | B-ambulance", 1],
+    "31": ["CO | Commandovoertuig", 0],
+    "32": ["COH | Commandohaakarmbak", 0],
+    "33": ["WO | Waterongevallenvoertuig", 0],
+    "34": ["TW | Tankwagen", 0],
+    "35": ["OVD-P | Officier van Dienst - Politie", 2],
+    "36": ["WOA | Waterongevallenaanhanger", 0],
+    "37": ["MMT-Auto", 1]
+  }
+else if (I18n.locale == "de")
+  lssm.carsById = {
+    "0": ["LF 20", 0],
+    "1": ["LF 10", 0],
+    "2": ["DLK 23", 0],
+    "3": ["ELW 1", 0],
+    "4": ["RW", 0],
+    "5": ["GW-A", 0],
+    "6": ["LF 8/6", 0],
+    "7": ["LF 20/16", 0],
+    "8": ["LF 10/6", 0],
+    "9": ["LF 16-TS", 0],
+    "10": ["GW-Öl", 0],
+    "11": ["GW-L2-Wasser", 0],
+    "12": ["GW-Messtechnik", 0],
+    "13": ["SW 1000", 0],
+    "14": ["SW 2000", 0],
+    "15": ["SW 2000-Tr", 0],
+    "16": ["SW Kats", 0],
+    "17": ["TLF 2000", 0],
+    "18": ["TLF 3000", 0],
+    "19": ["TLF 8/18", 0],
+    "20": ["TLF 8/18", 0],
+    "21": ["TLF 16/24-Tr", 0],
+    "22": ["TLF 16/25", 0],
+    "23": ["TLF 16/45", 0],
+    "24": ["TLF 20/40", 0],
+    "25": ["TLF 20/40-SL", 0],
+    "26": ["TLF 16", 0],
+    "27": ["GW-Gefahrgut", 0],
+    "28": ["RTW", 1],
+    "29": ["NEF", 1],
+    "30": ["HLF 20", 0],
+    "31": ["RTH", 1],
+    "32": ["FuStW", 2],
+    "33": ["GW-Höhenrettung", 0],
+    "34": ["ELW 2", 0],
+    "35": ["leBefKw", 2],
+    "36": ["MTW", 0],
+    "37": ["TSF-W", 0],
+    "38": ["KTW", 1],
+    "39": ["GKW", 3],
+    "40": ["MTW-TZ", 3],
+    "41": ["MzKW", 3],
+    "42": ["LKW K 9", 3],
+    "43": ["BRmG R", 3],
+    "44": ["Anh DLE", 3],
+    "45": ["MLW 5", 3],
+    "46": ["WLF", 0],
+    "47": ["AB-Rüst", 0],
+    "48": ["AB-Atemschutz", 0],
+    "49": ["AB-Öl", 0],
+    "50": ["GruKw", 2],
+    "51": ["FüKw", 2],
+    "52": ["GefKw", 2],
+    "53": ["Dekon-P", 0],
+    "54": ["AB-Dekon-P", 0],
+    "55": ["KdoW-LNA", 1],
+    "56": ["KdoW-Orgl", 1],
+    "57": ["FwK", 0],
+    "58": ["KTW Typ B", 1],
+    "59": ["ELW 1 (SEG)", 1],
+    "60": ["GW-San", 1],
+    "61": ["Polizeihubschrauber", 2],
+    "62": ["AB-Schlauch", 0],
+    "63": ["GW-Taucher", 4],
+    "64": ["GW-Wasserrettung", 4],
+    "65": ["LKW 7 Lkr 19 tm", 4],
+    "66": ["Anh MzB", 4],
+    "67": ["Anh SchlB", 4],
+    "68": ["Anh MzAB", 4],
+    "69": ["Tauchkraftwagen", 4],
+    "70": ["MZB", 4],
+    "71": ["AB-MZB", 4],
+  };
 
 lssm.car_list = function(building) {
-    // liefert die Fahrzeuge einer Wache zurück
-    var data = [];
-    $('#vehicle_building_' + building).find('li').each(function (index, element) {
-        data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html(),
-            "classes": $(element).find(".building_list_fms").attr('class')
-        });
+  // liefert die Fahrzeuge einer Wache zurück
+  var data = [];
+  $('#vehicle_building_' + building).find('li').each(function(index, element) {
+    data.push({
+      "id": $(element).attr('vehicle_id'),
+      "name": $(element).find('a').html(),
+      "type": $(element).find('a').attr('vehicle_type_id'),
+      "fms": $(element).find(".building_list_fms").html(),
+      "classes": $(element).find(".building_list_fms").attr('class')
     });
-    return data;
+  });
+  return data;
 }
 lssm.car_list_all = function() {
-    var data = [];
-    $("[id^='vehicle_building']").find('li').each(function (index, element) {
-        data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html(),
-            "classes": $(element).find(".building_list_fms").attr('class')
-        });
+  var data = [];
+  $("[id^='vehicle_building']").find('li').each(function(index, element) {
+    data.push({
+      "id": $(element).attr('vehicle_id'),
+      "name": $(element).find('a').html(),
+      "type": $(element).find('a').attr('vehicle_type_id'),
+      "fms": $(element).find(".building_list_fms").html(),
+      "classes": $(element).find(".building_list_fms").attr('class')
     });
-    return data;
+  });
+  return data;
 }
 // Formatiert Fahrzeugliste um (mit FMS)
 lssm.car_list_printable = function(list) {
-    var data = "";
-    $.each(list, function (key, car) {
-        data += "<div style=\"margin-top: 3px;\"><span class=\""+ car.classes +"\">" + car.fms + "</span> " + car.name +"</div>";
-    });
-    return data;
+  var data = "";
+  $.each(list, function(key, car) {
+    data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name + "</div>";
+  });
+  return data;
 }
 
 lssm.get_buildings = function() {
-    var data = [],
-        stationId, stationName, stationLat, stationLng, stationType, el, map;
-    $('#building_list').find('.building_list_li').each(function(index, element) {
-        el = $(element).find('.building_list_caption'),
-            map = el.find('.map_position_mover'),
-            stationId = el.find('.building_marker_image').attr('building_id'),
-            stationName = map.html(),
-            stationLat = map.attr('data-latitude'),
-            stationLng = map.attr('data-longitude'),
-            stationType = $(element).attr('building_type_id');
+  var data = [],
+    stationId, stationName, stationLat, stationLng, stationType, el, map;
+  $('#building_list').find('.building_list_li').each(function(index, element) {
+    el = $(element).find('.building_list_caption'),
+      map = el.find('.map_position_mover'),
+      stationId = el.find('.building_marker_image').attr('building_id'),
+      stationName = map.html(),
+      stationLat = map.attr('data-latitude'),
+      stationLng = map.attr('data-longitude'),
+      stationType = $(element).attr('building_type_id');
 
-        data.push({
-            'stationId': stationId,
-            'stationName': stationName,
-            'stationLat': stationLat,
-            'stationLng': stationLng,
-            'stationType': parseInt(stationType)
-        });
+    data.push({
+      'stationId': stationId,
+      'stationName': stationName,
+      'stationLat': stationLat,
+      'stationLng': stationLng,
+      'stationType': parseInt(stationType)
     });
-    return data;
+  });
+  return data;
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
-lssm.newDragableDivOnMap=function(id, classe, pos) {
-    function changeX(p, m) {
-        if (p <= -m + info._div.offsetWidth + 20)
-            return -m + info._div.offsetWidth + 20;
-        else if (p >= 0)
-            return 0
-        else
-            return p;
-    }
+lssm.newDragableDivOnMap = function(id, classe, pos) {
+  function changeX(p, m) {
+    if (p <= -m + info._div.offsetWidth + 20)
+      return -m + info._div.offsetWidth + 20;
+    else if (p >= 0)
+      return 0
+    else
+      return p;
+  }
 
-    function changeY(p, m) {
-        if (p >= m - info._div.offsetHeight)
-            return (m - info._div.offsetHeight - 10);
-        else if (p <= 0)
-            return 0;
-        else
-            return p
-    }
-    var info = L.control();
+  function changeY(p, m) {
+    if (p >= m - info._div.offsetHeight)
+      return (m - info._div.offsetHeight - 10);
+    else if (p <= 0)
+      return 0;
+    else
+      return p
+  }
+  var info = L.control();
 
-    info.onAdd = function () {
-        this._div = L.DomUtil.create('div', classe || "");
-        this._div.id = id+"Div";
-        var m = map.getSize();
-        L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
-        this.update();
-        return this._div;
+  info.onAdd = function() {
+    this._div = L.DomUtil.create('div', classe || "");
+    this._div.id = id + "Div";
+    var m = map.getSize();
+    L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
+    this.update();
+    return this._div;
+  };
+
+  info.update = function() {
+    var m = map.getSize();
+    var p = L.DomUtil.getPosition(info._div);
+    var pos = {
+      x: changeX(p.x, m.x),
+      y: changeY(p.y, m.y)
     };
+    lssm.settings.set(lssm.config.prefix + "_" + id + "Position", pos);
+    L.DomUtil.setPosition(info._div, new L.Point(pos.x, pos.y));
+  };
 
-    info.update = function () {
-        var m = map.getSize();
-        var p = L.DomUtil.getPosition(info._div);
-        var pos = {x:changeX(p.x, m.x),y:changeY(p.y, m.y)};
-        lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
-        L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
-    };
-
-    info.addTo(map);
-    var t = new L.Draggable(info._div);
-    t.enable();
-    t.on('drag', info.update);
-    return $(info._div);
+  info.addTo(map);
+  var t = new L.Draggable(info._div);
+  t.enable();
+  t.on('drag', info.update);
+  return $(info._div);
 };
 
 // Add custom String format function
 if (!String.format) {
-	console.log("execute");
+  console.log("execute");
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) { 
+    return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined' ? args[number] : match;
     });
   };
 }
+
+lssm.notification = function(msg, type, duration) {
+  type = type ? type : 'alert-success';
+  duration = duration ? duration : 2000;
+  $("#content")
+    .before(
+      '<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
+      'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
+      'aria-label="close">&times;</a>' + msg +
+      '</div>');
+  setTimeout(function() {
+    $("#lssm_notification").slideUp("slow", function() {
+      $("#lssm_notification").remove();
+    });
+  }, duration);
+};
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
