@@ -106,8 +106,7 @@
     });
   }
 
-  function applyFunctions() {
-    // Apply settings functions
+  function applySettingsFunctions() {
     for (var moduleKey in lssm.managedSettings.registeredModules) {
       var module = lssm.managedSettings.registeredModules[moduleKey];
       for (var settingsKey in module.settings) {
@@ -117,12 +116,13 @@
         }
       }
     }
+  }
 
-    // ### Apply IMPORT/EXPORT functions
+  function applyModuleFunctions() {
     // Export Settings
     $('#lssm-export-settings').click(function() {
       if (!confirm(I18n.t('lssm.managedsettings.export_hint'))) {
-        return false;
+        return;
       }
       // Initialize Datamodel 1.1
       var exportData = {
@@ -168,7 +168,7 @@
             // Verfify version compatibility
             if (importedJson.version < EXPORT_COMPATIBILITY) {
               lssm.notification(I18n.t('lssm.managedsettings.import_missmatch'), 'alert-danger', 15000);
-              return false;
+              return;
             }
 
             // Store active Modules
@@ -181,13 +181,10 @@
             }
             // Push notification
             lssm.notification(I18n.t('lssm.managedsettings.import_success'), null, 10000);
-            return true;
           } catch (e) {
             // Oh no :-(
             lssm.notification(String.format(I18n.t('lssm.managedsettings.import_fail'), e), 'alert-danger', 15000);
-            return false;
           }
-          return false;
         };
       }
     });
@@ -269,7 +266,8 @@
 
   var li = $('<li role="presentation"><a href="#">' + I18n.t('lssm.managedsettings.settings_tab') + '</a></li>').click(function() {
     renderSettings();
-    applyFunctions();
+    applySettingsFunctions();
+    applyModuleFunctions();
   })
 
   $('#lssm_menu').append(li);
