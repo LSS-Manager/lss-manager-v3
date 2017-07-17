@@ -265,10 +265,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon = "fa-h-square";
                     appendto = "pol";
                     break;
-				case BUILDING_TYPE_SEG:
+		case BUILDING_TYPE_SEG:
                     appendto = "rd";
-					icon = "fa-ambulance";
-					maxcars = 9;
+		    icon = "fa-ambulance";
+		    maxcars = 9;
                     break;
                 case BUILDING_TYPE_POLIZEIWACHE:
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
@@ -277,7 +277,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     break;
                 case BUILDING_TYPE_THW:
                     appendto = "thw";
-					maxcars = 12;
+		    maxcars = 12;
                     break;
                 case BUILDING_TYPE_FEUERWEHRSCHULE:
                 case BUILDING_TYPE_RETTUNGSSCHULE:
