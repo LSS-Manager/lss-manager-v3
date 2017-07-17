@@ -11,8 +11,11 @@
 		text2: "",
 		save: "Speichern & Schließen",
 		settings_tab: "Einstellungen",
-		export: "Einstellungen exportieren",
-		import: "Einstellungen importieren",
+		export_btn: "Einstellungen exportieren",
+		import_btn: "Einstellungen importieren",
+		reset_btn: "Zurücksetzen",
+		reset_hint: "Möchtest du die Einstellungen dieses Moduls wirklich auf die Standardwerte zurücksetzen?",
+		reset_success: "Reset der Einstellungen erfolgreich. Bitte lade die Seite neu, damit diese wirksam sind.",
 		export_success: "Einstellungen erfolgreich exportiert",
 		export_hint: "Bitte beachte, dass nur bereits gespeicherte Einstellungen von momentan aktivierten Module exportiert werden können.",
 		import_success: "Die Einstellungen wurden erfolgreich importiert. Du musst die Seite neu laden, damit diese wirksam sind.",
@@ -26,8 +29,11 @@
 		text2: "",
 		save: "Save & Close",
 		settings_tab: "Settings",
-		export: "Export settings",
-		import: "Import settings",
+		export_btn: "Export settings",
+		import_btn: "Import settings",
+		reset_btn: "Reset settings",
+		reset_hint: "Are you sure you want to reset the settings of this module to the default values?",
+		reset_success: "Successfully reset the settings. You need to reload the page to make them work.",
 		export_success: "Sucsessfully exported settings",
 		export_hint: "Please note that only previously saved settings of currently activated modules can be exported.",
 		import_success: "The settings were successfully imported. You need to reload the page to make them work.",
@@ -41,8 +47,11 @@
 		text2: "",
 		save: "Opslaan & sluiten",
 		settings_tab: "Instellingen",
-		export: "Instellingen exporteren",
-		import: "Instellingen importeren",
+		export_btn: "Instellingen exporteren",
+		import_btn: "Instellingen importeren",
+		reset_btn: "Reset",
+		reset_hint: "Weet u zeker dat u de instellingen van deze module wilt resetten naar de standaardwaarden?",
+		reset_success: "Stel de instellingen succesvol terug. Je moet de pagina opnieuw laden om ze te laten werken.",
 		export_success: "Instellingen succesvol geëxporteerd",
 		export_hint: "Houdt er rekening mee dat alleen eerder opgeslagen instellingen van momenteel geactiveerde modules kunnen worden geëxporteerd.",
 		import_success: "De instellingen zijn succesvol geïmporteerd. Ververs de pagina om ze te gebruiken.",
@@ -66,11 +75,13 @@
 		markup += '</p>';
 		markup += '<span class="pull-right">';
 		markup += '<a id="lssm-export-settings" class="btn btn-warning btn-xs" style="margin-right: 5px;">';
-		markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.export') + '</span>';
+		markup += '<span aria-hidden="true"><span class="glyphicon glyphicon-floppy-save"></span>' + I18n.t(
+			'lssm.managedsettings.export_btn') + '</span>';
 		markup += '</a>';
 		markup += '<input type="file" accept=".lssm" id="lssm-import-file" style="display:none">';
 		markup += '<a id="lssm-import-settings" class="btn btn-success btn-xs" style="margin-right: 5px;">';
-		markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.import') + '</span>';
+		markup += '<span aria-hidden="true"><span class="glyphicon glyphicon-floppy-open"></span>' + I18n.t(
+			'lssm.managedsettings.import_btn') + '</span>';
 		markup += '</a>';
 		markup += '<span class="label label-danger">Version: ' + VERSION + '</span>';
 		markup += '</span>';
@@ -93,7 +104,10 @@
 			var moduleKey = module.id;
 			markup = "";
 			markup += '<div id="' + moduleKey + '_wrap">';
-			markup += '<h3>' + module.title + '</h3>';
+			markup += '<h3>' + module.title +
+				'<button class="btn btn-default settings-reset" data-module="' + moduleKey +
+				'" style="margin-left: 5px;" type="reset"><span class="glyphicon glyphicon-floppy-remove" title="' + I18n.t(
+					'lssm.managedsettings.reset_btn') + '"></span></button ></h3>';
 			markup += '</div>';
 			$('#module_settings').append(markup);
 			for (var settingsKey in module.settings) {
@@ -107,13 +121,13 @@
 		});
 
 
-
 		// Save & Close function
 		$('#' + lssm.config.prefix + '_appstore_ManagedSettings_close').click(function() {
 			saveSettings();
 			location.reload();
 		});
 	}
+
 
 	function applySettingsFunctions() {
 		for (var moduleKey in lssm.managedSettings.registeredModules) {
@@ -128,6 +142,21 @@
 	}
 
 	function applyModuleFunctions() {
+
+		// Reset Settings
+		$('.settings-reset').click(function() {
+			if (!confirm(I18n.t('lssm.managedsettings.reset_hint'))) {
+				return;
+			}
+			var moduleId = $(this).data('module');
+			lssm.managedSettings.reset(moduleId);
+			$('#' + lssm.config.prefix + '_appstore_ManagedSettings').remove();
+			renderSettings();
+			applySettingsFunctions();
+			applyModuleFunctions();
+			lssm.notification(I18n.t('lssm.managedsettings.reset_success'), null, 15000);
+		});
+
 		// Export Settings
 		$('#lssm-export-settings').click(function() {
 			if (!confirm(I18n.t('lssm.managedsettings.export_hint'))) {
@@ -234,11 +263,13 @@
 			response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
 				'>';
 			response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
-			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value + '">';
+			response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
+				'">';
 			if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
 			response += '</div>';
 		} else if (element.ui.type === "toggle") {
-			response += '<div class="col-md-3"><div class="panel panel-default" style="display: inline-block;width:100%;" id="' +
+			response +=
+				'<div class="col-md-3"><div class="panel panel-default" style="display: inline-block;width:100%;" id="' +
 				elementName + '_toggle_wrap">';
 			response += '<div class="panel-body"><span class="pull-right"><div class="onoffswitch">';
 			response += '<input class="onoffswitch-checkbox" ' + (element.value ? 'checked="true"' : '') + ' id="' +
