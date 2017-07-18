@@ -25,7 +25,8 @@ if(I18n.locale == "en")
 		"14": ["Policehelicopter", 2],
 		"15": ["Fly-Car", 1],
 		"16": ["SWAT", 2],
-		"17": ["ARFF Crash Tender", 0]
+		"17": ["ARFF Crash Tender", 0],
+	    	"18": ["Rescue Engine", 0]
     }
 else if
 	(I18n.locale == "nl")
