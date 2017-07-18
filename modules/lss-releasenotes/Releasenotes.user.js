@@ -28,7 +28,7 @@
 	var latestVersion = lssm.settings.get(STORAGE_KEY);
 
 	// TODO: COMMENT THIS OUT FOR PRODUCTION!!
-	latestVersion = null;
+	latestVersion = null; //NOSONAR
 
 	if (latestVersion !== lssm.config.version) {
 		renderLayer();
