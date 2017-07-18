@@ -3,7 +3,7 @@
 
 	var STORAGE_KEY = "LSS_RELEASENOTES_STORAGE";
 
-	var NUM_NOTES = 2;
+	var NUM_NOTES = 1;
 
 	I18n.translations.de['lssm']['releasenotes'] = {
 		title: "Neuerungen",
