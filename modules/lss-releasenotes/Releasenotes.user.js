@@ -3,7 +3,7 @@
 
 	var STORAGE_KEY = "LSS_RELEASENOTES_STORAGE";
 
-	var NUM_NOTES = 1;
+	var NUM_NOTES = 2;
 
 	I18n.translations.de['lssm']['releasenotes'] = {
 		title: "Neuerungen",
@@ -25,7 +25,7 @@
 		link_caption: "Releasenote"
 	};
 
-	var latestVersion = lssm.settings.get(STORAGE_KEY);
+	var latestVersion = lssm.settings.get(STORAGE_KEY); //NOSONAR
 
 	// TODO: COMMENT THIS OUT FOR PRODUCTION!!
 	latestVersion = null; //NOSONAR
@@ -36,8 +36,10 @@
 
 	function renderLayer() {
 		var markup = "";
-		markup +=
-			'<div id="releaseNotes" class="releaseNotesClose" style="background: #fff; z-index: 10001; position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); min-height: 200px; min-width: 200px; max-width: 600px; width: 80%; border: 1px solid rgb(66, 66, 66);">';
+		markup += '<div id="releaseNotes" class="releaseNotesClose" ';
+		markup += 'style="background: #fff; z-index: 10001; position: absolute; left: 50%; top: 50%; ';
+		markup += 'transform: translate(-50%,-50%); min-height: 200px; min-width: 200px; ';
+		markup += 'max-width: 600px; width: 80%; border: 1px solid rgb(66, 66, 66);">';
 		markup += '<button type="button" class="close" aria-label="Cool">×</button>';
 		markup += '<div class="container-fluid">';
 		markup += '<h4>' + I18n.t('lssm.releasenotes.title') + '</h4>';
@@ -69,11 +71,11 @@
 					});
 					releaseMarkup += "<ul>";
 					releaseMarkup += "</div>";
-					if (++printed >= NUM_NOTES) {
-						console.log("BREAK wegen " + printed);
+					printed++;
+					if (printed >= NUM_NOTES) {
 						return false;
 					}
-
+					return;
 				});
 				$('#releaseNotesContent').html(releaseMarkup);
 			});
