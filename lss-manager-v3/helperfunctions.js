@@ -28,8 +28,7 @@ if(I18n.locale == "en")
 		"17": ["ARFF Crash Tender", 0],
 	    	"18": ["Rescue Engine", 0]
     }
-else if
-	(I18n.locale == "nl")
+else if (I18n.locale == "nl")
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -70,8 +69,7 @@ else if
         "36": ["WOA | Waterongevallenaanhanger", 0],
         "37": ["MMT-Auto", 1]
     }
-else if
-(I18n.locale == "de")
+else if (I18n.locale == "de")
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -178,7 +176,8 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     var data = "";
     $.each(list, function (key, car) {
-        data += "<div style=\"margin-top: 3px;\"><span class=\""+ car.classes +"\">" + car.fms + "</span> " + car.name +"</div>";
+		data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name +
+			"</div>";
     });
     return data;
 }
@@ -238,7 +237,10 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
     info.update = function () {
         var m = map.getSize();
         var p = L.DomUtil.getPosition(info._div);
-        var pos = {x:changeX(p.x, m.x),y:changeY(p.y, m.y)};
+		var pos = {
+			x: changeX(p.x, m.x),
+			y: changeY(p.y, m.y)
+		};
         lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
         L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
     };
@@ -260,6 +262,21 @@ if (!String.format) {
     });
   };
 }
+lssm.notification = function(msg, type, duration) {
+	type = (typeof type === 'undefined') ? 'alert-success' : type;
+	duration = (typeof duration === 'undefined') ? 2000 : duration;
+	$("#content")
+		.before(
+			'<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
+			'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
+			'aria-label="close">&times;</a>' + msg +
+			'</div>');
+	setTimeout(function() {
+		$("#lssm_notification").slideUp("slow", function() {
+			$("#lssm_notification").remove();
+		});
+	}, duration);
+};
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
