@@ -91,7 +91,6 @@
     }
 
     function getLocalizedMessage(change) {
-
         var locale = I18n.currentLocale();
         if (locale in change) {
             return change[locale];
@@ -100,7 +99,7 @@
         } else if ('de' in change) {
             return change['de'];
         }
-
+        return "";
     }
 
 })(I18n, jQuery);
