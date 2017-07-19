@@ -25,10 +25,7 @@
 		link_caption: "Releasenote"
 	};
 
-	var latestVersion = lssm.settings.get(STORAGE_KEY); //NOSONAR
-
-	// TODO: COMMENT THIS OUT FOR PRODUCTION!!
-	latestVersion = null; //NOSONAR
+	var latestVersion = lssm.settings.get(STORAGE_KEY);
 
 	if (latestVersion !== lssm.config.version) {
 		renderLayer();
@@ -103,14 +100,5 @@
 		}
 
 	}
-
-	var li = $('<li role="presentation"><a href="#">' + I18n.t('lssm.releasenotes.link_caption') + '</a></li>').click(
-		function() {
-			renderLayer();
-			return false;
-		})
-
-	$('#lssm_menu').append(li);
-
 
 })(I18n, jQuery);

@@ -19,7 +19,7 @@ $.ajaxPrefilter(function (options, originalOptions) {
  */
 jQuery.expr[':'].containsci = function (a, i, m) {
     return jQuery(a).text().toUpperCase()
-            .indexOf(m[3].toUpperCase()) >= 0;
+        .indexOf(m[3].toUpperCase()) >= 0;
 };
 
 var lssm = {
@@ -86,9 +86,9 @@ I18n.translations.de.lssm = {
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
-    "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
-    "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-    lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+        "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
+        "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
+        lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -105,9 +105,9 @@ I18n.translations.en.lssm = {
     appstore: "APPSTORE",
     appstore_welcome: "Welcome to the lssm.appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
-    "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
-    "<a href=\"" +
-    lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
+        "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
+        "<a href=\"" +
+        lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
     saving: "Saving...",
@@ -123,10 +123,10 @@ I18n.translations.nl.lssm = {
     appstore: "App Store",
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
-    "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
-    "problemen zijn, kunt u <a href=\"" +
-    lssm.config.forum_link +
-    "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
+        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
+        "problemen zijn, kunt u <a href=\"" +
+        lssm.config.forum_link +
+        "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -167,13 +167,13 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den ' +
-            'Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen ' +
-            'Fensters im Menu.',
+                'Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen ' +
+                'Fensters im Menu.',
             en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge ' +
-            'is telling you how many missions etc. you have since your last visit within that window.',
+                'is telling you how many missions etc. you have since your last visit within that window.',
             nl: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
-            'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
-            'meldingen voor je bij.'
+                'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
+                'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
         develop: false,
@@ -186,10 +186,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & ' +
-            'Funksprüche.',
+                'Funksprüche.',
             en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
             nl: 'Design met een grote kaart bovenaan je scherm. onder de kaart zijn de vier overige schermen; ' +
-            'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
+                'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
@@ -217,11 +217,11 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle ' +
-            'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
+                'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
             en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. ' +
-            'Below that the buildings, chat and radio.',
+                'Below that the buildings, chat and radio.',
             nl: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht ' +
-            'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
+                'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         develop: false,
@@ -264,7 +264,7 @@ lssm.Module = {
         description: {
             de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
-            'each one.',
+                'each one.',
             nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -281,7 +281,7 @@ lssm.Module = {
             de: 'Funktion um sebst erstlle VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
             nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens ' +
-            'kan gebruiken.'
+                'kan gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
@@ -314,7 +314,7 @@ lssm.Module = {
             en: 'Provides information about the latest updates in LSSM'
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
-        develop: true
+        develop: false
     },
     vonginator: {
         name: {
@@ -339,10 +339,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. ' +
-            '(ChatPoput included)',
+                '(ChatPoput included)',
             en: 'HTML5 Chatnotifications using the browser notificationsystem.',
             nl: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit ' +
-            'meer een chat of melding hoeft te missen.'
+                'meer een chat of melding hoeft te missen.'
         },
         source: '/modules/lss-notification_alert/Notification_alarm.user.js',
         develop: false
@@ -413,11 +413,11 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die ' +
-            'Gebäude sind wählbar.',
+                'Gebäude sind wählbar.',
             en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for ' +
-            'specific buildings.',
+                'specific buildings.',
             nl: 'Toont cirkels met een zelf in te stellen radius rondom gebouwen. Je kunt ook filteren op specifieke ' +
-            'gebouwen.'
+                'gebouwen.'
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         develop: false,
@@ -449,7 +449,7 @@ lssm.Module = {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en: 'Instantly share missions without opening the call by clicking a button in the overview.',
             nl: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in ' +
-            'de meldingenlijst.'
+                'de meldingenlijst.'
         },
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
@@ -464,9 +464,9 @@ lssm.Module = {
         description: {
             de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
             en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
-            'quickly.',
+                'quickly.',
             nl: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat ' +
-            'je snel door je meldingen bladeren.'
+                'je snel door je meldingen bladeren.'
         },
         source: '/modules/lss-searchMissions/searchMissions.user.js',
         develop: false
@@ -510,7 +510,7 @@ lssm.Module = {
             de: 'Fahrzeuge in bulk mit Tags umbennenen.',
             en: 'Rename vehicles in bulk using tags.',
             nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
-            'behulp van tags.'
+                'behulp van tags.'
         },
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
         inframe: true,
@@ -605,7 +605,7 @@ lssm.Module = {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
             nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
-            'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
+                'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -690,10 +690,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen ' +
-            'für Bayern.',
+                'für Bayern.',
             en: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
             nl: 'Toont steekwoorden bij de meldingen. Deze steekwoorden zijn grotendeels gebaseerd op de ' +
-            'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
+                'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
         },
         source: '/modules/lss-missionKeyword/missionKeyword.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -711,7 +711,7 @@ lssm.Module = {
             de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
             en: 'Shows the date when the mission was generated and the hours/minutes since then',
             nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er ' +
-            'verstreken is sinds de melding binnenkwam.'
+                'verstreken is sinds de melding binnenkwam.'
         },
         source: '/modules/lss-missionDate/missionDate.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -744,7 +744,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der ' +
-            'täglichen Zusammenfassung an.',
+                'täglichen Zusammenfassung an.',
             en: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
             nl: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
         },
@@ -836,12 +836,14 @@ lssm.appstore = {
                 '<span class="pull-right">' +
                 '<div class="onoffswitch">' +
                 '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' +
-                (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] + '"name="onoffswitch" type="checkbox">' +
+                (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] +
+                '"name="onoffswitch" type="checkbox">' +
                 '<label class="onoffswitch-label" for="lssm.modules_' + mods[i] + '"></label>' +
                 '</div>' +
                 '</span>' +
                 '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
-                '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') + '</small>' +
+                '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') +
+                '</small>' +
                 '</div>' +
                 '</div>' +
                 '</div>');
@@ -876,7 +878,8 @@ lssm.appstore = {
             '<p>' +
             '<input type="text" class="form-control pull-right" id="' + prefix +
             '_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
-            '<button type="button" class="btn btn-grey btn-sm" id="' + prefix + '_close" aria-label="Close">' +
+            '<button type="button" class="btn btn-grey btn-sm" id="' + prefix +
+            '_close" aria-label="Close">' +
             '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>' +
             '</button></p>' +
             '<span class="pull-right"><small>MADE BY:</small>&nbsp;' +
@@ -948,7 +951,8 @@ lssm.appstore = {
             var e = ev.target;
             if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
-                var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t('lssm.cantactivate');
+                var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
+                    'lssm.cantactivate');
                 // TODO: Sprechendere Variablennamen
                 for (var c in lssm.Module[e.value].collisions) {
                     var d = lssm.Module[e.value].collisions[c];
@@ -969,7 +973,8 @@ lssm.appstore = {
     appendAppstore: function () {
         // Variablen setzen für weitere Verwendung
         var prefix = lssm.config.prefix + '_appstore';
-        var settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix + '_activate" href="#">' +
+        var settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix +
+            '_activate" href="#">' +
             I18n.t('lssm.appstore') + '</a></li>');
         var div = $('<div class="row" id="' + prefix + '_row"></div>').append(this.createModuleMain());
         var content = $('#navbar-mobile-footer').prev();
@@ -993,8 +998,7 @@ lssm.appstore = {
         lssm.modules.saveall();
         if (action === "Reload") {
             location.reload();
-        }
-        else {
+        } else {
 
             $('#' + lssm.config.prefix + '_appstore_row').hide();
             $('#content').show();
@@ -1035,8 +1039,7 @@ lssm.appstore = {
         for (var m in lssm.Module) {
             if (modules[m] && !lssm.Module[m].active) {
                 deactivated.push(m);
-            }
-            else if ((!modules[m]) && lssm.Module[m].active) {
+            } else if ((!modules[m]) && lssm.Module[m].active) {
                 activated.push(m);
             }
         }
@@ -1162,7 +1165,7 @@ lssm.managedSettings = {
         var storeSettings = {};
         var settingsKey;
         for (settingsKey in moduleSettings.settings) {
-        	storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
+            storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
         }
         lssm.settings.set(moduleId, storeSettings);
     }
@@ -1225,9 +1228,10 @@ lssm.modules = {
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
                 lssm.appstore.canActivate(lssm.Module[module])) {
-                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe === true)) {
-                    if(lssm.Module[module].source){                    	
-                    	$.getScript(lssm.getlink(lssm.Module[module].source));
+                if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe ===
+                        true)) {
+                    if (lssm.Module[module].source) {
+                        $.getScript(lssm.getlink(lssm.Module[module].source));
                     }
                 }
             }
@@ -1296,12 +1300,14 @@ lssm.modal = {
             .css("height", n + "px")
             .show();
         $("#lightbox_box")
-            .append('<div class="lightbox_iframe" style="width:' + o + "px;height:" + a + 'px" id="lightbox_iframe_' +
+            .append('<div class="lightbox_iframe" style="width:' + o + "px;height:" + a +
+                'px" id="lightbox_iframe_' +
                 iframe_lightbox_number + '"><div id="iframe-inside-container">' + content + '</div></div>');
         $("#lightbox_background").show();
         $("#lightbox_box").css("left", r + "px");
         $("#lightbox_box").css("top", (i - n) / 2 + "px");
-        $("#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container").css("height", a).css("width", o);
+        $("#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container").css("height", a).css(
+            "width", o);
         if (typeof closefunc !== "undefined") {
             $(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
         }
@@ -1318,7 +1324,8 @@ lssm.modal = {
 (function (I18n, $) {
     // Append our main css
     $("head")
-        .prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') + '" rel="stylesheet" type="text/css">');
+        .prepend('<link href="' + lssm.getlink('/lss-manager-v3/css/main.css') +
+            '" rel="stylesheet" type="text/css">');
     // Create the lssm dropdown menu
     lssm.appstore.createDropDown();
     // And append the version to it
@@ -1327,7 +1334,8 @@ lssm.modal = {
             I18n.t('lssm.version') + ': ' + lssm.config.version + '</a></li><li class="divider"></li>');
     // Only execute everything else if user is logged in
     if (typeof user_id === "undefined") {
-        $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') + '</li>');
+        $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') +
+            '</li>');
     } else {
         // Oh, and don't forget the helperfunctions
         $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
@@ -1351,7 +1359,8 @@ lssm.modal = {
                             '" type="text/javascript"></script>')
                         .append(
                             '<link rel="stylesheet" ' +
-                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">');
+                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">'
+                        );
 
                     // Get the last activated modules
                     var modules = lssm.settings.get('Modules') || {};
