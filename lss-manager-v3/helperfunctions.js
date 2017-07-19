@@ -263,8 +263,8 @@ if (!String.format) {
   };
 }
 lssm.notification = function(msg, type, duration) {
-	type = type ? type : 'alert-success';
-	duration = duration ? duration : 2000;
+	type = (typeof type === 'undefined') ? 'alert-success' : type;
+	duration = (typeof duration === 'undefined') ? 2000 : duration;
 	$("#content")
 		.before(
 			'<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
