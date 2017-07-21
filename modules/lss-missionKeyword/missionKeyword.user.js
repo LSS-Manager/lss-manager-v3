@@ -472,7 +472,7 @@
         129: 'Aggressive Passenger',
         130: 'Powerline Down',
         131: 'Parole Violation',
-        132: ''
+        132: 'Allergic Reaction'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1182,7 +1182,7 @@
       129: 'POL 1',
       130: 'TECH 1',
       131: 'POL 1',
-      132: ''
+      132: 'MED 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
