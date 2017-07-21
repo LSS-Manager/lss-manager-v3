@@ -689,7 +689,8 @@
 				128 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				129 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				130 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
-				131 : '1x Police Car (100%)'
+				131 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
+				132 : '1x Ambulance (100%)'
 			}
 		}
 
