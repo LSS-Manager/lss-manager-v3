@@ -283,7 +283,7 @@
 				183 : '1x Rettungstransportwagen (100%)',
 				184 : '1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (40%)',
 				185 : '1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)',
-				186 : '5x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>1x Drehleiter (100%)</br>1x Schlauchwagen (100%)' +
+				186 : '5x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>2x Drehleiter (100%)</br>1x Schlauchwagen (100%)' +
 				'</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Atemschutz (100%)</br>' +
 				'1x GW-Messtechnik (100%)</br>1x Feuerwehrkran (15%)</br>2x Funkstreifenwagen (100%)</br>1x GKW (100%)' +
 				'</br>1x MTW-TZ (100%)</br>1x LKW K9 (100%)</br>1x BRmG R (100%)</br>1x Anh DLE (100%)</br>' +
