@@ -283,7 +283,7 @@
 				183 : '1x Rettungstransportwagen (100%)',
 				184 : '1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (40%)',
 				185 : '1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)',
-				186 : '5x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>1x Drehleiter (100%)</br>1x Schlauchwagen (100%)' +
+				186 : '5x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>2x Drehleiter (100%)</br>1x Schlauchwagen (100%)' +
 				'</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x GW-Atemschutz (100%)</br>' +
 				'1x GW-Messtechnik (100%)</br>1x Feuerwehrkran (15%)</br>2x Funkstreifenwagen (100%)</br>1x GKW (100%)' +
 				'</br>1x MTW-TZ (100%)</br>1x LKW K9 (100%)</br>1x BRmG R (100%)</br>1x Anh DLE (100%)</br>' +
@@ -507,7 +507,8 @@
 				'1x GW-Atemschutz (100%)</br>1x Schlauchwagen (50%)</br></br><span class="badge">Credits: ~ 2500 </span>',
 				300 : '2x Löschfahrzeuge (100%)</br>1x GW-Höhenrettung (50%)</br>1x Funkstreifenwagen (100%)' +
 				'</br>1x Einsatzleitwagen 1</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)' +
-				'1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)'
+				'1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)',
+				301 : '2x Funkstreifenwagen (100%)<span class="badge">Credits: ~ 500 </span>'
 			}
 		}
 
@@ -688,7 +689,8 @@
 				128 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				129 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				130 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
-				131 : '1x Police Car (100%)'
+				131 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
+				132 : '1x Ambulance (100%)'
 			}
 		}
 
@@ -1052,7 +1054,8 @@
 				'</br>1x Slangenwagen (50%)</br>1x Adembeschermingsvoertuig (20%)</br>1x Adviseurs Gevaarlijke Stoffen (10%)' +
 				'</br>1x Waarschuwings- en Verkenningsdienst(10%)</br>1x Politieauto (100%)</br>' +
 				'</br><span class="badge">Credits: ~ 1700 </span>',
-				230 : '1x Ambulance (100%)'
+				230 : '1x Ambulance (100%)',
+				231 : '1x Politieauto (100%)<span class="badge">Credits: ~ 800 </span>'
 			}
 		}
 	}

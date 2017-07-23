@@ -320,7 +320,8 @@
         297: 'Arbeitsunfall im Garten',
         298: 'Hilflose Person auf Wasser',
         299: 'Strohballen qualmen in Scheune',
-        300: 'Abgestürzter Kletterer'
+        300: 'Abgestürzter Kletterer',
+        301: 'Tiere auf der Fahrbahn'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -470,7 +471,8 @@
         128: 'Aggressive Passenger',
         129: 'Aggressive Passenger',
         130: 'Powerline Down',
-        131: 'Parole Violation'
+        131: 'Parole Violation',
+        132: 'Allergic Reaction'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -719,7 +721,8 @@
         227: 'Assistentie treinconducteur',
         228: 'Assistentie treinconducteur',
         229: 'Brand in tankstation',
-        230: 'Onwelwording'
+        230: 'Onwelwording',
+        231: 'Vernieling bushokje'
       }
     };
 
@@ -1043,7 +1046,8 @@
       297: 'RD 1',
       298: 'THL WASSER',
       299: 'B 3',
-      300: 'THL P HÖHENRETTUNG'
+      300: 'THL P HÖHENRETTUNG',
+      301: 'POL 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1177,7 +1181,8 @@
       128: 'POL 1',
       129: 'POL 1',
       130: 'TECH 1',
-      131: 'POL 1'
+      131: 'POL 1',
+      132: 'MED 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1410,7 +1415,8 @@
       227: 'P 1',
       228: 'P 1',
       229: 'ZEER GROTE BRAND',
-      230: 'A 1'
+      230: 'A 1',
+      231: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
