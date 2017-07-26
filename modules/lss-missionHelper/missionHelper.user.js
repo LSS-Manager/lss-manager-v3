@@ -507,8 +507,9 @@
 				'1x GW-Atemschutz (100%)</br>1x Schlauchwagen (50%)</br></br><span class="badge">Credits: ~ 2500 </span>',
 				300 : '2x Löschfahrzeuge (100%)</br>1x GW-Höhenrettung (50%)</br>1x Funkstreifenwagen (100%)' +
 				'</br>1x Einsatzleitwagen 1</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)' +
-				'1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)',
-				301 : '2x Funkstreifenwagen (100%)<span class="badge">Credits: ~ 500 </span>'
+				'1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)</br></br><span class="badge">' +
+				'Credits: ~ 1500 </span>',
+				301 : '2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 500 </span>'
 			}
 		}
 
