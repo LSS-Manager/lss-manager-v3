@@ -321,7 +321,8 @@
         298: 'Hilflose Person auf Wasser',
         299: 'Strohballen qualmen in Scheune',
         300: 'Abgestürzter Kletterer',
-        301: 'Tiere auf der Fahrbahn'
+        301: 'Tiere auf der Fahrbahn',
+        302: 'Brennendes Kleinflugzeug'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -472,7 +473,8 @@
         129: 'Aggressive Passenger',
         130: 'Powerline Down',
         131: 'Parole Violation',
-        132: 'Allergic Reaction'
+        132: 'Allergic Reaction',
+        133: 'Stolen Credit Card'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -722,7 +724,8 @@
         228: 'Assistentie treinconducteur',
         229: 'Brand in tankstation',
         230: 'Onwelwording',
-        231: 'Vernieling bushokje'
+        231: 'Vernieling bushokje',
+        232: 'Buspassagier weigert te betalen'
       }
     };
 
@@ -1047,7 +1050,8 @@
       298: 'THL WASSER',
       299: 'B 3',
       300: 'THL P HÖHENRETTUNG',
-      301: 'POL 2'
+      301: 'POL 2',
+      302: 'B 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1182,7 +1186,8 @@
       129: 'POL 1',
       130: 'TECH 1',
       131: 'POL 1',
-      132: 'MED 1'
+      132: 'MED 1',
+      133: 'POL 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1416,7 +1421,8 @@
       228: 'P 1',
       229: 'ZEER GROTE BRAND',
       230: 'A 1',
-      231: 'P 1'
+      231: 'P 1',
+      232: 'P 1,
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
