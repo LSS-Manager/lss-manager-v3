@@ -512,7 +512,7 @@
 				301 : '2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 500 </span>',
 				302 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2</br>' +
 				'1x Rüstwagen (100%)</br>1x Drehleiter (50%)</br>1x Schlauchwagen (80%)</br>1x GW-Öl (25%)</br>' +
-				'3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)' +
+				'3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)' +
 				'</br></br><span class="badge">Credits: ~ 6000 </span>'
 			}
 		}
