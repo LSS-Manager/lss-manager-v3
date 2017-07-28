@@ -1422,7 +1422,7 @@
       229: 'ZEER GROTE BRAND',
       230: 'A 1',
       231: 'P 1',
-      232: 'P 1,
+      232: 'P 1',
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
