@@ -67,7 +67,8 @@ else if (I18n.locale == "nl")
         "34": ["TW | Tankwagen", 0],
         "35": ["OVD-P | Officier van Dienst - Politie", 2],
         "36": ["WOA | Waterongevallenaanhanger", 0],
-        "37": ["MMT-Auto", 1]
+        "37": ["MMT-Auto", 1],
+	"38": ["OvD-G | Officier van Dienst - Geneeskunde", 1]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
