@@ -8,25 +8,26 @@
 // 4 = Wasserrettung
 if(I18n.locale == "en")
     lssm.carsById = {
-		"0": ["Type 1 fire engine", 0],
-		"1": ["Type 2 fire engine", 0],
-		"2": ["Platform truck", 0],
-		"3": ["Bataillon Chief Unit", 0],
-		"4": ["Heavy Rescue Vehicle", 0],
-		"5": ["Ambulance", 1],
-		"6": ["Mobile air", 0],
-		"7": ["Water Tanker", 0],
-		"8": ["Utility unit", 0],
-		"9": ["HazMat", 0],
-		"10": ["Patrol Car", 2],
-		"11": ["HEMS", 1],
-		"12": ["Mobile command vehicle", 0],
-		"13": ["Quint", 0],
-		"14": ["Policehelicopter", 2],
-		"15": ["Fly-Car", 1],
-		"16": ["SWAT", 2],
-		"17": ["ARFF Crash Tender", 0],
-	    	"18": ["Rescue Engine", 0]
+	"0": ["Type 1 fire engine", 0],
+	"1": ["Type 2 fire engine", 0],
+	"2": ["Platform truck", 0],
+	"3": ["Bataillon Chief Unit", 0],
+	"4": ["Heavy Rescue Vehicle", 0],
+	"5": ["Ambulance", 1],
+	"6": ["Mobile air", 0],
+	"7": ["Water Tanker", 0],
+	"8": ["Utility unit", 0],
+	"9": ["HazMat", 0],
+	"10": ["Patrol Car", 2],
+	"11": ["HEMS", 1],
+	"12": ["Mobile command vehicle", 0],
+	"13": ["Quint", 0],
+	"14": ["Policehelicopter", 2],
+	"15": ["Fly-Car", 1],
+	"16": ["SWAT", 2],
+	"17": ["ARFF Crash Tender", 0],
+	"18": ["Rescue Engine", 0],
+	"19": ["K-9 Unit", 2]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {
