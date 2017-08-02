@@ -252,7 +252,7 @@
 				165 : '1x Rettungstransportwagen</br>1x Notarzteinsatzfahrzeug (20%)',
 				166 : '1x Löschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (40%)</br>' +
 				'1x Drehleiter (40%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 1200 </span>',
-				167 : '1x Löschfahrzeug (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (20%)</br>' +
+				167 : '2x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x GW-Höhenrettung (20%)</br>' +
 				'1x Drehleiter (50%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 1400 </span>',
 				168 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
 				169 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
