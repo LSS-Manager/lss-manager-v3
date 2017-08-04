@@ -476,7 +476,7 @@
         131: 'Parole Violation',
         132: 'Allergic Reaction',
         133: 'Stolen Credit Card',
-        134: ''
+        134: 'Search of a vehicle'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1192,7 +1192,7 @@
       131: 'POL 1',
       132: 'MED 1',
       133: 'POL 1',
-      134: ''
+      134: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
