@@ -322,7 +322,8 @@
         299: 'Strohballen qualmen in Scheune',
         300: 'Abgestürzter Kletterer',
         301: 'Tiere auf der Fahrbahn',
-        302: 'Brennendes Kleinflugzeug'
+        302: 'Brennendes Kleinflugzeug',
+        303: 'Carportbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -474,7 +475,8 @@
         130: 'Powerline Down',
         131: 'Parole Violation',
         132: 'Allergic Reaction',
-        133: 'Stolen Credit Card'
+        133: 'Stolen Credit Card',
+        134: ''
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -725,7 +727,8 @@
         229: 'Brand in tankstation',
         230: 'Onwelwording',
         231: 'Vernieling bushokje',
-        232: 'Buspassagier weigert te betalen'
+        232: 'Buspassagier weigert te betalen',
+        234: 'Brand in tuinhuis'
       }
     };
 
@@ -1051,7 +1054,8 @@
       299: 'B 3',
       300: 'THL P HÖHENRETTUNG',
       301: 'POL 2',
-      302: 'B 3'
+      302: 'B 3',
+      303: 'B 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1187,7 +1191,8 @@
       130: 'TECH 1',
       131: 'POL 1',
       132: 'MED 1',
-      133: 'POL 1'
+      133: 'POL 1',
+      134: ''
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1423,6 +1428,7 @@
       230: 'A 1',
       231: 'P 1',
       232: 'P 1',
+      233: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
