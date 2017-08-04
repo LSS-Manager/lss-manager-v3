@@ -48,8 +48,7 @@
 				'</br>1x Einsatzleitwagen 2 (20%) </br> 1x GW-Messtechnik (30%)</br></br><span class="badge">' +
 				'Credits: ~ 3710 </span>',
 				35 : '4x Löschfahrzeuge (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)' +
-				'</br> 1x Einsatzleitwagen 2 (30%)</br>2x Funkstreifenwagen (100%)</br></br>' +
-				'<span class="badge">Credits: ~ 3810 </span>',
+				'</br> 1x Einsatzleitwagen 2 (30%)</br></br><span class="badge">Credits: ~ 3810 </span>',
 				36 : '4x Löschfahrzeuge (100%)</br>2x Rüstwagen (30%)</br>1x Drehleiter (100%)</br>1x Einsatzleitwagen 1 (100%)' +
 				'</br>1x GW-Messtechnik (20%)</br>1x Dekon P (10%)</br></br><span class="badge">Credits: ~ 3310 </span>',
 				37 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 110 </span>',
