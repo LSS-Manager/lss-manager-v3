@@ -145,6 +145,7 @@ else if (I18n.locale == "de")
         "69": ["Tauchkraftwagen", 4],
         "70": ["MZB", 4],
         "71": ["AB-MZB", 4],
+	"72": ["WaWe 10", 2]
     };
 
 lssm.car_list = function(building) {
