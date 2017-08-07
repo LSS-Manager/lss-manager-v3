@@ -16,7 +16,7 @@
     var sections = [{
         name: 'BPol',
         short: 'bpol',
-        vehicles: [50, 51, 52, 35]
+        vehicles: [50, 51, 52, 35, 72]
     }];
 
     $(sections).each(function () {
