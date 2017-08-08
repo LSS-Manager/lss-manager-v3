@@ -323,7 +323,10 @@
         300: 'Abgestürzter Kletterer',
         301: 'Tiere auf der Fahrbahn',
         302: 'Brennendes Kleinflugzeug',
-        303: 'Carportbrand'
+        303: 'Carportbrand',
+        304: 'Angemeldete Demonstration - Gefahrenpotential',
+        305: 'Fußball Bundesliga-Risikospiel',
+        306: 'Absicherung Rockkonzert - Gefahrenpotential'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1055,7 +1058,10 @@
       300: 'THL P HÖHENRETTUNG',
       301: 'POL 2',
       302: 'B 3',
-      303: 'B 2'
+      303: 'B 2',
+      304: 'BP 3',
+      305: 'BP 10',
+      306: 'BP 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
