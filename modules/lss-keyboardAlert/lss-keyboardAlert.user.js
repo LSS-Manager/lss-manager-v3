@@ -26,6 +26,9 @@
                 case 53:
                     $('a[id^="btn_approach_"]')[4].click();
                     break;
+                case 80:
+                    $("#sonderrechte_switch").click();
+                    break;
                 case 82:
                     $("#btn_back_to_mission").click();
                     break;

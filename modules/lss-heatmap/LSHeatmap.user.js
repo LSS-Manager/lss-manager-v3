@@ -1,9 +1,9 @@
 (function(I18n, $) {
     'use strict';
-    
+
     I18n.translations.de['lssm']['heatmap'] = {
-            loeschfz: "Löschfahrzeuge",
-            tankloeschfz: "Tanklöschfahrzeuge",
+            lf: "Löschfahrzeuge",
+            tlf: "Tanklöschfahrzeuge",
             schlauchwg: "Schlauchwagen",
             ruest: "Rüstwagen",
             oel: "Öl",
@@ -17,10 +17,10 @@
             reset: "Zurücksetzen",
             close: "Schließen"
     };
-    
+
     I18n.translations.en['lssm']['heatmap'] = {
-            loeschfz: "Fire Trucks",
-            tankloeschfz: "Tank Fire Trucks",
+            lf: "Fire Trucks",
+            tlf: "Tank Fire Trucks",
             schlauchwg: "Watercar",
             ruest: "Supply Truck",
             oel: "Oil",
@@ -36,10 +36,11 @@
     };
 
     var LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
+    var availableVehicleTypes = [];
 
     var vehicleClasses = {
-        '1000': {'name': '[' + I18n.t('lssm.heatmap.loeschfz') + ']', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
-        '1001': {'name': '[' + I18n.t('lssm.heatmap.tankloeschfz') + ']', 'vehicleTypeIds': [17,18,19,20,21,22,23,24,25,26]},
+        '1000': {'name': '[' + I18n.t('lssm.heatmap.lf') + ']', 'vehicleTypeIds': [0, 1,6,7,8,9,30,37]},
+        '1001': {'name': '[' + I18n.t('lssm.heatmap.tlf') + ']', 'vehicleTypeIds': [17,18,19,20,21,22,23,24,25,26]},
         '1002': {'name': '[' + I18n.t('lssm.heatmap.schlauchwg') + ']', 'vehicleTypeIds': [11,13,14,15,16]},
         '1003': {'name': '[' + I18n.t('lssm.heatmap.ruest') + ']', 'vehicleTypeIds': [4,30,47]},
         '1004': {'name': '[' + I18n.t('lssm.heatmap.oel') + ']', 'vehicleTypeIds': [10,49]},
@@ -75,13 +76,13 @@
         var settings = getSettings();
         for (var key in settings) {
             var formElement = $('#' + key);
-            if(settings[key].type == 'boolean'){
+            if(settings[key].type === 'boolean'){
                 if (formElement.is(':checked')) {
                     settings[key].value = true;
                 } else {
                     settings[key].value = false;
                 }
-            } else if(settings[key].type == 'range'){
+            } else if(settings[key].type === 'range'){
                 settings[key].value = formElement.slider("value");
             } else{
                 settings[key].value = parseInt(formElement.val());
@@ -94,35 +95,38 @@
         if(reload) parent.location.reload();
     }
 
-    function handleMainWindow(){
-        renderMap();
-        renderMapSettings();
-    }
-
     function renderMapSettings(){
-        $('.leaflet-control-container .leaflet-bottom.leaflet-left').append('<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="' + lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>');
+    	var markup = '<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;">';
+    	markup += '<img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="';
+    	markup += lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>';
+        $('.leaflet-control-container .leaflet-bottom.leaflet-left').append(markup);
         $('#ls-heatmap-config-img').on('click', function(){
             var wrapper = $('#ls-heatmap-config-wrapper');
-            var isOpened = $(wrapper).attr('data-opened') == 'true';
+            var isOpened = $(wrapper).attr('data-opened') === 'true';
             if(isOpened){
                 $('#ls-heatmap-config').remove();
                 $(wrapper).attr('data-opened', 'false');
             } else {
-                var mapConfig = '<div id="ls-heatmap-config"><table style="line-height: 30px; margin-left: 30px; margin-bottom: 10px; margin-right: 10px;" class="ls-form-group"></table>';
+                var mapConfig = '<div id="ls-heatmap-config">';
+                mapConfig += '<table style="line-height: 30px; margin-left: 30px; margin-bottom: 10px; margin-right: 10px;" class="ls-form-group"></table>';
                 $('#ls-heatmap-config-wrapper').append(mapConfig);
                 $(wrapper).attr('data-opened', 'true');
 
                 // Aktiviert
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.activated') + '</td><td><input class="ls-input" type="checkbox" id="heatmap-activated"></td></tr>');
+                markup = '<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.activated') + '</td>';
+                markup += '<td><input class="ls-input" type="checkbox" id="heatmap-activated"></td></tr>';
+                $('#ls-heatmap-config .ls-form-group').append(markup);
                 if(getSetting('heatmap-activated')){
                     $('#heatmap-activated').attr('checked', 'checked');
                 }
-                
+
                 // Vehicle
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.vehicleType') + '</td><td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>');
+                markup = '<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.vehicleType') + '</td>';
+                markup += '<td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>';
+                $('#ls-heatmap-config .ls-form-group').append(markup);
 
                 for(var key in vehicleClasses){
-                    if(getSetting('heatmap-vehicle') == this){
+                    if(getSetting('heatmap-vehicle') === this){
                         $('#heatmap-vehicle').append('<option selected value="'+ key + '">' + vehicleClasses[key].name + '</option>');
                     } else {
                         $('#heatmap-vehicle').append('<option value="'+ key + '">' + vehicleClasses[key].name + '</option>');
@@ -130,7 +134,7 @@
                 }
 
                 $(availableVehicleTypes).each(function(){
-                    if(getSetting('heatmap-vehicle') == this){
+                    if(getSetting('heatmap-vehicle') === this){
                         $('#heatmap-vehicle').append('<option selected value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
                     } else {
                         $('#heatmap-vehicle').append('<option value="'+ this + '">' + lssm.carsById[this][0] + '</option>');
@@ -184,7 +188,7 @@
 
         });
     }
-    var availableVehicleTypes = [];
+
     function getVehicles(){
         var vehicles = [];
         $('#building_list .building_list_li').each(function(){
@@ -203,12 +207,11 @@
     }
 
     var heat;
-
     var vehicles;
     function renderMap(){
         if (heat !== undefined) {
             map.removeLayer(heat);
-            heat = undefined;
+            heat = null;
         }
 
         if(vehicles === undefined){
@@ -219,9 +222,10 @@
             var entries = [];
             $(vehicles).each(function(){
                 var vehicle = this;
-                if(vehicle.vehicle_type_id == getSetting('heatmap-vehicle')){
-                    entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
-                } else if(vehicleClasses[getSetting('heatmap-vehicle')] !== undefined && vehicleClasses[getSetting('heatmap-vehicle')].vehicleTypeIds.indexOf(vehicle.vehicle_type_id ) !== -1){
+                var vehicleClass = vehicleClasses[getSetting('heatmap-vehicle')];
+                // Add to entries if exact match or if vehicle is in vehicle class
+                if(vehicle.vehicle_type_id === getSetting('heatmap-vehicle')
+                		|| (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.vehicle_type_id ) !== -1)){
                     entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
                 }
             });
@@ -233,6 +237,7 @@
         console.log("LSHeatmap: Clouldn't load leaflet extension")
     })
     .done(function () {
-        handleMainWindow();
+        renderMap();
+        renderMapSettings();
     });
 })(I18n, jQuery);
