@@ -255,7 +255,7 @@
 				'1x Drehleiter (50%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 1400 </span>',
 				168 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
 				169 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
-				170 : '1x Löschfahrzeug (100%)</br>2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
+				170 : '1x Löschfahrzeug (100%)</br>1x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 600</span>',
 				171 : '1x Löschfahrzeug (100%)</br>1x Schlauchwagen (100%)</br>1x Einsatzleitwagen 2 (100%)</br>' +
 				'1x GW-Öl (100%)</br>2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 4000 </span>',
 				172 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
