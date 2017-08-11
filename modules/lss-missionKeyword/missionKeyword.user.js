@@ -326,7 +326,8 @@
         303: 'Carportbrand',
         304: 'Angemeldete Demonstration - Gefahrenpotential',
         305: 'Fußball Bundesliga-Risikospiel',
-        306: 'Absicherung Rockkonzert - Gefahrenpotential'
+        306: 'Absicherung Rockkonzert - Gefahrenpotential',
+        307: 'Spontaner Aufstand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -479,7 +480,10 @@
         131: 'Parole Violation',
         132: 'Allergic Reaction',
         133: 'Stolen Credit Card',
-        134: 'Search of a vehicle'
+        134: 'Search of a vehicle',
+        135: 'Small Violent Protest',
+        136: 'Medium Violent Protest',
+        137: 'Drug Deal'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -731,7 +735,8 @@
         230: 'Onwelwording',
         231: 'Vernieling bushokje',
         232: 'Buspassagier weigert te betalen',
-        234: 'Brand in tuinhuis'
+        233: 'Brand in tuinhuis',
+        234: 'VOS 6 Vliegtuig neergestort'
       }
     };
 
@@ -1061,7 +1066,8 @@
       303: 'B 2',
       304: 'BP 3',
       305: 'BP 10',
-      306: 'BP 4'
+      306: 'BP 4',
+      307: 'BP 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1198,7 +1204,10 @@
       131: 'POL 1',
       132: 'MED 1',
       133: 'POL 1',
-      134: 'POL 2'
+      134: 'POL 2',
+      135: 'POL 4',
+      136: 'POL 7',
+      137: 'POL 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1434,7 +1443,8 @@
       230: 'A 1',
       231: 'P 1',
       232: 'P 1',
-      233: 'MIDDEL BRAND'
+      233: 'MIDDEL BRAND',
+      234: 'GROTE HV, VOS 6'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
