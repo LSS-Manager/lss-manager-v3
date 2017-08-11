@@ -1084,7 +1084,7 @@
 				234 : '11x Tankautospuiten (100%)</br>1x Redvoertuig (100%)</br>5x Hulpverleningsvoertuigen (100%)</br>' +
 				'1x Slangenwagen (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>3x OvD-Bs (100%)</br>' +
 				'2x HOVDs (100%)</br>2x Commandowagen (100%)</br>14x Politieautos (100%)</br>' +
-				'min. 55 Ambulances</br>min. 1x MMT-Auto (25%)<span class="badge">Credits: ~ 22000 </span>'
+				'min. 55 Ambulances</br>min. 1x MMT-Auto (25%)</br></br><span class="badge">Credits: ~ 22000 </span>'
 			}
 		}
 	}
