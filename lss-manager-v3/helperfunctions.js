@@ -138,11 +138,11 @@ else if (I18n.locale == "de")
         "62": ["AB-Schlauch", 0],
         "63": ["GW-Taucher", 4],
         "64": ["GW-Wasserrettung", 4],
-        "65": ["LKW 7 Lkr 19 tm", 4],
-        "66": ["Anh MzB", 4],
-        "67": ["Anh SchlB", 4],
-        "68": ["Anh MzAB", 4],
-        "69": ["Tauchkraftwagen", 4],
+        "65": ["LKW 7 Lkr 19 tm", 3],
+        "66": ["Anh MzB", 3],
+        "67": ["Anh SchlB", 3],
+        "68": ["Anh MzAB", 3],
+        "69": ["Tauchkraftwagen", 3],
         "70": ["MZB", 4],
         "71": ["AB-MZB", 4],
 	"72": ["WaWe 10", 2]
@@ -260,7 +260,7 @@ if (!String.format) {
 	console.log("execute");
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) { 
+    return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined' ? args[number] : match;
     });
   };
