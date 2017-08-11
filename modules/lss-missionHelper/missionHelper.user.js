@@ -709,7 +709,7 @@
 				131 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
 				132 : '1x Ambulance (100%)',
 				133 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
-				134 : '2x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1000</span>'
+				134 : '2x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1000</span>',
 				135 : '4x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 2200</span>',
 				136 : '7x Police Cars (100%)</br>1x K9-Unit (100%)</br>1x Police Helicopter (100%)' + 
 				'</br></br><span class="badge">Credits: ~ 3000</span>',
