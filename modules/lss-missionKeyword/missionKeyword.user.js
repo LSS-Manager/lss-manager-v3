@@ -1444,7 +1444,7 @@
       231: 'P 1',
       232: 'P 1',
       233: 'MIDDEL BRAND',
-      234: 'GROTE HV, VOS 6'
+      234: 'ZEER GROTE HV, VOS 6 "CRASH"'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
