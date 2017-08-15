@@ -1,6 +1,6 @@
 (function (I18n, $) {
     'use strict';
-
+	if(!location.pathname.match(/\/missions\/\d+/)) return;
     $('#mission-form').find('li[role="presentation"]').click(function () {
         $('#mission-form').find('.custom-tab').removeClass('show');
     });
