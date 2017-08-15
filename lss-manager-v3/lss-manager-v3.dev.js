@@ -359,12 +359,15 @@ lssm.Module = {
     DestinationFilter: {
         name: {
             de: 'Zielort Filter',
-            en: 'Destination filter'
+            en: 'Destination filter',
+	     nl: 'Ziekenhuis-Filter'
         },
         active: false,
         description: {
             de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
-            en: 'Allows hiding full or unelegible hospitals'
+            en: 'Allows hiding full or unelegible hospitals',
+	     nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' + 
+	         'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         develop: false,
@@ -612,12 +615,14 @@ lssm.Module = {
     centermap: {
         name: {
             de: 'Center-Map',
-            en: 'Center-Map'
+            en: 'Center-Map',
+	     nl: 'KAART CENTREREN'
         },
         active: false,
         description: {
             de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
-            en: 'Centers the map on page load and on click. Just as you prefer.'
+            en: 'Centers the map on page load and on click. Just as you prefer.', 
+	     nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -718,13 +723,13 @@ lssm.Module = {
         name: {
             de: 'Icon Gebäude Filter',
             en: 'Icon building filter',
-            nl: 'Icon building filter'
+            nl: 'REDESIGN FILTERKNOPPEN GEBOUWEN'
         },
         active: false,
         description: {
             de: 'Tauscht den Gebäude Filter mit Icons aus.',
             en: 'Replaces the building filter with icons.',
-            nl: 'Replaces the building filter with icons.'
+            nl: 'Vervangt de gebouwfilter met nieuwe iconen.'
         },
         source: '/modules/lss-iconFilter/iconFilter.user.js',
         noapp: false, // Nicht im App-Store auflisten
