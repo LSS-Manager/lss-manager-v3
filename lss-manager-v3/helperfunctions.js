@@ -257,7 +257,6 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 
 // Add custom String format function
 if (!String.format) {
-	console.log("execute");
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
     return format.replace(/{(\d+)}/g, function(match, number) {
