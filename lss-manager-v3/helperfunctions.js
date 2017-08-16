@@ -6,7 +6,30 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if(I18n.locale == "nl")
+if(I18n.locale == "en")
+    lssm.carsById = {
+	"0": ["Type 1 fire engine", 0],
+	"1": ["Type 2 fire engine", 0],
+	"2": ["Platform truck", 0],
+	"3": ["Bataillon Chief Unit", 0],
+	"4": ["Heavy Rescue Vehicle", 0],
+	"5": ["Ambulance", 1],
+	"6": ["Mobile air", 0],
+	"7": ["Water Tanker", 0],
+	"8": ["Utility unit", 0],
+	"9": ["HazMat", 0],
+	"10": ["Patrol Car", 2],
+	"11": ["HEMS", 1],
+	"12": ["Mobile command vehicle", 0],
+	"13": ["Quint", 0],
+	"14": ["Policehelicopter", 2],
+	"15": ["Fly-Car", 1],
+	"16": ["SWAT", 2],
+	"17": ["ARFF Crash Tender", 0],
+	"18": ["Rescue Engine", 0],
+	"19": ["K-9 Unit", 2]
+    }
+else if (I18n.locale == "nl")
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -45,9 +68,10 @@ if(I18n.locale == "nl")
         "34": ["TW | Tankwagen", 0],
         "35": ["OVD-P | Officier van Dienst - Politie", 2],
         "36": ["WOA | Waterongevallenaanhanger", 0],
-        "37": ["MMT-Auto", 1]
+        "37": ["MMT-Auto", 1],
+	"38": ["OvD-G | Officier van Dienst - Geneeskunde", 1]
     }
-else
+else if (I18n.locale == "de")
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -114,13 +138,14 @@ else
         "62": ["AB-Schlauch", 0],
         "63": ["GW-Taucher", 4],
         "64": ["GW-Wasserrettung", 4],
-        "65": ["LKW 7 Lkr 19 tm", 4],
-        "66": ["Anh MzB", 4],
-        "67": ["Anh SchlB", 4],
-        "68": ["Anh MzAB", 4],
-        "69": ["Tauchkraftwagen", 4],
+        "65": ["LKW 7 Lkr 19 tm", 3],
+        "66": ["Anh MzB", 3],
+        "67": ["Anh SchlB", 3],
+        "68": ["Anh MzAB", 3],
+        "69": ["Tauchkraftwagen", 3],
         "70": ["MZB", 4],
         "71": ["AB-MZB", 4],
+	"72": ["WaWe 10", 2]
     };
 
 lssm.car_list = function(building) {
@@ -154,7 +179,8 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     var data = "";
     $.each(list, function (key, car) {
-        data += "<div style=\"margin-top: 3px;\"><span class=\""+ car.classes +"\">" + car.fms + "</span> " + car.name +"</div>";
+		data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name +
+			"</div>";
     });
     return data;
 }
@@ -181,7 +207,79 @@ lssm.get_buildings = function() {
     });
     return data;
 };
+// liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
+lssm.newDragableDivOnMap=function(id, classe, pos) {
+    function changeX(p, m) {
+        if (p <= -m + info._div.offsetWidth + 20)
+            return -m + info._div.offsetWidth + 20;
+        else if (p >= 0)
+            return 0
+        else
+            return p;
+    }
 
+    function changeY(p, m) {
+        if (p >= m - info._div.offsetHeight)
+            return (m - info._div.offsetHeight - 10);
+        else if (p <= 0)
+            return 0;
+        else
+            return p
+    }
+    var info = L.control();
+
+    info.onAdd = function () {
+        this._div = L.DomUtil.create('div', classe || "");
+        this._div.id = id+"Div";
+        var m = map.getSize();
+        L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
+        this.update();
+        return this._div;
+    };
+
+    info.update = function () {
+        var m = map.getSize();
+        var p = L.DomUtil.getPosition(info._div);
+		var pos = {
+			x: changeX(p.x, m.x),
+			y: changeY(p.y, m.y)
+		};
+        lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
+        L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
+    };
+
+    info.addTo(map);
+    var t = new L.Draggable(info._div);
+    t.enable();
+    t.on('drag', info.update);
+    return $(info._div);
+};
+
+// Add custom String format function
+if (!String.format) {
+//	console.log("execute");
+  String.format = function(format) {
+    var args = Array.prototype.slice.call(arguments, 1);
+    return format.replace(/{(\d+)}/g, function(match, number) {
+      return typeof args[number] != 'undefined' ? args[number] : match;
+    });
+  };
+}
+lssm.notification = function(msg, type, duration) {
+	type = (typeof type === 'undefined') ? 'alert-success' : type;
+	duration = (typeof duration === 'undefined') ? 2000 : duration;
+	$("#content")
+		.before(
+			'<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
+			'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
+			'aria-label="close">&times;</a>' + msg +
+			'</div>');
+	setTimeout(function() {
+		$("#lssm_notification").slideUp("slow", function() {
+			$("#lssm_notification").remove();
+		});
+	}, duration);
+};
 
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
 /*! Select2 4.0.3 | https://github.com/select2/select2/blob/master/LICENSE.md */
