@@ -523,7 +523,8 @@
 				306 : '<h4>ABSICHERUNG</h4>8x Funkstreifenwagen (100%)</br>2x WaWe 10 (100%)</br>4x leBefKw (100%)</br>' +
 				'9x GruKw (100%)</br>1x FüKw (100%)</br>2x Löschfahrzeuge (100%)</br>4x Rettungstransportwagen (100%)',
 				307 : '7x Funkstreifenwagen (100%)</br>3x WaWe 10 (100%)</br>9x GruKw (100%)</br>4x leBefKw (100%)' + 
-				'</br>1x FüKw (100%)</br>1x Polizeihubschrauber (100%)</br></br><span class="badge">Credits: ~ 6000 </span>'
+				'</br>1x FüKw (100%)</br>1x Polizeihubschrauber (100%)</br></br><span class="badge">Credits: ~ 6000 </span>',
+				308 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
@@ -1084,7 +1085,8 @@
 				234 : '11x Tankautospuiten (100%)</br>1x Redvoertuig (100%)</br>5x Hulpverleningsvoertuigen (100%)</br>' +
 				'1x Slangenwagen (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>3x OvD-Bs (100%)</br>' +
 				'2x HOVDs (100%)</br>2x Commandowagen (100%)</br>14x Politieautos (100%)</br>' +
-				'min. 55 Ambulances</br>min. 1x MMT-Auto (25%)</br></br><span class="badge">Credits: ~ 22000 </span>'
+				'min. 55 Ambulances</br>min. 1x MMT-Auto (25%)</br></br><span class="badge">Credits: ~ 22000 </span>',
+				235 : '1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 	}
