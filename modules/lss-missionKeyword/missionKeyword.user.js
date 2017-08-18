@@ -327,7 +327,8 @@
         304: 'Angemeldete Demonstration - Gefahrenpotential',
         305: 'Fußball Bundesliga-Risikospiel',
         306: 'Absicherung Rockkonzert - Gefahrenpotential',
-        307: 'Spontaner Aufstand'
+        307: 'Spontaner Aufstand',
+        308: 'Brennender Müllwagen'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -736,7 +737,8 @@
         231: 'Vernieling bushokje',
         232: 'Buspassagier weigert te betalen',
         233: 'Brand in tuinhuis',
-        234: 'VOS 6 Vliegtuig neergestort'
+        234: 'VOS 6 Vliegtuig neergestort',
+        235: 'Overdosis drugs'
       }
     };
 
@@ -1067,7 +1069,8 @@
       304: 'BP 3',
       305: 'BP 10',
       306: 'BP 4',
-      307: 'BP 4'
+      307: 'BP 4',
+      308: 'B 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1444,7 +1447,8 @@
       231: 'P 1',
       232: 'P 1',
       233: 'MIDDEL BRAND',
-      234: 'ZEER GROTE HV, VOS 6 "CRASH"'
+      234: 'ZEER GROTE HV, VOS 6 "CRASH"',
+      235: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
