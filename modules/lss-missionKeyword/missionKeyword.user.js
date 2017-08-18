@@ -484,7 +484,8 @@
         134: 'Search of a vehicle',
         135: 'Small Violent Protest',
         136: 'Medium Violent Protest',
-        137: 'Drug Deal'
+        137: 'Drug Deal',
+        138: 'Smoke Investigation'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1210,7 +1211,8 @@
       134: 'POL 2',
       135: 'POL 4',
       136: 'POL 7',
-      137: 'POL 4'
+      137: 'POL 4',
+      138: 'FIRE 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
