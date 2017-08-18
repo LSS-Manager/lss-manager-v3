@@ -522,7 +522,7 @@
 				'</br>3x WaWe 10 (100%)',
 				306 : '<h4>ABSICHERUNG</h4>8x Funkstreifenwagen (100%)</br>2x WaWe 10 (100%)</br>4x leBefKw (100%)</br>' +
 				'9x GruKw (100%)</br>1x FüKw (100%)</br>2x Löschfahrzeuge (100%)</br>4x Rettungstransportwagen (100%)',
-				307 : '7x Funkstreifenwagen (100%)</br>3x WaWe 10 (100%)</br>9x GruKw (100%)</br>4x leBefKw (100%)' + 
+				307 : '7x Funkstreifenwagen (100%)</br>3x WaWe 10 (100%)</br>9x GruKw (100%)</br>4x leBefKw (100%)' +
 				'</br>1x FüKw (100%)</br>1x Polizeihubschrauber (100%)</br></br><span class="badge">Credits: ~ 6000 </span>',
 				308 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1000 </span>'
 			}
@@ -711,9 +711,10 @@
 				133 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
 				134 : '2x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1000</span>',
 				135 : '4x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 2200</span>',
-				136 : '7x Police Cars (100%)</br>1x K9-Unit (100%)</br>1x Police Helicopter (100%)' + 
+				136 : '7x Police Cars (100%)</br>1x K9-Unit (100%)</br>1x Police Helicopter (100%)' +
 				'</br></br><span class="badge">Credits: ~ 3000</span>',
-				137 : '4x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1500</span>'
+				137 : '4x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1500</span>',
+				138 : '1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)</br></br><span class="badge">Credits: ~ 700</span>'
 			}
 		}
 
