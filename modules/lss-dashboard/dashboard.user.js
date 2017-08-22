@@ -282,7 +282,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     break;
                 case BUILDING_TYPE_THW:
                     appendto = "thw";
-		    maxcars = 12;
+		    maxcars = 15;
                     break;
                 case BUILDING_TYPE_FEUERWEHRSCHULE:
                 case BUILDING_TYPE_RETTUNGSSCHULE:
