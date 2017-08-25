@@ -525,9 +525,9 @@
 				307 : '7x Funkstreifenwagen (100%)</br>3x WaWe 10 (100%)</br>9x GruKw (100%)</br>4x leBefKw (100%)' +
 				'</br>1x FüKw (100%)</br>1x Polizeihubschrauber (100%)</br></br><span class="badge">Credits: ~ 6000 </span>',
 				308 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1000 </span>',
-				309 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)' +
+				309 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)' +
 				'</br></br><span class="badge">Credits: ~ 1000 </span>',
-				310 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)' +
+				310 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)' +
 				'</br></br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
