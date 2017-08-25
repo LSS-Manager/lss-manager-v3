@@ -524,7 +524,11 @@
 				'9x GruKw (100%)</br>1x FüKw (100%)</br>2x Löschfahrzeuge (100%)</br>4x Rettungstransportwagen (100%)',
 				307 : '7x Funkstreifenwagen (100%)</br>3x WaWe 10 (100%)</br>9x GruKw (100%)</br>4x leBefKw (100%)' +
 				'</br>1x FüKw (100%)</br>1x Polizeihubschrauber (100%)</br></br><span class="badge">Credits: ~ 6000 </span>',
-				308 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1000 </span>'
+				308 : '2x Löschfahrzeuge (100%)</br></br><span class="badge">Credits: ~ 1000 </span>',
+				309 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)' +
+				'</br></br><span class="badge">Credits: ~ 1000 </span>',
+				310 : '1x Boot (100%)</br>1x GW-Taucher (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (90%)' +
+				'</br></br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
@@ -714,7 +718,9 @@
 				136 : '7x Police Cars (100%)</br>1x K9-Unit (100%)</br>1x Police Helicopter (100%)' +
 				'</br></br><span class="badge">Credits: ~ 3000</span>',
 				137 : '4x Police Cars (100%)</br>1x K9-Unit (100%)</br></br><span class="badge">Credits: ~ 1500</span>',
-				138 : '1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)</br></br><span class="badge">Credits: ~ 700</span>'
+				138 : '1x Firetruck (100%)</br>1x Platform Truck (100%)</br>1x Battalion Chief (100%)</br></br><span class="badge">Credits: ~ 700</span>',
+				139 : '4x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chief (100%)</br>2x Hazmat (100%)</br>4x Police Cars (100%)' +
+				'</br>min. 1 Ambulance (100%)</br></br><span class="badge">Credits: ~ 3000</span>'
 			}
 		}
 
@@ -1087,7 +1093,9 @@
 				'1x Slangenwagen (100%)</br>1x Adviseurs Gevaarlijke Stoffen (100%)</br>3x OvD-Bs (100%)</br>' +
 				'2x HOVDs (100%)</br>2x Commandowagen (100%)</br>14x Politieautos (100%)</br>' +
 				'min. 55 Ambulances</br>min. 1x MMT-Auto (25%)</br></br><span class="badge">Credits: ~ 22000 </span>',
-				235 : '1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 400 </span>'
+				235 : '1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
+				236 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>min. 1x Ambulance (100%)</br>1x MMT-Auto (100%)' +
+				'</br></br><span class="badge">Credits: ~ 1500 </span>'
 			}
 		}
 	}
