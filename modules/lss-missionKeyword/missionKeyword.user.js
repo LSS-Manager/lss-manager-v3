@@ -330,7 +330,8 @@
         307: 'Spontaner Aufstand',
         308: 'Brennender Müllwagen',
         309: 'Tauchunfall',
-        310: 'Tauchunfall'
+        310: 'Tauchunfall',
+        311: 'Mitarbeiter unter PKW eingeklemmt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -488,7 +489,8 @@
         136: 'Medium Violent Protest',
         137: 'Drug Deal',
         138: 'Smoke Investigation',
-        139: 'Drug Lab Fire'
+        139: 'Drug Lab Fire',
+        140: 'Gas Station Robbery'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -743,7 +745,8 @@
         233: 'Brand in tuinhuis',
         234: 'VOS 6 Vliegtuig neergestort',
         235: 'Overdosis drugs',
-        236: 'Schietincident'
+        236: 'Schietincident',
+        237: 'Brand in werkplaats'
       }
     };
 
@@ -1077,7 +1080,8 @@
       307: 'BP 4',
       308: 'B 2',
       309: 'RD 2',
-      310: 'RD 2'
+      310: 'RD 2',
+      311: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1219,7 +1223,8 @@
       136: 'POL 7',
       137: 'POL 4',
       138: 'FIRE 1',
-      139: 'FIRE 3'
+      139: 'FIRE 3',
+      140: 'POL 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1458,7 +1463,8 @@
       233: 'MIDDEL BRAND',
       234: 'ZEER GROTE HV, VOS 6 "CRASH"',
       235: 'P 1',
-      236: 'P 1'
+      236: 'P 1',
+      237: 'KLEINE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
