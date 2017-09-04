@@ -743,7 +743,7 @@
         231: 'Vernieling bushokje',
         232: 'Buspassagier weigert te betalen',
         233: 'Brand in tuinhuis',
-        234: 'VOS 6 Vliegtuig neergestort',
+        234: 'Vliegtuig neergestort',
         235: 'Overdosis drugs',
         236: 'Schietincident',
         237: 'Brand in werkplaats'
