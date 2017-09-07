@@ -746,7 +746,8 @@
         234: 'Vliegtuig neergestort',
         235: 'Overdosis drugs',
         236: 'Schietincident',
-        237: 'Brand in werkplaats'
+        237: 'Brand in werkplaats',
+        238: 'Brand in werkplaats'
       }
     };
 
@@ -1464,7 +1465,8 @@
       234: 'ZEER GROTE HV, VOS 6 "CRASH"',
       235: 'P 1',
       236: 'P 1',
-      237: 'KLEINE BRAND'
+      237: 'KLEINE BRAND',
+      238: 'KLEINE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
