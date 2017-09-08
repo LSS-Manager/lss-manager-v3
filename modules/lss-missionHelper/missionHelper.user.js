@@ -729,7 +729,7 @@
 				139 : '4x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chief (100%)</br>2x Hazmat (100%)</br>4x Police Cars (100%)' +
 				'</br>min. 1 Ambulance (100%)</br></br><span class="badge">Credits: ~ 3000</span>',
 				140 : '4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>2x Swat Cars (100%)</br></br><span class="badge">Credits: ~ 1250 </span>',
-				141 : '</br></br><span class="badge">Credits: ~ 1100 </span>'
+				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 
