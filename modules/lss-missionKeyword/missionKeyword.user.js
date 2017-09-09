@@ -494,7 +494,7 @@
         138: 'Smoke Investigation',
         139: 'Drug Lab Fire',
         140: 'Gas Station Robbery',
-        141: ''
+        141: 'Elevator Rescue'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1234,7 +1234,7 @@
       138: 'FIRE 1',
       139: 'FIRE 3',
       140: 'POL 4',
-      141: ''
+      141: 'TECH 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
