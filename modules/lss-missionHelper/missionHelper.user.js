@@ -734,7 +734,7 @@
 				140 : '4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>2x Swat Cars (100%)</br></br><span class="badge">Credits: ~ 1250 </span>',
 				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
 				142 : '20x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>6x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
-				'4x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars</br></br><span class="badge">Credits: ~ 10000 </span>'
+				'4x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br></br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1114,7 +1114,7 @@
 				'</br>1x Politieauto (100%)</br></br><span class="badge">Credits: ~ 780 </span>',
 				238 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 450 </span>',
 				239 : '1x Ambulance (100%)',
-				240 : '</br></br><span class="badge">Credits: ~ 1900 </span>'
+				240 : '1x Ambulance (100%)'
 			}
 		}
 	}
