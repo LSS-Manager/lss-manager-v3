@@ -733,8 +733,9 @@
 				'</br>min. 1 Ambulance (100%)</br></br><span class="badge">Credits: ~ 3000</span>',
 				140 : '4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>2x Swat Cars (100%)</br></br><span class="badge">Credits: ~ 1250 </span>',
 				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
-				142 : '20x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>6x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
-				'4x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br></br><span class="badge">Credits: ~ 10000 </span>'
+				142 : '10x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>4x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
+				'3x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br>1x Mobile Command (100%)' +
+				'</br></br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
