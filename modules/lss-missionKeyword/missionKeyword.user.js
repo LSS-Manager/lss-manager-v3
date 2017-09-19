@@ -334,7 +334,8 @@
         311: 'Mitarbeiter unter PKW eingeklemmt',
         312: 'Verunglückter Fallschirmspringer',
         313: 'Verunglückter Fallschirmspringer',
-        314: 'Verunglückter Fallschirmspringer'
+        314: 'Verunglückter Fallschirmspringer',
+        315: 'Chemieunfall an Schule'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -494,7 +495,8 @@
         138: 'Smoke Investigation',
         139: 'Drug Lab Fire',
         140: 'Gas Station Robbery',
-        141: 'Elevator Rescue'
+        141: 'Elevator Rescue',
+        142: 'Warehouse Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -752,7 +754,8 @@
         236: 'Schietincident',
         237: 'Brand in werkplaats',
         238: 'Brand in werkplaats',
-        239: 'Verstikking'
+        239: 'Verstikking',
+        240: 'Vergiftiging'
       }
     };
 
@@ -1090,7 +1093,8 @@
       311: 'THL 1',
       312: 'RD 2',
       313: 'RD 2',
-      314: 'RD 2'
+      314: 'RD 2',
+      315: 'ABC 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1234,7 +1238,8 @@
       138: 'FIRE 1',
       139: 'FIRE 3',
       140: 'POL 4',
-      141: 'TECH 1'
+      141: 'TECH 1',
+      142: 'FIRE 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1476,7 +1481,8 @@
       236: 'P 1',
       237: 'KLEINE BRAND',
       238: 'KLEINE BRAND',
-      239: 'A 1'
+      239: 'A 1',
+      240: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
