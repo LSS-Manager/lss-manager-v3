@@ -505,11 +505,11 @@
 				299 : '5x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Drehleiter (75%)</br>' +
 				'1x GW-Atemschutz (100%)</br>1x Schlauchwagen (50%)</br></br><span class="badge">Credits: ~ 2500 </span>',
 				300 : '2x Löschfahrzeuge (100%)</br>1x GW-Höhenrettung (50%)</br>1x Funkstreifenwagen (100%)' +
-				'</br>1x Einsatzleitwagen 1</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)</br>' +
+				'</br>1x Einsatzleitwagen 1 (100%)</br>1x Drehleiter (75%)</br>1x Rettungstransportwagen (100%)</br>' +
 				'1x Notarzteinsatzfahrzeug (90%)/1x Rettungshubschrauber (50%)</br></br><span class="badge">' +
 				'Credits: ~ 1500 </span>',
 				301 : '2x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 500 </span>',
-				302 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2</br>' +
+				302 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>' +
 				'1x Rüstwagen (100%)</br>1x Drehleiter (50%)</br>1x Schlauchwagen (80%)</br>1x GW-Öl (25%)</br>' +
 				'3x Funkstreifenwagen (100%)</br>min. 1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (80%)' +
 				'</br></br><span class="badge">Credits: ~ 6000 </span>',
@@ -535,7 +535,10 @@
 				313 : '2x Löschfahrzeuge (100%)</br>1x Drehleiter (100%)</br>1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)' +
 				'</br></br><span class="badge">Credits: ~ 900 </span>',
 				314 : '3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Drehleiter (100%)</br>1x GW-Höhenrettung (100%)</br>' +
-				'1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1900 </span>'
+				'1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1900 </span>',
+				315 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (80%)</br>1x Drehleiter (100%)</br>' +
+				'1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>min. 1x ' +
+				'Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)</br></br><span class="badge">Credits: ~ 4400 </span>'
 			}
 		}
 
@@ -729,7 +732,10 @@
 				139 : '4x Firetrucks (100%)</br>2x Platform Trucks (100%)</br>2x Battalion Chief (100%)</br>2x Hazmat (100%)</br>4x Police Cars (100%)' +
 				'</br>min. 1 Ambulance (100%)</br></br><span class="badge">Credits: ~ 3000</span>',
 				140 : '4x Police Cars (100%)</br>1x Police Helicopter (100%)</br>2x Swat Cars (100%)</br></br><span class="badge">Credits: ~ 1250 </span>',
-				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>'
+				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
+				142 : '10x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>4x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
+				'3x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br>1x Mobile Command (100%)' +
+				'</br></br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1108,7 +1114,8 @@
 				237 : '2x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>1x Adembeschermingsvoertuig (10%)' +
 				'</br>1x Politieauto (100%)</br></br><span class="badge">Credits: ~ 780 </span>',
 				238 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 450 </span>',
-				239 : '1x Ambulance (100%)'
+				239 : '1x Ambulance (100%)',
+				240 : '1x Ambulance (100%)'
 			}
 		}
 	}
