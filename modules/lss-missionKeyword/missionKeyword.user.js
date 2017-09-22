@@ -486,7 +486,7 @@
 		139: 'FIRE 3',
 		140: 'POL 4',
 		141: 'TECH 1',
-		142: 'FIRE 4'
+		142: 'FIRE 4',
         143: 'GEPLAND',
         144: '',
         145: '',
@@ -898,7 +898,7 @@
 		237: 'KLEINE BRAND',
 		238: 'KLEINE BRAND',
 		239: 'A 1',
-		240: 'A 1'
+		240: 'A 1',
         241: 'MIDDEL WO',
         242: 'MIDDEL WO',
         243: 'MISSING',
