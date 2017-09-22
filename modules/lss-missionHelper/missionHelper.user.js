@@ -655,9 +655,9 @@
 				89 : '3x Firetrucks (100%)</br> 2x Heavy Rescues (100%)</br> 1x Battalion Chief (100%)' +
 				'</br>1x Police Car (100%)</br>min. 2x Ambulance (100%)</br></br><span class="badge">Credits: ~ 2500 </span>',
 				90 : '6x Police Cars (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 1500 </span>',
-				91 : '<h4>Safeguarding</h4>7x Police Cars (100%)</br>2x Firetrucks (100%)</br>1x Ambulance (100%)',
-				92 : '<h4>Safeguarding</h4>3x Police Cars (100%)</br>2x Ambulances (100%)</br>1x Firetruck (100%)',
-				93 : '<h4>Safeguarding</h4>2x Police Cars (100%)</br>2x Ambulances (100%)</br>1x Firetruck (100%)',
+				91 : '<h4>Safeguarding</h4></br>7x Police Cars (100%)</br>2x Firetrucks (100%)</br>1x Ambulance (100%)',
+				92 : '<h4>Safeguarding</h4></br>3x Police Cars (100%)</br>2x Ambulances (100%)</br>1x Firetruck (100%)',
+				93 : '<h4>Safeguarding</h4></br>2x Police Cars (100%)</br>2x Ambulances (100%)</br>1x Firetruck (100%)',
 				94 : '10x Police Cars (100%)</br>1x Police Helicopter (100%)</br>1x K9-Unit (100%)</br></br>' +
 				'<span class="badge">Credits: ~ 4000 </span>',
 				95 : '5x Police Cars (100%)</br>1x Police Helicopter (100%)</br></br><span class="badge">Credits: ~ 3000 </span>',
@@ -735,7 +735,8 @@
 				141 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
 				142 : '10x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>4x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
 				'3x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br>1x Mobile Command (100%)' +
-				'</br></br><span class="badge">Credits: ~ 10000 </span>'
+				'</br></br><span class="badge">Credits: ~ 10000 </span>',
+				143 : '<h4>Safeguarding</h4></br>5x Police Cars (100%)</br>2x Swat Cars (100%)'
 			}
 		}
 
@@ -910,12 +911,12 @@
 				114 : '1x Tankautospuit (100%)</br>1x Redvoertuig (100%)</br></br><span class="badge">Credits: ~ 1000 </span>',
 				115 : '2x Tankautospuiten (100%)</br>1x Redvoertuig (100%)</br>1x OvD-B (100%)</br>1x Politieauto (100%)' +
 				'</br></br><span class="badge">Credits: ~ 1400 </span>',
-				116 : '<h4>Vrijwaring</h4>4x Politieautos (100%)</br>1x Ambulance (100%)',
-				117 : '<h4>Vrijwaring</h4>6x Politieautos (100%)</br>2x Ambulances (100%)',
-				118 : '<h4>Vrijwaring</h4>3x Ambulances (100%)</br>2x Politieautos (100%)',
-				119 : '<h4>Vrijwaring</h4>2x Politieautos (100%)',
-				120 : '<h4>Vrijwaring</h4>2x Politieautos (100%)</br>2x Ambulances (100%)',
-				121 : '<h4>Vrijwaring</h4>1x Tankautospuit (100%)',
+				116 : '<h4>Vrijwaring</h4></br>4x Politieautos (100%)</br>1x Ambulance (100%)',
+				117 : '<h4>Vrijwaring</h4></br>6x Politieautos (100%)</br>2x Ambulances (100%)',
+				118 : '<h4>Vrijwaring</h4></br>3x Ambulances (100%)</br>2x Politieautos (100%)',
+				119 : '<h4>Vrijwaring</h4></br>2x Politieautos (100%)',
+				120 : '<h4>Vrijwaring</h4></br>2x Politieautos (100%)</br>2x Ambulances (100%)',
+				121 : '<h4>Vrijwaring</h4></br>1x Tankautospuit (100%)',
 				122 : '5x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
 				123 : '5x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
 				124 : '4x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
@@ -1082,8 +1083,8 @@
 				'<span class="badge">Credits: ~ 620 </span>',
 				218 : '5x Politieautos (100%)</br>1x Officier van Dienst Politie (100%)</br>1x Politie Helikopter (100%)</br>' +
 				'1x OvD-B (100%)</br>1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 1100 </span>',
-				219 : '<h4>Vrijwaring</h4>1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x Redvoertuig (100%)',
-				220 : '<h4>Vrijwaring</h4>2x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>' +
+				219 : '<h4>Vrijwaring</h4></br>1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x Redvoertuig (100%)',
+				220 : '<h4>Vrijwaring</h4></br>2x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>' +
 				'1x Redvoertuig (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)',
 				221 : '3x Politieautos (100%)</br>1x Officier van Dienst Politie (50%)</br></br>' +
 				'<span class="badge">Credits: ~ 800 </span>',
@@ -1115,7 +1116,11 @@
 				'</br>1x Politieauto (100%)</br></br><span class="badge">Credits: ~ 780 </span>',
 				238 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 450 </span>',
 				239 : '1x Ambulance (100%)',
-				240 : '1x Ambulance (100%)'
+				240 : '1x Ambulance (100%)',
+				241 : '1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Waterongevallenvoertuig (100%)</br>1x Waterongevallenaanhangers (80%)</br>' +
+				'1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 900 </span>',
+				242 : '1x Tankautospuit (100%)</br>1x Redvoertuig (10%)</br>1x OvD-B (100%)</br>2x Waterongevallenvoertuig (100%)</br>' +
+				'1x Waterongevallenaanhangers (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 1200 </span>'
 			}
 		}
 	}
