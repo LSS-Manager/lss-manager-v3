@@ -496,7 +496,8 @@
         139: 'Drug Lab Fire',
         140: 'Gas Station Robbery',
         141: 'Elevator Rescue',
-        142: 'Warehouse Fire'
+        142: 'Warehouse Fire',
+        143: 'Assassination Threat'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -755,7 +756,9 @@
         237: 'Brand in werkplaats',
         238: 'Brand in werkplaats',
         239: 'Verstikking',
-        240: 'Vergiftiging'
+        240: 'Vergiftiging',
+        241: 'Zwemmer vermist',
+        242: 'Zwemmer vermist'
       }
     };
 
@@ -1239,7 +1242,8 @@
       139: 'FIRE 3',
       140: 'POL 4',
       141: 'TECH 1',
-      142: 'FIRE 4'
+      142: 'FIRE 4',
+      143: 'POL 5'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1482,7 +1486,9 @@
       237: 'KLEINE BRAND',
       238: 'KLEINE BRAND',
       239: 'A 1',
-      240: 'A 1'
+      240: 'A 1',
+      241: 'MIDDEL WO',
+      242: 'MIDDEL WO'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
