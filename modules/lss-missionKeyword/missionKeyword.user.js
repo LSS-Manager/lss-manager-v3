@@ -313,23 +313,23 @@
         296: 'THL 2',
         297: 'RD 1',
         298: 'THL WASSER',
-		299: 'B 3',
-		300: 'THL P HÖHENRETTUNG',
-		301: 'POL 2',
-		302: 'B 3',
-		303: 'B 2',
-		304: 'BP 3',
-		305: 'BP 10',
-		306: 'BP 4',
-		307: 'BP 4',
-		308: 'B 2',
-		309: 'RD 2',
-		310: 'RD 2',
-		311: 'THL 1',
-		312: 'RD 2',
-		313: 'RD 2',
-		314: 'RD 2',
-		315: 'ABC 2'
+        299: 'B 3',
+        300: 'THL P HÖHENRETTUNG',
+        301: 'POL 2',
+        302: 'B 3',
+        303: 'B 2',
+        304: 'BP 3',
+        305: 'BP 10',
+        306: 'BP 4',
+        307: 'BP 4',
+        308: 'B 2',
+        309: 'RD 2',
+        310: 'RD 2',
+        311: 'THL 1',
+        312: 'RD 2',
+        313: 'RD 2',
+        314: 'RD 2',
+        315: 'ABC 2'
 	}
 
     I18n.translations.en['lssm']['missionKeyword'] = {
@@ -474,19 +474,19 @@
         127: 'FIRE 5',
         128: 'POL 1',
         129: 'POL 1',
-		130: 'TECH 1',
-		131: 'POL 1',
-		132: 'MED 1',
-		133: 'POL 1',
-		134: 'POL 2',
-		135: 'POL 4',
-		136: 'POL 7',
-		137: 'POL 4',
-		138: 'FIRE 1',
-		139: 'FIRE 3',
-		140: 'POL 4',
-		141: 'TECH 1',
-		142: 'FIRE 4',
+        130: 'TECH 1',
+        131: 'POL 1',
+        132: 'MED 1',
+        133: 'POL 1',
+        134: 'POL 2',
+        135: 'POL 4',
+        136: 'POL 7',
+        137: 'POL 4',
+        138: 'FIRE 1',
+        139: 'FIRE 3',
+        140: 'POL 4',
+        141: 'TECH 1',
+        142: 'FIRE 4',
         143: 'GEPLAND',
         144: '',
         145: '',
@@ -886,19 +886,19 @@
         225: 'A1',
         226: 'A1',
         227: 'P1',
-		228: 'P 1',
-		229: 'ZEER GROTE BRAND',
-		230: 'A 1',
-		231: 'P 1',
-		232: 'P 1',
-		233: 'MIDDEL BRAND',
-		234: 'ZEER GROTE HV, VOS 6 "CRASH"',
-		235: 'P 1',
-		236: 'P 1',
-		237: 'KLEINE BRAND',
-		238: 'KLEINE BRAND',
-		239: 'A 1',
-		240: 'A 1',
+        228: 'P 1',
+        229: 'ZEER GROTE BRAND',
+        230: 'A 1',
+        231: 'P 1',
+        232: 'P 1',
+        233: 'MIDDEL BRAND',
+        234: 'ZEER GROTE HV, VOS 6 "CRASH"',
+        235: 'P 1',
+        236: 'P 1',
+        237: 'KLEINE BRAND',
+        238: 'KLEINE BRAND',
+        239: 'A 1',
+        240: 'A 1',
         241: 'MIDDEL WO',
         242: 'MIDDEL WO',
         243: 'MISSING',
@@ -959,7 +959,7 @@
         298: 'MIDDEL WO',
         299: ''
     }
-	
+
 	//Farben für das Label
     var color_fw       = 'red';
     var color_pol      = '#00de13';
@@ -969,11 +969,11 @@
 
 	//Stichwort Element
     var title_stichwort = document.getElementById('missionH1');
-	
+
 	//Anzahl Patientenbalken
     var anzahl_patients = document.getElementsByClassName("patient_progress").length;
     var aao_text = '';
-	
+
 	//Link für Hilfe (wird für ID benötigt)
     var help_el = document.getElementById('mission_help');
     var help = "";
@@ -986,7 +986,7 @@
     var mission_id = Number(tmp_arr[length-1]);
 
 	aao_text = I18n.t('lssm.missionKeyword.'+mission_id);
-	
+
     switch(mission_id)
     {
         case 89:
@@ -1026,7 +1026,7 @@
             {
                 aao_text = aao_text + ' PERSON';
             }
-			
+
 			if(!aao_text.match('RD '))
 			{
 				additional_aao_text = '<span class="label label-warning">';
@@ -1047,7 +1047,7 @@
 					additional_aao_text += 'MANV 51-100';
 				else if (anzahl_patients >= 101)
 					additional_aao_text += 'MANV 100+';
-					
+
 				additional_aao_text += '</span>';
 			}
         }
@@ -1066,7 +1066,7 @@
 					additional_aao_text += 'MED CODE 40';
 				else if (anzahl_patients >= 50)
 					additional_aao_text += 'MED CODE 50';
-					
+
 				additional_aao_text += '</span>';
 			}
         }
@@ -1085,7 +1085,7 @@
 					additional_aao_text += 'A 1 CODE 40';
 				else if (anzahl_patients >= 50)
 					additional_aao_text += 'A 1 CODE 50';
-					
+
 				additional_aao_text += '</span>';
 			}
         }
