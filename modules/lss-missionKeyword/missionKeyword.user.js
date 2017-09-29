@@ -498,7 +498,8 @@
         140: 'Gas Station Robbery',
         141: 'Elevator Rescue',
         142: 'Warehouse Fire',
-        143: 'Assassination Threat'
+        143: 'Assassination Threat',
+        144: 'Truck in House Wall'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1246,7 +1247,8 @@
       140: 'POL 4',
       141: 'TECH 1',
       142: 'FIRE 4',
-      143: 'POL 5'
+      143: 'POL 5',
+      144: 'TECH 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
