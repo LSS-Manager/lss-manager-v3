@@ -335,7 +335,8 @@
         312: 'Verunglückter Fallschirmspringer',
         313: 'Verunglückter Fallschirmspringer',
         314: 'Verunglückter Fallschirmspringer',
-        315: 'Chemieunfall an Schule'
+        315: 'Chemieunfall an Schule',
+        316: 'Unbekannte Substanz'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -758,7 +759,8 @@
         239: 'Verstikking',
         240: 'Vergiftiging',
         241: 'Zwemmer vermist',
-        242: 'Zwemmer vermist'
+        242: 'Zwemmer vermist',
+        243: 'Verdachte situatie'
       }
     };
 
@@ -1097,7 +1099,8 @@
       312: 'RD 2',
       313: 'RD 2',
       314: 'RD 2',
-      315: 'ABC 2'
+      315: 'ABC 2',
+      316: 'ABC 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1488,7 +1491,8 @@
       239: 'A 1',
       240: 'A 1',
       241: 'MIDDEL WO',
-      242: 'MIDDEL WO'
+      242: 'MIDDEL WO',
+      243: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
