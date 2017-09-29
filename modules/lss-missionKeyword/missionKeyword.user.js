@@ -902,7 +902,7 @@
         240: 'A 1',
         241: 'MIDDEL WO',
         242: 'MIDDEL WO',
-        243: 'P 2',
+        243: 'P 1',
         244: 'MISSING',
         245: 'MISSING',
         246: 'MISSING',
