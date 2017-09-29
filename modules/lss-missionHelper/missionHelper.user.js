@@ -538,7 +538,10 @@
 				'1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1900 </span>',
 				315 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (80%)</br>1x Drehleiter (100%)</br>' +
 				'1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>min. 1x ' +
-				'Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)</br></br><span class="badge">Credits: ~ 4400 </span>'
+				'Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)</br></br><span class="badge">Credits: ~ 4400 </span>',
+				316 : '12x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Dekon-P (100%)</br>1x GW-Atemschutz (100%)' +
+				'2x GW-Messtechnik (100%)</br>2x Rüstwagen (100%)</br>4x Funkstreifenwagen (100%)</br>evtl. 1x Rettungstransportwagen (100%)' +
+				'</br></br><span class="badge">Credits: ~ 5400 </span>'
 			}
 		}
 
@@ -736,7 +739,8 @@
 				142 : '10x Firetrucks (100%)</br>2x Battalion Chief Unit (100%)</br>4x Platform Trucks (100%)</br>4x Heavy Rescue (100%)' +
 				'3x Water Tankers (100%)</br>4x Mobile Air (100%)</br>2x Police Cars (100%)</br>1x Mobile Command (100%)' +
 				'</br></br><span class="badge">Credits: ~ 10000 </span>',
-				143 : '<h4>Safeguarding</h4></br>5x Police Cars (100%)</br>2x Swat Cars (100%)'
+				143 : '<h4>Safeguarding</h4></br>5x Police Cars (100%)</br>2x Swat Cars (100%)',
+				144 : '3x Firetrucks (100%)</br>1x Heavy Rescue (100%)</br></br><span class="badge">Credits: ~ 4400 </span>'
 			}
 		}
 
@@ -1120,7 +1124,8 @@
 				241 : '1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Waterongevallenvoertuig (100%)</br>1x Waterongevallenaanhangers (80%)</br>' +
 				'1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 900 </span>',
 				242 : '1x Tankautospuit (100%)</br>1x Redvoertuig (10%)</br>1x OvD-B (100%)</br>2x Waterongevallenvoertuig (100%)</br>' +
-				'1x Waterongevallenaanhangers (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 1200 </span>'
+				'1x Waterongevallenaanhangers (100%)</br>1x Politieauto (100%)</br>1x Ambulance (100%)</br></br><span class="badge">Credits: ~ 1200 </span>',
+				243 : '2x Politieautos (100%)</br></br><span class="badge">Credits: ~ 750 </span>'
 			}
 		}
 	}
