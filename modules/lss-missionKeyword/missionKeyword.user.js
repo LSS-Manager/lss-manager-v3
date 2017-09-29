@@ -329,7 +329,8 @@
         312: 'RD 2',
         313: 'RD 2',
         314: 'RD 2',
-        315: 'ABC 2'
+        315: 'ABC 2',
+        316: 'ABC 2'
 	}
 
     I18n.translations.en['lssm']['missionKeyword'] = {
@@ -488,7 +489,7 @@
         141: 'TECH 1',
         142: 'FIRE 4',
         143: 'GEPLAND',
-        144: '',
+        144: 'TECH 2',
         145: '',
         146: '',
         147: '',
@@ -901,7 +902,7 @@
         240: 'A 1',
         241: 'MIDDEL WO',
         242: 'MIDDEL WO',
-        243: 'MISSING',
+        243: 'P 2',
         244: 'MISSING',
         245: 'MISSING',
         246: 'MISSING',
