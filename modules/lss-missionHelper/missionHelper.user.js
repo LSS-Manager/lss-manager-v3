@@ -761,7 +761,7 @@
 				10 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				11 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 240 </span>',
 				12 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 310 </span>',
-				13 : '1x Tankautospuit (100%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)' +
+				13 : '2x Tankautospuiten (100%)</br>1x OvD-B (100%)</br>1x Slangenwagen (10%)' +
 				'</br></br><span class="badge">Credits: ~ 980 </span>',
 				14 : '2x Tankautospuiten (100%)</br></br><span class="badge">Credits: ~ 1000 </span>',
 				15 : '1x Tankautospuit (100%)</br>1x Slangenwagen (10%)</br></br><span class="badge">Credits: ~ 500 </span>',
