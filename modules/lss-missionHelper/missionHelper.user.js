@@ -537,7 +537,7 @@
 				314 : '3x Löschfahrzeuge (100%)</br>1x Einsatzleitwagen 1 (100%)</br>1x Drehleiter (100%)</br>1x GW-Höhenrettung (100%)</br>' +
 				'1x Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1900 </span>',
 				315 : '8x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (80%)</br>1x Drehleiter (100%)</br>' +
-				'1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>min. 1x ' +
+				'1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>2x GW-Gefahrgut (100%)</br>min. 1x ' +
 				'Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)</br></br><span class="badge">Credits: ~ 4400 </span>',
 				316 : '12x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Dekon-P (100%)</br>1x GW-Atemschutz (100%)' +
 				'</br>2x GW-Messtechnik (100%)</br>2x Rüstwagen (100%)</br>4x Funkstreifenwagen (100%)</br>evtl. 1x Rettungstransportwagen (100%)' +
