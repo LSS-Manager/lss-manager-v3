@@ -336,7 +336,8 @@
         313: 'Verunglückter Fallschirmspringer',
         314: 'Verunglückter Fallschirmspringer',
         315: 'Chemieunfall an Schule',
-        316: 'Unbekannte Substanz'
+        316: 'Unbekannte Substanz',
+        317: 'Person in Baumaschine eingeklemmt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -499,7 +500,8 @@
         141: 'Elevator Rescue',
         142: 'Warehouse Fire',
         143: 'Assassination Threat',
-        144: 'Truck in House Wall'
+        144: 'Truck in House Wall',
+        145: 'Burning Garbage Truck'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -761,7 +763,8 @@
         240: 'Vergiftiging',
         241: 'Zwemmer vermist',
         242: 'Zwemmer vermist',
-        243: 'Verdachte situatie'
+        243: 'Verdachte situatie',
+        244: 'Persoon van podium gevallen'
       }
     };
 
@@ -1101,7 +1104,8 @@
       313: 'RD 2',
       314: 'RD 2',
       315: 'ABC 2',
-      316: 'ABC 2'
+      316: 'ABC 2',
+      317: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1248,7 +1252,8 @@
       141: 'TECH 1',
       142: 'FIRE 4',
       143: 'POL 5',
-      144: 'TECH 2'
+      144: 'TECH 2',
+      145: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1494,7 +1499,8 @@
       240: 'A 1',
       241: 'MIDDEL WO',
       242: 'MIDDEL WO',
-      243: 'P 1'
+      243: 'P 1',
+      244: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
