@@ -70,8 +70,8 @@ else if (I18n.locale == "nl")
         "36": ["WOA | Waterongevallenaanhanger", 0],
         "37": ["MMT-Auto", 1],
         "38": ["OvD-G | Officier van Dienst - Geneeskunde", 1],
-        "39": ["ME Commandovoertuig |Mobiele Eenheid - Commandovoertuig", 2],
-        "40": ["ME Flexbus |Mobiele Eenheid - Flexbus", 2]
+        "39": ["ME Commandovoertuig | Mobiele Eenheid - Commandovoertuig", 2],
+        "40": ["ME Flexbus | Mobiele Eenheid - Flexbus", 2]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
