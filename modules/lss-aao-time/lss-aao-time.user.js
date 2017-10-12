@@ -1,6 +1,7 @@
 (($, win, I18n) => {
     I18n.translations.de.lssm.aaotime = {
         timeRegex: /([0-9]{2}) Min. ([0-9]{2}) Sek./i,
+        hourIdentifier: 'Std.',
         timeWithHoursRegex: /([0-9]{2}) Std. ([0-9]{2}) Min. ([0-9]{2}) Sek./i,
         leastTime: 'Mindestens <strong>{0}</strong>strong>',
         duration: 'Dauer {0}',
@@ -12,6 +13,7 @@
     };
     I18n.translations.en.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
+        hourIdentifier: 'hrs',
         timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
         leastTime: 'At least <strong>{0}</strong>strong>',
         duration: 'Duration {0}',
@@ -23,6 +25,7 @@
     };
     I18n.translations.nl.lssm.aaotime = {
         timeRegex: /([0-9]{2}) minuten ([0-9]{2}) seconden/i,
+        hourIdentifier: 'uur',
         timeWithHoursRegex: /([0-9]{2}) uur ([0-9]{2}) minuten ([0-9]{2}) seconden/i,
         leastTime: 'Minstens <strong>{0}</strong>strong>',
         duration: 'Duur {0}',
@@ -60,7 +63,7 @@
         if (Object.keys(aaoVehicles).length === 0) {
             response = String.format(I18n.t("lssm.aaotime.duration"), formatSeconds(secondsString));
         } else if (secondsString > 0) {
-            response = String.format(I18n.t("lssm.aaotime.least"), formatSeconds(secondsString)) + '<br/>';
+            response = String.format(I18n.t("lssm.aaotime.leastTime"), formatSeconds(secondsString)) + '<br/>';
             response += I18n.t("lssm.aaotime.missingVehicles1") + '<br/><ul>';
             for (let key in aaoVehicles) {
                 response += '<li>' + aaoVehicles[key] + 'x ' + key + '</li>';
@@ -71,7 +74,7 @@
         }
         aaoTitle.html(response);
         const aaoPosition = $(aaoObject).offset();
-        aaoTitle.css({top: aaoPosition.top + 20, left: aaoPosition.left, position: 'absolute'}).show();
+        aaoTitle.css({top: aaoPosition.top + 30, left: aaoPosition.left, position: 'absolute'}).show();
     };
 
     const getDurationInSeconds = (vehicleObject) => {
@@ -82,7 +85,7 @@
         let matches;
         if (durationString.indexOf('km') >= 0) {
             return null;
-        } else if (durationString.indexOf('Std.') >= 0) {
+        } else if (durationString.indexOf(I18n.t('lssm.aaotime.hourIdentifier')) >= 0) {
             matches = durationString.match(I18n.t('lssm.aaotime.timeWithHoursRegex'));
             hours = matches[1] * 3600;
             minutes = matches[2] * 60;
@@ -101,7 +104,7 @@
     const getAaoVehicles = (aaoObject) => {
         let vehicles = {};
         $.each(aaoObject.attributes, function (index, attribute) {
-            if (!isNaN(attribute.value) && attribute.value > 0) {
+            if (!isNaN(attribute.value) && attribute.value > 0 && attribute.name !== 'building_id') {
                 vehicles[attribute.name] = parseInt(attribute.value);
             }
         });
