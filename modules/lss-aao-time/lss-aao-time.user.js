@@ -37,47 +37,22 @@
     const aaoTitle = $('<div id="aaoTitle" style="display:none; max-width: 260px; padding: 8px; background-color:#fff">');
     $('body').append(aaoTitle);
 
-    const aaoObjects = $('.aao');
-    aaoObjects.on('mouseover', function () {
-        handleMouseOver(this);
-    });
+    const formatSeconds = (totalSeconds) => {
+        const days = Math.floor(totalSeconds / 86400);
+        totalSeconds -= days * 86400;
 
-    aaoObjects.on('mouseout', function () {
-        aaoTitle.hide();
-    });
+        const hours = Math.floor(totalSeconds / 3600) % 24;
+        totalSeconds -= hours * 3600;
 
-    const handleMouseOver = (aaoObject) => {
-        if ($(aaoObject).find('span').hasClass('label-danger')) {
-            return false;
+        const minutes = Math.floor(totalSeconds / 60) % 60;
+        totalSeconds -= minutes * 60;
+
+        const seconds = totalSeconds;
+        if (hours > 0) {
+            return String.format(I18n.t("lssm.aaotime.timeFormatWithHours"), hours, minutes, seconds);
+        } else {
+            return String.format(I18n.t("lssm.aaotime.timeFormat"), minutes, seconds);
         }
-        let maximumSeconds = 0;
-        let aaoVehicleSearchList = getAaoVehicles(aaoObject);
-
-        // Now that we know which vehicles are required, iterate the time-ordered list
-        $('.vehicle_checkbox').each(function () {
-            const vehicle = this;
-            for (let key in aaoVehicleSearchList) {
-                if (vehicle.attributes[key].value > 0) { // Does that vehicle meet an AAO requirement?
-                    const totalSeconds = getDurationInSeconds(vehicle);
-                    if (totalSeconds === null) {
-                        break; // Skip that vehicle if its time could not be determined
-                    }
-                    aaoVehicleSearchList[key]--;
-
-                    if (totalSeconds > maximumSeconds) {
-                        maximumSeconds = totalSeconds;
-                    }
-
-                    if (aaoVehicleSearchList[key] === 0) {
-                        delete aaoVehicleSearchList[key]; // Remove the vehicle from the search list.
-                        if (Object.keys(aaoVehicleSearchList).length === 0) { // If there aren't any missing vehicles, we're done! Hurray!
-                            return false;
-                        }
-                    }
-                }
-            }
-        });
-        prettyPrintResult(aaoObject, aaoVehicleSearchList, maximumSeconds);
     };
 
     const prettyPrintResult = (aaoObject, aaoVehicles, secondsString) => {
@@ -97,24 +72,6 @@
         aaoTitle.html(response);
         const aaoPosition = $(aaoObject).offset();
         aaoTitle.css({top: aaoPosition.top + 20, left: aaoPosition.left, position: 'absolute'}).show();
-    };
-
-    const formatSeconds = (totalSeconds) => {
-        const days = Math.floor(totalSeconds / 86400);
-        totalSeconds -= days * 86400;
-
-        const hours = Math.floor(totalSeconds / 3600) % 24;
-        totalSeconds -= hours * 3600;
-
-        const minutes = Math.floor(totalSeconds / 60) % 60;
-        totalSeconds -= minutes * 60;
-
-        const seconds = totalSeconds;
-        if (hours > 0) {
-            return String.format(I18n.t("lssm.aaotime.timeFormatWithHours"), hours, minutes, seconds);
-        } else {
-            return String.format(I18n.t("lssm.aaotime.timeFormat"), minutes, seconds);
-        }
     };
 
     const getDurationInSeconds = (vehicleObject) => {
@@ -151,4 +108,48 @@
 
         return vehicles;
     };
+
+    const handleMouseOver = (aaoObject) => {
+        if ($(aaoObject).find('span').hasClass('label-danger')) {
+            return false;
+        }
+        let maximumSeconds = 0;
+        let aaoVehicleSearchList = getAaoVehicles(aaoObject);
+
+        // Now that we know which vehicles are required, iterate the time-ordered list
+        $('.vehicle_checkbox').each(function () {
+            const vehicle = this;
+            for (let key in aaoVehicleSearchList) {
+                if (vehicle.attributes[key].value > 0) { // Does that vehicle meet an AAO requirement?
+                    const totalSeconds = getDurationInSeconds(vehicle);
+                    if (totalSeconds === null) {
+                        break; // Skip that vehicle if its time could not be determined
+                    }
+                    aaoVehicleSearchList[key]--;
+
+                    if (totalSeconds > maximumSeconds) {
+                        maximumSeconds = totalSeconds;
+                    }
+
+                    if (aaoVehicleSearchList[key] === 0) {
+                        delete aaoVehicleSearchList[key]; // Remove the vehicle from the search list.
+                        if (Object.keys(aaoVehicleSearchList).length === 0) { // If there aren't any missing vehicles, we're done! Hurray!
+                            return false;
+                        }
+                    }
+                }
+            }
+        });
+        prettyPrintResult(aaoObject, aaoVehicleSearchList, maximumSeconds);
+        return true;
+    };
+
+    const aaoObjects = $('.aao');
+    aaoObjects.on('mouseover', function () {
+        handleMouseOver(this);
+    });
+
+    aaoObjects.on('mouseout', function () {
+        aaoTitle.hide();
+    });
 })($, window, I18n);
