@@ -2,13 +2,35 @@
     I18n.translations.de.lssm.aaotime = {
         timeRegex: /([0-9]{2}) Min. ([0-9]{2}) Sek./i,
         timeWithHoursRegex: /([0-9]{2}) Std. ([0-9]{2}) Min. ([0-9]{2}) Sek./i,
-        leastTime: 'Mindestens <strong>{1}</strong>strong>',
-        duration: 'Dauer {1}',
-        missingVehicles1: 'Für die folgenden Fahrzeuge konnte keine Anfahrsdauer ermittelt werden:',
+        leastTime: 'Mindestens <strong>{0}</strong>strong>',
+        duration: 'Dauer {0}',
+        missingVehicles1: 'Für die folgenden Fahrzeuge konnte keine Anfahrtsdauer ermittelt werden:',
         missingVehicles2: 'Möglicherweise sind sie nicht verfügbar oder nicht mit Zeiten aufgelistet.',
         missingVehicles3: 'Fehler beim Berechnen der Anfahrtszeiten. Möglicherweise sind Fahrzeuge nicht verfügbar oder nicht mit Zeiten aufgelistet.',
-        timeFormat: '{1} min {2} sek',
-        timeFormatWithHours: '{1} h {2} min {3} sek',
+        timeFormat: '{0} min {1} sek',
+        timeFormatWithHours: '{0} h {1} min {2} sek',
+    };
+    I18n.translations.en.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
+        leastTime: 'At least <strong>{0}</strong>strong>',
+        duration: 'Duration {0}',
+        missingVehicles1: 'For the following vehicles it was not possible to determine the time:',
+        missingVehicles2: 'They might not be present or listed with a time.',
+        missingVehicles3: 'Error calculating the time. The required vehicles might not be present or listed with a time.',
+        timeFormat: '{0} min {1} sec',
+        timeFormatWithHours: '{0} h {1} min {2} sec',
+    };
+    I18n.translations.nl.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) minuten ([0-9]{2}) seconden/i,
+        timeWithHoursRegex: /([0-9]{2}) uur ([0-9]{2}) minuten ([0-9]{2}) seconden/i,
+        leastTime: 'Minstens <strong>{0}</strong>strong>',
+        duration: 'Duur {0}',
+        missingVehicles1: 'Geen nadere tijd kan worden bepaald voor de volgende voertuigen:',
+        missingVehicles2: 'Zij zijn mogelijk niet beschikbaar of tijdelijk vermeld.',
+        missingVehicles3: 'Fout bij de berekening van de aanlooptijden. Voertuigen zijn mogelijk niet beschikbaar of mogen tijdelijk worden vermeld.',
+        timeFormat: '{0} min {1} s',
+        timeFormatWithHours: '{0} h {1} min {2} s',
     };
 
     // Prepare aaoTitle
