@@ -337,7 +337,8 @@
         314: 'Verunglückter Fallschirmspringer',
         315: 'Chemieunfall an Schule',
         316: 'Unbekannte Substanz',
-        317: 'Person in Baumaschine eingeklemmt'
+        317: 'Person in Baumaschine eingeklemmt',
+        318: 'Ausgelöster Heimrauchmelder'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -501,7 +502,8 @@
         142: 'Warehouse Fire',
         143: 'Assassination Threat',
         144: 'Truck in House Wall',
-        145: 'Burning Garbage Truck'
+        145: 'Burning Garbage Truck',
+        146: 'Child Birth'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -764,7 +766,11 @@
         241: 'Zwemmer vermist',
         242: 'Zwemmer vermist',
         243: 'Verdachte situatie',
-        244: 'Persoon van podium gevallen'
+        244: 'Persoon van podium gevallen',
+        245: 'Ontruimen kraakpand',
+        246: 'Persoon vermist',
+        247: 'Persoon vermist',
+        248: 'Persoon vermist'
       }
     };
 
@@ -1105,7 +1111,8 @@
       314: 'RD 2',
       315: 'ABC 2',
       316: 'ABC 2',
-      317: 'THL 1'
+      317: 'THL 1',
+      318: 'B 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1253,7 +1260,8 @@
       142: 'FIRE 4',
       143: 'POL 5',
       144: 'TECH 2',
-      145: 'FIRE 2'
+      145: 'FIRE 2',
+      146: 'MED 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1501,6 +1509,10 @@
       242: 'MIDDEL WO',
       243: 'P 1',
       244: 'A 1'
+      245: 'GEPLAND',
+      246: 'P 4',
+      247: 'P 6',
+      248: 'P 8'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
