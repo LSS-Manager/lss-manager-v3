@@ -1139,7 +1139,7 @@
 				246 : '4x Politieautos (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				247 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br></br>' +
 				'<span class="badge">Credits: ~ 1200 </span>',
-				248 : '4x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
+				248 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
 				'</br></br><span class="badge">Credits: ~ 1800 </span>'
 			}
 		}
