@@ -19,7 +19,7 @@ $.ajaxPrefilter(function (options, originalOptions) {
  */
 jQuery.expr[':'].containsci = function (a, i, m) {
     return jQuery(a).text().toUpperCase()
-            .indexOf(m[3].toUpperCase()) >= 0;
+        .indexOf(m[3].toUpperCase()) >= 0;
 };
 
 var lssm = {
@@ -154,7 +154,23 @@ lssm.Module = {
         },
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         develop: false,
-		inframe: true
+        inframe: true
+    },
+    AaoTime: {
+        name: {
+            de: 'AAO Anrückzeit',
+            en: 'ARR duration',
+            nl: 'AUR duur'
+        },
+        active: false,
+        description: {
+            de: 'Beim Überfahren eines AAO Links wird angegeben, wie lange es dauern würde, bis das letzte Fahrzeug eingetroffen ist.',
+            en: 'Shows the calculated total time for all vehicles to arrive when hovering an ARR link.',
+            nl: 'Toont de berekende totale tijd voor alle voertuigen die aankomen bij het zweven van een AUR-link.'
+        },
+        source: '/modules/lss-aao-time/lss-aao-time.user.js',
+        develop: false,
+        inframe: true
     },
     Layout01: {
         name: {
@@ -291,9 +307,9 @@ lssm.Module = {
         inframe: true,
         description: {
             de: 'Fordert zur Bestätigung bei Coin Ausgaben auf, um versehendliche Ausgaben zu vermeiden.<br>' +
-                'Funktionalität ist mittlerweile im Basisspiel integriert.',
+            'Funktionalität ist mittlerweile im Basisspiel integriert.',
             en: 'Asks for confirmation on coin spendings to avoid mistakes.<br>' +
-                'Functionality is integrated in base game now.'
+            'Functionality is integrated in base game now.'
         },
         source: null,
         develop: true
@@ -360,14 +376,14 @@ lssm.Module = {
         name: {
             de: 'Zielort Filter',
             en: 'Destination filter',
-	     nl: 'Ziekenhuis-Filter'
+            nl: 'Ziekenhuis-Filter'
         },
         active: false,
         description: {
             de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
             en: 'Allows hiding full or unelegible hospitals',
-	     nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' + 
-	         'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
+            nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' +
+            'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         develop: false,
@@ -616,13 +632,13 @@ lssm.Module = {
         name: {
             de: 'Center-Map',
             en: 'Center-Map',
-	     nl: 'KAART CENTREREN'
+            nl: 'KAART CENTREREN'
         },
         active: false,
         description: {
             de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
-            en: 'Centers the map on page load and on click. Just as you prefer.', 
-	     nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
+            en: 'Centers the map on page load and on click. Just as you prefer.',
+            nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -1013,8 +1029,8 @@ lssm.appstore = {
             }
             activated = activated.substring(0, activated.length - 2);
             if (activated.length > 0) {
-				var msg = I18n.t('lssm.activated') + ' ' + activated;
-				lssm.notification(msg);
+                var msg = I18n.t('lssm.activated') + ' ' + activated;
+                lssm.notification(msg);
             }
         }
     },
@@ -1102,7 +1118,7 @@ lssm.settings = {
  * Add the managed settings-functions to lssm
  */
 lssm.managedSettings = {
-	registeredModules: {},
+    registeredModules: {},
 
     register: function (moduleSettings) {
         "use strict";
@@ -1125,14 +1141,14 @@ lssm.managedSettings = {
             }
         }
         lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
-	},
+    },
 
-	reset: function(moduleId) {
-		if (!lssm.settings.get(moduleId) || !lssm.managedSettings.registeredModules[moduleId]) {
-			return;
-		}
-		lssm.settings.remove(lssm.config.prefix + '_' + moduleId);
-		lssm.managedSettings.register(lssm.managedSettings.registeredModules[moduleId]);
+    reset: function (moduleId) {
+        if (!lssm.settings.get(moduleId) || !lssm.managedSettings.registeredModules[moduleId]) {
+            return;
+        }
+        lssm.settings.remove(lssm.config.prefix + '_' + moduleId);
+        lssm.managedSettings.register(lssm.managedSettings.registeredModules[moduleId]);
     },
 
     getSetting: function (module, field) {
@@ -1165,7 +1181,7 @@ lssm.managedSettings = {
         var storeSettings = {};
         var settingsKey;
         for (settingsKey in moduleSettings.settings) {
-        	storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
+            storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
         }
         lssm.settings.set(moduleId, storeSettings);
     }
@@ -1230,8 +1246,8 @@ lssm.modules = {
                 lssm.appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe ===
                         true)) {
-                    if(lssm.Module[module].source){                    	
-                    	$.getScript(lssm.getlink(lssm.Module[module].source));
+                    if (lssm.Module[module].source) {
+                        $.getScript(lssm.getlink(lssm.Module[module].source));
                     }
                 }
             }
