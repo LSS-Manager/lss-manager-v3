@@ -323,7 +323,21 @@
         300: 'Abgestürzter Kletterer',
         301: 'Tiere auf der Fahrbahn',
         302: 'Brennendes Kleinflugzeug',
-        303: 'Carportbrand'
+        303: 'Carportbrand',
+        304: 'Angemeldete Demonstration - Gefahrenpotential',
+        305: 'Fußball Bundesliga-Risikospiel',
+        306: 'Absicherung Rockkonzert - Gefahrenpotential',
+        307: 'Spontaner Aufstand',
+        308: 'Brennender Müllwagen',
+        309: 'Tauchunfall',
+        310: 'Tauchunfall',
+        311: 'Mitarbeiter unter PKW eingeklemmt',
+        312: 'Verunglückter Fallschirmspringer',
+        313: 'Verunglückter Fallschirmspringer',
+        314: 'Verunglückter Fallschirmspringer',
+        315: 'Chemieunfall an Schule',
+        316: 'Unbekannte Substanz',
+        317: 'Person in Baumaschine eingeklemmt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -476,7 +490,18 @@
         131: 'Parole Violation',
         132: 'Allergic Reaction',
         133: 'Stolen Credit Card',
-        134: 'Search of a vehicle'
+        134: 'Search of a vehicle',
+        135: 'Small Violent Protest',
+        136: 'Medium Violent Protest',
+        137: 'Drug Deal',
+        138: 'Smoke Investigation',
+        139: 'Drug Lab Fire',
+        140: 'Gas Station Robbery',
+        141: 'Elevator Rescue',
+        142: 'Warehouse Fire',
+        143: 'Assassination Threat',
+        144: 'Truck in House Wall',
+        145: 'Burning Garbage Truck'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -728,7 +753,18 @@
         230: 'Onwelwording',
         231: 'Vernieling bushokje',
         232: 'Buspassagier weigert te betalen',
-        234: 'Brand in tuinhuis'
+        233: 'Brand in tuinhuis',
+        234: 'Vliegtuig neergestort',
+        235: 'Overdosis drugs',
+        236: 'Schietincident',
+        237: 'Brand in werkplaats',
+        238: 'Brand in werkplaats',
+        239: 'Verstikking',
+        240: 'Vergiftiging',
+        241: 'Zwemmer vermist',
+        242: 'Zwemmer vermist',
+        243: 'Verdachte situatie',
+        244: 'Persoon van podium gevallen'
       }
     };
 
@@ -1055,7 +1091,21 @@
       300: 'THL P HÖHENRETTUNG',
       301: 'POL 2',
       302: 'B 3',
-      303: 'B 2'
+      303: 'B 2',
+      304: 'BP 3',
+      305: 'BP 10',
+      306: 'BP 4',
+      307: 'BP 4',
+      308: 'B 2',
+      309: 'RD 2',
+      310: 'RD 2',
+      311: 'THL 1',
+      312: 'RD 2',
+      313: 'RD 2',
+      314: 'RD 2',
+      315: 'ABC 2',
+      316: 'ABC 2',
+      317: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1192,7 +1242,18 @@
       131: 'POL 1',
       132: 'MED 1',
       133: 'POL 1',
-      134: 'POL 2'
+      134: 'POL 2',
+      135: 'POL 4',
+      136: 'POL 7',
+      137: 'POL 4',
+      138: 'FIRE 1',
+      139: 'FIRE 3',
+      140: 'POL 4',
+      141: 'TECH 1',
+      142: 'FIRE 4',
+      143: 'POL 5',
+      144: 'TECH 2',
+      145: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1428,7 +1489,18 @@
       230: 'A 1',
       231: 'P 1',
       232: 'P 1',
-      233: 'MIDDEL BRAND'
+      233: 'MIDDEL BRAND',
+      234: 'ZEER GROTE HV, VOS 6 "CRASH"',
+      235: 'P 1',
+      236: 'P 1',
+      237: 'KLEINE BRAND',
+      238: 'KLEINE BRAND',
+      239: 'A 1',
+      240: 'A 1',
+      241: 'MIDDEL WO',
+      242: 'MIDDEL WO',
+      243: 'P 1',
+      244: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

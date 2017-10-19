@@ -8,26 +8,26 @@
 // 4 = Wasserrettung
 if(I18n.locale == "en")
     lssm.carsById = {
-	"0": ["Type 1 fire engine", 0],
-	"1": ["Type 2 fire engine", 0],
-	"2": ["Platform truck", 0],
-	"3": ["Bataillon Chief Unit", 0],
-	"4": ["Heavy Rescue Vehicle", 0],
-	"5": ["Ambulance", 1],
-	"6": ["Mobile air", 0],
-	"7": ["Water Tanker", 0],
-	"8": ["Utility unit", 0],
-	"9": ["HazMat", 0],
-	"10": ["Patrol Car", 2],
-	"11": ["HEMS", 1],
-	"12": ["Mobile command vehicle", 0],
-	"13": ["Quint", 0],
-	"14": ["Policehelicopter", 2],
-	"15": ["Fly-Car", 1],
-	"16": ["SWAT", 2],
-	"17": ["ARFF Crash Tender", 0],
-	"18": ["Rescue Engine", 0],
-	"19": ["K-9 Unit", 2]
+        "0": ["Type 1 fire engine", 0],
+        "1": ["Type 2 fire engine", 0],
+        "2": ["Platform truck", 0],
+        "3": ["Bataillon Chief Unit", 0],
+        "4": ["Heavy Rescue Vehicle", 0],
+        "5": ["Ambulance", 1],
+        "6": ["Mobile air", 0],
+        "7": ["Water Tanker", 0],
+        "8": ["Utility unit", 0],
+        "9": ["HazMat", 0],
+        "10": ["Patrol Car", 2],
+        "11": ["HEMS", 1],
+        "12": ["Mobile command vehicle", 0],
+        "13": ["Quint", 0],
+        "14": ["Policehelicopter", 2],
+        "15": ["Fly-Car", 1],
+        "16": ["SWAT", 2],
+        "17": ["ARFF Crash Tender", 0],
+        "18": ["Rescue Engine", 0],
+        "19": ["K-9 Unit", 2]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {
@@ -69,7 +69,9 @@ else if (I18n.locale == "nl")
         "35": ["OVD-P | Officier van Dienst - Politie", 2],
         "36": ["WOA | Waterongevallenaanhanger", 0],
         "37": ["MMT-Auto", 1],
-	"38": ["OvD-G | Officier van Dienst - Geneeskunde", 1]
+        "38": ["OvD-G | Officier van Dienst - Geneeskunde", 1],
+        "39": ["ME Commandovoertuig | Mobiele Eenheid - Commandovoertuig", 2],
+        "40": ["ME Flexbus | Mobiele Eenheid - Flexbus", 2]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
@@ -138,13 +140,15 @@ else if (I18n.locale == "de")
         "62": ["AB-Schlauch", 0],
         "63": ["GW-Taucher", 4],
         "64": ["GW-Wasserrettung", 4],
-        "65": ["LKW 7 Lkr 19 tm", 4],
-        "66": ["Anh MzB", 4],
-        "67": ["Anh SchlB", 4],
-        "68": ["Anh MzAB", 4],
-        "69": ["Tauchkraftwagen", 4],
+        "65": ["LKW 7 Lkr 19 tm", 3],
+        "66": ["Anh MzB", 3],
+        "67": ["Anh SchlB", 3],
+        "68": ["Anh MzAB", 3],
+        "69": ["Tauchkraftwagen", 3],
         "70": ["MZB", 4],
         "71": ["AB-MZB", 4],
+        "72": ["WaWe 10", 2],
+        "73": ["GRTW", 1]
     };
 
 lssm.car_list = function(building) {
@@ -259,7 +263,7 @@ if (!String.format) {
 	console.log("execute");
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) { 
+    return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined' ? args[number] : match;
     });
   };

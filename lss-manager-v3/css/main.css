@@ -86,7 +86,7 @@ body {
   flex-wrap: wrap;
 }
 
-#wp_fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
+#wp_fw, #wp_rd, #wp_pol,#wp_thw, #wp_wret, #wp_sch,#wp_son {
   display: flex;
   flex-wrap: wrap;
   width: calc(100vw - 60px)!important;
