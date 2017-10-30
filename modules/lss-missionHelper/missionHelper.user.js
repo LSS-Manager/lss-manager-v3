@@ -540,8 +540,8 @@
 				'1x Dekon-P (50%)</br>1x GW-Atemschutz (50%)</br>1x GW-Messtechnik (100%)</br>2x GW-Gefahrgut (100%)</br>min. 1x ' +
 				'Rettungstransportwagen (100%)</br>1x Notarzteinsatzfahrzeug (60%)</br></br><span class="badge">Credits: ~ 4400 </span>',
 				316 : '12x Löschfahrzeuge (100%)</br>2x Einsatzleitwagen 1 (100%)</br>1x Einsatzleitwagen 2 (100%)</br>1x Dekon-P (100%)</br>1x GW-Atemschutz (100%)' +
-				'</br>2x GW-Messtechnik (100%)</br>2x Rüstwagen (100%)</br>4x Funkstreifenwagen (100%)</br>evtl. 1x Rettungstransportwagen (100%)' +
-				'</br></br><span class="badge">Credits: ~ 5400 </span>',
+				'</br>2x GW-Messtechnik (100%)</br>1x GW-Gefahrgut (100%)</br>2x Rüstwagen (100%)</br>4x Funkstreifenwagen (100%)</br>' +
+				'evtl. 1x Rettungstransportwagen (100%)</br></br><span class="badge">Credits: ~ 5400 </span>',
 				317 : '2x Löschfahrzeuge (100%)</br>1x Rüstwagen (100%)</br>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>' +
 				'1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1500 </span>',
 				318 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 200 </span>'
@@ -789,8 +789,8 @@
 				27 : '1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (30%)</br></br><span class="badge">' +
 				'Credits: ~ 700 </span>',
 				28 : '2x Tankautospuiten (100%)</br></br><span class="badge">Credits: ~ 1400 </span>',
-				29 : '3x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>' +
-				'1x Slangenwagen (30%)</br>1x Adembeschermingsvoertuig (20%)</br></br><span class="badge">Credits: ~ 2470 </span>',
+				29 : '3x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>1x HOVD (70%)</br>' +
+				'1x Slangenwagen (20%)</br>1x Adembeschermingsvoertuig (50%)</br>1x Politieauto (100%)/br></br><span class="badge">Credits: ~ 2470 </span>',
 				30 : '1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (20%)</br></br>' +
 				'<span class="badge">Credits: ~ 190 </span>',
 				31 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
@@ -965,7 +965,7 @@
 				'1x Adembeschermingsvoertuig (50%)</br>3x OvD-Bs</br>2x HOVDs</br></br><span class="badge">Credits: ~ 7000</span>',
 				145 : '40x Tankautospuiten (100%)</br>8x Slangenwagen (100%)</br>4x Hulpverleningsvoertuigen (100%)</br>' +
 				'1x Adembeschermingsvoertuig (100%)</br>10x OvD-Bs (100%)</br>4x HOVDs (100%)</br>2x Commandowagen (100%)' +
-				'</br></br><span class="badge">Credits: ~ 35000 </span>',
+				'</br></br><span class="badge">Credits: ~ 21000 </span>',
 				146 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 350 </span>',
 				147 : '2x Tankautospuiten (100%)</br>1x OvD-B (100%)</br></br><span class="badge">Credits: ~ 850 </span>',
 				148 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 1500 </span>',
@@ -1139,8 +1139,9 @@
 				246 : '4x Politieautos (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				247 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br></br>' +
 				'<span class="badge">Credits: ~ 1200 </span>',
-				248 : '4x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
-				'<span class="badge">Credits: ~ 1800 </span>'
+				248 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
+				'</br></br><span class="badge">Credits: ~ 1800 </span>',
+				249 : '3x Politieautos (100%)</br>1x Politiehelicopter (100%)</br></br><span class="badge">Credits: ~ 2700 </span>'
 			}
 		}
 	}

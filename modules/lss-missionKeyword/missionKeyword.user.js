@@ -910,7 +910,7 @@
         246: 'P 4',
         247: 'P 6',
         248: 'P 8',
-        249: 'MISSING',
+        249: 'P 3',
         250: 'MISSING',
         251: 'MIDDEL WO',
         252: 'MIDDEL WO',
