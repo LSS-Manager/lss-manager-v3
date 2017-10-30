@@ -789,8 +789,8 @@
 				27 : '1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (30%)</br></br><span class="badge">' +
 				'Credits: ~ 700 </span>',
 				28 : '2x Tankautospuiten (100%)</br></br><span class="badge">Credits: ~ 1400 </span>',
-				29 : '3x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>' +
-				'1x Slangenwagen (30%)</br>1x Adembeschermingsvoertuig (20%)</br></br><span class="badge">Credits: ~ 2470 </span>',
+				29 : '3x Tankautospuiten (100%)</br>1x Hulpverleningsvoertuig (100%)</br>1x OvD-B (100%)</br>1x HOVD (70%)</br>' +
+				'1x Slangenwagen (20%)</br>1x Adembeschermingsvoertuig (50%)</br>1x Politieauto (100%)/br></br><span class="badge">Credits: ~ 2470 </span>',
 				30 : '1x Tankautospuit (100%)</br>1x Hulpverleningsvoertuig (20%)</br></br>' +
 				'<span class="badge">Credits: ~ 190 </span>',
 				31 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 400 </span>',
@@ -965,7 +965,7 @@
 				'1x Adembeschermingsvoertuig (50%)</br>3x OvD-Bs</br>2x HOVDs</br></br><span class="badge">Credits: ~ 7000</span>',
 				145 : '40x Tankautospuiten (100%)</br>8x Slangenwagen (100%)</br>4x Hulpverleningsvoertuigen (100%)</br>' +
 				'1x Adembeschermingsvoertuig (100%)</br>10x OvD-Bs (100%)</br>4x HOVDs (100%)</br>2x Commandowagen (100%)' +
-				'</br></br><span class="badge">Credits: ~ 35000 </span>',
+				'</br></br><span class="badge">Credits: ~ 21000 </span>',
 				146 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 350 </span>',
 				147 : '2x Tankautospuiten (100%)</br>1x OvD-B (100%)</br></br><span class="badge">Credits: ~ 850 </span>',
 				148 : '1x Tankautospuit (100%)</br></br><span class="badge">Credits: ~ 1500 </span>',
