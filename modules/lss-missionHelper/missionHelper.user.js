@@ -920,10 +920,8 @@
 				114 : '1x Tankautospuit (100%)</br>1x Redvoertuig (100%)</br></br><span class="badge">Credits: ~ 1000 </span>',
 				115 : '2x Tankautospuiten (100%)</br>1x Redvoertuig (100%)</br>1x OvD-B (100%)</br>1x Politieauto (100%)' +
 				'</br></br><span class="badge">Credits: ~ 1400 </span>',
-				116 : '<h4>Vrijwaring</h4></br>4x Politieautos (100%)</br>1x Ambulance (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>' +
-				'1x ME Commandovoertuig (100%)',
-				117 : '<h4>Vrijwaring</h4></br>6x Politieautos (100%)</br>2x Ambulances (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>' +
-				'1x ME Commandovoertuig (100%)',
+				116 : '<h4>Vrijwaring</h4></br>1x Ambulance (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)',
+				117 : '<h4>Vrijwaring</h4></br>2x Ambulances (100%)</br>6x ME Groepsvoertuig (100%)</br>2x ME Commandovoertuig (100%)',
 				118 : '<h4>Vrijwaring</h4></br>3x Ambulances (100%)</br>2x Politieautos (100%)',
 				119 : '<h4>Vrijwaring</h4></br>2x Politieautos (100%)',
 				120 : '<h4>Vrijwaring</h4></br>2x Politieautos (100%)</br>2x Ambulances (100%)',
@@ -931,7 +929,7 @@
 				122 : '5x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
 				123 : '5x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
 				124 : '4x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~4000</span>',
-				125 : '3x Politieautos (100%)</br>1x Politie Helikopter (100%)</br></br><span class="badge">Credits: ~3500</span>',
+				125 : 'Gehandicapten door Sebastian',
 				126 : '1x Tankautospuit (100%)</br>1x Redvoertuig (10%)</br></br><span class="badge">Credits: ~ 500 </span>',
 				127 : '3x Tankautospuiten (100%)</br>1x OvD-B (100%)</br>1x Redvoertuig (100%)</br>1x HOVD (50%)</br>' +
 				'1x Slangenwagen (60%)</br></br><span class="badge">Credits: ~ 1000 </span>',
