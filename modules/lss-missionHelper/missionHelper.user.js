@@ -627,7 +627,7 @@
 				'</br>2x Hazmats (100%)</br> min. 10x Ambulance(100%)</br></br><span class="badge">Credits: ~ 10010 </span>',
 				63 : '1x Firetruck (100%)</br></br><span class="badge">Credits: ~ 350 </span>',
 				64 : '2x Firetrucks (100%)</br></br><span class="badge">Credits: ~ 850 </span>',
-				65 : '1x Firetruck (100%)</br>1x Battalion Chief (100%)</br>1x Mobile Air (50%)' +
+				65 : '2x Firetrucks (100%)</br>1x Battalion Chief (100%)</br>1x Mobile Air (50%)' +
 				'</br></br><span class="badge">Credits: ~ 1500 </span>',
 				66 : '1x Firetruck (100%)</br>1x Platform Trucks (100%)</br></br><span class="badge">Credits: ~ 900 </span>',
 				67 : 'Deactivated from Sebastian',
