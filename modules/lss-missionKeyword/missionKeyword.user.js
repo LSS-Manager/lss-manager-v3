@@ -332,7 +332,8 @@
         315: 'ABC 2',
         316: 'ABC 2',
         317: 'THL 1',
-        318: 'B 1'
+        318: 'B 3',
+        319: 'THL 1'
 	}
 
     I18n.translations.en['lssm']['missionKeyword'] = {
