@@ -364,7 +364,7 @@
 				'</br> 6x Funkstreifenwagen (100%)</br></br><span class="badge">Credits: ~ 14000 </span>',
 				223 : '<h4>SICHERHEITSWACHE</h4>3x Löschfahrzeuge (100%)</br>1x Funkstreifenwagen (100%)',
 				224 : '<h4>SICHERHEITSWACHE</h4>1x Löschfahrzeug (100%)</br>1x Rettungstransportwagen (100%)',
-				225 : '<h4>SICHERHEITSWACHE</h4>3x Löschfahrzeuge (100%)</br>3x Rettungstransportwagen(100%)</br>1x GW-San (100%)',
+				225 : '<h4>SICHERHEITSWACHE</h4>3x Löschfahrzeuge (100%)</br>3x Rettungstransportwagen (100%)</br>1x GW-San (100%)',
 				226 : '<h4>VERKEHRSSICHERUNG</h4>3x Rettungstransportwagen (100%)</br>1x GW-San (100%)',
 				227 : '<h4>ABSICHERUNG</h4>3x Funkstreifenwagen (100%)</br>6x GruKw(100%)</br>1x FüKw (100%)' +
 				'</br>2x leBefKw (100%)</br>1x Rettungstransportwagen (100%)',
