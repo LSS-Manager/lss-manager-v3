@@ -752,7 +752,8 @@
 				143 : '<h4>Safeguarding</h4></br>5x Police Cars (100%)</br>2x Swat Cars (100%)',
 				144 : '3x Firetrucks (100%)</br>1x Heavy Rescue (100%)</br></br><span class="badge">Credits: ~ 4400 </span>',
 				145 : '2x Firetrucks (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
-				146 : '1x Ambulance (100%)'
+				146 : '1x Ambulance (100%)',
+				147 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 
@@ -1146,7 +1147,8 @@
 				'<span class="badge">Credits: ~ 1200 </span>',
 				248 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
 				'</br></br><span class="badge">Credits: ~ 1800 </span>',
-				249 : '3x Politieautos (100%)</br>1x Politiehelicopter (100%)</br></br><span class="badge">Credits: ~ 2700 </span>'
+				249 : '3x Politieautos (100%)</br>1x Politiehelicopter (100%)</br></br><span class="badge">Credits: ~ 2700 </span>',
+				250 : '1x Politieauto (100%)</br></br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 	}
