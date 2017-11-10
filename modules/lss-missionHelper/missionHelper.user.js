@@ -546,7 +546,12 @@
 				'1x Notarzteinsatzfahrzeug (100%)</br></br><span class="badge">Credits: ~ 1500 </span>',
 				318 : '1x Löschfahrzeug (100%)</br></br><span class="badge">Credits: ~ 200 </span>',
 				319 : '1x Löschfahrzeug (100%)</br>1x Drehleiter (30%)</br>1x Rüstwagen (40%)</br>1x Rettungstransportwagen (100%)</br>' +
-				'1x Notarzteinsatzfahrzeug (50%)</br></br><span class="badge">Credits: ~ 1000 </span>'
+				'1x Notarzteinsatzfahrzeug (50%)</br></br><span class="badge">Credits: ~ 1000 </span>',
+				320 : '20x Löschfahrzeuge (100%)</br>5x Drehleiter (100%)</br>3x GW-Atemschutz (100%)</br>3x GW-Messtechnik (100%)</br>' +
+				'2x GW-Gefahrgut (100%)</br>1x GW-Höhenrettung (100%)</br>6x Einsatzleitwagen 1 (100%)</br>4x Einsatzleitwagen 2 (100%)</br>' +
+				'2x Schlauchwagen (100%)</br>2x Rüstwagen (100%)</br>6x Funkstreifenwagen (100%)</br>1x LKW K 9 (100%)</br>1x BRmG R (100%)' +
+				'1x MzKW (100%)</br>1x GKW (100%)</br>1x MTW-TZ (100%)</br>min. 15x Rettungstransportwagen (100%)</br>min. 1x Notarzteinsatzfahrzeug (50%)' +
+				'</br></br><span class="badge">Credits: ~ 11500 </span>'
 			}
 		}
 
@@ -747,7 +752,8 @@
 				143 : '<h4>Safeguarding</h4></br>5x Police Cars (100%)</br>2x Swat Cars (100%)',
 				144 : '3x Firetrucks (100%)</br>1x Heavy Rescue (100%)</br></br><span class="badge">Credits: ~ 4400 </span>',
 				145 : '2x Firetrucks (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
-				146 : '1x Ambulance (100%)'
+				146 : '1x Ambulance (100%)',
+				147 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 
@@ -1141,7 +1147,8 @@
 				'<span class="badge">Credits: ~ 1200 </span>',
 				248 : '5x Politieautos (100%)</br>1x OvD-P (100%)</br>3x ME Groepsvoertuig (100%)</br>1x ME Commandovoertuig (100%)</br>1x Politie Helikopter (100 %)' +
 				'</br></br><span class="badge">Credits: ~ 1800 </span>',
-				249 : '3x Politieautos (100%)</br>1x Politiehelicopter (100%)</br></br><span class="badge">Credits: ~ 2700 </span>'
+				249 : '3x Politieautos (100%)</br>1x Politiehelicopter (100%)</br></br><span class="badge">Credits: ~ 2700 </span>',
+				250 : '1x Politieauto (100%)</br></br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 	}
