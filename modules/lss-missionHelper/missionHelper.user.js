@@ -755,7 +755,9 @@
 				144 : '3x Firetrucks (100%)</br>1x Heavy Rescue (100%)</br></br><span class="badge">Credits: ~ 4400 </span>',
 				145 : '2x Firetrucks (100%)</br></br><span class="badge">Credits: ~ 600 </span>',
 				146 : '1x Ambulance (100%)',
-				147 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 300 </span>'
+				147 : '1x Police Car (100%)</br></br><span class="badge">Credits: ~ 300 </span>',
+				148 : '1x Firetruck (100%)</br>1x Heavy Rescue (100%)</br>1x Platform Truck (50%)</br>1x Ambulance (100%)' + 
+				'</br></br><span class="badge">Credits: ~ 650 </span>'
 			}
 		}
 
