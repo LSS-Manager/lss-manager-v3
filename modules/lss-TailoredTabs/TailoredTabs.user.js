@@ -1,8 +1,8 @@
 (function (I18n, $) {
     'use strict';
-    var SETTINGS = "LSS_TAILORED_TABS_STORAGE";
+    const SETTINGS = "LSS_TAILORED_TABS_STORAGE";
 
-    var managedSettings = {
+    const managedSettings = {
         "id": SETTINGS,
         "title": 'Tailored Tabs',
         "settings": {
@@ -169,7 +169,7 @@
         $(section.vehicles).each(function () {
             let vehicle = this;
             $('td[vehicle_type_id="' + vehicle + '"]').closest('tr').each(function () {
-                var row = this;
+                let row = this;
                 $.each(row.attributes, function (i, attrib) {
                     let name = attrib.name;
                     if (name !== undefined && name.indexOf('vehicle_table_') >= 0) {
@@ -195,15 +195,16 @@
             'presentation');
 
         customTab.click(function () {
-            $('#mission-form').find('.tab-pane').removeClass('active');
-            $('#mission-form').find('.tab-pane').removeClass('show');
+            let missionFormTabPane = $('#mission-form').find('.tab-pane');
+            missionFormTabPane.removeClass('active');
+            missionFormTabPane.removeClass('show');
             $(this).tab('show');
             $('#' + section.short).addClass('show');
             let tabload = $(this).find('a').attr("tabload");
             searchClear("all");
 
             let tablesorter_id = "";
-            if (tabload == section.short) {
+            if (tabload === section.short) {
                 $(".vehicle_select_table_tr[vehicle_table_" + section.short + "=1][js_table_add_done!=1]").clone().appendTo("#vehicle_show_table_" +
                     section.short);
                 $(".vehicle_select_table_tr[vehicle_table_" + section.short + "=1][js_table_add_done!=1]").attr("js_table_add_done", "1");
