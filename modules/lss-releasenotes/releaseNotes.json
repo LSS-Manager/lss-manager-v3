@@ -4,6 +4,13 @@
 			"version": "3.2.5",
 			"changes": [
 				{
+					"id": "",
+					"type": "NEW",
+					"en": "New Module: Tailored Tabs (German only)",
+					"de": "Maßgeschneiderte Tabs bei der Alarmierung",
+					"nl": "New Module: Tailored Tabs (German only)"
+				},
+				{
 					"id": "182",
 					"type": "FIX",
 					"en": "Refactoring Missionhelper",

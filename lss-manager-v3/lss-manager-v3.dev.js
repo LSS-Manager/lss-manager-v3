@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 
 var lssm = {
     config: {
-        //server: "https://localhost/lss-manager-v3",
+        //  server: "https://localhost/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
@@ -155,19 +155,20 @@ lssm.Module = {
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         develop: false,
         inframe: true,
-        supportedLocales: ['de'],
+        supportedLocales: ['de']
     },
-    bPolTab: {
+    tailoredTabs: {
         name: {
-            de: 'BPol Tab'
+            de: 'Maßgeschneiderte Tabs'
         },
         active: false,
         description: {
-            de: 'Bei der Alarmierung werden Fahrzeuge der BPol im eigenen Tab angezeigt.'
+            de: 'Das Plugin ermöglicht es, weitere Tabs zur Trennung von Fahrzeug-Typen im Alarmierungsfenster einzustellen.'
         },
-        source: '/modules/lss-BPolTab/BPolTab.user.js',
+        source: '/modules/lss-TailoredTabs/TailoredTabs.user.js',
         develop: false,
-        inframe: true
+        inframe: true,
+        supportedLocales: ['de']
     },
     Layout01: {
         name: {
@@ -373,14 +374,14 @@ lssm.Module = {
         name: {
             de: 'Zielort Filter',
             en: 'Destination filter',
-	     nl: 'Ziekenhuis-Filter'
+            nl: 'Ziekenhuis-Filter'
         },
         active: false,
         description: {
             de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
             en: 'Allows hiding full or unelegible hospitals',
-	     nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' + 
-	         'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
+            nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' +
+                'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         develop: false,
@@ -629,13 +630,13 @@ lssm.Module = {
         name: {
             de: 'Center-Map',
             en: 'Center-Map',
-	     nl: 'KAART CENTREREN'
+            nl: 'KAART CENTREREN'
         },
         active: false,
         description: {
             de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
-            en: 'Centers the map on page load and on click. Just as you prefer.', 
-	     nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
+            en: 'Centers the map on page load and on click. Just as you prefer.',
+            nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
