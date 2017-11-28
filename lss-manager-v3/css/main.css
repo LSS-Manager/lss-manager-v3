@@ -121,11 +121,14 @@ body {
 }
 
 .panel-heading {
-  background-image: none !important;
+ /* background-image: none !important; */
+	background-image: #258c25 !important;
+
 }
 
 body.dark .panel-heading {
-  background: #212121 !important;
+/*  background: #212121 !important; */
+	background-color: #000;
 }
 
 div#preloader {

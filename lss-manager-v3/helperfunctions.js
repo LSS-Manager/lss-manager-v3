@@ -71,7 +71,7 @@ else if (I18n.locale == "nl")
         "37": ["MMT-Auto", 1],
         "38": ["OvD-G | Officier van Dienst - Geneeskunde", 1],
         "39": ["ME Commandovoertuig | Mobiele Eenheid - Commandovoertuig", 2],
-        "40": ["ME Flexbus | Mobiele Eenheid - Flexbus", 2]
+        "40": ["ME Groepsvoertuig | Mobiele Eenheid - Groepsvoertuig", 2]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {

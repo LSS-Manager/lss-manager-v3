@@ -18,6 +18,13 @@
           "nl": "Refactoring Meldinghelper"
         },
         {
+          "id": "262",
+          "type": "NEW",
+          "en": "New module: ARR duration",
+          "de": "Neues Modul: AAO Dauer",
+          "nl": "Nieuwe module: AUR duur"
+        },
+        {
           "id": "175",
           "type": "NEW",
           "de": "AAO-Klick-Zähler",
