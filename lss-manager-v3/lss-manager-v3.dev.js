@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 
 var lssm = {
     config: {
-        //server: "https://localhost/lss-manager-v3",
+        //  server: "https://localhost/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
@@ -171,6 +171,19 @@ lssm.Module = {
         source: '/modules/lss-aao-time/lss-aao-time.user.js',
         develop: false,
         inframe: true
+    },
+    tailoredTabs: {
+        name: {
+            de: 'Maßgeschneiderte Tabs'
+        },
+        active: false,
+        description: {
+            de: 'Das Plugin ermöglicht es, weitere Tabs zur Trennung von Fahrzeug-Typen im Alarmierungsfenster einzustellen.'
+        },
+        source: '/modules/lss-TailoredTabs/TailoredTabs.user.js',
+        develop: false,
+        inframe: true,
+        supportedLocales: ['de']
     },
     Layout01: {
         name: {
