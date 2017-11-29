@@ -187,7 +187,7 @@ lssm.Module = {
     },
     Layout01: {
         name: {
-            de: 'Layout 01',
+            de: 'Layout 01'
         },
         active: false,
         description: {
