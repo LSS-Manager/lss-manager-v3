@@ -148,7 +148,8 @@ else if (I18n.locale == "de")
         "70": ["MZB", 4],
         "71": ["AB-MZB", 4],
         "72": ["WaWe 10", 2],
-        "73": ["GRTW", 1]
+        "73": ["GRTW", 1],
+        "74": ["NAW", 1]
     };
 
 lssm.car_list = function(building) {
@@ -260,7 +261,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 
 // Add custom String format function
 if (!String.format) {
-	console.log("execute");
+//	console.log("execute");
   String.format = function(format) {
     var args = Array.prototype.slice.call(arguments, 1);
     return format.replace(/{(\d+)}/g, function(match, number) {
