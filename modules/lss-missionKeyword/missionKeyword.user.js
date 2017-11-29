@@ -335,7 +335,8 @@
         318: 'B 3',
         319: 'THL 1',
         320: 'B 5',
-        321: 'B 2'
+        321: 'B 2',
+        322: 'POL 2'
 	}
 
     I18n.translations.en['lssm']['missionKeyword'] = {
@@ -499,7 +500,7 @@
         146: 'MED 1',
         147: 'POL 1',
         148: 'TECH 1',
-        149: '',
+        149: 'GEPLAND',
         150: '',
         151: '',
         152: '',
@@ -917,7 +918,7 @@
         250: 'P 1',
         251: 'MIDDEL WO',
         252: 'MIDDEL WO',
-        253: 'MIDDEL WO',
+        253: 'KLEINE WO',
         254: 'MIDDEL WO',
         255: 'MIDDEL WO',
         256: 'GROTE WO',
