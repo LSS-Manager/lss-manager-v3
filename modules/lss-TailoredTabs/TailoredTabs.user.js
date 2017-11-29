@@ -27,7 +27,7 @@
                 "ui": {
                     "label": 'Notärzte',
                     "type": "toggle",
-                    "description": 'NEFs und RTHs in eigenem Tab'
+                    "description": 'NEF/NAWs und RTHs in eigenem Tab'
                 }
             },
             "lna": {
@@ -122,7 +122,7 @@
         let naSection = {
             name: 'NA',
             short: 'na',
-            vehicles: [31, 29]
+            vehicles: [31, 29, 74]
         };
         if (getSetting('lna')) {
             naSection.vehicles.push(55);
