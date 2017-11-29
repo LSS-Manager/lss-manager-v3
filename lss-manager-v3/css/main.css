@@ -86,7 +86,7 @@ body {
   flex-wrap: wrap;
 }
 
-#wp_fw, #wp_rd, #wp_pol,#wp_thw, #wp_sch,#wp_son {
+#wp_fw, #wp_rd, #wp_pol, #wp_thw, #wp_wret, #wp_sch, #wp_son {
   display: flex;
   flex-wrap: wrap;
   width: calc(100vw - 60px)!important;
@@ -121,11 +121,14 @@ body {
 }
 
 .panel-heading {
-  background-image: none !important;
+ /* background-image: none !important; */
+	background-image: #258c25 !important;
+
 }
 
 body.dark .panel-heading {
-  background: #212121 !important;
+/*  background: #212121 !important; */
+	background-color: #000;
 }
 
 div#preloader {
