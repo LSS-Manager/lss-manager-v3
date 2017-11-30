@@ -19,7 +19,7 @@ $.ajaxPrefilter(function (options, originalOptions) {
  */
 jQuery.expr[':'].containsci = function (a, i, m) {
     return jQuery(a).text().toUpperCase()
-        .indexOf(m[3].toUpperCase()) >= 0;
+            .indexOf(m[3].toUpperCase()) >= 0;
 };
 
 var lssm = {
