@@ -74,11 +74,11 @@
 				'<br>1x Einsatzleitwagen 2 (10%)<br><br><span class="badge">Credits: ~ 3620 </span>',
 				52 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 310 </span>',
 				53 : '1x Löschfahrzeug (100%)<br>1x Rüstwagen (100%)<br><br><span class="badge">Credits: ~ 1410 </span>',
-				54 : 'Kommt in den nächsten Stunden online',
+				54 : '1x Rettungstransportwagen (100%)<br>1x Notarzteinsatzfahrzeug (40%)',
 				55 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 870 </span>',
-				56 : 'Kommt in den nächsten Stunden online',
-				57 : '1x Rettungstransportwagen',
-				58 : '1x Rettungstransportwagen',
+				56 : '1x Rettungstransportwagen (100%)',
+				57 : '1x Rettungstransportwagen (100%)',
+				58 : '1x Rettungstransportwagen (100%)',
 				59 : '20x Löschfahrzeuge (100%)<br>2x Drehleiter (100%)<br>5x Rüstwagen (100%)<br>3x GW-Atemschutz (100%)' +
 				'<br>3x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (80%)<br>4x GW-Messtechnik (100%)<br>' +
 				'4x GW-Gefahrgut (100%)<br>min. 10x Rettungstransportwagen<br><br><span class="badge">Credits: ~ 14010 </span>',
