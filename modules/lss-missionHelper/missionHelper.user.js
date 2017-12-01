@@ -74,9 +74,9 @@
 				'<br>1x Einsatzleitwagen 2 (10%)<br><br><span class="badge">Credits: ~ 3620 </span>',
 				52 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 310 </span>',
 				53 : '1x Löschfahrzeug (100%)<br>1x Rüstwagen (100%)<br><br><span class="badge">Credits: ~ 1410 </span>',
-				54 : 'Deaktiviert durch Sebastian',
+				54 : 'Kommt in den nächsten Stunden online',
 				55 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 870 </span>',
-				56 : 'Deaktiviert durch Sebastian',
+				56 : 'Kommt in den nächsten Stunden online',
 				57 : '1x Rettungstransportwagen',
 				58 : '1x Rettungstransportwagen',
 				59 : '20x Löschfahrzeuge (100%)<br>2x Drehleiter (100%)<br>5x Rüstwagen (100%)<br>3x GW-Atemschutz (100%)' +
@@ -815,8 +815,8 @@
 				'1x Politieauto (100%)<br><br><span class="badge">Credits: ~ 2100 </span>',
 				35 : '2x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x HOVD (10%)<br>' +
 				'1x Commandowagen (10%)<br><br><span class="badge">Credits: ~ 2510 </span>',
-				36 : '3x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x HOVD (100%)<br>' +
-				'1x Waarschuwings- en Verkenningsdienst (60%)<br>1x Adviseurs Gevaarlijke Stoffen (90%)' +
+				36 : '3x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Slangenwagen (100%)<br>' +
+				'1x Waarschuwings- en Verkenningsdienst (50%)<br>1x Adviseurs Gevaarlijke Stoffen (80%)<br>1x HOVD (100%)' +
 				'<br><br><span class="badge">Credits: ~ 3110 </span>',
 				37 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 110 </span>',
 				38 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 110 </span>',
@@ -1161,7 +1161,10 @@
 				'1x Waterongevallenaanhangers (60%)<br>2x Politieautos (100%)<br>1x Ambulance (100%)<br>1x MMT-Auto (100%)' +
 				'<br><br><span class="badge">Credits: ~ 1300 </span>',
 				253 : '1x Tankautospuit (100%)<br>1x Waterongevallenvoertuig (100%)<br>1x Waterongevallenaanhanger (100%)<br>1x Politieauto (100%)' +
-				'<br><br><span class="badge">Credits: ~ 1000 </span>'
+				'<br><br><span class="badge">Credits: ~ 1000 </span>',
+				254 : '1x Tankautospuit (100%)<br>1x OvD-B (30%)<br>1x Adviseurs Gevaarlijke Stoffen (10%)<br><br><span class="badge">Credits: ~ 650 </span>',
+				255 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Slangenwagen (50%)<br>1x Adviseurs Gevaarlijke Stoffen (30%)<br><br>' +
+				'<span class="badge">Credits: ~ 1700 </span>'
 			}
 		}
 	}
