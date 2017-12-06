@@ -27,7 +27,6 @@
                         return true;
                     var missionCaptionID = id.split('_');
                     var newMissionLink = missionCaptionID[2];
-                    var btnText = $(this).text().split(',');
                     $('#lssm_searchMissionsContainer').append('<a href="/missions/' + newMissionLink + '" class="label label-danger lightbox-open" style="display: inline-block; margin-right:5px">' + newMissionLink + '</a>');
 
                 } else {

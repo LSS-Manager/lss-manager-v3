@@ -10,6 +10,14 @@
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
         stationName: "{stationName} Wachennamen"
     };
+	I18n.translations.nl['lssm']['renameFZ'] = {
+        example: "Dit is een voorbeeld",
+		rename: "Naam aanpassen",
+		id: "{id} Voertuignaam ",
+		old: "{old} Oude naam",
+		vehicleType: "{vehicleType} Voertuigtype",
+		stationName: "{stationName} Gebouwnaam"
+    };
     var set = {
         rename: false,
         option: {
@@ -67,7 +75,7 @@
         $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
     }
     function replaceString(type) {
-        var str = set.str.str != '' ? set.str.str : set.str.default;
+        var str = set.str.str !== '' ? set.str.str : set.str.default;
         for (var i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }
