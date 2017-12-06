@@ -152,7 +152,7 @@ div#preloader {
 }
 
 #map_outer {
-  border:1px solid #bdbdbd;
+  border:0px solid #bdbdbd;
   border-radius:5px;
   padding: 0;
   margin-left: 15px;
