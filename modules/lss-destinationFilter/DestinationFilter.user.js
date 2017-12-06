@@ -85,7 +85,7 @@
 					'td:nth-child(4)').text() : el.find(
 					':nth-child(5)').text()).trim() === I18n
 				.t('lssm.destfilter.yes');
-			if ((beds === 0 && getSetting('destfilter-beds')) ||
+			if ((beds <= 0 && getSetting('destfilter-beds')) ||
 				(!elegible && getSetting('destfilter-elegible'))) {
 				el.fadeOut();
 			} else {
