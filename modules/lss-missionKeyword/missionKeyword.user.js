@@ -340,7 +340,9 @@
         317: 'Person in Baumaschine eingeklemmt',
         318: 'Ausgelöster Heimrauchmelder',
         319: 'Person in Baugrube',
-        320: 'Großfeuer im Krankenhaus'
+        320: 'Großfeuer im Krankenhaus',
+        321: 'Saunabrand',
+        322: 'Geplante Autobahnsperrung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -506,7 +508,9 @@
         144: 'Truck in House Wall',
         145: 'Burning Garbage Truck',
         146: 'Child Birth',
-        147: 'Keys Locked in Vehicle'
+        147: 'Keys Locked in Vehicle',
+        148: 'Stuck Climber',
+        149: 'Smoke Detector Check'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -775,7 +779,12 @@
         247: 'Persoon vermist',
         248: 'Persoon vermist',
         249: 'Straatroof',
-        250: 'Opnemen aangifte inbraak'
+        250: 'Opnemen aangifte inbraak',
+        251: 'Vrachtwagen te water',
+        252: 'Vrachtwagen te water',
+        253: 'Grote boek van Sinterklaas aangespoeld',
+        254: 'Brandende goederenwagon',
+        255: 'Brandende goederenwagon'
       }
     };
 
@@ -1119,7 +1128,9 @@
       317: 'THL 1',
       318: 'B 3',
       319: 'THL 1',
-      320: 'B 5'
+      320: 'B 5',
+      321: 'B 2',
+      322: 'POL 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1269,7 +1280,9 @@
       144: 'TECH 2',
       145: 'FIRE 2',
       146: 'MED 1',
-      147: 'POL 1'
+      147: 'POL 1',
+      148: 'TECH 1',
+      149: 'B 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1522,7 +1535,12 @@
       247: 'P 6',
       248: 'P 8',
       249: 'P 3',
-      250: 'P 1'
+      250: 'P 1',
+      251: 'MIDDEL WO',
+      252: 'MIDDEL WO',
+      253: 'KLEINE WO',
+      254: 'KLEINE BRAND',
+      255: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
