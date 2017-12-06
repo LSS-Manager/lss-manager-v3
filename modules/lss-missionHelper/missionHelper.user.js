@@ -181,7 +181,7 @@
 				121 : '2x Löschfahrzeuge (100%)<br>1x Rüstwagen (100%)<br>1x Einsatzleitwagen 1 (100%)<br>' +
 				'1x Feuerwehrkran (75%)<br>2x Funkstreifenwagen (100%)<br>1x Rettungstransportwagen<br>' +
 				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2500 </span>',
-				122 : '1x Löschfahrzeug (100%)<br>1x Funkstreifenwagen (100%)<br>1x Rettungstransportwagen' +
+				122 : '1x Löschfahrzeug (10%)<br>1x Funkstreifenwagen (100%)<br>1x Rettungstransportwagen' +
 				'<br>1x Notarzteinsatzfahrzeug (70%)<br><br><span class="badge">Credits: ~ 600 </span>',
 				123 : '1x Löschfahrzeug (100%)<br>1x Funkstreifenwagen (100%)<br>1x Rettungstransportwagen' +
 				'<br>1x Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 1100 </span>',
@@ -541,7 +541,7 @@
 				'Rettungstransportwagen (100%)<br>1x Notarzteinsatzfahrzeug (60%)<br><br><span class="badge">Credits: ~ 4400 </span>',
 				316 : '12x Löschfahrzeuge (100%)<br>2x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (100%)<br>1x Dekon-P (100%)<br>1x GW-Atemschutz (100%)' +
 				'<br>2x GW-Messtechnik (100%)<br>1x GW-Gefahrgut (100%)<br>2x Rüstwagen (100%)<br>4x Funkstreifenwagen (100%)<br>' +
-				'evtl. 1x Rettungstransportwagen (100%)<br><br><span class="badge">Credits: ~ 5400 </span>',
+				'evtl. 1x Rettungstransportwagen (100%)<br>1x Notarzteinsatzfahrzeug (60%)<br><br><span class="badge">Credits: ~ 5400 </span>',
 				317 : '2x Löschfahrzeuge (100%)<br>1x Rüstwagen (100%)<br>1x Einsatzleitwagen 1 (100%)<br/>1x Rettungstransportwagen (100%)<br/>' +
 				'1x Notarzteinsatzfahrzeug (100%)<br><br><span class="badge">Credits: ~ 1500 </span>',
 				318 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 200 </span>',
