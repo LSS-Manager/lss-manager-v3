@@ -554,7 +554,9 @@
 				'<br><br><span class="badge">Credits: ~ 11500 </span>',
 				321 : '3x Löschfahrzeuge (100%)<br>1x Drehleiter (100%)<br>1x GW-Atemschutz (100%)<br>1x Einsatzleitwagen 1 (100%)<br>2x ' +
 				'Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 1800 </span>',
-				322 : '<h4>VERKEHRSSICHERUNG</h4>4x Funkstreifenwagen (100%)'
+				322 : '<h4>VERKEHRSSICHERUNG</h4>4x Funkstreifenwagen (100%)',
+				323 : '2x Löschfahrzeuge (100%)<br>1x Drehleiter (100%)<br>1x Einsatzleitwagen 1<br>1x Rüstwagen (50%)<br>1x Funkstreifenwagen (100%)' +
+				'<br><br><span class="badge">Credits: ~ 1500 </span>'
 			}
 		}
 
@@ -757,9 +759,15 @@
 				145 : '2x Firetrucks (100%)<br><br><span class="badge">Credits: ~ 600 </span>',
 				146 : '1x Ambulance (100%)',
 				147 : '1x Police Car (100%)<br><br><span class="badge">Credits: ~ 300 </span>',
-				148 : '1x Firetruck (100%)<br>1x Heavy Rescue (100%)<br>1x Platform Truck (50%)<br>1x Ambulance (100%)' + 
+				148 : '1x Firetruck (100%)<br>1x Heavy Rescue (100%)<br>1x Platform Truck (50%)<br>1x Ambulance (100%)' +
 				'<br><br><span class="badge">Credits: ~ 650 </span>',
-				149 : '1x Firetruck (100%)'
+				149 : '1x Firetruck (100%)',
+				150 : '10x Firetrucks (100%)<br>4x Platform Trucks (100%)<br>2x Battalion Chief (100%)<br>4x Heavy Rescues (100%)<br>2x Mobile Air (100%)<br>' +
+				'2x Hazmats (100%)<br>1x Mobile Command (100%)<br>2x Police Cars (100%)<br><br><span class="badge">Credits: ~ 10000 </span>',
+				151 : '10x Firetrucks (100%)<br>4x Platform Trucks (100%)<br>2x Battalion Chief (100%)<br>4x Heavy Rescues (100%)<br>2x Mobile Air (100%)<br>' +
+				'2x Hazmats (100%)<br>1x Mobile Command (100%)<br>2x Police Cars (100%)<br><br><span class="badge">Credits: ~ 10000 </span>',
+				152 : '10x Firetrucks (100%)<br>4x Platform Trucks (100%)<br>2x Battalion Chief (100%)<br>4x Heavy Rescues (100%)<br>2x Mobile Air (100%)<br>' +
+				'2x Hazmats (100%)<br>1x Mobile Command (100%)<br>2x Police Cars (100%)<br><br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1164,7 +1172,8 @@
 				'<br><br><span class="badge">Credits: ~ 1000 </span>',
 				254 : '1x Tankautospuit (100%)<br>1x OvD-B (30%)<br>1x Adviseurs Gevaarlijke Stoffen (10%)<br><br><span class="badge">Credits: ~ 650 </span>',
 				255 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Slangenwagen (50%)<br>1x Adviseurs Gevaarlijke Stoffen (30%)<br><br>' +
-				'<span class="badge">Credits: ~ 1700 </span>'
+				'<span class="badge">Credits: ~ 1700 </span>',
+				256 : '1x Politieauto (100%)<br><br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 	}
