@@ -1289,8 +1289,8 @@
       147: 'POL 1',
       148: 'TECH 1',
       149: 'B 1',
-      150: 'TECH TRAIN'
-      151: 'TECH TRAIN'
+      150: 'TECH TRAIN',
+      151: 'TECH TRAIN',
       152: 'TECH TRAIN'
     };
     var DEFAULT_AAO_NL = {
