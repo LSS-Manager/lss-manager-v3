@@ -343,7 +343,8 @@
         320: 'Großfeuer im Krankenhaus',
         321: 'Saunabrand',
         322: 'Geplante Autobahnsperrung',
-        323: 'Dehnfugenbrand'
+        323: 'Dehnfugenbrand',
+        324: 'Brand in Baumarkt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -514,7 +515,8 @@
         149: 'Smoke Detector Check',
         150: 'Freight Train Derailment',
         151: 'Freight Train Derailment',
-        152: 'Freight Train Derailment'
+        152: 'Freight Train Derailment',
+        153: 'Barn Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -789,7 +791,8 @@
         253: 'Grote boek van Sinterklaas aangespoeld',
         254: 'Brandende goederenwagon',
         255: 'Brandende goederenwagon',
-        256: 'Geluidsoverlast'
+        256: 'Geluidsoverlast',
+        257: 'Auto-inbraak'
       }
     };
 
@@ -1136,7 +1139,8 @@
       320: 'B 5',
       321: 'B 2',
       322: 'POL 2',
-      323: 'B 2'
+      323: 'B 2',
+      324: 'B 5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1288,10 +1292,11 @@
       146: 'MED 1',
       147: 'POL 1',
       148: 'TECH 1',
-      149: 'B 1',
+      149: 'FIRE 1',
       150: 'TECH TRAIN',
       151: 'TECH TRAIN',
-      152: 'TECH TRAIN'
+      152: 'TECH TRAIN',
+      153: 'FIRE 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1550,7 +1555,8 @@
       253: 'KLEINE WO',
       254: 'KLEINE BRAND',
       255: 'MIDDEL BRAND',
-      256: 'P 1'
+      256: 'P 1',
+      257: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
