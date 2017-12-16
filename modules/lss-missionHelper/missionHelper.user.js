@@ -436,7 +436,7 @@
 				'<br><br><span class="badge">Credits: ~ 10010 </span>',
 				257 : '<h4>VERKEHRSSICHERUNG</h4>2x Funkstreifenwagen (100%)',
 				258 : '4x Löschfahrzeuge (100%)<br>1x Drehleiter (100%)<br>2x Rüstwagen (100%)<br>' +
-				'1x Einsatzleitwagen 1 (100%)<br>1x GW-Öl (100%)<br>1x Feuerwehrkran (100%)<br>' +
+				'1x Einsatzleitwagen 1 (100%)<br>1x GW-Öl (100%)<br>1x Feuerwehrkran (75%)<br>' +
 				'3x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 2800 </span>',
 				259 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 370 </span>',
 				260 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 220 </span>',
