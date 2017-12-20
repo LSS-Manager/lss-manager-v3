@@ -1,15 +1,6 @@
 /**
  * @author Fabian Hassels (https://github.com/eaglefsd)
  */
-(function () {
-    $('body').prepend(
-        '<style type="text/css" id="aao_counter">'+
-        '.aao{height:20px!important;}'+
-        '.vehicle_group{height:20px!important;}'+
-        '</style>'
-    );
-})();
-
 (function ($) {
     /**
      * Prüft, ob die Einsatzseite geöffnet ist oder nicht.
@@ -24,11 +15,11 @@
      */
     function erstelleZaehler() {
         $('.aao').each(function () {
-            $(this).append('<div id="aaocounter" class="aao-counter">0</div>');
+            $(this).find('span:not(.glyphicon)').after(' <span class="aaoZaehler">0</span>x');
         });
 
         $('[vehicle_group_id]').each(function () {
-            $(this).append('<div id="aaocounter" class="aao-counter">0</div>');
+            $(this).find('div').after(' <span class="aaoZaehler">0</span>x');
         });
     }
 
@@ -37,10 +28,9 @@
      * @param element Das Element, in dem sich der AAO-Zaehler befindet.
      */
     function setzeAaoZaehlerHoch(element) {
-        var aaoZaehler = parseInt($(element).find('.aao-counter').html());
+        var aaoZaehler = parseInt($(element).find('.aaoZaehler').html());
         ++aaoZaehler;
-        $(element).find('#aaocounter').html(aaoZaehler);
-        $(element).find('#aaocounter').css('display', 'block');
+        $(element).find('.aaoZaehler').html(aaoZaehler);
     }
 
     // Startlogik
