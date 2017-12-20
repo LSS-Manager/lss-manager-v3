@@ -404,7 +404,18 @@ right: 14.5px;
   background-color: #009dff !important
 }
 
-
+.aao-counter {
+  border-radius: 8px;
+  position: relative;
+  top: -20px;
+  z-index: 1000;
+  background: red;
+  color: white;
+  width: 16px;
+  height: 16px;
+  left: -8px;
+  display:none;
+}
 
 
 /* ##################################################
