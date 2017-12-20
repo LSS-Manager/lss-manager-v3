@@ -15,11 +15,11 @@
      */
     function erstelleZaehler() {
         $('.aao').each(function () {
-            $(this).find('span:not(.glyphicon)').after(' <span class="aaoZaehler">0</span>x');
+            $(this).append('<div id="aaocounter" class="aao-counter">0</div>');
         });
 
         $('[vehicle_group_id]').each(function () {
-            $(this).find('div').after(' <span class="aaoZaehler">0</span>x');
+            $(this).append('<div id="aaocounter" class="aao-counter">0</div>');
         });
     }
 
@@ -30,7 +30,8 @@
     function setzeAaoZaehlerHoch(element) {
         var aaoZaehler = parseInt($(element).find('.aaoZaehler').html());
         ++aaoZaehler;
-        $(element).find('.aaoZaehler').html(aaoZaehler);
+        $(element).find('#aaocounter').html(aaocounter);
+        $(element).find('#aaocounter').css('display', 'block');
     }
 
     // Startlogik
