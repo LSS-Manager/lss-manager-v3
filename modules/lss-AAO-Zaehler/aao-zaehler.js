@@ -37,9 +37,9 @@
      * @param element Das Element, in dem sich der AAO-Zaehler befindet.
      */
     function setzeAaoZaehlerHoch(element) {
-        var aaoZaehler = parseInt($(element).find('.aaoZaehler').html());
+        var aaoZaehler = parseInt($(element).find('.aao-counter').html());
         ++aaoZaehler;
-        $(element).find('#aaocounter').html(aaocounter);
+        $(element).find('#aaocounter').html(aaoZaehler);
         $(element).find('#aaocounter').css('display', 'block');
     }
 
