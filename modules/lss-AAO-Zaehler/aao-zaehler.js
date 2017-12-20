@@ -1,6 +1,15 @@
 /**
  * @author Fabian Hassels (https://github.com/eaglefsd)
  */
+(function () {
+    $('body').prepend(
+        '<style type="text/css" id="aao_counter">'+
+        '.aao{height:20px!important;}'+
+        '.vehicle_group{height:20px!important;}'+
+        '</style>'
+    );
+})();
+
 (function ($) {
     /**
      * Prüft, ob die Einsatzseite geöffnet ist oder nicht.
