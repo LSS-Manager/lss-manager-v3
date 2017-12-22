@@ -344,7 +344,8 @@
         321: 'Saunabrand',
         322: 'Geplante Autobahnsperrung',
         323: 'Dehnfugenbrand',
-        324: 'Brand in Baumarkt'
+        324: 'Brand in Baumarkt',
+        325: 'Absicherung Castor-Transport'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1143,7 +1144,8 @@
       321: 'B 2',
       322: 'POL 2',
       323: 'B 2',
-      324: 'B 5'
+      324: 'B 5',
+      325: 'SICHERHEITSWACHE'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
