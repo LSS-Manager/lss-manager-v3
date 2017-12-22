@@ -19,7 +19,7 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 var lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
-        server: "https://github.com/KBOE2/lss-manager-v3/blob/master", // Domain wo alles liegt
+        server: "https://rawgit.com/KBOE2/lss-manager-v3/master/", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         version: "3.3.0",
