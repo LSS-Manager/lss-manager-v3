@@ -516,7 +516,8 @@
         150: 'Freight Train Derailment',
         151: 'Freight Train Derailment',
         152: 'Freight Train Derailment',
-        153: 'Barn Fire'
+        153: 'Barn Fire',
+        154: 'Chlorine leak'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -792,7 +793,9 @@
         254: 'Brandende goederenwagon',
         255: 'Brandende goederenwagon',
         256: 'Geluidsoverlast',
-        257: 'Auto-inbraak'
+        257: 'Auto-inbraak',
+        258: 'Brand in flatwoning',
+        259: 'Brand in flatwoning'
       }
     };
 
@@ -1296,7 +1299,8 @@
       150: 'TECH TRAIN',
       151: 'TECH TRAIN',
       152: 'TECH TRAIN',
-      153: 'FIRE 3'
+      153: 'FIRE 3',
+      154: 'ABC 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1556,7 +1560,9 @@
       254: 'KLEINE BRAND',
       255: 'MIDDEL BRAND',
       256: 'P 1',
-      257: 'P 1'
+      257: 'P 1',
+      258: 'KLEINE BRAND',
+      259: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
