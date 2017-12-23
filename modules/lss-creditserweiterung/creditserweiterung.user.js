@@ -70,9 +70,13 @@ function dienstgrad_next(dienstgrad){
     }
 }
 
-lightboxOpen(src="/profile/381370");
+function lightbox_close(){
+    $("#lightbox_close").click();
+}
+
+lightboxOpen(src="/profile/"+user_id);
 window.setTimeout(setCookies, 5000);
-window.setTimeout($("#lightbox_close").click(), 10000);
+window.setTimeout(lightbox_close, 10000);
 
 credits_gesamt = parseInt(readCookie("gesamtcredits")).toLocaleString();
 dienstgrad = readCookie("dienstgrad");
