@@ -799,6 +799,57 @@ lssm.Module = {
         noapp: false,
         inframe: true,
         develop: false
+    },
+    creditserweiterung: {
+        name: {
+            de: 'Creditserweiterung',
+            en: 'Credit expansion',
+            nl: 'Kredietexpansie'
+        },
+        active: false,
+        description: {
+            de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
+            en: 'Add some special information about the credits in a drop-down list',
+            nl: 'Voeg wat speciale informatie over de credits toe in een vervolgkeuzelijst'
+        },
+        source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    userid: {
+        name: {
+            de: 'User-ID',
+            en: 'User-ID',
+            nl: 'User-ID'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt die eigene ID in der Kopfzeile an',
+            en: 'shows your ID in the header',
+            nl: 'Geeft uw eigen ID in de kopregel weer'
+        },
+        source: '/modules/lss-userid/lss-user-id.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    showChatButtonAbove: {
+        name: {
+            de: 'show Chatbutton Above',
+            en: 'show Chatbutton Above',
+            nl: 'Toon boven Chatbutton'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
+            en: 'Displays the Chat History button in the chat header.',
+            nl: 'Toont de knop Chatgeschiedenis in de chatheader.'
+        },
+        source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
     }
 };
 
