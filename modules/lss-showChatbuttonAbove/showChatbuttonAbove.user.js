@@ -1,2 +1,1 @@
-buttons = $(".lightbox-open.btn-xs.btn-default.btn.pull-right");
-$("#chat_panel_heading").append(buttons.last());
+$('#navbar-main-collapse > ul').append('<li><a class="lightbox-open" href="' + $("#navbar_profile_link").attr("href") + '">' + user_id + '</a></li>');
