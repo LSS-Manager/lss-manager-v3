@@ -803,18 +803,17 @@ lssm.Module = {
     creditserweiterung: {
         name: {
             de: 'Creditserweiterung',
-            //en: 'Credit expansion',
-            //nl: 'Kredietexpansie'
+            en: 'Credit expansion',
+            nl: 'Kredietexpansie'
         },
         active: false,
         description: {
             de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
-            //en: 'Add some special information about the credits in a drop-down list',
-            //nl: 'Voeg wat speciale informatie over de credits toe in een vervolgkeuzelijst'
+            en: 'Add some special information about the credits in a drop-down list',
+            nl: 'Voeg wat speciale informatie over de credits toe in een vervolgkeuzelijst'
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
         noapp: false,
-        supportedLocales: ['de'],
         inframe: true,
         develop: false
     },
