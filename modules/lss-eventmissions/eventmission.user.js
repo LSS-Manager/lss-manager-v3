@@ -104,6 +104,7 @@
         text = text.replace('Brennendes Reetdachhaus durch Feuerwerkskörper', '[SILVESTER] Brennendes Reetdachhaus durch Feuerwerkskörper');
         text = text.replace('Kfz durch Feuerwerkskörper beschädigt', '[SILVESTER] Kfz durch Feuerwerkskörper beschädigt');
         text = text.replace('Verstoß gegen Sprengstoffverordnung','[SILVESTER] Verstoß gegen Sprengstoffverordnung');
+	text = text.replace('Handverletzung durch Feuerwerkskörper','[SILVESTER] Handverletzung durch Feuerwerkskörper');
         }
         return text;
     }
