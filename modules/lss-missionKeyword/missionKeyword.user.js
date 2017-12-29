@@ -798,7 +798,8 @@
         256: 'Geluidsoverlast',
         257: 'Auto-inbraak',
         258: 'Brand in flatwoning',
-        259: 'Brand in flatwoning'
+        259: 'Brand in flatwoning',
+        260: 'Brandend speeltoestel'
       }
     };
 
@@ -1568,7 +1569,8 @@
       256: 'P 1',
       257: 'P 1',
       258: 'KLEINE BRAND',
-      259: 'MIDDEL BRAND'
+      259: 'MIDDEL BRAND',
+      260: 'KLEINE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

@@ -1190,7 +1190,8 @@
 				257 : '1x Politieauto (100%)<br><br><span class="badge">Credits: ~ 500 </span>',
 				258 : '1x Tankautospuit (100%)<br>1x Redvoertuig (80%)<br><br><span class="badge">Credits: ~ 250 </span>',
 				259 : '2x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x Politieauto (100%)<br> Ambulance (100%)' +
-				'<br><br><span class="badge">Credits: ~ 1050 </span>'
+				'<br><br><span class="badge">Credits: ~ 1050 </span>',
+				260 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 220 </span>'
 			}
 		}
 	}
