@@ -850,6 +850,20 @@ lssm.Module = {
         noapp: false,
         inframe: true,
         develop: false
+    },
+    showNotTransportButtonAbove: {
+        name: {
+            de: 'show Patient entlassen Above',
+        },
+        active: false,
+        description: {
+            de: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
+        },
+        source: '/modules/lss-show-notTransportPatientButton-above/show-notTransportPatientButton-above.user.js',
+        noapp: false,
+        supportedLocales: ['de'],
+        inframe: true,
+        develop: false
     }
 };
 
@@ -1012,6 +1026,15 @@ lssm.appstore = {
             '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
             '</a>' +
             '</span>' +
+            // '&nbsp;' +
+            // '<span class="label label-primary">' +
+            // '<a href="https://www.leitstellenspiel.de/profile/205976" target="_blank" class="username-link">' +
+            // '@KBOE2</a>&nbsp;' +
+            // '<a href="https://www.leitstellenspiel.de/messages/new?target=KBOE2" target="_blank" ' +
+            // 'class="username-link">' +
+            // '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
+            // '</a>' +
+            // '</span>' +
             '</div>' +
             '</div>'
         );

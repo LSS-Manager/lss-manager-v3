@@ -1,13 +1,7 @@
 (($, win, I18n) => {
     I18n.translations.de.lssm.creditserweiterung = {
-        setCookieRegex1: /<\/?[^>]+>/gi,
-        setCookieRegex2: /(.|\n)*Dienstgrad: /g,
-        setCookieRegex3: / verdiente(.|\n)*/g,
-        setCookieRegex4: /(\d|.)*\n../g,
-        setCookieRegex5: /\./g,
-        setCookieRegex6: /\n.*/g,
+        setCookieRegex: /(.*)([0-9]\.)? verdiente Credits.*/i,
         earnedCreditsCookie: 'gesamtcredits',
-        rankCookie: 'dienstgrad',
         creditsNeeded: [
             0,
             200,
@@ -48,17 +42,11 @@
         coinsProtokoll: 'Coinsprotokoll',
         earnedCredits: 'Gesamtcredits',
         creditsToNextRank: 'Credits zum nächsten Dienstgrad',
-        updateMessage: 'Zum aktualisieren, einfach<br>F5 drücken (Seite neu Laden).'
+        updateMessage: 'Zum aktualisieren, einfach<br>hier klicken.'
     };
     I18n.translations.en.lssm.creditserweiterung = {
-        setCookieRegex1: /<\/?[^>]+>/gi,
-        setCookieRegex2: /(.|\n)*Current Rank: /g,
-        setCookieRegex3: / earned(.|\n)*/g,
-        setCookieRegex4: /(\d|.)*\n../g,
-        setCookieRegex5: /,/g,
-        setCookieRegex6: /\n.*/g,
+        setCookieRegex: /(.*)([0-9],)? earned Credits.*/i,
         earnedCreditsCookie: 'earnedcredits',
-        rankCookie: 'rank',
         creditsNeeded: [
             0,
             200,
@@ -91,17 +79,11 @@
         coinsProtokoll: 'undefined',
         earnedCredits: 'Totaly earned Credits',
         creditsToNextRank: 'Credits to next rank',
-        updateMessage: 'To update values, <br>just reload the website.'
+        updateMessage: 'To update values<br>just klick here.'
     };
     I18n.translations.nl.lssm.creditserweiterung = {
-        setCookieRegex1: /<\/?[^>]+>/gi,
-        setCookieRegex2: /(.|\n)*Rang: /g,
-        setCookieRegex3: / verdiende(.|\n)*/g,
-        setCookieRegex4: /(\d|.)*\n../g,
-        setCookieRegex5: /\./g,
-        setCookieRegex6: /\n.*/g,
+        setCookieRegex: /(.*)([0-9]\.)? verdiende Credits.*/i,
         earnedCreditsCookie: 'totalecredits',
-        rankCookie: 'rang',
         creditsNeeded: [
             0,
             200,
@@ -130,7 +112,7 @@
         coinsProtokoll: 'undefined',
         earnedCredits: 'Totale studiepunten',
         creditsToNextRank: 'Credits voor de volgende rang',
-        updateMessage: 'Om waarden bij te werken, moet <br> de website opnieuw laden.'
+        updateMessage: 'Om waarden bij te werken,<br> klikt u hier.'
     };
 
 const username = $("#navbar_profile_link").text().trim();
@@ -144,22 +126,16 @@ var earnedCredits = "undefined";
 var creditsToNextRank = "undefined";
 
 function setCookies() {
-  earnedCredits = NaN;
-  rank = NaN;
   content = $(".lightbox_iframe");
   content = content.first()[0];
   content = content.contentWindow.document;
   content = content.children[0].children[1].children[2].children[0];
   content = content.innerHTML;
-  content = content.replace(I18n.t('lssm.creditserweiterung.setCookieRegex1'), "");
-  content = content.replace(I18n.t('lssm.creditserweiterung.setCookieRegex2'), "");
-  content = content.replace(I18n.t('lssm.creditserweiterung.setCookieRegex3'), "");
-  earnedCredits = content.replace(I18n.t('lssm.creditserweiterung.setCookieRegex4'), "");
-  earnedCredits = earnedCredits.replace(I18n.t('lssm.creditserweiterung.setCookieRegex5'), "");
-  rank = content.replace(I18n.t('lssm.creditserweiterung.setCookieRegex6'), "");
+  var results = content.match(I18n.t('lssm.creditserweiterung.setCookieRegex'));
+  var earnedCredits = results[1].replace(/\./g, "").replace(/,/g, "").trim();
+  console.log(earnedCredits);
   document.cookie = I18n.t('lssm.creditserweiterung.earnedCreditsCookie') + "=" + earnedCredits + "; path=/";
-  document.cookie = I18n.t('lssm.creditserweiterung.rankCookie') + "=" + rank + "; path=/";
-  console.log("Saved Cookies!");
+  console.log("Saved Cookie!");
 }
 
 function readCookie(name) {
@@ -193,9 +169,9 @@ function lightbox_close(){
     $("#lightbox_close").click();
 }
 
-lightboxOpen(src="/profile/"+user_id);
-window.setTimeout(setCookies, 1000);
-window.setTimeout(lightbox_close, 3000);
+lightboxOpen(src=$("#navbar_profile_link").attr("href"));
+window.setTimeout(setCookies, 5000);
+window.setTimeout(lightbox_close, 5000);
 
 creditsEarned = parseInt(readCookie(I18n.t('lssm.creditserweiterung.earnedCreditsCookie'))).toLocaleString();
 nextRank = fnct_nextRank();
@@ -213,8 +189,8 @@ if (I18n.t('lssm.creditserweiterung.coinsProtokoll') != "undefined"){
     $('#navbar-main-collapse > ul').append('<li><a id="menu_creditsverwaltung"  class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false"><img src="https://img.webme.com/pic/k/kboe-2/icons8-money-box-50.png" heigth="25" width="25"><span class="visible-xs">' + I18n.t('lssm.creditserweiterung.dropdownName') + '</span><b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung><li class="divider" role="presentation"></li><li role="presentation" >' + credits + '</li><li role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.creditsOverview') + '</a></li><li role="presentation">' + coins + '</li><li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.coinsProtokoll') + '</a></li><li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.earnedCredits') + ': ' + creditsEarned + '</a><a href="">' + I18n.t('lssm.creditserweiterung.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank + '</a></li><li class="divider" role="presentation"></li><li role="presentation"><a href="">' + I18n.t('lssm.creditserweiterung.updateMessage') + '</a></li></ul></li>');
 }
 else if (I18n.t('lssm.creditserweiterung.coinsProtokoll') == "undefined"){
-    $('#navbar-main-collapse > ul').append('<li><a id="menu_creditsverwaltung"  class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false"><img src="https://img.webme.com/pic/k/kboe-2/icons8-money-box-50.png" heigth="25" width="25"><span class="visible-xs">' + I18n.t('lssm.creditserweiterung.dropdownName') + '</span><b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung><li class="divider" role="presentation"></li><li role="presentation" >' + credits + '</li><li role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.creditsOverview') + '</a></li><li role="presentation">' + coins + '</li><li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.earnedCredits') + ': ' + creditsEarned + '</a><a href="">' + I18n.t('lssm.creditserweiterung.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank + '</a></li><li class="divider" role="presentation"></li><li role="presentation"><a href="">' + I18n.t('lssm.creditserweiterung.updateMessage') + '</a></li></ul></li>');
+    $('#navbar-main-collapse > ul').append('<li><a id="menu_creditsverwaltung"  class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false"><img src="https://img.webme.com/pic/k/kboe-2/icons8-money-box-50.png" heigth="25" width="25"><span class="visible-xs">' + I18n.t('lssm.creditserweiterung.dropdownName') + '</span><b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung><li class="divider" role="presentation"></li><li role="presentation" >' + credits + '</li><li role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.creditsOverview') + '</a></li><li role="presentation">' + coins + '</li><li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.earnedCredits') + ': ' + creditsEarned + '</a><a>' + I18n.t('lssm.creditserweiterung.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank + '</a></li><li class="divider" role="presentation"></li><li role="presentation"><a href="">' + I18n.t('lssm.creditserweiterung.updateMessage') + '</a></li></ul></li>');
 }
-$("#navigation_top").remove();
-$("#coins_top").remove();
+$("#navigation_top").hide();
+$("#coins_top").hide();
 })($, window, I18n);
