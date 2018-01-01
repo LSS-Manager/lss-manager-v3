@@ -65,7 +65,7 @@
     if (I18n.locale === 'en') {
       var offset = today.getTimezoneOffset() / 60;
       // Zahl 4, weil EST UTC+4 ist
-      var newOffset = 4 - offset;
+      var newOffset = 5 - offset;
       newHour -= newOffset;
     }
 
