@@ -1,4 +1,4 @@
-//██╗.....███████╗███████╗....███╗...███╗.█████╗.███╗...██╗.█████╗..██████╗.███████╗██████╗
+﻿//██╗.....███████╗███████╗....███╗...███╗.█████╗.███╗...██╗.█████╗..██████╗.███████╗██████╗
 //██║.....██╔════╝██╔════╝....████╗.████║██╔══██╗████╗..██║██╔══██╗██╔════╝.██╔════╝██╔══██╗
 //██║.....███████╗███████╗....██╔████╔██║███████║██╔██╗.██║███████║██║..███╗█████╗..██████╔╝
 //██║.....╚════██║╚════██║....██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║██║...██║██╔══╝..██╔══██╗
@@ -1026,15 +1026,6 @@ lssm.appstore = {
             '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
             '</a>' +
             '</span>' +
-            // '&nbsp;' +
-            // '<span class="label label-primary">' +
-            // '<a href="https://www.leitstellenspiel.de/profile/205976" target="_blank" class="username-link">' +
-            // '@KBOE2</a>&nbsp;' +
-            // '<a href="https://www.leitstellenspiel.de/messages/new?target=KBOE2" target="_blank" ' +
-            // 'class="username-link">' +
-            // '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            // '</a>' +
-            // '</span>' +
             '</div>' +
             '</div>'
         );
