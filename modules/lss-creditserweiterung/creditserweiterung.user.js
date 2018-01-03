@@ -106,7 +106,7 @@
         }).responseText;
         let results = $(response).find('h1');
         if (results[0]){
-            let result = results[0].innerText.replace(".", "").replace(",", "");
+            let result = results[0].innerText.replace(/\./g, "").replace(/,/g, "");
             return parseInt(result);
         }
         return
