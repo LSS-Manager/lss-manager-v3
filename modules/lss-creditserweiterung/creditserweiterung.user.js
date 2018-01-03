@@ -105,8 +105,11 @@
             async: false
         }).responseText;
         let results = $(response).find('h1');
-        let result = results[0].innerText.replace(".", "");
-        return parseInt(result);
+        if (results[0]){
+            let result = results[0].innerText.replace(".", "").replace(",", "");
+            return parseInt(result);
+        }
+        return
     }
 
     function updateCredits() {
@@ -132,11 +135,14 @@
         }
         markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
         markup += '<a>' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString() + '</a></li>';
-        markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
-        markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits';
-        markup += '</a></li><li class="divider" role="presentation"></li><li onclick="updateCredits()" role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+        if (allianceFundsCredits){
+            markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
+            markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
+        }
+        markup += '<li class="divider" role="presentation"></li><li onclick="updateCredits()" role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
 
-        $('#navbar-main-collapse > ul').append(markup);
+        $('#menu_creditsverwaltung').remove();
+        $('#lssm_dropdown').before(markup);
     }
 
     updateCredits();
