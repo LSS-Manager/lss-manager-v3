@@ -113,8 +113,8 @@
     }
 
     function updateCredits() {
-        let currentCredits = $("#navigation_top").clone().wrap('<li>').parent().html();
-        let currentCoins = $("#coins_top").clone().wrap('<li>').parent().html();
+        let currentCredits = $("#navigation_top").clone().wrap('<li>').parent().html().replace("navigation_top", "creditserweiterung_credits");
+        let currentCoins = $("#coins_top").clone().wrap('<li>').parent().html().replace("coins_top", "creditserweiterung_coins");
         let earnedCredits = getEarnedCredits();
         let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
         let nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
