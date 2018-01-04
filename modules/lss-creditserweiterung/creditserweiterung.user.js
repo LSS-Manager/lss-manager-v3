@@ -113,6 +113,8 @@
     }
 
     function updateCredits() {
+        $("#navigation_top").show();
+        $("#coins_top").show();
         let currentCredits = $("#navigation_top").clone().wrap('<li>').parent().html().replace("navigation_top", "creditserweiterung_credits");
         let currentCoins = $("#coins_top").clone().wrap('<li>').parent().html().replace("coins_top", "creditserweiterung_coins");
         let earnedCredits = getEarnedCredits();
@@ -139,11 +141,19 @@
             markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
-        markup += '<li class="divider" role="presentation"></li><li onclick="updateCredits()" role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+        markup += '<li class="divider" role="presentation"></li><li id="creditserweiterung_update" role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
 
         $('#menu_creditsverwaltung').remove();
+        $("#creditserweiterung_credits").show();
+        $("#creditserweiterung_coins").show();
         $('#lssm_dropdown').before(markup);
+        $("#navigation_top").hide();
+        $("#coins_top").hide();
     }
+
+    $("#creditserweiterung_update").click(function (){
+        updateCredits();
+    });
 
     updateCredits();
     updateCredits = setInterval(updateCredits, 300000);
