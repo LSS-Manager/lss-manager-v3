@@ -24,7 +24,7 @@
             coinsProtokoll: 'Coinsprotokoll',
             earnedCredits: 'Gesamtcredits',
             creditsToNextRank: 'Credits zum nächsten Dienstgrad',
-            updateMessage: 'Zum aktualisieren, einfach<br>hier klicken.',
+            updateMessage: 'Werte aktualisieren sich<br>alle 5 Minuten.',
             allianceFunds: 'Verbandskasse'
         }
     };
@@ -49,7 +49,7 @@
             creditsOverview: 'Overview',
             earnedCredits: 'Totaly earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'To update values<br>just klick here.',
+            updateMessage: 'Values are updatet<br>all 5 minutes.',
             allianceFunds: 'Alliance Funds'
         }
     };
@@ -72,7 +72,7 @@
             creditsOverview: 'Overzicht statistiek',
             earnedCredits: 'Totale studiepunten',
             creditsToNextRank: 'Credits voor de volgende rang',
-            updateMessage: 'Om waarden bij te werken,<br> klikt u hier.',
+            updateMessage: 'Waarden actualiseren<br>om de 5 minuten.',
             allianceFunds: 'Teamkas'
         }
     };
@@ -141,19 +141,15 @@
             markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
-        markup += '<li class="divider" role="presentation"></li><li id="creditserweiterung_update" role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
 
         $('#menu_creditsverwaltung').remove();
-        $("#creditserweiterung_credits").show();
-        $("#creditserweiterung_coins").show();
+        $('#creditserweiterung_credits').show();
+        $('#creditserweiterung_coins').show();
         $('#lssm_dropdown').before(markup);
-        $("#navigation_top").hide();
-        $("#coins_top").hide();
+        $('#navigation_top').hide();
+        $('#coins_top').hide();
     }
-
-    $("#creditserweiterung_update").click(function (){
-        updateCredits();
-    });
 
     updateCredits();
     updateCredits = setInterval(updateCredits, 300000);
