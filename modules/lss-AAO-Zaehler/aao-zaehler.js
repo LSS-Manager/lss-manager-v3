@@ -4,7 +4,7 @@
 (function () {
     $('body').prepend(
         '<style type="text/css" id="aao_counter">'+
-	'.aao-counter{border-radius: 8px;position:relative;top: -20px;z-index: 1000;background: red;color: white;width: 16px;height: 16px;left: -8px;display:none;}'+
+        '.aao-counter{border-radius: 8px;position:relative;top: -20px;z-index: 1000;background: red;color: white;width: 16px;height: 16px;left: -8px;display:none;}'+
         '.aao{height:20px!important;}'+
         '.vehicle_group{height:20px!important;}'+
         '</style>'
