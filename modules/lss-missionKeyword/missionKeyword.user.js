@@ -346,7 +346,8 @@
         323: 'Dehnfugenbrand',
         324: 'Brand in Baumarkt',
         325: 'Absicherung Castor-Transport',
-        326: 'Handverletzung durch Feuerwerkskörper'
+        326: 'Handverletzung durch Feuerwerkskörper',
+        327: 'Tiefgaragenbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -520,7 +521,9 @@
         152: 'Freight Train Derailment',
         153: 'Barn Fire',
         154: 'Chlorine leak',
-        155: 'Fire in Hospital'
+        155: 'Fire in Hospital',
+        156: 'Turbulence Injury',
+        157: 'Turbulence Injury'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -799,7 +802,8 @@
         257: 'Auto-inbraak',
         258: 'Brand in flatwoning',
         259: 'Brand in flatwoning',
-        260: 'Brandend speeltoestel'
+        260: 'Brandend speeltoestel',
+        261: 'Persoon door glas gevallen'
       }
     };
 
@@ -1146,10 +1150,11 @@
       320: 'B 5',
       321: 'B 2',
       322: 'POL 2',
-      323: 'B 2',
+      323: 'B 3',
       324: 'B 5',
       325: 'SICHERHEITSWACHE',
-      326: 'RD 2'
+      326: 'RD 2',
+      327: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1305,9 +1310,11 @@
       150: 'TECH TRAIN',
       151: 'TECH TRAIN',
       152: 'TECH TRAIN',
-      153: 'FIRE 3',
-      154: 'ABC 2',
-      155: 'FIRE 4'
+      153: 'FIRE 4',
+      154: 'ABC 1',
+      155: 'FIRE 5',
+      156: 'MED 2',
+      157: 'MED 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1570,7 +1577,8 @@
       257: 'P 1',
       258: 'KLEINE BRAND',
       259: 'MIDDEL BRAND',
-      260: 'KLEINE BRAND'
+      260: 'KLEINE BRAND',
+      261: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

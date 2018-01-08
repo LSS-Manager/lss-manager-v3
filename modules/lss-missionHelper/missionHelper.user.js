@@ -563,7 +563,10 @@
 				'<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 10000 </span>',
 				325 : '<h4>SICHERHEITSWACHE</h4>18x GruKw (100%)<br>6x leBefKw (100%)<br>2x FüKw (100%)<br>10x Funkstreifenwagen (100%)<br>2x Rettungstransportwagen ' +
 				'(100%)<br>1x Polizeihubschrauber (100%)<br>2x WaWe 10 (100%)',
-				326 : '1x Rettungstransportwagen (100%)<br>1x Notarzteinsatzfahrzeug (80%)'
+				326 : '1x Rettungstransportwagen (100%)<br>1x Notarzteinsatzfahrzeug (80%)',
+				327 : '6x Löschfahrzeuge (100%)<br>2x Drehleiter (100%)<br>2x GW-Atemschutz (100%)<br>1x GW-Messtechnik (100%)<br>1x GW-Öl<br>' +
+				'1x Einsatzleitwagen 1 (100%)<br>1x Funkstreifenwagen (100%)<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (25%)' +
+				'<br><br><span class="badge">Credits: ~ 3500 </span>'
 			}
 		}
 
@@ -780,7 +783,9 @@
 				154: '3x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x Heavy Rescue (100%)<br>1x HazMat (100%)<br>1x Mobile Command (100%)' +
 				'<br>Ambulances (100%)<br><br><span class="badge">Credits: ~ 3500 </span>',
 				155: '10x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>2x Heavy Rescue (100%)<br>1x Water Tanker (100%)<br>1x Mobile Command (100%)' +
-				'<br>1x Mobile Air (100%)<br>3x Platform Trucks (100%)<br>Ambulances (100%)<br><br><span class="badge">Credits: ~ 6000 </span>'
+				'<br>1x Mobile Air (100%)<br>3x Platform Trucks (100%)<br>Ambulances (100%)<br><br><span class="badge">Credits: ~ 6000 </span>',
+				156: 'min. 1x Ambulance (100%)',
+				157: 'min. 1x Ambulance (100%)'
 			}
 		}
 
@@ -1191,7 +1196,8 @@
 				258 : '1x Tankautospuit (100%)<br>1x Redvoertuig (80%)<br><br><span class="badge">Credits: ~ 250 </span>',
 				259 : '2x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x Politieauto (100%)<br> Ambulance (100%)' +
 				'<br><br><span class="badge">Credits: ~ 1050 </span>',
-				260 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 220 </span>'
+				260 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 220 </span>',
+				261 : '1x Ambulance (100%)'
 			}
 		}
 	}
