@@ -1,4 +1,4 @@
-﻿//██╗.....███████╗███████╗....███╗...███╗.█████╗.███╗...██╗.█████╗..██████╗.███████╗██████╗
+//██╗.....███████╗███████╗....███╗...███╗.█████╗.███╗...██╗.█████╗..██████╗.███████╗██████╗
 //██║.....██╔════╝██╔════╝....████╗.████║██╔══██╗████╗..██║██╔══██╗██╔════╝.██╔════╝██╔══██╗
 //██║.....███████╗███████╗....██╔████╔██║███████║██╔██╗.██║███████║██║..███╗█████╗..██████╔╝
 //██║.....╚════██║╚════██║....██║╚██╔╝██║██╔══██║██║╚██╗██║██╔══██║██║...██║██╔══╝..██╔══██╗
@@ -829,7 +829,7 @@ lssm.Module = {
             en: 'shows your ID in the header',
             nl: 'Geeft uw eigen ID in de kopregel weer'
         },
-        source: '/modules/lss-userid/lss-user-id.user.js',
+        source: '/modules/lss-userid/lss-userId.user.js',
         noapp: false,
         inframe: true,
         develop: false
@@ -859,7 +859,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
         },
-        source: '/modules/lss-show-notTransportPatientButton-above/show-notTransportPatientButton-above.user.js',
+        source: '/modules/lss-show-notTransportPatientButtonAbove/show-notTransportPatientButtonAbove.user.js',
         noapp: false,
         supportedLocales: ['de'],
         inframe: true,

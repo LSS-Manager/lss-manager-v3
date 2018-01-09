@@ -19,12 +19,12 @@
             5000000000: 'Ehrenmitglied'
         },
         texts:{
-            dropdownName: 'Creditserweiterung (von KBOE2)',
+            dropdownName: 'Creditserweiterung',
             creditsOverview: 'Credits-Übersicht',
             coinsProtokoll: 'Coinsprotokoll',
             earnedCredits: 'Gesamtcredits',
             creditsToNextRank: 'Credits zum nächsten Dienstgrad',
-            updateMessage: 'Werte aktualisieren sich<br>alle 5 Minuten.',
+            updateMessage: 'Werte aktualisieren',
             allianceFunds: 'Verbandskasse'
         }
     };
@@ -45,11 +45,12 @@
         },
         texts:{
             reloadMessage: 'Please open your profile<br>and reload the website!',
-            dropdownName: 'Creditsextension (by KBOE2)',
+            dropdownName: 'Creditsextension',
             creditsOverview: 'Overview',
-            earnedCredits: 'Totaly earned Credits',
+            coinsProtokoll: 'Coins List',
+            earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values are updatet<br>all 5 minutes.',
+            updateMessage: 'Values are updated<br>all 5 minutes.',
             allianceFunds: 'Alliance Funds'
         }
     };
@@ -68,8 +69,9 @@
         },
         texts:{
             reloadMessage: 'Open uw profiel<br>open en de website herladen!',
-            dropdownName: 'Kredietexpansie (von KBOE2)',
+            dropdownName: 'Kredietexpansie',
             creditsOverview: 'Overzicht statistiek',
+            coinsProtokoll: 'Coin protocol',
             earnedCredits: 'Totale studiepunten',
             creditsToNextRank: 'Credits voor de volgende rang',
             updateMessage: 'Waarden actualiseren<br>om de 5 minuten.',
@@ -86,6 +88,7 @@
                 return key;
             }
         }
+        return null;
     }
 
     function getEarnedCredits() {
@@ -95,7 +98,7 @@
             async: false
         }).responseText;
         let results = $(response).find('.page-header').text().trim().match(I18n.t('lssm.creditserweiterung.earnedCreditsRegEx'));
-        return parseInt(results[1].replace(/\./g,'').replace(/,/g, ''));
+        return parseInt(results[1].replace(/\./g,'').replace(/,/g, '')); // Delete all "." and "," as these are kilo-splitting-chars of DE, NL and EN
     }
 
     function getAlianceFundsCredits() {
@@ -104,56 +107,44 @@
             url: "./verband/kasse",
             async: false
         }).responseText;
-        let results = $(response).find('h1');
-        if (results[0]){
-            let result = results[0].innerText.replace(/\./g, "").replace(/,/g, "");
-            return parseInt(result);
-        }
-        return
+        return parseInt($(response).find('h1')[0].innerText.replace(/\./g, "").replace(/,/g, ""));
+    }
+
+    function updateCreditsTry() {
+        alert("Test");
+        updateCredits();
     }
 
     function updateCredits() {
-        $("#navigation_top").show();
-        $("#coins_top").show();
-        let currentCredits = $("#navigation_top").clone().wrap('<li>').parent().html().replace("navigation_top", "creditserweiterung_credits");
-        let currentCoins = $("#coins_top").clone().wrap('<li>').parent().html().replace("coins_top", "creditserweiterung_coins");
         let earnedCredits = getEarnedCredits();
         let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
         let nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
         var creditsToNextRank = creditsOfNextRank - earnedCredits;
         let allianceFundsCredits = getAlianceFundsCredits();
 
-        let markup = '<li><a id="menu_creditsverwaltung"  class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
+        let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
         markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
         markup += lssm.getlink("/modules/lss-creditserweiterung/img/icons8-money-box-150.png") + '">';
         markup += '<span class="visible-xs">' + I18n.t('lssm.creditserweiterung.texts.dropdownName') + '</span>';
-        markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung>';
-        markup += '<li class="divider" role="presentation"></li><li role="presentation" >' + currentCredits + '</li>';
-        markup += '<li role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
-        markup += '<li role="presentation">' + currentCoins + '</li>';
-
-        if (true){
-            markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
-        }
+        markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung">';
+        markup += '<li role="presentation" id="creditserweiterungCredits"></li>';
+        markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
+        markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
+        markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
         markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
         markup += '<a>' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString() + '</a></li>';
         if (allianceFundsCredits){
             markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a><button style="width: 100%;" class="btn btn-success navbar-btn btn-sm">' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</button></a></li></ul></li>';
 
         $('#menu_creditsverwaltung').remove();
-        $('#creditserweiterung_credits').show();
-        $('#creditserweiterung_coins').show();
         $('#lssm_dropdown').before(markup);
-        $('#navigation_top').hide();
-        $('#coins_top').hide();
+        $('#creditserweiterungCredits').append($('#navigation_top'));
+        $('#creditserweiterungCoins').append($('#coins_top'));
     }
 
     updateCredits();
-    updateCredits = setInterval(updateCredits, 300000);
-
-    $("#navigation_top").hide();
-    $("#coins_top").hide();
+    creditsUpdate = setInterval(updateCredits, 300000);
 })($, window, I18n);
