@@ -25,7 +25,8 @@
             earnedCredits: 'Gesamtcredits',
             creditsToNextRank: 'Credits zum nächsten Dienstgrad',
             updateMessage: 'Werte aktualisieren',
-            allianceFunds: 'Verbandskasse'
+            allianceFunds: 'Verbandskasse',
+            noFurtherRank: 'Keine Höheren Ränge'
         }
     };
     I18n.translations.en.lssm.creditserweiterung = {
@@ -51,7 +52,8 @@
             earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
             updateMessage: 'Values are updated<br>all 5 minutes.',
-            allianceFunds: 'Alliance Funds'
+            allianceFunds: 'Alliance Funds',
+            noFurtherRank: 'There are no further ranks'
         }
     };
     I18n.translations.nl.lssm.creditserweiterung = {
@@ -75,7 +77,8 @@
             earnedCredits: 'Totale studiepunten',
             creditsToNextRank: 'Credits voor de volgende rang',
             updateMessage: 'Waarden actualiseren<br>om de 5 minuten.',
-            allianceFunds: 'Teamkas'
+            allianceFunds: 'Teamkas',
+            noFurtherRank: 'Geen verdere rangen meer'
         }
     };
 
@@ -88,7 +91,7 @@
                 return key;
             }
         }
-        return null;
+        return I18n.t('lssm.creditserweiterung.noFurtherRank');;
     }
 
     function getEarnedCredits() {
@@ -108,11 +111,6 @@
             async: false
         }).responseText;
         return parseInt($(response).find('h1')[0].innerText.replace(/\./g, "").replace(/,/g, ""));
-    }
-
-    function updateCreditsTry() {
-        alert("Test");
-        updateCredits();
     }
 
     function updateCredits() {
