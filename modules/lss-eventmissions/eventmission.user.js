@@ -21,7 +21,7 @@
 	text = text.replace('Eierkocherbrand', '[OSTERN] Eierkocherbrand');
 	text = text.replace('Hasentreffen in Ostereistedt', '[OSTERN] Hasentreffen in Ostereistedt');
 	//Sommer Missions
-	text = text.replace('Sonnenstich', '[SOMMER] 	Sonnenstich');
+	text = text.replace('Sonnenstich', '[SOMMER] Sonnenstich');
 	text = text.replace('Hitzschlag', '[SOMMER] Hitzschlag');
 	text = text.replace('Hitzekrampf', '[SOMMER] Hitzekrampf');
 	//Halloween Missions
@@ -70,7 +70,7 @@
         text = text.replace('Kind geschrokken', '[X-MAS] Kind geschrokken');
         text = text.replace('Piet klem in schoorsteen', '[X-MAS] Piet klem in schoorsteen');
         text = text.replace('Demonstratie zwarte piet', '[X-MAS] Demonstratie zwarte piet');
-        text = text.replace('Schoenen dief','[X-MAS]	Schoenen dief');
+        text = text.replace('Schoenen dief','[X-MAS] Schoenen dief');
 	text = text.replace('Verstikking in pepernoot', '[X-MAS] Verstikking in pepernoot');
 	text = text.replace('Verkeersongeval door gladheid', '[X-MAS] Verkeersongeval door gladheid');
 	text = text.replace('Brandende kerstboom', '[X-MAS] Brandende kerstboom');
