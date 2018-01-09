@@ -37,7 +37,7 @@
     };
 
     // Prepare aaoTitle
-    const aaoTitle = $('<div id="aaoTitle" style="display:none; max-width: 260px; padding: 8px; background-color:#fff">');
+    const aaoTitle = $('<div id="aaoTitle" style="display:none; max-width: 260px; padding: 8px; background-color:#5CB85C">');
     $('body').append(aaoTitle);
 
     const formatSeconds = (totalSeconds) => {

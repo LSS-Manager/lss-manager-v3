@@ -385,6 +385,22 @@ lssm.Module = {
         source: '/modules/lss-redesign-01/redesign-01.user.js',
         develop: false
     },
+    Eventsmission: {
+        name: {
+            de: 'Markiert Eventeinsätze',
+            en: 'Marked events',
+            nl: 'Merken gebeurtenissen'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
+            en: 'Displays the current events with capitalized LINE!',
+            nl: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
+        },
+        source: '/modules/lss-eventmissions/eventmission.user.js',
+        develop: false
+    },
     DestinationFilter: {
         name: {
             de: 'Zielort Filter',
