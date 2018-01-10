@@ -91,7 +91,7 @@
                 return key;
             }
         }
-        return I18n.t('lssm.creditserweiterung.noFurtherRank');;
+        return null;
     }
 
     function getEarnedCredits() {
@@ -116,8 +116,13 @@
     function updateCredits() {
         let earnedCredits = getEarnedCredits();
         let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
-        let nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
-        var creditsToNextRank = creditsOfNextRank - earnedCredits;
+        if (creditsOfNextRank === null){
+            nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
+            creditsToNextRank = "&infin;";
+        } else {
+            nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+            creditsToNextRank = creditsOfNextRank - earnedCredits;
+        }
         let allianceFundsCredits = getAlianceFundsCredits();
 
         let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
@@ -137,12 +142,16 @@
         }
         markup += '<li class="divider" role="presentation"></li><li role="presentation"><a><button style="width: 100%;" class="btn btn-success navbar-btn btn-sm">' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</button></a></li></ul></li>';
 
+        $("#menu_alliance").prepend($('#navigation_top'));
+        $('#menu_alliance').append($('#coins_top'));
+
         $('#menu_creditsverwaltung').remove();
         $('#lssm_dropdown').before(markup);
+
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
     }
 
     updateCredits();
-    creditsUpdate = setInterval(updateCredits, 300000);
+    //creditsUpdate = setInterval(updateCredits, 300000);
 })($, window, I18n);
