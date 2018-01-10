@@ -347,7 +347,23 @@
         324: 'Brand in Baumarkt',
         325: 'Absicherung Castor-Transport',
         326: 'Handverletzung durch Feuerwerkskörper',
-        327: 'Tiefgaragenbrand'
+        327: 'Tiefgaragenbrand',
+        328: 'Rauch in Kabine',
+        329: 'Rauch in Kabine',
+        330: 'Überhitzte Bremsen',
+        331: 'Flugzeugzusammenstoß am Boden',
+        332: 'Flugzeugbrand',
+        333: 'Flugzeugbrand',
+        334: 'Brennendes Kleinflugzeug',
+        335: 'Brennendes Kleinflugzeug',
+        336: 'Absicherung Betankung',
+        337: 'Brennender PKW',
+        338: 'Motorrad-Brand',
+        339: 'Herzinfarkt',
+        340: 'akuter Asthma-Anfall',
+        341: 'Krampfanfall',
+        342: 'Triebwerksbrand',
+        343: 'Triebwerksbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1154,7 +1170,23 @@
       324: 'B 5',
       325: 'SICHERHEITSWACHE',
       326: 'RD 2',
-      327: 'B 4'
+      327: 'B 4',
+      328: 'B 2',
+      329: 'B 2',
+      330: 'B 1',
+      331: 'THL VU FLUGZEUG 2',
+      332: 'B 4 FLUGZEUG',
+      333: 'B 4 FLUGZEUG',
+      334: 'B 3',
+      335: 'B 3',
+      336: 'THL 1',
+      337: 'B 1',
+      338: 'B 1',
+      339: 'RD 2',
+      340: 'RD 2',
+      341: 'RD 2',
+      342: 'B 1',
+      343: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
