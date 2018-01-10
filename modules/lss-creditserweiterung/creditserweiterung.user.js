@@ -153,5 +153,5 @@
     }
 
     updateCredits();
-    //creditsUpdate = setInterval(updateCredits, 300000);
+    creditsUpdate = setInterval(updateCredits, 300000);
 })($, window, I18n);
