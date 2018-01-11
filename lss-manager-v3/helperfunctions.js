@@ -150,7 +150,9 @@ else if (I18n.locale == "de")
         "71": ["AB-MZB", 4],
         "72": ["WaWe 10", 2],
         "73": ["GRTW", 1],
-        "74": ["NAW", 1]
+        "74": ["NAW", 1],
+        "75": ["FLF", 0],
+        "76": ["Rettungstreppe", 0]
     };
 
 lssm.car_list = function(building) {

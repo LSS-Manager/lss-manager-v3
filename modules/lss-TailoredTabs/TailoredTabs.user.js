@@ -22,6 +22,14 @@
                     "parent": SETTINGS + "_bpol_toggle",
                 }
             },
+            "icao": {
+                "default": false,
+                "ui": {
+                    "label": 'ICAO',
+                    "type": "toggle",
+                    "description": 'FLF und RTF in eigenen Tab'
+                }
+            },
             "nas": {
                 "default": false,
                 "ui": {
@@ -117,7 +125,14 @@
         }
         sections.push(bpolSection);
     }
-
+    if (getSetting('icao') && !isKtwMode) {
+        let icaoSection = {
+            name: 'ICAO',
+            short: 'icao',
+            vehicles: [75, 76]
+        };
+        sections.push(icaoSection);
+    }
     if (getSetting('nas') && !isKtwMode) {
         let naSection = {
             name: 'NA',
