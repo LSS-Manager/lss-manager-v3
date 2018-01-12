@@ -364,7 +364,7 @@
         341: 'Krampfanfall',
         342: 'Triebwerksbrand',
         343: 'Triebwerksbrand',
-        344: 'Mehrere brennender Fahrzeuge'
+        344: 'Mehrere brennende Fahrzeuge'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
