@@ -363,7 +363,8 @@
         340: 'akuter Asthma-Anfall',
         341: 'Krampfanfall',
         342: 'Triebwerksbrand',
-        343: 'Triebwerksbrand'
+        343: 'Triebwerksbrand',
+        344: 'Mehrere brennende Fahrzeuge'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -539,7 +540,8 @@
         154: 'Chlorine leak',
         155: 'Fire in Hospital',
         156: 'Turbulence Injury',
-        157: 'Turbulence Injury'
+        157: 'Turbulence Injury',
+        158: 'Accident Involving a Bus'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -819,7 +821,8 @@
         258: 'Brand in flatwoning',
         259: 'Brand in flatwoning',
         260: 'Brandend speeltoestel',
-        261: 'Persoon door glas gevallen'
+        261: 'Persoon door glas gevallen',
+        262: 'Burenruzie'
       }
     };
 
@@ -1177,8 +1180,8 @@
       331: 'THL VU FLUGZEUG 2',
       332: 'B 4 FLUGZEUG',
       333: 'B 4 FLUGZEUG',
-      334: 'B 3',
-      335: 'B 3',
+      334: 'THL VU FLUGZEUG 1',
+      335: 'THL VU FLUGZEUG 1',
       336: 'THL 1',
       337: 'B 1',
       338: 'B 1',
@@ -1186,7 +1189,8 @@
       340: 'RD 2',
       341: 'RD 2',
       342: 'B 1',
-      343: 'B 1'
+      343: 'B 1',
+      344: 'B 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1346,7 +1350,8 @@
       154: 'ABC 1',
       155: 'FIRE 5',
       156: 'MED 2',
-      157: 'MED 2'
+      157: 'MED 2',
+      158: 'TECH 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1610,7 +1615,8 @@
       258: 'KLEINE BRAND',
       259: 'MIDDEL BRAND',
       260: 'KLEINE BRAND',
-      261: 'A 1'
+      261: 'A 1',
+      262: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
