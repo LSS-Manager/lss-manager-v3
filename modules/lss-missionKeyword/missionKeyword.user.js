@@ -592,7 +592,7 @@
         29: 'Machine brand',
         30: 'Lekkende dieseltank',
         31: 'Oliespoor',
-        32: 'Schoorsteenbrand woning met rietenkap',
+        32: 'Schoorsteenbrand (woning met rietenkap)',
         33: 'Brandende landbouwmachine',
         34: 'Brand in supermarkt',
         35: 'Brand in ziekenhuis',
@@ -643,9 +643,9 @@
         80: 'Allergische reactie',
         81: 'Verward persoon',
         82: 'Vrachtwagen gekanteld',
-        83: 'Val van hoogte (> 5m)',
+        83: 'Val van hoogte (> 5 meter)',
         84: 'Ernstige brandwonden',
-        85: 'Aanrijding voetganger (> 30km/h)',
+        85: 'Aanrijding voetganger (> 30 km/u)',
         86: 'Aanrijding door trein',
         87: 'Beginnende geboorte',
         88: 'Hersenbloeding',
@@ -677,7 +677,7 @@
         114: 'Brandend dak',
         115: 'Brandend dak',
         116: 'Voetbalwedstrijd',
-        117: 'Voetbalwedstrijd, risicowedstrijd',
+        117: 'Voetbalwedstrijd (risicowedstrijd)',
         118: 'Hardloopevenement',
         119: 'Begeleiding orkest',
         120: 'Begeleiding wielrenners',
@@ -779,8 +779,8 @@
         216: 'Bosbrand',
         217: 'Plofkraak',
         218: 'Plofkraak',
-        219: 'Open dag, klein',
-        220: 'Open dag, groot',
+        219: 'Open dag (klein)',
+        220: 'Open dag (groot)',
         221: 'Inval in woning',
         222: 'Inbraak in woning',
         223: 'Brand in kelder',
@@ -1713,6 +1713,7 @@
             else if (anzahlPatients >= 101)
               additionalAaoText += 'MANV 100+';
           }
+		  
           if (I18n.t('lssm.missionKeywordDefaults.rd') === 'NOTF') {
             // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
             if (anzahlPatients > 5 && anzahlPatients < 11)
@@ -1746,15 +1747,15 @@
         if (!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd'))) {
           additionalAaoText = '<span class="label label-warning">';
           if (anzahlPatients >= 10 && anzahlPatients < 21)
-            additionalAaoText += 'A 1 CODE 10';
+            additionalAaoText += 'A1 CODE 10';
           else if (anzahlPatients >= 21 && anzahlPatients < 30)
-            additionalAaoText += 'A 1 CODE 20';
+            additionalAaoText += 'A1 CODE 20';
           else if (anzahlPatients >= 30 && anzahlPatients < 40)
-            additionalAaoText += 'A 1 CODE 30';
+            additionalAaoText += 'A1 CODE 30';
           else if (anzahlPatients >= 40 && anzahlPatients < 50)
-            additionalAaoText += 'A 1 CODE 40';
+            additionalAaoText += 'A1 CODE 40';
           else if (anzahlPatients >= 50)
-            additionalAaoText += 'A 1 CODE 50';
+            additionalAaoText += 'A1 CODE 50';
 
           additionalAaoText += '</span>';
         }
