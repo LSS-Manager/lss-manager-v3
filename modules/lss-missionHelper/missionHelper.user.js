@@ -1105,14 +1105,13 @@
 				196 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 190 </span>',
 				197 : '1x Tankautospuit (100%)<br><br><span class="badge">Credits: ~ 190 </span>',
 				198 : '1x Tankautospuit (100%)<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 190 </span>',
-				199 : '1x Politieautos (100%)<br>1x Officier van Dienst Politie (50%)<br>1x Politie Helikopter (100%)' +
-				'<br><br><span class="badge">Credits: ~ 800 </span>',
+				199 : '3x Politieautos (100%)<br>1x Officier van Dienst Politie (50%)<br><br><span class="badge">Credits: ~ 800 </span>',
 				200 : '1x Tankautospuit (100%)<br>1x OvD-B (50%)<br>1x Adviseurs Gevaarlijke Stoffen (10%)<br>' +
 				'4x Politieauto (100%)<br>1x Officier van Dienst Politie (100%)<br><br>' +
 				'<span class="badge">Credits: ~ 800 </span>',
 				201 : '4x Politieautos (100%)<br>1x Officier van Dienst Politie (50%)<br><br>' +
 				'<span class="badge">Credits: ~ 850 </span>',
-				202 : '3x Politieautos (100%)<br>1x Officier van Dienst Politie (100%)<br>1x Ambulance (100%)' +
+				202 : '5x Politieautos (100%)<br>1x Officier van Dienst Politie (100%)<br>1x Ambulance (100%)' +
 				'<br>1x MMT-Auto (100%)<br><br><span class="badge">Credits: ~ 1500 </span>',
 				203 : '2x Politieautos (100%)<br>1x Tankautospuit (100%)<br>1x OvD-B (100%)<br>' +
 				'1x Hulpverleningsvoertuig (80%)<br>1x Adviseurs Gevaarlijke Stoffen (60%)<br>' +
@@ -1206,7 +1205,7 @@
 				'<span class="badge">Credits: ~ 1200 </span>',
 				248 : '3x Politieautos (100%)<br>3x ME Groepsvoertuig (100%)<br>1x ME Commandovoertuig (100%)<br>1x Politie Helikopter (100 %)' +
 				'<br><br><span class="badge">Credits: ~ 2200 </span>',
-				249 : '3x Politieautos (100%)<br>1x Politiehelicopter (100%)<br><br><span class="badge">Credits: ~ 2700 </span>',
+				249 : '3x Politieautos (100%)<br>1x Politiehelikopter (100%)<br><br><span class="badge">Credits: ~ 2700 </span>',
 				250 : '1x Politieauto (100%)<br><br><span class="badge">Credits: ~ 300 </span>',
 				251 : '1x Tankautospuit (100%)<br>1x Hulpverleningsvoertuig (80%)<br>1x OvD-B (100%)<br>1x Waterongevallenvoertuig (100%)<br>' +
 				'1x Waterongevallenaanhangers (20%)<br>1x Politieauto (100%)<br>1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 1000 </span>',
