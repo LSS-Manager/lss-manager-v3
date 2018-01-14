@@ -299,14 +299,13 @@ lssm.Module = {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
-            nl: 'Zelgemaakte inzetten opslaan.'
+            nl: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
             de: 'Funktion um sebst erstlle VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
-            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens ' +
-            'kan gebruiken.'
+            nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later weer te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
