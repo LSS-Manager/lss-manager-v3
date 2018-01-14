@@ -24,7 +24,7 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 
 var lssm = {
     config: {
-        //server: "https://localhost/lss-manager-v3",
+        //server: "https://127.0.0.1/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
@@ -804,13 +804,13 @@ lssm.Module = {
         name: {
             de: 'Creditserweiterung',
             en: 'Credit expansion',
-            nl: 'Kredietexpansie'
+            nl: 'Credits-uitbreiding'
         },
         active: false,
         description: {
             de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
             en: 'Add some special information about the credits in a drop-down list',
-            nl: 'Voeg wat speciale informatie over de credits toe in een vervolgkeuzelijst'
+            nl: 'Voegt wat speciale informatie over de credits toe in een vervolgkeuzelijst'
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
         noapp: false,
@@ -838,13 +838,13 @@ lssm.Module = {
         name: {
             de: 'show Chatbutton Above',
             en: 'show Chatbutton Above',
-            nl: 'Toon boven Chatbutton'
+            nl: 'Toon boven chat-knop'
         },
         active: false,
         description: {
             de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
             en: 'Displays the Chat History button in the chat header.',
-            nl: 'Toont de knop Chatgeschiedenis in de chatheader.'
+            nl: 'Toont de chatgeschiedenisknop  in de chatheader.'
         },
         source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
         noapp: false,

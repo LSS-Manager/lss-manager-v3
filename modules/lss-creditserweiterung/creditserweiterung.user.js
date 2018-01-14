@@ -70,11 +70,11 @@
             5000000000: 'Erelid'
         },
         texts:{
-            reloadMessage: 'Open uw profiel<br>open en de website herladen!',
-            dropdownName: 'Kredietexpansie',
+            reloadMessage: 'Open uw profiel<br>en herlaad de website!',
+            dropdownName: 'Credits-uitbreiding',
             creditsOverview: 'Overzicht statistiek',
             coinsProtokoll: 'Coin protocol',
-            earnedCredits: 'Totale studiepunten',
+            earnedCredits: 'Totaal aantal credits',
             creditsToNextRank: 'Credits voor de volgende rang',
             updateMessage: 'Waarden actualiseren<br>om de 5 minuten.',
             allianceFunds: 'Teamkas',
@@ -153,5 +153,5 @@
     }
 
     updateCredits();
-    creditsUpdate = setInterval(updateCredits, 300000);
+    //creditsUpdate = setInterval(updateCredits, 300000);
 })($, window, I18n);
