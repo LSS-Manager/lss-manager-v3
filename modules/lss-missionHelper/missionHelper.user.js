@@ -895,7 +895,7 @@
 				51 : '1x Ambulance (100%)',
 				52 : '4x Tankautospuiten (100%)<br>1x Hulpverleningsvoertuig (30%)<br>1x Slangenwagen (100%)<br>' +
 				'1x Redvoertuig (100%)<br>1x OvD-B (100%)<br><br><span class="badge">Credits: ~ 3620 </span>',
-				53 : '3x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x HOVD (100%)<br>' +
+				53 : '4x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x HOVD (100%)<br>' +
 				'1x Hulpverleningsvoertuig (100%)<br>1x Adembeschermingsvoertuig (100%)<br>1x Slangenwagen (100%)<br>' +
 				'1x Commandowagen (60%)<br><br><span class="badge">Credits: ~ 1700 </span>',
 				54 : '1x Tankautospuit (100%)<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 230 </span>',
