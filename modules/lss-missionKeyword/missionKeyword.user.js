@@ -822,7 +822,23 @@
         259: 'Brand in flatwoning',
         260: 'Brandend speeltoestel',
         261: 'Persoon door glas gevallen',
-        262: 'Burenruzie'
+        262: 'Burenruzie',
+        263: 'Brandende personenauto in parkeergarage',
+        264: 'Brandende personenauto in parkeergarage',
+        265: 'Vliegtuig met hydraulisch probleem',
+        266: 'Vliegtuig met rook in cabine',
+        267: 'Vliegtuig met brandgeur in cabine',
+        268: 'Vliegtuig met probleem met landingsgestel',
+        269: 'Vliegtuig met brandmelding in vrachtruim',
+        270: 'Vliegtuig buiten start-/landingsbaan beland',
+        271: 'Rookontwikkeling in vrachtruim vliegtuig',
+        272: 'Klein vliegtuig met motorisch probleem',
+        273: 'Klein vliegtuig neergestort',
+        274: 'Klein vliegtuig neergestort',
+        275: 'Brandend klein vliegtuig',
+        276: 'Brandend klein vliegtuig',
+        277: 'Pijn op de borst',
+        278: 'Beroerte'
       }
     };
 
@@ -1616,7 +1632,23 @@
       259: 'MIDDEL BRAND',
       260: 'KLEINE BRAND',
       261: 'A 1',
-      262: 'P 1'
+      262: 'P 1',
+      263: 'KLEINE BRAND',
+      264: 'MIDDEL BRAND',
+      265: 'VOS KLEIN',
+      266: 'VOS KLEIN',
+      267: 'VOS KLEIN',
+      268: 'VOS GROOT',
+      269: 'VOS GROOT',
+      270: 'VOS GROOT',
+      271: 'VOS KLEIN',
+      272: 'VOS KLEIN',
+      273: 'VOS KLEIN',
+      274: 'VOS GROOT',
+      275: 'VOS KLEIN',
+      276: 'VOS KLEIN',
+      277: 'A1',
+      278: 'A1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -1713,7 +1745,7 @@
             else if (anzahlPatients >= 101)
               additionalAaoText += 'MANV 100+';
           }
-		  
+
           if (I18n.t('lssm.missionKeywordDefaults.rd') === 'NOTF') {
             // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
             if (anzahlPatients > 5 && anzahlPatients < 11)
