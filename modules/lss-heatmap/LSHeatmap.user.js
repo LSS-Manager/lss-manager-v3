@@ -160,22 +160,23 @@
                 });
 
                 $('.value-slider').slider({
-                    start: () => {
+                    start: function () {
                         map.dragging.disable();
                     },
-                    stop: () => {
+                    stop: function () {
                         map.dragging.enable();
                     },
-                    create: (event, ui) => {
+                    create: function (event, ui) {
                         $(this).slider('option', 'max', $(this).data('max'));
                         $(this).slider('option', 'value', $(this).data('value'));
                     },
-                    slide: () => {
+                    slide: function () {
                         setSettings();
                         renderMap();
                     },
                     min: 1
                 });
+
 
                 // Buttons
                 $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
