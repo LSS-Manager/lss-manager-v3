@@ -72,7 +72,11 @@ else if (I18n.locale == "nl")
         "37": ["MMT-Auto", 1],
         "38": ["OvD-G | Officier van Dienst - Geneeskunde", 1],
         "39": ["ME Commandovoertuig | Mobiele Eenheid - Commandovoertuig", 2],
-        "40": ["ME Groepsvoertuig | Mobiele Eenheid - Groepsvoertuig", 2]
+        "40": ["ME Groepsvoertuig | Mobiele Eenheid - Groepsvoertuig", 2],
+        "41": ["CT (8x8) | Crashtender (8x8)", 0],
+        "42": ["CT (6x6) | Crashtender (6x6)", 0],
+        "43": ["CT (4x4) | Crashtender (4x4)", 0],
+        "44": ["AFO/OSC | Airport Fire Officer / On Scene Commander", 0]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
