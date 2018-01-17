@@ -159,6 +159,14 @@ else if (I18n.locale == "de")
         "76": ["Rettungstreppe", 0]
     };
 
+lssm.getVehicleNameById = function(vehicleId) {
+    if(vehicleId in lssm.carsById){
+        return lssm.carsById[vehicleId][0];
+    } else {
+        return null;
+    }
+}
+
 lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
     var data = [];
