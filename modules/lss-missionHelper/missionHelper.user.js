@@ -101,7 +101,8 @@
 				74 : '2x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 500 </span>',
 				75 : '7x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 10020 </span>',
 				76 : '2x Löschfahrzeuge (100%)<br><br><span class="badge">Credits: ~ 800 </span>',
-				77 : '1x Funkstreifenwagen (100%)<br>1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 500 </span>',
+				77 : '1x Funkstreifenwagen (100%)<br>1x Löschfahrzeug (100%)<br>Rettungstransportwagen' +
+				'<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 500 </span>',
 				78 : '1x Löschfahrzeug (100%)<br>1x Drehleiter (20%)<br><br><span class="badge">Credits: ~ 130 </span>',
 				79 : '1x Löschfahrzeug (100%)<br>1x Einsatzleitwagen 1 (100%)<br>1x GW-Höhenrettung (100%)<br>' +
 				'1x Drehleiter (30%)<br>1x Rettungstransportwagen (100%)<br><br><span class="badge">Credits: ~ 1800 </span>',
