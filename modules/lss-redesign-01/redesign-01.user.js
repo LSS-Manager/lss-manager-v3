@@ -272,6 +272,10 @@
         'height: 16px;'+
         'cursor: pointer'+
       '}'+
+      '.chatToSelf {'+
+        'background-color: #d84f4b;'+
+        'color: white'+
+      '}'+
       '.map-expand-button {'+
         'background-image: url(/images/expand.png);'+
         'background-size: 100% 100%'+
