@@ -104,13 +104,17 @@
         return parseInt(results[1].replace(/\./g,'').replace(/,/g, '')); // Delete all "." and "," as these are kilo-splitting-chars of DE, NL and EN
     }
 
-    function getAlianceFundsCredits() {
+    function getAllianceFundsCredits() {
         let response = $.ajax({
             type: "GET",
             url: "./verband/kasse",
             async: false
         }).responseText;
-        return parseInt($(response).find('h1')[0].innerText.replace(/\./g, "").replace(/,/g, ""));
+        if ($(response).find('h1')[0]) {
+            return parseInt($(response).find('h1')[0].innerText.replace(/\./g, "").replace(/,/g, ""));
+        } else {
+            return;
+        }
     }
 
     function updateCredits() {
@@ -123,7 +127,7 @@
             nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
             creditsToNextRank = creditsOfNextRank - earnedCredits;
         }
-        let allianceFundsCredits = getAlianceFundsCredits();
+        let allianceFundsCredits = getAllianceFundsCredits();
 
         let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
         markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
@@ -140,7 +144,7 @@
             markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a><button style="width: 100%;" class="btn btn-success navbar-btn btn-sm">' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</button></a></li></ul></li>';
+        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a><button style="width: 100%;" class="btn btn-success navbar-btn btn-sm" id="creditserweiterungUpdateButton">' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</button></a></li></ul></li>';
 
         $("#menu_alliance").prepend($('#navigation_top'));
         $('#menu_alliance').append($('#coins_top'));
@@ -150,8 +154,11 @@
 
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
-    }
 
+        $("#creditserweiterungUpdateButton").attr("onclick", "updateCredits()");
+    }
+    if (location.pathname.match(/\/missions\/\d+/)) return;
+    if (location.pathname.match(/\/profile\/\d+/)) return;
     updateCredits();
     //creditsUpdate = setInterval(updateCredits, 300000);
 })($, window, I18n);
