@@ -155,10 +155,14 @@
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
     }
+    
     if (location.pathname.match(/\/missions\/\d+/)) return;
     if (location.pathname.match(/\/profile\/\d+/)) return;
     if (location.pathname.match(/\/vehicles\/\d+/)) return;
     if (location.pathname.match(/\/buildings\/\d+/)) return;
+    if (location.pathname.match(/\/alliances\/\d+/)) return;
+    if (location.pathname.match(/\/verband\/\d+/)) return;
+
     updateCredits();
     setInterval(updateCredits, 300000);
 })($, window, I18n);
