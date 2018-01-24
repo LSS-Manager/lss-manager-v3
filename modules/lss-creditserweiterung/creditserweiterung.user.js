@@ -117,7 +117,7 @@
         }
     }
 
-    function updateCredits() {
+    function createExtension() {
         let earnedCredits = getEarnedCredits();
         let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
         if (creditsOfNextRank === null){
@@ -138,16 +138,13 @@
         markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
         markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
         markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
-        markup += '<a>' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString() + '</a></li>';
+        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a id="creditsextensionEarnedCredits">' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
+        markup += '<a id="creditsextensionNextRank">' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString() + '</a></li>';
         if (allianceFundsCredits){
-            markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
+            markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open" id="creditsextensionAllianceFunds">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
         markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
-
-        $("#menu_alliance").prepend($('#navigation_top'));
-        $('#menu_alliance').append($('#coins_top'));
 
         $('#menu_creditsverwaltung').remove();
         $('#lssm_dropdown').before(markup);
@@ -155,7 +152,28 @@
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
     }
-    
+
+    function updateValues() {
+        let earnedCredits = getEarnedCredits();
+        let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
+        if (creditsOfNextRank === null){
+            nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
+            creditsToNextRank = "&infin;";
+        } else {
+            nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+            creditsToNextRank = creditsOfNextRank - earnedCredits;
+        }
+        let allianceFundsCredits = getAllianceFundsCredits();
+
+        $("#creditsextensionEarnedCredits").html(I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString());
+
+        $("#creditsextensionNextRank").html(I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString());
+
+        if (allianceFundsCredits) {
+            $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
+        }
+    }
+
     if (location.pathname.match(/\/missions\/\d+/)) return;
     if (location.pathname.match(/\/profile\/\d+/)) return;
     if (location.pathname.match(/\/vehicles\/\d+/)) return;
@@ -163,6 +181,8 @@
     if (location.pathname.match(/\/alliances\/\d+/)) return;
     if (location.pathname.match(/\/verband\/\d+/)) return;
 
-    updateCredits();
-    setInterval(updateCredits, 300000);
+    createExtension();
+
+    updateValues();
+    setInterval(updateValues, 300000);
 })($, window, I18n);
