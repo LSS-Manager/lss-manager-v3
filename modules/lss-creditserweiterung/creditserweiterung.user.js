@@ -24,7 +24,7 @@
             coinsProtokoll: 'Coinsprotokoll',
             earnedCredits: 'Gesamtcredits',
             creditsToNextRank: 'Credits zum nächsten Dienstgrad',
-            updateMessage: 'Werte aktualisieren',
+            updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.<br>Credits und Coins sind<br>ständig aktuell.',
             allianceFunds: 'Verbandskasse',
             noFurtherRank: 'Keine Höheren Ränge'
         }
@@ -51,7 +51,7 @@
             coinsProtokoll: 'Coins List',
             earnedCredits: 'Totally earned Credits',
             creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values are updated<br>all 5 minutes.',
+            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
             noFurtherRank: 'There are no further ranks'
         }
@@ -76,7 +76,7 @@
             coinsProtokoll: 'Coin protocol',
             earnedCredits: 'Totaal aantal credits',
             creditsToNextRank: 'Credits voor de volgende rang',
-            updateMessage: 'Waarden actualiseren<br>om de 5 minuten.',
+            updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.<br>Credits en coins zijn<br>continu up to date.',
             allianceFunds: 'Teamkas',
             noFurtherRank: 'Geen verdere rangen meer'
         }
@@ -144,7 +144,7 @@
             markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open">';
             markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
         }
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a><button style="width: 100%;" class="btn btn-success navbar-btn btn-sm" id="creditserweiterungUpdateButton">' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</button></a></li></ul></li>';
+        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
 
         $("#menu_alliance").prepend($('#navigation_top'));
         $('#menu_alliance').append($('#coins_top'));
@@ -154,11 +154,11 @@
 
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
-
-        $("#creditserweiterungUpdateButton").attr("onclick", "updateCredits()");
     }
     if (location.pathname.match(/\/missions\/\d+/)) return;
     if (location.pathname.match(/\/profile\/\d+/)) return;
+    if (location.pathname.match(/\/vehicles\/\d+/)) return;
+    if (location.pathname.match(/\/buildings\/\d+/)) return;
     updateCredits();
-    //creditsUpdate = setInterval(updateCredits, 300000);
+    setInterval(updateCredits, 300000);
 })($, window, I18n);
