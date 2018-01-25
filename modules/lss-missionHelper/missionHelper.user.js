@@ -517,7 +517,7 @@
 				303 : '2x Löschfahrzeuge (100%)<br>1x Einsatzleitwagen 1 (30%)<br>1x Drehleiter (20%)<br><br>' +
 				'<span class="badge">Credits: ~ 700 </span>',
 				304 : '<h4>ABSICHERUNG</h4>6x Funkstreifenwagen (100%)<br>6x GruKw (100%)<br>3x leBefKw (100%)' +
-				'<br>1x FüKw (100%)<br>1x Löschfahrzeug (100%)<br>3x WaWe 10 (100%)<br> 6x Rettungstransportwagen (100%)',
+				'<br>1x FüKw (100%)<br>1x Löschfahrzeug (100%)<br>3x WaWe 10 (100%)<br> 3x Rettungstransportwagen (100%)',
 				305 : '<h4>ABSICHERUNG</h4>5x Funkstreifenwagen (100%)<br>27x GruKw (100%)<br>3x FüKw (100%)<br>' +
 				'10x leBefKw (100%)<br>2x GefKw (100%)<br>2x Löschfahrzeuge (100%)<br>4x Rettungstransportwagen (100%)' +
 				'<br>3x WaWe 10 (100%)',
