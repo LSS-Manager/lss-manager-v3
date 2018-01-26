@@ -364,7 +364,8 @@
         341: 'Krampfanfall',
         342: 'Triebwerksbrand',
         343: 'Triebwerksbrand',
-        344: 'Mehrere brennende Fahrzeuge'
+        344: 'Mehrere brennende Fahrzeuge',
+        345: 'Höhenrettung am Fahrgeschäft'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -541,7 +542,8 @@
         155: 'Fire in Hospital',
         156: 'Turbulence Injury',
         157: 'Turbulence Injury',
-        158: 'Accident Involving a Bus'
+        158: 'Accident Involving a Bus',
+        159: 'Serious Accident Involving a Bus'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -838,7 +840,8 @@
         275: 'Brandend klein vliegtuig',
         276: 'Brandend klein vliegtuig',
         277: 'Pijn op de borst',
-        278: 'Beroerte'
+        278: 'Beroerte',
+        279: 'Bedreiging'
       }
     };
 
@@ -1206,7 +1209,8 @@
       341: 'RD 2',
       342: 'B 1',
       343: 'B 1',
-      344: 'B 2'
+      344: 'B 2',
+      345: 'THL P HÖHENRETTUNG'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1368,6 +1372,7 @@
       156: 'MED 2',
       157: 'MED 2',
       158: 'TECH 1'
+      159: 'TECH 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1648,7 +1653,8 @@
       275: 'VOS KLEIN',
       276: 'VOS KLEIN',
       277: 'A1',
-      278: 'A1'
+      278: 'A1',
+      279: 'P1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
