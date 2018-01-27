@@ -1371,7 +1371,7 @@
       155: 'FIRE 5',
       156: 'MED 2',
       157: 'MED 2',
-      158: 'TECH 1'
+      158: 'TECH 1',
       159: 'TECH 3'
     };
     var DEFAULT_AAO_NL = {
