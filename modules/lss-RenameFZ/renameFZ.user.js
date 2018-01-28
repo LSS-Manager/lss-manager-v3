@@ -1,6 +1,379 @@
 (function (I18n, $) {
-    if (!document.URL.match(/buildings/) || !$('#iframe-inside-container > h1[building_type="7"]'))
-        return;
+
+    var LSS_RENAMEFZ_STORAGE = "LSS_RENAMEFZ_STORAGE";
+
+    function setSettings() {
+
+        I18n.translations.de.lssm.renameFzDefaults = {
+            name: 'Fahrzeuge Umbenennen',
+            settingsName: 'Fahrzeuge Umbenennen - Einstellungen',
+            domain: 'leitstellenspiel.de',
+            show: "Ein-/Ausblenden",
+            types: {
+              0: 'LF 20',
+              1: 'LF 10',
+              2: 'DLK 23',
+              3: 'ELW 1',
+              4: 'RW',
+              5: 'GW-A',
+              6: 'LF 8/6',
+              7: 'LF 20/16',
+              8: 'LF 10/6',
+              9: 'LF 16-TS',
+              10: 'GW-Öl',
+              11: 'GW-L2-Wasser',
+              12: 'GW-Messtechnik',
+              13: 'SW 1000',
+              14: 'SW 2000',
+              15: 'SW 2000-Tr',
+              16: 'SW Kats',
+              17: 'TLF 2000',
+              18: 'TLF 3000',
+              19: 'TLF 8/8',
+              20: 'TLF 8/18',
+              21: 'TLF 16/24-Tr',
+              22: 'TLF 16/25',
+              23: 'TLF 16/45',
+              24: 'TLF 20/40',
+              25: 'TLF 20/40-SL',
+              26: 'TLF 16',
+              27: 'GW-Gefahrgut',
+              28: 'RTW',
+              29: 'NEF',
+              30: 'HLF 20',
+              31: 'RTH',
+              32: 'FuStW',
+              33: 'GW-Höhenrettung',
+              34: 'ELW 2',
+              35: 'leBefKw',
+              36: 'MTW',
+              37: 'TSF-W',
+              38: 'KTW',
+              39: 'GKW',
+              40: 'MTW-TZ',
+              41: 'MzKW',
+              42: 'LKW K 9',
+              43: 'BRmG R',
+              44: 'Anh DLE',
+              45: 'MLW 5',
+              46: 'WLF',
+              47: 'AB-Rüst',
+              48: 'AB-Atemschutz',
+              49: 'AB-Öl',
+              50: 'GruKw',
+              51: 'FüKw',
+              52: 'GefKw',
+              53: 'Dekon-P',
+              54: 'AB-Dekon-P',
+              55: 'KdoW-LNA',
+              56: 'KdoW-OrgL',
+              57: 'FwK',
+              58: 'KTW Typ B',
+              59: 'ELW 1 (SEG)',
+              60: 'GW-San',
+              61: 'Polizeihubschrauber',
+              62: 'AB-Schlauch',
+              63: 'GW-Taucher',
+              64: 'GW-Wasserrettung',
+              65: 'LKW 7 Lkr 19 tm',
+              66: 'Anh MzB',
+              67: 'Anh SchlB',
+              68: 'Anh MzAB',
+              69: 'Tauchkraftwagen',
+              70: 'MZB',
+              71: 'AB-MZB',
+              72: 'WaWe 10',
+              73: 'GRTW',
+              74: 'NAW',
+              75: 'FLF',
+              76: 'Rettungstreppe'
+            }
+        }
+        I18n.translations.en.lssm.renameFzDefaults = {
+            name: 'Rename vehicles',
+            settingsName: 'rename vehicles - settings',
+            domain: 'missionchief.com',
+            show: "show/hide",
+            types: {
+              0: 'Type 1 fire engine',
+              1: 'Type 2 fire engine',
+              2: 'Platform truck',
+              3: 'Bataillon chief unit',
+              4: 'Heavy rescue vehicle',
+              5: 'Ambulance',
+              6: 'Mobile air',
+              7: 'Water Tanker',
+              8: 'Utility unit',
+              9: 'HazMat',
+              10: 'Patrol car',
+              11: 'HEMS',
+              12: 'mcv',
+              13: 'Quint',
+              14: 'Police helicopter',
+              15: 'Fly-Car',
+              16: 'SWAT',
+              17: 'ARFF Crash Tender',
+              18: 'Rescue Engine',
+              19: 'K-9 Unit',
+              20: 'Mass Casualty Unit'
+            }
+        }
+        I18n.translations.en.lssm.renameFzDefaults = {
+            name: 'Voertuigen herbenoemen',
+            settingsName: 'Voertuigen herbenoemen - Instellingen',
+            domain: 'meldkamespel.com',
+            show: "verbergen",
+            types: {
+              0: 'SIV',
+              1: 'TS 8/9',
+              2: 'AL',
+              3: 'DA-OVD-B',
+              4: 'HV-G',
+              5: 'AB',
+              6: 'TST 8/9',
+              7: 'TST 6/7',
+              8: 'TST 4',
+              9: 'TS 4',
+              10: 'SL',
+              11: 'WvD',
+              12: 'TST-NBB 8/9',
+              13: 'TST-NBB 6/7',
+              14: 'TST-NBB 4',
+              15: 'Ambulance',
+              16: 'TS 6/7',
+              17: 'HW',
+              18: 'DA-HOvD-B',
+              19: 'DA',
+              20: 'DB',
+              21: 'DA Noodhulp',
+              22: 'Lifeliner',
+              23: 'AGS',
+              24: 'DB Noodhulp',
+              25: 'HA',
+              26: 'ABH',
+              27: 'Politiehelikopter',
+              28: 'WTH',
+              29: 'Zorgambulance',
+              30: 'CO',
+              31: 'COH',
+              32: 'WO',
+              33: 'TW',
+              34: 'OVD-P',
+              35: 'WOA',
+              36: 'MMT-Auto',
+              37: 'OvD-G',
+              38: 'ME Commandovoertuig',
+              39: 'ME Flexbus',
+              40: 'CT (8x8)',
+              41: 'CT (6x6)',
+              42: 'CT (4x4)',
+              43: 'AFO/OSC'
+            }
+        }
+
+        var managedSettings = {
+          "id": LSS_RENAMEFZ_STORAGE,
+          "title": I18n.t('lssm.renameFzDefaults.name'),
+          "settings": {
+            "renameFzShowHideButton": {
+              "default": "",
+              "ui": {
+                "label": I18n.t('lssm.renameFzDefaults.show'),
+                "type": "button",
+                "custom_function_event": "click",
+                "custom_function": function() {
+                  $('[id^=' + LSS_RENAMEFZ_STORAGE + '_renameFz-]').toggle();
+                }
+              }
+            }
+          }
+        };
+
+        var DEFAULT_SHORTINGS_DE = {
+          0: '49',
+          1: '49',
+          2: '30',
+          3: '11',
+          4: '52',
+          5: '56',
+          6: '42',
+          7: '49',
+          8: '42',
+          9: '45',
+          10: '55',
+          11: '66',
+          12: '94',
+          13: '61',
+          14: '62',
+          15: '63',
+          16: '66',
+          17: '22',
+          18: '25',
+          19: '21',
+          20: '21',
+          21: '21',
+          22: '23',
+          23: '26',
+          24: '26',
+          25: '26',
+          26: '23',
+          27: '54',
+          28: '83',
+          29: '82',
+          30: '44',
+          31: '84',
+          32: 'FuStW',
+          33: '59',
+          34: '12',
+          35: 'leBefKw',
+          36: '19',
+          37: '48',
+          38: '85',
+          39: 'GKW',
+          40: 'MTW-TZ',
+          41: 'MzKW',
+          42: 'LKW K 9',
+          43: 'BRmG R',
+          44: 'Anh DLE',
+          45: 'MLW 5',
+          46: '65',
+          47: '65-52',
+          48: '65-56',
+          49: '65-55',
+          50: 'GruKw',
+          51: 'FüKw',
+          52: 'GefKw',
+          53: '59',
+          54: '65-59',
+          55: '04',
+          56: '03',
+          57: '71',
+          58: '85-B',
+          59: '11',
+          60: '47',
+          61: 'Polizeihubschrauber',
+          62: '65-61',
+          63: 'GW-Taucher',
+          64: 'GW-Wasserrettung',
+          65: 'LKW 7 Lkr 19 tm',
+          66: 'Anh MzB',
+          67: 'Anh SchlB',
+          68: 'Anh MzAB',
+          69: 'Tauchkraftwagen',
+          70: 'MZB',
+          71: 'AB-MZB',
+          72: 'WaWe 10',
+          73: 'GRTW',
+          74: '81',
+          75: 'FLF',
+          76: 'Rettungstreppe'
+        }
+        var DEFAULT_SHORTINGS_EN = {
+          0: 'Type 1 fire engine',
+          1: 'Type 2 fire engine',
+          2: 'Platform truck',
+          3: 'Bataillon chief unit',
+          4: 'Heavy rescue vehicle',
+          5: 'Ambulance',
+          6: 'Mobile air',
+          7: 'Water Tanker',
+          8: 'Utility unit',
+          9: 'HazMat',
+          10: 'Patrol car',
+          11: 'HEMS',
+          12: 'mcv',
+          13: 'Quint',
+          14: 'Police helicopter',
+          15: 'Fly-Car',
+          16: 'SWAT',
+          17: 'ARFF Crash Tender',
+          18: 'Rescue Engine',
+          19: 'K-9 Unit',
+          20: 'Mass Casualty Unit'
+        }
+        var DEFAULT_SHORTINGS_NL = {
+          0: 'SIV',
+          1: 'TS 8/9',
+          2: 'AL',
+          3: 'DA-OVD-B',
+          4: 'HV-G',
+          5: 'AB',
+          6: 'TST 8/9',
+          7: 'TST 6/7',
+          8: 'TST 4',
+          9: 'TS 4',
+          10: 'SL',
+          11: 'WvD',
+          12: 'TST-NBB 8/9',
+          13: 'TST-NBB 6/7',
+          14: 'TST-NBB 4',
+          15: 'Ambulance',
+          16: 'TS 6/7',
+          17: 'HW',
+          18: 'DA-HOvD-B',
+          19: 'DA',
+          20: 'DB',
+          21: 'DA Noodhulp',
+          22: 'Lifeliner',
+          23: 'AGS',
+          24: 'DB Noodhulp',
+          25: 'HA',
+          26: 'ABH',
+          27: 'Politiehelikopter',
+          28: 'WTH',
+          29: 'Zorgambulance',
+          30: 'CO',
+          31: 'COH',
+          32: 'WO',
+          33: 'TW',
+          34: 'OVD-P',
+          35: 'WOA',
+          36: 'MMT-Auto',
+          37: 'OvD-G',
+          38: 'ME Commandovoertuig',
+          39: 'ME Flexbus',
+          40: 'CT (8x8)',
+          41: 'CT (6x6)',
+          42: 'CT (4x4)',
+          43: 'AFO/OSC'
+        }
+
+        I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
+        I18n.translations.en.lssm.renameFz = DEFAULT_SHORTINGS_EN;
+        I18n.translations.en.lssm.renameFz = DEFAULT_SHORTINGS_NL;
+
+
+        if (I18n.locale === 'de')
+          defaultShortings = DEFAULT_SHORTINGS_DE;
+        else if (I18n.locale === 'en')
+          defaultShortings = DEFAULT_SHORTINGS_EN;
+        else if (I18n.locale === 'nl')
+          defaultShortings = DEFAULT_SHORTINGS_NL;
+        else
+          defaultShortings = DEFAULT_SHORTINGS_DE;
+
+        $.each(defaultShortings, function(key, val) {
+          var tmpObject = {
+            ['renameFz-' + key]: {
+              "default": val,
+              "ui": {
+                "label": I18n.t('lssm.renameFzDefaults.types.' + key) + ":&nbsp;",
+                "type": "text",
+                "description": ""
+              }
+            }
+          };
+
+          $.extend(managedSettings.settings, tmpObject);
+
+        });
+
+        lssm.managedSettings.register(managedSettings);
+
+    };
+
+    setSettings();
+
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     I18n.translations.de['lssm']['renameFZ'] = {
         example: "Dies ist ein Beipsiel",
@@ -9,7 +382,19 @@
         old: "{old} Alten Namen ein",
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
         stationName: "{stationName} Wachennamen",
-        saveAll: 'Alle speichern'
+        tagging: '{tagging} Kennzeichnung des Fahrzeugtyps',
+        saveAll: 'Alle speichern',
+        exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE'
+    };
+    I18n.translations.en['lssm']['renameFZ'] = {
+        example: "This is an example",
+        rename: "rename",
+        id: "{id} Id of Vehicle",
+        old: "{old} Current name",
+        vehicleType: "{vehicleType} Type of Vehicle",
+        stationName: "{stationName} Name of building",
+        saveAll: 'save All',
+        exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING'
     };
 	I18n.translations.nl['lssm']['renameFZ'] = {
         example: "Dit is een voorbeeld",
@@ -19,7 +404,8 @@
 		old: "{old} Oude naam",
 		vehicleType: "{vehicleType} Voertuigtype",
 		stationName: "{stationName} Gebouwnaam",
-    saveAll: ' Alles opslaan'
+    saveAll: ' Alles opslaan',
+    exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM'
     };
     var set = {
         rename: false,
@@ -27,12 +413,14 @@
             id: '',
             old: '',
             vehicleType: '',
-            stationName: ''
+            stationName: '',
+            tagging: '',
         },
         str: {
             bsp: "{id} Test {old} {vehicleType} {stationName}",
             default: "{old}",
-            str: ''}
+            str: ''
+        }
     }, token, prefix = "renameFzSettings";
 
     $('#tab_vehicle').on('submit', '.vehicle_form', function (e) {
@@ -62,6 +450,9 @@
 
 
     });
+    function getSetting(setting) {
+      return lssm.managedSettings.getSetting(LSS_RENAMEFZ_STORAGE, setting);
+    }
     function rename() {
         if (!set.rename) {
             set.rename = true;
@@ -79,6 +470,7 @@
     }
     function replaceString(type) {
         var str = set.str.str !== '' ? set.str.str : set.str.default;
+        str = str.replace('{tagging}', getSetting("renameFz-" + type));
         for (var i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }
@@ -103,7 +495,7 @@
         if ($('#' + prefix).length)
             return;
         var mainDiv = $('<div id="' + prefix + '"></div>');
-        var html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ergibt FZId Test ALTERNAME FAHRZEUGTYPE WACHE</div><div id="' + prefix + '_buttons">';
+        var html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ' + I18n.t('lssm.renameFZ.exampleResult') + '</div><div id="' + prefix + '_buttons">';
         for (var i in set.option)
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
