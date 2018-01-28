@@ -8,15 +8,18 @@
         id: "{id} FahrzeugId ",
         old: "{old} Alten Namen ein",
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
-        stationName: "{stationName} Wachennamen"
+        stationName: "{stationName} Wachennamen",
+        saveAll: 'Alle speichern'
     };
 	I18n.translations.nl['lssm']['renameFZ'] = {
         example: "Dit is een voorbeeld",
 		rename: "Naam aanpassen",
+
 		id: "{id} Voertuignaam ",
 		old: "{old} Oude naam",
 		vehicleType: "{vehicleType} Voertuigtype",
-		stationName: "{stationName} Gebouwnaam"
+		stationName: "{stationName} Gebouwnaam",
+    saveAll: ' Alles opslaan'
     };
     var set = {
         rename: false,
@@ -104,6 +107,7 @@
         for (var i in set.option)
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
+        html += '<input type="button" class="btn btn-success" id="' + prefix + '_saveAll" value="' + I18n.t('lssm.renameFZ.saveAll') + '" />';
         mainDiv.append(html);
         $('#vehicle_table').parent().prepend(mainDiv);
         $('#' + prefix + '_buttons').click(function (e) {
@@ -121,5 +125,10 @@
         }
         $('#' + prefix + '_string').change(changeInput);
         $('#' + prefix + '_rename').click(rename);
+        $('#' + prefix + '_saveAll').click(function () {
+          for(i=0;i<$("input.btn.btn-success").length;i++){
+            $("input.btn.btn-success")[i].click();
+          }
+        });
     }
 })(I18n, jQuery);
