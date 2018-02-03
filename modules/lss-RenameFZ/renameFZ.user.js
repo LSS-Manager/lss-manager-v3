@@ -383,6 +383,8 @@
         vehicleType: "{vehicleType} Typen des Fahrzeugs",
         stationName: "{stationName} Wachennamen",
         tagging: '{tagging} Kennzeichnung des Fahrzeugtyps',
+        number: '{number} Typ-Zähler',
+        dispatch: '{dispatch} Leitstellenname',
         saveAll: 'Alle speichern',
         exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE'
     };
@@ -393,6 +395,8 @@
         old: "{old} Current name",
         vehicleType: "{vehicleType} Type of Vehicle",
         stationName: "{stationName} Name of building",
+        number: '{number} Type-counter',
+        dispatch: '{dispatch} Name of Dispatchcenter',
         saveAll: 'save All',
         exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING'
     };
@@ -404,6 +408,8 @@
 		old: "{old} Oude naam",
 		vehicleType: "{vehicleType} Voertuigtype",
 		stationName: "{stationName} Gebouwnaam",
+    number: '{number} typeteller',
+    dispatch: '{dispatch} meldkamernaam',
     saveAll: ' Alles opslaan',
     exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM'
     };
@@ -415,6 +421,8 @@
             vehicleType: '',
             stationName: '',
             tagging: '',
+            number: '',
+            dispatch: '',
         },
         str: {
             bsp: "{id} Test {old} {vehicleType} {stationName}",
@@ -422,7 +430,6 @@
             str: ''
         }
     }, token, prefix = "renameFzSettings";
-
     $('#tab_vehicle').on('submit', '.vehicle_form', function (e) {
 
         var post_data = $(this).serialize();
@@ -453,6 +460,43 @@
     function getSetting(setting) {
       return lssm.managedSettings.getSetting(LSS_RENAMEFZ_STORAGE, setting);
     }
+    function getVehiclesSorted() {
+        vehicleIDs = [];
+        buildingIDs = [];
+        var vehicles = new Array();
+        for(i=1;i<$("tr").length;i++) {
+          vehicleIDs[i-1] = $("tr")[i].children[1].children[0].children[0].href.replace("https://www.leitstellenspiel.de/vehicles/", "");
+          buildingIDs[i-1] = $("tr")[i].children[3].children[0].href.replace("https://www.leitstellenspiel.de/buildings/", "");
+          vehicleType = $("tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
+          if (!vehicles["Building " + buildingIDs[i-1]]) {
+              vehicles["Building " + buildingIDs[i-1]] = new Array();
+          }
+          if (!vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType]) {
+              vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType] = new Array();
+          }
+          vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].push(vehicleIDs[i-1]);
+        }
+        return vehicles
+    }
+    function getVehicleNumberAtStation(vehicleID) {
+        var number = 0;
+        if (typeof vehicles === 'undefined') {
+            vehicles = getVehiclesSorted();
+        }
+        for(i=1;i<$("tr").length;i++) {
+            if (parseInt($("tr")[i].children[1].children[0].children[0].href.replace("https://www.leitstellenspiel.de/vehicles/", "")) == parseInt(vehicleID)) {
+                buildingID = parseInt($("tr")[i].children[3].children[0].href.replace("https://www.leitstellenspiel.de/buildings/", ""));
+                vehicleType = $("tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
+            }
+        }
+        var sameTypeOnStation = vehicles["Building " + buildingID]["Type " + vehicleType];
+        sameTypeOnStation.forEach(function (item, index) {
+            if (parseInt(item) == parseInt(vehicleID)) {
+                return number = parseInt(index) + 1;
+            }
+        });
+        return number;
+    }
     function rename() {
         if (!set.rename) {
             set.rename = true;
@@ -468,9 +512,10 @@
         var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
         $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
     }
-    function replaceString(type) {
+    function replaceString(type, id) {
         var str = set.str.str !== '' ? set.str.str : set.str.default;
         str = str.replace('{tagging}', getSetting("renameFz-" + type));
+        str = str.replace('{number}', getVehicleNumberAtStation(id));
         for (var i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }
@@ -483,13 +528,30 @@
         set.option.old = $('#vehicle_link_' + id).text().trim();
         set.option.stationName = tr.find('td').eq(3).text().trim();
         var vehicleType = tr.find('.vehicle_image_reload:first').attr('vehicle_type_id');
-        set.option.vehicleType = lssm.carsById[vehicleType][0];
+        if (lssm.carsById[vehicleType]) {
+            set.option.vehicleType = lssm.carsById[vehicleType][0];
+        } else {
+            // Übergangslösung, solange er FLF und RTF nicht findet
+            if (vehicleType == "75") {
+                set.option.vehicleType = "FLF";
+            } else if (vehicleType == "76") {
+                set.option.vehicleType = "Rettungstreppe";
+            } else {
+                console.log("Error at vehicleType " + vehicleType);
+            }
+        }
+        set.option.dispatch = $("h1")[0].innerHTML;
         return {'id': id, 'vehicleType': vehicleType};
     }
     function showForms() {
         $(this).hide(); //
         var data = setOptionsForVehicle($(this));
-        creatForm(data.id, replaceString(data.vehicleType));
+        if (replaceString(data.vehicleType, data.id).length > 40) {
+            alert("Für das Fahrzeug mit dem (neuen) Namen '" + replaceString(data.vehicleType, data.id) + "' ist der Name zu lang. Es kann nur der Name '" + replaceString(data.vehicleType, data.id).substr(0, 40) + "' übernommen werden");
+            creatForm(data.id, replaceString(data.vehicleType, data.id).substr(0, 40));
+        } else {
+            creatForm(data.id, replaceString(data.vehicleType, data.id));
+        }
     }
     function createSettings() {
         if ($('#' + prefix).length)
@@ -523,4 +585,5 @@
           }
         });
     }
+
 })(I18n, jQuery);
