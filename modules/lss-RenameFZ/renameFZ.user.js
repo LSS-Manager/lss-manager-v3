@@ -397,6 +397,7 @@
         vehicleType: "{vehicleType} Type of Vehicle",
         stationName: "{stationName} Name of building",
         number: '{number} Type-counter',
+        numberRoman: '{numberRoman} Type-counter (Roman numerals)',
         dispatch: '{dispatch} Name of Dispatchcenter',
         saveAll: 'save All',
         exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING'
@@ -410,6 +411,7 @@
 		vehicleType: "{vehicleType} Voertuigtype",
 		stationName: "{stationName} Gebouwnaam",
     number: '{number} typeteller',
+    numberRoman: '{numberRoman} typeteller (Romeinse cijfers)',
     dispatch: '{dispatch} meldkamernaam',
     saveAll: ' Alles opslaan',
     exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM'
