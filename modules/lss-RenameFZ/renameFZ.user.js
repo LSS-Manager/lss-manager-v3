@@ -384,6 +384,7 @@
         stationName: "{stationName} Wachennamen",
         tagging: '{tagging} Kennzeichnung des Fahrzeugtyps',
         number: '{number} Typ-Zähler',
+        numberRoman: '{numberRoman} Typ-Zähler (römische Zahlen)',
         dispatch: '{dispatch} Leitstellenname',
         saveAll: 'Alle speichern',
         exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE'
@@ -422,6 +423,7 @@
             stationName: '',
             tagging: '',
             number: '',
+            numberRoman: '',
             dispatch: '',
         },
         str: {
@@ -459,6 +461,23 @@
     });
     function getSetting(setting) {
       return lssm.managedSettings.getSetting(LSS_RENAMEFZ_STORAGE, setting);
+    }
+    function arabicToRoman(arabicNumber) {
+        var roman = new Array( "M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
+        var arabic = new Array(1000, 900, 500,  400, 100,   90,  50,  40,   10,    9,   5,    4,   1);
+        var arabicNumber = parseInt(arabicNumber);
+        var romanNumber = "";
+
+        if (isNaN(arabicNumber) || (arabicNumber <= 0)) { return "Fehler"; }
+
+        for (var Nr = 0; Nr < arabic.length; Nr++)
+            while (arabicNumber >= arabic[Nr])
+            {
+                romanNumber += roman[Nr];
+                arabicNumber -= arabic[Nr];
+            }
+
+         return romanNumber;
     }
     function getVehiclesSorted() {
         vehicleIDs = [];
@@ -515,7 +534,6 @@
     function replaceString(type, id) {
         var str = set.str.str !== '' ? set.str.str : set.str.default;
         str = str.replace('{tagging}', getSetting("renameFz-" + type));
-        str = str.replace('{number}', getVehicleNumberAtStation(id));
         for (var i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }
@@ -530,17 +548,10 @@
         var vehicleType = tr.find('.vehicle_image_reload:first').attr('vehicle_type_id');
         if (lssm.carsById[vehicleType]) {
             set.option.vehicleType = lssm.carsById[vehicleType][0];
-        } else {
-            // Übergangslösung, solange er FLF und RTF nicht findet
-            if (vehicleType == "75") {
-                set.option.vehicleType = "FLF";
-            } else if (vehicleType == "76") {
-                set.option.vehicleType = "Rettungstreppe";
-            } else {
-                console.log("Error at vehicleType " + vehicleType);
-            }
         }
         set.option.dispatch = $("h1")[0].innerHTML;
+        set.option.number = getVehicleNumberAtStation(set.option.id);
+        set.option.numberRoman = arabicToRoman(getVehicleNumberAtStation(set.option.id));
         return {'id': id, 'vehicleType': vehicleType};
     }
     function showForms() {
