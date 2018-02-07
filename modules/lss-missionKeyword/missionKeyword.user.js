@@ -365,7 +365,8 @@
         342: 'Triebwerksbrand',
         343: 'Triebwerksbrand',
         344: 'Mehrere brennende Fahrzeuge',
-        345: 'Höhenrettung am Fahrgeschäft'
+        345: 'Höhenrettung am Fahrgeschäft',
+        346: 'Gebäudesprengung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -543,7 +544,8 @@
         156: 'Turbulence Injury',
         157: 'Turbulence Injury',
         158: 'Accident Involving a Bus',
-        159: 'Serious Accident Involving a Bus'
+        159: 'Serious Accident Involving a Bus',
+        160: 'Lost Child'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -841,7 +843,10 @@
         276: 'Brandend klein vliegtuig',
         277: 'Pijn op de borst',
         278: 'Beroerte',
-        279: 'Bedreiging'
+        279: 'Bedreiging',
+        280: 'Brand in garagebedrijf',
+        281: 'Brand in garagebedrijf',
+        282: 'Brand in garagebedrijf'
       }
     };
 
@@ -1210,7 +1215,8 @@
       342: 'B 1',
       343: 'B 1',
       344: 'B 2',
-      345: 'THL P HÖHENRETTUNG'
+      345: 'THL P HÖHENRETTUNG',
+      346: 'ABSICHERUNG'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1372,7 +1378,8 @@
       156: 'MED 2',
       157: 'MED 2',
       158: 'TECH 1',
-      159: 'TECH 3'
+      159: 'TECH 3',
+      160: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1427,7 +1434,7 @@
       49: 'A 1',
       50: 'A 1',
       51: 'A 1',
-      52: 'ZEER GROTE BRAND',
+      52: 'MIDDEL BRAND',
       53: 'ZEER GROTE BRAND',
       54: 'KLEINE BRAND',
       55: 'MIDDEL BRAND',
@@ -1654,7 +1661,10 @@
       276: 'VOS KLEIN',
       277: 'A1',
       278: 'A1',
-      279: 'P1'
+      279: 'P1',
+      280: 'KLEINE BRAND',
+      281: 'GROTE BRAND',
+      282: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
