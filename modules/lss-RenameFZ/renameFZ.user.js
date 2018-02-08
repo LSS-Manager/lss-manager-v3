@@ -86,7 +86,8 @@
               73: 'GRTW',
               74: 'NAW',
               75: 'FLF',
-              76: 'Rettungstreppe'
+              76: 'Rettungstreppe',
+              77: 'AB-Gefahrgut'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -266,7 +267,8 @@
           73: 'GRTW',
           74: '81',
           75: 'FLF',
-          76: 'Rettungstreppe'
+          76: 'Rettungstreppe',
+          77: '65-54'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
