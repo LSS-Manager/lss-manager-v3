@@ -366,7 +366,8 @@
         343: 'Triebwerksbrand',
         344: 'Mehrere brennende Fahrzeuge',
         345: 'Höhenrettung am Fahrgeschäft',
-        346: 'Gebäudesprengung'
+        346: 'Gebäudesprengung',
+        347: 'Helikopter in Baum'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -846,7 +847,8 @@
         279: 'Bedreiging',
         280: 'Brand in garagebedrijf',
         281: 'Brand in garagebedrijf',
-        282: 'Brand in garagebedrijf'
+        282: 'Brand in garagebedrijf',
+        283: 'Val van paard'
       }
     };
 
@@ -1216,7 +1218,8 @@
       343: 'B 1',
       344: 'B 2',
       345: 'THL P HÖHENRETTUNG',
-      346: 'ABSICHERUNG'
+      346: 'ABSICHERUNG',
+      347: 'THL 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1664,7 +1667,8 @@
       279: 'P1',
       280: 'KLEINE BRAND',
       281: 'GROTE BRAND',
-      282: 'ZEER GROTE BRAND'
+      282: 'ZEER GROTE BRAND',
+      283: 'A1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
