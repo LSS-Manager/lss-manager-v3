@@ -8,7 +8,8 @@
             name: 'Fahrzeuge Umbenennen',
             settingsName: 'Fahrzeuge Umbenennen - Einstellungen',
             domain: 'leitstellenspiel.de',
-            show: "Ein-/Ausblenden",
+            show: 'Ein-/Ausblenden',
+            description: 'Da die folgenden Textfelder vielleicht verwirrend erscheinen: Man kann hier für jeden Fahrzeugtyp eine alternative Bezeichnung eingeben und diese dann einfügen lassen, in der Leitstelle.',
             types: {
               0: 'LF 20',
               1: 'LF 10',
@@ -94,7 +95,8 @@
             name: 'Rename vehicles',
             settingsName: 'rename vehicles - settings',
             domain: 'missionchief.com',
-            show: "show/hide",
+            show: 'Show/Hide',
+            description: 'Here you can set alternative names for each vehicle Type. You can use them when renaming you vehicles via dispatch center.',
             types: {
               0: 'Type 1 fire engine',
               1: 'Type 2 fire engine',
@@ -119,11 +121,12 @@
               20: 'Mass Casualty Unit'
             }
         }
-        I18n.translations.en.lssm.renameFzDefaults = {
+        I18n.translations.nl.lssm.renameFzDefaults = {
             name: 'Voertuigen herbenoemen',
             settingsName: 'Voertuigen herbenoemen - Instellingen',
             domain: 'meldkamespel.com',
-            show: "verbergen",
+            show: 'Verberg/Toon',
+            description: 'Hier kunt u alternatieve namen instellen voor elk voertuigtype. U kunt ze gebruiken bij het hernoemen van uw voertuigen via dispatch center.',
             types: {
               0: 'SIV',
               1: 'TS 8/9',
@@ -175,6 +178,7 @@
         var managedSettings = {
           "id": LSS_RENAMEFZ_STORAGE,
           "title": I18n.t('lssm.renameFzDefaults.name'),
+          "info_text": I18n.t('lssm.renameFzDefaults.description'),
           "settings": {
             "renameFzShowHideButton": {
               "default": "",
@@ -191,45 +195,45 @@
         };
 
         var DEFAULT_SHORTINGS_DE = {
-          0: '49',
-          1: '49',
-          2: '30',
-          3: '11',
-          4: '52',
-          5: '56',
-          6: '42',
-          7: '49',
-          8: '42',
-          9: '45',
-          10: '55',
-          11: '66',
-          12: '94',
-          13: '61',
-          14: '62',
-          15: '63',
-          16: '66',
-          17: '22',
-          18: '25',
-          19: '21',
-          20: '21',
-          21: '21',
-          22: '23',
-          23: '26',
-          24: '26',
-          25: '26',
-          26: '23',
-          27: '54',
-          28: '83',
-          29: '82',
-          30: '44',
-          31: '84',
+          0: 'LF 20',
+          1: 'LF 10',
+          2: 'DLK 23',
+          3: 'ELW 1',
+          4: 'RW',
+          5: 'GW-A',
+          6: 'LF 8/6',
+          7: 'LF 20/16',
+          8: 'LF 10/6',
+          9: 'LF 16-TS',
+          10: 'GW-Öl',
+          11: 'GW-L2-Wasser',
+          12: 'GW-Messtechnik',
+          13: 'SW 1000',
+          14: 'SW 2000',
+          15: 'SW 2000-Tr',
+          16: 'SW Kats',
+          17: 'TLF 2000',
+          18: 'TLF 3000',
+          19: 'TLF 8/8',
+          20: 'TLF 8/18',
+          21: 'TLF 16/24-Tr',
+          22: 'TLF 16/25',
+          23: 'TLF 16/45',
+          24: 'TLF 20/40',
+          25: 'TLF 20/40-SL',
+          26: 'TLF 16',
+          27: 'GW-Gefahrgut',
+          28: 'RTW',
+          29: 'NEF',
+          30: 'HLF 20',
+          31: 'RTH',
           32: 'FuStW',
-          33: '59',
-          34: '12',
+          33: 'GW-Höhenrettung',
+          34: 'ELW 2',
           35: 'leBefKw',
-          36: '19',
-          37: '48',
-          38: '85',
+          36: 'MTW',
+          37: 'TSF-W',
+          38: 'KTW',
           39: 'GKW',
           40: 'MTW-TZ',
           41: 'MzKW',
@@ -237,23 +241,23 @@
           43: 'BRmG R',
           44: 'Anh DLE',
           45: 'MLW 5',
-          46: '65',
-          47: '65-52',
-          48: '65-56',
-          49: '65-55',
+          46: 'WLF',
+          47: 'AB-Rüst',
+          48: 'AB-Atemschutz',
+          49: 'AB-Öl',
           50: 'GruKw',
           51: 'FüKw',
           52: 'GefKw',
-          53: '59',
-          54: '65-59',
-          55: '04',
-          56: '03',
-          57: '71',
-          58: '85-B',
-          59: '11',
-          60: '47',
+          53: 'Dekon-P',
+          54: 'AB-Dekon-P',
+          55: 'KdoW-LNA',
+          56: 'KdoW-OrgL',
+          57: 'FwK',
+          58: 'KTW Typ B',
+          59: 'ELW 1 (SEG)',
+          60: 'GW-San',
           61: 'Polizeihubschrauber',
-          62: '65-61',
+          62: 'AB-Schlauch',
           63: 'GW-Taucher',
           64: 'GW-Wasserrettung',
           65: 'LKW 7 Lkr 19 tm',
@@ -265,10 +269,10 @@
           71: 'AB-MZB',
           72: 'WaWe 10',
           73: 'GRTW',
-          74: '81',
+          74: 'NAW',
           75: 'FLF',
           76: 'Rettungstreppe',
-          77: '65-54'
+          77: 'AB-Gefahrgut'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
@@ -342,7 +346,7 @@
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
         I18n.translations.en.lssm.renameFz = DEFAULT_SHORTINGS_EN;
-        I18n.translations.en.lssm.renameFz = DEFAULT_SHORTINGS_NL;
+        I18n.translations.nl.lssm.renameFz = DEFAULT_SHORTINGS_NL;
 
 
         if (I18n.locale === 'de')
@@ -389,7 +393,16 @@
         numberRoman: '{numberRoman} Typ-Zähler (römische Zahlen)',
         dispatch: '{dispatch} Leitstellenname',
         saveAll: 'Alle speichern',
-        exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE'
+        exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE',
+        statusWaiting: 'Warte auf Eingabe',
+        statusError: '<b>Fehler bei der Generierung!</b> Sollte dieser Fehler ein weiteres mal auftreten, bitte melde ihn. Bitte teile dann folgendes mit:',
+        statusWorking: 'Generiere Namen und Formulare. Dies kann, abhängig von System und Anzahl der Fahrzeuge, eine gewisse Zeit in Anspruch nehmen.',
+        statusSuccess: 'Namen und Forumlare erfolgreich generiert!',
+        nameAlreadyCorrect: 'Name entspricht bereits der Vorlage!',
+        saveAllWarning: 'Achtung! Bei vielen Fahrzeugen kann es hier zu einem Absturz der Seite kommen. Moderne Browser bringen hier eine Meldung. Nach dem Neuladen der Seite sind jedoch alle Fahrzeuge umbenannt!',
+        nameToLong: 'Für folgende Fahrzeuge ist der Name zu lang:',
+        nameToLongOriginalName: 'Ursprünglicher Name',
+        nameToLongShortenedName: 'Neuer/gekürzter Name'
     };
     I18n.translations.en['lssm']['renameFZ'] = {
         example: "This is an example",
@@ -418,6 +431,7 @@
     saveAll: ' Alles opslaan',
     exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM'
     };
+
     var set = {
         rename: false,
         option: {
@@ -436,6 +450,18 @@
             str: ''
         }
     }, token, prefix = "renameFzSettings";
+    executionFailed = false;
+    if (I18n.locale === 'de') {
+        replaceGameVehicles = 'https://www.leitstellenspiel.de/vehicles/';
+        replaceGameBuildings = 'https://www.leitstellenspiel.de/buildings/';
+    } else if (I18n.locale === 'en') {
+        replaceGameVehicles = 'https://www.missionchief.com/vehicles/';
+        replaceGameBuildings = 'https://www.missionchief.com/buildings/';
+    } else if (I18n.locale === 'nl') {
+        replaceGameVehicles = 'https://www.meldkamerspel.com/vehicles/';
+        replaceGameBuildings = 'https://www.meldkamerspel.com/buildings/';
+    }
+
     $('#tab_vehicle').on('submit', '.vehicle_form', function (e) {
 
         var post_data = $(this).serialize();
@@ -467,80 +493,112 @@
       return lssm.managedSettings.getSetting(LSS_RENAMEFZ_STORAGE, setting);
     }
     function arabicToRoman(arabicNumber) {
-        var roman = new Array( "M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
-        var arabic = new Array(1000, 900, 500,  400, 100,   90,  50,  40,   10,    9,   5,    4,   1);
-        var arabicNumber = parseInt(arabicNumber);
-        var romanNumber = "";
+        try {
+            var roman = new Array( "M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
+            var arabic = new Array(1000, 900, 500,  400, 100,   90,  50,  40,   10,    9,   5,    4,   1);
+            var arabicNumber = parseInt(arabicNumber);
+            var romanNumber = "";
 
-        if (isNaN(arabicNumber) || (arabicNumber <= 0)) { return "Fehler"; }
+            if (isNaN(arabicNumber) || (arabicNumber <= 0)) { return "0"; }
 
-        for (var Nr = 0; Nr < arabic.length; Nr++)
-            while (arabicNumber >= arabic[Nr])
-            {
-                romanNumber += roman[Nr];
-                arabicNumber -= arabic[Nr];
-            }
+            for (var Nr = 0; Nr < arabic.length; Nr++)
+                while (arabicNumber >= arabic[Nr])
+                {
+                    romanNumber += roman[Nr];
+                    arabicNumber -= arabic[Nr];
+                }
 
-         return romanNumber;
+             return romanNumber;
+         } catch(err) {
+             $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
+             executionFailed = true;
+         }
     }
     function getVehiclesSorted() {
-        vehicleIDs = [];
-        buildingIDs = [];
-        var vehicles = new Array();
-        for(i=1;i<$("tr").length;i++) {
-          vehicleIDs[i-1] = $("tr")[i].children[1].children[0].children[0].href.replace("https://www.leitstellenspiel.de/vehicles/", "");
-          buildingIDs[i-1] = $("tr")[i].children[3].children[0].href.replace("https://www.leitstellenspiel.de/buildings/", "");
-          vehicleType = $("tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
-          if (!vehicles["Building " + buildingIDs[i-1]]) {
-              vehicles["Building " + buildingIDs[i-1]] = new Array();
-          }
-          if (!vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType]) {
-              vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType] = new Array();
-          }
-          vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].push(vehicleIDs[i-1]);
-          vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].sort(function(a, b){return a-b});
+        try {
+            vehicleIDs = [];
+            buildingIDs = [];
+            var vehicles = new Array();
+            for(i=0;i<$("#vehicle_table tbody tr").length;i++) {
+                vehicleIDs[i-1] = $("#vehicle_table tbody tr")[i].children[1].children[0].children[0].href.replace(replaceGameVehicles, "");
+                buildingIDs[i-1] = $("#vehicle_table tbody tr")[i].children[3].children[0].href.replace(replaceGameBuildings, "");
+                vehicleType = $("#vehicle_table tbody tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
+                if (!vehicles["Building " + buildingIDs[i-1]]) {
+                    vehicles["Building " + buildingIDs[i-1]] = new Array();
+                }
+                if (!vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType]) {
+                    vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType] = new Array();
+                }
+                vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].push(vehicleIDs[i-1]);
+                vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].sort(function(a, b){return a-b});
+            }
+            return vehicles
+            console.log(vehicles);
+        } catch(err) {
+            $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
+            executionFailed = true;
         }
-        return vehicles
     }
     function getVehicleNumberAtStation(vehicleID) {
-        var number = 0;
-        if (typeof vehicles === 'undefined') {
-            vehicles = getVehiclesSorted();
-        }
-        for(i=1;i<$("tr").length;i++) {
-            if (parseInt($("tr")[i].children[1].children[0].children[0].href.replace("https://www.leitstellenspiel.de/vehicles/", "")) == parseInt(vehicleID)) {
-                buildingID = parseInt($("tr")[i].children[3].children[0].href.replace("https://www.leitstellenspiel.de/buildings/", ""));
-                vehicleType = $("tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
+        try {
+            var number = 0;
+            if (typeof vehicles === 'undefined') {
+                vehicles = getVehiclesSorted();
             }
-        }
-        var sameTypeOnStation = vehicles["Building " + buildingID]["Type " + vehicleType];
-        sameTypeOnStation.forEach(function (item, index) {
-            if (parseInt(item) == parseInt(vehicleID)) {
-                return number = parseInt(index) + 1;
+            for(i=0;i<$("#vehicle_table tbody tr").length;i++) {
+                if (parseInt($("#vehicle_table tbody tr")[i].children[1].children[0].children[0].href.replace(replaceGameVehicles, "")) == parseInt(vehicleID)) {
+                    buildingID = parseInt($("#vehicle_table tbody tr")[i].children[3].children[0].href.replace(replaceGameBuildings, ""));
+                    vehicleType = $("#vehicle_table tbody tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
+                }
             }
-        });
-        return number;
+            var sameTypeOnStation = vehicles["Building " + buildingID]["Type " + vehicleType];
+            sameTypeOnStation.forEach(function (item, index) {
+                if (parseInt(item) == parseInt(vehicleID)) {
+                    return number = parseInt(index) + 1;
+                }
+            });
+            return number;
+        } catch(err) {
+            $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
+            executionFailed = true;
+        }
     }
     function rename() {
-        if (!set.rename) {
-            set.rename = true;
-            $.ajax({url: '/vehicles/'+$('.vehicle_edit_button:first').attr('vehicle_id')+'/editName', success: function (d) {
-                    token = d.match(/authenticity_token.* value="(.*)"/)[1];
-                    $('.vehicle_edit_button').each(showForms);
-                }});
-        } else {
-            $('.vehicle_edit_button').each(showForms);
-        }
+        try {
+            if (!set.rename) {
+                set.rename = true;
+                $("#" + prefix + "_nameToLongTable").html();
+                $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusWorking'));
+                $.ajax({url: '/vehicles/'+$('.vehicle_edit_button:first').attr('vehicle_id')+'/editName', success: function (d) {
+                        token = d.match(/authenticity_token.* value="(.*)"/)[1];
+                            $('.vehicle_edit_button').each(showForms);
+                    }}).done(function () {
+                        if (executionFailed !== true) {
+                            $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusSuccess'));
+                        }
+                    });
+            } else {
+                $('.vehicle_edit_button').each(showForms);
+            }
+          } catch(err) {
+              $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
+              executionFailed = true;
+          }
     }
     function creatForm(vehicleId, value, oldName) {
-        $("#vehicle_link_" + vehicleId).parent()[0].innerHTML = $("#vehicle_link_" + vehicleId).parent()[0].innerHTML.replace("Name entspricht bereits der Vorlage!", "");
-        if (oldName != value) {
-            var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
-            $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
-        } else {
-            $("#vehicle_form_" + vehicleId).remove()
-            $("#vehicle_link_" + vehicleId).parent()[0].append("Name entspricht bereits der Vorlage!");
-        }
+        try {
+            $("#vehicle_link_" + vehicleId).parent()[0].innerHTML = $("#vehicle_link_" + vehicleId).parent()[0].innerHTML.replace(I18n.t('lssm.renameFZ.nameAlreadyCorrect'), "");
+            if (oldName != value) {
+                var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
+                $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
+            } else {
+                $("#vehicle_form_" + vehicleId).remove()
+                $("#vehicle_link_" + vehicleId).parent()[0].append(I18n.t('lssm.renameFZ.nameAlreadyCorrect'));
+            }
+          } catch(err) {
+              $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
+              executionFailed = true;
+          }
     }
     function replaceString(type, id) {
         var str = set.str.str !== '' ? set.str.str : set.str.default;
@@ -571,7 +629,8 @@
             $(this).hide();
         }
         if (replaceString(data.vehicleType, data.id).length > 40) {
-            alert("Für das Fahrzeug mit dem (neuen) Namen '" + replaceString(data.vehicleType, data.id) + "' ist der Name zu lang. Es kann nur der Name '" + replaceString(data.vehicleType, data.id).substr(0, 40) + "' übernommen werden");
+            $("#" + prefix + "_nameToLongDiv").show();
+            $("#" + prefix + "_nameToLongTable").append("<tr><td>" + replaceString(data.vehicleType, data.id) + "</td><td>" + replaceString(data.vehicleType, data.id).substr(0, 40) + "</td></tr>");
             creatForm(data.id, replaceString(data.vehicleType, data.id).substr(0, 40), data.oldName);
         } else {
             creatForm(data.id, replaceString(data.vehicleType, data.id), data.oldName);
@@ -584,10 +643,18 @@
         var html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ' + I18n.t('lssm.renameFZ.exampleResult') + '</div><div id="' + prefix + '_buttons">';
         for (var i in set.option)
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
-        html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a></div>';
+        html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a>';
+        html += ' <span id="' + prefix + '_status">Status: ' + I18n.t('lssm.renameFZ.statusWaiting') + '</span></div>';
+        html += '<div class="alert fade in alert-danger" id="' + prefix + '_nameToLongDiv"><button class="close" type="button" id="' + prefix + '_HideNameToLongDiv">×</button><b>' + I18n.t('lssm.renameFZ.nameToLong') + '</b><table class="table table-striped" role="grid" id="' + prefix + '_nameToLongTable"><thead><tr><th>' + I18n.t('lssm.renameFZ.nameToLongOriginalName') + '</th><th>' + I18n.t('lssm.renameFZ.nameToLongShortenedName') + '</th></thead></table></div>';
         html += '<input type="button" class="btn btn-success" id="' + prefix + '_saveAll" value="' + I18n.t('lssm.renameFZ.saveAll') + '" />';
         mainDiv.append(html);
+
         $('#vehicle_table').parent().prepend(mainDiv);
+        $("#" + prefix + "_HideNameToLongDiv").click(function() {
+            $("#" + prefix + "_nameToLongDiv").hide();
+            $("#" + prefix + "_nameToLongTable").html("");
+        });
+        $("#" + prefix + "_nameToLongDiv").hide();
         $('#' + prefix + '_buttons').click(function (e) {
             var input = document.getElementById(prefix + '_string'), start = input.selectionStart, end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);
@@ -604,10 +671,10 @@
         $('#' + prefix + '_string').change(changeInput);
         $('#' + prefix + '_rename').click(rename);
         $('#' + prefix + '_saveAll').click(function () {
-          for(i=0;i<$("input.btn.btn-success").length;i++){
-            $("input.btn.btn-success")[i].click();
-          }
+            alert(I18n.t('lssm.renameFZ.saveAllWarning'));
+            for(i=1;i<$("input.btn.btn-success").length;i++){
+                $("input.btn.btn-success")[i].click();
+            }
         });
-    }
-
+    };
 })(I18n, jQuery);
