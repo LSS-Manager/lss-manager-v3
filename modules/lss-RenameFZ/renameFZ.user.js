@@ -498,6 +498,7 @@
               vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType] = new Array();
           }
           vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].push(vehicleIDs[i-1]);
+          vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].sort(function(a, b){return a-b});
         }
         return vehicles
     }
