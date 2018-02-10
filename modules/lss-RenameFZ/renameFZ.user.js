@@ -532,9 +532,15 @@
             $('.vehicle_edit_button').each(showForms);
         }
     }
-    function creatForm(vehicleId, value) {
-        var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
-        $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
+    function creatForm(vehicleId, value, oldName) {
+        $("#vehicle_link_" + vehicleId).parent()[0].innerHTML = $("#vehicle_link_" + vehicleId).parent()[0].innerHTML.replace("Name entspricht bereits der Vorlage!", "");
+        if (oldName != value) {
+            var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
+            $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
+        } else {
+            $("#vehicle_form_" + vehicleId).remove()
+            $("#vehicle_link_" + vehicleId).parent()[0].append("Name entspricht bereits der Vorlage!");
+        }
     }
     function replaceString(type, id) {
         var str = set.str.str !== '' ? set.str.str : set.str.default;
@@ -557,16 +563,18 @@
         set.option.dispatch = $("h1")[0].innerHTML;
         set.option.number = getVehicleNumberAtStation(set.option.id);
         set.option.numberRoman = arabicToRoman(getVehicleNumberAtStation(set.option.id));
-        return {'id': id, 'vehicleType': vehicleType};
+        return {'id': id, 'vehicleType': vehicleType, 'oldName': set.option.old};
     }
     function showForms() {
-        $(this).hide(); //
         var data = setOptionsForVehicle($(this));
+        if (data.oldName != replaceString(data.vehicleType, data.id).substr(0, 40)) {
+            $(this).hide();
+        }
         if (replaceString(data.vehicleType, data.id).length > 40) {
             alert("Für das Fahrzeug mit dem (neuen) Namen '" + replaceString(data.vehicleType, data.id) + "' ist der Name zu lang. Es kann nur der Name '" + replaceString(data.vehicleType, data.id).substr(0, 40) + "' übernommen werden");
-            creatForm(data.id, replaceString(data.vehicleType, data.id).substr(0, 40));
+            creatForm(data.id, replaceString(data.vehicleType, data.id).substr(0, 40), data.oldName);
         } else {
-            creatForm(data.id, replaceString(data.vehicleType, data.id));
+            creatForm(data.id, replaceString(data.vehicleType, data.id), data.oldName);
         }
     }
     function createSettings() {
