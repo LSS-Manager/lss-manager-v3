@@ -560,7 +560,7 @@
 				'<br><br><span class="badge">Credits: ~ 1500 </span>',
 				324 : '15x Löschfahrzeuge (100%)<br>3x Drehleiter (100%)<br>2x GW-Atemschutz (100%)<br>2x GW-Messtechnik (100%)<br>1x GW-Gefahrgut (100%)<br>' +
 				'1x Schlauchwagen (100%)<br>1x FwK (100%)<br>4x Einsatzleitwagen 1 (100%)<br>2x Einsatzleitwagen 2 (100%)<br>1x Rüstwagen (100%)' +
-				'2x LKW K 9 (100%)<br>2x BRmG R (100%)<br>2x MzKW (100%)<br>2x GKW (100%)<br>2x MTW-TZ (100%)<br>5x Funkstreifenwagen (100%)' +
+				'<br>2x LKW K 9 (100%)<br>2x BRmG R (100%)<br>2x MzKW (100%)<br>2x GKW (100%)<br>2x MTW-TZ (100%)<br>5x Funkstreifenwagen (100%)' +
 				'<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 10000 </span>',
 				325 : '<h4>SICHERHEITSWACHE</h4>18x GruKw (100%)<br>6x leBefKw (100%)<br>2x FüKw (100%)<br>10x Funkstreifenwagen (100%)<br>2x Rettungstransportwagen ' +
 				'(100%)<br>1x Polizeihubschrauber (100%)<br>2x WaWe 10 (100%)',
