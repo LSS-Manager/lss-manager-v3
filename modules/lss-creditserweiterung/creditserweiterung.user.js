@@ -1,4 +1,7 @@
 (($, win, I18n) => {
+    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/$/)) {
+        return;
+    }
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
         ranks: {
