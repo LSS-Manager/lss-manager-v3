@@ -51,7 +51,7 @@
                     $(".vehicle_checkbox")[2].click();
                     break;
                 case 100: // Select fourth Vehicle: numpad 4
-                    $(".vehicle_checkbox")[0].click();
+                    $(".vehicle_checkbox")[3].click();
                     break;
                 case 101: // Select fifth Vehicle: numpad 5
                     $(".vehicle_checkbox")[1].click();
