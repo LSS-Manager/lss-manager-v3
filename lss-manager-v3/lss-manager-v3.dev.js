@@ -1,4 +1,3 @@
-
 //██╗.....███████╗███████╗....███╗...███╗.█████╗.███╗...██╗.█████╗..██████╗.███████╗██████╗
 //██║.....██╔════╝██╔════╝....████╗.████║██╔══██╗████╗..██║██╔══██╗██╔════╝.██╔════╝██╔══██╗
 //██║.....███████╗███████╗....██╔████╔██║███████║██╔██╗.██║███████║██║..███╗█████╗..██████╔╝
@@ -300,14 +299,13 @@ lssm.Module = {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
-            nl: 'Zelgemaakte inzetten opslaan.'
+            nl: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
             de: 'Funktion um sebst erstlle VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
-            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens ' +
-            'kan gebruiken.'
+            nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
@@ -384,6 +382,22 @@ lssm.Module = {
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
+        develop: false
+    },
+    Eventsmission: {
+        name: {
+            de: 'Markiert Eventeinsätze',
+            en: 'Marked events',
+            nl: 'Merken gebeurtenissen'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
+            en: 'Displays the current events with capitalized LINE!',
+            nl: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
+        },
+        source: '/modules/lss-eventmissions/eventmission.user.js',
         develop: false
     },
     DestinationFilter: {

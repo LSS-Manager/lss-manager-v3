@@ -344,7 +344,29 @@
         321: 'Saunabrand',
         322: 'Geplante Autobahnsperrung',
         323: 'Dehnfugenbrand',
-        324: 'Brand in Baumarkt'
+        324: 'Brand in Baumarkt',
+        325: 'Absicherung Castor-Transport',
+        326: 'Handverletzung durch Feuerwerkskörper',
+        327: 'Tiefgaragenbrand',
+        328: 'Rauch in Kabine',
+        329: 'Rauch in Kabine',
+        330: 'Überhitzte Bremsen',
+        331: 'Flugzeugzusammenstoß am Boden',
+        332: 'Flugzeugbrand',
+        333: 'Flugzeugbrand',
+        334: 'Brennendes Kleinflugzeug',
+        335: 'Brennendes Kleinflugzeug',
+        336: 'Absicherung Betankung',
+        337: 'Brennender PKW',
+        338: 'Motorrad-Brand',
+        339: 'Herzinfarkt',
+        340: 'akuter Asthma-Anfall',
+        341: 'Krampfanfall',
+        342: 'Triebwerksbrand',
+        343: 'Triebwerksbrand',
+        344: 'Mehrere brennende Fahrzeuge',
+        345: 'Höhenrettung am Fahrgeschäft',
+        346: 'Gebäudesprengung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -516,7 +538,14 @@
         150: 'Freight Train Derailment',
         151: 'Freight Train Derailment',
         152: 'Freight Train Derailment',
-        153: 'Barn Fire'
+        153: 'Barn Fire',
+        154: 'Chlorine leak',
+        155: 'Fire in Hospital',
+        156: 'Turbulence Injury',
+        157: 'Turbulence Injury',
+        158: 'Accident Involving a Bus',
+        159: 'Serious Accident Involving a Bus',
+        160: 'Lost Child'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -567,7 +596,7 @@
         29: 'Machine brand',
         30: 'Lekkende dieseltank',
         31: 'Oliespoor',
-        32: 'Schoorsteenbrand woning met rietenkap',
+        32: 'Schoorsteenbrand (woning met rietenkap)',
         33: 'Brandende landbouwmachine',
         34: 'Brand in supermarkt',
         35: 'Brand in ziekenhuis',
@@ -618,9 +647,9 @@
         80: 'Allergische reactie',
         81: 'Verward persoon',
         82: 'Vrachtwagen gekanteld',
-        83: 'Val van hoogte (> 5m)',
+        83: 'Val van hoogte (> 5 meter)',
         84: 'Ernstige brandwonden',
-        85: 'Aanrijding voetganger (> 30km/h)',
+        85: 'Aanrijding voetganger (> 30 km/u)',
         86: 'Aanrijding door trein',
         87: 'Beginnende geboorte',
         88: 'Hersenbloeding',
@@ -652,7 +681,7 @@
         114: 'Brandend dak',
         115: 'Brandend dak',
         116: 'Voetbalwedstrijd',
-        117: 'Voetbalwedstrijd, risicowedstrijd',
+        117: 'Voetbalwedstrijd (risicowedstrijd)',
         118: 'Hardloopevenement',
         119: 'Begeleiding orkest',
         120: 'Begeleiding wielrenners',
@@ -754,8 +783,8 @@
         216: 'Bosbrand',
         217: 'Plofkraak',
         218: 'Plofkraak',
-        219: 'Open dag, klein',
-        220: 'Open dag, groot',
+        219: 'Open dag (klein)',
+        220: 'Open dag (groot)',
         221: 'Inval in woning',
         222: 'Inbraak in woning',
         223: 'Brand in kelder',
@@ -792,7 +821,32 @@
         254: 'Brandende goederenwagon',
         255: 'Brandende goederenwagon',
         256: 'Geluidsoverlast',
-        257: 'Auto-inbraak'
+        257: 'Auto-inbraak',
+        258: 'Brand in flatwoning',
+        259: 'Brand in flatwoning',
+        260: 'Brandend speeltoestel',
+        261: 'Persoon door glas gevallen',
+        262: 'Burenruzie',
+        263: 'Brandende personenauto in parkeergarage',
+        264: 'Brandende personenauto in parkeergarage',
+        265: 'Vliegtuig met hydraulisch probleem',
+        266: 'Vliegtuig met rook in cabine',
+        267: 'Vliegtuig met brandgeur in cabine',
+        268: 'Vliegtuig met probleem met landingsgestel',
+        269: 'Vliegtuig met brandmelding in vrachtruim',
+        270: 'Vliegtuig buiten start-/landingsbaan beland',
+        271: 'Rookontwikkeling in vrachtruim vliegtuig',
+        272: 'Klein vliegtuig met motorisch probleem',
+        273: 'Klein vliegtuig neergestort',
+        274: 'Klein vliegtuig neergestort',
+        275: 'Brandend klein vliegtuig',
+        276: 'Brandend klein vliegtuig',
+        277: 'Pijn op de borst',
+        278: 'Beroerte',
+        279: 'Bedreiging',
+        280: 'Brand in garagebedrijf',
+        281: 'Brand in garagebedrijf',
+        282: 'Brand in garagebedrijf'
       }
     };
 
@@ -1139,8 +1193,30 @@
       320: 'B 5',
       321: 'B 2',
       322: 'POL 2',
-      323: 'B 2',
-      324: 'B 5'
+      323: 'B 3',
+      324: 'B 5',
+      325: 'SICHERHEITSWACHE',
+      326: 'RD 2',
+      327: 'B 4',
+      328: 'B 2',
+      329: 'B 2',
+      330: 'B 1',
+      331: 'THL VU FLUGZEUG 2',
+      332: 'B 4 FLUGZEUG',
+      333: 'B 4 FLUGZEUG',
+      334: 'THL VU FLUGZEUG 1',
+      335: 'THL VU FLUGZEUG 1',
+      336: 'THL 1',
+      337: 'B 1',
+      338: 'B 1',
+      339: 'RD 2',
+      340: 'RD 2',
+      341: 'RD 2',
+      342: 'B 1',
+      343: 'B 1',
+      344: 'B 2',
+      345: 'THL P HÖHENRETTUNG',
+      346: 'ABSICHERUNG'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1296,7 +1372,14 @@
       150: 'TECH TRAIN',
       151: 'TECH TRAIN',
       152: 'TECH TRAIN',
-      153: 'FIRE 3'
+      153: 'FIRE 4',
+      154: 'ABC 1',
+      155: 'FIRE 5',
+      156: 'MED 2',
+      157: 'MED 2',
+      158: 'TECH 1',
+      159: 'TECH 3',
+      160: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1351,7 +1434,7 @@
       49: 'A 1',
       50: 'A 1',
       51: 'A 1',
-      52: 'ZEER GROTE BRAND',
+      52: 'MIDDEL BRAND',
       53: 'ZEER GROTE BRAND',
       54: 'KLEINE BRAND',
       55: 'MIDDEL BRAND',
@@ -1556,7 +1639,32 @@
       254: 'KLEINE BRAND',
       255: 'MIDDEL BRAND',
       256: 'P 1',
-      257: 'P 1'
+      257: 'P 1',
+      258: 'KLEINE BRAND',
+      259: 'MIDDEL BRAND',
+      260: 'KLEINE BRAND',
+      261: 'A 1',
+      262: 'P 1',
+      263: 'KLEINE BRAND',
+      264: 'MIDDEL BRAND',
+      265: 'VOS KLEIN',
+      266: 'VOS KLEIN',
+      267: 'VOS KLEIN',
+      268: 'VOS GROOT',
+      269: 'VOS GROOT',
+      270: 'VOS GROOT',
+      271: 'VOS KLEIN',
+      272: 'VOS KLEIN',
+      273: 'VOS KLEIN',
+      274: 'VOS GROOT',
+      275: 'VOS KLEIN',
+      276: 'VOS KLEIN',
+      277: 'A1',
+      278: 'A1',
+      279: 'P1',
+      280: 'KLEINE BRAND',
+      281: 'GROTE BRAND',
+      282: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -1653,6 +1761,7 @@
             else if (anzahlPatients >= 101)
               additionalAaoText += 'MANV 100+';
           }
+
           if (I18n.t('lssm.missionKeywordDefaults.rd') === 'NOTF') {
             // Füge die RD-Kennung hinzu, wenn der Einsatz KEIN RD-Einsatz ist
             if (anzahlPatients > 5 && anzahlPatients < 11)
@@ -1686,15 +1795,15 @@
         if (!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd'))) {
           additionalAaoText = '<span class="label label-warning">';
           if (anzahlPatients >= 10 && anzahlPatients < 21)
-            additionalAaoText += 'A 1 CODE 10';
+            additionalAaoText += 'A1 CODE 10';
           else if (anzahlPatients >= 21 && anzahlPatients < 30)
-            additionalAaoText += 'A 1 CODE 20';
+            additionalAaoText += 'A1 CODE 20';
           else if (anzahlPatients >= 30 && anzahlPatients < 40)
-            additionalAaoText += 'A 1 CODE 30';
+            additionalAaoText += 'A1 CODE 30';
           else if (anzahlPatients >= 40 && anzahlPatients < 50)
-            additionalAaoText += 'A 1 CODE 40';
+            additionalAaoText += 'A1 CODE 40';
           else if (anzahlPatients >= 50)
-            additionalAaoText += 'A 1 CODE 50';
+            additionalAaoText += 'A1 CODE 50';
 
           additionalAaoText += '</span>';
         }
