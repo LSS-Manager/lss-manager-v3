@@ -54,7 +54,7 @@
                     $(".vehicle_checkbox")[3].click();
                     break;
                 case 101: // Select fifth Vehicle: numpad 5
-                    $(".vehicle_checkbox")[1].click();
+                    $(".vehicle_checkbox")[4].click();
                     break;
                 case 107: //Plus-Symbol Num-Block
                     tellParent($('.missing_vehicles_load')[0].click());
