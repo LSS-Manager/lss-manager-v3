@@ -546,7 +546,8 @@
         157: 'Turbulence Injury',
         158: 'Accident Involving a Bus',
         159: 'Serious Accident Involving a Bus',
-        160: 'Lost Child'
+        160: 'Lost Child',
+        161: 'DUI Checkpoint'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -848,7 +849,8 @@
         280: 'Brand in garagebedrijf',
         281: 'Brand in garagebedrijf',
         282: 'Brand in garagebedrijf',
-        283: 'Val van paard'
+        283: 'Val van paard',
+        284: 'Gevaarlijk rijgedrag'
       }
     };
 
@@ -1382,7 +1384,8 @@
       157: 'MED 2',
       158: 'TECH 1',
       159: 'TECH 3',
-      160: 'POL 2'
+      160: 'POL 2',
+      161: 'POL 5'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1668,7 +1671,8 @@
       280: 'KLEINE BRAND',
       281: 'GROTE BRAND',
       282: 'ZEER GROTE BRAND',
-      283: 'A1'
+      283: 'A1',
+      284: 'P1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
