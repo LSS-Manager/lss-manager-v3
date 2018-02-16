@@ -367,7 +367,8 @@
         344: 'Mehrere brennende Fahrzeuge',
         345: 'Höhenrettung am Fahrgeschäft',
         346: 'Gebäudesprengung',
-        347: 'Helikopter in Baum'
+        347: 'Helikopter in Baum',
+        348: 'Explosion in Biogasanlage'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1221,7 +1222,8 @@
       344: 'B 2',
       345: 'THL P HÖHENRETTUNG',
       346: 'ABSICHERUNG',
-      347: 'THL 3'
+      347: 'THL 3',
+      348: 'ABC EXPLOSION B 5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
