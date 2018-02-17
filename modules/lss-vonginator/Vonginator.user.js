@@ -3,15 +3,15 @@
 
 	function replaceInit(){
         $('div[id*="mission_missing_"]').each(function(){
-            $(this).text(replaceMissingText($(this).text()));
+            $(this).html(replaceMissingText($(this).html()));
         });
         $('a[id*="mission_caption_"]').each(function(){
-            $(this).text(replaceMissionCaption($(this).text()));
+            $(this).html(replaceMissionCaption($(this).html()));
         });
 
 
         $('div[id*="patients_missing_"]').each(function(){
-            $(this).text(replacePatientMarker($(this).text()));
+            $(this).html(replacePatientMarker($(this).html()));
         });
         $('#missions strong').text('1 Sätze');
     }
