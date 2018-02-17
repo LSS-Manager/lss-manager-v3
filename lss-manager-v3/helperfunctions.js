@@ -156,7 +156,8 @@ else if (I18n.locale == "de")
         "73": ["GRTW", 1],
         "74": ["NAW", 1],
         "75": ["FLF", 0],
-        "76": ["Rettungstreppe", 0]
+        "76": ["Rettungstreppe", 0],
+        "77": ["AB-Gefahrgut", 0]
     };
 
 lssm.getVehicleNameById = function(vehicleId) {
