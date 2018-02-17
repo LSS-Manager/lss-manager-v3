@@ -3,7 +3,7 @@
 
 	function replaceInit(){
         $('a[id*="mission_caption_"]').each(function(){
-            $(this).text(replaceevMissionCaption($(this).text()));
+            $(this).html(replaceevMissionCaption($(this).html()));
         });
     }
 
