@@ -267,11 +267,6 @@
       '.news_new, .alliance_forum_new, .alliance_message_new, .message_new,.alliance_apply_new, .alliance_news_new {'+
         'background-color: #77dc81'+
       '}'+
-      '.alliance_chat_copy_username {'+
-        'width: 16px;'+
-        'height: 16px;'+
-        'cursor: pointer'+
-      '}'+
       '.chatToSelf {'+
         'background-color: #d84f4b;'+
         'color: white'+
