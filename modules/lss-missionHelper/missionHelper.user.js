@@ -550,7 +550,7 @@
 				'1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1000 </span>',
 				320 : '20x Löschfahrzeuge (100%)<br>5x Drehleiter (100%)<br>3x GW-Atemschutz (100%)<br>3x GW-Messtechnik (100%)<br>' +
 				'2x GW-Gefahrgut (100%)<br>1x GW-Höhenrettung (100%)<br>6x Einsatzleitwagen 1 (100%)<br>4x Einsatzleitwagen 2 (100%)<br>' +
-				'2x Schlauchwagen (100%)<br>2x Rüstwagen (100%)<br>6x Funkstreifenwagen (100%)<br>1x LKW K 9 (100%)<br>1x BRmG R (100%)' +
+				'2x Schlauchwagen (100%)<br>2x Rüstwagen (100%)<br>6x Funkstreifenwagen (100%)<br>1x LKW K 9 (100%)<br>1x BRmG R (100%)<br>' +
 				'1x MzKW (100%)<br>1x GKW (100%)<br>1x MTW-TZ (100%)<br>min. 15x Rettungstransportwagen (100%)<br>min. 1x Notarzteinsatzfahrzeug (50%)' +
 				'<br><br><span class="badge">Credits: ~ 11500 </span>',
 				321 : '3x Löschfahrzeuge (100%)<br>1x Drehleiter (100%)<br>1x GW-Atemschutz (100%)<br>1x Einsatzleitwagen 1 (100%)<br>2x ' +
