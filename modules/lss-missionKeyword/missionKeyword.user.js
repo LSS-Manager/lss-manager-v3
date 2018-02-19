@@ -366,7 +366,9 @@
         343: 'Triebwerksbrand',
         344: 'Mehrere brennende Fahrzeuge',
         345: 'Höhenrettung am Fahrgeschäft',
-        346: 'Gebäudesprengung'
+        346: 'Gebäudesprengung',
+        347: 'Helikopter in Baum',
+        348: 'Explosion in Biogasanlage'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -545,7 +547,8 @@
         157: 'Turbulence Injury',
         158: 'Accident Involving a Bus',
         159: 'Serious Accident Involving a Bus',
-        160: 'Lost Child'
+        160: 'Lost Child',
+        161: 'DUI Checkpoint'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -846,7 +849,9 @@
         279: 'Bedreiging',
         280: 'Brand in garagebedrijf',
         281: 'Brand in garagebedrijf',
-        282: 'Brand in garagebedrijf'
+        282: 'Brand in garagebedrijf',
+        283: 'Val van paard',
+        284: 'Gevaarlijk rijgedrag'
       }
     };
 
@@ -1216,7 +1221,9 @@
       343: 'B 1',
       344: 'B 2',
       345: 'THL P HÖHENRETTUNG',
-      346: 'ABSICHERUNG'
+      346: 'ABSICHERUNG',
+      347: 'THL 3',
+      348: 'ABC EXPLOSION B 5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1379,7 +1386,8 @@
       157: 'MED 2',
       158: 'TECH 1',
       159: 'TECH 3',
-      160: 'POL 2'
+      160: 'POL 2',
+      161: 'POL 5'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1664,7 +1672,9 @@
       279: 'P1',
       280: 'KLEINE BRAND',
       281: 'GROTE BRAND',
-      282: 'ZEER GROTE BRAND'
+      282: 'ZEER GROTE BRAND',
+      283: 'A1',
+      284: 'P1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

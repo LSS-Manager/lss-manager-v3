@@ -41,6 +41,21 @@
                 case 70: //Search field disable: F
                     tellParent($('#lssm_searchEntryToggle').click());
                     break;
+                case 97: // Select first Vehicle: numpad 1
+                    $(".vehicle_checkbox")[0].click();
+                    break;
+                case 98: // Select second Vehicle: numpad 2
+                    $(".vehicle_checkbox")[1].click();
+                    break;
+                case 99: // Select third Vehicle: numpad 3
+                    $(".vehicle_checkbox")[2].click();
+                    break;
+                case 100: // Select fourth Vehicle: numpad 4
+                    $(".vehicle_checkbox")[3].click();
+                    break;
+                case 101: // Select fifth Vehicle: numpad 5
+                    $(".vehicle_checkbox")[4].click();
+                    break;
                 case 107: //Plus-Symbol Num-Block
                     tellParent($('.missing_vehicles_load')[0].click());
                     break;
