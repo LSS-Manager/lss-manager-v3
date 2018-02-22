@@ -402,6 +402,7 @@
         saveAllWarning: 'Achtung! Bei vielen Fahrzeugen kann es hier zu einem Absturz der Seite kommen. Moderne Browser bringen hier eine Meldung. Nach dem Neuladen der Seite sind jedoch alle Fahrzeuge umbenannt!',
         nameToLong: 'Für folgende Fahrzeuge ist der Name zu lang:',
         nameToLongOriginalName: 'Ursprünglicher Name',
+        nameToLongGeneratedName: 'Generierter Name',
         nameToLongShortenedName: 'Neuer/gekürzter Name'
     };
     I18n.translations.en['lssm']['renameFZ'] = {
@@ -424,6 +425,7 @@
         saveAllWarning: 'Attention! Many vehicles may crash the site. Modern browsers report here. After reloading the page, however, all vehicles are renamed!',
         nameToLong: 'The name is too long for the following vehicles:',
         nameToLongOriginalName: 'Original Name',
+        nameToLongGeneratedName: 'Generated Name',
         nameToLongShortenedName: 'New/shortened name'
     };
 	I18n.translations.nl['lssm']['renameFZ'] = {
@@ -447,6 +449,7 @@
     saveAllWarning: 'Opgelet! Veel voertuigen kunnen op de site neerstorten. Moderne browsers rapporteren hier. Na het herladen van de pagina worden alle voertuigen echter hernoemd!',
     nameToLong: 'De naam is te lang voor de volgende voertuigen:',
     nameToLongOriginalName: 'Oorspronkelijke naam',
+    nameToLongGeneratedName: 'Gegenereerde naam',
     nameToLongShortenedName: 'Nieuw/verkorte naam'
     };
 
@@ -648,7 +651,7 @@
         }
         if (replaceString(data.vehicleType, data.id).length > 40) {
             $("#" + prefix + "_nameToLongDiv").show();
-            $("#" + prefix + "_nameToLongTableBody").append("<tr><td>" + replaceString(data.vehicleType, data.id) + "</td><td>" + replaceString(data.vehicleType, data.id).substr(0, 40) + "</td></tr>");
+            $("#" + prefix + "_nameToLongTableBody").append("<tr><td>" + data.oldName + "</td><td>" + replaceString(data.vehicleType, data.id) + "</td><td>" + replaceString(data.vehicleType, data.id).substr(0, 40) + "</td></tr>");
             creatForm(data.id, replaceString(data.vehicleType, data.id).substr(0, 40), data.oldName);
         } else {
             creatForm(data.id, replaceString(data.vehicleType, data.id), data.oldName);
@@ -663,7 +666,7 @@
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a>';
         html += ' <span id="' + prefix + '_status">Status: ' + I18n.t('lssm.renameFZ.statusWaiting') + '</span></div>';
-        html += '<div class="alert fade in alert-danger" id="' + prefix + '_nameToLongDiv"><button class="close" type="button" id="' + prefix + '_HideNameToLongDiv">×</button><b>' + I18n.t('lssm.renameFZ.nameToLong') + '</b><table class="table table-striped" role="grid" id="' + prefix + '_nameToLongTable"><thead><tr><th>' + I18n.t('lssm.renameFZ.nameToLongOriginalName') + '</th><th>' + I18n.t('lssm.renameFZ.nameToLongShortenedName') + '</th></tr></thead><tbody id="' + prefix + '_nameToLongTableBody"></tbody></table></div>';
+        html += '<div class="alert fade in alert-danger" id="' + prefix + '_nameToLongDiv"><button class="close" type="button" id="' + prefix + '_HideNameToLongDiv">×</button><b>' + I18n.t('lssm.renameFZ.nameToLong') + '</b><table class="table table-striped" role="grid" id="' + prefix + '_nameToLongTable"><thead><tr><th>' + I18n.t('lssm.renameFZ.nameToLongOriginalName') + '</th><th>' + I18n.t('lssm.renameFZ.nameToLongGeneratedName') + '</th><th>' + I18n.t('lssm.renameFZ.nameToLongShortenedName') + '</th></tr></thead><tbody id="' + prefix + '_nameToLongTableBody"></tbody></table></div>';
         html += '<input type="button" class="btn btn-success" id="' + prefix + '_saveAll" value="' + I18n.t('lssm.renameFZ.saveAll') + '" />';
         mainDiv.append(html);
 
