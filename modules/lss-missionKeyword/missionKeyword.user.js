@@ -368,7 +368,8 @@
         345: 'Höhenrettung am Fahrgeschäft',
         346: 'Gebäudesprengung',
         347: 'Helikopter in Baum',
-        348: 'Explosion in Biogasanlage'
+        348: 'Explosion in Biogasanlage',
+        349: 'Brandgeruch'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -548,7 +549,9 @@
         158: 'Accident Involving a Bus',
         159: 'Serious Accident Involving a Bus',
         160: 'Lost Child',
-        161: 'DUI Checkpoint'
+        161: 'DUI Checkpoint',
+        162: 'Light Aircraft Crash (Airfield)',
+        163: 'Light Aircraft Crash'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -851,7 +854,8 @@
         281: 'Brand in garagebedrijf',
         282: 'Brand in garagebedrijf',
         283: 'Val van paard',
-        284: 'Gevaarlijk rijgedrag'
+        284: 'Gevaarlijk rijgedrag',
+        285: 'Brand in supermarkt'
       }
     };
 
@@ -1223,7 +1227,8 @@
       345: 'THL P HÖHENRETTUNG',
       346: 'ABSICHERUNG',
       347: 'THL 3',
-      348: 'ABC EXPLOSION B 5'
+      348: 'ABC EXPLOSION B 5',
+      349: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1387,7 +1392,9 @@
       158: 'TECH 1',
       159: 'TECH 3',
       160: 'POL 2',
-      161: 'POL 5'
+      161: 'POL 5',
+      162: 'TECH 2 AIRCRAFT CRASH',
+      162: 'TECH 4 AIRCRAFT CRASH'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1674,7 +1681,8 @@
       281: 'GROTE BRAND',
       282: 'ZEER GROTE BRAND',
       283: 'A1',
-      284: 'P1'
+      284: 'P1',
+      285: 'KLEINE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
