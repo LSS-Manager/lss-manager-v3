@@ -831,8 +831,8 @@
 				160 : '3x Police Cars (100%)<br>1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 700 </span>',
 				161 : '6x Police Cars (100%)',
 				162 : '1x Firetruck (100%)<br>2x ARFF (100%)<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
-				162 : '4x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x Heavy Rescue (100%)<br>1x Water Tanker (100%)<br>1x HazMat (100%)<br>1x Mobile Command ' +
-				'(100%)<br>Ambulance<br><br><span class="badge">Credits: ~ 4000 </span'
+				163 : '4x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x Heavy Rescue (100%)<br>1x Water Tanker (100%)<br>1x HazMat (50%)<br>' +
+				'Ambulance<br><br><span class="badge">Credits: ~ 4000 </span'
 			}
 		}
 
