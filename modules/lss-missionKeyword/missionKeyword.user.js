@@ -551,7 +551,8 @@
         160: 'Lost Child',
         161: 'DUI Checkpoint',
         162: 'Light Aircraft Crash (Airfield)',
-        163: 'Light Aircraft Crash'
+        163: 'Light Aircraft Crash',
+        164: 'Cable theft'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -855,7 +856,8 @@
         282: 'Brand in garagebedrijf',
         283: 'Val van paard',
         284: 'Gevaarlijk rijgedrag',
-        285: 'Brand in supermarkt'
+        285: 'Brand in supermarkt',
+        286: 'Kind vast in boom'
       }
     };
 
@@ -1394,7 +1396,8 @@
       160: 'POL 2',
       161: 'POL 5',
       162: 'TECH 2 AIRCRAFT CRASH',
-      162: 'TECH 4 AIRCRAFT CRASH'
+      163: 'TECH 4 AIRCRAFT CRASH',
+      164: 'POL 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1682,7 +1685,8 @@
       282: 'ZEER GROTE BRAND',
       283: 'A1',
       284: 'P1',
-      285: 'KLEINE BRAND'
+      285: 'KLEINE BRAND',
+      286: 'KLEINE HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

@@ -832,7 +832,8 @@
 				161 : '6x Police Cars (100%)',
 				162 : '1x Firetruck (100%)<br>2x ARFF (100%)<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
 				163 : '4x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x Heavy Rescue (100%)<br>1x Water Tanker (100%)<br>1x HazMat (50%)<br>' +
-				'Ambulance<br><br><span class="badge">Credits: ~ 4000 </span'
+				'Ambulance<br><br><span class="badge">Credits: ~ 4000 </span',
+				164 : '3x Police Cars (100%)<br>1x K9 Unit (100%)<br><br><span class="badge">Credits: ~ 550 </span>'
 			}
 		}
 
@@ -1281,7 +1282,8 @@
 				'<br>1x Commandowagen (100%)<br>1x Politieauto (100%)<br>Ambulance<br><br><span class="badge">Credits: ~ 3620 </span>',
 				283 : '1x Ambulance (100%)<br>1x MMT-Auto (10%)',
 				284 : '1x Politieauto (100%)<br><br><span class="badge">Credits: ~ 500 </span>',
-				285 : '1x Tankautospuit (100%)<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 1400 </span>'
+				285 : '1x Tankautospuit (100%)<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 1400 </span>',
+				286 : '1x Tankautospuit (100%)<br>1x Redvoertuig (80%)<br><br><span class="badge">Credits: ~ 340 </span>'
 			}
 		}
 	}
