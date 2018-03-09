@@ -369,7 +369,8 @@
         346: 'Gebäudesprengung',
         347: 'Helikopter in Baum',
         348: 'Explosion in Biogasanlage',
-        349: 'Brandgeruch'
+        349: 'Brandgeruch',
+        350: 'Flughafenbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1230,7 +1231,8 @@
       346: 'ABSICHERUNG',
       347: 'THL 3',
       348: 'ABC EXPLOSION B 5',
-      349: 'B 1'
+      349: 'B 1',
+      350: 'B 8'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
