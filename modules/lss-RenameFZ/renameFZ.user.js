@@ -88,7 +88,8 @@
               74: 'NAW',
               75: 'FLF',
               76: 'Rettungstreppe',
-              77: 'AB-Gefahrgut'
+              77: 'AB-Gefahrgut',
+              78: 'AB-Einsatzleitung'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -118,7 +119,9 @@
               17: 'ARFF Crash Tender',
               18: 'Rescue Engine',
               19: 'K-9 Unit',
-              20: 'Mass Casualty Unit'
+              20: 'Mass Casualty Unit',
+              21: 'Heavy Rescue + Boat',
+              22: 'Boat Trailer'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -171,7 +174,8 @@
               40: 'CT (8x8)',
               41: 'CT (6x6)',
               42: 'CT (4x4)',
-              43: 'AFO/OSC'
+              43: 'AFO/OSC',
+              44: 'DBH'
             }
         }
 
@@ -272,7 +276,8 @@
           74: 'NAW',
           75: 'FLF',
           76: 'Rettungstreppe',
-          77: 'AB-Gefahrgut'
+          77: 'AB-Gefahrgut',
+          78: 'AB-Einsatzleitung'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
@@ -295,7 +300,9 @@
           17: 'ARFF Crash Tender',
           18: 'Rescue Engine',
           19: 'K-9 Unit',
-          20: 'Mass Casualty Unit'
+          20: 'Mass Casualty Unit',
+          21: 'Heavy Rescue + Boat',
+          22: 'Boat Trailer'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
@@ -341,7 +348,8 @@
           40: 'CT (8x8)',
           41: 'CT (6x6)',
           42: 'CT (4x4)',
-          43: 'AFO/OSC'
+          43: 'AFO/OSC',
+          44: 'DBH'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
