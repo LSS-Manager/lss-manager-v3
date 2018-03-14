@@ -369,7 +369,8 @@
         346: 'Gebäudesprengung',
         347: 'Helikopter in Baum',
         348: 'Explosion in Biogasanlage',
-        349: 'Brandgeruch'
+        349: 'Brandgeruch',
+        350: 'Flughafenbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -551,7 +552,12 @@
         160: 'Lost Child',
         161: 'DUI Checkpoint',
         162: 'Light Aircraft Crash (Airfield)',
-        163: 'Light Aircraft Crash'
+        163: 'Light Aircraft Crash',
+        164: 'Cable theft',
+        165: 'Drowning',
+        166: 'Drowning',
+        167: 'Car in river',
+        168: 'Car in lake'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -855,7 +861,8 @@
         282: 'Brand in garagebedrijf',
         283: 'Val van paard',
         284: 'Gevaarlijk rijgedrag',
-        285: 'Brand in supermarkt'
+        285: 'Brand in supermarkt',
+        286: 'Kind vast in boom'
       }
     };
 
@@ -1228,7 +1235,8 @@
       346: 'ABSICHERUNG',
       347: 'THL 3',
       348: 'ABC EXPLOSION B 5',
-      349: 'B 1'
+      349: 'B 1',
+      350: 'B 8'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1394,7 +1402,12 @@
       160: 'POL 2',
       161: 'POL 5',
       162: 'TECH 2 AIRCRAFT CRASH',
-      162: 'TECH 4 AIRCRAFT CRASH'
+      163: 'TECH 4 AIRCRAFT CRASH',
+      164: 'POL 3',
+      165: 'TECH WATER',
+      166: 'TECH WATER',
+      167: 'TECH WATER',
+      168: 'TECH WATER'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1682,7 +1695,8 @@
       282: 'ZEER GROTE BRAND',
       283: 'A1',
       284: 'P1',
-      285: 'KLEINE BRAND'
+      285: 'KLEINE BRAND',
+      286: 'KLEINE HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
