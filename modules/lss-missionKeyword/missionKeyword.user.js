@@ -553,7 +553,11 @@
         161: 'DUI Checkpoint',
         162: 'Light Aircraft Crash (Airfield)',
         163: 'Light Aircraft Crash',
-        164: 'Cable theft'
+        164: 'Cable theft',
+        165: 'Drowning',
+        166: 'Drowning',
+        167: 'Car in river',
+        168: 'Car in lake'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1399,7 +1403,11 @@
       161: 'POL 5',
       162: 'TECH 2 AIRCRAFT CRASH',
       163: 'TECH 4 AIRCRAFT CRASH',
-      164: 'POL 3'
+      164: 'POL 3',
+      165: 'TECH WATER',
+      166: 'TECH WATER',
+      167: 'TECH WATER',
+      168: 'TECH WATER'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',

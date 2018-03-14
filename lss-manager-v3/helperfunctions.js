@@ -28,7 +28,9 @@ if(I18n.locale == "en")
         "17": ["ARFF Crash Tender", 0],
         "18": ["Rescue Engine", 0],
         "19": ["K-9 Unit", 2],
-        "20": ["Mass Casualty Unit", 1]
+        "20": ["Mass Casualty Unit", 1],
+        "21": ["Heavy Rescue + Boat", 0],
+        "22": ["Boat Trailer", 0]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {
