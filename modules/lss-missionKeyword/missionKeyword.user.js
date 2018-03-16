@@ -370,7 +370,8 @@
         347: 'Helikopter in Baum',
         348: 'Explosion in Biogasanlage',
         349: 'Brandgeruch',
-        350: 'Flughafenbrand'
+        350: 'Flughafenbrand',
+        351: 'Brand in Terminal'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -557,7 +558,11 @@
         165: 'Drowning',
         166: 'Drowning',
         167: 'Car in river',
-        168: 'Car in lake'
+        168: 'Car in lake',
+        169: 'Small flooding',
+        170: 'Medium flooding',
+        171: 'Large flooding',
+        172: 'Giant flooding'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -862,7 +867,12 @@
         283: 'Val van paard',
         284: 'Gevaarlijk rijgedrag',
         285: 'Brand in supermarkt',
-        286: 'Kind vast in boom'
+        286: 'Kind vast in boom',
+        287: 'Brand in magazijn',
+        288: 'Brand in magazijn',
+        289: 'Brand in magazijn',
+        290: 'Brand in magazijn',
+        291: 'Brand in magazijn'
       }
     };
 
@@ -1236,7 +1246,8 @@
       347: 'THL 3',
       348: 'ABC EXPLOSION B 5',
       349: 'B 1',
-      350: 'B 8'
+      350: 'B 8',
+      351: 'B 6'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1407,7 +1418,11 @@
       165: 'TECH WATER',
       166: 'TECH WATER',
       167: 'TECH WATER',
-      168: 'TECH WATER'
+      168: 'TECH WATER',
+      169: 'TECH WATER',
+      170: 'TECH WATER',
+      171: 'TECH WATER',
+      172: 'TECH WATER'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1696,7 +1711,12 @@
       283: 'A1',
       284: 'P1',
       285: 'KLEINE BRAND',
-      286: 'KLEINE HV'
+      286: 'KLEINE HV',
+      287: 'KLEINE BRAND',
+      288: 'KLEINE BRAND',
+      289: 'MIDDEL BRAND',
+      290: 'GROTE BRAND',
+      291: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
