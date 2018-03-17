@@ -303,7 +303,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Funktion um sebst erstlle VGE zu speichern.',
+            de: 'Funktion um selbst erstellte VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
             nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
