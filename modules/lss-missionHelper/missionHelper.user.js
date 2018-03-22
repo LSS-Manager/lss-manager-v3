@@ -853,7 +853,7 @@
 				171 : '6x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>1x Heavy Rescue (100%)<br>2x Boats (100%)<br>Ambulances<br><br>' +
 				'<span class="badge">Credits: ~ 2500 </span>',
 				172 : '8x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>1x Mobile Command (100%)<br>2x Heavy Resuces (100%)<br>2x Boats (100%)<br>3x Police Cars ' +
-				'(100%)<br>Ambulances<br><br><span class="badge">Credits: ~ 2500 </span>'
+				'(100%)<br>Ambulances<br><br><span class="badge">Credits: ~ 4000 </span>'
 			}
 		}
 
