@@ -1319,7 +1319,7 @@
 				'<br>2x Slangenwagen (100%)<br>2x Waarschuwings- en Verkenningsdienst (50%)<br>1x Adviseur Gevaarlijk Stoffen (100%)<br>1x HOVD (100%)<br>' +
 				'1x Commandowagen (100%)<br>2x Politieautos (100%)<br><br><span class="badge">Credits: ~ 4200 </span>',
 				292 : '1x Tankautospuit (100%)<br>1x Hulpverleningsvoertuig (80%)<br>1x OvD-B (100%)<br>1x Politieauto (100%)<br>1x Ambulance (100%)<br><br>' +
-				'<span class="badge">Credits: ~ 1575 </span>'
+				'<span class="badge">Credits: ~ 1575 </span>',
 				293 : '2x Tankautospuiten (100%)<br>1x Hulpverleningsvoertuig (100%)<br>1x OvD-B (100%)<br>2x Politieauto (100%)<br>1x Ambulance (100%)<br>1x MMT-Auto ' +
 				'(100%)<br><br><span class="badge">Credits: ~ 2450 </span>'
 			}
