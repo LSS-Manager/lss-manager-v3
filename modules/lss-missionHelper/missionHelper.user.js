@@ -609,7 +609,7 @@
 				350 : '40x Löschfahrzeuge (100%)<br>6x Flugfeldlöschfahrzeuge (100%)<br>8x Drehleitern (100%)<br>6x Rüstwagen (100%)<br>3x GW-Messtechnik (100%)<br>' +
 				'2x GW-Atemschutz (100%)<br>4x Schlauchwagen (100%)<br>6x Einsatzleitwagen 1 (100%)<br>2x Einsatzleitwagen 2 (100%)<br>10x Funkstreifenwagen (100%)' +
 				'<br>2x Polizeihubschrauber (100%)<br>2x LKW K9 (100%)<br>2x BRmG-R (100%)<br>2x Gerätekraftwagen (100%)<br>2x MTW-TZ (100%)<br>2x MzKW (100%)<br>' +
-				'min. 10x ,max. 100x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 17000 </span>',
+				'min. 10x ,max. 20x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 17000 </span>',
 				351 : '6x Löschfahrzeuge (100%)<br>2x Drehleitern (100%)<br>2x Einsatzleitwagen 1 (100%)<br>1x GW-Atemschutz (100%)<br>1x GW-Messtechnik (100%)<br>' +
 				'1x Einsatzleitwagen 2 (100%)<br>2x Funkstreifenwagen (100%)<br>max. 10x Rettungstransportwagen<br><br><span class="badge">Credits: ~ 4000 </span>'
 			}
@@ -853,7 +853,11 @@
 				171 : '6x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>1x Heavy Rescue (100%)<br>2x Boats (100%)<br>Ambulances<br><br>' +
 				'<span class="badge">Credits: ~ 2500 </span>',
 				172 : '8x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>1x Mobile Command (100%)<br>2x Heavy Resuces (100%)<br>2x Boats (100%)<br>3x Police Cars ' +
-				'(100%)<br>Ambulances<br><br><span class="badge">Credits: ~ 4000 </span>'
+				'(100%)<br>Ambulances<br><br><span class="badge">Credits: ~ 4000 </span>',
+				173 : '3x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x HazMat (50%)<br>1x Heavy Rescue (100%)<br>1x Boat (100%)<br>Ambulance<br><br>' +
+				'<span class="badge">Credits: ~ 3000 </span>',
+				174 : '3x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x HazMat (50%)<br>1x Heavy Rescue (100%)<br>1x Boat (100%)<br>Ambulance<br><br>' +
+				'<span class="badge">Credits: ~ 3000 </span>'
 			}
 		}
 
@@ -1313,7 +1317,11 @@
 				'1x Commandowagen (100%)<br>2x Politieautos (100%)<br><br><span class="badge">Credits: ~ 3000 </span>',
 				291 : '8x Tankautospuiten (100%)<br>2x Redvoertuigs (100%)<br>1x Hulpverleningsvoertuig (100%)<br>2x OvD-B (100%)<br>1x Adembeschermingsvoertuig (100%)' +
 				'<br>2x Slangenwagen (100%)<br>2x Waarschuwings- en Verkenningsdienst (50%)<br>1x Adviseur Gevaarlijk Stoffen (100%)<br>1x HOVD (100%)<br>' +
-				'1x Commandowagen (100%)<br>2x Politieautos (100%)<br><br><span class="badge">Credits: ~ 4200 </span>'
+				'1x Commandowagen (100%)<br>2x Politieautos (100%)<br><br><span class="badge">Credits: ~ 4200 </span>',
+				292 : '1x Tankautospuit (100%)<br>1x Hulpverleningsvoertuig (80%)<br>1x OvD-B (100%)<br>1x Politieauto (100%)<br>1x Ambulance (100%)<br><br>' +
+				'<span class="badge">Credits: ~ 1575 </span>'
+				293 : '2x Tankautospuiten (100%)<br>1x Hulpverleningsvoertuig (100%)<br>1x OvD-B (100%)<br>2x Politieauto (100%)<br>1x Ambulance (100%)<br>1x MMT-Auto ' +
+				'(100%)<br><br><span class="badge">Credits: ~ 2450 </span>'
 			}
 		}
 	}
