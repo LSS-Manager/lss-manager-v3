@@ -874,7 +874,7 @@
         288: 'Brand in magazijn',
         289: 'Brand in magazijn',
         290: 'Brand in magazijn',
-        291: 'Brand in magazijn'.
+        291: 'Brand in magazijn',
         292: 'Ongeval met trein en vrachtwagen',
         293: 'Ongeval met trein en vrachtwagen'
       }
