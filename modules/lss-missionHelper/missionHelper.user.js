@@ -24,7 +24,8 @@
 				17 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 340 </span>',
 				18 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 700 </span>',
 				19 : '1x Löschfahrzeug (100%)<br><br><span class="badge">Credits: ~ 650 </span>',
-				20 : '3x Löschfahrzeuge (100%)<br>1x Einsatzleitwagen 1 (90%)<br><br><span class="badge">Credits: ~2500</span>',
+				20 : '3x Löschfahrzeuge (100%)<br>1x Einsatzleitwagen 1 (90%)<br>evtl. Rettungstransportwagen' +
+				'<br><br><span class="badge">Credits: ~2500</span>',
 				21 : '1x Löschfahrzeug (100%)<br> 1x Drehleiter (100%) <br> 1x Einsatzleitwagen 1 (100%)<br><br>' +
 				'<span class="badge">Credits: ~ 2400 </span>',
 				22 : '3x Löschfahrzeuge (100%)<br> 1x Drehleiter (100%) <br> 1x Einsatzleitwagen 1 (50%)<br><br>' +
