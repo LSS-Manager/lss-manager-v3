@@ -564,7 +564,8 @@
         171: 'Large flooding',
         172: 'Giant flooding',
         173: 'Light aircraft crash in water',
-        174: 'Light aircraft crash in water'
+        174: 'Light aircraft crash in water',
+        175: 'Bridge Collapse'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -876,7 +877,9 @@
         290: 'Brand in magazijn',
         291: 'Brand in magazijn',
         292: 'Ongeval met trein en vrachtwagen',
-        293: 'Ongeval met trein en vrachtwagen'
+        293: 'Ongeval met trein en vrachtwagen',
+        294: 'Overlast jeugd',
+        295: 'Overlast zwervers'
       }
     };
 
@@ -1428,7 +1431,8 @@
       171: 'TECH WATER',
       172: 'TECH WATER',
       173: 'TECH 3 AIRCRAFT WATER CRASH',
-      174: 'TECH 3 AIRCRAFT WATER CRASH'
+      174: 'TECH 3 AIRCRAFT WATER CRASH',
+      175: 'TECH 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1724,7 +1728,9 @@
       290: 'GROTE BRAND',
       291: 'ZEER GROTE BRAND',
       292: 'GROTE HV',
-      293: 'GROTE HV'
+      293: 'GROTE HV',
+      294: 'P 1',
+      295: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
