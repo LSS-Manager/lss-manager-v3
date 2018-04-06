@@ -371,7 +371,8 @@
         348: 'Explosion in Biogasanlage',
         349: 'Brandgeruch',
         350: 'Flughafenbrand',
-        351: 'Brand in Terminal'
+        351: 'Brand in Terminal',
+        352: 'Brand in Mehrfamilienhaus'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1254,7 +1255,8 @@
       348: 'ABC EXPLOSION B 5',
       349: 'B 1',
       350: 'B 8',
-      351: 'B 6'
+      351: 'B 4',
+      352: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',

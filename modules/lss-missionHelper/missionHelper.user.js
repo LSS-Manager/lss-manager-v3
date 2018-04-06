@@ -612,7 +612,10 @@
 				'<br>2x Polizeihubschrauber (100%)<br>2x LKW K9 (100%)<br>2x BRmG-R (100%)<br>2x Gerätekraftwagen (100%)<br>2x MTW-TZ (100%)<br>2x MzKW (100%)<br>' +
 				'min. 10x ,max. 20x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 17000 </span>',
 				351 : '6x Löschfahrzeuge (100%)<br>2x Drehleitern (100%)<br>2x Einsatzleitwagen 1 (100%)<br>1x GW-Atemschutz (100%)<br>1x GW-Messtechnik (100%)<br>' +
-				'1x Einsatzleitwagen 2 (100%)<br>2x Funkstreifenwagen (100%)<br>max. 10x Rettungstransportwagen<br><br><span class="badge">Credits: ~ 4000 </span>'
+				'1x Einsatzleitwagen 2 (100%)<br>2x Funkstreifenwagen (100%)<br>max. 10x Rettungstransportwagen<br><br><span class="badge">Credits: ~ 4000 </span>',
+				352 : '12x Löschfahrzeuge (100%)<br>3x Drehleitern (100%)<br>1x GW-Atemschutz (100%)<br>1x GW-Messtechnik (100%)<br>1x Rüstwagen (100%)<br>' +
+				'1x Schlauchwagen (100%)<br>3x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (100%)<br>4x Funkstreifenwagen (100%)<br>min. 1x ' +
+				'Rettungstransportwagen, max. 10x Rettungstransportwagen (100%)<br>NEF (50%) / RTH (25%)<br><br><span class="badge">Credits: ~ 7500 </span>'
 			}
 		}
 
