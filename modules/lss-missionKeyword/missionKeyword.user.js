@@ -371,7 +371,8 @@
         348: 'Explosion in Biogasanlage',
         349: 'Brandgeruch',
         350: 'Flughafenbrand',
-        351: 'Brand in Terminal'
+        351: 'Brand in Terminal',
+        352: 'Brand in Mehrfamilienhaus'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -564,7 +565,8 @@
         171: 'Large flooding',
         172: 'Giant flooding',
         173: 'Light aircraft crash in water',
-        174: 'Light aircraft crash in water'
+        174: 'Light aircraft crash in water',
+        175: 'Bridge Collapse'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -876,7 +878,9 @@
         290: 'Brand in magazijn',
         291: 'Brand in magazijn',
         292: 'Ongeval met trein en vrachtwagen',
-        293: 'Ongeval met trein en vrachtwagen'
+        293: 'Ongeval met trein en vrachtwagen',
+        294: 'Overlast jeugd',
+        295: 'Overlast zwervers'
       }
     };
 
@@ -1251,7 +1255,8 @@
       348: 'ABC EXPLOSION B 5',
       349: 'B 1',
       350: 'B 8',
-      351: 'B 6'
+      351: 'B 4',
+      352: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1428,7 +1433,8 @@
       171: 'TECH WATER',
       172: 'TECH WATER',
       173: 'TECH 3 AIRCRAFT WATER CRASH',
-      174: 'TECH 3 AIRCRAFT WATER CRASH'
+      174: 'TECH 3 AIRCRAFT WATER CRASH',
+      175: 'TECH 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1724,7 +1730,9 @@
       290: 'GROTE BRAND',
       291: 'ZEER GROTE BRAND',
       292: 'GROTE HV',
-      293: 'GROTE HV'
+      293: 'GROTE HV',
+      294: 'P 1',
+      295: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
