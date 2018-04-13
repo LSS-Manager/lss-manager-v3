@@ -372,7 +372,8 @@
         349: 'Brandgeruch',
         350: 'Flughafenbrand',
         351: 'Brand in Terminal',
-        352: 'Brand in Mehrfamilienhaus'
+        352: 'Brand in Mehrfamilienhaus',
+        353: 'Großkontrolle Betäubungsmittel'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -566,7 +567,10 @@
         172: 'Giant flooding',
         173: 'Light aircraft crash in water',
         174: 'Light aircraft crash in water',
-        175: 'Bridge Collapse'
+        175: 'Bridge Collapse',
+        176: 'Stroke',
+        177: 'Unconscious Person',
+        178: 'Hemorrhage'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1259,7 +1263,8 @@
       349: 'B 1',
       350: 'B 8',
       351: 'B 4',
-      352: 'B 4'
+      352: 'B 4',
+      353: 'SICHERHEITSWACHE'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1437,7 +1442,10 @@
       172: 'TECH WATER',
       173: 'TECH 3 AIRCRAFT WATER CRASH',
       174: 'TECH 3 AIRCRAFT WATER CRASH',
-      175: 'TECH 4'
+      175: 'TECH 4',
+      176: 'MED 1',
+      177: 'MED 1',
+      178: 'MED 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
