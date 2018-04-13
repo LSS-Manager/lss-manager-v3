@@ -880,7 +880,10 @@
         292: 'Ongeval met trein en vrachtwagen',
         293: 'Ongeval met trein en vrachtwagen',
         294: 'Overlast jeugd',
-        295: 'Overlast zwervers'
+        295: 'Overlast zwervers',
+        296: 'Brand in museum',
+        297: 'Brand in museum',
+        298: 'Brand in museum'
       }
     };
 
@@ -1732,7 +1735,10 @@
       292: 'GROTE HV',
       293: 'GROTE HV',
       294: 'P 1',
-      295: 'P 1'
+      295: 'P 1',
+      296: 'KLEINE BRAND',
+      297: 'MIDDEL BRAND',
+      298: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
