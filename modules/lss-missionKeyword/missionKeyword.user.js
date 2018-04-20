@@ -373,7 +373,8 @@
         350: 'Flughafenbrand',
         351: 'Brand in Terminal',
         352: 'Brand in Mehrfamilienhaus',
-        353: 'Großkontrolle Betäubungsmittel'
+        353: 'Großkontrolle Betäubungsmittel',
+        354: 'Grillunfall'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -570,7 +571,8 @@
         175: 'Bridge Collapse',
         176: 'Stroke',
         177: 'Unconscious Person',
-        178: 'Hemorrhage'
+        178: 'Hemorrhage',
+        179: 'Burst water main'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -887,7 +889,9 @@
         295: 'Overlast zwervers',
         296: 'Brand in museum',
         297: 'Brand in museum',
-        298: 'Brand in museum'
+        298: 'Brand in museum',
+        299: 'Brandend plezierjacht',
+        300: 'Brandend plezierjacht'
       }
     };
 
@@ -1264,7 +1268,8 @@
       350: 'B 8',
       351: 'B 4',
       352: 'B 4',
-      353: 'SICHERHEITSWACHE'
+      353: 'SICHERHEITSWACHE',
+      354: 'RD 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1445,7 +1450,8 @@
       175: 'TECH 4',
       176: 'MED 1',
       177: 'MED 1',
-      178: 'MED 1'
+      178: 'MED 1',
+      179: 'TECH WATER'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1746,7 +1752,9 @@
       295: 'P 1',
       296: 'KLEINE BRAND',
       297: 'MIDDEL BRAND',
-      298: 'GROTE BRAND'
+      298: 'GROTE BRAND',
+      299: 'KLEINE BRAND',
+      300: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
