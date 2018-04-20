@@ -616,7 +616,8 @@
 				352 : '12x Löschfahrzeuge (100%)<br>3x Drehleitern (100%)<br>1x GW-Atemschutz (100%)<br>1x GW-Messtechnik (100%)<br>1x Rüstwagen (100%)<br>' +
 				'1x Schlauchwagen (100%)<br>3x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (100%)<br>4x Funkstreifenwagen (100%)<br>min. 1x ' +
 				'Rettungstransportwagen, max. 10x Rettungstransportwagen (100%)<br>NEF (50%) / RTH (25%)<br><br><span class="badge">Credits: ~ 7500 </span>',
-				353 : '<h4>SICHERHEITSWACHE</h4>3x GruKw (100%)<br>1x leBefKw (100%)<br>3x Funkstreifenwagen (100%)'
+				353 : '<h4>SICHERHEITSWACHE</h4>3x GruKw (100%)<br>1x leBefKw (100%)<br>3x Funkstreifenwagen (100%)',
+				354 : '1x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (75%) / Rettungstransporthubschrauber (50%)'
 			}
 		}
 
@@ -867,7 +868,9 @@
 				'(100%)<br>1x Mobile Command (100%)<br>2x Police Cars (100%)<br>min. 1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 7000 </span>',
 				176 : '1x Ambulance (100%)',
 				177 : '1x Ambulance (100%)',
-				178 : '1x Ambulance (100%)'
+				178 : '1x Ambulance (100%)',
+				179 : '3x Firetrucks (100%)<br>2x Heavy Rescue (100%)<br>1x Battalion Chief (100%)<br>1x Police Car (100%)<br>Ambulances<br><br><span class="badge">' +
+				'Credits: ~ 1200 </span>'
 			}
 		}
 
@@ -1338,7 +1341,11 @@
 				297 : '2x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x Adembeschermingsvoertuig (10%)<br>1x Politieauto (100%)<br>' +
 				'<br><br><span class="badge">Credits: ~ 1500 </span>',
 				298 : '3x Tankautospuiten (100%)<br>1x Redvoertuig (100%)<br>1x OvD-B (100%)<br>1x Adembeschermingsvoertuig (50%)<br>1x Slangenwagen (20%)<br>' +
-				'1x HOvD (50%)<br>1x Commandowagen (50%)<br>1x Politieauto (100%)<br>1x Ambulance <br><br><span class="badge">Credits: ~ 2200 </span>'
+				'1x HOvD (50%)<br>1x Commandowagen (50%)<br>1x Politieauto (100%)<br>1x Ambulance <br><br><span class="badge">Credits: ~ 2200 </span>',
+				299 : '1x Tankautospuit (100%)<br>1x Waterongevallenvoertuig (10%)<br>1x Waterongevallenaanhanger (70%)<br>1x Politieauto (100%)<br><br>' +
+				'<span class="badge">Credits: ~ 900 </span>',
+				300 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Waterongevallenvoertuig (40%)<br>1x Waterongevallenaanhanger (100%)<br>1x Politieauto (100%)' +
+				'<br>Ambulances <br><br><span class="badge">Credits: ~ 1450 </span>'
 			}
 		}
 	}
