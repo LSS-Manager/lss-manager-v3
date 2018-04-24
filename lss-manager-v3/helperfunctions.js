@@ -79,7 +79,8 @@ else if (I18n.locale == "nl")
         "42": ["CT (6x6) | Crashtender (6x6)", 0],
         "43": ["CT (4x4) | Crashtender (4x4)", 0],
         "44": ["AFO/OSC | Airport Fire Officer / On Scene Commander", 0],
-        "45": ["DBH | Dompelpomphaakarmbak", 0]
+        "45": ["DBH | Dompelpomphaakarmbak", 0],
+        "46": ["DM Noddhulp | Dienstmotorfiets Noodhulp", 2]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
