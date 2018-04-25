@@ -121,7 +121,8 @@
               19: 'K-9 Unit',
               20: 'Mass Casualty Unit',
               21: 'Heavy Rescue + Boat',
-              22: 'Boat Trailer'
+              22: 'Boat Trailer',
+              23: 'Police Motorcycle'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -304,7 +305,8 @@
           19: 'K-9 Unit',
           20: 'Mass Casualty Unit',
           21: 'Heavy Rescue + Boat',
-          22: 'Boat Trailer'
+          22: 'Boat Trailer',
+          23: 'Police Motorcycle'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
