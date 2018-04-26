@@ -377,7 +377,7 @@
         352: 'Brand in Mehrfamilienhaus',
         353: 'Großkontrolle Betäubungsmittel',
         354: 'Grillunfall',
-        355: 'Waffenentzug'
+        355: 'Waffenentzug',
         356: 'Häusliche Gewalt - eskaliert'
       }
     };
