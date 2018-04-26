@@ -163,7 +163,11 @@ else if (I18n.locale == "de")
         "75": ["FLF", 0],
         "76": ["Rettungstreppe", 0],
         "77": ["AB-Gefahrgut", 0],
-        "78": ["AB-Einsatzleitung", 0]
+        "78": ["AB-Einsatzleitung", 0],
+        "79": ["SEK - ZF", 2],
+        "80": ["SEK - MTF", 2],
+        "81": ["MEK - ZF", 2],
+        "82": ["MEK - MTF", 2]
     };
 
 lssm.getVehicleNameById = function(vehicleId) {

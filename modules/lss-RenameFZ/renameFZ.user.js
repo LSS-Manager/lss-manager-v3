@@ -89,7 +89,11 @@
               75: 'FLF',
               76: 'Rettungstreppe',
               77: 'AB-Gefahrgut',
-              78: 'AB-Einsatzleitung'
+              78: 'AB-Einsatzleitung',
+              79: 'SEK - ZF',
+              80: 'SEK - MTF',
+              81: 'MEK - ZF',
+              82: 'MEK - MTF'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -280,7 +284,11 @@
           75: 'FLF',
           76: 'Rettungstreppe',
           77: 'AB-Gefahrgut',
-          78: 'AB-Einsatzleitung'
+          78: 'AB-Einsatzleitung',
+          79: 'SEK - ZF',
+          80: 'SEK - MTF',
+          81: 'MEK - ZF',
+          82: 'MEK - MTF'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
