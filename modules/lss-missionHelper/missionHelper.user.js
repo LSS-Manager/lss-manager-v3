@@ -617,7 +617,10 @@
 				'1x Schlauchwagen (100%)<br>3x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (100%)<br>4x Funkstreifenwagen (100%)<br>min. 1x ' +
 				'Rettungstransportwagen, max. 10x Rettungstransportwagen (100%)<br>NEF (50%) / RTH (25%)<br><br><span class="badge">Credits: ~ 7500 </span>',
 				353 : '<h4>SICHERHEITSWACHE</h4>3x GruKw (100%)<br>1x leBefKw (100%)<br>3x Funkstreifenwagen (100%)',
-				354 : '1x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (75%) / Rettungstransporthubschrauber (50%)'
+				354 : '1x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (75%) / Rettungstransporthubschrauber (50%)',
+				355 : '4x MEK-Fahrzeuge (100%)<br>4x Funkstreifenwagen (100%)<br>1x FüKw (100%)<br><br><span class="badge">Credits: ~ 1700 </span>'
+				356 : '4x SEK-Fahrzeuge (100%)<br>4x Funkstreifenwagen (100%)<br>1x FüKw (100%)<br>Rettungstransportwagen<br><br><span class="badge">' +
+				'Credits: ~ 1700 </span>'
 			}
 		}
 

@@ -17,6 +17,8 @@
       thw: 'THW',
       bp: 'BP ',
       bma: 'BMA',
+      sek: 'SEK',
+      mek: 'MEK',
       bmaLong: 'Brandmeldeanlage',
       show: "Ein-/Ausblenden",
       keywords: {
@@ -374,7 +376,9 @@
         351: 'Brand in Terminal',
         352: 'Brand in Mehrfamilienhaus',
         353: 'Großkontrolle Betäubungsmittel',
-        354: 'Grillunfall'
+        354: 'Grillunfall',
+        355: 'Waffenentzug'
+        356: 'Häusliche Gewalt - eskaliert'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1269,7 +1273,9 @@
       351: 'B 4',
       352: 'B 4',
       353: 'SICHERHEITSWACHE',
-      354: 'RD 2'
+      354: 'RD 2',
+      355: 'MEK 1',
+      356: 'SEK 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1912,7 +1918,9 @@
       label = 'label-danger';
     }
     if (aaoText.match(I18n.t('lssm.missionKeywordDefaults.pol')) ||
-      aaoText.match(I18n.t('lssm.missionKeywordDefaults.bp'))) {
+      aaoText.match(I18n.t('lssm.missionKeywordDefaults.bp')) ||
+      aaoText.match(I18n.t('lssm.missionKeywordDefaults.sek')) ||
+      aaoText.match(I18n.t('lssm.missionKeywordDefaults.mek'))) {
       label = 'label-success';
     }
     if (aaoText.match(I18n.t('lssm.missionKeywordDefaults.thw'))) {
