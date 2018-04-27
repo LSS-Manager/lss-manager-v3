@@ -378,7 +378,10 @@
         353: 'Großkontrolle Betäubungsmittel',
         354: 'Grillunfall',
         355: 'Waffenentzug',
-        356: 'Häusliche Gewalt - eskaliert'
+        356: 'Häusliche Gewalt - eskaliert',
+        357: 'Bank: Stiller Alarm',
+        358: 'Banküberfall',
+        359: 'Geplante Razzia - verdächtiger Flüchtig'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -576,7 +579,8 @@
         176: 'Stroke',
         177: 'Unconscious Person',
         178: 'Hemorrhage',
-        179: 'Burst water main'
+        179: 'Burst water main',
+        180: 'Shots fired at Officer'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -895,7 +899,8 @@
         297: 'Brand in museum',
         298: 'Brand in museum',
         299: 'Brandend plezierjacht',
-        300: 'Brandend plezierjacht'
+        300: 'Brandend plezierjacht',
+        301: 'Inbraakalarm'
       }
     };
 
@@ -1275,7 +1280,10 @@
       353: 'SICHERHEITSWACHE',
       354: 'RD 2',
       355: 'MEK 1',
-      356: 'SEK 1'
+      356: 'SEK 1',
+      357: 'POL 1',
+      358: 'SEK 2',
+      359: 'BP 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1457,7 +1465,8 @@
       176: 'MED 1',
       177: 'MED 1',
       178: 'MED 1',
-      179: 'TECH WATER'
+      179: 'TECH WATER',
+      180: 'POL 6'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1760,7 +1769,8 @@
       297: 'MIDDEL BRAND',
       298: 'GROTE BRAND',
       299: 'KLEINE BRAND',
-      300: 'MIDDEL BRAND'
+      300: 'MIDDEL BRAND',
+      301: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
