@@ -620,7 +620,12 @@
 				354 : '1x Rettungstransportwagen (100%)<br>Notarzteinsatzfahrzeug (75%) / Rettungstransporthubschrauber (50%)',
 				355 : '4x MEK-Fahrzeuge (100%)<br>4x Funkstreifenwagen (100%)<br>1x FüKw (100%)<br><br><span class="badge">Credits: ~ 1700 </span>',
 				356 : '4x SEK-Fahrzeuge (100%)<br>4x Funkstreifenwagen (100%)<br>1x FüKw (100%)<br>Rettungstransportwagen<br><br><span class="badge">' +
-				'Credits: ~ 1700 </span>'
+				'Credits: ~ 1700 </span>',
+				357 : '2x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 500 </span>',
+				358 : '8x Funkstreifenwagen (100%)<br>4x SEK-Fahrzeuge (100%)<br>1x FüKw (100%)<br>1x Polizeihubschrauber (100%)<br>Rettungstransportwagen' +
+				'<br><br><span class="badge">Credits: ~ 4000 </span>',
+				359 : '5x Funkstreifenwagen (100%)<br>4x MEK-Fahrzeuge (100%)<br>6x GruKw (100%)<br>2x leBefKw (100%)<br>1x GefKw (100%)<br>1x FüKw (100%)<br>' +
+				'1x Polizeihubschrauber (100%)<br><br><span class="badge">Credits: ~ 9000 </span>'
 			}
 		}
 
@@ -873,7 +878,9 @@
 				177 : '1x Ambulance (100%)',
 				178 : '1x Ambulance (100%)',
 				179 : '3x Firetrucks (100%)<br>2x Heavy Rescue (100%)<br>1x Battalion Chief (100%)<br>1x Police Car (100%)<br>Ambulances<br><br><span class="badge">' +
-				'Credits: ~ 1200 </span>'
+				'Credits: ~ 1200 </span>',
+				180 : '8x Police Cars (100%)<br>2x K9-Units (100%)<br>1x SWAT-Car (100%)<br>1x Police Helicopter (100%)<br>min. 1x Ambulance<br><span class="badge">' +
+				'Credits: ~ 4100 </span>'
 			}
 		}
 
@@ -1348,7 +1355,8 @@
 				299 : '1x Tankautospuit (100%)<br>1x Waterongevallenvoertuig (10%)<br>1x Waterongevallenaanhanger (70%)<br>1x Politieauto (100%)<br><br>' +
 				'<span class="badge">Credits: ~ 900 </span>',
 				300 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Waterongevallenvoertuig (40%)<br>1x Waterongevallenaanhanger (100%)<br>1x Politieauto (100%)' +
-				'<br>Ambulances <br><br><span class="badge">Credits: ~ 1450 </span>'
+				'<br>Ambulances <br><br><span class="badge">Credits: ~ 1450 </span>',
+				301 : '2x Politie Cars (100%)<br><br><span class="badge">Credits: ~ 750 </span>'
 			}
 		}
 	}
