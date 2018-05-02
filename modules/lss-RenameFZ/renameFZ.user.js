@@ -330,7 +330,7 @@
           10: 'SL',
           11: 'WvD',
           12: 'TST-NBB 8/9',
-          13: 'TS8 (4x4)'
+          13: 'TS8 (4x4)',
           14: 'TST-NBB 6/7',
           15: 'TST-NBB 4',
           16: 'Ambulance',
