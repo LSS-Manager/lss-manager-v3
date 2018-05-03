@@ -87,13 +87,7 @@
 
     function getCreditsOfNextRank(earnedCredits){
         let ranks = I18n.t('lssm.creditserweiterung.ranks');
-        for (var key in ranks) {
-            if(earnedCredits > key){
-                continue;
-            } else {
-                return key;
-            }
-        }
+        for (let key in ranks) { if(earnedCredits <= key){ return key; } }
         return null;
     }
 
@@ -136,7 +130,7 @@
         markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
         markup += lssm.getlink("/modules/lss-creditserweiterung/img/icons8-money-box-150.png") + '">';
         markup += '<span class="visible-xs">' + I18n.t('lssm.creditserweiterung.texts.dropdownName') + '</span>';
-        markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledy="menu_Creditsverwaltung">';
+        markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="menu_Creditsverwaltung">';
         markup += '<li role="presentation" id="creditserweiterungCredits"></li>';
         markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
         markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
