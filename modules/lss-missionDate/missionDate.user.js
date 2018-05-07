@@ -139,8 +139,8 @@
     missionMarkerAdd = function(data){
         if (showTimes == true) {
             writeTimes();
-            missionMarkerAddOrig(data);
         }
+        missionMarkerAddOrig(data);
     };
 
 
