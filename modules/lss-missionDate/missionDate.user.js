@@ -93,10 +93,12 @@
 
     // Write Times in Missionlist
     let writeTimes = function() {
-        $('a[id*="mission_caption"]').each(function() {
+        $('a[id*="mission_caption"]:visible').each(function() {
             let einsatz = $(this)[0];
             let einsatzId = einsatz.id.replace(/\D*/, '');
+            console.log(einsatzId + ": Zeit schon geschrieben: " + (typeof $('#mission_time_'+einsatzId)[0] != "undefined"));
             if(!$('#mission_time_'+einsatzId)[0]){
+                console.log("Hole Einsatzzeit von " + einsatzId);
                 let response = $.ajax({
                     type: "GET",
                     url: "./missions/"+einsatzId,
