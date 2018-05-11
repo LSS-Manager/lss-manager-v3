@@ -11,6 +11,8 @@
         if(text !== undefined && text !== ""){
 	//Fatherday
 	text = text.replace('Brennender Bollerwagen', '[Vatertag] Brennender Bollerwagen');
+	//Motherday
+	text = text.replace('Brennender Blumenstrauß', '[Muttertag] Brennender Blumenstrauß');
 	//Eastern
 	text = text.replace('Ostereier-Dieb', '[OSTERN]	Ostereier-Dieb');
 	text = text.replace('Pinsel aus Werkstatt entwendet', '[OSTERN] Pinsel aus Werkstatt entwendet');
