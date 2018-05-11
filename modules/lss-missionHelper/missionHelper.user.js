@@ -625,7 +625,13 @@
 				358 : '8x Funkstreifenwagen (100%)<br>4x SEK-Fahrzeuge (100%)<br>1x FüKw (100%)<br>1x Polizeihubschrauber (100%)<br>Rettungstransportwagen' +
 				'<br><br><span class="badge">Credits: ~ 4000 </span>',
 				359 : '5x Funkstreifenwagen (100%)<br>4x MEK-Fahrzeuge (100%)<br>6x GruKw (100%)<br>2x leBefKw (100%)<br>1x GefKw (100%)<br>1x FüKw (100%)<br>' +
-				'1x Polizeihubschrauber (100%)<br><br><span class="badge">Credits: ~ 9000 </span>'
+				'1x Polizeihubschrauber (100%)<br><br><span class="badge">Credits: ~ 9000 </span>',
+				360 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				361 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				362 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				363 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				364 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				365 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>'
 			}
 		}
 

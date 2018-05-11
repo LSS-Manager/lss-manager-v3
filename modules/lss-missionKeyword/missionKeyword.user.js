@@ -381,7 +381,13 @@
         356: 'Häusliche Gewalt - eskaliert',
         357: 'Bank: Stiller Alarm',
         358: 'Banküberfall',
-        359: 'Geplante Razzia - verdächtiger Flüchtig'
+        359: 'Geplante Razzia - verdächtiger Flüchtig',
+        360: 'Brennender Blumenstrauß',
+        361: 'Brennender Blumenstrauß',
+        362: 'Brennender Blumenstrauß',
+        363: 'Brennender Blumenstrauß',
+        364: 'Brennender Blumenstrauß',
+        365: 'Brennender Blumenstrauß'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1288,7 +1294,13 @@
       356: 'SEK 1',
       357: 'POL 1',
       358: 'SEK 2',
-      359: 'BP 3'
+      359: 'BP 3',
+      360: 'B 0.1',
+      361: 'B 0.1',
+      362: 'B 0.1',
+      363: 'B 0.1',
+      364: 'B 0.1',
+      365: 'B 0.1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
