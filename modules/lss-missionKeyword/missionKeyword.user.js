@@ -580,7 +580,9 @@
         177: 'Unconscious Person',
         178: 'Hemorrhage',
         179: 'Burst water main',
-        180: 'Shots fired at Officer'
+        180: 'Shots fired at Officer',
+        181: 'School fire',
+        182: 'Cafeteria fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -900,7 +902,10 @@
         298: 'Brand in museum',
         299: 'Brandend plezierjacht',
         300: 'Brandend plezierjacht',
-        301: 'Inbraakalarm'
+        301: 'Inbraakalarm',
+        302: 'Brand in kantoorgebouw',
+        303: 'Brand in kantoorgebouw',
+        304: 'Brand in kantoorgebouw'
       }
     };
 
@@ -1466,7 +1471,9 @@
       177: 'MED 1',
       178: 'MED 1',
       179: 'TECH WATER',
-      180: 'POL 6'
+      180: 'POL 6',
+      181: 'FIRE 3',
+      182: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1770,7 +1777,10 @@
       298: 'GROTE BRAND',
       299: 'KLEINE BRAND',
       300: 'MIDDEL BRAND',
-      301: 'P 1'
+      301: 'P 1',
+      302: 'KLEINE BRAND',
+      303: 'MIDDEL BRAND',
+      304: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
