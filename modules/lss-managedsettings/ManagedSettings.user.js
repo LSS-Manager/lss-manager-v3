@@ -109,6 +109,9 @@
                 '<button class="btn btn-default settings-reset" data-module="' + moduleKey +
                 '" style="margin-left: 5px;" type="reset"><span class="glyphicon glyphicon-floppy-remove" title="' + I18n.t(
                     'lssm.managedsettings.reset_btn') + '"></span></button ></h3>';
+            if (module.info_text) {
+                markup += '<h5 id="' + moduleKey + '_description">' + module.info_text + '</h5>';
+            }
             markup += '</div>';
             $('#module_settings').append(markup);
             for (var settingsKey in module.settings) {

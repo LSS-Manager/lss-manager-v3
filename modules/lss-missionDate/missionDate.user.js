@@ -13,7 +13,7 @@
 
   I18n.translations.nl.lssm.missionDate = {
     ago: 'geleden',
-    months: ['jan', 'feb', 'maart', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
+    months: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
@@ -64,8 +64,8 @@
 
     if (I18n.locale === 'en') {
       var offset = today.getTimezoneOffset() / 60;
-      // Zahl 4, weil EST UTC+4 ist
-      var newOffset = 4 - offset;
+      // Zahl 5, weil EST UTC+5 ist
+      var newOffset = 5 - offset;
       newHour -= newOffset;
     }
 

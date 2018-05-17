@@ -299,14 +299,13 @@ lssm.Module = {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
-            nl: 'Zelgemaakte inzetten opslaan.'
+            nl: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
-            de: 'Funktion um sebst erstlle VGE zu speichern.',
+            de: 'Funktion um selbst erstellte VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
-            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens ' +
-            'kan gebruiken.'
+            nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
@@ -383,6 +382,22 @@ lssm.Module = {
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
+        develop: false
+    },
+    Eventsmission: {
+        name: {
+            de: 'Markiert Eventeinsätze',
+            en: 'Marked events',
+            nl: 'Merken gebeurtenissen'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
+            en: 'Displays the current events with capitalized LINE!',
+            nl: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
+        },
+        source: '/modules/lss-eventmissions/eventmission.user.js',
         develop: false
     },
     DestinationFilter: {
@@ -797,6 +812,71 @@ lssm.Module = {
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
         noapp: false,
+        inframe: true,
+        develop: false
+    },
+    creditserweiterung: {
+        name: {
+            de: 'Creditserweiterung',
+            en: 'Credit expansion',
+            nl: 'Credits-uitbreiding'
+        },
+        active: false,
+        description: {
+            de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
+            en: 'Add some special information about the credits in a drop-down list',
+            nl: 'Voegt wat speciale informatie over de credits toe in een vervolgkeuzelijst'
+        },
+        source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    displayUserId: {
+        name: {
+            de: 'User-ID',
+            en: 'User-ID',
+            nl: 'User-ID'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt die eigene ID in der Kopfzeile an',
+            en: 'shows your ID in the header',
+            nl: 'Geeft uw eigen ID in de kopregel weer'
+        },
+        source: '/modules/lss-userid/lss-userId.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    showChatButtonAbove: {
+        name: {
+            de: 'show Chatbutton Above',
+            en: 'show Chatbutton Above',
+            nl: 'Toon boven chat-knop'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
+            en: 'Displays the Chat History button in the chat header.',
+            nl: 'Toont de chatgeschiedenisknop  in de chatheader.'
+        },
+        source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    showNotTransportButtonAbove: {
+        name: {
+            de: 'show Patient entlassen Above',
+        },
+        active: false,
+        description: {
+            de: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
+        },
+        source: '/modules/lss-show-notTransportPatientButtonAbove/show-notTransportPatientButtonAbove.user.js',
+        noapp: false,
+        supportedLocales: ['de'],
         inframe: true,
         develop: false
     }
