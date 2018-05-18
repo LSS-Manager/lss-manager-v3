@@ -631,7 +631,9 @@
 				362 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 				363 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 				364 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
-				365 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>'
+				365 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				366 : '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 550 </span>',
+				367 : '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>'
 			}
 		}
 

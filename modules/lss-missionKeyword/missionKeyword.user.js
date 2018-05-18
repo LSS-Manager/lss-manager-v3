@@ -387,7 +387,9 @@
         362: 'Brennender Blumenstrauß',
         363: 'Brennender Blumenstrauß',
         364: 'Brennender Blumenstrauß',
-        365: 'Brennender Blumenstrauß'
+        365: 'Brennender Blumenstrauß',
+        366: 'Vollstreckung Haftbefehl',
+        367: 'Vollstreckung Haftbefehl - eskaliert'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1304,7 +1306,9 @@
       362: 'B 0.1',
       363: 'B 0.1',
       364: 'B 0.1',
-      365: 'B 0.1'
+      365: 'B 0.1',
+      366: 'POL 1',
+      367: 'SEK 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
