@@ -588,7 +588,8 @@
         179: 'Burst water main',
         180: 'Shots fired at Officer',
         181: 'School fire',
-        182: 'Cafeteria fire'
+        182: 'Cafeteria fire',
+        183: 'Fire in fast food restaurant'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -911,7 +912,10 @@
         301: 'Inbraakalarm',
         302: 'Brand in kantoorgebouw',
         303: 'Brand in kantoorgebouw',
-        304: 'Brand in kantoorgebouw'
+        304: 'Brand in kantoorgebouw',
+        305: 'Verkeersongeval met touringcar',
+        306: 'Verkeersongeval met touringcar',
+        307: 'Verkeersongeval met touringcar'
       }
     };
 
@@ -1485,7 +1489,8 @@
       179: 'TECH WATER',
       180: 'POL 6',
       181: 'FIRE 3',
-      182: 'FIRE 2'
+      182: 'FIRE 2',
+      183: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1792,7 +1797,10 @@
       301: 'P 1',
       302: 'KLEINE BRAND',
       303: 'MIDDEL BRAND',
-      304: 'GROTE BRAND'
+      304: 'GROTE BRAND',
+      305: 'GROTE HV',
+      306: 'GROTE HV',
+      307: 'GROTE HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

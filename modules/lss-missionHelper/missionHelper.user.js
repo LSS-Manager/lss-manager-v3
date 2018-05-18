@@ -889,7 +889,8 @@
 				'Credits: ~ 4100 </span>',
 				181 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Heavy Rescue<br>1x Water Tanker (25%)<br>1x Mobile Air (50%)<br>1x Mobile ' +
 				'Command (20%)<br>Ambulances<br><br><span class="badge">Credits: ~ 6000 </span>',
-				182 : '3x Firetrucks<br>1x Battalion Chief<br>Ambulances<br><br><span class="badge">Credits: ~ 1300 </span>'
+				182 : '3x Firetrucks<br>1x Battalion Chief<br>Ambulances<br><br><span class="badge">Credits: ~ 1300 </span>',
+				183 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Mobile Air<br><br><span class="badge">Credits: ~ 1850 </span>'
 			}
 		}
 
@@ -1369,7 +1370,13 @@
 				302 : '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 850 </span>',
 				303 : '2x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1650 </span>',
 				304 : '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD (50%)<br>1x ' +
-				'Politieauto<br><br><span class="badge">Credits: ~ 2400 </span>'
+				'Politieauto<br><br><span class="badge">Credits: ~ 2400 </span>',
+				305 : '1x Tankautospuit<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>2x Politieautos<br>min. 3x Ambulances<br><br><span class="badge">' +
+				'Credits: ~ 1450 </span>',
+				306 : '2x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOvD (50%)<br>3x Politieautos<br>min. 5x Ambulances<br><br><span class="badge">' +
+				'Credits: ~ 2100 </span>',
+				307 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>4x Politieautos<br>1x OvD-P<br>min. 7x Ambulances' +
+				'<br><br><span class="badge">Credits: ~ 3250 </span>'
 			}
 		}
 	}
