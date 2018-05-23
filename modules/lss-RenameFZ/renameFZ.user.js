@@ -126,7 +126,9 @@
               20: 'Mass Casualty Unit',
               21: 'Heavy Rescue + Boat',
               22: 'Boat Trailer',
-              23: 'Police Motorcycle'
+              23: 'Police Motorcycle',
+              24: 'Large Fireboat',
+              25: 'Large Rescue Boat'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -314,7 +316,9 @@
           20: 'Mass Casualty Unit',
           21: 'Heavy Rescue + Boat',
           22: 'Boat Trailer',
-          23: 'Police Motorcycle'
+          23: 'Police Motorcycle',
+          24: 'Large Fireboat',
+          25: 'Large Rescue Boat'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
