@@ -1282,9 +1282,6 @@ lssm.modules = {
         } catch (e) {
             console.log("On lssm_module load: " + e.message);
         }
-    },
-    isActive: function(e) {
-        return lssm.Module[e].active;
     }
 };
 
