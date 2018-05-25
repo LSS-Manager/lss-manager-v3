@@ -591,7 +591,9 @@
         180: 'Shots fired at Officer',
         181: 'School fire',
         182: 'Cafeteria fire',
-        183: 'Fire in fast food restaurant'
+        183: 'Fire in fast food restaurant',
+        184: 'Containership fire',
+        185: 'Dock Crane fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1494,7 +1496,9 @@
       180: 'POL 6',
       181: 'FIRE 3',
       182: 'FIRE 2',
-      183: 'FIRE 2'
+      183: 'FIRE 2',
+      184: 'FIRE 3 SHIP',
+      185: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
