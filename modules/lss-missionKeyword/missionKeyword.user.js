@@ -389,7 +389,8 @@
         364: 'Brennender Blumenstrauß',
         365: 'Brennender Blumenstrauß',
         366: 'Vollstreckung Haftbefehl',
-        367: 'Vollstreckung Haftbefehl - eskaliert'
+        367: 'Vollstreckung Haftbefehl - eskaliert',
+        368: 'Brennende Kirche'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -591,7 +592,9 @@
         180: 'Shots fired at Officer',
         181: 'School fire',
         182: 'Cafeteria fire',
-        183: 'Fire in fast food restaurant'
+        183: 'Fire in fast food restaurant',
+        184: 'Containership fire',
+        185: 'Dock Crane fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -917,7 +920,9 @@
         304: 'Brand in kantoorgebouw',
         305: 'Verkeersongeval met touringcar',
         306: 'Verkeersongeval met touringcar',
-        307: 'Verkeersongeval met touringcar'
+        307: 'Verkeersongeval met touringcar',
+        308: 'Natuurbrand',
+        309: 'Natuurbrand'
       }
     };
 
@@ -1308,7 +1313,8 @@
       364: 'B 0.1',
       365: 'B 0.1',
       366: 'POL 1',
-      367: 'SEK 1'
+      367: 'SEK 1',
+      368: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1494,7 +1500,9 @@
       180: 'POL 6',
       181: 'FIRE 3',
       182: 'FIRE 2',
-      183: 'FIRE 2'
+      183: 'FIRE 2',
+      184: 'FIRE 3 SHIP',
+      185: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1804,7 +1812,9 @@
       304: 'GROTE BRAND',
       305: 'GROTE HV',
       306: 'GROTE HV',
-      307: 'GROTE HV'
+      307: 'GROTE HV',
+      308: 'ZEER GROTE NATUURBRAND',
+      309: 'ZEER GROTE NATUURBRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

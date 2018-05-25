@@ -31,7 +31,9 @@ if(I18n.locale == "en")
         "20": ["Mass Casualty Unit", 1],
         "21": ["Heavy Rescue + Boat", 0],
         "22": ["Boat Trailer", 0],
-        "23": ["Police Motorcycle", 2]
+        "23": ["Police Motorcycle", 2],
+        "24": ["Large Fireboat", 0],
+        "25": ["Large Rescue Boat", 1]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {

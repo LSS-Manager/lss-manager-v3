@@ -633,7 +633,10 @@
 				364 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 				365 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 				366 : '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 550 </span>',
-				367 : '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>'
+				367 : '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>',
+				368 : '15x Löschfahrzeuge<br>3x Drehleitern<br>2x Schlauchwagen<br>2x GW-Atemschutz<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2' +
+				'<br>1x GW-Messtechnik<br>4x Funkstreifenwagen<br>1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>1x LKW K 9<br>1x BRmG R<br>1x Anhänger DLE<br>' +
+				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>'
 			}
 		}
 
@@ -892,7 +895,10 @@
 				181 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Heavy Rescue<br>1x Water Tanker (25%)<br>1x Mobile Air (50%)<br>1x Mobile ' +
 				'Command (20%)<br>Ambulances<br><br><span class="badge">Credits: ~ 6000 </span>',
 				182 : '3x Firetrucks<br>1x Battalion Chief<br>Ambulances<br><br><span class="badge">Credits: ~ 1300 </span>',
-				183 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Mobile Air<br><br><span class="badge">Credits: ~ 1850 </span>'
+				183 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Mobile Air<br><br><span class="badge">Credits: ~ 1850 </span>',
+				184 : '4x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Heavy Rescue<br>2x Mobile Air<br>1x HazMat<br>1x Mobile Command<br>' +
+				'1x Large Rescue Boat<br>1x Large Fireboat<br>max. 6x Ambulances<br><br><span class="badge">Credits: ~ 4500 </span>',
+				185 : '3x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Large Fireboat<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>'
 			}
 		}
 
@@ -1097,16 +1103,13 @@
 				139 : '1x Tankautospuit (100%)<br>1x Slangenwagen (10%)<br><br><span class="badge">Credits: ~ 110 </span>',
 				140 : '2x Tankautospuiten (100%)<br>1x Slangenwagen (40%)<br>1x OvD-B (100%)<br><br>' +
 				'<span class="badge">Credits: ~ 400 </span>',
-				141 : '3x Tankautospuiten (100%)<br>1x Slangenwagen (100%)<br>1x Commandowagen (10%)<br>' +
-				'1x OvD-B (100%)<br>1x HOVD (100%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				141 : '3x Tankautospuiten (100%)<br>1x Slangenwagen (100%)<br>1x OvD-B (100%)<br>1x HOVD (50%)<br><br><span class="badge">Credits: ~ 1000 </span>',
 				142 : '4x Tankautospuiten (100%)<br>2x Slangenwagen (100%)<br>1x Hulpverleningsvoertuig (50%)<br>' +
-				'1x Commandowagen (100%)<br>1x OvD-B (100%)<br>1x HOVD (100%)<br><br><span class="badge">' +
-				'Credits: ~ 1200 </span>',
-				143 : '8x Tankautospuiten (100%)<br>2x Slangenwagen (100%)<br>1x Hulpverleningsvoertuig (100%)<br>' +
-				'1x Commandowagen (100%)<br>2x OvD-Bs (100%)<br>1x HOVD (100%)<br><br>' +
-				'<span class="badge">Credits: ~ 3500 </span>',
+				'1x OvD-B (100%)<br>1x HOVD (100%)<br><br><span class="badge">Credits: ~ 1750 </span>',
+				143 : '8x Tankautospuiten (100%)<br>2x Slangenwagen (100%)<br>1x Hulpverleningsvoertuig (100%)<br>1x Adembeschermingsvoertuig (20%)<br>' +
+				'1x Commandowagen (50%)<br>2x OvD-Bs (100%)<br>1x HOVD (100%)<br><br><span class="badge">Credits: ~ 4000 </span>',
 				144 : '12x Tankautospuiten (100%)<br>3x Slangenwagen (100%)<br>2x Hulpverleningsvoertuigen (100%)<br>1x Commandowagen (100%)<br>' +
-				'1x Adembeschermingsvoertuig (20%)<br>3x OvD-Bs<br>2x HOVDs<br><br><span class="badge">Credits: ~ 7000</span>',
+				'1x Adembeschermingsvoertuig (50%)<br>3x OvD-Bs<br>2x HOVDs<br><br><span class="badge">Credits: ~ 8000</span>',
 				145 : '40x Tankautospuiten (100%)<br>8x Slangenwagen (100%)<br>4x Hulpverleningsvoertuigen (100%)<br>' +
 				'1x Adembeschermingsvoertuig (100%)<br>10x OvD-Bs (100%)<br>4x HOVDs (100%)<br>2x Commandowagen (100%)' +
 				'<br><br><span class="badge">Credits: ~ 21000 </span>',
@@ -1367,7 +1370,7 @@
 				299 : '1x Tankautospuit (100%)<br>1x Waterongevallenvoertuig (10%)<br>1x Waterongevallenaanhanger (70%)<br>1x Politieauto (100%)<br><br>' +
 				'<span class="badge">Credits: ~ 900 </span>',
 				300 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Waterongevallenvoertuig (40%)<br>1x Waterongevallenaanhanger (100%)<br>1x Politieauto (100%)' +
-				'<br>Ambulances <br><br><span class="badge">Credits: ~ 1450 </span>',
+				'<br>Ambulances<br><br><span class="badge">Credits: ~ 1450 </span>',
 				301 : '2x Politie Cars (100%)<br><br><span class="badge">Credits: ~ 750 </span>',
 				302 : '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 850 </span>',
 				303 : '2x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1650 </span>',
@@ -1378,7 +1381,11 @@
 				306 : '2x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOvD (50%)<br>3x Politieautos<br>min. 5x Ambulances<br><br><span class="badge">' +
 				'Credits: ~ 2100 </span>',
 				307 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>4x Politieautos<br>1x OvD-P<br>min. 7x Ambulances' +
-				'<br><br><span class="badge">Credits: ~ 3250 </span>'
+				'<br><br><span class="badge">Credits: ~ 3250 </span>',
+				308 : '16x Tankautospuiten<br>3x Hulpverleningsvoertuig<br>4x OvD-Bs<br>1x Adembeschermingsvoertuig (80%)<br>4x Slangenwagen<br>2x HOVD<br>' +
+				'1x Commandowagen<br>3x Politieautos<br><br><span class="badge">Credits: ~ 11500 </span>',
+				309 : '24x Tankautospuiten<br>4x Hulpverleningsvoertuig<br>6x OvD-Bs<br>1x Adembeschermingsvoertuig<br>6x Slangenwagen<br>3x HOVD<br>' +
+				'2x Commandowagen<br>5x Politieautos<br><br><span class="badge">Credits: ~ 18750 </span>'
 			}
 		}
 	}
