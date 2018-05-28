@@ -753,10 +753,9 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
-            en: 'Shows the date when the mission was generated and the hours/minutes since then',
-            nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er ' +
-            'verstreken is sinds de melding binnenkwam.'
+            de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an. Bei Bedarf auch Anzeige in der Einsatzliste',
+            en: 'Shows the date when the mission was generated and the hours/minutes since then. Possibility to show also in Missionlist',
+            nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er verstreken is sinds de melding binnenkwam. Mogelijkheid om ook in Missie lijst te tonen'
         },
         source: '/modules/lss-missionDate/missionDate.user.js',
         noapp: false, // Nicht im App-Store auflisten
