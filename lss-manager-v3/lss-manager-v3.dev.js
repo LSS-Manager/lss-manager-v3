@@ -1352,7 +1352,6 @@ lssm.modules = {
         return lssm.Module[e].active;
     }
 };
-};
 
 /**
  * Add hooks to lssm
