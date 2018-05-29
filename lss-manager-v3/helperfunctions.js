@@ -28,7 +28,12 @@ if(I18n.locale == "en")
         "17": ["ARFF Crash Tender", 0],
         "18": ["Rescue Engine", 0],
         "19": ["K-9 Unit", 2],
-        "20": ["Mass Casualty Unit", 1]
+        "20": ["Mass Casualty Unit", 1],
+        "21": ["Heavy Rescue + Boat", 0],
+        "22": ["Boat Trailer", 0],
+        "23": ["Police Motorcycle", 2],
+        "24": ["Large Fireboat", 0],
+        "25": ["Large Rescue Boat", 1]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {
@@ -76,7 +81,9 @@ else if (I18n.locale == "nl")
         "41": ["CT (8x8) | Crashtender (8x8)", 0],
         "42": ["CT (6x6) | Crashtender (6x6)", 0],
         "43": ["CT (4x4) | Crashtender (4x4)", 0],
-        "44": ["AFO/OSC | Airport Fire Officer / On Scene Commander", 0]
+        "44": ["AFO/OSC | Airport Fire Officer / On Scene Commander", 0],
+        "45": ["DBH | Dompelpomphaakarmbak", 0],
+        "46": ["DM Noddhulp | Dienstmotorfiets Noodhulp", 2]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
@@ -156,7 +163,13 @@ else if (I18n.locale == "de")
         "73": ["GRTW", 1],
         "74": ["NAW", 1],
         "75": ["FLF", 0],
-        "76": ["Rettungstreppe", 0]
+        "76": ["Rettungstreppe", 0],
+        "77": ["AB-Gefahrgut", 0],
+        "78": ["AB-Einsatzleitung", 0],
+        "79": ["SEK - ZF", 2],
+        "80": ["SEK - MTF", 2],
+        "81": ["MEK - ZF", 2],
+        "82": ["MEK - MTF", 2]
     };
 
 lssm.getVehicleNameById = function(vehicleId) {

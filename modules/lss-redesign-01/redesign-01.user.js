@@ -272,6 +272,11 @@
         'height: 16px;'+
         'cursor: pointer'+
       '}'+
+      '.mission_list_patient_icon {'+
+        'margin - right: 5 px;'+
+        'width: 20px;'+
+        'height: 20px'+
+      '}'+
       '.chatToSelf {'+
         'background-color: #d84f4b;'+
         'color: white'+
