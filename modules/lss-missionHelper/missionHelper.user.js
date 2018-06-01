@@ -1389,7 +1389,9 @@
 				308 : '16x Tankautospuiten<br>3x Hulpverleningsvoertuig<br>4x OvD-Bs<br>1x Adembeschermingsvoertuig (80%)<br>4x Slangenwagen<br>2x HOVD<br>' +
 				'1x Commandowagen<br>3x Politieautos<br><br><span class="badge">Credits: ~ 11500 </span>',
 				309 : '24x Tankautospuiten<br>4x Hulpverleningsvoertuig<br>6x OvD-Bs<br>1x Adembeschermingsvoertuig<br>6x Slangenwagen<br>3x HOVD<br>' +
-				'2x Commandowagen<br>5x Politieautos<br><br><span class="badge">Credits: ~ 18750 </span>'
+				'2x Commandowagen<br>5x Politieautos<br><br><span class="badge">Credits: ~ 18750 </span>',
+				310 : '1x Politieauto<br>min. 1x Ambulance<br>1x MMT-Auto (50%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				311 : '1x Politieauto<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 650 </span>'
 			}
 		}
 	}

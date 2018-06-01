@@ -924,7 +924,9 @@
         306: 'Verkeersongeval met touringcar',
         307: 'Verkeersongeval met touringcar',
         308: 'Natuurbrand',
-        309: 'Natuurbrand'
+        309: 'Natuurbrand',
+        310: 'Verkeersongeval met scooter en fietser',
+        311: 'Verkeersongeval met fietser en fietser'
       }
     };
 
@@ -1818,7 +1820,9 @@
       306: 'GROTE HV',
       307: 'GROTE HV',
       308: 'ZEER GROTE NATUURBRAND',
-      309: 'ZEER GROTE NATUURBRAND'
+      309: 'ZEER GROTE NATUURBRAND',
+      310: 'A 2',
+      311: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
