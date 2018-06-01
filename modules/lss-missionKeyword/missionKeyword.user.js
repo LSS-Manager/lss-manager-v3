@@ -390,7 +390,8 @@
         365: 'Brennender Blumenstrauß',
         366: 'Vollstreckung Haftbefehl',
         367: 'Vollstreckung Haftbefehl - eskaliert',
-        368: 'Brennende Kirche'
+        368: 'Brennende Kirche',
+        369: 'Austritt Kohlenmonoxid'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -594,7 +595,8 @@
         182: 'Cafeteria fire',
         183: 'Fire in fast food restaurant',
         184: 'Containership fire',
-        185: 'Dock Crane fire'
+        185: 'Dock Crane fire',
+        186: 'Recycling Centre fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -922,7 +924,9 @@
         306: 'Verkeersongeval met touringcar',
         307: 'Verkeersongeval met touringcar',
         308: 'Natuurbrand',
-        309: 'Natuurbrand'
+        309: 'Natuurbrand',
+        310: 'Verkeersongeval met scooter en fietser',
+        311: 'Verkeersongeval met fietser en fietser'
       }
     };
 
@@ -1314,7 +1318,8 @@
       365: 'B 0.1',
       366: 'POL 1',
       367: 'SEK 1',
-      368: 'B 4'
+      368: 'B 4',
+      369: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1472,7 +1477,7 @@
       152: 'TECH TRAIN',
       153: 'FIRE 4',
       154: 'ABC 1',
-      155: 'FIRE 5',
+      155: 'FIRE 4',
       156: 'MED 2',
       157: 'MED 2',
       158: 'TECH 1',
@@ -1502,7 +1507,8 @@
       182: 'FIRE 2',
       183: 'FIRE 2',
       184: 'FIRE 3 SHIP',
-      185: 'FIRE 2'
+      185: 'FIRE 2',
+      186: 'FIRE 5'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1814,7 +1820,9 @@
       306: 'GROTE HV',
       307: 'GROTE HV',
       308: 'ZEER GROTE NATUURBRAND',
-      309: 'ZEER GROTE NATUURBRAND'
+      309: 'ZEER GROTE NATUURBRAND',
+      310: 'A 2',
+      311: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

@@ -21,6 +21,11 @@
         $('[vehicle_group_id]').each(function () {
             $(this).find('div').after(' <span class="aaoZaehler">0</span>x');
         });
+
+        // Zähler-Reset Button
+        $('#mission-aao-group').after('<button id="resetAAOZaehler" class="btn  btn-default btn-xs" type="button">Reset AAO-Zähler</button>');
+        // Zähler-Reset Funktion
+        $('#resetAAOZaehler').click(function(){$('.aaoZaehler').replaceWith(' <span class="aaoZaehler">0</span>');});
     }
 
     /**

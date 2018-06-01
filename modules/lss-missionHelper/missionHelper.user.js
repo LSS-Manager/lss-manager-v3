@@ -636,7 +636,9 @@
 				367 : '6x Funkstreifenwagen<br>4x SEK-Fahrzeuge<br>1x FüKw<br><br><span class="badge">Credits: ~ 2800 </span>',
 				368 : '15x Löschfahrzeuge<br>3x Drehleitern<br>2x Schlauchwagen<br>2x GW-Atemschutz<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2' +
 				'<br>1x GW-Messtechnik<br>4x Funkstreifenwagen<br>1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>1x LKW K 9<br>1x BRmG R<br>1x Anhänger DLE<br>' +
-				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>'
+				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>',
+				369 : '2x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Rüstwagen (30%)<br>1x GW-Messtechnik (50%)<br>1x Einsatzleitwagen 1<br>1x Funkstreifenwagen<br>' +
+				'max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>'
 			}
 		}
 
@@ -898,7 +900,9 @@
 				183 : '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Mobile Air<br><br><span class="badge">Credits: ~ 1850 </span>',
 				184 : '4x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Heavy Rescue<br>2x Mobile Air<br>1x HazMat<br>1x Mobile Command<br>' +
 				'1x Large Rescue Boat<br>1x Large Fireboat<br>max. 6x Ambulances<br><br><span class="badge">Credits: ~ 4500 </span>',
-				185 : '3x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Large Fireboat<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>'
+				185 : '3x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Large Fireboat<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
+				186 : '12x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>3x Heavy Rescues<br>3x Water Tanker<br>1x Mobile Air<br>1x Mobile Command<br>' +
+				'2x Police Cars<br>max. 2x Ambulances<br><br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1385,7 +1389,9 @@
 				308 : '16x Tankautospuiten<br>3x Hulpverleningsvoertuig<br>4x OvD-Bs<br>1x Adembeschermingsvoertuig (80%)<br>4x Slangenwagen<br>2x HOVD<br>' +
 				'1x Commandowagen<br>3x Politieautos<br><br><span class="badge">Credits: ~ 11500 </span>',
 				309 : '24x Tankautospuiten<br>4x Hulpverleningsvoertuig<br>6x OvD-Bs<br>1x Adembeschermingsvoertuig<br>6x Slangenwagen<br>3x HOVD<br>' +
-				'2x Commandowagen<br>5x Politieautos<br><br><span class="badge">Credits: ~ 18750 </span>'
+				'2x Commandowagen<br>5x Politieautos<br><br><span class="badge">Credits: ~ 18750 </span>',
+				310 : '1x Politieauto<br>min. 1x Ambulance<br>1x MMT-Auto (50%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				311 : '1x Politieauto<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 650 </span>'
 			}
 		}
 	}
