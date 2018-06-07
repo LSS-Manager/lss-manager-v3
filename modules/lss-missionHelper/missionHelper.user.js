@@ -454,7 +454,7 @@
 				269 : '1x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 200 </span>',
 				270 : '1x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 200 </span>',
 				271 : '10x Löschfahrzeuge (100%)<br>2x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (100%)<br>' +
-				'1x Drehleiter (100%)<br>1x Dekon P (100%)<br>1x GW-Gefahrgut(100%)<br>1x GW-Messtechnik (100%)<br>' +
+				'1x Drehleiter (100%)<br>1x Dekon P (100%)<br>1x GW-Gefahrgut (100%)<br>1x GW-Messtechnik (100%)<br>' +
 				'3x Funkstreifenwagen (100%)<br>1x GKW (100%)<br><br><span class="badge">Credits: ~ 6050 </span>',
 				272 : '1x Boot (100%)<br>2x Löschfahrzeuge (100%)<br>1x Einsatzleitwagen 1 (100%)<br>1x GW-ÖL (100%)<br>' +
 				'1x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 1600 </span>',
