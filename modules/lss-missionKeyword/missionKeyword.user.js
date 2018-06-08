@@ -596,7 +596,8 @@
         183: 'Fire in fast food restaurant',
         184: 'Containership fire',
         185: 'Dock Crane fire',
-        186: 'Recycling Centre fire'
+        186: 'Recycling Centre fire',
+        187: 'Kidnaping'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -926,7 +927,8 @@
         308: 'Natuurbrand',
         309: 'Natuurbrand',
         310: 'Verkeersongeval met scooter en fietser',
-        311: 'Verkeersongeval met fietser en fietser'
+        311: 'Verkeersongeval met fietser en fietser',
+        312: 'Lekkende goederenwagon'
       }
     };
 
@@ -1508,7 +1510,8 @@
       183: 'FIRE 2',
       184: 'FIRE 3 SHIP',
       185: 'FIRE 2',
-      186: 'FIRE 5'
+      186: 'FIRE 5',
+      187: 'POL 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1822,7 +1825,8 @@
       308: 'ZEER GROTE NATUURBRAND',
       309: 'ZEER GROTE NATUURBRAND',
       310: 'A 2',
-      311: 'A 1'
+      311: 'A 1',
+      312: 'GROTE OGS, TIS 5'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
