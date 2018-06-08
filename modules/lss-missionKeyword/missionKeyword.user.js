@@ -391,7 +391,8 @@
         366: 'Vollstreckung Haftbefehl',
         367: 'Vollstreckung Haftbefehl - eskaliert',
         368: 'Brennende Kirche',
-        369: 'Austritt Kohlenmonoxid'
+        369: 'Austritt Kohlenmonoxid',
+        370: 'Geisterfahrer'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1321,7 +1322,8 @@
       366: 'POL 1',
       367: 'SEK 1',
       368: 'B 4',
-      369: 'B 1'
+      369: 'B 1',
+      370: 'POL 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',

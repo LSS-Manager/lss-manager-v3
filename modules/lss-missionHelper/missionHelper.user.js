@@ -553,7 +553,8 @@
 				'<br>1x GW-Messtechnik<br>4x Funkstreifenwagen<br>1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>1x LKW K 9<br>1x BRmG R<br>1x Anhänger DLE<br>' +
 				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>',
 				369 : '2x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Rüstwagen (30%)<br>1x GW-Messtechnik (50%)<br>1x Einsatzleitwagen 1<br>1x Funkstreifenwagen<br>' +
-				'max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>'
+				'max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>',
+				370 : '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
