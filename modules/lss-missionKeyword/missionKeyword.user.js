@@ -392,7 +392,10 @@
         367: 'Vollstreckung Haftbefehl - eskaliert',
         368: 'Brennende Kirche',
         369: 'Austritt Kohlenmonoxid',
-        370: 'Geisterfahrer'
+        370: 'Geisterfahrer',
+        371: 'Fußball aufpumpen',
+        372: 'Mannschaftsbus in Halteverbot abgestellt',
+        373: 'Behandlung nach Schwalbe'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -598,7 +601,8 @@
         184: 'Container Ship Fire',
         185: 'Dock Crane fire',
         186: 'Recycling Centre fire',
-        187: 'Kidnaping'
+        187: 'Kidnaping',
+        188: 'Cruise ship sinking'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -929,7 +933,10 @@
         309: 'Natuurbrand',
         310: 'Verkeersongeval met scooter en fietser',
         311: 'Verkeersongeval met fietser en fietser',
-        312: 'Lekkende goederenwagon'
+        312: 'Lekkende goederenwagon',
+        313: 'Brand in passagierstrein',
+        314: 'Brand in passagierstrein',
+        315: 'Brand in passagierstrein'
       }
     };
 
@@ -1323,7 +1330,10 @@
       367: 'SEK 1',
       368: 'B 4',
       369: 'B 1',
-      370: 'POL 2'
+      370: 'POL 2',
+      371: 'THL 0.5',
+      372: 'POL 0.5',
+      373: 'RD 0.5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1513,7 +1523,8 @@
       184: 'FIRE 3 SHIP',
       185: 'FIRE 2',
       186: 'FIRE 5',
-      187: 'POL 4'
+      187: 'POL 4',
+      188: 'TECH 4 SHIP'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1828,7 +1839,10 @@
       309: 'ZEER GROTE NATUURBRAND',
       310: 'A 2',
       311: 'A 1',
-      312: 'GROTE OGS, TIS 5'
+      312: 'GROTE OGS, TIS 5',
+      313: 'KLEINE BRAND, TREIN',
+      314: 'MIDDEL BRAND, TREIN',
+      315: 'GROTE BRAND, TREIN'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

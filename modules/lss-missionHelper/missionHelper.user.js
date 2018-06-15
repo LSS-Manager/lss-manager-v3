@@ -554,7 +554,10 @@
 				'max. 5x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 7500 </span>',
 				369 : '2x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Rüstwagen (30%)<br>1x GW-Messtechnik (50%)<br>1x Einsatzleitwagen 1<br>1x Funkstreifenwagen<br>' +
 				'max. 2x Rettungstransportwagen<br>NEF (40%)/RTH (20%)<br><br><span class="badge">Credits: ~ 1800 </span>',
-				370 : '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>'
+				370 : '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>',
+				371 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
+				372 : '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 300 </span>',
+				373 : '1x Rettungstransportwagen'
 			}
 		}
 
@@ -801,7 +804,9 @@
 				185 : '3x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Large Fireboat<br>Ambulance<br><br><span class="badge">Credits: ~ 6000 </span>',
 				186 : '12x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>3x Heavy Rescues<br>3x Water Tanker<br>1x Mobile Air<br>1x Mobile Command<br>' +
 				'2x Police Cars<br>max. 2x Ambulances<br><br><span class="badge">Credits: ~ 10000 </span>',
-				187 : '4x Police Cars<br>1x Police Helicopter<br>1x K9-Unit<br>max. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>'
+				187 : '4x Police Cars<br>1x Police Helicopter<br>1x K9-Unit<br>max. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
+				188 : '7x Firetrucks<br>2x Battalion Chief<br>2x Heavy Rescue<br>1x Mobile Command<br>2x Boats<br>1x Large Fire Boat<br>1x Large Rescue Boat' +
+				'min. 1x Ambulance, max. 20x Ambulances<br><br><span class="badge">Credits: ~ 15000 </span>',
 			}
 		}
 
@@ -1252,7 +1257,12 @@
 				311 : '1x Politieauto<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 650 </span>',
 				312 : '2x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x Waarschuwings- en Verkenningsdienst Voertuig (70%)<br>1x Adviseurs Gevaarlijke ' +
 				'Stoffen Voertuig<br>1x HOvD (80%)<br>1x Commandowagen (50%)<br>1x Politieauto<br>max. 1x Ambulance<br>1x MMT-Auto (50%)<br><br><span class="badge">' +
-				'Credits: ~ 4000 </span>'
+				'Credits: ~ 4000 </span>',
+				313 : '1x Tankautospuit<br>1x Politieauto<br><br><span class="badge">Credits: ~ 1000 </span>',
+				314 : '2x Tankautospuiten<br>1x Hulpverleningsvoertuig (10%)<br>1x OvD-B<br>2x Politieauto<br>min. 1x Ambulance<br><br><span class="badge">' +
+				'Credits: ~ 2100 </span>',
+				315 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD<br>' +
+				'1x Commandowagen<br>3x Politieautos<br>1x OvD-P<br>min. 2x Ambulances<br><br><span class="badge">Credits: ~ 3250 </span>'
 			}
 		}
 	}
