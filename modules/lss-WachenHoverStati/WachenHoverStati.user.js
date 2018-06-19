@@ -11,6 +11,9 @@
         redraw_Labels();
     });
     function redraw_Labels() {
+      if ("undefined" != typeof mapkit) {
+				alert("[WachenHover]\n\n Mapkit wird aktuell noch nicht von uns unterst�tzt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um");
+			} else
         $.each(building_markers, function (key, marker) {
             // Is the tooltip currently open?
             var reopen = false;

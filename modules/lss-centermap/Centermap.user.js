@@ -137,12 +137,18 @@
 	}
 
 	function handleFixedOption() {
+		if ("undefined" != typeof mapkit) {
+			alert("[CenterMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um");
+		} else {
 		map.setView([ getSetting('centermap-center-lat'),
 				getSetting('centermap-center-lng') ],
 				getSetting('centermap-zoom'));
-	}
+	}}
 
 	function handleDynamicOption() {
+		if ("undefined" != typeof mapkit) {
+			alert("[CenterMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um");
+		} else
 		var lat_min;
 		var lat_max;
 		var lng_min;
