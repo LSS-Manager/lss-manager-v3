@@ -3,10 +3,10 @@
 		mapkit : "[FMS5InMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
 	}
   I18n.translations.en.lssm.fms5inmap = {
-    mapkit : "[FMS5InMap]\n\n Mapkit is not currently supported by us.\n\nPlease deactivate the addon or switch it on again \nto OpenStreeMap",
+    mapkit : "[FMS5InMap]\n\n Mapkit is not currently supported by us.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
   }
   I18n.translations.nl.lssm.fms5inmap = {
-    mapkit : "[FMS5InMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nDeactiveer de addon of schakel deze opnieuw in.\nnaar OpenStreeMap naar ",
+    mapkit : "[FMS5InMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nSchakel deze addon uit of keer terug naar OpenStreetMap",
   }
     var radio_message_important = $("#radio_messages_important");
     var id = "fm5InMap";

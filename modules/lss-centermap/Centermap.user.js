@@ -22,7 +22,7 @@
 
 	I18n.translations.en.lssm.centermap = {
 		center : "Center",
-		mapkit : "[CenterMap]\n\n Mapkit is not currently supported by us.\n\nPlease deactivate the addon or switch it on again \nto OpenStreeMap",
+		mapkit : "[CenterMap]\n\n Mapkit is not currently supported by us.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
 		settings : {
 			title : "Center-Map",
 			choose : "Please select",
@@ -38,7 +38,7 @@
 	};
 	I18n.translations.nl.lssm.centermap = {
 		center : "Centreren",
-		mapkit : "[CenterMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nDeactiveer de addon of schakel deze opnieuw in.\nnaar OpenStreeMap naar ",
+		mapkit : "[CenterMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nSchakel deze addon uit of keer terug naar OpenStreetMap",
 		settings : {
 			title : "Kaart centreren",
 			choose : "Selecteer een plaats",
