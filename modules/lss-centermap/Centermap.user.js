@@ -5,6 +5,7 @@
 
 	I18n.translations.de.lssm.centermap = {
 		center : "Zentrieren",
+		mapkit : "[CenterMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
 		settings : {
 			title : "Center-Map",
 			choose : "Bitte auswählen",
@@ -21,6 +22,7 @@
 
 	I18n.translations.en.lssm.centermap = {
 		center : "Center",
+		mapkit : "[CenterMap]\n\n Mapkit is not currently supported by us.\n\nPlease deactivate the addon or switch it on again \nto OpenStreeMap",
 		settings : {
 			title : "Center-Map",
 			choose : "Please select",
@@ -36,6 +38,7 @@
 	};
 	I18n.translations.nl.lssm.centermap = {
 		center : "Centreren",
+		mapkit : "[CenterMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nDeactiveer de addon of schakel deze opnieuw in.\nnaar OpenStreeMap naar ",
 		settings : {
 			title : "Kaart centreren",
 			choose : "Selecteer een plaats",
@@ -138,7 +141,7 @@
 
 	function handleFixedOption() {
 		if ("undefined" != typeof mapkit) {
-			alert("[CenterMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um");
+			alert(I18n.t('lssm.centermap.mapkit'));
 		} else {
 		map.setView([ getSetting('centermap-center-lat'),
 				getSetting('centermap-center-lng') ],
@@ -147,7 +150,7 @@
 
 	function handleDynamicOption() {
 		if ("undefined" != typeof mapkit) {
-			alert("[CenterMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um");
+			alert(I18n.t('lssm.centermap.mapkit'));
 		} else
 		var lat_min;
 		var lat_max;
