@@ -14,7 +14,7 @@
     };
     I18n.translations.en['lssm']['wpom'] = {
         setmarker: "Set marker",
-        mapkit : "[Station management]\n\n Mapkit is not currently supported by us.\n\nPlease deactivate the addon or switch it on again \nto OpenStreeMap",
+        mapkit : "[Station management]\n\n Mapkit is not currently supported by us.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
         remmarker: "Remove marker",
         plan: "Add planned building",
         vehicles: "Vehicles",
@@ -27,7 +27,7 @@
     };
     I18n.translations.nl['lssm']['wpom'] = {
         setmarker: "Plaats markering",
-        mapkit : "[Gebouwplanning]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nDeactiveer de addon of schakel deze opnieuw in.\nnaar OpenStreeMap naar ",
+        mapkit : "[Gebouwplanning]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nSchakel deze addon uit of keer terug naar OpenStreetMap",
         remmarker: "Verwijder markering",
         plan: "Plaats een gepland gebouw",
         vehicles: "Voertuigen",
@@ -377,8 +377,8 @@
     }
     function drawCircles(all, type) {
       if ("undefined" != typeof mapkit) {
-				alert(I18n.t('lssm.wpom.mapkit'));
-			} else
+        alert(I18n.t('lssm.wpom.mapkit'));
+      } else
         var data = lssm.get_buildings();
         $.each(data, function (key, value) {
             if (all) {
@@ -395,8 +395,8 @@
 
     function setCircleRadius(){
       if ("undefined" != typeof mapkit) {
-				alert(I18n.t('lssm.wpom.mapkit'));
-			} else
+        alert(I18n.t('lssm.wpom.mapkit'));
+      } else
         var handle = $( "#lssm_radius_handle" );
         $('#lssm_radius_slider_input').val(settings.set.radius).change(function(){
             settings.set.radius = $(this).val();
