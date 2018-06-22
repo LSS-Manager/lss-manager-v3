@@ -557,7 +557,10 @@
 				370 : '4x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1000 </span>',
 				371 : '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
 				372 : '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 300 </span>',
-				373 : '1x Rettungstransportwagen'
+				373 : '1x Rettungstransportwagen',
+				374 : '1x Rettungstransportwagen',
+				375 : '1x Löschfahrzeug',
+				376 : '2x Funkstreifenwagen'
 			}
 		}
 
@@ -807,6 +810,9 @@
 				187 : '4x Police Cars<br>1x Police Helicopter<br>1x K9-Unit<br>max. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
 				188 : '7x Firetrucks<br>2x Battalion Chief<br>2x Heavy Rescue<br>1x Mobile Command<br>2x Boats<br>1x Large Fire Boat<br>1x Large Rescue Boat' +
 				'min. 1x Ambulance, max. 20x Ambulances<br><br><span class="badge">Credits: ~ 15000 </span>',
+				189 : '2x Firetrucks<br>1x Battalion Chief<br>2x Heavy Rescues<br>2x Boats<br>max. 6x Ambulances<br><br><span class="badge">Credits: ~ 1500 </span>',
+				190 : '2x Firetrucks<br>1x Battalion Chief<br>2x Heavy Rescues<br>2x Boats<br>max. 6x Ambulances<br><br><span class="badge">Credits: ~ 1500 </span>',
+				191 : '2x Firetrucks<br>1x Battalion Chief<br>2x Heavy Rescues<br>2x Boats<br>max. 6x Ambulances<br><br><span class="badge">Credits: ~ 1500 </span>'
 			}
 		}
 
@@ -1262,7 +1268,9 @@
 				314 : '2x Tankautospuiten<br>1x Hulpverleningsvoertuig (10%)<br>1x OvD-B<br>2x Politieauto<br>min. 1x Ambulance<br><br><span class="badge">' +
 				'Credits: ~ 2100 </span>',
 				315 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD<br>' +
-				'1x Commandowagen<br>3x Politieautos<br>1x OvD-P<br>min. 2x Ambulances<br><br><span class="badge">Credits: ~ 3250 </span>'
+				'1x Commandowagen<br>3x Politieautos<br>1x OvD-P<br>min. 2x Ambulances<br><br><span class="badge">Credits: ~ 3250 </span>',
+				316 : '2x Politieautos<br>1x Tankautospuit<br><br><span class="badge">Credits: ~ 1100 </span>',
+				317 : '4x Politieautos<br>1x Tankautospuit<br><br><span class="badge">Credits: ~ 2000 </span>'
 			}
 		}
 	}

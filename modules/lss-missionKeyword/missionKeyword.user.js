@@ -395,7 +395,10 @@
         370: 'Geisterfahrer',
         371: 'Fußball aufpumpen',
         372: 'Mannschaftsbus in Halteverbot abgestellt',
-        373: 'Behandlung nach Schwalbe'
+        373: 'Behandlung nach Schwalbe',
+        374: 'Prellung nach Lattenpraller',
+        375: 'Tor gefallen',
+        376: 'Pokal geklaut'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -602,7 +605,10 @@
         185: 'Dock Crane fire',
         186: 'Recycling Centre fire',
         187: 'Kidnaping',
-        188: 'Cruise ship sinking'
+        188: 'Cruise ship sinking',
+        189: 'Sinking boat',
+        190: 'Sinking boat',
+        191: 'Sinking boat'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -936,7 +942,9 @@
         312: 'Lekkende goederenwagon',
         313: 'Brand in passagierstrein',
         314: 'Brand in passagierstrein',
-        315: 'Brand in passagierstrein'
+        315: 'Brand in passagierstrein',
+        316: 'Bedreiging met vuurwapen',
+        317: 'Bedreiging met vuurwapen'
       }
     };
 
@@ -1333,7 +1341,10 @@
       370: 'POL 2',
       371: 'THL 0.5',
       372: 'POL 0.5',
-      373: 'RD 0.5'
+      373: 'RD 0.5',
+      374: 'RD 0.5',
+      375: 'THL 0.5',
+      376: 'POL 0.75'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1524,7 +1535,10 @@
       185: 'FIRE 2',
       186: 'FIRE 5',
       187: 'POL 4',
-      188: 'TECH 4 SHIP'
+      188: 'TECH 4 SHIP',
+      189: 'TECH 1 SHIP',
+      190: 'TECH 1 SHIP',
+      191: 'TECH 1 SHIP'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1842,7 +1856,9 @@
       312: 'GROTE OGS, TIS 5',
       313: 'KLEINE BRAND, TREIN',
       314: 'MIDDEL BRAND, TREIN',
-      315: 'GROTE BRAND, TREIN'
+      315: 'GROTE BRAND, TREIN',
+      316: 'P 2',
+      317: 'P 4'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
