@@ -1,1 +1,1 @@
-Ausgebaute Wachnplanung auf der Karte
+Ausgebaute Wachenplanung auf der Karte
