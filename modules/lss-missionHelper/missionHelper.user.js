@@ -1269,8 +1269,8 @@
 				'Credits: ~ 2100 </span>',
 				315 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD<br>' +
 				'1x Commandowagen<br>3x Politieautos<br>1x OvD-P<br>min. 2x Ambulances<br><br><span class="badge">Credits: ~ 3250 </span>',
-				316 : '2x Politieautos<br><br><span class="badge">Credits: ~ 1100 </span>',
-				317 : '4x Politieautos<br><br><span class="badge">Credits: ~ 2000 </span>'
+				316 : '2x Politieautos<br><br><span class="badge">Credits: ~ 1100</span>',
+				317 : '4x Politieautos<br><br><span class="badge">Credits: ~ 2000</span>'
 			}
 		}
 	}
