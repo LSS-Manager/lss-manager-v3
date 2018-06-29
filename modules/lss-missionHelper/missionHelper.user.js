@@ -1244,7 +1244,7 @@
 				'<span class="badge">Credits: ~ 900 </span>',
 				300 : '2x Tankautospuiten (100%)<br>1x OvD-B (100%)<br>1x Waterongevallenvoertuig (40%)<br>1x Waterongevallenaanhanger (100%)<br>1x Politieauto (100%)' +
 				'<br>Ambulances<br><br><span class="badge">Credits: ~ 1450 </span>',
-				301 : '2x Politie Cars (100%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				301 : '2x Politieauto (100%)<br><br><span class="badge">Credits: ~ 750 </span>',
 				302 : '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 850 </span>',
 				303 : '2x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1650 </span>',
 				304 : '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD (50%)<br>1x ' +
@@ -1269,8 +1269,8 @@
 				'Credits: ~ 2100 </span>',
 				315 : '3x Tankautospuiten<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)<br>1x HOvD<br>' +
 				'1x Commandowagen<br>3x Politieautos<br>1x OvD-P<br>min. 2x Ambulances<br><br><span class="badge">Credits: ~ 3250 </span>',
-				316 : '2x Politieautos<br>1x Tankautospuit<br><br><span class="badge">Credits: ~ 1100 </span>',
-				317 : '4x Politieautos<br>1x Tankautospuit<br><br><span class="badge">Credits: ~ 2000 </span>'
+				316 : '2x Politieautos<br><br><span class="badge">Credits: ~ 1100 </span>',
+				317 : '4x Politieautos<br><br><span class="badge">Credits: ~ 2000 </span>'
 			}
 		}
 	}
