@@ -4,7 +4,6 @@
     } else {
         I18n.translations.de['lssm']['wpom'] = {
             setmarker: "Marker setzen",
-            mapkit: "[Wachen-Planung]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
             remmarker: "Marker entfernen",
             plan: "Wache planen",
             vehicles: "Fahrzeuge",
@@ -17,7 +16,6 @@
         };
         I18n.translations.en['lssm']['wpom'] = {
             setmarker: "Set marker",
-            mapkit: "[Station management]\n\n Mapkit is not currently supported by us.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
             remmarker: "Remove marker",
             plan: "Add planned building",
             vehicles: "Vehicles",
@@ -30,7 +28,6 @@
         };
         I18n.translations.nl['lssm']['wpom'] = {
             setmarker: "Plaats markering",
-            mapkit: "[Gebouwplanning]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nSchakel deze addon uit of keer terug naar OpenStreetMap",
             remmarker: "Verwijder markering",
             plan: "Plaats een gepland gebouw",
             vehicles: "Voertuigen",
@@ -186,9 +183,6 @@
         }
 
         function addBuildingToMap(id, name, type, cars, pos) {
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
                 "use strict";
             var building_marker_image = "/images/building_leitstelle.png";
             switch (type) {
@@ -286,9 +280,6 @@
         }
 
         function setMarker() {
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
                 "use strict";
             var form = "<h1>Wache planen</h1>";
             // Type
@@ -350,9 +341,6 @@
         };
 
         function remMarker() {
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
                 "use strict";
             var form = "<h1>" + I18n.t('lssm.wpom.brem') + "</h1>";
             // Type
@@ -411,10 +399,7 @@
             html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_wr" ' + (settings.set.wr ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_wr"></label></div><span class="label label-wr">Wasserrettung</span></div>';
             html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_showCars" ' + (settings.set.showCars ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_showCars"></label></div><span class="label label-default">Zeige Fahrzeuge?</span></div>';
             html += '</div>';
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
-                $('#map_outer').append(html);
+            $('#map_outer').append(html);
             $('#' + settings.prefix + '_setmarker').on("click", setMarker);
             $('#' + settings.prefix + '_remmarker').on("click", remMarker);
             $('#' + settings.prefix + '_settings').change(changeSetting);
@@ -422,10 +407,7 @@
         }
 
         function drawCircles(all, type) {
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
-                var data = lssm.get_buildings();
+          var data = lssm.get_buildings();
             $.each(data, function (key, value) {
                 if (all) {
                     rmLayer(value.stationId);
@@ -440,10 +422,7 @@
         }
 
         function setCircleRadius() {
-            if ("undefined" != typeof mapkit) {
-                alert(I18n.t('lssm.wpom.mapkit'));
-            } else
-                var handle = $("#lssm_radius_handle");
+            var handle = $("#lssm_radius_handle");
             $('#lssm_radius_slider_input').val(settings.set.radius).change(function () {
                 settings.set.radius = $(this).val();
                 $("#lssm_radius_slider").slider("option", "value", settings.set.radius);
@@ -479,10 +458,7 @@
         }
 
         // settings mit settings aus Storage erweitern
-        if ("undefined" != typeof mapkit) {
-            alert(I18n.t('lssm.wpom.mapkit'));
-        } else
-            map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
+        map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
         $.extend(settings.set, lssm.settings.get(settings.prefix, null));
         // Einstellungen erstellen
         createSettings();
