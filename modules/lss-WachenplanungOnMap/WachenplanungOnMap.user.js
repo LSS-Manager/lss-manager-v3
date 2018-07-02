@@ -411,34 +411,38 @@
         });
     }
     // settings mit settings aus Storage erweitern
-    map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
-    $.extend(settings.set,lssm.settings.get(settings.prefix, null));
-    // Einstellungen erstellen
-    createSettings();
-    // alle aktiven Typen zeichnen
-    drawCircles(true);
-    var btypes = {};
-    $.get('/buildings/new')
-        .fail(function () {
-            console.log("Could not get building list. Disabling mapmarkers.")
-            $("#WachenplanungOnMap_remmarker").remove();
-            $("#WachenplanungOnMap_addmarker").remove();
-        })
-        .done(function (data) {
-            $.each($(data).find("#building_building_type option"), function (key, value) {
-                "use strict";
-                if (value.value !== "")
-                    btypes[value.value] = value.text;
-            });
-        });
-    var pmid = 0;
-    var plannedMarkers = lssm.settings.get("wpomp", []);
-    var plannedMarkersMap = [];
-    if (plannedMarkers.length>0) {
-        pmid = (plannedMarkers[plannedMarkers.length - 1].id)+1;
-        for (var b in plannedMarkers) {
-            b = plannedMarkers[b];
-            addBuildingToMap(b.id, b.n, b.t, b.c, b.p);
-        }
+    if ("undefined" != typeof mapkit) {
+      alert("[" + I18n.t('lssm.Module.WachenplanungOnMap.name') + "]\n\n" + I18n.t('lssm.mapkit'));
+    } else {
+	    map.attributionControl.addAttribution(settings.translations[settings.locale].attributionControl);
+	    $.extend(settings.set,lssm.settings.get(settings.prefix, null));
+	    // Einstellungen erstellen
+	    createSettings();
+	    // alle aktiven Typen zeichnen
+	    drawCircles(true);
+	    var btypes = {};
+	    $.get('/buildings/new')
+		.fail(function () {
+		    console.log("Could not get building list. Disabling mapmarkers.")
+		    $("#WachenplanungOnMap_remmarker").remove();
+		    $("#WachenplanungOnMap_addmarker").remove();
+		})
+		.done(function (data) {
+		    $.each($(data).find("#building_building_type option"), function (key, value) {
+			"use strict";
+			if (value.value !== "")
+			    btypes[value.value] = value.text;
+		    });
+		});
+	    var pmid = 0;
+	    var plannedMarkers = lssm.settings.get("wpomp", []);
+	    var plannedMarkersMap = [];
+	    if (plannedMarkers.length>0) {
+		pmid = (plannedMarkers[plannedMarkers.length - 1].id)+1;
+		for (var b in plannedMarkers) {
+		    b = plannedMarkers[b];
+		    addBuildingToMap(b.id, b.n, b.t, b.c, b.p);
+		}
+	    }
     }
 })(map, I18n, jQuery)
