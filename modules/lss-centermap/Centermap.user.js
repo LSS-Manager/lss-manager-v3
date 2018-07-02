@@ -141,10 +141,9 @@
 
 				function handleFixedOption() {
 					map.setView([ getSetting('centermap-center-lat'),
-							getSetting('centermap-center-lng') ],
-							getSetting('centermap-zoom'));
+					getSetting('centermap-center-lng') ],
+					getSetting('centermap-zoom'));
 				}
-
 
 				function handleDynamicOption() {
 					var lat_min;
