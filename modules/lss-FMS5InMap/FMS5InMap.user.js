@@ -1,17 +1,8 @@
 (function ($, I18n) {
-  I18n.translations.de.lssm.fms5inmap = {
-		mapkit : "[FMS5InMap]\n\n Mapkit wird aktuell noch nicht von uns unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
-	}
-  I18n.translations.en.lssm.fms5inmap = {
-    mapkit : "[FMS5InMap]\n\n Mapkit is not currently supported by us.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
-  }
-  I18n.translations.nl.lssm.fms5inmap = {
-    mapkit : "[FMS5InMap]\n\n Mapkit wordt op dit moment niet door ons ondersteund.\n\nSchakel deze addon uit of keer terug naar OpenStreetMap",
-  }
     var radio_message_important = $("#radio_messages_important");
     var id = "fm5InMap";
     if ("undefined" != typeof mapkit) {
-      alert(I18n.t('lssm.fms5inmap.mapkit'));
+        alert("[" + lssm.Module.fms5inmap.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit'));
     } else {
     lssm.newDragableDivOnMap(id,"",lssm.settings.get(lssm.config.prefix + "_"+id+"Position",{x:0,y:0})).append(radio_message_important);
     radio_message_important.css({

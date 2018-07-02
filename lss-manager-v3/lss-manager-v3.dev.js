@@ -97,6 +97,7 @@ I18n.translations.de.lssm = {
     activated: "Folgende Module wurden aktiviert:",
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
+    mapkit: "Mapkit wird aktuell noch nicht vom LSS-Manager unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
     apps: {}
 };
 I18n.translations.en.lssm = {
@@ -116,6 +117,7 @@ I18n.translations.en.lssm = {
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
     cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
+    mapkit: "Mapkit is not currently supported by LSS-Manager.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
     apps: {}
 };
 I18n.translations.nl.lssm = {
@@ -133,6 +135,7 @@ I18n.translations.nl.lssm = {
     save: "Opslaan",
     activated: "De volgende modules zijn geactiveerd:",
     cantactivate: "Kan niet worden geactiveerd omdat deze lssm_module niet samenwerkt met de volgende lssm_module(s):",
+    mapkit: "Mapkit wordt momenteel niet ondersteund door LSS-Manager.\n\nPlease zet deze Add-On uit of ga terug naar OpenStreetMap.",
     apps: {}
 };
 
