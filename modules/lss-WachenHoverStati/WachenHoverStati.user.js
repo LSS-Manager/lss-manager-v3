@@ -3,7 +3,7 @@
  */
 (function ($, I18n) {
     if ("undefined" != typeof mapkit) {
-        alert("[" + I18n.t('lssm.Module.WachenHoverStati.name') + "]\n\n" + I18n.t('lssm.mapkit'));
+        alert("[" + lssm.Module.WachenHoverStati.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit'));
     } else {
         $(document).bind(lssm.hook.postname("building_maps_draw"),function(event,e){
             "use strict";
