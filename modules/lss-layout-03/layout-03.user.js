@@ -11,11 +11,13 @@
 		'#chat_outer>div,#radio>div,#radio_outer>div{height:100%;margin:0}'+
 		'#missions{height:100%}'+
 		'#missions strong{display:none!important}'+
-		'#missions>div>div>.btn-group{margin-bottom:5px;background-color:#5cb85c;width:100%;border-radius:3px;border:1px solid #3e8f3e}'+
-		'#missions>div>div>.btn-group a{border:none;border-right:2px solid green}'+
+		'#missions>div>div>.btn-group{margin-bottom:5px;width:100%;border-radius:3px}'+
+		'#missions>div>div>.btn-group a{border:none;border-right:3px solid}'+
 		'#missions>div>div>.btn-group a:last-child{border:none}'+
 		'</style>'
 	);
+	if ("undefined" != typeof mapkit) {
+	} else
 	map.invalidateSize(true);
 
 })();
