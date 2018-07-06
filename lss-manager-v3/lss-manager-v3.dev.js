@@ -161,8 +161,8 @@ I18n.translations.en.lssm.developers = {
         "name": "SanniHameln"
     },
     "kboe": {
-        "id": 39650,
-        "name": "KBOE2"
+        "id": 49584,
+        "name": "KBOE2-Scripttester"
     }
 };
 I18n.translations.nl.lssm.developers = {
