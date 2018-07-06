@@ -399,7 +399,8 @@
         374: 'Prellung nach Lattenpraller',
         375: 'Tor gefallen',
         376: 'Pokal geklaut',
-        377: 'Überzuckerung'
+        377: 'Überzuckerung',
+        378: 'Observation'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1353,7 +1354,8 @@
       374: 'RD 0.5',
       375: 'THL 0.5',
       376: 'POL 0.75',
-      377: 'RD 1'
+      377: 'RD 1',
+      378: 'MEK 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',

@@ -561,7 +561,8 @@
 				374: '1x Rettungstransportwagen',
 				375: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 300 </span>',
 				376: '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 600 </span>',
-				377: '1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (30%)'
+				377: '1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (30%)',
+				378: '<h4>SICHERHEITSWACHE</h4>4x MEK-Fahrzeuge<br>1x FüKw'
 			}
 		}
 
