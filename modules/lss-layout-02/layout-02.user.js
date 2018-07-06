@@ -9,8 +9,8 @@
 		'#radio_outer{padding-right:0; width: calc(25% - 15px) !important;}'+
 		'#map{height:400px}'+
 		'#missions-panel-body{padding:0;height:500px!important}'+
-		'#missions > div > div > .btn-group{margin-bottom:5px;background-color:#5cb85c;width:100%;border-radius:3px;border:1px solid #3e8f3e}'+
-		'#missions > div > div > .btn-group a{border:none;border-right:2px solid green}'+
+		'#missions > div > div > .btn-group{margin-bottom:5px;width:100%;border-radius:3px}'+
+		'#missions > div > div > .btn-group a{border:none;border-right:3px solid}'+
 		'#missions > div > div > .btn-group a:last-child{border:none}'+
 		'#missions strong{display:none!important}'+
 		'</style>'
@@ -18,6 +18,8 @@
 
 	$('#map_outer').removeClass('col-sm-8').addClass('col-sm-12');
 	$('#missions_outer, #buildings_outer, #chat_outer, #radio_outer').removeClass('col-sm-4').addClass('col-sm-3');
+	if ("undefined" != typeof mapkit) {
+	} else
 	map.invalidateSize(true);
 
 })();

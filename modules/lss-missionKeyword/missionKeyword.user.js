@@ -399,7 +399,8 @@
         374: 'Prellung nach Lattenpraller',
         375: 'Tor gefallen',
         376: 'Pokal geklaut',
-        377: 'Überzuckerung'
+        377: 'Überzuckerung',
+        378: 'Observation'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -610,7 +611,8 @@
         189: 'Sinking boat',
         190: 'Sinking boat',
         191: 'Sinking boat',
-        192: 'Traffic accident with train'
+        192: 'Traffic accident with train',
+        193: 'Animal Rescue'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -949,7 +951,9 @@
         317: 'Bedreiging met vuurwapen',
         318: 'Brand op binnenvaartschip',
         319: 'Brand op binnenvaartschip',
-        320: 'Brand op binnenvaartschip'
+        320: 'Brand op binnenvaartschip',
+        321: 'Brandende wegberm',
+        322: 'Brandende wegberm'
       }
     };
 
@@ -1350,7 +1354,8 @@
       374: 'RD 0.5',
       375: 'THL 0.5',
       376: 'POL 0.75',
-      377: 'RD 1'
+      377: 'RD 1',
+      378: 'MEK 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1545,7 +1550,8 @@
       189: 'TECH 1 SHIP',
       190: 'TECH 1 SHIP',
       191: 'TECH 1 SHIP',
-      192: 'TECH 2 TRAIN'
+      192: 'TECH 2 TRAIN',
+      193: 'TECH 1 ANIMAL'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1868,7 +1874,9 @@
       317: 'P 4',
       318: 'KLEINE BRAND, SCHIP',
       319: 'MIDDEL BRAND, SCHIP',
-      320: 'GROTE BRAND, SCHIP'
+      320: 'GROTE BRAND, SCHIP',
+      321: 'KLEINE BRAND',
+      322: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
