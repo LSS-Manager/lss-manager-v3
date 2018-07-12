@@ -1518,7 +1518,7 @@ lssm.modal = {
                             '" type="text/javascript"></script>')
                         .append(
                             '<link rel="stylesheet" ' +
-                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">'
+                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css">'
                         );
 
                     // Get the last activated modules
