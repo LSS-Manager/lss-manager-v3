@@ -570,7 +570,7 @@
 				381: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
 				'Credits: ~ 900 </span>',
 				382: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 900 </span>',
+				'Credits: ~ 900 </span>'
 			}
 		}
 
