@@ -400,7 +400,11 @@
         375: 'Tor gefallen',
         376: 'Pokal geklaut',
         377: 'Überzuckerung',
-        378: 'Observation'
+        378: 'Observation',
+        379: 'PKW im Gleisbett',
+        380: 'PKW im Gleisbett',
+        381: 'PKW im Gleisbett',
+        382: 'PKW im Gleisbett'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -612,7 +616,8 @@
         190: 'Sinking boat',
         191: 'Sinking boat',
         192: 'Traffic accident with train',
-        193: 'Animal Rescue'
+        193: 'Animal Rescue',
+        194: 'Large MVA in tunnel'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -953,7 +958,10 @@
         319: 'Brand op binnenvaartschip',
         320: 'Brand op binnenvaartschip',
         321: 'Brandende wegberm',
-        322: 'Brandende wegberm'
+        322: 'Brandende wegberm',
+        323: 'Verkeersongeval met motorfiets',
+        324: 'Verkeersongeval met personenauto en motorfiets',
+        325: 'Verkeersongeval met fietser en motorfiets'
       }
     };
 
@@ -1355,7 +1363,11 @@
       375: 'THL 0.5',
       376: 'POL 0.75',
       377: 'RD 1',
-      378: 'MEK 1'
+      378: 'MEK 1',
+      379: 'THL 2',
+      380: 'THL 2',
+      381: 'THL 2',
+      382: 'THL 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1551,7 +1563,8 @@
       190: 'TECH 1 SHIP',
       191: 'TECH 1 SHIP',
       192: 'TECH 2 TRAIN',
-      193: 'TECH 1 ANIMAL'
+      193: 'TECH 1 ANIMAL',
+      194: 'TECH 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1876,7 +1889,10 @@
       319: 'MIDDEL BRAND, SCHIP',
       320: 'GROTE BRAND, SCHIP',
       321: 'KLEINE BRAND',
-      322: 'MIDDEL BRAND'
+      322: 'MIDDEL BRAND',
+      323: 'A 1',
+      324: 'A 2',
+      325: 'A 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
