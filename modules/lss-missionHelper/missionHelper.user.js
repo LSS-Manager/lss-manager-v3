@@ -571,9 +571,7 @@
 				'Credits: ~ 900 </span>',
 				382: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (20%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
 				'Credits: ~ 900 </span>',
-				383: '',
-				384: '',
-				358: ''
+				383: '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 600 </span>'
 			}
 		}
 

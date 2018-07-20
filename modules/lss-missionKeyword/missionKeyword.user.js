@@ -405,9 +405,7 @@
         380: 'PKW im Gleisbett',
         381: 'PKW im Gleisbett',
         382: 'PKW im Gleisbett',
-        383: '',
-        384: '',
-        385: ''
+        383: 'Kind in PKW eingeschlossen'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1374,9 +1372,7 @@
       380: 'THL 2',
       381: 'THL 2',
       382: 'THL 2',
-      383: '',
-      384: '',
-      385: ''
+      383: 'POL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
