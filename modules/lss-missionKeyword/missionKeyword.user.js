@@ -404,7 +404,8 @@
         379: 'PKW im Gleisbett',
         380: 'PKW im Gleisbett',
         381: 'PKW im Gleisbett',
-        382: 'PKW im Gleisbett'
+        382: 'PKW im Gleisbett',
+        383: 'Kind in PKW eingeschlossen'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -617,7 +618,8 @@
         191: 'Sinking boat',
         192: 'Traffic accident with train',
         193: 'Animal Rescue',
-        194: 'Large MVA in tunnel'
+        194: 'Large MVA in tunnel',
+        195: 'Single vehicle fire in tunnel'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -961,7 +963,9 @@
         322: 'Brandende wegberm',
         323: 'Verkeersongeval met motorfiets',
         324: 'Verkeersongeval met personenauto en motorfiets',
-        325: 'Verkeersongeval met fietser en motorfiets'
+        325: 'Verkeersongeval met fietser en motorfiets',
+        326: 'Brand in landbouwschuur',
+        327: 'Brand in landbouwschuur'
       }
     };
 
@@ -1367,7 +1371,8 @@
       379: 'THL 2',
       380: 'THL 2',
       381: 'THL 2',
-      382: 'THL 2'
+      382: 'THL 2',
+      383: 'POL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1564,7 +1569,8 @@
       191: 'TECH 1 SHIP',
       192: 'TECH 2 TRAIN',
       193: 'TECH 1 ANIMAL',
-      194: 'TECH 3'
+      194: 'TECH 3',
+      195: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1892,7 +1898,9 @@
       322: 'MIDDEL BRAND',
       323: 'A 1',
       324: 'A 2',
-      325: 'A 2'
+      325: 'A 2',
+      326: 'ZEER GROOTE BRAND',
+      327: 'EXTREEM GROOTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
