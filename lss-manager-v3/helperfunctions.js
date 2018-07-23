@@ -169,7 +169,11 @@ else if (I18n.locale == "de")
         "79": ["SEK - ZF", 2],
         "80": ["SEK - MTF", 2],
         "81": ["MEK - ZF", 2],
-        "82": ["MEK - MTF", 2]
+        "82": ["MEK - MTF", 2],
+        "83": ["GW-Werkfeuerwehr", 0],
+        "84": ["ULF mit Löscharm", 0],
+        "85": ["TM 50", 0],
+        "86": ["Turbolöscher", 0]
     };
 
 lssm.getVehicleNameById = function(vehicleId) {

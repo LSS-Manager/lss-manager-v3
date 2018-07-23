@@ -30,6 +30,14 @@
                     "description": 'FLF und RTF in eigenen Tab'
                 }
             },
+            "wf": {
+                "default": false,
+                "ui": {
+                    "label": 'Werkfeuerwehr',
+                    "type": "toggle",
+                    "description": 'Werkfeuerwehr in eigenen Tab'
+                }
+            },
             "nas": {
                 "default": false,
                 "ui": {
@@ -130,6 +138,14 @@
             name: 'ICAO',
             short: 'icao',
             vehicles: [75, 76]
+        };
+        sections.push(icaoSection);
+    }
+    if (getSetting('wf') && !isKtwMode) {
+        let icaoSection = {
+            name: 'WF',
+            short: 'wf',
+            vehicles: [83, 84, 85, 86]
         };
         sections.push(icaoSection);
     }
