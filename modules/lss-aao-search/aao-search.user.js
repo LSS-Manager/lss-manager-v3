@@ -71,6 +71,7 @@
     {
         "use strict";
         $("#mission-aao-group").before('<input type="text" id="lssm_aao_search" style="min-width: 400px;" placeholder="'+I18n.t('lssm.aaosearch.search_aao')+'">');
+        $('#lssm_aao_search').focus();
         $("#mission-aao-group").before('<div id="lssm_aao_results"></div>');
         $("#mission-aao-group").before('<div id="lssm_vehicle_group_results"></div>');
         $("a[id^='aao_']").css("display", "inline-block");

@@ -93,7 +93,11 @@
               79: 'SEK - ZF',
               80: 'SEK - MTF',
               81: 'MEK - ZF',
-              82: 'MEK - MTF'
+              82: 'MEK - MTF',
+              83: 'GW-Werkfeuerwehr',
+              84: 'ULF mit Löscharm',
+              85: 'TM 50',
+              86: 'Turbolöscher'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -290,7 +294,11 @@
           79: 'SEK - ZF',
           80: 'SEK - MTF',
           81: 'MEK - ZF',
-          82: 'MEK - MTF'
+          82: 'MEK - MTF',
+          83: 'GW-Werkfeuerwehr',
+          84: 'ULF mit Löscharm',
+          85: 'TM 50',
+          86: 'Turbolöscher'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
