@@ -879,6 +879,23 @@ lssm.Module = {
         supportedLocales: ['de'],
         inframe: true,
         develop: false
+    },
+    verbandsverwaltung: {
+        name: {
+            de: "Verbandsverwaltung",
+            en: "Alliance-extension",
+            nl: "Team-uitbreiding"
+        },
+        active: false,
+        description: {
+            de: "Verbandsübersicht auf einen Blick im Hauptfenster",
+            en: "Alliance overview at a glance in the main window",
+            nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
+        },
+        source: "/modules/lss-verbandserweiterung/verbandsverwaltung.js",
+        noapp: false,
+        inframe: true,
+        develop: false
     }
 };
 
