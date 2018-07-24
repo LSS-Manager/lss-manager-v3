@@ -24,7 +24,7 @@ if(I18n.locale == "en")
         "13": ["Quint", 0],
         "14": ["Police helicopter", 2],
         "15": ["Fly-Car", 1],
-        "16": ["SWAT", 2],
+        "16": ["SWAT Armoured Vehicle", 2],
         "17": ["ARFF Crash Tender", 0],
         "18": ["Rescue Engine", 0],
         "19": ["K-9 Unit", 2],
@@ -33,7 +33,8 @@ if(I18n.locale == "en")
         "22": ["Boat Trailer", 0],
         "23": ["Police Motorcycle", 2],
         "24": ["Large Fireboat", 0],
-        "25": ["Large Rescue Boat", 1]
+        "25": ["Large Rescue Boat", 1],
+        "26": ["SWAT SUV", 2]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {

@@ -242,6 +242,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 
             switch (building.building_type) {
                 case BUILDING_TYPE_FEUERWACHE:
+                case BUILDING_TYPE_FIRE_BOAT_DOCK:
                     appendto = "fw";
                     break;
                 case BUILDING_TYPE_RETTUNGSWACHE:
@@ -249,6 +250,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon = "fa-ambulance";
                     break;
                 case BUILDING_TYPE_WASSERRETTUNG:
+                case BUILDING_TYPE_RESCUE_BOAT_DOCK:
                     appendto = "wret";
                     icon = "fa-ambulance";
                     break;
@@ -269,20 +271,20 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon = "fa-h-square";
                     appendto = "pol";
                     break;
-		case BUILDING_TYPE_SEG:
+                case BUILDING_TYPE_SEG:
                     appendto = "rd";
-		    icon = "fa-ambulance";
-		    maxcars = 9;
+                    icon = "fa-ambulance";
+                    maxcars = 9;
                     break;
                 case BUILDING_TYPE_POLIZEIWACHE:
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
+                case BUILDING_TYPE_POLIZEISONDEREINHEITEN:
                     icon = "fa fa-balance-scale"
                     appendto = "pol";
-                    maxcars = 18;
                     break;
                 case BUILDING_TYPE_THW:
                     appendto = "thw";
-		    maxcars = 15;
+                    maxcars = 15;
                     break;
                 case BUILDING_TYPE_FEUERWEHRSCHULE:
                 case BUILDING_TYPE_RETTUNGSSCHULE:

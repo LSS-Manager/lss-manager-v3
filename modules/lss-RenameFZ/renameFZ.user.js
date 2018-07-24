@@ -123,7 +123,7 @@
               13: 'Quint',
               14: 'Police helicopter',
               15: 'Fly-Car',
-              16: 'SWAT',
+              16: 'SWAT Armoured Vehicle',
               17: 'ARFF Crash Tender',
               18: 'Rescue Engine',
               19: 'K-9 Unit',
@@ -132,7 +132,8 @@
               22: 'Boat Trailer',
               23: 'Police Motorcycle',
               24: 'Large Fireboat',
-              25: 'Large Rescue Boat'
+              25: 'Large Rescue Boat',
+              26: 'SWAT SUV'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -317,7 +318,7 @@
           13: 'Quint',
           14: 'Police helicopter',
           15: 'Fly-Car',
-          16: 'SWAT',
+          16: 'SWAT Armoured Vehicle',
           17: 'ARFF Crash Tender',
           18: 'Rescue Engine',
           19: 'K-9 Unit',
@@ -326,7 +327,8 @@
           22: 'Boat Trailer',
           23: 'Police Motorcycle',
           24: 'Large Fireboat',
-          25: 'Large Rescue Boat'
+          25: 'Large Rescue Boat',
+          26: 'SWAT SUV'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
