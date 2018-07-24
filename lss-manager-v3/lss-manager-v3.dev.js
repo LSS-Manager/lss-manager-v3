@@ -892,7 +892,7 @@ lssm.Module = {
             en: "Alliance overview at a glance in the main window",
             nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
         },
-        source: "/modules/lss-verbandserweiterung/verbandsverwaltung.js",
+        source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
         noapp: false,
         inframe: true,
         develop: false
