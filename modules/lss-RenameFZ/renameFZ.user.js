@@ -189,7 +189,9 @@
               43: 'CT (4x4)',
               44: 'AFO/OSC',
               45: 'DBH',
-              46: 'DM Noodhulp'
+              46: 'DM Noodhulp',
+              47: 'DA Hondengeleider',
+              48: 'DB Hondengeleider'
             }
         }
 
@@ -377,7 +379,9 @@
           43: 'CT (4x4)',
           44: 'AFO/OSC',
           45: 'DBH',
-          46: 'DM Noodhulp'
+          46: 'DM Noodhulp',
+          47: 'DA Hondengeleider',
+          48: 'DB Hondengeleider'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
