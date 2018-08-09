@@ -1964,7 +1964,7 @@
     var aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-    var missionId = $('#mission_help').attr('href').split("/").pop();
+    var missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);
