@@ -575,7 +575,15 @@
 				384: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1100 </span>',
 				385: '4x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Öl<br>1x GW-Atemschutz<br>' +
 				'1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>max. 3 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br>' +
-				'<span class="badge">Credits: ~ 5100 </span>'
+				'<span class="badge">Credits: ~ 5100 </span>',
+				386: '5x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>' +
+				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 5 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)' +
+				'<br><br><span class="badge">Credits: ~ 5500 </span>',
+				387: '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>' +
+				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
+				'<br><br><span class="badge">Credits: ~ 6500 </span>',
+				388: '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
+				'<br><br><span class="badge">Credits: ~ 2500 </span>'
 			}
 		}
 
@@ -1309,7 +1317,12 @@
 				'1x Waarschuwings- en Verkenningsdienst (50%)<br>1x Adviseurs Gevaarlijke Stoffen (50%)<br>1x HOvD<br>1x Commandowagen (50%)<br>2x Politieautos<br><br>' +
 				'<span class="badge">Credits: ~ 7000</span>',
 				328: '1x Tankautospuit<br>1x Hulpervoertuig (20%)<br>1x OvD-B (50%)<br>1x Waarschuwings- en Verkenningsdienst (10%)<br>1x Adviseurs Gevaarlijke Stoffen' +
-				'<br>1x Politieauto<br>min. 1x Ambulances<br><br><span class="badge">Credits: ~ 700</span>'
+				'<br>1x Politieauto<br>min. 1x Ambulances<br><br><span class="badge">Credits: ~ 700</span>',
+	      329: '1x Politieauto<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 350</span>',
+	      330: '5x Politieautos<br>1x OvD-P (50%)<br>1x Hondengeleider<br>max. 1x Ambulances<br><br><span class="badge">Credits: ~ 2250</span>',
+	      331: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
+	      332: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
+	      333: '3x Politieautos<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 2000</span>',
 			}
 		}
 	}
@@ -1318,7 +1331,7 @@
 
 	if (missionHelp.length > 0) {
 		setValues();
-		var missionId = missionHelp.attr('href').split("/").pop();
+		var missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
 		var aaoText = I18n.t('lssm.missionHelper.missions.' + missionId);
 		var markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') +
 		'</h3>' + aaoText + '</div>';

@@ -407,7 +407,10 @@
         382: 'PKW im Gleisbett',
         383: 'Kind in PKW eingeschlossen',
         384: 'Brennende Ballenpresse',
-        385: 'Unfall beim Umpumpen von Flüssigkeiten'
+        385: 'Unfall beim Umpumpen von Flüssigkeiten',
+        386: 'Ammoniak austritt',
+        387: 'Brennende Pipeline-Isolierung',
+        388: 'Feuer in Verwaltungsgebäude'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -969,7 +972,12 @@
         325: 'Verkeersongeval met fietser en motorfiets',
         326: 'Brand in landbouwschuur',
         327: 'Brand in landbouwschuur',
-        328: 'Persoon onwel na mixen mest'
+        328: 'Persoon onwel na mixen mest',
+        329: 'Verwaarloosde hond in woning',
+        330: 'Vechtpartij in café',
+        331: 'Inbraak in bedrijfspand',
+        332: 'Inbraak in bedrijfspand',
+        333: 'Inbraak in bedrijfspand',
       }
     };
 
@@ -1378,7 +1386,10 @@
       382: 'THL 2',
       383: 'POL 1',
       384: 'B 1',
-      385: 'ABC 1'
+      385: 'ABC 1',
+      386: 'ABC 1',
+      387: 'ABC 2',
+      388: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1908,7 +1919,12 @@
       325: 'A 2',
       326: 'ZEER GROOTE BRAND',
       327: 'EXTREEM GROOTE BRAND',
-      328: 'KLEINE HV'
+      328: 'KLEINE HV',
+      329: 'P 1',
+      330: 'P 5',
+      331: 'P 2',
+      332: 'P 2',
+      333: 'P 3',
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -1958,7 +1974,7 @@
     var aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-    var missionId = $('#mission_help').attr('href').split("/").pop();
+    var missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);
