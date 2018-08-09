@@ -406,8 +406,7 @@
         381: 'PKW im Gleisbett',
         382: 'PKW im Gleisbett',
         383: 'Kind in PKW eingeschlossen',
-        384: 'Brennende Ballenpresse',
-        385: 'Unfall beim Umpumpen von Flüssigkeiten'
+        384: 'Brennende Ballenpresse'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1377,8 +1376,7 @@
       381: 'THL 2',
       382: 'THL 2',
       383: 'POL 1',
-      384: 'B 1',
-      385: 'ABC 1'
+      384: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
