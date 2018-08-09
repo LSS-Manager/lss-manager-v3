@@ -575,13 +575,7 @@
 				384: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1100 </span>',
 				385: '4x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Öl<br>1x GW-Atemschutz<br>' +
 				'1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>max. 3 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)<br><br>' +
-				'<span class="badge">Credits: ~ 5100 </span>',
-				386: '5x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>' +
-				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 5 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (50%)' +
-				'<br><br><span class="badge">Credits: ~ 5500 </span>',
-				387: '8x Löschfahrzeuge<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Einsatzleitwagen 1<br>1x Dekon-P (20%)<br>1x GW-Atemschutz<br>' +
-				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
-				'<br><br><span class="badge">Credits: ~ 6500 </span>'
+				'<span class="badge">Credits: ~ 5100 </span>'
 			}
 		}
 
