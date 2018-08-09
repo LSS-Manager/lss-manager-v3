@@ -1317,7 +1317,12 @@
 				'1x Waarschuwings- en Verkenningsdienst (50%)<br>1x Adviseurs Gevaarlijke Stoffen (50%)<br>1x HOvD<br>1x Commandowagen (50%)<br>2x Politieautos<br><br>' +
 				'<span class="badge">Credits: ~ 7000</span>',
 				328: '1x Tankautospuit<br>1x Hulpervoertuig (20%)<br>1x OvD-B (50%)<br>1x Waarschuwings- en Verkenningsdienst (10%)<br>1x Adviseurs Gevaarlijke Stoffen' +
-				'<br>1x Politieauto<br>min. 1x Ambulances<br><br><span class="badge">Credits: ~ 700</span>'
+				'<br>1x Politieauto<br>min. 1x Ambulances<br><br><span class="badge">Credits: ~ 700</span>',
+	      329: '1x Politieauto<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 350</span>',
+	      330: '5x Politieautos<br>1x OvD-P (50%)<br>1x Hondengeleider<br>max. 1x Ambulances<br><br><span class="badge">Credits: ~ 2250</span>',
+	      331: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
+	      332: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
+	      333: '3x Politieautos<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 2000</span>',
 			}
 		}
 	}
