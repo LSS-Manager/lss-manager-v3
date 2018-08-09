@@ -1326,7 +1326,7 @@
 
 	if (missionHelp.length > 0) {
 		setValues();
-		var missionId = missionHelp.attr('href').split("/").pop();
+		var missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
 		var aaoText = I18n.t('lssm.missionHelper.missions.' + missionId);
 		var markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') +
 		'</h3>' + aaoText + '</div>';
