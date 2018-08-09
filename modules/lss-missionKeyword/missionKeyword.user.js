@@ -409,7 +409,8 @@
         384: 'Brennende Ballenpresse',
         385: 'Unfall beim Umpumpen von Flüssigkeiten',
         386: 'Ammoniak austritt',
-        387: 'Brennende Pipeline-Isolierung'
+        387: 'Brennende Pipeline-Isolierung',
+        388: 'Feuer in Verwaltungsgebäude'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1382,7 +1383,8 @@
       384: 'B 1',
       385: 'ABC 1',
       386: 'ABC 1',
-      387: 'ABC 2'
+      387: 'ABC 2',
+      388: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
