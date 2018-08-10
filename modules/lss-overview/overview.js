@@ -962,7 +962,7 @@
 
     I18n.translations.nl.lssm.overview = {
         vehicleType: "Type voertuig",
-        min: "minimumpersoneel",
+        min: "minimum personeel",
         max: "maximaal personeel",
         cost: "Prijs",
         schooling: 'opleiding',
@@ -1097,7 +1097,7 @@
                 max: 1,
                 credits: 25500,
                 coins: 25,
-                schooling: 'Foofdofficier van dienst',
+                schooling: 'Hoofd Officier van Dienst',
                 special: 'Benodigd vanaf 13 brandweerposten.'
             },
             daovd: {
