@@ -390,7 +390,28 @@
         365: 'Brennender Blumenstrauß',
         366: 'Vollstreckung Haftbefehl',
         367: 'Vollstreckung Haftbefehl - eskaliert',
-        368: 'Brennende Kirche'
+        368: 'Brennende Kirche',
+        369: 'Austritt Kohlenmonoxid',
+        370: 'Geisterfahrer',
+        371: 'Fußball aufpumpen',
+        372: 'Mannschaftsbus in Halteverbot abgestellt',
+        373: 'Behandlung nach Schwalbe',
+        374: 'Prellung nach Lattenpraller',
+        375: 'Tor gefallen',
+        376: 'Pokal geklaut',
+        377: 'Überzuckerung',
+        378: 'Observation',
+        379: 'PKW im Gleisbett',
+        380: 'PKW im Gleisbett',
+        381: 'PKW im Gleisbett',
+        382: 'PKW im Gleisbett',
+        383: 'Kind in PKW eingeschlossen',
+        384: 'Brennende Ballenpresse',
+        385: 'Unfall beim Umpumpen von Flüssigkeiten',
+        386: 'Ammoniak austritt',
+        387: 'Brennende Pipeline-Isolierung',
+        388: 'Feuer in Verwaltungsgebäude',
+        389: 'Brand in Chemiepark - Produktion'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -593,8 +614,22 @@
         181: 'School fire',
         182: 'Cafeteria fire',
         183: 'Fire in fast food restaurant',
-        184: 'Containership fire',
-        185: 'Dock Crane fire'
+        184: 'Container Ship Fire',
+        185: 'Dock Crane fire',
+        186: 'Recycling Centre fire',
+        187: 'Kidnaping',
+        188: 'Cruise ship sinking',
+        189: 'Sinking boat',
+        190: 'Sinking boat',
+        191: 'Sinking boat',
+        192: 'Traffic accident with train',
+        193: 'Animal Rescue',
+        194: 'Large MVA in tunnel',
+        195: 'Single vehicle fire in tunnel',
+        196: 'Kitchen Fire',
+        197: 'Small boat fire',
+        198: 'Small boat fire',
+        199: 'Small boat fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -922,7 +957,34 @@
         306: 'Verkeersongeval met touringcar',
         307: 'Verkeersongeval met touringcar',
         308: 'Natuurbrand',
-        309: 'Natuurbrand'
+        309: 'Natuurbrand',
+        310: 'Verkeersongeval met scooter en fietser',
+        311: 'Verkeersongeval met fietser en fietser',
+        312: 'Lekkende goederenwagon',
+        313: 'Brand in passagierstrein',
+        314: 'Brand in passagierstrein',
+        315: 'Brand in passagierstrein',
+        316: 'Bedreiging met vuurwapen',
+        317: 'Bedreiging met vuurwapen',
+        318: 'Brand op binnenvaartschip',
+        319: 'Brand op binnenvaartschip',
+        320: 'Brand op binnenvaartschip',
+        321: 'Brandende wegberm',
+        322: 'Brandende wegberm',
+        323: 'Verkeersongeval met motorfiets',
+        324: 'Verkeersongeval met personenauto en motorfiets',
+        325: 'Verkeersongeval met fietser en motorfiets',
+        326: 'Brand in landbouwschuur',
+        327: 'Brand in landbouwschuur',
+        328: 'Persoon onwel na mixen mest',
+        329: 'Verwaarloosde hond in woning',
+        330: 'Vechtpartij in café',
+        331: 'Inbraak in bedrijfspand',
+        332: 'Inbraak in bedrijfspand',
+        333: 'Inbraak in bedrijfspand',
+        334: 'Brand in schoolgebouw',
+        335: 'Brand in schoolgebouw',
+        336: 'Brand in schoolgebouw'
       }
     };
 
@@ -1314,7 +1376,28 @@
       365: 'B 0.1',
       366: 'POL 1',
       367: 'SEK 1',
-      368: 'B 4'
+      368: 'B 4',
+      369: 'B 1',
+      370: 'POL 2',
+      371: 'THL 0.5',
+      372: 'POL 0.5',
+      373: 'RD 0.5',
+      374: 'RD 0.5',
+      375: 'THL 0.5',
+      376: 'POL 0.75',
+      377: 'RD 1',
+      378: 'MEK 1',
+      379: 'THL 2',
+      380: 'THL 2',
+      381: 'THL 2',
+      382: 'THL 2',
+      383: 'POL 1',
+      384: 'B 1',
+      385: 'ABC 1',
+      386: 'ABC 1',
+      387: 'ABC 2',
+      388: 'B 1',
+      389: 'ABC 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1472,7 +1555,7 @@
       152: 'TECH TRAIN',
       153: 'FIRE 4',
       154: 'ABC 1',
-      155: 'FIRE 5',
+      155: 'FIRE 4',
       156: 'MED 2',
       157: 'MED 2',
       158: 'TECH 1',
@@ -1502,7 +1585,21 @@
       182: 'FIRE 2',
       183: 'FIRE 2',
       184: 'FIRE 3 SHIP',
-      185: 'FIRE 2'
+      185: 'FIRE 2',
+      186: 'FIRE 5',
+      187: 'POL 4',
+      188: 'TECH 4 SHIP',
+      189: 'TECH 1 SHIP',
+      190: 'TECH 1 SHIP',
+      191: 'TECH 1 SHIP',
+      192: 'TECH 2 TRAIN',
+      193: 'TECH 1 ANIMAL',
+      194: 'TECH 3',
+      195: 'FIRE 2',
+      196: 'FIRE 1',
+      197: 'FIRE 1 BOAT',
+      198: 'FIRE 1 BOAT',
+      199: 'FIRE 1 BOAT'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1814,7 +1911,34 @@
       306: 'GROTE HV',
       307: 'GROTE HV',
       308: 'ZEER GROTE NATUURBRAND',
-      309: 'ZEER GROTE NATUURBRAND'
+      309: 'ZEER GROTE NATUURBRAND',
+      310: 'A 2',
+      311: 'A 1',
+      312: 'GROTE OGS, TIS 5',
+      313: 'KLEINE BRAND, TREIN',
+      314: 'MIDDEL BRAND, TREIN',
+      315: 'GROTE BRAND, TREIN',
+      316: 'P 2',
+      317: 'P 4',
+      318: 'KLEINE BRAND, SCHIP',
+      319: 'MIDDEL BRAND, SCHIP',
+      320: 'GROTE BRAND, SCHIP',
+      321: 'KLEINE BRAND',
+      322: 'MIDDEL BRAND',
+      323: 'A 1',
+      324: 'A 2',
+      325: 'A 2',
+      326: 'ZEER GROOTE BRAND',
+      327: 'EXTREEM GROOTE BRAND',
+      328: 'KLEINE HV',
+      329: 'P 1',
+      330: 'P 5',
+      331: 'P 2',
+      332: 'P 2',
+      333: 'P 3',
+      334: 'KLEINE BRAND',
+      335: 'MIDDEL BRAND',
+      336: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -1864,7 +1988,7 @@
     var aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-    var missionId = $('#mission_help').attr('href').split("/").pop();
+    var missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);

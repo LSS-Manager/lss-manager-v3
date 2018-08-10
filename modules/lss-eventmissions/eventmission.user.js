@@ -22,6 +22,13 @@
 	text = text.replace('Schokoladenspur auf Strasse', '[OSTERN] Schokoladenspur auf Strasse');
 	text = text.replace('Eierkocherbrand', '[OSTERN] Eierkocherbrand');
 	text = text.replace('Hasentreffen in Ostereistedt', '[OSTERN] Hasentreffen in Ostereistedt');
+	//WM Missions
+	text = text.replace('Fußball aufpumpen', '[WM] Fußball aufpumpen');
+	text = text.replace('Mannschaftsbus in Halteverbot abgestellt', '[WM] Mannschaftsbus in Halteverbot abgestellt');
+	text = text.replace('Behandlung nach Schwalbe', '[WM] Behandlung nach Schwalbe');
+	text = text.replace('Prellung nach Lattenpraller', '[WM] Prellung nach Lattenpraller');
+	text = text.replace('Tor gefallen', '[WM] Tor gefallen');
+	text = text.replace('Pokal geklaut', '[WM] Pokal geklaut');
 	//Sommer Missions
 	text = text.replace('Sonnenstich', '[SOMMER] Sonnenstich');
 	text = text.replace('Hitzschlag', '[SOMMER] Hitzschlag');
