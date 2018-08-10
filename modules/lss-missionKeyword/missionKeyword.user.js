@@ -410,7 +410,8 @@
         385: 'Unfall beim Umpumpen von Flüssigkeiten',
         386: 'Ammoniak austritt',
         387: 'Brennende Pipeline-Isolierung',
-        388: 'Feuer in Verwaltungsgebäude'
+        388: 'Feuer in Verwaltungsgebäude',
+        389: 'Brand in Chemiepark - Produktion'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -625,7 +626,10 @@
         193: 'Animal Rescue',
         194: 'Large MVA in tunnel',
         195: 'Single vehicle fire in tunnel',
-        196: 'Kitchen Fire'
+        196: 'Kitchen Fire',
+        197: 'Small boat fire',
+        198: 'Small boat fire',
+        199: 'Small boat fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -978,6 +982,9 @@
         331: 'Inbraak in bedrijfspand',
         332: 'Inbraak in bedrijfspand',
         333: 'Inbraak in bedrijfspand',
+        334: 'Brand in schoolgebouw',
+        335: 'Brand in schoolgebouw',
+        336: 'Brand in schoolgebouw'
       }
     };
 
@@ -1389,7 +1396,8 @@
       385: 'ABC 1',
       386: 'ABC 1',
       387: 'ABC 2',
-      388: 'B 1'
+      388: 'B 1',
+      389: 'ABC 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1588,7 +1596,10 @@
       193: 'TECH 1 ANIMAL',
       194: 'TECH 3',
       195: 'FIRE 2',
-      196: 'FIRE 1'
+      196: 'FIRE 1',
+      197: 'FIRE 1 BOAT',
+      198: 'FIRE 1 BOAT',
+      199: 'FIRE 1 BOAT'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1925,6 +1936,9 @@
       331: 'P 2',
       332: 'P 2',
       333: 'P 3',
+      334: 'KLEINE BRAND',
+      335: 'MIDDEL BRAND',
+      336: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

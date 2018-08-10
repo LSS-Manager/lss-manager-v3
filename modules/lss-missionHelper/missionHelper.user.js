@@ -583,7 +583,11 @@
 				'1x Turbolöscher<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x ULF mit Löscharm<br>max. 1 Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
 				'<br><br><span class="badge">Credits: ~ 6500 </span>',
 				388: '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Drehleiter<br>1x Rettungstransportwagen<br>1x Notarzteinsatzfahrzeug (20%)' +
-				'<br><br><span class="badge">Credits: ~ 2500 </span>'
+				'<br><br><span class="badge">Credits: ~ 2500 </span>',
+				389: '16x Löschfahrzeuge<br>4x Drehleiter<br>1x Rüstwagen<br>1x Schlauchwagen (10%)<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>' +
+				'1x GW-Atemschutz<br>1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P (60%)<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>' +
+				'1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">' +
+				'Credits: ~ 8500 </span>'
 			}
 		}
 
@@ -841,7 +845,10 @@
 				194: '6x Firetrucks<br>2x Battalion Chief<br>3x Heavy Rescues<br>1x Water Tanker<br>1x Mobile Air<br>1x HazMat<br>1x Mobile Command<br>2x Police Cars' +
 				'<br>max. 14x Ambulances<br><br><span class="badge">Credits: ~ 7000 </span>',
 				195: '3x Firetrucks<br>1x Battalion Chief<br>max. 4x Ambulances<br><br><span class="badge">Credits: ~ 1500 </span>',
-				196: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>'
+				196: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>',
+				197: '3x Firetrucks<br>1x Battalion Chief<br>1x Boat<br><br><span class="badge">Credits: ~ 1250 </span>',
+				198: '3x Firetrucks<br>1x Battalion Chief<br>1x Boat<br><br><span class="badge">Credits: ~ 1250 </span>',
+				199: '3x Firetrucks<br>1x Battalion Chief<br>1x Boat<br><br><span class="badge">Credits: ~ 1250 </span>'
 			}
 		}
 
@@ -1323,6 +1330,10 @@
 	      331: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
 	      332: '2x Politieautos<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500</span>',
 	      333: '3x Politieautos<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 2000</span>',
+				334: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 850</span>',
+				335: '2x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x OvD-B<br>1x Politieauto<br><br><span class="badge">Credits: ~ 1750</span>',
+				336: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)1x HOvD (50%)<br>' +
+				'1x Politieauto<br><br><span class="badge">Credits: ~ 2850</span>'
 			}
 		}
 	}
