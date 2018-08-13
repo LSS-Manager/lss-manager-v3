@@ -97,13 +97,16 @@ I18n.translations.de.lssm = {
     activated: "Folgende Module wurden aktiviert:",
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
+    mapkit: "Mapkit wird aktuell noch nicht vom LSS-Manager unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
+    domainpro: "https://www.leitstellenspiel.de/profile/",
+    domainmes: "https://www.leitstellenspiel.de/messages/new?target=",
     apps: {}
 };
 I18n.translations.en.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
-    appstore_welcome: "Welcome to the lssm.appstore of LSS Manager",
+    appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
     "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
     "<a href=\"" +
@@ -116,6 +119,9 @@ I18n.translations.en.lssm = {
     cantactivate: "can't be activated as it's incompatible with the following modul(es):",
     cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
+    mapkit: "Mapkit is not currently supported by LSS-Manager.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
+    domainpro: "https://www.missionchief.com/profile/",
+    domainmes: "https://www.missionchief.com/messages/new?target=",
     apps: {}
 };
 I18n.translations.nl.lssm = {
@@ -133,9 +139,42 @@ I18n.translations.nl.lssm = {
     save: "Opslaan",
     activated: "De volgende modules zijn geactiveerd:",
     cantactivate: "Kan niet worden geactiveerd omdat deze lssm_module niet samenwerkt met de volgende lssm_module(s):",
+    mapkit: "Mapkit wordt momenteel niet ondersteund door LSS-Manager.\n\nPlease zet deze Add-On uit of ga terug naar OpenStreetMap.",
+    domainpro: "https://www.meldkamerspel.com/profile/",
+    domainmes: "https://www.meldkamerspel.com/messages/new?target=",
     apps: {}
 };
 
+I18n.translations.de.lssm.developers = {
+    "sanni": {
+        "id": 675,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 205976,
+        "name": "KBOE2"
+    }
+};
+I18n.translations.en.lssm.developers = {
+    "sanni": {
+        "id": 1065,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 49584,
+        "name": "KBOE2-Scripttester"
+    }
+};
+I18n.translations.nl.lssm.developers = {
+    "sanni": {
+        "id": 2091,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 28153,
+        "name": "KBOE2"
+    }
+};
 /**
  * Add the modules to lssm
  */
@@ -299,14 +338,13 @@ lssm.Module = {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
-            nl: 'Zelgemaakte inzetten opslaan.'
+            nl: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
-            de: 'Funktion um sebst erstlle VGE zu speichern.',
+            de: 'Funktion um selbst erstellte VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
-            nl: 'Maakt het mogelijk om zelgemaakte inzetten op te slaan als sjabloon zodat je ze latet nog eens ' +
-            'kan gebruiken.'
+            nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
@@ -383,6 +421,22 @@ lssm.Module = {
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
+        develop: false
+    },
+    Eventsmission: {
+        name: {
+            de: 'Markiert Eventeinsätze',
+            en: 'Marked events',
+            nl: 'Merken gebeurtenissen'
+        },
+        active: false,
+        inframe: true,
+        description: {
+            de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
+            en: 'Displays the current events with capitalized LINE!',
+            nl: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
+        },
+        source: '/modules/lss-eventmissions/eventmission.user.js',
         develop: false
     },
     DestinationFilter: {
@@ -864,6 +918,40 @@ lssm.Module = {
         supportedLocales: ['de'],
         inframe: true,
         develop: false
+    },
+    verbandsverwaltung: {
+        name: {
+            de: "Verbandsverwaltung",
+            en: "Alliance-extension",
+            nl: "Team-uitbreiding"
+        },
+        active: false,
+        description: {
+            de: "Verbandsübersicht auf einen Blick im Hauptfenster",
+            en: "Alliance overview at a glance in the main window",
+            nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
+        },
+        source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    overview: {
+        name: {
+            de: "Übersicht",
+            en: "overview",
+            nl: "overzicht"
+        },
+        active: false,
+        description: {
+            de: "Übersicht über alle Fahrzeuge, später auch Wachen.",
+            en: "Overview of all vehicles, later also buildings",
+            nl: "Overzicht van alle voertuigen, later ook gebouwen."
+        },
+        source: "/modules/lss-overview/overview.js",
+        noapp: false,
+        inframe: true,
+        develop: false
     }
 };
 
@@ -1019,9 +1107,17 @@ lssm.appstore = {
             '</a>' +
             '</span>&nbsp;' +
             '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/675" target="_blank" class="username-link">' +
+            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.sanni.id') +'" target="_blank" class="username-link">' +
             '@SanniHameln</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=SanniHameln" target="_blank" ' +
+            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.sanni.name') +'" target="_blank" ' +
+            'class="username-link">' +
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
+            '</a>' +
+            '</span>&nbsp;' +
+            '<span class="label label-primary">' +
+            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.kboe.id') +'" target="_blank" class="username-link">' +
+            '@KBOE2</a>&nbsp;' +
+            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.kboe.name') +'" target="_blank" ' +
             'class="username-link">' +
             '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
             '</a>' +
@@ -1332,6 +1428,9 @@ lssm.modules = {
         } catch (e) {
             console.log("On lssm_module load: " + e.message);
         }
+    },
+    isActive: function(e) {
+        return lssm.Module[e].active;
     }
 };
 
@@ -1453,7 +1552,7 @@ lssm.modal = {
                             '" type="text/javascript"></script>')
                         .append(
                             '<link rel="stylesheet" ' +
-                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">'
+                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css">'
                         );
 
                     // Get the last activated modules

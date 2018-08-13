@@ -37,5 +37,7 @@
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
+    if ("undefined" != typeof mapkit) {
+    } else
     map.invalidateSize(true);
 })();
