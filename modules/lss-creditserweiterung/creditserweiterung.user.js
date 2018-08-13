@@ -148,6 +148,8 @@
 
         $('#creditserweiterungCredits').append($('#navigation_top'));
         $('#creditserweiterungCoins').append($('#coins_top'));
+
+        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
     }
 
     function updateValues() {
@@ -170,6 +172,20 @@
             $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
         }
     }
+
+    let creditsUpdateOrigin = creditsUpdate;
+
+    creditsUpdate = function(a) {
+        creditsUpdateOrigin(a);
+        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+    };
+
+    let coinsUpdateOrigin = coinsUpdate;
+
+    coinsUpdate = function(a) {
+        coinsUpdateOrigin(a);
+        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+    };
 
     if (location.pathname.match(/\/missions\/\d+/)) return;
     if (location.pathname.match(/\/profile\/\d+/)) return;
