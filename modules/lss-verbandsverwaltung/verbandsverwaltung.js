@@ -8,6 +8,7 @@
         allianceFunds: 'Verbandskasse',
         earnedCredits: 'Verdiente Credits',
         onlineUsers: 'Mitglieder online',
+        allianceRank: 'Platz in der Verbandsliste',
         updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.'
     };
     I18n.translations.en.lssm.verbandsverwaltung = {
@@ -15,6 +16,7 @@
         allianceFunds: 'Alliance Funds',
         earnedCredits: 'Earned Credits',
         onlineUsers: 'Members online',
+        allianceRank: 'Rank in Alliancelist',
         updateMessage: 'Values update automatically<br>every 5 minutes.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
@@ -22,6 +24,7 @@
         allianceFunds: 'Teamkas',
         earnedCredits: 'Verdiende Credits',
         onlineUsers: 'Leden online',
+        allianceRank: 'Rangschikking in Alliancelist',
         updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.'
     };
 
@@ -95,6 +98,68 @@
         return online;
     }
 
+    function getAllianceRank(earnedCredits) {
+        let page = 1;
+        let rank = checkAllianceOnPage(page, earnedCredits);
+        if (rank === null || rank === -1) {
+            while (rank === null) {
+                page += 100;
+                rank = checkAllianceOnPage(page, earnedCredits);
+            }
+            rank = null;
+            if (page > 100) {
+                page -= 100;
+            } else {
+                page = 1;
+            }
+            while (rank === null) {
+                page += 10;
+                rank = checkAllianceOnPage(page, earnedCredits);
+            }
+            rank = null;
+            if (page > 10) {
+                page -= 10;
+            } else {
+                page = 1;
+            }
+            while (rank === null) {
+                page += 1;
+                rank = checkAllianceOnPage(page, earnedCredits);
+            }
+            return rank;
+        } else {
+            return rank;
+        }
+    }
+
+    function checkAllianceOnPage(page, earnedCredits) {
+        let alliance_id = 19;
+        let response = $.ajax({
+            type: "GET",
+            url: "./alliances?page=" + page,
+            async: false
+        }).responseText;
+        let rank = (page - 1) * 20;
+        if (response.match('/alliances/' + alliance_id)) {
+            let counter = 0;
+            $(response).find('tr').each(function() {
+                if ($(this).html().match('/alliances/' + alliance_id + '"')) {
+                    rank += counter;
+                }
+                counter += 1;
+            });
+            return rank;
+        } else {
+            if ($(response).find('table').length === 0) {
+                return -1;
+            }
+            if (parseInt($($($(response).find('tr')[2]).children()[2]).html().replace(/\D/g, '')) < earnedCredits) {
+                return -1;
+            }
+        }
+        return null;
+    }
+
     function updateValues() {
         let allianceFundsCredits = getAllianceFundsCredits();
 
@@ -109,12 +174,15 @@
         let earnedCredits = parseInt(allianceListEntry[1].innerText.replace(/[\D]/g, ''));
         $('#verbandsverwaltungAllianceCredits').html(I18n.t('lssm.verbandsverwaltung.earnedCredits') + ': ' + earnedCredits.toLocaleString() + ' Credits');
 
+        let allianceRank = getAllianceRank(earnedCredits);
+        $('#verbandsverwaltungAllianceRank').html(I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' + allianceRank.toLocaleString());
+
         let users = parseInt(allianceListEntry[2].innerText.replace(/[\D]/g, ''));
         let onlineUsers = getOnlineUsers();
         $('#verbandsverwaltungUsers').html(I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' + onlineUsers.toLocaleString() + '/' + users + ' (' + Math.round((100 / users) * onlineUsers) + '%)');
     }
 
-    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">' + I18n.t('lssm.verbandsverwaltung.name') + '&nbsp;<b class="caret"></b></a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers">Mitglieder online: 0</li><li role="presentation" id="verbandsverwaltungAllianceFunds">Verbandskasse: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceCredits">Verdiente Credits: 0 Credits</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li></ul></li>';
+    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">' + I18n.t('lssm.verbandsverwaltung.name') + '&nbsp;<b class="caret"></b></a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers">Mitglieder online: 0</li><li role="presentation" id="verbandsverwaltungAllianceFunds">Verbandskasse: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceCredits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li></ul></li>';
 
     $("#menu_alliance ~ ul li:first").before(markup);
 
@@ -126,7 +194,11 @@
 
     $('#verbandsverwaltungDropdown').css('position', 'absolute');
     $('#verbandsverwaltungDropdown').css('z-index', '999');
-    $('#verbandsverwaltungDropdown').css('background', '#c9302c');
+    $('#verbandsverwaltungDropdown').css('background', '#BA1D1A');
+    $('#verbandsverwaltungDropdown').css('width', '100%');
+    $('#verbandsverwaltungDropdown').css('padding-top', '5px');
+    $('#verbandsverwaltungDropdown').css('padding-bottom', '5px');
+    $('#verbandsverwaltungDropdown').css('border', '1px solid black');
 
     updateValues();
     setInterval(updateValues, 300000);
