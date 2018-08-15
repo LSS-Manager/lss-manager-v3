@@ -1295,10 +1295,16 @@
                 schooling: 'Mobiele eenheid'
             },
             dahg: {
-                name: 'Dienstauto Hondengeleider'
+                name: 'Dienstauto Hondengeleider',
+                min: 1,
+                max: 2,
+                schooling: 'Hondengeleider'
             },
             dbhg: {
-                name: 'Dienstbus Hondengeleider'
+                name: 'Dienstbus Hondengeleider',
+                min: 1,
+                max: 2,
+                schooling: 'Hondengeleider'
             }
         },
         heli: {
