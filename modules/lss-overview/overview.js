@@ -1298,12 +1298,14 @@
                 name: 'Dienstauto Hondengeleider',
                 min: 1,
                 max: 2,
+                credits: 8000,
                 schooling: 'Hondengeleider'
             },
             dbhg: {
                 name: 'Dienstbus Hondengeleider',
                 min: 1,
                 max: 2,
+                credits: 10000,
                 schooling: 'Hondengeleider'
             }
         },
