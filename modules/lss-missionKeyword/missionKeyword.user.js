@@ -411,7 +411,8 @@
         386: 'Ammoniak austritt',
         387: 'Brennende Pipeline-Isolierung',
         388: 'Feuer in Verwaltungsgebäude',
-        389: 'Brand in Chemiepark - Produktion'
+        389: 'Brand in Chemiepark - Produktion',
+        390: 'Sicherheitslandung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -629,7 +630,9 @@
         196: 'Kitchen Fire',
         197: 'Small boat fire',
         198: 'Small boat fire',
-        199: 'Small boat fire'
+        199: 'Small boat fire',
+        200: 'Person with a weapon',
+        201: 'VIP appearance'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -984,7 +987,9 @@
         333: 'Inbraak in bedrijfspand',
         334: 'Brand in schoolgebouw',
         335: 'Brand in schoolgebouw',
-        336: 'Brand in schoolgebouw'
+        336: 'Brand in schoolgebouw',
+        337: 'Huiselijk geweld',
+        338: 'Huiselijk geweld'
       }
     };
 
@@ -1397,7 +1402,8 @@
       386: 'ABC 1',
       387: 'ABC 2',
       388: 'B 1',
-      389: 'ABC 4'
+      389: 'ABC 4',
+      390: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1599,7 +1605,9 @@
       196: 'FIRE 1',
       197: 'FIRE 1 BOAT',
       198: 'FIRE 1 BOAT',
-      199: 'FIRE 1 BOAT'
+      199: 'FIRE 1 BOAT',
+      200: 'POL 4',
+      201: 'POL 6'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1938,7 +1946,9 @@
       333: 'P 3',
       334: 'KLEINE BRAND',
       335: 'MIDDEL BRAND',
-      336: 'GROTE BRAND'
+      336: 'GROTE BRAND',
+      337: 'P 1',
+      338: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
