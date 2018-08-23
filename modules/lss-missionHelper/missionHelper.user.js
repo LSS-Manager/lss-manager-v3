@@ -589,7 +589,8 @@
 				'1x ULF mit Löscharm<br>3x Funkstreifenwagen<br>max. 3x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">' +
 				'Credits: ~ 8500 </span>',
 				390: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>2x Flugfeldlöschfahrzeuge<br>1x Rettungstreppe<br>1x Rettungstransportwagen<br><br>' +
-				'<span class="badge">Credits: ~ 1000 </span>'
+				'<span class="badge">Credits: ~ 1000 </span>',
+				391: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (60%)'
 			}
 		}
 
@@ -1340,7 +1341,11 @@
 				336: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x Slangenwagen (20%)1x HOvD (50%)<br>' +
 				'1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 2850</span>',
 				337: '2x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 1000</span>',
-				338: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1550</span>'
+				338: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1550</span>',
+				339: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (60%)<br>1x OvD-B (80%)<br>1x Waarschuwings- en Verkenningsdienst (10%)<br>' +
+				'Adviseurs Gevaarlijke Stoffen (10%)<br>1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 1150</span>',
+				340: '2x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x Waarschuwings- en Verkenningsdienst (30%)<br>' +
+				'Adviseurs Gevaarlijke Stoffen (20%)<br>1x HOvD (10%)<br>1x Commandowagen (10%)<br>2x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2500</span>'
 			}
 		}
 	}

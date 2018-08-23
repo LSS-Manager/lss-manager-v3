@@ -412,7 +412,8 @@
         387: 'Brennende Pipeline-Isolierung',
         388: 'Feuer in Verwaltungsgebäude',
         389: 'Brand in Chemiepark - Produktion',
-        390: 'Sicherheitslandung'
+        390: 'Sicherheitslandung',
+        391: 'Vergiftung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -990,7 +991,9 @@
         335: 'Brand in schoolgebouw',
         336: 'Brand in schoolgebouw',
         337: 'Huiselijk geweld',
-        338: 'Huiselijk geweld'
+        338: 'Huiselijk geweld',
+        339: 'Lekkende LPG installatie',
+        340: 'Lekkende LPG installatie'
       }
     };
 
@@ -1404,7 +1407,8 @@
       387: 'ABC 2',
       388: 'B 1',
       389: 'ABC 4',
-      390: 'B 1'
+      390: 'B 1',
+      391: 'RD 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1950,7 +1954,9 @@
       335: 'MIDDEL BRAND',
       336: 'GROTE BRAND',
       337: 'P 1',
-      338: 'P 1'
+      338: 'P 1',
+      339: 'KLEINE HV',
+      340: 'MIDDEL HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
