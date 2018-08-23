@@ -852,7 +852,8 @@
 				198: '3x Firetrucks<br>1x Battalion Chief<br>1x Boat<br><br><span class="badge">Credits: ~ 1250 </span>',
 				199: '3x Firetrucks<br>1x Battalion Chief<br>1x Boat<br><br><span class="badge">Credits: ~ 1250 </span>',
 				200: '4x Police Cars<br>1x K9-Unit<br><br><span class="badge">Credits: ~ 2500 </span>',
-				201: '<h4>Safeguarding</h4>6x Police Cars<br>1x K9-Unit<br>1x Police Helicopter<br><br><span class="badge">Credits: ~ 4000 </span>'
+				201: '<h4>Safeguarding</h4>6x Police Cars<br>1x K9-Unit<br>1x Police Helicopter<br><br><span class="badge">Credits: ~ 4000 </span>',
+				202: '5x Firetrucks<br>1x Battalion Chief<br>1x Water Tanker<br><br><span class="badge">Credits: ~ 3000 </span>'
 			}
 		}
 
@@ -956,7 +957,7 @@
 				71: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 200 </span>',
 				72: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 200 </span>',
 				73: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 200 </span>',
-				74: '1x Noodhulpeenheid<br>1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				74: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 500 </span>',
 				75: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 300 </span>',
 				76: '2x Tankautospuiten (100%)<br>1x Hulpverleningsvoertuig (100%)<br>1x OvD-B (100%)<br>1x HOVD (10%)' +
 				'<br>2x Noodhulpeenheden<br>min. 1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 3000 </span>',

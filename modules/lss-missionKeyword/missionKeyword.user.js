@@ -632,7 +632,8 @@
         198: 'Small boat fire',
         199: 'Small boat fire',
         200: 'Person with a weapon',
-        201: 'VIP appearance'
+        201: 'VIP appearance',
+        202: 'Large Field Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1607,7 +1608,8 @@
       198: 'FIRE 1 BOAT',
       199: 'FIRE 1 BOAT',
       200: 'POL 4',
-      201: 'POL 6'
+      201: 'POL 6',
+      202: 'FIRE 5'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
