@@ -591,8 +591,8 @@
 				390: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>2x Flugfeldlöschfahrzeuge<br>1x Rettungstreppe<br>1x Rettungstransportwagen<br><br>' +
 				'<span class="badge">Credits: ~ 1000 </span>',
 				391: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (60%)',
-				392: '',
-				393: ''
+				392: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%)<br><br>' +
+				'<span class="badge">Credits: ~ 1900 </span>'
 			}
 		}
 

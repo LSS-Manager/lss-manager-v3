@@ -414,8 +414,7 @@
         389: 'Brand in Chemiepark - Produktion',
         390: 'Sicherheitslandung',
         391: 'Vergiftung',
-        392: '',
-        393: ''
+        392: 'Person durch Hubmaschine eingeklemmt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1415,8 +1414,7 @@
       389: 'ABC 4',
       390: 'B 1',
       391: 'RD 2',
-      392: '',
-      393: ''
+      392: 'TH 1 Person'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
