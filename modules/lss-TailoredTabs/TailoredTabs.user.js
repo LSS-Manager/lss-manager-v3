@@ -22,6 +22,14 @@
                     "parent": SETTINGS + "_bpol_toggle",
                 }
             },
+            "sekmek": {
+                "default": false,
+                "ui": {
+                    "label": 'SEK/MEK',
+                    "type": "toggle",
+                    "description": 'SEK/MEK Einheiten in eigenem Tab'
+                }
+            },
             "icao": {
                 "default": false,
                 "ui": {
@@ -132,6 +140,14 @@
             bpolSection.vehicles.push(61);
         }
         sections.push(bpolSection);
+    }
+    if (getSetting('sekmek') && !isKtwMode) {
+        let sekmekSection = {
+            name: 'SEK/MEK',
+            short: 'sond',
+            vehicles: [79, 80, 81, 82]
+        };
+        sections.push(sekmekSection);
     }
     if (getSetting('icao') && !isKtwMode) {
         let icaoSection = {
