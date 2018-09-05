@@ -148,7 +148,7 @@
             bpolSection.vehicles.push(61);
         } 
         if (getSetting('seme')) {
-            naSection.vehicles.push(79,80,81,82);
+            bpolSection.vehicles.push(79,80,81,82);
         }
         sections.push(bpolSection);
     }
