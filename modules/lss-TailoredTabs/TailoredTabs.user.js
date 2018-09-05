@@ -22,6 +22,14 @@
                     "parent": SETTINGS + "_bpol_toggle",
                 }
             },
+            "seme": {
+                "default": false,
+                "ui": {
+                    "label": 'SEK/MEK hier hinzufügen',
+                    "type": "checkbox",
+                    "parent": SETTINGS + "_bpol_toggle",
+                }
+            },
             "sekmek": {
                 "default": false,
                 "ui": {
@@ -138,6 +146,9 @@
         };
         if (getSetting('polhub')) {
             bpolSection.vehicles.push(61);
+        } 
+        if (getSetting('seme')) {
+            naSection.vehicles.push(79,80,81,82);
         }
         sections.push(bpolSection);
     }
