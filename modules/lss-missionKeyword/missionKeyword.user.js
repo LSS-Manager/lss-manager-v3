@@ -414,7 +414,8 @@
         389: 'Brand in Chemiepark - Produktion',
         390: 'Sicherheitslandung',
         391: 'Vergiftung',
-        392: 'Person durch Hubmaschine eingeklemmt'
+        392: 'Person durch Hubmaschine eingeklemmt',
+        393: 'Einsturzgefährdeter Balkon'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -636,7 +637,8 @@
         200: 'Person with a weapon',
         201: 'VIP appearance',
         202: 'Large Field Fire',
-        203: 'Natural gas odor'
+        203: 'Natural gas odor',
+        204: 'Ammonia Leak (Gas Alarm System)'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -998,7 +1000,9 @@
         340: 'Lekkende LPG installatie',
         341: 'Nacontrole brand',
         342: 'Nacontrole brand',
-        343: 'Nacontrole brand'
+        343: 'Nacontrole brand',
+        344: 'Vreemde lucht in kantoorgebouw',
+        345: 'Vreemde lucht in kantoorgebouw'
       }
     };
 
@@ -1414,7 +1418,8 @@
       389: 'ABC 4',
       390: 'B 1',
       391: 'RD 2',
-      392: 'TH 1 Person'
+      392: 'THL 1 Person',
+      393: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1620,7 +1625,8 @@
       200: 'POL 4',
       201: 'POL 6',
       202: 'FIRE 5',
-      203: 'FIRE 1'
+      203: 'FIRE 1',
+      204: 'CBRN 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1966,7 +1972,9 @@
       340: 'MIDDEL HV',
       341: 'KLEINE BRAND',
       342: 'KLEINE BRAND',
-      343: 'KLEINE BRAND'
+      343: 'KLEINE BRAND',
+      344: 'OGS 1',
+      345: 'OGS 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

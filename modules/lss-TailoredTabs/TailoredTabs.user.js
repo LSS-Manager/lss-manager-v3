@@ -22,6 +22,22 @@
                     "parent": SETTINGS + "_bpol_toggle",
                 }
             },
+            "seme": {
+                "default": false,
+                "ui": {
+                    "label": 'SEK/MEK hier hinzufügen',
+                    "type": "checkbox",
+                    "parent": SETTINGS + "_bpol_toggle",
+                }
+            },
+            "sekmek": {
+                "default": false,
+                "ui": {
+                    "label": 'SEK/MEK',
+                    "type": "toggle",
+                    "description": 'SEK/MEK Einheiten in eigenem Tab'
+                }
+            },
             "icao": {
                 "default": false,
                 "ui": {
@@ -130,8 +146,19 @@
         };
         if (getSetting('polhub')) {
             bpolSection.vehicles.push(61);
+        } 
+        if (getSetting('seme')) {
+            bpolSection.vehicles.push(79,80,81,82);
         }
         sections.push(bpolSection);
+    }
+    if (getSetting('sekmek') && !isKtwMode) {
+        let sekmekSection = {
+            name: 'SEK/MEK',
+            short: 'sond',
+            vehicles: [79, 80, 81, 82]
+        };
+        sections.push(sekmekSection);
     }
     if (getSetting('icao') && !isKtwMode) {
         let icaoSection = {
