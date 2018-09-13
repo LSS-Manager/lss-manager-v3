@@ -935,6 +935,23 @@ lssm.Module = {
         noapp: false,
         inframe: true,
         develop: false
+    },
+    overview: {
+        name: {
+            de: "Übersicht",
+            en: "overview",
+            nl: "overzicht"
+        },
+        active: false,
+        description: {
+            de: "Übersicht über alle Fahrzeuge, später auch Wachen.",
+            en: "Overview of all vehicles, later also buildings",
+            nl: "Overzicht van alle voertuigen, later ook gebouwen."
+        },
+        source: "/modules/lss-overview/overview.js",
+        noapp: false,
+        inframe: true,
+        develop: false
     }
 };
 

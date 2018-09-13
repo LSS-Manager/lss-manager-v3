@@ -411,7 +411,11 @@
         386: 'Ammoniak austritt',
         387: 'Brennende Pipeline-Isolierung',
         388: 'Feuer in Verwaltungsgebäude',
-        389: 'Brand in Chemiepark - Produktion'
+        389: 'Brand in Chemiepark - Produktion',
+        390: 'Sicherheitslandung',
+        391: 'Vergiftung',
+        392: 'Person durch Hubmaschine eingeklemmt',
+        393: 'Einsturzgefährdeter Balkon'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -629,7 +633,12 @@
         196: 'Kitchen Fire',
         197: 'Small boat fire',
         198: 'Small boat fire',
-        199: 'Small boat fire'
+        199: 'Small boat fire',
+        200: 'Person with a weapon',
+        201: 'VIP appearance',
+        202: 'Large Field Fire',
+        203: 'Natural gas odor',
+        204: 'Ammonia Leak (Gas Alarm System)'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -984,7 +993,16 @@
         333: 'Inbraak in bedrijfspand',
         334: 'Brand in schoolgebouw',
         335: 'Brand in schoolgebouw',
-        336: 'Brand in schoolgebouw'
+        336: 'Brand in schoolgebouw',
+        337: 'Huiselijk geweld',
+        338: 'Huiselijk geweld',
+        339: 'Lekkende LPG installatie',
+        340: 'Lekkende LPG installatie',
+        341: 'Nacontrole brand',
+        342: 'Nacontrole brand',
+        343: 'Nacontrole brand',
+        344: 'Vreemde lucht in kantoorgebouw',
+        345: 'Vreemde lucht in kantoorgebouw'
       }
     };
 
@@ -1397,7 +1415,11 @@
       386: 'ABC 1',
       387: 'ABC 2',
       388: 'B 1',
-      389: 'ABC 4'
+      389: 'ABC 4',
+      390: 'B 1',
+      391: 'RD 2',
+      392: 'THL 1 Person',
+      393: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1599,7 +1621,12 @@
       196: 'FIRE 1',
       197: 'FIRE 1 BOAT',
       198: 'FIRE 1 BOAT',
-      199: 'FIRE 1 BOAT'
+      199: 'FIRE 1 BOAT',
+      200: 'POL 4',
+      201: 'POL 6',
+      202: 'FIRE 5',
+      203: 'FIRE 1',
+      204: 'CBRN 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1938,7 +1965,16 @@
       333: 'P 3',
       334: 'KLEINE BRAND',
       335: 'MIDDEL BRAND',
-      336: 'GROTE BRAND'
+      336: 'GROTE BRAND',
+      337: 'P 1',
+      338: 'P 1',
+      339: 'KLEINE HV',
+      340: 'MIDDEL HV',
+      341: 'KLEINE BRAND',
+      342: 'KLEINE BRAND',
+      343: 'KLEINE BRAND',
+      344: 'OGS 1',
+      345: 'OGS 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
