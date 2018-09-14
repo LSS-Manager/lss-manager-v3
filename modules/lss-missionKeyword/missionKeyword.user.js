@@ -415,7 +415,8 @@
         390: 'Sicherheitslandung',
         391: 'Vergiftung',
         392: 'Person durch Hubmaschine eingeklemmt',
-        393: 'Einsturzgefährdeter Balkon'
+        393: 'Einsturzgefährdeter Balkon',
+        394: 'LKW auf Stauende'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1420,7 +1421,8 @@
       390: 'B 1',
       391: 'RD 2',
       392: 'THL 1 Person',
-      393: 'THL 1'
+      393: 'THL 1',
+      394: 'THL 3 LKW'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
