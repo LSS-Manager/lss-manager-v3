@@ -415,7 +415,8 @@
         390: 'Sicherheitslandung',
         391: 'Vergiftung',
         392: 'Person durch Hubmaschine eingeklemmt',
-        393: 'Einsturzgefährdeter Balkon'
+        393: 'Einsturzgefährdeter Balkon',
+        394: 'LKW auf Stauende'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -638,7 +639,8 @@
         201: 'VIP appearance',
         202: 'Large Field Fire',
         203: 'Natural gas odor',
-        204: 'Ammonia Leak (Gas Alarm System)'
+        204: 'Ammonia Leak (Gas Alarm System)',
+        205: 'Multiple vehicle fire in tunnel'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1419,7 +1421,8 @@
       390: 'B 1',
       391: 'RD 2',
       392: 'THL 1 Person',
-      393: 'THL 1'
+      393: 'THL 1',
+      394: 'THL 3 LKW'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1626,7 +1629,8 @@
       201: 'POL 6',
       202: 'FIRE 5',
       203: 'FIRE 1',
-      204: 'CBRN 1'
+      204: 'CBRN 1',
+      205: 'FIRE 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
