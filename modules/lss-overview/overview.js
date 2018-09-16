@@ -1247,6 +1247,11 @@
             },
             fdboat: {
                 name: 'Large Fireboat',
+                min: 2,
+                max: 7,
+                credits: 35000,
+                coins: 35,
+                schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
         },
@@ -1270,11 +1275,18 @@
                 name: 'Mass Casualty Unit',
                 min: 6,
                 max: 6,
+                credits: 25000,
+                coins: 25,
                 schooling: 'Well, no information avaiable yet.',
-                special: 'Please help us find these information'
+                special: 'The MCU can be alarmed in two different modes:<br>1. for lightly injured persons who do not need an emergency physician. Then 7 patients can be treated and removed simultaneously in the MCU.<br>2.For severely injured persons who need an emergency physician. Then 3 patients can be needled simultaneously in the MCU.'
             },
             rdboat: {
                 name: 'Large Rescue Boat',
+                min: 2,
+                max: 6,
+                credits: 35000,
+                coins: 35,
+                schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
         },
