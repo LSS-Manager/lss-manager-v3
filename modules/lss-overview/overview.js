@@ -1,7 +1,4 @@
 (($, win, I18n) => {
-    I18n.translations.de.lssm.overview.mapkit = "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview";
-    I18n.translations.en.lssm.overview.mapkit = "You can still reach the overview at the following link\nhttps://www.missionchief.com/note?lssm_overview";
-    I18n.translations.nl.lssm.overview.mapkit = "U kunt het overzicht nog steeds bereiken via de volgende link:\nhttps://www.meldkamerspel.com/note?lssm_overview";
     if ("undefined" != typeof mapkit) {
         let overviewBtn = $(
             '<a id="lssm_overview" href="/note?lssm_overview" class="mk-top-right-controls-container mk-control hidden-xs lssm_overview lightbox-open">' +
