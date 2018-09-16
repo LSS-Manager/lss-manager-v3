@@ -94,7 +94,7 @@
         },
         kh: {
             name: 'Krankenhaus',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'jeweils 19.000 Credits/11 Coins',
@@ -117,7 +117,7 @@
             special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         seg: {
-            name: 'Schnelleinsaztgruppe (SEG)',
+            name: 'Schnelleinsatzgruppe (SEG)',
             credits: 100000,
             coins: 30,
             maxlevel: 0,
@@ -1040,7 +1040,7 @@
         },
         kh: {
             name: 'Hospital',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'in each case 19.000 Credits/11 Coins',
@@ -1441,7 +1441,7 @@
         },
         kh: {
             name: 'Ziekenhuis',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'in elk geval 19.000 Credits/11 Coins',
