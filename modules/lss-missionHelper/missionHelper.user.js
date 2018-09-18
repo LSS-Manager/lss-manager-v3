@@ -105,7 +105,7 @@
 				83: '3x Löschfahrzeuge (100%)<br>1x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (40%)<br>1x Rüstwagen (50%)<br>1x GW-Gefahrgut (100%)' +
 				'<br>1x GW-Messtechnik (30%)<br>1x Dekon P (10%)<br>2x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 2500 </span>',
 				84: '4x Löschfahrzeug (100%)<br>1x Rüstwagen (50%)<br>1x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (10%)<br>1x GW-Atemschutz (30%)<br>' +
-				'<br>1x Schlauchwagen (100%)<br><br><span class="badge">Credits: ~ 1800 </span>',
+				'1x Schlauchwagen (100%)<br><br><span class="badge">Credits: ~ 1800 </span>',
 				85: '1x Funkstreifenwagen (100%)<br><br><span class="badge">Credits: ~ 200 </span>',
 				86: '7x Löschfahrzeug (100%)<br>2x Drehleiter (100%)<br>1x Einsatzleitwagen 1 (100%)<br>1x Einsatzleitwagen 2 (30%)<br>1x Schlauchwagen (30%)' +
 				'<br>1x GW-Atemschutz (50%)<br><br><span class="badge">Credits: ~ 3000 </span>',
