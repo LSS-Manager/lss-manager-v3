@@ -596,7 +596,11 @@
 				393: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Drehleiter<br>1x Feuerwehrkran (25%)<br>1x Funkstreifenwagen<br>' +
 				'1x Gerätekraftwagen<br><br><span class="badge">Credits: ~ 3000 </span>',
 				394: '5x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x GW-Öl (25%)<br>1x GW-Gefahrgut (30%)<br>4x Funkstreifenwagen<br>' +
-				'min. 1x Rettungstransportwagen, max. 4x<br>Notarzteinsatzfahrzeug (80%)<br><br><span class="badge">Credits: ~ 3000 </span>'
+				'min. 1x Rettungstransportwagen, max. 4x<br>Notarzteinsatzfahrzeug (80%)<br><br><span class="badge">Credits: ~ 3000 </span>',
+				395: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x GW-Atemschutz (10%)<br><br><span class="badge">' +
+				'Credits: ~ 3000 </span>',
+				396: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x GW-Atemschutz (10%)<br><br><span class="badge">' +
+				'Credits: ~ 3000 </span>'
 			}
 		}
 

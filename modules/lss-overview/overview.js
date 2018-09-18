@@ -94,7 +94,7 @@
         },
         kh: {
             name: 'Krankenhaus',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'jeweils 19.000 Credits/11 Coins',
@@ -117,7 +117,7 @@
             special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         seg: {
-            name: 'Schnelleinsaztgruppe (SEG)',
+            name: 'Schnelleinsatzgruppe (SEG)',
             credits: 100000,
             coins: 30,
             maxlevel: 0,
@@ -1040,7 +1040,7 @@
         },
         kh: {
             name: 'Hospital',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'in each case 19.000 Credits/11 Coins',
@@ -1247,6 +1247,11 @@
             },
             fdboat: {
                 name: 'Large Fireboat',
+                min: 2,
+                max: 7,
+                credits: 35000,
+                coins: 35,
+                schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
         },
@@ -1270,11 +1275,18 @@
                 name: 'Mass Casualty Unit',
                 min: 6,
                 max: 6,
+                credits: 25000,
+                coins: 25,
                 schooling: 'Well, no information avaiable yet.',
-                special: 'Please help us find these information'
+                special: 'The MCU can be alarmed in two different modes:<br>1. for lightly injured persons who do not need an emergency physician. Then 7 patients can be treated and removed simultaneously in the MCU.<br>2.For severely injured persons who need an emergency physician. Then 3 patients can be needled simultaneously in the MCU.'
             },
             rdboat: {
                 name: 'Large Rescue Boat',
+                min: 2,
+                max: 6,
+                credits: 35000,
+                coins: 35,
+                schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
         },
@@ -1429,7 +1441,7 @@
         },
         kh: {
             name: 'Ziekenhuis',
-            credits: 20000,
+            credits: 200000,
             coins: 35,
             maxlevel: 20,
             levelcost: 'in elk geval 19.000 Credits/11 Coins',
