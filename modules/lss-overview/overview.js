@@ -1,18 +1,4 @@
 (($, win, I18n) => {
-    if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
-        let overviewBtn = $(
-            '<a id="lssm_overview" href="/note?lssm_overview" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
-            '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
-            '</a>'
-        );
-        $('.leaflet-control-container .leaflet-top.leaflet-left').append(overviewBtn);
-    }
-
-    if ((new URL(document.URL)).searchParams.get("lssm_overview") === null || !document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/note.*$/)) {
-        return;
-    }
-    $('body').html('');
-
     I18n.translations.de.lssm.overview = {
         vehicleType: 'Fahrzeugtyp',
         min: 'mindest Personal',
@@ -29,8 +15,67 @@
         startPersonell: 'Start Personal',
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
-        maxBuildins: 'Baugrenze'
+        maxBuildins: 'Baugrenze',
+        mapkit: "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview"
     };
+
+    I18n.translations.en.lssm.overview = {
+        vehicleType: 'Vehicle Type',
+        min: 'minimum staff',
+        max: 'maximum staff',
+        cost: 'Price',
+        schooling: 'Education',
+        special: 'Special',
+        none: 'None',
+        vehiclesName: 'Vehicles',
+        buildingsName: 'Buildings',
+        buildingType: 'building name',
+        maxlevel: 'maximum expansion level',
+        levelcost: 'Costs of the expansion stages',
+        startPersonell: 'Start Personnel',
+        startVehicle: 'Start vehicle',
+        extensions: 'extensions',
+        maxBuildins: 'building boundary',
+        mapkit: "You can still reach the overview at the following link\nhttps://www.missionchief.com/note?lssm_overview"
+    };
+
+    I18n.translations.nl.lssm.overview = {
+        vehicleType: 'Type voertuig',
+        min: 'minimum personeel',
+        max: 'maximaal personeel',
+        cost: 'Prijs',
+        schooling: 'opleiding',
+        special: 'speciaal',
+        none: 'Geen',
+        vehiclesName: 'Voertuigen',
+        buildingsName: 'Gebouwen',
+        buildingType: 'bouwnaam',
+        maxlevel: 'maximaal uitbreidingsniveau',
+        levelcost: 'Kosten van de uitbreidingsfasen',
+        startPersonell: 'Start Personeel',
+        startVehicle: 'Start voertuig',
+        extensions: 'uitbreidingen',
+        maxBuildins: 'gebouwgrens',
+        mapkit: "U kunt het overzicht nog steeds bereiken via de volgende link:\nhttps://www.meldkamerspel.com/note?lssm_overview"
+    };
+
+    if ("undefined" != typeof mapkit) {
+        alert("[" + lssm.Module.overview.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit') + "\n" + I18n.t('lssm.overview.mapkit'));
+        return;
+    }
+    if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
+        let overviewBtn = $(
+            '<a id="lssm_overview" href="/note?lssm_overview" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
+            '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
+            '</a>'
+        );
+        $('.leaflet-control-container .leaflet-top.leaflet-left').append(overviewBtn);
+    }
+
+    if ((new URL(document.URL)).searchParams.get("lssm_overview") === null || !document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/note.*$/)) {
+        return;
+    }
+    $('body').html('');
 
     I18n.translations.de.lssm.overview.buildings = {
         lst: {
@@ -964,25 +1009,6 @@
         }
     };
 
-    I18n.translations.en.lssm.overview = {
-        vehicleType: 'Vehicle Type',
-        min: 'minimum staff',
-        max: 'maximum staff',
-        cost: 'Price',
-        schooling: 'Education',
-        special: 'Special',
-        none: 'None',
-        vehiclesName: 'Vehicles',
-        buildingsName: 'Buildings',
-        buildingType: 'building name',
-        maxlevel: 'maximum expansion level',
-        levelcost: 'Costs of the expansion stages',
-        startPersonell: 'Start Personnel',
-        startVehicle: 'Start vehicle',
-        extensions: 'extensions',
-        maxBuildins: 'building boundary'
-    };
-
     I18n.translations.en.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
@@ -1350,25 +1376,6 @@
 
             },
         }
-    };
-
-    I18n.translations.nl.lssm.overview = {
-        vehicleType: 'Type voertuig',
-        min: 'minimum personeel',
-        max: 'maximaal personeel',
-        cost: 'Prijs',
-        schooling: 'opleiding',
-        special: 'speciaal',
-        none: 'Geen',
-        vehiclesName: 'Voertuigen',
-        buildingsName: 'Gebouwen',
-        buildingType: 'bouwnaam',
-        maxlevel: 'maximaal uitbreidingsniveau',
-        levelcost: 'Kosten van de uitbreidingsfasen',
-        startPersonell: 'Start Personeel',
-        startVehicle: 'Start voertuig',
-        extensions: 'uitbreidingen',
-        maxBuildins: 'gebouwgrens'
     };
 
     I18n.translations.nl.lssm.overview.hiorgs = {
