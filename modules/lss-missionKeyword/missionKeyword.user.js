@@ -416,7 +416,9 @@
         391: 'Vergiftung',
         392: 'Person durch Hubmaschine eingeklemmt',
         393: 'Einsturzgefährdeter Balkon',
-        394: 'LKW auf Stauende'
+        394: 'LKW auf Stauende',
+        395: 'Maschinenbrand in Produktionshalle',
+        396: 'Maschinenbrand in Produktionshalle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1422,7 +1424,9 @@
       391: 'RD 2',
       392: 'THL 1 Person',
       393: 'THL 1',
-      394: 'THL 3 LKW'
+      394: 'THL 3 LKW',
+      395: 'B 4',
+      396: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
