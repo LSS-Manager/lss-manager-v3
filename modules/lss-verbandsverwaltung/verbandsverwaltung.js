@@ -13,7 +13,7 @@
         updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.'
     };
     I18n.translations.en.lssm.verbandsverwaltung = {
-        name: 'administration',
+        name: 'Administration',
         allianceFunds: 'Alliance Funds',
         earnedCredits: 'Earned Credits',
         onlineUsers: 'Members online',
@@ -22,7 +22,7 @@
         updateMessage: 'Values update automatically<br>every 5 minutes.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
-        name: 'toediening',
+        name: 'Toediening',
         allianceFunds: 'Teamkas',
         earnedCredits: 'Verdiende Credits',
         onlineUsers: 'Leden online',
