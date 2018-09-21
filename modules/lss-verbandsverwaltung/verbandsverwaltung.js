@@ -194,36 +194,38 @@
                 allianceFundsData.push([parseInt(key), storage.allianceFunds[key]]);
             }
 
-            $('#allianceFundsChart').highcharts({
-                chart: {
-                    width: $('#alliance_li ul').width() - 10,
-                    height: $('#alliance_li ul').width() - 10
-                },
-                title: {
-                    text: I18n.t('lssm.verbandsverwaltung.allianceFunds')
-                },
-                yAxis: {
+            if (typeof $('#allianceFundsChart')[0] !== "undefined") {
+                $('#allianceFundsChart').highcharts({
+                    chart: {
+                        width: $('#alliance_li ul').width() - 10,
+                        height: $('#alliance_li ul').width() - 10
+                    },
                     title: {
-                        text: null
-                    }
-                },
-                xAxis: {
-                    type: 'datetime',
-                    dateTimeLabelFormats: {
-                        hour: '%I %p',
-                        minute: '%H:%M'
-                    }
-                },
-                legend: {
-                    enabled: false
-                },
-                series: [
-                    {
-                        name: I18n.t('lssm.verbandsverwaltung.allianceFunds'),
-                        data: allianceFundsData
-                    }
-                ]
-            });
+                        text: I18n.t('lssm.verbandsverwaltung.allianceFunds')
+                    },
+                    yAxis: {
+                        title: {
+                            text: null
+                        }
+                    },
+                    xAxis: {
+                        type: 'datetime',
+                        dateTimeLabelFormats: {
+                            hour: '%I %p',
+                            minute: '%H:%M'
+                        }
+                    },
+                    legend: {
+                        enabled: false
+                    },
+                    series: [
+                        {
+                            name: I18n.t('lssm.verbandsverwaltung.allianceFunds'),
+                            data: allianceFundsData
+                        }
+                    ]
+                });
+            }
         } else {
             if ($("#verbandsverwaltungAllianceFunds")) {
                 $("#verbandsverwaltungAllianceFunds").remove();
@@ -458,7 +460,7 @@
         localStorage["lssmVerbandsverwaltung_" + alliance_id] = JSON.stringify(storage);
     }
 
-    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li><li class="divider" role="presentation"></li><li id="allianceCreditsChart" class="chart" chart="credits"></li><li id="allianceFundsChart" class="chart" chart="funds"></li><li id="allianceRankChart" class="chart" chart="rank"></li><li id="allianceRankPageChart" class="chart" chart="rank"></li><li id="allianceUserChart" class="chart" chart="user"></li><li id="allianceUserOnlineChart" class="chart" chart="user"></li></ul></li>';
+    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li><li id="allianceCreditsChart" class="chart" chart="credits"></li><li id="allianceFundsChart" class="chart" chart="funds"></li><li id="allianceRankChart" class="chart" chart="rank"></li><li id="allianceRankPageChart" class="chart" chart="rank"></li><li id="allianceUserChart" class="chart" chart="user"></li><li id="allianceUserOnlineChart" class="chart" chart="user"></li></ul></li>';
 
     $("#menu_alliance ~ ul li:first").before(markup);
 
