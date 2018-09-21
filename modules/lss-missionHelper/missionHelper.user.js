@@ -869,7 +869,8 @@
 				204: '4x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Mobile Air<br>1x HazMat<br>1x Mobile Command<br>3x Police Cars<br>' +
 				'Ambulances<br><br><span class="badge">Credits: ~ 5000 </span>',
 				205: '6x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker (40%)<br>1x Mobile Air (25%)<br>1x Mobile Command<br>' +
-				'max. 8 Ambulances<br><br><span class="badge">Credits: ~ 5000 </span>'
+				'max. 8 Ambulances<br><br><span class="badge">Credits: ~ 5000 </span>',
+				206: '2x Firetrucks<br><br><span class="badge">Credits: ~ 800 </span>'
 			}
 		}
 

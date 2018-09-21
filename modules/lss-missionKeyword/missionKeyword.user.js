@@ -642,7 +642,8 @@
         202: 'Large Field Fire',
         203: 'Natural gas odor',
         204: 'Ammonia Leak (Gas Alarm System)',
-        205: 'Multiple vehicle fire in tunnel'
+        205: 'Multiple vehicle fire in tunnel',
+        206: 'Transformer fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1634,7 +1635,8 @@
       202: 'FIRE 5',
       203: 'FIRE 1',
       204: 'CBRN 1',
-      205: 'FIRE 4'
+      205: 'FIRE 4',
+      206: 'FIRE 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
