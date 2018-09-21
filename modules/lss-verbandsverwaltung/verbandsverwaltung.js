@@ -189,7 +189,7 @@
         $('#verbandsverwaltungUsers').html('<a href="/verband/mitglieder" class="lightbox-open">' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' + onlineUsers.toLocaleString() + '/' + users + ' (' + Math.round((100 / users) * onlineUsers) + '%)</a>');
     }
 
-    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">' + I18n.t('lssm.verbandsverwaltung.name') + '&nbsp;<b class="caret"></b></a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers"><a href="/verband/mitglieder" class="lightbox-open">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li></ul></li>';
+    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers"><a href="/verband/mitglieder" class="lightbox-open">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li></ul></li>';
 
     $("#menu_alliance ~ ul li:first").before(markup);
 
@@ -203,9 +203,10 @@
     $('#verbandsverwaltungDropdown').css('z-index', '999');
     $('#verbandsverwaltungDropdown').css('background', '#BA1D1A');
     $('#verbandsverwaltungDropdown').css('width', '100%');
-    $('#verbandsverwaltungDropdown').css('padding-top', '5px');
-    $('#verbandsverwaltungDropdown').css('padding-bottom', '5px');
-    $('#verbandsverwaltungDropdown').css('border', '1px solid black');
+    $('#verbandsverwaltungDropdown').css('top', '0px');
+    $('#verbandsverwaltungDropdown').css('left', (0 - $('#alliance_li ul').width()) + 'px');
+    $('#verbandsverwaltungDropdown').css('padding', '5px');
+    $('#verbandsverwaltungDropdown').css('border', '1px solid black');;
 
     updateValues();
     setInterval(updateValues, 300000);
