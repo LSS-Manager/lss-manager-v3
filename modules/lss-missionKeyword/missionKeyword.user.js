@@ -418,7 +418,8 @@
         393: 'Einsturzgefährdeter Balkon',
         394: 'LKW auf Stauende',
         395: 'Maschinenbrand in Produktionshalle',
-        396: 'Maschinenbrand in Produktionshalle'
+        396: 'Maschinenbrand in Produktionshalle',
+        397: 'Schnittwunde'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1007,7 +1008,9 @@
         342: 'Nacontrole brand',
         343: 'Nacontrole brand',
         344: 'Vreemde lucht in kantoorgebouw',
-        345: 'Vreemde lucht in kantoorgebouw'
+        345: 'Vreemde lucht in kantoorgebouw',
+        346: 'Brand in opslagloods met gevaarlijke stoffen',
+        347: 'Brand bij afvalverwerker'
       }
     };
 
@@ -1427,7 +1430,8 @@
       393: 'THL 1',
       394: 'THL 3 LKW',
       395: 'B 4',
-      396: 'B 4'
+      396: 'B 4',
+      397: 'RD 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1984,7 +1988,9 @@
       342: 'KLEINE BRAND',
       343: 'KLEINE BRAND',
       344: 'OGS 1',
-      345: 'OGS 2'
+      345: 'OGS 2',
+      346: 'OGS 4',
+      347: 'OGS 4'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
