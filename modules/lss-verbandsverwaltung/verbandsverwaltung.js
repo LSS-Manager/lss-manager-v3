@@ -330,6 +330,7 @@
     $("#menu_alliance ~ ul li:first").before(markup);
 
     $('#verbandsverwaltungDropdown').hide();
+    $('#verbandsverwaltungCharts').hide();
 
     $('#verbandsverwaltung').hover(function () {
         $('#verbandsverwaltungDropdown').toggle();
@@ -339,6 +340,7 @@
 
     $('li[chart]').hover(function () {
         $('li span.chart[chart="' + $(this).attr('chart') + '"]').toggle();
+        $('#verbandsverwaltungCharts').toggle();
     });
 
     $('#verbandsverwaltungDropdown').css('position', 'absolute');
