@@ -12,7 +12,8 @@
         allianceRank: 'Platz in der Verbandsliste',
         page: 'Seite',
         updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.',
-        chartErr: 'Konnte Grafik "{{chart}}" nicht laden!'
+        chartErr: 'Konnte Grafik "{{chart}}" nicht laden!',
+        hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
     I18n.translations.en.lssm.verbandsverwaltung = {
         name: 'Administration',
@@ -23,7 +24,8 @@
         allianceRank: 'Rank in Alliancelist',
         page: 'Page',
         updateMessage: 'Values update automatically<br>every 5 minutes.',
-        chartErr: 'Could not load chart "{{chart}}"!'
+        chartErr: 'Could not load chart "{{chart}}"!',
+        hoverTip: 'Tip: Hover over an element to display a value history.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
         name: 'Toediening',
@@ -34,7 +36,8 @@
         allianceRank: 'Rangschikking in Alliancelist',
         page: 'Pagina',
         updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.',
-        chartErr: 'Kon de grafiek "{{chart}" niet laden!'
+        chartErr: 'Kon de grafiek "{{chart}" niet laden!',
+        hoverTip: 'Tip: Beweeg de muis over een element om een waardegeschiedenis weer te geven.'
     };
 
     function getAllianceFundsCredits() {
@@ -169,7 +172,7 @@
         return null;
     }
 
-    function loadChart(element, name, data) {
+    async function loadChart(element, name, data) {
         try {
             element.highcharts({
                 chart: {
@@ -325,7 +328,7 @@
         localStorage["lssmVerbandsverwaltung_" + alliance_id] = JSON.stringify(storage);
     }
 
-    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li></ul><ul id="verbandsverwaltungCharts"><li><span id="allianceCreditsChart" class="chart" chart="credits"></span></li><li><span id="allianceFundsChart" class="chart" chart="funds"></span></li><li><span id="allianceRankChart" class="chart" chart="rank"></span><span id="allianceRankPageChart" class="chart" chart="rank"></span></li><li><span id="allianceUserChart" class="chart" chart="user"></span><span id="allianceUserOnlineChart" class="chart" chart="user"></span></li></ul></li>';
+    let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.hoverTip') + '</li></ul><ul id="verbandsverwaltungCharts"><li><span id="allianceCreditsChart" class="chart" chart="credits"></span></li><li><span id="allianceFundsChart" class="chart" chart="funds"></span></li><li><span id="allianceRankChart" class="chart" chart="rank"></span><span id="allianceRankPageChart" class="chart" chart="rank"></span></li><li><span id="allianceUserChart" class="chart" chart="user"></span><span id="allianceUserOnlineChart" class="chart" chart="user"></span></li></ul></li>';
 
     $("#menu_alliance ~ ul li:first").before(markup);
 
@@ -361,5 +364,7 @@
     $('#verbandsverwaltungCharts').css('border', '1px solid black');
 
     updateValues();
-    setInterval(updateValues, 300000);
+    setInterval(function () {
+        updateValues();
+    }, 300000);
 })($, window, I18n);
