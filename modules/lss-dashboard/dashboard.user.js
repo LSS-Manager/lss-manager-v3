@@ -236,8 +236,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             var appendto = "son",
                     vehicles = lssm.car_list(building.id),
                     printcars = "",
-                    icon = "fa-building-o",
-                    icon3 = "fas fa-car",
+                    icon = "glyphicons glyphicons-building",
+                    icon3 = "glyphicons glyphicons-car",
                     maxcars = building.level + 1;
 
             switch (building.building_type) {
@@ -247,20 +247,20 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     break;
                 case BUILDING_TYPE_RETTUNGSWACHE:
                     appendto = "rd";
-                    icon = "fa-ambulance";
+                    icon = "glyphicons glyphicons-ambulance";
                     break;
                 case BUILDING_TYPE_WASSERRETTUNG:
                 case BUILDING_TYPE_RESCUE_BOAT_DOCK:
                     appendto = "wret";
-                    icon = "fa-ambulance";
+                    icon = "glyphicons glyphicons-ambulance";
                     break;
                 case BUILDING_TYPE_HOSPITAL:
-                    icon3 = "fa-bed";
-                    icon = "fa-hospital-o";
+                    icon3 = "glyphicons glyphicons-bed";
+                    icon = "glyphicons glyphicons-hospital";
                     maxcars = building.level + 10;
                     break;
                 case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
-                    icon = "fa-h-square";
+                    icon = "glyphicons glyphicons-hospital-h";
                     appendto = "rd";
                     break;
                 case BUILDING_TYPE_LEITSTELLE:
@@ -268,12 +268,12 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     maxcars = 0;
                     break;
                 case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
-                    icon = "fa-h-square";
+                    icon = "glyphicons glyphicons-hospital-h";
                     appendto = "pol";
                     break;
                 case BUILDING_TYPE_SEG:
                     appendto = "rd";
-                    icon = "fa-ambulance";
+                    icon = "glyphicons glyphicons-ambulance";
                     maxcars = 9;
                     break;
                 case BUILDING_TYPE_POLIZEIWACHE:
@@ -292,7 +292,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_THW_BUNDESSCHULE:
                     maxcars = 0;
                     appendto = "sch";
-                    icon = "fa-university";
+                    icon = "glyphicons glyphicons-vector-path-polygon";
                     break;
             }
             $.each(vehicles, function (k, car) {
@@ -517,7 +517,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         }, 200);
     }
     $('#map_outer').before('<div id="' + prefix + '" class="container-fluid"></div>');
-    $('head').append('<script defer src="https://lss-manager.de/lss-entwicklung/modules/lss-dashboard/font-awesome/js/all.js"></script>');
+    //$('head').append('<script defer src="https://lss-manager.de/lss-entwicklung/modules/lss-dashboard/font-awesome/js/all.js"></script>');
     //$('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>');
     //.append("<style type='text/css' rel='stylesheet' id='dashboard-css'>body {-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#db_wachen_outer>div {-moz-column-count: 4;-moz-column-gap: 10px;-webkit-column-count: 4;-webkit-column-gap: 10px;column-count: 4;column-gap: 10px;width: 100%;height: 100%;-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#wp_sub, #wp_sub2{ display:none;}.db_wachen_item {display: inline-block;width: 100%;}</style>");
     var dasboard_button = $('<li><a id="' + prefix + '_activate" href="#"><span class="glyphicon glyphicon-stats"></span> ' + I18n.t('lssm.dashboard.name') + '</a></li>');
