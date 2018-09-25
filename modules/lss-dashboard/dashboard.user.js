@@ -237,7 +237,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     vehicles = lssm.car_list(building.id),
                     printcars = "",
                     icon = "fa-building-o",
-                    icon3 = "fa-car",
+                    icon3 = "fas fa-car",
                     maxcars = building.level + 1;
 
             switch (building.building_type) {
@@ -517,7 +517,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         }, 200);
     }
     $('#map_outer').before('<div id="' + prefix + '" class="container-fluid"></div>');
-    $('head').append('<script defer src="/font-awesome/js/all.js"></script>');
+    $('head').append('<script defer src="https://proxy.lss-manager.de/modules/lss-dashboard/font-awesome/js/all.js"></script>');
     //$('head').append('<script src="https://use.fontawesome.com/12accc0f95.js"></script>');
     //.append("<style type='text/css' rel='stylesheet' id='dashboard-css'>body {-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#db_wachen_outer>div {-moz-column-count: 4;-moz-column-gap: 10px;-webkit-column-count: 4;-webkit-column-gap: 10px;column-count: 4;column-gap: 10px;width: 100%;height: 100%;-webkit-column-break-inside: avoid;page-break-inside: avoid;break-inside: avoid;}#wp_sub, #wp_sub2{ display:none;}.db_wachen_item {display: inline-block;width: 100%;}</style>");
     var dasboard_button = $('<li><a id="' + prefix + '_activate" href="#"><span class="glyphicon glyphicon-stats"></span> ' + I18n.t('lssm.dashboard.name') + '</a></li>');
