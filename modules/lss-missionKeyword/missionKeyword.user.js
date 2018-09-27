@@ -419,7 +419,9 @@
         394: 'LKW auf Stauende',
         395: 'Maschinenbrand in Produktionshalle',
         396: 'Maschinenbrand in Produktionshalle',
-        397: 'Schnittwunde'
+        397: 'Schnittwunde',
+        398: 'Brennende Absauganlage',
+        399: 'Brand in Kabelkanal'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1431,7 +1433,9 @@
       394: 'THL 3 LKW',
       395: 'B 4',
       396: 'B 4',
-      397: 'RD 1'
+      397: 'RD 1',
+      398: 'B 4',
+      399: 'B 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
