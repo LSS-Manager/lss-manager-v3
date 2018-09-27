@@ -601,7 +601,10 @@
 				'Credits: ~ 3000 </span>',
 				396: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x GW-Atemschutz (10%)<br><br><span class="badge">' +
 				'Credits: ~ 3000 </span>',
-				397: '1x Rettungstransportwagen'
+				397: '1x Rettungstransportwagen',
+				398: '4x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x GW-Atemschutz (20%)' +
+				'<br><br><span class="badge">Credits: ~ 3200 </span>',
+				399: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br><br><span class="badge">Credits: ~ 2700 </span>'
 			}
 		}
 
