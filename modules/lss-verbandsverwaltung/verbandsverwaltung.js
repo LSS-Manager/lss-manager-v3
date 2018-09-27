@@ -173,6 +173,8 @@
     }
 
     async function loadChart(element, name, data) {
+        return;
+        // Das return oben hat die Absicht, die Charts nichtmehr zu generieren, da sie Probleme verursachen.
         try {
             element.highcharts({
                 chart: {
