@@ -421,7 +421,9 @@
         396: 'Maschinenbrand in Produktionshalle',
         397: 'Schnittwunde',
         398: 'Brennende Absauganlage',
-        399: 'Brand in Kabelkanal'
+        399: 'Brand in Kabelkanal',
+        400: 'Brand in Lackiererei',
+        401: 'Umgestürzter Gabelstapler'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -646,7 +648,8 @@
         203: 'Natural gas odor',
         204: 'Ammonia Leak (Gas Alarm System)',
         205: 'Multiple vehicle fire in tunnel',
-        206: 'Transformer fire'
+        206: 'Transformer fire',
+        207: 'Caller Hangup'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -907,7 +910,7 @@
         239: 'Verstikking',
         240: 'Vergiftiging',
         241: 'Zwemmer vermist',
-        242: 'Zwemmer vermist',
+        242: 'Verlaten kleding langs waterkant',
         243: 'Verdachte situatie',
         244: 'Persoon van podium gevallen',
         245: 'Ontruimen kraakpand',
@@ -1012,7 +1015,9 @@
         344: 'Vreemde lucht in kantoorgebouw',
         345: 'Vreemde lucht in kantoorgebouw',
         346: 'Brand in opslagloods met gevaarlijke stoffen',
-        347: 'Brand bij afvalverwerker'
+        347: 'Brand bij afvalverwerker',
+        348: 'Zwemmer vermist',
+        349: 'Zwemmer vermist'
       }
     };
 
@@ -1435,7 +1440,9 @@
       396: 'B 4',
       397: 'RD 1',
       398: 'B 4',
-      399: 'B 2'
+      399: 'B 2',
+      400: 'B 5',
+      401: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1644,7 +1651,8 @@
       203: 'FIRE 1',
       204: 'CBRN 1',
       205: 'FIRE 4',
-      206: 'FIRE 1'
+      206: 'FIRE 1',
+      207: 'POL 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1888,8 +1896,8 @@
       238: 'KLEINE BRAND',
       239: 'A 1',
       240: 'A 1',
-      241: 'MIDDEL WO',
-      242: 'MIDDEL WO',
+      241: 'KLEINE WO',
+      242: 'KLEINE WO',
       243: 'P 1',
       244: 'A 1',
       245: 'GEPLAND',
@@ -1994,7 +2002,9 @@
       344: 'OGS 1',
       345: 'OGS 2',
       346: 'OGS 4',
-      347: 'OGS 4'
+      347: 'OGS 4',
+      348: 'MIDDEL WO',
+      349: 'GROTE WO'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
