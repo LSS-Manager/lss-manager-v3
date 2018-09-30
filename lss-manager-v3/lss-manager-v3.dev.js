@@ -1148,7 +1148,7 @@ lssm.appstore = {
                 for (var c in lssm.Module[e.value].collisions) {
                     var d = lssm.Module[e.value].collisions[c];
                     if (lssm.Module[d].active) {
-                        warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
+                        warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
                     }
                 }
                 alert(warn);
