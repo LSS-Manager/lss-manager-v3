@@ -608,7 +608,17 @@
 				400: '7x Löschfahrzeuge<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x Rüstwagen<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>' +
 				'1x ULF mit Löscharm<br>1x GW-Atemschutz<br><br><span class="badge">Credits: ~ 5050 </span>',
 				401: '2x Löschfahrzeuge<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 1<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (80%)<br><br>' +
-				'<span class="badge">Credits: ~ 1600 </span>'
+				'<span class="badge">Credits: ~ 1600 </span>',
+				402: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 400 </span>',
+				403: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>',
+				404: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>',
+				405: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 980 </span>',
+				406: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 980 </span>',
+				407: '6x Löschfahrzeuge<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x Drehleiter<br>1x Rüstwagen<br>1x GW-Werkfeuerwehr<br>' +
+				'1x GW-Atemschutz<br><br><span class="badge">Credits: ~ 3700 </span>',
+				408: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 400 </span>',
+				409: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 980 </span>',
+				410: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>'
 			}
 		}
 
