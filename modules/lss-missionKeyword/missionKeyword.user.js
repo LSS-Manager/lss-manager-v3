@@ -424,15 +424,15 @@
         399: 'Brand in Kabelkanal',
         400: 'Brand in Lackiererei',
         401: 'Umgestürzter Gabelstapler',
-		402: 'Brennender PKW',
-		403: 'Mülleimerbrand',
-		404: 'Mülleimerbrand',
-		405: 'Brennender LKW',
-		406: 'Brennender LKW',
-		407: 'Brennende Filteranlage',
-		408: 'Rauchentwicklung an Förderband',
-		409: 'Brennender LKW',
-		410: 'Mülleimerbrand'
+	402: 'Brennender PKW',
+	403: 'Mülleimerbrand',
+	404: 'Mülleimerbrand',
+	405: 'Brennender LKW',
+	406: 'Brennender LKW',
+	407: 'Brennende Filteranlage',
+	408: 'Rauchentwicklung an Förderband',
+	409: 'Brennender LKW',
+	410: 'Mülleimerbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
