@@ -423,7 +423,16 @@
         398: 'Brennende Absauganlage',
         399: 'Brand in Kabelkanal',
         400: 'Brand in Lackiererei',
-        401: 'Umgestürzter Gabelstapler'
+        401: 'Umgestürzter Gabelstapler',
+	402: 'Brennender PKW',
+	403: 'Mülleimerbrand',
+	404: 'Mülleimerbrand',
+	405: 'Brennender LKW',
+	406: 'Brennender LKW',
+	407: 'Brennende Filteranlage',
+	408: 'Rauchentwicklung an Förderband',
+	409: 'Brennender LKW',
+	410: 'Mülleimerbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1442,7 +1451,16 @@
       398: 'B 4',
       399: 'B 2',
       400: 'B 5',
-      401: 'THL 1'
+      401: 'THL 1',
+      402: 'B 2',
+      403: 'B 1',
+      404: 'B 1',
+      405: 'B 3',
+      406: 'B 3',
+      407: 'B 4',
+      408: 'B 1',
+      409: 'B 3',
+      410: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
