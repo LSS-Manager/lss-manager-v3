@@ -618,7 +618,10 @@
 				'1x GW-Atemschutz<br><br><span class="badge">Credits: ~ 3700 </span>',
 				408: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 400 </span>',
 				409: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 980 </span>',
-				410: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>'
+				410: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>',
+				411: '6x Löschfahrzeuge<br>1x Drehleiter<br>2x Rüstwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Höhenrettung<br>' +
+				'1x Polizeihubschrauber<br>2x Funkstreifenwagen<br>2x Gerätekraftwagen<br>min. 1x Rettungstransportwagen / max. 6x Rettungstransportwagen<br>' +
+				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 5900 </span>'
 			}
 		}
 
@@ -889,7 +892,9 @@
 				205: '6x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker (40%)<br>1x Mobile Air (25%)<br>1x Mobile Command<br>' +
 				'max. 8 Ambulances<br><br><span class="badge">Credits: ~ 5000 </span>',
 				206: '2x Firetrucks<br><br><span class="badge">Credits: ~ 800 </span>',
-				207: '1x Police Car<br><br><span class="badge">Credits: ~ 600 </span>'
+				207: '1x Police Car<br><br><span class="badge">Credits: ~ 600 </span>',
+				208: '8x Firetrucks<br>4x Battalion Chiefs<br>3x Platform Trucks<br>4x Heavy Rescues<br>2x Water Tanker<br>2x Mobile Air<br>1x Hazmat<br>' +
+				'1x Mobile Command<br>4x Police Cars<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 14500 </span>'
 			}
 		}
 
@@ -1392,7 +1397,9 @@
 				348: '1x Tankautospuit<br>1x Redvoertuig (10%)<br>1x Hulpverleningsvoertuig (10%)<br>1x OvD-B<br>2x Waterongevallenvoertuigen<br>' +
 				'1x Waterongevallenaanhanger<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 1750 </span>',
 				349: '2x Tankautospuiten<br>1x Redvoertuig (40%)<br>1x Hulpverleningsvoertuig (40%)<br>1x OvD-B<br>3x Waterongevallenvoertuigen<br>' +
-				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 3150 </span>'
+				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 3150 </span>',
+				350: '3x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 2350 </span>',
+				351: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500 </span>'
 			}
 		}
 	}
