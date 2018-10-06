@@ -238,6 +238,7 @@
 
         storage.allianceRank[time] = allianceRank;
         storage.allianceRankPage[time] = allianceRankPage;
+        storage.lastPage = allianceRankPage;
 
         let allianceRankData = [];
         let allianceRankPageData = [];
