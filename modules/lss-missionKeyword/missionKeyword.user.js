@@ -419,7 +419,21 @@
         394: 'LKW auf Stauende',
         395: 'Maschinenbrand in Produktionshalle',
         396: 'Maschinenbrand in Produktionshalle',
-        397: 'Schnittwunde'
+        397: 'Schnittwunde',
+        398: 'Brennende Absauganlage',
+        399: 'Brand in Kabelkanal',
+        400: 'Brand in Lackiererei',
+        401: 'Umgestürzter Gabelstapler',
+        402: 'Brennender PKW',
+        403: 'Mülleimerbrand',
+        404: 'Mülleimerbrand',
+        405: 'Brennender LKW',
+        406: 'Brennender LKW',
+        407: 'Brennende Filteranlage',
+        408: 'Rauchentwicklung an Förderband',
+        409: 'Brennender LKW',
+        410: 'Mülleimerbrand',
+        411: 'Heißluftballon in Hochspannungsmast'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -644,7 +658,9 @@
         203: 'Natural gas odor',
         204: 'Ammonia Leak (Gas Alarm System)',
         205: 'Multiple vehicle fire in tunnel',
-        206: 'Transformer fire'
+        206: 'Transformer fire',
+        207: 'Caller Hangup',
+        208: 'Power Plant fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -905,7 +921,7 @@
         239: 'Verstikking',
         240: 'Vergiftiging',
         241: 'Zwemmer vermist',
-        242: 'Zwemmer vermist',
+        242: 'Verlaten kleding langs waterkant',
         243: 'Verdachte situatie',
         244: 'Persoon van podium gevallen',
         245: 'Ontruimen kraakpand',
@@ -1010,7 +1026,11 @@
         344: 'Vreemde lucht in kantoorgebouw',
         345: 'Vreemde lucht in kantoorgebouw',
         346: 'Brand in opslagloods met gevaarlijke stoffen',
-        347: 'Brand bij afvalverwerker'
+        347: 'Brand bij afvalverwerker',
+        348: 'Zwemmer vermist',
+        349: 'Zwemmer vermist',
+        350: 'Insluiping in woning',
+        351: 'Inbraakalarm woning'
       }
     };
 
@@ -1431,7 +1451,21 @@
       394: 'THL 3 LKW',
       395: 'B 4',
       396: 'B 4',
-      397: 'RD 1'
+      397: 'RD 1',
+      398: 'B 4',
+      399: 'B 2',
+      400: 'B 5',
+      401: 'THL 1',
+      402: 'B 2',
+      403: 'B 1',
+      404: 'B 1',
+      405: 'B 3',
+      406: 'B 3',
+      407: 'B 4',
+      408: 'B 1',
+      409: 'B 3',
+      410: 'B 1',
+      411: 'THL 1 BALLON'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1640,7 +1674,9 @@
       203: 'FIRE 1',
       204: 'CBRN 1',
       205: 'FIRE 4',
-      206: 'FIRE 1'
+      206: 'FIRE 1',
+      207: 'POL 1',
+      208: 'FIRE 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1884,8 +1920,8 @@
       238: 'KLEINE BRAND',
       239: 'A 1',
       240: 'A 1',
-      241: 'MIDDEL WO',
-      242: 'MIDDEL WO',
+      241: 'KLEINE WO',
+      242: 'KLEINE WO',
       243: 'P 1',
       244: 'A 1',
       245: 'GEPLAND',
@@ -1990,7 +2026,11 @@
       344: 'OGS 1',
       345: 'OGS 2',
       346: 'OGS 4',
-      347: 'OGS 4'
+      347: 'OGS 4',
+      348: 'MIDDEL WO',
+      349: 'GROTE WO',
+      350: 'P 3',
+      351: 'P 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
