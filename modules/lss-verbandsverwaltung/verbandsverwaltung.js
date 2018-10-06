@@ -111,34 +111,10 @@
     }
 
     function getAllianceRank(earnedCredits) {
-        let page = 1;
-        let rank = checkAllianceOnPage(page, earnedCredits);
-        if (rank === null || rank === -1) {
-            while (rank === null) {
-                page += 100;
-                rank = checkAllianceOnPage(page, earnedCredits);
-            }
-            rank = null;
-            if (page > 100) {
-                page -= 100;
-            } else {
-                page = 1;
-            }
-            while (rank === null) {
-                page += 10;
-                rank = checkAllianceOnPage(page, earnedCredits);
-            }
-            rank = null;
-            if (page > 10) {
-                page -= 10;
-            } else {
-                page = 1;
-            }
-            while (rank === null) {
-                page += 1;
-                rank = checkAllianceOnPage(page, earnedCredits);
-            }
-        }
+        let page = 0;
+        let rank = 0;
+        let fromBeginning = true;
+        if(JSON.parse(localStorage["lssmVerbandsverwaltung_"+alliance_id]).lastPage)if(page=JSON.parse(localStorage["lssmVerbandsverwaltung_"+alliance_id]).lastPage,rank=checkAllianceOnPage(page,earnedCredits),fromBeginning=!1,-1===rank){for(;-1===rank;)page-=1,rank=checkAllianceOnPage(page,earnedCredits);fromBeginning=!1}else if(-2===rank){for(;-2===rank;)page+=1,rank=checkAllianceOnPage(page,earnedCredits);fromBeginning=!1}if(fromBeginning&&(page=1,rank=checkAllianceOnPage(page,earnedCredits),rank<0)){for(;-2===rank;)page+=100,rank=checkAllianceOnPage(page,earnedCredits);for(page-=100,rank=-2;-2===rank;)rank=checkAllianceOnPage(page,earnedCredits),-2===rank&&(page+=10);for(page-=10,rank=-2;-2===rank;)rank=checkAllianceOnPage(page,earnedCredits),-2===rank&&(page+=1)}
         return {
             rank: rank,
             page: page
@@ -146,30 +122,8 @@
     }
 
     function checkAllianceOnPage(page, earnedCredits) {
-        let response = $.ajax({
-            type: "GET",
-            url: "./alliances?page=" + page,
-            async: false
-        }).responseText;
-        let rank = (page - 1) * 20;
-        if (response.match('/alliances/' + alliance_id)) {
-            let counter = 0;
-            $(response).find('tr').each(function () {
-                if ($(this).html().match('/alliances/' + alliance_id + '"')) {
-                    rank += counter;
-                }
-                counter += 1;
-            });
-            return rank;
-        } else {
-            if ($(response).find('table').length === 0) {
-                return -1;
-            }
-            if (parseInt($($($(response).find('tr')[2]).children()[2]).html().replace(/\D/g, '')) < earnedCredits) {
-                return -1;
-            }
-        }
-        return null;
+        // gibt den Rank zurück, wenn Verband auf der Seite, wenn Seitenzahl zu hoch -1, wenn Seitenzahl zu klein, dann -2
+        let a=$.ajax({type:"GET",url:"./alliances?page="+page,async:!1}).responseText,e=20*(page-1);if(a.match("/alliances/"+alliance_id)){let l=0;return $(a).find("tr").each(function(){$(this).html().match("/alliances/"+alliance_id+'"')&&(e+=l),l+=1}),e}return 0===$(a).find("table").length?-1:parseInt($($($(a).find("tr")[2]).children()[2]).html().replace(/\D/g,""))>earnedCredits?-2:-1
     }
 
     async function loadChart(element, name, data) {
