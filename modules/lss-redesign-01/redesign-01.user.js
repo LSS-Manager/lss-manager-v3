@@ -281,6 +281,11 @@
         'background-color: #d84f4b;'+
         'color: white'+
       '}'+
+      '.chatWhisper {'+
+        'background - color: #656565;'+
+        'font-style:italic;'+
+        'color:white'+
+      '}'+
       '.map-expand-button {'+
         'background-image: url(/images/expand.png);'+
         'background-size: 100% 100%'+
