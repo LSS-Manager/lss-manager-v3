@@ -1,4 +1,5 @@
-nav, .navbar-default {
+nav, 
+.navbar-default {
   border: 0 !important;
   border-radius: 0 !important;
 }
@@ -52,7 +53,6 @@ li {
   border: 1px solid #4a4a4a !important;
 }
 
-
 .lssm-wp-fz--fms-vehicle {
   color: #4a4a4a !important;
   border: 1px solid #4a4a4a;
@@ -97,6 +97,7 @@ li {
   margin-bottom: 0px !important;
   background: #fafafa !important
 }
+
 .db_wachen_item .panel-default .panel-heading {
   background: #fafafa !important
 }
@@ -112,14 +113,11 @@ li {
 }
 
 .panel-heading {
- /* background-image: none !important; */
-	background-image: #258c25 !important;
-
+  background-image: #258c25 !important;
 }
 
 body.dark .panel-heading {
-/*  background: #212121 !important; */
-	background-color: #000;
+  background-color: #000;
 }
 
 div#preloader {
@@ -194,17 +192,16 @@ div#preloader {
   color: #4a4a4a !important;
   padding: 5px;
   border-radius: 2px;
-
 }
 
 #lssm_appstore h4 {
   text-transform: uppercase;
   font-weight: 900;
 }
+
 .lssm_module_develop label {
   display: none;
 }
-
 
 #lssm_appstore .panel{
   background-color: #fff;
@@ -224,10 +221,10 @@ div#preloader {
   padding: 15px
 }
 
-
 #lssm_appstore  small {
   font-size: 85%
 }
+
 #lssm_appstore  h4{
   font-size: 18px;
   margin-top: 10px;
@@ -237,7 +234,6 @@ div#preloader {
   line-height: 1.1;
   color: inherit
 }
-
 
 #lssm_appstore_row {
   margin-top: 15px;
@@ -292,6 +288,7 @@ div#preloader {
   margin: 10px;
   font-weight: 900;
 }
+
 #lss_clock + span:after {
   content: ':'
 }
@@ -313,7 +310,6 @@ div#preloader {
   border-radius: 0px 10px 10px 0px;
 }
 
-
 #lssm_radius_slider {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -329,8 +325,8 @@ div#preloader {
 }
 
 #scriptMissionMenu ul{
-    border:none !important;
-    margin-bottom: 2px;
+  border:none !important;
+  margin-bottom: 2px;
 }
 
 .lssm_wachen_selector {
@@ -356,7 +352,6 @@ right: 14.5px;
 .label-fw {
   background-color: #ff4b38 !important;
 }
-
 
 .label-rw {
   background-color: #f9ffb7 !important;
@@ -399,8 +394,6 @@ right: 14.5px;
 }
 
 
-
-
 /* ##################################################
 
               SWITCH STYLES
@@ -415,9 +408,11 @@ right: 14.5px;
   -moz-user-select:none;
   -ms-user-select:none
 }
+
 .onoffswitch-checkbox{
   display:none
 }
+
 .onoffswitch-label{
   display:block;
   overflow:hidden;
@@ -430,6 +425,7 @@ right: 14.5px;
   background-color:#FFF;
   transition:background-color .3s ease-in
 }
+
 .onoffswitch-label:before{
   content:"";
   display:block !important;
@@ -444,12 +440,15 @@ right: 14.5px;
   border-radius:15px;
   transition:all .3s ease-in 0
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label{
   background-color:#49E845
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
   border-color:#49E845
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label:before{
   right:0
 }
@@ -552,9 +551,6 @@ colorful
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default,
 .ui-button,
-
-  /* We use html here because we need a greater specificity to make sure disabled
-  works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border: 1px solid #c5c5c5;
@@ -570,18 +566,21 @@ html .ui-button.ui-state-disabled:active {
 .ui-corner-tl {
   border-top-left-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
   border-top-right-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
   border-bottom-left-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
