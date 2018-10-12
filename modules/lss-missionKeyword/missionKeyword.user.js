@@ -660,7 +660,9 @@
         205: 'Multiple vehicle fire in tunnel',
         206: 'Transformer fire',
         207: 'Caller Hangup',
-        208: 'Power Plant fire'
+        208: 'Power Plant fire',
+        209: 'Factory Fire minor',
+        210: 'Factory Fire major'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1030,7 +1032,10 @@
         348: 'Zwemmer vermist',
         349: 'Zwemmer vermist',
         350: 'Insluiping in woning',
-        351: 'Inbraakalarm woning'
+        351: 'Inbraakalarm woning',
+        352: 'Brand in terminal',
+        353: 'Brand in terminal',
+        354: 'Brand in terminal'
       }
     };
 
@@ -1676,7 +1681,9 @@
       205: 'FIRE 4',
       206: 'FIRE 1',
       207: 'POL 1',
-      208: 'FIRE 4'
+      208: 'FIRE 4',
+      209: 'FIRE 2',
+      210: 'FIRE 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2030,7 +2037,10 @@
       348: 'MIDDEL WO',
       349: 'GROTE WO',
       350: 'P 3',
-      351: 'P 2'
+      351: 'P 2',
+      352: 'KLEINE BRAND',
+      353: 'MIDDEL BRAND',
+      354: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

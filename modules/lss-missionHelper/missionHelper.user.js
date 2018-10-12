@@ -894,7 +894,10 @@
 				206: '2x Firetrucks<br><br><span class="badge">Credits: ~ 800 </span>',
 				207: '1x Police Car<br><br><span class="badge">Credits: ~ 600 </span>',
 				208: '8x Firetrucks<br>4x Battalion Chiefs<br>3x Platform Trucks<br>4x Heavy Rescues<br>2x Water Tanker<br>2x Mobile Air<br>1x Hazmat<br>' +
-				'1x Mobile Command<br>4x Police Cars<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 14500 </span>'
+				'1x Mobile Command<br>4x Police Cars<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 14500 </span>',
+				209: '4x Firetrucks<br>2x Battalion Chiefs<br>Ambulances<br><br><span class="badge">Credits: ~ 2000 </span>',
+				210: '8x Firetrucks<br>4x Battalion Chiefs<br>2x Platform Trucks<br>2x Heavy Rescues<br>1x Water Tanker<br>1x Mobile Air<br>1x Mobile Command<br>' +
+				'2x Police Cars<br>Ambulances<br><br><span class="badge">Credits: ~ 9000 </span>'
 			}
 		}
 
@@ -1399,7 +1402,11 @@
 				349: '2x Tankautospuiten<br>1x Redvoertuig (40%)<br>1x Hulpverleningsvoertuig (40%)<br>1x OvD-B<br>3x Waterongevallenvoertuigen<br>' +
 				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 3150 </span>',
 				350: '3x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 2350 </span>',
-				351: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500 </span>'
+				351: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1500 </span>',
+				352: '1x Tankautospuit<br>1x Redvoertuig (20%)<br>1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 1400 </span>',
+				353: '2x Tankautospuiten<br>1x Redvoertuig (60%)<br>1x OvD-B<br>2x Noodhulpeenheden<br>Ambulances<br><br><span class="badge">Credits: ~ 3300 </span>',
+				354: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x HOvD<br>1x Commandowagen<br>' +
+				'1x Airport Fire Officer / On Scene Commander<br>4x Noodhulpeenheden<br>1x OvD-P<br>min. 4x Ambulances<br><br><span class="badge">Credits: ~ 5150 </span>'
 			}
 		}
 	}
