@@ -621,7 +621,13 @@
 				410: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 110 </span>',
 				411: '6x Löschfahrzeuge<br>1x Drehleiter<br>2x Rüstwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Höhenrettung<br>' +
 				'1x Polizeihubschrauber<br>2x Funkstreifenwagen<br>2x Gerätekraftwagen<br>min. 1x Rettungstransportwagen / max. 6x Rettungstransportwagen<br>' +
-				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 5900 </span>'
+				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 5900 </span>',
+				412: '6x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 2 (25%)<br>1x GW-Atemschutz(40%)<br>' +
+				'1x ULF mit Löscharm<br>1x Teleskopmast<br><br><span class="badge">Credits: ~ 3000 </span>',
+				413: '6x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 2 (25%)<br>1x GW-Atemschutz(40%)' +
+				'<br><br><span class="badge">Credits: ~ 2500 </span>',
+				414: '6x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 2 (25%)<br>1x GW-Atemschutz(40%)<br>' +
+				'1x ULF mit Löscharm<br>1x Teleskopmast<br><br><span class="badge">Credits: ~ 3000 </span>'
 			}
 		}
 

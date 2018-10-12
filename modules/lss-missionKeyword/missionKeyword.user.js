@@ -433,7 +433,10 @@
         408: 'Rauchentwicklung an Förderband',
         409: 'Brennender LKW',
         410: 'Mülleimerbrand',
-        411: 'Heißluftballon in Hochspannungsmast'
+        411: 'Heißluftballon in Hochspannungsmast',
+        412: 'Verpuffung',
+        413: 'Verpuffung',
+        414: 'Verpuffung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1470,7 +1473,10 @@
       408: 'B 1',
       409: 'B 3',
       410: 'B 1',
-      411: 'THL 1 BALLON'
+      411: 'THL 1 BALLON',
+      412: 'B 4',
+      413: 'B 4',
+      414: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
