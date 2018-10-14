@@ -84,11 +84,12 @@ I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
+    forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
     "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
     "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-    lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+    lssm.forum + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
