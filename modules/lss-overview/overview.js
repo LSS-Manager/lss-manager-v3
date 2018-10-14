@@ -145,7 +145,7 @@
             levelcost: 'jeweils 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Keine Fahrzeuge stationierbar, dafür aber 10 Betten von Beginn an',
-            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirguie nur 10.000 Credits/)',
+            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirurgie nur 10.000 Credits/)',
             maxBuildings: 'Keine Grenze',
             special: 'Finanzminister und (Co-)Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
