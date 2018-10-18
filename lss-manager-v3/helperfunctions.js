@@ -13,7 +13,7 @@ if(I18n.locale == "en")
         "2": ["Platform truck", 0],
         "3": ["Battalion Chief Unit", 0],
         "4": ["Heavy Rescue Vehicle", 0],
-        "5": ["Ambulance", 1],
+        "5": ["ALS Ambulance", 1],
         "6": ["Mobile air", 0],
         "7": ["Water Tanker", 0],
         "8": ["Utility unit", 0],
