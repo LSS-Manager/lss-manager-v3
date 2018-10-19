@@ -436,7 +436,10 @@
         411: 'Heißluftballon in Hochspannungsmast',
         412: 'Verpuffung',
         413: 'Verpuffung',
-        414: 'Verpuffung'
+        414: 'Verpuffung',
+        415: 'Jäger verletzt Passant durch Schuss',
+        416: 'Jäger stürzt von Hochsitz',
+        417: 'Jäger durch Wildtier Verletzt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -665,7 +668,8 @@
         207: 'Caller Hangup',
         208: 'Power Plant fire',
         209: 'Factory Fire minor',
-        210: 'Factory Fire major'
+        210: 'Factory Fire major',
+        211: 'Multiple vehicles on fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1476,7 +1480,10 @@
       411: 'THL 1 BALLON',
       412: 'B 4',
       413: 'B 4',
-      414: 'B 4'
+      414: 'B 4',
+      415: 'RD 2',
+      416: 'RD 1',
+      417: 'RD 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1689,7 +1696,8 @@
       207: 'POL 1',
       208: 'FIRE 4',
       209: 'FIRE 2',
-      210: 'FIRE 4'
+      210: 'FIRE 4',
+      211: 'FIRE 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',

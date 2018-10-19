@@ -627,7 +627,11 @@
 				413: '6x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 2 (25%)<br>1x GW-Atemschutz (40%)' +
 				'<br><br><span class="badge">Credits: ~ 2500 </span>',
 				414: '6x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Werkfeuerwehr<br>1x Einsatzleitwagen 2 (25%)<br>1x GW-Atemschutz (40%)<br>' +
-				'1x ULF mit Löscharm<br>1x Teleskopmast<br><br><span class="badge">Credits: ~ 3000 </span>'
+				'1x ULF mit Löscharm<br>1x Teleskopmast<br><br><span class="badge">Credits: ~ 3000 </span>',
+				415: '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%) / Rettungstransporthubschrauber (10%)<br><br><span class="badge">' +
+				'Credits: ~ 200 </span>',
+				416: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)',
+				417: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)'
 			}
 		}
 
@@ -901,7 +905,8 @@
 				'1x Mobile Command<br>4x Police Cars<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 14500 </span>',
 				209: '4x Firetrucks<br>2x Battalion Chiefs<br>Ambulances<br><br><span class="badge">Credits: ~ 2000 </span>',
 				210: '8x Firetrucks<br>4x Battalion Chiefs<br>2x Platform Trucks<br>2x Heavy Rescues<br>1x Water Tanker<br>1x Mobile Air<br>1x Mobile Command<br>' +
-				'2x Police Cars<br>Ambulances<br><br><span class="badge">Credits: ~ 9000 </span>'
+				'2x Police Cars<br>Ambulances<br><br><span class="badge">Credits: ~ 9000 </span>',
+				211: '5x Firetrucks<br>1x Battalion Chief<br>1x Water Tanker (20%)<br><br><span class="badge">Credits: ~ 3500 </span>'
 			}
 		}
 
