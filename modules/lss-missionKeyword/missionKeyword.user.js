@@ -1042,7 +1042,9 @@
         351: 'Inbraakalarm woning',
         352: 'Brand in terminal',
         353: 'Brand in terminal',
-        354: 'Brand in terminal'
+        354: 'Brand in terminal',
+        355: 'Heidebrand',
+        356: 'Heidebrand'
       }
     };
 
@@ -1829,7 +1831,7 @@
       126: 'KLEINE BRAND',
       127: 'GROTE BRAND',
       128: 'KLEINE NATUURBRAND',
-      129: 'GROTE NATUURBRAND',
+      129: 'MIDDEL NATUURBRAND',
       130: 'MIDDEL BRAND',
       131: 'GROTE BRAND',
       132: 'KLEINE BRAND',
@@ -2054,7 +2056,9 @@
       351: 'P 2',
       352: 'KLEINE BRAND',
       353: 'MIDDEL BRAND',
-      354: 'GROTE BRAND'
+      354: 'GROTE BRAND',
+      355: 'GROTE NATUURBRAND',
+      356: 'ZEER GROTE NATUURBRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
