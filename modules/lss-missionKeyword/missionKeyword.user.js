@@ -439,7 +439,7 @@
         414: 'Verpuffung',
         415: 'Jäger verletzt Passant durch Schuss',
         416: 'Jäger stürzt von Hochsitz',
-        417: 'Jäger durch Wildtier Verletzt'
+        417: 'Jäger durch Wildtier verletzt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
