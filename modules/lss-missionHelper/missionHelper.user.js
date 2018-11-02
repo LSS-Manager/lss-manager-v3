@@ -631,7 +631,8 @@
 				415: '1x Funkstreifenwagen<br>1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (50%) / Rettungstransporthubschrauber (10%)<br><br><span class="badge">' +
 				'Credits: ~ 200 </span>',
 				416: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)',
-				417: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)'
+				417: '1x Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)',
+				418: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 
@@ -906,7 +907,10 @@
 				209: '4x Firetrucks<br>2x Battalion Chiefs<br>Ambulances<br><br><span class="badge">Credits: ~ 2000 </span>',
 				210: '8x Firetrucks<br>4x Battalion Chiefs<br>2x Platform Trucks<br>2x Heavy Rescues<br>1x Water Tanker<br>1x Mobile Air<br>1x Mobile Command<br>' +
 				'2x Police Cars<br>Ambulances<br><br><span class="badge">Credits: ~ 9000 </span>',
-				211: '5x Firetrucks<br>1x Battalion Chief<br>1x Water Tanker (20%)<br><br><span class="badge">Credits: ~ 3500 </span>'
+				211: '5x Firetrucks<br>1x Battalion Chief<br>1x Water Tanker (20%)<br><br><span class="badge">Credits: ~ 3500 </span>',
+				212: '8x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>2x Water Tanker<br>1x Mobile Command<br><br><span class="badge">Credits: ~ 6000 </span>',
+				213: '10x Firetrucks<br>2x Battalion Chief<br>2x Platform Truck<br>3x Water Tanker<br>1x Mobile Command<br><br><span class="badge">' +
+				'Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1419,7 +1423,9 @@
 				355: '4x Tankautospuiten<br>1x OvD-B<br>2x Slangenwagen<br>1x Hulpverleningsvoertuig (20%)<br>1x HOvD (50%)<br><br>' +
 				'<span class="badge">Credits: ~ 3000 </span>',
 				356: '8x Tankautospuiten<br>2x OvD-Bs<br>4x Slangenwagen<br>1x Hulpverleningsvoertuig (80%)<br>1x Adembeschermingsvoertuig (20%)<br>1x HOvD (80%)<br>' +
-				'1x Commandowagen (80%)<br><br><span class="badge">Credits: ~ 7200 </span>'
+				'1x Commandowagen (80%)<br><br><span class="badge">Credits: ~ 7200 </span>',
+				357: '32x Tankautospuiten<br>10x Slangenwagen<br>4x Hulpverleningsvoertuigen<br>2x Adembeschermingsvoertuig<br>8x OvD-Bs<br>3x HOVDs<br>' +
+				'2x Commandowagen<br>8x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 22500 </span>'
 			}
 		}
 	}
