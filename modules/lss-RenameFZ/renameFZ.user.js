@@ -112,7 +112,7 @@
               2: 'Platform truck',
               3: 'Bataillon chief unit',
               4: 'Heavy rescue vehicle',
-              5: 'Ambulance',
+              5: 'ALS Ambulance',
               6: 'Mobile air',
               7: 'Water Tanker',
               8: 'Utility unit',
@@ -133,7 +133,8 @@
               23: 'Police Motorcycle',
               24: 'Large Fireboat',
               25: 'Large Rescue Boat',
-              26: 'SWAT SUV'
+              26: 'SWAT SUV',
+              27: 'BLS Ambulance'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -309,7 +310,7 @@
           2: 'Platform truck',
           3: 'Bataillon chief unit',
           4: 'Heavy rescue vehicle',
-          5: 'Ambulance',
+          5: 'ALS Ambulance',
           6: 'Mobile air',
           7: 'Water Tanker',
           8: 'Utility unit',
@@ -330,7 +331,8 @@
           23: 'Police Motorcycle',
           24: 'Large Fireboat',
           25: 'Large Rescue Boat',
-          26: 'SWAT SUV'
+          26: 'SWAT SUV',
+          27: 'BLS Ambulance'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
