@@ -1060,7 +1060,7 @@
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 2,
-            startVehicle: 'Ambulance',
+            startVehicle: 'ALS Ambulance',
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
@@ -1282,8 +1282,15 @@
             },
         },
         rd: {
-            rtw: {
-                name: 'Ambulance',
+            als: {
+                name: 'ALS Ambulance',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 25
+            },
+            bls: {
+                name: 'BLS Ambulance',
                 min: 1,
                 max: 2,
                 credits: 5000,
