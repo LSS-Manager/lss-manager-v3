@@ -440,7 +440,8 @@
         415: 'Jäger verletzt Passant durch Schuss',
         416: 'Jäger stürzt von Hochsitz',
         417: 'Jäger durch Wildtier verletzt',
-        418: 'Absicherung Pannen-LKW'
+        418: 'Absicherung Pannen-LKW',
+        419: 'Austritt Flüssiggas'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -672,7 +673,8 @@
         210: 'Factory Fire major',
         211: 'Multiple vehicles on fire',
         212: 'Fire on farm medium',
-        213: 'Fire on farm large'
+        213: 'Fire on farm large',
+        214: 'Scrapyard fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1048,7 +1050,9 @@
         354: 'Brand in terminal',
         355: 'Heidebrand',
         356: 'Heidebrand',
-        357: 'Natuurbrand'
+        357: 'Natuurbrand',
+        358: 'Hoge bloedruk',
+        359: 'Lage bloedruk'
       }
     };
 
@@ -1490,7 +1494,8 @@
       415: 'RD 2',
       416: 'RD 1',
       417: 'RD 1',
-      418: 'POL 1'
+      418: 'POL 1',
+      419: 'ABC 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1706,7 +1711,8 @@
       210: 'FIRE 4',
       211: 'FIRE 3',
       212: 'FIRE 4',
-      213: 'FIRE 5'
+      213: 'FIRE 5',
+      214: 'FIRE 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2066,7 +2072,9 @@
       354: 'GROTE BRAND',
       355: 'GROTE NATUURBRAND',
       356: 'ZEER GROTE NATUURBRAND',
-      357: 'ZEER GROTE NATUURBRAND'
+      357: 'ZEER GROTE NATUURBRAND',
+      358: 'A 1',
+      359: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
