@@ -574,6 +574,7 @@
                 max: 6,
                 credits: 23100,
                 coins: 25,
+                schooling: 'Dekon-P',
                 special: 'Pro Dekon-P müssen 6 Personen mit Dekon-P-Ausbildung vor Ort sein.<br>Wird ab 14 Feuerwachen benötigt.'
             },
             abdekonp: {
