@@ -25,10 +25,10 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 var lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
-        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        server: "https://bran.lss-m.de", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.3.1",
+        version: "4",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
