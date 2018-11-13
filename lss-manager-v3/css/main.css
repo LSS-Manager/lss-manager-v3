@@ -140,14 +140,6 @@ div#preloader {
   background-color: #eee !important;
 }
 
-#map_outer {
-  border:0px solid #bdbdbd;
-  border-radius:5px;
-  padding: 0;
-  margin-left: 0px;
-  width: calc(66.66666667% - 30px);
-}
-
 /* ##################################################
 
               APPSTORE/PLUGIN STYLES
