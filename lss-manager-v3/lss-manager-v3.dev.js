@@ -101,6 +101,7 @@ I18n.translations.de.lssm = {
     mapkit: "Mapkit wird aktuell noch nicht vom LSS-Manager unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
     domainpro: "https://www.leitstellenspiel.de/profile/",
     domainmes: "https://www.leitstellenspiel.de/messages/new?target=",
+
     apps: {}
 };
 I18n.translations.en.lssm = {
