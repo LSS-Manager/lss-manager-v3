@@ -93,7 +93,11 @@
               79: 'SEK - ZF',
               80: 'SEK - MTF',
               81: 'MEK - ZF',
-              82: 'MEK - MTF'
+              82: 'MEK - MTF',
+              83: 'GW-Werkfeuerwehr',
+              84: 'ULF mit Löscharm',
+              85: 'TM 50',
+              86: 'Turbolöscher'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -108,7 +112,7 @@
               2: 'Platform truck',
               3: 'Bataillon chief unit',
               4: 'Heavy rescue vehicle',
-              5: 'Ambulance',
+              5: 'ALS Ambulance',
               6: 'Mobile air',
               7: 'Water Tanker',
               8: 'Utility unit',
@@ -119,7 +123,7 @@
               13: 'Quint',
               14: 'Police helicopter',
               15: 'Fly-Car',
-              16: 'SWAT',
+              16: 'SWAT Armoured Vehicle',
               17: 'ARFF Crash Tender',
               18: 'Rescue Engine',
               19: 'K-9 Unit',
@@ -128,7 +132,9 @@
               22: 'Boat Trailer',
               23: 'Police Motorcycle',
               24: 'Large Fireboat',
-              25: 'Large Rescue Boat'
+              25: 'Large Rescue Boat',
+              26: 'SWAT SUV',
+              27: 'BLS Ambulance'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -184,7 +190,9 @@
               43: 'CT (4x4)',
               44: 'AFO/OSC',
               45: 'DBH',
-              46: 'DM Noodhulp'
+              46: 'DM Noodhulp',
+              47: 'DA Hondengeleider',
+              48: 'DB Hondengeleider'
             }
         }
 
@@ -290,7 +298,11 @@
           79: 'SEK - ZF',
           80: 'SEK - MTF',
           81: 'MEK - ZF',
-          82: 'MEK - MTF'
+          82: 'MEK - MTF',
+          83: 'GW-Werkfeuerwehr',
+          84: 'ULF mit Löscharm',
+          85: 'TM 50',
+          86: 'Turbolöscher'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
@@ -298,7 +310,7 @@
           2: 'Platform truck',
           3: 'Bataillon chief unit',
           4: 'Heavy rescue vehicle',
-          5: 'Ambulance',
+          5: 'ALS Ambulance',
           6: 'Mobile air',
           7: 'Water Tanker',
           8: 'Utility unit',
@@ -309,7 +321,7 @@
           13: 'Quint',
           14: 'Police helicopter',
           15: 'Fly-Car',
-          16: 'SWAT',
+          16: 'SWAT Armoured Vehicle',
           17: 'ARFF Crash Tender',
           18: 'Rescue Engine',
           19: 'K-9 Unit',
@@ -318,7 +330,9 @@
           22: 'Boat Trailer',
           23: 'Police Motorcycle',
           24: 'Large Fireboat',
-          25: 'Large Rescue Boat'
+          25: 'Large Rescue Boat',
+          26: 'SWAT SUV',
+          27: 'BLS Ambulance'
         }
         var DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
@@ -367,7 +381,9 @@
           43: 'CT (4x4)',
           44: 'AFO/OSC',
           45: 'DBH',
-          46: 'DM Noodhulp'
+          46: 'DM Noodhulp',
+          47: 'DA Hondengeleider',
+          48: 'DB Hondengeleider'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;

@@ -28,7 +28,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.3.0",
+        version: "3.3.1",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
@@ -84,6 +84,7 @@ I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
+    forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
     "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
@@ -98,13 +99,17 @@ I18n.translations.de.lssm = {
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
     mapkit: "Mapkit wird aktuell noch nicht vom LSS-Manager unterstützt.\n\nBitte deaktiviere das Addon solange oder schalte wieder \nauf OpenStreeMap um",
+    domainpro: "https://www.leitstellenspiel.de/profile/",
+    domainmes: "https://www.leitstellenspiel.de/messages/new?target=",
+
     apps: {}
 };
 I18n.translations.en.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
-    appstore_welcome: "Welcome to the lssm.appstore of LSS Manager",
+    forum: "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/",
+    appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
     "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
     "<a href=\"" +
@@ -118,11 +123,14 @@ I18n.translations.en.lssm = {
     cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
     mapkit: "Mapkit is not currently supported by LSS-Manager.\n\nPlease turn this Add-On off or change back to OpenStreetMap",
+    domainpro: "https://www.missionchief.com/profile/",
+    domainmes: "https://www.missionchief.com/messages/new?target=",
     apps: {}
 };
 I18n.translations.nl.lssm = {
     lssm: "LSS-Manager",
     appstore: "App Store",
+    forum: "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/",
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
     "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
@@ -136,9 +144,41 @@ I18n.translations.nl.lssm = {
     activated: "De volgende modules zijn geactiveerd:",
     cantactivate: "Kan niet worden geactiveerd omdat deze lssm_module niet samenwerkt met de volgende lssm_module(s):",
     mapkit: "Mapkit wordt momenteel niet ondersteund door LSS-Manager.\n\nPlease zet deze Add-On uit of ga terug naar OpenStreetMap.",
+    domainpro: "https://www.meldkamerspel.com/profile/",
+    domainmes: "https://www.meldkamerspel.com/messages/new?target=",
     apps: {}
 };
 
+I18n.translations.de.lssm.developers = {
+    "sanni": {
+        "id": 675,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 205976,
+        "name": "KBOE2"
+    }
+};
+I18n.translations.en.lssm.developers = {
+    "sanni": {
+        "id": 1065,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 49584,
+        "name": "KBOE2-Scripttester"
+    }
+};
+I18n.translations.nl.lssm.developers = {
+    "sanni": {
+        "id": 2091,
+        "name": "SanniHameln"
+    },
+    "kboe": {
+        "id": 28153,
+        "name": "KBOE2"
+    }
+};
 /**
  * Add the modules to lssm
  */
@@ -882,6 +922,40 @@ lssm.Module = {
         supportedLocales: ['de'],
         inframe: true,
         develop: false
+    },
+    verbandsverwaltung: {
+        name: {
+            de: "Verbandsverwaltung",
+            en: "Alliance-extension",
+            nl: "Team-uitbreiding"
+        },
+        active: false,
+        description: {
+            de: "Verbandsübersicht auf einen Blick im Hauptfenster",
+            en: "Alliance overview at a glance in the main window",
+            nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
+        },
+        source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
+        noapp: false,
+        inframe: true,
+        develop: false
+    },
+    overview: {
+        name: {
+            de: "Übersicht",
+            en: "overview",
+            nl: "overzicht"
+        },
+        active: false,
+        description: {
+            de: "Übersicht über alle Fahrzeuge, später auch Wachen.",
+            en: "Overview of all vehicles, later also buildings",
+            nl: "Overzicht van alle voertuigen, later ook gebouwen."
+        },
+        source: "/modules/lss-overview/overview.js",
+        noapp: false,
+        inframe: true,
+        develop: false
     }
 };
 
@@ -1037,9 +1111,17 @@ lssm.appstore = {
             '</a>' +
             '</span>&nbsp;' +
             '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/675" target="_blank" class="username-link">' +
+            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.sanni.id') +'" target="_blank" class="username-link">' +
             '@SanniHameln</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=SanniHameln" target="_blank" ' +
+            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.sanni.name') +'" target="_blank" ' +
+            'class="username-link">' +
+            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
+            '</a>' +
+            '</span>&nbsp;' +
+            '<span class="label label-primary">' +
+            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.kboe.id') +'" target="_blank" class="username-link">' +
+            '@KBOE2</a>&nbsp;' +
+            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.kboe.name') +'" target="_blank" ' +
             'class="username-link">' +
             '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
             '</a>' +
@@ -1070,7 +1152,7 @@ lssm.appstore = {
                 for (var c in lssm.Module[e.value].collisions) {
                     var d = lssm.Module[e.value].collisions[c];
                     if (lssm.Module[d].active) {
-                        warn += "\r\n" + I18n.t('lssm.apps.' + c + '.name');
+                        warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
                     }
                 }
                 alert(warn);
@@ -1474,7 +1556,7 @@ lssm.modal = {
                             '" type="text/javascript"></script>')
                         .append(
                             '<link rel="stylesheet" ' +
-                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">'
+                            'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css">'
                         );
 
                     // Get the last activated modules

@@ -12,7 +12,18 @@
     })();
 
     $('#map_adress_search').on('keyup', function () {
-        var searchTerm = $(this).val().toLowerCase();
+        function escapeHtml(text) {
+            let map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+
+            return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+        }
+        let searchTerm = escapeHtml($(this).val().toLowerCase());
         delay(function () {
             $('#lssm_searchMissionsWrapper').remove();
             $('#missions_outer').append('<div id="lssm_searchMissionsWrapper" style="z-index: 10006;position: fixed;left: 10px;bottom: 10px;max-height: calc(100vh - 20px);overflow: scroll; min-height:50px;"><div id="lssm_searchMissionsContainer"><span class="label label-primary" style="margin-right:5px;">' + searchTerm + '</span><a class="label label-info" style="margin-right:5px;" id="lssm_searchEntryToggle"><i class="glyphicon glyphicon-eye-open"></i></a></div><div>');
