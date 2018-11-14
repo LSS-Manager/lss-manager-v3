@@ -735,7 +735,7 @@
 				83: '1x Firetruck (100%)<br><br><span class="badge">Credits: ~ 870 </span>',
 				84: '1x Firetruck (100%)<br><br><span class="badge">Credits: ~ 800 </span>',
 				85: '2x Police Cars (100%)<br><br><span class="badge">Credits: ~ 600 </span>',
-				86: '3x Firetrucks (100%)<br>2x Battalion Chiefs (100%)<br>1x Platform Truck (50%)' +
+				86: '3x Firetrucks (100%)<br>1x Battalion Chief (100%)<br>1x Platform Truck (50%)' +
 				'<br>1x Heavy Resuce (100%)<br>2x Police Cars<br>min. 1x Ambulance (100%)<br><br><span class="badge">Credits: ~ 3000 </span>',
 				87: '5x Firetrucks (100%)<br>2x Platform Trucks (100%)<br>2x Battalion Chiefs (100%)<br>' +
 				'1x Mobile Command (100%)<br>1x Hazmat (100%)<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 5300 </span>',
