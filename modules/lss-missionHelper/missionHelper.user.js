@@ -916,7 +916,8 @@
 				'Credits: ~ 10000 </span>',
 				214: '6x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>2x Heavy Rescue<br>2x Water Tanker<br>1x Mobile Command<br>2x Police Cars' +
 				'<br><br><span class="badge">Credits: ~ 5000 </span>',
-				215: '1x Firetruck<br><br><span class="badge">Credits: ~ 275 </span>'
+				215: '1x Firetruck<br><br><span class="badge">Credits: ~ 275 </span>',
+				216: '4x Police Cars<br>1x Police Helicopter<br>1x K-9 Unit<br>4x SWAT Personnel<br><br><span class="badge">Credits: ~ 1250 </span>'
 			}
 		}
 
@@ -1437,7 +1438,13 @@
 				360: '1x Tankautospuit<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 300 </span>',
 				361: '2x Tankautospuiten<br>1x Redvoertuig (60%)<br>1x OvD-B<br>1x Noodhulpeenheid<br>Ambulance<br><br><span class="badge">Credits: ~ 1150 </span>',
 				362: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x HOvD (50%)<br>2x Noodhulpeenheden<br>' +
-				'min. 3x Ambulances<br><br><span class="badge">Credits: ~ 2350 </span>'
+				'min. 3x Ambulances<br><br><span class="badge">Credits: ~ 2350 </span>',
+				363: '1x Tankautospuit<br>1x OvD-B (20%)<br>1x Waterongevallenvoertuig (20%)<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 1450</span>',
+				364: '2x Tankautospuiten<br>1x OvD-B<br>2x Waterongevallenvoertuigs (10%)<br>1x Waterongevallenaanhanger<br>1x Noodhulpeenheid<br>min. 4x Ambulance' +
+				'<br><br><span class="badge">Credits: ~ 3250</span>',
+				365: '3x Tankautospuiten<br>1x Hulpverleningsvoertuig (20%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (40%)<br>1x Redvoertuig (20%)<br>1x HOVD (50%)' +
+				'<br>1x Commandowagen (50%)<br>3x Waterongevallenvoertuig<br>2x Waterongevallenaanhangers<br>1x Noodhulpeenheid<br>min. 8x Ambulances<br><br>' +
+				'<span class="badge">Credits: ~ 4800</span>'
 			}
 		}
 	}

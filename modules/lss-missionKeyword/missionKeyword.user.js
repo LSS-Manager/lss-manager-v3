@@ -497,7 +497,7 @@
         33: 'Wastebin fire',
         34: 'Alcoholic intoxication',
         35: 'Nosebleed',
-        36: 'Cardiac infarction',
+        36: 'Chest Pains',
         37: 'Acute asthma',
         38: 'Seizure',
         39: 'Fever',
@@ -676,7 +676,8 @@
         212: 'Fire on farm medium',
         213: 'Fire on farm large',
         214: 'Scrapyard fire',
-        215: 'Animal rescue from drain'
+        215: 'Animal rescue from drain',
+        216: 'Home Invasion'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1057,7 +1058,10 @@
         359: 'Lage bloeddruk',
         360: 'Brand in bovenwoning',
         361: 'Brand in bovenwoning',
-        362: 'Brand in flatwoning'
+        362: 'Brand in flatwoning',
+        363: 'Brand op passagiersschip',
+        364: 'Brand op passagiersschip',
+        365: 'Brand op passagiersschip'
       }
     };
 
@@ -1719,7 +1723,8 @@
       212: 'FIRE 4',
       213: 'FIRE 5',
       214: 'FIRE 3',
-      215: 'TECH 1'
+      215: 'TECH 1',
+      216: 'POL 4'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2084,7 +2089,10 @@
       359: 'A 1',
       360: 'KLEINE BRAND',
       361: 'KLEINE BRAND',
-      362: 'MIDDEL BRAND'
+      362: 'MIDDEL BRAND',
+      363: 'KLEINE BRAND, SCHIP',
+      364: 'MIDDEL BRAND, SCHIP',
+      365: 'GROTE BRAND, SCHIP'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
