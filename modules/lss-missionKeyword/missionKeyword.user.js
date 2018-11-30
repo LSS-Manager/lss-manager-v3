@@ -442,7 +442,8 @@
         417: 'Jäger durch Wildtier verletzt',
         418: 'Absicherung Pannen-LKW',
         419: 'Austritt Flüssiggas',
-        420: 'Schlechter Allgemeinzustand'
+        420: 'Schlechter Allgemeinzustand',
+        421: 'PKW in Bushaltestelle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -677,7 +678,8 @@
         213: 'Fire on farm large',
         214: 'Scrapyard fire',
         215: 'Animal rescue from drain',
-        216: 'Home Invasion'
+        216: 'Home Invasion',
+        217: 'Museum Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1061,7 +1063,9 @@
         362: 'Brand in flatwoning',
         363: 'Brand op passagiersschip',
         364: 'Brand op passagiersschip',
-        365: 'Brand op passagiersschip'
+        365: 'Brand op passagiersschip',
+        366: 'Personen op dak school',
+        367: 'Gestolen scooter gevonden'
       }
     };
 
@@ -1505,7 +1509,8 @@
       417: 'RD 1',
       418: 'POL 1',
       419: 'ABC 2',
-      420: 'RD 1'
+      420: 'RD 1',
+      421: 'THL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1724,7 +1729,8 @@
       213: 'FIRE 5',
       214: 'FIRE 3',
       215: 'TECH 1',
-      216: 'POL 4'
+      216: 'POL 4',
+      217: 'FIRE 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2092,7 +2098,9 @@
       362: 'MIDDEL BRAND',
       363: 'KLEINE BRAND, SCHIP',
       364: 'MIDDEL BRAND, SCHIP',
-      365: 'GROTE BRAND, SCHIP'
+      365: 'GROTE BRAND, SCHIP',
+      366: 'P 1',
+      367: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
