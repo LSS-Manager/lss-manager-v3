@@ -1067,8 +1067,8 @@
         365: 'Brand op passagiersschip',
         366: 'Personen op dak school',
         367: 'Gestolen scooter gevonden',
-        368: 'Verkeersongeval met vrachtwagen en fietser'
-        369: 'Verkeersongeval met vrachtwagen en fietser'
+        368: 'Verkeersongeval met vrachtwagen en fietser',
+        369: 'Verkeersongeval met vrachtwagen en fietser',
         370: 'Verkeersongeval met vrachtwagen en fietser'
       }
     };
