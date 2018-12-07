@@ -443,7 +443,8 @@
         418: 'Absicherung Pannen-LKW',
         419: 'Austritt Flüssiggas',
         420: 'Schlechter Allgemeinzustand',
-        421: 'PKW in Bushaltestelle'
+        421: 'PKW in Bushaltestelle',
+        422: 'Sachbeschädigung an PKW'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1065,7 +1066,10 @@
         364: 'Brand op passagiersschip',
         365: 'Brand op passagiersschip',
         366: 'Personen op dak school',
-        367: 'Gestolen scooter gevonden'
+        367: 'Gestolen scooter gevonden',
+        368: 'Verkeersongeval met vrachtwagen en fietser'
+        369: 'Verkeersongeval met vrachtwagen en fietser'
+        370: 'Verkeersongeval met vrachtwagen en fietser'
       }
     };
 
@@ -1510,7 +1514,8 @@
       418: 'POL 1',
       419: 'ABC 2',
       420: 'RD 1',
-      421: 'THL 1'
+      421: 'THL 1',
+      422: 'POL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2100,7 +2105,10 @@
       364: 'MIDDEL BRAND, SCHIP',
       365: 'GROTE BRAND, SCHIP',
       366: 'P 1',
-      367: 'P 1'
+      367: 'P 1',
+      368: 'P 2',
+      369: 'P 2, A 1',
+      370: 'HV 1, A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
