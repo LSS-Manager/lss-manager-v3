@@ -1759,6 +1759,14 @@
                 credits: 9000,
                 coins: 12,
                 special: 'TS, TST, TST-NBB, SIV, WO, HV, DA/DB benodigd'
+            },
+            pmor: {
+                name: 'PM-OR | Materieelvoertuig - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
             }
         },
         ambulance: {
