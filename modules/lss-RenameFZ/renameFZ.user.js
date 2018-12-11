@@ -192,7 +192,8 @@
               45: 'DBH',
               46: 'DM Noodhulp',
               47: 'DA Hondengeleider',
-              48: 'DB Hondengeleider'
+              48: 'DB Hondengeleider',
+              49: 'PM-OR'
             }
         }
 
@@ -383,7 +384,8 @@
           45: 'DBH',
           46: 'DM Noodhulp',
           47: 'DA Hondengeleider',
-          48: 'DB Hondengeleider'
+          48: 'DB Hondengeleider',
+          49: 'PM-OR'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
