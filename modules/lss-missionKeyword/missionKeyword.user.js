@@ -444,7 +444,8 @@
         419: 'Austritt Flüssiggas',
         420: 'Schlechter Allgemeinzustand',
         421: 'PKW in Bushaltestelle',
-        422: 'Sachbeschädigung an PKW'
+        422: 'Sachbeschädigung an PKW',
+        423: 'Brand in Klassenraum'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -680,7 +681,13 @@
         214: 'Scrapyard fire',
         215: 'Animal rescue from drain',
         216: 'Home Invasion',
-        217: 'Museum Fire'
+        217: 'Museum Fire',
+        218: 'Cardiac Arrest',
+        219: 'Respiratory Arrest',
+        220: 'Difficulty Breathing',
+        221: 'Difficulty Breathing',
+        222: 'Difficulty Breathing',
+        223: 'Back Pain'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1069,7 +1076,12 @@
         367: 'Gestolen scooter gevonden',
         368: 'Verkeersongeval met vrachtwagen en fietser',
         369: 'Verkeersongeval met vrachtwagen en fietser',
-        370: 'Verkeersongeval met vrachtwagen en fietser'
+        370: 'Verkeersongeval met vrachtwagen en fietser',
+        371: 'Verlaten slee langs waterkant',
+        372: 'Brandende kerststal',
+        373: 'Brandwonden door gourmetstel',
+        374: 'Geluidsoverlast door kerstmuziek',
+        375: 'Persoon bekneld onder kerstpakketten'
       }
     };
 
@@ -1515,7 +1527,8 @@
       419: 'ABC 2',
       420: 'RD 1',
       421: 'THL 1',
-      422: 'POL 1'
+      422: 'POL 1',
+      423: 'B 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1735,7 +1748,13 @@
       214: 'FIRE 3',
       215: 'TECH 1',
       216: 'POL 4',
-      217: 'FIRE 3'
+      217: 'FIRE 3',
+      218: 'MED 1',
+      219: 'MED 1',
+      220: 'MED 1',
+      222: 'MED 1',
+      221: 'MED 1',
+      223: 'MED 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2108,7 +2127,12 @@
       367: 'P 1',
       368: 'P 2',
       369: 'P 2, A 1',
-      370: 'HV 1, A 1'
+      370: 'KLEINE HV , A 1',
+      371: 'KLEINE WO',
+      372: 'KLEINE BRAND',
+      373: 'A 1',
+      374: 'P 1',
+      375: 'KLEINE HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

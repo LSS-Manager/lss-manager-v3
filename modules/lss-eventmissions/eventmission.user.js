@@ -92,6 +92,11 @@
 	text = text.replace('Donkere dagen offensief', '[X-MAS] Donkere dagen offensief');
 	text = text.replace('Snijwond door gebroken kerstbal', '[X-MAS] Snijwond door gebroken kerstbal');
 	text = text.replace('Grote boek van Sinterklaas aangespoeld', '[X-MAS] Grote boek van Sinterklaas aangespoeld');
+	text = text.replace('Verlaten slee langs waterkant', '[X-MAS] Verlaten slee langs waterkant');
+	text = text.replace('Brandende kerststal', '[X-MAS] Brandende kerststal');
+	text = text.replace('Brandwonden door gourmetstel', '[X-MAS] Brandwonden door gourmetstel');
+	text = text.replace('Geluidsoverlast door kerstmuziek', '[X-MAS] Geluidsoverlast door kerstmuziek');
+	text = text.replace('Persoon bekneld onder kerstpakketten', '[X-MAS] Persoon bekneld onder kerstpakketten');
 
 	text = text.replace('Theft at christmas market', '[X-MAS] Theft at christmas market');
 	text = text.replace('Burning christmas market stall', '[X-MAS] Burning christmas market stall');
