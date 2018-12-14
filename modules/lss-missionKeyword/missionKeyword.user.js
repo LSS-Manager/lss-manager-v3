@@ -1081,7 +1081,7 @@
         372: 'Brandende kerststal',
         373: 'Brandwonden door gourmetstel',
         374: 'Geluidsoverlast door kerstmuziek',
-        375: 'Persoon bekneld onder kerstpakketten	'
+        375: 'Persoon bekneld onder kerstpakketten'
       }
     };
 
