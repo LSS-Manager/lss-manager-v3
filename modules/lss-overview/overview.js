@@ -1767,6 +1767,14 @@
                 credits: 10000,
                 coins: 25,
                 schooling: 'oppervlakteredder'
+            },
+            tsor: {
+                name: 'TS-OR | Tankautospuit - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
             }
         },
         ambulance: {

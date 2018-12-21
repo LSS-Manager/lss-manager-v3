@@ -445,7 +445,8 @@
         420: 'Schlechter Allgemeinzustand',
         421: 'PKW in Bushaltestelle',
         422: 'Sachbeschädigung an PKW',
-        423: 'Brand in Klassenraum'
+        423: 'Brand in Klassenraum',
+        424: 'Großbrand Müllverbrennungsanlage'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -687,7 +688,8 @@
         220: 'Difficulty Breathing',
         221: 'Difficulty Breathing',
         222: 'Difficulty Breathing',
-        223: 'Back Pain'
+        223: 'Back Pain',
+        224: 'Vehicle Pursuit'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1081,7 +1083,9 @@
         372: 'Brandende kerststal',
         373: 'Brandwonden door gourmetstel',
         374: 'Geluidsoverlast door kerstmuziek',
-        375: 'Persoon bekneld onder kerstpakketten'
+        375: 'Persoon bekneld onder kerstpakketten',
+        376: 'Persoon te water',
+        377: 'Persoon te water'
       }
     };
 
@@ -1528,7 +1532,8 @@
       420: 'RD 1',
       421: 'THL 1',
       422: 'POL 1',
-      423: 'B 3'
+      423: 'B 3',
+      424: 'B 5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1754,7 +1759,8 @@
       220: 'MED 1',
       222: 'MED 1',
       221: 'MED 1',
-      223: 'MED 1'
+      223: 'MED 1',
+      224: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -1962,7 +1968,7 @@
       202: 'P 1',
       203: 'MIDDEL OGS',
       204: 'MIDDEL OGS',
-      205: 'MIDDEL WO',
+      205: 'KLEINE WO',
       206: 'MIDDEL WO',
       207: 'KLEINE WO',
       208: 'MIDDEL WO',
@@ -2132,7 +2138,9 @@
       372: 'KLEINE BRAND',
       373: 'A 1',
       374: 'P 1',
-      375: 'KLEINE HV'
+      375: 'KLEINE HV',
+      376: 'GROTE WO',
+      377: 'GROTE WO'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
