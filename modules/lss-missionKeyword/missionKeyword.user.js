@@ -688,7 +688,8 @@
         220: 'Difficulty Breathing',
         221: 'Difficulty Breathing',
         222: 'Difficulty Breathing',
-        223: 'Back Pain'
+        223: 'Back Pain',
+        224: 'Vehicle Pursuit'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1758,7 +1759,8 @@
       220: 'MED 1',
       222: 'MED 1',
       221: 'MED 1',
-      223: 'MED 1'
+      223: 'MED 1',
+      224: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',

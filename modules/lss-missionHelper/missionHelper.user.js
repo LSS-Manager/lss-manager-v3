@@ -923,7 +923,7 @@
 				221: '1x Ambulance',
 				222: '1x Ambulance',
 				223: '1x Ambulance',
-				224: ''
+				224: '4x Police Cars<br>1x K9-Unit<br>1x Police Helicopter<br><br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
