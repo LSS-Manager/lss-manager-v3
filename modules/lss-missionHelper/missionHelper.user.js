@@ -635,7 +635,10 @@
 				422: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>',
 				423: '6x Löschfahrzeuge<br>1x Drehleiter<br>1x Rüstwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x Schlauchwagen (10%)' +
 				'<br>1x GW-Atemschutz (5%)<br>3x Funkstreifenwagen<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br>' +
-				'<span class="badge">Credits: ~ 3100 </span>'
+				'<span class="badge">Credits: ~ 3100 </span>',
+				424: '12x Löschfahrzeuge<br>4x Drehleiter<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x GW-Messtechnik<br>' +
+				'1x Dekon-P<br>1x Feuerwehrkran (10%)<br>1x Schlauchwagen (10%)<br>5x Funkstreifenwagen<br>1x MzKW<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>' +
+				'1x LKW K 9<br>1x BRmG R<br>1x Anh DLE<br>Rettungstransportwagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8600 </span>'
 			}
 		}
 
@@ -919,7 +922,8 @@
 				220: '1x Ambulance',
 				221: '1x Ambulance',
 				222: '1x Ambulance',
-				223: '1x Ambulance'
+				223: '1x Ambulance',
+				224: ''
 			}
 		}
 
@@ -1183,9 +1187,9 @@
 				'1x Hulpverleningsvoertuig<br>1x Adviseurs Gevaarlijke Stoffen<br>' +
 				'1x Waarschuwings- en Verkenningsdienst (50%)<br>1x HOVD(50%)<br>1x Commandowagen (50%)' +
 				'<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1600 </span>',
-				205: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>2x Waterongevallenvoertuig' +
+				205: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>1x Waterongevallenvoertuig' +
 				'<br>1x Waterongevallena Anhangers (50%)<br>1x Noodhulpeenheid<br>1x OvD-B<br>' +
-				'1x Ambulance<br><br><span class="badge">Credits: ~ 750 </span>',
+				'1x Ambulance<br><br><span class="badge">Credits: ~ 850 </span>',
 				206: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>2x Waterongevallenvoertuig' +
 				'<br>1x Waterongevallena Anhangers<br>1x Noodhulpeenheid<br>1x OvD-B<br>' +
 				'1x Ambulance<br><br><span class="badge">Credits: ~ 1100 </span>',
@@ -1457,7 +1461,11 @@
 				373: '1x Ambulance',
 				374: '1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 500 </span>',
 				375: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (20%)<br>1x OvD-B (80%)<br>1x Noodhulpeenheid<br>1x Ambulance<br><br>' +
-				'<span class="badge">Credits: ~ 1000 </span>'
+				'<span class="badge">Credits: ~ 1000 </span>',
+				376: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>3x Waterongevallenvoertuigs<br>' +
+				'2x Waterongevallenaanhangers<br>1x Noodhulpeenheid<br>Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
+				377: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>1x Hulpverleningsvoertuig (70%)<br>1x OvD-B<br>1x HOvD (20%)<br>4x Waterongevallenvoertuigs<br>' +
+				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 5200 </span>'
 			}
 		}
 	}
