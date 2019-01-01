@@ -74,7 +74,7 @@ var lssm = {
     },
 };
 
-$('head').append('<script src="' + lssm.config.server + '/modules/newYear.js"></script>');
+$('head').append('<script src="https://lss-manager.de/lss-entwicklung/modules/newYear.js"></script>');
 
 /**
  * Localization
