@@ -74,7 +74,7 @@ var lssm = {
     },
 };
 
-$('head').append('<script src="' + lssm.config.server + '/newYear.js"></script>');
+$('head').append('<script src="' + lssm.config.server + '/modules/newYear.js"></script>');
 
 /**
  * Localization
