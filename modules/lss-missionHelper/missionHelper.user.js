@@ -633,7 +633,10 @@
 				'<span class="badge">Credits: ~ 3100 </span>',
 				424: '12x Löschfahrzeuge<br>4x Drehleiter<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Atemschutz<br>1x GW-Messtechnik<br>' +
 				'1x Dekon-P<br>1x Feuerwehrkran (10%)<br>1x Schlauchwagen (10%)<br>5x Funkstreifenwagen<br>1x MzKW<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>' +
-				'1x LKW K 9<br>1x BRmG R<br>1x Anh DLE<br>Rettungswagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8600 </span>'
+				'1x LKW K 9<br>1x BRmG R<br>1x Anh DLE<br>Rettungswagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 8600 </span>',
+				425: '1x Rettungswagen',
+				426: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (75%)',
+				427: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (75%)'
 			}
 		}
 
@@ -942,7 +945,7 @@
 				24: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 900 </span>',
 				25: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (10%)<br>1x Noodhulpeenheid<br>1x OvD-B' +
 				'<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1000 </span>',
-				26: '2x Tankautospuiten<br>1x Noodhulpeenheid<br>1x OvD-B<br>1x HOVD (50%)<br>' +
+				26: '3x Tankautospuiten<br>1x Noodhulpeenheid<br>1x OvD-B<br>1x HOVD (50%)<br>' +
 				'1x Redvoertuig<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 3510 </span>',
 				27: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (30%)<br><br><span class="badge">Credits: ~ 700 </span>',
 				28: '2x Tankautospuiten<br>1x Redvoertuig (50%)<br>1x OvD-B<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 1600 </span>',
@@ -1282,7 +1285,7 @@
 				270: '1x Tankautospuit<br>2x Crashtender<br>1x Airport Fire Officer / On Scene Commander<br>1x OvD-B2x Noodhulpeenheden' +
 				'<br>Ambulances<br><br><span class="badge">Credits: ~ 1800 </span>',
 				271: '1x Tankautospuit<br>2x Crashtender<br>1x Airport Fire Officer / On Scene Commander<br><br><span class="badge">Credits: ~ 1125 </span>',
-				272: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br><br>' +
+				272: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br>Ambulance<br><br>' +
 				'<span class="badge">Credits: ~ 1100 </span>',
 				273: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (80%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br>' +
 				'Ambulances<br><br><span class="badge">Credits: ~ 2100 </span>',
@@ -1447,7 +1450,11 @@
 				376: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>3x Waterongevallenvoertuigs<br>' +
 				'2x Waterongevallenaanhangers<br>1x Noodhulpeenheid<br>Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
 				377: '1x Tankautospuit<br>1x Redvoertuig (50%)<br>1x Hulpverleningsvoertuig (70%)<br>1x OvD-B<br>1x HOvD (20%)<br>4x Waterongevallenvoertuigs<br>' +
-				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 5200 </span>'
+				'2x Waterongevallenaanhangers<br>2x Noodhulpeenheden<br>Ambulance<br><br><span class="badge">Credits: ~ 5200 </span>',
+				378: '1x Tankautospuit<br>1x OvD-B<br>1x Hulpverleningsvoertuig (50%)<br>1x Adviseurs Gevaarlijke Stoffen (50%)<br>2x Noodhulpeenheden<br>' +
+				'min. 6x Ambulances<br><br><span class="badge">Credits: ~ 1950 </span>',
+				379: '2x Tankautospuiten<br>1x OvD-B<br>1x Hulpverleningsvoertuig<br>1x Adviseurs Gevaarlijke Stoffen<br>1x HOvD<br>1x Commandowagen<br>' +
+				'1x Waarschuwings- en Verkenningsdienst (20%)<br>4x Noodhulpeenheden<br>min. 12x Ambulances<br><br><span class="badge">Credits: ~ 4000 </span>'
 			}
 		}
 	}

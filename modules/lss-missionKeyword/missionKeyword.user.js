@@ -446,7 +446,10 @@
         421: 'PKW in Bushaltestelle',
         422: 'Sachbeschädigung an PKW',
         423: 'Brand in Klassenraum',
-        424: 'Großbrand Müllverbrennungsanlage'
+        424: 'Großbrand Müllverbrennungsanlage',
+        425: 'Verstauchter Knöchel',
+        426: 'Gebrochenes Bein',
+        427: 'Gebrochener Arm'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1085,7 +1088,9 @@
         374: 'Geluidsoverlast door kerstmuziek',
         375: 'Persoon bekneld onder kerstpakketten',
         376: 'Persoon te water',
-        377: 'Persoon te water'
+        377: 'Persoon te water',
+        378: 'Vreemde lucht in winkelcentrum',
+        379: 'Vreemde lucht in winkelcentrum'
       }
     };
 
@@ -1533,7 +1538,10 @@
       421: 'THL 1',
       422: 'POL 1',
       423: 'B 3',
-      424: 'B 5'
+      424: 'B 5',
+      425: 'RD 1',
+      426: 'RD 2',
+      427: 'RD 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2140,7 +2148,9 @@
       374: 'P 1',
       375: 'KLEINE HV',
       376: 'GROTE WO',
-      377: 'GROTE WO'
+      377: 'GROTE WO',
+      378: 'OGS 1',
+      379: 'OGS 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
