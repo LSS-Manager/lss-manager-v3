@@ -1285,7 +1285,7 @@
 				270: '1x Tankautospuit<br>2x Crashtender<br>1x Airport Fire Officer / On Scene Commander<br>1x OvD-B2x Noodhulpeenheden' +
 				'<br>Ambulances<br><br><span class="badge">Credits: ~ 1800 </span>',
 				271: '1x Tankautospuit<br>2x Crashtender<br>1x Airport Fire Officer / On Scene Commander<br><br><span class="badge">Credits: ~ 1125 </span>',
-				272: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br><br>' +
+				272: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (50%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br>Ambulance<br><br>' +
 				'<span class="badge">Credits: ~ 1100 </span>',
 				273: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (80%)<br>1x OvD-B<br>1x Crashtender<br>2x Noodhulpeenheden<br>' +
 				'Ambulances<br><br><span class="badge">Credits: ~ 2100 </span>',
