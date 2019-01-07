@@ -777,7 +777,7 @@
 				117: '1x Firetrucks<br> 2x ARFF<br>1x Battalion Chief<br><br><span class="badge">Credits: ~ 1200 </span>',
 				118: '1x Firetrucks<br> 3x ARFF<br>1x Battalion Chief<br><br><span class="badge">Credits: ~ 1900 </span>',
 				119: '1x Ambulance',
-				120: '3x Firetrucks<br>4x ARFF<br>1x Battalion Chief<br>5x Police Cars<br>min. 1x Ambulance max. 25 Ambulance<br><br>' +
+				120: '3x Firetrucks<br>4x ARFF<br>1x Battalion Chief<br>5x Police Cars<br>min. 5x Ambulance max. 25 Ambulance<br><br>' +
 				'<span class="badge">Credits: ~ 6000 </span>',
 				121: '10x Police Cars<br>4x SWAT Cars<br>1x Battalion Chief<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 5000 </span>',
 				122: '1x Firetruck<br><br><span class="badge">Credits: ~ 100 </span>',
@@ -830,7 +830,7 @@
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
 				160: '3x Police Cars<br>1x Ambulance<br><br><span class="badge">Credits: ~ 700 </span>',
 				161: '6x Police Cars',
-				162: '1x Firetruck<br>2x ARFF<br>Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
+				162: '1x Firetruck<br>2x ARFF<br>Ambulance<br><br><span class="badge">Credits: ~ 2500 </span>',
 				163: '4x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker<br>1x HazMat (50%)<br>' +
 				'Ambulance<br><br><span class="badge">Credits: ~ 4000 </span>',
 				164: '3x Police Cars<br>1x K9 Unit<br><br><span class="badge">Credits: ~ 550 </span>',
@@ -909,7 +909,9 @@
 				221: '1x Ambulance',
 				222: '1x Ambulance',
 				223: '1x Ambulance',
-				224: '4x Police Cars<br>1x K9-Unit<br>1x Police Helicopter<br><br><span class="badge">Credits: ~ 1000 </span>'
+				224: '4x Police Cars<br>1x K9-Unit<br>1x Police Helicopter<br><br><span class="badge">Credits: ~ 1000 </span>',
+				225: '3x ARFF<br>1x Firetruck<br>1x Battalion Chief<br>1x Heavy Rescue<br><br><span class="badge">Credits: ~ 3000 </span>',
+				226: '2x ARFF<br>1x Firetruck<br><br><span class="badge">Credits: ~ 2000 </span>'
 			}
 		}
 

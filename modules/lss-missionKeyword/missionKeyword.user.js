@@ -692,7 +692,9 @@
         221: 'Difficulty Breathing',
         222: 'Difficulty Breathing',
         223: 'Back Pain',
-        224: 'Vehicle Pursuit'
+        224: 'Vehicle Pursuit',
+        225: 'Landing Gear failure',
+        226: 'Landing Gear failure'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1768,7 +1770,9 @@
       222: 'MED 1',
       221: 'MED 1',
       223: 'MED 1',
-      224: 'POL 2'
+      224: 'POL 2',
+      225: 'FIRE 2 AIRCRAFT',
+      226: 'FIRE 1 AIRCRAFT'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
