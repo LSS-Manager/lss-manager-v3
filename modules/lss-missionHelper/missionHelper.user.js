@@ -777,7 +777,7 @@
 				117: '1x Firetrucks<br> 2x ARFF<br>1x Battalion Chief<br><br><span class="badge">Credits: ~ 1200 </span>',
 				118: '1x Firetrucks<br> 3x ARFF<br>1x Battalion Chief<br><br><span class="badge">Credits: ~ 1900 </span>',
 				119: '1x Ambulance',
-				120: '3x Firetrucks<br>4x ARFF<br>1x Battalion Chief<br>5x Police Cars<br>min. 5x Ambulance max. 25 Ambulance<br><br>' +
+				120: '3x Firetrucks<br>4x ARFF<br>2x Battalion Chief<br>5x Police Cars<br>min. 5x Ambulance max. 25 Ambulance<br><br>' +
 				'<span class="badge">Credits: ~ 6000 </span>',
 				121: '10x Police Cars<br>4x SWAT Cars<br>1x Battalion Chief<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 5000 </span>',
 				122: '1x Firetruck<br><br><span class="badge">Credits: ~ 100 </span>',
