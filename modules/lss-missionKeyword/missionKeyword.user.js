@@ -449,7 +449,8 @@
         424: 'Großbrand Müllverbrennungsanlage',
         425: 'Verstauchter Knöchel',
         426: 'Gebrochenes Bein',
-        427: 'Gebrochener Arm'
+        427: 'Gebrochener Arm',
+        428: 'Schneelast auf Dach'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -694,7 +695,10 @@
         223: 'Back Pain',
         224: 'Vehicle Pursuit',
         225: 'Landing Gear failure',
-        226: 'Landing Gear failure'
+        226: 'Landing Gear failure',
+        227: 'Airport Terminal Collapse (Small)',
+        228: 'Airport Terminal Collapse (Large)',
+        229: 'Airport Terminal Collapse (Major)'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1092,7 +1096,10 @@
         376: 'Persoon te water',
         377: 'Persoon te water',
         378: 'Vreemde lucht in winkelcentrum',
-        379: 'Vreemde lucht in winkelcentrum'
+        379: 'Vreemde lucht in winkelcentrum',
+        380: 'Epileptische aanval',
+        381: 'Hevige bloeding',
+        382: 'Suikertekort'
       }
     };
 
@@ -1543,7 +1550,8 @@
       424: 'B 5',
       425: 'RD 1',
       426: 'RD 2',
-      427: 'RD 2'
+      427: 'RD 2',
+      428: 'THL 2'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1772,7 +1780,10 @@
       223: 'MED 1',
       224: 'POL 2',
       225: 'FIRE 2 AIRCRAFT',
-      226: 'FIRE 1 AIRCRAFT'
+      226: 'FIRE 1 AIRCRAFT',
+      227: 'FIRE 2',
+      228: 'FIRE 4',
+      229: 'FIRE 6'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2154,7 +2165,10 @@
       376: 'GROTE WO',
       377: 'GROTE WO',
       378: 'OGS 1',
-      379: 'OGS 2'
+      379: 'OGS 2',
+      380: 'A 1',
+      381: 'A 1',
+      382: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
