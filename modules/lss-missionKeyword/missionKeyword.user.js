@@ -450,7 +450,8 @@
         425: 'Verstauchter Knöchel',
         426: 'Gebrochenes Bein',
         427: 'Gebrochener Arm',
-        428: 'Schneelast auf Dach'
+        428: 'Schneelast auf Dach',
+        429: 'Staubexplosion'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -698,7 +699,9 @@
         226: 'Landing Gear failure',
         227: 'Airport Terminal Collapse (Small)',
         228: 'Airport Terminal Collapse (Large)',
-        229: 'Airport Terminal Collapse (Major)'
+        229: 'Airport Terminal Collapse (Major)',
+        230: 'Hazardous materials truck fire in tunnel',
+        231: 'Hazardous materials truck fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1099,7 +1102,11 @@
         379: 'Vreemde lucht in winkelcentrum',
         380: 'Epileptische aanval',
         381: 'Hevige bloeding',
-        382: 'Suikertekort'
+        382: 'Suikertekort',
+        383: 'Brand in parkeergarage',
+        384: 'Brand in parkeergarage',
+        385: 'Brand in parkeergarage',
+        386: 'Brand in parkeergarage'
       }
     };
 
@@ -1551,7 +1558,8 @@
       425: 'RD 1',
       426: 'RD 2',
       427: 'RD 2',
-      428: 'THL 2'
+      428: 'THL 2',
+      429: 'B 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1783,7 +1791,9 @@
       226: 'FIRE 1 AIRCRAFT',
       227: 'FIRE 2',
       228: 'FIRE 4',
-      229: 'FIRE 6'
+      229: 'FIRE 6',
+      230: 'FIRE 3',
+      231: 'FIRE 3'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2168,7 +2178,11 @@
       379: 'OGS 2',
       380: 'A 1',
       381: 'A 1',
-      382: 'A 1'
+      382: 'A 1',
+      383: 'KLEINE BRAND',
+      384: 'MIDDEL BRAND',
+      385: 'GROTE BRAND',
+      386: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
