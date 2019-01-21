@@ -923,9 +923,9 @@
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 7000 </span>',
 				229: '12x Firetrucks<br>6x Battalion Chiefs<br>2x Platform Truck<br>6x Heavy Rescues<br>1x Mobile Command<br>6x Police Cars<br>' +
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 11000 </span>',
-				230: '5x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker<br>1x Mobile Air<br>1x HazMat<br>1x Mobile Command<br>' +
+				230: '5x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker<br>1x Mobile Air<br>1x HazMat<br>' +
 				'4x Police Cars<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 6500 </span>',
-				231: '5x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker<br>1x HazMat<br>1x Mobile Command<br>2x Police Cars<br>' +
+				231: '5x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Water Tanker<br>1x HazMat<br>2x Police Cars<br>' +
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 4000 </span>'
 			}
 		}
