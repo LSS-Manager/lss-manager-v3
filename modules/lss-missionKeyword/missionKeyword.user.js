@@ -451,7 +451,8 @@
         426: 'Gebrochenes Bein',
         427: 'Gebrochener Arm',
         428: 'Schneelast auf Dach',
-        429: 'Staubexplosion'
+        429: 'Staubexplosion',
+        430: 'Ammoniak Austritt in Eishalle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -558,7 +559,7 @@
         85: 'Brawl at christmas market',
         86: 'MVA Rollover',
         87: 'Industrial Fire',
-        88: 'Building Collapse',
+        88: 'Partial Building Collapse',
         89: 'Trench Rescue',
         90: 'Officer Down',
         91: 'Concert',
@@ -701,7 +702,8 @@
         228: 'Airport Terminal Collapse (Large)',
         229: 'Airport Terminal Collapse (Major)',
         230: 'Hazardous materials truck fire in tunnel',
-        231: 'Hazardous materials truck fire'
+        231: 'Hazardous materials truck fire',
+        232: 'Full Building Collapse'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1106,7 +1108,10 @@
         383: 'Brand in parkeergarage',
         384: 'Brand in parkeergarage',
         385: 'Brand in parkeergarage',
-        386: 'Brand in parkeergarage'
+        386: 'Brand in parkeergarage',
+        387: 'Bouwvakker van hoogte gevallen',
+        388: 'Bouwvakker van hoogte gevallen',
+        389: 'Bouwvakker bekneld onder bouwmateriaal'
       }
     };
 
@@ -1559,7 +1564,8 @@
       426: 'RD 2',
       427: 'RD 2',
       428: 'THL 2',
-      429: 'B 4'
+      429: 'B 4',
+      430: 'ABC 3'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1793,7 +1799,8 @@
       228: 'FIRE 4',
       229: 'FIRE 6',
       230: 'FIRE 3',
-      231: 'FIRE 3'
+      231: 'FIRE 3',
+      232: 'TECH 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2182,7 +2189,10 @@
       383: 'KLEINE BRAND',
       384: 'MIDDEL BRAND',
       385: 'GROTE BRAND',
-      386: 'ZEER GROTE BRAND'
+      386: 'ZEER GROTE BRAND',
+      387: 'A 1',
+      388: 'A 1',
+      389: 'KLEINE HV'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
