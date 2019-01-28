@@ -328,7 +328,7 @@
 				241: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 200 </span>',
 				242: '2x Löschfahrzeuge<br>1x GW-Messtechnik (50%)<br>3x Funkstreifenwagen<br>min. ' +
 				'1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)<br><br><span class="badge">Credits: ~ 2100 </span>',
-				243: '1x Löschfahrzeug<br>1-4x Rettungswagen<br>1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1200 </span>',
+				243: '1x Funkstreifenwagen<br>1-4x Rettungswagen<br>1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1200 </span>',
 				244: '1x Boot<br><br><span class="badge">Credits: ~ 1000 </span>',
 				245: '1x Boot<br>1x Rettungswagen<br>1x Notarzteinsatzfahrzeug (90%)<br><br><span class="badge">Credits: ~ 1200 </span>',
 				246: '1x Boot<br>1x Rettungswagen<br>1x Notarzteinsatzfahrzeug (90%)<br>' +
