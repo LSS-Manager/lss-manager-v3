@@ -1378,7 +1378,7 @@
       240: 'ABC 1',
       241: 'POL 1',
       242: 'POL 3',
-      243: 'THL 1',
+      243: 'POL 1',
       244: 'THL WASSER',
       245: 'THL WASSER',
       246: 'THL WASSER',
