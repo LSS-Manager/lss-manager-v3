@@ -1756,6 +1756,14 @@
                 coins: 12,
                 special: 'Haakarmvoertuig benodigd'
             },
+            hvh: {
+                name: 'HulpverleningsHaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
             wo: {
                 name: 'Waterongevallenvoertuig',
                 min: 4,

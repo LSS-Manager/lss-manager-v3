@@ -194,7 +194,8 @@
               47: 'DA Hondengeleider',
               48: 'DB Hondengeleider',
               49: 'PM-OR',
-              50: 'TS-OR'
+              50: 'TS-OR',
+              51: 'HVH'
             }
         }
 
@@ -387,7 +388,8 @@
           47: 'DA Hondengeleider',
           48: 'DB Hondengeleider',
           49: 'PM-OR',
-          50: 'TS-OR'
+          50: 'TS-OR',
+          51: 'HVH'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;

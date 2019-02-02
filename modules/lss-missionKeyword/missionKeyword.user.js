@@ -452,7 +452,8 @@
         427: 'Gebrochener Arm',
         428: 'Schneelast auf Dach',
         429: 'Staubexplosion',
-        430: 'Ammoniak Austritt in Eishalle'
+        430: 'Ammoniakaustritt in Eishalle',
+        431: 'Kreislaufkollaps'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -703,7 +704,10 @@
         229: 'Airport Terminal Collapse (Major)',
         230: 'Hazardous materials truck fire in tunnel',
         231: 'Hazardous materials truck fire',
-        232: 'Full Building Collapse'
+        232: 'Full Building Collapse',
+        233: 'Person Hit by Train',
+        234: 'Person Hit by Train',
+        235: 'Person Hit by Train'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1111,7 +1115,11 @@
         386: 'Brand in parkeergarage',
         387: 'Bouwvakker van hoogte gevallen',
         388: 'Bouwvakker van hoogte gevallen',
-        389: 'Bouwvakker bekneld onder bouwmateriaal'
+        389: 'Bouwvakker bekneld onder bouwmateriaal',
+        390: 'Brand bij afvalverwerker',
+        391: 'Brand bij afvalverwerker',
+        392: 'Brand bij afvalverwerker',
+        393: 'Brand bij afvalverwerker'
       }
     };
 
@@ -1565,7 +1573,8 @@
       427: 'RD 2',
       428: 'THL 2',
       429: 'B 4',
-      430: 'ABC 3'
+      430: 'ABC 3',
+      431: 'RD 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1800,7 +1809,10 @@
       229: 'FIRE 6',
       230: 'FIRE 3',
       231: 'FIRE 3',
-      232: 'TECH 2'
+      232: 'TECH 3',
+      233: 'TECH 2',
+      234: 'TECH 2',
+      235: 'TECH 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2192,7 +2204,11 @@
       386: 'ZEER GROTE BRAND',
       387: 'A 1',
       388: 'A 1',
-      389: 'KLEINE HV'
+      389: 'KLEINE HV',
+      390: 'ZEER KLEINE BRAND',
+      391: 'KLEINE BRAND',
+      392: 'MIDDEL BRAND',
+      393: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
