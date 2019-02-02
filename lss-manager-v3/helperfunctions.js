@@ -89,7 +89,8 @@ else if (I18n.locale == "nl")
         "47": ["DA Hondengeleider | Dienstauto Hondengeleider", 2],
         "48": ["DB Hondengeleider | Dienstbus Hondengeleider", 2],
         "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
-        "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0]
+        "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
+        "51": ["HVH | HulpverleningsHaakarmbak", 0]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {
