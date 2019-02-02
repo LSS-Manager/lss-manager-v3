@@ -644,7 +644,8 @@
 				'<br><br><span class="badge">Credits: ~ 3100 </span>',
 				430: '15x Löschfahrzeuge<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>2x Dekon-P<br>2x GW-Messtechnik<br>2x GW-Gefahrgut<br>1x GW-Atemschutz' +
 				'<br>1x Drehleiter<br>2x Schlauchwagen<br>4x Rüstwagen<br>8x Funkstreifenwagen<br>min. 1x Rettungswagen<br>Notarzteinsatzfahrzeug (35%)<br>' +
-				'<br><span class="badge">Credits: ~ 7000 </span>'
+				'<br><span class="badge">Credits: ~ 7000 </span>',
+				431: 'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)'
 			}
 		}
 
@@ -742,7 +743,7 @@
 				84: '1x Firetruck<br><br><span class="badge">Credits: ~ 800 </span>',
 				85: '2x Police Cars<br><br><span class="badge">Credits: ~ 600 </span>',
 				86: '3x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck (50%)' +
-				'<br>1x Heavy Resuce<br>2x Police Cars<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
+				'<br>1x Heavy Rescue<br>2x Police Cars<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
 				87: '5x Firetrucks<br>2x Platform Trucks<br>2x Battalion Chiefs<br>' +
 				'1x Mobile Command<br>1x Hazmat<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 5300 </span>',
 				88: '2x Firetrucks<br>2x Platform Trucks<br>2x Battalion Chiefs' +
@@ -849,7 +850,7 @@
 				169: '2x Firetrucks<br><br><span class="badge">Credits: ~ 550 </span>',
 				170: '4x Firetrucks<br>1x Boat<br>1x Battalion Chief<br>Ambulances<br><br><span class="badge">Credits: ~ 1550 </span>',
 				171: '6x Firetrucks<br>2x Battalion Chiefs<br>1x Heavy Rescue<br>2x Boats<br>Ambulances<br><br><span class="badge">Credits: ~ 2500 </span>',
-				172: '8x Firetrucks<br>2x Battalion Chiefs<br>1x Mobile Command<br>2x Heavy Resuces<br>2x Boats<br>3x Police Cars ' +
+				172: '8x Firetrucks<br>2x Battalion Chiefs<br>1x Mobile Command<br>2x Heavy Rescues<br>2x Boats<br>3x Police Cars ' +
 				'(100%)<br>Ambulances<br><br><span class="badge">Credits: ~ 4000 </span>',
 				173: '4x Firetrucks<br>1x Battalion Chief<br>1x HazMat (50%)<br>1x Heavy Rescue<br>1x Boat<br>Ambulance<br><br>' +
 				'<span class="badge">Credits: ~ 4000 </span>',
@@ -932,6 +933,9 @@
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 4000 </span>',
 				232: '6x Firetrucks<br>2x Platform Trucks<br>4x Battalion Chiefs<br>1x Mobile Command<br>4x Heavy Rescues<br>2x Police Cars<br>' +
 				'min. 1x Ambulance<br><br><span class="badge">Credits: ~ 10000 </span>'
+				233: '4x Firetrucks<br>2x Battalion Chiefs<br>1x Heavy Rescue<br>2x Police Cars<br>1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
+				234: '4x Firetrucks<br>2x Battalion Chiefs<br>1x Heavy Rescue<br>2x Police Cars<br>1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
+				235: '4x Firetrucks<br>2x Battalion Chiefs<br>1x Heavy Rescue<br>2x Police Cars<br>1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>'
 			}
 		}
 
@@ -1489,7 +1493,14 @@
 				387: '1x Ambulance',
 				388: '1x Tankautospuit<br>1x Redvoertuig<br>1x Ambulance<br><br><span class="badge">Credits: ~ 400 </span>',
 				389: '1x Tankautospuit<br>1x OvD-B<br>1x Hulpverleningsvoertuig (80%)<br>1x Noodhulpeenheid<br>1x Ambulance<br>1x MMT-Arts (50%)' +
-				'<br><br><span class="badge">Credits: ~ 900 </span>'
+				'<br><br><span class="badge">Credits: ~ 900 </span>',
+				390: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 800 </span>',
+				391: '2x Tankautospuiten<br>1x Redvoertuig (50%)<br>1x OvD-B<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 1500 </span>',
+				392: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Slangenwagen (80%)<br>1x Waarschuwings- en Verkenningsdienst (20%)<br> ' +
+				'1x Adviseurs Gevaarlijke Stoffen (60%)<br>1x HOvD<br><br><span class="badge">Credits: ~ 2600 </span>',
+				393: '4x Tankautospuiten<br>2x Redvoertuig<br>1x Hulpverleningsvoertuig (20%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (50%)<br>' +
+				'2x Slangenwagen<br>1x Waarschuwings- en Verkenningsdienst (60%)<br>1x Adviseurs Gevaarlijke Stoffen<br>1x HOvD<br>1x Noodhulpeenheid<br><br>' +
+				'<span class="badge">Credits: ~ 4800 </span>'
 			}
 		}
 	}
