@@ -102,6 +102,18 @@
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
+        fwklein: {
+            name: 'Feuerwache (Kleinwache)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
+            startPersonell: 9,
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 15.000 mehr).',
+            extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
+            maxBuildings: '1.850',
+            special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
+        },
         fwschule: {
             name: 'Feuerwehrschule',
             credits: 500000,
@@ -112,7 +124,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Feuerwehrschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Feuerwehrschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         rw: {
             name: 'Rettungswache',
@@ -135,7 +147,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         kh: {
             name: 'Krankenhaus',
@@ -145,9 +157,9 @@
             levelcost: 'jeweils 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Keine Fahrzeuge stationierbar, dafür aber 10 Betten von Beginn an',
-            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirguie nur 10.000 Credits/)',
+            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirurgie nur 10.000 Credits/)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         rth: {
             name: 'Rettungshubschrauber-Station',
@@ -194,7 +206,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         polheli: {
             name: 'Polizeihubschrauber-Station',
@@ -265,7 +277,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         }
     };
 
@@ -574,6 +586,7 @@
                 max: 6,
                 credits: 23100,
                 coins: 25,
+                schooling: 'Dekon-P',
                 special: 'Pro Dekon-P müssen 6 Personen mit Dekon-P-Ausbildung vor Ort sein.<br>Wird ab 14 Feuerwachen benötigt.'
             },
             abdekonp: {
@@ -732,7 +745,7 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
-                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig benadelt werden.'
+                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.'
             }
         },
         pol: {
@@ -956,7 +969,7 @@
         heli: {
             polheli: {
                 name: 'Polizeihubschrauber',
-                min: 3,
+                min: 1,
                 max: 3,
                 credits: 300000,
                 coins: 30,
@@ -1051,7 +1064,7 @@
             startVehicle: 'No vehicles stationable',
             extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
             maxBuildings: 'No limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
         },
         rw: {
             name: 'Ambulance Station',
@@ -1060,7 +1073,7 @@
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 2,
-            startVehicle: 'Ambulance',
+            startVehicle: 'ALS Ambulance',
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
@@ -1074,7 +1087,7 @@
             startVehicle: 'No vehicles can be stationed, but 10 beds from the start',
             extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
         },
         rth: {
             name: 'Helicopter Station',
@@ -1109,7 +1122,7 @@
             startVehicle: 'No vehicles stationable',
             extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
             maxBuildings: 'No limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
         },
         polheli: {
             name: 'Police Aviation Station',
@@ -1282,8 +1295,15 @@
             },
         },
         rd: {
-            rtw: {
-                name: 'Ambulance',
+            als: {
+                name: 'ALS Ambulance',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 25
+            },
+            bls: {
+                name: 'BLS Ambulance',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -1421,7 +1441,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rw: {
             name: 'Ambulance standplaats',
@@ -1444,7 +1464,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         kh: {
             name: 'Ziekenhuis',
@@ -1456,7 +1476,7 @@
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
             extensions: 'Diverse specialisaties (in elk geval 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rth: {
             name: 'MMT Standplaats',
@@ -1491,7 +1511,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         polheli: {
             name: 'Politiehelikopter standplaats',
@@ -1736,6 +1756,14 @@
                 coins: 12,
                 special: 'Haakarmvoertuig benodigd'
             },
+            hvh: {
+                name: 'HulpverleningsHaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
             wo: {
                 name: 'Waterongevallenvoertuig',
                 min: 4,
@@ -1751,6 +1779,22 @@
                 credits: 9000,
                 coins: 12,
                 special: 'TS, TST, TST-NBB, SIV, WO, HV, DA/DB benodigd'
+            },
+            pmor: {
+                name: 'PM-OR | Materieelvoertuig - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
+            },
+            tsor: {
+                name: 'TS-OR | Tankautospuit - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
             }
         },
         ambulance: {
