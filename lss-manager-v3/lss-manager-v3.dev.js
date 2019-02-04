@@ -28,7 +28,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
-        version: "3.3.0",
+        version: "3.3.1",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
@@ -74,6 +74,8 @@ var lssm = {
     },
 };
 
+$('head').append('<script src="https://lss-manager.de/lss-entwicklung/modules/newYear.js"></script>');
+
 /**
  * Localization
  */
@@ -84,6 +86,7 @@ I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
+    forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
     "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
@@ -106,6 +109,7 @@ I18n.translations.en.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
+    forum: "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/",
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
     "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
@@ -127,6 +131,7 @@ I18n.translations.en.lssm = {
 I18n.translations.nl.lssm = {
     lssm: "LSS-Manager",
     appstore: "App Store",
+    forum: "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/",
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
     "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +

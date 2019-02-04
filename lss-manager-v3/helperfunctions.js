@@ -13,7 +13,7 @@ if(I18n.locale == "en")
         "2": ["Platform truck", 0],
         "3": ["Battalion Chief Unit", 0],
         "4": ["Heavy Rescue Vehicle", 0],
-        "5": ["Ambulance", 1],
+        "5": ["ALS Ambulance", 1],
         "6": ["Mobile air", 0],
         "7": ["Water Tanker", 0],
         "8": ["Utility unit", 0],
@@ -34,7 +34,8 @@ if(I18n.locale == "en")
         "23": ["Police Motorcycle", 2],
         "24": ["Large Fireboat", 0],
         "25": ["Large Rescue Boat", 1],
-        "26": ["SWAT SUV", 2]
+        "26": ["SWAT SUV", 2],
+        "27": ["BLS Ambulance", 1]
     }
 else if (I18n.locale == "nl")
     lssm.carsById = {
@@ -86,7 +87,10 @@ else if (I18n.locale == "nl")
         "45": ["DBH | Dompelpomphaakarmbak", 0],
         "46": ["DM Noddhulp | Dienstmotorfiets Noodhulp", 2],
         "47": ["DA Hondengeleider | Dienstauto Hondengeleider", 2],
-        "48": ["DB Hondengeleider | Dienstbus Hondengeleider", 2]
+        "48": ["DB Hondengeleider | Dienstbus Hondengeleider", 2],
+        "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
+        "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
+        "51": ["HVH | HulpverleningsHaakarmbak", 0]
     }
 else if (I18n.locale == "de")
     lssm.carsById = {

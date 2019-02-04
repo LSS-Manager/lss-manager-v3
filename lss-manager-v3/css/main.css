@@ -1,4 +1,5 @@
-nav, .navbar-default {
+nav, 
+.navbar-default {
   border: 0 !important;
   border-radius: 0 !important;
 }
@@ -20,21 +21,6 @@ li {
               GENERAL STYLES
 
 ################################################## */
-
-/*Dies verbugt den Color-Selector in den AAO-Einstellungen*/
-/* * {
-  background-image: none !important;
-}
-
-body {
-  background: #ddd !important;
-}
-
-*/
-
-.lssm_wp_fz_stati {
-
-}
 
 .lssm-wp-fz-panel-heading--red {
   background-color:
@@ -67,7 +53,6 @@ body {
   border: 1px solid #4a4a4a !important;
 }
 
-
 .lssm-wp-fz--fms-vehicle {
   color: #4a4a4a !important;
   border: 1px solid #4a4a4a;
@@ -86,7 +71,13 @@ body {
   flex-wrap: wrap;
 }
 
-#wp_fw, #wp_rd, #wp_pol, #wp_thw, #wp_wret, #wp_sch, #wp_son {
+#wp_fw, 
+#wp_rd, 
+#wp_pol, 
+#wp_thw, 
+#wp_wret, 
+#wp_sch, 
+#wp_son {
   display: flex;
   flex-wrap: wrap;
   width: calc(100vw - 60px)!important;
@@ -106,6 +97,7 @@ body {
   margin-bottom: 0px !important;
   background: #fafafa !important
 }
+
 .db_wachen_item .panel-default .panel-heading {
   background: #fafafa !important
 }
@@ -121,14 +113,11 @@ body {
 }
 
 .panel-heading {
- /* background-image: none !important; */
-	background-image: #258c25 !important;
-
+  background-image: #258c25 !important;
 }
 
 body.dark .panel-heading {
-/*  background: #212121 !important; */
-	background-color: #000;
+  background-color: #000;
 }
 
 div#preloader {
@@ -151,14 +140,6 @@ div#preloader {
   background-color: #eee !important;
 }
 
-#map_outer {
-  border:0px solid #bdbdbd;
-  border-radius:5px;
-  padding: 0;
-  margin-left: 0px;
-  width: calc(66.66666667% - 30px);
-}
-
 /* ##################################################
 
               APPSTORE/PLUGIN STYLES
@@ -176,7 +157,9 @@ div#preloader {
   ) !important;
 }*/
 
-#missions > div > div > strong{display:none !important}
+#missions > div > div > strong{
+	display:none !important
+}
 
 .lssm_module_develop > div {
   border: 1px red dashed !important;
@@ -195,22 +178,22 @@ div#preloader {
   background-color: white;
 }
 
-#lssm_appstore .panel-footer a, #lssm_appstore .panel-footer span {
+#lssm_appstore .panel-footer a, 
+#lssm_appstore .panel-footer span {
   background-color: #f3ebee;
   color: #4a4a4a !important;
   padding: 5px;
   border-radius: 2px;
-
 }
 
 #lssm_appstore h4 {
   text-transform: uppercase;
   font-weight: 900;
 }
+
 .lssm_module_develop label {
   display: none;
 }
-
 
 #lssm_appstore .panel{
   background-color: #fff;
@@ -230,10 +213,10 @@ div#preloader {
   padding: 15px
 }
 
-
 #lssm_appstore  small {
   font-size: 85%
 }
+
 #lssm_appstore  h4{
   font-size: 18px;
   margin-top: 10px;
@@ -243,7 +226,6 @@ div#preloader {
   line-height: 1.1;
   color: inherit
 }
-
 
 #lssm_appstore_row {
   margin-top: 15px;
@@ -298,6 +280,7 @@ div#preloader {
   margin: 10px;
   font-weight: 900;
 }
+
 #lss_clock + span:after {
   content: ':'
 }
@@ -319,7 +302,6 @@ div#preloader {
   border-radius: 0px 10px 10px 0px;
 }
 
-
 #lssm_radius_slider {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -335,8 +317,8 @@ div#preloader {
 }
 
 #scriptMissionMenu ul{
-    border:none !important;
-    margin-bottom: 2px;
+  border:none !important;
+  margin-bottom: 2px;
 }
 
 .lssm_wachen_selector {
@@ -362,7 +344,6 @@ right: 14.5px;
 .label-fw {
   background-color: #ff4b38 !important;
 }
-
 
 .label-rw {
   background-color: #f9ffb7 !important;
@@ -405,8 +386,6 @@ right: 14.5px;
 }
 
 
-
-
 /* ##################################################
 
               SWITCH STYLES
@@ -421,9 +400,11 @@ right: 14.5px;
   -moz-user-select:none;
   -ms-user-select:none
 }
+
 .onoffswitch-checkbox{
   display:none
 }
+
 .onoffswitch-label{
   display:block;
   overflow:hidden;
@@ -436,6 +417,7 @@ right: 14.5px;
   background-color:#FFF;
   transition:background-color .3s ease-in
 }
+
 .onoffswitch-label:before{
   content:"";
   display:block !important;
@@ -450,12 +432,15 @@ right: 14.5px;
   border-radius:15px;
   transition:all .3s ease-in 0
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label{
   background-color:#49E845
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label,.onoffswitch-checkbox:checked + .onoffswitch-label:before{
   border-color:#49E845
 }
+
 .onoffswitch-checkbox:checked + .onoffswitch-label:before{
   right:0
 }
@@ -490,9 +475,11 @@ colorful
 
 
 */
+
 .menu-center {
   text-align: center;
 }
+
 .lss_label {
   padding: .2em .6em .3em;
   font-size: 75%;
@@ -513,11 +500,11 @@ colorful
   margin-bottom: 0px !important;
 }
 
-
 .ui-slider {
   position: relative;
   text-align: left;
 }
+
 .ui-slider .ui-slider-handle {
   position: absolute;
   z-index: 2;
@@ -556,9 +543,6 @@ colorful
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default,
 .ui-button,
-
-  /* We use html here because we need a greater specificity to make sure disabled
-  works properly when clicked or hovered */
 html .ui-button.ui-state-disabled:hover,
 html .ui-button.ui-state-disabled:active {
   border: 1px solid #c5c5c5;
@@ -574,18 +558,21 @@ html .ui-button.ui-state-disabled:active {
 .ui-corner-tl {
   border-top-left-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-top,
 .ui-corner-right,
 .ui-corner-tr {
   border-top-right-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-left,
 .ui-corner-bl {
   border-bottom-left-radius: 3px;
 }
+
 .ui-corner-all,
 .ui-corner-bottom,
 .ui-corner-right,
