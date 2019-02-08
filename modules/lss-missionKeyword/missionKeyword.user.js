@@ -453,7 +453,8 @@
         428: 'Schneelast auf Dach',
         429: 'Staubexplosion',
         430: 'Ammoniakaustritt in Eishalle',
-        431: 'Kreislaufkollaps'
+        431: 'Kreislaufkollaps',
+        432: 'Fassadenbrand'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -707,7 +708,8 @@
         232: 'Full Building Collapse',
         233: 'Person Hit by Train',
         234: 'Person Hit by Train',
-        235: 'Person Hit by Train'
+        235: 'Person Hit by Train',
+        236: 'Electrical fire on subway tracks'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1119,7 +1121,9 @@
         390: 'Brand bij afvalverwerker',
         391: 'Brand bij afvalverwerker',
         392: 'Brand bij afvalverwerker',
-        393: 'Brand bij afvalverwerker'
+        393: 'Brand bij afvalverwerker',
+        394: 'Brand bij afvalverwerker',
+        395: 'Brand bij afvalverwerker'
       }
     };
 
@@ -1574,7 +1578,8 @@
       428: 'THL 2',
       429: 'B 4',
       430: 'ABC 3',
-      431: 'RD 1'
+      431: 'RD 1',
+      432: 'B 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1812,7 +1817,8 @@
       232: 'TECH 3',
       233: 'TECH 2',
       234: 'TECH 2',
-      235: 'TECH 2'
+      235: 'TECH 2',
+      236: 'FIRE 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2208,7 +2214,9 @@
       390: 'ZEER KLEINE BRAND',
       391: 'KLEINE BRAND',
       392: 'MIDDEL BRAND',
-      393: 'GROTE BRAND'
+      393: 'GROTE BRAND',
+      394: 'ZEER GROTE BRAND',
+      395: 'ZEER ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
