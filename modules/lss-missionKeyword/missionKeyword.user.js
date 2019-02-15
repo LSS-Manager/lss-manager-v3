@@ -454,7 +454,8 @@
         429: 'Staubexplosion',
         430: 'Ammoniakaustritt in Eishalle',
         431: 'Kreislaufkollaps',
-        432: 'Fassadenbrand'
+        432: 'Fassadenbrand',
+        433: 'Großfeuer in Bank'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -709,7 +710,8 @@
         233: 'Person Hit by Train',
         234: 'Person Hit by Train',
         235: 'Person Hit by Train',
-        236: 'Electrical fire on subway tracks'
+        236: 'Electrical fire on subway tracks',
+        237: 'ALPR Checkpoint'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1123,7 +1125,10 @@
         392: 'Brand bij afvalverwerker',
         393: 'Brand bij afvalverwerker',
         394: 'Brand bij afvalverwerker',
-        395: 'Brand bij afvalverwerker'
+        395: 'Brand bij afvalverwerker',
+        396: 'Lekkende LPG installatie',
+        397: 'Gaslekkage',
+        398: 'Vreemde lucht in kantoorgebouw'
       }
     };
 
@@ -1579,7 +1584,8 @@
       429: 'B 4',
       430: 'ABC 3',
       431: 'RD 1',
-      432: 'B 1'
+      432: 'B 1',
+      433: 'B 5'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1818,7 +1824,8 @@
       233: 'TECH 2',
       234: 'TECH 2',
       235: 'TECH 2',
-      236: 'FIRE 2'
+      236: 'FIRE 2',
+      237: 'POL 2'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2216,7 +2223,10 @@
       392: 'MIDDEL BRAND',
       393: 'GROTE BRAND',
       394: 'ZEER GROTE BRAND',
-      395: 'ZEER ZEER GROTE BRAND'
+      395: 'ZEER ZEER GROTE BRAND',
+      396: 'GROTE HV',
+      397: 'GROTE HV',
+      398: 'OGS 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
