@@ -159,9 +159,9 @@ div#preloader {
 .custom_mission_not_shown {
   display: none;
 }
-#missions > div > div > strong{
+/*#missions > div > div > strong{
 	display:none !important
-}
+}*/
 
 .lssm_module_develop > div {
   border: 1px red dashed !important;
