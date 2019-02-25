@@ -1,4 +1,4 @@
-nav, 
+nav,
 .navbar-default {
   border: 0 !important;
   border-radius: 0 !important;
@@ -71,12 +71,12 @@ li {
   flex-wrap: wrap;
 }
 
-#wp_fw, 
-#wp_rd, 
-#wp_pol, 
-#wp_thw, 
-#wp_wret, 
-#wp_sch, 
+#wp_fw,
+#wp_rd,
+#wp_pol,
+#wp_thw,
+#wp_wret,
+#wp_sch,
 #wp_son {
   display: flex;
   flex-wrap: wrap;
@@ -156,7 +156,9 @@ div#preloader {
           rgba(74, 74, 74, 1) 25px
   ) !important;
 }*/
-
+.custom_mission_not_shown {
+  display: none;
+}
 #missions > div > div > strong{
 	display:none !important
 }
@@ -178,7 +180,7 @@ div#preloader {
   background-color: white;
 }
 
-#lssm_appstore .panel-footer a, 
+#lssm_appstore .panel-footer a,
 #lssm_appstore .panel-footer span {
   background-color: #f3ebee;
   color: #4a4a4a !important;
