@@ -11,7 +11,7 @@
         };
     })();
 
-    $('#map_adress_search').on('keyup', function () {
+    $('#search_input_field_missions').on('keyup', function () {
         function escapeHtml(text) {
             let map = {
                 '&': '&amp;',
@@ -44,7 +44,7 @@
                     $(this).parent().parent().hide();
                 }
 
-                if ($('#map_adress_search').val() === '') {
+                if ($('#search_input_field_missions').val() === '') {
                     $('#lssm_searchMissionsWrapper').remove();
                 }
             });
