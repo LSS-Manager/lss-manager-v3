@@ -178,6 +178,12 @@
       '.custom_mission_not_shown {' +
         'display: none;' +
       '}' +
+      '.search_input_field, #search_input_field_missions {' +
+          'background - image: url(/images/search_5a5753.svg);' +
+          'background - repeat: no - repeat;' +
+          'background - size: auto 100 % ;' +
+          'padding - left: 25 px' +
+      '}' +
       '.searchHelperInvisble, .mission_alliance_distance_hide, .mission_deleted {' +
           'display: none' +
       '}' +
