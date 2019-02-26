@@ -175,6 +175,24 @@
         'width:22px;'+
         'display:inline-block !important;'+
       '}'+
+      '.custom_mission_not_shown {' +
+        'display: none;' +
+      '}' +
+      '.search_input_field, #search_input_field_missions {' +
+          'background - image: url(/images/search_5a5753.svg);' +
+          'background - repeat: no - repeat;' +
+          'background - size: auto 100 % ;' +
+          'padding - left: 25 px' +
+      '}' +
+      '.searchHelperInvisble, .mission_alliance_distance_hide, .mission_deleted {' +
+          'display: none' +
+      '}' +
+      '#search_input_field_missions {' +
+          'width: 100 % ;font - size: 12 px' +
+      '}' +
+      'body.bigMap# search_input_field_missions {' +
+          'color: #333' +
+      '}' +
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
         'padding-top:0px;'+
