@@ -656,7 +656,8 @@
 				'<br><br><span class="badge">Credits: ~ 5800 </span>',
 				435: '12x Löschfahrzeuge<br>1x GW-Werkfeuerwehr<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>2x GW-Atemschutz<br>' +
 				'1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P<br>1x ULF mit Löscharm<br>1x Teleskopmast<br>1x Feuerwehrkran (10%)<br>3x Funkstreifenwagen<br>' +
-				'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6000 </span>'
+				'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6000 </span>',
+				436: '1x Löschfahrzeug<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 
@@ -949,10 +950,14 @@
 				235: '4x Firetrucks<br>2x Battalion Chiefs<br>1x Heavy Rescue<br>2x Police Cars<br>1x Ambulance<br><br><span class="badge">Credits: ~ 3000 </span>',
 				236: '3x Firetrucks<br>1x Battalion Chief<br><br><span class="badge">Credits: ~ 1200 </span>',
 				237: '<h4>Safeguarding</h4><br>4x Police Cars',
-				238: '2x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x Hazmat<br>1x Police Car<br>Ambulances<br><br>' +
+				238: '2x Firetrucks<br>1x Battalion Chief<br>1x Heavy Rescue<br>1x HazMat<br>1x Police Car<br>Ambulances<br><br>' +
 				'<span class="badge">Credits: ~ 4000 </span>',
 				239: '4x Firetrucks<br>2x Battalion Chief<br>1x Heavy Rescue<br>1x Mobile Air<br>1x Hazmat<br>2x Police Car<br>max. 10x Ambulances<br><br>' +
-				'<span class="badge">Credits: ~ 6000 </span>'
+				'<span class="badge">Credits: ~ 6000 </span>',
+				240: '4x Firetrucks<br>2x Battalion Chief<br>1x Heavy Rescue<br>1x Mobile Air (10%)<br>1x Water Tanker (10%)<br>2x Police Cars<br>max. 4x Ambulances' +
+				'<br><br><span class="badge">Credits: ~ 3000 </span>',
+				241: '8x Firetrucks<br>2x Battalion Chief<br>2x Heavy Rescue<br>2x Mobile Air<br>1x Water Tanker<br>1x HazMat<br>1x Mobile Command<br>4x Police Cars' +
+				'<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 7000 </span>'
 			}
 		}
 
@@ -1532,7 +1537,12 @@
 				'1x Noodhulpeenheid<br>min. 3x Ambulances, max. 6x Ambulances<br><br><span class="badge">Credits: ~ 1750 </span>',
 				399: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1850 </span>',
 				400: '2x Noodhulpeenheden<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 1850 </span>',
-				401: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2250 </span>'
+				401: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2250 </span>',
+				402: '1x Ambulance',
+				403: '1x Ambulance',
+				404: '1x Ambulance',
+				405: '1x Ambulance<br>1x Noodhulpeenheid<br><br><span class="badge">Credits ~ 150 </span>',
+				406: '1x Ambulance<br>1x MMT-Arts'
 			}
 		}
 	}
