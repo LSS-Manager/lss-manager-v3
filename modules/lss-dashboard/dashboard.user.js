@@ -51,7 +51,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     levwp: 'LEVEL',
     categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
-    categories_data_school: ['fw_school', 'rd_school', 'kh_clinic', 'pol_school'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
 I18n.translations.nl['lssm']['dashboard'] = {
@@ -113,12 +113,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_RETTUNGSSCHULE:
                     building_amount.rd_school += 1;
                     break;
-                case BUILDING_TYPE_HOSPITAL:
-                    building_amount.kh += 1;
-                    break;
-                case BUILDING_TYPE_CLINIC:
-                    building_amount.kh_clinic += 1;
-                    break;
                     //Pol
                 case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
                 case BUILDING_TYPE_POLIZEIWACHE:
@@ -134,7 +128,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_THW_BUNDESSCHULE:
                     building_amount.thw_school += 1;
                     break;
-                    //Wasserrettung
+                case BUILDING_TYPE_HOSPITAL:
+                    building_amount.kh += 1;
+                    break;
+                case BUILDING_TYPE_CLINIC:
+                    building_amount.kh_clinic += 1;
+                    break;
+                //Wasserrettung
                 case BUILDING_TYPE_WASSERRETTUNG:
                     building_amount.wret += 1;
                     break;
