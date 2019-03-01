@@ -51,7 +51,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     levwp: 'LEVEL',
     categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
-    categories_data_school: ['fw_school', 'rd_school', 'pol_school'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
 I18n.translations.nl['lssm']['dashboard'] = {
@@ -94,7 +94,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 (function ($, I18n) {
     function loadGraphs() {
         // Building Bar Chart
-        var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'wret': 0, 'seg': 0, 'bepo':0};
+        var building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'kh_clinic': 0, 'wret': 0, 'seg': 0, 'bepo':0};
         $.each(lssm.get_buildings(), function (key, build) {
             switch (build.stationType) {
                 //Feuerwehr
@@ -113,9 +113,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_RETTUNGSSCHULE:
                     building_amount.rd_school += 1;
                     break;
-                case BUILDING_TYPE_HOSPITAL:
-                    building_amount.kh += 1;
-                    break;
                     //Pol
                 case BUILDING_TYPE_POLIZEIHUBSCHRAUBERLANDEPLATZ:
                 case BUILDING_TYPE_POLIZEIWACHE:
@@ -131,7 +128,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_THW_BUNDESSCHULE:
                     building_amount.thw_school += 1;
                     break;
-                    //Wasserrettung
+                case BUILDING_TYPE_HOSPITAL:
+                    building_amount.kh += 1;
+                    break;
+                case BUILDING_TYPE_CLINIC:
+                    building_amount.kh_clinic += 1;
+                    break;
+                //Wasserrettung
                 case BUILDING_TYPE_WASSERRETTUNG:
                     building_amount.wret += 1;
                     break;
@@ -258,6 +261,11 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon3 = "fa-bed";
                     icon = "fa-hospital-o";
                     maxcars = building.level + 10;
+                    break;
+                case BUILDING_TYPE_CLINIC:
+                    icon3 = "fa-bed";
+                    icon = "fa-hospital-o";
+                    maxcars = building.level + 5;
                     break;
                 case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
                     icon = "fa-h-square";

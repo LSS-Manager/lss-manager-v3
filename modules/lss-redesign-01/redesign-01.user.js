@@ -188,7 +188,7 @@
           'display: none' +
       '}' +
       '#search_input_field_missions {' +
-          'width: 100 % ;font - size: 12 px' +
+          'margin: 5 px 0;width: 100 % ;font - size: 12 px' +
       '}' +
       'body.bigMap# search_input_field_missions {' +
           'color: #333' +
