@@ -195,7 +195,7 @@
       '}' +
       '.mobile-navbar-selector {' +
         'margin:4px 0;padding:10px 0;width:58px' +
-      '}'
+      '}' +
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
         'padding-top:0px;'+
