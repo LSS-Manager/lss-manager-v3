@@ -657,7 +657,8 @@
 				435: '12x Löschfahrzeuge<br>1x GW-Werkfeuerwehr<br>4x Rüstwagen<br>3x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>2x GW-Atemschutz<br>' +
 				'1x GW-Messtechnik<br>1x GW-Gefahrgut<br>1x Dekon-P<br>1x ULF mit Löscharm<br>1x Teleskopmast<br>1x Feuerwehrkran (10%)<br>3x Funkstreifenwagen<br>' +
 				'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 6000 </span>',
-				436: '1x Löschfahrzeug<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>'
+				436: '1x Löschfahrzeug<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>',
+				437: '2x Funkstreifenwagen<br>evtl. 1x Rettungswagen<br>Notarzteinsatzfahrzeug (20%)<br><br><span class="badge">Credits: ~ 400 </span>'
 			}
 		}
 
@@ -957,7 +958,8 @@
 				240: '4x Firetrucks<br>2x Battalion Chief<br>1x Heavy Rescue<br>1x Mobile Air (10%)<br>1x Water Tanker (10%)<br>2x Police Cars<br>max. 4x Ambulances' +
 				'<br><br><span class="badge">Credits: ~ 3000 </span>',
 				241: '8x Firetrucks<br>2x Battalion Chief<br>2x Heavy Rescue<br>2x Mobile Air<br>1x Water Tanker<br>1x HazMat<br>1x Mobile Command<br>4x Police Cars' +
-				'<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 7000 </span>'
+				'<br>max. 10x Ambulances<br><br><span class="badge">Credits: ~ 7000 </span>',
+				242: '3x Firetrucks<br>1x Heavy Rescue<br>1x Police Car<br>max. 2x Ambulances<br><br><span class="badge">Credits: ~ 1250 </span>'
 			}
 		}
 
@@ -1542,7 +1544,12 @@
 				403: '1x Ambulance',
 				404: '1x Ambulance',
 				405: '1x Ambulance<br>1x Noodhulpeenheid<br><br><span class="badge">Credits ~ 150 </span>',
-				406: '1x Ambulance<br>1x MMT-Arts'
+				406: '1x Ambulance<br>1x MMT-Arts',
+				407: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 500 </span>',
+				408: '1x Tankautospuit<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 800 </span>',
+				409: '2x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1500 </span>',
+				410: '3x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (40%)<br>1x Slangenwagen (40%)<br>1x HOvD (50%)<br>' +
+				'1x Noodhulpeenheid<br>1x Ambulance<br><br><span class="badge">Credits: ~ 2500 </span>'
 			}
 		}
 	}

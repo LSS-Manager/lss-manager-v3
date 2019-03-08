@@ -458,7 +458,8 @@
         433: 'Großfeuer in Bank',
         434: 'Brand in Eloxalanlage',
         435: 'Brand in Eloxalanlage',
-        436: 'Verschmutze Fahrbahn'
+        436: 'Verschmutzte Fahrbahn',
+        437: 'Taxi - Stiller Alarm'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -718,7 +719,8 @@
         238: 'Bulk hazardous storage tank leak (Small)',
         239: 'Bulk hazardous storage tank leak (Large)',
         240: 'Fire in Subway station',
-        241: 'Fire in Subway station (Large)'
+        241: 'Fire in Subway station (Large)',
+        242: 'Truck Rear-Ended with Entrapment'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1143,7 +1145,11 @@
         403: 'Persoon van laadklep gevallen',
         404: 'Persoon van laadklep gevallen',
         405: 'Motorrijder gevallen',
-        406: 'Persoon van dak gevallen'
+        406: 'Persoon van dak gevallen',
+        407: 'Nacontrole brand',
+        408: 'Brand in kerkgebouw',
+        409: 'Brand in kerkgebouw',
+        410: 'Brand in kerkgebouw'
       }
     };
 
@@ -1603,7 +1609,8 @@
       433: 'B 5',
       434: 'ABC 2',
       435: 'ABC 2',
-      436: 'THL 1'
+      436: 'THL 1',
+      437: 'POL 1'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1847,7 +1854,8 @@
       238: 'CBRN 1',
       239: 'CBRN 2',
       240: 'FIRE 3',
-      241: 'FIRE 5'
+      241: 'FIRE 5',
+      242: 'TECH 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2256,7 +2264,11 @@
       403: 'A 1',
       404: 'A 1',
       405: 'A 1',
-      406: 'A 2'
+      406: 'A 2',
+      407: 'ZEER KLEINE BRAND',
+      408: 'KLEINE BRAND',
+      409: 'MIDDEL BRAND',
+      410: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
