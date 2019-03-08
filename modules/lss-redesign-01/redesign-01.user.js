@@ -188,10 +188,13 @@
           'display: none' +
       '}' +
       '#search_input_field_missions {' +
-          'margin: 5 px 0;width: 100 % ;font - size: 12 px' +
+          'margin: 5 px 0;width: 100 % ;font - size: 12 px;border: 1 px solid# ccc;border - radius: 4 px' +
       '}' +
       'body.bigMap# search_input_field_missions {' +
           'color: #333' +
+      '}' +
+      '.mobile-navbar-selector {' +
+        'margin:4px 0;padding:10px 0;width:58px' +
       '}' +
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
@@ -204,7 +207,7 @@
         'height: 550px;'+
       '}'+
       '#missions-panel-body {'+
-        'height: 528px;'+
+        'height: 497px;'+
         'overflow-x: hidden;'+
         'overflow-y: scroll;'+
         'margin-bottom: 10px;'+
