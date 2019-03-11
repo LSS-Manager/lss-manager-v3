@@ -126,14 +126,14 @@
     const getAaoVehicles = (aaoObject) => {
         let vehicles = {};
         $.each(aaoObject.attributes, function (index, attribute) {
-            if (!isNaN(attribute.value) && attribute.value > 0 && attribute.name !== 'building_ids') {
+            if (typeof(attribute) != "undefined" && typeof(attrbiute.value) != "undefined") {
                 vehicles[attribute.name] = parseInt(attribute.value);
             }
         });
 
         return vehicles;
     };
-
+//(!isNaN(attribute.value) && attribute.value > 0 && attribute.name !== 'building_ids')
     const handleMouseOver = (aaoObject) => {
         if ($(aaoObject).find('span').hasClass('label-danger')) {
             return false;
