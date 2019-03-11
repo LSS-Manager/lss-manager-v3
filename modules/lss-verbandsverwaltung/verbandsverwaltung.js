@@ -2,7 +2,8 @@
     if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
         return;
     }
-
+    alert("Achtung: Die Verbandsverwaltung ist aufgrund einer Fehlfunktion derzeit deaktiviert!\nAttention: The Alliance-extension is currently deactivated due to a malfunction!\nLet op: Het Team-uitbreiding is momenteel gedeactiveerd vanwege een storing!");
+    /*
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
         allianceFunds: 'Verbandskasse',
@@ -324,4 +325,5 @@
     setInterval(function () {
         updateValues();
     }, 300000);
+    */
 })($, window, I18n);
