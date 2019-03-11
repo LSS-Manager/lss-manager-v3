@@ -126,7 +126,7 @@
     const getAaoVehicles = (aaoObject) => {
         let vehicles = {};
         $.each(aaoObject.attributes, function (index, attribute) {
-            if (typeof(attribute) != "undefined" && typeof(attribute.value) != "undefined") {
+            if (typeof(attribute) != "undefined" && typeof(attribute.value) != "undefined" && typeof(attribute.name) != "undefined") {
                 vehicles[attribute.name] = parseInt(attribute.value);
             }
         });
