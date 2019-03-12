@@ -180,7 +180,8 @@ else if (I18n.locale == "de")
         "83": ["GW-Werkfeuerwehr", 0],
         "84": ["ULF mit Löscharm", 0],
         "85": ["TM 50", 0],
-        "86": ["Turbolöscher", 0]
+        "86": ["Turbolöscher", 0],
+        "87": ["TLF 4000", 0]
     };
 
 lssm.getVehicleNameById = function(vehicleId) {

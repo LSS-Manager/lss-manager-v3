@@ -97,7 +97,8 @@
               83: 'GW-Werkfeuerwehr',
               84: 'ULF mit Löscharm',
               85: 'TM 50',
-              86: 'Turbolöscher'
+              86: 'Turbolöscher',
+              87: 'TLF 4000'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -305,7 +306,8 @@
           83: 'GW-Werkfeuerwehr',
           84: 'ULF mit Löscharm',
           85: 'TM 50',
-          86: 'Turbolöscher'
+          86: 'Turbolöscher',
+          87: 'TLF 4000'
         }
         var DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
