@@ -16,6 +16,7 @@
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
         maxBuildins: 'Baugrenze',
+        wtank: 'Wassertank',
         mapkit: "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview"
     };
 
@@ -301,6 +302,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 2000,
                 coins: 25
             },
             lf10: {
@@ -308,6 +310,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 1200,
                 coins: 25
             },
             dlk23: {
@@ -347,6 +350,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 600,
                 coins: 25
             },
             lf2016: {
@@ -354,21 +358,24 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1600
             },
             lf106: {
                 name: 'LF 106',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 600
             },
             lf16ts: {
                 name: 'LF 16-TS',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 0
             },
             gwoel: {
                 name: 'GW-Öl',
@@ -432,70 +439,88 @@
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2000
             },
             tlf3000: {
                 name: 'TLF 3000',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 3000
+            },
+            tlf4000: {
+                name: 'TLF 4000',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 25,
+                wtank: 4000
             },
             tlf88: {
                 name: 'TLF 8/8',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 800
             },
             tlf818: {
                 name: 'TLF 8/18',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             tlf1624tr: {
                 name: 'TLF 16/24-Tr',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2400
             },
             tlf1625: {
                 name: 'TLF 16/25',
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2500
             },
             tlf1645: {
                 name: 'TLF 16/45',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4500
             },
             tlf2040: {
                 name: 'TLF 20/40',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf2040sl: {
                 name: 'TLF 20/40-SL',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf16: {
                 name: 'TLF 16',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             gwgefahr: {
                 name: 'GW-Gefahrgut',
@@ -512,7 +537,8 @@
                 max: 9,
                 credits: 20000,
                 coins: 25,
-                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.'
+                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
+                wtank: 1600
             },
             gwhoehen: {
                 name: 'GW-Höhenrettung',
@@ -545,7 +571,8 @@
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 500
             },
             wlf: {
                 name: 'WLF',
@@ -639,6 +666,7 @@
                 credits: 80000,
                 coins: 25,
                 schooling: 'Flugfeldlöschfahrzeug',
+                wtank: 12000,
                 special: 'Kann nur an Feuerwachen mit der Ausbaute "Flughafenfeuerwehr" stationiert werden'
             },
             rtf: {
@@ -675,7 +703,8 @@
                 credits: 20000,
                 coins: 25,
                 schooling: 'Werkfeuerwehr',
-                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden'
+                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden',
+                wtank: 5000
             },
             gwwerk: {
                 name: 'GW-Werkfeuerwehr',
@@ -1952,10 +1981,20 @@
 
         $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
 
+        if(I18n.locale == "de")
+        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
+        else if (I18n.locale == "en")
+        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
+        else if (I18n.locale == "nl")
         $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
 
         for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
             vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
+            if(I18n.locale == "de")
+            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>')
+            else if (I18n.locale == "en")
+            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>')
+            else if (I18n.locale == "nl")
             $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
         }
     }
