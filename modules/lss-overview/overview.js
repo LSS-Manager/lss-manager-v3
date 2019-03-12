@@ -310,7 +310,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
-                wtank: 1200 Liter
+                wtank: 1200 Liter,
                 coins: 25
             },
             dlk23: {
