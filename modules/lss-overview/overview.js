@@ -16,6 +16,7 @@
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
         maxBuildins: 'Baugrenze',
+        wtank: 'Wassertank',
         mapkit: "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview"
     };
 
@@ -639,6 +640,7 @@
                 credits: 80000,
                 coins: 25,
                 schooling: 'Flugfeldlöschfahrzeug',
+                wtank: '12000 Liter',
                 special: 'Kann nur an Feuerwachen mit der Ausbaute "Flughafenfeuerwehr" stationiert werden'
             },
             rtf: {
@@ -1952,6 +1954,9 @@
 
         $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
 
+        if(I18n.locale == "de")
+        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
+        else if
         $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
 
         for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
