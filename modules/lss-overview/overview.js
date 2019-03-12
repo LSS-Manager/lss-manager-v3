@@ -302,6 +302,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: '2000 Liter',
                 coins: 25
             },
             lf10: {
