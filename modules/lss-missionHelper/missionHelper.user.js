@@ -1552,7 +1552,13 @@
 				408: '1x Tankautospuit<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 800 </span>',
 				409: '2x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1500 </span>',
 				410: '3x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (40%)<br>1x Slangenwagen (40%)<br>1x HOvD (50%)<br>' +
-				'1x Noodhulpeenheid<br>1x Ambulance<br><br><span class="badge">Credits: ~ 2500 </span>'
+				'1x Noodhulpeenheid<br>1x Ambulance<br><br><span class="badge">Credits: ~ 2500 </span>',
+				411: '3x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x Hulpverleningsvoertuig (10%)<br>1x Adembeschermingsvoertuig (40%)<br>1x Slangenwagen (40%)' +
+				'<br>1x HOvD<br>1x Commandowagen<br>2x Noodhulpeenheden<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 2650 </span>',
+				412: '4x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x Hulpverleningsvoertuig (20%)<br>1x Adembeschermingsvoertuig<br>2x Slangenwagen<br>' +
+				'1x HOvD<br>1x Commandowagen<br>2x Noodhulpeenheden<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 4850 </span>',
+				413: '8x Tankautospuiten<br>3x Redvoertuig<br>2x OvD-B<br>1x Hulpverleningsvoertuig (40%)<br>1x Adembeschermingsvoertuig<br>2x Slangenwagen' +
+				'<br>1x HOvD<br>1x Commandowagen<br>2x Noodhulpeenheden<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 6700 </span>'
 			}
 		}
 	}

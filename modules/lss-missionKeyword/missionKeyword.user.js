@@ -1151,7 +1151,10 @@
         407: 'Nacontrole brand',
         408: 'Brand in kerkgebouw',
         409: 'Brand in kerkgebouw',
-        410: 'Brand in kerkgebouw'
+        410: 'Brand in kerkgebouw',
+        411: 'Brand in kerkgebouw',
+        412: 'Brand in kerkgebouw',
+        413: 'Brand in kerkgebouw'
       }
     };
 
@@ -2272,7 +2275,10 @@
       407: 'ZEER KLEINE BRAND',
       408: 'KLEINE BRAND',
       409: 'MIDDEL BRAND',
-      410: 'GROTE BRAND'
+      410: 'GROTE BRAND',
+      411: 'ZEER GROTE BRAND',
+      412: 'ZEER GROTE BRAND',
+      413: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
