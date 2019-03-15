@@ -744,7 +744,7 @@
         $('#' + prefix + '_saveAll').click(function () {
             alert(I18n.t('lssm.renameFZ.saveAllWarning'));
             for(i=1;i<$("input.btn.btn-success").length;i++){
-                $("input.btn.btn-success")[i].click();
+                setTimeout($("input.btn.btn-success")[i].click, 100);
             }
         });
     };
