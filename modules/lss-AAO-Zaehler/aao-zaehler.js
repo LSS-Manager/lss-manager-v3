@@ -15,7 +15,7 @@
      */
     function erstelleZaehler() {
         $('.aao').each(function () {
-            $(this).find('span:not(.glyphicon)').after(' <span class="aaoZaehler">0</span>x');
+            $(this).find('span:not(.glyphicon):first').after(' <span class="aaoZaehler">0</span>x');
         });
 
         $('[vehicle_group_id]').each(function () {
