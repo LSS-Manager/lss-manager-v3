@@ -741,11 +741,6 @@
         }
         $('#' + prefix + '_string').change(changeInput);
         $('#' + prefix + '_rename').click(rename);
-        $('#' + prefix + '_saveAll').click(function () {
-            alert(I18n.t('lssm.renameFZ.saveAllWarning'));
-            for(i=1;i<$("input.btn.btn-success").length;i++){
-                setTimeout($("input.btn.btn-success")[i].click, 100);
-            }
-        });
+        $("#" + prefix + "_saveAll").click(function(){alert(I18n.t("lssm.renameFZ.saveAllWarning")),$(".vehicle_form input.btn.btn-success").each(function(){let n=$(this);window.setTimeout(function(){n.click()},100)})});
     };
 })(I18n, jQuery);
