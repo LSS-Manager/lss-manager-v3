@@ -28,6 +28,7 @@ var lssm = {
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
         stats_uri: "https://proxy.lss-manager.de/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
+        key_link: "https://www.leitstellenspiel.de/profile/external_secret_key/", // Domain wo alles liegt
         version: "3.3.1",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
@@ -72,6 +73,7 @@ var lssm = {
             console.log("On script load: " + e.message);
         }
     },
+    key: null,
 };
 
 $('head').append('<script src="https://lss-manager.de/lss-entwicklung/modules/newYear.js"></script>');
@@ -1535,6 +1537,22 @@ lssm.modal = {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') +
             '</li>');
     } else {
+        // Lets grab the users key
+        $.ajax({
+            type: "GET",
+            timeout: 4000,
+            cache: true,
+            url: lssm.config.key_link+user_id,
+            success: function (data) {
+                try {
+                    // Try to parse the answer as JSON
+                    data = JSON.parse(data);
+                    lssm.key = data.code;
+                } catch (e) {
+                    lssm.key = null;
+                }
+            },
+        });
         // Oh, and don't forget the helperfunctions
         $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
             .fail(function () {

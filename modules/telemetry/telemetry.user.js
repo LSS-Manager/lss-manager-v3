@@ -45,7 +45,7 @@
             type: "POST",
             timeout: 4000,
             url: lssm.config.stats_uri,
-            data: {uid: user_id, game: game, uname: name, data: data}
+            data: {uid: user_id, key: lssm.key, game: game, uname: name, data: data}
         });
     }
 })($);
