@@ -875,7 +875,7 @@ lssm.Module = {
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
         noapp: false,
-        inframe: true,
+        inframe: false,
         develop: false
     },
     displayUserId: {
@@ -892,7 +892,7 @@ lssm.Module = {
         },
         source: '/modules/lss-userid/lss-userId.user.js',
         noapp: false,
-        inframe: true,
+        inframe: false,
         develop: false
     },
     showChatButtonAbove: {
@@ -909,7 +909,7 @@ lssm.Module = {
         },
         source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
         noapp: false,
-        inframe: true,
+        inframe: false,
         develop: false
     },
     showNotTransportButtonAbove: {
@@ -940,7 +940,7 @@ lssm.Module = {
         },
         source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
         noapp: false,
-        inframe: true,
+        inframe: false,
         develop: false
     },
     overview: {
