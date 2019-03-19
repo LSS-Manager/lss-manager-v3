@@ -85,7 +85,7 @@ I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
-    version: "Beta",
+    version: "Stable",
     appstore: "APPSTORE",
     forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
@@ -109,7 +109,7 @@ I18n.translations.de.lssm = {
 };
 I18n.translations.en.lssm = {
     lssm: "LSS-Manager",
-    version: "Beta",
+    version: "Stable",
     appstore: "APPSTORE",
     forum: "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/",
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
