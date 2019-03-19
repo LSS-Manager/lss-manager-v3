@@ -13,6 +13,7 @@ $.ajaxPrefilter(function (options, originalOptions) {
         options.cache = true;
     }
 });
+$.ajaxSetup({ cache: true });
 
 /**
  * Make case insensetive :contains() possible
