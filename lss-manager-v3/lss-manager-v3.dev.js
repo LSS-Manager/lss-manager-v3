@@ -1538,22 +1538,6 @@ lssm.modal = {
         $('#' + lssm.config.prefix + '_menu').append('<li class="menu-center">' + I18n.t('lssm.login') +
             '</li>');
     } else {
-        // Lets grab the users key
-        $.ajax({
-            type: "GET",
-            timeout: 4000,
-            cache: true,
-            url: lssm.config.key_link+user_id,
-            success: function (data) {
-                try {
-                    // Try to parse the answer as JSON
-                    data = JSON.parse(data);
-                    lssm.key = data.code;
-                } catch (e) {
-                    lssm.key = null;
-                }
-            },
-        });
         // Oh, and don't forget the helperfunctions
         $.getScript(lssm.getlink('/lss-manager-v3/helperfunctions.js'))
             .fail(function () {

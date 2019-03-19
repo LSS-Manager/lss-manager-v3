@@ -28,24 +28,38 @@
             M.splice(1, 1, tem[1]);
         return M.join(' ');
     }
-
     if (typeof user_id !== "undefined" && typeof user_premium !== "undefined")
     {
         var data = {};
-
-        var name = $.trim($("#navbar_profile_link").text());
-        data.bro = getUserAgent();
-        data.pro = user_premium;
-        data.bui = lssm.get_buildings().length;
-        data.version = lssm.config.version;
-        data.mods = getModules();
-        var game = window.location.hostname;
-        data = JSON.stringify(data);
+        // Lets grab the users key
         $.ajax({
-            type: "POST",
+            type: "GET",
             timeout: 4000,
-            url: lssm.config.stats_uri,
-            data: {uid: user_id, key: lssm.key, game: game, uname: name, data: data}
+            cache: true,
+            url: lssm.config.key_link+user_id,
+            success: function (data) {
+                try {
+                    // Try to parse the answer as JSON
+                    data = JSON.parse(data);
+                    lssm.key = data.code;
+                    var name = $.trim($("#navbar_profile_link").text());
+                    data.bro = getUserAgent();
+                    data.pro = user_premium;
+                    data.bui = lssm.get_buildings().length;
+                    data.version = lssm.config.version;
+                    data.mods = getModules();
+                    var game = window.location.hostname;
+                    data = JSON.stringify(data);
+                    $.ajax({
+                        type: "POST",
+                        timeout: 4000,
+                        url: lssm.config.stats_uri,
+                        data: {uid: user_id, key: lssm.key, game: game, uname: name, data: data}
+                    });
+                } catch (e) {
+                    lssm.key = null;
+                }
+            },
         });
     }
 })($);
