@@ -32,12 +32,12 @@
     {
         let data = {};
         // Lets grab the users key
-        $.get(lssm.config.key_link+user_id, {
+        $.ajax({
             type: "GET",
             timeout: 4000,
-            cache: true
-        })
-            .then(data => {
+            cache: true,
+            url: lssm.config.key_link + user_id,
+            success: function (data) {
                 try {
                     // Try to parse the answer as JSON
                     data = JSON.parse(data);
@@ -59,6 +59,7 @@
                 } catch (e) {
                     lssm.key = null;
                 }
-            });
+            }
+        });
     }
 })($);
