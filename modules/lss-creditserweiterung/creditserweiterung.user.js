@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
+    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?/)) {
         return;
     }
     I18n.translations.de.lssm.creditserweiterung = {
@@ -85,91 +85,85 @@
         }
     };
 
+    let updateable = false;
+
     function getCreditsOfNextRank(earnedCredits){
         let ranks = I18n.t('lssm.creditserweiterung.ranks');
         for (let key in ranks) { if(earnedCredits <= key){ return key; } }
         return null;
     }
 
-    function getEarnedCredits() {
-        let response = $.ajax({
-            type: "GET",
-            url: $('#navbar_profile_link').attr('href'),
-            async: false
-        }).responseText;
-        let results = $(response).find('.page-header').text().trim().match(I18n.t('lssm.creditserweiterung.earnedCreditsRegEx'));
-        return parseInt(results[1].replace(/\./g,'').replace(/,/g, '')); // Delete all "." and "," as these are kilo-splitting-chars of DE, NL and EN
-    }
-
-    function getAllianceFundsCredits() {
-        let response = $.ajax({
-            type: "GET",
-            url: "./verband/kasse",
-            async: false
-        }).responseText;
-        if ($(response).find('h1')[0]) {
-            return parseInt($(response).find('h1')[0].innerText.replace(/\./g, "").replace(/,/g, ""));
-        } else {
-            return;
-        }
-    }
-
     function createExtension() {
-        let earnedCredits = getEarnedCredits();
-        let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
-        if (creditsOfNextRank === null){
-            nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
-            creditsToNextRank = "&infin;";
-        } else {
-            nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
-            creditsToNextRank = creditsOfNextRank - earnedCredits;
-        }
-        let allianceFundsCredits = getAllianceFundsCredits();
+        $.get("/api/credits")
+            .then(response => {
+                response = JSON.parse(response);
+                let earnedCredits = response.credits_user_total;
+                let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
+                if (creditsOfNextRank === null) {
+                    nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
+                    creditsToNextRank = "&infin;";
+                } else {
+                    nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+                    creditsToNextRank = creditsOfNextRank - earnedCredits;
+                }
+                let allianceFundsCredits = response.credits_alliance_current;
 
-        let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
-        markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
-        markup += lssm.getlink("/modules/lss-creditserweiterung/img/icons8-money-box-150.png") + '">';
-        markup += '<span class="visible-xs">' + I18n.t('lssm.creditserweiterung.texts.dropdownName') + '</span>';
-        markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="menu_Creditsverwaltung">';
-        markup += '<li role="presentation" id="creditserweiterungCredits"></li>';
-        markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
-        markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
-        markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a id="creditsextensionEarnedCredits">' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
-        markup += '<a id="creditsextensionNextRank">' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString() + '</a></li>';
-        if (allianceFundsCredits){
-            markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open" id="creditsextensionAllianceFunds">';
-            markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
-        }
-        markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
+                let markup = '<li><a id="menu_creditsverwaltung" class="dropdown_toggle href="#" role="button" data-toggle="dropdown" aria-expanded="false">';
+                markup += '<img id="ls-credits-money-img" style="height: 19px; width: 19px; cursor: pointer;" src="';
+                markup += lssm.getlink("/modules/lss-creditserweiterung/img/icons8-money-box-150.png") + '">';
+                markup += '<span class="visible-xs">' + I18n.t('lssm.creditserweiterung.texts.dropdownName') + '</span>';
+                markup += '<b class="caret"></b></a><ul class="dropdown-menu" role="menu" aria-labelledby="menu_Creditsverwaltung">';
+                markup += '<li role="presentation" id="creditserweiterungCredits"></li>';
+                markup += '<li id="creditsOverview" role="presentation"><a href="/credits/overview" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.creditsOverview') + '</a></li>';
+                markup += '<li role="presentation" id="creditserweiterungCoins"></li>';
+                markup += '<li role="presentation"><a href="/coins/list" class="lightbox-open" target="blank">' + I18n.t('lssm.creditserweiterung.texts.coinsProtokoll') + '</a></li>';
+                markup += '<li class="divider" role="presentation"></li><li role="presentation"><a id="creditsextensionEarnedCredits">' + I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString() + '</a>';
+                markup += '<a id="creditsextensionNextRank">' + I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>' + creditsToNextRank.toLocaleString() + '</a></li>';
+                if (response.credits_alliance_active) {
+                    markup += '<li class="divider" role="presentation"></li><li><a href="./verband/kasse" class="lightbox-open" id="creditsextensionAllianceFunds">';
+                    markup += I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits' + '</a></li>';
+                }
+                markup += '<li class="divider" role="presentation"></li><li role="presentation"><a>' + I18n.t('lssm.creditserweiterung.texts.updateMessage') + '</a></li></ul></li>';
 
-        $('#menu_creditsverwaltung').remove();
-        $('#lssm_dropdown').before(markup);
+                $('#menu_creditsverwaltung').remove();
+                $('#lssm_dropdown').before(markup);
 
-        $('#creditserweiterungCredits').append($('#navigation_top'));
-        $('#creditserweiterungCoins').append($('#coins_top'));
+                $('#creditserweiterungCredits').append($('#navigation_top'));
+                $('#creditserweiterungCoins').append($('#coins_top'));
 
-        $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+                $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
+
+                $('#menu_creditsverwaltung').click(function() {
+                    updateValues();
+                });
+            });
     }
 
     function updateValues() {
-        let earnedCredits = getEarnedCredits();
-        let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
-        if (creditsOfNextRank === null){
-            nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
-            creditsToNextRank = "&infin;";
-        } else {
-            nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
-            creditsToNextRank = creditsOfNextRank - earnedCredits;
-        }
-        let allianceFundsCredits = getAllianceFundsCredits();
+        if (updateable) {
+            $.get("/api/credits")
+                .then(response => {
+                    response = JSON.parse(response);
+                    let earnedCredits = response.credits_user_total;
+                    let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
+                    if (creditsOfNextRank === null) {
+                        nextRank = I18n.t('lssm.creditserweiterung.texts.noFurtherRank');
+                        creditsToNextRank = "&infin;";
+                    } else {
+                        nextRank = I18n.t('lssm.creditserweiterung.ranks')[creditsOfNextRank];
+                        creditsToNextRank = creditsOfNextRank - earnedCredits;
+                    }
+                    let allianceFundsCredits = response.credits_alliance_current;
 
-        $("#creditsextensionEarnedCredits").html(I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString());
+                    $("#creditsextensionEarnedCredits").html(I18n.t('lssm.creditserweiterung.texts.earnedCredits') + ': ' + earnedCredits.toLocaleString());
 
-        $("#creditsextensionNextRank").html(I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>'+ creditsToNextRank.toLocaleString());
+                    $("#creditsextensionNextRank").html(I18n.t('lssm.creditserweiterung.texts.creditsToNextRank') + '<br>(' + nextRank + '):<br>' + creditsToNextRank.toLocaleString());
 
-        if (allianceFundsCredits) {
-            $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
+                    if (allianceFundsCredits) {
+                        $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
+                    }
+                    updateable = false;
+                });
         }
     }
 
@@ -196,6 +190,7 @@
 
     createExtension();
 
-    updateValues();
-    setInterval(updateValues, 300000);
+    setInterval(function() {
+        updateable = true;
+    }, 300000);
 })($, window, I18n);
