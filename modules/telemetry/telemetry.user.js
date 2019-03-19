@@ -32,33 +32,25 @@
     {
         let data = {};
         // Lets grab the users key
-        $.ajax({
-            type: "GET",
-            timeout: 4000,
-            cache: true,
-            url: lssm.config.key_link + user_id,
-            success: function (data) {
-                try {
-                    // Try to parse the answer as JSON
-                    data = JSON.parse(data);
-                    lssm.key = data.code;
-                    let name = $.trim($("#navbar_profile_link").text());
-                    data.bro = getUserAgent();
-                    data.pro = user_premium;
-                    data.bui = lssm.get_buildings().length;
-                    data.version = lssm.config.version;
-                    data.mods = getModules();
-                    let game = window.location.hostname;
-                    data = JSON.stringify(data);
-                    $.ajax({
-                        type: "POST",
-                        timeout: 4000,
-                        url: lssm.config.stats_uri,
-                        data: {uid: user_id, key: lssm.key, game: game, uname: name, data: data}
-                    });
-                } catch (e) {
-                    lssm.key = null;
-                }
+        $.get(lssm.config.key_link + user_id, function (data) {
+            try 
+            {
+                // Try to parse the answer as JSON
+                data = JSON.parse(data);
+                lssm.key = data.code;
+                let name = $.trim($("#navbar_profile_link").text());
+                data.bro = getUserAgent();
+                data.pro = user_premium;
+                data.bui = lssm.get_buildings().length;
+                data.version = lssm.config.version;
+                data.mods = getModules();
+                let game = window.location.hostname;
+                data = JSON.stringify(data);
+                $.post(lssm.config.stats_uri, {
+                    uid: user_id, key: lssm.key, game: game, uname: name, data: data
+                });
+            } catch (e) {
+                lssm.key = null;
             }
         });
     }
