@@ -94,9 +94,7 @@
     }
 
     function createExtension() {
-        $.get("/api/credits", {
-            cache: true
-        })
+        $.get("/api/credits")
             .then(response => {
                 response = JSON.parse(response);
                 let earnedCredits = response.credits_user_total;
@@ -143,9 +141,7 @@
 
     function updateValues() {
         if (updateable) {
-            $.get("/api/credits", {
-                cache: true
-            })
+            $.get("/api/credits")
                 .then(response => {
                     response = JSON.parse(response);
                     let earnedCredits = response.credits_user_total;
