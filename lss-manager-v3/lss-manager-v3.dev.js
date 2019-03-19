@@ -215,7 +215,7 @@ lssm.Module = {
             nl: 'Toont de berekende totale tijd voor alle voertuigen die aankomen bij het zweven van een AUR-link.'
         },
         source: '/modules/lss-aao-time/lss-aao-time.user.js',
-        develop: true,
+        develop: false,
         inframe: true
     },
     tailoredTabs: {
