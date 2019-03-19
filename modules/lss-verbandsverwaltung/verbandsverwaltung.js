@@ -82,9 +82,7 @@
 
     function updateValues() {
         if (updateable) {
-            $.get("/api/allianceinfo", {
-                cache: true
-            })
+            $.get("/api/allianceinfo")
                 .then(response => {
                     response = JSON.parse(response);
                     let date = new Date();
