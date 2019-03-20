@@ -242,7 +242,7 @@
     $('#verbandsverwaltungCharts').css('border', '1px solid black');
 
     updateValues();
-    $('#verbandsverwaltung a').click(function() {
+    $('#menu_alliance').click(function() {
         updateValues();
     });
 })($, window, I18n);
