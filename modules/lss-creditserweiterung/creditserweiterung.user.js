@@ -96,7 +96,6 @@
     function createExtension() {
         $.get("/api/credits")
             .then(response => {
-                response = JSON.parse(response);
                 let earnedCredits = response.credits_user_total;
                 let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                 if (creditsOfNextRank === null) {
@@ -143,7 +142,6 @@
         if (updateable) {
             $.get("/api/credits")
                 .then(response => {
-                    response = JSON.parse(response);
                     let earnedCredits = response.credits_user_total;
                     let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                     if (creditsOfNextRank === null) {
@@ -163,6 +161,9 @@
                         $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
                     }
                     updateable = false;
+                    setTimeout(function() {
+                        updateable = true;
+                    }, 300000);
                 });
         }
     }
@@ -189,8 +190,7 @@
     if (location.pathname.match(/\/verband\/\d+/)) return;
 
     createExtension();
-
-    setInterval(function() {
+    setTimeout(function() {
         updateable = true;
     }, 300000);
 })($, window, I18n);
