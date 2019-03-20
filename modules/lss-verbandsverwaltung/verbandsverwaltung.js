@@ -88,7 +88,7 @@
                     date.setMilliseconds(0);
                     date.setSeconds(0);
 
-                    let time = date.getTime();
+                    let time = date.getTime() - (date.getTimezoneOffset()*60*1000);
 
                     if (!localStorage["lssmVerbandsverwaltung_" + alliance_id]) {
                         localStorage["lssmVerbandsverwaltung_" + alliance_id] = "{}";
