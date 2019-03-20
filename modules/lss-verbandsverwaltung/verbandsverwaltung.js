@@ -60,7 +60,7 @@
                 xAxis: {
                     type: 'datetime',
                     dateTimeLabelFormats: {
-                        hour: '%I %p',
+                        hour: '%H:%M',
                         minute: '%H:%M'
                     }
                 },
