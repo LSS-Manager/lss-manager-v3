@@ -84,7 +84,6 @@
         if (updateable) {
             $.get("/api/allianceinfo")
                 .then(response => {
-                    response = JSON.parse(response);
                     let date = new Date();
                     date.setMilliseconds(0);
                     date.setSeconds(0);
@@ -200,6 +199,9 @@
                     localStorage["lssmVerbandsverwaltung_" + alliance_id] = JSON.stringify(storage);
 
                     updateable = false;
+                    setTimeout(function() {
+                        updateable = true;
+                    }, 300000);
                 });
         }
     }
@@ -243,7 +245,4 @@
     $('#verbandsverwaltung a').click(function() {
         updateValues();
     });
-    setInterval(function () {
-        updateable = true;
-    }, 300000);
 })($, window, I18n);
