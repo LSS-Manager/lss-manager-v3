@@ -1,4 +1,6 @@
 (($, win, I18n) => {
+    let lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
+
     if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
         return;
     }
@@ -11,7 +13,7 @@
         onlineUsers: 'Mitglieder online',
         allianceRank: 'Platz in der Verbandsliste',
         page: 'Seite',
-        updateMessage: 'Werte aktualisieren sich<br>automatisch alle 5 Minuten.',
+        updateMessage: 'Werte aktualisieren sich<br>automatisch alle 10 Minuten.',
         chartErr: 'Konnte Grafik "{{chart}}" nicht laden!',
         hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
@@ -23,7 +25,7 @@
         onlineUsers: 'Members online',
         allianceRank: 'Rank in Alliancelist',
         page: 'Page',
-        updateMessage: 'Values update automatically<br>every 5 minutes.',
+        updateMessage: 'Values update automatically<br>every 10 minutes.',
         chartErr: 'Could not load chart "{{chart}}"!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
     };
@@ -35,13 +37,10 @@
         onlineUsers: 'Leden online',
         allianceRank: 'Rangschikking in Alliancelist',
         page: 'Pagina',
-        updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.',
+        updateMessage: 'Waarden worden elke<br>10 minuten automatisch bijgewerkt.',
         chartErr: 'Kon de grafiek "{{chart}" niet laden!',
         hoverTip: 'Tip: Beweeg de muis over een element om een waardegeschiedenis weer te geven.'
     };
-
-    let updateable = true;
-
     async function loadChart(element, name, data) {
         try {
             element.highcharts({
@@ -80,130 +79,144 @@
         }
     }
 
-    function updateValues() {
-        if (updateable) {
-            $.get("/api/allianceinfo")
-                .then(response => {
-                    let date = new Date();
-                    date.setMilliseconds(0);
-                    date.setSeconds(0);
+    function updateValues()
+    {
+        // Only update if we're in a alliance
+        if (!alliance_id)
+            return;
+        let date = new Date();
 
-                    let time = date.getTime() - (date.getTimezoneOffset()*60*1000);
+        let time = Math.floor(date.getTime()/1000) - (date.getTimezoneOffset()*60);
 
-                    if (!localStorage["lssmVerbandsverwaltung_" + alliance_id]) {
-                        localStorage["lssmVerbandsverwaltung_" + alliance_id] = "{}";
-                    }
+        if (!localStorage[lsName])
+            localStorage[lsName] = "{}";
 
-                    let storage = JSON.parse(localStorage["lssmVerbandsverwaltung_" + alliance_id]);
+        let storage = JSON.parse(localStorage[lsName]);
+        let lastEntry;
+        let remove = [];
 
-                    let allianceFundsCredits = response.credits_current;
-
-                    if (response.finance_active) {
-                        if (!storage.allianceFunds) {
-                            storage.allianceFunds = {};
-                        }
-                        $("#verbandsverwaltungAllianceFunds").html('<a href="/verband/kasse" class="lightbox-open">' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits</a>');
-                        storage.allianceFunds[time] = allianceFundsCredits;
-
-                        let allianceFundsData = [];
-
-                        for (let key in storage.allianceFunds) {
-                            allianceFundsData.push([parseInt(key), storage.allianceFunds[key]]);
-                        }
-
-                        loadChart($('#allianceFundsChart'), I18n.t('lssm.verbandsverwaltung.allianceFunds'), allianceFundsData);
-
-                    } else {
-                        if ($("#verbandsverwaltungAllianceFunds")) {
-                            $("#verbandsverwaltungAllianceFunds").remove();
-                        }
-                        if ($("#allianceFundsChart")) {
-                            $("#allianceFundsChart").remove();
-                        }
-                    }
-
-                    if (!storage.allianceCredits) {
-                        storage.allianceCredits = {};
-                    }
-
-                    let allianceCredits = parseInt(response.credits_total);
-                    $('#verbandsverwaltungAllianceCredits').html(I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + allianceCredits.toLocaleString() + ' Credits');
-
-                    storage.allianceCredits[time] = allianceCredits;
-
-                    let allianceCreditsData = [];
-
-                    for (let key in storage.allianceCredits) {
-                        allianceCreditsData.push([parseInt(key), storage.allianceCredits[key]]);
-                    }
-
-                    loadChart($('#allianceCreditsChart'), I18n.t('lssm.verbandsverwaltung.allianceCredits'), allianceCreditsData);
-
-                    let allianceRank = response.rank;
-                    let allianceRankPage = parseInt(allianceRank / 20) + 1;
-
-                    if (!storage.allianceRank) {
-                        storage.allianceRank = {};
-                    }
-
-                    if (!storage.allianceRankPage) {
-                        storage.allianceRankPage = {};
-                    }
-
-                    storage.allianceRank[time] = allianceRank;
-                    storage.allianceRankPage[time] = allianceRankPage;
-                    storage.lastPage = allianceRankPage;
-
-                    let allianceRankData = [];
-                    let allianceRankPageData = [];
-
-                    for (let key in storage.allianceRank) {
-                        allianceRankData.push([parseInt(key), storage.allianceRank[key]]);
-                    }
-                    for (let key in storage.allianceRankPage) {
-                        allianceRankPageData.push([parseInt(key), storage.allianceRankPage[key]]);
-                    }
-
-                    loadChart($('#allianceRankChart'), I18n.t('lssm.verbandsverwaltung.allianceRank'), allianceRankData);
-                    loadChart($('#allianceRankPageChart'), I18n.t('lssm.verbandsverwaltung.page'), allianceRankPageData);
-
-                    $('#verbandsverwaltungAllianceRank').html('<a href="/alliances?page=' + allianceRankPage + '" class="lightbox-open">' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' + allianceRank.toLocaleString() + ' (' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + allianceRankPage + ')</a>');
-
-                    let users = response.user_count;
-                    let onlineUsers = response.user_online_count;
-                    $('#verbandsverwaltungUsers').html('<a href="/verband/mitglieder" class="lightbox-open">' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' + onlineUsers.toLocaleString() + '/' + users + ' (' + Math.round((100 / users) * onlineUsers) + '%)</a>');
-
-                    if (!storage.users) {
-                        storage.users = {};
-                    }
-                    if (!storage.usersOnline) {
-                        storage.usersOnline = {};
-                    }
-
-                    storage.users[time] = users;
-                    storage.usersOnline[time] = onlineUsers;
-
-                    let userData = [];
-                    let userOnlineData = [];
-
-                    for (let key in storage.users) {
-                        userData.push([parseInt(key), storage.users[key]]);
-                    }
-                    for (let key in storage.usersOnline) {
-                        userOnlineData.push([parseInt(key), storage.usersOnline[key]]);
-                    }
-
-                    loadChart($('#allianceUserChart'), I18n.t('lssm.verbandsverwaltung.users'), userData);
-                    loadChart($('#allianceUserOnlineChart'), I18n.t('lssm.verbandsverwaltung.onlineUsers'), userOnlineData);
-
-                    localStorage["lssmVerbandsverwaltung_" + alliance_id] = JSON.stringify(storage);
-
-                    updateable = false;
-                    setTimeout(function() {
-                        updateable = true;
-                    }, 300000);
-                });
+        // Remove entries that are older than 24 hours
+        // While we are there, let's check when the last update has been made
+        for (let key in storage)
+        {
+            if (storage.hasOwnProperty(key)) {
+                let karr = key.split("_");
+                if (parseInt(karr[karr.length - 1]) < (time - 86400))
+                    remove.push(key)
+                else
+                    lastEntry = (typeof lastEntry == 'undefined' || key > lastEntry) ? key : lastEntry;
+            }
         }
+        remove.forEach(function (key) {
+            localStorage.removeItem(key);
+        });
+        // Only update if last update has been 10 minutes ago
+        if(lastEntry > time-600)
+            return;
+
+        $.get("/api/allianceinfo")
+            .then(response => {
+
+                // Write up-to-date values into localstorage
+                storage[time] = {
+                    "credits": response.credits_current,
+                    "total": parseInt(response.credits_total),
+                    "rank": response.rank,
+                    "page": parseInt(response.rank / 20) + 1,
+                    "users": response.user_count,
+                    "online": response.user_online_count
+                };
+
+                if (response.finance_active) {
+                    // Write kurrent alliance funds into DOM
+                    $("#verbandsverwaltungAllianceFunds").html(
+                        '<a href="/verband/kasse" class="lightbox-open">' +
+                        '' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' +
+                        '' + storage[time].credits + ' Credits' +
+                        '</a>'
+                    );
+
+                    // Write Credits History into array
+                    let allianceFundsData = [];
+
+                    for (let key in storage) {
+                        allianceFundsData.push([parseInt(key), storage[key].credits]);
+                    }
+                    // and generate chart
+                    loadChart($('#allianceFundsChart'), I18n.t('lssm.verbandsverwaltung.allianceFunds'), allianceFundsData);
+
+                } else {
+                    if ($("#verbandsverwaltungAllianceFunds")) {
+                        $("#verbandsverwaltungAllianceFunds").remove();
+                    }
+                    if ($("#allianceFundsChart")) {
+                        $("#allianceFundsChart").remove();
+                    }
+                }
+
+                // Write total earned credits
+                $('#verbandsverwaltungAllianceCredits').html(
+                    I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + storage[time].total + ' Credits'
+                );
+
+                let allianceCreditsData = [];
+
+                for (let key in storage) {
+                    allianceCreditsData.push([parseInt(key), storage[key].total]);
+                }
+
+                loadChart($('#allianceCreditsChart'), I18n.t('lssm.verbandsverwaltung.allianceCredits'), allianceCreditsData);
+
+                // Write rank and page history into array
+                let allianceRankData = [];
+                let allianceRankPageData = [];
+
+                for (let key in storage) {
+                    allianceRankData.push([parseInt(key), storage[key].rank]);
+                }
+                for (let key in storage) {
+                    allianceRankPageData.push([parseInt(key), storage[key].page]);
+                }
+                // Load the charts
+                loadChart($('#allianceRankChart'), I18n.t('lssm.verbandsverwaltung.allianceRank'), allianceRankData);
+                loadChart($('#allianceRankPageChart'), I18n.t('lssm.verbandsverwaltung.page'), allianceRankPageData);
+
+                // And display the latest values
+                $('#verbandsverwaltungAllianceRank').html(
+                    '<a href="/alliances?page=' + storage[time].rank + '" class="lightbox-open">' +
+                    '' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' +
+                    '' + storage[time].rank + ' (' +
+                    '' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + storage[time].page + ')' +
+                    '</a>'
+                );
+
+                // Display current member statistic
+                $('#verbandsverwaltungUsers').html(
+                    '<a href="/verband/mitglieder" class="lightbox-open">' +
+                    '' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' +
+                    '' + storage[time].online + '/' + storage[time].users + ' ' +
+                    '(' + Math.round((100 / storage[time].users) * storage[time].online) + '%)' +
+                    '</a>'
+                );
+
+                // Write history of users into array
+                let userData = [];
+                let userOnlineData = [];
+
+                for (let key in storage) {
+                    userData.push([parseInt(key), storage[key].users]);
+                }
+                for (let key in storage) {
+                    userOnlineData.push([parseInt(key), storage[key].online]);
+                }
+
+                // And load the charts
+                loadChart($('#allianceUserChart'), I18n.t('lssm.verbandsverwaltung.users'), userData);
+                loadChart($('#allianceUserOnlineChart'), I18n.t('lssm.verbandsverwaltung.onlineUsers'), userOnlineData);
+
+                // Write the new json into the localstorage
+                localStorage[lsName] = JSON.stringify(storage);
+            });
     }
 
     let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.hoverTip') + '</li></ul><ul id="verbandsverwaltungCharts"><li><span id="allianceCreditsChart" class="chart" chart="credits"></span></li><li><span id="allianceFundsChart" class="chart" chart="funds"></span></li><li><span id="allianceRankChart" class="chart" chart="rank"></span><span id="allianceRankPageChart" class="chart" chart="rank"></span></li><li><span id="allianceUserChart" class="chart" chart="user"></span><span id="allianceUserOnlineChart" class="chart" chart="user"></span></li></ul></li>';
@@ -241,8 +254,27 @@
     $('#verbandsverwaltungDropdown').css('border', '1px solid black');
     $('#verbandsverwaltungCharts').css('border', '1px solid black');
 
-    updateValues();
-    $('#menu_alliance').click(function() {
-        updateValues();
+    // Veraltete Einträge löschen
+    let remove = [];
+    for (let i = 0; i < localStorage.length; i++) {
+        let key = localStorage.key(i).toLowerCase();
+        if ((key.split("_").length - 1)<2)
+        {
+            remove.push((key))
+        }
+        else if(key.startsWith("lssmverbandsverwaltung_"+ user_id.toString()))
+        {
+            if (key != lsName.toLowerCase())
+                remove.push(key);
+        }
+    }
+    remove.forEach(function (key) {
+        localStorage.removeItem(key);
     });
+    // Wir versuchen erstmal zu updaten.
+    updateValues();
+    // Danach setzen wir einen 10-minuten-interval
+    setInterval(function() {
+        updateValues()
+    }, 600000);
 })($, window, I18n);
