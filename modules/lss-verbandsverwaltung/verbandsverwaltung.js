@@ -199,7 +199,6 @@
             userData.push([timestamp, storage[key].users]);
             userOnlineData.push([timestamp, storage[key].online]);
         }
-        console.log(userData);
         // Load the charts
         loadChart($('#allianceFundsChart'), I18n.t('lssm.verbandsverwaltung.allianceFunds'), allianceFundsData);
         loadChart($('#allianceCreditsChart'), I18n.t('lssm.verbandsverwaltung.allianceCredits'), allianceCreditsData);
