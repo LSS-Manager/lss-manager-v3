@@ -43,6 +43,9 @@
     };
     async function loadChart(element, name, data) {
         try {
+            if (void 0 === typeof Highcharts) {
+                $("head").append('<script src="https://code.highcharts.com/highcharts.js"></script>');
+            }
             element.highcharts({
                 chart: {
                     width: $('#alliance_li ul').width() - 10,
