@@ -74,8 +74,9 @@
                 ]
             });
         } catch (err) {
-            element.html(I18n.t('lssm.verbandsverwaltung.chartErr').replace(/{{chart}}/, name));
-            window.setTimeout(loadChart(element, name, data), 10000);
+            element.html(I18n.t('lssm.verbandsverwaltung.chartErr').replace(/{{chart}}/, name) + "<br><pre>" + err + "</pre>");
+            // Probieren, neu zu laden mal rausgenommen
+            // window.setTimeout(loadChart(element, name, data), 10000);
         }
     }
 
