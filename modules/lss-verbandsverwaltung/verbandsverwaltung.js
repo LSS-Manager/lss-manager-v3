@@ -79,8 +79,68 @@
         }
     }
 
-    function updateValues()
-    {
+    function drawGUI(storage, lastKey) {
+        let lastArr = storage[lastKey];
+        if (lastArr.finance_active) {
+            $("#verbandsverwaltungAllianceFunds").html(
+                '<a href="/verband/kasse" class="lightbox-open">' +
+                '' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' +
+                '' + lastArr.credits.toLocaleString() + ' Credits' +
+                '</a>'
+            );
+        }
+        // Write total earned credits
+        $('#verbandsverwaltungAllianceCredits').html(
+            I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + lastArr.total.toLocaleString() + ' Credits'
+        );
+
+        // And display the latest values
+        $('#verbandsverwaltungAllianceRank').html(
+            '<a href="/alliances?page=' + lastArr.page + '" class="lightbox-open">' +
+            '' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' +
+            '' + lastArr.rank.toLocaleString() + ' (' +
+            '' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + lastArr.page.toLocaleString() + ')' +
+            '</a>'
+        );
+
+        // Display current member statistic
+        $('#verbandsverwaltungUsers').html(
+            '<a href="/verband/mitglieder" class="lightbox-open">' +
+            '' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' +
+            '' + lastArr.online.toLocaleString() + '/' + lastArr.users.toLocaleString() + ' ' +
+            '(' + Math.round((100 / lastArr.users) * lastArr.online) + '%)' +
+            '</a>'
+        );
+        // Write History into Tables and output the stats
+        let userData = [];
+        let userOnlineData = [];
+        let allianceRankData = [];
+        let allianceRankPageData = [];
+        let allianceFundsData = [];
+        let allianceCreditsData = [];
+
+        // prepare data for charts
+        for (let key in storage) {
+            let timestamp = parseInt(key)*1000
+            allianceCreditsData.push([timestamp, storage[key].total]);
+            allianceFundsData.push([timestamp, storage[key].credits]);
+            allianceRankData.push([timestamp, storage[key].rank]);
+            allianceRankPageData.push([timestamp, storage[key].page]);
+            userData.push([timestamp, storage[key].users]);
+            userOnlineData.push([timestamp, storage[key].online]);
+        }
+        // Load the charts
+        if (lastArr.finance_active) {
+            loadChart($('#allianceFundsChart'), I18n.t('lssm.verbandsverwaltung.allianceFunds'), allianceFundsData);
+        }
+        loadChart($('#allianceCreditsChart'), I18n.t('lssm.verbandsverwaltung.allianceCredits'), allianceCreditsData);
+        loadChart($('#allianceRankChart'), I18n.t('lssm.verbandsverwaltung.allianceRank'), allianceRankData);
+        loadChart($('#allianceRankPageChart'), I18n.t('lssm.verbandsverwaltung.page'), allianceRankPageData);
+        loadChart($('#allianceUserChart'), I18n.t('lssm.verbandsverwaltung.users'), userData);
+        loadChart($('#allianceUserOnlineChart'), I18n.t('lssm.verbandsverwaltung.onlineUsers'), userOnlineData);
+    }
+
+    function updateValues() {
         // Only update if we're in a alliance
         if (!alliance_id)
             return;
@@ -93,28 +153,26 @@
             localStorage[lsName] = "{}";
 
         let storage = JSON.parse(localStorage[lsName]);
+
         // Only update if last update has been 10 minutes ago
         let lastEntry;
-        let lastSave;
-        let remove = [];
 
         // Remove entries that are older than 24 hours
         // While we are there, let's check when the last update has been made
-        for (let key in storage)
-        {
+        for (let key in storage) {
             if (storage.hasOwnProperty(key)) {
-                let karr = key.split("_");
-                if (parseInt(karr[karr.length - 1]) < (time - 86400))
-                    remove.push(key)
-                else
-                    lastEntry = (typeof lastEntry == 'undefined' || key > lastEntry) ? key : lastEntry;
+                let keyTime = parseInt(key);
+                if (keyTime <= time - 86400) {
+                    delete storage[key];
+                } else {
+                    lastEntry = keyTime > (lastEntry || 0) ? keyTime : lastEntry;
+                }
             }
         }
-        remove.forEach(function (key) {
-            localStorage.removeItem(key);
-        });
+        // localStorage updaten
+        localStorage[lsName] = JSON.stringify(storage);
 
-        if(lastEntry <= time-600) {
+        if (lastEntry <= time-600 || !lastEntry) {
             $.get("/api/allianceinfo")
                 .then(response => {
 
@@ -137,75 +195,18 @@
                         if ($("#allianceFundsChart")) {
                             $("#allianceFundsChart").remove();
                         }
+                    } else {
+                        storage[time].finance_active = true;
                     }
 
                     // Write the new json into the localstorage
                     localStorage[lsName] = JSON.stringify(storage);
-                    lastSave = time;
+                    drawGUI(storage, time);
                 });
 
+        } else {
+            drawGUI(storage, lastEntry);
         }
-        let lastArr;
-        if(lastSave)
-            lastArr = storage[lastSave];
-        else
-            lastArr = storage[lastEntry];
-
-        $("#verbandsverwaltungAllianceFunds").html(
-            '<a href="/verband/kasse" class="lightbox-open">' +
-            '' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' +
-            '' + lastArr.credits + ' Credits' +
-            '</a>'
-        );
-        // Write total earned credits
-        $('#verbandsverwaltungAllianceCredits').html(
-            I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + lastArr.total + ' Credits'
-        );
-
-        // And display the latest values
-        $('#verbandsverwaltungAllianceRank').html(
-            '<a href="/alliances?page=' + lastArr.rank + '" class="lightbox-open">' +
-            '' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' +
-            '' + lastArr.rank + ' (' +
-            '' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + lastArr.page + ')' +
-            '</a>'
-        );
-
-        // Display current member statistic
-        $('#verbandsverwaltungUsers').html(
-            '<a href="/verband/mitglieder" class="lightbox-open">' +
-            '' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' +
-            '' + lastArr.online + '/' + lastArr.users + ' ' +
-            '(' + Math.round((100 / lastArr.users) * lastArr.online) + '%)' +
-            '</a>'
-        );
-        // Write History into Tables and output the stats
-        let userData = [];
-        let userOnlineData = [];
-        let allianceRankData = [];
-        let allianceRankPageData = [];
-        let allianceFundsData = [];
-        let allianceCreditsData = [];
-
-        // Remove entries that are older than 24 hours
-        // While we are there, let's check when the last update has been made
-        for (let key in storage)
-        {
-            let timestamp = parseInt(key)*1000
-            allianceCreditsData.push([timestamp, storage[key].total]);
-            allianceFundsData.push([timestamp, storage[key].credits]);
-            allianceRankData.push([timestamp, storage[key].rank]);
-            allianceRankPageData.push([timestamp, storage[key].page]);
-            userData.push([timestamp, storage[key].users]);
-            userOnlineData.push([timestamp, storage[key].online]);
-        }
-        // Load the charts
-        loadChart($('#allianceFundsChart'), I18n.t('lssm.verbandsverwaltung.allianceFunds'), allianceFundsData);
-        loadChart($('#allianceCreditsChart'), I18n.t('lssm.verbandsverwaltung.allianceCredits'), allianceCreditsData);
-        loadChart($('#allianceRankChart'), I18n.t('lssm.verbandsverwaltung.allianceRank'), allianceRankData);
-        loadChart($('#allianceRankPageChart'), I18n.t('lssm.verbandsverwaltung.page'), allianceRankPageData);
-        loadChart($('#allianceUserChart'), I18n.t('lssm.verbandsverwaltung.users'), userData);
-        loadChart($('#allianceUserOnlineChart'), I18n.t('lssm.verbandsverwaltung.onlineUsers'), userOnlineData);
     }
 
     let markup = '<li role="presentation"  id="verbandsverwaltung" class="alliance_true"><a href="#" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><b class="caret" style="transform: rotate(90deg);"></b>&nbsp;' + I18n.t('lssm.verbandsverwaltung.name') + '</a><ul id="verbandsverwaltungDropdown"><li role="presentation" id="verbandsverwaltungUsers" chart="user"><a href="/verband/mitglieder" class="lightbox-open" chart="user">Mitglieder online: 0</a></li><li role="presentation" id="verbandsverwaltungAllianceFunds" chart="funds"><a href="/verband/kasse" class="lightbox-open">Verbandskasse: 0 Credits</a></li><li role="presentation" id="verbandsverwaltungAllianceCredits" chart="credits">Verdiente Credits: 0 Credits</li><li role="presentation" id="verbandsverwaltungAllianceRank" chart="rank">Platz in der Verbandsliste: 0</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.updateMessage') + '</li><li class="divider" role="presentation"></li><li role="presentation">' + I18n.t('lssm.verbandsverwaltung.hoverTip') + '</li></ul><ul id="verbandsverwaltungCharts"><li><span id="allianceCreditsChart" class="chart" chart="credits"></span></li><li><span id="allianceFundsChart" class="chart" chart="funds"></span></li><li><span id="allianceRankChart" class="chart" chart="rank"></span><span id="allianceRankPageChart" class="chart" chart="rank"></span></li><li><span id="allianceUserChart" class="chart" chart="user"></span><span id="allianceUserOnlineChart" class="chart" chart="user"></span></li></ul></li>';
@@ -243,23 +244,13 @@
     $('#verbandsverwaltungDropdown').css('border', '1px solid black');
     $('#verbandsverwaltungCharts').css('border', '1px solid black');
 
-    // Veraltete Einträge löschen
-    let remove = [];
-    for (let i = 0; i < localStorage.length; i++) {
-        let key = localStorage.key(i).toLowerCase();
-        if ((key.split("_").length - 1)<2)
-        {
-            remove.push((key))
-        }
-        else if(key.startsWith("lssmverbandsverwaltung_"+ user_id.toString()))
-        {
-            if (key != lsName.toLowerCase())
-                remove.push(key);
+    // Alte Verbandsverwaltungs-Einsträge löschen
+    for (let localStorageItem in localStorage) {
+        if (localStorageItem.match(/^lssmverbandsverwaltung_\d+$/g)) {
+            localStorage.removeItem(localStorageItem);
         }
     }
-    remove.forEach(function (key) {
-        localStorage.removeItem(key);
-    });
+
     // Wir versuchen erstmal zu updaten.
     updateValues();
     // Danach setzen wir einen 10-minuten-interval
