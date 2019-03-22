@@ -14,7 +14,7 @@
         allianceRank: 'Platz in der Verbandsliste',
         page: 'Seite',
         updateMessage: 'Werte aktualisieren sich<br>automatisch alle 10 Minuten.',
-        chartErr: 'Konnte Grafik "{{chart}}" nicht laden!',
+        chartErr: 'Konnte Grafik "{{chart}}" nicht laden!<br>Wir wissen bereits, dass dies bei manchen Browsern vorkommt, allerdings noch nicht warum. Bitte mache diesbezüglich <b>keine</b> Fehlermeldung, wir sind bereits an diesem Problem dran!',
         hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
     I18n.translations.en.lssm.verbandsverwaltung = {
@@ -26,7 +26,7 @@
         allianceRank: 'Rank in Alliancelist',
         page: 'Page',
         updateMessage: 'Values update automatically<br>every 10 minutes.',
-        chartErr: 'Could not load chart "{{chart}}"!',
+        chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
@@ -38,14 +38,11 @@
         allianceRank: 'Rangschikking in Alliancelist',
         page: 'Pagina',
         updateMessage: 'Waarden worden elke<br>10 minuten automatisch bijgewerkt.',
-        chartErr: 'Kon de grafiek "{{chart}" niet laden!',
+        chartErr: 'Kon de grafiek "{{chart}" niet laden!<br>We weten al dat dit bij sommige browsers gebeurt, maar nog niet waarom. Meld ons deze fout alstublieft <b>niet</b>, want we zijn al bezig met dit probleem!',
         hoverTip: 'Tip: Beweeg de muis over een element om een waardegeschiedenis weer te geven.'
     };
     async function loadChart(element, name, data) {
         try {
-            if (void 0 === typeof Highcharts) {
-                $("head").append('<script src="https://code.highcharts.com/highcharts.js"></script>');
-            }
             element.highcharts({
                 chart: {
                     width: $('#alliance_li ul').width() - 10,
@@ -77,9 +74,8 @@
                 ]
             });
         } catch (err) {
-            element.html(I18n.t('lssm.verbandsverwaltung.chartErr').replace(/{{chart}}/, name) + "<br><pre>" + err + "</pre>");
-            // Probieren, neu zu laden mal rausgenommen
-            // window.setTimeout(loadChart(element, name, data), 10000);
+            element.html(I18n.t('lssm.verbandsverwaltung.chartErr').replace(/{{chart}}/, name));
+            console.log("Verbandsverwaltung: Wir ham nen Error!", err);
         }
     }
 
