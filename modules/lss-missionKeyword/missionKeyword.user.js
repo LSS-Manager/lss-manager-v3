@@ -722,7 +722,9 @@
         240: 'Fire in Subway station',
         241: 'Fire in Subway station (Large)',
         242: 'Truck Rear-Ended with Entrapment',
-        243: 'Attempted Hommicide'
+        243: 'Attempted Hommicide',
+        244: 'Fare dodger',
+        245: 'Medical emergency on crane'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1154,7 +1156,10 @@
         410: 'Brand in kerkgebouw',
         411: 'Brand in kerkgebouw',
         412: 'Brand in kerkgebouw',
-        413: 'Brand in kerkgebouw'
+        413: 'Brand in kerkgebouw',
+        414: 'Brand in transformatorhuisje',
+        415: 'Brand in transformatorhuisje',
+        416: 'Brand in transformatorhuisje'
       }
     };
 
@@ -1862,7 +1867,9 @@
       240: 'FIRE 3',
       241: 'FIRE 5',
       242: 'TECH 1',
-      243: 'POL 3'
+      243: 'POL 3',
+      244: 'POL 1',
+      245: 'TECH 1'
     };
     var DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2278,7 +2285,10 @@
       410: 'GROTE BRAND',
       411: 'ZEER GROTE BRAND',
       412: 'ZEER GROTE BRAND',
-      413: 'ZEER GROTE BRAND'
+      413: 'ZEER GROTE BRAND',
+      414: 'KLEINE BRAND',
+      415: 'MIDDEL BRAND',
+      416: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
