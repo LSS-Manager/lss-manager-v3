@@ -460,7 +460,8 @@
         435: 'Brand in Eloxalanlage',
         436: 'Verschmutzte Fahrbahn',
         437: 'Taxi - Stiller Alarm',
-        438: 'PKW in Zapfsäule'
+        438: 'PKW in Zapfsäule',
+        439: 'Einsturz Parkhaus'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1621,7 +1622,8 @@
       435: 'ABC 2',
       436: 'THL 1',
       437: 'POL 1',
-      438: 'THL 1'
+      438: 'THL 1',
+      439: 'THL 4'
     };
     var DEFAULT_AAO_EN = {
       0: 'FIRE 1',
