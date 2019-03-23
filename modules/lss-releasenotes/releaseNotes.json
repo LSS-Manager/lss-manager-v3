@@ -1,6 +1,39 @@
 {
   "releases": [
     {
+      "version": "3.3.3",
+      "changes": [
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Verbandsverwaltung",
+          "en": "Allicance-Extension",
+          "nl": "Team-uitbreiding"
+        },
+		{
+          "id": "",
+          "type": "INFO",
+          "de": "MapKit wird nicht von uns supportet. Sry",
+          "en": "MapKit is non supported by us. Sry",
+          "nl": "MapKit wordt niet door ons ondersteund. Proberen"		
+		},
+		{
+          "id": "",
+          "type": "FIX",
+          "de": "Einige Fixxes von Sebastians Features",
+          "en": "Some fixxes from Sebastians Features",
+          "nl": "Enkele fixxes van Sebastians Kenmerken"		
+		},
+		{
+          "id": "",
+          "type": "REMOVE",
+          "de": "AAO Anrückzeit",
+          "en": "ARR duration",
+          "nl": "AUR duur"		
+		}
+      ]
+    },
+    {
       "version": "3.3.0",
       "changes": [
         {
