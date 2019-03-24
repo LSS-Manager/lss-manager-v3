@@ -271,6 +271,14 @@
                 '">';
             if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
             response += '</div>';
+        } else if (element.ui.type === "number") {
+            response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
+                '>';
+            response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
+            response += '<input type="number" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
+                '" ' + (element.ui.min ? ' min=' + element.ui.min : "") + (element.ui.max ? ' max=' + element.ui.max : "") + '>';
+            if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
+            response += '</div>';
         } else if (element.ui.type === "toggle") {
             response +=
                 '<div class="col-md-3"><div class="panel panel-default" style="display: inline-block;width:100%;" id="' +
