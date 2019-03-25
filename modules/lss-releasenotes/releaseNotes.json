@@ -10,27 +10,34 @@
           "en": "Allicance-Extension",
           "nl": "Team-uitbreiding"
         },
-		{
+        {
           "id": "",
           "type": "INFO",
           "de": "MapKit wird nicht von uns supportet. Sry",
           "en": "MapKit is non supported by us. Sry",
-          "nl": "MapKit wordt niet door ons ondersteund. Proberen"		
-		},
-		{
+          "nl": "MapKit wordt niet door ons ondersteund. Proberen"
+        },
+        {
           "id": "",
           "type": "FIX",
           "de": "Einige Fixxes von Sebastians Features",
           "en": "Some fixxes from Sebastians Features",
-          "nl": "Enkele fixxes van Sebastians Kenmerken"		
-		},
-		{
+          "nl": "Enkele fixxes van Sebastians Kenmerken"
+        },
+        {
           "id": "",
           "type": "REMOVE",
           "de": "AAO Anrückzeit",
           "en": "ARR duration",
-          "nl": "AUR duur"		
-		}
+          "nl": "AUR duur"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "ZielortFilter",
+          "en": "Destionation Filter",
+          "nl": "Bestimmningsfilter"
+        }
       ]
     },
     {
