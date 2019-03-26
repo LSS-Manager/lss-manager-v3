@@ -196,7 +196,7 @@ lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
     let data = [];
     $.each(lssm.vehicles, function (vid, car) {
-        if(car.building_id = building)
+        if(car.building = building)
             return true;
         data.push({
             "id": vid,
