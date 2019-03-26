@@ -22,7 +22,7 @@ jQuery.expr[':'].containsci = function (a, i, m) {
             .indexOf(m[3].toUpperCase()) >= 0;
 };
 
-var lssm = {
+let lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
@@ -35,8 +35,8 @@ var lssm = {
     },
     loadScript: function (link) {
         try {
-            var uid = "";
-            var game = "";
+            let uid = "";
+            let game = "";
             if (typeof user_id !== "undefined") {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
@@ -49,8 +49,8 @@ var lssm = {
     },
     loadStyle: function (link) {
         try {
-            var uid = "";
-            var game = "";
+            let uid = "";
+            let game = "";
             if (typeof user_id !== "undefined") {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
@@ -62,8 +62,8 @@ var lssm = {
     },
     getlink: function (file) {
         try {
-            var uid = "";
-            var game = "";
+            let uid = "";
+            let game = "";
             if (typeof user_id !== "undefined") {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
@@ -972,11 +972,11 @@ lssm.appstore = {
      * @returns {boolean}
      */
     canActivate: function (mod) {
-        var ca = true;
+        let ca = true;
         // TODO: Sprechendere Variablennamen
         if ('collisions' in mod) {
-            for (var c in mod.collisions) {
-                var d = mod.collisions[c];
+            for (let c in mod.collisions) {
+                let d = mod.collisions[c];
                 if (lssm.Module[d].active) {
                     ca = false;
                 }
@@ -990,36 +990,36 @@ lssm.appstore = {
     },
     // Erstellen der Pandels
     createModulePanels: function () {
-        var panels = $('<div class="row">' +
+        let panels = $('<div class="row">' +
             '<div class="col-sm-4" id="apps_col_0"></div>' +
             '<div class="col-sm-4" id="apps_col_1"></div>' +
             '<div class="col-sm-4" id="apps_col_2"></div>' +
             '</div>');
-        var col = 0;
+        let col = 0;
         // Get all the keys of the modules
-        var mods = $.map(lssm.Module, function (value, index) {
+        let mods = $.map(lssm.Module, function (value, index) {
             return [index];
         });
         // Sort the lssm_module keys
         mods.sort(function (a, b) {
             "use strict";
-            var aName = I18n.t("lssm.apps." + a + ".name").toLowerCase();
-            var bName = I18n.t("lssm.apps." + b + ".name").toLowerCase();
+            let aName = I18n.t("lssm.apps." + a + ".name").toLowerCase();
+            let bName = I18n.t("lssm.apps." + b + ".name").toLowerCase();
             if (aName < bName) {
                 return -1;
             } else {
                 return (aName > bName) ? 1 : 0;
             }
         });
-        for (var i in mods) {
-            var mod = lssm.Module[mods[i]];
-            var isSupportedLocale = !('supportedLocales' in mod) ||
+        for (let i in mods) {
+            let mod = lssm.Module[mods[i]];
+            let isSupportedLocale = !('supportedLocales' in mod) ||
                 mod.supportedLocales.indexOf(I18n.currentLocale()) >= 0;
             // Do not show certain modules in the lssm.appstore or is not supported with this locale
             if ('noapp' in mod && mod.noapp === true || !isSupportedLocale) {
                 continue;
             }
-            var panel = $('<div style="margin-top:10px;" class="lssm_module' +
+            let panel = $('<div style="margin-top:10px;" class="lssm_module' +
                 (mod.develop ? ' lssm_module_develop' : '') + '">' +
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
@@ -1039,7 +1039,7 @@ lssm.appstore = {
                 '</div>');
             panel.find("h4").on("click", function () {
                 "use strict";
-                var next = $(this).next();
+                let next = $(this).next();
                 if (next.is(":hidden")) {
                     next.slideDown("slow");
                 } else {
@@ -1058,8 +1058,8 @@ lssm.appstore = {
     // Packt alle ModulPanels in ein Div zudem werden beim an und ausschalten die Einstellungen ge?ndert  & gespeichert;
     // TODO: DIV mit ID so wie CSS ausstatten & festlegen wo es eingebettet werden soll
     createModuleMain: function () {
-        var prefix = lssm.config.prefix + '_appstore';
-        var div = $(
+        let prefix = lssm.config.prefix + '_appstore';
+        let div = $(
             '<div class="col-md-12 lssm.appstore" id="' + prefix + '">' +
             '<div class="jumbotron">' +
             '<h1>' + I18n.t('lssm.appstore') + '</h1>' +
@@ -1134,7 +1134,7 @@ lssm.appstore = {
         );
         div.on('keyup', '#' + prefix + '_search', function () {
             "use strict";
-            var ss = $(this).val();
+            let ss = $(this).val();
             if (ss.length > 0) {
                 div.find(".lssm_module:containsci(" + ss + ")").show();
                 div.find(".lssm_module:not(:containsci(" + ss + "))").hide();
@@ -1146,14 +1146,14 @@ lssm.appstore = {
             lssm.appstore.closeAppstore();
         });
         div.on('change', '.onoffswitch-checkbox', function (ev) {
-            var e = ev.target;
+            let e = ev.target;
             if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
                 $(e).prop('checked', false);
-                var warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
+                let warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
                     'lssm.cantactivate');
                 // TODO: Sprechendere Variablennamen
-                for (var c in lssm.Module[e.value].collisions) {
-                    var d = lssm.Module[e.value].collisions[c];
+                for (let c in lssm.Module[e.value].collisions) {
+                    let d = lssm.Module[e.value].collisions[c];
                     if (lssm.Module[d].active) {
                         warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
                     }
@@ -1170,12 +1170,12 @@ lssm.appstore = {
     // Menüpunkt zu den Modulen / Einstellungen / Dashboard
     appendAppstore: function () {
         // Variablen setzen für weitere Verwendung
-        var prefix = lssm.config.prefix + '_appstore';
-        var settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix +
+        let prefix = lssm.config.prefix + '_appstore';
+        let settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix +
             '_activate" href="#">' +
             I18n.t('lssm.appstore') + '</a></li>');
-        var div = $('<div class="row" id="' + prefix + '_row"></div>').append(this.createModuleMain());
-        var content = $('#navbar-mobile-footer').prev();
+        let div = $('<div class="row" id="' + prefix + '_row"></div>').append(this.createModuleMain());
+        let content = $('#navbar-mobile-footer').prev();
         // hier ist alles drin
         content.attr('id', 'content');
         //div.append(createModulePanels());
@@ -1192,7 +1192,7 @@ lssm.appstore = {
     closeAppstore: function () {
         "use strict";
         //var action = lssm.appstore.checkModChanges();
-        var action = this.checkModChanges();
+        let action = this.checkModChanges();
         lssm.modules.saveall();
         if (action === "Reload") {
             location.reload();
@@ -1203,14 +1203,14 @@ lssm.appstore = {
             $('footer').show();
             //$(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
             // Inform the user about activated modules.
-            var activated = "";
-            for (var m in action) {
+            let activated = "";
+            for (let m in action) {
                 lssm.modules.load(action[m]);
                 activated += I18n.t('lssm.apps.' + action[m] + '.name') + ', ';
             }
             activated = activated.substring(0, activated.length - 2);
             if (activated.length > 0) {
-                var msg = I18n.t('lssm.activated') + ' ' + activated;
+                let msg = I18n.t('lssm.activated') + ' ' + activated;
                 lssm.notification(msg);
             }
         }
@@ -1222,10 +1222,10 @@ lssm.appstore = {
      */
     checkModChanges: function () {
         "use strict";
-        var activated = [];
-        var deactivated = [];
-        var modules = lssm.settings.get("Modules", {});
-        for (var m in lssm.Module) {
+        let activated = [];
+        let deactivated = [];
+        let modules = lssm.settings.get("Modules", {});
+        for (let m in lssm.Module) {
             if (modules[m] && !lssm.Module[m].active) {
                 deactivated.push(m);
             } else if ((!modules[m]) && lssm.Module[m].active) {
@@ -1239,7 +1239,7 @@ lssm.appstore = {
     },
 
     createDropDown: function () {
-        var lssm_dropdown = $(' <li class="dropdown" id="' + lssm.config.prefix + '_dropdown">' +
+        let lssm_dropdown = $(' <li class="dropdown" id="' + lssm.config.prefix + '_dropdown">' +
             '<a href="#" id="' + lssm.config.prefix +
             '_menu_switch" role="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">' +
             '<span class="label label-success">' + I18n.t('lssm.lssm') + '</span> <b class="caret"></b>' +
@@ -1277,7 +1277,7 @@ lssm.settings = {
         {
             defaultvalue = null;
         }
-        var data;
+        let data;
         try {
             // Try to parse the config string as json
             data = JSON.parse(localStorage.getItem(lssm.config.prefix + '_' + key)) || defaultvalue;
@@ -1303,8 +1303,8 @@ lssm.managedSettings = {
 
     register: function (moduleSettings) {
         "use strict";
-        var moduleId = moduleSettings.id;
-        var settingsKey;
+        let moduleId = moduleSettings.id;
+        let settingsKey;
         // If settings don't exist, overwrite with defaults
         if (!lssm.settings.get(moduleId)) {
             for (settingsKey in moduleSettings.settings) {
@@ -1312,7 +1312,7 @@ lssm.managedSettings = {
             }
             // If we have values use them
         } else {
-            var storedSettings = lssm.settings.get(moduleId);
+            let storedSettings = lssm.settings.get(moduleId);
             for (settingsKey in moduleSettings.settings) {
                 if (storedSettings[settingsKey] != null) {
                     moduleSettings.settings[settingsKey].value = storedSettings[settingsKey];
@@ -1334,7 +1334,7 @@ lssm.managedSettings = {
 
     getSetting: function (module, field) {
         "use strict";
-        var settings = this.getSettings(module);
+        let settings = this.getSettings(module);
         if (settings && settings[field] !== undefined) {
             return settings[field].value;
         } else {
@@ -1355,12 +1355,12 @@ lssm.managedSettings = {
         "use strict";
 
         // Store managedSettings for runtime
-        var moduleId = moduleSettings.id;
+        let moduleId = moduleSettings.id;
         lssm.managedSettings.registeredModules[moduleId] = moduleSettings;
 
         // Strip down settings object to values only and persist them
-        var storeSettings = {};
-        var settingsKey;
+        let storeSettings = {};
+        let settingsKey;
         for (settingsKey in moduleSettings.settings) {
             storeSettings[settingsKey] = moduleSettings.settings[settingsKey].value;
         }
@@ -1375,24 +1375,24 @@ lssm.managedSettings = {
 lssm.modules = {
     saveall: function () {
         "use strict";
-        var arr = {};
-        for (var i in lssm.Module) {
+        let arr = {};
+        for (let i in lssm.Module) {
             arr[i] = lssm.Module[i].active;
         }
         lssm.settings.set("Modules", arr);
     },
     // Zum zwischenspeichern der schon geladenen Module
     addLocales: function (module) {
-        var mod = module.toString();
+        let mod = module.toString();
         if (mod in lssm.Module) {
-            var keys = ['name', 'description'];
+            let keys = ['name', 'description'];
             // TODO: sprechendere Variablennamen
-            for (var k in keys) {
+            for (let k in keys) {
                 k = keys[k];
                 if (!(k in lssm.Module[mod])) {
                     continue;
                 }
-                for (var l in lssm.Module[mod][k]) {
+                for (let l in lssm.Module[mod][k]) {
                     l = l.toString();
                     if (!(mod in I18n.translations[l].lssm.apps)) {
                         I18n.translations[l].lssm.apps[mod] = {};
@@ -1405,7 +1405,7 @@ lssm.modules = {
     loadall: function () {
         "use strict";
         try {
-            for (var m in lssm.Module) {
+            for (let m in lssm.Module) {
                 this.load(m);
             }
         } catch (e) {
@@ -1415,9 +1415,9 @@ lssm.modules = {
 
     load: function (module) {
         try {
-            var path = window.location.pathname.length;
-            var uid = "";
-            var game = "";
+            let path = window.location.pathname.length;
+            let uid = "";
+            let game = "";
             if (typeof user_id !== "undefined") {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
@@ -1448,7 +1448,7 @@ lssm.hook = {
     orgfunctions: {},
     prename: function (event) {
         "use strict";
-        var self = this;
+        let self = this;
         if (!this.orgfunctions.hasOwnProperty(event)) {
             this.orgfunctions[event] = window[event];
             window[event] = function () {
@@ -1461,7 +1461,7 @@ lssm.hook = {
     },
     postname: function (event) {
         "use strict";
-        var self = this;
+        let self = this;
         if (!this.orgfunctions.hasOwnProperty(event)) {
             this.orgfunctions[event] = window[event];
             window[event] = function () {
@@ -1483,17 +1483,17 @@ lssm.modal = {
      */
     show: function (content, closefunc) {
         "use strict";
-        var e = parseInt($("#lightbox_background").css("width")),
+        let e = parseInt($("#lightbox_background").css("width")),
             i = parseInt($("#lightbox_background").css("height")),
             n = i - 100;
         if (592 > n) {
             n = i - 30;
         }
-        var s = e - 70;
+        let s = e - 70;
         if (862 > s) {
             s = e - 0;
         }
-        var o = s - 2,
+        let o = s - 2,
             a = n - 34,
             r = (e - s) / 2;
         $("#lightbox_box").css("width", s + "px")
@@ -1548,7 +1548,7 @@ lssm.modal = {
             })
             .done(function () {
                 // There goes the core
-                var loadCore = function () {
+                let loadCore = function () {
                     // Load required library's
                     $("head")
                         .append(
@@ -1563,9 +1563,9 @@ lssm.modal = {
                         );
 
                     // Get the last activated modules
-                    var modules = lssm.settings.get('Modules') || {};
-                    for (var i in modules) {
-                        var modname = i.toString();
+                    let modules = lssm.settings.get('Modules') || {};
+                    for (let i in modules) {
+                        let modname = i.toString();
                         if ((modname in lssm.Module) === false) {
                             console.log(modname + " is not a valid app. Skipping.");
                             continue;

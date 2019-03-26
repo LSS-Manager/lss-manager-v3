@@ -1,6 +1,6 @@
 (function($){
-  var buffermMa = missionMarkerAdd;
-  var buffermPa = mission_participation_add;
+    let buffermMa = missionMarkerAdd;
+    let buffermPa = mission_participation_add;
 
   // run tag missions when game is changing participation
   mission_participation_add = function(e){

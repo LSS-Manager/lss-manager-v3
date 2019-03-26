@@ -1,10 +1,9 @@
 (function(I18n, $) {
-	'use strict';
     if ("undefined" != typeof mapkit) {
         alert("[" + lssm.Module.centermap.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit'));
     } else {
 
-        var LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
+        let LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
         I18n.translations.de.lssm.centermap = {
             center: "Zentrieren",
@@ -52,7 +51,7 @@
                 set: "Sla huidige positie op"
             }
         };
-        var managedSettings = {
+        let managedSettings = {
             "id": LSS_CENTERMAP_STORAGE,
             "title": I18n.t('lssm.centermap.settings.title'),
             "settings": {
@@ -115,7 +114,7 @@
                         "type": "button",
                         "custom_function_event": "click",
                         "custom_function": function () {
-                            var prefix = LSS_CENTERMAP_STORAGE + "_";
+                            let prefix = LSS_CENTERMAP_STORAGE + "_";
                             $('#' + prefix + 'centermap-center-lat').val(
                                 map.getCenter().lat);
                             $('#' + prefix + 'centermap-center-lng').val(
@@ -146,13 +145,13 @@
 				}
 
 				function handleDynamicOption() {
-					var lat_min;
-					var lat_max;
-					var lng_min;
-					var lng_max;
+                    let lat_min;
+                    let lat_max;
+                    let lng_min;
+                    let lng_max;
 					$(mission_markers).each(function() {
 						if (getSetting('centermap-alliance') || this.involved) {
-							var position = this._latlng;
+                            let position = this._latlng;
 							if (position.lat < lat_min || lat_min === undefined)
 								lat_min = position.lat;
 							if (position.lat > lat_max || lat_max === undefined)
@@ -165,14 +164,14 @@
 					});
 
             $(lssm.get_buildings()).each(function () {
-                if (this.stationLat < lat_min || lat_min === undefined)
-                    lat_min = this.stationLat;
-                if (this.stationLat > lat_max || lat_max === undefined)
-                    lat_max = this.stationLat;
-                if (this.stationLng < lng_min || lng_min === undefined)
-                    lng_min = this.stationLng;
-                if (this.stationLng > lng_max || lng_max === undefined)
-                    lng_max = this.stationLng;
+                if (this.latitude < lat_min || lat_min === undefined)
+                    lat_min = this.latitude;
+                if (this.latitude > lat_max || lat_max === undefined)
+                    lat_max = this.latitude;
+                if (this.longitude < lng_min || lng_min === undefined)
+                    lng_min = this.longitude;
+                if (this.longitude > lng_max || lng_max === undefined)
+                    lng_max = this.longitude;
             });
 
             map.fitBounds([[lat_min, lng_min], [lat_max, lng_max]]);

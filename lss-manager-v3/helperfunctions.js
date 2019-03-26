@@ -194,7 +194,7 @@ lssm.getVehicleNameById = function(vehicleId) {
 
 lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
-    var data = [];
+    let data = [];
     $('#vehicle_building_' + building).find('li').each(function (index, element) {
         data.push({
             "id": $(element).attr('vehicle_id'),
@@ -207,7 +207,7 @@ lssm.car_list = function(building) {
     return data;
 }
 lssm.car_list_all = function() {
-    var data = [];
+    let data = [];
     $("[id^='vehicle_building']").find('li').each(function (index, element) {
         data.push({
             "id": $(element).attr('vehicle_id'),
@@ -221,7 +221,7 @@ lssm.car_list_all = function() {
 }
 // Formatiert Fahrzeugliste um (mit FMS)
 lssm.car_list_printable = function(list) {
-    var data = "";
+    let data = "";
     $.each(list, function (key, car) {
 		data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name +
 			"</div>";
@@ -230,25 +230,11 @@ lssm.car_list_printable = function(list) {
 }
 
 lssm.get_buildings = function() {
-    var data = [],
-        stationId, stationName, stationLat, stationLng, stationType, el, map;
-    $('#building_list').find('.building_list_li').each(function(index, element) {
-        el = $(element).find('.building_list_caption'),
-            map = el.find('.map_position_mover'),
-            stationId = el.find('.building_marker_image').attr('building_id'),
-            stationName = map.html(),
-            stationLat = map.attr('data-latitude'),
-            stationLng = map.attr('data-longitude'),
-            stationType = $(element).attr('building_type_id');
-
-        data.push({
-            'stationId': stationId,
-            'stationName': stationName,
-            'stationLat': stationLat,
-            'stationLng': stationLng,
-            'stationType': parseInt(stationType)
+    let data = {};
+    $.get("/api/buildings")
+        .then(response => {
+            data = response;
         });
-    });
     return data;
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
@@ -270,21 +256,21 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
         else
             return p
     }
-    var info = L.control();
+    let info = L.control();
 
     info.onAdd = function () {
         this._div = L.DomUtil.create('div', classe || "");
         this._div.id = id+"Div";
-        var m = map.getSize();
+        let m = map.getSize();
         L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
         this.update();
         return this._div;
     };
 
     info.update = function () {
-        var m = map.getSize();
-        var p = L.DomUtil.getPosition(info._div);
-		var pos = {
+        let m = map.getSize();
+        let p = L.DomUtil.getPosition(info._div);
+        let pos = {
 			x: changeX(p.x, m.x),
 			y: changeY(p.y, m.y)
 		};
@@ -293,7 +279,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
     };
 
     info.addTo(map);
-    var t = new L.Draggable(info._div);
+    let t = new L.Draggable(info._div);
     t.enable();
     t.on('drag', info.update);
     return $(info._div);
@@ -303,7 +289,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 if (!String.format) {
 //	console.log("execute");
   String.format = function(format) {
-    var args = Array.prototype.slice.call(arguments, 1);
+      let args = Array.prototype.slice.call(arguments, 1);
     return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined' ? args[number] : match;
     });

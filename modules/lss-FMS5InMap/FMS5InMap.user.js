@@ -1,6 +1,6 @@
 (function ($, I18n) {
-    var radio_message_important = $("#radio_messages_important");
-    var id = "fm5InMap";
+    let radio_message_important = $("#radio_messages_important");
+    let id = "fm5InMap";
     if ("undefined" != typeof mapkit) {
         alert("[" + lssm.Module.fms5inmap.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit'));
     } else {

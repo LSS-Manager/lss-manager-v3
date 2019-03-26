@@ -1,6 +1,6 @@
 (function ($){
     // remove lss buttons
-    var missionDiv,
+    let missionDiv,
         missionListDiv,
         scriptMissionTab,
         missionList,
@@ -85,15 +85,15 @@
         ' style="padding-left:0">' + missionListSicherheitswache + '</div></div>');
 
     function showMissionCounterInTab() {
-    var missionsBtn = $('#missions').find('.btn-group');
-    var toReplace = [
+        let missionsBtn = $('#missions').find('.btn-group');
+        let toReplace = [
         'scriptEmergencyCounter',
         'scriptTransportCounter',
         'scriptAllianceCounter',
         'scriptEventsCounter',
         'scriptSWCounter'
     ];
-    for (var key in toReplace) {
+    for (let key in toReplace) {
         if (toReplace.hasOwnProperty(key)) {
             $('#'+ toReplace[key]).html(missionsBtn.find('a:eq('+ key +')').html().replace(')', '').split('(')[1]);
         }

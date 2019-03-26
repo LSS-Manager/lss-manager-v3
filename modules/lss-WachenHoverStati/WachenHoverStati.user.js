@@ -16,7 +16,7 @@
         function redraw_Labels() {
             $.each(building_markers, function (key, marker) {
                 // Is the tooltip currently open?
-                var reopen = false;
+                let reopen = false;
                 if (marker.isTooltipOpen()) {
                     reopen = true;
                     // Close the tooltip

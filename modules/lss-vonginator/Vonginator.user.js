@@ -56,7 +56,7 @@
     replaceInit();
 
     // Mission Marker
-    var missionMarkerAddOrig = missionMarkerAdd;
+    let missionMarkerAddOrig = missionMarkerAdd;
     missionMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.missing_text = replaceMissingText(t.missing_text);
         t.caption = replaceMissionCaption(t.caption);
@@ -64,7 +64,7 @@
     };
 
     // Mission Marker
-    var patientMarkerAddOrig = patientMarkerAdd;
+    let patientMarkerAddOrig = patientMarkerAdd;
     patientMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.missing_text = replacePatientMarker(t.missing_text);
         patientMarkerAddOrig(t);

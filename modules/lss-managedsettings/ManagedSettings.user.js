@@ -1,9 +1,9 @@
 (function (I18n, $) {
     'use strict';
 
-    var VERSION = 1.2;
-    var EXPORT_COMPATIBILITY = 1.2;
-    var EXPORT_FILE_NAME = "settings.lssm";
+    let VERSION = 1.2;
+    let EXPORT_COMPATIBILITY = 1.2;
+    let EXPORT_FILE_NAME = "settings.lssm";
 
     I18n.translations.de.lssm.managedsettings = {
         title: "LSSM Einstellungen",
@@ -38,7 +38,7 @@
         export_hint: "Please note that only previously saved settings of currently activated modules can be exported.",
         import_success: "The settings were successfully imported. You need to reload the page to make them work.",
         import_missmatch: "The read-in file is unfortunately no longer compatible with the current version of LSSM.",
-        import_fail: "Error: An error occurred while importing the file: <strong> {0} </ strong>. Please inform a developer."
+        import_fail: "Error: An error occurred while importing the file: <strong> {0} </strong>. Please inform a developer."
     };
 
     I18n.translations.nl.lssm.managedsettings = {
@@ -62,7 +62,7 @@
 
     function renderSettings() {
         if ($('#' + lssm.config.prefix + '_appstore_ManagedSettings').length > 0) return false;
-        var markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
+        let markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
         markup += '<h1>' + I18n.t('lssm.managedsettings.title') + '</h1>';
         markup += '<p>' + I18n.t('lssm.managedsettings.text1') + '</p>';
         markup += '<div><fieldset id="module_settings" style="margin-bottom: 10px;">';
@@ -89,8 +89,8 @@
         markup += '</div>';
         $('#map_outer').before(markup);
 
-        var sortable = [];
-        for (var module in lssm.managedSettings.registeredModules) {
+        let sortable = [];
+        for (let module in lssm.managedSettings.registeredModules) {
             sortable.push(lssm.managedSettings.registeredModules[module]);
         }
 
@@ -101,8 +101,8 @@
         });
 
         $.each(sortable, function () {
-            var module = this;
-            var moduleKey = module.id;
+            let module = this;
+            let moduleKey = module.id;
             markup = "";
             markup += '<div id="' + moduleKey + '_wrap">';
             markup += '<h3>' + module.title +
@@ -114,7 +114,7 @@
             }
             markup += '</div>';
             $('#module_settings').append(markup);
-            for (var settingsKey in module.settings) {
+            for (let settingsKey in module.settings) {
                 if (module.settings[settingsKey].ui.parent) {
                     $('#' + module.settings[settingsKey].ui.parent + '_wrap').append(renderUIElement(moduleKey, settingsKey, module
                         .settings[settingsKey]));
@@ -134,10 +134,10 @@
 
 
     function applySettingsFunctions() {
-        for (var moduleKey in lssm.managedSettings.registeredModules) {
-            var module = lssm.managedSettings.registeredModules[moduleKey];
-            for (var settingsKey in module.settings) {
-                var setting = module.settings[settingsKey];
+        for (let moduleKey in lssm.managedSettings.registeredModules) {
+            let module = lssm.managedSettings.registeredModules[moduleKey];
+            for (let settingsKey in module.settings) {
+                let setting = module.settings[settingsKey];
                 if (setting.ui.custom_function && setting.ui.custom_function_event) {
                     $('#' + moduleKey + '_' + settingsKey).on(setting.ui.custom_function_event, setting.ui.custom_function);
                 }
@@ -152,7 +152,7 @@
             if (!confirm(I18n.t('lssm.managedsettings.reset_hint'))) {
                 return;
             }
-            var moduleId = $(this).data('module');
+            let moduleId = $(this).data('module');
             lssm.managedSettings.reset(moduleId);
             $('#' + lssm.config.prefix + '_appstore_ManagedSettings').remove();
             renderSettings();
@@ -167,7 +167,7 @@
                 return;
             }
             // Initialize Datamodel 1.1
-            var exportData = {
+            let exportData = {
                 version: VERSION,
                 activeModules: {},
                 moduleSettings: {}
@@ -177,14 +177,14 @@
             exportData['activeModules'] = lssm.settings.get("Modules");
 
             // Add managedSettings
-            for (var moduleKey in lssm.managedSettings.registeredModules) {
+            for (let moduleKey in lssm.managedSettings.registeredModules) {
                 // Export only if there is data
                 if (lssm.settings.get(moduleKey)) {
                     exportData.moduleSettings[moduleKey] = lssm.settings.get(moduleKey);
                 }
             }
             // Export as file
-            var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData));
+            let data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(exportData));
             this.setAttribute("href", "data:" + data);
             this.setAttribute("download", EXPORT_FILE_NAME);
 
@@ -199,14 +199,14 @@
 
         // File import Eventhandler -> process import
         $("#lssm-import-file:file").change(function () {
-            var file = document.getElementById('lssm-import-file').files[0];
+            let file = document.getElementById('lssm-import-file').files[0];
             if (file) {
                 // create reader
-                var reader = new FileReader();
+                let reader = new FileReader();
                 reader.readAsText(file);
                 reader.onload = function (e) {
                     try {
-                        var importedJson = jQuery.parseJSON(e.target.result);
+                        let importedJson = jQuery.parseJSON(e.target.result);
                         // Verfify version compatibility
                         if (importedJson.version < EXPORT_COMPATIBILITY) {
                             lssm.notification(I18n.t('lssm.managedsettings.import_missmatch'), 'alert-danger', 15000);
@@ -217,8 +217,8 @@
                         lssm.settings.set("Modules", importedJson.activeModules);
 
                         // Store module settings
-                        for (var moduleKey in importedJson.moduleSettings) {
-                            var module = importedJson.moduleSettings[moduleKey];
+                        for (let moduleKey in importedJson.moduleSettings) {
+                            let module = importedJson.moduleSettings[moduleKey];
                             lssm.settings.set(moduleKey, module);
                         }
                         // Push notification
@@ -234,12 +234,12 @@
     }
 
     function renderUIElement(moduleKey, settingsKey, element) {
-        var elementName = moduleKey + '_' + settingsKey;
-        var response = '<div id="' + elementName + '_wrap">';
+        let elementName = moduleKey + '_' + settingsKey;
+        let response = '<div id="' + elementName + '_wrap">';
         if (element.ui.type === "radio") {
-            var optionCount = 0;
+            let optionCount = 0;
             $.each(element.ui.options, function () {
-                var prop_checked = "";
+                let prop_checked = "";
                 if (this.value === element.value) prop_checked = " checked ";
                 response += '<div id="' + elementName + '_' + optionCount + '_wrap">';
                 response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount + '" ' +
@@ -251,7 +251,7 @@
                 optionCount++;
             });
         } else if (element.ui.type === "checkbox") {
-            var checked = element.value === true ? " checked " : "";
+            let checked = element.value === true ? " checked " : "";
             response += '<div style="margin-left: 16px;"><input type="checkbox" ' + checked +
                 ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '">' + element.ui.label + '</div>';
             if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
@@ -297,12 +297,12 @@
     }
 
     function saveSettings() {
-        for (var moduleKey in lssm.managedSettings.registeredModules) {
-            var module = lssm.managedSettings.registeredModules[moduleKey];
-            for (var settingsKey in module.settings) {
-                var setting = module.settings[settingsKey];
-                var elementName = moduleKey + '_' + settingsKey;
-                var formElement = $('#' + elementName);
+        for (let moduleKey in lssm.managedSettings.registeredModules) {
+            let module = lssm.managedSettings.registeredModules[moduleKey];
+            for (let settingsKey in module.settings) {
+                let setting = module.settings[settingsKey];
+                let elementName = moduleKey + '_' + settingsKey;
+                let formElement = $('#' + elementName);
                 if (setting.ui.type === 'checkbox' || setting.ui.type === 'toggle') {
                     if (formElement.is(':checked')) {
                         setting.value = true;
@@ -324,7 +324,7 @@
         }
     }
 
-    var li = $('<li role="presentation"><a href="#">' + I18n.t('lssm.managedsettings.settings_tab') + '</a></li>').click(
+    let li = $('<li role="presentation"><a href="#">' + I18n.t('lssm.managedsettings.settings_tab') + '</a></li>').click(
         function () {
             renderSettings();
             applySettingsFunctions();

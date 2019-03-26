@@ -18,21 +18,21 @@
   };
 
   function parseMissionDate(dateString) {
-    var matches = dateString.match(I18n.t('lssm.missionDate.dateRegex'));
-    var day = matches[1];
-    var month = matches[2];
-    var hour = matches[3];
-    var minute = matches[4];
+      let matches = dateString.match(I18n.t('lssm.missionDate.dateRegex'));
+      let day = matches[1];
+      let month = matches[2];
+      let hour = matches[3];
+      let minute = matches[4];
 
     // Transform month name to numeric month
-    var months = I18n.t("lssm.missionDate.months")
+      let months = I18n.t("lssm.missionDate.months")
     month = months.indexOf(month);
 
-    var today = new Date();
+      let today = new Date();
 
-    var year = today.getFullYear();
+      let year = today.getFullYear();
 
-    var date = new Date(year, month, day, hour, minute, 0, 0);
+      let date = new Date(year, month, day, hour, minute, 0, 0);
 
     // Make plausibility check. If diff is negative is has to be at least the year before.
     if (today.getTime() - date.getTime() < 0) {
@@ -42,30 +42,30 @@
   }
 
   // Just execute the script when there is a mission Headline
-  var missionDate = $('#missionH1').length > 0 ? $('#missionH1').data('original-title') : null;
+    let missionDate = $('#missionH1').length > 0 ? $('#missionH1').data('original-title') : null;
   if (missionDate != null) {
     // Parse mission date to Date() object
-    var parsedMissionDate = parseMissionDate(missionDate);
+      let parsedMissionDate = parseMissionDate(missionDate);
 
-    var today = new Date();
-    var timeDiff = today.getTime() - parsedMissionDate.getTime();
+      let today = new Date();
+      let timeDiff = today.getTime() - parsedMissionDate.getTime();
 
-    var minutes = (timeDiff / 1000) / 60;
-    var hours = minutes / 60;
-    var days = hours / 24;
+      let minutes = (timeDiff / 1000) / 60;
+      let hours = minutes / 60;
+      let days = hours / 24;
 
-    var newDay = Math.floor(days);
-    var newHour = Math.floor(hours % 24);
-    var newMin = Math.floor(minutes % 60);
+      let newDay = Math.floor(days);
+      let newHour = Math.floor(hours % 24);
+      let newMin = Math.floor(minutes % 60);
 
-    var timeGone = "";
+      let timeGone = "";
     if (newDay > 0)
       timeGone += String.format(' {0} d', newDay);
 
     if (I18n.locale === 'en') {
-      var offset = today.getTimezoneOffset() / 60;
+        let offset = today.getTimezoneOffset() / 60;
       // Zahl 5, weil EST UTC+5 ist
-      var newOffset = 5 - offset;
+        let newOffset = 5 - offset;
       newHour -= newOffset;
     }
 
@@ -77,7 +77,7 @@
       timeGone += String.format(' {0} min', newMin);
     }
 
-    var markup;
+      let markup;
     if (I18n.locale === 'de') {
       markup = '{0} - <span>{1} {2}</span>';
     } else {

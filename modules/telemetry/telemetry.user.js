@@ -2,7 +2,7 @@
     function getModules()
     {
         let active = [];
-        for (var m in lssm.Module){
+        for (let m in lssm.Module){
             if (lssm.Module[m].active)
             {
                 active.push(m);

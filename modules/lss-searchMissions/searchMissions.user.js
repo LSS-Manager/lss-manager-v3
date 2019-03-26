@@ -3,8 +3,8 @@
         $(this).attr('data-search-term', $(this).text().toLowerCase());
     });
 
-    var delay = (function () {
-        var timer = 0;
+    let delay = (function () {
+        let timer = 0;
         return function (callback, ms) {
             clearTimeout(timer);
             timer = setTimeout(callback, ms);
@@ -33,11 +33,11 @@
             $('.map_position_mover').each(function () {
                 if ($(this).filter('[data-search-term *= ' + searchTerm + ']').length > 0 || searchTerm.length < 1) {
                     $(this).parent().parent().show();
-                    var id = $(this).attr('id');
+                    let id = $(this).attr('id');
                     if (typeof id == typeof undefined)
                         return true;
-                    var missionCaptionID = id.split('_');
-                    var newMissionLink = missionCaptionID[2];
+                    let missionCaptionID = id.split('_');
+                    let newMissionLink = missionCaptionID[2];
                     $('#lssm_searchMissionsContainer').append('<a href="/missions/' + newMissionLink + '" class="label label-danger lightbox-open" style="display: inline-block; margin-right:5px">' + newMissionLink + '</a>');
 
                 } else {
