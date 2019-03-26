@@ -307,8 +307,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $.each(vehicles, function (k, car) {
                 printcars +=
                         '<div id="db_veh_' + car.id + '">' +
-                        '<span class="building_list_fms building_list_fms_'+car.fms+' lssm-wp-fz--fms">'
-                        + car.fms +
+                        '<span class="building_list_fms building_list_fms_'+car.fms_show+' lssm-wp-fz--fms">'
+                        + car.fms_real +
                         '</span>' +
                         '<a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms lssm-wp-fz--fms-vehicle">'
                         + car.name +

@@ -204,7 +204,7 @@ lssm.car_list = function(building) {
             "type": car.type,
             "caption": car.typename,
             "customname": car.customtype,
-            "fms": car.fms_real,
+            "fms_real": car.fms_real,
             "fms_show": car.fms_show,
         });
     });
@@ -217,7 +217,7 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms + "\">" + car.fms + "</span> " + car.name +
+		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_show + "\">" + car.fms_real + "</span> " + car.name +
 			"</div>";
     });
     return data;
