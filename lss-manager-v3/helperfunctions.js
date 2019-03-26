@@ -263,7 +263,6 @@ lssm.get_vehicles = function(async = false) {
                         }
                     }
                     lssm.vehicles = tmpCar;
-                    delete tmpCar;
                 });
             }
         });
