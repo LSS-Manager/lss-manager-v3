@@ -235,6 +235,7 @@ lssm.get_buildings = function(async = false) {
         $.ajax({
             url: "/api/buildings",
             method: "GET",
+            cache: true,
             async: !async,
             success: function (response) {
                 lssm.buildings = response;
@@ -248,7 +249,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
         if (p <= -m + info._div.offsetWidth + 20)
             return -m + info._div.offsetWidth + 20;
         else if (p >= 0)
-            return 0
+            return 0;
         else
             return p;
     }
