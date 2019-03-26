@@ -228,7 +228,6 @@ lssm.car_list_printable = function(list) {
 		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms + "\">" + car.fms + "</span> " + car.name +
 			"</div>";
     });
-    console.log(data);
     return data;
 }
 
