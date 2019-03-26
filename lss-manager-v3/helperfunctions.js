@@ -234,7 +234,7 @@ lssm.get_vehicles = function(async = false) {
             async: !async,
             success: function (response) {
                 $.each(response, function (key, car) {
-                    tmpCar[key] = {
+                    tmpCar[car.id] = {
                         name: lssm.carsById[car.vehicle_type][0],
                         building: car.building_id,
                         type: car.vehicle_type,
