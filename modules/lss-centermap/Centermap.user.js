@@ -163,7 +163,7 @@
 						}
 					});
 
-            $(lssm.get_buildings()).each(function () {
+            $(lssm.buildings).each(function () {
                 if (this.latitude < lat_min || lat_min === undefined)
                     lat_min = this.latitude;
                 if (this.latitude > lat_max || lat_max === undefined)

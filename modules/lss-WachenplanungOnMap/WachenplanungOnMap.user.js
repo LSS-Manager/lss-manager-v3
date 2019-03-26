@@ -407,7 +407,7 @@
         }
 
         function drawCircles(all, type) {
-            let data = lssm.get_buildings();
+            let data = lssm.buildings;
             $.each(data, function (key, value) {
                 if (all) {
                     rmLayer(value.id);

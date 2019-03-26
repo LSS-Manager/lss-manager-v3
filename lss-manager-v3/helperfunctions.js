@@ -229,15 +229,16 @@ lssm.car_list_printable = function(list) {
     return data;
 }
 
-lssm.get_buildings = function() {
-    let data = {};
-    $.get("/api/buildings")
-        .then(response => {
-            return response
-        })
-        .fail(function() {
-            return {};
-        });
+lssm.get_buildings = function(async = false) {
+    $.ajax({
+        url: "/api/buildings",
+        method: "GET",
+        async: !async,
+        success: function(response)
+        {
+            lssm.buildings = response;
+        }
+    });
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
 lssm.newDragableDivOnMap=function(id, classe, pos) {

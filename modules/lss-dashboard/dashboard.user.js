@@ -95,7 +95,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
     function loadGraphs() {
         // Building Bar Chart
         let building_amount = {'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'kh_clinic': 0, 'wret': 0, 'seg': 0, 'bepo':0};
-        $.each(lssm.get_buildings(), function (key, build) {
+        $.each(lssm.buildings, function (key, build) {
             switch (build.building_type) {
                 //Feuerwehr
                 case BUILDING_TYPE_FEUERWACHE:

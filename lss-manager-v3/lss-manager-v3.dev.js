@@ -74,6 +74,7 @@ let lssm = {
         }
     },
     key: null,
+    buildings: {},
 };
 
 
@@ -1561,7 +1562,8 @@ lssm.modal = {
                             '<link rel="stylesheet" ' +
                             'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css">'
                         );
-
+                    lssm.get_buildings(true);
+                    setInterval(lssm.get_buildings(false), 120000);
                     // Get the last activated modules
                     let modules = lssm.settings.get('Modules') || {};
                     for (let i in modules) {
