@@ -20,6 +20,7 @@ I18n.translations.de['lssm']['dashboard'] = {
     anz: 'Anzahl',
     perwp: 'MITARBEITER',
     carswp: 'FAHRZEUGE',
+    patiwp: 'PATIENTEN',
     levwp: 'STUFE',
     categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
     categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg','bepo'],
@@ -48,6 +49,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     anz: 'Amount',
     perwp: 'EMPLOYEE',
     carswp: 'CARS',
+    patiwp: 'PATIENTS',
     levwp: 'LEVEL',
     categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
@@ -76,6 +78,7 @@ I18n.translations.nl['lssm']['dashboard'] = {
     anz: 'Aantal',
     perwp: 'PERSONEEL',
     carswp: 'VOERTUIGEN',
+    patiwp: 'PATIËNTEN',
     levwp: 'LEVEL',
     categories: ['Brandweer', 'Ambulance', 'Politie', 'Ziekenhuis'],
     categories_data: ['fw', 'rd', 'pol', 'kh'],
@@ -260,12 +263,12 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_HOSPITAL:
                     icon3 = "fa-bed";
                     icon = "fa-hospital-o";
-                    maxcars = building.level + 10;
+                    maxcars = -(building.level + 10);
                     break;
                 case BUILDING_TYPE_CLINIC:
                     icon3 = "fa-bed";
                     icon = "fa-hospital-o";
-                    maxcars = building.level + 5;
+                    maxcars = -(building.level + 5);
                     break;
                 case BUILDING_TYPE_NOTARZTHUBSCHRAUBERLANDEPLATZ:
                     icon = "fa-h-square";
@@ -344,6 +347,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                         '<span>' + vehicles.length + '/' + maxcars + ' </span>' +
                           I18n.t('lssm.dashboard.carswp') +
                         '</span>';
+            else if (maxcars < 0)
+                bd_data +=
+                    '<span class="label label-primary">' +
+                    '<i class="glyphicon glyphicon-home"></i> ' +
+                    '<span>' + maxcars*-1 + ' </span>' +
+                    I18n.t('lssm.dashboard.patiwp') +
+                    '</span>';
             bd_data += '\
                  </div>\
 				     <div class="panel-body">\
