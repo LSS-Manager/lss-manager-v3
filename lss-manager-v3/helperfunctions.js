@@ -195,14 +195,16 @@ lssm.getVehicleNameById = function(vehicleId) {
 lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
     let data = [];
-    $.each(lssm.vehicles[building], function (vid, car) {
-        data.push({
-            "id": vid,
-            "name": car.name,
-            "type": car.type,
-            "fms": car.fms_show
+    if(lssm.vehicles.hasOwnProperty(building)) {
+        $.each(lssm.vehicles[building], function (vid, car) {
+            data.push({
+                "id": vid,
+                "name": car.name,
+                "type": car.type,
+                "fms": car.fms_show
+            });
         });
-    });
+    }
     return data;
 }
 lssm.car_list_all = function() {
@@ -223,9 +225,10 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_show + "\">" + car.fms_show + "</span> " + car.name +
+		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms + "\">" + car.fms + "</span> " + car.name +
 			"</div>";
     });
+    console.log(data);
     return data;
 }
 
@@ -242,21 +245,21 @@ lssm.get_vehicles = function(async = false) {
                 $.each(response, function (key, car) {
                     if(tmpCar.hasOwnProperty(car.building_id))
                     {
-                        tmpcar[car.building_id][id] = {
-                            name: lssm.carsById[car.vehicle_type],
+                        tmpCar[car.building_id][key] = {
+                            name: lssm.carsById[car.vehicle_type][0],
                             type: car.vehicle_type,
-                            typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type] : car.vehicle_type_caption,
+                            typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type][0] : car.vehicle_type_caption,
                             fms_real: car.fms_real,
                             fms_show: car.fms_show,
                         }
                     }
                     else
                     {
-                        tmpcar[car.building_id] = {
-                            id: {
-                                name: lssm.carsById[car.vehicle_type],
+                        tmpCar[car.building_id] = {
+                            key: {
+                                name: lssm.carsById[car.vehicle_type][0],
                                 type: car.vehicle_type,
-                                typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type] : car.vehicle_type_caption,
+                                typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type][0] : car.vehicle_type_caption,
                                 fms_real: car.fms_real,
                                 fms_show: car.fms_show,
                             }
