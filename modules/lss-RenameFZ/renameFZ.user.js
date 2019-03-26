@@ -604,7 +604,6 @@
                 vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].sort(function(a, b){return a-b});
             }
             return vehicles
-            console.log(vehicles);
         } catch(err) {
             $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
             executionFailed = true;
