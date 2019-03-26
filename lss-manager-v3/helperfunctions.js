@@ -233,9 +233,11 @@ lssm.get_buildings = function() {
     let data = {};
     $.get("/api/buildings")
         .then(response => {
-            data = response;
+            return response
+        })
+        .fail(function() {
+            return {};
         });
-    return data;
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
 lssm.newDragableDivOnMap=function(id, classe, pos) {
