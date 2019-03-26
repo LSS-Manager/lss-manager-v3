@@ -195,39 +195,80 @@ lssm.getVehicleNameById = function(vehicleId) {
 lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
     let data = [];
-    $('#vehicle_building_' + building).find('li').each(function (index, element) {
+    $.each(lssm.vehicles[building], function (vid, car) {
         data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html(),
-            "classes": $(element).find(".building_list_fms").attr('class')
+            "id": vid,
+            "name": car.name,
+            "type": car.type,
+            "fms": car.fms_show
         });
     });
     return data;
 }
 lssm.car_list_all = function() {
     let data = [];
-    $("[id^='vehicle_building']").find('li').each(function (index, element) {
-        data.push({
-            "id": $(element).attr('vehicle_id'),
-            "name": $(element).find('a').html(),
-            "type": $(element).find('a').attr('vehicle_type_id'),
-            "fms": $(element).find(".building_list_fms").html(),
-            "classes": $(element).find(".building_list_fms").attr('class')
+    for (let bid in lssm.vehicles) {
+        $.each(lssm.vehicles[bid], function (vid, car) {
+            data.push({
+                "id": vid,
+                "name": car.name,
+                "type": car.type,
+                "fms": car.fms_show
+            });
         });
-    });
+    }
     return data;
 }
 // Formatiert Fahrzeugliste um (mit FMS)
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name +
+		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_show + "\">" + car.fms_show + "</span> " + car.name +
 			"</div>";
     });
     return data;
 }
+
+lssm.get_vehicles = function(async = false) {
+    let path = window.location.pathname.length;
+    if (path <= 2) {
+        let tmpCar = {};
+        $.ajax({
+            url: "/api/vehicles",
+            method: "GET",
+            cache: true,
+            async: !async,
+            success: function (response) {
+                $.each(response, function (key, car) {
+                    if(tmpCar.hasOwnProperty(car.building_id))
+                    {
+                        tmpcar[car.building_id][id] = {
+                            name: lssm.carsById[car.vehicle_type],
+                            type: car.vehicle_type,
+                            typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type] : car.vehicle_type_caption,
+                            fms_real: car.fms_real,
+                            fms_show: car.fms_show,
+                        }
+                    }
+                    else
+                    {
+                        tmpcar[car.building_id] = {
+                            id: {
+                                name: lssm.carsById[car.vehicle_type],
+                                type: car.vehicle_type,
+                                typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type] : car.vehicle_type_caption,
+                                fms_real: car.fms_real,
+                                fms_show: car.fms_show,
+                            }
+                        }
+                    }
+                    lssm.vehicles = tmpCar;
+                    delete tmpCar;
+                });
+            }
+        });
+    }
+};
 
 lssm.get_buildings = function(async = false) {
     let path = window.location.pathname.length;
