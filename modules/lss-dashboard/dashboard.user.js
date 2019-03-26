@@ -390,7 +390,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             if (typeof cars[type] == 'undefined') {
                 cars[type] = {'free': 0, 'miss': 0, 'fms5': 0, 'fms6': 0, 'sum': 0};
             }
-            switch (veh.fms) {
+            switch (veh.fms_real) {
                 case '3':
                 case '4':
                 case '7':
