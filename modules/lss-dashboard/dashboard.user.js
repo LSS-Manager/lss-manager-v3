@@ -191,7 +191,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         $.each(lssm.car_list_all(), function (key, veh) {
             let c = ["Undefined", 0];
             if (veh.type in lssm.carsById)
-                console.log(lssm.carsById[veh.type]);
                 c = lssm.carsById[veh.type];
             if (c[1] in cars) {
                 cars[c[1]].total += 1;
