@@ -203,8 +203,9 @@ lssm.car_list = function(building) {
             "name": car.name,
             "type": car.type,
             "caption": car.typename,
-            "fms": car.fms_show,
-            "fms_real": car.fms_real,
+            "customname": car.customtype,
+            "fms": car.fms_real,
+            "fms_show": car.fms_show,
         });
     });
     return data;
@@ -238,6 +239,7 @@ lssm.get_vehicles = function(async = false) {
                         building: car.building_id,
                         type: car.vehicle_type,
                         typename: (car.vehicle_type_caption === null) ? lssm.carsById[car.vehicle_type][0] : car.vehicle_type_caption,
+                        customtype: car.vehicle_type_caption,
                         fms_real: car.fms_real,
                         fms_show: car.fms_show,
                     };
