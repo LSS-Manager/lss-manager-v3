@@ -250,6 +250,17 @@ lssm.get_vehicles = function(async = false) {
     }
 };
 
+// Funktion zum Updaten des FMS eigener Fzg.
+$(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
+    if(lssm.vehicles.hasOwnProperty(t.id)
+        && !t.fms_text.startsWith("[Verband]"))
+    {
+        lssm.vehicles[t.id].name = t.caption;
+        lssm.vehicles[t.id].fms_show = t.fms_show;
+        lssm.vehicles[t.id].fms_real = t.fms_real;
+    }
+});
+
 lssm.get_buildings = function(async = false) {
     let path = window.location.pathname.length;
     if (path <= 2) {
