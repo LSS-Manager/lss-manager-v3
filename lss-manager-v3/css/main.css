@@ -168,7 +168,8 @@ div#preloader {
   opacity: .4 !important;
 }
 
-.lssm_map_reload {
+.lssm_map_reload,
+.lssm_overview {
   height: 26px;
   width: 26px;
   position: relative;
