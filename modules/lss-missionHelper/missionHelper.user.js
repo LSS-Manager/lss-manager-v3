@@ -967,7 +967,8 @@
 				242: '3x Firetrucks<br>1x Heavy Rescue<br>1x Police Car<br>max. 2x Ambulances<br><br><span class="badge">Credits: ~ 1250 </span>',
 				243: '6x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1000 </span>',
 				244: '1x Police Car<br><br><span class="badge">Credits: ~ 120 </span>',
-				245: '1x Firetruck<br>2x Heavy Rescue<br>1x Battalion Chief<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>'
+				245: '1x Firetruck<br>2x Heavy Rescue<br>1x Battalion Chief<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>',
+				246: '<h4>A and B Code</h4><br>1x BLS Ambulance<br><h4>Other Codes</h4><br>1x ALS Ambulance'
 			}
 		}
 
@@ -1516,8 +1517,8 @@
 				380: '1x Ambulance',
 				381: '1x Ambulance',
 				382: '1x Ambulance',
-				383: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 900 </span',
-				384: '2x Tankautospuiten<br>1x Redvoertuig (40%)<br>1x Hulpverleningsvoertuig (10%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 2150 </span',
+				383: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 900 </span>',
+				384: '2x Tankautospuiten<br>1x Redvoertuig (40%)<br>1x Hulpverleningsvoertuig (10%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 2150 </span>',
 				385: '3x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x Hulpverleningsvoertuig (20%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (40%)<br>1x Slangenwagen' +
 				' (20%)<br>1x HOvD (50%)<br>1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 3650 </span',
 				386: '4x Tankautospuiten<br>1x Redvoertuig<br>1x Hulpverleningsvoertuig (30%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (80%)<br>1x Slangenwagen (40%)' +
@@ -1572,13 +1573,13 @@
 		}
 	}
 
-	var missionHelp = $('#mission_help');
+    let missionHelp = $('#mission_help');
 
 	if (missionHelp.length > 0) {
 		setValues();
-		var missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
-		var aaoText = I18n.t('lssm.missionHelper.missions.' + missionId);
-		var markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') +
+        let missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
+        let aaoText = I18n.t('lssm.missionHelper.missions.' + missionId);
+        let markup = '<div class="alert alert-warning"><h3>' + I18n.t('lssm.missionHelper.carmh') +
 		'</h3>' + aaoText + '</div>';
 		$('#mission-form').prepend(markup);
 	}

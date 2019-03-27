@@ -1,6 +1,6 @@
 (function() {
 
-  var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
+    let LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
 
   function setSettings() {
 
@@ -725,7 +725,8 @@
         242: 'Truck Rear-Ended with Entrapment',
         243: 'Attempted Hommicide',
         244: 'Fare dodger',
-        245: 'Medical emergency on crane'
+        245: 'Medical emergency on crane',
+        246: 'Patient Transfer'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1164,7 +1165,7 @@
       }
     };
 
-    var managedSettings = {
+      let managedSettings = {
       "id": LSS_MISSIONKEYWORD_STORAGE,
       "title": I18n.t('lssm.missionKeywordDefaults.name'),
       "settings": {
@@ -1183,7 +1184,7 @@
     };
 
     // Einsatz-ID zu Stichwort
-    var DEFAULT_AAO_DE = {
+      let DEFAULT_AAO_DE = {
       0: 'B 1',
       1: 'B 2',
       2: 'B 2',
@@ -1625,7 +1626,7 @@
       438: 'THL 1',
       439: 'THL 4'
     };
-    var DEFAULT_AAO_EN = {
+      let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -1871,9 +1872,10 @@
       242: 'TECH 1',
       243: 'POL 3',
       244: 'POL 1',
-      245: 'TECH 1'
+      245: 'TECH 1',
+      246: 'MEDT'
     };
-    var DEFAULT_AAO_NL = {
+      let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
       1: 'KLEINE BRAND',
       2: 'KLEINE BRAND',
@@ -2298,7 +2300,7 @@
     I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_EN;
     I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
 
-    var defaultAao;
+      let defaultAao;
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
     else if (I18n.locale === 'en')
@@ -2310,7 +2312,7 @@
 
 
     $.each(defaultAao, function(key, val) {
-      var tmpObject = {
+        let tmpObject = {
         ['missionKeyword-' + key]: {
           "default": val,
           "ui": {
@@ -2334,13 +2336,13 @@
 
   function missionKeyword() {
     // Stichwort Element
-    var titleStichwort = $('#missionH1');
+      let titleStichwort = $('#missionH1');
     // Anzahl Patientenbalken
-    var anzahlPatients = $(".patient_progress").length;
-    var aaoText = '';
+      let anzahlPatients = $(".patient_progress").length;
+      let aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-    var missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
+      let missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);
@@ -2349,7 +2351,7 @@
     {
       aaoText = aaoText + ' ' + I18n.t('lssm.missionKeywordDefaults.bma');
     }
-    var additionalAaoText = '';
+      let additionalAaoText = '';
     if (anzahlPatients > 0) {
       if (I18n.locale === 'de') {
 
@@ -2358,7 +2360,7 @@
         if (aaoText.match(/B [0-9]/ig)) {
           aaoText = aaoText + ' PERSON';
         } else if (aaoText.match(/FEU [0-9]|TH [0-9]/ig)) {
-          var n = aaoText.search(/[0-9]/i);
+            let n = aaoText.search(/[0-9]/i);
           if (n > 0) {
             aaoText = [a.slice(0, n + 1), ' Y', a.slice(n + 1)].join('');
           }
@@ -2435,7 +2437,7 @@
         }
       }
     }
-    var label = 'label-info';
+      let label = 'label-info';
 
     // Setze Label Farben
     if (aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')) ||
@@ -2467,7 +2469,7 @@
 
   // Only execute this script in the alert iframe.
   // Identify the iframe with mission_help link.
-  var missionHelp = $('#mission_help');
+    let missionHelp = $('#mission_help');
   if (missionHelp.length > 0) {
     missionKeyword();
   }
