@@ -59,22 +59,21 @@
         import_fail: "Foutmelding: Er is een fout opgetreden bij het importeren van het volgende bestand: <strong> {0} </ strong>." +
             "Informeer AUB een ontwikkelaar van deze melding."
     };
-
+	function closeManagedSettings() {
+		$(document).unbind(lssm.hook.postname("lightboxClose"), closeManagedSettings)
+		$("lightbox_iframe_"+iframe_lightbox_number).remove();
+	}
+	
     function renderSettings() {
-        if ($('#' + lssm.config.prefix + '_appstore_ManagedSettings').length > 0) return false;
-        let markup = '<div class="jumbotron" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
+		$(document).bind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
+        let markup = '<div class="jumbotron jumbotron-fluid" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
         markup += '<h1>' + I18n.t('lssm.managedsettings.title') + '</h1>';
         markup += '<p>' + I18n.t('lssm.managedsettings.text1') + '</p>';
-        markup += '<div><fieldset id="module_settings" style="margin-bottom: 10px;">';
-        markup += '<legend>' + I18n.t('lssm.managedsettings.text2') + '</legend>';
-        markup += '</fieldset></div>';
-        markup += '<p>';
-        markup += '<button type="button" class="btn btn-success btn-sm" id="' + lssm.config.prefix +
-            '_appstore_ManagedSettings_close" aria-label="Close">';
+        markup += '<span class="pull-right">';
+        markup += '<button type="button" class="btn btn-success btn-sm ';
+		markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
         markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.save') + '</span>';
         markup += '</button>';
-        markup += '</p>';
-        markup += '<span class="pull-right">';
         markup += '<a id="lssm-export-settings" class="btn btn-warning btn-xs" style="margin-right: 5px;">';
         markup += '<span aria-hidden="true"><span class="glyphicon glyphicon-floppy-save"></span>' + I18n.t(
             'lssm.managedsettings.export_btn') + '</span>';
@@ -86,8 +85,19 @@
         markup += '</a>';
         markup += '<span class="label label-danger">Version: ' + VERSION + '</span>';
         markup += '</span>';
+		markup += '</div>';
+        markup += '<div><fieldset id="module_settings" style="margin-bottom: 10px;">';
+        markup += '<legend>' + I18n.t('lssm.managedsettings.text2') + '</legend>';
+        markup += '</fieldset></div>';
+        markup += '<p>';
+        markup += '<button type="button" class="btn btn-success btn-sm ';
+		markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
+        markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.save') + '</span>';
+        markup += '</button>';
+        markup += '</p>';
         markup += '</div>';
-        $('#map_outer').before(markup);
+        //$('#map_outer').before(markup);
+		let dom = lssm.modal.show(markup);
 
         let sortable = [];
         for (let module in lssm.managedSettings.registeredModules) {
@@ -126,7 +136,7 @@
 
 
         // Save & Close function
-        $('#' + lssm.config.prefix + '_appstore_ManagedSettings_close').click(function () {
+        $('.' + lssm.config.prefix + '_appstore_ManagedSettings_close').click(function () {
             saveSettings();
             location.reload();
         });
