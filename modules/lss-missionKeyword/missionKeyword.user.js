@@ -725,7 +725,8 @@
         242: 'Truck Rear-Ended with Entrapment',
         243: 'Attempted Hommicide',
         244: 'Fare dodger',
-        245: 'Medical emergency on crane'
+        245: 'Medical emergency on crane',
+        246: 'Patient Transfer'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1871,7 +1872,8 @@
       242: 'TECH 1',
       243: 'POL 3',
       244: 'POL 1',
-      245: 'TECH 1'
+      245: 'TECH 1',
+      246: 'MEDT'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',

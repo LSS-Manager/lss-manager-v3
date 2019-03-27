@@ -967,7 +967,8 @@
 				242: '3x Firetrucks<br>1x Heavy Rescue<br>1x Police Car<br>max. 2x Ambulances<br><br><span class="badge">Credits: ~ 1250 </span>',
 				243: '6x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1000 </span>',
 				244: '1x Police Car<br><br><span class="badge">Credits: ~ 120 </span>',
-				245: '1x Firetruck<br>2x Heavy Rescue<br>1x Battalion Chief<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>'
+				245: '1x Firetruck<br>2x Heavy Rescue<br>1x Battalion Chief<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>',
+				246: '<h4>A and B Code</h4><br>1x BLS Ambulance<br><h4>Other Codes</h4><br>1x ALS Ambulance'
 			}
 		}
 
