@@ -1054,70 +1054,12 @@ lssm.appstore = {
         let prefix = lssm.config.prefix + '_appstore';
         let div = $(
             '<div class="col-md-12 lssm.appstore" id="' + prefix + '">' +
-            '<div class="jumbotron">' +
-            '<h1>' + I18n.t('lssm.appstore') + '</h1>' +
-            '<p>' + I18n.t('lssm.appstore_welcome') + '.</p>' +
-            '<p>' + I18n.t('lssm.appstore_desc') + '</p> <br>' +
-            '<p>' +
+            '<div class="jumbotron jumbotron-fluid">' +
+            '<h2>' + I18n.t('lssm.appstore') + '</h2>' +
+            '<p class="lead">' + I18n.t('lssm.appstore_welcome') + '.</p>' +
+            '<p>' + I18n.t('lssm.appstore_desc') + '</p>' +
             '<input type="text" class="form-control pull-right" id="' + prefix +
             '_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
-            '<span class="pull-right"><small>MADE BY:</small>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">' +
-            '@lost</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=lost" target="_blank" ' +
-            'class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/168556" target="_blank" class="username-link">' +
-            '@Northdegree</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=Northdegree" target="_blank"' +
-            ' class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/201213" target="_blank" class="username-link">' +
-            '@Mausmajor</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=Mausmajor" target="_blank"' +
-            ' class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/359760" target="_blank" class="username-link">' +
-            '@DLRG-Dominik</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=DLRG-Dominik" target="_blank" ' +
-            'class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="https://www.leitstellenspiel.de/profile/68742" target="_blank" class="username-link">' +
-            '@MrWeezle</a>&nbsp;' +
-            '<a href="https://www.leitstellenspiel.de/messages/new?target=MrWeezle" target="_blank" ' +
-            'class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.sanni.id') +'" target="_blank" class="username-link">' +
-            '@SanniHameln</a>&nbsp;' +
-            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.sanni.name') +'" target="_blank" ' +
-            'class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>&nbsp;' +
-            '<span class="label label-primary">' +
-            '<a href="'+ I18n.t('lssm.domainpro') +''+ I18n.t('lssm.developers.kboe.id') +'" target="_blank" class="username-link">' +
-            '@KBOE2</a>&nbsp;' +
-            '<a href="' + I18n.t('lssm.domainmes') + '' + I18n.t('lssm.developers.kboe.name') +'" target="_blank" ' +
-            'class="username-link">' +
-            '<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>' +
-            '</a>' +
-            '</span>' +
             '</div>' +
             '</div>'
         );
