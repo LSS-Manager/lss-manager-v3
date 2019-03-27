@@ -16,7 +16,8 @@
         startPersonell: 'Start Personal',
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
-        maxBuildins: 'Baugrenze'
+        maxBuildins: 'Baugrenze',
+        wtank: 'Wassertank'
     };
 
     I18n.translations.en.lssm.overview = {
@@ -107,7 +108,7 @@
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
             maxBuildings: '1.850',
-            special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
+            special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
         },
         fwschule: {
             name: 'Feuerwehrschule',
@@ -152,7 +153,7 @@
             levelcost: 'jeweils 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Keine Fahrzeuge stationierbar, dafür aber 10 Betten von Beginn an',
-            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirurgie nur 10.000 Credits/)',
+            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allgemeine Chirurgie nur 10.000 Credits/)',
             maxBuildings: 'Keine Grenze',
             special: 'Finanzminister und Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
@@ -296,6 +297,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 2000,
                 coins: 25
             },
             lf10: {
@@ -303,6 +305,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 1200,
                 coins: 25
             },
             dlk23: {
@@ -342,6 +345,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 600,
                 coins: 25
             },
             lf2016: {
@@ -349,21 +353,24 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1600
             },
             lf106: {
                 name: 'LF 106',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 600
             },
             lf16ts: {
                 name: 'LF 16-TS',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 0
             },
             gwoel: {
                 name: 'GW-Öl',
@@ -427,70 +434,88 @@
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2000
             },
             tlf3000: {
                 name: 'TLF 3000',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 3000
+            },
+            tlf4000: {
+                name: 'TLF 4000',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 25,
+                wtank: 4000
             },
             tlf88: {
                 name: 'TLF 8/8',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 800
             },
             tlf818: {
                 name: 'TLF 8/18',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             tlf1624tr: {
                 name: 'TLF 16/24-Tr',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2400
             },
             tlf1625: {
                 name: 'TLF 16/25',
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2500
             },
             tlf1645: {
                 name: 'TLF 16/45',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4500
             },
             tlf2040: {
                 name: 'TLF 20/40',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf2040sl: {
                 name: 'TLF 20/40-SL',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf16: {
                 name: 'TLF 16',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             gwgefahr: {
                 name: 'GW-Gefahrgut',
@@ -507,7 +532,8 @@
                 max: 9,
                 credits: 20000,
                 coins: 25,
-                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.'
+                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
+                wtank: 1600
             },
             gwhoehen: {
                 name: 'GW-Höhenrettung',
@@ -540,7 +566,8 @@
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 500
             },
             wlf: {
                 name: 'WLF',
@@ -634,6 +661,7 @@
                 credits: 80000,
                 coins: 25,
                 schooling: 'Flugfeldlöschfahrzeug',
+                wtank: 12000,
                 special: 'Kann nur an Feuerwachen mit der Ausbaute "Flughafenfeuerwehr" stationiert werden'
             },
             rtf: {
@@ -670,7 +698,8 @@
                 credits: 20000,
                 coins: 25,
                 schooling: 'Werkfeuerwehr',
-                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden'
+                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden',
+                wtank: 5000
             },
             gwwerk: {
                 name: 'GW-Werkfeuerwehr',
@@ -1049,6 +1078,17 @@
             maxBuildings: '1.850',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
+        fwklein: {
+            name: 'Fire Station (Small)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
+            startPersonell: 10,
+            startVehicle: 'Type 1 fire engine, Type 2 fire engine',
+            maxBuildings: '1.850',
+            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
+        },
         fwschule: {
             name: 'Fire Academy',
             credits: 500000,
@@ -1083,6 +1123,17 @@
             extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit',
             special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+        },
+        khklein: {
+            name: 'Urgent Care Center',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: 'in each case 20.000 Credits/11 Coins',
+            startPersonell: 0,
+            startVehicle: 'Non. You can buy max. 2 Vehicles',
+            extensions: 'General Internal (10.000 Credits/10 Coins)',
+            maxBuildings: 'No Limit'
         },
         rth: {
             name: 'Helicopter Station',
@@ -1935,7 +1986,7 @@
 
             for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
                 vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
-                $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>')
             }
         }
 
