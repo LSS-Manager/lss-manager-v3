@@ -1039,15 +1039,6 @@ lssm.appstore = {
                 '</div>' +
                 '</div>' +
                 '</div>');
-            panel.find("h4").on("click", function () {
-                "use strict";
-                let next = $(this).next();
-                if (next.is(":hidden")) {
-                    next.slideDown("slow");
-                } else {
-                    next.slideUp("slow");
-                }
-            });
             panels.find("#apps_col_" + col).append(panel);
             col++;
             if (col > 2) {
@@ -1070,10 +1061,6 @@ lssm.appstore = {
             '<p>' +
             '<input type="text" class="form-control pull-right" id="' + prefix +
             '_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
-            '<button type="button" class="btn btn-grey btn-sm" id="' + prefix +
-            '_close" aria-label="Close">' +
-            '<span aria-hidden="true">' + I18n.t('lssm.back_lss') + '</span>' +
-            '</button></p>' +
             '<span class="pull-right"><small>MADE BY:</small>&nbsp;' +
             '<span class="label label-primary">' +
             '<a href="https://www.leitstellenspiel.de/profile/81460" target="_blank" class="username-link">' +
@@ -1134,37 +1121,6 @@ lssm.appstore = {
             '</div>' +
             '</div>'
         );
-        div.on('keyup', '#' + prefix + '_search', function () {
-            "use strict";
-            let ss = $(this).val();
-            if (ss.length > 0) {
-                div.find(".lssm_module:containsci(" + ss + ")").show();
-                div.find(".lssm_module:not(:containsci(" + ss + "))").hide();
-            } else {
-                div.find(".lssm_module").show();
-            }
-        });
-        div.on('click', '#' + prefix + '_close', function () {
-            lssm.appstore.closeAppstore();
-        });
-        div.on('change', '.onoffswitch-checkbox', function (ev) {
-            let e = ev.target;
-            if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
-                $(e).prop('checked', false);
-                let warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
-                    'lssm.cantactivate');
-                // TODO: Sprechendere Variablennamen
-                for (let c in lssm.Module[e.value].collisions) {
-                    let d = lssm.Module[e.value].collisions[c];
-                    if (lssm.Module[d].active) {
-                        warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
-                    }
-                }
-                alert(warn);
-                return;
-            }
-            lssm.Module[e.value].active = e.checked;
-        });
         div.append(this.createModulePanels());
         return div;
     },
@@ -1176,34 +1132,62 @@ lssm.appstore = {
         let settingButton = $('<li role="presentation" id="' + prefix + '"><a id="' + prefix +
             '_activate" href="#">' +
             I18n.t('lssm.appstore') + '</a></li>');
-        let div = $('<div class="row" id="' + prefix + '_row"></div>').append(this.createModuleMain());
+
         let content = $('#navbar-mobile-footer').prev();
-        // hier ist alles drin
         content.attr('id', 'content');
-        //div.append(createModulePanels());
+		
         settingButton.click(function () {
-            // versteckt den Hauptkörper von LSS und öffnet das LSS Manager Einstellungsfenster / den Appstore
-            content.hide().after(div);
-            $('#' + lssm.config.prefix + '_appstore_row').show();
-            $('footer').hide();
-            //lssm.modal.show(div[0].innerHTML, lssm.appstore.closeAppstore);
+			let div = $('<div class="row" id="' + prefix + '_row"></div>').append(lssm.appstore.createModuleMain());
+			let dom = lssm.modal.show(div.html(), lssm.appstore.closeAppstore);
+			$(dom).on('keyup', '#' + prefix + '_search', function () {
+				"use strict";
+				let ss = $(this).val();
+				if (ss.length > 0) {
+					$(dom).find(".lssm_module:containsci(" + ss + ")").show();
+					$(dom).find(".lssm_module:not(:containsci(" + ss + "))").hide();
+				} else {
+					$(dom).find(".lssm_module").show();
+				}
+			});
+			$(dom).on('change', '.onoffswitch-checkbox', function (ev) {
+				let e = ev.target;
+				if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
+					$(e).prop('checked', false);
+					let warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
+						'lssm.cantactivate');
+					// TODO: Sprechendere Variablennamen
+					for (let c in lssm.Module[e.value].collisions) {
+						let d = lssm.Module[e.value].collisions[c];
+						if (lssm.Module[d].active) {
+							warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
+						}
+					}
+					alert(warn);
+					return;
+				}
+				lssm.Module[e.value].active = e.checked;
+			});
+            $(dom).find("h4").on("click", function () {
+                "use strict";
+                let next = $(this).next();
+                if (next.is(":hidden")) {
+                    next.slideDown("slow");
+                } else {
+                    next.slideUp("slow");
+                }
+            });
         });
         // einhängen des Buttons in der Navi
         $('#' + lssm.config.prefix + '_menu').append(settingButton);
     },
     closeAppstore: function () {
         "use strict";
-        //var action = lssm.appstore.checkModChanges();
-        let action = this.checkModChanges();
+        let action = lssm.appstore.checkModChanges();
         lssm.modules.saveall();
         if (action === "Reload") {
             location.reload();
         } else {
-
-            $('#' + lssm.config.prefix + '_appstore_row').hide();
-            $('#content').show();
-            $('footer').show();
-            //$(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
+            $(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
             // Inform the user about activated modules.
             let activated = "";
             for (let m in action) {
@@ -1510,11 +1494,11 @@ lssm.modal = {
         $("#lightbox_box").css("top", (i - n) / 2 + "px");
         $("#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container").css("height", a).css(
             "width", o);
-        if (typeof closefunc !== "undefined") {
-            $(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
-        }
         setTimeout(function () {
             $("#lightbox_iframe_" + iframe_lightbox_number).show().focus();
+			if (typeof closefunc !== "undefined") {
+				$(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
+			}
         }, 100);
         return "#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container";
     }
