@@ -59,20 +59,19 @@
         import_fail: "Foutmelding: Er is een fout opgetreden bij het importeren van het volgende bestand: <strong> {0} </ strong>." +
             "Informeer AUB een ontwikkelaar van deze melding."
     };
-	function closeManagedSettings() {
-		$(document).unbind(lssm.hook.prename("lightboxClose"), closeManagedSettings)
-        console.log(iframe_lightbox_number);
-		$("#lightbox_iframe_"+iframe_lightbox_number).remove();
-	}
-	
+    function closeManagedSettings() {
+        $(document).unbind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
+        $("#lightbox_iframe_"+iframe_lightbox_number).remove();
+    }
+
     function renderSettings() {
-		$(document).bind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
+        $(document).bind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
         let markup = '<div class="col-md-12" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
         markup += '<h1>' + I18n.t('lssm.managedsettings.title') + '</h1>';
         markup += '<p>' + I18n.t('lssm.managedsettings.text1') + '</p>';
         markup += '<span class="pull-right">';
         markup += '<button type="button" class="btn btn-success btn-sm ';
-		markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
+        markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
         markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.save') + '</span>';
         markup += '</button>';
         markup += '<a id="lssm-export-settings" class="btn btn-warning btn-xs" style="margin-right: 5px;">';
@@ -86,24 +85,24 @@
         markup += '</a>';
         markup += '<span class="label label-danger">Version: ' + VERSION + '</span>';
         markup += '</span>';
-		markup += '</div>';
+        markup += '</div>';
         markup += '<div class="col-md-12">';
-		markup += '<fieldset id="module_settings" style="margin-bottom: 10px;">';
-		markup += '<div id="managedsettings_tab_button"></div>';
+        markup += '<fieldset id="module_settings" style="margin-bottom: 10px;">';
+        markup += '<div id="managedsettings_tab_button"></div>';
         markup += '<legend>' + I18n.t('lssm.managedsettings.text2') + '</legend>';
-		markup += '<div id="managedsettings_tabs">';
-		markup += '</div>';
+        markup += '<div id="managedsettings_tabs">';
+        markup += '</div>';
         markup += '</fieldset>';
-		markup += '</div>';
+        markup += '</div>';
         markup += '<p>';
         markup += '<button type="button" class="btn btn-success btn-sm ';
-		markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
+        markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
         markup += '<span aria-hidden="true">' + I18n.t('lssm.managedsettings.save') + '</span>';
         markup += '</button>';
         markup += '</p>';
         markup += '</div>';
         //$('#map_outer').before(markup);
-		let dom = lssm.modal.show(markup);
+        let dom = lssm.modal.show(markup);
 
         let sortable = [];
         for (let module in lssm.managedSettings.registeredModules) {
@@ -115,19 +114,19 @@
             if (a.title > b.title) return 1;
             return 0;
         });
-		let first = true;
+        let first = true;
         $.each(sortable, function () {
             let module = this;
             let moduleKey = module.id;
-			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '" class="btn btn-sm btn-primary">' + module.title + '</button>');
+            $("#managedsettings_tab_button").append('<button id="' + moduleKey + '" class="btn btn-sm btn-primary">' + module.title + '</button>');
             markup = "";
-			if(first)
-			{
-				markup += '<div id="' + moduleKey + '_wrap">';
-				first = false;
-			}
-			else
-				markup += '<div id="' + moduleKey + '_wrap" style="display:none">';
+            if(first)
+            {
+                markup += '<div id="' + moduleKey + '_wrap">';
+                first = false;
+            }
+            else
+                markup += '<div id="' + moduleKey + '_wrap" style="display:none">';
             markup += '<h3>' + module.title +
                 '<button class="btn btn-default settings-reset" data-module="' + moduleKey +
                 '" style="margin-left: 5px;" type="reset"><span class="glyphicon glyphicon-floppy-remove" title="' + I18n.t(
@@ -146,12 +145,12 @@
                 }
             }
         });
-		$('#managedsettings_tab_button button').on("click", function(e){
-			let tab = e.target.getAttribute('id');
-			$('#managedsettings_tabs').children(':visible').fadeOut('fast', function(){
-				$('#managedsettings_tabs #' + tab + '_wrap').fadeIn();
-			});
-		});
+        $('#managedsettings_tab_button button').on("click", function(e){
+            let tab = e.target.getAttribute('id');
+            $('#managedsettings_tabs').children(':visible').fadeOut('fast', function(){
+                $('#managedsettings_tabs #' + tab + '_wrap').fadeIn();
+            });
+        });
 
 
         // Save & Close function
@@ -264,7 +263,7 @@
 
     function renderUIElement(moduleKey, settingsKey, element) {
         let elementName = moduleKey + '_' + settingsKey;
-        let response = '<div id="' + elementName + '_wrap">';
+        let response = '<div id="' + elementName + '_wrap"' + (element.ui.hidden ? 'style="display: none;"' : '') + ' class="lssm_setting_line">';
         if (element.ui.type === "radio") {
             let optionCount = 0;
             $.each(element.ui.options, function () {
