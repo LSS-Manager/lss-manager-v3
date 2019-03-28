@@ -57,7 +57,7 @@
         import_success: "De instellingen zijn succesvol geïmporteerd. Ververs de pagina om ze te gebruiken.",
         import_missmatch: "Het te openen bestand werkt helaas niet meer met de huidige versie van LSSM.",
         import_fail: "Foutmelding: Er is een fout opgetreden bij het importeren van het volgende bestand: <strong> {0} </ strong>." +
-            "Informeer AUB een ontwikkelaar van deze melding."
+        "Informeer AUB een ontwikkelaar van deze melding."
     };
     function closeManagedSettings() {
         $(document).unbind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
@@ -269,31 +269,34 @@
             $.each(element.ui.options, function () {
                 let prop_checked = "";
                 if (this.value === element.value) prop_checked = " checked ";
-                response += '<div id="' + elementName + '_' + optionCount + '_wrap">';
+                response += '<div id="' + elementName + '_' + optionCount + '_wrap" class="col-md-12" style="border-bottom:1px solid black">';
+                response += '<div style="margin-left: 4px;" class="col-md-6">' + this.title + '<br />';
+                response += '<small>' + this.description + '</small></div>';
+                response += '<div class="col-md-4">';
                 response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount + '" ' +
                     prop_checked;
                 response += ' value="' + this.value + '">';
-                response += '<label style="margin-left: 4px;" for="radio-1" class="col-md-6">' + this.title + '</label>';
-                response += '<div style="margin-left: 16px;" class="col-md-6">' + this.description + '</div>';
-                response += '</div>';
+                response += '</div></div>';
                 optionCount++;
             });
         } else if (element.ui.type === "checkbox") {
             let checked = element.value === true ? " checked " : "";
-            response += '<div style="margin-left: 16px;"><input type="checkbox" ' + checked +
-                ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '">' + element.ui.label + '</div>';
-            if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
+            response += '<div style="margin-left: 16px;" class="col-md-12">';
+            response += '<div class="col-md-6">' + element.ui.label;
+            if (element.ui.description) response += '<br /><small>' + element.ui.description + '</small>';
+            response += '</div>';
+            response += '<div class="col-md-2"><input type="checkbox" ' + checked +
+                ' style="margin-right: 4px;" name="' + elementName + '" id="' + elementName + '"></div>';
+            response += '</div>';
         } else if (element.ui.type === "hidden") {
             response += '<input type="hidden" value="' + element.value + '" id="' + elementName + '" name="' + elementName +
                 '">';
         } else if (element.ui.type === "button") {
+            response += '<div class="col-md-3">';
             response += '<button type="button" class="btn btn-grey btn-sm" id="' + elementName +
-                '" style="margin-left: 16px;">';
-            response += '<span>' + element.ui.label + '</span>';
-            response += '</button>';
+                '" style="margin-left: 16px;">' + element.ui.label + '</button></div>';
         } else if (element.ui.type === "text" || element.ui.type === "int" || element.ui.type === "float") {
-            response += '<div class="col-md-12" id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
-                '>';
+            response += '<div class="col-md-12 ' + (element.ui.class ? element.ui.class : "") + '" id="' + elementName + '_wrap">';
             response += '<span style="margin-left: 4px;" class="col-md-4">' + element.ui.label + '</span>';
             response += '<input type="text" class="col-md-4" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
                 '">';
@@ -321,6 +324,7 @@
         } else {
             console.log(elementName + ' has unknown ui type: ' + element.ui.type);
         }
+        response += '</div>';
         return response;
     }
 
