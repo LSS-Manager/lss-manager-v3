@@ -66,7 +66,7 @@
 	
     function renderSettings() {
 		$(document).bind(lssm.hook.prename("lightboxClose"), closeManagedSettings);
-        let markup = '<div class="jumbotron jumbotron-fluid" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
+        let markup = '<div class="col-md-12" id="' + lssm.config.prefix + '_appstore_ManagedSettings">';
         markup += '<h1>' + I18n.t('lssm.managedsettings.title') + '</h1>';
         markup += '<p>' + I18n.t('lssm.managedsettings.text1') + '</p>';
         markup += '<span class="pull-right">';
