@@ -86,7 +86,7 @@
         markup += '<span class="label label-danger">Version: ' + VERSION + '</span>';
         markup += '</span>';
 		markup += '</div>';
-        markup += '<div><fieldset id="module_settings" style="margin-bottom: 10px;">';
+        markup += '<div class="col-md-12"><fieldset id="module_settings" style="margin-bottom: 10px;">';
         markup += '<legend>' + I18n.t('lssm.managedsettings.text2') + '</legend>';
         markup += '</fieldset></div>';
         markup += '<p>';
