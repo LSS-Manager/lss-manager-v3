@@ -1027,7 +1027,7 @@ lssm.appstore = {
             if ('noapp' in mod && mod.noapp === true || !isSupportedLocale) {
                 continue;
             }
-            let nomapkit = (typeof mapkit !== undefined && 'nomapkit' in mod && mod.nomapkit === true);
+            let nomapkit = (typeof mapkit !== "undefined" && 'nomapkit' in mod && mod.nomapkit === true);
             let dom = '<div style="margin-top:10px;" class="lssm_module' +
                 (mod.develop ? ' lssm_module_develop' : '') + '">' +
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
@@ -1510,7 +1510,7 @@ lssm.modal = {
                     let deact = 0;
                     for (let i in modules) {
                         let modname = i.toString();
-                        let nomapkit = (typeof mapkit !== undefined && 'nomapkit' in lssm.Module[i] && lssm.Module[i].nomapkit === true);
+                        let nomapkit = (typeof mapkit !== "undefined" && 'nomapkit' in lssm.Module[i] && lssm.Module[i].nomapkit === true);
                         if (nomapkit && lssm.Module[i].active) {
                             console.error(modname + " is not compatible with mapkit.");
                             lssm.Module[i].active = false;
