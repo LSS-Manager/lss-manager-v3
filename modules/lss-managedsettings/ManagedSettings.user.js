@@ -86,9 +86,14 @@
         markup += '<span class="label label-danger">Version: ' + VERSION + '</span>';
         markup += '</span>';
 		markup += '</div>';
-        markup += '<div class="col-md-12"><fieldset id="module_settings" style="margin-bottom: 10px;">';
+        markup += '<div class="col-md-12">';
+		markup += '<fieldset id="module_settings" style="margin-bottom: 10px;">';
+		markup += '<div id="managedsettings_tab_button"></div>';
         markup += '<legend>' + I18n.t('lssm.managedsettings.text2') + '</legend>';
-        markup += '</fieldset></div>';
+		markup += '<div id="managedsettings_tabs">';
+		markup += '</div>';
+        markup += '</fieldset>';
+		markup += '</div>';
         markup += '<p>';
         markup += '<button type="button" class="btn btn-success btn-sm ';
 		markup += lssm.config.prefix +'_appstore_ManagedSettings_close" aria-label="Close">';
@@ -113,8 +118,9 @@
         $.each(sortable, function () {
             let module = this;
             let moduleKey = module.id;
+			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '">' + module.title + '</button>');
             markup = "";
-            markup += '<div id="' + moduleKey + '_wrap">';
+            markup += '<div id="' + moduleKey + '_wrap" style="display:none">';
             markup += '<h3>' + module.title +
                 '<button class="btn btn-default settings-reset" data-module="' + moduleKey +
                 '" style="margin-left: 5px;" type="reset"><span class="glyphicon glyphicon-floppy-remove" title="' + I18n.t(
@@ -123,7 +129,7 @@
                 markup += '<h5 id="' + moduleKey + '_description">' + module.info_text + '</h5>';
             }
             markup += '</div>';
-            $('#module_settings').append(markup);
+            $('#managedsettings_tabs').append(markup);
             for (let settingsKey in module.settings) {
                 if (module.settings[settingsKey].ui.parent) {
                     $('#' + module.settings[settingsKey].ui.parent + '_wrap').append(renderUIElement(moduleKey, settingsKey, module
@@ -133,6 +139,13 @@
                 }
             }
         });
+		
+		$('#managedsettings_tab_button button').on("click", function(e){
+			let tab = e.target.getAttribute('id');
+			$('#managedsettings_tabs').children().fadeOut('fast', function(){
+				$('#managedsettings_tabs #' + tab + '_wrap').fadeIn();
+			});
+		});
 
 
         // Save & Close function
