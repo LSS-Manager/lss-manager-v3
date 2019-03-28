@@ -1053,13 +1053,11 @@ lssm.appstore = {
         let prefix = lssm.config.prefix + '_appstore';
         let div = $(
             '<div class="col-md-12 lssm.appstore" id="' + prefix + '">' +
-            '<div class="jumbotron jumbotron-fluid">' +
             '<h2>' + I18n.t('lssm.appstore') + '</h2>' +
             '<p class="lead">' + I18n.t('lssm.appstore_welcome') + '.</p>' +
             '<p>' + I18n.t('lssm.appstore_desc') + '</p>' +
             '<input type="text" class="form-control pull-right" id="' + prefix +
             '_search" placeholder="Suche" style=" width:25%;display:inline-block;">' +
-            '</div>' +
             '</div>'
         );
         div.append(this.createModulePanels());
