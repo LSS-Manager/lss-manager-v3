@@ -118,7 +118,7 @@
         $.each(sortable, function () {
             let module = this;
             let moduleKey = module.id;
-			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '" class="btn btn-xs btn-default">' + module.title + '</button>');
+			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '" class="btn btn-sm btn-primary">' + module.title + '</button>');
             markup = "";
 			if(first)
 			{
