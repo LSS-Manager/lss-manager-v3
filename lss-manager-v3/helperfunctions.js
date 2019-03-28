@@ -7,16 +7,6 @@
 // 3 = THW
 // 4 = Wasserrettung
 if(I18n.locale == "en")
-	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Ambulance extension": 0,
-		"Water rescue expansion": 1,
-		"Airport extension": 2,
-		// Pol-Erweiterungen (10-19)
-		//Schule-Erweiterungen (20-29)
-		// SEG-Erweiterungen (30-39)
-		// THW-Erweiterungen (40-49)
-	}
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -48,17 +38,6 @@ if(I18n.locale == "en")
         "27": ["BLS Ambulance", 1]
     }
 else if (I18n.locale == "nl")
-	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Ambulance standplaats": 0,
-		"Waterongevallenbestrijding": 1,
-		"Vliegtuigbrandbestrijding": 2,
-		"Haakarmbak parkeerplaats": 5,
-		// Pol-Erweiterungen (10-19)
-		//Schule-Erweiterungen (20-29)
-		// SEG-Erweiterungen (30-39)
-		// THW-Erweiterungen (40-49)
-	}
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -114,40 +93,6 @@ else if (I18n.locale == "nl")
         "51": ["HVH | HulpverleningsHaakarmbak", 0]
     }
 else if (I18n.locale == "de")
-	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Rettungsdienst-Erweiterung": 0,
-		"Wasserrettungs-Erweiterung": 1,
-		"Flughafen-Erweiterung": 2,
-		"Großwache": 3,
-		"Werkfeuerwehr": 4,
-		"Abrollbehälter-Stellplatz": 5,
-		// Pol-Erweiterungen (10-19)
-		"Zelle": 10,
-		"Weitere Zelle": 10,
-		"2. Zug der 1. Hundertschaft ": 11,
-		"3. Zug der 1. Hundertschaft ": 11,
-		"Sonderfahrzeug: Gefangenenkraftwagen": 12,
-		"Technischer Zug: Wasserwerfer": 13,
-		"SEK 1. Zug": 14,
-		"SEK 2. Zug": 14,
-		"MEK 1. Zug": 15,
-		"MEK 2. Zug": 15,
-		//Schule-Erweiterungen (20-29)
-		"Weiterer Klassenraum": 20,
-		// SEG-Erweiterungen (30-39)
-		"Führung": 30,
-		"Sanitätsdienst": 31,
-		"Wasserrettung": 32,
-		// THW-Erweiterungen (40-49)
-		"Bergungsgruppe 2": 40,
-		"Zugtrupp": 41,
-		"Fachgruppe Räumen": 42,
-		"Fachgruppe Wassergefahren": 43,
-		"2. Technischer Zug - Grundvoraussetzung": 44,
-		"2. Technischer Zug: Bergungsgruppe 2": 45,
-		"2. Technischer Zug: Zugtrupp ": 46,
-	}
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -168,7 +113,7 @@ else if (I18n.locale == "de")
         "16": ["SW Kats", 0],
         "17": ["TLF 2000", 0],
         "18": ["TLF 3000", 0],
-        "19": ["TLF 8/8", 0],
+        "19": ["TLF 8/18", 0],
         "20": ["TLF 8/18", 0],
         "21": ["TLF 16/24-Tr", 0],
         "22": ["TLF 16/25", 0],
@@ -239,13 +184,6 @@ else if (I18n.locale == "de")
         "87": ["TLF 4000", 0]
     };
 
-lssm.getExtensionByName = function(extension) {
-    if(extension in lssm.extensions){
-        return lssm.extensions[extension];
-    } else {
-        return null;
-    }
-}
 lssm.getVehicleNameById = function(vehicleId) {
     if(vehicleId in lssm.carsById){
         return lssm.carsById[vehicleId][0];
@@ -256,85 +194,62 @@ lssm.getVehicleNameById = function(vehicleId) {
 
 lssm.car_list = function(building) {
     // liefert die Fahrzeuge einer Wache zurück
-    let data = [];
-    $.each(lssm.vehicles, function (vid, car) {
-        if(car.building != building)
-            return true;
+    var data = [];
+    $('#vehicle_building_' + building).find('li').each(function (index, element) {
         data.push({
-            "id": vid,
-            "name": car.name,
-            "type": car.type,
-            "customname": car.customtype,
-            "fms_real": car.fms_real,
-            "fms_show": car.fms_show,
+            "id": $(element).attr('vehicle_id'),
+            "name": $(element).find('a').html(),
+            "type": $(element).find('a').attr('vehicle_type_id'),
+            "fms": $(element).find(".building_list_fms").html(),
+            "classes": $(element).find(".building_list_fms").attr('class')
         });
     });
     return data;
 }
 lssm.car_list_all = function() {
-    return lssm.vehicles;
+    var data = [];
+    $("[id^='vehicle_building']").find('li').each(function (index, element) {
+        data.push({
+            "id": $(element).attr('vehicle_id'),
+            "name": $(element).find('a').html(),
+            "type": $(element).find('a').attr('vehicle_type_id'),
+            "fms": $(element).find(".building_list_fms").html(),
+            "classes": $(element).find(".building_list_fms").attr('class')
+        });
+    });
+    return data;
 }
 // Formatiert Fahrzeugliste um (mit FMS)
 lssm.car_list_printable = function(list) {
-    let data = "";
+    var data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_show + "\">" + car.fms_real + "</span> " + car.name +
+		data += "<div style=\"margin-top: 3px;\"><span class=\"" + car.classes + "\">" + car.fms + "</span> " + car.name +
 			"</div>";
     });
     return data;
 }
 
-lssm.get_vehicles = function(async = false) {
-    let path = window.location.pathname.length;
-    if (path <= 2) {
-        let tmpCar = {};
-        $.ajax({
-            url: "/api/vehicles",
-            method: "GET",
-            cache: true,
-            async: !async,
-            success: function (response) {
-                $.each(response, function (key, car) {
-                    tmpCar[car.id] = {
-                        name: car.caption,
-                        building: car.building_id,
-                        type: car.vehicle_type,
-                        customtype: car.vehicle_type_caption,
-                        fms_real: car.fms_real,
-                        fms_show: car.fms_show,
-                    };
-                });
-                lssm.vehicles = tmpCar;
-            }
-        });
-    }
-};
+lssm.get_buildings = function() {
+    var data = [],
+        stationId, stationName, stationLat, stationLng, stationType, el, map;
+    $('#building_list').find('.building_list_li').each(function(index, element) {
+        el = $(element).find('.building_list_caption'),
+            map = el.find('.map_position_mover'),
+            stationId = el.find('.building_marker_image').attr('building_id'),
+            stationName = map.html(),
+            stationLat = map.attr('data-latitude'),
+            stationLng = map.attr('data-longitude'),
+            stationType = $(element).attr('building_type_id');
 
-// Funktion zum Updaten des FMS eigener Fzg.
-$(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
-    if(t.type == "vehicle_fms"
-        && lssm.vehicles.hasOwnProperty(t.id)
-        && !t.fms_text.startsWith("[Verband]"))
-    {
-        lssm.vehicles[t.id].name = t.caption;
-        lssm.vehicles[t.id].fms_show = t.fms;
-        lssm.vehicles[t.id].fms_real = t.fms_real;
-    }
-});
-
-lssm.get_buildings = function(async = false) {
-    let path = window.location.pathname.length;
-    if (path <= 2) {
-        $.ajax({
-            url: "/api/buildings",
-            method: "GET",
-            cache: true,
-            async: !async,
-            success: function (response) {
-                lssm.buildings = response;
-            }
+        data.push({
+            'stationId': stationId,
+            'stationName': stationName,
+            'stationLat': stationLat,
+            'stationLng': stationLng,
+            'stationType': parseInt(stationType)
         });
-    }
+    });
+    return data;
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
 lssm.newDragableDivOnMap=function(id, classe, pos) {
@@ -342,7 +257,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
         if (p <= -m + info._div.offsetWidth + 20)
             return -m + info._div.offsetWidth + 20;
         else if (p >= 0)
-            return 0;
+            return 0
         else
             return p;
     }
@@ -355,21 +270,21 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
         else
             return p
     }
-    let info = L.control();
+    var info = L.control();
 
     info.onAdd = function () {
         this._div = L.DomUtil.create('div', classe || "");
         this._div.id = id+"Div";
-        let m = map.getSize();
+        var m = map.getSize();
         L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
         this.update();
         return this._div;
     };
 
     info.update = function () {
-        let m = map.getSize();
-        let p = L.DomUtil.getPosition(info._div);
-        let pos = {
+        var m = map.getSize();
+        var p = L.DomUtil.getPosition(info._div);
+		var pos = {
 			x: changeX(p.x, m.x),
 			y: changeY(p.y, m.y)
 		};
@@ -378,7 +293,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
     };
 
     info.addTo(map);
-    let t = new L.Draggable(info._div);
+    var t = new L.Draggable(info._div);
     t.enable();
     t.on('drag', info.update);
     return $(info._div);
@@ -388,7 +303,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 if (!String.format) {
 //	console.log("execute");
   String.format = function(format) {
-      let args = Array.prototype.slice.call(arguments, 1);
+    var args = Array.prototype.slice.call(arguments, 1);
     return format.replace(/{(\d+)}/g, function(match, number) {
       return typeof args[number] != 'undefined' ? args[number] : match;
     });
