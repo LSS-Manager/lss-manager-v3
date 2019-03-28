@@ -1176,7 +1176,7 @@
             "type": "button",
             "custom_function_event": "click",
             "custom_function": function() {
-              $('[id^=' + LSS_MISSIONKEYWORD_STORAGE + '_missionKeyword-]').toggle();
+              $('[id^=' + LSS_MISSIONKEYWORD_STORAGE + '_missionKeyword-].lssm_setting_line').toggle();
             }
           }
         }
@@ -2318,7 +2318,8 @@
           "ui": {
             "label": I18n.t('lssm.missionKeywordDefaults.keywords.' + key) + " (ID " + key + ")",
             "type": "text",
-            "description": ""
+            "description": "",
+            "hidden": true
           }
         }
       };
