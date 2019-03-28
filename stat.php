@@ -24,28 +24,59 @@ elseif(!isset($_POST['game']) || strlen($_POST['game']) == 0)
 }
 else
 {
-  $sqllink = mysqli_connect("hostname","user","password","database");
+  $sqllink = mysqli_connect("localhost","user","password","database");
   if(!$sqllink->connect_errno>0){
     $data = $sqllink->real_escape_string($_POST['data']);
     $user = $sqllink->real_escape_string($_POST['uid']);
+	$secret = $sqllink->real_escape_string($_POST['key']);
     $name = $sqllink->real_escape_string($_POST['uname']);
     $game = $sqllink->real_escape_string($_POST['game']);
-    $notrack = $sqllink->query("SELECT id FROM notrack WHERE id LIKE '".$user."';");
+    $notrack = $sqllink->query("SELECT id FROM notrack WHERE id='".$user."';");
     $notrack = $notrack->num_rows;
-    if($notrack>0){
+	if(strlen($user) <= 0 || strlen($secret) <= 0)
+	{
+      $return['success'] = false;
+      $return['msg'] = "";		
+	}
+    else if($notrack>0){
       $return['success'] = false;
       $return['msg'] = "Not tracking";
     }else{
       $data = $sqllink->real_escape_string(mb_convert_encoding($_POST['data'],"utf8"));
       $date = $sqllink->real_escape_string(time());
       if($return['success'] == true){
-        $query = "INSERT INTO users (user,game,name,time,data) VALUES ('".$user."','".$game."','".$name."','".$date."','".$data."') ON DUPLICATE KEY UPDATE name='".$name."', game='".$game."',time='".$date."', data='".$data."';";
-        $result = $sqllink->query($query);
-        $id = $sqllink->insert_id;
-        if(!$result){
-          $return['success'] = false;
-          $return['msg'] = "SQL fail?";
-        }
+		// Haben wir die UID oder Secret bereits?
+		$matches = $sqllink->query("SELECT user,secret FROM users WHERE user='".$user."' OR secret='".$secret."';");
+		// Wir kennen weder UID, noch Secret. Wir speichern den neuen Nutzer
+		if(!$matches->num_rows)
+		{
+			$query = "INSERT INTO users (user,secret,game,name,time,data) VALUES ('".$user."','".$secret."','".$game."','".$name."','".$date."','".$data."');";
+			$result = $sqllink->query($query);
+			$id = $sqllink->insert_id;
+			if(!$result){
+			  $return['success'] = false;
+			  $return['msg'] = "SQL fail?";
+			}
+		}
+		else
+		{
+			$valid = false;
+			while ($row = $matches->fetch_assoc())
+			{
+				if($row['user'] == $user && $row['secret'] == $secret)
+				{
+					$valid = true;
+					$query = "UPDATE users SET game='".$game."', name='".$name."', time='".$date."', data='".$data."' WHERE user='".$user."' AND secret='".$secret."';";
+					$result = $sqllink->query($query);
+					break;
+				}
+			}
+			if(!$valid)
+			{
+				$return['success'] = false;
+				$return['msg'] = "Possible Spam detected!";
+			}
+		}
       }
     }
   }else{
