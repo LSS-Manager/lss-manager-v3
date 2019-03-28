@@ -7,6 +7,16 @@
 // 3 = THW
 // 4 = Wasserrettung
 if(I18n.locale == "en")
+	lssm.extensions = {
+		// FW-Erwerterungen (0-9)
+		"Ambulance extension": 0,
+		"Water rescue expansion": 1,
+		"Airport extension": 2,
+		// Pol-Erweiterungen (10-19)
+		//Schule-Erweiterungen (20-29)
+		// SEG-Erweiterungen (30-39)
+		// THW-Erweiterungen (40-49)
+	}
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -38,6 +48,17 @@ if(I18n.locale == "en")
         "27": ["BLS Ambulance", 1]
     }
 else if (I18n.locale == "nl")
+	lssm.extensions = {
+		// FW-Erwerterungen (0-9)
+		"Ambulance standplaats": 0,
+		"Waterongevallenbestrijding": 1,
+		"Vliegtuigbrandbestrijding": 2,
+		"Haakarmbak parkeerplaats": 5,
+		// Pol-Erweiterungen (10-19)
+		//Schule-Erweiterungen (20-29)
+		// SEG-Erweiterungen (30-39)
+		// THW-Erweiterungen (40-49)
+	}
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -93,6 +114,40 @@ else if (I18n.locale == "nl")
         "51": ["HVH | HulpverleningsHaakarmbak", 0]
     }
 else if (I18n.locale == "de")
+	lssm.extensions = {
+		// FW-Erwerterungen (0-9)
+		"Rettungsdienst-Erweiterung": 0,
+		"Wasserrettungs-Erweiterung": 1,
+		"Flughafen-Erweiterung": 2,
+		"Großwache": 3,
+		"Werkfeuerwehr": 4,
+		"Abrollbehälter-Stellplatz": 5,
+		// Pol-Erweiterungen (10-19)
+		"Zelle": 10,
+		"Weitere Zelle": 10,
+		"2. Zug der 1. Hundertschaft ": 11,
+		"3. Zug der 1. Hundertschaft ": 11,
+		"Sonderfahrzeug: Gefangenenkraftwagen": 12,
+		"Technischer Zug: Wasserwerfer": 13,
+		"SEK 1. Zug": 14,
+		"SEK 2. Zug": 14,
+		"MEK 1. Zug": 15,
+		"MEK 2. Zug": 15,
+		//Schule-Erweiterungen (20-29)
+		"Weiterer Klassenraum": 20,
+		// SEG-Erweiterungen (30-39)
+		"Führung": 30,
+		"Sanitätsdienst": 31,
+		"Wasserrettung": 32,
+		// THW-Erweiterungen (40-49)
+		"Bergungsgruppe 2": 40,
+		"Zugtrupp": 41,
+		"Fachgruppe Räumen": 42,
+		"Fachgruppe Wassergefahren": 43,
+		"2. Technischer Zug - Grundvoraussetzung": 44,
+		"2. Technischer Zug: Bergungsgruppe 2": 45,
+		"2. Technischer Zug: Zugtrupp ": 46,
+	}
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
