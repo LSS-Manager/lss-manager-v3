@@ -60,8 +60,9 @@
             "Informeer AUB een ontwikkelaar van deze melding."
     };
 	function closeManagedSettings() {
-		$(document).unbind(lssm.hook.postname("lightboxClose"), closeManagedSettings)
-		$("lightbox_iframe_"+iframe_lightbox_number).remove();
+		$(document).unbind(lssm.hook.prename("lightboxClose"), closeManagedSettings)
+        console.log(iframe_lightbox_number);
+		$("#lightbox_iframe_"+iframe_lightbox_number).remove();
 	}
 	
     function renderSettings() {
