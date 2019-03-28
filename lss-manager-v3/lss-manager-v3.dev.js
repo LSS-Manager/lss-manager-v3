@@ -1365,7 +1365,7 @@ lssm.modules = {
             uid = "?uid=" + game + user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
-                lssm.appstore.canActivate(lssm.Module[module]) && !nomapkit) {
+                lssm.appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe ===
                         true)) {
                     if (lssm.Module[module].source) {
@@ -1514,11 +1514,11 @@ lssm.modal = {
                             console.log(modname + " is not compatible with mapkit.");
                             lssm.Module[i].active = false;
                         }
-                        if ((modname in lssm.Module) === false) {
+                        else if ((modname in lssm.Module) === false) {
                             console.log(modname + " is not a valid app. Skipping.");
                             continue;
                         }
-                        if (lssm.Module[i].active === false) {
+                        else if (lssm.Module[i].active === false) {
                             lssm.Module[i].active = modules[i];
                         }
                     }
