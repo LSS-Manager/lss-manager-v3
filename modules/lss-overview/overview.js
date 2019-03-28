@@ -58,10 +58,6 @@
         maxBuildins: 'gebouwgrens'
     };
 
-    if ("undefined" != typeof mapkit) {
-        alert("[" + lssm.Module.overview.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit'));
-        return;
-    }
     if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
         let overviewBtn = $(
             '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +

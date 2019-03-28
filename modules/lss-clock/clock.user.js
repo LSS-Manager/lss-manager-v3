@@ -1,7 +1,4 @@
 (function($) {
-  if ("undefined" != typeof mapkit) {
-      alert("[Clock]\n\n" + I18n.t('lssm.mapkit'));
-  } else 
     /*
      * id: id des umschließendesn Divs
      * targt: hier wird das umschließende Div an erster stelle eingehängt

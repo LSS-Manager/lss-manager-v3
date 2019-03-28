@@ -478,7 +478,8 @@ lssm.Module = {
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
         develop: false,
-        collisions: ['Layout03', 'WachenplanungOnMap']
+        collisions: ['Layout03', 'WachenplanungOnMap'],
+        nomapkit: true,
     },
     Clock: {
         name: {
@@ -492,7 +493,8 @@ lssm.Module = {
             nl: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
-        develop: false
+        develop: false,
+        nomapkit: true,
     },
     WachenplanungOnMap: {
         name: {
@@ -511,7 +513,8 @@ lssm.Module = {
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         develop: false,
-        collisions: ['Layout03', 'FMS5InMap', 'heatmap']
+        collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
+        nomapkit: true,
     },
     tagMissions: {
         name: {
@@ -587,7 +590,8 @@ lssm.Module = {
             nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
-        develop: false
+        develop: false,
+        nomapkit: true,
     },
     RenameFZ: {
         name: {
@@ -701,7 +705,8 @@ lssm.Module = {
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
         develop: false,
-        collisions: ['Layout03', 'WachenplanungOnMap']
+        collisions: ['Layout03', 'WachenplanungOnMap'],
+        nomapkit: true,
     },
     centermap: {
         name: {
@@ -718,7 +723,8 @@ lssm.Module = {
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
-        develop: false
+        develop: false,
+        nomapkit: true,
     },
     missionHelper: {
         name: {
@@ -959,7 +965,8 @@ lssm.Module = {
         source: "/modules/lss-overview/overview.js",
         noapp: false,
         inframe: true,
-        develop: false
+        develop: false,
+        nomapkit: true,
     }
 };
 
@@ -1020,24 +1027,31 @@ lssm.appstore = {
             if ('noapp' in mod && mod.noapp === true || !isSupportedLocale) {
                 continue;
             }
-            let panel = $('<div style="margin-top:10px;" class="lssm_module' +
+            let nomapkit = (typeof mapkit !== undefined && 'nomapkit' in module && module.nomapkit === true);
+            let dom = '<div style="margin-top:10px;" class="lssm_module' +
                 (mod.develop ? ' lssm_module_develop' : '') + '">' +
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
-                '<span class="pull-right">' +
-                '<div class="onoffswitch">' +
-                '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' +
-                (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] +
-                '"name="onoffswitch" type="checkbox">' +
-                '<label class="onoffswitch-label" for="lssm.modules_' + mods[i] + '"></label>' +
+                '<span class="pull-right">';
+            if(!nomapkit)
+                dom += '<div class="onoffswitch">' +
+                    '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' +
+                    (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] +
+                    '" name="onoffswitch" type="checkbox">' +
+                    '<label class="onoffswitch-label" for="lssm.modules_' + mods[i] + '"></label>' +
+                    '</div>';
+            dom += '</span>' +
+                '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>';
+            if(!nomapkit)
+                dom += '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description');
+            else
+                dom += '<small>' +I18n.t('lssm.mapkit');
+
+            dom += '</small>' +
                 '</div>' +
-                '</span>' +
-                '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>' +
-                '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description') +
-                '</small>' +
                 '</div>' +
-                '</div>' +
-                '</div>');
+                '</div>';
+            let panel = $(dom);
             panels.find("#apps_col_" + col).append(panel);
             col++;
             if (col > 2) {
@@ -1351,7 +1365,7 @@ lssm.modules = {
             uid = "?uid=" + game + user_id;
             this.addLocales(module);
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
-                lssm.appstore.canActivate(lssm.Module[module])) {
+                lssm.appstore.canActivate(lssm.Module[module]) && !nomapkit) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe ===
                         true)) {
                     if (lssm.Module[module].source) {
@@ -1495,6 +1509,11 @@ lssm.modal = {
                     let modules = lssm.settings.get('Modules') || {};
                     for (let i in modules) {
                         let modname = i.toString();
+                        let nomapkit = (typeof mapkit !== undefined && 'nomapkit' in module && module.nomapkit === true);
+                        if (nomapkit) {
+                            console.log(modname + " is not compatible with mapkit.");
+                            lssm.Module[i].active = false;
+                        }
                         if ((modname in lssm.Module) === false) {
                             console.log(modname + " is not a valid app. Skipping.");
                             continue;
