@@ -19,7 +19,7 @@ $.ajaxPrefilter(function (options, originalOptions) {
  */
 jQuery.expr[':'].containsci = function (a, i, m) {
     return jQuery(a).text().toUpperCase()
-            .indexOf(m[3].toUpperCase()) >= 0;
+        .indexOf(m[3].toUpperCase()) >= 0;
 };
 
 let lssm = {
@@ -1090,38 +1090,38 @@ lssm.appstore = {
 
         let content = $('#navbar-mobile-footer').prev();
         content.attr('id', 'content');
-		
+
         settingButton.click(function () {
-			let div = $('<div class="row" id="' + prefix + '_row"></div>').append(lssm.appstore.createModuleMain());
-			let dom = lssm.modal.show(div.html(), lssm.appstore.closeAppstore);
-			$(dom).on('keyup', '#' + prefix + '_search', function () {
-				"use strict";
-				let ss = $(this).val();
-				if (ss.length > 0) {
-					$(dom).find(".lssm_module:containsci(" + ss + ")").show();
-					$(dom).find(".lssm_module:not(:containsci(" + ss + "))").hide();
-				} else {
-					$(dom).find(".lssm_module").show();
-				}
-			});
-			$(dom).on('change', '.onoffswitch-checkbox', function (ev) {
-				let e = ev.target;
-				if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
-					$(e).prop('checked', false);
-					let warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
-						'lssm.cantactivate');
-					// TODO: Sprechendere Variablennamen
-					for (let c in lssm.Module[e.value].collisions) {
-						let d = lssm.Module[e.value].collisions[c];
-						if (lssm.Module[d].active) {
-							warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
-						}
-					}
-					alert(warn);
-					return;
-				}
-				lssm.Module[e.value].active = e.checked;
-			});
+            let div = $('<div class="row" id="' + prefix + '_row"></div>').append(lssm.appstore.createModuleMain());
+            let dom = lssm.modal.show(div.html(), lssm.appstore.closeAppstore);
+            $(dom).on('keyup', '#' + prefix + '_search', function () {
+                "use strict";
+                let ss = $(this).val();
+                if (ss.length > 0) {
+                    $(dom).find(".lssm_module:containsci(" + ss + ")").show();
+                    $(dom).find(".lssm_module:not(:containsci(" + ss + "))").hide();
+                } else {
+                    $(dom).find(".lssm_module").show();
+                }
+            });
+            $(dom).on('change', '.onoffswitch-checkbox', function (ev) {
+                let e = ev.target;
+                if (e.checked && !lssm.appstore.canActivate(lssm.Module[e.value])) {
+                    $(e).prop('checked', false);
+                    let warn = "\"" + I18n.t('lssm.apps.' + e.value + '.name') + "\" " + I18n.t(
+                        'lssm.cantactivate');
+                    // TODO: Sprechendere Variablennamen
+                    for (let c in lssm.Module[e.value].collisions) {
+                        let d = lssm.Module[e.value].collisions[c];
+                        if (lssm.Module[d].active) {
+                            warn += "\r\n" + I18n.t('lssm.apps.' + d + '.name');
+                        }
+                    }
+                    alert(warn);
+                    return;
+                }
+                lssm.Module[e.value].active = e.checked;
+            });
             $(dom).find("h4").on("click", function () {
                 "use strict";
                 let next = $(this).next();
@@ -1318,7 +1318,8 @@ lssm.modules = {
         "use strict";
         let arr = {};
         for (let i in lssm.Module) {
-            arr[i] = lssm.Module[i].active;
+            if(lssm.Module[i].active)
+                arr[i] = lssm.Module[i].active;
         }
         lssm.settings.set("Modules", arr);
     },
@@ -1367,7 +1368,7 @@ lssm.modules = {
             if (lssm.Module[module].active && lssm.Module.status !== 'develop' &&
                 lssm.appstore.canActivate(lssm.Module[module])) {
                 if (path <= 2 || ("inframe" in lssm.Module[module] && lssm.Module[module].inframe ===
-                        true)) {
+                    true)) {
                     if (lssm.Module[module].source) {
                         $.getScript(lssm.getlink(lssm.Module[module].source));
                     }
@@ -1451,9 +1452,9 @@ lssm.modal = {
             "width", o);
         setTimeout(function () {
             $("#lightbox_iframe_" + iframe_lightbox_number).show().focus();
-			if (typeof closefunc !== "undefined") {
-				$(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
-			}
+            if (typeof closefunc !== "undefined") {
+                $(document).bind(lssm.hook.prename("lightboxClose"), closefunc);
+            }
         }, 100);
         return "#lightbox_iframe_" + iframe_lightbox_number + " #iframe-inside-container";
     }
@@ -1511,7 +1512,7 @@ lssm.modal = {
                     for (let i in modules) {
                         let modname = i.toString();
                         let nomapkit = (typeof mapkit !== "undefined" && 'nomapkit' in lssm.Module[i] && lssm.Module[i].nomapkit === true);
-                        if (nomapkit && lssm.Module[i].active) {
+                        if (nomapkit && modules[i]) {
                             console.error(modname + " is not compatible with mapkit.");
                             lssm.Module[i].active = false;
                             deact++;
