@@ -114,13 +114,19 @@
             if (a.title > b.title) return 1;
             return 0;
         });
-
+		let first = true;
         $.each(sortable, function () {
             let module = this;
             let moduleKey = module.id;
-			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '" class="btn btn-xs btn-default">' + module.title + '</button>');
+			$("#managedsettings_tab_button").append('<button id="' + moduleKey + '">' + module.title + '</button>');
             markup = "";
-            markup += '<div id="' + moduleKey + '_wrap" style="display:none">';
+			if(first)
+			{
+				markup += '<div id="' + moduleKey + '_wrap">';
+				first = false;
+			}
+			else
+				markup += '<div id="' + moduleKey + '_wrap" style="display:none">';
             markup += '<h3>' + module.title +
                 '<button class="btn btn-default settings-reset" data-module="' + moduleKey +
                 '" style="margin-left: 5px;" type="reset"><span class="glyphicon glyphicon-floppy-remove" title="' + I18n.t(
@@ -139,10 +145,9 @@
                 }
             }
         });
-		
 		$('#managedsettings_tab_button button').on("click", function(e){
 			let tab = e.target.getAttribute('id');
-			$('#managedsettings_tabs').children().fadeOut('fast', function(){
+			$('#managedsettings_tabs').children(':visible').fadeOut('fast', function(){
 				$('#managedsettings_tabs #' + tab + '_wrap').fadeIn();
 			});
 		});
@@ -268,8 +273,8 @@
                 response += '<input type="radio" name="' + elementName + '" id="' + elementName + '_' + optionCount + '" ' +
                     prop_checked;
                 response += ' value="' + this.value + '">';
-                response += '<label style="margin-left: 4px;" for="radio-1">' + this.title + '</label>';
-                response += '<div style="margin-left: 16px;">' + this.description + '</div>';
+                response += '<label style="margin-left: 4px;" for="radio-1" class="col-md-6">' + this.title + '</label>';
+                response += '<div style="margin-left: 16px;" class="col-md-6">' + this.description + '</div>';
                 response += '</div>';
                 optionCount++;
             });
@@ -287,18 +292,18 @@
             response += '<span>' + element.ui.label + '</span>';
             response += '</button>';
         } else if (element.ui.type === "text" || element.ui.type === "int" || element.ui.type === "float") {
-            response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
+            response += '<div class="col-md-12" id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
                 '>';
-            response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
-            response += '<input type="text" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
+            response += '<span style="margin-left: 4px;" class="col-md-4">' + element.ui.label + '</span>';
+            response += '<input type="text" class="col-md-4" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
                 '">';
             if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
             response += '</div>';
         } else if (element.ui.type === "number") {
-            response += '<div id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
+            response += '<div class="col-md-12" id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
                 '>';
-            response += '<label style="margin-left: 4px;" for="' + elementName + '">' + element.ui.label + '</label>';
-            response += '<input type="number" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
+            response += '<span style="margin-left: 4px;" class="col-md-4" >' + element.ui.label + '</span>';
+            response += '<input type="number" class="col-md-4" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
                 '" ' + (element.ui.min ? ' min=' + element.ui.min : "") + (element.ui.max ? ' max=' + element.ui.max : "") + '>';
             if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
             response += '</div>';
