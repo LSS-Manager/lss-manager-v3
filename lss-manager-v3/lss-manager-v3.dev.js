@@ -44,7 +44,7 @@ let lssm = {
             //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
             $.getScript(this.config.server + link + uid);
         } catch (e) {
-            console.log("On script load: " + e.message);
+            console.error("On script load: " + e.message);
         }
     },
     loadStyle: function (link) {
@@ -57,7 +57,7 @@ let lssm = {
             uid = "?uid=" + game + user_id;
             $('body').append('<link href="' + this.getlink(link) + '" rel="stylesheet" type="text/css">');
         } catch (e) {
-            console.log("On script load: " + e.message);
+            console.error("On script load: " + e.message);
         }
     },
     getlink: function (file) {
@@ -70,7 +70,7 @@ let lssm = {
             uid = "?uid=" + game + user_id;
             return this.config.server + file + uid;
         } catch (e) {
-            console.log("On script load: " + e.message);
+            console.error("On script load: " + e.message);
         }
     },
     key: null,
@@ -1350,7 +1350,7 @@ lssm.modules = {
                 this.load(m);
             }
         } catch (e) {
-            console.log("LOADALL: " + e.message);
+            console.error("LOADALL: " + e.message);
         }
     },
 
@@ -1374,7 +1374,7 @@ lssm.modules = {
                 }
             }
         } catch (e) {
-            console.log("On lssm_module load: " + e.message);
+            console.error("On lssm_module load: " + e.message);
         }
     },
     isActive: function(e) {
@@ -1507,21 +1507,27 @@ lssm.modal = {
                     setInterval(function(){lssm.get_buildings(false);lssm.get_vehicles(false);}, 120000);
                     // Get the last activated modules
                     let modules = lssm.settings.get('Modules') || {};
+                    let dact = 0;
                     for (let i in modules) {
                         let modname = i.toString();
                         let nomapkit = (typeof mapkit !== undefined && 'nomapkit' in lssm.Module[i] && lssm.Module[i].nomapkit === true);
-                        if (nomapkit) {
-                            console.log(modname + " is not compatible with mapkit.");
+                        if (nomapkit && lssm.Module[i].active) {
+                            console.error(modname + " is not compatible with mapkit.");
                             lssm.Module[i].active = false;
+                            dact++;
+                            continue;
                         }
                         else if ((modname in lssm.Module) === false) {
-                            console.log(modname + " is not a valid app. Skipping.");
+                            console.error(modname + " is not a valid app. Skipping.");
+                            deact++;
                             continue;
                         }
                         else if (lssm.Module[i].active === false) {
                             lssm.Module[i].active = modules[i];
                         }
                     }
+                    if(deact>0)
+                        lssm.modules.saveall();
                     // Let's load all the modules
                     lssm.modules.loadall();
                     // Oh, we also need a appstore
