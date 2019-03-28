@@ -7,6 +7,7 @@
 // 3 = THW
 // 4 = Wasserrettung
 if(I18n.locale == "en")
+{
 	lssm.extensions = {
 		// FW-Erwerterungen (0-9)
 		"Ambulance extension": 0,
@@ -16,7 +17,7 @@ if(I18n.locale == "en")
 		//Schule-Erweiterungen (20-29)
 		// SEG-Erweiterungen (30-39)
 		// THW-Erweiterungen (40-49)
-	}
+	};
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -46,8 +47,10 @@ if(I18n.locale == "en")
         "25": ["Large Rescue Boat", 1],
         "26": ["SWAT SUV", 2],
         "27": ["BLS Ambulance", 1]
-    }
+    };
+}
 else if (I18n.locale == "nl")
+{
 	lssm.extensions = {
 		// FW-Erwerterungen (0-9)
 		"Ambulance standplaats": 0,
@@ -58,7 +61,7 @@ else if (I18n.locale == "nl")
 		//Schule-Erweiterungen (20-29)
 		// SEG-Erweiterungen (30-39)
 		// THW-Erweiterungen (40-49)
-	}
+	};
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -112,8 +115,10 @@ else if (I18n.locale == "nl")
         "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
         "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
         "51": ["HVH | HulpverleningsHaakarmbak", 0]
-    }
+    };
+}
 else if (I18n.locale == "de")
+{
 	lssm.extensions = {
 		// FW-Erwerterungen (0-9)
 		"Rettungsdienst-Erweiterung": 0,
@@ -147,7 +152,7 @@ else if (I18n.locale == "de")
 		"2. Technischer Zug - Grundvoraussetzung": 44,
 		"2. Technischer Zug: Bergungsgruppe 2": 45,
 		"2. Technischer Zug: Zugtrupp ": 46,
-	}
+	};
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -238,7 +243,7 @@ else if (I18n.locale == "de")
         "86": ["Turbolöscher", 0],
         "87": ["TLF 4000", 0]
     };
-
+}
 lssm.getVehicleNameById = function(vehicleId) {
     if(vehicleId in lssm.carsById){
         return lssm.carsById[vehicleId][0];
