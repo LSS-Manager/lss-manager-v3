@@ -200,7 +200,6 @@ lssm.Module = {
             nl: 'Bestuur het meldingscherm met het toetsenbord.'
         },
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
-        develop: false,
         inframe: true
     },
     AaoTime: {
@@ -216,7 +215,6 @@ lssm.Module = {
             nl: 'Toont de berekende totale tijd voor alle voertuigen die aankomen bij het zweven van een AUR-link.'
         },
         source: '/modules/lss-aao-time/lss-aao-time.user.js',
-        develop: false,
         inframe: true
     },
     tailoredTabs: {
@@ -228,7 +226,6 @@ lssm.Module = {
             de: 'Das Plugin ermöglicht es, weitere Tabs zur Trennung von Fahrzeug-Typen im Alarmierungsfenster einzustellen.'
         },
         source: '/modules/lss-TailoredTabs/TailoredTabs.user.js',
-        develop: false,
         inframe: true,
         supportedLocales: ['de']
     },
@@ -248,7 +245,6 @@ lssm.Module = {
             'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
-        develop: false,
         collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05']
     },
     Layout02: {
@@ -265,7 +261,6 @@ lssm.Module = {
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
-        develop: false,
         collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05']
     },
     Layout03: {
@@ -279,7 +274,6 @@ lssm.Module = {
             nl: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
-        develop: false,
         collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap']
     },
     Layout04: {
@@ -296,7 +290,6 @@ lssm.Module = {
             'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
-        develop: false,
         collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05']
     },
     Layout05: {
@@ -461,7 +454,6 @@ lssm.Module = {
             'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
-        develop: false,
         inframe: true
     },
     FMS5InMap: {
@@ -477,7 +469,6 @@ lssm.Module = {
             nl: 'Toont alle spraakaanvragen op de kaart.'
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
-        develop: false,
         collisions: ['Layout03', 'WachenplanungOnMap'],
         nomapkit: true,
     },
@@ -493,7 +484,6 @@ lssm.Module = {
             nl: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
-        develop: false,
         nomapkit: true,
     },
     WachenplanungOnMap: {
@@ -512,7 +502,6 @@ lssm.Module = {
             'gebouwen.'
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
-        develop: false,
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
         nomapkit: true,
     },
@@ -590,7 +579,6 @@ lssm.Module = {
             nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
-        develop: false,
         nomapkit: true,
     },
     RenameFZ: {
@@ -667,7 +655,6 @@ lssm.Module = {
             nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
         },
         source: '/modules/lss-aao-search/aao-search.user.js',
-        noapp: false,
         inframe: true,
         develop: false
     },
@@ -704,7 +691,6 @@ lssm.Module = {
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
-        develop: false,
         collisions: ['Layout03', 'WachenplanungOnMap'],
         nomapkit: true,
     },
@@ -723,7 +709,6 @@ lssm.Module = {
         source: '/modules/lss-centermap/Centermap.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: false,
-        develop: false,
         nomapkit: true,
     },
     missionHelper: {
@@ -758,7 +743,6 @@ lssm.Module = {
         source: '/modules/lss-statusDispatching/statusDispatching.user.js',
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
-        develop: false,
         settings: {
             has: false,
             function_code: "statusDispatching_show_settings"
@@ -864,7 +848,6 @@ lssm.Module = {
             nl: 'Telt het aantal keer dat een AUR aangeklikt is.'
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
-        noapp: false,
         inframe: true,
         develop: false
     },
@@ -881,7 +864,6 @@ lssm.Module = {
             nl: 'Voegt wat speciale informatie over de credits toe in een vervolgkeuzelijst'
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
-        noapp: false,
         inframe: false,
         develop: false
     },
@@ -898,7 +880,6 @@ lssm.Module = {
             nl: 'Geeft uw eigen ID in de kopregel weer'
         },
         source: '/modules/lss-userid/lss-userId.user.js',
-        noapp: false,
         inframe: false,
         develop: false
     },
@@ -915,7 +896,6 @@ lssm.Module = {
             nl: 'Toont de chatgeschiedenisknop  in de chatheader.'
         },
         source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
-        noapp: false,
         inframe: false,
         develop: false
     },
@@ -928,7 +908,6 @@ lssm.Module = {
             de: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
         },
         source: '/modules/lss-show-notTransportPatientButtonAbove/show-notTransportPatientButtonAbove.user.js',
-        noapp: false,
         supportedLocales: ['de'],
         inframe: true,
         develop: false
@@ -946,7 +925,6 @@ lssm.Module = {
             nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
         },
         source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
-        noapp: false,
         inframe: false,
         develop: false
     },
@@ -963,10 +941,23 @@ lssm.Module = {
             nl: "Overzicht van alle voertuigen, later ook gebouwen."
         },
         source: "/modules/lss-overview/overview.js",
-        noapp: false,
         inframe: true,
-        develop: false,
         nomapkit: true,
+    },
+    extendedBuilding: {
+        name: {
+            de: "Erweiterte Gebäudeansicht",
+            en: "Extended building view",
+            nl: "Uitgebreide bouwweergave"
+        },
+        active: false,
+        description: {
+            de: "Übersicht über Ausbauten und Personalbedarf",
+            en: "Overview of extensions and personnel requirements",
+            nl: "Overzicht van uitbreidingen en personeelsvereisten"
+        },
+        source: "/modules/lss-extendedBuilding/extendedBuilding.js",
+        inframe: true,
     }
 };
 
