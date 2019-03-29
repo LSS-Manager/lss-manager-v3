@@ -15,7 +15,7 @@
         extensions: "Extensions",
     };
 	
-    I18n.translations.nö.lssm.extendedBuilding = {
+    I18n.translations.nl.lssm.extendedBuilding = {
         work: "in aanbouw",
 		needed: "nodig",
         personal: "Werknemer",
@@ -45,7 +45,6 @@
 	$.each($('#ausbauten table tbody tr'), function () {
 		let tr = $(this).find("td");
 		let name = $.trim(tr.eq(0).children('b').text());
-		console.info(tr.eq(0).children('b').text());
 		let done = tr.eq(tr.length-1).has('.label').length ? 1 : 0;
 		let work = tr.eq(tr.length-1).has('.btn-default').length ? 1 : 0;
 		if(ausbauten.hasOwnProperty(name))
