@@ -1,6 +1,18 @@
 {
   "releases": [
     {
+      "version": "3.3.5",
+      "changes": [
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Erweiterte Gebäudeansicht",
+          "en": "Extended building view",
+          "nl": "Uitgebreide bouwweergave"
+        },
+      ]
+    },
+    {
       "version": "3.3.4",
       "changes": [
         {
