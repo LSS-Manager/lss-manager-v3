@@ -1,4 +1,13 @@
-(function ($) {
+(function (I18n, $) {
+	I18n.translations.de.lssm.telemetry = {
+		question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern. Stimmst zu diesem zu?"
+	};
+	I18n.translations.en.lssm.telemetry = {
+		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors. Do you agree with this?"
+	};
+	I18n.translations.nl.lssm.telemetry = {
+		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden. Bent u het hiermee eens?"
+	};
     function getModules()
     {
         let active = [];
@@ -28,7 +37,21 @@
             M.splice(1, 1, tem[1]);
         return M.join(' ');
     }
-    if (typeof user_id !== "undefined" && typeof user_premium !== "undefined")
+	
+	let active = false;
+	if(!lssm.settings.exists("telemetry"))
+	{
+		let con = confirm(I18n.t('lssm.telemetry.question'))
+		active = con;
+		lssm.settings.set("telemetry", (con ? 1 : 0));
+	}
+	else
+	{
+		if(lssm.settings.get("telemetry", "0") == "1")
+			active = true;
+	}
+	console.log(active);
+    if (active && typeof user_id !== "undefined" && typeof user_premium !== "undefined")
     {
         let data = {};
         // Lets grab the users key
@@ -54,4 +77,4 @@
             }
         });
     }
-})($);
+})(I18n, $);
