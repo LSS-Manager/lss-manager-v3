@@ -1,6 +1,67 @@
 {
   "releases": [
     {
+      "version": "3.3.4",
+      "changes": [
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Dashboard und Wachenhoverstati nutzen nun die API",
+          "en": "Dashboard and Wachenhoverstati now use the API",
+          "nl": "Dashboard en Wachenhoverstati gebruiken nu de API"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Module, die nicht mit Mapkit kompatibel sind, werden jetzt automatisch deaktiviert",
+          "en": "Modules not compatible with Mapkit will now be deactivated automatically",
+          "nl": "Modules die niet compatibel zijn met Mapkit worden nu automatisch gedeactiveerd"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Der Appstore speichert jetzt nur aktive Module",
+          "en": "The Appstore now only stores active modules",
+          "nl": "De Appstore slaat nu alleen actieve modules op"
+        },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "ManagedSettings, Appstore und Dashboard sind nun in einem eigenen Fenster",
+          "en": "ManagedSettings, Appstore and Dashboard are now in separate windows",
+          "nl": "ManagedSettings, Appstore en Dashboard bevinden zich nu in een eigen venster"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Dashboard Performance verbessert",
+          "en": "Dashboard performance improved",
+          "nl": "Dashboard-prestaties verbeterd"
+        },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Managedsettings hat jetzt Tabs",
+          "en": "Managedsettings now has tabs",
+          "nl": "Managedsettings heeft nu tabbladen"
+        },
+        {
+          "id": "",
+          "type": "Fix",
+          "de": "Managedsettings Design verbessert",
+          "en": "Managedsettings design improved",
+          "nl": "Managedsettings ontwerp verbeterd"
+        },
+        {
+          "id": "",
+          "type": "Fix",
+          "de": "Aussehen im Darkmode",
+          "en": "Darkmode presentation",
+          "nl": "Presentatie in donkere modus"
+        },
+      ]
+    },
+    {
       "version": "3.3.3",
       "changes": [
         {
