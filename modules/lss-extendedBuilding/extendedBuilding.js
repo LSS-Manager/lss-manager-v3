@@ -43,11 +43,11 @@
 			'<a href="' + href + '/zuweisung" class="btn btn-default btn-xs">' + I18n.t('lssm.extendedBuilding.alloc') + '</a>'
 		);
 	});
-	
-	$("dl").append(
-	'<dt><strong>' + I18n.t('lssm.extendedBuilding.needed') + ':</strong></dt>' +
-	'<dd>' + bedarf + ' ' + I18n.t('lssm.extendedBuilding.personal') + '</dd>'
-	);
+	if(bedarf > 0)
+		$("dl").append(
+		'<dt><strong>' + I18n.t('lssm.extendedBuilding.needed') + ':</strong></dt>' +
+		'<dd>' + bedarf + ' ' + I18n.t('lssm.extendedBuilding.personal') + '</dd>'
+		);
 	
 	// Ausbauten ermitteln
 	let ausbauten = {};
@@ -55,7 +55,7 @@
 		let tr = $(this).find("td");
 		let name = $.trim(tr.eq(0).children('b').text());
 		let done = tr.eq(tr.length-1).has('.label').length ? 1 : 0;
-		let work = tr.eq(tr.length-1).has('.btn-default').length ? 1 : 0;
+		let work = tr.eq(tr.length-1).has('a[href*="finish"]').length ? 1 : 0;
 		if(ausbauten.hasOwnProperty(name))
 		{
 			ausbauten[name].has += done;
@@ -74,18 +74,18 @@
 			first = false;
 		}
 		let a = ausbauten[name];
-		let color = "bg-danger";
+		let color = "alert-danger";
 		if(a.has > 0)
-			color = "bg-warning";
+			color = "alert-warning";
 		if(a.has == a.can)
-			color = "bg-success";
+			color = "alert-success";
 		let mu = '<dd><strong class="col-md-3 ' + color + '">' + name + '</strong>';
 		if(a.can > 1 || a.work)
 			mu += '<span class="col-md-2">';
 		if(a.can > 1)
 			mu += '' + a.has + ' / ' + a.can + '';
 		if(a.work)
-			mu += '(' + a.work + ' ' + I18n.t('lssm.extendedBuilding.work') + ')';
+			mu += ' (' + a.work + ' ' + I18n.t('lssm.extendedBuilding.work') + ')';
 		if(a.can > 1 || a.work)
 			mu += '</span>';
 		mu += "</dd>";
