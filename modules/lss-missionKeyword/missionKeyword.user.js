@@ -461,7 +461,8 @@
         436: 'Verschmutzte Fahrbahn',
         437: 'Taxi - Stiller Alarm',
         438: 'PKW in Zapfsäule',
-        439: 'Einsturz Parkhaus'
+        439: 'Einsturz Parkhaus',
+        440: 'Akute Atemnot'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -726,7 +727,9 @@
         243: 'Attempted Hommicide',
         244: 'Fare dodger',
         245: 'Medical emergency on crane',
-        246: 'Patient Transfer'
+        246: 'Patient Transfer',
+        247: 'Possible Sepsis',
+        248: 'Mental health concern'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1161,7 +1164,11 @@
         413: 'Brand in kerkgebouw',
         414: 'Brand in transformatorhuisje',
         415: 'Brand in transformatorhuisje',
-        416: 'Brand in transformatorhuisje'
+        416: 'Brand in transformatorhuisje',
+        417: 'Verkeersongeval met lijnbus en voetganger',
+        418: 'Verkeersongeval met lijnbus en voetganger',
+        419: 'Verkeersongeval met lijnbus en fietser',
+        420: 'Verkeersongeval met lijnbus en fietser'
       }
     };
 
@@ -1624,7 +1631,8 @@
       436: 'THL 1',
       437: 'POL 1',
       438: 'THL 1',
-      439: 'THL 4'
+      439: 'THL 4',
+      440: 'RD 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1873,7 +1881,9 @@
       243: 'POL 3',
       244: 'POL 1',
       245: 'TECH 1',
-      246: 'MEDT'
+      246: 'MEDT',
+      247: 'NED 1',
+      248: 'POL 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2292,7 +2302,11 @@
       413: 'ZEER GROTE BRAND',
       414: 'KLEINE BRAND',
       415: 'MIDDEL BRAND',
-      416: 'GROTE BRAND'
+      416: 'GROTE BRAND',
+      417: 'POL 1',
+      418: 'A 1',
+      419: 'POL 1',
+      420: 'HV 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
