@@ -6,6 +6,7 @@
 		needed: "Benötigt",
         personal: "Angestellte",
         extensions: "Ausbauten",
+		alloc: "Zuweisung",
     };
 	
     I18n.translations.en.lssm.extendedBuilding = {
@@ -13,6 +14,7 @@
 		needed: "needed",
         personal: "Employees",
         extensions: "Extensions",
+		alloc: "Allocation",
     };
 	
     I18n.translations.nl.lssm.extendedBuilding = {
@@ -20,6 +22,7 @@
 		needed: "nodig",
         personal: "Werknemer",
         extensions: "Extensies",
+		alloc: "Toewijzing",
     };
 	
 	let ref = window.location.pathname.split('/');
@@ -33,6 +36,12 @@
 	let bedarf = 0;
 	$.each($('#vehicle_table tr td:last-child'), function () {
 		bedarf += parseInt($(this).text());
+	});
+	$.each($('#vehicle_table tbody tr'), function () {
+		let href = $(this).children('td:nth-child(2)').children(":first").attr('href');
+		$(this).children('td:nth-child(3)').append(
+			'<a href="' + href + '/zuweisung" class="btn btn-default btn-xs">' + I18n.t('lssm.extendedBuilding.alloc') + '</a>'
+		);
 	});
 	
 	$("dl").append(
