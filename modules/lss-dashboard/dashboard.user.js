@@ -439,13 +439,15 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 
     // Wechseln der Dashboard-Ansicht
     function switch_dashboard(tab) {
+		if (tab == "db_fzg")
+			populate_fzgtable();
+		else if (tab == "db_wachen")
+			load_build_planning();
+			
         tab = "#" + tab + "_outer";
         $(curtab_db).fadeOut(500);
         $(tab).fadeIn(500);
         curtab_db = tab;
-        if (tab == "#db_fzg_outer") {
-            populate_fzgtable();
-        }
         if (tab == "#db_wachen_outer") {
             $("#wp_sub").fadeIn(500);
             $("#wp_sub2").fadeIn(500);
@@ -454,6 +456,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $("#wp_sub2").fadeOut(500);
         }
     }
+	
     function switch_wp_tab(tab) {
         tab = "#" + tab.replace("a_", "");
         $(curtab_wp).fadeOut(500);
@@ -520,6 +523,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 		$.get(lssm.getlink("/modules/lss-dashboard/dashboard.html"), function (data) {
 			let dom = lssm.modal.show('<div id="' + prefix + '" class="container-fluid"></div>');
 			$("#"+prefix).html(data);
+			$('#wp_sub').css("display", "none");
+			$('#wp_sub2').css("display", "none");
 			$('#building-s_outer .panel-heading .panel-title').append('<i class="fa fa-building"></i> ' + I18n.t('lssm.dashboard.overview'));
 			$('#fz-s_outer .panel-heading .panel-title').append('<i class="fa fa-car"></i> ' + I18n.t('lssm.dashboard.distribution'));
 			$('#dashboard_buttons').append('<a class="btn btn-default" href="#" id="db_main">' + I18n.t('lssm.dashboard.name') + '</a>')
@@ -536,9 +541,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 				.append('<a class="btn btn-sm btn-default" href="#" id="wp_a_son">'+I18n.t('lssm.dashboard.other')+'</a>');
 			curtab_db = "#db_main_outer";
 			curtab_wp = "#wp_fw";
-			loadGraphs();
 			bind_db_buttons();
-			load_build_planning();
+			loadGraphs();
 		});
     }
 	
