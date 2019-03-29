@@ -1209,6 +1209,11 @@ lssm.settings = {
             localStorage.setItem(lssm.config.prefix + '_' + key, value);
         }
     },
+	
+	exists: function(key)
+	{
+		return localStorage.getItem(lssm.config.prefix + '_' + key) !== null;
+	}
 
     // Get a config value from localstorage
     get: function (key, defaultvalue) {
