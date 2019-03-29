@@ -233,12 +233,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         }
     }
     function load_build_planning() {
-        $.each(building_markers_cache, function (i, building) {
-            if (building.user_id != user_id) {
-                return;
-            }
+        $.each(lssm.buildings, function (i, building) {
             let appendto = "son",
-                    vehicles = lssm.car_list(building.id),
                     printcars = "",
                     icon = "fa-building-o",
                     icon3 = "fa-car",
@@ -304,6 +300,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon = "fa-university";
                     break;
             }
+			let vehicles = lssm.car_list(building.id);
             $.each(vehicles, function (k, car) {
                 printcars +=
                         '<div id="db_veh_' + car.id + '">' +
@@ -320,7 +317,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 			       <div class="panel panel-default">\
 				         <div class="panel-heading">\
 					            <h3 class="panel-title" style="margin-bottom:5px;"><i class="fa ' + icon + '"></i>\
-						                <a href="/buildings/' + building.id + '" class="lightbox-open">' + building.name + '</a>\
+						                <a href="/buildings/' + building.id + '" class="lightbox-open">' + building.caption + '</a>\
                       </h3>';
             if (building.level != null)
                 bd_data +=
@@ -361,11 +358,9 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             </div>\
 			</div>\
 		</div>';
-
-            /*<div class="panel-footer" style="background-color:#fff;">\
-             <a class="btn btn-sm btn-default"><i class="fa fa-cog"></i> '+I18n.t('lssm.settings')+'</a>\
-             </div>\*/
             $("#wp_" + appendto).append(bd_data);
+			delete vehicles;
+			
         });
     }
     // Fill vehicle table
