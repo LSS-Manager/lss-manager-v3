@@ -56,7 +56,6 @@
 		if(lssm.settings.get("telemetry", "0") == "1")
 			active = true;
 	}
-	console.log(active);
     if (active && typeof user_id !== "undefined" && typeof user_premium !== "undefined")
     {
         let data = {};
