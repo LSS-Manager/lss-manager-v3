@@ -10,6 +10,13 @@
           "en": "Extended building view",
           "nl": "Uitgebreide bouwweergave"
         },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Telemetrie OPT-In",
+          "en": "Telemetry OPT-In",
+          "nl": "Telemetrie OPT-In"
+        }
       ]
     },
     {
