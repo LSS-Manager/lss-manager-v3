@@ -276,7 +276,7 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_show + "\">" + car.fms_real + "</span> " + car.name +
+		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_real + "\">" + car.fms_show + "</span> " + car.name +
 			"</div>";
     });
     return data;
