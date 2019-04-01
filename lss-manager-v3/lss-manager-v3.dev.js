@@ -165,21 +165,6 @@ lssm.Module = {
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         inframe: true
     },
-    AaoTime: {
-        name: {
-            de: 'AAO Anrückzeit',
-            en: 'ARR duration',
-            nl: 'AUR duur'
-        },
-        active: false,
-        description: {
-            de: 'Beim Überfahren eines AAO Links wird angegeben, wie lange es dauern würde, bis das letzte Fahrzeug eingetroffen ist.',
-            en: 'Shows the calculated total time for all vehicles to arrive when hovering an ARR link.',
-            nl: 'Toont de berekende totale tijd voor alle voertuigen die aankomen bij het zweven van een AUR-link.'
-        },
-        source: '/modules/lss-aao-time/lss-aao-time.user.js',
-        inframe: true
-    },
     tailoredTabs: {
         name: {
             de: 'Maßgeschneiderte Tabs'
@@ -312,22 +297,6 @@ lssm.Module = {
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
-    },
-    coinConfirm: {
-        name: {
-            de: 'Coin Confirm',
-            en: 'Coin Confirm'
-        },
-        active: false,
-        inframe: true,
-        description: {
-            de: 'Fordert zur Bestätigung bei Coin Ausgaben auf, um versehendliche Ausgaben zu vermeiden.<br>' +
-            'Funktionalität ist mittlerweile im Basisspiel integriert.',
-            en: 'Asks for confirmation on coin spendings to avoid mistakes.<br>' +
-            'Functionality is integrated in base game now.'
-        },
-        source: null,
-        develop: true
     },
     releaseNotes: {
         name: {
