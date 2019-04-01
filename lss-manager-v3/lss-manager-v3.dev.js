@@ -89,7 +89,7 @@ I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
     appstore: "APPSTORE",
-    forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V",
+    forum: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
     "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
@@ -104,9 +104,6 @@ I18n.translations.de.lssm = {
     cantload: "<h2>LSS-Manager konnte nicht geladen werden</h2>Bitte kontaktiere ein Mitglied vom Entwicklerteam.",
     login: "Bitte zuerst anmelden",
     mapkit: "Dieses Modul unterstützt kein Mapkit",
-    domainpro: "https://www.leitstellenspiel.de/profile/",
-    domainmes: "https://www.leitstellenspiel.de/messages/new?target=",
-
     apps: {}
 };
 I18n.translations.en.lssm = {
@@ -127,8 +124,6 @@ I18n.translations.en.lssm = {
     cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
     login: "Please log in first",
     mapkit: "This module doesn't support Mapkit",
-    domainpro: "https://www.missionchief.com/profile/",
-    domainmes: "https://www.missionchief.com/messages/new?target=",
     apps: {}
 };
 I18n.translations.nl.lssm = {
@@ -148,41 +143,9 @@ I18n.translations.nl.lssm = {
     activated: "De volgende modules zijn geactiveerd:",
     cantactivate: "Kan niet worden geactiveerd omdat deze lssm_module niet samenwerkt met de volgende lssm_module(s):",
     mapkit: "Deze module ondersteunt Mapkit niet",
-    domainpro: "https://www.meldkamerspel.com/profile/",
-    domainmes: "https://www.meldkamerspel.com/messages/new?target=",
     apps: {}
 };
 
-I18n.translations.de.lssm.developers = {
-    "sanni": {
-        "id": 675,
-        "name": "SanniHameln"
-    },
-    "kboe": {
-        "id": 205976,
-        "name": "KBOE2"
-    }
-};
-I18n.translations.en.lssm.developers = {
-    "sanni": {
-        "id": 1065,
-        "name": "SanniHameln"
-    },
-    "kboe": {
-        "id": 49584,
-        "name": "KBOE2-Scripttester"
-    }
-};
-I18n.translations.nl.lssm.developers = {
-    "sanni": {
-        "id": 2091,
-        "name": "SanniHameln"
-    },
-    "kboe": {
-        "id": 28153,
-        "name": "KBOE2"
-    }
-};
 /**
  * Add the modules to lssm
  */
@@ -1200,7 +1163,7 @@ lssm.settings = {
             localStorage.setItem(lssm.config.prefix + '_' + key, value);
         }
     },
-	
+
 	exists: function(key)
 	{
 		return localStorage.getItem(lssm.config.prefix + '_' + key) !== null;
