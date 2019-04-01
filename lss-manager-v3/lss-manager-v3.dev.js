@@ -93,7 +93,8 @@ I18n.translations.de.lssm = {
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
     "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
     "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-    lssm.config.forum_link + "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+    "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
+    "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -106,13 +107,12 @@ I18n.translations.de.lssm = {
     apps: {}
 };
 I18n.translations.en.lssm = {
-    lssm: "LSS-Manager",
-    appstore: "APPSTORE",
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
     "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
     "<a href=\"" +
-    lssm.config.forum_link + "\" target=\"blank\">write a message in the forum</a>.",
+    "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+    "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
     saving: "Saving...",
@@ -125,13 +125,11 @@ I18n.translations.en.lssm = {
     apps: {}
 };
 I18n.translations.nl.lssm = {
-    lssm: "LSS-Manager",
-    appstore: "App Store",
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
     "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
     "problemen zijn, kunt u <a href=\"" +
-    lssm.config.forum_link +
+    "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
     "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
