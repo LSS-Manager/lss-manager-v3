@@ -1,5 +1,5 @@
 (function() {
-    var mapReloadBtn = $(
+    let mapReloadBtn = $(
       '<a id="lssm_map_reload" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_map_reload">'+
         '<i class="glyphicon glyphicon-refresh" style="font-size: 15px;padding: 5px;"></i>'+
         '</a>'

@@ -20,14 +20,14 @@
     /**
      * Creates a select
      */
-    var use_dropdown = lssm.settings.get("aaos_dropdown", false).toString();
+    let use_dropdown = lssm.settings.get("aaos_dropdown", false).toString();
     function addToDropdown()
     {
         "use strict";
         // Add all the original AAO options
         $(".aao,.vehicle_group").each(function (i,e) {
             e = $(e);
-            var option = document.createElement("option");
+            let option = document.createElement("option");
             option.value = e.attr('id');
             option.text = e.text();
             $("#lssm_aao_dropdown").append(option);
@@ -35,7 +35,7 @@
 
         // When we select something
         $("#lssm_aao_dropdown").on("change", function(){
-            var aao_id = $(this).val();
+            let aao_id = $(this).val();
             // We need a ID
             if (aao_id === -1)
                 return;
@@ -59,8 +59,8 @@
             return option.text;
         }
         option.id = option.id.replace(/vehicle_group_/,'');
-        var available = document.getElementById("available_"+option.id).innerHTML;
-        var bg = $("#"+option.id).css("background-color");
+        let available = document.getElementById("available_"+option.id).innerHTML;
+        let bg = $("#"+option.id).css("background-color");
         if (typeof bg != "undefined")
             option = $('<span style="background-color: '+bg+';">'+available + option.text+'</span>');
         else
@@ -77,12 +77,12 @@
         $("a[id^='aao_']").css("display", "inline-block");
         $("#lssm_aao_search").on("keyup", function(){
             "use strict";
-            var value = this.value;
+            let value = this.value;
             if(value.length > 0)
             {
                 if($("#lssm_aao_results > a[id^='lssm_aao']:containsci('"+value+"')").length === 0) {
                     $("a[id^='aao_']:containsci('" + value + "')").each(function() {
-                        var id = this.id;
+                        let id = this.id;
                         $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_aao_results").on("click", function(){
                             $("#"+this.id.substring(5)).click();
                         });
@@ -90,7 +90,7 @@
                 }
                 if($("#lssm_vehicle_group_results > a[id^='lssm_vehicle_group']:containsci('"+value+"')").length === 0) {
                     $("a[id^='vehicle_group_']:containsci('" + value + "')").each(function() {
-                        var id = this.id;
+                        let id = this.id;
                         $(this).clone().prop({ id: "lssm_"+id}).appendTo("#lssm_vehicle_group_results").on("click", function(){
                             $("#"+this.id.substring(5)).click();
                         });

@@ -182,7 +182,7 @@
                         "credits": response.credits_current,
                         "total": parseInt(response.credits_total),
                         "rank": response.rank,
-                        "page": parseInt(response.rank / 20) + 1,
+                        "page": parseInt(response.rank / 20) + (response.rank%20 ? 1 : 0),
                         "users": response.user_count,
                         "online": response.user_online_count
                     };

@@ -17,10 +17,10 @@
 		noVGE:"Geen opgeslagen grote teaminzetten!",
 		VGEs:"Grote teaminzet aanmaken"
     };
-    var prefix = "saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix)) || {}
+    let prefix = "saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix)) || {}
     , isCreate= false;
             function readData() {
-                var daten = $("#new_mission_position").serializeArray(), notSave = ["utf8", "authenticity_token", "mission_position[poi_type]", "mission_position[latitude]", "mission_position[longitude]", "mission_position[address]", "mission_position[coins]", "mission_position[mission_type_id]"], dataToSave = [];
+                let daten = $("#new_mission_position").serializeArray(), notSave = ["utf8", "authenticity_token", "mission_position[poi_type]", "mission_position[latitude]", "mission_position[longitude]", "mission_position[address]", "mission_position[coins]", "mission_position[mission_type_id]"], dataToSave = [];
                 $.each(daten, function (a, b) {
                     -1 === notSave.indexOf(b.name) && dataToSave.push(daten[a]);
                 });
@@ -35,9 +35,9 @@
         });
     }
     function buildOptions(onlyOption) {
-        var select = $('<ul class="dropdown-menu" style="background:white !important" aria-labelledby="vgeSaveDropdown" id="vgeSaveDropdownUl"></ul>');
-        var h = "";
-        for (var i in saveMissions) {
+        let select = $('<ul class="dropdown-menu" style="background:white !important" aria-labelledby="vgeSaveDropdown" id="vgeSaveDropdownUl"></ul>');
+        let h = "";
+        for (let i in saveMissions) {
             h += '<li><a href="#" data-value="' + i + '">' + i + '</a></li>';
         }
         select.html(h);
@@ -50,8 +50,8 @@
     }
     function saveData(e) {
         e.preventDefault();
-        var d = readData();
-        var savedItem = $('#mission_position_mission_custom_caption').val().trim();
+        let d = readData();
+        let savedItem = $('#mission_position_mission_custom_caption').val().trim();
         saveMissions[savedItem] = d;
         saveToStorage(saveMissions);
         buildOptions(true);
@@ -64,7 +64,7 @@
     }
     function delData(e) {
         e.preventDefault();
-        var savedItem = $('#mission_position_mission_custom_caption').val().trim();
+        let savedItem = $('#mission_position_mission_custom_caption').val().trim();
         delete saveMissions[savedItem];
         document.getElementById('new_mission_position').reset();
         saveToStorage(saveMissions);
@@ -75,12 +75,12 @@
         localStorage.setItem(prefix, JSON.stringify(value));
     }
     function createSettings() {
-        var div = $('<div class="dropdown" id="' + prefix + '"><button class="btn btn-default dropdown-toggle" type="button" id="vgeSaveDropdown" name="vgeSaveDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">' + I18n.t('lssm.saveVGE.VGEs') + '<span class="caret"></span></button></div>');
+        let div = $('<div class="dropdown" id="' + prefix + '"><button class="btn btn-default dropdown-toggle" type="button" id="vgeSaveDropdown" name="vgeSaveDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">' + I18n.t('lssm.saveVGE.VGEs') + '<span class="caret"></span></button></div>');
 
-        var select = buildOptions(false);
+        let select = buildOptions(false);
         select.on('click', 'a', setData);
-        var s = $('<a href="#" class="btn btn-sm btn-success">' + I18n.t('lssm.saveVGE.save') + '</a>').click(saveData);
-        var d = $('<a href="#" class="btn btn-sm btn-danger">' + I18n.t('lssm.saveVGE.del') + '</a>').click(delData);
+        let s = $('<a href="#" class="btn btn-sm btn-success">' + I18n.t('lssm.saveVGE.save') + '</a>').click(saveData);
+        let d = $('<a href="#" class="btn btn-sm btn-danger">' + I18n.t('lssm.saveVGE.del') + '</a>').click(delData);
         div.append(s, select, d);
         $('.mission_position_mission_type_id:first').after(div);
         checkNoVGEs();

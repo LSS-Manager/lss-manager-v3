@@ -1,5 +1,5 @@
 (function () {
-	var site_location = window.location.href;
+    let site_location = window.location.href;
     if(site_location.match('daily'))
     {
 		I18n.translations.de['lssm']['sumDailyMissions'] = {
@@ -50,14 +50,14 @@
 			num_team: 'Aantal Teamopnames'
 		};
 
-        var anzahl_pro_einsatz = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(2)");
-        var einsatz_titel = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(3)");
-        var sum_einsaetze = 0;
-        var sum_patienten = 0;
-        var sum_gefangene = 0;
-        var sum_verband = 0;
+        let anzahl_pro_einsatz = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(2)");
+        let einsatz_titel = document.querySelectorAll("#iframe-inside-container > table > tbody > tr > td:nth-child(3)");
+        let sum_einsaetze = 0;
+        let sum_patienten = 0;
+        let sum_gefangene = 0;
+        let sum_verband = 0;
 
-        var css = ''+
+        let css = ''+
             '#num_label {margin-right: 5px;padding: 5px 0px 5px 5px;border: 1.5px solid black;font-size: inherit;border-radius: 5px;}'+
             '#num_anzahl {background: #333;padding: 4.5px;margin-left: 5px;margin-right: 1px;}'+
             '#num_icon {margin-right: 5px;}',
@@ -72,7 +72,7 @@
 
         if(anzahl_pro_einsatz !== null && einsatz_titel !== null)
         {
-            for(var i=0;i<anzahl_pro_einsatz.length;i++)
+            for(let i=0;i<anzahl_pro_einsatz.length;i++)
             {
                 //Zähle Anzahl behandelter Patienten
                 if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')))
@@ -106,8 +106,8 @@
                     sum_einsaetze = sum_einsaetze + Number(anzahl.replace(" x",""));
                 }
             }
-            var tables = document.querySelectorAll("#iframe-inside-container > table");
-            var table = tables[0];
+            let tables = document.querySelectorAll("#iframe-inside-container > table");
+            let table = tables[0];
 			if(typeof table !== 'undefined' && table !== null)
 				table.insertAdjacentHTML('beforebegin',
 										 '<div class="label label-danger" id="num_label"><i class="glyphicon glyphicon-fire" id="num_icon"></i>'+

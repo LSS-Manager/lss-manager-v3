@@ -31,8 +31,8 @@
         }
     }
     function create(h, id, allianceShareButtonDisabled) {
-        var div = $('<div class="pull-right" id="allianceShareButton_' + id + '"></div>');
-        var $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="'+I18n.t('lssm.allianceMissionlistShare.title')+'"><i class="glyphicon glyphicon-share-alt"></i></a>');
+        let div = $('<div class="pull-right" id="allianceShareButton_' + id + '"></div>');
+        let $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="'+I18n.t('lssm.allianceMissionlistShare.title')+'"><i class="glyphicon glyphicon-share-alt"></i></a>');
         div.prepend($button);
         h.prepend(div);
     }

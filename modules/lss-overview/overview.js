@@ -1,4 +1,5 @@
 (($, win, I18n) => {
+    const prefix = lssm.config.prefix + "_overview";
     I18n.translations.de.lssm.overview = {
         vehicleType: 'Fahrzeugtyp',
         min: 'mindest Personal',
@@ -16,8 +17,7 @@
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
         maxBuildins: 'Baugrenze',
-        wtank: 'Wassertank',
-        mapkit: "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview"
+        wtank: 'Wassertank'
     };
 
     I18n.translations.en.lssm.overview = {
@@ -36,8 +36,7 @@
         startPersonell: 'Start Personnel',
         startVehicle: 'Start vehicle',
         extensions: 'extensions',
-        maxBuildins: 'building boundary',
-        mapkit: "You can still reach the overview at the following link\nhttps://www.missionchief.com/note?lssm_overview"
+        maxBuildins: 'building boundary'
     };
 
     I18n.translations.nl.lssm.overview = {
@@ -56,27 +55,19 @@
         startPersonell: 'Start Personeel',
         startVehicle: 'Start voertuig',
         extensions: 'uitbreidingen',
-        maxBuildins: 'gebouwgrens',
-        mapkit: "U kunt het overzicht nog steeds bereiken via de volgende link:\nhttps://www.meldkamerspel.com/note?lssm_overview"
+        maxBuildins: 'gebouwgrens'
     };
 
-    if ("undefined" != typeof mapkit) {
-        alert("[" + lssm.Module.overview.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit') + "\n" + I18n.t('lssm.overview.mapkit'));
-        return;
-    }
     if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
         let overviewBtn = $(
-            '<a id="lssm_overview" href="/note?lssm_overview" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
+            '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
             '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
             '</a>'
         );
         $('.leaflet-control-container .leaflet-top.leaflet-left').append(overviewBtn);
-    }
-
-    if ((new URL(document.URL)).searchParams.get("lssm_overview") === null || !document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/note.*$/)) {
+    } else {
         return;
     }
-    $('body').html('');
 
     I18n.translations.de.lssm.overview.buildings = {
         lst: {
@@ -207,7 +198,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Polizeischulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         polheli: {
             name: 'Polizeihubschrauber-Station',
@@ -278,7 +269,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-THW-Schulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         }
     };
 
@@ -1964,57 +1955,91 @@
         }
     };
 
-    $('body').css('margin', '10px');
+    $('#' + prefix + '_button').click(function() {
+        lssm.modal.show('<div id="' + prefix + '" class="container-fluid"></div>');
 
-    $('body').append('<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">' + I18n.t('lssm.overview.vehiclesName') + '&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">' + I18n.t('lssm.overview.vehiclesName') + '</a></li><li><a target="buildings">' + I18n.t('lssm.overview.buildingsName') + '</a></li></ul></div>');
 
-    $('body').append('<div id="vehicles" class="overviewCategory"></div>');
-    $('body').append('<div id="buildings" class="overviewCategory"></div>');
+        let overview_container = $('#' + prefix);
 
-    $('.overviewCategory:not(:first)').hide();
+        overview_container.css('margin', '10px');
 
-    $('#vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
-    $('#vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
+        overview_container.append('<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">' + I18n.t('lssm.overview.vehiclesName') + '&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">' + I18n.t('lssm.overview.vehiclesName') + '</a></li><li><a target="buildings">' + I18n.t('lssm.overview.buildingsName') + '</a></li></ul></div>');
 
-    for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
-        $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
+        overview_container.append('<div id="' + prefix + '_vehicles" class="overviewCategory"></div>');
+        overview_container.append('<div id="' + prefix + '_buildings" class="overviewCategory"></div>');
 
-        $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+        $('.overviewCategory:not(:first)').hide();
 
-        if(I18n.locale == "de")
-        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
-        else if (I18n.locale == "en")
-        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
-        else if (I18n.locale == "nl")
-        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+        $('#' + prefix + '_vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
+        $('#' + prefix + '_vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
 
-        for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
-            vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
-            if(I18n.locale == "de")
-            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>')
-            else if (I18n.locale == "en")
-            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>')
-            else if (I18n.locale == "nl")
-            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+        for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
+            $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
+
+            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+
+            $('#' + hiorg).append('<input type="text" class="search_input_field pull-right" id="search_' + hiorg + '">');
+
+            if (I18n.locale === "de") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
+            } else if (I18n.locale === "en") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+            } else if (I18n.locale === "nl") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+            }
+
+            for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
+                vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
+                if (I18n.locale === "de") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                } else if (I18n.locale === "en") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                } else if (I18n.locale === "nl") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                }
+            }
+            $('#table-' + hiorg).tablesorter();
+            $('#search_' + hiorg).on("keyup", function() {
+                searchInTable('table-' + hiorg, 'search_' + hiorg);
+            });
         }
-    }
 
-    $('#vehicleTabs li a.nav-link').click(function() {
-        $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
-        $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+        $('#vehicleTabs li a.nav-link').click(function () {
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+        });
+
+        $('#' + prefix + '_buildings').append('<input type="text" class="search_input_field pull-right" id="search_building">');
+
+        $('#' + prefix + '_buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+
+        for (let building in I18n.t('lssm.overview.buildings')) {
+            building = I18n.t('lssm.overview.buildings')[building];
+            $('#table-buildings-body').append('<tr><td>' + building.name + '</td><td>' + (building.credits || building.credits === 0 ? building.credits.toLocaleString() : "undefined") + ' Credits / ' + (building.coins || building.coins === 0 ? building.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + building.maxlevel + '</td><td>' + building.levelcost + '</td><td>' + building.startPersonell + '</td><td>' + building.startVehicle + '</td><td>' + building.maxBuildings + '</td><td>' + building.extensions + '</td><td>' + (building.special ? building.special : "") + '</td></tr>');
+        }
+        $('#table-buildings').tablesorter();
+        $('#search_building').on("keyup", function() {
+            searchInTable('table-buildings', 'search_building');
+        });
+
+        $('#typeDropdown a').click(function () {
+            $('#typeDropdownBtn').html(I18n.t('lssm.overview.' + $(this).attr('target') + 'Name') + '&nbsp;<span class="caret"></span>');
+            $('.overviewCategory').hide();
+            $('#' + prefix + '_' + $(this).attr('target')).show();
+        });
     });
 
-    $('#buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+    function searchInTable(tableID, searchWordID) {
+        let searchWord = new RegExp($('#' + searchWordID).val().toLowerCase());
+        $('#' + tableID).find('tr').each(function () {
+            // zunächst die Zeile wieder sichtbar machen
+            $(this).show();
 
-    for (let building in I18n.t('lssm.overview.buildings')) {
-        building = I18n.t('lssm.overview.buildings')[building];
-        $('#table-buildings-body').append('<tr><td>' + building.name + '</td><td>' + (building.credits || building.credits === 0 ? building.credits.toLocaleString() : "undefined") + ' Credits / ' + (building.coins || building.coins === 0 ? building.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + building.maxlevel + '</td><td>' + building.levelcost + '</td><td>' + building.startPersonell + '</td><td>' + building.startVehicle + '</td><td>' + building.maxBuildings + '</td><td>' + building.extensions + '</td><td>' + (building.special ? building.special : "") + '</td></tr>');
+            // nun die Zelle prüfen, ob der Suchbegriff vorhanden ist
+            if (!$(this).html().toLowerCase().match(searchWord)) {
+                $(this).hide();
+            }
+        });
     }
-
-    $('#typeDropdown a').click(function() {
-        $('#typeDropdownBtn').html(I18n.t('lssm.overview.' + $(this).attr('target') + 'Name') + '&nbsp;<span class="caret"></span>');
-        $('.overviewCategory').hide();
-        $('#' + $(this).attr('target')).show();
-    });
 
 })($, window, I18n);

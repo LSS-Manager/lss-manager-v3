@@ -1,4 +1,4 @@
-var ScriptAPI;
+let ScriptAPI;
 (function () {
     ScriptAPI = {
         /*scripts welche auf dem Server hinterlegt sind*/
@@ -19,7 +19,7 @@ var ScriptAPI;
              * true: Script darf laufen
              * false: Script darf nicht laufen
              */
-            var script;
+            let script;
             if (this.scripts[name]) {
                 /*Bringt daten des Scripts auf den aktuelle Stand*/
                 script = this.scripts[name];
@@ -31,7 +31,7 @@ var ScriptAPI;
                 /*soll script automatisch laufen oder auf freigabe warten?
                  * true: Script ist freigegeben
                  * false: Script nicht fregegeben*/
-                var standart = false;
+                let standart = false;
                 /*legt das Script neu an*/
                 this.scripts[name] = {'name': name, version: version, 'scripter': scripter, 'forumThread': forumThread, 'freigabe': standart};
                 /*informiert den Server/Sebastian �ber das neue Script*/
@@ -50,7 +50,7 @@ var ScriptAPI;
              * Erzeugt eine Infomessage f�r den User
              * Link zum Forumsthreat wird mir angegeben
              */
-            var msg = '<div class="alert alert-danger"><b>' + s.name + '</b> funktioniert leider nicht! Bitte Fehler an <a href="' + s.forumThread + '" target="_blank">' + s.scripter + '</a> melden</div>';
+            let msg = '<div class="alert alert-danger"><b>' + s.name + '</b> funktioniert leider nicht! Bitte Fehler an <a href="' + s.forumThread + '" target="_blank">' + s.scripter + '</a> melden</div>';
             $('.container-fluid:first').before(msg);
         },
         InfoSebastian: function (s) {
@@ -58,7 +58,7 @@ var ScriptAPI;
              * an Server
              * So kann Sebastian das Script automatisch aufnehemen
              */
-            var data = JSON.stringify(s);
+            let data = JSON.stringify(s);
             console.log(data);
             //$.post('URL',data);
         }

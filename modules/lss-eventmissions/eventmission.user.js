@@ -126,7 +126,7 @@
     replaceInit();
 
     // Mission Marker
-    var evmissionMarkerAddOrig = missionMarkerAdd;
+    let evmissionMarkerAddOrig = missionMarkerAdd;
     missionMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.caption = replaceevMissionCaption(t.caption);
         evmissionMarkerAddOrig(t);
