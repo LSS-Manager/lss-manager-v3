@@ -115,6 +115,11 @@ body.dark .panel-heading {
   background-color: #000;
 }
 
+div#iframe-inside-container {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto
+}
+
 div#preloader {
   text-align:center;
   z-index:9999;
@@ -331,8 +336,8 @@ div#preloader {
 
 .lssm_wachen_selector .onoffswitch  .onoffswitch-label:before {
   margin-top: -.5px !important;
-  margin-bottom: 4.5px !important;+
-right: 14.5px;
+  margin-bottom: 4.5px !important;
+  right: 14.5px;
 }
 
 .label-ils {
