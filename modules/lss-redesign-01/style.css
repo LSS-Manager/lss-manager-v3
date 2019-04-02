@@ -208,6 +208,10 @@ animation-timing-function: cubic-bezier(1, 0, 0, 1);
 div#iframe-inside-container.container-fluid.lss_new_case {
   border: none !important;
 }
+div#iframe-inside-container {
+    -webkit-overflow-scrolling: touch;
+    overflow: auto;
+}
 
 .lss_allianceCase {
   animation: blinkAlliance .5s step-end infinite alternate;
