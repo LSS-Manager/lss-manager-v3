@@ -311,10 +311,6 @@
         'background-image: url(/images/expand.png);'+
         'background-size: 100% 100%'+
       '}'+
-      '#iframe-inside-container {'+
-        '-webkit-overflow-scrolling: touch;'+
-        'overflow: auto'+
-      '}'+
     '</style>');
 
     $("LINK[href*='/assets/application']").remove();
