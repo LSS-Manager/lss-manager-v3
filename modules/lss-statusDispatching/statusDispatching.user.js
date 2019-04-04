@@ -1,6 +1,6 @@
 (function() {
 
-    var LSS_FASTS5_STORAGE = "StatusDispatching";
+    let LSS_FASTS5_STORAGE = "StatusDispatching";
 
     I18n.translations.de.lssm.statusDispatching = {
         name : 'Verbesserte Status 5',
@@ -43,7 +43,7 @@
         fms5H1 : 'transportiert'
     };
 
-    var managedSettings = {
+    let managedSettings = {
         "id" : LSS_FASTS5_STORAGE,
         "title" : I18n.t('lssm.statusDispatching.name'),
         "settings" : {
@@ -65,18 +65,18 @@
     }
 
     function statusDispatching() {
-        var next_clicked = false;
+        let next_clicked = false;
 
         if (getSetting('fastS5')) {
-            var fms = document.getElementsByClassName('btn btn-xs btn-success');
+            let fms = document.getElementsByClassName('btn btn-xs btn-success');
             if (fms.length > 0) {
                 if (fms[0].innerText.match(I18n.t('lssm.statusDispatching.fms')))
                     fms[0].click();
             }
         }
-        var nextVehicle = document.getElementsByClassName('btn btn-success');
-        var count = 0;
-        for (var i = 0; i < nextVehicle.length; i++) {
+        let nextVehicle = document.getElementsByClassName('btn btn-success');
+        let count = 0;
+        for (let i = 0; i < nextVehicle.length; i++) {
             if (nextVehicle.length > 0 && nextVehicle[i].innerText.match(I18n.t('lssm.statusDispatching.nextVehicle'))) {
                 nextVehicle[i].click();
                 next_clicked = true;
@@ -85,14 +85,14 @@
             }
         }
 
-        var backToMission = document.getElementById('btn_back_to_mission');
+        let backToMission = document.getElementById('btn_back_to_mission');
         if (backToMission !== null && !next_clicked) {
             backToMission.click();
         }
 
-        var label = document.getElementsByClassName('alert alert-success');
-        var allTransported = false;
-        for (var i = 0; i < label.length; i++) {
+        let label = document.getElementsByClassName('alert alert-success');
+        let allTransported = false;
+        for (let i = 0; i < label.length; i++) {
             if (label[i].innerText.match(I18n.t('lssm.statusDispatching.fms5H1'))) {
                 allTransported = true;
             }

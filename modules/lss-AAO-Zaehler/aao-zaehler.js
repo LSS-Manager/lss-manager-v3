@@ -15,7 +15,7 @@
      */
     function erstelleZaehler() {
         $('.aao').each(function () {
-            $(this).find('span:not(.glyphicon)').after(' <span class="aaoZaehler">0</span>x');
+            $(this).find('span:not(.glyphicon):first').after(' <span class="aaoZaehler">0</span>x');
         });
 
         $('[vehicle_group_id]').each(function () {
@@ -33,7 +33,7 @@
      * @param element Das Element, in dem sich der AAO-Zaehler befindet.
      */
     function setzeAaoZaehlerHoch(element) {
-        var aaoZaehler = parseInt($(element).find('.aaoZaehler').html());
+        let aaoZaehler = parseInt($(element).find('.aaoZaehler').html());
         ++aaoZaehler;
         $(element).find('.aaoZaehler').html(aaoZaehler);
     }

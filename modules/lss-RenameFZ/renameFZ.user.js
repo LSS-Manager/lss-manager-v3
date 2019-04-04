@@ -1,6 +1,6 @@
 (function (I18n, $) {
 
-    var LSS_RENAMEFZ_STORAGE = "LSS_RENAMEFZ_STORAGE";
+    let LSS_RENAMEFZ_STORAGE = "LSS_RENAMEFZ_STORAGE";
 
     function setSettings() {
 
@@ -97,7 +97,8 @@
               83: 'GW-Werkfeuerwehr',
               84: 'ULF mit Löscharm',
               85: 'TM 50',
-              86: 'Turbolöscher'
+              86: 'Turbolöscher',
+              87: 'TLF 4000'
             }
         }
         I18n.translations.en.lssm.renameFzDefaults = {
@@ -112,7 +113,7 @@
               2: 'Platform truck',
               3: 'Bataillon chief unit',
               4: 'Heavy rescue vehicle',
-              5: 'Ambulance',
+              5: 'ALS Ambulance',
               6: 'Mobile air',
               7: 'Water Tanker',
               8: 'Utility unit',
@@ -133,7 +134,8 @@
               23: 'Police Motorcycle',
               24: 'Large Fireboat',
               25: 'Large Rescue Boat',
-              26: 'SWAT SUV'
+              26: 'SWAT SUV',
+              27: 'BLS Ambulance'
             }
         }
         I18n.translations.nl.lssm.renameFzDefaults = {
@@ -191,11 +193,14 @@
               45: 'DBH',
               46: 'DM Noodhulp',
               47: 'DA Hondengeleider',
-              48: 'DB Hondengeleider'
+              48: 'DB Hondengeleider',
+              49: 'PM-OR',
+              50: 'TS-OR',
+              51: 'HVH'
             }
         }
 
-        var managedSettings = {
+        let managedSettings = {
           "id": LSS_RENAMEFZ_STORAGE,
           "title": I18n.t('lssm.renameFzDefaults.name'),
           "info_text": I18n.t('lssm.renameFzDefaults.description'),
@@ -214,7 +219,7 @@
           }
         };
 
-        var DEFAULT_SHORTINGS_DE = {
+        let DEFAULT_SHORTINGS_DE = {
           0: 'LF 20',
           1: 'LF 10',
           2: 'DLK 23',
@@ -301,15 +306,16 @@
           83: 'GW-Werkfeuerwehr',
           84: 'ULF mit Löscharm',
           85: 'TM 50',
-          86: 'Turbolöscher'
+          86: 'Turbolöscher',
+          87: 'TLF 4000'
         }
-        var DEFAULT_SHORTINGS_EN = {
+        let DEFAULT_SHORTINGS_EN = {
           0: 'Type 1 fire engine',
           1: 'Type 2 fire engine',
           2: 'Platform truck',
           3: 'Bataillon chief unit',
           4: 'Heavy rescue vehicle',
-          5: 'Ambulance',
+          5: 'ALS Ambulance',
           6: 'Mobile air',
           7: 'Water Tanker',
           8: 'Utility unit',
@@ -330,9 +336,10 @@
           23: 'Police Motorcycle',
           24: 'Large Fireboat',
           25: 'Large Rescue Boat',
-          26: 'SWAT SUV'
+          26: 'SWAT SUV',
+          27: 'BLS Ambulance'
         }
-        var DEFAULT_SHORTINGS_NL = {
+        let DEFAULT_SHORTINGS_NL = {
           0: 'SIV',
           1: 'TS 8/9',
           2: 'AL',
@@ -381,7 +388,10 @@
           45: 'DBH',
           46: 'DM Noodhulp',
           47: 'DA Hondengeleider',
-          48: 'DB Hondengeleider'
+          48: 'DB Hondengeleider',
+          49: 'PM-OR',
+          50: 'TS-OR',
+          51: 'HVH'
         }
 
         I18n.translations.de.lssm.renameFz = DEFAULT_SHORTINGS_DE;
@@ -399,7 +409,7 @@
           defaultShortings = DEFAULT_SHORTINGS_DE;
 
         $.each(defaultShortings, function(key, val) {
-          var tmpObject = {
+            let tmpObject = {
             ['renameFz-' + key]: {
               "default": val,
               "ui": {
@@ -493,7 +503,7 @@
     nameToLongShortenedName: 'Nieuw/verkorte naam'
     };
 
-    var set = {
+    let set = {
         rename: false,
         option: {
             id: '',
@@ -525,9 +535,9 @@
 
     $('#tab_vehicle').on('submit', '.vehicle_form', function (e) {
 
-        var post_data = $(this).serialize();
-        var vehicle_id = $(this).attr("vehicle_id");
-        var href = $(this).attr("action");
+        let post_data = $(this).serialize();
+        let vehicle_id = $(this).attr("vehicle_id");
+        let href = $(this).attr("action");
 
         e.preventDefault();
         $.ajax({
@@ -537,7 +547,7 @@
             success: function () {
                 tellParent('buildingLoadContent("/buildings");');
                 $("#vehicle_form_holder_" + vehicle_id).hide();
-                var newName = $("#vehicle_new_name_" + vehicle_id).val();
+                let newName = $("#vehicle_new_name_" + vehicle_id).val();
                 $("#vehicle_link_" + vehicle_id).html(newName).next().show();
 
                 $(this).html("saved");
@@ -555,14 +565,14 @@
     }
     function arabicToRoman(arabicNumber) {
         try {
-            var roman = new Array( "M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
-            var arabic = new Array(1000, 900, 500,  400, 100,   90,  50,  40,   10,    9,   5,    4,   1);
-            var arabicNumber = parseInt(arabicNumber);
-            var romanNumber = "";
+            let roman = new Array( "M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I");
+            let arabic = new Array(1000, 900, 500,  400, 100,   90,  50,  40,   10,    9,   5,    4,   1);
+            let arabicNumber = parseInt(arabicNumber);
+            let romanNumber = "";
 
             if (isNaN(arabicNumber) || (arabicNumber <= 0)) { return "0"; }
 
-            for (var Nr = 0; Nr < arabic.length; Nr++)
+            for (let Nr = 0; Nr < arabic.length; Nr++)
                 while (arabicNumber >= arabic[Nr])
                 {
                     romanNumber += roman[Nr];
@@ -579,7 +589,7 @@
         try {
             vehicleIDs = [];
             buildingIDs = [];
-            var vehicles = new Array();
+            let vehicles = new Array();
             for(i=0;i<$("#vehicle_table tbody tr").length;i++) {
                 vehicleIDs[i-1] = $("#vehicle_table tbody tr")[i].children[1].children[0].children[0].href.replace(replaceGameVehicles, "");
                 buildingIDs[i-1] = $("#vehicle_table tbody tr")[i].children[3].children[0].href.replace(replaceGameBuildings, "");
@@ -594,7 +604,6 @@
                 vehicles["Building " + buildingIDs[i-1]]["Type " + vehicleType].sort(function(a, b){return a-b});
             }
             return vehicles
-            console.log(vehicles);
         } catch(err) {
             $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFZ.statusError') + " <i>" + err.stack + "</i>");
             executionFailed = true;
@@ -602,7 +611,7 @@
     }
     function getVehicleNumberAtStation(vehicleID) {
         try {
-            var number = 0;
+            let number = 0;
             if (typeof vehicles === 'undefined') {
                 vehicles = getVehiclesSorted();
             }
@@ -612,7 +621,7 @@
                     vehicleType = $("#vehicle_table tbody tr")[i].children[0].children[0].attributes["vehicle_type_id"].value;
                 }
             }
-            var sameTypeOnStation = vehicles["Building " + buildingID]["Type " + vehicleType];
+            let sameTypeOnStation = vehicles["Building " + buildingID]["Type " + vehicleType];
             sameTypeOnStation.forEach(function (item, index) {
                 if (parseInt(item) == parseInt(vehicleID)) {
                     return number = parseInt(index) + 1;
@@ -650,7 +659,7 @@
         try {
             $("#vehicle_link_" + vehicleId).parent()[0].innerHTML = $("#vehicle_link_" + vehicleId).parent()[0].innerHTML.replace(I18n.t('lssm.renameFZ.nameAlreadyCorrect'), "");
             if (oldName != value) {
-                var formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
+                let formHTML = '<form accept-charset="UTF-8" action="/vehicles/' + vehicleId + '" class="simple_form form-horizontal vehicle_form" enctype="multipart/form-data" id="vehicle_form_' + vehicleId + '" method="post" novalidate="novalidate" vehicle_id="' + vehicleId + '"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="' + token + '"></div><div class="form-group string required vehicle_caption"><div class="col-sm-9"><input class="string required form-control" id="vehicle_new_name_' + vehicleId + '" maxlength="40" minlength="2" name="vehicle[caption]" size="50" type="text" value="' + value + '"></div></div><input class="btn btn btn-success" name="commit" type="submit" value="Speichern"></form>';
                 $('#vehicle_form_holder_' + vehicleId).html(formHTML).show();
             } else {
                 $("#vehicle_form_" + vehicleId).remove()
@@ -662,20 +671,20 @@
           }
     }
     function replaceString(type, id) {
-        var str = set.str.str !== '' ? set.str.str : set.str.default;
+        let str = set.str.str !== '' ? set.str.str : set.str.default;
         str = str.replace('{tagging}', getSetting("renameFz-" + type));
-        for (var i in set.option) {
+        for (let i in set.option) {
             str = str.replace('{' + i + '}', set.option[i]);
         }
         return str;
     }
     function setOptionsForVehicle(e) {
-        var tr = e.closest('tr');
-        var id = e.attr('vehicle_id');
+        let tr = e.closest('tr');
+        let id = e.attr('vehicle_id');
         set.option.id = id;
         set.option.old = $('#vehicle_link_' + id).text().trim();
         set.option.stationName = tr.find('td').eq(3).text().trim();
-        var vehicleType = tr.find('.vehicle_image_reload:first').attr('vehicle_type_id');
+        let vehicleType = tr.find('.vehicle_image_reload:first').attr('vehicle_type_id');
         if (lssm.carsById[vehicleType]) {
             set.option.vehicleType = lssm.carsById[vehicleType][0];
         }
@@ -685,7 +694,7 @@
         return {'id': id, 'vehicleType': vehicleType, 'oldName': set.option.old};
     }
     function showForms() {
-        var data = setOptionsForVehicle($(this));
+        let data = setOptionsForVehicle($(this));
         if (data.oldName != replaceString(data.vehicleType, data.id).substr(0, 40)) {
             $(this).hide();
         }
@@ -700,9 +709,9 @@
     function createSettings() {
         if ($('#' + prefix).length)
             return;
-        var mainDiv = $('<div id="' + prefix + '"></div>');
-        var html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ' + I18n.t('lssm.renameFZ.exampleResult') + '</div><div id="' + prefix + '_buttons">';
-        for (var i in set.option)
+        let mainDiv = $('<div id="' + prefix + '"></div>');
+        let html = '' + I18n.t('lssm.renameFZ.example') + '<br>' + set.str.bsp + '<br> ' + I18n.t('lssm.renameFZ.exampleResult') + '</div><div id="' + prefix + '_buttons">';
+        for (let i in set.option)
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFZ.'+i) + '</a>';
         html += '</div><div><input id="' + prefix + '_string" type="text" value=""\></div><div><a href="#" class="btn btn-default btn-xs" id="' + prefix + '_rename">' + I18n.t('lssm.renameFZ.rename') + '</a>';
         html += ' <span id="' + prefix + '_status">Status: ' + I18n.t('lssm.renameFZ.statusWaiting') + '</span></div>';
@@ -717,9 +726,9 @@
         });
         $("#" + prefix + "_nameToLongDiv").hide();
         $('#' + prefix + '_buttons').click(function (e) {
-            var input = document.getElementById(prefix + '_string'), start = input.selectionStart, end = input.selectionEnd;
+            let input = document.getElementById(prefix + '_string'), start = input.selectionStart, end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);
-            var pos = start + $(e.target).data('str').length;
+            let pos = start + $(e.target).data('str').length;
             input.selectionStart = pos;
             input.selectionEnd = pos;
             changeInput({'target': input});
@@ -731,11 +740,6 @@
         }
         $('#' + prefix + '_string').change(changeInput);
         $('#' + prefix + '_rename').click(rename);
-        $('#' + prefix + '_saveAll').click(function () {
-            alert(I18n.t('lssm.renameFZ.saveAllWarning'));
-            for(i=1;i<$("input.btn.btn-success").length;i++){
-                $("input.btn.btn-success")[i].click();
-            }
-        });
+        $("#" + prefix + "_saveAll").click(function(){alert(I18n.t("lssm.renameFZ.saveAllWarning")),$(".vehicle_form input.btn.btn-success").each(function(){let n=$(this);window.setTimeout(function(){n.click()},100)})});
     };
 })(I18n, jQuery);

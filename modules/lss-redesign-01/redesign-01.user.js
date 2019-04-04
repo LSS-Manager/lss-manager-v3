@@ -175,6 +175,27 @@
         'width:22px;'+
         'display:inline-block !important;'+
       '}'+
+      '.custom_mission_not_shown {' +
+        'display: none;' +
+      '}' +
+      '.search_input_field, #search_input_field_missions {' +
+          'background - image: url(/images/search_5a5753.svg);' +
+          'background - repeat: no - repeat;' +
+          'background - size: auto 100 % ;' +
+          'padding - left: 25 px' +
+      '}' +
+      '.searchHelperInvisble, .mission_alliance_distance_hide, .mission_deleted {' +
+          'display: none' +
+      '}' +
+      '#search_input_field_missions {' +
+          'margin: 5 px 0;width: 100 % ;font - size: 12 px;border: 1 px solid# ccc;border - radius: 4 px' +
+      '}' +
+      'body.bigMap# search_input_field_missions {' +
+          'color: #333' +
+      '}' +
+      '.mobile-navbar-selector {' +
+        'margin:4px 0;padding:10px 0;width:58px' +
+      '}' +
       '.missionSideBarEntry > div > .panel-body{'+
         'padding:15px;'+
         'padding-top:0px;'+
@@ -186,7 +207,7 @@
         'height: 550px;'+
       '}'+
       '#missions-panel-body {'+
-        'height: 528px;'+
+        'height: 497px;'+
         'overflow-x: hidden;'+
         'overflow-y: scroll;'+
         'margin-bottom: 10px;'+
@@ -267,7 +288,7 @@
       '.news_new, .alliance_forum_new, .alliance_message_new, .message_new,.alliance_apply_new, .alliance_news_new {'+
         'background-color: #77dc81'+
       '}'+
-      '.alliance_chat_copy_username {'+
+      '.alliance_chat_copy_username,.alliance_chat_private_username {'+
         'width: 16px;'+
         'height: 16px;'+
         'cursor: pointer'+
@@ -280,6 +301,11 @@
       '.chatToSelf {'+
         'background-color: #d84f4b;'+
         'color: white'+
+      '}'+
+      '.chatWhisper {'+
+        'background - color: #656565;'+
+        'font-style:italic;'+
+        'color:white'+
       '}'+
       '.map-expand-button {'+
         'background-image: url(/images/expand.png);'+
