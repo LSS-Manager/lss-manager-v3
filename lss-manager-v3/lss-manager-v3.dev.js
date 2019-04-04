@@ -91,10 +91,10 @@ I18n.translations.de.lssm = {
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
-    "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
-    "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-    "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
-    "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+        "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
+        "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
+        "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
+        "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -109,10 +109,10 @@ I18n.translations.de.lssm = {
 I18n.translations.en.lssm = {
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
-    "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
-    "<a href=\"" +
-    "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
-    "\" target=\"blank\">write a message in the forum</a>.",
+        "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
+        "<a href=\"" +
+        "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
     saving: "Saving...",
@@ -127,10 +127,10 @@ I18n.translations.en.lssm = {
 I18n.translations.nl.lssm = {
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
-    "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
-    "problemen zijn, kunt u <a href=\"" +
-    "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
-    "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
+        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
+        "problemen zijn, kunt u <a href=\"" +
+        "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
+        "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -179,13 +179,13 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den ' +
-            'Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen ' +
-            'Fensters im Menu.',
+                'Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen ' +
+                'Fensters im Menu.',
             en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge ' +
-            'is telling you how many missions etc. you have since your last visit within that window.',
+                'is telling you how many missions etc. you have since your last visit within that window.',
             nl: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
-            'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
-            'meldingen voor je bij.'
+                'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
+                'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
         collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05']
@@ -197,10 +197,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & ' +
-            'Funksprüche.',
+                'Funksprüche.',
             en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
             nl: 'Design met een grote kaart bovenaan je scherm. onder de kaart zijn de vier overige schermen; ' +
-            'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
+                'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
@@ -226,11 +226,11 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle ' +
-            'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
+                'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
             en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. ' +
-            'Below that the buildings, chat and radio.',
+                'Below that the buildings, chat and radio.',
             nl: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht ' +
-            'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
+                'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
         collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05']
@@ -272,7 +272,7 @@ lssm.Module = {
         description: {
             de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
-            'each one.',
+                'each one.',
             nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -330,10 +330,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. ' +
-            '(ChatPoput included)',
+                '(ChatPoput included)',
             en: 'HTML5 Chatnotifications using the browser notificationsystem.',
             nl: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit ' +
-            'meer een chat of melding hoeft te missen.'
+                'meer een chat of melding hoeft te missen.'
         },
         source: '/modules/lss-notification_alert/Notification_alarm.user.js',
         develop: false
@@ -378,7 +378,7 @@ lssm.Module = {
             de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
             en: 'Allows hiding full or unelegible hospitals',
             nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' +
-            'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
+                'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         inframe: true
@@ -422,11 +422,11 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die ' +
-            'Gebäude sind wählbar.',
+                'Gebäude sind wählbar.',
             en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for ' +
-            'specific buildings.',
+                'specific buildings.',
             nl: 'Toont cirkels met een zelf in te stellen radius rondom gebouwen. Je kunt ook filteren op specifieke ' +
-            'gebouwen.'
+                'gebouwen.'
         },
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
@@ -458,7 +458,7 @@ lssm.Module = {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en: 'Instantly share missions without opening the call by clicking a button in the overview.',
             nl: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in ' +
-            'de meldingenlijst.'
+                'de meldingenlijst.'
         },
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
@@ -473,9 +473,9 @@ lssm.Module = {
         description: {
             de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
             en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
-            'quickly.',
+                'quickly.',
             nl: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat ' +
-            'je snel door je meldingen bladeren.'
+                'je snel door je meldingen bladeren.'
         },
         source: '/modules/lss-searchMissions/searchMissions.user.js',
         develop: false
@@ -519,11 +519,13 @@ lssm.Module = {
             de: 'Fahrzeuge in bulk mit Tags umbennenen.',
             en: 'Rename vehicles in bulk using tags.',
             nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
-            'behulp van tags.'
+                'behulp van tags.'
         },
         source: '/modules/lss-RenameFZ/renameFZ.user.js',
         inframe: true,
-        develop: false
+        develop: false,
+        needVehicles: true,
+        needBuildings: true
     },
     telemetry: {
         name: {
@@ -613,7 +615,7 @@ lssm.Module = {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
             nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
-            'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
+                'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
         source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -699,10 +701,10 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen ' +
-            'für Bayern.',
+                'für Bayern.',
             en: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
             nl: 'Toont steekwoorden bij de meldingen. Deze steekwoorden zijn grotendeels gebaseerd op de ' +
-            'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
+                'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
         },
         source: '/modules/lss-missionKeyword/missionKeyword.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -720,7 +722,7 @@ lssm.Module = {
             de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
             en: 'Shows the date when the mission was generated and the hours/minutes since then',
             nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er ' +
-            'verstreken is sinds de melding binnenkwam.'
+                'verstreken is sinds de melding binnenkwam.'
         },
         source: '/modules/lss-missionDate/missionDate.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -753,7 +755,7 @@ lssm.Module = {
         active: false,
         description: {
             de: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der ' +
-            'täglichen Zusammenfassung an.',
+                'täglichen Zusammenfassung an.',
             en: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
             nl: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
         },
@@ -1128,10 +1130,10 @@ lssm.settings = {
         }
     },
 
-	exists: function(key)
-	{
-		return localStorage.getItem(lssm.config.prefix + '_' + key) !== null;
-	},
+    exists: function(key)
+    {
+        return localStorage.getItem(lssm.config.prefix + '_' + key) !== null;
+    },
 
     // Get a config value from localstorage
     get: function (key, defaultvalue) {
@@ -1426,11 +1428,8 @@ lssm.modal = {
                             '<link rel="stylesheet" ' +
                             'href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css">'
                         );
-                    lssm.get_vehicles(true);
-                    lssm.get_buildings(true);
-                    setInterval(function(){lssm.get_buildings(false);lssm.get_vehicles(false);}, 120000);
-                    // Get the last activated modules
                     let modules = lssm.settings.get('Modules') || {};
+                    // Get the last activated modules
                     let deact = 0;
                     for (let i in modules) {
                         let modname = i.toString();
@@ -1439,19 +1438,37 @@ lssm.modal = {
                             console.error(modname + " is not compatible with mapkit.");
                             lssm.Module[i].active = false;
                             deact++;
-                            continue;
-                        }
-                        else if ((modname in lssm.Module) === false) {
+                        } else if ((modname in lssm.Module) === false) {
                             console.error(modname + " is not a valid app. Skipping.");
                             deact++;
-                            continue;
-                        }
-                        else if (lssm.Module[i].active === false) {
+                        } else if (lssm.Module[i].active === false) {
                             lssm.Module[i].active = modules[i];
                         }
                     }
-                    if(deact>0)
+                    if (deact > 0)
                         lssm.modules.saveall();
+                    let overwriteLoadVehicles = false;
+                    let overwriteLoadBuildings = false;
+                    for (let i in modules) {
+                        let module = lssm.Module[i];
+                        if (module.needVehicles && module.active) {
+                            overwriteLoadVehicles = true;
+                            break;
+                        }
+                    }
+                    for (let i in modules) {
+                        let module = lssm.Module[i];
+                        if (module.needBuildings && module.active) {
+                            overwriteLoadBuildings = true;
+                            break;
+                        }
+                    }
+                    lssm.get_vehicles(false, overwriteLoadVehicles);
+                    lssm.get_buildings(false, overwriteLoadBuildings);
+                    setInterval(function () {
+                        lssm.get_buildings(true, overwriteLoadVehicles);
+                        lssm.get_vehicles(true, overwriteLoadBuildings);
+                    }, 120000);
                     // Let's load all the modules
                     lssm.modules.loadall();
                     // Oh, we also need a appstore
