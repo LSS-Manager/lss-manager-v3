@@ -282,15 +282,15 @@ lssm.car_list_printable = function(list) {
     return data;
 }
 
-lssm.get_vehicles = function(async = false) {
+lssm.get_vehicles = function(async=true, overwritePathSetting=false) {
     let path = window.location.pathname.length;
-    if (path <= 2) {
+    if (path <= 2 || overwritePathSetting) {
         let tmpCar = {};
         $.ajax({
             url: "/api/vehicles",
             method: "GET",
             cache: true,
-            async: !async,
+            async: async,
             success: function (response) {
                 $.each(response, function (key, car) {
                     tmpCar[car.id] = {
@@ -320,14 +320,14 @@ $(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
     }
 });
 
-lssm.get_buildings = function(async = false) {
+lssm.get_buildings = function(async=true, overwritePathSetting=false) {
     let path = window.location.pathname.length;
-    if (path <= 2) {
+    if (path <= 2 || overwritePathSetting) {
         $.ajax({
             url: "/api/buildings",
             method: "GET",
             cache: true,
-            async: !async,
+            async: async,
             success: function (response) {
                 lssm.buildings = response;
             }
