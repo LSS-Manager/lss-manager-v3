@@ -28,6 +28,8 @@
         nameToLongShortenedName: 'Neuer/gekürzter Name',
         startNum: 'Zähler-Start',
         startNumHelp: 'Hier kann man einen Startwert für den Typzähler angeben können. Setzt man da 0 als Startwert, so wird das erste Fahrzeug eines Typs die Nummerierung nicht bekommen, das ist ganz praktisch, wenn man nur ein Fahrzeug eines Typs auf einer Wache hat, und das dann nicht durchnummerieren will. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
+        helpTitle: 'Eine kleine Anleitung findest du unter diesem Link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
         settings: {
             show: 'Ein-/Ausblenden',
             names: {
@@ -167,6 +169,7 @@
         nameToLongOriginalName: 'Original Name',
         nameToLongGeneratedName: 'Generated Name',
         nameToLongShortenedName: 'New/shortened name',
+        helpTitle: 'You can find a small instruction under this link: ',
         startNum: 'Counter start',
         startNumHelp: 'Here you can enter a start value for the type counter. If you set 0 as the start value, the first vehicle of a type will not get the numbering, this is very practical if you have only one vehicle of a type on a guard and do not want to number it. But you can also start the counter at 5 (for whatever reason you want, but it is possible ;) )',
         settings: {
@@ -187,8 +190,8 @@
                 8: "Police Aviation",
                 11: "Fire boat dock",
                 12: "Rescue boat dock",
-                13: "Fire Station (Small)"
-                // 14: "Urgent Care Center" // We will see
+                13: "Fire Station (Small)",
+                14: "Urgent Care Center"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -246,6 +249,7 @@
         nameToLongOriginalName: 'Oorspronkelijke naam',
         nameToLongGeneratedName: 'Gegenereerde naam',
         nameToLongShortenedName: 'Nieuw/verkorte naam',
+        helpTitle: 'Een kleine instructie vindt u onder deze link: ',
         startNum: 'Begin van de balie',
         startNumHelp: 'Hier kunt u een startwaarde voor de typeteller invoeren. Als je 0 als startwaarde instelt, krijgt het eerste voertuig van een type niet de nummering, dit is erg praktisch, als je maar één voertuig van een type op een horloge hebt, en je wilt het niet nummeren. Maar je kunt ook beginnen met de teller op 5 (om wat voor reden dan ook, maar het is mogelijk ;) )',
         settings: {
@@ -614,8 +618,8 @@
     function createSettings() {
         if ($('#' + prefix).length)
             return;
-        let mainDiv = $('<div id="' + prefix + '"></div>');
-        let html = '' + I18n.t('lssm.renameFz.example') + '<br>' + set.str.bsp + '<br> ' + I18n.t('lssm.renameFz.exampleResult') + '</div><div id="' + prefix + '_buttons">';
+        let mainDiv = $(`<div id="${prefix}"></div>`);
+        let html = `${I18n.t('lssm.renameFz.example')}<br>${set.str.bsp}<br>${I18n.t('lssm.renameFz.exampleResult')}</div><p>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></p><div id="${prefix}_buttons">`;
         for (let i in set.options)
             html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFz.' + i) + '</a>';
         html += '</div><div><input class="form-control" id="' + prefix + '_string" type="text" value=""\>&nbsp;' + I18n.t('lssm.renameFz.startNum') + ' <span class="glyphicon glyphicon-question-sign helpButton" aria-hidden="true" helpBox="startNum"></span><div class="alert alert-info" id="startNum" style="display: none; position: absolute; z-index=9999">' + I18n.t('lssm.renameFz.startNumHelp') + '</div> :<input id="' + prefix + '_startNum" type="number" value="1" min="0"\></div><div><a href="#" class="btn btn-default btn-xs disabled" id="' + prefix + '_rename">' + I18n.t('lssm.renameFz.rename') + '</a>';
