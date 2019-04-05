@@ -471,11 +471,13 @@
         try {
             let vehicles = $('#vehicle_table tbody tr');
             let vehiclesNum = vehicles.length;
-            $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (0/${vehiclesNum})`);
+            let status = $(`#${prefix}_status`);
+            status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (0/${vehiclesNum})`);
             indexVehicles();
             indexBuildings();
             $(`.${prefix}_name_correct`).remove();
             $(`#${prefix}_nameToLongDiv`).hide();
+            set.vehicles = {};
             let vars = set.str.str.match(/{.+?}/g);
             let usedOptions = [];
             let needType = false;
@@ -508,75 +510,81 @@
                 needNumber = true;
                 needNumberRoman = true;
             }
+            let numNewNames = 0;
             for (let i = 0; i < vehiclesNum; i++) {
-                window.setTimeout(function() {
-                    $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i+1}/${vehiclesNum})`);
-                    let vehicleRow = $(vehicles[i]);
-                    let vehicleCaption = vehicleRow.find('[id^=vehicle_caption_]');
-                    let vehicleID = vehicleCaption.attr("id").replace(/\D/g, "");
-                    let vehicle = lssm.vehicles[vehicleID];
-                    let building = buildings[vehicle.building];
-                    set.vehicles[vehicleID] = {};
-                    set.vehicles[vehicleID].dispatch = set.options.dispatch;
-                    set.vehicles[vehicleID].id = vehicleID;
-                    set.vehicles[vehicleID].old = vehicle.name;
-                    set.vehicles[vehicleID].stationName = building.caption;
-                    if (needType) {
-                        set.vehicles[vehicleID].vehicleType = lssm.carsById[vehicle.type][0];
+                status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i+1}/${vehiclesNum})`);
+                let vehicleRow = $(vehicles[i]);
+                let vehicleCaption = vehicleRow.find('[id^=vehicle_caption_]');
+                let vehicleID = vehicleCaption.attr("id").replace(/\D/g, "");
+                let vehicle = lssm.vehicles[vehicleID];
+                let building = buildings[vehicle.building];
+                set.vehicles[vehicleID] = {};
+                set.vehicles[vehicleID].dispatch = set.options.dispatch;
+                set.vehicles[vehicleID].id = vehicleID;
+                set.vehicles[vehicleID].old = vehicle.name;
+                set.vehicles[vehicleID].stationName = building.caption;
+                if (needType) {
+                    set.vehicles[vehicleID].vehicleType = lssm.carsById[vehicle.type][0];
+                }
+                if (needTagging) {
+                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`];
+                }
+                if (needStationAlias) {
+                    set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
+                }
+                if (needNumber) {
+                    set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID);
+                }
+                if (needNumberRoman) {
+                    set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number);
+                }
+                set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => set.vehicles[vehicleID][p1]||match);
+                if (set.vehicles[vehicleID].newName === set.vehicles[vehicleID].old) {
+                    vehicleCaption.append(`<span class="${prefix}_name_correct"><br>${I18n.t('lssm.renameFz.nameAlreadyCorrect')}</span>`);
+                    $(`#vehicle_form_holder_${vehicleID}`).empty();
+                    $(`#vehicle_form_holder_${vehicleID}`).hide();
+                    if (i + 1 === vehiclesNum && executionFailed !== true) {
+                        status.html("Status: " + I18n.t('lssm.renameFz.statusSuccess'));
                     }
-                    if (needTagging) {
-                        set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`];
-                    }
-                    if (needStationAlias) {
-                        set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
-                    }
-                    if (needNumber) {
-                        set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID);
-                    }
-                    if (needNumberRoman) {
-                        set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number);
-                    }
-                    set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => set.vehicles[vehicleID][p1]||match);
-                    if (set.vehicles[vehicleID].newName === set.vehicles[vehicleID].old) {
-                        vehicleCaption.append(`<span class="${prefix}_name_correct"><br>${I18n.t('lssm.renameFz.nameAlreadyCorrect')}</span>`);
-                        $(`#vehicle_form_holder_${vehicleID}`).empty();
-                        $(`#vehicle_form_holder_${vehicleID}`).hide();
-                        if (i + 1 === vehiclesNum && executionFailed !== true) {
-                            $(`#${prefix}_status`).html("Status: " + I18n.t('lssm.renameFz.statusSuccess'));
-                        }
-                    } else {
-                        if (set.vehicles[vehicleID].newName.length > 40) {
-                            $(`#${prefix}_nameToLongDiv`).show();
-                            $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 40) + "</td></tr>");
-                        }
-                        if (!$(`#vehicle_new_name_${vehicleID}`)[0]) {
-                            $(`#vehicle_form_holder_${vehicleID}`).show();
-
-
-                            $(`#vehicle_form_holder_${vehicleID}`).html(I18n.t("common.loading"));
-
-                            $.ajax({
-                                url: `/vehicles/${vehicleID}/editName`,
-                                success: function (data) {
-                                    $(`#vehicle_form_holder_${vehicleID}`).html(data);
-                                    $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
-                                    if (i + 1 === vehiclesNum && executionFailed !== true) {
-                                        $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusSuccess')}`);
-                                    }
-                                },
-                                error: function (error) {
-                                    $(`#vehicle_form_holder_${vehicleID}`).html("error");
-                                    printError(error);
-                                }
-                            });
-                        } else {
-                            $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
-                        }
-                    }
-                }, 100 * i);
+                } else {
+                    numNewNames++;
+                    window.setTimeout(function() {
+                        applyNewName(vehicleID, (i + 1 === vehiclesNum));
+                    }, numNewNames * 100);
+                }
             }
         } catch (e) {
             printError(e);
+        }
+    }
+
+    function applyNewName(vehicleID, last=false) {
+        if (set.vehicles[vehicleID].newName.length > 40) {
+            $(`#${prefix}_nameToLongDiv`).show();
+            $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 40) + "</td></tr>");
+        }
+        if (!$(`#vehicle_new_name_${vehicleID}`)[0]) {
+            $(`#vehicle_form_holder_${vehicleID}`).show();
+
+
+            $(`#vehicle_form_holder_${vehicleID}`).html(I18n.t("common.loading"));
+
+            $.ajax({
+                url: `/vehicles/${vehicleID}/editName`,
+                success: function (data) {
+                    $(`#vehicle_form_holder_${vehicleID}`).html(data);
+                    $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
+                    if (last && executionFailed !== true) {
+                        $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusSuccess')}`);
+                    }
+                },
+                error: function (error) {
+                    $(`#vehicle_form_holder_${vehicleID}`).html("error");
+                    printError(error);
+                }
+            });
+        } else {
+            $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
         }
     }
 
