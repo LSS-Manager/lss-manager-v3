@@ -666,7 +666,9 @@
 				439: '18x Löschfahrzeuge<br>2x Rüstwagen<br>1x Schlauchwagen<br>3x Drehleiter<br>2x Feuerwehrkräne<br>5x Einsatzleitwagen 1<br>2x Einsatzleitwagen 2<br>' +
 				'2x Gerätekraftwagen<br>2x MTW-TZ<br>2x MzKW<br>2x LKW K 9 + BRmG R<br>10x Funkstreifenwagen<br>max. 10x Rettungswagen<br>' +
 				'Notarzteinsatzfahrzeug (50%)/ Rettungshubschrauber (10%)<br><br><span class="badge">Credits: ~ 8000 </span>',
-				440: 'Rettungswagen<br>Notarzteinsatzfahrzeug (80%)'
+				440: 'Rettungswagen<br>Notarzteinsatzfahrzeug (80%)',
+				441: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br><br><span class="label label-primary">Wasserbedarf: 4000 L</span>' +
+				'<span class="badge">Credits: ~ 1600 </span>'
 			}
 		}
 
@@ -973,7 +975,11 @@
 				245: '1x Firetruck<br>2x Heavy Rescue<br>1x Battalion Chief<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>',
 				246: '<h4>A and B Code</h4><br>1x BLS Ambulance<br><h4>Other Codes</h4><br>1x ALS Ambulance',
 				247: '1x Ambulance',
-				248: '1x Police Car<br>1x Ambulance<br><br><span class="badge">Credits: ~ 200 </span>'
+				248: '1x Police Car<br>1x Ambulance<br><br><span class="badge">Credits: ~ 200 </span>',
+				249: '8x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>1x Heavy Rescue<br>1x Water Tanker (40%)<br>1x Mobile Air (40%)<br>' +
+				'1x HazMat<br>1x Mobile Command (20%)<br>2x Police Cars<br>Max. 4x Ambulances<br><br><span class="badge">Credits: ~ 6000 </span>',
+				250: '8x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>4x Heavy Rescue<br>1x Water Tanker<br>1x Mobile Air<br>' +
+				'1x HazMat<br>1x Mobile Command<br>4x Police Cars<br>Max. 12x Ambulances<br><br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1578,7 +1584,11 @@
 				418: '2x Noodhulpeenheden<br>1x Ambulance<br>1x MMT-Arts<br><br><span class="badge">Credits: ~ 1150 </span>',
 				419: '2x Noodhulpeenheden<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1000 </span>',
 				420: '1x Tankautospuit<br>1x OvD-B<br>1x Hulpverleningsvoertuig (60%)<br>2x Noodhulpeenheden<br>1x Ambulance<br>1x MMT-Arts' +
-				'<br><br><span class="badge">Credits: ~ 1200 </span>'
+				'<br><br><span class="badge">Credits: ~ 1200 </span>',
+				421: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2200 </span>',
+				422: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2200 </span>',
+				423: '4x Noodhulpeenheden<br>1x OvD-P<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 4100 </span>',
+				424: '5x Noodhulpeenheden<br>1x OvD-P<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 4500 </span>'
 			}
 		}
 	}

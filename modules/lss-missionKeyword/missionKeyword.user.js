@@ -462,7 +462,8 @@
         437: 'Taxi - Stiller Alarm',
         438: 'PKW in Zapfsäule',
         439: 'Einsturz Parkhaus',
-        440: 'Akute Atemnot'
+        440: 'Akute Atemnot',
+        441: 'Brennende Waldhütte'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -729,7 +730,9 @@
         245: 'Medical emergency on crane',
         246: 'Patient Transfer',
         247: 'Possible Sepsis',
-        248: 'Mental health concern'
+        248: 'Mental health concern',
+        249: 'Car workshop fire',
+        250: 'Car workshop fire with explosion'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1168,7 +1171,11 @@
         417: 'Verkeersongeval met lijnbus en voetganger',
         418: 'Verkeersongeval met lijnbus en voetganger',
         419: 'Verkeersongeval met lijnbus en fietser',
-        420: 'Verkeersongeval met lijnbus en fietser'
+        420: 'Verkeersongeval met lijnbus en fietser',
+        421: 'Overvalalarm bankkantoor',
+        422: 'Overval bankkantoor',
+        423: 'Overval bankkantoor',
+        424: 'Overval bankkantoor'
       }
     };
 
@@ -1632,7 +1639,8 @@
       437: 'POL 1',
       438: 'THL 1',
       439: 'THL 4',
-      440: 'RD 1'
+      440: 'RD 1',
+      441: 'B 2'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1882,8 +1890,10 @@
       244: 'POL 1',
       245: 'TECH 1',
       246: 'MEDT',
-      247: 'NED 1',
-      248: 'POL 1'
+      247: 'MED 1',
+      248: 'POL 1',
+      249: 'FIRE 4',
+      250: 'FIRE 5'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2306,7 +2316,11 @@
       417: 'POL 1',
       418: 'A 1',
       419: 'POL 1',
-      420: 'HV 1'
+      420: 'HV 1',
+      421: 'P 3',
+      422: 'P 3',
+      423: 'P 4',
+      424: 'P 5'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
