@@ -9,14 +9,15 @@
 if(I18n.locale == "en")
 {
 	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Ambulance extension": 0,
-		"Water rescue expansion": 1,
-		"Airport extension": 2,
-		// Pol-Erweiterungen (10-19)
-		//Schule-Erweiterungen (20-29)
-		// SEG-Erweiterungen (30-39)
-		// THW-Erweiterungen (40-49)
+        // FW-Erwerterungen (0-9)
+        "Ambulance extension": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Prison cell": 10,
+        "More cell": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
 	};
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
@@ -52,15 +53,19 @@ if(I18n.locale == "en")
 else if (I18n.locale == "nl")
 {
 	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Ambulance standplaats": 0,
-		"Waterongevallenbestrijding": 1,
-		"Vliegtuigbrandbestrijding": 2,
-		"Haakarmbak parkeerplaats": 5,
-		// Pol-Erweiterungen (10-19)
-		//Schule-Erweiterungen (20-29)
-		// SEG-Erweiterungen (30-39)
-		// THW-Erweiterungen (40-49)
+        // FW-Erwerterungen (0-9)
+        "Ambulance standplaats": 0,
+        "Waterongevallenbestrijding": 1,
+        "Vliegtuigbrandbestrijding": 2,
+        "Haakarmbak parkeerplaats": 5,
+        // Pol-Erweiterungen (10-19)
+        "Gevangeniscel": 10,
+        "Extra cel": 10,
+        "2e OvD-P": 11,
+        "Mobiele Eenheid, Sectie": 12,
+        "Levende Have": 13,
+        // Schule-Erweiterungen (20-29)
+        "Extra klaslokaal": 20,
 	};
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
