@@ -1019,8 +1019,8 @@
 				'1x Redvoertuig<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 3510 </span>',
 				27: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (30%)<br><br><span class="badge">Credits: ~ 700 </span>',
 				28: '2x Tankautospuiten<br>1x Redvoertuig (50%)<br>1x OvD-B<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 1600 </span>',
-				29: '3x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOVD (70%)<br>Ambulance<br>' +
-				'1x Slangenwagen (20%)<br>1x Adembeschermingsvoertuig (50%)<br>1x Noodhulpeenheid/br><br><span class="badge">Credits: ~ 2470 </span>',
+				29: '3x Tankautospuiten<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x HOVD (70%)<br>1x Slangenwagen (20%)<br>' +
+				'<br>1x Adembeschermingsvoertuig (50%)<br>1x Noodhulpeenheid<br>Ambulance<br><br><span class="badge">Credits: ~ 2470 </span>',
 				30: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (20%)<br><br><span class="badge">Credits: ~ 190 </span>',
 				31: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 400 </span>',
 				32: '2x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1310 </span>',
