@@ -221,7 +221,8 @@
                 24: 'Large Fireboat',
                 25: 'Large Rescue Boat',
                 26: 'SWAT SUV',
-                27: 'BLS Ambulance'
+                27: 'BLS Ambulance',
+                28: 'EMS Rescue'
             }
         }
     };

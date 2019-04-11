@@ -389,10 +389,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             switch (veh.fms_real) {
                 case 3:
                 case 4:
-                case 7:
-                    cars[type].transport += 1;
-                    total.transport += 1;
-                    break;
                 case 8:
                     cars[type].miss += 1;
                     total.miss += 1;
@@ -405,6 +401,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     cars[type].fms6 += 1;
                     total.fms6 += 1;
                     break;
+                case 7:
+                    cars[type].transport += 1;
+                    total.transport += 1;
+                    break;
                 default:
                     cars[type].free += 1;
                     total.free += 1;
@@ -415,28 +415,28 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         });
         $.each(cars, function (key, val) {
             c_table.append('\
-			<tr>\
-				<td>' + key + '</td>\
-				<td>' + val.free + '</td>\
-				<td>' + val.miss + '</td>\
-				<td>' + val.fms5 + '</td>\
+            <tr>\
+                <td>' + key + '</td>\
+                <td>' + val.free + '</td>\
+                <td>' + val.miss + '</td>\
+                <td>' + val.fms5 + '</td>\
                 <td>' + val.transport + '</td>\
                 <td>' + val.fms6 + ' </td>\
-				<td>' + val.sum + '</td>\
-			</tr>');
+                <td>' + val.sum + '</td>\
+            </tr>');
         });
         c_table = $("#db_fzg_outer table tfoot");
         c_table.html("");
         c_table.append('\
-		<tr style="font-weight:bold">\
-			<td>' + I18n.t('lssm.dashboard.total') + '</td>\
-			<td>' + total.free + '</td>\
-			<td>' + total.miss + '</td>\
-			<td>' + total.fms5 + '</td>\
-            <td>' + total.transport + '</td>\
-            <td>' + total.fms6 + '</td>\
-			<td>' + total.sum + '</td>\
-		</tr>');
+            <tr style="font-weight:bold">\
+                <td>' + I18n.t('lssm.dashboard.total') + '</td>\
+                <td>' + total.free + '</td>\
+                <td>' + total.miss + '</td>\
+                <td>' + total.fms5 + '</td>\
+                <td>' + total.transport + '</td>\
+                <td>' + total.fms6 + '</td>\
+                <td>' + total.sum + '</td>\
+            </tr>');
     }
 
     // Wechseln der Dashboard-Ansicht
