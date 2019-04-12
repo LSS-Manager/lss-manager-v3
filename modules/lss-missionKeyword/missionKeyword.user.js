@@ -732,7 +732,9 @@
         247: 'Possible Sepsis',
         248: 'Mental health concern',
         249: 'Car workshop fire',
-        250: 'Car workshop fire with explosion'
+        250: 'Car workshop fire with explosion',
+        251: 'Patient transfer from flight',
+        252: 'Patient transfer from flight'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1175,7 +1177,10 @@
         421: 'Overvalalarm bankkantoor',
         422: 'Overval bankkantoor',
         423: 'Overval bankkantoor',
-        424: 'Overval bankkantoor'
+        424: 'Overval bankkantoor',
+        425: 'Brand in bouwmarkt',
+        426: 'Brand in bouwmarkt',
+        427: 'Brand in bouwmarkt'
       }
     };
 
@@ -1893,7 +1898,9 @@
       247: 'MED 1',
       248: 'POL 1',
       249: 'FIRE 4',
-      250: 'FIRE 5'
+      250: 'FIRE 5',
+      251: 'MEDT',
+      252: 'MEDT'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2320,7 +2327,10 @@
       421: 'P 3',
       422: 'P 3',
       423: 'P 4',
-      424: 'P 5'
+      424: 'P 5',
+      425: 'KLEINE BRAND',
+      426: 'MIDDEL BRAND',
+      427: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

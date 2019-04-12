@@ -979,7 +979,9 @@
 				249: '8x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>1x Heavy Rescue<br>1x Water Tanker (40%)<br>1x Mobile Air (40%)<br>' +
 				'1x HazMat<br>1x Mobile Command (20%)<br>2x Police Cars<br>Max. 4x Ambulances<br><br><span class="badge">Credits: ~ 6000 </span>',
 				250: '8x Firetrucks<br>2x Battalion Chief<br>2x Platform Trucks<br>4x Heavy Rescue<br>1x Water Tanker<br>1x Mobile Air<br>' +
-				'1x HazMat<br>1x Mobile Command<br>4x Police Cars<br>Max. 12x Ambulances<br><br><span class="badge">Credits: ~ 10000 </span>'
+				'1x HazMat<br>1x Mobile Command<br>4x Police Cars<br>Max. 12x Ambulances<br><br><span class="badge">Credits: ~ 10000 </span>',
+				251: '1x Ambulance',
+				252: '1x Ambulance'
 			}
 		}
 
@@ -1588,7 +1590,11 @@
 				421: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2200 </span>',
 				422: '3x Noodhulpeenheden<br><br><span class="badge">Credits: ~ 2200 </span>',
 				423: '4x Noodhulpeenheden<br>1x OvD-P<br>1x Hondengeleider<br><br><span class="badge">Credits: ~ 4100 </span>',
-				424: '5x Noodhulpeenheden<br>1x OvD-P<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 4500 </span>'
+				424: '5x Noodhulpeenheden<br>1x OvD-P<br>1x Hondengeleider<br>1x Politiehelikopter<br><br><span class="badge">Credits: ~ 4500 </span>',
+				425: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 850 </span>',
+				426: '2x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig (80%)<br><br><span class="badge">Credits: ~ 1550 </span>',
+				427: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x Adembeschermingsvoertuig (20%)<br>1x Slangenwagen (40%)<br>1x HOvD (50%)<br>' +
+				'1x Noodhulpeenheid<br><br><span class="badge">Credits: ~ 2500 </span>'
 			}
 		}
 	}
