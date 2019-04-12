@@ -463,7 +463,12 @@
         438: 'PKW in Zapfsäule',
         439: 'Einsturz Parkhaus',
         440: 'Akute Atemnot',
-        441: 'Brennende Waldhütte'
+        441: 'Brennende Waldhütte',
+        442: 'Osterei in Wasser',
+        443: 'Osterei-LKW umgestürzt',
+        444: 'Schwerpunkteinsatz Osterei suche',
+        445: 'Ei rollt in Schlangenlinien',
+        446: 'Osterhase auf Kran'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -732,7 +737,9 @@
         247: 'Possible Sepsis',
         248: 'Mental health concern',
         249: 'Car workshop fire',
-        250: 'Car workshop fire with explosion'
+        250: 'Car workshop fire with explosion',
+        251: 'Patient transfer from flight',
+        252: 'Patient transfer from flight'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1175,7 +1182,10 @@
         421: 'Overvalalarm bankkantoor',
         422: 'Overval bankkantoor',
         423: 'Overval bankkantoor',
-        424: 'Overval bankkantoor'
+        424: 'Overval bankkantoor',
+        425: 'Brand in bouwmarkt',
+        426: 'Brand in bouwmarkt',
+        427: 'Brand in bouwmarkt'
       }
     };
 
@@ -1483,14 +1493,14 @@
       281: 'RD 2',
       282: 'THL 1',
       283: 'B 5',
-      284: 'POL 1',
-      285: 'POL 1',
-      286: 'THL EINSTURZ',
-      287: 'POL 1',
-      288: 'B 1',
-      289: 'THL 1',
-      290: 'B 2',
-      291: 'BP 3',
+      284: 'POL 0.5',
+      285: 'POL 0.5',
+      286: 'THL 0.5 EINSTURZ',
+      287: 'POL 0.5',
+      288: 'B 0.5',
+      289: 'THL 0.5',
+      290: 'B 1.5',
+      291: 'BP 2.5',
       292: 'POL 1',
       293: 'RD 1',
       294: 'BP 9',
@@ -1640,7 +1650,12 @@
       438: 'THL 1',
       439: 'THL 4',
       440: 'RD 1',
-      441: 'B 2'
+      441: 'B 2',
+      442: 'THL 0.3 WASSER',
+      443: 'THL 0.5',
+      444: 'BP 0.5',
+      445: 'POL 0.5',
+      446: 'THL 0.5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1893,7 +1908,9 @@
       247: 'MED 1',
       248: 'POL 1',
       249: 'FIRE 4',
-      250: 'FIRE 5'
+      250: 'FIRE 5',
+      251: 'MEDT',
+      252: 'MEDT'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2320,7 +2337,10 @@
       421: 'P 3',
       422: 'P 3',
       423: 'P 4',
-      424: 'P 5'
+      424: 'P 5',
+      425: 'KLEINE BRAND',
+      426: 'MIDDEL BRAND',
+      427: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

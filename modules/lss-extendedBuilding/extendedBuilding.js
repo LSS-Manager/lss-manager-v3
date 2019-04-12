@@ -54,7 +54,7 @@
 	$.each($('#ausbauten table tbody tr'), function () {
 		let tr = $(this).find("td");
 		let name = $.trim(tr.eq(0).children('b').text());
-		let done = tr.eq(tr.length-1).has('.label').length ? 1 : 0;
+		let done = tr.eq(tr.length-1).has('.label-success').length ? 1 : 0;
 		let work = tr.eq(tr.length-1).has('a[href*="finish"]').length ? 1 : 0;
 		if(ausbauten.hasOwnProperty(name))
 		{
