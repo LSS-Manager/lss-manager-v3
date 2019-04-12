@@ -463,7 +463,12 @@
         438: 'PKW in Zapfsäule',
         439: 'Einsturz Parkhaus',
         440: 'Akute Atemnot',
-        441: 'Brennende Waldhütte'
+        441: 'Brennende Waldhütte',
+        442: 'Osterei in Wasser',
+        443: 'Osterei-LKW umgestürzt',
+        444: 'Schwerpunkteinsatz Osterei suche',
+        445: 'Ei rollt in Schlangenlinien',
+        446: 'Osterhase auf Kran'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1488,14 +1493,14 @@
       281: 'RD 2',
       282: 'THL 1',
       283: 'B 5',
-      284: 'POL 1',
-      285: 'POL 1',
-      286: 'THL EINSTURZ',
-      287: 'POL 1',
-      288: 'B 1',
-      289: 'THL 1',
-      290: 'B 2',
-      291: 'BP 3',
+      284: 'POL 0.5',
+      285: 'POL 0.5',
+      286: 'THL 0.5 EINSTURZ',
+      287: 'POL 0.5',
+      288: 'B 0.5',
+      289: 'THL 0.5',
+      290: 'B 1.5',
+      291: 'BP 2.5',
       292: 'POL 1',
       293: 'RD 1',
       294: 'BP 9',
@@ -1645,7 +1650,12 @@
       438: 'THL 1',
       439: 'THL 4',
       440: 'RD 1',
-      441: 'B 2'
+      441: 'B 2',
+      442: 'THL 0.3 WASSER',
+      443: 'THL 0.5',
+      444: 'BP 0.5',
+      445: 'POL 0.5',
+      446: 'THL 0.5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
