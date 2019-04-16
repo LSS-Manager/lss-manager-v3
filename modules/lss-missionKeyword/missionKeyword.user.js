@@ -466,7 +466,7 @@
         441: 'Brennende Waldhütte',
         442: 'Osterei in Wasser',
         443: 'Osterei-LKW umgestürzt',
-        444: 'Schwerpunkteinsatz Osterei suche',
+        444: 'Schwerpunkteinsatz Ostereiersuche',
         445: 'Ei rollt in Schlangenlinien',
         446: 'Osterhase auf Kran'
       }

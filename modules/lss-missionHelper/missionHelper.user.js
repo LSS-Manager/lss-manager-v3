@@ -18,7 +18,7 @@
 				11: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 240 </span>',
 				12: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 310 </span>',
 				13: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 980 </span>',
-				14: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1000 </span>',
+				14: '1x Löschfahrzeug<br><br><span class="label label-primary">Wasserbedarf: 2000 L</span><span class="badge">Credits: ~ 1000 </span>',
 				15: '1x Löschfahrzeug<br><br><span class="label label-primary">Wasserbedarf: 800 L</span><span class="badge">Credits: ~ 1010 </span>',
 				16: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1100 </span>',
 				17: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 340 </span>',
@@ -175,18 +175,23 @@
 				'<span class="badge">Credits: ~ 5000 </span>',
 				133: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>1x Schlauchwagen<br>1x Funkstreifenwagen<br><br>' +
 				'<span class="label label-primary">Wasserbedarf: 13.000 L</span><span class="badge">Credits: ~ 5100 </span>',
-				134: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Schlauchwagen (70%)<br><br><span class="badge">Credits: ~ 4000 </span>',
-				135: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Schlauchwagen (70%)<br>1x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 4100 </span>',
-				136: '10x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Schlauchwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2 (30%)' +
-				'<br>1x GW-Atemschutz<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 8000 </span>',
-				137: '10x Löschfahrzeuge<br>1x Drehleiter (10%)<br>1x Schlauchwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2 (30%)' +
-				'<br>1x GW-Atemschutz<br>3x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 8100 </span>',
-				138: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 1500 </span>',
-				139: '4x Löschfahrzeuge<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (20%)<br><br><span class="badge">Credits: ~ 3500 </span>',
-				140: '2x Löschfahrzeuge<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1600 </span>',
-				141: '4x Löschfahrzeuge<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (20%)<br>2x Funkstreifenwagen<br><br><span class="badge">' +
-				'Credits: ~ 3600 </span>',
+				134: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>1x Schlauchwagen (70%)<br><br><span class="label label-primary">Wasserbedarf: 8000 L</span>' +
+				'<span class="badge">Credits: ~ 4000 </span>',
+				135: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>1x Schlauchwagen (70%)<br>1x Funkstreifenwagen<br><br>' +
+				'<span class="label label-primary">Wasserbedarf: 8500 L</span><span class="badge">Credits: ~ 4100 </span>',
+				136: '1x Löschfahrzeug<br>1x Drehleiter (10%)<br>1x Schlauchwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2 (30%)' +
+				'<br>1x GW-Atemschutz<br>1x Funkstreifenwagen<br><br><span class="label label-primary">Wasserbedarf: 25000 L</span>' +
+				'<span class="badge">Credits: ~ 8000 </span>',
+				137: '1x Löschfahrzeug<br>1x Drehleiter (10%)<br>1x Schlauchwagen<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2 (30%)' +
+				'<br>1x GW-Atemschutz<br>3x Funkstreifenwagen<br><br><span class="label label-primary">Wasserbedarf: 25000 L</span>' +
+				'<span class="badge">Credits: ~ 8100 </span>',
+				138: '1x Löschfahrzeug<br><br><span class="label label-primary">Wasserbedarf: 3000 L</span><span class="badge">Credits: ~ 1500 </span>',
+				139: '1x Löschfahrzeug<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (20%)<br><br>' +
+				'<span class="label label-primary">Wasserbedarf: 8000 L</span><span class="badge">Credits: ~ 3500 </span>',
+				140: '1x Löschfahrzeug<br>2x Funkstreifenwagen<br><br><span class="label label-primary">Wasserbedarf: 3000 L</span>' +
+				'<span class="badge">Credits: ~ 1600 </span>',
+				141: '1x Löschfahrzeug<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (20%)<br>2x Funkstreifenwagen<br><br>' +
+				'<span class="label label-primary">Wasserbedarf: 8000 L</span><span class="badge">Credits: ~ 3600 </span>',
 				142: '2x Löschfahrzeuge<br>1x Drehleiter (30%)<br><br><span class="badge">Credits: ~ 1500 </span>',
 				143: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 400 </span>',
 				144: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 400 </span>',
@@ -263,8 +268,8 @@
 				201: '9x GruKw<br>3x leBefKw<br>1x FüKw<br>1x GefKw<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 9000 </span>',
 				202: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 300 </span>',
 				203: '2x Löschfahrzeuge<br><br><span class="badge">Credits: ~ 610 </span>',
-				204: '6x Löschfahrzeuge<br>1x Drehleiter (50%)<br>1x Einsatzleitwagen 1<br>' +
-				'1x GW-Atemschutz (25%)<br>1x Schlauchwagen (60%)<br><br><span class="badge">Credits: ~ 3500 </span>',
+				204: '1x Löschfahrzeug<br>1x Drehleiter (50%)<br>1x Einsatzleitwagen 1<br>1x GW-Atemschutz (25%)<br>1x Schlauchwagen (60%)<br><br>' +
+				'<span class="label label-primary">Wasserbedarf: 14000 L</span><span class="badge">Credits: ~ 3500 </span>',
 				205: '7x Löschfahrzeuge<br>2x Drehleiter<br>1x Einsatzleitwagen 1<br>1x GW-Atemschutz<br>1x Schlauchwagen<br>' +
 				'3x Funkstreifenwagen<br>min. 1x Rettungswagen<br>Notarzteinsatzfahrzeug (33%)<br><br><span class="badge">Credits: ~ 5100 </span>',
 				206: '15x Löschfahrzeuge<br>2x Schlauchwagen (90%)<br>2x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>2x GW-Atemschutz (70%)' +

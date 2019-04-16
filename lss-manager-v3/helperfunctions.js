@@ -247,7 +247,9 @@ else if (I18n.locale == "de")
         "84": ["ULF mit Löscharm", 0],
         "85": ["TM 50", 0],
         "86": ["Turbolöscher", 0],
-        "87": ["TLF 4000", 0]
+        "87": ["TLF 4000", 0],
+        "88": ["KLF", 0],
+        "89": ["MLF", 0]
     };
 }
 lssm.getVehicleNameById = function(vehicleId) {

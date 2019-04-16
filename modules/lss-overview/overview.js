@@ -368,6 +368,22 @@
                 coins: 25,
                 wtank: 0
             },
+            klf: {
+                name: 'KLF',
+                min: 1,
+                max: 6,
+                credits: 5000,
+                coins: 25,
+                wtank: 500
+            },
+            mlf: {
+                name: 'MLF',
+                min: 1,
+                max: 6,
+                credits: 5000,
+                coins: 25,
+                wtank: 1000
+            },
             gwoel: {
                 name: 'GW-Öl',
                 min: 1,
@@ -1358,6 +1374,14 @@
                 credits: 4000,
                 coins: 20,
                 special: 'No missions require a Fly Car at this time, however it is able to treat patients.'
+            },
+            emsrescue: {
+                name: 'EMS Rescue',
+                min: 1,
+                max: 5,
+                credits: 12180,
+                coins: 25,
+                special: 'Pls Send us Infos about this'
             },
             grtw: {
                 name: 'Mass Casualty Unit',
