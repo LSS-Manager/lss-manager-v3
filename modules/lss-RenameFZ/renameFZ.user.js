@@ -141,7 +141,9 @@
                 84: 'ULF mit Löscharm',
                 85: 'TM 50',
                 86: 'Turbolöscher',
-                87: 'TLF 4000'
+                87: 'TLF 4000',
+                88: 'KLF',
+                89: 'MLF'
             }
         }
     };
