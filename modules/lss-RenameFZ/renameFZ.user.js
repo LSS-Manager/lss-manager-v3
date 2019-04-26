@@ -481,7 +481,6 @@
             let vehicle = lssm.vehicles[vehicleID];
             let typeAtStation = vehiclesTypesByBuilding[vehicle.building][vehicle.type];
             let startNum = parseInt($('#' + prefix + '_startNum').val());
-            console.log(vehicle, typeAtStation);
             return typeAtStation.indexOf(vehicleID) + startNum + ((startNum === 0 && $('#lssm-inline-counterOverride').prop("checked") && typeAtStation.length > 1) ? 1 : 0);
         } catch (err) {
             printError(err)
