@@ -14,6 +14,7 @@
         number: '{number} Typ-Zähler',
         numberRoman: '{numberRoman} Typ-Zähler (römische Zahlen)',
         dispatch: '{dispatch} Leitstellenname',
+        dispatchAlias: '{dispatchAlias} Leitstellen-Alias',
         stationAlias: '{stationAlias} Wachen-Alias',
         saveAll: 'Alle speichern',
         exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE',
@@ -27,7 +28,8 @@
         nameToLongGeneratedName: 'Generierter Name',
         nameToLongShortenedName: 'Neuer/gekürzter Name',
         startNum: 'Zähler-Start',
-        startNumHelp: 'Hier kann man einen Startwert für den Typzähler angeben können. Setzt man da 0 als Startwert, so wird das erste Fahrzeug eines Typs die Nummerierung nicht bekommen, das ist ganz praktisch, wenn man nur ein Fahrzeug eines Typs auf einer Wache hat, und das dann nicht durchnummerieren will. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
+        counterOverride: 'Bei mehreren Fahrzeugen eines Typs trotzdem bei 1 anfangen',
+        startNumHelp: 'Hier kann man einen Startwert für den Typzähler angeben. Setzt man da 0 und legt den Hebel nebendran um, so werden Fahrzeuge, die nur einen Typ auf der Wache haben keine durchnummerierung bekommen, sollten sich aber mehrere Fahrzeuge eines Typs auf der Wache befinden, wird der Typ, bei 1 beginnend, durchnummeriert. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
         helpTitle: 'Eine kleine Anleitung findest du unter diesem Link: ',
         helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
         settings: {
@@ -45,6 +47,7 @@
                 2: "Rettungswache",
                 5: "Rettungshubschrauber-Station",
                 6: "Polizeiwache",
+                7: "Leitstelle",
                 9: "THW",
                 11: "Bereitschaftspolizei",
                 12: "Schnelleinsatzgruppe (SEG)",
@@ -143,7 +146,8 @@
                 86: 'Turbolöscher',
                 87: 'TLF 4000',
                 88: 'KLF',
-                89: 'MLF'
+                89: 'MLF',
+                90: 'HLF 10'
             }
         }
     };
@@ -159,6 +163,7 @@
         number: '{number} Type-counter',
         numberRoman: '{numberRoman} Type-counter (Roman numerals)',
         dispatch: '{dispatch} Name of Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter',
         stationAlias: '{stationAlias} Building-Alias',
         saveAll: 'save All',
         exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING',
@@ -186,6 +191,7 @@
             },
             validStationTypes: {
                 0: "Fire Station",
+                1: "Dispatch Center",
                 3: "Ambulance Station",
                 5: "Police Station",
                 6: "Helicopter station",
@@ -240,6 +246,7 @@
         number: '{number} typeteller',
         numberRoman: '{numberRoman} typeteller (Romeinse cijfers)',
         dispatch: '{dispatch} meldkamernaam',
+        dispatchAlias: '{dispatchAlias} Alias de meldkamer',
         stationAlias: '{stationAlias} Gebouw-Alias',
         saveAll: ' Alles opslaan',
         exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM',
@@ -267,6 +274,7 @@
             },
             validStationTypes: {
                 0: "Brandweerpost",
+                1: "Meldkamer",
                 3: "Ambulance standplaats",
                 5: "Politiebureau",
                 6: "MMT Standplaats",
@@ -387,6 +395,8 @@
             }
         });
 
+        let buildings = lssm.buildings;
+        buildings.sort((a,b) => (a.caption > b.caption) ? 1 : ((b.caption > a.caption) ? -1 : 0));
         $.each(lssm.buildings, function (key, station) {
             if (I18n.t('lssm.renameFz.settings.validStationTypes')[station.building_type]) {
                 let tmpObject = {
@@ -418,12 +428,13 @@
             id: '',
             old: '',
             vehicleType: '',
-            stationName: '',
             tagging: '',
+            stationName: '',
+            stationAlias: '',
             number: '',
             numberRoman: '',
             dispatch: '',
-            stationAlias: ''
+            dispatchAlias: ''
         },
         vehicles: {},
         str: {
@@ -468,7 +479,9 @@
     function getVehicleNumberAtStation(vehicleID) {
         try {
             let vehicle = lssm.vehicles[vehicleID];
-            return vehiclesTypesByBuilding[vehicle.building][vehicle.type].indexOf(vehicleID) + parseInt($('#' + prefix + '_startNum').val());
+            let typeAtStation = vehiclesTypesByBuilding[vehicle.building][vehicle.type];
+            let startNum = parseInt($('#' + prefix + '_startNum').val());
+            return typeAtStation.indexOf(vehicleID) + startNum + ((startNum === 0 && $('#lssm-inline-counterOverride').prop("checked") && typeAtStation.length > 1) ? 1 : 0);
         } catch (err) {
             printError(err)
         }
@@ -490,6 +503,7 @@
             let needType = false;
             let needTagging = false;
             let needStationAlias = false;
+            let needDispatchAlias = false;
             let needNumber = false;
             let needNumberRoman = false;
             set.options.dispatch = $("h1").text();
@@ -509,6 +523,9 @@
             }
             if (usedOptions.indexOf("stationAlias") !== -1) {
                 needStationAlias = true;
+            }
+            if (usedOptions.indexOf("dispatchAlias") !== -1) {
+                needDispatchAlias = true;
             }
             if (usedOptions.indexOf("number") !== -1) {
                 needNumber = true;
@@ -539,13 +556,17 @@
                 if (needStationAlias) {
                     set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
                 }
+                if (needDispatchAlias) {
+                    set.vehicles[vehicleID].dispatchAlias = settings[`renameFz_stations-${window.location.href.replace(/\D/g, "")}`];
+                }
                 if (needNumber) {
-                    set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID);
+                    set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID)||"";
                 }
                 if (needNumberRoman) {
-                    set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number);
+                    set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number||0);
+                    set.vehicles[vehicleID].numberRoman = (set.vehicles[vehicleID].numberRoman === "0" ? "" : set.vehicles[vehicleID].numberRoman);
                 }
-                set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => set.vehicles[vehicleID][p1]||match);
+                set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => typeof set.vehicles[vehicleID][p1] !== void 0 ? set.vehicles[vehicleID][p1] : match);
                 if (set.vehicles[vehicleID].newName === set.vehicles[vehicleID].old) {
                     vehicleCaption.append(`<span class="${prefix}_name_correct"><br>${I18n.t('lssm.renameFz.nameAlreadyCorrect')}</span>`);
                     $(`#vehicle_form_holder_${vehicleID}`).empty();
@@ -596,6 +617,7 @@
     }
 
     function indexVehicles() {
+        vehiclesTypesByBuilding = {};
         lssm.get_vehicles(false, true);
         for (let vehicleId in lssm.vehicles) {
             let vehicle = lssm.vehicles[vehicleId];
@@ -612,6 +634,7 @@
     }
 
     function indexBuildings() {
+        buildings = {};
         lssm.get_buildings(false, true);
         for (let building in lssm.buildings) {
             buildings[lssm.buildings[building].id] = lssm.buildings[building];
@@ -619,13 +642,13 @@
     }
 
     function createSettings() {
-        if ($('#' + prefix).length)
-            return;
+        if ($('#' + prefix).length) return;
         let mainDiv = $(`<div id="${prefix}"></div>`);
-        let html = `${I18n.t('lssm.renameFz.example')}<br>${set.str.bsp}<br>${I18n.t('lssm.renameFz.exampleResult')}</div><p>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></p><div id="${prefix}_buttons">`;
-        for (let i in set.options)
-            html += '<a href="#" class="btn btn-default btn-xs" data-str="{' + i + '}">' + I18n.t('lssm.renameFz.' + i) + '</a>';
-        html += '</div><div><input class="form-control" id="' + prefix + '_string" type="text" value=""\>&nbsp;' + I18n.t('lssm.renameFz.startNum') + ' <span class="glyphicon glyphicon-question-sign helpButton" aria-hidden="true" helpBox="startNum"></span><div class="alert alert-info" id="startNum" style="display: none; position: absolute; z-index=9999">' + I18n.t('lssm.renameFz.startNumHelp') + '</div> :<input id="' + prefix + '_startNum" type="number" value="1" min="0"\></div><div><a href="#" class="btn btn-default btn-xs disabled" id="' + prefix + '_rename">' + I18n.t('lssm.renameFz.rename') + '</a>';
+        let html = `${I18n.t('lssm.renameFz.example')}<br>${set.str.bsp}<br>${I18n.t('lssm.renameFz.exampleResult')}</div><p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p><div id="${prefix}_buttons">`;
+        for (let i in set.options) {
+            html += `<a href="#" class="btn btn-default btn-xs" data-str="{${i}}">${I18n.t('lssm.renameFz.' + i)}</a>`;
+        }
+        html += `</div><div><input class="form-control" id="${prefix}_string" type="text" value=""\>&nbsp;${I18n.t('lssm.renameFz.startNum')}&nbsp;<span class="glyphicon glyphicon-question-sign helpButton" aria-hidden="true" helpBox="startNum"></span><div class="alert alert-info" id="startNum" style="display: none; position: absolute; z-index=9999">${I18n.t('lssm.renameFz.startNumHelp')}</div> :<input id="${prefix}_startNum" type="number" value="1" min="0"\><div><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-counterOverride" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-counterOverride"></label></div></span>${I18n.t('lssm.renameFz.counterOverride')}</div></div><div><a href="#" class="btn btn-default btn-xs disabled" id="${prefix}_rename">${I18n.t('lssm.renameFz.rename')}</a>`;
         html += ' <span id="' + prefix + '_status">Status: ' + I18n.t('lssm.renameFz.statusWaiting') + '</span></div>';
         html += '<div class="alert fade in alert-danger" id="' + prefix + '_nameToLongDiv"><button class="close" type="button" id="' + prefix + '_HideNameToLongDiv">×</button><b>' + I18n.t('lssm.renameFz.nameToLong') + '</b><table class="table table-striped" role="grid" id="' + prefix + '_nameToLongTable"><thead><tr><th>' + I18n.t('lssm.renameFz.nameToLongOriginalName') + '</th><th>' + I18n.t('lssm.renameFz.nameToLongGeneratedName') + '</th><th>' + I18n.t('lssm.renameFz.nameToLongShortenedName') + '</th></tr></thead><tbody id="' + prefix + '_nameToLongTableBody"></tbody></table></div>';
         html += '<input type="button" class="btn btn-success" id="' + prefix + '_saveAll" value="' + I18n.t('lssm.renameFz.saveAll') + '" />';

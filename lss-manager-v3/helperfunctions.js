@@ -249,7 +249,8 @@ else if (I18n.locale == "de")
         "86": ["Turbolöscher", 0],
         "87": ["TLF 4000", 0],
         "88": ["KLF", 0],
-        "89": ["MLF", 0]
+        "89": ["MLF", 0],
+        "90": ["HLF 10", 0]
     };
 }
 lssm.getVehicleNameById = function(vehicleId) {

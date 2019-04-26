@@ -547,6 +547,15 @@
                 special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
                 wtank: 1600
             },
+            hlf10: {
+                name: 'HLF 10',
+                min: 1,
+                max: 9,
+                credits: 20000,
+                coins: 25,
+                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
+                wtank: 1000
+            },
             gwhoehen: {
                 name: 'GW-Höhenrettung',
                 min: 1,
@@ -1381,7 +1390,7 @@
                 max: 5,
                 credits: 12180,
                 coins: 25,
-                special: 'Pls Send us Infos about this'
+                special: 'No missions require a Fly Car at this time, however it is able to treat patients.'
             },
             grtw: {
                 name: 'Mass Casualty Unit',
