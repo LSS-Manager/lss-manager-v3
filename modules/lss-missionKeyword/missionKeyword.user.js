@@ -468,7 +468,8 @@
         443: 'Osterei-LKW umgestürzt',
         444: 'Schwerpunkteinsatz Ostereiersuche',
         445: 'Ei rollt in Schlangenlinien',
-        446: 'Osterhase auf Kran'
+        446: 'Osterhase auf Kran',
+        447: 'Eingestürzter Balkon'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -739,7 +740,11 @@
         249: 'Car workshop fire',
         250: 'Car workshop fire with explosion',
         251: 'Patient transfer from flight',
-        252: 'Patient transfer from flight'
+        252: 'Patient transfer from flight',
+        253: 'Hotel fire small',
+        254: 'Hotel fire medium',
+        255: 'Hotel fire large',
+        256: 'Hotel fire major'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1185,7 +1190,9 @@
         424: 'Overval bankkantoor',
         425: 'Brand in bouwmarkt',
         426: 'Brand in bouwmarkt',
-        427: 'Brand in bouwmarkt'
+        427: 'Brand in bouwmarkt',
+        428: 'Brand in bouwmarkt',
+        429: 'Brand in bouwmarkt'
       }
     };
 
@@ -1655,7 +1662,8 @@
       443: 'THL 0.5',
       444: 'BP 0.5',
       445: 'POL 0.5',
-      446: 'THL 0.5'
+      446: 'THL 0.5',
+      447: 'THL 2 EINSTURZ'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1910,7 +1918,11 @@
       249: 'FIRE 4',
       250: 'FIRE 5',
       251: 'MEDT',
-      252: 'MEDT'
+      252: 'MEDT',
+      253: 'FIRE 2',
+      254: 'FIRE 3',
+      255: 'FIRE 5',
+      256: 'FIRE 7'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2340,7 +2352,9 @@
       424: 'P 5',
       425: 'KLEINE BRAND',
       426: 'MIDDEL BRAND',
-      427: 'GROTE BRAND'
+      427: 'GROTE BRAND',
+      428: 'ZEER GROTE BRAND',
+      429: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
