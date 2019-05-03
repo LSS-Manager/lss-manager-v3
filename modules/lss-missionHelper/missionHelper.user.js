@@ -680,7 +680,7 @@
 				444: '3x GruKw<br>1x leBefKw<br><br><span class="badge">Credits: ~ 1000 </span>',
 				445: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 400 </span>',
 				446: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>1x GW-Höhenrettung<br>1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 2000 </span>',
-				447: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Drehleiter<br>1x Feuerwehrkran (40%)<br>2 Funkstreifenwagen<br>' +
+				447: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Drehleiter<br>1x Feuerwehrkran (40%)<br>2x Funkstreifenwagen<br>' +
 				'1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>max. 5 Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 3000 </span>'
 			}
 		}
