@@ -744,7 +744,9 @@
         253: 'Hotel fire small',
         254: 'Hotel fire medium',
         255: 'Hotel fire large',
-        256: 'Hotel fire major'
+        256: 'Hotel fire major',
+        257: 'Attempted Hommicide',
+        258: 'Attempted Hommicide'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1192,7 +1194,10 @@
         426: 'Brand in bouwmarkt',
         427: 'Brand in bouwmarkt',
         428: 'Brand in bouwmarkt',
-        429: 'Brand in bouwmarkt'
+        429: 'Brand in bouwmarkt',
+        430: 'Persoon bekneld tussen containers',
+        431: 'Persoon bekneld tussen containers',
+        432: 'Persoon bekneld onder heftruck'
       }
     };
 
@@ -1922,7 +1927,9 @@
       253: 'FIRE 2',
       254: 'FIRE 3',
       255: 'FIRE 5',
-      256: 'FIRE 7'
+      256: 'FIRE 7',
+      257: 'POL 3',
+      258: 'POL 3'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2354,7 +2361,10 @@
       426: 'MIDDEL BRAND',
       427: 'GROTE BRAND',
       428: 'ZEER GROTE BRAND',
-      429: 'ZEER GROTE BRAND'
+      429: 'ZEER GROTE BRAND',
+      430: 'A 1',
+      431: 'HV 1',
+      432: 'HV 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
