@@ -145,7 +145,7 @@ I18n.translations.nl.lssm = {
  * Add the modules to lssm
  */
 lssm.Module = {
-    keyboardAlert: {
+    KeyboardAlert: {
         name: {
             de: 'Keyboard Alarmierung',
             en: 'Callview control',
@@ -160,7 +160,7 @@ lssm.Module = {
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
         inframe: true
     },
-    tailoredTabs: {
+    TailoredTabs: {
         name: {
             de: 'Maßgeschneiderte Tabs'
         },
@@ -278,7 +278,7 @@ lssm.Module = {
         source: '/modules/lss-MissionOut/MissionOut.user.js',
         develop: false
     },
-    saveVGE: {
+    SaveVGE: {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
@@ -293,7 +293,7 @@ lssm.Module = {
         source: '/modules/lss-saveVGE/saveVGE.user.js',
         develop: false
     },
-    releaseNotes: {
+    ReleaseNotes: {
         name: {
             de: 'Release Notes',
             en: 'Release Notes'
@@ -307,7 +307,7 @@ lssm.Module = {
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
         develop: false
     },
-    vonginator: {
+    Vonginator: {
         name: {
             de: 'Vonginator',
             en: 'Vonginator'
@@ -447,7 +447,7 @@ lssm.Module = {
         source: '/modules/lss-tagMissions/tagMissions.user.js',
         develop: true
     },
-    allianceMissionlistShare: {
+    AllianceMissionlistShare: {
         name: {
             de: 'Einsätze freigeben',
             en: 'Mission share',
@@ -463,7 +463,7 @@ lssm.Module = {
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
     },
-    searchMissions: {
+    SearchMissions: {
         name: {
             de: 'Einsätze suchen',
             en: 'Mission search',
@@ -480,7 +480,7 @@ lssm.Module = {
         source: '/modules/lss-searchMissions/searchMissions.user.js',
         develop: false
     },
-    dashboard: {
+    Dashboard: {
         name: {
             de: 'Dashboard'
         },
@@ -527,7 +527,7 @@ lssm.Module = {
         needVehicles: true,
         needBuildings: true
     },
-    telemetry: {
+    Telemetry: {
         name: {
             de: 'Telemetrie',
             en: 'Telemetry',
@@ -543,7 +543,7 @@ lssm.Module = {
         noapp: true, // Nicht im App-Store auflisten
         develop: false
     },
-    mapreload: {
+    Mapreload: {
         name: {
             de: 'Map Reload',
             nl: 'Kaart opnieuw laden'
@@ -556,7 +556,7 @@ lssm.Module = {
         noapp: true, // Nicht im App-Store auflisten
         develop: false
     },
-    showBackAlarmAbove: {
+    ShowBackAlarmAbove: {
         name: {
             de: 'show Back Alarm Above',
             en: 'show Back Alarm Above',
@@ -572,7 +572,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    aaosearch: {
+    Aaosearch: {
         name: {
             de: 'AAO-Suche',
             en: 'AAO-Search',
@@ -604,7 +604,7 @@ lssm.Module = {
         inframe: true,
         develop: true
     },
-    heatmap: {
+    Heatmap: {
         name: {
             de: 'LS-Heatmap',
             en: 'LS-Heatmap',
@@ -623,7 +623,7 @@ lssm.Module = {
         collisions: ['Layout03', 'WachenplanungOnMap'],
         nomapkit: true,
     },
-    centermap: {
+    Centermap: {
         name: {
             de: 'Center-Map',
             en: 'Center-Map',
@@ -640,7 +640,7 @@ lssm.Module = {
         inframe: false,
         nomapkit: true,
     },
-    missionHelper: {
+    MissionHelper: {
         name: {
             de: 'Einsatzhelfer',
             en: 'Missionhelper',
@@ -657,7 +657,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    statusDispatching: {
+    StatusDispatching: {
         name: {
             de: 'Verbesserte Status 5',
             en: 'Enhanced transport requests',
@@ -677,7 +677,7 @@ lssm.Module = {
             function_code: "statusDispatching_show_settings"
         }
     },
-    managedSettings: {
+    ManagedSettings: {
         name: {
             de: 'Einstellungen',
             en: 'Settings'
@@ -692,7 +692,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    missionKeyword: {
+    MissionKeyword: {
         name: {
             de: 'Einsatzstichworte',
             en: 'Mission Keywords',
@@ -711,7 +711,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    missionDate: {
+    MissionDate: {
         name: {
             de: 'Meldedatum für Einsätze',
             en: 'Mission Date',
@@ -729,7 +729,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    iconFilter: {
+    IconFilter: {
         name: {
             de: 'Icon Gebäude Filter',
             en: 'Icon building filter',
@@ -746,7 +746,7 @@ lssm.Module = {
         inframe: false,
         develop: false
     },
-    sumDailyMissions: {
+    SumDailyMissions: {
         name: {
             de: 'Summe für die tägliche Zusammenfassung',
             en: 'Sum for daily stats',
@@ -764,7 +764,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    aaoZaehler: {
+    AaoZaehler: {
         name: {
             de: 'AAO-Klick-Zähler',
             en: 'Alarm-Regulations-Counter',
@@ -780,7 +780,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    creditserweiterung: {
+    Creditserweiterung: {
         name: {
             de: 'Creditserweiterung',
             en: 'Credit expansion',
@@ -796,7 +796,7 @@ lssm.Module = {
         inframe: false,
         develop: false
     },
-    displayUserId: {
+    DisplayUserId: {
         name: {
             de: 'User-ID',
             en: 'User-ID',
@@ -812,7 +812,7 @@ lssm.Module = {
         inframe: false,
         develop: false
     },
-    showChatButtonAbove: {
+    ShowChatButtonAbove: {
         name: {
             de: 'show Chatbutton Above',
             en: 'show Chatbutton Above',
@@ -828,7 +828,7 @@ lssm.Module = {
         inframe: false,
         develop: false
     },
-    showNotTransportButtonAbove: {
+    ShowNotTransportButtonAbove: {
         name: {
             de: 'show Patient entlassen Above',
         },
@@ -841,7 +841,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    verbandsverwaltung: {
+    Verbandsverwaltung: {
         name: {
             de: "Verbandsverwaltung",
             en: "Alliance-extension",
@@ -857,7 +857,7 @@ lssm.Module = {
         inframe: false,
         develop: false
     },
-    overview: {
+    Overview: {
         name: {
             de: "Übersicht",
             en: "overview",
@@ -873,7 +873,7 @@ lssm.Module = {
         inframe: true,
         nomapkit: true,
     },
-    extendedBuilding: {
+    ExtendedBuilding: {
         name: {
             de: "Erweiterte Gebäudeansicht",
             en: "Extended building view",
