@@ -445,8 +445,10 @@
     };
     let prefix = lssm.config.prefix + "_renameFzSettings";
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
+    if ('#vehicle_table') createSettings();
 
     let executionFailed = false;
+    const mode = $('#tab_vehicle')[0] ? "leitstelle" : "wache";
 
     function printError(err) {
         $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFz.statusError') + " <br><b>" + err.name + "</b><br><i>" + err.message + "</i><pre>" + err.stack + "</pre>");
@@ -506,7 +508,7 @@
             let needDispatchAlias = false;
             let needNumber = false;
             let needNumberRoman = false;
-            set.options.dispatch = $("h1").text();
+            set.options.dispatch = mode === "leitstelle" ? $("h1").text() : $('.btn-group.pull-right:first-of-type .btn:nth-of-type(2)').text();
             let settings = lssm.settings.get(LSS_RENAMEFZ_STORAGE, {});
             for (let variable in vars) {
                 variable = vars[variable].replace(/[{}]/g, "");
@@ -538,8 +540,9 @@
             for (let i = 0; i < vehiclesNum; i++) {
                 status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i+1}/${vehiclesNum})`);
                 let vehicleRow = $(vehicles[i]);
-                let vehicleCaption = vehicleRow.find('[id^=vehicle_caption_]');
-                let vehicleID = vehicleCaption.attr("id").replace(/\D/g, "");
+                let vehicleCaption = mode === "leitstelle" ? vehicleRow.find('[id^=vehicle_caption_]') : vehicleRow.find("td:nth-of-type(2)");
+                let vehicleID = mode === "leitstelle" ? vehicleCaption.attr("id").replace(/\D/g, "") : vehicleCaption.find("a").attr("href").replace(/\D/g, "");
+                if (mode === "wache" && !$(`#vehicle_form_holder_${vehicleID}`)[0]) vehicleCaption.append(`<div id="vehicle_form_holder_${vehicleID}"></div>`) && vehicleCaption.find("a").attr("id", `vehicle_link_${vehicleID}`);
                 let vehicle = lssm.vehicles[vehicleID];
                 let building = buildings[vehicle.building];
                 set.vehicles[vehicleID] = {};
@@ -557,7 +560,7 @@
                     set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
                 }
                 if (needDispatchAlias) {
-                    set.vehicles[vehicleID].dispatchAlias = settings[`renameFz_stations-${window.location.href.replace(/\D/g, "")}`];
+                    set.vehicles[vehicleID].dispatchAlias = settings[`renameFz_stations-${(mode === "leitstelle" ? window.location.href : $('.btn-group.pull-right:first-of-type .btn:nth-of-type(2)').attr("href")).replace(/\D/g, "")}`];
                 }
                 if (needNumber) {
                     set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID)||"";

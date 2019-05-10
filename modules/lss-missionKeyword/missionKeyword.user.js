@@ -469,7 +469,8 @@
         444: 'Schwerpunkteinsatz Ostereiersuche',
         445: 'Ei rollt in Schlangenlinien',
         446: 'Osterhase auf Kran',
-        447: 'Eingestürzter Balkon'
+        447: 'Eingestürzter Balkon',
+        448: 'Ermittlungen nach Unfallflucht'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -675,7 +676,7 @@
         184: 'Container Ship Fire',
         185: 'Dock Crane fire',
         186: 'Recycling Centre fire',
-        187: 'Kidnaping',
+        187: 'Kidnapping',
         188: 'Cruise ship sinking',
         189: 'Sinking boat',
         190: 'Sinking boat',
@@ -731,7 +732,7 @@
         240: 'Fire in Subway station',
         241: 'Fire in Subway station (Large)',
         242: 'Truck Rear-Ended with Entrapment',
-        243: 'Attempted Hommicide',
+        243: 'Attempted Homicide',
         244: 'Fare dodger',
         245: 'Medical emergency on crane',
         246: 'Patient Transfer',
@@ -745,8 +746,11 @@
         254: 'Hotel fire medium',
         255: 'Hotel fire large',
         256: 'Hotel fire major',
-        257: 'Attempted Hommicide',
-        258: 'Attempted Hommicide'
+        257: 'Attempted Homicide',
+        258: 'Attempted Homicide',
+        259: 'Small Supermarket Fire',
+        260: 'Big Supermarket Fire',
+        261: 'Bar Fight'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1197,7 +1201,10 @@
         429: 'Brand in bouwmarkt',
         430: 'Persoon bekneld tussen containers',
         431: 'Persoon bekneld tussen containers',
-        432: 'Persoon bekneld onder heftruck'
+        432: 'Persoon bekneld onder heftruck',
+        433: 'Lekkende tankwagen',
+        434: 'Lekkende tankwagen',
+        435: 'Lekkende tankwagen'
       }
     };
 
@@ -1668,7 +1675,8 @@
       444: 'BP 0.5',
       445: 'POL 0.5',
       446: 'THL 0.5',
-      447: 'THL 2 EINSTURZ'
+      447: 'THL 2 EINSTURZ',
+      448: 'POL 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1929,7 +1937,10 @@
       255: 'FIRE 5',
       256: 'FIRE 7',
       257: 'POL 3',
-      258: 'POL 3'
+      258: 'POL 3',
+      259: 'FIRE 2',
+      260: 'FIRE 4',
+      261: 'POL 2'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2364,7 +2375,10 @@
       429: 'ZEER GROTE BRAND',
       430: 'A 1',
       431: 'HV 1',
-      432: 'HV 1'
+      432: 'HV 1',
+      433: 'OGS 1',
+      434: 'OGS 2',
+      435: 'OGS 3'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
