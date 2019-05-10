@@ -17,7 +17,7 @@
 		beds: "Hide full hospitals",
 		elegible: "Hide unelegible hospitals",
 		distance: "Hide hospitals over x km distance (0 disabled)",
-		hospital: "Hospital",
+		hospital: "hospital",
 		yes: "Yes"
 	};
 
@@ -62,21 +62,21 @@
 	lssm.managedSettings.register(managedSettings);
 
 	function setUi() {
-		let markup = "<div id='destfilter-settings'>";
+		let markup = "<div id='destfilter-settings' class='row'>";
 		markup +=
-			'<div><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-beds" ' +
+			'<div class="col-md-3"><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-beds" ' +
 			(getSetting('destfilter-beds') ? 'checked="checked"' : '') +
 			'" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-destfilter-beds"></label></div></span>' +
 			I18n.t('lssm.destfilter.beds') + '</div>';
 		markup +=
-			'<div><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-elegible" ' +
+			'<div class="col-md-3"><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-elegible" ' +
 			(getSetting('destfilter-elegible') ? 'checked="checked' : '') +
 			'" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-destfilter-elegible"></label></div></span>' +
 			I18n.t('lssm.destfilter.elegible') + '</div>';
 		markup +=
-			'<div><span class="pull-left"><input id="lssm-inline-destfilter-distance" value="' +
+			'<div class="col-md-3"><span class="pull-left"><input id="lssm-inline-destfilter-distance" value="' +
 			getSetting('destfilter-distance') +
-			'" type="number"><label for="lssm-inline-destfilter-distance"></label></span>' +
+			'" type="number" style="width: 70px"><label for="lssm-inline-destfilter-distance"></label></span>' +
 			I18n.t('lssm.destfilter.distance') + '</div>';
 		markup += "</div>";
 		$('.alert-info').after(markup);
@@ -97,11 +97,11 @@
 			let beds = parseInt(el.find('td:nth-child(3)').text().trim());
 			// The column differs in owned and alliance table
 			let elegible = ((el.find(':nth-child(4)').text()
-					.trim().indexOf('%') === -1) ? el.find(
-					'td:nth-child(4)').text() : el.find(
-					':nth-child(5)').text()).trim() === I18n
+				.trim().indexOf('%') === -1) ? el.find(
+				'td:nth-child(4)').text() : el.find(
+				':nth-child(5)').text()).trim() === I18n
 				.t('lssm.destfilter.yes');
-			let distance = el.find('td:nth-child(2)').text().trim().match(/\d+[,.]\d+/);
+			let distance = el.find('td:nth-child(2)').text().trim().match(/[,.\d]+/);
 			distance = distance ? parseFloat(distance[0].replace(/,/, ".")) : 0;
 			if ((beds <= 0 && getSetting('destfilter-beds')) ||
 				(!elegible && getSetting('destfilter-elegible')) || (getSetting('destfilter-distance') !== "0" && distance >= getSetting('destfilter-distance'))) {
