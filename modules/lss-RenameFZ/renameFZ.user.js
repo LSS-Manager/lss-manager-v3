@@ -443,7 +443,7 @@
             str: ''
         }
     };
-    let prefix = lssm.config.prefix + "_renameFzSettings";
+    const prefix = lssm.config.prefix + "_renameFzSettings";
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     if ('#vehicle_table') createSettings();
 
@@ -595,10 +595,9 @@
             $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 40) + "</td></tr>");
         }
         if (!$(`#vehicle_new_name_${vehicleID}`)[0]) {
-            $(`#vehicle_form_holder_${vehicleID}`).show();
-
-
-            $(`#vehicle_form_holder_${vehicleID}`).html(I18n.t("common.loading"));
+            $(`#vehicle_form_holder_${vehicleID}`)
+                .show()
+                .html(I18n.t("common.loading"));
 
             $.ajax({
                 url: `/vehicles/${vehicleID}/editName`,
@@ -646,25 +645,57 @@
 
     function createSettings() {
         if ($('#' + prefix).length) return;
-        let mainDiv = $(`<div id="${prefix}"></div>`);
-        let html = `${I18n.t('lssm.renameFz.example')}<br>${set.str.bsp}<br>${I18n.t('lssm.renameFz.exampleResult')}</div><p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p><div id="${prefix}_buttons">`;
+        $('#vehicle_table').parent().prepend(`\
+<a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"]||"open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
+<div id="${prefix}">
+    ${I18n.t('lssm.renameFz.example')}<br>
+    ${set.str.bsp}<br>
+    ${I18n.t('lssm.renameFz.exampleResult')}
+    <p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p>
+    <div id="${prefix}_buttons"></div>
+    <div>
+        <input class="form-control" id="${prefix}_string" type="text" value=""/>
+        &nbsp;${I18n.t('lssm.renameFz.startNum')}
+        &nbsp;<span class="glyphicon glyphicon-question-sign helpButton" aria-hidden="true" helpBox="startNum"></span>
+        <div class="alert alert-info" id="startNum" style="display: none; position: absolute; z-index=9999">${I18n.t('lssm.renameFz.startNumHelp')}</div> :
+        <input id="${prefix}_startNum" type="number" value="1" min="0"/>
+        <div>
+            <span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-counterOverride" value="true" name="onoffswitch" type="checkbox"/><label class="onoffswitch-label" for="lssm-inline-counterOverride"></label></div></span>
+            ${I18n.t('lssm.renameFz.counterOverride')}
+        </div>
+    </div>
+    <div>
+        <a href="#" class="btn btn-default btn-xs disabled" id="${prefix}_rename">${I18n.t('lssm.renameFz.rename')}</a>
+        &nbsp;<span id="' + prefix + '_status">Status: ${I18n.t('lssm.renameFz.statusWaiting')}</span>
+    </div>
+    <div class="alert fade in alert-danger" id="${prefix}_nameToLongDiv">
+        <button class="close" type="button" id="${prefix}_HideNameToLongDiv">×</button>
+        <b>${I18n.t('lssm.renameFz.nameToLong')}</b>
+        <table class="table table-striped" role="grid" id="${prefix}_nameToLongTable">
+            <thead><tr>
+                <th>${I18n.t('lssm.renameFz.nameToLongOriginalName')}</th>
+                <th>${I18n.t('lssm.renameFz.nameToLongGeneratedName')}</th>
+                <th>${I18n.t('lssm.renameFz.nameToLongShortenedName')}</th>
+            </tr></thead>
+            <tbody id="${prefix}_nameToLongTableBody"></tbody>
+        </table>
+    </div>
+    <input type="button" class="btn btn-success" id="${prefix}_saveAll" value="${I18n.t('lssm.renameFz.saveAll')}"/>
+</div>`);
+        $(`#${prefix}`)[(localStorage["lssm_renameFz_visibility"]||"open") === "close" ? "hide" : "show"]();
+        let buttons = "";
         for (let i in set.options) {
-            html += `<a href="#" class="btn btn-default btn-xs" data-str="{${i}}">${I18n.t('lssm.renameFz.' + i)}</a>`;
+            buttons += `<a href="#" class="btn btn-default btn-xs" data-str="{${i}}">${I18n.t(`lssm.renameFz.${i}`)}</a>`;
         }
-        html += `</div><div><input class="form-control" id="${prefix}_string" type="text" value=""\>&nbsp;${I18n.t('lssm.renameFz.startNum')}&nbsp;<span class="glyphicon glyphicon-question-sign helpButton" aria-hidden="true" helpBox="startNum"></span><div class="alert alert-info" id="startNum" style="display: none; position: absolute; z-index=9999">${I18n.t('lssm.renameFz.startNumHelp')}</div> :<input id="${prefix}_startNum" type="number" value="1" min="0"\><div><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-counterOverride" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-counterOverride"></label></div></span>${I18n.t('lssm.renameFz.counterOverride')}</div></div><div><a href="#" class="btn btn-default btn-xs disabled" id="${prefix}_rename">${I18n.t('lssm.renameFz.rename')}</a>`;
-        html += ' <span id="' + prefix + '_status">Status: ' + I18n.t('lssm.renameFz.statusWaiting') + '</span></div>';
-        html += '<div class="alert fade in alert-danger" id="' + prefix + '_nameToLongDiv"><button class="close" type="button" id="' + prefix + '_HideNameToLongDiv">×</button><b>' + I18n.t('lssm.renameFz.nameToLong') + '</b><table class="table table-striped" role="grid" id="' + prefix + '_nameToLongTable"><thead><tr><th>' + I18n.t('lssm.renameFz.nameToLongOriginalName') + '</th><th>' + I18n.t('lssm.renameFz.nameToLongGeneratedName') + '</th><th>' + I18n.t('lssm.renameFz.nameToLongShortenedName') + '</th></tr></thead><tbody id="' + prefix + '_nameToLongTableBody"></tbody></table></div>';
-        html += '<input type="button" class="btn btn-success" id="' + prefix + '_saveAll" value="' + I18n.t('lssm.renameFz.saveAll') + '" />';
-        mainDiv.append(html);
+        $(`#${prefix}_buttons`).append(buttons);
 
-        $('#vehicle_table').parent().prepend(mainDiv);
-
-        $('.helpButton').on('mouseenter', function() {
-            $('#' + $(this).attr('helpBox')).show();
-        });
-        $('.helpButton').on('mouseleave', function() {
-            $('#' + $(this).attr('helpBox')).hide();
-        });
+        $('.helpButton')
+            .on('mouseenter', function() {
+                $('#' + $(this).attr('helpBox')).show();
+            })
+            .on('mouseleave', function() {
+                $('#' + $(this).attr('helpBox')).hide();
+            });
 
         $("#" + prefix + "_HideNameToLongDiv").click(function () {
             $("#" + prefix + "_nameToLongDiv").hide();
@@ -685,19 +716,26 @@
 
         function changeInput(e) {
             set.str.str = e.target.value.trim();
-            set.str.str.length > 0 ? $(`#${prefix}_rename`).removeClass("disabled") : $(`#${prefix}_rename`).addClass("disabled");
+            $(`#${prefix}_rename`)[(set.str.str.length > 0 ? "removeClass" : "addClass")]("disabled");
         }
 
-        $('#' + prefix + '_string').change(changeInput);
-        $('#' + prefix + '_string').on("keyup", changeInput);
-        $('#' + prefix + '_rename').click(rename);
-        $('#' + prefix + '_saveAll').click(function () {
+        $(`#${prefix}_string`).change(changeInput)
+            .on("keyup", changeInput);
+        $(`#${prefix}_rename`).click(rename);
+        $(`#${prefix}_saveAll`).click(function () {
             for (let i = 0; i < $(".vehicle_form input.btn.btn-success").length; i++) {
                 setTimeout(function() {
                     $($(".vehicle_form input.btn.btn-success")[i]).click();
                 }, 100 * i);
             }
             $(`.${prefix}_name_correct`).remove();
+        });
+
+        $('#toggleRename').click(function() {
+            let state_new = $(this).attr("state") === "open" ? "close" : "open";
+            localStorage["lssm_renameFz_visibility"] = state_new;
+            $(`#${prefix}`)[state_new === "close" ? "hide" : "show"]();
+            $(this).attr("state", state_new);
         });
     }
 
