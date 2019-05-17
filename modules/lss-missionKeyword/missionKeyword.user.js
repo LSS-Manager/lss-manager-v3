@@ -470,7 +470,10 @@
         445: 'Ei rollt in Schlangenlinien',
         446: 'Osterhase auf Kran',
         447: 'Eingestürzter Balkon',
-        448: 'Ermittlungen nach Unfallflucht'
+        448: 'Ermittlungen nach Unfallflucht',
+        449: 'PKW in Supermarkt',
+        450: 'PKW un Supermarkt',
+        451: 'PKW in Gebäude'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -750,7 +753,10 @@
         258: 'Attempted Homicide',
         259: 'Small Supermarket Fire',
         260: 'Big Supermarket Fire',
-        261: 'Bar Fight'
+        261: 'Bar Fight',
+        262: 'Damaged Roof',
+        263: 'Unsafe Cladding',
+        264: 'Unsafe Scaffolding'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1204,7 +1210,11 @@
         432: 'Persoon bekneld onder heftruck',
         433: 'Lekkende tankwagen',
         434: 'Lekkende tankwagen',
-        435: 'Lekkende tankwagen'
+        435: 'Lekkende tankwagen',
+        436: 'Persoon te water',
+        437: 'Persoon te water',
+        438: 'Duiker vermist',
+        439: 'Duiker vermist'
       }
     };
 
@@ -1676,7 +1686,10 @@
       445: 'POL 0.5',
       446: 'THL 0.5',
       447: 'THL 2 EINSTURZ',
-      448: 'POL 1'
+      448: 'POL 1',
+      449: 'THL 1',
+      450: 'THL 1',
+      451: 'THL 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1940,7 +1953,10 @@
       258: 'POL 3',
       259: 'FIRE 2',
       260: 'FIRE 4',
-      261: 'POL 2'
+      261: 'POL 2',
+      262: 'TECH 1',
+      263: 'TECH 1',
+      264: 'TECH 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2378,7 +2394,11 @@
       432: 'HV 1',
       433: 'OGS 1',
       434: 'OGS 2',
-      435: 'OGS 3'
+      435: 'OGS 3',
+      436: 'GROTE WO',
+      437: 'GROTE WO',
+      438: 'GROTE WO',
+      439: 'GROTE WO'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
