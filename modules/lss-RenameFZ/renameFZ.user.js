@@ -491,7 +491,7 @@
 
     function rename() {
         try {
-            let vehicles = $('#vehicle_table tbody tr');
+            let vehicles = $('#vehicle_table tbody tr:visible');
             let vehiclesNum = vehicles.length;
             let status = $(`#${prefix}_status`);
             status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (0/${vehiclesNum})`);
@@ -554,7 +554,7 @@
                     set.vehicles[vehicleID].vehicleType = lssm.carsById[vehicle.type][0];
                 }
                 if (needTagging) {
-                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`];
+                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`]||set.vehicles[vehicleID].vehicleType;
                 }
                 if (needStationAlias) {
                     set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
