@@ -30,6 +30,7 @@
         startNumHelp: 'Hier kann man einen Startwert für den Typzähler angeben. Setzt man da 0 und legt den Hebel nebendran um, so werden Fahrzeuge, die nur einen Typ auf der Wache haben keine durchnummerierung bekommen, sollten sich aber mehrere Fahrzeuge eines Typs auf der Wache befinden, wird der Typ, bei 1 beginnend, durchnummeriert. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
         helpTitle: 'Eine kleine Anleitung findest du unter diesem Link: ',
         helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        toggleNameCorrect: 'Fahrzeuge mit richtigem Namen ein-/ausblenden',
         settings: {
             show: 'Ein-/Ausblenden',
             names: {
@@ -175,6 +176,7 @@
         helpTitle: 'You can find a small instruction under this link: ',
         startNum: 'Counter start',
         startNumHelp: 'Here you can enter a start value for the type counter. If you set 0 as the start value, the first vehicle of a type will not get the numbering, this is very practical if you have only one vehicle of a type on a guard and do not want to number it. But you can also start the counter at 5 (for whatever reason you want, but it is possible ;) )',
+        toggleNameCorrect: 'Show/Hide Vehicles with correct names',
         settings: {
             show: 'Show/Hide',
             names: {
@@ -256,6 +258,7 @@
         helpTitle: 'Een kleine instructie vindt u onder deze link: ',
         startNum: 'Begin van de balie',
         startNumHelp: 'Hier kunt u een startwaarde voor de typeteller invoeren. Als je 0 als startwaarde instelt, krijgt het eerste voertuig van een type niet de nummering, dit is erg praktisch, als je maar één voertuig van een type op een horloge hebt, en je wilt het niet nummeren. Maar je kunt ook beginnen met de teller op 5 (om wat voor reden dan ook, maar het is mogelijk ;) )',
+        toggleNameCorrect: 'Toon/verberg voertuigen met overeenkomstige naam',
         settings: {
             show: 'Verberg/Toon',
             names: {
@@ -676,6 +679,7 @@
         </table>
     </div>
     <input type="button" class="btn btn-success" id="${prefix}_saveAll" value="${I18n.t('lssm.renameFz.saveAll')}"/>
+    <input type="button" class="btn btn-primary" id="${prefix}_toggle_name_correct" mode="hide" value="${I18n.t('lssm.renameFz.toggleNameCorrect')}"/>
 </div>`);
         $(`#${prefix}`)[(localStorage["lssm_renameFz_visibility"]||"open") === "close" ? "hide" : "show"]();
         let buttons = "";
@@ -724,6 +728,11 @@
                 }, 100 * i);
             }
             $(`.${prefix}_name_correct`).remove();
+        });
+
+        $(`#${prefix}_toggle_name_correct`).click(function() {
+            let rows = $(`.${prefix}_name_correct`).parent().parent().parent();
+            $(this).attr("mode") === "hide" ? (rows.hide() && $(this).attr("mode", "show")) : (rows.show() && $(this).attr("mode", "hide"));
         });
 
         $('#toggleRename').click(function() {
