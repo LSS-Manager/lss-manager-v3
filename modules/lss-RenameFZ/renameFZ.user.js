@@ -4,7 +4,6 @@
 
     I18n.translations.de.lssm.renameFz = {
         name: 'Fahrzeuge Umbenennen',
-        example: "Dies ist ein Beipsiel",
         rename: "Umbenennen",
         id: "{id} FahrzeugId ",
         old: "{old} Alten Namen ein",
@@ -17,7 +16,6 @@
         dispatchAlias: '{dispatchAlias} Leitstellen-Alias',
         stationAlias: '{stationAlias} Wachen-Alias',
         saveAll: 'Alle speichern',
-        exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE',
         statusWaiting: 'Warte auf Eingabe',
         statusError: '<b>Fehler bei der Generierung!</b> Sollte dieser Fehler ein weiteres mal auftreten, bitte melde ihn. Bitte teile dann folgendes mit:',
         statusWorking: 'Generiere Namen und Formulare. Dies kann, abhängig von System und Anzahl der Fahrzeuge, eine gewisse Zeit in Anspruch nehmen.',
@@ -154,7 +152,6 @@
 
     I18n.translations.en.lssm.renameFz = {
         name: 'Rename vehicles',
-        example: "This is an example",
         rename: "rename",
         id: "{id} Id of Vehicle",
         old: "{old} Current name",
@@ -166,7 +163,6 @@
         dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter',
         stationAlias: '{stationAlias} Building-Alias',
         saveAll: 'save All',
-        exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING',
         statusWaiting: 'Wait for input',
         statusError: '<b>Error during generation!</b> If this error occurs again, please report it. Please provide the following information:',
         statusWorking: 'Generate names and forms. This can take a certain amount of time, depending on the system and number of vehicles.',
@@ -237,7 +233,6 @@
 
     I18n.translations.nl.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
-        example: "Dit is een voorbeeld",
         rename: "Naam aanpassen",
         id: "{id} Voertuignaam ",
         old: "{old} Oude naam",
@@ -249,7 +244,6 @@
         dispatchAlias: '{dispatchAlias} Alias de meldkamer',
         stationAlias: '{stationAlias} Gebouw-Alias',
         saveAll: ' Alles opslaan',
-        exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM',
         statusWaiting: 'Wachten op invoer',
         statusError: '<b>Error tijdens generatie!</b> Als deze fout zich opnieuw voordoet, gelieve dit te melden. Gelieve de volgende informatie te verstrekken:',
         statusWorking: 'Genereer namen en vormen. Afhankelijk van het systeem en het aantal voertuigen kan dit enige tijd in beslag nemen.',
@@ -438,7 +432,6 @@
         },
         vehicles: {},
         str: {
-            bsp: "{id} Test {old} {vehicleType} {stationName} {tagging} {stationAlias}-{numberRoman}",
             default: "{old}",
             str: ''
         }
@@ -482,7 +475,7 @@
         try {
             let vehicle = lssm.vehicles[vehicleID];
             let typeAtStation = vehiclesTypesByBuilding[vehicle.building][vehicle.type];
-            let startNum = parseInt($('#' + prefix + '_startNum').val());
+            let startNum = parseInt($(`#${prefix}_startNum`).val());
             return typeAtStation.indexOf(vehicleID) + startNum + ((startNum === 0 && $('#lssm-inline-counterOverride').prop("checked") && typeAtStation.length > 1) ? 1 : 0);
         } catch (err) {
             printError(err)
@@ -491,6 +484,11 @@
 
     function rename() {
         try {
+            localStorage[`${prefix}_input`] = JSON.stringify({
+                str: set.str.str,
+                counter: $(`#${prefix}_startNum`).val(),
+                counterOverride: $('#lssm-inline-counterOverride').prop("checked")
+            });
             let vehicles = $('#vehicle_table tbody tr:visible');
             let vehiclesNum = vehicles.length;
             let status = $(`#${prefix}_status`);
@@ -648,9 +646,6 @@
         $('#vehicle_table').parent().prepend(`\
 <a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"]||"open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
 <div id="${prefix}">
-    ${I18n.t('lssm.renameFz.example')}<br>
-    ${set.str.bsp}<br>
-    ${I18n.t('lssm.renameFz.exampleResult')}
     <p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p>
     <div id="${prefix}_buttons"></div>
     <div>
@@ -737,6 +732,17 @@
             $(`#${prefix}`)[state_new === "close" ? "hide" : "show"]();
             $(this).attr("state", state_new);
         });
+
+        let input_saved = localStorage[`${prefix}_input`];
+
+        if (input_saved) {
+            input_saved = JSON.parse(input_saved);
+            $(`#${prefix}_startNum`).val(input_saved.counter||1);
+            $('#lssm-inline-counterOverride').prop("checked", input_saved.counterOverride||0);
+            $(`#${prefix}_string`)
+                .val(input_saved.str||"")
+                .trigger("change");
+        }
     }
 
 })(I18n, jQuery);
