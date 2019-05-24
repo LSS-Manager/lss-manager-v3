@@ -1,4 +1,5 @@
 (($, win, I18n) => {
+    const prefix = lssm.config.prefix + "_overview";
     I18n.translations.de.lssm.overview = {
         vehicleType: 'Fahrzeugtyp',
         min: 'mindest Personal',
@@ -16,7 +17,7 @@
         startVehicle: 'Start Fahrzeug',
         extensions: 'Ausbauten',
         maxBuildins: 'Baugrenze',
-        mapkit: "Du kannst die Übersicht trotzdem unter dem folgendem Link erreichen:\nhttps://www.leitstellenspiel.de/note?lssm_overview"
+        wtank: 'Wassertank'
     };
 
     I18n.translations.en.lssm.overview = {
@@ -35,8 +36,7 @@
         startPersonell: 'Start Personnel',
         startVehicle: 'Start vehicle',
         extensions: 'extensions',
-        maxBuildins: 'building boundary',
-        mapkit: "You can still reach the overview at the following link\nhttps://www.missionchief.com/note?lssm_overview"
+        maxBuildins: 'building boundary'
     };
 
     I18n.translations.nl.lssm.overview = {
@@ -55,27 +55,19 @@
         startPersonell: 'Start Personeel',
         startVehicle: 'Start voertuig',
         extensions: 'uitbreidingen',
-        maxBuildins: 'gebouwgrens',
-        mapkit: "U kunt het overzicht nog steeds bereiken via de volgende link:\nhttps://www.meldkamerspel.com/note?lssm_overview"
+        maxBuildins: 'gebouwgrens'
     };
 
-    if ("undefined" != typeof mapkit) {
-        alert("[" + lssm.Module.overview.name[I18n.locale] + "]\n\n" + I18n.t('lssm.mapkit') + "\n" + I18n.t('lssm.overview.mapkit'));
-        return;
-    }
     if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
         let overviewBtn = $(
-            '<a id="lssm_overview" href="/note?lssm_overview" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
+            '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
             '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
             '</a>'
         );
         $('.leaflet-control-container .leaflet-top.leaflet-left').append(overviewBtn);
-    }
-
-    if ((new URL(document.URL)).searchParams.get("lssm_overview") === null || !document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/note.*$/)) {
+    } else {
         return;
     }
-    $('body').html('');
 
     I18n.translations.de.lssm.overview.buildings = {
         lst: {
@@ -102,6 +94,18 @@
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
+        fwklein: {
+            name: 'Feuerwache (Kleinwache)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
+            startPersonell: 9,
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 15.000 mehr).',
+            extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
+            maxBuildings: '1.850',
+            special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
+        },
         fwschule: {
             name: 'Feuerwehrschule',
             credits: 500000,
@@ -112,7 +116,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Feuerwehrschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Feuerwehrschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         rw: {
             name: 'Rettungswache',
@@ -135,7 +139,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         kh: {
             name: 'Krankenhaus',
@@ -145,9 +149,9 @@
             levelcost: 'jeweils 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Keine Fahrzeuge stationierbar, dafür aber 10 Betten von Beginn an',
-            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allemeine Chirguie nur 10.000 Credits/)',
+            extensions: 'Mehrere Fachrichtungen (jeweils 7 Tage, 70.000 Credits/15 Coins, allgemeine Innere und allgemeine Chirurgie nur 10.000 Credits/)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Krankenhäuser mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         rth: {
             name: 'Rettungshubschrauber-Station',
@@ -194,7 +198,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-Polizeischulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         },
         polheli: {
             name: 'Polizeihubschrauber-Station',
@@ -265,7 +269,7 @@
             startVehicle: 'Keine Fahrzeuge stationierbar',
             extensions: 'Bis zu 3 weitere Klassenzimmer (jeweils 7 Tage, 400.000 Credits/40 Coins)',
             maxBuildings: 'Keine Grenze',
-            special: 'Finanzminister und (Co-)Admins können Verbands-Rettungsschulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
+            special: 'Finanzminister und Admins können Verbands-THW-Schulen mit Hilfe von Credits aus der Verbandskasse (aus-)bauen.'
         }
     };
 
@@ -289,6 +293,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 2000,
                 coins: 25
             },
             lf10: {
@@ -296,6 +301,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 1200,
                 coins: 25
             },
             dlk23: {
@@ -335,6 +341,7 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
+                wtank: 600,
                 coins: 25
             },
             lf2016: {
@@ -342,21 +349,40 @@
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1600
             },
             lf106: {
                 name: 'LF 106',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 600
             },
             lf16ts: {
                 name: 'LF 16-TS',
                 min: 1,
                 max: 9,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 0
+            },
+            klf: {
+                name: 'KLF',
+                min: 1,
+                max: 6,
+                credits: 5000,
+                coins: 25,
+                wtank: 500
+            },
+            mlf: {
+                name: 'MLF',
+                min: 1,
+                max: 6,
+                credits: 5000,
+                coins: 25,
+                wtank: 1000
             },
             gwoel: {
                 name: 'GW-Öl',
@@ -420,70 +446,88 @@
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2000
             },
             tlf3000: {
                 name: 'TLF 3000',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 3000
+            },
+            tlf4000: {
+                name: 'TLF 4000',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 25,
+                wtank: 4000
             },
             tlf88: {
                 name: 'TLF 8/8',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 800
             },
             tlf818: {
                 name: 'TLF 8/18',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             tlf1624tr: {
                 name: 'TLF 16/24-Tr',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2400
             },
             tlf1625: {
                 name: 'TLF 16/25',
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 2500
             },
             tlf1645: {
                 name: 'TLF 16/45',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4500
             },
             tlf2040: {
                 name: 'TLF 20/40',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf2040sl: {
                 name: 'TLF 20/40-SL',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 4000
             },
             tlf16: {
                 name: 'TLF 16',
                 min: 1,
                 max: 3,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 1800
             },
             gwgefahr: {
                 name: 'GW-Gefahrgut',
@@ -500,7 +544,17 @@
                 max: 9,
                 credits: 20000,
                 coins: 25,
-                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.'
+                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
+                wtank: 1600
+            },
+            hlf10: {
+                name: 'HLF 10',
+                min: 1,
+                max: 9,
+                credits: 20000,
+                coins: 25,
+                special: 'Ein HLF vor Ort zählt wie ein LF/TLF und ein RW gleichzeitig.<br>Es wird mindestens der Rang "Gruppenführer(in)" benötigt, um ein HLF kaufen zu können.',
+                wtank: 1000
             },
             gwhoehen: {
                 name: 'GW-Höhenrettung',
@@ -533,7 +587,8 @@
                 min: 1,
                 max: 6,
                 credits: 5000,
-                coins: 25
+                coins: 25,
+                wtank: 500
             },
             wlf: {
                 name: 'WLF',
@@ -574,6 +629,7 @@
                 max: 6,
                 credits: 23100,
                 coins: 25,
+                schooling: 'Dekon-P',
                 special: 'Pro Dekon-P müssen 6 Personen mit Dekon-P-Ausbildung vor Ort sein.<br>Wird ab 14 Feuerwachen benötigt.'
             },
             abdekonp: {
@@ -626,6 +682,7 @@
                 credits: 80000,
                 coins: 25,
                 schooling: 'Flugfeldlöschfahrzeug',
+                wtank: 12000,
                 special: 'Kann nur an Feuerwachen mit der Ausbaute "Flughafenfeuerwehr" stationiert werden'
             },
             rtf: {
@@ -662,7 +719,8 @@
                 credits: 20000,
                 coins: 25,
                 schooling: 'Werkfeuerwehr',
-                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden'
+                special: 'Kann nur an Feuerwachen mit der Ausbaute "Werkfeuerwehr" stationiert werden',
+                wtank: 5000
             },
             gwwerk: {
                 name: 'GW-Werkfeuerwehr',
@@ -732,7 +790,7 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
-                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig benadelt werden.'
+                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.'
             }
         },
         pol: {
@@ -956,7 +1014,7 @@
         heli: {
             polheli: {
                 name: 'Polizeihubschrauber',
-                min: 3,
+                min: 1,
                 max: 3,
                 credits: 300000,
                 coins: 30,
@@ -1041,6 +1099,17 @@
             maxBuildings: '1.850',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
+        fwklein: {
+            name: 'Fire Station (Small)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
+            startPersonell: 10,
+            startVehicle: 'Type 1 fire engine, Type 2 fire engine',
+            maxBuildings: '1.850',
+            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
+        },
         fwschule: {
             name: 'Fire Academy',
             credits: 500000,
@@ -1051,7 +1120,7 @@
             startVehicle: 'No vehicles stationable',
             extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
             maxBuildings: 'No limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
         },
         rw: {
             name: 'Ambulance Station',
@@ -1060,7 +1129,7 @@
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 2,
-            startVehicle: 'Ambulance',
+            startVehicle: 'ALS Ambulance',
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
@@ -1074,7 +1143,18 @@
             startVehicle: 'No vehicles can be stationed, but 10 beds from the start',
             extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+        },
+        khklein: {
+            name: 'Urgent Care Center',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: 'in each case 20.000 Credits/11 Coins',
+            startPersonell: 0,
+            startVehicle: 'Non. You can buy max. 2 Vehicles',
+            extensions: 'General Internal (10.000 Credits/10 Coins)',
+            maxBuildings: 'No Limit'
         },
         rth: {
             name: 'Helicopter Station',
@@ -1109,7 +1189,7 @@
             startVehicle: 'No vehicles stationable',
             extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
             maxBuildings: 'No limit',
-            special: 'Minister of Finance and (Co-)Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
+            special: 'Minister of Finance and Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
         },
         polheli: {
             name: 'Police Aviation Station',
@@ -1282,8 +1362,15 @@
             },
         },
         rd: {
-            rtw: {
-                name: 'Ambulance',
+            als: {
+                name: 'ALS Ambulance',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 25
+            },
+            bls: {
+                name: 'BLS Ambulance',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -1295,6 +1382,14 @@
                 max: 1,
                 credits: 4000,
                 coins: 20,
+                special: 'No missions require a Fly Car at this time, however it is able to treat patients.'
+            },
+            emsrescue: {
+                name: 'EMS Rescue',
+                min: 1,
+                max: 5,
+                credits: 12180,
+                coins: 25,
                 special: 'No missions require a Fly Car at this time, however it is able to treat patients.'
             },
             grtw: {
@@ -1421,7 +1516,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rw: {
             name: 'Ambulance standplaats',
@@ -1444,7 +1539,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         kh: {
             name: 'Ziekenhuis',
@@ -1456,7 +1551,7 @@
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
             extensions: 'Diverse specialisaties (in elk geval 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rth: {
             name: 'MMT Standplaats',
@@ -1491,7 +1586,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en (Co-)Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Minister van Financiën en Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         polheli: {
             name: 'Politiehelikopter standplaats',
@@ -1736,6 +1831,14 @@
                 coins: 12,
                 special: 'Haakarmvoertuig benodigd'
             },
+            hvh: {
+                name: 'HulpverleningsHaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
             wo: {
                 name: 'Waterongevallenvoertuig',
                 min: 4,
@@ -1751,6 +1854,22 @@
                 credits: 9000,
                 coins: 12,
                 special: 'TS, TST, TST-NBB, SIV, WO, HV, DA/DB benodigd'
+            },
+            pmor: {
+                name: 'PM-OR | Materieelvoertuig - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
+            },
+            tsor: {
+                name: 'TS-OR | Tankautospuit - Oppervlakteredding',
+                min: 4,
+                max: 9,
+                credits: 10000,
+                coins: 25,
+                schooling: 'oppervlakteredder'
             }
         },
         ambulance: {
@@ -1869,47 +1988,91 @@
         }
     };
 
-    $('body').css('margin', '10px');
+    $('#' + prefix + '_button').click(function() {
+        lssm.modal.show('<div id="' + prefix + '" class="container-fluid"></div>');
 
-    $('body').append('<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">' + I18n.t('lssm.overview.vehiclesName') + '&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">' + I18n.t('lssm.overview.vehiclesName') + '</a></li><li><a target="buildings">' + I18n.t('lssm.overview.buildingsName') + '</a></li></ul></div>');
 
-    $('body').append('<div id="vehicles" class="overviewCategory"></div>');
-    $('body').append('<div id="buildings" class="overviewCategory"></div>');
+        let overview_container = $('#' + prefix);
 
-    $('.overviewCategory:not(:first)').hide();
+        overview_container.css('margin', '10px');
 
-    $('#vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
-    $('#vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
+        overview_container.append('<div class="dropdown"><button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="typeDropdownBtn">' + I18n.t('lssm.overview.vehiclesName') + '&nbsp;<span class="caret"></span></button><ul class="dropdown-menu" id="typeDropdown"><li><a target="vehicles">' + I18n.t('lssm.overview.vehiclesName') + '</a></li><li><a target="buildings">' + I18n.t('lssm.overview.buildingsName') + '</a></li></ul></div>');
 
-    for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
-        $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
+        overview_container.append('<div id="' + prefix + '_vehicles" class="overviewCategory"></div>');
+        overview_container.append('<div id="' + prefix + '_buildings" class="overviewCategory"></div>');
 
-        $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+        $('.overviewCategory:not(:first)').hide();
 
-        $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+        $('#' + prefix + '_vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
+        $('#' + prefix + '_vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
 
-        for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
-            vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
-            $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+        for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
+            $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
+
+            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+
+            $('#' + hiorg).append('<input type="text" class="search_input_field pull-right" id="search_' + hiorg + '">');
+
+            if (I18n.locale === "de") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
+            } else if (I18n.locale === "en") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+            } else if (I18n.locale === "nl") {
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+            }
+
+            for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
+                vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
+                if (I18n.locale === "de") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                } else if (I18n.locale === "en") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                } else if (I18n.locale === "nl") {
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                }
+            }
+            $('#table-' + hiorg).tablesorter();
+            $('#search_' + hiorg).on("keyup", function() {
+                searchInTable('table-' + hiorg, 'search_' + hiorg);
+            });
         }
-    }
 
-    $('#vehicleTabs li a.nav-link').click(function() {
-        $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
-        $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+        $('#vehicleTabs li a.nav-link').click(function () {
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+        });
+
+        $('#' + prefix + '_buildings').append('<input type="text" class="search_input_field pull-right" id="search_building">');
+
+        $('#' + prefix + '_buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+
+        for (let building in I18n.t('lssm.overview.buildings')) {
+            building = I18n.t('lssm.overview.buildings')[building];
+            $('#table-buildings-body').append('<tr><td>' + building.name + '</td><td>' + (building.credits || building.credits === 0 ? building.credits.toLocaleString() : "undefined") + ' Credits / ' + (building.coins || building.coins === 0 ? building.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + building.maxlevel + '</td><td>' + building.levelcost + '</td><td>' + building.startPersonell + '</td><td>' + building.startVehicle + '</td><td>' + building.maxBuildings + '</td><td>' + building.extensions + '</td><td>' + (building.special ? building.special : "") + '</td></tr>');
+        }
+        $('#table-buildings').tablesorter();
+        $('#search_building').on("keyup", function() {
+            searchInTable('table-buildings', 'search_building');
+        });
+
+        $('#typeDropdown a').click(function () {
+            $('#typeDropdownBtn').html(I18n.t('lssm.overview.' + $(this).attr('target') + 'Name') + '&nbsp;<span class="caret"></span>');
+            $('.overviewCategory').hide();
+            $('#' + prefix + '_' + $(this).attr('target')).show();
+        });
     });
 
-    $('#buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+    function searchInTable(tableID, searchWordID) {
+        let searchWord = new RegExp($('#' + searchWordID).val().toLowerCase());
+        $('#' + tableID).find('tr').each(function () {
+            // zunächst die Zeile wieder sichtbar machen
+            $(this).show();
 
-    for (let building in I18n.t('lssm.overview.buildings')) {
-        building = I18n.t('lssm.overview.buildings')[building];
-        $('#table-buildings-body').append('<tr><td>' + building.name + '</td><td>' + (building.credits || building.credits === 0 ? building.credits.toLocaleString() : "undefined") + ' Credits / ' + (building.coins || building.coins === 0 ? building.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + building.maxlevel + '</td><td>' + building.levelcost + '</td><td>' + building.startPersonell + '</td><td>' + building.startVehicle + '</td><td>' + building.maxBuildings + '</td><td>' + building.extensions + '</td><td>' + (building.special ? building.special : "") + '</td></tr>');
+            // nun die Zelle prüfen, ob der Suchbegriff vorhanden ist
+            if (!$(this).html().toLowerCase().match(searchWord)) {
+                $(this).hide();
+            }
+        });
     }
-
-    $('#typeDropdown a').click(function() {
-        $('#typeDropdownBtn').html(I18n.t('lssm.overview.' + $(this).attr('target') + 'Name') + '&nbsp;<span class="caret"></span>');
-        $('.overviewCategory').hide();
-        $('#' + $(this).attr('target')).show();
-    });
 
 })($, window, I18n);

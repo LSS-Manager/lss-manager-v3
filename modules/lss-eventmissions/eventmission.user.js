@@ -22,6 +22,12 @@
 	text = text.replace('Schokoladenspur auf Strasse', '[OSTERN] Schokoladenspur auf Strasse');
 	text = text.replace('Eierkocherbrand', '[OSTERN] Eierkocherbrand');
 	text = text.replace('Hasentreffen in Ostereistedt', '[OSTERN] Hasentreffen in Ostereistedt');
+	text = text.replace('Osterei in Wasser', '[OSTERN] Osterei in Wasser');
+	text = text.replace('Osterei-LKW umgestürzt', '[OSTERN] Osterei-LKW umgestürzt');
+	text = text.replace('Schwerpunkteinsatz Osterei suche', '[OSTERN] Schwerpunkteinsatz Osterei suche');
+	text = text.replace('Ei rollt in Schlangenlinien', '[OSTERN] Ei rollt in Schlangenlinien');
+	text = text.replace('Osterhase auf Kran', '[OSTERN] Osterhase auf Kran');
+
 	//WM Missions
 	text = text.replace('Fußball aufpumpen', '[WM] Fußball aufpumpen');
 	text = text.replace('Mannschaftsbus in Halteverbot abgestellt', '[WM] Mannschaftsbus in Halteverbot abgestellt');
@@ -63,23 +69,23 @@
 	text = text.replace('candy theft', '[HALLOWEEN] candy theft');
 	//Christmas/Winter Missions
 	text = text.replace('Brennender Adventskranz', '[X-MAS] Brennender Adventskranz');
-        text = text.replace('Rangelei auf Weihnachtsmarkt', '[X-MAS] Rangelei auf Weihnachtsmarkt');
-        text = text.replace('Diebstahl auf Weihnachtsmarkt', '[X-MAS] Diebstahl auf Weihnachtsmarkt');
-        text = text.replace('Brennende Weihnachtsmarktbude', '[X-MAS] Brennende Weihnachtsmarktbude');
+	text = text.replace('Rangelei auf Weihnachtsmarkt', '[X-MAS] Rangelei auf Weihnachtsmarkt');
+	text = text.replace('Diebstahl auf Weihnachtsmarkt', '[X-MAS] Diebstahl auf Weihnachtsmarkt');
+	text = text.replace('Brennende Weihnachtsmarktbude', '[X-MAS] Brennende Weihnachtsmarktbude');
 	text = text.replace('Brand auf Weihnachtsmarkt', '[X-MAS] Brand auf Weihnachtsmarkt');
 	text = text.replace('Verkehrsunfall durch Glatteis', '[X-MAS] Verkehrsunfall durch Glatteis');
 	text = text.replace('Personenschaden durch Verbrennung', '[X-MAS] Personenschaden durch Verbrennung');
 	text = text.replace('Brennender Tannenbaum', '[X-MAS] Brennender Tannenbaum');
 	text = text.replace('Betrunkene Person auf Weihnachtsmarkt', '[X-MAS] Betrunkene Person auf Weihnachtsmarkt');
 
-        text = text.replace('Brandende cadeautjes', '[X-MAS] Brandende cadeautjes');
-        text = text.replace('Sinterklaas van dak gegleden', '[X-MAS] Sinterklaas van dak gegleden');
-        text = text.replace('Pepernoot op hoofd', '[X-MAS] Pepernoot op hoofd');
-        text = text.replace('Piet bestolen', '[X-MAS] Piet bestolen');
-        text = text.replace('Kind geschrokken', '[X-MAS] Kind geschrokken');
-        text = text.replace('Piet klem in schoorsteen', '[X-MAS] Piet klem in schoorsteen');
-        text = text.replace('Demonstratie zwarte piet', '[X-MAS] Demonstratie zwarte piet');
-        text = text.replace('Schoenen dief','[X-MAS] Schoenen dief');
+	text = text.replace('Brandende cadeautjes', '[X-MAS] Brandende cadeautjes');
+	text = text.replace('Sinterklaas van dak gegleden', '[X-MAS] Sinterklaas van dak gegleden');
+	text = text.replace('Pepernoot op hoofd', '[X-MAS] Pepernoot op hoofd');
+	text = text.replace('Piet bestolen', '[X-MAS] Piet bestolen');
+	text = text.replace('Kind geschrokken', '[X-MAS] Kind geschrokken');
+	text = text.replace('Piet klem in schoorsteen', '[X-MAS] Piet klem in schoorsteen');
+	text = text.replace('Demonstratie zwarte piet', '[X-MAS] Demonstratie zwarte piet');
+	text = text.replace('Schoenen dief','[X-MAS] Schoenen dief');
 	text = text.replace('Verstikking in pepernoot', '[X-MAS] Verstikking in pepernoot');
 	text = text.replace('Verkeersongeval door gladheid', '[X-MAS] Verkeersongeval door gladheid');
 	text = text.replace('Brandende kerstboom', '[X-MAS] Brandende kerstboom');
@@ -92,6 +98,11 @@
 	text = text.replace('Donkere dagen offensief', '[X-MAS] Donkere dagen offensief');
 	text = text.replace('Snijwond door gebroken kerstbal', '[X-MAS] Snijwond door gebroken kerstbal');
 	text = text.replace('Grote boek van Sinterklaas aangespoeld', '[X-MAS] Grote boek van Sinterklaas aangespoeld');
+	text = text.replace('Verlaten slee langs waterkant', '[X-MAS] Verlaten slee langs waterkant');
+	text = text.replace('Brandende kerststal', '[X-MAS] Brandende kerststal');
+	text = text.replace('Brandwonden door gourmetstel', '[X-MAS] Brandwonden door gourmetstel');
+	text = text.replace('Geluidsoverlast door kerstmuziek', '[X-MAS] Geluidsoverlast door kerstmuziek');
+	text = text.replace('Persoon bekneld onder kerstpakketten', '[X-MAS] Persoon bekneld onder kerstpakketten');
 
 	text = text.replace('Theft at christmas market', '[X-MAS] Theft at christmas market');
 	text = text.replace('Burning christmas market stall', '[X-MAS] Burning christmas market stall');
@@ -101,18 +112,18 @@
 	text = text.replace('Burning advent wreath', '[X-MAS] Burning advent wreath');
 	text = text.replace('Brawl at christmas market', '[X-MAS] Brawl at christmas market');
 	//SILVESTER Missions
-        text = text.replace('Brennender PKW durch Feuerwerkskörper', '[SILVESTER] Brennender PKW durch Feuerwerkskörper ');
-        text = text.replace('Sperrmüllbrand durch Feuerwerkskörper', '[SILVESTER] Sperrmüllbrand durch Feuerwerkskörper');
-        text = text.replace('Kleiner Feldbrand durch Feuerwerkskörper', '[SILVESTER] Kleiner Feldbrand durch Feuerwerkskörper');
-        text = text.replace('Kellerbrand durch Feuerwerkskörper', '[SILVESTER] Kellerbrand durch Feuerwerkskörper');
-        text = text.replace('Brennendes Bus-Häuschen durch Feuerwerkskörper', '[SILVESTER] Brennendes Bus-Häuschen durch Feuerwerkskörper');
-        text = text.replace('Feuer auf Balkon durch Feuerwerkskörper', '[SILVESTER] Feuer auf Balkon durch Feuerwerkskörper');
-        text = text.replace('Brennende Papiercontainer durch Feuerwerkskörper', '[SILVESTER] Brennende Papiercontainer durch Feuerwerkskörper');
-        text = text.replace('Brennende Hecke durch Feuerwerkskörper', '[SILVESTER] Brennende Hecke durch Feuerwerkskörper');
-        text = text.replace('Trunkenheitsfahrt nach Silvesterparty', '[SILVESTER] Trunkenheitsfahrt nach Silvesterparty');
-        text = text.replace('Brennendes Reetdachhaus durch Feuerwerkskörper', '[SILVESTER] Brennendes Reetdachhaus durch Feuerwerkskörper');
-        text = text.replace('Kfz durch Feuerwerkskörper beschädigt', '[SILVESTER] Kfz durch Feuerwerkskörper beschädigt');
-        text = text.replace('Verstoß gegen Sprengstoffverordnung','[SILVESTER] Verstoß gegen Sprengstoffverordnung');
+	text = text.replace('Brennender PKW durch Feuerwerkskörper', '[SILVESTER] Brennender PKW durch Feuerwerkskörper ');
+	text = text.replace('Sperrmüllbrand durch Feuerwerkskörper', '[SILVESTER] Sperrmüllbrand durch Feuerwerkskörper');
+	text = text.replace('Kleiner Feldbrand durch Feuerwerkskörper', '[SILVESTER] Kleiner Feldbrand durch Feuerwerkskörper');
+	text = text.replace('Kellerbrand durch Feuerwerkskörper', '[SILVESTER] Kellerbrand durch Feuerwerkskörper');
+	text = text.replace('Brennendes Bus-Häuschen durch Feuerwerkskörper', '[SILVESTER] Brennendes Bus-Häuschen durch Feuerwerkskörper');
+	text = text.replace('Feuer auf Balkon durch Feuerwerkskörper', '[SILVESTER] Feuer auf Balkon durch Feuerwerkskörper');
+	text = text.replace('Brennende Papiercontainer durch Feuerwerkskörper', '[SILVESTER] Brennende Papiercontainer durch Feuerwerkskörper');
+	text = text.replace('Brennende Hecke durch Feuerwerkskörper', '[SILVESTER] Brennende Hecke durch Feuerwerkskörper');
+	text = text.replace('Trunkenheitsfahrt nach Silvesterparty', '[SILVESTER] Trunkenheitsfahrt nach Silvesterparty');
+	text = text.replace('Brennendes Reetdachhaus durch Feuerwerkskörper', '[SILVESTER] Brennendes Reetdachhaus durch Feuerwerkskörper');
+	text = text.replace('Kfz durch Feuerwerkskörper beschädigt', '[SILVESTER] Kfz durch Feuerwerkskörper beschädigt');
+	text = text.replace('Verstoß gegen Sprengstoffverordnung','[SILVESTER] Verstoß gegen Sprengstoffverordnung');
 	text = text.replace('Handverletzung durch Feuerwerkskörper','[SILVESTER] Handverletzung durch Feuerwerkskörper');
         }
         return text;
@@ -121,7 +132,7 @@
     replaceInit();
 
     // Mission Marker
-    var evmissionMarkerAddOrig = missionMarkerAdd;
+    let evmissionMarkerAddOrig = missionMarkerAdd;
     missionMarkerAdd = function(t){ // NOSONAR: Global game variable
         t.caption = replaceevMissionCaption(t.caption);
         evmissionMarkerAddOrig(t);

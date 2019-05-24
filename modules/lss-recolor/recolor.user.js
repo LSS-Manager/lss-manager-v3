@@ -28,13 +28,13 @@
     }
     $("div[id^='mission_panel_heading']")
         .css("background-color", "#f5f5f5");
-    var settingButton = $('<li role="presentation"><a id="' + lssm.config.prefix + '_recolor_open" href="#">Recolor</a></li>');
+    let settingButton = $('<li role="presentation"><a id="' + lssm.config.prefix + '_recolor_open" href="#">Recolor</a></li>');
     console.log($('#' + lssm.config.prefix + '_menu'));
     $('#' + lssm.config.prefix + '_menu').append(settingButton);
     $('#'+ lssm.config.prefix + '_recolor_open').click(function(){
-        var content = $('#navbar-mobile-footer').prev();
+        let content = $('#navbar-mobile-footer').prev();
 
-        var settings_html = '<div id="'+ lssm.config.prefix+'_recolor"><div class="jumbotron">' +
+        let settings_html = '<div id="'+ lssm.config.prefix+'_recolor"><div class="jumbotron">' +
             '<a href="#" class="close" data-dismiss="alert" aria-label="close" id="'+ lssm.config.prefix+'_recolor_close">&times;</a>' +
             '<h1>Recolor</h1>' +
             '<p>Hier kannst du die Farbe einstellen, die du in LSS haben möchtest</p>' +

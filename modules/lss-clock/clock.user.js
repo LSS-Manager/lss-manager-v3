@@ -1,7 +1,4 @@
 (function($) {
-  if ("undefined" != typeof mapkit) {
-      alert("[Clock]\n\n" + I18n.t('lssm.mapkit'));
-  } else 
     /*
      * id: id des umschließendesn Divs
      * targt: hier wird das umschließende Div an erster stelle eingehängt
@@ -18,7 +15,7 @@
         * stop: beendet die Uhr und blendet diese aus
       */
 
-        var hour = $('<span class="hour"></span>'),
+        let hour = $('<span class="hour"></span>'),
             minute = $('<span class="minute"></span>'),
             second = $('<span class="second"></span>'),
             active = true,
@@ -30,7 +27,7 @@
         }
 
         function setClock() {
-            var d = new Date();
+            let d = new Date();
             if (d.getSeconds() == 0 && active)
                 if(!draggable)
                 $("#lss_clock").effect("bounce");

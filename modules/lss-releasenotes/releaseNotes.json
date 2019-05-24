@@ -1,6 +1,126 @@
 {
   "releases": [
     {
+      "version": "3.3.5",
+      "changes": [
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Erweiterte Gebäudeansicht",
+          "en": "Extended building view",
+          "nl": "Uitgebreide bouwweergave"
+        },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Telemetrie OPT-In",
+          "en": "Telemetry OPT-In",
+          "nl": "Telemetrie OPT-In"
+        }
+      ]
+    },
+    {
+      "version": "3.3.4",
+      "changes": [
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Dashboard und Wachenhoverstati nutzen nun die API",
+          "en": "Dashboard and Wachenhoverstati now use the API",
+          "nl": "Dashboard en Wachenhoverstati gebruiken nu de API"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Module, die nicht mit Mapkit kompatibel sind, werden jetzt automatisch deaktiviert",
+          "en": "Modules not compatible with Mapkit will now be deactivated automatically",
+          "nl": "Modules die niet compatibel zijn met Mapkit worden nu automatisch gedeactiveerd"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Der Appstore speichert jetzt nur aktive Module",
+          "en": "The Appstore now only stores active modules",
+          "nl": "De Appstore slaat nu alleen actieve modules op"
+        },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "ManagedSettings, Appstore und Dashboard sind nun in einem eigenen Fenster",
+          "en": "ManagedSettings, Appstore and Dashboard are now in separate windows",
+          "nl": "ManagedSettings, Appstore en Dashboard bevinden zich nu in een eigen venster"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Dashboard Performance verbessert",
+          "en": "Dashboard performance improved",
+          "nl": "Dashboard-prestaties verbeterd"
+        },
+        {
+          "id": "",
+          "type": "ADD",
+          "de": "Managedsettings hat jetzt Tabs",
+          "en": "Managedsettings now has tabs",
+          "nl": "Managedsettings heeft nu tabbladen"
+        },
+        {
+          "id": "",
+          "type": "Fix",
+          "de": "Managedsettings Design verbessert",
+          "en": "Managedsettings design improved",
+          "nl": "Managedsettings ontwerp verbeterd"
+        },
+        {
+          "id": "",
+          "type": "Fix",
+          "de": "Aussehen im Darkmode",
+          "en": "Darkmode presentation",
+          "nl": "Presentatie in donkere modus"
+        }
+      ]
+    },
+    {
+      "version": "3.3.3",
+      "changes": [
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Verbandsverwaltung",
+          "en": "Allicance-Extension",
+          "nl": "Team-uitbreiding"
+        },
+        {
+          "id": "",
+          "type": "INFO",
+          "de": "MapKit wird nicht von uns supportet. Sry",
+          "en": "MapKit is non supported by us. Sry",
+          "nl": "MapKit wordt niet door ons ondersteund. Proberen"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "Einige Fixxes von Sebastians Features",
+          "en": "Some fixxes from Sebastians Features",
+          "nl": "Enkele fixxes van Sebastians Kenmerken"
+        },
+        {
+          "id": "",
+          "type": "REMOVE",
+          "de": "AAO Anrückzeit",
+          "en": "ARR duration",
+          "nl": "AUR duur"
+        },
+        {
+          "id": "",
+          "type": "FIX",
+          "de": "ZielortFilter",
+          "en": "Destionation Filter",
+          "nl": "Bestimmningsfilter"
+        }
+      ]
+    },
+    {
       "version": "3.3.0",
       "changes": [
         {

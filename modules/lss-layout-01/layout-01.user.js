@@ -3,7 +3,7 @@
       '<style rel="stylesheet" id="lss-layout-01" type="text/css">'+
         '#map,#missions-panel-body{height:100%!important}'+
         '#map_outer{top:-19px;width:70%;height:calc(100vh - 90px);padding:0}'+
-        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 110px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:scroll}'+
+        '#buildings_outer,#chat_outer,#missions_outer,#radio_outer{width:calc(30% - 110px);height:calc(100vh - 90px);margin-left:20px;padding:0!important;float:left;overflow:hidden;overflow-y:hidden}'+
         '#buildings_outer,#chat_outer,#radio_outer{display:none}'+
         '#missions-panel-body{padding:0!important}'+
         '#buildings_outer .panel-body{height:calc(100vh - 135px)!important;padding-bottom:0;max-height:100%!important}'+
@@ -50,14 +50,14 @@
 
     $('.lssm_menu_btn').click(function() {
       if ("undefined" != typeof mapkit) {
-        var lssm_menu_view = $(this).data('id') + '_outer';
+          let lssm_menu_view = $(this).data('id') + '_outer';
         $('a.lssm_menu_btn_active').removeClass('lssm_menu_btn_active');
         $(this).addClass('lssm_menu_btn_active');
         $('div.lssm_menu_active').hide().removeClass('lssm_menu_active');
         $('#' + lssm_menu_view).show().addClass('lssm_menu_active');
       } else
         map.invalidateSize(true);
-        var lssm_menu_view = $(this).data('id') + '_outer';
+        let lssm_menu_view = $(this).data('id') + '_outer';
         $('a.lssm_menu_btn_active').removeClass('lssm_menu_btn_active');
         $(this).addClass('lssm_menu_btn_active');
         $('div.lssm_menu_active').hide().removeClass('lssm_menu_active');
@@ -65,7 +65,7 @@
     });
 
     $('#btn-alliance-new-mission,#btn-alliance-new-event').click(function(){$('#lss-layout-01-buildings').click();});
-    var newMessages = 0;
+    let newMessages = 0;
     $('#lss-layout-01-chat').append('<span id="lssm_messageAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
 
     $(document).bind(lssm.hook.prename("allianceChat"),function(event,e){
@@ -81,7 +81,7 @@
     });
 
     $('#lss-layout-01-missions').append('<span id="lssm_callsAmount" class="label label-danger" style="margin-top:-8px; margin-left:-15px;position:absolute;"></span>');
-    var newCalls = 0;
+    let newCalls = 0;
 
     $(document).bind(lssm.hook.prename("missionMarkerAdd"),function(event,e){
         if (!$('#mission_' + e.id).length && $('#missions_outer').is(':hidden')) {
