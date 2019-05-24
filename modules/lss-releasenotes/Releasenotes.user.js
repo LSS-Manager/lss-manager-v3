@@ -1,9 +1,9 @@
 (function (I18n, $) {
     'use strict';
 
-    var STORAGE_KEY = "LSS_RELEASENOTES_STORAGE";
+    let STORAGE_KEY = "LSS_RELEASENOTES_STORAGE";
 
-    var NUM_NOTES = 1;
+    let NUM_NOTES = 1;
 
     I18n.translations.de['lssm']['releasenotes'] = {
         title: "Neuerungen",
@@ -25,14 +25,14 @@
         link_caption: "Releasenote"
     };
 
-    var latestVersion = lssm.settings.get(STORAGE_KEY);
+    let latestVersion = lssm.settings.get(STORAGE_KEY);
 
     if (latestVersion !== lssm.config.version) {
         renderLayer();
     }
 
     function renderLayer() {
-        var markup = "";
+        let markup = "";
         markup += '<div id="releaseNotes" class="releaseNotesClose" ';
         markup += 'style="background: #fff; z-index: 10001; position: absolute; left: 50%; top: 50%; ';
         markup += 'transform: translate(-50%,-50%); min-height: 200px; min-width: 200px; ';
@@ -52,8 +52,8 @@
                 $('#releaseNotesContent').html("<div>" + I18n.t('lssm.releasenotes.errorloading') + "</div>");
             })
             .done(function (data) {
-                var releaseMarkup = "";
-                var printed = 0;
+                let releaseMarkup = "";
+                let printed = 0;
                 $(data.releases).each(function () {
                     releaseMarkup += "<div>";
                     releaseMarkup += "<h5>" + this.version + "</h5>";
@@ -91,7 +91,7 @@
     }
 
     function getLocalizedMessage(change) {
-        var locale = I18n.currentLocale();
+        let locale = I18n.currentLocale();
         if (locale in change) {
             return change[locale];
         } else if ('en' in change) {

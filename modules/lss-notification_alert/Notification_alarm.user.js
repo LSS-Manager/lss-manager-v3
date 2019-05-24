@@ -1,5 +1,5 @@
 (function($, I18n) {
-  var LSS_NOTIFICATION_STORAGE = "LSS_NOTIFICATION_STORAGE";
+    let LSS_NOTIFICATION_STORAGE = "LSS_NOTIFICATION_STORAGE";
 
   I18n.translations.de.lssm['n-alarm'] = {
     not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
@@ -63,7 +63,7 @@
     }
   }
 
-  var managedSettings = {
+    let managedSettings = {
     "id": LSS_NOTIFICATION_STORAGE,
     "title": I18n.t('lssm.n-alarm.settings.title'),
     "settings": {
@@ -141,7 +141,7 @@
   lssm.managedSettings.register(managedSettings);
 
   function notifyMe(username, message, type = "init", fms = "2", vid = "0") {
-    var notification;
+      let notification;
     if (!("Notification" in window)) {
       alert(I18n.t('lssm.n-alarm.not_support'));
     } else if (Notification.permission === "granted") {
@@ -200,7 +200,7 @@
 
 
   }
-  var $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
+    let $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
   $mainDiv.css({
     'position': 'fixed',
     'width': '250px',
@@ -214,8 +214,8 @@
   $mainDiv.click(function() {
     $(this).hide('slow');
   });
-  var $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
-  var $ul = $('<ul id="chatNoteUl"></ul>');
+    let $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
+    let $ul = $('<ul id="chatNoteUl"></ul>');
   $ul.css({
     'list-style': 'none',
     'margin-left': '0',
@@ -224,7 +224,7 @@
   $ul.appendTo($contentDiv);
   $contentDiv.appendTo($mainDiv);
   $mainDiv.appendTo($('body'));
-  var MainDivTimer;
+    let MainDivTimer;
 
   function hideMainDiv() {
     clearTimeout(MainDivTimer);
@@ -234,7 +234,7 @@
   }
 
   function ChatPopup(date, user_id, username, mission_id, message) {
-    var e = "<li><span class='mission_chat_message_username'>[" + date + "] <a href='/profile/" + user_id + "' class='lightbox-open'>" + username + ":</a></span>";
+      let e = "<li><span class='mission_chat_message_username'>[" + date + "] <a href='/profile/" + user_id + "' class='lightbox-open'>" + username + ":</a></span>";
     mission_id && (e = e + "<a href='/missions/" + mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
     e = e + " " + message + "</li>";
     $(e).appendTo($ul).delay(getSetting('n-alarm-timeout-chatp') * 1000).hide('slow', function() {

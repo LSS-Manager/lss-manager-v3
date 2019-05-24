@@ -126,14 +126,13 @@
     const getAaoVehicles = (aaoObject) => {
         let vehicles = {};
         $.each(aaoObject.attributes, function (index, attribute) {
-            if (!isNaN(attribute.value) && attribute.value > 0 && attribute.name !== 'building_id') {
+            if (!isNaN(attribute.value) && attribute.value > 0 && attribute.name !== 'building_ids') {
                 vehicles[attribute.name] = parseInt(attribute.value);
             }
         });
 
         return vehicles;
     };
-
     const handleMouseOver = (aaoObject) => {
         if ($(aaoObject).find('span').hasClass('label-danger')) {
             return false;

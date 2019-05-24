@@ -1,4 +1,3 @@
 (function () {
-    buttons = $(".lightbox-open.btn-xs.btn-default.btn.pull-right");
-    $("#chat_panel_heading").append(buttons.last());
+    $("#chat_panel_heading .btn-group.pull-right").append($(".lightbox-open.btn-xs.btn-default.btn.pull-right").last());
 })();

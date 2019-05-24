@@ -1,6 +1,6 @@
 (function($,I18n){
     // Settings
-    var settings = {
+    let settings = {
         allianceChatNotifcation:true,
         locale: I18n.locale||'de',
         delayTime:6000,
@@ -10,7 +10,7 @@
             }
         }
     };
-    var $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
+    let $mainDiv = $('<div id="chatNote" class="panel panel-default"><div class="panel-heading">Chat</div></div>');
     $mainDiv.css({
         'position': 'fixed',
         'width': '250px',
@@ -24,8 +24,8 @@
     $mainDiv.click(function(){
         $(this).hide('slow');
     });
-    var $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
-    var $ul = $('<ul id="chatNoteUl"></ul>');
+    let $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
+    let $ul = $('<ul id="chatNoteUl"></ul>');
     $ul.css({
         'list-style': 'none',
         'margin-left': '0',
@@ -40,7 +40,7 @@
                 $(this).toggleClass("btn-danger");
                 return false;
     });
-    var MainDivTimer;
+    let MainDivTimer;
     function hideMainDiv(){
         clearTimeout(MainDivTimer);
         MainDivTimer = setTimeout(function(){
@@ -49,7 +49,7 @@
     }
     $(document).bind(lssm.hook.postname("allianceChat"),function(event,t){
         if(user_id !== t.user_id && settings.allianceChatNotifcation && !t.ignore_audio){
-            var e = "<li><span class='mission_chat_message_username'>[" + t.date + "] <a href='/profile/" + t.user_id + "' class='lightbox-open'>" + t.username + ":</a></span>";
+            let e = "<li><span class='mission_chat_message_username'>[" + t.date + "] <a href='/profile/" + t.user_id + "' class='lightbox-open'>" + t.username + ":</a></span>";
             t.mission_id && (e = e + "<a href='/missions/" + t.mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
             e = e + " " + t.message + "</li>";
             $(e).appendTo($ul).delay(settings.delayTime).hide('slow',function(){$(this).remove();});

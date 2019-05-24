@@ -1,7 +1,7 @@
 (function($){
         // save game functions to keep them alive
-var buffermMa = missionMarkerAdd;
-var buffermPa = mission_participation_add;
+    let buffermMa = missionMarkerAdd;
+    let buffermPa = mission_participation_add;
 
 // run tag missions when game is changing participation
 mission_participation_add = function(e){
@@ -16,9 +16,9 @@ missionMarkerAdd = function(e){
 
 // find tags function
 function tagMissions(t){
-    var mpl = $('#mission_panel_'+t);
-    var mpn = $('#mission_participant_new_'+t);
-    var mp = $('#mission_participant_'+t);
+    let mpl = $('#mission_panel_'+t);
+    let mpn = $('#mission_participant_new_'+t);
+    let mp = $('#mission_participant_'+t);
 
     if( mpn.hasClass('hidden')){
         mpl.addClass('lss_new_case_in_progress');

@@ -1,5 +1,5 @@
 (function ($) {
-    var html = '<div id="db_main_outer">';
+    let html = '<div id="db_main_outer">';
     html += '<div class="container-fluid col-md-12">';
     html += '<div class="col-md-8">';
     html += '<div class="panel panel-default panel-chart pie" id="building-s_outer">';

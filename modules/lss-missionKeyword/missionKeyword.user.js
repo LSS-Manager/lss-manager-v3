@@ -1,6 +1,6 @@
 (function() {
 
-  var LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
+    let LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
 
   function setSettings() {
 
@@ -411,7 +411,69 @@
         386: 'Ammoniak austritt',
         387: 'Brennende Pipeline-Isolierung',
         388: 'Feuer in Verwaltungsgebäude',
-        389: 'Brand in Chemiepark - Produktion'
+        389: 'Brand in Chemiepark - Produktion',
+        390: 'Sicherheitslandung',
+        391: 'Vergiftung',
+        392: 'Person durch Hubmaschine eingeklemmt',
+        393: 'Einsturzgefährdeter Balkon',
+        394: 'LKW auf Stauende',
+        395: 'Maschinenbrand in Produktionshalle',
+        396: 'Maschinenbrand in Produktionshalle',
+        397: 'Schnittwunde',
+        398: 'Brennende Absauganlage',
+        399: 'Brand in Kabelkanal',
+        400: 'Brand in Lackiererei',
+        401: 'Umgestürzter Gabelstapler',
+        402: 'Brennender PKW',
+        403: 'Mülleimerbrand',
+        404: 'Mülleimerbrand',
+        405: 'Brennender LKW',
+        406: 'Brennender LKW',
+        407: 'Brennende Filteranlage',
+        408: 'Rauchentwicklung an Förderband',
+        409: 'Brennender LKW',
+        410: 'Mülleimerbrand',
+        411: 'Heißluftballon in Hochspannungsmast',
+        412: 'Verpuffung',
+        413: 'Verpuffung',
+        414: 'Verpuffung',
+        415: 'Jäger verletzt Passant durch Schuss',
+        416: 'Jäger stürzt von Hochsitz',
+        417: 'Jäger durch Wildtier verletzt',
+        418: 'Absicherung Pannen-LKW',
+        419: 'Austritt Flüssiggas',
+        420: 'Schlechter Allgemeinzustand',
+        421: 'PKW in Bushaltestelle',
+        422: 'Sachbeschädigung an PKW',
+        423: 'Brand in Klassenraum',
+        424: 'Großbrand Müllverbrennungsanlage',
+        425: 'Verstauchter Knöchel',
+        426: 'Gebrochenes Bein',
+        427: 'Gebrochener Arm',
+        428: 'Schneelast auf Dach',
+        429: 'Staubexplosion',
+        430: 'Ammoniakaustritt in Eishalle',
+        431: 'Kreislaufkollaps',
+        432: 'Fassadenbrand',
+        433: 'Großfeuer in Bank',
+        434: 'Brand in Eloxalanlage',
+        435: 'Brand in Eloxalanlage',
+        436: 'Verschmutzte Fahrbahn',
+        437: 'Taxi - Stiller Alarm',
+        438: 'PKW in Zapfsäule',
+        439: 'Einsturz Parkhaus',
+        440: 'Akute Atemnot',
+        441: 'Brennende Waldhütte',
+        442: 'Osterei in Wasser',
+        443: 'Osterei-LKW umgestürzt',
+        444: 'Schwerpunkteinsatz Ostereiersuche',
+        445: 'Ei rollt in Schlangenlinien',
+        446: 'Osterhase auf Kran',
+        447: 'Eingestürzter Balkon',
+        448: 'Ermittlungen nach Unfallflucht',
+        449: 'PKW in Supermarkt',
+        450: 'PKW un Supermarkt',
+        451: 'PKW in Gebäude'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -466,7 +528,7 @@
         33: 'Wastebin fire',
         34: 'Alcoholic intoxication',
         35: 'Nosebleed',
-        36: 'Cardiac infarction',
+        36: 'Chest Pains',
         37: 'Acute asthma',
         38: 'Seizure',
         39: 'Fever',
@@ -518,7 +580,7 @@
         85: 'Brawl at christmas market',
         86: 'MVA Rollover',
         87: 'Industrial Fire',
-        88: 'Building Collapse',
+        88: 'Partial Building Collapse',
         89: 'Trench Rescue',
         90: 'Officer Down',
         91: 'Concert',
@@ -617,7 +679,7 @@
         184: 'Container Ship Fire',
         185: 'Dock Crane fire',
         186: 'Recycling Centre fire',
-        187: 'Kidnaping',
+        187: 'Kidnapping',
         188: 'Cruise ship sinking',
         189: 'Sinking boat',
         190: 'Sinking boat',
@@ -629,7 +691,72 @@
         196: 'Kitchen Fire',
         197: 'Small boat fire',
         198: 'Small boat fire',
-        199: 'Small boat fire'
+        199: 'Small boat fire',
+        200: 'Person with a weapon',
+        201: 'VIP appearance',
+        202: 'Large Field Fire',
+        203: 'Natural gas odor',
+        204: 'Ammonia Leak (Gas Alarm System)',
+        205: 'Multiple vehicle fire in tunnel',
+        206: 'Transformer fire',
+        207: 'Caller Hangup',
+        208: 'Power Plant fire',
+        209: 'Factory Fire minor',
+        210: 'Factory Fire major',
+        211: 'Multiple vehicles on fire',
+        212: 'Fire on farm medium',
+        213: 'Fire on farm large',
+        214: 'Scrapyard fire',
+        215: 'Animal rescue from drain',
+        216: 'Home Invasion',
+        217: 'Museum Fire',
+        218: 'Cardiac Arrest',
+        219: 'Respiratory Arrest',
+        220: 'Difficulty Breathing',
+        221: 'Difficulty Breathing',
+        222: 'Difficulty Breathing',
+        223: 'Back Pain',
+        224: 'Vehicle Pursuit',
+        225: 'Landing Gear failure',
+        226: 'Landing Gear failure',
+        227: 'Airport Terminal Collapse (Small)',
+        228: 'Airport Terminal Collapse (Large)',
+        229: 'Airport Terminal Collapse (Major)',
+        230: 'Hazardous materials truck fire in tunnel',
+        231: 'Hazardous materials truck fire',
+        232: 'Full Building Collapse',
+        233: 'Person Hit by Train',
+        234: 'Person Hit by Train',
+        235: 'Person Hit by Train',
+        236: 'Electrical fire on subway tracks',
+        237: 'ALPR Checkpoint',
+        238: 'Bulk hazardous storage tank leak (Small)',
+        239: 'Bulk hazardous storage tank leak (Large)',
+        240: 'Fire in Subway station',
+        241: 'Fire in Subway station (Large)',
+        242: 'Truck Rear-Ended with Entrapment',
+        243: 'Attempted Homicide',
+        244: 'Fare dodger',
+        245: 'Medical emergency on crane',
+        246: 'Patient Transfer',
+        247: 'Possible Sepsis',
+        248: 'Mental health concern',
+        249: 'Car workshop fire',
+        250: 'Car workshop fire with explosion',
+        251: 'Patient transfer from flight',
+        252: 'Patient transfer from flight',
+        253: 'Hotel fire small',
+        254: 'Hotel fire medium',
+        255: 'Hotel fire large',
+        256: 'Hotel fire major',
+        257: 'Attempted Homicide',
+        258: 'Attempted Homicide',
+        259: 'Small Supermarket Fire',
+        260: 'Big Supermarket Fire',
+        261: 'Bar Fight',
+        262: 'Damaged Roof',
+        263: 'Unsafe Cladding',
+        264: 'Unsafe Scaffolding'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -890,7 +1017,7 @@
         239: 'Verstikking',
         240: 'Vergiftiging',
         241: 'Zwemmer vermist',
-        242: 'Zwemmer vermist',
+        242: 'Verlaten kleding langs waterkant',
         243: 'Verdachte situatie',
         244: 'Persoon van podium gevallen',
         245: 'Ontruimen kraakpand',
@@ -984,11 +1111,114 @@
         333: 'Inbraak in bedrijfspand',
         334: 'Brand in schoolgebouw',
         335: 'Brand in schoolgebouw',
-        336: 'Brand in schoolgebouw'
+        336: 'Brand in schoolgebouw',
+        337: 'Huiselijk geweld',
+        338: 'Huiselijk geweld',
+        339: 'Lekkende LPG installatie',
+        340: 'Lekkende LPG installatie',
+        341: 'Nacontrole brand',
+        342: 'Nacontrole brand',
+        343: 'Nacontrole brand',
+        344: 'Vreemde lucht in kantoorgebouw',
+        345: 'Vreemde lucht in kantoorgebouw',
+        346: 'Brand in opslagloods met gevaarlijke stoffen',
+        347: 'Brand bij afvalverwerker',
+        348: 'Zwemmer vermist',
+        349: 'Zwemmer vermist',
+        350: 'Insluiping in woning',
+        351: 'Inbraakalarm woning',
+        352: 'Brand in terminal',
+        353: 'Brand in terminal',
+        354: 'Brand in terminal',
+        355: 'Heidebrand',
+        356: 'Heidebrand',
+        357: 'Natuurbrand',
+        358: 'Hoge bloeddruk',
+        359: 'Lage bloeddruk',
+        360: 'Brand in bovenwoning',
+        361: 'Brand in bovenwoning',
+        362: 'Brand in flatwoning',
+        363: 'Brand op passagiersschip',
+        364: 'Brand op passagiersschip',
+        365: 'Brand op passagiersschip',
+        366: 'Personen op dak school',
+        367: 'Gestolen scooter gevonden',
+        368: 'Verkeersongeval met vrachtwagen en fietser',
+        369: 'Verkeersongeval met vrachtwagen en fietser',
+        370: 'Verkeersongeval met vrachtwagen en fietser',
+        371: 'Verlaten slee langs waterkant',
+        372: 'Brandende kerststal',
+        373: 'Brandwonden door gourmetstel',
+        374: 'Geluidsoverlast door kerstmuziek',
+        375: 'Persoon bekneld onder kerstpakketten',
+        376: 'Persoon te water',
+        377: 'Persoon te water',
+        378: 'Vreemde lucht in winkelcentrum',
+        379: 'Vreemde lucht in winkelcentrum',
+        380: 'Epileptische aanval',
+        381: 'Hevige bloeding',
+        382: 'Suikertekort',
+        383: 'Brand in parkeergarage',
+        384: 'Brand in parkeergarage',
+        385: 'Brand in parkeergarage',
+        386: 'Brand in parkeergarage',
+        387: 'Bouwvakker van hoogte gevallen',
+        388: 'Bouwvakker van hoogte gevallen',
+        389: 'Bouwvakker bekneld onder bouwmateriaal',
+        390: 'Brand bij afvalverwerker',
+        391: 'Brand bij afvalverwerker',
+        392: 'Brand bij afvalverwerker',
+        393: 'Brand bij afvalverwerker',
+        394: 'Brand bij afvalverwerker',
+        395: 'Brand bij afvalverwerker',
+        396: 'Lekkende LPG installatie',
+        397: 'Gaslekkage',
+        398: 'Vreemde lucht in kantoorgebouw',
+        399: 'Inbraakalarm bedrijfspand',
+        400: 'Inbraakalarm bedrijfspand',
+        401: 'Overvalalarm supermarkt',
+        402: 'Persoon van laadklep gevallen',
+        403: 'Persoon van laadklep gevallen',
+        404: 'Persoon van laadklep gevallen',
+        405: 'Motorrijder gevallen',
+        406: 'Persoon van dak gevallen',
+        407: 'Nacontrole brand',
+        408: 'Brand in kerkgebouw',
+        409: 'Brand in kerkgebouw',
+        410: 'Brand in kerkgebouw',
+        411: 'Brand in kerkgebouw',
+        412: 'Brand in kerkgebouw',
+        413: 'Brand in kerkgebouw',
+        414: 'Brand in transformatorhuisje',
+        415: 'Brand in transformatorhuisje',
+        416: 'Brand in transformatorhuisje',
+        417: 'Verkeersongeval met lijnbus en voetganger',
+        418: 'Verkeersongeval met lijnbus en voetganger',
+        419: 'Verkeersongeval met lijnbus en fietser',
+        420: 'Verkeersongeval met lijnbus en fietser',
+        421: 'Overvalalarm bankkantoor',
+        422: 'Overval bankkantoor',
+        423: 'Overval bankkantoor',
+        424: 'Overval bankkantoor',
+        425: 'Brand in bouwmarkt',
+        426: 'Brand in bouwmarkt',
+        427: 'Brand in bouwmarkt',
+        428: 'Brand in bouwmarkt',
+        429: 'Brand in bouwmarkt',
+        430: 'Persoon bekneld tussen containers',
+        431: 'Persoon bekneld tussen containers',
+        432: 'Persoon bekneld onder heftruck',
+        433: 'Lekkende tankwagen',
+        434: 'Lekkende tankwagen',
+        435: 'Lekkende tankwagen',
+        436: 'Persoon te water',
+        437: 'Persoon te water',
+        438: 'Duiker vermist',
+        439: 'Duiker vermist'
       }
     };
 
-    var managedSettings = {
+      let managedSettings = {
       "id": LSS_MISSIONKEYWORD_STORAGE,
       "title": I18n.t('lssm.missionKeywordDefaults.name'),
       "settings": {
@@ -999,7 +1229,7 @@
             "type": "button",
             "custom_function_event": "click",
             "custom_function": function() {
-              $('[id^=' + LSS_MISSIONKEYWORD_STORAGE + '_missionKeyword-]').toggle();
+              $('[id^=' + LSS_MISSIONKEYWORD_STORAGE + '_missionKeyword-].lssm_setting_line').toggle();
             }
           }
         }
@@ -1007,7 +1237,7 @@
     };
 
     // Einsatz-ID zu Stichwort
-    var DEFAULT_AAO_DE = {
+      let DEFAULT_AAO_DE = {
       0: 'B 1',
       1: 'B 2',
       2: 'B 2',
@@ -1251,7 +1481,7 @@
       240: 'ABC 1',
       241: 'POL 1',
       242: 'POL 3',
-      243: 'THL 1',
+      243: 'POL 1',
       244: 'THL WASSER',
       245: 'THL WASSER',
       246: 'THL WASSER',
@@ -1292,14 +1522,14 @@
       281: 'RD 2',
       282: 'THL 1',
       283: 'B 5',
-      284: 'POL 1',
-      285: 'POL 1',
-      286: 'THL EINSTURZ',
-      287: 'POL 1',
-      288: 'B 1',
-      289: 'THL 1',
-      290: 'B 2',
-      291: 'BP 3',
+      284: 'POL 0.5',
+      285: 'POL 0.5',
+      286: 'THL 0.5 EINSTURZ',
+      287: 'POL 0.5',
+      288: 'B 0.5',
+      289: 'THL 0.5',
+      290: 'B 1.5',
+      291: 'BP 2.5',
       292: 'POL 1',
       293: 'RD 1',
       294: 'BP 9',
@@ -1397,9 +1627,71 @@
       386: 'ABC 1',
       387: 'ABC 2',
       388: 'B 1',
-      389: 'ABC 4'
+      389: 'ABC 4',
+      390: 'B 1',
+      391: 'RD 2',
+      392: 'THL 1 Person',
+      393: 'THL 1',
+      394: 'THL 3 LKW',
+      395: 'B 4',
+      396: 'B 4',
+      397: 'RD 1',
+      398: 'B 4',
+      399: 'B 2',
+      400: 'B 5',
+      401: 'THL 1',
+      402: 'B 2',
+      403: 'B 1',
+      404: 'B 1',
+      405: 'B 3',
+      406: 'B 3',
+      407: 'B 4',
+      408: 'B 1',
+      409: 'B 3',
+      410: 'B 1',
+      411: 'THL 1 BALLON',
+      412: 'B 4',
+      413: 'B 4',
+      414: 'B 4',
+      415: 'RD 2',
+      416: 'RD 1',
+      417: 'RD 1',
+      418: 'POL 1',
+      419: 'ABC 2',
+      420: 'RD 1',
+      421: 'THL 1',
+      422: 'POL 1',
+      423: 'B 3',
+      424: 'B 5',
+      425: 'RD 1',
+      426: 'RD 2',
+      427: 'RD 2',
+      428: 'THL 2',
+      429: 'B 4',
+      430: 'ABC 3',
+      431: 'RD 1',
+      432: 'B 1',
+      433: 'B 5',
+      434: 'ABC 2',
+      435: 'ABC 2',
+      436: 'THL 1',
+      437: 'POL 1',
+      438: 'THL 1',
+      439: 'THL 4',
+      440: 'RD 1',
+      441: 'B 2',
+      442: 'THL 0.3 WASSER',
+      443: 'THL 0.5',
+      444: 'BP 0.5',
+      445: 'POL 0.5',
+      446: 'THL 0.5',
+      447: 'THL 2 EINSTURZ',
+      448: 'POL 1',
+      449: 'THL 1',
+      450: 'THL 1',
+      451: 'THL 1'
     };
-    var DEFAULT_AAO_EN = {
+      let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -1599,9 +1891,74 @@
       196: 'FIRE 1',
       197: 'FIRE 1 BOAT',
       198: 'FIRE 1 BOAT',
-      199: 'FIRE 1 BOAT'
+      199: 'FIRE 1 BOAT',
+      200: 'POL 4',
+      201: 'POL 6',
+      202: 'FIRE 5',
+      203: 'FIRE 1',
+      204: 'CBRN 1',
+      205: 'FIRE 4',
+      206: 'FIRE 1',
+      207: 'POL 1',
+      208: 'FIRE 4',
+      209: 'FIRE 2',
+      210: 'FIRE 4',
+      211: 'FIRE 3',
+      212: 'FIRE 4',
+      213: 'FIRE 5',
+      214: 'FIRE 3',
+      215: 'TECH 1',
+      216: 'POL 4',
+      217: 'FIRE 3',
+      218: 'MED 1',
+      219: 'MED 1',
+      220: 'MED 1',
+      222: 'MED 1',
+      221: 'MED 1',
+      223: 'MED 1',
+      224: 'POL 2',
+      225: 'FIRE 2 AIRCRAFT',
+      226: 'FIRE 1 AIRCRAFT',
+      227: 'FIRE 2',
+      228: 'FIRE 4',
+      229: 'FIRE 6',
+      230: 'FIRE 3',
+      231: 'FIRE 3',
+      232: 'TECH 3',
+      233: 'TECH 2',
+      234: 'TECH 2',
+      235: 'TECH 2',
+      236: 'FIRE 2',
+      237: 'POL 2',
+      238: 'CBRN 1',
+      239: 'CBRN 2',
+      240: 'FIRE 3',
+      241: 'FIRE 5',
+      242: 'TECH 1',
+      243: 'POL 3',
+      244: 'POL 1',
+      245: 'TECH 1',
+      246: 'MEDT',
+      247: 'MED 1',
+      248: 'POL 1',
+      249: 'FIRE 4',
+      250: 'FIRE 5',
+      251: 'MEDT',
+      252: 'MEDT',
+      253: 'FIRE 2',
+      254: 'FIRE 3',
+      255: 'FIRE 5',
+      256: 'FIRE 7',
+      257: 'POL 3',
+      258: 'POL 3',
+      259: 'FIRE 2',
+      260: 'FIRE 4',
+      261: 'POL 2',
+      262: 'TECH 1',
+      263: 'TECH 1',
+      264: 'TECH 1'
     };
-    var DEFAULT_AAO_NL = {
+      let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
       1: 'KLEINE BRAND',
       2: 'KLEINE BRAND',
@@ -1731,7 +2088,7 @@
       126: 'KLEINE BRAND',
       127: 'GROTE BRAND',
       128: 'KLEINE NATUURBRAND',
-      129: 'GROTE NATUURBRAND',
+      129: 'MIDDEL NATUURBRAND',
       130: 'MIDDEL BRAND',
       131: 'GROTE BRAND',
       132: 'KLEINE BRAND',
@@ -1807,7 +2164,7 @@
       202: 'P 1',
       203: 'MIDDEL OGS',
       204: 'MIDDEL OGS',
-      205: 'MIDDEL WO',
+      205: 'KLEINE WO',
       206: 'MIDDEL WO',
       207: 'KLEINE WO',
       208: 'MIDDEL WO',
@@ -1843,8 +2200,8 @@
       238: 'KLEINE BRAND',
       239: 'A 1',
       240: 'A 1',
-      241: 'MIDDEL WO',
-      242: 'MIDDEL WO',
+      241: 'KLEINE WO',
+      242: 'KLEINE WO',
       243: 'P 1',
       244: 'A 1',
       245: 'GEPLAND',
@@ -1938,7 +2295,110 @@
       333: 'P 3',
       334: 'KLEINE BRAND',
       335: 'MIDDEL BRAND',
-      336: 'GROTE BRAND'
+      336: 'GROTE BRAND',
+      337: 'P 1',
+      338: 'P 1',
+      339: 'KLEINE HV',
+      340: 'MIDDEL HV',
+      341: 'KLEINE BRAND',
+      342: 'KLEINE BRAND',
+      343: 'KLEINE BRAND',
+      344: 'OGS 1',
+      345: 'OGS 2',
+      346: 'OGS 4',
+      347: 'OGS 4',
+      348: 'MIDDEL WO',
+      349: 'GROTE WO',
+      350: 'P 3',
+      351: 'P 2',
+      352: 'KLEINE BRAND',
+      353: 'MIDDEL BRAND',
+      354: 'GROTE BRAND',
+      355: 'GROTE NATUURBRAND',
+      356: 'ZEER GROTE NATUURBRAND',
+      357: 'ZEER GROTE NATUURBRAND',
+      358: 'A 1',
+      359: 'A 1',
+      360: 'KLEINE BRAND',
+      361: 'KLEINE BRAND',
+      362: 'MIDDEL BRAND',
+      363: 'KLEINE BRAND, SCHIP',
+      364: 'MIDDEL BRAND, SCHIP',
+      365: 'GROTE BRAND, SCHIP',
+      366: 'P 1',
+      367: 'P 1',
+      368: 'P 2',
+      369: 'P 2, A 1',
+      370: 'KLEINE HV , A 1',
+      371: 'KLEINE WO',
+      372: 'KLEINE BRAND',
+      373: 'A 1',
+      374: 'P 1',
+      375: 'KLEINE HV',
+      376: 'GROTE WO',
+      377: 'GROTE WO',
+      378: 'OGS 1',
+      379: 'OGS 2',
+      380: 'A 1',
+      381: 'A 1',
+      382: 'A 1',
+      383: 'KLEINE BRAND',
+      384: 'MIDDEL BRAND',
+      385: 'GROTE BRAND',
+      386: 'ZEER GROTE BRAND',
+      387: 'A 1',
+      388: 'A 1',
+      389: 'KLEINE HV',
+      390: 'ZEER KLEINE BRAND',
+      391: 'KLEINE BRAND',
+      392: 'MIDDEL BRAND',
+      393: 'GROTE BRAND',
+      394: 'ZEER GROTE BRAND',
+      395: 'ZEER ZEER GROTE BRAND',
+      396: 'GROTE HV',
+      397: 'GROTE HV',
+      398: 'OGS 2',
+      399: 'P 2',
+      400: 'P 2',
+      401: 'P 3',
+      402: 'A 1',
+      403: 'A 1',
+      404: 'A 1',
+      405: 'A 1',
+      406: 'A 2',
+      407: 'ZEER KLEINE BRAND',
+      408: 'KLEINE BRAND',
+      409: 'MIDDEL BRAND',
+      410: 'GROTE BRAND',
+      411: 'ZEER GROTE BRAND',
+      412: 'ZEER GROTE BRAND',
+      413: 'ZEER GROTE BRAND',
+      414: 'KLEINE BRAND',
+      415: 'MIDDEL BRAND',
+      416: 'GROTE BRAND',
+      417: 'POL 1',
+      418: 'A 1',
+      419: 'POL 1',
+      420: 'HV 1',
+      421: 'P 3',
+      422: 'P 3',
+      423: 'P 4',
+      424: 'P 5',
+      425: 'KLEINE BRAND',
+      426: 'MIDDEL BRAND',
+      427: 'GROTE BRAND',
+      428: 'ZEER GROTE BRAND',
+      429: 'ZEER GROTE BRAND',
+      430: 'A 1',
+      431: 'HV 1',
+      432: 'HV 1',
+      433: 'OGS 1',
+      434: 'OGS 2',
+      435: 'OGS 3',
+      436: 'GROTE WO',
+      437: 'GROTE WO',
+      438: 'GROTE WO',
+      439: 'GROTE WO'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -1946,7 +2406,7 @@
     I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_EN;
     I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
 
-    var defaultAao;
+      let defaultAao;
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
     else if (I18n.locale === 'en')
@@ -1958,13 +2418,14 @@
 
 
     $.each(defaultAao, function(key, val) {
-      var tmpObject = {
+        let tmpObject = {
         ['missionKeyword-' + key]: {
           "default": val,
           "ui": {
             "label": I18n.t('lssm.missionKeywordDefaults.keywords.' + key) + " (ID " + key + ")",
             "type": "text",
-            "description": ""
+            "description": "",
+            "hidden": true
           }
         }
       };
@@ -1982,13 +2443,13 @@
 
   function missionKeyword() {
     // Stichwort Element
-    var titleStichwort = $('#missionH1');
+      let titleStichwort = $('#missionH1');
     // Anzahl Patientenbalken
-    var anzahlPatients = $(".patient_progress").length;
-    var aaoText = '';
+      let anzahlPatients = $(".patient_progress").length;
+      let aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-    var missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
+      let missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);
@@ -1997,7 +2458,7 @@
     {
       aaoText = aaoText + ' ' + I18n.t('lssm.missionKeywordDefaults.bma');
     }
-    var additionalAaoText = '';
+      let additionalAaoText = '';
     if (anzahlPatients > 0) {
       if (I18n.locale === 'de') {
 
@@ -2006,7 +2467,7 @@
         if (aaoText.match(/B [0-9]/ig)) {
           aaoText = aaoText + ' PERSON';
         } else if (aaoText.match(/FEU [0-9]|TH [0-9]/ig)) {
-          var n = aaoText.search(/[0-9]/i);
+            let n = aaoText.search(/[0-9]/i);
           if (n > 0) {
             aaoText = [a.slice(0, n + 1), ' Y', a.slice(n + 1)].join('');
           }
@@ -2083,7 +2544,7 @@
         }
       }
     }
-    var label = 'label-info';
+      let label = 'label-info';
 
     // Setze Label Farben
     if (aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')) ||
@@ -2115,7 +2576,7 @@
 
   // Only execute this script in the alert iframe.
   // Identify the iframe with mission_help link.
-  var missionHelp = $('#mission_help');
+    let missionHelp = $('#mission_help');
   if (missionHelp.length > 0) {
     missionKeyword();
   }
