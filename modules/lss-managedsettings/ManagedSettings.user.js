@@ -303,7 +303,7 @@
             if (element.ui.description) response += '<div style="margin-left: 16px;">' + element.ui.description + '</div>';
             response += '</div>';
         } else if (element.ui.type === "number") {
-            response += '<div class="col-md-12" id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
+            response += '<div class="col-md-6" id="' + elementName + '_wrap" ' + (element.ui.class ? 'class="' + element.ui.class + '"' : "") +
                 '>';
             response += '<span style="margin-left: 4px;" class="col-md-4" >' + element.ui.label + '</span>';
             response += '<input type="number" class="col-md-4" name="' + elementName + '" id="' + elementName + '" value="' + element.value +
