@@ -1468,7 +1468,7 @@ lssm.modal = {
                     setInterval(function () {
                         lssm.get_buildings(true, overwriteLoadVehicles);
                         lssm.get_vehicles(true, overwriteLoadBuildings);
-                    }, 120000);
+                    }, 300000);
                     // Let's load all the modules
                     lssm.modules.loadall();
                     // Oh, we also need a appstore
