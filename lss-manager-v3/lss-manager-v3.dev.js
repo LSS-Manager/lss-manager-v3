@@ -887,6 +887,22 @@ lssm.Module = {
         },
         source: "/modules/lss-extendedBuilding/extendedBuilding.js",
         inframe: true,
+    },
+    statusCount: {
+        name: {
+            de: "Status-Zähler",
+            en: "Status Counter",
+            nl: "Statusteller"
+        },
+        active: false,
+        description: {
+            de: "Gibt die Zahl der einzelnen Status aus.",
+            en: "Displays the number of individual statuses.",
+            nl: "Geeft het aantal van ten individuele statussen."
+        },
+        source: "/modules/lss-statuscount/statuscount.js",
+        inframe: false,
+        needVehicles: true
     }
 };
 
