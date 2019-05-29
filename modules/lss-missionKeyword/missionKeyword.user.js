@@ -473,7 +473,13 @@
         448: 'Ermittlungen nach Unfallflucht',
         449: 'PKW in Supermarkt',
         450: 'PKW un Supermarkt',
-        451: 'PKW in Gebäude'
+        451: 'PKW in Gebäude',
+        452: 'Brennender Bollerwagen',
+        453: 'Brennender Bollerwagen',
+        454: 'Brennender Bollerwagen',
+        455: 'Brennender Bollerwagen',
+        456: 'Brennender Bollerwagen',
+        457: 'Brennender Bollerwagen'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1326,7 +1332,7 @@
       85: 'POL 1',
       86: 'B 4',
       87: 'THL VU FLUGZEUG 1',
-      88: 'B 1',
+      88: 'B 0.5',
       89: 'THL 2',
       90: 'POL 1',
       91: 'THL 1',
@@ -1454,11 +1460,11 @@
       213: 'B EXPLOSION',
       214: 'B 4',
       215: 'ABC 3',
-      216: 'B 1',
-      217: 'B 1',
-      218: 'B 1',
-      219: 'B 1',
-      220: 'B 1',
+      216: 'B 0.5',
+      217: 'B 0.5',
+      218: 'B 0.5',
+      219: 'B 0.5',
+      220: 'B 0.5',
       221: 'THL VU ZUG',
       222: 'THL VU ZUG',
       223: 'SICHERHEITSWACHE',
@@ -1689,7 +1695,13 @@
       448: 'POL 1',
       449: 'THL 1',
       450: 'THL 1',
-      451: 'THL 1'
+      451: 'THL 1',
+      452: 'B 0.5',
+      453: 'B 0.5',
+      454: 'B 0.5',
+      455: 'B 0.5',
+      456: 'B 0.5',
+      457: 'B 0.5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',

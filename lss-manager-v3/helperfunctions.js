@@ -317,15 +317,43 @@ lssm.get_vehicles = function(async=true, overwritePathSetting=false) {
     }
 };
 
+lssm.statusCount = {
+    1: 0,
+    2: 0,
+    3: 0,
+    4: 0,
+    5: 0,
+    6: 0,
+    7: 0,
+    9: 0
+};
+
+lssm.updateStatusCount = function(async=true) {
+    $.ajax({
+        url: "/api/vehicle_states",
+        method: "GET",
+        cache: true,
+        async: async,
+        success: function (response) {
+          for (let status in response) {
+              lssm.statusCount[status] = response[status];
+          }
+        }
+    });
+};
+
 // Funktion zum Updaten des FMS eigener Fzg.
 $(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
-    if(t.type == "vehicle_fms"
+    if(t.type === "vehicle_fms"
         && lssm.vehicles.hasOwnProperty(t.id)
         && !t.fms_text.startsWith("[Verband]"))
     {
+        let vehicle = lssm.vehicles[t.id];
+        lssm.statusCount[vehicle.fms_show]--;
         lssm.vehicles[t.id].name = t.caption;
         lssm.vehicles[t.id].fms_show = t.fms;
         lssm.vehicles[t.id].fms_real = t.fms_real;
+        lssm.statusCount[t.fms]++;
     }
 });
 

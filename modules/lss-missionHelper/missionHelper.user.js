@@ -683,12 +683,18 @@
 				447: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Drehleiter<br>1x Feuerwehrkran (40%)<br>2x Funkstreifenwagen<br>' +
 				'1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>max. 5 Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 3000 </span>',
 				448: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 100 </span>',
-				449: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
+				449: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
 				'max. 4x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2100 </span>',
-				450: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
+				450: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
 				'max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2200 </span>',
-				451: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (5%)<br>1x Drehleiter (30%)<br>2x Funkstreifenwagen<br>' +
-				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>'
+				451: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (5%)<br>1x Drehleiter (30%)<br>2x Funkstreifenwagen<br>' +
+				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>',
+				452: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				453: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				454: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				455: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				456: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				457: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 			}
 		}
 
