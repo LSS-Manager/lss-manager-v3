@@ -688,7 +688,13 @@
 				450: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
 				'max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2200 </span>',
 				451: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (5%)<br>1x Drehleiter (30%)<br>2x Funkstreifenwagen<br>' +
-				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>'
+				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>',
+				452: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				453: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				454: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				455: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				456: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				457: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
 			}
 		}
 
