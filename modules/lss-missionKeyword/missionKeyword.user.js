@@ -479,7 +479,8 @@
         454: 'Brennender Bollerwagen',
         455: 'Brennender Bollerwagen',
         456: 'Brennender Bollerwagen',
-        457: 'Brennender Bollerwagen'
+        457: 'Brennender Bollerwagen',
+        458: 'Schwerlastkontrolle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -762,7 +763,8 @@
         261: 'Bar Fight',
         262: 'Damaged Roof',
         263: 'Unsafe Cladding',
-        264: 'Unsafe Scaffolding'
+        264: 'Unsafe Scaffolding',
+        265: 'Sports hall fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1220,7 +1222,10 @@
         436: 'Persoon te water',
         437: 'Persoon te water',
         438: 'Duiker vermist',
-        439: 'Duiker vermist'
+        439: 'Duiker vermist',
+        440: 'Brand in gevangenis',
+        441: 'Brand in gevangenis',
+        442: 'Brand in gevangenis'
       }
     };
 
@@ -1701,7 +1706,8 @@
       454: 'B 0.5',
       455: 'B 0.5',
       456: 'B 0.5',
-      457: 'B 0.5'
+      457: 'B 0.5',
+      458: 'VERKEHRSSICHERUNG'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1968,7 +1974,8 @@
       261: 'POL 2',
       262: 'TECH 1',
       263: 'TECH 1',
-      264: 'TECH 1'
+      264: 'TECH 1',
+      265: 'FIRE 3'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2410,7 +2417,10 @@
       436: 'GROTE WO',
       437: 'GROTE WO',
       438: 'GROTE WO',
-      439: 'GROTE WO'
+      439: 'GROTE WO',
+      440: 'KLEINE BRAND',
+      441: 'KLEINE BRAND',
+      442: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
