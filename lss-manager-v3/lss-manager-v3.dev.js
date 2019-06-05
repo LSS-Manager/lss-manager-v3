@@ -578,7 +578,7 @@ lssm.Module = {
             en: 'AAO-Search',
             nl: 'AUR-zoekfuncties'
         },
-        active: false,
+        active: true,
         description: {
             de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
             nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
