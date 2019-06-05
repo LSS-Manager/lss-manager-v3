@@ -196,16 +196,31 @@
         }
     };
 
-    lssm.updateStatusCount(false);
+    let syncable = true;
 
+    lssm.updateStatusCount(false);
+    
     $("#radio_panel_heading")
         .append("<span id='statusCount'></span>")
+        .click(sync)
         .click(update);
+
     update();
 
     $(document).bind(lssm.hook.postname("radioMessage"), update);
 
+    function sync() {
+        if (syncable) {
+            lssm.updateStatusCount(false);
+            syncable = false;
+            window.setTimeout(function() {
+                syncable = true;
+            }, 5 * 60 * 1000);
+        }
+    }
+
     function update() {
+        sync();
         let status = lssm.statusCount;
         status[5] = $('#radio_messages_important .building_list_fms_5:visible').length;
         let sum = Object.values(status).reduce((a, b) => a + b);
@@ -216,7 +231,7 @@
             let set = settings[`s${status_id}`];
             count_wrapper.append(
                 set.show && ((set.hide && status[status_id] !== 0) || !set.hide) &&
-                (set.text = `${status[status_id] || 0}${set.percent ? ` (${(status[status_id] / (sum / 100)).toFixed(round)}%)` : ""}`) &&
+                (set.text = `${(status[status_id] || 0).toLocaleString()}${set.percent ? ` (${(status[status_id] / (sum / 100)).toFixed(round)}%)` : ""}`) &&
                 `<span class="building_list_fms building_list_fms_${status_id}" title="Status ${status_id}: ${set.text}">${set.text}</span>`
             );
         }
