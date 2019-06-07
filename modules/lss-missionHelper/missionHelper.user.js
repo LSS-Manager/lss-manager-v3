@@ -166,7 +166,7 @@
 				'<span class="badge">Credits: ~ 2000 </span>',
 				127: '2x Löschfahrzeuge<br>1x Rüstwagen<br>2x Funkstreifenwagen<br>min. 2x Rettungswagen<br>' +
 				'1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2200 </span>',
-				128: '1x Funkstreifenwagen<br>1x Löschfahrzeug (10%)<br><br><span class="badge">Credits: ~ 700 </span>',
+				128: '1x Funkstreifenwagen<br>1x Löschfahrzeug (10%)<br>1x Rettungswagen<br><br><span class="badge">Credits: ~ 700 </span>',
 				129: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 800 </span>',
 				130: '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 600 </span>',
 				131: '1x Löschfahrzeug<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (50%)<br><br><span class="label label-primary">Wasserbedarf: 8.000 L</span>' +
