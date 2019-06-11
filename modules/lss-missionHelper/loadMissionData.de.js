@@ -6,7 +6,7 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            lf: 'Löschfahrzeug|LF ',
+            lf: 'Löschfahrzeug|^LF',
             dlk: 'Drehleiter',
             rw: 'Rüstwagen',
             elw1: 'ELW 1',
@@ -45,7 +45,7 @@ $.get(missionlink)
             mek: 'MEK-Fahrzeuge',
             sek: 'SEK-Fahrzeuge',
             gwwerk: 'GW-Werkfeuerwehr',
-            ulf: 'ULF mit Löscharm',
+            ulf: 'ULF',
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher'
         };
@@ -272,6 +272,7 @@ $.get(missionlink)
                 "Eishalle"
             ];
             for (let i = 0; i < pois.length; i++) {
+                console.log(pois[i], content, content.match(pois[0]));
                 if (content.match(pois[i])) {
                     return i;
                 }
@@ -280,7 +281,7 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                "0": "Feuerwachen",
+                0: "Feuerwachen",
                 2: "Rettungswachen",
                 6: "Polizeiwachen",
                 9: "THW-Wachen",
