@@ -12,7 +12,7 @@ $.get(missionlink)
             boat: "Boat",
             air: "Mobile Air",
             bchief: "Battalion Chief",
-            tanker: "Water tanker",
+            tanker: "Water Tanker",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             arff: "ARFF",
@@ -29,7 +29,8 @@ $.get(missionlink)
             swatArmoured: "SWAT Armoured Vehicle",
             swatSuv: "SWAT SUV",
             hems: "HEMS",
-            policeHeli: "Police Helicopter"
+            policeHeli: "Police Helicopter",
+            rtw: "Ambulance"
         };
 
         let credits;
@@ -65,9 +66,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Wasserbedarf/)) {
-                water = number;
-            } else if (content.match(/Required/)) {
+            if (content.match(/Required/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Probability/)) {
                 percentages[getVehicle(content)] = number;
