@@ -47,7 +47,8 @@ $.get(missionlink)
             gwwerk: 'GW-Werkfeuerwehr',
             ulf: 'ULF',
             tm: 'Teleskopmasten',
-            turbo: 'Turbolöscher'
+            turbo: 'Turbolöscher',
+            gwsan: 'GW-San'
         };
 
         let credits;
