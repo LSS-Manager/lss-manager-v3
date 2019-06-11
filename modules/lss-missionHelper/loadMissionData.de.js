@@ -226,7 +226,7 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Park",
+                "Park$",
                 "See",
                 "Krankenhaus",
                 "Wald",
@@ -272,7 +272,6 @@ $.get(missionlink)
                 "Eishalle"
             ];
             for (let i = 0; i < pois.length; i++) {
-                console.log(pois[i], content, content.match(pois[0]));
                 if (content.match(pois[i])) {
                     return i;
                 }
