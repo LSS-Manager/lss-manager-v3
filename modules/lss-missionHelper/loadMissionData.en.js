@@ -16,13 +16,13 @@ $.get(missionlink)
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             arff: "ARFF",
-            largeFireboat: "Large Fireboat",
+            largeFireboat: "large fire boat",
             als: "ALS Ambulance",
             bls: "BLS Ambulance",
             fly: "Fly-Car",
             ems: "EMS Rescue",
             mcu: "Mass Casualty Unit",
-            largeRescueboat: "Large Rescueboat",
+            largeRescueboat: "large rescue boat",
             police: "Police Car",
             k9: "K-9",
             pmotorcycle: "Police Motorcycle",
@@ -250,7 +250,7 @@ $.get(missionlink)
                 "Large chemical storage tank",
                 "Hotel",
                 "Bar",
-                "Landfill site",
+                "Landfill site"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -265,8 +265,8 @@ $.get(missionlink)
                 3: "Rescue Station",
                 5: "Police Station",
                 8: "Police Helicopter",
-                11: "Fire Boat",
-                12: "Water Rescue"
+                11: "fire boat",
+                12: "rescue boat"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
