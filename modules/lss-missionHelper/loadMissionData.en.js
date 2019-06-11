@@ -266,7 +266,8 @@ $.get(missionlink)
                 5: "Police Station",
                 8: "Police Helicopter",
                 11: "fire boat",
-                12: "rescue boat"
+                12: "rescue boat",
+                "water": "Water Rescue"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
