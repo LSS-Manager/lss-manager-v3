@@ -315,7 +315,7 @@
                     if (mission.onlyRd) {
                         // Ambulance-only Missions
                         if (mission.transport || mission.specialisation) {
-                            aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${void 0 !== typeof mission.transport && `${mission.transport}%`}${void 0 !== typeof mission.specialisation && ` (${mission.specialisation})`}`;
+                            aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${(mission.transport && `${mission.transport}%`)||""}${void 0 !== typeof mission.specialisation && ` (${mission.specialisation})`}`;
                         }
                         mission.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.nef}%`);
                         mission.mmtarts && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.mmtarts')}: ${mission.mmtarts}%`);
@@ -348,7 +348,7 @@
                                 aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.patients.max}<br>`;
 
                                 if (mission.patients.transport || mission.patients.specialisation) {
-                                    aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${void 0 !== typeof mission.patients.transport && `${mission.patients.transport}%`}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
+                                    aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${(mission.patients.transport && `${mission.patients.transport}%`)||""}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
                                 }
 
                                 mission.patients.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.patients.nef}%`);
