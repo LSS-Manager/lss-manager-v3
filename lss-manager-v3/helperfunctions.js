@@ -309,6 +309,7 @@ lssm.get_vehicles = function(async=true, overwritePathSetting=false) {
                         customtype: car.vehicle_type_caption,
                         fms_real: car.fms_real,
                         fms_show: car.fms_show,
+                        vehicle_type: car.vehicle_type,
                     };
                 });
                 lssm.vehicles = tmpCar;

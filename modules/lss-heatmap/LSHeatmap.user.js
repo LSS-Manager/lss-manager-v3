@@ -198,18 +198,21 @@
 
     let getVehicles = () => {
         let vehicles = [];
-        $('#building_list .building_list_li').each(function () {
-            let building = $(this);
-            let long = $(building).find('.map_position_mover').attr('data-longitude');
-            let lat = $(building).find('.map_position_mover').attr('data-latitude');
-            $(this).find('.building_list_vehicle_element').each(function () {
-                let vehicle_type_id = $(this).find('.vehicle_building_list_button').attr('vehicle_type_id');
-                let name = $(this).find('.vehicle_building_list_button').text();
-                let vehicle = {'vehicle_type_id': parseInt(vehicle_type_id), 'lat': lat, 'long': long, 'name': name};
-                vehicles.push(vehicle);
-                if (availableVehicleTypes.indexOf(vehicle_type_id) === -1) availableVehicleTypes.push(vehicle_type_id);
-            });
+        Object.entries(lssm.vehicles).forEach(([key, vehicle]) => {
+            for(let building of lssm.buildings){
+                if(building.id === vehicle.building){
+                    let tmpVehicle = vehicle;
+                    tmpVehicle.long = building.longitude;
+                    tmpVehicle.lat = building.latitude
+                    vehicles.push(tmpVehicle);
+                    if (availableVehicleTypes.indexOf(tmpVehicle.vehicle_type) === -1) availableVehicleTypes.push(tmpVehicle.vehicle_type);
+
+                    break;
+                }
+            };
+            
         });
+        
         return vehicles;
     };
 
@@ -228,15 +231,14 @@
 
         if (getSetting('heatmap-activated')) {
             let entries = [];
-            $(vehicles).each(function () {
-                let vehicle = this;
+            for(let vehicle of vehicles){
                 let vehicleClass = vehicleClasses[getSetting('heatmap-vehicle')];
                 // Add to entries if exact match or if vehicle is in vehicle class
-                if (vehicle.vehicle_type_id === getSetting('heatmap-vehicle')
-                    || (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.vehicle_type_id) !== -1)) {
+                if (vehicle.vehicle_type === getSetting('heatmap-vehicle')
+                    || (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.vehicle_type) !== -1)) {
                     entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
                 }
-            });
+            };
             heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
         }
     };
