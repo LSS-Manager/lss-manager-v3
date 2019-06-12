@@ -7,7 +7,7 @@
         $.getJSON(`${lssm.config.server}/modules/lss-missionHelper/missions.${I18n.locale}.json`, {_: new Date().getTime()}) // simple way to "disable" cache
             .done(missions => {
                 if (!missions[id]) {
-                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`);
+                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`, {_: new Date().getTime()});
                 }
             });
         return;
@@ -68,7 +68,8 @@
             gwwerk: 'GW-Werkfeuerwehr',
             ulf: 'ULF mit Löscharm',
             tm: 'Teleskopmasten',
-            turbo: 'Turbolöscher'
+            turbo: 'Turbolöscher',
+            gwsan: 'GW-San'
         },
         pois: [
             "Park",
@@ -210,6 +211,73 @@
     };
 
     I18n.translations.nl['lssm']['missionHelper'] = {
+        diyMission: 'Deze missie lijkt een grootschalige alliantiemissie te zijn.',
+        vge: 'Grootschalige alliantiemissie',
+        siwa: 'Geplande missie',
+        missionNotDefined: 'Deze missie staat nog niet op de lijst.',
+        patients: 'Patiënten',
+        transport: 'Transport',
+        prisoners: 'Gevangenen',
+        to: 'tot',
+        vehicles: {
+            tankauto: "Tankautospuiten"
+        },
+        pois: [
+            "Park",
+            "Meer",
+            "Ziekenhuis",
+            "Bos",
+            "Bushalte",
+            "Tramhalte",
+            "Station",
+            "Centraal Station",
+            "Rangeeremplacement",
+            "Buurtsuper",
+            "Supermarkt",
+            "Tankstation",
+            "School",
+            "Museum",
+            "Winkelcentrum",
+            "Garage",
+            "Snelweg oprit / afrit",
+            "Kerstmarkt",
+            "Magazijn",
+            "Café/Club",
+            "Stadion",
+            "Boerderij",
+            "Kantoorgebouw",
+            "Zwembad",
+            "Spoorwegovergang",
+            "Theater",
+            "Marktplein",
+            "Rivier",
+            "Sloot",
+            "Vliegveld \\(klein\\): Start-/Landingsbaan",
+            "Vliegveld \\(klein\\): Gebouw",
+            "Vliegveld \\(klein\\): Vliegtuig parkeerplaats",
+            "Vliegveld \\(groot\\): Start-/Landingsbaan",
+            "Vliegveld \\(groot\\): Terminal",
+            "Vliegveld \\(groot\\): Platform / Gate",
+            "Vliegveld \\(groot\\): Parkeergarage",
+            "Parkeergarage",
+            "Verzorgingshuis",
+            "Manege",
+            "Hotel",
+            "Restaurant",
+            "Bankkantoor",
+            "Sporthal",
+            "Camping",
+            "Gevangenis",
+            "Asielzoekerscentrum",
+            "Afvalverwerker",
+            "Kerkgebouw",
+            "Bouwmarkt",
+            "Transformatorhuisje",
+            "Industrieterrein",
+            "Bedrijventerrein",
+            "Haventerrein",
+            "Bouwterrein"
+        ]
     };
 
     let missionHelp = $('#mission_help');
@@ -333,7 +401,7 @@
                     }
                 } else {
                     aaoText += `${I18n.t('lssm.missionHelper.missionNotDefined')}<sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>`;
-                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`);
+                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`, {_: new Date().getTime()});
                 }
                 $('#missionHelper').append(aaoText)
                     .css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
@@ -352,6 +420,14 @@
     localStorage["lssm_missionHelper_state"] === "unpin" ? unpin(markup) : pin(markup);
 
     $('#pinMissionHelper').css("cursor", "pointer");
+
+    $('.alert-missing-vehicles')
+        .mouseover(function() {
+            $('#missionHelper').css("opacity", "0.1");
+        })
+        .mouseleave(function() {
+            $('#missionHelper').css("opacity", "1");
+        });
 })($, window, I18n);
 
 function pin(markup) {
@@ -385,7 +461,6 @@ function unpin(markup) {
         .css("top", "3%")
         .css("max-width", "33.3333%");
     $('#pinMissionHelper').attr("onclick", "pin(null)");
-    $('.alert.alert-')
     localStorage["lssm_missionHelper_state"] = "unpin";
 }
 
