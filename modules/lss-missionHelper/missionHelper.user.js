@@ -220,7 +220,26 @@
         prisoners: 'Gevangenen',
         to: 'tot',
         vehicles: {
-            tankauto: "Tankautospuiten"
+            tankauto: "Tankautospuiten",
+            noodhulpeen: "Noodhulpeenheden",
+            ovdb: "OvD-B",
+            redvoertuig: "Redvoertuigen",
+            hoogwerker: "Hoogwerker",
+            slangenwagen: "Slangenwagen",
+            hulpverlening: "Hulpverleningsvoertuigen",
+            Adembescherming: "Adembeschermingsvoertuigen",
+            hovd: "HOVD",
+            waarschuwing: "Waarschuwings- en Verkenningsdienst voertuigen",
+            gevaar: "Adviseurs Gevaarlijke Stoffen",
+            ovdp: "Officiers van Dienst Politie",
+            commando: "Commandowagen",
+            ambulance: "Ambulances",
+            megroep: "ME Groepsvoertuig",
+            mecommando: "ME Commandovoertuigen",
+            polHeli: "Politie Helikopter",
+            watervoertuig: "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
+            wateraanhanger: "Waterongevallenaanhangers",
+            hond: "Hondengeleider"
         },
         pois: [
             "Park",
@@ -462,16 +481,4 @@ function unpin(markup) {
         .css("max-width", "33.3333%");
     $('#pinMissionHelper').attr("onclick", "pin(null)");
     localStorage["lssm_missionHelper_state"] = "unpin";
-}
-
-function cleanList() {
-    $.getJSON(`${lssm.config.server}/modules/lss-missionHelper/missions.${I18n.locale}.json`, {_: new Date().getTime()}).done(missions => {
-        console.log("clean list", Object.keys(missions).length);
-        $('a.btn').attr("target", "_blank");
-        $(`a:not(.btn)`).parent().parent().show();
-        for (let id in missions) {
-            $(`a[href="/einsaetze/${id}"]:not(.btn)`).parent().parent().hide();
-        }
-        window.setTimeout(cleanList, 10000);
-    });
 }
