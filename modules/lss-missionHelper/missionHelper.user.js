@@ -383,23 +383,69 @@
                     aaoText += `${I18n.t('lssm.missionHelper.missionNotDefined')}<sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>`;
                     $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`, {_: new Date().getTime()});
                 }
-                $('#missionHelper').append(aaoText)
-                    .css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
+                $('#missionHelper .content').append(`${aaoText}<br>`);
+                $("#missionHelper").css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
 
             })
             .fail((jqxhr, textStatus, error) => {
-                $('#missionHelper').append(`<pre>${error}</pre>`)
-                    .css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
+                $('#missionHelper .content').append(`<pre>${error}</pre>`);
+                $("#missionHelper").css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
             });
     } else {
         aaoText += I18n.t('lssm.missionHelper.diyMission');
     }
     // Set markup
-    markup += `${aaoText}</div>`;
+    markup += `<article class="content">${aaoText}</article><span id="toggle-mission-helper"><span class="up"></span></span></div>`;
 
     localStorage["lssm_missionHelper_state"] === "unpin" ? unpin(markup) : pin(markup);
 
-    $('#missionHelper').css("transition", "100ms linear");
+    $('head').append(`<style>
+#missionHelper .content {
+    height: auto;
+    margin-bottom: 0.625em;
+}
+#missionHelper .content.hidden {
+    height: 0;
+}
+#toggle-mission-helper {
+    min-width: 100px;
+    cursor: pointer;
+    width: 100%;
+    height: 0.625em;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+}
+#toggle-mission-helper span {
+    border: 3px solid #4a4a4a;
+    border-radius: 2px;
+    border-right: 0;
+    border-top: 0;
+    content: " ";
+    display: block;
+    height: 0.625em;
+    transform-origin: center;
+    left: 50%;
+    width: 0.625em;
+    position: relative;
+}
+#toggle-mission-helper span.up {
+    transform: rotate(135deg);
+}
+#toggle-mission-helper span.down {
+    transform: rotate(-45deg);
+}
+</style>`);
+
+    $('#toggle-mission-helper').click(function() {
+        $('#missionHelper .content').toggleClass("hidden");
+        $('#toggle-mission-helper span').toggleClass("up")
+            .toggleClass("down");
+    });
+
+    $('#missionHelper')
+        .css("transition", "100ms linear")
+        .css("min-width", "100px");
 
     $('#pinMissionHelper').css("cursor", "pointer");
 
