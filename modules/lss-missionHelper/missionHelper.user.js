@@ -128,6 +128,7 @@
         transport: 'Transport',
         prisoners: 'Prisoners',
         to: 'up to',
+        SWATPersonnel: "Needed SWAT Personnel",
         vehicles: {
             truck: "Firetrucks",
             platform: "Platform truck",
@@ -311,112 +312,72 @@
                 let mission = missions[missionId];
                 if (mission) {
                     aaoText += `<h3>${mission['name']}&nbsp;<sub><sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>&nbsp;<sub>${mission.poi ? `POI: ${I18n.t(`lssm.missionHelper.pois.${mission.poi}`)} <sub>[${mission.poi}]</sub>` : ""}</sub></sub></h3><br>`;
-                    if (mission['onlyRd'] !== true) {
+                    if (mission.onlyRd) {
+                        // Ambulance-only Missions
+                        if (mission.transport || mission.specialisation) {
+                            aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${void 0 !== typeof mission.transport && `${mission.transport}%`}${void 0 !== typeof mission.specialisation && ` (${mission.specialisation})`}`;
+                        }
+                        mission.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.nef}%`);
+                        mission.mmtarts && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.mmtarts')}: ${mission.mmtarts}%`);
+                        mission.rth && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.rth')}: ${mission.rth}%`);
+                        mission.tragehilfe && (aaoText += `<br>${I18n.t('lssm.missionHelper.tragehilfe')}: ${mission.tragehilfe}%`);
+                        aaoText += '<br>';
+                    } else {
                         // not Ambulance-only Missions
                         // If VGE
-                        if (mission['vge'] === true) {
-                            aaoText += '<h4>' + I18n.t('lssm.missionHelper.vge') + '</h4>';
-                        }
+                        mission.vge && (aaoText += `<h4>${I18n.t('lssm.missionHelper.vge')}</h4>`);
+
                         // If Sicherheitswache
                         if (mission['siwa'] === true) {
-                            aaoText += '<h4>' + I18n.t('lssm.missionHelper.siwa') + '</h4>';
+                            aaoText += `<h4>${I18n.t('lssm.missionHelper.siwa')}</h4>`;
                         } else {
                             // Number of patients
-                            if ($(".mission_patient").length > 0) {
-                                aaoText += '<span class="badge">' + $(".mission_patient").length + (($(".mission_patient").length > 1) ? ' Patienten' : ' Patient') + '</span><br><br>';
-                            }
+                            let patients = $(".mission_patient").length;
+                            patients > 0 && (aaoText += `<span class="badge">${I18n.t('lssm.missionHelper.patients')}: ${patients}</span><br><br>`);
+
                             // Add Wasserbedarf
-                            aaoText += mission['water'] ? I18n.t('lssm.missionHelper.water') + ": " + mission['water'].toLocaleString() + ' Liter<br>' : "";
+                            mission.water && (aaoText += `${I18n.t('lssm.missionHelper.water')}: ${mission['water'].toLocaleString()} Liter<br>`);
+
                             // Add vehicles
-                            let vehicles = mission['vehicles'];
+                            let vehicles = mission.vehicles;
                             $.each(vehicles, function (key, val) {
-                                aaoText += val + 'x ' + I18n.t('lssm.missionHelper.vehicles.' + key);
-                                if (mission['percentages'] && mission['percentages'][key]) {
-                                    aaoText += ' (' + mission['percentages'][key] + '%)<br>';
-                                } else {
-                                    aaoText += ' (100%)<br>';
-                                }
+                                aaoText += `${val}x ${I18n.t(`lssm.missionHelper.vehicles.${key}`)} ${(mission.percentages && mission.percentages[key] && `(${mission.percentages[key]}%)`)||`(100%)`}<br>`;
                             });
                             // Add patients
-                            if (mission['patients']) {
-                                if (mission['patients']['min'] != mission['patients']['max']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.patients') + ': ' + (mission['patients']['min']||0) + ' ' + I18n.t('lssm.missionHelper.to') + ' ' + mission['patients']['max'];
-                                } else {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.patients') + ': ' + mission['patients']['max'];
+                            if (mission.patients) {
+                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.patients.max}`;
+
+                                if (mission.patients.transport || mission.patients.specialisation) {
+                                    aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${void 0 !== typeof mission.patients.transport && `${mission.patients.transport}%`}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
                                 }
-                                if (mission['patients']['transport'] || mission['patients']['specialisation']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.transport') + ': ';
-                                    if (mission['patients']['transport']) {
-                                        aaoText += mission['patients']['transport'] + '%';
-                                    }
-                                    if (mission['patients']['specialisation']) {
-                                        aaoText += ' (' + mission['patients']['specialisation'] + ')';
-                                    }
-                                }
-                                if (mission['patients']['nef']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.vehicles.nef') + ': ' + mission['patients']['nef'] + '%';
-                                }
-                                if (mission['patients']['rth']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.vehicles.rth') + ': ' + mission['patients']['rth'] + '%';
-                                }
-                                if (mission['patients']['tragehilfe']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.tragehilfe') + ': ' + mission['patients']['tragehilfe'] + '%';
-                                }
-                                if ($(".mission_patient").length >= 5) {
-                                    aaoText += '<br>1x ' + I18n.t('lssm.missionHelper.vehicles.lna') + ' (100%)';
-                                }
-                                if ($(".mission_patient").length >= 10) {
-                                    aaoText += '<br>1x ' + I18n.t('lssm.missionHelper.vehicles.orgl') + ' (100%)';
-                                }
+
+                                mission.patients.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.patients.nef}%`);
+                                mission.patients.mmtarts && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.mmtarts')}: ${mission.patients.mmtarts}%`);
+                                mission.patients.rth && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.rth')}: ${mission.patients.rth}%`);
+                                mission.patients.tragehilfe && (aaoText += `<br>${I18n.t('lssm.missionHelper.tragehilfe')}: ${mission.patients.tragehilfe}%`);
+
+                                patients >= 5 && (aaoText += `<br>1x ${I18n.t('lssm.missionHelper.vehicles.lna')} (100%)`);
+                                patients >= 10 && (aaoText += `<br>1x ${I18n.t('lssm.missionHelper.vehicles.lna')} (100%)`);
                                 aaoText += '<br>';
                             }
                             // Add prisoners
-                            if (mission['prisoners']) {
-                                if (mission['prisoners']['min'] != mission['prisoners']['max']) {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.prisoners') + ': ' + (mission['prisoners']['min']||0) + ' ' + I18n.t('lssm.missionHelper.to') + ' ' + mission['prisoners']['max'];
-                                } else {
-                                    aaoText += '<br>' + I18n.t('lssm.missionHelper.prisoners') + ': ' + mission['prisoners']['max'];
-                                }
+                            if (mission.prisoners) {
+                                aaoText += `<br>${I18n.t('lssm.missionHelper.prisoners')}: ${(mission.prisoners.min !== mission.prisoners.max) && (`${mission.prisoners.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.prisoners.max}`;
                             }
                             // Add minuimum needed averageMinimumEmployees
-                            if (mission['special'] && mission['special']['averageMinimumEmployeesFire']) {
-                                aaoText += '<br>' + I18n.t('lssm.missionHelper.averageMinimumEmployeesFire') + ': ' + mission['special']['averageMinimumEmployeesFire'] + '<br>';
-                            }
-                            if (mission['special'] && mission['special']['averageMinimumEmployeesPolice']) {
-                                aaoText += '<br>' + I18n.t('lssm.missionHelper.averageMinimumEmployeesPolice') + ': ' + mission['special']['averageMinimumEmployeesPolice'] + '<br>';
-                            }
+                            mission.special && mission.special.averageMinimumEmployeesFire && (aaoText += `<br>${I18n.t('lssm.missionHelper.averageMinimumEmployeesFire')}: ${mission.special.averageMinimumEmployeesFire}<br>`);
+                            mission.special && mission.special.averageMinimumEmployeesPolice && (aaoText += `<br>${I18n.t('lssm.missionHelper.averageMinimumEmployeesPolice')}: ${mission.special.averageMinimumEmployeesPolice}<br>`);
+                            mission.special && mission.special.SWATPersonnel && (aaoText += `<br>${I18n.t('lssm.missionHelper.SWATPersonnel')}: ${mission.special.SWATPersonnel}<br>`);
+
                             // Add Credits
-                            if (mission["credits"]) {
-                                aaoText += '<br><span class="badge badge-secondary"> ~ ' + parseInt(mission['credits']).toLocaleString() + ' Credits</span>';
-                            }
-                            if (mission['expansions']) {
+                            mission.credits && (aaoText += `<br><span class="badge badge-secondary"> ~ ${parseInt(mission.credits).toLocaleString()} Credits</span>`);
+                            if (mission.expansions) {
                                 aaoText += '<br>';
-                                $.each(mission['expansions'], function () {
+                                $.each(mission.expansions, function () {
                                     aaoText += `<a href="../einsaetze/${this}"><span class="badge">${missions[this] ? missions[this].name : this}</span></a>`;
                                 });
                             }
                         }
-                    } else {
-                        // Ambulance-only Missions
-                        if (mission['transport'] || mission['specialisation']) {
-                            aaoText += '<br>' + I18n.t('lssm.missionHelper.transport') + ': ';
-                            if (mission['transport']) {
-                                aaoText += mission['transport'] + '%';
-                            }
-                            if (mission['specialisation']) {
-                                aaoText += ' (' + mission['specialisation'] + ')';
-                            }
-                        }
-                        if (mission['nef']) {
-                            aaoText += '<br>' + I18n.t('lssm.missionHelper.vehicles.nef') + ': ' + mission['nef'] + '%';
-                        }
-                        if (mission['rth']) {
-                            aaoText += '<br>' + I18n.t('lssm.missionHelper.vehicles.rth') + ': ' + mission['rth'] + '%';
-                        }
-                        if (mission['tragehilfe']) {
-                            aaoText += '<br>' + I18n.t('lssm.missionHelper.tragehilfe') + ': ' + mission['tragehilfe'] + '%';
-                        }
-                        aaoText += '<br>';
                     }
                 } else {
                     aaoText += `${I18n.t('lssm.missionHelper.missionNotDefined')}<sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>`;
@@ -438,21 +399,25 @@
 
     localStorage["lssm_missionHelper_state"] === "unpin" ? unpin(markup) : pin(markup);
 
+    $('#missionHelper').css("transition", "100ms linear");
+
     $('#pinMissionHelper').css("cursor", "pointer");
 
     $('.alert-missing-vehicles')
         .mouseover(function() {
-            $('#missionHelper').css("opacity", "0.1");
+            localStorage["lssm_missionHelper_state"] === "unpin" && $('#missionHelper').css("opacity", "0.1");
         })
-        .mouseleave(function() {
-            $('#missionHelper').css("opacity", "1");
+        .mouseout(function() {
+            localStorage["lssm_missionHelper_state"] === "unpin" && $('#missionHelper').css("opacity", "1");
         });
+
 })($, window, I18n);
 
 function pin(markup) {
     $('#mission-form').prepend(markup||$('#missionHelper'));
     $('#missionHelper .handle').css("display", "none");
-    $('#missionHelper').css("position", "unset");
+    $('#missionHelper').css("position", "unset")
+        .css("max-width", "unset");
     $('#pinMissionHelper').attr("onclick", "unpin(null)");
     localStorage["lssm_missionHelper_state"] = "pin";
 }
