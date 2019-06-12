@@ -345,7 +345,7 @@
                             });
                             // Add patients
                             if (mission.patients) {
-                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.patients.max}`;
+                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.patients.max}<br>`;
 
                                 if (mission.patients.transport || mission.patients.specialisation) {
                                     aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${void 0 !== typeof mission.patients.transport && `${mission.patients.transport}%`}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
@@ -362,7 +362,7 @@
                             }
                             // Add prisoners
                             if (mission.prisoners) {
-                                aaoText += `<br>${I18n.t('lssm.missionHelper.prisoners')}: ${(mission.prisoners.min !== mission.prisoners.max) && (`${mission.prisoners.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.prisoners.max}`;
+                                aaoText += `<br>${I18n.t('lssm.missionHelper.prisoners')}: ${(mission.prisoners.min !== mission.prisoners.max) && (`${mission.prisoners.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.prisoners.max}<br>`;
                             }
                             // Add minuimum needed averageMinimumEmployees
                             mission.special && mission.special.averageMinimumEmployeesFire && (aaoText += `<br>${I18n.t('lssm.missionHelper.averageMinimumEmployeesFire')}: ${mission.special.averageMinimumEmployeesFire}<br>`);
