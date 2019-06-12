@@ -572,21 +572,6 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    aaosearch: {
-        name: {
-            de: 'AAO-Suche',
-            en: 'AAO-Search',
-            nl: 'AUR-zoekfuncties'
-        },
-        active: false,
-        description: {
-            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
-            nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
-        },
-        source: '/modules/lss-aao-search/aao-search.user.js',
-        inframe: true,
-        develop: false
-    },
     recolor: {
         name: {
             de: 'Einfärben',
@@ -887,6 +872,22 @@ lssm.Module = {
         },
         source: "/modules/lss-extendedBuilding/extendedBuilding.js",
         inframe: true,
+    },
+    statusCount: {
+        name: {
+            de: "Status-Zähler",
+            en: "Status Counter",
+            nl: "Statusteller"
+        },
+        active: false,
+        description: {
+            de: "Gibt die Zahl der einzelnen Status aus.",
+            en: "Displays the number of individual statuses.",
+            nl: "Geeft het aantal van ten individuele statussen."
+        },
+        source: "/modules/lss-statuscount/statuscount.js",
+        inframe: false,
+        needVehicles: true
     }
 };
 
@@ -1468,7 +1469,7 @@ lssm.modal = {
                     setInterval(function () {
                         lssm.get_buildings(true, overwriteLoadVehicles);
                         lssm.get_vehicles(true, overwriteLoadBuildings);
-                    }, 120000);
+                    }, 300000);
                     // Let's load all the modules
                     lssm.modules.loadall();
                     // Oh, we also need a appstore
