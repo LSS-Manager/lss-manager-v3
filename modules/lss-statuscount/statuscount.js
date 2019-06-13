@@ -199,9 +199,10 @@
     let syncable = true;
 
     lssm.updateStatusCount(false);
-    
+
     $("#radio_panel_heading")
         .append("<span id='statusCount'></span>")
+        .click(() => {syncable = true})
         .click(sync)
         .click(update);
 
