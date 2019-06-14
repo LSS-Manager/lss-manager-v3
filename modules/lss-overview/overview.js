@@ -865,7 +865,7 @@
                 max: 4,
                 credits: 10000,
                 coins: 25,
-                schooling: 'SEK'
+                schooling: 'MEK'
             },
             mekmtf: {
                 name: 'MEK-MTF',
