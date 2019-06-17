@@ -6,30 +6,6 @@
         "id": SETTINGS,
         "title": 'Tailored Tabs',
         "settings": {
-            "bpol": {
-                "default": false,
-                "ui": {
-                    "label": 'Bereitschaftspolizei',
-                    "type": "toggle",
-                    "description": 'Bereitschaftspolizei in eigenem Tab'
-                }
-            },
-            "polhub": {
-                "default": false,
-                "ui": {
-                    "label": 'Polizeihubschrauber hinzufügen',
-                    "type": "checkbox",
-                    "parent": SETTINGS + "_bpol_toggle",
-                }
-            },
-            "seme": {
-                "default": false,
-                "ui": {
-                    "label": 'SEK/MEK hier hinzufügen',
-                    "type": "checkbox",
-                    "parent": SETTINGS + "_bpol_toggle",
-                }
-            },
             "sekmek": {
                 "default": false,
                 "ui": {
@@ -138,20 +114,6 @@
     let isKtwMode = $('#tabs').text().trim().startsWith('Rettung');
 
     let sections = [];
-    if (getSetting('bpol') && !isKtwMode) {
-        let bpolSection = {
-            name: 'BPol',
-            short: 'bpol',
-            vehicles: [50, 51, 52, 35, 72]
-        };
-        if (getSetting('polhub')) {
-            bpolSection.vehicles.push(61);
-        } 
-        if (getSetting('seme')) {
-            bpolSection.vehicles.push(79,80,81,82);
-        }
-        sections.push(bpolSection);
-    }
     if (getSetting('sekmek') && !isKtwMode) {
         let sekmekSection = {
             name: 'SEK/MEK',
