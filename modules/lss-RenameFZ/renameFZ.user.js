@@ -331,7 +331,8 @@
                 48: 'DB Hondengeleider',
                 49: 'PM-OR',
                 50: 'TS-OR',
-                51: 'HVH'
+                51: 'HVH',
+                52: 'RR'
             }
         }
     };

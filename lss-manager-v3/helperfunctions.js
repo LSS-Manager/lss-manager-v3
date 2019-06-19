@@ -121,7 +121,8 @@ else if (I18n.locale == "nl")
         "48": ["DB Hondengeleider | Dienstbus Hondengeleider", 2],
         "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
         "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
-        "51": ["HVH | HulpverleningsHaakarmbak", 0]
+        "51": ["HVH | HulpverleningsHaakarmbak", 0],
+        "52": ["RR | Rapid Responder", 1]
     };
 }
 else if (I18n.locale == "de")

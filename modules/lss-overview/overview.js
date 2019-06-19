@@ -1912,6 +1912,13 @@
                 schooling: 'Officier van Dienst Geneeskunde',
                 special: 'Kan optreden vanaf de 8e bewaker of extensie'
             },
+            rr: {
+                name: 'Rapid Responder',
+                min: 1,
+                max: 1,
+                credits: 2500,
+                coins: 18
+            },
         },
         pol: {
             fustw: {
