@@ -48,7 +48,8 @@ if(I18n.locale == "en")
         "25": ["Large Rescue Boat", 1],
         "26": ["SWAT SUV", 2],
         "27": ["BLS Ambulance", 1],
-        "28": ["EMS Rescue", 1]
+        "28": ["EMS Rescue", 1],
+        "29": ["EMS Chief", 1]
     };
 }
 else if (I18n.locale == "nl")

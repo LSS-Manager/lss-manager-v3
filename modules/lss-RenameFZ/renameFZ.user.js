@@ -228,7 +228,8 @@
                 25: 'Large Rescue Boat',
                 26: 'SWAT SUV',
                 27: 'BLS Ambulance',
-                28: 'EMS Rescue'
+                28: 'EMS Rescue',
+                29: 'EMS Chief'
             }
         }
     };

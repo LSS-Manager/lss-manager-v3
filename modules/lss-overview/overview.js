@@ -1410,6 +1410,14 @@
                 schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
+            emschief: {
+                name: 'EMS Chief',
+                min: 1,
+                max: 2,
+                credits: 10000,
+                coins: 20,
+                special: 'Required once you have built 10 Rescue stations'
+            },
         },
         heli: {
             hems: {
