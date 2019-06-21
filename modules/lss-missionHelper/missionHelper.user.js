@@ -699,7 +699,8 @@
 				459: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>2x Funkstreifenwagen<br>min. 1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)' +
 				'<br><br><span class="label label-primary">Wasserbedarf: 4000 L</span><span class="badge">Credits: ~ 2000 </span>',
 				460: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Höhenrettung (30%)<br>1x Drehleiter (40%)<br>1x Rettungswagen<br>' +
-				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1000 </span>'
+				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1000 </span>',
+				461: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)'
 			}
 		}
 
@@ -1032,7 +1033,10 @@
 				266: '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Water Tanker (30%)<br><br><span class="badge">Credits: ~ 3500 </span>',
 				267: '1x Firetruck<br>1x Heavy Rescue<br>1x Ambulance<br><br><span class="badge">Credits: ~ 800 </span>',
 				268: '2x Firetrucks<br>2x Heavy Rescue<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1100 </span>',
-				269: '1x Ambulance'
+				269: '1x Ambulance',
+				270: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>',
+				271: '8x Firetrucks<br>2x Battalion Chief<br>1x Platform truck<br>2x Heavy Rescue<br>1x Mobile Air<br>1x HazMat<br>1x Water Tanker (5%)<br>' +
+				'2x Police Cars<br>min. 1x Ambulance / max. 6<br><br><span class="badge">Credits: ~ 6000 </span>'
 			}
 		}
 
@@ -1682,7 +1686,10 @@
 				446: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Adembeschermingsvoertuig (10%)<br>' +
 				'2x Noodhulpeenheden<br>1x OvD-P<br>min. 4x Ambulances / max. 8<br><br><span class="badge">Credits: ~ 2600 </span>',
 				447: '4x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Adembeschermingsvoertuig (40%)<br>' +
-				'3x Noodhulpeenheden<br>1x OvD-P<br>min. 6x Ambulances / max. 10<br><br><span class="badge">Credits: ~ 4900 </span>'
+				'3x Noodhulpeenheden<br>1x OvD-P<br>min. 6x Ambulances / max. 10<br><br><span class="badge">Credits: ~ 4900 </span>',
+				448: '1x Ambulance',
+				449: '1x Ambulance',
+				450: '1x Ambulance'
 			}
 		}
 	}

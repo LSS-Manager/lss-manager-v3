@@ -482,7 +482,8 @@
         457: 'Brennender Bollerwagen',
         458: 'Schwerlastkontrolle',
         459: 'Brennende Baumaschine',
-        460: 'Person in Schacht'
+        460: 'Person in Schacht',
+        461: 'Dehydrierte Person'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -770,7 +771,9 @@
         266: 'Landfill fire',
         267: 'Arm caught in industrial machine',
         268: 'Person trapped under machine',
-        269: 'Transient Ischemic Attack'
+        269: 'Transient Ischemic Attack',
+        270: 'Vehicle fire in parking garage',
+        271: 'Large parking garage fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1236,7 +1239,10 @@
         444: 'Brand in hotel',
         445: 'Brand in hotel',
         446: 'Brand in hotel',
-        447: 'Brand in hotel'
+        447: 'Brand in hotel',
+        448: 'Suikertekort',
+        449: 'Val van skateboard',
+        450: 'Open botbreuk'
       }
     };
 
@@ -1720,7 +1726,8 @@
       457: 'B 0.5',
       458: 'VERKEHRSSICHERUNG',
       459: 'B 2',
-      460: 'THL 1'
+      460: 'THL 1',
+      461: 'RD 0.5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1992,7 +1999,9 @@
       266: 'FIRE 3',
       267: 'TECH 1',
       268: 'TECH 1',
-      269: 'MED 1'
+      269: 'MED 1',
+      270: 'FIRE 1',
+      271: 'FIRE 4'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2442,7 +2451,10 @@
       444: 'MIDDEL BRAND',
       445: 'GROTE BRAND',
       446: 'GROTE BRAND',
-      447: 'ZEER GROTE BRAND'
+      447: 'ZEER GROTE BRAND',
+      448: 'A 1',
+      449: 'A 1',
+      450: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
