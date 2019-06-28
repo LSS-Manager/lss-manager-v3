@@ -700,7 +700,10 @@
 				'<br><br><span class="label label-primary">Wasserbedarf: 4000 L</span><span class="badge">Credits: ~ 2000 </span>',
 				460: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Höhenrettung (30%)<br>1x Drehleiter (40%)<br>1x Rettungswagen<br>' +
 				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1000 </span>',
-				461: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)'
+				461: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)',
+				462: '18x Löschfahrzeuge<br>6x Drehleiter<br>2x GW-Atemschutz<br>3x GW-Messtechnik<br>2x GW-Gefahrgut<br>5x Einsatzleitwagen 1<br>4x Einsatzleitwagen 2' +
+				'<br>2x Schlauchwagen<br>1x Feuerwehrkran<br>4x Rüstwagen<br>1x GW-Höhenrettung (10%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
+				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>'
 			}
 		}
 
@@ -1036,7 +1039,8 @@
 				269: '1x Ambulance',
 				270: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>',
 				271: '8x Firetrucks<br>2x Battalion Chief<br>1x Platform truck<br>2x Heavy Rescue<br>1x Mobile Air<br>1x HazMat<br>1x Water Tanker (5%)<br>' +
-				'2x Police Cars<br>min. 1x Ambulance / max. 6<br><br><span class="badge">Credits: ~ 6000 </span>'
+				'2x Police Cars<br>min. 1x Ambulance / max. 6<br><br><span class="badge">Credits: ~ 6000 </span>',
+				272: '4x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br><br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
@@ -1689,7 +1693,12 @@
 				'3x Noodhulpeenheden<br>1x OvD-P<br>min. 6x Ambulances / max. 10<br><br><span class="badge">Credits: ~ 4900 </span>',
 				448: '1x Ambulance',
 				449: '1x Ambulance',
-				450: '1x Ambulance'
+				450: '1x Ambulance',
+				451: '1x Tankautospuit<br>1x Waterongevallenaanhanger (10%)<br><br><span class="badge">Credits: ~ 400 </span>',
+				452: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (20%)<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 350 </span>',
+				453: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>',
+				454: '1x Tankautospuit<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 320 </span>',
+				455: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 	}
