@@ -40,10 +40,7 @@
 
     let vehicleClasses = {
         '1000': {'name': '[' + I18n.t('lssm.heatmap.lf') + ']', 'vehicleTypeIds': [0, 1, 6, 7, 8, 9, 30, 37]},
-        '1001': {
-            'name': '[' + I18n.t('lssm.heatmap.tlf') + ']',
-            'vehicleTypeIds': [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
-        },
+        '1001': {'name': '[' + I18n.t('lssm.heatmap.tlf') + ']', 'vehicleTypeIds': [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]},
         '1002': {'name': '[' + I18n.t('lssm.heatmap.schlauchwg') + ']', 'vehicleTypeIds': [11, 13, 14, 15, 16]},
         '1003': {'name': '[' + I18n.t('lssm.heatmap.ruest') + ']', 'vehicleTypeIds': [4, 30, 47]},
         '1004': {'name': '[' + I18n.t('lssm.heatmap.oel') + ']', 'vehicleTypeIds': [10, 49]},
@@ -205,7 +202,7 @@
                     tmpVehicle.long = building.longitude;
                     tmpVehicle.lat = building.latitude
                     vehicles.push(tmpVehicle);
-                    if (availableVehicleTypes.indexOf(tmpVehicle.vehicle_type) === -1) availableVehicleTypes.push(tmpVehicle.vehicle_type);
+                    if (availableVehicleTypes.indexOf(tmpVehicle.type) === -1) availableVehicleTypes.push(tmpVehicle.type);
 
                     break;
                 }
@@ -234,8 +231,8 @@
             for(let vehicle of vehicles){
                 let vehicleClass = vehicleClasses[getSetting('heatmap-vehicle')];
                 // Add to entries if exact match or if vehicle is in vehicle class
-                if (vehicle.vehicle_type === getSetting('heatmap-vehicle')
-                    || (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.vehicle_type) !== -1)) {
+                if (vehicle.type === getSetting('heatmap-vehicle')
+                    || (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.type) !== -1)) {
                     entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
                 }
             };
