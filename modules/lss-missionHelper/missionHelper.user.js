@@ -166,7 +166,7 @@
 				'<span class="badge">Credits: ~ 2000 </span>',
 				127: '2x Löschfahrzeuge<br>1x Rüstwagen<br>2x Funkstreifenwagen<br>min. 2x Rettungswagen<br>' +
 				'1x Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2200 </span>',
-				128: '1x Funkstreifenwagen<br>1x Löschfahrzeug (10%)<br><br><span class="badge">Credits: ~ 700 </span>',
+				128: '1x Funkstreifenwagen<br>1x Löschfahrzeug (10%)<br>1x Rettungswagen<br><br><span class="badge">Credits: ~ 700 </span>',
 				129: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 800 </span>',
 				130: '2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 600 </span>',
 				131: '1x Löschfahrzeug<br>1x Schlauchwagen (20%)<br> 1x Einsatzleitwagen 1 (50%)<br><br><span class="label label-primary">Wasserbedarf: 8.000 L</span>' +
@@ -683,12 +683,27 @@
 				447: '3x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Drehleiter<br>1x Feuerwehrkran (40%)<br>2x Funkstreifenwagen<br>' +
 				'1x Gerätekraftwagen<br>1x MzKW<br>1x MTW-TZ<br>max. 5 Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 3000 </span>',
 				448: '1x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 100 </span>',
-				449: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
+				449: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
 				'max. 4x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2100 </span>',
-				450: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
+				450: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (10%)<br>1x Drehleiter (50%)<br>2x Funkstreifenwagen<br>' +
 				'max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2200 </span>',
-				451: '2x Löschfahrzeuge<br1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (5%)<br>1x Drehleiter (30%)<br>2x Funkstreifenwagen<br>' +
-				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>'
+				451: '2x Löschfahrzeuge<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x Feuerwehrkran (5%)<br>1x Drehleiter (30%)<br>2x Funkstreifenwagen<br>' +
+				'max. 3x Rettungswagen<br>Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 2000 </span>',
+				452: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				453: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				454: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				455: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				456: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				457: '1x Löschfahrzeug<br><br><span class="badge">Credits: ~ 500 </span>',
+				458: '<h4>VERKEHRSSICHERUNG</h4>3x GruKw<br>1x leBefKw<br>3x Funkstreifenwagen',
+				459: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>2x Funkstreifenwagen<br>min. 1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)' +
+				'<br><br><span class="label label-primary">Wasserbedarf: 4000 L</span><span class="badge">Credits: ~ 2000 </span>',
+				460: '1x Löschfahrzeug<br>1x Rüstwagen<br>1x Einsatzleitwagen 1<br>1x GW-Höhenrettung (30%)<br>1x Drehleiter (40%)<br>1x Rettungswagen<br>' +
+				'Notarzteinsatzfahrzeug (50%)<br><br><span class="badge">Credits: ~ 1000 </span>',
+				461: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)',
+				462: '18x Löschfahrzeuge<br>6x Drehleiter<br>2x GW-Atemschutz<br>3x GW-Messtechnik<br>2x GW-Gefahrgut<br>5x Einsatzleitwagen 1<br>4x Einsatzleitwagen 2' +
+				'<br>2x Schlauchwagen<br>1x Feuerwehrkran<br>4x Rüstwagen<br>1x GW-Höhenrettung (10%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
+				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>'
 			}
 		}
 
@@ -1016,7 +1031,16 @@
 				261: '4x Police Cars<br><br><span class="badge">Credits: ~ 1000 </span>',
 				262: '1x Firetruck<br>1x Platform Truck (50%)<br><br><span class="badge">Credits: ~ 450 </span>',
 				263: '1x Firetruck<br>1x Platform Truck (50%)<br><br><span class="badge">Credits: ~ 450 </span>',
-				264: '1x Firetruck<br>1x Platform Truck (50%)<br><br><span class="badge">Credits: ~ 450 </span>'
+				264: '1x Firetruck<br>1x Platform Truck (50%)<br><br><span class="badge">Credits: ~ 450 </span>',
+				265: '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Mobile Air<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
+				266: '5x Firetrucks<br>1x Battalion Chief<br>1x Platform Truck<br>1x Water Tanker (30%)<br><br><span class="badge">Credits: ~ 3500 </span>',
+				267: '1x Firetruck<br>1x Heavy Rescue<br>1x Ambulance<br><br><span class="badge">Credits: ~ 800 </span>',
+				268: '2x Firetrucks<br>2x Heavy Rescue<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1100 </span>',
+				269: '1x Ambulance',
+				270: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>',
+				271: '8x Firetrucks<br>2x Battalion Chief<br>1x Platform truck<br>2x Heavy Rescue<br>1x Mobile Air<br>1x HazMat<br>1x Water Tanker (5%)<br>' +
+				'2x Police Cars<br>min. 1x Ambulance / max. 6<br><br><span class="badge">Credits: ~ 6000 </span>',
+				272: '4x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br><br><span class="badge">Credits: ~ 1000 </span>'
 			}
 		}
 
@@ -1653,7 +1677,28 @@
 				438: '1x Tankautospuit<br>1x OvD-B<br>1x Waterongevallenvoertuig<br>1x Waterongevallenaanhanger (60%)<br>1x Redvoertuig (10%)<br>1x Noodhulpeenheid<br>' +
 				'1x Ambulance<br><br><span class="badge">Credits: ~ 850 </span>',
 				439: '1x Tankautospuit<br>1x OvD-B<br>2x Waterongevallenvoertuig<br>1x Waterongevallenaanhanger<br>1x Redvoertuig (20%)<br>' +
-				'1x Hulpverleningsvoertuig (10%)<br>1x Noodhulpeenheid<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1100 </span>'
+				'1x Hulpverleningsvoertuig (10%)<br>1x Noodhulpeenheid<br>1x Ambulance<br><br><span class="badge">Credits: ~ 1100 </span>',
+				440: '1x Tankautospuit<br>1x Redvoertuig (30%)<br>1x OvD-B (20%)<br>3x Noodhulpeenheden<br>1x Ambulance<br><br><span class="badge">Credits: ~ 950 </span>',
+				441: '2x Tankautospuiten<br>1x Redvoertuig (60%)<br>1x OvD-B<br>1x HOvD (10%)<br>4x Noodhulpeenheden<br>min. 1x Ambulance<br><br><span class="badge">' +
+				'Credits: ~ 1950 </span>',
+				442: '2x Tankautospuiten<br>1x Redvoertuig (60%)<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>4x Noodhulpeenheden<br>1x OvD-P<br>min. 1x Ambulance<br>' +
+				'<br><span class="badge">Credits: ~ 2300 </span>',
+				443: '1x Tankautospuit<br>1x Redvoertuig (20%)<br><br><span class="badge">Credits: ~ 750 </span>',
+				444: '2x Tankautospuiten<br>1x Redvoertuig (40%)<br>1x OvD-B<br><br><span class="badge">Credits: ~ 1550 </span>',
+				445: '3x Tankautospuiten<br>1x Redvoertuig (80%)<br>1x OvD-B<br>1x Adembeschermingsvoertuig (10%)<br>1x HOvD (50%)<br>2x Noodhulpeenheden<br>' +
+				'min. 2x Ambulances / max. 6<br><br><span class="badge">Credits: ~ 2500 </span>',
+				446: '3x Tankautospuiten<br>1x Redvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Adembeschermingsvoertuig (10%)<br>' +
+				'2x Noodhulpeenheden<br>1x OvD-P<br>min. 4x Ambulances / max. 8<br><br><span class="badge">Credits: ~ 2600 </span>',
+				447: '4x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Adembeschermingsvoertuig (40%)<br>' +
+				'3x Noodhulpeenheden<br>1x OvD-P<br>min. 6x Ambulances / max. 10<br><br><span class="badge">Credits: ~ 4900 </span>',
+				448: '1x Ambulance',
+				449: '1x Ambulance',
+				450: '1x Ambulance',
+				451: '1x Tankautospuit<br>1x Waterongevallenaanhanger (10%)<br><br><span class="badge">Credits: ~ 400 </span>',
+				452: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (20%)<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 350 </span>',
+				453: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>',
+				454: '1x Tankautospuit<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 320 </span>',
+				455: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>'
 			}
 		}
 	}

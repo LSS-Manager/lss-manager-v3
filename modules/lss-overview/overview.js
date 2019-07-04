@@ -865,7 +865,7 @@
                 max: 4,
                 credits: 10000,
                 coins: 25,
-                schooling: 'SEK'
+                schooling: 'MEK'
             },
             mekmtf: {
                 name: 'MEK-MTF',
@@ -1410,6 +1410,14 @@
                 schooling: 'Ocean Navigation',
                 special: 'Required from x fire stations'
             },
+            emschief: {
+                name: 'EMS Chief',
+                min: 1,
+                max: 2,
+                credits: 10000,
+                coins: 20,
+                special: 'Required once you have built 10 Rescue stations'
+            },
         },
         heli: {
             hems: {
@@ -1903,6 +1911,13 @@
                 coins: 25,
                 schooling: 'Officier van Dienst Geneeskunde',
                 special: 'Kan optreden vanaf de 8e bewaker of extensie'
+            },
+            rr: {
+                name: 'Rapid Responder',
+                min: 1,
+                max: 1,
+                credits: 2500,
+                coins: 18
             },
         },
         pol: {

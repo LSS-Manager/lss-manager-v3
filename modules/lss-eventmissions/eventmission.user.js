@@ -39,6 +39,7 @@
 	text = text.replace('Sonnenstich', '[SOMMER] Sonnenstich');
 	text = text.replace('Hitzschlag', '[SOMMER] Hitzschlag');
 	text = text.replace('Hitzekrampf', '[SOMMER] Hitzekrampf');
+	text = text.replace('Dehydrierte Person', '[SOMMER] Dehydrierte Person');
 	//Halloween Missions
 	text = text.replace('Brennende Vogelscheuche', '[HALLOWEEN] Brennende Vogelscheuche');
 	text = text.replace('Brennendes Kürbisfeld', '[HALLOWEEN] Brennendes Kürbisfeld');

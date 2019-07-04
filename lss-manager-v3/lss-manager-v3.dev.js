@@ -572,7 +572,7 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    aaosearch: {
+    AaoSearch: {
         name: {
             de: 'AAO-Suche',
             en: 'AAO-Search',
@@ -603,25 +603,6 @@ lssm.Module = {
         noapp: false, // Nicht im App-Store auflisten
         inframe: true,
         develop: true
-    },
-    heatmap: {
-        name: {
-            de: 'LS-Heatmap',
-            en: 'LS-Heatmap',
-            nl: 'Voertuigspreiding weergeven'
-        },
-        active: false,
-        description: {
-            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
-            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
-            nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
-                'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
-        },
-        source: '/modules/lss-heatmap/LSHeatmap.user.js',
-        noapp: false, // Nicht im App-Store auflisten
-        inframe: false,
-        collisions: ['Layout03', 'WachenplanungOnMap'],
-        nomapkit: true,
     },
     centermap: {
         name: {
@@ -887,6 +868,22 @@ lssm.Module = {
         },
         source: "/modules/lss-extendedBuilding/extendedBuilding.js",
         inframe: true,
+    },
+    statusCount: {
+        name: {
+            de: "Status-Zähler",
+            en: "Status Counter",
+            nl: "Statusteller"
+        },
+        active: false,
+        description: {
+            de: "Gibt die Zahl der einzelnen Status aus.",
+            en: "Displays the number of individual statuses.",
+            nl: "Geeft het aantal van ten individuele statussen."
+        },
+        source: "/modules/lss-statuscount/statuscount.js",
+        inframe: false,
+        needVehicles: true
     }
 };
 
@@ -1468,7 +1465,7 @@ lssm.modal = {
                     setInterval(function () {
                         lssm.get_buildings(true, overwriteLoadVehicles);
                         lssm.get_vehicles(true, overwriteLoadBuildings);
-                    }, 120000);
+                    }, 300000);
                     // Let's load all the modules
                     lssm.modules.loadall();
                     // Oh, we also need a appstore

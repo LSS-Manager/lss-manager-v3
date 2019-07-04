@@ -4,7 +4,6 @@
 
     I18n.translations.de.lssm.renameFz = {
         name: 'Fahrzeuge Umbenennen',
-        example: "Dies ist ein Beipsiel",
         rename: "Umbenennen",
         id: "{id} FahrzeugId ",
         old: "{old} Alten Namen ein",
@@ -17,7 +16,6 @@
         dispatchAlias: '{dispatchAlias} Leitstellen-Alias',
         stationAlias: '{stationAlias} Wachen-Alias',
         saveAll: 'Alle speichern',
-        exampleResult: 'ergibt: FZId Test ALTERNAME FAHRZEUGTYPE WACHE',
         statusWaiting: 'Warte auf Eingabe',
         statusError: '<b>Fehler bei der Generierung!</b> Sollte dieser Fehler ein weiteres mal auftreten, bitte melde ihn. Bitte teile dann folgendes mit:',
         statusWorking: 'Generiere Namen und Formulare. Dies kann, abhängig von System und Anzahl der Fahrzeuge, eine gewisse Zeit in Anspruch nehmen.',
@@ -32,6 +30,7 @@
         startNumHelp: 'Hier kann man einen Startwert für den Typzähler angeben. Setzt man da 0 und legt den Hebel nebendran um, so werden Fahrzeuge, die nur einen Typ auf der Wache haben keine durchnummerierung bekommen, sollten sich aber mehrere Fahrzeuge eines Typs auf der Wache befinden, wird der Typ, bei 1 beginnend, durchnummeriert. Man kann dann aber auch den Zähler bei 5 starten lassen (warum auch immer man das wollen sollte, aber es ist möglich ;) )',
         helpTitle: 'Eine kleine Anleitung findest du unter diesem Link: ',
         helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        toggleNameCorrect: 'Fahrzeuge mit richtigem Namen ein-/ausblenden',
         settings: {
             show: 'Ein-/Ausblenden',
             names: {
@@ -154,7 +153,6 @@
 
     I18n.translations.en.lssm.renameFz = {
         name: 'Rename vehicles',
-        example: "This is an example",
         rename: "rename",
         id: "{id} Id of Vehicle",
         old: "{old} Current name",
@@ -166,7 +164,6 @@
         dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter',
         stationAlias: '{stationAlias} Building-Alias',
         saveAll: 'save All',
-        exampleResult: 'results: ID Test OLDNAME VEHICLETYPE BUILDING',
         statusWaiting: 'Wait for input',
         statusError: '<b>Error during generation!</b> If this error occurs again, please report it. Please provide the following information:',
         statusWorking: 'Generate names and forms. This can take a certain amount of time, depending on the system and number of vehicles.',
@@ -179,6 +176,7 @@
         helpTitle: 'You can find a small instruction under this link: ',
         startNum: 'Counter start',
         startNumHelp: 'Here you can enter a start value for the type counter. If you set 0 as the start value, the first vehicle of a type will not get the numbering, this is very practical if you have only one vehicle of a type on a guard and do not want to number it. But you can also start the counter at 5 (for whatever reason you want, but it is possible ;) )',
+        toggleNameCorrect: 'Show/Hide Vehicles with correct names',
         settings: {
             show: 'Show/Hide',
             names: {
@@ -230,14 +228,14 @@
                 25: 'Large Rescue Boat',
                 26: 'SWAT SUV',
                 27: 'BLS Ambulance',
-                28: 'EMS Rescue'
+                28: 'EMS Rescue',
+                29: 'EMS Chief'
             }
         }
     };
 
     I18n.translations.nl.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
-        example: "Dit is een voorbeeld",
         rename: "Naam aanpassen",
         id: "{id} Voertuignaam ",
         old: "{old} Oude naam",
@@ -249,7 +247,6 @@
         dispatchAlias: '{dispatchAlias} Alias de meldkamer',
         stationAlias: '{stationAlias} Gebouw-Alias',
         saveAll: ' Alles opslaan',
-        exampleResult: 'verknocht: ID Test OUDENAAM VOERTUIGTYPE GEBOUWNAAM',
         statusWaiting: 'Wachten op invoer',
         statusError: '<b>Error tijdens generatie!</b> Als deze fout zich opnieuw voordoet, gelieve dit te melden. Gelieve de volgende informatie te verstrekken:',
         statusWorking: 'Genereer namen en vormen. Afhankelijk van het systeem en het aantal voertuigen kan dit enige tijd in beslag nemen.',
@@ -262,6 +259,7 @@
         helpTitle: 'Een kleine instructie vindt u onder deze link: ',
         startNum: 'Begin van de balie',
         startNumHelp: 'Hier kunt u een startwaarde voor de typeteller invoeren. Als je 0 als startwaarde instelt, krijgt het eerste voertuig van een type niet de nummering, dit is erg praktisch, als je maar één voertuig van een type op een horloge hebt, en je wilt het niet nummeren. Maar je kunt ook beginnen met de teller op 5 (om wat voor reden dan ook, maar het is mogelijk ;) )',
+        toggleNameCorrect: 'Toon/verberg voertuigen met overeenkomstige naam',
         settings: {
             show: 'Verberg/Toon',
             names: {
@@ -333,7 +331,8 @@
                 48: 'DB Hondengeleider',
                 49: 'PM-OR',
                 50: 'TS-OR',
-                51: 'HVH'
+                51: 'HVH',
+                52: 'RR'
             }
         }
     };
@@ -438,7 +437,6 @@
         },
         vehicles: {},
         str: {
-            bsp: "{id} Test {old} {vehicleType} {stationName} {tagging} {stationAlias}-{numberRoman}",
             default: "{old}",
             str: ''
         }
@@ -482,7 +480,7 @@
         try {
             let vehicle = lssm.vehicles[vehicleID];
             let typeAtStation = vehiclesTypesByBuilding[vehicle.building][vehicle.type];
-            let startNum = parseInt($('#' + prefix + '_startNum').val());
+            let startNum = parseInt($(`#${prefix}_startNum`).val());
             return typeAtStation.indexOf(vehicleID) + startNum + ((startNum === 0 && $('#lssm-inline-counterOverride').prop("checked") && typeAtStation.length > 1) ? 1 : 0);
         } catch (err) {
             printError(err)
@@ -491,7 +489,12 @@
 
     function rename() {
         try {
-            let vehicles = $('#vehicle_table tbody tr');
+            localStorage[`${prefix}_input`] = JSON.stringify({
+                str: set.str.str,
+                counter: $(`#${prefix}_startNum`).val(),
+                counterOverride: $('#lssm-inline-counterOverride').prop("checked")
+            });
+            let vehicles = $('#vehicle_table tbody tr:visible');
             let vehiclesNum = vehicles.length;
             let status = $(`#${prefix}_status`);
             status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (0/${vehiclesNum})`);
@@ -554,7 +557,7 @@
                     set.vehicles[vehicleID].vehicleType = lssm.carsById[vehicle.type][0];
                 }
                 if (needTagging) {
-                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`];
+                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`]||set.vehicles[vehicleID].vehicleType;
                 }
                 if (needStationAlias) {
                     set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
@@ -648,9 +651,6 @@
         $('#vehicle_table').parent().prepend(`\
 <a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"]||"open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
 <div id="${prefix}">
-    ${I18n.t('lssm.renameFz.example')}<br>
-    ${set.str.bsp}<br>
-    ${I18n.t('lssm.renameFz.exampleResult')}
     <p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p>
     <div id="${prefix}_buttons"></div>
     <div>
@@ -681,6 +681,7 @@
         </table>
     </div>
     <input type="button" class="btn btn-success" id="${prefix}_saveAll" value="${I18n.t('lssm.renameFz.saveAll')}"/>
+    <input type="button" class="btn btn-primary" id="${prefix}_toggle_name_correct" mode="hide" value="${I18n.t('lssm.renameFz.toggleNameCorrect')}"/>
 </div>`);
         $(`#${prefix}`)[(localStorage["lssm_renameFz_visibility"]||"open") === "close" ? "hide" : "show"]();
         let buttons = "";
@@ -731,12 +732,28 @@
             $(`.${prefix}_name_correct`).remove();
         });
 
+        $(`#${prefix}_toggle_name_correct`).click(function() {
+            let rows = $(`.${prefix}_name_correct`).parent().parent().parent();
+            $(this).attr("mode") === "hide" ? (rows.hide() && $(this).attr("mode", "show")) : (rows.show() && $(this).attr("mode", "hide"));
+        });
+
         $('#toggleRename').click(function() {
             let state_new = $(this).attr("state") === "open" ? "close" : "open";
             localStorage["lssm_renameFz_visibility"] = state_new;
             $(`#${prefix}`)[state_new === "close" ? "hide" : "show"]();
             $(this).attr("state", state_new);
         });
+
+        let input_saved = localStorage[`${prefix}_input`];
+
+        if (input_saved) {
+            input_saved = JSON.parse(input_saved);
+            $(`#${prefix}_startNum`).val(input_saved.counter||1);
+            $('#lssm-inline-counterOverride').prop("checked", input_saved.counterOverride||0);
+            $(`#${prefix}_string`)
+                .val(input_saved.str||"")
+                .trigger("change");
+        }
     }
 
 })(I18n, jQuery);

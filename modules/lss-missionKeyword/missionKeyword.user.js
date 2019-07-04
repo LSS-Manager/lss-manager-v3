@@ -473,7 +473,18 @@
         448: 'Ermittlungen nach Unfallflucht',
         449: 'PKW in Supermarkt',
         450: 'PKW un Supermarkt',
-        451: 'PKW in Gebäude'
+        451: 'PKW in Gebäude',
+        452: 'Brennender Bollerwagen',
+        453: 'Brennender Bollerwagen',
+        454: 'Brennender Bollerwagen',
+        455: 'Brennender Bollerwagen',
+        456: 'Brennender Bollerwagen',
+        457: 'Brennender Bollerwagen',
+        458: 'Schwerlastkontrolle',
+        459: 'Brennende Baumaschine',
+        460: 'Person in Schacht',
+        461: 'Dehydrierte Person',
+        462: 'Großfeuer in Lagerhalle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -756,7 +767,15 @@
         261: 'Bar Fight',
         262: 'Damaged Roof',
         263: 'Unsafe Cladding',
-        264: 'Unsafe Scaffolding'
+        264: 'Unsafe Scaffolding',
+        265: 'Sports hall fire',
+        266: 'Landfill fire',
+        267: 'Arm caught in industrial machine',
+        268: 'Person trapped under machine',
+        269: 'Transient Ischemic Attack',
+        270: 'Vehicle fire in parking garage',
+        271: 'Large parking garage fire',
+        272: 'Museum robbery'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1214,7 +1233,23 @@
         436: 'Persoon te water',
         437: 'Persoon te water',
         438: 'Duiker vermist',
-        439: 'Duiker vermist'
+        439: 'Duiker vermist',
+        440: 'Brand in gevangenis',
+        441: 'Brand in gevangenis',
+        442: 'Brand in gevangenis',
+        443: 'Brand in hotel',
+        444: 'Brand in hotel',
+        445: 'Brand in hotel',
+        446: 'Brand in hotel',
+        447: 'Brand in hotel',
+        448: 'Suikertekort',
+        449: 'Val van skateboard',
+        450: 'Open botbreuk',
+        451: 'Zwaan met gebroken poot',
+        452: 'Vogel vast in schoorsteen',
+        453: 'Vissen met zuurstoftekort',
+        454: 'Kat op dak',
+        455: 'Ree vast in hek'
       }
     };
 
@@ -1326,7 +1361,7 @@
       85: 'POL 1',
       86: 'B 4',
       87: 'THL VU FLUGZEUG 1',
-      88: 'B 1',
+      88: 'B 0.5',
       89: 'THL 2',
       90: 'POL 1',
       91: 'THL 1',
@@ -1454,11 +1489,11 @@
       213: 'B EXPLOSION',
       214: 'B 4',
       215: 'ABC 3',
-      216: 'B 1',
-      217: 'B 1',
-      218: 'B 1',
-      219: 'B 1',
-      220: 'B 1',
+      216: 'B 0.5',
+      217: 'B 0.5',
+      218: 'B 0.5',
+      219: 'B 0.5',
+      220: 'B 0.5',
       221: 'THL VU ZUG',
       222: 'THL VU ZUG',
       223: 'SICHERHEITSWACHE',
@@ -1689,7 +1724,18 @@
       448: 'POL 1',
       449: 'THL 1',
       450: 'THL 1',
-      451: 'THL 1'
+      451: 'THL 1',
+      452: 'B 0.5',
+      453: 'B 0.5',
+      454: 'B 0.5',
+      455: 'B 0.5',
+      456: 'B 0.5',
+      457: 'B 0.5',
+      458: 'VERKEHRSSICHERUNG',
+      459: 'B 2',
+      460: 'THL 1',
+      461: 'RD 0.5',
+      462: 'B 6'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -1956,7 +2002,15 @@
       261: 'POL 2',
       262: 'TECH 1',
       263: 'TECH 1',
-      264: 'TECH 1'
+      264: 'TECH 1',
+      265: 'FIRE 3',
+      266: 'FIRE 3',
+      267: 'TECH 1',
+      268: 'TECH 1',
+      269: 'MED 1',
+      270: 'FIRE 1',
+      271: 'FIRE 4',
+      272: 'POL 4'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2398,7 +2452,23 @@
       436: 'GROTE WO',
       437: 'GROTE WO',
       438: 'GROTE WO',
-      439: 'GROTE WO'
+      439: 'GROTE WO',
+      440: 'KLEINE BRAND',
+      441: 'KLEINE BRAND',
+      442: 'MIDDEL BRAND',
+      443: 'KLEINE BRAND',
+      444: 'MIDDEL BRAND',
+      445: 'GROTE BRAND',
+      446: 'GROTE BRAND',
+      447: 'ZEER GROTE BRAND',
+      448: 'A 1',
+      449: 'A 1',
+      450: 'A 1',
+      451: 'HV 1',
+      452: 'HV 1',
+      453: 'HV 1',
+      454: 'HV 1',
+      455: 'HV 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
