@@ -8,8 +8,11 @@
         });
         $(document).bind(lssm.hook.postname("radioMessage"),function(event,t){
             "use strict";
-            if(!t.fms_text.startsWith("[Verband]"))
-                redraw_Labels();
+            if(!t.fms_text.startsWith("[Verband]")) {
+                let vehicle_entry = $(`.lssm_carlist[vehicle_id=${t.id}]`);
+                vehicle_entry.find('.building_list_fms').remove();
+                vehicle_entry.prepend(`<span class="building_list_fms building_list_fms_${t.fms}">${t.fms_real}</span>`);
+            }
         });
         function redraw_Labels() {
             $.each(building_markers, function (key, marker) {
