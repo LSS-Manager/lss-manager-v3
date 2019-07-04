@@ -1,87 +1,390 @@
 ((I18n, $) => {
-    'use strict';
+    const LS_HEATMAP_STORAGE = "LSS_HEATMAP_STORAGE";
 
-    I18n.translations.de['lssm']['heatmap'] = {
-        lf: "Löschfahrzeuge",
-        tlf: "Tanklöschfahrzeuge",
-        schlauchwg: "Schlauchwagen",
-        ruest: "Rüstwagen",
-        oel: "Öl",
-        dekon: "Dekon-P",
-        atem: "Atemschutz",
-        elw: "ELW 1+2",
-        radius: "Radius",
-        activated: "Aktiviert",
-        intensity: "Intensität",
-        vehicleType: "Fahrzeug-Typ",
-        reset: "Zurücksetzen",
-        close: "Schließen"
+    delete localStorage['lssm_LS_HEATMAP_STORAGE'];
+
+    Object.filter = (obj, predicate) =>
+        Object.keys(obj)
+            .filter( key => predicate(obj[key]) )
+            .reduce( (res, key) => (res[key] = obj[key], res), {} );
+
+    I18n.translations.de.lssm.heatmap = {
+        active: 'Aktiviert',
+        vehicleType: 'Gruppierung',
+        radius: 'Radius',
+        intensity: 'Intensität',
+        close: 'Schliessen',
+        reset: 'Reset',
+        vehicleGroups: [
+            {
+                name: 'Löschfahrzeuge',
+                vehicles: [0, 1, 6, 7, 8, 9, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 30, 37, 87, 88, 89, 90],
+            },
+            {
+                name: 'DLK / Teleskopmasten',
+                vehicles: [2, 85]
+            },
+            {
+                name: 'ELW 1 / ELW 2 / AB-Einsatzleitung',
+                vehicles: [3, 34, 78]
+            },
+            {
+                name: 'RW / HLF / GKW / AB-Rüst',
+                vehicles: [4, 30, 39, 47, 90]
+            },
+            {
+                name: 'GW-A / AB-Atemschutz',
+                vehicles: [5, 48]
+            },
+            {
+                name: 'GW-Öl / AB-Öl',
+                vehicles: [10, 49]
+            },
+            {
+                name: 'Schlauchwagen / AB-Schlauch',
+                vehicles: [11, 13, 14, 15, 16, 62]
+            },
+            {
+                name: 'GW-Gefahrgut / AB-Gefahrgut',
+                vehicles: [27, 77]
+            },
+            {
+                name: 'GW-Höhenrettung',
+                vehicles: [33]
+            },
+            {
+                name: 'MTW',
+                vehicles: [36]
+            },
+            {
+                name: 'Dekon-P / AB-Dekon-P',
+                vehicles: [53, 54]
+            },
+            {
+                name: 'FwK',
+                vehicles: [57]
+            },
+            {
+                name: 'WLF',
+                vehicles: [46]
+            },
+            {
+                name: 'alle AB',
+                vehicles: [47, 48, 49, 54, 62, 71, 77, 78]
+            },
+            {
+                name: 'Fahrzeuge der Flughafenfeuerwehr',
+                vehicles: [75, 76]
+            },
+            {
+                name: 'Fahrzeuge der Werkfeuerwehr',
+                vehicles: [83, 84, 85, 86]
+            },
+            {
+                name: 'RTW',
+                vehicles: [28]
+            },
+            {
+                name: 'NEF',
+                vehicles: [29]
+            },
+            {
+                name: 'RTH',
+                vehicles: [31]
+            },
+            {
+                name: 'KTW',
+                vehicles: [38]
+            },
+            {
+                name: 'KdoW-LNA',
+                vehicles: [55]
+            },
+            {
+                name: 'KdoW-OrgL',
+                vehicles: [56]
+            },
+            {
+                name: 'GRTW',
+                vehicles: [73]
+            },
+            {
+                name: 'NAW',
+                vehicles: [74]
+            },
+            {
+                name: 'KTW Typ B',
+                vehicles: [58]
+            },
+            {
+                name: 'ELW 1 (SEG)',
+                vehicles: [59]
+            },
+            {
+                name: 'GW-San',
+                vehicles: [60]
+            },
+            {
+                name: 'FuStW',
+                vehicles: [32]
+            },
+            {
+                name: 'leBefKw',
+                vehicles: [35]
+            },
+            {
+                name: 'GruKw',
+                vehicles: [50]
+            },
+            {
+                name: 'FüKw',
+                vehicles: [51]
+            },
+            {
+                name: 'GefKw',
+                vehicles: [52]
+            },
+            {
+                name: 'Polizeihubschrauber',
+                vehicles: [61]
+            },
+            {
+                name: 'WaWe 10',
+                vehicles: [72]
+            },
+            {
+                name: 'SEK',
+                vehicles: [79, 80]
+            },
+            {
+                name: 'MEK',
+                vehicles: [81, 82]
+            },
+            {
+                name: 'Boote',
+                vehicles: [66, 67, 68, 70, 71]
+            },
+            {
+                name: 'Taucher',
+                vehicles: [63, 69]
+            },
+            {
+                name: 'GW-Wasserrettung',
+                vehicles: [64]
+            },
+            {
+                name: 'GKW',
+                vehicles: [39]
+            },
+            {
+                name: 'MTW-TZ',
+                vehicles: [40]
+            },
+            {
+                name: 'MzKw',
+                vehicles: [41]
+            },
+            {
+                name: 'LKW K 9 + BRmG R',
+                vehicles: [42, 43]
+            },
+            {
+                name: 'Anh DLE',
+                vehicles: [44]
+            },
+            {
+                name: 'MLW 5',
+                vehicles: [45]
+            },
+            {
+                name: 'Eigene Kombination',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.en.lssm.heatmap = {
+        active: 'Active',
+        vehicleType: 'Groups',
+        radius: 'Radius',
+        intensity: 'Intensity',
+        close: 'Close',
+        vehicleGroups: [
+            {
+                name: 'Fire Engines / Quints / Rescue Engines',
+                vehicles: [0, 1, 13, 18],
+            },
+            {
+                name: 'Platform Trucks / Quints',
+                vehicles: [2, 13]
+            },
+            {
+                name: 'Heavy rescue vehicles / Rescue Engines / Utility Unit',
+                vehicles: [4, 18]
+            },
+            {
+                name: 'Heavy rescue vehicle + Boat',
+                vehicles: [21]
+            },
+            {
+                name: 'Utility Units',
+                vehicles: [8]
+            },
+            {
+                name: 'Boat trailers',
+                vehicles: [22]
+            },
+            {
+                name: 'Mobile air',
+                vehicles: [6]
+            },
+            {
+                name: 'Battalion Chief unit',
+                vehicles: [3]
+            },
+            {
+                name: 'Water Tanker',
+                vehicles: [7]
+            },
+            {
+                name: 'HazMat',
+                vehicles: [9]
+            },
+            {
+                name: 'Mobile command vehicle',
+                vehicles: [12]
+            },
+            {
+                name: 'ARFF',
+                vehicles: [17]
+            },
+            {
+                name: 'Large Fireboat',
+                vehicles: [24]
+            },
+            {
+                name: 'Ambulances',
+                vehicles: [5, 27]
+            },
+            {
+                name: 'Fly-Cars',
+                vehicles: [15]
+            },
+            {
+                name: 'EMS Rescue',
+                vehicles: [28]
+            },
+            {
+                name: 'EMS Chief',
+                vehicles: [29]
+            },
+            {
+                name: 'Mass Casualty Unit',
+                vehicles: [20]
+            },
+            {
+                name: 'Large Rescue Boat',
+                vehicles: [25]
+            },
+            {
+                name: 'Police Car',
+                vehicles: [10]
+            },
+            {
+                name: 'K-9',
+                vehicles: [19]
+            },
+            {
+                name: 'Police Motorcycle',
+                vehicles: [23]
+            },
+            {
+                name: 'SWAT-Vehicles',
+                vehicles: [16, 26]
+            },
+            {
+                name: 'HEMS',
+                vehicles: [11]
+            },
+            {
+                name: 'Police Helicopter',
+                vehicles: [14]
+            },
+            {
+                name: 'Own Combination',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.nl.lssm.heatmap = {
+        active: 'Actief',
+        vehicleType: 'Fracties',
+        radius: 'Radius',
+        intensity: 'Heftigheid',
+        close: 'Sluiten',
+        vehicleGroups: [
+            {
+                name: 'Eigen combinatie',
+                vehicles: []
+            }
+        ]
     };
 
-    I18n.translations.en['lssm']['heatmap'] = {
-        lf: "Fire Trucks",
-        tlf: "Tank Fire Trucks",
-        schlauchwg: "Watercar",
-        ruest: "Supply Truck",
-        oel: "Oil",
-        dekon: "Decon-P",
-        atem: "Respiratory",
-        elw: "ELW 1+2",
-        radius: "Radius",
-        activated: "Activated",
-        intensity: "Intensity",
-        vehicleType: "Vehicle type",
-        reset: "Reset",
-        close: "Close"
+    let selection = 0;
+    let heatLayer;
+    let vehicleGroups = I18n.t('lssm.heatmap.vehicleGroups');
+
+    let heatmap_settings = {
+        'heatmap-active': {
+            type: 'boolean',
+            default: false
+        },
+        'heatmap-radius': {
+            type: 'range',
+            default: 80
+        },
+        'heatmap-intensity': {
+            type: 'range',
+            default: 15
+        },
+        'heatmap-vehicle': {
+            type: 'select',
+            default: 0
+        }
     };
 
-    const LS_HEATMAP_STORAGE = "LS_HEATMAP_STORAGE";
-    let availableVehicleTypes = [];
+    for (let id in lssm.carsById) {
+        if (!lssm.carsById.hasOwnProperty(id)) continue;
+        heatmap_settings[`heatmap-custom-${id}`] = {
+            type: 'boolean',
+            default: false
+        }
+    }
 
-    let vehicleClasses = {
-        '1000': {'name': '[' + I18n.t('lssm.heatmap.lf') + ']', 'vehicleTypeIds': [0, 1, 6, 7, 8, 9, 30, 37]},
-        '1001': {'name': '[' + I18n.t('lssm.heatmap.tlf') + ']', 'vehicleTypeIds': [17, 18, 19, 20, 21, 22, 23, 24, 25, 26]},
-        '1002': {'name': '[' + I18n.t('lssm.heatmap.schlauchwg') + ']', 'vehicleTypeIds': [11, 13, 14, 15, 16]},
-        '1003': {'name': '[' + I18n.t('lssm.heatmap.ruest') + ']', 'vehicleTypeIds': [4, 30, 47]},
-        '1004': {'name': '[' + I18n.t('lssm.heatmap.oel') + ']', 'vehicleTypeIds': [10, 49]},
-        '1005': {'name': '[' + I18n.t('lssm.heatmap.dekon') + ']', 'vehicleTypeIds': [53, 54]},
-        '1006': {'name': '[' + I18n.t('lssm.heatmap.atem') + ']', 'vehicleTypeIds': [5, 48]},
-        '1007': {'name': '[' + I18n.t('lssm.heatmap.elw') + ']', 'vehicleTypeIds': [3, 34]}
-    };
-
-    let getSettings = () => {
-        let settings = {
-            'heatmap-activated': {'name': I18n.t('lssm.heatmap.activated'), 'type': 'boolean', 'default': false},
-            'heatmap-radius': {'name': I18n.t('lssm.heatmap.radius'), 'type': 'range', 'default': '80'},
-            'heatmap-intensity': {'name': I18n.t('lssm.heatmap.intensity'), 'type': 'range', 'default': '15'},
-            'heatmap-vehicle': {'name': I18n.t('lssm.heatmap.vehicleType'), 'type': 'select', 'default': '1000'}
-        };
-
+    function getSettings() {
+        let settings = heatmap_settings;
         if (!lssm.settings.get(LS_HEATMAP_STORAGE)) {
             for (let key in settings) {
+                if (!settings.hasOwnProperty(key)) continue;
                 settings[key].value = settings[key].default;
             }
         } else {
             settings = lssm.settings.get(LS_HEATMAP_STORAGE);
         }
         return settings;
-    };
+    }
 
-    let getSetting = (name) => {
-        let settings = getSettings();
-        return settings[name].value;
-    };
+    function getSetting(key) {
+        return getSettings()[key].value;
+    }
 
-    let setSettings = (reload) => {
+    function setSettings(reload) {
         let settings = getSettings();
         for (let key in settings) {
+            if (!settings.hasOwnProperty(key)) continue;
             let formElement = $('#' + key);
+            if (!formElement[0]) continue;
             if (settings[key].type === 'boolean') {
-                if (formElement.is(':checked')) {
-                    settings[key].value = true;
-                } else {
-                    settings[key].value = false;
-                }
+                settings[key].value = !!formElement.is(':checked');
             } else if (settings[key].type === 'range') {
                 settings[key].value = formElement.slider("value");
             } else {
@@ -93,63 +396,97 @@
         lssm.settings.set(LS_HEATMAP_STORAGE, settings);
 
         if (reload) parent.location.reload();
-    };
+    }
 
-    let renderMapSettings = () => {
-        let markup = '<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: white;">';
-        markup += '<img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="';
-        markup += lssm.getlink("/modules/lss-heatmap/img/ls-heat-layer.png") + '"></div>';
+    function renderCustomSettings() {
+        let vehicle_checkboxes = '';
+        for (let id in lssm.carsById) {
+            if (!lssm.carsById.hasOwnProperty(id)) continue;
+            vehicle_checkboxes += `<tr><td>${lssm.carsById[id][0]}</td><td><input class="ls-input" type="checkbox" id="heatmap-custom-${id}" vehicle_type="${id}" ${getSetting(`heatmap-custom-${id}`) ? 'checked' : ''}></td></tr>`;
+        }
+        $('.leaflet-control-container').after(`<div id="ls-heatmap-config-custom" class="leaflet-bottom leaflet-right leaflet-bar leaflet-pane" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'}; padding: 20px; left: 80%; overflow: auto; pointer-events: auto;"><table>${vehicle_checkboxes}</table></div>`);
+        let handlers = [
+            'boxZoom',
+            'doubleClickZoom',
+            'dragging',
+            'keyboard',
+            'scrollWheelZoom',
+            'tap',
+            'touchZoom'
+        ];
+        $('#ls-heatmap-config-custom')
+            .on('mouseover', () => {
+                for (let id in handlers) {
+                    map[handlers[id]] && map[handlers[id]].disable();
+                }
+            })
+            .on('mouseout', () => {
+                for (let id in handlers) {
+                    map[handlers[id]] && map[handlers[id]].enable();
+                }
+            });
+
+        let checkboxes = $('#ls-heatmap-config-custom .ls-input');
+
+        checkboxes.on('change', () => {
+            setSettings();
+            renderMap();
+        });
+
+    }
+
+    function renderMapSettings() {
+        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append(markup);
-        $('#ls-heatmap-config-img').on('click', () => {
+        $('#ls-heatmap-config-img').click(() => {
+            $('#ls-heatmap-config-custom').remove();
             let wrapper = $('#ls-heatmap-config-wrapper');
             let isOpened = $(wrapper).attr('data-opened') === 'true';
             if (isOpened) {
                 $('#ls-heatmap-config').remove();
                 $(wrapper).attr('data-opened', 'false');
             } else {
-                let mapConfig = '<div id="ls-heatmap-config">';
-                mapConfig += '<table style="line-height: 30px; margin-left: 30px; margin-bottom: 10px; margin-right: 10px;" class="ls-form-group"></table>';
-                $('#ls-heatmap-config-wrapper').append(mapConfig);
+                $('#ls-heatmap-config-wrapper').append(`<div id="ls-heatmap-config"><table style="line-height: 30px; margin-left: 30px; margin-bottom: 10px; margin-right: 10px;" class="ls-form-group"></table></div>`);
                 $(wrapper).attr('data-opened', 'true');
-
-                // Aktiviert
-                markup = '<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.activated') + '</td>';
-                markup += '<td><input class="ls-input" type="checkbox" id="heatmap-activated"></td></tr>';
-                $('#ls-heatmap-config .ls-form-group').append(markup);
-                if (getSetting('heatmap-activated')) {
-                    $('#heatmap-activated').attr('checked', 'checked');
+                let form = $('#ls-heatmap-config .ls-form-group');
+                // Active
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.active')}</td><td><input class="ls-input" type="checkbox" id="heatmap-active" ${getSetting('heatmap-active') ? 'checked' : ''}></td></tr>`);
+                // Vehicle-Selection
+                let vehicle_options = '';
+                for (let key in vehicleGroups) {
+                    if (!vehicleGroups.hasOwnProperty(key)) continue;
+                    vehicle_options += `<option value=${key} ${parseInt(key) === getSetting('heatmap-vehicle') ? 'selected' : ''}>${vehicleGroups[key].name}</option>`;
                 }
-
-                // Vehicle
-                markup = '<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.vehicleType') + '</td>';
-                markup += '<td><select class="ls-input" id="heatmap-vehicle"></select></td></tr>';
-                $('#ls-heatmap-config .ls-form-group').append(markup);
-
-                for (let key in vehicleClasses) {
-                    if (getSetting('heatmap-vehicle') === this) {
-                        $('#heatmap-vehicle').append('<option selected value="' + key + '">' + vehicleClasses[key].name + '</option>');
-                    } else {
-                        $('#heatmap-vehicle').append('<option value="' + key + '">' + vehicleClasses[key].name + '</option>');
-                    }
-                }
-
-                $(availableVehicleTypes).each(function () {
-                    let vehicleName = lssm.getVehicleNameById(this);
-                    if (vehicleName) {
-                        if (getSetting('heatmap-vehicle') === this) {
-                            $('#heatmap-vehicle').append('<option selected value="' + this + '">' + vehicleName + '</option>');
-                        } else {
-                            $('#heatmap-vehicle').append('<option value="' + this + '">' + vehicleName + '</option>');
-                        }
-                    }
-                });
+                if (getSetting('heatmap-vehicle') === vehicleGroups.length - 1) renderCustomSettings();
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.vehicleType')}</td><td><select class="ls-input" id="heatmap-vehicle">${vehicle_options}</select></td></tr>`);
 
                 // Radius
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.radius') + '</td><td><div class="value-slider" data-min="0" data-max="200" data-value="' + getSetting('heatmap-radius') + '" id="heatmap-radius"></div></td></tr>');
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.radius')}</td><td><div class="value-slider" data-min="0" data-max="110" data-value="${getSetting('heatmap-radius')}" id="heatmap-radius"><div id="radius-handle" class="ui-slider-handle"></div></div></td></tr>`);
 
                 // Intensity
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td>' + I18n.t('lssm.heatmap.intensity') + '</td><td><div class="value-slider" data-min="0" data-max="20" data-value="' + getSetting('heatmap-intensity') + '" id="heatmap-intensity"></div></td></tr>');
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.intensity')}</td><td><div class="value-slider" data-min="0" data-max="50" data-value="${getSetting('heatmap-intensity')}" id="heatmap-intensity"><div id="intensity-handle" class="ui-slider-handle"></div></div></td></tr>`);
 
+                // Btns
+                form.append(`<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.close')}</button></td><td><button id="heatmap_reset" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.reset')}</button></td></tr>`);
+
+                $('#heatmap_close').click(() => {
+                    $('#ls-heatmap-config-img').click();
+                });
+
+                $('#heatmap_reset').click(() => {
+                    lssm.settings.remove(LS_HEATMAP_STORAGE);
+                    $('#ls-heatmap-config-img')
+                        .click()
+                        .click();
+                });
+
+                $('#heatmap-vehicle').on('change', e => {
+                    let select = e.currentTarget;
+                    if (parseInt(select.value) !== vehicleGroups.length - 1) {
+                        return $('#ls-heatmap-config-custom').remove();
+                    }
+                    renderCustomSettings();
+                });
 
                 $('#ls-heatmap-config .ls-input').on('change', () => {
                     setSettings();
@@ -162,87 +499,82 @@
                     },
                     stop: function () {
                         map.dragging.enable();
-                    },
-                    create: function (event, ui) {
-                        $(this).slider('option', 'max', $(this).data('max'));
-                        $(this).slider('option', 'value', $(this).data('value'));
-                    },
-                    slide: function () {
+                        if ($(this).attr('id') === 'heatmap-intensity') {
+                            for (let key in vehicleGroups) {
+                                if (!vehicleGroups.hasOwnProperty(key)) continue;
+                                delete vehicleGroups[key].generated;
+                            }
+                        }
                         setSettings();
                         renderMap();
                     },
+                    create: function () {
+                        $(this).slider('option', 'max', $(this).data('max'));
+                        $(this).slider('option', 'value', $(this).data('value'));
+                        $(this).find('.ui-slider-handle').text($(this).slider("value"));
+                    },
+                    slide: function(event, ui) {
+                        $(this).find('.ui-slider-handle').text(ui.value);
+                    },
                     min: 1
                 });
-
-
-                // Buttons
-                $('#ls-heatmap-config .ls-form-group').append('<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.close') + '</button><td><button id="heatmap_reset" class="btn btn-default btn-xs">' + I18n.t('lssm.heatmap.reset') + '</button></td></td></tr>');
-
-                $('#heatmap_reset').click(() => {
-                    lssm.settings.remove(LS_HEATMAP_STORAGE);
-                    renderMap();
-                    $('#ls-heatmap-config-img').click();
-                    $('#ls-heatmap-config-img').click();
-                });
-
-                $('#heatmap_close').click(() => {
-                    $('#ls-heatmap-config-img').click();
-                });
             }
-
         });
-    };
+    }
 
-    let getVehicles = () => {
-        let vehicles = [];
-        Object.entries(lssm.vehicles).forEach(([key, vehicle]) => {
-            for(let building of lssm.buildings){
-                if(building.id === vehicle.building){
-                    let tmpVehicle = vehicle;
-                    tmpVehicle.long = building.longitude;
-                    tmpVehicle.lat = building.latitude
-                    vehicles.push(tmpVehicle);
-                    if (availableVehicleTypes.indexOf(tmpVehicle.type) === -1) availableVehicleTypes.push(tmpVehicle.type);
-
-                    break;
+    function renderMap() {
+        if (!getSetting('heatmap-active')) {
+            heatLayer && map.removeLayer(heatLayer);
+            heatLayer = null;
+            return;
+        }
+        if (heatLayer) {
+            map.removeLayer(heatLayer);
+            heatLayer = null;
+        }
+        selection = getSetting('heatmap-vehicle');
+        if (selection === vehicleGroups.length - 1) {
+            vehicleGroups[selection].vehicles = [];
+            for (let id in lssm.carsById) {
+                if (!lssm.carsById.hasOwnProperty(id)) continue;
+                if (getSetting(`heatmap-custom-${id}`)) {
+                    vehicleGroups[selection].vehicles.push(parseInt(id));
                 }
-            };
-            
-        });
-        
-        return vehicles;
-    };
-
-    let heat;
-    let vehicles;
-
-    let renderMap = () => {
-        if (heat !== undefined) {
-            map.removeLayer(heat);
-            heat = null;
+            }
+            delete vehicleGroups[selection].generated;
         }
-
-        if (vehicles === undefined) {
-            vehicles = getVehicles();
+        if (!vehicleGroups[selection].generated) {
+            let vehicles = Object.filter(lssm.vehicles, vehicle => vehicleGroups[selection].vehicles.includes(vehicle.type));
+            vehicleGroups[selection].buildings = {};
+            vehicleGroups[selection].points = [];
+            vehicleGroups[selection].totalVehicles = 0;
+            for (let vehicle_id in vehicles) {
+                if (!vehicles.hasOwnProperty(vehicle_id)) continue;
+                let vehicle = vehicles[vehicle_id];
+                if (!vehicleGroups[selection].buildings[vehicle.building]) vehicleGroups[selection].buildings[vehicle.building] = 0;
+                vehicleGroups[selection].buildings[vehicle.building]++;
+                vehicleGroups[selection].totalVehicles++;
+            }
+            for (let building_id in vehicleGroups[selection].buildings) {
+                if (!vehicleGroups[selection].buildings.hasOwnProperty(building_id)) continue;
+                let building = lssm.buildings.filter(building => building.id === parseInt(building_id))[0];
+                vehicleGroups[selection].points.push([
+                    building.latitude,
+                    building.longitude,
+                    getSetting('heatmap-intensity') * vehicleGroups[selection].buildings[building_id]
+                ]);
+            }
         }
+        vehicleGroups[selection].generated = true;
+        heatLayer = L.heatLayer(vehicleGroups[selection].points, {
+            radius: getSetting('heatmap-radius')
+        }).addTo(map);
+        $('.leaflet-heatmap-layer').css('background-color', 'unset');
+    }
 
-        if (getSetting('heatmap-activated')) {
-            let entries = [];
-            for(let vehicle of vehicles){
-                let vehicleClass = vehicleClasses[getSetting('heatmap-vehicle')];
-                // Add to entries if exact match or if vehicle is in vehicle class
-                if (vehicle.type === getSetting('heatmap-vehicle')
-                    || (vehicleClass && vehicleClass.vehicleTypeIds.indexOf(vehicle.type) !== -1)) {
-                    entries.push([vehicle.lat, vehicle.long, getSetting('heatmap-intensity')]);
-                }
-            };
-            heat = L.heatLayer(entries, {radius: getSetting('heatmap-radius')}).addTo(map);
-        }
-    };
-
-    $.get(lssm.getlink("/modules/lss-heatmap/vendor/leaflet-heat.js"))
+    $.get(lssm.getlink('/modules/lss-heatmap/vendor/leaflet-heat.js'))
         .fail(() => {
-            console.log("LSHeatmap: Clouldn't load leaflet extension")
+            console.log('[LSSM] Heatmap: Konnte Leaflet-Erweiterung nicht laden!');
         })
         .done(() => {
             renderMap();
