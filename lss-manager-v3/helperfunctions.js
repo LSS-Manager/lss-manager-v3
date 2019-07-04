@@ -287,11 +287,10 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_real + "\">" + car.fms_show + "</span> " + car.name +
-			"</div>";
+        data += `<div style="margin-top: 3px;" class="lssm_carlist" vehicle_id="${car.id}"><span class="building_list_fms building_list_fms_${car.fms_show}">${car.fms_real}</span>${car.name}</div>`;
     });
     return data;
-}
+};
 
 lssm.get_vehicles = function(async=true, overwritePathSetting=false) {
     let path = window.location.pathname.length;
