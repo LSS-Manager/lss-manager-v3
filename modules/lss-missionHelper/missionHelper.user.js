@@ -703,7 +703,8 @@
 				461: '1x Rettungswagen<br>Notarzteinsatzfahrzeug (10%)',
 				462: '18x Löschfahrzeuge<br>6x Drehleiter<br>2x GW-Atemschutz<br>3x GW-Messtechnik<br>2x GW-Gefahrgut<br>5x Einsatzleitwagen 1<br>4x Einsatzleitwagen 2' +
 				'<br>2x Schlauchwagen<br>1x Feuerwehrkran<br>4x Rüstwagen<br>1x GW-Höhenrettung (10%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
-				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>'
+				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>',
+				463: '1x Löschfahrzeug<br>1x Rüstwagen (40%)<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1260 </span>'
 			}
 		}
 
@@ -1040,7 +1041,10 @@
 				270: '2x Firetrucks<br><br><span class="badge">Credits: ~ 1000 </span>',
 				271: '8x Firetrucks<br>2x Battalion Chief<br>1x Platform truck<br>2x Heavy Rescue<br>1x Mobile Air<br>1x HazMat<br>1x Water Tanker (5%)<br>' +
 				'2x Police Cars<br>min. 1x Ambulance / max. 6<br><br><span class="badge">Credits: ~ 6000 </span>',
-				272: '4x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br><br><span class="badge">Credits: ~ 1000 </span>'
+				272: '4x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br><br><span class="badge">Credits: ~ 1000 </span>',
+				273: '4x Firetrucks<br>2x Heavy Rescue<br>1x Battalion Chief<br>max. 10x Ambulance<br><br><span class="badge">Credits: ~ 5000 </span>',
+				274: '8x Firetrucks<br>4x Battalion Chief<br>4x Heavy Rescue<br>2x Mobile Command<br>1x Platform Truck<br>1x HazMat<br>2x Police Cars<br>' +
+				'max. 20x Ambulance<br><br><span class="badge">Credits: ~ 10000 </span>'
 			}
 		}
 
@@ -1698,7 +1702,10 @@
 				452: '1x Tankautospuit<br>1x Hulpverleningsvoertuig (20%)<br>1x Redvoertuig (40%)<br><br><span class="badge">Credits: ~ 350 </span>',
 				453: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>',
 				454: '1x Tankautospuit<br>1x Redvoertuig (10%)<br><br><span class="badge">Credits: ~ 320 </span>',
-				455: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>'
+				455: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>',
+				456: '1x Tankautospuit<br>1x Redvoertuig (10%)<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 800 </span>',
+				457: '2x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig (50%)<br>1x Slangenwagen (60%)<br><br><span class="badge">Credits: ~ 1950 </span>',
+				458: '3x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig<br>1x Slangenwagen<br>1x HOvD (50%)<br><br><span class="badge">Credits: ~ 2750 </span>'
 			}
 		}
 	}
