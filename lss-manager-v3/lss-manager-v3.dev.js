@@ -1154,7 +1154,7 @@ lssm.settings = {
     // Remove a config value from localstorage
     remove: function (key) {
         "use strict";
-        localStorage.removeItem(key);
+        localStorage.removeItem(`${lssm.config.prefix}_${key}`);
     }
 };
 
