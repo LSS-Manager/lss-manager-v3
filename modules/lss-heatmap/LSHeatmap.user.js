@@ -404,7 +404,7 @@
             if (!lssm.carsById.hasOwnProperty(id)) continue;
             vehicle_checkboxes += `<tr><td>${lssm.carsById[id][0]}</td><td><input class="ls-input" type="checkbox" id="heatmap-custom-${id}" vehicle_type="${id}" ${getSetting(`heatmap-custom-${id}`) ? 'checked' : ''}></td></tr>`;
         }
-        $('.leaflet-control-container').after(`<div id="ls-heatmap-config-custom" class="leaflet-bottom leaflet-right leaflet-bar leaflet-pane" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'}; padding: 20px; left: 80%; overflow: auto; pointer-events: auto;"><table>${vehicle_checkboxes}</table></div>`);
+        $('.leaflet-control-container').after(`<div id="ls-heatmap-config-custom" class="leaflet-bottom leaflet-right leaflet-bar leaflet-pane" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'}; padding: 20px; left: 75%; overflow: auto; pointer-events: auto;"><table>${vehicle_checkboxes}</table></div>`);
         let handlers = [
             'boxZoom',
             'doubleClickZoom',
