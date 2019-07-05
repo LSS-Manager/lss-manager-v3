@@ -604,6 +604,25 @@ lssm.Module = {
         inframe: true,
         develop: true
     },
+    heatmap: {
+        name: {
+            de: 'LS-Heatmap',
+            en: 'LS-Heatmap',
+            nl: 'Voertuigspreiding weergeven'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
+            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
+            nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
+                'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
+        },
+        source: '/modules/lss-heatmap/LSHeatmap.user.js',
+        noapp: false, // Nicht im App-Store auflisten
+        inframe: false,
+        collisions: ['Layout03', 'WachenplanungOnMap'],
+        nomapkit: true,
+    },
     centermap: {
         name: {
             de: 'Center-Map',
