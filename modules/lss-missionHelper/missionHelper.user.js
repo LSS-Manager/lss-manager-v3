@@ -1044,7 +1044,9 @@
 				272: '4x Police Cars<br>1x K9-Unit<br>6x SWAT-Personnel<br><br><span class="badge">Credits: ~ 1000 </span>',
 				273: '4x Firetrucks<br>2x Heavy Rescue<br>1x Battalion Chief<br>max. 10x Ambulance<br><br><span class="badge">Credits: ~ 5000 </span>',
 				274: '8x Firetrucks<br>4x Battalion Chief<br>4x Heavy Rescue<br>2x Mobile Command<br>1x Platform Truck<br>1x HazMat<br>2x Police Cars<br>' +
-				'max. 20x Ambulance<br><br><span class="badge">Credits: ~ 10000 </span>'
+				'max. 20x Ambulance<br><br><span class="badge">Credits: ~ 10000 </span>',
+				275: '1x Firetruck<br>1x Boat<br>1x Ambulance<br><br><span class="badge">Credits: ~ 900 </span>',
+				276: '1x Firetruck<br>1x Boat<br>1x Ambulance<br><br><span class="badge">Credits: ~ 900 </span>'
 			}
 		}
 
@@ -1705,7 +1707,12 @@
 				455: '1x Tankautospuit<br><br><span class="badge">Credits: ~ 300 </span>',
 				456: '1x Tankautospuit<br>1x Redvoertuig (10%)<br>1x Slangenwagen (20%)<br><br><span class="badge">Credits: ~ 800 </span>',
 				457: '2x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig (50%)<br>1x Slangenwagen (60%)<br><br><span class="badge">Credits: ~ 1950 </span>',
-				458: '3x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig<br>1x Slangenwagen<br>1x HOvD (50%)<br><br><span class="badge">Credits: ~ 2750 </span>'
+				458: '3x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig<br>1x Slangenwagen<br>1x HOvD (50%)<br><br><span class="badge">Credits: ~ 2750 </span>',
+				459: '1x Tankautospuit<br>1x Airport Fire Officer / On Scene Commander (50%)<br><br><span class="badge">Credits: ~ 600 </span>',
+				460: '2x Tankautospuiten<br>1x Airport Fire Officer / On Scene Commander<br><br><span class="badge">Credits: ~ 1350 </span>',
+				461: '4x Tankautospuiten<br>1x Redvoertuig<br>1x Hulpverleningsvoertuig<br>1x OvD-B<br>1x Adviseurs Gevaarlijke Stoffen<br>1x HOvD<br>' +
+				'1x Commandowagen<br>2x Crashtender<br>1x Airport Fire Officer / On Scene Commander<br>5x Noodhulpeenheden<br>1x OvD-P<br>max. 4x Ambulance' +
+				'<br><br><span class="badge">Credits: ~ 2950 </span>'
 			}
 		}
 	}

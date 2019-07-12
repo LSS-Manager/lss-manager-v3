@@ -778,7 +778,9 @@
         271: 'Large parking garage fire',
         272: 'Museum robbery',
         273: 'Natural Gas explosion',
-        274: 'Large Natural Gas explosion'
+        274: 'Large Natural Gas explosion',
+        275: 'Swimmer in distress',
+        276: 'Swimmer in distress'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1255,7 +1257,10 @@
         455: 'Ree vast in hek',
         456: 'Brand in manege',
         457: 'Brand in manege',
-        458: 'Brand in manege'
+        458: 'Brand in manege',
+        459: 'Brandende vliegtuigtrekker',
+        460: 'Brandende vliegtuigtrekker',
+        461: 'Vliegtuig met motorisch probleem'
       }
     };
 
@@ -2019,7 +2024,9 @@
       271: 'FIRE 4',
       272: 'POL 4',
       273: 'FIRE 3',
-      274: 'FIRE 5'
+      274: 'FIRE 5',
+      275: 'TECH 1',
+      276: 'TECH 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2480,7 +2487,10 @@
       455: 'HV 1',
       456: 'KLEINE BRAND',
       457: 'KLEINE BRAND',
-      458: 'MIDDEL BRAND'
+      458: 'MIDDEL BRAND',
+      459: 'VOS KLEIN',
+      460: 'VOS KLEIN',
+      461: 'VOS MIDDEL'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
