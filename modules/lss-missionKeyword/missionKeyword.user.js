@@ -485,7 +485,8 @@
         460: 'Person in Schacht',
         461: 'Dehydrierte Person',
         462: 'Großfeuer in Lagerhalle',
-        463: 'Gesprengter Geldautomat'
+        463: 'Gesprengter Geldautomat',
+        464: 'Eingestürzter Funkmast'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1747,7 +1748,8 @@
       460: 'THL 1',
       461: 'RD 0.5',
       462: 'B 6',
-      463: 'THL 1'
+      463: 'THL 1',
+      464: 'THW 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',

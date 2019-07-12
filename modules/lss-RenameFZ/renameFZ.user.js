@@ -53,7 +53,8 @@
                 13: "Polizeihubschrauberstation",
                 15: "Wasserrettung",
                 17: "Polizei-Sondereinheiten",
-                18: "Feuerwache (Kleinwache)"
+                18: "Feuerwache (Kleinwache)",
+                19: "Polizeiwache (Kleinwache)"
             },
             vehicleTypes: {
                 0: 'LF 20',

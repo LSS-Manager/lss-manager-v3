@@ -89,8 +89,8 @@
             maxlevel: 16,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
             startPersonell: 10,
-            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 20.000 mehr).',
-            extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>6*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 20.000 mehr).',
+            extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>9*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
@@ -101,7 +101,7 @@
             maxlevel: 5,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
             startPersonell: 9,
-            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 15.000 mehr).',
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
@@ -157,13 +157,13 @@
             name: 'Rettungshubschrauber-Station',
             credits: 1000000,
             coins: 50,
-            maxlevel: 4,
+            maxlevel: 6,
             levelcost: 'jeweils 1.000.000 Credits/50 Coins',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
             maxBuildings: 'siehe Besonderheiten',
             extensions: 'Keine Ausbauten möglich',
-            special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
+            special: 'Pro Station können bis zu 7 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         seg: {
             name: 'Schnelleinsatzgruppe (SEG)',
@@ -188,6 +188,18 @@
             maxBuildings: 'Keine Grenze',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
+        polklein: {
+            name: 'Polizeiwache (Kleinwache)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 4,
+            levelcost: '1. 10.000<br>2. 50.000<br>4. 100.000',
+            startPersonell: 2,
+            startVehicle: 'FuStW',
+            extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
+            maxBuildings: 'Keine Grenze',
+            special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
+        },
         polschule: {
             name: 'Polizeisschule',
             credits: 500000,
@@ -204,13 +216,13 @@
             name: 'Polizeihubschrauber-Station',
             credits: 1000000,
             coins: 50,
-            maxlevel: 4,
+            maxlevel: 6,
             levelcost: 'jeweils 1.000.000 Credits/50 Coins',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
             maxBuildings: 'siehe Besonderheiten',
             extensions: 'Keine Ausbauten möglich',
-            special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
+            special: 'Pro Station können bis zu 7 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         bpol: {
             name: 'Bereitschaftspolizei',
@@ -623,6 +635,14 @@
                 coins: 12,
                 special: 'Dient als Ersatz eines GW-Öl. Muss von einem WLF zum Einsatz gebracht werden.'
             },
+            absw: {
+                name: 'AB-Schlauch',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Dient als Ersatz eines Schlauchwagens. Muss von einem WLF zum Einsatz gebracht werden.'
+            },
             dekonp: {
                 name: 'Dekon-P',
                 min: 1,
@@ -790,7 +810,8 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
-                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.'
+                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.' +
+                'Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
             }
         },
         pol: {
@@ -995,15 +1016,7 @@
                 schooling: 'Taucher'
             },
             mzb: {
-                name: 'Anh MzB',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss von einem GW-Wasserrettung oder GW-Taucher zum Einsatz gebracht werden.'
-            },
-            schlb: {
-                name: 'Anh SchlB',
+                name: 'MzB',
                 min: 0,
                 max: 0,
                 credits: 6000,

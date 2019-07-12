@@ -704,7 +704,9 @@
 				462: '18x Löschfahrzeuge<br>6x Drehleiter<br>2x GW-Atemschutz<br>3x GW-Messtechnik<br>2x GW-Gefahrgut<br>5x Einsatzleitwagen 1<br>4x Einsatzleitwagen 2' +
 				'<br>2x Schlauchwagen<br>1x Feuerwehrkran<br>4x Rüstwagen<br>1x GW-Höhenrettung (10%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
 				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>',
-				463: '1x Löschfahrzeug<br>1x Rüstwagen (40%)<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1260 </span>'
+				463: '1x Löschfahrzeug<br>1x Rüstwagen (40%)<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1260 </span>',
+				464: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>2x Rüstwagen<br>1x Feuerwehrkran (75%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
+				'2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1500 </span>'
 			}
 		}
 
