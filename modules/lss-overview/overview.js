@@ -193,7 +193,7 @@
             credits: 50000,
             coins: 25,
             maxlevel: 4,
-            levelcost: '1. 10.000<br>2. 50.000<br>4. 100.000',
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
             startVehicle: 'FuStW',
             extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
@@ -811,7 +811,7 @@
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
                 special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.' +
-                'Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
+                '<br>Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
             }
         },
         pol: {
