@@ -914,7 +914,7 @@
                 coins: 25
             },
             mzkw: {
-                name: 'MzKw',
+                name: 'MzKW',
                 min: 1,
                 max: 9,
                 credits: 15000,
@@ -929,7 +929,7 @@
                 schooling: 'Zugtrupp'
             },
             lkwk9: {
-                name: 'LKW K9',
+                name: 'LKW K 9',
                 min: 1,
                 max: 3,
                 credits: 15000,
@@ -950,7 +950,7 @@
                 max: 0,
                 credits: 15000,
                 coins: 25,
-                special: 'Muss von einem GKW, MzKw, MTW-TZ oder MLW 5 zum Einsatz gezogen werden.'
+                special: 'Muss von einem GKW, MzKW, MTW-TZ oder MLW 5 zum Einsatz gezogen werden.'
             },
             mlw5: {
                 name: 'MLW 5',
@@ -961,7 +961,7 @@
                 schooling: 'Fachgruppe Räumen'
             },
             lkw7: {
-                name: 'LKW 7Lkr 19tm',
+                name: 'LKW 7 Lkr 19tm',
                 min: 1,
                 max: 2,
                 credits: 10000,
@@ -980,7 +980,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             },
             mzab: {
                 name: 'Anh MzAB',
@@ -988,7 +988,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             },
             schlb: {
                 name: 'Anh SchlB',
@@ -996,7 +996,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             }
         },
         wr: {
@@ -1075,7 +1075,7 @@
                 credits: 10000,
                 coins: 25,
                 schooling: 'SEG-GW-SAN',
-                special: 'Pro GW-San können 5 KTW-B wie ein RTW arbeiten. Er behandelt die Patienten zwar größtenteils, aber für die letzten paar Prozente braucht man dann einen RTW, KTW-B oder ähnliches'
+                special: 'Pro GW-San können 5 KTW Typ B wie ein RTW arbeiten. Er behandelt die Patienten zwar größtenteils, aber für die letzten paar Prozente braucht man dann einen RTW, KTW Typ B oder ähnliches'
             }
         }
     };
