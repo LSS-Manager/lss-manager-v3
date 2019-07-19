@@ -706,7 +706,7 @@
 				'1x LKW K 9 + BRmG R<br>6x Funkstreifenwagen<br>max. 10x Rettungswagen<br>Notarzteinsatzfahrzeug (30%)<br><br><span class="badge">Credits: ~ 12000 </span>',
 				463: '1x Löschfahrzeug<br>1x Rüstwagen (40%)<br>2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1260 </span>',
 				464: '1x Löschfahrzeug<br>1x Einsatzleitwagen 1<br>2x Rüstwagen<br>1x Feuerwehrkran (75%)<br>1x Gerätekraftwagen<br>1x MTW-TZ<br>1x MzKW<br>' +
-				'2x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1500 </span>',
+				'3x Funkstreifenwagen<br><br><span class="badge">Credits: ~ 1500 </span>',
 				465: '20x Löschfahrzeuge<br>2x GW-Gefahrgut<br>4x GW-Messtechnik<br>2x Dekon-P<br>1x GW-Öl<br>1x Schlauchwagen<br>3x GW-Atemschutz<br>3x Drehleiter<br>' +
 				'2x Feuerwehrkräne<br>3x Rüstwagen<br>5x Einsatzleitwagen 1<br>1x Einsatzleitwagen 2<br>1x GW-Werkfeuerwehr<br>1x Teleskopmast<br>1x Turbolöscher<br>' +
 				'1x ULF mit Löscharm<br>2x Gerätekraftwagen<br>2x MTW-TZ<br>2x MzKW<br>1x LKW K 9 + BRmG R<br>1x Anh DLE<br>10x Funkstreifenwagen<br>max. 20x ' +
