@@ -92,7 +92,7 @@ I18n.translations.de.lssm = {
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
         "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
-        "kommen, kannst du gerne zu uns in den <a href=\"https://discord.gg/huMNSA4\" target=\"blank\">Discord</a>" +
+        "kommen, kannst du gerne zu uns in den <a href=\"https://discord.gg/huMNSA4\" target=\"blank\">Discord</a> " +
         "kommen  oder <a href=\"https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
         "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
