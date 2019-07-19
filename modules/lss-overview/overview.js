@@ -1192,6 +1192,16 @@
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
             maxBuildings: 'No Limit',
         },
+        polklein: {
+            name: 'Police Station (small station)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 4,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
+            startPersonell: 2,
+            startVehicle: 'Patrol Car',
+            maxBuildings: 'No Limit',
+        },
         polschule: {
             name: 'Police Academy',
             credits: 500000,

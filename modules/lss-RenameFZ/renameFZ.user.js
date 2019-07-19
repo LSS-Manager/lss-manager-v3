@@ -198,7 +198,8 @@
                 11: "Fire boat dock",
                 12: "Rescue boat dock",
                 13: "Fire Station (Small)",
-                14: "Urgent Care Center"
+                14: "Urgent Care Center",
+                15: "Police Station (Small station)"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
