@@ -486,7 +486,8 @@
         461: 'Dehydrierte Person',
         462: 'Großfeuer in Lagerhalle',
         463: 'Gesprengter Geldautomat',
-        464: 'Eingestürzter Funkmast'
+        464: 'Eingestürzter Funkmast',
+        465: 'Großbrand im Gefahrstofflager'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -781,7 +782,13 @@
         273: 'Natural Gas explosion',
         274: 'Large Natural Gas explosion',
         275: 'Swimmer in distress',
-        276: 'Swimmer in distress'
+        276: 'Swimmer in distress',
+        277: 'Unknown structure fire',
+        278: 'Electrical Cupboard Fire',
+        279: 'Electrical Cupboard Fire',
+        280: 'Smoking Electrical Equipment',
+        281: 'Storage Cupboard Fire',
+        282: 'Storage Cupboard Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1261,7 +1268,10 @@
         458: 'Brand in manege',
         459: 'Brandende vliegtuigtrekker',
         460: 'Brandende vliegtuigtrekker',
-        461: 'Vliegtuig met motorisch probleem'
+        461: 'Vliegtuig met motorisch probleem',
+        462: 'Drugsafval aangetroffen',
+        463: 'Verdachte vaten aangetroffen',
+        464: 'Stankoverlast'
       }
     };
 
@@ -1749,7 +1759,8 @@
       461: 'RD 0.5',
       462: 'B 6',
       463: 'THL 1',
-      464: 'THW 1'
+      464: 'THW 1',
+      465: 'ABC 5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2028,7 +2039,13 @@
       273: 'FIRE 3',
       274: 'FIRE 5',
       275: 'TECH 1',
-      276: 'TECH 1'
+      276: 'TECH 1',
+      277: 'FIRE 1',
+      278: 'FIRE 1',
+      279: 'FIRE 2',
+      280: 'FIRE 1',
+      281: 'FIRE 1',
+      282: 'FIRE 2'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2492,7 +2509,10 @@
       458: 'MIDDEL BRAND',
       459: 'VOS KLEIN',
       460: 'VOS KLEIN',
-      461: 'VOS MIDDEL'
+      461: 'VOS MIDDEL',
+      462: 'P 2',
+      463: 'P 2',
+      464: 'P 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
