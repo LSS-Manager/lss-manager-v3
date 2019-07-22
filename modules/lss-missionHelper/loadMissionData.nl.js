@@ -25,7 +25,9 @@ $.get(missionlink)
             polHeli: "politie helikopter",
             watervoertuig: "Waterongevallenvoertuig",
             wateraanhanger: "(w|W)aterongevallenaanhangers",
-            hond: "Hondengeleider"
+            hond: "Hondengeleider",
+            crashtender: "Crashtender",
+            afoosc: "AFO/OSC"
         };
 
         let credits;
@@ -61,7 +63,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Benodigde/)) {
+            if (content.match(/[bB]enodigd|Crashtender/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/waarschijnlijkheid/)) {
                 percentages[getVehicle(content)] = number;
@@ -188,7 +190,6 @@ $.get(missionlink)
         })
             .done(response => {
                 ($('#mission_help')[0] ? $('#missionHelper') : $('html')).append(response);
-                window.close();
             });
 
         function getPOI(content) {
