@@ -240,7 +240,9 @@
             polHeli: "Politie Helikopter",
             watervoertuig: "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
             wateraanhanger: "Waterongevallenaanhangers",
-            hond: "Hondengeleider"
+            hond: "Hondengeleider",
+            crashtender: "Crashtender",
+            afoosc: "AFO/OSC"
         },
         pois: [
             "Park",
