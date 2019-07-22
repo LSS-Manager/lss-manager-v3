@@ -466,6 +466,9 @@ function pin(markup) {
         .css("max-width", "unset");
     $('#pinMissionHelper').attr("onclick", "unpin(null)");
     localStorage["lssm_missionHelper_state"] = "pin";
+    if ($('#toggle-mission-helper span').hasClass('down')) {
+        $('#toggle-mission-helper').click();
+    }
 }
 
 function unpin(markup) {
