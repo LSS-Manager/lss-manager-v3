@@ -345,7 +345,7 @@
                             });
                             // Add patients
                             if (mission.patients) {
-                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.patients.max}<br>`;
+                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)||''} ${mission.patients.max}<br>`;
 
                                 if (mission.patients.transport || mission.patients.specialisation) {
                                     aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${(mission.patients.transport && `${mission.patients.transport}%`)||""}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
