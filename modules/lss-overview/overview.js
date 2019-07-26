@@ -129,6 +129,17 @@
             extensions: 'Keine Ausbauten möglich',
             maxBuildings: 'Keine Grenze'
         },
+        rwklein: {
+            name: 'Rettungswache (Kleinwache)',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
+            startPersonell: 3,
+            startVehicle: 'RTW',
+            extensions: 'Keine Ausbauten möglich',
+            maxBuildings: 'Keine Grenze'
+        },
         rwschule: {
             name: 'Rettungsschule',
             credits: 500000,
@@ -1146,6 +1157,17 @@
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
+        rwklein : {
+            name: 'Ambulance station (Small station)',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 6,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
+            startPersonell: 3,
+            startVehicle: 'ALS Ambulance',
+            extensions: 'No extensions possible',
+            maxBuildings: 'No Limit'
+        },
         kh: {
             name: 'Hospital',
             credits: 200000,
@@ -1526,7 +1548,7 @@
             special: 'Het controlecentrum is het administratief centrum.'
         },
         fw: {
-            name: 'Brandweerpost',
+            name: 'Brandweer, Kazerne',
             credits: 100000,
             coins: 30,
             maxlevel: 16,
@@ -1538,7 +1560,7 @@
             special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
         },
         fwschule: {
-            name: 'Brandweeracademie',
+            name: 'Brandweer, Academie',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
@@ -1550,12 +1572,23 @@
             special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rw: {
-            name: 'Ambulance standplaats',
+            name: 'Ambulance, standplaats',
             credits: 200000,
             coins: 35,
             maxlevel: 14,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
+            startVehicle: 'Ambulance',
+            extensions: 'Geen uitbreidingen mogelijk',
+            maxBuildings: 'Geen limiet'
+        },
+        rwklein: {
+            name: 'Ambulance, VWS-post',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 2,
+            levelcost: '1. 10.000',
+            startPersonell: 3,
             startVehicle: 'Ambulance',
             extensions: 'Geen uitbreidingen mogelijk',
             maxBuildings: 'Geen limiet'
@@ -1597,7 +1630,7 @@
             special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         pol: {
-            name: 'Politiebureau',
+            name: 'Politie, Opkomstbureau',
             credits: 100000,
             coins: 35,
             maxlevel: 14,
@@ -1608,7 +1641,7 @@
             maxBuildings: 'No Limit',
         },
         polschule: {
-            name: 'Politieacademie',
+            name: 'Politie, Academie',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
@@ -1632,7 +1665,7 @@
             special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         psonder: {
-            name: 'Hoofdbureau Politie',
+            name: 'Politie, Hoofdbureau',
             credits: 400000,
             coins: 40,
             maxlevel: 0,
