@@ -54,7 +54,8 @@
                 15: "Wasserrettung",
                 17: "Polizei-Sondereinheiten",
                 18: "Feuerwache (Kleinwache)",
-                19: "Polizeiwache (Kleinwache)"
+                19: "Polizeiwache (Kleinwache)",
+                20: "Rettungswache (Kleinwache)"
             },
             vehicleTypes: {
                 0: 'LF 20',
@@ -199,7 +200,8 @@
                 12: "Rescue boat dock",
                 13: "Fire Station (Small)",
                 14: "Urgent Care Center",
-                15: "Police Station (Small station)"
+                15: "Police Station (Small station)",
+                16: "Ambulance station (Small station)"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -273,13 +275,14 @@
                 stations: 'Hier kunt u alternatieve namen instellen voor elk geboude. U kunt ze gebruiken bij het hernoemen van uw voertuigen via dispatch center.'
             },
             validStationTypes: {
-                0: "Brandweerpost",
+                0: "Brandweer, Kazerne",
                 1: "Meldkamer",
-                3: "Ambulance standplaats",
-                5: "Politiebureau",
+                3: "Ambulance, standplaats",
+                5: "Politie, Opkomstbureau",
                 6: "MMT Standplaats",
                 9: "Politiehelikopter standplaats",
-                11: "Politie hoofdbureau"
+                11: "Politie, Hoofdbureau",
+                13: "Ambulance, VWS-post"
             },
             vehicleTypes: {
                 0: 'SIV',

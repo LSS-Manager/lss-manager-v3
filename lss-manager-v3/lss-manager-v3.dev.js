@@ -431,6 +431,7 @@ lssm.Module = {
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
         nomapkit: true,
+        supportedLocales: ['de']
     },
     tagMissions: {
         name: {

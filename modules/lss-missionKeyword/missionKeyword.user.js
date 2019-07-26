@@ -487,7 +487,10 @@
         462: 'Großfeuer in Lagerhalle',
         463: 'Gesprengter Geldautomat',
         464: 'Eingestürzter Funkmast',
-        465: 'Großbrand im Gefahrstofflager'
+        465: 'Großbrand im Gefahrstofflager',
+        466: 'Badeunfall',
+        467: 'Badeunfall',
+        468: 'Badeunfall'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -788,7 +791,16 @@
         279: 'Electrical Cupboard Fire',
         280: 'Smoking Electrical Equipment',
         281: 'Storage Cupboard Fire',
-        282: 'Storage Cupboard Fire'
+        282: 'Storage Cupboard Fire',
+        283: 'Illegal goods smuggling',
+        284: 'Illegal goods smuggling',
+        285: 'Illegal goods smuggling',
+        286: 'Stowaways found',
+        287: 'Stowaways found',
+        288: 'Stowaways found',
+        289: 'Customs search operation',
+        290: 'Customs search operation',
+        291: 'Customs search operation'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1271,7 +1283,10 @@
         461: 'Vliegtuig met motorisch probleem',
         462: 'Drugsafval aangetroffen',
         463: 'Verdachte vaten aangetroffen',
-        464: 'Stankoverlast'
+        464: 'Stankoverlast',
+        465: 'Brand in verzorgingshuis',
+        466: 'Brand in verzorgingshuis',
+        467: 'Brand in verzorgingshuis'
       }
     };
 
@@ -1760,7 +1775,10 @@
       462: 'B 6',
       463: 'THL 1',
       464: 'THW 1',
-      465: 'ABC 5'
+      465: 'ABC 5',
+      466: 'RD 1',
+      467: 'RD 1',
+      468: 'RD 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2045,7 +2063,16 @@
       279: 'FIRE 2',
       280: 'FIRE 1',
       281: 'FIRE 1',
-      282: 'FIRE 2'
+      282: 'FIRE 2',
+      283: 'POL 2',
+      284: 'POL 2',
+      285: 'POL 2',
+      286: 'POL 5',
+      287: 'POL 5',
+      288: 'POL 5',
+      289: 'POL 3',
+      290: 'POL 3',
+      291: 'POL 3'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2512,7 +2539,10 @@
       461: 'VOS MIDDEL',
       462: 'P 2',
       463: 'P 2',
-      464: 'P 2'
+      464: 'P 2',
+      465: 'KLEINE BRAND',
+      466: 'KLEINE BRAND',
+      467: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
