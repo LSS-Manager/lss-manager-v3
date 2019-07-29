@@ -63,10 +63,10 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/[bB]enodigd|Crashtender/)) {
-                vehicles[getVehicle(content)] = number;
-            } else if (content.match(/waarschijnlijkheid/)) {
+            if (content.match(/waarschijnlijkheid/)) {
                 percentages[getVehicle(content)] = number;
+            } else if (content.match(/[bB]enodigd|Crashtender/)) {
+                vehicles[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function(){
