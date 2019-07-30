@@ -7,6 +7,12 @@ ksort($missions);
 
 $Handle = fopen("./missions.".$_POST["lang"].".json", 'w');
 
+json_decode(json_encode($missions, JSON_PRETTY_PRINT), true);
+
+if (json_last_error() === 0) {
+    exit;
+}
+
 fwrite($Handle, preg_replace('/"(\d*?)"([^:])/', '$1$2', str_replace('"true"', "true", json_encode($missions, JSON_PRETTY_PRINT))));
 
 fclose($Handle);
