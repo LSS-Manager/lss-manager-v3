@@ -72,7 +72,11 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
             },
             credits: {
                 label: 'Durchschnittlicher Verdienst',
-                description: 'Zeigt den durchschnittlichen Verdienst für den Einsatz an.'
+                description: 'Zeigt den durchschnittlichen Verdienst, den man für diesen Einsatz bekommt an.'
+            },
+            show_siwa: {
+                label: 'Anforderungen von Sicherheitswachen',
+                description: 'Zeigt die Anforderungen bei Sicherheitswachen auch im Helfer an.'
             }
         },
         transport: 'Transport',
@@ -272,6 +276,14 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                     description: I18n.t('lssm.missionhelper.settings.credits.description')
                 }
             },
+            show_siwa: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_siwa.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.show_siwa.description')
+                }
+            },
         }
     };
 
@@ -334,7 +346,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
             const MISSIONS = clone(missions);
             const MISSION = MISSIONS[MISSION_TYPE];
 
-            if (!MISSION) return lssm.loadScript(MISSION_WRITE_FILE);
+            if (!MISSION && MISSION_TYPE) return lssm.loadScript(MISSION_WRITE_FILE);
             if (!MISSION_WINDOW) return;
 
             let markup = document.createElement('div');
@@ -352,6 +364,13 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
             localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
 
             let content = document.querySelector(`#${LSSM_MH_PREFIX} .content`);
+
+            document.querySelector(`#${LSSM_MH_PREFIX}_toggle`).onclick = () => {
+                content.classList.toggle('hidden');
+                let span = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span`);
+                span.classList.toggle('up');
+                span.classList.toggle('down');
+            };
 
             if (!MISSION_TYPE) {
                 content.innerText = I18n.t('lssm.missionhelper.diy_mission');
@@ -373,7 +392,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
 
             if (MISSION.siwa) {
                 content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.siwa')}</h4>`;
-                return adjustPosition();
+                if (!SETTINGS.show_siwa) return adjustPosition();
             }
 
             MISSION.vge && (content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.vge')}</h4>`);
