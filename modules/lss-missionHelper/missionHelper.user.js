@@ -1,4 +1,4 @@
-const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
+const LSSM_MH_PREFIX = `missionhelper`;
 const lssm_missionhelper_adjustPosition = () => {
     let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`);
     missionhelper.style.left = `${document.querySelector('#iframe-inside-container').clientWidth * 0.97 - missionhelper.clientWidth}px`;
