@@ -189,7 +189,8 @@ $.get(missionlink)
             lang: "nl"
         })
             .done(response => {
-                ($('#mission_help')[0] ? $('#missionHelper') : $('html')).append(response);
+                $(`#${LSSM_MH_PREFIX} .content`).append(response);
+                lssm_missionhelper_adjustPosition();
             });
 
         function getPOI(content) {
