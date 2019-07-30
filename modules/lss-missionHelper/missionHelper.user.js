@@ -1,31 +1,82 @@
-// Einsatzhelfer
-(($, win, I18n) => {
-    if (!window.location.href.match(/missions|(einsaetze\/\d+)/g)) return;
+const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
 
-    if (window.location.href.match(/einsaetze/)) {
-        let id = window.location.href.match(/\d+([^?]|$)/)[0];
-        $.getJSON(`${lssm.config.server}/modules/lss-missionHelper/missions.${I18n.locale}.json`, {_: new Date().getTime()}) // simple way to "disable" cache
-            .done(missions => {
-                if (!missions[id]) {
-                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`, {_: new Date().getTime()});
-                }
-            });
-        return;
-    }
+(I18n => {
 
-    I18n.translations.de['lssm']['missionHelper'] = {
-        diyMission: 'Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.',
-        vge: 'Verbandsgroßeinsatz',
+    I18n.translations.de.lssm.missionhelper = {
+        diy_mission: 'Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.',
         siwa: 'Sicherheitswache',
-        missionNotDefined: 'Dieser Einsatz ist noch nicht aufgelistet.',
+        vge: 'VerbandsGroßEinsatz',
         patients: 'Patienten',
-        transport: 'Transport',
-        tragehilfe: 'Tragehilfe',
         prisoners: 'Gefangene',
+        water: 'Wasserbedarf',
+        to: 'bis zu',
         averageMinimumEmployeesFire: 'Durchschnittlich mindestens benötigte Feuerwehrleute',
         averageMinimumEmployeesPolice: 'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
-        to: 'bis zu',
-        water: 'Wasserbedarf',
+        title: 'Einsatzhelfer',
+        settings: {
+            name: {
+                label: 'Name',
+                description: 'Zeigt den Namen des Einsatzes im Helfer an.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Zeigt die ID des Einsatzes im Helfer an.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Zeigt die ID des Einsatz-Typs im Helfer an.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Zeigt im Helfer an, an welchem POI der Einsatz ist.'
+            },
+            live_patients: {
+                label: 'Zahl der Patienten',
+                description: 'Zeigt live an, wie viele Patienten der Einsatz aktuell hat.'
+            },
+            water: {
+                label: 'Wasserbedarf',
+                description: 'Zeigt die insgesamt benötigte Wassermenge an.'
+            },
+            vehicles: {
+                label: 'Fahrzeuge',
+                description: 'Zeigt die benötigten Fahrzeuge an.'
+            },
+            hide_elw1: {
+                label: 'ELW 1 einfach werten',
+                description: 'Zieht die Zahl der benötigten ELW 2 von den ELW 1 ab und blendet ELW 1 aus, falls die Anzahl unter 0 sinkt.'
+            },
+            hide_rw: {
+                label: 'Rüstwagen einfach werten',
+                description: 'Zieht die Zahl der benötigten LF von den RW ab und blendet RW aus, falls die Anzahl unter 0 sinkt. Diese Funktion ist für Leute gedacht, die ein reines HLF-System fahren.'
+            },
+            patients: {
+                label: 'Patienteninformationen',
+                description: 'Zeigt Informationen über (potentielle) Patienten.'
+            },
+            prisoners: {
+                label: 'Gefangeneninformationen',
+                description: 'Zeigt Informationen über (potentielle) Gefangene'
+            },
+            special: {
+                label: 'Sonstige Informationen',
+                description: 'Zeigt Spezielle Informationen, wie z.B. das durchschnittlich mindestens benötige Personal, an.'
+            },
+            expansions: {
+                label: 'Ausbreitungen',
+                description: 'Zeigt, zu was sich der Einsatz ausbreiten kann. (Zeigt nur einfache Ausbreitung)'
+            },
+            show_100: {
+                label: 'Zeige 100% Wahrscheinlichkeit',
+                description: 'Zeigt die Wahrscheinlichkeit für ein Fahrzeug auch an, wenn diese 100% beträgt.'
+            },
+            credits: {
+                label: 'Durchschnittlicher Verdienst',
+                description: 'Zeigt den durchschnittlichen Verdienst für den Einsatz an.'
+            }
+        },
+        transport: 'Transport',
+        tragehilfe: 'Tragehilfe',
         vehicles: {
             lf: 'Löschfahrzeuge',
             dlk: 'Drehleitern',
@@ -119,297 +170,309 @@
         ]
     };
 
-    I18n.translations.en['lssm']['missionHelper'] = {
-        diyMission: 'This mission seems to be a large scale alliance mission.',
-        vge: 'Large scale alliance mission',
-        siwa: 'Planned mission',
-        missionNotDefined: 'This mission is not listed yet.',
-        patients: 'Patients',
-        transport: 'Transport',
-        prisoners: 'Prisoners',
-        to: 'up to',
-        SWATPersonnel: "Needed SWAT Personnel",
-        vehicles: {
-            truck: "Firetrucks",
-            platform: "Platform truck",
-            heavyRescue: "Heavy Rescue vehicles or Utility unit",
-            boat: "Boat",
-            air: "Mobile Air",
-            bchief: "Battalion Chief Unit",
-            tanker: "Water Tanker",
-            hazmat: "HazMat",
-            mcv: "Mobile Command Vehicle",
-            arff: "ARFF",
-            largeFireboat: "Large Fireboat",
-            als: "ALS Ambulance",
-            bls: "BLS Ambulance",
-            fly: "Fly-Car",
-            ems: "EMS Rescue",
-            mcu: "Mass Casualty Unit",
-            largeRescueboat: "Large Rescueboat",
-            police: "Police Car",
-            k9: "K-9",
-            pmotorcycle: "Police Motorcycle",
-            swatArmoured: "SWAT Armoured Vehicle",
-            swatSuv: "SWAT SUV",
-            hems: "HEMS",
-            policeHeli: "Police Helicopter"
-        },
-        pois: [
-            "Park",
-            "Lake",
-            "Hospital",
-            "Forest",
-            "Bus stop",
-            "Tram stop",
-            "Train station (regional traffic)",
-            "Train station (regional traffic and long-distance travel)",
-            "Goods station",
-            "Supermarket (small)",
-            "Supermarket (big)",
-            "Gas station",
-            "School",
-            "Museum",
-            "Mall",
-            "Car workshop",
-            "Highway exit",
-            "Christmas market",
-            "Storehouse",
-            "Discotheque",
-            "Stadium",
-            "Farm",
-            "Office building",
-            "Swimming bath",
-            "Railroad Crossing",
-            "Theater",
-            "Fairground",
-            "River",
-            "Small Airport (Runway)",
-            "Large Airport (Runway)",
-            "Airport Terminal",
-            "Bank",
-            "Warehouse",
-            "Bridge",
-            "Fast Food Restaurant",
-            "Cargo Port",
-            "Recycling Centre",
-            "High rise",
-            "Cruise ship dock",
-            "Marina",
-            "Rail Crossing",
-            "Tunnel",
-            "Cold Storage Warehouse",
-            "Power Plant",
-            "Factory",
-            "Scrap yard",
-            "Subway station",
-            "Small chemical storage tank",
-            "Large chemical storage tank",
-            "Hotel",
-            "Bar",
-            "Landfill site",
-        ]
-    };
+    const SETTINGS_STORAGE = `${LSSM_MH_PREFIX}_STORAGE`;
 
-    I18n.translations.nl['lssm']['missionHelper'] = {
-        diyMission: 'Deze missie lijkt een grootschalige alliantiemissie te zijn.',
-        vge: 'Grootschalige alliantiemissie',
-        siwa: 'Geplande missie',
-        missionNotDefined: 'Deze missie staat nog niet op de lijst.',
-        patients: 'Patiënten',
-        transport: 'Transport',
-        prisoners: 'Gevangenen',
-        to: 'tot',
-        vehicles: {
-            tankauto: "Tankautospuiten",
-            noodhulpeen: "Noodhulpeenheden",
-            ovdb: "OvD-B",
-            redvoertuig: "Redvoertuigen",
-            hoogwerker: "Hoogwerker",
-            slangenwagen: "Slangenwagen",
-            hulpverlening: "Hulpverleningsvoertuigen",
-            Adembescherming: "Adembeschermingsvoertuigen",
-            hovd: "HOVD",
-            waarschuwing: "Waarschuwings- en Verkenningsdienst voertuigen",
-            gevaar: "Adviseurs Gevaarlijke Stoffen",
-            ovdp: "Officiers van Dienst Politie",
-            commando: "Commandowagen",
-            ambulance: "Ambulances",
-            megroep: "ME Groepsvoertuig",
-            mecommando: "ME Commandovoertuigen",
-            polHeli: "Politie Helikopter",
-            watervoertuig: "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
-            wateraanhanger: "Waterongevallenaanhangers",
-            hond: "Hondengeleider",
-            crashtender: "Crashtender",
-            afoosc: "AFO/OSC"
-        },
-        pois: [
-            "Park",
-            "Meer",
-            "Ziekenhuis",
-            "Bos",
-            "Bushalte",
-            "Tramhalte",
-            "Station",
-            "Centraal Station",
-            "Rangeeremplacement",
-            "Buurtsuper",
-            "Supermarkt",
-            "Tankstation",
-            "School",
-            "Museum",
-            "Winkelcentrum",
-            "Garage",
-            "Snelweg oprit / afrit",
-            "Kerstmarkt",
-            "Magazijn",
-            "Café/Club",
-            "Stadion",
-            "Boerderij",
-            "Kantoorgebouw",
-            "Zwembad",
-            "Spoorwegovergang",
-            "Theater",
-            "Marktplein",
-            "Rivier",
-            "Sloot",
-            "Vliegveld \\(klein\\): Start-/Landingsbaan",
-            "Vliegveld \\(klein\\): Gebouw",
-            "Vliegveld \\(klein\\): Vliegtuig parkeerplaats",
-            "Vliegveld \\(groot\\): Start-/Landingsbaan",
-            "Vliegveld \\(groot\\): Terminal",
-            "Vliegveld \\(groot\\): Platform / Gate",
-            "Vliegveld \\(groot\\): Parkeergarage",
-            "Parkeergarage",
-            "Verzorgingshuis",
-            "Manege",
-            "Hotel",
-            "Restaurant",
-            "Bankkantoor",
-            "Sporthal",
-            "Camping",
-            "Gevangenis",
-            "Asielzoekerscentrum",
-            "Afvalverwerker",
-            "Kerkgebouw",
-            "Bouwmarkt",
-            "Transformatorhuisje",
-            "Industrieterrein",
-            "Bedrijventerrein",
-            "Haventerrein",
-            "Bouwterrein"
-        ]
-    };
-
-    let missionHelp = $('#mission_help');
-
-    let aaoText = '';
-    let markup = '<div class="alert alert-warning" id="missionHelper"><div class="handle"></div><a class="pull-right" id="pinMissionHelper"><i class="glyphicon glyphicon-pushpin"></i></a>';
-
-    if (missionHelp.length > 0) {
-        $.getJSON(`${lssm.config.server}/modules/lss-missionHelper/missions.${I18n.locale}.json`, {_: new Date().getTime()}) // simple way to "disable" cache
-            .done(missions => {
-                let missionId = missionHelp.attr('href').split("/").pop().replace(/\?.*/, '');
-                let mission = missions[missionId];
-                if (mission) {
-                    aaoText += `<h3>${mission['name']}&nbsp;<sub><sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>&nbsp;<sub>${mission.poi ? `POI: ${I18n.t(`lssm.missionHelper.pois.${mission.poi}`)} <sub>[${mission.poi}]</sub>` : ""}</sub></sub></h3><br>`;
-                    if (mission.onlyRd) {
-                        // Ambulance-only Missions
-                        if (mission.transport || mission.specialisation) {
-                            aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${(mission.transport && `${mission.transport}%`)||""}${void 0 !== typeof mission.specialisation && ` (${mission.specialisation})`}`;
-                        }
-                        mission.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.nef}%`);
-                        mission.mmtarts && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.mmtarts')}: ${mission.mmtarts}%`);
-                        mission.rth && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.rth')}: ${mission.rth}%`);
-                        mission.tragehilfe && (aaoText += `<br>${I18n.t('lssm.missionHelper.tragehilfe')}: ${mission.tragehilfe}%`);
-                        aaoText += '<br>';
-                    } else {
-                        // not Ambulance-only Missions
-                        // If VGE
-                        mission.vge && (aaoText += `<h4>${I18n.t('lssm.missionHelper.vge')}</h4>`);
-
-                        // If Sicherheitswache
-                        if (mission['siwa'] === true) {
-                            aaoText += `<h4>${I18n.t('lssm.missionHelper.siwa')}</h4>`;
-                        } else {
-                            // Number of patients
-                            let patients = $(".mission_patient").length;
-                            patients > 0 && (aaoText += `<span class="badge">${I18n.t('lssm.missionHelper.patients')}: ${patients}</span><br><br>`);
-
-                            // Add Wasserbedarf
-                            mission.water && (aaoText += `${I18n.t('lssm.missionHelper.water')}: ${mission['water'].toLocaleString()} Liter<br>`);
-
-                            // Add vehicles
-                            let vehicles = mission.vehicles;
-                            $.each(vehicles, function (key, val) {
-                                aaoText += `${val}x ${I18n.t(`lssm.missionHelper.vehicles.${key}`)} ${(mission.percentages && mission.percentages[key] && `(${mission.percentages[key]}%)`)||`(100%)`}<br>`;
-                            });
-                            // Add patients
-                            if (mission.patients) {
-                                aaoText += `<br>${I18n.t('lssm.missionHelper.patients')}: ${(mission.patients.min !== mission.patients.max) && (`${mission.patients.min||0} ${I18n.t('lssm.missionHelper.to')}`)||''} ${mission.patients.max}<br>`;
-
-                                if (mission.patients.transport || mission.patients.specialisation) {
-                                    aaoText += `${I18n.t('lssm.missionHelper.transport')}: ${(mission.patients.transport && `${mission.patients.transport}%`)||""}${void 0 !== typeof mission.patients.specialisation && ` (${mission.patients.specialisation})`}`;
-                                }
-
-                                mission.patients.nef && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.nef')}: ${mission.patients.nef}%`);
-                                mission.patients.mmtarts && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.mmtarts')}: ${mission.patients.mmtarts}%`);
-                                mission.patients.rth && (aaoText += `<br>${I18n.t('lssm.missionHelper.vehicles.rth')}: ${mission.patients.rth}%`);
-                                mission.patients.tragehilfe && (aaoText += `<br>${I18n.t('lssm.missionHelper.tragehilfe')}: ${mission.patients.tragehilfe}%`);
-
-                                patients >= 5 && (aaoText += `<br>1x ${I18n.t('lssm.missionHelper.vehicles.lna')} (100%)`);
-                                patients >= 10 && (aaoText += `<br>1x ${I18n.t('lssm.missionHelper.vehicles.lna')} (100%)`);
-                                aaoText += '<br>';
-                            }
-                            // Add prisoners
-                            if (mission.prisoners) {
-                                aaoText += `<br>${I18n.t('lssm.missionHelper.prisoners')}: ${(mission.prisoners.min !== mission.prisoners.max) && (`${mission.prisoners.min||0} ${I18n.t('lssm.missionHelper.to')}`)} ${mission.prisoners.max}<br>`;
-                            }
-                            // Add minuimum needed averageMinimumEmployees
-                            mission.special && mission.special.averageMinimumEmployeesFire && (aaoText += `<br>${I18n.t('lssm.missionHelper.averageMinimumEmployeesFire')}: ${mission.special.averageMinimumEmployeesFire}<br>`);
-                            mission.special && mission.special.averageMinimumEmployeesPolice && (aaoText += `<br>${I18n.t('lssm.missionHelper.averageMinimumEmployeesPolice')}: ${mission.special.averageMinimumEmployeesPolice}<br>`);
-                            mission.special && mission.special.SWATPersonnel && (aaoText += `<br>${I18n.t('lssm.missionHelper.SWATPersonnel')}: ${mission.special.SWATPersonnel}<br>`);
-
-                            // Add Credits
-                            mission.credits && (aaoText += `<br><span class="badge badge-secondary"> ~ ${parseInt(mission.credits).toLocaleString()} Credits</span>`);
-                            if (mission.expansions) {
-                                aaoText += '<br>';
-                                $.each(mission.expansions, function () {
-                                    aaoText += `<a href="../einsaetze/${this}"><span class="badge">${missions[this] ? missions[this].name : this}</span></a>`;
-                                });
-                            }
-                        }
-                    }
-                } else {
-                    aaoText += `${I18n.t('lssm.missionHelper.missionNotDefined')}<sub>ID: ${window.location.href.replace(/\D/g, "")}</sub>&nbsp;<sub>Type: ${missionId}</sub>`;
-                    $.getScript(`${lssm.config.server}/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`, {_: new Date().getTime()});
+    const managed_settings = {
+        id: SETTINGS_STORAGE,
+        title: I18n.t('lssm.missionhelper.title'),
+        settings: {
+            name: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.name.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.name.description')
                 }
-                $('#missionHelper .content').append(`${aaoText}<br>`);
-                $("#missionHelper").css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
+            },
+            id: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.id.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.id.description')
+                }
+            },
+            type: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.type.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.type.description')
+                }
+            },
+            poi: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.poi.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.poi.description')
+                }
+            },
+            live_patients: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.live_patients.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.live_patients.description')
+                }
+            },
+            vehicles: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.vehicles.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.vehicles.description')
+                }
+            },
+            patients: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.patients.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.patients.description')
+                }
+            },
+            prisoners: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.prisoners.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.prisoners.description')
+                }
+            },
+            special: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.special.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.special.description')
+                }
+            },
+            expansions: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.expansions.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.expansions.description')
+                }
+            },
+            show_100: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_100.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.show_100.description')
+                }
+            },
+            credits: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.credits.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.credits.description')
+                }
+            },
+        }
+    };
 
-            })
-            .fail((jqxhr, textStatus, error) => {
-                $('#missionHelper .content').append(`<pre>${error}</pre>`);
-                $("#missionHelper").css("left", $('#iframe-inside-container').width() * 0.97 - $("#missionHelper").width());
-            });
-    } else {
-        aaoText += I18n.t('lssm.missionHelper.diyMission');
+    switch (I18n.locale) {
+        case 'de':
+            managed_settings.settings.water = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.water.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.water.description')
+                }
+            };
+            managed_settings.settings.hide_elw1 = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.hide_elw1.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.hide_elw1.description')
+                }
+            };
+            managed_settings.settings.hide_rw = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.hide_rw.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.hide_rw.description')
+                }
+            };
+            break;
+        case 'en':
+            break;
     }
-    // Set markup
-    markup += `<article class="content">${aaoText}</article><span id="toggle-mission-helper"><span class="up"></span></span></div>`;
 
-    localStorage["lssm_missionHelper_state"] === "unpin" ? unpin(markup) : pin(markup);
+    lssm.managedSettings.register(managed_settings);
 
-    $('head').append(`<style>
-#missionHelper .content {
+    if (!window.location.href.match(/missions|(einsaetze\/\d+)/g)) return;
+
+    const clone = a => JSON.parse(JSON.stringify(a));
+    const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
+    const adjustPosition = () => {
+        let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`);
+        missionhelper.style.left = `${document.querySelector('#iframe-inside-container').clientWidth * 0.97 - missionhelper.clientWidth}px`;
+    };
+
+    const MISSIONS_FILE = lssm.getlink(`/modules/lss-missionHelper/missions.${I18n.locale}.json`);
+    const MISSION_WRITE_FILE = `/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js?_=${new Date().getTime()}`;
+    const MISSION_WINDOW = null === window.location.href.match(/einsaetze\/\d+/);
+    let mission_help = $('#mission_help');
+    const MISSION_TYPE = MISSION_WINDOW?mission_help[0]?mission_help.attr("href").split("/").pop().replace(/\?.*/,""):null:window.location.href.match(/\d+([^?]|$)/)[0];
+    const MISSION_ID = window.location.href.replace(/\D/g, '');
+    const SETTINGS = Object.keys(managed_settings.settings).reduce((result, key) => {
+        result[key] = get_setting(key);
+        return result;
+    }, {});
+
+    fetch(MISSIONS_FILE)
+        .then(missions => missions.json())
+        .then(missions => {
+            const MISSIONS = clone(missions);
+            const MISSION = MISSIONS[MISSION_TYPE];
+
+            if (!MISSION) return lssm.loadScript(MISSION_WRITE_FILE);
+            if (!MISSION_WINDOW) return;
+
+            let markup = document.createElement('div');
+            markup.id = LSSM_MH_PREFIX;
+            markup.classList.add('alert', 'alert-warning', localStorage[`${LSSM_MH_PREFIX}_state`] || 'pinned');
+            markup.innerHTML =
+                `<div class="handle"></div>
+<a class="pull-right" id="${LSSM_MH_PREFIX}_pin">
+    <i class="glyphicon glyphicon-pushpin"></i>
+</a>
+<article class="content"></article>
+<br>
+<span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
+
+            localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
+
+            let content = document.querySelector(`#${LSSM_MH_PREFIX} .content`);
+
+            if (!MISSION_TYPE) {
+                content.innerText = I18n.t('lssm.missionhelper.diy_mission');
+                return adjustPosition();
+            }
+
+            if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
+                content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) || ''}<sub>${(SETTINGS.id && `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) || ''}${(SETTINGS.type && `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) || ''}${(MISSION.poi && SETTINGS.poi && `&nbsp;<sub>POI: ${I18n.t(`lssm.missionhelper.pois.${MISSION.poi}`)} <sub>[${MISSION.poi}]</sub></sub>`) || ''}</sub></h3><br>`;
+            }
+
+            if (MISSION.onlyRd) {
+                (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`)||""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
+                MISSION.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.nef}%`);
+                MISSION.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.mmtarts}%`);
+                MISSION.rth && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.rth')}: ${MISSION.rth}%`);
+                MISSION.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.tragehilfe}%`);
+                return adjustPosition();
+            }
+
+            if (MISSION.siwa) {
+                content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.siwa')}</h4>`;
+                return adjustPosition();
+            }
+
+            MISSION.vge && (content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.vge')}</h4>`);
+
+            let patients = document.querySelectorAll('.mission_patient').length;
+            SETTINGS.live_patients && patients > 0 && (content.innerHTML += `<span class="badge" id="${LSSM_MH_PREFIX}_live_patients">${I18n.t('lssm.missionhelper.patients')}: ${patients}</span><br><br>`);
+
+            SETTINGS.water && MISSION.water && (content.innerHTML += `${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter<br>`);
+
+            if (SETTINGS.vehicles) {
+                if (SETTINGS.hide_elw1 && MISSION.vehicles.elw1 && MISSION.vehicles.elw2) {
+                    MISSION.vehicles.elw1 -= MISSION.vehicles.elw2;
+                    if (MISSION.vehicles.elw1 <= 0) delete MISSION.vehicles.elw1;
+                }
+                if (SETTINGS.hide_rw && MISSION.vehicles.rw && MISSION.vehicles.lf) {
+                    MISSION.vehicles.rw -= MISSION.vehicles.lf;
+                    if (MISSION.vehicles.rw <= 0) delete MISSION.vehicles.rw;
+                }
+                for (let vehicle in MISSION.vehicles) {
+                    if (!MISSION.vehicles.hasOwnProperty(vehicle)) continue;
+                    content.innerHTML += `${MISSION.vehicles[vehicle]}x ${I18n.t(`lssm.missionhelper.vehicles.${vehicle}`)} ${(MISSION.percentages && MISSION.percentages[vehicle] && `(${MISSION.percentages[vehicle]}%)`)||(SETTINGS.show_100 && `(100%)`) || ''}<br>`;
+                }
+            }
+
+            if (MISSION.patients && SETTINGS.patients) {
+                content.innerHTML += `<br>${I18n.t('lssm.missionhelper.patients')}: ${(MISSION.patients.min !== MISSION.patients.max) && (`${MISSION.patients.min||0} ${I18n.t('lssm.missionhelper.to')}`)||''} ${MISSION.patients.max}<br>`;
+
+                if (MISSION.patients.transport || MISSION.patients.specialisation) {
+                    content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.patients.transport && `${MISSION.patients.transport}%`)||""}${void 0 !== typeof MISSION.patients.specialisation && ` (${MISSION.patients.specialisation})`}`;
+                }
+
+                MISSION.patients.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.patients.nef}%`);
+                MISSION.patients.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.patients.mmtarts}%`);
+                MISSION.patients.rth && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.rth')}: ${MISSION.patients.rth}%`);
+                MISSION.patients.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.patients.tragehilfe}%`);
+
+                patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
+                patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
+                content.innerHTML += '<br>';
+            }
+
+            SETTINGS.prisoners && MISSION.prisoners && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.prisoners.min !== MISSION.prisoners.max) && (`${MISSION.prisoners.min||0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.prisoners.max}<br>`);
+
+            SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesFire && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesFire')}: ${MISSION.special.averageMinimumEmployeesFire}<br>`);
+            SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
+            SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
+
+            SETTINGS.credits && MISSION.credits && (content.innerHTML += `<br><span class="badge badge-secondary"> ~ ${MISSION.credits.toLocaleString()} Credits</span>`);
+
+            if (SETTINGS.expansions && MISSION.expansions) {
+                content.innerHTML += '<br>';
+                for (let i = 0; i < MISSION.expansions.length; i++) {
+                    let id = MISSION.expansions[i];
+                    content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
+                }
+            }
+
+            adjustPosition();
+        });
+
+    $('head').append(
+        `<style>
+#${LSSM_MH_PREFIX} {
+    transition: 100ms linear;
+    min-width: 100px;
+}
+#${LSSM_MH_PREFIX} .content {
     height: auto;
     margin-bottom: 0.625em;
 }
-#missionHelper .content.hidden {
+#${LSSM_MH_PREFIX} .content.hidden {
     height: 0;
 }
-#toggle-mission-helper {
+#${LSSM_MH_PREFIX}.pinned {
+    position: unset;
+    max-width: unset;
+}
+#${LSSM_MH_PREFIX}.pinned .handle {
+    display: none;
+}
+#${LSSM_MH_PREFIX}.unpinned {
+    position: absolute;
+    top: 3%;
+    max-width: calc(100%/3);
+}
+#${LSSM_MH_PREFIX}.unpinned .handle {
+    width: 100%;
+    height: 5px;
+    cursor: move;
+    display: block;
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 10px,
+        #ccc 10px,
+        #ccc 20px
+    )
+}
+#${LSSM_MH_PREFIX}_toggle {
     min-width: 100px;
     cursor: pointer;
     width: 100%;
@@ -418,7 +481,7 @@
     bottom: 5%;
     left: 0;
 }
-#toggle-mission-helper span {
+#${LSSM_MH_PREFIX}_toggle span {
     border: 3px solid #4a4a4a;
     border-radius: 2px;
     border-right: 0;
@@ -431,70 +494,43 @@
     width: 0.625em;
     position: relative;
 }
-#toggle-mission-helper span.up {
+#${LSSM_MH_PREFIX}_toggle span.up {
     transform: rotate(135deg);
 }
-#toggle-mission-helper span.down {
+#${LSSM_MH_PREFIX}_toggle span.down {
     transform: rotate(-45deg);
 }
-</style>`);
-
-    $('#toggle-mission-helper').click(function() {
-        $('#missionHelper .content').toggleClass("hidden");
-        $('#toggle-mission-helper span').toggleClass("up")
-            .toggleClass("down");
-    });
-
-    $('#missionHelper')
-        .css("transition", "100ms linear")
-        .css("min-width", "100px");
-
-    $('#pinMissionHelper').css("cursor", "pointer");
-
-    $('.alert-missing-vehicles')
-        .mouseover(function() {
-            localStorage["lssm_missionHelper_state"] === "unpin" && $('#missionHelper').css("opacity", "0.1");
-        })
-        .mouseout(function() {
-            localStorage["lssm_missionHelper_state"] === "unpin" && $('#missionHelper').css("opacity", "1");
-        });
-
-})($, window, I18n);
-
-function pin(markup) {
-    $('#mission-form').prepend(markup||$('#missionHelper'));
-    $('#missionHelper .handle').css("display", "none");
-    $('#missionHelper').css("position", "unset")
-        .css("max-width", "unset");
-    $('#pinMissionHelper').attr("onclick", "unpin(null)");
-    localStorage["lssm_missionHelper_state"] = "pin";
-    if ($('#toggle-mission-helper span').hasClass('down')) {
-        $('#toggle-mission-helper').click();
-    }
+#${LSSM_MH_PREFIX}_pin {
+    cursor: pointer;
 }
 
-function unpin(markup) {
-    $('#iframe-inside-container').append(markup||$('#missionHelper'));
-    $('#missionHelper .handle').css("width", "100%")
-        .css("height", "5px")
-        .css("cursor", "move")
-        .css("display", "block")
-        .css("background", "repeating-linear-gradient(\n" +
-            "-45deg,\n" +
-            "transparent,\n" +
-            "transparent 10px,\n" +
-            "#ccc 10px,\n" +
-            "#ccc 20px\n" +
-            ")");
-    $('#missionHelper').draggable({
-        handle: ".handle",
-        containment: "#iframe-inside-container",
+.alert-missing-vehicles:hover ~ #${LSSM_MH_PREFIX} {
+    opacity: 0.1;
+}
+</style>`
+    );
+})(I18n);
+
+let pin_missionhelper = (markup) => {
+    let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`) || markup;
+    document.querySelector('#mission-form').prepend(missionhelper);
+    missionhelper.classList.replace('unpinned', 'pinned');
+    let toggle_btn = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span.down`);
+    toggle_btn && toggle_btn.click();
+    document.querySelector(`#${LSSM_MH_PREFIX}_pin`).onclick = () => unpin_missionhelper(null);
+    localStorage[`${LSSM_MH_PREFIX}_state`] = 'pinned';
+};
+
+let unpin_missionhelper = (markup) => {
+    let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`) || markup;
+    document.querySelector('#iframe-inside-container').append(missionhelper);
+    missionhelper.classList.replace('pinned', 'unpinned');
+    document.querySelector(`#${LSSM_MH_PREFIX}_pin`).onclick = () => pin_missionhelper(null);
+    $(`#${LSSM_MH_PREFIX}`).draggable({
+        handle: '.handle',
+        containment: '#iframe-inside-container',
         scroll: true,
-        stack: "#iframe-inside-container"
-    })
-        .css("position", "absolute")
-        .css("top", "3%")
-        .css("max-width", "33.3333%");
-    $('#pinMissionHelper').attr("onclick", "pin(null)");
-    localStorage["lssm_missionHelper_state"] = "unpin";
-}
+        stack: '#iframe-inside-container'
+    });
+    localStorage[`${LSSM_MH_PREFIX}_state`] = 'unpinned';
+};
