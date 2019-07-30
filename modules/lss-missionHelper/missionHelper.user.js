@@ -647,7 +647,7 @@ const lssm_missionhelper_adjustPosition = () => {
     <i class="glyphicon glyphicon-pushpin"></i>
 </a>
 <article class="content"></article>
-<br>
+<br class="unpinned">
 <span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
 
             MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
@@ -763,6 +763,9 @@ const lssm_missionhelper_adjustPosition = () => {
     max-width: unset;
 }
 #${LSSM_MH_PREFIX}.pinned .handle {
+    display: none;
+}
+#${LSSM_MH_PREFIX}.pinned br.unpinned {
     display: none;
 }
 #${LSSM_MH_PREFIX}.unpinned {
