@@ -1,4 +1,8 @@
 const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
+const lssm_missionhelper_adjustPosition = () => {
+    let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`);
+    missionhelper.style.left = `${document.querySelector('#iframe-inside-container').clientWidth * 0.97 - missionhelper.clientWidth}px`;
+};
 
 (I18n => {
 
@@ -174,6 +178,298 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
         ]
     };
 
+    I18n.translations.en.lssm.missionhelper = {
+        diy_mission: 'This mission seems to be a large scale alliance mission.',
+        siwa: 'Planned mission',
+        vge: 'Large scale alliance mission',
+        patients: 'Patients',
+        prisoners: 'Prisoners',
+        water: 'Wasserbedarf',
+        to: 'up to',
+        SWATPersonnel: "Needed SWAT Personnel",
+        title: 'Missionhelper',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'Name',
+                description: 'Shows the name of the mission in the helper.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Displays the ID of the mission in the helper.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Displays the ID of the mission type in the helper.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indicates in the helper which POI the operation is at.'
+            },
+            live_patients: {
+                label: 'Number of patients',
+                description: 'Shows live how many patients are currently in use.'
+            },
+            vehicles: {
+                label: 'Vehicles',
+                description: 'Displays the required vehicles.'
+            },
+            patients: {
+                label: 'patient information',
+                description: 'Shows information about (potential) patients.'
+            },
+            prisoners: {
+                label: 'prisoner information',
+                description: 'Shows information about (potential) prisoners.'
+            },
+            special: {
+                label: 'Other information',
+                description: 'Displays special information, such as the average minimum number of personnel required.'
+            },
+            expansions: {
+                label: 'distributions',
+                description: 'Shows what the bet can spread to. (Shows only simple spread)'
+            },
+            show_100: {
+                label: 'Show 100% probability',
+                description: 'Shows the probability for a vehicle even if it is 100%.'
+            },
+            credits: {
+                label: 'Average earnings',
+                description: 'Shows the average earnings you get for this assignment.'
+            },
+            show_siwa: {
+                label: 'Requirements of security guards',
+                description: 'Shows the requirements for security guards in the helper as well.'
+            }
+        },
+        vehicles: {
+            truck: "Firetrucks",
+            platform: "Platform truck",
+            heavyRescue: "Heavy Rescue vehicles or Utility unit",
+            boat: "Boat",
+            air: "Mobile Air",
+            bchief: "Battalion Chief Unit",
+            tanker: "Water Tanker",
+            hazmat: "HazMat",
+            mcv: "Mobile Command Vehicle",
+            arff: "ARFF",
+            largeFireboat: "Large Fireboat",
+            als: "ALS Ambulance",
+            bls: "BLS Ambulance",
+            fly: "Fly-Car",
+            ems: "EMS Rescue",
+            mcu: "Mass Casualty Unit",
+            largeRescueboat: "Large Rescueboat",
+            police: "Police Car",
+            k9: "K-9",
+            pmotorcycle: "Police Motorcycle",
+            swatArmoured: "SWAT Armoured Vehicle",
+            swatSuv: "SWAT SUV",
+            hems: "HEMS",
+            policeHeli: "Police Helicopter"
+        },
+        pois: [
+            "Park",
+            "Lake",
+            "Hospital",
+            "Forest",
+            "Bus stop",
+            "Tram stop",
+            "Train station (regional traffic)",
+            "Train station (regional traffic and long-distance travel)",
+            "Goods station",
+            "Supermarket (small)",
+            "Supermarket (big)",
+            "Gas station",
+            "School",
+            "Museum",
+            "Mall",
+            "Car workshop",
+            "Highway exit",
+            "Christmas market",
+            "Storehouse",
+            "Discotheque",
+            "Stadium",
+            "Farm",
+            "Office building",
+            "Swimming bath",
+            "Railroad Crossing",
+            "Theater",
+            "Fairground",
+            "River",
+            "Small Airport (Runway)",
+            "Large Airport (Runway)",
+            "Airport Terminal",
+            "Bank",
+            "Warehouse",
+            "Bridge",
+            "Fast Food Restaurant",
+            "Cargo Port",
+            "Recycling Centre",
+            "High rise",
+            "Cruise ship dock",
+            "Marina",
+            "Rail Crossing",
+            "Tunnel",
+            "Cold Storage Warehouse",
+            "Power Plant",
+            "Factory",
+            "Scrap yard",
+            "Subway station",
+            "Small chemical storage tank",
+            "Large chemical storage tank",
+            "Hotel",
+            "Bar",
+            "Landfill site",
+        ]
+    };
+
+    I18n.translations.nl.lssm.missionhelper = {
+        diy_mission: 'Deze missie lijkt een grootschalige alliantiemissie te zijn.',
+        siwa: 'Geplande missie',
+        vge: 'Grootschalige alliantiemissie',
+        patients: 'Patiënten',
+        prisoners: 'Gevangenen',
+        to: 'tot',
+        title: 'Meldinghelper',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'Name',
+                description: 'Toont de naam van de missie in de helper.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Toont de ID van de missie in de helper.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Toont de ID van het missietype in de helper.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Geeft in de helper aan op welke POI de bewerking betrekking heeft.'
+            },
+            live_patients: {
+                label: 'Aantal patiënten',
+                description: 'Laat live zien hoeveel patiënten er momenteel in gebruik zijn.'
+            },
+            vehicles: {
+                label: 'voertuigen',
+                description: 'Geeft de benodigde voertuigen weer.'
+            },
+            patients: {
+                label: 'patiënteninformatie',
+                description: 'Toont informatie over (potentiële) patiënten.'
+            },
+            prisoners: {
+                label: 'gevangeneninformatie',
+                description: 'Toont informatie over (potentiële) gevangenen'
+            },
+            special: {
+                label: 'Overige informatie',
+                description: 'Toont speciale informatie, zoals het gemiddelde minimum aantal personeelsleden dat nodig is.'
+            },
+            expansions: {
+                label: 'uitdelingen',
+                description: 'Laat zien waar de weddenschap toe kan leiden. (Toont slechts eenvoudige verspreiding)'
+            },
+            show_100: {
+                label: 'Toon 100% waarschijnlijkheid',
+                description: 'Toont de waarschijnlijkheid van een voertuig, ook al is het 100%.'
+            },
+            credits: {
+                label: 'Gemiddelde verdiensten',
+                description: 'Toont de gemiddelde verdiensten die je krijgt voor deze opdracht.'
+            },
+            show_siwa: {
+                label: 'Eisen aan beveiligers',
+                description: 'Toont ook de vereisten voor de bewakers in de helper.'
+            }
+        },
+        vehicles: {
+            tankauto: "Tankautospuiten",
+            noodhulpeen: "Noodhulpeenheden",
+            ovdb: "OvD-B",
+            redvoertuig: "Redvoertuigen",
+            hoogwerker: "Hoogwerker",
+            slangenwagen: "Slangenwagen",
+            hulpverlening: "Hulpverleningsvoertuigen",
+            Adembescherming: "Adembeschermingsvoertuigen",
+            hovd: "HOVD",
+            waarschuwing: "Waarschuwings- en Verkenningsdienst voertuigen",
+            gevaar: "Adviseurs Gevaarlijke Stoffen",
+            ovdp: "Officiers van Dienst Politie",
+            commando: "Commandowagen",
+            ambulance: "Ambulances",
+            megroep: "ME Groepsvoertuig",
+            mecommando: "ME Commandovoertuigen",
+            polHeli: "Politie Helikopter",
+            watervoertuig: "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
+            wateraanhanger: "Waterongevallenaanhangers",
+            hond: "Hondengeleider",
+            crashtender: "Crashtender",
+            afoosc: "AFO/OSC"
+        },
+        pois: [
+            "Park",
+            "Meer",
+            "Ziekenhuis",
+            "Bos",
+            "Bushalte",
+            "Tramhalte",
+            "Station",
+            "Centraal Station",
+            "Rangeeremplacement",
+            "Buurtsuper",
+            "Supermarkt",
+            "Tankstation",
+            "School",
+            "Museum",
+            "Winkelcentrum",
+            "Garage",
+            "Snelweg oprit / afrit",
+            "Kerstmarkt",
+            "Magazijn",
+            "Café/Club",
+            "Stadion",
+            "Boerderij",
+            "Kantoorgebouw",
+            "Zwembad",
+            "Spoorwegovergang",
+            "Theater",
+            "Marktplein",
+            "Rivier",
+            "Sloot",
+            "Vliegveld \\(klein\\): Start-/Landingsbaan",
+            "Vliegveld \\(klein\\): Gebouw",
+            "Vliegveld \\(klein\\): Vliegtuig parkeerplaats",
+            "Vliegveld \\(groot\\): Start-/Landingsbaan",
+            "Vliegveld \\(groot\\): Terminal",
+            "Vliegveld \\(groot\\): Platform / Gate",
+            "Vliegveld \\(groot\\): Parkeergarage",
+            "Parkeergarage",
+            "Verzorgingshuis",
+            "Manege",
+            "Hotel",
+            "Restaurant",
+            "Bankkantoor",
+            "Sporthal",
+            "Camping",
+            "Gevangenis",
+            "Asielzoekerscentrum",
+            "Afvalverwerker",
+            "Kerkgebouw",
+            "Bouwmarkt",
+            "Transformatorhuisje",
+            "Industrieterrein",
+            "Bedrijventerrein",
+            "Haventerrein",
+            "Bouwterrein"
+        ]
+    };
+
     const SETTINGS_STORAGE = `${LSSM_MH_PREFIX}_STORAGE`;
 
     const managed_settings = {
@@ -283,7 +579,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                     type: 'toggle',
                     description: I18n.t('lssm.missionhelper.settings.show_siwa.description')
                 }
-            },
+            }
         }
     };
 
@@ -324,10 +620,6 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
 
     const clone = a => JSON.parse(JSON.stringify(a));
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
-    const adjustPosition = () => {
-        let missionhelper = document.querySelector(`#${LSSM_MH_PREFIX}`);
-        missionhelper.style.left = `${document.querySelector('#iframe-inside-container').clientWidth * 0.97 - missionhelper.clientWidth}px`;
-    };
 
     const MISSIONS_FILE = lssm.getlink(`/modules/lss-missionHelper/missions.${I18n.locale}.json`);
     const MISSION_WRITE_FILE = `/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js?_=${new Date().getTime()}`;
@@ -346,9 +638,6 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
             const MISSIONS = clone(missions);
             const MISSION = MISSIONS[MISSION_TYPE];
 
-            if (!MISSION && MISSION_TYPE) return lssm.loadScript(MISSION_WRITE_FILE);
-            if (!MISSION_WINDOW) return;
-
             let markup = document.createElement('div');
             markup.id = LSSM_MH_PREFIX;
             markup.classList.add('alert', 'alert-warning', localStorage[`${LSSM_MH_PREFIX}_state`] || 'pinned');
@@ -361,7 +650,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
 <br>
 <span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
 
-            localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
+            MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
 
             let content = document.querySelector(`#${LSSM_MH_PREFIX} .content`);
 
@@ -372,9 +661,12 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                 span.classList.toggle('down');
             };
 
+            if (!MISSION && MISSION_TYPE) return lssm.loadScript(MISSION_WRITE_FILE);
+            if (!MISSION_WINDOW) return;
+
             if (!MISSION_TYPE) {
                 content.innerText = I18n.t('lssm.missionhelper.diy_mission');
-                return adjustPosition();
+                return lssm_missionhelper_adjustPosition();
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
@@ -382,17 +674,17 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
             }
 
             if (MISSION.onlyRd) {
-                (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`)||""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
+                (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`) || ""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
                 MISSION.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.nef}%`);
                 MISSION.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.mmtarts}%`);
                 MISSION.rth && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.rth')}: ${MISSION.rth}%`);
                 MISSION.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.tragehilfe}%`);
-                return adjustPosition();
+                return lssm_missionhelper_adjustPosition();
             }
 
             if (MISSION.siwa) {
                 content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.siwa')}</h4>`;
-                if (!SETTINGS.show_siwa) return adjustPosition();
+                if (!SETTINGS.show_siwa) return lssm_missionhelper_adjustPosition();
             }
 
             MISSION.vge && (content.innerHTML += `<h4>${I18n.t('lssm.missionhelper.vge')}</h4>`);
@@ -413,15 +705,15 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                 }
                 for (let vehicle in MISSION.vehicles) {
                     if (!MISSION.vehicles.hasOwnProperty(vehicle)) continue;
-                    content.innerHTML += `${MISSION.vehicles[vehicle]}x ${I18n.t(`lssm.missionhelper.vehicles.${vehicle}`)} ${(MISSION.percentages && MISSION.percentages[vehicle] && `(${MISSION.percentages[vehicle]}%)`)||(SETTINGS.show_100 && `(100%)`) || ''}<br>`;
+                    content.innerHTML += `${MISSION.vehicles[vehicle]}x ${I18n.t(`lssm.missionhelper.vehicles.${vehicle}`)} ${(MISSION.percentages && MISSION.percentages[vehicle] && `(${MISSION.percentages[vehicle]}%)`) || (SETTINGS.show_100 && `(100%)`) || ''}<br>`;
                 }
             }
 
             if (MISSION.patients && SETTINGS.patients) {
-                content.innerHTML += `<br>${I18n.t('lssm.missionhelper.patients')}: ${(MISSION.patients.min !== MISSION.patients.max) && (`${MISSION.patients.min||0} ${I18n.t('lssm.missionhelper.to')}`)||''} ${MISSION.patients.max}<br>`;
+                content.innerHTML += `<br>${I18n.t('lssm.missionhelper.patients')}: ${(MISSION.patients.min !== MISSION.patients.max) && (`${MISSION.patients.min || 0} ${I18n.t('lssm.missionhelper.to')}`) || ''} ${MISSION.patients.max}<br>`;
 
                 if (MISSION.patients.transport || MISSION.patients.specialisation) {
-                    content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.patients.transport && `${MISSION.patients.transport}%`)||""}${void 0 !== typeof MISSION.patients.specialisation && ` (${MISSION.patients.specialisation})`}`;
+                    content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.patients.transport && `${MISSION.patients.transport}%`) || ""}${void 0 !== typeof MISSION.patients.specialisation && ` (${MISSION.patients.specialisation})`}`;
                 }
 
                 MISSION.patients.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.patients.nef}%`);
@@ -434,7 +726,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                 content.innerHTML += '<br>';
             }
 
-            SETTINGS.prisoners && MISSION.prisoners && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.prisoners.min !== MISSION.prisoners.max) && (`${MISSION.prisoners.min||0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.prisoners.max}<br>`);
+            SETTINGS.prisoners && MISSION.prisoners && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.prisoners.min !== MISSION.prisoners.max) && (`${MISSION.prisoners.min || 0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.prisoners.max}<br>`);
 
             SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesFire && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesFire')}: ${MISSION.special.averageMinimumEmployeesFire}<br>`);
             SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
@@ -450,7 +742,7 @@ const LSSM_MH_PREFIX = `${lssm.config.prefix}_missionhelper`;
                 }
             }
 
-            adjustPosition();
+            lssm_missionhelper_adjustPosition();
         });
 
     $('head').append(
