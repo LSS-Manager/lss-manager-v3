@@ -692,8 +692,6 @@ const lssm_missionhelper_adjustPosition = () => {
             let patients = document.querySelectorAll('.mission_patient').length;
             SETTINGS.live_patients && patients > 0 && (content.innerHTML += `<span class="badge" id="${LSSM_MH_PREFIX}_live_patients">${I18n.t('lssm.missionhelper.patients')}: ${patients}</span><br><br>`);
 
-            SETTINGS.water && MISSION.water && (content.innerHTML += `${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter<br>`);
-
             if (SETTINGS.vehicles) {
                 if (SETTINGS.hide_elw1 && MISSION.vehicles.elw1 && MISSION.vehicles.elw2) {
                     MISSION.vehicles.elw1 -= MISSION.vehicles.elw2;
@@ -732,7 +730,12 @@ const lssm_missionhelper_adjustPosition = () => {
             SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
             SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
 
-            SETTINGS.credits && MISSION.credits && (content.innerHTML += `<br><span class="badge badge-secondary"> ~ ${MISSION.credits.toLocaleString()} Credits</span>`);
+            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits) {
+                content.innerHTML += '<br>';
+                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>`);
+                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>`);
+                content.innerHTML += '<br>';
+            }
 
             if (SETTINGS.expansions && MISSION.expansions) {
                 content.innerHTML += '<br>';
