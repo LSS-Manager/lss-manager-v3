@@ -710,7 +710,7 @@
         });
         $(`#${prefix}_nameToLongDiv`).hide();
         $(`#${prefix}_buttons`).click(function (e) {
-            let input = $(`${prefix}_string`), start = input.selectionStart,
+            let input = $(`#${prefix}_string`)[0], start = input.selectionStart,
                 end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);
             let pos = start + $(e.target).data('str').length;
@@ -722,7 +722,7 @@
         });
 
         function changeInput(e) {
-            set.str.str = e.target.value.trim();
+            set.str.str = e.target && e.target.value.trim() || e.value.trim();
             $(`#${prefix}_rename`)[(set.str.str.length > 0 ? "removeClass" : "addClass")]("disabled");
         }
 
