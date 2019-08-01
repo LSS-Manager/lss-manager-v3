@@ -748,7 +748,7 @@ const lssm_missionhelper_adjustPosition = () => {
             lssm_missionhelper_adjustPosition();
         });
 
-    document.querySelectorAll('.aao').forEach(el => {
+    document.querySelectorAll('.aao, .vehicle_group').forEach(el => {
         el.addEventListener('mouseenter', aao => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
             if (!missionhelp.classList.contains('unpinned')) return;
