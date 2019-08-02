@@ -222,10 +222,10 @@ $.get(missionlink)
             lang: "de"
         })
             .done(response => {
-                console.log(response);
                 if (response.startsWith('Error'))  {
-                    console.error(`missionHelper Error:\n${response}`);
+                    return console.error(`missionHelper Error:\n${response}`);
                 }
+                console.log(`Registered Missiontype ${missionID}`);
                 let missionhelper_content = $(`#${LSSM_MH_PREFIX} .content`);
                 if (!missionhelper_content[0]) return;
                 missionhelper_content.append(response);
