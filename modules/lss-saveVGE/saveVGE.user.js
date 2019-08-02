@@ -83,6 +83,7 @@
         let d = $('<a href="#" class="btn btn-sm btn-danger">' + I18n.t('lssm.saveVGE.del') + '</a>').click(delData);
         div.append(s, select, d);
         $('.mission_position_mission_type_id:first').after(div);
+    	$('#mission_position_mission_custom_caption').attr('maxlength', 30);
         checkNoVGEs();
     }
     $('#buildings_outer').on('change', function () {

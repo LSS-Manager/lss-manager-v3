@@ -53,7 +53,9 @@
                 13: "Polizeihubschrauberstation",
                 15: "Wasserrettung",
                 17: "Polizei-Sondereinheiten",
-                18: "Feuerwache (Kleinwache)"
+                18: "Feuerwache (Kleinwache)",
+                19: "Polizeiwache (Kleinwache)",
+                20: "Rettungswache (Kleinwache)"
             },
             vehicleTypes: {
                 0: 'LF 20',
@@ -197,7 +199,9 @@
                 11: "Fire boat dock",
                 12: "Rescue boat dock",
                 13: "Fire Station (Small)",
-                14: "Urgent Care Center"
+                14: "Urgent Care Center",
+                15: "Police Station (Small station)",
+                16: "Ambulance station (Small station)"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -228,7 +232,8 @@
                 25: 'Large Rescue Boat',
                 26: 'SWAT SUV',
                 27: 'BLS Ambulance',
-                28: 'EMS Rescue'
+                28: 'EMS Rescue',
+                29: 'EMS Chief'
             }
         }
     };
@@ -270,13 +275,14 @@
                 stations: 'Hier kunt u alternatieve namen instellen voor elk geboude. U kunt ze gebruiken bij het hernoemen van uw voertuigen via dispatch center.'
             },
             validStationTypes: {
-                0: "Brandweerpost",
+                0: "Brandweer, Kazerne",
                 1: "Meldkamer",
-                3: "Ambulance standplaats",
-                5: "Politiebureau",
+                3: "Ambulance, standplaats",
+                5: "Politie, Opkomstbureau",
                 6: "MMT Standplaats",
                 9: "Politiehelikopter standplaats",
-                11: "Politie hoofdbureau"
+                11: "Politie, Hoofdbureau",
+                13: "Ambulance, VWS-post"
             },
             vehicleTypes: {
                 0: 'SIV',
@@ -330,7 +336,8 @@
                 48: 'DB Hondengeleider',
                 49: 'PM-OR',
                 50: 'TS-OR',
-                51: 'HVH'
+                51: 'HVH',
+                52: 'RR'
             }
         }
     };
@@ -346,11 +353,11 @@
                     "id": "renameFzVehicleShowHideButton",
                     "info_text": I18n.t('lssm.renameFz.settings.descriptions.vehicleTypes'),
                     "ui": {
-                        "label": I18n.t('lssm.renameFz.settings.names.vehicleTypes') + "&nbsp;" + I18n.t('lssm.renameFz.settings.show'),
+                        "label": `${I18n.t('lssm.renameFz.settings.names.vehicleTypes')}&nbsp${I18n.t('lssm.renameFz.settings.show')}`,
                         "type": "button",
                         "custom_function_event": "click",
                         "custom_function": function () {
-                            $('[id^=' + LSS_RENAMEFZ_STORAGE + '_renameFz_vehicleTypes-].lssm_setting_line').toggle();
+                            $(`[id^=${LSS_RENAMEFZ_STORAGE}_renameFz_vehicleTypes-].lssm_setting_line`).toggle();
                         }
                     }
                 }
@@ -364,7 +371,7 @@
                 ['renameFz_vehicleTypes-' + key]: {
                     "default": val,
                     "ui": {
-                        "label": I18n.t('lssm.renameFz.settings.vehicleTypes.' + key) + ":&nbsp;",
+                        "label": `${I18n.t(`lssm.renameFz.settings.vehicleTypes.${key}`)}:&nbsp;`,
                         "type": "text",
                         "description": "",
                         "hidden": true
@@ -382,11 +389,11 @@
                 "id": "renameFzStationsShowHideButton",
                 "info_text": I18n.t('lssm.renameFz.settings.descriptions.stations'),
                 "ui": {
-                    "label": I18n.t('lssm.renameFz.settings.names.stations') + "&nbsp;" + I18n.t('lssm.renameFz.settings.show'),
+                    "label": `${I18n.t('lssm.renameFz.settings.names.stations')}&nbsp${I18n.t('lssm.renameFz.settings.show')}`,
                     "type": "button",
                     "custom_function_event": "click",
                     "custom_function": function () {
-                        $('[id^=' + LSS_RENAMEFZ_STORAGE + '_renameFz_stations-].lssm_setting_line').toggle();
+                        $(`[id^=${LSS_RENAMEFZ_STORAGE}_renameFz_stations-].lssm_setting_line`).toggle();
                     }
                 }
             }
@@ -400,7 +407,7 @@
                     ['renameFz_stations-' + station.id]: {
                         "default": station.caption,
                         "ui": {
-                            "label": station.caption + " (" + I18n.t('lssm.renameFz.settings.validStationTypes')[station.building_type] + "):&nbsp;",
+                            "label": `${station.caption} (${I18n.t('lssm.renameFz.settings.validStationTypes')[station.building_type]}:&nbsp;`,
                             "type": "text",
                             "description": "",
                             "hidden": true
@@ -439,7 +446,7 @@
             str: ''
         }
     };
-    const prefix = lssm.config.prefix + "_renameFzSettings";
+    const prefix = `${lssm.config.prefix}_renameFzSettings`;
     $('#tab_vehicle').on('DOMNodeInserted', 'script', createSettings);
     if ('#vehicle_table') createSettings();
 
@@ -447,7 +454,7 @@
     const mode = $('#tab_vehicle')[0] ? "leitstelle" : "wache";
 
     function printError(err) {
-        $("#" + prefix + "_status").html("Status: " + I18n.t('lssm.renameFz.statusError') + " <br><b>" + err.name + "</b><br><i>" + err.message + "</i><pre>" + err.stack + "</pre>");
+        $("#" + prefix + "_status").html(`Status: ${I18n.t('lssm.renameFz.statusError')}<br><b>${err.name}</b><br><i>${err.message}</i><pre>${err.stack}</pre>`);
         executionFailed = true;
     }
 
@@ -573,8 +580,9 @@
                 set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => typeof set.vehicles[vehicleID][p1] !== void 0 ? set.vehicles[vehicleID][p1] : match);
                 if (set.vehicles[vehicleID].newName === set.vehicles[vehicleID].old) {
                     vehicleCaption.append(`<span class="${prefix}_name_correct"><br>${I18n.t('lssm.renameFz.nameAlreadyCorrect')}</span>`);
-                    $(`#vehicle_form_holder_${vehicleID}`).empty();
-                    $(`#vehicle_form_holder_${vehicleID}`).hide();
+                    $(`#vehicle_form_holder_${vehicleID}`)
+                        .empty()
+                        .hide();
                     if (i + 1 === vehiclesNum && executionFailed !== true) {
                         status.html("Status: " + I18n.t('lssm.renameFz.statusSuccess'));
                     }
@@ -645,8 +653,8 @@
     }
 
     function createSettings() {
-        if ($('#' + prefix).length) return;
-        $('#vehicle_table').parent().prepend(`\
+        if ($(`#${prefix}`).length) return;
+        $('#vehicle_table').before(`\
 <a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"]||"open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
 <div id="${prefix}">
     <p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p>
@@ -690,19 +698,19 @@
 
         $('.helpButton')
             .on('mouseenter', function() {
-                $('#' + $(this).attr('helpBox')).show();
+                $(`#${$(this).attr('helpBox')}`).show();
             })
             .on('mouseleave', function() {
-                $('#' + $(this).attr('helpBox')).hide();
+                $(`#${$(this).attr('helpBox')}`).hide();
             });
 
-        $("#" + prefix + "_HideNameToLongDiv").click(function () {
-            $("#" + prefix + "_nameToLongDiv").hide();
-            $("#" + prefix + "_nameToLongTableBody").html("");
+        $(`#${prefix}_HideNameToLongDiv`).click(function () {
+            $(`#${prefix}_nameToLongDiv`).hide();
+            $(`#${prefix}_nameToLongTableBody`).html("");
         });
-        $("#" + prefix + "_nameToLongDiv").hide();
-        $('#' + prefix + '_buttons').click(function (e) {
-            let input = document.getElementById(prefix + '_string'), start = input.selectionStart,
+        $(`#${prefix}_nameToLongDiv`).hide();
+        $(`#${prefix}_buttons`).click(function (e) {
+            let input = $(`#${prefix}_string`)[0], start = input.selectionStart,
                 end = input.selectionEnd;
             input.value = input.value.substr(0, start) + $(e.target).data('str') + input.value.substr(end);
             let pos = start + $(e.target).data('str').length;
@@ -714,11 +722,12 @@
         });
 
         function changeInput(e) {
-            set.str.str = e.target.value.trim();
+            set.str.str = e.target && e.target.value.trim() || e.value.trim();
             $(`#${prefix}_rename`)[(set.str.str.length > 0 ? "removeClass" : "addClass")]("disabled");
         }
 
-        $(`#${prefix}_string`).change(changeInput)
+        $(`#${prefix}_string`)
+            .change(changeInput)
             .on("keyup", changeInput);
         $(`#${prefix}_rename`).click(rename);
         $(`#${prefix}_saveAll`).click(function () {

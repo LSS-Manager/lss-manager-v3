@@ -92,8 +92,8 @@ I18n.translations.de.lssm = {
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
         "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
-        "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-        "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
+        "kommen, kannst du gerne zu uns in den <a href=\"https://discord.gg/huMNSA4\" target=\"blank\">Discord</a> " +
+        "kommen  oder <a href=\"https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
         "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
@@ -109,9 +109,9 @@ I18n.translations.de.lssm = {
 I18n.translations.en.lssm = {
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
-        "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
-        "<a href=\"" +
-        "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "activated individually by placing the lever on green. If there are any problems, you can join our " +
+        "<a href=\"https://discord.gg/huMNSA4\" target=\"blank\">Discord</a> or " +
+        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
         "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
@@ -127,10 +127,10 @@ I18n.translations.en.lssm = {
 I18n.translations.nl.lssm = {
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
-        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
-        "problemen zijn, kunt u <a href=\"" +
-        "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
-        "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
+        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Als er problemen zijn, " +
+        "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/huMNSA4\" target=\"blank\">Discord</a>"+
+        " of <a href=\"https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
+        "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -431,6 +431,7 @@ lssm.Module = {
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
         nomapkit: true,
+        supportedLocales: ['de']
     },
     tagMissions: {
         name: {
@@ -569,6 +570,21 @@ lssm.Module = {
         },
         source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
         noapp: false, // Nicht im App-Store auflisten
+        inframe: true,
+        develop: false
+    },
+    AaoSearch: {
+        name: {
+            de: 'AAO-Suche',
+            en: 'AAO-Search',
+            nl: 'AUR-zoekfuncties'
+        },
+        active: false,
+        description: {
+            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
+            nl: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
+        },
+        source: '/modules/lss-aao-search/aao-search.user.js',
         inframe: true,
         develop: false
     },
@@ -1158,7 +1174,7 @@ lssm.settings = {
     // Remove a config value from localstorage
     remove: function (key) {
         "use strict";
-        localStorage.removeItem(key);
+        localStorage.removeItem(`${lssm.config.prefix}_${key}`);
     }
 };
 
