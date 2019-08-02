@@ -638,6 +638,9 @@ const lssm_missionhelper_adjustPosition = () => {
             const MISSIONS = clone(missions);
             const MISSION = MISSIONS[MISSION_TYPE];
 
+            if (!MISSION && MISSION_TYPE && !MISSION_WINDOW) return lssm.loadScript(MISSION_WRITE_FILE);
+            if (!MISSION_WINDOW) return;
+
             let markup = document.createElement('div');
             markup.id = LSSM_MH_PREFIX;
             markup.classList.add('alert', 'alert-warning', localStorage[`${LSSM_MH_PREFIX}_state`] || 'pinned');
@@ -650,19 +653,11 @@ const lssm_missionhelper_adjustPosition = () => {
 <br class="unpinned">
 <span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
 
-            MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'unpinned' ? unpin_missionhelper(markup) : pin_missionhelper(markup);
-
-            let content = document.querySelector(`#${LSSM_MH_PREFIX} .content`);
-
-            document.querySelector(`#${LSSM_MH_PREFIX}_toggle`).onclick = () => {
-                content.classList.toggle('hidden');
-                let span = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span`);
-                span.classList.toggle('up');
-                span.classList.toggle('down');
-            };
+            MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned' ? pin_missionhelper(markup) : unpin_missionhelper(markup);
 
             if (!MISSION && MISSION_TYPE) return lssm.loadScript(MISSION_WRITE_FILE);
-            if (!MISSION_WINDOW) return;
+
+            let content = document.querySelector(`#${LSSM_MH_PREFIX} .content`);
 
             if (!MISSION_TYPE) {
                 content.innerText = I18n.t('lssm.missionhelper.diy_mission');
@@ -867,5 +862,11 @@ let unpin_missionhelper = (markup) => {
         scroll: true,
         stack: '#iframe-inside-container'
     });
+    document.querySelector(`#${LSSM_MH_PREFIX}_toggle`).onclick = () => {
+        document.querySelector(`#${LSSM_MH_PREFIX} .content`).classList.toggle('hidden');
+        let span = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span`);
+        span.classList.toggle('up');
+        span.classList.toggle('down');
+    };
     localStorage[`${LSSM_MH_PREFIX}_state`] = 'unpinned';
 };
