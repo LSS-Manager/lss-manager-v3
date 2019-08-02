@@ -713,7 +713,9 @@
 				'Rettungswagen<br>Notarzteinsatzfahrzeug (40%)/Rettungshubschrauber (20%)<br><br><span class="badge">Credits: ~ 10112 </span>',
 				466: 'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)/Rettungshubschrauber (1%)',
 				467: 'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)/Rettungshubschrauber (1%)',
-				468: 'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)/Rettungshubschrauber (1%)'
+				468: 'Rettungswagen<br>Notarzteinsatzfahrzeug (20%)/Rettungshubschrauber (1%)',
+				469: '3x Löschfahrzeuge<br>1x Einsatzleitwagen 1<br>1x Rüstwagen<br>1x Feuerwehrkran (5%)<br>2x Funkstreifenwagen<br>max. 5x Rettungswagen<br>' +
+				'Notarzteinsatzfahrzeug (20%) / Rettungshubschrauber (5%)<br><br><span class="badge">Credits: ~ 1400 </span>'
 			}
 		}
 
@@ -1070,7 +1072,10 @@
 				288: '1x Firetruck<br>8x Police Cars<br>1x K-9 Unit<br>min. 1x Ambulance<br><br><span class="badge">Credits: ~ 2000 </span>',
 				289: '4x Police Cars<br>1x K-9 Unit',
 				290: '4x Police Cars<br>1x K-9 Unit',
-				291: '4x Police Cars<br>1x K-9 Unit'
+				291: '4x Police Cars<br>1x K-9 Unit',
+				292: '1x Ambulance',
+				293: '1x Ambulance',
+				294: '1x Ambulance<br>1x Firetruck<br>3x Police Cars<br><br><span class="badge">Credits: ~ 750 </span>'
 			}
 		}
 
@@ -1748,7 +1753,11 @@
 				466: '2x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig (80%)<br>1x Noodhulpeenheid<br>min. 1x Ambulance / max. 3<br><br>' +
 				'<span class="badge">Credits: ~ 1600 </span>',
 				467: '3x Tankautospuiten<br>1x OvD-B<br>1x Redvoertuig<br>1x HOvD (50%)<br>2x Noodhulpeenheden<br>min. 1x Ambulance / max. 6<br><br>' +
-				'<span class="badge">Credits: ~ 2750 </span>'
+				'<span class="badge">Credits: ~ 2750 </span>',
+				468: '4x Tankautospuiten<br>2x Redvoertuig<br>1x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Slangenwagen (20%)<br>1x Adembeschermingsvoertuig (40%)' +
+				'2x Noodhulpeenheden<br>1x OvD-P<br>min. 4x Ambulance / max. 10<br>MMT-Art (10%)<br><br><span class="badge">Credits: ~ 4950 </span>',
+				469: '8x Tankautospuiten<br>3x Redvoertuig<br>2x OvD-B<br>1x HOvD<br>1x Commandowagen<br>1x Slangenwagen (20%)<br>1x Adembeschermingsvoertuig' +
+				'3x Noodhulpeenheden<br>1x OvD-P<br>min. 5x Ambulance / max. 15<br>MMT-Art (10%)<br><br><span class="badge">Credits: ~ 7000 </span>'
 			}
 		}
 	}

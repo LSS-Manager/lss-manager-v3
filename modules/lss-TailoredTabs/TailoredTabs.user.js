@@ -160,7 +160,7 @@
         let segSection = {
             name: 'SEG',
             short: 'seg',
-            vehicles: [59, 60]
+            vehicles: [58, 59, 60]
         };
         sections.push(segSection);
     }
