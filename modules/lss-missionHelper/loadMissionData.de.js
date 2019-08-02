@@ -216,13 +216,12 @@ $.get(missionlink)
             mission.dauer = dauer;
         }
 
-        $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
+        $.post(lssm.getlink(`/modules/lss-missionHelper/writeMission.php`), {
             mission: mission,
             id: missionID,
             lang: "de"
         })
             .done(response => {
-                console.log(response);
                 if (response.startsWith('Error'))  {
                     console.error(`missionHelper Error:\n${response}`);
                 }
@@ -230,6 +229,9 @@ $.get(missionlink)
                 if (!missionhelper_content[0]) return;
                 missionhelper_content.append(response);
                 lssm_missionhelper_adjustPosition();
+            })
+            .fail(reason => {
+               console.error(reason);
             });
 
         function getPOI(content) {
