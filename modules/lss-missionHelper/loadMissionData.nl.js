@@ -189,8 +189,17 @@ $.get(missionlink)
             lang: "nl"
         })
             .done(response => {
-                $(`#${LSSM_MH_PREFIX} .content`).append(response);
+                if (response.startsWith('Error'))  {
+                    return console.error(`missionHelper Error:\n${response}`);
+                }
+                console.log(`Registered Missiontype ${missionID}`);
+                let missionhelper_content = $(`#${LSSM_MH_PREFIX} .content`);
+                if (!missionhelper_content[0]) return;
+                missionhelper_content.append(response);
                 lssm_missionhelper_adjustPosition();
+            })
+            .fail(reason => {
+                console.error(reason);
             });
 
         function getPOI(content) {
