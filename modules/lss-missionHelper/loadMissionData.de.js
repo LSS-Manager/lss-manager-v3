@@ -222,7 +222,13 @@ $.get(missionlink)
             lang: "de"
         })
             .done(response => {
-                $(`#${LSSM_MH_PREFIX} .content`).append(response);
+                console.log(response);
+                if (response.startsWith('Error'))  {
+                    console.error(`missionHelper Error:\n${response}`);
+                }
+                let missionhelper_content = $(`#${LSSM_MH_PREFIX} .content`);
+                if (!missionhelper_content[0]) return;
+                missionhelper_content.append(response);
                 lssm_missionhelper_adjustPosition();
             });
 
