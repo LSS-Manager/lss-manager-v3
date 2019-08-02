@@ -222,6 +222,7 @@ $.get(missionlink)
             lang: "de"
         })
             .done(response => {
+                console.log(response);
                 if (response.startsWith('Error'))  {
                     console.error(`missionHelper Error:\n${response}`);
                 }
