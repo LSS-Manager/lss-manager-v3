@@ -490,7 +490,8 @@
         465: 'Großbrand im Gefahrstofflager',
         466: 'Badeunfall',
         467: 'Badeunfall',
-        468: 'Badeunfall'
+        468: 'Badeunfall',
+        469: 'Entgleiste Stadtbahn'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -800,7 +801,10 @@
         288: 'Stowaways found',
         289: 'Customs search operation',
         290: 'Customs search operation',
-        291: 'Customs search operation'
+        291: 'Customs search operation',
+        292: 'Heatstroke',
+        293: 'Acid burns (Accidental)',
+        294: 'Acid burns (Accidental)'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1286,7 +1290,9 @@
         464: 'Stankoverlast',
         465: 'Brand in verzorgingshuis',
         466: 'Brand in verzorgingshuis',
-        467: 'Brand in verzorgingshuis'
+        467: 'Brand in verzorgingshuis',
+        468: 'Brand in verzorgingshuis',
+        469: 'Brand in verzorgingshuis'
       }
     };
 
@@ -1778,7 +1784,8 @@
       465: 'ABC 5',
       466: 'RD 1',
       467: 'RD 1',
-      468: 'RD 1'
+      468: 'RD 1',
+      469: 'THL 1 ZUG'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2072,7 +2079,10 @@
       288: 'POL 5',
       289: 'POL 3',
       290: 'POL 3',
-      291: 'POL 3'
+      291: 'POL 3',
+      292: 'MED 1',
+      293: 'MED 1',
+      294: 'POL 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2542,7 +2552,9 @@
       464: 'P 2',
       465: 'KLEINE BRAND',
       466: 'KLEINE BRAND',
-      467: 'MIDDEL BRAND'
+      467: 'MIDDEL BRAND',
+      468: 'MIDDEL BRAND',
+      469: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
