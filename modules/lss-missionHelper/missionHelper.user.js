@@ -622,7 +622,7 @@ const lssm_missionhelper_adjustPosition = () => {
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
 
     const MISSIONS_FILE = lssm.getlink(`/modules/lss-missionHelper/missions.${I18n.locale}.json`);
-    const MISSION_WRITE_FILE = `/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js?_=${new Date().getTime()}`;
+    const MISSION_WRITE_FILE = `/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`;
     const MISSION_WINDOW = null === window.location.href.match(/einsaetze\/\d+/);
     let mission_help = $('#mission_help');
     const MISSION_TYPE = MISSION_WINDOW?mission_help[0]?mission_help.attr("href").split("/").pop().replace(/\?.*/,""):null:window.location.href.match(/\d+([^?]|$)/)[0];
