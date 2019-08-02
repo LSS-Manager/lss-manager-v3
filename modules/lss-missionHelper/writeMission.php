@@ -18,6 +18,8 @@ try {
         fclose($Handle);
 
         echo "<br>Dieser Einsatz wurde eben live eingetragen! Hier erstmal die Rohdaten:<pre>" . preg_replace('/"(\d*?)"/', '$1', str_replace('"true"', "true", json_encode($_POST["mission"], JSON_PRETTY_PRINT))) . "</pre>";
+    } else {
+        throw new JsonException($json_error);
     }
 } catch (Exception $e) {
     echo "Error: ".$e->getMessage();
