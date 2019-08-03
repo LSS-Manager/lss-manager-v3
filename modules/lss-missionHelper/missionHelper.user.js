@@ -372,8 +372,8 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont speciale informatie, zoals het gemiddelde minimum aantal personeelsleden dat nodig is.'
             },
             expansions: {
-                label: 'uitdelingen',
-                description: 'Laat zien waar de weddenschap toe kan leiden. (Toont slechts eenvoudige verspreiding)'
+                label: 'Incidentuitbreiding',
+                description: 'Toont, of en hoe deze melding zich uitbreiden kan (Laat alleen de eerste uitbreiding zien)'
             },
             show_100: {
                 label: 'Toon 100% waarschijnlijkheid',
@@ -384,8 +384,8 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de gemiddelde verdiensten die je krijgt voor deze opdracht.'
             },
             show_siwa: {
-                label: 'Eisen aan beveiligers',
-                description: 'Toont ook de vereisten voor de bewakers in de helper.'
+                label: 'Helper bij geplande inzetten',
+                description: 'Toont de meldinghelper ook bij geplande inzetten.'
             }
         },
         vehicles: {
@@ -396,7 +396,7 @@ const lssm_missionhelper_adjustPosition = () => {
             hoogwerker: "Hoogwerker",
             slangenwagen: "Slangenwagen",
             hulpverlening: "Hulpverleningsvoertuigen",
-            Adembescherming: "Adembeschermingsvoertuigen",
+            adembescherming: "Adembeschermingsvoertuigen",
             hovd: "HOVD",
             waarschuwing: "Waarschuwings- en Verkenningsdienst voertuigen",
             gevaar: "Adviseurs Gevaarlijke Stoffen",
