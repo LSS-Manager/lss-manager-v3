@@ -785,7 +785,7 @@ const lssm_missionhelper_adjustPosition = () => {
     display: none;
 }
 #${LSSM_MH_PREFIX}.unpinned {
-    position: absolute;
+    position: fixed;
     top: 3%;
     max-width: calc(100%/3);
 }
