@@ -105,7 +105,7 @@ $.get(missionlink)
                 mission.transport = transport;
             }
             if (mmtarts) {
-                mission.nef = mmtarts;
+                mission.mmtarts = mmtarts;
             }
             if (rth) {
                 mission.rth = rth;
@@ -132,7 +132,7 @@ $.get(missionlink)
                     mission.patients.transport = transport;
                 }
                 if (mmtarts) {
-                    mission.patients.nef = mmtarts;
+                    mission.patients.mmtarts = mmtarts;
                 }
                 if (rth) {
                     mission.patients.rth = rth;
