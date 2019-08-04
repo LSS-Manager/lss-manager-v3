@@ -621,7 +621,7 @@ const lssm_missionhelper_adjustPosition = () => {
     const clone = a => JSON.parse(JSON.stringify(a));
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
 
-    const MISSIONS_FILE = lssm.getlink(`/modules/lss-missionHelper/missions.${I18n.locale}.json`);
+    const MISSIONS_FILE = lssm.getlink(`/modules/lss-missionHelper/missions.${I18n.locale}.json`, true);
     const MISSION_WRITE_FILE = `/modules/lss-missionHelper/loadMissionData.${I18n.locale}.js`;
     const MISSION_WINDOW = null === window.location.href.match(/einsaetze\/\d+/);
     let mission_help = $('#mission_help');
@@ -638,7 +638,7 @@ const lssm_missionhelper_adjustPosition = () => {
             const MISSIONS = clone(missions);
             const MISSION = MISSIONS[MISSION_TYPE];
 
-            if (!MISSION && MISSION_TYPE && !MISSION_WINDOW) return lssm.loadScript(MISSION_WRITE_FILE);
+            if (!MISSION && MISSION_TYPE && !MISSION_WINDOW) return lssm.loadScript(MISSION_WRITE_FILE, true);
             if (!MISSION_WINDOW) return;
 
             let markup = document.createElement('div');
