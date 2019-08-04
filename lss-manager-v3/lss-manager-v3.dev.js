@@ -33,34 +33,21 @@ let lssm = {
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm'
     },
-    loadScript: function (link) {
+    loadScript: function (link, no_cache=false) {
         try {
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
-            //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
-            $.getScript(this.config.server + link + uid);
+            $.getScript(this.getlink(link, no_cache));
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    loadStyle: function (link) {
+    loadStyle: function (link, no_cache=false) {
         try {
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
-            $('body').append('<link href="' + this.getlink(link) + '" rel="stylesheet" type="text/css">');
+            $('body').append('<link href="' + this.getlink(link, no_cache) + '" rel="stylesheet" type="text/css">');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    getlink: function (file) {
+    getlink: function (file, no_cache=false) {
         try {
             let uid = "";
             let game = "";
@@ -68,7 +55,7 @@ let lssm = {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
-            return this.config.server + file + uid;
+            return this.config.server + file + uid + (no_cache ? `&_=${new Date().getTime()}` : '');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
