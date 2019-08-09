@@ -175,7 +175,7 @@ lssm.Module = {
                 'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
-        collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05']
+        collisions: ['Layout02', 'Layout03', 'Layout04']
     },
     Layout02: {
         name: {
@@ -191,7 +191,7 @@ lssm.Module = {
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
-        collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05']
+        collisions: ['Layout01', 'Layout03', 'Layout04']
     },
     Layout03: {
         name: {
@@ -204,7 +204,7 @@ lssm.Module = {
             nl: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
-        collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap']
+        collisions: ['Layout01', 'Layout02', 'Layout04', 'FMS5InMap']
     },
     Layout04: {
         name: {
@@ -220,20 +220,7 @@ lssm.Module = {
                 'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05']
-    },
-    Layout05: {
-        name: {
-            de: 'Layout 05'
-        },
-        active: false,
-        description: {
-            de: 'Vollständig anpassbares Layout',
-            nl: 'Een volledig aanpasbaar design'
-        },
-        source: '/modules/lss-layout-05/layout-05.user.js',
-        develop: true,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04']
+        collisions: ['Layout01', 'Layout02', 'Layout03']
     },
     DoctorRadioCall: {
         name: {
@@ -420,21 +407,6 @@ lssm.Module = {
         nomapkit: true,
         supportedLocales: ['de']
     },
-    tagMissions: {
-        name: {
-            de: 'Einsätze markieren',
-            en: 'Mark calls',
-            nl: 'Meldingen markeren.'
-        },
-        active: false,
-        description: {
-            de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
-            en: 'Got inplemented into the game - deactivated for now.',
-            nl: 'Zit in het spel ingebouwd - momenteel gedeactiveerd.'
-        },
-        source: '/modules/lss-tagMissions/tagMissions.user.js',
-        develop: true
-    },
     allianceMissionlistShare: {
         name: {
             de: 'Einsätze freigeben',
@@ -574,23 +546,6 @@ lssm.Module = {
         source: '/modules/lss-aao-search/aao-search.user.js',
         inframe: true,
         develop: false
-    },
-    recolor: {
-        name: {
-            de: 'Einfärben',
-            en: 'Colorize',
-            nl: 'Hoofdkleur veranderen'
-        },
-        active: false,
-        description: {
-            de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
-            en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
-            nl: 'Verander de kleur van meldkamerspel. DEZE FUNCTIE IS NOG IN AANBOUW.'
-        },
-        source: '/modules/lss-recolor/recolor.user.js',
-        noapp: false, // Nicht im App-Store auflisten
-        inframe: true,
-        develop: true
     },
     heatmap: {
         name: {
