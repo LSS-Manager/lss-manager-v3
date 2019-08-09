@@ -746,7 +746,7 @@ const lssm_missionhelper_adjustPosition = () => {
     document.querySelectorAll('.aao, .vehicle_group').forEach(el => {
         el.addEventListener('mouseenter', aao => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
-            if (!missionhelp.classList.contains('unpinned')) return;
+            if (!missionhelp||!missionhelp.classList.contains('unpinned')) return;
             aao = aao.currentTarget;
             let aao_bounding = aao.getBoundingClientRect();
             let missionhelp_bounding = missionhelp.getBoundingClientRect();
