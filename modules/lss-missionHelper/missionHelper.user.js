@@ -745,17 +745,29 @@ const lssm_missionhelper_adjustPosition = () => {
             lssm_missionhelper_adjustPosition();
         });
 
+    let handle_overlap = element => {
+        let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
+        if (!missionhelp||!missionhelp.classList.contains('unpinned')) return;
+        let element_bounding = element.getBoundingClientRect();
+        let missionhelp_bounding = missionhelp.getBoundingClientRect();
+        missionhelp.style.opacity = (element_bounding.right > missionhelp_bounding.left &&
+            element_bounding.left < missionhelp_bounding.right &&
+            element_bounding.bottom > missionhelp_bounding.top &&
+            element_bounding.top < missionhelp_bounding.bottom) ? 0.1 : null;
+    };
+
     document.querySelectorAll('.aao, .vehicle_group').forEach(el => {
         el.addEventListener('mouseenter', aao => {
+            handle_overlap(aao.currentTarget);
+        });
+        el.addEventListener('mouseleave', () => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
-            if (!missionhelp||!missionhelp.classList.contains('unpinned')) return;
-            aao = aao.currentTarget;
-            let aao_bounding = aao.getBoundingClientRect();
-            let missionhelp_bounding = missionhelp.getBoundingClientRect();
-            missionhelp.style.opacity = (aao_bounding.right > missionhelp_bounding.left &&
-                aao_bounding.left < missionhelp_bounding.right &&
-                aao_bounding.bottom > missionhelp_bounding.top &&
-                aao_bounding.top < missionhelp_bounding.bottom) ? 0.1 : null;
+            missionhelp.style.opacity = null;
+        });
+    });
+    document.querySelectorAll('#new_mission_reply, #mission_replies').forEach(el => {
+        el.addEventListener('mouseenter', element => {
+            handle_overlap(element.currentTarget);
         });
         el.addEventListener('mouseleave', () => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
@@ -838,6 +850,10 @@ const lssm_missionhelper_adjustPosition = () => {
 
 .alert-missing-vehicles:hover ~ #${LSSM_MH_PREFIX} {
     opacity: 0.1;
+}
+
+#mission_reply_content {
+    position: unset;
 }
 </style>`
     );
