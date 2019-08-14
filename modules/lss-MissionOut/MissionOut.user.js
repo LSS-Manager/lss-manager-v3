@@ -54,6 +54,7 @@
                     mission_icon && mission_icon._icon && $(mission_icon._icon).toggle();
                 });
         });
+        if (e) return;
         let full_storage = get_full_storage();
         for (let mission in full_storage) {
             if (!full_storage.hasOwnProperty(mission)) continue;
