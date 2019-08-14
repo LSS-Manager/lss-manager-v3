@@ -617,7 +617,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     lssm.managedSettings.register(managed_settings);
 
-    if (!window.location.href.match(/missions|(einsaetze\/\d+)/g)) return;
+    if (!window.location.href.match(/(missions\/\d+)|(einsaetze\/\d+)/g)) return;
 
     const clone = a => JSON.parse(JSON.stringify(a));
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
