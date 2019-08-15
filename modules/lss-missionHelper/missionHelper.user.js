@@ -81,6 +81,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Anforderungen von Sicherheitswachen',
                 description: 'Zeigt die Anforderungen bei Sicherheitswachen auch im Helfer an.'
+            },
+            mission_time: {
+                label: 'Generierungszeit',
+                description: 'Zeigt die Zeit der Generierung des Einsatzes an.'
             }
         },
         transport: 'Transport',
@@ -241,6 +245,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Requirements of security guards',
                 description: 'Shows the requirements for security guards in the helper as well.'
+            },
+            mission_time: {
+                label: 'Creation Time',
+                description: 'Shows the date and time when the mission was created.'
             }
         },
         vehicles: {
@@ -387,6 +395,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Helper bij geplande inzetten',
                 description: 'Toont de meldinghelper ook bij geplande inzetten.'
+            },
+            mission_time: {
+                label: 'Creation Time',
+                description: 'Toont de datum en tijd waarop de missie is gemaakt.'
             }
         },
         vehicles: {
@@ -580,6 +592,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     type: 'toggle',
                     description: I18n.t('lssm.missionhelper.settings.show_siwa.description')
                 }
+            },
+            mission_time: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.mission_time.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.mission_time.description'),
+                }
             }
         }
     };
@@ -727,10 +747,11 @@ const lssm_missionhelper_adjustPosition = () => {
             SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
             SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
 
-            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits) {
+            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits || SETTINGS.mission_time) {
                 content.innerHTML += '<br>';
-                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>`);
-                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>`);
+                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>&nbsp;`);
+                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>&nbsp;`);
+                SETTINGS.mission_time && (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes['data-original-title'].value}</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
