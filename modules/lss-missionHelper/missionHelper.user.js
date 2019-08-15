@@ -670,9 +670,9 @@ const lssm_missionhelper_adjustPosition = () => {
 <a class="pull-right" id="${LSSM_MH_PREFIX}_pin">
     <i class="glyphicon glyphicon-pushpin"></i>
 </a>
-<article class="content"></article>
+<article class="content ${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true' ? '' : 'hidden'}"></article>
 <br class="unpinned">
-<span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
+<span id="${LSSM_MH_PREFIX}_toggle"><span class="${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true' ? 'up' : 'down'}"></span></span>`;
 
             MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned' ? pin_missionhelper(markup) : unpin_missionhelper(markup);
 
@@ -906,6 +906,8 @@ let unpin_missionhelper = (markup) => {
         let span = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span`);
         span.classList.toggle('up');
         span.classList.toggle('down');
+        localStorage[`${LSSM_MH_PREFIX}_toggle`] = span.classList.contains('up');
+        lssm_missionhelper_adjustPosition();
     };
     localStorage[`${LSSM_MH_PREFIX}_state`] = 'unpinned';
 };
