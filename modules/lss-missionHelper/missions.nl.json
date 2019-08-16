@@ -1,2 +1,7904 @@
 {
+    "0": {
+        "name": "Brandende afvalbak",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "1": {
+        "name": "Brandende container",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Brandende personenauto",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 370
+    },
+    "3": {
+        "name": "Brandende motorfiets",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 340
+    },
+    "4": {
+        "name": "Brandend gras",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 200,
+        "expansions": [
+            140
+        ]
+    },
+    "5": {
+        "name": "Brand in woonkamer",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "tankauto": 2,
+            "ovdb": 1,
+            "redvoertuig": 1
+        },
+        "credits": 1400,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "6": {
+        "name": "Brand in tuinhuis",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 600
+    },
+    "7": {
+        "name": "Brandende boom",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 210
+    },
+    "8": {
+        "name": "Brandend afval",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220,
+        "expansions": [
+            54
+        ]
+    },
+    "9": {
+        "name": "Brandend hooi",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 250
+    },
+    "10": {
+        "name": "Brandende traktor",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 600,
+        "expansions": [
+            28
+        ]
+    },
+    "11": {
+        "name": "Brandende bromfiets",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 240
+    },
+    "12": {
+        "name": "Boom op de weg",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 310
+    },
+    "13": {
+        "name": "Brandende vrachtwagen",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 980,
+        "percentages": {
+            "slangenwagen": 10
+        }
+    },
+    "14": {
+        "name": "Heidebrand",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1000,
+        "poi": 3,
+        "percentages": {
+            "slangenwagen": 20
+        }
+    },
+    "15": {
+        "name": "Bosbrand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "slangenwagen": 1,
+            "tankauto": 1
+        },
+        "credits": 500,
+        "poi": 3,
+        "percentages": {
+            "slangenwagen": 10
+        }
+    },
+    "16": {
+        "name": "Brand in woonwagen",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "redvoertuig": 1
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "17": {
+        "name": "Brandende dixi",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 340
+    },
+    "18": {
+        "name": "Brandende struik",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 700,
+        "expansions": [
+            14
+        ]
+    },
+    "19": {
+        "name": "Brandende aanhangwagen",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 650
+    },
+    "20": {
+        "name": "Brand in kelder",
+        "stations": {
+            "0": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "tankauto": 3,
+            "slangenwagen": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "hovd": 50,
+            "slangenwagen": 10
+        }
+    },
+    "21": {
+        "name": "Schoorsteenbrand",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "tankauto": 1
+        },
+        "credits": 2400,
+        "percentages": {
+            "hoogwerker": 100
+        }
+    },
+    "22": {
+        "name": "Brandend dak",
+        "stations": {
+            "0": 6,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "redvoertuig": 1,
+            "tankauto": 3,
+            "ovdb": 1,
+            "hovd": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "hoogwerker": 100,
+            "hovd": 50
+        }
+    },
+    "23": {
+        "name": "Brand in cafetaria",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 1200,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "24": {
+        "name": "Brandend bushokje",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "25": {
+        "name": "Verkeersongeval met beknelling",
+        "stations": {
+            "0": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "tankauto": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "26": {
+        "name": "Brand in supermarkt",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3510,
+        "poi": 10,
+        "percentages": {
+            "slangenwagen": 20,
+            "hovd": 50
+        }
+    },
+    "27": {
+        "name": "Persoon aangereden",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 700,
+        "percentages": {
+            "hulpverlening": 30
+        }
+    },
+    "28": {
+        "name": "Brand in landbouwschuur",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1600,
+        "poi": 21,
+        "percentages": {
+            "hoogwerker": 50,
+            "slangenwagen": 20
+        }
+    },
+    "29": {
+        "name": "Brand in werkplaats",
+        "stations": {
+            "0": 5,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "slangenwagen": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2470,
+        "patients": {
+            "max": 1,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "adembescherming": 50,
+            "hovd": 70,
+            "slangenwagen": 20
+        }
+    },
+    "30": {
+        "name": "Lekkende dieseltank",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 190,
+        "percentages": {
+            "hulpverlening": 20
+        }
+    },
+    "31": {
+        "name": "Oliespoor",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "32": {
+        "name": "Schoorsteenbrand woning met rietenkap",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "ovdb": 1,
+            "redvoertuig": 1,
+            "tankauto": 2
+        },
+        "credits": 1310
+    },
+    "33": {
+        "name": "Brandende landbouwmachine",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 1200,
+        "expansions": [
+            127
+        ]
+    },
+    "34": {
+        "name": "Brand in supermarkt",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2100,
+        "poi": 10
+    },
+    "35": {
+        "name": "Brand in ziekenhuis",
+        "stations": {
+            "0": 8,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 2510,
+        "poi": 2,
+        "percentages": {
+            "hovd": 10,
+            "commando": 10
+        }
+    },
+    "36": {
+        "name": "Brandende goederenwagon",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1
+        },
+        "credits": 3110,
+        "poi": 8,
+        "percentages": {
+            "waarschuwing": 50,
+            "gevaar": 80
+        }
+    },
+    "37": {
+        "name": "Brandende afvalbak",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 110,
+        "poi": 5
+    },
+    "38": {
+        "name": "Brandende afvalbak",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 110,
+        "poi": 6
+    },
+    "39": {
+        "name": "Brandende afvalbak",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 110,
+        "poi": 6
+    },
+    "40": {
+        "name": "Brandende afvalbak",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 110,
+        "poi": 2
+    },
+    "42": {
+        "name": "Brand in tankstation",
+        "stations": {
+            "0": 11,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "hulpverlening": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "slangenwagen": 1,
+            "adembescherming": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3720,
+        "poi": 11,
+        "percentages": {
+            "waarschuwing": 50,
+            "gevaar": 50
+        }
+    },
+    "44": {
+        "name": "Liftopsluiting",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 170
+    },
+    "45": {
+        "name": "Overdosis alcohol",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "46": {
+        "name": "Bloedneus",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "47": {
+        "name": "Pijn op de borst",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiologie"
+    },
+    "48": {
+        "name": "Astma aanval",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "49": {
+        "name": "Beroerte",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Neurologie"
+    },
+    "50": {
+        "name": "Koortsstuip",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "51": {
+        "name": "Gevallen persoon",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologie"
+    },
+    "52": {
+        "name": "Brand in garagebedrijf",
+        "stations": [
+            5
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1800,
+        "poi": 15
+    },
+    "53": {
+        "name": "Brand in sporthal",
+        "stations": {
+            "0": 14,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "hulpverlening": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "commando": 1
+        },
+        "credits": 1700,
+        "poi": 12,
+        "percentages": {
+            "commando": 60
+        }
+    },
+    "54": {
+        "name": "Brand in sporthal",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 230,
+        "poi": 12,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "55": {
+        "name": "Brand in sporthal",
+        "stations": [
+            5
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1000,
+        "poi": 12
+    },
+    "56": {
+        "name": "Brand in sporthal",
+        "stations": {
+            "0": 16,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 2,
+            "ovdb": 2,
+            "hovd": 1,
+            "hulpverlening": 1,
+            "commando": 1,
+            "slangenwagen": 1,
+            "adembescherming": 1
+        },
+        "credits": 3100,
+        "poi": 12
+    },
+    "57": {
+        "name": "Kat in boom",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 210,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "58": {
+        "name": "Buitenbrand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 250
+    },
+    "60": {
+        "name": "Brand in slaapkamer",
+        "stations": [
+            2
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "redvoertuig": 1
+        },
+        "credits": 800,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "61": {
+        "name": "Brand in slaapkamer",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 500,
+        "expansions": [
+            22
+        ],
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "62": {
+        "name": "Brand in keuken",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1
+        },
+        "credits": 2000,
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "63": {
+        "name": "Brand in keuken",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 500,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "64": {
+        "name": "Brand in keuken",
+        "stations": [
+            2
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 700,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "65": {
+        "name": "Takken op de weg",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 310
+    },
+    "66": {
+        "name": "Boom op fietspad",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 310
+    },
+    "67": {
+        "name": "Omgewaaide bouwsteiger",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "tankauto": 1
+        },
+        "credits": 320,
+        "percentages": {
+            "hoogwerker": 30
+        }
+    },
+    "68": {
+        "name": "Boom op auto",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 350,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "69": {
+        "name": "Persoon bekneld onder boom",
+        "stations": {
+            "0": 6,
+            "3": 2
+        },
+        "vehicles": {
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 40
+        }
+    },
+    "70": {
+        "name": "Winkeldiefstal",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200,
+        "poi": 9,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "71": {
+        "name": "Winkeldiefstal",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "72": {
+        "name": "Winkeldiefstal",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200,
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "73": {
+        "name": "Tasjesdief",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "74": {
+        "name": "Huiselijk geweld",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "75": {
+        "name": "Bestuurder onder invloed",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 300,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "76": {
+        "name": "Klein vliegtuig neergestort",
+        "stations": {
+            "0": 6,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "hovd": 1,
+            "hulpverlening": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hovd": 10
+        }
+    },
+    "77": {
+        "name": "Klein vliegtuig neergestort",
+        "stations": {
+            "0": 6,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "78": {
+        "name": "Rookontwikkeling in winkel",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "tankauto": 1
+        },
+        "credits": 350,
+        "expansions": [
+            34
+        ],
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "79": {
+        "name": "Gevallen fietser",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologie"
+    },
+    "80": {
+        "name": "Allergische reactie",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "81": {
+        "name": "Verward persoon",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "82": {
+        "name": "Vrachtwagen gekanteld",
+        "stations": {
+            "0": 3,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 70
+        }
+    },
+    "83": {
+        "name": "Val van hoogte (> 5m)",
+        "stations": {
+            "3": 10
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "mmtarts": 100,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "84": {
+        "name": "Ernstige brandwonden",
+        "stations": {
+            "3": 10
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "mmtarts": 100,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "85": {
+        "name": "Aanrijding voetganger (> 30km\/h)",
+        "stations": {
+            "3": 10,
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "86": {
+        "name": "Aanrijding door trein",
+        "stations": {
+            "3": 10,
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 6
+    },
+    "87": {
+        "name": "Beginnende geboorte",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "specialisation": "Gynaecologie"
+    },
+    "88": {
+        "name": "Hersenbloeding",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "specialisation": "Neurochirurgie"
+    },
+    "89": {
+        "name": "Nek- wervelletsel",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "specialisation": "Neurochirurgie"
+    },
+    "90": {
+        "name": "Ontwrichting",
+        "stations": {
+            "3": 2
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "91": {
+        "name": "Psychiatrisch beeld",
+        "stations": {
+            "3": 5
+        },
+        "onlyRd": true,
+        "specialisation": "Neurologie"
+    },
+    "92": {
+        "name": "Botbreuk",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "93": {
+        "name": "Gebroken rib",
+        "stations": {
+            "3": 4
+        },
+        "onlyRd": true,
+        "specialisation": "Traumatologie"
+    },
+    "94": {
+        "name": "Hoofdletsel",
+        "stations": {
+            "3": 2
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "95": {
+        "name": "Hyperventilatie",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "96": {
+        "name": "Hittekramp",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "97": {
+        "name": "Hoofdwond",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "98": {
+        "name": "Vreemde lucht",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "gevaar": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 600,
+        "percentages": {
+            "gevaar": 20,
+            "ovdb": 30,
+            "hulpverlening": 10
+        }
+    },
+    "99": {
+        "name": "Stankoverlast",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "gevaar": 1,
+            "ovdb": 1,
+            "tankauto": 1
+        },
+        "credits": 550,
+        "percentages": {
+            "gevaar": 10,
+            "ovdb": 10
+        }
+    },
+    "100": {
+        "name": "Ammoniakalarm in opslagloods",
+        "stations": [
+            14
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hulpverlening": 1,
+            "waarschuwing": 1,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 1200,
+        "percentages": {
+            "hulpverlening": 80,
+            "waarschuwing": 10,
+            "hovd": 20,
+            "commando": 10
+        }
+    },
+    "101": {
+        "name": "Koolmonoxide vrijgekomen",
+        "stations": {
+            "0": 11,
+            "5": 1
+        },
+        "vehicles": {
+            "gevaar": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1,
+            "tankauto": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "gevaar": 10,
+            "ovdb": 50
+        }
+    },
+    "102": {
+        "name": "Lekkende goederenwagon",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "hulpverlening": 1,
+            "gevaar": 1,
+            "ovdb": 1,
+            "tankauto": 1
+        },
+        "credits": 1200,
+        "poi": 8
+    },
+    "103": {
+        "name": "Schoorsteenbrand",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "tankauto": 1
+        },
+        "credits": 2400,
+        "expansions": [
+            32
+        ],
+        "percentages": {
+            "hoogwerker": 100
+        }
+    },
+    "104": {
+        "name": "Brandgerucht",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 130,
+        "expansions": [
+            115
+        ]
+    },
+    "105": {
+        "name": "Buitensluiting",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 140
+    },
+    "106": {
+        "name": "Schaap in sloot",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 140,
+        "poi": 28
+    },
+    "107": {
+        "name": "Persoon bekneld in machine",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 540,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "108": {
+        "name": "Ongeval met trein en personenauto",
+        "stations": {
+            "0": 10,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 1240,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 24,
+        "percentages": {
+            "hulpverlening": 90
+        }
+    },
+    "109": {
+        "name": "Ongeval met trein en persoon",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "tankauto": 1
+        },
+        "credits": 740,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 24,
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "110": {
+        "name": "Brand in vakantiewoning",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "tankauto": 1
+        },
+        "credits": 500,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "111": {
+        "name": "Brand in vakantiewoning",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "tankauto": 2
+        },
+        "credits": 1500,
+        "percentages": {
+            "hoogwerker": 80,
+            "slangenwagen": 10
+        }
+    },
+    "112": {
+        "name": "Overval winkel",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 400,
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "113": {
+        "name": "Overval winkel",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 1000,
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "114": {
+        "name": "Brandend dak",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 1000
+    },
+    "115": {
+        "name": "Brandend dak",
+        "stations": {
+            "0": 6,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "redvoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1400
+    },
+    "116": {
+        "name": "Voetbalwedstrijd",
+        "stations": {
+            "3": 1,
+            "5": 4,
+            "11": 1
+        },
+        "vehicles": {
+            "ambulance": 1,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 3000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "117": {
+        "name": "Voetbalwedstrijd, risicowedstrijd",
+        "stations": {
+            "3": 2,
+            "5": 4,
+            "11": 2
+        },
+        "vehicles": {
+            "ambulance": 2,
+            "megroep": 6,
+            "mecommando": 1
+        },
+        "credits": 6000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "118": {
+        "name": "Hardloopevenement",
+        "stations": {
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "ambulance": 3
+        },
+        "credits": 3700,
+        "siwa": true,
+        "dauer": "4 uur"
+    },
+    "119": {
+        "name": "Begeleiding orkest",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 2000,
+        "siwa": true,
+        "dauer": "1 uur"
+    },
+    "120": {
+        "name": "Begeleiding wielrenners",
+        "stations": {
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "ambulance": 2
+        },
+        "credits": 4000,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "121": {
+        "name": "Test brandalarm school",
+        "stations": [
+            2
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 1000,
+        "poi": 12,
+        "siwa": true,
+        "dauer": "15 minuten"
+    },
+    "122": {
+        "name": "Overval winkel",
+        "stations": {
+            "5": 4,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "polHeli": 1
+        },
+        "credits": 4000,
+        "poi": 9
+    },
+    "123": {
+        "name": "Overval winkel",
+        "stations": {
+            "5": 4,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "polHeli": 1
+        },
+        "credits": 4000,
+        "poi": 10
+    },
+    "124": {
+        "name": "Achtervolging personenauto",
+        "stations": {
+            "5": 3,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "polHeli": 1
+        },
+        "credits": 4000
+    },
+    "125": {
+        "name": "Vermist persoon",
+        "stations": {
+            "5": 3,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "polHeli": 1
+        },
+        "credits": 3500
+    },
+    "126": {
+        "name": "Brand in landbouwschuur",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 600,
+        "poi": 21,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "127": {
+        "name": "Brand in landbouwschuur",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "hovd": 1
+        },
+        "credits": 2100,
+        "poi": 21,
+        "percentages": {
+            "slangenwagen": 60,
+            "hovd": 50
+        }
+    },
+    "128": {
+        "name": "Heidebrand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "slangenwagen": 1
+        },
+        "credits": 400,
+        "poi": 3,
+        "percentages": {
+            "slangenwagen": 10
+        }
+    },
+    "129": {
+        "name": "Heidebrand",
+        "stations": [
+            8
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1950,
+        "poi": 3
+    },
+    "130": {
+        "name": "Brand in cafetaria",
+        "stations": {
+            "0": 5,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1400,
+        "percentages": {
+            "hoogwerker": 50
+        }
+    },
+    "131": {
+        "name": "Brand in cafetaria",
+        "stations": {
+            "0": 7,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1,
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1700,
+        "percentages": {
+            "hovd": 50,
+            "slangenwagen": 10
+        }
+    },
+    "132": {
+        "name": "Brandende bus",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 500
+    },
+    "133": {
+        "name": "Brandende bestelwagen",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "134": {
+        "name": "Brandende haag",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 240
+    },
+    "135": {
+        "name": "Brandende papiercontainer",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 300
+    },
+    "136": {
+        "name": "Brandende caravan",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 240
+    },
+    "138": {
+        "name": "Brand in meterkast",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 170,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "139": {
+        "name": "Natuurbrand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "slangenwagen": 1
+        },
+        "credits": 110,
+        "percentages": {
+            "slangenwagen": 10
+        }
+    },
+    "140": {
+        "name": "Natuurbrand",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 400,
+        "percentages": {
+            "slangenwagen": 40
+        }
+    },
+    "141": {
+        "name": "Natuurbrand",
+        "stations": [
+            8
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "hovd": 1
+        },
+        "credits": 1000,
+        "poi": 3,
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "142": {
+        "name": "Natuurbrand",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "tankauto": 4,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "slangenwagen": 2,
+            "hovd": 1
+        },
+        "credits": 1750,
+        "poi": 3,
+        "percentages": {
+            "hulpverlening": 50
+        }
+    },
+    "143": {
+        "name": "Natuurbrand",
+        "stations": [
+            12
+        ],
+        "vehicles": {
+            "tankauto": 8,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 4000,
+        "poi": 3,
+        "percentages": {
+            "adembescherming": 20,
+            "commando": 50
+        }
+    },
+    "144": {
+        "name": "Natuurbrand",
+        "stations": [
+            14
+        ],
+        "vehicles": {
+            "tankauto": 12,
+            "hulpverlening": 2,
+            "ovdb": 3,
+            "adembescherming": 1,
+            "slangenwagen": 3,
+            "hovd": 2,
+            "commando": 1
+        },
+        "credits": 8000,
+        "poi": 3,
+        "percentages": {
+            "adembescherming": 50
+        }
+    },
+    "145": {
+        "name": "Natuurbrand",
+        "vehicles": {
+            "tankauto": 40,
+            "hulpverlening": 4,
+            "ovdb": 10,
+            "adembescherming": 1,
+            "slangenwagen": 10,
+            "hovd": 4,
+            "commando": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 22500
+    },
+    "146": {
+        "name": "Brandende vogelverschrikker",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 350
+    },
+    "147": {
+        "name": "Brandend pompoenveld",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1
+        },
+        "credits": 850
+    },
+    "148": {
+        "name": "Overkookte pompoensoep",
+        "stations": {
+            "0": 1,
+            "3": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "specialisation": "Neurologie"
+        }
+    },
+    "149": {
+        "name": "Heks vast in boom",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 80,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "150": {
+        "name": "Monster uitgebroken",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 4
+        },
+        "credits": 1600
+    },
+    "151": {
+        "name": "Gestolen pompoenen",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 100
+    },
+    "152": {
+        "name": "Frankenstein gespot",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 550
+    },
+    "153": {
+        "name": "Snoep diefstal",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 100
+    },
+    "154": {
+        "name": "Horrorclown gespot",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 600,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "155": {
+        "name": "Gaslekkage",
+        "stations": {
+            "0": 14,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 890,
+        "percentages": {
+            "hulpverlening": 30,
+            "hovd": 10,
+            "commando": 10
+        }
+    },
+    "156": {
+        "name": "Gaslekkage",
+        "stations": {
+            "0": 14,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "hovd": 1,
+            "commando": 1,
+            "gevaar": 1
+        },
+        "credits": 1100,
+        "percentages": {
+            "hovd": 50,
+            "commando": 50,
+            "gevaar": 20
+        }
+    },
+    "157": {
+        "name": "Brand in ziekenhuis",
+        "stations": {
+            "0": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 2,
+            "ovdb": 1,
+            "hovd": 1,
+            "adembescherming": 1,
+            "commando": 1
+        },
+        "credits": 3570,
+        "patients": {
+            "max": 2,
+            "transport": 100
+        },
+        "poi": 2,
+        "percentages": {
+            "adembescherming": 50,
+            "commando": 90
+        }
+    },
+    "158": {
+        "name": "Brand in ziekenhuis",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 350,
+        "poi": 2
+    },
+    "159": {
+        "name": "Brand in sporthal",
+        "stations": {
+            "0": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "adembescherming": 1
+        },
+        "credits": 1500,
+        "poi": 12,
+        "percentages": {
+            "hovd": 50,
+            "adembescherming": 20
+        }
+    },
+    "160": {
+        "name": "Brandende cadeautjes",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 550
+    },
+    "161": {
+        "name": "Sinterklaas van dak gegleden",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Traumatologie"
+    },
+    "162": {
+        "name": "Pepernoot op hoofd",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Traumatologie"
+    },
+    "163": {
+        "name": "Piet bestolen",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 500
+    },
+    "164": {
+        "name": "Kind geschrokken",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 0
+    },
+    "165": {
+        "name": "Piet klem in schoorsteen",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 950,
+        "patients": {
+            "max": 1,
+            "min": 1
+        }
+    },
+    "166": {
+        "name": "Demonstratie zwarte piet",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 4
+        },
+        "credits": 1200
+    },
+    "167": {
+        "name": "Schoenen dief",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "168": {
+        "name": "Verstikking in pepernoot",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 80
+    },
+    "169": {
+        "name": "Brandende kerstboom",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 550
+    },
+    "170": {
+        "name": "Brandende kerstboom",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 550,
+        "poi": 17
+    },
+    "171": {
+        "name": "Verkeersongeval door gladheid",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "ovdb": 40
+        }
+    },
+    "172": {
+        "name": "Gevallen kerstman",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Traumatologie"
+    },
+    "173": {
+        "name": "Ruzie op de kerstmarkt",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "poi": 17,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "174": {
+        "name": "Diefstal op de kerstmarkt",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 200,
+        "poi": 17,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "175": {
+        "name": "Brandende kerstmarktkraam",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 600,
+        "poi": 17
+    },
+    "176": {
+        "name": "Gevallen schaatser",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Traumatologie"
+    },
+    "177": {
+        "name": "Gevallen persoon door gladheid",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Traumatologie"
+    },
+    "178": {
+        "name": "Donkere dagen offensief",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 600
+    },
+    "179": {
+        "name": "Snijwond door gebroken kerstbal",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 20,
+        "specialisation": "Traumatologie"
+    },
+    "180": {
+        "name": "Bergen object uit water voor politie",
+        "stations": {
+            "0": 1,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "poi": 1
+    },
+    "181": {
+        "name": "Verkeersongeval met beknelling",
+        "stations": {
+            "0": 4,
+            "3": 1,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "watervoertuig": 1,
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 1,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 28,
+        "percentages": {
+            "watervoertuig": 20,
+            "hulpverlening": 40
+        }
+    },
+    "182": {
+        "name": "Personenauto in sloot",
+        "stations": {
+            "0": 4,
+            "3": 1,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "watervoertuig": 1,
+            "hulpverlening": 1,
+            "tankauto": 1,
+            "ovdb": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 2,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 28,
+        "percentages": {
+            "watervoertuig": 80,
+            "hulpverlening": 50
+        }
+    },
+    "183": {
+        "name": "Paard in sloot",
+        "stations": {
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "watervoertuig": 1,
+            "hulpverlening": 1
+        },
+        "credits": 1200,
+        "poi": 28,
+        "percentages": {
+            "watervoertuig": 10,
+            "hulpverlening": 20
+        }
+    },
+    "184": {
+        "name": "Eend verstrikt in visdraad",
+        "stations": {
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "watervoertuig": 1
+        },
+        "credits": 400,
+        "poi": 1,
+        "percentages": {
+            "watervoertuig": 20
+        }
+    },
+    "185": {
+        "name": "Verlaten kinderfiets langs waterkant",
+        "stations": {
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1200,
+        "poi": 1
+    },
+    "186": {
+        "name": "Parkeergarage onder water",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "slangenwagen": 1
+        },
+        "credits": 490,
+        "percentages": {
+            "slangenwagen": 40
+        }
+    },
+    "187": {
+        "name": "Kelder onder water",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "slangenwagen": 1
+        },
+        "credits": 390,
+        "percentages": {
+            "slangenwagen": 20
+        }
+    },
+    "188": {
+        "name": "Gevaarlijk hangende tak",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 310,
+        "percentages": {
+            "hoogwerker": 50
+        }
+    },
+    "189": {
+        "name": "Boom op dak",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 330,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "190": {
+        "name": "Straat onder water",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 490,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "191": {
+        "name": "Losgewaaide dakbedekking",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 420,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "192": {
+        "name": "Parkeerterrein onder water",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "slangenwagen": 1
+        },
+        "credits": 490,
+        "percentages": {
+            "slangenwagen": 20
+        }
+    },
+    "193": {
+        "name": "Koe in sloot",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 140,
+        "poi": 28,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "194": {
+        "name": "Koe in gierput",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 190,
+        "poi": 21,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "195": {
+        "name": "Lekkende woonboot",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1
+        },
+        "credits": 420,
+        "poi": 1,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "196": {
+        "name": "Brand in woonwagen",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 190
+    },
+    "197": {
+        "name": "Brandende vrachtwagen",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 190
+    },
+    "198": {
+        "name": "Brand in woonkamer",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 190,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "199": {
+        "name": "Inbraak in woning",
+        "stations": {
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 800,
+        "prisoners": {
+            "max": 1
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "200": {
+        "name": "Drugslab aangetroffen",
+        "stations": {
+            "0": 11,
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "tankauto": 1,
+            "ovdb": 1,
+            "gevaar": 1
+        },
+        "credits": 800,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "201": {
+        "name": "Vechtpartij in caf\u00e9",
+        "stations": {
+            "3": 1,
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 19,
+        "prisoners": {
+            "max": 2
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "202": {
+        "name": "Steekincident",
+        "stations": {
+            "3": 10,
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "203": {
+        "name": "Verkeersongeval met gevaarlijke stoffen",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "tankauto": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "gevaar": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 80,
+            "gevaar": 60
+        }
+    },
+    "204": {
+        "name": "Verkeersongeval met gevaarlijke stoffen",
+        "stations": {
+            "0": 11,
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "tankauto": 1,
+            "ovdb": 1,
+            "hulpverlening": 1,
+            "gevaar": 1,
+            "waarschuwing": 1,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "waarschuwing": 50,
+            "hovd": 50,
+            "commando": 50
+        }
+    },
+    "205": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 20,
+            "wateraanhanger": 50
+        }
+    },
+    "206": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 50
+        }
+    },
+    "207": {
+        "name": "Personenauto te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 100
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 10,
+            "hulpverlening": 40,
+            "wateraanhanger": 10
+        }
+    },
+    "208": {
+        "name": "Personenauto te water",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 3,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 3,
+            "transport": 90
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 50,
+            "hulpverlening": 60,
+            "wateraanhanger": 50
+        }
+    },
+    "209": {
+        "name": "Aanvaring met vrachtschip en motorboot",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 10,
+            "hulpverlening": 50
+        }
+    },
+    "210": {
+        "name": "Aanvaring met vrachtschip en motorboot",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "min": 2,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 50,
+            "hulpverlening": 50
+        }
+    },
+    "211": {
+        "name": "Aanvaring met vrachtschip en motorboot",
+        "stations": {
+            "0": 12,
+            "3": 3,
+            "5": 2,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 4,
+            "min": 3,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 80,
+            "hulpverlening": 80,
+            "hovd": 50,
+            "commando": 50
+        }
+    },
+    "212": {
+        "name": "Omgeslagen zeilboot",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "wateraanhanger": 80
+        }
+    },
+    "213": {
+        "name": "Omgeslagen zeilboot",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 2,
+            "noodhulpeen": 1
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 2,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "214": {
+        "name": "Bosbrand",
+        "stations": [
+            2
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 750,
+        "poi": 3,
+        "percentages": {
+            "slangenwagen": 40
+        }
+    },
+    "215": {
+        "name": "Bosbrand",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "ovdb": 1,
+            "hovd": 1,
+            "slangenwagen": 1
+        },
+        "credits": 800,
+        "poi": 3,
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "216": {
+        "name": "Bosbrand",
+        "stations": [
+            12
+        ],
+        "vehicles": {
+            "tankauto": 4,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "slangenwagen": 1
+        },
+        "credits": 999,
+        "poi": 3,
+        "percentages": {
+            "commando": 10
+        }
+    },
+    "217": {
+        "name": "Plofkraak",
+        "stations": {
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 620,
+        "poi": 14
+    },
+    "218": {
+        "name": "Plofkraak",
+        "stations": {
+            "0": 4,
+            "5": 5,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "polHeli": 1,
+            "ovdp": 1,
+            "tankauto": 1,
+            "ovdb": 1
+        },
+        "credits": 1100,
+        "poi": 14,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "219": {
+        "name": "Open dag, klein",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "redvoertuig": 1
+        },
+        "credits": 2000,
+        "poi": 26,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "220": {
+        "name": "Open dag, groot",
+        "stations": {
+            "0": 2,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "redvoertuig": 1,
+            "noodhulpeen": 1,
+            "ambulance": 1
+        },
+        "credits": 3000,
+        "poi": 26,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "221": {
+        "name": "Inval in woning",
+        "stations": {
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 800,
+        "prisoners": {
+            "max": 1
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "222": {
+        "name": "Inbraak in woning",
+        "stations": {
+            "5": 5,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "polHeli": 1
+        },
+        "credits": 1000,
+        "prisoners": {
+            "max": 2
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "223": {
+        "name": "Brand in kelder",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1
+        },
+        "credits": 700
+    },
+    "224": {
+        "name": "Brand in kelder",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 500
+    },
+    "225": {
+        "name": "Benauwdheid",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "226": {
+        "name": "Val van trap",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "227": {
+        "name": "Assistentie treinconducteur",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 750,
+        "poi": 6,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "228": {
+        "name": "Assistentie treinconducteur",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 750,
+        "poi": 6,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "229": {
+        "name": "Brand in tankstation",
+        "stations": {
+            "0": 11,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "slangenwagen": 1,
+            "adembescherming": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1700,
+        "poi": 11,
+        "percentages": {
+            "hovd": 50,
+            "slangenwagen": 50,
+            "adembescherming": 20,
+            "waarschuwing": 10,
+            "gevaar": 10
+        }
+    },
+    "230": {
+        "name": "Onwelwording",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "231": {
+        "name": "Vernieling bushokje",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 800,
+        "poi": 4
+    },
+    "232": {
+        "name": "Buspassagier weigert te betalen",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 800,
+        "poi": 4,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "233": {
+        "name": "Brand in tuinhuis",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "redvoertuig": 1
+        },
+        "credits": 900,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "235": {
+        "name": "Overdosis drugs",
+        "stations": {
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 400,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Interne Geneeskunde"
+        }
+    },
+    "236": {
+        "name": "Schietincident",
+        "stations": {
+            "3": 10,
+            "5": 5
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "237": {
+        "name": "Brand in werkplaats",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 780,
+        "percentages": {
+            "adembescherming": 10
+        }
+    },
+    "238": {
+        "name": "Brand in werkplaats",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 450
+    },
+    "239": {
+        "name": "Verstikking",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "240": {
+        "name": "Vergiftiging",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "241": {
+        "name": "Zwemmer vermist",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1150,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "wateraanhanger": 80
+        }
+    },
+    "242": {
+        "name": "Verlaten kleding langs waterkant",
+        "stations": {
+            "0": 6,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "poi": 1,
+        "expansions": [
+            241,
+            348
+        ]
+    },
+    "243": {
+        "name": "Verdachte situatie",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 750
+    },
+    "244": {
+        "name": "Persoon van podium gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Algemene Heelkunde",
+        "poi": 25
+    },
+    "245": {
+        "name": "Ontruimen kraakpand",
+        "stations": {
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 3500,
+        "siwa": true,
+        "dauer": "1 uur"
+    },
+    "246": {
+        "name": "Persoon vermist",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 4
+        },
+        "credits": 600
+    },
+    "247": {
+        "name": "Persoon vermist",
+        "stations": {
+            "5": 4,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 1200
+    },
+    "248": {
+        "name": "Persoon vermist",
+        "stations": {
+            "5": 3,
+            "9": 1,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "megroep": 3,
+            "mecommando": 1,
+            "polHeli": 1
+        },
+        "credits": 2200
+    },
+    "249": {
+        "name": "Straatroof",
+        "stations": {
+            "5": 3,
+            "9": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "polHeli": 1
+        },
+        "credits": 2700
+    },
+    "250": {
+        "name": "Opnemen aangifte inbraak",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 300
+    },
+    "251": {
+        "name": "Vrachtwagen te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "hulpverlening": 80,
+            "wateraanhanger": 20
+        }
+    },
+    "252": {
+        "name": "Vrachtwagen te water",
+        "stations": {
+            "0": 12,
+            "3": 10,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "wateraanhanger": 60
+        }
+    },
+    "253": {
+        "name": "Grote boek van Sinterklaas aangespoeld",
+        "stations": {
+            "0": 12,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1000,
+        "poi": 1
+    },
+    "254": {
+        "name": "Brandende goederenwagon",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "gevaar": 1
+        },
+        "credits": 650,
+        "poi": 8,
+        "percentages": {
+            "ovdb": 30,
+            "gevaar": 10
+        }
+    },
+    "255": {
+        "name": "Brandende goederenwagon",
+        "stations": [
+            11
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "gevaar": 1
+        },
+        "credits": 1700,
+        "poi": 8,
+        "percentages": {
+            "slangenwagen": 50,
+            "gevaar": 30
+        }
+    },
+    "256": {
+        "name": "Geluidsoverlast",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 400
+    },
+    "257": {
+        "name": "Auto-inbraak",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 500
+    },
+    "258": {
+        "name": "Brand in flatwoning",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 250,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "259": {
+        "name": "Brand in flatwoning",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1050,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        }
+    },
+    "260": {
+        "name": "Brandend speeltoestel",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220,
+        "poi": 0
+    },
+    "261": {
+        "name": "Persoon door glas gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 20,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "262": {
+        "name": "Burenruzie",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 430
+    },
+    "263": {
+        "name": "Brandende personenauto in parkeergarage",
+        "stations": [
+            2
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 300,
+        "poi": 0
+    },
+    "264": {
+        "name": "Brandende personenauto in parkeergarage",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 650,
+        "poi": 0,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "265": {
+        "name": "Vliegtuig met hydraulisch probleem",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "crashtender": 2,
+            "afoosc": 1,
+            "tankauto": 1
+        },
+        "credits": 1550,
+        "poi": 32
+    },
+    "266": {
+        "name": "Vliegtuig met rook in cabine",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "crashtender": 2,
+            "afoosc": 1,
+            "tankauto": 1
+        },
+        "credits": 1550,
+        "poi": 32
+    },
+    "267": {
+        "name": "Vliegtuig met brandgeur in cabine",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "crashtender": 2,
+            "afoosc": 1,
+            "tankauto": 1
+        },
+        "credits": 1550,
+        "poi": 32
+    },
+    "268": {
+        "name": "Vliegtuig met probleem met landingsgestel",
+        "stations": {
+            "0": 12,
+            "3": 8,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "crashtender": 2,
+            "afoosc": 1,
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 2600,
+        "patients": {
+            "max": 4,
+            "transport": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 32
+    },
+    "269": {
+        "name": "Vliegtuig met brandmelding in vrachtruim",
+        "stations": {
+            "0": 12,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "crashtender": 2,
+            "afoosc": 1,
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 2700,
+        "poi": 32
+    },
+    "270": {
+        "name": "Vliegtuig buiten start-\/landingsbaan beland",
+        "stations": {
+            "0": 10,
+            "3": 8,
+            "5": 2
+        },
+        "vehicles": {
+            "ovdb": 1,
+            "crashtender": 2,
+            "afoosc": 1,
+            "noodhulpeen": 2,
+            "tankauto": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 3,
+            "transport": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 32
+    },
+    "271": {
+        "name": "Rookontwikkeling in vrachtruim vliegtuig",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "crashtender": 2,
+            "afoosc": 1,
+            "tankauto": 1
+        },
+        "credits": 1125,
+        "poi": 34
+    },
+    "272": {
+        "name": "Klein vliegtuig met motorisch probleem",
+        "stations": {
+            "0": 10,
+            "3": 3,
+            "5": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "crashtender": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "transport": 20,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 29,
+        "percentages": {
+            "hulpverlening": 50
+        }
+    },
+    "273": {
+        "name": "Klein vliegtuig neergestort",
+        "stations": {
+            "0": 10,
+            "3": 5,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "crashtender": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2100,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 29,
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "274": {
+        "name": "Klein vliegtuig neergestort",
+        "stations": {
+            "0": 10,
+            "3": 10,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "crashtender": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 29,
+        "percentages": {
+            "hovd": 20,
+            "commando": 20,
+            "ovdp": 20
+        }
+    },
+    "275": {
+        "name": "Brandend klein vliegtuig",
+        "stations": {
+            "0": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "crashtender": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1650,
+        "poi": 31,
+        "percentages": {
+            "ovdb": 10
+        }
+    },
+    "276": {
+        "name": "Brandend klein vliegtuig",
+        "stations": {
+            "0": 10,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "hovd": 1,
+            "crashtender": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 2500,
+        "poi": 31,
+        "percentages": {
+            "hovd": 10,
+            "ovdp": 10
+        }
+    },
+    "277": {
+        "name": "Pijn op de borst",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiologie",
+        "poi": 33
+    },
+    "278": {
+        "name": "Beroerte",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Neurologie",
+        "poi": 33
+    },
+    "279": {
+        "name": "Bedreiging",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 750
+    },
+    "280": {
+        "name": "Brand in garagebedrijf",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 850,
+        "poi": 15,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "281": {
+        "name": "Brand in garagebedrijf",
+        "stations": {
+            "0": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2700,
+        "poi": 15,
+        "percentages": {
+            "adembescherming": 20,
+            "slangenwagen": 50,
+            "hovd": 50
+        }
+    },
+    "282": {
+        "name": "Brand in garagebedrijf",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3620,
+        "patients": {
+            "max": 1,
+            "transport": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 15,
+        "percentages": {
+            "waarschuwing": 10,
+            "gevaar": 50
+        }
+    },
+    "283": {
+        "name": "Val van paard",
+        "stations": {
+            "3": 10
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "mmtarts": 10,
+        "specialisation": "Algemene Heelkunde",
+        "poi": 21
+    },
+    "284": {
+        "name": "Gevaarlijk rijgedrag",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 500
+    },
+    "285": {
+        "name": "Brand in supermarkt",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 1400,
+        "poi": 10,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "286": {
+        "name": "Kind vast in boom",
+        "stations": {
+            "0": 3,
+            "3": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 340,
+        "patients": {
+            "max": 1,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 0,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "287": {
+        "name": "Brand in magazijn",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 350,
+        "poi": 18,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "288": {
+        "name": "Brand in magazijn",
+        "stations": [
+            5
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1750,
+        "poi": 18
+    },
+    "289": {
+        "name": "Brand in magazijn",
+        "stations": {
+            "0": 8,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2150,
+        "poi": 18,
+        "percentages": {
+            "adembescherming": 20,
+            "slangenwagen": 40,
+            "hovd": 50
+        }
+    },
+    "290": {
+        "name": "Brand in magazijn",
+        "stations": {
+            "0": 12,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3000,
+        "poi": 18,
+        "percentages": {
+            "waarschuwing": 50,
+            "gevaar": 50
+        }
+    },
+    "291": {
+        "name": "Brand in magazijn",
+        "stations": {
+            "0": 16,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 2,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 4200,
+        "poi": 18,
+        "percentages": {
+            "waarschuwing": 50
+        }
+    },
+    "292": {
+        "name": "Ongeval met trein en vrachtwagen",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1575,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 24,
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "293": {
+        "name": "Ongeval met trein en vrachtwagen",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2450,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 24
+    },
+    "294": {
+        "name": "Overlast jeugd",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "poi": 14
+    },
+    "295": {
+        "name": "Overlast zwervers",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 450,
+        "poi": 14
+    },
+    "296": {
+        "name": "Brand in museum",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 900,
+        "poi": 13,
+        "percentages": {
+            "hoogwerker": 70
+        }
+    },
+    "297": {
+        "name": "Brand in museum",
+        "stations": {
+            "0": 6,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1500,
+        "poi": 13,
+        "percentages": {
+            "adembescherming": 10
+        }
+    },
+    "298": {
+        "name": "Brand in museum",
+        "stations": {
+            "0": 8,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 1,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 13,
+        "percentages": {
+            "adembescherming": 50,
+            "slangenwagen": 20,
+            "hovd": 50,
+            "commando": 50
+        }
+    },
+    "299": {
+        "name": "Brandend plezierjacht",
+        "stations": {
+            "0": 12,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "poi": 1,
+        "percentages": {
+            "watervoertuig": 10,
+            "wateraanhanger": 70
+        }
+    },
+    "300": {
+        "name": "Brandend plezierjacht",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1450,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "watervoertuig": 40
+        }
+    },
+    "301": {
+        "name": "Inbraakalarm",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 750
+    },
+    "302": {
+        "name": "Brand in kantoorgebouw",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 850,
+        "poi": 22,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "303": {
+        "name": "Brand in kantoorgebouw",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1650,
+        "poi": 22,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "304": {
+        "name": "Brand in kantoorgebouw",
+        "stations": {
+            "0": 8,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2400,
+        "poi": 22,
+        "percentages": {
+            "adembescherming": 10,
+            "slangenwagen": 20,
+            "hovd": 50
+        }
+    },
+    "305": {
+        "name": "Verkeersongeval met touringcar",
+        "stations": {
+            "0": 6,
+            "3": 6,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1450,
+        "patients": {
+            "max": 6,
+            "min": 3,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 50
+        }
+    },
+    "306": {
+        "name": "Verkeersongeval met touringcar",
+        "stations": {
+            "0": 12,
+            "3": 8,
+            "5": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 2100,
+        "patients": {
+            "max": 8,
+            "min": 5,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "307": {
+        "name": "Verkeersongeval met touringcar",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 3250,
+        "patients": {
+            "max": 10,
+            "min": 7,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "308": {
+        "name": "Natuurbrand",
+        "stations": {
+            "0": 20,
+            "5": 3
+        },
+        "vehicles": {
+            "tankauto": 16,
+            "hulpverlening": 3,
+            "ovdb": 4,
+            "adembescherming": 1,
+            "slangenwagen": 4,
+            "hovd": 2,
+            "commando": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 11500,
+        "poi": 3,
+        "percentages": {
+            "adembescherming": 80
+        }
+    },
+    "309": {
+        "name": "Natuurbrand",
+        "stations": {
+            "0": 30,
+            "5": 6
+        },
+        "vehicles": {
+            "tankauto": 24,
+            "hulpverlening": 4,
+            "ovdb": 6,
+            "adembescherming": 1,
+            "slangenwagen": 6,
+            "hovd": 3,
+            "commando": 2,
+            "noodhulpeen": 5
+        },
+        "credits": 18750,
+        "poi": 3
+    },
+    "310": {
+        "name": "Verkeersongeval met scooter en fietser",
+        "stations": {
+            "3": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 750,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 50,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "311": {
+        "name": "Verkeersongeval met fietser en fietser",
+        "stations": {
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "312": {
+        "name": "Lekkende goederenwagon",
+        "stations": {
+            "0": 15,
+            "3": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "mmtarts": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 8,
+        "percentages": {
+            "waarschuwing": 70,
+            "hovd": 80,
+            "commando": 50
+        }
+    },
+    "313": {
+        "name": "Brand in passagierstrein",
+        "stations": {
+            "0": 2,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1000,
+        "poi": 6
+    },
+    "314": {
+        "name": "Brand in passagierstrein",
+        "stations": {
+            "0": 8,
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2100,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 6,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "315": {
+        "name": "Brand in passagierstrein",
+        "stations": {
+            "0": 14,
+            "3": 4,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 3250,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "transport": 100,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 6,
+        "percentages": {
+            "hulpverlening": 50,
+            "adembescherming": 10,
+            "slangenwagen": 20
+        }
+    },
+    "316": {
+        "name": "Bedreiging met vuurwapen",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "317": {
+        "name": "Bedreiging met vuurwapen",
+        "stations": {
+            "5": 6
+        },
+        "vehicles": {
+            "noodhulpeen": 4
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "318": {
+        "name": "Brand op binnenvaartschip",
+        "stations": {
+            "0": 12,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "wateraanhanger": 1
+        },
+        "credits": 1450,
+        "poi": 27,
+        "percentages": {
+            "wateraanhanger": 20
+        }
+    },
+    "319": {
+        "name": "Brand op binnenvaartschip",
+        "stations": {
+            "0": 13,
+            "3": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1
+        },
+        "credits": 3100,
+        "patients": {
+            "max": 1,
+            "transport": 70,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "watervoertuig": 10
+        }
+    },
+    "320": {
+        "name": "Brand op binnenvaartschip",
+        "stations": {
+            "0": 14,
+            "3": 2,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 2
+        },
+        "credits": 4750,
+        "patients": {
+            "max": 2,
+            "transport": 90,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "hulpverlening": 20,
+            "adembescherming": 10,
+            "gevaar": 10,
+            "hovd": 50,
+            "watervoertuig": 20
+        }
+    },
+    "321": {
+        "name": "Brandende wegberm",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 300,
+        "poi": 16
+    },
+    "322": {
+        "name": "Brandende wegberm",
+        "stations": [
+            7
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1000,
+        "poi": 16,
+        "percentages": {
+            "slangenwagen": 50
+        }
+    },
+    "323": {
+        "name": "Verkeersongeval met motorfiets",
+        "stations": {
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "324": {
+        "name": "Verkeersongeval met personenauto en motorfiets",
+        "stations": {
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 80,
+            "mmtarts": 50,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "325": {
+        "name": "Verkeersongeval met fietser en motorfiets",
+        "stations": {
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 70,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "326": {
+        "name": "Brand in landbouwschuur",
+        "stations": {
+            "0": 12,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3650,
+        "poi": 21,
+        "percentages": {
+            "hulpverlening": 50,
+            "adembescherming": 50,
+            "waarschuwing": 20,
+            "gevaar": 20,
+            "hovd": 70
+        }
+    },
+    "327": {
+        "name": "Brand in landbouwschuur",
+        "stations": {
+            "0": 16,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 7000,
+        "poi": 21,
+        "percentages": {
+            "waarschuwing": 50,
+            "gevaar": 50,
+            "commando": 50
+        }
+    },
+    "328": {
+        "name": "Persoon onwel na mixen mest",
+        "stations": {
+            "0": 11,
+            "3": 2,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 700,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 21,
+        "percentages": {
+            "hulpverlening": 20,
+            "ovdb": 50,
+            "waarschuwing": 10,
+            "gevaar": 50
+        }
+    },
+    "329": {
+        "name": "Verwaarloosde hond in woning",
+        "stations": {
+            "5": 1,
+            "11": 1
+        },
+        "vehicles": {
+            "hond": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 350
+    },
+    "330": {
+        "name": "Vechtpartij in caf\u00e9",
+        "stations": {
+            "3": 1,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1,
+            "hond": 1
+        },
+        "credits": 2250,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 19,
+        "prisoners": {
+            "max": 2
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "331": {
+        "name": "Inbraak in bedrijfspand",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1500,
+        "poi": 22,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "332": {
+        "name": "Inbraak in bedrijfspand",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1500,
+        "poi": 18,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "333": {
+        "name": "Inbraak in bedrijfspand",
+        "stations": {
+            "5": 3,
+            "9": 1,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "hond": 1,
+            "polHeli": 1
+        },
+        "credits": 2000,
+        "poi": 22,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "334": {
+        "name": "Brand in schoolgebouw",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 850,
+        "poi": 12,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "335": {
+        "name": "Brand in schoolgebouw",
+        "stations": {
+            "0": 6,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1750,
+        "poi": 12,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "336": {
+        "name": "Brand in schoolgebouw",
+        "stations": {
+            "0": 8,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2850,
+        "poi": 12,
+        "percentages": {
+            "adembescherming": 10,
+            "slangenwagen": 20,
+            "hovd": 50
+        }
+    },
+    "337": {
+        "name": "Huiselijk geweld",
+        "stations": {
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "338": {
+        "name": "Huiselijk geweld",
+        "stations": {
+            "3": 1,
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1550,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "339": {
+        "name": "Lekkende LPG installatie",
+        "stations": {
+            "0": 8,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1150,
+        "poi": 11,
+        "percentages": {
+            "hulpverlening": 60,
+            "ovdb": 80,
+            "waarschuwing": 10,
+            "gevaar": 10
+        }
+    },
+    "340": {
+        "name": "Lekkende LPG installatie",
+        "stations": {
+            "0": 14,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2500,
+        "poi": 11,
+        "percentages": {
+            "waarschuwing": 30,
+            "gevaar": 20,
+            "hovd": 10,
+            "commando": 10
+        }
+    },
+    "341": {
+        "name": "Nacontrole brand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 500,
+        "poi": 14,
+        "expansions": [
+            130
+        ]
+    },
+    "342": {
+        "name": "Nacontrole brand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 500,
+        "poi": 13,
+        "expansions": [
+            297
+        ]
+    },
+    "343": {
+        "name": "Nacontrole brand",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 500,
+        "expansions": [
+            60,
+            114
+        ]
+    },
+    "344": {
+        "name": "Vreemde lucht in kantoorgebouw",
+        "stations": {
+            "0": 12,
+            "3": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1375,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 22,
+        "percentages": {
+            "hulpverlening": 40,
+            "ovdb": 50,
+            "gevaar": 50
+        }
+    },
+    "345": {
+        "name": "Vreemde lucht in kantoorgebouw",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2850,
+        "patients": {
+            "max": 10,
+            "min": 5,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 22,
+        "percentages": {
+            "hulpverlening": 80,
+            "waarschuwing": 20,
+            "hovd": 50,
+            "commando": 50
+        }
+    },
+    "348": {
+        "name": "Zwemmer vermist",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1750,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "hoogwerker": 10,
+            "hulpverlening": 10
+        }
+    },
+    "349": {
+        "name": "Zwemmer vermist",
+        "stations": {
+            "0": 14,
+            "3": 1,
+            "5": 2,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 3150,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1,
+        "percentages": {
+            "hoogwerker": 40,
+            "hulpverlening": 40
+        }
+    },
+    "350": {
+        "name": "Insluiping in woning",
+        "stations": {
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "hond": 1
+        },
+        "credits": 2350,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "351": {
+        "name": "Inbraakalarm woning",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1500,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "352": {
+        "name": "Brand in terminal",
+        "stations": {
+            "0": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1400,
+        "poi": 33,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "353": {
+        "name": "Brand in terminal",
+        "stations": {
+            "0": 10,
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3300,
+        "patients": {
+            "max": 2,
+            "transport": 20,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 33,
+        "percentages": {
+            "hoogwerker": 60
+        }
+    },
+    "354": {
+        "name": "Brand in terminal",
+        "stations": {
+            "0": 15,
+            "3": 10,
+            "5": 4,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "afoosc": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 5150,
+        "patients": {
+            "max": 8,
+            "min": 4,
+            "transport": 20,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 33,
+        "percentages": {
+            "adembescherming": 10
+        }
+    },
+    "355": {
+        "name": "Heidebrand",
+        "stations": [
+            14
+        ],
+        "vehicles": {
+            "tankauto": 4,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "slangenwagen": 2,
+            "hovd": 1
+        },
+        "credits": 3000,
+        "poi": 3,
+        "percentages": {
+            "hulpverlening": 20,
+            "hovd": 50
+        }
+    },
+    "356": {
+        "name": "Heidebrand",
+        "stations": [
+            16
+        ],
+        "vehicles": {
+            "tankauto": 8,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 4,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 7200,
+        "poi": 3,
+        "percentages": {
+            "hulpverlening": 80,
+            "adembescherming": 20,
+            "hovd": 80,
+            "commando": 80
+        }
+    },
+    "357": {
+        "name": "Natuurbrand",
+        "stations": {
+            "0": 65,
+            "5": 8
+        },
+        "vehicles": {
+            "tankauto": 32,
+            "hulpverlening": 4,
+            "ovdb": 8,
+            "adembescherming": 2,
+            "slangenwagen": 10,
+            "hovd": 3,
+            "commando": 2,
+            "noodhulpeen": 8
+        },
+        "credits": 22500,
+        "poi": 3
+    },
+    "358": {
+        "name": "Hoge bloeddruk",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Cardiologie"
+    },
+    "359": {
+        "name": "Lage bloeddruk",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Cardiologie"
+    },
+    "360": {
+        "name": "Brand in bovenwoning",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 300,
+        "percentages": {
+            "hoogwerker": 40
+        }
+    },
+    "361": {
+        "name": "Brand in bovenwoning",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1150,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "hoogwerker": 60
+        }
+    },
+    "362": {
+        "name": "Brand in flatwoning",
+        "stations": {
+            "0": 10,
+            "3": 6,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2350,
+        "patients": {
+            "max": 6,
+            "min": 3,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "adembescherming": 10,
+            "hovd": 50
+        }
+    },
+    "363": {
+        "name": "Brand op passagiersschip",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1
+        },
+        "credits": 1450,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "ovdb": 20,
+            "watervoertuig": 20
+        }
+    },
+    "364": {
+        "name": "Brand op passagiersschip",
+        "stations": {
+            "0": 14,
+            "3": 6,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3250,
+        "patients": {
+            "max": 6,
+            "min": 4,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27
+    },
+    "365": {
+        "name": "Brand op passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 2,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 1
+        },
+        "credits": 4800,
+        "patients": {
+            "max": 12,
+            "min": 8,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 20,
+            "hulpverlening": 20,
+            "adembescherming": 40,
+            "hovd": 50,
+            "commando": 50
+        }
+    },
+    "366": {
+        "name": "Personen op dak school",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "367": {
+        "name": "Gestolen scooter gevonden",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 400,
+        "poi": 12
+    },
+    "368": {
+        "name": "Verkeersongeval met vrachtwagen en fietser",
+        "stations": {
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "369": {
+        "name": "Verkeersongeval met vrachtwagen en fietser",
+        "stations": {
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1150,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "370": {
+        "name": "Verkeersongeval met vrachtwagen en fietser",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "371": {
+        "name": "Verlaten slee langs waterkant",
+        "stations": {
+            "0": 3,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 1
+    },
+    "372": {
+        "name": "Brandende kerststal",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 600,
+        "poi": 17
+    },
+    "373": {
+        "name": "Brandwonden door gourmetstel",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 20,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "374": {
+        "name": "Geluidsoverlast door kerstmuziek",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 500
+    },
+    "375": {
+        "name": "Persoon bekneld onder kerstpakketten",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "hulpverlening": 20,
+            "ovdb": 80
+        }
+    },
+    "376": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 50,
+            "hulpverlening": 50
+        }
+    },
+    "377": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 14,
+            "3": 1,
+            "5": 2,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "watervoertuig": 4,
+            "wateraanhanger": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 5200,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "hoogwerker": 50,
+            "hulpverlening": 70,
+            "hovd": 20
+        }
+    },
+    "378": {
+        "name": "Vreemde lucht in winkelcentrum",
+        "stations": {
+            "0": 12,
+            "3": 8,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1950,
+        "patients": {
+            "max": 10,
+            "min": 6,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 14,
+        "percentages": {
+            "hulpverlening": 50,
+            "gevaar": 50
+        }
+    },
+    "379": {
+        "name": "Vreemde lucht in winkelcentrum",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 4
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 18,
+            "min": 12,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 14,
+        "percentages": {
+            "waarschuwing": 20
+        }
+    },
+    "380": {
+        "name": "Epileptische aanval",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 85,
+        "specialisation": "Neurologie"
+    },
+    "381": {
+        "name": "Hevige bloeding",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "382": {
+        "name": "Suikertekort",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "383": {
+        "name": "Brand in parkeergarage",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 900,
+        "poi": 0,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "384": {
+        "name": "Brand in parkeergarage",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1
+        },
+        "credits": 2150,
+        "poi": 0,
+        "percentages": {
+            "hoogwerker": 40,
+            "hulpverlening": 10
+        }
+    },
+    "385": {
+        "name": "Brand in parkeergarage",
+        "stations": {
+            "0": 12,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3650,
+        "poi": 0,
+        "percentages": {
+            "hoogwerker": 80,
+            "hulpverlening": 20,
+            "adembescherming": 40,
+            "slangenwagen": 20,
+            "hovd": 50
+        }
+    },
+    "386": {
+        "name": "Brand in parkeergarage",
+        "stations": {
+            "0": 16,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 5100,
+        "poi": 0,
+        "percentages": {
+            "hulpverlening": 30,
+            "adembescherming": 80,
+            "slangenwagen": 40,
+            "commando": 50
+        }
+    },
+    "387": {
+        "name": "Bouwvakker van hoogte gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Traumatologie",
+        "poi": 53
+    },
+    "388": {
+        "name": "Bouwvakker van hoogte gevallen",
+        "stations": {
+            "0": 3,
+            "3": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 400,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 53
+    },
+    "389": {
+        "name": "Bouwvakker bekneld onder bouwmateriaal",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 53,
+        "percentages": {
+            "hulpverlening": 80
+        }
+    },
+    "390": {
+        "name": "Brand bij afvalverwerker",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 800,
+        "poi": 46,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "391": {
+        "name": "Brand bij afvalverwerker",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1500,
+        "poi": 46,
+        "percentages": {
+            "hoogwerker": 50,
+            "slangenwagen": 20
+        }
+    },
+    "392": {
+        "name": "Brand bij afvalverwerker",
+        "stations": [
+            12
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1
+        },
+        "credits": 2600,
+        "poi": 46,
+        "percentages": {
+            "slangenwagen": 80,
+            "waarschuwing": 20,
+            "gevaar": 60,
+            "hovd": 50
+        }
+    },
+    "393": {
+        "name": "Brand bij afvalverwerker",
+        "stations": {
+            "0": 16,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 4800,
+        "poi": 46,
+        "percentages": {
+            "hulpverlening": 20,
+            "adembescherming": 50,
+            "waarschuwing": 60
+        }
+    },
+    "394": {
+        "name": "Brand bij afvalverwerker",
+        "stations": {
+            "0": 18,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 3,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 6800,
+        "poi": 46,
+        "percentages": {
+            "hulpverlening": 20
+        }
+    },
+    "395": {
+        "name": "Brand bij afvalverwerker",
+        "stations": {
+            "0": 20,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 12,
+            "redvoertuig": 3,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 4,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 9500,
+        "poi": 46,
+        "percentages": {
+            "hulpverlening": 40
+        }
+    },
+    "396": {
+        "name": "Lekkende LPG installatie",
+        "stations": {
+            "0": 14,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2600,
+        "poi": 11,
+        "percentages": {
+            "waarschuwing": 50,
+            "gevaar": 50
+        }
+    },
+    "397": {
+        "name": "Gaslekkage",
+        "stations": {
+            "0": 14,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1200,
+        "percentages": {
+            "hulpverlening": 50,
+            "gevaar": 20
+        }
+    },
+    "398": {
+        "name": "Vreemde lucht in kantoorgebouw",
+        "stations": {
+            "0": 14,
+            "3": 8,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1750,
+        "patients": {
+            "max": 6,
+            "min": 3,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 22,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "399": {
+        "name": "Inbraakalarm bedrijfspand",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1850,
+        "poi": 22,
+        "expansions": [
+            333
+        ]
+    },
+    "400": {
+        "name": "Inbraakalarm bedrijfspand",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "hond": 1
+        },
+        "credits": 1850,
+        "poi": 18,
+        "expansions": [
+            333
+        ]
+    },
+    "401": {
+        "name": "Overvalalarm supermarkt",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 2250,
+        "poi": 10,
+        "expansions": [
+            123
+        ]
+    },
+    "402": {
+        "name": "Persoon van laadklep gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Algemene Heelkunde",
+        "poi": 10
+    },
+    "403": {
+        "name": "Persoon van laadklep gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Algemene Heelkunde",
+        "poi": 14
+    },
+    "404": {
+        "name": "Persoon van laadklep gevallen",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Algemene Heelkunde",
+        "poi": 9
+    },
+    "405": {
+        "name": "Motorrijder gevallen",
+        "stations": {
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Algemene Heelkunde"
+        }
+    },
+    "406": {
+        "name": "Persoon van dak gevallen",
+        "stations": {
+            "3": 10
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "mmtarts": 100,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "407": {
+        "name": "Nacontrole brand",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 500,
+        "poi": 47,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "408": {
+        "name": "Brand in kerkgebouw",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 800,
+        "poi": 47,
+        "percentages": {
+            "hoogwerker": 40
+        }
+    },
+    "409": {
+        "name": "Brand in kerkgebouw",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1500,
+        "poi": 47
+    },
+    "410": {
+        "name": "Brand in kerkgebouw",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 2,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 47,
+        "percentages": {
+            "adembescherming": 40,
+            "slangenwagen": 40,
+            "hovd": 50
+        }
+    },
+    "411": {
+        "name": "Brand in kerkgebouw",
+        "stations": {
+            "0": 16,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2650,
+        "patients": {
+            "max": 3,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 47,
+        "percentages": {
+            "hulpverlening": 10,
+            "adembescherming": 40,
+            "slangenwagen": 40
+        }
+    },
+    "412": {
+        "name": "Brand in kerkgebouw",
+        "stations": {
+            "0": 16,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 4850,
+        "patients": {
+            "max": 3,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 47,
+        "percentages": {
+            "hulpverlening": 20
+        }
+    },
+    "413": {
+        "name": "Brand in kerkgebouw",
+        "stations": {
+            "0": 20,
+            "3": 4,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 3,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 6700,
+        "patients": {
+            "max": 4,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 47,
+        "percentages": {
+            "hulpverlening": 40
+        }
+    },
+    "414": {
+        "name": "Brand in transformatorhuisje",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1
+        },
+        "credits": 800,
+        "poi": 49,
+        "percentages": {
+            "ovdb": 10
+        }
+    },
+    "415": {
+        "name": "Brand in transformatorhuisje",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1
+        },
+        "credits": 1800,
+        "poi": 49,
+        "percentages": {
+            "hulpverlening": 10
+        }
+    },
+    "416": {
+        "name": "Brand in transformatorhuisje",
+        "stations": {
+            "0": 14,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3000,
+        "poi": 49,
+        "percentages": {
+            "hulpverlening": 20
+        }
+    },
+    "417": {
+        "name": "Verkeersongeval met lijnbus en voetganger",
+        "stations": {
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 4
+    },
+    "418": {
+        "name": "Verkeersongeval met lijnbus en voetganger",
+        "stations": {
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1150,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 4
+    },
+    "419": {
+        "name": "Verkeersongeval met lijnbus en fietser",
+        "stations": {
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 4
+    },
+    "420": {
+        "name": "Verkeersongeval met lijnbus en fietser",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 4,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "421": {
+        "name": "Overvalalarm bankkantoor",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 2200,
+        "poi": 41
+    },
+    "422": {
+        "name": "Overval bankkantoor",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 2200,
+        "poi": 41,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "423": {
+        "name": "Overval bankkantoor",
+        "stations": {
+            "5": 4,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "hond": 1
+        },
+        "credits": 4100,
+        "poi": 41,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "424": {
+        "name": "Overval bankkantoor",
+        "stations": {
+            "5": 5,
+            "9": 1,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 5,
+            "ovdp": 1,
+            "hond": 1,
+            "polHeli": 1
+        },
+        "credits": 4500,
+        "poi": 41,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "425": {
+        "name": "Brand in bouwmarkt",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 850,
+        "poi": 48,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "426": {
+        "name": "Brand in bouwmarkt",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1550,
+        "poi": 48,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "427": {
+        "name": "Brand in bouwmarkt",
+        "stations": {
+            "0": 12,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2500,
+        "poi": 48,
+        "percentages": {
+            "adembescherming": 20,
+            "slangenwagen": 40,
+            "hovd": 50
+        }
+    },
+    "428": {
+        "name": "Brand in bouwmarkt",
+        "stations": {
+            "0": 18,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 4850,
+        "poi": 48,
+        "percentages": {
+            "hulpverlening": 20,
+            "adembescherming": 80,
+            "waarschuwing": 20
+        }
+    },
+    "429": {
+        "name": "Brand in bouwmarkt",
+        "stations": {
+            "0": 20,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 3,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 2,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 6850,
+        "poi": 48,
+        "percentages": {
+            "hulpverlening": 40,
+            "waarschuwing": 50,
+            "gevaar": 50
+        }
+    },
+    "430": {
+        "name": "Persoon bekneld tussen containers",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Traumatologie",
+        "poi": 52
+    },
+    "431": {
+        "name": "Persoon bekneld tussen containers",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 950,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "432": {
+        "name": "Persoon bekneld onder heftruck",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1050,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "433": {
+        "name": "Lekkende tankwagen",
+        "stations": {
+            "0": 11,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "hulpverlening": 80,
+            "waarschuwing": 10,
+            "gevaar": 50
+        }
+    },
+    "434": {
+        "name": "Lekkende tankwagen",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3800,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "waarschuwing": 60
+        }
+    },
+    "435": {
+        "name": "Lekkende tankwagen",
+        "stations": {
+            "0": 16,
+            "3": 4,
+            "5": 5
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52
+    },
+    "436": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "hoogwerker": 40,
+            "wateraanhanger": 40
+        }
+    },
+    "437": {
+        "name": "Persoon te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1150,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "hoogwerker": 60,
+            "hulpverlening": 20
+        }
+    },
+    "438": {
+        "name": "Duiker vermist",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 1,
+        "percentages": {
+            "hoogwerker": 10,
+            "wateraanhanger": 60
+        }
+    },
+    "439": {
+        "name": "Duiker vermist",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 1,
+        "percentages": {
+            "hoogwerker": 20,
+            "hulpverlening": 10
+        }
+    },
+    "440": {
+        "name": "Brand in gevangenis",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 950,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 44,
+        "percentages": {
+            "hoogwerker": 30,
+            "ovdb": 20
+        }
+    },
+    "441": {
+        "name": "Brand in gevangenis",
+        "stations": {
+            "0": 13,
+            "3": 2,
+            "5": 4
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "noodhulpeen": 4
+        },
+        "credits": 1950,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 44,
+        "percentages": {
+            "hoogwerker": 60,
+            "hovd": 10
+        }
+    },
+    "442": {
+        "name": "Brand in gevangenis",
+        "stations": {
+            "0": 16,
+            "3": 2,
+            "5": 4,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 44,
+        "percentages": {
+            "hoogwerker": 60
+        }
+    },
+    "443": {
+        "name": "Brand in hotel",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 750,
+        "poi": 39,
+        "percentages": {
+            "hoogwerker": 20
+        }
+    },
+    "444": {
+        "name": "Brand in hotel",
+        "stations": [
+            6
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1550,
+        "poi": 39,
+        "percentages": {
+            "hoogwerker": 40
+        }
+    },
+    "445": {
+        "name": "Brand in hotel",
+        "stations": {
+            "0": 12,
+            "3": 6,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 6,
+            "min": 2,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 39,
+        "percentages": {
+            "hoogwerker": 80,
+            "adembescherming": 10,
+            "hovd": 50
+        }
+    },
+    "446": {
+        "name": "Brand in hotel",
+        "stations": {
+            "0": 16,
+            "3": 6,
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 2600,
+        "patients": {
+            "max": 8,
+            "min": 4,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 39,
+        "percentages": {
+            "adembescherming": 10
+        }
+    },
+    "447": {
+        "name": "Brand in hotel",
+        "stations": {
+            "0": 18,
+            "3": 10,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 4900,
+        "patients": {
+            "max": 10,
+            "min": 6,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 39,
+        "percentages": {
+            "adembescherming": 40
+        }
+    },
+    "448": {
+        "name": "Suikertekort",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Neurochirurgie"
+    },
+    "449": {
+        "name": "Val van skateboard",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 40,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "450": {
+        "name": "Open botbreuk",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Algemene Heelkunde"
+    },
+    "451": {
+        "name": "Zwaan met gebroken poot",
+        "stations": {
+            "0": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "wateraanhanger": 1
+        },
+        "credits": 400,
+        "poi": 1,
+        "percentages": {
+            "wateraanhanger": 10
+        }
+    },
+    "452": {
+        "name": "Vogel vast in schoorsteen",
+        "stations": [
+            4
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1
+        },
+        "credits": 350,
+        "percentages": {
+            "hoogwerker": 40,
+            "hulpverlening": 20
+        }
+    },
+    "453": {
+        "name": "Vissen met zuurstoftekort",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 300,
+        "poi": 1
+    },
+    "454": {
+        "name": "Kat op dak",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 320,
+        "percentages": {
+            "hoogwerker": 10
+        }
+    },
+    "455": {
+        "name": "Ree vast in hek",
+        "stations": [
+            1
+        ],
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 300,
+        "poi": 3
+    },
+    "456": {
+        "name": "Brand in manege",
+        "stations": [
+            3
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "slangenwagen": 1
+        },
+        "credits": 800,
+        "poi": 38,
+        "percentages": {
+            "hoogwerker": 10,
+            "slangenwagen": 20
+        }
+    },
+    "457": {
+        "name": "Brand in manege",
+        "stations": [
+            8
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1
+        },
+        "credits": 1950,
+        "poi": 38,
+        "percentages": {
+            "hoogwerker": 50,
+            "slangenwagen": 60
+        }
+    },
+    "458": {
+        "name": "Brand in manege",
+        "stations": [
+            13
+        ],
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "hovd": 1
+        },
+        "credits": 2750,
+        "poi": 38,
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "459": {
+        "name": "Brandende vliegtuigtrekker",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "tankauto": 1,
+            "afoosc": 1
+        },
+        "credits": 600,
+        "poi": 34,
+        "percentages": {
+            "afoosc": 50
+        }
+    },
+    "460": {
+        "name": "Brandende vliegtuigtrekker",
+        "stations": [
+            10
+        ],
+        "vehicles": {
+            "tankauto": 2,
+            "afoosc": 1
+        },
+        "credits": 1350,
+        "poi": 34
+    },
+    "461": {
+        "name": "Vliegtuig met motorisch probleem",
+        "stations": {
+            "0": 12,
+            "3": 8,
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "crashtender": 2,
+            "afoosc": 1,
+            "noodhulpeen": 5,
+            "ovdp": 1
+        },
+        "credits": 2950,
+        "patients": {
+            "max": 4,
+            "transport": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 32
+    },
+    "462": {
+        "name": "Drugsafval aangetroffen",
+        "stations": {
+            "0": 11,
+            "5": 5
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 1600,
+        "poi": 3,
+        "percentages": {
+            "waarschuwing": 20
+        }
+    },
+    "463": {
+        "name": "Verdachte vaten aangetroffen",
+        "stations": {
+            "0": 11,
+            "5": 5
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 1600,
+        "poi": 3,
+        "percentages": {
+            "waarschuwing": 20
+        }
+    },
+    "464": {
+        "name": "Stankoverlast",
+        "stations": {
+            "0": 11,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "gevaar": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "expansions": [
+            200,
+            462,
+            463
+        ],
+        "percentages": {
+            "ovdb": 20,
+            "gevaar": 10
+        }
+    },
+    "465": {
+        "name": "Brand in verzorgingshuis",
+        "stations": {
+            "0": 6,
+            "3": 2,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 950,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 90,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 37,
+        "percentages": {
+            "hoogwerker": 20,
+            "ovdb": 10
+        }
+    },
+    "466": {
+        "name": "Brand in verzorgingshuis",
+        "stations": {
+            "0": 6,
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 3,
+            "min": 1,
+            "transport": 90,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 37,
+        "percentages": {
+            "hoogwerker": 80
+        }
+    },
+    "467": {
+        "name": "Brand in verzorgingshuis",
+        "stations": {
+            "0": 12,
+            "3": 4,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2750,
+        "patients": {
+            "max": 6,
+            "min": 2,
+            "transport": 90,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 37,
+        "percentages": {
+            "hovd": 50
+        }
+    },
+    "468": {
+        "name": "Brand in verzorgingshuis",
+        "stations": {
+            "0": 18,
+            "3": 10,
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 4950,
+        "patients": {
+            "max": 10,
+            "min": 4,
+            "transport": 90,
+            "mmtarts": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 37,
+        "percentages": {
+            "adembescherming": 40,
+            "slangenwagen": 20
+        }
+    },
+    "469": {
+        "name": "Brand in verzorgingshuis",
+        "stations": {
+            "0": 20,
+            "3": 10,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 3,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 7000,
+        "patients": {
+            "max": 15,
+            "min": 5,
+            "transport": 90,
+            "mmtarts": 10,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 37,
+        "percentages": {
+            "slangenwagen": 20
+        }
+    }
 }
