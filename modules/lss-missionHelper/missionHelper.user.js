@@ -16,6 +16,7 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'bis zu',
         averageMinimumEmployeesFire: 'Durchschnittlich mindestens benötigte Feuerwehrleute',
         averageMinimumEmployeesPolice: 'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
+        ambulance_only: 'Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!',
         title: 'Einsatzhelfer',
         settings: {
             name: {
@@ -191,6 +192,7 @@ const lssm_missionhelper_adjustPosition = () => {
         water: 'Wasserbedarf',
         to: 'up to',
         SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
         transport: 'Transport',
         settings: {
@@ -341,6 +343,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patiënten',
         prisoners: 'Gevangenen',
         to: 'tot',
+        ambulance_only: 'Deze missie is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
         settings: {
@@ -690,6 +693,7 @@ const lssm_missionhelper_adjustPosition = () => {
             }
 
             if (MISSION.onlyRd) {
+                content.innerHTML += `<small>${I18n.t('lssm.missionhelper.ambulance_only')}</small><br>`;
                 (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`) || ""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
                 MISSION.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.nef}%`);
                 MISSION.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.mmtarts}%`);
