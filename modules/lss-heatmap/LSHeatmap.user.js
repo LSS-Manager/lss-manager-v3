@@ -45,6 +45,10 @@
                 vehicles: [11, 13, 14, 15, 16, 62]
             },
             {
+                name: 'GW-Messtechnik',
+                vehicles: [12]
+            },
+            {
                 name: 'GW-Gefahrgut / AB-Gefahrgut',
                 vehicles: [27, 77]
             },

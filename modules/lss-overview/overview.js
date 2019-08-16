@@ -134,7 +134,7 @@
             credits: 100000,
             coins: 25,
             maxlevel: 5,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
             startPersonell: 3,
             startVehicle: 'RTW',
             extensions: 'Keine Ausbauten möglich',
@@ -204,7 +204,7 @@
             credits: 50000,
             coins: 25,
             maxlevel: 4,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
             startPersonell: 2,
             startVehicle: 'FuStW',
             extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
@@ -822,7 +822,7 @@
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
                 special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.' +
-                '<br>Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
+                    '<br>Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
             }
         },
         pol: {
@@ -2074,13 +2074,14 @@
 
         $('.overviewCategory:not(:first)').hide();
 
-        $('#' + prefix + '_vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
-        $('#' + prefix + '_vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
+        $('#' + prefix + '_vehicles')
+            .append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>')
+            .append('<div class="tab-content" id="vehicleContent"></div>');
 
         for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
             $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
 
-            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length === 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
 
             $('#' + hiorg).append('<input type="text" class="search_input_field pull-right" id="search_' + hiorg + '">');
 
@@ -2109,13 +2110,14 @@
         }
 
         $('#vehicleTabs li a.nav-link').click(function () {
-            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
-            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']')
+                .removeClass('show')
+                .removeClass('active');
         });
 
-        $('#' + prefix + '_buildings').append('<input type="text" class="search_input_field pull-right" id="search_building">');
-
-        $('#' + prefix + '_buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+        $('#' + prefix + '_buildings')
+            .append('<input type="text" class="search_input_field pull-right" id="search_building">')
+            .append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
 
         for (let building in I18n.t('lssm.overview.buildings')) {
             building = I18n.t('lssm.overview.buildings')[building];

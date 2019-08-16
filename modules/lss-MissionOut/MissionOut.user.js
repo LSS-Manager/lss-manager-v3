@@ -1,89 +1,78 @@
-(function ($, win,I18n) {
-    I18n.translations.de['lssm']['missionout']={
-        title:"Mission aus/ein-blenden"
-    };
-    I18n.translations.en['lssm']['missionout']={
-        title:"Hide/Show mission"
-    };
-	I18n.translations.nl['lssm']['missionout']={
-		title:"Verberg/toon melding"
-    };
-    // /hode/show Event abfangen
-    $('#missions-panel-body').on('click', '.MissionOut', function (e) {
-        e.preventDefault();
-        let $e = $(this);
-        $('#icon_' + $e.data('header')).toggle();
-        if ($(this).hasClass('btn-success')) {
-            $('#mission_panel_heading_' + $e.data('header')).next().hide();
-            $e.removeClass('btn-success').addClass('btn-danger');
-            $e.html('<i class="glyphicon glyphicon-eye-close"></i>');
-        } else {
-            $('#mission_panel_heading_' + $e.data('header')).next().show();
-            $e.removeClass('btn-danger').addClass('btn-success');
-            $e.html('<i class="glyphicon glyphicon-eye-open"></i>');
-        }
-    });
-    let isHideAll = false;
-    function create(h, id, icon) {
-        let div = $('<div class="pull-right" id="mission_out_'+id+'"></div>');
-        let $button = $('<a  href="#" class="btn btn-success btn-xs MissionOut pull-right" data-header="' + id + '" title="'+I18n.t('lssm.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>');
-        div.prepend($button);
-        icon.attr('id', 'icon_' + id).hide();
-        h.prepend(icon);
-        h.prepend(div);
-        if(isHideAll){
-            $button.click();
-        }
+(function ($, win, I18n) {
+    const lsName = `${lssm.config.prefix}_missionOut`;
 
-    }
-    $(document).bind(lssm.hook.postname("missionMarkerAdd"),function(event,t){
-        let s = "undefined" !== typeof mission_graphics[t.mtid] && null !== mission_graphics[t.mtid] && "undefined" !== typeof mission_graphics[t.mtid][t.vehicle_state] && "" !== mission_graphics[t.mtid][t.vehicle_state] ? mission_graphics[t.mtid][t.vehicle_state] : "/images/" + t.icon + ".png";
-        $('#icon_' + t.id).length && $('#icon_' + t.id).attr('src', s);
-        let $header = $('#mission_panel_heading_' + t.id);
-        if (!$header.find('.MissionOut').length) {
-            create($header, t.id, $('#mission_vehicle_state_' + t.id).clone());
+    I18n.translations.de.lssm.missionOut = {
+        title: 'Einsatz aus/ein-blenden'
+    };
+    I18n.translations.en.lssm.missionOut = {
+        title: 'Hide/Show mission'
+    };
+    I18n.translations.nl.lssm.missionOut = {
+        title: 'Verberg/toon melding'
+    };
+
+    const get_full_storage = () => JSON.parse(localStorage[lsName] || '{}');
+    const switch_storage = (btn, mission_id) => {
+        let storage = JSON.parse(localStorage[lsName] || '{}');
+        (btn.hasClass('btn-danger') && (storage[mission_id] = true)) || delete storage[mission_id];
+        localStorage[lsName] = JSON.stringify(storage);
+    };
+
+    addBtns();
+
+    let missionMarkerOrig = missionMarkerAdd;
+    missionMarkerAdd = e => {
+        missionMarkerOrig(e);
+        addBtns(e);
+    };
+
+    function addBtns(e) {
+        $(`.missionSideBarEntry .panel-heading${(e && e.id) ? `#mission_panel_heading_${e.id}` : ''}`).each((key, mission) => {
+            mission = $(mission);
+            let mission_id = mission.parent().parent().attr('mission_id');
+            $(`.missionPatients_${mission_id}`).remove();
+            !mission.find('.MissionOut')[0] && mission.prepend(`<div class="pull-right"><a class="btn btn-success btn-xs MissionOut pull-right" mission_id="${mission_id}" title="${I18n.t('lssm.missionOut.title')}"><i class="glyphicon glyphicon-eye-open"></i></a></div>`);
+            mission.find('.MissionOut').parent().append(`<small class="missionPatients_${mission_id} pull-right">Pat.: ${$(`#mission_patients_${mission_id} .patient_progress`).length||$(`#mission_patient_summary_${mission_id}>strong`).text().replace(/\D*/g, "")||0}&nbsp;</small>`);
+            mission.find('.MissionOut')
+                .unbind()
+                .click(e => {
+                    let btn = $(e.currentTarget);
+                    let mission_id = btn
+                        .toggleClass('btn-success')
+                        .toggleClass('btn-danger')
+                        .find('i')
+                        .toggleClass('glyphicon-eye-open')
+                        .toggleClass('glyphicon-eye-close')
+                        .parent()
+                        .attr('mission_id');
+                    switch_storage(btn, mission_id);
+                    let panel = $(`#mission_panel_${mission_id} .panel-body`);
+                    panel.toggle();
+                    let icon = $(`#mission_vehicle_state_${mission_id}`);
+                    btn.hasClass('btn-danger') ? icon.prependTo(btn.parent().parent()) : icon.appendTo(panel.find('.col-xs-1'));
+                    let mission_icon = mission_markers.find(x => x.mission_id === parseInt(mission_id));
+                    mission_icon && mission_icon._icon && $(mission_icon._icon).toggle();
+                });
+        });
+        if (e) return;
+        let full_storage = get_full_storage();
+        for (let mission in full_storage) {
+            if (!full_storage.hasOwnProperty(mission)) continue;
+            let btn = $(`.MissionOut[mission_id=${mission}]`);
+            (btn && btn.click()) ||switch_storage(btn, mission);
         }
-        patienten(t.id, t.patients_count);
-    });
-    function patienten(id, t) {
-        $('#pat_' + id).length ? $('#pat_' + id).html('Pat.: ' + t) : $('#mission_out_' + id).append('<small class="lssm_pat_count" id="pat_' + id + '">Pat.: ' + t + '</small>&nbsp;');
     }
-    // Fix load Problem einmalig am Anfang alle schon vorhandenen Einsätze durgehen und bearbeiten
-    $('div.missionSideBarEntry:not(:hidden)').each(function () {
-        let e = $(this);
-        if (e.find('.MissionOut').length === 0) {
-            let id = e.attr('mission_id');
-            create($('#mission_panel_heading_' + id), id, $('#mission_vehicle_state_' + id).clone());
-            patienten(id, $('#mission_patients_' + id + ' .patient_progress').length);
-        }
+
+    $('#mission_select_sicherheitswache').after(`<a id="missionOut_all" class="btn btn-success btn-xs MissionOut" title="${I18n.t('lssm.missionOut.title')}"><i class="glyphicon glyphicon-eye-open"></i></a>`);
+    $('#missionOut_all').click(e => {
+        $(e.currentTarget)
+            .toggleClass('btn-success')
+            .toggleClass('btn-danger')
+            .find('i')
+            .toggleClass('glyphicon-eye-open')
+            .toggleClass('glyphicon-eye-close')
+            .parent()
+            .hasClass('btn-danger') ? $('.MissionOut.btn-success').click() : $('.MissionOut.btn-danger').click();
     });
-    let hideAll = $('<a  href="#" class="btn btn-xs btn-success" title="'+I18n.t('lssm.missionout.title')+'"><i class="glyphicon glyphicon-eye-open"></i></a>')
-            .click(function () {
-                let e = $(this);
-                if (e.hasClass('btn-success')) {
-                    isHideAll = true;
-                    e.removeClass('btn-success').addClass('btn-danger');
-                    e.html('<i class="glyphicon glyphicon-eye-close"></i>');
-                    $('.MissionOut.btn-success').not(':hidden').each(function () {
-                        let e = $(this);
-                        e.html('<i class="glyphicon glyphicon-eye-close"></i>');
-                        e.removeClass('btn-success').addClass('btn-danger');
-                        $('#mission_panel_heading_' + e.data('header')).next().hide();
-                        $('#icon_'+ e.data('header')).toggle();
-                    });
-                } else {
-                    isHideAll = false;
-                    e.removeClass('btn-danger').addClass('btn-success');
-                    e.html('<i class="glyphicon glyphicon-eye-open"></i>');
-                    $('.MissionOut.btn-danger').not(':hidden').each(function () {
-                        let e = $(this);
-                        e.html('<i class="glyphicon glyphicon-eye-open"></i>');
-                        $('#icon_'+ e.data('header')).toggle();
-                        $('#mission_panel_heading_' + e.data('header')).next().show();
-                        e.removeClass('btn-danger').addClass('btn-success');
-                    });
-                }
-                return false;
-            });
-    $('#mission_select_sicherheitswache').after(hideAll);
-})(jQuery, window,I18n);
+
+})(jQuery, window, I18n);

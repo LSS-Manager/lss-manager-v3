@@ -16,6 +16,7 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'bis zu',
         averageMinimumEmployeesFire: 'Durchschnittlich mindestens benötigte Feuerwehrleute',
         averageMinimumEmployeesPolice: 'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
+        ambulance_only: 'Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!',
         title: 'Einsatzhelfer',
         settings: {
             name: {
@@ -81,6 +82,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Anforderungen von Sicherheitswachen',
                 description: 'Zeigt die Anforderungen bei Sicherheitswachen auch im Helfer an.'
+            },
+            mission_time: {
+                label: 'Generierungszeit',
+                description: 'Zeigt die Zeit der Generierung des Einsatzes an.'
             }
         },
         transport: 'Transport',
@@ -187,6 +192,7 @@ const lssm_missionhelper_adjustPosition = () => {
         water: 'Wasserbedarf',
         to: 'up to',
         SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
         transport: 'Transport',
         settings: {
@@ -241,6 +247,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Requirements of security guards',
                 description: 'Shows the requirements for security guards in the helper as well.'
+            },
+            mission_time: {
+                label: 'Creation Time',
+                description: 'Shows the date and time when the mission was created.'
             }
         },
         vehicles: {
@@ -267,7 +277,8 @@ const lssm_missionhelper_adjustPosition = () => {
             swatArmoured: "SWAT Armoured Vehicle",
             swatSuv: "SWAT SUV",
             hems: "HEMS",
-            policeHeli: "Police Helicopter"
+            policeHeli: "Police Helicopter",
+            emschief: "EMS Chief"
         },
         pois: [
             "Park",
@@ -332,6 +343,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patiënten',
         prisoners: 'Gevangenen',
         to: 'tot',
+        ambulance_only: 'Deze missie is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
         settings: {
@@ -386,6 +398,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_siwa: {
                 label: 'Helper bij geplande inzetten',
                 description: 'Toont de meldinghelper ook bij geplande inzetten.'
+            },
+            mission_time: {
+                label: 'Creation Time',
+                description: 'Toont de datum en tijd waarop de missie is gemaakt.'
             }
         },
         vehicles: {
@@ -579,6 +595,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     type: 'toggle',
                     description: I18n.t('lssm.missionhelper.settings.show_siwa.description')
                 }
+            },
+            mission_time: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.mission_time.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.mission_time.description'),
+                }
             }
         }
     };
@@ -616,7 +640,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     lssm.managedSettings.register(managed_settings);
 
-    if (!window.location.href.match(/missions|(einsaetze\/\d+)/g)) return;
+    if (!window.location.href.match(/(missions\/\d+)|(einsaetze\/\d+)/g)) return;
 
     const clone = a => JSON.parse(JSON.stringify(a));
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
@@ -649,9 +673,9 @@ const lssm_missionhelper_adjustPosition = () => {
 <a class="pull-right" id="${LSSM_MH_PREFIX}_pin">
     <i class="glyphicon glyphicon-pushpin"></i>
 </a>
-<article class="content"></article>
+<article class="content ${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true' ? '' : 'hidden'}"></article>
 <br class="unpinned">
-<span id="${LSSM_MH_PREFIX}_toggle"><span class="up"></span></span>`;
+<span id="${LSSM_MH_PREFIX}_toggle"><span class="${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true' ? 'up' : 'down'}"></span></span>`;
 
             MISSION_WINDOW && localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned' ? pin_missionhelper(markup) : unpin_missionhelper(markup);
 
@@ -669,6 +693,7 @@ const lssm_missionhelper_adjustPosition = () => {
             }
 
             if (MISSION.onlyRd) {
+                content.innerHTML += `<small>${I18n.t('lssm.missionhelper.ambulance_only')}</small><br>`;
                 (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`) || ""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
                 MISSION.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.nef}%`);
                 MISSION.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.mmtarts}%`);
@@ -714,8 +739,9 @@ const lssm_missionhelper_adjustPosition = () => {
                 MISSION.patients.rth && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.rth')}: ${MISSION.patients.rth}%`);
                 MISSION.patients.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.patients.tragehilfe}%`);
 
-                patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
-                patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
+                I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
+                I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
+                I18n.locale === 'en' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
                 content.innerHTML += '<br>';
             }
 
@@ -725,10 +751,11 @@ const lssm_missionhelper_adjustPosition = () => {
             SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
             SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
 
-            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits) {
+            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits || SETTINGS.mission_time) {
                 content.innerHTML += '<br>';
-                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>`);
-                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>`);
+                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>&nbsp;`);
+                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>&nbsp;`);
+                SETTINGS.mission_time && (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes['data-original-title'].value}</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
@@ -743,17 +770,29 @@ const lssm_missionhelper_adjustPosition = () => {
             lssm_missionhelper_adjustPosition();
         });
 
+    let handle_overlap = element => {
+        let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
+        if (!missionhelp||!missionhelp.classList.contains('unpinned')) return;
+        let element_bounding = element.getBoundingClientRect();
+        let missionhelp_bounding = missionhelp.getBoundingClientRect();
+        missionhelp.style.opacity = (element_bounding.right > missionhelp_bounding.left &&
+            element_bounding.left < missionhelp_bounding.right &&
+            element_bounding.bottom > missionhelp_bounding.top &&
+            element_bounding.top < missionhelp_bounding.bottom) ? 0.1 : null;
+    };
+
     document.querySelectorAll('.aao, .vehicle_group').forEach(el => {
         el.addEventListener('mouseenter', aao => {
+            handle_overlap(aao.currentTarget);
+        });
+        el.addEventListener('mouseleave', () => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
-            if (!missionhelp.classList.contains('unpinned')) return;
-            aao = aao.currentTarget;
-            let aao_bounding = aao.getBoundingClientRect();
-            let missionhelp_bounding = missionhelp.getBoundingClientRect();
-            missionhelp.style.opacity = (aao_bounding.right > missionhelp_bounding.left &&
-                aao_bounding.left < missionhelp_bounding.right &&
-                aao_bounding.bottom > missionhelp_bounding.top &&
-                aao_bounding.top < missionhelp_bounding.bottom) ? 0.1 : null;
+            missionhelp.style.opacity = null;
+        });
+    });
+    document.querySelectorAll('#new_mission_reply, #mission_replies').forEach(el => {
+        el.addEventListener('mouseenter', element => {
+            handle_overlap(element.currentTarget);
         });
         el.addEventListener('mouseleave', () => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
@@ -837,6 +876,10 @@ const lssm_missionhelper_adjustPosition = () => {
 .alert-missing-vehicles:hover ~ #${LSSM_MH_PREFIX} {
     opacity: 0.1;
 }
+
+#mission_reply_content {
+    position: unset;
+}
 </style>`
     );
 })(I18n);
@@ -867,6 +910,8 @@ let unpin_missionhelper = (markup) => {
         let span = document.querySelector(`#${LSSM_MH_PREFIX}_toggle span`);
         span.classList.toggle('up');
         span.classList.toggle('down');
+        localStorage[`${LSSM_MH_PREFIX}_toggle`] = span.classList.contains('up');
+        lssm_missionhelper_adjustPosition();
     };
     localStorage[`${LSSM_MH_PREFIX}_state`] = 'unpinned';
 };

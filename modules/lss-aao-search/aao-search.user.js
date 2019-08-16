@@ -116,8 +116,8 @@
      * Initialize
      */
     $("#mission-aao-group").before(I18n.t('lssm.aaosearch.use_dd')+'<div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm_aao_search_dropdown" '+((use_dropdown==="true")?'checked="checked"':'')+' value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm_aao_search_dropdown"></label></div>');
-    // Add a reset button (Commented until functionality re-implemented)
-    // $("#mission-aao-group").before('<button id="lssm_aao_reset" class="btn btn-small btn-danger">'+I18n.t('lssm.aaosearch.reset')+'</button>');
+    // Add a reset button
+    $("#mission-aao-group").before('<button id="lssm_aao_reset" class="btn btn-small btn-danger">'+I18n.t('lssm.aaosearch.reset')+'</button>');
     if(use_dropdown === "true")
     {
         // Hide all original AAO buttons
@@ -166,10 +166,10 @@
             activateSearch();
         }
     });
-    /*
+    
     $("#lssm_aao_reset").on("click", function(){
         "use strict";
         vehicleSelectionReset();
     });
-    */
+    
 })($, I18n);
