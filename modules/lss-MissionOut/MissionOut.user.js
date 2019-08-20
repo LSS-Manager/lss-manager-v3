@@ -50,8 +50,8 @@
                     panel.toggle();
                     let icon = $(`#mission_vehicle_state_${mission_id}`);
                     btn.hasClass('btn-danger') ? icon.prependTo(btn.parent().parent()) : icon.appendTo(panel.find('.col-xs-1'));
-                    let mission_icon = mission_markers.find(x => x.mission_id === parseInt(mission_id));
-                    mission_icon && mission_icon._icon && $(mission_icon._icon).toggle();
+                    //let mission_icon = mission_markers.find(x => x.mission_id === parseInt(mission_id));
+                    //mission_icon && mission_icon._icon && $(mission_icon._icon).toggle();
                 });
         });
         if (e) return;

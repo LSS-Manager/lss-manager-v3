@@ -517,6 +517,19 @@
         "nef": 0,
         "specialisation": "Traumatology"
     },
+    "41": {
+        "name": "Major fire",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "mcv": 1,
+            "platform": 2,
+            "tanker": 1,
+            "air": 1,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    },
     "42": {
         "name": "Manhole Fire",
         "stations": [
@@ -793,6 +806,28 @@
             59,
             90
         ]
+    },
+    "61": {
+        "name": "Unannounced demonstration",
+        "vehicles": {
+            "police": 7
+        },
+        "credits": 10020
+    },
+    "62": {
+        "name": "Pile-up",
+        "vehicles": {
+            "truck": 10,
+            "heavyRescue": 5,
+            "bchief": 2,
+            "hazmat": 2
+        },
+        "credits": 10010,
+        "patients": {
+            "max": 12,
+            "min": 10,
+            "specialisation": "Traumatology"
+        }
     },
     "63": {
         "name": "Burning bogle",
