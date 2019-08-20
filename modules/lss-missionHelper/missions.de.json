@@ -632,6 +632,21 @@
             "gefahr": 70
         }
     },
+    "43": {
+        "name": "Massenkarambolage",
+        "vehicles": {
+            "lf": 10,
+            "rw": 5,
+            "elw1": 2,
+            "oel": 2
+        },
+        "credits": 10010,
+        "patients": {
+            "max": 12,
+            "min": 10,
+            "specialisation": "Unfallchirurgie"
+        }
+    },
     "44": {
         "name": "Alkoholintoxikation",
         "stations": {
@@ -808,6 +823,28 @@
         "onlyRd": true,
         "transport": 40,
         "specialisation": "Unfallchirurgie"
+    },
+    "59": {
+        "name": "Gefahrgutunfall",
+        "vehicles": {
+            "lf": 20,
+            "mess": 4,
+            "gefahr": 4,
+            "elw1": 3,
+            "elw2": 1,
+            "rw": 5,
+            "dlk": 2,
+            "atem": 3
+        },
+        "credits": 14010,
+        "patients": {
+            "max": 20,
+            "min": 10,
+            "specialisation": "Allgemeine Innere"
+        },
+        "percentages": {
+            "elw2": 80
+        }
     },
     "60": {
         "name": "Ladendiebstahl",
@@ -1017,6 +1054,13 @@
         "expansions": [
             73
         ]
+    },
+    "75": {
+        "name": "Unangemeldete Demonstration",
+        "vehicles": {
+            "fustw": 7
+        },
+        "credits": 10020
     },
     "76": {
         "name": "K\u00fcchenbrand",
@@ -1424,7 +1468,33 @@
             "specialisation": "Unfallchirurgie"
         }
     },
-    "100": {
+    "99": {
+        "name": "Flugzeug abgest\u00fcrzt",
+        "vehicles": {
+            "lf": 22,
+            "atem": 1,
+            "oel": 1,
+            "mess": 1,
+            "dlk": 1,
+            "elw1": 2,
+            "elw2": 2,
+            "rw": 6,
+            "fustw": 10
+        },
+        "credits": 17000,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 85,
+            "nef": 80,
+            "specialisation": "Unfallchirurgie"
+        },
+        "percentages": {
+            "atem": 45,
+            "oel": 25
+        }
+    },
+    "100" :{
         "name": "K\u00fcchenbrand",
         "stations": {
             "0": 2,
@@ -3473,6 +3543,30 @@
             "specialisation": "Unfallchirurgie"
         }
     },
+    "222": {
+        "name": "Zugungl\u00fcck (Klein)",
+        "vehicles": {
+            "lf": 20,
+            "dlk": 2,
+            "rw": 3,
+            "atem": 2,
+            "oel": 1,
+            "elw1": 3,
+            "elw2": 1,
+            "gwl2": 1,
+            "fwk": 2,
+            "radlader": 1,
+            "mtwtz": 1,
+            "fustw": 6
+        },
+        "credits": 14000,
+        "patients": {
+            "max": 20,
+            "min": 10,
+            "nef": 80,
+            "specialisation": "Unfallchirurgie"
+        }
+    },
     "223": {
         "name": "Brandsicherheitswache bei Volksfest",
         "stations": {
@@ -4122,6 +4216,24 @@
             "specialisation": "Allgemeine Innere"
         },
         "poi": 27
+    },
+    "256": {
+        "name": "Zusammensto\u00df zweier Boote",
+        "vehicles": {
+            "lf": 6,
+            "elw1": 2,
+            "elw2": 1,
+            "fustw": 5,
+            "boot": 6,
+            "taucher": 6
+        },
+        "credits": 10010,
+        "patients": {
+            "max": 30,
+            "transport": 90,
+            "nef": 30,
+            "specialisation": "Allgemeine Innere"
+        }
     },
     "257": {
         "name": "Verkehrs\u00fcberwachung",
@@ -5852,7 +5964,34 @@
             214
         ]
     },
-    "351": {
+    "350": {
+        "name": "Flughafenbrand",
+        "vehicles": {
+            "lf": 40,
+            "flf": 6,
+            "dlk": 8,
+            "rw": 6,
+            "fustw": 10,
+            "mess": 3,
+            "atem": 2,
+            "gwl2": 4,
+            "radlader": 2,
+            "mzkw": 2,
+            "gkw": 2,
+            "mtwtz": 2,
+            "elw1": 6,
+            "elw2": 2,
+            "polheli": 2
+        },
+        "credits": 17000,
+        "patients": {
+            "max": 20,
+            "min": 10,
+            "nef": 50,
+            "specialisation": "Allgemeine Innere"
+        }
+    },
+    "351" :{
         "name": "Brand im Terminal",
         "stations": {
             "0": 10,

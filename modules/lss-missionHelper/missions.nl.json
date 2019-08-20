@@ -576,6 +576,18 @@
         "credits": 110,
         "poi": 2
     },
+    "41": {
+        "name": "Brand in kantoorpand",
+        "vehicles": {
+            "tankauto": 8,
+            "ovdb": 2,
+            "hovd": 1,
+            "redvoertuig": 3,
+            "slangenwagen": 3,
+            "adembescherming": 1
+        },
+        "credits": 10000
+    },
     "42": {
         "name": "Brand in tankstation",
         "stations": {
@@ -600,6 +612,24 @@
         "percentages": {
             "waarschuwing": 50,
             "gevaar": 50
+        }
+    },
+    "43": {
+        "name": "Kettingbotsing",
+        "vehicles": {
+            "tankauto": 8,
+            "hulpverlening": 4,
+            "ovdb": 2,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 8
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 25,
+            "min": 15,
+            "transport": 75,
+            "specialisation": "Traumatologie"
         }
     },
     "44": {
@@ -1855,6 +1885,12 @@
             "tankauto": 1
         },
         "credits": 240
+    },
+    "137": {
+        "name": "Besteld vervoer",
+        "onlyRd": true,
+        "transport": 0,
+        "mmtarts": 0
     },
     "138": {
         "name": "Brand in meterkast",
@@ -3386,6 +3422,28 @@
         "credits": 900,
         "percentages": {
             "hoogwerker": 10
+        }
+    },
+    "234": {
+        "name": "Vliegtuig neergestort",
+        "vehicles": {
+            "tankauto": 12,
+            "redvoertuig": 1,
+            "hulpverlening": 4,
+            "slangenwagen": 1,
+            "gevaar": 1,
+            "ovdb": 3,
+            "hovd": 2,
+            "commando": 2,
+            "noodhulpeen": 12
+        },
+        "credits": 11500,
+        "patients": {
+            "max": 85,
+            "min": 55,
+            "transport": 75,
+            "mmtarts": 25,
+            "specialisation": "Traumatologie"
         }
     },
     "235": {
@@ -5436,6 +5494,40 @@
             "hovd": 50,
             "commando": 50
         }
+    },
+    "346": {
+        "name": "Brand in opslagloods met gevaarlijke stoffen",
+        "vehicles": {
+            "tankauto": 24,
+            "redvoertuig": 6,
+            "hulpverlening": 4,
+            "ovdb": 6,
+            "adembescherming": 2,
+            "slangenwagen": 8,
+            "waarschuwing": 4,
+            "gevaar": 2,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 5
+        },
+        "credits": 18500
+    },
+    "347": {
+        "name": "Brand bij afvalverwerker",
+        "vehicles": {
+            "tankauto": 20,
+            "redvoertuig": 2,
+            "hulpverlening": 2,
+            "ovdb": 5,
+            "adembescherming": 1,
+            "slangenwagen": 6,
+            "waarschuwing": 4,
+            "gevaar": 1,
+            "hovd": 2,
+            "commando": 1,
+            "noodhulpeen": 5
+        },
+        "credits": 17500
     },
     "348": {
         "name": "Zwemmer vermist",
