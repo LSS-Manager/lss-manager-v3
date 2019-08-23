@@ -1296,7 +1296,11 @@
         466: 'Brand in verzorgingshuis',
         467: 'Brand in verzorgingshuis',
         468: 'Brand in verzorgingshuis',
-        469: 'Brand in verzorgingshuis'
+        469: 'Brand in verzorgingshuis',
+        470: 'Personen onwel door hitte',
+        471: 'Personen onwel door hitte',
+        472: 'Personen onwel door hitte',
+        473: 'Personen onwel door hitte'
       }
     };
 
@@ -2562,7 +2566,11 @@
       466: 'KLEINE BRAND',
       467: 'MIDDEL BRAND',
       468: 'MIDDEL BRAND',
-      469: 'GROTE BRAND'
+      469: 'GROTE BRAND',
+      470: 'A 1',
+      471: 'A 1',
+      472: 'A 1',
+      473: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
