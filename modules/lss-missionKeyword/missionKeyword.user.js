@@ -804,7 +804,10 @@
         291: 'Customs search operation',
         292: 'Heatstroke',
         293: 'Acid burns (Accidental)',
-        294: 'Acid burns (Accidental)'
+        294: 'Acid burns (Accidental)',
+        295: 'Hit and Run',
+        296: 'Ceiling Collapse',
+        297: 'Electrocution'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2082,7 +2085,10 @@
       291: 'POL 3',
       292: 'MED 1',
       293: 'MED 1',
-      294: 'POL 1'
+      294: 'POL 1',
+      295: 'POL 1',
+      296: 'TECH 2',
+      297: 'MED 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
