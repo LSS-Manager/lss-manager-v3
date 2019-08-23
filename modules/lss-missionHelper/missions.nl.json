@@ -7992,5 +7992,103 @@
         "percentages": {
             "slangenwagen": 20
         }
+    },
+    "470": {
+        "name": "Personen onwel door hitte",
+        "stations": {
+            "0": 6,
+            "3": 5,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 700,
+        "patients": {
+            "max": 10,
+            "min": 5,
+            "transport": 50,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 43,
+        "percentages": {
+            "ovdb": 50
+        }
+    },
+    "471": {
+        "name": "Personen onwel door hitte",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 450,
+        "patients": {
+            "max": 30,
+            "min": 15,
+            "transport": 50,
+            "mmtarts": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 43
+    },
+    "472": {
+        "name": "Personen onwel door hitte",
+        "stations": {
+            "0": 6,
+            "3": 5,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 700,
+        "patients": {
+            "max": 10,
+            "min": 5,
+            "transport": 50,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 22,
+        "percentages": {
+            "ovdb": 50
+        }
+    },
+    "473": {
+        "name": "Personen onwel door hitte",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2,
+            "ovdp": 1
+        },
+        "credits": 450,
+        "patients": {
+            "max": 30,
+            "min": 15,
+            "transport": 50,
+            "mmtarts": 100,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 22
     }
 }

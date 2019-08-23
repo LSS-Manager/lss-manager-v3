@@ -491,7 +491,8 @@
         466: 'Badeunfall',
         467: 'Badeunfall',
         468: 'Badeunfall',
-        469: 'Entgleiste Stadtbahn'
+        469: 'Entgleiste Stadtbahn',
+        470: 'Feuer in Museum'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -804,7 +805,10 @@
         291: 'Customs search operation',
         292: 'Heatstroke',
         293: 'Acid burns (Accidental)',
-        294: 'Acid burns (Accidental)'
+        294: 'Acid burns (Accidental)',
+        295: 'Hit and Run',
+        296: 'Ceiling Collapse',
+        297: 'Electrocution'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1292,7 +1296,11 @@
         466: 'Brand in verzorgingshuis',
         467: 'Brand in verzorgingshuis',
         468: 'Brand in verzorgingshuis',
-        469: 'Brand in verzorgingshuis'
+        469: 'Brand in verzorgingshuis',
+        470: 'Personen onwel door hitte',
+        471: 'Personen onwel door hitte',
+        472: 'Personen onwel door hitte',
+        473: 'Personen onwel door hitte'
       }
     };
 
@@ -1785,7 +1793,8 @@
       466: 'RD 1',
       467: 'RD 1',
       468: 'RD 1',
-      469: 'THL 1 ZUG'
+      469: 'THL 1 ZUG',
+      470: 'B 5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2082,7 +2091,10 @@
       291: 'POL 3',
       292: 'MED 1',
       293: 'MED 1',
-      294: 'POL 1'
+      294: 'POL 1',
+      295: 'POL 1',
+      296: 'TECH 2',
+      297: 'MED 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2554,7 +2566,11 @@
       466: 'KLEINE BRAND',
       467: 'MIDDEL BRAND',
       468: 'MIDDEL BRAND',
-      469: 'GROTE BRAND'
+      469: 'GROTE BRAND',
+      470: 'A 1',
+      471: 'A 1',
+      472: 'A 1',
+      473: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
