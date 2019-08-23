@@ -491,7 +491,8 @@
         466: 'Badeunfall',
         467: 'Badeunfall',
         468: 'Badeunfall',
-        469: 'Entgleiste Stadtbahn'
+        469: 'Entgleiste Stadtbahn',
+        470: 'Feuer in Museum'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -1788,7 +1789,8 @@
       466: 'RD 1',
       467: 'RD 1',
       468: 'RD 1',
-      469: 'THL 1 ZUG'
+      469: 'THL 1 ZUG',
+      470: 'B 5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
