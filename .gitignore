@@ -1,3 +1,6 @@
 node_modules/
 .jshintrc
 .idea/
+
+/stats
+/modules/lss-missionHelper/missions.*.json
