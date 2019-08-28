@@ -23,7 +23,7 @@ $.get(missionlink)
             mmtarts: "MMT-arts",
             megroep: "ME Groepsvoertuig",
             mecommando: "ME Commandovoertuigen",
-            polHeli: "politie helikopter",
+            polHeli: "Politiehelikopter",
             watervoertuig: "Waterongevallenvoertuig",
             wateraanhanger: "(w|W)aterongevallenaanhangers",
             hond: "Hondengeleider",
