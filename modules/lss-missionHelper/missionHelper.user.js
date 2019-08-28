@@ -419,7 +419,7 @@ const lssm_missionhelper_adjustPosition = () => {
             ovdp: "Officiers van Dienst Politie",
             commando: "Commandowagen",
             ambulance: "Ambulances",
-            mmtarts: "MMT-Art",
+            mmtarts: "MMT-Arts",
             megroep: "ME Groepsvoertuig",
             mecommando: "ME Commandovoertuigen",
             polHeli: "Politie Helikopter",
