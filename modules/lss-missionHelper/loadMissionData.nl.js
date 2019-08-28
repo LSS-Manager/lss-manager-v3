@@ -20,7 +20,7 @@ $.get(missionlink)
             ovdp: "Officier(s?) van Dienst Politie",
             commando: "Commandowagen",
             ambulance: "Ambulance",
-            mmtarts: "MMT-Arts",
+            mmtarts: "MMT-arts",
             megroep: "ME Groepsvoertuig",
             mecommando: "ME Commandovoertuigen",
             polHeli: "politie helikopter",
