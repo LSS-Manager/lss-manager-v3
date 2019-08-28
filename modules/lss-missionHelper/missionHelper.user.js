@@ -422,7 +422,7 @@ const lssm_missionhelper_adjustPosition = () => {
             mmtarts: "MMT-arts",
             megroep: "ME Groepsvoertuig",
             mecommando: "ME Commandovoertuigen",
-            polHeli: "Politie Helikopter",
+            polHeli: "Politiehelikopterr",
             watervoertuig: "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
             wateraanhanger: "Waterongevallenaanhangers",
             hond: "Hondengeleider",
