@@ -492,7 +492,9 @@
         467: 'Badeunfall',
         468: 'Badeunfall',
         469: 'Entgleiste Stadtbahn',
-        470: 'Feuer in Museum'
+        470: 'Feuer in Museum',
+        471: 'Beweismittelsuche im Wasser',
+        472: 'Beweismittelsuche im Wasser'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -808,7 +810,8 @@
         294: 'Acid burns (Accidental)',
         295: 'Hit and Run',
         296: 'Ceiling Collapse',
-        297: 'Electrocution'
+        297: 'Electrocution',
+        298: 'Large brawl'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1300,7 +1303,9 @@
         470: 'Personen onwel door hitte',
         471: 'Personen onwel door hitte',
         472: 'Personen onwel door hitte',
-        473: 'Personen onwel door hitte'
+        473: 'Personen onwel door hitte',
+        474: 'Brand in kantoorgebouw',
+        475: 'Brand in kantoorgebouw'
       }
     };
 
@@ -1794,7 +1799,9 @@
       467: 'RD 1',
       468: 'RD 1',
       469: 'THL 1 ZUG',
-      470: 'B 5'
+      470: 'B 5',
+      471: 'POL 2',
+      472: 'POL 2'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2094,7 +2101,8 @@
       294: 'POL 1',
       295: 'POL 1',
       296: 'TECH 2',
-      297: 'MED 1'
+      297: 'MED 1',
+      298: 'POL 4'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2570,7 +2578,9 @@
       470: 'A 1',
       471: 'A 1',
       472: 'A 1',
-      473: 'A 1'
+      473: 'A 1',
+      474: 'ZEER GROTE BRAND',
+      475: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
