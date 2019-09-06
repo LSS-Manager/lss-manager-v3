@@ -686,6 +686,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
             if (!MISSION_TYPE) {
                 content.innerText = I18n.t('lssm.missionhelper.diy_mission');
+                SETTINGS.mission_time && (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes['data-original-title'].value}</span>&nbsp;`);
                 return lssm_missionhelper_adjustPosition();
             }
 
