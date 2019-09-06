@@ -423,6 +423,8 @@
 
     setSettings();
 
+    if (document.querySelector('img.online_icon') || document.querySelector('.aao')) return;
+
     let vehiclesTypesByBuilding = {};
     let buildings = {};
 
