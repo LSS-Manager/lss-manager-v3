@@ -494,7 +494,10 @@
         469: 'Entgleiste Stadtbahn',
         470: 'Feuer in Museum',
         471: 'Beweismittelsuche im Wasser',
-        472: 'Beweismittelsuche im Wasser'
+        472: 'Beweismittelsuche im Wasser',
+        473: 'Pfefferspray in Bahn',
+        474: 'Pfefferspray in Bahn',
+        475: 'Pfefferspray in Bahn'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -811,7 +814,10 @@
         295: 'Hit and Run',
         296: 'Ceiling Collapse',
         297: 'Electrocution',
-        298: 'Large brawl'
+        298: 'Large brawl',
+        299: 'Pepper spray discharged on train',
+        300: 'Pepper spray discharged on train',
+        301: 'Pepper spray discharged on train'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1305,7 +1311,11 @@
         472: 'Personen onwel door hitte',
         473: 'Personen onwel door hitte',
         474: 'Brand in kantoorgebouw',
-        475: 'Brand in kantoorgebouw'
+        475: 'Brand in kantoorgebouw',
+        476: 'Verkeersongeval scooter',
+        477: 'Verkeersongeval scooter',
+        478: 'Liftopsluiting',
+        479: 'Liftopsluiting'
       }
     };
 
@@ -1801,7 +1811,10 @@
       469: 'THL 1 ZUG',
       470: 'B 5',
       471: 'POL 2',
-      472: 'POL 2'
+      472: 'POL 2',
+      473: 'POL 5',
+      474: 'POL 5',
+      475: 'POL 5'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2102,7 +2115,10 @@
       295: 'POL 1',
       296: 'TECH 2',
       297: 'MED 1',
-      298: 'POL 4'
+      298: 'POL 6',
+      299: 'POL 4',
+      300: 'POL 4',
+      301: 'POL 4'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2580,7 +2596,11 @@
       472: 'A 1',
       473: 'A 1',
       474: 'ZEER GROTE BRAND',
-      475: 'ZEER GROTE BRAND'
+      475: 'ZEER GROTE BRAND',
+      476: 'A 1',
+      477: 'P 1',
+      478: 'HV 1',
+      479: 'HV 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
