@@ -327,7 +327,7 @@
                 node.addEventListener('click', e => {
                     e = e.currentTarget;
                     let target_fms = e.classList.contains('building_list_fms_2') && 6 || 2;
-                    fetch(`https://www.leitstellenspiel.de/vehicles/${e.getAttribute('vehicle_id')}/set_fms/${target_fms}`)
+                    fetch(`/vehicles/${e.getAttribute('vehicle_id')}/set_fms/${target_fms}`)
                       .then(response => {
                           if (response.ok) {
                               e.classList.toggle('building_list_fms_2');
