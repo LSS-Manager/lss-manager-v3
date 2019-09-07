@@ -8240,5 +8240,120 @@
             "specialisation": "Allgemeine Innere"
         },
         "poi": 13
+    },
+    "471": {
+        "name": "Beweismittelsuche im Wasser",
+        "stations": {
+            "6": 2,
+            "15": 1
+        },
+        "vehicles": {
+            "boot": 1,
+            "taucher": 1,
+            "fustw": 2
+        },
+        "credits": 1500,
+        "poi": 1
+    },
+    "472": {
+        "name": "Beweismittelsuche im Wasser",
+        "stations": {
+            "6": 2,
+            "15": 1
+        },
+        "vehicles": {
+            "boot": 1,
+            "taucher": 1,
+            "fustw": 2
+        },
+        "credits": 1500,
+        "poi": 27
+    },
+    "473": {
+        "name": "Pfefferspray in Bahn ",
+        "stations": {
+            "0": 11,
+            "2": 10,
+            "6": 5
+        },
+        "vehicles": {
+            "lf": 4,
+            "elw1": 1,
+            "dlk": 1,
+            "fustw": 6
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 20,
+            "transport": 50,
+            "nef": 20,
+            "rth": 10,
+            "specialisation": "Allgemeine Innere"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "poi": 5,
+        "percentages": {
+            "dlk": 50
+        }
+    },
+    "474": {
+        "name": "Pfefferspray in Bahn ",
+        "stations": {
+            "0": 11,
+            "2": 10,
+            "6": 5
+        },
+        "vehicles": {
+            "lf": 4,
+            "elw1": 1,
+            "dlk": 1,
+            "fustw": 6
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 20,
+            "transport": 50,
+            "nef": 20,
+            "rth": 10,
+            "specialisation": "Allgemeine Innere"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "poi": 6,
+        "percentages": {
+            "dlk": 50
+        }
+    },
+    "475": {
+        "name": "Pfefferspray in Bahn ",
+        "stations": {
+            "0": 11,
+            "2": 10,
+            "6": 5
+        },
+        "vehicles": {
+            "lf": 4,
+            "elw1": 1,
+            "dlk": 1,
+            "fustw": 6
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 20,
+            "transport": 50,
+            "nef": 20,
+            "rth": 10,
+            "specialisation": "Allgemeine Innere"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "poi": 7,
+        "percentages": {
+            "dlk": 50
+        }
     }
 }
