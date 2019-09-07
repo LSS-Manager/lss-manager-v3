@@ -43,6 +43,94 @@
             },
         }
     };
+    I18n.translations.en.lssm.extendedBuilding = {
+        title: 'Extended Building View',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        settings: {
+            neededPersonnel: {
+                label: 'Required personnel',
+                description: 'Shows the required personnel if all vehicles are to be fully occupied',
+            },
+            switchStatus: {
+                label: 'Fast status change',
+                description: 'The status of a vehicle can be changed directly between S2 and S6 via the status display',
+            },
+            assignmentBtn: {
+                label: 'Quick assignment',
+                description: 'Adds a button to quickly get to the "Assign personnel" window',
+            },
+            assignedWorkers: {
+                label: 'Assigned personnel',
+                description: 'Shows for each vehicle how much personnel is assigned',
+            },
+            currentCrew: {
+                label: 'Current Crew',
+                description: 'Indicates for each vehicle how many personnel are currently sitting on the vehicle',
+            },
+            expansions: {
+                label: 'Show expansions',
+                description: 'Indicates for each vehicle how many personnel are currently sitting on the vehicle',
+            },
+            personnelOverview: {
+                label: 'Extended personnel overview',
+                description: 'Shows in the personnel overview how much personnel has which training',
+            },
+        }
+    };
+    I18n.translations.nl.lssm.extendedBuilding = {
+        title: 'Uitgebreide bouwweergave',
+        crew: "Bezetting (Maximaal)",
+        fms: 'Status',
+        assignment: 'Personeel toewijzen',
+        neededPersonnel: 'Personeel benodigd',
+        expansionFinished: 'Klaar',
+        expansionNotStarted: 'Niet gestart',
+        personnelOverview: 'Personeelsoverzicht',
+        schooling: 'Opleiding',
+        schoolingsMulti: 'Alle trainingscombinaties',
+        schoolingsSingle: 'Individuele opleiding',
+        amount: 'Aantal',
+        settings: {
+            neededPersonnel: {
+                label: "Benodigd personeel",
+                description: "Toont het vereiste personeel om alle voertuigen volledig bezet te houden",
+            },
+            switchStatus: {
+                label: 'Snelle statuswijziging',
+                description: "De status van een voertuig kan rechtstreeks tussen S2 en S6 worden gewijzigd via de statusweergave",
+            },
+            assignmentBtn: {
+                label: 'Snelle toewijzing',
+                Omschrijving: 'Voegt een knop toe om snel bij het venster "Personeel toewijzen" te komen',
+            },
+            assignedWorkers: {
+                label: "toegewezen personeel",
+                description: "Toont voor elk voertuig het aantal personeelsleden dat is toegewezen",
+            },
+            currentCrew: {
+                label: 'Current Crew',
+                description: 'Geeft per voertuig aan hoeveel personeel er momenteel op het voertuig zit',
+            },
+            expansions: {
+                label: 'Toon uitbreidingen',
+                description: 'Geeft per voertuig aan hoeveel personeel er momenteel op het voertuig zit',
+            },
+            personnelOverview: {
+                label: 'Uitgebreid personeelsoverzicht',
+                description: 'Toont in het personeelsoverzicht hoeveel personeel welke opleiding heeft gevolgd',
+            },
+        }
+    };
 
     const LSSM_EB_PREFIX = `extendedBuilding`;
     const SETTINGS_STORAGE = `${LSSM_EB_PREFIX}_STORAGE`;
@@ -189,7 +277,7 @@
                     list.appendChild(crew_el);
                     if (!document.querySelector(`#vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_2, #vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_6`)) {
                         window.setTimeout(() => {
-                            fetch(`https://www.leitstellenspiel.de/vehicles/${vehicle_id}`)
+                            fetch(`/vehicles/${vehicle_id}`)
                               .then(response => response.text())
                               .then(response => {
                                   let frag = document.createRange().createContextualFragment(response);
@@ -207,7 +295,7 @@
                     workers_el.id = `workers_${vehicle_id}`;
                     list.appendChild(workers_el);
                     window.setTimeout(() => {
-                        fetch(`https://www.leitstellenspiel.de/vehicles/${vehicle_id}/zuweisung`)
+                        fetch(`/vehicles/${vehicle_id}/zuweisung`)
                           .then(response => response.text())
                           .then(response => {
                               document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
