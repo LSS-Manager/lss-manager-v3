@@ -35,7 +35,7 @@
             },
             expansions: {
                 label: 'Ausbauten anzeigen',
-                description: 'Zeigt für jedes Fahrzeug an, wie viel Personal gerade auf dem Fahrzeug sitzt.'
+                description: 'Zeigt den Status der jeweiligen Ausbauten an.'
             },
             personnelOverview: {
                 label: 'Erweiterte Personalübersicht',
@@ -79,7 +79,7 @@
             },
             expansions: {
                 label: 'Show expansions',
-                description: 'Indicates for each vehicle how many personnel are currently sitting on the vehicle',
+                description: 'Show the current status of the expansions',
             },
             personnelOverview: {
                 label: 'Extended personnel overview',
@@ -123,7 +123,7 @@
             },
             expansions: {
                 label: 'Toon uitbreidingen',
-                description: 'Geeft per voertuig aan hoeveel personeel er momenteel op het voertuig zit',
+                description: 'De huidige status van de uitbreidingen weergeven',
             },
             personnelOverview: {
                 label: 'Uitgebreid personeelsoverzicht',
