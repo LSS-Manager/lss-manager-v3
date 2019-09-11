@@ -62,6 +62,7 @@
         schoolingsMulti: 'All Combinations of Educations',
         schoolingsSingle: 'Single Educations',
         amount: 'Amount',
+        vehicleType: 'Type',
         settings: {
             neededPersonnel: {
                 label: 'Required personnel',
@@ -91,6 +92,10 @@
                 label: 'Extended personnel overview',
                 description: 'Shows in the personnel overview how much personnel has which training',
             },
+            vehicleType: {
+                label: 'Show vehicle type',
+                description: 'Shows the type of the vehicle in the vehicle list.',
+            },
         }
     };
     I18n.translations.nl.lssm.extendedBuilding = {
@@ -106,6 +111,7 @@
         schoolingsMulti: 'Alle trainingscombinaties',
         schoolingsSingle: 'Individuele opleiding',
         amount: 'Aantal',
+        vehicleType: 'Type',
         settings: {
             neededPersonnel: {
                 label: "Benodigd personeel",
@@ -134,6 +140,10 @@
             personnelOverview: {
                 label: 'Uitgebreid personeelsoverzicht',
                 description: 'Toont in het personeelsoverzicht hoeveel personeel welke opleiding heeft gevolgd',
+            },
+            vehicleType: {
+                label: 'Toon voertuigtype',
+                description: "Toont het type voertuig in de voertuiglijst.",
             },
         }
     };
