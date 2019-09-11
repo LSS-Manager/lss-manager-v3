@@ -12,6 +12,8 @@
         schoolingsMulti: 'Alle Ausbildungs-Kombinationen',
         schoolingsSingle: 'Ausbildungen einzeln',
         amount: 'Anzahl',
+        expansionName: 'Bezeichnung',
+        vehicleType: 'Typ',
         settings: {
             neededPersonnel: {
                 label: 'Benötigtes Personal',
@@ -41,6 +43,10 @@
                 label: 'Erweiterte Personalübersicht',
                 description: 'Zeigt in der Personalübersicht an, wie viel Personal welche Ausbildung hat.'
             },
+            vehicleType: {
+                label: 'Fahrzeugtyp anzeigen',
+                description: 'Zeigt den Fahrzeugtyp (ggf. auch die eigene Fahrzeugklasse) im Gebäude und der Leitstelle an.'
+            }
         }
     };
     I18n.translations.en.lssm.extendedBuilding = {
@@ -195,12 +201,20 @@
                     description: I18n.t('lssm.extendedBuilding.settings.personnelOverview.description')
                 }
             },
+            vehicleType: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.extendedBuilding.settings.vehicleType.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.extendedBuilding.settings.vehicleType.description')
+                }
+            },
         }
     };
 
     lssm.managedSettings.register(managed_settings);
 
-    if (!window.location.href.match(/(buildings\/\d+(\/personals)?$)/g) || document.querySelector('.aao') || document.querySelector('img.online_icon') || document.querySelector('#map') || document.querySelector('form[action*="education"]')) return;
+    if (!window.location.href.match(/(buildings\/\d+(\/personals)?$)/g) || document.querySelector('.aao') || document.querySelector('img.online_icon') || document.querySelector('form[action*="education"]')) return;
 
     const get_setting = key => lssm.managedSettings.getSetting(SETTINGS_STORAGE, key);
     const add_style = style => document.querySelector('head').innerHTML += `<style>${style}</style>`;
@@ -209,17 +223,19 @@
         result[key] = get_setting(key);
         return result;
     }, {});
-    const VEHICLE_TABLE_HEADS = Array.from(document.querySelectorAll('#vehicle_table thead tr th'));
-    const get_vehicle_table_column_position = key => VEHICLE_TABLE_HEADS.map(x => x.innerText).indexOf(I18n.t(`lssm.extendedBuilding.${key}`));
-    const get_vehicle_table_column_values = column => Array.from(document.querySelectorAll(`#vehicle_table tbody tr td:nth-child(${column + 1})`));
 
-    if (document.querySelector('#vehicle_table')) {
-        if (SETTINGS.neededPersonnel || SETTINGS.assignedWorkers || SETTINGS.currentCrew) {
-            let personnel_position = get_vehicle_table_column_position('crew');
-            let personnels = get_vehicle_table_column_values(personnel_position).map(x => parseInt(x.innerText));
-            SETTINGS.neededPersonnel && (document.querySelector('dl').innerHTML += `<dt><strong>${I18n.t('lssm.extendedBuilding.neededPersonnel')}:</strong></dt><dd>${personnels.reduce((a, b) => a + b, 0)}</dd>`);
-            if (!SETTINGS.assignedWorkers && !SETTINGS.currentCrew) return;
-            add_style(`
+    const render_default = () => {
+        const VEHICLE_TABLE_HEADS = Array.from(document.querySelectorAll('#vehicle_table thead tr th'));
+        const get_vehicle_table_column_position = key => VEHICLE_TABLE_HEADS.map(x => x.innerText).indexOf(I18n.t(`lssm.extendedBuilding.${key}`));
+        const get_vehicle_table_column_values = column => Array.from(document.querySelectorAll(`#vehicle_table tbody tr td:nth-child(${column + 1})`));
+
+        if (document.querySelector('#vehicle_table')) {
+            if (SETTINGS.neededPersonnel || SETTINGS.assignedWorkers || SETTINGS.currentCrew) {
+                let personnel_position = get_vehicle_table_column_position('crew');
+                let personnels = get_vehicle_table_column_values(personnel_position).map(x => parseInt(x.innerText));
+                SETTINGS.neededPersonnel && (document.querySelector('dl').innerHTML += `<dt><strong>${I18n.t('lssm.extendedBuilding.neededPersonnel')}:</strong></dt><dd>${personnels.reduce((a, b) => a + b, 0)}</dd>`);
+                if (!SETTINGS.assignedWorkers && !SETTINGS.currentCrew) return;
+                add_style(`
 .personnel_values,
 .personnel_values li {
     display: inline;
@@ -242,71 +258,71 @@
     text-align: center;
 }
 `);
-            let personnel_head = VEHICLE_TABLE_HEADS[personnel_position];
-            let maximum_text = personnel_head.innerHTML.match(/\((.*?)\)/)[1];
-            personnel_head.innerHTML = personnel_head.innerHTML.replace(/\(.*?\)/, '');
-            let list = document.createElement('ul');
-            if (SETTINGS.currentCrew) {
-                let crew_el = document.createElement('li');
-                crew_el.innerText = I18n.t('lssm.extendedBuilding.settings.currentCrew.label');
-                list.appendChild(crew_el);
-            }
-            let maximum_el = document.createElement('li');
-            maximum_el.innerText = maximum_text;
-            list.appendChild(maximum_el);
-            if (SETTINGS.assignedWorkers) {
-                let workers_el = document.createElement('li');
-                workers_el.innerText = I18n.t('lssm.extendedBuilding.settings.assignedWorkers.label');
-                list.appendChild(workers_el);
-            }
-            list.classList.add('personnel_values');
-            personnel_head.appendChild(list);
-            let personnel_nodes = get_vehicle_table_column_values(personnel_position);
-            personnel_nodes.forEach((node, index) => {
-                let vehicle_id = node.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]
-                node.setAttribute('vehicle_id', vehicle_id);
-                let maximum = node.innerText.trim();
+                let personnel_head = VEHICLE_TABLE_HEADS[personnel_position];
+                let maximum_text = personnel_head.innerHTML.match(/\((.*?)\)/)[1];
+                personnel_head.innerHTML = personnel_head.innerHTML.replace(/\(.*?\)/, '');
                 let list = document.createElement('ul');
-                list.classList.add('personnel_values');
-                node.innerHTML = '';
-                node.appendChild(list);
                 if (SETTINGS.currentCrew) {
                     let crew_el = document.createElement('li');
-                    crew_el.innerText = '0';
-                    crew_el.id = `crew_${vehicle_id}`;
+                    crew_el.innerText = I18n.t('lssm.extendedBuilding.settings.currentCrew.label');
                     list.appendChild(crew_el);
-                    if (!document.querySelector(`#vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_2, #vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_6`)) {
-                        window.setTimeout(() => {
-                            fetch(`/vehicles/${vehicle_id}`)
-                              .then(response => response.text())
-                              .then(response => {
-                                  let frag = document.createRange().createContextualFragment(response);
-                                  document.querySelector(`#crew_${vehicle_id}`).innerText = frag.querySelectorAll('#vehicle_details table tbody tr').length;
-                              });
-                        }, 100 * index);
-                    }
                 }
                 let maximum_el = document.createElement('li');
-                maximum_el.innerText = maximum;
+                maximum_el.innerText = maximum_text;
                 list.appendChild(maximum_el);
                 if (SETTINGS.assignedWorkers) {
                     let workers_el = document.createElement('li');
-                    workers_el.innerText = '0';
-                    workers_el.id = `workers_${vehicle_id}`;
+                    workers_el.innerText = I18n.t('lssm.extendedBuilding.settings.assignedWorkers.label');
                     list.appendChild(workers_el);
-                    window.setTimeout(() => {
-                        fetch(`/vehicles/${vehicle_id}/zuweisung`)
-                          .then(response => response.text())
-                          .then(response => {
-                              document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
-                          });
-                    }, 100 * index);
                 }
-            });
-        }
+                list.classList.add('personnel_values');
+                personnel_head.appendChild(list);
+                let personnel_nodes = get_vehicle_table_column_values(personnel_position);
+                personnel_nodes.forEach((node, index) => {
+                    let vehicle_id = node.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]
+                    node.setAttribute('vehicle_id', vehicle_id);
+                    let maximum = node.innerText.trim();
+                    let list = document.createElement('ul');
+                    list.classList.add('personnel_values');
+                    node.innerHTML = '';
+                    node.appendChild(list);
+                    if (SETTINGS.currentCrew) {
+                        let crew_el = document.createElement('li');
+                        crew_el.innerText = '0';
+                        crew_el.id = `crew_${vehicle_id}`;
+                        list.appendChild(crew_el);
+                        if (!document.querySelector(`#vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_2, #vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_6`)) {
+                            window.setTimeout(() => {
+                                fetch(`/vehicles/${vehicle_id}`)
+                                  .then(response => response.text())
+                                  .then(response => {
+                                      let frag = document.createRange().createContextualFragment(response);
+                                      document.querySelector(`#crew_${vehicle_id}`).innerText = frag.querySelectorAll('#vehicle_details table tbody tr').length;
+                                  });
+                            }, 100 * index);
+                        }
+                    }
+                    let maximum_el = document.createElement('li');
+                    maximum_el.innerText = maximum;
+                    list.appendChild(maximum_el);
+                    if (SETTINGS.assignedWorkers) {
+                        let workers_el = document.createElement('li');
+                        workers_el.innerText = '0';
+                        workers_el.id = `workers_${vehicle_id}`;
+                        list.appendChild(workers_el);
+                        window.setTimeout(() => {
+                            fetch(`/vehicles/${vehicle_id}/zuweisung`)
+                              .then(response => response.text())
+                              .then(response => {
+                                  document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
+                              });
+                        }, 100 * index);
+                    }
+                });
+            }
 
-        if (SETTINGS.switchStatus) {
-            add_style(`
+            if (SETTINGS.switchStatus) {
+                add_style(`
 #vehicle_table .building_list_fms_2,
 #vehicle_table .building_list_fms_6 {
     cursor: pointer;
@@ -318,79 +334,134 @@
     content: "6";
 }
 `);
-            let statusNodes = get_vehicle_table_column_values(get_vehicle_table_column_position('fms'));
-            statusNodes.forEach(node => {
-                node = node.querySelector('.building_list_fms_2') || node.querySelector('.building_list_fms_6');
-                if (!node) return;
-                node.innerText = '';
-                node.setAttribute('vehicle_id', node.parentNode.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]);
-                node.addEventListener('click', e => {
-                    e = e.currentTarget;
-                    let target_fms = e.classList.contains('building_list_fms_2') && 6 || 2;
-                    fetch(`/vehicles/${e.getAttribute('vehicle_id')}/set_fms/${target_fms}`)
-                      .then(response => {
-                          if (response.ok) {
-                              e.classList.toggle('building_list_fms_2');
-                              e.classList.toggle('building_list_fms_6');
-                          }
-                      });
+                let statusNodes = get_vehicle_table_column_values(get_vehicle_table_column_position('fms'));
+                statusNodes.forEach(node => {
+                    node = node.querySelector('.building_list_fms_2') || node.querySelector('.building_list_fms_6');
+                    if (!node) return;
+                    node.innerText = '';
+                    node.setAttribute('vehicle_id', node.parentNode.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]);
+                    node.addEventListener('click', e => {
+                        e = e.currentTarget;
+                        let target_fms = e.classList.contains('building_list_fms_2') && 6 || 2;
+                        fetch(`/vehicles/${e.getAttribute('vehicle_id')}/set_fms/${target_fms}`)
+                          .then(response => {
+                              if (response.ok) {
+                                  e.classList.toggle('building_list_fms_2');
+                                  e.classList.toggle('building_list_fms_6');
+                              }
+                          });
+                    });
                 });
-            });
-        }
-
-        if (SETTINGS.assignmentBtn) {
-            document.querySelectorAll('#vehicle_table a.btn[href^="/vehicles/"][href$="/edit"]').forEach(node => {
-                let wrapper = document.createElement('div');
-                wrapper.classList.add('btn-group');
-                node.parentNode.appendChild(wrapper);
-                wrapper.appendChild(node);
-                node.insertAdjacentHTML('afterend', `<a class="btn btn-default btn-xs" href="${node.getAttribute('href').replace('edit', 'zuweisung')}">${I18n.t('lssm.extendedBuilding.assignment')}</a>`);
-            });
-        }
-    }
-
-    if (SETTINGS.expansions && document.querySelector('#ausbauten')) {
-        let wrapper = document.createElement('div');
-        wrapper.classList.add('row');
-        let dl = document.querySelector('dl');
-        dl.parentNode.querySelector('h1').after(wrapper);
-        wrapper.appendChild(dl);
-        dl.classList.add('col-lg-4');
-        let expansionWrapper = document.createElement('div');
-        expansionWrapper.classList.add('col-lg-6');
-        wrapper.appendChild(expansionWrapper);
-        let expansions = document.querySelectorAll('#ausbauten tbody tr');
-        expansions.forEach(expansion => {
-            let expansionNode = document.createElement('div');
-            let expansionName = document.createElement('span');
-            expansionName.innerText = expansion.querySelector('td:first-of-type b').innerText.trim();
-            expansionName.innerText += ': ';
-            expansionNode.appendChild(expansionName);
-            let expansionState = document.createElement('span');
-            expansionState.classList.add('label');
-            let countdown = expansion.querySelector('span[id^=extension_countdown]');
-            if (countdown) {
-                countdown.classList.add(countdown.id);
-                expansionState.classList.add(countdown.id);
-                expansionState.appendChild(countdown.cloneNode(true));
-                expansionState.classList.add(expansion.querySelector('a[href*="extension_finish"]') ? 'label-warning' : 'label-info');
-            } else if (expansion.querySelector('a[href*="extension_ready"]') || expansion.querySelector('.label-success')) {
-                expansionState.classList.add('label-success');
-                expansionState.innerText = I18n.t('lssm.extendedBuilding.expansionFinished');
-                expansionState.innerText += ' ';
-                expansionState.appendChild(expansion.querySelector('.label').cloneNode(true));
-            } else {
-                expansionState.classList.add('label-danger');
-                expansionState.innerText = I18n.t('lssm.extendedBuilding.expansionNotStarted');
             }
-            expansionNode.appendChild(expansionState);
-            expansionWrapper.appendChild(expansionNode);
+
+            if (SETTINGS.assignmentBtn) {
+                document.querySelectorAll('#vehicle_table a.btn[href^="/vehicles/"][href$="/edit"]').forEach(node => {
+                    let wrapper = document.createElement('div');
+                    wrapper.classList.add('btn-group');
+                    node.parentNode.appendChild(wrapper);
+                    wrapper.appendChild(node);
+                    node.insertAdjacentHTML('afterend', `<a class="btn btn-default btn-xs" href="${node.getAttribute('href').replace('edit', 'zuweisung')}">${I18n.t('lssm.extendedBuilding.assignment')}</a>`);
+                });
+            }
+        }
+
+        if (SETTINGS.expansions && document.querySelector('#ausbauten')) {
+            const EXPANSIONS_TABLE_HEADS = Array.from(document.querySelectorAll('#ausbauten thead tr th'));
+            const get_expansions_table_column_position = key => EXPANSIONS_TABLE_HEADS.map(x => x.innerText).indexOf(I18n.t(`lssm.extendedBuilding.${key}`));
+            const get_expansions_table_column_values = column => Array.from(document.querySelectorAll(`#ausbauten tbody tr td:nth-child(${column + 1})`));
+            let wrapper = document.createElement('div');
+            wrapper.classList.add('row');
+            let dl = document.querySelector('dl');
+            dl.parentNode.querySelector('h1').after(wrapper);
+            wrapper.appendChild(dl);
+            dl.classList.add('col-lg-4');
+            let expansionWrapper = document.createElement('div');
+            expansionWrapper.classList.add('col-lg-8');
+            wrapper.appendChild(expansionWrapper);
+            let expansions = get_expansions_table_column_values(get_expansions_table_column_position('expansionName'));
+            let expansion_index = {};
+            expansions.forEach(expansion => {
+                let expansion_name = expansion.parentNode.querySelector('td:first-of-type b').innerText.trim();
+                if (!expansion_index.hasOwnProperty(expansion_name)) expansion_index[expansion_name] = [];
+                let expansionState = document.createElement('span');
+                expansionState.classList.add('label');
+                let countdown = expansion.parentNode.querySelector('span[id^=extension_countdown]');
+                if (countdown) {
+                    countdown.classList.add(countdown.id);
+                    expansionState.classList.add(countdown.id);
+                    expansionState.appendChild(countdown.cloneNode(true));
+                    expansionState.classList.add(expansion.parentNode.querySelector('a[href*="extension_finish"]') ? 'label-warning' : 'label-info');
+                } else if (expansion.parentNode.querySelector('a[href*="extension_ready"]') || expansion.parentNode.querySelector('.label-success')) {
+                    expansionState.classList.add('label-success');
+                    expansionState.innerText = I18n.t('lssm.extendedBuilding.expansionFinished');
+                    expansionState.innerText += ' ';
+                    expansionState.appendChild(expansion.parentNode.querySelector('.label').cloneNode(true));
+                } else {
+                    expansionState.classList.add('label-danger');
+                    expansionState.innerText = I18n.t('lssm.extendedBuilding.expansionNotStarted');
+                }
+                expansion_index[expansion_name].push(expansionState);
+            });
+            for (let expansion in expansion_index) {
+                if (!expansion_index.hasOwnProperty(expansion)) continue;
+                let expansionNode = document.createElement('div');
+                let expansionName = document.createElement('span');
+                expansionName.innerText = expansion;
+                expansionName.innerText += ': ';
+                expansionNode.appendChild(expansionName);
+                for (let state in expansion_index[expansion]) {
+                    if (!expansion_index[expansion].hasOwnProperty(state)) continue;
+                    expansionNode.appendChild(expansion_index[expansion][state]);
+                    expansionNode.innerHTML += '&nbsp;';
+                }
+                expansionWrapper.appendChild(expansionNode);
+            }
             extensionCountdown = (e, t) => {
                 0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
                     extensionCountdown(e, t)
                 }, 1000))
             }
-        });
+        }
+    };
+    const apply_types = () => {
+        fetch('/api/vehicles')
+          .then(response => response.json())
+          .then(vehicle_list => {
+              let vehicles = {};
+              let building_vehicles = document.querySelectorAll('#vehicle_table tbody tr');
+              let building_vehicle_ids = Array.from(building_vehicles).map(x => parseInt(x.querySelector('a[href^="/vehicles/"]:not(.btn)').href.replace(/\D+/g, '')));
+              for (let vehicle in vehicle_list) {
+                  if (!vehicle_list.hasOwnProperty(vehicle)) continue;
+                  if (building_vehicle_ids.indexOf(vehicle_list[vehicle].id) === -1) continue;
+                  vehicles[vehicle_list[vehicle].id] = vehicle_list[vehicle];
+              }
+              let title_node = document.createElement('th');
+              title_node.innerText = I18n.t('lssm.extendedBuilding.vehicleType');
+              document.querySelector('#vehicle_table thead tr th:first-of-type').insertAdjacentElement('afterend', title_node);
+              for (let index in building_vehicles) {
+                  if (!building_vehicles.hasOwnProperty(index)) continue;
+                  let type_node = document.createElement('td');
+                  building_vehicles[index].querySelector('td:first-of-type').insertAdjacentElement('afterend', type_node);
+                  let vehicle = vehicles[building_vehicle_ids[index]];
+                  let vehicle_type = lssm.carsById[vehicle.vehicle_type][0];
+                  type_node.insertAdjacentHTML('beforeend', `<a class="btn btn-default btn-xs disabled">${vehicle_type}</a>`);
+                  vehicle.vehicle_type_caption && type_node.insertAdjacentHTML('beforeend', `<a class="btn btn-default btn-xs disabled">${vehicle.vehicle_type_caption}</a>`);
+              }
+              if(!document.querySelector('#map')) render_default();
+          });
+    };
+
+    if (SETTINGS.vehicleType) {
+        if(document.querySelector('#map')) {
+            document.querySelector('#tab_vehicle').addEventListener('DOMNodeInserted', e => {
+                if (e.target.tagName !== "SCRIPT") return;
+                apply_types();
+            });
+            return
+        }
+        apply_types();
+    } else {
+        render_default();
     }
 
     if (SETTINGS.personnelOverview && window.location.href.match(/(buildings\/\d+\/personals$)/g)) {
