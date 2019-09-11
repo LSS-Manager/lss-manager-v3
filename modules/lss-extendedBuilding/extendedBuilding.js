@@ -385,8 +385,8 @@
             dl.parentNode.querySelector('h1').after(wrapper);
             wrapper.appendChild(dl);
             dl.classList.add('col-lg-4');
-            let expansionWrapper = document.createElement('div');
-            expansionWrapper.classList.add('col-lg-8');
+            let expansionWrapper = document.createElement('table');
+            expansionWrapper.classList.add('col-lg-4');
             wrapper.appendChild(expansionWrapper);
             let expansions = get_expansions_table_column_values(get_expansions_table_column_position('expansionName'));
             let expansion_index = {};
@@ -414,17 +414,31 @@
             });
             for (let expansion in expansion_index) {
                 if (!expansion_index.hasOwnProperty(expansion)) continue;
-                let expansionNode = document.createElement('div');
-                let expansionName = document.createElement('span');
-                expansionName.innerText = expansion;
-                expansionName.innerText += ': ';
-                expansionNode.appendChild(expansionName);
+                let row = document.createElement('tr');
+                row.style.backgroundColor= "unset";
+                let expansionName = document.createElement('th');
+                expansionName.innerText = `${expansion}:`;
+                expansionName.style.textAlign = 'right';
+                expansionName.style.paddingRight = '1em';
+                row.appendChild(expansionName);
+                let expansionStateWrapper = document.createElement('td');
+                let expansionStates = document.createElement('table');
+                expansionStates.style.display = 'inline';
+                expansionStates.style.textAlign = 'center';
+                let add_break = true;
                 for (let state in expansion_index[expansion]) {
                     if (!expansion_index[expansion].hasOwnProperty(state)) continue;
-                    expansionNode.appendChild(expansion_index[expansion][state]);
-                    expansionNode.innerHTML += '&nbsp;';
+                    add_break && expansionStates.appendChild(document.createElement('tr'));
+                    let td = document.createElement('td');
+                    td.style.paddingRight = '1em';
+                    expansionStates.querySelector('tr:last-of-type').appendChild(td);
+                    td.appendChild(expansion_index[expansion][state]);
+                    td.parentNode.style.backgroundColor = "unset";
+                    add_break = !add_break;
                 }
-                expansionWrapper.appendChild(expansionNode);
+                expansionStateWrapper.appendChild(expansionStates);
+                row.appendChild(expansionStateWrapper);
+                expansionWrapper.appendChild(row);
             }
             extensionCountdown = (e, t) => {
                 0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
