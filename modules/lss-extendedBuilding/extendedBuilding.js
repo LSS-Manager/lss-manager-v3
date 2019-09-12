@@ -475,7 +475,7 @@
           });
     };
 
-    if (SETTINGS.vehicleType) {
+    if (SETTINGS.vehicleType && document.querySelector('#vehicle_table')) {
         if(document.querySelector('#map')) {
             document.querySelector('#tab_vehicle').addEventListener('DOMNodeInserted', e => {
                 if (e.target.tagName !== "SCRIPT") return;
