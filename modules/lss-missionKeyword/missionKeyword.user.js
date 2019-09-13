@@ -497,7 +497,8 @@
         472: 'Beweismittelsuche im Wasser',
         473: 'Pfefferspray in Bahn',
         474: 'Pfefferspray in Bahn',
-        475: 'Pfefferspray in Bahn'
+        475: 'Pfefferspray in Bahn',
+        476: 'Angefahrener Radfahrer'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -817,7 +818,19 @@
         298: 'Large brawl',
         299: 'Pepper spray discharged on train',
         300: 'Pepper spray discharged on train',
-        301: 'Pepper spray discharged on train'
+        301: 'Pepper spray discharged on train',
+        302: 'Passenger train derailment (Small)',
+        303: 'Passenger train derailment (Small)',
+        304: 'Passenger train derailment (Small)',
+        305: 'Passenger train derailment (Small)',
+        306: 'Passenger train derailment (Large)',
+        307: 'Passenger train derailment (Large)',
+        308: 'Passenger train derailment (Large)',
+        309: 'Passenger train derailment (Large)',
+        310: 'Passenger train derailment (Major)',
+        311: 'Passenger train derailment (Major)',
+        312: 'Passenger train derailment (Major)',
+        313: 'Passenger train derailment (Major)'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1315,7 +1328,10 @@
         476: 'Verkeersongeval scooter',
         477: 'Verkeersongeval scooter',
         478: 'Liftopsluiting',
-        479: 'Liftopsluiting'
+        479: 'Liftopsluiting',
+        480: 'Watersporter vermist',
+        481: 'Watersporter vermist',
+        482: 'Watersporter vermist'
       }
     };
 
@@ -1814,7 +1830,8 @@
       472: 'POL 2',
       473: 'POL 5',
       474: 'POL 5',
-      475: 'POL 5'
+      475: 'POL 5',
+      476: 'RD 1'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2118,7 +2135,19 @@
       298: 'POL 6',
       299: 'POL 4',
       300: 'POL 4',
-      301: 'POL 4'
+      301: 'POL 4',
+      302: 'TECH 2 TRAIN',
+      303: 'TECH 2 TRAIN',
+      304: 'TECH 2 TRAIN',
+      305: 'TECH 2 TRAIN',
+      306: 'TECH 4 TRAIN',
+      307: 'TECH 4 TRAIN',
+      308: 'TECH 4 TRAIN',
+      309: 'TECH 4 TRAIN',
+      310: 'TECH 6 TRAIN',
+      311: 'TECH 6 TRAIN',
+      312: 'TECH 6 TRAIN',
+      313: 'TECH 6 TRAIN'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2600,7 +2629,10 @@
       476: 'A 1',
       477: 'P 1',
       478: 'HV 1',
-      479: 'HV 1'
+      479: 'HV 1',
+      480: 'HV 2 WATER',
+      481: 'HV 2 WATER',
+      482: 'HV 2 WATER'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
