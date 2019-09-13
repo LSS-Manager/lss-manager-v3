@@ -46,6 +46,10 @@
             vehicleType: {
                 label: 'Fahrzeugtyp anzeigen',
                 description: 'Zeigt den Fahrzeugtyp (ggf. auch die eigene Fahrzeugklasse) im Gebäude und der Leitstelle an.'
+            },
+            expansionDate: {
+                label: 'Datum der Ausbauten-Fertigstellung',
+                description: 'Zeigt in der Liste der Ausbauten ebenfalls an, wann die Asbaute fertig sein wird (funktioniert nur in Verbindung mit der Einstellung "Ausbauten anzeigen")'
             }
         }
     };
@@ -96,6 +100,10 @@
                 label: 'Show vehicle type',
                 description: 'Shows the type of the vehicle in the vehicle list.',
             },
+            expansionDate: {
+                label: 'Date of completion of the expansion',
+                description: 'Shows in the list of expansions also when the construction will be finished (works only in connection with the setting "Show expansions")',
+            }
         }
     };
     I18n.translations.nl.lssm.extendedBuilding = {
@@ -144,6 +152,10 @@
             vehicleType: {
                 label: 'Toon voertuigtype',
                 description: "Toont het type voertuig in de voertuiglijst.",
+            },
+            expansionDate: {
+                label: 'Datum van voltooiing van de uitbreiding',
+                description: 'Geeft in de lijst met uitbreidingen ook aan wanneer de bouw klaar is (werkt alleen in verband met de instelling "Toon uitbreidingen")',
             },
         }
     };
@@ -201,6 +213,14 @@
                     label: I18n.t('lssm.extendedBuilding.settings.expansions.label'),
                     type: 'toggle',
                     description: I18n.t('lssm.extendedBuilding.settings.expansions.description')
+                }
+            },
+            expansionDate: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.extendedBuilding.settings.expansionDate.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.extendedBuilding.settings.expansionDate.description')
                 }
             },
             personnelOverview: {
@@ -440,10 +460,21 @@
                 row.appendChild(expansionStateWrapper);
                 expansionWrapper.appendChild(row);
             }
-            extensionCountdown = (e, t) => {
-                0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
-                    extensionCountdown(e, t)
-                }, 1000))
+            if (SETTINGS.expansionDate) {
+                $.getScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js', () => {
+                    moment.locale(I18n.locale);
+                    extensionCountdown = (e, t) => {
+                        0 > e || ($('.extension_countdown_' + t).html(`${formatTime(e, !1)} (${moment().add(e, 'seconds').calendar()})`), e -= 1, setTimeout(function () {
+                            extensionCountdown(e, t)
+                        }, 1000))
+                    }
+                });
+            } else {
+                extensionCountdown = (e, t) => {
+                    0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
+                        extensionCountdown(e, t)
+                    }, 1000))
+                }
             }
         }
     };
