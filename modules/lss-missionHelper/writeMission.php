@@ -6,14 +6,14 @@ try {
 
     ksort($missions);
 
-    json_decode(json_encode($missions, JSON_PRETTY_PRINT), true);
+    json_decode(json_encode($missions, JSON_FORCE_OBJECT), true);
 
     $json_error = json_last_error();
 
     if ($json_error === JSON_ERROR_NONE) {
         $Handle = fopen("./missions." . $_POST["lang"] . ".json", 'w');
 
-        fwrite($Handle, preg_replace('/"(\d*?)"([^:])/', '$1$2', str_replace('"true"', "true", json_encode($missions, JSON_PRETTY_PRINT))));
+        fwrite($Handle, preg_replace('/"(\d*?)"([^:])/', '$1$2', str_replace('"true"', "true", json_encode($missions, JSON_PRETTY_PRINT | JSON_FORCE_OBJECT))));
 
         fclose($Handle);
 
