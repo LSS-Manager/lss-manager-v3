@@ -470,13 +470,13 @@ lssm.Module = {
     },
     RenameFZ: {
         name: {
-            de: 'Fahrzeuge umbennenen',
+            de: 'Fahrzeuge umbenennen',
             en: 'Rename vehicle',
             nl: 'Voertuigen herbenoemen'
         },
         active: false,
         description: {
-            de: 'Fahrzeuge in bulk mit Tags umbennenen.',
+            de: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
             en: 'Rename vehicles in bulk using tags.',
             nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
                 'behulp van tags.'
