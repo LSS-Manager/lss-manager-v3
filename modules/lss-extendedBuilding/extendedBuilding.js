@@ -46,6 +46,10 @@
             vehicleType: {
                 label: 'Fahrzeugtyp anzeigen',
                 description: 'Zeigt den Fahrzeugtyp (ggf. auch die eigene Fahrzeugklasse) im Gebäude und der Leitstelle an.'
+            },
+            expansionDate: {
+                label: 'Datum der Ausbauten-Fertigstellung',
+                description: 'Zeigt in der Liste der Ausbauten ebenfalls an, wann die Asbaute fertig sein wird (funktioniert nur in Verbindung mit der Einstellung "Ausbauten anzeigen")'
             }
         }
     };
@@ -96,6 +100,10 @@
                 label: 'Show vehicle type',
                 description: 'Shows the type of the vehicle in the vehicle list.',
             },
+            expansionDate: {
+                label: 'Date of completion of the expansion',
+                description: 'Shows in the list of expansions also when the construction will be finished (works only in connection with the setting "Show expansions")',
+            }
         }
     };
     I18n.translations.nl.lssm.extendedBuilding = {
@@ -144,6 +152,10 @@
             vehicleType: {
                 label: 'Toon voertuigtype',
                 description: "Toont het type voertuig in de voertuiglijst.",
+            },
+            expansionDate: {
+                label: 'Datum van voltooiing van de uitbreiding',
+                description: 'Geeft in de lijst met uitbreidingen ook aan wanneer de bouw klaar is (werkt alleen in verband met de instelling "Toon uitbreidingen")',
             },
         }
     };
@@ -203,6 +215,14 @@
                     description: I18n.t('lssm.extendedBuilding.settings.expansions.description')
                 }
             },
+            expansionDate: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.extendedBuilding.settings.expansionDate.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.extendedBuilding.settings.expansionDate.description')
+                }
+            },
             personnelOverview: {
                 default: true,
                 ui: {
@@ -244,8 +264,8 @@
                 let personnel_position = get_vehicle_table_column_position('crew');
                 let personnels = get_vehicle_table_column_values(personnel_position).map(x => parseInt(x.innerText));
                 SETTINGS.neededPersonnel && (document.querySelector('dl').innerHTML += `<dt><strong>${I18n.t('lssm.extendedBuilding.neededPersonnel')}:</strong></dt><dd>${personnels.reduce((a, b) => a + b, 0)}</dd>`);
-                if (!SETTINGS.assignedWorkers && !SETTINGS.currentCrew) return;
-                add_style(`
+                if (SETTINGS.assignedWorkers || !SETTINGS.currentCrew) {
+                    add_style(`
 .personnel_values,
 .personnel_values li {
     display: inline;
@@ -268,67 +288,68 @@
     text-align: center;
 }
 `);
-                let personnel_head = VEHICLE_TABLE_HEADS[personnel_position];
-                let maximum_text = personnel_head.innerHTML.match(/\((.*?)\)/)[1];
-                personnel_head.innerHTML = personnel_head.innerHTML.replace(/\(.*?\)/, '');
-                let list = document.createElement('ul');
-                if (SETTINGS.currentCrew) {
-                    let crew_el = document.createElement('li');
-                    crew_el.innerText = I18n.t('lssm.extendedBuilding.settings.currentCrew.label');
-                    list.appendChild(crew_el);
-                }
-                let maximum_el = document.createElement('li');
-                maximum_el.innerText = maximum_text;
-                list.appendChild(maximum_el);
-                if (SETTINGS.assignedWorkers) {
-                    let workers_el = document.createElement('li');
-                    workers_el.innerText = I18n.t('lssm.extendedBuilding.settings.assignedWorkers.label');
-                    list.appendChild(workers_el);
-                }
-                list.classList.add('personnel_values');
-                personnel_head.appendChild(list);
-                let personnel_nodes = get_vehicle_table_column_values(personnel_position);
-                personnel_nodes.forEach((node, index) => {
-                    let vehicle_id = node.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]
-                    node.setAttribute('vehicle_id', vehicle_id);
-                    let maximum = node.innerText.trim();
+                    let personnel_head = VEHICLE_TABLE_HEADS[personnel_position];
+                    let maximum_text = personnel_head.innerHTML.match(/\((.*?)\)/)[1];
+                    personnel_head.innerHTML = personnel_head.innerHTML.replace(/\(.*?\)/, '');
                     let list = document.createElement('ul');
-                    list.classList.add('personnel_values');
-                    node.innerHTML = '';
-                    node.appendChild(list);
                     if (SETTINGS.currentCrew) {
                         let crew_el = document.createElement('li');
-                        crew_el.innerText = '0';
-                        crew_el.id = `crew_${vehicle_id}`;
+                        crew_el.innerText = I18n.t('lssm.extendedBuilding.settings.currentCrew.label');
                         list.appendChild(crew_el);
-                        if (!document.querySelector(`#vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_2, #vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_6`)) {
-                            window.setTimeout(() => {
-                                fetch(`/vehicles/${vehicle_id}`)
-                                  .then(response => response.text())
-                                  .then(response => {
-                                      let frag = document.createRange().createContextualFragment(response);
-                                      document.querySelector(`#crew_${vehicle_id}`).innerText = frag.querySelectorAll('#vehicle_details table tbody tr').length;
-                                  });
-                            }, 100 * index);
-                        }
                     }
                     let maximum_el = document.createElement('li');
-                    maximum_el.innerText = maximum;
+                    maximum_el.innerText = maximum_text;
                     list.appendChild(maximum_el);
                     if (SETTINGS.assignedWorkers) {
                         let workers_el = document.createElement('li');
-                        workers_el.innerText = '0';
-                        workers_el.id = `workers_${vehicle_id}`;
+                        workers_el.innerText = I18n.t('lssm.extendedBuilding.settings.assignedWorkers.label');
                         list.appendChild(workers_el);
-                        window.setTimeout(() => {
-                            fetch(`/vehicles/${vehicle_id}/zuweisung`)
-                              .then(response => response.text())
-                              .then(response => {
-                                  document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
-                              });
-                        }, 100 * index);
                     }
-                });
+                    list.classList.add('personnel_values');
+                    personnel_head.appendChild(list);
+                    let personnel_nodes = get_vehicle_table_column_values(personnel_position);
+                    personnel_nodes.forEach((node, index) => {
+                        let vehicle_id = node.parentNode.querySelector('a[href*="/vehicles/"]').getAttribute('href').match(/\d+$/)[0]
+                        node.setAttribute('vehicle_id', vehicle_id);
+                        let maximum = node.innerText.trim();
+                        let list = document.createElement('ul');
+                        list.classList.add('personnel_values');
+                        node.innerHTML = '';
+                        node.appendChild(list);
+                        if (SETTINGS.currentCrew) {
+                            let crew_el = document.createElement('li');
+                            crew_el.innerText = '0';
+                            crew_el.id = `crew_${vehicle_id}`;
+                            list.appendChild(crew_el);
+                            if (!document.querySelector(`#vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_2, #vehicle_table tbody tr:nth-of-type(${index + 1}) .building_list_fms_6`)) {
+                                window.setTimeout(() => {
+                                    fetch(`/vehicles/${vehicle_id}`)
+                                      .then(response => response.text())
+                                      .then(response => {
+                                          let frag = document.createRange().createContextualFragment(response);
+                                          document.querySelector(`#crew_${vehicle_id}`).innerText = frag.querySelectorAll('#vehicle_details table tbody tr').length;
+                                      });
+                                }, 100 * index);
+                            }
+                        }
+                        let maximum_el = document.createElement('li');
+                        maximum_el.innerText = maximum;
+                        list.appendChild(maximum_el);
+                        if (SETTINGS.assignedWorkers) {
+                            let workers_el = document.createElement('li');
+                            workers_el.innerText = '0';
+                            workers_el.id = `workers_${vehicle_id}`;
+                            list.appendChild(workers_el);
+                            window.setTimeout(() => {
+                                fetch(`/vehicles/${vehicle_id}/zuweisung`)
+                                  .then(response => response.text())
+                                  .then(response => {
+                                      document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
+                                  });
+                            }, 100 * index);
+                        }
+                    });
+                }
             }
 
             if (SETTINGS.switchStatus) {
@@ -440,10 +461,21 @@
                 row.appendChild(expansionStateWrapper);
                 expansionWrapper.appendChild(row);
             }
-            extensionCountdown = (e, t) => {
-                0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
-                    extensionCountdown(e, t)
-                }, 1000))
+            if (SETTINGS.expansionDate) {
+                $.getScript('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js', () => {
+                    moment.locale(I18n.locale);
+                    extensionCountdown = (e, t) => {
+                        0 > e || ($('.extension_countdown_' + t).html(`${formatTime(e, !1)} (${moment().add(e, 'seconds').calendar()})`), e -= 1, setTimeout(function () {
+                            extensionCountdown(e, t)
+                        }, 1000))
+                    }
+                });
+            } else {
+                extensionCountdown = (e, t) => {
+                    0 > e || ($('.extension_countdown_' + t).html(formatTime(e, !1)), e -= 1, setTimeout(function () {
+                        extensionCountdown(e, t)
+                    }, 1000))
+                }
             }
         }
     };
@@ -481,9 +513,9 @@
                 if (e.target.tagName !== "SCRIPT") return;
                 apply_types();
             });
-            return
+        } else {
+            apply_types();
         }
-        apply_types();
     } else {
         render_default();
     }
