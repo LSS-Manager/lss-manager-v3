@@ -345,14 +345,13 @@ lssm.Module = {
         name: {
             de: 'Zielort Filter',
             en: 'Destination filter',
-            nl: 'Ziekenhuis-Filter'
+            nl: 'Bestemming Filter'
         },
         active: false,
         description: {
-            de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
-            en: 'Allows hiding full or unelegible hospitals',
-            nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' +
-                'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
+            de: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
+            en: 'Allows you to hide busy or inappropriate destinations for speech requests',
+            nl: 'Hiermee kunt u drukke of ongeschikte bestemmingen voor spraakverzoeken verbergen.'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         inframe: true
