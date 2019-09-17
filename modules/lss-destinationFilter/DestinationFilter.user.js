@@ -81,7 +81,7 @@
 			cells: {
 				default: true,
 				ui: {
-					label: I18n.t('lssm.destfilter.cells'),
+					label: I18n.t('lssm.destfilter.settings.cells'),
 					type: 'checkbox'
 				}
 			}
