@@ -32,7 +32,7 @@ let lssm = {
         version: "3.3.5",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm',
-        game: window.location.hostname.replace("www.","").toLowerCase(),
+        game: window.location.hostname.toLowerCase().replace("www.",""),
     },
     loadScript: function (link, no_cache=false) {
         try {
