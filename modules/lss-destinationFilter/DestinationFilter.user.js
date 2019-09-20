@@ -1,125 +1,194 @@
-(function(I18n, $) {
-	'use strict';
+((I18n) => {
+    const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
 
-	const LSS_DESTFILTER_STORAGE = "LSS_DESTFILTER_STORAGE";
+    I18n.translations.de.lssm.destfilter = {
+        title: 'Zielort Filter',
+        freeBeds: 'Freie Betten',
+        tax: 'Abgabe',
+        cellTax: 'Abgabe an Besitzer',
+        settings: {
+            beds: 'Volle KH ausblenden',
+            department: 'KH ohne korrekte Fachabteilung ausblenden',
+            distance: 'Ziele über x km Entfernung ausblenden (0 deaktiviert)',
+            tax: 'Ziele mit einer Abgabe von mehr als x% ausblenden',
+            cells: 'Volle Polizeistationen/Zellen ausblenden'
+        }
+    };
+    I18n.translations.en.lssm.destfilter = {
+        title: 'Destination Filter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
+    I18n.translations.nl.lssm.destfilter = {
+        title: 'Bestemming Filter',
+        freeBeds: 'Vrije bedden',
+        tax: 'Kosten',
+        cellTax: 'Afdrachtpercentage',
+        settings: {
+            beds: 'Verberg volledig ziekenhuis',
+            department: 'Verberg ziekenhuizen zonder benodigde afdeling',
+            distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
+            tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
+            cells: 'Verberg volle cellen'
+        }
+    };
 
-	I18n.translations.de.lssm.destfilter = {
-		title: "Zielort Filter",
-		beds: "Belegte KH ausblenden",
-		elegible: "KH ohne Fachabteilung ausblenden",
-		distance: "Krankenhäuser über x km Entfernung ausblenden (0 deaktiviert)",
-		hospital: "Krankenhaus",
-		yes: "Ja"
-	};
 
-	I18n.translations.en.lssm.destfilter = {
-		title: "Destination Filter",
-		beds: "Hide full hospitals",
-		elegible: "Hide unelegible hospitals",
-		distance: "Hide hospitals over x km distance (0 disabled)",
-		hospital: "hospital",
-		yes: "Yes"
-	};
+    const managedSettings = {
+        id: LSS_DESTFILTER_STORAGE,
+        title: I18n.t('lssm.destfilter.title'),
+        settings: {
+            beds: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.beds'),
+                    type: 'checkbox'
+                }
+            },
+            department: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.department'),
+                    type: 'checkbox'
+                }
+            },
+            cells: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.cells'),
+                    type: 'checkbox'
+                }
+            },
+            distance: {
+                default: 0,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.distance'),
+                    type: 'number',
+                    min: 0,
+                }
+            },
+            tax: {
+                default: 50,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.tax'),
+                    type: 'number',
+                    min: 0,
+                    max: 50,
+                    step: 10
+                }
+            }
+        }
+    };
 
-	I18n.translations.nl.lssm.destfilter = {
-		title: "Bestemmingsfilter",
-		beds: "Verberg volle ziekenhuizen",
-		elegible: "Verberg ziekenhuizen die niet de juiste afdeling hebben.",
-		distance: "Verberg ziekenhuizen over x km afstand (0 uitgeschakeld)",
-		hospital: "ziekenhuis",
-		yes: "Ja"
-	};
+    lssm.managedSettings.register(managedSettings);
 
-	const managedSettings = {
-		"id": LSS_DESTFILTER_STORAGE,
-		"title": I18n.t('lssm.destfilter.title'),
-		"settings": {
-			"destfilter-beds": {
-				"default": true,
-				"ui": {
-					"label": I18n.t('lssm.destfilter.beds'),
-					"type": "checkbox"
-				}
-			},
-			"destfilter-elegible": {
-				"default": true,
-				"ui": {
-					"label": I18n.t('lssm.destfilter.elegible'),
-					"type": "checkbox"
-				}
-			},
-			"destfilter-distance": {
-				"default": 0,
-				"ui": {
-					"label": I18n.t('lssm.destfilter.distance'),
-					"type": "number",
-					"min": 0
-				}
-			}
-		}
-	};
+    if (!document.querySelector('#h2_sprechwunsch')) return;
 
-	lssm.managedSettings.register(managedSettings);
+    const mode = document.querySelector('a.btn[href*="/patient/"]') ? 'hospital' : 'prison';
 
-	function setUi() {
-		let markup = "<div id='destfilter-settings' class='row'>";
-		markup +=
-			'<div class="col-md-3"><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-beds" ' +
-			(getSetting('destfilter-beds') ? 'checked="checked"' : '') +
-			'" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-destfilter-beds"></label></div></span>' +
-			I18n.t('lssm.destfilter.beds') + '</div>';
-		markup +=
-			'<div class="col-md-3"><span class="pull-left"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="lssm-inline-destfilter-elegible" ' +
-			(getSetting('destfilter-elegible') ? 'checked="checked' : '') +
-			'" value="true" name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="lssm-inline-destfilter-elegible"></label></div></span>' +
-			I18n.t('lssm.destfilter.elegible') + '</div>';
-		markup +=
-			'<div class="col-md-3"><span class="pull-left"><input id="lssm-inline-destfilter-distance" value="' +
-			getSetting('destfilter-distance') +
-			'" type="number" style="width: 70px"><label for="lssm-inline-destfilter-distance"></label></span>' +
-			I18n.t('lssm.destfilter.distance') + '</div>';
-		markup += "</div>";
-		$('.alert-info').after(markup);
+    const getSetting = key => lssm.managedSettings.getSetting(LSS_DESTFILTER_STORAGE, key);
+    const filter = () => {
+        if (mode === 'hospital') {
+            document.querySelectorAll('.col-md-9 tbody > tr .visible-xs').forEach(el => {
+                const hide = () => el.parentNode.parentNode.classList.add('hidden');
+                el.parentNode.parentNode.classList.remove('hidden');
+                let info = el.innerHTML.trim();
+                let distance = parseFloat(info.match(/\d+[.,]\d+ km/)[0].replace(/,/, '.').replace(/[^\d.]/g, ''));
+                let freeBeds = parseInt(info.match(new RegExp(`${I18n.t('lssm.destfilter.freeBeds')}: \\d+`))[0].replace(/\D+/g, ''));
+                let department = info.indexOf('label-success') > -1;
+                let tax = 0;
+                let taxMatch = info.match(new RegExp(`${I18n.t('lssm.destfilter.tax')}: \\d+ %`));
+                if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
+                if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
+                getSetting('beds') && freeBeds === 0 && hide();
+                getSetting('department') && !department && hide();
+                tax > getSetting('tax') && hide();
+            });
+        } else {
+            document.querySelectorAll('.alert-info a.btn[href*="/gefangener/"]').forEach(el => {
+                const hide = () => el.classList.add('hidden');
+                el.classList.remove('hidden');
+                let distance = parseFloat(el.innerText.match(/\d+[.,]\d+ km/)[0].replace(/,/, '.').replace(/[^\d.]/g, ''));
+                let tax = 0;
+                let taxMatch = el.innerText.match(new RegExp(`${I18n.t('lssm.destfilter.cellTax')}: \\d+%`));
+                if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
+                getSetting('cells') && el.classList.contains('btn-danger') && hide();
+                if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
+                tax > getSetting('tax') && hide();
+            });
+        }
+    };
+    const settingNode = (key, type, attributes) => {
+        const setting = getSetting(key);
+        const id = `lssm_destfilter_${key}`;
 
-		$('#destfilter-settings input').change(
-			function() {
-				managedSettings.settings['destfilter-beds'].value = $('#lssm-inline-destfilter-beds').is(':checked');
-				managedSettings.settings['destfilter-elegible'].value = $('#lssm-inline-destfilter-elegible').is(':checked');
-				managedSettings.settings['destfilter-distance'].value = $('#lssm-inline-destfilter-distance').val();
-				lssm.managedSettings.update(managedSettings);
-				filter();
-			});
-	}
+        let wrapper = document.createElement('div');
+        wrapper.classList.add('col-md-3');
 
-	function filter() {
-		$('.col-md-9 tbody > tr').each(function() {
-			let el = $(this);
-			let beds = parseInt(el.find('td:nth-child(3)').text().trim());
-			// The column differs in owned and alliance table
-			let elegible = ((el.find(':nth-child(4)').text()
-				.trim().indexOf('%') === -1) ? el.find(
-				'td:nth-child(4)').text() : el.find(
-				':nth-child(5)').text()).trim() === I18n
-				.t('lssm.destfilter.yes');
-			let distance = el.find('td:nth-child(2)').text().trim().match(/[,.\d]+/);
-			distance = distance ? parseFloat(distance[0].replace(/,/, ".")) : 0;
-			if ((beds <= 0 && getSetting('destfilter-beds')) ||
-				(!elegible && getSetting('destfilter-elegible')) || (getSetting('destfilter-distance') !== "0" && distance >= getSetting('destfilter-distance'))) {
-				el.fadeOut();
-			} else {
-				el.fadeIn();
-			}
-		});
-	}
+        let spanNode = document.createElement('span');
+        spanNode.classList.add('pull-left');
 
-	let sprechwunsch = $('#h2_sprechwunsch');
-	if (sprechwunsch.length > 0 && sprechwunsch.parent().text().indexOf(I18n.t('lssm.destfilter.hospital')) >= 0) {
-		setUi();
-		filter();
-	}
+        let inputNode = document.createElement('input');
+        inputNode.type = type;
+        inputNode.value = setting;
+        inputNode.id = id;
+        spanNode.style.paddingRight = '0.5em';
 
-	function getSetting(setting) {
-		return lssm.managedSettings.getSetting(LSS_DESTFILTER_STORAGE, setting);
-	}
+        for (let attribute in attributes) {
+            if (!attributes.hasOwnProperty(attribute)) continue;
+            inputNode.setAttribute(attribute, attributes[attribute]);
+        }
 
-})(I18n, jQuery);
+        spanNode.appendChild(inputNode);
+
+        if (type === 'checkbox') {
+            inputNode.classList.add('onoffswitch-checkbox');
+            inputNode.checked = setting;
+            let labelNode = document.createElement('label');
+            labelNode.classList.add('onoffswitch-label');
+            labelNode.htmlFor = id;
+            let inputWrapper = document.createElement('div');
+            inputWrapper.classList.add('onoffswitch');
+            spanNode.appendChild(inputWrapper);
+            inputWrapper.appendChild(inputNode);
+            inputWrapper.appendChild(labelNode);
+        }
+
+        inputNode.addEventListener('change', e => {
+            managedSettings.settings[key].value = type === 'checkbox' ? e.currentTarget.checked : e.currentTarget.value;
+            lssm.managedSettings.update(managedSettings);
+            filter();
+        });
+
+        wrapper.appendChild(spanNode);
+        wrapper.insertAdjacentText('beforeend', I18n.t(`lssm.destfilter.settings.${key}`));
+        return wrapper;
+    };
+
+    let settingsNode = document.createElement('div');
+    settingsNode.classList.add('row');
+    settingsNode.id = 'destfilterSettings';
+
+    mode === 'hospital' && settingsNode.appendChild(settingNode('beds', 'checkbox'));
+    mode === 'hospital' && settingsNode.appendChild(settingNode('department', 'checkbox'));
+    mode === 'prison' && settingsNode.appendChild(settingNode('cells', 'checkbox'));
+    settingsNode.appendChild(settingNode('distance', 'number', {
+        min: 0
+    }));
+    settingsNode.appendChild(settingNode('tax', 'number', {
+        min: 0,
+        max: 50,
+        step: 10
+    }));
+
+    document.querySelector('.alert-info').insertAdjacentElement('afterend', settingsNode);
+    filter();
+})(I18n);

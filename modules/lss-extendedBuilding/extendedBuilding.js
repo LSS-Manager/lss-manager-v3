@@ -66,6 +66,7 @@
         schoolingsMulti: 'All Combinations of Educations',
         schoolingsSingle: 'Single Educations',
         amount: 'Amount',
+        expansionName: 'Description',
         vehicleType: 'Type',
         settings: {
             neededPersonnel: {
@@ -119,6 +120,7 @@
         schoolingsMulti: 'Alle trainingscombinaties',
         schoolingsSingle: 'Individuele opleiding',
         amount: 'Aantal',
+        expansionName: 'Beschrijving',
         vehicleType: 'Type',
         settings: {
             neededPersonnel: {

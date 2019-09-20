@@ -7,6 +7,8 @@
 // @include      *://www.leitstellenspiel.de/*
 // @include      *://www.missionchief.com/*
 // @include      *://www.missionchief.com/
+// @include      *://www.missionchief.co.uk/*
+// @include      *://www.missionchief.co.uk/
 // @include      *://www.meldkamerspel.com/*
 // @include      *://www.meldkamerspel.com/
 // @grant        none
