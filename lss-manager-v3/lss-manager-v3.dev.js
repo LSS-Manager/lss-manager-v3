@@ -31,7 +31,8 @@ let lssm = {
         key_link: "/profile/external_secret_key/", // Domain wo alles liegt
         version: "3.3.5",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
-        prefix: 'lssm'
+        prefix: 'lssm',
+        game: window.location.hostname.replace("www.","").toLowerCase(),
     },
     loadScript: function (link, no_cache=false) {
         try {
