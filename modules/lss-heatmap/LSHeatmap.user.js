@@ -319,6 +319,19 @@
             }
         ]
     };
+    I18n.translations.fj.lssm.heatmap = {
+        active: 'Active',
+        vehicleType: 'Groups',
+        radius: 'Radius',
+        intensity: 'Intensity',
+        close: 'Close',
+        vehicleGroups: [
+            {
+                name: 'Own Combination',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

@@ -9,6 +9,11 @@
 		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
 		"Do you agree with this?"
 	};
+	I18n.translations.fj.lssm.telemetry = {
+		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
+		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
+		"Do you agree with this?"
+	};
 	I18n.translations.nl.lssm.telemetry = {
 		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
@@ -43,7 +48,7 @@
             M.splice(1, 1, tem[1]);
         return M.join(' ');
     }
-	
+
 	let active = false;
 	if(!lssm.settings.exists("telemetry"))
 	{
@@ -61,7 +66,7 @@
         let data = {};
         // Lets grab the users key
         $.get(lssm.config.key_link + user_id, function (data) {
-            try 
+            try
             {
                 // Try to parse the answer as JSON
                 data = JSON.parse(data);

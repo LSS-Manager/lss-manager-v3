@@ -107,6 +107,60 @@
             }
         }
     };
+    I18n.translations.fj.lssm.extendedBuilding = {
+        title: 'Extended Building View',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        settings: {
+            neededPersonnel: {
+                label: 'Required personnel',
+                description: 'Shows the required personnel if all vehicles are to be fully occupied',
+            },
+            switchStatus: {
+                label: 'Fast status change',
+                description: 'The status of a vehicle can be changed directly between S2 and S6 via the status display',
+            },
+            assignmentBtn: {
+                label: 'Quick assignment',
+                description: 'Adds a button to quickly get to the "Assign personnel" window',
+            },
+            assignedWorkers: {
+                label: 'Assigned personnel',
+                description: 'Shows for each vehicle how much personnel is assigned',
+            },
+            currentCrew: {
+                label: 'Current Crew',
+                description: 'Indicates for each vehicle how many personnel are currently sitting on the vehicle',
+            },
+            expansions: {
+                label: 'Show expansions',
+                description: 'Show the current status of the expansions',
+            },
+            personnelOverview: {
+                label: 'Extended personnel overview',
+                description: 'Shows in the personnel overview how much personnel has which training',
+            },
+            vehicleType: {
+                label: 'Show vehicle type',
+                description: 'Shows the type of the vehicle in the vehicle list.',
+            },
+            expansionDate: {
+                label: 'Date of completion of the expansion',
+                description: 'Shows in the list of expansions also when the construction will be finished (works only in connection with the setting "Show expansions")',
+            }
+        }
+    };
     I18n.translations.nl.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

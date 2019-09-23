@@ -7,6 +7,9 @@
     I18n.translations.en.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
+    I18n.translations.fj.lssm.missionOut = {
+        title: 'Hide/Show mission'
+    };
     I18n.translations.nl.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };

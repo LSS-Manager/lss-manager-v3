@@ -23,6 +23,18 @@
         rem: "Remove",
         brem: "Remove planned building"
     };
+    I18n.translations.fj['lssm']['wpom'] = {
+        setmarker: "Set marker",
+        remmarker: "Remove marker",
+        plan: "Add planned building",
+        vehicles: "Vehicles",
+        btype: "Building type",
+        bname: "Name",
+        addveh: "Add vehicle",
+        set: "Set",
+        rem: "Remove",
+        brem: "Remove planned building"
+    };
     I18n.translations.nl['lssm']['wpom'] = {
         setmarker: "Plaats markering",
         remmarker: "Verwijder markering",

@@ -72,7 +72,7 @@ let lssm = {
  */
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
-I18n.locales.nl = ['nl', 'en', 'de'];
+I18n.locales.nl = ['nl', 'en', 'fj', 'de'];
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
@@ -95,6 +95,24 @@ I18n.translations.de.lssm = {
     apps: {}
 };
 I18n.translations.en.lssm = {
+    appstore_welcome: "Welcome to the Appstore of LSS Manager",
+    appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
+        "activated individually by placing the lever on green. If there are any problems, you can join our " +
+        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> or " +
+        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "\" target=\"blank\">write a message in the forum</a>.",
+    back_lss: "Back to missionchief",
+    settings: "Settings",
+    saving: "Saving...",
+    save: "Save",
+    activated: "Following Modules have been activated:",
+    cantactivate: "can't be activated as it's incompatible with the following modul(es):",
+    cantload: "<h2>LSS-Manager could not be loaded</h2>Please contact a member of the development team.",
+    login: "Please log in first",
+    mapkit: "This module doesn't support Mapkit",
+    apps: {}
+};
+I18n.translations.fj.lssm = {
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
         "activated individually by placing the lever on green. If there are any problems, you can join our " +
@@ -137,12 +155,14 @@ lssm.Module = {
         name: {
             de: 'Keyboard Alarmierung',
             en: 'Callview control',
+            fj: 'Callview control',
             nl: 'Besturing met toetsenbord'
         },
         active: false,
         description: {
             de: 'Einsatzmaske mit Tastatur steuern.',
             en: 'Control the mission view with the keyboard.',
+            fj: 'Control the mission view with the keyboard.',
             nl: 'Bestuur het meldingscherm met het toetsenbord.'
         },
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
@@ -171,6 +191,8 @@ lssm.Module = {
                 'Fensters im Menu.',
             en: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge ' +
                 'is telling you how many missions etc. you have since your last visit within that window.',
+            fj: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge ' +
+                'is telling you how many missions etc. you have since your last visit within that window.',
             nl: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
                 'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
                 'meldingen voor je bij.'
@@ -187,6 +209,7 @@ lssm.Module = {
             de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & ' +
                 'Funksprüche.',
             en: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
+            fj: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
             nl: 'Design met een grote kaart bovenaan je scherm. onder de kaart zijn de vier overige schermen; ' +
                 'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
         },
@@ -202,6 +225,7 @@ lssm.Module = {
         description: {
             de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
             en: 'Layout without map. The four windows are using 100% of the given browser height.',
+            fj: 'Layout without map. The four windows are using 100% of the given browser height.',
             nl: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
@@ -217,6 +241,8 @@ lssm.Module = {
                 'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
             en: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. ' +
                 'Below that the buildings, chat and radio.',
+            fj: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. ' +
+                'Below that the buildings, chat and radio.',
             nl: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht ' +
                 'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
@@ -227,6 +253,7 @@ lssm.Module = {
         name: {
             de: 'NEF Nachforderung per FMS',
             en: 'HEMS request in radio',
+            fj: 'HEMS request in radio',
             nl: 'Spraakaanvraag voor MMT'
         },
         active: false,
@@ -248,6 +275,8 @@ lssm.Module = {
             de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
                 'each one.',
+            fj: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
+                'each one.',
             nl: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -257,12 +286,14 @@ lssm.Module = {
         name: {
             de: 'Eigene VGE speichern',
             en: 'Save created alliance calls',
+            fj: 'Save created alliance calls',
             nl: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
         description: {
             de: 'Funktion um selbst erstellte VGE zu speichern.',
             en: 'Enables a function to save own created mission calls to use them as template.',
+            fj: 'Enables a function to save own created mission calls to use them as template.',
             nl: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
@@ -277,7 +308,8 @@ lssm.Module = {
         inframe: false,
         description: {
             de: 'Informiert immer über die Neusten Updates im LSSM',
-            en: 'Provides information about the latest updates in LSSM'
+            en: 'Provides information about the latest updates in LSSM',
+            fj: 'Provides information about the latest updates in LSSM'
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
         develop: false
@@ -307,6 +339,7 @@ lssm.Module = {
             de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. ' +
                 '(ChatPoput included)',
             en: 'HTML5 Chatnotifications using the browser notificationsystem.',
+            fj: 'HTML5 Chatnotifications using the browser notificationsystem.',
             nl: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit ' +
                 'meer een chat of melding hoeft te missen.'
         },
@@ -321,6 +354,7 @@ lssm.Module = {
         description: {
             de: 'Neues Design für die Oberfläche',
             en: 'New design for the game.',
+            fj: 'New design for the game.',
             nl: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
@@ -330,6 +364,7 @@ lssm.Module = {
         name: {
             de: 'Markiert Eventeinsätze',
             en: 'Marked events',
+            fj: 'Marked events',
             nl: 'Merken gebeurtenissen'
         },
         active: false,
@@ -337,6 +372,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
             en: 'Displays the current events with capitalized LINE!',
+            fj: 'Displays the current events with capitalized LINE!',
             nl: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
         },
         source: '/modules/lss-eventmissions/eventmission.user.js',
@@ -346,12 +382,14 @@ lssm.Module = {
         name: {
             de: 'Zielort Filter',
             en: 'Destination filter',
+            fj: 'Destination filter',
             nl: 'Bestemming Filter'
         },
         active: false,
         description: {
             de: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
             en: 'Allows you to hide busy or inappropriate destinations for speech requests',
+            fj: 'Allows you to hide busy or inappropriate destinations for speech requests',
             nl: 'Hiermee kunt u drukke of ongeschikte bestemmingen voor spraakverzoeken verbergen.'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
@@ -361,12 +399,14 @@ lssm.Module = {
         name: {
             de: 'FMS 5 in der Karte',
             en: 'Request transport in map',
+            fj: 'Request transport in map',
             nl: 'Spraakaanvragen op de kaart weergeven.'
         },
         active: false,
         description: {
             de: 'Zeigt alle FMS 5 in der Karte an.',
             en: 'Shows request transports within the map lower left corner.',
+            fj: 'Shows request transports within the map lower left corner.',
             nl: 'Toont alle spraakaanvragen op de kaart.'
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
@@ -382,6 +422,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt eine Uhr in der Karte an.',
             en: 'Enables a small clock within the map.',
+            fj: 'Enables a small clock within the map.',
             nl: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
@@ -391,6 +432,7 @@ lssm.Module = {
         name: {
             de: 'Wachenplanung auf der Karte',
             en: 'Station management on map',
+            fj: 'Station management on map',
             nl: 'Gebouwplanning op de kaart.'
         },
         active: false,
@@ -398,6 +440,8 @@ lssm.Module = {
             de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die ' +
                 'Gebäude sind wählbar.',
             en: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for ' +
+                'specific buildings.',
+            fj: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for ' +
                 'specific buildings.',
             nl: 'Toont cirkels met een zelf in te stellen radius rondom gebouwen. Je kunt ook filteren op specifieke ' +
                 'gebouwen.'
@@ -411,12 +455,14 @@ lssm.Module = {
         name: {
             de: 'Einsätze freigeben',
             en: 'Mission share',
+            fj: 'Mission share',
             nl: 'Meldingen vrijgeven'
         },
         active: false,
         description: {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en: 'Instantly share missions without opening the call by clicking a button in the overview.',
+            fj: 'Instantly share missions without opening the call by clicking a button in the overview.',
             nl: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in ' +
                 'de meldingenlijst.'
         },
@@ -427,12 +473,15 @@ lssm.Module = {
         name: {
             de: 'Einsätze suchen',
             en: 'Mission search',
+            fj: 'Mission search',
             nl: 'Meldingen doorzoeken'
         },
         active: false,
         description: {
             de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
             en: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
+                'quickly.',
+            fj: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
                 'quickly.',
             nl: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat ' +
                 'je snel door je meldingen bladeren.'
@@ -457,12 +506,14 @@ lssm.Module = {
         name: {
             de: 'Wachen Status',
             en: 'Station status',
+            fj: 'Station status',
             nl: 'Voertuigstatus bij gebouwen'
         },
         active: false,
         description: {
             de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en: 'Shows the code of vehciles on station hover on the map.',
+            fj: 'Shows the code of vehciles on station hover on the map.',
             nl: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
@@ -472,12 +523,14 @@ lssm.Module = {
         name: {
             de: 'Fahrzeuge umbenennen',
             en: 'Rename vehicle',
+            fj: 'Rename vehicle',
             nl: 'Voertuigen herbenoemen'
         },
         active: false,
         description: {
             de: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
             en: 'Rename vehicles in bulk using tags.',
+            fj: 'Rename vehicles in bulk using tags.',
             nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
                 'behulp van tags.'
         },
@@ -491,12 +544,14 @@ lssm.Module = {
         name: {
             de: 'Telemetrie',
             en: 'Telemetry',
+            fj: 'Telemetry',
             nl: 'Telemetrie'
         },
         active: true,
         description: {
             de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
             en: 'Sends data to the developer team for the purpose of creating a statistic',
+            fj: 'Sends data to the developer team for the purpose of creating a statistic',
             nl: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
         },
         source: '/modules/telemetry/telemetry.user.js',
@@ -520,6 +575,7 @@ lssm.Module = {
         name: {
             de: 'show Back Alarm Above',
             en: 'show Back Alarm Above',
+            fj: 'show Back Alarm Above',
             nl: 'Extra annuleerknop'
         },
         active: false,
@@ -536,6 +592,7 @@ lssm.Module = {
         name: {
             de: 'AAO-Suche',
             en: 'AAO-Search',
+            fj: 'AAO-Search',
             nl: 'AUR-zoekfuncties'
         },
         active: false,
@@ -557,6 +614,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
+            fj: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
             nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
                 'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
@@ -576,6 +634,7 @@ lssm.Module = {
         description: {
             de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
             en: 'Centers the map on page load and on click. Just as you prefer.',
+            fj: 'Centers the map on page load and on click. Just as you prefer.',
             nl: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
@@ -587,12 +646,14 @@ lssm.Module = {
         name: {
             de: 'Einsatzhelfer',
             en: 'Missionhelper',
+            fj: 'Missionhelper',
             nl: 'Meldinghelper'
         },
         active: false,
         description: {
             de: 'Zeigt benötigte Fahrzeuge an!.',
             en: 'Shows required vehicles in mission mask.',
+            fj: 'Shows required vehicles in mission mask.',
             nl: 'Toont de benodigde voertuigen in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
@@ -604,12 +665,14 @@ lssm.Module = {
         name: {
             de: 'Verbesserte Status 5',
             en: 'Enhanced transport requests',
+            fj: 'Enhanced transport requests',
             nl: 'Verbeterde spraakaanvragen'
         },
         active: false,
         description: {
             de: 'Schnellere Abarbeitung von Status 5 Meldungen.',
             en: 'Faster processing of transport requests.',
+            fj: 'Faster processing of transport requests.',
             nl: 'Sneller verwerken van spraakaanvragen.'
         },
         source: '/modules/lss-statusDispatching/statusDispatching.user.js',
@@ -623,12 +686,14 @@ lssm.Module = {
     managedSettings: {
         name: {
             de: 'Einstellungen',
-            en: 'Settings'
+            en: 'Settings',
+            fj: 'Settings'
         },
         active: true,
         description: {
             de: 'Globale Einstellungen',
-            en: 'Global Settings'
+            en: 'Global Settings',
+            fj: 'Global Settings'
         },
         source: '/modules/lss-managedsettings/ManagedSettings.user.js',
         noapp: true, // Nicht im App-Store auflisten
@@ -639,6 +704,7 @@ lssm.Module = {
         name: {
             de: 'Einsatzstichworte',
             en: 'Mission Keywords',
+            fj: 'Mission Keywords',
             nl: 'Steekwoorden bij meldingen'
         },
         active: false,
@@ -646,6 +712,7 @@ lssm.Module = {
             de: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen ' +
                 'für Bayern.',
             en: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
+            fj: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
             nl: 'Toont steekwoorden bij de meldingen. Deze steekwoorden zijn grotendeels gebaseerd op de ' +
                 'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
         },
@@ -658,12 +725,14 @@ lssm.Module = {
         name: {
             de: 'Meldedatum für Einsätze',
             en: 'Mission Date',
+            fj: 'Mission Date',
             nl: 'Begintijd melding weergeven'
         },
         active: false,
         description: {
             de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
             en: 'Shows the date when the mission was generated and the hours/minutes since then',
+            fj: 'Shows the date when the mission was generated and the hours/minutes since then',
             nl: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er ' +
                 'verstreken is sinds de melding binnenkwam.'
         },
@@ -676,12 +745,14 @@ lssm.Module = {
         name: {
             de: 'Icon Gebäude Filter',
             en: 'Icon building filter',
+            fj: 'Icon building filter',
             nl: 'REDESIGN FILTERKNOPPEN GEBOUWEN'
         },
         active: false,
         description: {
             de: 'Tauscht den Gebäude Filter mit Icons aus.',
             en: 'Replaces the building filter with icons.',
+            fj: 'Replaces the building filter with icons.',
             nl: 'Vervangt de gebouwfilter met nieuwe iconen.'
         },
         source: '/modules/lss-iconFilter/iconFilter.user.js',
@@ -693,6 +764,7 @@ lssm.Module = {
         name: {
             de: 'Summe für die tägliche Zusammenfassung',
             en: 'Sum for daily stats',
+            fj: 'Sum for daily stats',
             nl: 'Totaalweergave in dagsamenvatting'
         },
         active: false,
@@ -700,6 +772,7 @@ lssm.Module = {
             de: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der ' +
                 'täglichen Zusammenfassung an.',
             en: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
+            fj: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
             nl: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
         },
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
@@ -711,12 +784,14 @@ lssm.Module = {
         name: {
             de: 'AAO-Klick-Zähler',
             en: 'Alarm-Regulations-Counter',
+            fj: 'Alarm-Regulations-Counter',
             nl: 'AUR-Klik-Teller'
         },
         active: false,
         description: {
             de: 'Zählt die Klicks auf einen AAO-Button',
             en: 'Counts the clicks on an alarm-regulations-button',
+            fj: 'Counts the clicks on an alarm-regulations-button',
             nl: 'Telt het aantal keer dat een AUR aangeklikt is.'
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
@@ -727,12 +802,14 @@ lssm.Module = {
         name: {
             de: 'Creditserweiterung',
             en: 'Credit expansion',
+            fj: 'Credit expansion',
             nl: 'Credits-uitbreiding'
         },
         active: false,
         description: {
             de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
             en: 'Add some special information about the credits in a drop-down list',
+            fj: 'Add some special information about the credits in a drop-down list',
             nl: 'Voegt wat speciale informatie over de credits toe in een vervolgkeuzelijst'
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
@@ -749,6 +826,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt die eigene ID in der Kopfzeile an',
             en: 'shows your ID in the header',
+            fj: 'shows your ID in the header',
             nl: 'Geeft uw eigen ID in de kopregel weer'
         },
         source: '/modules/lss-userid/lss-userId.user.js',
@@ -765,6 +843,7 @@ lssm.Module = {
         description: {
             de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
             en: 'Displays the Chat History button in the chat header.',
+            fj: 'Displays the Chat History button in the chat header.',
             nl: 'Toont de chatgeschiedenisknop  in de chatheader.'
         },
         source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
@@ -788,12 +867,14 @@ lssm.Module = {
         name: {
             de: "Verbandsverwaltung",
             en: "Alliance-extension",
+            fj: "Alliance-extension",
             nl: "Team-uitbreiding"
         },
         active: false,
         description: {
             de: "Verbandsübersicht auf einen Blick im Hauptfenster",
             en: "Alliance overview at a glance in the main window",
+            fj: "Alliance overview at a glance in the main window",
             nl: "Teamoverzicht in een oogopslag in het hoofdvenster"
         },
         source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
@@ -804,12 +885,14 @@ lssm.Module = {
         name: {
             de: "Übersicht",
             en: "overview",
+            fj: "overview",
             nl: "overzicht"
         },
         active: false,
         description: {
             de: "Übersicht über alle Fahrzeuge, später auch Wachen.",
             en: "Overview of all vehicles, later also buildings",
+            fj: "Overview of all vehicles, later also buildings",
             nl: "Overzicht van alle voertuigen, later ook gebouwen."
         },
         source: "/modules/lss-overview/overview.js",
@@ -820,12 +903,14 @@ lssm.Module = {
         name: {
             de: "Erweiterte Gebäudeansicht",
             en: "Extended building view",
+            fj: "Extended building view",
             nl: "Uitgebreide bouwweergave"
         },
         active: false,
         description: {
             de: "Übersicht über Ausbauten und Personalbedarf",
             en: "Overview of extensions and personnel requirements",
+            fj: "Overview of extensions and personnel requirements",
             nl: "Overzicht van uitbreidingen en personeelsvereisten"
         },
         source: "/modules/lss-extendedBuilding/extendedBuilding.js",
@@ -835,12 +920,14 @@ lssm.Module = {
         name: {
             de: "Status-Zähler",
             en: "Status Counter",
+            fj: "Status Counter",
             nl: "Statusteller"
         },
         active: false,
         description: {
             de: "Gibt die Zahl der einzelnen Status aus.",
             en: "Displays the number of individual statuses.",
+            fj: "Displays the number of individual statuses.",
             nl: "Geeft het aantal van ten individuele statussen."
         },
         source: "/modules/lss-statuscount/statuscount.js",

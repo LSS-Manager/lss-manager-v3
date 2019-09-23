@@ -52,6 +52,20 @@ if(I18n.locale == "en")
         "29": ["EMS Chief", 1]
     };
 }
+else if (I18n.locale == "fj")
+{
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+
+        // Pol-Erweiterungen (10-19)
+
+        // Schule-Erweiterungen (20-29)
+    };
+    lssm.carsById = {
+        "0": ["", 0],
+        "1": ["", 0]
+    };
+}
 else if (I18n.locale == "nl")
 {
 	lssm.extensions = {

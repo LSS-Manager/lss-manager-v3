@@ -33,6 +33,21 @@
             set: "Save current position"
         }
     };
+    I18n.translations.fj.lssm.centermap = {
+        center: "Center",
+        settings: {
+            title: "Center-Map",
+            choose: "Please select",
+            option1: "Default",
+            option1desc: "Default zoom level and centering on control center ",
+            option2: "Dynamic",
+            alliance: "Take alliance into account",
+            option2desc: "Center map that all missions and stations are visible.",
+            option3: "Custom",
+            option3desc: "Set custom position and zoom-level.",
+            set: "Save current position"
+        }
+    };
     I18n.translations.nl.lssm.centermap = {
         center: "Centreren",
         settings: {
