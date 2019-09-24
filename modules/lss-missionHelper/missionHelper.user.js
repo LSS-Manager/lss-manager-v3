@@ -427,7 +427,8 @@ const lssm_missionhelper_adjustPosition = () => {
             wateraanhanger: "Waterongevallenaanhangers",
             hond: "Hondengeleider",
             crashtender: "Crashtender",
-            afoosc: "AFO/OSC"
+            afoosc: "AFO/OSC",
+            ovdg: "OvD-Geneeskunde"
         },
         pois: [
             "Park",
@@ -744,6 +745,7 @@ const lssm_missionhelper_adjustPosition = () => {
               I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
               I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
               I18n.locale === 'en' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
+              I18n.locale === 'nl' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
               content.innerHTML += '<br>';
           }
 
