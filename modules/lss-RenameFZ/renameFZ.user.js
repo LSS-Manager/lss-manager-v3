@@ -282,7 +282,7 @@
                 6: "Police Station",
                 7: "Dispatch Center",
                 18: "Fire Station (Small)",
-                19: "Police Station (Small station)"
+                19: "Police Station (Small station)",
                 20: "Ambulance station (Small station)"
             },
             vehicleTypes: {
@@ -290,12 +290,12 @@
                 1: 'Tactical Response Vehicle (TRV)',
                 2: 'Turntable Ladder (TL)',
                 3: 'Command unit',
-                4: 'Major Rescue Unit (MRU)'
+                4: 'Major Rescue Unit (MRU)',
                 5: 'Ambulance',
                 6: 'Water Carrier',
                 7: 'HazMat Unit',
                 8: 'Incident response vehicle (IRV)',
-                9: "SAR helicopter"
+                9: 'SAR helicopter'
             }
         }
     };

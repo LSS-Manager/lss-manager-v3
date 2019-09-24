@@ -56,14 +56,26 @@ else if (I18n.locale == "fj")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
-
+        "Ambulance extension": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
         // Pol-Erweiterungen (10-19)
-
+        "Prison cell": 10,
+        "More cell": 10,
         // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["", 0],
-        "1": ["", 0]
+        "0": ["Rescue Ladder", 0],
+        "1": ["Tactical Response Vehicle (TRV)", 0],
+        "2": ["Turntable Ladder (TL)", 0],
+        "3": ["Command unit", 0],
+        "4": ["Major Rescue Unit (MRU)", 0],
+        "5": ["Ambulance", 2],
+        "6": ["Water Carrier", 0],
+        "7": ["HazMat Unit", 0],
+        "8": ["Incident response vehicle (IRV)", 6],
+        "9": ["SAR helicopter", 2]
     };
 }
 else if (I18n.locale == "nl")

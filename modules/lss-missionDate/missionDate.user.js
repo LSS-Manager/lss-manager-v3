@@ -74,6 +74,12 @@
         let newOffset = 5 - offset;
       newHour -= newOffset;
     }
+    if (I18n.locale === 'fj') {
+        let offset = today.getTimezoneOffset() / 60;
+      // Zahl 1, weil EST UTC+1 ist
+        let newOffset = 1 - offset;
+      newHour -= newOffset;
+    }
 
     if (newHour > 0) {
       timeGone += String.format(' {0} h', newHour);

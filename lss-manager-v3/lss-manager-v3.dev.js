@@ -72,7 +72,7 @@ let lssm = {
  */
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
-I18n.locales.nl = ['nl', 'en', 'fj', 'de'];
+I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
