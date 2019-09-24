@@ -25,8 +25,8 @@ jQuery.expr[':'].containsci = function (a, i, m) {
 let lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
-        server: "https://lssm.ledbrain.de/lss-manager-v3", // Domain wo alles liegt
-        stats_uri: "https://lssm.ledbrain.de/lss-manager-v3/stat.php",
+        server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
+        stats_uri: "https://proxy.lss-manager.de/v3/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         key_link: "/profile/external_secret_key/", // Domain wo alles liegt
         version: "3.3.5",
@@ -75,7 +75,7 @@ I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
-    version: "Beta",
+    version: "KBOE2-Entwicklung",
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
