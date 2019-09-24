@@ -75,7 +75,7 @@ I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
-    version: "KBOE2-Entwicklung",
+    version: "Beta",
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
