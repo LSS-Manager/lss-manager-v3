@@ -511,8 +511,10 @@
 
     if (SETTINGS.vehicleType && document.querySelector('#vehicle_table, #map')) {
         if(document.querySelector('#map')) {
+            let injected = false;
             document.querySelector('#tab_vehicle').addEventListener('DOMNodeInserted', e => {
-                if (e.target.tagName !== "SCRIPT") return;
+                if (e.target.tagName !== "SCRIPT" || injected) return;
+                injected = true;
                 apply_types();
             });
         } else {
