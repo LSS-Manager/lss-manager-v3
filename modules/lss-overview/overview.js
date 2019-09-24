@@ -89,8 +89,8 @@
             maxlevel: 16,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
             startPersonell: 10,
-            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 20.000 mehr).',
-            extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>6*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 20.000 mehr).',
+            extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>9*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
@@ -101,7 +101,7 @@
             maxlevel: 5,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
             startPersonell: 9,
-            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20 (dann Baukosten 15.000 mehr).',
+            startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
             maxBuildings: '1.850',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
@@ -125,6 +125,17 @@
             maxlevel: 14,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
+            startVehicle: 'RTW',
+            extensions: 'Keine Ausbauten möglich',
+            maxBuildings: 'Keine Grenze'
+        },
+        rwklein: {
+            name: 'Rettungswache (Kleinwache)',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
+            startPersonell: 3,
             startVehicle: 'RTW',
             extensions: 'Keine Ausbauten möglich',
             maxBuildings: 'Keine Grenze'
@@ -157,13 +168,13 @@
             name: 'Rettungshubschrauber-Station',
             credits: 1000000,
             coins: 50,
-            maxlevel: 4,
+            maxlevel: 6,
             levelcost: 'jeweils 1.000.000 Credits/50 Coins',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
             maxBuildings: 'siehe Besonderheiten',
             extensions: 'Keine Ausbauten möglich',
-            special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
+            special: 'Pro Station können bis zu 7 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         seg: {
             name: 'Schnelleinsatzgruppe (SEG)',
@@ -188,6 +199,18 @@
             maxBuildings: 'Keine Grenze',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
+        polklein: {
+            name: 'Polizeiwache (Kleinwache)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 4,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000<br>Umbau zur Normalen Wache: Differenz-Preis zur Normalen Wache',
+            startPersonell: 2,
+            startVehicle: 'FuStW',
+            extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
+            maxBuildings: 'Keine Grenze',
+            special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
+        },
         polschule: {
             name: 'Polizeisschule',
             credits: 500000,
@@ -204,13 +227,13 @@
             name: 'Polizeihubschrauber-Station',
             credits: 1000000,
             coins: 50,
-            maxlevel: 4,
+            maxlevel: 6,
             levelcost: 'jeweils 1.000.000 Credits/50 Coins',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
             maxBuildings: 'siehe Besonderheiten',
             extensions: 'Keine Ausbauten möglich',
-            special: 'Pro Station können bis zu 4 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
+            special: 'Pro Station können bis zu 7 Landeplätze gebaut werden (Ausbaustufen). Bis zum 125. Gebäude (aller Art) können insgesamt max. 4 Landeplätze gebaut werden. Danach wächst die Zahl alle 25 Geäude um 1 (Beginnend beim 125.).'
         },
         bpol: {
             name: 'Bereitschaftspolizei',
@@ -623,6 +646,14 @@
                 coins: 12,
                 special: 'Dient als Ersatz eines GW-Öl. Muss von einem WLF zum Einsatz gebracht werden.'
             },
+            absw: {
+                name: 'AB-Schlauch',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Dient als Ersatz eines Schlauchwagens. Muss von einem WLF zum Einsatz gebracht werden.'
+            },
             dekonp: {
                 name: 'Dekon-P',
                 min: 1,
@@ -790,7 +821,8 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Modus 1: Keine<br>Modus 2: Notarzt (mind. 1 Person)',
-                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.'
+                special: 'Der GRTW kann in zwei verschiedenen Modi alarmiert werden:<br>1.Für leichtverletzte Personen, die keinen Notarzt benötigen. Dann können in dem GRTW 7 Patienten gleichzeitig behandelt und abtransportiert werden.<br>2.Für schwerverletzte Personen, die einen Notarzt benötigen. Dann können in dem GRTW 3 Patienten gleichzeitig behandelt werden.' +
+                    '<br>Pro 20 Rettungswachen (bzw. 15 Rettungswachen mit Premium Account) kann ein GRTW gekauft werden. '
             }
         },
         pol: {
@@ -893,7 +925,7 @@
                 coins: 25
             },
             mzkw: {
-                name: 'MzKw',
+                name: 'MzKW',
                 min: 1,
                 max: 9,
                 credits: 15000,
@@ -908,7 +940,7 @@
                 schooling: 'Zugtrupp'
             },
             lkwk9: {
-                name: 'LKW K9',
+                name: 'LKW K 9',
                 min: 1,
                 max: 3,
                 credits: 15000,
@@ -929,7 +961,7 @@
                 max: 0,
                 credits: 15000,
                 coins: 25,
-                special: 'Muss von einem GKW, MzKw, MTW-TZ oder MLW 5 zum Einsatz gezogen werden.'
+                special: 'Muss von einem GKW, MzKW, MTW-TZ oder MLW 5 zum Einsatz gezogen werden.'
             },
             mlw5: {
                 name: 'MLW 5',
@@ -940,7 +972,7 @@
                 schooling: 'Fachgruppe Räumen'
             },
             lkw7: {
-                name: 'LKW 7Lkr 19tm',
+                name: 'LKW 7 Lkr 19tm',
                 min: 1,
                 max: 2,
                 credits: 10000,
@@ -959,7 +991,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             },
             mzab: {
                 name: 'Anh MzAB',
@@ -967,7 +999,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             },
             schlb: {
                 name: 'Anh SchlB',
@@ -975,7 +1007,7 @@
                 max: 0,
                 credits: 6000,
                 coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7Lkr 19tm zum Einsatz gebracht werden.'
+                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss vom LKW 7 Lkr 19tm zum Einsatz gebracht werden.'
             }
         },
         wr: {
@@ -995,15 +1027,7 @@
                 schooling: 'Taucher'
             },
             mzb: {
-                name: 'Anh MzB',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Pro Boot müssen 4 Leute mit Wasserrettungs-Ausbildung (Organisation egal) vor Ort sein.<br>Muss von einem GW-Wasserrettung oder GW-Taucher zum Einsatz gebracht werden.'
-            },
-            schlb: {
-                name: 'Anh SchlB',
+                name: 'MzB',
                 min: 0,
                 max: 0,
                 credits: 6000,
@@ -1062,7 +1086,7 @@
                 credits: 10000,
                 coins: 25,
                 schooling: 'SEG-GW-SAN',
-                special: 'Pro GW-San können 5 KTW-B wie ein RTW arbeiten. Er behandelt die Patienten zwar größtenteils, aber für die letzten paar Prozente braucht man dann einen RTW, KTW-B oder ähnliches'
+                special: 'Pro GW-San können 5 KTW Typ B wie ein RTW arbeiten. Er behandelt die Patienten zwar größtenteils, aber für die letzten paar Prozente braucht man dann einen RTW, KTW Typ B oder ähnliches'
             }
         }
     };
@@ -1133,6 +1157,17 @@
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
+        rwklein : {
+            name: 'Ambulance station (Small station)',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 6,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
+            startPersonell: 3,
+            startVehicle: 'ALS Ambulance',
+            extensions: 'No extensions possible',
+            maxBuildings: 'No Limit'
+        },
         kh: {
             name: 'Hospital',
             credits: 200000,
@@ -1177,6 +1212,16 @@
             startPersonell: 2,
             startVehicle: 'Patrol Car',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
+            maxBuildings: 'No Limit',
+        },
+        polklein: {
+            name: 'Police Station (small station)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 4,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
+            startPersonell: 2,
+            startVehicle: 'Patrol Car',
             maxBuildings: 'No Limit',
         },
         polschule: {
@@ -1503,7 +1548,7 @@
             special: 'Het controlecentrum is het administratief centrum.'
         },
         fw: {
-            name: 'Brandweerpost',
+            name: 'Brandweer, Kazerne',
             credits: 100000,
             coins: 30,
             maxlevel: 16,
@@ -1515,7 +1560,7 @@
             special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
         },
         fwschule: {
-            name: 'Brandweeracademie',
+            name: 'Brandweer, Academie',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
@@ -1527,12 +1572,23 @@
             special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
         },
         rw: {
-            name: 'Ambulance standplaats',
+            name: 'Ambulance, standplaats',
             credits: 200000,
             coins: 35,
             maxlevel: 14,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
+            startVehicle: 'Ambulance',
+            extensions: 'Geen uitbreidingen mogelijk',
+            maxBuildings: 'Geen limiet'
+        },
+        rwklein: {
+            name: 'Ambulance, VWS-post',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 2,
+            levelcost: '1. 10.000',
+            startPersonell: 3,
             startVehicle: 'Ambulance',
             extensions: 'Geen uitbreidingen mogelijk',
             maxBuildings: 'Geen limiet'
@@ -1574,7 +1630,7 @@
             special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         pol: {
-            name: 'Politiebureau',
+            name: 'Politie, Opkomstbureau',
             credits: 100000,
             coins: 35,
             maxlevel: 14,
@@ -1585,7 +1641,7 @@
             maxBuildings: 'No Limit',
         },
         polschule: {
-            name: 'Politieacademie',
+            name: 'Politie, Academie',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
@@ -1609,7 +1665,7 @@
             special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         psonder: {
-            name: 'Hoofdbureau Politie',
+            name: 'Politie, Hoofdbureau',
             credits: 400000,
             coins: 40,
             maxlevel: 0,
@@ -2018,13 +2074,14 @@
 
         $('.overviewCategory:not(:first)').hide();
 
-        $('#' + prefix + '_vehicles').append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>');
-        $('#' + prefix + '_vehicles').append('<div class="tab-content" id="vehicleContent"></div>');
+        $('#' + prefix + '_vehicles')
+            .append('<ul class="nav nav-tabs" id="vehicleTabs" role="tablist"></ul>')
+            .append('<div class="tab-content" id="vehicleContent"></div>');
 
         for (let hiorg in I18n.t('lssm.overview.hiorgs')) {
             $('#vehicleTabs').append('<li role="presentation"><a class="nav-link" id="' + hiorg + '-tab" data-toggle="tab" href="#' + hiorg + '" role="tab" aria-controls="' + hiorg + '" aria-selected="false">' + I18n.t('lssm.overview.hiorgs')[hiorg] + '</a></li>');
 
-            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length == 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
+            $('#vehicleContent').append('<div class="tab-pane' + ($('.tab-pane').length === 0 ? ' show active' : '') + '" id="' + hiorg + '" role="tabpanel"></div>');
 
             $('#' + hiorg).append('<input type="text" class="search_input_field pull-right" id="search_' + hiorg + '">');
 
@@ -2053,13 +2110,14 @@
         }
 
         $('#vehicleTabs li a.nav-link').click(function () {
-            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('show');
-            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']').removeClass('active');
+            $('#vehicleContent .tab-pane[id!=' + $(this).attr('href').replace('#', '') + ']')
+                .removeClass('show')
+                .removeClass('active');
         });
 
-        $('#' + prefix + '_buildings').append('<input type="text" class="search_input_field pull-right" id="search_building">');
-
-        $('#' + prefix + '_buildings').append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
+        $('#' + prefix + '_buildings')
+            .append('<input type="text" class="search_input_field pull-right" id="search_building">')
+            .append('<table id="table-buildings" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.buildingType') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.maxlevel') + '</th><th>' + I18n.t('lssm.overview.levelcost') + '</th><th>' + I18n.t('lssm.overview.startPersonell') + '</th><th>' + I18n.t('lssm.overview.startVehicle') + '</th><th>' + I18n.t('lssm.overview.maxBuildins') + '</th><th>' + I18n.t('lssm.overview.extensions') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-buildings-body"></tbody></table>');
 
         for (let building in I18n.t('lssm.overview.buildings')) {
             building = I18n.t('lssm.overview.buildings')[building];

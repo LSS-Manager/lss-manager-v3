@@ -26,41 +26,29 @@ let lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
-        stats_uri: "https://proxy.lss-manager.de/stat.php",
+        stats_uri: "https://proxy.lss-manager.de/v3/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         key_link: "/profile/external_secret_key/", // Domain wo alles liegt
         version: "3.3.5",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
-        prefix: 'lssm'
+        prefix: 'lssm',
+        game: window.location.hostname.toLowerCase().replace("www.",""),
     },
-    loadScript: function (link) {
+    loadScript: function (link, no_cache=false) {
         try {
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
-            //$('body').append('<script src="' + this.config.server + link + uid +'" type="text/javascript"></script>');
-            $.getScript(this.config.server + link + uid);
+            $.getScript(this.getlink(link, no_cache));
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    loadStyle: function (link) {
+    loadStyle: function (link, no_cache=false) {
         try {
-            let uid = "";
-            let game = "";
-            if (typeof user_id !== "undefined") {
-                game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
-            }
-            uid = "?uid=" + game + user_id;
-            $('body').append('<link href="' + this.getlink(link) + '" rel="stylesheet" type="text/css">');
+            $('body').append('<link href="' + this.getlink(link, no_cache) + '" rel="stylesheet" type="text/css">');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    getlink: function (file) {
+    getlink: function (file, no_cache=false) {
         try {
             let uid = "";
             let game = "";
@@ -68,7 +56,7 @@ let lssm = {
                 game = window.location.hostname.toLowerCase().replace("www.", "").split(".")[0];
             }
             uid = "?uid=" + game + user_id;
-            return this.config.server + file + uid;
+            return this.config.server + file + uid + (no_cache ? `&_=${new Date().getTime()}` : '');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
@@ -92,9 +80,9 @@ I18n.translations.de.lssm = {
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
         "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
-        "kommen, kannst du uns gerne eine Nachricht schreiben oder <a href=\"" +
-        "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
-        "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+        "kommen, kannst du gerne zu uns in den <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> " +
+"kommen  oder <a href=\"https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
+"\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -109,9 +97,9 @@ I18n.translations.de.lssm = {
 I18n.translations.en.lssm = {
     appstore_welcome: "Welcome to the Appstore of LSS Manager",
     appstore_desc: "Here you will find various plugins that will enrich your playing experience. Each plugin can be " +
-        "activated individually by placing the lever on green. If there are any problems, you can write us a message or " +
-        "<a href=\"" +
-        "http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "activated individually by placing the lever on green. If there are any problems, you can join our " +
+        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> or " +
+        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
         "\" target=\"blank\">write a message in the forum</a>.",
     back_lss: "Back to missionchief",
     settings: "Settings",
@@ -127,10 +115,10 @@ I18n.translations.en.lssm = {
 I18n.translations.nl.lssm = {
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
-        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Mochten er " +
-        "problemen zijn, kunt u <a href=\"" +
-        "https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
-        "\" target=\"blank\">ons een bericht sturen of een bericht posten in ons topic op het forum.</a>.",
+        "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Als er problemen zijn, " +
+        "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a>"+
+        " of <a href=\"https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
+        "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -188,7 +176,7 @@ lssm.Module = {
                 'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
-        collisions: ['Layout02', 'Layout03', 'Layout04', 'Layout05']
+        collisions: ['Layout02', 'Layout03', 'Layout04']
     },
     Layout02: {
         name: {
@@ -204,7 +192,7 @@ lssm.Module = {
         },
         ghuser: 'lostdesign',
         source: '/modules/lss-layout-02/layout-02.user.js',
-        collisions: ['Layout01', 'Layout03', 'Layout04', 'Layout05']
+        collisions: ['Layout01', 'Layout03', 'Layout04']
     },
     Layout03: {
         name: {
@@ -217,7 +205,7 @@ lssm.Module = {
             nl: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
-        collisions: ['Layout01', 'Layout02', 'Layout04', 'Layout05', 'FMS5InMap']
+        collisions: ['Layout01', 'Layout02', 'Layout04', 'FMS5InMap']
     },
     Layout04: {
         name: {
@@ -233,20 +221,7 @@ lssm.Module = {
                 'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
         source: '/modules/lss-layout-04/layout-04.user.js',
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout05']
-    },
-    Layout05: {
-        name: {
-            de: 'Layout 05'
-        },
-        active: false,
-        description: {
-            de: 'Vollständig anpassbares Layout',
-            nl: 'Een volledig aanpasbaar design'
-        },
-        source: '/modules/lss-layout-05/layout-05.user.js',
-        develop: true,
-        collisions: ['Layout01', 'Layout02', 'Layout03', 'Layout04']
+        collisions: ['Layout01', 'Layout02', 'Layout03']
     },
     DoctorRadioCall: {
         name: {
@@ -371,14 +346,13 @@ lssm.Module = {
         name: {
             de: 'Zielort Filter',
             en: 'Destination filter',
-            nl: 'Ziekenhuis-Filter'
+            nl: 'Bestemming Filter'
         },
         active: false,
         description: {
-            de: 'Ermöglicht belegte oder ungeeignete KH auszublenden',
-            en: 'Allows hiding full or unelegible hospitals',
-            nl: 'Maakt het mogelijk om ziekenhuizen die vol zijn of niet' +
-                'de juiste afdeling hebben uit het spraakaanvraagscherm te filteren'
+            de: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
+            en: 'Allows you to hide busy or inappropriate destinations for speech requests',
+            nl: 'Hiermee kunt u drukke of ongeschikte bestemmingen voor spraakverzoeken verbergen.'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
         inframe: true
@@ -431,21 +405,7 @@ lssm.Module = {
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
         nomapkit: true,
-    },
-    tagMissions: {
-        name: {
-            de: 'Einsätze markieren',
-            en: 'Mark calls',
-            nl: 'Meldingen markeren.'
-        },
-        active: false,
-        description: {
-            de: 'Wurde ins Spiel integriert, vorerst deaktiviert.',
-            en: 'Got inplemented into the game - deactivated for now.',
-            nl: 'Zit in het spel ingebouwd - momenteel gedeactiveerd.'
-        },
-        source: '/modules/lss-tagMissions/tagMissions.user.js',
-        develop: true
+        supportedLocales: ['de']
     },
     allianceMissionlistShare: {
         name: {
@@ -510,13 +470,13 @@ lssm.Module = {
     },
     RenameFZ: {
         name: {
-            de: 'Fahrzeuge umbennenen',
+            de: 'Fahrzeuge umbenennen',
             en: 'Rename vehicle',
             nl: 'Voertuigen herbenoemen'
         },
         active: false,
         description: {
-            de: 'Fahrzeuge in bulk mit Tags umbennenen.',
+            de: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
             en: 'Rename vehicles in bulk using tags.',
             nl: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
                 'behulp van tags.'
@@ -587,22 +547,24 @@ lssm.Module = {
         inframe: true,
         develop: false
     },
-    recolor: {
+    heatmap: {
         name: {
-            de: 'Einfärben',
-            en: 'Colorize',
-            nl: 'Hoofdkleur veranderen'
+            de: 'LS-Heatmap',
+            en: 'LS-Heatmap',
+            nl: 'Voertuigspreiding weergeven'
         },
         active: false,
         description: {
-            de: 'Ändere die Farbe des Leitstellenspiels. THIS FUNCTION IS WORK IN PROGRESS',
-            en: 'Change the color of Missionchief.  THIS FUNCTION IS WORK IN PROGRESS',
-            nl: 'Verander de kleur van meldkamerspel. DEZE FUNCTIE IS NOG IN AANBOUW.'
+            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
+            en: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
+            nl: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
+                'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
-        source: '/modules/lss-recolor/recolor.user.js',
+        source: '/modules/lss-heatmap/LSHeatmap.user.js',
         noapp: false, // Nicht im App-Store auflisten
-        inframe: true,
-        develop: true
+        inframe: false,
+        collisions: ['Layout03', 'WachenplanungOnMap'],
+        nomapkit: true,
     },
     centermap: {
         name: {
@@ -1154,7 +1116,7 @@ lssm.settings = {
     // Remove a config value from localstorage
     remove: function (key) {
         "use strict";
-        localStorage.removeItem(key);
+        localStorage.removeItem(`${lssm.config.prefix}_${key}`);
     }
 };
 

@@ -166,8 +166,10 @@
             activateSearch();
         }
     });
+    
     $("#lssm_aao_reset").on("click", function(){
         "use strict";
         vehicleSelectionReset();
     });
+    
 })($, I18n);

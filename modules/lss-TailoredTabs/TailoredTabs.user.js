@@ -30,16 +30,24 @@
                     "description": 'Werkfeuerwehr in eigenen Tab'
                 }
             },
+            "heli": {
+                "default": false,
+                "ui": {
+                    "label": 'Helikopter',
+                    "type": "toggle",
+                    "description": 'RTH und Polizeihelikopter in eigenen Tab'
+                }
+            },
             "nas": {
                 "default": false,
                 "ui": {
                     "label": 'Notärzte',
                     "type": "toggle",
-                    "description": 'NEF/NAWs und RTHs in eigenem Tab'
+                    "description": 'NEF/NAWs und RTHs in eigenen Tab'
                 }
             },
             "lna": {
-                "default": true,
+                "default": false,
                 "ui": {
                     "label": 'LNA hinzufügen',
                     "type": "checkbox",
@@ -47,7 +55,7 @@
                 }
             },
             "orgl": {
-                "default": true,
+                "default": false,
                 "ui": {
                     "label": 'OrgL hinzufügen',
                     "type": "checkbox",
@@ -79,7 +87,7 @@
                 }
             },
             "segktw": {
-                "default": true,
+                "default": false,
                 "ui": {
                     "label": 'KTWs der SEG hinzufügen',
                     "type": "checkbox",
@@ -155,14 +163,21 @@
         }
         sections.push(naSection);
     }
-
     if (getSetting('seg') && !isKtwMode) {
         let segSection = {
             name: 'SEG',
             short: 'seg',
-            vehicles: [59, 60]
+            vehicles: [58, 59, 60]
         };
         sections.push(segSection);
+    }
+    if (getSetting('heli') && !isKtwMode) {
+        let heliSection = {
+            name: 'Helikopter',
+            short: 'heli',
+            vehicles: [61, 31]
+        };
+        sections.push(heliSection);
     }
 
     // Yes, I know... Excluding the tab in KTW mode does not really make sense.
