@@ -26,7 +26,7 @@ let lssm = {
     config: {
         //server: "https://localhost/lss-manager-v3",
         server: "https://lss-manager.de/lss-entwicklung", // Domain wo alles liegt
-        stats_uri: "https://proxy.lss-manager.de/stat.php",
+        stats_uri: "https://proxy.lss-manager.de/v3/stat.php",
         forum_link: "https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/",
         key_link: "/profile/external_secret_key/", // Domain wo alles liegt
         version: "3.3.5",

@@ -77,10 +77,9 @@
                 data.bui = lssm.buildings.length;
                 data.version = lssm.config.version;
                 data.mods = getModules();
-                let game = window.location.hostname;
                 data = JSON.stringify(data);
                 $.post(lssm.config.stats_uri, {
-                    uid: user_id, key: lssm.key, game: game, uname: name, data: data
+                    uid: user_id, key: lssm.key, game: lssm.config.game, uname: name, data: data
                 });
             } catch (e) {
                 lssm.key = null;
