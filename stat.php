@@ -31,7 +31,7 @@ else
 	$secret = $sqllink->real_escape_string($_POST['key']);
     $name = $sqllink->real_escape_string($_POST['uname']);
     $game = $sqllink->real_escape_string($_POST['game']);
-    $notrack = $sqllink->query("SELECT id FROM notrack WHERE id='".$user."';");
+    $notrack = $sqllink->query("SELECT id FROM notrack WHERE id='{$user}' and game LIKE '{$game}';");
     $notrack = $notrack->num_rows;
 	if(strlen($user) <= 0 || strlen($secret) <= 0)
 	{
@@ -46,11 +46,11 @@ else
       $date = $sqllink->real_escape_string(time());
       if($return['success'] == true){
 		// Haben wir die UID oder Secret bereits?
-		$matches = $sqllink->query("SELECT user,secret FROM users WHERE user='".$user."' OR secret='".$secret."';");
+		$matches = $sqllink->query("SELECT user,secret FROM users WHERE (user='{$user}' and game LIKE '{$game}') OR secret='{$secret}';");
 		// Wir kennen weder UID, noch Secret. Wir speichern den neuen Nutzer
 		if(!$matches->num_rows)
 		{
-			$query = "INSERT INTO users (user,secret,game,name,time,data) VALUES ('".$user."','".$secret."','".$game."','".$name."','".$date."','".$data."');";
+			$query = "INSERT INTO users (user,secret,game,name,time,data) VALUES ('{$user}','{$secret}','{$game}','{$name}','{$date}','{$data}');";
 			$result = $sqllink->query($query);
 			$id = $sqllink->insert_id;
 			if(!$result){
@@ -66,7 +66,7 @@ else
 				if($row['user'] == $user && $row['secret'] == $secret)
 				{
 					$valid = true;
-					$query = "UPDATE users SET game='".$game."', name='".$name."', time='".$date."', data='".$data."' WHERE user='".$user."' AND secret='".$secret."';";
+					$query = "UPDATE users SET game='{$game}', name='{$name}', time='{$date}', data='{$data}' WHERE (user='{$user}' and game LIKE '{$game}') OR secret='{$secret}';";
 					$result = $sqllink->query($query);
 					break;
 				}
