@@ -903,7 +903,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
           if (SETTINGS.expansions && MISSION.expansions) {
               content.innerHTML += '<br>';
-              for (let i = 0; i < MISSION.expansions.length; i++) {
+              for (let i of Object.keys(MISSION.expansions)) {
                   let id = MISSION.expansions[i];
                   content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
               }
