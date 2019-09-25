@@ -73,6 +73,10 @@ let lssm = {
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
 I18n.locales.nl = ['nl', 'en', 'de'];
+if (!I18n.translations.hasOwnProperty('de')) I18n.translations.de = {};
+if (!I18n.translations.hasOwnProperty('en')) I18n.translations.en = {};
+if (!I18n.translations.hasOwnProperty('fj')) I18n.translations.fj = {};
+if (!I18n.translations.hasOwnProperty('nl')) I18n.translations.nl = {};
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Beta",
