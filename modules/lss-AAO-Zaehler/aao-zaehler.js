@@ -6,9 +6,7 @@
      * Prüft, ob die Einsatzseite geöffnet ist oder nicht.
      * @return boolean true, wenn die aktuelle URL der Einsatzseite entspricht, false wenn nicht.
      */
-    function pruefeObEinsatzseiteOffen() {
-        return !!window.location.href.match(/https:\/\/www\.[a-z]+\.[a-z]+\/missions\/[0-9]+$/g);
-    }
+    if(!window.location.href.match(/missions\/\d+$/)) return;
 
     /**
      * Erstellt das Element für den Zähler.
@@ -39,15 +37,13 @@
     }
 
     // Startlogik
-    if (pruefeObEinsatzseiteOffen()) {
-        erstelleZaehler();
+    erstelleZaehler();
 
-        $('.aao').bind('click', function () {
-            setzeAaoZaehlerHoch(this);
-        });
+    $('.aao').bind('click', function () {
+        setzeAaoZaehlerHoch(this);
+    });
 
-        $('[vehicle_group_id]').bind('click', function () {
-            setzeAaoZaehlerHoch(this);
-        });
-    }
+    $('[vehicle_group_id]').bind('click', function () {
+        setzeAaoZaehlerHoch(this);
+    });
 })($);

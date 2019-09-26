@@ -11,6 +11,12 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
+  I18n.translations.fj.lssm.missionDate = {
+    ago: 'ago',
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
   I18n.translations.nl.lssm.missionDate = {
     ago: 'geleden',
     months: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
@@ -66,6 +72,12 @@
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 5, weil EST UTC+5 ist
         let newOffset = 5 - offset;
+      newHour -= newOffset;
+    }
+    if (I18n.locale === 'fj') {
+        let offset = today.getTimezoneOffset() / 60;
+      // Zahl 1, weil EST UTC+1 ist
+        let newOffset = 1 - offset;
       newHour -= newOffset;
     }
 

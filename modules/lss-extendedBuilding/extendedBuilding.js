@@ -14,6 +14,8 @@
         amount: 'Anzahl',
         expansionName: 'Bezeichnung',
         vehicleType: 'Typ',
+        binding: 'Gebunden an',
+        bindingAmount: 'Zugewiesen',
         settings: {
             neededPersonnel: {
                 label: 'Benötigtes Personal',
@@ -54,6 +56,62 @@
         }
     };
     I18n.translations.en.lssm.extendedBuilding = {
+        title: 'Extended Building View',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Binded',
+        settings: {
+            neededPersonnel: {
+                label: 'Required personnel',
+                description: 'Shows the required personnel if all vehicles are to be fully occupied',
+            },
+            switchStatus: {
+                label: 'Fast status change',
+                description: 'The status of a vehicle can be changed directly between S2 and S6 via the status display',
+            },
+            assignmentBtn: {
+                label: 'Quick assignment',
+                description: 'Adds a button to quickly get to the "Assign personnel" window',
+            },
+            assignedWorkers: {
+                label: 'Assigned personnel',
+                description: 'Shows for each vehicle how much personnel is assigned',
+            },
+            currentCrew: {
+                label: 'Current Crew',
+                description: 'Indicates for each vehicle how many personnel are currently sitting on the vehicle',
+            },
+            expansions: {
+                label: 'Show expansions',
+                description: 'Show the current status of the expansions',
+            },
+            personnelOverview: {
+                label: 'Extended personnel overview',
+                description: 'Shows in the personnel overview how much personnel has which training',
+            },
+            vehicleType: {
+                label: 'Show vehicle type',
+                description: 'Shows the type of the vehicle in the vehicle list.',
+            },
+            expansionDate: {
+                label: 'Date of completion of the expansion',
+                description: 'Shows in the list of expansions also when the construction will be finished (works only in connection with the setting "Show expansions")',
+            }
+        }
+    };
+    I18n.translations.fj.lssm.extendedBuilding = {
         title: 'Extended Building View',
         crew: 'Crew (Max)',
         fms: 'Status',
@@ -122,6 +180,8 @@
         amount: 'Aantal',
         expansionName: 'Beschrijving',
         vehicleType: 'Type',
+        binding: 'Gebonden aan',
+        bindingAmount: 'Gebonden',
         settings: {
             neededPersonnel: {
                 label: "Benodigd personeel",
@@ -511,8 +571,10 @@
 
     if (SETTINGS.vehicleType && document.querySelector('#vehicle_table, #map')) {
         if(document.querySelector('#map')) {
+            let injected = false;
             document.querySelector('#tab_vehicle').addEventListener('DOMNodeInserted', e => {
-                if (e.target.tagName !== "SCRIPT") return;
+                if (e.target.tagName !== "SCRIPT" || injected) return;
+                injected = true;
                 apply_types();
             });
         } else {
@@ -541,18 +603,25 @@
         dl.insertAdjacentElement('afterend', overview);
         document.querySelectorAll('.personnelOverviewBtn').forEach(el => el.addEventListener('click', () => document.querySelector('#personnelOverview').classList.toggle('hidden')));
         let persons = get_personnel_table_column_values(get_personnel_table_column_position('schooling'));
+        let binding_list = get_personnel_table_column_values(get_personnel_table_column_position('binding'));
         let schoolings = {};
         let schoolings_single = {};
-        persons.forEach(person => {
+        let bindings = {};
+        let bindings_single = {};
+        persons.forEach((person, index) => {
             let schooling = person.innerText.trim();
             if (!schoolings.hasOwnProperty(schooling)) schoolings[schooling] = 0;
+            if (!bindings.hasOwnProperty(schooling)) bindings[schooling] = 0;
             schoolings[schooling]++;
+            binding_list[index].innerText !== '' && bindings[schooling]++;
             let single_schooling = schooling.split(',');
             for (let schooling_single in single_schooling) {
                 if (!single_schooling.hasOwnProperty(schooling_single)) continue;
                 schooling_single = single_schooling[schooling_single].trim();
                 if (!schoolings_single.hasOwnProperty(schooling_single)) schoolings_single[schooling_single] = 0;
+                if (!bindings_single.hasOwnProperty(schooling_single)) bindings_single[schooling_single] = 0;
                 schoolings_single[schooling_single]++;
+                binding_list[index].innerText !== '' && bindings_single[schooling_single]++;
             }
         });
         let schoolings_el = document.createElement('div');
@@ -560,12 +629,12 @@
         schoolings_el.innerHTML += `<h4>${I18n.t('lssm.extendedBuilding.schoolingsMulti')}</h4>`;
         let schoolings_table = document.createElement('table');
         schoolings_table.classList.add('table', 'table-striped');
-        schoolings_table.innerHTML += `<thead><th>${I18n.t('lssm.extendedBuilding.schooling')}</th><th>${I18n.t('lssm.extendedBuilding.amount')}</th></thead>`;
+        schoolings_table.innerHTML += `<thead><th>${I18n.t('lssm.extendedBuilding.schooling')}</th><th>${I18n.t('lssm.extendedBuilding.amount')}</th><th>${I18n.t('lssm.extendedBuilding.bindingAmount')}</th></thead>`;
         schoolings_table.id = 'multi_schoolings';
         let schoolings_tbody = document.createElement('tbody');
         for (let schooling in schoolings) {
             if (!schoolings.hasOwnProperty(schooling)) continue;
-            schoolings_tbody.innerHTML += `<tr><td>${schooling}</td><td>${schoolings[schooling]}</td></tr>`;
+            schoolings_tbody.innerHTML += `<tr><td>${schooling}</td><td>${schoolings[schooling]}</td><td>${bindings[schooling]}</td></tr>`;
         }
         let schoolings_single_el = document.createElement('div');
         schoolings_single_el.classList.add('col-lg-6');
@@ -573,11 +642,11 @@
         let schoolings_single_table = document.createElement('table');
         schoolings_single_table.id = 'single_schoolings';
         schoolings_single_table.classList.add('table', 'table-striped');
-        schoolings_single_table.innerHTML += `<thead><th>${I18n.t('lssm.extendedBuilding.schooling')}</th><th>${I18n.t('lssm.extendedBuilding.amount')}</th></thead>`;
+        schoolings_single_table.innerHTML += `<thead><th>${I18n.t('lssm.extendedBuilding.schooling')}</th><th>${I18n.t('lssm.extendedBuilding.amount')}</th><th>${I18n.t('lssm.extendedBuilding.bindingAmount')}</th></thead>`;
         let schoolings_single_tbody = document.createElement('tbody');
         for (let schooling in schoolings_single) {
             if (!schoolings_single.hasOwnProperty(schooling)) continue;
-            schoolings_single_tbody.innerHTML += `<tr><td>${schooling}</td><td>${schoolings_single[schooling]}</td></tr>`;
+            schoolings_single_tbody.innerHTML += `<tr><td>${schooling}</td><td>${schoolings_single[schooling]}</td><td>${bindings_single[schooling]}</td></tr>`;
         }
         schoolings_table.appendChild(schoolings_tbody);
         schoolings_el.appendChild(schoolings_table);
