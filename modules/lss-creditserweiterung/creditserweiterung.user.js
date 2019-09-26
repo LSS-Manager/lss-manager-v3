@@ -1,7 +1,6 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?/)) {
-        return;
-    }
+  if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(\.de|\.com|\.co\.uk)\/#?$/)) return;
+
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
         ranks: {
@@ -48,6 +47,33 @@
             5000000000: 'Fire Chief'
         },
         texts:{
+            reloadMessage: 'Please open your profile<br>and reload the website!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Overview',
+            coinsProtokoll: 'Coins List',
+            earnedCredits: 'Totally earned Credits',
+            creditsToNextRank: 'Credits to next rank',
+            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            allianceFunds: 'Alliance Funds',
+            noFurtherRank: 'There are no further ranks'
+        }
+    };
+    I18n.translations.fj.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        ranks: {
+            0: 'Probie',
+            200: 'Firefighter',
+            10000: 'Senior Firefighter',
+            100000: 'Fire Apparatus Operator',
+            1000000: 'Lieutenant',
+            5000000: 'Captain',
+            20000000: 'Staff Captain',
+            50000000: 'Battalion Chief',
+            1000000000: 'Division Chief',
+            2000000000: 'Deputy Chief',
+            5000000000: 'Fire Chief'
+        },
+        texts: {
             reloadMessage: 'Please open your profile<br>and reload the website!',
             dropdownName: 'Creditsextension',
             creditsOverview: 'Overview',

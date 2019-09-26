@@ -2,9 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(.de|.com)\/#?$/)) {
-        return;
-    }
+    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(\.de|\.com|\.co\.uk)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -19,6 +17,18 @@
         hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
     I18n.translations.en.lssm.verbandsverwaltung = {
+        name: 'Administration',
+        allianceFunds: 'Alliance Funds',
+        allianceCredits: 'Earned Credits',
+        users: 'Members',
+        onlineUsers: 'Members online',
+        allianceRank: 'Rank in Alliancelist',
+        page: 'Page',
+        updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
+        chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
+        hoverTip: 'Tip: Hover over an element to display a value history.'
+    };
+    I18n.translations.fj.lssm.verbandsverwaltung = {
         name: 'Administration',
         allianceFunds: 'Alliance Funds',
         allianceCredits: 'Earned Credits',

@@ -1,19 +1,25 @@
 (function (I18n, $) {
-    I18n.translations.de.lssm.telemetry = {
-        question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
-          "Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
-          "Stimmst zu diesem zu?"
-    };
-    I18n.translations.en.lssm.telemetry = {
-        question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
-          "These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
-          "Do you agree with this?"
-    };
-    I18n.translations.nl.lssm.telemetry = {
-        question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
-          "Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
-          "Bent u het hiermee eens?"
-    };
+	I18n.translations.de.lssm.telemetry = {
+		question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
+		"Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
+		"Stimmst zu diesem zu?"
+	};
+	I18n.translations.en.lssm.telemetry = {
+		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
+		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
+		"Do you agree with this?"
+	};
+	I18n.translations.fj.lssm.telemetry = {
+		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
+		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
+		"Do you agree with this?"
+	};
+	I18n.translations.nl.lssm.telemetry = {
+		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
+			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
+			"Bent u het hiermee eens?"
+	};
+
     function getModules()
     {
         let active = [];
@@ -44,6 +50,7 @@
         return M.join(' ');
     }
 
+  
     let active = false;
     if(!lssm.settings.exists("telemetry"))
     {

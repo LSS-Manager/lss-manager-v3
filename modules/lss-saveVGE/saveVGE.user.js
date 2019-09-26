@@ -11,6 +11,12 @@
         noVGE:"No saved Alliance Mission!",
         VGEs:"VGEs"
     };
+    I18n.translations.fj['lssm']['saveVGE'] = {
+        save: "Save",
+        del: "Delete",
+        noVGE: "No saved Alliance Mission!",
+        VGEs: "VGEs"
+    };
 	I18n.translations.nl['lssm']['saveVGE'] = {
 		save: "Opslaan",
 		del: "Verwijderen",
