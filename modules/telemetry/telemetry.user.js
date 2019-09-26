@@ -19,6 +19,7 @@
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
 			"Bent u het hiermee eens?"
 	};
+
     function getModules()
     {
         let active = [];
@@ -33,7 +34,7 @@
     function getUserAgent()
     {
         let ua = navigator.userAgent, tem,
-            M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+          M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
         if (/trident/i.test(M[1])) {
             tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
             return 'IE ' + (tem[1] || '');
@@ -49,18 +50,19 @@
         return M.join(' ');
     }
 
-	let active = false;
-	if(!lssm.settings.exists("telemetry"))
-	{
-		let con = confirm(I18n.t('lssm.telemetry.question'))
-		active = con;
-		lssm.settings.set("telemetry", (con ? 1 : 0));
-	}
-	else
-	{
-		if(lssm.settings.get("telemetry", "0") == "1")
-			active = true;
-	}
+  
+    let active = false;
+    if(!lssm.settings.exists("telemetry"))
+    {
+        let con = confirm(I18n.t('lssm.telemetry.question'))
+        active = con;
+        lssm.settings.set("telemetry", (con ? 1 : 0));
+    }
+    else
+    {
+        if(lssm.settings.get("telemetry", "0") == "1")
+            active = true;
+    }
     if (active && typeof user_id !== "undefined" && typeof user_premium !== "undefined")
     {
         let data = {};

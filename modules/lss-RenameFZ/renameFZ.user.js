@@ -519,7 +519,7 @@
     const mode = $('#tab_vehicle')[0] ? "leitstelle" : "wache";
 
     function printError(err) {
-        $("#" + prefix + "_status").html(`Status: ${I18n.t('lssm.renameFz.statusError')}<br><b>${err.name}</b><br><i>${err.message}</i><pre>${err.stack}</pre>`);
+        $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusError')}<br><b>${err.name}</b><br><i>${err.message}</i><pre>${err.stack}</pre>`);
         executionFailed = true;
     }
 
@@ -613,7 +613,7 @@
             for (let i = 0; i < vehiclesNum; i++) {
                 status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i+1}/${vehiclesNum})`);
                 let vehicleRow = $(vehicles[i]);
-                let vehicleCaption = mode === "leitstelle" ? vehicleRow.find('[id^=vehicle_caption_]') : vehicleRow.find("td:nth-of-type(2)");
+                let vehicleCaption = mode === "leitstelle" ? vehicleRow.find('[id^=vehicle_caption_]') : vehicleRow.find("td[sortvalue]");
                 let vehicleID = mode === "leitstelle" ? vehicleCaption.attr("id").replace(/\D/g, "") : vehicleCaption.find("a").attr("href").replace(/\D/g, "");
                 if (mode === "wache" && !$(`#vehicle_form_holder_${vehicleID}`)[0]) vehicleCaption.append(`<div id="vehicle_form_holder_${vehicleID}"></div>`) && vehicleCaption.find("a").attr("id", `vehicle_link_${vehicleID}`);
                 let vehicle = lssm.vehicles[vehicleID];
@@ -737,7 +737,7 @@
     </div>
     <div>
         <a href="#" class="btn btn-default btn-xs disabled" id="${prefix}_rename">${I18n.t('lssm.renameFz.rename')}</a>
-        &nbsp;<span id="' + prefix + '_status">Status: ${I18n.t('lssm.renameFz.statusWaiting')}</span>
+        &nbsp;<span id="${prefix}_status">Status: ${I18n.t('lssm.renameFz.statusWaiting')}</span>
     </div>
     <div class="alert fade in alert-danger" id="${prefix}_nameToLongDiv">
         <button class="close" type="button" id="${prefix}_HideNameToLongDiv">×</button>
