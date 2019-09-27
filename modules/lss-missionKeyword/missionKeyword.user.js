@@ -498,7 +498,10 @@
         473: 'Pfefferspray in Bahn',
         474: 'Pfefferspray in Bahn',
         475: 'Pfefferspray in Bahn',
-        476: 'Angefahrener Radfahrer'
+        476: 'Angefahrener Radfahrer',
+        477: 'Baum auf Zug',
+        478: 'Baum auf Zug',
+        479: 'Baum auf Zug'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -830,7 +833,8 @@
         310: 'Passenger train derailment (Major)',
         311: 'Passenger train derailment (Major)',
         312: 'Passenger train derailment (Major)',
-        313: 'Passenger train derailment (Major)'
+        313: 'Passenger train derailment (Major)',
+        314: 'Bus in river'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -1424,7 +1428,10 @@
         479: 'Liftopsluiting',
         480: 'Watersporter vermist',
         481: 'Watersporter vermist',
-        482: 'Watersporter vermist'
+        482: 'Watersporter vermist',
+        483: 'Vat met gevaarlijke stoffen omgevallen',
+        484: 'Vat met gevaarlijke stoffen omgevallen',
+        485: 'Vat met gevaarlijke stoffen omgevallen'
       }
     };
 
@@ -1924,7 +1931,10 @@
       473: 'POL 5',
       474: 'POL 5',
       475: 'POL 5',
-      476: 'RD 1'
+      476: 'RD 1',
+      477: 'THL 3 ZUG',
+      478: 'THL 3 ZUG',
+      479: 'THL 3 ZUG'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2240,7 +2250,8 @@
       310: 'TECH 6 TRAIN',
       311: 'TECH 6 TRAIN',
       312: 'TECH 6 TRAIN',
-      313: 'TECH 6 TRAIN'
+      313: 'TECH 6 TRAIN',
+      314: 'TECH 4 WATER'
     };
       let DEFAULT_AAO_FJ = {
       1: 'FIRE 1',
@@ -2801,7 +2812,10 @@
       479: 'HV 1',
       480: 'HV 2 WATER',
       481: 'HV 2 WATER',
-      482: 'HV 2 WATER'
+      482: 'HV 2 WATER',
+      483: 'OGS 1',
+      484: 'OGS 2',
+      485: 'OGS 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
