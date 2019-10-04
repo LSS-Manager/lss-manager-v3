@@ -386,7 +386,6 @@
             "truck": 4,
             "heavyRescue": 2,
             "bchief": 2,
-            "mcv": 1,
             "police": 3,
             "hazmat": 2
         },
@@ -486,6 +485,15 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "Cardiology"
+    },
+    "37": {
+        "name": "Acute asthma",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "General Internal"
     },
     "38": {
         "name": "Seizure",
