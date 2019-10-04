@@ -486,6 +486,15 @@
         "transport": 100,
         "specialisation": "Cardiology"
     },
+    "37": {
+        "name": "Acute asthma",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "General Internal"
+    },
     "38": {
         "name": "Seizure",
         "stations": {
