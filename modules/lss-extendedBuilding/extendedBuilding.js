@@ -126,6 +126,8 @@
         amount: 'Amount',
         expansionName: 'Description',
         vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Binded',
         settings: {
             neededPersonnel: {
                 label: 'Required personnel',
