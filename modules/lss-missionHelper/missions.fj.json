@@ -1,1 +1,1015 @@
-[]
+{
+    "0": {
+        "name": "Bin fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "1": {
+        "name": "Container fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Burning car",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "3": {
+        "name": "Burning motorbike",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+    "4": {
+        "name": "Burning grass",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Room fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "6": {
+        "name": "Garden shed fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
+    "7": {
+        "name": "Burning leaves",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "Bulk trash fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "9": {
+        "name": "Bale of straw fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
+    "10": {
+        "name": "Tractor fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "11": {
+        "name": "Burning callbox",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
+    },
+    "12": {
+        "name": "Tree on the road",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
+    "13": {
+        "name": "Burning truck",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "Little field fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+    "15": {
+        "name": "Little wildfire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
+    "16": {
+        "name": "Caravan fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Mailbox on fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
+    },
+    "18": {
+        "name": "Brush pile",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
+    "19": {
+        "name": "Burning trailer",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "20": {
+        "name": "Basement fire",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "21": {
+        "name": "Chimney fire",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
+    "22": {
+        "name": "Roof fire",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
+    "23": {
+        "name": "Grease Fire",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "24": {
+        "name": "Burning bus shelter",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "25": {
+        "name": "Road accident",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
+    },
+    "26": {
+        "name": "Small Supermarket Fire",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 9
+    },
+    "27": {
+        "name": "Garage fire",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Burning machine",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
+        }
+    },
+    "29": {
+        "name": "Unknown Tanker Spill",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
+    "30": {
+        "name": "Gas Leak",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "31": {
+        "name": "Fireplace fire",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Harvester fire",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "33": {
+        "name": "Small Supermarket Fire",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 9
+    },
+    "34": {
+        "name": "Fire in Hospital",
+        "stations": {
+            "0": 10,
+            "2": 6
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 2,
+            "tanker": 1,
+            "platform": 3
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 25,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "poi": 2
+    },
+    "35": {
+        "name": "Alcoholic intoxication",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "General Internal"
+        }
+    },
+    "36": {
+        "name": "Chest Pains",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiology"
+    },
+    "38": {
+        "name": "Seizure",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Neurology"
+    },
+    "39": {
+        "name": "Fever",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "General Internal"
+    },
+    "40": {
+        "name": "Fallen person",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatology"
+    },
+    "41": {
+        "name": "Car workshop fire",
+        "stations": {
+            "0": 14,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "poi": 15,
+        "percentages": {
+            "tanker": 40
+        }
+    },
+    "42": {
+        "name": "Fallen person",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatology"
+    },
+    "43": {
+        "name": "Fallen person",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatology"
+    },
+    "44": {
+        "name": "Shoplifting",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 9,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "45": {
+        "name": "Shoplifting",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "46": {
+        "name": "Parked car accident",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 9
+    },
+    "47": {
+        "name": "Parked car accident",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 10
+    },
+    "48": {
+        "name": "Metal burglary",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 8,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "49": {
+        "name": "Pickpocketing",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 0,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "50": {
+        "name": "Fare dodger",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 4
+    },
+    "51": {
+        "name": "Fare dodger",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 5
+    },
+    "52": {
+        "name": "Fare dodger",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 6
+    },
+    "53": {
+        "name": "Fare dodger",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 7
+    },
+    "54": {
+        "name": "Parked car accident",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 14
+    },
+    "55": {
+        "name": "Brawl",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatology"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "56": {
+        "name": "Rioter",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 55
+        }
+    },
+    "57": {
+        "name": "Unannounced demonstration",
+        "vehicles": {
+            "police": 7
+        },
+        "credits": 10020
+    },
+    "58": {
+        "name": "Kitchen Fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "59": {
+        "name": "Animal Rescue",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "60": {
+        "name": "Sports hall fire",
+        "stations": {
+            "0": 9,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "poi": 12
+    },
+    "61": {
+        "name": "Light Aircraft Crash (Airfield)",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "arff": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatology"
+        },
+        "poi": 28
+    },
+    "62": {
+        "name": "Noise Complaint",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400
+    },
+    "64": {
+        "name": "Accident Involving a Bus",
+        "stations": {
+            "0": 3,
+            "2": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 12,
+            "transport": 50,
+            "specialisation": "General Internal"
+        }
+    },
+    "65": {
+        "name": "Kitchen Fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "66": {
+        "name": "Room fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "67": {
+        "name": "Brawl",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatology"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "68": {
+        "name": "Big Supermarket Fire",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "69": {
+        "name": "Unknown Tanker Spill",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 4300
+    },
+    "70": {
+        "name": "Big Supermarket Fire",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "71": {
+        "name": "Nosebleed",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "General Surgeon"
+    },
+    "72": {
+        "name": "Light Aircraft Crash",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatology"
+        },
+        "percentages": {
+            "hazmat": 50
+        }
+    },
+    "73": {
+        "name": "Serious Accident Involving a Bus",
+        "stations": {
+            "0": 5,
+            "2": 8,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "platform": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 12,
+            "transport": 80,
+            "specialisation": "General Surgeon"
+        }
+    },
+    "74": {
+        "name": "Major fire",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    },
+    "75": {
+        "name": "Partial Building Collapse",
+        "stations": {
+            "0": 5,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1,
+            "bchief": 2,
+            "heavyRescue": 2
+        },
+        "credits": 7300,
+        "patients": {
+            "max": 2,
+            "specialisation": "General Surgeon"
+        }
+    }
+}

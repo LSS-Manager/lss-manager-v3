@@ -1,9 +1,9 @@
 {
     "0": {
         "name": "Bin fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -12,9 +12,9 @@
     },
     "1": {
         "name": "Container fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -22,50 +22,50 @@
     },
     "2": {
         "name": "Burning car",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 370,
-        "expansions": [
-            26,
-            16,
-            19
-        ]
+        "expansions": {
+            "0": 26,
+            "1": 16,
+            "2": 19
+        }
     },
     "3": {
         "name": "Burning motorbike",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 340,
-        "expansions": [
-            26
-        ]
+        "expansions": {
+            "0": 26
+        }
     },
     "4": {
         "name": "Burning grass",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 200,
-        "expansions": [
-            14
-        ]
+        "expansions": {
+            "0": 14
+        }
     },
     "5": {
         "name": "Room fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2,
             "platform": 1
@@ -77,18 +77,18 @@
             "nef": 0,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            88
-        ],
+        "expansions": {
+            "0": 88
+        },
         "percentages": {
             "platform": 30
         }
     },
     "6": {
         "name": "Garden shed fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -96,66 +96,66 @@
     },
     "7": {
         "name": "Burning leaves",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 210,
-        "expansions": [
-            14
-        ]
+        "expansions": {
+            "0": 14
+        }
     },
     "8": {
         "name": "Bulk trash fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 220,
-        "expansions": [
-            20,
-            22,
-            99,
-            87,
-            6
-        ]
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 99,
+            "3": 87,
+            "4": 6
+        }
     },
     "9": {
         "name": "Bale of straw fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 250,
-        "expansions": [
-            14,
-            6
-        ]
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
     },
     "10": {
         "name": "Tractor fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 600,
-        "expansions": [
-            29
-        ]
+        "expansions": {
+            "0": 29
+        }
     },
     "11": {
         "name": "Burning callbox",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -163,22 +163,22 @@
     },
     "12": {
         "name": "Tree on the road",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 310,
-        "expansions": [
-            25
-        ]
+        "expansions": {
+            "0": 25
+        }
     },
     "13": {
         "name": "Burning truck",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -186,23 +186,23 @@
     },
     "14": {
         "name": "Little field fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
         "credits": 1000,
-        "expansions": [
-            15,
-            202
-        ]
+        "expansions": {
+            "0": 15,
+            "1": 202
+        }
     },
     "15": {
         "name": "Little wildfire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -211,9 +211,9 @@
     },
     "16": {
         "name": "Caravan fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -221,9 +221,9 @@
     },
     "17": {
         "name": "Mailbox on fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -231,9 +231,9 @@
     },
     "18": {
         "name": "Brush pile",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -241,9 +241,9 @@
     },
     "19": {
         "name": "Burning trailer",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -251,9 +251,9 @@
     },
     "20": {
         "name": "Basement fire",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "bchief": 1,
             "truck": 3
@@ -269,37 +269,37 @@
     },
     "21": {
         "name": "Chimney fire",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "platform": 1,
             "bchief": 1,
             "truck": 1
         },
         "credits": 2400,
-        "expansions": [
-            22
-        ],
+        "expansions": {
+            "0": 22
+        },
         "percentages": {
             "platform": 100
         }
     },
     "22": {
         "name": "Roof fire",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "platform": 1,
             "truck": 3,
             "bchief": 1
         },
         "credits": 2700,
-        "expansions": [
-            87,
-            99
-        ],
+        "expansions": {
+            "0": 87,
+            "1": 99
+        },
         "percentages": {
             "platform": 100,
             "bchief": 50
@@ -307,22 +307,22 @@
     },
     "23": {
         "name": "Grease Fire",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 1200,
-        "expansions": [
-            99
-        ]
+        "expansions": {
+            "0": 99
+        }
     },
     "24": {
         "name": "Burning bus shelter",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1
         },
@@ -331,9 +331,9 @@
     },
     "25": {
         "name": "Road accident",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1
         },
@@ -344,18 +344,18 @@
             "nef": 0,
             "specialisation": "Traumatology"
         },
-        "expansions": [
-            24,
-            2,
-            47,
-            98
-        ]
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 47,
+            "3": 98
+        }
     },
     "26": {
         "name": "Garage fire",
-        "stations": [
-            4
-        ],
+        "stations": {
+            "0": 4
+        },
         "vehicles": {
             "truck": 2
         },
@@ -363,23 +363,23 @@
     },
     "27": {
         "name": "Gas Leak",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 400,
-        "expansions": [
-            25,
-            47
-        ]
+        "expansions": {
+            "0": 25,
+            "1": 47
+        }
     },
     "28": {
         "name": "Fireplace fire",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "bchief": 1,
             "platform": 1,
@@ -389,9 +389,9 @@
     },
     "29": {
         "name": "Harvester fire",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "truck": 2
         },
@@ -399,23 +399,23 @@
     },
     "30": {
         "name": "Wastebin fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 110,
         "poi": 5,
-        "expansions": [
-            13
-        ]
+        "expansions": {
+            "0": 13
+        }
     },
     "31": {
         "name": "Wastebin fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -424,9 +424,9 @@
     },
     "32": {
         "name": "Wastebin fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -435,9 +435,9 @@
     },
     "33": {
         "name": "Wastebin fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -532,9 +532,9 @@
     },
     "42": {
         "name": "Manhole Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "bchief": 1,
             "truck": 2
@@ -553,9 +553,9 @@
     },
     "44": {
         "name": "Burning machine",
-        "stations": [
-            5
-        ],
+        "stations": {
+            "0": 5
+        },
         "vehicles": {
             "truck": 3,
             "heavyRescue": 1,
@@ -596,9 +596,9 @@
     },
     "46": {
         "name": "Gas station fire",
-        "stations": [
-            11
-        ],
+        "stations": {
+            "0": 11
+        },
         "vehicles": {
             "heavyRescue": 2,
             "truck": 4,
@@ -786,9 +786,9 @@
         "prisoners": {
             "max": 2
         },
-        "expansions": [
-            90
-        ]
+        "expansions": {
+            "0": 90
+        }
     },
     "60": {
         "name": "Rioter",
@@ -802,10 +802,10 @@
         "prisoners": {
             "max": 1
         },
-        "expansions": [
-            59,
-            90
-        ]
+        "expansions": {
+            "0": 59,
+            "1": 90
+        }
     },
     "61": {
         "name": "Unannounced demonstration",
@@ -831,9 +831,9 @@
     },
     "63": {
         "name": "Burning bogle",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -841,9 +841,9 @@
     },
     "64": {
         "name": "Burning pumpkin field",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -871,9 +871,9 @@
     },
     "66": {
         "name": "Witch in tree",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "platform": 1,
             "truck": 1
@@ -946,9 +946,9 @@
         "prisoners": {
             "max": 1
         },
-        "expansions": [
-            90
-        ]
+        "expansions": {
+            "0": 90
+        }
     },
     "73": {
         "name": "Obstruction of traffic",
@@ -972,9 +972,9 @@
     },
     "75": {
         "name": "Tree on bikeway",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -982,9 +982,9 @@
     },
     "76": {
         "name": "Burning substation",
-        "stations": [
-            4
-        ],
+        "stations": {
+            "0": 4
+        },
         "vehicles": {
             "truck": 2,
             "bchief": 1
@@ -1034,9 +1034,9 @@
     },
     "80": {
         "name": "Burning christmas market stall",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1049,9 +1049,9 @@
     },
     "81": {
         "name": "Fire at christmas market",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1064,9 +1064,9 @@
     },
     "82": {
         "name": "Traffic accident - ice",
-        "stations": [
-            4
-        ],
+        "stations": {
+            "0": 4
+        },
         "vehicles": {
             "heavyRescue": 1,
             "truck": 1
@@ -1082,9 +1082,9 @@
     },
     "83": {
         "name": "Burning christmas tree",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1092,9 +1092,9 @@
     },
     "84": {
         "name": "Burning advent wreath",
-        "stations": [
-            5
-        ],
+        "stations": {
+            "0": 5
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1134,9 +1134,9 @@
             "max": 4,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            25
-        ]
+        "expansions": {
+            "0": 25
+        }
     },
     "87": {
         "name": "Industrial Fire",
@@ -1327,9 +1327,9 @@
         "prisoners": {
             "max": 1
         },
-        "expansions": [
-            90
-        ]
+        "expansions": {
+            "0": 90
+        }
     },
     "98": {
         "name": "Unknown Tanker Spill",
@@ -1385,9 +1385,9 @@
             "transport": 60,
             "specialisation": "Traumatology"
         },
-        "expansions": [
-            90
-        ]
+        "expansions": {
+            "0": 90
+        }
     },
     "101": {
         "name": "Unknown Tanker Spill",
@@ -1441,9 +1441,9 @@
             "police": 2
         },
         "credits": 300,
-        "expansions": [
-            90
-        ]
+        "expansions": {
+            "0": 90
+        }
     },
     "104": {
         "name": "Hostage Taken",
@@ -1586,9 +1586,9 @@
     },
     "113": {
         "name": "Smoke in Cabin",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2,
             "arff": 1
@@ -1598,9 +1598,9 @@
     },
     "114": {
         "name": "Smoke in Cabin",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2,
             "arff": 1
@@ -1610,9 +1610,9 @@
     },
     "115": {
         "name": "Braking Overheat",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "arff": 1,
             "bchief": 1,
@@ -1623,9 +1623,9 @@
     },
     "116": {
         "name": "Braking Overheat",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "arff": 1,
             "bchief": 1,
@@ -1636,9 +1636,9 @@
     },
     "117": {
         "name": "Engine Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "arff": 2,
             "bchief": 1,
@@ -1649,9 +1649,9 @@
     },
     "118": {
         "name": "Engine Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "arff": 3,
             "bchief": 1,
@@ -1713,9 +1713,9 @@
     },
     "122": {
         "name": "Carbon Monoxide Alarm",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1843,9 +1843,9 @@
     },
     "130": {
         "name": "Powerline Down",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -1915,9 +1915,9 @@
         "prisoners": {
             "max": 2
         },
-        "expansions": [
-            136
-        ]
+        "expansions": {
+            "0": 136
+        }
     },
     "136": {
         "name": "Medium Violent Protest",
@@ -1956,18 +1956,18 @@
     },
     "138": {
         "name": "Smoke Investigation",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 1,
             "platform": 1,
             "bchief": 1
         },
         "credits": 700,
-        "expansions": [
-            110
-        ]
+        "expansions": {
+            "0": 110
+        }
     },
     "139": {
         "name": "Drug Lab Fire",
@@ -2014,9 +2014,9 @@
     },
     "141": {
         "name": "Elevator Rescue",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -2080,9 +2080,9 @@
     },
     "145": {
         "name": "Burning Garbage Truck",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -2129,9 +2129,9 @@
     },
     "149": {
         "name": "Smoke Detector Check",
-        "stations": [
-            8
-        ],
+        "stations": {
+            "0": 8
+        },
         "vehicles": {
             "truck": 1
         },
@@ -2213,9 +2213,9 @@
     },
     "153": {
         "name": "Barn Fire",
-        "stations": [
-            7
-        ],
+        "stations": {
+            "0": 7
+        },
         "vehicles": {
             "truck": 6,
             "bchief": 1,
@@ -2513,9 +2513,9 @@
             "transport": 40,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            170
-        ]
+        "expansions": {
+            "0": 170
+        }
     },
     "170": {
         "name": "Medium flooding",
@@ -2535,9 +2535,9 @@
             "transport": 40,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            171
-        ]
+        "expansions": {
+            "0": 171
+        }
     },
     "171": {
         "name": "Large flooding",
@@ -2558,9 +2558,9 @@
             "transport": 40,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            172
-        ]
+        "expansions": {
+            "0": 172
+        }
     },
     "172": {
         "name": "Giant flooding",
@@ -2707,9 +2707,9 @@
             "transport": 25,
             "specialisation": "General Internal"
         },
-        "expansions": [
-            170
-        ]
+        "expansions": {
+            "0": 170
+        }
     },
     "180": {
         "name": "Shots fired at Officer",
@@ -2782,9 +2782,9 @@
     },
     "183": {
         "name": "Fire in fast food restaurant",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "truck": 5,
             "bchief": 1,
@@ -2883,9 +2883,9 @@
             "specialisation": "General Internal"
         },
         "poi": 0,
-        "expansions": [
-            104
-        ]
+        "expansions": {
+            "0": 104
+        }
     },
     "188": {
         "name": "Cruise ship sinking",
@@ -2995,17 +2995,17 @@
             "specialisation": "Traumatology"
         },
         "poi": 40,
-        "expansions": [
-            150,
-            151,
-            152
-        ]
+        "expansions": {
+            "0": 150,
+            "1": 151,
+            "2": 152
+        }
     },
     "193": {
         "name": "Animal Rescue",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "truck": 1,
             "heavyRescue": 1
@@ -3055,22 +3055,22 @@
             "specialisation": "General Internal"
         },
         "poi": 41,
-        "expansions": [
-            205
-        ]
+        "expansions": {
+            "0": 205
+        }
     },
     "196": {
         "name": "Kitchen Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
         "credits": 1000,
-        "expansions": [
-            110
-        ]
+        "expansions": {
+            "0": 110
+        }
     },
     "197": {
         "name": "Small boat fire",
@@ -3147,9 +3147,9 @@
     },
     "202": {
         "name": "Large Field Fire",
-        "stations": [
-            10
-        ],
+        "stations": {
+            "0": 10
+        },
         "vehicles": {
             "truck": 5,
             "bchief": 1,
@@ -3159,9 +3159,9 @@
     },
     "203": {
         "name": "Natural gas odor",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -3219,9 +3219,9 @@
     },
     "206": {
         "name": "Transformer fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -3308,9 +3308,9 @@
     },
     "211": {
         "name": "Multiple vehicles on fire",
-        "stations": [
-            7
-        ],
+        "stations": {
+            "0": 7
+        },
         "vehicles": {
             "truck": 5,
             "bchief": 1,
@@ -3323,9 +3323,9 @@
     },
     "212": {
         "name": "Fire on farm medium",
-        "stations": [
-            13
-        ],
+        "stations": {
+            "0": 13
+        },
         "vehicles": {
             "truck": 8,
             "bchief": 1,
@@ -3335,15 +3335,15 @@
         },
         "credits": 6000,
         "poi": 21,
-        "expansions": [
-            213
-        ]
+        "expansions": {
+            "0": 213
+        }
     },
     "213": {
         "name": "Fire on farm large",
-        "stations": [
-            16
-        ],
+        "stations": {
+            "0": 16
+        },
         "vehicles": {
             "truck": 10,
             "bchief": 2,
@@ -3374,9 +3374,9 @@
     },
     "215": {
         "name": "Animal rescue from drain",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -3495,9 +3495,9 @@
     },
     "225": {
         "name": "Landing Gear failure",
-        "stations": [
-            11
-        ],
+        "stations": {
+            "0": 11
+        },
         "vehicles": {
             "arff": 3,
             "truck": 1,
@@ -3506,24 +3506,24 @@
         },
         "credits": 3000,
         "poi": 29,
-        "expansions": [
-            120
-        ]
+        "expansions": {
+            "0": 120
+        }
     },
     "226": {
         "name": "Landing Gear failure",
-        "stations": [
-            11
-        ],
+        "stations": {
+            "0": 11
+        },
         "vehicles": {
             "arff": 2,
             "truck": 1
         },
         "credits": 2000,
         "poi": 28,
-        "expansions": [
-            162
-        ]
+        "expansions": {
+            "0": 162
+        }
     },
     "227": {
         "name": "Airport Terminal Collapse (Small)",
@@ -3726,9 +3726,9 @@
     },
     "236": {
         "name": "Electrical fire on subway tracks",
-        "stations": [
-            6
-        ],
+        "stations": {
+            "0": 6
+        },
         "vehicles": {
             "truck": 3,
             "bchief": 1
@@ -4043,9 +4043,9 @@
             "specialisation": "General Internal"
         },
         "poi": 49,
-        "expansions": [
-            254
-        ]
+        "expansions": {
+            "0": 254
+        }
     },
     "254": {
         "name": "Hotel fire medium",
@@ -4065,9 +4065,9 @@
             "specialisation": "General Internal"
         },
         "poi": 49,
-        "expansions": [
-            255
-        ]
+        "expansions": {
+            "0": 255
+        }
     },
     "255": {
         "name": "Hotel fire large",
@@ -4092,9 +4092,9 @@
             "specialisation": "General Internal"
         },
         "poi": 49,
-        "expansions": [
-            256
-        ],
+        "expansions": {
+            "0": 256
+        },
         "percentages": {
             "tanker": 10,
             "air": 30
@@ -4235,9 +4235,9 @@
     },
     "262": {
         "name": "Damaged Roof",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1,
             "platform": 1
@@ -4249,9 +4249,9 @@
     },
     "263": {
         "name": "Unsafe Cladding",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1,
             "platform": 1
@@ -4263,9 +4263,9 @@
     },
     "264": {
         "name": "Unsafe Scaffolding",
-        "stations": [
-            3
-        ],
+        "stations": {
+            "0": 3
+        },
         "vehicles": {
             "truck": 1,
             "platform": 1
@@ -4297,9 +4297,9 @@
     },
     "266": {
         "name": "Landfill fire",
-        "stations": [
-            8
-        ],
+        "stations": {
+            "0": 8
+        },
         "vehicles": {
             "truck": 5,
             "bchief": 1,
@@ -4359,17 +4359,17 @@
     },
     "270": {
         "name": "Vehicle fire in parking garage",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
         "credits": 1000,
         "poi": 0,
-        "expansions": [
-            271
-        ]
+        "expansions": {
+            "0": 271
+        }
     },
     "271": {
         "name": "Large parking garage fire",
@@ -4434,10 +4434,10 @@
             "transport": 70,
             "specialisation": "Traumatology"
         },
-        "expansions": [
-            232,
-            88
-        ]
+        "expansions": {
+            "0": 232,
+            "1": 88
+        }
     },
     "274": {
         "name": "Large Natural Gas explosion",
@@ -4461,10 +4461,10 @@
             "transport": 70,
             "specialisation": "Traumatology"
         },
-        "expansions": [
-            232,
-            88
-        ]
+        "expansions": {
+            "0": 232,
+            "1": 88
+        }
     },
     "275": {
         "name": "Swimmer in distress",
@@ -4508,32 +4508,32 @@
     },
     "277": {
         "name": "Unknown structure fire",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
         "credits": 110,
-        "expansions": [
-            110,
-            99,
-            196,
-            5,
-            278,
-            279,
-            280,
-            281,
-            282,
-            28,
-            22
-        ]
+        "expansions": {
+            "0": 110,
+            "1": 99,
+            "2": 196,
+            "3": 5,
+            "4": 278,
+            "5": 279,
+            "6": 280,
+            "7": 281,
+            "8": 282,
+            "9": 28,
+            "10": 22
+        }
     },
     "278": {
         "name": "Electrical Cupboard Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 1
         },
@@ -4541,9 +4541,9 @@
     },
     "279": {
         "name": "Electrical Cupboard Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -4551,9 +4551,9 @@
     },
     "280": {
         "name": "Smoking Electrical Equipment",
-        "stations": [
-            1
-        ],
+        "stations": {
+            "0": 1
+        },
         "vehicles": {
             "truck": 1
         },
@@ -4561,9 +4561,9 @@
     },
     "281": {
         "name": "Storage Cupboard Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 1
         },
@@ -4571,9 +4571,9 @@
     },
     "282": {
         "name": "Storage Cupboard Fire",
-        "stations": [
-            2
-        ],
+        "stations": {
+            "0": 2
+        },
         "vehicles": {
             "truck": 2
         },
@@ -4805,9 +4805,9 @@
             "transport": 40,
             "specialisation": "Traumatology"
         },
-        "expansions": [
-            88
-        ]
+        "expansions": {
+            "0": 88
+        }
     },
     "297": {
         "name": "Electrocution",
@@ -4817,5 +4817,437 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Traumatology"
+    },
+    "298": {
+        "name": "Large brawl",
+        "stations": {
+            "3": 7,
+            "5": 5
+        },
+        "vehicles": {
+            "k9": 1,
+            "police": 8
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 10,
+            "transport": 40,
+            "specialisation": "General Internal"
+        },
+        "prisoners": {
+            "max": 6
+        }
+    },
+    "299": {
+        "name": "Pepper spray discharged on train",
+        "stations": {
+            "0": 11,
+            "3": 5,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "hazmat": 1,
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 6,
+            "transport": 15,
+            "specialisation": "General Internal"
+        },
+        "poi": 5,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "300": {
+        "name": "Pepper spray discharged on train",
+        "stations": {
+            "0": 11,
+            "3": 5,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "hazmat": 1,
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 6,
+            "transport": 15,
+            "specialisation": "General Internal"
+        },
+        "poi": 6,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "301": {
+        "name": "Pepper spray discharged on train",
+        "stations": {
+            "0": 11,
+            "3": 5,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "hazmat": 1,
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 6,
+            "transport": 15,
+            "specialisation": "General Internal"
+        },
+        "poi": 7,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "302": {
+        "name": "Passenger train derailment (Small)",
+        "stations": {
+            "0": 10,
+            "3": 15,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 7,
+        "expansions": {
+            "0": 307
+        }
+    },
+    "303": {
+        "name": "Passenger train derailment (Small)",
+        "stations": {
+            "0": 10,
+            "3": 15,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 6,
+        "expansions": {
+            "0": 306
+        }
+    },
+    "304": {
+        "name": "Passenger train derailment (Small)",
+        "stations": {
+            "0": 10,
+            "3": 15,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 24,
+        "expansions": {
+            "0": 308
+        }
+    },
+    "305": {
+        "name": "Passenger train derailment (Small)",
+        "stations": {
+            "0": 10,
+            "3": 15,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 40,
+        "expansions": {
+            "0": 309
+        }
+    },
+    "306": {
+        "name": "Passenger train derailment (Large)",
+        "stations": {
+            "0": 15,
+            "3": 25,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 1,
+            "police": 4
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 50,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 6,
+        "expansions": {
+            "0": 310
+        }
+    },
+    "307": {
+        "name": "Passenger train derailment (Large)",
+        "stations": {
+            "0": 15,
+            "3": 25,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 1,
+            "police": 4
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 50,
+            "transport": 40,
+            "specialisation": "Traumatology"
+        },
+        "poi": 7,
+        "expansions": {
+            "0": 311
+        }
+    },
+    "308": {
+        "name": "Passenger train derailment (Large)",
+        "stations": {
+            "0": 15,
+            "3": 25,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 1,
+            "police": 4
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 40,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        },
+        "poi": 24,
+        "expansions": {
+            "0": 312
+        }
+    },
+    "309": {
+        "name": "Passenger train derailment (Large)",
+        "stations": {
+            "0": 15,
+            "3": 25,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 1,
+            "police": 4
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 40,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        },
+        "poi": 40,
+        "expansions": {
+            "0": 313
+        }
+    },
+    "310": {
+        "name": "Passenger train derailment (Major)",
+        "stations": {
+            "0": 30,
+            "3": 40,
+            "5": 10
+        },
+        "vehicles": {
+            "truck": 14,
+            "bchief": 6,
+            "platform": 1,
+            "heavyRescue": 6,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 12
+        },
+        "credits": 14000,
+        "patients": {
+            "max": 60,
+            "transport": 70,
+            "specialisation": "Traumatology"
+        },
+        "poi": 6
+    },
+    "311": {
+        "name": "Passenger train derailment (Major)",
+        "stations": {
+            "0": 30,
+            "3": 40,
+            "5": 10
+        },
+        "vehicles": {
+            "truck": 14,
+            "bchief": 6,
+            "platform": 1,
+            "heavyRescue": 6,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 12
+        },
+        "credits": 14000,
+        "patients": {
+            "max": 60,
+            "transport": 70,
+            "specialisation": "Traumatology"
+        },
+        "poi": 7
+    },
+    "312": {
+        "name": "Passenger train derailment (Major)",
+        "stations": {
+            "0": 30,
+            "3": 40,
+            "5": 10
+        },
+        "vehicles": {
+            "truck": 14,
+            "bchief": 6,
+            "platform": 1,
+            "heavyRescue": 6,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 12
+        },
+        "credits": 14000,
+        "patients": {
+            "max": 60,
+            "transport": 70,
+            "specialisation": "Traumatology"
+        },
+        "poi": 24
+    },
+    "313": {
+        "name": "Passenger train derailment (Major)",
+        "stations": {
+            "0": 30,
+            "3": 40,
+            "5": 10
+        },
+        "vehicles": {
+            "truck": 14,
+            "bchief": 6,
+            "platform": 1,
+            "heavyRescue": 6,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 12
+        },
+        "credits": 14000,
+        "patients": {
+            "max": 60,
+            "transport": 70,
+            "specialisation": "Traumatology"
+        },
+        "poi": 40
+    },
+    "314": {
+        "name": "Bus in river",
+        "stations": {
+            "0": 6,
+            "3": 6,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 2,
+            "boat": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 20,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Traumatology"
+        },
+        "poi": 27
+    },
+    "315": {
+        "name": "Chemistry accident at school",
+        "stations": {
+            "0": 11,
+            "3": 1
+        },
+        "vehicles": {
+            "hazmat": 1,
+            "truck": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 2,
+            "transport": 70,
+            "specialisation": "Traumatology"
+        },
+        "poi": 12,
+        "expansions": {
+            "0": 181
+        },
+        "percentages": {
+            "hazmat": 70
+        }
     }
 }

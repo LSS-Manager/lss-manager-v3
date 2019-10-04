@@ -501,7 +501,11 @@
         476: 'Angefahrener Radfahrer',
         477: 'Baum auf Zug',
         478: 'Baum auf Zug',
-        479: 'Baum auf Zug'
+        479: 'Baum auf Zug',
+        480: 'Flugzeugreifenplatzer',
+        481: 'Flugzeugreifenplatzer',
+        482: 'Flugzeugreifenplatzer',
+        483: 'Flugzeugreifenplatzer'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -834,7 +838,8 @@
         311: 'Passenger train derailment (Major)',
         312: 'Passenger train derailment (Major)',
         313: 'Passenger train derailment (Major)',
-        314: 'Bus in river'
+        314: 'Bus in river',
+        315: 'Chemistry accident at school'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -927,7 +932,8 @@
         71: 'Nosebleed',
         72: 'Light Aircraft Crash',
         73: 'Serious Accident Involving a Bus',
-        74: 'Major fire'
+        74: 'Major fire',
+        75: 'Partial Building Collapse'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1431,7 +1437,13 @@
         482: 'Watersporter vermist',
         483: 'Vat met gevaarlijke stoffen omgevallen',
         484: 'Vat met gevaarlijke stoffen omgevallen',
-        485: 'Vat met gevaarlijke stoffen omgevallen'
+        485: 'Vat met gevaarlijke stoffen omgevallen',
+        486: 'Wateroverlast',
+        487: 'Wateroverlast',
+        488: 'Wateroverlast',
+        489: 'Wateroverlast',
+        490: 'Wateroverlast',
+        491: 'Wateroverlast'
       }
     };
 
@@ -1934,7 +1946,11 @@
       476: 'RD 1',
       477: 'THL 3 ZUG',
       478: 'THL 3 ZUG',
-      479: 'THL 3 ZUG'
+      479: 'THL 3 ZUG',
+      480: 'THL 2 FLUGZEUG',
+      481: 'THL 2 FLUGZEUG',
+      482: 'THL 2 FLUGZEUG',
+      483: 'THL 2 FLUGZEUG'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2251,7 +2267,8 @@
       311: 'TECH 6 TRAIN',
       312: 'TECH 6 TRAIN',
       313: 'TECH 6 TRAIN',
-      314: 'TECH 4 WATER'
+      314: 'TECH 4 WATER',
+      315: 'CBRN 1'
     };
       let DEFAULT_AAO_FJ = {
       1: 'FIRE 1',
@@ -2327,7 +2344,8 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'TECH 3'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2815,7 +2833,13 @@
       482: 'HV 2 WATER',
       483: 'OGS 1',
       484: 'OGS 2',
-      485: 'OGS 2'
+      485: 'OGS 2',
+      486: 'HV 1',
+      487: 'HV 1',
+      488: 'HV 1',
+      489: 'HV 1',
+      490: 'HV 2',
+      491: 'HV 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
