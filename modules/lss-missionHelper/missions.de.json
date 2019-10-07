@@ -8480,7 +8480,7 @@
     "480": {
         "name": "Flugzeugreifenplatzer",
         "stations": {
-            "0": 5,
+            "0": 4,
             "2": 1,
             "6": 2
         },
@@ -8488,16 +8488,14 @@
             "lf": 3,
             "rw": 1,
             "elw1": 1,
-            "fustw": 2,
-            "flf": 2,
-            "rtf": 1
+            "fustw": 2
         },
-        "credits": 2700,
+        "credits": 2200,
         "patients": {
             "max": 1,
             "transport": 100,
             "nef": 100,
-            "rth": 60,
+            "rth": 40,
             "specialisation": "Unfallchirurgie"
         },
         "poi": 29
@@ -8505,7 +8503,7 @@
     "481": {
         "name": "Flugzeugreifenplatzer",
         "stations": {
-            "0": 5,
+            "0": 4,
             "2": 1,
             "6": 2
         },
@@ -8513,16 +8511,14 @@
             "lf": 3,
             "rw": 1,
             "elw1": 1,
-            "fustw": 2,
-            "flf": 2,
-            "rtf": 1
+            "fustw": 2
         },
-        "credits": 2700,
+        "credits": 2200,
         "patients": {
             "max": 1,
             "transport": 100,
             "nef": 100,
-            "rth": 60,
+            "rth": 40,
             "specialisation": "Unfallchirurgie"
         },
         "poi": 31

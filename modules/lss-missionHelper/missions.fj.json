@@ -809,6 +809,15 @@
         },
         "credits": 400
     },
+	"63": {
+        "name": "Transient Ischemic Attack",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Neurosurgery"
+    },
     "64": {
         "name": "Accident Involving a Bus",
         "stations": {
