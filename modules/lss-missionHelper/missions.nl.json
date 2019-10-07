@@ -809,6 +809,20 @@
         },
         "credits": 250
     },
+	"59": {
+        "name": "Brand in opslagloods",
+        "vehicles": {
+            "tankauto": 16,
+            "redvoertuig": 4,
+            "hulpverlening": 2,
+            "ovdb": 4,
+            "adembescherming": 1,
+            "slangenwagen": 4,
+            "hovd": 1,
+            "commando": 1
+        },
+        "credits": 15000
+    },
     "60": {
         "name": "Brand in slaapkamer",
         "stations": {

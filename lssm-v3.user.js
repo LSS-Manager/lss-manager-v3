@@ -1,16 +1,13 @@
 // ==UserScript==
 // @name         LSS Manager v3
-// @version      3.x (Autoupdate)
+// @version      3.x.x (Autoupdate)
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
-// @include      *://www.leitstellenspiel.de/
 // @include      *://www.leitstellenspiel.de/*
-// @include      *://www.missionchief.com/*
-// @include      *://www.missionchief.com/
 // @include      *://www.missionchief.co.uk/*
-// @include      *://www.missionchief.co.uk/
+// @include      *://missionchief.co.uk/*
+// @include      *://www.missionchief.com/*
 // @include      *://www.meldkamerspel.com/*
-// @include      *://www.meldkamerspel.com/
 // @grant        none
 // @run          document-start
 // ==/UserScript==
