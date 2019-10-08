@@ -788,8 +788,9 @@
             "2": 2
         },
         "vehicles": {
-            "truck": 1,
-            "arff": 2
+            "truck": 3,
+            "heavyRescue": 2,
+			"bchief": 1
         },
         "credits": 2500,
         "patients": {
