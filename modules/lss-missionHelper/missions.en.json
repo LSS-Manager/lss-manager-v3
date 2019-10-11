@@ -5249,5 +5249,22 @@
         "percentages": {
             "hazmat": 70
         }
+    },
+    "316": {
+        "name": "Bus on fire",
+        "stations": {
+            "0": 6,
+            "3": 6
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 12,
+            "transport": 50,
+            "specialisation": "General Surgeon"
+        }
     }
 }

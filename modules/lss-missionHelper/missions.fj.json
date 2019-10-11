@@ -790,7 +790,7 @@
         "vehicles": {
             "truck": 3,
             "heavyRescue": 2,
-			"bchief": 1
+            "bchief": 1
         },
         "credits": 2500,
         "patients": {
@@ -810,7 +810,7 @@
         },
         "credits": 400
     },
-	"63": {
+    "63": {
         "name": "Transient Ischemic Attack",
         "stations": {
             "2": 1
@@ -1027,6 +1027,24 @@
         "credits": 7300,
         "patients": {
             "max": 2,
+            "specialisation": "General Surgeon"
+        }
+    },
+    "76": {
+        "name": "Industrial Fire",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "platform": 1,
+            "bchief": 2,
+            "hazmat": 1
+        },
+        "credits": 4800,
+        "patients": {
+            "max": 4,
             "specialisation": "General Surgeon"
         }
     }
