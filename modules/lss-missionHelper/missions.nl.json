@@ -809,7 +809,7 @@
         },
         "credits": 250
     },
-	"59": {
+    "59": {
         "name": "Brand in opslagloods",
         "vehicles": {
             "tankauto": 16,
@@ -8046,12 +8046,12 @@
             "noodhulpeen": 2,
             "ovdp": 1
         },
-        "credits": 450,
+        "credits": 1100,
         "patients": {
             "max": 30,
             "min": 15,
             "transport": 50,
-            "mmtarts": 100,
+            "mmtarts": 5,
             "specialisation": "Interne Geneeskunde"
         },
         "poi": 43
@@ -8095,12 +8095,12 @@
             "noodhulpeen": 2,
             "ovdp": 1
         },
-        "credits": 450,
+        "credits": 1100,
         "patients": {
             "max": 30,
             "min": 15,
             "transport": 50,
-            "mmtarts": 100,
+            "mmtarts": 5,
             "specialisation": "Interne Geneeskunde"
         },
         "poi": 22
@@ -8471,6 +8471,42 @@
         "poi": 14,
         "percentages": {
             "hulpverlening": 60
+        }
+    },
+    "492": {
+        "name": "Ongeregeldheden voetbalsupporters horeca",
+        "stations": {
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 2000,
+        "poi": 19,
+        "prisoners": {
+            "max": 4
+        }
+    },
+    "493": {
+        "name": "Ongeregeldheden voetbalsupporters horeca",
+        "stations": {
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "ovdp": 1,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 1650,
+        "poi": 19,
+        "prisoners": {
+            "max": 3
         }
     }
 }

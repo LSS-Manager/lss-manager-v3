@@ -505,7 +505,8 @@
         480: 'Flugzeugreifenplatzer',
         481: 'Flugzeugreifenplatzer',
         482: 'Flugzeugreifenplatzer',
-        483: 'Flugzeugreifenplatzer'
+        483: 'Flugzeugreifenplatzer',
+        484: 'Transportunfall mit Strahler'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -839,7 +840,8 @@
         312: 'Passenger train derailment (Major)',
         313: 'Passenger train derailment (Major)',
         314: 'Bus in river',
-        315: 'Chemistry accident at school'
+        315: 'Chemistry accident at school',
+        316: 'Bus on fire'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -933,7 +935,8 @@
         72: 'Light Aircraft Crash',
         73: 'Serious Accident Involving a Bus',
         74: 'Major fire',
-        75: 'Partial Building Collapse'
+        75: 'Partial Building Collapse',
+        76: 'Industrial Fire'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1443,7 +1446,9 @@
         488: 'Wateroverlast',
         489: 'Wateroverlast',
         490: 'Wateroverlast',
-        491: 'Wateroverlast'
+        491: 'Wateroverlast',
+        492: 'Ongeregeldheden voetbalsupporters horeca',
+        493: 'Ongeregeldheden voetbalsupporters horeca'
       }
     };
 
@@ -1950,7 +1955,8 @@
       480: 'THL 2 FLUGZEUG',
       481: 'THL 2 FLUGZEUG',
       482: 'THL 2 FLUGZEUG',
-      483: 'THL 2 FLUGZEUG'
+      483: 'THL 2 FLUGZEUG',
+      484: 'ABC 3'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2268,7 +2274,8 @@
       312: 'TECH 6 TRAIN',
       313: 'TECH 6 TRAIN',
       314: 'TECH 4 WATER',
-      315: 'CBRN 1'
+      315: 'CBRN 1',
+      316: 'FIRE 2'
     };
       let DEFAULT_AAO_FJ = {
       1: 'FIRE 1',
@@ -2332,7 +2339,7 @@
       59: 'TECH 1',
       60: 'FIRE 5',
       61: 'FIRE 1',
-      62: 'MED 1',
+      62: 'POL 1',
       63: 'MED 1',
       64: 'TECH 2',
       65: 'FIRE 2',
@@ -2345,7 +2352,8 @@
       72: 'FIRE 3',
       73: 'TECH 3',
       74: 'FIRE 7',
-      75: 'TECH 3'
+      75: 'TECH 3',
+      76: 'FIRE 5'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -2839,7 +2847,9 @@
       488: 'HV 1',
       489: 'HV 1',
       490: 'HV 2',
-      491: 'HV 2'
+      491: 'HV 2',
+      492: 'POL 3',
+      493: 'POL 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

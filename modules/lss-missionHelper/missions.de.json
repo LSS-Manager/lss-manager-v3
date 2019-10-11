@@ -8572,5 +8572,38 @@
             "specialisation": "Unfallchirurgie"
         },
         "poi": 34
+    },
+    "484": {
+        "name": "Transportunfall mit Strahler",
+        "stations": {
+            "0": 14,
+            "2": 4,
+            "6": 2
+        },
+        "vehicles": {
+            "lf": 3,
+            "rw": 1,
+            "elw1": 1,
+            "fustw": 2,
+            "mess": 2,
+            "atem": 1,
+            "dekon": 1
+        },
+        "credits": 2800,
+        "patients": {
+            "max": 3,
+            "min": 1,
+            "transport": 50,
+            "nef": 100,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "special": {
+            "averageMinimumEmployeesFire": 27
+        },
+        "percentages": {
+            "atem": 50,
+            "dekon": 10
+        }
     }
 }
