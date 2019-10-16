@@ -4,15 +4,6 @@
             let destinations = $('.col-md-9 a.btn-success[href*="/gefangener/"]:visible, .col-md-9 table a.btn-success[href*="/patient/"]:visible');
             let vehicle_checkboxes = $(".vehicle_checkbox");
             switch (e.keyCode) {
-                case 68: //Next Mission: D
-                    $("#mission_next_mission_btn")[0].click();
-                    break;
-                case 65: //Last Mission: A
-                    $("#mission_previous_mission_btn")[0].click();
-                    break;
-                case 81: //Editing a call request : Q
-                    $('a:contains("Sprechwunsch bearbeiten")')[0].click();
-                    break;
                 case 49: //drive to hospital/cells 1: 1
                     destinations[0].click();
                     break;
@@ -33,9 +24,6 @@
                     break;
                 case 82: //Back to Mission : R
                     $("#btn_back_to_mission").click();
-                    break;
-                case 88: //Alarm units: X
-                    $("#mission_alarm_btn").click();
                     break;
                 case 89: //Back to Missionlist: Y
                     $("#mission_list").find("a[href^='/missions/']:eq(0)").click();
