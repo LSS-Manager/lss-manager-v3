@@ -10,6 +10,12 @@
     I18n.translations.fj.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
+    I18n.translations.eu.lssm.missionOut = {
+        title: 'Hide/Show mission'
+    };
+    I18n.translations.es.lssm.missionOut = {
+        title: 'Ocultar/Mostrar misión'
+    };
     I18n.translations.nl.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };

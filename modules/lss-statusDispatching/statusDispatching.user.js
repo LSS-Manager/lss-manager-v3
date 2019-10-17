@@ -41,6 +41,32 @@
         fms5H1: 'transportiert'
     };
 
+    I18n.translations.eu.lssm.statusDispatching = {
+        name: 'Enhanced transport requests',
+        fms: 'Transport Requested',
+        nextVehicle: 'Go to the next vehicle with a transport request',
+        backToAlarm: 'Back to mission',
+        settingsTitle: 'Enhanced transport requests - Settings',
+        settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
+        settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br>'
+            + 'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
+        close: 'Close',
+        fms5H1: 'transportiert'
+    };
+
+    I18n.translations.es.lssm.statusDispatching = {
+        name: 'Solicitudes de transporte mejoradas',
+        fms: 'Transporte Solicitado',
+        nextVehicle: 'Ir al vehículo siguiente con una orden de transporte',
+        backToAlarm: 'Volver a la misión',
+        settingsTitle: 'Órdenes de transporte ampliadas - Configuración',
+        settingsAttr: 'Haga clic en el botón "Transport Requested" en la máscara de la misión automáticamente.',
+        settingsAttrDesc: 'La activación de esta opción permite hacer clic automáticamente en el botón "transport requested" de la máscara de la misión. De esta forma, tendrá que pasar por todas las solicitudes de transporte antes de poder ver los detalles de la misión. Habilitar esta opción permite un procesamiento más rápido de las órdenes de transporte.<br>'
+            + 'Desactivar esta opción permite ver los detalles de la misión antes de procesar las solicitudes de transporte. Los botones "Ir al siguiente vehículo con una solicitud de transporte" y "Volver a la misión" no se ven afectados por esta configuración y siempre se hace clic automáticamente.',
+        close: 'Cerrar',
+        fms5H1: 'transportista'
+    };
+
     I18n.translations.nl.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

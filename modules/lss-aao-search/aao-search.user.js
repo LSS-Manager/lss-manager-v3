@@ -17,7 +17,19 @@
         reset: "Reset",
         select: "Please select..."
     };
-	I18n.translations.nl['lssm']['aaosearch'] = {
+    I18n.translations.eu['lssm']['aaosearch'] = {
+        search_aao: "Search AAO",
+        use_dd: "Use dropdown: ",
+        reset: "Reset",
+        select: "Please select..."
+    };
+    I18n.translations.es['lssm']['aaosearch'] = {
+        search_aao: "Buscar AAO",
+        use_dd: "Use el menú desplegable: ",
+        reset: "Reiniciar",
+        select: "Por favor seleccione...."
+    };
+	  I18n.translations.nl['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
         use_dd: "Gebruik dropdown-menu: ",
         reset: "Reset",
@@ -172,10 +184,10 @@
             activateSearch();
         }
     });
-    
+
     $("#lssm_aao_reset").on("click", function(){
         "use strict";
         vehicleSelectionReset();
     });
-    
+
 })($, I18n);
