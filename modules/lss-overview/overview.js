@@ -110,7 +110,7 @@
             startPersonell: 10,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 20.000 mehr).',
             extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>9*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         fwklein: {
@@ -122,7 +122,7 @@
             startPersonell: 9,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
         },
         fwschule: {
@@ -1139,7 +1139,7 @@
             startPersonell: 10,
             startVehicle: 'Type 1 fire engine, Type 2 fire engine',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -1150,7 +1150,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Type 1 fire engine, Type 2 fire engine',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
         fwschule: {
@@ -1584,6 +1584,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
             startVehicle: 'Incident response vehicle (IRV)',
+            extensions: 'Cell (25.000 Credits)<br>Max. 2 can be built',
             maxBuildings: 'No Limit',
         },
         fw: {
@@ -1595,7 +1596,7 @@
             startPersonell: 10,
             startVehicle: 'Rescue Ladder, Tactical Response Vehicle (TRV)',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -1606,7 +1607,8 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Rescue Ladder, Tactical Response Vehicle (TRV)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
+            extensions: 'No extensions possible',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
         fwschule: {
@@ -1654,6 +1656,17 @@
             extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit',
             special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+        },
+        khklein: {
+            name: 'Urgent Care Center',
+            credits: 100000,
+            coins: 25,
+            maxlevel: 5,
+            levelcost: 'in each case 20.000 Credits/11 Coins',
+            startPersonell: 0,
+            startVehicle: 'Non. You can buy max. 2 Vehicles',
+            extensions: 'General Internal (10.000 Credits/10 Coins)',
+            maxBuildings: 'No Limit'
         }
     };
 
@@ -1723,14 +1736,12 @@
                 credits: 5000,
                 coins: 25
             },
-            sar: {
-              name: 'SAR helicopter',
-              min: x,
-              max: x,
-              credits: x,
-              coins: x,
-              schooling: x,
-              special: 'x'
+            rr: {
+              name: 'Rapid Response Vehicle',
+              min: 1,
+              max: 1,
+              credits: 4000,
+              coins: 20
             }
         },
         pol: {
@@ -1741,7 +1752,18 @@
                 credits: 5000,
                 coins: 25
             }
-        }
+        },
+        heli: {
+              sar: {
+                name: 'SAR helicopter',
+                min: x,
+                max: x,
+                credits: x,
+                coins: x,
+                schooling: x,
+                special: 'x'
+          }
+      }
     };
 
     I18n.translations.nl.lssm.overview.hiorgs = {
@@ -1774,7 +1796,7 @@
             startPersonell: 10,
             startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
             extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in elk geval 7 dagen, 100.000 Credits/20 Coins)',
-            maxBuildings: '1.850',
+            maxBuildings: '2.200',
             special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
         },
         fwschule: {

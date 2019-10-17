@@ -936,7 +936,10 @@
         73: 'Serious Accident Involving a Bus',
         74: 'Major fire',
         75: 'Partial Building Collapse',
-        76: 'Industrial Fire'
+        76: 'Industrial Fire',
+        77: 'Patient Transfer',
+        78: 'Cardiac Arrest',
+        79: 'Respiratory Arrest'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2353,7 +2356,10 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'TECH 3',
-      76: 'FIRE 5'
+      76: 'FIRE 5',
+      77: 'MEDT',
+      78: 'MED 1',
+      79: 'MED 1'
     };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',

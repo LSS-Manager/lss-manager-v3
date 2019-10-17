@@ -283,7 +283,8 @@
                 7: "Dispatch Center",
                 18: "Fire Station (Small)",
                 19: "Police Station (Small station)",
-                20: "Ambulance station (Small station)"
+                20: "Ambulance station (Small station)",
+                21: "Urgent Care Center"
             },
             vehicleTypes: {
                 0: 'Rescue Ladder',
@@ -295,7 +296,8 @@
                 6: 'Water Carrier',
                 7: 'HazMat Unit',
                 8: 'Incident response vehicle (IRV)',
-                9: 'SAR helicopter'
+                9: 'SAR helicopter',
+                10: 'Rapid Response Vehicle'
             }
         }
     };

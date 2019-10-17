@@ -75,7 +75,8 @@ else if (I18n.locale == "fj")
         "6": ["Water Carrier", 0],
         "7": ["HazMat Unit", 0],
         "8": ["Incident response vehicle (IRV)", 6],
-        "9": ["SAR helicopter", 2]
+        "9": ["SAR helicopter", 2],
+        "10": ["Rapid Response Vehicle", 2]
     };
 }
 else if (I18n.locale == "nl")
