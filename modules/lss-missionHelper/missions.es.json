@@ -80,6 +80,16 @@
             "platform": 30
         }
     },
+    "6": {
+        "name": "Cobertizo en llamas",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
     "7": {
         "name": "Hojas ardiendo",
         "stations": {
