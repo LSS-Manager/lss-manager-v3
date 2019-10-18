@@ -506,7 +506,8 @@
         481: 'Flugzeugreifenplatzer',
         482: 'Flugzeugreifenplatzer',
         483: 'Flugzeugreifenplatzer',
-        484: 'Transportunfall mit Strahler'
+        484: 'Transportunfall mit Strahler',
+        485: 'Brand mehrerer E-Autos in Auslieferungshalle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -841,7 +842,8 @@
         313: 'Passenger train derailment (Major)',
         314: 'Bus in river',
         315: 'Chemistry accident at school',
-        316: 'Bus on fire'
+        316: 'Bus on fire',
+        317: 'Subway Collapse'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -939,7 +941,17 @@
         76: 'Industrial Fire',
         77: 'Patient Transfer',
         78: 'Cardiac Arrest',
-        79: 'Respiratory Arrest'
+        79: 'Respiratory Arrest',
+        80: '',
+        81: '',
+        82: '',
+        83: '',
+        84: '',
+        85: '',
+        86: '',
+        87: '',
+        88: '',
+        89: 'Road Traffic Collision (Major)'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -2145,7 +2157,8 @@
       481: 'THL 2 FLUGZEUG',
       482: 'THL 2 FLUGZEUG',
       483: 'THL 2 FLUGZEUG',
-      484: 'ABC 3'
+      484: 'ABC 3',
+      485: 'ABC 4'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2464,7 +2477,8 @@
       313: 'TECH 6 TRAIN',
       314: 'TECH 4 WATER',
       315: 'CBRN 1',
-      316: 'FIRE 2'
+      316: 'FIRE 2',
+      317: 'TECH 5'
     };
       let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -2546,7 +2560,17 @@
       76: 'FIRE 5',
       77: 'MEDT',
       78: 'MED 1',
-      79: 'MED 1'
+      79: 'MED 1',
+      80: '',
+      81: '',
+      82: '',
+      83: '',
+      84: '',
+      85: '',
+      86: '',
+      87: '',
+      88: '',
+      89: 'TECH 5'
     };
       let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
