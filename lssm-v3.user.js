@@ -8,6 +8,10 @@
 // @include      *://missionchief.co.uk/*
 // @include      *://www.missionchief.com/*
 // @include      *://www.meldkamerspel.com/*
+// @include      *://www.centro-de-mando.es/
+// @include      *://www.centro-de-mando.es/*
+// @include      *://www.missionchief-australia.com/
+// @include      *://www.missionchief-australia.com/*
 // @grant        none
 // @run          document-start
 // ==/UserScript==

@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(\.de|\.com|\.co\.uk)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -39,6 +39,30 @@
         updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
         chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
+    };
+    I18n.translations.eu.lssm.verbandsverwaltung = {
+        name: 'Administration',
+        allianceFunds: 'Alliance Funds',
+        allianceCredits: 'Earned Credits',
+        users: 'Members',
+        onlineUsers: 'Members online',
+        allianceRank: 'Rank in Alliancelist',
+        page: 'Page',
+        updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
+        chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
+        hoverTip: 'Tip: Hover over an element to display a value history.'
+    };
+    I18n.translations.es.lssm.verbandsverwaltung = {
+        name: 'Administración',
+        allianceFunds: 'Fondos de la Alianza',
+        allianceCredits: 'Créditos Obtenidos',
+        users: 'Miembros',
+        onlineUsers: 'Miembros en línea',
+        allianceRank: 'Rango en Alliancelista',
+        page: 'Página',
+        updateMessage: 'Los valores se actualizan automáticamente<br>cada ' + updateMin + ' actas.',
+        chartErr: 'No se pudo cargar el gráfico "{{chart}}"!<br>Ya sabemos que esto sucede con algunos navegadores, pero aún no sabemos por qué. Por favor <b>no nos informe de este error ya que estamos en este problema!',
+        hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
         name: 'Toediening',

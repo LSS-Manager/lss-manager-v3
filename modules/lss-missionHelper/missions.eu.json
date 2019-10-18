@@ -67,13 +67,17 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 3
+            "truck": 2,
+            "platform": 1
         },
-        "credits": 1300,
+        "credits": 1400,
         "patients": {
             "max": 1,
             "transport": 50,
             "specialisation": "General Internal"
+        },
+        "percentages": {
+            "platform": 30
         }
     },
     "6": {
@@ -263,12 +267,12 @@
             "bchief": 1,
             "truck": 1
         },
-        "credits": 1900,
+        "credits": 2400,
         "expansions": {
             "0": 22
         },
         "percentages": {
-            "platform": 10
+            "platform": 100
         }
     },
     "22": {
@@ -404,7 +408,8 @@
         },
         "vehicles": {
             "bchief": 1,
-            "truck": 3
+            "platform": 1,
+            "truck": 1
         },
         "credits": 1310
     },
@@ -783,9 +788,8 @@
             "2": 2
         },
         "vehicles": {
-            "truck": 3,
-            "heavyRescue": 2,
-            "bchief": 1
+            "truck": 1,
+            "arff": 2
         },
         "credits": 2500,
         "patients": {
@@ -847,13 +851,17 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 2,
+            "platform": 1
         },
-        "credits": 1100,
+        "credits": 1400,
         "patients": {
-            "max": 2,
+            "max": 1,
             "transport": 50,
             "specialisation": "General Internal"
+        },
+        "percentages": {
+            "platform": 30
         }
     },
     "67": {
@@ -1002,81 +1010,5 @@
             "heavyRescue": 2
         },
         "credits": 10210
-    },
-    "75": {
-        "name": "Partial Building Collapse",
-        "stations": {
-            "0": 5,
-            "2": 3
-        },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1,
-            "bchief": 2,
-            "heavyRescue": 2
-        },
-        "credits": 7300,
-        "patients": {
-            "max": 2,
-            "specialisation": "General Surgeon"
-        }
-    },
-    "76": {
-        "name": "Industrial Fire",
-        "stations": {
-            "0": 6,
-            "2": 2
-        },
-        "vehicles": {
-            "truck": 6,
-            "platform": 1,
-            "bchief": 2,
-            "hazmat": 1
-        },
-        "credits": 4800,
-        "patients": {
-            "max": 4,
-            "specialisation": "General Surgeon"
-        }
-    },
-    "77": {
-        "name": "Patient Transfer",
-        "onlyRd": true,
-        "transport": 0,
-        "nef": 0
-    },
-    "78": {
-        "name": "Cardiac Arrest",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "General Surgeon"
-    },
-    "79": {
-        "name": "Respiratory Arrest",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "General Surgeon"
-    },
-    "89": {
-        "name": "Road Traffic Collision (Major)",
-        "vehicles": {
-            "truck": 8,
-            "heavyRescue": 4,
-            "bchief": 6,
-            "police": 8
-        },
-        "credits": 16000,
-        "patients": {
-            "max": 20,
-            "min": 2,
-            "transport": 70,
-            "specialisation": "Traumatology"
-        }
     }
 }
