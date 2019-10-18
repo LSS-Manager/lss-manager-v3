@@ -474,6 +474,285 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.eu.lssm.missionhelper = {
+        diy_mission: 'This mission seems to be a large scale alliance mission.',
+        siwa: 'Planned mission',
+        vge: 'Large scale alliance mission',
+        patients: 'Patients',
+        prisoners: 'Prisoners',
+        water: 'Wasserbedarf',
+        to: 'up to',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'This mission is ambulance-only!',
+        title: 'Missionhelper',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'Name',
+                description: 'Shows the name of the mission in the helper.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Displays the ID of the mission in the helper.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Displays the ID of the mission type in the helper.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indicates in the helper which POI the operation is at.'
+            },
+            live_patients: {
+                label: 'Number of patients',
+                description: 'Shows live how many patients are currently in use.'
+            },
+            vehicles: {
+                label: 'Vehicles',
+                description: 'Displays the required vehicles.'
+            },
+            patients: {
+                label: 'patient information',
+                description: 'Shows information about (potential) patients.'
+            },
+            prisoners: {
+                label: 'prisoner information',
+                description: 'Shows information about (potential) prisoners.'
+            },
+            special: {
+                label: 'Other information',
+                description: 'Displays special information, such as the average minimum number of personnel required.'
+            },
+            expansions: {
+                label: 'distributions',
+                description: 'Shows what the bet can spread to. (Shows only simple spread)'
+            },
+            show_100: {
+                label: 'Show 100% probability',
+                description: 'Shows the probability for a vehicle even if it is 100%.'
+            },
+            credits: {
+                label: 'Average earnings',
+                description: 'Shows the average earnings you get for this assignment.'
+            },
+            show_siwa: {
+                label: 'Requirements of security guards',
+                description: 'Shows the requirements for security guards in the helper as well.'
+            },
+            mission_time: {
+                label: 'Creation Time',
+                description: 'Shows the date and time when the mission was created.'
+            }
+        },
+        vehicles: {
+            truck: "Fire engines",
+            platform: "Turntable Ladder",
+            heavyRescue: "Heavy Rescue",
+            air: "Mobile Air",
+            bchief: "Command Unit",
+            tanker: "Water Tanker",
+            hazmat: "HazMat",
+            mcv: "Mobile Command Vehicle",
+            police: "Police Car",
+            arff: "ARFF"
+        },
+        pois: [
+            "Park",
+            "Lake",
+            "Hospital",
+            "Forest",
+            "Bus stop",
+            "Tram stop",
+            "Train station (regional traffic)",
+            "Train station (regional traffic and long-distance travel)",
+            "Goods station",
+            "Supermarket (small)",
+            "Supermarket (big)",
+            "Gas station",
+            "School",
+            "Museum",
+            "Mall",
+            "Car workshop",
+            "Highway exit",
+            "Christmas market",
+            "Storehouse",
+            "Discotheque",
+            "Stadium",
+            "Farm",
+            "Office building",
+            "Swimming bath",
+            "Railroad Crossing",
+            "Theater",
+            "Fairground",
+            "River",
+            "Small Airport (Runway)",
+            "Large Airport (Runway)",
+            "Airport Terminal",
+            "Bank",
+            "Warehouse",
+            "Bridge",
+            "Fast Food Restaurant",
+            "Cargo Port",
+            "Recycling Centre",
+            "High rise",
+            "Cruise ship dock",
+            "Marina",
+            "Rail Crossing",
+            "Tunnel",
+            "Cold Storage Warehouse",
+            "Power Plant",
+            "Factory",
+            "Scrap yard",
+            "Subway station",
+            "Small chemical storage tank",
+            "Large chemical storage tank",
+            "Hotel",
+            "Bar",
+            "Landfill site",
+        ]
+    };
+
+    I18n.translations.es.lssm.missionhelper = {
+        diy_mission: 'Esta misión parece ser una misión de alianza a gran escala.',
+        siwa: 'Misión planificada',
+        vge: 'misión de alianza a gran escala',
+        patients: 'pacientes',
+        prisoners: 'presos',
+        water: 'Wasserbedarf',
+        to: 'up to',
+        ambulance_only: 'Esta misión es sólo de ambulancias.!',
+        title: 'Missionhelper',
+        transport: 'transportar',
+        settings: {
+            name: {
+                label: 'Nombre',
+                description: 'Muestra el nombre de la misión en el ayudante.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Muestra el ID de la misión en el asistente.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Muestra el ID del tipo de misión en el asistente.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indica en el asistente en qué PDI se encuentra la operación.'
+            },
+            live_patients: {
+                label: 'Número de pacientes',
+                description: 'Muestra en vivo cuántos pacientes están actualmente en uso.'
+            },
+            vehicles: {
+                label: 'Vehículos',
+                description: 'Muestra los vehículos necesarios.'
+            },
+            patients: {
+                label: 'información del paciente',
+                description: 'Muestra información sobre pacientes (potenciales).'
+            },
+            prisoners: {
+                label: 'información sobre los presos',
+                description: 'Muestra información sobre prisioneros (potenciales).'
+            },
+            special: {
+                label: 'Otra información',
+                description: 'Muestra información especial, como el promedio mínimo de personal necesario.'
+            },
+            expansions: {
+                label: 'distribuciones',
+                description: 'Muestra a qué puede llegar la apuesta. (Muestra sólo la dispersión simple)'
+            },
+            show_100: {
+                label: 'Mostrar 100% de probabilidad',
+                description: 'Muestra la probabilidad de un vehículo incluso si es 100%.'
+            },
+            credits: {
+                label: 'Ganancias medias',
+                description: 'Muestra el promedio de ganancias que usted obtiene por esta asignación.'
+            },
+            show_siwa: {
+                label: 'Requisitos de los guardias de seguridad',
+                description: 'También muestra los requisitos para los guardias de seguridad en el ayudante.'
+            },
+            mission_time: {
+                label: 'Hora de creación',
+                description: 'Muestra la fecha y la hora en que se creó la misión.'
+            }
+        },
+        vehicles: {
+            truck: "camiones de bomberos",
+            platform: "camiones con plataforma",
+            heavyRescue: "vehículos de rescate",
+            air: "Mobile Air",
+            bchief: "vehículos de jefe de batallón",
+            mcv: "vehículos de mando",
+            tanker: "camiones cisterna",
+            hazmat: "vehículos de materiales peligrosos",
+            police: "coches patrulla",
+            hems: "Helicóptero HSR",
+            arff: "CBA",
+            policeHeli: "Police Helicopter",
+            rtw: "Ambulancia"
+        },
+        pois: [
+            "Parque",
+            "Lago",
+            "Hospital",
+            "Bosque",
+            "Parada de autobús",
+            "Parada de tranvía",
+            "Parada de tren \\(cercanías\\)",
+            "Parada de tren \\(cercanías y larga distancia\\)",
+            "Estación de mercancías",
+            "Supermercado \\(pequeño\\)",
+            "Supermercado \\(grande\\)",
+            "Gasolinera",
+            "Escuela",
+            "Museo",
+            "Centro comercial",
+            "Taller",
+            "Salida de autopista",
+            "Mercado navideño",
+            "Depósito",
+            "Discoteca",
+            "Estadio",
+            "Granja",
+            "Edificio de oficinas",
+            "Piscina",
+            "Railroad Crossing",
+            "Cine",
+            "Feria",
+            "Río",
+            "Aeropuerto pequeño \\(pista\\)",
+            "Aeropuerto grande \\(pista\\)",
+            "Terminal de aeropuerto",
+            "Banco",
+            "Almacén",
+            "Puente",
+            "Restaurante de comida rápida",
+            "Puerto de mercancías",
+            "Centro de reciclaje",
+            "Rascacielos",
+            "Cubierta de yate",
+            "Puerto deportivo",
+            "Paso a nivel",
+            "Túnel",
+            "Almacén frigorífico",
+            "Central eléctrica",
+            "Fábrica",
+            "Chatarrería",
+            "Estación de metro",
+            "Almacén químico pequeño",
+            "Almacén químico grande",
+            "Hotel",
+            "Bar",
+            "Vertedero",
+            "Aparcamiento",
+        ]
+    };
+
     I18n.translations.nl.lssm.missionhelper = {
         diy_mission: 'Deze missie lijkt een grootschalige alliantiemissie te zijn.',
         siwa: 'Geplande missie',

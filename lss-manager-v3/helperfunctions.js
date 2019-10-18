@@ -79,6 +79,56 @@ else if (I18n.locale == "fj")
         "10": ["Rapid Response Vehicle", 2]
     };
 }
+else if (I18n.locale == "eu")
+{
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Ambulance extension": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Prison cell": 10,
+        "More cell": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Class 2 Pumper", 0],
+        "1": ["Class 1 Tanker", 0],
+        "2": ["Turntable Ladder", 0],
+        "3": ["Rapid Response Vehicle", 0],
+        "4": ["Heavy Rescue", 0],
+        "5": ["Ambulance", 2],
+        "6": ["Water Tanker", 0],
+        "7": ["HAZMAT Truck", 0],
+        "8": ["Police Car", 6],
+        "9": ["Helitak", 2]
+    };
+}
+else if (I18n.locale == "es")
+{
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extensión de ambulancia": 0,
+        // Pol-Erweiterungen (10-19)
+        "Calabozo": 10,
+        "Más celdas": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Camión BUP", 0],
+        "1": ["Camión BUL", 0],
+        "2": ["Camión AE", 0],
+        "3": ["Vehículo UMC", 0],
+        "4": ["FUV", 0],
+        "5": ["Ambulancia", 2],
+        "6": ["Camión BNP", 0],
+        "7": ["Camión TPP", 0],
+        "8": ["Coche patrulla", 6],
+        "9": ["Helicóptero HSR", 2]
+    };
+}
 else if (I18n.locale == "nl")
 {
 	lssm.extensions = {

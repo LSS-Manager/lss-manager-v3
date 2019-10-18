@@ -64,6 +64,48 @@
     }
   }
 
+  I18n.translations.eu.lssm['n-alarm'] = {
+    not_support: "This browser doesn't support HTML5-Notifications",
+    inithead: "Initalization",
+    chat_message: "Chat message from ",
+    blend: "Hide after:",
+    seconds: "seconds",
+    settings: {
+      title: "Notification-Alert",
+      chat_title: "Chat messages",
+      chat_text: "Get chat messages as notification.",
+      s5_title: "Transport Request",
+      save: "Save",
+      close: "Close",
+      s5_text: "Get Transport Requests as notification",
+      status_title: "Status",
+      status_text: "Get all status messages as notification.",
+      chatp_title: "Get chat messages as info popup",
+      chatp_text: "Get all chat messages as popup message on the right side"
+    }
+  }
+
+  I18n.translations.es.lssm['n-alarm'] = {
+    not_support: "Este navegador no soporta Notificaciones HTML5",
+    inithead: "Initalización",
+    chat_message: "Mensaje de chat de ",
+    blend: "Ocultar después:",
+    seconds: "segunda porción",
+    settings: {
+      title: "Notificación-Alerta",
+      chat_title: "Mensajes de chat",
+      chat_text: "Recibe mensajes de chat como notificación.",
+      s5_title: "Solicitud de transporte",
+      save: "Guardar",
+      close: "Cerrar",
+      s5_text: "Obtener órdenes de transporte como notificación",
+      status_title: "Estado",
+      status_text: "Obtenga todos los mensajes de estado como notificación.",
+      chatp_title: "Obtener mensajes de chat como ventana emergente de información",
+      chatp_text: "Obtener todos los mensajes de chat como mensaje emergente en el lado derecho"
+    }
+  }
+
   I18n.translations.nl.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",

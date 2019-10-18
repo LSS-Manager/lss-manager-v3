@@ -249,7 +249,7 @@
         number: '{number} Type-counter',
         numberRoman: '{numberRoman} Type-counter (Roman numerals)',
         dispatch: '{dispatch} Name of Dispatchcenter',
-        dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
         stationAlias: '{stationAlias} Building-Alias',
         saveAll: 'save All',
         statusWaiting: 'Wait for input',
@@ -298,6 +298,126 @@
                 8: 'Incident response vehicle (IRV)',
                 9: 'SAR helicopter',
                 10: 'Rapid Response Vehicle'
+            }
+        }
+    };
+    I18n.translations.eu.lssm.renameFz = {
+        name: 'Rename vehicles',
+        rename: "rename",
+        id: "{id} Id of Vehicle",
+        old: "{old} Current name",
+        vehicleType: "{vehicleType} Type of Vehicle",
+        stationName: "{stationName} Name of building",
+        number: '{number} Type-counter',
+        numberRoman: '{numberRoman} Type-counter (Roman numerals)',
+        dispatch: '{dispatch} Name of Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
+        stationAlias: '{stationAlias} Building-Alias',
+        saveAll: 'save All',
+        statusWaiting: 'Wait for input',
+        statusError: '<b>Error during generation!</b> If this error occurs again, please report it. Please provide the following information:',
+        statusWorking: 'Generate names and forms. This can take a certain amount of time, depending on the system and number of vehicles.',
+        statusSuccess: 'Names and Forumlare successfully generated!',
+        nameAlreadyCorrect: 'Name already corresponds to the template!',
+        nameToLong: 'The name is too long for the following vehicles:',
+        nameToLongOriginalName: 'Original Name',
+        nameToLongGeneratedName: 'Generated Name',
+        nameToLongShortenedName: 'New/shortened name',
+        helpTitle: 'You can find a small instruction under this link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Counter start',
+        startNumHelp: 'Here you can enter a start value for the type counter. If you set 0 as the start value, the first vehicle of a type will not get the numbering, this is very practical if you have only one vehicle of a type on a guard and do not want to number it. But you can also start the counter at 5 (for whatever reason you want, but it is possible ;) )',
+        toggleNameCorrect: 'Show/Hide Vehicles with correct names',
+        settings: {
+            show: 'Show/Hide',
+            names: {
+                vehicleTypes: 'vehicle Types',
+                stations: 'Building alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Here you can set alternative names for each vehicle Type. You can use them when renaming you vehicles via dispatch center.',
+                stations: 'Here you can set alternative names for each building. You can use them when renaming you vehicles via dispatch center.'
+            },
+            validStationTypes: {
+                0: "Fire Station",
+                2: "Ambulance Station",
+                6: "Police Station",
+                7: "Dispatch Center",
+                18: "Fire Station (Small)",
+                19: "Police Station (Small station)",
+                20: "Ambulance station (Small station)"
+            },
+            vehicleTypes: {
+                0: 'Class 2 Pumper',
+                1: 'Class 1 Tanker',
+                2: 'Turntable Ladder',
+                3: 'Rapid Response Vehicle',
+                4: 'Heavy Rescue',
+                5: 'Ambulance',
+                6: 'Water Tanker',
+                7: 'HAZMAT Truck',
+                8: 'Police Car',
+                9: 'Helitak'
+            }
+        }
+    };
+    I18n.translations.es.lssm.renameFz = {
+        name: 'Renombrar vehículos',
+        rename: "cambiar de nombre",
+        id: "{id} Id del Vehículo",
+        old: "{old} Nombre actual",
+        vehicleType: "{vehicleType} Tipo de vehículo",
+        stationName: "{stationName} Nombre del edificio",
+        number: '{number} Contador de tipos',
+        numberRoman: '{numberRoman} Contador de tipos (Roman numerals)',
+        dispatch: '{dispatch} Nombre del centro de despacho',
+        dispatchAlias: '{dispatchAlias} Alias de Dispatchcenter',
+        stationAlias: '{stationAlias} Edificio-Alias',
+        saveAll: 'guardar Todo',
+        statusWaiting: 'Esperar a la entrada',
+        statusError: '<b>Error durante la generación!</b> Si este error ocurre de nuevo, por favor repórtelo. Por favor, proporcione la siguiente información:',
+        statusWorking: 'Generar nombres y formularios. Esto puede llevar cierto tiempo, dependiendo del sistema y del número de vehículos.s.',
+        statusSuccess: 'Nombres y Forumlare generados con éxito!',
+        nameAlreadyCorrect: 'El nombre ya corresponde a la plantilla!',
+        nameToLong: 'El nombre es demasiado largo para los siguientes vehículos:',
+        nameToLongOriginalName: 'Nombre original',
+        nameToLongGeneratedName: 'Nombre generado',
+        nameToLongShortenedName: 'Nombre nuevo o abreviado',
+        helpTitle: 'Puede encontrar una pequeña instrucción en este enlace: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Inicio de contador',
+        startNumHelp: 'Aquí puede introducir un valor inicial para el tipo de contador. Si establece 0 como valor de inicio, el primer vehículo de un tipo no obtendrá la numeración, esto es muy práctico si sólo tiene un vehículo de un tipo en un resguardo y no quiere numerarlo. Pero también puede iniciar el contador a las 5 (por la razón que quiera, pero es posible ;) )',
+        toggleNameCorrect: 'Mostrar/ocultar vehículos con nombres correctos',
+        settings: {
+            show: 'Visualizar/Ocultar',
+            names: {
+                vehicleTypes: 'Tipos de vehículos',
+                stations: 'Edificio alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Aquí puede establecer nombres alternativos para cada tipo de vehículo. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío..',
+                stations: 'Aquí puede establecer nombres alternativos para cada edificio. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío.'
+            },
+            validStationTypes: {
+                0: "Parque de bomberos",
+                2: "Parque de ambulancias",
+                6: "Comisaría de policía",
+                7: "Centralita",
+                18: "Parque de bomberos (pequeño)",
+                19: "Comisaría de policía (pequeño)",
+                20: "Parque de ambulancias (pequeño)"
+            },
+            vehicleTypes: {
+                0: 'Camión BUP',
+                1: 'Camión BUL',
+                2: 'Camión AE',
+                3: 'Vehículo UMC',
+                4: 'FUV',
+                5: 'Ambulancia',
+                6: 'Camión BNP',
+                7: 'Camión TPP',
+                8: 'Coche patrulla',
+                9: 'Helicóptero HSR'
             }
         }
     };

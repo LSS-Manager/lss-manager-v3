@@ -48,6 +48,36 @@
             set: "Save current position"
         }
     };
+    I18n.translations.eu.lssm.centermap = {
+        center: "Center",
+        settings: {
+            title: "Center-Map",
+            choose: "Please select",
+            option1: "Default",
+            option1desc: "Default zoom level and centering on control center ",
+            option2: "Dynamic",
+            alliance: "Take alliance into account",
+            option2desc: "Center map that all missions and stations are visible.",
+            option3: "Custom",
+            option3desc: "Set custom position and zoom-level.",
+            set: "Save current position"
+        }
+    };
+    I18n.translations.es.lssm.centermap = {
+        center: "Centro",
+        settings: {
+            title: "Mapa del centro",
+            choose: "Por favor, seleccione",
+            option1: "Predeterminado",
+            option1desc: "Nivel de zoom predeterminado y centrado en el centro de control ",
+            option2: "Dinámico",
+            alliance: "Tener en cuenta la alianza",
+            option2desc: "Mapa del centro que indica que todas las misiones y estaciones son visibles.",
+            option3: "A medida",
+            option3desc: "Establecer la posición personalizada y el nivel de zoom.",
+            set: "Guardar la posición actual"
+        }
+    };
     I18n.translations.nl.lssm.centermap = {
         center: "Centreren",
         settings: {

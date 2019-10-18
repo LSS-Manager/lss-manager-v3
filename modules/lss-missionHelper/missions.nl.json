@@ -8508,5 +8508,119 @@
         "prisoners": {
             "max": 3
         }
+    },
+    "494": {
+        "name": "Personenauto in sloot",
+        "stations": {
+            "0": 4,
+            "3": 1,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 2,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 28,
+        "percentages": {
+            "hulpverlening": 50,
+            "watervoertuig": 80
+        }
+    },
+    "495": {
+        "name": "Personenauto in sloot",
+        "stations": {
+            "0": 4,
+            "3": 1,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 2,
+            "transport": 90,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 28,
+        "percentages": {
+            "hulpverlening": 50,
+            "watervoertuig": 80
+        }
+    },
+    "496": {
+        "name": "Personenauto te water",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 1,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 10,
+            "hulpverlening": 40,
+            "wateraanhanger": 10
+        }
+    },
+    "497": {
+        "name": "Personenauto te water",
+        "stations": {
+            "0": 12,
+            "3": 2,
+            "5": 3,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 3,
+            "transport": 90,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 50,
+            "hulpverlening": 60,
+            "wateraanhanger": 50
+        }
     }
 }

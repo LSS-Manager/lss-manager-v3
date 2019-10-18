@@ -5,7 +5,7 @@
         noVGE:"Keine gespeicherten VGE!",
         VGEs:"VGEs"
     };
-	I18n.translations.en['lssm']['saveVGE'] = {
+	  I18n.translations.en['lssm']['saveVGE'] = {
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",
@@ -17,11 +17,23 @@
         noVGE: "No saved Alliance Mission!",
         VGEs: "VGEs"
     };
-	I18n.translations.nl['lssm']['saveVGE'] = {
-		save: "Opslaan",
-		del: "Verwijderen",
-		noVGE:"Geen opgeslagen grote teaminzetten!",
-		VGEs:"Grote teaminzet aanmaken"
+    I18n.translations.eu['lssm']['saveVGE'] = {
+        save: "Save",
+        del: "Delete",
+        noVGE: "No saved Alliance Mission!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.es['lssm']['saveVGE'] = {
+        save: "Guardar",
+        del: "Borrar",
+        noVGE: "No se ha salvado la misión de la Alianza!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.nl['lssm']['saveVGE'] = {
+        save: "Opslaan",
+    		del: "Verwijderen",
+    		noVGE:"Geen opgeslagen grote teaminzetten!",
+        VGEs:"Grote teaminzet aanmaken"
     };
     let prefix = "saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix)) || {}
     , isCreate= false;

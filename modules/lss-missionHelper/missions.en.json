@@ -5266,5 +5266,28 @@
             "transport": 50,
             "specialisation": "General Surgeon"
         }
+    },
+    "317": {
+        "name": "Subway Collapse",
+        "stations": {
+            "0": 15,
+            "3": 15,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 4,
+            "platform": 2,
+            "heavyRescue": 6,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 12000,
+        "patients": {
+            "max": 30,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        },
+        "poi": 46
     }
 }

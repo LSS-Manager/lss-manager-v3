@@ -8605,5 +8605,38 @@
             "atem": 50,
             "dekon": 10
         }
+    },
+    "485": {
+        "name": "Brand mehrerer E-Autos in Auslieferungshalle",
+        "stations": {
+            "0": 6,
+            "6": 2,
+            "werk": 1
+        },
+        "vehicles": {
+            "lf": 4,
+            "gwwerk": 1,
+            "tm": 1,
+            "ulf": 2,
+            "rw": 1,
+            "elw1": 1,
+            "fustw": 2,
+            "mess": 1,
+            "atem": 1,
+            "dekon": 1,
+            "gwl2": 1
+        },
+        "credits": 3700,
+        "poi": 41,
+        "expansions": {
+            "0": 462,
+            "1": 465
+        },
+        "percentages": {
+            "mess": 25,
+            "atem": 40,
+            "dekon": 5,
+            "gwl2": 50
+        }
     }
 }
