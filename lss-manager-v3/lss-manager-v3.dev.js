@@ -72,7 +72,7 @@ let lssm = {
  */
 I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
-I18n.locales.nl = ['nl', 'en', 'de'];
+I18n.locales.nl = ['nl', 'es', 'eu', 'fj', 'en', 'de'];
 if (!I18n.translations.hasOwnProperty('de')) I18n.translations.de = {};
 if (!I18n.translations.hasOwnProperty('en')) I18n.translations.en = {};
 if (!I18n.translations.hasOwnProperty('fj')) I18n.translations.fj = {};
