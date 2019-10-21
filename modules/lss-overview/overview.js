@@ -2094,7 +2094,7 @@
                 credits: 17000,
                 coins: 25
             },
-            wvd: {
+            pmwvd: {
                 name: 'Waarschuwings- en Verkenningsdienst',
                 min: 1,
                 max: 4,
