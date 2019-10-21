@@ -193,7 +193,7 @@ else if (I18n.locale == "nl")
         "43": ["CT (4x4) | Crashtender (4x4)", 0],
         "44": ["AFO/OSC | Airport Fire Officer / On Scene Commander", 0],
         "45": ["DPH | Dompelpomphaakarmbak", 0],
-        "46": ["DM Noddhulp | Dienstmotor Noodhulp", 2],
+        "46": ["DM Noodhulp | Dienstmotor Noodhulp", 2],
         "47": ["DA Hondengeleider | Dienstauto Hondengeleider", 2],
         "48": ["DB Hondengeleider | Dienstbus Hondengeleider", 2],
         "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
