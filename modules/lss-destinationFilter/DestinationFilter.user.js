@@ -72,7 +72,7 @@
         tax: 'Kosten',
         cellTax: 'Afdrachtpercentage',
         settings: {
-            beds: 'Verberg volledig ziekenhuis',
+            beds: 'Verberg volle ziekenhuis',
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
