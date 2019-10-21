@@ -765,7 +765,7 @@ const lssm_missionhelper_adjustPosition = () => {
         transport: 'Transport',
         settings: {
             name: {
-                label: 'Name',
+                label: 'Naam',
                 description: 'Toont de naam van de missie in de helper.'
             },
             id: {
@@ -773,7 +773,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de ID van de missie in de helper.'
             },
             type: {
-                label: 'TYP-ID',
+                label: 'TYPE-ID',
                 description: 'Toont de ID van het missietype in de helper.'
             },
             poi: {
@@ -785,15 +785,15 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Laat live zien hoeveel patiënten er momenteel in gebruik zijn.'
             },
             vehicles: {
-                label: 'voertuigen',
+                label: 'Voertuigen',
                 description: 'Geeft de benodigde voertuigen weer.'
             },
             patients: {
-                label: 'patiënteninformatie',
+                label: 'Patiënteninformatie',
                 description: 'Toont informatie over (potentiële) patiënten.'
             },
             prisoners: {
-                label: 'gevangeneninformatie',
+                label: 'Gevangeneninformatie',
                 description: 'Toont informatie over (potentiële) gevangenen'
             },
             special: {
@@ -817,7 +817,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de meldinghelper ook bij geplande inzetten.'
             },
             mission_time: {
-                label: 'Creation Time',
+                label: 'Aanmaak tijd',
                 description: 'Toont de datum en tijd waarop de missie is gemaakt.'
             }
         },
