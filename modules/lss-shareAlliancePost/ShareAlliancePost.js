@@ -6,6 +6,8 @@
         share: 'Teilen...',
         chat: 'Chatten...',
         alert: 'Alarmieren...',
+        reqVehIdent: 'Zusätzlich benötigte Fahrzeuge:',
+        reqVeh: 'Keine weiteren Fahrzeuge benötigt.',
         settings: {
             title: 'Alarmieren, Teilen & Posten',
             jumpNext: 'Nach Alarmierung zum nächsten Einsatz springen',
@@ -21,6 +23,8 @@
         share: 'Share...',
         chat: 'Chat...',
         alert: 'Alert...',
+        reqVehIdent: 'Needed vehicles:',
+        reqVeh: 'No other vehicles required.',
         settings: {
             title: 'Alert, Share & Post',
             jumpNext: 'Jump to next mission after alerting',
@@ -29,6 +33,40 @@
             shortcutKeys: 'Comma separated list of keys for alerting. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
             messages: 'Message templates. Placeholders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
             timeOffset: 'Offset for %TIME_OFFSET%-formatter in hours'
+        }
+    };
+
+    I18n.translations.nl.lssm.sharealliancepost = {
+        share: 'aandeel...',
+        chat: 'Chat...',
+        alert: 'Alarm...',
+        reqVehIdent: 'Benodigde voertuigen:',
+        reqVeh: 'Geen andere voertuigen nodig.',
+        settings: {
+            title: 'Waarschuwing, delen & posten',
+            jumpNext: 'Spring naar de volgende missie na het alarmeren',
+            enableKeyboard: 'Sneltoetsen op het toetsenbord inschakelen',
+            defaultPostToChat: 'Post om te chatten is standaard',
+            shortcutKeys: 'Kommagescheiden lijst van sleutels om te waarschuwen. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Boodschapssjablonen. Plaatshouders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Compensatie voor %TIME_OFFSET%-formaat in uren'
+        }
+    };
+
+    I18n.translations.es.lssm.sharealliancepost = {
+        share: 'Compartir...',
+        chat: 'Chat...',
+        alert: 'Alerta...',
+        reqVehIdent: 'Vehículos necesarios:',
+        reqVeh: 'No se requieren otros vehículos.',
+        settings: {
+            title: 'Alerta, Compartir y Publicar',
+            jumpNext: 'Saltar a la siguiente misión después de alertar',
+            enableKeyboard: 'Habilitar accesos directos de teclado',
+            defaultPostToChat: 'Publicar en el chat es predeterminado',
+            shortcutKeys: 'Lista de teclas separadas por comas para alertas. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Plantillas de mensajes. Marcadores de posición: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Offset para %TIME_OFFSET%-formatter en horas'
         }
     };
 
@@ -232,8 +270,8 @@
 
             // Prepare required Vehicles
             const alertText = $('.alert-danger');
-            const requiredVehiclesIdentifier = 'Zusätzlich benötigte Fahrzeuge:';
-            let requiredVehicles = 'Keine weiteren Fahrzeuge benötigt.';
+            const requiredVehiclesIdentifier = I18n.t('lssm.sharealliancepost.reqVehIdent');
+            let requiredVehicles = I18n.t('lssm.sharealliancepost.reqVeh');
             if (alertText && alertText.text().indexOf(requiredVehiclesIdentifier) >= 0) {
                 requiredVehicles = alertText.text().trim().substr(requiredVehiclesIdentifier.length, alertText.text().trim().length - 1);
             }
