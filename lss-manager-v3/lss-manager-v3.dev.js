@@ -570,8 +570,6 @@ lssm.Module = {
         description: {
             de: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
             en: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
-            fj: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
-            eu: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
             es: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
             nl: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!'
         },
