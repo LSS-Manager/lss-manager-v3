@@ -6,6 +6,7 @@
         share: 'Teilen...',
         chat: 'Chatten...',
         alert: 'Alarmieren...',
+        chatm: 'An VB Chat',
         reqVehIdent: 'Zusätzlich benötigte Fahrzeuge:',
         reqVeh: 'Keine weiteren Fahrzeuge benötigt.',
         settings: {
@@ -23,6 +24,7 @@
         share: 'Share...',
         chat: 'Chat...',
         alert: 'Alert...',
+        chatm: 'To Team Chat',
         reqVehIdent: 'Needed vehicles:',
         reqVeh: 'No other vehicles required.',
         settings: {
@@ -40,6 +42,7 @@
         share: 'Delen...',
         chat: 'Chat...',
         alert: 'Alarmeren...',
+        chatm: 'Naar Team Chat',
         reqVehIdent: 'Benodigde voertuigen:',
         reqVeh: 'Geen andere voertuigen nodig.',
         settings: {
@@ -146,7 +149,7 @@
         optionsBtnMarkup += '<span class="glyphicon glyphicon-option-horizontal"></span></a>';
 
         optionsBtnMarkup += '<div class="btn btn-sm btn-default" style="margin:0; padding: 1px; display: none;" id="allianceShareOptions"><input type="text" id="allianceShareText" value="' + messages[0] + '">';
-        optionsBtnMarkup += '<label style="margin-left: 2px; margin-right: 2px;"><input type="checkbox" ' + (getSetting('defaultPostToChat') ? 'checked' : '') + ' id="postToChat" name="postToChat" value="true">An VB Chat?</label>';
+        optionsBtnMarkup += '<label style="margin-left: 2px; margin-right: 2px;"><input type="checkbox" ' + (getSetting('defaultPostToChat') ? 'checked' : '') + ' id="postToChat" name="postToChat" value="true">' + I18n.t('lssm.sharealliancepost.chatm') +'</label>';
 
         optionsBtnMarkup += '<div style="text-align: left;"><ul>';
         $.each(messages, (index, msg) => {
