@@ -1,17 +1,22 @@
 // ==UserScript==
-// @name         LSS Manager v3
-// @version      3.x.x (Autoupdate)
+// @name         LSS Manager v3 Autoupdater
+// @version      3.3.0
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
+// @homepage     https://lss-manager.de
+// @include      *://leitstellenspiel.de/*
 // @include      *://www.leitstellenspiel.de/*
-// @include      *://www.missionchief.co.uk/*
 // @include      *://missionchief.co.uk/*
+// @include      *://www.missionchief.co.uk/*
+// @include      *://missionchief.com/*
 // @include      *://www.missionchief.com/*
+// @include      *://meldkamerspel.com/*
 // @include      *://www.meldkamerspel.com/*
-// @include      *://www.centro-de-mando.es/
+// @include      *://centro-de-mando.es/*
 // @include      *://www.centro-de-mando.es/*
-// @include      *://www.missionchief-australia.com/
+// @include      *://missionchief-australia.com/*
 // @include      *://www.missionchief-australia.com/*
+// @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/dev/lssm-v3.user.js
 // @grant        none
 // @run          document-start
 // ==/UserScript==
