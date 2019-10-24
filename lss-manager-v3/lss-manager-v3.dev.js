@@ -75,11 +75,11 @@ I18n.defaultLocale = 'de';
 I18n.fallbacks = true;
 I18n.locales.de = ['en', 'eu', 'fj'];
 I18n.locales.nl = ['nl', 'en', 'eu', 'fj', 'de'];
-I18n.locales.es = ['en', 'eu', 'fj'];
+I18n.locales.es = ['en', 'eu', 'fj', 'de'];
 // en, fj and eu are essentially the same.
-I18n.locales.en = ['eu', 'fj'];
-I18n.locales.fj = ['en', 'eu'];
-I18n.locales.eu = ['en', 'fj'];
+I18n.locales.en = ['eu', 'fj', 'de'];
+I18n.locales.fj = ['en', 'eu', 'de'];
+I18n.locales.eu = ['en', 'fj', 'de'];
 
 if (!I18n.translations.hasOwnProperty('de')) I18n.translations.de = {};
 if (!I18n.translations.hasOwnProperty('en')) I18n.translations.en = {};
