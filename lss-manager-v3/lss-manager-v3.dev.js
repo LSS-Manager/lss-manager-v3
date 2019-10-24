@@ -73,7 +73,7 @@ let lssm = {
 I18n.defaultLocale = 'de';
 // Initialize fallbacks
 I18n.fallbacks = true;
-I18n.locales.de = ['en', 'eu', 'fj'];
+I18n.locales.de = ['de', 'en', 'eu', 'fj'];
 I18n.locales.nl = ['nl', 'en', 'eu', 'fj', 'de'];
 I18n.locales.es = ['en', 'eu', 'fj', 'de'];
 // en, fj and eu are essentially the same.
