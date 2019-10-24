@@ -37,19 +37,19 @@
     };
 
     I18n.translations.nl.lssm.sharealliancepost = {
-        share: 'aandeel...',
+        share: 'Delen...',
         chat: 'Chat...',
-        alert: 'Alarm...',
+        alert: 'Alarmeren...',
         reqVehIdent: 'Benodigde voertuigen:',
         reqVeh: 'Geen andere voertuigen nodig.',
         settings: {
-            title: 'Waarschuwing, delen & posten',
-            jumpNext: 'Spring naar de volgende missie na het alarmeren',
-            enableKeyboard: 'Sneltoetsen op het toetsenbord inschakelen',
-            defaultPostToChat: 'Post om te chatten is standaard',
-            shortcutKeys: 'Kommagescheiden lijst van sleutels om te waarschuwen. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Boodschapssjablonen. Plaatshouders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
-            timeOffset: 'Compensatie voor %TIME_OFFSET%-formaat in uren'
+            title: 'Alarmeren, delen & posten',
+            jumpNext: 'Ga naar de volgende inzet na het alarmeren',
+            enableKeyboard: 'Sneltoetsen inschakelen',
+            defaultPostToChat: 'Bericht in chat is standaard',
+            shortcutKeys: 'Kommabescheiden lijst van toetsen om te alarmeren. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Bericht voorbeelden. Plaatshouders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'compensatie voor %TIME_OFFSET%-format in uren'
         }
     };
 
