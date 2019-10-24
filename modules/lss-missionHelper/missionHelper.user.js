@@ -782,7 +782,7 @@ const lssm_missionhelper_adjustPosition = () => {
             },
             live_patients: {
                 label: 'Aantal patiënten',
-                description: 'Laat live zien hoeveel patiënten er momenteel in gebruik zijn.'
+                description: 'Laat live zien hoeveel patiënten er momenteel zijn.'
             },
             vehicles: {
                 label: 'Voertuigen',
@@ -798,7 +798,7 @@ const lssm_missionhelper_adjustPosition = () => {
             },
             special: {
                 label: 'Overige informatie',
-                description: 'Toont speciale informatie, zoals het gemiddelde minimum aantal personeelsleden dat nodig is.'
+                description: 'Toont speciale informatie, zoals het minimum aantal personeelsleden dat nodig is.'
             },
             expansions: {
                 label: 'Incidentuitbreiding',
