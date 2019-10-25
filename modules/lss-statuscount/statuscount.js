@@ -124,12 +124,12 @@
         }
     };
     I18n.translations.nl.lssm.statuscount = {
-        name: "Status-Count",
+        name: "Status-Teller",
         settings: {
             show: "Verberg/Toon",
             status: {
                 show: {
-                    label: "Show",
+                    label: "Toon",
                     description: "Moet de status überhaupt worden weergegeven? Belangrijk: Deze instelling heeft een hogere prioriteit dan andere instellingen, d.w.z. als deze instelling is uitgeschakeld, wordt de status nooit weergegeven."
                 },
                 hide: {
@@ -142,8 +142,8 @@
                 }
             },
             round: {
-                label: "Ronde percentages",
-                description: "Hoeveel decimalen moeten de percentages (indien weergegeven) worden afgerond?"
+                label: "Afronden percentages",
+                description: "Op hoeveel decimalen moeten de percentages (indien weergegeven) worden afgerond?"
             }
         }
     };

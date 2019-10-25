@@ -315,7 +315,7 @@
             },
             currentCrew: {
                 label: 'Current Crew',
-                description: 'Geeft per voertuig aan hoeveel personeel er momenteel op het voertuig zit',
+                description: 'Geeft per voertuig aan hoeveel personeel er momenteel op het voertuig zitten',
             },
             expansions: {
                 label: 'Toon uitbreidingen',
@@ -331,7 +331,7 @@
             },
             expansionDate: {
                 label: 'Datum van voltooiing van de uitbreiding',
-                description: 'Geeft in de lijst met uitbreidingen ook aan wanneer de bouw klaar is (werkt alleen in verband met de instelling "Toon uitbreidingen")',
+                description: 'Geeft in de lijst met uitbreidingen ook aan wanneer de bouw klaar is (werkt alleen in combinatie met de instelling "Toon uitbreidingen")',
             },
         }
     };
