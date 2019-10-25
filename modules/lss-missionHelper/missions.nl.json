@@ -8622,5 +8622,53 @@
             "hulpverlening": 60,
             "wateraanhanger": 50
         }
+    },
+    "498": {
+        "name": "Verkeersongeval materieel",
+        "stations": {
+            "0": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 550
+    },
+    "499": {
+        "name": "Verkeersongeval materieel",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 450
+    },
+    "500": {
+        "name": "Kettingbotsing",
+        "stations": {
+            "0": 6,
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "hovd": 20
+        }
     }
 }
+

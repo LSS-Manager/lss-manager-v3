@@ -16,7 +16,7 @@
 // @include      *://www.centro-de-mando.es/*
 // @include      *://missionchief-australia.com/*
 // @include      *://www.missionchief-australia.com/*
-// @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/dev/lssm-v3.user.js
+// @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start
 // ==/UserScript==

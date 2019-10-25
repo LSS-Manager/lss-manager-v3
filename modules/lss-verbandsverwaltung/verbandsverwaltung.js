@@ -28,30 +28,6 @@
         chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
     };
-    I18n.translations.fj.lssm.verbandsverwaltung = {
-        name: 'Administration',
-        allianceFunds: 'Alliance Funds',
-        allianceCredits: 'Earned Credits',
-        users: 'Members',
-        onlineUsers: 'Members online',
-        allianceRank: 'Rank in Alliancelist',
-        page: 'Page',
-        updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
-        chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
-        hoverTip: 'Tip: Hover over an element to display a value history.'
-    };
-    I18n.translations.eu.lssm.verbandsverwaltung = {
-        name: 'Administration',
-        allianceFunds: 'Alliance Funds',
-        allianceCredits: 'Earned Credits',
-        users: 'Members',
-        onlineUsers: 'Members online',
-        allianceRank: 'Rank in Alliancelist',
-        page: 'Page',
-        updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
-        chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
-        hoverTip: 'Tip: Hover over an element to display a value history.'
-    };
     I18n.translations.es.lssm.verbandsverwaltung = {
         name: 'Administración',
         allianceFunds: 'Fondos de la Alianza',
@@ -65,12 +41,12 @@
         hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
-        name: 'Toediening',
+        name: 'Administratie',
         allianceFunds: 'Teamkas',
         allianceCredits: 'Verdiende Credits',
         users: 'Leden',
         onlineUsers: 'Leden online',
-        allianceRank: 'Rangschikking in Alliancelist',
+        allianceRank: 'Rangschikking in Teamlijst',
         page: 'Pagina',
         updateMessage: 'Waarden worden elke<br>' + updateMin + ' minuten automatisch bijgewerkt.',
         chartErr: 'Kon de grafiek "{{chart}" niet laden!<br>We weten al dat dit bij sommige browsers gebeurt, maar nog niet waarom. Meld ons deze fout alstublieft <b>niet</b>, want we zijn al bezig met dit probleem!',

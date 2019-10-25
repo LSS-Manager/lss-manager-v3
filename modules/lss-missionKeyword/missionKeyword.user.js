@@ -594,7 +594,7 @@
         65: 'Pumpkin soup overcooked',
         66: 'Witch in tree',
         67: 'Zombie bite',
-        68: 'Erupted Monster',
+        68: 'Monster broke loose',
         69: 'Pumpkin stolen',
         70: 'Frankenstein sighted',
         71: 'candy theft',
@@ -942,15 +942,15 @@
         77: 'Patient Transfer',
         78: 'Cardiac Arrest',
         79: 'Respiratory Arrest',
-        80: '',
-        81: '',
-        82: '',
-        83: '',
+        80: 'Burning bogle',
+        81: 'Burning pumpkin field',
+        82: 'Pumpkin soup overcooked',
+        83: 'Witch in tree',
         84: '',
-        85: '',
-        86: '',
-        87: '',
-        88: '',
+        85: 'Monster broke loose',
+        86: 'Pumpkin stolen',
+        87: 'Frankenstein sighted',
+        88: 'Candy theft',
         89: 'Road Traffic Collision (Major)'
       }
     };
@@ -1044,7 +1044,16 @@
         71: 'Nosebleed',
         72: 'Light Aircraft Crash',
         73: 'Serious Accident Involving a Bus',
-        74: 'Major fire'
+        74: 'Major fire',
+        75: 'Burning bogle',
+        76: 'Burning pumpkin field',
+        77: 'Pumpkin soup overcooked',
+        78: 'Witch in tree',
+        79: '',
+        80: 'Monster broke loose',
+        81: 'Pumpkin stolen',
+        82: 'Frankenstein sighted',
+        83: 'Candy theft'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1137,7 +1146,16 @@
         71: 'Sangrado nasal',
         72: 'Accidente de avioneta',
         73: 'Accidente de autobús serio',
-        74: 'Gran incendio'
+        74: 'Gran incendio',
+        75: 'Espantapájaros en llamas',
+        76: 'Campo de calabazas en llamas',
+        77: 'Sopa de calabaza demasiado cocida',
+        78: 'Bruja en árbol',
+        79: '',
+        80: 'Monstruo anda suelto',
+        81: 'Calabaza robada',
+        82: 'Frankenstein avistado',
+        83: 'Robo de caramelos'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1649,7 +1667,14 @@
         490: 'Wateroverlast',
         491: 'Wateroverlast',
         492: 'Ongeregeldheden voetbalsupporters horeca',
-        493: 'Ongeregeldheden voetbalsupporters horeca'
+        493: 'Ongeregeldheden voetbalsupporters horeca',
+		494: 'Personenauto in sloot',
+		495: 'Personenauto in sloot',
+		496: 'Personenauto te water',
+		497: 'Personenauto te water',
+		498: 'Verkeersongeval materieel	',
+		499: 'Verkeersongeval materieel	',
+		500: 'Kettingbotsing'
       }
     };
 
@@ -2229,7 +2254,7 @@
       65: 'FIRE 2',
       66: 'TECH 1',
       67: 'MED 1',
-      68: 'POL 4',
+      68: 'POL 4.5',
       69: 'POL 1',
       70: 'POL 3',
       71: 'POL 1',
@@ -2561,15 +2586,15 @@
       77: 'MEDT',
       78: 'MED 1',
       79: 'MED 1',
-      80: '',
-      81: '',
-      82: '',
-      83: '',
+      80: 'FIRE 0.5',
+      81: 'FIRE 0.5',
+      82: 'FIRE 0.5',
+      83: 'TECH 0.5',
       84: '',
-      85: '',
-      86: '',
-      87: '',
-      88: '',
+      85: 'POL 0.5',
+      86: 'POL 0.5',
+      87: 'POL 1.5',
+      88: 'POL 0.5',
       89: 'TECH 5'
     };
       let DEFAULT_AAO_EU = {
@@ -2647,7 +2672,16 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'FIRE 0.5',
+      76: 'FIRE 0.5',
+      77: 'FIRE 0.5',
+      78: 'TECH 0.5',
+      79: '',
+      80: 'POL 0.5',
+      81: 'POL 0.5',
+      82: 'POL 0.5',
+      83: 'POL 0.5'
   };
       let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -2724,7 +2758,16 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'FIRE 0.5',
+      76: 'FIRE 0.5',
+      77: 'FIRE 0.5',
+      78: 'TECH 0.5',
+      79: '',
+      80: 'POL 0.5',
+      81: 'POL 0.5',
+      82: 'POL 0.5',
+      83: 'POL 0.5'
   };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -3219,8 +3262,15 @@
       489: 'HV 1',
       490: 'HV 2',
       491: 'HV 2',
-      492: 'POL 3',
-      493: 'POL 2'
+      492: 'P 3',
+      493: 'P 2',
+	    494: 'HV 2 WATER',
+	    495: 'HV 2 WATER',
+	    496: 'HV 1 WATER',
+	    497: 'HV 2 WATER',
+	    498: 'HV 1',
+	    499: 'P 1',
+	    500: 'HV 3'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

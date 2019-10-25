@@ -486,6 +486,23 @@ lssm.Module = {
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
     },
+	ShareAlliancePost: {
+        name: {
+            de: 'Alarmieren, Teilen & Posten',
+            en: 'Alert, Share & Post',
+            es: 'Alerta, Compartir y Publicar',
+            nl: 'Alarmeren, delen & Posten'
+        },
+        active: false,
+        description: {
+            de: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
+            en: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
+            es: 'Añade un nuevo botón para alertar, compartir y publicar mensajes predefinidos en el chat. En un solo paso!',
+            nl: 'Voeg een nieuwe knop toe voor alarmeren, delen en een vooraf ingesteld bericht in de chat posten. In slechts één stap!'
+        },
+        source: '/modules/lss-shareAlliancePost/ShareAlliancePost.js',
+        inframe: true
+    },
     searchMissions: {
         name: {
             de: 'Einsätze suchen',

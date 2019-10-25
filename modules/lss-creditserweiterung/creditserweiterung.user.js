@@ -157,8 +157,8 @@
             dropdownName: 'Credits-uitbreiding',
             creditsOverview: 'Overzicht statistiek',
             coinsProtokoll: 'Coin protocol',
-            earnedCredits: 'Totaal aantal credits',
-            creditsToNextRank: 'Credits voor de volgende rang',
+            earnedCredits: 'Totaal verdiende credits',
+            creditsToNextRank: 'Credits tot volgende rang',
             updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.<br>Credits en coins zijn<br>continu up to date.',
             allianceFunds: 'Teamkas',
             noFurtherRank: 'Geen verdere rangen meer'

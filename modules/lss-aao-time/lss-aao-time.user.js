@@ -27,32 +27,6 @@
         timeFormat: '{0} min {1} sec',
         timeFormatWithHours: '{0} h {1} min {2} sec',
     };
-    I18n.translations.fj.lssm.aaotime = {
-        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
-        hourIdentifier: 'hrs',
-        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
-        leastTime: 'At least <strong>{0}</strong>',
-        duration: 'Duration: {0}',
-        missingVehicles1: 'For the following vehicles it was not possible to determine the time:',
-        missingVehicles2: 'They might not be present or listed with a time.',
-        missingVehicles3: 'Error calculating the time. The required vehicles might not be present or listed with a time.',
-        unsupportedKeys: 'The duration could not be determined because this ARR contains vehicle combinations that are not yet supported by this module: {0}',
-        timeFormat: '{0} min {1} sec',
-        timeFormatWithHours: '{0} h {1} min {2} sec',
-    };
-    I18n.translations.eu.lssm.aaotime = {
-        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
-        hourIdentifier: 'hrs',
-        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
-        leastTime: 'At least <strong>{0}</strong>',
-        duration: 'Duration: {0}',
-        missingVehicles1: 'For the following vehicles it was not possible to determine the time:',
-        missingVehicles2: 'They might not be present or listed with a time.',
-        missingVehicles3: 'Error calculating the time. The required vehicles might not be present or listed with a time.',
-        unsupportedKeys: 'The duration could not be determined because this ARR contains vehicle combinations that are not yet supported by this module: {0}',
-        timeFormat: '{0} min {1} sec',
-        timeFormatWithHours: '{0} h {1} min {2} sec',
-    };
     I18n.translations.es.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) seg./i,
         hourIdentifier: 'hrs',
