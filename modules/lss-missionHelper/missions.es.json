@@ -165,6 +165,16 @@
             "0": 25
         }
     },
+    "13": {
+        "name": "Cami\u00f3n en llamas",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
     "14": {
         "name": "Incendio en campo peque\u00f1o",
         "stations": {

@@ -1667,7 +1667,14 @@
         490: 'Wateroverlast',
         491: 'Wateroverlast',
         492: 'Ongeregeldheden voetbalsupporters horeca',
-        493: 'Ongeregeldheden voetbalsupporters horeca'
+        493: 'Ongeregeldheden voetbalsupporters horeca',
+		494: 'Personenauto in sloot',
+		495: 'Personenauto in sloot',
+		496: 'Personenauto te water',
+		497: 'Personenauto te water',
+		498: 'Verkeersongeval materieel	',
+		499: 'Verkeersongeval materieel	',
+		500: 'Kettingbotsing'
       }
     };
 
@@ -3255,8 +3262,15 @@
       489: 'HV 1',
       490: 'HV 2',
       491: 'HV 2',
-      492: 'POL 3',
-      493: 'POL 2'
+      492: 'P 3',
+      493: 'P 2'
+	  494: 'HV 2 WATER',
+	  495: 'HV 2 WATER',
+	  496: 'HV 1 WATER',
+	  497: 'HV 2 WATER',
+	  498: 'HV 1',
+	  499: 'P 1',
+	  500: 'HV 3'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
