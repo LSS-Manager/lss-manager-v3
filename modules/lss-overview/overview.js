@@ -39,23 +39,23 @@
         maxBuildins: 'building boundary'
     };
 
-    I18n.translations.fj.lssm.overview = {
-        vehicleType: 'Vehicle Type',
-        min: 'minimum staff',
-        max: 'maximum staff',
-        cost: 'Price',
-        schooling: 'Education',
-        special: 'Special',
-        none: 'None',
-        vehiclesName: 'Vehicles',
-        buildingsName: 'Buildings',
-        buildingType: 'building name',
-        maxlevel: 'maximum expansion level',
-        levelcost: 'Costs of the expansion stages',
-        startPersonell: 'Start Personnel',
-        startVehicle: 'Start vehicle',
-        extensions: 'extensions',
-        maxBuildins: 'building boundary'
+    I18n.translations.es.lssm.overview = {
+        vehicleType: 'Tipo de vehículo',
+        min: 'mínimo personal',
+        max: 'máximo personal',
+        cost: 'Precio',
+        schooling: 'Educación',
+        special: 'Especial',
+        none: 'Ninguno',
+        vehiclesName: 'Vehículos',
+        buildingsName: 'Edificios',
+        buildingType: 'nombre del edificio',
+        maxlevel: 'máximo nivel de expansión',
+        levelcost: 'Costos de las etapas de expansión',
+        startPersonell: 'Iniciar personal',
+        startVehicle: 'Arrancar el vehículo',
+        extensions: 'prórrogas',
+        maxBuildins: 'límite de construcción'
     };
 
     I18n.translations.nl.lssm.overview = {
@@ -76,8 +76,7 @@
         extensions: 'uitbreidingen',
         maxBuildins: 'gebouwgrens'
     };
-
-    if (document.URL.match(/(leitstellenspiel|missionchief|meldkamerspel)(\.de|\.com|\.co\.uk)\/#?$/)) {
+	if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/))  {
         let overviewBtn = $(
             '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
             '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
