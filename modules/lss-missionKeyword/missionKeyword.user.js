@@ -3263,14 +3263,14 @@
       490: 'HV 2',
       491: 'HV 2',
       492: 'P 3',
-      493: 'P 2'
-	  494: 'HV 2 WATER',
-	  495: 'HV 2 WATER',
-	  496: 'HV 1 WATER',
-	  497: 'HV 2 WATER',
-	  498: 'HV 1',
-	  499: 'P 1',
-	  500: 'HV 3'
+      493: 'P 2',
+	    494: 'HV 2 WATER',
+	    495: 'HV 2 WATER',
+	    496: 'HV 1 WATER',
+	    497: 'HV 2 WATER',
+	    498: 'HV 1',
+	    499: 'P 1',
+	    500: 'HV 3'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

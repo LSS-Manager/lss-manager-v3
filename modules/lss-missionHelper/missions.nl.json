@@ -8659,7 +8659,7 @@
             "hovd": 1,
             "noodhulpeen": 2
         },
-        "credits": 1200,
+        "credits": 900,
         "patients": {
             "max": 2,
             "min": 1,
@@ -8669,4 +8669,5 @@
         "percentages": {
             "hovd": 20
         }
+    }
 }

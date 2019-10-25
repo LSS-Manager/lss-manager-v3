@@ -38,8 +38,8 @@
         extensions: 'extensions',
         maxBuildins: 'building boundary'
     };
-	I18n.translations.eu.lssm.overview = {};
-	I18n.translations.fj.lssm.overview = {};
+    I18n.translations.eu.lssm.overview = {};
+    I18n.translations.fj.lssm.overview = {};
 
     I18n.translations.es.lssm.overview = {
         vehicleType: 'Tipo de vehículo',
@@ -78,7 +78,7 @@
         extensions: 'uitbreidingen',
         maxBuildins: 'gebouwgrens'
     };
-	if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/))  {
+    if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/)) {
         let overviewBtn = $(
             '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
             '<i class="glyphicon glyphicon-info-sign" style="font-size: 15px;padding: 5px;"></i>' +
@@ -1177,7 +1177,7 @@
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
-        rwklein : {
+        rwklein: {
             name: 'Ambulance station (Small station)',
             credits: 100000,
             coins: 25,
@@ -1635,7 +1635,7 @@
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
-        rwklein : {
+        rwklein: {
             name: 'Ambulance station (Small station)',
             credits: 100000,
             coins: 25,
@@ -1674,59 +1674,59 @@
     I18n.translations.fj.lssm.overview.vehicles = {
         fd: {
             rl: {
-              name: 'Rescue Ladder',
-              min: 1,
-              max: 6,
-              credits: 5000,
-              coins: 25
+                name: 'Rescue Ladder',
+                min: 1,
+                max: 6,
+                credits: 5000,
+                coins: 25
             },
             trv: {
-              name: 'Tactical Response Vehicle (TRV)',
-              min: 1,
-              max: 3,
-              credits: 5000,
-              coins: 25
+                name: 'Tactical Response Vehicle (TRV)',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 25
             },
             dlk: {
-              name: 'Turntable Ladder (TL)',
-              min: 1,
-              max: 3,
-              credits: 10000,
-              coins: 30,
-              special: 'Required from 3 fire stations'
+                name: 'Turntable Ladder (TL)',
+                min: 1,
+                max: 3,
+                credits: 10000,
+                coins: 30,
+                special: 'Required from 3 fire stations'
             },
             elw: {
-              name: 'Command unit',
-              min: 1,
-              max: 3,
-              credits: 10000,
-              coins: 25,
-              special: 'Required from 6 fire stations'
+                name: 'Command unit',
+                min: 1,
+                max: 3,
+                credits: 10000,
+                coins: 25,
+                special: 'Required from 6 fire stations'
             },
             mru: {
-              name: 'Major Rescue Unit (MRU)',
-              min: 1,
-              max: 4,
-              credits: 12180,
-              coins: 25,
-              special: 'Required from 4 fire stations'
+                name: 'Major Rescue Unit (MRU)',
+                min: 1,
+                max: 4,
+                credits: 12180,
+                coins: 25,
+                special: 'Required from 4 fire stations'
             },
             sw: {
-              name: 'Water Carrier',
-              min: 1,
-              max: 3,
-              credits: 17300,
-              coins: 25,
-              special: 'Required from 7 fire stations'
+                name: 'Water Carrier',
+                min: 1,
+                max: 3,
+                credits: 17300,
+                coins: 25,
+                special: 'Required from 7 fire stations'
             },
             hazm: {
-              name: 'HazMat Unit',
-              min: 1,
-              max: 6,
-              credits: 19200,
-              coins: 25,
-              schooling: 'Hazmat',
-              special: 'Required from 11 fire stations'
+                name: 'HazMat Unit',
+                min: 1,
+                max: 6,
+                credits: 19200,
+                coins: 25,
+                schooling: 'Hazmat',
+                special: 'Required from 11 fire stations'
             }
         },
         rd: {
@@ -1738,11 +1738,11 @@
                 coins: 25
             },
             rr: {
-              name: 'Rapid Response Vehicle',
-              min: 1,
-              max: 1,
-              credits: 4000,
-              coins: 20
+                name: 'Rapid Response Vehicle',
+                min: 1,
+                max: 1,
+                credits: 4000,
+                coins: 20
             }
         },
         pol: {
@@ -1755,7 +1755,7 @@
             }
         },
         heli: {
-              sar: {
+            sar: {
                 name: 'SAR helicopter',
                 min: x,
                 max: x,
@@ -1763,8 +1763,8 @@
                 coins: x,
                 schooling: x,
                 special: 'x'
-          }
-      }
+            }
+        }
     };
 
     I18n.translations.eu.lssm.overview.hiorgs = {
@@ -1787,6 +1787,28 @@
             maxBuildings: 'All 25 buildings one Dispatch Center',
             special: 'The control centre is the administrative centre.'
         },
+        pol: {
+            name: 'Police Station',
+            credits: 100000,
+            coins: 35,
+            maxlevel: 14,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
+            startPersonell: 2,
+            startVehicle: 'Police Car',
+            extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
+            maxBuildings: 'No Limit',
+        },
+        polklein: {
+            name: 'Police Station (small station)',
+            credits: 50000,
+            coins: 25,
+            maxlevel: 4,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
+            startPersonell: 2,
+            startVehicle: 'Police Car',
+            extensions: 'Cell (25.000 Credits)<br>Max. 2 can be built',
+            maxBuildings: 'No Limit',
+        },
         fw: {
             name: 'Fire Department',
             credits: 100000,
@@ -1808,6 +1830,7 @@
             startPersonell: 10,
             startVehicle: 'Class 2 Pumper, Class 1 Tanker',
             maxBuildings: '2.200',
+            extensions: 'No extensions possible',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
         fwschule: {
@@ -1855,27 +1878,6 @@
             extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit',
             special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
-        },
-        pol: {
-            name: 'Police Station',
-            credits: 100000,
-            coins: 35,
-            maxlevel: 14,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
-            startPersonell: 2,
-            startVehicle: 'Police Car',
-            extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
-        },
-        polklein: {
-            name: 'Police Station (small station)',
-            credits: 50000,
-            coins: 25,
-            maxlevel: 4,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
-            startPersonell: 2,
-            startVehicle: 'Police Car',
-            maxBuildings: 'No Limit',
         }
     };
 
@@ -1935,7 +1937,7 @@
                 coins: 25,
                 schooling: 'Hazmat',
                 special: 'Required from 11 fire stations'
-            },
+            }
         },
         rd: {
             rtw: {
@@ -1944,16 +1946,7 @@
                 max: 2,
                 credits: 5000,
                 coins: 25
-            },
-        },
-        heli: {
-            hems: {
-                name: 'Helitak',
-                min: 1,
-                max: 1,
-                credits: 300000,
-                coins: 30
-            },
+            }
         },
         pol: {
             fustw: {
@@ -1962,9 +1955,22 @@
                 max: 2,
                 credits: 5000,
                 coins: 25
-            },
+            }
+        },
+        heli: {
+            hems: {
+                name: 'helitak',
+                min: x,
+                max: x,
+                credits: x,
+                coins: x,
+                schooling: x,
+                special: 'x'
+            }
         }
     };
+
+
 
     I18n.translations.es.lssm.overview.hiorgs = {
         fd: 'Parques de bomberos',
@@ -2698,7 +2704,7 @@
         }
     };
 
-    $('#' + prefix + '_button').click(function() {
+    $('#' + prefix + '_button').click(function () {
         lssm.modal.show('<div id="' + prefix + '" class="container-fluid"></div>');
 
 
@@ -2747,7 +2753,7 @@
                 }
             }
             $('#table-' + hiorg).tablesorter();
-            $('#search_' + hiorg).on("keyup", function() {
+            $('#search_' + hiorg).on("keyup", function () {
                 searchInTable('table-' + hiorg, 'search_' + hiorg);
             });
         }
@@ -2767,7 +2773,7 @@
             $('#table-buildings-body').append('<tr><td>' + building.name + '</td><td>' + (building.credits || building.credits === 0 ? building.credits.toLocaleString() : "undefined") + ' Credits / ' + (building.coins || building.coins === 0 ? building.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + building.maxlevel + '</td><td>' + building.levelcost + '</td><td>' + building.startPersonell + '</td><td>' + building.startVehicle + '</td><td>' + building.maxBuildings + '</td><td>' + building.extensions + '</td><td>' + (building.special ? building.special : "") + '</td></tr>');
         }
         $('#table-buildings').tablesorter();
-        $('#search_building').on("keyup", function() {
+        $('#search_building').on("keyup", function () {
             searchInTable('table-buildings', 'search_building');
         });
 
