@@ -64,10 +64,10 @@
 	text = text.replace('Burning pumpkin field', '[HALLOWEEN] Burning pumpkin field');
 	text = text.replace('Pumpkin soup overcooked', '[HALLOWEEN] Pumpkin soup overcooked');
 	text = text.replace('Witch in tree', '[HALLOWEEN] Witch in tree');
-	text = text.replace('Erupted Monster', '[HALLOWEEN] Erupted Monster');
 	text = text.replace('Pumpkin stolen', '[HALLOWEEN] Pumpkin stolen');
 	text = text.replace('Frankenstein sighted', '[HALLOWEEN] Frankenstein sighted');
 	text = text.replace('candy theft', '[HALLOWEEN] candy theft');
+	text = text.replace('Monster broke loose', '[HALLOWEEN] Monster broke loose');
 	//Christmas/Winter Missions
 	text = text.replace('Brennender Adventskranz', '[X-MAS] Brennender Adventskranz');
 	text = text.replace('Rangelei auf Weihnachtsmarkt', '[X-MAS] Rangelei auf Weihnachtsmarkt');

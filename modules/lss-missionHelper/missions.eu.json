@@ -1010,5 +1010,97 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "Burning bogle",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 350
+    },
+    "76": {
+        "name": "Burning pumpkin field",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 850
+    },
+    "77": {
+        "name": "Pumpkin soup overcooked",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "specialisation": "Neurology"
+        }
+    },
+    "78": {
+        "name": "Witch in tree",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        }
+    },
+    "80": {
+        "name": "Monster broke loose",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 1600
+    },
+    "81": {
+        "name": "Pumpkin stolen",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100
+    },
+    "82": {
+        "name": "Frankenstein sighted",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 550
+    },
+    "83": {
+        "name": "Candy theft",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100
     }
 }
