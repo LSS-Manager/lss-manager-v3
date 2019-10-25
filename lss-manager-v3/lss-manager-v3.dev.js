@@ -89,7 +89,7 @@ if (!I18n.translations.hasOwnProperty('es')) I18n.translations.es = {};
 if (!I18n.translations.hasOwnProperty('nl')) I18n.translations.nl = {};
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
-    version: "Stable",
+    version: "Beta",
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
@@ -485,6 +485,23 @@ lssm.Module = {
         },
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
+    },
+	ShareAlliancePost: {
+        name: {
+            de: 'Alarmieren, Teilen & Posten',
+            en: 'Alert, Share & Post',
+            es: 'Alerta, Compartir y Publicar',
+            nl: 'Alarmeren, delen & Posten'
+        },
+        active: false,
+        description: {
+            de: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
+            en: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
+            es: 'Añade un nuevo botón para alertar, compartir y publicar mensajes predefinidos en el chat. En un solo paso!',
+            nl: 'Voeg een nieuwe knop toe voor alarmeren, delen en een vooraf ingesteld bericht in de chat posten. In slechts één stap!'
+        },
+        source: '/modules/lss-shareAlliancePost/ShareAlliancePost.js',
+        inframe: true
     },
     searchMissions: {
         name: {

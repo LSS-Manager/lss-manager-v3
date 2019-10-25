@@ -11,18 +11,6 @@
         reset: "Reset",
         select: "Please select..."
     };
-    I18n.translations.fj['lssm']['aaosearch'] = {
-        search_aao: "Search AAO",
-        use_dd: "Use dropdown: ",
-        reset: "Reset",
-        select: "Please select..."
-    };
-    I18n.translations.eu['lssm']['aaosearch'] = {
-        search_aao: "Search AAO",
-        use_dd: "Use dropdown: ",
-        reset: "Reset",
-        select: "Please select..."
-    };
     I18n.translations.es['lssm']['aaosearch'] = {
         search_aao: "Buscar AAO",
         use_dd: "Use el menú desplegable: ",

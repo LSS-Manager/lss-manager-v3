@@ -9,16 +9,6 @@
 		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
 		"Do you agree with this?"
 	};
-	I18n.translations.fj.lssm.telemetry = {
-		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
-		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
-		"Do you agree with this?"
-	};
-	I18n.translations.eu.lssm.telemetry = {
-		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
-		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
-		"Do you agree with this?"
-	};
 	I18n.translations.es.lssm.telemetry = {
 		question: "El Administrador LSS envía datos no personales a los desarrolladores para mejorar el script y encontrar errores.\r\n" +
 		"Estos datos incluyen: su ID, nombre de usuario, el número de guardias, el navegador utilizado y los módulos habilitados.\r\n\r\n" +

@@ -338,16 +338,6 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.fj.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
-        siwa: 'Planned mission',
-        vge: 'Large scale alliance mission',
-        patients: 'Patients',
-        prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
-        to: 'up to',
-        SWATPersonnel: "Needed SWAT Personnel",
-        ambulance_only: 'This mission is ambulance-only!',
-        title: 'Missionhelper',
-        transport: 'Transport',
         settings: {
             name: {
                 label: 'Name',
@@ -476,16 +466,6 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.eu.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
-        siwa: 'Planned mission',
-        vge: 'Large scale alliance mission',
-        patients: 'Patients',
-        prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
-        to: 'up to',
-        SWATPersonnel: "Needed SWAT Personnel",
-        ambulance_only: 'This mission is ambulance-only!',
-        title: 'Missionhelper',
-        transport: 'Transport',
         settings: {
             name: {
                 label: 'Name',
@@ -765,7 +745,7 @@ const lssm_missionhelper_adjustPosition = () => {
         transport: 'Transport',
         settings: {
             name: {
-                label: 'Name',
+                label: 'Naam',
                 description: 'Toont de naam van de missie in de helper.'
             },
             id: {
@@ -773,7 +753,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de ID van de missie in de helper.'
             },
             type: {
-                label: 'TYP-ID',
+                label: 'TYPE-ID',
                 description: 'Toont de ID van het missietype in de helper.'
             },
             poi: {
@@ -782,23 +762,23 @@ const lssm_missionhelper_adjustPosition = () => {
             },
             live_patients: {
                 label: 'Aantal patiënten',
-                description: 'Laat live zien hoeveel patiënten er momenteel in gebruik zijn.'
+                description: 'Laat live zien hoeveel patiënten er momenteel zijn.'
             },
             vehicles: {
-                label: 'voertuigen',
+                label: 'Voertuigen',
                 description: 'Geeft de benodigde voertuigen weer.'
             },
             patients: {
-                label: 'patiënteninformatie',
+                label: 'Patiënteninformatie',
                 description: 'Toont informatie over (potentiële) patiënten.'
             },
             prisoners: {
-                label: 'gevangeneninformatie',
+                label: 'Gevangeneninformatie',
                 description: 'Toont informatie over (potentiële) gevangenen'
             },
             special: {
                 label: 'Overige informatie',
-                description: 'Toont speciale informatie, zoals het gemiddelde minimum aantal personeelsleden dat nodig is.'
+                description: 'Toont speciale informatie, zoals het minimum aantal personeelsleden dat nodig is.'
             },
             expansions: {
                 label: 'Incidentuitbreiding',
@@ -817,7 +797,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de meldinghelper ook bij geplande inzetten.'
             },
             mission_time: {
-                label: 'Creation Time',
+                label: 'Aanmaak tijd',
                 description: 'Toont de datum en tijd waarop de missie is gemaakt.'
             }
         },

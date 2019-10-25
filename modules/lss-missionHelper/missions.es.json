@@ -1001,5 +1001,97 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "Espantap\u00e1jaros en llamas",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 350
+    },
+    "76": {
+        "name": "Campo de calabazas en llamas",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 850
+    },
+    "77": {
+        "name": "Sopa de calabaza demasiado cocida",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "specialisation": "Neurolog\u00eda"
+        }
+    },
+    "78": {
+        "name": "Bruja en \u00e1rbol",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Traumatolog\u00eda"
+        }
+    },
+    "80": {
+        "name": "Monstruo anda suelto",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 1600
+    },
+    "81": {
+        "name": "Calabaza robada",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100
+    },
+    "82": {
+        "name": "Frankenstein avistado",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 550
+    },
+    "83": {
+        "name": "Robo de caramelos",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100
     }
 }

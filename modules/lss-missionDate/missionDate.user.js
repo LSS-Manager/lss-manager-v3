@@ -11,18 +11,6 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
-  I18n.translations.fj.lssm.missionDate = {
-    ago: 'ago',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
-  };
-
-  I18n.translations.eu.lssm.missionDate = {
-    ago: 'ago',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
-  };
-
   I18n.translations.es.lssm.missionDate = {
     ago: 'hace',
     months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],

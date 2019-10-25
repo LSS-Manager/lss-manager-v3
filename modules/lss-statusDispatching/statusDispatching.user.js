@@ -28,32 +28,6 @@
         fms5H1 : 'transportiert'
     };
 
-    I18n.translations.fj.lssm.statusDispatching = {
-        name: 'Enhanced transport requests',
-        fms: 'Transport Requested',
-        nextVehicle: 'Go to the next vehicle with a transport request',
-        backToAlarm: 'Back to mission',
-        settingsTitle: 'Enhanced transport requests - Settings',
-        settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
-        settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br>'
-            + 'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
-        close: 'Close',
-        fms5H1: 'transportiert'
-    };
-
-    I18n.translations.eu.lssm.statusDispatching = {
-        name: 'Enhanced transport requests',
-        fms: 'Transport Requested',
-        nextVehicle: 'Go to the next vehicle with a transport request',
-        backToAlarm: 'Back to mission',
-        settingsTitle: 'Enhanced transport requests - Settings',
-        settingsAttr: 'Click the button "Transport Requested" in mission mask automatically',
-        settingsAttrDesc: 'Enabling this option provides automatic clicking on the "transport requested" button in the mission mask. This way you have to go through all transport requests before you can view details to the mission. Enabling this option allows faster processing of the transport requests.<br>'
-            + 'Disabling this option allows to see mission details before processing the transport requests. The buttons "Go to the next vehicle with a transport request" and "Back to mission" are not affected by this setting and are always automatically clicked.',
-        close: 'Close',
-        fms5H1: 'transportiert'
-    };
-
     I18n.translations.es.lssm.statusDispatching = {
         name: 'Solicitudes de transporte mejoradas',
         fms: 'Transporte Solicitado',

@@ -43,48 +43,6 @@
     }
   }
 
-  I18n.translations.fj.lssm['n-alarm'] = {
-    not_support: "This browser doesn't support HTML5-Notifications",
-    inithead: "Initalization",
-    chat_message: "Chat message from ",
-    blend: "Hide after:",
-    seconds: "seconds",
-    settings: {
-      title: "Notification-Alert",
-      chat_title: "Chat messages",
-      chat_text: "Get chat messages as notification.",
-      s5_title: "Transport Request",
-      save: "Save",
-      close: "Close",
-      s5_text: "Get Transport Requests as notification",
-      status_title: "Status",
-      status_text: "Get all status messages as notification.",
-      chatp_title: "Get chat messages as info popup",
-      chatp_text: "Get all chat messages as popup message on the right side"
-    }
-  }
-
-  I18n.translations.eu.lssm['n-alarm'] = {
-    not_support: "This browser doesn't support HTML5-Notifications",
-    inithead: "Initalization",
-    chat_message: "Chat message from ",
-    blend: "Hide after:",
-    seconds: "seconds",
-    settings: {
-      title: "Notification-Alert",
-      chat_title: "Chat messages",
-      chat_text: "Get chat messages as notification.",
-      s5_title: "Transport Request",
-      save: "Save",
-      close: "Close",
-      s5_text: "Get Transport Requests as notification",
-      status_title: "Status",
-      status_text: "Get all status messages as notification.",
-      chatp_title: "Get chat messages as info popup",
-      chatp_text: "Get all chat messages as popup message on the right side"
-    }
-  }
-
   I18n.translations.es.lssm['n-alarm'] = {
     not_support: "Este navegador no soporta Notificaciones HTML5",
     inithead: "Initalización",

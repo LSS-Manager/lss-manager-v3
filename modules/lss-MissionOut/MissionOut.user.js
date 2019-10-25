@@ -7,12 +7,6 @@
     I18n.translations.en.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
-    I18n.translations.fj.lssm.missionOut = {
-        title: 'Hide/Show mission'
-    };
-    I18n.translations.eu.lssm.missionOut = {
-        title: 'Hide/Show mission'
-    };
     I18n.translations.es.lssm.missionOut = {
         title: 'Ocultar/Mostrar misión'
     };

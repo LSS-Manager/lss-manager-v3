@@ -27,32 +27,6 @@
             cells: 'Hide full cells'
         }
     };
-    I18n.translations.fj.lssm.destfilter = {
-        title: 'Destination Filter',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Hide full hospitals',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
-        }
-    };
-    I18n.translations.eu.lssm.destfilter = {
-        title: 'Destination Filter',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Hide full hospitals',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
-        }
-    };
     I18n.translations.es.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',
@@ -72,7 +46,7 @@
         tax: 'Kosten',
         cellTax: 'Afdrachtpercentage',
         settings: {
-            beds: 'Verberg volledig ziekenhuis',
+            beds: 'Verberg volle ziekenhuizen',
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',

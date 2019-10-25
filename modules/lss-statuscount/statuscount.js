@@ -51,54 +51,6 @@
             }
         }
     };
-    I18n.translations.fj.lssm.statuscount = {
-        name: "Status-Count",
-        settings: {
-            show: "Show/Hide",
-            status: {
-                show: {
-                    label: "Show",
-                    description: "Should the status be displayed at all? Important: This setting has a higher priority than other settings, i.e. if this setting is switched off, the status will never be displayed."
-                },
-                hide: {
-                    label: "Show only on demand",
-                    description: "The counter is only displayed if at least one vehicle is in this status. (Attention: If the counter is completely hidden, it will never be shown, even if this setting is activated!)"
-                },
-                percent: {
-                    label: "Show percentages",
-                    description: "Should the percentage of this status be displayed?"
-                }
-            },
-            round: {
-                label: "Round percentages",
-                description: "How many decimal places should the percentages (if displayed) be rounded to?"
-            }
-        }
-    };
-    I18n.translations.eu.lssm.statuscount = {
-        name: "Status-Count",
-        settings: {
-            show: "Show/Hide",
-            status: {
-                show: {
-                    label: "Show",
-                    description: "Should the status be displayed at all? Important: This setting has a higher priority than other settings, i.e. if this setting is switched off, the status will never be displayed."
-                },
-                hide: {
-                    label: "Show only on demand",
-                    description: "The counter is only displayed if at least one vehicle is in this status. (Attention: If the counter is completely hidden, it will never be shown, even if this setting is activated!)"
-                },
-                percent: {
-                    label: "Show percentages",
-                    description: "Should the percentage of this status be displayed?"
-                }
-            },
-            round: {
-                label: "Round percentages",
-                description: "How many decimal places should the percentages (if displayed) be rounded to?"
-            }
-        }
-    };
     I18n.translations.es.lssm.statuscount = {
         name: "Cuenta de status",
         settings: {
@@ -124,12 +76,12 @@
         }
     };
     I18n.translations.nl.lssm.statuscount = {
-        name: "Status-Count",
+        name: "Status-Teller",
         settings: {
             show: "Verberg/Toon",
             status: {
                 show: {
-                    label: "Show",
+                    label: "Toon",
                     description: "Moet de status überhaupt worden weergegeven? Belangrijk: Deze instelling heeft een hogere prioriteit dan andere instellingen, d.w.z. als deze instelling is uitgeschakeld, wordt de status nooit weergegeven."
                 },
                 hide: {
@@ -142,8 +94,8 @@
                 }
             },
             round: {
-                label: "Ronde percentages",
-                description: "Hoeveel decimalen moeten de percentages (indien weergegeven) worden afgerond?"
+                label: "Afronden percentages",
+                description: "Op hoeveel decimalen moeten de percentages (indien weergegeven) worden afgerond?"
             }
         }
     };
