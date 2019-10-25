@@ -338,16 +338,6 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.fj.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
-        siwa: 'Planned mission',
-        vge: 'Large scale alliance mission',
-        patients: 'Patients',
-        prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
-        to: 'up to',
-        SWATPersonnel: "Needed SWAT Personnel",
-        ambulance_only: 'This mission is ambulance-only!',
-        title: 'Missionhelper',
-        transport: 'Transport',
         settings: {
             name: {
                 label: 'Name',
@@ -476,16 +466,6 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.eu.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
-        siwa: 'Planned mission',
-        vge: 'Large scale alliance mission',
-        patients: 'Patients',
-        prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
-        to: 'up to',
-        SWATPersonnel: "Needed SWAT Personnel",
-        ambulance_only: 'This mission is ambulance-only!',
-        title: 'Missionhelper',
-        transport: 'Transport',
         settings: {
             name: {
                 label: 'Name',
