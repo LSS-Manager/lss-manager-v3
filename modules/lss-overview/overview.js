@@ -38,6 +38,8 @@
         extensions: 'extensions',
         maxBuildins: 'building boundary'
     };
+	I18n.translations.eu.lssm.overview = {};
+	I18n.translations.fj.lssm.overview = {};
 
     I18n.translations.es.lssm.overview = {
         vehicleType: 'Tipo de vehículo',
