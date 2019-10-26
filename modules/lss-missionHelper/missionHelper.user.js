@@ -529,7 +529,7 @@ const lssm_missionhelper_adjustPosition = () => {
             platform: "Turntable Ladder",
             heavyRescue: "Heavy Rescue",
             air: "Mobile Air",
-            bchief: "Command Unit",
+            bchief: "Rapid Response Vehicles",
             tanker: "Water Tanker",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
