@@ -200,6 +200,18 @@ lssm.Module = {
         inframe: true,
         supportedLocales: ['de']
     },
+    fms7Target: {
+        name: {
+            de: 'FMS 7 Zielort Anzeige'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt das Transportziel von Fahrzeugen im Status 7 an.'
+        },
+        source: '/modules/lss-fms7-target/Fms7Target.js',
+        inframe: false,
+        supportedLocales: ['de']
+    },
     Layout01: {
         name: {
             de: 'Layout 01'
