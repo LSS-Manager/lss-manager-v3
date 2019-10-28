@@ -479,7 +479,7 @@
     }
 
     function renderMapSettings() {
-        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
+        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 26px; width:26px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append(markup);
         $('#ls-heatmap-config-img').click(() => {
             $('#ls-heatmap-config-custom').remove();
