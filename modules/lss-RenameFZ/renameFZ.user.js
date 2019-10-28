@@ -264,11 +264,11 @@
                 21: "Urgent Care Center"
             },
             vehicleTypes: {
-                0: 'Rescue Ladder',
-                1: 'Tactical Response Vehicle (TRV)',
-                2: 'Turntable Ladder (TL)',
-                3: 'Command unit',
-                4: 'Major Rescue Unit (MRU)',
+                0: 'Water Ladder',
+                1: 'Light 4X4 Pump (L4P)',
+                2: 'Aerial Appliance',
+                3: 'Fire Officer',
+                4: 'Rescue Support Unit (RSU)',
                 5: 'Ambulance',
                 6: 'Water Carrier',
                 7: 'HazMat Unit',

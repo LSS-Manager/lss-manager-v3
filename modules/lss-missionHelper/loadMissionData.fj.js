@@ -7,10 +7,10 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "Fire engines",
-            platform: "Turntable Ladder",
-            heavyRescue: "Major Rescue Vehicles",
+            platform: "Aerial Appliance",
+            heavyRescue: "Rescue Support Units",
             air: "Mobile Air",
-            bchief: "Command Unit",
+            bchief: "Fire Officer",
             tanker: "Water Carrier",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",

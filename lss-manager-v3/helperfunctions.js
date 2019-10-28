@@ -66,11 +66,11 @@ else if (I18n.locale == "fj")
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["Rescue Ladder", 0],
-        "1": ["Tactical Response Vehicle (TRV)", 0],
-        "2": ["Turntable Ladder (TL)", 0],
-        "3": ["Command unit", 0],
-        "4": ["Major Rescue Unit (MRU)", 0],
+        "0": ["Water Ladder", 0],
+        "1": ["Light 4X4 Pump (L4P)", 0],
+        "2": ["Aerial Appliance", 0],
+        "3": ["Fire Officer", 0],
+        "4": ["Rescue Support Unit (RSU)", 0],
         "5": ["Ambulance", 2],
         "6": ["Water Carrier", 0],
         "7": ["HazMat Unit", 0],
