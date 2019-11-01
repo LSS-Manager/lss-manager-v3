@@ -5289,5 +5289,31 @@
             "specialisation": "Traumatology"
         },
         "poi": 46
+    },
+    "318": {
+        "name": "Subway train on fire",
+        "stations": {
+            "0": 11,
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1,
+            "air": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 5000,
+        "patients": {
+            "max": 5,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 46,
+        "percentages": {
+            "tanker": 40
+        }
     }
 }

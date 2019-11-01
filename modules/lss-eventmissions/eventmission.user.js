@@ -66,7 +66,7 @@
 	text = text.replace('Witch in tree', '[HALLOWEEN] Witch in tree');
 	text = text.replace('Pumpkin stolen', '[HALLOWEEN] Pumpkin stolen');
 	text = text.replace('Frankenstein sighted', '[HALLOWEEN] Frankenstein sighted');
-	text = text.replace('candy theft', '[HALLOWEEN] candy theft');
+	text = text.replace('Candy theft', '[HALLOWEEN] Candy theft');
 	text = text.replace('Monster broke loose', '[HALLOWEEN] Monster broke loose');
 	//Christmas/Winter Missions
 	text = text.replace('Brennender Adventskranz', '[X-MAS] Brennender Adventskranz');

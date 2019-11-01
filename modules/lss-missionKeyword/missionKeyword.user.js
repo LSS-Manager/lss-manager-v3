@@ -507,7 +507,8 @@
         482: 'Flugzeugreifenplatzer',
         483: 'Flugzeugreifenplatzer',
         484: 'Transportunfall mit Strahler',
-        485: 'Brand mehrerer E-Autos in Auslieferungshalle'
+        485: 'Brand mehrerer E-Autos in Auslieferungshalle',
+        486: 'Cannabisplantage entdeckt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -843,7 +844,8 @@
         314: 'Bus in river',
         315: 'Chemistry accident at school',
         316: 'Bus on fire',
-        317: 'Subway Collapse'
+        317: 'Subway Collapse',
+        318: 'Subway train on fire'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -1668,13 +1670,16 @@
         491: 'Wateroverlast',
         492: 'Ongeregeldheden voetbalsupporters horeca',
         493: 'Ongeregeldheden voetbalsupporters horeca',
-		494: 'Personenauto in sloot',
-		495: 'Personenauto in sloot',
-		496: 'Personenauto te water',
-		497: 'Personenauto te water',
-		498: 'Verkeersongeval materieel	',
-		499: 'Verkeersongeval materieel	',
-		500: 'Kettingbotsing'
+        494: 'Personenauto in sloot',
+        495: 'Personenauto in sloot',
+        496: 'Personenauto te water',
+        497: 'Personenauto te water',
+        498: 'Verkeersongeval materieel',
+        499: 'Verkeersongeval materieel',
+        500: 'Kettingbotsing',
+        501: 'Kettingbotsing',
+        502: 'Kettingbotsing',
+        503: 'Kettingbotsing'
       }
     };
 
@@ -2183,7 +2188,8 @@
       482: 'THL 2 FLUGZEUG',
       483: 'THL 2 FLUGZEUG',
       484: 'ABC 3',
-      485: 'ABC 4'
+      485: 'ABC 4',
+      486: 'POL 4'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2503,7 +2509,8 @@
       314: 'TECH 4 WATER',
       315: 'CBRN 1',
       316: 'FIRE 2',
-      317: 'TECH 5'
+      317: 'TECH 5',
+      318: 'FIRE 5 TRAIN'
     };
       let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3269,8 +3276,11 @@
 	    496: 'HV 1 WATER',
 	    497: 'HV 2 WATER',
 	    498: 'HV 1',
-	    499: 'P 1',
-	    500: 'HV 3'
+      499: 'P 1',
+      500: 'HV 2',
+      501: 'HV 1',
+      502: 'HV 2',
+      503: 'HV 3'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
