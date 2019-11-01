@@ -8638,5 +8638,25 @@
             "dekon": 5,
             "gwl2": 50
         }
+    },
+    "486": {
+        "name": "Cannabisplantage entdeckt",
+        "stations": {
+            "0": 13,
+            "2": 11,
+            "6": 4,
+            "11": 1,
+            "13": 1
+        },
+        "vehicles": {
+            "polheli": 1,
+            "grukw": 3,
+            "lebefkw": 1,
+            "fustw": 4
+        },
+        "credits": 3200,
+        "prisoners": {
+            "max": 4
+        }
     }
 }

@@ -8669,6 +8669,77 @@
         "percentages": {
             "hovd": 20
         }
+    },
+    "501": {
+        "name": "Kettingbotsing",
+        "stations": {
+            "0": 6,
+            "3": 2,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "hulpverlening": 40
+        }
+    },
+    "502": {
+        "name": "Kettingbotsing",
+        "stations": {
+            "0": 8,
+            "3": 6,
+            "5": 3
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 6,
+            "min": 4,
+            "transport": 80,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 16
+    },
+    "503": {
+        "name": "Kettingbotsing",
+        "stations": {
+            "0": 14,
+            "3": 8,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 2250,
+        "patients": {
+            "max": 8,
+            "min": 6,
+            "transport": 80,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 16
     }
 }
-
