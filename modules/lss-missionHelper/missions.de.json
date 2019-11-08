@@ -8658,5 +8658,30 @@
         "prisoners": {
             "max": 4
         }
+    },
+    "487": {
+        "name": "Kleinbrand in Kirche",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "lf": 2,
+            "dlk": 1,
+            "elw1": 1,
+            "fustw": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 3,
+            "transport": 50,
+            "nef": 50,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 38,
+        "expansions": {
+            "0": 368
+        }
     }
 }

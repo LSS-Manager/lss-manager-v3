@@ -1103,5 +1103,23 @@
             "police": 1
         },
         "credits": 100
+    },
+    "84": {
+        "name": "Ciclista golpeado por un cami\u00f3n de mercanc\u00edas",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "heavyRescue": 3
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatolog\u00eda"
+        }
     }
 }

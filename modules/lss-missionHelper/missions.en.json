@@ -5315,5 +5315,19 @@
         "percentages": {
             "tanker": 40
         }
+    },
+    "319": {
+        "name": "Damaged tank car",
+        "stations": {
+            "0": 11
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "hazmat": 1,
+            "heavyRescue": 1
+        },
+        "credits": 950,
+        "poi": 8
     }
 }

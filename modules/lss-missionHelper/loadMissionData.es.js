@@ -8,9 +8,9 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "camiones de bomberos",
             platform: "camiones con plataforma",
-            heavyRescue: "vehículos de rescate",
+            heavyRescue: "Furgones de Útiles Varios",
             air: "Mobile Air",
-            bchief: "vehículos de jefe de batallón",
+            bchief: "unidades de Mando y Comunicaciones",
             mcv: "vehículos de mando",
             tanker: "(c|C)amiones cisterna",
             hazmat: "vehículos de materiales peligrosos",

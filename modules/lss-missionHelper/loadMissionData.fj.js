@@ -8,7 +8,7 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "Fire engines",
             platform: "Aerial Appliance",
-            heavyRescue: "Rescue Support Units",
+            heavyRescue: "Rescue Support Vehicle",
             air: "Mobile Air",
             bchief: "Fire Officer",
             tanker: "Water Carrier",

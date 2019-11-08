@@ -8741,5 +8741,75 @@
             "specialisation": "Algemene Heelkunde"
         },
         "poi": 16
+    },
+    "504": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 4,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 900,
+        "poi": 50,
+        "percentages": {
+            "redvoertuig": 20
+        }
+    },
+    "505": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 50,
+        "percentages": {
+            "redvoertuig": 80
+        }
+    },
+    "506": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 10,
+            "3": 1,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "slangenwagen": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2800,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 50,
+        "percentages": {
+            "slangenwagen": 40,
+            "gevaar": 20,
+            "hovd": 50
+        }
     }
 }
