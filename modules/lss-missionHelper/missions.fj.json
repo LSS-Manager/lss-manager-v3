@@ -1170,5 +1170,23 @@
             "transport": 70,
             "specialisation": "Traumatology"
         }
+    },
+    "90": {
+        "name": "Cyclist hit by HGV",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "heavyRescue": 3
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatology"
+        }
     }
 }

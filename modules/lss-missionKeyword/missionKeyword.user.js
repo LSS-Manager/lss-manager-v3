@@ -508,7 +508,8 @@
         483: 'Flugzeugreifenplatzer',
         484: 'Transportunfall mit Strahler',
         485: 'Brand mehrerer E-Autos in Auslieferungshalle',
-        486: 'Cannabisplantage entdeckt'
+        486: 'Cannabisplantage entdeckt',
+        487: 'Kleinbrand in Kirche'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -845,7 +846,8 @@
         315: 'Chemistry accident at school',
         316: 'Bus on fire',
         317: 'Subway Collapse',
-        318: 'Subway train on fire'
+        318: 'Subway train on fire',
+        319: 'Damaged tank car'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -953,7 +955,8 @@
         86: 'Pumpkin stolen',
         87: 'Frankenstein sighted',
         88: 'Candy theft',
-        89: 'Road Traffic Collision (Major)'
+        89: 'Road Traffic Collision (Major)',
+        90: 'Cyclist hit by HGV'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1055,7 +1058,8 @@
         80: 'Monster broke loose',
         81: 'Pumpkin stolen',
         82: 'Frankenstein sighted',
-        83: 'Candy theft'
+        83: 'Candy theft',
+        84: 'Cyclist hit by HV'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1157,7 +1161,8 @@
         80: 'Monstruo anda suelto',
         81: 'Calabaza robada',
         82: 'Frankenstein avistado',
-        83: 'Robo de caramelos'
+        83: 'Robo de caramelos',
+        84: 'Ciclista golpeado por un camión de mercancías'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1679,7 +1684,10 @@
         500: 'Kettingbotsing',
         501: 'Kettingbotsing',
         502: 'Kettingbotsing',
-        503: 'Kettingbotsing'
+        503: 'Kettingbotsing',
+        504: 'Brand in fabriekshal',
+        505: 'Brand in fabriekshal',
+        506: 'Brand in fabriekshal'
       }
     };
 
@@ -2189,7 +2197,8 @@
       483: 'THL 2 FLUGZEUG',
       484: 'ABC 3',
       485: 'ABC 4',
-      486: 'POL 4'
+      486: 'POL 4',
+      487: 'B 2'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2510,7 +2519,8 @@
       315: 'CBRN 1',
       316: 'FIRE 2',
       317: 'TECH 5',
-      318: 'FIRE 5 TRAIN'
+      318: 'FIRE 5 TRAIN',
+      319: 'TECH 3'
     };
       let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -2602,7 +2612,8 @@
       86: 'POL 0.5',
       87: 'POL 1.5',
       88: 'POL 0.5',
-      89: 'TECH 5'
+      89: 'TECH 5',
+      90: 'TECH 2'
     };
       let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -2688,7 +2699,8 @@
       80: 'POL 0.5',
       81: 'POL 0.5',
       82: 'POL 0.5',
-      83: 'POL 0.5'
+      83: 'POL 0.5',
+      84: 'TECH 2'
   };
       let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -2774,7 +2786,8 @@
       80: 'POL 0.5',
       81: 'POL 0.5',
       82: 'POL 0.5',
-      83: 'POL 0.5'
+      83: 'POL 0.5',
+      84: 'TECH 2'
   };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -3280,7 +3293,10 @@
       500: 'HV 2',
       501: 'HV 1',
       502: 'HV 2',
-      503: 'HV 3'
+      503: 'HV 3',
+      504: 'KLEINE BRAND',
+      505: 'KLEINE BRAND',
+      506: 'GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

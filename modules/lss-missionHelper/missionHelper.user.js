@@ -664,9 +664,9 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "camiones de bomberos",
             platform: "camiones con plataforma",
-            heavyRescue: "vehículos de rescate",
+            heavyRescue: "Furgones de Útiles Vario",
             air: "Mobile Air",
-            bchief: "vehículos de jefe de batallón",
+            bchief: "unidades de Mando y Comunicaciones",
             mcv: "vehículos de mando",
             tanker: "camiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
