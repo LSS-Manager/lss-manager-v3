@@ -76,7 +76,10 @@ else if (I18n.locale == "fj")
         "7": ["HazMat Unit", 0],
         "8": ["Incident response vehicle (IRV)", 6],
         "9": ["SAR helicopter", 2],
-        "10": ["Rapid Response Vehicle", 2]
+        "10": ["Rapid Response Vehicle", 2],
+        "11": ["Police helicopter", 6],
+        "12": ["Dog Support Unit (DSU)", 6],
+        "13": ["Armed Response Vehicle (ARV)", 6]
     };
 }
 else if (I18n.locale == "eu")

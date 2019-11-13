@@ -112,7 +112,7 @@
             startPersonell: 10,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 20.000 mehr).',
             extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>9*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         fwklein: {
@@ -124,7 +124,7 @@
             startPersonell: 9,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
         },
         fwschule: {
@@ -217,7 +217,7 @@
             startPersonell: 2,
             startVehicle: 'FuStW',
             extensions: 'Zelle (25.000 Credits)<br>Max. 10 können gebaut werden',
-            maxBuildings: 'Keine Grenze',
+            maxBuildings: '1.100',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         polklein: {
@@ -229,7 +229,7 @@
             startPersonell: 2,
             startVehicle: 'FuStW',
             extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
-            maxBuildings: 'Keine Grenze',
+            maxBuildings: '1.100',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         polschule: {
@@ -1141,7 +1141,7 @@
             startPersonell: 10,
             startVehicle: 'Type 1 fire engine, Type 2 fire engine',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -1152,7 +1152,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Type 1 fire engine, Type 2 fire engine',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
         fwschule: {
@@ -1233,7 +1233,7 @@
             startPersonell: 2,
             startVehicle: 'Patrol Car',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polklein: {
             name: 'Police Station (small station)',
@@ -1243,7 +1243,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
             startVehicle: 'Patrol Car',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polschule: {
             name: 'Police Academy',
@@ -1515,7 +1515,8 @@
                 max: 2,
                 credits: 7000,
                 coins: 25,
-                schooling: 'K-9'
+                schooling: 'K-9',
+                special: 'Required from 6 Police stations'
             },
             polmc: {
                 name: 'Police Motorcycle',
@@ -1576,7 +1577,7 @@
             startPersonell: 2,
             startVehicle: 'Incident response vehicle (IRV)',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polklein: {
             name: 'Police Station (small station)',
@@ -1587,7 +1588,31 @@
             startPersonell: 2,
             startVehicle: 'Incident response vehicle (IRV)',
             extensions: 'Cell (25.000 Credits)<br>Max. 2 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
+        },
+        polschule: {
+            name: 'Police training centre',
+            credits: 500000,
+            coins: 50,
+            maxlevel: 0,
+            levelcost: 'No expansion stages possible',
+            startPersonell: 0,
+            startVehicle: 'No vehicles stationable',
+            extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
+            maxBuildings: 'No limit',
+            special: 'Minister of Finance and Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
+        },
+        polheli: {
+            name: 'Police Aviation Station',
+            credits: 1000000,
+            coins: 50,
+            maxlevel: 4,
+            levelcost: '1,000,000 Credits/50 Coins each',
+            startPersonell: 0,
+            startVehicle: 'No starting vehicle',
+            maxBuildings: 'see column "special"',
+            extensions: 'No extensions possible',
+            special: 'Up to 4 landing sites can be built per station (expansion stages). Up to the 125th building (of all kinds) a maximum of 4 landing sites can be built. After that the number of all 25 buildings grows by 1 (starting with 125.).'
         },
         fw: {
             name: 'Fire Department',
@@ -1598,7 +1623,7 @@
             startPersonell: 10,
             startVehicle: 'Water Ladder, Light 4X4 Pump (L4P)',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -1609,7 +1634,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Water Ladder, Light 4X4 Pump (L4P)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             extensions: 'No extensions possible',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
@@ -1660,7 +1685,7 @@
             special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
         },
         khklein: {
-            name: 'Urgent Care Center',
+            name: 'Clinic',
             credits: 100000,
             coins: 25,
             maxlevel: 5,
@@ -1753,6 +1778,24 @@
                 max: 2,
                 credits: 5000,
                 coins: 25
+            },
+            k9: {
+                name: 'Dog Support Unit (DSU)',
+                min: 1,
+                max: 2,
+                credits: 7000,
+                coins: 25,
+                schooling: 'Dog handling',
+                special: 'Required from 6 Police stations'
+            },
+            swatsuv: {
+                name: 'Armed Response Vehicle (ARV)',
+                min: 1,
+                max: 4,
+                credits: 7000,
+                coins: 23,
+                schooling: 'Firearms Training',
+                special: 'Required from 8 Police stations'
             }
         },
         heli: {
@@ -1764,6 +1807,15 @@
                 coins: x,
                 schooling: x,
                 special: 'x'
+            },
+            polh: {
+                name: 'Police helicopter',
+                min: 1,
+                max: 2,
+                credits: 300000,
+                coins: 30,
+                schooling: 'Police aviation'
+
             }
         }
     };
@@ -1797,7 +1849,7 @@
             startPersonell: 2,
             startVehicle: 'Police Car',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polklein: {
             name: 'Police Station (small station)',
@@ -1808,7 +1860,7 @@
             startPersonell: 2,
             startVehicle: 'Police Car',
             extensions: 'Cell (25.000 Credits)<br>Max. 2 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         fw: {
             name: 'Fire Department',
@@ -1819,7 +1871,7 @@
             startPersonell: 10,
             startVehicle: 'Class 2 Pumper, Class 1 Tanker',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -1830,7 +1882,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Class 2 Pumper, Class 1 Tanker',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             extensions: 'No extensions possible',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
@@ -2000,7 +2052,7 @@
             startPersonell: 10,
             startVehicle: 'Class 2 Pumper, Class 1 Tanker',
             extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
         fwklein: {
@@ -2011,7 +2063,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Class 2 Pumper, Class 1 Tanker',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
         },
         fwschule: {
@@ -2069,7 +2121,7 @@
             startPersonell: 2,
             startVehicle: 'Police Car',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polklein: {
             name: 'Police Station (small station)',
@@ -2079,7 +2131,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
             startVehicle: 'Police Car',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         }
     };
 
@@ -2199,7 +2251,7 @@
             startPersonell: 10,
             startVehicle: 'Camión BUP, Camión BUL',
             extensions: 'Extensión de ambulancia (7 Days, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'A partir de la 24ª estación de bomberos, el coste de la construcción de una nueva estación de bomberos aumenta de acuerdo con la siguiente fórmula: <code>100.000+200.000*LOG<sub>2</sub>(Número de estaciones de bomberos existentes − 22)</code>. El precio de las monedas se mantiene constante!'
         },
         fwklein: {
@@ -2210,7 +2262,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
             startPersonell: 10,
             startVehicle: 'Camión BUP, Camión BUL',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'A partir de la 24ª estación de bomberos, el coste de la construcción de una nueva estación de bomberos aumenta de acuerdo con la siguiente fórmula: <code>50.000+200.000*LOG<sub>2</sub>(Número de estaciones de bomberos existentes − 22)</code>. Max. 1 Million Credits. El precio de las monedas se mantiene constante!'
         },
         fwschule: {
@@ -2268,7 +2320,7 @@
             startPersonell: 2,
             startVehicle: 'Coche patrulla',
             extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'Sin Límite',
+            maxBuildings: '1.100',
         },
         polklein: {
             name: 'Comisaría de policía (pequeño)',
@@ -2278,7 +2330,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
             startVehicle: 'Coche patrulla',
-            maxBuildings: 'Sin Límite',
+            maxBuildings: '1.100',
         }
     };
 
@@ -2399,7 +2451,7 @@
             startPersonell: 10,
             startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
             extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in elk geval 7 dagen, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.200',
+            maxBuildings: '2.400',
             special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
         },
         fwschule: {
@@ -2481,7 +2533,7 @@
             startPersonell: 2,
             startVehicle: 'DA Noodhulp',
             extensions: 'cel (25.000 Credits)<br>Max. 10 can be built',
-            maxBuildings: 'No Limit',
+            maxBuildings: '1.100',
         },
         polschule: {
             name: 'Politie, Academie',
