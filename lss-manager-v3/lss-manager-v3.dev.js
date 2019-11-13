@@ -861,13 +861,13 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt die eigene ID in der Kopfzeile an',
-            en: 'shows your ID in the header',
-            es: 'muestra su ID en el encabezado',
-            nl: 'Geeft uw eigen ID in de kopregel weer'
+            de: 'Zeigt die eigene ID in der Kopfzeile, und die jeweilige User-ID im Profil an.',
+            en: 'Shows the own ID in the header line, and the respective user ID in the profile.',
+            es: 'Muestra el ID propio en la línea de cabecera y el ID de usuario correspondiente en el perfil.',
+            nl: 'Toont de eigen ID in de kopregel en de betreffende gebruikers-ID in het profiel.'
         },
         source: '/modules/lss-userid/lss-userId.user.js',
-        inframe: false,
+        inframe: true,
         develop: false
     },
     showChatButtonAbove: {

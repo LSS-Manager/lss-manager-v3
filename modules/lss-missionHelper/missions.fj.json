@@ -1179,7 +1179,8 @@
         "vehicles": {
             "truck": 2,
             "bchief": 1,
-            "heavyRescue": 3
+            "heavyRescue": 1,
+            "police": 2
         },
         "credits": 2000,
         "patients": {
@@ -1187,6 +1188,58 @@
             "min": 1,
             "transport": 100,
             "specialisation": "Traumatology"
+        }
+    },
+    "91": {
+        "name": "Fail to stop",
+        "stations": {
+            "6": 7,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 6,
+            "k9": 1,
+            "policeHeli": 1
+        },
+        "credits": 1000,
+        "prisoners": {
+            "max": 4
+        }
+    },
+    "92": {
+        "name": "Person with a weapon",
+        "stations": {
+            "6": 8
+        },
+        "vehicles": {
+            "police": 6,
+            "k9": 1
+        },
+        "credits": 2500,
+        "prisoners": {
+            "max": 1
+        },
+        "special": {
+            "SWATPersonnel": 4
+        }
+    },
+    "93": {
+        "name": "High-Risk Warrant",
+        "stations": {
+            "6": 9,
+            "13": 1
+        },
+        "vehicles": {
+            "k9": 1,
+            "police": 4,
+            "policeHeli": 1
+        },
+        "credits": 1400,
+        "prisoners": {
+            "max": 4
+        },
+        "special": {
+            "SWATPersonnel": 8
         }
     }
 }

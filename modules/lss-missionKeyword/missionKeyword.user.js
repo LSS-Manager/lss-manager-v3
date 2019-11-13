@@ -956,7 +956,10 @@
         87: 'Frankenstein sighted',
         88: 'Candy theft',
         89: 'Road Traffic Collision (Major)',
-        90: 'Cyclist hit by HGV'
+        90: 'Cyclist hit by HGV',
+        91: 'Fail to stop',
+        92: 'Person with a weapon',
+        93: 'High-Risk Warrant'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -2613,7 +2616,10 @@
       87: 'POL 1.5',
       88: 'POL 0.5',
       89: 'TECH 5',
-      90: 'TECH 2'
+      90: 'TECH 2',
+      91: 'POL 3',
+      92: 'POL 4',
+      93: 'POL 5'
     };
       let DEFAULT_AAO_EU = {
       0: 'FIRE 1',

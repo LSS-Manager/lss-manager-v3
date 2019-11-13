@@ -338,6 +338,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.fj.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
+        SWATPersonnel: "Needed Armed Response Personnel",
         settings: {
             name: {
                 label: 'Name',
@@ -406,7 +407,11 @@ const lssm_missionhelper_adjustPosition = () => {
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             police: "Police Car",
-            arff: "ARFF"
+            arff: "ARFF",
+            k9: "Dog Support Unit",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
+            policeHeli: "Police helicopter",
         },
         pois: [
             "Park",
