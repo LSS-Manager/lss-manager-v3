@@ -1112,7 +1112,8 @@
         "vehicles": {
             "truck": 2,
             "bchief": 1,
-            "heavyRescue": 3
+            "heavyRescue": 1,
+            "police": 2
         },
         "credits": 2000,
         "patients": {
@@ -1121,5 +1122,23 @@
             "transport": 100,
             "specialisation": "Traumatolog\u00eda"
         }
+    },
+    "85": {
+        "name": "Incendio en la escuela",
+        "stations": {
+            "0": 13,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2
+        },
+        "credits": 5300,
+        "patients": {
+            "max": 6,
+            "transport": 50,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 12
     }
 }

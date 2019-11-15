@@ -204,7 +204,7 @@
         'margin-bottom: 10px !important;'+
       '}'+
       '#map {'+
-        'height: 550px;'+
+        'height: 525px;'+
       '}'+
       '#missions-panel-body {'+
         'height: 497px;'+

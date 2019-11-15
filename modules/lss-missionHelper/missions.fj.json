@@ -1241,5 +1241,23 @@
         "special": {
             "SWATPersonnel": 8
         }
+    },
+    "94": {
+        "name": "School fire",
+        "stations": {
+            "0": 13,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2
+        },
+        "credits": 5300,
+        "patients": {
+            "max": 6,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "poi": 12
     }
 }

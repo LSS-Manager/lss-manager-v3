@@ -8683,5 +8683,185 @@
         "expansions": {
             "0": 368
         }
+    },
+    "488": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 20,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "489": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 12,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "490": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 23,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "491": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 6,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "492": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 7,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "493": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 19,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
     }
 }

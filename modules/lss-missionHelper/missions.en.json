@@ -5329,5 +5329,33 @@
         },
         "credits": 950,
         "poi": 8
+    },
+    "320": {
+        "name": "Tanker ship on fire",
+        "stations": {
+            "0": 20,
+            "3": 10,
+            "5": 2,
+            "11": 2,
+            "12": 1
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 2,
+            "air": 2,
+            "hazmat": 3,
+            "mcv": 1,
+            "police": 3,
+            "largeRescueboat": 1,
+            "largeFireboat": 3
+        },
+        "credits": 15000,
+        "patients": {
+            "max": 15,
+            "transport": 60,
+            "specialisation": "General Internal"
+        }
     }
 }
