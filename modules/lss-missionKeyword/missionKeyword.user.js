@@ -509,7 +509,13 @@
         484: 'Transportunfall mit Strahler',
         485: 'Brand mehrerer E-Autos in Auslieferungshalle',
         486: 'Cannabisplantage entdeckt',
-        487: 'Kleinbrand in Kirche'
+		487: 'Kleinbrand in Kirche',
+		488: 'Massenanfall an Erkrankten',
+		489: 'Massenanfall an Erkrankten',
+		490: 'Massenanfall an Erkrankten',
+		491: 'Massenanfall an Erkrankten',
+		492: 'Massenanfall an Erkrankten',
+		493: 'Massenanfall an Erkrankten'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -847,7 +853,8 @@
         316: 'Bus on fire',
         317: 'Subway Collapse',
         318: 'Subway train on fire',
-        319: 'Damaged tank car'
+        319: 'Damaged tank car',
+		320: 'Tanker ship on fire'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -959,7 +966,8 @@
         90: 'Cyclist hit by HGV',
         91: 'Fail to stop',
         92: 'Person with a weapon',
-        93: 'High-Risk Warrant'
+        93: 'High-Risk Warrant',
+		94: 'School Fire'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1062,7 +1070,8 @@
         81: 'Pumpkin stolen',
         82: 'Frankenstein sighted',
         83: 'Candy theft',
-        84: 'Cyclist hit by HV'
+        84: 'Cyclist hit by HV',
+		85: 'School Fire'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1165,7 +1174,8 @@
         81: 'Calabaza robada',
         82: 'Frankenstein avistado',
         83: 'Robo de caramelos',
-        84: 'Ciclista golpeado por un camión de mercancías'
+        84: 'Ciclista golpeado por un camión de mercancías',
+		85: 'Incendio en la escuela'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1690,7 +1700,10 @@
         503: 'Kettingbotsing',
         504: 'Brand in fabriekshal',
         505: 'Brand in fabriekshal',
-        506: 'Brand in fabriekshal'
+        506: 'Brand in fabriekshal',
+		507: 'Brand in fabriekshal',
+		508: 'Brand in fabriekshal',
+		509: 'Brand in fabriekshal'
       }
     };
 
@@ -2201,7 +2214,13 @@
       484: 'ABC 3',
       485: 'ABC 4',
       486: 'POL 4',
-      487: 'B 2'
+      487: 'B 2',
+	  488: 'RD 7',
+	  489: 'RD 7',
+	  490: 'RD 7',
+	  491: 'RD 7',
+	  492: 'RD 7',
+	  493: 'RD 7'
     };
       let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -2523,7 +2542,8 @@
       316: 'FIRE 2',
       317: 'TECH 5',
       318: 'FIRE 5 TRAIN',
-      319: 'TECH 3'
+      319: 'TECH 3',
+	  320: 'FIRE 6 SHIP'
     };
       let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -2619,7 +2639,8 @@
       90: 'TECH 2',
       91: 'POL 3',
       92: 'POL 4',
-      93: 'POL 5'
+      93: 'POL 5',
+	  94: 'FIRE 4'
     };
       let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -2706,7 +2727,8 @@
       81: 'POL 0.5',
       82: 'POL 0.5',
       83: 'POL 0.5',
-      84: 'TECH 2'
+      84: 'TECH 2',
+	  85: 'FIRE 4'
   };
       let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -2793,7 +2815,8 @@
       81: 'POL 0.5',
       82: 'POL 0.5',
       83: 'POL 0.5',
-      84: 'TECH 2'
+      84: 'TECH 2',
+	  85: 'FIRE 4'
   };
       let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -3290,11 +3313,11 @@
       491: 'HV 2',
       492: 'P 3',
       493: 'P 2',
-	    494: 'HV 2 WATER',
-	    495: 'HV 2 WATER',
-	    496: 'HV 1 WATER',
-	    497: 'HV 2 WATER',
-	    498: 'HV 1',
+	  494: 'HV 2 WATER',
+	  495: 'HV 2 WATER',
+	  496: 'HV 1 WATER',
+	  497: 'HV 2 WATER',
+	  498: 'HV 1',
       499: 'P 1',
       500: 'HV 2',
       501: 'HV 1',
@@ -3302,7 +3325,10 @@
       503: 'HV 3',
       504: 'KLEINE BRAND',
       505: 'KLEINE BRAND',
-      506: 'GROTE BRAND'
+      506: 'GROTE BRAND',
+	  507: 'GROTE BRAND',
+	  508: 'ZEER GROTE BRAND',
+	  509: 'ZEER ZEER GROTE BRAND',
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

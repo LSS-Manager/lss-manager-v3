@@ -8811,5 +8811,91 @@
             "gevaar": 20,
             "hovd": 50
         }
+    },
+    "507": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 12,
+            "3": 1,
+            "5": 2,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2950,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 50,
+        "percentages": {
+            "adembescherming": 20,
+            "slangenwagen": 60,
+            "waarschuwing": 60
+        }
+    },
+    "508": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 18,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 4,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 5000,
+        "poi": 50,
+        "percentages": {
+            "hulpverlening": 20,
+            "adembescherming": 60
+        }
+    },
+    "509": {
+        "name": "Brand in fabriekshal",
+        "stations": {
+            "0": 20,
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 8,
+            "redvoertuig": 3,
+            "hulpverlening": 1,
+            "ovdb": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 2,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 7200,
+        "poi": 50,
+        "percentages": {
+            "hulpverlening": 40
+        }
     }
 }
