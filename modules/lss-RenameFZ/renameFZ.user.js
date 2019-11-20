@@ -317,6 +317,130 @@
             }
         }
     };
+    I18n.translations.pl_PL.lssm.renameFz = {
+        name: 'Zmiana nazwy pojazdów',
+        rename: "zmiana nazwy",
+        id: "{id} Id pojazdu",
+        old: "{old} Aktualna nazwa",
+        vehicleType: "{vehicleType} Typ pojazdu",
+        stationName: "{stationName} Nazwa budynku",
+        tagging: '{tagging} Oznakowanie typu pojazdu',
+        number: '{number} Licznik typów',
+        numberRoman: '{numberRoman} Licznik typów (cyfry rzymskie)',
+        dispatch: '{dispatch} Nazwa dyspozytora',
+        dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter (Dyspozytornia)',
+        stationAlias: '{stationAlias} Aliasy budowlane',
+        saveAll: 'ocalić wszystko.',
+        statusWaiting: 'Poczekaj na wejście.',
+        statusError: '<b>Błąd podczas generowania!</b> Jeśli ten błąd wystąpi ponownie, należy go zgłosić. Proszę podać następujące informacje:',
+        statusWorking: 'Generowanie nazwisk i formularzy. Może to zająć pewną ilość czasu, w zależności od systemu i liczby pojazdów.',
+        statusSuccess: 'Nazwy i Forumlare zostały wygenerowane z powodzeniem!',
+        nameAlreadyCorrect: 'Nazwa już odpowiada szablonowi!',
+        nameToLong: 'Nazwa jest zbyt długa dla następujących pojazdów:',
+        nameToLongOriginalName: 'Oryginalna nazwa',
+        nameToLongGeneratedName: 'Generowana nazwa',
+        nameToLongShortenedName: 'Nowa/skrócona nazwa',
+        helpTitle: 'Mała instrukcja znajduje się pod tym linkiem: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Start licznika',
+        counterOverride: 'Jeżeli istnieje kilka pojazdów tego samego typu, należy rozpocząć od 1.',
+        startNumHelp: 'W tym miejscu można wprowadzić wartość początkową dla licznika typów. Jeśli ustawisz 0 jako wartość początkową, pierwszy pojazd danego typu nie otrzyma numeracji, jest to bardzo praktyczne, jeśli masz tylko jeden pojazd danego typu na straży i nie chcesz go ponumerować. Ale możesz również uruchomić licznik o 5 (z dowolnego powodu, ale jest to możliwe ;) )',
+        toggleNameCorrect: 'Pokaż/Ukryj pojazdy z prawidłowymi nazwami',
+        settings: {
+            show: 'Pokaż/Ukryj się',
+            names: {
+                vehicleTypes: 'Typy pojazdów',
+                stations: 'Pseudonim budynku'
+            },
+            descriptions: {
+                vehicleTypes: 'Tutaj można ustawić alternatywne nazwy dla każdego typu pojazdu. Można ich używać przy zmianie nazwy pojazdu za pośrednictwem dyspozytorni.',
+                stations: 'Tutaj możesz ustawić alternatywne nazwy dla każdego budynku. Można ich używać przy zmianie nazwy pojazdu za pośrednictwem dyspozytorni.'
+            },
+            validStationTypes: {
+                0: "Jednostka Ratowniczo-Gaśnicza",
+                2: "Stacja Pogotowia Ratunkowego",
+                6: "Komenda Policji",
+                7: "Centrum Powiadamiania Ratunkowego",
+                18: "Remiza",
+                19: "Posterunek Policji",
+                20: "Podstacja Pogotowia Ratunkowego"
+            },
+            vehicleTypes: {
+                0: 'Ciężki samochód gaśniczy',
+                1: 'Średni samochód gaśniczy',
+                2: 'Drabina mechaniczna',
+                3: 'Samochód operacyjny',
+                4: 'Samochód Ratownictwa Technicznego',
+                5: 'Ambulans P',
+                6: 'Cysterna gaśnicza',
+                7: 'Samochód ratownictwa chemicznego',
+                8: 'Radiowóz',
+                9: 'Śmigłowiec LPR'
+            }
+        }
+    };
+    I18n.translations.sv_SE.lssm.renameFz = {
+        name: 'Byt namn på fordon',
+        rename: "döpa om",
+        id: "{id} Id för fordon",
+        old: "{old} Nuvarande namn",
+        vehicleType: "{vehicleType} Typ av fordon",
+        stationName: "{stationName} Byggnadens namn",
+        tagging: '{tagging} Marking of the vehicle type',
+        number: '{number} Typ-counter',
+        numberRoman: '{numberRoman} Typ-counter (romerska siffror)',
+        dispatch: '{dispatch} Namn på Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatch Center',
+        stationAlias: '{stationAlias} Bygga-Alias',
+        saveAll: 'rädda alla',
+        statusWaiting: 'Vänta på inmatning',
+        statusError: '<b>Fel under generationen!</b> Om det här felet uppstår igen, rapportera det. Ange följande information:',
+        statusWorking: 'Generera namn och former. Det kan ta en viss tid beroende på system och antal fordon.',
+        statusSuccess: 'Namn och Forumlare framgångsrikt genererade!',
+        nameAlreadyCorrect: 'Namnet motsvarar redan mallen!',
+        nameToLong: 'Namnet är för långt för följande fordon:',
+        nameToLongOriginalName: 'Originalnamn',
+        nameToLongGeneratedName: 'Genererat namn',
+        nameToLongShortenedName: 'Nytt / förkortat namn',
+        helpTitle: 'Du hittar en liten instruktion under denna länk: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Motstart',
+        counterOverride: 'Om det finns flera fordon av samma typ börjar du ändå med 1.',
+        startNumHelp: 'Här kan du ange ett startvärde för typräknaren. Om du ställer in 0 som startvärde, kommer det första fordonet av en typ inte att få numrering, detta är mycket praktiskt om du bara har ett fordon av en typ på en skydd och inte vill numrera det. Men du kan också starta räknaren vid 5 (oavsett anledning du vill, men det är möjligt;))',
+        toggleNameCorrect: 'Visa / dölj fordon med korrekta namn',
+        settings: {
+            show: 'Visa gömma',
+            names: {
+                vehicleTypes: 'fordonstyper',
+                stations: 'Bygga alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Här kan du ange alternativa namn för varje fordonstyp. Du kan använda dem när du byter namn på dina fordon via avsändningscentret.',
+                stations: 'Här kan du ange alternativa namn för varje byggnad. Du kan använda dem när du byter namn på dina fordon via avsändningscentret.'
+            },
+            validStationTypes: {
+                0: "Brandstation",
+                2: "Ambulansstation",
+                6: "Polisstation",
+                7: "Larmcentral",
+                18: "Brandstation (liten)",
+                19: "Polisstation (liten)",
+                20: "Ambulansstation (liten)"
+            },
+            vehicleTypes: {
+                0: 'BAS 1 - Släckbil',
+                1: 'BAS 2 - Släckbil',
+                2: 'M32L - Stegbil',
+                3: 'Befälsfordon',
+                4: 'Lastväxlare',
+                5: 'Ambulans',
+                6: 'BAS 4 - Tankbil',
+                7: 'Industribrandbil',
+                8: 'Radiobil',
+                9: 'Räddningshelikopter'
+            }
+        }
+    };
     I18n.translations.es.lssm.renameFz = {
         name: 'Renombrar vehículos',
         rename: "cambiar de nombre",

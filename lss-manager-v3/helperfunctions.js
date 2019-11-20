@@ -132,6 +132,58 @@ else if (I18n.locale == "es")
         "9": ["Helicóptero HSR", 2]
     };
 }
+else if (I18n.locale == "sv_SE")
+{
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Ambulansutbyggnad": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Fängelsecell": 10,
+        "Fler celler": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["BAS 1 - Släckbil", 0],
+        "1": ["BAS 2 - Släckbil", 0],
+        "2": ["M32L - Stegbil", 0],
+        "3": ["Befälsfordon", 0],
+        "4": ["Lastväxlare", 0],
+        "5": ["Ambulans", 2],
+        "6": ["BAS 4 - Tankbil", 0],
+        "7": ["Industribrandbil", 0],
+        "8": ["Radiobil", 6],
+        "9": ["Räddningshelikopter", 2]
+    };
+}
+else if (I18n.locale == "pl_PL")
+{
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Rozbudowa dla pogotowia": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cela więzienna": 10,
+        "Dodatkowa cela": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Ciężki samochód gaśniczy", 0],
+        "1": ["Średni samochód gaśniczy", 0],
+        "2": ["Drabina mechaniczna", 0],
+        "3": ["Samochód operacyjny", 0],
+        "4": ["Samochód Ratownictwa Technicznego", 0],
+        "5": ["Ambulans P", 2],
+        "6": ["Cysterna gaśnicza", 0],
+        "7": ["Samochód ratownictwa chemicznego", 0],
+        "8": ["Radiowóz", 6],
+        "9": ["Śmigłowiec LPR", 2]
+    };
+}
 else if (I18n.locale == "nl")
 {
 	lssm.extensions = {

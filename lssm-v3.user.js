@@ -16,6 +16,10 @@
 // @include      *://www.centro-de-mando.es/*
 // @include      *://missionchief-australia.com/*
 // @include      *://www.missionchief-australia.com/*
+// @include      *://larmcentralen-spelet.se/*
+// @include      *://www.larmcentralen-spelet.se/*
+// @include      *://operatorratunkowy.pl/*
+// @include      *://www.operatorratunkowy.pl/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start

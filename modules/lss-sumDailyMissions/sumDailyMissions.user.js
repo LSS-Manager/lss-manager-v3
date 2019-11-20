@@ -51,6 +51,38 @@
             num_team: 'Sum alliance'
         };
 
+        I18n.translations.pl_PL['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Patient Treatment',
+            education: 'education',
+            purchase: 'bought',
+            cancelled: 'Zwrot',
+            extended: 'Postawiono',
+            extended2: 'Extended',
+            built: 'Postawiono',
+            team: 'Alliance',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
+
+        I18n.translations.sv_SE['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Patient Treatment',
+            education: 'education',
+            purchase: 'bought',
+            cancelled: 'Återlämna',
+            extended: 'uppförd',
+            extended2: 'Extended',
+            built: 'uppförd',
+            team: 'Alliance',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
+
         I18n.translations.nl['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patiënten behandeling',
             education: 'Opleiding',

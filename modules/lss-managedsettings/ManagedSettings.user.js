@@ -36,7 +36,7 @@
         reset_btn: "Reset settings",
         reset_hint: "Are you sure you want to reset the settings of this module to the default values?",
         reset_success: "Successfully reset the settings. You need to reload the page to make them work.",
-        export_success: "Sucsessfully exported settings",
+        export_success: "Successfully exported settings",
         export_hint: "Please note that only previously saved settings of currently activated modules can be exported.",
         import_success: "The settings were successfully imported. You need to reload the page to make them work.",
         import_missmatch: "The read-in file is unfortunately no longer compatible with the current version of LSSM.",
@@ -60,6 +60,44 @@
         import_success: "La configuración se ha importado correctamente. Necesitas recargar la página para que funcione.",
         import_missmatch: "Lamentablemente, el archivo de lectura ya no es compatible con la versión actual de LSSM.",
         import_fail: "Error: Se ha producido un error al importar el archivo: <strong> {0} </strong>. Por favor, informe a un promotor."
+    };
+
+    I18n.translations.pl_PL.lssm.managedsettings = {
+        title: "Ustawienia LSSM",
+        text1: "Tutaj można zmienić ustawienia aktywowanych wtyczek.",
+        text2: "",
+        save: "Zapisz i zamknij",
+        settings_tab: "Ustawienia",
+        addField_btn: "Dodaj",
+        export_btn: "Ustawienia eksportu",
+        import_btn: "Ustawienia importu",
+        reset_btn: "Resetowanie ustawień",
+        reset_hint: "Czy na pewno chcesz przywrócić ustawienia tego modułu do wartości domyślnych?",
+        reset_success: "Pomyślnie zresetuj ustawienia. Aby strona działała, należy ją ponownie załadować.",
+        export_success: "Sukcesywnie eksportowane ustawienia",
+        export_hint: "Należy pamiętać, że tylko wcześniej zapisane ustawienia aktualnie aktywowanych modułów mogą być eksportowane.",
+        import_success: "Ustawienia zostały pomyślnie zaimportowane. Aby strona działała, należy ją ponownie załadować.",
+        import_missmatch: "Plik do odczytu nie jest już niestety kompatybilny z aktualną wersją LSSM.",
+        import_fail: "Błąd: Wystąpił błąd podczas importowania pliku: <strong> {0} </strong>. Proszę poinformować dewelopera."
+    };
+
+    I18n.translations.sv_SE.lssm.managedsettings = {
+        title: "LSSM-inställningar",
+        text1: "Här kan du ändra inställningarna för dina aktiverade plugins.",
+        text2: "",
+        save: "Spara & stäng",
+        settings_tab: "inställningar",
+        addField_btn: "tillägga",
+        export_btn: "Exportera inställningar",
+        import_btn: "Importera inställningar",
+        reset_btn: "Återställ inställningar",
+        reset_hint: "Är du säker på att du vill återställa inställningarna för den här modulen till standardvärdena?",
+        reset_success: "Återställ inställningarna. Du måste ladda om sidan för att få dem att fungera.",
+        export_success: "Exporterade inställningar lyckades",
+        export_hint: "Observera att endast tidigare sparade inställningar för för närvarande aktiverade moduler kan exporteras.",
+        import_success: "Inställningarna importerades framgångsrikt. Du måste ladda om sidan för att få dem att fungera.",
+        import_missmatch: "Den inlästa filen är tyvärr inte längre kompatibel med den aktuella versionen av LSSM.",
+        import_fail: "Fel: Ett fel inträffade vid import av filen: <strong> {0} </strong>. Informera en utvecklare."
     };
 
     I18n.translations.nl.lssm.managedsettings = {

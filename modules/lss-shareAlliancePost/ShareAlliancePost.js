@@ -73,6 +73,42 @@
         }
     };
 
+    I18n.translations.pl_PL.lssm.sharealliancepost = {
+        share: 'dzielony',
+        chat: 'chatty',
+        alert: 'czujny',
+        chatm: 'Na pogawędkę drużynową',
+        reqVehIdent: 'Potrzebne pojazdy:',
+        reqVeh: 'Nie są wymagane żadne inne pojazdy.',
+        settings: {
+            title: 'Alerty, akcje i poczta',
+            jumpNext: 'Przejdź do następnej misji po ostrzeżeniu.',
+            enableKeyboard: 'Włączyć skróty klawiaturowe',
+            defaultPostToChat: 'Post to chat jest wartością domyślną',
+            shortcutKeys: 'Lista klawiszy alarmowych oddzielonych przecinkami. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Szablony wiadomości. Posiadacze miejsc: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Offset dla %TIME_OFFSET%-formatter w godzinach'
+        }
+    };
+
+    I18n.translations.sv_SE.lssm.sharealliancepost = {
+        share: 'Dela med sig...',
+        chat: 'Chatt...',
+        alert: 'Varna...',
+        chatm: 'Till Teamchatt',
+        reqVehIdent: 'Nödvändiga fordon:',
+        reqVeh: 'Inga andra fordon krävs.',
+        settings: {
+            title: 'Alert, Share & Post',
+            jumpNext: 'Hoppa till nästa uppdrag efter varning',
+            enableKeyboard: 'Aktivera kortkommandon',
+            defaultPostToChat: 'Inlägg till chatt är som standard',
+            shortcutKeys: 'Kommaseparerad lista med nycklar för varning. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Meddelandemallar. Platshållare: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Offset för %TIME_OFFSET% -format i timmar'
+        }
+    };
+
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,
         title: I18n.t('lssm.sharealliancepost.settings.title'),
