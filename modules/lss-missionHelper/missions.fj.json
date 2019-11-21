@@ -1226,15 +1226,13 @@
     "93": {
         "name": "High-Risk Warrant",
         "stations": {
-            "6": 9,
-            "13": 1
+            "6": 9
         },
         "vehicles": {
             "k9": 1,
-            "police": 4,
-            "policeHeli": 1
+            "police": 4
         },
-        "credits": 1400,
+        "credits": 1200,
         "prisoners": {
             "max": 4
         },
