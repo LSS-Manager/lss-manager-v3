@@ -1,16 +1,17 @@
 {
     "0": {
-        "name": "Bin fire",
+        "name": "Brinnande soptunna",
         "stations": {
             "0": 1
         },
         "vehicles": {
             "truck": 1
         },
-        "credits": 110
+        "credits": 110,
+        "poi": 4
     },
     "1": {
-        "name": "Container fire",
+        "name": "Brinnande container",
         "stations": {
             "0": 1
         },
@@ -20,7 +21,7 @@
         "credits": 170
     },
     "2": {
-        "name": "Burning car",
+        "name": "Brinnande bil",
         "stations": {
             "0": 1
         },
@@ -35,7 +36,7 @@
         }
     },
     "3": {
-        "name": "Burning motorbike",
+        "name": "Brinnande motorcykel",
         "stations": {
             "0": 1
         },
@@ -48,7 +49,7 @@
         }
     },
     "4": {
-        "name": "Burning grass",
+        "name": "Brinnande gr\u00e4s",
         "stations": {
             "0": 1
         },
@@ -61,22 +62,26 @@
         }
     },
     "5": {
-        "name": "Room fire",
+        "name": "Brinnande rum",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 2,
+            "platform": 1
         },
-        "credits": 800,
+        "credits": 1400,
         "patients": {
             "max": 1,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "platform": 30
         }
     },
     "6": {
-        "name": "Garden shed fire",
+        "name": "Brinnande bod",
         "stations": {
             "0": 2
         },
@@ -86,7 +91,7 @@
         "credits": 600
     },
     "7": {
-        "name": "Burning leaves",
+        "name": "Brinnande l\u00f6v",
         "stations": {
             "0": 1
         },
@@ -99,7 +104,7 @@
         }
     },
     "8": {
-        "name": "Bulk rubbish fire",
+        "name": "Brinnande sopor",
         "stations": {
             "0": 1
         },
@@ -114,7 +119,7 @@
         }
     },
     "9": {
-        "name": "Bale of straw fire",
+        "name": "Brinnande h\u00f6bal",
         "stations": {
             "0": 1
         },
@@ -128,7 +133,7 @@
         }
     },
     "10": {
-        "name": "Tractor fire",
+        "name": "Brinnande traktor",
         "stations": {
             "0": 1
         },
@@ -138,7 +143,7 @@
         "credits": 600
     },
     "11": {
-        "name": "Phonebox on fire",
+        "name": "Brinnande telefonkiosk",
         "stations": {
             "0": 1
         },
@@ -148,7 +153,7 @@
         "credits": 240
     },
     "12": {
-        "name": "Tree on the road",
+        "name": "Tr\u00e4d p\u00e5 v\u00e4gen",
         "stations": {
             "0": 1
         },
@@ -161,7 +166,7 @@
         }
     },
     "13": {
-        "name": "Burning truck",
+        "name": "Brinnande lastbil",
         "stations": {
             "0": 2
         },
@@ -171,7 +176,7 @@
         "credits": 980
     },
     "14": {
-        "name": "Little field fire",
+        "name": "Liten gr\u00e4sbrand",
         "stations": {
             "0": 2
         },
@@ -184,7 +189,7 @@
         }
     },
     "15": {
-        "name": "Little forest fire",
+        "name": "Liten l\u00f6peld",
         "stations": {
             "0": 1
         },
@@ -195,7 +200,7 @@
         "poi": 3
     },
     "16": {
-        "name": "Caravan fire",
+        "name": "Brinnande husvagn",
         "stations": {
             "0": 2
         },
@@ -205,7 +210,7 @@
         "credits": 1100
     },
     "17": {
-        "name": "Postbox on fire",
+        "name": "Brinnande postl\u00e5da",
         "stations": {
             "0": 1
         },
@@ -215,7 +220,7 @@
         "credits": 340
     },
     "18": {
-        "name": "Out of control bonfire",
+        "name": "Rish\u00f6g",
         "stations": {
             "0": 1
         },
@@ -225,7 +230,7 @@
         "credits": 700
     },
     "19": {
-        "name": "Burning trailer",
+        "name": "Brinnande sl\u00e4p",
         "stations": {
             "0": 1
         },
@@ -235,7 +240,7 @@
         "credits": 650
     },
     "20": {
-        "name": "Basement fire",
+        "name": "Brinnande k\u00e4llare",
         "stations": {
             "0": 3
         },
@@ -246,14 +251,14 @@
         "credits": 2500,
         "patients": {
             "max": 2,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "percentages": {
             "bchief": 90
         }
     },
     "21": {
-        "name": "Chimney fire",
+        "name": "Brinnande skorsten",
         "stations": {
             "0": 3
         },
@@ -262,16 +267,16 @@
             "bchief": 1,
             "truck": 1
         },
-        "credits": 1900,
+        "credits": 2400,
         "expansions": {
             "0": 22
         },
         "percentages": {
-            "platform": 10
+            "platform": 100
         }
     },
     "22": {
-        "name": "Roof fire",
+        "name": "Brinnande tak",
         "stations": {
             "0": 3
         },
@@ -287,7 +292,7 @@
         }
     },
     "23": {
-        "name": "Grease Fire",
+        "name": "Brinnande fett",
         "stations": {
             "0": 3
         },
@@ -297,7 +302,7 @@
         "credits": 1200
     },
     "24": {
-        "name": "Burning bus shelter",
+        "name": "Brinnande busskur",
         "stations": {
             "0": 3
         },
@@ -308,7 +313,7 @@
         "poi": 4
     },
     "25": {
-        "name": "Road accident",
+        "name": "V\u00e4golycka",
         "stations": {
             "0": 3
         },
@@ -319,7 +324,7 @@
         "patients": {
             "max": 1,
             "transport": 40,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologi"
         },
         "expansions": {
             "0": 24,
@@ -328,26 +333,25 @@
         }
     },
     "26": {
-        "name": "Small Supermarket Fire",
+        "name": "Brand i mataff\u00e4r",
         "stations": {
             "0": 5,
             "2": 1
         },
         "vehicles": {
             "truck": 4,
-            "bchief": 1,
-            "platform": 1
+            "bchief": 1
         },
         "credits": 1500,
         "patients": {
             "max": 2,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 9
     },
     "27": {
-        "name": "Garage fire",
+        "name": "Brinnande garage",
         "stations": {
             "0": 4
         },
@@ -357,7 +361,7 @@
         "credits": 1400
     },
     "28": {
-        "name": "Burning machine",
+        "name": "Brinnande maskin",
         "stations": {
             "0": 5
         },
@@ -373,7 +377,7 @@
         }
     },
     "29": {
-        "name": "Unknown Tanker Spill",
+        "name": "Ok\u00e4nt tankutsl\u00e4pp",
         "stations": {
             "0": 13,
             "6": 2
@@ -382,13 +386,14 @@
             "truck": 4,
             "heavyRescue": 2,
             "bchief": 2,
+            "mcv": 1,
             "police": 3,
             "hazmat": 2
         },
         "credits": 5300
     },
     "30": {
-        "name": "Gas Leak",
+        "name": "Gasl\u00e4cka",
         "stations": {
             "0": 1
         },
@@ -398,18 +403,19 @@
         "credits": 400
     },
     "31": {
-        "name": "Fireplace fire",
+        "name": "Brinnande eldstad",
         "stations": {
             "0": 6
         },
         "vehicles": {
             "bchief": 1,
-            "truck": 3
+            "platform": 1,
+            "truck": 1
         },
         "credits": 1310
     },
     "32": {
-        "name": "Harvester fire",
+        "name": "Brinnande tr\u00f6ska",
         "stations": {
             "0": 6
         },
@@ -419,7 +425,7 @@
         "credits": 1200
     },
     "33": {
-        "name": "Small Supermarket Fire",
+        "name": "Brand i mataff\u00e4r",
         "stations": {
             "0": 5,
             "2": 1
@@ -432,12 +438,12 @@
         "patients": {
             "max": 2,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 9
     },
     "34": {
-        "name": "Fire in Hospital",
+        "name": "Brand i sjukhus",
         "stations": {
             "0": 10,
             "2": 6
@@ -453,12 +459,12 @@
         "patients": {
             "max": 25,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 2
     },
     "35": {
-        "name": "Alcoholic intoxication",
+        "name": "Alkoholf\u00f6rgiftning",
         "stations": {
             "2": 1,
             "6": 1
@@ -469,56 +475,56 @@
         "patients": {
             "max": 1,
             "min": 1,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         }
     },
     "36": {
-        "name": "Chest Pains",
+        "name": "Br\u00f6stsm\u00e4rta",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 100,
-        "specialisation": "Cardiology"
+        "specialisation": "Kardiologi"
     },
     "37": {
-        "name": "Acute asthma",
+        "name": "Akut astma",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 50,
-        "specialisation": "General Internal"
+        "specialisation": "Inv\u00e4rtesmedicinare"
     },
     "38": {
-        "name": "Seizure",
+        "name": "Anfall",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 50,
-        "specialisation": "Neurology"
+        "specialisation": "Neurologi"
     },
     "39": {
-        "name": "Fever",
+        "name": "Feber",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 90,
-        "specialisation": "General Internal"
+        "specialisation": "Inv\u00e4rtesmedicinare"
     },
     "40": {
-        "name": "Fallen person",
+        "name": "Fallolycka",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 30,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologi"
     },
     "41": {
-        "name": "Car workshop fire",
+        "name": "Brand i bilverkstad",
         "stations": {
             "0": 14,
             "2": 2,
@@ -537,7 +543,7 @@
         "patients": {
             "max": 4,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 15,
         "percentages": {
@@ -545,25 +551,25 @@
         }
     },
     "42": {
-        "name": "Fallen person",
+        "name": "Fallolycka",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 30,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologi"
     },
     "43": {
-        "name": "Fallen person",
+        "name": "Fallolycka",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 30,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologi"
     },
     "44": {
-        "name": "Shoplifting",
+        "name": "Snatteri",
         "stations": {
             "6": 1
         },
@@ -577,7 +583,7 @@
         }
     },
     "45": {
-        "name": "Shoplifting",
+        "name": "Snatteri",
         "stations": {
             "6": 1
         },
@@ -591,7 +597,7 @@
         }
     },
     "46": {
-        "name": "Parked car accident",
+        "name": "Parkerad bilolycka",
         "stations": {
             "6": 1
         },
@@ -602,7 +608,7 @@
         "poi": 9
     },
     "47": {
-        "name": "Parked car accident",
+        "name": "Parkerad bilolycka",
         "stations": {
             "6": 1
         },
@@ -613,7 +619,7 @@
         "poi": 10
     },
     "48": {
-        "name": "Metal burglary",
+        "name": "Metallst\u00f6ld",
         "stations": {
             "6": 1
         },
@@ -627,7 +633,7 @@
         }
     },
     "49": {
-        "name": "Pickpocketing",
+        "name": "Fickst\u00f6ld",
         "stations": {
             "6": 1
         },
@@ -641,7 +647,7 @@
         }
     },
     "50": {
-        "name": "Fare dodger",
+        "name": "Plankning",
         "stations": {
             "6": 1
         },
@@ -652,7 +658,7 @@
         "poi": 4
     },
     "51": {
-        "name": "Fare dodger",
+        "name": "Plankning",
         "stations": {
             "6": 1
         },
@@ -663,7 +669,7 @@
         "poi": 5
     },
     "52": {
-        "name": "Fare dodger",
+        "name": "Plankning",
         "stations": {
             "6": 1
         },
@@ -674,7 +680,7 @@
         "poi": 6
     },
     "53": {
-        "name": "Fare dodger",
+        "name": "Plankning",
         "stations": {
             "6": 1
         },
@@ -685,7 +691,7 @@
         "poi": 7
     },
     "54": {
-        "name": "Parked car accident",
+        "name": "Parkerad bilolycka",
         "stations": {
             "6": 1
         },
@@ -696,7 +702,7 @@
         "poi": 14
     },
     "55": {
-        "name": "Brawl",
+        "name": "Slagsm\u00e5l",
         "stations": {
             "6": 3
         },
@@ -706,14 +712,14 @@
         "credits": 700,
         "patients": {
             "max": 3,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologi"
         },
         "prisoners": {
             "max": 2
         }
     },
     "56": {
-        "name": "Rioter",
+        "name": "Upplopp",
         "stations": {
             "6": 2
         },
@@ -729,14 +735,14 @@
         }
     },
     "57": {
-        "name": "Unannounced demonstration",
+        "name": "Olovlig protest",
         "vehicles": {
             "police": 7
         },
         "credits": 10020
     },
     "58": {
-        "name": "Kitchen Fire",
+        "name": "Brand i k\u00f6k",
         "stations": {
             "0": 2
         },
@@ -746,7 +752,7 @@
         "credits": 1000
     },
     "59": {
-        "name": "Animal Rescue",
+        "name": "Djurr\u00e4ddning",
         "stations": {
             "0": 6
         },
@@ -758,7 +764,7 @@
         "poi": 21
     },
     "60": {
-        "name": "Sports hall fire",
+        "name": "Brand i idrottshall",
         "stations": {
             "0": 9,
             "2": 2
@@ -772,31 +778,30 @@
         "patients": {
             "max": 4,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 12
     },
     "61": {
-        "name": "Light Aircraft Crash (Airfield)",
+        "name": "Flygkrasch",
         "stations": {
             "0": 4,
             "2": 2
         },
         "vehicles": {
-            "truck": 3,
-            "heavyRescue": 2,
-            "bchief": 1
+            "truck": 1,
+            "arff": 2
         },
         "credits": 2500,
         "patients": {
             "max": 4,
             "transport": 60,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologi"
         },
         "poi": 28
     },
     "62": {
-        "name": "Noise Complaint",
+        "name": "Ov\u00e4sen",
         "stations": {
             "6": 1
         },
@@ -806,16 +811,16 @@
         "credits": 400
     },
     "63": {
-        "name": "Transient Ischemic Attack",
+        "name": "Transitorisk ischemisk attack",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 70,
-        "specialisation": "Neurosurgery"
+        "specialisation": "Neurokirurgi"
     },
     "64": {
-        "name": "Accident Involving a Bus",
+        "name": "Bussolycka",
         "stations": {
             "0": 3,
             "2": 8
@@ -828,11 +833,11 @@
         "patients": {
             "max": 12,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         }
     },
     "65": {
-        "name": "Kitchen Fire",
+        "name": "Brand i k\u00f6k",
         "stations": {
             "0": 2
         },
@@ -842,22 +847,26 @@
         "credits": 1000
     },
     "66": {
-        "name": "Room fire",
+        "name": "Brinnande rum",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 2,
+            "platform": 1
         },
-        "credits": 1100,
+        "credits": 1400,
         "patients": {
-            "max": 2,
+            "max": 1,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "platform": 30
         }
     },
     "67": {
-        "name": "Brawl",
+        "name": "Slagsm\u00e5l",
         "stations": {
             "6": 3
         },
@@ -867,14 +876,14 @@
         "credits": 700,
         "patients": {
             "max": 3,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologi"
         },
         "prisoners": {
             "max": 2
         }
     },
     "68": {
-        "name": "Big Supermarket Fire",
+        "name": "Brand i stormarknad",
         "stations": {
             "0": 8,
             "2": 3,
@@ -892,7 +901,7 @@
         "patients": {
             "max": 6,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 10,
         "percentages": {
@@ -900,7 +909,7 @@
         }
     },
     "69": {
-        "name": "Unknown Tanker Spill",
+        "name": "Ok\u00e4nt tankutsl\u00e4pp",
         "stations": {
             "0": 13,
             "6": 2
@@ -915,7 +924,7 @@
         "credits": 4300
     },
     "70": {
-        "name": "Big Supermarket Fire",
+        "name": "Brand i stormarknad",
         "stations": {
             "0": 8,
             "2": 3,
@@ -933,7 +942,7 @@
         "patients": {
             "max": 6,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 10,
         "percentages": {
@@ -941,15 +950,15 @@
         }
     },
     "71": {
-        "name": "Nosebleed",
+        "name": "N\u00e4sbl\u00f6dning",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
-        "specialisation": "General Surgeon"
+        "specialisation": "Allm\u00e4nkirurg"
     },
     "72": {
-        "name": "Light Aircraft Crash",
+        "name": "Flygkrasch",
         "stations": {
             "0": 13,
             "2": 2
@@ -965,14 +974,14 @@
         "patients": {
             "max": 4,
             "transport": 60,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologi"
         },
         "percentages": {
             "hazmat": 50
         }
     },
     "73": {
-        "name": "Serious Accident Involving a Bus",
+        "name": "Allvarlig bussolycka",
         "stations": {
             "0": 5,
             "2": 8,
@@ -989,11 +998,11 @@
         "patients": {
             "max": 12,
             "transport": 80,
-            "specialisation": "Traumatology"
+            "specialisation": "Allm\u00e4nkirurg"
         }
     },
     "74": {
-        "name": "Major fire",
+        "name": "Stor brand",
         "vehicles": {
             "truck": 10,
             "bchief": 3,
@@ -1002,395 +1011,5 @@
             "heavyRescue": 2
         },
         "credits": 10210
-    },
-    "75": {
-        "name": "Partial Building Collapse",
-        "stations": {
-            "0": 5,
-            "2": 3
-        },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 2,
-            "heavyRescue": 1
-        },
-        "credits": 4800,
-        "patients": {
-            "max": 6,
-            "specialisation": "Traumatology"
-        }
-    },
-    "76": {
-        "name": "Industrial Fire",
-        "stations": {
-            "0": 6,
-            "2": 2
-        },
-        "vehicles": {
-            "truck": 6,
-            "platform": 1,
-            "bchief": 2,
-            "hazmat": 1
-        },
-        "credits": 4800,
-        "patients": {
-            "max": 4,
-            "specialisation": "General Surgeon"
-        }
-    },
-    "77": {
-        "name": "Patient Transfer",
-        "onlyRd": true,
-        "transport": 0,
-        "nef": 0
-    },
-    "78": {
-        "name": "Cardiac Arrest",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "General Surgeon"
-    },
-    "79": {
-        "name": "Respiratory Arrest",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "General Surgeon"
-    },
-    "80": {
-        "name": "Burning bogle",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 350
-    },
-    "81": {
-        "name": "Burning pumpkin field",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 850
-    },
-    "82": {
-        "name": "Pumpkin soup overcooked",
-        "stations": {
-            "0": 3,
-            "2": 1
-        },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1
-        },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "specialisation": "Neurology"
-        }
-    },
-    "83": {
-        "name": "Witch in tree",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "platform": 1,
-            "truck": 1
-        },
-        "credits": 900,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Traumatology"
-        }
-    },
-    "85": {
-        "name": "Monster broke loose",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 4
-        },
-        "credits": 1600
-    },
-    "86": {
-        "name": "Pumpkin stolen",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100
-    },
-    "87": {
-        "name": "Frankenstein sighted",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 3
-        },
-        "credits": 550
-    },
-    "88": {
-        "name": "Candy theft",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100
-    },
-    "89": {
-        "name": "Road Traffic Collision (Major)",
-        "vehicles": {
-            "truck": 8,
-            "heavyRescue": 4,
-            "bchief": 6,
-            "police": 8
-        },
-        "credits": 16000,
-        "patients": {
-            "max": 20,
-            "min": 2,
-            "transport": 70,
-            "specialisation": "Traumatology"
-        }
-    },
-    "90": {
-        "name": "Cyclist hit by HGV",
-        "stations": {
-            "0": 4,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 2
-        },
-        "credits": 2000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatology"
-        }
-    },
-    "91": {
-        "name": "Fail to stop",
-        "stations": {
-            "6": 7,
-            "13": 1
-        },
-        "vehicles": {
-            "police": 6,
-            "k9": 1,
-            "policeHeli": 1
-        },
-        "credits": 1000,
-        "prisoners": {
-            "max": 4
-        }
-    },
-    "92": {
-        "name": "Person with a weapon",
-        "stations": {
-            "6": 8
-        },
-        "vehicles": {
-            "police": 6,
-            "k9": 1
-        },
-        "credits": 2500,
-        "prisoners": {
-            "max": 1
-        },
-        "special": {
-            "SWATPersonnel": 4
-        }
-    },
-    "93": {
-        "name": "High-Risk Warrant",
-        "stations": {
-            "6": 9,
-            "13": 1
-        },
-        "vehicles": {
-            "k9": 1,
-            "police": 4,
-            "policeHeli": 1
-        },
-        "credits": 1400,
-        "prisoners": {
-            "max": 4
-        },
-        "special": {
-            "SWATPersonnel": 8
-        }
-    },
-    "94": {
-        "name": "School fire",
-        "stations": {
-            "0": 13,
-            "2": 3
-        },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2
-        },
-        "credits": 5300,
-        "patients": {
-            "max": 6,
-            "transport": 50,
-            "specialisation": "General Internal"
-        },
-        "poi": 12
-    },
-    "95": {
-        "name": "Theft at christmas market",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "poi": 17
-    },
-    "96": {
-        "name": "Burning christmas market stall",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 610,
-        "patients": {
-            "max": 1,
-            "specialisation": "General Internal"
-        },
-        "poi": 17
-    },
-    "97": {
-        "name": "Fire at christmas market",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 310,
-        "patients": {
-            "max": 1,
-            "specialisation": "General Internal"
-        },
-        "poi": 17
-    },
-    "98": {
-        "name": "Traffic accident - ice",
-        "stations": {
-            "0": 4
-        },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
-        },
-        "credits": 1410,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatology"
-        },
-        "percentages": {
-            "heavyRescue": 100
-        }
-    },
-    "99": {
-        "name": "Burning christmas tree",
-        "stations": {
-            "0": 6
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 870
-    },
-    "100": {
-        "name": "Burning advent wreath",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 800
-    },
-    "101": {
-        "name": "Brawl at christmas market",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 2
-        },
-        "credits": 600,
-        "patients": {
-            "max": 2,
-            "specialisation": "Traumatology"
-        },
-        "poi": 17
-    },
-    "102": {
-        "name": "Burning manufacturing machine",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1
-        },
-        "credits": 2470,
-        "poi": 32
-    },
-    "103": {
-        "name": "Burning manufacturing machine",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1
-        },
-        "credits": 2470,
-        "poi": 44
-    },
-    "104": {
-        "name": "Burning manufacturing machine",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1
-        },
-        "credits": 2470,
-        "poi": 32
     }
 }

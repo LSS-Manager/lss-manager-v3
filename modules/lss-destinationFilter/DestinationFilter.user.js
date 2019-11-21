@@ -40,6 +40,32 @@
             cells: 'Hide full cells'
         }
     };
+    I18n.translations.pl_PL.lssm.destfilter = {
+        title: 'Destination Filter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
+    I18n.translations.sv_SE.lssm.destfilter = {
+        title: 'Destination Filter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
     I18n.translations.nl.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

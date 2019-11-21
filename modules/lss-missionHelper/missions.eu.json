@@ -1139,5 +1139,99 @@
             "specialisation": "General Internal"
         },
         "poi": 12
+    },
+    "86": {
+        "name": "Theft at christmas market",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "poi": 17
+    },
+    "87": {
+        "name": "Burning christmas market stall",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Internal"
+        },
+        "poi": 17
+    },
+    "88": {
+        "name": "Fire at christmas market",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Internal"
+        },
+        "poi": 17
+    },
+    "89": {
+        "name": "Traffic accident - ice",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatology"
+        },
+        "percentages": {
+            "heavyRescue": 100
+        }
+    },
+    "90": {
+        "name": "Burning christmas tree",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 870
+    },
+    "91": {
+        "name": "Burning advent wreath",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
+    },
+    "92": {
+        "name": "Brawl at christmas market",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 600,
+        "patients": {
+            "max": 2,
+            "specialisation": "Traumatology"
+        },
+        "poi": 17
     }
 }

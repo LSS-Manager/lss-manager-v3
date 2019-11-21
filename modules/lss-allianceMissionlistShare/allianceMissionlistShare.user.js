@@ -5,6 +5,12 @@
     I18n.translations.en['lssm']['allianceMissionlistShare']={
         title:"Release in alliance"
     };
+    I18n.translations.pl_PL['lssm']['allianceMissionlistShare'] = {
+        title: "Uwolnienie w sojuszu"
+    };
+    I18n.translations.sv_SE['lssm']['allianceMissionlistShare'] = {
+        title: "Släpp i allians"
+    };
     I18n.translations.es['lssm']['allianceMissionlistShare']={
         title:"Lanzamiento en alianza"
     };

@@ -5,7 +5,7 @@
         noVGE:"Keine gespeicherten VGE!",
         VGEs:"VGEs"
     };
-	  I18n.translations.en['lssm']['saveVGE'] = {
+	I18n.translations.en['lssm']['saveVGE'] = {
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",
@@ -15,6 +15,18 @@
         save: "Guardar",
         del: "Borrar",
         noVGE: "No se ha salvado la misión de la Alianza!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.sv_SE['lssm']['saveVGE'] = {
+        save: "Spara",
+        del: "Radera",
+        noVGE:"Inget räddat Alliance Mission!",
+        VGEs:"VGEs"
+    };
+    I18n.translations.pl_PL['lssm']['saveVGE'] = {
+        save: "Oszczędzaj.",
+        del: "Usuń",
+        noVGE: "Nie ma uratowanej Misji Sojuszniczej!",
         VGEs: "VGEs"
     };
     I18n.translations.nl['lssm']['saveVGE'] = {
