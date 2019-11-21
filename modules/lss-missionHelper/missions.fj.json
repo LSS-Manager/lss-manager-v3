@@ -7,8 +7,7 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 110,
-        "poi": 4
+        "credits": 110
     },
     "1": {
         "name": "Container fire",
@@ -67,9 +66,9 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 3
+            "truck": 2
         },
-        "credits": 1300,
+        "credits": 800,
         "patients": {
             "max": 1,
             "transport": 50,
@@ -100,7 +99,7 @@
         }
     },
     "8": {
-        "name": "Bulk trash fire",
+        "name": "Bulk rubbish fire",
         "stations": {
             "0": 1
         },
@@ -139,7 +138,7 @@
         "credits": 600
     },
     "11": {
-        "name": "Burning callbox",
+        "name": "Phonebox on fire",
         "stations": {
             "0": 1
         },
@@ -185,7 +184,7 @@
         }
     },
     "15": {
-        "name": "Little wildfire",
+        "name": "Little forest fire",
         "stations": {
             "0": 1
         },
@@ -206,7 +205,7 @@
         "credits": 1100
     },
     "17": {
-        "name": "Mailbox on fire",
+        "name": "Postbox on fire",
         "stations": {
             "0": 1
         },
@@ -216,7 +215,7 @@
         "credits": 340
     },
     "18": {
-        "name": "Brush pile",
+        "name": "Out of control bonfire",
         "stations": {
             "0": 1
         },
@@ -336,7 +335,8 @@
         },
         "vehicles": {
             "truck": 4,
-            "bchief": 1
+            "bchief": 1,
+            "platform": 1
         },
         "credits": 1500,
         "patients": {
@@ -989,7 +989,7 @@
         "patients": {
             "max": 12,
             "transport": 80,
-            "specialisation": "General Surgeon"
+            "specialisation": "Traumatology"
         }
     },
     "74": {
@@ -1010,15 +1010,14 @@
             "2": 3
         },
         "vehicles": {
-            "truck": 2,
-            "platform": 1,
+            "truck": 4,
             "bchief": 2,
-            "heavyRescue": 2
+            "heavyRescue": 1
         },
-        "credits": 7300,
+        "credits": 4800,
         "patients": {
-            "max": 2,
-            "specialisation": "General Surgeon"
+            "max": 6,
+            "specialisation": "Traumatology"
         }
     },
     "76": {
@@ -1174,7 +1173,8 @@
     "90": {
         "name": "Cyclist hit by HGV",
         "stations": {
-            "0": 4
+            "0": 4,
+            "6": 2
         },
         "vehicles": {
             "truck": 2,
@@ -1259,5 +1259,138 @@
             "specialisation": "General Internal"
         },
         "poi": 12
+    },
+    "95": {
+        "name": "Theft at christmas market",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "poi": 17
+    },
+    "96": {
+        "name": "Burning christmas market stall",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Internal"
+        },
+        "poi": 17
+    },
+    "97": {
+        "name": "Fire at christmas market",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Internal"
+        },
+        "poi": 17
+    },
+    "98": {
+        "name": "Traffic accident - ice",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatology"
+        },
+        "percentages": {
+            "heavyRescue": 100
+        }
+    },
+    "99": {
+        "name": "Burning christmas tree",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 870
+    },
+    "100": {
+        "name": "Burning advent wreath",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
+    },
+    "101": {
+        "name": "Brawl at christmas market",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 600,
+        "patients": {
+            "max": 2,
+            "specialisation": "Traumatology"
+        },
+        "poi": 17
+    },
+    "102": {
+        "name": "Burning manufacturing machine",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "poi": 32
+    },
+    "103": {
+        "name": "Burning manufacturing machine",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "poi": 44
+    },
+    "104": {
+        "name": "Burning manufacturing machine",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "poi": 32
     }
 }
