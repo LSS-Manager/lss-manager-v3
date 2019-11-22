@@ -1233,5 +1233,20 @@
             "specialisation": "Traumatology"
         },
         "poi": 17
+    },
+    "93": {
+        "name": "Aggressive Passenger",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "transport": 30,
+            "specialisation": "General Internal"
+        }
     }
 }
