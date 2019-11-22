@@ -1226,15 +1226,13 @@
     "93": {
         "name": "High-Risk Warrant",
         "stations": {
-            "6": 9,
-            "13": 1
+            "6": 9
         },
         "vehicles": {
             "k9": 1,
-            "police": 4,
-            "policeHeli": 1
+            "police": 4
         },
-        "credits": 1400,
+        "credits": 1200,
         "prisoners": {
             "max": 4
         },
@@ -1392,5 +1390,20 @@
         },
         "credits": 2470,
         "poi": 32
+    },
+    "105": {
+        "name": "Concern for welfare",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Surgeon"
+        }
     }
 }

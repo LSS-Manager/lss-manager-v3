@@ -1,6 +1,6 @@
-(function() {
+(function () {
 
-    let LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
+  let LSS_MISSIONKEYWORD_STORAGE = "LSS_MISSIONKEYWORD_STORAGE";
 
   function setSettings() {
 
@@ -510,12 +510,13 @@
         485: 'Brand mehrerer E-Autos in Auslieferungshalle',
         486: 'Cannabisplantage entdeckt',
         487: 'Kleinbrand in Kirche',
-		    488: 'Massenanfall an Erkrankten',
-    		489: 'Massenanfall an Erkrankten',
-    		490: 'Massenanfall an Erkrankten',
-    		491: 'Massenanfall an Erkrankten',
-    		492: 'Massenanfall an Erkrankten',
-    		493: 'Massenanfall an Erkrankten'
+        488: 'Massenanfall an Erkrankten',
+        489: 'Massenanfall an Erkrankten',
+        490: 'Massenanfall an Erkrankten',
+        491: 'Massenanfall an Erkrankten',
+        492: 'Massenanfall an Erkrankten',
+        493: 'Massenanfall an Erkrankten',
+        494: 'Beschädigte Radarfalle'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -854,7 +855,9 @@
         317: 'Subway Collapse',
         318: 'Subway train on fire',
         319: 'Damaged tank car',
-    		320: 'Tanker ship on fire'
+        320: 'Tanker ship on fire',
+        321: 'Car vs tree',
+        322: 'Car vs tree (entrapment)'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -957,7 +960,7 @@
         81: 'Burning pumpkin field',
         82: 'Pumpkin soup overcooked',
         83: 'Witch in tree',
-        84: '',
+        84: 'Zombie bite',
         85: 'Monster broke loose',
         86: 'Pumpkin stolen',
         87: 'Frankenstein sighted',
@@ -977,7 +980,8 @@
         101: 'Brawl at christmas market',
         102: 'Burning manufacturing machine',
         103: 'Burning manufacturing machine',
-        104: 'Burning manufacturing machine'
+        104: 'Burning manufacturing machine',
+        105: 'Concern for welfare'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1089,6 +1093,7 @@
         90: 'Burning christmas tree',
         91: 'Burning advent wreath',
         92: 'Brawl at christmas market',
+        93: 'Aggressive Passenger'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1192,7 +1197,15 @@
         82: 'Frankenstein avistado',
         83: 'Robo de caramelos',
         84: 'Ciclista golpeado por un camión de mercancías',
-    		85: 'Incendio en la escuela'
+        85: 'Incendio en la escuela',
+        86: 'Robo en el mercado navideño',
+        87: 'Puesto del mercado de Navidad en llamas',
+        88: 'Incendio en el mercado navideño',
+        89: 'Accidente de tráfico debido a hielo',
+        90: 'Árbol de navidad en llamas',
+        91: 'Corona de Adviento en llamas',
+        92: 'Pelea en mercado navideño',
+        93: 'Pasajero agresivo'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1285,7 +1298,8 @@
         71: 'Näsblödning',
         72: 'Flygkrasch',
         73: 'Allvarlig bussolycka',
-        74: 'Stor brand'
+        74: 'Stor brand',
+        75: 'Aggresiv passagerare'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1378,7 +1392,8 @@
         71: 'Krwawienie z nosa',
         72: 'Katastrofa lekkiego samolotu',
         73: 'Poważny wypadek z udziałem autobusu',
-        74: 'Duży pożar'
+        74: 'Duży pożar',
+        75: 'Agresywny pasażer'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -1904,13 +1919,17 @@
         504: 'Brand in fabriekshal',
         505: 'Brand in fabriekshal',
         506: 'Brand in fabriekshal',
-    		507: 'Brand in fabriekshal',
-    		508: 'Brand in fabriekshal',
-    		509: 'Brand in fabriekshal'
+        507: 'Brand in fabriekshal',
+        508: 'Brand in fabriekshal',
+        509: 'Brand in fabriekshal',
+        510: 'Brand in schuurtje',
+        511: 'Brand in schuurtje',
+        512: 'Brand in garagebox',
+        513: 'Brand in garagebox'
       }
     };
 
-      let managedSettings = {
+    let managedSettings = {
       "id": LSS_MISSIONKEYWORD_STORAGE,
       "title": I18n.t('lssm.missionKeywordDefaults.name'),
       "settings": {
@@ -1920,7 +1939,7 @@
             "label": I18n.t('lssm.missionKeywordDefaults.show'),
             "type": "button",
             "custom_function_event": "click",
-            "custom_function": function() {
+            "custom_function": function () {
               $('[id^=' + LSS_MISSIONKEYWORD_STORAGE + '_missionKeyword-].lssm_setting_line').toggle();
             }
           }
@@ -1929,7 +1948,7 @@
     };
 
     // Einsatz-ID zu Stichwort
-      let DEFAULT_AAO_DE = {
+    let DEFAULT_AAO_DE = {
       0: 'B 1',
       1: 'B 2',
       2: 'B 2',
@@ -2418,14 +2437,15 @@
       485: 'ABC 4',
       486: 'POL 4',
       487: 'B 2',
-  	  488: 'RD 7',
-  	  489: 'RD 7',
-  	  490: 'RD 7',
-  	  491: 'RD 7',
-  	  492: 'RD 7',
-  	  493: 'RD 7'
+      488: 'RD 7',
+      489: 'RD 7',
+      490: 'RD 7',
+      491: 'RD 7',
+      492: 'RD 7',
+      493: 'RD 7',
+      494: 'POL 1'
     };
-      let DEFAULT_AAO_EN = {
+    let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -2746,9 +2766,11 @@
       317: 'TECH 5',
       318: 'FIRE 5 TRAIN',
       319: 'TECH 3',
-  	  320: 'FIRE 6 SHIP'
+      320: 'FIRE 6 SHIP',
+      321: 'TECH 1',
+      322: 'TECH 1'
     };
-      let DEFAULT_AAO_FJ = {
+    let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -2853,9 +2875,10 @@
       101: 'POL 2',
       102: 'FIRE 3',
       103: 'FIRE 3',
-      104: 'FIRE 3'
+      104: 'FIRE 3',
+      105: 'POL 1'
     };
-      let DEFAULT_AAO_EU = {
+    let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -2948,9 +2971,10 @@
       89: 'TECH 1',
       90: 'FIRE 1',
       91: 'FIRE 1',
-      92: 'POL 2'
-  };
-      let DEFAULT_AAO_ES = {
+      92: 'POL 2',
+      93: 'POL 1'
+    };
+    let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -3036,8 +3060,16 @@
       82: 'POL 0.5',
       83: 'POL 0.5',
       84: 'TECH 2',
-  	  85: 'FIRE 4'
-  };
+      85: 'FIRE 4',
+      86: 'POL 1',
+      87: 'FIRE 1',
+      88: 'FIRE 1',
+      89: 'TECH 1',
+      90: 'FIRE 1',
+      91: 'FIRE 1',
+      92: 'POL 2',
+      93: 'POL 1'
+    };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
       1: 'FIRE 1',
@@ -3113,7 +3145,8 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'POL 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -3190,9 +3223,10 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'POL 1'
     };
-      let DEFAULT_AAO_NL = {
+    let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
       1: 'KLEINE BRAND',
       2: 'KLEINE BRAND',
@@ -3687,11 +3721,11 @@
       491: 'HV 2',
       492: 'P 3',
       493: 'P 2',
-  	  494: 'HV 2 WATER',
-  	  495: 'HV 2 WATER',
-  	  496: 'HV 1 WATER',
-  	  497: 'HV 2 WATER',
-  	  498: 'HV 1',
+      494: 'HV 2 WATER',
+      495: 'HV 2 WATER',
+      496: 'HV 1 WATER',
+      497: 'HV 2 WATER',
+      498: 'HV 1',
       499: 'P 1',
       500: 'HV 2',
       501: 'HV 1',
@@ -3700,9 +3734,13 @@
       504: 'KLEINE BRAND',
       505: 'KLEINE BRAND',
       506: 'GROTE BRAND',
-  	  507: 'GROTE BRAND',
-  	  508: 'ZEER GROTE BRAND',
-  	  509: 'ZEER ZEER GROTE BRAND',
+      507: 'GROTE BRAND',
+      508: 'ZEER GROTE BRAND',
+      509: 'ZEER ZEER GROTE BRAND',
+      510: 'KLEINE BRAND',
+      511: 'KLEINE BRAND',
+      512: 'KLEINE BRAND',
+      513: 'KLEINE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -3715,7 +3753,7 @@
     I18n.translations.pl_PL.lssm.missionKeyword = DEFAULT_AAO_PLPL;
     I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
 
-      let defaultAao;
+    let defaultAao;
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
     else if (I18n.locale === 'en')
@@ -3736,8 +3774,8 @@
       defaultAao = DEFAULT_AAO_DE;
 
 
-    $.each(defaultAao, function(key, val) {
-        let tmpObject = {
+    $.each(defaultAao, function (key, val) {
+      let tmpObject = {
         ['missionKeyword-' + key]: {
           "default": val,
           "ui": {
@@ -3762,13 +3800,13 @@
 
   function missionKeyword() {
     // Stichwort Element
-      let titleStichwort = $('#missionH1');
+    let titleStichwort = $('#missionH1');
     // Anzahl Patientenbalken
-      let anzahlPatients = $(".patient_progress").length;
-      let aaoText = '';
+    let anzahlPatients = $(".patient_progress").length;
+    let aaoText = '';
 
     // Einsatz-ID aus Hilfe-Link
-      let missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
+    let missionId = $('#mission_help').attr('href').split("/").pop().replace(/\?.*/, '');
 
     // aao_text = I18n.t('lssm.missionKeyword.'+missionId);
     aaoText = getSetting('missionKeyword-' + missionId);
@@ -3777,7 +3815,7 @@
     {
       aaoText = aaoText + ' ' + I18n.t('lssm.missionKeywordDefaults.bma');
     }
-      let additionalAaoText = '';
+    let additionalAaoText = '';
     if (anzahlPatients > 0) {
       if (I18n.locale === 'de') {
 
@@ -3786,7 +3824,7 @@
         if (aaoText.match(/B [0-9]/ig)) {
           aaoText = aaoText + ' PERSON';
         } else if (aaoText.match(/FEU [0-9]|TH [0-9]/ig)) {
-            let n = aaoText.search(/[0-9]/i);
+          let n = aaoText.search(/[0-9]/i);
           if (n > 0) {
             aaoText = [a.slice(0, n + 1), ' Y', a.slice(n + 1)].join('');
           }
@@ -3863,7 +3901,7 @@
         }
       }
     }
-      let label = 'label-info';
+    let label = 'label-info';
 
     // Setze Label Farben
     if (aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd')) ||
@@ -3895,7 +3933,7 @@
 
   // Only execute this script in the alert iframe.
   // Identify the iframe with mission_help link.
-    let missionHelp = $('#mission_help');
+  let missionHelp = $('#mission_help');
   if (missionHelp.length > 0) {
     missionKeyword();
   }

@@ -8897,5 +8897,79 @@
         "percentages": {
             "hulpverlening": 40
         }
+    },
+    "510": {
+        "name": "Brand in schuurtje",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 600,
+        "percentages": {
+            "redvoertuig": 10
+        }
+    },
+    "511": {
+        "name": "Brand in schuurtje",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1850,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "redvoertuig": 20
+        }
+    },
+    "512": {
+        "name": "Brand in garagebox",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 700,
+        "percentages": {
+            "redvoertuig": 10
+        }
+    },
+    "513": {
+        "name": "Brand in garagebox",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1900,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "percentages": {
+            "redvoertuig": 20
+        }
     }
 }

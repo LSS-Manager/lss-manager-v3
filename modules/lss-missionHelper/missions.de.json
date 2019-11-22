@@ -8863,5 +8863,18 @@
             "mess": 15,
             "dekon": 10
         }
+    },
+    "494": {
+        "name": "Besch\u00e4digte Radarfalle",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "fustw": 1
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

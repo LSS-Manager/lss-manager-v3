@@ -1011,5 +1011,20 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "Aggresiv passagerare",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "transport": 30,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        }
     }
 }

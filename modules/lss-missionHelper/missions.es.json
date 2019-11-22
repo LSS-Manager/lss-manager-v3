@@ -1140,5 +1140,20 @@
             "specialisation": "Medicina interna general"
         },
         "poi": 12
+    },
+    "93": {
+        "name": "Pasajero agresivo",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "transport": 30,
+            "specialisation": "Medicina interna general"
+        }
     }
 }
