@@ -1033,25 +1033,25 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patiënten',
         prisoners: 'Gevangenen',
         to: 'tot',
-        ambulance_only: 'Deze missie is alleen voor de ambulance!',
+        ambulance_only: 'Deze inzet is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
         settings: {
             name: {
                 label: 'Naam',
-                description: 'Toont de naam van de missie in de helper.'
+                description: 'Toont de naam van de inzet in de helper.'
             },
             id: {
                 label: 'ID',
-                description: 'Toont de ID van de missie in de helper.'
+                description: 'Toont de ID van de inzet in de helper.'
             },
             type: {
                 label: 'TYPE-ID',
-                description: 'Toont de ID van het missietype in de helper.'
+                description: 'Toont de ID van het inzettype in de helper.'
             },
             poi: {
                 label: 'POI',
-                description: 'Geeft in de helper aan op welke POI de bewerking betrekking heeft.'
+                description: 'Geeft in de helper aan op welke POI de inzet betrekking heeft.'
             },
             live_patients: {
                 label: 'Aantal patiënten',
@@ -1091,7 +1091,7 @@ const lssm_missionhelper_adjustPosition = () => {
             },
             mission_time: {
                 label: 'Aanmaak tijd',
-                description: 'Toont de datum en tijd waarop de missie is gemaakt.'
+                description: 'Toont de datum en tijd waarop de inzet is gemaakt.'
             }
         },
         vehicles: {
