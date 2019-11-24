@@ -7,17 +7,21 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "Fire engines",
-            platform: "Turntable Ladder",
-            heavyRescue: "Major Rescue Vehicles",
+            platform: "Aerial Appliance",
+            heavyRescue: "Rescue Support Vehicle",
             air: "Mobile Air",
-            bchief: "Command Unit",
+            bchief: "Fire Officer",
             tanker: "Water Carrier",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             police: "Police Car",
             hems: "HEMS",
             rtw: "Ambulance",
-            arff: "ARFF"
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
+            policeHeli: "Police Helicopter",
         };
 
         let credits;
@@ -74,7 +78,7 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maximum Number of Prisoners/)) {
                 prisonersMax = number;
-            } else if (content.match(/SWAT Personnel/)) {
+            } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
@@ -260,7 +264,8 @@ $.get(missionlink)
             let stationDefinitions = {
                 0: "Fire Station",
                 2: "Rescue Station",
-                6: "Police Station"
+                6: "Police Station",
+                13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

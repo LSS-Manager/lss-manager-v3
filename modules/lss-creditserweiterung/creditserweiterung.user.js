@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-  if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -110,6 +110,60 @@
             updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
             noFurtherRank: 'There are no further ranks'
+        }
+    };
+    I18n.translations.pl_PL.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? Otrzymane kredyty.*/i,
+        ranks: {
+            0: 'Nowy',
+            200: 'Strażak',
+            10000: 'Starszy strażak',
+            100000: 'Ogniomistrz',
+            1000000: 'Aspirant',
+            5000000: 'Kapitan',
+            20000000: 'Starszy kapitan',
+            50000000: 'Szef brygady',
+            1000000000: 'Nadbrygadier',
+            2000000000: 'Zastępca komendanta głównego',
+            5000000000: 'Komendant główny'
+        },
+        texts: {
+            reloadMessage: 'Proszę otworzyć swój profil<br>i przeładować stronę internetową!',
+            dropdownName: 'Przedłużenie kredytu',
+            creditsOverview: 'Przegląd',
+            coinsProtokoll: 'Coins List',
+            earnedCredits: 'Całkowicie zarobione Kredyty',
+            creditsToNextRank: 'Kredyty do następnej rangi',
+            updateMessage: 'Automatyczna aktualizacja wartości<br>co 5 minut.<br>Kredyty i monety są stale aktualizowane.',
+            allianceFunds: 'Fundusze sojusznicze',
+            noFurtherRank: 'Nie ma dalszych szeregów.'
+        }
+    };
+    I18n.translations.sv_SE.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? intjänade krediter.*/i,
+        ranks: {
+            0: 'Nybörjare',
+            200: 'Brandman',
+            10000: 'Brandveteran',
+            100000: 'Brandoperatör',
+            1000000: 'Inspektör',
+            5000000: 'Kommissarie',
+            20000000: 'Gruppchef',
+            50000000: 'Bataljonschef',
+            1000000000: 'Divisionschef',
+            2000000000: 'Vicechef',
+            5000000000: 'Brandchef'
+        },
+        texts: {
+            reloadMessage: 'Öppna din profil och ladda om webbplatsen!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Översikt',
+            coinsProtokoll: 'Myntlista',
+            earnedCredits: 'Totalt intjänade krediter',
+            creditsToNextRank: 'Krediter till nästa rang',
+            updateMessage: 'Värden uppdateras automatiskt <br> var femte minut.<br>Krediter och mynt är<br>kontinuerligt uppdaterat.',
+            allianceFunds: 'Alliansfonder',
+            noFurtherRank: 'Det finns inga ytterligare rangordningar'
         }
     };
     I18n.translations.es.lssm.creditserweiterung = {

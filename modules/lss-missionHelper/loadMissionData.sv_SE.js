@@ -1,4 +1,4 @@
-const missionlink = $('#mission_help').attr('href')||window.location.href.replace(/\?.*$/, "");
+const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
 const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
 
 $.get(missionlink)
@@ -6,19 +6,22 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "camiones de bomberos",
-            platform: "camiones con plataforma",
-            heavyRescue: "Furgones de Útiles Varios",
+            truck: "brandbilar",
+            platform: "flakbilar",
+            heavyRescue: "tunga räddningsfordon",
             air: "Mobile Air",
-            bchief: "unidades de Mando y Comunicaciones",
-            mcv: "vehículos de mando",
-            tanker: "(c|C)amiones cisterna",
-            hazmat: "vehículos de materiales peligrosos",
-            police: "coches patrulla",
-            hems: "Helicóptero HSR",
-            arff: "CBA",
+            bchief: "brandchefsbil",
+            tanker: "tankbilar",
+            hazmat: "farligt gods-fordon",
+            mcv: "utryckningsfordon",
+            police: "polisbilar",
+            hems: "HEMS",
+            rtw: "Ambulans",
+            arff: "flygbrandfordon",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "Räddningshelikopter",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulancia"
         };
 
         let credits;
@@ -40,48 +43,48 @@ $.get(missionlink)
         let expansions = [];
         let dauer;
 
-        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Media de créditos/)) {
+            if (content.match(/Krediter i genomsnitt/)) {
                 credits = number;
-            } else if (content.match(/necesarios|necesarias|Requisitos de/)) {
+            } else if (content.match(/Nödvändiga|Krav på|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Lugar/)) {
+            } else if (content.match(/Placera/)) {
                 poi = getPOI(content);
             }
         });
-        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Se necesitan|necesarios/)) {
+            if (content.match(/Nödvändiga/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probabilidad/)) {
+            } else if (content.match(/Sannolikhet/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
-        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/N\.º máximo de pacientes/)) {
+            if (content.match(/Mest Patienter/)) {
                 patientsMax = number;
-            } else if (content.match(/Número mínimo de pacientes/)) {
+            } else if (content.match(/Lägsta antal patienter/)) {
                 patientsMin = number;
-            } else if (content.match(/transportar/)) {
+            } else if (content.match(/transporteras/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Especializaciones de pacientes/)) {
+            } else if (content.match(/Patientspecialiseringar/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/N\.º máximo de presos/)) {
+            } else if (content.match(/Högsta antal fångar/)) {
                 prisonersMax = number;
-            } else if (content.match(/SWAT Personnel/)) {
+            } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/expansión/)) {
+            } else if (content.match(/Uppdrag att utöka/)) {
                 let expansionLinks = $(this).find("a");
-                expansionLinks.each(function() {
+                expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
                 });
             }
@@ -179,10 +182,10 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "es"
+            lang: "sv_SE"
         })
             .done(response => {
-                if (response.startsWith('Error'))  {
+                if (response.startsWith('Error')) {
                     return console.error(`missionHelper Error:\n${response}`);
                 }
                 console.log(`Registered Missiontype ${missionID}`);
@@ -197,59 +200,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Parque",
-                "Lago",
-                "Hospital",
-                "Bosque",
-                "Parada de autobús",
-                "Parada de tranvía",
-                "Parada de tren \\(cercanías\\)",
-                "Parada de tren \\(cercanías y larga distancia\\)",
-                "Estación de mercancías",
-                "Supermercado \\(pequeño\\)",
-                "Supermercado \\(grande\\)",
-                "Gasolinera",
-                "Escuela",
-                "Museo",
-                "Centro comercial",
-                "Taller",
-                "Salida de autopista",
-                "Mercado navideño",
-                "Depósito",
-                "Discoteca",
-                "Estadio",
-                "Granja",
-                "Edificio de oficinas",
-                "Piscina",
-                "Railroad Crossing",
-                "Cine",
-                "Feria",
-                "Río",
-                "Aeropuerto pequeño \\(pista\\)",
-                "Aeropuerto grande \\(pista\\)",
-                "Terminal de aeropuerto",
-                "Banco",
-                "Almacén",
-                "Puente",
-                "Restaurante de comida rápida",
-                "Puerto de mercancías",
-                "Centro de reciclaje",
-                "Rascacielos",
-                "Cubierta de yate",
-                "Puerto deportivo",
-                "Paso a nivel",
-                "Túnel",
-                "Almacén frigorífico",
-                "Central eléctrica",
-                "Fábrica",
-                "Chatarrería",
-                "Estación de metro",
-                "Almacén químico pequeño",
-                "Almacén químico grande",
-                "Hotel",
+                "Park",
+                "Sjö",
+                "Sjukhus",
+                "Skog",
+                "Busshållplats",
+                "Spårvagnshållplats",
+                "Tågstation \\(regionaltåg\\)",
+                "Tågstation \\(regional- och fjärrtåg\\)",
+                "Varustation",
+                "Mataffär",
+                "Stormarknad",
+                "Bensinmack",
+                "Skola",
+                "Museum",
+                "Köpcentrum",
+                "Bilverkstad",
+                "Avfart",
+                "Julmarknad",
+                "Lagerbyggnad",
+                "Nattklubb",
+                "Arena",
+                "Bondgård",
+                "Kontorsbyggnad",
+                "Badhus",
+                "Järnvägsövergång",
+                "Teater",
+                "Nöjesfält",
+                "Flod",
+                "Liten startbana",
+                "Stor startbana",
+                "Flygplatsterminal",
+                "Bank",
+                "Magasin",
+                "Bro",
+                "Snabbmatsrestaurang",
+                "Fraktgodshamn",
+                "Återvinningscentral",
+                "Höghus",
+                "Kryssningshamn",
+                "Småbåtshamn",
+                "Järnvägskorsning",
+                "Tunnel",
+                "Fryshus",
+                "Kraftverk",
+                "Fabrik",
+                "Skrotupplag",
+                "Tunnelbanestation",
+                "Liten kemikalietank",
+                "Stor kemikalietank",
+                "Hotell",
                 "Bar",
-                "Vertedero",
-                "Aparcamiento"
+                "Soptipp",
+                "Parkeringshus"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -260,9 +263,10 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-              0: "Parques de bomberos",
-              2: "Estaciones de rescate",
-              6: "comisarías de policía"
+                0: "brandstationer",
+                2: "räddningsstationer",
+                6: "polisstationer",
+                13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

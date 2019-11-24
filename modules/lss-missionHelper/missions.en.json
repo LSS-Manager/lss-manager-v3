@@ -5289,5 +5289,116 @@
             "specialisation": "Traumatology"
         },
         "poi": 46
+    },
+    "318": {
+        "name": "Subway train on fire",
+        "stations": {
+            "0": 11,
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1,
+            "air": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 5000,
+        "patients": {
+            "max": 5,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 46,
+        "percentages": {
+            "tanker": 40
+        }
+    },
+    "319": {
+        "name": "Damaged tank car",
+        "stations": {
+            "0": 11
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "hazmat": 1,
+            "heavyRescue": 1
+        },
+        "credits": 950,
+        "poi": 8
+    },
+    "320": {
+        "name": "Tanker ship on fire",
+        "stations": {
+            "0": 20,
+            "3": 10,
+            "5": 2,
+            "11": 2,
+            "12": 1
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 2,
+            "air": 2,
+            "hazmat": 3,
+            "mcv": 1,
+            "police": 3,
+            "largeRescueboat": 1,
+            "largeFireboat": 3
+        },
+        "credits": 15000,
+        "patients": {
+            "max": 15,
+            "transport": 60,
+            "specialisation": "General Internal"
+        }
+    },
+    "321": {
+        "name": "Car vs tree",
+        "stations": {
+            "0": 1,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "expansions": {
+            "0": 322
+        }
+    },
+    "322": {
+        "name": "Car vs tree (entrapment)",
+        "stations": {
+            "0": 4,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 900,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "heavyRescue": 30
+        }
     }
 }

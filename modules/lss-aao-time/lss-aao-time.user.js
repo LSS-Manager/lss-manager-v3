@@ -27,6 +27,32 @@
         timeFormat: '{0} min {1} sec',
         timeFormatWithHours: '{0} h {1} min {2} sec',
     };
+    I18n.translations.pl_PL.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) s./i,
+        hourIdentifier: 'hrs',
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) s./i,
+        leastTime: 'Przynajmniej <strong>{0}</strong>',
+        duration: 'Czas trwania: {0}',
+        missingVehicles1: 'W przypadku następujących pojazdów nie było możliwe określenie czasu:',
+        missingVehicles2: 'Mogą nie być obecni lub nie być wymienieni z czasem.',
+        missingVehicles3: 'Błąd w obliczaniu czasu. Wymagane pojazdy mogą nie być obecne lub nie być wymienione wraz z czasem.',
+        unsupportedKeys: 'Czas trwania nie mógł zostać określony, ponieważ ARR zawiera kombinacje pojazdów, które nie są jeszcze obsługiwane przez ten moduł: {0}',
+        timeFormat: '{0} min {1} s',
+        timeFormatWithHours: '{0} h {1} min {2} s',
+    };
+    I18n.translations.sv_SE.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sek./i,
+        hourIdentifier: 'hrs',
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sek./i,
+        leastTime: 'Minst <strong>{0}</strong>',
+        duration: 'Varaktighet: {0}',
+        missingVehicles1: 'För följande fordon var det inte möjligt att bestämma tiden:',
+        missingVehicles2: 'De kanske inte är närvarande eller listas med en tid.',
+        missingVehicles3: 'Fel vid beräkning av tiden. De nödvändiga fordonen kanske inte finns eller listas med tiden.',
+        unsupportedKeys: 'Varaktigheten kunde inte fastställas eftersom denna ARR innehåller fordonskombinationer som ännu inte stöds av den här modulen: {0}',
+        timeFormat: '{0} min {1} sek',
+        timeFormatWithHours: '{0} h {1} min {2} sek',
+    };
     I18n.translations.es.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) seg./i,
         hourIdentifier: 'hrs',

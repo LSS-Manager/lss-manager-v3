@@ -1,4 +1,4 @@
-const missionlink = $('#mission_help').attr('href')||window.location.href.replace(/\?.*$/, "");
+const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
 const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
 
 $.get(missionlink)
@@ -6,19 +6,22 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "camiones de bomberos",
-            platform: "camiones con plataforma",
-            heavyRescue: "Furgones de Útiles Varios",
+            truck: "samochody pożarnicze",
+            platform: "SP wysokościow",
+            heavyRescue: "ciężkie samochody ratowniczo-gaśnicze",
             air: "Mobile Air",
-            bchief: "unidades de Mando y Comunicaciones",
-            mcv: "vehículos de mando",
-            tanker: "(c|C)amiones cisterna",
-            hazmat: "vehículos de materiales peligrosos",
-            police: "coches patrulla",
-            hems: "Helicóptero HSR",
-            arff: "CBA",
+            bchief: "szefa brygady",
+            tanker: "z wodą",
+            hazmat: "SP Rchem",
+            mcv: "samochody dowodzenia i łączności",
+            police: "radiowozy",
+            hems: "HEMS",
+            rtw: "Ambulance",
+            arff: "SP LSP",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulancia"
         };
 
         let credits;
@@ -40,48 +43,48 @@ $.get(missionlink)
         let expansions = [];
         let dauer;
 
-        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Media de créditos/)) {
+            if (content.match(/Średnie kredyty/)) {
                 credits = number;
-            } else if (content.match(/necesarios|necesarias|Requisitos de/)) {
+            } else if (content.match(/Wymagane|Wymagany|Wymagania/)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Lugar/)) {
+            } else if (content.match(/Miejsce/)) {
                 poi = getPOI(content);
             }
         });
-        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Se necesitan|necesarios/)) {
+            if (content.match(/Wymagane|Wymagany/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probabilidad/)) {
+            } else if (content.match(/Szanse/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
-        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/N\.º máximo de pacientes/)) {
+            if (content.match(/Maks\. Pacjenci/)) {
                 patientsMax = number;
-            } else if (content.match(/Número mínimo de pacientes/)) {
+            } else if (content.match(/Minimalna liczba pacjentów/)) {
                 patientsMin = number;
-            } else if (content.match(/transportar/)) {
+            } else if (content.match(/transport pacjenta/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Especializaciones de pacientes/)) {
+            } else if (content.match(/Rodzaj pacjenta/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/N\.º máximo de presos/)) {
+            } else if (content.match(/Maksymalna liczba więźniów/)) {
                 prisonersMax = number;
-            } else if (content.match(/SWAT Personnel/)) {
+            } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/expansión/)) {
+            } else if (content.match(/można rozwinąć/)) {
                 let expansionLinks = $(this).find("a");
-                expansionLinks.each(function() {
+                expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
                 });
             }
@@ -179,10 +182,10 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "es"
+            lang: "pl_PL"
         })
             .done(response => {
-                if (response.startsWith('Error'))  {
+                if (response.startsWith('Error')) {
                     return console.error(`missionHelper Error:\n${response}`);
                 }
                 console.log(`Registered Missiontype ${missionID}`);
@@ -197,59 +200,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Parque",
-                "Lago",
-                "Hospital",
-                "Bosque",
-                "Parada de autobús",
-                "Parada de tranvía",
-                "Parada de tren \\(cercanías\\)",
-                "Parada de tren \\(cercanías y larga distancia\\)",
-                "Estación de mercancías",
-                "Supermercado \\(pequeño\\)",
-                "Supermercado \\(grande\\)",
-                "Gasolinera",
-                "Escuela",
-                "Museo",
-                "Centro comercial",
-                "Taller",
-                "Salida de autopista",
-                "Mercado navideño",
-                "Depósito",
-                "Discoteca",
-                "Estadio",
-                "Granja",
-                "Edificio de oficinas",
-                "Piscina",
-                "Railroad Crossing",
-                "Cine",
-                "Feria",
-                "Río",
-                "Aeropuerto pequeño \\(pista\\)",
-                "Aeropuerto grande \\(pista\\)",
-                "Terminal de aeropuerto",
-                "Banco",
-                "Almacén",
-                "Puente",
-                "Restaurante de comida rápida",
-                "Puerto de mercancías",
-                "Centro de reciclaje",
-                "Rascacielos",
-                "Cubierta de yate",
-                "Puerto deportivo",
-                "Paso a nivel",
-                "Túnel",
-                "Almacén frigorífico",
-                "Central eléctrica",
-                "Fábrica",
-                "Chatarrería",
-                "Estación de metro",
-                "Almacén químico pequeño",
-                "Almacén químico grande",
+                "Park",
+                "Jezioro",
+                "Szpital",
+                "Las",
+                "Przystanek autobusowy",
+                "Przystanek tramwajowy",
+                "Dworzec kolejowy \\(ruch podmiejski\\)",
+                "Dworzec kolejowy \\(ruch podmiejski i dalekobieżny\\)",
+                "Stacja towarowa",
+                "Supermarket \\(mały\\)",
+                "Supermarket \\(duży\\)",
+                "Stacja paliw",
+                "Szkoła",
+                "Muzeum",
+                "Centrum handlowe",
+                "Warsztat samochodowy",
+                "Zjazd z autostrady",
+                "Jarmark Bożonarodzeniowy",
+                "Storehouse",
+                "Dyskoteka",
+                "Stadion",
+                "Gospodarstwo rolne",
+                "Biurowiec",
+                "Basen",
+                "Przejazd kolejowy",
+                "Teatr",
+                "Teren wystawowy",
+                "Rzeka",
+                "Mały port lotniczy \\(pas startowy\\)",
+                "Duży port lotniczy \\(pas startowy\\)",
+                "Terminal portu lotniczego",
+                "Bank",
+                "Magazyn",
+                "Most",
+                "Bar szybkiej obsługi",
+                "Cargo-port",
+                "Centrum segregacji odpadów",
+                "Wieżowiec",
+                "Dok dla wycieczkowców",
+                "Marina",
+                "Przejazd kolejowo-drogowy",
+                "Tunel",
+                "Chłodnia składowa",
+                "Elektrownia",
+                "Fabryka",
+                "Składowisko złomu",
+                "Stacja metra",
+                "Mały zbiornik na substancje chemiczne",
+                "Duży zbiornik na substancje chemiczne",
                 "Hotel",
                 "Bar",
-                "Vertedero",
-                "Aparcamiento"
+                "Składowisko odpadów",
+                "Parking"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -260,9 +263,10 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-              0: "Parques de bomberos",
-              2: "Estaciones de rescate",
-              6: "comisarías de policía"
+                0: "straży pożarnej",
+                2: "ratunkowego",
+                6: "policji",
+                13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

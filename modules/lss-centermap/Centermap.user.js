@@ -33,6 +33,39 @@
             set: "Save current position"
         }
     };
+
+    I18n.translations.pl_PL.lssm.centermap = {
+        center: "Centrum",
+        settings: {
+            title: "Centrum-Mapa",
+            choose: "Proszę wybrać",
+            option1: "Default",
+            option1desc: "Domyślny poziom zoomu i centrowanie na centrum sterowania ",
+            option2: "Dynamika",
+            alliance: "Uwzględnienie sojuszu",
+            option2desc: "Mapa centrum, na której widoczne są wszystkie misje i stacje.",
+            option3: "Niestandardowe",
+            option3desc: "Ustawianie niestandardowej pozycji i poziomu zoomu.",
+            set: "Zapisz aktualną pozycję"
+        }
+    };
+
+    I18n.translations.sv_SE.lssm.centermap = {
+        center: "Centrum",
+        settings: {
+            title: "Center-Map",
+            choose: "Vänligen välj",
+            option1: "Standard",
+            option1desc: "Standard zoomnivå och centrering på kontrollcentret ",
+            option2: "Dynamisk",
+            alliance: "Ta hänsyn till alliansen",
+            option2desc: "Centrera kartan så att alla uppdrag och stationer är synliga.",
+            option3: "Beställnings",
+            option3desc: "Ställ in anpassad position och zoomnivå.",
+            set: "Spara aktuell position"
+        }
+    };
+
     I18n.translations.es.lssm.centermap = {
         center: "Centro",
         settings: {

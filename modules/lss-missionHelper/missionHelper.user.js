@@ -338,6 +338,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.fj.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
+        SWATPersonnel: "Needed Armed Response Personnel",
         settings: {
             name: {
                 label: 'Name',
@@ -398,15 +399,19 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "Fire engines",
-            platform: "Turntable Ladder",
-            heavyRescue: "Major Rescue Vehicles",
+            platform: "Aerial Appliance",
+            heavyRescue: "Rescue Support Unit",
             air: "Mobile Air",
-            bchief: "Command Unit",
+            bchief: "Fire Officer",
             tanker: "Water Carrier",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             police: "Police Car",
-            arff: "ARFF"
+            arff: "ARFF",
+            k9: "Dog Support Unit",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
+            policeHeli: "Police helicopter",
         },
         pois: [
             "Park",
@@ -529,7 +534,7 @@ const lssm_missionhelper_adjustPosition = () => {
             platform: "Turntable Ladder",
             heavyRescue: "Heavy Rescue",
             air: "Mobile Air",
-            bchief: "Command Unit",
+            bchief: "Rapid Response Vehicles",
             tanker: "Water Tanker",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
@@ -664,9 +669,9 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "camiones de bomberos",
             platform: "camiones con plataforma",
-            heavyRescue: "vehículos de rescate",
+            heavyRescue: "Furgones de Útiles Vario",
             air: "Mobile Air",
-            bchief: "vehículos de jefe de batallón",
+            bchief: "unidades de Mando y Comunicaciones",
             mcv: "vehículos de mando",
             tanker: "camiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
@@ -730,6 +735,294 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Vertedero",
             "Aparcamiento",
+        ]
+    };
+
+    I18n.translations.sv_SE.lssm.missionhelper = {
+        diy_mission: 'Detta uppdrag verkar vara ett alliansuppdrag i stor skala.',
+        siwa: 'Planerat uppdrag',
+        vge: 'Stora alliansuppdrag',
+        patients: 'patienter',
+        prisoners: 'fångar',
+        to: 'upp till',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Detta uppdrag är endast ambulans!',
+        title: 'Missionhelper',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'namn',
+                description: 'Visar uppdragets namn i hjälparen.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Visar uppdragets ID i hjälpen.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Visar ID för uppdragstypen i hjälparen.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Anger i hjälpen vilken POI operationen är på.'
+            },
+            live_patients: {
+                label: 'Antal patienter',
+                description: 'Visar hur många patienter som för närvarande används.'
+            },
+            vehicles: {
+                label: 'fordon',
+                description: 'Visar nödvändiga fordon.'
+            },
+            patients: {
+                label: 'patientinformation',
+                description: 'Visar information om (potentiella) patienter.'
+            },
+            prisoners: {
+                label: 'fångsinformation',
+                description: 'Visar information om (potentiella) fångar.'
+            },
+            special: {
+                label: 'Annan information',
+                description: 'Visar speciell information, till exempel det genomsnittliga minsta antal personal som krävs.'
+            },
+            expansions: {
+                label: 'distributioner',
+                description: 'Visar vad insatsen kan spridas till. (Visar bara enkel spridning)'
+            },
+            show_100: {
+                label: 'Visa 100% sannolikhet ',
+                description: 'Visar sannolikheten för ett fordon även om det är 100%.'
+            },
+            credits: {
+                label: 'Genomsnittlig inkomst',
+                description: 'Visar den genomsnittliga vinsten du får för den här uppgiften.'
+            },
+            show_siwa: {
+                label: 'Krav på säkerhetsvakter',
+                description: 'Visar också kraven för säkerhetsvakter i hjälpen.'
+            },
+            mission_time: {
+                label: 'Skapningstid',
+                description: 'Visar datum och tid då uppdraget skapades.'
+            }
+        },
+        vehicles: {
+            truck: "brandbilar",
+            platform: "flakbilar",
+            heavyRescue: "tunga räddningsfordon",
+            air: "Mobile Air",
+            bchief: "brandchefsbilar",
+            tanker: "tankbilar",
+            hazmat: "farligt gods-fordon",
+            mcv: "utryckningsfordon",
+            police: "polisbilar",
+            hems: "HEMS",
+            rtw: "Ambulans",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "Räddningshelikopter",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Sjö",
+            "Sjukhus",
+            "Skog",
+            "Busshållplats",
+            "Spårvagnshållplats",
+            "Tågstation \\(regionaltåg\\)",
+            "Tågstation \\(regional- och fjärrtåg\\)",
+            "Varustation",
+            "Mataffär",
+            "Stormarknad",
+            "Bensinmack",
+            "Skola",
+            "Museum",
+            "Köpcentrum",
+            "Bilverkstad",
+            "Avfart",
+            "Julmarknad",
+            "Lagerbyggnad",
+            "Nattklubb",
+            "Arena",
+            "Bondgård",
+            "Kontorsbyggnad",
+            "Badhus",
+            "Järnvägsövergång",
+            "Teater",
+            "Nöjesfält",
+            "Flod",
+            "Liten startbana",
+            "Stor startbana",
+            "Flygplatsterminal",
+            "Bank",
+            "Magasin",
+            "Bro",
+            "Snabbmatsrestaurang",
+            "Fraktgodshamn",
+            "Återvinningscentral",
+            "Höghus",
+            "Kryssningshamn",
+            "Småbåtshamn",
+            "Järnvägskorsning",
+            "Tunnel",
+            "Fryshus",
+            "Kraftverk",
+            "Fabrik",
+            "Skrotupplag",
+            "Tunnelbanestation",
+            "Liten kemikalietank",
+            "Stor kemikalietank",
+            "Hotell",
+            "Bar",
+            "Soptipp",
+            "Parkeringshus"
+        ]
+    };
+
+    I18n.translations.pl_PL.lssm.missionhelper = {
+        diy_mission: 'Ta misja wydaje się być misją sojuszników na dużą skalę.',
+        siwa: 'Planowana misja',
+        vge: 'Misja sojuszu na dużą skalę',
+        patients: 'Pacjenci',
+        prisoners: 'Więźniowie',
+        to: 'aż do',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Ta misja to tylko ambulans!',
+        title: 'Pomocnik misjonarza',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'Nazwa',
+                description: 'Pokazuje nazwę misji w pomocniku.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Wyświetla ID misji w helperze.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Wyświetla ID typu misji w helperze.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Wskazuje w pomocniku, na którym punkcie POI znajduje się dana operacja.'
+            },
+            live_patients: {
+                label: 'Liczba pacjentów',
+                description: 'Pokazuje na żywo, ilu pacjentów jest obecnie w użyciu.'
+            },
+            vehicles: {
+                label: 'Pojazdy',
+                description: 'Wyświetla wymagane pojazdy.'
+            },
+            patients: {
+                label: 'patient information',
+                description: 'Pokazuje informacje o (potencjalnych) pacjentach.'
+            },
+            prisoners: {
+                label: 'informacje o więźniach',
+                description: 'Pokazuje informacje o (potencjalnych) więźniach.'
+            },
+            special: {
+                label: 'Inne informacje',
+                description: 'Displays special information, such as the average minimum number of personnel required.'
+            },
+            expansions: {
+                label: 'dystrybucje',
+                description: 'Pokazuje, do czego może rozprzestrzeniać się zakład. (Pokazuje tylko prosty spread)'
+            },
+            show_100: {
+                label: 'Pokaż 100% prawdopodobieństwo',
+                description: 'Pokazuje prawdopodobieństwo dla pojazdu, nawet jeśli jest to 100%.'
+            },
+            credits: {
+                label: 'Średni wynik finansowy',
+                description: 'Pokazuje średnie zarobki, które otrzymujesz za to zadanie.'
+            },
+            show_siwa: {
+                label: 'Wymogi strażników bezpieczeństwa',
+                description: 'Pokazuje również wymagania strażników bezpieczeństwa w pomocniku.'
+            },
+            mission_time: {
+                label: 'Czas tworzenia',
+                description: 'Pokazuje datę i godzinę utworzenia misji.'
+            }
+        },
+        vehicles: {
+            truck: "samochody pożarnicze",
+            platform: "SP wysokościowe",
+            heavyRescue: "ciężkie samochody ratowniczo-gaśnicze",
+            air: "Mobile Air",
+            bchief: "samochody szefa brygady",
+            tanker: "cysterny z wodą",
+            hazmat: "SP Rchem",
+            mcv: "samochody dowodzenia i łączności",
+            police: "radiowozy",
+            hems: "HEMS",
+            rtw: "Ambulance",
+            arff: "SP LSP",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Jezioro",
+            "Szpital",
+            "Las",
+            "Przystanek autobusowy",
+            "Przystanek tramwajowy",
+            "Dworzec kolejowy \\(ruch podmiejski\\)",
+            "Dworzec kolejowy \\(ruch podmiejski i dalekobieżny\\)",
+            "Stacja towarowa",
+            "Supermarket \\(mały\\)",
+            "Supermarket \\(duży\\)",
+            "Stacja paliw",
+            "Szkoła",
+            "Muzeum",
+            "Centrum handlowe",
+            "Warsztat samochodowy",
+            "Zjazd z autostrady",
+            "Jarmark Bożonarodzeniowy",
+            "Storehouse",
+            "Dyskoteka",
+            "Stadion",
+            "Gospodarstwo rolne",
+            "Biurowiec",
+            "Basen",
+            "Przejazd kolejowy",
+            "Teatr",
+            "Teren wystawowy",
+            "Rzeka",
+            "Mały port lotniczy \\(pas startowy\\)",
+            "Duży port lotniczy \\(pas startowy\\)",
+            "Terminal portu lotniczego",
+            "Bank",
+            "Magazyn",
+            "Most",
+            "Bar szybkiej obsługi",
+            "Cargo-port",
+            "Centrum segregacji odpadów",
+            "Wieżowiec",
+            "Dok dla wycieczkowców",
+            "Marina",
+            "Przejazd kolejowo-drogowy",
+            "Tunel",
+            "Chłodnia składowa",
+            "Elektrownia",
+            "Fabryka",
+            "Składowisko złomu",
+            "Stacja metra",
+            "Mały zbiornik na substancje chemiczne",
+            "Duży zbiornik na substancje chemiczne",
+            "Hotel",
+            "Bar",
+            "Składowisko odpadów",
+            "Parking"
         ]
     };
 

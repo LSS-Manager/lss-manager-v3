@@ -8638,5 +8638,243 @@
             "dekon": 5,
             "gwl2": 50
         }
+    },
+    "486": {
+        "name": "Cannabisplantage entdeckt",
+        "stations": {
+            "0": 13,
+            "2": 11,
+            "6": 4,
+            "11": 1,
+            "13": 1
+        },
+        "vehicles": {
+            "polheli": 1,
+            "grukw": 3,
+            "lebefkw": 1,
+            "fustw": 4
+        },
+        "credits": 3200,
+        "prisoners": {
+            "max": 4
+        }
+    },
+    "487": {
+        "name": "Kleinbrand in Kirche",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "lf": 2,
+            "dlk": 1,
+            "elw1": 1,
+            "fustw": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 3,
+            "transport": 50,
+            "nef": 50,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 38,
+        "expansions": {
+            "0": 368
+        }
+    },
+    "488": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 20,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "489": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 12,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "490": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 23,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "491": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 6,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "492": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 7,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "493": {
+        "name": "Massenanfall an Erkrankten",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "lf": 2,
+            "elw1": 1,
+            "atem": 1,
+            "mess": 1,
+            "dekon": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 25,
+            "min": 10,
+            "transport": 25,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 19,
+        "percentages": {
+            "atem": 5,
+            "mess": 15,
+            "dekon": 10
+        }
+    },
+    "494": {
+        "name": "Besch\u00e4digte Radarfalle",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "fustw": 1
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

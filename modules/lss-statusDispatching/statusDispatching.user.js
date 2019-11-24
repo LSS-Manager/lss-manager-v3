@@ -41,6 +41,32 @@
         fms5H1: 'transportista'
     };
 
+    I18n.translations.pl_PL.lssm.statusDispatching = {
+        name: 'Zwiększone zapotrzebowanie na transport',
+        fms: 'Transport, którego dotyczy wniosek',
+        nextVehicle: 'Przejdź do następnego pojazdu z prośbą o transport.',
+        backToAlarm: 'Powrót do misji',
+        settingsTitle: 'Ulepszone żądania transportowe - ustawienia',
+        settingsAttr: 'Kliknij przycisk "Transport Requested" w masce misji automatycznie.',
+        settingsAttrDesc: 'Włączenie tej opcji umożliwia automatyczne kliknięcie przycisku "żądany transport" w masce misji. W ten sposób musisz przejść przez wszystkie żądania transportowe, zanim będziesz mógł zobaczyć szczegóły misji. Włączenie tej opcji pozwala na szybsze przetwarzanie żądań transportowych.<br>'
+            + 'Wyłączenie tej opcji pozwala zobaczyć szczegóły misji przed przetworzeniem żądań transportowych. Przyciski "Przejdź do następnego pojazdu z żądaniem transportu" i "Powrót do misji" nie są objęte tym ustawieniem i zawsze są automatycznie klikane.',
+        close: 'Zamknij się.',
+        fms5H1: 'transporter'
+    };
+
+    I18n.translations.sv_SE.lssm.statusDispatching = {
+        name: 'Förbättrade transportförfrågningar',
+        fms: 'Transport begärs',
+        nextVehicle: 'Gå till nästa fordon med en transportförfrågan',
+        backToAlarm: 'Tillbaka till uppdraget',
+        settingsTitle: 'Förbättrade transportförfrågningar - Inställningar',
+        settingsAttr: 'Klicka automatiskt på knappen "Transport begärt" i uppdragsmask',
+        settingsAttrDesc: 'Aktivering av detta alternativ ger automatisk klickning på knappen "begärd transport" i uppdragsmask. På det här sättet måste du gå igenom alla transportförfrågningar innan du kan se detaljer till uppdraget. Att aktivera detta alternativ möjliggör snabbare behandling av transportförfrågningar.<br>'
+            + 'Om du inaktiverar detta alternativ kan du se uppdragsuppgifter innan du behandlar transportförfrågningarna. Knapparna "Gå till nästa fordon med en transportförfrågan" och "Tillbaka till uppdrag" påverkas inte av denna inställning och klickas alltid automatiskt.',
+        close: 'Stänga',
+        fms5H1: 'transportiert'
+    };
+
     I18n.translations.nl.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',
