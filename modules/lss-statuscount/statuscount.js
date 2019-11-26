@@ -123,6 +123,30 @@
             }
         }
     };
+    I18n.translations.it_IT.lssm.statuscount = {
+        name: "Stato - Conto",
+        settings: {
+            show: "Mostra/Nascondi",
+            status: {
+                show: {
+                    label: "Mostra",
+                    description: "Lo stato dovrebbe essere visualizzato? Importante: questa impostazione ha una priorità maggiore rispetto ad altre impostazioni, cioè se questa impostazione è disattivata, lo stato non verrà mai visualizzato."
+                },
+                hide: {
+                    label: "Mostra solo su richiesta",
+                    description: "Il contatore viene visualizzato solo se almeno un veicolo si trova in questo stato. (Attenzione: Se il contatore è completamente nascosto, non viene mai visualizzato, anche se questa impostazione è attivata!)"
+                },
+                percent: {
+                    label: "Mostra percentuali",
+                    description: "Dovrebbe essere visualizzata la percentuale di questo stato?"
+                }
+            },
+            round: {
+                label: "Percentuali rotonde",
+                description: "A quante cifre decimali devono essere arrotondate le percentuali (se visualizzate)?"
+            }
+        }
+    };
     I18n.translations.nl.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

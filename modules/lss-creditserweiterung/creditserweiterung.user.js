@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -191,6 +191,33 @@
             updateMessage: 'Los valores se actualizan automáticamente<br>cada 5 minutos.<brLos Créditos y Monedas son <br>continuamente actualizados.',
             allianceFunds: 'Fondos de la Alianza',
             noFurtherRank: 'No hay más rangos'
+        }
+    };
+    I18n.translations.en.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        ranks: {
+            0: 'Probie',
+            200: 'Firefighter',
+            10000: 'Senior Firefighter',
+            100000: 'Fire Apparatus Operator',
+            1000000: 'Lieutenant',
+            5000000: 'Captain',
+            20000000: 'Staff Captain',
+            50000000: 'Battalion Chief',
+            1000000000: 'Division Chief',
+            2000000000: 'Deputy Chief',
+            5000000000: 'Fire Chief'
+        },
+        texts: {
+            reloadMessage: 'Apri il tuo profilo<br>e ricarica il sito web!',
+            dropdownName: 'Estensione del credito',
+            creditsOverview: 'Panoramica',
+            coinsProtokoll: 'Elenco monete',
+            earnedCredits: 'Crediti Totalmente guadagnati',
+            creditsToNextRank: 'Crediti al rango successivo',
+            updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
+            allianceFunds: 'Fondi dell\'Alleanza',
+            noFurtherRank: 'Non ci sono altre classifiche'
         }
     };
     I18n.translations.nl.lssm.creditserweiterung = {

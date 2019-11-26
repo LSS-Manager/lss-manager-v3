@@ -164,7 +164,7 @@
         number: '{number} Type-counter',
         numberRoman: '{numberRoman} Type-counter (Roman numerals)',
         dispatch: '{dispatch} Name of Dispatchcenter',
-        dispatchAlias: '{dispatchAlias} Alias od Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
         stationAlias: '{stationAlias} Building-Alias',
         saveAll: 'save All',
         statusWaiting: 'Wait for input',
@@ -417,6 +417,68 @@
             descriptions: {
                 vehicleTypes: 'Här kan du ange alternativa namn för varje fordonstyp. Du kan använda dem när du byter namn på dina fordon via avsändningscentret.',
                 stations: 'Här kan du ange alternativa namn för varje byggnad. Du kan använda dem när du byter namn på dina fordon via avsändningscentret.'
+            },
+            validStationTypes: {
+                0: "Brandstation",
+                2: "Ambulansstation",
+                6: "Polisstation",
+                7: "Larmcentral",
+                18: "Brandstation (liten)",
+                19: "Polisstation (liten)",
+                20: "Ambulansstation (liten)"
+            },
+            vehicleTypes: {
+                0: 'BAS 1 - Släckbil',
+                1: 'BAS 2 - Släckbil',
+                2: 'M32L - Stegbil',
+                3: 'Befälsfordon',
+                4: 'Lastväxlare',
+                5: 'Ambulans',
+                6: 'BAS 4 - Tankbil',
+                7: 'Industribrandbil',
+                8: 'Radiobil',
+                9: 'Räddningshelikopter'
+            }
+        }
+    };
+    I18n.translations.it_IT.lssm.renameFz = {
+        name: 'Rinominare i veicoli',
+        rename: "rinominare",
+        id: "{id} Id del veicolo",
+        old: "{old} Nome corrente",
+        vehicleType: "{vehicleType} Tipo di veicolo",
+        stationName: "{stationName} Nome dell'edificio",
+        tagging: '{tagging} Marcatura del tipo di veicolo',
+        number: '{number} Tipo di contatore',
+        numberRoman: '{numberRoman} Contatore di tipo (numeri romani)',
+        dispatch: '{dispatch} Nome del Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias di Dispatchcenter',
+        stationAlias: '{stationAlias} Edificio-Alias',
+        saveAll: 'salva tutti',
+        statusWaiting: 'Attendere l input',
+        statusError: '<b>Errore durante la generazione!</b> Se questo errore si verifica di nuovo, si prega di segnalarlo. Si prega di fornire le seguenti informazioni:',
+        statusWorking: 'Generare nomi e moduli. Questo può richiedere un certo tempo, a seconda del sistema e del numero di veicoli.',
+        statusSuccess: 'Nomi e Forumlare generati con successo!',
+        nameAlreadyCorrect: 'Il nome corrisponde già al modello!',
+        nameToLong: 'Il nome è troppo lungo per i seguenti veicoli:',
+        nameToLongOriginalName: 'Nome originale',
+        nameToLongGeneratedName: 'Nome Generato',
+        nameToLongShortenedName: 'Nome nuovo / abbreviato',
+        helpTitle: 'Potete trovare una piccola istruzione sotto questo link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Avvio del contatore',
+        counterOverride: 'Se ci sono più veicoli dello stesso tipo, iniziare comunque con 1.',
+        startNumHelp: 'Qui è possibile immettere un valore iniziale per il contatore di tipo. Se si imposta 0 come valore iniziale, il primo veicolo di un tipo non otterrà la numerazione, questo è molto pratico se si ha un solo veicolo di un tipo su una guardia e non si desidera numerarlo. Ma si può anche avviare il contatore a 5 (per qualsiasi motivo si desidera, ma è possibile ;) ).',
+        toggleNameCorrect: 'Mostra/Nascondi Veicoli con i nomi corretti',
+        settings: {
+            show: 'Mostra/Nascondi',
+            names: {
+                vehicleTypes: 'Tipi di veicoli',
+                stations: 'Edificio alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Qui è possibile impostare nomi alternativi per ogni tipo di veicolo. È possibile utilizzarli per rinominare i veicoli tramite il centro di spedizione.',
+                stations: 'Qui è possibile impostare nomi alternativi per ogni edificio. È possibile utilizzarli per rinominare i veicoli tramite il centro di spedizione.'
             },
             validStationTypes: {
                 0: "Brandstation",

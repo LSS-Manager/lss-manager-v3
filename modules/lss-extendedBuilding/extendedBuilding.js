@@ -279,6 +279,62 @@
             }
         }
     };
+    I18n.translations.it_IT.lssm.extendedBuilding = {
+        title: 'Vista estesa dell\'edificio',
+        crew: 'Equipaggio (Max)',
+        fms: 'Stato',
+        assignment: 'Assegnare il personale',
+        neededPersonnel: 'Personale necessario',
+        expansionFinished: 'Finito',
+        expansionNotStarted: 'Non iniziato',
+        personnelOverview: 'Panoramica del personale',
+        schooling: 'Educazione',
+        schoolingsMulti: 'Tutte le Combinazioni di Educazione',
+        schoolingsSingle: 'Educazioni individuali',
+        amount: 'Quantità',
+        expansionName: 'Descrizione',
+        vehicleType: 'Tipo',
+        binding: 'Assegnato a',
+        bindingAmount: 'Legato',
+        settings: {
+            neededPersonnel: {
+                label: 'Personale richiesto',
+                description: 'Mostra il personale necessario se tutti i veicoli devono essere completamente occupati.',
+            },
+            switchStatus: {
+                label: 'Rapido cambio di stato',
+                description: 'Lo stato di un veicolo può essere cambiato direttamente tra S2 e S6 tramite l\'indicatore di stato.',
+            },
+            assignmentBtn: {
+                label: 'Assegnazione rapida',
+                description: 'Aggiunge un pulsante per accedere rapidamente alla finestra "Assegna personale".',
+            },
+            assignedWorkers: {
+                label: 'Personale assegnato',
+                description: 'Mostra per ogni veicolo quanto personale è stato assegnato',
+            },
+            currentCrew: {
+                label: 'Equipaggio attuale',
+                description: 'Indica per ogni veicolo quanti membri del personale sono attualmente seduti sul veicolo.',
+            },
+            expansions: {
+                label: 'Mostra le espansioni',
+                description: 'Mostra lo stato attuale delle espansioni',
+            },
+            personnelOverview: {
+                label: 'Panoramica estesa del personale',
+                description: 'Mostra nella panoramica del personale quanto personale ha a disposizione quale formazione',
+            },
+            vehicleType: {
+                label: 'Mostra tipo di veicolo',
+                description: 'Mostra il tipo di veicolo nell\'elenco dei veicoli.',
+            },
+            expansionDate: {
+                label: 'Data di completamento dell\'ampliamento',
+                description: 'Mostra nell\'elenco delle espansioni anche quando la costruzione sarà terminata(funziona solo in connessione con l\'impostazione "Mostra espansioni").',
+            }
+        }
+    };
     I18n.translations.nl.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

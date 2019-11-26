@@ -384,6 +384,19 @@
             }
         ]
     };
+    I18n.translations.it_IT.lssm.heatmap = {
+        active: 'Attivo',
+        vehicleType: 'Gruppi',
+        radius: 'Raggio',
+        intensity: 'Intensità',
+        close: 'Chiudere',
+        vehicleGroups: [
+            {
+                name: 'Combinazione propria',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',
