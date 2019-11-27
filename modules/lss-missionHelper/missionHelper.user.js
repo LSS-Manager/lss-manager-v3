@@ -1026,6 +1026,150 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.it_IT.lssm.missionhelper = {
+        diy_mission: 'Questa missione sembra essere una missione su larga scala dell\'alleanza..',
+        siwa: 'Missione pianificata',
+        vge: 'Missione dell\'alleanza su larga scala',
+        patients: 'Pazienti',
+        prisoners: 'Prigionieri',
+        to: 'fino',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Questa missione e\' riservata alle ambulanze.!',
+        title: 'Missionhelper',
+        transport: 'Trasporto',
+        settings: {
+            name: {
+                label: 'Nome',
+                description: 'Mostra il nome della missione nell\'aiutante.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Visualizza l\'ID della missione nell\'helper.'
+            },
+            type: {
+                label: 'TIPO-ID',
+                description: 'Visualizza l\'ID del tipo di missione nell\'helper.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indica nell\'helper a quale PDI si trova l\'operazione.'
+            },
+            live_patients: {
+                label: 'Numero di pazienti',
+                description: 'Mostra dal vivo quanti pazienti sono attualmente in uso.'
+            },
+            vehicles: {
+                label: 'Veicoli',
+                description: 'Visualizza i veicoli necessari.'
+            },
+            patients: {
+                label: 'informazioni sul paziente',
+                description: 'Mostra informazioni sui (potenziali) pazienti.'
+            },
+            prisoners: {
+                label: 'prisoner information',
+                description: 'Mostra informazioni sui (potenziali) prigionieri.'
+            },
+            special: {
+                label: 'Altre informazioni',
+                description: 'Visualizza informazioni speciali, come ad esempio il numero medio minimo di persone richieste.'
+            },
+            expansions: {
+                label: 'erogazioni',
+                description: 'Mostra a cosa può diffondersi la scommessa. (Mostra solo spread semplice)'
+            },
+            show_100: {
+                label: 'Mostra il 100% di probabilità',
+                description: 'Mostra la probabilità per un veicolo anche se è al 100%.'
+            },
+            credits: {
+                label: 'Guadagno medio',
+                description: 'Mostra i guadagni medi che si ottengono per questo incarico.'
+            },
+            show_siwa: {
+                label: 'Requisiti delle guardie di sicurezza',
+                description: 'Mostra i requisiti per le guardie di sicurezza anche nell\'helper.'
+            },
+            mission_time: {
+                label: 'Tempo di creazione',
+                description: 'Mostra la data e l\'ora in cui la missione è stata creata.'
+            }
+        },
+        vehicles: {
+            truck: "Autopompe",
+            platform: "Camion con piattaforma",
+            heavyRescue: "Veicoli di soccorso pesante",
+            air: "Mobile Air",
+            bchief: "Veicoli capo-pattuglia",
+            tanker: "Autobotti",
+            hazmat: "Mezzi N.B.C.R.",
+            mcv: "Mobile Command Vehicle",
+            police: "Volanti della polizia",
+            hems: "HEMS",
+            rtw: "AL",
+            arff: "Flotta aerea antincendio AIB",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "SAR Helicopter",
+            policeHeli: "Police Helicopter"
+        },
+        pois: [
+            "Parco",
+            "Lago",
+            "Ospedale",
+            "Bosco",
+            "Fermata dell'autobus",
+            "Fermata del tram",
+            "Stazione ferroviaria \\(traffico regionale\\)",
+            "Stazione ferroviaria \\(traffico regionale e viaggi a lunga distanza\\)",
+            "Stazione merci",
+            "Supermercato \\(piccolo\\)",
+            "Supermercato \\(grande\\)",
+            "Stazione di servizio",
+            "Scuola",
+            "Museo",
+            "Centro commercial",
+            "Officina meccanica",
+            "Uscita autostradale",
+            "Mercatino di Natale",
+            "Storehouse",
+            "Discoteca",
+            "Stadio",
+            "Azienda agricola",
+            "Edificio adibito a uffici",
+            "Piscina",
+            "Railroad Crossing",
+            "Teatro",
+            "Luna park",
+            "Fiume",
+            "Piccolo aeroporto \\(pista\\)",
+            "Grande aeroporto \\(pista\\)",
+            "Terminal aeroporto",
+            "Banca",
+            "Magazzino",
+            "Ponte",
+            "Tavola calda",
+            "Porto mercantile",
+            "Piattaforma ecologica",
+            "Grattacielo",
+            "Molo navi da crociera",
+            "Porticciolo",
+            "Passaggio a livello",
+            "Galleria",
+            "Magazzino a celle frigorifere",
+            "Centrale elettrica",
+            "Fabbrica",
+            "Deposito rottami",
+            "Stazione metropolitana",
+            "Piccolo serbatoio di accumulo sostanze chimiche",
+            "Grande serbatoio di accumulo sostanze chimiche",
+            "Hotel",
+            "Bar",
+            "Discarica",
+            "Parcheggio coperto"
+        ]
+    };
+
     I18n.translations.nl.lssm.missionhelper = {
         diy_mission: 'Deze missie lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',

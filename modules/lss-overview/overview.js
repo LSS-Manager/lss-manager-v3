@@ -41,6 +41,25 @@
     I18n.translations.eu.lssm.overview = {};
     I18n.translations.fj.lssm.overview = {};
 
+    I18n.translations.sv_SE.lssm.overview = {
+        vehicleType: 'fordonstyp',
+        min: 'lägsta personal',
+        max: 'maximal personal',
+        cost: 'Pris',
+        schooling: 'Utbildning',
+        special: 'Särskild',
+        none: 'Ingen',
+        vehiclesName: 'Fordon',
+        buildingsName: 'Byggnader',
+        buildingType: 'Byggnads namn',
+        maxlevel: 'maximal expansionsnivå',
+        levelcost: 'Kostnader för utvidgningsstegen',
+        startPersonell: 'Starta personal',
+        startVehicle: 'Starta fordonet',
+        extensions: 'förlängningar',
+        maxBuildins: 'bygggräns'
+    };
+
     I18n.translations.es.lssm.overview = {
         vehicleType: 'Tipo de vehículo',
         min: 'mínimo personal',
@@ -78,7 +97,7 @@
         extensions: 'uitbreidingen',
         maxBuildins: 'gebouwgrens'
     };
-    if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/)) {
+    if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|larmcentralen-spelet|meldkamerspel)(\.de|\.com|\.co\.uk|\.es|\.se)\/#?$/)) {
 
         let overviewBtn = $(
             '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
@@ -2023,179 +2042,179 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.hiorgs = {
-        fd: 'Fire Department',
-        rd: 'Rescue Department',
-        pol: 'Police',
+    I18n.translations.sv_SE.lssm.overview.hiorgs = {
+        fd: 'Brandstation',
+        rd: 'Rädda',
+        pol: 'Polis',
         heli: 'Helicopter'
     };
 
-    I18n.translations.eu.lssm.overview.buildings = {
+    I18n.translations.sv_SE.lssm.overview.buildings = {
         lst: {
-            name: 'Dispatch Center',
+            name: 'Larmcentral',
             credits: 0,
             coins: 0,
             maxlevel: 0,
-            levelcost: 'No expansion stages possible',
+            levelcost: 'Inga utvidgningssteg möjliga',
             startPersonell: 0,
-            startVehicle: 'No vehicles stationable',
-            extensions: 'No extensions possible',
-            maxBuildings: 'All 25 buildings one Dispatch Center',
-            special: 'The control centre is the administrative centre.'
+            startVehicle: 'Inga fordon stationära',
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Alla 25 byggnader ett utsändningscenter',
+            special: 'Kontrollcentret är det administrativa centret.'
         },
         fw: {
-            name: 'Fire Department',
+            name: 'Brandstation',
             credits: 100000,
             coins: 30,
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 10,
-            startVehicle: 'Class 2 Pumper, Class 1 Tanker',
-            extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
+            startVehicle: 'BAS 1 - Släckbil, BAS 2 - Släckbil',
+            extensions: 'Ambulans (7 Days, 100.000 Credits/20 Coins)<br>Vattenräddning (7 Days, 100.000 Credits/20 Coins)<br>Flygplats (7 Days, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
-            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
+            special: 'Från den 24: e brandstationen och framåt ökar kostnaden för att bygga en ny brandstation enligt följande formel: <code>100.000+200.000*LOG<sub>2</sub>(Antal befintliga brandstationer − 22)</code>. Myntpriset förblir konstant!'
         },
         fwklein: {
-            name: 'Fire Station (Small)',
+            name: 'Brandstation (liten)',
             credits: 50000,
             coins: 25,
             maxlevel: 5,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Konvertering till Normal Guard: Skillnadspris till Normal Guard',
             startPersonell: 10,
-            startVehicle: 'Class 2 Pumper, Class 1 Tanker',
+            startVehicle: 'BAS 1 - Släckbil, BAS 2 - Släckbil',
             maxBuildings: '2.400',
-            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
+            special: 'Från den 24: e brandstationen och framåt ökar kostnaden för att bygga en ny brandstation enligt följande formel: <code>50.000+200.000*LOG<sub>2</sub>(Antal befintliga brandstationer − 22)</code>. Max. 1 miljon krediter. Myntpriset förblir konstant!'
         },
         fwschule: {
-            name: 'Fire Academy',
+            name: 'Brandskola',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
-            levelcost: 'No expansion stages possible',
+            levelcost: 'Inga utvidgningssteg möjliga',
             startPersonell: 0,
-            startVehicle: 'No vehicles stationable',
-            extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
-            maxBuildings: 'No limit',
-            special: 'Minister of Finance and Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
+            startVehicle: 'Inga fordon stationära',
+            extensions: 'Upp till 3 klassrum till (i båda fallen 7 dagar, 400 000 krediter / 40 mynt)',
+            maxBuildings: 'Ingen gräns',
+            special: 'Finansminister och förvaltare kan vara Allianz Fire Academies med hjälp av krediter från Allianz Treasury (Expand).'
         },
         rw: {
-            name: 'Ambulance Station',
+            name: 'Ambulansstation',
             credits: 200000,
             coins: 35,
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
-            extensions: 'No extensions possible',
-            maxBuildings: 'No Limit'
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Ingen gräns'
         },
         rwklein: {
-            name: 'Ambulance station (Small station)',
+            name: 'Ambulansstation (liten)',
             credits: 100000,
             coins: 25,
             maxlevel: 6,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
-            extensions: 'No extensions possible',
-            maxBuildings: 'No Limit'
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Ingen gräns'
         },
         kh: {
-            name: 'Hospital',
+            name: 'Sjukhus',
             credits: 200000,
             coins: 35,
             maxlevel: 20,
-            levelcost: 'in each case 19.000 Credits/11 Coins',
+            levelcost: 'i båda fallen 19.000 krediter / 11 mynt',
             startPersonell: 0,
-            startVehicle: 'No vehicles can be stationed, but 10 beds from the start',
-            extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
-            maxBuildings: 'No Limit',
-            special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+            startVehicle: 'Inga fordon kan stationeras utan 10 bäddar från början',
+            extensions: 'Flera specialiseringar (i båda fallen 7 dagar, 70.000 krediter / 15 mynt,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
+            maxBuildings: 'Ingen gräns',
+            special: 'Finansminister och administratörer kan vara Allianz Hospital med hjälp av krediter från Allianz Treasury (Expand).'
         },
         pol: {
-            name: 'Police Station',
+            name: 'Polisstation',
             credits: 100000,
             coins: 35,
             maxlevel: 14,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
-            startVehicle: 'Police Car',
-            extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
+            startVehicle: 'Radiobil',
+            extensions: 'Cell (25.000 krediter) <br> Max. 10 kan byggas',
             maxBuildings: '1.100',
         },
         polklein: {
-            name: 'Police Station (small station)',
+            name: 'Polisstation (liten) ',
             credits: 50000,
             coins: 25,
             maxlevel: 4,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
-            startVehicle: 'Police Car',
+            startVehicle: 'Radiobill',
             maxBuildings: '1.100',
         }
     };
 
-    I18n.translations.eu.lssm.overview.vehicles = {
+    I18n.translations.sv_SE.lssm.overview.vehicles = {
         fd: {
             t1fe: {
-                name: 'Class 2 Pumper',
+                name: 'BAS 1 - Släckbil',
                 min: 1,
                 max: 6,
                 credits: 5000,
                 coins: 25
             },
             t2fe: {
-                name: 'Class 1 Tanker',
+                name: 'BAS 2 - Släckbil',
                 min: 1,
                 max: 3,
                 credits: 5000,
                 coins: 25
             },
             dlk: {
-                name: 'Turntable Ladder',
+                name: 'M32L - Stegbil',
                 min: 1,
                 max: 3,
                 credits: 10000,
                 coins: 30,
-                special: 'Required from 3 fire stations'
+                special: 'Krävs när du har byggt 3 brandstationer'
             },
             rw: {
-                name: 'Heavy Rescue',
+                name: 'Lastväxlare',
                 min: 1,
                 max: 4,
                 credits: 12180,
                 coins: 25,
-                special: 'Required from 4 fire stations'
+                special: 'Krävs när du har byggt 4 brandstationer'
             },
             elw1: {
-                name: 'Rapid Response Vehicle',
+                name: 'Befälsfordon',
                 min: 1,
                 max: 3,
                 credits: 10000,
                 coins: 25,
-                special: 'Required from 6 fire stations'
+                special: 'Krävs när du har byggt 6 brandstationer'
             },
             watertanker: {
-                name: 'Water Tanker',
+                name: 'BAS 4 - Tankbil',
                 min: 1,
                 max: 3,
                 credits: 17300,
                 coins: 25,
-                special: 'Required from 7 fire stations'
+                special: 'Krävs när du har byggt 7 brandstationer'
             },
             hazm: {
-                name: 'HAZMAT Truck',
+                name: 'Industribrandbi',
                 min: 1,
                 max: 6,
                 credits: 19200,
                 coins: 25,
                 schooling: 'Hazmat',
-                special: 'Required from 11 fire stations'
+                special: 'Krävs när du har byggt 11 brandstationer'
             },
         },
         rd: {
             rtw: {
-                name: 'Ambulance',
+                name: 'Ambulans',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -2204,7 +2223,7 @@
         },
         heli: {
             hems: {
-                name: 'Helitak',
+                name: 'Räddningshelikopter',
                 min: 1,
                 max: 1,
                 credits: 300000,
@@ -2213,7 +2232,7 @@
         },
         pol: {
             fustw: {
-                name: 'Police Car',
+                name: 'Radiobil',
                 min: 1,
                 max: 2,
                 credits: 5000,

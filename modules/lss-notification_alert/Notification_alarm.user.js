@@ -106,6 +106,27 @@
     }
   }
 
+  I18n.translations.it_IT.lssm['n-alarm'] = {
+    not_support: "Questo browser non supporta le notifiche HTML5-Notifiche",
+    inithead: "Initalizzazione",
+    chat_message: "Messaggio chat da ",
+    blend: "Nascondersi dopo:",
+    seconds: "secondi",
+    settings: {
+      title: "Allarme di notifica",
+      chat_title: "Messaggi di chat",
+      chat_text: "Ricevi i messaggi di chat come notifica.",
+      s5_title: "Richiesta di trasporto",
+      save: "Risparmiare",
+      close: "Chiudere",
+      s5_text: "Richieste di trasporto come notifica",
+      status_title: "Status",
+      status_text: "Ricevi tutti i messaggi di stato come notifica.",
+      chatp_title: "Ricevi i messaggi di chat come popup informativo",
+      chatp_text: "Ricevi tutti i messaggi di chat come messaggio popup sul lato destro"
+    }
+  }
+
   I18n.translations.nl.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",

@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -191,6 +191,33 @@
             updateMessage: 'Los valores se actualizan automáticamente<br>cada 5 minutos.<brLos Créditos y Monedas son <br>continuamente actualizados.',
             allianceFunds: 'Fondos de la Alianza',
             noFurtherRank: 'No hay más rangos'
+        }
+    };
+    I18n.translations.it_IT.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? crediti guadagnati.*/i,
+        ranks: {
+            0: 'Recluta',
+            200: 'Vigile del fuoco',
+            10000: 'Vigile del fuoco senior',
+            100000: 'Operatore di apparecchi antincendio',
+            1000000: 'Tenente',
+            5000000: 'Capitano',
+            20000000: 'Stato maggiore',
+            50000000: 'Capo-pattuglia',
+            1000000000: 'Capo divisione',
+            2000000000: 'Vice capo',
+            5000000000: 'Capo dei pompieri'
+        },
+        texts: {
+            reloadMessage: 'Apri il tuo profilo<br>e ricarica il sito web!',
+            dropdownName: 'Estensione del credito',
+            creditsOverview: 'Panoramica',
+            coinsProtokoll: 'Elenco monete',
+            earnedCredits: 'Crediti Totalmente guadagnati',
+            creditsToNextRank: 'Crediti al rango successivo',
+            updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
+            allianceFunds: 'Fondi dell\'Alleanza',
+            noFurtherRank: 'Non ci sono altre classifiche'
         }
     };
     I18n.translations.nl.lssm.creditserweiterung = {

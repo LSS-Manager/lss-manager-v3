@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -63,6 +63,18 @@
         updateMessage: 'Värden uppdateras automatiskt <br> varje ' + updateMin + ' minuter.',
         chartErr: 'Det gick inte att ladda diagrammet "{{chart}}"!<br>Vi vet redan att detta händer med vissa webbläsare, men ännu inte varför. Snälla <b> inte </b> anmäla oss det här felet eftersom vi redan har problemet!',
         hoverTip: 'Tips: Håll muspekaren över ett element för att visa en värdehistorik.'
+    };
+    I18n.translations.it_IT.lssm.verbandsverwaltung = {
+        name: 'Amministrazione',
+        allianceFunds: 'Fondi dell\'Alleanza',
+        allianceCredits: 'Crediti guadagnati',
+        users: 'Membri',
+        onlineUsers: 'Membri online',
+        allianceRank: 'Classifica nella lista degli Alliancelist',
+        page: 'Page',
+        updateMessage: 'Aggiornamento automatico dei valori<br>ogni volta ' + updateMin + ' minuti.',
+        chartErr: 'Impossibile caricare il grafico "{{chart}}"!<br>Sappiamo già che questo accade con alcuni browser, ma non ancora perché. Per favore <b>don\'t</b> segnalateci questo errore perché siamo già su questo problema!',
+        hoverTip: 'Suggerimento: passare con il mouse su un elemento per visualizzare la cronologia dei valori.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
         name: 'Administratie',

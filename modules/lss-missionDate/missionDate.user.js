@@ -13,7 +13,7 @@
 
   I18n.translations.es.lssm.missionDate = {
     ago: 'hace',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    months: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
@@ -26,6 +26,12 @@
   I18n.translations.sv_SE.lssm.missionDate = {
     ago: 'sedan',
     months: ['jan', 'feb', 'mar', 'apr', 'maj', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
+  I18n.translations.it_IT.lssm.missionDate = {
+    ago: 'fa',
+    months: ['gen', 'feb', 'mar', 'apr', 'mag', 'giu', 'lug', 'ago', 'sett', 'ott', 'nov', 'dic'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 

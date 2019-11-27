@@ -109,6 +109,24 @@
         }
     };
 
+    I18n.translations.it_IT.lssm.sharealliancepost = {
+        share: 'condivisibile',
+        chat: 'loquace',
+        alert: 'vigile',
+        chatm: 'Alla Chat di squadra',
+        reqVehIdent: 'Needed vehicles:',
+        reqVeh: 'Non sono richiesti altri veicoli.',
+        settings: {
+            title: 'Allarme, condivisione e pubblicazione',
+            jumpNext: 'Passa alla prossima missione dopo averlo avvisato',
+            enableKeyboard: 'Attivare le scorciatoie da tastiera',
+            defaultPostToChat: 'Post to chat è predefinito',
+            shortcutKeys: 'Elenco separato da virgole di chiavi per l\'allerta. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Modelli di messaggi. Segnaposto: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Offset per %TIME_OFFSET%-formatter in ore'
+        }
+    };
+
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,
         title: I18n.t('lssm.sharealliancepost.settings.title'),
