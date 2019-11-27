@@ -169,7 +169,7 @@
     };
     I18n.translations.sv_SE.lssm.extendedBuilding = {
         title: 'Utökad byggnadsvy',
-        crew: 'Besättning (Max)',
+        crew: 'Besättning (max)',
         fms: 'Status',
         assignment: 'Tilldela personal',
         neededPersonnel: 'Nödvändigt personal',
@@ -281,7 +281,7 @@
     };
     I18n.translations.it_IT.lssm.extendedBuilding = {
         title: 'Vista estesa dell\'edificio',
-        crew: 'Equipaggio (Max)',
+        crew: 'Squadra (max)',
         fms: 'Stato',
         assignment: 'Assegnare il personale',
         neededPersonnel: 'Personale necessario',
@@ -293,7 +293,7 @@
         schoolingsSingle: 'Educazioni individuali',
         amount: 'Quantità',
         expansionName: 'Descrizione',
-        vehicleType: 'Tipo',
+        vehicleType: 'Tipo di veicolo',
         binding: 'Assegnato a',
         bindingAmount: 'Legato',
         settings: {
