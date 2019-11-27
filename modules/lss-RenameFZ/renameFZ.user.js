@@ -481,25 +481,25 @@
                 stations: 'Qui è possibile impostare nomi alternativi per ogni edificio. È possibile utilizzarli per rinominare i veicoli tramite il centro di spedizione.'
             },
             validStationTypes: {
-                0: "Brandstation",
-                2: "Ambulansstation",
-                6: "Polisstation",
-                7: "Larmcentral",
-                18: "Brandstation (liten)",
-                19: "Polisstation (liten)",
-                20: "Ambulansstation (liten)"
+                0: "Caserma dei vigili del fuoco",
+                2: "Stazione ambulanze",
+                6: "Stazione di polizia",
+                7: "Centrale operativa",
+                18: "Caserma dei vigili del fuoco (piccola)",
+                19: "Stazione di polizia (stazione piccola)",
+                20: "Stazione ambulanze (stazione piccola)"
             },
             vehicleTypes: {
-                0: 'BAS 1 - Släckbil',
-                1: 'BAS 2 - Släckbil',
-                2: 'M32L - Stegbil',
-                3: 'Befälsfordon',
-                4: 'Lastväxlare',
-                5: 'Ambulans',
-                6: 'BAS 4 - Tankbil',
-                7: 'Industribrandbil',
-                8: 'Radiobil',
-                9: 'Räddningshelikopter'
+                0: 'APS',
+                1: 'APS/3P',
+                2: 'APS/TRID',
+                3: 'AF/UCL',
+                4: 'ACT/OP',
+                5: 'AL',
+                6: 'ABP',
+                7: 'AF/NBCR',
+                8: 'Volante',
+                9: 'ELI'
             }
         }
     };

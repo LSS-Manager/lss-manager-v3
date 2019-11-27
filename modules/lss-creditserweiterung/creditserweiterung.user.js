@@ -193,20 +193,20 @@
             noFurtherRank: 'No hay más rangos'
         }
     };
-    I18n.translations.en.lssm.creditserweiterung = {
-        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+    I18n.translations.it_IT.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? crediti guadagnati.*/i,
         ranks: {
-            0: 'Probie',
-            200: 'Firefighter',
-            10000: 'Senior Firefighter',
-            100000: 'Fire Apparatus Operator',
-            1000000: 'Lieutenant',
-            5000000: 'Captain',
-            20000000: 'Staff Captain',
-            50000000: 'Battalion Chief',
-            1000000000: 'Division Chief',
-            2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            0: 'Recluta',
+            200: 'Vigile del fuoco',
+            10000: 'Vigile del fuoco senior',
+            100000: 'Operatore di apparecchi antincendio',
+            1000000: 'Tenente',
+            5000000: 'Capitano',
+            20000000: 'Stato maggiore',
+            50000000: 'Capo-pattuglia',
+            1000000000: 'Capo divisione',
+            2000000000: 'Vice capo',
+            5000000000: 'Capo dei pompieri'
         },
         texts: {
             reloadMessage: 'Apri il tuo profilo<br>e ricarica il sito web!',
