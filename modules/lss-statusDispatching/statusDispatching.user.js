@@ -67,6 +67,19 @@
         fms5H1: 'transportiert'
     };
 
+    I18n.translations.it_IT.lssm.statusDispatching = {
+        name: 'Richiesta di trasporto avanzatas',
+        fms: 'Trasporto richiesto',
+        nextVehicle: 'Vai al veicolo successivo con richiesta di trasporto',
+        backToAlarm: 'Torna alla missione',
+        settingsTitle: 'Richieste di trasporto avanzate - Impostazioni',
+        settingsAttr: 'Fare clic sul pulsante "Trasporto richiesto" nella maschera di missione automaticamente',
+        settingsAttrDesc: 'L\'attivazione di questa opzione permette di cliccare automaticamente sul pulsante "trasporto richiesto" nella maschera di missione.In questo modo è necessario esaminare tutte le richieste di trasporto prima di poter visualizzare i dettagli della missione.L\'attivazione di questa opzione consente un\'elaborazione più rapida delle richieste di trasporto.<br>'
+            + 'Disabilitando questa opzione è possibile visualizzare i dettagli della missione prima di elaborare le richieste di trasporto. I pulsanti "Vai al veicolo successivo con una richiesta di trasporto" e "Torna in missione" non sono influenzati da questa impostazione e vengono sempre automaticamente cliccati.',
+        close: 'Chiudere',
+        fms5H1: 'trasportista'
+    };
+
     I18n.translations.nl.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

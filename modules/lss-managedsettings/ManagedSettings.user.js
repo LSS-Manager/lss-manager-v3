@@ -100,6 +100,25 @@
         import_fail: "Fel: Ett fel inträffade vid import av filen: <strong> {0} </strong>. Informera en utvecklare."
     };
 
+    I18n.translations.it_IT.lssm.managedsettings = {
+        title: "Impostazioni LSSM",
+        text1: "Qui è possibile modificare le impostazioni dei plugin attivati.",
+        text2: "",
+        save: "Salva & Chiudi",
+        settings_tab: "Impostazioni",
+        addField_btn: "Aggiungi",
+        export_btn: "Impostazioni di esportazione",
+        import_btn: "Importare le impostazioni",
+        reset_btn: "Ripristina le impostazioni",
+        reset_hint: "Sei sicuro di voler resettare le impostazioni di questo modulo ai valori predefiniti?",
+        reset_success: "Ripristinare con successo le impostazioni. È necessario ricaricare la pagina per farle funzionare.",
+        export_success: "Impostazioni esportate con successo",
+        export_hint: "Si prega di notare che solo le impostazioni salvate in precedenza dei moduli attualmente attivati possono essere esportate.",
+        import_success: "Le impostazioni sono state importate con successo. È necessario ricaricare la pagina per farle funzionare.",
+        import_missmatch: "Il file letto non è purtroppo più compatibile con la versione corrente di LSSM.",
+        import_fail: "Errore: Si è verificato un errore durante l'importazione del file: <strong> {0} </strong>. Si prega di informare uno sviluppatore."
+    };
+
     I18n.translations.nl.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",

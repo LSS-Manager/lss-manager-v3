@@ -1,0 +1,204 @@
+{
+    "1": {
+        "name": "Container in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Auto in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "7": {
+        "name": "Foglie che bruciano",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "Rifiuti sparsi in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "9": {
+        "name": "Balla di paglia in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
+    "10": {
+        "name": "Trattore in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "12": {
+        "name": "Albero su strada",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
+    "13": {
+        "name": "Camion in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "Piccolo campo in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+    "16": {
+        "name": "Roulotte in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Buca delle lettere in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
+    },
+    "18": {
+        "name": "Mucchio di arbusti",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
+    "19": {
+        "name": "Rimorchio in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "30": {
+        "name": "Perdita di gas",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "58": {
+        "name": "Cucina in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "65": {
+        "name": "Cucina in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "66": {
+        "name": "Stanza in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Medicina interna generale"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    }
+}

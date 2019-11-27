@@ -81,6 +81,23 @@
             set: "Guardar la posición actual"
         }
     };
+
+    I18n.translations.it_IT.lssm.centermap = {
+        center: "Centro",
+        settings: {
+            title: "Mappa del centro",
+            choose: "Selezionare",
+            option1: "Predefinito",
+            option1desc: "Livello di zoom predefinito e centratura sul centro di controllo ",
+            option2: "Dinamico",
+            alliance: "Prendere in considerazione l'alleanza",
+            option2desc: "Mappa del centro che tutte le missioni e le stazioni sono visibili.",
+            option3: "Personalizzato",
+            option3desc: "Impostare la posizione personalizzata e il livello di zoom.",
+            set: "Salva posizione corrente"
+        }
+    };
+
     I18n.translations.nl.lssm.centermap = {
         center: "Centreren",
         settings: {

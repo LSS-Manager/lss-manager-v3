@@ -83,6 +83,22 @@
             num_team: 'Sum alliance'
         };
 
+        I18n.translations.it_IT['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Trattamento del paziente',
+            education: 'educazione',
+            purchase: 'acquisito',
+            cancelled: 'Annullato',
+            extended: 'edificata',
+            extended2: 'Extended',
+            built: 'edificata',
+            team: 'Alleanza',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
+
         I18n.translations.nl['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patiënten behandeling',
             education: 'Opleiding',
