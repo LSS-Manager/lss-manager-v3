@@ -114,7 +114,7 @@
         chat: 'loquace',
         alert: 'vigile',
         chatm: 'Alla Chat di squadra',
-        reqVehIdent: 'Needed vehicles:',
+        reqVehIdent: 'Veicoli necessari:',
         reqVeh: 'Non sono richiesti altri veicoli.',
         settings: {
             title: 'Allarme, condivisione e pubblicazione',
