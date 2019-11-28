@@ -235,6 +235,24 @@
             "bchief": 90
         }
     },
+    "21": {
+        "name": "Comignolo in fiamme",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
     "23": {
         "name": "Incendio da grasso",
         "stations": {
