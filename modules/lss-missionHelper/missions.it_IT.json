@@ -24,6 +24,61 @@
             "2": 19
         }
     },
+    "3": {
+        "name": "Moto in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+    "4": {
+        "name": "Erba che brucia",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Stanza in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Medicina interna generale"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "6": {
+        "name": "Casotto nel giardino in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
     "7": {
         "name": "Foglie che bruciano",
         "stations": {
@@ -75,6 +130,16 @@
             "truck": 1
         },
         "credits": 600
+    },
+    "11": {
+        "name": "Cabina telefonica in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
     },
     "12": {
         "name": "Albero su strada",
@@ -151,6 +216,54 @@
             "truck": 1
         },
         "credits": 650
+    },
+    "20": {
+        "name": "Seminterrato in fiamme",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Medicina interna generale"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "23": {
+        "name": "Incendio da grasso",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "25": {
+        "name": "Incidente stradale",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologia"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
     },
     "30": {
         "name": "Perdita di gas",

@@ -10,7 +10,7 @@ $.get(missionlink)
             platform: "(c|C)amion con piattaforma",
             heavyRescue: "Veicoli di soccorso pesante",
             air: "Mobile Air",
-            bchief: "Veicoli capo-pattuglia",
+            bchief: "capo-pattuglia",
             tanker: "(a|A)utobotti",
             hazmat: "Mezzi N.B.C.R.",
             mcv: "Mobile Command Vehicle",
