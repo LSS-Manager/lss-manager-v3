@@ -490,16 +490,15 @@
                 20: "Stazione ambulanze (stazione piccola)"
             },
             vehicleTypes: {
-                0: 'APS',
-                1: 'APS/3P',
-                2: 'APS/TRID',
-                3: 'AF/UCL',
-                4: 'ACT/OP',
-                5: 'AL',
-                6: 'ABP',
-                7: 'AF/NBCR',
-                8: 'Volante',
-                9: 'ELI'
+                0: 'ABP',
+                1: 'AS',
+                2: 'AV/FNZ',
+                3: 'CA/POLI',
+                4: 'Ambulanza Medicalizzata',
+                5: 'KILO',
+                6: 'AF/NBCR',
+                7: 'Volante',
+                8: 'Elisoccorso'
             }
         }
     };

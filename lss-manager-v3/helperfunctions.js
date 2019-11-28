@@ -197,16 +197,15 @@ else if (I18n.locale == "it_IT") {
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["APS", 0],
-        "1": ["APS/3P", 0],
-        "2": ["APS/TRID", 0],
-        "3": ["AF/UCL", 0],
-        "4": ["ACT/OP", 0],
-        "5": ["AL", 2],
-        "6": ["ABP", 0],
-        "7": ["AF/NBCR", 0],
-        "8": ["Volante", 6],
-        "9": ["ELI", 2]
+        "0": ["ABP", 0],
+        "1": ["AS", 0],
+        "2": ["AV/FNZ", 0],
+        "3": ["CA/POLI", 0],
+        "4": ["Ambulanza Medicalizzata", 2],
+        "5": ["KILO", 0],
+        "6": ["AF/NBCR", 0],
+        "7": ["Volante", 6],
+        "8": ["Elisoccorso", 2]
     };
 }
 else if (I18n.locale == "nl")
