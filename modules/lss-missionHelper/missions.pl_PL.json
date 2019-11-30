@@ -1026,5 +1026,23 @@
             "transport": 30,
             "specialisation": "Interna"
         }
+    },
+    "83": {
+        "name": "Osoba uwi\u0119ziona pod maszyn\u0105",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologia"
+        }
     }
 }

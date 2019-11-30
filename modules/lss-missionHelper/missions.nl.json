@@ -8971,5 +8971,95 @@
         "percentages": {
             "redvoertuig": 20
         }
+    },
+    "514": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 12,
+            "3": 10,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1750,
+        "patients": {
+            "max": 10,
+            "min": 5,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 10,
+            "hulpverlening": 50
+        }
+    },
+    "515": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 12,
+            "3": 10,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1850,
+        "patients": {
+            "max": 12,
+            "min": 8,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 20,
+            "hulpverlening": 60
+        }
+    },
+    "516": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 2,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 15,
+            "min": 10,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 30,
+            "hulpverlening": 70
+        }
     }
 }

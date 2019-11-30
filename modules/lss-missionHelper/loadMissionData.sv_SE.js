@@ -6,9 +6,9 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "brandbilar",
-            platform: "flakbilar",
-            heavyRescue: "tunga räddningsfordon",
+            truck: "släckbilar",
+            platform: "stegbilar",
+            heavyRescue: "Lastväxlare",
             air: "Mobile Air",
             bchief: "brandchefsbil",
             tanker: "tankbilar",

@@ -808,9 +808,9 @@ const lssm_missionhelper_adjustPosition = () => {
             }
         },
         vehicles: {
-            truck: "brandbilar",
-            platform: "flakbilar",
-            heavyRescue: "tunga räddningsfordon",
+            truck: "släckbilar",
+            platform: "stegbilar",
+            heavyRescue: "Lastväxlare",
             air: "Mobile Air",
             bchief: "brandchefsbilar",
             tanker: "tankbilar",
