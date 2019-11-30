@@ -279,6 +279,17 @@
         },
         "credits": 1200
     },
+    "24": {
+        "name": "Pensilina alla fermata dell'autobus in fiamme",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
     "25": {
         "name": "Incidente stradale",
         "stations": {
@@ -335,6 +346,17 @@
         },
         "credits": 400
     },
+    "52": {
+        "name": "Passeggero senza biglietto",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 6
+    },
     "58": {
         "name": "Cucina in fiamme",
         "stations": {
@@ -373,5 +395,16 @@
         "percentages": {
             "platform": 30
         }
+    },
+    "74": {
+        "name": "Grande incendio",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
     }
 }
