@@ -1405,5 +1405,24 @@
             "max": 1,
             "specialisation": "General Surgeon"
         }
+    },
+    "106": {
+        "name": "Hit and Run",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        },
+        "prisoners": {
+            "max": 1
+        }
     }
 }

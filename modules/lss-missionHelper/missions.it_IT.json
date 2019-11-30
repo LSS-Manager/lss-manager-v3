@@ -253,6 +253,22 @@
             "platform": 100
         }
     },
+    "22": {
+        "name": "Tetto in fiamme",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
     "23": {
         "name": "Incendio da grasso",
         "stations": {
@@ -281,6 +297,32 @@
             "0": 24,
             "1": 2,
             "2": 29
+        }
+    },
+    "27": {
+        "name": "Garage in fiamme",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Macchinario in fiamme",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
         }
     },
     "30": {

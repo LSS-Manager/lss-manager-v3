@@ -5400,5 +5400,41 @@
         "percentages": {
             "heavyRescue": 30
         }
+    },
+    "323": {
+        "name": "Protestors on runway",
+        "stations": {
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 700,
+        "patients": {
+            "max": 4,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 28
+    },
+    "324": {
+        "name": "Protestors on runway",
+        "stations": {
+            "0": 1,
+            "3": 3,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 6
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 7,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 29
     }
 }

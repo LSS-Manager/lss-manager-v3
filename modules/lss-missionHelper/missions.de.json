@@ -8876,5 +8876,27 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "495": {
+        "name": "Massenpanik in Diskothek",
+        "stations": {
+            "2": 10,
+            "6": 9
+        },
+        "vehicles": {
+            "fustw": 9
+        },
+        "credits": 3500,
+        "patients": {
+            "max": 17,
+            "transport": 40,
+            "nef": 20,
+            "rth": 2,
+            "specialisation": "Allgemeine Chirurgie"
+        },
+        "poi": 19,
+        "prisoners": {
+            "max": 2
+        }
     }
 }
