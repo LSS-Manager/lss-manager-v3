@@ -79,7 +79,10 @@ else if (I18n.locale == "fj")
         "10": ["Rapid Response Vehicle", 2],
         "11": ["Police helicopter", 6],
         "12": ["Dog Support Unit (DSU)", 6],
-        "13": ["Armed Response Vehicle (ARV)", 6]
+        "13": ["Armed Response Vehicle (ARV)", 6],
+        "14": ["Breathing Apparatus Support Unit (BASU)", 0],
+        "15": ["Incident Command and Control Unit (ICCU)", 0],
+        "16": ["Rescue Pump", 0],
     };
 }
 else if (I18n.locale == "eu")
@@ -231,6 +234,31 @@ else if (I18n.locale == "fr_FR") {
         "7": ["VIRT", 0],
         "8": ["Véhicule de patrouille", 6],
         "9": ["HeliSMUR", 2]
+    };
+}
+else if (I18n.locale == "ru_RU") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Расширение станции скорой помощи": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Тюремная камера": 10,
+        "Ещё камера": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["АЦ-3,0-40", 0],
+        "1": ["АЦ 2,3-40", 0],
+        "2": ["АЛ-42", 0],
+        "3": ["Штабной автомобиль", 0],
+        "4": ["АБР-5", 0],
+        "5": ["Машина Скорой Помощи", 2],
+        "6": ["АЦ-9,4-60", 0],
+        "7": ["АПТ-5,0-70", 0],
+        "8": ["Полицейская машина", 6],
+        "9": ["Вертолёт службы спасения", 2]
     };
 }
 else if (I18n.locale == "nl")

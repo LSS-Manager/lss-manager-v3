@@ -278,7 +278,10 @@
                 10: 'Rapid Response Vehicle',
                 11: 'Police helicopter',
                 12: 'Dog Support Unit (DSU)',
-                13: 'Armed Response Vehicle (ARV)'
+                13: 'Armed Response Vehicle (ARV)',
+                14: 'Breathing Apparatus Support Unit (BASU)',
+                15: 'Incident Command and Control Unit (ICCU)',
+                16: 'Rescue Pump'
             }
         }
     };
@@ -542,18 +545,13 @@
                 stations: 'Ici, vous pouvez définir des noms alternatifs pour chaque bâtiment. Vous pouvez les utiliser pour renommer vos véhicules via le centre de répartition.'
             },
             validStationTypes: {
-                0: "Fire Station",
-                1: "Dispatch Center",
-                3: "Ambulance Station",
-                5: "Police Station",
-                6: "Helicopter station",
-                8: "Police Aviation",
-                11: "Fire boat dock",
-                12: "Rescue boat dock",
-                13: "Fire Station (Small)",
-                14: "Urgent Care Center",
-                15: "Police Station (Small station)",
-                16: "Ambulance station (Small station)"
+                0: "Centre de secours",
+                2: "Poste ambulancier",
+                6: "Poste de police",
+                7: "Centre de Traitement des Appels",
+                18: "Centre de Première Intervention",
+                19: "Commissariat (police)",
+                20: "Poste ambulancier (petit)"
             },
             vehicleTypes: {
                 0: 'FPT',
@@ -566,6 +564,68 @@
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
                 9: 'HeliSMUR'
+            }
+        }
+    };
+    I18n.translations.ru_RU.lssm.renameFz = {
+        name: 'Переименовать автомобили',
+        rename: "переименование",
+        id: "{id} Бездействующее транспортное средство",
+        old: "{old} Нынешнее название",
+        vehicleType: "{vehicleType} Тип транспортного средства",
+        stationName: "{stationName} Название здания",
+        tagging: '{tagging} Маркировка типа транспортного средства',
+        number: '{number} Типовой счетчик',
+        numberRoman: '{numberRoman} Типовой счетчик (римские цифры)',
+        dispatch: '{dispatch} Название диспетчерского центра',
+        dispatchAlias: '{dispatchAlias} Псевдоним диспетчерского центра',
+        stationAlias: '{stationAlias} Здание - Алиас',
+        saveAll: 'За исключением',
+        statusWaiting: 'Дождитесь ввода',
+        statusError: '<b>Ошибка при генерации!</b> Если эта ошибка повторится снова, сообщите об этом. Просьба представить следующую информацию:',
+        statusWorking: 'Генерировать имена и формы. Это может занять определенное количество времени, в зависимости от системы и количества транспортных средств.',
+        statusSuccess: 'Имена и Forumlare успешно сгенерированы!',
+        nameAlreadyCorrect: 'Имя уже соответствует шаблону!',
+        nameToLong: 'Название слишком длинное для следующих автомобилей:',
+        nameToLongOriginalName: 'Оригинальное имя',
+        nameToLongGeneratedName: 'Сгенерированное имя',
+        nameToLongShortenedName: 'Новое/сокращенное имя',
+        helpTitle: 'Вы можете найти небольшую инструкцию по этой ссылке: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Запуск счетчика',
+        counterOverride: 'Если имеется несколько транспортных средств одного типа, все равно начните с 1.',
+        startNumHelp: 'Здесь можно ввести начальное значение для счетчика типов. Если в качестве стартового значения задать 0, то первое транспортное средство типа не получит нумерацию, что очень практично, если на охране находится только один автомобиль типа и не хочется его нумеровать. Но вы также можете запустить счетчик с 5 (по любой причине, но это возможно ;) ).',
+        toggleNameCorrect: 'Показать/скрыть Транспортные средства с правильными названиями',
+        settings: {
+            show: 'Показать/скрыть',
+            names: {
+                vehicleTypes: 'Типы транспортных средств',
+                stations: 'Строительный псевдоним'
+            },
+            descriptions: {
+                vehicleTypes: 'Здесь можно задать альтернативные названия для каждого типа автомобиля. Вы можете использовать их при переименовании транспортных средств через диспетчерский центр.',
+                stations: 'Здесь вы можете задать альтернативные названия для каждого здания. Вы можете использовать их при переименовании транспортных средств через диспетчерский центр.'
+            },
+            validStationTypes: {
+                0: "Пожарная станция",
+                2: "Станция скорой помощи",
+                6: "Полицейский участок",
+                7: "Диспетчерский пункт",
+                18: "Пожарная станция (малая)",
+                19: "Полицейский участок (малый)",
+                20: "Станция скорой помощи (малая)"
+            },
+            vehicleTypes: {
+                0: 'АЦ-3,0-40',
+                1: 'АЦ 2,3-40',
+                2: 'АЛ-42',
+                3: 'Штабной автомобиль',
+                4: 'АБР-5',
+                5: 'Машина Скорой Помощи',
+                6: 'АЦ-9,4-60',
+                7: 'АПТ-5,0-70',
+                8: 'Полицейская машина',
+                9: 'Вертолёт службы спасения'
             }
         }
     };

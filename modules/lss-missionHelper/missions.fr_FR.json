@@ -1,1 +1,78 @@
-[]
+{
+    "0": {
+        "name": "Poubelle en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "7": {
+        "name": "Feuilles en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "D\u00e9chets en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "18": {
+        "name": "Tas de broussailles",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
+    "41": {
+        "name": "Atelier automobile en feu",
+        "stations": {
+            "0": 14,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 15,
+        "percentages": {
+            "tanker": 40
+        }
+    }
+}
