@@ -127,6 +127,42 @@
         }
     };
 
+    I18n.translations.fr_FR.lssm.sharealliancepost = {
+        share: 'Partager....',
+        chat: 'Chat...',
+        alert: 'Alerte....',
+        chatm: 'Au Chat d\'équipe',
+        reqVehIdent: 'Véhicules nécessaires :',
+        reqVeh: 'Aucun autre véhicule requis.',
+        settings: {
+            title: 'Alerter, Partager & Poster',
+            jumpNext: 'Passer à la mission suivante après l\'alerte',
+            enableKeyboard: 'Activer les raccourcis clavier',
+            defaultPostToChat: 'Poster sur le chat est par défaut',
+            shortcutKeys: 'Liste de clés séparées par des virgules pour l\'alerte. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Modèles de messages. Caractères de remplissage : <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Décalage pour %TIME_OFFSET%-formatter en heures'
+        }
+    };
+
+    I18n.translations.ru_RU.lssm.sharealliancepost = {
+        share: 'Поделиться...',
+        chat: 'Чат...',
+        alert: 'Тревога...',
+        chatm: 'В командный чат',
+        reqVehIdent: 'Требуются машины:',
+        reqVeh: 'Других транспортных средств не требуется.',
+        settings: {
+            title: 'Предупреждение, обмен информацией и почта',
+            jumpNext: 'Перейти к следующей миссии после оповещения',
+            enableKeyboard: 'Включить горячие клавиши на клавиатуре',
+            defaultPostToChat: 'Отправка сообщения в чат по умолчанию',
+            shortcutKeys: 'Разделенный запятой список клавиш для оповещения. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Шаблоны сообщений. Места хранения: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Смещение для %TIME_OFFSET%-формата в часах'
+        }
+    };
+
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,
         title: I18n.t('lssm.sharealliancepost.settings.title'),

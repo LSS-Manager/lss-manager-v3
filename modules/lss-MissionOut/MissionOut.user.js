@@ -16,6 +16,12 @@
     I18n.translations.it_IT.lssm.missionOut = {
         title: 'Nascondi/Mostra missione'
     };
+    I18n.translations.fr_FR.lssm.missionOut = {
+        title: 'Masquer/afficher la mission'
+    };
+    I18n.translations.ru_RU.lssm.missionOut = {
+        title: 'Скрыть / Показать миссию'
+    };
     I18n.translations.es.lssm.missionOut = {
         title: 'Ocultar/Mostrar misión'
     };

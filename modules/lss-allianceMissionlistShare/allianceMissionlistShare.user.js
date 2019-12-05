@@ -17,6 +17,12 @@
     I18n.translations.it_IT['lssm']['allianceMissionlistShare'] = {
         title: "Rilascio in alleanza"
     };
+    I18n.translations.fr_FR['lssm']['allianceMissionlistShare'] = {
+        title: "Libération en alliance"
+    };
+    I18n.translations.ru_RU['lssm']['allianceMissionlistShare'] = {
+        title: "Освобождение в альянсе"
+    };
     I18n.translations.nl['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };

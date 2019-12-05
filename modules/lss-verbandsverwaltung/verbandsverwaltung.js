@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -75,6 +75,30 @@
         updateMessage: 'Aggiornamento automatico dei valori<br>ogni volta ' + updateMin + ' minuti.',
         chartErr: 'Impossibile caricare il grafico "{{chart}}"!<br>Sappiamo già che questo accade con alcuni browser, ma non ancora perché. Per favore <b>don\'t</b> segnalateci questo errore perché siamo già su questo problema!',
         hoverTip: 'Suggerimento: passare con il mouse su un elemento per visualizzare la cronologia dei valori.'
+    };
+    I18n.translations.fr_FR.lssm.verbandsverwaltung = {
+        name: 'Administration',
+        allianceFunds: 'Fonds Alliance',
+        allianceCredits: 'Crédits gagnés',
+        users: 'Members',
+        onlineUsers: 'Membres en ligne',
+        allianceRank: 'Rang dans Alliancelist',
+        page: 'Page',
+        updateMessage: 'Mise à jour automatique des valeurs <br>chaque valeur ' + updateMin + ' minutes.',
+        chartErr: 'Impossible de charger le graphique "{{chart}}"!<br>Nous savons déjà que cela se produit avec certains navigateurs, mais pas encore pourquoi. S\'il vous plaît<b>don\'t</b> nous signaler cette erreur comme nous sommes déjà sur ce problème !',
+        hoverTip: 'Astuce : Survolez un élément pour afficher l\'historique des valeurs.'
+    };
+    I18n.translations.ru_RU.lssm.verbandsverwaltung = {
+        name: 'Администрация',
+        allianceFunds: 'Альянс Фонды',
+        allianceCredits: 'Заработанные Кредиты',
+        users: 'Члены',
+        onlineUsers: 'Участники онлайн',
+        allianceRank: 'Рейтинг в Альянс-листе',
+        page: 'Страница',
+        updateMessage: 'Обновление значений автоматически<br> для каждого из них ' + updateMin + ' протокол.',
+        chartErr: 'Не смог загрузить диаграмму "{{chart}}"!<br>Мы уже знаем, что это происходит с некоторыми браузерами, но пока не знаем, почему. Пожалуйста, <b>don\'t</b> сообщите нам об этой ошибке, поскольку мы уже сталкиваемся с этой проблемой!',
+        hoverTip: 'Совет: наведите указатель мыши на элемент, чтобы отобразить историю значений.'
     };
     I18n.translations.nl.lssm.verbandsverwaltung = {
         name: 'Administratie',

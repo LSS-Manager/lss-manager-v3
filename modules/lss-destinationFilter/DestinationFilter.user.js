@@ -79,6 +79,32 @@
             cells: 'Hide full cells'
         }
     };
+    I18n.translations.fr_FR.lssm.destfilter = {
+        title: 'Filtre de destination',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Masquer les cellules pleines'
+        }
+    };
+    I18n.translations.ru_RU.lssm.destfilter = {
+        title: 'Фильтр назначения Фильтр назначения',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Скрыть полные больницы',
+            department: 'Скрывать больницы без необходимого отделения',
+            distance: 'Скрыть пункты назначения на расстоянии свыше x км (деактивируется 0)',
+            tax: 'Скрытие пунктов назначения с коэффициентом TAX выше x%.',
+            cells: 'Скрыть полные ячейки'
+        }
+    };
     I18n.translations.nl.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

@@ -1,4 +1,15 @@
 {
+    "0": {
+        "name": "Bidone in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
     "1": {
         "name": "Container in fiamme",
         "stations": {
@@ -346,6 +357,37 @@
         },
         "credits": 400
     },
+    "31": {
+        "name": "Camino in fiamme",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Mietitrice in fiamme",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "42": {
+        "name": "Persona caduta",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologia"
+    },
     "52": {
         "name": "Passeggero senza biglietto",
         "stations": {
@@ -366,6 +408,27 @@
             "truck": 2
         },
         "credits": 1000
+    },
+    "59": {
+        "name": "Soccorso animali",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "63": {
+        "name": "Attacco ischemico transitorio",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Neurochirurgia"
     },
     "65": {
         "name": "Cucina in fiamme",
@@ -395,6 +458,14 @@
         "percentages": {
             "platform": 30
         }
+    },
+    "71": {
+        "name": "Epistassi",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Chirurgia generale"
     },
     "74": {
         "name": "Grande incendio",

@@ -35,6 +35,18 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
+  I18n.translations.fr_FR.lssm.missionDate = {
+    ago: 'il y a',
+    months: ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'déc'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
+  I18n.translations.ru_RU.lssm.missionDate = {
+    ago: 'назад',
+    months: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июнь', 'Июль', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
   I18n.translations.nl.lssm.missionDate = {
     ago: 'geleden',
     months: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
@@ -96,6 +108,12 @@
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 1, weil EST UTC+1 ist
         let newOffset = 0 - offset;
+      newHour -= newOffset;
+    }
+    if (I18n.locale === 'ru_RU') {
+      let offset = today.getTimezoneOffset() / 60;
+      // Zahl 1, weil EST UTC+1 ist
+      let newOffset = 3 - offset;
       newHour -= newOffset;
     }
     if (I18n.locale === 'eu') {

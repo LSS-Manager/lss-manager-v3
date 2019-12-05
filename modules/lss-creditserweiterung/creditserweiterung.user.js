@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -218,6 +218,60 @@
             updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
             allianceFunds: 'Fondi dell\'Alleanza',
             noFurtherRank: 'Non ci sono altre classifiche'
+        }
+    };
+    I18n.translations.fr_FR.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? crédits obtenus.*/i,
+        ranks: {
+            0: 'Bleusaille',
+            200: 'Pompier',
+            10000: 'Pompier vétéran',
+            100000: 'Opérateur d’équipement de pompier',
+            1000000: 'Sergent',
+            5000000: 'Adjudant',
+            20000000: 'Adjudant-chef',
+            50000000: 'Lieutenant',
+            1000000000: 'Capitaine',
+            2000000000: 'Commandant',
+            5000000000: 'Lieutenant-colonel'
+        },
+        texts: {
+            reloadMessage: 'Veuillez ouvrir votre profil <br>et recharger le site !',
+            dropdownName: 'Extension de crédit',
+            creditsOverview: 'Vue d\'ensemble',
+            coinsProtokoll: 'Liste des pièces',
+            earnedCredits: 'Total des crédits accumulés',
+            creditsToNextRank: 'Crédits au rang suivant',
+            updateMessage: 'Mise à jour automatique des valeurs <br>toutes les 5 minutes.<br>Les crédits et les pièces de monnaie sont <br>continuellement mis à jour.',
+            allianceFunds: 'Fonds Alliance',
+            noFurtherRank: 'Il n\'y a pas d\'autres grades'
+        }
+    };
+    I18n.translations.ru_RU.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? Получено кредитов.*/i,
+        ranks: {
+            0: 'Новичок',
+            200: 'Пожарный',
+            10000: 'Старший пожарный',
+            100000: 'Начальник караула',
+            1000000: 'Лейтенант',
+            5000000: 'Капитан',
+            20000000: 'Начальник отдела',
+            50000000: 'Командир батальона',
+            1000000000: 'Командир дивизиона',
+            2000000000: 'Заместитель главы',
+            5000000000: 'Глава пожарной службы'
+        },
+        texts: {
+            reloadMessage: 'Пожалуйста, откройте свой профиль<br> и перезагрузите сайт!',
+            dropdownName: 'Продление кредита',
+            creditsOverview: 'Обзор',
+            coinsProtokoll: 'Список монет',
+            earnedCredits: 'Полностью заработанные Кредиты',
+            creditsToNextRank: 'Кредиты на следующий уровень',
+            updateMessage: 'Обновление значений автоматически<br> каждые 5 минут.<br>Кредиты и монеты постоянно обновляются.',
+            allianceFunds: 'Альянс Фонды',
+            noFurtherRank: 'Больше нет никаких званий.'
         }
     };
     I18n.translations.nl.lssm.creditserweiterung = {

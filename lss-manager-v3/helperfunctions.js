@@ -208,6 +208,31 @@ else if (I18n.locale == "it_IT") {
         "8": ["Elisoccorso", 2]
     };
 }
+else if (I18n.locale == "fr_FR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extension d’ambulance": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cellule de prison": 10,
+        "Plus de cellules": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["FPT", 0],
+        "1": ["FPTL", 0],
+        "2": ["EPA", 0],
+        "3": ["VLCG", 0],
+        "4": ["VSR", 0],
+        "5": ["UMH", 2],
+        "6": ["CCGC", 0],
+        "7": ["VIRT", 0],
+        "8": ["Véhicule de patrouille", 6],
+        "9": ["HeliSMUR", 2]
+    };
+}
 else if (I18n.locale == "nl")
 {
 	lssm.extensions = {

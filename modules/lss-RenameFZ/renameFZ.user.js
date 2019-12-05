@@ -502,6 +502,73 @@
             }
         }
     };
+    I18n.translations.fr_FR.lssm.renameFz = {
+        name: 'Renommer les véhicules',
+        rename: "renommer",
+        id: "{id} Identité du véhicule",
+        old: "{old} Nom actuel",
+        vehicleType: "{vehicleType} Type de véhicule",
+        stationName: "{stationName} Nom du bâtiment",
+        tagging: '{tagging} Marquage du type de véhicule',
+        number: '{number} Compteur de type',
+        numberRoman: '{numberRoman} Compteur de caractères (chiffres romains)',
+        dispatch: '{dispatch} Nom du centre d\'expédition',
+        dispatchAlias: '{dispatchAlias} Alias du centre d\'expédition',
+        stationAlias: '{stationAlias} Bâtiment-Alias',
+        saveAll: 'Tout sauvegarder',
+        statusWaiting: 'Attendre l\'entrée',
+        statusError: '<b>Erreur pendant la génération!</b> Si cette erreur se reproduit, veuillez le signaler. Veuillez fournir les renseignements suivants :',
+        statusWorking: 'Générer des noms et des formulaires. Cela peut prendre un certain temps, selon le système et le nombre de véhicules.',
+        statusSuccess: 'Noms et Forumlare générés avec succès !',
+        nameAlreadyCorrect: 'Le nom correspond déjà au modèle !',
+        nameToLong: 'Le nom est trop long pour les véhicules suivants :',
+        nameToLongOriginalName: 'Nom d\'origine',
+        nameToLongGeneratedName: 'Nom généré',
+        nameToLongShortenedName: 'Nom nouveau ou abrégé',
+        helpTitle: 'Vous trouverez une petite instruction sous ce lien : ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Démarrage par compteur',
+        counterOverride: 'S\'il y a plusieurs véhicules du même type, commencez quand même par 1.',
+        startNumHelp: 'Vous pouvez saisir ici une valeur de départ pour le compteur de type. Si vous mettez 0 comme valeur de départ, le premier véhicule d\'un type n\'aura pas la numérotation, c\'est très pratique si vous n\'avez qu\'un seul véhicule d\'un type sur un garde et que vous ne voulez pas le numéroter. Mais vous pouvez aussi démarrer le compteur à 5 (pour n\'importe quelle raison, mais c\'est possible ;) ) )',
+        toggleNameCorrect: 'Afficher/masquer les véhicules avec les noms corrects',
+        settings: {
+            show: 'Afficher/Masquer',
+            names: {
+                vehicleTypes: 'Types de véhicules',
+                stations: 'Création d\'un alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Ici, vous pouvez définir des noms alternatifs pour chaque type de véhicule. Vous pouvez les utiliser pour renommer vos véhicules via le centre de répartition.',
+                stations: 'Ici, vous pouvez définir des noms alternatifs pour chaque bâtiment. Vous pouvez les utiliser pour renommer vos véhicules via le centre de répartition.'
+            },
+            validStationTypes: {
+                0: "Fire Station",
+                1: "Dispatch Center",
+                3: "Ambulance Station",
+                5: "Police Station",
+                6: "Helicopter station",
+                8: "Police Aviation",
+                11: "Fire boat dock",
+                12: "Rescue boat dock",
+                13: "Fire Station (Small)",
+                14: "Urgent Care Center",
+                15: "Police Station (Small station)",
+                16: "Ambulance station (Small station)"
+            },
+            vehicleTypes: {
+                0: 'FPT',
+                1: 'FPTL',
+                2: 'EPA',
+                3: 'VLCG',
+                4: 'VSR',
+                5: 'UMH',
+                6: 'CCGC',
+                7: 'VIRT',
+                8: 'Véhicule de patrouille',
+                9: 'HeliSMUR'
+            }
+        }
+    };
     I18n.translations.es.lssm.renameFz = {
         name: 'Renombrar vehículos',
         rename: "cambiar de nombre",
