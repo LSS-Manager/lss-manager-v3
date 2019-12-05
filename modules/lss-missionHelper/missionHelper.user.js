@@ -400,12 +400,12 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "Fire engines",
             platform: "Aerial Appliance",
-            heavyRescue: "Rescue Support Unit",
-            air: "Mobile Air",
+            heavyRescue: "Rescue Support Unit or Rescue Pump",
+            air: "Breathing Apparatus Support Unit",
             bchief: "Fire Officer",
             tanker: "Water Carrier",
             hazmat: "HazMat",
-            mcv: "Mobile Command Vehicle",
+            mcv: "Incident Command and Control Unit",
             police: "Police Car",
             arff: "ARFF",
             k9: "Dog Support Unit",
@@ -1167,6 +1167,282 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Discarica",
             "Parcheggio coperto"
+        ]
+    };
+
+    I18n.translations.fr_FR.lssm.missionhelper = {
+        diy_mission: 'Cette mission semble être une mission d\'alliance à grande échelle.',
+        siwa: 'Mission prévue',
+        vge: 'Mission d\'alliance à grande échelle',
+        patients: 'Patients',
+        prisoners: 'prisonniers',
+        to: 'jusqu\'à',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Cette mission est réservée aux ambulances !',
+        title: 'Aide à la mission',
+        transport: 'transport',
+        settings: {
+            name: {
+                label: 'Nom',
+                description: 'Affiche le nom de la mission dans l\'assistant.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Affiche l\'ID de la mission dans l\'aide.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Affiche l\'ID du type de mission dans l\'aide.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indique dans l\'aide à quel POI se trouve l\'opération.'
+            },
+            live_patients: {
+                label: 'Nombre de patients',
+                description: 'Affiche en temps réel le nombre de patients en cours d\'utilisation.'
+            },
+            vehicles: {
+                label: 'Véhicules',
+                description: 'Affiche les véhicules requis.'
+            },
+            patients: {
+                label: 'renseignements sur le patient',
+                description: 'Affiche des informations sur les patients (potentiels).'
+            },
+            prisoners: {
+                label: 'renseignements sur le détenu',
+                description: 'Affiche des informations sur les détenus (potentiels).'
+            },
+            special: {
+                label: 'Autres informations',
+                description: 'Affiche des informations spéciales, telles que le nombre minimum moyen d\'employés requis.'
+            },
+            expansions: {
+                label: 'répartitions',
+                description: 'Montre à quoi le pari peut s\'étendre. (N\'affiche que la propagation simple)'
+            },
+            show_100: {
+                label: 'Montrer 100% de probabilité',
+                description: 'Indique la probabilité pour un véhicule même s\'il est à 100%.'
+            },
+            credits: {
+                label: 'Salaire moyen',
+                description: 'Indique le salaire moyen que vous touchez pour cette affectation.'
+            },
+            show_siwa: {
+                label: 'Exigences applicables aux agents de sécurité',
+                description: 'Affiche également les exigences pour les agents de sécurité de l\'assistant.'
+            },
+            mission_time: {
+                label: 'Heure de création',
+                description: 'Affiche la date et l\'heure de création de la mission.'
+            }
+        },
+        vehicles: {
+            truck: "Fourgons d’incendie",
+            platform: "Chariots à plateforme",
+            heavyRescue: "Véhicule de secours routier",
+            air: "Mobile Air",
+            bchief: "Véhicules de lieutenant",
+            tanker: "Camions-citernes",
+            hazmat: "Véhicules risques chimiques",
+            mcv: "Mobile Command Vehicle",
+            police: "Voitures de police",
+            arff: "ARFF"
+        },
+        pois: [
+            "Parc",
+            "Lac",
+            "Hôpital",
+            "Forêt",
+            "Arrêt de bus",
+            "Arrêt de tram",
+            "Gare ferroviaire \\(trajets régionaux\\)",
+            "Gare ferroviaire \\(trajets régionaux et grandes lignes\\)",
+            "Supérette",
+            "Supermarché \\(petit\\)",
+            "Supermarché \\(grand\\)",
+            "Station-service",
+            "École",
+            "Musée",
+            "Centre commercial",
+            "Garage automobile",
+            "Sortie d’autoroute",
+            "Marché de Noël",
+            "Hangar",
+            "Discothèque",
+            "Stade",
+            "Ferme",
+            "Bureaux",
+            "Piscine",
+            "Passage à niveau",
+            "Théâtre",
+            "Fête foraine",
+            "Rivière",
+            "Petit aéroport \\(piste\\)",
+            "Grand aéroport \\(piste\\)",
+            "Terminal d’aéroport",
+            "Banque",
+            "Entrepôt",
+            "Pont",
+            "Restauration rapide",
+            "Port de fret",
+            "Centre de recyclage",
+            "Tour",
+            "Quai de navire de croisière",
+            "Marina",
+            "Croisement de voie ferrée",
+            "Tunnel",
+            "Entrepôt frigorifique",
+            "Centrale électrique",
+            "Usine",
+            "Casse",
+            "Station de métro",
+            "Petite citerne de produits chimiques",
+            "Grande citerne de produits chimiques",
+            "Hôtel",
+            "Bar",
+            "Décharge",
+            "Parking couvert"
+        ]
+    };
+
+    I18n.translations.ru_RU.lssm.missionhelper = {
+        diy_mission: 'Эта миссия, похоже, является широкомасштабной миссией альянса.',
+        siwa: 'Запланированная миссия',
+        vge: 'Запланированная миссия',
+        patients: 'Пациенты',
+        prisoners: 'Заключенные',
+        to: 'вплоть до',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Это задание только для скорой помощи!',
+        title: 'Миссионер',
+        transport: 'Транспорт',
+        settings: {
+            name: {
+                label: 'Имя',
+                description: 'Показывает имя миссии в помощнике..'
+            },
+            id: {
+                label: 'УДОСТОВЕРЕНИЕ ЛИЧНОСТИ',
+                description: 'Отображает идентификатор задания в помощнике..'
+            },
+            type: {
+                label: 'ТИП-ID',
+                description: 'Отображает идентификатор типа миссии в помощнике..'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Указывает в помощнике, в какой Точке интереса выполняется операция.'
+            },
+            live_patients: {
+                label: 'Количество пациентов',
+                description: 'Показывает вживую, сколько пациентов в данный момент находятся в эксплуатации.'
+            },
+            vehicles: {
+                label: 'Автомобили',
+                description: 'Отображает требуемые транспортные средства.'
+            },
+            patients: {
+                label: 'информация о пациенте',
+                description: 'Показывает информацию о (потенциальных) пациентах.'
+            },
+            prisoners: {
+                label: 'информация о заключенных',
+                description: 'Показывает информацию о (потенциальных) заключенных.'
+            },
+            special: {
+                label: 'Другая информация',
+                description: 'Отображает специальную информацию, например, среднее минимальное требуемое количество персонала.'
+            },
+            expansions: {
+                label: 'рассылки',
+                description: 'Показывает, на что может распространяться ставка. (Показывает только простое распространение)'
+            },
+            show_100: {
+                label: 'Показать 100% вероятность',
+                description: 'Показывает вероятность для транспортного средства, даже если она составляет 100%.'
+            },
+            credits: {
+                label: 'Средний заработок',
+                description: 'Показывает средний заработок, который вы получаете за это задание.'
+            },
+            show_siwa: {
+                label: 'Требования к охранникам',
+                description: 'Также показывает требования к охранникам в помощнике.'
+            },
+            mission_time: {
+                label: 'Время создания',
+                description: 'Показывает дату и время создания миссии.'
+            }
+        },
+        vehicles: {
+            truck: "пожарные машины",
+            platform: "платформы",
+            heavyRescue: "машины для спасательных работ в тяжёлых условиях",
+            air: "Mobile Air",
+            bchief: "командира батальона",
+            tanker: "цистерны с водой",
+            hazmat: "автомобили обезвреживания",
+            mcv: "мобильные командные пункты",
+            police: "полицейские автомобили",
+            arff: "АПСР"
+        },
+        pois: [
+            "Парк",
+            "Озеро",
+            "Больница",
+            "Лес",
+            "Автобусная остановка",
+            "Трамвайная остановка",
+            "Железнодорожная станция",
+            "Железнодорожный вокзал",
+            "Товарная станция",
+            "Супермаркет \\(небольшой\\)",
+            "Супермаркет \\(большой\\)",
+            "Автозаправка",
+            "Школа",
+            "Музей",
+            "Торговый центр",
+            "Автомастерская",
+            "Съезд с трассы",
+            "Рождественский рынок",
+            "Storehouse",
+            "Дискотека",
+            "Стадион",
+            "Ферма",
+            "Офисное здание",
+            "Бассейн",
+            "Railroad Crossing",
+            "Театр",
+            "Ярмарка",
+            "Река",
+            "Малый аэропорт \\(ВПП\\)",
+            "Большой аэропорт \\(ВПП\\)",
+            "Терминал аэропорта",
+            "Банк",
+            "Склад",
+            "Мост",
+            "Ресторан быстрого питания",
+            "Грузовой порт",
+            "Центр переработки ВО",
+            "Высотка",
+            "Причал круизных лайнеров",
+            "Гавань",
+            "Железнодорожный переезд",
+            "Тоннель",
+            "Холодный склад",
+            "Электростанция",
+            "Фабрика",
+            "Утилизационный склад",
+            "Станция метро",
+            "Малое хранилище химикатов",
+            "Большое хранилище химикатов",
+            "Гостиница",
+            "Бар",
+            "Мусорный полигон",
+            "Паркинг"
         ]
     };
 

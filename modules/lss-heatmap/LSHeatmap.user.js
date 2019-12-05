@@ -397,6 +397,32 @@
             }
         ]
     };
+    I18n.translations.fr_FR.lssm.heatmap = {
+        active: 'Actif',
+        vehicleType: 'Groupes',
+        radius: 'Rayon',
+        intensity: 'Intensité',
+        close: 'Fermer',
+        vehicleGroups: [
+            {
+                name: 'Combinaison propre',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ru_RU.lssm.heatmap = {
+        active: 'Активный',
+        vehicleType: 'Группы',
+        radius: 'Радиус',
+        intensity: 'Интенсивность',
+        close: 'Близко',
+        vehicleGroups: [
+            {
+                name: 'Собственная комбинация',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

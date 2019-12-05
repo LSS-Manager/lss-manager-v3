@@ -127,6 +127,48 @@
     }
   }
 
+  I18n.translations.fr_FR.lssm['n-alarm'] = {
+    not_support: "Ce navigateur ne supporte pas les notifications HTML5.",
+    inithead: "Initalisation",
+    chat_message: "Message instantané de la part de ",
+    blend: "Cachez-vous après :",
+    seconds: "secondes",
+    settings: {
+      title: "Notification-Alerte",
+      chat_title: "Messages de clavardage",
+      chat_text: "Recevoir les messages de chat comme notification.",
+      s5_title: "Demande de transport",
+      save: "Sauvegarder",
+      close: "Fermer",
+      s5_text: "Obtenir les demandes de transport comme notification",
+      status_title: "Statut",
+      status_text: "Obtenir tous les messages d'état comme notification.",
+      chatp_title: "Obtenir des messages de chat sous forme de popup d'information",
+      chatp_text: "Obtenir tous les messages du chat sous forme de message popup sur le côté droit"
+    }
+  }
+
+  I18n.translations.ru_RU.lssm['n-alarm'] = {
+    not_support: "Этот браузер не поддерживает HTML5-уведомления.",
+    inithead: "Инитализация",
+    chat_message: "Сообщение чата от ",
+    blend: "Спрячься после:",
+    seconds: "секунды",
+    settings: {
+      title: "Уведомление-оповещение-оповещение",
+      chat_title: "Сообщения чата",
+      chat_text: "Получать сообщения в чате в качестве уведомления.",
+      s5_title: "Запрос на транспортировку",
+      save: "Сохранить",
+      close: "Близко",
+      s5_text: "Получать запросы на транспортировку в качестве уведомления",
+      status_title: "Статус",
+      status_text: "Получать все сообщения о состоянии в виде уведомлений.",
+      chatp_title: "Получать сообщения чата в виде всплывающего окна информации",
+      chatp_text: "Получить все сообщения чата в виде всплывающего сообщения на правой стороне экрана."
+    }
+  }
+
   I18n.translations.nl.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",

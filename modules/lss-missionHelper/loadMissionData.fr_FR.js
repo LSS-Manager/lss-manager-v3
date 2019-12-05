@@ -6,22 +6,19 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "Fire engines",
-            platform: "Aerial Appliance",
-            heavyRescue: "Rescue Support Vehicle",
-            air: "Breathing Apparatus Support Unit",
-            bchief: "Fire Officer",
-            tanker: "Water Carrier",
-            hazmat: "HazMat",
-            mcv: "Incident Command and Control Unit",
-            police: "Police Car",
+            truck: "Fourgons d’incendie",
+            platform: "chariot à plateforme",
+            heavyRescue: "Véhicule de secours routier",
+            boat: "Boat",
+            air: "Mobile Air",
+            bchief: "l’unité de lieutenant",
+            tanker: "qu’un camion-citerne",
+            hazmat: "risques chimiques",
+            police: "Voitures de police",
+            arff: 'ARFF',
             hems: "HEMS",
-            rtw: "Ambulance",
-            arff: "ARFF",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "SAR Helicopter",
             policeHeli: "Police Helicopter",
+            rtw: "Ambulance"
         };
 
         let credits;
@@ -46,20 +43,20 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Average credits/)) {
+            if (content.match(/Crédits moyens/)) {
                 credits = number;
-            } else if (content.match(/Required|Requirement|Min./)) {
+            } else if (content.match(/requises|requis|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Place/)) {
+            } else if (content.match(/Lieu/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Required/)) {
+            if (content.match(/requis/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probability/)) {
+            } else if (content.match(/soit requis|soit requise/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
@@ -68,21 +65,21 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Max\. Patients/)) {
                 patientsMax = number;
-            } else if (content.match(/Minimum patient number/)) {
+            } else if (content.match(/minimal de patients/)) {
                 patientsMin = number;
-            } else if (content.match(/transported/)) {
+            } else if (content.match(/transport/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Patient Specializations/)) {
+            } else if (content.match(/Spécialisation de patients/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maximum Number of Prisoners/)) {
+            } else if (content.match(/maximal de prisonniers/)) {
                 prisonersMax = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Expandable/)) {
+            } else if (content.match(/Missions à extension/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -182,7 +179,7 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "fj"
+            lang: "fr_FR"
         })
             .done(response => {
                 if (response.startsWith('Error')) {
@@ -200,58 +197,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Park",
-                "Lake",
-                "Hospital",
-                "Forest",
-                "Bus stop",
-                "Tram stop",
-                "Train station \\(regional traffic\\)",
-                "Train station \\(regional traffic and long-distance travel\\)",
-                "Goods station",
-                "Supermarket \\(small\\)",
-                "Supermarket \\(big\\)",
-                "Gas station",
-                "School",
-                "Museum",
-                "Mall",
-                "Car workshop",
-                "Highway exit",
-                "Christmas market",
-                "Storehouse",
-                "Discotheque",
-                "Stadium",
-                "Farm",
-                "Office building",
-                "Swimming bath",
-                "Railroad Crossing",
-                "Theater",
-                "Fairground",
-                "River",
-                "Small Airport \\(Runway\\)",
-                "Large Airport \\(Runway\\)",
-                "Airport Terminal",
-                "Bank",
-                "Warehouse",
-                "Bridge",
-                "Fast Food Restaurant",
-                "Cargo Port",
-                "Recycling Centre",
-                "High rise",
-                "Cruise ship dock",
+                "Parc",
+                "Lac",
+                "Hôpital",
+                "Forêt",
+                "Arrêt de bus",
+                "Arrêt de tram",
+                "Gare ferroviaire \\(trajets régionaux\\)",
+                "Gare ferroviaire \\(trajets régionaux et grandes lignes\\)",
+                "Supérette",
+                "Supermarché \\(petit\\)",
+                "Supermarché \\(grand\\)",
+                "Station-service",
+                "École",
+                "Musée",
+                "Centre commercial",
+                "Garage automobile",
+                "Sortie d’autoroute",
+                "Marché de Noël",
+                "Hangar",
+                "Discothèque",
+                "Stade",
+                "Ferme",
+                "Bureaux",
+                "Piscine",
+                "Passage à niveau",
+                "Théâtre",
+                "Fête foraine",
+                "Rivière",
+                "Petit aéroport \\(piste\\)",
+                "Grand aéroport \\(piste\\)",
+                "Terminal d’aéroport",
+                "Banque",
+                "Entrepôt",
+                "Pont",
+                "Restauration rapide",
+                "Port de fret",
+                "Centre de recyclage",
+                "Tour",
+                "Quai de navire de croisière",
                 "Marina",
-                "Rail Crossing",
+                "Croisement de voie ferrée",
                 "Tunnel",
-                "Cold Storage Warehouse",
-                "Power Plant",
-                "Factory",
-                "Scrap yard",
-                "Subway station",
-                "Small chemical storage tank",
-                "Large chemical storage tank",
-                "Hotel",
+                "Entrepôt frigorifique",
+                "Centrale électrique",
+                "Usine",
+                "Casse",
+                "Station de métro",
+                "Petite citerne de produits chimiques",
+                "Grande citerne de produits chimiques",
+                "Hôtel",
                 "Bar",
-                "Landfill site"
+                "Décharge",
+                "Parking couvert"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -262,10 +260,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "Fire Station",
-                2: "Rescue Station",
-                6: "Police Station",
-                13: "Police Helicopter"
+                0: "Casernes de pompiers",
+                2: "Postes de secours",
+                6: "postes de police"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

@@ -1424,5 +1424,26 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "108": {
+        "name": "Thatched cottage fire",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "bchief": 4,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "mcv": 1
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 2,
+            "transport": 60,
+            "specialisation": "General Internal"
+        }
     }
 }

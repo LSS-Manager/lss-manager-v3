@@ -1,4 +1,15 @@
 {
+    "0": {
+        "name": "Bidone in fiamme",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
     "1": {
         "name": "Container in fiamme",
         "stations": {
@@ -177,6 +188,17 @@
             "0": 15
         }
     },
+    "15": {
+        "name": "Piccolo incendio boschivo",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
     "16": {
         "name": "Roulotte in fiamme",
         "stations": {
@@ -336,6 +358,21 @@
             "tanker": 30
         }
     },
+    "29": {
+        "name": "Fuoriuscita sconosciuta da autocisterna",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
     "30": {
         "name": "Perdita di gas",
         "stations": {
@@ -345,6 +382,88 @@
             "truck": 1
         },
         "credits": 400
+    },
+    "31": {
+        "name": "Camino in fiamme",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Mietitrice in fiamme",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "35": {
+        "name": "Intossicazione da alcol",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Medicina interna generale"
+        }
+    },
+    "36": {
+        "name": "Dolori al petto",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiologia"
+    },
+    "39": {
+        "name": "Febbre",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Medicina interna generale"
+    },
+    "40": {
+        "name": "Persona caduta",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologia"
+    },
+    "42": {
+        "name": "Persona caduta",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologia"
+    },
+    "43": {
+        "name": "Persona caduta",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologia"
     },
     "52": {
         "name": "Passeggero senza biglietto",
@@ -366,6 +485,37 @@
             "truck": 2
         },
         "credits": 1000
+    },
+    "59": {
+        "name": "Soccorso animali",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "62": {
+        "name": "Lamentele per disturbo della quiete",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400
+    },
+    "63": {
+        "name": "Attacco ischemico transitorio",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Neurochirurgia"
     },
     "65": {
         "name": "Cucina in fiamme",
@@ -396,6 +546,14 @@
             "platform": 30
         }
     },
+    "71": {
+        "name": "Epistassi",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Chirurgia generale"
+    },
     "74": {
         "name": "Grande incendio",
         "vehicles": {
@@ -406,5 +564,23 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "82": {
+        "name": "Persona intrappolata sotto un macchinario",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologia"
+        }
     }
 }

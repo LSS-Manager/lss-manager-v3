@@ -80,6 +80,32 @@
         fms5H1: 'trasportista'
     };
 
+    I18n.translations.fr_FR.lssm.statusDispatching = {
+        name: 'Demandes de transport améliorées',
+        fms: 'Transport demandé',
+        nextVehicle: 'Aller au véhicule suivant avec une demande de transport',
+        backToAlarm: 'Retour à la mission',
+        settingsTitle: 'Demandes de transport améliorées - Paramètres',
+        settingsAttr: 'Cliquez sur le bouton "Transport Demandé" dans le masque de mission automatiquement',
+        settingsAttrDesc: 'L\'activation de cette option permet de cliquer automatiquement sur le bouton "transport demandé" dans le masque de mission.De cette façon, vous devez passer en revue toutes les demandes de transport avant de pouvoir voir les détails de la mission.L\'activation de cette option permet un traitement plus rapide des demandes de transport.<br>'
+            + 'Désactiver cette option permet de voir les détails de la mission avant de traiter les demandes de transport. Les boutons "Aller au véhicule suivant avec une demande de transport" et "Retour à la mission" ne sont pas affectés par ce réglage et sont toujours cliqués automatiquement.',
+        close: 'Fermer',
+        fms5H1: 'transportiert'
+    };
+
+    I18n.translations.ru_RU.lssm.statusDispatching = {
+        name: 'Расширенные запросы на транспортировку',
+        fms: 'Запрошенный транспорт',
+        nextVehicle: 'Перейти к следующему транспортному средству с запросом на перевозку.',
+        backToAlarm: 'Назад к миссии',
+        settingsTitle: 'Расширенные запросы на транспортировку - Настройки',
+        settingsAttr: 'Автоматически нажать кнопку "Переместить запрошенный запрос" в маске миссии',
+        settingsAttrDesc: 'Включение этой опции обеспечивает автоматическое нажатие на кнопку "запрошенный транспорт" в маске миссии. Таким образом, вы должны пройти через все транспортные запросы, прежде чем вы сможете просмотреть детали миссии. Включение данной опции позволяет ускорить обработку транспортных запросов.<br>'
+            + 'Отключение этой опции позволяет просматривать детали миссии перед обработкой транспортных запросов. Кнопки "Перейти к следующему автомобилю с транспортным запросом" и "Назад к заданию" не затрагиваются этой настройкой и всегда автоматически нажимаются.',
+        close: 'Близко',
+        fms5H1: 'транспортник'
+    };
+
     I18n.translations.nl.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',
