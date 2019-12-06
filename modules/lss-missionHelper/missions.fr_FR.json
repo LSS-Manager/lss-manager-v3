@@ -20,6 +20,74 @@
         },
         "credits": 170
     },
+	"2": {
+        "name": "Voiture en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "3": {
+        "name": "Moto en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+	"4": {
+        "name": "Gazon en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Pi\u00e8ce en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "undefined": 1,
+            "platform": 30
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "6": {
+        "name": "Cabanon en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
     "7": {
         "name": "Feuilles en feu",
         "stations": {
@@ -48,6 +116,20 @@
             "2": 6
         }
     },
+    "9": {
+        "name": "Meule de foin en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
     "10": {
         "name": "Tracteur en feu",
         "stations": {
@@ -57,6 +139,16 @@
             "truck": 1
         },
         "credits": 600
+    },
+    "11": {
+        "name": "Cabine t\u00e9l\u00e9phonique en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
     },
     "12": {
         "name": "Chute d\u2019arbre sur la route",
@@ -70,6 +162,49 @@
         "expansions": {
             "0": 25
         }
+    },
+    "13": {
+        "name": "Camion en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "Petit feu de champ",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+	"16": {
+        "name": "Caravane en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Bo\u00eete aux lettres en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
     },
     "18": {
         "name": "Tas de broussailles",
@@ -90,6 +225,89 @@
             "truck": 1
         },
         "credits": 650
+    },
+	"20": {
+        "name": "Sous-sol en feu",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interna"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "21": {
+        "name": "Chemin\u00e9e en feu",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
+    "24": {
+        "name": "Abribus en feu",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "27": {
+        "name": "Feu de garage",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Machine en feu",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
+        }
+    },
+    "30": {
+        "name": "Fuite de gaz",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
     },
     "30": {
         "name": "Fuite de gaz",
@@ -127,5 +345,54 @@
         "percentages": {
             "tanker": 40
         }
+    },
+    "59": {
+        "name": "Animal en d\u00e9tresse",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400,
+        "poi": 21
+    },
+    "65": {
+        "name": "Cuisine en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "78": {
+        "name": "Accident de la circulation - glace",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatology"
+        },
+        "percentages": {
+            "heavyRescue": 100
+        }
+    },
+    "80": {
+        "name": "La couronne de l'avent en feu",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
     }
 }
