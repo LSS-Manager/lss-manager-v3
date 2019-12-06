@@ -9061,5 +9061,111 @@
             "redvoertuig": 30,
             "hulpverlening": 70
         }
+    },
+    "517": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 3,
+            "11": 1,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 3100,
+        "patients": {
+            "max": 18,
+            "min": 10,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 40,
+            "hulpverlening": 80
+        }
+    },
+    "518": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 4,
+            "11": 1,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 4,
+            "wateraanhanger": 2,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 3300,
+        "patients": {
+            "max": 18,
+            "min": 12,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 50
+        }
+    },
+    "519": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 4,
+            "9": 1,
+            "11": 1,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 4,
+            "wateraanhanger": 3,
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "polHeli": 1
+        },
+        "credits": 4750,
+        "patients": {
+            "max": 18,
+            "min": 12,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "adembescherming": 20
+        }
     }
 }

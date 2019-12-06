@@ -1182,22 +1182,13 @@
         "poi": 17
     },
     "89": {
-        "name": "Traffic accident - ice",
+        "name": "Drunken person at christmas market",
         "stations": {
-            "0": 4
+            "2": 1
         },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
-        },
-        "credits": 1410,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatology"
-        },
-        "percentages": {
-            "heavyRescue": 100
-        }
+        "onlyRd": true,
+        "specialisation": "General Internal",
+        "poi": 17
     },
     "90": {
         "name": "Burning christmas tree",
@@ -1265,6 +1256,20 @@
             "min": 1,
             "transport": 100,
             "specialisation": "Traumatology"
+        }
+    },
+    "95": {
+        "name": "Damaged Roof",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
         }
     }
 }

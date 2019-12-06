@@ -59,7 +59,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Required/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probability/)) {
+            } else if (content.match(/Probability of/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

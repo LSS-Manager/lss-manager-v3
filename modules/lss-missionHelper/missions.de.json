@@ -8898,5 +8898,23 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "496": {
+        "name": "Pferd in Jauchegrube",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "lf": 1,
+            "rw": 1,
+            "dlk": 1,
+            "fwk": 1
+        },
+        "credits": 1000,
+        "poi": 21,
+        "percentages": {
+            "dlk": 70,
+            "fwk": 5
+        }
     }
 }
