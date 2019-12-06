@@ -10,6 +10,16 @@
         "credits": 110,
         "poi": 4
     },
+    "1": {
+        "name": "Conteneur en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
     "7": {
         "name": "Feuilles en feu",
         "stations": {
@@ -38,6 +48,29 @@
             "2": 6
         }
     },
+    "10": {
+        "name": "Tracteur en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "12": {
+        "name": "Chute d\u2019arbre sur la route",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
     "18": {
         "name": "Tas de broussailles",
         "stations": {
@@ -47,6 +80,26 @@
             "truck": 1
         },
         "credits": 700
+    },
+    "19": {
+        "name": "Remorque en feu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "30": {
+        "name": "Fuite de gaz",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
     },
     "41": {
         "name": "Atelier automobile en feu",

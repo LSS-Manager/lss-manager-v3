@@ -565,6 +565,16 @@
         },
         "credits": 10210
     },
+    "80": {
+        "name": "Corona dell'avvento in fiamme",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
+    },
     "82": {
         "name": "Persona intrappolata sotto un macchinario",
         "stations": {
@@ -581,6 +591,20 @@
             "min": 1,
             "transport": 100,
             "specialisation": "Traumatologia"
+        }
+    },
+    "83": {
+        "name": "Tetto danneggiato",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
         }
     }
 }

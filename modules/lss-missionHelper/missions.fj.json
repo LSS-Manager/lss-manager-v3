@@ -1425,6 +1425,21 @@
             "max": 1
         }
     },
+    "107": {
+        "name": "Row of garages on fire",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 3000,
+        "percentages": {
+            "tanker": 20
+        }
+    },
     "108": {
         "name": "Thatched cottage fire",
         "stations": {

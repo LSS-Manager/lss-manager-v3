@@ -517,7 +517,8 @@
         492: 'Massenanfall an Erkrankten',
         493: 'Massenanfall an Erkrankten',
         494: 'Beschädigte Radarfalle',
-        495: 'Massenpanik in Diskothek'
+        495: 'Massenpanik in Diskothek',
+        496: 'Pferd in Jauchegrube'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -860,7 +861,8 @@
         321: 'Car vs tree',
         322: 'Car vs tree (entrapment)',
         323: 'Protestors on runway',
-        324: 'Protestors on runway'
+        324: 'Protestors on runway',
+        325: 'Sick person'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -985,7 +987,9 @@
         103: 'Burning manufacturing machine',
         104: 'Burning manufacturing machine',
         105: 'Concern for welfare',
-        106: 'Hit and Run'
+        106: 'Hit and Run',
+        107: 'Row of garages on fire',
+        108: 'Thatched cottage fire'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1093,12 +1097,13 @@
         86: 'Theft at christmas market',
         87: 'Burning christmas market stall',
         88: 'Fire at christmas market',
-        89: 'Traffic accident - ice',
+        89: 'Drunken person at christmas market',
         90: 'Burning christmas tree',
         91: 'Burning advent wreath',
         92: 'Brawl at christmas market',
         93: 'Aggressive Passenger',
-        94: 'Person trapped under machine'
+        94: 'Person trapped under machine',
+        95: 'Damaged Roof'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1211,7 +1216,8 @@
         91: 'Corona de Adviento en llamas',
         92: 'Pelea en mercado navideño',
         93: 'Pasajero agresivo',
-        94: 'Persona atrapada bajo maquinaria'
+        94: 'Persona atrapada bajo maquinaria',
+        95: 'Techo dañado'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1306,14 +1312,15 @@
         73: 'Allvarlig bussolycka',
         74: 'Stor brand',
         75: 'Aggresiv passagerare',
-        76: '',
-        77: '',
-        78: '',
-        79: '',
-        80: '',
-        81: '',
-        82: '',
-        83: 'Person fast under maskineri'
+        76: 'Stöld på julmarknad',
+        77: 'Brinnande julstånd',
+        78: 'Brand på julmarknad',
+        79: 'Trafikolycka - is',
+        80: 'Brinnande julgran',
+        81: 'Brinnande julkrans',
+        82: 'Bråk på julmarknad',
+        83: 'Person fast under maskineri',
+        84: 'Skadat Tak'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1408,14 +1415,15 @@
         73: 'Poważny wypadek z udziałem autobusu',
         74: 'Duży pożar',
         75: 'Agresywny pasażer',
-        76: '',
-        77: '',
-        78: '',
-        79: '',
-        80: '',
-        81: '',
-        82: '',
-        83: 'Osoba uwięziona pod maszyną'
+        76: 'Kradzież na jarmarku bożonarodzeniowym',
+        77: 'Płonący stragan bożonarodzeniowy',
+        78: 'Pożar na jarmarku bożonarodzeniowym',
+        79: 'Wypadek drogowy - lód',
+        80: 'Płonąca choinka',
+        81: 'Płonący wieniec adwentowy',
+        82: 'Bójka na jarmarku bożonarodzeniowym',
+        83: 'Osoba uwięziona pod maszyną',
+        84: 'Uszkodzony dach'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1508,7 +1516,16 @@
         71: 'Epistassi',
         72: 'Leggero incidente aereo',
         73: 'Grave incidente con autobus coinvolto',
-        74: 'Grande incendio'
+        74: 'Grande incendio',
+        75: 'Furto al mercatino di Natale',
+        76: 'Bancarella del mercatino di Natale in fiamme',
+        77: 'Fuoco al mercatino di Natale',
+        78: 'Incidente stradale - ghiaccio',
+        79: 'Albero di Natale in fiamme',
+        80: 'Corona dell\'avvento in fiamme',
+        81: 'Rissa al mercatino di Natale',
+        82: 'Persona intrappolata sotto un macchinario',
+        83: 'Tetto danneggiato'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -1601,7 +1618,14 @@
         71: 'Saignement de nez',
         72: 'Accident d’aviation légère',
         73: 'Accident de bus grave',
-        74: 'Incendie majeur'
+        74: 'Incendie majeur',
+        75: 'Vol au marché de Noël',
+        76: 'Stand en feu sur le marché de noël',
+        77: 'Feu sur le marché de noël',
+        78: 'Accident de la circulation - glace',
+        79: 'l\'Arbre de noël en feu',
+        80: 'La couronne de l\'avent en feu',
+        81: 'Bagarre au marché de Noël'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -1694,7 +1718,14 @@
         71: 'Кровотечение из носа',
         72: 'Крушение легкомоторного самолёта',
         73: 'Крупное ДТП с автобусом',
-        74: 'Крупный пожар'
+        74: 'Крупный пожар',
+        75: 'Кража на рождественском рынке',
+        76: 'Горит палатка на рождественском рынке',
+        77: 'Пожар на рождественском рынке',
+        78: 'Дорожное происшествие - лед',
+        79: 'Горит рождественская елка',
+        80: 'Горит рождественский венок',
+        81: 'Драка на рождественском рынке'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2229,7 +2260,10 @@
         513: 'Brand in garagebox',
         514: 'Aanvaring met vrachtschip en passagiersschip',
         515: 'Aanvaring met vrachtschip en passagiersschip',
-        516: 'Aanvaring met vrachtschip en passagiersschip'
+        516: 'Aanvaring met vrachtschip en passagiersschip',
+        517: 'Aanvaring met vrachtschip en passagiersschip',
+        518: 'Aanvaring met vrachtschip en passagiersschip',
+        519: 'Aanvaring met vrachtschip en passagiersschip'
       }
     };
 
@@ -2748,7 +2782,8 @@
       492: 'RD 7',
       493: 'RD 7',
       494: 'POL 1',
-      495: 'POL 6'
+      495: 'POL 6',
+      496: 'THL 2'
     };
     let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -3075,7 +3110,8 @@
       321: 'TECH 1',
       322: 'TECH 1',
       323: 'POL 3',
-      324: 'POL 5'
+      324: 'POL 5',
+      325: 'MED 1'
     };
     let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3184,7 +3220,10 @@
       103: 'FIRE 3',
       104: 'FIRE 3',
       105: 'POL 1',
-      105: 'POL 3'
+      105: 'POL 2',
+      106: 'POL 3',
+      107: 'FIRE 4',
+      108: 'FIRE 6'
     };
     let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -3276,12 +3315,13 @@
       86: 'POL 1',
       87: 'FIRE 1',
       88: 'FIRE 1',
-      89: 'TECH 1',
+      89: 'MED 1',
       90: 'FIRE 1',
       91: 'FIRE 1',
       92: 'POL 2',
       93: 'POL 1',
-      94: 'TECH 2'
+      94: 'TECH 2',
+      95: 'TECH 1'
     };
     let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -3378,7 +3418,8 @@
       91: 'FIRE 1',
       92: 'POL 2',
       93: 'POL 1',
-      94: 'TECH 2'
+      94: 'TECH 2',
+      95: 'TECH 1'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -3457,14 +3498,14 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'POL 1',
-      76: '',
-      77: '',
-      78: '',
-      79: '',
-      80: '',
-      81: '',
-      82: '',
-      83: 'TECH 2'
+      76: 'FIRE 1',
+      77: 'FIRE 2',
+      78: 'TECH 1',
+      79: 'FIRE 1',
+      80: 'FIRE 1',
+      81: 'POL 3',
+      82: 'TECH 2',
+      83: 'TECH 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -3543,14 +3584,14 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'POL 1',
-      76: '',
-      77: '',
-      78: '',
-      79: '',
-      80: '',
-      81: '',
-      82: '',
-      83: 'TECH 2'
+      76: 'FIRE 1',
+      77: 'FIRE 2',
+      78: 'TECH 1',
+      79: 'FIRE 1',
+      80: 'FIRE 1',
+      81: 'POL 3',
+      82: 'TECH 2',
+      83: 'TECH 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -3628,7 +3669,15 @@
       72: 'FIRE 3',
       73: 'TECH 3',
       74: 'FIRE 7',
-      75: 'POL 1'
+      75: 'POL 1',
+      76: 'FIRE 1',
+      77: 'FIRE 2',
+      78: 'TECH 1',
+      79: 'FIRE 1',
+      80: 'FIRE 1',
+      81: 'POL 3',
+      82: 'TECH 2',
+      83: 'TECH 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -3705,7 +3754,14 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'POL 1',
+      76: 'FIRE 1',
+      77: 'FIRE 2',
+      78: 'TECH 1',
+      79: 'FIRE 1',
+      80: 'FIRE 1',
+      81: 'POL 3'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -3782,7 +3838,14 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'POL 1',
+      76: 'FIRE 1',
+      77: 'FIRE 2',
+      78: 'TECH 1',
+      79: 'FIRE 1',
+      80: 'FIRE 1',
+      81: 'POL 3'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -4301,7 +4364,10 @@
       513: 'KLEINE BRAND',
       514: 'HV 1 WATER',
       515: 'HV 2 WATER',
-      516: 'HV 3 WATER'
+      516: 'HV 3 WATER',
+      517: 'HV 3 WATER',
+      518: 'HV 3 WATER',
+      519: 'HV 4 WATER'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
