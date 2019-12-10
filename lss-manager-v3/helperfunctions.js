@@ -184,7 +184,10 @@ else if (I18n.locale == "pl_PL")
         "6": ["Cysterna gaśnicza", 0],
         "7": ["Samochód ratownictwa chemicznego", 0],
         "8": ["Radiowóz", 6],
-        "9": ["Śmigłowiec LPR", 2]
+        "9": ["Śmigłowiec LPR", 2],
+        "10": ["SPGaz", 0],
+        "11": ["Samochód Dowodzenia i Łączności", 0],
+        "12": ["GBARt", 0],
     };
 }
 else if (I18n.locale == "it_IT") {
@@ -208,7 +211,8 @@ else if (I18n.locale == "it_IT") {
         "5": ["KILO", 0],
         "6": ["AF/NBCR", 0],
         "7": ["Volante", 6],
-        "8": ["Elisoccorso", 2]
+        "8": ["Elisoccorso", 2],
+        "9": ["APS", 0]
     };
 }
 else if (I18n.locale == "fr_FR") {

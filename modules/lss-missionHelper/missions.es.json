@@ -1267,5 +1267,19 @@
             "transport": 100,
             "specialisation": "Traumatolog\u00eda"
         }
+    },
+    "95": {
+        "name": "Techo da\u00f1ado",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
+        }
     }
 }

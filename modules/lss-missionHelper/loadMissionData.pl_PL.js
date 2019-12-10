@@ -8,7 +8,7 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "samochody pożarnicze",
             platform: "SP wysokościow",
-            heavyRescue: "ciężkie samochody ratowniczo-gaśnicze",
+            heavyRescue: "ratownictwa technicznego",
             air: "Mobile Air",
             bchief: "szefa brygady",
             tanker: "z wodą",
@@ -16,7 +16,7 @@ $.get(missionlink)
             mcv: "samochody dowodzenia i łączności",
             police: "radiowozy",
             hems: "HEMS",
-            rtw: "Ambulance",
+            rtw: "ambulanse",
             arff: "SP LSP",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
