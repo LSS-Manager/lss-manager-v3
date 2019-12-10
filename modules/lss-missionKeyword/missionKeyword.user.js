@@ -1423,7 +1423,10 @@
         81: 'Płonący wieniec adwentowy',
         82: 'Bójka na jarmarku bożonarodzeniowym',
         83: 'Osoba uwięziona pod maszyną',
-        84: 'Uszkodzony dach'
+        84: 'Uszkodzony dach',
+        85: 'Dachowanie samochodu',
+        86: 'Pożar samochodu ciężarowego z naczepą',
+        87: 'Wypadek traktoru'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1525,7 +1528,9 @@
         80: 'Corona dell\'avvento in fiamme',
         81: 'Rissa al mercatino di Natale',
         82: 'Persona intrappolata sotto un macchinario',
-        83: 'Tetto danneggiato'
+        83: 'Tetto danneggiato',
+        84: 'Collisione multipla',
+        85: 'Tubo acquedotto rotto'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -3591,7 +3596,11 @@
       80: 'FIRE 1',
       81: 'POL 3',
       82: 'TECH 2',
-      83: 'TECH 1'
+      83: 'TECH 1',
+      84: 'TECH 1',
+      85: 'TECH 3',
+      86: 'FIRE 1',
+      87: 'TECH 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -3677,7 +3686,9 @@
       80: 'FIRE 1',
       81: 'POL 3',
       82: 'TECH 2',
-      83: 'TECH 1'
+      83: 'TECH 1',
+      84: 'TECH 2',
+      85: 'TECH 2'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',

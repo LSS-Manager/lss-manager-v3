@@ -962,7 +962,7 @@ const lssm_missionhelper_adjustPosition = () => {
             mcv: "samochody dowodzenia i łączności",
             police: "radiowozy",
             hems: "HEMS",
-            rtw: "Ambulance",
+            rtw: "Ambulans P",
             arff: "SP LSP",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

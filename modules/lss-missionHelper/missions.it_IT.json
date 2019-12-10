@@ -332,6 +332,24 @@
             "2": 29
         }
     },
+    "26": {
+        "name": "Incendio in piccolo supermercato",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 9
+    },
     "27": {
         "name": "Garage in fiamme",
         "stations": {
@@ -404,6 +422,45 @@
             "truck": 2
         },
         "credits": 1200
+    },
+    "33": {
+        "name": "Incendio in piccolo supermercato",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 9
+    },
+    "34": {
+        "name": "Incendio in ospedale",
+        "stations": {
+            "0": 10,
+            "2": 6
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 2,
+            "tanker": 1,
+            "platform": 3
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 25,
+            "transport": 50,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 2
     },
     "35": {
         "name": "Intossicazione da alcol",
@@ -483,6 +540,20 @@
         "transport": 30,
         "specialisation": "Traumatologia"
     },
+    "45": {
+        "name": "Taccheggio",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
 	"47": {
         "name": "Incidente contro auto parcheggiata",
         "stations": {
@@ -494,6 +565,20 @@
         "credits": 120,
         "poi": 10
     },
+    "48": {
+        "name": "Furto di metalli",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 8,
+        "prisoners": {
+            "max": 1
+        }
+    },
     "52": {
         "name": "Passeggero senza biglietto",
         "stations": {
@@ -504,6 +589,22 @@
         },
         "credits": 120,
         "poi": 6
+    },
+    "56": {
+        "name": "Manifestante violento",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 55
+        }
     },
     "58": {
         "name": "Cucina in fiamme",
@@ -594,6 +695,36 @@
         },
         "credits": 10210
     },
+    "76": {
+        "name": "Bancarella del mercatino di Natale in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 17
+    },
+    "77": {
+        "name": "Fuoco al mercatino di Natale",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 17
+    },
     "78": {
         "name": "Incidente stradale - ghiaccio",
         "stations": {
@@ -609,7 +740,7 @@
             "specialisation": "Traumatologia"
         },
         "percentages": {
-            "undefined": 100
+            "heavyRescue": 100
         }
     },
     "79": {
@@ -662,6 +793,37 @@
         "credits": 450,
         "percentages": {
             "platform": 50
+        }
+    },
+    "84": {
+        "name": "Collisione multipla",
+        "stations": {
+            "0": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 1,
+            "heavyRescue": 1
+        },
+        "credits": 700,
+        "percentages": {
+            "heavyRescue": 30
+        }
+    },
+    "85": {
+        "name": "Tubo acquedotto rotto",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 5,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 1400,
+        "percentages": {
+            "bchief": 40
         }
     }
 }

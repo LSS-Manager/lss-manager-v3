@@ -8,7 +8,7 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "Autopompe",
             platform: "(c|C)amion con piattaforma",
-            heavyRescue: "Veicoli di soccorso pesante",
+            heavyRescue: "di soccorso pesante",
             air: "Mobile Air",
             bchief: "capo-pattuglia",
             tanker: "(a|A)utobotti",
@@ -59,7 +59,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/necessarie|necessari/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/richiesta/)) {
+            } else if (content.match(/richiesta|Possibile richiesta/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

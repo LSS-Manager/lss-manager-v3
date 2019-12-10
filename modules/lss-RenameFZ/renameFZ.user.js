@@ -378,7 +378,10 @@
                 6: 'Cysterna gaśnicza',
                 7: 'Samochód ratownictwa chemicznego',
                 8: 'Radiowóz',
-                9: 'Śmigłowiec LPR'
+                9: 'Śmigłowiec LPR',
+                10: 'SPGaz',
+                11: 'Samochód Dowodzenia i Łączności',
+                12: 'GBARt'
             }
         }
     };
@@ -501,7 +504,8 @@
                 5: 'KILO',
                 6: 'AF/NBCR',
                 7: 'Volante',
-                8: 'Elisoccorso'
+                8: 'Elisoccorso',
+                9: 'APS'
             }
         }
     };

@@ -68,14 +68,16 @@
         },
         "vehicles": {
             "truck": 2,
-            "undefined": 1,
-            "platform": 30
+            "platform": 1
         },
         "credits": 1400,
         "patients": {
             "max": 1,
             "transport": 50,
             "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "platform": 30
         }
     },
     "6": {
@@ -186,6 +188,17 @@
             "0": 15
         }
     },
+    "15": {
+        "name": "Petit feu de for\u00eat",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
 	"16": {
         "name": "Caravane en feu",
         "stations": {
@@ -262,6 +275,32 @@
             "platform": 100
         }
     },
+    "22": {
+        "name": "Toit en feu",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
+    "23": {
+        "name": "Feu de cuisson",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
     "24": {
         "name": "Abribus en feu",
         "stations": {
@@ -272,6 +311,26 @@
         },
         "credits": 900,
         "poi": 4
+    },
+    "25": {
+        "name": "Accident de la route",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
     },
     "27": {
         "name": "Feu de garage",
@@ -309,15 +368,27 @@
         },
         "credits": 400
     },
-    "30": {
-        "name": "Fuite de gaz",
+    "31": {
+        "name": "Feu de chemin\u00e9e",
         "stations": {
-            "0": 1
+            "0": 6
         },
         "vehicles": {
+            "bchief": 1,
+            "platform": 1,
             "truck": 1
         },
-        "credits": 400
+        "credits": 1310
+    },
+    "32": {
+        "name": "Moissonneuse en feu",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
     },
     "41": {
         "name": "Atelier automobile en feu",
@@ -346,6 +417,16 @@
             "tanker": 40
         }
     },
+    "58": {
+        "name": "Cuisine en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
     "59": {
         "name": "Animal en d\u00e9tresse",
         "stations": {
@@ -367,6 +448,66 @@
         },
         "credits": 1000
     },
+    "66": {
+        "name": "Pi\u00e8ce en feu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "74": {
+        "name": "Incendie majeur",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    },
+    "76": {
+        "name": "Stand en feu sur le march\u00e9 de no\u00ebl",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 17
+    },
+    "77": {
+        "name": "Feu sur le march\u00e9 de no\u00ebl",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 17
+    },
     "78": {
         "name": "Accident de la circulation - glace",
         "stations": {
@@ -384,6 +525,16 @@
         "percentages": {
             "heavyRescue": 100
         }
+    },
+    "79": {
+        "name": "l'Arbre de no\u00ebl en feu",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 870
     },
     "80": {
         "name": "La couronne de l'avent en feu",

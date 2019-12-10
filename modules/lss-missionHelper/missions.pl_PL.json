@@ -1152,5 +1152,56 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "85": {
+        "name": "Dachowanie samochodu",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 1,
+            "rtw": 3
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 20,
+            "specialisation": "Interna"
+        }
+    },
+    "86": {
+        "name": "Po\u017car samochodu ci\u0119\u017carowego z naczep\u0105",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 3
+        },
+        "credits": 900
+    },
+    "87": {
+        "name": "Wypadek traktoru",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "rtw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 0,
+            "specialisation": "Chirurg og\u00f3lny"
+        },
+        "poi": 21
     }
 }
