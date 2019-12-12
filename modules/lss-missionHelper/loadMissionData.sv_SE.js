@@ -16,7 +16,7 @@ $.get(missionlink)
             mcv: "utryckningsfordon",
             police: "polisbilar",
             hems: "HEMS",
-            rtw: "Ambulans",
+            rtw: "ambulanser",
             arff: "flygbrandfordon",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

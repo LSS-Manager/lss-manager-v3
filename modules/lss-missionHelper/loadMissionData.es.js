@@ -18,7 +18,7 @@ $.get(missionlink)
             hems: "Helicóptero HSR",
             arff: "CBA",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulancia"
+            rtw: "Ambulancias"
         };
 
         let credits;
@@ -54,7 +54,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Se necesitan|necesarios/)) {
+            if (content.match(/Se necesitan|necesarios|necesarias/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Probabilidad/)) {
                 percentages[getVehicle(content)] = number;

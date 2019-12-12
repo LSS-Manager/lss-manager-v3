@@ -7,7 +7,7 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "Fourgons d’incendie",
-            platform: "chariot à plateforme",
+            platform: "plateforme",
             heavyRescue: "Véhicule de secours routier",
             boat: "Boat",
             air: "Mobile Air",
@@ -56,7 +56,9 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/requis|requises/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/soit requis|soit requise|Chances qu’un/)) {
+            } else if (content.match(/Moyenne minimale Pompiers/)) {
+                special["averageMinimumEmployeesFire"] = number;
+            } else if (content.match(/Chances qu’un|Chances que/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

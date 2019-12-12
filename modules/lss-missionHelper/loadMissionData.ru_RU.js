@@ -19,7 +19,7 @@ $.get(missionlink)
             mcv: "мобильные командные пункты",
             hems: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            rtw: "скорые"
         };
 
         let credits;
