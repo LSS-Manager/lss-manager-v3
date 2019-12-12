@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -11,7 +11,7 @@ $.get(missionlink)
             heavyRescue: "Véhicule de secours routier",
             boat: "Boat",
             air: "Mobile Air",
-            bchief: "l’unité de lieutenant",
+            bchief: "de lieutenant",
             tanker: "qu’un camion-citerne",
             hazmat: "risques chimiques",
             police: "Voitures de police",
@@ -54,7 +54,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/requis/)) {
+            if (content.match(/requis|requises/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/soit requis|soit requise|Chances qu’un/)) {
                 percentages[getVehicle(content)] = number;

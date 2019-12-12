@@ -358,6 +358,21 @@
             "tanker": 30
         }
     },
+	"29": {
+        "name": "D\u00e9versement de citerne inconnue",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
     "30": {
         "name": "Fuite de gaz",
         "stations": {
