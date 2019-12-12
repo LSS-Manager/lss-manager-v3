@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -12,7 +12,7 @@ $.get(missionlink)
             air: "Mobile Air",
             bchief: "capo-pattuglia",
             tanker: "(a|A)utobotti",
-            hazmat: "Mezzi N.B.C.R.",
+            hazmat: "N.B.C.R.",
             mcv: "Mobile Command Vehicle",
             police: "Volanti della polizia",
             hems: "HEMS",

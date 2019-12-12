@@ -1281,5 +1281,56 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "96": {
+        "name": "Apilamiento de coches",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 1,
+            "rtw": 3
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 20,
+            "specialisation": "Medicina interna general"
+        }
+    },
+    "97": {
+        "name": "Cami\u00f3n con semirremolque en llamas",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 3
+        },
+        "credits": 900
+    },
+    "98": {
+        "name": "Accidente de tractor",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "rtw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 0,
+            "specialisation": "Cirug\u00eda general"
+        },
+        "poi": 21
     }
 }

@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -16,7 +16,7 @@ $.get(missionlink)
             mcv: "utryckningsfordon",
             police: "polisbilar",
             hems: "HEMS",
-            rtw: "Ambulans",
+            rtw: "ambulanser",
             arff: "flygbrandfordon",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

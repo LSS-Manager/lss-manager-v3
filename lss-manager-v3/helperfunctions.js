@@ -108,7 +108,10 @@ else if (I18n.locale == "eu")
         "6": ["Water Tanker", 0],
         "7": ["HAZMAT Truck", 0],
         "8": ["Police Car", 6],
-        "9": ["Helitak", 2]
+        "9": ["Helitak", 2],
+        "10": ["Mobile Air", 0],
+        "11": ["MCV", 0],
+        "12": ["Rescue Engine", 0]
     };
 }
 else if (I18n.locale == "es")
@@ -132,7 +135,10 @@ else if (I18n.locale == "es")
         "6": ["Camión BNP", 0],
         "7": ["Camión TPP", 0],
         "8": ["Coche patrulla", 6],
-        "9": ["Helicóptero HSR", 2]
+        "9": ["Helicóptero HSR", 2],
+        "10": ["Vehículo aéreo", 0],
+        "11": ["Vehículo de mando móvil", 0],
+        "12": ["Vehículo de rescate", 0]
     };
 }
 else if (I18n.locale == "sv_SE")
@@ -158,7 +164,10 @@ else if (I18n.locale == "sv_SE")
         "6": ["BAS 4 - Tankbil", 0],
         "7": ["Industribrandbil", 0],
         "8": ["Radiobil", 6],
-        "9": ["Räddningshelikopter", 2]
+        "9": ["Räddningshelikopter", 2],
+        "10": ["Luftfordon", 0],
+        "11": ["Mobilt ledningsfordon", 0],
+        "12": ["Räddningsfordon", 0]
     };
 }
 else if (I18n.locale == "pl_PL")
@@ -237,7 +246,10 @@ else if (I18n.locale == "fr_FR") {
         "6": ["CCGC", 0],
         "7": ["VIRT", 0],
         "8": ["Véhicule de patrouille", 6],
-        "9": ["HeliSMUR", 2]
+        "9": ["HeliSMUR", 2],
+        "10": ["Mobile air", 0],
+        "11": ["Véhicule mobile de comm.", 0],
+        "12": ["Véhicule de secours", 0]
     };
 }
 else if (I18n.locale == "ru_RU") {
@@ -262,7 +274,10 @@ else if (I18n.locale == "ru_RU") {
         "6": ["АЦ-9,4-60", 0],
         "7": ["АПТ-5,0-70", 0],
         "8": ["Полицейская машина", 6],
-        "9": ["Вертолёт службы спасения", 2]
+        "9": ["Вертолёт службы спасения", 2],
+        "10": ["Mobile air", 0],
+        "11": ["ПКП", 0],
+        "12": ["ПСА", 0]
     };
 }
 else if (I18n.locale == "nl")

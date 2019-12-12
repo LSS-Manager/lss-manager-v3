@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -7,12 +7,12 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "Fourgons d’incendie",
-            platform: "chariot à plateforme",
+            platform: "plateforme",
             heavyRescue: "Véhicule de secours routier",
             boat: "Boat",
             air: "Mobile Air",
-            bchief: "l’unité de lieutenant",
-            tanker: "qu’un camion-citerne",
+            bchief: "de lieutenant",
+            tanker: "(c|C)amion-citerne [^s]",
             hazmat: "risques chimiques",
             police: "Voitures de police",
             arff: 'ARFF',
@@ -54,9 +54,11 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/requis/)) {
+            if (content.match(/requis|requises/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/soit requis|soit requise|Chances qu’un/)) {
+            } else if (content.match(/Moyenne minimale Pompiers/)) {
+                special["averageMinimumEmployeesFire"] = number;
+            } else if (content.match(/Chances qu’un|Chances que/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

@@ -1058,5 +1058,56 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "85": {
+        "name": "Seriekrock",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 1,
+            "rtw": 3
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 20,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        }
+    },
+    "86": {
+        "name": "Brinnande lastbil",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 3
+        },
+        "credits": 900
+    },
+    "87": {
+        "name": "Traktorolycka",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "rtw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 0,
+            "specialisation": "Allm\u00e4nkirurg"
+        },
+        "poi": 21
     }
 }

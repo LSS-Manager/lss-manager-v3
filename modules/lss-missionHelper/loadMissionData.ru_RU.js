@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -13,13 +13,13 @@ $.get(missionlink)
             air: "Mobile Air",
             bchief: "командира батальона",
             tanker: "цистерны с водой",
-            hazmat: "автомобили обезвреживания",
+            hazmat: "обезвреживания",
             police: "полицейские автомобили",
             arff: 'АПСР',
             mcv: "мобильные командные пункты",
             hems: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            rtw: "скорые"
         };
 
         let credits;
@@ -44,7 +44,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Кредиты (ср.)/)) {
+            if (content.match(/Кредиты/)) {
                 credits = number;
             } else if (content.match(/Требуемые|Требуемое/)) {
                 stations[getStation(content)] = number;

@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href')||window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -10,10 +10,11 @@ $.get(missionlink)
             platform: "Turntable Ladder",
             heavyRescue: "Major Rescue Vehicles",
             boat: "Boat",
-            air: "Mobile Air",
+            air: "Mobile air",
             bchief: "Rapid Response Vehicle",
             tanker: "Water Carrier",
             hazmat: "HazMat",
+            mcv: "MCV",
             police: "Police Car",
             arff: 'ARFF',
             hems: "HEMS",

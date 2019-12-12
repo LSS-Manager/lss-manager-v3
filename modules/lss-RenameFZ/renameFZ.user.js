@@ -316,7 +316,10 @@
                 6: 'Water Tanker',
                 7: 'HAZMAT Truck',
                 8: 'Police Car',
-                9: 'Helitak'
+                9: 'Helitak',
+                10: 'Mobile air',
+                11: 'MCV',
+                12: 'Rescue Engine'
             }
         }
     };
@@ -443,7 +446,10 @@
                 6: 'BAS 4 - Tankbil',
                 7: 'Industribrandbil',
                 8: 'Radiobil',
-                9: 'Räddningshelikopter'
+                9: 'Räddningshelikopter',
+                10: 'Luftfordon',
+                11: 'Mobilt ledningsfordon',
+                12: 'Räddningsfordon'
             }
         }
     };
@@ -567,7 +573,10 @@
                 6: 'CCGC',
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
-                9: 'HeliSMUR'
+                9: 'HeliSMUR',
+                10: 'Mobile air',
+                11: 'Véhicule mobile de comm.',
+                12: 'Véhicule de secours'
             }
         }
     };
@@ -629,7 +638,10 @@
                 6: 'АЦ-9,4-60',
                 7: 'АПТ-5,0-70',
                 8: 'Полицейская машина',
-                9: 'Вертолёт службы спасения'
+                9: 'Вертолёт службы спасения',
+                10: 'Mobile air',
+                11: 'ПКП',
+                12: 'ПСА'
             }
         }
     };
@@ -691,11 +703,13 @@
                 6: 'Camión BNP',
                 7: 'Camión TPP',
                 8: 'Coche patrulla',
-                9: 'Helicóptero HSR'
+                9: 'Helicóptero HSR',
+                10: 'Vehículo aéreo',
+                11: 'Vehículo de mando móvil',
+                12: 'Vehículo de rescate'
             }
         }
     };
-
     I18n.translations.nl.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",
