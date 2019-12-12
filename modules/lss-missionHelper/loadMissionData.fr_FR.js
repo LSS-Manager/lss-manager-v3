@@ -12,7 +12,7 @@ $.get(missionlink)
             boat: "Boat",
             air: "Mobile Air",
             bchief: "de lieutenant",
-            tanker: "qu’un camion-citerne",
+            tanker: "(c|C)amion-citerne [^s]",
             hazmat: "risques chimiques",
             police: "Voitures de police",
             arff: 'ARFF',

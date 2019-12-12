@@ -13,7 +13,7 @@ $.get(missionlink)
             air: "Mobile Air",
             bchief: "командира батальона",
             tanker: "цистерны с водой",
-            hazmat: "автомобили обезвреживания",
+            hazmat: "обезвреживания",
             police: "полицейские автомобили",
             arff: 'АПСР',
             mcv: "мобильные командные пункты",
@@ -44,7 +44,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Кредиты (ср.)/)) {
+            if (content.match(/Кредиты/)) {
                 credits = number;
             } else if (content.match(/Требуемые|Требуемое/)) {
                 stations[getStation(content)] = number;

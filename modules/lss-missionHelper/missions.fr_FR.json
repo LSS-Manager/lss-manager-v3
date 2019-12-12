@@ -20,7 +20,7 @@
         },
         "credits": 170
     },
-	"2": {
+    "2": {
         "name": "Voiture en feu",
         "stations": {
             "0": 1
@@ -48,7 +48,7 @@
             "0": 27
         }
     },
-	"4": {
+    "4": {
         "name": "Gazon en feu",
         "stations": {
             "0": 1
@@ -199,7 +199,7 @@
         "credits": 1010,
         "poi": 3
     },
-	"16": {
+    "16": {
         "name": "Caravane en feu",
         "stations": {
             "0": 2
@@ -239,7 +239,7 @@
         },
         "credits": 650
     },
-	"20": {
+    "20": {
         "name": "Sous-sol en feu",
         "stations": {
             "0": 3
@@ -332,6 +332,24 @@
             "2": 29
         }
     },
+    "26": {
+        "name": "Petit supermarch\u00e9 en feu",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 9
+    },
     "27": {
         "name": "Feu de garage",
         "stations": {
@@ -358,7 +376,7 @@
             "tanker": 30
         }
     },
-	"29": {
+    "29": {
         "name": "D\u00e9versement de citerne inconnue",
         "stations": {
             "0": 13,
@@ -404,6 +422,24 @@
             "truck": 2
         },
         "credits": 1200
+    },
+    "33": {
+        "name": "Petit supermarch\u00e9 en feu",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 9
     },
     "41": {
         "name": "Atelier automobile en feu",
