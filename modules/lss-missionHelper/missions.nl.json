@@ -9167,5 +9167,50 @@
         "percentages": {
             "adembescherming": 20
         }
+    },
+    "520": {
+        "name": "Gebroken arm",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "521": {
+        "name": "Gebroken arm",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "522": {
+        "name": "Gebroken been",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "523": {
+        "name": "Gebroken been",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "524": {
+        "name": "Schouder uit de kom",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
     }
 }

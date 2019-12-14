@@ -5443,5 +5443,23 @@
             "3": 1
         },
         "onlyRd": true
+    },
+    "326": {
+        "name": "Panic button activation",
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "prisoners": {
+            "max": 2
+        },
+        "expansions": {
+            "0": 90
+        }
     }
 }
