@@ -8916,5 +8916,67 @@
             "dlk": 70,
             "fwk": 5
         }
+    },
+    "497": {
+        "name": "Personensuche nahe Gew\u00e4sser",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 4,
+            "13": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "polheli": 1,
+            "fustw": 6,
+            "lf": 1,
+            "boot": 2,
+            "elw1": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 90,
+            "rth": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 1,
+        "special": {
+            "averageMinimumEmployeesPolice": 12,
+            "averageMinimumEmployeesFire": 9
+        }
+    },
+    "498": {
+        "name": "Personensuche nahe Gew\u00e4sser",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 4,
+            "13": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "polheli": 1,
+            "fustw": 6,
+            "lf": 1,
+            "boot": 2,
+            "elw1": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 90,
+            "rth": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 27,
+        "special": {
+            "averageMinimumEmployeesPolice": 12,
+            "averageMinimumEmployeesFire": 9
+        }
     }
 }

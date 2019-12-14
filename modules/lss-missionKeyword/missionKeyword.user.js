@@ -518,7 +518,9 @@
         493: 'Massenanfall an Erkrankten',
         494: 'Beschädigte Radarfalle',
         495: 'Massenpanik in Diskothek',
-        496: 'Pferd in Jauchegrube'
+        496: 'Pferd in Jauchegrube',
+        497: 'Personensuche nahe Gewässer',
+        498: 'Personensuche nahe Gewässer'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -862,7 +864,8 @@
         322: 'Car vs tree (entrapment)',
         323: 'Protestors on runway',
         324: 'Protestors on runway',
-        325: 'Sick person'
+        325: 'Sick person',
+        326: 'Panic button activation'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -989,7 +992,11 @@
         105: 'Concern for welfare',
         106: 'Hit and Run',
         107: 'Row of garages on fire',
-        108: 'Thatched cottage fire'
+        108: 'Thatched cottage fire',
+        109: 'Trespasser on railway line',
+        110: 'Trespasser on railway line',
+        111: 'Trespasser on railway line',
+        112: 'Trespasser on railway line'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -2283,7 +2290,12 @@
         516: 'Aanvaring met vrachtschip en passagiersschip',
         517: 'Aanvaring met vrachtschip en passagiersschip',
         518: 'Aanvaring met vrachtschip en passagiersschip',
-        519: 'Aanvaring met vrachtschip en passagiersschip'
+        519: 'Aanvaring met vrachtschip en passagiersschip',
+        520: 'Gebroken arm',
+        521: 'Gebroken arm',
+        522: 'Gebroken been',
+        523: 'Gebroken been',
+        524: 'Schouder uit de kom'
       }
     };
 
@@ -2803,7 +2815,9 @@
       493: 'RD 7',
       494: 'POL 1',
       495: 'POL 6',
-      496: 'THL 2'
+      496: 'THL 2',
+      497: 'POL 3',
+      498: 'POL 3'
     };
     let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -3131,7 +3145,8 @@
       322: 'TECH 1',
       323: 'POL 3',
       324: 'POL 5',
-      325: 'MED 1'
+      325: 'MED 1',
+      326: 'POL 4'
     };
     let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3243,7 +3258,11 @@
       105: 'POL 2',
       106: 'POL 3',
       107: 'FIRE 4',
-      108: 'FIRE 6'
+      108: 'FIRE 6',
+      109: 'POL 2',
+      110: 'POL 2',
+      111: 'POL 2',
+      112: 'POL 2'
     };
     let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -4402,7 +4421,12 @@
       516: 'HV 3 WATER',
       517: 'HV 3 WATER',
       518: 'HV 3 WATER',
-      519: 'HV 4 WATER'
+      519: 'HV 4 WATER',
+      520: 'A 1',
+      521: 'A 1',
+      522: 'A 1',
+      523: 'A 1',
+      524: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

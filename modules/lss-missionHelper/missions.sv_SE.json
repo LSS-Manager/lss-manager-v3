@@ -1027,6 +1027,100 @@
             "specialisation": "Inv\u00e4rtesmedicinare"
         }
     },
+    "76": {
+        "name": "St\u00f6ld p\u00e5 julmarknad",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "poi": 17
+    },
+    "77": {
+        "name": "Brinnande julst\u00e5nd",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "poi": 17
+    },
+    "78": {
+        "name": "Brand p\u00e5 julmarknad",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "poi": 17
+    },
+    "79": {
+        "name": "Trafikolycka - is",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologi"
+        },
+        "percentages": {
+            "heavyRescue": 100
+        }
+    },
+    "80": {
+        "name": "Brinnande julgran",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 870
+    },
+    "81": {
+        "name": "Brinnande julkrans",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
+    },
+    "82": {
+        "name": "Br\u00e5k p\u00e5 julmarknad",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 600,
+        "patients": {
+            "max": 2,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 17
+    },
     "83": {
         "name": "Person fast under maskineri",
         "stations": {

@@ -1460,5 +1460,61 @@
             "transport": 60,
             "specialisation": "General Internal"
         }
+    },
+    "109": {
+        "name": "Trespasser on railway line",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1000,
+        "poi": 6,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "110": {
+        "name": "Trespasser on railway line",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1000,
+        "poi": 7,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "111": {
+        "name": "Trespasser on railway line",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1000,
+        "poi": 24,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "112": {
+        "name": "Trespasser on railway line",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1000,
+        "poi": 40,
+        "prisoners": {
+            "max": 3
+        }
     }
 }
