@@ -221,7 +221,9 @@ else if (I18n.locale == "it_IT") {
         "6": ["AF/NBCR", 0],
         "7": ["Volante", 6],
         "8": ["Elisoccorso", 2],
-        "9": ["APS", 0]
+        "9": ["APS", 0],
+        "10": ["AF/ARIA", 0],
+        "11": ["UCL", 0]
     };
 }
 else if (I18n.locale == "fr_FR") {

@@ -5446,6 +5446,10 @@
     },
     "326": {
         "name": "Panic button activation",
+        "stations": {
+            "3": 1,
+            "5": 6
+        },
         "vehicles": {
             "police": 6
         },
