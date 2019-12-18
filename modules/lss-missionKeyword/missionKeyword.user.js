@@ -1546,7 +1546,25 @@
         82: 'Persona intrappolata sotto un macchinario',
         83: 'Tetto danneggiato',
         84: 'Collisione multipla',
-        85: 'Tubo acquedotto rotto'
+        85: 'Tubo acquedotto rotto',
+        86: '',
+        87: '',
+        88: '',
+        89: '',
+        90: '',
+        91: '',
+        92: '',
+        93: '',
+        94: '',
+        95: '',
+        96: '',
+        97: '',
+        98: '',
+        99: '',
+        100: '',
+        101: 'Incidente con trattore',
+        102: 'Esplosione in box auto',
+        103: 'Cisterna treno danneggiata'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -3725,7 +3743,25 @@
       82: 'TECH 2',
       83: 'TECH 1',
       84: 'TECH 2',
-      85: 'TECH 2'
+      85: 'TECH 2',
+      86: '',
+      87: '',
+      88: '',
+      89: '',
+      90: '',
+      91: '',
+      92: '',
+      93: '',
+      94: '',
+      95: '',
+      96: '',
+      97: '',
+      98: '',
+      99: '',
+      100: '',
+      101: 'TECH 1',
+      102: 'FIRE 2',
+      103: 'TECH 2'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',

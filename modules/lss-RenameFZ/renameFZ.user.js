@@ -511,7 +511,9 @@
                 6: 'AF/NBCR',
                 7: 'Volante',
                 8: 'Elisoccorso',
-                9: 'APS'
+                9: 'APS',
+                10: 'AF/ARIA',
+                11: 'UCL'
             }
         }
     };

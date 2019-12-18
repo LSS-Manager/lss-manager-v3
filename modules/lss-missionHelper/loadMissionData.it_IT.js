@@ -16,7 +16,7 @@ $.get(missionlink)
             mcv: "Mobile Command Vehicle",
             police: "Volanti della polizia",
             hems: "HEMS",
-            rtw: "Ambulanza Medicalizzata",
+            rtw: "Ambulanze",
             arff: "Flotta aerea antincendio AIB",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

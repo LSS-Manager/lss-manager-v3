@@ -1167,5 +1167,56 @@
         "percentages": {
             "bchief": 40
         }
+    },
+    "101": {
+        "name": "Incidente con trattore",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "rtw": 1,
+            "heavyRescue": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 0,
+            "specialisation": "Chirurgia generale"
+        },
+        "poi": 21
+    },
+    "102": {
+        "name": "Esplosione in box auto",
+        "stations": {
+            "0": 6,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 1
+        },
+        "credits": 1900,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Chirurgia generale"
+        }
+    },
+    "103": {
+        "name": "Cisterna treno danneggiata",
+        "stations": {
+            "0": 11
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "hazmat": 1,
+            "heavyRescue": 1
+        },
+        "credits": 950,
+        "poi": 8
     }
 }
