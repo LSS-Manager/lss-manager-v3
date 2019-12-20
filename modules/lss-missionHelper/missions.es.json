@@ -1332,5 +1332,22 @@
             "specialisation": "Cirug\u00eda general"
         },
         "poi": 21
+    },
+    "112": {
+        "name": "Veh\u00edculo de mercanc\u00eda pesada en llamas",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 2500,
+        "percentages": {
+            "tanker": 10
+        }
     }
 }

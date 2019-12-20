@@ -520,7 +520,8 @@
         495: 'Massenpanik in Diskothek',
         496: 'Pferd in Jauchegrube',
         497: 'Personensuche nahe Gewässer',
-        498: 'Personensuche nahe Gewässer'
+        498: 'Personensuche nahe Gewässer',
+        499: 'Massenkarambolage auf Autobahn'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -865,7 +866,21 @@
         323: 'Protestors on runway',
         324: 'Protestors on runway',
         325: 'Sick person',
-        326: 'Panic button activation'
+        326: 'Panic button activation',
+        327: '',
+        328: '',
+        329: '',
+        330: '',
+        331: '',
+        332: '',
+        333: '',
+        334: '',
+        335: '',
+        336: '',
+        337: '',
+        338: '',
+        339: '',
+        340: 'Restraining Order Violation'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -996,7 +1011,21 @@
         109: 'Trespasser on railway line',
         110: 'Trespasser on railway line',
         111: 'Trespasser on railway line',
-        112: 'Trespasser on railway line'
+        112: 'Trespasser on railway line',
+        113: '',
+        114: '',
+        115: '',
+        116: '',
+        117: '',
+        118: '',
+        119: '',
+        120: '',
+        121: '',
+        122: '',
+        123: '',
+        124: '',
+        125: '',
+        126: 'HGV Fire'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1113,7 +1142,21 @@
         95: 'Damaged Roof',
         96: 'Car pileup',
         97: 'A truck with a semitrailer on fire',
-        98: 'Tractor accident'
+        98: 'Tractor accident',
+        99: '',
+        100: '',
+        101: '',
+        102: '',
+        103: '',
+        104: '',
+        105: '',
+        106: '',
+        107: '',
+        108: '',
+        109: '',
+        110: '',
+        111: '',
+        112: 'HGV Fire'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1231,6 +1274,20 @@
         96: 'Apilamiento de coches',
         97: 'Camión con semirremolque en llamas',
         98: 'Accidente de tractor',
+        99: '',
+        100: '',
+        101: '',
+        102: '',
+        103: '',
+        104: '',
+        105: '',
+        106: '',
+        107: '',
+        108: '',
+        109: '',
+        110: '',
+        111: '',
+        112: 'Vehículo de mercancía pesada en llamas'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1336,7 +1393,21 @@
         84: 'Skadat Tak',
         85: 'Seriekrock',
         86: 'Brinnande lastbil',
-        87: 'Traktorolycka'
+        87: 'Traktorolycka',
+        88: '',
+        89: '',
+        90: '',
+        91: '',
+        92: '',
+        93: '',
+        94: '',
+        95: '',
+        96: '',
+        97: '',
+        98: '',
+        99: '',
+        100: '',
+        101: 'Brinnande tungt lastfordon'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1442,7 +1513,21 @@
         84: 'Uszkodzony dach',
         85: 'Dachowanie samochodu',
         86: 'Pożar samochodu ciężarowego z naczepą',
-        87: 'Wypadek traktoru'
+        87: 'Wypadek traktoru',
+        88: '',
+        89: '',
+        90: '',
+        91: '',
+        92: '',
+        93: '',
+        94: '',
+        95: '',
+        96: '',
+        97: '',
+        98: '',
+        99: '',
+        100: '',
+        101: 'Płonący pojazd ciężarowy'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1560,7 +1645,7 @@
         96: '',
         97: '',
         98: '',
-        99: '',
+        99: 'Veicolo di trasporto merci pesante in fiamme',
         100: '',
         101: 'Incidente con trattore',
         102: 'Esplosione in box auto',
@@ -1667,7 +1752,21 @@
         81: 'Rixe au marché de Noël',
         82: 'Carambolage',
         83: 'Un camion avec une semi-remorque en feu',
-        84: 'Accident de tracteur'
+        84: 'Accident de tracteur',
+        85: '',
+        86: '',
+        87: '',
+        88: '',
+        89: '',
+        90: '',
+        91: '',
+        92: '',
+        93: '',
+        94: '',
+        95: '',
+        96: '',
+        97: '',
+        98: 'Toit endommagé'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -1770,7 +1869,21 @@
         81: 'Драка на рождественском рынке',
         82: 'Автокатастрофа',
         83: 'Грузовик с полуприцепом в огне',
-        84: 'Инцидент с трактором'
+        84: 'Инцидент с трактором',
+        85: '',
+        86: '',
+        87: '',
+        88: '',
+        89: '',
+        90: '',
+        91: '',
+        92: '',
+        93: '',
+        94: '',
+        95: '',
+        96: '',
+        97: '',
+        98: 'Текущая крыша'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2313,7 +2426,30 @@
         521: 'Gebroken arm',
         522: 'Gebroken been',
         523: 'Gebroken been',
-        524: 'Schouder uit de kom'
+        524: 'Schouder uit de kom',
+        525: '',
+        526: '',
+        527: '',
+        528: '',
+        529: '',
+        530: '',
+        531: '',
+        532: '',
+        533: '',
+        534: '',
+        535: '',
+        536: '',
+        537: '',
+        538: '',
+        539: '',
+        540: '',
+        541: '',
+        542: 'Verkeersongeval door gladheid',
+        543: 'Verkeersongeval door gladheid',
+        544: 'Gevallen persoon door gladheid',
+        545: 'Gevallen persoon door gladheid',
+        546: 'Donkere dagen offensief',
+        547: 'Donkere dagen offensief'
       }
     };
 
@@ -2835,7 +2971,8 @@
       495: 'POL 6',
       496: 'THL 2',
       497: 'POL 3',
-      498: 'POL 3'
+      498: 'POL 3',
+      499: 'THL 4'
     };
     let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -3164,7 +3301,21 @@
       323: 'POL 3',
       324: 'POL 5',
       325: 'MED 1',
-      326: 'POL 4'
+      326: 'POL 4',
+      327: '',
+      328: '',
+      329: '',
+      330: '',
+      331: '',
+      332: '',
+      333: '',
+      334: '',
+      335: '',
+      336: '',
+      337: '',
+      338: '',
+      339: '',
+      340: 'POL 2'
     };
     let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3280,7 +3431,21 @@
       109: 'POL 2',
       110: 'POL 2',
       111: 'POL 2',
-      112: 'POL 2'
+      112: 'POL 2',
+      113: '',
+      114: '',
+      115: '',
+      116: '',
+      117: '',
+      118: '',
+      119: '',
+      120: '',
+      121: '',
+      122: '',
+      123: '',
+      124: '',
+      125: '',
+      126: 'FIRE 2'
     };
     let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -3378,7 +3543,24 @@
       92: 'POL 2',
       93: 'POL 1',
       94: 'TECH 2',
-      95: 'TECH 1'
+      95: 'TECH 1',
+      96: 'TECH 3',
+      97: 'FIRE 2',
+      98: 'TECH 1',
+      99: '',
+      100: '',
+      101: '',
+      102: '',
+      103: '',
+      104: '',
+      105: '',
+      106: '',
+      107: '',
+      108: '',
+      109: '',
+      110: '',
+      111: '',
+      112: 'FIRE 2'
     };
     let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -3476,7 +3658,24 @@
       92: 'POL 2',
       93: 'POL 1',
       94: 'TECH 2',
-      95: 'TECH 1'
+      95: 'TECH 1',
+      96: 'TECH 3',
+      97: 'FIRE 2',
+      98: 'TECH 1',
+      99: '',
+      100: '',
+      101: '',
+      102: '',
+      103: '',
+      104: '',
+      105: '',
+      106: '',
+      107: '',
+      108: '',
+      109: '',
+      110: '',
+      111: '',
+      112: 'FIRE 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -3565,7 +3764,22 @@
       83: 'TECH 1',
       84: 'TECH 3',
       85: 'FIRE 1',
-      86: 'TECH 1'
+      86: 'FIRE 1',
+      87: 'TECH 1',
+      88: '',
+      89: '',
+      90: '',
+      91: '',
+      92: '',
+      93: '',
+      94: '',
+      95: '',
+      96: '',
+      97: '',
+      98: '',
+      99: '',
+      100: '',
+      101: 'FIRE 2'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -3655,7 +3869,21 @@
       84: 'TECH 1',
       85: 'TECH 3',
       86: 'FIRE 1',
-      87: 'TECH 1'
+      87: 'TECH 1',
+      88: '',
+      89: '',
+      90: '',
+      91: '',
+      92: '',
+      93: '',
+      94: '',
+      95: '',
+      96: '',
+      97: '',
+      98: '',
+      99: '',
+      100: '',
+      101: 'FIRE 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -3757,7 +3985,7 @@
       96: '',
       97: '',
       98: '',
-      99: '',
+      99: 'FIRE 2',
       100: '',
       101: 'TECH 1',
       102: 'FIRE 2',
@@ -3848,7 +4076,21 @@
       81: 'POL 3',
       82: 'TECH 3',
       83: 'FIRE 1',
-      84: 'TECH 1'
+      84: 'TECH 1',
+      85: '',
+      86: '',
+      87: '',
+      88: '',
+      89: '',
+      90: '',
+      91: '',
+      92: '',
+      93: '',
+      94: '',
+      95: '',
+      96: '',
+      97: '',
+      98: 'TECH 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -3935,7 +4177,21 @@
       81: 'POL 3',
       82: 'TECH 3',
       83: 'FIRE 1',
-      84: 'TECH 1'
+      84: 'TECH 1',
+      85: '',
+      86: '',
+      87: '',
+      88: '',
+      89: '',
+      90: '',
+      91: '',
+      92: '',
+      93: '',
+      94: '',
+      95: '',
+      96: '',
+      97: '',
+      98: 'TECH 1'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -4462,7 +4718,30 @@
       521: 'A 1',
       522: 'A 1',
       523: 'A 1',
-      524: 'A 1'
+      524: 'A 1',
+      525: '',
+      526: '',
+      527: '',
+      528: '',
+      529: '',
+      530: '',
+      531: '',
+      532: '',
+      533: '',
+      534: '',
+      535: '',
+      536: '',
+      537: '',
+      538: '',
+      539: '',
+      540: '',
+      541: '',
+      542: 'HV 1',
+      543: 'HV 1',
+      544: 'A 1',
+      545: 'A 1',
+      546: 'P 1',
+      547: 'P 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

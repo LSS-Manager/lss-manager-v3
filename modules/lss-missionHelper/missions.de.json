@@ -8978,5 +8978,30 @@
             "averageMinimumEmployeesPolice": 12,
             "averageMinimumEmployeesFire": 9
         }
+    },
+    "499": {
+        "name": "Massenkarambolage auf Autobahn",
+        "stations": {
+            "0": 12,
+            "2": 9,
+            "6": 8
+        },
+        "vehicles": {
+            "fustw": 8,
+            "lf": 10,
+            "rw": 5,
+            "elw1": 2,
+            "oel": 2
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 15,
+            "min": 6,
+            "transport": 60,
+            "nef": 40,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 16
     }
 }
