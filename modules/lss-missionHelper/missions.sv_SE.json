@@ -1203,5 +1203,22 @@
             "specialisation": "Allm\u00e4nkirurg"
         },
         "poi": 21
+    },
+    "101": {
+        "name": "Brinnande tungt lastfordon",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 2500,
+        "percentages": {
+            "tanker": 10
+        }
     }
 }

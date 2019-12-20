@@ -81,6 +81,11 @@ I18n.locales.sv_SE = ['sv_SE', 'en', 'eu', 'fj', 'de'];
 I18n.locales.it_IT = ['it_IT', 'en', 'eu', 'fj', 'de'];
 I18n.locales.fr_FR = ['fr_FR', 'en', 'eu', 'fj', 'de'];
 I18n.locales.ru_RU = ['ru_RU', 'en', 'eu', 'fj', 'de'];
+I18n.locales.nb_NO = ['nb_NO', 'en', 'eu', 'fj', 'de'];
+I18n.locales.da_DK = ['da_DK', 'en', 'eu', 'fj', 'de'];
+I18n.locales.uk_UA = ['uk_UA', 'en', 'eu', 'fj', 'de'];
+I18n.locales.tr_TR = ['tr_TR', 'en', 'eu', 'fj', 'de'];
+I18n.locales.pt_BR = ['pt_BR', 'en', 'eu', 'fj', 'de'];
 // en, fj and eu are essentially the same.
 I18n.locales.en = ['en', 'eu', 'fj', 'de'];
 I18n.locales.fj = ['fj', 'en', 'eu', 'de'];
@@ -96,7 +101,13 @@ if (!I18n.translations.hasOwnProperty('sv_SE')) I18n.translations.sv_SE = {};
 if (!I18n.translations.hasOwnProperty('it_IT')) I18n.translations.it_IT = {};
 if (!I18n.translations.hasOwnProperty('fr_FR')) I18n.translations.fr_FR = {};
 if (!I18n.translations.hasOwnProperty('ru_RU')) I18n.translations.ru_RU = {};
+if (!I18n.translations.hasOwnProperty('nb_NO')) I18n.translations.nb_NO = {};
+if (!I18n.translations.hasOwnProperty('da_DK')) I18n.translations.da_DK = {};
+if (!I18n.translations.hasOwnProperty('uk_UA')) I18n.translations.uk_UA = {};
+if (!I18n.translations.hasOwnProperty('tr_TR')) I18n.translations.tr_TR = {};
+if (!I18n.translations.hasOwnProperty('pt_BR')) I18n.translations.pt_BR = {};
 if (!I18n.translations.hasOwnProperty('nl')) I18n.translations.nl = {};
+
 I18n.translations.de.lssm = {
     lssm: "LSS-Manager",
     version: "Stable",

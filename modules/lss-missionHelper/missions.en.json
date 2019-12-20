@@ -5465,5 +5465,21 @@
         "expansions": {
             "0": 90
         }
+    },
+    "340": {
+        "name": "Restraining Order Violation",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 300,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 90
+        }
     }
 }

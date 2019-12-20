@@ -1146,5 +1146,19 @@
             "specialisation": "Chirurgien g\u00e9n\u00e9ral"
         },
         "poi": 21
+    },
+    "98": {
+        "name": "Toit endommag\u00e9",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
+        }
     }
 }

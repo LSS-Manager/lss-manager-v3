@@ -1203,5 +1203,22 @@
             "specialisation": "Chirurg og\u00f3lny"
         },
         "poi": 21
+    },
+    "101": {
+        "name": "P\u0142on\u0105cy pojazd ci\u0119\u017carowy",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 2500,
+        "percentages": {
+            "tanker": 10
+        }
     }
 }

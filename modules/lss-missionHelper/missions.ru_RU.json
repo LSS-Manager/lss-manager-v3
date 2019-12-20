@@ -1099,5 +1099,19 @@
             "specialisation": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "poi": 21
+    },
+    "98": {
+        "name": "\u0422\u0435\u043a\u0443\u0449\u0430\u044f \u043a\u0440\u044b\u0448\u0430",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
+        }
     }
 }
