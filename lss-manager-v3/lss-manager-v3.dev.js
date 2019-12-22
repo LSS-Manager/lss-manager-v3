@@ -515,6 +515,19 @@ lssm.Module = {
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
         develop: false
     },
+    geoBorders: {
+        name: {
+            de: 'Kreis- & Landesgrenzen'
+        },
+        active: false,
+        inframe: false,
+        description: {
+            de: 'Zeigt aktivierte Grenzen für Kreise, Bezirke und Bundesländer an.'
+        },
+        source: '/modules/lss-geoborders/GeoBorders.js',
+        develop: false,
+        supportedLocales: ['de'],
+    },
     vonginator: {
         name: {
             de: 'Vonginator',
