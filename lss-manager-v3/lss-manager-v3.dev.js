@@ -331,7 +331,8 @@ lssm.Module = {
         },
         source: '/modules/lss-fms7-target/Fms7Target.js',
         inframe: false,
-        supportedLocales: ['de']
+        supportedLocales: ['de'],
+	develop: true
     },
     Layout01: {
         name: {
