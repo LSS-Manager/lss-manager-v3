@@ -10,7 +10,7 @@ $.get(missionlink)
             platform: "plateforme",
             heavyRescue: "Véhicule de secours routier",
             boat: "Boat",
-            air: "Mobile Air",
+            air: "aérien",
             bchief: "de lieutenant",
             tanker: "(c|C)amion-citerne [^s]",
             hazmat: "risques chimiques",

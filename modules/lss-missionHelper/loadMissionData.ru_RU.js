@@ -8,9 +8,9 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "пожарные машины",
             platform: "платформы",
-            heavyRescue: "машины для спасательных работ в тяжёлых условиях",
+            heavyRescue: "спасательных работ",
             boat: "Boat",
-            air: "Mobile Air",
+            air: "респираторной",
             bchief: "командира батальона",
             tanker: "цистерны с водой",
             hazmat: "обезвреживания",

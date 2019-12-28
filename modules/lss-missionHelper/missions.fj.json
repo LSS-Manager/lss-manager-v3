@@ -1517,6 +1517,163 @@
             "max": 3
         }
     },
+    "113": {
+        "name": "Car ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "114": {
+        "name": "Bulky waste ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "115": {
+        "name": "Small field fire caused by fireworks",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "116": {
+        "name": "Basement fire caused by fireworks",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "117": {
+        "name": "Burning Bus shelter ignited by fireworks",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "118": {
+        "name": "Fire on balcony caused by fireworks",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "119": {
+        "name": "Burning paper containers ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "120": {
+        "name": "Burning hedge ignited by firecracker",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "121": {
+        "name": "Drunk driver after New Year's Eve party",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "122": {
+        "name": "Burning thatched roof house ignited by fireworks",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "123": {
+        "name": "Car damaged by fireworks",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "124": {
+        "name": "Violation of Explosive Act 1875",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "125": {
+        "name": "Hand injury caused by fireworks",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatology"
+    },
     "126": {
         "name": "HGV Fire",
         "stations": {

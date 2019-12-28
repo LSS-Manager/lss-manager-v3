@@ -9,7 +9,7 @@ $.get(missionlink)
             truck: "släckbilar",
             platform: "stegbilar",
             heavyRescue: "Lastväxlare",
-            air: "Mobile Air",
+            air: "fordon",
             bchief: "brandchefsbil",
             tanker: "tankbilar",
             hazmat: "farligt gods-fordon",

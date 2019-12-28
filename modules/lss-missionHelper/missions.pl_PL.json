@@ -1204,6 +1204,163 @@
         },
         "poi": 21
     },
+    "88": {
+        "name": "Po\u017car pojazdu wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "89": {
+        "name": "Po\u017car gabaryt\u00f3w wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "90": {
+        "name": "Po\u017car ma\u0142ego pola wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "91": {
+        "name": "Po\u017car piwnicy wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interna"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "92": {
+        "name": "Po\u017car wiaty przystankowej wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "93": {
+        "name": "Po\u017car balkonu wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "94": {
+        "name": "P\u0142on\u0105ce kontenery z papierem podpalone przez fajerwerki",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "95": {
+        "name": "Po\u017car \u017cywop\u0142otu podpalonego przez petard\u0119",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "96": {
+        "name": "Kierowca pijany po imprezie sylwestrowej",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "97": {
+        "name": "Po\u017car dachu krytego strzech\u0105 wywo\u0142any fajerwerkami",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Interna"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "98": {
+        "name": "Uszkodzenie pojazdu wywo\u0142ane fajerwerkami",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "99": {
+        "name": "Naruszenie przepis\u00f3w ustawy o materia\u0142ach wybuchowych przeznaczonych do u\u017cytku cywilnego",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "100": {
+        "name": "Uraz r\u0119ki w wyniku u\u017cycia fajerwerk\u00f3w",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatologia"
+    },
     "101": {
         "name": "P\u0142on\u0105cy pojazd ci\u0119\u017carowy",
         "stations": {

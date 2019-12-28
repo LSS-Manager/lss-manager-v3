@@ -10,7 +10,7 @@ $.get(missionlink)
             platform: "Turntable Ladder",
             heavyRescue: "Major Rescue Vehicles",
             boat: "Boat",
-            air: "Mobile air",
+            air: "Mobile Air",
             bchief: "Rapid Response Vehicle",
             tanker: "Water Carrier",
             hazmat: "HazMat",

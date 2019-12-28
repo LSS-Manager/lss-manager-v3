@@ -9,7 +9,7 @@ $.get(missionlink)
             truck: "camiones de bomberos",
             platform: "camiones con plataforma",
             heavyRescue: "Furgones de Útiles Varios",
-            air: "Mobile Air",
+            air: "aéreo",
             bchief: "unidades de Mando y Comunicaciones",
             mcv: "vehículos de mando",
             tanker: "(c|C)amiones cisterna",

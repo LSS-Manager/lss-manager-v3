@@ -9,7 +9,7 @@ $.get(missionlink)
             truck: "Autopompe",
             platform: "(c|C)amion con piattaforma",
             heavyRescue: "di soccorso pesante",
-            air: "Mobile Air",
+            air: "Aria",
             bchief: "capo-pattuglia",
             tanker: "(a|A)utobotti",
             hazmat: "N.B.C.R.",
@@ -57,9 +57,9 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/necessarie|necessari/)) {
+            if (content.match(/necessarie|necessari|Richiede/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/richiesta|Possibile richiesta/)) {
+            } else if (content.match(/richiesta|Possibile richiesta|richiesto/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
