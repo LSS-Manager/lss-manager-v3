@@ -1168,6 +1168,163 @@
             "bchief": 40
         }
     },
+    "86": {
+        "name": "Auto in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "87": {
+        "name": "Rifiuti ingombranti in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "88": {
+        "name": "Piccolo campo in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "89": {
+        "name": "Seminterrato in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Medicina interna generale"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "90": {
+        "name": "Fermata dell'autobus in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "91": {
+        "name": "Balcone in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "92": {
+        "name": "Container di carta in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "93": {
+        "name": "Siepe in fiamme a causa di un petardo",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "94": {
+        "name": "Conducente ubriaco dopo la festa di Capodanno",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "95": {
+        "name": "Casa con tetto di paglia in fiamme a causa di fuochi d'artificio",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Medicina interna generale"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "96": {
+        "name": "Auto danneggiata da fuochi d'artificio",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "97": {
+        "name": "Violazione delle Norme sugli esplosivi",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "98": {
+        "name": "Ferita alla mano provocata da fuochi d'artificio",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatologia"
+    },
     "99": {
         "name": "Veicolo di trasporto merci pesante in fiamme",
         "stations": {

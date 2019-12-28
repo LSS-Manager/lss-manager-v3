@@ -9213,6 +9213,205 @@
         "transport": 25,
         "specialisation": "Interne Geneeskunde"
     },
+    "525": {
+        "name": "Auto in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 370
+    },
+    "526": {
+        "name": "Auto in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 370
+    },
+    "527": {
+        "name": "Afval in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220
+    },
+    "528": {
+        "name": "Afval in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220
+    },
+    "529": {
+        "name": "Grasbrand door vuurwerk",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "tankauto": 2
+        },
+        "credits": 1000
+    },
+    "530": {
+        "name": "Kelderbrand door vuurwerk",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "ovdb": 1,
+            "tankauto": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "ovdb": 90
+        }
+    },
+    "531": {
+        "name": "Brandend bushokje door vuurwerk",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "532": {
+        "name": "Brandend balkon door vuurwerk",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "redvoertuig": 30
+        }
+    },
+    "533": {
+        "name": "Brandende papiercontainer door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "534": {
+        "name": "Brandende heg door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "535": {
+        "name": "Brandende heg door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "536": {
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150
+    },
+    "537": {
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150
+    },
+    "538": {
+        "name": "Rieten kap woning in brand door vuurwerk",
+        "stations": {
+            "0": 7,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 5,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "mmtarts": 50,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "adembescherming": 30
+        }
+    },
+    "539": {
+        "name": "Auto beschadigd door vuurwerk",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "540": {
+        "name": "Overtreding op vuurwerkbesluit",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "541": {
+        "name": "Handletsel door vuurwerk",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "mmtarts": 80,
+        "specialisation": "Traumatologie"
+    },
     "542": {
         "name": "Verkeersongeval door gladheid",
         "stations": {

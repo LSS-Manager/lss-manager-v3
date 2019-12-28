@@ -321,6 +321,19 @@ lssm.Module = {
         inframe: true,
         supportedLocales: ['de']
     },
+    fms7Target: {
+        name: {
+            de: 'FMS 7 Zielort Anzeige'
+        },
+        active: false,
+        description: {
+            de: 'Zeigt das Transportziel von Fahrzeugen im Status 7 an.'
+        },
+        source: '/modules/lss-fms7-target/Fms7Target.js',
+        inframe: false,
+        supportedLocales: ['de'],
+	develop: true
+    },
     Layout01: {
         name: {
             de: 'Layout 01'
@@ -501,6 +514,19 @@ lssm.Module = {
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
         develop: false
+    },
+    geoBorders: {
+        name: {
+            de: 'Kreis- & Landesgrenzen'
+        },
+        active: false,
+        inframe: false,
+        description: {
+            de: 'Zeigt aktivierte Grenzen für Kreise, Bezirke und Bundesländer an.'
+        },
+        source: '/modules/lss-geoborders/GeoBorders.js',
+        develop: false,
+        supportedLocales: ['de'],
     },
     vonginator: {
         name: {

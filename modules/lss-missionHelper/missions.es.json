@@ -1333,6 +1333,163 @@
         },
         "poi": 21
     },
+    "99": {
+        "name": "Coche en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "100": {
+        "name": "Mont\u00f3n de basura en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "101": {
+        "name": "Solar en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "102": {
+        "name": "S\u00f3tano en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "103": {
+        "name": "Marquesina en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "104": {
+        "name": "Balc\u00f3n en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "105": {
+        "name": "Contenedores de papel en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "106": {
+        "name": "Seto en llamas a causa de un petardo",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "107": {
+        "name": "Conductor borracho tras la fiesta de Nochevieja",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "108": {
+        "name": "Casa con tejado de paja en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "109": {
+        "name": "Coche da\u00f1ado por los fuegos artificiales",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "110": {
+        "name": "Infracci\u00f3n del Reglamento de explosivos",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "111": {
+        "name": "Lesi\u00f3n en la mano a causa de los fuegos artificiales",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatolog\u00eda"
+    },
     "112": {
         "name": "Veh\u00edculo de mercanc\u00eda pesada en llamas",
         "stations": {

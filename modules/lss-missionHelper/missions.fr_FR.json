@@ -1147,6 +1147,163 @@
         },
         "poi": 21
     },
+    "85": {
+        "name": "Feu de voiture caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "86": {
+        "name": "Feu d'encombrants caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "87": {
+        "name": "Petit feu de champ caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "88": {
+        "name": "Sous-sol en feu caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "89": {
+        "name": "Abribus en feu caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "90": {
+        "name": "Feu de balcon caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "91": {
+        "name": "Feu de container papier caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "92": {
+        "name": "Feu de haie caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "93": {
+        "name": "Conduite en \u00e9tat d'ivresse apr\u00e8s le R\u00e9veillon",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "94": {
+        "name": "Feu de chaumi\u00e8re caus\u00e9 par des feux d'artifice",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "95": {
+        "name": "Voiture endommag\u00e9e par des feux d'artifice",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "96": {
+        "name": "Infraction au d\u00e9cret n\u00b0\u00a090-897 sur les artifices de divertissement",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "97": {
+        "name": "Blessure \u00e0 la main caus\u00e9e par des feux d'artifice",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatologie"
+    },
     "98": {
         "name": "Toit endommag\u00e9",
         "stations": {

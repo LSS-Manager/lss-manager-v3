@@ -1204,6 +1204,163 @@
         },
         "poi": 21
     },
+    "88": {
+        "name": "Bilbrand orsakad av fyrverkerier",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "89": {
+        "name": "Grovavfallsbrand orsakad av fyrverkerier",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "90": {
+        "name": "Liten f\u00e4ltbrand orsakad av fyrverkerier",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "91": {
+        "name": "Brand i k\u00e4llare orsakad av fyrverkerier",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "92": {
+        "name": "Bussh\u00e5llplatsbrand orsakad av fyrverkerier",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "93": {
+        "name": "Balkongbrand orsakad av fyrverkerier",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "94": {
+        "name": "Br\u00e4nder i papperscontainrar orsakade av fyrverkerier",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "95": {
+        "name": "Buskbrand orsakad av sm\u00e4llare",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "96": {
+        "name": "Alkoholp\u00e5verkad f\u00f6rare efter ny\u00e5rsfest",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "97": {
+        "name": "Brand i str\u00e5takshus orsakad av fyrverkerier",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "98": {
+        "name": "Bil skadad av fyrverkerier",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "99": {
+        "name": "Brott mot f\u00f6rordningen om explosiva varor",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "100": {
+        "name": "Handskada orsakad av fyrverkerier",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatologi"
+    },
     "101": {
         "name": "Brinnande tungt lastfordon",
         "stations": {

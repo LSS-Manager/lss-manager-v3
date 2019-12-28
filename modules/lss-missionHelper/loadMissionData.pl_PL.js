@@ -9,7 +9,7 @@ $.get(missionlink)
             truck: "samochody pożarnicze",
             platform: "SP wysokościow",
             heavyRescue: "ratownictwa technicznego",
-            air: "Mobile Air",
+            air: "SPGaz",
             bchief: "szefa brygady",
             tanker: "z wodą",
             hazmat: "SP Rchem",
