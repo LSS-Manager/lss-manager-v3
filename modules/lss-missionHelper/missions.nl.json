@@ -8971,5 +8971,525 @@
         "percentages": {
             "redvoertuig": 20
         }
+    },
+    "514": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 12,
+            "3": 10,
+            "5": 2,
+            "water": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 1,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1750,
+        "patients": {
+            "max": 10,
+            "min": 5,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 10,
+            "hulpverlening": 50
+        }
+    },
+    "515": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 12,
+            "3": 10,
+            "5": 2,
+            "water": 2
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 2,
+            "wateraanhanger": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1850,
+        "patients": {
+            "max": 12,
+            "min": 8,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 20,
+            "hulpverlening": 60
+        }
+    },
+    "516": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 14,
+            "3": 10,
+            "5": 2,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 15,
+            "min": 10,
+            "transport": 50,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 30,
+            "hulpverlening": 70
+        }
+    },
+    "517": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 3,
+            "11": 1,
+            "water": 3
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 3,
+            "wateraanhanger": 2,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 3100,
+        "patients": {
+            "max": 18,
+            "min": 10,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 40,
+            "hulpverlening": 80
+        }
+    },
+    "518": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 4,
+            "11": 1,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 4,
+            "wateraanhanger": 2,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 3300,
+        "patients": {
+            "max": 18,
+            "min": 12,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "redvoertuig": 50
+        }
+    },
+    "519": {
+        "name": "Aanvaring met vrachtschip en passagiersschip",
+        "stations": {
+            "0": 16,
+            "3": 10,
+            "5": 4,
+            "9": 1,
+            "11": 1,
+            "water": 4
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "hovd": 1,
+            "commando": 1,
+            "watervoertuig": 4,
+            "wateraanhanger": 3,
+            "noodhulpeen": 4,
+            "ovdp": 1,
+            "polHeli": 1
+        },
+        "credits": 4750,
+        "patients": {
+            "max": 18,
+            "min": 12,
+            "transport": 50,
+            "mmtarts": 5,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 27,
+        "percentages": {
+            "adembescherming": 20
+        }
+    },
+    "520": {
+        "name": "Gebroken arm",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "521": {
+        "name": "Gebroken arm",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "522": {
+        "name": "Gebroken been",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "523": {
+        "name": "Gebroken been",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "524": {
+        "name": "Schouder uit de kom",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 25,
+        "specialisation": "Interne Geneeskunde"
+    },
+    "525": {
+        "name": "Auto in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 370
+    },
+    "526": {
+        "name": "Auto in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 370
+    },
+    "527": {
+        "name": "Afval in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220
+    },
+    "528": {
+        "name": "Afval in brand door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 220
+    },
+    "529": {
+        "name": "Grasbrand door vuurwerk",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "tankauto": 2
+        },
+        "credits": 1000
+    },
+    "530": {
+        "name": "Kelderbrand door vuurwerk",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "ovdb": 1,
+            "tankauto": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "ovdb": 90
+        }
+    },
+    "531": {
+        "name": "Brandend bushokje door vuurwerk",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "532": {
+        "name": "Brandend balkon door vuurwerk",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "redvoertuig": 30
+        }
+    },
+    "533": {
+        "name": "Brandende papiercontainer door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "534": {
+        "name": "Brandende heg door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "535": {
+        "name": "Brandende heg door vuurwerk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1
+        },
+        "credits": 400
+    },
+    "536": {
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150
+    },
+    "537": {
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150
+    },
+    "538": {
+        "name": "Rieten kap woning in brand door vuurwerk",
+        "stations": {
+            "0": 7,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 5,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "mmtarts": 50,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "percentages": {
+            "adembescherming": 30
+        }
+    },
+    "539": {
+        "name": "Auto beschadigd door vuurwerk",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "540": {
+        "name": "Overtreding op vuurwerkbesluit",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "541": {
+        "name": "Handletsel door vuurwerk",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "mmtarts": 80,
+        "specialisation": "Traumatologie"
+    },
+    "542": {
+        "name": "Verkeersongeval door gladheid",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "ovdb": 40
+        }
+    },
+    "543": {
+        "name": "Verkeersongeval door gladheid",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 550,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "ovdb": 40
+        }
+    },
+    "544": {
+        "name": "Gevallen persoon door gladheid",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Traumatologie"
+    },
+    "545": {
+        "name": "Gevallen persoon door gladheid",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 60,
+        "specialisation": "Traumatologie"
+    },
+    "546": {
+        "name": "Donkere dagen offensief",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 600
+    },
+    "547": {
+        "name": "Donkere dagen offensief",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 600
     }
 }

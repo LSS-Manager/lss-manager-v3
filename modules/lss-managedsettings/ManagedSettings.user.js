@@ -100,6 +100,63 @@
         import_fail: "Fel: Ett fel inträffade vid import av filen: <strong> {0} </strong>. Informera en utvecklare."
     };
 
+    I18n.translations.it_IT.lssm.managedsettings = {
+        title: "Impostazioni LSSM",
+        text1: "Qui è possibile modificare le impostazioni dei plugin attivati.",
+        text2: "",
+        save: "Salva & Chiudi",
+        settings_tab: "Impostazioni",
+        addField_btn: "Aggiungi",
+        export_btn: "Impostazioni di esportazione",
+        import_btn: "Importare le impostazioni",
+        reset_btn: "Ripristina le impostazioni",
+        reset_hint: "Sei sicuro di voler resettare le impostazioni di questo modulo ai valori predefiniti?",
+        reset_success: "Ripristinare con successo le impostazioni. È necessario ricaricare la pagina per farle funzionare.",
+        export_success: "Impostazioni esportate con successo",
+        export_hint: "Si prega di notare che solo le impostazioni salvate in precedenza dei moduli attualmente attivati possono essere esportate.",
+        import_success: "Le impostazioni sono state importate con successo. È necessario ricaricare la pagina per farle funzionare.",
+        import_missmatch: "Il file letto non è purtroppo più compatibile con la versione corrente di LSSM.",
+        import_fail: "Errore: Si è verificato un errore durante l'importazione del file: <strong> {0} </strong>. Si prega di informare uno sviluppatore."
+    };
+
+    I18n.translations.fr_FR.lssm.managedsettings = {
+        title: "Paramètres LSSM",
+        text1: "Ici, vous pouvez modifier les paramètres de vos plugins activés.",
+        text2: "",
+        save: "Enregistrer et fermer",
+        settings_tab: "Réglages",
+        addField_btn: "Ajouter",
+        export_btn: "Paramètres d'exportation",
+        import_btn: "Paramètres d'importation",
+        reset_btn: "Réinitialiser les paramètres",
+        reset_hint: "Êtes-vous sûr de vouloir réinitialiser les paramètres de ce module aux valeurs par défaut ?",
+        reset_success: "Réinitialiser les réglages avec succès. Vous devez recharger la page pour qu'elle fonctionne.",
+        export_success: "Paramètres exportés avec succès",
+        export_hint: "Veuillez noter que seuls les paramètres précédemment enregistrés des modules actuellement activés peuvent être exportés.",
+        import_success: "Les réglages ont été importés avec succès. Vous devez recharger la page pour qu'elle fonctionne.",
+        import_missmatch: "Le fichier lu n'est malheureusement plus compatible avec la version actuelle de LSSM.",
+        import_fail: "Erreur : Une erreur s'est produite lors de l'importation du fichier : <strong> {0} </strong>. Veuillez en informer un développeur."
+    };
+
+    I18n.translations.ru_RU.lssm.managedsettings = {
+        title: "Настройки LSSM",
+        text1: "Здесь вы можете изменить настройки активированных вами плагинов.",
+        text2: "",
+        save: "Сохранить и закрыть",
+        settings_tab: "Настройки",
+        addField_btn: "Добавить",
+        export_btn: "Настройки экспорта",
+        import_btn: "Импорт настроек",
+        reset_btn: "Сброс настроек",
+        reset_hint: "Вы уверены, что хотите сбросить настройки этого модуля до значений по умолчанию?",
+        reset_success: "Успешный сброс настроек. Вам нужно перезагрузить страницу, чтобы они заработали.",
+        export_success: "Успешный экспорт настроек",
+        export_hint: "Обратите внимание, что экспортировать можно только ранее сохраненные настройки активированных в данный момент модулей.",
+        import_success: "Настройки были успешно импортированы. Вам нужно перезагрузить страницу, чтобы они заработали.",
+        import_missmatch: "К сожалению, читаемый файл больше не совместим с текущей версией LSSM.",
+        import_fail: "Ошибка: При импорте файла возникла ошибка: <strong> {0} </strong>. Пожалуйста, сообщите разработчику."
+    };
+
     I18n.translations.nl.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",

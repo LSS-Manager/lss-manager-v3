@@ -1,5 +1,5 @@
 const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
-const missionID = missionlink.replace(/\?.*$/, "").replace(/\D/g, "");
+const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
     .done(data => {
@@ -8,15 +8,15 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "samochody pożarnicze",
             platform: "SP wysokościow",
-            heavyRescue: "ciężkie samochody ratowniczo-gaśnicze",
-            air: "Mobile Air",
+            heavyRescue: "ratownictwa technicznego",
+            air: "SPGaz",
             bchief: "szefa brygady",
             tanker: "z wodą",
             hazmat: "SP Rchem",
             mcv: "samochody dowodzenia i łączności",
             police: "radiowozy",
             hems: "HEMS",
-            rtw: "Ambulance",
+            rtw: "ambulanse",
             arff: "SP LSP",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

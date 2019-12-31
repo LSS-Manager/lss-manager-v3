@@ -1,4 +1,4 @@
-const missionlink = $('#mission_help').attr('href')||window.location.href.replace(/\?.*$/, "");
+const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
 const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
@@ -6,31 +6,20 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "Firetrucks",
-            platform: "Platform Truck",
-            heavyRescue: "Heavy Rescue",
+            truck: "пожарные машины",
+            platform: "платформы",
+            heavyRescue: "спасательных работ",
             boat: "Boat",
-            air: "Mobile Air",
-            bchief: "Battalion Chief",
-            tanker: "Water Tanker",
-            hazmat: "HazMat",
-            mcv: "Mobile Command Vehicle",
-            arff: "ARFF",
-            largeFireboat: "large fire boat",
-            als: "ALS Ambulance",
-            bls: "BLS Ambulance",
-            fly: "Fly-Car",
-            ems: "EMS Rescue",
-            mcu: "Mass Casualty Unit",
-            largeRescueboat: "large rescue boat",
-            police: "Police Car",
-            k9: "K-9",
-            pmotorcycle: "Police Motorcycle",
-            swatArmoured: "SWAT Armoured Vehicle",
-            swatSuv: "SWAT SUV",
+            air: "респираторной",
+            bchief: "командира батальона",
+            tanker: "цистерны с водой",
+            hazmat: "обезвреживания",
+            police: "полицейские автомобили",
+            arff: 'АПСР',
+            mcv: "мобильные командные пункты",
             hems: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            rtw: "скорые"
         };
 
         let credits;
@@ -52,48 +41,48 @@ $.get(missionlink)
         let expansions = [];
         let dauer;
 
-        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Average credits/)) {
+            if (content.match(/Кредиты/)) {
                 credits = number;
-            } else if (content.match(/Required|Requirement|Min./)) {
+            } else if (content.match(/Требуемые|Требуемое/)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Place/)) {
+            } else if (content.match(/Место/)) {
                 poi = getPOI(content);
             }
         });
-        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Required/)) {
+            if (content.match(/Требуемые/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probability/)) {
+            } else if (content.match(/Вероятность/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
-        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Max\. Patients/)) {
+            if (content.match(/Макс\. Пациенты/)) {
                 patientsMax = number;
-            } else if (content.match(/Minimum patient number/)) {
+            } else if (content.match(/Минимальное число пациентов/)) {
                 patientsMin = number;
-            } else if (content.match(/transported/)) {
+            } else if (content.match(/транспортировки/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Patient Specializations/)) {
+            } else if (content.match(/Специализации пациента/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maximum Number of Prisoners/)) {
+            } else if (content.match(/Макс\. число заключённых/)) {
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Expandable/)) {
+            } else if (content.match(/Доступные к расширению задания/)) {
                 let expansionLinks = $(this).find("a");
-                expansionLinks.each(function() {
+                expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
                 });
             }
@@ -191,10 +180,10 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "en"
+            lang: "ru_RU"
         })
             .done(response => {
-                if (response.startsWith('Error'))  {
+                if (response.startsWith('Error')) {
                     return console.error(`missionHelper Error:\n${response}`);
                 }
                 console.log(`Registered Missiontype ${missionID}`);
@@ -209,58 +198,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Park",
-                "Lake",
-                "Hospital",
-                "Forest",
-                "Bus stop",
-                "Tram stop",
-                "Train station \\(regional traffic\\)",
-                "Train station \\(regional traffic and long-distance travel\\)",
-                "Goods station",
-                "Supermarket \\(small\\)",
-                "Supermarket \\(big\\)",
-                "Gas station",
-                "School",
-                "Museum",
-                "Mall",
-                "Car workshop",
-                "Highway exit",
-                "Christmas market",
+                "Парк",
+                "Озеро",
+                "Больница",
+                "Лес",
+                "Автобусная остановка",
+                "Трамвайная остановка",
+                "Железнодорожная станция",
+                "Железнодорожный вокзал",
+                "Товарная станция",
+                "Супермаркет \\(небольшой\\)",
+                "Супермаркет \\(большой\\)",
+                "Автозаправка",
+                "Школа",
+                "Музей",
+                "Торговый центр",
+                "Автомастерская",
+                "Съезд с трассы",
+                "Рождественский рынок",
                 "Storehouse",
-                "Discotheque",
-                "Stadium",
-                "Farm",
-                "Office building",
-                "Swimming bath",
+                "Дискотека",
+                "Стадион",
+                "Ферма",
+                "Офисное здание",
+                "Бассейн",
                 "Railroad Crossing",
-                "Theater",
-                "Fairground",
-                "River",
-                "Small Airport \\(Runway\\)",
-                "Large Airport \\(Runway\\)",
-                "Airport Terminal",
-                "Bank",
-                "Warehouse",
-                "Bridge",
-                "Fast Food Restaurant",
-                "Cargo Port",
-                "Recycling Centre",
-                "High rise",
-                "Cruise ship dock",
-                "Marina",
-                "Rail Crossing",
-                "Tunnel",
-                "Cold Storage Warehouse",
-                "Power Plant",
-                "Factory",
-                "Scrap yard",
-                "Subway station",
-                "Small chemical storage tank",
-                "Large chemical storage tank",
-                "Hotel",
-                "Bar",
-                "Landfill site"
+                "Театр",
+                "Ярмарка",
+                "Река",
+                "Малый аэропорт \\(ВПП\\)",
+                "Большой аэропорт \\(ВПП\\)",
+                "Терминал аэропорта",
+                "Банк",
+                "Склад",
+                "Мост",
+                "Ресторан быстрого питания",
+                "Грузовой порт",
+                "Центр переработки ВО",
+                "Высотка",
+                "Причал круизных лайнеров",
+                "Гавань",
+                "Железнодорожный переезд",
+                "Тоннель",
+                "Холодный склад",
+                "Электростанция",
+                "Фабрика",
+                "Утилизационный склад",
+                "Станция метро",
+                "Малое хранилище химикатов",
+                "Большое хранилище химикатов",
+                "Гостиница",
+                "Бар",
+                "Мусорный полигон",
+                "Паркинг"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -271,13 +261,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "Fire Station",
-                3: "Rescue Station",
-                5: "Police Station",
-                8: "Police Helicopter",
-                11: "fire boat",
-                12: "rescue boat",
-                "water": "Water Rescue"
+                0: "пожарные станции",
+                2: "станции спасателей",
+                6: "полицейских участков"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
@@ -294,4 +280,3 @@ $.get(missionlink)
             }
         }
     });
-

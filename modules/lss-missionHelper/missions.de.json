@@ -8876,5 +8876,132 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "495": {
+        "name": "Massenpanik in Diskothek",
+        "stations": {
+            "2": 10,
+            "6": 9
+        },
+        "vehicles": {
+            "fustw": 9
+        },
+        "credits": 3500,
+        "patients": {
+            "max": 17,
+            "transport": 40,
+            "nef": 20,
+            "rth": 2,
+            "specialisation": "Allgemeine Chirurgie"
+        },
+        "poi": 19,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "496": {
+        "name": "Pferd in Jauchegrube",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "lf": 1,
+            "rw": 1,
+            "dlk": 1,
+            "fwk": 1
+        },
+        "credits": 1000,
+        "poi": 21,
+        "percentages": {
+            "dlk": 70,
+            "fwk": 5
+        }
+    },
+    "497": {
+        "name": "Personensuche nahe Gew\u00e4sser",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 4,
+            "13": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "polheli": 1,
+            "fustw": 6,
+            "lf": 1,
+            "boot": 2,
+            "elw1": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 90,
+            "rth": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 1,
+        "special": {
+            "averageMinimumEmployeesPolice": 12,
+            "averageMinimumEmployeesFire": 9
+        }
+    },
+    "498": {
+        "name": "Personensuche nahe Gew\u00e4sser",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 4,
+            "13": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "polheli": 1,
+            "fustw": 6,
+            "lf": 1,
+            "boot": 2,
+            "elw1": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 90,
+            "rth": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 27,
+        "special": {
+            "averageMinimumEmployeesPolice": 12,
+            "averageMinimumEmployeesFire": 9
+        }
+    },
+    "499": {
+        "name": "Massenkarambolage auf Autobahn",
+        "stations": {
+            "0": 12,
+            "2": 9,
+            "6": 8
+        },
+        "vehicles": {
+            "fustw": 8,
+            "lf": 10,
+            "rw": 5,
+            "elw1": 2,
+            "oel": 2
+        },
+        "credits": 11000,
+        "patients": {
+            "max": 15,
+            "min": 6,
+            "transport": 60,
+            "nef": 40,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 16
     }
 }

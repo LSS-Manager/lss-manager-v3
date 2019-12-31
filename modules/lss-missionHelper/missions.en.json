@@ -5400,5 +5400,243 @@
         "percentages": {
             "heavyRescue": 30
         }
+    },
+    "323": {
+        "name": "Protestors on runway",
+        "stations": {
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 700,
+        "patients": {
+            "max": 4,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 28
+    },
+    "324": {
+        "name": "Protestors on runway",
+        "stations": {
+            "0": 1,
+            "3": 3,
+            "5": 4
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 6
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 7,
+            "transport": 30,
+            "specialisation": "General Internal"
+        },
+        "poi": 29
+    },
+    "325": {
+        "name": "Sick person",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true
+    },
+    "326": {
+        "name": "Panic button activation",
+        "stations": {
+            "3": 1,
+            "5": 6
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "prisoners": {
+            "max": 2
+        },
+        "expansions": {
+            "0": 90
+        }
+    },
+    "327": {
+        "name": "Car ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "328": {
+        "name": "Bulky waste ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "329": {
+        "name": "Small field fire caused by fireworks",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "330": {
+        "name": "Basement fire caused by fireworks",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "331": {
+        "name": "Burning Bus shelter ignited by fireworks",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "332": {
+        "name": "Fire on balcony caused by fireworks",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "333": {
+        "name": "Burning paper containers ignited by fireworks",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "334": {
+        "name": "Burning hedge ignited by firecracker",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "335": {
+        "name": "Drunk driver after New Year's Eve party",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "336": {
+        "name": "Burning thatched roof house ignited by fireworks",
+        "stations": {
+            "0": 7,
+            "3": 3,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "337": {
+        "name": "Car damaged by fireworks",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "338": {
+        "name": "Violation of Explosives Law",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "339": {
+        "name": "Hand injury caused by fireworks",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatology"
+    },
+    "340": {
+        "name": "Restraining Order Violation",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 300,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 90
+        }
     }
 }

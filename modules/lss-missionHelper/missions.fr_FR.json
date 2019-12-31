@@ -1,6 +1,6 @@
 {
     "0": {
-        "name": "Bin fire",
+        "name": "Feu de poubelle",
         "stations": {
             "0": 1
         },
@@ -11,7 +11,7 @@
         "poi": 4
     },
     "1": {
-        "name": "Container fire",
+        "name": "Feu de benne \u00e0 ordures",
         "stations": {
             "0": 1
         },
@@ -21,7 +21,7 @@
         "credits": 170
     },
     "2": {
-        "name": "Burning car",
+        "name": "Feu de V\u00e9hicule l\u00e9ger",
         "stations": {
             "0": 1
         },
@@ -36,7 +36,7 @@
         }
     },
     "3": {
-        "name": "Burning motorbike",
+        "name": "Feu de 2 roues",
         "stations": {
             "0": 1
         },
@@ -49,7 +49,7 @@
         }
     },
     "4": {
-        "name": "Burning grass",
+        "name": "Feu de v\u00e9g\u00e9tation",
         "stations": {
             "0": 1
         },
@@ -62,36 +62,37 @@
         }
     },
     "5": {
-        "name": "Room fire",
+        "name": "Feu de chambre",
         "stations": {
             "0": 2
         },
         "vehicles": {
             "truck": 2,
-            "platform": 1
+            "platform": 1,
+            "bchief": 1
         },
-        "credits": 1400,
+        "credits": 1100,
         "patients": {
             "max": 1,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "percentages": {
             "platform": 30
         }
     },
     "6": {
-        "name": "Garden shed fire",
+        "name": "Feu de cabanon",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 600
+        "credits": 300
     },
     "7": {
-        "name": "Burning leaves",
+        "name": "Feu divers",
         "stations": {
             "0": 1
         },
@@ -104,7 +105,7 @@
         }
     },
     "8": {
-        "name": "Bulk trash fire",
+        "name": "Feu d'encombrants",
         "stations": {
             "0": 1
         },
@@ -119,12 +120,12 @@
         }
     },
     "9": {
-        "name": "Bale of straw fire",
+        "name": "Feu de paille",
         "stations": {
             "0": 1
         },
         "vehicles": {
-            "truck": 1
+            "truck": 2
         },
         "credits": 250,
         "expansions": {
@@ -133,17 +134,17 @@
         }
     },
     "10": {
-        "name": "Tractor fire",
+        "name": "Feu d'engin agricole",
         "stations": {
             "0": 1
         },
         "vehicles": {
             "truck": 1
         },
-        "credits": 600
+        "credits": 300
     },
     "11": {
-        "name": "Burning callbox",
+        "name": "Feu de cabine t\u00e9l\u00e9phonique",
         "stations": {
             "0": 1
         },
@@ -153,7 +154,7 @@
         "credits": 240
     },
     "12": {
-        "name": "Tree on the road",
+        "name": "Arbre sur la Voie Publique",
         "stations": {
             "0": 1
         },
@@ -166,30 +167,41 @@
         }
     },
     "13": {
-        "name": "Burning truck",
+        "name": "Feu de Poids Lourd",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1,
+            "tanker": 1,
+            "bchief": 1
         },
-        "credits": 980
+        "credits": 980,
+        "percentages": {
+            "bchief": 40,
+            "tanker": 20
+        }
     },
     "14": {
-        "name": "Little field fire",
+        "name": "Feu de r\u00e9colte sur pied (petit)",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 3,
+            "tanker": 1,
+            "bchief": 1
         },
-        "credits": 1000,
+        "credits": 1500,
         "expansions": {
             "0": 15
+        },
+        "percentages": {
+            "bchief": 70
         }
     },
     "15": {
-        "name": "Little wildfire",
+        "name": "Feu en for\u00eat (petit)",
         "stations": {
             "0": 1
         },
@@ -200,17 +212,17 @@
         "poi": 3
     },
     "16": {
-        "name": "Caravan fire",
+        "name": "Feu de caravane",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1100
+        "credits": 400
     },
     "17": {
-        "name": "Mailbox on fire",
+        "name": "Feu de boite aux lettres",
         "stations": {
             "0": 1
         },
@@ -220,7 +232,7 @@
         "credits": 340
     },
     "18": {
-        "name": "Brush pile",
+        "name": "Feu de broussailles",
         "stations": {
             "0": 1
         },
@@ -230,7 +242,7 @@
         "credits": 700
     },
     "19": {
-        "name": "Burning trailer",
+        "name": "Remorque en feu",
         "stations": {
             "0": 1
         },
@@ -240,7 +252,7 @@
         "credits": 650
     },
     "20": {
-        "name": "Basement fire",
+        "name": "Feu de cave",
         "stations": {
             "0": 3
         },
@@ -251,58 +263,60 @@
         "credits": 2500,
         "patients": {
             "max": 2,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "percentages": {
             "bchief": 90
         }
     },
     "21": {
-        "name": "Chimney fire",
+        "name": "Feu de chemin\u00e9e",
         "stations": {
             "0": 3
         },
         "vehicles": {
+            "truck": 1,
             "platform": 1,
-            "bchief": 1,
-            "truck": 1
+            "bchief": 1
         },
-        "credits": 2400,
+        "credits": 1330,
+        "special": {
+            "averageMinimumEmployeesFire": 6
+        },
         "expansions": {
             "0": 22
-        },
-        "percentages": {
-            "platform": 100
         }
     },
     "22": {
-        "name": "Roof fire",
+        "name": "Feu de toiture",
         "stations": {
             "0": 3
         },
         "vehicles": {
+            "truck": 1,
             "platform": 1,
-            "truck": 3,
             "bchief": 1
         },
-        "credits": 2700,
+        "credits": 1400,
         "percentages": {
-            "platform": 100,
             "bchief": 50
         }
     },
     "23": {
-        "name": "Grease Fire",
+        "name": "Feu d'hydrocarbures",
         "stations": {
             "0": 3
         },
         "vehicles": {
-            "truck": 1
+            "truck": 2,
+            "tanker": 1,
+            "platform": 1,
+            "bchief": 1
         },
-        "credits": 1200
+        "credits": 1500
     },
     "24": {
-        "name": "Burning bus shelter",
+        "name": "Feu d'abri bus",
         "stations": {
             "0": 3
         },
@@ -313,18 +327,19 @@
         "poi": 4
     },
     "25": {
-        "name": "Road accident",
+        "name": "Accident Voie Publique",
         "stations": {
             "0": 3
         },
         "vehicles": {
+            "heavyRescue": 1,
             "truck": 1
         },
         "credits": 1000,
         "patients": {
             "max": 1,
             "transport": 40,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "expansions": {
             "0": 24,
@@ -333,35 +348,35 @@
         }
     },
     "26": {
-        "name": "Small Supermarket Fire",
+        "name": "Petit supermarch\u00e9 en feu",
         "stations": {
             "0": 5,
-            "2": 1
+            "2": 2
         },
         "vehicles": {
-            "truck": 4,
+            "truck": 1,
             "bchief": 1
         },
-        "credits": 1500,
+        "credits": 1100,
         "patients": {
             "max": 2,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 9
     },
     "27": {
-        "name": "Garage fire",
+        "name": "Feu de garage",
         "stations": {
             "0": 4
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1400
+        "credits": 400
     },
     "28": {
-        "name": "Burning machine",
+        "name": "Machine en feu",
         "stations": {
             "0": 5
         },
@@ -377,7 +392,7 @@
         }
     },
     "29": {
-        "name": "Unknown Tanker Spill",
+        "name": "D\u00e9versement de citerne inconnue",
         "stations": {
             "0": 13,
             "6": 2
@@ -392,7 +407,7 @@
         "credits": 5300
     },
     "30": {
-        "name": "Gas Leak",
+        "name": "Fuite de gaz",
         "stations": {
             "0": 1
         },
@@ -402,7 +417,7 @@
         "credits": 400
     },
     "31": {
-        "name": "Fireplace fire",
+        "name": "Feu de chemin\u00e9e",
         "stations": {
             "0": 6
         },
@@ -414,17 +429,17 @@
         "credits": 1310
     },
     "32": {
-        "name": "Harvester fire",
+        "name": "Feu d'engin agricole",
         "stations": {
-            "0": 6
+            "0": 3
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1200
+        "credits": 400
     },
     "33": {
-        "name": "Small Supermarket Fire",
+        "name": "Petit supermarch\u00e9 en feu",
         "stations": {
             "0": 5,
             "2": 1
@@ -437,12 +452,12 @@
         "patients": {
             "max": 2,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 9
     },
     "34": {
-        "name": "Fire in Hospital",
+        "name": "Feu d'ERP - H\u00f4pital",
         "stations": {
             "0": 10,
             "2": 6
@@ -450,20 +465,19 @@
         "vehicles": {
             "truck": 10,
             "bchief": 2,
-            "heavyRescue": 2,
             "tanker": 1,
             "platform": 3
         },
-        "credits": 6000,
+        "credits": 5000,
         "patients": {
             "max": 25,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 2
     },
     "35": {
-        "name": "Alcoholic intoxication",
+        "name": "Ivresse manifeste",
         "stations": {
             "2": 1,
             "6": 1
@@ -474,56 +488,56 @@
         "patients": {
             "max": 1,
             "min": 1,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         }
     },
     "36": {
-        "name": "Chest Pains",
+        "name": "Douleurs Thoraciques R\u00e9centes",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 100,
-        "specialisation": "Cardiology"
+        "specialisation": "Cardiologie"
     },
     "37": {
-        "name": "Acute asthma",
+        "name": "Crise d'asthme",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 50,
-        "specialisation": "General Internal"
+        "specialisation": "Interne g\u00e9n\u00e9ral"
     },
     "38": {
-        "name": "Seizure",
+        "name": "Convulsions",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 50,
-        "specialisation": "Neurology"
+        "specialisation": "Neurologie"
     },
     "39": {
-        "name": "Fever",
+        "name": "Fi\u00e8vre",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 90,
-        "specialisation": "General Internal"
+        "specialisation": "Interne g\u00e9n\u00e9ral"
     },
     "40": {
-        "name": "Fallen person",
+        "name": "Chute",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 30,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologie"
     },
     "41": {
-        "name": "Car workshop fire",
+        "name": "Feu d'ERP - Concessionnaire",
         "stations": {
             "0": 14,
             "2": 2,
@@ -542,7 +556,7 @@
         "patients": {
             "max": 4,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 15,
         "percentages": {
@@ -550,25 +564,16 @@
         }
     },
     "42": {
-        "name": "Fallen person",
+        "name": "Chute",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 30,
-        "specialisation": "Traumatology"
-    },
-    "43": {
-        "name": "Fallen person",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologie"
     },
     "44": {
-        "name": "Shoplifting",
+        "name": "Vol \u00e0 l\u2019\u00e9talage",
         "stations": {
             "6": 1
         },
@@ -582,7 +587,7 @@
         }
     },
     "45": {
-        "name": "Shoplifting",
+        "name": "Vol \u00e0 l\u2019\u00e9talage",
         "stations": {
             "6": 1
         },
@@ -596,7 +601,7 @@
         }
     },
     "46": {
-        "name": "Parked car accident",
+        "name": "Accident de voiture gar\u00e9e",
         "stations": {
             "6": 1
         },
@@ -607,7 +612,7 @@
         "poi": 9
     },
     "47": {
-        "name": "Parked car accident",
+        "name": "Accident de voiture gar\u00e9e",
         "stations": {
             "6": 1
         },
@@ -618,12 +623,12 @@
         "poi": 10
     },
     "48": {
-        "name": "Metal burglary",
+        "name": "Vol de M\u00e9taux",
         "stations": {
             "6": 1
         },
         "vehicles": {
-            "police": 1
+            "police": 2
         },
         "credits": 150,
         "poi": 8,
@@ -632,7 +637,7 @@
         }
     },
     "49": {
-        "name": "Pickpocketing",
+        "name": "Pickpocket",
         "stations": {
             "6": 1
         },
@@ -646,7 +651,7 @@
         }
     },
     "50": {
-        "name": "Fare dodger",
+        "name": "Resquilleur",
         "stations": {
             "6": 1
         },
@@ -657,7 +662,7 @@
         "poi": 4
     },
     "51": {
-        "name": "Fare dodger",
+        "name": "Resquilleur",
         "stations": {
             "6": 1
         },
@@ -668,7 +673,7 @@
         "poi": 5
     },
     "52": {
-        "name": "Fare dodger",
+        "name": "Resquilleur",
         "stations": {
             "6": 1
         },
@@ -679,7 +684,7 @@
         "poi": 6
     },
     "53": {
-        "name": "Fare dodger",
+        "name": "Resquilleur",
         "stations": {
             "6": 1
         },
@@ -690,7 +695,7 @@
         "poi": 7
     },
     "54": {
-        "name": "Parked car accident",
+        "name": "Accident de voiture gar\u00e9e",
         "stations": {
             "6": 1
         },
@@ -701,7 +706,7 @@
         "poi": 14
     },
     "55": {
-        "name": "Brawl",
+        "name": "Rixe",
         "stations": {
             "6": 3
         },
@@ -711,14 +716,14 @@
         "credits": 700,
         "patients": {
             "max": 3,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "prisoners": {
             "max": 2
         }
     },
     "56": {
-        "name": "Rioter",
+        "name": "Casseur",
         "stations": {
             "6": 2
         },
@@ -734,36 +739,41 @@
         }
     },
     "57": {
-        "name": "Unannounced demonstration",
+        "name": "Manifestation non autoris\u00e9e",
         "vehicles": {
             "police": 7
         },
         "credits": 10020
     },
     "58": {
-        "name": "Kitchen Fire",
+        "name": "Feu de cuisine",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1,
+            "platform": 1,
+            "bchief": 1
         },
-        "credits": 1000
+        "credits": 1000,
+        "percentages": {
+            "platform": 10,
+            "bchief": 10
+        }
     },
     "59": {
-        "name": "Animal Rescue",
+        "name": "Sauvetage d'animal",
         "stations": {
-            "0": 6
+            "0": 3
         },
         "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+            "truck": 1
         },
-        "credits": 900,
+        "credits": 400,
         "poi": 21
     },
     "60": {
-        "name": "Sports hall fire",
+        "name": "Feu d'ERP - Salle de sport",
         "stations": {
             "0": 9,
             "2": 2
@@ -777,30 +787,31 @@
         "patients": {
             "max": 4,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 12
     },
     "61": {
-        "name": "Light Aircraft Crash (Airfield)",
+        "name": "Crash d'a\u00e9ronef",
         "stations": {
             "0": 4,
-            "2": 2
+            "2": 3
         },
         "vehicles": {
-            "truck": 1,
-            "arff": 2
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1
         },
-        "credits": 2500,
+        "credits": 2000,
         "patients": {
             "max": 4,
             "transport": 60,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "poi": 28
     },
     "62": {
-        "name": "Noise Complaint",
+        "name": "Tapage",
         "stations": {
             "6": 1
         },
@@ -810,16 +821,16 @@
         "credits": 400
     },
     "63": {
-        "name": "Transient Ischemic Attack",
+        "name": "Accident Isch\u00e9mique Transitoire",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
         "transport": 70,
-        "specialisation": "Neurosurgery"
+        "specialisation": "Neurochirurgie"
     },
     "64": {
-        "name": "Accident Involving a Bus",
+        "name": "Accident de bus",
         "stations": {
             "0": 3,
             "2": 8
@@ -832,40 +843,48 @@
         "patients": {
             "max": 12,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         }
     },
     "65": {
-        "name": "Kitchen Fire",
+        "name": "Feu de cuisine",
         "stations": {
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1,
+            "platform": 1,
+            "bchief": 1
         },
-        "credits": 1000
+        "credits": 1000,
+        "percentages": {
+            "platform": 10,
+            "bchief": 10
+        }
     },
     "66": {
-        "name": "Room fire",
+        "name": "Feu de chambre",
         "stations": {
             "0": 2
         },
         "vehicles": {
             "truck": 2,
-            "platform": 1
+            "platform": 1,
+            "bchief": 1
         },
         "credits": 1400,
         "patients": {
             "max": 1,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "percentages": {
-            "platform": 30
+            "platform": 40,
+            "bchief": 40
         }
     },
     "67": {
-        "name": "Brawl",
+        "name": "Rixe",
         "stations": {
             "6": 3
         },
@@ -875,14 +894,14 @@
         "credits": 700,
         "patients": {
             "max": 3,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "prisoners": {
             "max": 2
         }
     },
     "68": {
-        "name": "Big Supermarket Fire",
+        "name": "Feu d'ERP - Supermarch\u00e9",
         "stations": {
             "0": 8,
             "2": 3,
@@ -896,11 +915,11 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 3000,
+        "credits": 3300,
         "patients": {
             "max": 6,
             "transport": 30,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 10,
         "percentages": {
@@ -908,7 +927,7 @@
         }
     },
     "69": {
-        "name": "Unknown Tanker Spill",
+        "name": "D\u00e9versement de citerne inconnue",
         "stations": {
             "0": 13,
             "6": 2
@@ -922,42 +941,16 @@
         },
         "credits": 4300
     },
-    "70": {
-        "name": "Big Supermarket Fire",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2,
-            "platform": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "police": 1
-        },
-        "credits": 3000,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "General Internal"
-        },
-        "poi": 10,
-        "percentages": {
-            "tanker": 20
-        }
-    },
     "71": {
-        "name": "Nosebleed",
+        "name": "Epistaxis",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
-        "specialisation": "General Surgeon"
+        "specialisation": "Chirurgien g\u00e9n\u00e9ral"
     },
     "72": {
-        "name": "Light Aircraft Crash",
+        "name": "Accident d\u2019aviation l\u00e9g\u00e8re",
         "stations": {
             "0": 13,
             "2": 2
@@ -969,18 +962,18 @@
             "tanker": 1,
             "hazmat": 1
         },
-        "credits": 4000,
+        "credits": 3700,
         "patients": {
             "max": 4,
             "transport": 60,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "percentages": {
             "hazmat": 50
         }
     },
     "73": {
-        "name": "Serious Accident Involving a Bus",
+        "name": "Accident de bus grave",
         "stations": {
             "0": 5,
             "2": 8,
@@ -997,11 +990,11 @@
         "patients": {
             "max": 12,
             "transport": 80,
-            "specialisation": "General Surgeon"
+            "specialisation": "Chirurgien g\u00e9n\u00e9ral"
         }
     },
     "74": {
-        "name": "Major fire",
+        "name": "Incendie de grande ampleur",
         "vehicles": {
             "truck": 10,
             "bchief": 3,
@@ -1012,136 +1005,7 @@
         "credits": 10210
     },
     "75": {
-        "name": "Burning bogle",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 350
-    },
-    "76": {
-        "name": "Burning pumpkin field",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 850
-    },
-    "77": {
-        "name": "Pumpkin soup overcooked",
-        "stations": {
-            "0": 3,
-            "2": 1
-        },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1
-        },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "specialisation": "Neurology"
-        }
-    },
-    "78": {
-        "name": "Witch in tree",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "platform": 1,
-            "truck": 1
-        },
-        "credits": 900,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Traumatology"
-        }
-    },
-    "80": {
-        "name": "Monster broke loose",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 4
-        },
-        "credits": 1600
-    },
-    "81": {
-        "name": "Pumpkin stolen",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100
-    },
-    "82": {
-        "name": "Frankenstein sighted",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 3
-        },
-        "credits": 550
-    },
-    "83": {
-        "name": "Candy theft",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100
-    },
-    "84": {
-        "name": "Cyclist hit by HV",
-        "stations": {
-            "0": 4
-        },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 2
-        },
-        "credits": 2000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatology"
-        }
-    },
-    "85": {
-        "name": "School fire",
-        "stations": {
-            "0": 13,
-            "2": 3
-        },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2
-        },
-        "credits": 5300,
-        "patients": {
-            "max": 6,
-            "transport": 50,
-            "specialisation": "General Internal"
-        },
-        "poi": 12
-    },
-    "86": {
-        "name": "Theft at christmas market",
+        "name": "Vol au march\u00e9 de No\u00ebl",
         "stations": {
             "6": 2
         },
@@ -1151,8 +1015,8 @@
         "credits": 300,
         "poi": 17
     },
-    "87": {
-        "name": "Burning christmas market stall",
+    "76": {
+        "name": "Feu d'\u00e9choppe au march\u00e9 de No\u00ebl",
         "stations": {
             "0": 2
         },
@@ -1162,12 +1026,12 @@
         "credits": 610,
         "patients": {
             "max": 1,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 17
     },
-    "88": {
-        "name": "Fire at christmas market",
+    "77": {
+        "name": "Feu divers sur le march\u00e9 de No\u00ebl",
         "stations": {
             "0": 1
         },
@@ -1177,21 +1041,28 @@
         "credits": 310,
         "patients": {
             "max": 1,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "poi": 17
     },
-    "89": {
-        "name": "Drunken person at christmas market",
+    "78": {
+        "name": "Accident Voie Publique (sur glace)",
         "stations": {
-            "2": 1
+            "0": 4
         },
-        "onlyRd": true,
-        "specialisation": "General Internal",
-        "poi": 17
+        "vehicles": {
+            "heavyRescue": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologie"
+        }
     },
-    "90": {
-        "name": "Burning christmas tree",
+    "79": {
+        "name": "Feu de Sapin de No\u00ebl",
         "stations": {
             "0": 6
         },
@@ -1200,8 +1071,8 @@
         },
         "credits": 870
     },
-    "91": {
-        "name": "Burning advent wreath",
+    "80": {
+        "name": "Feu de couronne de l'Avent",
         "stations": {
             "0": 5
         },
@@ -1210,70 +1081,23 @@
         },
         "credits": 800
     },
-    "92": {
-        "name": "Brawl at christmas market",
+    "81": {
+        "name": "Rixe au march\u00e9 de No\u00ebl",
         "stations": {
             "6": 2
         },
         "vehicles": {
-            "police": 2
+            "police": 3
         },
-        "credits": 600,
+        "credits": 700,
         "patients": {
             "max": 2,
-            "specialisation": "Traumatology"
+            "specialisation": "Traumatologie"
         },
         "poi": 17
     },
-    "93": {
-        "name": "Aggressive Passenger",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 2
-        },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "transport": 30,
-            "specialisation": "General Internal"
-        }
-    },
-    "94": {
-        "name": "Person trapped under machine",
-        "stations": {
-            "0": 4,
-            "2": 1
-        },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2
-        },
-        "credits": 1100,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatology"
-        }
-    },
-    "95": {
-        "name": "Damaged Roof",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1
-        },
-        "credits": 450,
-        "percentages": {
-            "platform": 50
-        }
-    },
-    "96": {
-        "name": "Car pileup",
+    "82": {
+        "name": "Carambolage",
         "stations": {
             "0": 5,
             "2": 2,
@@ -1291,11 +1115,11 @@
             "max": 5,
             "min": 1,
             "transport": 20,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         }
     },
-    "97": {
-        "name": "A truck with a semitrailer on fire",
+    "83": {
+        "name": "Un camion avec une semi-remorque en feu",
         "stations": {
             "0": 3
         },
@@ -1304,8 +1128,8 @@
         },
         "credits": 900
     },
-    "98": {
-        "name": "Tractor accident",
+    "84": {
+        "name": "Accident de tracteur",
         "stations": {
             "0": 3,
             "2": 1
@@ -1319,12 +1143,12 @@
         "patients": {
             "max": 1,
             "transport": 0,
-            "specialisation": "General Surgeon"
+            "specialisation": "Chirurgien g\u00e9n\u00e9ral"
         },
         "poi": 21
     },
-    "99": {
-        "name": "Car ignited by fireworks",
+    "85": {
+        "name": "Feu de voiture caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 1
         },
@@ -1333,8 +1157,8 @@
         },
         "credits": 370
     },
-    "100": {
-        "name": "Bulky waste ignited by fireworks",
+    "86": {
+        "name": "Feu d'encombrants caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 1
         },
@@ -1343,8 +1167,8 @@
         },
         "credits": 220
     },
-    "101": {
-        "name": "Small field fire caused by fireworks",
+    "87": {
+        "name": "Petit feu de champ caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 2
         },
@@ -1353,8 +1177,8 @@
         },
         "credits": 1000
     },
-    "102": {
-        "name": "Basement fire caused by fireworks",
+    "88": {
+        "name": "Sous-sol en feu caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 3
         },
@@ -1365,14 +1189,14 @@
         "credits": 2500,
         "patients": {
             "max": 2,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "percentages": {
             "bchief": 90
         }
     },
-    "103": {
-        "name": "Burning Bus shelter ignited by fireworks",
+    "89": {
+        "name": "Abribus en feu caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 3
         },
@@ -1382,8 +1206,8 @@
         "credits": 900,
         "poi": 4
     },
-    "104": {
-        "name": "Fire on balcony caused by fireworks",
+    "90": {
+        "name": "Feu de balcon caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 2
         },
@@ -1396,8 +1220,8 @@
             "platform": 30
         }
     },
-    "105": {
-        "name": "Burning paper containers ignited by fireworks",
+    "91": {
+        "name": "Feu de container papier caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 1
         },
@@ -1406,8 +1230,8 @@
         },
         "credits": 400
     },
-    "106": {
-        "name": "Burning hedge ignited by firecracker",
+    "92": {
+        "name": "Feu de haie caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 1
         },
@@ -1416,8 +1240,8 @@
         },
         "credits": 400
     },
-    "107": {
-        "name": "Drunk driver after New Year's Eve party",
+    "93": {
+        "name": "Conduite en \u00e9tat d'ivresse apr\u00e8s le R\u00e9veillon",
         "stations": {
             "6": 1
         },
@@ -1426,8 +1250,8 @@
         },
         "credits": 150
     },
-    "108": {
-        "name": "Burning thatched roof house ignited by fireworks",
+    "94": {
+        "name": "Feu de chaumi\u00e8re caus\u00e9 par des feux d'artifice",
         "stations": {
             "0": 7,
             "2": 3,
@@ -1445,14 +1269,14 @@
             "max": 2,
             "min": 1,
             "transport": 50,
-            "specialisation": "General Internal"
+            "specialisation": "Interne g\u00e9n\u00e9ral"
         },
         "percentages": {
             "air": 30
         }
     },
-    "109": {
-        "name": "Car damaged by fireworks",
+    "95": {
+        "name": "Voiture endommag\u00e9e par des feux d'artifice",
         "stations": {
             "6": 1
         },
@@ -1461,8 +1285,8 @@
         },
         "credits": 200
     },
-    "110": {
-        "name": "Violation of Explosives Act (1999)",
+    "96": {
+        "name": "Infraction au d\u00e9cret n\u00b0\u00a090-897 sur les artifices de divertissement",
         "stations": {
             "6": 1
         },
@@ -1471,30 +1295,27 @@
         },
         "credits": 200
     },
-    "111": {
-        "name": "Hand injury caused by fireworks",
+    "97": {
+        "name": "Blessure \u00e0 la main caus\u00e9e par des feux d'artifice",
         "stations": {
             "2": 3
         },
         "onlyRd": true,
         "transport": 90,
-        "specialisation": "Traumatology"
+        "specialisation": "Traumatologie"
     },
-    "112": {
-        "name": "HGV Fire",
+    "98": {
+        "name": "Toit endommag\u00e9",
         "stations": {
-            "0": 7,
-            "6": 1
+            "0": 3
         },
         "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1,
-            "police": 1
+            "truck": 1,
+            "platform": 1
         },
-        "credits": 2500,
+        "credits": 450,
         "percentages": {
-            "tanker": 10
+            "platform": 50
         }
     }
 }

@@ -81,6 +81,55 @@
             set: "Guardar la posición actual"
         }
     };
+
+    I18n.translations.it_IT.lssm.centermap = {
+        center: "Centro",
+        settings: {
+            title: "Mappa del centro",
+            choose: "Selezionare",
+            option1: "Predefinito",
+            option1desc: "Livello di zoom predefinito e centratura sul centro di controllo ",
+            option2: "Dinamico",
+            alliance: "Prendere in considerazione l'alleanza",
+            option2desc: "Mappa del centro che tutte le missioni e le stazioni sono visibili.",
+            option3: "Personalizzato",
+            option3desc: "Impostare la posizione personalizzata e il livello di zoom.",
+            set: "Salva posizione corrente"
+        }
+    };
+
+    I18n.translations.fr_FR.lssm.centermap = {
+        center: "Centre",
+        settings: {
+            title: "Plan du centre",
+            choose: "Veuillez sélectionner",
+            option1: "Par défaut",
+            option1desc: "Niveau de zoom par défaut et centrage sur le centre de contrôle ",
+            option2: "Dynamique",
+            alliance: "Tenir compte de l'alliance",
+            option2desc: "Centrer la carte de manière à ce que toutes les missions et stations soient visibles.",
+            option3: "Personnalisé",
+            option3desc: "Réglez la position et le niveau de zoom personnalisés.",
+            set: "Enregistrer la position actuelle"
+        }
+    };
+
+    I18n.translations.ru_RU.lssm.centermap = {
+        center: "Центр",
+        settings: {
+            title: "Карта-центр",
+            choose: "Пожалуйста, выберите",
+            option1: "По умолчанию",
+            option1desc: "Уровень масштабирования по умолчанию и центр внимания на блоке управления ",
+            option2: "Динамический",
+            alliance: "Принять во внимание альянс",
+            option2desc: "Карта центра, чтобы все миссии и станции были видны.",
+            option3: "Пользовательский",
+            option3desc: "Установите пользовательское положение и уровень масштабирования.",
+            set: "Сохранить текущее положение"
+        }
+    };
+
     I18n.translations.nl.lssm.centermap = {
         center: "Centreren",
         settings: {

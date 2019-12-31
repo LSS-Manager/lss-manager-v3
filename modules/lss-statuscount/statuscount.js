@@ -123,6 +123,78 @@
             }
         }
     };
+    I18n.translations.it_IT.lssm.statuscount = {
+        name: "Stato - Conto",
+        settings: {
+            show: "Mostra/Nascondi",
+            status: {
+                show: {
+                    label: "Mostra",
+                    description: "Lo stato dovrebbe essere visualizzato? Importante: questa impostazione ha una priorità maggiore rispetto ad altre impostazioni, cioè se questa impostazione è disattivata, lo stato non verrà mai visualizzato."
+                },
+                hide: {
+                    label: "Mostra solo su richiesta",
+                    description: "Il contatore viene visualizzato solo se almeno un veicolo si trova in questo stato. (Attenzione: Se il contatore è completamente nascosto, non viene mai visualizzato, anche se questa impostazione è attivata!)"
+                },
+                percent: {
+                    label: "Mostra percentuali",
+                    description: "Dovrebbe essere visualizzata la percentuale di questo stato?"
+                }
+            },
+            round: {
+                label: "Percentuali rotonde",
+                description: "A quante cifre decimali devono essere arrotondate le percentuali (se visualizzate)?"
+            }
+        }
+    };
+    I18n.translations.fr_FR.lssm.statuscount = {
+        name: "Nombre de statuts",
+        settings: {
+            show: "Afficher/Masquer",
+            status: {
+                show: {
+                    label: "Montrer",
+                    description: "Le statut doit-il être affiché ? Important : Ce réglage a une priorité plus élevée que les autres réglages, c'est-à-dire que si ce réglage est désactivé, l'état ne sera jamais affiché."
+                },
+                hide: {
+                    label: "Montrer seulement sur demande",
+                    description: "Le compteur n'est affiché que si au moins un véhicule se trouve dans ce statut. (Attention : Si le compteur est complètement masqué, il ne sera jamais affiché, même si ce paramètre est activé !)"
+                },
+                percent: {
+                    label: "Afficher les pourcentages",
+                    description: "Le pourcentage de ce statut doit-il être affiché ?"
+                }
+            },
+            round: {
+                label: "Pourcentages arrondis",
+                description: "À combien de décimales les pourcentages (s'ils sont affichés) doivent-ils être arrondis ?"
+            }
+        }
+    };
+    I18n.translations.ru_RU.lssm.statuscount = {
+        name: "Статус-счет",
+        settings: {
+            show: "Показать/скрыть",
+            status: {
+                show: {
+                    label: "Показать",
+                    description: "Должен ли вообще отображаться статус? Важно: Этот параметр имеет более высокий приоритет, чем другие параметры, т.е. если этот параметр выключен, состояние никогда не будет отображаться."
+                },
+                hide: {
+                    label: "Показать только по требованию",
+                    description: "Счетчик отображается только в том случае, если хотя бы одно транспортное средство находится в этом состоянии. (Внимание: Если счетчик полностью скрыт, он никогда не будет отображаться, даже если эта настройка включена!)"
+                },
+                percent: {
+                    label: "Показать проценты",
+                    description: "Должен ли отображаться процент от этого состояния?"
+                }
+            },
+            round: {
+                label: "Процентные доли округления",
+                description: "Сколько знаков после запятой должно округляться до процентного соотношения (если отображаются)?"
+            }
+        }
+    };
     I18n.translations.nl.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

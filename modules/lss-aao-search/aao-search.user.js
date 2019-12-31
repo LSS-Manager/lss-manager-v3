@@ -23,6 +23,24 @@
         reset: "Återställa",
         select: "Vänligen välj..."
     };
+    I18n.translations.it_IT['lssm']['aaosearch'] = {
+        search_aao: "Ricerca AAO",
+        use_dd: "Utilizzare il menu a tendina: ",
+        reset: "Reset",
+        select: "Please select..."
+    };
+    I18n.translations.fr_FR['lssm']['aaosearch'] = {
+        search_aao: "Recherche AAO",
+        use_dd: "Utiliser le menu déroulant: ",
+        reset: "Réinitialiser",
+        select: "Veuillez sélectionner....."
+    };
+    I18n.translations.ru_RU['lssm']['aaosearch'] = {
+        search_aao: "Поиск в ААО",
+        use_dd: "Использовать выпадающий список: ",
+        reset: "Сброс",
+        select: "Пожалуйста, выберите...."
+    };
     I18n.translations.es['lssm']['aaosearch'] = {
         search_aao: "Buscar AAO",
         use_dd: "Use el menú desplegable: ",

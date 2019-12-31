@@ -1,9 +1,9 @@
-(function ($, win,I18n) {
-    I18n.translations.de['lssm']['allianceMissionlistShare']={
-        title:"Im Verband freigeben"
+(function ($, win, I18n) {
+    I18n.translations.de['lssm']['allianceMissionlistShare'] = {
+        title: "Im Verband freigeben"
     };
-    I18n.translations.en['lssm']['allianceMissionlistShare']={
-        title:"Release in alliance"
+    I18n.translations.en['lssm']['allianceMissionlistShare'] = {
+        title: "Release in alliance"
     };
     I18n.translations.pl_PL['lssm']['allianceMissionlistShare'] = {
         title: "Uwolnienie w sojuszu"
@@ -11,11 +11,20 @@
     I18n.translations.sv_SE['lssm']['allianceMissionlistShare'] = {
         title: "Släpp i allians"
     };
-    I18n.translations.es['lssm']['allianceMissionlistShare']={
-        title:"Lanzamiento en alianza"
+    I18n.translations.es['lssm']['allianceMissionlistShare'] = {
+        title: "Lanzamiento en alianza"
     };
-	  I18n.translations.nl['lssm']['allianceMissionlistShare']={
-        title:"In team vrijgeven"
+    I18n.translations.it_IT['lssm']['allianceMissionlistShare'] = {
+        title: "Rilascio in alleanza"
+    };
+    I18n.translations.fr_FR['lssm']['allianceMissionlistShare'] = {
+        title: "Libération en alliance"
+    };
+    I18n.translations.ru_RU['lssm']['allianceMissionlistShare'] = {
+        title: "Освобождение в альянсе"
+    };
+    I18n.translations.nl['lssm']['allianceMissionlistShare'] = {
+        title: "In team vrijgeven"
     };
 
     // NOchmals checken kann aber denke ich raus
@@ -25,7 +34,7 @@
         buffermPa_sm(e);
         shareMissions(e);
     };*/
-    $(document).bind(lssm.hook.postname("missionMarkerAdd"),function(event,e){
+    $(document).bind(lssm.hook.postname("missionMarkerAdd"), function (event, e) {
         shareMissions(e.id);
     });
 
@@ -39,12 +48,13 @@
                 create($('#mission_panel_heading_' + id), id, ' btn__disabled');
             }
         } else {
-            $('#mission_panel_' + id).hasClass('panel-success')&&$('#allianceShareButton_' + id+' .allianceShareButton').addClass('btn__disabled');
+            $('#mission_panel_' + id).hasClass('panel-success') && $('#allianceShareButton_' + id + ' .allianceShareButton').addClass('btn__disabled');
         }
     }
+
     function create(h, id, allianceShareButtonDisabled) {
         let div = $('<div class="pull-right" id="allianceShareButton_' + id + '"></div>');
-        let $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="'+I18n.t('lssm.allianceMissionlistShare.title')+'"><i class="glyphicon glyphicon-share-alt"></i></a>');
+        let $button = $('<a  href="#" class="btn btn-success btn-xs allianceShareButton pull-right' + allianceShareButtonDisabled + '" data-header="' + id + '" title="' + I18n.t('lssm.allianceMissionlistShare.title') + '"><i class="glyphicon glyphicon-share-alt"></i></a>');
         div.prepend($button);
         h.prepend(div);
     }
@@ -58,4 +68,4 @@
         });
         $(this).addClass('btn__disabled');
     });
-})($, window,I18n);
+})($, window, I18n);

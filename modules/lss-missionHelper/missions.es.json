@@ -1141,6 +1141,100 @@
         },
         "poi": 12
     },
+    "86": {
+        "name": "Robo en el mercado navide\u00f1o",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "poi": 17
+    },
+    "87": {
+        "name": "Puesto del mercado de Navidad en llamas",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 610,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 17
+    },
+    "88": {
+        "name": "Incendio en el mercado navide\u00f1o",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 17
+    },
+    "89": {
+        "name": "Accidente de tr\u00e1fico debido a hielo",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 1410,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatolog\u00eda"
+        },
+        "percentages": {
+            "heavyRescue": 100
+        }
+    },
+    "90": {
+        "name": "\u00c1rbol de navidad en llamas",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 870
+    },
+    "91": {
+        "name": "Corona de Adviento en llamas",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 800
+    },
+    "92": {
+        "name": "Pelea en mercado navide\u00f1o",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 600,
+        "patients": {
+            "max": 2,
+            "specialisation": "Traumatolog\u00eda"
+        },
+        "poi": 17
+    },
     "93": {
         "name": "Pasajero agresivo",
         "stations": {
@@ -1154,6 +1248,263 @@
             "max": 1,
             "transport": 30,
             "specialisation": "Medicina interna general"
+        }
+    },
+    "94": {
+        "name": "Persona atrapada bajo maquinaria",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatolog\u00eda"
+        }
+    },
+    "95": {
+        "name": "Techo da\u00f1ado",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 450,
+        "percentages": {
+            "platform": 50
+        }
+    },
+    "96": {
+        "name": "Apilamiento de coches",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 1,
+            "rtw": 3
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 20,
+            "specialisation": "Medicina interna general"
+        }
+    },
+    "97": {
+        "name": "Cami\u00f3n con semirremolque en llamas",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 3
+        },
+        "credits": 900
+    },
+    "98": {
+        "name": "Accidente de tractor",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "rtw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 0,
+            "specialisation": "Cirug\u00eda general"
+        },
+        "poi": 21
+    },
+    "99": {
+        "name": "Coche en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370
+    },
+    "100": {
+        "name": "Mont\u00f3n de basura en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220
+    },
+    "101": {
+        "name": "Solar en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "102": {
+        "name": "S\u00f3tano en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "103": {
+        "name": "Marquesina en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "104": {
+        "name": "Balc\u00f3n en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "105": {
+        "name": "Contenedores de papel en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "106": {
+        "name": "Seto en llamas a causa de un petardo",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "107": {
+        "name": "Conductor borracho tras la fiesta de Nochevieja",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150
+    },
+    "108": {
+        "name": "Casa con tejado de paja en llamas a causa de los fuegos artificiales",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1,
+            "police": 2
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "air": 30
+        }
+    },
+    "109": {
+        "name": "Coche da\u00f1ado por los fuegos artificiales",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "110": {
+        "name": "Infracci\u00f3n del Reglamento de explosivos",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200
+    },
+    "111": {
+        "name": "Lesi\u00f3n en la mano a causa de los fuegos artificiales",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Traumatolog\u00eda"
+    },
+    "112": {
+        "name": "Veh\u00edculo de mercanc\u00eda pesada en llamas",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 2500,
+        "percentages": {
+            "tanker": 10
         }
     }
 }

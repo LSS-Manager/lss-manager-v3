@@ -384,6 +384,45 @@
             }
         ]
     };
+    I18n.translations.it_IT.lssm.heatmap = {
+        active: 'Attivo',
+        vehicleType: 'Gruppi',
+        radius: 'Raggio',
+        intensity: 'Intensità',
+        close: 'Chiudere',
+        vehicleGroups: [
+            {
+                name: 'Combinazione propria',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.fr_FR.lssm.heatmap = {
+        active: 'Actif',
+        vehicleType: 'Groupes',
+        radius: 'Rayon',
+        intensity: 'Intensité',
+        close: 'Fermer',
+        vehicleGroups: [
+            {
+                name: 'Combinaison propre',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ru_RU.lssm.heatmap = {
+        active: 'Активный',
+        vehicleType: 'Группы',
+        radius: 'Радиус',
+        intensity: 'Интенсивность',
+        close: 'Близко',
+        vehicleGroups: [
+            {
+                name: 'Собственная комбинация',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',
@@ -505,7 +544,7 @@
     }
 
     function renderMapSettings() {
-        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
+        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 26px; width:26px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append(markup);
         $('#ls-heatmap-config-img').click(() => {
             $('#ls-heatmap-config-custom').remove();

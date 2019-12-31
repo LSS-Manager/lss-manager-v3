@@ -79,7 +79,10 @@ else if (I18n.locale == "fj")
         "10": ["Rapid Response Vehicle", 2],
         "11": ["Police helicopter", 6],
         "12": ["Dog Support Unit (DSU)", 6],
-        "13": ["Armed Response Vehicle (ARV)", 6]
+        "13": ["Armed Response Vehicle (ARV)", 6],
+        "14": ["Breathing Apparatus Support Unit (BASU)", 0],
+        "15": ["Incident Command and Control Unit (ICCU)", 0],
+        "16": ["Rescue Pump", 0],
     };
 }
 else if (I18n.locale == "eu")
@@ -105,7 +108,10 @@ else if (I18n.locale == "eu")
         "6": ["Water Tanker", 0],
         "7": ["HAZMAT Truck", 0],
         "8": ["Police Car", 6],
-        "9": ["Helitak", 2]
+        "9": ["Helitak", 2],
+        "10": ["Mobile Air", 0],
+        "11": ["MCV", 0],
+        "12": ["Rescue Engine", 0]
     };
 }
 else if (I18n.locale == "es")
@@ -129,7 +135,10 @@ else if (I18n.locale == "es")
         "6": ["Camión BNP", 0],
         "7": ["Camión TPP", 0],
         "8": ["Coche patrulla", 6],
-        "9": ["Helicóptero HSR", 2]
+        "9": ["Helicóptero HSR", 2],
+        "10": ["Vehículo aéreo", 0],
+        "11": ["Vehículo de mando móvil", 0],
+        "12": ["Vehículo de rescate", 0]
     };
 }
 else if (I18n.locale == "sv_SE")
@@ -155,7 +164,10 @@ else if (I18n.locale == "sv_SE")
         "6": ["BAS 4 - Tankbil", 0],
         "7": ["Industribrandbil", 0],
         "8": ["Radiobil", 6],
-        "9": ["Räddningshelikopter", 2]
+        "9": ["Räddningshelikopter", 2],
+        "10": ["Luftfordon", 0],
+        "11": ["Mobilt ledningsfordon", 0],
+        "12": ["Räddningsfordon", 0]
     };
 }
 else if (I18n.locale == "pl_PL")
@@ -181,7 +193,93 @@ else if (I18n.locale == "pl_PL")
         "6": ["Cysterna gaśnicza", 0],
         "7": ["Samochód ratownictwa chemicznego", 0],
         "8": ["Radiowóz", 6],
-        "9": ["Śmigłowiec LPR", 2]
+        "9": ["Śmigłowiec LPR", 2],
+        "10": ["SPGaz", 0],
+        "11": ["Samochód Dowodzenia i Łączności", 0],
+        "12": ["GBARt", 0],
+    };
+}
+else if (I18n.locale == "it_IT") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Estensione ambulanze": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cella della prigione": 10,
+        "Altra cella": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["ABP", 0],
+        "1": ["AS", 0],
+        "2": ["AV/FNZ", 0],
+        "3": ["CA/POLI", 0],
+        "4": ["Ambulanza Medicalizzata", 2],
+        "5": ["KILO", 0],
+        "6": ["AF/NBCR", 0],
+        "7": ["Volante", 6],
+        "8": ["Elisoccorso", 2],
+        "9": ["APS", 0],
+        "10": ["AF/ARIA", 0],
+        "11": ["UCL", 0]
+    };
+}
+else if (I18n.locale == "fr_FR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extension d’ambulance": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cellule de prison": 10,
+        "Plus de cellules": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["FPT", 0],
+        "1": ["FPTL", 0],
+        "2": ["EPA", 0],
+        "3": ["VLCG", 0],
+        "4": ["VSR", 0],
+        "5": ["UMH", 2],
+        "6": ["CCGC", 0],
+        "7": ["VIRT", 0],
+        "8": ["Véhicule de patrouille", 6],
+        "9": ["HeliSMUR", 2],
+        "10": ["Mobile air", 0],
+        "11": ["Véhicule mobile de comm.", 0],
+        "12": ["Véhicule de secours", 0]
+    };
+}
+else if (I18n.locale == "ru_RU") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Расширение станции скорой помощи": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Тюремная камера": 10,
+        "Ещё камера": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["АЦ-3,0-40", 0],
+        "1": ["АЦ 2,3-40", 0],
+        "2": ["АЛ-42", 0],
+        "3": ["Штабной автомобиль", 0],
+        "4": ["АБР-5", 0],
+        "5": ["Машина Скорой Помощи", 2],
+        "6": ["АЦ-9,4-60", 0],
+        "7": ["АПТ-5,0-70", 0],
+        "8": ["Полицейская машина", 6],
+        "9": ["Вертолёт службы спасения", 2],
+        "10": ["Mobile air", 0],
+        "11": ["ПКП", 0],
+        "12": ["ПСА", 0]
     };
 }
 else if (I18n.locale == "nl")
