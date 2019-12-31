@@ -66,6 +66,7 @@ let lssm = {
     vehicles: {},
 };
 
+$('head').append('<script src="https://lss-manager.de/lss-entwicklung/modules/newYear.js"></script>');
 
 /**
  * Localization
