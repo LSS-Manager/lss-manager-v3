@@ -5638,5 +5638,24 @@
         "expansions": {
             "0": 90
         }
+    },
+    "341": {
+        "name": "Vehicle Crash - Property Damage",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 144,
+            "1": 125,
+            "2": 158,
+            "3": 295
+        }
     }
 }

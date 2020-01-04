@@ -1377,5 +1377,19 @@
         "percentages": {
             "tanker": 10
         }
+    },
+    "102": {
+        "name": "Brinnande sopbil",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 2,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 5000
     }
 }
