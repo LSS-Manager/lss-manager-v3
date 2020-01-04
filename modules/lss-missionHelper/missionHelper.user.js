@@ -1447,7 +1447,7 @@ const lssm_missionhelper_adjustPosition = () => {
     };
 
     I18n.translations.nl.lssm.missionhelper = {
-        diy_mission: 'Deze missie lijkt een grootschalige team inzet te zijn.',
+        diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',
         vge: 'Grootschalige team inzet',
         patients: 'Patiënten',

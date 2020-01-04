@@ -1309,5 +1309,22 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "99": {
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0431\u043e\u043b\u044c\u0448\u0435\u0433\u0440\u0443\u0437\u043d\u043e\u0433\u043e \u0430\u0432\u0442\u043e\u043c\u043e\u0431\u0438\u043b\u044f",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 2500,
+        "percentages": {
+            "tanker": 10
+        }
     }
 }

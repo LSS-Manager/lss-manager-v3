@@ -7,8 +7,14 @@ if (!localStorage["lssm_new_year_2020"]) {
             case "en":
                 alert("We wish you a good start into the year 2020!\nYour LSS-Manager Team :)");
                 break;
+            case "fj":
+                alert("We wish you a good start into the year 2020!\nYour LSS-Manager Team :)");
+                break;
+            case "eu":
+                alert("We wish you a good start into the year 2020!\nYour LSS-Manager Team :)");
+                break;
             case "nl":
-                alert("Wij wensen u een goede start in het jaar 2020!\nIeders LSS-Manager Team :)");
+                alert("Wij wensen u een goede start in het jaar 2020!\nUw LSS-Manager Team :)");
                 break;
             case "es":
                 alert("Le deseamos un buen comienzo en el año 2020!\nSu equipo de LSS Manager :)");

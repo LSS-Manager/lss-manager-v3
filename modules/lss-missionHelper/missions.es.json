@@ -1506,5 +1506,19 @@
         "percentages": {
             "tanker": 10
         }
+    },
+    "113": {
+        "name": "Cami\u00f3n de la basura en llamas",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 2,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 5000
     }
 }

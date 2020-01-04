@@ -521,7 +521,8 @@
         496: 'Pferd in Jauchegrube',
         497: 'Personensuche nahe Gewässer',
         498: 'Personensuche nahe Gewässer',
-        499: 'Massenkarambolage auf Autobahn'
+        499: 'Massenkarambolage auf Autobahn',
+        500: 'Herzkreislaufprobleme'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -880,7 +881,8 @@
         337: 'Car damaged by fireworks',
         338: 'Violation of Explosives Law',
         339: 'Hand injury caused by fireworks',
-        340: 'Restraining Order Violation'
+        340: 'Restraining Order Violation',
+        341: 'Vehicle Crash - Property Damage'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -1025,7 +1027,8 @@
         123: 'Car damaged by fireworks',
         124: 'Violation of Explosive Act 1875',
         125: 'Hand injury caused by fireworks',
-        126: 'HGV Fire'
+        126: 'HGV Fire',
+        127: 'Bin Lorry Fire'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1156,7 +1159,8 @@
         109: 'Car damaged by fireworks',
         110: 'Violation of Explosives Act (1999)',
         111: 'Hand injury caused by fireworks',
-        112: 'HGV Fire'
+        112: 'HGV Fire',
+        113: 'Garbage truck fire'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1287,7 +1291,8 @@
         109: 'Coche dañado por los fuegos artificiales',
         110: 'Infracción del Reglamento de explosivos',
         111: 'Lesión en la mano a causa de los fuegos artificiales',
-        112: 'Vehículo de mercancía pesada en llamas'
+        112: 'Vehículo de mercancía pesada en llamas',
+        113: 'Camión de la basura en llamas'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1407,7 +1412,8 @@
         98: 'Bil skadad av fyrverkerier',
         99: 'Brott mot förordningen om explosiva varor',
         100: 'Handskada orsakad av fyrverkerier',
-        101: 'Brinnande tungt lastfordon'
+        101: 'Brinnande tungt lastfordon',
+        102: 'Brinnande sopbil'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1527,7 +1533,8 @@
         98: 'Uszkodzenie pojazdu wywołane fajerwerkami',
         99: 'Naruszenie przepisów ustawy o materiałach wybuchowych przeznaczonych do użytku cywilnego',
         100: 'Uraz ręki w wyniku użycia fajerwerków',
-        101: 'Płonący pojazd ciężarowy'
+        101: 'Płonący pojazd ciężarowy',
+        102: 'Płonąca śmieciarka'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1766,7 +1773,8 @@
         95: 'Voiture endommagée par des feux d\'artifice',
         96: 'Infraction au décret n° 90-897 sur les artifices de divertissement',
         97: 'Blessure à la main causée par des feux d\'artifice',
-        98: 'Toit endommagé'
+        98: 'Toit endommagé',
+        99: 'Poids lourd en feu'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -1883,7 +1891,8 @@
         95: 'Автомобиль, повреждённый фейерверком',
         96: 'Нарушение закона об обращении со взрывчатыми веществами',
         97: 'Травма руки, вызванная фейерверком',
-        98: 'Текущая крыша'
+        98: 'Текущая крыша',
+        99: 'Возгорание большегрузного автомобиля'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2449,7 +2458,9 @@
         544: 'Gevallen persoon door gladheid',
         545: 'Gevallen persoon door gladheid',
         546: 'Donkere dagen offensief',
-        547: 'Donkere dagen offensief'
+        547: 'Donkere dagen offensief',
+        548: 'Steekincident (groot)',
+        549: 'Steekincident (groot)'
       }
     };
 
@@ -2972,7 +2983,8 @@
       496: 'THL 2',
       497: 'POL 3',
       498: 'POL 3',
-      499: 'THL 4'
+      499: 'THL 4',
+      500: 'RD 1'
     };
     let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -3315,7 +3327,8 @@
       337: 'POL 1',
       338: 'POL 1',
       339: 'MED 1',
-      340: 'POL 2'
+      340: 'POL 2',
+      341: 'POL 1'
     };
     let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3445,7 +3458,8 @@
       123: 'POL 1',
       124: 'POL 1',
       125: 'MED 1',
-      126: 'FIRE 2'
+      126: 'FIRE 2',
+      127: 'FIRE 2'
     };
     let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -3560,7 +3574,8 @@
       109: 'POL 1',
       110: 'POL 1',
       111: 'MED 1',
-      112: 'FIRE 2'
+      112: 'FIRE 2',
+      113: 'FIRE 2'
     };
     let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -3675,7 +3690,8 @@
       109: 'POL 1',
       110: 'POL 1',
       111: 'MED 1',
-      112: 'FIRE 2'
+      112: 'FIRE 2',
+      113: 'FIRE 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -3779,7 +3795,8 @@
       98: 'POL 1',
       99: 'POL 1',
       100: 'MED 1',
-      101: 'FIRE 2'
+      101: 'FIRE 2',
+      102: 'FIRE 2'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -3883,7 +3900,8 @@
       98: 'POL 1',
       99: 'POL 1',
       100: 'MED 1',
-      101: 'FIRE 2'
+      101: 'FIRE 2',
+      102: 'FIRE 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -4090,7 +4108,8 @@
       95: 'POL 1',
       96: 'POL 1',
       97: 'MED 1',
-      98: 'TECH 1'
+      98: 'TECH 1',
+      99: 'FIRE 2'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -4191,7 +4210,8 @@
       95: 'POL 1',
       96: 'POL 1',
       97: 'MED 1',
-      98: 'TECH 1'
+      98: 'TECH 1',
+      99: 'FIRE 2'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -4741,7 +4761,9 @@
       544: 'A 1',
       545: 'A 1',
       546: 'P 1',
-      547: 'P 1'
+      547: 'P 1',
+      548: 'P 6',
+      549: 'P 6'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

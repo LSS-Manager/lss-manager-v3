@@ -9003,5 +9003,16 @@
             "specialisation": "Unfallchirurgie"
         },
         "poi": 16
+    },
+    "500": {
+        "name": "Herzkreislaufprobleme",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "nef": 50,
+        "rth": 25,
+        "specialisation": "Kardiologie"
     }
 }

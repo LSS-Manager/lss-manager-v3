@@ -9491,5 +9491,61 @@
             "noodhulpeen": 2
         },
         "credits": 600
+    },
+    "548": {
+        "name": "Steekincident (groot)",
+        "stations": {
+            "0": 14,
+            "3": 4,
+            "5": 10,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 10,
+            "ovdp": 1
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 5,
+            "min": 2,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "549": {
+        "name": "Steekincident (groot)",
+        "stations": {
+            "0": 14,
+            "3": 4,
+            "5": 10,
+            "11": 1
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "ovdb": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 10,
+            "ovdp": 1
+        },
+        "credits": 4200,
+        "patients": {
+            "max": 7,
+            "min": 5,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 6,
+        "prisoners": {
+            "max": 1
+        }
     }
 }
