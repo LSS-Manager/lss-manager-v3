@@ -6,7 +6,7 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            lf: 'Löschfahrzeug|^LF',
+            truck: 'Löschfahrzeug|^LF',
             dlk: 'Drehleiter',
             rw: 'Rüstwagen',
             elw1: 'ELW 1',
@@ -39,7 +39,7 @@ $.get(missionlink)
             radlader: 'BRmG R',
             anhdle: 'Drucklufterzeugung',
             polheli: 'Polizeihubschrauber',
-            flf: 'Flugfeldlöschfahrzeug',
+            arff: 'Flugfeldlöschfahrzeug',
             rtf: 'Rettungstreppen',
             taucher: 'Taucher',
             mek: 'MEK-Fahrzeuge',
