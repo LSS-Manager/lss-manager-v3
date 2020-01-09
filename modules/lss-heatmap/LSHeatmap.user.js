@@ -384,6 +384,32 @@
             }
         ]
     };
+    I18n.translations.da_DK.lssm.heatmap = {
+        active: 'Aktiv',
+        vehicleType: 'grupper',
+        radius: 'Radius',
+        intensity: 'Intensitet',
+        close: 'Tæt',
+        vehicleGroups: [
+            {
+                name: 'Egen kombination',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.nb_NO.lssm.heatmap = {
+        active: 'Aktiv',
+        vehicleType: 'grupper',
+        radius: 'Radius',
+        intensity: 'Intensitet',
+        close: 'Lukk',
+        vehicleGroups: [
+            {
+                name: 'Egen kombinasjon',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.it_IT.lssm.heatmap = {
         active: 'Attivo',
         vehicleType: 'Gruppi',

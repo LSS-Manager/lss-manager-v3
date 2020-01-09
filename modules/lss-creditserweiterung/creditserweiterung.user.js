@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet)(\.de|\.com|\.co\.uk|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -164,6 +164,60 @@
             updateMessage: 'Värden uppdateras automatiskt <br> var femte minut.<br>Krediter och mynt är<br>kontinuerligt uppdaterat.',
             allianceFunds: 'Alliansfonder',
             noFurtherRank: 'Det finns inga ytterligare rangordningar'
+        }
+    };
+    I18n.translations.da_DK.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        ranks: {
+            0: 'Probie',
+            200: 'Firefighter',
+            10000: 'Senior Firefighter',
+            100000: 'Fire Apparatus Operator',
+            1000000: 'Lieutenant',
+            5000000: 'Captain',
+            20000000: 'Staff Captain',
+            50000000: 'Battalion Chief',
+            1000000000: 'Division Chief',
+            2000000000: 'Deputy Chief',
+            5000000000: 'Fire Chief'
+        },
+        texts: {
+            reloadMessage: 'Åbn din profil <br> og genindlæs webstedet!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Oversigt',
+            coinsProtokoll: 'Liste over mønter',
+            earnedCredits: 'Totalt optjente kredit',
+            creditsToNextRank: 'Kreditter til næste rang',
+            updateMessage: 'Værdier opdateres automatisk <br> hvert 5. minut. <br> Kreditter og mønter er løbende ajour.',
+            allianceFunds: 'Alliance fonde',
+            noFurtherRank: 'Der er ingen yderligere rækker'
+        }
+    };
+    I18n.translations.nb_NO.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        ranks: {
+            0: 'Probie',
+            200: 'Firefighter',
+            10000: 'Senior Firefighter',
+            100000: 'Fire Apparatus Operator',
+            1000000: 'Lieutenant',
+            5000000: 'Captain',
+            20000000: 'Staff Captain',
+            50000000: 'Battalion Chief',
+            1000000000: 'Division Chief',
+            2000000000: 'Deputy Chief',
+            5000000000: 'Fire Chief'
+        },
+        texts: {
+            reloadMessage: 'Åpne profilen din,<br> og last inn nettstedet på nytt!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Oversikt',
+            coinsProtokoll: 'Myntliste',
+            earnedCredits: 'Helt opptjente studiepoeng',
+            creditsToNextRank: 'Kreditter til neste rangering',
+            updateMessage: 'Verdiene oppdateres automatisk <br> hvert 5. minutt. <br> Kreditter og mynter er kontinuerlig oppdatert.',
+            allianceFunds: 'Alliansefond',
+            noFurtherRank: 'Det er ingen ytterligere rekker'
         }
     };
     I18n.translations.es.lssm.creditserweiterung = {

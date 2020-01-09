@@ -67,6 +67,32 @@
         fms5H1: 'transportiert'
     };
 
+    I18n.translations.da_DK.lssm.statusDispatching = {
+        name: 'Forbedrede transportanmodninger',
+        fms: 'Transport anmodet',
+        nextVehicle: 'Gå til det næste køretøj med en transportanmodning',
+        backToAlarm: 'Tilbage til mission',
+        settingsTitle: 'Forbedrede transportanmodninger - Indstillinger',
+        settingsAttr: 'Klik automatisk på knappen "Anmodet om transport" i missionmasken',
+        settingsAttrDesc: 'Aktivering af denne mulighed giver automatisk klik på knappen "anmodet om transport" i missionsmasken. På denne måde skal du gennemgå alle transportanmodninger, før du kan se detaljer til missionen. Aktivering af denne mulighed giver hurtigere behandling af transportanmodninger.<br>'
+            + 'Deaktivering af denne mulighed gør det muligt at se mission detaljer før behandling af transportanmodninger. Knapperne "Gå til det næste køretøj med en transportanmodning" og "Tilbage til mission" påvirkes ikke af denne indstilling og klikkes altid automatisk.',
+        close: 'Tæt',
+        fms5H1: 'transportiert'
+    };
+
+    I18n.translations.en.lssm.statusDispatching = {
+        name: 'Forbedrede transportforespørsler',
+        fms: 'Transport forespurt',
+        nextVehicle: 'Gå til neste kjøretøy med en transportforespørsel',
+        backToAlarm: 'Tilbake til misjonen',
+        settingsTitle: 'Forbedrede transportforespørsler - Innstillinger',
+        settingsAttr: 'Klikk automatisk på knappen "Forespurt transport" i oppdragsmaske',
+        settingsAttrDesc: 'Aktivering av dette alternativet gir automatisk klikk på "transport bedt om" -knappen i oppdragsmasken. På denne måten må du gå gjennom alle transportforespørsler før du kan se detaljer til oppdraget. Aktivering av dette alternativet gir raskere behandling av transportforespørsler. <br> '
+            + 'Deaktivering av dette alternativet gjør det mulig å se oppdragsdetaljer før du behandler transportforespørsler. Knappene "Gå til neste kjøretøy med transportforespørsel" og "Tilbake til oppdrag" påvirkes ikke av denne innstillingen og blir alltid automatisk klikket.',
+        close: 'Lukk',
+        fms5H1: 'transportiert'
+    };
+
     I18n.translations.it_IT.lssm.statusDispatching = {
         name: 'Richiesta di trasporto avanzatas',
         fms: 'Trasporto richiesto',

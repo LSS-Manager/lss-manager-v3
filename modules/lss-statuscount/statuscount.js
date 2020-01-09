@@ -123,6 +123,54 @@
             }
         }
     };
+    I18n.translations.da_DK.lssm.statuscount = {
+        name: "Status-antal",
+        settings: {
+            show: "Vis / Skjul",
+            status: {
+                show: {
+                    label: "At vise",
+                    description: "Skal status overhovedet vises? Vigtigt: Denne indstilling har en højere prioritet end andre indstillinger, dvs. hvis denne indstilling er slået fra, vises status aldrig."
+                },
+                hide: {
+                    label: "Vis kun efter behov",
+                    description: "Tælleren vises kun, hvis mindst et køretøj er i denne status. (Bemærk: Hvis tælleren er helt skjult, vises den aldrig, selvom denne indstilling er aktiveret!)"
+                },
+                percent: {
+                    label: "Vis procenter",
+                    description: "Skal procentdelen af denne status vises?"
+                }
+            },
+            round: {
+                label: "Runde procenter",
+                description: "Hvor mange decimaler skal procentdelene (hvis vist) afrundes til?"
+            }
+        }
+    };
+    I18n.translations.en.lssm.statuscount = {
+        name: "Status-Count",
+        settings: {
+            show: "Vis skjul",
+            status: {
+                show: {
+                    label: "Forestilling",
+                    description: "Bør status vises i det hele tatt? Viktig: Denne innstillingen har høyere prioritet enn andre innstillinger, dvs. hvis denne innstillingen er slått av, vil statusen aldri vises."
+                },
+                hide: {
+                    label: "Vis bare på forespørsel",
+                    description: "Telleren vises bare hvis minst ett kjøretøy er i denne statusen. (Oppmerksomhet: Hvis telleren er helt skjult, vil den aldri vises, selv om denne innstillingen er aktivert!)"
+                },
+                percent: {
+                    label: "Vis prosenter",
+                    description: "Bør prosentandelen av denne statusen vises?"
+                }
+            },
+            round: {
+                label: "Runde prosenter",
+                description: "Hvor mange desimaler skal prosentene (hvis vist) rundes til?"
+            }
+        }
+    };
     I18n.translations.it_IT.lssm.statuscount = {
         name: "Stato - Conto",
         settings: {

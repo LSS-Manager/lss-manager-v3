@@ -66,6 +66,32 @@
             cells: 'Hide full cells'
         }
     };
+    I18n.translations.da_DK.lssm.destfilter = {
+        title: 'Destinationsfilter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
+    I18n.translations.nb_NO.lssm.destfilter = {
+        title: 'Destinasjonsfilter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
     I18n.translations.it_IT.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',

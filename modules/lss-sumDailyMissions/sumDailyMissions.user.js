@@ -82,6 +82,36 @@
             num_prisoners: 'Sum prisoners',
             num_team: 'Sum alliance'
         };
+        I18n.translations.da_DK['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Patient Treatment',
+            education: 'education',
+            purchase: 'bought',
+            cancelled: 'Återlämna',
+            extended: 'uppförd',
+            extended2: 'Extended',
+            built: 'uppförd',
+            team: 'Alliance',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
+        I18n.translations.nb_NO['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Patient Treatment',
+            education: 'education',
+            purchase: 'bought',
+            cancelled: 'Återlämna',
+            extended: 'uppförd',
+            extended2: 'Extended',
+            built: 'uppförd',
+            team: 'Alliance',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
 
         I18n.translations.it_IT['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Trattamento del paziente',

@@ -285,6 +285,7 @@
             }
         }
     };
+
     I18n.translations.eu.lssm.renameFz = {
         name: 'Rename vehicles',
         settings: {
@@ -323,6 +324,7 @@
             }
         }
     };
+
     I18n.translations.pl_PL.lssm.renameFz = {
         name: 'Zmiana nazwy pojazdów',
         rename: "zmiana nazwy",
@@ -388,6 +390,7 @@
             }
         }
     };
+
     I18n.translations.sv_SE.lssm.renameFz = {
         name: 'Byt namn på fordon',
         rename: "döpa om",
@@ -453,6 +456,139 @@
             }
         }
     };
+
+    I18n.translations.da_DK.lssm.renameFz = {
+        name: 'Omdøb køretøjer',
+        rename: "omdøb",
+        id: "{id} Id for køretøj",
+        old: "{old} Nuværende navn",
+        vehicleType: "{vehicleType} Type køretøj",
+        stationName: "{stationName} Bygningens navn",
+        tagging: '{tagging} Mærkning af køretøjstypen',
+        number: '{number} Type tæller',
+        numberRoman: '{numberRoman} Type tæller (romertal)',
+        dispatch: '{dispatch} Navn på dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
+        stationAlias: '{stationAlias} Bygning-Alias',
+        saveAll: 'Gem alle',
+        statusWaiting: 'Vent på input',
+        statusError: '<b>Fejl under generation!</b> Hvis denne fejl opstår igen, skal du rapportere den. Angiv følgende oplysninger:',
+        statusWorking: 'Generer navne og formularer. Dette kan tage en vis tid, afhængigt af systemet og antallet af køretøjer.',
+        statusSuccess: 'Navne og Forumlare er genereret!',
+        nameAlreadyCorrect: 'Navn svarer allerede til skabelonen!',
+        nameToLong: 'Navnet er for langt til følgende køretøjer:',
+        nameToLongOriginalName: 'Originalt navn',
+        nameToLongGeneratedName: 'Genereret navn',
+        nameToLongShortenedName: 'Nyt / forkortet navn',
+        helpTitle: 'Du kan finde en lille instruktion under dette link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Counter start',
+        counterOverride: 'Hvis der er flere køretøjer af samme type, start alligevel med 1.',
+        startNumHelp: 'Her kan du indtaste en startværdi for typetælleren. Hvis du indstiller 0 som startværdi, får det første køretøj af en type ikke nummereringen, dette er meget praktisk, hvis du kun har et køretøj af en type på en vagt og ikke ønsker at nummerere det. Men du kan også starte tælleren kl. 5 (uanset hvad du vil, men det er muligt;) )',
+        toggleNameCorrect: 'Vis / skjul køretøjer med korrekte navne',
+        settings: {
+            show: 'Vis / Skjul',
+            names: {
+                vehicleTypes: 'køretøjstyper',
+                stations: 'Bygning alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Her kan du indstille alternative navne for hver køretøjstype. Du kan bruge dem, når du omdøber dine køretøjer via ekspeditionscentret.',
+                stations: 'Her kan du indstille alternative navne for hver bygning. Du kan bruge dem, når du omdøber dine køretøjer via ekspeditionscentret.'
+            },
+            validStationTypes: {
+                0: "Brandstation",
+                2: "Ambulansstation",
+                6: "Polisstation",
+                7: "Larmcentral",
+                18: "Brandstation (liten)",
+                19: "Polisstation (liten)",
+                20: "Ambulansstation (liten)"
+            },
+            vehicleTypes: {
+                0: 'BAS 1 - Släckbil',
+                1: 'BAS 2 - Släckbil',
+                2: 'M32L - Stegbil',
+                3: 'Befälsfordon',
+                4: 'Lastväxlare',
+                5: 'Ambulans',
+                6: 'BAS 4 - Tankbil',
+                7: 'Industribrandbil',
+                8: 'Radiobil',
+                9: 'Räddningshelikopter',
+                10: 'Luftfordon',
+                11: 'Mobilt ledningsfordon',
+                12: 'Räddningsfordon'
+            }
+        }
+    };
+
+    I18n.translations.nb_NO.lssm.renameFz = {
+        name: 'Gi kjøretøy nytt navn',
+        rename: "Gi nytt navn",
+        id: "{id} ID for kjøretøy",
+        old: "{old} Gjeldende navn",
+        vehicleType: "{vehicleType} Type kjøretøy",
+        stationName: "{stationName} Navn på bygning",
+        tagging: '{tagging} Merking av kjøretøytypen',
+        number: '{number} Type-teller',
+        numberRoman: '{numberRoman} Type-teller (romertall)',
+        dispatch: '{dispatch} Navn på Dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias for Dispatchcenter',
+        stationAlias: '{stationAlias} Bygning-alias',
+        saveAll: 'lagre alt',
+        statusWaiting: 'Vent på innspill',
+        statusError: '<b> Feil under generering! </b> Hvis denne feilen oppstår igjen, kan du rapportere den. Oppgi følgende informasjon:',
+        statusWorking: 'Generer navn og skjemaer. Dette kan ta en viss tid, avhengig av system og antall kjøretøy.',
+        statusSuccess: 'Navn og Forumlare er generert!',
+        nameAlreadyCorrect: 'Navn tilsvarer allerede malen!',
+        nameToLong: 'Navnet er for langt på følgende kjøretøy:',
+        nameToLongOriginalName: 'Originalt navn',
+        nameToLongGeneratedName: 'Generert navn',
+        nameToLongShortenedName: 'Nytt / forkortet navn',
+        helpTitle: 'Du finner en liten instruksjon under denne lenken: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Teller Start',
+        counterOverride: 'Hvis det er flere kjøretøyer av samme type, start uansett med 1.',
+        startNumHelp: 'Her kan du legge inn en startverdi for typetelleren. Hvis du setter 0 som startverdi, vil ikke det første kjøretøyet av en type få nummereringen, dette er veldig praktisk hvis du bare har ett kjøretøy av en type på en vakt og ikke vil nummerere det. Men du kan også starte skranken på 5 (uansett grunn du vil, men det er mulig;) )',
+        toggleNameCorrect: 'Vis / skjul kjøretøy med riktige navn',
+        settings: {
+            show: 'Vis / skjul',
+            names: {
+                vehicleTypes: 'kjøretøystyper',
+                stations: 'Bygge alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Her kan du angi alternative navn for hver biltype. Du kan bruke dem når du gir nytt navn til kjøretøyene via utsendelsessenteret.',
+                stations: 'Her kan du angi alternative navn for hver bygning. Du kan bruke dem når du gir nytt navn til kjøretøyene via utsendelsessenteret.'
+            },
+            validStationTypes: {
+                0: "Brandstation",
+                2: "Ambulansstation",
+                6: "Polisstation",
+                7: "Larmcentral",
+                18: "Brandstation (liten)",
+                19: "Polisstation (liten)",
+                20: "Ambulansstation (liten)"
+            },
+            vehicleTypes: {
+                0: 'BAS 1 - Släckbil',
+                1: 'BAS 2 - Släckbil',
+                2: 'M32L - Stegbil',
+                3: 'Befälsfordon',
+                4: 'Lastväxlare',
+                5: 'Ambulans',
+                6: 'BAS 4 - Tankbil',
+                7: 'Industribrandbil',
+                8: 'Radiobil',
+                9: 'Räddningshelikopter',
+                10: 'Luftfordon',
+                11: 'Mobilt ledningsfordon',
+                12: 'Räddningsfordon'
+            }
+        }
+    };
+
     I18n.translations.it_IT.lssm.renameFz = {
         name: 'Rinominare i veicoli',
         rename: "rinominare",
@@ -517,6 +653,7 @@
             }
         }
     };
+
     I18n.translations.fr_FR.lssm.renameFz = {
         name: 'Renommer les véhicules',
         rename: "renommer",
@@ -582,6 +719,7 @@
             }
         }
     };
+
     I18n.translations.ru_RU.lssm.renameFz = {
         name: 'Переименовать автомобили',
         rename: "переименование",
@@ -647,6 +785,7 @@
             }
         }
     };
+
     I18n.translations.es.lssm.renameFz = {
         name: 'Renombrar vehículos',
         rename: "cambiar de nombre",
@@ -712,6 +851,7 @@
             }
         }
     };
+
     I18n.translations.nl.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",

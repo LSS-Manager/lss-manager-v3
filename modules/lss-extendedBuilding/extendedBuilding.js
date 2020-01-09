@@ -223,6 +223,118 @@
             }
         }
     };
+    I18n.translations.da_DK.lssm.extendedBuilding = {
+        title: 'Udvidet bygningsvisning',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Uddannelse',
+        schoolingsMulti: 'Alle kombinationer af uddannelser',
+        schoolingsSingle: 'Enkeltuddannelser',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Påkrævet personale',
+                description: 'Viser det krævede personale, hvis alle køretøjer skal besættes fuldt ud',
+            },
+            switchStatus: {
+                label: 'Hurtig statusændring',
+                description: 'Status for et køretøj kan ændres direkte mellem S2 og S6 via statusdisplayet',
+            },
+            assignmentBtn: {
+                label: 'Hurtig tildeling',
+                description: 'Tilføjer en knap for hurtigt at komme til vinduet "Tildel personale"',
+            },
+            assignedWorkers: {
+                label: 'Tildelt personale',
+                description: 'Viser for hvert køretøj, hvor meget personale der er tildelt',
+            },
+            currentCrew: {
+                label: 'Nuværende besætning',
+                description: 'Angiver for hvert køretøj, hvor mange medarbejdere der sidder på køretøjet',
+            },
+            expansions: {
+                label: 'Vis udvidelser',
+                description: 'Vis den aktuelle status for udvidelserne',
+            },
+            personnelOverview: {
+                label: 'Udvidet personaleoversigt',
+                description: 'Viser i personalets oversigt, hvor meget personale der har hvilken uddannelse',
+            },
+            vehicleType: {
+                label: 'Vis køretøjstype',
+                description: 'Viser køretøjstypen i køretøjslisten.',
+            },
+            expansionDate: {
+                label: 'Dato for udførelsen af udvidelsen',
+                description: 'Viser på listen over udvidelser, også når konstruktionen er færdig (fungerer kun i forbindelse med indstillingen "Vis udvidelser")',
+            }
+        }
+    };
+    I18n.translations.nb_NO.lssm.extendedBuilding = {
+        title: 'Utvidet bygningsutsikt',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'utdanning',
+        schoolingsMulti: 'Alle kombinasjoner av utdanning',
+        schoolingsSingle: 'Enkeltutdanninger',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Påkrevd personell',
+                description: 'Viser nødvendig personell hvis alle kjøretøy skal være fullt okkupert',
+            },
+            switchStatus: {
+                label: 'Rask statusendring',
+                description: 'Status på et kjøretøy kan endres direkte mellom S2 og S6 via statusvisningen',
+            },
+            assignmentBtn: {
+                label: 'Rask oppgave',
+                description: 'Legger til en knapp for raskt å komme til vinduet "Tildel personell"',
+            },
+            assignedWorkers: {
+                label: 'Tildelt personell',
+                description: 'Viser for hvert kjøretøy hvor mye personell som er tildelt',
+            },
+            currentCrew: {
+                label: 'Nåværende mannskap',
+                description: 'Angir for hvert kjøretøy hvor mange personell som for øyeblikket sitter på kjøretøyet',
+            },
+            expansions: {
+                label: 'Vis utvidelser',
+                description: 'Vis den nåværende statusen for utvidelsene',
+            },
+            personnelOverview: {
+                label: 'Utvidet personelloversikt',
+                description: 'Viser i personaloversikten hvor mye personell som har hvilken opplæring',
+            },
+            vehicleType: {
+                label: 'Vis kjøretøytype',
+                description: 'Viser kjøretøytypen i kjøretøylisten.',
+            },
+            expansionDate: {
+                label: 'Dato for ferdigstillelse av utvidelsen',
+                description: 'Viser i listen over utvidelser også når konstruksjonen er ferdig (fungerer bare i forbindelse med innstillingen "Vis utvidelser")',
+            }
+        }
+    };
     I18n.translations.es.lssm.extendedBuilding = {
         title: 'Vista ampliada del edificio',
         crew: 'Tripulación (máx.)',

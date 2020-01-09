@@ -13,6 +13,12 @@
     I18n.translations.sv_SE.lssm.missionOut = {
         title: 'Dölj / Visa uppdrag'
     };
+    I18n.translations.da_DK.lssm.missionOut = {
+        title: 'Skjul / vis mission'
+    };
+    I18n.translations.nb_NO.lssm.missionOut = {
+        title: 'Skjul / vis misjon'
+    };
     I18n.translations.it_IT.lssm.missionOut = {
         title: 'Nascondi/Mostra missione'
     };

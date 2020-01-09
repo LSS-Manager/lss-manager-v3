@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112)(\.de|\.com|\.co\.uk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet)(\.de|\.com|\.co\.uk|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -63,6 +63,30 @@
         updateMessage: 'Värden uppdateras automatiskt <br> varje ' + updateMin + ' minuter.',
         chartErr: 'Det gick inte att ladda diagrammet "{{chart}}"!<br>Vi vet redan att detta händer med vissa webbläsare, men ännu inte varför. Snälla <b> inte </b> anmäla oss det här felet eftersom vi redan har problemet!',
         hoverTip: 'Tips: Håll muspekaren över ett element för att visa en värdehistorik.'
+    };
+    I18n.translations.da_DK.lssm.verbandsverwaltung = {
+        name: 'Administration',
+        allianceFunds: 'Alliance fonde',
+        allianceCredits: 'Optjente kredit',
+        users: 'Medlemmer',
+        onlineUsers: 'Medlemmer online',
+        allianceRank: 'Rang i Alliancelist',
+        page: 'Side',
+        updateMessage: 'Værdier opdateres automatisk<br>hvert ' + updateMin + ' minut.',
+        chartErr: 'Kunne ikke indlæse diagram "{{chart}}"!<br>Vi ved allerede, at dette sker med nogle browsere, men endnu ikke hvorfor. Venligst <b> ikke </b> indberet os denne fejl, da vi allerede har problemet.',
+        hoverTip: 'Tip: Hold markøren over et element for at få vist en værdihistorik.'
+    };
+    I18n.translations.nb_NO.lssm.verbandsverwaltung = {
+        name: 'Administrasjon',
+        allianceFunds: 'Alliansefond',
+        allianceCredits: 'Opptjente kreditter',
+        users: 'medlemmer',
+        onlineUsers: 'Medlemmer online',
+        allianceRank: 'Rang i Alliancelist',
+        page: 'Side',
+        updateMessage: 'Verdiene oppdateres automatisk <br> hver ' + updateMin + ' minutter.',
+        chartErr: 'Kunne ikke laste diagrammet "{{chart}}"!<br>Vi vet allerede at dette skjer med noen nettlesere, men ennå ikke hvorfor. Vennligst <b> ikke </b> rapporter oss denne feilen, da vi allerede har dette problemet!',
+        hoverTip: 'Tips: Hold musepekeren over et element for å vise en verdihistorikk.'
     };
     I18n.translations.it_IT.lssm.verbandsverwaltung = {
         name: 'Amministrazione',

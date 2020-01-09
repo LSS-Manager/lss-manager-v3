@@ -66,6 +66,38 @@
         }
     };
 
+    I18n.translations.da_DK.lssm.centermap = {
+        center: "Centrum",
+        settings: {
+            title: "Centre-kort",
+            choose: "Vælg venligst",
+            option1: "Standard",
+            option1desc: "Standard zoomniveau og centrering på kontrolcentret ",
+            option2: "Dynamisk",
+            alliance: "Tag alliance i betragtning",
+            option2desc: "Centerkort, hvor alle missioner og stationer er synlige.",
+            option3: "skik",
+            option3desc: "Indstil tilpasset position og zoomniveau.",
+            set: "Gem den aktuelle position"
+        }
+    };
+
+    I18n.translations.nb_NO.lssm.centermap = {
+        center: "Senter",
+        settings: {
+            title: "Senter-Map",
+            choose: "Vennligst velg",
+            option1: "Misligholde",
+            option1desc: "Standard zoomnivå og sentrering på kontrollsenteret ",
+            option2: "dynamisk",
+            alliance: "Ta hensyn til allianse",
+            option2desc: "Midtkart over at alle oppdrag og stasjoner er synlige.",
+            option3: "Tilpasset",
+            option3desc: "Angi tilpasset posisjon og zoomnivå.",
+            set: "Lagre gjeldende posisjon"
+        }
+    };
+
     I18n.translations.es.lssm.centermap = {
         center: "Centro",
         settings: {
