@@ -498,27 +498,24 @@
             },
             validStationTypes: {
                 0: "Brandstation",
-                2: "Ambulansstation",
-                6: "Polisstation",
-                7: "Larmcentral",
-                18: "Brandstation (liten)",
-                19: "Polisstation (liten)",
-                20: "Ambulansstation (liten)"
+                2: "Ambulancestation",
+                6: "Politistation",
+                7: "Alarmcentral",
+                18: "Brandstation (lille station)",
+                19: "Politistation (lille station)",
+                20: "Ambulancestation (lille station)"
             },
             vehicleTypes: {
-                0: 'BAS 1 - Släckbil',
-                1: 'BAS 2 - Släckbil',
-                2: 'M32L - Stegbil',
-                3: 'Befälsfordon',
-                4: 'Lastväxlare',
-                5: 'Ambulans',
-                6: 'BAS 4 - Tankbil',
-                7: 'Industribrandbil',
-                8: 'Radiobil',
-                9: 'Räddningshelikopter',
-                10: 'Luftfordon',
-                11: 'Mobilt ledningsfordon',
-                12: 'Räddningsfordon'
+                0: 'Motorsprøjte',
+                1: 'Slangetender',
+                2: 'Stigevogn',
+                3: 'Indsatsleder',
+                4: 'Pionertjenesten',
+                5: 'Ambulance',
+                6: 'Tankvogn',
+                7: 'CBRN',
+                8: 'Patruljevogn',
+                9: 'Rednings Helikopter'
             }
         }
     };

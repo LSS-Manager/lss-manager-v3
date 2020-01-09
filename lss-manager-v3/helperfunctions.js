@@ -173,29 +173,26 @@ else if (I18n.locale == "sv_SE")
 else if (I18n.locale == "da_DK") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
-        "Ambulansutbyggnad": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
+        "Ambulanceudvidelse": 0,
+        "Lufthavnsudvidelse": 1,
+        "Vandredningsudvidelse": 2,
         // Pol-Erweiterungen (10-19)
-        "Fängelsecell": 10,
-        "Fler celler": 10,
+        "Fængselscelle": 10,
+        "Mere celle": 10,
         // Schule-Erweiterungen (20-29)
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["BAS 1 - Släckbil", 0],
-        "1": ["BAS 2 - Släckbil", 0],
-        "2": ["M32L - Stegbil", 0],
-        "3": ["Befälsfordon", 0],
-        "4": ["Lastväxlare", 0],
-        "5": ["Ambulans", 2],
-        "6": ["BAS 4 - Tankbil", 0],
-        "7": ["Industribrandbil", 0],
-        "8": ["Radiobil", 6],
-        "9": ["Räddningshelikopter", 2],
-        "10": ["Luftfordon", 0],
-        "11": ["Mobilt ledningsfordon", 0],
-        "12": ["Räddningsfordon", 0]
+        "0": ["Motorsprøjte", 0],
+        "1": ["Slangetender", 0],
+        "2": ["Stigevogn", 0],
+        "3": ["Indsatsleder", 0],
+        "4": ["Pionertjenesten", 0],
+        "5": ["Ambulance", 2],
+        "6": ["Tankvogn", 0],
+        "7": ["CBRN", 0],
+        "8": ["Patruljevogn", 6],
+        "9": ["Räednings Helikopter", 2]
     };
 }
 else if (I18n.locale == "nb_NO") {

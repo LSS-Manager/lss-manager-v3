@@ -8685,33 +8685,35 @@
         }
     },
     "488": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Stadion",
         "stations": {
-            "0": 6,
-            "2": 10,
-            "6": 2
+            "0": 16,
+            "2": 46,
+            "6": 9
         },
         "vehicles": {
-            "fustw": 2,
-            "truck": 2,
-            "elw1": 1,
+            "fustw": 14,
+            "truck": 16,
+            "rw": 1,
+            "elw1": 3,
+            "elw2": 1,
             "atem": 1,
-            "mess": 1,
-            "dekon": 1
+            "mess": 1
         },
-        "credits": 2500,
+        "credits": 14000,
         "patients": {
-            "max": 25,
-            "min": 10,
+            "max": 250,
+            "min": 120,
             "transport": 25,
             "nef": 20,
+            "rth": 2,
             "specialisation": "Allgemeine Innere"
         },
         "poi": 20,
         "percentages": {
-            "atem": 5,
-            "mess": 15,
-            "dekon": 10
+            "elw2": 50,
+            "atem": 25,
+            "mess": 50
         }
     },
     "489": {
@@ -8775,33 +8777,34 @@
         }
     },
     "491": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Bahnhof (Regionalverkehr)",
         "stations": {
-            "0": 6,
-            "2": 10,
-            "6": 2
+            "0": 11,
+            "2": 15,
+            "6": 5
         },
         "vehicles": {
-            "fustw": 2,
-            "truck": 2,
+            "fustw": 6,
+            "truck": 3,
+            "rw": 1,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
             "dekon": 1
         },
-        "credits": 2500,
+        "credits": 5000,
         "patients": {
-            "max": 25,
-            "min": 10,
+            "max": 70,
+            "min": 35,
             "transport": 25,
             "nef": 20,
             "specialisation": "Allgemeine Innere"
         },
         "poi": 6,
         "percentages": {
-            "atem": 5,
-            "mess": 15,
-            "dekon": 10
+            "atem": 10,
+            "mess": 20,
+            "dekon": 5
         }
     },
     "492": {
@@ -8835,7 +8838,7 @@
         }
     },
     "493": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Diskothek",
         "stations": {
             "0": 6,
             "2": 10,

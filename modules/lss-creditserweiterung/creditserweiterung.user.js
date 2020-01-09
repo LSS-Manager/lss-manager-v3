@@ -167,19 +167,19 @@
         }
     };
     I18n.translations.da_DK.lssm.creditserweiterung = {
-        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        earnedCreditsRegEx: /(.*)([0-9],)? tjente kreditter.*/i,
         ranks: {
-            0: 'Probie',
-            200: 'Firefighter',
-            10000: 'Senior Firefighter',
-            100000: 'Fire Apparatus Operator',
-            1000000: 'Lieutenant',
-            5000000: 'Captain',
-            20000000: 'Staff Captain',
-            50000000: 'Battalion Chief',
-            1000000000: 'Division Chief',
-            2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            0: 'Lærling',
+            200: 'Brandmand',
+            10000: 'Seniorbrandmand',
+            100000: 'Brandoperatør',
+            1000000: 'Løjtnant',
+            5000000: 'Kaptajn',
+            20000000: 'Stabskaptajn',
+            50000000: 'Holdleder',
+            1000000000: 'Indsatsleder',
+            2000000000: 'Vicebrandchef',
+            5000000000: 'Brandchef'
         },
         texts: {
             reloadMessage: 'Åbn din profil <br> og genindlæs webstedet!',
