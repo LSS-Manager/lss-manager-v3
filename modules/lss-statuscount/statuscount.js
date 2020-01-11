@@ -147,7 +147,7 @@
             }
         }
     };
-    I18n.translations.en.lssm.statuscount = {
+    I18n.translations.nb_NO.lssm.statuscount = {
         name: "Status-Count",
         settings: {
             show: "Vis skjul",

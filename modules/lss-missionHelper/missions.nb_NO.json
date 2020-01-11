@@ -1,1 +1,1065 @@
-[]
+{
+    "0": {
+        "name": "Brennende s\u00f8ppeldunk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "1": {
+        "name": "Containerbrann",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Brennende bil",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "3": {
+        "name": "Brennende motorsykkel",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+    "4": {
+        "name": "Gressbrann",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Brann i rom",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "6": {
+        "name": "Brennende hageskur",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
+    "7": {
+        "name": "Brennende l\u00f8v",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "S\u00f8ppelbrann",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "9": {
+        "name": "Brennende halmball",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
+    "10": {
+        "name": "Brennende traktor",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "11": {
+        "name": "Brennende telefonkiosk",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
+    },
+    "12": {
+        "name": "Tre p\u00e5 veien",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
+    "13": {
+        "name": "Brennende lastebil",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "Liten \u00e5kerbrann",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+    "15": {
+        "name": "Liten buskbrann",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
+    "16": {
+        "name": "Brennende bobil",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Brennende postkasse",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
+    },
+    "18": {
+        "name": "Haug med kvister",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
+    "19": {
+        "name": "Brennende trailer",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "20": {
+        "name": "Kjellerbrann",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Generell indremedisiner"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "21": {
+        "name": "Skorsteinsbrann",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
+    "22": {
+        "name": "Takbrann",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
+    "23": {
+        "name": "Fettbrann",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "24": {
+        "name": "Brennende busskur",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "25": {
+        "name": "Veiulykke",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologi"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
+    },
+    "26": {
+        "name": "Liten brann i matvarebutikk",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 9
+    },
+    "27": {
+        "name": "Brennende garasje",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Brennende maskin",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
+        }
+    },
+    "29": {
+        "name": "Ukjent tankutslipp",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
+    "30": {
+        "name": "Gasslekkasje",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "31": {
+        "name": "B\u00e5lbrann",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Brennende tresker",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "33": {
+        "name": "Liten brann i matvarebutikk",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 9
+    },
+    "34": {
+        "name": "Brann p\u00e5 sykehus",
+        "stations": {
+            "0": 10,
+            "2": 6
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 2,
+            "tanker": 1,
+            "platform": 3
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 25,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 2
+    },
+    "35": {
+        "name": "Alkoholrus",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Generell indremedisiner"
+        }
+    },
+    "36": {
+        "name": "Brystsmerter",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Kardiologi"
+    },
+    "37": {
+        "name": "Akutt astma",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Generell indremedisiner"
+    },
+    "38": {
+        "name": "Anfall",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Nevrologi"
+    },
+    "39": {
+        "name": "Feber",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Generell indremedisiner"
+    },
+    "40": {
+        "name": "Fall",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologi"
+    },
+    "41": {
+        "name": "Brann i verksted",
+        "stations": {
+            "0": 14,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 15,
+        "percentages": {
+            "tanker": 40
+        }
+    },
+    "42": {
+        "name": "Fall",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologi"
+    },
+    "43": {
+        "name": "Fall",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologi"
+    },
+    "44": {
+        "name": "Butikktyveri",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 9,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "45": {
+        "name": "Butikktyveri",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "46": {
+        "name": "Ulykke med parkert bil",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 9
+    },
+    "47": {
+        "name": "Ulykke med parkert bil",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 10
+    },
+    "48": {
+        "name": "Innbrudd",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 8,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "49": {
+        "name": "Lommetyveri",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 0,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "50": {
+        "name": "Billettsniking",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 4
+    },
+    "51": {
+        "name": "Billettsniking",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 5
+    },
+    "52": {
+        "name": "Billettsniking",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 6
+    },
+    "53": {
+        "name": "Billettsniking",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 7
+    },
+    "54": {
+        "name": "Ulykke med parkert bil",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 14
+    },
+    "55": {
+        "name": "Sl\u00e5sskamp",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologi"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "56": {
+        "name": "Oppr\u00f8r",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 55
+        }
+    },
+    "57": {
+        "name": "Ikke kunngjort demonstrasjon",
+        "vehicles": {
+            "police": 7
+        },
+        "credits": 10020
+    },
+    "58": {
+        "name": "Kj\u00f8kkenbrann",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "59": {
+        "name": "Dyreredning",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "60": {
+        "name": "Brennende sportshall",
+        "stations": {
+            "0": 9,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 12
+    },
+    "61": {
+        "name": "Krasj med lettfly (flyplass)",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "arff": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 28
+    },
+    "62": {
+        "name": "St\u00f8yklage",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400
+    },
+    "63": {
+        "name": "Transitorisk iskemisk anfall (drypp)",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Nevrokirurgi"
+    },
+    "64": {
+        "name": "Ulykke med buss",
+        "stations": {
+            "0": 3,
+            "2": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 12,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        }
+    },
+    "65": {
+        "name": "Kj\u00f8kkenbrann",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "66": {
+        "name": "Brann i rom",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Generell indremedisiner"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "67": {
+        "name": "Sl\u00e5sskamp",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologi"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "68": {
+        "name": "Stor brann i matvarebutikk",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "69": {
+        "name": "Ukjent tankutslipp",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 4300
+    },
+    "70": {
+        "name": "Stor brann i matvarebutikk",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "72": {
+        "name": "Krasj med lettfly",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatologi"
+        },
+        "percentages": {
+            "hazmat": 50
+        }
+    },
+    "73": {
+        "name": "Alvorlig ulykke med buss",
+        "stations": {
+            "0": 5,
+            "2": 8,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "platform": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 12,
+            "transport": 80,
+            "specialisation": "Helsedirekt\u00f8r"
+        }
+    },
+    "74": {
+        "name": "Storbrann",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    },
+    "75": {
+        "name": "Delvis kollapset bygning",
+        "stations": {
+            "0": 5,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1,
+            "bchief": 2,
+            "heavyRescue": 2
+        },
+        "credits": 7300,
+        "patients": {
+            "max": 2,
+            "specialisation": "Helsedirekt\u00f8r"
+        }
+    },
+    "76": {
+        "name": "Industribrann",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "platform": 1,
+            "bchief": 2,
+            "hazmat": 1
+        },
+        "credits": 4800,
+        "patients": {
+            "max": 4,
+            "specialisation": "Helsedirekt\u00f8r"
+        }
+    },
+    "77": {
+        "name": "Pasienttransport",
+        "onlyRd": true,
+        "transport": 0
+    },
+    "78": {
+        "name": "Hjertestans",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Helsedirekt\u00f8r"
+    },
+    "79": {
+        "name": "Pustestopp",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Helsedirekt\u00f8r"
+    }
+}

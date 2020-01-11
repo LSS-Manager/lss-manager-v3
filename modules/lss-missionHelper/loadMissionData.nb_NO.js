@@ -6,18 +6,18 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "släckbilar",
-            platform: "stegbilar",
-            heavyRescue: "Lastväxlare",
+            truck: "brannbiler",
+            platform: "lastebil",
+            heavyRescue: "store utryknings",
             air: "fordon",
-            bchief: "brandchefsbil",
-            tanker: "tankbilar",
-            hazmat: "farligt gods-fordon",
+            bchief: "bataljons",
+            tanker: "tankbiler",
+            hazmat: "HazMat-kjøretøy",
             mcv: "utryckningsfordon",
-            police: "polisbilar",
+            police: "politibiler",
             hems: "HEMS",
             rtw: "ambulanser",
-            arff: "flygbrandfordon",
+            arff: "brann- og redningstjeneste for fly",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
             hems: "Räddningshelikopter",
@@ -46,43 +46,43 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Krediter i genomsnitt/)) {
+            if (content.match(/Gjennomsnittlige kreditter/)) {
                 credits = number;
-            } else if (content.match(/Nödvändiga|Krav på|Min./)) {
+            } else if (content.match(/Nødvendige|Krav på|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Placera/)) {
+            } else if (content.match(/Sted/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Nödvändiga/)) {
+            if (content.match(/Nødvendige|Nødvendig/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Sannolikhet/)) {
+            } else if (content.match(/Sannsynlighet/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Mest Patienter/)) {
+            if (content.match(/Maks\. Pasienter/)) {
                 patientsMax = number;
-            } else if (content.match(/Lägsta antal patienter/)) {
+            } else if (content.match(/Minste antall pasienter/)) {
                 patientsMin = number;
-            } else if (content.match(/transporteras/)) {
+            } else if (content.match(/transporteres/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Patientspecialiseringar/)) {
+            } else if (content.match(/Pasientspesialisering/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Högsta antal fångar/)) {
+            } else if (content.match(/Maks antall innsatte/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Uppdrag att utöka/)) {
+            } else if (content.match(/Utvidbare oppdrag/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -201,57 +201,57 @@ $.get(missionlink)
         function getPOI(content) {
             let pois = [
                 "Park",
-                "Sjö",
-                "Sjukhus",
+                "Innsjø",
+                "Sykehus",
                 "Skog",
-                "Busshållplats",
-                "Spårvagnshållplats",
-                "Tågstation \\(regionaltåg\\)",
-                "Tågstation \\(regional- och fjärrtåg\\)",
-                "Varustation",
-                "Mataffär",
-                "Stormarknad",
-                "Bensinmack",
-                "Skola",
+                "Busstopp",
+                "Trikkestopp",
+                "Togstasjon \\(regional\\)",
+                "Togstasjon \\(regional og langdistanse\\)",
+                "Godsstasjon",
+                "Matvarebutikk \\(liten\\)",
+                "Matvarebutikk \\(stor\\)",
+                "Bensinstasjon",
+                "Skole",
                 "Museum",
-                "Köpcentrum",
-                "Bilverkstad",
-                "Avfart",
-                "Julmarknad",
-                "Lagerbyggnad",
+                "Kjøpesenter",
+                "Bilverksted",
+                "Motorveiavkjøring",
+                "Julemarked",
+                "Lagerbygning",
                 "Nattklubb",
-                "Arena",
-                "Bondgård",
-                "Kontorsbyggnad",
-                "Badhus",
+                "Stadion",
+                "Gård",
+                "Kontorbygning",
+                "Basseng",
                 "Järnvägsövergång",
                 "Teater",
-                "Nöjesfält",
-                "Flod",
-                "Liten startbana",
-                "Stor startbana",
-                "Flygplatsterminal",
+                "Tivoli",
+                "Elv",
+                "Liten flyplass \\(flystripe\\)",
+                "Stor flyplass \\(flystripe\\)",
+                "Flyplassterminal",
                 "Bank",
-                "Magasin",
+                "Varehus",
                 "Bro",
-                "Snabbmatsrestaurang",
-                "Fraktgodshamn",
-                "Återvinningscentral",
-                "Höghus",
-                "Kryssningshamn",
-                "Småbåtshamn",
-                "Järnvägskorsning",
+                "Gatekjøkken",
+                "Cargohavn",
+                "Gjenvinningssenter",
+                "Skyskraper",
+                "Cruisehavn",
+                "Marina",
+                "Planovergang",
                 "Tunnel",
-                "Fryshus",
+                "Kaldt varehus",
                 "Kraftverk",
-                "Fabrik",
-                "Skrotupplag",
-                "Tunnelbanestation",
-                "Liten kemikalietank",
-                "Stor kemikalietank",
+                "Fabrikk",
+                "Skrotplass",
+                "Metrostasjon",
+                "Liten kjemisk lagringstank",
+                "Stor kjemisk lagringstank",
                 "Hotell",
                 "Bar",
-                "Soptipp",
+                "Avfallsdeponi",
                 "Parkeringshus"
             ];
             for (let i = 0; i < pois.length; i++) {
@@ -263,9 +263,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "brandstationer",
-                2: "räddningsstationer",
-                6: "polisstationer",
+                0: "brannstasjoner",
+                2: "redningsstasjoner",
+                6: "politistasjoner",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {

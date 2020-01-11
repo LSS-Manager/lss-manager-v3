@@ -1326,5 +1326,19 @@
         "percentages": {
             "tanker": 10
         }
+    },
+    "100": {
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u043c\u0443\u0441\u043e\u0440\u043e\u0432\u043e\u0437\u0430",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 2,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 5000
     }
 }

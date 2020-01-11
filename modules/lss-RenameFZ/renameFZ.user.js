@@ -560,28 +560,25 @@
                 stations: 'Her kan du angi alternative navn for hver bygning. Du kan bruke dem når du gir nytt navn til kjøretøyene via utsendelsessenteret.'
             },
             validStationTypes: {
-                0: "Brandstation",
-                2: "Ambulansstation",
-                6: "Polisstation",
-                7: "Larmcentral",
-                18: "Brandstation (liten)",
-                19: "Polisstation (liten)",
-                20: "Ambulansstation (liten)"
+                0: "Brannstasjon",
+                2: "Ambulansestasjon",
+                6: "Politistasjon",
+                7: "Nødetatssenter",
+                18: "Brannstasjon (liten)",
+                19: "Politistasjon (liten)",
+                20: "Ambulansestasjon (liten)"
             },
             vehicleTypes: {
-                0: 'BAS 1 - Släckbil',
-                1: 'BAS 2 - Släckbil',
-                2: 'M32L - Stegbil',
-                3: 'Befälsfordon',
-                4: 'Lastväxlare',
-                5: 'Ambulans',
-                6: 'BAS 4 - Tankbil',
-                7: 'Industribrandbil',
-                8: 'Radiobil',
-                9: 'Räddningshelikopter',
-                10: 'Luftfordon',
-                11: 'Mobilt ledningsfordon',
-                12: 'Räddningsfordon'
+                0: 'Slukk og Redningsbil',
+                1: 'TRV',
+                2: 'Brannbilstige',
+                3: 'Kommandoenhet',
+                4: 'MRU',
+                5: 'Ambulanse',
+                6: 'Slangbil',
+                7: 'HazMat-enhet',
+                8: 'Polisbil',
+                9: 'SAR-helikopter'
             }
         }
     };

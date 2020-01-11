@@ -6,15 +6,15 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "Autopompe",
-            platform: "(c|C)amion con piattaforma",
-            heavyRescue: "di soccorso pesante",
-            air: "Aria",
-            bchief: "capo-pattuglia",
-            tanker: "(a|A)utobotti",
-            hazmat: "N.B.C.R.",
-            mcv: "Mobile Command Vehicle",
-            police: "Volanti della polizia",
+            truck: "APS/ABP",
+            platform: "(a|A)utoscal",
+            heavyRescue: "polisoccorso",
+            air: "Carro aria|Carro Aria",
+            bchief: "Funzionar",
+            tanker: "Kilolitric",
+            hazmat: "NBCR|N.B.C.R",
+            mcv: "UCL",
+            police: "Pattuglie",
             hems: "HEMS",
             rtw: "Ambulanze",
             arff: "Flotta aerea antincendio AIB",
@@ -57,9 +57,9 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/necessarie|necessari|Richiede/)) {
+            if (content.match(/richieste|richiesti|richiesto|necessaria/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/richiesta|Possibile richiesta|richiesto/)) {
+            } else if (content.match(/Possibilità che venga richiesta|Possibilità che venga richiesto il|richiesta/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

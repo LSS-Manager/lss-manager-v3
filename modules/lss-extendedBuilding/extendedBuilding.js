@@ -225,7 +225,7 @@
     };
     I18n.translations.da_DK.lssm.extendedBuilding = {
         title: 'Udvidet bygningsvisning',
-        crew: 'Crew (Max)',
+        crew: 'Mandskab (maks.)',
         fms: 'Status',
         assignment: 'Assign Personnel',
         neededPersonnel: 'Needed Personnel',
@@ -281,13 +281,13 @@
     };
     I18n.translations.nb_NO.lssm.extendedBuilding = {
         title: 'Utvidet bygningsutsikt',
-        crew: 'Crew (Max)',
+        crew: 'Mannskap (maks)',
         fms: 'Status',
-        assignment: 'Assign Personnel',
-        neededPersonnel: 'Needed Personnel',
-        expansionFinished: 'Finished',
-        expansionNotStarted: 'Not started',
-        personnelOverview: 'Personnel Overview',
+        assignment: 'Tilordne personell',
+        neededPersonnel: 'Nødvendig personell',
+        expansionFinished: 'ferdig',
+        expansionNotStarted: 'Ikke begynt',
+        personnelOverview: 'Personell oversikt',
         schooling: 'utdanning',
         schoolingsMulti: 'Alle kombinasjoner av utdanning',
         schoolingsSingle: 'Enkeltutdanninger',

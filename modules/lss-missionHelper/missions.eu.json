@@ -1510,5 +1510,24 @@
             "police": 1
         },
         "credits": 5000
+    },
+    "114": {
+        "name": "Motorbike accident",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "General Internal"
+        }
     }
 }

@@ -9017,5 +9017,39 @@
         "nef": 50,
         "rth": 25,
         "specialisation": "Kardiologie"
+    },
+    "501": {
+        "name": "Schwimmbaddach eingest\u00fcrzt",
+        "stations": {
+            "0": 8,
+            "2": 10,
+            "6": 3,
+            "9": 3
+        },
+        "vehicles": {
+            "truck": 6,
+            "rw": 2,
+            "elw1": 2,
+            "fwk": 1,
+            "dlk": 1,
+            "gkw": 3,
+            "mzkw": 2,
+            "mtwtz": 2,
+            "radlader": 1,
+            "anhdle": 1,
+            "fustw": 4
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 75,
+            "nef": 40,
+            "rth": 5,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 23,
+        "percentages": {
+            "fwk": 80
+        }
     }
 }

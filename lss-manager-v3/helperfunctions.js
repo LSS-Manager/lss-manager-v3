@@ -198,29 +198,26 @@ else if (I18n.locale == "da_DK") {
 else if (I18n.locale == "nb_NO") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
-        "Ambulansutbyggnad": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
+        "Ambulanseutvidelse": 0,
+        "Flyplassutvidelse": 1,
+        "Vannredningsutvidelse": 2,
         // Pol-Erweiterungen (10-19)
-        "Fängelsecell": 10,
-        "Fler celler": 10,
+        "Fengselscelle": 10,
+        "Flere celler": 10,
         // Schule-Erweiterungen (20-29)
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["BAS 1 - Släckbil", 0],
-        "1": ["BAS 2 - Släckbil", 0],
-        "2": ["M32L - Stegbil", 0],
-        "3": ["Befälsfordon", 0],
-        "4": ["Lastväxlare", 0],
-        "5": ["Ambulans", 2],
-        "6": ["BAS 4 - Tankbil", 0],
-        "7": ["Industribrandbil", 0],
-        "8": ["Radiobil", 6],
-        "9": ["Räddningshelikopter", 2],
-        "10": ["Luftfordon", 0],
-        "11": ["Mobilt ledningsfordon", 0],
-        "12": ["Räddningsfordon", 0]
+        "0": ["Slukk og Redningsbil", 0],
+        "1": ["TRV", 0],
+        "2": ["Brannbilstige", 0],
+        "3": ["Kommandoenhet", 0],
+        "4": ["MRU", 0],
+        "5": ["Ambulanse", 2],
+        "6": ["Slangbil", 0],
+        "7": ["HazMat-enhet", 0],
+        "8": ["Polisbil", 6],
+        "9": ["SAR-helikopter", 2]
     };
 }
 else if (I18n.locale == "pl_PL")
