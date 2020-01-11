@@ -510,19 +510,20 @@
         485: 'Brand mehrerer E-Autos in Auslieferungshalle',
         486: 'Cannabisplantage entdeckt',
         487: 'Kleinbrand in Kirche',
-        488: 'Massenanfall an Erkrankten',
+        488: 'Massenanfall an Erkrankten - Stadion',
         489: 'Massenanfall an Erkrankten',
         490: 'Massenanfall an Erkrankten',
-        491: 'Massenanfall an Erkrankten',
+        491: 'Massenanfall an Erkrankten - Bahnhof (Regionalverkehr)',
         492: 'Massenanfall an Erkrankten',
-        493: 'Massenanfall an Erkrankten',
+        493: 'Massenanfall an Erkrankten - Diskothe',
         494: 'Beschädigte Radarfalle',
         495: 'Massenpanik in Diskothek',
         496: 'Pferd in Jauchegrube',
         497: 'Personensuche nahe Gewässer',
         498: 'Personensuche nahe Gewässer',
         499: 'Massenkarambolage auf Autobahn',
-        500: 'Herzkreislaufprobleme'
+        500: 'Herzkreislaufprobleme',
+        501: 'Schwimmbaddach eingestürzt'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -882,7 +883,8 @@
         338: 'Violation of Explosives Law',
         339: 'Hand injury caused by fireworks',
         340: 'Restraining Order Violation',
-        341: 'Vehicle Crash - Property Damage'
+        341: 'Vehicle Crash - Property Damage',
+        342: 'Child Locked in Vehicle'
       }
     };
     I18n.translations.fj.lssm.missionKeywordDefaults = {
@@ -1028,7 +1030,13 @@
         124: 'Violation of Explosive Act 1875',
         125: 'Hand injury caused by fireworks',
         126: 'HGV Fire',
-        127: 'Bin Lorry Fire'
+        127: 'Bin Lorry Fire',
+        128: 'RTC Entrapment',
+        129: 'Multi vehicle RTC',
+        130: 'Multi vehicle RTC entrapment',
+        131: 'HGV Lost its load',
+        132: 'HGV Lost its load (Livestock)',
+        133: 'HGV Lost its load (milk)'
       }
     };
     I18n.translations.eu.lssm.missionKeywordDefaults = {
@@ -1160,7 +1168,8 @@
         110: 'Violation of Explosives Act (1999)',
         111: 'Hand injury caused by fireworks',
         112: 'HGV Fire',
-        113: 'Garbage truck fire'
+        113: 'Garbage truck fire',
+        114: 'Motorbike accident'
       }
     };
     I18n.translations.es.lssm.missionKeywordDefaults = {
@@ -1292,7 +1301,8 @@
         110: 'Infracción del Reglamento de explosivos',
         111: 'Lesión en la mano a causa de los fuegos artificiales',
         112: 'Vehículo de mercancía pesada en llamas',
-        113: 'Camión de la basura en llamas'
+        113: 'Camión de la basura en llamas',
+        114: 'Accidente de motocicleta'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1413,7 +1423,204 @@
         99: 'Brott mot förordningen om explosiva varor',
         100: 'Handskada orsakad av fyrverkerier',
         101: 'Brinnande tungt lastfordon',
-        102: 'Brinnande sopbil'
+        102: 'Brinnande sopbil',
+        103: 'Motorcykelolycka'
+      }
+    };
+    I18n.translations.da_DK.lssm.missionKeywordDefaults = {
+      name: 'Missions nøgleord',
+      settingsName: 'Mission nøgleord-indstillinger',
+      domain: 'alarmcentral-spil.dk',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Visa gömma',
+      keywords: {
+        0: 'Ild i skraldespand',
+        1: 'Ild i container',
+        2: 'Ild i bil',
+        3: 'Ild i motorcykel',
+        4: 'Ild i græs',
+        5: 'Ild i værelse',
+        6: 'Ild i haveskur',
+        7: 'Ild i blade',
+        8: 'Ild i større mængde affald',
+        9: 'Ild i halmballe',
+        10: 'Ild i traktor',
+        11: 'Brændende telefonboks',
+        12: 'Træ på vejen',
+        13: 'Brændende lastbil',
+        14: 'Lille markbrand',
+        15: 'Lille skovbrand',
+        16: 'Ild i campingvogn',
+        17: 'Ild i postkasse',
+        18: 'Bunke af kviste',
+        19: 'Brændende trailer',
+        20: 'Ild i kælder',
+        21: 'Ild i skorsten',
+        22: 'Ild i tag',
+        23: 'Ild i olie',
+        24: 'Ild i busskur',
+        25: 'Færdselsuheld',
+        26: 'Lille supermarkedsbrand',
+        27: 'Ild i garage',
+        28: 'Brændende maskine',
+        29: 'Ukendt udslip fra tankskib',
+        30: 'Gaslækage',
+        31: 'Ild i ildsted',
+        32: 'Ild i høstmaskine',
+        33: 'Lille supermarkedsbrand',
+        34: 'Ild i hospital',
+        35: 'Påvirket af alkohol',
+        36: 'Brystsmerter',
+        37: 'Akut astma',
+        38: 'Anfald',
+        39: 'Feber',
+        40: 'Person er faldet',
+        41: 'Ild i bilværksted',
+        42: 'Person er faldet',
+        43: 'Person er faldet',
+        44: 'Butikstyveri',
+        45: 'Butikstyveri',
+        46: 'Uheld med parkeret bil',
+        47: 'Uheld med parkeret bil',
+        48: 'Metaltyveri',
+        49: 'Lommetyveri',
+        50: 'Manglende billet',
+        51: 'Manglende billet',
+        52: 'Manglende billet',
+        53: 'Manglende billet',
+        54: 'Uheld med parkeret bil',
+        55: 'Slagsmål',
+        56: 'Optøjer',
+        57: 'Ulovlig demonstration',
+        58: 'Ild i køkken',
+        59: 'Hjælp til dyr',
+        60: 'Ild i sportshal',
+        61: 'Lille fly styrtet ned (ved landingsbane)',
+        62: 'Støjklage',
+        63: 'Mildt slagtilfælde',
+        64: 'Uheld med bus',
+        65: 'Ild i køkken',
+        66: 'Ild i værelse',
+        67: 'Slagsmål',
+        68: 'Stor supermarkedsbrand',
+        69: 'Ukendt udslip fra tankskib',
+        70: 'Stor supermarkedsbrand',
+        71: 'Næseblod',
+        72: 'Lille fly styrtet ned',
+        73: 'Alvorligt uheld med bus',
+        74: 'Storbrand',
+        75: 'Bygning delvist kollapset',
+        76: 'Industribrand',
+        77: 'Patientoverførsel',
+        78: 'Hjertestop',
+        79: 'Respirationsstop'
+      }
+    };
+    I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
+      name: 'Oppdrags nøkkelord',
+      settingsName: 'Oppdrags nøkkelord-innstillinger',
+      domain: 'nodsentralspillet.com',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Visa gömma',
+      keywords: {
+        0: 'Brennende søppeldunk',
+        1: 'Containerbrann',
+        2: 'Brennende bil',
+        3: 'Brennende motorsykkel',
+        4: 'Gressbrann',
+        5: 'Brann i rom',
+        6: 'Brennende hageskur',
+        7: 'Brennende løv',
+        8: 'Søppelbrann',
+        9: 'Brennende halmball',
+        10: 'Brennende traktor',
+        11: 'Brennende telefonkiosk',
+        12: 'Tre på veien',
+        13: 'Brennende lastebil',
+        14: 'Liten åkerbrann',
+        15: 'Liten buskbrann',
+        16: 'Brennende bobil',
+        17: 'Brennende postkasse',
+        18: 'Haug med kvister',
+        19: 'Brennende trailer',
+        20: 'Kjellerbrann',
+        21: 'Skorsteinsbrann',
+        22: 'Takbrann',
+        23: 'Fettbrann',
+        24: 'Brennende busskur',
+        25: 'Veiulykke',
+        26: 'Liten brann i matvarebutikk',
+        27: 'Brennende garasje',
+        28: 'Brennende maskin',
+        29: 'Ukjent tankutslipp',
+        30: 'Gasslekkasje',
+        31: 'Bålbrann',
+        32: 'Brennende tresker',
+        33: 'Liten brann i matvarebutikk',
+        34: 'Brann på sykehus',
+        35: 'Alkoholrus',
+        36: 'Brystsmerter',
+        37: 'Akutt astma',
+        38: 'Anfall',
+        39: 'Feber',
+        40: 'Fall',
+        41: 'Brann i verksted',
+        42: 'Fall',
+        43: 'Fall',
+        44: 'Butikktyveri',
+        45: 'Butikktyveri',
+        46: 'Ulykke med parkert bil',
+        47: 'Ulykke med parkert bil',
+        48: 'Innbrudd',
+        49: 'Lommetyveri',
+        50: 'Billettsniking',
+        51: 'Billettsniking',
+        52: 'Billettsniking',
+        53: 'Billettsniking',
+        54: 'Ulykke med parkert bil',
+        55: 'Slåsskamp',
+        56: 'Opprør',
+        57: 'Ikke kunngjort demonstrasjon',
+        58: 'Kjøkkenbrann',
+        59: 'Dyreredning',
+        60: 'Brennende sportshall',
+        61: 'Krasj med lettfly (flyplass)',
+        62: 'Støyklage',
+        63: 'Transitorisk iskemisk anfall (drypp)',
+        64: 'Ulykke med buss',
+        65: 'Kjøkkenbrann',
+        66: 'Brann i rom',
+        67: 'Slåsskamp',
+        68: 'Stor brann i matvarebutikk',
+        69: 'Ukjent tankutslipp',
+        70: 'Stor brann i matvarebutikk',
+        71: 'Neseblødning',
+        72: 'Krasj med lettfly',
+        73: 'Alvorlig ulykke med buss',
+        74: 'Storbrann',
+        75: 'Delvis kollapset bygning',
+        76: 'Industribrann',
+        77: 'Pasienttransport',
+        78: 'Hjertestans',
+        79: 'Pustestopp'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1534,7 +1741,8 @@
         99: 'Naruszenie przepisów ustawy o materiałach wybuchowych przeznaczonych do użytku cywilnego',
         100: 'Uraz ręki w wyniku użycia fajerwerków',
         101: 'Płonący pojazd ciężarowy',
-        102: 'Płonąca śmieciarka'
+        102: 'Płonąca śmieciarka',
+        103: 'Wypadek motocyklowy'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1574,29 +1782,29 @@
         18: 'Mucchio di arbusti',
         19: 'Rimorchio in fiamme',
         20: 'Seminterrato in fiamme',
-        21: 'Comignolo in fiamme',
+        21: 'Camino in fiamme',
         22: 'Tetto in fiamme',
         23: 'Incendio da grasso',
-        24: 'Pensilina alla fermata dell\'autobus in fiamme',
+        24: 'Incendio fermata autobus',
         25: 'Incidente stradale',
-        26: 'Incendio in piccolo supermercato',
+        26: 'Incendio in supermercato (PICCOLO)',
         27: 'Garage in fiamme',
         28: 'Macchinario in fiamme',
         29: 'Fuoriuscita sconosciuta da autocisterna',
         30: 'Perdita di gas',
         31: 'Camino in fiamme',
         32: 'Mietitrice in fiamme',
-        33: 'Incendio in piccolo supermercato',
+        33: 'Incendio in supermercato (PICCOLO)',
         34: 'Incendio in ospedale',
         35: 'Intossicazione da alcol',
-        36: 'Dolori al petto',
+        36: 'Dolore toracico',
         37: 'Asma acuto',
         38: 'Epilessia',
         39: 'Febbre',
-        40: 'Persona caduta',
+        40: 'Caduta accidentale',
         41: 'Incendio in officina meccanica',
-        42: 'Persona caduta',
-        43: 'Persona caduta',
+        42: 'Caduta accidentale',
+        43: 'Caduta accidentale',
         44: 'Taccheggio',
         45: 'Taccheggio',
         46: 'Incidente contro auto parcheggiata',
@@ -1621,9 +1829,9 @@
         65: 'Cucina in fiamme',
         66: 'Stanza in fiamme',
         67: 'Rissa',
-        68: 'Incendio in grande supermercato',
-        69: 'Fuoriuscita sconosciuta da autocisterna',
-        70: 'Incendio in grande supermercato',
+        68: 'Incendio in supermercato (GRANDE)',
+        69: 'Fuoriuscita chimica da autocisterna',
+        70: 'Incendio in supermercato (GRANDE)',
         71: 'Epistassi',
         72: 'Leggero incidente aereo',
         73: 'Grave incidente con autobus coinvolto',
@@ -1656,7 +1864,8 @@
         100: 'Veicolo della nettezza urbana in fiamme',
         101: 'Incidente con trattore',
         102: 'Esplosione in box auto',
-        103: 'Cisterna treno danneggiata'
+        103: 'Cisterna treno danneggiata',
+        104: 'Soccorso a persona'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -1774,7 +1983,8 @@
         96: 'Infraction au décret n° 90-897 sur les artifices de divertissement',
         97: 'Blessure à la main causée par des feux d\'artifice',
         98: 'Toit endommagé',
-        99: 'Poids lourd en feu'
+        99: 'Poids lourd en feu',
+        100: 'Camion poubelle en feu'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -1892,7 +2102,8 @@
         96: 'Нарушение закона об обращении со взрывчатыми веществами',
         97: 'Травма руки, вызванная фейерверком',
         98: 'Текущая крыша',
-        99: 'Возгорание большегрузного автомобиля'
+        99: 'Возгорание большегрузного автомобиля',
+        100: 'Возгорание мусоровоза'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2460,7 +2671,10 @@
         546: 'Donkere dagen offensief',
         547: 'Donkere dagen offensief',
         548: 'Steekincident (groot)',
-        549: 'Steekincident (groot)'
+        549: 'Steekincident (groot)',
+        550: 'Brand in theater',
+        551: 'Brand in theater',
+        552: 'Brand in theater'
       }
     };
 
@@ -2972,19 +3186,20 @@
       485: 'ABC 4',
       486: 'POL 4',
       487: 'B 2',
-      488: 'RD 7',
+      488: 'RD 14',
       489: 'RD 7',
       490: 'RD 7',
-      491: 'RD 7',
+      491: 'RD 12',
       492: 'RD 7',
-      493: 'RD 7',
+      493: 'RD 10',
       494: 'POL 1',
       495: 'POL 6',
       496: 'THL 2',
       497: 'POL 3',
       498: 'POL 3',
       499: 'THL 4',
-      500: 'RD 1'
+      500: 'RD 1',
+      501: 'THW 3'
     };
     let DEFAULT_AAO_EN = {
       0: 'FIRE 1',
@@ -3328,7 +3543,8 @@
       338: 'POL 1',
       339: 'MED 1',
       340: 'POL 2',
-      341: 'POL 1'
+      341: 'POL 1',
+      342: 'TECH 1'
     };
     let DEFAULT_AAO_FJ = {
       0: 'FIRE 1',
@@ -3459,7 +3675,13 @@
       124: 'POL 1',
       125: 'MED 1',
       126: 'FIRE 2',
-      127: 'FIRE 2'
+      127: 'FIRE 2',
+      128: 'TECH 1',
+      129: 'TECH 2',
+      130: 'TECH 3',
+      131: 'TECH 2',
+      132: 'POL 3',
+      133: 'TECH 3'
     };
     let DEFAULT_AAO_EU = {
       0: 'FIRE 1',
@@ -3575,7 +3797,8 @@
       110: 'POL 1',
       111: 'MED 1',
       112: 'FIRE 2',
-      113: 'FIRE 2'
+      113: 'FIRE 2',
+      114: 'TECH 2'
     };
     let DEFAULT_AAO_ES = {
       0: 'FIRE 1',
@@ -3691,7 +3914,8 @@
       110: 'POL 1',
       111: 'MED 1',
       112: 'FIRE 2',
-      113: 'FIRE 2'
+      113: 'FIRE 2',
+      114: 'TECH 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -3796,7 +4020,172 @@
       99: 'POL 1',
       100: 'MED 1',
       101: 'FIRE 2',
-      102: 'FIRE 2'
+      102: 'FIRE 2',
+      103: 'TECH 2'
+    };
+    let DEFAULT_AAO_DADK = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 2',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'TECH 2',
+      76: 'FIRE 5',
+      77: 'MEDT',
+      78: 'MED 1',
+      79: 'MED 1'
+    };
+    let DEFAULT_AAO_NBNO = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 2',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'TECH 2',
+      76: 'FIRE 5',
+      77: 'MEDT',
+      78: 'MED 1',
+      79: 'MED 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -3901,7 +4290,8 @@
       99: 'POL 1',
       100: 'MED 1',
       101: 'FIRE 2',
-      102: 'FIRE 2'
+      102: 'FIRE 2',
+      103: 'TECH 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -3910,7 +4300,7 @@
       3: 'FIRE 1',
       4: 'FIRE 1',
       5: 'FIRE 2',
-      6: 'FIRE 2',
+      6: 'FIRE 1',
       7: 'FIRE 1',
       8: 'FIRE 1',
       9: 'FIRE 1',
@@ -3920,25 +4310,25 @@
       13: 'FIRE 2',
       14: 'FIRE 2',
       15: 'FIRE 1',
-      16: 'FIRE 2',
+      16: 'FIRE 1',
       17: 'FIRE 1',
       18: 'FIRE 1',
       19: 'FIRE 1',
       20: 'FIRE 3',
-      21: 'FIRE 3',
+      21: 'FIRE 2',
       22: 'FIRE 3',
       23: 'FIRE 1',
       24: 'FIRE 1',
-      25: 'TECH 1',
+      25: 'TECH 2',
       26: 'FIRE 4',
-      27: 'FIRE 2',
-      28: 'FIRE 3',
+      27: 'FIRE 1',
+      28: 'FIRE 2',
       29: 'CBRN 2',
       30: 'CBRN 1',
       31: 'FIRE 1',
-      32: 'FIRE 2',
+      32: 'FIRE 1',
       33: 'FIRE 3',
-      34: 'FIRE 6',
+      34: 'FIRE 7',
       35: 'MED 1',
       36: 'MED 1',
       37: 'MED 1',
@@ -3962,19 +4352,19 @@
       55: 'POL 3',
       56: 'POL 2',
       57: 'POL 7',
-      58: 'FIRE 2',
+      58: 'FIRE 1',
       59: 'TECH 1',
       60: 'FIRE 5',
       61: 'FIRE 1',
       62: 'POL 1',
       63: 'MED 1',
       64: 'TECH 2',
-      65: 'FIRE 2',
+      65: 'FIRE 1',
       66: 'FIRE 2',
       67: 'POL 3',
-      68: 'FIRE 4',
+      68: 'FIRE 5',
       69: 'CBRN 2',
-      70: 'FIRE 4',
+      70: 'FIRE 5',
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
@@ -4007,7 +4397,8 @@
       100: 'FIRE 2',
       101: 'TECH 1',
       102: 'FIRE 2',
-      103: 'TECH 2'
+      103: 'TECH 2',
+      104: 'TECH 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -4109,7 +4500,8 @@
       96: 'POL 1',
       97: 'MED 1',
       98: 'TECH 1',
-      99: 'FIRE 2'
+      99: 'FIRE 2',
+      100: 'FIRE 3'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -4211,7 +4603,8 @@
       96: 'POL 1',
       97: 'MED 1',
       98: 'TECH 1',
-      99: 'FIRE 2'
+      99: 'FIRE 2',
+      100: 'FIRE 2'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -4763,7 +5156,10 @@
       546: 'P 1',
       547: 'P 1',
       548: 'P 6',
-      549: 'P 6'
+      549: 'P 6',
+      550: 'KLEINE BRAND',
+      551: 'MIDDEL BRAND',
+      552: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -4773,6 +5169,8 @@
     I18n.translations.eu.lssm.missionKeyword = DEFAULT_AAO_EU;
     I18n.translations.es.lssm.missionKeyword = DEFAULT_AAO_ES;
     I18n.translations.sv_SE.lssm.missionKeyword = DEFAULT_AAO_SVSE;
+    I18n.translations.da_DK.lssm.missionKeyword = DEFAULT_AAO_DADK;
+    I18n.translations.nb_NO.lssm.missionKeyword = DEFAULT_AAO_NBNO;
     I18n.translations.pl_PL.lssm.missionKeyword = DEFAULT_AAO_PLPL;
     I18n.translations.it_IT.lssm.missionKeyword = DEFAULT_AAO_ITIT;
     I18n.translations.fr_FR.lssm.missionKeyword = DEFAULT_AAO_FRFR;
@@ -4792,6 +5190,10 @@
       defaultAao = DEFAULT_AAO_ES
     else if (I18n.locale === 'sv_SE')
       defaultAao = DEFAULT_AAO_SVSE
+    else if (I18n.locale === 'da_DK')
+      defaultAao = DEFAULT_AAO_DADK
+    else if (I18n.locale === 'nb_NO')
+      defaultAao = DEFAULT_AAO_NBNO
     else if (I18n.locale === 'pl_PL')
       defaultAao = DEFAULT_AAO_PLPL
     else if (I18n.locale === 'it_IT')

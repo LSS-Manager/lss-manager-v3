@@ -43,7 +43,7 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 340,
+        "credits": 400,
         "expansions": {
             "0": 27
         }
@@ -56,7 +56,7 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 200,
+        "credits": 300,
         "expansions": {
             "0": 14
         }
@@ -68,9 +68,10 @@
         },
         "vehicles": {
             "truck": 2,
+            "heavyRescue": 1,
             "platform": 1
         },
-        "credits": 1400,
+        "credits": 1200,
         "patients": {
             "max": 1,
             "transport": 50,
@@ -86,7 +87,7 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
         "credits": 600
     },
@@ -205,7 +206,7 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
         "credits": 1100
     },
@@ -246,33 +247,30 @@
         },
         "vehicles": {
             "bchief": 1,
-            "truck": 3
+            "truck": 3,
+            "heavyRescue": 1
         },
-        "credits": 2500,
+        "credits": 2200,
         "patients": {
             "max": 2,
             "specialisation": "Medicina interna generale"
         },
         "percentages": {
-            "bchief": 90
+            "bchief": 20
         }
     },
     "21": {
-        "name": "Comignolo in fiamme",
+        "name": "Camino in fiamme",
         "stations": {
             "0": 3
         },
         "vehicles": {
             "platform": 1,
-            "bchief": 1,
             "truck": 1
         },
-        "credits": 2400,
+        "credits": 600,
         "expansions": {
             "0": 22
-        },
-        "percentages": {
-            "platform": 100
         }
     },
     "22": {
@@ -282,14 +280,10 @@
         },
         "vehicles": {
             "platform": 1,
-            "truck": 3,
-            "bchief": 1
+            "truck": 2,
+            "heavyRescue": 1
         },
-        "credits": 2700,
-        "percentages": {
-            "platform": 100,
-            "bchief": 50
-        }
+        "credits": 900
     },
     "23": {
         "name": "Incendio da grasso",
@@ -302,7 +296,7 @@
         "credits": 1200
     },
     "24": {
-        "name": "Pensilina alla fermata dell'autobus in fiamme",
+        "name": "Incendio fermata autobus",
         "stations": {
             "0": 3
         },
@@ -315,14 +309,16 @@
     "25": {
         "name": "Incidente stradale",
         "stations": {
-            "0": 3
+            "0": 2,
+            "2": 3
         },
         "vehicles": {
+            "heavyRescue": 1,
             "truck": 1
         },
         "credits": 1000,
         "patients": {
-            "max": 1,
+            "max": 4,
             "transport": 40,
             "specialisation": "Traumatologia"
         },
@@ -333,19 +329,19 @@
         }
     },
     "26": {
-        "name": "Incendio in piccolo supermercato",
+        "name": "Incendio in supermercato (PICCOLO)",
         "stations": {
             "0": 5,
-            "2": 1
+            "2": 3
         },
         "vehicles": {
-            "truck": 4,
-            "bchief": 1
+            "truck": 3,
+            "heavyRescue": 1
         },
-        "credits": 1500,
+        "credits": 1300,
         "patients": {
-            "max": 2,
-            "transport": 30,
+            "max": 4,
+            "transport": 35,
             "specialisation": "Medicina interna generale"
         },
         "poi": 9
@@ -356,9 +352,9 @@
             "0": 4
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1400
+        "credits": 1100
     },
     "28": {
         "name": "Macchinario in fiamme",
@@ -366,15 +362,10 @@
             "0": 5
         },
         "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "tanker": 1
+            "truck": 2,
+            "heavyRescue": 1
         },
-        "credits": 2470,
-        "percentages": {
-            "tanker": 30
-        }
+        "credits": 1700
     },
     "29": {
         "name": "Fuoriuscita sconosciuta da autocisterna",
@@ -383,13 +374,12 @@
             "6": 2
         },
         "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 2
+            "truck": 2,
+            "heavyRescue": 1,
+            "police": 2,
+            "hazmat": 1
         },
-        "credits": 5300
+        "credits": 3000
     },
     "30": {
         "name": "Perdita di gas",
@@ -397,7 +387,8 @@
             "0": 1
         },
         "vehicles": {
-            "truck": 1
+            "truck": 1,
+            "heavyRescue": 1
         },
         "credits": 400
     },
@@ -407,7 +398,6 @@
             "0": 6
         },
         "vehicles": {
-            "bchief": 1,
             "platform": 1,
             "truck": 1
         },
@@ -419,23 +409,23 @@
             "0": 6
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1200
+        "credits": 800
     },
     "33": {
-        "name": "Incendio in piccolo supermercato",
+        "name": "Incendio in supermercato (PICCOLO)",
         "stations": {
             "0": 5,
             "2": 1
         },
         "vehicles": {
-            "truck": 4,
-            "bchief": 1
+            "truck": 3,
+            "heavyRescue": 1
         },
-        "credits": 1500,
+        "credits": 1100,
         "patients": {
-            "max": 2,
+            "max": 4,
             "transport": 30,
             "specialisation": "Medicina interna generale"
         },
@@ -448,13 +438,15 @@
             "2": 6
         },
         "vehicles": {
-            "truck": 10,
+            "truck": 8,
             "bchief": 2,
-            "heavyRescue": 2,
+            "heavyRescue": 3,
             "tanker": 1,
-            "platform": 3
+            "platform": 2,
+            "mcv": 1,
+            "air": 1
         },
-        "credits": 6000,
+        "credits": 8200,
         "patients": {
             "max": 25,
             "transport": 50,
@@ -478,7 +470,7 @@
         }
     },
     "36": {
-        "name": "Dolori al petto",
+        "name": "Dolore toracico",
         "stations": {
             "2": 3
         },
@@ -514,12 +506,12 @@
         "specialisation": "Medicina interna generale"
     },
     "40": {
-        "name": "Persona caduta",
+        "name": "Caduta accidentale",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
-        "transport": 30,
+        "transport": 80,
         "specialisation": "Traumatologia"
     },
     "41": {
@@ -530,15 +522,16 @@
             "6": 2
         },
         "vehicles": {
-            "truck": 8,
-            "bchief": 2,
-            "platform": 2,
-            "heavyRescue": 1,
+            "truck": 4,
+            "bchief": 1,
+            "platform": 1,
+            "heavyRescue": 2,
             "tanker": 1,
             "hazmat": 1,
-            "police": 2
+            "police": 2,
+            "air": 1
         },
-        "credits": 6000,
+        "credits": 5200,
         "patients": {
             "max": 4,
             "transport": 50,
@@ -546,25 +539,27 @@
         },
         "poi": 15,
         "percentages": {
-            "tanker": 40
+            "tanker": 20,
+            "bchief": 40,
+            "air": 30
         }
     },
     "42": {
-        "name": "Persona caduta",
+        "name": "Caduta accidentale",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
-        "transport": 30,
+        "transport": 80,
         "specialisation": "Traumatologia"
     },
     "43": {
-        "name": "Persona caduta",
+        "name": "Caduta accidentale",
         "stations": {
             "2": 1
         },
         "onlyRd": true,
-        "transport": 30,
+        "transport": 80,
         "specialisation": "Traumatologia"
     },
     "44": {
@@ -746,7 +741,7 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
         "credits": 1000
     },
@@ -769,13 +764,14 @@
             "2": 2
         },
         "vehicles": {
-            "truck": 5,
+            "truck": 4,
             "bchief": 1,
+            "air": 1,
             "platform": 1
         },
-        "credits": 2000,
+        "credits": 3000,
         "patients": {
-            "max": 4,
+            "max": 10,
             "transport": 50,
             "specialisation": "Medicina interna generale"
         },
@@ -828,7 +824,7 @@
             "truck": 2,
             "heavyRescue": 1
         },
-        "credits": 1000,
+        "credits": 900,
         "patients": {
             "max": 12,
             "transport": 50,
@@ -841,9 +837,9 @@
             "0": 2
         },
         "vehicles": {
-            "truck": 2
+            "truck": 1
         },
-        "credits": 1000
+        "credits": 400
     },
     "66": {
         "name": "Stanza in fiamme",
@@ -854,7 +850,7 @@
             "truck": 2,
             "platform": 1
         },
-        "credits": 1400,
+        "credits": 700,
         "patients": {
             "max": 1,
             "transport": 50,
@@ -882,7 +878,7 @@
         }
     },
     "68": {
-        "name": "Incendio in grande supermercato",
+        "name": "Incendio in supermercato (GRANDE)",
         "stations": {
             "0": 8,
             "2": 3,
@@ -890,13 +886,15 @@
         },
         "vehicles": {
             "truck": 6,
-            "bchief": 2,
+            "bchief": 1,
             "platform": 1,
-            "heavyRescue": 1,
+            "heavyRescue": 2,
+            "air": 1,
+            "mcv": 1,
             "tanker": 1,
-            "police": 1
+            "police": 2
         },
-        "credits": 3000,
+        "credits": 4500,
         "patients": {
             "max": 6,
             "transport": 30,
@@ -904,26 +902,26 @@
         },
         "poi": 10,
         "percentages": {
-            "tanker": 20
+            "air": 40
         }
     },
     "69": {
-        "name": "Fuoriuscita sconosciuta da autocisterna",
+        "name": "Fuoriuscita chimica da autocisterna",
         "stations": {
             "0": 13,
             "6": 2
         },
         "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 2,
             "hazmat": 1
         },
-        "credits": 4300
+        "credits": 2500
     },
     "70": {
-        "name": "Incendio in grande supermercato",
+        "name": "Incendio in supermercato (GRANDE)",
         "stations": {
             "0": 8,
             "2": 3,
@@ -931,21 +929,23 @@
         },
         "vehicles": {
             "truck": 6,
-            "bchief": 2,
+            "bchief": 1,
             "platform": 1,
-            "heavyRescue": 1,
+            "heavyRescue": 2,
+            "air": 1,
+            "mcv": 1,
             "tanker": 1,
             "police": 1
         },
-        "credits": 3000,
+        "credits": 4500,
         "patients": {
-            "max": 6,
+            "max": 25,
             "transport": 30,
             "specialisation": "Medicina interna generale"
         },
         "poi": 10,
         "percentages": {
-            "tanker": 20
+            "air": 40
         }
     },
     "71": {
@@ -987,16 +987,14 @@
             "6": 2
         },
         "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "platform": 1,
+            "truck": 3,
             "heavyRescue": 2,
             "police": 2
         },
-        "credits": 2000,
+        "credits": 2200,
         "patients": {
-            "max": 12,
-            "transport": 80,
+            "max": 15,
+            "transport": 60,
             "specialisation": "Chirurgia generale"
         }
     },
@@ -1004,12 +1002,12 @@
         "name": "Grande incendio",
         "vehicles": {
             "truck": 10,
-            "bchief": 3,
+            "bchief": 2,
             "platform": 2,
             "tanker": 2,
             "heavyRescue": 2
         },
-        "credits": 10210
+        "credits": 9800
     },
     "75": {
         "name": "Furto al mercatino di Natale",
@@ -1113,7 +1111,7 @@
         },
         "vehicles": {
             "truck": 2,
-            "heavyRescue": 2
+            "heavyRescue": 1
         },
         "credits": 1100,
         "patients": {
@@ -1148,10 +1146,7 @@
             "police": 1,
             "heavyRescue": 1
         },
-        "credits": 700,
-        "percentages": {
-            "heavyRescue": 30
-        }
+        "credits": 800
     },
     "85": {
         "name": "Tubo acquedotto rotto",
@@ -1159,14 +1154,10 @@
             "0": 6
         },
         "vehicles": {
-            "truck": 5,
-            "heavyRescue": 1,
-            "bchief": 1
+            "truck": 2,
+            "heavyRescue": 1
         },
-        "credits": 1400,
-        "percentages": {
-            "bchief": 40
-        }
+        "credits": 1200
     },
     "86": {
         "name": "Auto in fiamme a causa di fuochi d'artificio",
@@ -1333,14 +1324,10 @@
         },
         "vehicles": {
             "truck": 3,
-            "bchief": 1,
-            "tanker": 1,
+            "heavyRescue": 1,
             "police": 1
         },
-        "credits": 2500,
-        "percentages": {
-            "tanker": 10
-        }
+        "credits": 1300
     },
     "100": {
         "name": "Veicolo della nettezza urbana in fiamme",
@@ -1349,12 +1336,11 @@
             "6": 1
         },
         "vehicles": {
-            "truck": 3,
-            "bchief": 2,
-            "tanker": 1,
+            "truck": 2,
+            "heavyRescue": 1,
             "police": 1
         },
-        "credits": 5000
+        "credits": 2000
     },
     "101": {
         "name": "Incidente con trattore",
@@ -1364,7 +1350,6 @@
         },
         "vehicles": {
             "truck": 2,
-            "rtw": 1,
             "heavyRescue": 1
         },
         "credits": 1000,
@@ -1384,6 +1369,7 @@
         },
         "vehicles": {
             "truck": 2,
+            "heavyRescue": 1,
             "police": 1
         },
         "credits": 1900,
@@ -1406,5 +1392,25 @@
         },
         "credits": 950,
         "poi": 8
+    },
+    "104": {
+        "name": "Soccorso a persona",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 400,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Traumatologia"
+        }
     }
 }

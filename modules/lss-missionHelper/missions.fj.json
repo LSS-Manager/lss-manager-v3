@@ -1704,5 +1704,105 @@
             "police": 1
         },
         "credits": 5000
+    },
+    "128": {
+        "name": "RTC Entrapment",
+        "stations": {
+            "0": 3,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 1
+        },
+        "credits": 1250,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "General Surgeon"
+        }
+    },
+    "129": {
+        "name": "Multi vehicle RTC",
+        "stations": {
+            "0": 3,
+            "2": 10,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 2
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 7,
+            "min": 3,
+            "transport": 50,
+            "specialisation": "General Surgeon"
+        }
+    },
+    "130": {
+        "name": "Multi vehicle RTC entrapment",
+        "stations": {
+            "0": 6,
+            "2": 10,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 7,
+            "min": 3,
+            "transport": 80,
+            "specialisation": "General Surgeon"
+        }
+    },
+    "131": {
+        "name": "HGV Lost its load",
+        "stations": {
+            "0": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 1
+        },
+        "credits": 1500
+    },
+    "132": {
+        "name": "HGV Lost its load (Livestock)",
+        "stations": {
+            "0": 1,
+            "6": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 4
+        },
+        "credits": 2400,
+        "special": {
+            "SWATPersonnel": 2
+        }
+    },
+    "133": {
+        "name": "HGV Lost its load (milk)",
+        "stations": {
+            "0": 11,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 3500
     }
 }

@@ -6,22 +6,22 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "APS/ABP",
-            platform: "(a|A)utoscal",
-            heavyRescue: "polisoccorso",
-            air: "Carro aria|Carro Aria",
-            bchief: "Funzionar",
-            tanker: "Kilolitric",
-            hazmat: "NBCR|N.B.C.R",
-            mcv: "UCL",
-            police: "Pattuglie",
+            truck: "brannbiler",
+            platform: "lastebil",
+            heavyRescue: "store utryknings",
+            air: "fordon",
+            bchief: "bataljons",
+            tanker: "tankbiler",
+            hazmat: "HazMat-kjøretøy",
+            mcv: "utryckningsfordon",
+            police: "politibiler",
             hems: "HEMS",
-            rtw: "Ambulanze",
-            arff: "Flotta aerea antincendio AIB",
+            rtw: "ambulanser",
+            arff: "brann- og redningstjeneste for fly",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "SAR Helicopter",
-            policeHeli: "Police Helicopter"
+            hems: "Räddningshelikopter",
+            policeHeli: "Police Helicopter",
         };
 
         let credits;
@@ -46,43 +46,43 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Media dei crediti/)) {
+            if (content.match(/Gjennomsnittlige kreditter/)) {
                 credits = number;
-            } else if (content.match(/richieste|Requisito|Min./)) {
+            } else if (content.match(/Nødvendige|Krav på|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Luogo/)) {
+            } else if (content.match(/Sted/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/richieste|richiesti|richiesto|necessaria/)) {
+            if (content.match(/Nødvendige|Nødvendig/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Possibilità che venga richiesta|Possibilità che venga richiesto il|richiesta/)) {
+            } else if (content.match(/Sannsynlighet/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Max Pazienti/)) {
+            if (content.match(/Maks\. Pasienter/)) {
                 patientsMax = number;
-            } else if (content.match(/Numero minimo di pazienti/)) {
+            } else if (content.match(/Minste antall pasienter/)) {
                 patientsMin = number;
-            } else if (content.match(/trasportato/)) {
+            } else if (content.match(/transporteres/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Specializzazioni pazienti/)) {
+            } else if (content.match(/Pasientspesialisering/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Numero massimo di detenuti/)) {
+            } else if (content.match(/Maks antall innsatte/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Missioni espandibili/)) {
+            } else if (content.match(/Utvidbare oppdrag/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -182,7 +182,7 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "it_IT"
+            lang: "nb_NO"
         })
             .done(response => {
                 if (response.startsWith('Error')) {
@@ -200,59 +200,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Parco",
-                "Lago",
-                "Ospedale",
-                "Bosco",
-                "Fermata dell'autobus",
-                "Fermata del tram",
-                "Stazione ferroviaria \\(traffico regionale\\)",
-                "Stazione ferroviaria \\(traffico regionale e viaggi a lunga distanza\\)",
-                "Stazione merci",
-                "Supermercato \\(piccolo\\)",
-                "Supermercato \\(grande\\)",
-                "Stazione di servizio",
-                "Scuola",
-                "Museo",
-                "Centro commercial",
-                "Officina meccanica",
-                "Uscita autostradale",
-                "Mercatino di Natale",
-                "Storehouse",
-                "Discoteca",
-                "Stadio",
-                "Azienda agricola",
-                "Edificio adibito a uffici",
-                "Piscina",
-                "Railroad Crossing",
-                "Teatro",
-                "Luna park",
-                "Fiume",
-                "Piccolo aeroporto \\(pista\\)",
-                "Grande aeroporto \\(pista\\)",
-                "Terminal aeroporto",
-                "Banca",
-                "Magazzino",
-                "Ponte",
-                "Tavola calda",
-                "Porto mercantile",
-                "Piattaforma ecologica",
-                "Grattacielo",
-                "Molo navi da crociera",
-                "Porticciolo",
-                "Passaggio a livello",
-                "Galleria",
-                "Magazzino a celle frigorifere",
-                "Centrale elettrica",
-                "Fabbrica",
-                "Deposito rottami",
-                "Stazione metropolitana",
-                "Piccolo serbatoio di accumulo sostanze chimiche",
-                "Grande serbatoio di accumulo sostanze chimiche",
-                "Hotel",
+                "Park",
+                "Innsjø",
+                "Sykehus",
+                "Skog",
+                "Busstopp",
+                "Trikkestopp",
+                "Togstasjon \\(regional\\)",
+                "Togstasjon \\(regional og langdistanse\\)",
+                "Godsstasjon",
+                "Matvarebutikk \\(liten\\)",
+                "Matvarebutikk \\(stor\\)",
+                "Bensinstasjon",
+                "Skole",
+                "Museum",
+                "Kjøpesenter",
+                "Bilverksted",
+                "Motorveiavkjøring",
+                "Julemarked",
+                "Lagerbygning",
+                "Nattklubb",
+                "Stadion",
+                "Gård",
+                "Kontorbygning",
+                "Basseng",
+                "Järnvägsövergång",
+                "Teater",
+                "Tivoli",
+                "Elv",
+                "Liten flyplass \\(flystripe\\)",
+                "Stor flyplass \\(flystripe\\)",
+                "Flyplassterminal",
+                "Bank",
+                "Varehus",
+                "Bro",
+                "Gatekjøkken",
+                "Cargohavn",
+                "Gjenvinningssenter",
+                "Skyskraper",
+                "Cruisehavn",
+                "Marina",
+                "Planovergang",
+                "Tunnel",
+                "Kaldt varehus",
+                "Kraftverk",
+                "Fabrikk",
+                "Skrotplass",
+                "Metrostasjon",
+                "Liten kjemisk lagringstank",
+                "Stor kjemisk lagringstank",
+                "Hotell",
                 "Bar",
-                "Discarica",
-                "Parcheggio coperto"
+                "Avfallsdeponi",
+                "Parkeringshus"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -263,9 +263,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "Caserme dei vigili del fuoco",
-                2: "Stazioni di soccorso",
-                6: "stazioni di polizia",
+                0: "brannstasjoner",
+                2: "redningsstasjoner",
+                6: "politistasjoner",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {

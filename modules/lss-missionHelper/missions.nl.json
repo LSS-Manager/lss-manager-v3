@@ -9547,5 +9547,71 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "550": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "tankauto": 1,
+            "redvoertuig": 1
+        },
+        "credits": 850,
+        "poi": 25,
+        "expansions": {
+            "0": 551
+        },
+        "percentages": {
+            "redvoertuig": 20
+        }
+    },
+    "551": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "tankauto": 2,
+            "redvoertuig": 1,
+            "ovdb": 1
+        },
+        "credits": 1600,
+        "poi": 25,
+        "expansions": {
+            "0": 552
+        },
+        "percentages": {
+            "redvoertuig": 40
+        }
+    },
+    "552": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 8,
+            "3": 6,
+            "5": 2
+        },
+        "vehicles": {
+            "tankauto": 3,
+            "redvoertuig": 1,
+            "ovdb": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 25,
+        "percentages": {
+            "redvoertuig": 40,
+            "adembescherming": 10,
+            "slangenwagen": 80
+        }
     }
 }

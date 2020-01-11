@@ -106,6 +106,48 @@
     }
   }
 
+  I18n.translations.da_DK.lssm['n-alarm'] = {
+    not_support: "Denne browser understøtter ikke HTML5-meddelelser",
+    inithead: "Initialisering",
+    chat_message: "Chatbesked fra ",
+    blend: "Skjul efter:",
+    seconds: "sekunder",
+    settings: {
+      title: "Meddelelse-Alert",
+      chat_title: "Chatbeskeder",
+      chat_text: "Få chatbeskeder som anmeldelse.",
+      s5_title: "Transportanmodning",
+      save: "Gemme",
+      close: "Tæt",
+      s5_text: "Få transportanmodninger som anmeldelse",
+      status_title: "Status",
+      status_text: "Få alle statusmeddelelser som anmeldelse.",
+      chatp_title: "Hent chatbeskeder som informations popup",
+      chatp_text: "Hent alle chatbeskeder som popup-besked i højre side"
+    }
+  }
+
+  I18n.translations.nb_NO.lssm['n-alarm'] = {
+    not_support: "Denne nettleseren støtter ikke HTML5-varsler",
+    inithead: "initialisering",
+    chat_message: "Chat melding fra ",
+    blend: "Skjul etter:",
+    seconds: "sekunder",
+    settings: {
+      title: "Varsling-varsel",
+      chat_title: "Chatmeldinger",
+      chat_text: "Få chat-meldinger som varsling.",
+      s5_title: "Transportforespørsel",
+      save: "Lagre",
+      close: "Lukk",
+      s5_text: "Få transportforespørsler som varsling",
+      status_title: "Status",
+      status_text: "Få alle statusmeldinger som varsling.",
+      chatp_title: "Få chattemeldinger som informasjons popup",
+      chatp_text: "Få alle chatmeldinger som popup-melding på høyre side"
+    }
+  }
+
   I18n.translations.it_IT.lssm['n-alarm'] = {
     not_support: "Questo browser non supporta le notifiche HTML5-Notifiche",
     inithead: "Initalizzazione",

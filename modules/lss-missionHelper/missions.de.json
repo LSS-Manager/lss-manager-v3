@@ -5,7 +5,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 4,
@@ -20,7 +20,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 170,
         "expansions": {
@@ -34,7 +34,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 370,
         "expansions": {
@@ -50,7 +50,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 340
     },
@@ -60,7 +60,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 200,
         "expansions": {
@@ -73,7 +73,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1
         },
         "credits": 1400,
@@ -93,7 +93,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 600
     },
@@ -103,7 +103,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 210,
         "expansions": {
@@ -120,7 +120,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 220
     },
@@ -130,7 +130,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 250
     },
@@ -140,7 +140,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 600
     },
@@ -150,7 +150,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 240
     },
@@ -160,7 +160,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 310,
         "expansions": {
@@ -184,7 +184,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 980
     },
@@ -194,7 +194,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1000,
         "water": 2000,
@@ -211,7 +211,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1010,
         "poi": 3,
@@ -227,7 +227,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1100
     },
@@ -237,7 +237,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 340
     },
@@ -247,7 +247,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 700
     },
@@ -257,7 +257,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 650
     },
@@ -268,7 +268,7 @@
         },
         "vehicles": {
             "elw1": 1,
-            "lf": 3
+            "truck": 3
         },
         "credits": 2500,
         "patients": {
@@ -287,7 +287,7 @@
         "vehicles": {
             "dlk": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2400,
         "expansions": {
@@ -304,7 +304,7 @@
         },
         "vehicles": {
             "dlk": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 2700,
@@ -319,7 +319,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1200
     },
@@ -329,7 +329,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 900,
         "poi": 4
@@ -340,7 +340,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1000,
         "patients": {
@@ -357,7 +357,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "elw2": 1,
             "dlk": 1
@@ -380,7 +380,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 700,
         "percentages": {
@@ -393,7 +393,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1400,
         "expansions": {
@@ -409,7 +409,7 @@
             "0": 5
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "gwl2": 1,
@@ -427,7 +427,7 @@
             "0": 6
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "oel": 1
         },
         "credits": 1900,
@@ -444,7 +444,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400,
         "expansions": {
@@ -461,7 +461,7 @@
         "vehicles": {
             "elw1": 1,
             "dlk": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1310
     },
@@ -471,7 +471,7 @@
             "0": 6
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1200
     },
@@ -482,7 +482,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "elw2": 1,
             "dlk": 1,
@@ -510,7 +510,7 @@
         },
         "vehicles": {
             "rw": 2,
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "elw2": 1,
             "dlk": 1
@@ -532,7 +532,7 @@
         },
         "vehicles": {
             "rw": 2,
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "dlk": 1,
             "mess": 1,
@@ -552,7 +552,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 5
@@ -563,7 +563,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 6
@@ -574,7 +574,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 7
@@ -585,7 +585,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 2,
@@ -596,7 +596,7 @@
     "41": {
         "name": "Gro\u00dfbrand",
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "mess": 1,
             "elw1": 2,
             "elw2": 1,
@@ -616,7 +616,7 @@
         },
         "vehicles": {
             "rw": 2,
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "elw2": 1,
             "dlk": 1,
@@ -635,7 +635,7 @@
     "43": {
         "name": "Massenkarambolage",
         "vehicles": {
-            "lf": 10,
+            "truck": 10,
             "rw": 5,
             "elw1": 2,
             "oel": 2
@@ -725,7 +725,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "elw2": 1,
             "dlk": 1
@@ -748,7 +748,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 310,
         "patients": {
@@ -765,7 +765,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1410,
         "patients": {
@@ -793,7 +793,7 @@
             "0": 6
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 870
     },
@@ -827,7 +827,7 @@
     "59": {
         "name": "Gefahrgutunfall",
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "mess": 4,
             "gefahr": 4,
             "elw1": 3,
@@ -1008,7 +1008,7 @@
             "hoehen": 1,
             "elw1": 1,
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2000,
         "patients": {
@@ -1068,7 +1068,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 800,
         "expansions": {
@@ -1087,7 +1087,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 500,
         "patients": {
@@ -1103,7 +1103,7 @@
         },
         "vehicles": {
             "dlk": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 130,
         "percentages": {
@@ -1120,7 +1120,7 @@
             "elw1": 1,
             "dlk": 1,
             "hoehen": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1800,
         "patients": {
@@ -1140,7 +1140,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "dlk": 1,
             "atem": 1,
@@ -1185,7 +1185,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "elw2": 1,
             "rw": 1,
@@ -1216,7 +1216,7 @@
             "2": 1
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "gwl2": 1,
             "atem": 1,
             "rw": 1,
@@ -1255,7 +1255,7 @@
             "0": 13
         },
         "vehicles": {
-            "lf": 7,
+            "truck": 7,
             "elw1": 1,
             "elw2": 1,
             "dlk": 2,
@@ -1278,7 +1278,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "elw2": 1,
             "rw": 1,
@@ -1302,7 +1302,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -1313,7 +1313,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "rw": 1,
             "oel": 1,
@@ -1355,7 +1355,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 370
     },
@@ -1378,7 +1378,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "elw1": 1,
             "elw2": 1,
             "rw": 1,
@@ -1401,7 +1401,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400,
         "expansions": {
@@ -1417,7 +1417,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 6,
+            "truck": 6,
             "oel": 1,
             "elw1": 1
         },
@@ -1429,7 +1429,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 3
+            "truck": 3
         },
         "credits": 2900,
         "patients": {
@@ -1444,7 +1444,7 @@
             "0": 6
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "oel": 1
         },
@@ -1474,7 +1474,7 @@
     "99": {
         "name": "Flugzeug abgest\u00fcrzt",
         "vehicles": {
-            "lf": 22,
+            "truck": 22,
             "atem": 1,
             "oel": 1,
             "mess": 1,
@@ -1504,7 +1504,7 @@
             "6": 8
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "fustw": 1
         },
         "credits": 900,
@@ -1519,7 +1519,7 @@
             "6": 8
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "fustw": 1
         },
@@ -1547,7 +1547,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "elw1": 1
         },
@@ -1565,7 +1565,7 @@
             "6": 8
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "elw1": 1,
             "fustw": 1
@@ -1589,7 +1589,7 @@
             "2": 3
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "elw1": 1
         },
@@ -1612,7 +1612,7 @@
             "6": 8
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "elw1": 1,
             "fustw": 1
@@ -1696,7 +1696,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 350
     },
@@ -1706,7 +1706,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 850
     },
@@ -1717,7 +1717,7 @@
             "2": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "atem": 1
         },
@@ -1737,7 +1737,7 @@
         },
         "vehicles": {
             "dlk": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 900,
         "patients": {
@@ -1801,7 +1801,7 @@
             "0": 8
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1,
             "fwk": 1
@@ -1826,7 +1826,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1,
             "fwk": 1
@@ -1850,7 +1850,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "fustw": 1
         },
         "credits": 600,
@@ -1861,7 +1861,7 @@
             "specialisation": "Unfallchirurgie"
         },
         "percentages": {
-            "lf": 10
+            "truck": 10
         }
     },
     "123": {
@@ -1872,7 +1872,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1100,
         "patients": {
@@ -1889,7 +1889,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1600,
         "patients": {
@@ -1912,7 +1912,7 @@
         "vehicles": {
             "fustw": 1,
             "rw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1700,
         "patients": {
@@ -1932,7 +1932,7 @@
             "0": 6
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1
         },
         "credits": 2000,
@@ -1952,7 +1952,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "rw": 1
         },
         "credits": 2200,
@@ -1971,7 +1971,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "fustw": 1
         },
         "credits": 700,
@@ -1990,7 +1990,7 @@
             "6": 89
         },
         "percentages": {
-            "lf": 10
+            "truck": 10
         }
     },
     "129": {
@@ -1999,7 +1999,7 @@
             "0": 5
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 800
     },
@@ -2026,7 +2026,7 @@
         "vehicles": {
             "gwl2": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2000,
         "water": 8000,
@@ -2050,7 +2050,7 @@
         "vehicles": {
             "gwl2": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 5000,
         "water": 13000,
@@ -2068,7 +2068,7 @@
             "gwl2": 1,
             "elw1": 1,
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 5100,
         "water": 13000,
@@ -2084,7 +2084,7 @@
         "vehicles": {
             "gwl2": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 4000,
         "poi": 3,
@@ -2110,7 +2110,7 @@
             "gwl2": 1,
             "elw1": 1,
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 4100,
         "poi": 3,
@@ -2138,7 +2138,7 @@
             "elw2": 1,
             "dlk": 1,
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 8000,
         "patients": {
@@ -2169,7 +2169,7 @@
             "elw2": 1,
             "dlk": 1,
             "fustw": 3,
-            "lf": 1
+            "truck": 1
         },
         "credits": 8100,
         "patients": {
@@ -2193,7 +2193,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1500,
         "water": 3000,
@@ -2209,7 +2209,7 @@
         "vehicles": {
             "gwl2": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 3500,
         "water": 8000,
@@ -2229,7 +2229,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1600,
         "water": 3000,
@@ -2247,7 +2247,7 @@
             "gwl2": 1,
             "elw1": 1,
             "fustw": 2,
-            "lf": 1
+            "truck": 1
         },
         "credits": 3600,
         "water": 8000,
@@ -2265,7 +2265,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1
         },
         "credits": 1500,
@@ -2282,7 +2282,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -2292,7 +2292,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -2314,7 +2314,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "dlk": 1,
             "elw1": 1,
             "atem": 1,
@@ -2477,7 +2477,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 370
     },
@@ -2487,7 +2487,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 120
     },
@@ -2497,7 +2497,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 150
     },
@@ -2507,7 +2507,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 900
     },
@@ -2520,7 +2520,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1400,
         "patients": {
@@ -2539,7 +2539,7 @@
         "vehicles": {
             "dlk": 1,
             "fwk": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1400,
         "percentages": {
@@ -2579,7 +2579,7 @@
             "fustw": 1,
             "elw1": 1,
             "hoehen": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1200,
         "percentages": {
@@ -2594,7 +2594,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "fustw": 1,
             "elw1": 1,
@@ -2614,7 +2614,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 600,
         "poi": 6,
@@ -2630,7 +2630,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 600,
         "poi": 7,
@@ -2646,7 +2646,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 600,
         "poi": 8,
@@ -2665,7 +2665,7 @@
             "fustw": 2,
             "gwl2": 1,
             "oel": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 4000
     },
@@ -2675,7 +2675,7 @@
             "0": 9
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 600
     },
@@ -2687,7 +2687,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 1
+            "truck": 1
         },
         "credits": 700
     },
@@ -2729,7 +2729,7 @@
             "mzkw": 1,
             "fwk": 1,
             "dlk": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1
         },
         "credits": 2100,
@@ -2755,7 +2755,7 @@
             "radlader": 2,
             "mtwtz": 1,
             "mzkw": 1,
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "elw1": 1,
             "rw": 1,
@@ -2783,7 +2783,7 @@
         "vehicles": {
             "gkw": 1,
             "radlader": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "elw2": 1,
             "rw": 1,
@@ -2897,7 +2897,7 @@
             "radlader": 1,
             "anhdle": 1,
             "rw": 1,
-            "lf": 5,
+            "truck": 5,
             "elw1": 1,
             "elw2": 1,
             "fwk": 1,
@@ -2931,7 +2931,7 @@
             "6": 9
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "dlk": 1,
             "mess": 1
@@ -2988,7 +2988,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 310,
         "expansions": {
@@ -3001,7 +3001,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1
         },
         "credits": 1900
@@ -3013,7 +3013,7 @@
             "6": 5
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 1
         },
@@ -3028,7 +3028,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1000,
         "patients": {
@@ -3156,7 +3156,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 610,
         "patients": {
@@ -3176,7 +3176,7 @@
             "dlk": 1,
             "atem": 1,
             "gwl2": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 3500,
         "patients": {
@@ -3206,7 +3206,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 7,
+            "truck": 7,
             "elw1": 1,
             "dlk": 2,
             "atem": 1,
@@ -3243,7 +3243,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 15,
+            "truck": 15,
             "fwk": 1,
             "elw1": 2,
             "elw2": 1,
@@ -3278,7 +3278,7 @@
     "207": {
         "name": "Gefahrgutunfall - Gro\u00df",
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "mess": 4,
             "gefahr": 4,
             "elw1": 3,
@@ -3307,7 +3307,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 8,
+            "truck": 8,
             "elw1": 1,
             "elw2": 1,
             "rw": 2,
@@ -3385,7 +3385,7 @@
             "9": 1
         },
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "fwk": 1,
             "rw": 2,
             "dlk": 2,
@@ -3423,7 +3423,7 @@
         },
         "vehicles": {
             "rw": 2,
-            "lf": 6,
+            "truck": 6,
             "elw1": 1,
             "elw2": 1,
             "dlk": 2,
@@ -3452,7 +3452,7 @@
             "6": 4
         },
         "vehicles": {
-            "lf": 7,
+            "truck": 7,
             "elw1": 2,
             "elw2": 1,
             "atem": 2,
@@ -3476,7 +3476,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -3486,7 +3486,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -3496,7 +3496,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -3506,7 +3506,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -3516,14 +3516,14 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
     "221": {
         "name": "Zugungl\u00fcck (Gro\u00df)",
         "vehicles": {
-            "lf": 30,
+            "truck": 30,
             "dlk": 3,
             "rw": 6,
             "atem": 4,
@@ -3549,7 +3549,7 @@
     "222": {
         "name": "Zugungl\u00fcck (Klein)",
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "dlk": 2,
             "rw": 3,
             "atem": 2,
@@ -3577,7 +3577,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "fustw": 1
         },
         "credits": 4400,
@@ -3595,7 +3595,7 @@
             "2": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "rtw": 1
         },
         "credits": 4000,
@@ -3613,7 +3613,7 @@
             "2": 3
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rtw": 3,
             "gwsan": 1
         },
@@ -3691,7 +3691,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 1000,
         "poi": 12,
@@ -3739,7 +3739,7 @@
         "vehicles": {
             "fustw": 2,
             "polheli": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 4500,
         "patients": {
@@ -3755,7 +3755,7 @@
         },
         "vehicles": {
             "fustw": 5,
-            "lf": 10,
+            "truck": 10,
             "elw1": 1,
             "elw2": 1
         },
@@ -3775,7 +3775,7 @@
             "elw1": 1,
             "fustw": 1,
             "dlk": 1,
-            "lf": 2
+            "truck": 2
         },
         "credits": 1500,
         "patients": {
@@ -3801,7 +3801,7 @@
             "elw1": 1,
             "fustw": 1,
             "dlk": 1,
-            "lf": 2
+            "truck": 2
         },
         "credits": 2000,
         "patients": {
@@ -3827,7 +3827,7 @@
             "elw1": 1,
             "rw": 1,
             "fustw": 2,
-            "lf": 2
+            "truck": 2
         },
         "credits": 1700,
         "patients": {
@@ -3849,7 +3849,7 @@
             "elw1": 1,
             "rw": 1,
             "fustw": 2,
-            "lf": 2
+            "truck": 2
         },
         "credits": 2000,
         "patients": {
@@ -3874,7 +3874,7 @@
             "elw2": 1,
             "rw": 2,
             "fustw": 4,
-            "lf": 5,
+            "truck": 5,
             "fwk": 1,
             "oel": 1
         },
@@ -3899,7 +3899,7 @@
         "vehicles": {
             "elw1": 1,
             "fustw": 1,
-            "lf": 3,
+            "truck": 3,
             "dekon": 1,
             "mess": 1,
             "gefahr": 1
@@ -3938,7 +3938,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "mess": 1,
             "fustw": 3
         },
@@ -4011,7 +4011,7 @@
         },
         "vehicles": {
             "boot": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 1400,
@@ -4036,7 +4036,7 @@
             "fustw": 2,
             "boot": 2,
             "taucher": 2,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 1400,
@@ -4060,7 +4060,7 @@
             "fustw": 3,
             "boot": 3,
             "taucher": 3,
-            "lf": 5,
+            "truck": 5,
             "elw1": 1
         },
         "credits": 2000,
@@ -4084,7 +4084,7 @@
             "fustw": 3,
             "boot": 3,
             "taucher": 3,
-            "lf": 5,
+            "truck": 5,
             "elw1": 1
         },
         "credits": 3000,
@@ -4135,7 +4135,7 @@
         },
         "vehicles": {
             "boot": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 1400,
@@ -4160,7 +4160,7 @@
             "fustw": 2,
             "boot": 2,
             "taucher": 2,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 1400,
@@ -4184,7 +4184,7 @@
             "fustw": 3,
             "boot": 3,
             "taucher": 3,
-            "lf": 5,
+            "truck": 5,
             "elw1": 1
         },
         "credits": 2000,
@@ -4208,7 +4208,7 @@
             "fustw": 3,
             "boot": 3,
             "taucher": 3,
-            "lf": 5,
+            "truck": 5,
             "elw1": 1
         },
         "credits": 3000,
@@ -4223,7 +4223,7 @@
     "256": {
         "name": "Zusammensto\u00df zweier Boote",
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "elw1": 2,
             "elw2": 1,
             "fustw": 5,
@@ -4257,7 +4257,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "fwk": 1,
             "elw1": 1,
             "dlk": 1,
@@ -4280,7 +4280,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 370,
         "expansions": {
@@ -4296,7 +4296,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 220
     },
@@ -4306,7 +4306,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1000
     },
@@ -4317,7 +4317,7 @@
         },
         "vehicles": {
             "elw1": 1,
-            "lf": 3
+            "truck": 3
         },
         "credits": 2500,
         "patients": {
@@ -4334,7 +4334,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 900,
         "poi": 4
@@ -4345,7 +4345,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1
         },
         "credits": 1500,
@@ -4362,7 +4362,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -4372,7 +4372,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -4394,7 +4394,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "dlk": 1,
             "elw1": 1,
             "atem": 1,
@@ -4442,7 +4442,7 @@
         "vehicles": {
             "gkw": 1,
             "fustw": 3,
-            "lf": 10,
+            "truck": 10,
             "dekon": 1,
             "gefahr": 1,
             "mess": 1,
@@ -4463,7 +4463,7 @@
         },
         "vehicles": {
             "boot": 1,
-            "lf": 2,
+            "truck": 2,
             "oel": 1,
             "elw1": 1,
             "fustw": 1
@@ -4480,7 +4480,7 @@
         },
         "vehicles": {
             "boot": 1,
-            "lf": 2,
+            "truck": 2,
             "oel": 1,
             "elw1": 1,
             "fustw": 1
@@ -4512,7 +4512,7 @@
             "grukw": 9,
             "fukw": 1,
             "rtw": 4,
-            "lf": 2
+            "truck": 2
         },
         "credits": 7000,
         "poi": 20,
@@ -4537,7 +4537,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 350,
         "patients": {
@@ -4560,7 +4560,7 @@
             "mzkw": 1,
             "fwk": 1,
             "dlk": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 2
         },
@@ -4590,7 +4590,7 @@
             "mzkw": 1,
             "fwk": 1,
             "dlk": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 2
         },
@@ -4612,7 +4612,7 @@
             "0": 9
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "rw": 1,
             "dlk": 1
@@ -4638,7 +4638,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1
         },
@@ -4657,7 +4657,7 @@
         },
         "vehicles": {
             "rw": 2,
-            "lf": 10,
+            "truck": 10,
             "elw1": 3,
             "elw2": 1,
             "dlk": 2,
@@ -4741,7 +4741,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110
     },
@@ -4751,7 +4751,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -4761,7 +4761,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 800
     },
@@ -4779,7 +4779,7 @@
             "grukw": 9,
             "fukw": 1,
             "rtw": 4,
-            "lf": 2
+            "truck": 2
         },
         "credits": 7000,
         "poi": 20,
@@ -4824,7 +4824,7 @@
             "lebefkw": 9,
             "fukw": 3,
             "gefkw": 2,
-            "lf": 2,
+            "truck": 2,
             "rtw": 4,
             "fustw": 5
         },
@@ -4858,7 +4858,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 3,
+            "truck": 3,
             "elw1": 1
         },
         "credits": 2020,
@@ -4891,7 +4891,7 @@
             "15": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "boot": 1,
             "taucher": 1
         },
@@ -4907,7 +4907,7 @@
         },
         "poi": 1,
         "percentages": {
-            "lf": 20,
+            "truck": 20,
             "taucher": 10
         }
     },
@@ -4917,7 +4917,7 @@
             "0": 5
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "elw1": 1,
             "dlk": 1,
             "atem": 1,
@@ -4943,7 +4943,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "hoehen": 1,
             "fustw": 1,
             "elw1": 1,
@@ -4995,7 +4995,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 8,
+            "truck": 8,
             "elw1": 2,
             "elw2": 1,
             "rw": 1,
@@ -5024,7 +5024,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "dlk": 1
         },
@@ -5056,7 +5056,7 @@
             "grukw": 6,
             "lebefkw": 3,
             "fukw": 1,
-            "lf": 1,
+            "truck": 1,
             "wawe": 3
         },
         "credits": 6500,
@@ -5080,7 +5080,7 @@
             "fukw": 3,
             "gefkw": 2,
             "wawe": 3,
-            "lf": 2,
+            "truck": 2,
             "rtw": 4,
             "fustw": 5
         },
@@ -5107,7 +5107,7 @@
             "grukw": 9,
             "fukw": 1,
             "rtw": 4,
-            "lf": 2
+            "truck": 2
         },
         "credits": 8000,
         "poi": 20,
@@ -5140,7 +5140,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1000
     },
@@ -5192,7 +5192,7 @@
         },
         "vehicles": {
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1
         },
         "credits": 1100,
@@ -5222,7 +5222,7 @@
             "2": 5
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1
         },
         "credits": 900,
@@ -5241,7 +5241,7 @@
             "2": 5
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "dlk": 1,
             "hoehen": 1
@@ -5262,7 +5262,7 @@
             "2": 7
         },
         "vehicles": {
-            "lf": 8,
+            "truck": 8,
             "elw1": 2,
             "elw2": 1,
             "dlk": 1,
@@ -5294,7 +5294,7 @@
             "6": 5
         },
         "vehicles": {
-            "lf": 12,
+            "truck": 12,
             "elw1": 2,
             "elw2": 1,
             "dekon": 1,
@@ -5319,7 +5319,7 @@
             "2": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1
         },
@@ -5338,7 +5338,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 200,
         "expansions": {
@@ -5362,7 +5362,7 @@
             "2": 2
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "dlk": 1,
             "rw": 1
         },
@@ -5388,7 +5388,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "dlk": 5,
             "atem": 3,
             "mess": 3,
@@ -5421,7 +5421,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "dlk": 1,
             "atem": 1,
             "elw1": 1,
@@ -5449,7 +5449,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "elw1": 1,
             "rw": 1,
@@ -5475,7 +5475,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 15,
+            "truck": 15,
             "dlk": 3,
             "atem": 2,
             "mess": 2,
@@ -5539,7 +5539,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "dlk": 2,
             "atem": 2,
             "mess": 1,
@@ -5561,8 +5561,8 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 2,
-            "flf": 1,
+            "truck": 2,
+            "arff": 1,
             "rtf": 1
         },
         "credits": 1200,
@@ -5574,7 +5574,7 @@
             "0": 10
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 700,
         "poi": 29
@@ -5585,10 +5585,10 @@
             "0": 1
         },
         "vehicles": {
-            "flf": 1,
+            "arff": 1,
             "rtf": 1,
             "elw1": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2000,
         "poi": 32
@@ -5600,12 +5600,12 @@
             "2": 4
         },
         "vehicles": {
-            "flf": 2,
+            "arff": 2,
             "rtf": 1,
             "rw": 2,
             "elw1": 2,
             "elw2": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 3000,
         "patients": {
@@ -5621,11 +5621,11 @@
             "2": 10
         },
         "vehicles": {
-            "flf": 4,
+            "arff": 4,
             "rtf": 1,
             "elw2": 1,
             "elw1": 2,
-            "lf": 10,
+            "truck": 10,
             "rw": 3
         },
         "credits": 10000,
@@ -5644,11 +5644,11 @@
             "2": 10
         },
         "vehicles": {
-            "flf": 4,
+            "arff": 4,
             "rtf": 1,
             "elw2": 1,
             "elw1": 2,
-            "lf": 10,
+            "truck": 10,
             "rw": 3
         },
         "credits": 10000,
@@ -5667,7 +5667,7 @@
             "2": 5
         },
         "vehicles": {
-            "lf": 8,
+            "truck": 8,
             "elw1": 2,
             "elw2": 1,
             "rw": 1,
@@ -5695,7 +5695,7 @@
             "2": 5
         },
         "vehicles": {
-            "lf": 8,
+            "truck": 8,
             "elw1": 2,
             "elw2": 1,
             "rw": 1,
@@ -5722,8 +5722,8 @@
             "0": 1
         },
         "vehicles": {
-            "flf": 2,
-            "lf": 1
+            "arff": 2,
+            "truck": 1
         },
         "credits": 500,
         "poi": 34
@@ -5734,7 +5734,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 370,
         "poi": 35
@@ -5745,7 +5745,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 340,
         "poi": 35
@@ -5791,9 +5791,9 @@
             "0": 2
         },
         "vehicles": {
-            "flf": 4,
+            "arff": 4,
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1
         },
         "credits": 2500,
@@ -5805,9 +5805,9 @@
             "0": 2
         },
         "vehicles": {
-            "flf": 4,
+            "arff": 4,
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1
         },
         "credits": 2500,
@@ -5819,7 +5819,7 @@
             "0": 4
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "dlk": 1,
             "elw1": 1,
             "rw": 1
@@ -5835,7 +5835,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "elw1": 1,
             "rw": 1,
@@ -5861,7 +5861,7 @@
         "vehicles": {
             "lebefkw": 1,
             "grukw": 3,
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "elw1": 1,
             "fustw": 3,
@@ -5882,7 +5882,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "dlk": 1,
             "elw1": 2,
             "elw2": 1,
@@ -5911,7 +5911,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "dlk": 2,
             "rw": 4,
             "atem": 2,
@@ -5941,7 +5941,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 100,
         "expansions": {
@@ -5970,8 +5970,8 @@
     "350": {
         "name": "Flughafenbrand",
         "vehicles": {
-            "lf": 40,
-            "flf": 6,
+            "truck": 40,
+            "arff": 6,
             "dlk": 8,
             "rw": 6,
             "fustw": 10,
@@ -6002,7 +6002,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "dlk": 2,
             "atem": 1,
             "mess": 1,
@@ -6026,7 +6026,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 12,
+            "truck": 12,
             "dlk": 3,
             "atem": 1,
             "mess": 1,
@@ -6175,7 +6175,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6185,7 +6185,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6195,7 +6195,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6205,7 +6205,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6215,7 +6215,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6225,7 +6225,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -6277,7 +6277,7 @@
             "9": 2
         },
         "vehicles": {
-            "lf": 15,
+            "truck": 15,
             "dlk": 3,
             "gwl2": 2,
             "atem": 2,
@@ -6310,7 +6310,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "rw": 1,
             "mess": 1,
@@ -6355,7 +6355,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 300
     },
@@ -6395,7 +6395,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 300
     },
@@ -6440,7 +6440,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "fwk": 1,
             "elw1": 1,
             "rw": 1,
@@ -6459,7 +6459,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "fwk": 1,
             "elw1": 1,
             "rw": 1,
@@ -6478,7 +6478,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "fwk": 1,
             "elw1": 1,
             "rw": 1,
@@ -6497,7 +6497,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "fwk": 1,
             "elw1": 1,
             "rw": 1,
@@ -6536,7 +6536,7 @@
             "0": 2
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 1100,
         "expansions": {
@@ -6561,7 +6561,7 @@
             "oel": 1,
             "gwwerk": 1,
             "tm": 1,
-            "lf": 4
+            "truck": 4
         },
         "credits": 5100,
         "patients": {
@@ -6589,7 +6589,7 @@
             "tm": 1,
             "turbo": 1,
             "ulf": 1,
-            "lf": 5
+            "truck": 5
         },
         "credits": 5500,
         "patients": {
@@ -6617,7 +6617,7 @@
             "tm": 1,
             "turbo": 1,
             "ulf": 1,
-            "lf": 8
+            "truck": 8
         },
         "credits": 6500,
         "patients": {
@@ -6641,7 +6641,7 @@
         "vehicles": {
             "elw1": 1,
             "dlk": 1,
-            "lf": 5,
+            "truck": 5,
             "rw": 1
         },
         "credits": 2500,
@@ -6672,7 +6672,7 @@
             "tm": 1,
             "turbo": 1,
             "ulf": 1,
-            "lf": 16,
+            "truck": 16,
             "dlk": 4,
             "rw": 1,
             "gwl2": 1,
@@ -6698,9 +6698,9 @@
             "2": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "elw1": 1,
-            "flf": 2,
+            "arff": 2,
             "rtw": 1,
             "rtf": 1
         },
@@ -6724,7 +6724,7 @@
             "2": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1
         },
@@ -6745,7 +6745,7 @@
             "9": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1,
             "dlk": 1,
@@ -6769,7 +6769,7 @@
             "6": 4
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "elw1": 1,
             "rw": 1,
             "oel": 1,
@@ -6797,7 +6797,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1,
@@ -6816,7 +6816,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1,
@@ -6843,7 +6843,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "rw": 1,
             "gwwerk": 1,
@@ -6863,7 +6863,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1
@@ -6878,7 +6878,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 7,
+            "truck": 7,
             "elw1": 2,
             "elw2": 1,
             "rw": 1,
@@ -6898,7 +6898,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "gwwerk": 1,
             "elw1": 1
         },
@@ -6919,7 +6919,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400,
         "poi": 41
@@ -6931,7 +6931,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 41
@@ -6943,7 +6943,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 40
@@ -6955,7 +6955,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 980,
         "poi": 40
@@ -6967,7 +6967,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 980,
         "poi": 41
@@ -6979,7 +6979,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "elw1": 2,
             "elw2": 1,
             "dlk": 1,
@@ -6997,7 +6997,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 400,
         "poi": 41,
@@ -7012,7 +7012,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 2
+            "truck": 2
         },
         "credits": 980,
         "poi": 39
@@ -7024,7 +7024,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 39
@@ -7038,7 +7038,7 @@
             "13": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "dlk": 1,
             "rw": 2,
             "elw2": 1,
@@ -7063,7 +7063,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1,
@@ -7086,7 +7086,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1,
@@ -7107,7 +7107,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "rw": 1,
             "elw1": 1,
             "gwwerk": 1,
@@ -7198,7 +7198,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "rw": 3,
             "elw1": 2,
             "elw2": 1,
@@ -7234,7 +7234,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "elw1": 1,
             "rw": 1,
             "fustw": 2
@@ -7266,7 +7266,7 @@
             "6": 3
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "dlk": 1,
             "rw": 1,
             "elw1": 2,
@@ -7297,7 +7297,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 12,
+            "truck": 12,
             "dlk": 4,
             "rw": 4,
             "elw1": 3,
@@ -7364,7 +7364,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "dlk": 1,
             "rw": 1,
             "elw1": 1,
@@ -7387,7 +7387,7 @@
             "9": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "elw1": 1,
             "dlk": 1,
             "atem": 1,
@@ -7419,7 +7419,7 @@
             "6": 10
         },
         "vehicles": {
-            "lf": 15,
+            "truck": 15,
             "elw1": 3,
             "elw2": 1,
             "dekon": 2,
@@ -7458,7 +7458,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "dlk": 1,
             "rw": 1,
@@ -7483,7 +7483,7 @@
             "6": 4
         },
         "vehicles": {
-            "lf": 10,
+            "truck": 10,
             "elw1": 3,
             "elw2": 1,
             "dlk": 3,
@@ -7515,7 +7515,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 12,
+            "truck": 12,
             "gwwerk": 1,
             "rw": 4,
             "elw1": 3,
@@ -7548,7 +7548,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 12,
+            "truck": 12,
             "gwwerk": 1,
             "rw": 4,
             "elw1": 3,
@@ -7582,7 +7582,7 @@
         },
         "vehicles": {
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 400,
         "expansions": {
@@ -7625,7 +7625,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "oel": 1,
@@ -7652,7 +7652,7 @@
             "9": 5
         },
         "vehicles": {
-            "lf": 18,
+            "truck": 18,
             "rw": 2,
             "gwl2": 1,
             "fustw": 10,
@@ -7694,7 +7694,7 @@
         "vehicles": {
             "elw1": 1,
             "rw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 1600,
         "poi": 3,
@@ -7724,7 +7724,7 @@
             "0": 8
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "rw": 1,
             "elw1": 1,
             "fwk": 1
@@ -7772,7 +7772,7 @@
             "hoehen": 1,
             "elw1": 1,
             "fustw": 1,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2000
     },
@@ -7785,7 +7785,7 @@
             "9": 3
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "dlk": 1,
@@ -7827,7 +7827,7 @@
             "fwk": 1,
             "dlk": 1,
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 2
         },
@@ -7855,7 +7855,7 @@
             "fwk": 1,
             "dlk": 1,
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 2
         },
@@ -7882,7 +7882,7 @@
             "fwk": 1,
             "dlk": 1,
             "rw": 1,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "fustw": 2
         },
@@ -7904,7 +7904,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7914,7 +7914,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7924,7 +7924,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7934,7 +7934,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7944,7 +7944,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7954,7 +7954,7 @@
             "0": 1
         },
         "vehicles": {
-            "lf": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -7985,7 +7985,7 @@
             "rw": 1,
             "elw1": 1,
             "fustw": 2,
-            "lf": 1
+            "truck": 1
         },
         "credits": 2000,
         "patients": {
@@ -8005,7 +8005,7 @@
         "vehicles": {
             "hoehen": 1,
             "elw1": 1,
-            "lf": 1,
+            "truck": 1,
             "dlk": 1,
             "rw": 1
         },
@@ -8040,7 +8040,7 @@
             "9": 2
         },
         "vehicles": {
-            "lf": 18,
+            "truck": 18,
             "dlk": 6,
             "atem": 2,
             "mess": 3,
@@ -8077,7 +8077,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 1,
+            "truck": 1,
             "rw": 1
         },
         "credits": 1260,
@@ -8097,7 +8097,7 @@
             "9": 1
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "elw1": 1,
             "fwk": 1,
             "rw": 2,
@@ -8121,7 +8121,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 20,
+            "truck": 20,
             "tm": 1,
             "turbo": 1,
             "ulf": 1,
@@ -8199,7 +8199,7 @@
         },
         "vehicles": {
             "elw1": 1,
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "fwk": 1,
             "fustw": 2
@@ -8225,7 +8225,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 6,
+            "truck": 6,
             "elw1": 2,
             "elw2": 1,
             "dlk": 2,
@@ -8277,7 +8277,7 @@
             "6": 5
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "dlk": 1,
             "fustw": 6
@@ -8306,7 +8306,7 @@
             "6": 5
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "dlk": 1,
             "fustw": 6
@@ -8335,7 +8335,7 @@
             "6": 5
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "elw1": 1,
             "dlk": 1,
             "fustw": 6
@@ -8383,7 +8383,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "rw": 2,
             "oel": 1,
             "hoehen": 1,
@@ -8417,7 +8417,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "rw": 2,
             "oel": 1,
             "hoehen": 1,
@@ -8451,7 +8451,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 5,
+            "truck": 5,
             "rw": 2,
             "oel": 1,
             "hoehen": 1,
@@ -8485,7 +8485,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "fustw": 2
@@ -8508,7 +8508,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "fustw": 2
@@ -8531,11 +8531,11 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "fustw": 2,
-            "flf": 2,
+            "arff": 2,
             "rtf": 1
         },
         "credits": 2700,
@@ -8556,11 +8556,11 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "fustw": 2,
-            "flf": 2,
+            "arff": 2,
             "rtf": 1
         },
         "credits": 2700,
@@ -8581,7 +8581,7 @@
             "6": 2
         },
         "vehicles": {
-            "lf": 3,
+            "truck": 3,
             "rw": 1,
             "elw1": 1,
             "fustw": 2,
@@ -8614,7 +8614,7 @@
             "werk": 1
         },
         "vehicles": {
-            "lf": 4,
+            "truck": 4,
             "gwwerk": 1,
             "tm": 1,
             "ulf": 2,
@@ -8667,7 +8667,7 @@
             "6": 1
         },
         "vehicles": {
-            "lf": 2,
+            "truck": 2,
             "dlk": 1,
             "elw1": 1,
             "fustw": 1
@@ -8685,33 +8685,35 @@
         }
     },
     "488": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Stadion",
         "stations": {
-            "0": 6,
-            "2": 10,
-            "6": 2
+            "0": 16,
+            "2": 46,
+            "6": 9
         },
         "vehicles": {
-            "fustw": 2,
-            "lf": 2,
-            "elw1": 1,
+            "fustw": 14,
+            "truck": 16,
+            "rw": 1,
+            "elw1": 3,
+            "elw2": 1,
             "atem": 1,
-            "mess": 1,
-            "dekon": 1
+            "mess": 1
         },
-        "credits": 2500,
+        "credits": 14000,
         "patients": {
-            "max": 25,
-            "min": 10,
+            "max": 250,
+            "min": 120,
             "transport": 25,
             "nef": 20,
+            "rth": 2,
             "specialisation": "Allgemeine Innere"
         },
         "poi": 20,
         "percentages": {
-            "atem": 5,
-            "mess": 15,
-            "dekon": 10
+            "elw2": 50,
+            "atem": 25,
+            "mess": 50
         }
     },
     "489": {
@@ -8723,7 +8725,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
@@ -8753,7 +8755,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
@@ -8775,33 +8777,34 @@
         }
     },
     "491": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Bahnhof (Regionalverkehr)",
         "stations": {
-            "0": 6,
-            "2": 10,
-            "6": 2
+            "0": 11,
+            "2": 15,
+            "6": 5
         },
         "vehicles": {
-            "fustw": 2,
-            "lf": 2,
+            "fustw": 6,
+            "truck": 3,
+            "rw": 1,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
             "dekon": 1
         },
-        "credits": 2500,
+        "credits": 5000,
         "patients": {
-            "max": 25,
-            "min": 10,
+            "max": 70,
+            "min": 35,
             "transport": 25,
             "nef": 20,
             "specialisation": "Allgemeine Innere"
         },
         "poi": 6,
         "percentages": {
-            "atem": 5,
-            "mess": 15,
-            "dekon": 10
+            "atem": 10,
+            "mess": 20,
+            "dekon": 5
         }
     },
     "492": {
@@ -8813,7 +8816,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
@@ -8835,7 +8838,7 @@
         }
     },
     "493": {
-        "name": "Massenanfall an Erkrankten",
+        "name": "Massenanfall an Erkrankten - Diskothek",
         "stations": {
             "0": 6,
             "2": 10,
@@ -8843,7 +8846,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "lf": 2,
+            "truck": 2,
             "elw1": 1,
             "atem": 1,
             "mess": 1,
@@ -8905,7 +8908,7 @@
             "0": 3
         },
         "vehicles": {
-            "lf": 1,
+            "truck": 1,
             "rw": 1,
             "dlk": 1,
             "fwk": 1
@@ -8929,7 +8932,7 @@
         "vehicles": {
             "polheli": 1,
             "fustw": 6,
-            "lf": 1,
+            "truck": 1,
             "boot": 2,
             "elw1": 1
         },
@@ -8960,7 +8963,7 @@
         "vehicles": {
             "polheli": 1,
             "fustw": 6,
-            "lf": 1,
+            "truck": 1,
             "boot": 2,
             "elw1": 1
         },
@@ -8988,7 +8991,7 @@
         },
         "vehicles": {
             "fustw": 8,
-            "lf": 10,
+            "truck": 10,
             "rw": 5,
             "elw1": 2,
             "oel": 2
@@ -9014,5 +9017,39 @@
         "nef": 50,
         "rth": 25,
         "specialisation": "Kardiologie"
+    },
+    "501": {
+        "name": "Schwimmbaddach eingest\u00fcrzt",
+        "stations": {
+            "0": 8,
+            "2": 10,
+            "6": 3,
+            "9": 3
+        },
+        "vehicles": {
+            "truck": 6,
+            "rw": 2,
+            "elw1": 2,
+            "fwk": 1,
+            "dlk": 1,
+            "gkw": 3,
+            "mzkw": 2,
+            "mtwtz": 2,
+            "radlader": 1,
+            "anhdle": 1,
+            "fustw": 4
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 20,
+            "transport": 75,
+            "nef": 40,
+            "rth": 5,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 23,
+        "percentages": {
+            "fwk": 80
+        }
     }
 }

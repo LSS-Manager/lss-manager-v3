@@ -91,7 +91,7 @@ const lssm_missionhelper_adjustPosition = () => {
         transport: 'Transport',
         tragehilfe: 'Tragehilfe',
         vehicles: {
-            lf: 'Löschfahrzeuge',
+            truck: 'Löschfahrzeuge',
             dlk: 'Drehleitern',
             rw: 'Rüstwagen/AB-Rüst',
             elw1: 'ELW 1',
@@ -124,7 +124,7 @@ const lssm_missionhelper_adjustPosition = () => {
             radlader: 'Radlader (BRmG R) mit LKW K 9',
             anhdle: 'Anhänger Drucklufterzeugung',
             polheli: 'Polizeihubschrauber',
-            flf: 'Flugfeldlöschfahrzeug',
+            arff: 'Flugfeldlöschfahrzeug',
             rtf: 'Rettungstreppenfahrzeug',
             taucher: 'Taucher',
             mek: 'MEK-Fahrzeuge',
@@ -882,6 +882,294 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.da_DK.lssm.missionhelper = {
+        diy_mission: 'Denne mission synes at være en alliansemission i stor skala.',
+        siwa: 'Planlagt mission',
+        vge: 'Stor skala alliance mission',
+        patients: 'Patienter',
+        prisoners: 'Fanger',
+        to: 'op til',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Denne mission er kun ambulance!',
+        title: 'Missionhelper',
+        transport: 'Transportere',
+        settings: {
+            name: {
+                label: 'Navn',
+                description: 'Viser missionens navn i hjælperen.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Viser ID for missionen i hjælperen.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Viser ID for missionstypen i hjælperen.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Angiver i hjælperen, hvilket POI operationen er ved.'
+            },
+            live_patients: {
+                label: 'Antal patienter',
+                description: 'Viser live, hvor mange patienter der i øjeblikket er i brug.'
+            },
+            vehicles: {
+                label: 'Køretøjer',
+                description: 'Viser de nødvendige køretøjer.'
+            },
+            patients: {
+                label: 'patientinformation',
+                description: 'Viser oplysninger om (potentielle) patienter.'
+            },
+            prisoners: {
+                label: 'fangeoplysninger',
+                description: 'Viser oplysninger om (potentielle) fanger.'
+            },
+            special: {
+                label: 'Andre oplysninger',
+                description: 'Viser speciel information, såsom det gennemsnitlige minimalt antal krævede medarbejdere.'
+            },
+            expansions: {
+                label: 'distributioner',
+                description: 'Viser, hvad indsatsen kan sprede sig til. (Viser kun enkel spredning)'
+            },
+            show_100: {
+                label: 'Vis 100% sandsynlighed',
+                description: 'Viser sandsynligheden for et køretøj, selvom det er 100%.'
+            },
+            credits: {
+                label: 'Gennemsnitlig indtjeningGennemsnitlig indtjening',
+                description: 'Viser den gennemsnitlige indtjening, du får for denne opgave.'
+            },
+            show_siwa: {
+                label: 'Krav til sikkerhedsvagter',
+                description: 'Viser også kravene til sikkerhedsvagter i hjælperen.'
+            },
+            mission_time: {
+                label: 'Oprettelsestid',
+                description: 'Viser dato og klokkeslæt, hvor missionen blev oprettet.'
+            }
+        },
+        vehicles: {
+            truck: "Brandbiler",
+            platform: "Platformvogne",
+            heavyRescue: "Redningskøretøjer",
+            air: "Mobile Air",
+            bchief: "Holdleder-køretøjer",
+            tanker: "vandtankvogne",
+            hazmat: "gift- og kemikaliekøretøjer",
+            mcv: "utryckningsfordon",
+            police: "politibiler",
+            hems: "HEMS",
+            rtw: "Ambulans",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "Räddningshelikopter",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Sø",
+            "Hostpital",
+            "Skov",
+            "Busstoppested",
+            "Sporvognstoppested",
+            "Togstation \\(lokal trafik\\)",
+            "Togstation \\(lokal og national /international trafik\\)",
+            "Godsstation",
+            "Supermarked \\(lille\\)",
+            "Supermarked \\(stort\\)",
+            "Benzinstation",
+            "Skole",
+            "Museum",
+            "Indkøbscenter",
+            "Bilværksted",
+            "Motervejsfrakørsel",
+            "Julemarked",
+            "Pakhus",
+            "Diskotek",
+            "Stadion",
+            "Gård",
+            "Kontorbygning",
+            "Svømmehal",
+            "Jernbaneovergang",
+            "Teater",
+            "Markedsplads",
+            "Flod",
+            "Lille lufthavn \\(landingsbane\\)",
+            "Stor lufthavn \\(landingsbane\\)",
+            "Lufthavnsterminal",
+            "Bank",
+            "Varehus",
+            "Bro",
+            "Fast Food-restaurant",
+            "Containerhavnn",
+            "Genbrugscenter",
+            "Skyskraber",
+            "Krydstogthavn",
+            "Lystbådehavn",
+            "Skinnekrydsning",
+            "Tunnel",
+            "Kølehus",
+            "Kraftværk",
+            "Fabrik",
+            "Skrotplads",
+            "Metrostation",
+            "Lille kemikalietank",
+            "Stor kemikalietank",
+            "Hotel",
+            "Bar",
+            "Losseplads",
+                "Parkeringshus"
+        ]
+    };
+
+    I18n.translations.nb_NO.lssm.missionhelper = {
+        diy_mission: 'Dette oppdraget ser ut til å være et allianseoppdrag i stor skala.',
+        siwa: 'Planlagt oppdrag',
+        vge: 'Alliansemisjon i stor skala',
+        patients: 'Pasienter',
+        prisoners: 'innsatte',
+        to: 'opp til',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Dette oppdraget er kun ambulanse!',
+        title: 'Missionhelper',
+        transport: 'Transportere',
+        settings: {
+            name: {
+                label: 'Navn',
+                description: 'Viser navnet på oppdraget i hjelperen.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Viser IDen til oppdraget i hjelperen.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Viser ID for oppdragstypen i hjelperen.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indikerer i hjelperen hvilken POI operasjonen er på.'
+            },
+            live_patients: {
+                label: 'Antall pasienter',
+                description: 'Viser hvor mange pasienter som er i bruk.'
+            },
+            vehicles: {
+                label: 'kjøretøy',
+                description: 'Viser de nødvendige kjøretøyene.'
+            },
+            patients: {
+                label: 'pasientinformasjon',
+                description: 'Viser informasjon om (potensielle) pasienter.'
+            },
+            prisoners: {
+                label: 'fangeinformasjon',
+                description: 'Viser informasjon om (potensielle) fanger.'
+            },
+            special: {
+                label: 'Annen informasjon',
+                description: 'Viser spesiell informasjon, for eksempel gjennomsnittlig minimum antall ansatte som kreves.'
+            },
+            expansions: {
+                label: 'distribusjoner',
+                description: 'Viser hva innsatsen kan spre seg til. (Viser bare enkel oppslag)'
+            },
+            show_100: {
+                label: 'Vis 100% sannsynlighet',
+                description: 'Viser sannsynligheten for et kjøretøy selv om det er 100%.'
+            },
+            credits: {
+                label: 'Gjennomsnittlig inntjening',
+                description: 'Viser gjennomsnittlig inntjening du får for denne oppgaven.'
+            },
+            show_siwa: {
+                label: 'Krav til sikkerhetsvakter',
+                description: 'Viser også kravene til sikkerhetsvakter i hjelperen.'
+            },
+            mission_time: {
+                label: 'Opprettingstid',
+                description: 'Viser dato og klokkeslett da oppdraget ble opprettet.'
+            }
+        },
+        vehicles: {
+            truck: "Brannbiler",
+            platform: "lastebiler med sidelemmer",
+            heavyRescue: "store utryknings",
+            air: "Mobile Air",
+            bchief: "Bataljonsjefbil",
+            tanker: "tankbiler",
+            hazmat: "HazMat-kjøretøy",
+            mcv: "utryckningsfordon",
+            police: "politibiler",
+            hems: "HEMS",
+            rtw: "Ambulans",
+            arff: "brann- og redningstjeneste for fly",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "Räddningshelikopter",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Innsjø",
+            "Sykehus",
+            "Skog",
+            "Busstopp",
+            "Trikkestopp",
+            "Togstasjon \\(regional\\)",
+            "Togstasjon \\(regional og langdistanse\\)",
+            "Godsstasjon",
+            "Matvarebutikk \\(liten\\)",
+            "Matvarebutikk \\(stor\\)",
+            "Bensinstasjon",
+            "Skole",
+            "Museum",
+            "Kjøpesenter",
+            "Bilverksted",
+            "Motorveiavkjøring",
+            "Julemarked",
+            "Lagerbygning",
+            "Nattklubb",
+            "Stadion",
+            "Gård",
+            "Kontorbygning",
+            "Basseng",
+            "Järnvägsövergång",
+            "Teater",
+            "Tivoli",
+            "Elv",
+            "Liten flyplass \\(flystripe\\)",
+            "Stor flyplass \\(flystripe\\)",
+            "Flyplassterminal",
+            "Bank",
+            "Varehus",
+            "Bro",
+            "Gatekjøkken",
+            "Cargohavn",
+            "Gjenvinningssenter",
+            "Skyskraper",
+            "Cruisehavn",
+            "Marina",
+            "Planovergang",
+            "Tunnel",
+            "Kaldt varehus",
+            "Kraftverk",
+            "Fabrikk",
+            "Skrotplass",
+            "Metrostasjon",
+            "Liten kjemisk lagringstank",
+            "Stor kjemisk lagringstank",
+            "Hotell",
+            "Bar",
+            "Avfallsdeponi",
+            "Parkeringshus"
+        ]
+    };
+
     I18n.translations.pl_PL.lssm.missionhelper = {
         diy_mission: 'Ta misja wydaje się być misją sojuszników na dużą skalę.',
         siwa: 'Planowana misja',
@@ -1097,10 +1385,10 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "Autopompe",
-            platform: "Camion con piattaforma",
+            platform: "Autoscale",
             heavyRescue: "Veicoli di soccorso pesante",
             air: "Mobile Air",
-            bchief: "Veicoli capo-pattuglia",
+            bchief: "Funzionario",
             tanker: "Autobotti",
             hazmat: "Mezzi N.B.C.R.",
             mcv: "Mobile Command Vehicle",
