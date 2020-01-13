@@ -58,7 +58,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.fj['lssm']['dashboard'] = {
+I18n.translations.en_GB['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",

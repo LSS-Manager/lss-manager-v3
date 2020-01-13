@@ -241,7 +241,7 @@
         }
     };
 
-    I18n.translations.fj.lssm.renameFz = {
+    I18n.translations.en_GB.lssm.renameFz = {
         name: 'Rename vehicles',
         settings: {
             show: 'Show/Hide',

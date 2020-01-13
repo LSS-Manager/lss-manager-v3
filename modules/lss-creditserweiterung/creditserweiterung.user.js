@@ -58,7 +58,7 @@
             noFurtherRank: 'There are no further ranks'
         }
     };
-    I18n.translations.fj.lssm.creditserweiterung = {
+    I18n.translations.en_GB.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
         ranks: {
             0: 'Probie',

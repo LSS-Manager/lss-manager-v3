@@ -73,27 +73,27 @@ let lssm = {
 I18n.defaultLocale = 'de';
 // Initialize fallbacks
 I18n.fallbacks = true;
-I18n.locales.de = ['de', 'en', 'eu', 'fj'];
-I18n.locales.nl = ['nl', 'en', 'eu', 'fj', 'de'];
-I18n.locales.es = ['es', 'en', 'eu', 'fj', 'de'];
-I18n.locales.pl_PL = ['pl_PL', 'en', 'eu', 'fj', 'de'];
-I18n.locales.sv_SE = ['sv_SE', 'en', 'eu', 'fj', 'de'];
-I18n.locales.it_IT = ['it_IT', 'en', 'eu', 'fj', 'de'];
-I18n.locales.fr_FR = ['fr_FR', 'en', 'eu', 'fj', 'de'];
-I18n.locales.ru_RU = ['ru_RU', 'en', 'eu', 'fj', 'de'];
-I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'en', 'eu', 'fj', 'de'];
-I18n.locales.da_DK = ['da_DK', 'en', 'eu', 'fj', 'de'];
-I18n.locales.uk_UA = ['uk_UA', 'en', 'eu', 'fj', 'de'];
-I18n.locales.tr_TR = ['tr_TR', 'en', 'eu', 'fj', 'de'];
-I18n.locales.pt_BR = ['pt_BR', 'en', 'eu', 'fj', 'de'];
-// en, fj and eu are essentially the same.
-I18n.locales.en = ['en', 'eu', 'fj', 'de'];
-I18n.locales.fj = ['fj', 'en', 'eu', 'de'];
-I18n.locales.eu = ['eu', 'en', 'fj', 'de'];
+I18n.locales.de = ['de', 'en', 'eu', 'en_GB'];
+I18n.locales.nl = ['nl', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.es = ['es', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.pl_PL = ['pl_PL', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.sv_SE = ['sv_SE', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.it_IT = ['it_IT', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.fr_FR = ['fr_FR', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.ru_RU = ['ru_RU', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.da_DK = ['da_DK', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.uk_UA = ['uk_UA', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.tr_TR = ['tr_TR', 'en', 'eu', 'en_GB', 'de'];
+I18n.locales.pt_BR = ['pt_BR', 'en', 'eu', 'en_GB', 'de'];
+// en, en_GB and eu are essentially the same.
+I18n.locales.en = ['en', 'eu', 'en_GB', 'de'];
+I18n.locales.en_GB = ['en_GB', 'en', 'eu', 'de'];
+I18n.locales.eu = ['eu', 'en', 'en_GB', 'de'];
 
 if (!I18n.translations.hasOwnProperty('de')) I18n.translations.de = {};
 if (!I18n.translations.hasOwnProperty('en')) I18n.translations.en = {};
-if (!I18n.translations.hasOwnProperty('fj')) I18n.translations.fj = {};
+if (!I18n.translations.hasOwnProperty('en_GB')) I18n.translations.en_GB = {};
 if (!I18n.translations.hasOwnProperty('eu')) I18n.translations.eu = {};
 if (!I18n.translations.hasOwnProperty('es')) I18n.translations.es = {};
 if (!I18n.translations.hasOwnProperty('pl_PL')) I18n.translations.pl_PL = {};
@@ -147,7 +147,7 @@ I18n.translations.en.lssm = {
     mapkit: "This module doesn't support Mapkit",
     apps: {}
 };
-I18n.translations.fj.lssm = {
+I18n.translations.en_GB.lssm = {
     apps: {}
 };
 I18n.translations.eu.lssm = {

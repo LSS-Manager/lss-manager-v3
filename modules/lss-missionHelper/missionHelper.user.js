@@ -336,7 +336,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.fj.lssm.missionhelper = {
+    I18n.translations.en_GB.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         SWATPersonnel: "Needed Armed Response Personnel",
         settings: {

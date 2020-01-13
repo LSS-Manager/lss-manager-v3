@@ -116,7 +116,7 @@
         let newOffset = 5 - offset;
       newHour -= newOffset;
     }
-    if (I18n.locale === 'fj') {
+    if (I18n.locale === 'en_GB') {
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 1, weil EST UTC+1 ist
         let newOffset = 0 - offset;
