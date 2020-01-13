@@ -948,6 +948,14 @@
             "tanker": 20
         }
     },
+    "71": {
+        "name": "Nesebl\u00f8dning",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Helsedirekt\u00f8r"
+    },
     "72": {
         "name": "Krasj med lettfly",
         "stations": {

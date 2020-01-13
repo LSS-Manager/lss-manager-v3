@@ -80,7 +80,7 @@
         fms5H1: 'transportiert'
     };
 
-    I18n.translations.en.lssm.statusDispatching = {
+    I18n.translations.nb_NO.lssm.statusDispatching = {
         name: 'Forbedrede transportforespørsler',
         fms: 'Transport forespurt',
         nextVehicle: 'Gå til neste kjøretøy med en transportforespørsel',
