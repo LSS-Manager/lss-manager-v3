@@ -52,7 +52,7 @@ if(I18n.locale == "en")
         "29": ["EMS Chief", 1]
     };
 }
-else if (I18n.locale == "fj")
+else if (I18n.locale == "en_GB")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)

@@ -319,7 +319,7 @@
             }
         ]
     };
-    I18n.translations.fj.lssm.heatmap = {
+    I18n.translations.en_GB.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',

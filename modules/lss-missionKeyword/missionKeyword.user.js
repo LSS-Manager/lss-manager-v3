@@ -887,7 +887,7 @@
         342: 'Child Locked in Vehicle'
       }
     };
-    I18n.translations.fj.lssm.missionKeywordDefaults = {
+    I18n.translations.en_GB.lssm.missionKeywordDefaults = {
       name: 'Mission Keywords',
       settingsName: 'Mission Keywords - Settings',
       domain: 'missionchief.co.uk',
@@ -3546,7 +3546,7 @@
       341: 'POL 1',
       342: 'TECH 1'
     };
-    let DEFAULT_AAO_FJ = {
+    let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -5165,7 +5165,7 @@
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
     I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_EN;
-    I18n.translations.fj.lssm.missionKeyword = DEFAULT_AAO_FJ;
+    I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.eu.lssm.missionKeyword = DEFAULT_AAO_EU;
     I18n.translations.es.lssm.missionKeyword = DEFAULT_AAO_ES;
     I18n.translations.sv_SE.lssm.missionKeyword = DEFAULT_AAO_SVSE;
@@ -5182,8 +5182,8 @@
       defaultAao = DEFAULT_AAO_DE;
     else if (I18n.locale === 'en')
       defaultAao = DEFAULT_AAO_EN;
-    else if (I18n.locale === 'fj')
-      defaultAao = DEFAULT_AAO_FJ
+    else if (I18n.locale === 'en_GB')
+      defaultAao = DEFAULT_AAO_ENGB
     else if (I18n.locale === 'eu')
       defaultAao = DEFAULT_AAO_EU
     else if (I18n.locale === 'es')
