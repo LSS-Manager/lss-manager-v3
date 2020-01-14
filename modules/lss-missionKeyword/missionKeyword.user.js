@@ -1039,7 +1039,7 @@
         133: 'HGV Lost its load (milk)'
       }
     };
-    I18n.translations.eu.lssm.missionKeywordDefaults = {
+    I18n.translations.en_AU.lssm.missionKeywordDefaults = {
       name: 'Mission Keywords',
       settingsName: 'Mission Keywords - Settings',
       domain: 'missionchief-australia.com',
@@ -1172,7 +1172,7 @@
         114: 'Motorbike accident'
       }
     };
-    I18n.translations.es.lssm.missionKeywordDefaults = {
+    I18n.translations.es_ES.lssm.missionKeywordDefaults = {
       name: 'Palabras clave de la misión',
       settingsName: 'Palabras clave de la misión - Configuración',
       domain: 'centro-de-mando.es',
@@ -1442,6 +1442,104 @@
       bma: 'FAS',
       bmaLong: 'Fire Alarm System',
       show: 'Visa gömma',
+      keywords: {
+        0: 'Ild i skraldespand',
+        1: 'Ild i container',
+        2: 'Ild i bil',
+        3: 'Ild i motorcykel',
+        4: 'Ild i græs',
+        5: 'Ild i værelse',
+        6: 'Ild i haveskur',
+        7: 'Ild i blade',
+        8: 'Ild i større mængde affald',
+        9: 'Ild i halmballe',
+        10: 'Ild i traktor',
+        11: 'Brændende telefonboks',
+        12: 'Træ på vejen',
+        13: 'Brændende lastbil',
+        14: 'Lille markbrand',
+        15: 'Lille skovbrand',
+        16: 'Ild i campingvogn',
+        17: 'Ild i postkasse',
+        18: 'Bunke af kviste',
+        19: 'Brændende trailer',
+        20: 'Ild i kælder',
+        21: 'Ild i skorsten',
+        22: 'Ild i tag',
+        23: 'Ild i olie',
+        24: 'Ild i busskur',
+        25: 'Færdselsuheld',
+        26: 'Lille supermarkedsbrand',
+        27: 'Ild i garage',
+        28: 'Brændende maskine',
+        29: 'Ukendt udslip fra tankskib',
+        30: 'Gaslækage',
+        31: 'Ild i ildsted',
+        32: 'Ild i høstmaskine',
+        33: 'Lille supermarkedsbrand',
+        34: 'Ild i hospital',
+        35: 'Påvirket af alkohol',
+        36: 'Brystsmerter',
+        37: 'Akut astma',
+        38: 'Anfald',
+        39: 'Feber',
+        40: 'Person er faldet',
+        41: 'Ild i bilværksted',
+        42: 'Person er faldet',
+        43: 'Person er faldet',
+        44: 'Butikstyveri',
+        45: 'Butikstyveri',
+        46: 'Uheld med parkeret bil',
+        47: 'Uheld med parkeret bil',
+        48: 'Metaltyveri',
+        49: 'Lommetyveri',
+        50: 'Manglende billet',
+        51: 'Manglende billet',
+        52: 'Manglende billet',
+        53: 'Manglende billet',
+        54: 'Uheld med parkeret bil',
+        55: 'Slagsmål',
+        56: 'Optøjer',
+        57: 'Ulovlig demonstration',
+        58: 'Ild i køkken',
+        59: 'Hjælp til dyr',
+        60: 'Ild i sportshal',
+        61: 'Lille fly styrtet ned (ved landingsbane)',
+        62: 'Støjklage',
+        63: 'Mildt slagtilfælde',
+        64: 'Uheld med bus',
+        65: 'Ild i køkken',
+        66: 'Ild i værelse',
+        67: 'Slagsmål',
+        68: 'Stor supermarkedsbrand',
+        69: 'Ukendt udslip fra tankskib',
+        70: 'Stor supermarkedsbrand',
+        71: 'Næseblod',
+        72: 'Lille fly styrtet ned',
+        73: 'Alvorligt uheld med bus',
+        74: 'Storbrand',
+        75: 'Bygning delvist kollapset',
+        76: 'Industribrand',
+        77: 'Patientoverførsel',
+        78: 'Hjertestop',
+        79: 'Respirationsstop'
+      }
+    };
+    I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
+      name: 'Klíčová slova mise',
+      settingsName: 'Klíčová slova mise - nastavení',
+      domain: 'operacni-stredisko.cz',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Zobrazit / skrýt',
       keywords: {
         0: 'Ild i skraldespand',
         1: 'Ild i container',
@@ -3683,7 +3781,7 @@
       132: 'POL 3',
       133: 'TECH 3'
     };
-    let DEFAULT_AAO_EU = {
+    let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -3800,7 +3898,7 @@
       113: 'FIRE 2',
       114: 'TECH 2'
     };
-    let DEFAULT_AAO_ES = {
+    let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -4024,6 +4122,88 @@
       103: 'TECH 2'
     };
     let DEFAULT_AAO_DADK = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 2',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'TECH 2',
+      76: 'FIRE 5',
+      77: 'MEDT',
+      78: 'MED 1',
+      79: 'MED 1'
+    };
+    let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -5166,8 +5346,8 @@
     I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
     I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_EN;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
-    I18n.translations.eu.lssm.missionKeyword = DEFAULT_AAO_EU;
-    I18n.translations.es.lssm.missionKeyword = DEFAULT_AAO_ES;
+    I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
+    I18n.translations.es_ES.lssm.missionKeyword = DEFAULT_AAO_ESES;
     I18n.translations.sv_SE.lssm.missionKeyword = DEFAULT_AAO_SVSE;
     I18n.translations.da_DK.lssm.missionKeyword = DEFAULT_AAO_DADK;
     I18n.translations.nb_NO.lssm.missionKeyword = DEFAULT_AAO_NBNO;
@@ -5175,6 +5355,7 @@
     I18n.translations.it_IT.lssm.missionKeyword = DEFAULT_AAO_ITIT;
     I18n.translations.fr_FR.lssm.missionKeyword = DEFAULT_AAO_FRFR;
     I18n.translations.ru_RU.lssm.missionKeyword = DEFAULT_AAO_RURU;
+    I18n.translations.cs_CZ.lssm.missionKeyword = DEFAULT_AAO_CSCZ;
     I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
 
     let defaultAao;
@@ -5184,10 +5365,10 @@
       defaultAao = DEFAULT_AAO_EN;
     else if (I18n.locale === 'en_GB')
       defaultAao = DEFAULT_AAO_ENGB
-    else if (I18n.locale === 'eu')
-      defaultAao = DEFAULT_AAO_EU
-    else if (I18n.locale === 'es')
-      defaultAao = DEFAULT_AAO_ES
+    else if (I18n.locale === 'en_AU')
+      defaultAao = DEFAULT_AAO_ENAU
+    else if (I18n.locale === 'es_ES')
+      defaultAao = DEFAULT_AAO_ESES
     else if (I18n.locale === 'sv_SE')
       defaultAao = DEFAULT_AAO_SVSE
     else if (I18n.locale === 'da_DK')
@@ -5198,6 +5379,8 @@
       defaultAao = DEFAULT_AAO_PLPL
     else if (I18n.locale === 'it_IT')
       defaultAao = DEFAULT_AAO_ITIT
+    else if (I18n.locale === 'cs_CZ')
+      defaultAao = DEFAULT_AAO_CSCZ
     else if (I18n.locale === 'fr_FR')
       defaultAao = DEFAULT_AAO_FRFR
     else if (I18n.locale === 'ru_RU')

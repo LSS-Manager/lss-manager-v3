@@ -34,6 +34,22 @@
         }
     };
 
+    I18n.translations.cs_CZ.lssm.centermap = {
+        center: "Centrum",
+        settings: {
+            title: "Středová mapa",
+            choose: "Prosím vyberte",
+            option1: "Výchozí",
+            option1desc: "Výchozí úroveň přiblížení a centrování v řídicím centru ",
+            option2: "Dynamický",
+            alliance: "Vezměte v úvahu spojenectví",
+            option2desc: "Středová mapa, na které jsou viditelné všechny mise a stanice.",
+            option3: "Zvyk",
+            option3desc: "Nastavte vlastní polohu a úroveň přiblížení.",
+            set: "Uložit aktuální polohu"
+        }
+    };
+
     I18n.translations.pl_PL.lssm.centermap = {
         center: "Centrum",
         settings: {
@@ -98,7 +114,7 @@
         }
     };
 
-    I18n.translations.es.lssm.centermap = {
+    I18n.translations.es_ES.lssm.centermap = {
         center: "Centro",
         settings: {
             title: "Mapa del centro",

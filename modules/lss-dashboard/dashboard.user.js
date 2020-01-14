@@ -88,7 +88,7 @@ I18n.translations.en_GB['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.eu['lssm']['dashboard'] = {
+I18n.translations.en_AU['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",
@@ -118,7 +118,7 @@ I18n.translations.eu['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.eu['lssm']['dashboard'] = {
+I18n.translations.cs_CZ['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",
@@ -238,7 +238,7 @@ I18n.translations.nb_NO['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.es['lssm']['dashboard'] = {
+I18n.translations.es_ES['lssm']['dashboard'] = {
     name: "Tablero de mandos",
     vehicles: {
         name: "Vehículos",

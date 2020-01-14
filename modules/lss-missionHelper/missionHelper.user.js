@@ -189,7 +189,6 @@ const lssm_missionhelper_adjustPosition = () => {
         vge: 'Large scale alliance mission',
         patients: 'Patients',
         prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
         to: 'up to',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'This mission is ambulance-only!',
@@ -469,7 +468,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.eu.lssm.missionhelper = {
+    I18n.translations.en_AU.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         settings: {
             name: {
@@ -597,7 +596,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.es.lssm.missionhelper = {
+    I18n.translations.es_ES.lssm.missionhelper = {
         diy_mission: 'Esta misión parece ser una misión de alianza a gran escala.',
         siwa: 'Misión planificada',
         vge: 'misión de alianza a gran escala',
@@ -1022,7 +1021,151 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Losseplads",
-                "Parkeringshus"
+            "Parkeringshus"
+        ]
+    };
+
+    I18n.translations.cs_CZ.lssm.missionhelper = {
+        diy_mission: 'Tato mise se jeví jako rozsáhlá alianční mise.',
+        siwa: 'Plánovaná mise',
+        vge: 'Velká alianční mise',
+        patients: 'Pacienti',
+        prisoners: 'Vězni',
+        to: 'až do',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Tato mise je pouze sanitka!',
+        title: 'Pomocník mise',
+        transport: 'Doprava',
+        settings: {
+            name: {
+                label: 'název',
+                description: 'Zobrazuje název mise v pomocníkovi.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Zobrazuje ID mise v pomocníkovi.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Zobrazuje ID typu mise v pomocníkovi.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Označuje v pomocníkovi, na kterém POI je operace.'
+            },
+            live_patients: {
+                label: 'Počet pacientů',
+                description: 'Ukazuje živě, kolik pacientů se v současné době používá.'
+            },
+            vehicles: {
+                label: 'Vozidla',
+                description: 'Zobrazí požadovaná vozidla.'
+            },
+            patients: {
+                label: 'informace o pacientovi',
+                description: 'Zobrazuje informace o (potenciálních) pacientech.'
+            },
+            prisoners: {
+                label: 'informace vězně',
+                description: 'Zobrazuje informace o (potenciálních) vězňech.'
+            },
+            special: {
+                label: 'Jiná informace',
+                description: 'Zobrazuje speciální informace, například průměrný minimální požadovaný počet zaměstnanců.'
+            },
+            expansions: {
+                label: 'distribuce',
+                description: 'Ukazuje, na co se může sázka rozšířit. (Zobrazuje pouze jednoduché šíření)'
+            },
+            show_100: {
+                label: 'Zobrazit 100% pravděpodobnost',
+                description: 'Zobrazuje pravděpodobnost pro vozidlo, i když je to 100%.'
+            },
+            credits: {
+                label: 'Průměrné příjmy',
+                description: 'Zobrazuje průměrné příjmy, které získáte za tuto úlohu.'
+            },
+            show_siwa: {
+                label: 'Požadavky na bezpečnostní strážce',
+                description: 'Ukazuje také požadavky na bezpečnostní strážce v pomocníkovi.'
+            },
+            mission_time: {
+                label: 'Čas vytvoření',
+                description: 'Zobrazuje datum a čas, kdy byla mise vytvořena.'
+            }
+        },
+        vehicles: {
+            truck: "Brandbiler",
+            platform: "Platformvogne",
+            heavyRescue: "Redningskøretøjer",
+            air: "Mobile Air",
+            bchief: "Holdleder-køretøjer",
+            tanker: "vandtankvogne",
+            hazmat: "gift- og kemikaliekøretøjer",
+            mcv: "utryckningsfordon",
+            police: "politibiler",
+            hems: "HEMS",
+            rtw: "Ambulans",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            hems: "Räddningshelikopter",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Sø",
+            "Hostpital",
+            "Skov",
+            "Busstoppested",
+            "Sporvognstoppested",
+            "Togstation \\(lokal trafik\\)",
+            "Togstation \\(lokal og national /international trafik\\)",
+            "Godsstation",
+            "Supermarked \\(lille\\)",
+            "Supermarked \\(stort\\)",
+            "Benzinstation",
+            "Skole",
+            "Museum",
+            "Indkøbscenter",
+            "Bilværksted",
+            "Motervejsfrakørsel",
+            "Julemarked",
+            "Pakhus",
+            "Diskotek",
+            "Stadion",
+            "Gård",
+            "Kontorbygning",
+            "Svømmehal",
+            "Jernbaneovergang",
+            "Teater",
+            "Markedsplads",
+            "Flod",
+            "Lille lufthavn \\(landingsbane\\)",
+            "Stor lufthavn \\(landingsbane\\)",
+            "Lufthavnsterminal",
+            "Bank",
+            "Varehus",
+            "Bro",
+            "Fast Food-restaurant",
+            "Containerhavnn",
+            "Genbrugscenter",
+            "Skyskraber",
+            "Krydstogthavn",
+            "Lystbådehavn",
+            "Skinnekrydsning",
+            "Tunnel",
+            "Kølehus",
+            "Kraftværk",
+            "Fabrik",
+            "Skrotplads",
+            "Metrostation",
+            "Lille kemikalietank",
+            "Stor kemikalietank",
+            "Hotel",
+            "Bar",
+            "Losseplads",
+            "Parkeringshus"
         ]
     };
 

@@ -51,7 +51,31 @@
             }
         }
     };
-    I18n.translations.es.lssm.statuscount = {
+    I18n.translations.cs_CZ.lssm.statuscount = {
+        name: "Počet stavů",
+        settings: {
+            show: "Zobrazit / skrýt",
+            status: {
+                show: {
+                    label: "Ukázat",
+                    description: "Má se stav vůbec zobrazovat? Důležité: Toto nastavení má vyšší prioritu než jiná nastavení, tj. Pokud je toto nastavení vypnuto, stav se nikdy nezobrazí."
+                },
+                hide: {
+                    label: "Zobrazit pouze na vyžádání",
+                    description: "Počítadlo se zobrazí, pouze pokud je v tomto stavu alespoň jedno vozidlo. (Pozor: Pokud je počítadlo zcela skryto, nikdy se nezobrazí, i když je toto nastavení aktivováno!)"
+                },
+                percent: {
+                    label: "Zobrazit procenta",
+                    description: "Mělo by se zobrazit procento tohoto stavu?"
+                }
+            },
+            round: {
+                label: "Zaokrouhlená procenta",
+                description: "Kolik desetinných míst by měla být zaokrouhlena na procenta (pokud jsou zobrazena)?"
+            }
+        }
+    };
+    I18n.translations.es_ES.lssm.statuscount = {
         name: "Cuenta de status",
         settings: {
             show: "Visualizar/Ocultar",

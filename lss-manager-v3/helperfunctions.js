@@ -85,7 +85,7 @@ else if (I18n.locale == "en_GB")
         "16": ["Rescue Pump", 0],
     };
 }
-else if (I18n.locale == "eu")
+else if (I18n.locale == "en_AU")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -143,6 +143,34 @@ else if (I18n.locale == "es")
 }
 else if (I18n.locale == "sv_SE")
 {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Ambulansutbyggnad": 0,
+        "Water rescue expansion": 1,
+        "Airport extension": 2,
+        // Pol-Erweiterungen (10-19)
+        "Fängelsecell": 10,
+        "Fler celler": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["BAS 1 - Släckbil", 0],
+        "1": ["BAS 2 - Släckbil", 0],
+        "2": ["M32L - Stegbil", 0],
+        "3": ["Befälsfordon", 0],
+        "4": ["Lastväxlare", 0],
+        "5": ["Ambulans", 2],
+        "6": ["BAS 4 - Tankbil", 0],
+        "7": ["Industribrandbil", 0],
+        "8": ["Radiobil", 6],
+        "9": ["Räddningshelikopter", 2],
+        "10": ["Luftfordon", 0],
+        "11": ["Mobilt ledningsfordon", 0],
+        "12": ["Räddningsfordon", 0]
+    };
+}
+else if (I18n.locale == "cs_CZ") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Ambulansutbyggnad": 0,

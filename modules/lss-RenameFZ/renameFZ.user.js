@@ -286,7 +286,7 @@
         }
     };
 
-    I18n.translations.eu.lssm.renameFz = {
+    I18n.translations.en_AU.lssm.renameFz = {
         name: 'Rename vehicles',
         settings: {
             show: 'Show/Hide',
@@ -321,6 +321,69 @@
                 10: 'Mobile air',
                 11: 'MCV',
                 12: 'Rescue Engine'
+            }
+        }
+    };
+
+    I18n.translations.cs_CZ.lssm.renameFz = {
+        name: 'Přejmenovat vozidla',
+        rename: "přejmenovat",
+        id: "{id} Id vozidla",
+        old: "{old} Aktuální jméno",
+        vehicleType: "{vehicleType} Typ vozidla",
+        stationName: "{stationName} Jméno Budovy",
+        tagging: '{tagging} Označení typu vozidla',
+        number: '{number} Počitadlo typů',
+        numberRoman: '{numberRoman} Počitadlo typů (římské číslice)',
+        dispatch: '{dispatch} Jméno dispečera',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
+        stationAlias: '{stationAlias} Budova-Alias',
+        saveAll: 'uložit vše',
+        statusWaiting: 'Počkejte na zadání',
+        statusError: '<b>Chyba při generování!</b> Pokud se tato chyba objeví znovu, nahlaste ji. Uveďte následující informace:',
+        statusWorking: 'Generujte jména a formuláře. To může trvat určitou dobu v závislosti na systému a počtu vozidel.',
+        statusSuccess: 'Jména a fórum byly úspěšně vygenerovány!',
+        nameAlreadyCorrect: 'Název již odpovídá šabloně!',
+        nameToLong: 'Název je příliš dlouhý pro následující vozidla:',
+        nameToLongOriginalName: 'Původní jméno',
+        nameToLongGeneratedName: 'Generované jméno',
+        nameToLongShortenedName: 'Nové / zkrácené jméno',
+        helpTitle: 'Pod tímto odkazem naleznete malou instrukci: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Začátek počítadla',
+        counterOverride: 'Pokud existuje více vozidel stejného typu, začněte přesto s 1.',
+        startNumHelp: 'Zde můžete zadat počáteční hodnotu pro počítadlo typů. Pokud nastavíte 0 jako počáteční hodnotu, první vozidlo typu nedostane číslování, je to velmi praktické, pokud máte na stráži pouze jedno vozidlo typu a nechcete jej číslovat. Počítadlo však můžete také spustit na 5 (z jakéhokoli důvodu chcete, ale je to možné;))',
+        toggleNameCorrect: 'Zobrazit / skrýt vozidla se správnými názvy',
+        settings: {
+            show: 'Zobrazit / skrýt',
+            names: {
+                vehicleTypes: 'typy vozidel',
+                stations: 'Budování aliasu'
+            },
+            descriptions: {
+                vehicleTypes: 'Zde můžete nastavit alternativní názvy pro každý typ vozidla. Můžete je použít při přejmenování vozidel přes dispečink.',
+                stations: 'Zde můžete nastavit alternativní názvy pro každou budovu. Můžete je použít při přejmenování vozidel přes dispečink.'
+            },
+            validStationTypes: {
+                0: "Brannstasjon",
+                2: "Ambulansestasjon",
+                6: "Politistasjon",
+                7: "Nødetatssenter",
+                18: "Brannstasjon (liten)",
+                19: "Politistasjon (liten)",
+                20: "Ambulansestasjon (liten)"
+            },
+            vehicleTypes: {
+                0: 'Slukk og Redningsbil',
+                1: 'TRV',
+                2: 'Brannbilstige',
+                3: 'Kommandoenhet',
+                4: 'MRU',
+                5: 'Ambulanse',
+                6: 'Slangbil',
+                7: 'HazMat-enhet',
+                8: 'Polisbil',
+                9: 'SAR-helikopter'
             }
         }
     };
@@ -780,7 +843,7 @@
         }
     };
 
-    I18n.translations.es.lssm.renameFz = {
+    I18n.translations.es_ES.lssm.renameFz = {
         name: 'Renombrar vehículos',
         rename: "cambiar de nombre",
         id: "{id} Id del Vehículo",

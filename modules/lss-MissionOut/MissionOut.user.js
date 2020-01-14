@@ -7,6 +7,9 @@
     I18n.translations.en.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
+    I18n.translations.cs_CZ.lssm.missionOut = {
+        title: 'Skrýt / Zobrazit misi'
+    };
     I18n.translations.pl_PL.lssm.missionOut = {
         title: 'Misja ukrycia/pokazania'
     };
@@ -28,7 +31,7 @@
     I18n.translations.ru_RU.lssm.missionOut = {
         title: 'Скрыть / Показать миссию'
     };
-    I18n.translations.es.lssm.missionOut = {
+    I18n.translations.es_ES.lssm.missionOut = {
         title: 'Ocultar/Mostrar misión'
     };
     I18n.translations.nl.lssm.missionOut = {

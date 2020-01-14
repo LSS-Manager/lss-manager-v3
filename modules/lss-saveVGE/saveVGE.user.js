@@ -9,9 +9,15 @@
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",
-        VGEs:"VGEs"
+        VGEs:"LSAMs"
     };
-    I18n.translations.es['lssm']['saveVGE'] = {
+    I18n.translations.cs_CZ['lssm']['saveVGE'] = {
+        save: "Uložit",
+        del: "Odstranit",
+        noVGE: "Žádná uložená alianční mise!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.es_ES['lssm']['saveVGE'] = {
         save: "Guardar",
         del: "Borrar",
         noVGE: "No se ha salvado la misión de la Alianza!",

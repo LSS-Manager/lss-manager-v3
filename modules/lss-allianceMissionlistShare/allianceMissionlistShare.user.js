@@ -17,8 +17,11 @@
     I18n.translations.nb_NO['lssm']['allianceMissionlistShare'] = {
         title: "Slipp i allianse"
     };
-    I18n.translations.es['lssm']['allianceMissionlistShare'] = {
+    I18n.translations.es_ES['lssm']['allianceMissionlistShare'] = {
         title: "Lanzamiento en alianza"
+    };
+    I18n.translations.cs_CZ['lssm']['allianceMissionlistShare'] = {
+        title: "Vydání v alianci"
     };
     I18n.translations.it_IT['lssm']['allianceMissionlistShare'] = {
         title: "Rilascio in alleanza"
