@@ -113,19 +113,19 @@
         }
     };
     I18n.translations.cs_CZ.lssm.creditserweiterung = {
-        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        earnedCreditsRegEx: /(.*)([0-9],)? vydělaných kreditů.*/i,
         ranks: {
-            0: 'Probie',
-            200: 'Firefighter',
-            10000: 'Senior Firefighter',
-            100000: 'Fire Apparatus Operator',
-            1000000: 'Lieutenant',
-            5000000: 'Captain',
-            20000000: 'Staff Captain',
-            50000000: 'Battalion Chief',
-            1000000000: 'Division Chief',
-            2000000000: 'Deputy Chief',
-            5000000000: 'Fire Chief'
+            0: 'Zelenáč',
+            200: 'Hasič',
+            10000: 'Zkušený hasič',
+            100000: 'Operační důstojník',
+            1000000: 'Poručík',
+            5000000: 'Kapitán',
+            20000000: 'Štábní kapitán',
+            50000000: 'Velitel jednotky',
+            1000000000: 'Velitel divize',
+            2000000000: 'Zástupce velitele',
+            5000000000: 'Velitel hasičů'
         },
         texts: {
             reloadMessage: 'Otevřete prosím svůj profil <br> a znovu načtěte web!',

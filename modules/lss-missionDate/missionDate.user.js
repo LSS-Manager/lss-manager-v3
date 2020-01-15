@@ -13,7 +13,7 @@
 
   I18n.translations.cs_CZ.lssm.missionDate = {
     ago: 'před',
-    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    months: ['led', 'úno', 'bře', 'dub', 'kvě', 'červen', 'červenec', 'srp', 'září', 'říj', 'list', 'pro'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 

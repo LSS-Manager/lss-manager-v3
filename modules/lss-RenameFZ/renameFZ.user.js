@@ -365,25 +365,25 @@
                 stations: 'Zde můžete nastavit alternativní názvy pro každou budovu. Můžete je použít při přejmenování vozidel přes dispečink.'
             },
             validStationTypes: {
-                0: "Brannstasjon",
-                2: "Ambulansestasjon",
-                6: "Politistasjon",
-                7: "Nødetatssenter",
-                18: "Brannstasjon (liten)",
-                19: "Politistasjon (liten)",
-                20: "Ambulansestasjon (liten)"
+                0: "Hasičská stanice",
+                2: "Stanoviště záchranné služby",
+                6: "Policejní stanice",
+                7: "Dispečink",
+                18: "Hasičská stanice (malá)",
+                19: "Policejní stanice (malá)",
+                20: "Stanoviště záchranné služby (malé)"
             },
             vehicleTypes: {
-                0: 'Slukk og Redningsbil',
-                1: 'TRV',
-                2: 'Brannbilstige',
-                3: 'Kommandoenhet',
-                4: 'MRU',
-                5: 'Ambulanse',
-                6: 'Slangbil',
-                7: 'HazMat-enhet',
-                8: 'Polisbil',
-                9: 'SAR-helikopter'
+                0: 'CAS 20',
+                1: 'CAS 30',
+                2: 'AZ',
+                3: 'VEA',
+                4: 'TA',
+                5: 'Sanitka',
+                6: 'KHA',
+                7: 'TACH',
+                8: 'Policejní automobil',
+                9: 'Vrtulník LZS'
             }
         }
     };

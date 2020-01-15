@@ -6,18 +6,17 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "brannbiler",
-            platform: "lastebil",
-            heavyRescue: "store utryknings",
+            truck: "hasičské vozy",
+            platform: "vozy s plošinou",
+            heavyRescue: "těžká technická vozidla",
             air: "fordon",
-            bchief: "bataljons",
-            tanker: "tankbiler",
-            hazmat: "HazMat-kjøretøy",
+            bchief: "jednotky",
+            tanker: "cistern",
+            hazmat: "nebezpečnými látkami",
             mcv: "utryckningsfordon",
-            police: "politibiler",
-            hems: "HEMS",
-            rtw: "ambulanser",
-            arff: "brann- og redningstjeneste for fly",
+            police: "policejní vozidla",
+            rtw: "Sanitkat",
+            arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
             hems: "Räddningshelikopter",
@@ -46,43 +45,43 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Gjennomsnittlige kreditter/)) {
+            if (content.match(/Průměrné kredity/)) {
                 credits = number;
-            } else if (content.match(/Nødvendige|Krav på|Min./)) {
+            } else if (content.match(/Požadované|Krav på|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Sted/)) {
+            } else if (content.match(/Místo/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Nødvendige|Nødvendig/)) {
+            if (content.match(/Požadované|Požadovaná/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Sannsynlighet/)) {
+            } else if (content.match(/Pravděpodobnost/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Maks\. Pasienter/)) {
+            if (content.match(/Max\. Pacienti/)) {
                 patientsMax = number;
-            } else if (content.match(/Minste antall pasienter/)) {
+            } else if (content.match(/Minimální počet pacientů/)) {
                 patientsMin = number;
-            } else if (content.match(/transporteres/)) {
+            } else if (content.match(/převézt/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Pasientspesialisering/)) {
+            } else if (content.match(/Nemocniční oddělení/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maks antall innsatte/)) {
+            } else if (content.match(/Maximální počet vězňů/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Utvidbare oppdrag/)) {
+            } else if (content.match(/Rozšiřitelné mise/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -201,58 +200,58 @@ $.get(missionlink)
         function getPOI(content) {
             let pois = [
                 "Park",
-                "Innsjø",
-                "Sykehus",
-                "Skog",
-                "Busstopp",
-                "Trikkestopp",
-                "Togstasjon \\(regional\\)",
-                "Togstasjon \\(regional og langdistanse\\)",
-                "Godsstasjon",
-                "Matvarebutikk \\(liten\\)",
-                "Matvarebutikk \\(stor\\)",
-                "Bensinstasjon",
-                "Skole",
-                "Museum",
-                "Kjøpesenter",
-                "Bilverksted",
-                "Motorveiavkjøring",
-                "Julemarked",
-                "Lagerbygning",
-                "Nattklubb",
+                "Jezero",
+                "Nemocnice",
+                "Les",
+                "Zastávka autobusu",
+                "Zastávka tramvaje",
+                "Železniční stanice \\(regionální doprava\\)",
+                "Železniční stanice \\(regionální a dálková doprava\\)",
+                "Nákladové nádraží",
+                "Supermarket \\(malý\\)",
+                "Supermarket \\(velký\\)",
+                "Čerpací stanice",
+                "Škola",
+                "Muzeum",
+                "Nákupní centrum",
+                "Autoservis",
+                "Dálniční sjezd",
+                "Vánoční trh",
+                "Skladiště",
+                "Diskotéka",
                 "Stadion",
-                "Gård",
-                "Kontorbygning",
-                "Basseng",
+                "Farma",
+                "Kancelářská budova",
+                "Plovárna",
                 "Järnvägsövergång",
-                "Teater",
-                "Tivoli",
-                "Elv",
-                "Liten flyplass \\(flystripe\\)",
-                "Stor flyplass \\(flystripe\\)",
-                "Flyplassterminal",
-                "Bank",
-                "Varehus",
-                "Bro",
-                "Gatekjøkken",
-                "Cargohavn",
-                "Gjenvinningssenter",
-                "Skyskraper",
-                "Cruisehavn",
-                "Marina",
-                "Planovergang",
-                "Tunnel",
-                "Kaldt varehus",
-                "Kraftverk",
-                "Fabrikk",
-                "Skrotplass",
-                "Metrostasjon",
-                "Liten kjemisk lagringstank",
-                "Stor kjemisk lagringstank",
-                "Hotell",
+                "Divadlo",
+                "Zábavní park",
+                "Řeka",
+                "Malé letiště \\(ranvej\\)",
+                "Velké letiště \\(ranvej\\)",
+                "Letištní terminál",
+                "Banka",
+                "Velkosklad",
+                "Most",
+                "Rychlé občerstvení",
+                "Nákladní přístav",
+                "Sběrný dvůr",
+                "Výšková budova",
+                "Přístaviště výletních lodí",
+                "Malý přístav",
+                "Železniční přejezd",
+                "Tunel",
+                "Chladírenský sklad",
+                "Elektrárna",
+                "Továrna",
+                "Šrotiště",
+                "Stanice metra",
+                "Malá chemická skladovací nádrž",
+                "Velká chemická skladovací nádrž",
+                "Hotel",
                 "Bar",
-                "Avfallsdeponi",
-                "Parkeringshus"
+                "Skládka",
+                "Kryté parkoviště"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -263,9 +262,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "brannstasjoner",
-                2: "redningsstasjoner",
-                6: "politistasjoner",
+                0: "hasičské stanice",
+                2: "záchranářské stanice",
+                6: "policejní stanice",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {
