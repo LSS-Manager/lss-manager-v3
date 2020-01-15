@@ -13,7 +13,7 @@ $.get(missionlink)
             bchief: "jednotky",
             tanker: "cistern",
             hazmat: "nebezpečnými látkami",
-            mcv: "utryckningsfordon",
+            mcv: "velitelská vozidla",
             police: "policejní vozidla",
             rtw: "Sanitkat",
             arff: "ARFF",

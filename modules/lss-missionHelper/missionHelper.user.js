@@ -1102,7 +1102,7 @@ const lssm_missionhelper_adjustPosition = () => {
             bchief: "vozidla velitele jednotky",
             tanker: "cisterny s vodou",
             hazmat: "nebezpečnými látkami",
-            mcv: "utryckningsfordon",
+            mcv: "velitelská vozidla",
             police: "policejní vozidla",
             hems: "HEMS",
             rtw: "Sanitkat",
