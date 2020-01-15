@@ -759,13 +759,13 @@ lssm.Module = {
     FMS5InMap: {
         name: {
             de: 'FMS 5 in der Karte',
-            en: 'Vyžádejte si dopravu na mapě',
+            en: 'Request transport in map',
             es_ES: 'Solicitar transporte en el mapa',
             pl_PL: 'Żądanie transportu na mapie',
             sv_SE: 'Begär transport på kartan',
             da_DK: 'Anmod om transport på kort',
             nb_NO: 'Be om transport i kart',
-            cs_CZ: '',
+            cs_CZ: 'Vyžádejte si dopravu na mapě',
             it_IT: 'Richiedi trasporto sulla mappa',
             fr_FR: 'Demande de transport sur la carte',
             ru_RU: 'Запросить транспорт на карте',
