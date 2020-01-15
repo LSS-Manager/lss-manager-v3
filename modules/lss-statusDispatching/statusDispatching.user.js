@@ -28,7 +28,7 @@
         fms5H1 : 'transportiert'
     };
 
-    I18n.translations.es.lssm.statusDispatching = {
+    I18n.translations.es_ES.lssm.statusDispatching = {
         name: 'Solicitudes de transporte mejoradas',
         fms: 'Transporte Solicitado',
         nextVehicle: 'Ir al vehículo siguiente con una orden de transporte',
@@ -65,6 +65,19 @@
             + 'Om du inaktiverar detta alternativ kan du se uppdragsuppgifter innan du behandlar transportförfrågningarna. Knapparna "Gå till nästa fordon med en transportförfrågan" och "Tillbaka till uppdrag" påverkas inte av denna inställning och klickas alltid automatiskt.',
         close: 'Stänga',
         fms5H1: 'transportiert'
+    };
+    
+    I18n.translations.cs_CZ.lssm.statusDispatching = {
+        name: 'Vylepšené požadavky na dopravu',
+        fms: 'Požadován transport',
+        nextVehicle: 'Přejít na další vozidlo s požadavkem na přepravu',
+        backToAlarm: 'Zpět na misi',
+        settingsTitle: 'Vylepšené požadavky na dopravu - nastavení',
+        settingsAttr: 'Automaticky klikněte na tlačítko „Požadován transport“ v masce mise',
+        settingsAttrDesc: 'Povolením této možnosti získáte automatické klepnutí na tlačítko „Požadovaný transport“ v masce mise. Tímto způsobem musíte projít všechny požadavky na dopravu, než budete moci zobrazit podrobnosti mise. Povolení této možnosti umožní rychlejší zpracování požadavků na přepravu.<br>'
+            + 'Deaktivace této možnosti umožní zobrazit podrobnosti mise před zpracováním přepravních požadavků. Tlačítka „Přejít na další vozidlo s požadavkem na přepravu“ a „Zpět na misi“ nejsou tímto nastavením ovlivněna a jsou vždy automaticky kliknuta.',
+        close: 'Zavřít',
+        fms5H1: 'transportní'
     };
 
     I18n.translations.da_DK.lssm.statusDispatching = {

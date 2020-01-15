@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet)(\.de|\.com|\.co\.uk|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko)(\.de|\.com|\.co|\.cz|\.uk|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -28,7 +28,7 @@
         chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
     };
-    I18n.translations.es.lssm.verbandsverwaltung = {
+    I18n.translations.es_ES.lssm.verbandsverwaltung = {
         name: 'Administración',
         allianceFunds: 'Fondos de la Alianza',
         allianceCredits: 'Créditos Obtenidos',
@@ -39,6 +39,18 @@
         updateMessage: 'Los valores se actualizan automáticamente<br>cada ' + updateMin + ' actas.',
         chartErr: 'No se pudo cargar el gráfico "{{chart}}"!<br>Ya sabemos que esto sucede con algunos navegadores, pero aún no sabemos por qué. Por favor <b>no nos informe de este error ya que estamos en este problema!',
         hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
+    };
+    I18n.translations.cs_CZ.lssm.verbandsverwaltung = {
+        name: 'Správa',
+        allianceFunds: 'Alianční fondy',
+        allianceCredits: 'Získané kredity',
+        users: 'Členové',
+        onlineUsers: 'Členové online',
+        allianceRank: 'Pořadí v Alliancelist',
+        page: 'Stránka',
+        updateMessage: 'Hodnoty se aktualizují automaticky <br> každý' + updateMin + ' minut.',
+        chartErr: 'Graf nelze načíst "{{chart}}"!<br>Už víme, že k tomu dochází u některých prohlížečů, ale zatím proč. Prosím, <b> neoznámte nám tuto chybu, protože jsme již na tento problém!',
+        hoverTip: 'Tip: Umístěním kurzoru na prvek zobrazíte historii hodnot.'
     };
     I18n.translations.pl_PL.lssm.verbandsverwaltung = {
         name: 'Administracja',

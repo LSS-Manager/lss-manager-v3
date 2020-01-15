@@ -43,7 +43,7 @@
     }
   }
 
-  I18n.translations.es.lssm['n-alarm'] = {
+  I18n.translations.es_ES.lssm['n-alarm'] = {
     not_support: "Este navegador no soporta Notificaciones HTML5",
     inithead: "Initalización",
     chat_message: "Mensaje de chat de ",
@@ -61,6 +61,27 @@
       status_text: "Obtenga todos los mensajes de estado como notificación.",
       chatp_title: "Obtener mensajes de chat como ventana emergente de información",
       chatp_text: "Obtener todos los mensajes de chat como mensaje emergente en el lado derecho"
+    }
+  }
+
+  I18n.translations.cs_CZ.lssm['n-alarm'] = {
+    not_support: "Tento prohlížeč nepodporuje oznámení HTML5",
+    inithead: "Inicializace",
+    chat_message: "Chatová zpráva od ",
+    blend: "Skrýt za:",
+    seconds: "sekundy",
+    settings: {
+      title: "Oznámení-upozornění",
+      chat_title: "Chatovací zprávy",
+      chat_text: "Získejte zprávy chatu jako upozornění.",
+      s5_title: "Žádost o přepravu",
+      save: "Uložit",
+      close: "Zavřít",
+      s5_text: "Získejte oznámení o přepravě jako oznámení",
+      status_title: "Postavení",
+      status_text: "Získejte všechny zprávy o stavu jako upozornění.",
+      chatp_title: "Získejte zprávy chatu jako informační vyskakovací okno",
+      chatp_text: "Získejte všechny chatové zprávy jako vyskakovací zprávu na pravé straně"
     }
   }
 

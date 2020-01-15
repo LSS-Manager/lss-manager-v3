@@ -9,10 +9,15 @@
 		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
 		"Do you agree with this?"
 	};
-	I18n.translations.es.lssm.telemetry = {
+	I18n.translations.es_ES.lssm.telemetry = {
 		question: "El Administrador LSS envía datos no personales a los desarrolladores para mejorar el script y encontrar errores.\r\n" +
 		"Estos datos incluyen: su ID, nombre de usuario, el número de guardias, el navegador utilizado y los módulos habilitados.\r\n\r\n" +
 		"¿Está de acuerdo con esto?"
+    };
+    I18n.translations.cs_CZ.lssm.telemetry = {
+        question: "Správce LSS odesílá vývojářům jiné než osobní údaje, aby vylepšil skript a zjistil chyby.\r\n" +
+            "Tyto údaje zahrnují: vaše ID, uživatelské jméno, počet strážců, použitý prohlížeč a povolené moduly.\r\n\r\n" +
+            "Souhlasíte s tím?"
     };
     I18n.translations.pl_PL.lssm.telemetry = {
         question: "LSS Manager wysyła dane nieosobowe do programistów w celu ulepszenia skryptu i znalezienia błędów.\r\n" +

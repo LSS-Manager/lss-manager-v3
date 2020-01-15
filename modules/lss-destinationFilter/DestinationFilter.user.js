@@ -27,7 +27,20 @@
             cells: 'Hide full cells'
         }
     };
-    I18n.translations.es.lssm.destfilter = {
+    I18n.translations.cs_CZ.lssm.destfilter = {
+        title: 'Destination Filter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
+    I18n.translations.es_ES.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',
         tax: 'TAX',

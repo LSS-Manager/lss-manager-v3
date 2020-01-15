@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet)(\.de|\.com|\.co\.uk|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko)(\.de|\.com|\.co|\.cz|\.dk|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -85,7 +85,7 @@
             noFurtherRank: 'There are no further ranks'
         }
     };
-    I18n.translations.eu.lssm.creditserweiterung = {
+    I18n.translations.en_AU.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
         ranks: {
             0: 'Probie',
@@ -110,6 +110,33 @@
             updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
             allianceFunds: 'Alliance Funds',
             noFurtherRank: 'There are no further ranks'
+        }
+    };
+    I18n.translations.cs_CZ.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? vydělaných kreditů.*/i,
+        ranks: {
+            0: 'Zelenáč',
+            200: 'Hasič',
+            10000: 'Zkušený hasič',
+            100000: 'Operační důstojník',
+            1000000: 'Poručík',
+            5000000: 'Kapitán',
+            20000000: 'Štábní kapitán',
+            50000000: 'Velitel jednotky',
+            1000000000: 'Velitel divize',
+            2000000000: 'Zástupce velitele',
+            5000000000: 'Velitel hasičů'
+        },
+        texts: {
+            reloadMessage: 'Otevřete prosím svůj profil <br> a znovu načtěte web!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Přehled',
+            coinsProtokoll: 'Seznam mincí',
+            earnedCredits: 'Úplně vydělané Kredity',
+            creditsToNextRank: 'Kredity do dalšího pořadí',
+            updateMessage: 'Hodnoty se aktualizují automaticky<br>každých 5 minut.<br>Kredity a mince jsou<br>průběžně aktuální.',
+            allianceFunds: 'Alianční fondy',
+            noFurtherRank: 'Nejsou žádné další hodnosti'
         }
     };
     I18n.translations.pl_PL.lssm.creditserweiterung = {
@@ -220,7 +247,7 @@
             noFurtherRank: 'Det er ingen ytterligere rekker'
         }
     };
-    I18n.translations.es.lssm.creditserweiterung = {
+    I18n.translations.es_ES.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? créditos conseguidos.*/i,
         ranks: {
             0: 'Novato',

@@ -66,7 +66,7 @@
         timeFormat: '{0} min {1} sec',
         timeFormatWithHours: '{0} h {1} min {2} sec',
     };
-    I18n.translations.es.lssm.aaotime = {
+    I18n.translations.es_ES.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) seg./i,
         hourIdentifier: 'hrs',
         timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) seg./i,

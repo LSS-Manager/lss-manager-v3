@@ -11,6 +11,12 @@
         reset: "Reset",
         select: "Please select..."
     };
+    I18n.translations.cs_CZ['lssm']['aaosearch'] = {
+        search_aao: "Hledání AAO",
+        use_dd: "Použít rozbalovací nabídku: ",
+        reset: "Obnovit",
+        select: "Please select..."
+    };
     I18n.translations.pl_PL['lssm']['aaosearch'] = {
         search_aao: "Szukaj AAO",
         use_dd: "Wykorzystaj droppdown: ",
@@ -53,7 +59,7 @@
         reset: "Сброс",
         select: "Пожалуйста, выберите...."
     };
-    I18n.translations.es['lssm']['aaosearch'] = {
+    I18n.translations.es_ES['lssm']['aaosearch'] = {
         search_aao: "Buscar AAO",
         use_dd: "Use el menú desplegable: ",
         reset: "Reiniciar",

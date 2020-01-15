@@ -1,0 +1,1005 @@
+{
+    "0": {
+        "name": "Ho\u0159\u00edc\u00ed popelnice",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "1": {
+        "name": "Ho\u0159\u00edc\u00ed kontejner",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Ho\u0159\u00edc\u00ed automobil",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "3": {
+        "name": "Ho\u0159\u00edc\u00ed motocykl",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+    "4": {
+        "name": "Po\u017e\u00e1r tr\u00e1vy",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Po\u017e\u00e1r v pokoji",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "6": {
+        "name": "Po\u017e\u00e1r zahradn\u00edho alt\u00e1nu",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
+    "7": {
+        "name": "Po\u017e\u00e1r list\u00ed",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "Ho\u0159\u00edc\u00ed hromada odpadk\u016f",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "9": {
+        "name": "Ho\u0159\u00edc\u00ed bal\u00edk sl\u00e1my",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
+    "10": {
+        "name": "Ho\u0159\u00edc\u00ed traktor",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "11": {
+        "name": "Ho\u0159\u00edc\u00ed telefonn\u00ed budka",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
+    },
+    "12": {
+        "name": "Strom p\u0159es cestu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
+    "13": {
+        "name": "Ho\u0159\u00edc\u00ed kamion",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "Mal\u00fd po\u017e\u00e1r na poli",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+    "15": {
+        "name": "Mal\u00fd p\u0159\u00edrodn\u00ed po\u017e\u00e1r",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
+    "16": {
+        "name": "Ho\u0159\u00edc\u00ed karavan",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Ho\u0159\u00edc\u00ed po\u0161tovn\u00ed schr\u00e1nka",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
+    },
+    "19": {
+        "name": "Ho\u0159\u00edc\u00ed p\u0159\u00edv\u011bs",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "20": {
+        "name": "Po\u017e\u00e1r ve sklep\u011b",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "21": {
+        "name": "Ho\u0159\u00edc\u00ed kom\u00edn",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
+    "22": {
+        "name": "Po\u017e\u00e1r st\u0159echy",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
+    "23": {
+        "name": "Ho\u0159\u00edc\u00ed olej",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "24": {
+        "name": "Po\u017e\u00e1r autobusov\u00e9 zast\u00e1vky",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "25": {
+        "name": "Dopravn\u00ed nehoda",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
+    },
+    "26": {
+        "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 9
+    },
+    "27": {
+        "name": "Po\u017e\u00e1r gar\u00e1\u017ee",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Ho\u0159\u00edc\u00ed stroj",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
+        }
+    },
+    "29": {
+        "name": "\u00danik nafty z cisterny",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
+    "30": {
+        "name": "\u00danik plynu",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "31": {
+        "name": "Po\u017e\u00e1r krbu",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Po\u017e\u00e1r \u017eac\u00edho stroje",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "33": {
+        "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 9
+    },
+    "34": {
+        "name": "Po\u017e\u00e1r v nemocnici",
+        "stations": {
+            "0": 10,
+            "2": 6
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 2,
+            "tanker": 1,
+            "platform": 3
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 25,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 2
+    },
+    "35": {
+        "name": "Otrava alkoholem",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        }
+    },
+    "36": {
+        "name": "Bolest na hrudi",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Kardiologie"
+    },
+    "37": {
+        "name": "Astmatick\u00fd z\u00e1chvat",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "V\u0161eobecn\u00fd internista"
+    },
+    "38": {
+        "name": "Z\u00e1chvat",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Neurologie"
+    },
+    "39": {
+        "name": "Hore\u010dka",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "V\u0161eobecn\u00fd internista"
+    },
+    "40": {
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "\u00darazov\u00e1 chirurgie"
+    },
+    "41": {
+        "name": "Po\u017e\u00e1r v autoservisu",
+        "stations": {
+            "0": 14,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 15,
+        "percentages": {
+            "tanker": 40
+        }
+    },
+    "42": {
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "\u00darazov\u00e1 chirurgie"
+    },
+    "43": {
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "\u00darazov\u00e1 chirurgie"
+    },
+    "44": {
+        "name": "Kr\u00e1de\u017e v obchod\u011b",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 9,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "45": {
+        "name": "Kr\u00e1de\u017e v obchod\u011b",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "46": {
+        "name": "Nehoda na parkovi\u0161ti",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 9
+    },
+    "47": {
+        "name": "Nehoda na parkovi\u0161ti",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 10
+    },
+    "48": {
+        "name": "Kr\u00e1de\u017e kovu",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 8,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "49": {
+        "name": "Kaps\u00e1\u0159i",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 0,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "50": {
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 4
+    },
+    "51": {
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 5
+    },
+    "52": {
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 6
+    },
+    "53": {
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 7
+    },
+    "54": {
+        "name": "Nehoda na parkovi\u0161ti",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 14
+    },
+    "55": {
+        "name": "Rva\u010dka",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "56": {
+        "name": "V\u00fdtr\u017enictv\u00ed",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 55
+        }
+    },
+    "57": {
+        "name": "Nenahl\u00e1\u0161en\u00e1 demonstrace",
+        "vehicles": {
+            "police": 7
+        },
+        "credits": 10020
+    },
+    "58": {
+        "name": "Po\u017e\u00e1r v kuchyni",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "59": {
+        "name": "Z\u00e1chrana zv\u00ed\u0159ete",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "60": {
+        "name": "Po\u017e\u00e1r sportovn\u00ed haly",
+        "stations": {
+            "0": 9,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 12
+    },
+    "61": {
+        "name": "Nehoda lehk\u00e9ho letounu (leti\u0161t\u011b)",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "arff": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "poi": 28
+    },
+    "62": {
+        "name": "St\u00ed\u017enost na hluk",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400
+    },
+    "63": {
+        "name": "Tranzitorn\u00ed ischemick\u00e1 ataka",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Neurochirurgie"
+    },
+    "64": {
+        "name": "Nehoda autobusu",
+        "stations": {
+            "0": 3,
+            "2": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 12,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        }
+    },
+    "65": {
+        "name": "Po\u017e\u00e1r v kuchyni",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "66": {
+        "name": "Po\u017e\u00e1r v pokoji",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "67": {
+        "name": "Rva\u010dka",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "68": {
+        "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "69": {
+        "name": "\u00danik nafty z cisterny",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 4300
+    },
+    "70": {
+        "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "71": {
+        "name": "Krv\u00e1cen\u00ed z nosu",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "V\u0161eobecn\u00fd chirurg"
+    },
+    "72": {
+        "name": "Nehoda lehk\u00e9ho letounu",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "percentages": {
+            "hazmat": 50
+        }
+    },
+    "73": {
+        "name": "V\u00e1\u017en\u00e1 nehoda autobusu",
+        "stations": {
+            "0": 5,
+            "2": 8,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "platform": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 12,
+            "transport": 80,
+            "specialisation": "V\u0161eobecn\u00fd chirurg"
+        }
+    },
+    "74": {
+        "name": "Velk\u00fd ohe\u0148",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    }
+}

@@ -189,7 +189,6 @@ const lssm_missionhelper_adjustPosition = () => {
         vge: 'Large scale alliance mission',
         patients: 'Patients',
         prisoners: 'Prisoners',
-        water: 'Wasserbedarf',
         to: 'up to',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'This mission is ambulance-only!',
@@ -469,7 +468,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.eu.lssm.missionhelper = {
+    I18n.translations.en_AU.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         settings: {
             name: {
@@ -597,7 +596,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.es.lssm.missionhelper = {
+    I18n.translations.es_ES.lssm.missionhelper = {
         diy_mission: 'Esta misión parece ser una misión de alianza a gran escala.',
         siwa: 'Misión planificada',
         vge: 'misión de alianza a gran escala',
@@ -1022,7 +1021,150 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Losseplads",
-                "Parkeringshus"
+            "Parkeringshus"
+        ]
+    };
+
+    I18n.translations.cs_CZ.lssm.missionhelper = {
+        diy_mission: 'Tato mise se jeví jako rozsáhlá alianční mise.',
+        siwa: 'Plánovaná mise',
+        vge: 'Velká alianční mise',
+        patients: 'Pacienti',
+        prisoners: 'Vězni',
+        to: 'až do',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Tato mise je pouze sanitka!',
+        title: 'Pomocník mise',
+        transport: 'Doprava',
+        settings: {
+            name: {
+                label: 'název',
+                description: 'Zobrazuje název mise v pomocníkovi.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Zobrazuje ID mise v pomocníkovi.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Zobrazuje ID typu mise v pomocníkovi.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Označuje v pomocníkovi, na kterém POI je operace.'
+            },
+            live_patients: {
+                label: 'Počet pacientů',
+                description: 'Ukazuje živě, kolik pacientů se v současné době používá.'
+            },
+            vehicles: {
+                label: 'Vozidla',
+                description: 'Zobrazí požadovaná vozidla.'
+            },
+            patients: {
+                label: 'informace o pacientovi',
+                description: 'Zobrazuje informace o (potenciálních) pacientech.'
+            },
+            prisoners: {
+                label: 'informace vězně',
+                description: 'Zobrazuje informace o (potenciálních) vězňech.'
+            },
+            special: {
+                label: 'Jiná informace',
+                description: 'Zobrazuje speciální informace, například průměrný minimální požadovaný počet zaměstnanců.'
+            },
+            expansions: {
+                label: 'distribuce',
+                description: 'Ukazuje, na co se může sázka rozšířit. (Zobrazuje pouze jednoduché šíření)'
+            },
+            show_100: {
+                label: 'Zobrazit 100% pravděpodobnost',
+                description: 'Zobrazuje pravděpodobnost pro vozidlo, i když je to 100%.'
+            },
+            credits: {
+                label: 'Průměrné příjmy',
+                description: 'Zobrazuje průměrné příjmy, které získáte za tuto úlohu.'
+            },
+            show_siwa: {
+                label: 'Požadavky na bezpečnostní strážce',
+                description: 'Ukazuje také požadavky na bezpečnostní strážce v pomocníkovi.'
+            },
+            mission_time: {
+                label: 'Čas vytvoření',
+                description: 'Zobrazuje datum a čas, kdy byla mise vytvořena.'
+            }
+        },
+        vehicles: {
+            truck: "hasičské vozy",
+            platform: "vozy s plošinou",
+            heavyRescue: "těžká technická vozidla",
+            air: "Mobile Air",
+            bchief: "vozidla velitele jednotky",
+            tanker: "cisterny s vodou",
+            hazmat: "nebezpečnými látkami",
+            mcv: "velitelská vozidla",
+            police: "policejní vozidla",
+            hems: "HEMS",
+            rtw: "Sanitkat",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Jezero",
+            "Nemocnice",
+            "Les",
+            "Zastávka autobusu",
+            "Zastávka tramvaje",
+            "Železniční stanice \\(regionální doprava\\)",
+            "Železniční stanice \\(regionální a dálková doprava\\)",
+            "Nákladové nádraží",
+            "Supermarket \\(malý\\)",
+            "Supermarket \\(velký\\)",
+            "Čerpací stanice",
+            "Škola",
+            "Muzeum",
+            "Nákupní centrum",
+            "Autoservis",
+            "Dálniční sjezd",
+            "Vánoční trh",
+            "Skladiště",
+            "Diskotéka",
+            "Stadion",
+            "Farma",
+            "Kancelářská budova",
+            "Plovárna",
+            "Järnvägsövergång",
+            "Divadlo",
+            "Zábavní park",
+            "Řeka",
+            "Malé letiště \\(ranvej\\)",
+            "Velké letiště \\(ranvej\\)",
+            "Letištní terminál",
+            "Banka",
+            "Velkosklad",
+            "Most",
+            "Rychlé občerstvení",
+            "Nákladní přístav",
+            "Sběrný dvůr",
+            "Výšková budova",
+            "Přístaviště výletních lodí",
+            "Malý přístav",
+            "Železniční přejezd",
+            "Tunel",
+            "Chladírenský sklad",
+            "Elektrárna",
+            "Továrna",
+            "Šrotiště",
+            "Stanice metra",
+            "Malá chemická skladovací nádrž",
+            "Velká chemická skladovací nádrž",
+            "Hotel",
+            "Bar",
+            "Skládka",
+            "Kryté parkoviště"
         ]
     };
 

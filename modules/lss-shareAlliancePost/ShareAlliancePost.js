@@ -56,7 +56,25 @@
         }
     };
 
-    I18n.translations.es.lssm.sharealliancepost = {
+    I18n.translations.cs_CZ.lssm.sharealliancepost = {
+        share: 'Podíl...',
+        chat: 'Povídat si...',
+        alert: 'Upozornění ...',
+        chatm: 'Na týmový chat',
+        reqVehIdent: 'Potřebná vozidla:',
+        reqVeh: 'Nevyžadují se žádná další vozidla.',
+        settings: {
+            title: 'Výstraha, sdílet & post',
+            jumpNext: 'Po upozornění přejděte na další misi',
+            enableKeyboard: 'Povolit klávesové zkratky',
+            defaultPostToChat: 'Výchozí je příspěvek do chatu',
+            shortcutKeys: 'Seznam kláves oddělených čárkami pro upozornění. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Šablony zpráv. Zástupné symboly: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Ofset pro %TIME_OFFSET%-formátovat v hodinách'
+        }
+    };
+
+    I18n.translations.es_ES.lssm.sharealliancepost = {
         share: 'Compartir...',
         chat: 'Chat...',
         alert: 'Alerta...',
@@ -114,7 +132,7 @@
         chat: 'Snak...',
         alert: 'Alert...',
         chatm: 'Til teamchat',
-        reqVehIdent: 'Needed vehicles:',
+        reqVehIdent: 'Påkrævede køretøjer:',
         reqVeh: 'Ingen andre køretøjer kræves.',
         settings: {
             title: 'Alert, del & indlæg',
@@ -132,7 +150,7 @@
         chat: 'Chat...',
         alert: 'Varsling...',
         chatm: 'Å Team Chat',
-        reqVehIdent: 'Needed vehicles:',
+        reqVehIdent: 'Nødvendige fremkomstmidler:',
         reqVeh: 'Ingen andre kjøretøy kreves.',
         settings: {
             title: 'Varsel, del og post',
