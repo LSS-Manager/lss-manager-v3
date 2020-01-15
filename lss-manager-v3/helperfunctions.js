@@ -85,7 +85,7 @@ else if (I18n.locale == "en_GB")
         "16": ["Rescue Pump", 0],
     };
 }
-else if (I18n.locale == "eu")
+else if (I18n.locale == "en_AU")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -168,6 +168,31 @@ else if (I18n.locale == "sv_SE")
         "10": ["Luftfordon", 0],
         "11": ["Mobilt ledningsfordon", 0],
         "12": ["Räddningsfordon", 0]
+    };
+}
+else if (I18n.locale == "cs_CZ") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Rozšíření záchranky": 0,
+        "Rozšíření letiště": 1,
+        "Rozšíření vodní záchranky": 2,
+        // Pol-Erweiterungen (10-19)
+        "Vězeňská cela": 10,
+        "Více cel": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["CAS 20", 0],
+        "1": ["CAS 30", 0],
+        "2": ["AZ", 0],
+        "3": ["VEA", 0],
+        "4": ["TA", 0],
+        "5": ["Sanitka", 2],
+        "6": ["KHA", 0],
+        "7": ["TACH", 0],
+        "8": ["Policejní automobil", 6],
+        "9": ["Vrtulník LZS", 2]
     };
 }
 else if (I18n.locale == "da_DK") {

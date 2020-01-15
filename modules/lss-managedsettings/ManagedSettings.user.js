@@ -43,7 +43,26 @@
         import_fail: "Error: An error occurred while importing the file: <strong> {0} </strong>. Please inform a developer."
     };
 
-    I18n.translations.es.lssm.managedsettings = {
+    I18n.translations.cs_CZ.lssm.managedsettings = {
+        title: "Nastavení LSSM",
+        text1: "Zde můžete změnit nastavení aktivovaných pluginů.",
+        text2: "",
+        save: "Uložit a zavřít",
+        settings_tab: "Nastavení",
+        addField_btn: "Přidat",
+        export_btn: "Export nastavení",
+        import_btn: "Import nastavení",
+        reset_btn: "Resetovat nastavení",
+        reset_hint: "Opravdu chcete obnovit nastavení tohoto modulu na výchozí hodnoty?",
+        reset_success: "Nastavení úspěšně obnovte. Chcete-li, aby fungovaly, je třeba stránku znovu načíst.",
+        export_success: "Nastavení bylo úspěšně exportováno",
+        export_hint: "Upozorňujeme, že lze exportovat pouze dříve uložená nastavení aktuálně aktivovaných modulů.",
+        import_success: "Nastavení byla úspěšně importována. Chcete-li, aby fungovaly, je třeba stránku znovu načíst.",
+        import_missmatch: "Soubor pro čtení již bohužel již není kompatibilní s aktuální verzí LSSM.",
+        import_fail: "Chyba: Při importu souboru došlo k chybě: <strong> {0} </strong>. Prosím informujte vývojáře."
+    };
+
+    I18n.translations.es_ES.lssm.managedsettings = {
         title: "Ajustes de LSSM",
         text1: "Aquí puede cambiar la configuración de los plugins activados.",
         text2: "",

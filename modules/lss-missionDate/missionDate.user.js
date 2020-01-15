@@ -11,7 +11,13 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
-  I18n.translations.es.lssm.missionDate = {
+  I18n.translations.cs_CZ.lssm.missionDate = {
+    ago: 'před',
+    months: ['led', 'úno', 'bře', 'dub', 'kvě', 'červen', 'červenec', 'srp', 'září', 'říj', 'list', 'pro'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
+  I18n.translations.es_ES.lssm.missionDate = {
     ago: 'hace',
     months: ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
@@ -128,7 +134,7 @@
       let newOffset = 3 - offset;
       newHour -= newOffset;
     }
-    if (I18n.locale === 'eu') {
+    if (I18n.locale === 'en_AU') {
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 1, weil EST UTC+1 ist
         let newOffset = 11 - offset;

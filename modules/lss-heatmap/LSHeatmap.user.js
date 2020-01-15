@@ -332,7 +332,7 @@
             }
         ]
     };
-    I18n.translations.eu.lssm.heatmap = {
+    I18n.translations.en_AU.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',
@@ -345,7 +345,20 @@
             }
         ]
     };
-    I18n.translations.es.lssm.heatmap = {
+    I18n.translations.cs_CZ.lssm.heatmap = {
+        active: 'Aktivní',
+        vehicleType: 'Skupiny',
+        radius: 'Poloměr',
+        intensity: 'Intenzita',
+        close: 'Zavřít',
+        vehicleGroups: [
+            {
+                name: 'Vlastní kombinace',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.es_ES.lssm.heatmap = {
         active: 'Activo',
         vehicleType: 'Grupos',
         radius: 'Radio',

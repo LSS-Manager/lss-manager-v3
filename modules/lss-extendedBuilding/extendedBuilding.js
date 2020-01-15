@@ -111,6 +111,62 @@
             }
         }
     };
+    I18n.translations.cs_CZ.lssm.extendedBuilding = {
+        title: 'Rozšířené zobrazení budovy',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Požadovaný personál',
+                description: 'Ukazuje požadovaný personál, pokud mají být všechna vozidla plně obsazena',
+            },
+            switchStatus: {
+                label: 'Rychlá změna stavu',
+                description: 'Stav vozidla může být změněn přímo mezi S2 a S6 prostřednictvím zobrazení stavu',
+            },
+            assignmentBtn: {
+                label: 'Rychlé přiřazení',
+                description: 'Přidá tlačítko pro rychlý přechod do okna „Přiřadit personál“',
+            },
+            assignedWorkers: {
+                label: 'Přidělený personál',
+                description: 'U každého vozidla zobrazuje, kolik personálu je přiděleno',
+            },
+            currentCrew: {
+                label: 'Aktuální posádka',
+                description: 'U každého vozidla udává, kolik osob v současné době sedí na vozidle',
+            },
+            expansions: {
+                label: 'Zobrazit rozšíření',
+                description: 'Zobrazit aktuální stav rozšíření',
+            },
+            personnelOverview: {
+                label: 'Rozšířený přehled personálu',
+                description: 'V přehledu personálu ukazuje, kolik personálu má který výcvik',
+            },
+            vehicleType: {
+                label: 'Zobrazit typ vozidla',
+                description: 'Zobrazuje typ vozidla v seznamu vozidel.',
+            },
+            expansionDate: {
+                label: 'Datum dokončení rozšíření',
+                description: 'Zobrazí se v seznamu rozšíření také po dokončení stavby (funguje pouze ve spojení s nastavením „Zobrazit rozšíření“)',
+            }
+        }
+    };
     I18n.translations.pl_PL.lssm.extendedBuilding = {
         title: 'Rozszerzony widok budynku',
         crew: 'Załoga (Max)',
@@ -335,7 +391,7 @@
             }
         }
     };
-    I18n.translations.es.lssm.extendedBuilding = {
+    I18n.translations.es_ES.lssm.extendedBuilding = {
         title: 'Vista ampliada del edificio',
         crew: 'Tripulación (máx.)',
         fms: 'Estado',

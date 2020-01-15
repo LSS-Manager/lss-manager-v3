@@ -30,6 +30,8 @@
 // @include      *://www.alarmcentral-spil.dk/*
 // @include      *://nodsentralspillet.com/*
 // @include      *://www.nodsentralspillet.com/*
+// @include      *://operacni-stredisko.cz/*
+// @include      *://www.operacni-stredisko.cz/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start

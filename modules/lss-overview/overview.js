@@ -38,7 +38,7 @@
         extensions: 'extensions',
         maxBuildins: 'building boundary'
     };
-    I18n.translations.eu.lssm.overview = {};
+    I18n.translations.en_AU.lssm.overview = {};
     I18n.translations.en_GB.lssm.overview = {};
 
     I18n.translations.sv_SE.lssm.overview = {
@@ -60,7 +60,7 @@
         maxBuildins: 'bygggräns'
     };
 
-    I18n.translations.es.lssm.overview = {
+    I18n.translations.es_ES.lssm.overview = {
         vehicleType: 'Tipo de vehículo',
         min: 'mínimo personal',
         max: 'máximo personal',
@@ -1839,14 +1839,14 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.hiorgs = {
+    I18n.translations.en_AU.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter'
     };
 
-    I18n.translations.eu.lssm.overview.buildings = {
+    I18n.translations.en_AU.lssm.overview.buildings = {
         lst: {
             name: 'Dispatch Center',
             credits: 0,
@@ -1953,7 +1953,7 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.vehicles = {
+    I18n.translations.en_AU.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Class 2 Pumper',
@@ -2241,14 +2241,14 @@
         }
     };
 
-    I18n.translations.es.lssm.overview.hiorgs = {
+    I18n.translations.es_ES.lssm.overview.hiorgs = {
         fd: 'Parques de bomberos',
         rd: 'Estaciones de rescate',
         pol: 'comisarías de policía',
         heli: 'Helicopter'
     };
 
-    I18n.translations.es.lssm.overview.buildings = {
+    I18n.translations.es_ES.lssm.overview.buildings = {
         lst: {
             name: 'Centralita',
             credits: 0,
@@ -2353,7 +2353,7 @@
         }
     };
 
-    I18n.translations.es.lssm.overview.vehicles = {
+    I18n.translations.es_ES.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Camión BUP',
