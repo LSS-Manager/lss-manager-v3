@@ -238,7 +238,7 @@
                 building_marker_image = "/images/building_bereitschaftspolizei.png";
                 break;
             case BUILDING_TYPE_POLIZEISONDEREINHEITEN:
-                building_marker_image = "building_polizeisondereinheiten.png"
+                building_marker_image = "/images/building_polizeisondereinheiten.png"
 
             case BUILDING_TYPE_SEG:
                 building_marker_image = "/images/building_seg.png";

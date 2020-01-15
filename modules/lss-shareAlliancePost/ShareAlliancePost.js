@@ -61,7 +61,7 @@
         chat: 'Povídat si...',
         alert: 'Upozornění ...',
         chatm: 'Na týmový chat',
-        reqVehIdent: 'Needed vehicles:',
+        reqVehIdent: 'Potřebná vozidla:',
         reqVeh: 'Nevyžadují se žádná další vozidla.',
         settings: {
             title: 'Výstraha, sdílet & post',
