@@ -1686,7 +1686,7 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 2500,
+        "credits": 1400,
         "percentages": {
             "tanker": 10
         }
@@ -1703,7 +1703,7 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 5000
+        "credits": 2000
     },
     "128": {
         "name": "RTC Entrapment",
@@ -1804,5 +1804,65 @@
             "police": 2
         },
         "credits": 3500
+    },
+    "134": {
+        "name": "Goods Train Fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 40
+    },
+    "135": {
+        "name": "Goods Train Fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 24
+    },
+    "136": {
+        "name": "Goods Train Fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 6
+    },
+    "137": {
+        "name": "Goods Train Fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 8
     }
 }

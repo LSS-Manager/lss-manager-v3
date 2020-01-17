@@ -523,7 +523,8 @@
         498: 'Personensuche nahe Gewässer',
         499: 'Massenkarambolage auf Autobahn',
         500: 'Herzkreislaufprobleme',
-        501: 'Schwimmbaddach eingestürzt'
+        501: 'Schwimmbaddach eingestürzt',
+        502: 'Brand in Betreuungseinrichtung'
       }
     };
     I18n.translations.en.lssm.missionKeywordDefaults = {
@@ -884,7 +885,8 @@
         339: 'Hand injury caused by fireworks',
         340: 'Restraining Order Violation',
         341: 'Vehicle Crash - Property Damage',
-        342: 'Child Locked in Vehicle'
+        342: 'Child Locked in Vehicle',
+        343: 'Residential burglar alarm triggered'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1036,7 +1038,11 @@
         130: 'Multi vehicle RTC entrapment',
         131: 'HGV Lost its load',
         132: 'HGV Lost its load (Livestock)',
-        133: 'HGV Lost its load (milk)'
+        133: 'HGV Lost its load (milk)',
+        134: 'Goods Train Fire',
+        135: 'Goods Train Fire',
+        136: 'Goods Train Fire',
+        137: 'Goods Train Fire'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1169,7 +1175,8 @@
         111: 'Hand injury caused by fireworks',
         112: 'HGV Fire',
         113: 'Garbage truck fire',
-        114: 'Motorbike accident'
+        114: 'Motorbike accident',
+        115: 'Monoxide poisoning'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1302,7 +1309,8 @@
         111: 'Lesión en la mano a causa de los fuegos artificiales',
         112: 'Vehículo de mercancía pesada en llamas',
         113: 'Camión de la basura en llamas',
-        114: 'Accidente de motocicleta'
+        114: 'Accidente de motocicleta',
+        115: 'Intoxicación por monóxido de carbono'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1424,7 +1432,8 @@
         100: 'Handskada orsakad av fyrverkerier',
         101: 'Brinnande tungt lastfordon',
         102: 'Brinnande sopbil',
-        103: 'Motorcykelolycka'
+        103: 'Motorcykelolycka',
+        104: 'Monoxidförgiftning'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1522,7 +1531,8 @@
         76: 'Industribrand',
         77: 'Patientoverførsel',
         78: 'Hjertestop',
-        79: 'Respirationsstop'
+        79: 'Respirationsstop',
+        80: 'Motorcykel Uheld'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -1713,7 +1723,8 @@
         76: 'Industribrann',
         77: 'Pasienttransport',
         78: 'Hjertestans',
-        79: 'Pustestopp'
+        79: 'Pustestopp',
+        80: 'Motorsykkelulykke'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -1835,7 +1846,19 @@
         100: 'Uraz ręki w wyniku użycia fajerwerków',
         101: 'Płonący pojazd ciężarowy',
         102: 'Płonąca śmieciarka',
-        103: 'Wypadek motocyklowy'
+        103: 'Wypadek motocyklowy',
+        104: 'Wypadek dwóch samochodów - Zderzenie boczne',
+        105: 'Najechanie na tył samochodu',
+        106: 'Wypadek dwóch samochodów - Zderzenie czołowe',
+        107: 'Wypadek na przejeździe kolejowym',
+        108: 'Nagłe zatrzymanie krążenia',
+        109: 'Udar mózgu',
+        110: 'Ciężki uraz miednicy',
+        111: 'Amputacja urazowa kończyny,',
+        112: 'Uraz głowy wymagający pilnej interwencji neurochirurgicznej',
+        113: 'Oparzenie IIº i IIIº przekraczające 20% powierzchni ciała',
+        114: 'Uraz kręgosłupa',
+        115: 'Pomoc Policji w otwarciu mieszkania'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -1958,7 +1981,16 @@
         101: 'Incidente con trattore',
         102: 'Esplosione in box auto',
         103: 'Cisterna treno danneggiata',
-        104: 'Soccorso a persona'
+        104: 'Soccorso a persona',
+        105: 'Intossicazione da monossido',
+        106: 'Maxi tamponamento',
+        107: 'Auto ribaltata',
+        108: 'Tir in bilico sul cavalcavia',
+        109: 'Incidente con veicoli particolari',
+        110: 'Crollo palazzina',
+        111: 'Crollo parziale palazzina',
+        112: 'Trauma spinale',
+        113: 'Caduta da parete rocciosa'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2077,7 +2109,8 @@
         97: 'Blessure à la main causée par des feux d\'artifice',
         98: 'Toit endommagé',
         99: 'Poids lourd en feu',
-        100: 'Camion poubelle en feu'
+        100: 'Camion poubelle en feu',
+        101: 'Feu de pavillon'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2196,7 +2229,8 @@
         97: 'Травма руки, вызванная фейерверком',
         98: 'Текущая крыша',
         99: 'Возгорание большегрузного автомобиля',
-        100: 'Возгорание мусоровоза'
+        100: 'Возгорание мусоровоза',
+        101: 'Авария на мотоцикле'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -2767,7 +2801,8 @@
         549: 'Steekincident (groot)',
         550: 'Brand in theater',
         551: 'Brand in theater',
-        552: 'Brand in theater'
+        552: 'Brand in theater',
+        553: 'Hennepkwekerij aangetroffen'
       }
     };
 
@@ -3292,9 +3327,10 @@
       498: 'POL 3',
       499: 'THL 4',
       500: 'RD 1',
-      501: 'THW 3'
+      501: 'THW 3',
+      502: 'B 7'
     };
-    let DEFAULT_AAO_EN = {
+    let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
       1: 'FIRE 1',
       2: 'FIRE 1',
@@ -3637,7 +3673,8 @@
       339: 'MED 1',
       340: 'POL 2',
       341: 'POL 1',
-      342: 'TECH 1'
+      342: 'TECH 1',
+      343: 'POL 2'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -3774,7 +3811,11 @@
       130: 'TECH 3',
       131: 'TECH 2',
       132: 'POL 3',
-      133: 'TECH 3'
+      133: 'TECH 3',
+      134: 'FIRE 4',
+      135: 'FIRE 4',
+      136: 'FIRE 4',
+      137: 'FIRE 4',
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -3891,7 +3932,8 @@
       111: 'MED 1',
       112: 'FIRE 2',
       113: 'FIRE 2',
-      114: 'TECH 2'
+      114: 'TECH 2',
+      115: 'CBRN 1'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -4008,7 +4050,8 @@
       111: 'MED 1',
       112: 'FIRE 2',
       113: 'FIRE 2',
-      114: 'TECH 2'
+      114: 'TECH 2',
+      115: 'CBRN 1'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -4114,7 +4157,8 @@
       100: 'MED 1',
       101: 'FIRE 2',
       102: 'FIRE 2',
-      103: 'TECH 2'
+      103: 'TECH 2',
+      104: 'CBRN 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -4196,7 +4240,8 @@
       76: 'FIRE 5',
       77: 'MEDT',
       78: 'MED 1',
-      79: 'MED 1'
+      79: 'MED 1',
+      80: 'TECH 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -4355,7 +4400,8 @@
       76: 'FIRE 5',
       77: 'MEDT',
       78: 'MED 1',
-      79: 'MED 1'
+      79: 'MED 1',
+      80: 'TECH 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -4461,7 +4507,19 @@
       100: 'MED 1',
       101: 'FIRE 2',
       102: 'FIRE 2',
-      103: 'TECH 2'
+      103: 'TECH 2',
+      104: 'TECH 1',
+      105: 'TECH 1',
+      106: 'TECH 1',
+      107: 'TECH 1',
+      108: 'MED 1',
+      109: 'MED 1',
+      110: 'MED 1',
+      111: 'MED 1',
+      112: 'MED 1',
+      113: 'MED 1',
+      114: 'MED 1',
+      115: 'FIRE 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -4568,7 +4626,16 @@
       101: 'TECH 1',
       102: 'FIRE 2',
       103: 'TECH 2',
-      104: 'TECH 1'
+      104: 'TECH 1',
+      105: 'FIRE 2',
+      106: 'TECH 2',
+      107: 'TECH 1',
+      108: 'TECH 2',
+      109: 'TECH 2',
+      110: 'TECH 2',
+      111: 'TECH 2',
+      112: 'MED 2',
+      113: 'TECH 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -4671,7 +4738,8 @@
       97: 'MED 1',
       98: 'TECH 1',
       99: 'FIRE 2',
-      100: 'FIRE 3'
+      100: 'FIRE 3',
+      101: 'FIRE 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -4774,7 +4842,8 @@
       97: 'MED 1',
       98: 'TECH 1',
       99: 'FIRE 2',
-      100: 'FIRE 2'
+      100: 'FIRE 2',
+      101: 'TECH 1'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -5329,12 +5398,13 @@
       549: 'P 6',
       550: 'KLEINE BRAND',
       551: 'MIDDEL BRAND',
-      552: 'MIDDEL BRAND'
+      552: 'MIDDEL BRAND',
+      553: 'P 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
-    I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_EN;
+    I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_ENUS;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
     I18n.translations.es_ES.lssm.missionKeyword = DEFAULT_AAO_ESES;
@@ -5352,7 +5422,7 @@
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
     else if (I18n.locale === 'en')
-      defaultAao = DEFAULT_AAO_EN;
+      defaultAao = DEFAULT_AAO_ENUS;
     else if (I18n.locale === 'en_GB')
       defaultAao = DEFAULT_AAO_ENGB
     else if (I18n.locale === 'en_AU')

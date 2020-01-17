@@ -9051,5 +9051,29 @@
         "percentages": {
             "fwk": 80
         }
+    },
+    "502": {
+        "name": "Brand in Betreuungseinrichtung",
+        "stations": {
+            "0": 13,
+            "2": 11,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 10,
+            "atem": 1,
+            "gwl2": 1,
+            "elw2": 1,
+            "elw1": 2,
+            "dlk": 4,
+            "fustw": 4
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 30,
+            "transport": 90,
+            "nef": 10,
+            "specialisation": "Allgemeine Innere"
+        }
     }
 }

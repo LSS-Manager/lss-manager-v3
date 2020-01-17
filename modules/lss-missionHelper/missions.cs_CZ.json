@@ -219,6 +219,16 @@
         },
         "credits": 340
     },
+    "18": {
+        "name": "Ho\u0159\u00edc\u00ed hromada v\u011btv\u00ed",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
     "19": {
         "name": "Ho\u0159\u00edc\u00ed p\u0159\u00edv\u011bs",
         "stations": {

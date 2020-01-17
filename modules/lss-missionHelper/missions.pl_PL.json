@@ -1410,5 +1410,241 @@
             "transport": 50,
             "specialisation": "Interna"
         }
+    },
+    "104": {
+        "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie boczne",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 3200,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 50,
+            "nef": 30,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "105": {
+        "name": "Najechanie na ty\u0142 samochodu",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "nef": 10,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "106": {
+        "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie czo\u0142owe",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 3200,
+        "patients": {
+            "max": 5,
+            "min": 1,
+            "transport": 50,
+            "nef": 70,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "107": {
+        "name": "Wypadek na przeje\u017adzie kolejowym",
+        "stations": {
+            "0": 7,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 3700,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 50,
+            "nef": 50,
+            "specialisation": "Chirurg og\u00f3lny"
+        },
+        "poi": 24
+    },
+    "108": {
+        "name": "Nag\u0142e zatrzymanie kr\u0105\u017cenia",
+        "stations": {
+            "0": 7,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "rtw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 30,
+            "specialisation": "Interna"
+        }
+    },
+    "109": {
+        "name": "Udar m\u00f3zgu",
+        "stations": {
+            "0": 3,
+            "2": 2
+        },
+        "vehicles": {
+            "rtw": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 30,
+            "specialisation": "Interna"
+        }
+    },
+    "110": {
+        "name": "Ci\u0119\u017cki uraz miednicy",
+        "stations": {
+            "0": 5,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "rtw": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 30,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "111": {
+        "name": "Amputacja urazowa ko\u0144czyny,",
+        "stations": {
+            "0": 6,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "rtw": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 30,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "112": {
+        "name": "Uraz g\u0142owy wymagaj\u0105cy pilnej interwencji neurochirurgicznej",
+        "stations": {
+            "0": 7,
+            "2": 3
+        },
+        "vehicles": {
+            "rtw": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 90,
+            "specialisation": "Neurochirurgia"
+        }
+    },
+    "113": {
+        "name": "Oparzenie II\u00ba i III\u00ba przekraczaj\u0105ce 20% powierzchni cia\u0142a",
+        "stations": {
+            "0": 3,
+            "2": 3
+        },
+        "vehicles": {
+            "rtw": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 80,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "114": {
+        "name": "Uraz kr\u0119gos\u0142upa",
+        "stations": {
+            "0": 7,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "rtw": 1
+        },
+        "credits": 1800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "nef": 50,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "115": {
+        "name": "Pomoc Policji w otwarciu mieszkania",
+        "stations": {
+            "0": 2,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "police": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Interna"
+        }
     }
 }

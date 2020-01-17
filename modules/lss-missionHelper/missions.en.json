@@ -5678,5 +5678,18 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "343": {
+        "name": "Residential burglar alarm triggered",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 600,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

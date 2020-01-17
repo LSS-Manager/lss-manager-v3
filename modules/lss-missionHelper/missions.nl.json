@@ -9613,5 +9613,18 @@
             "adembescherming": 10,
             "slangenwagen": 80
         }
+    },
+    "553": {
+        "name": "Hennepkwekerij aangetroffen",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 3
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

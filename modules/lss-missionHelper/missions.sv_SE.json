@@ -1410,5 +1410,29 @@
             "transport": 50,
             "specialisation": "Inv\u00e4rtesmedicinare"
         }
+    },
+    "104": {
+        "name": "Monoxidf\u00f6rgiftning",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "air": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 80,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "air": 30
+        }
     }
 }
