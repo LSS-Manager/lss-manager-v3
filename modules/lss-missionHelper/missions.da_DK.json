@@ -1068,5 +1068,24 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "Kirurg"
+    },
+    "80": {
+        "name": "Motorcykel Uheld",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Specialister i intern medicin"
+        }
     }
 }

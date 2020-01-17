@@ -1539,5 +1539,29 @@
             "transport": 50,
             "specialisation": "Medicina interna general"
         }
+    },
+    "115": {
+        "name": "Intoxicaci\u00f3n por mon\u00f3xido de carbono",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "air": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 80,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "air": 30
+        }
     }
 }

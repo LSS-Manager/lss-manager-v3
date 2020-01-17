@@ -9,18 +9,18 @@ $.get(missionlink)
             truck: "APS/ABP",
             platform: "(a|A)utoscal",
             heavyRescue: "polisoccorso",
-            air: "Carro aria|Carro Aria",
+            air: "Carro",
             bchief: "Funzionar",
+            fwk: "Autogrù",
             tanker: "Kilolitric",
             hazmat: "NBCR|N.B.C.R",
             mcv: "UCL",
             police: "Pattuglie",
-            hems: "HEMS",
+            hems: "elisoccorso",
             rtw: "Ambulanze",
             arff: "Flotta aerea antincendio AIB",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "SAR Helicopter",
             policeHeli: "Police Helicopter"
         };
 
@@ -57,9 +57,9 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/richieste|richiesti|richiesto|necessaria/)) {
+            if (content.match(/richieste|richiesti|richiesta|richiesto|necessaria/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Possibilità che venga richiesta|Possibilità che venga richiesto il|richiesta/)) {
+            } else if (content.match(/Possibilità/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
@@ -72,7 +72,7 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/trasportato/)) {
                 transport = number;
-            } else if (content.match(/NEF/)) {
+            } else if (content.match(/elisoccorso/)) {
                 nef = number;
             } else if (content.match(/Specializzazioni pazienti/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();

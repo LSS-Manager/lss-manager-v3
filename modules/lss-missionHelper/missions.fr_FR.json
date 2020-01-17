@@ -1348,5 +1348,24 @@
             "police": 1
         },
         "credits": 5000
+    },
+    "101": {
+        "name": "Feu de pavillon",
+        "stations": {
+            "0": 5,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "bchief": 1
+        },
+        "credits": 800,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
     }
 }
