@@ -19,7 +19,7 @@
             num_team: 'Anzahl Verbandseinlieferungen'
         };
 
-        I18n.translations.en['lssm']['sumDailyMissions'] = {
+        I18n.translations.en_US['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',

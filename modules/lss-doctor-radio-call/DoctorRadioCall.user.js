@@ -4,7 +4,7 @@
   I18n.translations.de.lssm.doctorradiocall = {
     nef: "NEF"
   };
-  I18n.translations.en.lssm.doctorradiocall = {
+  I18n.translations.en_US.lssm.doctorradiocall = {
     nef: "HEMS"
   };
   I18n.translations.nl.lssm.doctorradiocall = {

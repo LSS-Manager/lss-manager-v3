@@ -24,7 +24,7 @@
         import_fail: "Fehler: Beim Import der Datei ist ein Fehler aufgetreten: <strong>{0}</strong>. Bitte informiere einen Entwickler."
     };
 
-    I18n.translations.en.lssm.managedsettings = {
+    I18n.translations.en_US.lssm.managedsettings = {
         title: "LSSM Settings",
         text1: "Here you can change the settings of your activated plugins.",
         text2: "",

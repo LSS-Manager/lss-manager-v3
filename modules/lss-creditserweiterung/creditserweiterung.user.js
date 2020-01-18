@@ -31,7 +31,7 @@
             noFurtherRank: 'Keine Höheren Ränge'
         }
     };
-    I18n.translations.en.lssm.creditserweiterung = {
+    I18n.translations.en_US.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
         ranks: {
             0: 'Probie',

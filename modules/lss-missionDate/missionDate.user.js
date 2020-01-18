@@ -5,7 +5,7 @@
     dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
   };
 
-  I18n.translations.en.lssm.missionDate = {
+  I18n.translations.en_US.lssm.missionDate = {
     ago: 'ago',
     months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
@@ -116,7 +116,7 @@
     if (newDay > 0)
       timeGone += String.format(' {0} d', newDay);
 
-    if (I18n.locale === 'en') {
+    if (I18n.locale === 'en_US') {
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 5, weil EST UTC+5 ist
         let newOffset = 5 - offset;

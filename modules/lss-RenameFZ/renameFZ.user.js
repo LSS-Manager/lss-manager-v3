@@ -153,7 +153,7 @@
         }
     };
 
-    I18n.translations.en.lssm.renameFz = {
+    I18n.translations.en_US.lssm.renameFz = {
         name: 'Rename vehicles',
         rename: "rename",
         id: "{id} Id of Vehicle",
@@ -430,6 +430,7 @@
             validStationTypes: {
                 0: "Jednostka Ratowniczo-Gaśnicza",
                 2: "Stacja Pogotowia Ratunkowego",
+                5: "Stacja helikopterów",
                 6: "Komenda Policji",
                 7: "Centrum Powiadamiania Ratunkowego",
                 18: "Remiza",
@@ -449,7 +450,8 @@
                 9: 'Śmigłowiec LPR',
                 10: 'SPGaz',
                 11: 'Samochód Dowodzenia i Łączności',
-                12: 'GBARt'
+                12: 'GBARt',
+                13: 'Podnośnik hydrauliczny'
             }
         }
     };
@@ -688,6 +690,7 @@
             validStationTypes: {
                 0: "Caserma dei vigili del fuoco",
                 2: "Stazione ambulanze",
+                5: "Base elisoccorso",
                 6: "Stazione di polizia",
                 7: "Centrale operativa",
                 18: "Caserma dei vigili del fuoco (piccola)",
@@ -699,14 +702,15 @@
                 1: 'AS',
                 2: 'AV/FNZ',
                 3: 'CA/POLI',
-                4: 'Ambulanza Medicalizzata',
+                4: 'Ambulanza BLSA',
                 5: 'KILO',
                 6: 'AF/NBCR',
                 7: 'Volante',
                 8: 'Elisoccorso',
                 9: 'APS',
                 10: 'AF/ARIA',
-                11: 'UCL'
+                11: 'UCL',
+                12: 'Autogrù'
             }
         }
     };

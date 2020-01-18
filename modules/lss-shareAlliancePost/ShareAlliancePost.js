@@ -20,7 +20,7 @@
         }
     };
 
-    I18n.translations.en.lssm.sharealliancepost = {
+    I18n.translations.en_US.lssm.sharealliancepost = {
         share: 'Share...',
         chat: 'Chat...',
         alert: 'Alert...',

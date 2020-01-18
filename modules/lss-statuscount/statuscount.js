@@ -27,7 +27,7 @@
             }
         }
     };
-    I18n.translations.en.lssm.statuscount = {
+    I18n.translations.en_US.lssm.statuscount = {
         name: "Status-Count",
         settings: {
             show: "Show/Hide",

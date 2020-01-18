@@ -5,7 +5,7 @@
         reset: "Zurücksetzen",
         select: "Bitte wählen..."
     };
-    I18n.translations.en['lssm']['aaosearch'] = {
+    I18n.translations.en_US['lssm']['aaosearch'] = {
         search_aao: "Search AAO",
         use_dd: "Use dropdown: ",
         reset: "Reset",

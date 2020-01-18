@@ -6,7 +6,7 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if(I18n.locale == "en")
+if (I18n.locale == "en_US")
 {
 	lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -114,7 +114,7 @@ else if (I18n.locale == "en_AU")
         "12": ["Rescue Engine", 0]
     };
 }
-else if (I18n.locale == "es")
+else if (I18n.locale == "es_ES")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -272,6 +272,7 @@ else if (I18n.locale == "pl_PL")
         "10": ["SPGaz", 0],
         "11": ["Samochód Dowodzenia i Łączności", 0],
         "12": ["GBARt", 0],
+        "13": ["Podnośnik hydrauliczny", 0]
     };
 }
 else if (I18n.locale == "it_IT") {
@@ -291,14 +292,15 @@ else if (I18n.locale == "it_IT") {
         "1": ["AS", 0],
         "2": ["AV/FNZ", 0],
         "3": ["CA/POLI", 0],
-        "4": ["Ambulanza Medicalizzata", 2],
+        "4": ["Ambulanza BLSD", 2],
         "5": ["KILO", 0],
         "6": ["AF/NBCR", 0],
         "7": ["Volante", 6],
         "8": ["Elisoccorso", 2],
         "9": ["APS", 0],
         "10": ["AF/ARIA", 0],
-        "11": ["UCL", 0]
+        "11": ["UCL", 0],
+        "12": ["Autogrù", 0]
     };
 }
 else if (I18n.locale == "fr_FR") {

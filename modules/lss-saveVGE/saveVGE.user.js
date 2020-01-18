@@ -5,7 +5,7 @@
         noVGE:"Keine gespeicherten VGE!",
         VGEs:"VGEs"
     };
-	I18n.translations.en['lssm']['saveVGE'] = {
+    I18n.translations.en_US['lssm']['saveVGE'] = {
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",

@@ -55,7 +55,7 @@
             }
         }
     };
-    I18n.translations.en.lssm.extendedBuilding = {
+    I18n.translations.en_US.lssm.extendedBuilding = {
         title: 'Extended Building View',
         crew: 'Crew (Max)',
         fms: 'Status',

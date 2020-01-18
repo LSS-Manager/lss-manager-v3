@@ -14,7 +14,7 @@
             cells: 'Volle Polizeistationen/Zellen ausblenden'
         }
     };
-    I18n.translations.en.lssm.destfilter = {
+    I18n.translations.en_US.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',
         tax: 'TAX',

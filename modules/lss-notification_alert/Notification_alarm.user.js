@@ -22,7 +22,7 @@
     }
   }
 
-  I18n.translations.en.lssm['n-alarm'] = {
+  I18n.translations.en_US.lssm['n-alarm'] = {
     not_support: "This browser doesn't support HTML5-Notifications",
     inithead: "Initalization",
     chat_message: "Chat message from ",

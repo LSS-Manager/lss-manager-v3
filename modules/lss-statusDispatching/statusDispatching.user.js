@@ -15,7 +15,7 @@
         fms5H1 : 'transportiert'
     };
 
-    I18n.translations.en.lssm.statusDispatching = {
+    I18n.translations.en_US.lssm.statusDispatching = {
         name : 'Enhanced transport requests',
         fms : 'Transport Requested',
         nextVehicle : 'Go to the next vehicle with a transport request',

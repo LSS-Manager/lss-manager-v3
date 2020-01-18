@@ -183,7 +183,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.en.lssm.missionhelper = {
+    I18n.translations.en_US.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         siwa: 'Planned mission',
         vge: 'Large scale alliance mission',
@@ -2174,7 +2174,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 }
             };
             break;
-        case 'en':
+        case 'en_US':
             break;
     }
 
@@ -2282,7 +2282,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
               I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
               I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
-              I18n.locale === 'en' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
+              I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
               I18n.locale === 'nl' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
               content.innerHTML += '<br>';
           }

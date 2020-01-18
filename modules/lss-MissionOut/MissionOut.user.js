@@ -4,7 +4,7 @@
     I18n.translations.de.lssm.missionOut = {
         title: 'Einsatz aus/ein-blenden'
     };
-    I18n.translations.en.lssm.missionOut = {
+    I18n.translations.en_US.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
     I18n.translations.cs_CZ.lssm.missionOut = {

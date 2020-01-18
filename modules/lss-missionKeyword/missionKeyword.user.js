@@ -527,7 +527,7 @@
         502: 'Brand in Betreuungseinrichtung'
       }
     };
-    I18n.translations.en.lssm.missionKeywordDefaults = {
+    I18n.translations.en_US.lssm.missionKeywordDefaults = {
       name: 'Mission Keywords',
       settingsName: 'Mission Keywords - Settings',
       domain: 'missionchief.com',
@@ -5404,7 +5404,7 @@
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
-    I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_ENUS;
+    I18n.translations.en_US.lssm.missionKeyword = DEFAULT_AAO_ENUS;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
     I18n.translations.es_ES.lssm.missionKeyword = DEFAULT_AAO_ESES;
@@ -5421,7 +5421,7 @@
     let defaultAao;
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
-    else if (I18n.locale === 'en')
+    else if (I18n.locale === 'en_US')
       defaultAao = DEFAULT_AAO_ENUS;
     else if (I18n.locale === 'en_GB')
       defaultAao = DEFAULT_AAO_ENGB

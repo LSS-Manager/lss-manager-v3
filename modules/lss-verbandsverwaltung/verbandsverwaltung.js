@@ -16,7 +16,7 @@
         chartErr: 'Konnte Grafik "{{chart}}" nicht laden!<br>Wir wissen bereits, dass dies bei manchen Browsern vorkommt, allerdings noch nicht warum. Bitte mache diesbezüglich <b>keine</b> Fehlermeldung, wir sind bereits an diesem Problem dran!',
         hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
-    I18n.translations.en.lssm.verbandsverwaltung = {
+    I18n.translations.en_US.lssm.verbandsverwaltung = {
         name: 'Administration',
         allianceFunds: 'Alliance Funds',
         allianceCredits: 'Earned Credits',

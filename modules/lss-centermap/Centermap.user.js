@@ -18,7 +18,7 @@
         }
     };
 
-    I18n.translations.en.lssm.centermap = {
+    I18n.translations.en_US.lssm.centermap = {
         center: "Center",
         settings: {
             title: "Center-Map",
