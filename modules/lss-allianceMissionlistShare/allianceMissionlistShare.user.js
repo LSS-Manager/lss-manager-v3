@@ -26,6 +26,9 @@
     I18n.translations.it_IT['lssm']['allianceMissionlistShare'] = {
         title: "Rilascio in alleanza"
     };
+    I18n.translations.tr_TR['lssm']['allianceMissionlistShare'] = {
+        title: "İttifakta salıverme"
+    };
     I18n.translations.fr_FR['lssm']['allianceMissionlistShare'] = {
         title: "Libération en alliance"
     };

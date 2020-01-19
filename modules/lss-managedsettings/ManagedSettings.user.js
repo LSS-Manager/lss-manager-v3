@@ -176,6 +176,25 @@
         import_fail: "Errore: Si è verificato un errore durante l'importazione del file: <strong> {0} </strong>. Si prega di informare uno sviluppatore."
     };
 
+    I18n.translations.tr_TR.lssm.managedsettings = {
+        title: "LSSM Ayarları",
+        text1: "Burada etkinleştirilen eklentilerinizin ayarlarını değiştirebilirsiniz.",
+        text2: "",
+        save: "Kaydet kapat",
+        settings_tab: "Ayarlar",
+        addField_btn: "Ekle",
+        export_btn: "Dışa Aktarma Ayarları",
+        import_btn: "Ayarları içe aktar",
+        reset_btn: "Ayarları Sıfırla",
+        reset_hint: "Bu modülün ayarlarını varsayılan değerlere sıfırlamak istediğinizden emin misiniz?",
+        reset_success: "Ayarları başarıyla sıfırlayın. Çalışmaları için sayfayı yeniden yüklemeniz gerekir.",
+        export_success: "Ayarlar başarıyla dışa aktarıldı",
+        export_hint: "Geçerli olarak etkinleştirilmiş modüllerin yalnızca önceden kaydedilmiş ayarlarının dışa aktarılabileceğini lütfen unutmayın.",
+        import_success: "Ayarlar başarıyla içe aktarıldı. Çalışmaları için sayfayı yeniden yüklemeniz gerekir.",
+        import_missmatch: "Okuma dosyası maalesef artık LSSM'nin mevcut sürümüyle uyumlu değil.",
+        import_fail: "Hata: Dosya içe aktarılırken bir hata oluştu: <strong> {0} </strong>. Lütfen bir geliştiriciyi bilgilendirin."
+    };
+
     I18n.translations.fr_FR.lssm.managedsettings = {
         title: "Paramètres LSSM",
         text1: "Ici, vous pouvez modifier les paramètres de vos plugins activés.",

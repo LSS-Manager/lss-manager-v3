@@ -44,6 +44,11 @@
             "Questi dati includono: il tuo ID, il tuo nome utente, il numero di guardie, il browser utilizzato e i moduli abilitati.\r\n\r\n" +
             "Sei d'accordo con questo?"
     };
+    I18n.translations.tr_TR.lssm.telemetry = {
+        question: "LSS Yöneticisi, komut dosyasını geliştirmek ve hataları bulmak için geliştiricilere kişisel olmayan veriler gönderir.\r\n" +
+            "Bu veriler şunları içerir: kimliğiniz, kullanıcı adınız, korumaların sayısı, kullanılan tarayıcı ve etkin modüller.\r\n\r\n" +
+            "Buna katılıyor musun?"
+    };
     I18n.translations.fr_FR.lssm.telemetry = {
         question: "Le gestionnaire LSS envoie des données non personnelles aux développeurs pour améliorer le script et trouver des erreurs.\r\n" +
             "Ces données comprennent : votre identifiant, votre nom d'utilisateur, le nombre de gardes, le navigateur utilisé et les modules activés.\r\n\r\n" +

@@ -118,6 +118,19 @@
             cells: 'Hide full cells'
         }
     };
+    I18n.translations.tr_TR.lssm.destfilter = {
+        title: 'Hedef Filtresi',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
     I18n.translations.fr_FR.lssm.destfilter = {
         title: 'Filtre de destination',
         freeBeds: 'Free beds',

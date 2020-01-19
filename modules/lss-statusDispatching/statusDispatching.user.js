@@ -119,6 +119,19 @@
         fms5H1: 'trasportista'
     };
 
+    I18n.translations.tr_TR.lssm.statusDispatching = {
+        name: 'Geliştirilmiş taşıma talepleri',
+        fms: 'Taşıma İstendi',
+        nextVehicle: 'Taşıma talebiyle bir sonraki araca git',
+        backToAlarm: 'Göreve geri dön',
+        settingsTitle: 'Geliştirilmiş taşıma istekleri - Ayarlar',
+        settingsAttr: 'Görev maskesinde "Taşıma İstendi" butonuna otomatik olarak tıklayın',
+        settingsAttrDesc: 'Bu seçeneğin etkinleştirilmesi, görev maskesindeki "taşıma talep edildi" düğmesine otomatik olarak tıklanmasını sağlar. Bu şekilde, görevin ayrıntılarını görüntüleyebilmeniz için önce tüm taşıma isteklerini gözden geçirmeniz gerekir. Bu seçeneğin etkinleştirilmesi, taşıma isteklerinin daha hızlı işlenmesine olanak tanır.<br>'
+            + 'Bu seçeneği devre dışı bırakmak, taşıma isteklerini işlemeden önce görev ayrıntılarını görmenizi sağlar. "Taşıma talebiyle bir sonraki araca git" ve "Göreve geri dön" düğmeleri bu ayardan etkilenmez ve her zaman otomatik olarak tıklanır.',
+        close: 'Kapat',
+        fms5H1: 'transportiert'
+    };
+
     I18n.translations.fr_FR.lssm.statusDispatching = {
         name: 'Demandes de transport améliorées',
         fms: 'Transport demandé',

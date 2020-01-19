@@ -219,6 +219,30 @@
             }
         }
     };
+    I18n.translations.tr_TR.lssm.statuscount = {
+        name: "Durum-Sayım",
+        settings: {
+            show: "Göster / Gizle",
+            status: {
+                show: {
+                    label: "Göstermek",
+                    description: "Durum hiç görüntülenmeli mi? Önemli: Bu ayar diğer ayarlardan daha yüksek önceliğe sahiptir, yani bu ayar kapatılırsa durum hiçbir zaman gösterilmez."
+                },
+                hide: {
+                    label: "Yalnızca istek üzerine göster",
+                    description: "Sayaç sadece bu durumda en az bir araç varsa görüntülenir. (Dikkat: Sayaç tamamen gizlenmişse, bu ayar etkinleştirilmiş olsa bile asla gösterilmez!)"
+                },
+                percent: {
+                    label: "Yüzdeleri göster",
+                    description: "Bu durumun yüzdesi gösterilmeli mi?"
+                }
+            },
+            round: {
+                label: "Yuvarlak yüzdeler",
+                description: "Yüzdeler (görüntüleniyorsa) kaç ondalık basamağa yuvarlanmalıdır?"
+            }
+        }
+    };
     I18n.translations.fr_FR.lssm.statuscount = {
         name: "Nombre de statuts",
         settings: {

@@ -1168,6 +1168,149 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.tr_TR.lssm.missionhelper = {
+        diy_mission: 'Bu misyon büyük ölçekli bir ittifak görevi gibi görünüyor.',
+        siwa: 'Planlanan görev',
+        vge: 'Büyük ölçekli ittifak misyonu',
+        patients: 'hastalar',
+        prisoners: 'Mahkumlar',
+        to: 'kadar',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Bu görev sadece ambulanstır!',
+        title: 'Misyonhelper',
+        transport: 'Taşıma',
+        settings: {
+            name: {
+                label: 'isim',
+                description: 'Yardımcıdaki görevin adını gösterir.'
+            },
+            id: {
+                label: 'İD',
+                description: 'Yardımcıdaki görevin kimliğini görüntüler.'
+            },
+            type: {
+                label: 'TYP kimliği',
+                description: 'Yardımcıdaki görev türünün kimliğini görüntüler.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Yardımcıda işlemin hangi İÇN olduğunu gösterir.'
+            },
+            live_patients: {
+                label: 'Hasta sayısı',
+                description: 'Şu anda kaç hastanın kullanımda olduğunu canlı gösterir.'
+            },
+            vehicles: {
+                label: 'Araçlar',
+                description: 'Gerekli araçları görüntüler.'
+            },
+            patients: {
+                label: 'hasta bilgisi',
+                description: '(Potansiyel) hastalar hakkında bilgi gösterir.'
+            },
+            prisoners: {
+                label: 'mahkum bilgisi',
+                description: '(Potansiyel) mahkumlar hakkında bilgi gösterir.'
+            },
+            special: {
+                label: 'Diğer bilgiler',
+                description: 'Gerekli ortalama asgari personel sayısı gibi özel bilgileri görüntüler.'
+            },
+            expansions: {
+                label: 'dağılımları',
+                description: 'Bahsin neye yayılabileceğini gösterir. (Yalnızca basit yayılımı gösterir)'
+            },
+            show_100: {
+                label: '% 100 olasılığı göster',
+                description: 'Bir aracın% 100 olsa bile olasılığını gösterir.'
+            },
+            credits: {
+                label: 'Ortalama kazanç',
+                description: 'Bu ödev için aldığınız ortalama kazançları gösterir.'
+            },
+            show_siwa: {
+                label: 'Güvenlik görevlilerinin gereksinimleri',
+                description: 'Yardımcıdaki güvenlik görevlilerinin gereksinimlerini de gösterir.'
+            },
+            mission_time: {
+                label: 'Yaratılış Zamanı',
+                description: 'Görevin oluşturulduğu tarih ve saati gösterir.'
+            }
+        },
+        vehicles: {
+            truck: "hasičské vozy",
+            platform: "vozy s plošinou",
+            heavyRescue: "těžká technická vozidla",
+            air: "Mobile Air",
+            bchief: "vozidla velitele jednotky",
+            tanker: "cisterny s vodou",
+            hazmat: "nebezpečnými látkami",
+            mcv: "velitelská vozidla",
+            police: "policejní vozidla",
+            hems: "HEMS",
+            rtw: "Sanitkat",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Jezero",
+            "Nemocnice",
+            "Les",
+            "Zastávka autobusu",
+            "Zastávka tramvaje",
+            "Železniční stanice \\(regionální doprava\\)",
+            "Železniční stanice \\(regionální a dálková doprava\\)",
+            "Nákladové nádraží",
+            "Supermarket \\(malý\\)",
+            "Supermarket \\(velký\\)",
+            "Čerpací stanice",
+            "Škola",
+            "Muzeum",
+            "Nákupní centrum",
+            "Autoservis",
+            "Dálniční sjezd",
+            "Vánoční trh",
+            "Skladiště",
+            "Diskotéka",
+            "Stadion",
+            "Farma",
+            "Kancelářská budova",
+            "Plovárna",
+            "Järnvägsövergång",
+            "Divadlo",
+            "Zábavní park",
+            "Řeka",
+            "Malé letiště \\(ranvej\\)",
+            "Velké letiště \\(ranvej\\)",
+            "Letištní terminál",
+            "Banka",
+            "Velkosklad",
+            "Most",
+            "Rychlé občerstvení",
+            "Nákladní přístav",
+            "Sběrný dvůr",
+            "Výšková budova",
+            "Přístaviště výletních lodí",
+            "Malý přístav",
+            "Železniční přejezd",
+            "Tunel",
+            "Chladírenský sklad",
+            "Elektrárna",
+            "Továrna",
+            "Šrotiště",
+            "Stanice metra",
+            "Malá chemická skladovací nádrž",
+            "Velká chemická skladovací nádrž",
+            "Hotel",
+            "Bar",
+            "Skládka",
+            "Kryté parkoviště"
+        ]
+    };
+
     I18n.translations.nb_NO.lssm.missionhelper = {
         diy_mission: 'Dette oppdraget ser ut til å være et allianseoppdrag i stor skala.',
         siwa: 'Planlagt oppdrag',

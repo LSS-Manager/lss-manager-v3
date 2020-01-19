@@ -170,7 +170,7 @@
         statusWaiting: 'Wait for input',
         statusError: '<b>Error during generation!</b> If this error occurs again, please report it. Please provide the following information:',
         statusWorking: 'Generate names and forms. This can take a certain amount of time, depending on the system and number of vehicles.',
-        statusSuccess: 'Names and Forumlare successfully generated!',
+        statusSuccess: 'Names and Forms successfully generated!',
         nameAlreadyCorrect: 'Name already corresponds to the template!',
         nameToLong: 'The name is too long for the following vehicles:',
         nameToLongOriginalName: 'Original Name',
@@ -363,6 +363,69 @@
             descriptions: {
                 vehicleTypes: 'Zde můžete nastavit alternativní názvy pro každý typ vozidla. Můžete je použít při přejmenování vozidel přes dispečink.',
                 stations: 'Zde můžete nastavit alternativní názvy pro každou budovu. Můžete je použít při přejmenování vozidel přes dispečink.'
+            },
+            validStationTypes: {
+                0: "Hasičská stanice",
+                2: "Stanoviště záchranné služby",
+                6: "Policejní stanice",
+                7: "Dispečink",
+                18: "Hasičská stanice (malá)",
+                19: "Policejní stanice (malá)",
+                20: "Stanoviště záchranné služby (malé)"
+            },
+            vehicleTypes: {
+                0: 'CAS 20',
+                1: 'CAS 30',
+                2: 'AZ',
+                3: 'VEA',
+                4: 'TA',
+                5: 'Sanitka',
+                6: 'KHA',
+                7: 'TACH',
+                8: 'Policejní automobil',
+                9: 'Vrtulník LZS'
+            }
+        }
+    };
+
+    I18n.translations.tr_TR.lssm.renameFz = {
+        name: 'Araçları yeniden adlandırma',
+        rename: "Adını değiştirmek",
+        id: "{id} Araç Kimliği",
+        old: "{old} Şu anki ismi",
+        vehicleType: "{vehicleType} Araç cinsi",
+        stationName: "{stationName} Binanın adı",
+        tagging: '{tagging} Araç tipinin işaretlenmesi',
+        number: '{number} Tip-sayaç',
+        numberRoman: '{numberRoman} Tip sayacı (Romen rakamları)',
+        dispatch: '{dispatch} Dispatchcenter\'ın Adı',
+        dispatchAlias: '{dispatchAlias} Dispatchcenter Takma Adı',
+        stationAlias: '{stationAlias} Yapı-Alias',
+        saveAll: 'hepsini kaydet',
+        statusWaiting: 'Girişi bekleyin',
+        statusError: '<b>Üretim sırasında hata!</b> Bu hata tekrarlanırsa, lütfen bildirin. lütfen aşağıdaki bilgileri girin:',
+        statusWorking: 'İsimler ve formlar oluşturun. Bu, sisteme ve araç sayısına bağlı olarak belirli bir süre alabilir.',
+        statusSuccess: 'İsimler ve Formlar başarıyla oluşturuldu!',
+        nameAlreadyCorrect: 'İsim zaten şablona karşılık geliyor!',
+        nameToLong: 'Aşağıdaki araçlar için ad çok uzun:',
+        nameToLongOriginalName: 'Orjinal isim',
+        nameToLongGeneratedName: 'Oluşturulan Ad',
+        nameToLongShortenedName: 'Yeni / kısaltılmış ad',
+        helpTitle: 'Bu bağlantı altında küçük bir talimat bulabilirsiniz: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Sayaç başlangıcı',
+        counterOverride: 'Aynı türden birkaç araç varsa, yine de 1 ile başlayın.',
+        startNumHelp: 'Burada tür sayacı için bir başlangıç değeri girebilirsiniz. Başlangıç değeri olarak 0\'ı ayarlarsanız, bir türdeki ilk araç numaralandırmayı almayacaktır, bir koruma üzerinde yalnızca bir tip araç varsa ve numaralandırmak istemiyorsanız bu çok pratiktir.Ama aynı zamanda sayacı 5\'te başlatabilirsiniz (ne nedenle olursa olsun, ama mümkündür;))',
+        toggleNameCorrect: 'Doğru isimdeki Araçları Göster / Gizle',
+        settings: {
+            show: 'Göster / Gizle',
+            names: {
+                vehicleTypes: 'araç türleri',
+                stations: 'Diğer ad oluşturma'
+            },
+            descriptions: {
+                vehicleTypes: 'Burada her araç türü için alternatif isimler ayarlayabilirsiniz. Bunları, sevkıyat merkezi aracılığıyla araçlarınızı yeniden adlandırırken kullanabilirsiniz.',
+                stations: 'Burada her bina için alternatif isimler ayarlayabilirsiniz. Bunları, sevkıyat merkezi aracılığıyla araçlarınızı yeniden adlandırırken kullanabilirsiniz.'
             },
             validStationTypes: {
                 0: "Hasičská stanice",

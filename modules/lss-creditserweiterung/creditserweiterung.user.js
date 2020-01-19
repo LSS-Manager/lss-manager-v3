@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|kontrol-merkezi-112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -299,6 +299,33 @@
             updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
             allianceFunds: 'Fondi dell\'Alleanza',
             noFurtherRank: 'Non ci sono altre classifiche'
+        }
+    };
+    I18n.translations.tr_TR.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
+        ranks: {
+            0: 'Probie',
+            200: 'Firefighter',
+            10000: 'Senior Firefighter',
+            100000: 'Fire Apparatus Operator',
+            1000000: 'Lieutenant',
+            5000000: 'Captain',
+            20000000: 'Staff Captain',
+            50000000: 'Battalion Chief',
+            1000000000: 'Division Chief',
+            2000000000: 'Deputy Chief',
+            5000000000: 'Fire Chief'
+        },
+        texts: {
+            reloadMessage: 'Lütfen profilinizi açın <br> ve web sitesini yeniden yükleyin!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'genel bakış',
+            coinsProtokoll: 'Sikke Listesi',
+            earnedCredits: 'Toplam Kazanılan Krediler',
+            creditsToNextRank: 'Sonraki rütbe krediler',
+            updateMessage: 'Değerler otomatik olarak güncellenir<br>her 5 dakikada bir.<br>Krediler ve Madeni <br>Paralar sürekli güncellenmektedir.',
+            allianceFunds: 'İttifak Fonları',
+            noFurtherRank: 'Başka rütbe yok'
         }
     };
     I18n.translations.fr_FR.lssm.creditserweiterung = {

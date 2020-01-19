@@ -47,6 +47,12 @@
         reset: "Reset",
         select: "Please select..."
     };
+    I18n.translations.tr_TR['lssm']['aaosearch'] = {
+        search_aao: "AAO'da Ara",
+        use_dd: "Açılır listeyi kullan: ",
+        reset: "Sıfırla",
+        select: "Lütfen seçin..."
+    };
     I18n.translations.fr_FR['lssm']['aaosearch'] = {
         search_aao: "Recherche AAO",
         use_dd: "Utiliser le menu déroulant: ",

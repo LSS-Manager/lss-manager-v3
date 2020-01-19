@@ -436,6 +436,19 @@
             }
         ]
     };
+    I18n.translations.tr_TR.lssm.heatmap = {
+        active: 'Aktif',
+        vehicleType: 'Gruplar',
+        radius: 'yarıçap',
+        intensity: 'yoğunluk',
+        close: 'Kapat',
+        vehicleGroups: [
+            {
+                name: 'Kendi Kombinasyonu',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.fr_FR.lssm.heatmap = {
         active: 'Actif',
         vehicleType: 'Groupes',

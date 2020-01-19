@@ -190,6 +190,27 @@
     }
   }
 
+  I18n.translations.tr_TR.lssm['n-alarm'] = {
+    not_support: "Bu tarayıcı HTML5-Bildirimlerini desteklemiyor",
+    inithead: "Başlatma",
+    chat_message: "Adlı kişiden gelen sohbet mesajı ",
+    blend: "Sonra gizle:",
+    seconds: "saniye",
+    settings: {
+      title: "Bildirim-Uyarısı",
+      chat_title: "Sohbet mesajları",
+      chat_text: "Sohbet mesajlarını bildirim olarak alın.",
+      s5_title: "Taşıma Talebi",
+      save: "Kaydetmek",
+      close: "Yakın",
+      s5_text: "Aktarım Isteklerini bildirim olarak alma",
+      status_title: "Durum",
+      status_text: "Tüm durum iletilerini bildirim olarak alın.",
+      chatp_title: "Bilgi açılır pencere olarak sohbet mesajları alma",
+      chatp_text: "Tüm sohbet mesajlarını sağ tarafta açılır ileti olarak alın"
+    }
+  }
+
   I18n.translations.fr_FR.lssm['n-alarm'] = {
     not_support: "Ce navigateur ne supporte pas les notifications HTML5.",
     inithead: "Initalisation",

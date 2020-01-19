@@ -181,6 +181,24 @@
         }
     };
 
+    I18n.translations.tr_TR.lssm.sharealliancepost = {
+        share: 'Paylaş...',
+        chat: 'Sohbet...',
+        alert: 'Uyarmak...',
+        chatm: 'Takım Sohbetine',
+        reqVehIdent: 'Needed vehicles:',
+        reqVeh: 'Başka araca gerek yok.',
+        settings: {
+            title: 'Uyarı, Paylaş ve Gönder',
+            jumpNext: 'Uyarı verdikten sonra bir sonraki göreve atla',
+            enableKeyboard: 'Klavye kısayollarını etkinleştir',
+            defaultPostToChat: 'Sohbete gönder varsayılan',
+            shortcutKeys: 'Uyarı için virgülle ayrılmış anahtar listesi. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Mesaj şablonları. Yer tutucular: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'İçin ofset %TIME_OFFSET%-saat olarak saat'
+        }
+    };
+
     I18n.translations.fr_FR.lssm.sharealliancepost = {
         share: 'Partager....',
         chat: 'Chat...',
