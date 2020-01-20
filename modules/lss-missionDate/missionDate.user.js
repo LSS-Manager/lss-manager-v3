@@ -5,7 +5,7 @@
     dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
   };
 
-  I18n.translations.en.lssm.missionDate = {
+  I18n.translations.en_US.lssm.missionDate = {
     ago: 'ago',
     months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
@@ -50,6 +50,12 @@
   I18n.translations.it_IT.lssm.missionDate = {
     ago: 'fa',
     months: ['Gen', 'Feb', 'Mar', 'Apr', 'Mag', 'Giu', 'Lug', 'Ago', 'Sett', 'Ott', 'Nov', 'Dic'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
+  I18n.translations.tr_TR.lssm.missionDate = {
+    ago: 'Önce',
+    months: ['oca', 'şub', 'mar', 'nis', 'may', 'hazi', 'temm', 'ağu', 'Sep', 'Oct', 'Nov', 'Dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
@@ -116,7 +122,7 @@
     if (newDay > 0)
       timeGone += String.format(' {0} d', newDay);
 
-    if (I18n.locale === 'en') {
+    if (I18n.locale === 'en_US') {
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 5, weil EST UTC+5 ist
         let newOffset = 5 - offset;
@@ -129,6 +135,12 @@
       newHour -= newOffset;
     }
     if (I18n.locale === 'ru_RU') {
+      let offset = today.getTimezoneOffset() / 60;
+      // Zahl 1, weil EST UTC+1 ist
+      let newOffset = 3 - offset;
+      newHour -= newOffset;
+    }
+    if(I18n.locale === 'tr_TR') {
       let offset = today.getTimezoneOffset() / 60;
       // Zahl 1, weil EST UTC+1 ist
       let newOffset = 3 - offset;

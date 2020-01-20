@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -31,7 +31,7 @@
             noFurtherRank: 'Keine Höheren Ränge'
         }
     };
-    I18n.translations.en.lssm.creditserweiterung = {
+    I18n.translations.en_US.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? earned Credits.*/i,
         ranks: {
             0: 'Probie',
@@ -299,6 +299,33 @@
             updateMessage: 'Aggiornamento automatico dei valori<br>ogni 5 minuti.<br>Crediti e Monete sono costantemente aggiornati.',
             allianceFunds: 'Fondi dell\'Alleanza',
             noFurtherRank: 'Non ci sono altre classifiche'
+        }
+    };
+    I18n.translations.tr_TR.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? Kredi kazanıldı.*/i,
+        ranks: {
+            0: 'Acemi',
+            200: 'İtfaiyeci',
+            10000: 'Kıdemli İtfaiyeci',
+            100000: 'İtfaiye Aracı Operatörü',
+            1000000: 'Teğmen',
+            5000000: 'Yüzbaşı',
+            20000000: 'Kurmay Yüzbaşı',
+            50000000: 'Tabur Amiri',
+            1000000000: 'Birim Amiri',
+            2000000000: 'Yardımcı Amir',
+            5000000000: 'İtfaiye Amiri'
+        },
+        texts: {
+            reloadMessage: 'Lütfen profilinizi açın <br> ve web sitesini yeniden yükleyin!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'genel bakış',
+            coinsProtokoll: 'Sikke Listesi',
+            earnedCredits: 'Toplam Kazanılan Krediler',
+            creditsToNextRank: 'Sonraki rütbe krediler',
+            updateMessage: 'Değerler otomatik olarak güncellenir<br>her 5 dakikada bir.<br>Krediler ve Madeni <br>Paralar sürekli güncellenmektedir.',
+            allianceFunds: 'İttifak Fonları',
+            noFurtherRank: 'Başka rütbe yok'
         }
     };
     I18n.translations.fr_FR.lssm.creditserweiterung = {

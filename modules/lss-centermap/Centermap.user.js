@@ -18,7 +18,7 @@
         }
     };
 
-    I18n.translations.en.lssm.centermap = {
+    I18n.translations.en_US.lssm.centermap = {
         center: "Center",
         settings: {
             title: "Center-Map",
@@ -143,6 +143,22 @@
             option3: "Personalizzato",
             option3desc: "Impostare la posizione personalizzata e il livello di zoom.",
             set: "Salva posizione corrente"
+        }
+    };
+
+    I18n.translations.tr_TR.lssm.centermap = {
+        center: "merkez",
+        settings: {
+            title: "Merkezi-Harita",
+            choose: "Lütfen seçin",
+            option1: "Varsayılan",
+            option1desc: "Varsayılan zoom seviyesi ve kontrol merkezinde merkezleme ",
+            option2: "Dinamik",
+            alliance: "İttifakı dikkate alın",
+            option2desc: "Tüm görevlerin ve istasyonların görülebileceği orta harita.",
+            option3: "görenek",
+            option3desc: "Özel konum ve yakınlaştırma seviyesi ayarlayın.",
+            set: "Mevcut konumu kaydet"
         }
     };
 

@@ -527,7 +527,7 @@
         502: 'Brand in Betreuungseinrichtung'
       }
     };
-    I18n.translations.en.lssm.missionKeywordDefaults = {
+    I18n.translations.en_US.lssm.missionKeywordDefaults = {
       name: 'Mission Keywords',
       settingsName: 'Mission Keywords - Settings',
       domain: 'missionchief.com',
@@ -1626,6 +1626,99 @@
         72: 'Nehoda lehkého letounu',
         73: 'Vážná nehoda autobusu',
         74: 'Velký oheň'
+      }
+    };
+    I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
+      name: 'Görev Anahtar Kelimeleri',
+      settingsName: 'Görev Anahtar Kelimeleri - Ayarlar',
+      domain: '112-merkez.com',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Göster / Gizle',
+      keywords: {
+        0: 'Çöp kutusu yangını',
+        1: 'Konteyner yangını',
+        2: 'Araba yangını',
+        3: 'Motosiklet yangını',
+        4: 'Çim yangını',
+        5: 'Oda yangınıOda yangını',
+        6: 'Bahçe kulübesi yangını',
+        7: 'Yaprak yangını',
+        8: 'Çöp yığını yangını',
+        9: 'Saman balyası yangını',
+        10: 'Traktör yangını',
+        11: 'Yangın alarm kutusu',
+        12: 'Yola düşmüş ağaç',
+        13: 'Kamyon yangını',
+        14: 'Küçük tarla yangını',
+        15: 'Küçük yaban yangını',
+        16: 'Karavan yangını',
+        17: 'Posta kutusu yangını',
+        18: 'Çalı yığını',
+        19: 'Dorse yangını',
+        20: 'Bodrum katı yangını',
+        21: 'Baca yangını',
+        22: 'Çatı yangını',
+        23: 'Gres yangını',
+        24: 'Otobüs durağı yangını',
+        25: 'Trafik kazası',
+        26: 'Küçük süpermarket yangını',
+        27: 'Garaj yangını',
+        28: 'Makine yangını',
+        29: 'Yabancı tanker sızıntısı',
+        30: 'Gaz kaçağı',
+        31: 'Şömine yangını',
+        32: 'Biçerdöver yangını',
+        33: 'Küçük süpermarket yangını',
+        34: 'Hastane yangını',
+        35: 'Alkol zehirlenmesi',
+        36: 'Göğüs ağrıları',
+        37: 'Akut astım',
+        38: 'Felç',
+        39: 'Yüksek ateş',
+        40: 'Yüksekten düşme',
+        41: 'Oto tamirhanesi yangını',
+        42: 'Yüksekten düşme',
+        43: 'Yüksekten düşme',
+        44: 'Mağaza hırsızlığı',
+        45: 'Mağaza hırsızlığı',
+        46: 'Park halindeki araba kazası',
+        47: 'Park halindeki araba kazası',
+        48: 'Metal hırsızlığı',
+        49: 'Yankesicilik',
+        50: 'Kaçak yolcu',
+        51: 'Kaçak yolcu',
+        52: 'Kaçak yolcu',
+        53: 'Kaçak yolcu',
+        54: 'Park halindeki araba kazası',
+        55: 'Arbede',
+        56: 'Gösterici',
+        57: 'İzinsiz gösteri',
+        58: 'Mutfak yangını',
+        59: 'Hayvan kurtarma',
+        60: 'Spor salonu yangını',
+        61: 'Küçük Uçak Kazası (Hava Meydanı)',
+        62: 'Gürültü şikayeti',
+        63: 'Geçici İskemik Atak',
+        64: 'Otobüs kazası',
+        65: 'Mutfak yangını',
+        66: 'Oda yangını',
+        67: 'Arbede',
+        68: 'Büyük süpermarket yangını',
+        69: 'Yabancı tanker sızıntısı',
+        70: 'Büyük süpermarket yangını',
+        71: 'Burun kanaması',
+        72: 'Küçük Uçak Kazası',
+        73: 'Büyük otobüs kazası',
+        74: 'Büyük yangın'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -4320,6 +4413,83 @@
       73: 'TECH 3',
       74: 'FIRE 7'
     };
+    let DEFAULT_AAO_TRTR = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 3',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7'
+    };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
       1: 'FIRE 1',
@@ -5404,7 +5574,7 @@
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
     I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
-    I18n.translations.en.lssm.missionKeyword = DEFAULT_AAO_ENUS;
+    I18n.translations.en_US.lssm.missionKeyword = DEFAULT_AAO_ENUS;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
     I18n.translations.es_ES.lssm.missionKeyword = DEFAULT_AAO_ESES;
@@ -5416,12 +5586,13 @@
     I18n.translations.fr_FR.lssm.missionKeyword = DEFAULT_AAO_FRFR;
     I18n.translations.ru_RU.lssm.missionKeyword = DEFAULT_AAO_RURU;
     I18n.translations.cs_CZ.lssm.missionKeyword = DEFAULT_AAO_CSCZ;
+    I18n.translations.tr_TR.lssm.missionKeyword = DEFAULT_AAO_TRTR;
     I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
 
     let defaultAao;
     if (I18n.locale === 'de')
       defaultAao = DEFAULT_AAO_DE;
-    else if (I18n.locale === 'en')
+    else if (I18n.locale === 'en_US')
       defaultAao = DEFAULT_AAO_ENUS;
     else if (I18n.locale === 'en_GB')
       defaultAao = DEFAULT_AAO_ENGB
@@ -5441,6 +5612,8 @@
       defaultAao = DEFAULT_AAO_ITIT
     else if (I18n.locale === 'cs_CZ')
       defaultAao = DEFAULT_AAO_CSCZ
+    else if (I18n.locale === 'tr_TR')
+      defaultAao = DEFAULT_AAO_TRTR
     else if (I18n.locale === 'fr_FR')
       defaultAao = DEFAULT_AAO_FRFR
     else if (I18n.locale === 'ru_RU')

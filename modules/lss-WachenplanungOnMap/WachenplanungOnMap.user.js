@@ -11,7 +11,7 @@
         rem: "Entfernen",
         brem: "Geplante Wache entfernen"
     };
-    I18n.translations.en['lssm']['wpom'] = {
+    I18n.translations.en_US['lssm']['wpom'] = {
         setmarker: "Set marker",
         remmarker: "Remove marker",
         plan: "Add planned building",

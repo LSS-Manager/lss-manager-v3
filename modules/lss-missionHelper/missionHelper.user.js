@@ -183,7 +183,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.en.lssm.missionhelper = {
+    I18n.translations.en_US.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         siwa: 'Planned mission',
         vge: 'Large scale alliance mission',
@@ -1165,6 +1165,149 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Skládka",
             "Kryté parkoviště"
+        ]
+    };
+
+    I18n.translations.tr_TR.lssm.missionhelper = {
+        diy_mission: 'Bu misyon büyük ölçekli bir ittifak görevi gibi görünüyor.',
+        siwa: 'Planlanan görev',
+        vge: 'Büyük ölçekli ittifak misyonu',
+        patients: 'hastalar',
+        prisoners: 'Mahkumlar',
+        to: 'kadar',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Bu görev sadece ambulanstır!',
+        title: 'Misyonhelper',
+        transport: 'Taşıma',
+        settings: {
+            name: {
+                label: 'isim',
+                description: 'Yardımcıdaki görevin adını gösterir.'
+            },
+            id: {
+                label: 'İD',
+                description: 'Yardımcıdaki görevin kimliğini görüntüler.'
+            },
+            type: {
+                label: 'TYP kimliği',
+                description: 'Yardımcıdaki görev türünün kimliğini görüntüler.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Yardımcıda işlemin hangi İÇN olduğunu gösterir.'
+            },
+            live_patients: {
+                label: 'Hasta sayısı',
+                description: 'Şu anda kaç hastanın kullanımda olduğunu canlı gösterir.'
+            },
+            vehicles: {
+                label: 'Araçlar',
+                description: 'Gerekli araçları görüntüler.'
+            },
+            patients: {
+                label: 'hasta bilgisi',
+                description: '(Potansiyel) hastalar hakkında bilgi gösterir.'
+            },
+            prisoners: {
+                label: 'mahkum bilgisi',
+                description: '(Potansiyel) mahkumlar hakkında bilgi gösterir.'
+            },
+            special: {
+                label: 'Diğer bilgiler',
+                description: 'Gerekli ortalama asgari personel sayısı gibi özel bilgileri görüntüler.'
+            },
+            expansions: {
+                label: 'dağılımları',
+                description: 'Bahsin neye yayılabileceğini gösterir. (Yalnızca basit yayılımı gösterir)'
+            },
+            show_100: {
+                label: '% 100 olasılığı göster',
+                description: 'Bir aracın% 100 olsa bile olasılığını gösterir.'
+            },
+            credits: {
+                label: 'Ortalama kazanç',
+                description: 'Bu ödev için aldığınız ortalama kazançları gösterir.'
+            },
+            show_siwa: {
+                label: 'Güvenlik görevlilerinin gereksinimleri',
+                description: 'Yardımcıdaki güvenlik görevlilerinin gereksinimlerini de gösterir.'
+            },
+            mission_time: {
+                label: 'Yaratılış Zamanı',
+                description: 'Görevin oluşturulduğu tarih ve saati gösterir.'
+            }
+        },
+        vehicles: {
+            truck: "itfaiye aracı",
+            platform: "Platformlu Kamyon",
+            heavyRescue: "Büyük Kurtarma",
+            air: "Mobile Air",
+            bchief: "Tabur Amiri",
+            tanker: "Su Tankerleri",
+            hazmat: "Tehlikeli Madde",
+            mcv: "Mobil Komuta",
+            police: "Polis Arabaları",
+            hems: "HEMS",
+            rtw: "Sanitkat",
+            arff: "ARFF",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            policeHeli: "Police Helicopter",
+        },
+        pois: [
+            "Park",
+            "Göl",
+            "Hastane",
+            "Orman",
+            "Otobüs durağı",
+            "Tramvay durağı",
+            "Tren istasyonu \\(bölgesel trafik\\)",
+            "Tren istasyonu \\(bölgesel trafik ve uzun mesafeli yolculuk\\)",
+            "Yük istasyonu",
+            "Süpermarket \\(küçük\\)",
+            "Süpermarket \\(büyük\\)",
+            "Akaryakıt istasyonu",
+            "Okul",
+            "Müze",
+            "Alışveriş Merkezi",
+            "Oto tamirhanesi",
+            "Otoyol çıkışı",
+            "Noel pazarı",
+            "Depo",
+            "Diskotek",
+            "Stadyum",
+            "Çiftlik",
+            "Ofis binası",
+            "Yüzme havuzu",
+            "Järnvägsövergång",
+            "Tiyatro",
+            "Lunapark",
+            "Nehir",
+            "Küçük Havalimanı \\(Uçak Pisti\\)",
+            "Büyük Havalimanı \\(Uçak Pisti\\)",
+            "Havalimanı Terminali",
+            "Banka",
+            "Ambar",
+            "Köprü",
+            "Fast Food Restoranı",
+            "Kargo limanı",
+            "Geri Dönüşüm Merkezi",
+            "Gökdelen",
+            "Yolcu gemisi limanı",
+            "Marina",
+            "Demiryolu Geçidi",
+            "Tünel",
+            "Soğuk Hava Ambarı",
+            "Enerji Santrali",
+            "Fabrika",
+            "Hurdalık",
+            "Metro istasyonu",
+            "Küçük kimyasal depo tankı",
+            "Büyük kimyasal depo tankı",
+            "Otel",
+            "Bar",
+            "Çöplük",
+            "Katlı Otopark"
         ]
     };
 
@@ -2174,7 +2317,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 }
             };
             break;
-        case 'en':
+        case 'en_US':
             break;
     }
 
@@ -2282,7 +2425,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
               I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
               I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
-              I18n.locale === 'en' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
+              I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
               I18n.locale === 'nl' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
               content.innerHTML += '<br>';
           }

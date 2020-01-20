@@ -4,7 +4,7 @@
 		"Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
 		"Stimmst zu diesem zu?"
 	};
-	I18n.translations.en.lssm.telemetry = {
+    I18n.translations.en_US.lssm.telemetry = {
 		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
 		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
 		"Do you agree with this?"
@@ -43,6 +43,11 @@
         question: "LSS Manager invia dati non personali agli sviluppatori per migliorare lo script e trovare gli errori.\r\n" +
             "Questi dati includono: il tuo ID, il tuo nome utente, il numero di guardie, il browser utilizzato e i moduli abilitati.\r\n\r\n" +
             "Sei d'accordo con questo?"
+    };
+    I18n.translations.tr_TR.lssm.telemetry = {
+        question: "LSS Yöneticisi, komut dosyasını geliştirmek ve hataları bulmak için geliştiricilere kişisel olmayan veriler gönderir.\r\n" +
+            "Bu veriler şunları içerir: kimliğiniz, kullanıcı adınız, korumaların sayısı, kullanılan tarayıcı ve etkin modüller.\r\n\r\n" +
+            "Buna katılıyor musun?"
     };
     I18n.translations.fr_FR.lssm.telemetry = {
         question: "Le gestionnaire LSS envoie des données non personnelles aux développeurs pour améliorer le script et trouver des erreurs.\r\n" +

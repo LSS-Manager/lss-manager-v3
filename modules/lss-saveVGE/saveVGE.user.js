@@ -5,7 +5,7 @@
         noVGE:"Keine gespeicherten VGE!",
         VGEs:"VGEs"
     };
-	I18n.translations.en['lssm']['saveVGE'] = {
+    I18n.translations.en_US['lssm']['saveVGE'] = {
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",
@@ -34,6 +34,12 @@
         del: "Slet",
         noVGE: "Ingen gemt Alliance Mission!",
         VGEs: "VGEs"
+    };
+    I18n.translations.tr_TR['lssm']['saveVGE'] = {
+        save: "kurtarma",
+        del: "Sil",
+        noVGE: "Kurtarılmış İttifak Görevi yok!",
+        VGEs: "LSAMs"
     };
     I18n.translations.nb_NO['lssm']['saveVGE'] = {
         save: "Lagre",

@@ -20,7 +20,7 @@
         wtank: 'Wassertank'
     };
 
-    I18n.translations.en.lssm.overview = {
+    I18n.translations.en_US.lssm.overview = {
         vehicleType: 'Vehicle Type',
         min: 'minimum staff',
         max: 'maximum staff',
@@ -1131,14 +1131,14 @@
         }
     };
 
-    I18n.translations.en.lssm.overview.hiorgs = {
+    I18n.translations.en_US.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter'
     };
 
-    I18n.translations.en.lssm.overview.buildings = {
+    I18n.translations.en_US.lssm.overview.buildings = {
         lst: {
             name: 'Dispatch Center',
             credits: 0,
@@ -1312,7 +1312,7 @@
         }
     };
 
-    I18n.translations.en.lssm.overview.vehicles = {
+    I18n.translations.en_US.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Type 1 Fire Engine',
@@ -3001,7 +3001,7 @@
 
             if (I18n.locale === "de") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
-            } else if (I18n.locale === "en") {
+            } else if (I18n.locale === "en_US") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
             } else if (I18n.locale === "en_GB") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
@@ -3013,7 +3013,7 @@
                 vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
                 if (I18n.locale === "de") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
-                } else if (I18n.locale === "en") {
+                } else if (I18n.locale === "en_US") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "en_GB") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');

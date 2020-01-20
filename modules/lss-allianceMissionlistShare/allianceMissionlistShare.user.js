@@ -2,7 +2,7 @@
     I18n.translations.de['lssm']['allianceMissionlistShare'] = {
         title: "Im Verband freigeben"
     };
-    I18n.translations.en['lssm']['allianceMissionlistShare'] = {
+    I18n.translations.en_US['lssm']['allianceMissionlistShare'] = {
         title: "Release in alliance"
     };
     I18n.translations.pl_PL['lssm']['allianceMissionlistShare'] = {
@@ -25,6 +25,9 @@
     };
     I18n.translations.it_IT['lssm']['allianceMissionlistShare'] = {
         title: "Rilascio in alleanza"
+    };
+    I18n.translations.tr_TR['lssm']['allianceMissionlistShare'] = {
+        title: "İttifakta salıverme"
     };
     I18n.translations.fr_FR['lssm']['allianceMissionlistShare'] = {
         title: "Libération en alliance"

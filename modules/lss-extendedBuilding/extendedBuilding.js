@@ -55,7 +55,7 @@
             }
         }
     };
-    I18n.translations.en.lssm.extendedBuilding = {
+    I18n.translations.en_US.lssm.extendedBuilding = {
         title: 'Extended Building View',
         crew: 'Crew (Max)',
         fms: 'Status',
@@ -500,6 +500,62 @@
             expansionDate: {
                 label: 'Data di completamento dell\'ampliamento',
                 description: 'Mostra nell\'elenco delle espansioni anche quando la costruzione sarà terminata(funziona solo in connessione con l\'impostazione "Mostra espansioni").',
+            }
+        }
+    };
+    I18n.translations.tr_TR.lssm.extendedBuilding = {
+        title: 'Genişletilmiş Bina Görünümü',
+        crew: 'Crew (Max)',
+        fms: 'Status',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Assigned to',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Gerekli personel',
+                description: 'Tüm araçların tamamen dolu olup olmayacağını gerekli personeli gösterir',
+            },
+            switchStatus: {
+                label: 'Hızlı durum değişikliği',
+                description: 'Durum göstergesi aracılığıyla bir aracın durumu doğrudan S2 ve S6 arasında değiştirilebilir',
+            },
+            assignmentBtn: {
+                label: 'Hızlı atama',
+                description: '"Personel ata" penceresine hızlıca ulaşmak için bir düğme ekler',
+            },
+            assignedWorkers: {
+                label: 'Atanan personel',
+                description: 'Her araç için ne kadar personelin atandığını gösterir',
+            },
+            currentCrew: {
+                label: 'Mevcut Ekip',
+                description: 'Her araç için, şu anda araçta kaç personelin oturduğunu gösterir',
+            },
+            expansions: {
+                label: 'Genişlemeleri göster',
+                description: 'Genişletmelerin mevcut durumunu göster',
+            },
+            personnelOverview: {
+                label: 'Genişletilmiş personele genel bakış',
+                description: 'Personele genel bakışta hangi eğitimin ne kadar eğitime sahip olduğunu gösterir',
+            },
+            vehicleType: {
+                label: 'Araç tipini göster',
+                description: 'Araç listesinde araç tipini gösterir.',
+            },
+            expansionDate: {
+                label: 'Genişlemenin tamamlanma tarihi',
+                description: 'Genişlemeler listesinde inşaatın ne zaman biteceğini gösterir (yalnızca "Genişlemeleri göster" ayarıyla bağlantılı olarak çalışır)',
             }
         }
     };

@@ -20,7 +20,7 @@
         }
     };
 
-    I18n.translations.en.lssm.sharealliancepost = {
+    I18n.translations.en_US.lssm.sharealliancepost = {
         share: 'Share...',
         chat: 'Chat...',
         alert: 'Alert...',
@@ -178,6 +178,24 @@
             shortcutKeys: 'Elenco separato da virgole di chiavi per l\'allerta. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
             messages: 'Modelli di messaggi. Segnaposto: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
             timeOffset: 'Offset per %TIME_OFFSET%-formatter in ore'
+        }
+    };
+
+    I18n.translations.tr_TR.lssm.sharealliancepost = {
+        share: 'Paylaş...',
+        chat: 'Sohbet...',
+        alert: 'Uyarmak...',
+        chatm: 'Takım Sohbetine',
+        reqVehIdent: 'Gerekli araçlar:',
+        reqVeh: 'Başka araca gerek yok.',
+        settings: {
+            title: 'Uyarı, Paylaş ve Gönder',
+            jumpNext: 'Uyarı verdikten sonra bir sonraki göreve atla',
+            enableKeyboard: 'Klavye kısayollarını etkinleştir',
+            defaultPostToChat: 'Sohbete gönder varsayılan',
+            shortcutKeys: 'Uyarı için virgülle ayrılmış anahtar listesi. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Mesaj şablonları. Yer tutucular: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'İçin ofset %TIME_OFFSET%-saat olarak saat'
         }
     };
 

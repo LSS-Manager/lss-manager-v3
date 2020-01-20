@@ -206,7 +206,7 @@
             }
         ]
     };
-    I18n.translations.en.lssm.heatmap = {
+    I18n.translations.en_US.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',
@@ -432,6 +432,19 @@
         vehicleGroups: [
             {
                 name: 'Combinazione propria',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.tr_TR.lssm.heatmap = {
+        active: 'Aktif',
+        vehicleType: 'Gruplar',
+        radius: 'yarıçap',
+        intensity: 'yoğunluk',
+        close: 'Kapat',
+        vehicleGroups: [
+            {
+                name: 'Kendi Kombinasyonu',
                 vehicles: []
             }
         ]
