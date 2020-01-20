@@ -73,7 +73,7 @@ $.get(missionlink)
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Hasta Uzmanlıkları	/)) {
+            } else if (content.match(/Hasta Uzmanlıkları/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maksimum Mahkum Sayısı/)) {
                 prisonersMax = number;

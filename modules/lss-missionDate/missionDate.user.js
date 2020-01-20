@@ -55,7 +55,7 @@
 
   I18n.translations.tr_TR.lssm.missionDate = {
     ago: 'Önce',
-    months: ['oca', 'şub', 'mar', 'nis', 'may', 'hazi', 'temm', 'ağu', 'Sep', 'Oct', 'Nov', 'Dec'],
+    months: ['Oca', 'şub', 'mar', 'nis', 'may', 'hazi', 'temm', 'ağu', 'Sep', 'Oct', 'Nov', 'Dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
