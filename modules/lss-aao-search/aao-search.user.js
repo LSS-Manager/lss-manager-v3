@@ -5,7 +5,7 @@
         reset: "Zurücksetzen",
         select: "Bitte wählen..."
     };
-    I18n.translations.en['lssm']['aaosearch'] = {
+    I18n.translations.en_US['lssm']['aaosearch'] = {
         search_aao: "Search AAO",
         use_dd: "Use dropdown: ",
         reset: "Reset",
@@ -46,6 +46,12 @@
         use_dd: "Utilizzare il menu a tendina: ",
         reset: "Reset",
         select: "Please select..."
+    };
+    I18n.translations.tr_TR['lssm']['aaosearch'] = {
+        search_aao: "AAO'da Ara",
+        use_dd: "Açılır listeyi kullan: ",
+        reset: "Sıfırla",
+        select: "Lütfen seçin..."
     };
     I18n.translations.fr_FR['lssm']['aaosearch'] = {
         search_aao: "Recherche AAO",

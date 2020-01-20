@@ -14,7 +14,7 @@
         timeFormat: '{0} min {1} sek',
         timeFormatWithHours: '{0} h {1} min {2} sek',
     };
-    I18n.translations.en.lssm.aaotime = {
+    I18n.translations.en_US.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
         hourIdentifier: 'hrs',
         timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,

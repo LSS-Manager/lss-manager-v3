@@ -14,7 +14,7 @@
             cells: 'Volle Polizeistationen/Zellen ausblenden'
         }
     };
-    I18n.translations.en.lssm.destfilter = {
+    I18n.translations.en_US.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',
         tax: 'TAX',
@@ -107,6 +107,19 @@
     };
     I18n.translations.it_IT.lssm.destfilter = {
         title: 'Destination Filter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
+    I18n.translations.tr_TR.lssm.destfilter = {
+        title: 'Hedef Filtresi',
         freeBeds: 'Free beds',
         tax: 'TAX',
         cellTax: 'owner\'s tax',

@@ -28,7 +28,7 @@ I18n.translations.de['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
     nofz: "Keine Fahrzeuge vorhanden",
 }
-I18n.translations.en['lssm']['dashboard'] = {
+I18n.translations.en_US['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",

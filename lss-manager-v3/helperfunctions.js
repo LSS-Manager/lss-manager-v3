@@ -6,7 +6,7 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if(I18n.locale == "en")
+if (I18n.locale == "en_US")
 {
 	lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -114,7 +114,7 @@ else if (I18n.locale == "en_AU")
         "12": ["Rescue Engine", 0]
     };
 }
-else if (I18n.locale == "es")
+else if (I18n.locale == "es_ES")
 {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -195,6 +195,31 @@ else if (I18n.locale == "cs_CZ") {
         "9": ["Vrtulník LZS", 2]
     };
 }
+else if (I18n.locale == "tr_TR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Rozšíření záchranky": 0,
+        "Rozšíření letiště": 1,
+        "Rozšíření vodní záchranky": 2,
+        // Pol-Erweiterungen (10-19)
+        "Hapishane hücresi": 10,
+        "Daha fazla hücre": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["YSA", 0],
+        "1": ["IKA", 0],
+        "2": ["MA", 0],
+        "3": ["KA", 0],
+        "4": ["CMA", 0],
+        "5": ["AA", 2],
+        "6": ["SIA", 0],
+        "7": ["TMMA", 0],
+        "8": ["Polis Aracı", 6],
+        "9": ["Ambulans Helikopteri", 2]
+    };
+}
 else if (I18n.locale == "da_DK") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -272,6 +297,7 @@ else if (I18n.locale == "pl_PL")
         "10": ["SPGaz", 0],
         "11": ["Samochód Dowodzenia i Łączności", 0],
         "12": ["GBARt", 0],
+        "13": ["Podnośnik hydrauliczny", 0]
     };
 }
 else if (I18n.locale == "it_IT") {
@@ -291,14 +317,15 @@ else if (I18n.locale == "it_IT") {
         "1": ["AS", 0],
         "2": ["AV/FNZ", 0],
         "3": ["CA/POLI", 0],
-        "4": ["Ambulanza Medicalizzata", 2],
+        "4": ["Ambulanza BLSD", 2],
         "5": ["KILO", 0],
         "6": ["AF/NBCR", 0],
         "7": ["Volante", 6],
         "8": ["Elisoccorso", 2],
         "9": ["APS", 0],
         "10": ["AF/ARIA", 0],
-        "11": ["UCL", 0]
+        "11": ["UCL", 0],
+        "12": ["Autogrù", 0]
     };
 }
 else if (I18n.locale == "fr_FR") {

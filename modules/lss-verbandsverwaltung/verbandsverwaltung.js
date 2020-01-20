@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -16,7 +16,7 @@
         chartErr: 'Konnte Grafik "{{chart}}" nicht laden!<br>Wir wissen bereits, dass dies bei manchen Browsern vorkommt, allerdings noch nicht warum. Bitte mache diesbezüglich <b>keine</b> Fehlermeldung, wir sind bereits an diesem Problem dran!',
         hoverTip: 'Tipp: Fahre mit der Maus über ein Element, um einen Werte-Verlauf angezeigt zu bekommen.'
     };
-    I18n.translations.en.lssm.verbandsverwaltung = {
+    I18n.translations.en_US.lssm.verbandsverwaltung = {
         name: 'Administration',
         allianceFunds: 'Alliance Funds',
         allianceCredits: 'Earned Credits',
@@ -111,6 +111,18 @@
         updateMessage: 'Aggiornamento automatico dei valori<br>ogni volta ' + updateMin + ' minuti.',
         chartErr: 'Impossibile caricare il grafico "{{chart}}"!<br>Sappiamo già che questo accade con alcuni browser, ma non ancora perché. Per favore <b>don\'t</b> segnalateci questo errore perché siamo già su questo problema!',
         hoverTip: 'Suggerimento: passare con il mouse su un elemento per visualizzare la cronologia dei valori.'
+    };
+    I18n.translations.tr_TR.lssm.verbandsverwaltung = {
+        name: 'yönetim',
+        allianceFunds: 'İttifak Fonları',
+        allianceCredits: 'Kazanılan Krediler',
+        users: 'Üyeler',
+        onlineUsers: 'Çevrimiçi üyeler',
+        allianceRank: 'Alliancelist sıralaması',
+        page: 'Sayfa',
+        updateMessage: 'Değerler otomatik olarak güncellenir<br>her ' + updateMin + ' dakika.',
+        chartErr: 'Grafik yüklenemedi "{{chart}}"!<br>Bunun bazı tarayıcılarda olduğunu zaten biliyoruz, ancak nedenini henüz bilmiyoruz. Lütfen zaten bu sorunu yaşadığımız için <b> bize bu hatayı bildirin!',
+        hoverTip: 'İpucu: Bir değer geçmişi görüntülemek için imlecinizi bir öğenin üzerine getirin.'
     };
     I18n.translations.fr_FR.lssm.verbandsverwaltung = {
         name: 'Administration',

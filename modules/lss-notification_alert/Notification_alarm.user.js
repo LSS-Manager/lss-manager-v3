@@ -22,7 +22,7 @@
     }
   }
 
-  I18n.translations.en.lssm['n-alarm'] = {
+  I18n.translations.en_US.lssm['n-alarm'] = {
     not_support: "This browser doesn't support HTML5-Notifications",
     inithead: "Initalization",
     chat_message: "Chat message from ",
@@ -187,6 +187,27 @@
       status_text: "Ricevi tutti i messaggi di stato come notifica.",
       chatp_title: "Ricevi i messaggi di chat come popup informativo",
       chatp_text: "Ricevi tutti i messaggi di chat come messaggio popup sul lato destro"
+    }
+  }
+
+  I18n.translations.tr_TR.lssm['n-alarm'] = {
+    not_support: "Bu tarayıcı HTML5-Bildirimlerini desteklemiyor",
+    inithead: "Başlatma",
+    chat_message: "Adlı kişiden gelen sohbet mesajı ",
+    blend: "Sonra gizle:",
+    seconds: "saniye",
+    settings: {
+      title: "Bildirim-Uyarısı",
+      chat_title: "Sohbet mesajları",
+      chat_text: "Sohbet mesajlarını bildirim olarak alın.",
+      s5_title: "Taşıma Talebi",
+      save: "Kaydetmek",
+      close: "Yakın",
+      s5_text: "Aktarım Isteklerini bildirim olarak alma",
+      status_title: "Durum",
+      status_text: "Tüm durum iletilerini bildirim olarak alın.",
+      chatp_title: "Bilgi açılır pencere olarak sohbet mesajları alma",
+      chatp_text: "Tüm sohbet mesajlarını sağ tarafta açılır ileti olarak alın"
     }
   }
 

@@ -153,7 +153,7 @@
         }
     };
 
-    I18n.translations.en.lssm.renameFz = {
+    I18n.translations.en_US.lssm.renameFz = {
         name: 'Rename vehicles',
         rename: "rename",
         id: "{id} Id of Vehicle",
@@ -170,7 +170,7 @@
         statusWaiting: 'Wait for input',
         statusError: '<b>Error during generation!</b> If this error occurs again, please report it. Please provide the following information:',
         statusWorking: 'Generate names and forms. This can take a certain amount of time, depending on the system and number of vehicles.',
-        statusSuccess: 'Names and Forumlare successfully generated!',
+        statusSuccess: 'Names and Forms successfully generated!',
         nameAlreadyCorrect: 'Name already corresponds to the template!',
         nameToLong: 'The name is too long for the following vehicles:',
         nameToLongOriginalName: 'Original Name',
@@ -388,6 +388,69 @@
         }
     };
 
+    I18n.translations.tr_TR.lssm.renameFz = {
+        name: 'Araçları yeniden adlandırma',
+        rename: "Adını değiştirmek",
+        id: "{id} Araç Kimliği",
+        old: "{old} Şu anki ismi",
+        vehicleType: "{vehicleType} Araç cinsi",
+        stationName: "{stationName} Binanın adı",
+        tagging: '{tagging} Araç tipinin işaretlenmesi',
+        number: '{number} Tip-sayaç',
+        numberRoman: '{numberRoman} Tip sayacı (Romen rakamları)',
+        dispatch: '{dispatch} Dispatchcenter\'ın Adı',
+        dispatchAlias: '{dispatchAlias} Dispatchcenter Takma Adı',
+        stationAlias: '{stationAlias} Yapı-Alias',
+        saveAll: 'hepsini kaydet',
+        statusWaiting: 'Girişi bekleyin',
+        statusError: '<b>Üretim sırasında hata!</b> Bu hata tekrarlanırsa, lütfen bildirin. lütfen aşağıdaki bilgileri girin:',
+        statusWorking: 'İsimler ve formlar oluşturun. Bu, sisteme ve araç sayısına bağlı olarak belirli bir süre alabilir.',
+        statusSuccess: 'İsimler ve Formlar başarıyla oluşturuldu!',
+        nameAlreadyCorrect: 'İsim zaten şablona karşılık geliyor!',
+        nameToLong: 'Aşağıdaki araçlar için ad çok uzun:',
+        nameToLongOriginalName: 'Orjinal isim',
+        nameToLongGeneratedName: 'Oluşturulan Ad',
+        nameToLongShortenedName: 'Yeni / kısaltılmış ad',
+        helpTitle: 'Bu bağlantı altında küçük bir talimat bulabilirsiniz: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Sayaç başlangıcı',
+        counterOverride: 'Aynı türden birkaç araç varsa, yine de 1 ile başlayın.',
+        startNumHelp: 'Burada tür sayacı için bir başlangıç değeri girebilirsiniz. Başlangıç değeri olarak 0\'ı ayarlarsanız, bir türdeki ilk araç numaralandırmayı almayacaktır, bir koruma üzerinde yalnızca bir tip araç varsa ve numaralandırmak istemiyorsanız bu çok pratiktir.Ama aynı zamanda sayacı 5\'te başlatabilirsiniz (ne nedenle olursa olsun, ama mümkündür;))',
+        toggleNameCorrect: 'Doğru isimdeki Araçları Göster / Gizle',
+        settings: {
+            show: 'Göster / Gizle',
+            names: {
+                vehicleTypes: 'araç türleri',
+                stations: 'Diğer ad oluşturma'
+            },
+            descriptions: {
+                vehicleTypes: 'Burada her araç türü için alternatif isimler ayarlayabilirsiniz. Bunları, sevkıyat merkezi aracılığıyla araçlarınızı yeniden adlandırırken kullanabilirsiniz.',
+                stations: 'Burada her bina için alternatif isimler ayarlayabilirsiniz. Bunları, sevkıyat merkezi aracılığıyla araçlarınızı yeniden adlandırırken kullanabilirsiniz.'
+            },
+            validStationTypes: {
+                0: "İtfaiye İstasyonu",
+                2: "Ambulans İstasyonu",
+                6: "Polis Karakolu",
+                7: "Sevk Merkezi",
+                18: "İtfaiye İstasyonu (Küçük)",
+                19: "Polis Karakolu (Küçük karakol)",
+                20: "Ambulans istasyonu (Küçük istasyon)"
+            },
+            vehicleTypes: {
+                0: 'YSA',
+                1: 'IKA',
+                2: 'MA',
+                3: 'KA',
+                4: 'CMA',
+                5: 'AA',
+                6: 'SIA',
+                7: 'TMMA',
+                8: 'Polis Aracı',
+                9: 'Ambulans Helikopteri'
+            }
+        }
+    };
+
     I18n.translations.pl_PL.lssm.renameFz = {
         name: 'Zmiana nazwy pojazdów',
         rename: "zmiana nazwy",
@@ -430,6 +493,7 @@
             validStationTypes: {
                 0: "Jednostka Ratowniczo-Gaśnicza",
                 2: "Stacja Pogotowia Ratunkowego",
+                5: "Stacja helikopterów",
                 6: "Komenda Policji",
                 7: "Centrum Powiadamiania Ratunkowego",
                 18: "Remiza",
@@ -449,7 +513,8 @@
                 9: 'Śmigłowiec LPR',
                 10: 'SPGaz',
                 11: 'Samochód Dowodzenia i Łączności',
-                12: 'GBARt'
+                12: 'GBARt',
+                13: 'Podnośnik hydrauliczny'
             }
         }
     };
@@ -688,6 +753,7 @@
             validStationTypes: {
                 0: "Caserma dei vigili del fuoco",
                 2: "Stazione ambulanze",
+                5: "Base elisoccorso",
                 6: "Stazione di polizia",
                 7: "Centrale operativa",
                 18: "Caserma dei vigili del fuoco (piccola)",
@@ -699,14 +765,15 @@
                 1: 'AS',
                 2: 'AV/FNZ',
                 3: 'CA/POLI',
-                4: 'Ambulanza Medicalizzata',
+                4: 'Ambulanza BLSA',
                 5: 'KILO',
                 6: 'AF/NBCR',
                 7: 'Volante',
                 8: 'Elisoccorso',
                 9: 'APS',
                 10: 'AF/ARIA',
-                11: 'UCL'
+                11: 'UCL',
+                12: 'Autogrù'
             }
         }
     };
