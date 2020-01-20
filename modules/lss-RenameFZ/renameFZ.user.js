@@ -428,25 +428,25 @@
                 stations: 'Burada her bina için alternatif isimler ayarlayabilirsiniz. Bunları, sevkıyat merkezi aracılığıyla araçlarınızı yeniden adlandırırken kullanabilirsiniz.'
             },
             validStationTypes: {
-                0: "Hasičská stanice",
-                2: "Stanoviště záchranné služby",
-                6: "Policejní stanice",
-                7: "Dispečink",
-                18: "Hasičská stanice (malá)",
-                19: "Policejní stanice (malá)",
-                20: "Stanoviště záchranné služby (malé)"
+                0: "İtfaiye İstasyonu",
+                2: "Ambulans İstasyonu",
+                6: "Polis Karakolu",
+                7: "Sevk Merkezi",
+                18: "İtfaiye İstasyonu (Küçük)",
+                19: "Polis Karakolu (Küçük karakol)",
+                20: "Ambulans istasyonu (Küçük istasyon)"
             },
             vehicleTypes: {
-                0: 'CAS 20',
-                1: 'CAS 30',
-                2: 'AZ',
-                3: 'VEA',
-                4: 'TA',
-                5: 'Sanitka',
-                6: 'KHA',
-                7: 'TACH',
-                8: 'Policejní automobil',
-                9: 'Vrtulník LZS'
+                0: 'YSA',
+                1: 'IKA',
+                2: 'MA',
+                3: 'KA',
+                4: 'CMA',
+                5: 'AA',
+                6: 'SIA',
+                7: 'TMMA',
+                8: 'Polis Aracı',
+                9: 'Ambulans Helikopteri'
             }
         }
     };

@@ -6,15 +6,15 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "hasičské vozy",
-            platform: "vozy s plošinou",
-            heavyRescue: "těžká technická vozidla",
+            truck: "İtfaiye Araçları",
+            platform: "Platformlu Kamyon",
+            heavyRescue: "Büyük Kurtarma",
             air: "fordon",
-            bchief: "jednotky",
-            tanker: "cistern",
-            hazmat: "nebezpečnými látkami",
-            mcv: "velitelská vozidla",
-            police: "policejní vozidla",
+            bchief: "Tabur Amiri",
+            tanker: "Su Tanker",
+            hazmat: "Tehlikeli Madde",
+            mcv: "Mobil Komuta",
+            police: "Polis Arabaları",
             rtw: "Sanitkat",
             arff: "ARFF",
             k9: "Dog Support Units",
@@ -45,43 +45,43 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Průměrné kredity/)) {
+            if (content.match(/Ortalama kredi/)) {
                 credits = number;
-            } else if (content.match(/Požadované|Krav på|Min./)) {
+            } else if (content.match(/Gerekli|Gerekliliği|Min./)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Místo/)) {
+            } else if (content.match(/Yer/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Požadované|Požadovaná/)) {
+            if (content.match(/Gerekli|Požadovaná/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Pravděpodobnost/)) {
+            } else if (content.match(/olasılığı/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Max\. Pacienti/)) {
+            if (content.match(/Maks\. Hastalar/)) {
                 patientsMax = number;
-            } else if (content.match(/Minimální počet pacientů/)) {
+            } else if (content.match(/Minimum hasta sayısı/)) {
                 patientsMin = number;
-            } else if (content.match(/převézt/)) {
+            } else if (content.match(/nakletme/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Nemocniční oddělení/)) {
+            } else if (content.match(/Hasta Uzmanlıkları	/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maximální počet vězňů/)) {
+            } else if (content.match(/Maksimum Mahkum Sayısı/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Rozšiřitelné mise/)) {
+            } else if (content.match(/Genişletilebilen Görevler/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -200,58 +200,58 @@ $.get(missionlink)
         function getPOI(content) {
             let pois = [
                 "Park",
-                "Jezero",
-                "Nemocnice",
-                "Les",
-                "Zastávka autobusu",
-                "Zastávka tramvaje",
-                "Železniční stanice \\(regionální doprava\\)",
-                "Železniční stanice \\(regionální a dálková doprava\\)",
-                "Nákladové nádraží",
-                "Supermarket \\(malý\\)",
-                "Supermarket \\(velký\\)",
-                "Čerpací stanice",
-                "Škola",
-                "Muzeum",
-                "Nákupní centrum",
-                "Autoservis",
-                "Dálniční sjezd",
-                "Vánoční trh",
-                "Skladiště",
-                "Diskotéka",
-                "Stadion",
-                "Farma",
-                "Kancelářská budova",
-                "Plovárna",
+                "Göl",
+                "Hastane",
+                "Orman",
+                "Otobüs durağı",
+                "Tramvay durağı",
+                "Tren istasyonu \\(bölgesel trafik\\)",
+                "Tren istasyonu \\(bölgesel trafik ve uzun mesafeli yolculuk\\)",
+                "Yük istasyonu",
+                "Süpermarket \\(küçük\\)",
+                "Süpermarket \\(büyük\\)",
+                "Akaryakıt istasyonu",
+                "Okul",
+                "Müze",
+                "Alışveriş Merkezi",
+                "Oto tamirhanesi",
+                "Otoyol çıkışı",
+                "Noel pazarı",
+                "Depo",
+                "Diskotek",
+                "Stadyum",
+                "Çiftlik",
+                "Ofis binası",
+                "Yüzme havuzu",
                 "Järnvägsövergång",
-                "Divadlo",
-                "Zábavní park",
-                "Řeka",
-                "Malé letiště \\(ranvej\\)",
-                "Velké letiště \\(ranvej\\)",
-                "Letištní terminál",
+                "Tiyatro",
+                "Lunapark",
+                "Nehir",
+                "Küçük Havalimanı \\(Uçak Pisti\\)",
+                "Büyük Havalimanı \\(Uçak Pisti\\)",
+                "Havalimanı Terminali",
                 "Banka",
-                "Velkosklad",
-                "Most",
-                "Rychlé občerstvení",
-                "Nákladní přístav",
-                "Sběrný dvůr",
-                "Výšková budova",
-                "Přístaviště výletních lodí",
-                "Malý přístav",
-                "Železniční přejezd",
-                "Tunel",
-                "Chladírenský sklad",
-                "Elektrárna",
-                "Továrna",
-                "Šrotiště",
-                "Stanice metra",
-                "Malá chemická skladovací nádrž",
-                "Velká chemická skladovací nádrž",
-                "Hotel",
+                "Ambar",
+                "Köprü",
+                "Fast Food Restoranı",
+                "Kargo limanı",
+                "Geri Dönüşüm Merkezi",
+                "Gökdelen",
+                "Yolcu gemisi limanı",
+                "Marina",
+                "Demiryolu Geçidi",
+                "Tünel",
+                "Soğuk Hava Ambarı",
+                "Enerji Santrali",
+                "Fabrika",
+                "Hurdalık",
+                "Metro istasyonu",
+                "Küçük kimyasal depo tankı",
+                "Büyük kimyasal depo tankı",
+                "Otel",
                 "Bar",
-                "Skládka",
-                "Kryté parkoviště"
+                "Çöplük",
+                "Katlı Otopark"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -262,9 +262,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "hasičské stanice",
-                2: "záchranářské stanice",
-                6: "policejní stanice",
+                0: "İtfaiye İstasyonları",
+                2: "Kurtarma İstasyonları",
+                6: "Polis Karakollar",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {

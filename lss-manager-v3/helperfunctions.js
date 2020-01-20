@@ -202,22 +202,22 @@ else if (I18n.locale == "tr_TR") {
         "Rozšíření letiště": 1,
         "Rozšíření vodní záchranky": 2,
         // Pol-Erweiterungen (10-19)
-        "Vězeňská cela": 10,
-        "Více cel": 10,
+        "Hapishane hücresi": 10,
+        "Daha fazla hücre": 10,
         // Schule-Erweiterungen (20-29)
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["CAS 20", 0],
-        "1": ["CAS 30", 0],
-        "2": ["AZ", 0],
-        "3": ["VEA", 0],
-        "4": ["TA", 0],
-        "5": ["Sanitka", 2],
-        "6": ["KHA", 0],
-        "7": ["TACH", 0],
-        "8": ["Policejní automobil", 6],
-        "9": ["Vrtulník LZS", 2]
+        "0": ["YSA", 0],
+        "1": ["IKA", 0],
+        "2": ["MA", 0],
+        "3": ["KA", 0],
+        "4": ["CMA", 0],
+        "5": ["AA", 2],
+        "6": ["SIA", 0],
+        "7": ["TMMA", 0],
+        "8": ["Polis Aracı", 6],
+        "9": ["Ambulans Helikopteri", 2]
     };
 }
 else if (I18n.locale == "da_DK") {

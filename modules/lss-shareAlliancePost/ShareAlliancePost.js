@@ -186,7 +186,7 @@
         chat: 'Sohbet...',
         alert: 'Uyarmak...',
         chatm: 'Takım Sohbetine',
-        reqVehIdent: 'Needed vehicles:',
+        reqVehIdent: 'Gerekli araçlar:',
         reqVeh: 'Başka araca gerek yok.',
         settings: {
             title: 'Uyarı, Paylaş ve Gönder',
