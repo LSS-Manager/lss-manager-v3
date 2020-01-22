@@ -198,9 +198,9 @@ else if (I18n.locale == "cs_CZ") {
 else if (I18n.locale == "tr_TR") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
-        "Rozšíření záchranky": 0,
-        "Rozšíření letiště": 1,
-        "Rozšíření vodní záchranky": 2,
+        "Ambulans ek bölümü": 0,
+        "Havalimanı ek bölümü": 1,
+        "Su kurtarma büyütmesi": 2,
         // Pol-Erweiterungen (10-19)
         "Hapishane hücresi": 10,
         "Daha fazla hücre": 10,

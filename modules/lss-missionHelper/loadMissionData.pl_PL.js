@@ -36,7 +36,7 @@ $.get(missionlink)
         let transport = 0;
         let specialisation;
         let tragehilfe = 0;
-        let rth = 0;
+        let hems = 0;
         let special = {};
         let percentages = {};
         let expansions = [];
@@ -71,7 +71,7 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/transport pacjenta/)) {
                 transport = number;
-            } else if (content.match(/śmigłowiec LPR/)) {
+            } else if (content.match(/NEF/)) {
                 nef = number;
             } else if (content.match(/Rodzaj pacjenta/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
@@ -81,6 +81,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/śmigłowiec LPR/)) {
+                hems = number;
             } else if (content.match(/można rozwinąć/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
@@ -102,8 +104,8 @@ $.get(missionlink)
             if (nef) {
                 mission.nef = nef;
             }
-            if (rth) {
-                mission.rth = rth;
+            if (hems) {
+                mission.hems = hems;
             }
             if (tragehilfe) {
                 mission.tragehilfe = tragehilfe;
@@ -129,8 +131,8 @@ $.get(missionlink)
                 if (nef) {
                     mission.patients.nef = nef;
                 }
-                if (rth) {
-                    mission.patients.rth = rth;
+                if (hems) {
+                    mission.patients.hems = hems;
                 }
                 if (tragehilfe) {
                     mission.patients.tragehilfe = tragehilfe;

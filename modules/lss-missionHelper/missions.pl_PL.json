@@ -1429,7 +1429,7 @@
             "max": 5,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "hems": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1450,7 +1450,7 @@
         "patients": {
             "max": 2,
             "transport": 50,
-            "nef": 10,
+            "hems": 10,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1472,7 +1472,7 @@
             "max": 5,
             "min": 1,
             "transport": 50,
-            "nef": 70,
+            "hems": 70,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1494,7 +1494,7 @@
             "max": 4,
             "min": 1,
             "transport": 50,
-            "nef": 50,
+            "hems": 50,
             "specialisation": "Chirurg og\u00f3lny"
         },
         "poi": 24
@@ -1514,7 +1514,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "hems": 30,
             "specialisation": "Interna"
         }
     },
@@ -1532,7 +1532,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "hems": 30,
             "specialisation": "Interna"
         }
     },
@@ -1551,7 +1551,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "hems": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1570,7 +1570,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "hems": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1588,7 +1588,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 90,
+            "hems": 90,
             "specialisation": "Neurochirurgia"
         }
     },
@@ -1606,7 +1606,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 80,
+            "hems": 80,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1625,7 +1625,7 @@
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 50,
+            "hems": 50,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },

@@ -18,7 +18,7 @@ $.get(missionlink)
             police: "Pattuglie",
             hems: "elisoccorso",
             rtw: "Ambulanze",
-            arff: "Flotta aerea antincendio AIB",
+            arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
             policeHeli: "Police Helicopter"
@@ -37,7 +37,7 @@ $.get(missionlink)
         let transport = 0;
         let specialisation;
         let tragehilfe = 0;
-        let rth = 0;
+        let hems = 0;
         let special = {};
         let percentages = {};
         let expansions = [];
@@ -57,7 +57,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/richieste|richiesti|richiesta|richiesto|necessaria/)) {
+            if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Possibilità/)) {
                 percentages[getVehicle(content)] = number;
@@ -72,7 +72,7 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/trasportato/)) {
                 transport = number;
-            } else if (content.match(/elisoccorso/)) {
+            } else if (content.match(/NEF/)) {
                 nef = number;
             } else if (content.match(/Specializzazioni pazienti/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
@@ -80,6 +80,8 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
+            } else if (content.match(/elisoccorso/)) {
+                hems = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Missioni espandibili/)) {
@@ -103,8 +105,8 @@ $.get(missionlink)
             if (nef) {
                 mission.nef = nef;
             }
-            if (rth) {
-                mission.rth = rth;
+            if (hems) {
+                mission.hems = hems;
             }
             if (tragehilfe) {
                 mission.tragehilfe = tragehilfe;
@@ -130,8 +132,8 @@ $.get(missionlink)
                 if (nef) {
                     mission.patients.nef = nef;
                 }
-                if (rth) {
-                    mission.patients.rth = rth;
+                if (hems) {
+                    mission.patients.hems = hems;
                 }
                 if (tragehilfe) {
                     mission.patients.tragehilfe = tragehilfe;
