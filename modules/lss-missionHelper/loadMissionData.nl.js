@@ -6,9 +6,9 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            tankauto: "(t|T)ankautospuiten",
+            truck: "(t|T)ankautospuiten",
             noodhulpeen: "(n|N)oodhulpeenheden",
-            ovdb: "OvD-B",
+            bchief: "OvD-B",
             redvoertuig: "((r|R)edvoertuigen)|((h|H)oogwerker)",
             slangenwagen: "(s|S)langenwagen",
             hulpverlening: "(h|H)ulpverleningsvoertuigen",

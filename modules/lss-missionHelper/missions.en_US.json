@@ -1219,7 +1219,7 @@
         },
         "vehicles": {
             "truck": 2,
-            "rtw": 1,
+            "ambulance": 1,
             "police": 7
         },
         "credits": 4400,
@@ -1236,7 +1236,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 2,
+            "ambulance": 2,
             "police": 3
         },
         "credits": 3400,
@@ -1253,7 +1253,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 2,
+            "ambulance": 2,
             "police": 2
         },
         "credits": 4400,
@@ -5691,5 +5691,49 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "344": {
+        "name": "Animal on the tracks",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200,
+        "poi": 40
+    },
+    "345": {
+        "name": "Animal on the tracks",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200,
+        "poi": 24
+    },
+    "346": {
+        "name": "Animal on the tracks",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200,
+        "poi": 6
+    },
+    "347": {
+        "name": "Animal on the tracks",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 200,
+        "poi": 7
     }
 }

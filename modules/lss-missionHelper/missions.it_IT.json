@@ -1526,7 +1526,7 @@
             "max": 3,
             "min": 1,
             "transport": 90,
-            "hems": 10,
+            "rth": 10,
             "specialisation": "Traumatologia"
         }
     },
@@ -1590,7 +1590,7 @@
         },
         "onlyRd": true,
         "transport": 100,
-        "hems": 45,
+        "rth": 45,
         "specialisation": "Neurologia"
     },
     "113": {
@@ -1607,9 +1607,45 @@
             "max": 1,
             "min": 1,
             "transport": 100,
-            "hems": 75,
+            "rth": 75,
             "specialisation": "Traumatologia"
         },
         "poi": 3
+    },
+    "114": {
+        "name": "Chiamata muta",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 500
+    },
+    "115": {
+        "name": "Deragliamento treno",
+        "stations": {
+            "0": 10,
+            "2": 12,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 5,
+            "heavyRescue": 4,
+            "bchief": 1,
+            "mcv": 1,
+            "police": 4,
+            "hazmat": 1,
+            "fwk": 1
+        },
+        "credits": 12000,
+        "patients": {
+            "max": 50,
+            "min": 20,
+            "transport": 35,
+            "rth": 5,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 7
     }
 }

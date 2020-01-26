@@ -1088,5 +1088,20 @@
             "transport": 50,
             "specialisation": "Generell indremedisiner"
         }
+    },
+    "81": {
+        "name": "V\u00e6pnet ran",
+        "stations": {
+            "6": 7
+        },
+        "vehicles": {
+            "police": 5
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "specialisation": "Generell indremedisiner"
+        },
+        "poi": 9
     }
 }

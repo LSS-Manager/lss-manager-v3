@@ -15,12 +15,11 @@ $.get(missionlink)
             hazmat: "gift- og kemikaliekøretøj",
             mcv: "utryckningsfordon",
             police: "politibiler",
-            hems: "HEMS",
-            rtw: "ambulanser",
+            ambulance: "ambulanser",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "Räddningshelikopter",
+            rth: "Räddningshelikopter",
             policeHeli: "Police Helicopter",
         };
 

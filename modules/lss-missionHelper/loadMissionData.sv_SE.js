@@ -15,12 +15,11 @@ $.get(missionlink)
             hazmat: "farligt gods-fordon",
             mcv: "utryckningsfordon",
             police: "polisbilar",
-            hems: "HEMS",
-            rtw: "ambulanser",
+            ambulance: "ambulanser",
             arff: "flygbrandfordon",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "Räddningshelikopter",
+            rth: "Räddningshelikopter",
             policeHeli: "Police Helicopter",
         };
 

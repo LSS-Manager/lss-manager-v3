@@ -1165,7 +1165,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "rtw": 3
+            "ambulance": 3
         },
         "credits": 1300,
         "patients": {
@@ -1194,7 +1194,7 @@
         "vehicles": {
             "truck": 3,
             "bchief": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
@@ -1433,6 +1433,24 @@
         },
         "percentages": {
             "air": 30
+        }
+    },
+    "105": {
+        "name": "R\u00e5n, v\u00e4pnat",
+        "stations": {
+            "6": 7
+        },
+        "vehicles": {
+            "police": 5
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "poi": 9,
+        "prisoners": {
+            "max": 2
         }
     }
 }

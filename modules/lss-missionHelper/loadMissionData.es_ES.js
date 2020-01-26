@@ -15,10 +15,10 @@ $.get(missionlink)
             tanker: "(c|C)amiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
             police: "coches patrulla",
-            hems: "Helicóptero HSR",
+            rth: "Helicóptero HSR",
             arff: "CBA",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulancias"
+            ambulance: "Ambulancias"
         };
 
         let credits;

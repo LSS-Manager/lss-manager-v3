@@ -1011,5 +1011,23 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "D\u00edt\u011b zam\u010den\u00e9 ve vozidle",
+        "stations": {
+            "0": 1,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        }
     }
 }

@@ -15,11 +15,11 @@ $.get(missionlink)
             hazmat: "Tehlikeli Madde",
             mcv: "Mobil Komuta",
             police: "Polis Arabaları",
-            rtw: "Sanitkat",
+            ambulance: "Sanitkat",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "Räddningshelikopter",
+            rth: "Räddningshelikopter",
             policeHeli: "Police Helicopter",
         };
 

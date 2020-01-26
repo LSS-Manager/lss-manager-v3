@@ -15,11 +15,11 @@ $.get(missionlink)
             hazmat: "nebezpečnými látkami",
             mcv: "velitelská vozidla",
             police: "policejní vozidla",
-            rtw: "Sanitkat",
+            ambulance: "Sanitkat",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "Räddningshelikopter",
+            rth: "Räddningshelikopter",
             policeHeli: "Police Helicopter",
         };
 

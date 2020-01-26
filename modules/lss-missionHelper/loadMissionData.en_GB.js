@@ -15,12 +15,11 @@ $.get(missionlink)
             hazmat: "HazMat",
             mcv: "Incident Command and Control Unit",
             police: "Police Car",
-            hems: "HEMS",
-            rtw: "Ambulance",
+            ambulance: "Ambulance",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            hems: "SAR Helicopter",
+            rth: "SAR Helicopter",
             policeHeli: "Police Helicopter",
         };
 

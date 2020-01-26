@@ -350,10 +350,11 @@ else if (I18n.locale == "fr_FR") {
         "6": ["CCGC", 0],
         "7": ["VIRT", 0],
         "8": ["Véhicule de patrouille", 6],
-        "9": ["HeliSMUR", 2],
+        "9": ["Dragon", 2],
         "10": ["Mobile air", 0],
         "11": ["Véhicule mobile de comm.", 0],
-        "12": ["Véhicule de secours", 0]
+        "12": ["Véhicule de secours", 0],
+        "13": ["Véhicule Toute Utilité", 0]
     };
 }
 else if (I18n.locale == "ru_RU") {

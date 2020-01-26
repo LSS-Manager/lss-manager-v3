@@ -16,9 +16,10 @@ $.get(missionlink)
             hazmat: "risques chimiques",
             police: "Voitures de police",
             arff: 'ARFF',
-            hems: "HEMS",
+            rth: "hélicoptère",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            ambulance: "Ambulances",
+            gkw: 'Véhicule Tout Usage'
         };
 
         let credits;
@@ -81,6 +82,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/hélicoptère/)) {
+                rth = number;
             } else if (content.match(/Missions à extension/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

@@ -30,7 +30,7 @@ $.get(missionlink)
             rth: 'RTH',
             lna: 'KdoW-LNA',
             orgl: 'KdoW-OrgL',
-            rtw: 'RTW',
+            ambulance: 'RTW',
             ktw: 'KTW oder RTW',
             lfogkworw: 'LF oder GKW oder RW',
             gkw: 'GKW',

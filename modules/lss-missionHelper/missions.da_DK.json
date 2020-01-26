@@ -1087,5 +1087,23 @@
             "transport": 50,
             "specialisation": "Specialister i intern medicin"
         }
+    },
+    "81": {
+        "name": "Bev\u00e6bnet R\u00f8veri",
+        "stations": {
+            "6": 7
+        },
+        "vehicles": {
+            "police": 5
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "specialisation": "Specialister i intern medicin"
+        },
+        "poi": 9,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

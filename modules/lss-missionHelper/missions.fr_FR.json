@@ -159,6 +159,7 @@
             "0": 1
         },
         "vehicles": {
+            "gkw": 1,
             "truck": 1
         },
         "credits": 310,
@@ -1305,13 +1306,14 @@
         "specialisation": "Traumatologie"
     },
     "98": {
-        "name": "Toit endommag\u00e9",
+        "name": "B\u00e2chage",
         "stations": {
             "0": 3
         },
         "vehicles": {
-            "truck": 1,
-            "platform": 1
+            "gkw": 1,
+            "platform": 1,
+            "truck": 1
         },
         "credits": 450,
         "percentages": {
@@ -1365,6 +1367,134 @@
             "max": 4,
             "min": 1,
             "transport": 80,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "102": {
+        "name": "D\u00e9clenchement de t\u00e9l\u00e9alarme",
+        "stations": {
+            "0": 1,
+            "2": 1
+        },
+        "vehicles": {
+            "gkw": 1,
+            "ambulance": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "transport": 60,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "103": {
+        "name": "Enfant en bas age laiss\u00e9 seul",
+        "stations": {
+            "0": 1,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "gkw": 1,
+            "ambulance": 1,
+            "police": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 20,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "104": {
+        "name": "Suspicion de fracture du rachis",
+        "stations": {
+            "2": 6
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 45,
+        "specialisation": "Neurologie"
+    },
+    "105": {
+        "name": "Chute du 2\u00e8me \u00e9tage",
+        "stations": {
+            "0": 1,
+            "2": 6
+        },
+        "vehicles": {
+            "heavyRescue": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "rth": 75,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 3
+    },
+    "106": {
+        "name": "Objet mena\u00e7ant de tomber",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "gkw": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "107": {
+        "name": "Chemin\u00e9e mena\u00e7ant de tomber",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "gkw": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "108": {
+        "name": "D\u00e9struction d'hymenopt\u00e8res",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "gkw": 1,
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "109": {
+        "name": "Ass\u00e8chement de locaux",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "gkw": 1,
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "110": {
+        "name": "Personne ne r\u00e9pondant pas aux appels",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 850,
+        "patients": {
+            "max": 1,
+            "transport": 50,
             "specialisation": "Interne g\u00e9n\u00e9ral"
         }
     }

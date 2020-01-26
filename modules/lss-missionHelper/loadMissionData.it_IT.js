@@ -16,8 +16,8 @@ $.get(missionlink)
             hazmat: "NBCR|N.B.C.R",
             mcv: "UCL",
             police: "Pattuglie",
-            hems: "elisoccorso",
-            rtw: "Ambulanze",
+            rth: "elisoccorso",
+            ambulance: "Ambulanze",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -37,7 +37,7 @@ $.get(missionlink)
         let transport = 0;
         let specialisation;
         let tragehilfe = 0;
-        let hems = 0;
+        let rth = 0;
         let special = {};
         let percentages = {};
         let expansions = [];
@@ -81,7 +81,7 @@ $.get(missionlink)
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/elisoccorso/)) {
-                hems = number;
+                rth = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Missioni espandibili/)) {
@@ -105,8 +105,8 @@ $.get(missionlink)
             if (nef) {
                 mission.nef = nef;
             }
-            if (hems) {
-                mission.hems = hems;
+            if (rth) {
+                mission.rth = rth;
             }
             if (tragehilfe) {
                 mission.tragehilfe = tragehilfe;
@@ -132,8 +132,8 @@ $.get(missionlink)
                 if (nef) {
                     mission.patients.nef = nef;
                 }
-                if (hems) {
-                    mission.patients.hems = hems;
+                if (rth) {
+                    mission.patients.rth = rth;
                 }
                 if (tragehilfe) {
                     mission.patients.tragehilfe = tragehilfe;

@@ -15,8 +15,8 @@ $.get(missionlink)
             hazmat: "SP Rchem",
             mcv: "samochody dowodzenia i łączności",
             police: "radiowozy",
-            hems: "śmigłowiec LPR",
-            rtw: "ambulanse",
+            rth: "śmigłowiec LPR",
+            ambulance: "ambulanse",
             arff: "SP LSP",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -36,7 +36,7 @@ $.get(missionlink)
         let transport = 0;
         let specialisation;
         let tragehilfe = 0;
-        let hems = 0;
+        let rth = 0;
         let special = {};
         let percentages = {};
         let expansions = [];
@@ -82,7 +82,7 @@ $.get(missionlink)
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/śmigłowiec LPR/)) {
-                hems = number;
+                rth = number;
             } else if (content.match(/można rozwinąć/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
@@ -104,8 +104,8 @@ $.get(missionlink)
             if (nef) {
                 mission.nef = nef;
             }
-            if (hems) {
-                mission.hems = hems;
+            if (rth) {
+                mission.rth = rth;
             }
             if (tragehilfe) {
                 mission.tragehilfe = tragehilfe;
@@ -131,8 +131,8 @@ $.get(missionlink)
                 if (nef) {
                     mission.patients.nef = nef;
                 }
-                if (hems) {
-                    mission.patients.hems = hems;
+                if (rth) {
+                    mission.patients.rth = rth;
                 }
                 if (tragehilfe) {
                     mission.patients.tragehilfe = tragehilfe;
