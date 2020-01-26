@@ -15,8 +15,8 @@ $.get(missionlink)
             hazmat: "SP Rchem",
             mcv: "samochody dowodzenia i łączności",
             police: "radiowozy",
-            hems: "śmigłowiec LPR",
-            rtw: "ambulanse",
+            rth: "śmigłowiec LPR",
+            ambulance: "ambulanse",
             arff: "SP LSP",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -71,7 +71,7 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/transport pacjenta/)) {
                 transport = number;
-            } else if (content.match(/śmigłowiec LPR/)) {
+            } else if (content.match(/NEF/)) {
                 nef = number;
             } else if (content.match(/Rodzaj pacjenta/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
@@ -81,6 +81,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/śmigłowiec LPR/)) {
+                rth = number;
             } else if (content.match(/można rozwinąć/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

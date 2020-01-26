@@ -17,9 +17,9 @@ $.get(missionlink)
             police: "полицейские автомобили",
             arff: 'АПСР',
             mcv: "мобильные командные пункты",
-            hems: "HEMS",
+            rth: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "скорые"
+            ambulance: "скорые"
         };
 
         let credits;

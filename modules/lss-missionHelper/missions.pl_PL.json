@@ -1165,7 +1165,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "rtw": 3
+            "ambulance": 3
         },
         "credits": 1300,
         "patients": {
@@ -1194,7 +1194,7 @@
         "vehicles": {
             "truck": 3,
             "bchief": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
@@ -1429,7 +1429,7 @@
             "max": 5,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "rth": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1450,7 +1450,7 @@
         "patients": {
             "max": 2,
             "transport": 50,
-            "nef": 10,
+            "rth": 10,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1472,7 +1472,7 @@
             "max": 5,
             "min": 1,
             "transport": 50,
-            "nef": 70,
+            "rth": 70,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1494,7 +1494,7 @@
             "max": 4,
             "min": 1,
             "transport": 50,
-            "nef": 50,
+            "rth": 50,
             "specialisation": "Chirurg og\u00f3lny"
         },
         "poi": 24
@@ -1507,14 +1507,14 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "rth": 30,
             "specialisation": "Interna"
         }
     },
@@ -1525,14 +1525,14 @@
             "2": 2
         },
         "vehicles": {
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1200,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "rth": 30,
             "specialisation": "Interna"
         }
     },
@@ -1544,14 +1544,14 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1800,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "rth": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1563,14 +1563,14 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 2200,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 30,
+            "rth": 30,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1581,14 +1581,14 @@
             "2": 3
         },
         "vehicles": {
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1800,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 90,
+            "rth": 90,
             "specialisation": "Neurochirurgia"
         }
     },
@@ -1599,14 +1599,14 @@
             "2": 3
         },
         "vehicles": {
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1800,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 80,
+            "rth": 80,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1618,14 +1618,14 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1800,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 50,
-            "nef": 50,
+            "rth": 50,
             "specialisation": "Chirurg og\u00f3lny"
         }
     },
@@ -1646,5 +1646,36 @@
             "transport": 50,
             "specialisation": "Interna"
         }
+    },
+    "116": {
+        "name": "Czujka czadu\/Co2 w budynku mieszkalnym",
+        "stations": {
+            "0": 2,
+            "2": 1,
+            "6": 0
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100,
+        "patients": {
+            "max": 2,
+            "transport": 80,
+            "specialisation": "Interna"
+        }
+    },
+    "117": {
+        "name": "Rozszczelnienie Butli z gazem",
+        "stations": {
+            "0": 8,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 1800
     }
 }

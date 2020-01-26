@@ -449,7 +449,7 @@
         "credits": 8200,
         "patients": {
             "max": 25,
-            "transport": 50,
+            "transport": 40,
             "specialisation": "Medicina interna generale"
         },
         "poi": 2
@@ -540,8 +540,9 @@
         "poi": 15,
         "percentages": {
             "tanker": 20,
-            "bchief": 40,
-            "air": 30
+            "bchief": 30,
+            "air": 30,
+            "platform": 40
         }
     },
     "42": {
@@ -827,7 +828,7 @@
         "credits": 900,
         "patients": {
             "max": 12,
-            "transport": 50,
+            "transport": 40,
             "specialisation": "Medicina interna generale"
         }
     },
@@ -871,6 +872,7 @@
         "credits": 700,
         "patients": {
             "max": 3,
+            "transport": 50,
             "specialisation": "Traumatologia"
         },
         "prisoners": {
@@ -994,7 +996,7 @@
         "credits": 2200,
         "patients": {
             "max": 15,
-            "transport": 60,
+            "transport": 50,
             "specialisation": "Chirurgia generale"
         }
     },
@@ -1327,7 +1329,7 @@
             "heavyRescue": 1,
             "police": 1
         },
-        "credits": 1300
+        "credits": 2000
     },
     "100": {
         "name": "Veicolo della nettezza urbana in fiamme",
@@ -1355,7 +1357,7 @@
         "credits": 1000,
         "patients": {
             "max": 1,
-            "transport": 0,
+            "transport": 80,
             "specialisation": "Chirurgia generale"
         },
         "poi": 21
@@ -1390,7 +1392,7 @@
             "hazmat": 1,
             "heavyRescue": 1
         },
-        "credits": 950,
+        "credits": 1400,
         "poi": 8
     },
     "104": {
@@ -1405,7 +1407,7 @@
             "heavyRescue": 1,
             "police": 1
         },
-        "credits": 400,
+        "credits": 700,
         "patients": {
             "max": 1,
             "min": 1,
@@ -1426,11 +1428,11 @@
             "air": 1,
             "police": 1
         },
-        "credits": 2300,
+        "credits": 2500,
         "patients": {
             "max": 10,
             "min": 2,
-            "transport": 80,
+            "transport": 50,
             "specialisation": "Medicina interna generale"
         },
         "percentages": {
@@ -1453,7 +1455,7 @@
         "patients": {
             "max": 30,
             "min": 10,
-            "transport": 40,
+            "transport": 30,
             "specialisation": "Traumatologia"
         }
     },
@@ -1470,10 +1472,11 @@
             "truck": 1,
             "heavyRescue": 1
         },
+        "credits": 1500,
         "patients": {
             "max": 4,
             "min": 2,
-            "transport": 90,
+            "transport": 80,
             "specialisation": "Traumatologia"
         },
         "percentages": {
@@ -1495,7 +1498,7 @@
             "heavyRescue": 2,
             "police": 2
         },
-        "credits": 2500,
+        "credits": 3500,
         "patients": {
             "max": 2,
             "min": 1,
@@ -1518,12 +1521,12 @@
             "heavyRescue": 2,
             "police": 1
         },
-        "credits": 2500,
+        "credits": 3000,
         "patients": {
             "max": 3,
             "min": 1,
             "transport": 90,
-            "nef": 10,
+            "rth": 10,
             "specialisation": "Traumatologia"
         }
     },
@@ -1541,13 +1544,13 @@
             "bchief": 2,
             "mcv": 1,
             "police": 1,
-            "fwk": 10
+            "fwk": 1
         },
-        "credits": 9800,
+        "credits": 10000,
         "patients": {
             "max": 20,
             "min": 8,
-            "transport": 80,
+            "transport": 40,
             "specialisation": "Traumatologia"
         },
         "percentages": {
@@ -1573,7 +1576,7 @@
         "patients": {
             "max": 8,
             "min": 2,
-            "transport": 60,
+            "transport": 50,
             "specialisation": "Traumatologia"
         },
         "percentages": {
@@ -1583,28 +1586,66 @@
     "112": {
         "name": "Trauma spinale",
         "stations": {
-            "2": 4
+            "2": 6
         },
         "onlyRd": true,
         "transport": 100,
-        "nef": 100,
+        "rth": 45,
         "specialisation": "Neurologia"
     },
     "113": {
         "name": "Caduta da parete rocciosa",
         "stations": {
-            "2": 4
+            "0": 1,
+            "2": 6
         },
         "vehicles": {
             "heavyRescue": 2
         },
+        "credits": 1200,
         "patients": {
             "max": 1,
             "min": 1,
             "transport": 100,
-            "nef": 100,
+            "rth": 75,
             "specialisation": "Traumatologia"
         },
         "poi": 3
+    },
+    "114": {
+        "name": "Chiamata muta",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 500
+    },
+    "115": {
+        "name": "Deragliamento treno",
+        "stations": {
+            "0": 10,
+            "2": 12,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 5,
+            "heavyRescue": 4,
+            "bchief": 1,
+            "mcv": 1,
+            "police": 4,
+            "hazmat": 1,
+            "fwk": 1
+        },
+        "credits": 12000,
+        "patients": {
+            "max": 50,
+            "min": 20,
+            "transport": 35,
+            "rth": 5,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 7
     }
 }

@@ -17,9 +17,9 @@ $.get(missionlink)
             mcv: "MCV",
             police: "Police Car",
             arff: 'ARFF',
-            hems: "HEMS",
+            rth: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            ambulance: "Ambulance"
         };
 
         let credits;

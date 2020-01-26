@@ -1284,7 +1284,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "rtw": 3
+            "ambulance": 3
         },
         "credits": 1300,
         "patients": {
@@ -1313,7 +1313,7 @@
         "vehicles": {
             "truck": 3,
             "bchief": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
@@ -1552,6 +1552,27 @@
         },
         "percentages": {
             "air": 30
+        }
+    },
+    "116": {
+        "name": "MVA Rollover",
+        "stations": {
+            "0": 4,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatology"
         }
     }
 }

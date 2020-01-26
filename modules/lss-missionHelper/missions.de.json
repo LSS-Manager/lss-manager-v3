@@ -3596,7 +3596,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 4000,
         "poi": 25,
@@ -3614,7 +3614,7 @@
         },
         "vehicles": {
             "truck": 3,
-            "rtw": 3,
+            "ambulance": 3,
             "gwsan": 1
         },
         "credits": 7000,
@@ -3631,7 +3631,7 @@
             "2": 3
         },
         "vehicles": {
-            "rtw": 3,
+            "ambulance": 3,
             "gwsan": 1
         },
         "credits": 5000,
@@ -3646,7 +3646,7 @@
             "11": 1
         },
         "vehicles": {
-            "rtw": 1,
+            "ambulance": 1,
             "fustw": 3,
             "grukw": 6,
             "lebefkw": 2,
@@ -3679,7 +3679,7 @@
         },
         "vehicles": {
             "fustw": 2,
-            "rtw": 2
+            "ambulance": 2
         },
         "credits": 4000,
         "siwa": true,
@@ -4511,7 +4511,7 @@
             "lebefkw": 3,
             "grukw": 9,
             "fukw": 1,
-            "rtw": 4,
+            "ambulance": 4,
             "truck": 2
         },
         "credits": 7000,
@@ -4778,7 +4778,7 @@
             "lebefkw": 3,
             "grukw": 9,
             "fukw": 1,
-            "rtw": 4,
+            "ambulance": 4,
             "truck": 2
         },
         "credits": 7000,
@@ -4825,7 +4825,7 @@
             "fukw": 3,
             "gefkw": 2,
             "truck": 2,
-            "rtw": 4,
+            "ambulance": 4,
             "fustw": 5
         },
         "credits": 12000,
@@ -5051,7 +5051,7 @@
             "11": 1
         },
         "vehicles": {
-            "rtw": 3,
+            "ambulance": 3,
             "fustw": 6,
             "grukw": 6,
             "lebefkw": 3,
@@ -5081,7 +5081,7 @@
             "gefkw": 2,
             "wawe": 3,
             "truck": 2,
-            "rtw": 4,
+            "ambulance": 4,
             "fustw": 5
         },
         "credits": 13000,
@@ -5106,7 +5106,7 @@
             "lebefkw": 4,
             "grukw": 9,
             "fukw": 1,
-            "rtw": 4,
+            "ambulance": 4,
             "truck": 2
         },
         "credits": 8000,
@@ -5513,7 +5513,7 @@
             "lebefkw": 6,
             "fukw": 2,
             "fustw": 10,
-            "rtw": 2,
+            "ambulance": 2,
             "polheli": 1,
             "wawe": 2
         },
@@ -5865,7 +5865,7 @@
             "dlk": 1,
             "elw1": 1,
             "fustw": 3,
-            "rtw": 1,
+            "ambulance": 1,
             "gkw": 1,
             "mzkw": 1,
             "mtwtz": 1
@@ -6701,7 +6701,7 @@
             "truck": 1,
             "elw1": 1,
             "arff": 2,
-            "rtw": 1,
+            "ambulance": 1,
             "rtf": 1
         },
         "credits": 1000,
@@ -9075,5 +9075,53 @@
             "nef": 10,
             "specialisation": "Allgemeine Innere"
         }
+    },
+    "503": {
+        "name": "Damm droht zu brechen",
+        "stations": {
+            "0": 11,
+            "6": 3,
+            "9": 2,
+            "13": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "gwl2": 3,
+            "elw2": 1,
+            "elw1": 2,
+            "rw": 2,
+            "gkw": 2,
+            "mzkw": 1,
+            "radlader": 1,
+            "mtwtz": 1,
+            "fustw": 3,
+            "polheli": 1
+        },
+        "credits": 6500,
+        "poi": 27
+    },
+    "504": {
+        "name": "Damm droht zu brechen",
+        "stations": {
+            "0": 11,
+            "6": 3,
+            "9": 2,
+            "13": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "gwl2": 3,
+            "elw2": 1,
+            "elw1": 2,
+            "rw": 2,
+            "gkw": 2,
+            "mzkw": 1,
+            "radlader": 1,
+            "mtwtz": 1,
+            "fustw": 3,
+            "polheli": 1
+        },
+        "credits": 6500,
+        "poi": 1
     }
 }

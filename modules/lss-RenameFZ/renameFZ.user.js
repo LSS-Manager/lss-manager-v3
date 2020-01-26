@@ -836,10 +836,11 @@
                 6: 'CCGC',
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
-                9: 'HeliSMUR',
+                9: 'Dragon',
                 10: 'Mobile air',
                 11: 'Véhicule mobile de comm.',
-                12: 'Véhicule de secours'
+                12: 'Véhicule de secours',
+                13: 'Véhicule Toute Utilité'
             }
         }
     };

@@ -5,7 +5,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 4
@@ -16,7 +16,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 170
     },
@@ -26,7 +26,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 370
     },
@@ -36,7 +36,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 340
     },
@@ -46,7 +46,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 200,
         "expansions": {
@@ -61,8 +61,8 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "redvoertuig": 1
         },
         "credits": 1400,
@@ -76,7 +76,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 600
     },
@@ -86,7 +86,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 210
     },
@@ -96,7 +96,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 220,
         "expansions": {
@@ -109,7 +109,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 250
     },
@@ -119,7 +119,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 600,
         "expansions": {
@@ -132,7 +132,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 240
     },
@@ -142,7 +142,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 310
     },
@@ -152,8 +152,8 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 980,
@@ -167,8 +167,8 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1000,
@@ -184,7 +184,7 @@
         },
         "vehicles": {
             "slangenwagen": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500,
         "poi": 3,
@@ -199,8 +199,8 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "redvoertuig": 1
         },
         "credits": 1100,
@@ -218,7 +218,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 340
     },
@@ -228,7 +228,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 700,
         "expansions": {
@@ -241,7 +241,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 650
     },
@@ -253,9 +253,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
-            "tankauto": 3,
+            "truck": 3,
             "slangenwagen": 1
         },
         "credits": 1800,
@@ -275,7 +275,7 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 2400,
         "percentages": {
@@ -291,8 +291,8 @@
         "vehicles": {
             "noodhulpeen": 1,
             "redvoertuig": 1,
-            "tankauto": 3,
-            "ovdb": 1,
+            "truck": 3,
+            "bchief": 1,
             "hovd": 1
         },
         "credits": 2700,
@@ -307,7 +307,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 1200,
@@ -321,7 +321,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 900,
         "poi": 4
@@ -335,8 +335,8 @@
         "vehicles": {
             "noodhulpeen": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
-            "tankauto": 1
+            "bchief": 1,
+            "truck": 1
         },
         "credits": 1000,
         "patients": {
@@ -355,9 +355,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
             "hovd": 1,
             "noodhulpeen": 1
@@ -376,7 +376,7 @@
         },
         "vehicles": {
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 700,
         "percentages": {
@@ -389,9 +389,9 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1600,
@@ -409,9 +409,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "slangenwagen": 1,
@@ -434,7 +434,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 190,
@@ -448,7 +448,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -458,9 +458,9 @@
             "0": 6
         },
         "vehicles": {
-            "ovdb": 1,
+            "bchief": 1,
             "redvoertuig": 1,
-            "tankauto": 2
+            "truck": 2
         },
         "credits": 1310
     },
@@ -470,7 +470,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1200,
         "expansions": {
@@ -484,9 +484,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 2100,
@@ -499,9 +499,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1
         },
@@ -518,8 +518,8 @@
             "0": 11
         },
         "vehicles": {
-            "tankauto": 3,
-            "ovdb": 1,
+            "truck": 3,
+            "bchief": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
             "gevaar": 1,
@@ -538,7 +538,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 5
@@ -549,7 +549,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 6
@@ -560,7 +560,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 6
@@ -571,7 +571,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 110,
         "poi": 2
@@ -579,8 +579,8 @@
     "41": {
         "name": "Brand in kantoorpand",
         "vehicles": {
-            "tankauto": 8,
-            "ovdb": 2,
+            "truck": 8,
+            "bchief": 2,
             "hovd": 1,
             "redvoertuig": 3,
             "slangenwagen": 3,
@@ -595,10 +595,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "hulpverlening": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "slangenwagen": 1,
@@ -617,9 +617,9 @@
     "43": {
         "name": "Kettingbotsing",
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "hulpverlening": 4,
-            "ovdb": 2,
+            "bchief": 2,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 8
@@ -638,7 +638,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 170
     },
@@ -709,9 +709,9 @@
             "0": 5
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1800,
         "poi": 15
@@ -723,9 +723,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "hulpverlening": 1,
             "adembescherming": 1,
@@ -744,7 +744,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 230,
@@ -759,9 +759,9 @@
             "0": 5
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1000,
         "poi": 12
@@ -773,9 +773,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 2,
-            "ovdb": 2,
+            "bchief": 2,
             "hovd": 1,
             "hulpverlening": 1,
             "commando": 1,
@@ -791,7 +791,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 210,
@@ -805,17 +805,17 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 250
     },
     "59": {
         "name": "Brand in opslagloods",
         "vehicles": {
-            "tankauto": 16,
+            "truck": 16,
             "redvoertuig": 4,
             "hulpverlening": 2,
-            "ovdb": 4,
+            "bchief": 4,
             "adembescherming": 1,
             "slangenwagen": 4,
             "hovd": 1,
@@ -829,8 +829,8 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "redvoertuig": 1
         },
         "credits": 800,
@@ -844,7 +844,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 500,
@@ -861,9 +861,9 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1
         },
         "credits": 2000,
@@ -877,7 +877,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 500,
@@ -891,9 +891,9 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 700,
         "percentages": {
@@ -906,7 +906,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 310
     },
@@ -916,7 +916,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 310
     },
@@ -927,7 +927,7 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 320,
         "percentages": {
@@ -941,7 +941,7 @@
         },
         "vehicles": {
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 350,
         "percentages": {
@@ -955,9 +955,9 @@
             "3": 2
         },
         "vehicles": {
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1000,
         "patients": {
@@ -1059,8 +1059,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "hovd": 1,
             "hulpverlening": 1,
             "noodhulpeen": 2
@@ -1084,8 +1084,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hulpverlening": 1,
             "noodhulpeen": 2
         },
@@ -1107,7 +1107,7 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 350,
         "expansions": {
@@ -1156,9 +1156,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1000,
         "patients": {
@@ -1321,14 +1321,14 @@
         },
         "vehicles": {
             "gevaar": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 600,
         "percentages": {
             "gevaar": 20,
-            "ovdb": 30,
+            "bchief": 30,
             "hulpverlening": 10
         }
     },
@@ -1339,13 +1339,13 @@
         },
         "vehicles": {
             "gevaar": 1,
-            "ovdb": 1,
-            "tankauto": 1
+            "bchief": 1,
+            "truck": 1
         },
         "credits": 550,
         "percentages": {
             "gevaar": 10,
-            "ovdb": 10
+            "bchief": 10
         }
     },
     "100": {
@@ -1354,8 +1354,8 @@
             "0": 14
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hulpverlening": 1,
             "waarschuwing": 1,
@@ -1378,9 +1378,9 @@
         },
         "vehicles": {
             "gevaar": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1200,
         "patients": {
@@ -1389,7 +1389,7 @@
         },
         "percentages": {
             "gevaar": 10,
-            "ovdb": 50
+            "bchief": 50
         }
     },
     "102": {
@@ -1400,8 +1400,8 @@
         "vehicles": {
             "hulpverlening": 1,
             "gevaar": 1,
-            "ovdb": 1,
-            "tankauto": 1
+            "bchief": 1,
+            "truck": 1
         },
         "credits": 1200,
         "poi": 8
@@ -1413,7 +1413,7 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 2400,
         "expansions": {
@@ -1429,7 +1429,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 130,
         "expansions": {
@@ -1442,7 +1442,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 140
     },
@@ -1452,7 +1452,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 140,
         "poi": 28
@@ -1466,9 +1466,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 540,
         "patients": {
@@ -1490,9 +1490,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1240,
         "patients": {
@@ -1514,9 +1514,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hulpverlening": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 740,
         "patients": {
@@ -1537,7 +1537,7 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500,
         "percentages": {
@@ -1551,9 +1551,9 @@
         },
         "vehicles": {
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
-            "tankauto": 2
+            "truck": 2
         },
         "credits": 1500,
         "percentages": {
@@ -1595,7 +1595,7 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 1000
@@ -1607,8 +1607,8 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "redvoertuig": 1,
             "noodhulpeen": 1
         },
@@ -1694,7 +1694,7 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1000,
         "poi": 12,
@@ -1757,7 +1757,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 600,
@@ -1772,9 +1772,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
             "hovd": 1
         },
@@ -1791,7 +1791,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "slangenwagen": 1
         },
         "credits": 400,
@@ -1806,8 +1806,8 @@
             "0": 8
         },
         "vehicles": {
-            "tankauto": 3,
-            "ovdb": 1,
+            "truck": 3,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1950,
@@ -1821,9 +1821,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1400,
         "percentages": {
@@ -1838,9 +1838,9 @@
         },
         "vehicles": {
             "noodhulpeen": 1,
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "slangenwagen": 1
         },
@@ -1856,7 +1856,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -1866,7 +1866,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -1876,7 +1876,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 240
     },
@@ -1886,7 +1886,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 300
     },
@@ -1896,7 +1896,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 240
     },
@@ -1912,7 +1912,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 170,
@@ -1926,7 +1926,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "slangenwagen": 1
         },
         "credits": 110,
@@ -1940,8 +1940,8 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 400,
@@ -1955,8 +1955,8 @@
             "0": 8
         },
         "vehicles": {
-            "tankauto": 3,
-            "ovdb": 1,
+            "truck": 3,
+            "bchief": 1,
             "slangenwagen": 1,
             "hovd": 1
         },
@@ -1972,9 +1972,9 @@
             "0": 10
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 2,
             "hovd": 1
         },
@@ -1990,9 +1990,9 @@
             "0": 12
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "hovd": 1,
@@ -2011,9 +2011,9 @@
             "0": 14
         },
         "vehicles": {
-            "tankauto": 12,
+            "truck": 12,
             "hulpverlening": 2,
-            "ovdb": 3,
+            "bchief": 3,
             "adembescherming": 1,
             "slangenwagen": 3,
             "hovd": 2,
@@ -2028,9 +2028,9 @@
     "145": {
         "name": "Natuurbrand",
         "vehicles": {
-            "tankauto": 40,
+            "truck": 40,
             "hulpverlening": 4,
-            "ovdb": 10,
+            "bchief": 10,
             "adembescherming": 1,
             "slangenwagen": 10,
             "hovd": 4,
@@ -2045,7 +2045,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 350
     },
@@ -2055,8 +2055,8 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1
+            "truck": 2,
+            "bchief": 1
         },
         "credits": 850
     },
@@ -2067,7 +2067,7 @@
             "3": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1500,
         "patients": {
@@ -2081,7 +2081,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 900,
@@ -2151,8 +2151,8 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hulpverlening": 1,
             "hovd": 1,
             "commando": 1
@@ -2171,8 +2171,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "hulpverlening": 1,
             "hovd": 1,
             "commando": 1,
@@ -2192,9 +2192,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "adembescherming": 1,
             "commando": 1
@@ -2216,7 +2216,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 350,
         "poi": 2
@@ -2228,9 +2228,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "adembescherming": 1
         },
@@ -2247,7 +2247,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 550
     },
@@ -2293,7 +2293,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 950,
@@ -2336,7 +2336,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 550
     },
@@ -2346,7 +2346,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 550,
         "poi": 17
@@ -2357,8 +2357,8 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 550,
@@ -2369,7 +2369,7 @@
             "specialisation": "Traumatologie"
         },
         "percentages": {
-            "ovdb": 40
+            "bchief": 40
         }
     },
     "172": {
@@ -2415,7 +2415,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 600,
         "poi": 17
@@ -2465,7 +2465,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "watervoertuig": 1,
             "noodhulpeen": 2
         },
@@ -2483,9 +2483,9 @@
         "vehicles": {
             "noodhulpeen": 2,
             "watervoertuig": 1,
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1600,
         "patients": {
@@ -2511,8 +2511,8 @@
             "noodhulpeen": 2,
             "watervoertuig": 1,
             "hulpverlening": 1,
-            "tankauto": 1,
-            "ovdb": 1
+            "truck": 1,
+            "bchief": 1
         },
         "credits": 1400,
         "patients": {
@@ -2532,7 +2532,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "watervoertuig": 1,
             "hulpverlening": 1
         },
@@ -2549,7 +2549,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "watervoertuig": 1
         },
         "credits": 400,
@@ -2565,8 +2565,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "noodhulpeen": 1
         },
@@ -2579,7 +2579,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "slangenwagen": 1
         },
         "credits": 490,
@@ -2593,7 +2593,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "slangenwagen": 1
         },
         "credits": 390,
@@ -2607,7 +2607,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 310,
@@ -2621,7 +2621,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 330,
@@ -2635,7 +2635,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 490,
@@ -2649,7 +2649,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 420,
@@ -2663,7 +2663,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "slangenwagen": 1
         },
         "credits": 490,
@@ -2677,7 +2677,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 140,
@@ -2692,7 +2692,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 190,
@@ -2707,7 +2707,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 420,
@@ -2722,7 +2722,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 190
     },
@@ -2732,7 +2732,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 190
     },
@@ -2742,7 +2742,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 190,
@@ -2776,8 +2776,8 @@
         "vehicles": {
             "noodhulpeen": 4,
             "ovdp": 1,
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "gevaar": 1
         },
         "credits": 800,
@@ -2839,8 +2839,8 @@
         },
         "vehicles": {
             "noodhulpeen": 2,
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hulpverlening": 1,
             "gevaar": 1
         },
@@ -2865,8 +2865,8 @@
         },
         "vehicles": {
             "noodhulpeen": 2,
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hulpverlening": 1,
             "gevaar": 1,
             "waarschuwing": 1,
@@ -2895,9 +2895,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -2923,9 +2923,9 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -2950,8 +2950,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
             "watervoertuig": 1,
@@ -2979,8 +2979,8 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
             "watervoertuig": 2,
@@ -3008,10 +3008,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -3037,10 +3037,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -3067,10 +3067,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "watervoertuig": 3,
@@ -3101,8 +3101,8 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -3127,9 +3127,9 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 2,
             "noodhulpeen": 1
@@ -3151,8 +3151,8 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 750,
@@ -3167,8 +3167,8 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 3,
-            "ovdb": 1,
+            "truck": 3,
+            "bchief": 1,
             "hovd": 1,
             "slangenwagen": 1
         },
@@ -3184,8 +3184,8 @@
             "0": 12
         },
         "vehicles": {
-            "tankauto": 4,
-            "ovdb": 1,
+            "truck": 4,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "slangenwagen": 1
@@ -3219,8 +3219,8 @@
             "noodhulpeen": 5,
             "polHeli": 1,
             "ovdp": 1,
-            "tankauto": 1,
-            "ovdb": 1
+            "truck": 1,
+            "bchief": 1
         },
         "credits": 1100,
         "poi": 14,
@@ -3234,7 +3234,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
             "redvoertuig": 1
         },
@@ -3251,7 +3251,7 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
             "redvoertuig": 1,
             "noodhulpeen": 1,
@@ -3304,8 +3304,8 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1
+            "truck": 2,
+            "bchief": 1
         },
         "credits": 700
     },
@@ -3315,7 +3315,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500
     },
@@ -3370,9 +3370,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "slangenwagen": 1,
             "adembescherming": 1,
@@ -3429,8 +3429,8 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "redvoertuig": 1
         },
         "credits": 900,
@@ -3441,12 +3441,12 @@
     "234": {
         "name": "Vliegtuig neergestort",
         "vehicles": {
-            "tankauto": 12,
+            "truck": 12,
             "redvoertuig": 1,
             "hulpverlening": 4,
             "slangenwagen": 1,
             "gevaar": 1,
-            "ovdb": 3,
+            "bchief": 3,
             "hovd": 2,
             "commando": 2,
             "noodhulpeen": 12
@@ -3505,9 +3505,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "noodhulpeen": 1
         },
@@ -3522,7 +3522,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 450
     },
@@ -3553,8 +3553,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -3578,8 +3578,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "noodhulpeen": 1
         },
@@ -3696,9 +3696,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -3725,9 +3725,9 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -3753,7 +3753,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -3767,14 +3767,14 @@
             "0": 11
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "gevaar": 1
         },
         "credits": 650,
         "poi": 8,
         "percentages": {
-            "ovdb": 30,
+            "bchief": 30,
             "gevaar": 10
         }
     },
@@ -3784,8 +3784,8 @@
             "0": 11
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1,
             "gevaar": 1
         },
@@ -3822,7 +3822,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 250,
@@ -3838,9 +3838,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1050,
@@ -3856,7 +3856,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 220,
         "poi": 0
@@ -3886,7 +3886,7 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 300,
         "poi": 0
@@ -3898,9 +3898,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 650,
@@ -3917,7 +3917,7 @@
         "vehicles": {
             "crashtender": 2,
             "afoosc": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1550,
         "poi": 32
@@ -3930,7 +3930,7 @@
         "vehicles": {
             "crashtender": 2,
             "afoosc": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1550,
         "poi": 32
@@ -3943,7 +3943,7 @@
         "vehicles": {
             "crashtender": 2,
             "afoosc": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1550,
         "poi": 32
@@ -3957,10 +3957,10 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
@@ -3985,10 +3985,10 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
@@ -4008,11 +4008,11 @@
             "5": 2
         },
         "vehicles": {
-            "ovdb": 1,
+            "bchief": 1,
             "crashtender": 2,
             "afoosc": 1,
             "noodhulpeen": 2,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1800,
         "patients": {
@@ -4030,7 +4030,7 @@
         "vehicles": {
             "crashtender": 2,
             "afoosc": 1,
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 1125,
         "poi": 34
@@ -4043,9 +4043,9 @@
             "5": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "crashtender": 1,
             "noodhulpeen": 2
         },
@@ -4068,9 +4068,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "crashtender": 1,
             "noodhulpeen": 2
         },
@@ -4095,9 +4095,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "crashtender": 1,
@@ -4125,15 +4125,15 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "crashtender": 1,
             "noodhulpeen": 1
         },
         "credits": 1650,
         "poi": 31,
         "percentages": {
-            "ovdb": 10
+            "bchief": 10
         }
     },
     "276": {
@@ -4144,8 +4144,8 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "hovd": 1,
             "crashtender": 1,
             "noodhulpeen": 2,
@@ -4194,7 +4194,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 850,
@@ -4210,9 +4210,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -4234,10 +4234,10 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -4285,7 +4285,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 1400,
@@ -4301,7 +4301,7 @@
             "3": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 340,
@@ -4320,7 +4320,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 350,
@@ -4335,9 +4335,9 @@
             "0": 5
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1750,
         "poi": 18
@@ -4349,9 +4349,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -4372,10 +4372,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -4398,10 +4398,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "waarschuwing": 2,
@@ -4424,9 +4424,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1575,
@@ -4449,9 +4449,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 2450,
@@ -4492,7 +4492,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 900,
@@ -4508,9 +4508,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "noodhulpeen": 1
         },
@@ -4528,9 +4528,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -4558,7 +4558,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -4579,8 +4579,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -4612,7 +4612,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 850,
@@ -4627,9 +4627,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1650,
         "poi": 22,
@@ -4644,9 +4644,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -4668,9 +4668,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 1450,
@@ -4692,9 +4692,9 @@
             "5": 3
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "noodhulpeen": 3
         },
@@ -4718,9 +4718,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 4,
@@ -4741,9 +4741,9 @@
             "5": 3
         },
         "vehicles": {
-            "tankauto": 16,
+            "truck": 16,
             "hulpverlening": 3,
-            "ovdb": 4,
+            "bchief": 4,
             "adembescherming": 1,
             "slangenwagen": 4,
             "hovd": 2,
@@ -4763,9 +4763,9 @@
             "5": 6
         },
         "vehicles": {
-            "tankauto": 24,
+            "truck": 24,
             "hulpverlening": 4,
-            "ovdb": 6,
+            "bchief": 6,
             "adembescherming": 1,
             "slangenwagen": 6,
             "hovd": 3,
@@ -4818,9 +4818,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -4848,7 +4848,7 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "noodhulpeen": 1
         },
         "credits": 1000,
@@ -4862,9 +4862,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 2100,
@@ -4888,9 +4888,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -4945,7 +4945,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "wateraanhanger": 1
         },
         "credits": 1450,
@@ -4962,8 +4962,8 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1
         },
@@ -4986,9 +4986,9 @@
             "water": 4
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -5016,7 +5016,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 300,
         "poi": 16
@@ -5027,8 +5027,8 @@
             "0": 7
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1000,
@@ -5097,10 +5097,10 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -5125,10 +5125,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "waarschuwing": 1,
@@ -5153,9 +5153,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 1
@@ -5170,7 +5170,7 @@
         "poi": 21,
         "percentages": {
             "hulpverlening": 20,
-            "ovdb": 50,
+            "bchief": 50,
             "waarschuwing": 10,
             "gevaar": 50
         }
@@ -5269,7 +5269,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 850,
@@ -5285,9 +5285,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1750,
@@ -5303,9 +5303,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -5366,9 +5366,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 1
@@ -5377,7 +5377,7 @@
         "poi": 11,
         "percentages": {
             "hulpverlening": 60,
-            "ovdb": 80,
+            "bchief": 80,
             "waarschuwing": 10,
             "gevaar": 10
         }
@@ -5389,9 +5389,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -5413,7 +5413,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500,
         "poi": 14,
@@ -5427,7 +5427,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500,
         "poi": 13,
@@ -5441,7 +5441,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 500,
         "expansions": {
@@ -5457,9 +5457,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "noodhulpeen": 1
         },
@@ -5473,7 +5473,7 @@
         "poi": 22,
         "percentages": {
             "hulpverlening": 40,
-            "ovdb": 50,
+            "bchief": 50,
             "gevaar": 50
         }
     },
@@ -5485,9 +5485,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -5512,10 +5512,10 @@
     "346": {
         "name": "Brand in opslagloods met gevaarlijke stoffen",
         "vehicles": {
-            "tankauto": 24,
+            "truck": 24,
             "redvoertuig": 6,
             "hulpverlening": 4,
-            "ovdb": 6,
+            "bchief": 6,
             "adembescherming": 2,
             "slangenwagen": 8,
             "waarschuwing": 4,
@@ -5529,10 +5529,10 @@
     "347": {
         "name": "Brand bij afvalverwerker",
         "vehicles": {
-            "tankauto": 20,
+            "truck": 20,
             "redvoertuig": 2,
             "hulpverlening": 2,
-            "ovdb": 5,
+            "bchief": 5,
             "adembescherming": 1,
             "slangenwagen": 6,
             "waarschuwing": 4,
@@ -5552,10 +5552,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -5581,10 +5581,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
             "noodhulpeen": 2
@@ -5638,7 +5638,7 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "noodhulpeen": 1
         },
@@ -5656,9 +5656,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 3300,
@@ -5681,9 +5681,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
@@ -5709,9 +5709,9 @@
             "0": 14
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 2,
             "hovd": 1
         },
@@ -5728,9 +5728,9 @@
             "0": 16
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 4,
             "hovd": 1,
@@ -5752,9 +5752,9 @@
             "5": 8
         },
         "vehicles": {
-            "tankauto": 32,
+            "truck": 32,
             "hulpverlening": 4,
-            "ovdb": 8,
+            "bchief": 8,
             "adembescherming": 2,
             "slangenwagen": 10,
             "hovd": 3,
@@ -5788,7 +5788,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 300,
@@ -5804,9 +5804,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1150,
@@ -5827,9 +5827,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "noodhulpeen": 2
@@ -5854,8 +5854,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1
         },
         "credits": 1450,
@@ -5867,7 +5867,7 @@
         },
         "poi": 27,
         "percentages": {
-            "ovdb": 20,
+            "bchief": 20,
             "watervoertuig": 20
         }
     },
@@ -5880,8 +5880,8 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 2,
-            "ovdb": 1,
+            "truck": 2,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -5904,10 +5904,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
@@ -5999,9 +5999,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 1200,
@@ -6025,8 +6025,8 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "noodhulpeen": 1
         },
@@ -6044,7 +6044,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 600,
         "poi": 17
@@ -6076,9 +6076,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1000,
@@ -6090,7 +6090,7 @@
         },
         "percentages": {
             "hulpverlening": 20,
-            "ovdb": 80
+            "bchief": 80
         }
     },
     "376": {
@@ -6102,10 +6102,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
             "noodhulpeen": 1
@@ -6131,10 +6131,10 @@
             "water": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "watervoertuig": 4,
             "wateraanhanger": 2,
@@ -6161,9 +6161,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "noodhulpeen": 2
         },
@@ -6188,9 +6188,9 @@
             "5": 4
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -6242,7 +6242,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 900,
@@ -6257,10 +6257,10 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 2150,
         "poi": 0,
@@ -6276,10 +6276,10 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -6302,10 +6302,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -6338,7 +6338,7 @@
             "3": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 400,
@@ -6358,9 +6358,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 900,
@@ -6382,7 +6382,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 800,
@@ -6397,9 +6397,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1500,
@@ -6415,9 +6415,9 @@
             "0": 12
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
             "gevaar": 1,
@@ -6439,10 +6439,10 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 2,
             "waarschuwing": 1,
@@ -6465,10 +6465,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 3,
             "waarschuwing": 1,
@@ -6490,10 +6490,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 12,
+            "truck": 12,
             "redvoertuig": 3,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 4,
             "waarschuwing": 1,
@@ -6515,9 +6515,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -6538,9 +6538,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
@@ -6560,9 +6560,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
@@ -6689,7 +6689,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 500,
@@ -6704,7 +6704,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 800,
@@ -6719,9 +6719,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1500,
         "poi": 47
@@ -6734,9 +6734,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -6763,10 +6763,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -6794,10 +6794,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 2,
             "hovd": 1,
@@ -6823,10 +6823,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 3,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "hovd": 1,
@@ -6850,13 +6850,13 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1
+            "truck": 1,
+            "bchief": 1
         },
         "credits": 800,
         "poi": 49,
         "percentages": {
-            "ovdb": 10
+            "bchief": 10
         }
     },
     "415": {
@@ -6865,9 +6865,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1800,
         "poi": 49,
@@ -6882,9 +6882,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 2
@@ -6958,9 +6958,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 1200,
@@ -7043,7 +7043,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 850,
@@ -7058,9 +7058,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1550,
         "poi": 48,
@@ -7075,9 +7075,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -7098,10 +7098,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -7124,10 +7124,10 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 3,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "waarschuwing": 2,
@@ -7162,9 +7162,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 950,
@@ -7187,9 +7187,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1050,
@@ -7213,9 +7213,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 1
@@ -7241,9 +7241,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 2
@@ -7267,9 +7267,9 @@
             "5": 5
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -7294,9 +7294,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -7322,10 +7322,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -7351,9 +7351,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -7379,10 +7379,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -7407,9 +7407,9 @@
             "5": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 3
         },
         "credits": 950,
@@ -7421,7 +7421,7 @@
         "poi": 44,
         "percentages": {
             "hoogwerker": 30,
-            "ovdb": 20
+            "bchief": 20
         }
     },
     "441": {
@@ -7432,9 +7432,9 @@
             "5": 4
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "noodhulpeen": 4
         },
@@ -7459,9 +7459,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 4,
@@ -7484,7 +7484,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 750,
@@ -7499,9 +7499,9 @@
             "0": 6
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1550,
         "poi": 39,
@@ -7517,9 +7517,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "noodhulpeen": 2
@@ -7547,9 +7547,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
@@ -7577,9 +7577,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
@@ -7632,7 +7632,7 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "wateraanhanger": 1
         },
         "credits": 400,
@@ -7647,7 +7647,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1
         },
@@ -7663,7 +7663,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 300,
         "poi": 1
@@ -7674,7 +7674,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 320,
@@ -7688,7 +7688,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 300,
         "poi": 3
@@ -7699,7 +7699,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "slangenwagen": 1
         },
@@ -7716,9 +7716,9 @@
             "0": 8
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1
         },
         "credits": 1950,
@@ -7734,9 +7734,9 @@
             "0": 13
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
             "hovd": 1
         },
@@ -7752,7 +7752,7 @@
             "0": 10
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "afoosc": 1
         },
         "credits": 600,
@@ -7767,7 +7767,7 @@
             "0": 10
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "afoosc": 1
         },
         "credits": 1350,
@@ -7782,10 +7782,10 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
@@ -7809,8 +7809,8 @@
             "5": 5
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 4,
@@ -7829,8 +7829,8 @@
             "5": 5
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 4,
@@ -7849,8 +7849,8 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "gevaar": 1,
             "noodhulpeen": 1
         },
@@ -7861,7 +7861,7 @@
             "2": 463
         },
         "percentages": {
-            "ovdb": 20,
+            "bchief": 20,
             "gevaar": 10
         }
     },
@@ -7873,9 +7873,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 950,
@@ -7888,7 +7888,7 @@
         "poi": 37,
         "percentages": {
             "hoogwerker": 20,
-            "ovdb": 10
+            "bchief": 10
         }
     },
     "466": {
@@ -7899,9 +7899,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1600,
@@ -7924,9 +7924,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "noodhulpeen": 2
         },
@@ -7951,9 +7951,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -7984,9 +7984,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 3,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -8015,8 +8015,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 700,
@@ -8028,7 +8028,7 @@
         },
         "poi": 43,
         "percentages": {
-            "ovdb": 50
+            "bchief": 50
         }
     },
     "471": {
@@ -8039,8 +8039,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 2,
@@ -8064,8 +8064,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "noodhulpeen": 2
         },
         "credits": 700,
@@ -8077,7 +8077,7 @@
         },
         "poi": 22,
         "percentages": {
-            "ovdb": 50
+            "bchief": 50
         }
     },
     "473": {
@@ -8088,8 +8088,8 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 2,
@@ -8112,9 +8112,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -8136,9 +8136,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
@@ -8190,7 +8190,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 170
     },
@@ -8200,7 +8200,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 170
     },
@@ -8213,9 +8213,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -8241,10 +8241,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 1
@@ -8270,10 +8270,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
             "noodhulpeen": 1
@@ -8298,9 +8298,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "gevaar": 1,
             "noodhulpeen": 1
         },
@@ -8324,9 +8324,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "noodhulpeen": 2
@@ -8351,9 +8351,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -8375,7 +8375,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 800,
@@ -8390,7 +8390,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 800,
@@ -8405,7 +8405,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 800,
@@ -8420,7 +8420,7 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1
         },
         "credits": 800,
@@ -8437,9 +8437,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 1,
@@ -8459,9 +8459,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 1,
@@ -8518,9 +8518,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "noodhulpeen": 2
         },
@@ -8545,9 +8545,9 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "noodhulpeen": 2
         },
@@ -8572,10 +8572,10 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -8602,10 +8602,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 3
@@ -8630,7 +8630,7 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "noodhulpeen": 1
         },
         "credits": 550
@@ -8653,9 +8653,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "noodhulpeen": 2
         },
@@ -8678,9 +8678,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 900,
@@ -8702,9 +8702,9 @@
             "5": 3
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 3
         },
         "credits": 2000,
@@ -8725,9 +8725,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 3,
@@ -8749,7 +8749,7 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "noodhulpeen": 1
         },
@@ -8767,9 +8767,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1600,
@@ -8791,9 +8791,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "slangenwagen": 1,
             "gevaar": 1,
             "hovd": 1,
@@ -8821,9 +8821,9 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -8853,10 +8853,10 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 4,
+            "truck": 4,
             "redvoertuig": 2,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "waarschuwing": 1,
@@ -8880,10 +8880,10 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 8,
+            "truck": 8,
             "redvoertuig": 3,
             "hulpverlening": 1,
-            "ovdb": 2,
+            "bchief": 2,
             "adembescherming": 1,
             "slangenwagen": 2,
             "waarschuwing": 2,
@@ -8904,7 +8904,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 600,
@@ -8920,9 +8920,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1850,
@@ -8941,7 +8941,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 700,
@@ -8957,9 +8957,9 @@
             "5": 1
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 1900,
@@ -8981,10 +8981,10 @@
             "water": 1
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -9011,10 +9011,10 @@
             "water": 2
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
             "noodhulpeen": 2
@@ -9041,10 +9041,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
             "noodhulpeen": 2
@@ -9072,10 +9072,10 @@
             "water": 3
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "watervoertuig": 3,
@@ -9107,10 +9107,10 @@
             "water": 4
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "watervoertuig": 4,
@@ -9142,10 +9142,10 @@
             "water": 4
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
             "hulpverlening": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
@@ -9219,7 +9219,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 370
     },
@@ -9229,7 +9229,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 370
     },
@@ -9239,7 +9239,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 220
     },
@@ -9249,7 +9249,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 220
     },
@@ -9259,7 +9259,7 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 2
+            "truck": 2
         },
         "credits": 1000
     },
@@ -9269,8 +9269,8 @@
             "0": 3
         },
         "vehicles": {
-            "ovdb": 1,
-            "tankauto": 3
+            "bchief": 1,
+            "truck": 3
         },
         "credits": 2500,
         "patients": {
@@ -9278,7 +9278,7 @@
             "specialisation": "Interne Geneeskunde"
         },
         "percentages": {
-            "ovdb": 90
+            "bchief": 90
         }
     },
     "531": {
@@ -9287,7 +9287,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 900,
         "poi": 4
@@ -9298,7 +9298,7 @@
             "0": 2
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1
         },
         "credits": 1500,
@@ -9312,7 +9312,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -9322,7 +9322,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -9332,7 +9332,7 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1
+            "truck": 1
         },
         "credits": 400
     },
@@ -9364,9 +9364,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 5,
+            "truck": 5,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "noodhulpeen": 2
         },
@@ -9418,8 +9418,8 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 550,
@@ -9430,7 +9430,7 @@
             "specialisation": "Traumatologie"
         },
         "percentages": {
-            "ovdb": 40
+            "bchief": 40
         }
     },
     "543": {
@@ -9439,8 +9439,8 @@
             "0": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "noodhulpeen": 1
         },
         "credits": 550,
@@ -9451,7 +9451,7 @@
             "specialisation": "Traumatologie"
         },
         "percentages": {
-            "ovdb": 40
+            "bchief": 40
         }
     },
     "544": {
@@ -9501,8 +9501,8 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 10,
@@ -9529,8 +9529,8 @@
             "11": 1
         },
         "vehicles": {
-            "tankauto": 1,
-            "ovdb": 1,
+            "truck": 1,
+            "bchief": 1,
             "hovd": 1,
             "commando": 1,
             "noodhulpeen": 10,
@@ -9554,7 +9554,7 @@
             "0": 3
         },
         "vehicles": {
-            "tankauto": 1,
+            "truck": 1,
             "redvoertuig": 1
         },
         "credits": 850,
@@ -9572,9 +9572,9 @@
             "0": 4
         },
         "vehicles": {
-            "tankauto": 2,
+            "truck": 2,
             "redvoertuig": 1,
-            "ovdb": 1
+            "bchief": 1
         },
         "credits": 1600,
         "poi": 25,
@@ -9593,9 +9593,9 @@
             "5": 2
         },
         "vehicles": {
-            "tankauto": 3,
+            "truck": 3,
             "redvoertuig": 1,
-            "ovdb": 1,
+            "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
             "noodhulpeen": 1
@@ -9626,5 +9626,40 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "554": {
+        "name": "Monteur in aanraking met hoogspanning",
+        "stations": {
+            "0": 5,
+            "3": 10,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 1,
+            "hulpverlening": 1,
+            "bchief": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 3800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 49,
+        "percentages": {
+            "hulpverlening": 60
+        }
+    },
+    "555": {
+        "name": "Persoon in aanraking met laagspanning",
+        "stations": {
+            "3": 2
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Traumatologie"
     }
 }

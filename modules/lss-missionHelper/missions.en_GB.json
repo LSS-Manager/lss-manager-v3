@@ -1864,5 +1864,19 @@
         },
         "credits": 2000,
         "poi": 8
+    },
+    "138": {
+        "name": "Large Drunken Disorder",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 3,
+            "k9": 1
+        },
+        "credits": 950,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

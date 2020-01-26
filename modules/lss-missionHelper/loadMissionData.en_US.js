@@ -28,9 +28,9 @@ $.get(missionlink)
             pmotorcycle: "Police Motorcycle",
             swatArmoured: "SWAT Armoured Vehicle",
             swatSuv: "SWAT SUV",
-            hems: "HEMS",
+            rth: "HEMS",
             policeHeli: "Police Helicopter",
-            rtw: "Ambulance"
+            ambulance: "Ambulance"
         };
 
         let credits;
