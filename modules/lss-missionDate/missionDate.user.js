@@ -23,6 +23,12 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
+  I18n.translations.es_ES.lssm.missionDate = {
+    ago: 'atrás',
+    months: ['Jan', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
   I18n.translations.pl_PL.lssm.missionDate = {
     ago: 'temu',
     months: ['Sty', 'Lut', 'Mar', 'Kwi', 'Maj', 'Cze', 'Lip', 'Sie', 'Wrz', 'Paź', 'Lis', 'Gru'],

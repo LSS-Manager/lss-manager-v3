@@ -23,6 +23,12 @@
         noVGE: "No se ha salvado la misión de la Alianza!",
         VGEs: "VGEs"
     };
+    I18n.translations.pt_PT['lssm']['saveVGE'] = {
+        save: "Salvar",
+        del: "Excluir",
+        noVGE: "A missão Alianz não foi salva!",
+        VGEs: "VGEs"
+    };
     I18n.translations.sv_SE['lssm']['saveVGE'] = {
         save: "Spara",
         del: "Radera",

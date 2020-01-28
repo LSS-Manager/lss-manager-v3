@@ -76,6 +76,7 @@ I18n.fallbacks = true;
 I18n.locales.de = ['de', 'en_US', 'en_AU', 'en_GB'];
 I18n.locales.nl = ['nl', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.es_ES = ['es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
+I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.pl_PL = ['pl_PL', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.sv_SE = ['sv_SE', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.it_IT = ['it_IT', 'en_US', 'en_AU', 'en_GB', 'de'];
@@ -86,7 +87,7 @@ I18n.locales.da_DK = ['da_DK', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.cs_CZ = ['cs_CZ', 'en_US', 'en_AU', 'en_GB', 'de']
 I18n.locales.uk_UA = ['uk_UA', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.tr_TR = ['tr_TR', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.pt_BR = ['pt_BR', 'en_US', 'en_AU', 'en_GB', 'de'];
+I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de'];
 // en, en_GB and en_AU are essentially the same.
 I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de'];
@@ -97,6 +98,7 @@ if (!I18n.translations.hasOwnProperty('en_US')) I18n.translations.en_US = {};
 if (!I18n.translations.hasOwnProperty('en_GB')) I18n.translations.en_GB = {};
 if (!I18n.translations.hasOwnProperty('en_AU')) I18n.translations.en_AU = {};
 if (!I18n.translations.hasOwnProperty('es_ES')) I18n.translations.es_ES = {};
+if (!I18n.translations.hasOwnProperty('pt_PT')) I18n.translations.pt_PT = {};
 if (!I18n.translations.hasOwnProperty('pl_PL')) I18n.translations.pl_PL = {};
 if (!I18n.translations.hasOwnProperty('sv_SE')) I18n.translations.sv_SE = {};
 if (!I18n.translations.hasOwnProperty('it_IT')) I18n.translations.it_IT = {};
@@ -171,6 +173,24 @@ I18n.translations.es_ES.lssm = {
     cantload: "<h2>El LSS-Manager no se ha podido cargar</h2>Póngase en contacto con un miembro del equipo de desarrollo.",
     login: "Por favor, identifíquese primero",
     mapkit: "Este módulo no soporta Mapkit",
+    apps: {}
+};
+I18n.translations.pt_PT.lssm = {
+    appstore_welcome: "Bem-vindo à Appstore do LSS Manager",
+    appstore_desc: "Aqui você encontrará vários plugins que enriquecerão sua experiência de jogo. Cada plugin pode ser " +
+        "ativado individualmente, colocando a alavanca em verde. Se houver algum problema, você pode se juntar ao nosso" +
+        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> ou " +
+        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "\" target=\"blank\">escreva uma mensagem no fórum</a>.",
+    back_lss: "Voltar ao operadore",
+    settings: "Configurações",
+    saving: "Salvando ...",
+    save: "Salve",
+    activated: "Os seguintes módulos foram ativados:",
+    cantactivate: "não pode ser ativado, pois é incompatível com os seguintes módulos:",
+    cantload: "<h2>Não foi possível carregar o LSS-Manager</h2>Entre em contato com um membro da equipe de desenvolvimento.",
+    login: "Faça o login primeiro",
+    mapkit: "Este módulo não suporta o Mapkit",
     apps: {}
 };
 I18n.translations.cs_CZ.lssm = {
@@ -360,7 +380,7 @@ lssm.Module = {
         name: {
             de: 'Keyboard Alarmierung',
             en_US: 'Callview control',
-            es_ES: 'Control de Callview',
+            es_ES: 'Alarma de teclado',
             pl_PL: 'Sterowanie podglądem wywołań',
             sv_SE: 'Samtalskontroll',
             da_DK: 'Kontrolelementet callview',
@@ -377,6 +397,7 @@ lssm.Module = {
             de: 'Einsatzmaske mit Tastatur steuern.',
             en_US: 'Control the mission view with the keyboard.',
             es_ES: 'Controle la vista de misión con el teclado.',
+            pt_PT: 'Controle a visão da missão com o teclado.',
             pl_PL: 'Kontroluj widok misji za pomocą klawiatury.',
             sv_SE: 'Kontrollera uppdragsvyn med tangentbordet.',
             da_DK: 'Styr missions visningen med tastaturet.',
@@ -429,6 +450,8 @@ lssm.Module = {
                 'is telling you how many missions etc. you have since your last visit within that window.',
             es_ES: 'Ver con el foco principal en el mapa. Las misiones y otras ventanas se pueden cambiar usando un menú. Una insignia ' +
                 'te dice cuántas misiones, etc. tienes desde tu última visita dentro de esa ventana.',
+            pt_PT: 'Ver com foco principal no mapa. Missões e outras janelas podem ser alteradas usando um menu. Um emblema ' +
+                'está dizendo quantas missões etc.você tem desde a sua última visita nessa janela.',
             pl_PL: 'Widok z głównym naciskiem na mapę. Misje i inne okna można zmieniać za pomocą menu. Odznaka informuje, ile misji itp.' +
                 ' masz od ostatniej wizyty w tym oknie.',
             sv_SE: 'Visa med huvudfokus på kartan. Uppdrag och andra fönster kan ändras med en meny. Ett märke säger hur många ' +
@@ -464,6 +487,7 @@ lssm.Module = {
                 'Funksprüche.',
             en_US: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
             es_ES: 'Ver con el mapa 100% en la parte superior - debajo de que las cuatro ventanas de llamadas, edificios, chat y radio.',
+            pt_PT: 'Veja com mapa 100% na área superior - abaixo das quatro janelas, chamadas, edifícios, bate-papo e rádio.',
             pl_PL: 'Widok z mapą w 100% na górnym obszarze - poniżej, że cztery okna wywołują, budynki, czat i radio.',
             sv_SE: 'Visa med 100% karta i det övre området - nedanför att de fyra fönstren samtal, byggnader, chat och radio.',
             da_DK: 'Vis med 100% kort på det øvre område-nedenfor, at de fire Windows opkald, bygninger, chat og radio.',
@@ -489,6 +513,7 @@ lssm.Module = {
             de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
             en_US: 'Layout without map. The four windows are using 100% of the given browser height.',
             es_ES: 'Plano sin mapa. Las cuatro ventanas utilizan el 100% de la altura del navegador.',
+            pt_PT: 'Layout sem mapa. As quatro janelas estão usando 100% da altura do navegador fornecida.',
             pl_PL: 'Układ bez mapy. Cztery okna korzystają w 100% z danej wysokości przeglądarki.',
             sv_SE: 'Layout utan karta. De fyra fönstren använder 100% av den angivna webbläsarens höjd.',
             da_DK: 'Layout uden kort. De fire Vinduer bruger 100% af den givne browser højde.',
@@ -515,6 +540,8 @@ lssm.Module = {
                 'Below that the buildings, chat and radio.',
             es_ES: 'Mapa con 100% de altura a la izquierda. A su lado las llamadas, cada categoría en su propia columna. ' +
                 'Debajo de los edificios, chat y radio.',
+            pt_PT: 'Mapa com 100% de altura no lado esquerdo. Ao lado, as chamadas, cada categoria em sua própria coluna. ' +
+                'Abaixo, os prédios, bate- papo e rádio.',
             pl_PL: 'Mapa z 100% wysokością po lewej stronie. Obok znajdują się wywołania, każda kategoria w swojej własnej ' +
                 'kolumnie. Poniżej znajdują się budynki, czat i radio.',
             sv_SE: 'Karta med 100% höjd på vänster sida. Bredvid den samtal, varje kategori i sin egen kolumn. Under det finns byggnaderna, chatten och radio.',
@@ -567,6 +594,8 @@ lssm.Module = {
                 'each one.',
             es_ES: 'Minimizar las entradas de la lista de misiones. Puede desglosar o minimizar todas las llamadas a ' +
                 'la vez o hacerlo para cada una de ellas.',
+            pt_PT: 'Minimize as entradas da lista de missões. Você pode expandir ou minimizar todas as chamadas de uma só vez ou fazê-lo por ' +
+                 'cada um.',
             pl_PL: 'Minimalizacja wpisów na liście misji. Możesz albo rozszerzyć lub zminimalizować wszystkie połączenia' +
                 ' jednocześnie, albo zrobić to dla każdego z nich.',
             sv_SE: 'Minimera poster i uppdragslistan. Du kan antingen expandera eller minimera alla samtal samtidigt eller göra det för var och en.',
@@ -591,6 +620,7 @@ lssm.Module = {
             de: 'Eigene VGE speichern',
             en_US: 'Save created alliance calls',
             es_ES: 'Guardar llamadas de alianza creadas',
+            pt_PT: 'Salvar chamadas de aliança criadas',
             pl_PL: 'Zapisz utworzone połączenia sojusznicze',
             sv_SE: 'Spara skapade allianssamtal',
             da_DK: 'Gem oprettede Alliance opkald',
@@ -607,6 +637,7 @@ lssm.Module = {
             de: 'Funktion um selbst erstellte VGE zu speichern.',
             en_US: 'Enables a function to save own created mission calls to use them as template.',
             es_ES: 'Habilita una función para guardar las llamadas de misión creadas por el usuario y utilizarlas como plantilla.',
+            pt_PT: 'Ativa uma função para salvar chamadas de missão criadas e usá-las como modelo.',
             pl_PL: 'Umożliwia zapisywanie własnych wywołań misji w celu wykorzystania ich jako szablonu.',
             sv_SE: 'Aktiverar en funktion för att spara egna skapade uppdragssamtal för att använda dem som mall.',
             da_DK: 'Aktiverer en funktion til at gemme egne oprettede missionskald til at bruge dem som skabelon.',
@@ -667,6 +698,7 @@ lssm.Module = {
         name: {
             de: 'Notification Alert',
             es_ES: 'Alerta de notificación',
+            pt_PT: 'Alerta de notificação',
             pl_PL: 'Powiadomienie o zagrożeniu',
             sv_SE: 'Meddelande varning',
             da_DK: 'Meddelelse om besked',
@@ -684,6 +716,7 @@ lssm.Module = {
                 '(ChatPoput included)',
             en_US: 'HTML5 Chatnotifications using the browser notificationsystem.',
             es_ES: 'Chatnotificaciones HTML5 utilizando el sistema de notificaciones del navegador.',
+            pt_PT: 'Notificações de bate-papo em HTML5 usando o sistema de notificação do navegador.',
             pl_PL: 'HTML5 Powiadomienia czatowe z wykorzystaniem systemu powiadamiania w przeglądarce.',
             sv_SE: 'HTML5 Chatnotifieringar med hjälp av webbläsarens aviseringssystem.',
             da_DK: 'HTML5 Chatnotifikationer ved hjælp af browseren notifikationssystem.',
@@ -708,6 +741,7 @@ lssm.Module = {
             de: 'Neues Design für die Oberfläche',
             en_US: 'New design for the game.',
             es_ES: 'Nuevo diseño para el juego.',
+            pt_PT: 'Novo design para o jogo.',
             pl_PL: 'Nowy projekt gry.',
             sv_SE: 'Ny design för spelet.',
             da_DK: 'Nyt design til spillet.',
@@ -744,6 +778,7 @@ lssm.Module = {
             de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
             en_US: 'Displays the current events with capitalized LINE!',
             es_ES: 'Muestra los eventos actuales con LÍNEA en mayúsculas!',
+            pt_PT: 'Exibe os eventos atuais com LINE maiúsculo!',
             pl_PL: 'Wyświetla bieżące zdarzenia z skapitalizowaną linią!',
             sv_SE: 'Visar aktuella händelser med aktiverad LINE!',
             da_DK: 'Viser de aktuelle begivenheder med kapitaliseret linje!',
@@ -779,6 +814,7 @@ lssm.Module = {
             de: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
             en_US: 'Allows you to hide busy or inappropriate destinations for speech requests',
             es_ES: 'Le permite ocultar destinos ocupados o inapropiados para las peticiones de voz.',
+            pt_PT: 'Permite ocultar destinos ocupados ou inapropriados para solicitações de fala',
             pl_PL: 'Umożliwia ukrywanie zajętych lub nieodpowiednich miejsc docelowych dla zapytań głosowych.',
             sv_SE: 'Gör att du kan dölja upptagen eller olämpliga destinationer för talbegäranden',
             da_DK: 'Giver dig mulighed for at skjule optagede eller upassende destinationer for taleanmodninger',
@@ -798,6 +834,7 @@ lssm.Module = {
             de: 'FMS 5 in der Karte',
             en_US: 'Request transport in map',
             es_ES: 'Solicitar transporte en el mapa',
+            pt_PT: 'Solicitar transporte no mapa',
             pl_PL: 'Żądanie transportu na mapie',
             sv_SE: 'Begär transport på kartan',
             da_DK: 'Anmod om transport på kort',
@@ -814,6 +851,7 @@ lssm.Module = {
             de: 'Zeigt alle FMS 5 in der Karte an.',
             en_US: 'Shows request transports within the map lower left corner.',
             es_ES: 'Muestra los transportes de la solicitud en la esquina inferior izquierda del mapa.',
+            pt_PT: 'Mostra a solicitação de transporte no canto inferior esquerdo do mapa.',
             pl_PL: 'Pokazuje transporty żądań w lewym dolnym rogu mapy.',
             sv_SE: 'Visar begärtransporter inom kartan nedre vänstra hörnet.',
             da_DK: 'Viser anmodnings transporter på kortet i nederste venstre hjørne.',
@@ -832,6 +870,7 @@ lssm.Module = {
     Clock: {
         name: {
             de: 'Clock',
+            pt_PT: 'Relógio',
             pl_PL: 'Zegar',
             sv_SE: 'Klocka',
             da_DK: 'Ur',
@@ -848,6 +887,7 @@ lssm.Module = {
             de: 'Zeigt eine Uhr in der Karte an.',
             en_US: 'Enables a small clock within the map.',
             es_ES: 'Activa un pequeño reloj dentro del mapa.',
+            pt_PT: 'Ative um pequeno relógio dentro do mapa.',
             pl_PL: 'Włącza mały zegar na mapie.',
             sv_SE: 'Aktiverar en liten klocka på kartan.',
             da_DK: 'Giver mulighed for et lille ur på kortet.',
@@ -887,6 +927,7 @@ lssm.Module = {
             de: 'Einsätze freigeben',
             en_US: 'Mission share',
             es_ES: 'Porcentaje correspondiente a la misión',
+            pt_PT: 'Missão compartilhada',
             pl_PL: 'Udział w misji',
             sv_SE: 'Uppdragsandel',
             da_DK: 'Mission deling',
@@ -903,6 +944,7 @@ lssm.Module = {
             de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en_US: 'Instantly share missions without opening the call by clicking a button in the overview.',
             es_ES: 'Comparte misiones al instante sin abrir la llamada haciendo clic en un botón de la vista general.',
+            pt_PT: 'Compartilhe missões instantaneamente sem abrir a chamada clicando em um botão na visão geral.',
             pl_PL: 'Natychmiast udostępniaj misje bez otwierania połączenia, klikając przycisk w przeglądzie.',
             sv_SE: 'Dela direkt uppdrag utan att öppna samtalet genom att klicka på en knapp i översikten.',
             da_DK: 'Del missioner med det samme uden at åbne opkaldet ved at klikke på en knap i oversigten.',
@@ -923,6 +965,7 @@ lssm.Module = {
             de: 'Alarmieren, Teilen & Posten',
             en_US: 'Alert, Share & Post',
             es_ES: 'Alerta, Compartir y Publicar',
+            pt_PT: 'Alertar, compartilhar e publicar',
             pl_PL: 'Alerty, akcje i poczta',
             it_IT: 'Allarme, condivisione e pubblicazione',
             tr_TR: 'Uyarı, Paylaş ve Gönder',
@@ -939,6 +982,7 @@ lssm.Module = {
             de: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
             en_US: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
             es_ES: 'Añade un nuevo botón para alertar, compartir y publicar mensajes predefinidos en el chat. En un solo paso!',
+            pt_PT: 'Adicione um novo botão para alertar, compartilhar e postar mensagens predefinidas no chat. Em uma etapa!',
             pl_PL: 'Dodaje nowy przycisk ostrzegania, udostępniania i publikowania predefiniowanych wiadomości na czacie. W jednym kroku!',
             sv_SE: 'Lägger till en ny knapp för att varna, dela och posta fördefinierade meddelanden till chatten. På bara ett steg!',
             da_DK: 'Tilføjer en ny knap til alarmering, deling og udstationering af foruddefinerede meddelelser til chatten. I bare et skridt!',
@@ -958,6 +1002,7 @@ lssm.Module = {
             de: 'Einsätze suchen',
             en_US: 'Mission search',
             es_ES: 'Búsqueda de misiones',
+            pt_PT: 'Pesquisa de missão',
             pl_PL: 'Poszukiwanie misji',
             sv_SE: 'Uppdragssökning',
             da_DK: 'Mission søgning',
@@ -976,6 +1021,8 @@ lssm.Module = {
                 'quickly.',
             es_ES: 'Buscar llamadas y filtrarlas - un grupo de botones en la parte inferior le permite cambiar rápidamente ' +
                 ' las misiones buscadas.',
+            pt_PT: 'Pesquise chamadas e filtre-as - um grupo de botões na parte inferior permite alterar rapidamente ' +
+                 'as missões procuraram.',
             pl_PL: 'Wyszukiwanie połączeń i filtrowanie ich - grupa przycisków na dole pozwala szybko zmieniać wyszukiwane misje.',
             sv_SE: 'Sök efter samtal och filtrera dem - en grupp knappar längst ner låter dig snabbt ändra sökta uppdrag.',
             da_DK: 'Søg efter opkald & filtrere dem-en gruppe af knapper på bunden kan du ændre søgte missioner hurtigt.',
@@ -1012,6 +1059,7 @@ lssm.Module = {
             de: 'Wachen Status',
             en_US: 'Station status',
             es_ES: 'Estado de la estación',
+            pt_PT: 'Status da estação',
             pl_PL: 'Status stacji',
             sv_SE: 'Stationsstatus',
             da_DK: 'Status for Station',
@@ -1028,6 +1076,7 @@ lssm.Module = {
             de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en_US: 'Shows the code of vehicles on station hover on the map.',
             es_ES: 'Muestra el código de los vehículos en la estación y pasa el puntero del ratón sobre el mapa.',
+            pt_PT: 'Ele mostra o código dos veículos na estação e passa o ponteiro do mouse sobre o mapa.',
             pl_PL: 'Pokazuje kod pojazdów na stacji na mapie.',
             sv_SE: 'Visar fordonskoden på stationen på muspekaren på kartan.',
             da_DK: 'Viser koden for køretøjer på stationen hover på kortet.',
@@ -1047,6 +1096,7 @@ lssm.Module = {
             de: 'Fahrzeuge umbenennen',
             en_US: 'Rename vehicle',
             es_ES: 'Renombrar vehículo',
+            pt_PT: 'Renomear veículo',
             pl_PL: 'Zmiana nazwy pojazdu',
             sv_SE: 'Byt namn på fordon',
             da_DK: 'Omdøb køretøj',
@@ -1063,6 +1113,7 @@ lssm.Module = {
             de: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
             en_US: 'Rename vehicles in bulk using tags.',
             es_ES: 'Cambie el nombre de los vehículos a granel utilizando etiquetas.',
+            pt_PT: 'Renomeie os veículos em massa usando etiquetas.',
             pl_PL: 'Zmiana nazwy pojazdów luzem za pomocą identyfikatorów.',
             sv_SE: 'Byt namn på fordon i bulk med taggar.',
             da_DK: 'Omdøb køretøjer i bulk ved hjælp af Tags.',
@@ -1085,6 +1136,7 @@ lssm.Module = {
         name: {
             de: 'Telemetrie',
             en_US: 'Telemetry',
+            pt_PT: 'Telemetria',
             pl_PL: 'Telemetria',
             fr_FR: 'Télémétrie',
             da_DK: 'Telemetri',
@@ -1099,6 +1151,7 @@ lssm.Module = {
             de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
             en_US: 'Sends data to the developer team for the purpose of creating a statistic',
             es_ES: 'Envía datos al equipo de desarrolladores con el fin de crear una estadística.',
+            pt_PT: 'Envia dados para a equipa de desenvolvedores com o objetivo de criar uma estatística',
             pl_PL: 'Wysyła dane do zespołu programistów w celu stworzenia statystyk.',
             sv_SE: 'Skickar data till utvecklargruppen i syfte att skapa en statistik',
             da_DK: 'Sender data til udvikler teamet med det formål at oprette en statistik',
@@ -1132,6 +1185,7 @@ lssm.Module = {
             de: 'show Back Alarm Above',
             en_US: 'show Back Alarm Above',
             es_ES: 'Mostrar atrás Alarma Arriba',
+            pt_PT: 'mostrar alarme de volta acima',
             pl_PL: 'pokażemy Wsteczny Alarm Powyżej',
             sv_SE: 'visa Tillbaka larm ovan',
             da_DK: 'Vis tilbage alarm over',
@@ -1147,6 +1201,7 @@ lssm.Module = {
             de: 'Zeigt den Alle Rückalarmieren Button auch überhalb der Fahrzeuge an',
             en_US: 'Shows the All back alarm button also above the vehicles',
             es_ES: 'Muestra el botón de alarma All back también por encima de los vehículos',
+            pt_PT: 'Mostra o botão de alarme de todas as costas também acima dos veículos',
             pl_PL: 'Pokazuje przycisk Wszystkie wsteczne alarmy również nad pojazdami.',
             sv_SE: 'Visar larmknappen bakåt också ovanför fordonen',
             da_DK: 'Viser knappen All back alarm også over køretøjerne',
@@ -1168,6 +1223,7 @@ lssm.Module = {
             de: 'AAO-Suche',
             en_US: 'AAO-Search',
             es_ES: 'AAO-Buscar',
+            pt_PT: 'Pesquisa AAO',
             pl_PL: 'AAO-Szukanie',
             it_IT: 'Ricerca AAO',
             tr_TR: 'AAO-Arama',
@@ -1183,6 +1239,7 @@ lssm.Module = {
             de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
             en_US: 'Packs all AAO\'s into a searchable dropdown',
             es_ES: 'Empaqueta todos los AAO en un menú desplegable que permite realizar búsquedas',
+            pt_PT: 'Empacote todas as AAOs em um menu suspenso que permite pesquisar',
             pl_PL: 'Pakuje wszystkie AAO w przeszukiwalny dropdown',
             sv_SE: 'Packar alla AAO: er i en sökbar rullgardinsmeny',
             da_DK: 'Pakker alle AAO \' er i en søgbar dropdown',
@@ -1209,6 +1266,7 @@ lssm.Module = {
             de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en_US: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
             es_ES: 'Muestra la densidad de los tipos de vehículos seleccionables en el mapa para identificar las brechas de suministro.',
+            pt_PT: 'Mostra a densidade de tipos de veículos selecionáveis no mapa para identificar lacunas de abastecimento.',
             pl_PL: 'Pokazuje gęstość wybranych typów pojazdów na mapie w celu identyfikacji luk w dostawach.',
             sv_SE: 'Visar tätheten för valbara fordonstyper på kartan för att identifiera tillförselgap.',
             da_DK: 'Viser tætheden af valgbar køretøjstyper på kortet for at identificere forsynings huller.',
@@ -1231,6 +1289,7 @@ lssm.Module = {
         name: {
             de: 'Center-Map',
             en_US: 'Center-Map',
+            pt_PT: 'Mapa central',
             pl_PL: 'Centrum-Mapa',
             it_IT: 'Centro-Mappa',
             da_DK: 'Center-kort',
@@ -1246,6 +1305,7 @@ lssm.Module = {
             de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
             en_US: 'Centers the map on page load and on click. Just as you prefer.',
             es_ES: 'Centra el mapa en la carga de la página y en el clic. Como usted prefiera.',
+            pt_PT: 'Centraliza o mapa no carregamento da página e no clique. Assim como você preferir.',
             pl_PL: 'Wyśrodkowuje mapę na stronie obciążenia i na kliknięciu. Tak jak sobie życzysz.',
             sv_SE: 'Centrerar kartan på sidladdningen och klickar. Precis som du föredrar.',
             da_DK: 'Centrerer kortet på sideindlæsning og ved klik. Ligesom du foretrækker.',
@@ -1276,9 +1336,10 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt benötigte Fahrzeuge an!.',
+            de: 'Zeigt benötigte Fahrzeuge an!',
             en_US: 'Shows required vehicles in mission mask.',
             es_ES: 'Muestra los vehículos requeridos en la máscara de la misión.',
+            pt_PT: 'Mostra os veículos necessários na máscara da missão.',
             pl_PL: 'Pokazuje wymagane pojazdy w masce misji.',
             sv_SE: 'Visar nödvändiga fordon i uppdragsmask.',
             da_DK: 'Viser påkrævede køretøjer i mission Mask.',
@@ -1300,6 +1361,7 @@ lssm.Module = {
             de: 'Verbesserte Status 5',
             en_US: 'Enhanced transport requests',
             es_ES: 'Solicitudes de transporte mejoradas',
+            pt_PT: 'Solicitações de transporte aprimoradas',
             pl_PL: 'Zwiększone zapotrzebowanie na transport',
             sv_SE: 'Förbättrade transportförfrågningar',
             da_DK: 'Forbedrede transport anmodninger',
@@ -1316,6 +1378,7 @@ lssm.Module = {
             de: 'Schnellere Abarbeitung von Status 5 Meldungen.',
             en_US: 'Faster processing of transport requests.',
             es_ES: 'Procesamiento más rápido de las solicitudes de transporte.',
+            pt_PT: 'Processamento mais rápido de solicitações de transporte.',
             pl_PL: 'Szybsze przetwarzanie wniosków transportowych.',
             sv_SE: 'Snabbare behandling av transportförfrågningar.',
             da_DK: 'Hurtigere behandling af transport anmodninger.',
@@ -1349,6 +1412,7 @@ lssm.Module = {
             fr_FR: 'Paramètres',
             ru_RU: 'Настройки',
             es_ES: 'Ajustes',
+            pt_PT: 'Configurações'
         },
         active: true,
         description: {
@@ -1364,6 +1428,7 @@ lssm.Module = {
             fr_FR: 'Paramètres globaux',
             ru_RU: 'Глобальные настройки',
             es_ES: 'Parametrizaciones globales',
+            pt_PT: 'Configurações globais'
         },
         source: '/modules/lss-managedsettings/ManagedSettings.user.js',
         noapp: true, // Nicht im App-Store auflisten
@@ -1375,6 +1440,7 @@ lssm.Module = {
             de: 'Einsatzstichworte',
             en_US: 'Mission Keywords',
             es_ES: 'Palabras clave de la misión',
+            pt_PT: 'Palavras-chave da missão',
             pl_PL: 'Słowa kluczowe misji',
             sv_SE: 'Uppdrag Nyckelord',
             da_DK: 'Missions nøgleord',
@@ -1392,6 +1458,7 @@ lssm.Module = {
                 'für Bayern.',
             en_US: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
             es_ES: 'Muestra las palabras clave de las misiones. Las palabras clave están orientadas a las que se utilizan en Baviera.',
+            pt_PT: 'Mostra palavras-chave para missões. As palavras-chave são orientadas para as usadas na Baviera.',
             pl_PL: 'Pokazuje słowa kluczowe dla misji. Słowa kluczowe są zorientowane na słowa kluczowe używane w Bawarii.',
             sv_SE: 'Visar nyckelord för uppdrag. Nyckelorden är inriktade på de som används i Bayern.',
             da_DK: 'Viser nøgleord for missioner. Nøgleordene er orienteret mod dem, der anvendes i Bayern.',
@@ -1414,6 +1481,7 @@ lssm.Module = {
             de: 'Meldedatum für Einsätze',
             en_US: 'Mission Date',
             es_ES: 'Fecha de la misión',
+            pt_PT: 'Data da Missão',
             pl_PL: 'Data wyjazdu służbowego',
             sv_SE: 'Uppdragsdatum',
             da_DK: 'Missionens dato',
@@ -1430,6 +1498,7 @@ lssm.Module = {
             de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
             en_US: 'Shows the date when the mission was generated and the hours/minutes since then',
             es_ES: 'Muestra la fecha en que se generó la misión y las horas/minutos transcurridos desde entonces.',
+            pt_PT: 'Mostra a data em que a missão foi gerada e as horas / minutos desde então',
             pl_PL: 'Pokazuje datę wygenerowania misji i godziny/minutę od tego czasu.',
             sv_SE: 'Visar datum då uppdraget genererades och timmar / minuter sedan dess',
             da_DK: 'Viser den dato, hvor missionen blev genereret, og timer/minutter siden da',
@@ -1452,6 +1521,7 @@ lssm.Module = {
             de: 'Icon Gebäude Filter',
             en_US: 'Icon building filter',
             es_ES: 'Filtro de construcción de iconos',
+            pt_PT: 'Filtro de construção de ícone',
             pl_PL: 'Filtr budowlany z ikonami',
             sv_SE: 'Ikonbyggnadsfilter',
             da_DK: 'Ikon, bygning, filter',
@@ -1468,6 +1538,7 @@ lssm.Module = {
             de: 'Tauscht den Gebäude Filter mit Icons aus.',
             en_US: 'Replaces the building filter with icons.',
             es_ES: 'Sustituye el filtro del edificio por iconos.',
+            pt_PT: 'Substitui o filtro de construção por ícones.',
             pl_PL: 'Zastępuje filtr budowlany ikonami.',
             sv_SE: 'Ersätter byggfiltret med ikoner.',
             da_DK: 'Erstatter bygnings filteret med ikoner.',
@@ -1490,6 +1561,7 @@ lssm.Module = {
             en_US: 'Sum for daily stats',
             es_ES: 'Suma de las estadísticas diarias',
             pl_PL: 'Suma dla statystyk dziennych',
+            pt_PT: 'Soma para estatísticas diárias',
             sv_SE: 'Summa för daglig statistik',
             da_DK: 'Sum for daglig statistik',
             nb_NO: 'Sum for daglig statistikk',
@@ -1506,6 +1578,7 @@ lssm.Module = {
                 'täglichen Zusammenfassung an.',
             en_US: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
             es_ES: 'Muestra sumas sobre misiones, pacientes, prisioneros y alianzas en la página de estadísticas diarias.',
+            pt_PT: 'Mostra somas sobre missões, pacientes, prisioneiros e aliança na página de estatísticas diárias',
             pl_PL: 'Pokazuje sumy nad misjami, pacjentami, więźniami i sojusznikami na stronie statystyk dziennych.',
             sv_SE: 'Visar summor över uppdrag, patienter, fångar och allians på den dagliga statistik-sidan',
             da_DK: 'Viser beløb over missioner, patienter, fanger og alliance på den daglige statistik side',
@@ -1527,6 +1600,7 @@ lssm.Module = {
             de: 'AAO-Klick-Zähler',
             en_US: 'Alarm-Regulations-Counter',
             es_ES: 'Alarmas-Regulaciones-Contador',
+            pt_PT: 'Alarme-Regulamentos-Contador',
             pl_PL: 'Reguły alarmowe - licznik alarmów',
             sv_SE: 'Larm-förordningarna-Counter',
             da_DK: 'Alarm-regulativer-Counter',
@@ -1543,6 +1617,7 @@ lssm.Module = {
             de: 'Zählt die Klicks auf einen AAO-Button',
             en_US: 'Counts the clicks on an alarm-regulations-button',
             es_ES: 'Cuenta los clics en un botón de regulación de alarma',
+            pt_PT: 'Conta os cliques em um botão de regulamentos de alarme',
             pl_PL: 'Zlicza kliknięcia na przycisk regulacji alarmu.',
             sv_SE: 'Räknar klick på en larmregler-knapp',
             da_DK: 'Tæller Klik på en alarm-Regulations-knap',
@@ -1563,6 +1638,7 @@ lssm.Module = {
             de: 'Creditserweiterung',
             en_US: 'Credit expansion',
             es_ES: 'Expansión del crédito',
+            pt_PT: 'Expansão de crédito',
             pl_PL: 'Ekspansja kredytowa',
             sv_SE: 'Kreditutvidgning',
             da_DK: 'Kreditudvidelse',
@@ -1579,6 +1655,7 @@ lssm.Module = {
             de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
             en_US: 'Add some special information about the credits in a drop-down list',
             es_ES: 'Agregar información especial sobre los créditos en una lista desplegable',
+            pt_PT: 'Adicione algumas informações especiais sobre os créditos em uma lista suspensa',
             pl_PL: 'Dodaj kilka specjalnych informacji na temat kredytów z rozwijanej listy',
             sv_SE: 'Lägg till speciell information om krediterna i en listruta',
             da_DK: 'Tilføj nogle specielle oplysninger om kreditterne på en rulleliste',
@@ -1598,6 +1675,7 @@ lssm.Module = {
         name: {
             de: 'User-ID',
             en_US: 'User-ID',
+            pt_PT: 'ID do usuário',
             pl_PL: 'Identyfikacja użytkownika',
             sv_SE: 'Användar ID',
             nb_NO: 'Bruker-ID',
@@ -1612,6 +1690,7 @@ lssm.Module = {
             de: 'Zeigt die eigene ID in der Kopfzeile, und die jeweilige User-ID im Profil an.',
             en_US: 'Shows the own ID in the header line, and the respective user ID in the profile.',
             es_ES: 'Muestra el ID propio en la línea de cabecera y el ID de usuario correspondiente en el perfil.',
+            pt_PT: 'Mostra o próprio ID na linha do cabeçalho e o respectivo ID do usuário no perfil.',
             pl_PL: 'Pokazuje własny identyfikator w linii nagłówka oraz odpowiedni identyfikator użytkownika w profilu.',
             sv_SE: 'Visar eget ID i rubrikraden och respektive användar-ID i profilen.',
             da_DK: 'Viser det eget ID i overskriftslinjen og det respektive bruger-ID i profilen.',
@@ -1632,6 +1711,7 @@ lssm.Module = {
             de: 'show Chatbutton Above',
             en_US: 'show Chatbutton Above',
             es_ES: 'Mostrar Chatbutton Arriba',
+            pt_PT: 'mostrar Chatbutton acima',
             pl_PL: 'pokazać przycisk "Chatbutton Above".',
             sv_SE: 'visa Chatbutton ovan',
             da_DK: 'Vis Chatbutton ovenfor',
@@ -1648,6 +1728,7 @@ lssm.Module = {
             de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
             en_US: 'Displays the Chat History button in the chat header.',
             es_ES: 'Muestra el botón Historial de chat en el encabezado del chat.',
+            pt_PT: 'Exibe o botão Histórico do bate-papo no cabeçalho do bate-papo.',
             pl_PL: 'Wyświetla przycisk Historia rozmowy w nagłówku rozmowy.',
             sv_SE: 'Visar knappen Chatthistorik i chatthuvudet.',
             da_DK: 'Viser knappen chatoversigt i chat overskriften.',
@@ -1681,6 +1762,7 @@ lssm.Module = {
             de: "Verbandsverwaltung",
             en_US: "Alliance-extension",
             es_ES: "Extensión de la alianza",
+            pt_PT: "Extensão da Aliança",
             pl_PL: "Rozszerzenie sojuszu",
             it_IT: "Alleanza-estensione",
             da_DK: "Alliance-udvidelse",
@@ -1696,6 +1778,7 @@ lssm.Module = {
             de: "Verbandsübersicht auf einen Blick im Hauptfenster",
             en_US: "Alliance overview at a glance in the main window",
             es_ES: "Vista general de la alianza de un vistazo en la ventana principal",
+            pt_PT: "Visão geral da Aliança na janela principal",
             pl_PL: "Przegląd sojuszy na pierwszy rzut oka w oknie głównym",
             sv_SE: "Alliansöversikt överblick i huvudfönstret",
             da_DK: "Alliance oversigt med et overblik i hovedvinduet",
@@ -1716,6 +1799,7 @@ lssm.Module = {
             de: "Übersicht",
             en_US: "overview",
             es_ES: "visión de conjunto",
+            pt_PT: "Visão geral",
             pl_PL: "przegląd",
             sv_SE: "Översikt",
             da_DK: "Oversigt over",
@@ -1732,6 +1816,7 @@ lssm.Module = {
             de: "Übersicht über alle Fahrzeuge sowie auch Wachen.",
             en_US: "Overview of all vehicles as well as buildings.",
             es_ES: "Vista general de todos los vehículos así como de los edificios.",
+            pt_PT: "Visão geral de todos os veículos e edifícios.",
             pl_PL: "Przegląd wszystkich pojazdów i budynków.",
             sv_SE: "Översikt över alla fordon och byggnader.",
             da_DK: "Oversigt over alle køretøjer og bygninger.",
@@ -1752,6 +1837,7 @@ lssm.Module = {
             de: "Erweiterte Gebäudeansicht",
             en_US: "Extended building view",
             es_ES: "Vista ampliada del edificio",
+            pt_PT: "Vista ampliada do edifício",
             pl_PL: "Rozszerzony widok budynku",
             sv_SE: "Utökad byggnadsvy",
             da_DK: "Udvidet bygnings visning",
@@ -1768,6 +1854,7 @@ lssm.Module = {
             de: "Übersicht über Ausbauten und Personalbedarf",
             en_US: "Overview of extensions and personnel requirements",
             es_ES: "Resumen de las ampliaciones y de las necesidades de personal",
+            pt_PT: "Visão geral de extensões e requisitos de pessoal",
             pl_PL: "Przegląd rozszerzeń i wymagań dotyczących personelu",
             sv_SE: "Översikt över tillägg och personalkrav",
             da_DK: "Oversigt over udvidelser og personalekrav",
@@ -1787,6 +1874,7 @@ lssm.Module = {
             de: "Status-Zähler",
             en_US: "Status Counter",
             es_ES: "Contador de estado",
+            pt_PT: "Contador de status",
             pl_PL: "Licznik statusu",
             sv_SE: "Statusräknare",
             da_DK: "Status tæller",
@@ -1803,6 +1891,7 @@ lssm.Module = {
             de: "Gibt die Zahl der einzelnen Status aus.",
             en_US: "Displays the number of individual statuses.",
             es_ES: "Muestra el número de status individuales.",
+            pt_PT: "Exibe o número de status individuais.",
             pl_PL: "Wyświetla liczbę poszczególnych statusów.",
             sv_SE: "Visar antalet enskilda statuser.",
             da_DK: "Viser antallet af individuelle statusser.",

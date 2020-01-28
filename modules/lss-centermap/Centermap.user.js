@@ -130,6 +130,22 @@
         }
     };
 
+    I18n.translations.pt_PT.lssm.centermap = {
+        center: "Centro",
+        settings: {
+            title: "Mapa do centro",
+            choose: "Por favor, selecione",
+            option1: "Padrão",
+            option1desc: "Nível de zoom padrão e centrado no centro de controlo ",
+            option2: "Dinâmico",
+            alliance: "Considere a aliança",
+            option2desc: "Mapa do centro indicando que todas as missões e estações são visíveis.",
+            option3: "Como",
+            option3desc: "Desloque a posição personalizada e o nível de zoom.",
+            set: "Salvar a posição atual"
+        }
+    };
+
     I18n.translations.it_IT.lssm.centermap = {
         center: "Centro",
         settings: {

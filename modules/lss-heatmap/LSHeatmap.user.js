@@ -371,6 +371,19 @@
             }
         ]
     };
+    I18n.translations.pt_PT.lssm.heatmap = {
+        active: 'Ativo',
+        vehicleType: 'Grupos',
+        radius: 'Raio',
+        intensity: 'Intensidade',
+        close: 'Fechar',
+        vehicleGroups: [
+            {
+                name: 'Combinação própria',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.pl_PL.lssm.heatmap = {
         active: 'Aktywny',
         vehicleType: 'Grupy',

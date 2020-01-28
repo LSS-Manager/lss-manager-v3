@@ -99,6 +99,30 @@
             }
         }
     };
+    I18n.translations.pt_PT.lssm.statuscount = {
+        name: "Conta de status",
+        settings: {
+            show: "Mostrar / Ocultar",
+            status: {
+                show: {
+                    label: "Mostrar",
+                    description: "O status deve ser exibido? Importante: Essa configuração tem uma prioridade mais alta que outras, ou seja, se desativada, o status nunca será exibido."
+                },
+                hide: {
+                    label: "Mostrar apenas sob demanda",
+                    description: "O contador é mostrado apenas se pelo menos um veículo estiver nesse estado. (Atenção: Se o contador estiver completamente oculto, ele nunca será exibido, mesmo que esta opção esteja ativada!)"
+                },
+                percent: {
+                    label: "Mostrar porcentagens",
+                    description: "A porcentagem desse status deve ser exibida?"
+                }
+            },
+            round: {
+                label: "Porcentagens redondas",
+                description: "Quantas casas decimais as porcentagens devem ser arredondadas (se exibidas)?"
+            }
+        }
+    };
     I18n.translations.pl_PL.lssm.statuscount = {
         name: "Status-liczba",
         settings: {

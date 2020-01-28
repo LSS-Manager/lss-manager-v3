@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -39,6 +39,18 @@
         updateMessage: 'Los valores se actualizan automáticamente<br>cada ' + updateMin + ' actas.',
         chartErr: 'No se pudo cargar el gráfico "{{chart}}"!<br>Ya sabemos que esto sucede con algunos navegadores, pero aún no sabemos por qué. Por favor <b>no nos informe de este error ya que estamos en este problema!',
         hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
+    };
+    I18n.translations.pt_PT.lssm.verbandsverwaltung = {
+        name: 'Administração',
+        allianceFunds: 'Fundos da Aliança',
+        allianceCredits: 'Créditos ganhos',
+        users: 'Membros',
+        onlineUsers: 'Membros online',
+        allianceRank: 'Classificação na lista de alianças',
+        page: 'Página',
+        updateMessage: 'Os valores são atualizados automaticamente<br>cada ' + updateMin + ' minutos.',
+        chartErr: 'Não foi possível carregar o gráfico "{{chart}}"!<br>Já sabemos que isso acontece com alguns navegadores, mas ainda não o porquê. Por favor <b>não</b> relate-nos este erro, pois já estamos nesse problema!',
+        hoverTip: 'Dica: Passe o mouse sobre um elemento para exibir um histórico de valores.'
     };
     I18n.translations.cs_CZ.lssm.verbandsverwaltung = {
         name: 'Správa',

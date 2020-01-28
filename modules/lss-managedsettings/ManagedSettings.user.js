@@ -81,6 +81,25 @@
         import_fail: "Error: Se ha producido un error al importar el archivo: <strong> {0} </strong>. Por favor, informe a un promotor."
     };
 
+    I18n.translations.pt_PT.lssm.managedsettings = {
+        title: "Definições de LSSM",
+        text1: "Aqui pode alterar as definições dos seus plugins ativados.",
+        text2: "",
+        save: "Salvar e Fechar",
+        settings_tab: "Configurações",
+        addField_btn: "Adicionar",
+        export_btn: "Definições de exportação",
+        import_btn: "Definições de importação",
+        reset_btn: "Redefinir definições",
+        reset_hint: "Tem a certeza de que pretende redefinir as definições deste módulo para os valores predefinidos?",
+        reset_success: "Redefinir com sucesso as definições. Tens de recarregar a página para que funcionem.",
+        export_success: "Configurações exportadas com sucesso",
+        export_hint: "Por favor, note que apenas configurações previamente guardadas de módulos atualmente ativados podem ser exportadas.",
+        import_success: "As configurações foram importadas com sucesso. Tens de recarregar a página para que funcionem.",
+        import_missmatch: "Infelizmente, o ficheiro de leitura já não é compatível com a versão atual do LSSM.",
+        import_fail: "Erro: Ocorreu um erro ao importar o ficheiro:<strong> {0} </strong>. Por favor, informe um desenvolvedor."
+    };
+
     I18n.translations.pl_PL.lssm.managedsettings = {
         title: "Ustawienia LSSM",
         text1: "Tutaj można zmienić ustawienia aktywowanych wtyczek.",
