@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -272,6 +272,33 @@
             updateMessage: 'Los valores se actualizan automáticamente<br>cada 5 minutos.<brLos Créditos y Monedas son <br>continuamente actualizados.',
             allianceFunds: 'Fondos de la Alianza',
             noFurtherRank: 'No hay más rangos'
+        }
+    };
+    I18n.translations.pt_PT.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? créditos ganhos.*/i,
+        ranks: {
+            0: 'Recruta',
+            200: 'Bombeiro',
+            10000: 'Bombeiro sênior',
+            100000: 'Operador de aparelhos de combate a incêndio',
+            1000000: 'Tenente',
+            5000000: 'Capitão',
+            20000000: 'Primeiro Capitão',
+            50000000: 'Chefe de batalhão',
+            1000000000: 'Chefe de divisão',
+            2000000000: 'Vice-chefe',
+            5000000000: 'Chefe dos bombeiros'
+        },
+        texts: {
+            reloadMessage: 'Por favor, abra o seu perfil <br>e recarregue o site!',
+            dropdownName: 'Extensão de crédito',
+            creditsOverview: 'Visão geral',
+            coinsProtokoll: 'Lista de moedas',
+            earnedCredits: 'Créditos totalmente ganhos',
+            creditsToNextRank: 'Créditos para o próximo posto',
+            updateMessage: 'Os valores são atualizados automaticamente<br>5 minutos.<bCredits e Moedas são<br> continuamente atualizado.',
+            allianceFunds: 'Fundos da Aliança',
+            noFurtherRank: 'Chega de fileiras'
         }
     };
     I18n.translations.it_IT.lssm.creditserweiterung = {

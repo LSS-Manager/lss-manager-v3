@@ -71,7 +71,13 @@
         reset: "Reiniciar",
         select: "Por favor seleccione...."
     };
-	  I18n.translations.nl['lssm']['aaosearch'] = {
+    I18n.translations.pt_PT['lssm']['aaosearch'] = {
+        search_aao: "Pesquisa AAO",
+        use_dd: "Use o menu suspenso: ",
+        reset: "Redefinir",
+        select: "Por favor, selecione..."
+    };
+	I18n.translations.nl['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
         use_dd: "Gebruik dropdown-menu: ",
         reset: "Reset",

@@ -20,6 +20,9 @@
     I18n.translations.es_ES['lssm']['allianceMissionlistShare'] = {
         title: "Lanzamiento en alianza"
     };
+    I18n.translations.pt_PT['lssm']['allianceMissionlistShare'] = {
+        title: "Lançamento da Aliança"
+    };
     I18n.translations.cs_CZ['lssm']['allianceMissionlistShare'] = {
         title: "Vydání v alianci"
     };

@@ -141,6 +141,31 @@ else if (I18n.locale == "es_ES")
         "12": ["Vehículo de rescate", 0]
     };
 }
+else if (I18n.locale == "pt_PT") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extensão de ambulância": 0,
+        "Extensão de aeroporto": 1,
+        "Expansão de resgate aquático": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cela de presídio": 10,
+        "Mais celas": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["VRCI", 0],
+        "1": ["VLCI", 0],
+        "2": ["VE32", 0],
+        "3": ["VCOT", 0],
+        "4": ["VSAT", 0],
+        "5": ["ABSC", 2],
+        "6": ["VTTU", 0],
+        "7": ["VPME", 0],
+        "8": ["CP", 6],
+        "9": ["Heli INEM", 2]
+    };
+}
 else if (I18n.locale == "sv_SE")
 {
     lssm.extensions = {

@@ -447,6 +447,62 @@
             }
         }
     };
+    I18n.translations.pt_PT.lssm.extendedBuilding = {
+        title: 'Vista expandida do edifício',
+        crew: 'Equipe (máx.)',
+        fms: 'Status',
+        assignment: 'Atribuir pessoal',
+        neededPersonnel: 'Pessoal necessário',
+        expansionFinished: 'Terminar',
+        expansionNotStarted: 'Não iniciado',
+        personnelOverview: 'Resumo do pessoal',
+        schooling: 'Educação',
+        schoolingsMulti: 'Todas as combinações de educação',
+        schoolingsSingle: 'Educação individual',
+        amount: 'Matéria',
+        expansionName: 'Descrição',
+        vehicleType: 'Type',
+        binding: 'Atribuído a',
+        bindingAmount: 'Limitado',
+        settings: {
+            neededPersonnel: {
+                label: 'Pessoal necessário',
+                description: 'Mostra o pessoal necessário se todos os veículos estiverem completamente ocupados.',
+            },
+            switchStatus: {
+                label: 'Rápida mudança de estado',
+                description: 'O estado de um veículo pode ser alterado diretamente entre O S2 e o S6 através do ecrã de estado.',
+            },
+            assignmentBtn: {
+                label: 'Atribuição rápida',
+                description: 'Adicione um botão para chegar rapidamente à janela "Atribuir pessoal"',
+            },
+            assignedWorkers: {
+                label: 'Pessoal designado',
+                description: 'Mostra a cada veículo quantas tropas são atribuídas',
+            },
+            currentCrew: {
+                label: 'Tripulação atual',
+                description: 'Indica a cada veículo quantas pessoas estão sentadas no veículo',
+            },
+            expansions: {
+                label: 'Mostrar extensões',
+                description: 'Mostrar o estado atual das extensões',
+            },
+            personnelOverview: {
+                label: 'Resumo alargado do pessoal',
+                description: 'Mostra no resumo do pessoal o número de funcionários que cada formação tem.',
+            },
+            vehicleType: {
+                label: 'Mostrar tipo de veículo',
+                description: 'Exibe o tipo de veículo na lista do veículo.',
+            },
+            expansionDate: {
+                label: 'Data de conclusão da extensão',
+                description: 'Mostra na lista de extensões também quando a construção será concluída (obras apenas relativas à definição "Extensões de espetáculos" ).',
+            }
+        }
+    };
     I18n.translations.it_IT.lssm.extendedBuilding = {
         title: 'Vista estesa dell\'edificio',
         crew: 'Squadra (max)',

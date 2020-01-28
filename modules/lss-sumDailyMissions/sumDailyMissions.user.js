@@ -51,6 +51,22 @@
             num_team: 'Sum alliance'
         };
 
+        I18n.translations.pt_PT['lssm']['sumDailyMissions'] = {
+            patient_treatment: 'Patient Treatment',
+            education: 'education',
+            purchase: 'comprado',
+            cancelled: 'Cancelled',
+            extended: 'construida',
+            extended2: 'Extended',
+            built: 'constructed',
+            team: 'Alliance',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum missions',
+            num_patients: 'Sum patients',
+            num_prisoners: 'Sum prisoners',
+            num_team: 'Sum alliance'
+        };
+
         I18n.translations.pl_PL['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
             education: 'education',

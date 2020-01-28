@@ -23,6 +23,12 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
+  I18n.translations.pt_PT.lssm.missionDate = {
+    ago: 'atrás',
+    months: ['Jan', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'],
+    dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
+  };
+
   I18n.translations.pl_PL.lssm.missionDate = {
     ago: 'temu',
     months: ['Sty', 'Lut', 'Mar', 'Kwi', 'Maj', 'Cze', 'Lip', 'Sie', 'Wrz', 'Paź', 'Lis', 'Gru'],
@@ -132,6 +138,12 @@
         let offset = today.getTimezoneOffset() / 60;
       // Zahl 1, weil EST UTC+1 ist
         let newOffset = 0 - offset;
+      newHour -= newOffset;
+    }
+    if (I18n.locale === 'pt_PT') {
+      let offset = today.getTimezoneOffset() / 60;
+      // Zahl 1, weil EST UTC+1 ist
+      let newOffset = 1 - offset;
       newHour -= newOffset;
     }
     if (I18n.locale === 'ru_RU') {

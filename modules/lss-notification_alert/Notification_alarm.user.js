@@ -64,6 +64,27 @@
     }
   }
 
+  I18n.translations.pt_PT.lssm['n-alarm'] = {
+    not_support: "Este navegador não suporta notificações HTML5",
+    inithead: "Inicialização",
+    chat_message: "Mensagem de chat de ",
+    blend: "Esconder-se depois:",
+    seconds: "segundos",
+    settings: {
+      title: "Alerta de notificação",
+      chat_title: "Mensagens de chat",
+      chat_text: "Obtenha mensagens de chat como notificação.",
+      s5_title: "Pedido de Transporte",
+      save: "Salvar",
+      close: "Fechar",
+      s5_text: "Obtenha Pedidos de Transporte como notificação",
+      status_title: "Estado",
+      status_text: "Obtenha todas as mensagens de estado como notificação.",
+      chatp_title: "Obtenha mensagens de chat como popup de informação",
+      chatp_text: "Obtenha todas as mensagens de chat como mensagem popup no lado direito"
+    }
+  }
+
   I18n.translations.cs_CZ.lssm['n-alarm'] = {
     not_support: "Tento prohlížeč nepodporuje oznámení HTML5",
     inithead: "Inicializace",
