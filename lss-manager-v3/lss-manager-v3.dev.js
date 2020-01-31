@@ -193,6 +193,9 @@ I18n.translations.pt_PT.lssm = {
     mapkit: "Este módulo não suporta o Mapkit",
     apps: {}
 };
+I18n.translations.pt_BR.lssm = {
+    apps: {}
+};
 I18n.translations.cs_CZ.lssm = {
     appstore_welcome: "Vítejte v Appstore of LSS Manager",
     appstore_desc: "Zde najdete různé pluginy, které obohatí váš herní zážitek. Každý plugin může být " +
