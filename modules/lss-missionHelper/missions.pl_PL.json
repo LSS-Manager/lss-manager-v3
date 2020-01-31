@@ -1677,5 +1677,81 @@
             "police": 1
         },
         "credits": 1800
+    },
+    "118": {
+        "name": "Po\u017car Ma\u0142ego Magazynu",
+        "stations": {
+            "0": 12
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 2
+        },
+        "credits": 6500,
+        "poi": 32
+    },
+    "119": {
+        "name": "Po\u017car Ma\u0142ego Magazynu",
+        "stations": {
+            "0": 12
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 2
+        },
+        "credits": 6500
+    },
+    "120": {
+        "name": "Po\u017car Ma\u0142ego Magazynu",
+        "stations": {
+            "0": 12
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 2
+        },
+        "credits": 6500,
+        "poi": 44
+    },
+    "121": {
+        "name": "Po\u017car Du\u017cego Magazynu",
+        "stations": {
+            "0": 15
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 4
+        },
+        "credits": 9500,
+        "poi": 32
+    },
+    "122": {
+        "name": "Po\u017car Du\u017cego Magazynu",
+        "stations": {
+            "0": 15
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 4
+        },
+        "credits": 9500
+    },
+    "123": {
+        "name": "Po\u017car Du\u017cego Magazynu",
+        "stations": {
+            "0": 15
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 1,
+            "platform": 4
+        },
+        "credits": 9500,
+        "poi": 44
     }
 }

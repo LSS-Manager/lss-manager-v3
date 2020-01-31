@@ -5735,5 +5735,18 @@
         },
         "credits": 200,
         "poi": 7
+    },
+    "348": {
+        "name": "Cooking fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650,
+        "expansions": {
+            "0": 196
+        }
     }
 }

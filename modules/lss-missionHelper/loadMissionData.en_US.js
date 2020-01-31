@@ -30,7 +30,7 @@ $.get(missionlink)
             swatSuv: "SWAT SUV",
             rth: "HEMS",
             policeHeli: "Police Helicopter",
-            ambulance: "Ambulance"
+            ambulance: "Ambulances"
         };
 
         let credits;

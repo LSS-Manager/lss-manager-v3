@@ -1452,5 +1452,23 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "106": {
+        "name": "V\u00e5ld\/hot mot tj\u00e4nsteman",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "poi": 41,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

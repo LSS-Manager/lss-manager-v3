@@ -75,7 +75,7 @@ else if (I18n.locale == "en_GB")
         "6": ["Water Carrier", 0],
         "7": ["HazMat Unit", 0],
         "8": ["Incident response vehicle (IRV)", 6],
-        "9": ["SAR helicopter", 2],
+        "9": ["HEMS", 2],
         "10": ["Rapid Response Vehicle", 2],
         "11": ["Police helicopter", 6],
         "12": ["Dog Support Unit (DSU)", 6],
@@ -164,6 +164,31 @@ else if (I18n.locale == "pt_PT") {
         "7": ["VPME", 0],
         "8": ["CP", 6],
         "9": ["Heli INEM", 2]
+    };
+}
+else if (I18n.locale == "pt_BR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extensão de ambulância": 0,
+        "Extensão de aeroporto": 1,
+        "Expansão de resgate aquático": 2,
+        // Pol-Erweiterungen (10-19)
+        "Cela de presídio": 10,
+        "Mais celas": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["ABTS", 0],
+        "1": ["ABT", 0],
+        "2": ["ABE", 0],
+        "3": ["APS", 0],
+        "4": ["ACA", 0],
+        "5": ["SAMU", 2],
+        "6": ["AT", 0],
+        "7": ["APP", 0],
+        "8": ["Carro de Polícia Militar", 6],
+        "9": ["Helicóptero Resgate", 2]
     };
 }
 else if (I18n.locale == "sv_SE")
@@ -283,16 +308,16 @@ else if (I18n.locale == "nb_NO") {
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["Slukk og Redningsbil", 0],
-        "1": ["TRV", 0],
+        "0": ["Mannskapsbil", 0],
+        "1": ["Lett mannskapsbil", 0],
         "2": ["Brannbilstige", 0],
         "3": ["Kommandoenhet", 0],
         "4": ["MRU", 0],
         "5": ["Ambulanse", 2],
-        "6": ["Slangbil", 0],
-        "7": ["HazMat-enhet", 0],
-        "8": ["Polisbil", 6],
-        "9": ["SAR-helikopter", 2]
+        "6": ["Tankbil", 0],
+        "7": ["CBRNe enhet", 0],
+        "8": ["Patruljebil", 6],
+        "9": ["Redningshelikopter", 2]
     };
 }
 else if (I18n.locale == "pl_PL")

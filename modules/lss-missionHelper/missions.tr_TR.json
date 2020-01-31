@@ -1032,5 +1032,23 @@
             "transport": 100,
             "specialisation": "Travmatoloji"
         }
+    },
+    "76": {
+        "name": "Silahl\u0131 soygun",
+        "stations": {
+            "6": 7
+        },
+        "vehicles": {
+            "police": 5
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "specialisation": "Genel Dahiliye"
+        },
+        "poi": 9,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

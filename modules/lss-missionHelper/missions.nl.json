@@ -9661,5 +9661,100 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "Traumatologie"
+    },
+    "556": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 12,
+            "3": 8,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "redvoertuig": 1,
+            "bchief": 1,
+            "adembescherming": 1,
+            "slangenwagen": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 3200,
+        "patients": {
+            "max": 8,
+            "min": 6,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 25,
+        "percentages": {
+            "adembescherming": 20
+        }
+    },
+    "557": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 16,
+            "3": 12,
+            "5": 6,
+            "11": 1
+        },
+        "vehicles": {
+            "truck": 8,
+            "redvoertuig": 1,
+            "hulpverlening": 1,
+            "bchief": 2,
+            "adembescherming": 1,
+            "slangenwagen": 2,
+            "waarschuwing": 1,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 6400,
+        "patients": {
+            "max": 16,
+            "min": 6,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 25,
+        "percentages": {
+            "adembescherming": 20
+        }
+    },
+    "558": {
+        "name": "Brand in theater",
+        "stations": {
+            "0": 18,
+            "3": 22,
+            "5": 6,
+            "11": 1
+        },
+        "vehicles": {
+            "truck": 12,
+            "redvoertuig": 2,
+            "hulpverlening": 1,
+            "bchief": 3,
+            "adembescherming": 1,
+            "slangenwagen": 3,
+            "waarschuwing": 3,
+            "gevaar": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 10714,
+        "patients": {
+            "max": 30,
+            "min": 15,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 25,
+        "percentages": {
+            "adembescherming": 20
+        }
     }
 }

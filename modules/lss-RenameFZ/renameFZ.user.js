@@ -274,7 +274,7 @@
                 6: 'Water Carrier',
                 7: 'HazMat Unit',
                 8: 'Incident response vehicle (IRV)',
-                9: 'SAR helicopter',
+                9: 'HEMS',
                 10: 'Rapid Response Vehicle',
                 11: 'Police helicopter',
                 12: 'Dog Support Unit (DSU)',
@@ -697,16 +697,16 @@
                 20: "Ambulansestasjon (liten)"
             },
             vehicleTypes: {
-                0: 'Slukk og Redningsbil',
-                1: 'TRV',
+                0: 'Mannskapsbil',
+                1: 'Lett mannskapsbil',
                 2: 'Brannbilstige',
                 3: 'Kommandoenhet',
                 4: 'MRU',
                 5: 'Ambulanse',
-                6: 'Slangbil',
-                7: 'HazMat-enhet',
-                8: 'Polisbil',
-                9: 'SAR-helikopter'
+                6: 'Tankbil',
+                7: 'CBRNe enhet',
+                8: 'Patruljebil',
+                9: 'Redningshelikopter'
             }
         }
     };
@@ -1036,6 +1036,69 @@
                 7: 'VPME',
                 8: 'CP',
                 9: 'Heli INEM'
+            }
+        }
+    };
+
+    I18n.translations.pt_BR.lssm.renameFz = {
+        name: 'Renomear veículos',
+        rename: "mudar de nome",
+        id: "{id} Id do veículo",
+        old: "{old} Nome atual",
+        vehicleType: "{vehicleType} Tipo de veículo",
+        stationName: "{stationName} Nome do edifício",
+        tagging: '{tagging} Marcação do tipo de veículo',
+        number: '{number} Contador de tipo',
+        numberRoman: '{numberRoman} Contador de tipo (algarismos romanos)',
+        dispatch: '{dispatch} Nome do centro de despacho',
+        dispatchAlias: '{dispatchAlias} Pseudónimos do centro de despacho',
+        stationAlias: '{stationAlias} Edifício-Alias',
+        saveAll: 'Salvar Todos',
+        statusWaiting: 'À espera de entrada',
+        statusError: '<b>Erro durante a geração!</b> Se este erro ocorrer novamente, por favor, informe-o. Por favor, forneça as seguintes informações:',
+        statusWorking: 'Gerar nomes e formas. Isto pode levar algum tempo, dependendo do sistema e do número de veículos.',
+        statusSuccess: 'Nomes e Forumlare gerados com sucesso!',
+        nameAlreadyCorrect: 'O nome já corresponde ao modelo!',
+        nameToLong: 'O nome é demasiado longo para os seguintes veículos:',
+        nameToLongOriginalName: 'Nome original',
+        nameToLongGeneratedName: 'Nome gerado',
+        nameToLongShortenedName: 'Nome novo ou abreviado',
+        helpTitle: 'Pode encontrar uma pequena instrução neste link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Contra-início',
+        counterOverride: 'Se houver vários veículos do mesmo tipo, comece com 1 de qualquer maneira.',
+        startNumHelp: 'Aqui pode introduzir um valor inicial para o contra-tipo. Se definir 0 como o valor de partida, o primeiro veículo de um tipo não obterá a numeração, isto é muito prático se tiver apenas um veículo de um tipo num guarda e não quiser numerar. Mas também pode começar o balcão às 5 (por qualquer razão que queira, mas é possível ;))',
+        toggleNameCorrect: 'Mostrar/esconder veículos com nomes corretos',
+        settings: {
+            show: 'Mostrar / Ocultar',
+            names: {
+                vehicleTypes: 'Tipos de veículos',
+                stations: 'Edifício Alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Aquí puede establecer nombres alternativos para cada tipo de vehículo. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío..',
+                stations: 'Aquí puede establecer nombres alternativos para cada edificio. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío.'
+            },
+            validStationTypes: {
+                0: "Unidade de bombeiros militar",
+                2: "Bases do SAMU",
+                6: "Delegacias de polícia militar",
+                7: "Central de Despacho",
+                18: "Unidade de bombeiros militar (pequena)",
+                19: "Delegacias de polícia militar (pequena)",
+                20: "Bases do SAMU (pequena)"
+            },
+            vehicleTypes: {
+                0: 'ABTS',
+                1: 'ABT',
+                2: 'ABE',
+                3: 'APS',
+                4: 'ACA',
+                5: 'SAMU',
+                6: 'AT',
+                7: 'APP',
+                8: 'Carro de Polícia Militar',
+                9: 'Helicóptero Resgate'
             }
         }
     };
