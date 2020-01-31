@@ -19,7 +19,7 @@ $.get(missionlink)
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "SAR Helicopter",
+            rth: "HEMS",
             policeHeli: "Police Helicopter",
         };
 
@@ -250,7 +250,9 @@ $.get(missionlink)
                 "Large chemical storage tank",
                 "Hotel",
                 "Bar",
-                "Landfill site"
+                "Landfill site",
+				"Parking Garage",
+				"Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

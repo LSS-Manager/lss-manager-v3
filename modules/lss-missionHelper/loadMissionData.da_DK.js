@@ -67,7 +67,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Maks\. antal patienter/)) {
                 patientsMax = number;
-            } else if (content.match(/Min\. antal patienter	/)) {
+            } else if (content.match(/Min\. antal patienter/)) {
                 patientsMin = number;
             } else if (content.match(/patienttransport/)) {
                 transport = number;

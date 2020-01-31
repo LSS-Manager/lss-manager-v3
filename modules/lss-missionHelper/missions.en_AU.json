@@ -1574,5 +1574,80 @@
             "transport": 100,
             "specialisation": "Traumatology"
         }
+    },
+    "117": {
+        "name": "Freight Train Derailment",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatology"
+        },
+        "poi": 24
+    },
+    "118": {
+        "name": "Freight Train Derailment",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatology"
+        },
+        "poi": 6
+    },
+    "119": {
+        "name": "Freight Train Derailment",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatology"
+        },
+        "poi": 7
     }
 }

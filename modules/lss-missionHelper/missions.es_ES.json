@@ -1584,5 +1584,23 @@
             "transport": 100,
             "specialisation": "Traumatolog\u00eda"
         }
+    },
+    "117": {
+        "name": "Robo a mano armada",
+        "stations": {
+            "6": 7
+        },
+        "vehicles": {
+            "police": 5
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 9,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

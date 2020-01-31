@@ -9123,5 +9123,55 @@
         },
         "credits": 6500,
         "poi": 1
+    },
+    "505": {
+        "name": "Hochwasserschadenslage",
+        "stations": {
+            "0": 15,
+            "6": 6,
+            "9": 3,
+            "15": 5
+        },
+        "vehicles": {
+            "truck": 28,
+            "dlk": 1,
+            "rw": 5,
+            "fwk": 2,
+            "gwl2": 8,
+            "gkw": 4,
+            "mzkw": 3,
+            "mtwtz": 3,
+            "boot": 3,
+            "taucher": 2,
+            "fustw": 8,
+            "undefined": 1,
+            "elw1": 4,
+            "elw2": 2
+        },
+        "credits": 11500,
+        "patients": {
+            "max": 17,
+            "transport": 30,
+            "nef": 50,
+            "rth": 10,
+            "specialisation": "Allgemeine Innere"
+        }
+    },
+    "506": {
+        "name": "Hundeangriff",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "fustw": 2
+        },
+        "credits": 800,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "nef": 25,
+            "specialisation": "Allgemeine Chirurgie"
+        }
     }
 }

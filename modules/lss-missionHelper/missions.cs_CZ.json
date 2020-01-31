@@ -1029,5 +1029,26 @@
             "transport": 50,
             "specialisation": "V\u0161eobecn\u00fd internista"
         }
+    },
+    "76": {
+        "name": "Dopravn\u00ed nehoda s p\u0159evr\u00e1cen\u00edm",
+        "stations": {
+            "0": 4,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        }
     }
 }

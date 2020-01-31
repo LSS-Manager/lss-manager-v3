@@ -14,7 +14,7 @@ $.get(missionlink)
             bchief: "Rapid Response Vehicle",
             tanker: "Water Carrier",
             hazmat: "HazMat",
-            mcv: "MCV",
+            mcv: "Mobile Command Vehicle",
             police: "Police Car",
             arff: 'ARFF',
             rth: "HEMS",

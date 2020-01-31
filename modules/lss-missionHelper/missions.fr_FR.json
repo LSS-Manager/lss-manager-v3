@@ -1497,5 +1497,17 @@
             "transport": 50,
             "specialisation": "Interne g\u00e9n\u00e9ral"
         }
+    },
+    "111": {
+        "name": "D\u00e9couverte de NAC",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "gkw": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 850
     }
 }

@@ -36,6 +36,8 @@
 // @include      *://www.112-merkez.com/*
 // @include      *://operador112.pt/*
 // @include      *://www.operador112.pt/*
+// @include      *://operador193.com/*
+// @include      *://www.operador193.com/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start
