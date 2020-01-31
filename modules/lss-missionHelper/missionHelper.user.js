@@ -133,7 +133,8 @@ const lssm_missionhelper_adjustPosition = () => {
             ulf: 'ULF mit Löscharm',
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher',
-            gwsan: 'GW-San'
+            gwsan: 'GW-San',
+			gwwa: 'GW-Wasserrettung'
         },
         pois: [
             "Park",
