@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 Autoupdater
-// @version      3.3.4
+// @version      3.3.4.1
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
 // @homepage     https://lss-manager.de
@@ -34,8 +34,8 @@
 // @include      *://www.operacni-stredisko.cz/*
 // @include      *://112-merkez.com/*
 // @include      *://www.112-merkez.com/*
-// @include      *://operador112.pt/*
-// @include      *://www.operador112.pt/*
+// @include      *://operador112.com/*
+// @include      *://www.operador112.com/*
 // @include      *://operador193.com/*
 // @include      *://www.operador193.com/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
