@@ -1333,7 +1333,7 @@
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
       name: 'Palavras-chave da missão',
       settingsName: 'Palavras-chave da missão - configurações',
-      domain: 'operador112.pt',
+      domain: 'operador112.com',
       fw: 'FIRE',
       thl: 'TECH',
       abc: 'CBRN',
