@@ -383,7 +383,8 @@
                 6: 'KHA',
                 7: 'TACH',
                 8: 'Policejní automobil',
-                9: 'Vrtulník LZS'
+                9: 'Vrtulník LZS',
+                10: 'AP'
             }
         }
     };

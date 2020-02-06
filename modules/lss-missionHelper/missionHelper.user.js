@@ -134,7 +134,7 @@ const lssm_missionhelper_adjustPosition = () => {
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher',
             gwsan: 'GW-San',
-			gwwa: 'GW-Wasserrettung'
+            gwwa: 'GW-Wasserrettung'
         },
         pois: [
             "Park",
@@ -1386,7 +1386,7 @@ const lssm_missionhelper_adjustPosition = () => {
             hazmat: "nebezpečnými látkami",
             mcv: "velitelská vozidla",
             police: "policejní vozidla",
-            rth: "HEMS",
+            rth: "Vrtulník LZS",
             ambulance: "Sanitkat",
             arff: "ARFF",
             k9: "Dog Support Units",
