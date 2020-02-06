@@ -19,7 +19,7 @@ $.get(missionlink)
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            rth: "vrtulník",
             policeHeli: "Police Helicopter",
         };
 
@@ -77,6 +77,8 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maximální počet vězňů/)) {
                 prisonersMax = number;
+            } else if (content.match(/vrtulník/)) {
+                rth = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {

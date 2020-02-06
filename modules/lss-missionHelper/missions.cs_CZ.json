@@ -1050,5 +1050,115 @@
             "transport": 100,
             "specialisation": "\u00darazov\u00e1 chirurgie"
         }
+    },
+    "77": {
+        "name": "Poran\u011bn\u00ed p\u00e1te\u0159e",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "V\u0161eobecn\u00fd chirurg"
+    },
+    "78": {
+        "name": "\u010c\u00e1ste\u010dn\u00e9 z\u0159\u00edcen\u00ed budovy",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        }
+    },
+    "79": {
+        "name": "Z\u0159\u00edcen\u00ed budovy",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        }
+    },
+    "80": {
+        "name": "Pop\u00e1leniny 3. stupn\u011b",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "V\u0161eobecn\u00fd chirurg"
+    },
+    "81": {
+        "name": "V\u00e1\u017en\u00e9 poran\u011bn\u00ed hlavy",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurochirurgie"
+    },
+    "82": {
+        "name": "Amputace kon\u010detiny",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "V\u0161eobecn\u00fd chirurg"
+    },
+    "83": {
+        "name": "Po\u017e\u00e1r velk\u00e9 farmy",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "84": {
+        "name": "Bolest zad",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "V\u0161eobecn\u00fd internista"
     }
 }

@@ -242,7 +242,8 @@ else if (I18n.locale == "cs_CZ") {
         "6": ["KHA", 0],
         "7": ["TACH", 0],
         "8": ["Policejní automobil", 6],
-        "9": ["Vrtulník LZS", 2]
+        "9": ["Vrtulník LZS", 2],
+        "10": ["AP", 0]
     };
 }
 else if (I18n.locale == "tr_TR") {

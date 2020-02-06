@@ -49,7 +49,7 @@ $.get(missionlink)
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher',
             gwsan: 'GW-San',
-			gwwa: 'GW-Wasserrettung'
+            gwwa: 'GW-Wasserrettung'
         };
 
         let credits;

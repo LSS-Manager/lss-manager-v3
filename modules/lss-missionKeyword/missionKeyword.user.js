@@ -1835,7 +1835,15 @@
         73: 'Vážná nehoda autobusu',
         74: 'Velký oheň',
         75: 'Dítě zamčené ve vozidle',
-        76: 'Dopravní nehoda s převrácením'
+        76: 'Dopravní nehoda s převrácením',
+        77: 'Poranění páteře',
+        78: 'Částečné zřícení budovy',
+        79: 'Zřícení budovy',
+        80: 'Popáleniny 3. stupně',
+        81: 'Vážné poranění hlavy',
+        82: 'Amputace končetiny',
+        83: 'Požár velké farmy',
+        84: 'Bolest zad'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -4832,7 +4840,15 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'TECH 1',
-      76: 'TECH 3'
+      76: 'TECH 3',
+      77: 'MED 1',
+      78: 'FIRE 2',
+      79: 'FIRE 4',
+      80: 'MED 1',
+      81: 'MED 1',
+      82: 'MED 1',
+      83: 'FIRE 6',
+      84: 'MED 1'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
