@@ -9,7 +9,7 @@ $.get(missionlink)
             truck: "brandbiler",
             platform: "platformvogn",
             heavyRescue: "redningskøretøjer",
-            air: "fordon",
+            air: "luftfartøj",
             bchief: "holdleder",
             tanker: "vandtankvogn",
             hazmat: "gift- og kemikaliekøretøj",

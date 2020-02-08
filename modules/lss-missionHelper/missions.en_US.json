@@ -5748,5 +5748,32 @@
         "expansions": {
             "0": 196
         }
+    },
+    "349": {
+        "name": "Propane depot explosion",
+        "stations": {
+            "0": 15,
+            "3": 2,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "air": 1,
+            "hazmat": 1,
+            "mcv": 1,
+            "police": 3
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Traumatology"
+        },
+        "poi": 53
     }
 }

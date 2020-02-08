@@ -1753,5 +1753,46 @@
         },
         "credits": 9500,
         "poi": 44
+    },
+    "124": {
+        "name": "Po\u017car Pustostanu",
+        "stations": {
+            "0": 12,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "platform": 1,
+            "police": 1
+        },
+        "credits": 4500,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Interna"
+        }
+    },
+    "125": {
+        "name": "Po\u017car chlewni",
+        "stations": {
+            "0": 16,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "platform": 1,
+            "police": 1
+        },
+        "credits": 6500,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Interna"
+        },
+        "poi": 21
     }
 }

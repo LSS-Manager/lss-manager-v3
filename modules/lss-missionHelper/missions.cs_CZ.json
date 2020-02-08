@@ -386,7 +386,6 @@
             "truck": 4,
             "heavyRescue": 2,
             "bchief": 2,
-            "mcv": 1,
             "police": 3,
             "hazmat": 2
         },
@@ -1160,5 +1159,24 @@
         "transport": 80,
         "rth": 30,
         "specialisation": "V\u0161eobecn\u00fd internista"
+    },
+    "85": {
+        "name": "Dopravn\u00ed nehoda motocyklu",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        }
     }
 }

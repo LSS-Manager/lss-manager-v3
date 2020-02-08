@@ -9144,7 +9144,6 @@
             "boot": 3,
             "taucher": 2,
             "fustw": 8,
-            "gwwa": 1,
             "elw1": 4,
             "elw2": 2
         },
@@ -9155,7 +9154,8 @@
             "nef": 50,
             "rth": 10,
             "specialisation": "Allgemeine Innere"
-        }
+        },
+        "poi": 1
     },
     "506": {
         "name": "Hundeangriff",
@@ -9172,6 +9172,61 @@
             "transport": 100,
             "nef": 25,
             "specialisation": "Allgemeine Chirurgie"
+        }
+    },
+    "507": {
+        "name": "Hochwasserschadenslage",
+        "stations": {
+            "0": 15,
+            "6": 6,
+            "9": 3,
+            "15": 5
+        },
+        "vehicles": {
+            "truck": 28,
+            "dlk": 1,
+            "rw": 5,
+            "fwk": 2,
+            "gwl2": 8,
+            "gkw": 4,
+            "mzkw": 3,
+            "mtwtz": 3,
+            "boot": 3,
+            "taucher": 2,
+            "fustw": 8,
+            "elw1": 4,
+            "elw2": 2
+        },
+        "credits": 11500,
+        "patients": {
+            "max": 17,
+            "transport": 30,
+            "nef": 50,
+            "rth": 10,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 27
+    },
+    "508": {
+        "name": "Pf\u00e4hlungsverletzung",
+        "stations": {
+            "0": 1,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "rw": 1,
+            "fustw": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 100,
+            "rth": 30,
+            "specialisation": "Unfallchirurgie"
         }
     }
 }

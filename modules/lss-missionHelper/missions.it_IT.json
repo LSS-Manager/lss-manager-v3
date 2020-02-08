@@ -1700,5 +1700,42 @@
         "special": {
             "averageMinimumEmployeesFire": 20
         }
+    },
+    "118": {
+        "name": "Incidente auto-bici",
+        "stations": {
+            "2": 4,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 90,
+            "rth": 10,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "119": {
+        "name": "Violenza domestica",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 90,
+            "specialisation": "Medicina interna generale"
+        },
+        "prisoners": {
+            "max": 1
+        }
     }
 }

@@ -1509,5 +1509,25 @@
             "truck": 1
         },
         "credits": 850
+    },
+    "112": {
+        "name": "AVP impliquant une moto",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 3,
+            "transport": 80,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
     }
 }

@@ -9756,5 +9756,42 @@
         "percentages": {
             "adembescherming": 20
         }
+    },
+    "559": {
+        "name": "Geschreeuw in woning",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 200
+    },
+    "560": {
+        "name": "Geschreeuw in woning",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "561": {
+        "name": "Rijden onder invloed van lachgas",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 400,
+        "poi": 16,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

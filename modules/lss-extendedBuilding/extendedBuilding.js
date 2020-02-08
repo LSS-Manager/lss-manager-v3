@@ -113,9 +113,9 @@
     };
     I18n.translations.cs_CZ.lssm.extendedBuilding = {
         title: 'Rozšířené zobrazení budovy',
-        crew: 'Crew (Max)',
+        crew: 'Posádka (max.)',
         fms: 'Status',
-        assignment: 'Assign Personnel',
+        assignment: 'Přiřadit personál',
         neededPersonnel: 'Needed Personnel',
         expansionFinished: 'Finished',
         expansionNotStarted: 'Not started',
