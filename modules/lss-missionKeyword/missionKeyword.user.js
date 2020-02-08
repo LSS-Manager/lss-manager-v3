@@ -528,7 +528,9 @@
         503: 'Damm droht zu brechen',
         504: 'Damm droht zu brechen',
         505: 'Hochwasserschadenslage',
-        506: 'Hundeangriff'
+        506: 'Hundeangriff',
+        507: 'Hochwasserschadenslage',
+        508: 'Pfählungsverletzung'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -895,7 +897,8 @@
         345: 'Animal on the tracks',
         346: 'Animal on the tracks',
         347: 'Animal on the tracks',
-        348: 'Cooking fire'
+        348: 'Cooking fire',
+        349: 'Propane depot explosion'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1053,7 +1056,8 @@
         136: 'Goods Train Fire',
         137: 'Goods Train Fire',
         138: 'Large Drunken Disorder',
-        139: 'Fire in silo'
+        139: 'Fire in silo',
+        140: 'Domestic Violence'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1191,7 +1195,8 @@
         116: 'MVA Rollover',
         117: 'Freight Train Derailment',
         118: 'Freight Train Derailment',
-        119: 'Freight Train Derailment'
+        119: 'Freight Train Derailment',
+        120: 'Armed robbery'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1327,7 +1332,8 @@
         114: 'Accidente de motocicleta',
         115: 'Intoxicación por monóxido de carbono',
         116: 'Vuelco de vehículo a motor',
-        117: 'Robo a mano armada'
+        117: 'Robo a mano armada',
+        118: 'Fuego en la cocina'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1346,82 +1352,83 @@
       bmaLong: 'Fire Alarm System',
       show: 'Aparecer esconder',
       keywords: {
-        0: 'Fogo em lixeira',
-        1: 'Fogo em contêiner',
-        2: 'Carro em chamas',
-        3: 'Moto em chamas',
-        4: 'Grama em chamas',
-        5: 'Incêndio em cômodo',
-        6: 'Fogo em abrigo de jardim',
-        7: 'Folhas em chamas',
-        8: 'Fogo em lixo em massa',
-        9: 'Fogo em fardo de palha',
-        10: 'Fogo em trator',
-        11: 'Cabine telefônica em chamas',
-        12: 'Árvore na pista',
-        13: 'Caminhão em chamas',
-        14: 'Fogo em campo pequeno',
-        15: 'Incêndio florestal pequeno',
-        16: 'Fogo em caravana',
-        17: 'Fogo em caixa de correio',
-        18: 'Pilha de galhos',
-        19: 'Trailer em chamas',
-        20: 'Fogo em porão',
-        21: 'Fogo em chaminé',
-        22: 'Fogo em telhado',
-        23: 'Fogo em fogão',
-        24: 'Parada de ônibus em chamas',
-        25: 'Acidente em estrada',
-        26: 'Incêndio em supermercado pequeno',
-        27: 'Fogo em garagem',
-        28: 'Máquina em chamas',
-        29: 'Vazamento de óleo desconhecido',
-        30: 'Vazamento de gás',
-        31: 'Fogo em lareira',
-        32: 'Fogo em colheitadeira',
-        33: 'Incêndio em supermercado pequeno',
-        34: 'Incêndio em hospital',
-        35: 'Embriaguez',
-        36: 'Dores do peito',
-        37: 'Asma aguda',
-        38: 'Convulsão',
+        0: 'Incêndio em caixote do lixo',
+        1: 'Incêndio em contentor do lixo',
+        2: 'Incêndio num carro',
+        3: 'Incêndio numa mota',
+        4: 'Incêndio num relvado',
+        5: 'Incêndio num quarto',
+        6: 'Incêndio num jardim',
+        7: 'Incêndio de sobrantes',
+        8: 'Pequeno incêndio numa lixeira',
+        9: 'Incêndio num fardo de palha',
+        10: 'Trator a arder',
+        11: 'Cabine telefónica a arder',
+        12: 'Queda de Árvore',
+        13: 'Incêndio num camião',
+        14: 'Pequeno incêndio agrícola',
+        15: 'Pequeno incêndio florestal',
+        16: 'Incêndio numa caravana',
+        17: 'Incêndio numa caixa de correio',
+        18: 'Queimada descontrolada',
+        19: 'Incêndio num trailer',
+        20: 'Incêndio numa cave',
+        21: 'Chaminé a arder',
+        22: 'Incêndio no telhado de uma casa',
+        23: 'Fogão a arder',
+        24: 'Paragem do autocarro a arder',
+        25: 'Acidente de viação',
+        26: 'Pequeno Incêndio num Supermercado',
+        27: 'Incêndio numa garagem',
+        28: 'Máquina agrícola a arder',
+        29: 'Combustível derramado',
+        30: 'Fuga de gás',
+        31: 'Incêndio numa salamandra',
+        32: 'Ceifeira a arder',
+        33: 'Pequeno Incêndio num Supermercado',
+        34: 'Incêndio no hospital',
+        35: 'Indivíduo alcoolizado',
+        36: 'Dores peitorais',
+        37: 'Crise asmática',
+        38: 'Convulsões',
         39: 'Febre',
-        40: 'Pessoa caída',
-        41: 'Fogo em oficina mecânica',
-        42: 'Pessoa caída',
-        43: 'Pessoa caída',
-        44: 'Furto em loja',
-        45: 'Furto em loja',
+        40: 'Pessoa caída no solo',
+        41: 'Incêndio numa oficina de mecânica',
+        42: 'Pessoa caída no solo',
+        43: 'Pessoa caída no solo',
+        44: 'Furto numa loja',
+        45: 'Furto numa loja',
         46: 'Acidente com carro estacionado',
         47: 'Acidente com carro estacionado',
         48: 'Roubo de metais',
         49: 'Furto',
-        50: 'Passageiro caloteiro',
-        51: 'Passageiro caloteiro',
-        52: 'Passageiro caloteiro',
-        53: 'Passageiro caloteiro',
+        50: 'Furto por Carteirista',
+        51: 'Furto por Carteirista',
+        52: 'Furto por Carteirista',
+        53: 'Furto por Carteirista',
         54: 'Acidente com carro estacionado',
-        55: 'Briga',
-        56: 'Desordeiro',
-        57: 'Protesto não anunciado',
-        58: 'Fogo em cozinha',
+        55: 'Agressões mútuas',
+        56: 'Indivíduo desordeiro',
+        57: 'Manifestação não planeada',
+        58: 'Incêndio na cozinha',
         59: 'Resgate de animal',
-        60: 'Fogo em salão de esportes',
-        61: 'Acidente aéreo leve (Aeródromo)',
-        62: 'Queixa de barulho',
-        63: 'Ataque isquêmico transitório',
-        64: 'Acidente envolvendo um ônibus',
-        65: 'Fogo em cozinha',
-        66: 'Incêndio em cômodo',
-        67: 'Briga',
-        68: 'Incendio en supermercado grande',
-        69: 'Vazamento de óleo desconhecido',
-        70: 'Incendio en supermercado grande',
+        60: 'Incêndio num pavilhão desportivo',
+        61: 'Incidente ligeiro com aeronave (Aeródromo)',
+        62: 'Ruído em excesso',
+        63: 'Acidente Vascular Cerebral',
+        64: 'Acidente com autocarro envolvido',
+        65: 'Incêndio na cozinha',
+        66: 'Incêndio num quarto',
+        67: 'Agressões mútuas',
+        68: 'Grande incêndio num supermercado',
+        69: 'Combustível derramado',
+        70: 'Grande incêndio num supermercado',
         71: 'Sangramento nasal',
-        72: 'Acidente aéreo leve',
-        73: 'Acidente sério envolvendo um ônibus',
-        74: 'Grande incêndio',
-        75: 'Capotamento com múltiplos veículos'
+        72: 'Queda de pequena aeronave',
+        73: 'Grave acidente envolvendo um autocarro',
+        74: 'Incêndio de grandes dimensões',
+        75: 'Acidente envolvendo várias viaturas',
+        76: 'Acidente de mota'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1514,7 +1521,8 @@
         71: 'Sangramento nasal',
         72: 'Acidente aéreo leve',
         73: 'Acidente sério envolvendo um ônibus',
-        74: 'Grande incêndio'
+        74: 'Grande incêndio',
+        75: 'Acidente de mota'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1639,7 +1647,8 @@
         103: 'Motorcykelolycka',
         104: 'Monoxidförgiftning',
         105: 'Rån, väpnat',
-        106: 'Våld/hot mot tjänsteman'
+        106: 'Våld/hot mot tjänsteman',
+        107: 'Trafikolycka - singel, volt'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1740,7 +1749,8 @@
         79: 'Respirationsstop',
         80: 'Motorcykel Uheld',
         81: 'Bevæbnet Røveri',
-        82: 'Rulledrundt Færdselsuheld'
+        82: 'Rulledrundt Færdselsuheld',
+        83: 'Carbon Monoxid Forgiftning'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -1843,7 +1853,8 @@
         81: 'Vážné poranění hlavy',
         82: 'Amputace končetiny',
         83: 'Požár velké farmy',
-        84: 'Bolest zad'
+        84: 'Bolest zad',
+        85: 'Dopravní nehoda motocyklu'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -1938,7 +1949,8 @@
         73: 'Büyük otobüs kazası',
         74: 'Büyük yangın',
         75: 'Araç devrilmesi',
-        76: 'Silahlı soygun'
+        76: 'Silahlı soygun',
+        77: 'Motosiklet Kazası'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2039,7 +2051,8 @@
         79: 'Pustestopp',
         80: 'Motorsykkelulykke',
         81: 'Væpnet ran',
-        82: 'Bilulykke'
+        82: 'Bilulykke',
+        83: 'CO-forgiftning'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2181,7 +2194,9 @@
         120: 'Pożar Małego Magazynu',
         121: 'Pożar Dużego Magazynu',
         122: 'Pożar Dużego Magazynu',
-        123: 'Pożar Dużego Magazynu'
+        123: 'Pożar Dużego Magazynu',
+        124: 'Pożar Pustostanu',
+        125: 'Pożar chlewni'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2317,7 +2332,9 @@
         114: 'Chiamata muta',
         115: 'Deragliamento treno',
         116: 'Nave cisterna in fiamme',
-        117: 'Persona scomparsa nel bosco'
+        117: 'Persona scomparsa nel bosco',
+        118: 'Incidente auto-bici',
+        119: 'Violenza domestica'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2447,7 +2464,8 @@
         108: 'Déstruction d\'hymenoptères',
         109: 'Assèchement de locaux',
         110: 'Personne ne répondant pas aux appels',
-        111: 'Découverte de NAC'
+        111: 'Découverte de NAC',
+        112: 'AVP impliquant une moto'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2569,7 +2587,8 @@
         100: 'Возгорание мусоровоза',
         101: 'Авария на мотоцикле',
         102: 'Опрокидывание автомобиля',
-        103: 'Вооруженное ограбление'
+        103: 'Вооруженное ограбление',
+        104: 'Отравление газом'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -3146,7 +3165,10 @@
         555: 'Persoon in aanraking met laagspanning',
         556: 'Brand in theater',
         557: 'Brand in theater',
-        558: 'Brand in theater'
+        558: 'Brand in theater',
+        559: 'Geschreeuw in woning',
+        560: 'Geschreeuw in woning',
+        561: 'Rijden onder invloed van lachgas'
       }
     };
 
@@ -3676,7 +3698,9 @@
       503: 'THW 3',
       504: 'THW 3',
       505: 'THW 5',
-      506: 'POL 1'
+      506: 'POL 1',
+      507: 'THW 5',
+      508: 'THL 1'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -4027,7 +4051,8 @@
       345: 'POL 1',
       346: 'POL 1',
       347: 'POL 1',
-      348: 'FIRE 1'
+      348: 'FIRE 1',
+      349: 'FIRE 6'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -4170,7 +4195,8 @@
       136: 'FIRE 4',
       137: 'FIRE 4',
       138: 'POL 2',
-      139: 'FIRE 6'
+      139: 'FIRE 6',
+      140: 'POL 2'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4292,7 +4318,8 @@
       116: 'TECH 2',
       117: 'TECH 5',
       118: 'TECH 5',
-      119: 'TECH 5'
+      119: 'TECH 5',
+      120: 'POL 4'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -4412,7 +4439,8 @@
       114: 'TECH 2',
       115: 'CBRN 1',
       116: 'TECH 2',
-      117: 'POL 3'
+      117: 'POL 3',
+      118: 'FIRE 1'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -4490,7 +4518,8 @@
       72: 'FIRE 3',
       73: 'TECH 3',
       74: 'FIRE 7',
-      75: 'TECH 3'
+      75: 'TECH 3',
+      76: 'TECH 2'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -4567,7 +4596,8 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'TECH 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -4676,7 +4706,8 @@
       103: 'TECH 2',
       104: 'CBRN 1',
       105: 'POL 3',
-      106: 'POL 2'
+      106: 'POL 2',
+      107: 'TECH 3'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -4761,7 +4792,8 @@
       79: 'MED 1',
       80: 'TECH 1',
       81: 'POL 3',
-      82: 'TECH 3'
+      82: 'TECH 3',
+      83: 'CBRN 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -4848,7 +4880,8 @@
       81: 'MED 1',
       82: 'MED 1',
       83: 'FIRE 6',
-      84: 'MED 1'
+      84: 'MED 1',
+      85: 'TECH 2'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -4927,7 +4960,8 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'TECH 2',
-      76: 'POL 3'
+      76: 'POL 3',
+      77: 'TECH 2'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -5012,7 +5046,8 @@
       79: 'MED 1',
       80: 'TECH 1',
       81: 'POL 3',
-      82: 'TECH 3'
+      82: 'TECH 3',
+      83: 'CBRN 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -5138,7 +5173,9 @@
       120: 'FIRE 5',
       121: 'FIRE 6',
       122: 'FIRE 6',
-      123: 'FIRE 6'
+      123: 'FIRE 6',
+      124: 'FIRE 4',
+      125: 'FIRE 4'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -5258,7 +5295,9 @@
       114: 'POL 1',
       115: 'TECH 6',
       116: 'FIRE 6',
-      117: 'FIRE 2'
+      117: 'FIRE 2',
+      118: 'POL 1',
+      119: 'POL 2'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -5372,7 +5411,8 @@
       108: 'TECH 1',
       109: 'TECH 1',
       110: 'MED 1',
-      111: 'TECH 1'
+      111: 'TECH 1',
+      112: 'TECH 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -5478,7 +5518,8 @@
       100: 'FIRE 2',
       101: 'TECH 1',
       102: 'TECH 2',
-      103: 'POL 3'
+      103: 'POL 3',
+      104: 'TECH 2'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -6039,7 +6080,10 @@
       555: 'A 1',
       556: 'MIDDEL BRAND',
       557: 'GROTE BRAND',
-      558: 'ZEER GROTE BRAND'
+      558: 'ZEER GROTE BRAND',
+      559: 'P 1',
+      560: 'P 2',
+      561: 'P 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

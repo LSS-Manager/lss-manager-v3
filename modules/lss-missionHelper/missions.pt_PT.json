@@ -1,6 +1,6 @@
 {
     "0": {
-        "name": "Fogo em lixeira",
+        "name": "Inc\u00eandio em caixote do lixo",
         "stations": {
             "0": 1
         },
@@ -11,7 +11,7 @@
         "poi": 4
     },
     "1": {
-        "name": "Fogo em cont\u00eainer",
+        "name": "Inc\u00eandio em contentor do lixo",
         "stations": {
             "0": 1
         },
@@ -21,7 +21,7 @@
         "credits": 170
     },
     "2": {
-        "name": "Carro em chamas",
+        "name": "Inc\u00eandio num carro",
         "stations": {
             "0": 1
         },
@@ -36,7 +36,7 @@
         }
     },
     "3": {
-        "name": "Moto em chamas",
+        "name": "Inc\u00eandio numa mota",
         "stations": {
             "0": 1
         },
@@ -49,7 +49,7 @@
         }
     },
     "4": {
-        "name": "Grama em chamas",
+        "name": "Inc\u00eandio num relvado",
         "stations": {
             "0": 1
         },
@@ -62,7 +62,7 @@
         }
     },
     "5": {
-        "name": "Inc\u00eandio em c\u00f4modo",
+        "name": "Inc\u00eandio num quarto",
         "stations": {
             "0": 2
         },
@@ -81,7 +81,7 @@
         }
     },
     "6": {
-        "name": "Fogo em abrigo de jardim",
+        "name": "Inc\u00eandio num jardim",
         "stations": {
             "0": 2
         },
@@ -91,7 +91,7 @@
         "credits": 600
     },
     "7": {
-        "name": "Folhas em chamas",
+        "name": "Inc\u00eandio de sobrantes",
         "stations": {
             "0": 1
         },
@@ -104,7 +104,7 @@
         }
     },
     "8": {
-        "name": "Fogo em lixo em massa",
+        "name": "Pequeno inc\u00eandio numa lixeira",
         "stations": {
             "0": 1
         },
@@ -119,7 +119,7 @@
         }
     },
     "9": {
-        "name": "Fogo em fardo de palha",
+        "name": "Inc\u00eandio num fardo de palha",
         "stations": {
             "0": 1
         },
@@ -133,7 +133,7 @@
         }
     },
     "10": {
-        "name": "Fogo em trator",
+        "name": "Trator a arder",
         "stations": {
             "0": 1
         },
@@ -143,7 +143,7 @@
         "credits": 600
     },
     "11": {
-        "name": "Cabine telef\u00f4nica em chamas",
+        "name": "Cabine telef\u00f3nica a arder",
         "stations": {
             "0": 1
         },
@@ -153,7 +153,7 @@
         "credits": 240
     },
     "12": {
-        "name": "\u00c1rvore na pista",
+        "name": "Queda de \u00c1rvore",
         "stations": {
             "0": 1
         },
@@ -166,7 +166,7 @@
         }
     },
     "13": {
-        "name": "Caminh\u00e3o em chamas",
+        "name": "Inc\u00eandio num cami\u00e3o",
         "stations": {
             "0": 2
         },
@@ -176,7 +176,7 @@
         "credits": 980
     },
     "14": {
-        "name": "Fogo em campo pequeno",
+        "name": "Pequeno inc\u00eandio agr\u00edcola",
         "stations": {
             "0": 2
         },
@@ -189,7 +189,7 @@
         }
     },
     "15": {
-        "name": "Inc\u00eandio florestal pequeno",
+        "name": "Pequeno inc\u00eandio florestal",
         "stations": {
             "0": 1
         },
@@ -200,7 +200,7 @@
         "poi": 3
     },
     "16": {
-        "name": "Fogo em caravana",
+        "name": "Inc\u00eandio numa caravana",
         "stations": {
             "0": 2
         },
@@ -210,7 +210,7 @@
         "credits": 1100
     },
     "17": {
-        "name": "Fogo em caixa de correio",
+        "name": "Inc\u00eandio numa caixa de correio",
         "stations": {
             "0": 1
         },
@@ -220,7 +220,7 @@
         "credits": 340
     },
     "18": {
-        "name": "Pilha de galhos",
+        "name": "Queimada descontrolada",
         "stations": {
             "0": 1
         },
@@ -230,7 +230,7 @@
         "credits": 700
     },
     "19": {
-        "name": "Trailer em chamas",
+        "name": "Inc\u00eandio num trailer",
         "stations": {
             "0": 1
         },
@@ -240,7 +240,7 @@
         "credits": 650
     },
     "20": {
-        "name": "Fogo em por\u00e3o",
+        "name": "Inc\u00eandio numa cave",
         "stations": {
             "0": 3
         },
@@ -258,7 +258,7 @@
         }
     },
     "21": {
-        "name": "Fogo em chamin\u00e9",
+        "name": "Chamin\u00e9 a arder",
         "stations": {
             "0": 3
         },
@@ -276,7 +276,7 @@
         }
     },
     "22": {
-        "name": "Fogo em telhado",
+        "name": "Inc\u00eandio no telhado de uma casa",
         "stations": {
             "0": 3
         },
@@ -292,7 +292,7 @@
         }
     },
     "23": {
-        "name": "Fogo em fog\u00e3o",
+        "name": "Fog\u00e3o a arder",
         "stations": {
             "0": 3
         },
@@ -302,7 +302,7 @@
         "credits": 1200
     },
     "24": {
-        "name": "Parada de \u00f4nibus em chamas",
+        "name": "Paragem do autocarro a arder",
         "stations": {
             "0": 3
         },
@@ -313,7 +313,7 @@
         "poi": 4
     },
     "25": {
-        "name": "Acidente em estrada",
+        "name": "Acidente de via\u00e7\u00e3o",
         "stations": {
             "0": 3
         },
@@ -333,7 +333,7 @@
         }
     },
     "26": {
-        "name": "Inc\u00eandio em supermercado pequeno",
+        "name": "Pequeno inc\u00eandio num supermercado",
         "stations": {
             "0": 5,
             "2": 1
@@ -351,7 +351,7 @@
         "poi": 9
     },
     "27": {
-        "name": "Fogo em garagem",
+        "name": "Inc\u00eandio numa garagem",
         "stations": {
             "0": 4
         },
@@ -361,7 +361,7 @@
         "credits": 1400
     },
     "28": {
-        "name": "M\u00e1quina em chamas",
+        "name": "M\u00e1quina agr\u00edcola a arder",
         "stations": {
             "0": 5
         },
@@ -377,7 +377,7 @@
         }
     },
     "29": {
-        "name": "Vazamento de \u00f3leo desconhecido",
+        "name": "Combust\u00edvel derramado",
         "stations": {
             "0": 13,
             "6": 2
@@ -392,7 +392,7 @@
         "credits": 5300
     },
     "30": {
-        "name": "Vazamento de g\u00e1s",
+        "name": "Fuga de g\u00e1s",
         "stations": {
             "0": 1
         },
@@ -402,7 +402,7 @@
         "credits": 400
     },
     "31": {
-        "name": "Fogo em lareira",
+        "name": "Inc\u00eandio numa salamandra",
         "stations": {
             "0": 6
         },
@@ -414,7 +414,7 @@
         "credits": 1310
     },
     "32": {
-        "name": "Fogo em colheitadeira",
+        "name": "Ceifeira a arder",
         "stations": {
             "0": 6
         },
@@ -424,7 +424,7 @@
         "credits": 1200
     },
     "33": {
-        "name": "Inc\u00eandio em supermercado pequeno",
+        "name": "Pequeno Inc\u00eandio num Supermercado",
         "stations": {
             "0": 5,
             "2": 1
@@ -442,7 +442,7 @@
         "poi": 9
     },
     "34": {
-        "name": "Inc\u00eandio em hospital",
+        "name": "Inc\u00eandio no hospital",
         "stations": {
             "0": 10,
             "2": 6
@@ -463,7 +463,7 @@
         "poi": 2
     },
     "35": {
-        "name": "Embriaguez",
+        "name": "Indiv\u00edduo alcoolizado",
         "stations": {
             "2": 1,
             "6": 1
@@ -478,7 +478,7 @@
         }
     },
     "36": {
-        "name": "Dores do peito",
+        "name": "Dores peitorais",
         "stations": {
             "2": 3
         },
@@ -487,7 +487,7 @@
         "specialisation": "Cardiologia"
     },
     "37": {
-        "name": "Asma aguda",
+        "name": "Crise asm\u00e1tica",
         "stations": {
             "2": 3
         },
@@ -496,7 +496,7 @@
         "specialisation": "Cl\u00ednica m\u00e9dica"
     },
     "38": {
-        "name": "Convuls\u00e3o",
+        "name": "Convuls\u00f5es",
         "stations": {
             "2": 3
         },
@@ -514,7 +514,7 @@
         "specialisation": "Cl\u00ednica m\u00e9dica"
     },
     "40": {
-        "name": "Pessoa ca\u00edda",
+        "name": "Pessoa ca\u00edda no solo",
         "stations": {
             "2": 1
         },
@@ -523,7 +523,7 @@
         "specialisation": "Traumatologia"
     },
     "41": {
-        "name": "Fogo em oficina mec\u00e2nica",
+        "name": "Inc\u00eandio numa oficina de mec\u00e2nica",
         "stations": {
             "0": 14,
             "2": 2,
@@ -550,7 +550,7 @@
         }
     },
     "42": {
-        "name": "Pessoa ca\u00edda",
+        "name": "Pessoa ca\u00edda no solo",
         "stations": {
             "2": 1
         },
@@ -559,7 +559,7 @@
         "specialisation": "Traumatologia"
     },
     "43": {
-        "name": "Pessoa ca\u00edda",
+        "name": "Pessoa ca\u00edda no solo",
         "stations": {
             "2": 1
         },
@@ -568,7 +568,7 @@
         "specialisation": "Traumatologia"
     },
     "44": {
-        "name": "Furto em loja",
+        "name": "Furto numa loja",
         "stations": {
             "6": 1
         },
@@ -582,7 +582,7 @@
         }
     },
     "45": {
-        "name": "Furto em loja",
+        "name": "Furto numa loja",
         "stations": {
             "6": 1
         },
@@ -603,8 +603,7 @@
         "vehicles": {
             "police": 1
         },
-        "credits": 120,
-        "poi": 9
+        "credits": 120
     },
     "47": {
         "name": "Acidente com carro estacionado",
@@ -614,8 +613,7 @@
         "vehicles": {
             "police": 1
         },
-        "credits": 120,
-        "poi": 10
+        "credits": 120
     },
     "48": {
         "name": "Roubo de metais",
@@ -640,35 +638,32 @@
             "police": 1
         },
         "credits": 150,
-        "poi": 0,
         "prisoners": {
             "max": 1
         }
     },
     "50": {
-        "name": "Passageiro caloteiro",
+        "name": "Furto por Carteirista",
         "stations": {
             "6": 1
         },
         "vehicles": {
             "police": 1
         },
-        "credits": 120,
-        "poi": 4
+        "credits": 120
     },
     "51": {
-        "name": "Passageiro caloteiro",
+        "name": "Furto por Carteirista",
         "stations": {
             "6": 1
         },
         "vehicles": {
             "police": 1
         },
-        "credits": 120,
-        "poi": 5
+        "credits": 140
     },
     "52": {
-        "name": "Passageiro caloteiro",
+        "name": "Furto por Carteirista",
         "stations": {
             "6": 1
         },
@@ -679,7 +674,7 @@
         "poi": 6
     },
     "53": {
-        "name": "Passageiro caloteiro",
+        "name": "Furto por Carteirista",
         "stations": {
             "6": 1
         },
@@ -701,7 +696,7 @@
         "poi": 14
     },
     "55": {
-        "name": "Briga",
+        "name": "Agress\u00f5es m\u00fatuas",
         "stations": {
             "6": 3
         },
@@ -718,7 +713,7 @@
         }
     },
     "56": {
-        "name": "Desordeiro",
+        "name": "Indiv\u00edduo desordeiro",
         "stations": {
             "6": 2
         },
@@ -734,14 +729,14 @@
         }
     },
     "57": {
-        "name": "Protesto n\u00e3o anunciado",
+        "name": "Manifesta\u00e7\u00e3o n\u00e3o planeada",
         "vehicles": {
             "police": 7
         },
         "credits": 10020
     },
     "58": {
-        "name": "Fogo em cozinha",
+        "name": "Inc\u00eandio na cozinha",
         "stations": {
             "0": 2
         },
@@ -750,8 +745,20 @@
         },
         "credits": 1000
     },
+    "59": {
+        "name": "Resgate de animal",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
     "60": {
-        "name": "Fogo em sal\u00e3o de esportes",
+        "name": "Inc\u00eandio num pavilh\u00e3o desportivo",
         "stations": {
             "0": 9,
             "2": 2
@@ -770,7 +777,7 @@
         "poi": 12
     },
     "61": {
-        "name": "Acidente a\u00e9reo leve (Aer\u00f3dromo)",
+        "name": "Incidente ligeiro com aeronave (Aer\u00f3dromo)",
         "stations": {
             "0": 4,
             "2": 2
@@ -788,7 +795,7 @@
         "poi": 28
     },
     "62": {
-        "name": "Queixa de barulho",
+        "name": "Ru\u00eddo em excesso",
         "stations": {
             "6": 1
         },
@@ -798,7 +805,7 @@
         "credits": 400
     },
     "63": {
-        "name": "Ataque isqu\u00eamico transit\u00f3rio",
+        "name": "Acidente Vascular Cerebral",
         "stations": {
             "2": 1
         },
@@ -807,7 +814,7 @@
         "specialisation": "Neurocirurgia"
     },
     "64": {
-        "name": "Acidente envolvendo um \u00f4nibus",
+        "name": "Acidente com autocarro envolvido",
         "stations": {
             "0": 3,
             "2": 8
@@ -824,7 +831,7 @@
         }
     },
     "65": {
-        "name": "Fogo em cozinha",
+        "name": "Inc\u00eandio na cozinha",
         "stations": {
             "0": 2
         },
@@ -834,7 +841,7 @@
         "credits": 1000
     },
     "66": {
-        "name": "Inc\u00eandio em c\u00f4modo",
+        "name": "Inc\u00eandio num quarto",
         "stations": {
             "0": 2
         },
@@ -853,7 +860,7 @@
         }
     },
     "67": {
-        "name": "Briga",
+        "name": "Agress\u00f5es m\u00fatuas",
         "stations": {
             "6": 3
         },
@@ -870,7 +877,7 @@
         }
     },
     "68": {
-        "name": "Inc\u00eandio em supermercado grande",
+        "name": "Grande inc\u00eandio num supermercado",
         "stations": {
             "0": 8,
             "2": 3,
@@ -896,7 +903,7 @@
         }
     },
     "69": {
-        "name": "Vazamento de \u00f3leo desconhecido",
+        "name": "Combust\u00edvel derramado",
         "stations": {
             "0": 13,
             "6": 2
@@ -911,7 +918,7 @@
         "credits": 4300
     },
     "70": {
-        "name": "Inc\u00eandio em supermercado grande",
+        "name": "Grande inc\u00eandio num supermercado",
         "stations": {
             "0": 8,
             "2": 3,
@@ -945,7 +952,7 @@
         "specialisation": "Cirurgi\u00e3o geral"
     },
     "72": {
-        "name": "Acidente a\u00e9reo leve",
+        "name": "Queda de pequena aeronave",
         "stations": {
             "0": 13,
             "2": 2
@@ -968,7 +975,7 @@
         }
     },
     "73": {
-        "name": "Acidente s\u00e9rio envolvendo um \u00f4nibus",
+        "name": "Grave acidente envolvendo um autocarro",
         "stations": {
             "0": 5,
             "2": 8,
@@ -989,7 +996,7 @@
         }
     },
     "74": {
-        "name": "Grande inc\u00eandio",
+        "name": "Inc\u00eandio de grandes dimens\u00f5es",
         "vehicles": {
             "truck": 10,
             "bchief": 3,
@@ -1018,6 +1025,25 @@
             "min": 1,
             "transport": 100,
             "specialisation": "Traumatologia"
+        }
+    },
+    "76": {
+        "name": "Acidente de mota",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Cl\u00ednica m\u00e9dica"
         }
     }
 }

@@ -1602,5 +1602,18 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "118": {
+        "name": "Fuego en la cocina",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650,
+        "expansions": {
+            "0": 58
+        }
     }
 }

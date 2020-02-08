@@ -1126,5 +1126,29 @@
             "transport": 100,
             "specialisation": "Traumatologi"
         }
+    },
+    "83": {
+        "name": "Carbon Monoxid Forgiftning",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "air": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 80,
+            "specialisation": "Specialister i intern medicin"
+        },
+        "percentages": {
+            "air": 30
+        }
     }
 }

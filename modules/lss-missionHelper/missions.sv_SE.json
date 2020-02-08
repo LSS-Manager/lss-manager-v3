@@ -1470,5 +1470,26 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "107": {
+        "name": "Trafikolycka - singel, volt",
+        "stations": {
+            "0": 4,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologi"
+        }
     }
 }

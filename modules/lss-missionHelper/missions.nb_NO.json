@@ -1124,5 +1124,29 @@
             "transport": 100,
             "specialisation": "Traumatologi"
         }
+    },
+    "83": {
+        "name": "CO-forgiftning",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "air": 1,
+            "police": 1
+        },
+        "credits": 2300,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 80,
+            "specialisation": "Generell indremedisiner"
+        },
+        "percentages": {
+            "air": 30
+        }
     }
 }

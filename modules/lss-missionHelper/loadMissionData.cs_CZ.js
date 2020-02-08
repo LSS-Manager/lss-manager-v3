@@ -6,17 +6,17 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "hasičské vozy",
-            platform: "vozy s plošinou",
+            truck: "cisternové automobilové",
+            platform: "automobilov",
             heavyRescue: "těžká technická vozidla",
             air: "fordon",
-            bchief: "jednotky",
-            tanker: "cistern",
-            hazmat: "nebezpečnými látkami",
+            bchief: "velitelsk",
+            tanker: "kombinované hasící automobily|KHA",
+            hazmat: "vozidla pro práci s nebezpečnými látkami",
             mcv: "velitelská vozidla",
-            police: "policejní vozidla",
+            police: "policejní automobily",
             ambulance: "Sanitkat",
-            arff: "ARFF",
+            arff: "letištní speciály",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
             rth: "vrtulník",
@@ -65,11 +65,11 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Max\. Pacienti/)) {
+            if (content.match(/Maximum pacientů/)) {
                 patientsMax = number;
             } else if (content.match(/Minimální počet pacientů/)) {
                 patientsMin = number;
-            } else if (content.match(/převézt/)) {
+            } else if (content.match(/pacienta transportovat/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;

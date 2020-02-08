@@ -260,7 +260,9 @@ $.get(missionlink)
                 "Large chemical storage tank",
                 "Hotel",
                 "Bar",
-                "Landfill site"
+                "Landfill site",
+                "Parking Garage",
+                "Propane depot"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
