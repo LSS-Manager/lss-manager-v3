@@ -968,7 +968,9 @@
                                 fetch(`/vehicles/${vehicle_id}/zuweisung`)
                                   .then(response => response.text())
                                   .then(response => {
-                                      document.querySelector(`#workers_${vehicle_id}`).innerText = (response.match(/class="btn btn-default btn-assigned"/g) || []).length
+                                      const amount = (response.match(/class="btn btn-default btn-assigned"/g) || []).length;
+                                      document.querySelector(`#workers_${vehicle_id}`).innerText = amount;
+									  document.querySelector(`#workers_${vehicle_id}`).style.color = amount == maximum ? 'green' : 'red';
                                   });
                             }, 100 * index);
                         }
