@@ -530,7 +530,8 @@
         505: 'Hochwasserschadenslage',
         506: 'Hundeangriff',
         507: 'Hochwasserschadenslage',
-        508: 'Pfählungsverletzung'
+        508: 'Pfählungsverletzung',
+        509: 'Brennender Stall'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -898,7 +899,8 @@
         346: 'Animal on the tracks',
         347: 'Animal on the tracks',
         348: 'Cooking fire',
-        349: 'Propane depot explosion'
+        349: 'Propane depot explosion',
+        350: 'Choking'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1057,7 +1059,8 @@
         137: 'Goods Train Fire',
         138: 'Large Drunken Disorder',
         139: 'Fire in silo',
-        140: 'Domestic Violence'
+        140: 'Domestic Violence',
+        141: 'Choking'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1196,7 +1199,8 @@
         117: 'Freight Train Derailment',
         118: 'Freight Train Derailment',
         119: 'Freight Train Derailment',
-        120: 'Armed robbery'
+        120: 'Armed robbery',
+        121: 'Choking'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1333,7 +1337,8 @@
         115: 'Intoxicación por monóxido de carbono',
         116: 'Vuelco de vehículo a motor',
         117: 'Robo a mano armada',
-        118: 'Fuego en la cocina'
+        118: 'Fuego en la cocina',
+        119: 'Asfixia'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1428,7 +1433,8 @@
         73: 'Grave acidente envolvendo um autocarro',
         74: 'Incêndio de grandes dimensões',
         75: 'Acidente envolvendo várias viaturas',
-        76: 'Acidente de mota'
+        76: 'Acidente de mota',
+        77: 'Asfixia'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1522,7 +1528,8 @@
         72: 'Acidente aéreo leve',
         73: 'Acidente sério envolvendo um ônibus',
         74: 'Grande incêndio',
-        75: 'Acidente de mota'
+        75: 'Acidente de mota',
+        76: 'Asfixia'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1648,7 +1655,8 @@
         104: 'Monoxidförgiftning',
         105: 'Rån, väpnat',
         106: 'Våld/hot mot tjänsteman',
-        107: 'Trafikolycka - singel, volt'
+        107: 'Trafikolycka - singel, volt',
+        108: 'Ofri luftväg'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1750,7 +1758,8 @@
         80: 'Motorcykel Uheld',
         81: 'Bevæbnet Røveri',
         82: 'Rulledrundt Færdselsuheld',
-        83: 'Carbon Monoxid Forgiftning'
+        83: 'Carbon Monoxid Forgiftning',
+        84: 'Person Kvalt'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -1854,7 +1863,8 @@
         82: 'Amputace končetiny',
         83: 'Požár velké farmy',
         84: 'Bolest zad',
-        85: 'Dopravní nehoda motocyklu'
+        85: 'Dopravní nehoda motocyklu',
+        86: 'Dušení'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -1950,7 +1960,8 @@
         74: 'Büyük yangın',
         75: 'Araç devrilmesi',
         76: 'Silahlı soygun',
-        77: 'Motosiklet Kazası'
+        77: 'Motosiklet Kazası',
+        78: 'Boğucu'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2052,7 +2063,8 @@
         80: 'Motorsykkelulykke',
         81: 'Væpnet ran',
         82: 'Bilulykke',
-        83: 'CO-forgiftning'
+        83: 'CO-forgiftning',
+        84: 'Fremmedlegeme'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2196,7 +2208,9 @@
         122: 'Pożar Dużego Magazynu',
         123: 'Pożar Dużego Magazynu',
         124: 'Pożar Pustostanu',
-        125: 'Pożar chlewni'
+        125: 'Pożar chlewni',
+        126: 'Zadławienie',
+        127: 'Wypadek Na Przejeździe Kolejowym'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2334,7 +2348,9 @@
         116: 'Nave cisterna in fiamme',
         117: 'Persona scomparsa nel bosco',
         118: 'Incidente auto-bici',
-        119: 'Violenza domestica'
+        119: 'Violenza domestica',
+        120: 'Soffocamento',
+        121: 'Scoppio bombola del gas'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2465,7 +2481,8 @@
         109: 'Assèchement de locaux',
         110: 'Personne ne répondant pas aux appels',
         111: 'Découverte de NAC',
-        112: 'AVP impliquant une moto'
+        112: 'AVP impliquant une moto',
+        113: 'Étouffement'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2588,7 +2605,8 @@
         101: 'Авария на мотоцикле',
         102: 'Опрокидывание автомобиля',
         103: 'Вооруженное ограбление',
-        104: 'Отравление газом'
+        104: 'Отравление газом',
+        105: 'Задыхаясь'
       }
     };
     I18n.translations.nl.lssm.missionKeywordDefaults = {
@@ -3168,7 +3186,9 @@
         558: 'Brand in theater',
         559: 'Geschreeuw in woning',
         560: 'Geschreeuw in woning',
-        561: 'Rijden onder invloed van lachgas'
+        561: 'Rijden onder invloed van lachgas',
+        562: 'Hart gestolen',
+        563: 'Hart gebroken'
       }
     };
 
@@ -3700,7 +3720,8 @@
       505: 'THW 5',
       506: 'POL 1',
       507: 'THW 5',
-      508: 'THL 1'
+      508: 'THL 1',
+      509: 'B 5'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -4052,7 +4073,8 @@
       346: 'POL 1',
       347: 'POL 1',
       348: 'FIRE 1',
-      349: 'FIRE 6'
+      349: 'FIRE 6',
+      350: 'MED 1'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -4196,7 +4218,8 @@
       137: 'FIRE 4',
       138: 'POL 2',
       139: 'FIRE 6',
-      140: 'POL 2'
+      140: 'POL 2',
+      141: 'MED 1'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4319,7 +4342,8 @@
       117: 'TECH 5',
       118: 'TECH 5',
       119: 'TECH 5',
-      120: 'POL 4'
+      120: 'POL 4',
+      121: 'MED 1'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -4440,7 +4464,8 @@
       115: 'CBRN 1',
       116: 'TECH 2',
       117: 'POL 3',
-      118: 'FIRE 1'
+      118: 'FIRE 1',
+      119: 'MED 1'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -4519,7 +4544,8 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'TECH 3',
-      76: 'TECH 2'
+      76: 'TECH 2',
+      77: 'MED 1'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -4597,7 +4623,8 @@
       72: 'FIRE 3',
       73: 'TECH 3',
       74: 'FIRE 7',
-      75: 'TECH 2'
+      75: 'TECH 2',
+      76: 'MED 1'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -4707,7 +4734,8 @@
       104: 'CBRN 1',
       105: 'POL 3',
       106: 'POL 2',
-      107: 'TECH 3'
+      107: 'TECH 3',
+      108: 'MED 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -4793,7 +4821,8 @@
       80: 'TECH 1',
       81: 'POL 3',
       82: 'TECH 3',
-      83: 'CBRN 1'
+      83: 'CBRN 1',
+      84: 'MED 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -4881,7 +4910,8 @@
       82: 'MED 1',
       83: 'FIRE 6',
       84: 'MED 1',
-      85: 'TECH 2'
+      85: 'TECH 2',
+      86: 'MED 1'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -4961,7 +4991,8 @@
       74: 'FIRE 7',
       75: 'TECH 2',
       76: 'POL 3',
-      77: 'TECH 2'
+      77: 'TECH 2',
+      78: 'MED 1'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -5047,7 +5078,8 @@
       80: 'TECH 1',
       81: 'POL 3',
       82: 'TECH 3',
-      83: 'CBRN 1'
+      83: 'CBRN 1',
+      84: 'MED 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -5175,7 +5207,9 @@
       122: 'FIRE 6',
       123: 'FIRE 6',
       124: 'FIRE 4',
-      125: 'FIRE 4'
+      125: 'FIRE 4',
+      126: 'MED 1',
+      127: 'TECH 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -5297,7 +5331,9 @@
       116: 'FIRE 6',
       117: 'FIRE 2',
       118: 'POL 1',
-      119: 'POL 2'
+      119: 'POL 2',
+      120: 'MED 1',
+      121: 'FIRE 3'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -5412,7 +5448,8 @@
       109: 'TECH 1',
       110: 'MED 1',
       111: 'TECH 1',
-      112: 'TECH 1'
+      112: 'TECH 1',
+      113: 'MED 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -5519,7 +5556,8 @@
       101: 'TECH 1',
       102: 'TECH 2',
       103: 'POL 3',
-      104: 'TECH 2'
+      104: 'TECH 2',
+      105: 'MED 1'
     };
     let DEFAULT_AAO_NL = {
       0: 'KLEINE BRAND',
@@ -6083,7 +6121,9 @@
       558: 'ZEER GROTE BRAND',
       559: 'P 1',
       560: 'P 2',
-      561: 'P 2'
+      561: 'P 2',
+      562: 'P 1',
+      563: 'A 1'      
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

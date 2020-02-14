@@ -1069,5 +1069,14 @@
             "transport": 50,
             "specialisation": "Genel Dahiliye"
         }
+    },
+    "78": {
+        "name": "Bo\u011fucu",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Genel Dahiliye"
     }
 }

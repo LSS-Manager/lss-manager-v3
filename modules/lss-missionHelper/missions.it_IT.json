@@ -1737,5 +1737,38 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "120": {
+        "name": "Soffocamento",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Medicina interna generale"
+    },
+    "121": {
+        "name": "Scoppio bombola del gas",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "platform": 1,
+            "police": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 6,
+            "min": 2,
+            "transport": 50,
+            "specialisation": "Traumatologia"
+        },
+        "percentages": {
+            "platform": 30
+        }
     }
 }

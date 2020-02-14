@@ -1017,5 +1017,14 @@
             "transport": 50,
             "specialisation": "Cl\u00ednica m\u00e9dica"
         }
+    },
+    "76": {
+        "name": "Asfixia",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Cl\u00ednica m\u00e9dica"
     }
 }

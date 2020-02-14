@@ -1178,5 +1178,14 @@
             "transport": 50,
             "specialisation": "V\u0161eobecn\u00fd internista"
         }
+    },
+    "86": {
+        "name": "Du\u0161en\u00ed",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "V\u0161eobecn\u00fd internista"
     }
 }

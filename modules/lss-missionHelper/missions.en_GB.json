@@ -1912,5 +1912,14 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "141": {
+        "name": "Choking",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "General Internal"
     }
 }

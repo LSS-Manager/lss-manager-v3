@@ -5775,5 +5775,14 @@
             "specialisation": "Traumatology"
         },
         "poi": 53
+    },
+    "350": {
+        "name": "Choking",
+        "stations": {
+            "3": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "General Internal"
     }
 }
