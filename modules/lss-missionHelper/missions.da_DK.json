@@ -1150,5 +1150,14 @@
         "percentages": {
             "air": 30
         }
+    },
+    "84": {
+        "name": "Person Kvalt",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Specialister i intern medicin"
     }
 }

@@ -444,6 +444,7 @@
             let addressAndPatrientRow = $('.mission_header_info >> small').first().text().trim().split(',');
             addressAndPatrientRow = addressAndPatrientRow[addressAndPatrientRow.length - 1].split('|');
             const address = addressAndPatrientRow[0];
+            let ort = address.substring(7);
             const patientsLeft = addressAndPatrientRow.length === 2 ? addressAndPatrientRow[1] : 0;
 
             // Prepare values for %MY_CUSTOM_TIME%
@@ -461,6 +462,7 @@
 
             messages = messages.map((message) => {
                 message = message.replace('%ADDRESS%', address);
+                message = message.replace('%CITY%', ort);
                 message = message.replace('%TIME_OFFSET%', customTime + ':00 Uhr');
                 message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                 message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);

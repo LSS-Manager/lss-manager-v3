@@ -1794,5 +1794,36 @@
             "specialisation": "Interna"
         },
         "poi": 21
+    },
+    "126": {
+        "name": "Zad\u0142awienie",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Interna"
+    },
+    "127": {
+        "name": "Wypadek Na Przeje\u017adzie Kolejowym",
+        "stations": {
+            "0": 7,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 3700,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Chirurg og\u00f3lny"
+        },
+        "poi": 24
     }
 }

@@ -4928,7 +4928,8 @@
         "expansions": {
             "0": 206,
             "1": 204,
-            "2": 205
+            "2": 205,
+            "3": 509
         },
         "percentages": {
             "dlk": 75,
@@ -9227,6 +9228,31 @@
             "nef": 100,
             "rth": 30,
             "specialisation": "Unfallchirurgie"
+        }
+    },
+    "509": {
+        "name": "Brennender Stall",
+        "stations": {
+            "0": 11,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 6,
+            "dlk": 2,
+            "gwl2": 1,
+            "atem": 1,
+            "elw1": 2,
+            "elw2": 1,
+            "fustw": 2
+        },
+        "credits": 3500,
+        "poi": 21,
+        "expansions": {
+            "0": 205,
+            "1": 206
+        },
+        "percentages": {
+            "elw2": 15
         }
     }
 }

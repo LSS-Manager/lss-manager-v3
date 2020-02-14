@@ -1529,5 +1529,14 @@
             "transport": 80,
             "specialisation": "Interne g\u00e9n\u00e9ral"
         }
+    },
+    "113": {
+        "name": "\u00c9touffement",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Interne g\u00e9n\u00e9ral"
     }
 }

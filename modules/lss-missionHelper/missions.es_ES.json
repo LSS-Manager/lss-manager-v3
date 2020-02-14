@@ -1615,5 +1615,14 @@
         "expansions": {
             "0": 58
         }
+    },
+    "119": {
+        "name": "Asfixia",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Medicina interna general"
     }
 }

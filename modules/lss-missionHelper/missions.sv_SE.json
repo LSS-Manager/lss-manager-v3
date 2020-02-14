@@ -1491,5 +1491,14 @@
             "transport": 100,
             "specialisation": "Traumatologi"
         }
+    },
+    "108": {
+        "name": "Ofri luftv\u00e4g",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Inv\u00e4rtesmedicinare"
     }
 }

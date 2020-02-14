@@ -9,6 +9,9 @@
 
 	function replaceevMissionCaption(text) {
 		if (text !== undefined && text !== "") {
+			//Valentinsday
+			text = text.replace('Hart gestolen', '🥰 Hart gestolen');
+			text = text.replace('Hart gebroken', '🥰 Hart gebroken');
 			//Fatherday
 			text = text.replace('Brennender Bollerwagen', '🍺 Brennender Bollerwagen');
 			//Motherday
