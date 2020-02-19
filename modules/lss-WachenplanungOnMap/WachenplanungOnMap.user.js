@@ -11,30 +11,6 @@
         rem: "Entfernen",
         brem: "Geplante Wache entfernen"
     };
-    I18n.translations.en_US['lssm']['wpom'] = {
-        setmarker: "Set marker",
-        remmarker: "Remove marker",
-        plan: "Add planned building",
-        vehicles: "Vehicles",
-        btype: "Building type",
-        bname: "Name",
-        addveh: "Add vehicle",
-        set: "Set",
-        rem: "Remove",
-        brem: "Remove planned building"
-    };
-    I18n.translations.nl['lssm']['wpom'] = {
-        setmarker: "Plaats markering",
-        remmarker: "Verwijder markering",
-        plan: "Plaats een gepland gebouw",
-        vehicles: "Voertuigen",
-        btype: "Gebouwtype",
-        bname: "Naam",
-        addveh: "voeg voertuig toe",
-        set: "Plaats",
-        rem: "Verwijder",
-        brem: "Verwijder gepland gebouw"
-    };
     let markers = [], settings = {
         set: {
             ils: false,
