@@ -463,31 +463,6 @@ else if (I18n.locale == "ru_RU") {
         "12": ["ПСА", 0]
     };
 }
-else if (I18n.locale == "uk_UA") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Розширення станції швидкої допомоги": 0,
-        "Розширення аеропорту": 1,
-        "Розширення водолазно-рятувальної станції": 2,
-        // Pol-Erweiterungen (10-19)
-        "Камера в'язниці": 10,
-        "Ще камера": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
-    lssm.carsById = {
-        "0": ["Camión de Bomberos", 0],
-        "1": ["Camión BUL", 0],
-        "2": ["Camión con escalera telescópica", 0],
-        "3": ["Vehículo UMC", 0],
-        "4": ["Camión de Rescate", 0],
-        "5": ["Ambulancias Tipo II", 2],
-        "6": ["Camión de Bomberos Cisterna", 0],
-        "7": ["Camión TPP", 0],
-        "8": ["Coche patrulla", 6],
-        "9": ["Helicóptero HSR", 2]
-    };
-}
 else if (I18n.locale == "nl_NL")
 {
 	lssm.extensions = {
