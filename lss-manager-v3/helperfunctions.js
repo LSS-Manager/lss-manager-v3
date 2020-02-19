@@ -119,6 +119,8 @@ else if (I18n.locale == "es_ES")
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Extensión de ambulancia": 0,
+        "Extensión de aeropuerto": 1,
+        "Extensión de rescate acuático": 2,
         // Pol-Erweiterungen (10-19)
         "Calabozo": 10,
         "Más celdas": 10,
@@ -139,6 +141,31 @@ else if (I18n.locale == "es_ES")
         "10": ["Vehículo aéreo", 0],
         "11": ["Vehículo de mando móvil", 0],
         "12": ["Vehículo de rescate", 0]
+    };
+}
+else if (I18n.locale == "es_MX") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extensión de ambulancia": 0,
+        "Extensión de aeropuerto": 1,
+        "Extensión de rescate acuático": 2,
+        // Pol-Erweiterungen (10-19)
+        "Calabozo": 10,
+        "Más celdas": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Camión de Bomberos", 0],
+        "1": ["Camión BUL", 0],
+        "2": ["Camión con escalera telescópica", 0],
+        "3": ["Vehículo UMC", 0],
+        "4": ["Camión de Rescate", 0],
+        "5": ["Ambulancias Tipo II", 2],
+        "6": ["Camión de Bomberos Cisterna", 0],
+        "7": ["Camión TPP", 0],
+        "8": ["Coche patrulla", 6],
+        "9": ["Helicóptero HSR", 2]
     };
 }
 else if (I18n.locale == "pt_PT") {
@@ -436,7 +463,32 @@ else if (I18n.locale == "ru_RU") {
         "12": ["ПСА", 0]
     };
 }
-else if (I18n.locale == "nl")
+else if (I18n.locale == "uk_UA") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Розширення станції швидкої допомоги": 0,
+        "Розширення аеропорту": 1,
+        "Розширення водолазно-рятувальної станції": 2,
+        // Pol-Erweiterungen (10-19)
+        "Камера в'язниці": 10,
+        "Ще камера": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Camión de Bomberos", 0],
+        "1": ["Camión BUL", 0],
+        "2": ["Camión con escalera telescópica", 0],
+        "3": ["Vehículo UMC", 0],
+        "4": ["Camión de Rescate", 0],
+        "5": ["Ambulancias Tipo II", 2],
+        "6": ["Camión de Bomberos Cisterna", 0],
+        "7": ["Camión TPP", 0],
+        "8": ["Coche patrulla", 6],
+        "9": ["Helicóptero HSR", 2]
+    };
+}
+else if (I18n.locale == "nl_NL")
 {
 	lssm.extensions = {
         // FW-Erwerterungen (0-9)
@@ -512,38 +564,38 @@ else if (I18n.locale == "nl")
 else if (I18n.locale == "de")
 {
 	lssm.extensions = {
-		// FW-Erwerterungen (0-9)
-		"Rettungsdienst-Erweiterung": 0,
-		"Wasserrettungs-Erweiterung": 1,
-		"Flughafen-Erweiterung": 2,
-		"Großwache": 3,
-		"Werkfeuerwehr": 4,
-		"Abrollbehälter-Stellplatz": 5,
-		// Pol-Erweiterungen (10-19)
-		"Zelle": 10,
-		"Weitere Zelle": 10,
-		"2. Zug der 1. Hundertschaft ": 11,
-		"3. Zug der 1. Hundertschaft ": 11,
-		"Sonderfahrzeug: Gefangenenkraftwagen": 12,
-		"Technischer Zug: Wasserwerfer": 13,
-		"SEK 1. Zug": 14,
-		"SEK 2. Zug": 14,
-		"MEK 1. Zug": 15,
-		"MEK 2. Zug": 15,
-		//Schule-Erweiterungen (20-29)
-		"Weiterer Klassenraum": 20,
-		// SEG-Erweiterungen (30-39)
-		"Führung": 30,
-		"Sanitätsdienst": 31,
-		"Wasserrettung": 32,
-		// THW-Erweiterungen (40-49)
-		"Bergungsgruppe 2": 40,
-		"Zugtrupp": 41,
-		"Fachgruppe Räumen": 42,
-		"Fachgruppe Wassergefahren": 43,
-		"2. Technischer Zug - Grundvoraussetzung": 44,
-		"2. Technischer Zug: Bergungsgruppe 2": 45,
-		"2. Technischer Zug: Zugtrupp ": 46,
+        // FW-Erwerterungen (0-9)
+        "Rettungsdienst-Erweiterung": 0,
+        "Wasserrettungs-Erweiterung": 1,
+        "Flughafen-Erweiterung": 2,
+        "Großwache": 3,
+        "Werkfeuerwehr": 4,
+        "Abrollbehälter-Stellplatz": 5,
+        // Pol-Erweiterungen (10-19)
+        "Zelle": 10,
+        "Weitere Zelle": 10,
+        "2. Zug der 1. Hundertschaft ": 11,
+        "3. Zug der 1. Hundertschaft ": 11,
+        "Sonderfahrzeug: Gefangenenkraftwagen": 12,
+        "Technischer Zug: Wasserwerfer": 13,
+        "SEK 1. Zug": 14,
+        "SEK 2. Zug": 14,
+        "MEK 1. Zug": 15,
+        "MEK 2. Zug": 15,
+        //Schule-Erweiterungen (20-29)
+        "Weiterer Klassenraum": 20,
+        // SEG-Erweiterungen (30-39)
+        "Führung": 30,
+        "Sanitätsdienst": 31,
+        "Wasserrettung": 32,
+        // THW-Erweiterungen (40-49)
+        "Bergungsgruppe 2": 40,
+        "Zugtrupp": 41,
+        "Fachgruppe Räumen": 42,
+        "Fachgruppe Wassergefahren": 43,
+        "2. Technischer Zug - Grundvoraussetzung": 44,
+        "2. Technischer Zug: Bergungsgruppe 2": 45,
+        "2. Technischer Zug: Zugtrupp ": 46,
 	};
     lssm.carsById = {
         "0": ["LF 20", 0],

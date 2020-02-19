@@ -274,7 +274,7 @@
     }
   }
 
-  I18n.translations.nl.lssm['n-alarm'] = {
+  I18n.translations.nl_NL.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",
     chat_message: "Chatbericht van ",

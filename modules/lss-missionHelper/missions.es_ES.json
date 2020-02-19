@@ -386,7 +386,6 @@
             "truck": 4,
             "heavyRescue": 2,
             "bchief": 2,
-            "mcv": 1,
             "police": 3,
             "hazmat": 2
         },
@@ -786,11 +785,12 @@
         "name": "Accidente de avioneta (aeropuerto)",
         "stations": {
             "0": 4,
-            "2": 2
+            "2": 3
         },
         "vehicles": {
-            "truck": 1,
-            "arff": 2
+            "truck": 3,
+            "heavyRescue": 2,
+            "bchief": 1
         },
         "credits": 2500,
         "patients": {

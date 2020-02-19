@@ -206,7 +206,7 @@
             num_team: 'Sum alliance'
         };
 
-        I18n.translations.nl['lssm']['sumDailyMissions'] = {
+        I18n.translations.nl_NL['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patiënten behandeling',
             education: 'Opleiding',
             purchase: 'gekocht',

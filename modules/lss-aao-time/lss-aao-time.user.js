@@ -105,7 +105,7 @@
         timeFormat: '{0} min {1} sec',
         timeFormatWithHours: '{0} h {1} min {2} sec',
     };
-    I18n.translations.nl.lssm.aaotime = {
+    I18n.translations.nl_NL.lssm.aaotime = {
         timeRegex: /([0-9]{2}) minuten ([0-9]{2}) seconden/i,
         hourIdentifier: 'uur',
         timeWithHoursRegex: /([0-9]{2}) uur ([0-9]{2}) minuten ([0-9]{2}) seconden/i,

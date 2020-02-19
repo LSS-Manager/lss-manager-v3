@@ -59,7 +59,7 @@
         noVGE: "Nie ma uratowanej Misji Sojuszniczej!",
         VGEs: "VGEs"
     };
-    I18n.translations.nl['lssm']['saveVGE'] = {
+    I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
     		del: "Verwijderen",
     		noVGE:"Geen opgeslagen grote teaminzetten!",

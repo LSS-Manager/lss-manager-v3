@@ -315,7 +315,7 @@
             }
         }
     };
-    I18n.translations.nl.lssm.statuscount = {
+    I18n.translations.nl_NL.lssm.statuscount = {
         name: "Status-Teller",
         settings: {
             show: "Verberg/Toon",

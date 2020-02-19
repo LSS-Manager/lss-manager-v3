@@ -77,7 +77,7 @@
         reset: "Redefinir",
         select: "Por favor, selecione..."
     };
-	I18n.translations.nl['lssm']['aaosearch'] = {
+	I18n.translations.nl_NL['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
         use_dd: "Gebruik dropdown-menu: ",
         reset: "Reset",

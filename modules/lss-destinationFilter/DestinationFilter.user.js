@@ -170,7 +170,7 @@
             cells: 'Скрыть полные ячейки'
         }
     };
-    I18n.translations.nl.lssm.destfilter = {
+    I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',
         tax: 'Kosten',

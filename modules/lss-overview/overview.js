@@ -79,7 +79,7 @@
         maxBuildins: 'límite de construcción'
     };
 
-    I18n.translations.nl.lssm.overview = {
+    I18n.translations.nl_NL.lssm.overview = {
         vehicleType: 'Type voertuig',
         min: 'minimum personeel',
         max: 'maximaal personeel',
@@ -2440,7 +2440,7 @@
         }
     };
 
-    I18n.translations.nl.lssm.overview.hiorgs = {
+    I18n.translations.nl_NL.lssm.overview.hiorgs = {
         brand: 'Brandweer',
         ambulance: 'Ambulance',
         pol: 'Politie',
@@ -2448,7 +2448,7 @@
         heli: 'Helikopter'
     };
 
-    I18n.translations.nl.lssm.overview.buildings = {
+    I18n.translations.nl_NL.lssm.overview.buildings = {
         lst: {
             name: 'Meldkamer',
             credits: 0,
@@ -2591,7 +2591,7 @@
         }
     };
 
-    I18n.translations.nl.lssm.overview.vehicles = {
+    I18n.translations.nl_NL.lssm.overview.vehicles = {
         brand: {
             siv: {
                 name: 'SIV',
@@ -3005,7 +3005,7 @@
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
             } else if (I18n.locale === "en_GB") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
-            } else if (I18n.locale === "nl") {
+            } else if (I18n.locale === "nl_NL") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
             }
 

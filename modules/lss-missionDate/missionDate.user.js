@@ -77,7 +77,7 @@
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i
   };
 
-  I18n.translations.nl.lssm.missionDate = {
+  I18n.translations.nl_NL.lssm.missionDate = {
     ago: 'geleden',
     months: ['jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec'],
     dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i

@@ -7,7 +7,7 @@
   I18n.translations.en_US.lssm.doctorradiocall = {
     nef: "HEMS"
   };
-  I18n.translations.nl.lssm.doctorradiocall = {
+  I18n.translations.nl_NL.lssm.doctorradiocall = {
     nef: "MMT-Auto"
   };
 

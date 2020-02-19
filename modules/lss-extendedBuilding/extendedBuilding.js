@@ -727,7 +727,7 @@
             }
         }
     };
-    I18n.translations.nl.lssm.extendedBuilding = {
+    I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",
         fms: 'Status',
@@ -985,7 +985,7 @@
     cursor: pointer;
 }
 #vehicle_table .building_list_fms_2::before {
-    content: "${I18n.locale === 'nl' ? 5 : 2}";
+    content: "${I18n.locale === 'nl_NL' ? 5 : 2}";
 }
 #vehicle_table .building_list_fms_6::before {
     content: "6";

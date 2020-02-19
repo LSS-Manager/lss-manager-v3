@@ -358,7 +358,7 @@ I18n.translations.ru_RU['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "Транспортные средства не найдены",
 }
-I18n.translations.nl['lssm']['dashboard'] = {
+I18n.translations.nl_NL['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Voertuigen",

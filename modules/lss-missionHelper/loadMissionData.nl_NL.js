@@ -186,7 +186,7 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "nl"
+            lang: "nl_NL"
         })
             .done(response => {
                 if (response.startsWith('Error'))  {
