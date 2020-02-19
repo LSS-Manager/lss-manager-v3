@@ -38,7 +38,7 @@
     I18n.translations.ru_RU['lssm']['allianceMissionlistShare'] = {
         title: "Освобождение в альянсе"
     };
-    I18n.translations.nl['lssm']['allianceMissionlistShare'] = {
+    I18n.translations.nl_NL['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };
 

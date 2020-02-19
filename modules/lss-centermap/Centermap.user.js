@@ -210,7 +210,7 @@
         }
     };
 
-    I18n.translations.nl.lssm.centermap = {
+    I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {
             title: "Kaart centreren",

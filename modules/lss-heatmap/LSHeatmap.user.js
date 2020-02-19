@@ -488,7 +488,7 @@
             }
         ]
     };
-    I18n.translations.nl.lssm.heatmap = {
+    I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',
         radius: 'Radius',

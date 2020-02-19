@@ -1447,7 +1447,6 @@
             "truck": 5,
             "platform": 1,
             "bchief": 1,
-            "air": 1,
             "police": 2
         },
         "credits": 4200,
@@ -1456,9 +1455,6 @@
             "min": 1,
             "transport": 50,
             "specialisation": "Medicina interna general"
-        },
-        "percentages": {
-            "air": 30
         }
     },
     "109": {
@@ -1550,7 +1546,6 @@
         "vehicles": {
             "truck": 2,
             "heavyRescue": 1,
-            "air": 1,
             "police": 1
         },
         "credits": 2300,
@@ -1559,9 +1554,6 @@
             "min": 2,
             "transport": 80,
             "specialisation": "Medicina interna general"
-        },
-        "percentages": {
-            "air": 30
         }
     },
     "116": {
@@ -1615,14 +1607,5 @@
         "expansions": {
             "0": 58
         }
-    },
-    "119": {
-        "name": "Asfixia",
-        "stations": {
-            "2": 1
-        },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Medicina interna general"
     }
 }

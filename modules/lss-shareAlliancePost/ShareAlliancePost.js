@@ -38,7 +38,7 @@
         }
     };
 
-    I18n.translations.nl.lssm.sharealliancepost = {
+    I18n.translations.nl_NL.lssm.sharealliancepost = {
         share: 'Delen...',
         chat: 'Chat...',
         alert: 'Alarmeren...',
@@ -250,6 +250,24 @@
             shortcutKeys: 'Разделенный запятой список клавиш для оповещения. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
             messages: 'Шаблоны сообщений. Места хранения: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
             timeOffset: 'Смещение для %TIME_OFFSET%-формата в часах'
+        }
+    };
+
+    I18n.translations.uk_UA.lssm.sharealliancepost = {
+        share: 'Поділитися...',
+        chat: 'Чат ...',
+        alert: 'Сповіщення ...',
+        chatm: 'До командного чату',
+        reqVehIdent: 'Необхідні машини:',
+        reqVeh: 'Ніяких інших транспортних засобів не потрібно.',
+        settings: {
+            title: 'Попередження, обмін та публікація',
+            jumpNext: 'Перейдіть до наступної місії після попередження',
+            enableKeyboard: 'Увімкнути комбінації клавіш',
+            defaultPostToChat: 'Повідомлення у чаті за замовчуванням',
+            shortcutKeys: 'Список розділених комами клавіш для оповіщення. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Шаблони повідомлень. Заставники: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'Зсув для %TIME_OFFSET%-форматор в годинах'
         }
     };
 

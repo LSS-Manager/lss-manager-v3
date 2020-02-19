@@ -171,7 +171,7 @@
         fms5H1: 'транспортник'
     };
 
-    I18n.translations.nl.lssm.statusDispatching = {
+    I18n.translations.nl_NL.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',
         nextVehicle : 'Naar het volgende status 7 voertuig',

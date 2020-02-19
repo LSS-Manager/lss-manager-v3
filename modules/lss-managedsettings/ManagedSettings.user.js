@@ -252,7 +252,7 @@
         import_fail: "Ошибка: При импорте файла возникла ошибка: <strong> {0} </strong>. Пожалуйста, сообщите разработчику."
     };
 
-    I18n.translations.nl.lssm.managedsettings = {
+    I18n.translations.nl_NL.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",
         text2: "",

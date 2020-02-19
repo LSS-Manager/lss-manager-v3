@@ -743,6 +743,138 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.es_MX.lssm.missionhelper = {
+        diy_mission: 'Esta misión parece ser una misión de alianza a gran escala.',
+        settings: {
+            name: {
+                label: 'Nombre',
+                description: 'Muestra el nombre de la misión en el ayudante.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Muestra el ID de la misión en el asistente.'
+            },
+            type: {
+                label: 'TYP-ID',
+                description: 'Muestra el ID del tipo de misión en el asistente.'
+            },
+            poi: {
+                label: 'POI',
+                description: 'Indica en el asistente en qué PDI se encuentra la operación.'
+            },
+            live_patients: {
+                label: 'Número de pacientes',
+                description: 'Muestra en vivo cuántos pacientes están actualmente en uso.'
+            },
+            vehicles: {
+                label: 'Vehículos',
+                description: 'Muestra los vehículos necesarios.'
+            },
+            patients: {
+                label: 'información del paciente',
+                description: 'Muestra información sobre pacientes (potenciales).'
+            },
+            prisoners: {
+                label: 'información sobre los presos',
+                description: 'Muestra información sobre prisioneros (potenciales).'
+            },
+            special: {
+                label: 'Otra información',
+                description: 'Muestra información especial, como el promedio mínimo de personal necesario.'
+            },
+            expansions: {
+                label: 'distribuciones',
+                description: 'Muestra a qué puede llegar la apuesta. (Muestra sólo la dispersión simple)'
+            },
+            show_100: {
+                label: 'Mostrar 100% de probabilidad',
+                description: 'Muestra la probabilidad de un vehículo incluso si es 100%.'
+            },
+            credits: {
+                label: 'Ganancias medias',
+                description: 'Muestra el promedio de ganancias que usted obtiene por esta asignación.'
+            },
+            show_siwa: {
+                label: 'Requisitos de los guardias de seguridad',
+                description: 'También muestra los requisitos para los guardias de seguridad en el ayudante.'
+            },
+            mission_time: {
+                label: 'Hora de creación',
+                description: 'Muestra la fecha y la hora en que se creó la misión.'
+            }
+        },
+        vehicles: {
+            truck: "camiones de bomberos",
+            platform: "camiones con plataforma",
+            heavyRescue: "Furgones de Útiles Vario",
+            air: "Mobile Air",
+            bchief: "unidades de Mando y Comunicaciones",
+            mcv: "vehículos de mando",
+            tanker: "camiones cisterna",
+            hazmat: "vehículos de materiales peligrosos",
+            police: "coches patrulla",
+            rth: "Helicóptero HSR",
+            arff: "CBA",
+            policeHeli: "Police Helicopter",
+            ambulance: "Ambulancia"
+        },
+        pois: [
+            "Parque",
+            "Lago",
+            "Hospital",
+            "Bosque",
+            "Parada de autobús",
+            "Parada de tranvía",
+            "Parada de tren \\(cercanías\\)",
+            "Parada de tren \\(cercanías y larga distancia\\)",
+            "Estación de mercancías",
+            "Supermercado \\(pequeño\\)",
+            "Supermercado \\(grande\\)",
+            "Gasolinera",
+            "Escuela",
+            "Museo",
+            "Centro comercial",
+            "Taller",
+            "Salida de autopista",
+            "Mercado navideño",
+            "Depósito",
+            "Discoteca",
+            "Estadio",
+            "Granja",
+            "Edificio de oficinas",
+            "Piscina",
+            "Railroad Crossing",
+            "Cine",
+            "Feria",
+            "Río",
+            "Aeropuerto pequeño \\(pista\\)",
+            "Aeropuerto grande \\(pista\\)",
+            "Terminal de aeropuerto",
+            "Banco",
+            "Almacén",
+            "Puente",
+            "Restaurante de comida rápida",
+            "Puerto de mercancías",
+            "Centro de reciclaje",
+            "Rascacielos",
+            "Cubierta de yate",
+            "Puerto deportivo",
+            "Paso a nivel",
+            "Túnel",
+            "Almacén frigorífico",
+            "Central eléctrica",
+            "Fábrica",
+            "Chatarrería",
+            "Estación de metro",
+            "Almacén químico pequeño",
+            "Almacén químico grande",
+            "Hotel",
+            "Bar",
+            "Vertedero",
+            "Aparcamiento",
+        ]
+    };
+
     I18n.translations.pt_PT.lssm.missionhelper = {
         diy_mission: 'Esta missão parece ser uma missão de aliança em larga escala.',
         siwa: 'Missão planeada',
@@ -885,14 +1017,6 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.pt_BR.lssm.missionhelper = {
         diy_mission: 'Esta missão parece ser uma missão de aliança em larga escala.',
-        siwa: 'Missão planeada',
-        vge: 'missão de aliança em larga escala',
-        patients: 'pacientes',
-        prisoners: 'detentos',
-        to: 'até',
-        ambulance_only: 'Esta misión es sólo de ambulancias.!',
-        title: 'Missionhelper',
-        transport: 'levar',
         settings: {
             name: {
                 label: 'Primeiro nome',
@@ -2303,7 +2427,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
-    I18n.translations.nl.lssm.missionhelper = {
+    I18n.translations.nl_NL.lssm.missionhelper = {
         diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',
         vge: 'Grootschalige team inzet',
@@ -2712,7 +2836,7 @@ const lssm_missionhelper_adjustPosition = () => {
               I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
               I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
               I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
-              I18n.locale === 'nl' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
+              I18n.locale === 'nl_NL' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
               content.innerHTML += '<br>';
           }
 

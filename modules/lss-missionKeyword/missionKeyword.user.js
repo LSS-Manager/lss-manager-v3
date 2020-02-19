@@ -1341,6 +1341,143 @@
         119: 'Asfixia'
       }
     };
+    I18n.translations.es_MX.lssm.missionKeywordDefaults = {
+      name: 'Palabras clave de la misión',
+      settingsName: 'Palabras clave de la misión - Configuración',
+      domain: 'centro-de-mando.mx',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Visualizar/Ocultar',
+      keywords: {
+        0: 'Papelera incendiada',
+        1: 'Contenedor incendiado',
+        2: 'Coche en llamas',
+        3: 'Moto en llamas',
+        4: 'Incendio en jardín',
+        5: 'Cuarto incendiado',
+        6: 'Cobertizo en llamas',
+        7: 'Hojas ardiendo',
+        8: 'Basura industrial en llamas',
+        9: 'Fardo de paja ardiendo',
+        10: 'Tractor incendiado',
+        11: 'Cabina ardiendo',
+        12: 'Árbol en la carretera',
+        13: 'Camión en llamas',
+        14: 'Incendio en campo pequeño',
+        15: 'Incendio forestal pequeño',
+        16: 'Caravana en llamas',
+        17: 'Buzón en llamas',
+        18: 'Arbusto en llamas',
+        19: 'Tráiler ardiendo',
+        20: 'Incendio en sótano',
+        21: 'Incendio en chimenea',
+        22: 'Incendio en tejado',
+        23: 'Incendio por aceite',
+        24: 'Estación de autobuses ardiendo',
+        25: 'Accidente de tráfico',
+        26: 'Incendio en supermercado pequeño',
+        27: 'Garaje en llamas',
+        28: 'Máquina ardiendo',
+        29: 'Vertido de camión desconocido',
+        30: 'Escape de gas',
+        31: 'Incendio por parrilla',
+        32: 'Cosechadora incendiada',
+        33: 'Incendio en supermercado pequeño',
+        34: 'Incendio en hospital',
+        35: 'Coma etílico',
+        36: 'Dolor torácico',
+        37: 'Ataque de asma',
+        38: 'Convulsiones',
+        39: 'Fiebre',
+        40: 'Caída',
+        41: 'Incendio en taller',
+        42: 'Caída',
+        43: 'Caída',
+        44: 'Robo',
+        45: 'Robo',
+        46: 'Accidente en aparcamiento',
+        47: 'Accidente en aparcamiento',
+        48: 'Robo de metal',
+        49: 'Carterista',
+        50: 'Viajero sin ticket',
+        51: 'Viajero sin ticket',
+        52: 'Viajero sin ticket',
+        53: 'Viajero sin ticket',
+        54: 'Accidente en aparcamiento',
+        55: 'Pelea',
+        56: 'Disturbios',
+        57: 'Manifestación no anunciada',
+        58: 'Incendio en cocina',
+        59: 'Rescate de animal',
+        60: 'Estadio en llamas',
+        61: 'Accidente de avioneta (aeropuerto)',
+        62: 'Denuncia por exceso de ruido',
+        63: 'Accidente isquémico transitorio',
+        64: 'Accidente de autobús',
+        65: 'Incendio en cocina',
+        66: 'Cuarto incendiado',
+        67: 'Pelea',
+        68: 'Incendio en supermercado grande',
+        69: 'Vertido de camión desconocido',
+        70: 'Incendio en supermercado grande',
+        71: 'Sangrado nasal',
+        72: 'Accidente de avioneta',
+        73: 'Accidente de autobús serio',
+        74: 'Gran incendio',
+        75: 'Espantapájaros en llamas',
+        76: 'Campo de calabazas en llamas',
+        77: 'Sopa de calabaza demasiado cocida',
+        78: 'Bruja en árbol',
+        79: '',
+        80: 'Monstruo anda suelto',
+        81: 'Calabaza robada',
+        82: 'Frankenstein avistado',
+        83: 'Robo de caramelos',
+        84: 'Ciclista golpeado por un camión de mercancías',
+        85: 'Incendio en la escuela',
+        86: 'Robo en el mercado navideño',
+        87: 'Puesto del mercado de Navidad en llamas',
+        88: 'Incendio en el mercado navideño',
+        89: 'Accidente de tráfico debido a hielo',
+        90: 'Árbol de navidad en llamas',
+        91: 'Corona de Adviento en llamas',
+        92: 'Pelea en mercado navideño',
+        93: 'Pasajero agresivo',
+        94: 'Persona atrapada bajo maquinaria',
+        95: 'Techo dañado',
+        96: 'Apilamiento de coches',
+        97: 'Camión con semirremolque en llamas',
+        98: 'Accidente de tractor',
+        99: 'Coche en llamas a causa de los fuegos artificiales',
+        100: 'Montón de basura en llamas a causa de los fuegos artificiales',
+        101: 'Solar en llamas a causa de los fuegos artificiales',
+        102: 'Sótano en llamas a causa de los fuegos artificiales',
+        103: 'Marquesina en llamas a causa de los fuegos artificiales',
+        104: 'Balcón en llamas a causa de los fuegos artificiales',
+        105: 'Contenedores de papel en llamas a causa de los fuegos artificiales',
+        106: 'Seto en llamas a causa de un petardo',
+        107: 'Conductor borracho tras la fiesta de Nochevieja',
+        108: 'Casa con tejado de paja en llamas a causa de los fuegos artificiales',
+        109: 'Coche dañado por los fuegos artificiales',
+        110: 'Infracción del Reglamento de explosivos',
+        111: 'Lesión en la mano a causa de los fuegos artificiales',
+        112: 'Vehículo de mercancía pesada en llamas',
+        113: 'Camión de la basura en llamas',
+        114: 'Accidente de motocicleta',
+        115: 'Intoxicación por monóxido de carbono',
+        116: 'Vuelco de vehículo a motor',
+        117: 'Robo a mano armada',
+        118: 'Fuego en la cocina'
+      }
+    };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
       name: 'Palavras-chave da missão',
       settingsName: 'Palavras-chave da missão - configurações',
@@ -2609,7 +2746,7 @@
         105: 'Задыхаясь'
       }
     };
-    I18n.translations.nl.lssm.missionKeywordDefaults = {
+    I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
       name: 'Steekwoorden bij meldingen',
       settingsName: 'Steekwoorden bij meldingen - Instellingen',
       domain: 'meldkamerspel.com',
@@ -4467,6 +4604,127 @@
       118: 'FIRE 1',
       119: 'MED 1'
     };
+    let DEFAULT_AAO_ESMX = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 3',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'FIRE 0.5',
+      76: 'FIRE 0.5',
+      77: 'FIRE 0.5',
+      78: 'TECH 0.5',
+      79: '',
+      80: 'POL 0.5',
+      81: 'POL 0.5',
+      82: 'POL 0.5',
+      83: 'POL 0.5',
+      84: 'TECH 2',
+      85: 'FIRE 4',
+      86: 'POL 1',
+      87: 'FIRE 1',
+      88: 'FIRE 1',
+      89: 'TECH 1',
+      90: 'FIRE 1',
+      91: 'FIRE 1',
+      92: 'POL 2',
+      93: 'POL 1',
+      94: 'TECH 2',
+      95: 'TECH 1',
+      96: 'TECH 3',
+      97: 'FIRE 2',
+      98: 'TECH 1',
+      99: 'FIRE 1',
+      100: 'FIRE 1',
+      101: 'FIRE 1',
+      102: 'FIRE 1',
+      103: 'FIRE 1',
+      104: 'FIRE 1',
+      105: 'FIRE 1',
+      106: 'FIRE 1',
+      107: 'POL 1',
+      108: 'FIRE 4',
+      109: 'POL 1',
+      110: 'POL 1',
+      111: 'MED 1',
+      112: 'FIRE 2',
+      113: 'FIRE 2',
+      114: 'TECH 2',
+      115: 'CBRN 1',
+      116: 'TECH 2',
+      117: 'POL 3',
+      118: 'FIRE 1'
+    };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
       1: 'FIRE 1',
@@ -5559,7 +5817,7 @@
       104: 'TECH 2',
       105: 'MED 1'
     };
-    let DEFAULT_AAO_NL = {
+    let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
       1: 'KLEINE BRAND',
       2: 'KLEINE BRAND',
@@ -6132,6 +6390,7 @@
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
     I18n.translations.es_ES.lssm.missionKeyword = DEFAULT_AAO_ESES;
+    I18n.translations.es_MX.lssm.missionKeyword = DEFAULT_AAO_ESMX;
     I18n.translations.pt_PT.lssm.missionKeyword = DEFAULT_AAO_PTPT;
     I18n.translations.pt_BR.lssm.missionKeyword = DEFAULT_AAO_PTBR;
     I18n.translations.sv_SE.lssm.missionKeyword = DEFAULT_AAO_SVSE;
@@ -6143,7 +6402,7 @@
     I18n.translations.ru_RU.lssm.missionKeyword = DEFAULT_AAO_RURU;
     I18n.translations.cs_CZ.lssm.missionKeyword = DEFAULT_AAO_CSCZ;
     I18n.translations.tr_TR.lssm.missionKeyword = DEFAULT_AAO_TRTR;
-    I18n.translations.nl.lssm.missionKeyword = DEFAULT_AAO_NL;
+    I18n.translations.nl_NL.lssm.missionKeyword = DEFAULT_AAO_NLNL;
 
     let defaultAao;
     if (I18n.locale === 'de')
@@ -6156,6 +6415,8 @@
       defaultAao = DEFAULT_AAO_ENAU
     else if (I18n.locale === 'es_ES')
       defaultAao = DEFAULT_AAO_ESES
+    else if (I18n.locale === 'es_MX')
+      defaultAao = DEFAULT_AAO_ESMX
     else if (I18n.locale === 'pt_PT')
       defaultAao = DEFAULT_AAO_PTPT
     else if (I18n.locale === 'pt_BR')
@@ -6178,8 +6439,8 @@
       defaultAao = DEFAULT_AAO_FRFR
     else if (I18n.locale === 'ru_RU')
       defaultAao = DEFAULT_AAO_RURU
-    else if (I18n.locale === 'nl')
-      defaultAao = DEFAULT_AAO_NL;
+    else if (I18n.locale === 'nl_NL')
+      defaultAao = DEFAULT_AAO_NLNL;
     else
       defaultAao = DEFAULT_AAO_DE;
 
@@ -6277,7 +6538,7 @@
           }
           additionalAaoText += '</span>';
         }
-      } else if (I18n.locale === 'en') {
+      } else if (I18n.locale === 'en_US') {
         if (!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd'))) {
           additionalAaoText = '<span class="label label-warning">';
           if (anzahlPatients >= 10 && anzahlPatients < 21)
@@ -6293,7 +6554,7 @@
 
           additionalAaoText += '</span>';
         }
-      } else if (I18n.locale === 'nl') {
+      } else if (I18n.locale === 'nl_NL') {
         if (!aaoText.match(I18n.t('lssm.missionKeywordDefaults.rd'))) {
           additionalAaoText = '<span class="label label-warning">';
           if (anzahlPatients >= 10 && anzahlPatients < 21)

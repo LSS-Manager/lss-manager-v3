@@ -64,7 +64,12 @@
             "Эти данные включают в себя: ваш ID, имя пользователя, количество охранников, используемый браузер и включенные модули.\r\n\r\n" +
             "Вы согласны с этим?"
     };
-	I18n.translations.nl.lssm.telemetry = {
+    I18n.translations.uk_UA.lssm.telemetry = {
+        question: "Менеджер LSS надсилає розробникам неособисті дані для покращення сценарію та пошуку помилок.\r\n" +
+            "Ці дані включають: ваш ідентифікатор, ім’я користувача, кількість охоронців, використовуваний браузер та активовані модулі.\r\n\r\n" +
+            "Чи згодні ви з цим?"
+    };
+	I18n.translations.nl_NL.lssm.telemetry = {
 		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
 			"Bent u het hiermee eens?"

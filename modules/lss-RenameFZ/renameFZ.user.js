@@ -978,6 +978,42 @@
         }
     };
 
+    I18n.translations.es_MX.lssm.renameFz = {
+        name: 'Renombrar vehículos',
+        settings: {
+            show: 'Visualizar/Ocultar',
+            names: {
+                vehicleTypes: 'Tipos de vehículos',
+                stations: 'Edificio alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Aquí puede establecer nombres alternativos para cada tipo de vehículo. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío..',
+                stations: 'Aquí puede establecer nombres alternativos para cada edificio. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío.'
+            },
+            validStationTypes: {
+                0: "Parque de bomberos",
+                2: "Parque de ambulancias",
+                6: "Comisaría de policía",
+                7: "Centralita",
+                18: "Parque de bomberos (pequeño)",
+                19: "Comisaría de policía (pequeño)",
+                20: "Parque de ambulancias (pequeño)"
+            },
+            vehicleTypes: {
+                0: 'Camión de Bomberos',
+                1: 'Camión BUL',
+                2: 'Camión con escalera telescópica',
+                3: 'Vehículo UMC',
+                4: 'Camión de Rescate',
+                5: 'Ambulancias Tipo II',
+                6: 'Camión de Bomberos Cisterna',
+                7: 'Camión TPP',
+                8: 'Coche patrulla',
+                9: 'Helicóptero HSR'
+            }
+        }
+    };
+
     I18n.translations.pt_PT.lssm.renameFz = {
         name: 'Renomear veículos',
         rename: "mudar de nome",
@@ -1043,33 +1079,6 @@
 
     I18n.translations.pt_BR.lssm.renameFz = {
         name: 'Renomear veículos',
-        rename: "mudar de nome",
-        id: "{id} Id do veículo",
-        old: "{old} Nome atual",
-        vehicleType: "{vehicleType} Tipo de veículo",
-        stationName: "{stationName} Nome do edifício",
-        tagging: '{tagging} Marcação do tipo de veículo',
-        number: '{number} Contador de tipo',
-        numberRoman: '{numberRoman} Contador de tipo (algarismos romanos)',
-        dispatch: '{dispatch} Nome do centro de despacho',
-        dispatchAlias: '{dispatchAlias} Pseudónimos do centro de despacho',
-        stationAlias: '{stationAlias} Edifício-Alias',
-        saveAll: 'Salvar Todos',
-        statusWaiting: 'À espera de entrada',
-        statusError: '<b>Erro durante a geração!</b> Se este erro ocorrer novamente, por favor, informe-o. Por favor, forneça as seguintes informações:',
-        statusWorking: 'Gerar nomes e formas. Isto pode levar algum tempo, dependendo do sistema e do número de veículos.',
-        statusSuccess: 'Nomes e Forumlare gerados com sucesso!',
-        nameAlreadyCorrect: 'O nome já corresponde ao modelo!',
-        nameToLong: 'O nome é demasiado longo para os seguintes veículos:',
-        nameToLongOriginalName: 'Nome original',
-        nameToLongGeneratedName: 'Nome gerado',
-        nameToLongShortenedName: 'Nome novo ou abreviado',
-        helpTitle: 'Pode encontrar uma pequena instrução neste link: ',
-        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
-        startNum: 'Contra-início',
-        counterOverride: 'Se houver vários veículos do mesmo tipo, comece com 1 de qualquer maneira.',
-        startNumHelp: 'Aqui pode introduzir um valor inicial para o contra-tipo. Se definir 0 como o valor de partida, o primeiro veículo de um tipo não obterá a numeração, isto é muito prático se tiver apenas um veículo de um tipo num guarda e não quiser numerar. Mas também pode começar o balcão às 5 (por qualquer razão que queira, mas é possível ;))',
-        toggleNameCorrect: 'Mostrar/esconder veículos com nomes corretos',
         settings: {
             show: 'Mostrar / Ocultar',
             names: {
@@ -1104,7 +1113,7 @@
         }
     };
 
-    I18n.translations.nl.lssm.renameFz = {
+    I18n.translations.nl_NL.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",
         id: "{id} Voertuignaam ",
