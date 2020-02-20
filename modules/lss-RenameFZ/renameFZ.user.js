@@ -562,6 +562,7 @@
             validStationTypes: {
                 0: "Brandstation",
                 2: "Ambulansstation",
+                5: "Ambulanshelikopterstation",
                 6: "Polisstation",
                 7: "Larmcentral",
                 18: "Brandstation (liten)",
@@ -571,14 +572,14 @@
             vehicleTypes: {
                 0: 'BAS 1 - Släckbil',
                 1: 'BAS 2 - Släckbil',
-                2: 'M32L - Stegbil',
+                2: 'Stegbil',
                 3: 'Befälsfordon',
                 4: 'Lastväxlare',
                 5: 'Ambulans',
-                6: 'BAS 4 - Tankbil',
-                7: 'Industribrandbil',
+                6: 'Tankbil',
+                7: 'Kemskyddsenhet',
                 8: 'Radiobil',
-                9: 'Räddningshelikopter',
+                9: 'Ambulanshelikopter',
                 10: 'Luftfordon',
                 11: 'Mobilt ledningsfordon',
                 12: 'Räddningsfordon'
@@ -628,6 +629,7 @@
             validStationTypes: {
                 0: "Brandstation",
                 2: "Ambulancestation",
+                5: "Helikopterstation",
                 6: "Politistation",
                 7: "Alarmcentral",
                 18: "Brandstation (lille station)",
@@ -691,6 +693,7 @@
             validStationTypes: {
                 0: "Brannstasjon",
                 2: "Ambulansestasjon",
+                5: "Helikopterstasjon",
                 6: "Politistasjon",
                 7: "Nødetatssenter",
                 18: "Brannstasjon (liten)",
@@ -707,7 +710,8 @@
                 6: 'Tankbil',
                 7: 'CBRNe enhet',
                 8: 'Patruljebil',
-                9: 'Redningshelikopter'
+                9: 'Luftambulanse',
+                10: 'Snorkelbil'
             }
         }
     };

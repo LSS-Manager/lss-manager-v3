@@ -1793,7 +1793,15 @@
         105: 'Rån, väpnat',
         106: 'Våld/hot mot tjänsteman',
         107: 'Trafikolycka - singel, volt',
-        108: 'Ofri luftväg'
+        108: 'Ofri luftväg',
+        109: 'Ryggtrauma',
+        110: 'Ras/skred',
+        111: 'Ras/skred - byggnad',
+        112: 'Allvarlig brännskada',
+        113: 'Skallskada',
+        114: 'Amputationsskada',
+        115: 'Brand i byggnad - ladugård',
+        116: 'Ryggsmärtor'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1896,7 +1904,15 @@
         81: 'Bevæbnet Røveri',
         82: 'Rulledrundt Færdselsuheld',
         83: 'Carbon Monoxid Forgiftning',
-        84: 'Person Kvalt'
+        84: 'Person Kvalt',
+        85: 'Rygskade',
+        86: 'Delvist Bygnings Kolaps',
+        87: 'Bygnings Kolaps',
+        88: '3 Grads Forbranding',
+        89: 'Seriøst Hovedskade',
+        90: 'Traumatisk Kropsdel Amputation',
+        91: 'Stor Gård Brand',
+        92: 'Rygsmerter'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2201,7 +2217,15 @@
         81: 'Væpnet ran',
         82: 'Bilulykke',
         83: 'CO-forgiftning',
-        84: 'Fremmedlegeme'
+        84: 'Fremmedlegeme',
+        85: 'Ryggmargskade',
+        86: 'Takras',
+        87: 'Sammenrast bygning',
+        88: 'Brannskade (3. grads)',
+        89: 'Hodeskade',
+        90: 'Amputasjon',
+        91: 'Gårdsbrann (stor)',
+        92: 'Ryggsmerter'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -4993,7 +5017,15 @@
       105: 'POL 3',
       106: 'POL 2',
       107: 'TECH 3',
-      108: 'MED 1'
+      108: 'MED 1',
+      109: 'MED 1',
+      110: 'FIRE 2',
+      111: 'FIRE 4',
+      112: 'MED 1',
+      113: 'MED 1',
+      114: 'MED 1',
+      115: 'FIRE 6',
+      116: 'MED 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -5080,7 +5112,15 @@
       81: 'POL 3',
       82: 'TECH 3',
       83: 'CBRN 1',
-      84: 'MED 1'
+      84: 'MED 1',
+      85: 'MED 1',
+      86: 'FIRE 2',
+      87: 'FIRE 4',
+      88: 'MED 1',
+      89: 'MED 1',
+      90: 'MED 1',
+      91: 'FIRE 5',
+      92: 'MED 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -5337,7 +5377,15 @@
       81: 'POL 3',
       82: 'TECH 3',
       83: 'CBRN 1',
-      84: 'MED 1'
+      84: 'MED 1',
+      85: 'MED 1',
+      86: 'FIRE 2',
+      87: 'FIRE 4',
+      88: 'MED 1',
+      89: 'MED 1',
+      90: 'MED 1',
+      91: 'FIRE 5',
+      92: 'MED 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',

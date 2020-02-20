@@ -81,6 +81,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/helikopter/)) {
+                rth = number;
             } else if (content.match(/Utvidbare oppdrag/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

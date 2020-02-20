@@ -1220,7 +1220,7 @@ const lssm_missionhelper_adjustPosition = () => {
             truck: "släckbilar",
             platform: "stegbilar",
             heavyRescue: "Lastväxlare",
-            air: "Mobile Air",
+            air: "Fordon",
             bchief: "brandchefsbilar",
             tanker: "tankbilar",
             hazmat: "farligt gods-fordon",
@@ -1230,7 +1230,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            rth: "Ambulanshelikopter",
             policeHeli: "Police Helicopter",
         },
         pois: [
@@ -1362,7 +1362,7 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "Brandbiler",
             platform: "Platformvogne",
-            heavyRescue: "Redningskøretøjer",
+            heavyRescue: "pionertjenesten",
             air: "mobile luftfartøjer",
             bchief: "Holdleder-køretøjer",
             tanker: "vandtankvogne",
@@ -1373,8 +1373,8 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
-            policeHeli: "Police Helicopter",
+            rth: "RRednings Helikopter",
+            policeHeli: "Luftambulanse",
         },
         pois: [
             "Park",

@@ -8,7 +8,7 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "brandbiler",
             platform: "platformvogn",
-            heavyRescue: "redningskøretøjer",
+            heavyRescue: "pionertjenesten",
             air: "luftfartøj",
             bchief: "holdleder",
             tanker: "vandtankvogn",
@@ -19,7 +19,7 @@ $.get(missionlink)
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            rth: "Rednings Helikopter",
             policeHeli: "Police Helicopter",
         };
 
@@ -81,6 +81,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/Helikopter/)) {
+                rth = number;
             } else if (content.match(/Udvidelsesmissioner/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

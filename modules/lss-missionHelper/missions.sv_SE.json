@@ -1500,5 +1500,115 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Inv\u00e4rtesmedicinare"
+    },
+    "109": {
+        "name": "Ryggtrauma",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "Allm\u00e4nkirurg"
+    },
+    "110": {
+        "name": "Ras\/skred",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "111": {
+        "name": "Ras\/skred - byggnad",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "112": {
+        "name": "Allvarlig br\u00e4nnskada",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Allm\u00e4nkirurg"
+    },
+    "113": {
+        "name": "Skallskada",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurokirurgi"
+    },
+    "114": {
+        "name": "Amputationsskada",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "Allm\u00e4nkirurg"
+    },
+    "115": {
+        "name": "Brand i byggnad - ladug\u00e5rd",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "116": {
+        "name": "Ryggsm\u00e4rtor",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "Inv\u00e4rtesmedicinare"
     }
 }

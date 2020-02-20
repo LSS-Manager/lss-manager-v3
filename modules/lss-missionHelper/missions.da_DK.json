@@ -1159,5 +1159,115 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Specialister i intern medicin"
+    },
+    "85": {
+        "name": "Rygskade",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "Kirurg"
+    },
+    "86": {
+        "name": "Delvist Bygnings Kolaps",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "87": {
+        "name": "Bygnings Kolaps",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "88": {
+        "name": "3 Grads Forbranding",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Kirurg"
+    },
+    "89": {
+        "name": "Seri\u00f8st Hovedskade",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurokirurgi"
+    },
+    "90": {
+        "name": "Traumatisk Kropsdel Amputation",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "Kirurg"
+    },
+    "91": {
+        "name": "Stor G\u00e5rd Brand",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "92": {
+        "name": "Rygsmerter",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "Specialister i intern medicin"
     }
 }

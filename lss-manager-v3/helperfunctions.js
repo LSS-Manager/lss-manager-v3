@@ -234,14 +234,14 @@ else if (I18n.locale == "sv_SE")
     lssm.carsById = {
         "0": ["BAS 1 - Släckbil", 0],
         "1": ["BAS 2 - Släckbil", 0],
-        "2": ["M32L - Stegbil", 0],
+        "2": ["Stegbil", 0],
         "3": ["Befälsfordon", 0],
         "4": ["Lastväxlare", 0],
         "5": ["Ambulans", 2],
-        "6": ["BAS 4 - Tankbil", 0],
-        "7": ["Industribrandbil", 0],
+        "6": ["Tankbil", 0],
+        "7": ["Kemskyddsenhet", 0],
         "8": ["Radiobil", 6],
-        "9": ["Räddningshelikopter", 2],
+        "9": ["Ambulanshelikopter", 2],
         "10": ["Luftfordon", 0],
         "11": ["Mobilt ledningsfordon", 0],
         "12": ["Räddningsfordon", 0]
@@ -320,7 +320,7 @@ else if (I18n.locale == "da_DK") {
         "6": ["Tankvogn", 0],
         "7": ["CBRN", 0],
         "8": ["Patruljevogn", 6],
-        "9": ["Räednings Helikopter", 2]
+        "9": ["Rednings Helikopter", 2]
     };
 }
 else if (I18n.locale == "nb_NO") {
@@ -345,7 +345,8 @@ else if (I18n.locale == "nb_NO") {
         "6": ["Tankbil", 0],
         "7": ["CBRNe enhet", 0],
         "8": ["Patruljebil", 6],
-        "9": ["Redningshelikopter", 2]
+        "9": ["Luftambulanse", 2],
+        "10": ["Snorkelbil", 0]
     };
 }
 else if (I18n.locale == "pl_PL")
