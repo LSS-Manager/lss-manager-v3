@@ -1825,5 +1825,52 @@
             "specialisation": "Chirurg og\u00f3lny"
         },
         "poi": 24
+    },
+    "128": {
+        "name": "Po\u017car w sto\u0142\u00f3wce",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Interna"
+        },
+        "poi": 12
+    },
+    "129": {
+        "name": "Wypadek rowerzysty na trasie rowerowej",
+        "stations": {
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 50,
+            "rth": 30,
+            "specialisation": "Chirurg og\u00f3lny"
+        },
+        "poi": 3
+    },
+    "130": {
+        "name": "Zatrzymanie akcji serca",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Kardiologia"
     }
 }

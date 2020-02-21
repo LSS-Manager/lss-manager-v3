@@ -9815,5 +9815,51 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "Cardiologie"
+    },
+    "564": {
+        "name": "Voetganger onder tram",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "hulpverlening": 1,
+            "bchief": 1,
+            "noodhulpeen": 3
+        },
+        "credits": 2040,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 80,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 5
+    },
+    "565": {
+        "name": "Fietser onder tram",
+        "stations": {
+            "0": 6,
+            "3": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "hulpverlening": 1,
+            "bchief": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 2140,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "mmtarts": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 5
     }
 }

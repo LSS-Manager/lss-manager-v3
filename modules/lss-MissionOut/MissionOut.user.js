@@ -25,7 +25,7 @@
     I18n.translations.it_IT.lssm.missionOut = {
         title: 'Nascondi/Mostra missione'
     };
-    I18n.translations.en_US.lssm.missionOut = {
+    I18n.translations.tr_TR.lssm.missionOut = {
         title: 'Görevi Gizle/Göster'
     };
     I18n.translations.fr_FR.lssm.missionOut = {
@@ -33,6 +33,9 @@
     };
     I18n.translations.ru_RU.lssm.missionOut = {
         title: 'Скрыть / Показать миссию'
+    };
+    I18n.translations.uk_UA.lssm.missionOut = {
+        title: 'Сховати / показати місію'
     };
     I18n.translations.es_ES.lssm.missionOut = {
         title: 'Ocultar/Mostrar misión'

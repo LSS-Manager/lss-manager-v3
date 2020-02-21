@@ -9254,5 +9254,21 @@
         "percentages": {
             "elw2": 15
         }
+    },
+    "510": {
+        "name": "Zwangseinweisung",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "fustw": 2
+        },
+        "credits": 900,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "nef": 20,
+            "specialisation": "Allgemeine Innere"
+        }
     }
 }

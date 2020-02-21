@@ -170,6 +170,19 @@
             cells: 'Скрыть полные ячейки'
         }
     };
+    I18n.translations.uk_UA.lssm.destfilter = {
+        title: 'Фільтр призначення',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Hide full hospitals',
+            department: 'Hide hospitals without needed department',
+            distance: 'Hide destinations above x km distance (0 deactivates)',
+            tax: 'Hide destinations with a TAX higher than x%',
+            cells: 'Hide full cells'
+        }
+    };
     I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

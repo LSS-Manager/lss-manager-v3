@@ -1026,5 +1026,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Cl\u00ednica m\u00e9dica"
+    },
+    "77": {
+        "name": "Inc\u00eandio no refeit\u00f3rio",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Cl\u00ednica m\u00e9dica"
+        },
+        "poi": 12
     }
 }

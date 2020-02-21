@@ -65,7 +65,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Maks\. Pasienter/)) {
+            if (content.match(/Maks pasienter/)) {
                 patientsMax = number;
             } else if (content.match(/Minste antall pasienter/)) {
                 patientsMin = number;
@@ -73,7 +73,7 @@ $.get(missionlink)
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Pasientspesialisering/)) {
+            } else if (content.match(/Sykehusavdeling/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maks antall innsatte/)) {
                 prisonersMax = number;
@@ -265,7 +265,7 @@ $.get(missionlink)
         function getStation(content) {
             let stationDefinitions = {
                 0: "brannstasjoner",
-                2: "redningsstasjoner",
+                2: "ambulansestasjoner",
                 6: "politistasjoner",
                 13: "Police Helicopter"
             };

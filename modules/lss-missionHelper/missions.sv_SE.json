@@ -1610,5 +1610,23 @@
         "transport": 80,
         "rth": 30,
         "specialisation": "Inv\u00e4rtesmedicinare"
+    },
+    "117": {
+        "name": "Brand i byggnad - skola",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "poi": 12
     }
 }

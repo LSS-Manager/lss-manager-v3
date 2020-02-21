@@ -531,7 +531,8 @@
         506: 'Hundeangriff',
         507: 'Hochwasserschadenslage',
         508: 'Pfählungsverletzung',
-        509: 'Brennender Stall'
+        509: 'Brennender Stall',
+        510: 'Zwangseinweisung'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -900,7 +901,8 @@
         347: 'Animal on the tracks',
         348: 'Cooking fire',
         349: 'Propane depot explosion',
-        350: 'Choking'
+        350: 'Choking',
+        351: 'Injured person on high voltage mast'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1060,7 +1062,8 @@
         138: 'Large Drunken Disorder',
         139: 'Fire in silo',
         140: 'Domestic Violence',
-        141: 'Choking'
+        141: 'Choking',
+        142: 'Barn fire'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1200,7 +1203,8 @@
         118: 'Freight Train Derailment',
         119: 'Freight Train Derailment',
         120: 'Armed robbery',
-        121: 'Choking'
+        121: 'Choking',
+        122: 'Cafeteria fire'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1338,7 +1342,8 @@
         116: 'Vuelco de vehículo a motor',
         117: 'Robo a mano armada',
         118: 'Fuego en la cocina',
-        119: 'Asfixia'
+        119: 'Asfixia',
+        120: 'Fuego en la cafetería'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1475,7 +1480,8 @@
         115: 'Intoxicación por monóxido de carbono',
         116: 'Vuelco de vehículo a motor',
         117: 'Robo a mano armada',
-        118: 'Fuego en la cocina'
+        118: 'Fuego en la cocina',
+        119: 'Fuego en la cafetería'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1571,7 +1577,8 @@
         74: 'Incêndio de grandes dimensões',
         75: 'Acidente envolvendo várias viaturas',
         76: 'Acidente de mota',
-        77: 'Asfixia'
+        77: 'Asfixia',
+        78: 'Incêndio no refeitório'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1666,7 +1673,8 @@
         73: 'Acidente sério envolvendo um ônibus',
         74: 'Grande incêndio',
         75: 'Acidente de mota',
-        76: 'Asfixia'
+        76: 'Asfixia',
+        77: 'Incêndio no refeitório'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1801,7 +1809,8 @@
         113: 'Skallskada',
         114: 'Amputationsskada',
         115: 'Brand i byggnad - ladugård',
-        116: 'Ryggsmärtor'
+        116: 'Ryggsmärtor',
+        117: 'Brand i byggnad - skola'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1912,7 +1921,8 @@
         89: 'Seriøst Hovedskade',
         90: 'Traumatisk Kropsdel Amputation',
         91: 'Stor Gård Brand',
-        92: 'Rygsmerter'
+        92: 'Rygsmerter',
+        93: 'Cafeterie Brand'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2017,7 +2027,8 @@
         83: 'Požár velké farmy',
         84: 'Bolest zad',
         85: 'Dopravní nehoda motocyklu',
-        86: 'Dušení'
+        86: 'Dušení',
+        87: 'Požár jídelny'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2114,7 +2125,8 @@
         75: 'Araç devrilmesi',
         76: 'Silahlı soygun',
         77: 'Motosiklet Kazası',
-        78: 'Boğucu'
+        78: 'Boğucu',
+        79: 'Kafeterya Yangını'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2225,7 +2237,8 @@
         89: 'Hodeskade',
         90: 'Amputasjon',
         91: 'Gårdsbrann (stor)',
-        92: 'Ryggsmerter'
+        92: 'Ryggsmerter',
+        93: 'Brann i kafeteria'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2371,7 +2384,10 @@
         124: 'Pożar Pustostanu',
         125: 'Pożar chlewni',
         126: 'Zadławienie',
-        127: 'Wypadek Na Przejeździe Kolejowym'
+        127: 'Wypadek Na Przejeździe Kolejowym',
+        128: 'Pożar w stołówce',
+        129: 'Wypadek rowerzysty na trasie rowerowej',
+        130: 'Zatrzymanie akcji serca'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2511,7 +2527,9 @@
         118: 'Incidente auto-bici',
         119: 'Violenza domestica',
         120: 'Soffocamento',
-        121: 'Scoppio bombola del gas'
+        121: 'Scoppio bombola del gas',
+        122: 'Incendio mensa scolastica',
+        123: 'Incendio stadio'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2643,7 +2661,8 @@
         110: 'Personne ne répondant pas aux appels',
         111: 'Découverte de NAC',
         112: 'AVP impliquant une moto',
-        113: 'Étouffement'
+        113: 'Étouffement',
+        114: 'Feu de cafétéria'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2767,7 +2786,102 @@
         102: 'Опрокидывание автомобиля',
         103: 'Вооруженное ограбление',
         104: 'Отравление газом',
-        105: 'Задыхаясь'
+        105: 'Задыхаясь',
+        106: 'Пожар в кафетерии'
+      }
+    };
+    I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
+      name: 'Ключові слова місії',
+      settingsName: 'Ключові слова місії - Налаштування',
+      domain: 'dyspetcher101-game.com',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: 'Показати сховати',
+      keywords: {
+        0: 'Займання урни',
+        1: 'Займання контейнера',
+        2: 'Палаючий автомобіль',
+        3: 'Палаючий мотоцикл',
+        4: 'Палаюча трава',
+        5: 'Займання у приміщенні',
+        6: 'Займання у сараї',
+        7: 'Палаюче листя',
+        8: 'Займання сміття',
+        9: 'Займання тюка соломи',
+        10: 'Займання трактора',
+        11: 'Палаюча телефонна будка',
+        12: 'Дерево на дорозі',
+        13: 'Палаюча вантажівка',
+        14: 'Невелике займання на полі',
+        15: 'Невелика лісова пожежа',
+        16: 'Займання у автодомі',
+        17: 'Займання поштової скриньки',
+        18: 'Купа хмизу',
+        19: 'Палаючий причеп',
+        20: 'Займання у підвалі',
+        21: 'Займання у димоході',
+        22: 'Займання на даху',
+        23: 'Займання жиру',
+        24: 'Палаюча автобусна зупинка',
+        25: 'ДТП',
+        26: 'Мале займання у супермаркеті',
+        27: 'Пожежа у гаражі',
+        28: 'Палаючий механізм',
+        29: 'Вилив з невідомої цистерни',
+        30: 'Витік газу',
+        31: 'Займання у каміні',
+        32: 'Займання комбайну',
+        33: 'Мале займання у супермаркеті',
+        34: 'Займання у лікарні',
+        35: 'Алкогольне отруєння',
+        36: 'Біль у грудях',
+        37: 'Гострий напад астми',
+        38: 'Припадок',
+        39: 'Жар',
+        40: 'Падіння людини',
+        41: 'Займання у автомайстерні',
+        42: 'Падіння людини',
+        43: 'Падіння людини',
+        44: 'Крадіжка у магазині',
+        45: 'Крадіжка у магазині',
+        46: 'ДТП із припаркованим автомобілем',
+        47: 'ДТП із припаркованим автомобілем',
+        48: 'Крадіжка металу зі зламом',
+        49: 'Кишенькова крадіжка',
+        50: 'Безбілетник',
+        51: 'Безбілетник',
+        52: 'Безбілетник',
+        53: 'Безбілетник',
+        54: 'ДТП із припаркованим автомобілем',
+        55: 'Бійка',
+        56: 'Учасник заворушень',
+        57: 'Неоголошена демонстрація',
+        58: 'Займання на кухні',
+        59: 'Порятунок тварини',
+        60: 'Займання у спортзалі',
+        61: '',
+        62: 'Скарги на шум',
+        63: 'Транзиторна ішемічна атака',
+        64: 'ДТП за участю автобуса',
+        65: 'Займання на кухні',
+        66: 'Займання у приміщенні',
+        67: 'Бійка',
+        68: 'Велике займання у супермаркеті',
+        69: 'Вилив з невідомої цистерни',
+        70: 'Велике займання у супермаркетіе',
+        71: 'Кровотеча з носу',
+        72: 'Катастрофа легкомоторного літака',
+        73: 'Серйозна ДТП за участю автобуса',
+        74: 'Велике займання',
+        75: 'Кав\'ярня у вогні'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -3349,7 +3463,9 @@
         560: 'Geschreeuw in woning',
         561: 'Rijden onder invloed van lachgas',
         562: 'Hart gestolen',
-        563: 'Hart gebroken'
+        563: 'Hart gebroken',
+        564: 'Voetganger onder tram',
+        565: 'Fietser onder tram'
       }
     };
 
@@ -3882,7 +3998,8 @@
       506: 'POL 1',
       507: 'THW 5',
       508: 'THL 1',
-      509: 'B 5'
+      509: 'B 5',
+      510: 'POL 1'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -4235,7 +4352,8 @@
       347: 'POL 1',
       348: 'FIRE 1',
       349: 'FIRE 6',
-      350: 'MED 1'
+      350: 'MED 1',
+      351: 'TECH 1'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -4380,7 +4498,8 @@
       138: 'POL 2',
       139: 'FIRE 6',
       140: 'POL 2',
-      141: 'MED 1'
+      141: 'MED 1',
+      142: 'FIRE 3'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4504,7 +4623,8 @@
       118: 'TECH 5',
       119: 'TECH 5',
       120: 'POL 4',
-      121: 'MED 1'
+      121: 'MED 1',
+      122: 'FIRE 2'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -4626,7 +4746,8 @@
       116: 'TECH 2',
       117: 'POL 3',
       118: 'FIRE 1',
-      119: 'MED 1'
+      119: 'MED 1',
+      120: 'FIRE 2'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -4747,7 +4868,8 @@
       115: 'CBRN 1',
       116: 'TECH 2',
       117: 'POL 3',
-      118: 'FIRE 1'
+      118: 'FIRE 1',
+      119: 'FIRE 2'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -4827,7 +4949,8 @@
       74: 'FIRE 7',
       75: 'TECH 3',
       76: 'TECH 2',
-      77: 'MED 1'
+      77: 'MED 1',
+      78: 'FIRE 2'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -4906,7 +5029,8 @@
       73: 'TECH 3',
       74: 'FIRE 7',
       75: 'TECH 2',
-      76: 'MED 1'
+      76: 'MED 1',
+      77: 'FIRE 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -5025,7 +5149,8 @@
       113: 'MED 1',
       114: 'MED 1',
       115: 'FIRE 6',
-      116: 'MED 1'
+      116: 'MED 1',
+      117: 'FIRE 2'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -5120,7 +5245,8 @@
       89: 'MED 1',
       90: 'MED 1',
       91: 'FIRE 5',
-      92: 'MED 1'
+      92: 'MED 1',
+      93: 'FIRE 2'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -5209,7 +5335,8 @@
       83: 'FIRE 6',
       84: 'MED 1',
       85: 'TECH 2',
-      86: 'MED 1'
+      86: 'MED 1',
+      87: 'FIRE 2'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -5290,7 +5417,8 @@
       75: 'TECH 2',
       76: 'POL 3',
       77: 'TECH 2',
-      78: 'MED 1'
+      78: 'MED 1',
+      79: 'FIRE 2'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -5385,7 +5513,8 @@
       89: 'MED 1',
       90: 'MED 1',
       91: 'FIRE 5',
-      92: 'MED 1'
+      92: 'MED 1',
+      93: 'FIRE 2'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -5515,7 +5644,10 @@
       124: 'FIRE 4',
       125: 'FIRE 4',
       126: 'MED 1',
-      127: 'TECH 1'
+      127: 'TECH 1',
+      128: 'FIRE 2',
+      129: 'MED 1',
+      130: 'MED 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -5639,7 +5771,9 @@
       118: 'POL 1',
       119: 'POL 2',
       120: 'MED 1',
-      121: 'FIRE 3'
+      121: 'FIRE 3',
+      122: 'FIRE 2',
+      123: 'FIRE 5'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -5755,7 +5889,8 @@
       110: 'MED 1',
       111: 'TECH 1',
       112: 'TECH 1',
-      113: 'MED 1'
+      113: 'MED 1',
+      114: 'FIRE 2'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -5863,7 +5998,86 @@
       102: 'TECH 2',
       103: 'POL 3',
       104: 'TECH 2',
-      105: 'MED 1'
+      105: 'MED 1',
+      106: 'FIRE 2'
+    };
+    let DEFAULT_AAO_UKUA = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 3',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'FIRE 2'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -6429,7 +6643,9 @@
       560: 'P 2',
       561: 'P 2',
       562: 'P 1',
-      563: 'A 1'      
+      563: 'A 1',
+      564: 'HV 1',
+      565: 'HV 1' 
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -6448,6 +6664,7 @@
     I18n.translations.it_IT.lssm.missionKeyword = DEFAULT_AAO_ITIT;
     I18n.translations.fr_FR.lssm.missionKeyword = DEFAULT_AAO_FRFR;
     I18n.translations.ru_RU.lssm.missionKeyword = DEFAULT_AAO_RURU;
+    I18n.translations.uk_UA.lssm.missionKeyword = DEFAULT_AAO_UKUA;
     I18n.translations.cs_CZ.lssm.missionKeyword = DEFAULT_AAO_CSCZ;
     I18n.translations.tr_TR.lssm.missionKeyword = DEFAULT_AAO_TRTR;
     I18n.translations.nl_NL.lssm.missionKeyword = DEFAULT_AAO_NLNL;
@@ -6458,35 +6675,37 @@
     else if (I18n.locale === 'en_US')
       defaultAao = DEFAULT_AAO_ENUS;
     else if (I18n.locale === 'en_GB')
-      defaultAao = DEFAULT_AAO_ENGB
+      defaultAao = DEFAULT_AAO_ENGB;
     else if (I18n.locale === 'en_AU')
-      defaultAao = DEFAULT_AAO_ENAU
+      defaultAao = DEFAULT_AAO_ENAU;
     else if (I18n.locale === 'es_ES')
-      defaultAao = DEFAULT_AAO_ESES
+      defaultAao = DEFAULT_AAO_ESES;
     else if (I18n.locale === 'es_MX')
-      defaultAao = DEFAULT_AAO_ESMX
+      defaultAao = DEFAULT_AAO_ESMX;
     else if (I18n.locale === 'pt_PT')
-      defaultAao = DEFAULT_AAO_PTPT
+      defaultAao = DEFAULT_AAO_PTPT;
     else if (I18n.locale === 'pt_BR')
-      defaultAao = DEFAULT_AAO_PTBR
+      defaultAao = DEFAULT_AAO_PTBR;
     else if (I18n.locale === 'sv_SE')
-      defaultAao = DEFAULT_AAO_SVSE
+      defaultAao = DEFAULT_AAO_SVSE;
     else if (I18n.locale === 'da_DK')
-      defaultAao = DEFAULT_AAO_DADK
+      defaultAao = DEFAULT_AAO_DADK;
     else if (I18n.locale === 'nb_NO')
-      defaultAao = DEFAULT_AAO_NBNO
+      defaultAao = DEFAULT_AAO_NBNO;
     else if (I18n.locale === 'pl_PL')
-      defaultAao = DEFAULT_AAO_PLPL
+      defaultAao = DEFAULT_AAO_PLPL;
     else if (I18n.locale === 'it_IT')
-      defaultAao = DEFAULT_AAO_ITIT
+      defaultAao = DEFAULT_AAO_ITIT;
     else if (I18n.locale === 'cs_CZ')
-      defaultAao = DEFAULT_AAO_CSCZ
+      defaultAao = DEFAULT_AAO_CSCZ;
     else if (I18n.locale === 'tr_TR')
-      defaultAao = DEFAULT_AAO_TRTR
+      defaultAao = DEFAULT_AAO_TRTR;
     else if (I18n.locale === 'fr_FR')
-      defaultAao = DEFAULT_AAO_FRFR
+      defaultAao = DEFAULT_AAO_FRFR;
     else if (I18n.locale === 'ru_RU')
-      defaultAao = DEFAULT_AAO_RURU
+      defaultAao = DEFAULT_AAO_RURU;
+    else if (I18n.locale === 'uk_UA')
+      defaultAao = DEFAULT_AAO_UKUA;
     else if (I18n.locale === 'nl_NL')
       defaultAao = DEFAULT_AAO_NLNL;
     else

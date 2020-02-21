@@ -488,6 +488,19 @@
             }
         ]
     };
+    I18n.translations.uk_UA.lssm.heatmap = {
+        active: 'Активний',
+        vehicleType: 'Групи',
+        radius: 'Радіус',
+        intensity: 'Інтенсивність',
+        close: 'Закрити',
+        vehicleGroups: [
+            {
+                name: 'Власна комбінація',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

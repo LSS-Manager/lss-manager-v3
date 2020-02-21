@@ -65,6 +65,12 @@
         reset: "Сброс",
         select: "Пожалуйста, выберите...."
     };
+    I18n.translations.uk_UA['lssm']['aaosearch'] = {
+        search_aao: "Пошук AAO",
+        use_dd: "Використовувати спадне меню: ",
+        reset: "Скидання",
+        select: "Виберіть будь ласка..."
+    };
     I18n.translations.es_ES['lssm']['aaosearch'] = {
         search_aao: "Buscar AAO",
         use_dd: "Use el menú desplegable: ",

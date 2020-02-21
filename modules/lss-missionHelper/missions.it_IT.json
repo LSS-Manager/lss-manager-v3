@@ -1770,5 +1770,53 @@
         "percentages": {
             "platform": 30
         }
+    },
+    "122": {
+        "name": "Incendio mensa scolastica",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 8,
+            "transport": 40,
+            "specialisation": "Chirurgia generale"
+        },
+        "poi": 12
+    },
+    "123": {
+        "name": "Incendio stadio",
+        "stations": {
+            "0": 5,
+            "2": 40,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 8,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 1,
+            "mcv": 1,
+            "police": 6,
+            "air": 1,
+            "tanker": 1
+        },
+        "credits": 3800,
+        "patients": {
+            "max": 260,
+            "min": 180,
+            "transport": 8,
+            "rth": 1,
+            "specialisation": "Chirurgia generale"
+        },
+        "poi": 20,
+        "percentages": {
+            "tanker": 10
+        }
     }
 }
