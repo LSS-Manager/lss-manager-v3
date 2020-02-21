@@ -727,12 +727,12 @@
             }
         }
     };
-    I18n.translations.en_US.lssm.extendedBuilding = {
+    I18n.translations.uk_UA.lssm.extendedBuilding = {
         title: 'Розширений вигляд будівлі',
         crew: 'Команда (макс.)',
         fms: 'Статус',
         assignment: 'Призначити персонал',
-        neededPersonnel: 'Needed Personnel',
+        neededPersonnel: 'Необхідний персонал',
         expansionFinished: 'Finished',
         expansionNotStarted: 'Not started',
         personnelOverview: 'Personnel Overview',
