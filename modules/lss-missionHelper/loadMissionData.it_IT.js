@@ -12,7 +12,7 @@ $.get(missionlink)
             air: "Carro",
             bchief: "Funzionar",
             fwk: "Autogrù",
-            tanker: "Kilolitric",
+            tanker: "Kilolit",
             hazmat: "NBCR|N.B.C.R",
             mcv: "UCL",
             police: "Pattuglie",
@@ -61,7 +61,7 @@ $.get(missionlink)
                 vehicles[getVehicle(content)] = number;
 			} else if (content.match(/Media min. Personale antincendio/)) {
                 special["averageMinimumEmployeesFire"] = number;
-            } else if (content.match(/Possibilità/)) {
+            } else if (content.match(/Possibilità|richiesta/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

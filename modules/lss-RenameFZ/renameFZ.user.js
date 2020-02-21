@@ -562,6 +562,7 @@
             validStationTypes: {
                 0: "Brandstation",
                 2: "Ambulansstation",
+                5: "Ambulanshelikopterstation",
                 6: "Polisstation",
                 7: "Larmcentral",
                 18: "Brandstation (liten)",
@@ -571,14 +572,14 @@
             vehicleTypes: {
                 0: 'BAS 1 - Släckbil',
                 1: 'BAS 2 - Släckbil',
-                2: 'M32L - Stegbil',
+                2: 'Stegbil',
                 3: 'Befälsfordon',
                 4: 'Lastväxlare',
                 5: 'Ambulans',
-                6: 'BAS 4 - Tankbil',
-                7: 'Industribrandbil',
+                6: 'Tankbil',
+                7: 'Kemskyddsenhet',
                 8: 'Radiobil',
-                9: 'Räddningshelikopter',
+                9: 'Ambulanshelikopter',
                 10: 'Luftfordon',
                 11: 'Mobilt ledningsfordon',
                 12: 'Räddningsfordon'
@@ -628,6 +629,7 @@
             validStationTypes: {
                 0: "Brandstation",
                 2: "Ambulancestation",
+                5: "Helikopterstation",
                 6: "Politistation",
                 7: "Alarmcentral",
                 18: "Brandstation (lille station)",
@@ -691,6 +693,7 @@
             validStationTypes: {
                 0: "Brannstasjon",
                 2: "Ambulansestasjon",
+                5: "Helikopterstasjon",
                 6: "Politistasjon",
                 7: "Nødetatssenter",
                 18: "Brannstasjon (liten)",
@@ -707,7 +710,8 @@
                 6: 'Tankbil',
                 7: 'CBRNe enhet',
                 8: 'Patruljebil',
-                9: 'Redningshelikopter'
+                9: 'Luftambulanse',
+                10: 'Snorkelbil'
             }
         }
     };
@@ -908,6 +912,69 @@
                 10: 'Mobile air',
                 11: 'ПКП',
                 12: 'ПСА'
+            }
+        }
+    };
+
+    I18n.translations.uk_UA.lssm.renameFz = {
+        name: 'Перейменуйте транспортні засоби',
+        rename: "перейменувати",
+        id: "{id} Ідентифікатор транспортного засобу",
+        old: "{old} Поточна назва",
+        vehicleType: "{vehicleType} Тип транспортного засобу",
+        stationName: "{stationName} Назва будівлі",
+        tagging: '{tagging} Позначення типу транспортного засобу',
+        number: '{number} Тип лічильника',
+        numberRoman: '{numberRoman} Лічильник типу (римські цифри)',
+        dispatch: '{dispatch} Назва диспетчерського центру',
+        dispatchAlias: '{dispatchAlias} Псевдоніми диспетчерського центру',
+        stationAlias: '{stationAlias} Псевдонім будівлі',
+        saveAll: 'зберегти все',
+        statusWaiting: 'Зачекайте на введення',
+        statusError: '<b>Помилка під час покоління!</b> Якщо ця помилка повториться, повідомте про це. Будь ласка, надайте таку інформацію:',
+        statusWorking: 'Утворіть назви та форми. Це може зайняти певний час, залежно від системи та кількості транспортних засобів.',
+        statusSuccess: 'Імена та форми успішно створені!',
+        nameAlreadyCorrect: 'Ім\'я вже відповідає шаблону!',
+        nameToLong: 'Назва занадто довга для таких транспортних засобів:',
+        nameToLongOriginalName: 'Оригінальна назва',
+        nameToLongGeneratedName: 'Генерована назва',
+        nameToLongShortenedName: 'Нова / скорочена назва',
+        helpTitle: 'Ви можете знайти невелику інструкцію за цим посиланням: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Лічильник початку',
+        counterOverride: 'Якщо є кілька транспортних засобів одного типу, почніть з 1 все одно.',
+        startNumHelp: 'Тут ви можете ввести початкове значення для лічильника типів. Якщо в якості початкового значення встановити 0, перший транспортний засіб типу не отримає нумерацію, це дуже практично, якщо у вас є лише один транспортний засіб типу на захисті і не хочете його нумерувати. Але ви також можете запустити лічильник о 5 (з будь-якої причини, але ви хочете;))',
+        toggleNameCorrect: 'Показати / приховати транспортні засоби з правильними назвами',
+        settings: {
+            show: 'Показати сховати',
+            names: {
+                vehicleTypes: 'Типи транспортних засобів',
+                stations: 'Будівництво псевдоніму'
+            },
+            descriptions: {
+                vehicleTypes: 'Тут ви можете встановити альтернативні назви для кожного типу транспортного засобу. Ви можете використовувати їх під час перейменування транспортних засобів через диспетчерський центр.',
+                stations: 'Тут ви можете встановити альтернативні назви для кожної будівлі. Ви можете використовувати їх під час перейменування транспортних засобів через диспетчерський центр.'
+            },
+            validStationTypes: {
+                0: "Пожежна частина",
+                2: "Станція швидкої допомоги",
+                6: "Управління поліції",
+                7: "Диспетчерський центр",
+                18: "Пожежна частина (мала)",
+                19: "Відділ поліції",
+                20: "Підстанція швидкої допомоги"
+            },
+            vehicleTypes: {
+                0: 'Пожежна автоцистерна',
+                1: 'Автомобіль першої допомоги',
+                2: 'Пожежна автодрабина',
+                3: 'Штабний автомобіль',
+                4: 'Пожежно-рятувальний автомобіль',
+                5: 'Автомобіль швидкої медичної допомоги',
+                6: 'Автонасосна пожежна станція',
+                7: 'Автомобіль РХБ захисту',
+                8: 'Поліцейський автомобіль',
+                9: 'Пошуково-рятувальний вертоліт'
             }
         }
     };

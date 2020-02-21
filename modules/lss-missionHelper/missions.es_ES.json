@@ -1624,5 +1624,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Medicina interna general"
+    },
+    "120": {
+        "name": "Fuego en la cafeter\u00eda",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 12
     }
 }

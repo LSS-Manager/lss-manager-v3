@@ -727,6 +727,62 @@
             }
         }
     };
+    I18n.translations.en_US.lssm.extendedBuilding = {
+        title: 'Розширений вигляд будівлі',
+        crew: 'Команда (макс.)',
+        fms: 'Статус',
+        assignment: 'Призначити персонал',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Навчання',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Призначено',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Необхідний персонал',
+                description: 'Показує необхідний персонал, якщо всі транспортні засоби повинні бути повністю зайняті',
+            },
+            switchStatus: {
+                label: 'Швидка зміна статусу',
+                description: 'Статус транспортного засобу можна змінювати безпосередньо між S2 та S6 через дисплей статусу',
+            },
+            assignmentBtn: {
+                label: 'Швидке призначення',
+                description: 'Додає кнопку для швидкого переходу до вікна "Призначити персонал"',
+            },
+            assignedWorkers: {
+                label: 'Призначений персонал',
+                description: 'Показує для кожного транспортного засобу, скільки призначено персоналу',
+            },
+            currentCrew: {
+                label: 'Поточний екіпаж',
+                description: 'Позначає для кожного транспортного засобу, скільки персоналу зараз сидить на транспортному засобі',
+            },
+            expansions: {
+                label: 'Показати розширення',
+                description: 'Показати поточний стан розширень',
+            },
+            personnelOverview: {
+                label: 'Розширений огляд персоналу',
+                description: 'Показує на огляді персоналу, скільки персоналу має яку підготовку',
+            },
+            vehicleType: {
+                label: 'Показати тип транспортного засобу',
+                description: 'Показує тип транспортного засобу в списку транспортних засобів.',
+            },
+            expansionDate: {
+                label: 'Дата завершення розширення',
+                description: 'Показує в списку розширень також, коли будівництво буде закінчено (працює лише у зв\'язку з налаштуванням "Показати розширення")',
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

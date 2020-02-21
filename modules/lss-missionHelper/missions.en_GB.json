@@ -1921,5 +1921,18 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "General Internal"
+    },
+    "142": {
+        "name": "Barn fire",
+        "stations": {
+            "0": 7
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "tanker": 1
+        },
+        "credits": 2000,
+        "poi": 21
     }
 }

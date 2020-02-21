@@ -210,6 +210,22 @@
         }
     };
 
+    I18n.translations.uk_UA.lssm.centermap = {
+        center: "Центр",
+        settings: {
+            title: "Центр-карта",
+            choose: "Виберіть будь ласка",
+            option1: "За замовчуванням",
+            option1desc: "Рівень масштабування та центральне значення в центрі управління",
+            option2: "Динамічний",
+            alliance: "Враховуйте альянс",
+            option2desc: "Центральна карта, щоб усі місії та станції були видні.",
+            option3: "Користувальницькі",
+            option3desc: "Встановіть власну позицію та рівень масштабування.",
+            set: "Зберегти поточну позицію"
+        }
+    };
+
     I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {

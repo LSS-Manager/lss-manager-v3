@@ -1187,5 +1187,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "V\u0161eobecn\u00fd internista"
+    },
+    "87": {
+        "name": "Po\u017e\u00e1r j\u00eddelny",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 12
     }
 }

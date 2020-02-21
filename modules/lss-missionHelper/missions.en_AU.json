@@ -1676,5 +1676,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "General Internal"
+    },
+    "122": {
+        "name": "Cafeteria fire",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "General Internal"
+        },
+        "poi": 12
     }
 }

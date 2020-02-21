@@ -19,7 +19,7 @@ $.get(missionlink)
             arff: "flygbrandfordon",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            rth: "ambulanshelikopter",
             policeHeli: "Police Helicopter",
         };
 
@@ -81,6 +81,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/ambulanshelikopter/)) {
+                rth = number;
             } else if (content.match(/Uppdrag att utöka/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

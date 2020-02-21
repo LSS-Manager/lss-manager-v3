@@ -59,10 +59,22 @@
         noVGE: "Nie ma uratowanej Misji Sojuszniczej!",
         VGEs: "VGEs"
     };
+    I18n.translations.ru_RU['lssm']['saveVGE'] = {
+        save: "Сохранить",
+        del: "удалять",
+        noVGE: "Нет спасенной миссии Альянса!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.uk_UA['lssm']['saveVGE'] = {
+        save: "Зберегти",
+        del: "Видалити",
+        noVGE: "Не збережена місія Альянсу!",
+        VGEs: "LSAMs"
+    };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
-    		del: "Verwijderen",
-    		noVGE:"Geen opgeslagen grote teaminzetten!",
+    	del: "Verwijderen",
+    	noVGE:"Geen opgeslagen grote teaminzetten!",
         VGEs:"Grote teaminzet aanmaken"
     };
     let prefix = "saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix)) || {}

@@ -1078,5 +1078,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Genel Dahiliye"
+    },
+    "79": {
+        "name": "Kafeterya Yang\u0131n\u0131",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Genel Dahiliye"
+        },
+        "poi": 12
     }
 }

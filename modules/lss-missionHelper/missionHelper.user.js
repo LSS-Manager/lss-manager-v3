@@ -1220,7 +1220,7 @@ const lssm_missionhelper_adjustPosition = () => {
             truck: "släckbilar",
             platform: "stegbilar",
             heavyRescue: "Lastväxlare",
-            air: "Mobile Air",
+            air: "Fordon",
             bchief: "brandchefsbilar",
             tanker: "tankbilar",
             hazmat: "farligt gods-fordon",
@@ -1230,7 +1230,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            rth: "Ambulanshelikopter",
             policeHeli: "Police Helicopter",
         },
         pois: [
@@ -1362,7 +1362,7 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "Brandbiler",
             platform: "Platformvogne",
-            heavyRescue: "Redningskøretøjer",
+            heavyRescue: "pionertjenesten",
             air: "mobile luftfartøjer",
             bchief: "Holdleder-køretøjer",
             tanker: "vandtankvogne",
@@ -1373,8 +1373,8 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
-            policeHeli: "Police Helicopter",
+            rth: "RRednings Helikopter",
+            policeHeli: "Luftambulanse",
         },
         pois: [
             "Park",
@@ -2424,6 +2424,149 @@ const lssm_missionhelper_adjustPosition = () => {
             "Бар",
             "Мусорный полигон",
             "Паркинг"
+        ]
+    };
+
+    I18n.translations.uk_UA.lssm.missionhelper = {
+        diy_mission: 'Ця місія, здається, є масштабною місією альянсу.',
+        siwa: 'Запланована місія',
+        vge: 'Велика місія альянсу',
+        patients: 'Пацієнти',
+        prisoners: 'В\'язні',
+        to: 'аж до',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Ця місія є лише швидкою допомогою!',
+        title: 'Місіонер',
+        transport: 'Транспорт',
+        settings: {
+            name: {
+                label: 'Ім\'я',
+                description: 'Показує ім\'я місії у помічнику.'
+            },
+            id: {
+                label: 'Посвідчення особи',
+                description: 'Відображає ідентифікатор місії у помічнику.'
+            },
+            type: {
+                label: 'ІДЕНТИФІКАТОР ТИПУ',
+                description: 'Відображає ідентифікатор типу місії у помічнику.'
+            },
+            poi: {
+                label: 'Потім',
+                description: 'Вказує в помічнику, на якій POI знаходиться операція.'
+            },
+            live_patients: {
+                label: 'Кількість пацієнтів',
+                description: 'Показує в прямому ефірі, скільки пацієнтів зараз використовуються.'
+            },
+            vehicles: {
+                label: 'Транспортні засоби',
+                description: 'Відображає необхідні транспортні засоби.'
+            },
+            patients: {
+                label: 'інформація про пацієнта',
+                description: 'Показує інформацію про (потенційних) пацієнтів.'
+            },
+            prisoners: {
+                label: 'інформація про в\'язнів',
+                description: 'Показує інформацію про (потенційних) ув\'язнених.'
+            },
+            special: {
+                label: 'Інша інформація',
+                description: 'Відображає спеціальну інформацію, таку як середня мінімальна кількість необхідного персоналу.'
+            },
+            expansions: {
+                label: 'дистрибуції',
+                description: 'Показує, на що може поширюватися ставка. (Показує лише просте поширення)'
+            },
+            show_100: {
+                label: 'Показати 100% вірогідність',
+                description: 'Показує ймовірність для транспортного засобу, навіть якщо він 100%.'
+            },
+            credits: {
+                label: 'Середній заробіток',
+                description: 'Показує середній заробіток, який ви отримуєте за це завдання.'
+            },
+            show_siwa: {
+                label: 'Вимоги охоронців',
+                description: 'Показує вимоги до охоронців і в помічнику.'
+            },
+            mission_time: {
+                label: 'Час створення',
+                description: 'Показує дату та час створення місії.'
+            }
+        },
+        vehicles: {
+            truck: "пожежні машини",
+            platform: "вантажні платформи",
+            heavyRescue: "важкі рятувальні машини",
+            air: "Carro aria",
+            bchief: "машини командира батальйону",
+            tanker: "автоцистерн",
+            hazmat: "машини знезараження",
+            mcv: "Mobile Command Vehicle",
+            police: "поліцейські машини",
+            rth: "elisoccorso",
+            ambulance: "Ambulanza Medicalizzata",
+            arff: "Flotta aerea antincendio AIB",
+            k9: "Dog Support Units",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            policeHeli: "Police Helicopter"
+        },
+        pois: [
+            "Парк",
+            "Озеро",
+            "Лікарня",
+            "Ліс",
+            "Автобусна зупинка",
+            "Трамвайна зупинка",
+            "Залізнична станція",
+            "Залізничний вокзал",
+            "Товарна станція",
+            "Супермаркет \\(малий\\)",
+            "Супермаркет \\(великий\\)",
+            "Заправна станція",
+            "Школа",
+            "Музей",
+            "Торгівельний центр",
+            "Автомайстерня",
+            "З'їзд із траси",
+            "Різдвяний ринок",
+            "Storehouse",
+            "Дискотека",
+            "Стадіон",
+            "Ферма",
+            "Офісна будівля",
+            "Басейн",
+            "Railroad Crossing",
+            "Театр",
+            "Ярмарок",
+            "Річка",
+            "Малий аеропорт \\(ЗПС\\)",
+            "Великий аеропорт \\(ЗПС\\)",
+            "Термінал аеропорту",
+            "Банк",
+            "Склад",
+            "Міст",
+            "Ресторан швидкого харчування",
+            "Вантажний порт",
+            "Центр переробки відходів",
+            "Висотка",
+            "Причал круїзних лайнерів",
+            "Гавань",
+            "Залізничний переїзд",
+            "Тунель",
+            "Холодний склад",
+            "Електростанція",
+            "Фабрика",
+            "Утилізаційний склад",
+            "Станція метро",
+            "Мале сховище хімікатів",
+            "Велике сховище хімікатів",
+            "Готель",
+            "Бар",
+            "Сміттєзвалище",
+            "Гараж"
         ]
     };
 

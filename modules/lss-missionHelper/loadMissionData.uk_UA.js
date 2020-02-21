@@ -6,21 +6,20 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "brannbiler",
-            platform: "høyderedskap",
-            heavyRescue: "redningsbiler",
-            air: "røykdykk",
-            bchief: "innsatsledere fra brann",
-            tanker: "tankbiler",
-            hazmat: "CBRN",
-            mcv: "utryckningsfordon",
-            police: "politibiler",
-            ambulance: "ambulanser",
-            arff: "brann- og redningstjeneste for fly",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
+            truck: "пожежні машини",
+            platform: "платформ",
+            heavyRescue: "важкі рятувальні машини",
+            boat: "Boat",
+            air: "респираторной",
+            bchief: "командира батальйону",
+            tanker: "автоцистерн",
+            hazmat: "знезараження",
+            police: "поліцейські машини",
+            arff: 'АПСР',
+            mcv: "мобильные командные пункты",
+            rth: "HEMS",
             policeHeli: "Police Helicopter",
+            ambulance: "скорые"
         };
 
         let credits;
@@ -45,45 +44,43 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Gjennomsnittlige kreditter/)) {
+            if (content.match(/Кредити/)) {
                 credits = number;
-            } else if (content.match(/Nødvendige|Krav på|Min./)) {
+            } else if (content.match(/Необхідні|Вимоги/)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Sted/)) {
+            } else if (content.match(/Місце/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Nødvendige|Nødvendig/)) {
+            if (content.match(/Необхідні/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Sannsynlighet/)) {
+            } else if (content.match(/Вірогідність/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Maks pasienter/)) {
+            if (content.match(/Макс\. Пацієнти/)) {
                 patientsMax = number;
-            } else if (content.match(/Minste antall pasienter/)) {
+            } else if (content.match(/Мінімальна кількість пацієнтів/)) {
                 patientsMin = number;
-            } else if (content.match(/transporteres/)) {
+            } else if (content.match(/перевезенні/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Sykehusavdeling/)) {
+            } else if (content.match(/Спеціалізації пацієнта/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maks antall innsatte/)) {
+            } else if (content.match(/Мінімальна кількість в'язнів/)) {
                 prisonersMax = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/helikopter/)) {
-                rth = number;
-            } else if (content.match(/Utvidbare oppdrag/)) {
+            } else if (content.match(/розширення/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -183,7 +180,7 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "nb_NO"
+            lang: "uk_UA"
         })
             .done(response => {
                 if (response.startsWith('Error')) {
@@ -201,59 +198,59 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Park",
-                "Innsjø",
-                "Sykehus",
-                "Skog",
-                "Busstopp",
-                "Trikkestopp",
-                "Togstasjon \\(regional\\)",
-                "Togstasjon \\(regional og langdistanse\\)",
-                "Godsstasjon",
-                "Matvarebutikk \\(liten\\)",
-                "Matvarebutikk \\(stor\\)",
-                "Bensinstasjon",
-                "Skole",
-                "Museum",
-                "Kjøpesenter",
-                "Bilverksted",
-                "Motorveiavkjøring",
-                "Julemarked",
-                "Lagerbygning",
-                "Nattklubb",
-                "Stadion",
-                "Gård",
-                "Kontorbygning",
-                "Basseng",
-                "Järnvägsövergång",
-                "Teater",
-                "Tivoli",
-                "Elv",
-                "Liten flyplass \\(flystripe\\)",
-                "Stor flyplass \\(flystripe\\)",
-                "Flyplassterminal",
-                "Bank",
-                "Varehus",
-                "Bro",
-                "Gatekjøkken",
-                "Cargohavn",
-                "Gjenvinningssenter",
-                "Skyskraper",
-                "Cruisehavn",
-                "Marina",
-                "Planovergang",
-                "Tunnel",
-                "Kaldt varehus",
-                "Kraftverk",
-                "Fabrikk",
-                "Skrotplass",
-                "Metrostasjon",
-                "Liten kjemisk lagringstank",
-                "Stor kjemisk lagringstank",
-                "Hotell",
-                "Bar",
-                "Avfallsdeponi",
-                "Parkeringshus"
+                "Парк",
+                "Озеро",
+                "Лікарня",
+                "Ліс",
+                "Автобусна зупинка",
+                "Трамвайна зупинка",
+                "Залізнична станція",
+                "Залізничний вокзал",
+                "Товарна станція",
+                "Супермаркет \\(малий\\)",
+                "Супермаркет \\(великий\\)",
+                "Заправна станція",
+                "Школа",
+                "Музей",
+                "Торгівельний центр",
+                "Автомайстерня",
+                "З'їзд із траси",
+                "Різдвяний ринок",
+                "Storehouse",
+                "Дискотека",
+                "Стадіон",
+                "Ферма",
+                "Офісна будівля",
+                "Басейн",
+                "Railroad Crossing",
+                "Театр",
+                "Ярмарок",
+                "Річка",
+                "Малий аеропорт \\(ЗПС\\)",
+                "Великий аеропорт \\(ЗПС\\)",
+                "Термінал аеропорту",
+                "Банк",
+                "Склад",
+                "Міст",
+                "Ресторан швидкого харчування",
+                "Вантажний порт",
+                "Центр переробки відходів",
+                "Висотка",
+                "Причал круїзних лайнерів",
+                "Гавань",
+                "Залізничний переїзд",
+                "Тунель",
+                "Холодний склад",
+                "Електростанція",
+                "Фабрика",
+                "Утилізаційний склад",
+                "Станція метро",
+                "Мале сховище хімікатів",
+                "Велике сховище хімікатів",
+                "Готель",
+                "Бар",
+                "Сміттєзвалище",
+                "Гараж"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -264,10 +261,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "brannstasjoner",
-                2: "ambulansestasjoner",
-                6: "politistasjoner",
-                13: "Police Helicopter"
+                0: "пожежні станції",
+                2: "рятувальні станції",
+                6: "поліцейські відділки"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

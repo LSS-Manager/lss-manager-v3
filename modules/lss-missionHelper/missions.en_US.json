@@ -5784,5 +5784,24 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "General Internal"
+    },
+    "351": {
+        "name": "Injured person on high voltage mast",
+        "stations": {
+            "0": 4,
+            "3": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "General Surgeon"
+        }
     }
 }

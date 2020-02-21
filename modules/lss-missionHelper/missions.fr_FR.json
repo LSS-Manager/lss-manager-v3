@@ -1538,5 +1538,23 @@
         "onlyRd": true,
         "transport": 90,
         "specialisation": "Interne g\u00e9n\u00e9ral"
+    },
+    "114": {
+        "name": "Feu de caf\u00e9t\u00e9ria",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 12
     }
 }

@@ -274,6 +274,28 @@
     }
   }
 
+  I18n.translations.uk_UA.lssm['n-alarm'] = {
+    not_support: "Цей браузер не підтримує HTML5-сповіщення",
+    inithead: "Ініціалізація",
+    chat_message: "Повідомлення чату від ",
+    blend: "Сховати після:",
+    seconds: "секунд",
+    settings: {
+      title: "Повідомлення-Повідомлення",
+      chat_title: "Повідомлення чату",
+      chat_text: "Отримуйте повідомлення в чаті як сповіщення.",
+      s5_title: "Запит на транспорт",
+      save: "Зберегти",
+      close: "Закрити",
+      s5_text: "Отримайте запити на транспорт як повідомлення",
+      status_title: "Статус",
+      status_text: "Отримати всі повідомлення про стан як сповіщення.",
+      chatp_title: "Отримуйте повідомлення в чаті як спливаюче повідомлення",
+      chatp_text: "Отримайте всі повідомлення в чаті як спливаюче повідомлення праворуч"
+    }
+  }
+
+
   I18n.translations.nl_NL.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",
