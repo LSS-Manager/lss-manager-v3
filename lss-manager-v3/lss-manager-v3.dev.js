@@ -89,7 +89,7 @@ I18n.locales.uk_UA = ['uk_UA', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.tr_TR = ['tr_TR', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.es_MX = ['es_MX', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de']
+I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de'];
 // en, en_GB and en_AU are essentially the same.
 I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de'];
 I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de'];
