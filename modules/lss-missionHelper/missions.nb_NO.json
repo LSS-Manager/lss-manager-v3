@@ -1284,5 +1284,25 @@
             "specialisation": "Generell medisin"
         },
         "poi": 12
+    },
+    "94": {
+        "name": "Klatreulykke",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Generell medisin"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

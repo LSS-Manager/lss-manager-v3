@@ -501,6 +501,19 @@
             }
         ]
     };
+    I18n.translations.ja_JP.lssm.heatmap = {
+        active: 'アクティブ',
+        vehicleType: 'グループ',
+        radius: '半径',
+        intensity: '強度',
+        close: '閉じる',
+        vehicleGroups: [
+            {
+                name: '独自の組み合わせ',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

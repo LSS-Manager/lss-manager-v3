@@ -43,6 +43,9 @@
     I18n.translations.pt_PT.lssm.missionOut = {
         title: 'Ocultar / Mostrar missão'
     };
+    I18n.translations.ja_JP.lssm.missionOut = {
+        title: 'ミッションの非表示/表示'
+    };
     I18n.translations.nl_NL.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };

@@ -1449,5 +1449,26 @@
             "specialisation": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "poi": 12
+    },
+    "107": {
+        "name": "\u0417\u0430\u0441\u0442\u0440\u044f\u0432\u0448\u0438\u0439 \u0430\u043b\u044c\u043f\u0438\u043d\u0438\u0441\u0442",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

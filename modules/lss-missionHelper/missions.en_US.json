@@ -5803,5 +5803,29 @@
             "transport": 60,
             "specialisation": "General Surgeon"
         }
+    },
+    "352": {
+        "name": "Large Ferry Fire",
+        "stations": {
+            "0": 13,
+            "3": 8,
+            "11": 1
+        },
+        "vehicles": {
+            "truck": 7,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 2,
+            "air": 1,
+            "mcv": 1,
+            "largeFireboat": 2
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 12,
+            "min": 5,
+            "transport": 40,
+            "specialisation": "General Surgeon"
+        }
     }
 }

@@ -183,6 +183,19 @@
             cells: 'Hide full cells'
         }
     };
+    I18n.translations.ja_JP.lssm.destfilter = {
+        title: '宛先フィルター',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: '病院全体を隠す',
+            department: '必要な部門のない病院を隠す',
+            distance: 'x kmの距離を超える目的地を非表示（0が無効化）',
+            tax: 'TAXがx％を超える仕向地を非表示にする',
+            cells: 'セル全体を非表示'
+        }
+    };
     I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

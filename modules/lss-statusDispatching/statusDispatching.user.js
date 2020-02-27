@@ -184,6 +184,19 @@
         fms5H1: 'перевезення'
     };
 
+    I18n.translations.ja_JP.lssm.statusDispatching = {
+        name: '強化されたトランスポート要求',
+        fms: 'リクエストされた輸送',
+        nextVehicle: '輸送リクエストがある次の車両に移動する',
+        backToAlarm: 'ミッションに戻る',
+        settingsTitle: '強化されたトランスポート要求-設定',
+        settingsAttr: 'ミッションマスクの[トランスポート要求 ]ボタンをクリックします',
+        settingsAttrDesc: 'このオプションを有効にすると、ミッションマスクの[トランスポート要求]ボタンが自動的にクリックされます。 この方法では、ミッションの詳細を表示する前に、すべてのトランスポートリクエストを処理する必要があります。 このオプションを有効にすると、トランスポートリクエストの処理が高速になります。<br>'
+            + 'このオプションを無効にすると、トランスポートリクエストを処理する前にミッションの詳細を確認できます。 「輸送リクエストで次の車両に移動」および「ミッションに戻る」ボタンはこの設定の影響を受けず、常に自動的にクリックされます。',
+        close: '閉じる',
+        fms5H1: '輸送する'
+    };
+
     I18n.translations.nl_NL.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

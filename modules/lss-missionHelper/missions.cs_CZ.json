@@ -1205,5 +1205,26 @@
             "specialisation": "V\u0161eobecn\u00fd internista"
         },
         "poi": 12
+    },
+    "88": {
+        "name": "Zaseknut\u00fd horolezec",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

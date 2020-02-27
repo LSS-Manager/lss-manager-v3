@@ -71,6 +71,12 @@
         noVGE: "Не збережена місія Альянсу!",
         VGEs: "LSAMs"
     };
+    I18n.translations.ja_JP['lssm']['saveVGE'] = {
+        save: "セーブ",
+        del: "削除する",
+        noVGE: "保存された同盟ミッションはありません！",
+        VGEs: "LSAMs"
+    };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
     	del: "Verwijderen",

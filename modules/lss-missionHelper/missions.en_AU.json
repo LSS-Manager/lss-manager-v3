@@ -1694,5 +1694,26 @@
             "specialisation": "General Internal"
         },
         "poi": 12
+    },
+    "123": {
+        "name": "Stuck Climber",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "General Internal"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

@@ -226,6 +226,22 @@
         }
     };
 
+    I18n.translations.ja_JP.lssm.centermap = {
+        center: "センター",
+        settings: {
+            title: "センターマップ",
+            choose: "選んでください",
+            option1: "デフォルト",
+            option1desc: "デフォルトのズームレベルとコントロールセンターの中心 ",
+            option2: "動的",
+            alliance: "同盟を考慮する",
+            option2desc: "すべてのミッションとステーションが見えるセンターマップ。",
+            option3: "カスタム",
+            option3desc: "カスタムの位置とズームレベルを設定します。",
+            set: "現在の位置を保存"
+        }
+    };
+
     I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {

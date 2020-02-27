@@ -1642,5 +1642,26 @@
             "specialisation": "Medicina interna general"
         },
         "poi": 12
+    },
+    "121": {
+        "name": "Escalador atascador",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Medicina interna general"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

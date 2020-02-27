@@ -1096,5 +1096,26 @@
             "specialisation": "Genel Dahiliye"
         },
         "poi": 12
+    },
+    "80": {
+        "name": "S\u0131k\u0131\u015fm\u0131\u015f da\u011fc\u0131",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Genel Dahiliye"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

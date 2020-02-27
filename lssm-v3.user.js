@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 Autoupdater
-// @version      3.3.4.3
+// @version      3.3.4.4
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
 // @homepage     https://lss-manager.de
@@ -42,6 +42,8 @@
 // @include      *://www.centro-de-mando.mx/*
 // @include      *://dyspetcher101-game.com/*
 // @include      *://www.dyspetcher101-game.com/*
+// @include      *://missionchief-japan.com/*
+// @include      *://www.missionchief-japan.com/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start

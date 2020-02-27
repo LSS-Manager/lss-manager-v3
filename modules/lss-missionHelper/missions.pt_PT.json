@@ -1074,5 +1074,26 @@
             "specialisation": "Cl\u00ednica m\u00e9dica"
         },
         "poi": 12
+    },
+    "79": {
+        "name": "Preso a fazer escalada",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Cl\u00ednica m\u00e9dica"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }
