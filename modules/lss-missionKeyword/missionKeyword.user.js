@@ -902,7 +902,8 @@
         348: 'Cooking fire',
         349: 'Propane depot explosion',
         350: 'Choking',
-        351: 'Injured person on high voltage mast'
+        351: 'Injured person on high voltage mast',
+        352: 'Large Ferry Fire'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1063,7 +1064,8 @@
         139: 'Fire in silo',
         140: 'Domestic Violence',
         141: 'Choking',
-        142: 'Barn fire'
+        142: 'Barn fire',
+        143: 'Stuck Climber'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1204,7 +1206,8 @@
         119: 'Freight Train Derailment',
         120: 'Armed robbery',
         121: 'Choking',
-        122: 'Cafeteria fire'
+        122: 'Cafeteria fire',
+        123: 'Stuck Climber'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1343,7 +1346,8 @@
         117: 'Robo a mano armada',
         118: 'Fuego en la cocina',
         119: 'Asfixia',
-        120: 'Fuego en la cafetería'
+        120: 'Fuego en la cafetería',
+        121: 'Escalador atascador'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1481,7 +1485,8 @@
         116: 'Vuelco de vehículo a motor',
         117: 'Robo a mano armada',
         118: 'Fuego en la cocina',
-        119: 'Fuego en la cafetería'
+        119: 'Fuego en la cafetería',
+        120: 'Escalador atascado'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1578,7 +1583,8 @@
         75: 'Acidente envolvendo várias viaturas',
         76: 'Acidente de mota',
         77: 'Asfixia',
-        78: 'Incêndio no refeitório'
+        78: 'Incêndio no refeitório',
+        79: 'Preso a fazer escalada'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1674,7 +1680,8 @@
         74: 'Grande incêndio',
         75: 'Acidente de mota',
         76: 'Asfixia',
-        77: 'Incêndio no refeitório'
+        77: 'Incêndio no refeitório',
+        78: 'Preso a fazer escalada'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1810,7 +1817,8 @@
         114: 'Amputationsskada',
         115: 'Brand i byggnad - ladugård',
         116: 'Ryggsmärtor',
-        117: 'Brand i byggnad - skola'
+        117: 'Brand i byggnad - skola',
+        118: 'Person - svår belägenhet'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1922,7 +1930,8 @@
         90: 'Traumatisk Kropsdel Amputation',
         91: 'Stor Gård Brand',
         92: 'Rygsmerter',
-        93: 'Cafeterie Brand'
+        93: 'Cafeterie Brand',
+        94: 'Klatrer sidder fast'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2028,7 +2037,8 @@
         84: 'Bolest zad',
         85: 'Dopravní nehoda motocyklu',
         86: 'Dušení',
-        87: 'Požár jídelny'
+        87: 'Požár jídelny',
+        88: 'Zaseknutý horolezec'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2126,7 +2136,8 @@
         76: 'Silahlı soygun',
         77: 'Motosiklet Kazası',
         78: 'Boğucu',
-        79: 'Kafeterya Yangını'
+        79: 'Kafeterya Yangını',
+        80: 'Sıkışmış dağcı'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2238,7 +2249,8 @@
         90: 'Amputasjon',
         91: 'Gårdsbrann (stor)',
         92: 'Ryggsmerter',
-        93: 'Brann i kafeteria'
+        93: 'Brann i kafeteria',
+        94: 'Klatreulykke'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2387,7 +2399,9 @@
         127: 'Wypadek Na Przejeździe Kolejowym',
         128: 'Pożar w stołówce',
         129: 'Wypadek rowerzysty na trasie rowerowej',
-        130: 'Zatrzymanie akcji serca'
+        130: 'Zatrzymanie akcji serca',
+        131: 'Unieruchomiony Wspinacz',
+        132: 'Pochylone drzewo na budynek mieszkalny'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2529,7 +2543,9 @@
         120: 'Soffocamento',
         121: 'Scoppio bombola del gas',
         122: 'Incendio mensa scolastica',
-        123: 'Incendio stadio'
+        123: 'Incendio stadio',
+        124: 'Scalatore in difficoltà',
+        125: 'Ostacolo in corsia'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2662,7 +2678,8 @@
         111: 'Découverte de NAC',
         112: 'AVP impliquant une moto',
         113: 'Étouffement',
-        114: 'Feu de cafétéria'
+        114: 'Feu de cafétéria',
+        115: 'Escaladeur coincé'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2787,7 +2804,8 @@
         103: 'Вооруженное ограбление',
         104: 'Отравление газом',
         105: 'Задыхаясь',
-        106: 'Пожар в кафетерии'
+        106: 'Пожар в кафетерии',
+        107: 'Застрявший альпинист'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -2881,7 +2899,106 @@
         72: 'Катастрофа легкомоторного літака',
         73: 'Серйозна ДТП за участю автобуса',
         74: 'Велике займання',
-        75: 'Кав\'ярня у вогні'
+        75: 'Кав\'ярня у вогні',
+        76: 'Застряглий альпініст'
+      }
+    };
+    I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
+      name: 'ミッションキーワード',
+      settingsName: 'ミッションキーワード-設定',
+      domain: 'missionchief-japan.com',
+      fw: 'FIRE',
+      thl: 'TECH',
+      abc: 'CBRN',
+      rd: 'MED',
+      ktp: 'MEDT',
+      pol: 'POL',
+      thw: 'TECH',
+      bp: 'POL',
+      bma: 'FAS',
+      bmaLong: 'Fire Alarm System',
+      show: '表示/非表示',
+      keywords: {
+        0: 'ゴミ箱から出火',
+        1: 'コンテナから出火',
+        2: '車両火災',
+        3: 'モーターバイク火災',
+        4: '草むらから出火',
+        5: '部屋火事',
+        6: '庭の小屋から出火',
+        7: '枯れ葉から不審火',
+        8: '大型ごみから出火',
+        9: 'ストローベイルから出火',
+        10: 'トラクター火災',
+        11: '電話ボックスから出火',
+        12: '路上に倒木',
+        13: 'トラック火災',
+        14: '小さい野原で火災',
+        15: '小規模の山火事',
+        16: 'キャラバン火災',
+        17: '郵便受けから出火',
+        18: '薪木の山',
+        19: 'トレイラーから出火',
+        20: '地下の火事',
+        21: '煙突から出火',
+        22: '屋根から出火',
+        23: '油から出火',
+        24: 'バスシェルターから出火',
+        25: '路面事故',
+        26: '小型スーパーの火災',
+        27: 'ガレージから出火',
+        28: '機械から出火',
+        29: 'タンカー流出',
+        30: 'ガス漏れ',
+        31: '暖炉から出火',
+        32: '刈り取り機から出火',
+        33: '小型スーパーの火災',
+        34: '病院火災',
+        35: 'アルコール中毒者の酩酊',
+        36: '胸部の痛み',
+        37: '急性喘息',
+        38: '発作',
+        39: '熱',
+        40: '人身落下',
+        41: '車整備店にて火災',
+        42: '人身落下',
+        43: '人身落下',
+        44: '万引き',
+        45: '万引き',
+        46: '車上荒らし',
+        47: '車上荒らし',
+        48: '金属強盗',
+        49: 'スリ',
+        50: '不正乗車',
+        51: '不正乗車',
+        52: '不正乗車',
+        53: '不正乗車',
+        54: '車上荒らし',
+        55: '暴力事件',
+        56: '暴徒',
+        57: '未許可のデモ',
+        58: '台所火災',
+        59: '動物救助',
+        60: 'スポーツホールにて火災',
+        61: '軽航空機の衝突（飛行場）',
+        62: '騒音の苦情',
+        63: '一過性脳虚血発作',
+        64: 'バスを巻き込む事故',
+        65: '台所火災',
+        66: '部屋火事',
+        67: '暴力事件',
+        68: '大型スーパーの火災',
+        69: 'タンカー流出',
+        70: '大型スーパーの火災',
+        71: '鼻血',
+        72: '軽航空機の衝突',
+        73: 'バスを巻き込む大事故',
+        74: '大火事',
+        75: '建物崩壊',
+        76: '産業火災',
+        77: '患者の輸送',
+        78: '放火魔の逮捕',
+        79: '呼吸停止'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -3465,7 +3582,8 @@
         562: 'Hart gestolen',
         563: 'Hart gebroken',
         564: 'Voetganger onder tram',
-        565: 'Fietser onder tram'
+        565: 'Fietser onder tram',
+        566: 'Auto tegen woonhuis'
       }
     };
 
@@ -4111,7 +4229,7 @@
       106: 'POL 1',
       107: 'POL 1',
       108: 'MED 1',
-      109: 'MED 1',
+      109: 'POL 1',
       110: 'FIRE 3',
       111: 'POL 5',
       112: 'FIRE 4',
@@ -4353,7 +4471,8 @@
       348: 'FIRE 1',
       349: 'FIRE 6',
       350: 'MED 1',
-      351: 'TECH 1'
+      351: 'TECH 1',
+      352: 'FIRE 5 SHIP'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -4499,7 +4618,8 @@
       139: 'FIRE 6',
       140: 'POL 2',
       141: 'MED 1',
-      142: 'FIRE 3'
+      142: 'FIRE 3',
+      143: 'TECH 1'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4624,7 +4744,8 @@
       119: 'TECH 5',
       120: 'POL 4',
       121: 'MED 1',
-      122: 'FIRE 2'
+      122: 'FIRE 2',
+      123: 'TECH 1'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -4747,7 +4868,8 @@
       117: 'POL 3',
       118: 'FIRE 1',
       119: 'MED 1',
-      120: 'FIRE 2'
+      120: 'FIRE 2',
+      121: 'TECH 1'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -4869,7 +4991,8 @@
       116: 'TECH 2',
       117: 'POL 3',
       118: 'FIRE 1',
-      119: 'FIRE 2'
+      119: 'FIRE 2',
+      120: 'TECH 1'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -4950,7 +5073,8 @@
       75: 'TECH 3',
       76: 'TECH 2',
       77: 'MED 1',
-      78: 'FIRE 2'
+      78: 'FIRE 2',
+      79: 'TECH 1'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -5030,7 +5154,8 @@
       74: 'FIRE 7',
       75: 'TECH 2',
       76: 'MED 1',
-      77: 'FIRE 2'
+      77: 'FIRE 2',
+      78: 'TECH 1'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -5150,7 +5275,8 @@
       114: 'MED 1',
       115: 'FIRE 6',
       116: 'MED 1',
-      117: 'FIRE 2'
+      117: 'FIRE 2',
+      118: 'TECH 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -5246,7 +5372,8 @@
       90: 'MED 1',
       91: 'FIRE 5',
       92: 'MED 1',
-      93: 'FIRE 2'
+      93: 'FIRE 2',
+      94: 'TECH 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -5336,7 +5463,8 @@
       84: 'MED 1',
       85: 'TECH 2',
       86: 'MED 1',
-      87: 'FIRE 2'
+      87: 'FIRE 2',
+      88: 'TECH 1'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -5418,7 +5546,8 @@
       76: 'POL 3',
       77: 'TECH 2',
       78: 'MED 1',
-      79: 'FIRE 2'
+      79: 'FIRE 2',
+      80: 'TECH 1'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -5514,7 +5643,8 @@
       90: 'MED 1',
       91: 'FIRE 5',
       92: 'MED 1',
-      93: 'FIRE 2'
+      93: 'FIRE 2',
+      94: 'TECH 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -5647,7 +5777,9 @@
       127: 'TECH 1',
       128: 'FIRE 2',
       129: 'MED 1',
-      130: 'MED 1'
+      130: 'MED 1',
+      131: 'TECH 1',
+      132: 'TECH 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -5773,7 +5905,9 @@
       120: 'MED 1',
       121: 'FIRE 3',
       122: 'FIRE 2',
-      123: 'FIRE 5'
+      123: 'FIRE 5',
+      124: 'TECH 1',
+      125: 'POL 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -5890,7 +6024,8 @@
       111: 'TECH 1',
       112: 'TECH 1',
       113: 'MED 1',
-      114: 'FIRE 2'
+      114: 'FIRE 2',
+      115: 'TECH 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -5999,7 +6134,8 @@
       103: 'POL 3',
       104: 'TECH 2',
       105: 'MED 1',
-      106: 'FIRE 2'
+      106: 'FIRE 2',
+      107: 'TECH 1'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -6077,7 +6213,90 @@
       72: 'FIRE 3',
       73: 'TECH 3',
       74: 'FIRE 7',
-      75: 'FIRE 2'
+      75: 'FIRE 2',
+      76: 'TECH 1'
+    };
+    let DEFAULT_AAO_JAJP = {
+      0: 'FIRE 1',
+      1: 'FIRE 1',
+      2: 'FIRE 1',
+      3: 'FIRE 1',
+      4: 'FIRE 1',
+      5: 'FIRE 2',
+      6: 'FIRE 2',
+      7: 'FIRE 1',
+      8: 'FIRE 1',
+      9: 'FIRE 1',
+      10: 'FIRE 1',
+      11: 'FIRE 1',
+      12: 'TECH 1',
+      13: 'FIRE 2',
+      14: 'FIRE 2',
+      15: 'FIRE 1',
+      16: 'FIRE 2',
+      17: 'FIRE 1',
+      18: 'FIRE 1',
+      19: 'FIRE 1',
+      20: 'FIRE 3',
+      21: 'FIRE 3',
+      22: 'FIRE 3',
+      23: 'FIRE 1',
+      24: 'FIRE 1',
+      25: 'TECH 1',
+      26: 'FIRE 4',
+      27: 'FIRE 2',
+      28: 'FIRE 3',
+      29: 'CBRN 2',
+      30: 'CBRN 1',
+      31: 'FIRE 1',
+      32: 'FIRE 2',
+      33: 'FIRE 3',
+      34: 'FIRE 6',
+      35: 'MED 1',
+      36: 'MED 1',
+      37: 'MED 1',
+      38: 'MED 1',
+      39: 'MED 1',
+      40: 'MED 1',
+      41: 'FIRE 5',
+      42: 'MED 1',
+      43: 'MED 1',
+      44: 'POL 1',
+      45: 'POL 1',
+      46: 'POL 1',
+      47: 'POL 1',
+      48: 'POL 1',
+      49: 'POL 1',
+      50: 'POL 1',
+      51: 'POL 1',
+      52: 'POL 1',
+      53: 'POL 1',
+      54: 'POL 1',
+      55: 'POL 3',
+      56: 'POL 2',
+      57: 'POL 7',
+      58: 'FIRE 2',
+      59: 'TECH 1',
+      60: 'FIRE 5',
+      61: 'FIRE 1',
+      62: 'POL 1',
+      63: 'MED 1',
+      64: 'TECH 2',
+      65: 'FIRE 2',
+      66: 'FIRE 2',
+      67: 'POL 3',
+      68: 'FIRE 4',
+      69: 'CBRN 2',
+      70: 'FIRE 4',
+      71: 'MED 1',
+      72: 'FIRE 3',
+      73: 'TECH 3',
+      74: 'FIRE 7',
+      75: 'TECH 2',
+      76: 'FIRE 5',
+      77: 'MEDT',
+      78: 'MED 1',
+      79: 'MED 1'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -6645,7 +6864,8 @@
       562: 'P 1',
       563: 'A 1',
       564: 'HV 1',
-      565: 'HV 1' 
+      565: 'HV 1',
+      566: 'HV 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
@@ -6667,6 +6887,7 @@
     I18n.translations.uk_UA.lssm.missionKeyword = DEFAULT_AAO_UKUA;
     I18n.translations.cs_CZ.lssm.missionKeyword = DEFAULT_AAO_CSCZ;
     I18n.translations.tr_TR.lssm.missionKeyword = DEFAULT_AAO_TRTR;
+    I18n.translations.ja_JP.lssm.missionKeyword = DEFAULT_AAO_JAJP;
     I18n.translations.nl_NL.lssm.missionKeyword = DEFAULT_AAO_NLNL;
 
     let defaultAao;
@@ -6706,6 +6927,8 @@
       defaultAao = DEFAULT_AAO_RURU;
     else if (I18n.locale === 'uk_UA')
       defaultAao = DEFAULT_AAO_UKUA;
+    else if (I18n.locale === 'ja_JP')
+      defaultAao = DEFAULT_AAO_JAJP;
     else if (I18n.locale === 'nl_NL')
       defaultAao = DEFAULT_AAO_NLNL;
     else

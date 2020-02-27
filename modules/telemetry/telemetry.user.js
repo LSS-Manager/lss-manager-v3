@@ -69,6 +69,11 @@
             "Ці дані включають: ваш ідентифікатор, ім’я користувача, кількість охоронців, використовуваний браузер та активовані модулі.\r\n\r\n" +
             "Чи згодні ви з цим?"
     };
+    I18n.translations.ja_JP.lssm.telemetry = {
+        question: "LSSマネージャーは、非個人データを開発者に送信して、スクリプトを改善し、エラーを見つけます。\r\n" +
+            "これらのデータには、ID、ユーザー名、ガードの数、使用されているブラウザー、有効なモジュールが含まれます。\r\n\r\n" +
+            "これに同意しますか？"
+    };
 	I18n.translations.nl_NL.lssm.telemetry = {
 		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +

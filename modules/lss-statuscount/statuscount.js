@@ -339,6 +339,30 @@
             }
         }
     };
+    I18n.translations.ja_JP.lssm.statuscount = {
+        name: "ステータスカウント",
+        settings: {
+            show: "表示/非表示",
+            status: {
+                show: {
+                    label: "公演",
+                    description: "ステータスをまったく表示する必要がありますか？ 重要：この設定は他の設定よりも優先されます。つまり、この設定をオフにすると、ステータスは表示されません。"
+                },
+                hide: {
+                    label: "オンデマンドでのみ表示",
+                    description: "カウンターは、少なくとも1台の車両がこのステータスにある場合にのみ表示されます。 （注意：カウンターが完全に非表示の場合、この設定が有効になっていても表示されません！）"
+                },
+                percent: {
+                    label: "割合を表示",
+                    description: "このステータスの割合を表示する必要がありますか？"
+                }
+            },
+            round: {
+                label: "ラウンド率",
+                description: "パーセンテージ（表示されている場合）を丸める必要がある小数点以下の桁数は？"
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

@@ -9861,5 +9861,28 @@
             "specialisation": "Traumatologie"
         },
         "poi": 5
+    },
+    "566": {
+        "name": "Auto tegen woonhuis",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "hulpverlening": 1,
+            "bchief": 1,
+            "noodhulpeen": 1
+        },
+        "credits": 1540,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hulpverlening": 50
+        }
     }
 }

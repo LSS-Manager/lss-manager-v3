@@ -489,6 +489,31 @@ else if (I18n.locale == "uk_UA") {
         "9": ["Пошуково-рятувальний вертоліт", 2]
     };
 }
+else if (I18n.locale == "ja_JP") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "救急車の増設": 0,
+        "空港の増設": 1,
+        "水難救助隊の増設": 2,
+        // Pol-Erweiterungen (10-19)
+        "独房": 10,
+        "独房の追加": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["救助ハシゴ", 0],
+        "1": ["戦術対応車両（TRV）", 0],
+        "2": ["ターンテーブルはしご（TL）", 0],
+        "3": ["指令ユニット", 0],
+        "4": ["大型救助ユニット（MRU）", 0],
+        "5": ["救急車", 2],
+        "6": ["水槽車", 0],
+        "7": ["危険物取扱ユニット", 0],
+        "8": ["事故対応車両（IRV）", 6],
+        "9": ["SARヘリコプター", 2]
+    };
+}
 else if (I18n.locale == "nl_NL")
 {
 	lssm.extensions = {

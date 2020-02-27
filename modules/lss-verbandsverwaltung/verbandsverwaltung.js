@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -171,6 +171,18 @@
         updateMessage: 'Значення оновлюються автоматично<br>кожен ' + updateMin + ' хвилин.',
         chartErr: 'Не вдалося завантажити діаграму "{{chart}}"!<br>Ми вже знаємо, що це відбувається з деякими браузерами, але ще не чому. Будь ласка, <b> не \ t </b> повідомте про цю помилку, оскільки ми вже вирішуємо цю проблему!',
         hoverTip: 'Порада: Наведіть курсор на елемент, щоб відобразити історію значень.'
+    };
+    I18n.translations.ja_JP.lssm.verbandsverwaltung = {
+        name: '運営管理',
+        allianceFunds: 'アライアンス基金',
+        allianceCredits: '獲得したクレジット',
+        users: '会員',
+        onlineUsers: 'オンライン会員',
+        allianceRank: 'アライアンス・リストのランク',
+        page: 'ページ',
+        updateMessage: '値は自動的に<br>更新されます ' + updateMin + ' 分。',
+        chartErr: 'グラフを読み込めませんでした "{{chart}}"!<br>一部のブラウザでこれが発生することはすでにわかっていますが、まだ理由はわかりません。<br> この問題は既に報告されているため、このエラーを報告しないでください。',
+        hoverTip: 'ヒント：要素にカーソルを合わせると、値の履歴が表示されます.'
     };
     I18n.translations.nl_NL.lssm.verbandsverwaltung = {
         name: 'Administratie',

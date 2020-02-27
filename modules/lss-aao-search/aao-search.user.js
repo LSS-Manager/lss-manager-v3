@@ -83,6 +83,12 @@
         reset: "Redefinir",
         select: "Por favor, selecione..."
     };
+    I18n.translations.ja_JP['lssm']['aaosearch'] = {
+        search_aao: "AAOを検索",
+        use_dd: "ドロップダウンを使用： ",
+        reset: "リセットする",
+        select: "選んでください..."
+    };
 	I18n.translations.nl_NL['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
         use_dd: "Gebruik dropdown-menu: ",

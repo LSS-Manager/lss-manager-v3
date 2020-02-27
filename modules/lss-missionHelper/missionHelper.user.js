@@ -2570,6 +2570,148 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.ja_JP.lssm.missionhelper = {
+        diy_mission: 'このミッションは大規模な同盟ミッションのようです。',
+        siwa: '計画ミッション',
+        vge: '大規模同盟ミッション',
+        patients: '患者さん',
+        prisoners: '囚人',
+        to: 'まで',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'このミッションは救急車のみです！',
+        title: 'ミッションヘルパー',
+        transport: '輸送',
+        settings: {
+            name: {
+                label: '名前',
+                description: 'ヘルパーのミッションの名前を表示します。'
+            },
+            id: {
+                label: 'Id',
+                description: 'ヘルパー内のミッションの ID を表示します。'
+            },
+            type: {
+                label: 'タイプ ID',
+                description: 'ヘルパーのミッションタイプの ID を表示します。'
+            },
+            poi: {
+                label: 'ポイ',
+                description: '操作がどの POI にあるかをヘルパーで示します。'
+            },
+            live_patients: {
+                label: '患者数',
+                description: '現在使用中の患者数をライブで表示します。'
+            },
+            vehicles: {
+                label: '乗り物',
+                description: '必要な車両を表示します。'
+            },
+            patients: {
+                label: '患者情報',
+                description: '（潜在的な）患者に関する情報を表示します。'
+            },
+            prisoners: {
+                label: '囚人情報',
+                description: '（潜在的な）囚人に関する情報を表示します。'
+            },
+            special: {
+                label: 'その他の情報',
+                description: '必要な要員の平均最小人数などの特別な情報を表示します。'
+            },
+            expansions: {
+                label: '分布',
+                description: 'ベットが何に広がるかを示します。 （単純なスプレッドのみを表示）'
+            },
+            show_100: {
+                label: '100％の確率を表示',
+                description: '車両が100％であっても、車両の確率を示します。'
+            },
+            credits: {
+                label: '平均収益',
+                description: 'この割り当てで得られる平均収益を表示します。'
+            },
+            show_siwa: {
+                label: '警備員の要件',
+                description: 'ヘルパーのセキュリティガードの要件も示します。'
+            },
+            mission_time: {
+                label: '作成時間',
+                description: 'ミッションが作成された日時を表示します。'
+            }
+        },
+        vehicles: {
+            truck: "消防車が    ",
+            platform: "プラットフォームトラック",
+            heavyRescue: "大型救助車",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "消防隊",
+            tanker: "ウォータータンカー",
+            hazmat: "危険物取扱車両が",
+            mcv: "Incident Command and Control Unit",
+            police: "警察車両が",
+            arff: "空港用消防車",
+            k9: "Dog Support Unit",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            rth: "HEMS",
+            policeHeli: "Police helicopter",
+        },
+        pois: [
+            "公園",
+            "湖",
+            "病院",
+            "森",
+            "バス停",
+            "電車停留所",
+            "駅（普通車両）",
+            "駅（普通車両と長距離路線）",
+            "雑貨屋",
+            "スーパーマーケット（小型）",
+            "スーパーマーケット（大型）",
+            "ガソリンスタンド",
+            "学校",
+            "博物館",
+            "ショッピングモール",
+            "車整備店",
+            "高速インター",
+            "高速道路出口",
+            "Storehouse",
+            "ディスコ",
+            "スタジアム",
+            "牧場",
+            "オフィスビル",
+            "プール",
+            "Railroad Crossing",
+            "映画館",
+            "イベント会場",
+            "河川",
+            "小型空港（滑走路）",
+            "大型空港（滑走路）",
+            "空港ターミナル",
+            "銀行",
+            "倉庫",
+            "橋",
+            "ファストフードレストラン",
+            "貨物港",
+            "リサイクルセンター",
+            "高層ビル",
+            "クルーズ船ドック",
+            "マリーナ",
+            "踏切",
+            "トンネル",
+            "低温倉庫",
+            "発電所",
+            "工場",
+            "ゴミ処分場",
+            "地下鉄駅",
+            "化学薬品タンク（小型）",
+            "化学薬品タンク（大型）",
+            "ホテル",
+            "バー",
+            "埋立地",
+            "駐車ガレージ"
+        ]
+    };
+
     I18n.translations.nl_NL.lssm.missionhelper = {
         diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',

@@ -271,6 +271,25 @@
         import_fail: "Помилка. Під час імпорту файлу сталася помилка: <strong> {0} </strong>. Повідомте про це розробника."
     };
 
+    I18n.translations.ja_JP.lssm.managedsettings = {
+        title: "LSSM設定",
+        text1: "ここで、アクティブ化されたプラグインの設定を変更できます。",
+        text2: "",
+        save: "保存して閉じる",
+        settings_tab: "設定",
+        addField_btn: "追加",
+        export_btn: "エクスポート設定",
+        import_btn: "インポート設定",
+        reset_btn: "設定をリセット",
+        reset_hint: "このモジュールの設定をデフォルト値にリセットしてもよろしいですか？",
+        reset_success: "設定を正常にリセットしました。 それらを機能させるには、ページをリロードする必要があります。",
+        export_success: "正常にエクスポートされた設定",
+        export_hint: "現在アクティブ化されているモジュールの以前に保存された設定のみをエクスポートできることに注意してください。",
+        import_success: "設定は正常にインポートされました。 それらを機能させるには、ページをリロードする必要があります。",
+        import_missmatch: "残念ながら、読み込みファイルは現在のバージョンのLSSMと互換性がありません。",
+        import_fail: "エラー：ファイルのインポート中にエラーが発生しました： <strong> {0} </strong>. 開発者に連絡してください。"
+    };
+
     I18n.translations.nl_NL.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",

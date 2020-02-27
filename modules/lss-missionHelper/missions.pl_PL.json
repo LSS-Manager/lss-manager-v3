@@ -1872,5 +1872,36 @@
         "transport": 100,
         "rth": 100,
         "specialisation": "Kardiologia"
+    },
+    "131": {
+        "name": "Unieruchomiony Wspinacz",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Interna"
+        },
+        "percentages": {
+            "platform": 50
+        }
+    },
+    "132": {
+        "name": "Pochylone drzewo na budynek mieszkalny",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
     }
 }

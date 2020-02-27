@@ -1628,5 +1628,26 @@
             "specialisation": "Inv\u00e4rtesmedicinare"
         },
         "poi": 12
+    },
+    "118": {
+        "name": "Person - sv\u00e5r bel\u00e4genhet",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "platform": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Inv\u00e4rtesmedicinare"
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }

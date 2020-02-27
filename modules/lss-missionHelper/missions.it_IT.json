@@ -1818,5 +1818,40 @@
         "percentages": {
             "tanker": 10
         }
+    },
+    "124": {
+        "name": "Scalatore in difficolt\u00e0",
+        "stations": {
+            "0": 2,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 2,
+            "platform": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 85,
+            "rth": 10,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 3,
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "125": {
+        "name": "Ostacolo in corsia",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 500,
+        "poi": 16
     }
 }

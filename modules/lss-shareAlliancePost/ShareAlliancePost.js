@@ -271,6 +271,24 @@
         }
     };
 
+    I18n.translations.ja_JP.lssm.sharealliancepost = {
+        share: '共有...',
+        chat: 'チャット...',
+        alert: 'アラート...',
+        chatm: 'チームチャットへ',
+        reqVehIdent: '必要な車両：',
+        reqVeh: '他の車両は必要ありません。',
+        settings: {
+            title: 'アラート、共有、投稿',
+            jumpNext: '警告後に次のミッションにジャンプ',
+            enableKeyboard: 'キーボードショートカットを有効にする',
+            defaultPostToChat: 'チャットへの投稿がデフォルトです',
+            shortcutKeys: 'アラート用のキーのカンマ区切りリスト。 [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'アラート用のキーのカンマ区切りリスト。 <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: 'のオフセット %TIME_OFFSET% -フォーマッター数時間'
+        }
+    };
+
     
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,

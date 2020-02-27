@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -488,6 +488,33 @@
             updateMessage: 'Значення автоматично оновлюються через кожні 5 хвилин. <br> Кредити та монети <br>постійно оновлюються.',
             allianceFunds: 'Фонди Альянсу',
             noFurtherRank: 'Подальших рангів немає'
+        }
+    };
+    I18n.translations.ja_JP.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? 稼いだ クレジット.*/i,
+        ranks: {
+            0: 'プロフィール',
+            200: '消防士',
+            10000: '上級消防士',
+            100000: '消防車オペレーター',
+            1000000: '消防司令補',
+            5000000: '消防指令',
+            20000000: '消防指令副長',
+            50000000: '消防指令長',
+            1000000000: '消防正監',
+            2000000000: '消防司監',
+            5000000000: '消防総監'
+        },
+        texts: {
+            reloadMessage: 'プロフィールを開いて<br>ウェブサイトをリロードしてください！',
+            dropdownName: 'クレジット拡張',
+            creditsOverview: '概要',
+            coinsProtokoll: 'コインリスト',
+            earnedCredits: '完全に獲得したクレジット',
+            creditsToNextRank: '次のランクへのクレジット',
+            updateMessage: '値は5分ごとに自動的に更新されます。<br>クレジットとコインは<br>常に最新です。',
+            allianceFunds: 'アライアンス基金',
+            noFurtherRank: 'これ以上のランクはありません'
         }
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {

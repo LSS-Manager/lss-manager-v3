@@ -41,6 +41,9 @@
     I18n.translations.uk_UA['lssm']['allianceMissionlistShare'] = {
         title: "Відпустіть в союзі"
     };
+    I18n.translations.ja_JP['lssm']['allianceMissionlistShare'] = {
+        title: "提携リリース"
+    };
     I18n.translations.nl_NL['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };

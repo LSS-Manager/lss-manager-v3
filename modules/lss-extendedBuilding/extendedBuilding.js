@@ -783,6 +783,62 @@
             }
         }
     };
+    I18n.translations.ja_JP.lssm.extendedBuilding = {
+        title: '拡張ビルビュー',
+        crew: '乗組員（最大）',
+        fms: '状態',
+        assignment: '人員を割り当てる',
+        neededPersonnel: '要人員',
+        expansionFinished: '完成した',
+        expansionNotStarted: '始まっていない',
+        personnelOverview: '人事概要',
+        schooling: '教育',
+        schoolingsMulti: '教育のすべての組み合わせ',
+        schoolingsSingle: '単一の教育',
+        amount: '量',
+        expansionName: '説明',
+        vehicleType: 'タイプ',
+        binding: 'に割り当てられた',
+        bindingAmount: 'バウンド',
+        settings: {
+            neededPersonnel: {
+                label: '必要な人員',
+                description: 'すべての車両を完全に占有する場合に必要な人員を表示します',
+            },
+            switchStatus: {
+                label: '高速ステータス変更',
+                description: '車両のステータスは、ステータスディスプレイを介してS2とS6の間で直接変更できます。',
+            },
+            assignmentBtn: {
+                label: 'クイック割り当て',
+                description: '「担当者の割り当て」ウィンドウにすばやくアクセスするためのボタンを追加します',
+            },
+            assignedWorkers: {
+                label: '担当者',
+                description: '各車両に割り当てられている人員の量を示します',
+            },
+            currentCrew: {
+                label: '現在の乗組員',
+                description: '各車両について、現在車両に座っている人員の数を示します',
+            },
+            expansions: {
+                label: '展開を表示',
+                description: '展開の現在のステータスを表示する',
+            },
+            personnelOverview: {
+                label: '拡張要員の概要',
+                description: '人員の概要に、どの人員がどのトレーニングを受けているかを示します',
+            },
+            vehicleType: {
+                label: '車種を表示',
+                description: '車両リストに車両のタイプを表示します。',
+            },
+            expansionDate: {
+                label: '拡張の完了日',
+                description: '展開が終了するときにも展開リストに表示されます（[展開を表示]設定に関連してのみ機能します）',
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",
