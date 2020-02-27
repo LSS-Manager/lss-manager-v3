@@ -1180,6 +1180,69 @@
         }
     };
 
+    I18n.translations.ja_JP.lssm.renameFz = {
+        name: '車両の名前を変更する',
+        rename: "変更",
+        id: "{id} 車両の ID",
+        old: "{old} 現在の名前",
+        vehicleType: "{vehicleType} 車両の種類",
+        stationName: "{stationName} 建物の名前",
+        tagging: '{tagging} 車種のマーキング',
+        number: '{number} タイプカウンター',
+        numberRoman: '{numberRoman} タイプカウンター（ローマ数字）',
+        dispatch: '{dispatch} 派遣センターの名称',
+        dispatchAlias: '{dispatchAlias} 派遣センターの別名',
+        stationAlias: '{stationAlias} ビルディングエイリアス',
+        saveAll: 'すべてを救う',
+        statusWaiting: '入力待ち',
+        statusError: '<b>生成中にエラーが発生しました！</b> このエラーが再度発生する場合は、報告してください. 以下の情報を提供してください：',
+        statusWorking: '名前とフォームを生成します。 これには、システムと車両の台数に応じて、一定の時間がかかる場合があります。',
+        statusSuccess: '名前とフォームが正常に生成されました！',
+        nameAlreadyCorrect: '名前はすでにテンプレートに対応しています！',
+        nameToLong: '次の車両には名前が長すぎます。',
+        nameToLongOriginalName: '元の名前',
+        nameToLongGeneratedName: '生成された名前',
+        nameToLongShortenedName: '新しい名前/短縮名',
+        helpTitle: 'このリンクの下に小さな指示があります： ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'カウンタースタート',
+        counterOverride: '同じタイプの車両が複数ある場合は、とにかく1から始めます。',
+        startNumHelp: 'ここで、タイプカウンタの開始値を入力できます。 開始値として0を設定すると、タイプの最初のビークルには番号が付けられません。ガードにタイプのビークルが1つしかなく、番号を付けたくない場合、これは非常に実用的です。 ただし、5からカウンターを開始することもできます（理由はどうあれ、それでも可能です;））',
+        toggleNameCorrect: '正しい名前の車両を表示/非表示',
+        settings: {
+            show: '表示/非表示',
+            names: {
+                vehicleTypes: '車両タイプ',
+                stations: '建物のエイリアス'
+            },
+            descriptions: {
+                vehicleTypes: 'ここで、各車両タイプに代替名を設定できます。 あなたは、ディスパッチセンターを介してあなたの車の名前を変更するときにそれらを使用することができます。',
+                stations: 'ここでは、各建物に代替名を設定できます。 あなたは、ディスパッチセンターを介してあなたの車の名前を変更するときにそれらを使用することができます。'
+            },
+            validStationTypes: {
+                0: "消防局",
+                2: "救急車ステーション",
+                6: "警察署",
+                7: "指令センター",
+                18: "消防局（小）",
+                19: "警察署（小型ステーション）",
+                20: "救急車ステーション（小型ステーション）"
+            },
+            vehicleTypes: {
+                0: '救助ハシゴ',
+                1: '戦術対応車両（TRV）',
+                2: 'ターンテーブルはしご（TL）',
+                3: '指令ユニット',
+                4: '大型救助ユニット（MRU）',
+                5: '救急車',
+                6: '水槽車',
+                7: '危険物取扱ユニット',
+                8: '事故対応車両（IRV）',
+                9: 'SARヘリコプター'
+            }
+        }
+    };
+
     I18n.translations.nl_NL.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",
