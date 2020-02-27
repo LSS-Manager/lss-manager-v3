@@ -2641,7 +2641,7 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "消防車が    ",
-            platform: "トラック",
+            platform: "プラットフォームトラック",
             heavyRescue: "大型救助車",
             air: "Breathing Apparatus Support Unit",
             bchief: "消防隊",
@@ -2649,7 +2649,7 @@ const lssm_missionhelper_adjustPosition = () => {
             hazmat: "危険物取扱車両が",
             mcv: "Incident Command and Control Unit",
             police: "警察車両が",
-            arff: "空港用消防車が",
+            arff: "空港用消防車",
             k9: "Dog Support Unit",
             swatSuv: "Armed Response Vehicle (ARV)",
             rth: "HEMS",

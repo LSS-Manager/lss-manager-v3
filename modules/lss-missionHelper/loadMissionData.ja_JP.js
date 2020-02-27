@@ -7,7 +7,7 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "消防車が",
-            platform: "トラック",
+            platform: "プラットフォームトラック",
             heavyRescue: "大型救助車",
             air: "aéreo",
             bchief: "消防隊",
@@ -16,7 +16,7 @@ $.get(missionlink)
             hazmat: "危険物取扱車両が",
             police: "警察車両が",
             rth: "Helicóptero HSR",
-            arff: "空港用消防車が",
+            arff: "空港用消防",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulancias"
         };
@@ -45,18 +45,18 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/レジット/)) {
                 credits = number;
-            } else if (content.match(/必要|Requisito|Requisitos de/)) {
+            } else if (content.match(/必要/)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/レジット/)) {
+            } else if (content.match(/場所/)) {
                 poi = getPOI(content);
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/必要|necessárias|necessária/)) {
+            if (content.match(/必要|が必要|necessária/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/確率/)) {
+            } else if (content.match(/な確率|が必要/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
@@ -69,8 +69,6 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/輸送/)) {
                 transport = number;
-            } else if (content.match(/NEF/)) {
-                nef = number;
             } else if (content.match(/患者の専門性/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/囚人の最高数/)) {
@@ -79,7 +77,7 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duration/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/拡張/)) {
+            } else if (content.match(/延長できるミッション/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
@@ -260,7 +258,7 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "な消防署",
+                0: "な消防局",
                 2: "な救助ステーション",
                 6: "警察ステーションが"
             };

@@ -1389,7 +1389,7 @@ lssm.Module = {
         name: {
             de: 'LS-Heatmap',
             en_US: 'LS-Heatmap',
-            ja_JP: '',
+            ja_JP: 'LS-ヒートマップ',
             nl_NL: 'Voertuigspreiding weergeven'
         },
         active: false,
