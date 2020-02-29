@@ -27,7 +27,10 @@ $.get(missionlink)
             wateraanhanger: "(w|W)aterongevallenaanhangers",
             hond: "Hondengeleider",
             crashtender: "Crashtender",
-            afoosc: "AFO/OSC"
+            afoosc: "AFO/OSC",
+            atc: "AT Commandant",
+            ato: "AT Operator",
+            atm: "AT Materiaalwagen"
         };
 
         let credits;

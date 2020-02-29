@@ -9270,5 +9270,33 @@
             "nef": 20,
             "specialisation": "Allgemeine Innere"
         }
+    },
+    "511": {
+        "name": "Herrenloses Gep\u00e4ckst\u00fcck",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "fustw": 1
+        },
+        "credits": 150,
+        "poi": 6,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "512": {
+        "name": "Herrenloses Gep\u00e4ckst\u00fcck",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "fustw": 1
+        },
+        "credits": 150,
+        "poi": 33,
+        "prisoners": {
+            "max": 1
+        }
     }
 }
