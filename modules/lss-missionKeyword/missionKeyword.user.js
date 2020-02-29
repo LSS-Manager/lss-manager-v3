@@ -532,7 +532,9 @@
         507: 'Hochwasserschadenslage',
         508: 'Pfählungsverletzung',
         509: 'Brennender Stall',
-        510: 'Zwangseinweisung'
+        510: 'Zwangseinweisung',
+        511: 'Herrenloses Gepäckstück',
+        512: 'Herrenloses Gepäckstück'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -3583,7 +3585,10 @@
         563: 'Hart gebroken',
         564: 'Voetganger onder tram',
         565: 'Fietser onder tram',
-        566: 'Auto tegen woonhuis'
+        566: 'Auto tegen woonhuis',
+        567: 'Verward persoon',
+        568: 'Verward persoon (Hoge dreiging)',
+        569: 'Verward persoon draait gaskraan open'
       }
     };
 
@@ -4117,7 +4122,9 @@
       507: 'THW 5',
       508: 'THL 1',
       509: 'B 5',
-      510: 'POL 1'
+      510: 'POL 1',
+      511: 'POL 1',
+      512: 'POL 1'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -6865,7 +6872,10 @@
       563: 'A 1',
       564: 'HV 1',
       565: 'HV 1',
-      566: 'HV 1'
+      566: 'HV 1',
+      567: 'P 1',
+      568: 'P 4',
+      569: 'P 5'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

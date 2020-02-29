@@ -119,16 +119,16 @@
         }
     };
     I18n.translations.it_IT.lssm.destfilter = {
-        title: 'Destination Filter',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
+        title: 'Filtro di destinazione',
+        freeBeds: 'Posti letto disponibili',
+        tax: 'TASSA',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Nascondi ospedali completi',
+            department: 'Nascondi ospedali senza reparto necessario',
+            distance: 'Nascondi destinazioni oltre la distanza di x km (0 disattiva)',
+            tax: 'Nascondi destinazioni con una TASSA superiore a x%',
+            cells: 'Nascondi celle piene'
         }
     };
     I18n.translations.tr_TR.lssm.destfilter = {

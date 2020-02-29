@@ -9884,5 +9884,86 @@
         "percentages": {
             "hulpverlening": 50
         }
+    },
+    "567": {
+        "name": "Verward persoon",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 568
+        }
+    },
+    "568": {
+        "name": "Verward persoon (Hoge dreiging)",
+        "stations": {
+            "3": 1,
+            "5": 5,
+            "11": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "hond": 1,
+            "ato": 4,
+            "atc": 1,
+            "atm": 1,
+            "ovdp": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "transport": 30,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 569
+        },
+        "percentages": {
+            "ovdp": 50
+        }
+    },
+    "569": {
+        "name": "Verward persoon draait gaskraan open",
+        "stations": {
+            "0": 6,
+            "3": 1,
+            "5": 5,
+            "11": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "hulpverlening": 1,
+            "bchief": 1,
+            "noodhulpeen": 4,
+            "hond": 1,
+            "ato": 4,
+            "atc": 1,
+            "atm": 1,
+            "ovdp": 1
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 1,
+            "transport": 30,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "percentages": {
+            "hulpverlening": 50,
+            "bchief": 100,
+            "ovdp": 100
+        }
     }
 }

@@ -2804,7 +2804,10 @@ const lssm_missionhelper_adjustPosition = () => {
             hond: "Hondengeleider",
             crashtender: "Crashtender",
             afoosc: "AFO/OSC",
-            ovdg: "OvD-Geneeskunde"
+            ovdg: "OvD-Geneeskunde",
+            atc: "AT Commandant",
+            ato: "AT Operator",
+            atm: "AT Materiaalwagen"
         },
         pois: [
             "Park",

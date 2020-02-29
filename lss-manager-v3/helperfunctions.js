@@ -528,6 +528,7 @@ else if (I18n.locale == "nl_NL")
         "2e OvD-P": 11,
         "Mobiele Eenheid, Sectie": 12,
         "Levende Have": 13,
+        "Arrestatieteam": 14,
         // Schule-Erweiterungen (20-29)
         "Extra klaslokaal": 20,
 	};
@@ -584,7 +585,10 @@ else if (I18n.locale == "nl_NL")
         "49": ["PM-OR | Materieelvoertuig - Oppervlakteredding", 0],
         "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
         "51": ["HVH | HulpverleningsHaakarmbak", 0],
-        "52": ["RR | Rapid Responder", 1]
+        "52": ["RR | Rapid Responder", 1],
+        "53": ["AT-C | AT-Commandant",],
+        "54": ["AT-O | AT-Operator",],
+        "55": ["AT-M | AT-Materiaalwagen",]
     };
 }
 else if (I18n.locale == "de")
