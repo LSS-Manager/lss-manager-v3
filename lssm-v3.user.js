@@ -44,6 +44,8 @@
 // @include      *://www.dyspetcher101-game.com/*
 // @include      *://missionchief-japan.com/*
 // @include      *://www.missionchief-japan.com/*
+// @include      *://missionchief-korea.com/*
+// @include      *://www.missionchief-korea.com/*
 // @updateURL    https://github.com/LSS-Manager/lss-manager-v3/raw/master/lssm-v3.user.js
 // @grant        none
 // @run          document-start

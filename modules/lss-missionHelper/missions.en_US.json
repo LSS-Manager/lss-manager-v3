@@ -5827,5 +5827,18 @@
             "transport": 40,
             "specialisation": "General Surgeon"
         }
+    },
+    "353": {
+        "name": "Residential police raid",
+        "stations": {
+            "5": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

@@ -1064,5 +1064,23 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "\u4e00\u822c\u5916\u79d1"
+    },
+    "80": {
+        "name": "\u5f79\u4eba\u306b\u5bfe\u3059\u308b\u66b4\u529b",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prisoners": {
+            "max": 2
+        }
     }
 }

@@ -1117,5 +1117,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "81": {
+        "name": "G\u00f6revliye tehdit",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Genel Dahiliye"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

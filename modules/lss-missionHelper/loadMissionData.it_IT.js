@@ -61,7 +61,7 @@ $.get(missionlink)
                 vehicles[getVehicle(content)] = number;
 			} else if (content.match(/Media min. Personale antincendio/)) {
                 special["averageMinimumEmployeesFire"] = number;
-            } else if (content.match(/Possibilità|richiesta/)) {
+            } else if (content.match(/Possibilità|richiesta|Possibile/)) {
                 percentages[getVehicle(content)] = number;
             }
         });

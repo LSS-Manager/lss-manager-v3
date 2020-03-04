@@ -1955,5 +1955,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "144": {
+        "name": "Threatening an official",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "General Internal"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }
