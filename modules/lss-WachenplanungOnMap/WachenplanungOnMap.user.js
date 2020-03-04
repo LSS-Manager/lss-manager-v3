@@ -25,7 +25,7 @@
             showSlider: true,
             showRadInput: false
         }, locale: I18n.locale || 'de_DE', translations: {
-            de: {
+            de_DE: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
         }, prefix: 'WachenplanungOnMap'
