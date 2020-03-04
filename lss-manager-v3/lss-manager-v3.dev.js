@@ -472,7 +472,7 @@ lssm.Module = {
         },
         source: '/modules/lss-TailoredTabs/TailoredTabs.user.js',
         inframe: true,
-        supportedLocales: ['de']
+        supportedLocales: ['de_DE']
     },
     fms7Target: {
         name: {
@@ -484,7 +484,7 @@ lssm.Module = {
         },
         source: '/modules/lss-fms7-target/Fms7Target.js',
         inframe: false,
-        supportedLocales: ['de'],
+        supportedLocales: ['de_DE'],
 	    develop: true
     },
     Layout01: {
@@ -749,7 +749,7 @@ lssm.Module = {
         },
         source: '/modules/lss-geoborders/GeoBorders.js',
         develop: false,
-        supportedLocales: ['de'],
+        supportedLocales: ['de_DE'],
     },
     vonginator: {
         name: {
@@ -763,7 +763,7 @@ lssm.Module = {
             en_US: 'Not seriously meant script for german language only.'
         },
         source: '/modules/lss-vonginator/Vonginator.user.js',
-        supportedLocales: ['de'],
+        supportedLocales: ['de_DE'],
         develop: false
     },
     Notification_Alert: {
@@ -1014,7 +1014,7 @@ lssm.Module = {
         source: '/modules/lss-WachenplanungOnMap/WachenplanungOnMap.user.js',
         collisions: ['Layout03', 'FMS5InMap', 'heatmap'],
         nomapkit: true,
-        supportedLocales: ['de']
+        supportedLocales: ['de_DE']
     },
     allianceMissionlistShare: {
         name: {
@@ -1934,7 +1934,7 @@ lssm.Module = {
             de_DE: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
         },
         source: '/modules/lss-show-notTransportPatientButtonAbove/show-notTransportPatientButtonAbove.user.js',
-        supportedLocales: ['de'],
+        supportedLocales: ['de_DE'],
         inframe: true,
         develop: false
     },
