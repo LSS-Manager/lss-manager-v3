@@ -1095,5 +1095,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "80": {
+        "name": "Amea\u00e7as sobre funcion\u00e1rio",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Cl\u00ednica m\u00e9dica"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

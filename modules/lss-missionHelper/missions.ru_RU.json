@@ -1470,5 +1470,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "108": {
+        "name": "\u0423\u0433\u0440\u043e\u0437\u0430 \u043d\u0430\u0441\u0438\u043b\u0438\u044f",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

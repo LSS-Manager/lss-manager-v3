@@ -1308,5 +1308,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "95": {
+        "name": "Vold mod en tjenestemand",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Specialister i intern medicin"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

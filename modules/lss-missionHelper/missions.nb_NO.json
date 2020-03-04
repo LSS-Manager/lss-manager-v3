@@ -1304,5 +1304,20 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "95": {
+        "name": "Vold mot offentlig tjenesteperson",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "patients": {
+            "max": 1,
+            "specialisation": "Generell medisin"
+        },
+        "poi": 46
     }
 }

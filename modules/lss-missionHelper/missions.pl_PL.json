@@ -1903,5 +1903,34 @@
             "truck": 1
         },
         "credits": 700
+    },
+    "133": {
+        "name": "Zagro\u017cenie dla urz\u0119dnika pa\u0144stwowego",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Interna"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "134": {
+        "name": "Zwierz\u0119 uwi\u0119zione w studni",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 500
     }
 }

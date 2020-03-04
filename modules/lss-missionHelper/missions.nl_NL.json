@@ -9965,5 +9965,26 @@
             "bchief": 100,
             "ovdp": 100
         }
+    },
+    "570": {
+        "name": "Geplande aanhouding vuurwapengevaarlijke verdachte",
+        "stations": {
+            "5": 5,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 2,
+            "ato": 4,
+            "atc": 1,
+            "atm": 1,
+            "ovdp": 1
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 1
+        },
+        "percentages": {
+            "ovdp": 5
+        }
     }
 }

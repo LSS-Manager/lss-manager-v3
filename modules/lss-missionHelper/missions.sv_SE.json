@@ -1649,5 +1649,25 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "119": {
+        "name": "Explosion - inomhus",
+        "stations": {
+            "0": 13,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 2,
+            "air": 1,
+            "police": 4
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 5,
+            "transport": 60,
+            "specialisation": "Traumatologi"
+        }
     }
 }

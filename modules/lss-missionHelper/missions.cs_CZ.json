@@ -1226,5 +1226,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "89": {
+        "name": "Napaden\u00ed \u00fa\u0159edn\u00edka",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

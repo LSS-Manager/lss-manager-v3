@@ -1646,5 +1646,24 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "121": {
+        "name": "Amenaza a un oficial",
+        "stations": {
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 750,
+        "patients": {
+            "max": 1,
+            "specialisation": "Medicina interna general"
+        },
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
     }
 }
