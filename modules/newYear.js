@@ -1,7 +1,7 @@
 if (!localStorage["lssm_new_year_2020"]) {
     if (new Date().getFullYear() === 2020) {
         switch (I18n.locale) {
-            case "de":
+            case "de_DE":
                 alert("Wir wünschen euch ein guten Start in das Jahr 2020!\nEuer LSS-Manager Team :)");
                 break;
             case "en_US":
@@ -10,7 +10,7 @@ if (!localStorage["lssm_new_year_2020"]) {
             case "en_GB":
                 alert("We wish you a good start into the year 2020!\nYour LSS-Manager Team :)");
                 break;
-            case "eu":
+            case "en_AU":
                 alert("We wish you a good start into the year 2020!\nYour LSS-Manager Team :)");
                 break;
             case "nl_NL":

@@ -2,7 +2,7 @@
 
     let LSS_CENTERMAP_STORAGE = "LSS_CENTERMAP_STORAGE";
 
-    I18n.translations.de.lssm.centermap = {
+    I18n.translations.de_DE.lssm.centermap = {
         center: "Zentrieren",
         settings: {
             title: "Center-Map",

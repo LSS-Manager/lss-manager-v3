@@ -1,7 +1,7 @@
 (function ($, win, I18n) {
     const lsName = `${lssm.config.prefix}_missionOut`;
 
-    I18n.translations.de.lssm.missionOut = {
+    I18n.translations.de_DE.lssm.missionOut = {
         title: 'Einsatz aus/ein-blenden'
     };
     I18n.translations.en_US.lssm.missionOut = {

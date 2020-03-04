@@ -5,7 +5,7 @@
 
     let NUM_NOTES = 1;
 
-    I18n.translations.de['lssm']['releasenotes'] = {
+    I18n.translations.de_DE['lssm']['releasenotes'] = {
         title: "Neuerungen",
         close: "Cool!",
         errorloading: "Fehler beim Laden der Releasenotes.",

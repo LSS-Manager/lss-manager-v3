@@ -4,7 +4,7 @@
 
   function setSettings() {
 
-    I18n.translations.de.lssm.missionKeywordDefaults = {
+    I18n.translations.de_DE.lssm.missionKeywordDefaults = {
       name: 'Einsatzstichworte',
       settingsName: 'Einsatzstichworte - Einstellungen',
       domain: 'leitstellenspiel.de',
@@ -3634,7 +3634,7 @@
     };
 
     // Einsatz-ID zu Stichwort
-    let DEFAULT_AAO_DE = {
+    let DEFAULT_AAO_DEDE = {
       0: 'B 1',
       1: 'B 2',
       2: 'B 2',
@@ -6925,7 +6925,7 @@
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
-    I18n.translations.de.lssm.missionKeyword = DEFAULT_AAO_DE;
+    I18n.translations.de_De.lssm.missionKeyword = DEFAULT_AAO_DEDE;
     I18n.translations.en_US.lssm.missionKeyword = DEFAULT_AAO_ENUS;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
@@ -6947,8 +6947,8 @@
     I18n.translations.nl_NL.lssm.missionKeyword = DEFAULT_AAO_NLNL;
 
     let defaultAao;
-    if (I18n.locale === 'de')
-      defaultAao = DEFAULT_AAO_DE;
+    if (I18n.locale === 'de_DE')
+      defaultAao = DEFAULT_AAO_DEDE;
     else if (I18n.locale === 'en_US')
       defaultAao = DEFAULT_AAO_ENUS;
     else if (I18n.locale === 'en_GB')
@@ -6988,7 +6988,7 @@
     else if (I18n.locale === 'nl_NL')
       defaultAao = DEFAULT_AAO_NLNL;
     else
-      defaultAao = DEFAULT_AAO_DE;
+      defaultAao = DEFAULT_AAO_DEDE;
 
 
     $.each(defaultAao, function (key, val) {
@@ -7034,7 +7034,7 @@
     }
     let additionalAaoText = '';
     if (anzahlPatients > 0) {
-      if (I18n.locale === 'de') {
+      if (I18n.locale === 'de_DE') {
 
         // Wenn 1+ Patienten vorhanden, modifiziere Stichwort zu XY PERSON
 

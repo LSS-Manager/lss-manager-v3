@@ -1,5 +1,5 @@
 (function ($, win, I18n) {
-    I18n.translations.de['lssm']['allianceMissionlistShare'] = {
+    I18n.translations.de_DE['lssm']['allianceMissionlistShare'] = {
         title: "Im Verband freigeben"
     };
     I18n.translations.en_US['lssm']['allianceMissionlistShare'] = {

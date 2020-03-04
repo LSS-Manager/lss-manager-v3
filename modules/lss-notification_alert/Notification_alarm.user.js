@@ -1,7 +1,7 @@
 (function($, I18n) {
     let LSS_NOTIFICATION_STORAGE = "LSS_NOTIFICATION_STORAGE";
 
-  I18n.translations.de.lssm['n-alarm'] = {
+  I18n.translations.de_DE.lssm['n-alarm'] = {
     not_support: "Dieser Browser unterstützt leider keine HTML5-Notifications",
     inithead: "Initalisierung",
     chat_message: "Chatnachricht von ",

@@ -591,7 +591,7 @@ else if (I18n.locale == "nl_NL")
         "55": ["AT-M | AT-Materiaalwagen",]
     };
 }
-else if (I18n.locale == "de")
+else if (I18n.locale == "de_DE")
 {
 	lssm.extensions = {
         // FW-Erwerterungen (0-9)

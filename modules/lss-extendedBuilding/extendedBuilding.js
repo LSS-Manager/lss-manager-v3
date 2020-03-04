@@ -1,5 +1,5 @@
 ((I18n) => {
-    I18n.translations.de.lssm.extendedBuilding = {
+    I18n.translations.de_DE.lssm.extendedBuilding = {
         title: 'Erweiterte Gebäudeansicht',
         crew: 'Besatzung (Maximal)',
         fms: 'FMS',

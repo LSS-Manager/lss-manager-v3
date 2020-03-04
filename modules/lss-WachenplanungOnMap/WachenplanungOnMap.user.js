@@ -1,5 +1,5 @@
 (function (map, I18n, $) {
-    I18n.translations.de['lssm']['wpom'] = {
+    I18n.translations.de_DE['lssm']['wpom'] = {
         setmarker: "Marker setzen",
         remmarker: "Marker entfernen",
         plan: "Wache planen",
@@ -24,7 +24,7 @@
             showCars: true,
             showSlider: true,
             showRadInput: false
-        }, locale: I18n.locale || 'de', translations: {
+        }, locale: I18n.locale || 'de_DE', translations: {
             de: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }

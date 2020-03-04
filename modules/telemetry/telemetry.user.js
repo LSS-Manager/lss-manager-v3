@@ -1,5 +1,5 @@
 (function (I18n, $) {
-	I18n.translations.de.lssm.telemetry = {
+	I18n.translations.de_DE.lssm.telemetry = {
 		question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
 		"Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
 		"Stimmst zu diesem zu?"

@@ -3,7 +3,7 @@
     const LSS_STATUSCOUNT_STORAGE = "LSS_STATUSCOUNT_STORAGE";
     const status_list = [1, 2, 3, 4, 5, 6, 7, 9];
 
-    I18n.translations.de.lssm.statuscount = {
+    I18n.translations.de_DE.lssm.statuscount = {
         name: "Status-Zähler",
         settings: {
             show: "Ein-/Ausblenden",

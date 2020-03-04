@@ -2,7 +2,7 @@
 
     const LSS_RENAMEFZ_STORAGE = "LSS_RENAMEFZ_STORAGE";
 
-    I18n.translations.de.lssm.renameFz = {
+    I18n.translations.de_DE.lssm.renameFz = {
         name: 'Fahrzeuge Umbenennen',
         rename: "Umbenennen",
         id: "{id} FahrzeugId ",

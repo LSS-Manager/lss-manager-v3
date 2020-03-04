@@ -2,7 +2,7 @@
     let site_location = window.location.href;
     if(site_location.match('daily'))
     {
-        I18n.translations.de['lssm']['sumDailyMissions'] = {
+        I18n.translations.de_DE['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patienten Behandlung',
             education: 'Ausbildung',
             purchase: 'gekauft',

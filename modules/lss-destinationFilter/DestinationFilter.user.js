@@ -1,7 +1,7 @@
 ((I18n) => {
     const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
 
-    I18n.translations.de.lssm.destfilter = {
+    I18n.translations.de_DE.lssm.destfilter = {
         title: 'Zielort Filter',
         freeBeds: 'Freie Betten',
         tax: 'Abgabe',

@@ -8,7 +8,7 @@
             .filter( key => predicate(obj[key]) )
             .reduce( (res, key) => (res[key] = obj[key], res), {} );
 
-    I18n.translations.de.lssm.heatmap = {
+    I18n.translations.de_DE.lssm.heatmap = {
         active: 'Aktiviert',
         vehicleType: 'Gruppierung',
         radius: 'Radius',

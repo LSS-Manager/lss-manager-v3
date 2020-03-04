@@ -70,32 +70,32 @@ let lssm = {
 /**
  * Localization
  */
-I18n.defaultLocale = 'de';
+I18n.defaultLocale = 'de_DE';
 // Initialize fallbacks
 I18n.fallbacks = true;
-I18n.locales.de = ['de', 'en_US', 'en_AU', 'en_GB'];
-I18n.locales.nl_NL = ['nl_NL', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.es_ES = ['es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.pl_PL = ['pl_PL', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.sv_SE = ['sv_SE', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.it_IT = ['it_IT', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.fr_FR = ['fr_FR', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.ru_RU = ['ru_RU', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.da_DK = ['da_DK', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.cs_CZ = ['cs_CZ', 'en_US', 'en_AU', 'en_GB', 'de']
-I18n.locales.uk_UA = ['uk_UA', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.tr_TR = ['tr_TR', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.es_MX = ['es_MX', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de'];
+I18n.locales.de_DE = ['de_DE', 'en_US', 'en_AU', 'en_GB'];
+I18n.locales.nl_NL = ['nl_NL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.es_ES = ['es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.pl_PL = ['pl_PL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.sv_SE = ['sv_SE', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.it_IT = ['it_IT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.fr_FR = ['fr_FR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.ru_RU = ['ru_RU', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.da_DK = ['da_DK', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.cs_CZ = ['cs_CZ', 'en_US', 'en_AU', 'en_GB', 'de_DE']
+I18n.locales.uk_UA = ['uk_UA', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.tr_TR = ['tr_TR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.es_MX = ['es_MX', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 // en, en_GB and en_AU are essentially the same.
-I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de'];
-I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de'];
-I18n.locales.en_AU = ['en_AU', 'en_US', 'en_GB', 'de'];
+I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de_DE'];
+I18n.locales.en_AU = ['en_AU', 'en_US', 'en_GB', 'de_DE'];
 
-if (!I18n.translations.hasOwnProperty('de')) I18n.translations.de = {};
+if (!I18n.translations.hasOwnProperty('de_DE')) I18n.translations.de_DE = {};
 if (!I18n.translations.hasOwnProperty('en_US')) I18n.translations.en_US = {};
 if (!I18n.translations.hasOwnProperty('en_GB')) I18n.translations.en_GB = {};
 if (!I18n.translations.hasOwnProperty('en_AU')) I18n.translations.en_AU = {};
@@ -116,7 +116,7 @@ if (!I18n.translations.hasOwnProperty('es_MX')) I18n.translations.es_MX = {};
 if (!I18n.translations.hasOwnProperty('ja_JP')) I18n.translations.ja_JP = {};
 if (!I18n.translations.hasOwnProperty('nl_NL')) I18n.translations.nl_NL = {};
 
-I18n.translations.de.lssm = {
+I18n.translations.de_DE.lssm = {
     lssm: "LSS-Manager",
     version: "Stable",
     appstore: "APPSTORE",
@@ -424,7 +424,7 @@ I18n.translations.nl_NL.lssm = {
 lssm.Module = {
     keyboardAlert: {
         name: {
-            de: 'Keyboard Alarmierung',
+            de_DE: 'Keyboard Alarmierung',
             en_US: 'Callview control',
             es_ES: 'Alarma de teclado',
             pl_PL: 'Sterowanie podglądem wywołań',
@@ -442,7 +442,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Einsatzmaske mit Tastatur steuern.',
+            de_DE: 'Einsatzmaske mit Tastatur steuern.',
             en_US: 'Control the mission view with the keyboard.',
             es_ES: 'Controle la vista de misión con el teclado.',
             pt_PT: 'Controle a visão da missão com o teclado.',
@@ -464,11 +464,11 @@ lssm.Module = {
     },
     tailoredTabs: {
         name: {
-            de: 'Maßgeschneiderte Tabs'
+            de_DE: 'Maßgeschneiderte Tabs'
         },
         active: false,
         description: {
-            de: 'Das Plugin ermöglicht es, weitere Tabs zur Trennung von Fahrzeug-Typen im Alarmierungsfenster einzustellen.'
+            de_DE: 'Das Plugin ermöglicht es, weitere Tabs zur Trennung von Fahrzeug-Typen im Alarmierungsfenster einzustellen.'
         },
         source: '/modules/lss-TailoredTabs/TailoredTabs.user.js',
         inframe: true,
@@ -476,11 +476,11 @@ lssm.Module = {
     },
     fms7Target: {
         name: {
-            de: 'FMS 7 Zielort Anzeige'
+            de_DE: 'FMS 7 Zielort Anzeige'
         },
         active: false,
         description: {
-            de: 'Zeigt das Transportziel von Fahrzeugen im Status 7 an.'
+            de_DE: 'Zeigt das Transportziel von Fahrzeugen im Status 7 an.'
         },
         source: '/modules/lss-fms7-target/Fms7Target.js',
         inframe: false,
@@ -489,11 +489,11 @@ lssm.Module = {
     },
     Layout01: {
         name: {
-            de: 'Layout 01'
+            de_DE: 'Layout 01'
         },
         active: false,
         description: {
-            de: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den ' +
+            de_DE: 'Ansicht mit großer Karte - Einsätze & Co mit Menu durchschaltbar. Eine Badge wie bei den ' +
                 'Nachrichten zeigt die Einsäte/Nachrichten/Funksprüche seit dem letzten Aufruf des jeweiligen ' +
                 'Fensters im Menu.',
             en_US: 'View with main focus on the map. Missions and other windows can be changed using a menu. A badge ' +
@@ -533,11 +533,11 @@ lssm.Module = {
     },
     Layout02: {
         name: {
-            de: 'Layout 02'
+            de_DE: 'Layout 02'
         },
         active: false,
         description: {
-            de: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & ' +
+            de_DE: 'Ansicht mit 100% Karte im oberen Bereich - darunter die vier Fenster Einsätze, Gebäude, Chat & ' +
                 'Funksprüche.',
             en_US: 'View with 100% map at the upper area - below that the four windows calls, buildings, chat and radio.',
             es_ES: 'Ver con el mapa 100% en la parte superior - debajo de que las cuatro ventanas de llamadas, edificios, chat y radio.',
@@ -562,11 +562,11 @@ lssm.Module = {
     },
     Layout03: {
         name: {
-            de: 'Layout 03'
+            de_DE: 'Layout 03'
         },
         active: false,
         description: {
-            de: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
+            de_DE: 'Layout ohne Karte. Die vier Fenster werden über die ganze Höhe dargestellt.',
             en_US: 'Layout without map. The four windows are using 100% of the given browser height.',
             es_ES: 'Plano sin mapa. Las cuatro ventanas utilizan el 100% de la altura del navegador.',
             pt_PT: 'Layout sem mapa. As quatro janelas estão usando 100% da altura do navegador fornecida.',
@@ -588,11 +588,11 @@ lssm.Module = {
     },
     Layout04: {
         name: {
-            de: 'Layout 04'
+            de_DE: 'Layout 04'
         },
         active: false,
         description: {
-            de: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle ' +
+            de_DE: 'Karte im linken Bereich auf 100% Höhe. Rechts davon die Einsätze auf voller breite - alle ' +
                 'Einsatzarten werden in jeweils einer Spalte dargestellt. Darunter Gebäude, Chat und Funk.',
             en_US: 'Map with 100% height on the left side. Next to it the calls, each category in its own column. ' +
                 'Below that the buildings, chat and radio.',
@@ -627,13 +627,13 @@ lssm.Module = {
     },
     DoctorRadioCall: {
         name: {
-            de: 'NEF Nachforderung per FMS',
+            de_DE: 'NEF Nachforderung per FMS',
             en_US: 'HEMS request in radio',
             nl_NL: 'Spraakaanvraag voor MMT'
         },
         active: false,
         description: {
-            de: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.',
+            de_DE: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.',
             en_US: 'Issues a radio call if HEMS is required.',
             nl_NL: 'Spraakaanvraag weergeven indien MMT benodigd is.'
         },
@@ -642,7 +642,7 @@ lssm.Module = {
     },
     MissionOut: {
         name: {
-            de: 'MissionOut',
+            de_DE: 'MissionOut',
             pl_PL: 'MisjaOut',
             it_IT: 'MissioneOut',
             cs_CZ: 'Misionout',
@@ -653,7 +653,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
+            de_DE: 'Alle Einsätze ein/ausklappen oder für jeden Einsatz einzeln.',
             en_US: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
                 'each one.',
             es_ES: 'Minimizar las entradas de la lista de misiones. Puede desglosar o minimizar todas las llamadas a ' +
@@ -685,7 +685,7 @@ lssm.Module = {
     },
     saveVGE: {
         name: {
-            de: 'Eigene VGE speichern',
+            de_DE: 'Eigene VGE speichern',
             en_US: 'Save created alliance calls',
             es_ES: 'Guardar llamadas de alianza creadas',
             pt_PT: 'Salvar chamadas de aliança criadas',
@@ -704,7 +704,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Funktion um selbst erstellte VGE zu speichern.',
+            de_DE: 'Funktion um selbst erstellte VGE zu speichern.',
             en_US: 'Enables a function to save own created mission calls to use them as template.',
             es_ES: 'Habilita una función para guardar las llamadas de misión creadas por el usuario y utilizarlas como plantilla.',
             pt_PT: 'Ativa uma função para salvar chamadas de missão criadas e usá-las como modelo.',
@@ -726,13 +726,13 @@ lssm.Module = {
     },
     releaseNotes: {
         name: {
-            de: 'Release Notes',
+            de_DE: 'Release Notes',
             en_US: 'Release Notes'
         },
         active: false,
         inframe: false,
         description: {
-            de: 'Informiert immer über die Neusten Updates im LSSM',
+            de_DE: 'Informiert immer über die Neusten Updates im LSSM',
             en_US: 'Provides information about the latest updates in LSSM'
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
@@ -740,12 +740,12 @@ lssm.Module = {
     },
     geoBorders: {
         name: {
-            de: 'Kreis- & Landesgrenzen'
+            de_DE: 'Kreis- & Landesgrenzen'
         },
         active: false,
         inframe: false,
         description: {
-            de: 'Zeigt aktivierte Grenzen für Kreise, Bezirke und Bundesländer an.'
+            de_DE: 'Zeigt aktivierte Grenzen für Kreise, Bezirke und Bundesländer an.'
         },
         source: '/modules/lss-geoborders/GeoBorders.js',
         develop: false,
@@ -753,13 +753,13 @@ lssm.Module = {
     },
     vonginator: {
         name: {
-            de: 'Vonginator',
+            de_DE: 'Vonginator',
             en_US: 'Vonginator'
         },
         active: false,
         inframe: true,
         description: {
-            de: 'Hallo i bims. 1 total sinnlose Skript vong Bedeutung her. lol',
+            de_DE: 'Hallo i bims. 1 total sinnlose Skript vong Bedeutung her. lol',
             en_US: 'Not seriously meant script for german language only.'
         },
         source: '/modules/lss-vonginator/Vonginator.user.js',
@@ -768,7 +768,7 @@ lssm.Module = {
     },
     Notification_Alert: {
         name: {
-            de: 'Notification Alert',
+            de_DE: 'Notification Alert',
             es_ES: 'Alerta de notificación',
             pt_PT: 'Alerta de notificação',
             pl_PL: 'Powiadomienie o zagrożeniu',
@@ -786,7 +786,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. ' +
+            de_DE: 'Zeigt eine HTML-5 Notification an sobald ein Status oder eine Nachricht eingegangen ist. ' +
                 '(ChatPoput included)',
             en_US: 'HTML5 Chatnotifications using the browser notificationsystem.',
             es_ES: 'Chatnotificaciones HTML5 utilizando el sistema de notificaciones del navegador.',
@@ -810,11 +810,11 @@ lssm.Module = {
     },
     Redesign01: {
         name: {
-            de: 'Redesign 01'
+            de_DE: 'Redesign 01'
         },
         active: false,
         description: {
-            de: 'Neues Design für die Oberfläche',
+            de_DE: 'Neues Design für die Oberfläche',
             en_US: 'New design for the game.',
             es_ES: 'Nuevo diseño para el juego.',
             pt_PT: 'Novo design para o jogo.',
@@ -836,7 +836,7 @@ lssm.Module = {
     },
     Eventsmission: {
         name: {
-            de: 'Markiert Eventeinsätze',
+            de_DE: 'Markiert Eventeinsätze',
             en_US: 'Marked events',
             es_ES: 'Eventos marcados',
             pl_PL: 'Zdarzenia oznaczone',
@@ -855,7 +855,7 @@ lssm.Module = {
         active: false,
         inframe: true,
         description: {
-            de: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
+            de_DE: 'Zeigt die Aktuellen Eventeinsätze an mit Großgeschriebenen ZEILEN!',
             en_US: 'Displays the current events with capitalized LINE!',
             es_ES: 'Muestra los eventos actuales con LÍNEA en mayúsculas!',
             pt_PT: 'Exibe os eventos atuais com LINE maiúsculo!',
@@ -877,7 +877,7 @@ lssm.Module = {
     },
     DestinationFilter: {
         name: {
-            de: 'Zielort Filter',
+            de_DE: 'Zielort Filter',
             en_US: 'Destination filter',
             es_ES: 'Filtro de destino',
             pl_PL: 'Filtr miejsca przeznaczenia',
@@ -895,7 +895,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
+            de_DE: 'Ermöglicht es, belegte oder ungeeignete Zielorte bei Sprechwünschen auszublenden',
             en_US: 'Allows you to hide busy or inappropriate destinations for speech requests',
             es_ES: 'Le permite ocultar destinos ocupados o inapropiados para las peticiones de voz.',
             pt_PT: 'Permite ocultar destinos ocupados ou inapropriados para solicitações de fala',
@@ -917,7 +917,7 @@ lssm.Module = {
     },
     FMS5InMap: {
         name: {
-            de: 'FMS 5 in der Karte',
+            de_DE: 'FMS 5 in der Karte',
             en_US: 'Request transport in map',
             es_ES: 'Solicitar transporte en el mapa',
             pt_PT: 'Solicitar transporte no mapa',
@@ -936,7 +936,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt alle FMS 5 in der Karte an.',
+            de_DE: 'Zeigt alle FMS 5 in der Karte an.',
             en_US: 'Shows request transports within the map lower left corner.',
             es_ES: 'Muestra los transportes de la solicitud en la esquina inferior izquierda del mapa.',
             pt_PT: 'Mostra a solicitação de transporte no canto inferior esquerdo do mapa.',
@@ -959,7 +959,7 @@ lssm.Module = {
     },
     Clock: {
         name: {
-            de: 'Clock',
+            de_DE: 'Clock',
             pt_PT: 'Relógio',
             pl_PL: 'Zegar',
             sv_SE: 'Klocka',
@@ -976,7 +976,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt eine Uhr in der Karte an.',
+            de_DE: 'Zeigt eine Uhr in der Karte an.',
             en_US: 'Enables a small clock within the map.',
             es_ES: 'Activa un pequeño reloj dentro del mapa.',
             pt_PT: 'Ative um pequeno relógio dentro do mapa.',
@@ -998,13 +998,13 @@ lssm.Module = {
     },
     WachenplanungOnMap: {
         name: {
-            de: 'Wachenplanung auf der Karte',
+            de_DE: 'Wachenplanung auf der Karte',
             en_US: 'Station management on map',
             nl_NL: 'Gebouwplanning op de kaart.'
         },
         active: false,
         description: {
-            de: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die ' +
+            de_DE: 'Zeichnet Kreise im Radius X um deine Wachen. Der Radius kann selbst bestimmt werden & die ' +
                 'Gebäude sind wählbar.',
             en_US: 'Draws circles around buildings with your chosen radius in kilometer. You can also filter for ' +
                 'specific buildings.',
@@ -1018,7 +1018,7 @@ lssm.Module = {
     },
     allianceMissionlistShare: {
         name: {
-            de: 'Einsätze freigeben',
+            de_DE: 'Einsätze freigeben',
             en_US: 'Mission share',
             es_ES: 'Porcentaje correspondiente a la misión',
             pt_PT: 'Missão compartilhada',
@@ -1037,7 +1037,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
+            de_DE: 'Mit einem klick in der Übersicht, ohne den Einsatz zu öffnen, freigeben.',
             en_US: 'Instantly share missions without opening the call by clicking a button in the overview.',
             es_ES: 'Comparte misiones al instante sin abrir la llamada haciendo clic en un botón de la vista general.',
             pt_PT: 'Compartilhe missões instantaneamente sem abrir a chamada clicando em um botão na visão geral.',
@@ -1060,7 +1060,7 @@ lssm.Module = {
     },
 	ShareAlliancePost: {
         name: {
-            de: 'Alarmieren, Teilen & Posten',
+            de_DE: 'Alarmieren, Teilen & Posten',
             en_US: 'Alert, Share & Post',
             es_ES: 'Alerta, Compartir y Publicar',
             pt_PT: 'Alertar, compartilhar e publicar',
@@ -1079,7 +1079,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
+            de_DE: 'Fügt einen zusätzlichen Button ein, mit dem man Alarmieren, Freizugeben und vordefinierte Nachrichten im Chat posten kann. In nur einem Schritt!',
             en_US: 'Adds a new button for alerting, sharing and posting predefined messages to the chat. In just one step!',
             es_ES: 'Añade un nuevo botón para alertar, compartir y publicar mensajes predefinidos en el chat. En un solo paso!',
             pt_PT: 'Adicione um novo botão para alertar, compartilhar e postar mensagens predefinidas no chat. Em uma etapa!',
@@ -1101,7 +1101,7 @@ lssm.Module = {
     },
     searchMissions: {
         name: {
-            de: 'Einsätze suchen',
+            de_DE: 'Einsätze suchen',
             en_US: 'Mission search',
             es_ES: 'Búsqueda de misiones',
             pt_PT: 'Pesquisa de missão',
@@ -1120,7 +1120,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
+            de_DE: 'In der Übersicht Einsätze suchen & filtern. In der Alarmmaske diese Liste mit Buttons durchgehen.',
             en_US: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
                 'quickly.',
             es_ES: 'Buscar llamadas y filtrarlas - un grupo de botones en la parte inferior le permite cambiar rápidamente ' +
@@ -1151,12 +1151,12 @@ lssm.Module = {
     },
     dashboard: {
         name: {
-            de: 'Dashboard',
+            de_DE: 'Dashboard',
             ja_JP: 'ダッシュボード'
         },
         active: false,
         description: {
-            de: 'Dashboard',
+            de_DE: 'Dashboard',
             en_US: 'Dashboard',
             ja_JP: '建物と車両の概要を明確に表示するダッシュボード。',
             nl_NL: 'Een Dashboard waarin je een duidelijk overzicht krijgt van je gebouwen en voertuigen.'
@@ -1166,7 +1166,7 @@ lssm.Module = {
     },
     WachenHoverStati: {
         name: {
-            de: 'Wachen Status',
+            de_DE: 'Wachen Status',
             en_US: 'Station status',
             es_ES: 'Estado de la estación',
             pt_PT: 'Status da estação',
@@ -1185,7 +1185,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
+            de_DE: 'Zeigt beim drüberfahren einer Wache auf der Karte die Status der Fahrzeuge an.',
             en_US: 'Shows the code of vehicles on station hover on the map.',
             es_ES: 'Muestra el código de los vehículos en la estación y pasa el puntero del ratón sobre el mapa.',
             pt_PT: 'Ele mostra o código dos veículos na estação e passa o ponteiro do mouse sobre o mapa.',
@@ -1207,7 +1207,7 @@ lssm.Module = {
     },
     RenameFZ: {
         name: {
-            de: 'Fahrzeuge umbenennen',
+            de_DE: 'Fahrzeuge umbenennen',
             en_US: 'Rename vehicle',
             es_ES: 'Renombrar vehículo',
             pt_PT: 'Renomear veículo',
@@ -1226,7 +1226,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
+            de_DE: 'Alle Fahrzeuge einer Wache oder einer Leitstelle nach dem selben System benennen.',
             en_US: 'Rename vehicles in bulk using tags.',
             es_ES: 'Cambie el nombre de los vehículos a granel utilizando etiquetas.',
             pt_PT: 'Renomeie os veículos em massa usando etiquetas.',
@@ -1252,7 +1252,7 @@ lssm.Module = {
     },
     telemetry: {
         name: {
-            de: 'Telemetrie',
+            de_DE: 'Telemetrie',
             en_US: 'Telemetry',
             pt_PT: 'Telemetria',
             pl_PL: 'Telemetria',
@@ -1268,7 +1268,7 @@ lssm.Module = {
         },
         active: true,
         description: {
-            de: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
+            de_DE: 'Sendet Daten an das Entwicklerteam zur Erstellung einer Statistik',
             en_US: 'Sends data to the developer team for the purpose of creating a statistic',
             es_ES: 'Envía datos al equipo de desarrolladores con el fin de crear una estadística.',
             pt_PT: 'Envia dados para a equipa de desenvolvedores com o objetivo de criar uma estatística',
@@ -1291,12 +1291,12 @@ lssm.Module = {
     },
     mapreload: {
         name: {
-            de: 'Map Reload',
+            de_DE: 'Map Reload',
             nl_NL: 'Kaart opnieuw laden'
         },
         active: true,
         description: {
-            de: '-',
+            de_DE: '-',
         },
         source: '/modules/lss-mapReload/mapreload.user.js',
         noapp: true, // Nicht im App-Store auflisten
@@ -1304,7 +1304,7 @@ lssm.Module = {
     },
     showBackAlarmAbove: {
         name: {
-            de: 'show Back Alarm Above',
+            de_DE: 'show Back Alarm Above',
             en_US: 'show Back Alarm Above',
             es_ES: 'Mostrar atrás Alarma Arriba',
             pt_PT: 'mostrar alarme de volta acima',
@@ -1322,7 +1322,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt den Alle Rückalarmieren Button auch überhalb der Fahrzeuge an',
+            de_DE: 'Zeigt den Alle Rückalarmieren Button auch überhalb der Fahrzeuge an',
             en_US: 'Shows the All back alarm button also above the vehicles',
             es_ES: 'Muestra el botón de alarma All back también por encima de los vehículos',
             pt_PT: 'Mostra o botão de alarme de todas as costas também acima dos veículos',
@@ -1346,7 +1346,7 @@ lssm.Module = {
     },
     AaoSearch: {
         name: {
-            de: 'AAO-Suche',
+            de_DE: 'AAO-Suche',
             en_US: 'AAO-Search',
             es_ES: 'AAO-Buscar',
             pt_PT: 'Pesquisa AAO',
@@ -1364,7 +1364,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
+            de_DE: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
             en_US: 'Packs all AAO\'s into a searchable dropdown',
             es_ES: 'Empaqueta todos los AAO en un menú desplegable que permite realizar búsquedas',
             pt_PT: 'Empacote todas as AAOs em um menu suspenso que permite pesquisar',
@@ -1387,14 +1387,14 @@ lssm.Module = {
     },
     heatmap: {
         name: {
-            de: 'LS-Heatmap',
+            de_DE: 'LS-Heatmap',
             en_US: 'LS-Heatmap',
             ja_JP: 'LS-ヒートマップ',
             nl_NL: 'Voertuigspreiding weergeven'
         },
         active: false,
         description: {
-            de: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
+            de_DE: 'Zeigt die Dichte bestimmter Fahrzeugtypen auf der Karte an, um Versorgungslücken zu identifizieren.',
             en_US: 'Shows the density of selectable vehicle types on map to identify supply gaps.',
             es_ES: 'Muestra la densidad de los tipos de vehículos seleccionables en el mapa para identificar las brechas de suministro.',
             pt_PT: 'Mostra a densidade de tipos de veículos selecionáveis no mapa para identificar lacunas de abastecimento.',
@@ -1420,7 +1420,7 @@ lssm.Module = {
     },
     centermap: {
         name: {
-            de: 'Center-Map',
+            de_DE: 'Center-Map',
             en_US: 'Center-Map',
             pt_PT: 'Mapa central',
             pl_PL: 'Centrum-Mapa',
@@ -1437,7 +1437,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
+            de_DE: 'Zentriert die Karte beim Aufruf des Spiels und bei Knopfdruck. Genau so wie du es möchtest.',
             en_US: 'Centers the map on page load and on click. Just as you prefer.',
             es_ES: 'Centra el mapa en la carga de la página y en el clic. Como usted prefiera.',
             pt_PT: 'Centraliza o mapa no carregamento da página e no clique. Assim como você preferir.',
@@ -1461,7 +1461,7 @@ lssm.Module = {
     },
     missionHelper: {
         name: {
-            de: 'Einsatzhelfer',
+            de_DE: 'Einsatzhelfer',
             en_US: 'Missionhelper',
             es_ES: 'Missionhelper',
             pl_PL: 'Pomocnik misjonarza',
@@ -1475,7 +1475,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt benötigte Fahrzeuge an!',
+            de_DE: 'Zeigt benötigte Fahrzeuge an!',
             en_US: 'Shows required vehicles in mission mask.',
             es_ES: 'Muestra los vehículos requeridos en la máscara de la misión.',
             pt_PT: 'Mostra os veículos necessários na máscara da missão.',
@@ -1499,7 +1499,7 @@ lssm.Module = {
     },
     statusDispatching: {
         name: {
-            de: 'Verbesserte Status 5',
+            de_DE: 'Verbesserte Status 5',
             en_US: 'Enhanced transport requests',
             es_ES: 'Solicitudes de transporte mejoradas',
             pt_PT: 'Solicitações de transporte aprimoradas',
@@ -1518,7 +1518,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Schnellere Abarbeitung von Status 5 Meldungen.',
+            de_DE: 'Schnellere Abarbeitung von Status 5 Meldungen.',
             en_US: 'Faster processing of transport requests.',
             es_ES: 'Procesamiento más rápido de las solicitudes de transporte.',
             pt_PT: 'Processamento mais rápido de solicitações de transporte.',
@@ -1545,7 +1545,7 @@ lssm.Module = {
     },
     managedSettings: {
         name: {
-            de: 'Einstellungen',
+            de_DE: 'Einstellungen',
             en_US: 'Settings',
             pl_PL: 'Ustawienia',
             sv_SE: 'inställningar',
@@ -1563,7 +1563,7 @@ lssm.Module = {
         },
         active: true,
         description: {
-            de: 'Globale Einstellungen',
+            de_DE: 'Globale Einstellungen',
             en_US: 'Global Settings',
             pl_PL: 'Ustawienia globalne',
             sv_SE: 'Globala inställningar',
@@ -1586,7 +1586,7 @@ lssm.Module = {
     },
     missionKeyword: {
         name: {
-            de: 'Einsatzstichworte',
+            de_DE: 'Einsatzstichworte',
             en_US: 'Mission Keywords',
             es_ES: 'Palabras clave de la misión',
             pt_PT: 'Palavras-chave da missão',
@@ -1605,7 +1605,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen ' +
+            de_DE: 'Anzeige von Stichworten bei Einsätzen. Die Stichworte orientieren sich weitgehend an denen ' +
                 'für Bayern.',
             en_US: 'Shows keywords for missions. The keywords are oriented to those used in Bavaria.',
             es_ES: 'Muestra las palabras clave de las misiones. Las palabras clave están orientadas a las que se utilizan en Baviera.',
@@ -1631,7 +1631,7 @@ lssm.Module = {
     },
     missionDate: {
         name: {
-            de: 'Meldedatum für Einsätze',
+            de_DE: 'Meldedatum für Einsätze',
             en_US: 'Mission Date',
             es_ES: 'Fecha de la misión',
             pt_PT: 'Data da Missão',
@@ -1650,7 +1650,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
+            de_DE: 'Zeigt das Meldedatum und die vergangene Zeit seit Eingang an.',
             en_US: 'Shows the date when the mission was generated and the hours/minutes since then',
             es_ES: 'Muestra la fecha en que se generó la misión y las horas/minutos transcurridos desde entonces.',
             pt_PT: 'Mostra a data em que a missão foi gerada e as horas / minutos desde então',
@@ -1675,7 +1675,7 @@ lssm.Module = {
     },
     iconFilter: {
         name: {
-            de: 'Icon Gebäude Filter',
+            de_DE: 'Icon Gebäude Filter',
             en_US: 'Icon building filter',
             es_ES: 'Filtro de construcción de iconos',
             pt_PT: 'Filtro de construção de ícone',
@@ -1694,7 +1694,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Tauscht den Gebäude Filter mit Icons aus.',
+            de_DE: 'Tauscht den Gebäude Filter mit Icons aus.',
             en_US: 'Replaces the building filter with icons.',
             es_ES: 'Sustituye el filtro del edificio por iconos.',
             pt_PT: 'Substitui o filtro de construção por ícones.',
@@ -1718,7 +1718,7 @@ lssm.Module = {
     },
     sumDailyMissions: {
         name: {
-            de: 'Summe für die tägliche Zusammenfassung',
+            de_DE: 'Summe für die tägliche Zusammenfassung',
             en_US: 'Sum for daily stats',
             es_ES: 'Suma de las estadísticas diarias',
             pl_PL: 'Suma dla statystyk dziennych',
@@ -1737,7 +1737,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der ' +
+            de_DE: 'Zeigt eine Summe über Anzahl Einsätze, Patienten, Gefangene und Verbandseinlieferungen in der ' +
                 'täglichen Zusammenfassung an.',
             en_US: 'Shows sums over missions, patients, prisoners and alliance in the daily stats page',
             es_ES: 'Muestra sumas sobre misiones, pacientes, prisioneros y alianzas en la página de estadísticas diarias.',
@@ -1762,7 +1762,7 @@ lssm.Module = {
     },
     aaoZaehler: {
         name: {
-            de: 'AAO-Klick-Zähler',
+            de_DE: 'AAO-Klick-Zähler',
             en_US: 'Alarm-Regulations-Counter',
             es_ES: 'Alarmas-Regulaciones-Contador',
             pt_PT: 'Alarme-Regulamentos-Contador',
@@ -1781,7 +1781,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zählt die Klicks auf einen AAO-Button',
+            de_DE: 'Zählt die Klicks auf einen AAO-Button',
             en_US: 'Counts the clicks on an alarm-regulations-button',
             es_ES: 'Cuenta los clics en un botón de regulación de alarma',
             pt_PT: 'Conta os cliques em um botão de regulamentos de alarme',
@@ -1804,7 +1804,7 @@ lssm.Module = {
     },
     creditserweiterung: {
         name: {
-            de: 'Creditserweiterung',
+            de_DE: 'Creditserweiterung',
             en_US: 'Credit expansion',
             es_ES: 'Expansión del crédito',
             pt_PT: 'Expansão de crédito',
@@ -1823,7 +1823,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
+            de_DE: 'Fügt ein paar spezielle Informationen zu den Credits in einem Dropdown hinzu',
             en_US: 'Add some special information about the credits in a drop-down list',
             es_ES: 'Agregar información especial sobre los créditos en una lista desplegable',
             pt_PT: 'Adicione algumas informações especiais sobre os créditos em uma lista suspensa',
@@ -1846,7 +1846,7 @@ lssm.Module = {
     },
     displayUserId: {
         name: {
-            de: 'User-ID',
+            de_DE: 'User-ID',
             en_US: 'User-ID',
             pt_PT: 'ID do usuário',
             pl_PL: 'Identyfikacja użytkownika',
@@ -1862,7 +1862,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt die eigene ID in der Kopfzeile, und die jeweilige User-ID im Profil an.',
+            de_DE: 'Zeigt die eigene ID in der Kopfzeile, und die jeweilige User-ID im Profil an.',
             en_US: 'Shows the own ID in the header line, and the respective user ID in the profile.',
             es_ES: 'Muestra el ID propio en la línea de cabecera y el ID de usuario correspondiente en el perfil.',
             pt_PT: 'Mostra o próprio ID na linha do cabeçalho e o respectivo ID do usuário no perfil.',
@@ -1885,7 +1885,7 @@ lssm.Module = {
     },
     showChatButtonAbove: {
         name: {
-            de: 'show Chatbutton Above',
+            de_DE: 'show Chatbutton Above',
             en_US: 'show Chatbutton Above',
             es_ES: 'Mostrar Chatbutton Arriba',
             pt_PT: 'mostrar Chatbutton acima',
@@ -1904,7 +1904,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
+            de_DE: 'Zeigt den Chatverlauf-Knopf auch in der Kopfzeile des Chats an.',
             en_US: 'Displays the Chat History button in the chat header.',
             es_ES: 'Muestra el botón Historial de chat en el encabezado del chat.',
             pt_PT: 'Exibe o botão Histórico do bate-papo no cabeçalho do bate-papo.',
@@ -1927,11 +1927,11 @@ lssm.Module = {
     },
     showNotTransportButtonAbove: {
         name: {
-            de: 'show Patient entlassen Above',
+            de_DE: 'show Patient entlassen Above',
         },
         active: false,
         description: {
-            de: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
+            de_DE: 'Zeigt den Patient-Entlassen-Knopf bei einem Sprechwunsch unter dem Fahrzeugnamen an.'
         },
         source: '/modules/lss-show-notTransportPatientButtonAbove/show-notTransportPatientButtonAbove.user.js',
         supportedLocales: ['de'],
@@ -1940,7 +1940,7 @@ lssm.Module = {
     },
     verbandsverwaltung: {
         name: {
-            de: "Verbandsverwaltung",
+            de_DE: "Verbandsverwaltung",
             en_US: "Alliance-extension",
             es_ES: "Extensión de la alianza",
             pt_PT: "Extensão da Aliança",
@@ -1958,7 +1958,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: "Verbandsübersicht auf einen Blick im Hauptfenster",
+            de_DE: "Verbandsübersicht auf einen Blick im Hauptfenster",
             en_US: "Alliance overview at a glance in the main window",
             es_ES: "Vista general de la alianza de un vistazo en la ventana principal",
             pt_PT: "Visão geral da Aliança na janela principal",
@@ -1981,7 +1981,7 @@ lssm.Module = {
     },
     overview: {
         name: {
-            de: "Übersicht",
+            de_DE: "Übersicht",
             en_US: "overview",
             es_ES: "visión de conjunto",
             pt_PT: "Visão geral",
@@ -2000,7 +2000,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: "Übersicht über alle Fahrzeuge sowie auch Wachen.",
+            de_DE: "Übersicht über alle Fahrzeuge sowie auch Wachen.",
             en_US: "Overview of all vehicles as well as buildings.",
             es_ES: "Vista general de todos los vehículos así como de los edificios.",
             pt_PT: "Visão geral de todos os veículos e edifícios.",
@@ -2023,7 +2023,7 @@ lssm.Module = {
     },
     extendedBuilding: {
         name: {
-            de: "Erweiterte Gebäudeansicht",
+            de_DE: "Erweiterte Gebäudeansicht",
             en_US: "Extended building view",
             es_ES: "Vista ampliada del edificio",
             pt_PT: "Vista ampliada do edifício",
@@ -2042,7 +2042,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: "Übersicht über Ausbauten und Personalbedarf",
+            de_DE: "Übersicht über Ausbauten und Personalbedarf",
             en_US: "Overview of extensions and personnel requirements",
             es_ES: "Resumen de las ampliaciones y de las necesidades de personal",
             pt_PT: "Visão geral de extensões e requisitos de pessoal",
@@ -2064,7 +2064,7 @@ lssm.Module = {
     },
     statusCount: {
         name: {
-            de: "Status-Zähler",
+            de_DE: "Status-Zähler",
             en_US: "Status Counter",
             es_ES: "Contador de estado",
             pt_PT: "Contador de status",
@@ -2083,7 +2083,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de: "Gibt die Zahl der einzelnen Status aus.",
+            de_DE: "Gibt die Zahl der einzelnen Status aus.",
             en_US: "Displays the number of individual statuses.",
             es_ES: "Muestra el número de status individuales.",
             pt_PT: "Exibe o número de status individuais.",

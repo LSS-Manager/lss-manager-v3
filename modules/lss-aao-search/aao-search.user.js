@@ -1,5 +1,5 @@
 (function ($, I18n) {
-    I18n.translations.de['lssm']['aaosearch'] = {
+    I18n.translations.de_DE['lssm']['aaosearch'] = {
         search_aao: "AAO suchen",
         use_dd: "Dropdown nutzen: ",
         reset: "Zurücksetzen",

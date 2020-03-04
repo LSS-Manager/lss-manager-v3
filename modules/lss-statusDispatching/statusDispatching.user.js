@@ -2,7 +2,7 @@
 
     let LSS_FASTS5_STORAGE = "StatusDispatching";
 
-    I18n.translations.de.lssm.statusDispatching = {
+    I18n.translations.de_DE.lssm.statusDispatching = {
         name : 'Verbesserte Status 5',
         fms : 'Sprechwunsch bearbeiten',
         nextVehicle : 'Zum nächsten Fahrzeug im Status 5',
@@ -152,7 +152,7 @@
         backToAlarm: 'Retour à la mission',
         settingsTitle: 'Demandes de transport améliorées - Paramètres',
         settingsAttr: 'Cliquez sur le bouton "Transport Demandé" dans le masque de mission automatiquement',
-        settingsAttrDesc: 'L\'activation de cette option permet de cliquer automatiquement sur le bouton "transport demandé" dans le masque de mission.De cette façon, vous devez passer en revue toutes les demandes de transport avant de pouvoir voir les détails de la mission.L\'activation de cette option permet un traitement plus rapide des demandes de transport.<br>'
+        settingsAttrDesc: 'L\'activation de cette option permet de cliquer automatiquement sur le bouton "transport demandé" dans le masque de mission. De cette façon, vous devez passer en revue toutes les demandes de transport avant de pouvoir voir les détails de la mission.L\'activation de cette option permet un traitement plus rapide des demandes de transport.<br>'
             + 'Désactiver cette option permet de voir les détails de la mission avant de traiter les demandes de transport. Les boutons "Aller au véhicule suivant avec une demande de transport" et "Retour à la mission" ne sont pas affectés par ce réglage et sont toujours cliqués automatiquement.',
         close: 'Fermer',
         fms5H1: 'transportiert'
