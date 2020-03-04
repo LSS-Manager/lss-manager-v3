@@ -1,5 +1,5 @@
 (function (I18n, $) {
-    I18n.translations.de['lssm']['saveVGE'] = {
+    I18n.translations.de_DE['lssm']['saveVGE'] = {
         save: "Speichern",
         del: "Löschen",
         noVGE:"Keine gespeicherten VGE!",

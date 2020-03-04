@@ -6,7 +6,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
 (I18n => {
 
-    I18n.translations.de.lssm.missionhelper = {
+    I18n.translations.de_DE.lssm.missionhelper = {
         diy_mission: 'Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.',
         siwa: 'Sicherheitswache',
         vge: 'VerbandsGroßEinsatz',
@@ -2989,7 +2989,7 @@ const lssm_missionhelper_adjustPosition = () => {
     };
 
     switch (I18n.locale) {
-        case 'de':
+        case 'de_DE':
             managed_settings.settings.water = {
                 default: true,
                 ui: {
@@ -3121,8 +3121,8 @@ const lssm_missionhelper_adjustPosition = () => {
               MISSION.patients.rth && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.rth')}: ${MISSION.patients.rth}%`);
               MISSION.patients.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.patients.tragehilfe}%`);
 
-              I18n.locale === 'de' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
-              I18n.locale === 'de' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
+              I18n.locale === 'de_DE' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
+              I18n.locale === 'de_DE' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
               I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
               I18n.locale === 'nl_NL' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
               content.innerHTML += '<br>';

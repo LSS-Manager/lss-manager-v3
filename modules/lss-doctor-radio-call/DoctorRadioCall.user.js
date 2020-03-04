@@ -1,7 +1,7 @@
 (function(I18n, $) {
   'use strict';
 
-  I18n.translations.de.lssm.doctorradiocall = {
+  I18n.translations.de_DE.lssm.doctorradiocall = {
     nef: "NEF"
   };
   I18n.translations.en_US.lssm.doctorradiocall = {

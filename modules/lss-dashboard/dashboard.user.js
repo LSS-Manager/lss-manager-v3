@@ -1,4 +1,4 @@
-I18n.translations.de['lssm']['dashboard'] = {
+I18n.translations.de_DE['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Fahrzeuge",
@@ -1037,7 +1037,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">' + I18n.t('lssm.dashboard.categories')[0] + '</a>')
                 .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">' + I18n.t('lssm.dashboard.categories')[1] + '</a>')
                 .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">' + I18n.t('lssm.dashboard.categories')[2] + '</a>');
-            if (I18n.locale == "de")
+            if (I18n.locale == "de_DE")
                 $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>')
                     .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_wret">Wasser</a>')
             $("#wp_sub").append('<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">' + I18n.t('lssm.dashboard.school') + '</a>')

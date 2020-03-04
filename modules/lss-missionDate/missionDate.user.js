@@ -1,5 +1,5 @@
 (function() {
-  I18n.translations.de.lssm.missionDate = {
+  I18n.translations.de_DE.lssm.missionDate = {
     ago: 'Vor',
     months: ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'],
     dateRegex: /([0-9]{2})\. (.*), ([0-9]{2}):([0-9]{2})/i
@@ -174,7 +174,7 @@
     }
 
       let markup;
-    if (I18n.locale === 'de') {
+    if (I18n.locale === 'de_DE') {
       markup = '{0} - <span>{1} {2}</span>';
     } else {
       markup = '{0} - <span>{2} {1}</span>';

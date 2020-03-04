@@ -5,7 +5,7 @@
     let EXPORT_COMPATIBILITY = 1.2;
     let EXPORT_FILE_NAME = "settings.lssm";
 
-    I18n.translations.de.lssm.managedsettings = {
+    I18n.translations.de_DE.lssm.managedsettings = {
         title: "LSSM Einstellungen",
         text1: "Hier kannst du Einstellungen für deine aktivierten Plugins vornehmen",
         text2: "",

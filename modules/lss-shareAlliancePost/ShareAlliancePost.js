@@ -2,7 +2,7 @@
 
     let LSS_SHAREALLIANCEPOST_STORAGE = "LSS_SHAREALLIANCEPOST_STORAGE";
 
-    I18n.translations.de.lssm.sharealliancepost = {
+    I18n.translations.de_DE.lssm.sharealliancepost = {
         share: 'Teilen...',
         chat: 'Chatten...',
         alert: 'Alarmieren...',

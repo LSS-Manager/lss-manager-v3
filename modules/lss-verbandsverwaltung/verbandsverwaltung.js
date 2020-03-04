@@ -4,7 +4,7 @@
 
     if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
-    I18n.translations.de.lssm.verbandsverwaltung = {
+    I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
         allianceFunds: 'Verbandskasse',
         allianceCredits: 'Verdiente Credits',
