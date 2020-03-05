@@ -6925,7 +6925,7 @@
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
-    I18n.translations.de_De.lssm.missionKeyword = DEFAULT_AAO_DEDE;
+    I18n.translations.de_DE.lssm.missionKeyword = DEFAULT_AAO_DEDE;
     I18n.translations.en_US.lssm.missionKeyword = DEFAULT_AAO_ENUS;
     I18n.translations.en_GB.lssm.missionKeyword = DEFAULT_AAO_ENGB;
     I18n.translations.en_AU.lssm.missionKeyword = DEFAULT_AAO_ENAU;
