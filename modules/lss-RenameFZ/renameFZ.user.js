@@ -308,19 +308,19 @@
                 20: "Ambulance station (Small station)"
             },
             vehicleTypes: {
-                0: 'Class 2 Pumper',
-                1: 'Class 1 Tanker',
+                0: 'Pumper',
+                1: 'Light Tanker',
                 2: 'Turntable Ladder',
-                3: 'Rapid Response Vehicle',
-                4: 'Heavy Rescue',
+                3: 'Support Vehicle',
+                4: 'Rescue',
                 5: 'Ambulance',
-                6: 'Water Tanker',
-                7: 'HAZMAT Truck',
-                8: 'Police Car',
-                9: 'Helitak',
-                10: 'Mobile air',
+                6: 'Bulk Water Tanker',
+                7: 'HAZMAT',
+                8: 'Police car',
+                9: 'Air Ambulance',
+                10: 'BASU',
                 11: 'MCV',
-                12: 'Rescue Engine'
+                12: 'Rescue Pumper'
             }
         }
     };

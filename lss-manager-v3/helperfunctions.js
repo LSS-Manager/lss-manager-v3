@@ -99,19 +99,19 @@ else if (I18n.locale == "en_AU")
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["Class 2 Pumper", 0],
-        "1": ["Class 1 Tanker", 0],
+        "0": ["Pumper", 0],
+        "1": ["Light Tanker", 0],
         "2": ["Turntable Ladder", 0],
-        "3": ["Rapid Response Vehicle", 0],
-        "4": ["Heavy Rescue", 0],
+        "3": ["Support Vehicle", 0],
+        "4": ["Rescue", 0],
         "5": ["Ambulance", 2],
-        "6": ["Water Tanker", 0],
-        "7": ["HAZMAT Truck", 0],
-        "8": ["Police Car", 6],
-        "9": ["Helitak", 2],
-        "10": ["Mobile Air", 0],
+        "6": ["Bulk Water Tanker", 0],
+        "7": ["HAZMAT", 0],
+        "8": ["Police car", 6],
+        "9": ["Air Ambulance", 2],
+        "10": ["BASU", 0],
         "11": ["MCV", 0],
-        "12": ["Rescue Engine", 0]
+        "12": ["Rescue Pumper", 0]
     };
 }
 else if (I18n.locale == "es_ES")

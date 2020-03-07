@@ -537,9 +537,9 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "Fire engines",
             platform: "Turntable Ladder",
-            heavyRescue: "Heavy Rescue",
-            air: "Mobile Air",
-            bchief: "Rapid Response Vehicles",
+            heavyRescue: "Rescue",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "Support Vehicle",
             tanker: "Water Tanker",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",

@@ -143,7 +143,7 @@
         "credits": 600
     },
     "11": {
-        "name": "Burning callbox",
+        "name": "Burning phone box",
         "stations": {
             "0": 1
         },
@@ -340,7 +340,8 @@
         },
         "vehicles": {
             "truck": 4,
-            "bchief": 1
+            "bchief": 1,
+            "air": 1
         },
         "credits": 1500,
         "patients": {
@@ -348,7 +349,10 @@
             "transport": 30,
             "specialisation": "General Internal"
         },
-        "poi": 9
+        "poi": 9,
+        "percentages": {
+            "air": 50
+        }
     },
     "27": {
         "name": "Garage fire",
@@ -387,9 +391,13 @@
             "heavyRescue": 2,
             "bchief": 2,
             "police": 3,
-            "hazmat": 2
+            "hazmat": 2,
+            "air": 1
         },
-        "credits": 5300
+        "credits": 5300,
+        "percentages": {
+            "air": 70
+        }
     },
     "30": {
         "name": "Gas Leak",
@@ -431,7 +439,8 @@
         },
         "vehicles": {
             "truck": 4,
-            "bchief": 1
+            "bchief": 1,
+            "air": 1
         },
         "credits": 1500,
         "patients": {
@@ -439,7 +448,10 @@
             "transport": 30,
             "specialisation": "General Internal"
         },
-        "poi": 9
+        "poi": 9,
+        "percentages": {
+            "air": 50
+        }
     },
     "34": {
         "name": "Fire in Hospital",
@@ -452,15 +464,20 @@
             "bchief": 2,
             "heavyRescue": 2,
             "tanker": 1,
-            "platform": 3
+            "platform": 3,
+            "air": 1,
+            "mcv": 1
         },
-        "credits": 6000,
+        "credits": 6100,
         "patients": {
             "max": 25,
             "transport": 50,
             "specialisation": "General Internal"
         },
-        "poi": 2
+        "poi": 2,
+        "percentages": {
+            "mcv": 90
+        }
     },
     "35": {
         "name": "Alcoholic intoxication",
@@ -536,7 +553,9 @@
             "heavyRescue": 1,
             "tanker": 1,
             "hazmat": 1,
-            "police": 2
+            "police": 2,
+            "air": 1,
+            "mcv": 1
         },
         "credits": 6000,
         "patients": {
@@ -546,7 +565,9 @@
         },
         "poi": 15,
         "percentages": {
-            "tanker": 40
+            "tanker": 40,
+            "air": 70,
+            "mcv": 90
         }
     },
     "42": {
@@ -771,7 +792,8 @@
         "vehicles": {
             "truck": 5,
             "bchief": 1,
-            "platform": 1
+            "platform": 1,
+            "air": 1
         },
         "credits": 2000,
         "patients": {
@@ -779,7 +801,10 @@
             "transport": 50,
             "specialisation": "General Internal"
         },
-        "poi": 12
+        "poi": 12,
+        "percentages": {
+            "air": 60
+        }
     },
     "61": {
         "name": "Light Aircraft Crash (Airfield)",
@@ -894,7 +919,9 @@
             "platform": 1,
             "heavyRescue": 1,
             "tanker": 1,
-            "police": 1
+            "police": 1,
+            "air": 1,
+            "mcv": 1
         },
         "credits": 3000,
         "patients": {
@@ -904,7 +931,9 @@
         },
         "poi": 10,
         "percentages": {
-            "tanker": 20
+            "tanker": 20,
+            "air": 80,
+            "mcv": 90
         }
     },
     "69": {
@@ -918,9 +947,13 @@
             "heavyRescue": 2,
             "bchief": 2,
             "police": 3,
-            "hazmat": 1
+            "hazmat": 1,
+            "air": 1
         },
-        "credits": 4300
+        "credits": 4300,
+        "percentages": {
+            "air": 70
+        }
     },
     "70": {
         "name": "Big Supermarket Fire",
@@ -935,7 +968,9 @@
             "platform": 1,
             "heavyRescue": 1,
             "tanker": 1,
-            "police": 1
+            "police": 1,
+            "air": 1,
+            "mcv": 1
         },
         "credits": 3000,
         "patients": {
@@ -945,7 +980,9 @@
         },
         "poi": 10,
         "percentages": {
-            "tanker": 20
+            "tanker": 20,
+            "air": 80,
+            "mcv": 90
         }
     },
     "71": {
@@ -1007,9 +1044,11 @@
             "bchief": 3,
             "platform": 2,
             "tanker": 2,
-            "heavyRescue": 2
+            "heavyRescue": 2,
+            "air": 1,
+            "mcv": 1
         },
-        "credits": 10210
+        "credits": 10500
     },
     "75": {
         "name": "Burning bogle",
@@ -1104,9 +1143,10 @@
         "credits": 100
     },
     "84": {
-        "name": "Cyclist hit by HV",
+        "name": "Cyclist hit by truck",
         "stations": {
-            "0": 4
+            "0": 4,
+            "6": 2
         },
         "vehicles": {
             "truck": 2,
@@ -1130,7 +1170,9 @@
         },
         "vehicles": {
             "truck": 6,
-            "bchief": 2
+            "bchief": 2,
+            "air": 1,
+            "mcv": 1
         },
         "credits": 5300,
         "patients": {
@@ -1138,7 +1180,11 @@
             "transport": 50,
             "specialisation": "General Internal"
         },
-        "poi": 12
+        "poi": 12,
+        "percentages": {
+            "air": 60,
+            "mcv": 70
+        }
     },
     "86": {
         "name": "Theft at christmas market",
@@ -1284,7 +1330,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "ambulance": 3
+            "ambulance": 1
         },
         "credits": 1300,
         "patients": {
@@ -1312,8 +1358,7 @@
         },
         "vehicles": {
             "truck": 3,
-            "bchief": 1,
-            "ambulance": 1
+            "bchief": 1
         },
         "credits": 1000,
         "patients": {
@@ -1481,7 +1526,7 @@
         "specialisation": "Traumatology"
     },
     "112": {
-        "name": "HGV Fire",
+        "name": "Road Train Fire",
         "stations": {
             "0": 7,
             "6": 1
@@ -1492,7 +1537,7 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 2500,
+        "credits": 1400,
         "percentages": {
             "tanker": 10
         }
@@ -1509,7 +1554,7 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 5000
+        "credits": 2000
     },
     "114": {
         "name": "Motorbike accident",
@@ -1772,5 +1817,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "127": {
+        "name": "Fire in silo",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 4,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 21
     }
 }
