@@ -363,6 +363,30 @@
             }
         }
     };
+    I18n.translations.ko_KR.lssm.statuscount = {
+        name: "상태 카운트",
+        settings: {
+            show: "표시 / 숨기기",
+            status: {
+                show: {
+                    label: "보여 주다",
+                    description: "상태가 전혀 표시되어야합니까? 중요 :이 설정은 다른 설정보다 우선 순위가 높습니다. 즉,이 설정이 꺼져 있으면 상태가 표시되지 않습니다."
+                },
+                hide: {
+                    label: "요청시에만 표시",
+                    description: "카운터는 하나 이상의 차량이이 상태에있는 경우에만 표시됩니다. (주의 : 카운터가 완전히 숨겨져 있으면이 설정이 활성화되어 있어도 표시되지 않습니다!)"
+                },
+                percent: {
+                    label: "백분율 표시",
+                    description: "이 상태의 백분율이 표시되어야합니까?"
+                }
+            },
+            round: {
+                label: "라운드 비율",
+                description: "백분율 (표시된 경우)을 몇 자리로 반올림해야합니까?"
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

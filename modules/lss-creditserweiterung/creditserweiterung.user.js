@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -515,6 +515,33 @@
             updateMessage: '値は5分ごとに自動的に更新されます。<br>クレジットとコインは<br>常に最新です。',
             allianceFunds: 'アライアンス基金',
             noFurtherRank: 'これ以上のランクはありません'
+        }
+    };
+    I18n.translations.ko_KR.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? 크레딧 수입.*/i,
+        ranks: {
+            0: '견습생',
+            200: '소방사',
+            10000: '소방교',
+            100000: '소방 장비 오퍼레이터',
+            1000000: '소방위',
+            5000000: '소방경',
+            20000000: '소방대위',
+            50000000: '소방대장',
+            1000000000: '소방준감',
+            2000000000: '소방정감',
+            5000000000: '소방총감'
+        },
+        texts: {
+            reloadMessage: '프로필을 열고 <br> 웹 사이트를 다시로드하십시오!',
+            dropdownName: '크레딧 확장',
+            creditsOverview: '개요',
+            coinsProtokoll: '코인리스트',
+            earnedCredits: '완전히 적립 된 크레딧',
+            creditsToNextRank: '다음 순위의 크레딧',
+            updateMessage: '값이 자동으로 업데이트됩니다<br>5 분마다.<br>크레딧과 동전은<br>지속적으로 최신.',
+            allianceFunds: '얼라이언스 기금',
+            noFurtherRank: '더 이상 순위가 없습니다'
         }
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {

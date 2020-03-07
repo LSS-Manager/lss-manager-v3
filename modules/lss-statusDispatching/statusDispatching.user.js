@@ -197,6 +197,19 @@
         fms5H1: '輸送する'
     };
 
+    I18n.translations.ko_KR.lssm.statusDispatching = {
+        name: '향상된 전송 요청',
+        fms: '운송 요청',
+        nextVehicle: '운송 요청으로 다음 차량으로 이동',
+        backToAlarm: '임무로 돌아 가기',
+        settingsTitle: '향상된 전송 요청-설정',
+        settingsAttr: '미션 마스크에서 "전송 요청"버튼을 자동으로 클릭하십시오',
+        settingsAttrDesc: '이 옵션을 활성화하면 미션 마스크에서 "전송 요청"버튼을 자동으로 클릭 할 수 있습니다. 이렇게하면 임무에 대한 세부 정보를보기 전에 모든 전송 요청을 수행해야합니다. 이 옵션을 사용하면 전송 요청을보다 빠르게 처리 할 수 있습니다.<br>'
+            + '이 옵션을 비활성화하면 전송 요청을 처리하기 전에 미션 세부 정보를 볼 수 있습니다. "운송 요청이있는 다음 차량으로 이동"및 "미션으로 돌아 가기"버튼은이 설정의 영향을받지 않으며 항상 자동으로 클릭됩니다.',
+        close: '닫기',
+        fms5H1: '운송업자'
+    };
+
     I18n.translations.nl_NL.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

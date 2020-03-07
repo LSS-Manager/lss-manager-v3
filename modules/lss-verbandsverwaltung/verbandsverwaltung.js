@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -183,6 +183,18 @@
         updateMessage: '値は自動的に<br>更新されます ' + updateMin + ' 分。',
         chartErr: 'グラフを読み込めませんでした "{{chart}}"!<br>一部のブラウザでこれが発生することはすでにわかっていますが、まだ理由はわかりません。<br> この問題は既に報告されているため、このエラーを報告しないでください。',
         hoverTip: 'ヒント：要素にカーソルを合わせると、値の履歴が表示されます.'
+    };
+    I18n.translations.ko_KR.lssm.verbandsverwaltung = {
+        name: '관리',
+        allianceFunds: '얼라이언스 기금',
+        allianceCredits: '적립 된 크레딧',
+        users: '회원',
+        onlineUsers: '온라인 회원',
+        allianceRank: '얼라이언스 목록에서 순위',
+        page: '페이지',
+        updateMessage: '값이 자동으로 업데이트됩니다<br>마다 ' + updateMin + ' 의사록.',
+        chartErr: '차트를로드 할 수 없습니다 "{{chart}}"!<br>우리는 이것이 이미 일부 브라우저에서 발생한다는 것을 알고 있지만 아직 이유는 없습니다. 부디 <b>하지마</b> 이미이 문제에 대해이 오류를보고하십시오!',
+        hoverTip: '팁 : 요소 위에 마우스를 올려 놓으면 값 기록이 표시됩니다..'
     };
     I18n.translations.nl_NL.lssm.verbandsverwaltung = {
         name: 'Administratie',

@@ -196,6 +196,19 @@
             cells: 'セル全体を非表示'
         }
     };
+    I18n.translations.ko_KR.lssm.destfilter = {
+        title: '대상 필터',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: '전체 병원 숨기기',
+            department: '필요한 부서없이 병원 숨기기',
+            distance: 'xkm 거리 이상의 목적지 숨기기 (0 비활성화)',
+            tax: '세금이 x %보다 높은 목적지 숨기기',
+            cells: '전체 세포 숨기기'
+        }
+    };
     I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

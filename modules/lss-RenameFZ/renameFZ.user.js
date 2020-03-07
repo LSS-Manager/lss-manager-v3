@@ -1243,6 +1243,69 @@
         }
     };
 
+    I18n.translations.ko_KR.lssm.renameFz = {
+        name: '차량 이름 바꾸기',
+        rename: "이름 바꾸기",
+        id: "{id} 차량의 ID",
+        old: "{old} 현재 이름",
+        vehicleType: "{vehicleType} 차량 종류",
+        stationName: "{stationName} 건물의 이름",
+        tagging: '{tagging} 차량 유형의 표시',
+        number: '{number} 타입 카운터',
+        numberRoman: '{numberRoman} 타입 카운터 (로마 숫자)',
+        dispatch: '{dispatch} 파견 센터 이름',
+        dispatchAlias: '{dispatchAlias} 파견 센터의 별명',
+        stationAlias: '{stationAlias} 건물-앨리 아',
+        saveAll: '모두 저장',
+        statusWaiting: '입력을 기다립니다',
+        statusError: '<b>생성 중 오류가 발생했습니다!</b> 이 오류가 다시 발생하면보고하십시오. 다음 정보를 제공하십시오 :',
+        statusWorking: '이름과 양식을 생성하십시오. 시스템과 차량 수에 따라 일정 시간이 걸릴 수 있습니다.',
+        statusSuccess: '이름과 양식이 성공적으로 생성되었습니다!',
+        nameAlreadyCorrect: '이름은 이미 템플릿에 해당합니다!',
+        nameToLong: '다음 차량에는 이름이 너무 깁니다.',
+        nameToLongOriginalName: '원래 이름',
+        nameToLongGeneratedName: '생성 된 이름',
+        nameToLongShortenedName: '새로운 / 축소 된 이름',
+        helpTitle: '이 링크에서 작은 지침을 찾을 수 있습니다. ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: '카운터 시작',
+        counterOverride: '같은 종류의 차량이 여러 대 있다면 어쨌든 1부터 시작하십시오.',
+        startNumHelp: '여기에서 유형 카운터의 시작 값을 입력 할 수 있습니다. 0을 시작 값으로 설정하면 유형의 첫 번째 차량에 번호가 부여되지 않습니다. 가드에 유형의 차량이 하나만 있고 번호를 지정하지 않으려는 경우 매우 실용적입니다. 그러나 카운터를 5에서 시작할 수도 있습니다 (원하는 이유는 가능하지만 가능합니다).',
+        toggleNameCorrect: '올바른 이름의 차량 표시 / 숨기기',
+        settings: {
+            show: '표시 / 숨기기',
+            names: {
+                vehicleTypes: '차량 종류',
+                stations: '건물 별명'
+            },
+            descriptions: {
+                vehicleTypes: '여기서 각 차량 유형에 대한 대체 이름을 설정할 수 있습니다. 디스패치 센터를 통해 차량 이름을 바꿀 때 사용할 수 있습니다.',
+                stations: '여기서 각 건물의 대체 이름을 설정할 수 있습니다. 디스패치 센터를 통해 차량 이름을 바꿀 때 사용할 수 있습니다.'
+            },
+            validStationTypes: {
+                0: "소방서",
+                2: "응급실",
+                6: "경찰서",
+                7: "지휘센터",
+                18: ">소방서(소형)",
+                19: "경찰서(소형 관할서)",
+                20: "응급실(소형 관할서)"
+            },
+            vehicleTypes: {
+                0: '구조사다리',
+                1: '전술 대응 차량(TRV)',
+                2: '고가 사다리(TL)',
+                3: '지휘차',
+                4: '구조공작차(MRU)',
+                5: '구급차',
+                6: '물탱크차',
+                7: '생화학 인명구조차',
+                8: '사고 대응차량(IRV)',
+                9: '수색구조용 헬기'
+            }
+        }
+    };
+
     I18n.translations.nl_NL.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",

@@ -514,6 +514,31 @@ else if (I18n.locale == "ja_JP") {
         "9": ["SARヘリコプター", 2]
     };
 }
+else if (I18n.locale == "ko_KR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "구급차 확충": 0,
+        "비행장 확충": 1,
+        "수상 구조 확충": 2,
+        // Pol-Erweiterungen (10-19)
+        "유치장": 10,
+        "추가 유치장": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["구조사다리", 0],
+        "1": ["전술 대응 차량(TRV)", 0],
+        "2": ["고가 사다리(TL)", 0],
+        "3": ["지휘차", 0],
+        "4": ["구조공작차(MRU)", 0],
+        "5": ["구급차", 2],
+        "6": ["물탱크차", 0],
+        "7": ["생화학 인명구조차", 0],
+        "8": ["사고 대응차량(IRV)", 6],
+        "9": ["수색구조용 헬기", 2]
+    };
+}
 else if (I18n.locale == "nl_NL")
 {
 	lssm.extensions = {
