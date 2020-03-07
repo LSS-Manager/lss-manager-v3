@@ -44,6 +44,9 @@
     I18n.translations.ja_JP['lssm']['allianceMissionlistShare'] = {
         title: "提携リリース"
     };
+    I18n.translations.ko_KR['lssm']['allianceMissionlistShare'] = {
+        title: "동맹의 석방"
+    };
     I18n.translations.nl_NL['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };

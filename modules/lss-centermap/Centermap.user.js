@@ -242,6 +242,22 @@
         }
     };
 
+    I18n.translations.en_US.lssm.centermap = {
+        center: "센터",
+        settings: {
+            title: "센터 맵",
+            choose: "선택 해주세요",
+            option1: "기본",
+            option1desc: "기본 줌 레벨 및 제어 센터 중심 ",
+            option2: "동적",
+            alliance: "동맹을 고려",
+            option2desc: "모든 미션과 스테이션이 보이는 센터 맵.",
+            option3: "커스텀",
+            option3desc: "맞춤 위치 및 확대 / 축소 수준을 설정하십시오.",
+            set: "현재 위치 저장"
+        }
+    };
+
     I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {

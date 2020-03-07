@@ -74,6 +74,11 @@
             "これらのデータには、ID、ユーザー名、ガードの数、使用されているブラウザー、有効なモジュールが含まれます。\r\n\r\n" +
             "これに同意しますか？"
     };
+    I18n.translations.ko_KR.lssm.telemetry = {
+        question: "LSS Manager는 비 개인 데이터를 개발자에게 보내서 스크립트를 개선하고 오류를 찾습니다.\r\n" +
+            "이러한 데이터에는 ID, 사용자 이름, 가드 수, 사용 된 브라우저 및 활성화 된 모듈이 포함됩니다.\r\n\r\n" +
+            "이것에 동의하십니까?"
+    };
 	I18n.translations.nl_NL.lssm.telemetry = {
 		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +

@@ -9280,10 +9280,7 @@
             "fustw": 1
         },
         "credits": 150,
-        "poi": 6,
-        "prisoners": {
-            "max": 1
-        }
+        "poi": 6
     },
     "512": {
         "name": "Herrenloses Gep\u00e4ckst\u00fcck",
@@ -9294,9 +9291,37 @@
             "fustw": 1
         },
         "credits": 150,
-        "poi": 33,
-        "prisoners": {
-            "max": 1
+        "poi": 33
+    },
+    "513": {
+        "name": "Hausdach eingest\u00fcrzt",
+        "stations": {
+            "0": 4,
+            "2": 2,
+            "6": 2,
+            "9": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "rw": 2,
+            "dlk": 2,
+            "elw1": 1,
+            "fwk": 1,
+            "gkw": 1,
+            "mtwtz": 1,
+            "mzkw": 1,
+            "radlader": 1,
+            "fustw": 2
+        },
+        "credits": 3200,
+        "patients": {
+            "max": 4,
+            "transport": 70,
+            "nef": 30,
+            "specialisation": "Unfallchirurgie"
+        },
+        "percentages": {
+            "fwk": 45
         }
     }
 }

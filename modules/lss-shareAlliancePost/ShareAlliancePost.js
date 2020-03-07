@@ -289,6 +289,24 @@
         }
     };
 
+    I18n.translations.ko_KR.lssm.sharealliancepost = {
+        share: '공유...',
+        chat: '잡담...',
+        alert: '경보...',
+        chatm: '팀 채팅',
+        reqVehIdent: '필요 차량:',
+        reqVeh: '다른 차량은 필요하지 않습니다.',
+        settings: {
+            title: '알림, 공유 및 게시',
+            jumpNext: '경고 후 다음 미션으로 이동',
+            enableKeyboard: '키보드 단축키 사용',
+            defaultPostToChat: '채팅에 게시가 기본입니다',
+            shortcutKeys: '경고를위한 쉼표로 구분 된 키 목록. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: '메시지 템플릿. 자리 표시 자 :<ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            timeOffset: '에 대한 오프셋 %TIME_OFFSET%-시간 단위의 포맷터'
+        }
+    };
+
     
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,

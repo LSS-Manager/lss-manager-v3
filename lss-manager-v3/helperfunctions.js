@@ -99,19 +99,19 @@ else if (I18n.locale == "en_AU")
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["Class 2 Pumper", 0],
-        "1": ["Class 1 Tanker", 0],
+        "0": ["Pumper", 0],
+        "1": ["Light Tanker", 0],
         "2": ["Turntable Ladder", 0],
-        "3": ["Rapid Response Vehicle", 0],
-        "4": ["Heavy Rescue", 0],
+        "3": ["Support Vehicle", 0],
+        "4": ["Rescue", 0],
         "5": ["Ambulance", 2],
-        "6": ["Water Tanker", 0],
-        "7": ["HAZMAT Truck", 0],
-        "8": ["Police Car", 6],
-        "9": ["Helitak", 2],
-        "10": ["Mobile Air", 0],
+        "6": ["Bulk Water Tanker", 0],
+        "7": ["HAZMAT", 0],
+        "8": ["Police car", 6],
+        "9": ["Air Ambulance", 2],
+        "10": ["BASU", 0],
         "11": ["MCV", 0],
-        "12": ["Rescue Engine", 0]
+        "12": ["Rescue Pumper", 0]
     };
 }
 else if (I18n.locale == "es_ES")
@@ -512,6 +512,31 @@ else if (I18n.locale == "ja_JP") {
         "7": ["危険物取扱ユニット", 0],
         "8": ["事故対応車両（IRV）", 6],
         "9": ["SARヘリコプター", 2]
+    };
+}
+else if (I18n.locale == "ko_KR") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "구급차 확충": 0,
+        "비행장 확충": 1,
+        "수상 구조 확충": 2,
+        // Pol-Erweiterungen (10-19)
+        "유치장": 10,
+        "추가 유치장": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["구조사다리", 0],
+        "1": ["전술 대응 차량(TRV)", 0],
+        "2": ["고가 사다리(TL)", 0],
+        "3": ["지휘차", 0],
+        "4": ["구조공작차(MRU)", 0],
+        "5": ["구급차", 2],
+        "6": ["물탱크차", 0],
+        "7": ["생화학 인명구조차", 0],
+        "8": ["사고 대응차량(IRV)", 6],
+        "9": ["수색구조용 헬기", 2]
     };
 }
 else if (I18n.locale == "nl_NL")

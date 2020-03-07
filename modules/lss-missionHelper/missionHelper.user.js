@@ -537,9 +537,9 @@ const lssm_missionhelper_adjustPosition = () => {
         vehicles: {
             truck: "Fire engines",
             platform: "Turntable Ladder",
-            heavyRescue: "Heavy Rescue",
-            air: "Mobile Air",
-            bchief: "Rapid Response Vehicles",
+            heavyRescue: "Rescue",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "Support Vehicle",
             tanker: "Water Tanker",
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
@@ -2662,11 +2662,11 @@ const lssm_missionhelper_adjustPosition = () => {
             "森",
             "バス停",
             "電車停留所",
-            "駅（普通車両）",
-            "駅（普通車両と長距離路線）",
+            "駅\\（普通車両\\）",
+            "駅\\（普通車両と長距離路線\\）",
             "雑貨屋",
-            "スーパーマーケット（小型）",
-            "スーパーマーケット（大型）",
+            "スーパーマーケット\\（小型\\）",
+            "スーパーマーケット\\（大型\\）",
             "ガソリンスタンド",
             "学校",
             "博物館",
@@ -2684,8 +2684,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "映画館",
             "イベント会場",
             "河川",
-            "小型空港（滑走路）",
-            "大型空港（滑走路）",
+            "小型空港\\（滑走路\\）",
+            "大型空港\\（滑走路\\）",
             "空港ターミナル",
             "銀行",
             "倉庫",
@@ -2703,12 +2703,154 @@ const lssm_missionhelper_adjustPosition = () => {
             "工場",
             "ゴミ処分場",
             "地下鉄駅",
-            "化学薬品タンク（小型）",
-            "化学薬品タンク（大型）",
+            "化学薬品タンク\\（小型\\）",
+            "化学薬品タンク\\（大型\\）",
             "ホテル",
             "バー",
             "埋立地",
             "駐車ガレージ"
+        ]
+    };
+
+    I18n.translations.ko_KR.lssm.missionhelper = {
+        diy_mission: '이 임무는 대규모 동맹 임무 인 것 같습니다.',
+        siwa: '계획된 임무',
+        vge: '대규모 동맹 임무',
+        patients: '환자',
+        prisoners: '죄수',
+        to: '까지',
+        ambulance_only: '이 임무는 구급차 전용입니다!',
+        title: '선교사',
+        transport: '수송',
+        settings: {
+            name: {
+                label: '이름',
+                description: '도우미의 임무 이름을 표시합니다.'
+            },
+            id: {
+                label: '신분증',
+                description: '헬퍼에서 미션의 ID를 표시합니다.'
+            },
+            type: {
+                label: '유형 ID',
+                description: '헬퍼에서 미션 유형의 ID를 표시합니다.'
+            },
+            poi: {
+                label: '다음',
+                description: '도우미에서 작업이 있는 POI를 나타냅니다.'
+            },
+            live_patients: {
+                label: '환자 수',
+                description: '현재 사용중인 환자 수를 실시간으로 보여줍니다.'
+            },
+            vehicles: {
+                label: '차량',
+                description: '필요한 차량을 표시합니다.'
+            },
+            patients: {
+                label: '환자 정보',
+                description: '(잠재적) 환자에 대한 정보를 표시합니다.'
+            },
+            prisoners: {
+                label: '죄수 정보',
+                description: '(잠재적 인) 포로에 대한 정보를 표시합니다.'
+            },
+            special: {
+                label: '기타 정보',
+                description: '필요한 평균 최소 인원 수와 같은 특수 정보를 표시합니다.'
+            },
+            expansions: {
+                label: '분포',
+                description: '베팅이 퍼질 수있는 것을 보여줍니다. (간단한 스프레드 만 표시)'
+            },
+            show_100: {
+                label: '100 % 확률 표시',
+                description: '차량이 100 % 인 경우에도 차량의 확률을 표시합니다.'
+            },
+            credits: {
+                label: '평균 수입',
+                description: '이 과제에서 얻은 평균 수입을 보여줍니다.'
+            },
+            show_siwa: {
+                label: '경비원의 요구 사항',
+                description: '도우미의 보안 요원에 대한 요구 사항도 표시합니다.'
+            },
+            mission_time: {
+                label: '창조 시간',
+                description: '미션이 생성 된 날짜와 시간을 보여줍니다.'
+            }
+        },
+        vehicles: {
+            truck: "소방차",
+            platform: "플랫폼 트럭",
+            heavyRescue: "중장비 구조 차량",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "소방대장",
+            tanker: "수상 탱커",
+            hazmat: "생화학 차량",
+            mcv: "Incident Command and Control Unit",
+            police: "경찰차",
+            arff: "ARFF",
+            k9: "Dog Support Unit",
+            swatSuv: "Armed Response Vehicle (ARV)",
+            rth: "HEMS",
+            policeHeli: "Police helicopter",
+        },
+        pois: [
+            "공원",
+            "호수",
+            "병원",
+            "숲",
+            "버스 정류장",
+            "전차 정류장",
+            "기차역\\(지역 교통\\)",
+            "기차역\\(지역 교통 및 장거리 여행역\\)",
+            "화물역",
+            "슈퍼마켓\\(소형\\)",
+            "슈퍼마켓\\(대형\\)",
+            "주유소",
+            "학교",
+            "박물관",
+            "쇼핑몰",
+            "차량 정비소",
+            "고속도로 출구",
+            "크리스마스 마켓",
+            "저장소",
+            "디스코텍",
+            "경기장",
+            "농장",
+            "사무용 건물",
+            "수영장",
+            "철길 건널목",
+            "극장",
+            "박람회장",
+            "강",
+            "소형 공항\\(활주로\\)",
+            "대형 공항\\(활주로\\)",
+            "공항 터미널",
+            "은행",
+            "창고",
+            "다리",
+            "패스트푸드 레스토랑",
+            "적하구",
+            "재활용 센터",
+            "고층 건물",
+            "유람선 부두",
+            "정박지",
+            "철도 건널목",
+            "터널",
+            "냉동 창고",
+            "발전소",
+            "공장",
+            "고철 처리장",
+            "지하철역",
+            "소형 화학물질 저장 탱크",
+            "대형 화학물질 저장 탱크",
+            "호텔",
+            "술집",
+            "매립지",
+            "주차장",
+            "Silo"
         ]
     };
 

@@ -77,6 +77,12 @@
         noVGE: "保存された同盟ミッションはありません！",
         VGEs: "LSAMs"
     };
+    I18n.translations.ko_KR['lssm']['saveVGE'] = {
+        save: "저장",
+        del: "지우다",
+        noVGE: "저장된 얼라이언스 미션이 없습니다!",
+        VGEs: "LSAMs"
+    };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
     	del: "Verwijderen",

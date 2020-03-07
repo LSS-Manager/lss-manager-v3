@@ -295,6 +295,47 @@
     }
   }
 
+  I18n.translations.ja_JP.lssm['n-alarm'] = {
+    not_support: "このブラウザはHTML5-Notificationsをサポートしていません",
+    inithead: "初期化",
+    chat_message: "からのチャットメッセージ ",
+    blend: "後に隠す：",
+    seconds: "秒",
+    settings: {
+      title: "通知アラート",
+      chat_title: "チャットメッセージ",
+      chat_text: "通知としてチャットメッセージを取得します。",
+      s5_title: "輸送依頼",
+      save: "セーブ",
+      close: "閉じる",
+      s5_text: "通知としてトランスポートリクエストを取得する",
+      status_title: "状態",
+      status_text: "すべてのステータスメッセージを通知として取得します。",
+      chatp_title: "情報ポップアップとしてチャットメッセージを取得する",
+      chatp_text: "すべてのチャットメッセージを右側のポップアップメッセージとして取得する"
+    }
+  }
+
+  I18n.translations.ko_KR.lssm['n-alarm'] = {
+    not_support: "이 브라우저는 HTML5 알림을 지원하지 않습니다",
+    inithead: "초기화",
+    chat_message: "님의 채팅 메시지 ",
+    blend: "후 숨기기 :",
+    seconds: "초",
+    settings: {
+      title: "알림 알림",
+      chat_title: "채팅 메시지",
+      chat_text: "채팅 메시지를 알림으로받습니다.",
+      s5_title: "운송 요청",
+      save: "저장",
+      close: "닫기",
+      s5_text: "전송 요청을 알림으로 가져 오기",
+      status_title: "상태",
+      status_text: "모든 상태 메시지를 알림으로받습니다.",
+      chatp_title: "정보 팝업으로 채팅 메시지 받기",
+      chatp_text: "오른쪽에 모든 채팅 메시지를 팝업 메시지로 표시"
+    }
+  }
 
   I18n.translations.nl_NL.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",

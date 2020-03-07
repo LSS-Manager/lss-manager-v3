@@ -839,6 +839,62 @@
             }
         }
     };
+    I18n.translations.ko_KR.lssm.extendedBuilding = {
+        title: '확장 된 건물 전망',
+        crew: '승무원 (최대)',
+        fms: '상태',
+        assignment: '인사 할당',
+        neededPersonnel: '필요한 인원',
+        expansionFinished: '끝마친',
+        expansionNotStarted: '시작되지 않음',
+        personnelOverview: '인사 개요',
+        schooling: '교육',
+        schoolingsMulti: '교육의 모든 조합',
+        schoolingsSingle: '단일 교육',
+        amount: '양',
+        expansionName: '기술',
+        vehicleType: '유형',
+        binding: '할당',
+        bindingAmount: '경계',
+        settings: {
+            neededPersonnel: {
+                label: '필요한 인원',
+                description: '모든 차량을 완전히 점유해야 할 경우 필요한 인원을 표시합니다',
+            },
+            switchStatus: {
+                label: '빠른 상태 변경',
+                description: '차량 상태는 상태 표시를 통해 S2와 S6 사이에서 직접 변경할 수 있습니다',
+            },
+            assignmentBtn: {
+                label: '빠른 할당',
+                description: '"직원 지정"창으로 빠르게 이동하는 버튼 추가',
+            },
+            assignedWorkers: {
+                label: '지정된 인원',
+                description: '각 차량에 할당 된 인원 수를 표시합니다',
+            },
+            currentCrew: {
+                label: '현재 승무원',
+                description: '현재 차량에 몇 명의 인원이 앉아 있는지를 각 차량에 표시',
+            },
+            expansions: {
+                label: '확장 표시',
+                description: '확장의 현재 상태 표시',
+            },
+            personnelOverview: {
+                label: '확장 된 인력 개요',
+                description: '직원 개요에 직원이 어느 정도의 교육을 받았는지 표시',
+            },
+            vehicleType: {
+                label: '차량 종류 표시',
+                description: '차량 목록에 차량 유형을 표시합니다.',
+            },
+            expansionDate: {
+                label: '확장 완료 날짜',
+                description: '구성이 완료 될 때도 확장 목록에 표시됩니다 ( "확장 표시"설정과 관련하여 작동)',
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

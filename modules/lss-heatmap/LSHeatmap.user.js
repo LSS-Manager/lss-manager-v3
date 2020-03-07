@@ -514,6 +514,19 @@
             }
         ]
     };
+    I18n.translations.ko_KR.lssm.heatmap = {
+        active: '유효한',
+        vehicleType: '여러 떼',
+        radius: '반지름',
+        intensity: '강렬',
+        close: '닫기',
+        vehicleGroups: [
+            {
+                name: '자신의 조합',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

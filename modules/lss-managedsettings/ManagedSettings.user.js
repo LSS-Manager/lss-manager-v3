@@ -290,6 +290,25 @@
         import_fail: "エラー：ファイルのインポート中にエラーが発生しました： <strong> {0} </strong>. 開発者に連絡してください。"
     };
 
+    I18n.translations.ko_KR.lssm.managedsettings = {
+        title: "LSSM 설정",
+        text1: "여기에서 활성화 된 플러그인의 설정을 변경할 수 있습니다.",
+        text2: "",
+        save: "저장 후 닫기",
+        settings_tab: "설정",
+        addField_btn: "더하다",
+        export_btn: "설정 내보내기",
+        import_btn: "가져 오기 설정",
+        reset_btn: "설정 초기화",
+        reset_hint: "이 모듈의 설정을 기본값으로 재설정 하시겠습니까?",
+        reset_success: "설정을 성공적으로 재설정했습니다. 작동하려면 페이지를 새로 고침해야합니다.",
+        export_success: "성공적으로 내 보낸 설정",
+        export_hint: "현재 활성화 된 모듈의 이전에 저장된 설정 만 내보낼 수 있습니다.",
+        import_success: "설정을 성공적으로 가져 왔습니다. 작동하려면 페이지를 새로 고침해야합니다.",
+        import_missmatch: "불행히도 읽기 파일은 더 이상 현재 LSSM 버전과 호환되지 않습니다.",
+        import_fail: "오류 : 파일을 가져 오는 중 오류가 발생했습니다 : <strong> {0} </strong>. 개발자에게 알려주십시오."
+    };
+
     I18n.translations.nl_NL.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",
