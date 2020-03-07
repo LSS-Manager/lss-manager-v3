@@ -7,14 +7,14 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "소방차",
-            platform: "Aerial Appliance",
-            heavyRescue: "Rescue Support Vehicle",
+            platform: "플랫폼 트럭",
+            heavyRescue: "중장비 구조 차량",
             air: "Breathing Apparatus Support Unit",
-            bchief: "Fire Officer",
-            tanker: "Water Carrier",
-            hazmat: "HazMat",
+            bchief: "소방대장",
+            tanker: "수상 탱커",
+            hazmat: "생화학 차량",
             mcv: "Incident Command and Control Unit",
-            police: "Police Car",
+            police: "경찰차",
             ambulance: "Ambulance",
             arff: "ARFF",
             k9: "Dog Support Units",
@@ -47,7 +47,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/평균 크레딧/)) {
                 credits = number;
-            } else if (content.match(/필요한/)) {
+            } else if (content.match(/필요한|요건/)) {
                 stations[getStation(content)] = number;
             } else if (content.match(/공간/)) {
                 poi = getPOI(content);
@@ -58,24 +58,24 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/필요한/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probability of/)) {
+            } else if (content.match(/필요 가능성/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
         data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Max\. Patients/)) {
+            if (content.match(/최대 환자/)) {
                 patientsMax = number;
-            } else if (content.match(/Minimum patient number/)) {
+            } else if (content.match(/최소 환자 수/)) {
                 patientsMin = number;
-            } else if (content.match(/transported/)) {
+            } else if (content.match(/환자가 이송될 확률/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Patient Specializations/)) {
+            } else if (content.match(/환자 전문화/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maximum Number of Prisoners/)) {
+            } else if (content.match(/최대 죄수 수/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
@@ -205,11 +205,11 @@ $.get(missionlink)
                 "숲",
                 "버스 정류장",
                 "전차 정류장",
-                "기차역(지역 교통)",
-                "기차역(지역 교통 및 장거리 여행역)",
+                "기차역\\(지역 교통\\)",
+                "기차역\\(지역 교통 및 장거리 여행역\\)",
                 "화물역",
-                "슈퍼마켓(소형)",
-                "슈퍼마켓(대형)",
+                "슈퍼마켓\\(소형\\)",
+                "슈퍼마켓\\(대형\\)",
                 "주유소",
                 "학교",
                 "박물관",
@@ -227,8 +227,8 @@ $.get(missionlink)
                 "극장",
                 "박람회장",
                 "강",
-                "소형 공항(활주로)",
-                "대형 공항(활주로)",
+                "소형 공항\\(활주로\\)",
+                "대형 공항\\(활주로\\)",
                 "공항 터미널",
                 "은행",
                 "창고",
@@ -264,8 +264,8 @@ $.get(missionlink)
         function getStation(content) {
             let stationDefinitions = {
                 0: "소방서",
-                2: "Rescue Station",
-                6: "Police Station",
+                2: "구조대",
+                6: "경찰서",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {

@@ -638,6 +638,7 @@
             "police": 1
         },
         "credits": 150,
+        "poi": 0,
         "prisoners": {
             "max": 1
         }
@@ -650,7 +651,8 @@
         "vehicles": {
             "police": 1
         },
-        "credits": 120
+        "credits": 120,
+        "poi": 4
     },
     "51": {
         "name": "\u4e0d\u6b63\u4e57\u8eca",
@@ -660,7 +662,8 @@
         "vehicles": {
             "police": 1
         },
-        "credits": 120
+        "credits": 120,
+        "poi": 5
     },
     "52": {
         "name": "\u4e0d\u6b63\u4e57\u8eca",
