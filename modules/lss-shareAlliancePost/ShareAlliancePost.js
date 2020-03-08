@@ -518,7 +518,7 @@
             messages = messages.map((message) => {
                 message = message.replace('%ADDRESS%', address);
                 message = message.replace('%CITY%', ort);
-                message = message.replace('%TIME_OFFSET%', customTime + ':00 Uhr');
+                message = message.replace('%TIME_OFFSET%', customTime + ':' + customTime.getMinutes() + ' Uhr');
                 message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                 message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
 
