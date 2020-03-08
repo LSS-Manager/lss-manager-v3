@@ -519,7 +519,7 @@
             messages = messages.map((message) => {
                 message = message.replace('%ADDRESS%', address);
                 message = message.replace('%CITY%', ort);
-                message = message.replace('%TIME_OFFSET%', customTime + ':' + time.getMinutes() + 'Uhr');
+                message = message.replace('%TIME_OFFSET%', `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
                 message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                 message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
 
