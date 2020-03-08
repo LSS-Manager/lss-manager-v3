@@ -242,7 +242,7 @@
         }
     };
 
-    I18n.translations.en_US.lssm.centermap = {
+    I18n.translations.ko_KR.lssm.centermap = {
         center: "센터",
         settings: {
             title: "센터 맵",
