@@ -504,7 +504,8 @@
 
             // Prepare values for %MY_CUSTOM_TIME%
             const offsetInHours = getSetting('timeOffset');
-            let customTime = new Date().getHours() + offsetInHours;
+            let time = new Date();
+            let customTime = time.getHours() + offsetInHours;
             customTime = customTime > 24 ? customTime - 24 : customTime;
 
             // Prepare required Vehicles
@@ -518,7 +519,7 @@
             messages = messages.map((message) => {
                 message = message.replace('%ADDRESS%', address);
                 message = message.replace('%CITY%', ort);
-                message = message.replace('%TIME_OFFSET%', customTime + ':00 Uhr');
+                message = message.replace('%TIME_OFFSET%', customTime + ':' + time.getMinutes() + 'Uhr');
                 message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                 message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
 
