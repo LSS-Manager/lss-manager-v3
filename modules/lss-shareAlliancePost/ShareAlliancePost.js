@@ -515,6 +515,15 @@
             if (alertText && alertText.text().indexOf(requiredVehiclesIdentifier) >= 0) {
                 requiredVehicles = alertText.text().trim().substr(requiredVehiclesIdentifier.length, alertText.text().trim().length - 1);
             }
+            
+            // Prepare %CREDITS%
+            let credits;
+            const missionShareLink = $('#mission_alliance_share_btn').attr('href');
+            const missionID = missionShareLink.replace('/missions/', '').replace('/alliance', '');
+            const langCode = I18n.currentLocale();
+            $.getJSON(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
+                credits = data.credits;
+            });
 
             messages = messages.map((message) => {
                 message = message.replace('%ADDRESS%', address);
@@ -522,6 +531,7 @@
                 message = message.replace('%TIME_OFFSET%', `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
                 message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                 message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
+                message = message.replace('%CREDITS%', credits);
 
                 return message;
             });
