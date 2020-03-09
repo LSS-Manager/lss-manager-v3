@@ -517,7 +517,7 @@
             }
             
             // Prepare %CREDITS%
-            const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
+            const missionlink = $('#mission_help').attr('href');
             const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
             console.log(missionID, langCode)
