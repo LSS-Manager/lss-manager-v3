@@ -521,7 +521,7 @@
             const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
             console.log(missionID, langCode)
-            $.getJSON(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
+            $.get(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
                 console.log(data)
         	    messages = messages.map((message) => {
                     message = message.replace('%CREDITS%', String(data.credits));
