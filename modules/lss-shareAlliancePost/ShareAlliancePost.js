@@ -518,8 +518,8 @@
             
             // Prepare %CREDITS%
             let credits;
-            const missionShareLink = $('#mission_alliance_share_btn').attr('href');
-            const missionID = missionShareLink.replace('/missions/', '').replace('/alliance', '');
+            const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
+            const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
             $.getJSON(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
                 credits = data.credits;
