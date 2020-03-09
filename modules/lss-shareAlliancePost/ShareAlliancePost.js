@@ -517,14 +517,13 @@
             }
             
             // Prepare %CREDITS%
-            let credits;
+            
             const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
             const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
             $.getJSON(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
-                credits = data.credits;
         	    messages = messages.map((message) => {
-                    message = message.replace('%CREDITS%', credits);
+                    message = message.replace('%CREDITS%', data.credits);
                     message = message.replace('%ADDRESS%', address);
                     message = message.replace('%CITY%', ort);
                     message = message.replace('%TIME_OFFSET%', `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
