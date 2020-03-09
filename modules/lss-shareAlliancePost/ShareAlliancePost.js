@@ -492,7 +492,7 @@
 
     };
 
-    const transformMessages = () => {
+    const transformMessages = callback => {
         try {
             // Prepare values for %ADDRESS% and %PATIENTS_LEFT%
             // Possible inputs 'xy street, 1234 city', '1234 city', '123 city | 2' (where 2 is number of patients)
@@ -515,25 +515,34 @@
             if (alertText && alertText.text().indexOf(requiredVehiclesIdentifier) >= 0) {
                 requiredVehicles = alertText.text().trim().substr(requiredVehiclesIdentifier.length, alertText.text().trim().length - 1);
             }
+            
+            // Prepare %CREDITS%
+            const missionlink = $('#mission_help').attr('href');
+            const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
+            const langCode = I18n.currentLocale();
+            fetch(`https://lssm.ledbrain.de/api/missions.php?lang=${langCode}&mission=${missionID}`).then(res=>res.json()).then(data => {
+        	    messages = messages.map((message) => {
+                    message = message.replace(/%CREDITS%/g, data.credits.toLocaleString());
+                    message = message.replace(/%ADDRESS%/g, address);
+                    message = message.replace(/%CITY%/g, ort);
+                    message = message.replace(/%TIME_OFFSET%/g, `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
+                    message = message.replace(/%PATIENTS_LEFT%/g, patientsLeft);
+                    message = message.replace(/%REQUIRED_VEHICLES%/g, requiredVehicles);
 
-            messages = messages.map((message) => {
-                message = message.replace('%ADDRESS%', address);
-                message = message.replace('%CITY%', ort);
-                message = message.replace('%TIME_OFFSET%', `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
-                message = message.replace('%PATIENTS_LEFT%', patientsLeft);
-                message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
-
-                return message;
+                    return message;
+                });
+                callback();
             });
+            
         } catch (e) {
             console.log('Error transforming messages', e);
         }
     };
 
     let messages = Array.isArray(getSetting('messages')) ? getSetting('messages') : [];
-    transformMessages();
-    initButtons();
-    initKeys();
-
+    transformMessages(() => {
+        initButtons();
+        initKeys();
+    });
 
 })(I18n, jQuery);
