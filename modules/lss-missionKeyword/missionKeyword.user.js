@@ -907,7 +907,8 @@
         350: 'Choking',
         351: 'Injured person on high voltage mast',
         352: 'Large Ferry Fire',
-        353: 'Residential police raid'
+        353: 'Residential police raid',
+        354: 'Straw bale stack on fire'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1070,7 +1071,8 @@
         141: 'Choking',
         142: 'Barn fire',
         143: 'Stuck Climber',
-        144: 'Threatening an official'
+        144: 'Threatening an official',
+        145: 'Fire in an office building'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1215,7 +1217,8 @@
         123: 'Stuck Climber',
         124: 'Threatening an official',
         125: 'Threatening an official',
-        126: 'Threatening an official'
+        126: 'Threatening an official',
+        127: 'Fire in silo'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1356,7 +1359,8 @@
         119: 'Asfixia',
         120: 'Fuego en la cafetería',
         121: 'Escalador atascador',
-        122: 'Amenaza a un oficial'
+        122: 'Amenaza a un oficial',
+        123: 'Fuego en el granero'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1496,7 +1500,8 @@
         118: 'Fuego en la cocina',
         119: 'Fuego en la cafetería',
         120: 'Escalador atascado',
-        121: 'Amenaza a un oficial'
+        121: 'Amenaza a un oficial',
+        122: 'Fuego en el granero'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1595,7 +1600,8 @@
         77: 'Asfixia',
         78: 'Incêndio no refeitório',
         79: 'Preso a fazer escalada',
-        80: 'Ameaças sobre funcionário'
+        80: 'Ameaças sobre funcionário',
+        81: 'Incêndio num silo'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1693,7 +1699,8 @@
         76: 'Asfixia',
         77: 'Incêndio no refeitório',
         78: 'Preso a fazer escalada',
-        79: 'Ameaças sobre funcionário'
+        79: 'Ameaças sobre funcionário',
+        80: 'Incêndio num silo'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1831,7 +1838,8 @@
         116: 'Ryggsmärtor',
         117: 'Brand i byggnad - skola',
         118: 'Person - svår belägenhet',
-        119: 'Explosion - inomhus'
+        119: 'Explosion - inomhus',
+        120: 'Brand i byggnad - Silo'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -1945,7 +1953,8 @@
         92: 'Rygsmerter',
         93: 'Cafeterie Brand',
         94: 'Klatrer sidder fast',
-        95: 'Vold mod en tjenestemand'
+        95: 'Vold mod en tjenestemand',
+        96: 'Silobrand'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2053,7 +2062,8 @@
         86: 'Dušení',
         87: 'Požár jídelny',
         88: 'Zaseknutý horolezec',
-        89: 'Napadení úředníka'
+        89: 'Napadení úředníka',
+        90: 'Požár sila'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2153,7 +2163,8 @@
         78: 'Boğucu',
         79: 'Kafeterya Yangını',
         80: 'Sıkışmış dağcı',
-        81: 'Görevliye tehdit'
+        81: 'Görevliye tehdit',
+        82: 'Ambarda yangın'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2267,7 +2278,8 @@
         92: 'Ryggsmerter',
         93: 'Brann i kafeteria',
         94: 'Klatreulykke',
-        95: 'Vold mot offentlig tjenesteperson'
+        95: 'Vold mot offentlig tjenesteperson',
+        96: 'Silobrann'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2420,7 +2432,9 @@
         131: 'Unieruchomiony Wspinacz',
         132: 'Pochylone drzewo na budynek mieszkalny',
         133: 'Zagrożenie dla urzędnika państwowego',
-        134: 'Zwierzę uwięzione w studni'
+        134: 'Zwierzę uwięzione w studni',
+        135: 'Pożar silosu',
+        136: 'Pożar Stodoły'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2566,7 +2580,9 @@
         124: 'Scalatore in difficoltà',
         125: 'Ostacolo in corsia',
         126: 'Aggressione a pubblico ufficiale',
-        127: 'Spray urticante in luogo pubblico'
+        127: 'Spray urticante in luogo pubblico',
+        128: 'Silos in fiamme',
+        129: 'Blitz attività commerciale illegale'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2701,7 +2717,8 @@
         113: 'Étouffement',
         114: 'Feu de cafétéria',
         115: 'Escaladeur coincé',
-        116: 'Menacer un fonctionnaire'
+        116: 'Menacer un fonctionnaire',
+        117: 'Nausées - Vomissements'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2828,7 +2845,8 @@
         105: 'Задыхаясь',
         106: 'Пожар в кафетерии',
         107: 'Застрявший альпинист',
-        108: 'Угроза насилия'
+        108: 'Угроза насилия',
+        109: 'Возгорание силоса'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -2924,7 +2942,8 @@
         74: 'Велике займання',
         75: 'Кав\'ярня у вогні',
         76: 'Застряглий альпініст',
-        77: 'Насильство службовій особі'
+        77: 'Насильство службовій особі',
+        78: 'Спалах силоса'
       }
     };
     I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
@@ -3023,7 +3042,8 @@
         77: '患者の輸送',
         78: '放火魔の逮捕',
         79: '呼吸停止',
-        80: '役人に対する暴力'
+        80: '役人に対する暴力',
+        81: 'サイロ火事'
       }
     };
     I18n.translations.ko_KR.lssm.missionKeywordDefaults = {
@@ -3710,7 +3730,9 @@
         567: 'Verward persoon',
         568: 'Verward persoon (Hoge dreiging)',
         569: 'Verward persoon draait gaskraan open',
-        570: 'Geplande aanhouding vuurwapengevaarlijke verdachte'
+        570: 'Geplande aanhouding vuurwapengevaarlijke verdachte',
+        571: 'Voedselvergiftiging',
+        572: 'Zwangere vrouw in noodsituatie'
       }
     };
 
@@ -4603,7 +4625,8 @@
       350: 'MED 1',
       351: 'TECH 1',
       352: 'FIRE 5 SHIP',
-      353: 'POL 4'
+      353: 'POL 4',
+      354: 'FIRE 4'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -4751,7 +4774,8 @@
       141: 'MED 1',
       142: 'FIRE 3',
       143: 'TECH 1',
-      144: 'POL 1'
+      144: 'POL 1',
+      145: 'FIRE 6'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4880,7 +4904,8 @@
       123: 'TECH 1',
       124: 'POL 1',
       125: 'POL 1',
-      126: 'POL 1'
+      126: 'POL 1',
+      127: 'FIRE 3'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -5005,7 +5030,8 @@
       119: 'MED 1',
       120: 'FIRE 2',
       121: 'TECH 1',
-      122: 'POL 1'
+      122: 'POL 1',
+      123: 'FIRE 5'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -5129,7 +5155,8 @@
       118: 'FIRE 1',
       119: 'FIRE 2',
       120: 'TECH 1',
-      121: 'POL 1'
+      121: 'POL 1',
+      122: 'FIRE 5'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -5212,7 +5239,8 @@
       77: 'MED 1',
       78: 'FIRE 2',
       79: 'TECH 1',
-      80: 'POL 1'
+      80: 'POL 1',
+      81: 'FIRE 5'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -5294,7 +5322,8 @@
       76: 'MED 1',
       77: 'FIRE 2',
       78: 'TECH 1',
-      79: 'POL 1'
+      79: 'POL 1',
+      80: 'FIRE 5'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -5416,7 +5445,8 @@
       116: 'MED 1',
       117: 'FIRE 2',
       118: 'TECH 1',
-      119: 'FIRE 3'
+      119: 'FIRE 3',
+      120: 'FIRE 5'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -5514,7 +5544,8 @@
       92: 'MED 1',
       93: 'FIRE 2',
       94: 'TECH 1',
-      95: 'POL 1'
+      95: 'POL 1',
+      96: 'FIRE 5'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -5606,7 +5637,8 @@
       86: 'MED 1',
       87: 'FIRE 2',
       88: 'TECH 1',
-      89: 'POL 1'
+      89: 'POL 1',
+      90: 'FIRE 5'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -5690,7 +5722,8 @@
       78: 'MED 1',
       79: 'FIRE 2',
       80: 'TECH 1',
-      81: 'POL 1'
+      81: 'POL 1',
+      82: 'FIRE 5'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -5788,7 +5821,8 @@
       92: 'MED 1',
       93: 'FIRE 2',
       94: 'TECH 1',
-      95: 'POL 1'
+      95: 'POL 1',
+      96: 'FIRE 5'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -5925,7 +5959,9 @@
       131: 'TECH 1',
       132: 'TECH 1',
       133: 'POL 1',
-      134: 'TECH 1'
+      134: 'TECH 1',
+      135: 'FIRE 3',
+      136: 'FIRE 6'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -6055,7 +6091,9 @@
       124: 'TECH 1',
       125: 'POL 1',
       126: 'POL 1',
-      127: 'MED 3'
+      127: 'MED 3',
+      128: 'FIRE 3',
+      129: 'POL 4'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -6174,7 +6212,8 @@
       113: 'MED 1',
       114: 'FIRE 2',
       115: 'TECH 1',
-      116: 'POL 1'
+      116: 'POL 1',
+      117: 'MED 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -6285,7 +6324,8 @@
       105: 'MED 1',
       106: 'FIRE 2',
       107: 'TECH 1',
-      108: 'POL 1'
+      108: 'POL 1',
+      109: 'FIRE 5'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -6365,7 +6405,8 @@
       74: 'FIRE 7',
       75: 'FIRE 2',
       76: 'TECH 1',
-      77: 'POL 1'
+      77: 'POL 1',
+      78: 'FIRE 5'
     };
     let DEFAULT_AAO_JAJP = {
       0: 'FIRE 1',
@@ -6448,7 +6489,8 @@
       77: 'MEDT',
       78: 'MED 1',
       79: 'MED 1',
-      80: 'POL 1'
+      80: 'POL 1',
+      81: 'FIRE 5'
     };
     let DEFAULT_AAO_KOKR = {
       0: 'FIRE 1',
@@ -7103,7 +7145,9 @@
       567: 'P 1',
       568: 'P 4',
       569: 'P 5',
-      570: 'P 3'
+      570: 'P 3',
+      571: 'A 1',
+      572: 'A 1'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

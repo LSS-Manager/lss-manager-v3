@@ -8,7 +8,7 @@ $.get(missionlink)
         let vehicleDefinitons = {
             truck: "cisternové automobilové",
             platform: "automobilov",
-            heavyRescue: "těžká technická vozidla",
+            heavyRescue: "TA",
             air: "fordon",
             bchief: "velitelsk",
             tanker: "kombinované hasící automobily|KHA",
@@ -253,7 +253,8 @@ $.get(missionlink)
                 "Hotel",
                 "Bar",
                 "Skládka",
-                "Kryté parkoviště"
+                "Kryté parkoviště",
+				"Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

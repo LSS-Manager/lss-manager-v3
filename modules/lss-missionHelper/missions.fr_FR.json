@@ -1593,5 +1593,14 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "117": {
+        "name": "Naus\u00e9es - Vomissements",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Interne g\u00e9n\u00e9ral"
     }
 }

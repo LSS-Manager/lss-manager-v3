@@ -253,7 +253,8 @@ $.get(missionlink)
                 "Hotel",
                 "Bar",
                 "Losseplads",
-                "Parkeringshus"
+                "Parkeringshus",
+				"Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

@@ -247,7 +247,8 @@ $.get(missionlink)
                 "ホテル",
                 "バー",
                 "埋立地",
-                "駐車ガレージ"
+                "駐車ガレージ",
+				"サイロ"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

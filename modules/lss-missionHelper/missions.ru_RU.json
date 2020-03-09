@@ -1489,5 +1489,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "109": {
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0441\u0438\u043b\u043e\u0441\u0430",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

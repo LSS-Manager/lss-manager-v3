@@ -221,7 +221,7 @@ $.get(missionlink)
                 "Discotheque",
                 "Stadium",
                 "Farm",
-                "Office building",
+                "Office Building",
                 "Swimming bath",
                 "Railroad Crossing",
                 "Theater",

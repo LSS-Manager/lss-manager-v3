@@ -1974,5 +1974,32 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "145": {
+        "name": "Fire in an office building",
+        "stations": {
+            "0": 15,
+            "2": 2,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "police": 3,
+            "air": 1,
+            "tanker": 1
+        },
+        "credits": 7000,
+        "patients": {
+            "max": 4,
+            "specialisation": "General Internal"
+        },
+        "poi": 22,
+        "percentages": {
+            "air": 50
+        }
     }
 }
