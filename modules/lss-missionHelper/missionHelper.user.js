@@ -740,6 +740,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Vertedero",
             "Aparcamiento",
+			"Granero"
         ]
     };
 
@@ -872,6 +873,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Vertedero",
             "Aparcamiento",
+			"Granero"
         ]
     };
 
@@ -1012,6 +1014,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Aterro sanitário",
             "Garagem de estacionamento",
+			"Silo"
         ]
     };
 
@@ -1144,6 +1147,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Aterro sanitário",
             "Garagem de estacionamento",
+			"Silo"
         ]
     };
 
@@ -1286,7 +1290,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotell",
             "Bar",
             "Soptipp",
-            "Parkeringshus"
+            "Parkeringshus",
+			"Silo"
         ]
     };
 
@@ -1429,7 +1434,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Losseplads",
-            "Parkeringshus"
+            "Parkeringshus",
+			"Silo"
         ]
     };
 
@@ -1572,7 +1578,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Skládka",
-            "Kryté parkoviště"
+            "Kryté parkoviště",
+			"Silo"
         ]
     };
 
@@ -1715,7 +1722,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Otel",
             "Bar",
             "Çöplük",
-            "Katlı Otopark"
+            "Katlı Otopark",
+			"Ambar"
         ]
     };
 
@@ -1858,7 +1866,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotell",
             "Bar",
             "Avfallsdeponi",
-            "Parkeringshus"
+            "Parkeringshus",
+			"Silo"
         ]
     };
 
@@ -2001,7 +2010,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Składowisko odpadów",
-            "Parking"
+            "Parking",
+			"Silos"
         ]
     };
 
@@ -2144,7 +2154,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Discarica",
-            "Parcheggio coperto"
+            "Parcheggio coperto",
+			"Silos"
         ]
     };
 
@@ -2423,7 +2434,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Гостиница",
             "Бар",
             "Мусорный полигон",
-            "Паркинг"
+            "Паркинг",
+			"Силос"
         ]
     };
 
@@ -2566,7 +2578,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Готель",
             "Бар",
             "Сміттєзвалище",
-            "Гараж"
+            "Гараж",
+			"Силос"
         ]
     };
 
@@ -2708,7 +2721,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "ホテル",
             "バー",
             "埋立地",
-            "駐車ガレージ"
+            "駐車ガレージ",
+			"サイロ"
         ]
     };
 

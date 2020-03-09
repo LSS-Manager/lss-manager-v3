@@ -1665,5 +1665,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "122": {
+        "name": "Fuego en el granero",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

@@ -45,7 +45,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Gjennomsnittlige kreditter/)) {
+            if (content.match(/Gjennomsnittlig kreditt/)) {
                 credits = number;
             } else if (content.match(/Nødvendige|Krav på|Min./)) {
                 stations[getStation(content)] = number;
@@ -75,7 +75,7 @@ $.get(missionlink)
                 nef = number;
             } else if (content.match(/Sykehusavdeling/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/Maks antall innsatte/)) {
+            } else if (content.match(/Maks antall pågripelser/)) {
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
@@ -253,7 +253,8 @@ $.get(missionlink)
                 "Hotell",
                 "Bar",
                 "Avfallsdeponi",
-                "Parkeringshus"
+                "Parkeringshus",
+				"Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

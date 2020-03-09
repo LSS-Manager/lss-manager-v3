@@ -1266,7 +1266,7 @@
         "onlyRd": true,
         "transport": 80,
         "rth": 30,
-        "specialisation": "Generell indremedisiner"
+        "specialisation": "Generell medisin"
     },
     "93": {
         "name": "Brann i kafeteria",
@@ -1278,6 +1278,7 @@
             "truck": 3,
             "bchief": 1
         },
+        "credits": 1300,
         "patients": {
             "max": 2,
             "transport": 50,
@@ -1296,6 +1297,7 @@
             "heavyRescue": 1,
             "platform": 1
         },
+        "credits": 650,
         "patients": {
             "max": 1,
             "min": 1,
@@ -1314,10 +1316,28 @@
         "vehicles": {
             "police": 2
         },
+        "credits": 750,
         "patients": {
             "max": 1,
             "specialisation": "Generell medisin"
         },
-        "poi": 46
+        "poi": 46,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "96": {
+        "name": "Silobrann",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

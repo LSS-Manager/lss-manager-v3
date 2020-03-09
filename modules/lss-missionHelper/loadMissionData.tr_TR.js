@@ -251,7 +251,8 @@ $.get(missionlink)
                 "Otel",
                 "Bar",
                 "Çöplük",
-                "Katlı Otopark"
+                "Katlı Otopark",
+				"Ambar"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

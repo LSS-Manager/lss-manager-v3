@@ -1114,5 +1114,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "81": {
+        "name": "Inc\u00eandio num silo",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

@@ -250,7 +250,8 @@ $.get(missionlink)
                 "Гостиница",
                 "Бар",
                 "Мусорный полигон",
-                "Паркинг"
+                "Паркинг",
+				"Силос"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

@@ -249,7 +249,8 @@ $.get(missionlink)
                 "Hotel",
                 "Bar",
                 "Aterro sanitário",
-                "Garagem de estacionamento"
+                "Garagem de estacionamento",
+				"Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

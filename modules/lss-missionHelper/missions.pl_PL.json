@@ -1932,5 +1932,32 @@
             "truck": 1
         },
         "credits": 500
+    },
+    "135": {
+        "name": "Po\u017car silosu",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 4,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
+    },
+    "136": {
+        "name": "Po\u017car Stodo\u0142y",
+        "stations": {
+            "0": 12
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 1,
+            "police": 1
+        },
+        "credits": 3500
     }
 }

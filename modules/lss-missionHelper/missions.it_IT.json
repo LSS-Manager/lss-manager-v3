@@ -1896,5 +1896,35 @@
         "percentages": {
             "hazmat": 20
         }
+    },
+    "128": {
+        "name": "Silos in fiamme",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 3500,
+        "poi": 53,
+        "percentages": {
+            "bchief": 10
+        }
+    },
+    "129": {
+        "name": "Blitz attivit\u00e0 commerciale illegale",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1500,
+        "prisoners": {
+            "max": 4
+        }
     }
 }

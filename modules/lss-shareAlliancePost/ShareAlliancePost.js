@@ -15,7 +15,7 @@
             enableKeyboard: 'Alarmierung mit Tastatur aktivieren',
             defaultPostToChat: 'Post in Chat als Standard festlegen',
             shortcutKeys: 'Kommagetrennte Tasten für Tastatur Alarmierung. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Nachrichten Vorlagen. Platzhalter: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Nachrichten Vorlagen. Platzhalter: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset für %TIME_OFFSET%-Formatter in Stunden'
         }
     };
@@ -33,7 +33,7 @@
             enableKeyboard: 'Enable Keyboard shortcuts',
             defaultPostToChat: 'Post to chat is default',
             shortcutKeys: 'Comma separated list of keys for alerting. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Message templates. Placeholders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Message templates. Placeholders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset for %TIME_OFFSET%-formatter in hours'
         }
     };
@@ -51,7 +51,7 @@
             enableKeyboard: 'Sneltoetsen inschakelen',
             defaultPostToChat: 'Bericht in chat is standaard',
             shortcutKeys: 'Kommabescheiden lijst van toetsen om te alarmeren. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Bericht voorbeelden. Plaatshouders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Bericht voorbeelden. Plaatshouders: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'compensatie voor %TIME_OFFSET%-format in uren'
         }
     };
@@ -69,7 +69,7 @@
             enableKeyboard: 'Povolit klávesové zkratky',
             defaultPostToChat: 'Výchozí je příspěvek do chatu',
             shortcutKeys: 'Seznam kláves oddělených čárkami pro upozornění. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Šablony zpráv. Zástupné symboly: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Šablony zpráv. Zástupné symboly: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Ofset pro %TIME_OFFSET%-formátovat v hodinách'
         }
     };
@@ -86,7 +86,7 @@
             enableKeyboard: 'Habilitar accesos directos de teclado',
             defaultPostToChat: 'Publicar en el chat es predeterminado',
             shortcutKeys: 'Lista de teclas separadas por comas para alertas. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Plantillas de mensajes. Marcadores de posición: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Plantillas de mensajes. Marcadores de posición: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset para %TIME_OFFSET%-formatter en horas'
         }
     };
@@ -104,7 +104,7 @@
             enableKeyboard: 'Ativar atalhos de teclado',
             defaultPostToChat: 'Post to chat é padrão',
             shortcutKeys: 'Vírpara a lista de chaves separadas para alertar. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Modelos de mensagem. Espaços reservados: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Modelos de mensagem. Espaços reservados: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Compensado para %TIME_OFFSET%-formatter em horas'
         }
     };
@@ -122,7 +122,7 @@
             enableKeyboard: 'Włączyć skróty klawiaturowe',
             defaultPostToChat: 'Post to chat jest wartością domyślną',
             shortcutKeys: 'Lista klawiszy alarmowych oddzielonych przecinkami. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Szablony wiadomości. Posiadacze miejsc: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Szablony wiadomości. Posiadacze miejsc: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset dla %TIME_OFFSET%-formatter w godzinach'
         }
     };
@@ -140,7 +140,7 @@
             enableKeyboard: 'Aktivera kortkommandon',
             defaultPostToChat: 'Inlägg till chatt är som standard',
             shortcutKeys: 'Kommaseparerad lista med nycklar för varning. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Meddelandemallar. Platshållare: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Meddelandemallar. Platshållare: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset för %TIME_OFFSET% -format i timmar'
         }
     };
@@ -158,7 +158,7 @@
             enableKeyboard: 'Aktivér tastaturgenveje',
             defaultPostToChat: 'Indlæg til chat er som standard',
             shortcutKeys: 'Kommasepareret liste over nøgler til alarmering. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Meddelelsesskabeloner. pladsholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Meddelelsesskabeloner. pladsholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset i %TIME_OFFSET% -format i timer'
         }
     };
@@ -176,7 +176,7 @@
             enableKeyboard: 'Aktiver tastatursnarveier',
             defaultPostToChat: 'Innlegg til chat er standard',
             shortcutKeys: 'Kommaseparert liste over nøkler for varsling. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Meldingsmaler. Plassholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Meldingsmaler. Plassholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset for %TIME_OFFSET% -format i timer'
         }
     };
@@ -194,7 +194,7 @@
             enableKeyboard: 'Attivare le scorciatoie da tastiera',
             defaultPostToChat: 'Post to chat è predefinito',
             shortcutKeys: 'Elenco separato da virgole di chiavi per l\'allerta. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Modelli di messaggi. Segnaposto: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Modelli di messaggi. Segnaposto: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Offset per %TIME_OFFSET%-formatter in ore'
         }
     };
@@ -212,7 +212,7 @@
             enableKeyboard: 'Klavye kısayollarını etkinleştir',
             defaultPostToChat: 'Sohbete gönder varsayılan',
             shortcutKeys: 'Uyarı için virgülle ayrılmış anahtar listesi. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Mesaj şablonları. Yer tutucular: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Mesaj şablonları. Yer tutucular: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'İçin ofset %TIME_OFFSET%-saat olarak saat'
         }
     };
@@ -230,7 +230,7 @@
             enableKeyboard: 'Activer les raccourcis clavier',
             defaultPostToChat: 'Poster sur le chat est par défaut',
             shortcutKeys: 'Liste de clés séparées par des virgules pour l\'alerte. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Modèles de messages. Caractères de remplissage : <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Modèles de messages. Caractères de remplissage : <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Décalage pour %TIME_OFFSET%-formatter en heures'
         }
     };
@@ -248,7 +248,7 @@
             enableKeyboard: 'Включить горячие клавиши на клавиатуре',
             defaultPostToChat: 'Отправка сообщения в чат по умолчанию',
             shortcutKeys: 'Разделенный запятой список клавиш для оповещения. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Шаблоны сообщений. Места хранения: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Шаблоны сообщений. Места хранения: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Смещение для %TIME_OFFSET%-формата в часах'
         }
     };
@@ -266,7 +266,7 @@
             enableKeyboard: 'Увімкнути комбінації клавіш',
             defaultPostToChat: 'Повідомлення у чаті за замовчуванням',
             shortcutKeys: 'Список розділених комами клавіш для оповіщення. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'Шаблони повідомлень. Заставники: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'Шаблони повідомлень. Заставники: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'Зсув для %TIME_OFFSET%-форматор в годинах'
         }
     };
@@ -284,7 +284,7 @@
             enableKeyboard: 'キーボードショートカットを有効にする',
             defaultPostToChat: 'チャットへの投稿がデフォルトです',
             shortcutKeys: 'アラート用のキーのカンマ区切りリスト。 [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: 'アラート用のキーのカンマ区切りリスト。 <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: 'アラート用のキーのカンマ区切りリスト。 <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: 'のオフセット %TIME_OFFSET% -フォーマッター数時間'
         }
     };
@@ -302,7 +302,7 @@
             enableKeyboard: '키보드 단축키 사용',
             defaultPostToChat: '채팅에 게시가 기본입니다',
             shortcutKeys: '경고를위한 쉼표로 구분 된 키 목록. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages: '메시지 템플릿. 자리 표시 자 :<ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li></ul>',
+            messages: '메시지 템플릿. 자리 표시 자 :<ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: '에 대한 오프셋 %TIME_OFFSET%-시간 단위의 포맷터'
         }
     };

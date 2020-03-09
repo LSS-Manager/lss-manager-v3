@@ -1245,5 +1245,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "90": {
+        "name": "Po\u017e\u00e1r sila",
+        "stations": {
+            "undefined": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

@@ -1136,5 +1136,19 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "82": {
+        "name": "Ambarda yang\u0131n",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 8,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 32
     }
 }

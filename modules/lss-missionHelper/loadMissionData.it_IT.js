@@ -256,7 +256,8 @@ $.get(missionlink)
                 "Hotel",
                 "Bar",
                 "Discarica",
-                "Parcheggio coperto"
+                "Parcheggio coperto",
+				"Silos"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
