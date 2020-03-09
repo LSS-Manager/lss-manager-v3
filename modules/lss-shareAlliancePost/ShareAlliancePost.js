@@ -523,13 +523,13 @@
             console.log(missionID, langCode)
             $.get(`https://msconsult.info/lss/missions.php?lang=${langCode}&mission=${missionID}`, data => {
                 console.log(data)
-        	    messages = messages.map((message) => {
-                    message = message.replace('%CREDITS%', String(data.credits));
+        	    messages = messages.each(message => {
                     message = message.replace('%ADDRESS%', address);
                     message = message.replace('%CITY%', ort);
                     message = message.replace('%TIME_OFFSET%', `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
                     message = message.replace('%PATIENTS_LEFT%', patientsLeft);
                     message = message.replace('%REQUIRED_VEHICLES%', requiredVehicles);
+                    message = message.replace('%CREDITS%', String(data.credits));
 
                     return message;
                 });
