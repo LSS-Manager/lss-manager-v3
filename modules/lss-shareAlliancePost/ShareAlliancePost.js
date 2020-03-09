@@ -7,6 +7,7 @@
         chat: 'Chatten...',
         alert: 'Alarmieren...',
         chatm: 'An VB Chat',
+        clock: 'Uhr',
         reqVehIdent: 'Zusätzlich benötigte Fahrzeuge:',
         reqVeh: 'Keine weiteren Fahrzeuge benötigt.',
         settings: {
@@ -25,6 +26,7 @@
         chat: 'Chat...',
         alert: 'Alert...',
         chatm: 'To Team Chat',
+        clock: 'o\'clock',
         reqVehIdent: 'Needed vehicles:',
         reqVeh: 'No other vehicles required.',
         settings: {
@@ -43,6 +45,7 @@
         chat: 'Chat...',
         alert: 'Alarmeren...',
         chatm: 'Naar Team Chat',
+        clock: 'uur',
         reqVehIdent: 'Benodigde voertuigen:',
         reqVeh: 'Geen andere voertuigen nodig.',
         settings: {
@@ -61,6 +64,7 @@
         chat: 'Povídat si...',
         alert: 'Upozornění ...',
         chatm: 'Na týmový chat',
+        clock: 'je to',
         reqVehIdent: 'Potřebná vozidla:',
         reqVeh: 'Nevyžadují se žádná další vozidla.',
         settings: {
@@ -78,6 +82,7 @@
         share: 'Compartir...',
         chat: 'Chat...',
         alert: 'Alerta...',
+        clock: 'en punto',
         reqVehIdent: 'Vehículos necesarios:',
         reqVeh: 'No se requieren otros vehículos.',
         settings: {
@@ -96,6 +101,7 @@
         chat: 'Conversa...',
         alert: 'Alerta...',
         chatm: 'Para chat de equipa',
+        clock: 'horas',
         reqVehIdent: 'Veículos necessários:',
         reqVeh: 'Nenhum outro veículo é necessário.',
         settings: {
@@ -114,6 +120,7 @@
         chat: 'chatty',
         alert: 'czujny',
         chatm: 'Na pogawędkę drużynową',
+        clock: 'tu',
         reqVehIdent: 'Potrzebne pojazdy:',
         reqVeh: 'Nie są wymagane żadne inne pojazdy.',
         settings: {
@@ -132,6 +139,7 @@
         chat: 'Chatt...',
         alert: 'Varna...',
         chatm: 'Till Teamchatt',
+        clock: 'är det',
         reqVehIdent: 'Nödvändiga fordon:',
         reqVeh: 'Inga andra fordon krävs.',
         settings: {
@@ -150,6 +158,7 @@
         chat: 'Snak...',
         alert: 'Alert...',
         chatm: 'Til teamchat',
+        clock: 'er det',
         reqVehIdent: 'Påkrævede køretøjer:',
         reqVeh: 'Ingen andre køretøjer kræves.',
         settings: {
@@ -168,6 +177,7 @@
         chat: 'Chat...',
         alert: 'Varsling...',
         chatm: 'Å Team Chat',
+        clock: 'er det',
         reqVehIdent: 'Nødvendige fremkomstmidler:',
         reqVeh: 'Ingen andre kjøretøy kreves.',
         settings: {
@@ -186,6 +196,7 @@
         chat: 'loquace',
         alert: 'vigile',
         chatm: 'Alla Chat di squadra',
+        clock: 'Ore',
         reqVehIdent: 'Veicoli necessari:',
         reqVeh: 'Non sono richiesti altri veicoli.',
         settings: {
@@ -204,6 +215,7 @@
         chat: 'Sohbet...',
         alert: 'Uyarmak...',
         chatm: 'Takım Sohbetine',
+        clock: 'saat',
         reqVehIdent: 'Gerekli araçlar:',
         reqVeh: 'Başka araca gerek yok.',
         settings: {
@@ -222,6 +234,7 @@
         chat: 'Chat...',
         alert: 'Alerte....',
         chatm: 'Au Chat d\'équipe',
+        clock: 'heures',
         reqVehIdent: 'Véhicules nécessaires :',
         reqVeh: 'Aucun autre véhicule requis.',
         settings: {
@@ -240,6 +253,7 @@
         chat: 'Чат...',
         alert: 'Тревога...',
         chatm: 'В командный чат',
+        clock: 'в',
         reqVehIdent: 'Требуются машины:',
         reqVeh: 'Других транспортных средств не требуется.',
         settings: {
@@ -258,6 +272,7 @@
         chat: 'Чат ...',
         alert: 'Сповіщення ...',
         chatm: 'До командного чату',
+        clock: 'вечора',
         reqVehIdent: 'Необхідні машини:',
         reqVeh: 'Ніяких інших транспортних засобів не потрібно.',
         settings: {
@@ -276,6 +291,7 @@
         chat: 'チャット...',
         alert: 'アラート...',
         chatm: 'チームチャットへ',
+        clock: '時です',
         reqVehIdent: '必要な車両：',
         reqVeh: '他の車両は必要ありません。',
         settings: {
@@ -294,6 +310,7 @@
         chat: '잡담...',
         alert: '경보...',
         chatm: '팀 채팅',
+        clock: '입니다',
         reqVehIdent: '필요 차량:',
         reqVeh: '다른 차량은 필요하지 않습니다.',
         settings: {
@@ -525,7 +542,7 @@
                     message = message.replace(/%CREDITS%/g, data.credits.toLocaleString());
                     message = message.replace(/%ADDRESS%/g, address);
                     message = message.replace(/%CITY%/g, ort);
-                    message = message.replace(/%TIME_OFFSET%/g, `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} Uhr`);
+                    message = message.replace(/%TIME_OFFSET%/g, `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} ${I18n.t('lssm.sharealliancepost.clock')}`);
                     message = message.replace(/%PATIENTS_LEFT%/g, patientsLeft);
                     message = message.replace(/%REQUIRED_VEHICLES%/g, requiredVehicles);
 
@@ -540,7 +557,7 @@
     };
 
     let messages = Array.isArray(getSetting('messages')) ? getSetting('messages') : [];
-    transformMessages(() => {
+        transformMessages(() => {
         initButtons();
         initKeys();
     });
