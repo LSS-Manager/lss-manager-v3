@@ -9323,5 +9323,21 @@
         "percentages": {
             "fwk": 45
         }
+    },
+    "514": {
+        "name": "Durchsuchung - Geb\u00e4udekomplex",
+        "stations": {
+            "6": 1,
+            "11": 1
+        },
+        "vehicles": {
+            "fukw": 1,
+            "lebefkw": 3,
+            "grukw": 9
+        },
+        "credits": 6500,
+        "prisoners": {
+            "max": 2
+        }
     }
 }

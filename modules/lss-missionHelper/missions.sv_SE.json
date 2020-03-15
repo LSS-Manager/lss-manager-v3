@@ -1,6 +1,6 @@
 {
     "0": {
-        "name": "Brinnande soptunna",
+        "name": "Brand ute - soptunna",
         "stations": {
             "0": 1
         },
@@ -11,7 +11,7 @@
         "poi": 4
     },
     "1": {
-        "name": "Brinnande container",
+        "name": "Brand ute - container",
         "stations": {
             "0": 1
         },
@@ -21,7 +21,7 @@
         "credits": 170
     },
     "2": {
-        "name": "Brinnande bil",
+        "name": "Brand ute - fordon, personbil",
         "stations": {
             "0": 1
         },
@@ -36,7 +36,7 @@
         }
     },
     "3": {
-        "name": "Brinnande motorcykel",
+        "name": "Brand ute - fordon, motorcykel",
         "stations": {
             "0": 1
         },
@@ -49,7 +49,7 @@
         }
     },
     "4": {
-        "name": "Brinnande gr\u00e4s",
+        "name": "Brand ute - terr\u00e4ng, gr\u00e4sbrand",
         "stations": {
             "0": 1
         },
@@ -62,7 +62,7 @@
         }
     },
     "5": {
-        "name": "Brinnande rum",
+        "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
         "stations": {
             "0": 2
         },
@@ -81,7 +81,7 @@
         }
     },
     "6": {
-        "name": "Brinnande bod",
+        "name": "Brand i byggnad - mindre, frist\u00e5ende",
         "stations": {
             "0": 2
         },
@@ -91,7 +91,7 @@
         "credits": 600
     },
     "7": {
-        "name": "Brinnande l\u00f6v",
+        "name": "Brand ute - l\u00f6v",
         "stations": {
             "0": 1
         },
@@ -104,7 +104,7 @@
         }
     },
     "8": {
-        "name": "Brinnande sopor",
+        "name": "Brand ute - sopor",
         "stations": {
             "0": 1
         },
@@ -119,7 +119,7 @@
         }
     },
     "9": {
-        "name": "Brinnande h\u00f6bal",
+        "name": "Brand ute - h\u00f6bal",
         "stations": {
             "0": 1
         },
@@ -133,7 +133,7 @@
         }
     },
     "10": {
-        "name": "Brinnande traktor",
+        "name": "Brand ute - fordon, arbetsmaskin",
         "stations": {
             "0": 1
         },
@@ -143,7 +143,7 @@
         "credits": 600
     },
     "11": {
-        "name": "Brinnande telefonkiosk",
+        "name": "Brand ute - telefonkiosk",
         "stations": {
             "0": 1
         },
@@ -153,7 +153,7 @@
         "credits": 240
     },
     "12": {
-        "name": "Tr\u00e4d p\u00e5 v\u00e4gen",
+        "name": "Hinder p\u00e5 v\u00e4g",
         "stations": {
             "0": 1
         },
@@ -166,7 +166,7 @@
         }
     },
     "13": {
-        "name": "Brinnande lastbil",
+        "name": "Brand ute - fordon, lastbil",
         "stations": {
             "0": 2
         },
@@ -176,7 +176,7 @@
         "credits": 980
     },
     "14": {
-        "name": "Liten gr\u00e4sbrand",
+        "name": "Brand ute - terr\u00e4ng, skogsbrand",
         "stations": {
             "0": 2
         },
@@ -189,7 +189,7 @@
         }
     },
     "15": {
-        "name": "Liten l\u00f6peld",
+        "name": "Brand ute - terr\u00e4ng",
         "stations": {
             "0": 1
         },
@@ -200,7 +200,7 @@
         "poi": 3
     },
     "16": {
-        "name": "Brinnande husvagn",
+        "name": "Brand ute - fordon, husvagn",
         "stations": {
             "0": 2
         },
@@ -210,7 +210,7 @@
         "credits": 1100
     },
     "17": {
-        "name": "Brinnande postl\u00e5da",
+        "name": "Brand ute - postl\u00e5da",
         "stations": {
             "0": 1
         },
@@ -220,7 +220,7 @@
         "credits": 340
     },
     "18": {
-        "name": "Rish\u00f6g",
+        "name": "Brand ute - rish\u00f6g",
         "stations": {
             "0": 1
         },
@@ -230,7 +230,7 @@
         "credits": 700
     },
     "19": {
-        "name": "Brinnande sl\u00e4p",
+        "name": "Brand ute - fordon, sl\u00e4pvagn",
         "stations": {
             "0": 1
         },
@@ -240,7 +240,7 @@
         "credits": 650
     },
     "20": {
-        "name": "Brinnande k\u00e4llare",
+        "name": "Brand i byggnad - flerfamiljshus, k\u00e4llare",
         "stations": {
             "0": 3
         },
@@ -258,7 +258,7 @@
         }
     },
     "21": {
-        "name": "Brinnande skorsten",
+        "name": "Soteld",
         "stations": {
             "0": 3
         },
@@ -276,7 +276,7 @@
         }
     },
     "22": {
-        "name": "Brinnande tak",
+        "name": "Brand i byggnad - flerfamiljshus, vind",
         "stations": {
             "0": 3
         },
@@ -302,7 +302,7 @@
         "credits": 1200
     },
     "24": {
-        "name": "Brinnande busskur",
+        "name": "Brand ute - busskur",
         "stations": {
             "0": 3
         },
@@ -313,7 +313,7 @@
         "poi": 4
     },
     "25": {
-        "name": "V\u00e4golycka",
+        "name": "Trafikolycka - singel",
         "stations": {
             "0": 3
         },
@@ -333,7 +333,7 @@
         }
     },
     "26": {
-        "name": "Brand i mataff\u00e4r",
+        "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
         "stations": {
             "0": 5,
             "2": 1
@@ -351,7 +351,7 @@
         "poi": 9
     },
     "27": {
-        "name": "Brinnande garage",
+        "name": "Brand i byggnad - parkeringshus",
         "stations": {
             "0": 4
         },
@@ -361,7 +361,7 @@
         "credits": 1400
     },
     "28": {
-        "name": "Brinnande maskin",
+        "name": "Brand i byggnad - industri, maskin",
         "stations": {
             "0": 5
         },
@@ -377,7 +377,7 @@
         }
     },
     "29": {
-        "name": "Ok\u00e4nt tankutsl\u00e4pp",
+        "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
         "stations": {
             "0": 13,
             "6": 2
@@ -386,14 +386,13 @@
             "truck": 4,
             "heavyRescue": 2,
             "bchief": 2,
-            "mcv": 1,
             "police": 3,
             "hazmat": 2
         },
         "credits": 5300
     },
     "30": {
-        "name": "Gasl\u00e4cka",
+        "name": "Utsl\u00e4pp farligt \u00e4mne - gas",
         "stations": {
             "0": 1
         },
@@ -403,7 +402,7 @@
         "credits": 400
     },
     "31": {
-        "name": "Brinnande eldstad",
+        "name": "Brand i byggnad - villa",
         "stations": {
             "0": 6
         },
@@ -415,7 +414,7 @@
         "credits": 1310
     },
     "32": {
-        "name": "Brinnande tr\u00f6ska",
+        "name": "Brand ute - fordon, sk\u00f6rdetr\u00f6ska",
         "stations": {
             "0": 6
         },
@@ -425,7 +424,7 @@
         "credits": 1200
     },
     "33": {
-        "name": "Brand i mataff\u00e4r",
+        "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
         "stations": {
             "0": 5,
             "2": 1
@@ -443,7 +442,7 @@
         "poi": 9
     },
     "34": {
-        "name": "Brand i sjukhus",
+        "name": "Brand i byggnad - v\u00e5rd, sjukhus",
         "stations": {
             "0": 10,
             "2": 6
@@ -464,7 +463,7 @@
         "poi": 2
     },
     "35": {
-        "name": "Alkoholf\u00f6rgiftning",
+        "name": "Fylleri\/LOB",
         "stations": {
             "2": 1,
             "6": 1
@@ -488,7 +487,7 @@
         "specialisation": "Kardiologi"
     },
     "37": {
-        "name": "Akut astma",
+        "name": "Andningsbesv\u00e4r",
         "stations": {
             "2": 3
         },
@@ -497,7 +496,7 @@
         "specialisation": "Inv\u00e4rtesmedicinare"
     },
     "38": {
-        "name": "Anfall",
+        "name": "Misst\u00e4nkt stroke",
         "stations": {
             "2": 3
         },
@@ -506,7 +505,7 @@
         "specialisation": "Neurologi"
     },
     "39": {
-        "name": "Feber",
+        "name": "Akut buk",
         "stations": {
             "2": 3
         },
@@ -515,7 +514,7 @@
         "specialisation": "Inv\u00e4rtesmedicinare"
     },
     "40": {
-        "name": "Fallolycka",
+        "name": "Trauma",
         "stations": {
             "2": 1
         },
@@ -524,7 +523,7 @@
         "specialisation": "Traumatologi"
     },
     "41": {
-        "name": "Brand i bilverkstad",
+        "name": "Brand i byggnad - industri, verkstad",
         "stations": {
             "0": 14,
             "2": 2,
@@ -551,7 +550,7 @@
         }
     },
     "42": {
-        "name": "Fallolycka",
+        "name": "Misst\u00e4nkt fraktur",
         "stations": {
             "2": 1
         },
@@ -569,7 +568,7 @@
         "specialisation": "Traumatologi"
     },
     "44": {
-        "name": "Snatteri",
+        "name": "St\u00f6ld",
         "stations": {
             "6": 1
         },
@@ -583,7 +582,7 @@
         }
     },
     "45": {
-        "name": "Snatteri",
+        "name": "St\u00f6ld",
         "stations": {
             "6": 1
         },
@@ -597,7 +596,7 @@
         }
     },
     "46": {
-        "name": "Parkerad bilolycka",
+        "name": "Trafikolycka, singel",
         "stations": {
             "6": 1
         },
@@ -608,7 +607,7 @@
         "poi": 9
     },
     "47": {
-        "name": "Parkerad bilolycka",
+        "name": "Trafikolycka",
         "stations": {
             "6": 1
         },
@@ -619,7 +618,7 @@
         "poi": 10
     },
     "48": {
-        "name": "Metallst\u00f6ld",
+        "name": "P\u00e5g\u00e5ende inbrott",
         "stations": {
             "6": 1
         },
@@ -633,7 +632,7 @@
         }
     },
     "49": {
-        "name": "Fickst\u00f6ld",
+        "name": "Personr\u00e5n",
         "stations": {
             "6": 1
         },
@@ -647,7 +646,7 @@
         }
     },
     "50": {
-        "name": "Plankning",
+        "name": "Bedr\u00e4geri",
         "stations": {
             "6": 1
         },
@@ -658,7 +657,7 @@
         "poi": 4
     },
     "51": {
-        "name": "Plankning",
+        "name": "Bedr\u00e4geri",
         "stations": {
             "6": 1
         },
@@ -669,7 +668,7 @@
         "poi": 5
     },
     "52": {
-        "name": "Plankning",
+        "name": "Bedr\u00e4geri",
         "stations": {
             "6": 1
         },
@@ -680,7 +679,7 @@
         "poi": 6
     },
     "53": {
-        "name": "Plankning",
+        "name": "Bedr\u00e4geri",
         "stations": {
             "6": 1
         },
@@ -691,7 +690,7 @@
         "poi": 7
     },
     "54": {
-        "name": "Parkerad bilolycka",
+        "name": "Trafikolycka, singel",
         "stations": {
             "6": 1
         },
@@ -702,7 +701,7 @@
         "poi": 14
     },
     "55": {
-        "name": "Slagsm\u00e5l",
+        "name": "Br\u00e5k",
         "stations": {
             "6": 3
         },
@@ -719,7 +718,7 @@
         }
     },
     "56": {
-        "name": "Upplopp",
+        "name": "Misshandel",
         "stations": {
             "6": 2
         },
@@ -735,14 +734,14 @@
         }
     },
     "57": {
-        "name": "Olovlig protest",
+        "name": "Ordningslagen, demonstration",
         "vehicles": {
             "police": 7
         },
         "credits": 10020
     },
     "58": {
-        "name": "Brand i k\u00f6k",
+        "name": "Brand i byggnad - flerfamiljshus, k\u00f6k",
         "stations": {
             "0": 2
         },
@@ -764,7 +763,7 @@
         "poi": 21
     },
     "60": {
-        "name": "Brand i idrottshall",
+        "name": "Brand i byggnad - publik lokal, idrottshall",
         "stations": {
             "0": 9,
             "2": 2
@@ -801,7 +800,7 @@
         "poi": 28
     },
     "62": {
-        "name": "Ov\u00e4sen",
+        "name": "Ordningslagen, ov\u00e4sen",
         "stations": {
             "6": 1
         },
@@ -811,7 +810,7 @@
         "credits": 400
     },
     "63": {
-        "name": "Transitorisk ischemisk attack",
+        "name": "Misst\u00e4nkt Stroke",
         "stations": {
             "2": 1
         },
@@ -820,7 +819,7 @@
         "specialisation": "Neurokirurgi"
     },
     "64": {
-        "name": "Bussolycka",
+        "name": "Trafikolycka - singel, buss",
         "stations": {
             "0": 3,
             "2": 8
@@ -837,7 +836,7 @@
         }
     },
     "65": {
-        "name": "Brand i k\u00f6k",
+        "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
         "stations": {
             "0": 2
         },
@@ -847,7 +846,7 @@
         "credits": 1000
     },
     "66": {
-        "name": "Brinnande rum",
+        "name": "Brand i byggnad - radhus",
         "stations": {
             "0": 2
         },
@@ -866,7 +865,7 @@
         }
     },
     "67": {
-        "name": "Slagsm\u00e5l",
+        "name": "Misshandel, grov",
         "stations": {
             "6": 3
         },
@@ -883,7 +882,7 @@
         }
     },
     "68": {
-        "name": "Brand i stormarknad",
+        "name": "Brand i byggnad - publik lokal, stormarknad",
         "stations": {
             "0": 8,
             "2": 3,
@@ -909,7 +908,7 @@
         }
     },
     "69": {
-        "name": "Ok\u00e4nt tankutsl\u00e4pp",
+        "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
         "stations": {
             "0": 13,
             "6": 2
@@ -924,7 +923,7 @@
         "credits": 4300
     },
     "70": {
-        "name": "Brand i stormarknad",
+        "name": "Brand i byggnad - publik lokal, stormarknad",
         "stations": {
             "0": 8,
             "2": 3,
@@ -950,7 +949,7 @@
         }
     },
     "71": {
-        "name": "N\u00e4sbl\u00f6dning",
+        "name": "Bl\u00f6dning",
         "stations": {
             "2": 1
         },
@@ -958,7 +957,7 @@
         "specialisation": "Allm\u00e4nkirurg"
     },
     "72": {
-        "name": "Flygkrasch",
+        "name": "Flygh\u00e4ndelse - varningslarm",
         "stations": {
             "0": 13,
             "2": 2
@@ -981,7 +980,7 @@
         }
     },
     "73": {
-        "name": "Allvarlig bussolycka",
+        "name": "Trafikolycka - flera fordon, buss",
         "stations": {
             "0": 5,
             "2": 8,
@@ -1013,7 +1012,7 @@
         "credits": 10210
     },
     "75": {
-        "name": "Aggresiv passagerare",
+        "name": "Olaga hot",
         "stations": {
             "6": 2
         },
@@ -1122,7 +1121,7 @@
         "poi": 17
     },
     "83": {
-        "name": "Person fast under maskineri",
+        "name": "Fastkl\u00e4md",
         "stations": {
             "0": 4,
             "2": 1
@@ -1140,7 +1139,7 @@
         }
     },
     "84": {
-        "name": "Skadat Tak",
+        "name": "L\u00f6sa f\u00f6rem\u00e5l",
         "stations": {
             "0": 3
         },
@@ -1154,7 +1153,7 @@
         }
     },
     "85": {
-        "name": "Seriekrock",
+        "name": "Trafikolycka - flera fordon",
         "stations": {
             "0": 5,
             "2": 2,
@@ -1164,8 +1163,7 @@
             "truck": 4,
             "heavyRescue": 1,
             "bchief": 1,
-            "police": 1,
-            "ambulance": 3
+            "police": 1
         },
         "credits": 1300,
         "patients": {
@@ -1176,7 +1174,7 @@
         }
     },
     "86": {
-        "name": "Brinnande lastbil",
+        "name": "Brand ute - fordon, lastbil",
         "stations": {
             "0": 3
         },
@@ -1186,7 +1184,7 @@
         "credits": 900
     },
     "87": {
-        "name": "Traktorolycka",
+        "name": "Trafikolycka - arbetsmaskin",
         "stations": {
             "0": 3,
             "2": 1
@@ -1362,7 +1360,7 @@
         "specialisation": "Traumatologi"
     },
     "101": {
-        "name": "Brinnande tungt lastfordon",
+        "name": "Brand ute - fordon, lastfordon",
         "stations": {
             "0": 7,
             "6": 1
@@ -1373,13 +1371,13 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 2500,
+        "credits": 1400,
         "percentages": {
             "tanker": 10
         }
     },
     "102": {
-        "name": "Brinnande sopbil",
+        "name": "Brand ute - fordon, sopbil",
         "stations": {
             "0": 7,
             "6": 1
@@ -1390,10 +1388,10 @@
             "tanker": 1,
             "police": 1
         },
-        "credits": 5000
+        "credits": 2000
     },
     "103": {
-        "name": "Motorcykelolycka",
+        "name": "Trafikolycka - motorcykel",
         "stations": {
             "0": 3,
             "2": 1,
@@ -1412,7 +1410,7 @@
         }
     },
     "104": {
-        "name": "Monoxidf\u00f6rgiftning",
+        "name": "Utsl\u00e4pp farligt \u00e4mne - kolmonoxid",
         "stations": {
             "0": 5,
             "2": 2,
@@ -1456,6 +1454,7 @@
     "106": {
         "name": "V\u00e5ld\/hot mot tj\u00e4nsteman",
         "stations": {
+            "2": 1,
             "6": 4
         },
         "vehicles": {
@@ -1655,15 +1654,15 @@
         "stations": {
             "0": 13,
             "2": 3,
-            "6": 3
+            "6": 7
         },
         "vehicles": {
             "truck": 2,
             "bchief": 2,
-            "air": 1,
-            "police": 4
+            "mcv": 1,
+            "police": 8
         },
-        "credits": 2500,
+        "credits": 3400,
         "patients": {
             "max": 5,
             "transport": 60,
