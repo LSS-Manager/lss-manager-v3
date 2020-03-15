@@ -1228,7 +1228,7 @@ const lssm_missionhelper_adjustPosition = () => {
             bchief: "brandchefsbilar",
             tanker: "tankbilar",
             hazmat: "farligt gods-fordon",
-            mcv: "utryckningsfordon",
+            mcv: "Ledningsfordon",
             police: "polisbilar",
             ambulance: "Ambulans",
             arff: "ARFF",
