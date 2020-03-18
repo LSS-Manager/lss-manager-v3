@@ -1602,5 +1602,27 @@
         "onlyRd": true,
         "transport": 50,
         "specialisation": "Interne g\u00e9n\u00e9ral"
+    },
+    "118": {
+        "name": "Bless\u00e9 sur pyl\u00f4ne \u00e9l\u00e9ctrique",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "heavyRescue": 50
+        }
     }
 }

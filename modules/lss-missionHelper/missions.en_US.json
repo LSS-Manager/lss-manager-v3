@@ -5853,5 +5853,23 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "355": {
+        "name": "Injured free runner",
+        "stations": {
+            "0": 4,
+            "3": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 70,
+            "specialisation": "General Internal"
+        }
     }
 }

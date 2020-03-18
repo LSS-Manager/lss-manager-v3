@@ -1249,7 +1249,7 @@
     "90": {
         "name": "Po\u017e\u00e1r sila",
         "stations": {
-            "undefined": 8
+            "0": 8
         },
         "vehicles": {
             "truck": 8,
@@ -1259,5 +1259,24 @@
         },
         "credits": 3000,
         "poi": 53
+    },
+    "91": {
+        "name": "Zran\u011bn\u00e1 osoba na sto\u017e\u00e1ru vysok\u00e9ho nap\u011bt\u00ed",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "V\u0161eobecn\u00fd chirurg"
+        }
     }
 }

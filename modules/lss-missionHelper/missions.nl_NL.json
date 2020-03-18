@@ -10005,5 +10005,19 @@
         "onlyRd": true,
         "transport": 80,
         "specialisation": "Gynaecologie"
+    },
+    "573": {
+        "name": "Vlam in de pan",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 62,
+            "1": 64
+        }
     }
 }

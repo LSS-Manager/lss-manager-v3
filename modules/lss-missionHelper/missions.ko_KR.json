@@ -590,7 +590,7 @@
             "police": 1
         },
         "credits": 100,
-        "poi": 10,  
+        "poi": 10,
         "prisoners": {
             "max": 1
         }
@@ -1067,5 +1067,24 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "\uc77c\ubc18 \uc678\uacfc"
+    },
+    "80": {
+        "name": "\uace0\uc555 \uc804\ubd07\ub300\uc5d0\uc11c \ubd80\uc0c1\uc744 \uc785\uc740 \uc0ac\ub78c",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "\uc77c\ubc18 \uc678\uacfc"
+        }
     }
 }

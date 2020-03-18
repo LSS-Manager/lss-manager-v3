@@ -1150,5 +1150,24 @@
         },
         "credits": 3000,
         "poi": 32
+    },
+    "83": {
+        "name": "Y\u00fcksek gerilim hatt\u0131 dire\u011finde yaral\u0131 \u015fah\u0131s",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Genel Cerrah"
+        }
     }
 }

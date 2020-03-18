@@ -1959,5 +1959,34 @@
             "police": 1
         },
         "credits": 3500
+    },
+    "137": {
+        "name": "Poszkodowana osoba przez s\u0142up wysokiego napi\u0119cia",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Chirurg og\u00f3lny"
+        }
+    },
+    "138": {
+        "name": "Uwi\u0119ziony pies w rzece",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
     }
 }

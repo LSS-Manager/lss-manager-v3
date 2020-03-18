@@ -2001,5 +2001,24 @@
         "percentages": {
             "air": 50
         }
+    },
+    "146": {
+        "name": "Injured person on high voltage mast",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "General Surgeon"
+        }
     }
 }
