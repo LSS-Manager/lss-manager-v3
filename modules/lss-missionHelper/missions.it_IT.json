@@ -959,27 +959,27 @@
         "specialisation": "Chirurgia generale"
     },
     "72": {
-        "name": "Leggero incidente aereo",
+        "name": "Incidente aereo (LIEVE)",
         "stations": {
-            "0": 13,
+            "0": 20,
             "2": 2
         },
         "vehicles": {
-            "truck": 4,
+            "truck": 3,
             "bchief": 1,
-            "heavyRescue": 1,
+            "heavyRescue": 2,
             "tanker": 1,
             "hazmat": 1
         },
-        "credits": 4000,
+        "credits": 3200,
         "patients": {
-            "max": 4,
-            "transport": 60,
+            "max": 6,
+            "transport": 50,
             "specialisation": "Traumatologia"
         },
         "percentages": {
             "hazmat": 50
-        }
+		}
     },
     "73": {
         "name": "Grave incidente con autobus coinvolto",
