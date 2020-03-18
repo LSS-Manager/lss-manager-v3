@@ -265,9 +265,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-                0: "hasičské stanice",
+                0: "požární stanice",
                 2: "záchranářské stanice",
-                6: "policejní stanice",
+                6: "oddělení Policie",
                 13: "Police Helicopter"
             };
             for (let station in stationDefinitions) {

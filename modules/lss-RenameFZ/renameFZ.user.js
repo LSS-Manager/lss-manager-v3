@@ -365,13 +365,14 @@
                 stations: 'Zde můžete nastavit alternativní názvy pro každou budovu. Můžete je použít při přejmenování vozidel přes dispečink.'
             },
             validStationTypes: {
-                0: "Hasičská stanice",
-                2: "Stanoviště záchranné služby",
-                6: "Policejní stanice",
+                0: "Požární stanice",
+                2: "Výjezdová základna záchranné služby",
+				5: "Základna Letecké záchranné služby",
+                6: "Obvodní oddělení Policie",
                 7: "Dispečink",
-                18: "Hasičská stanice (malá)",
-                19: "Policejní stanice (malá)",
-                20: "Stanoviště záchranné služby (malé)"
+                18: "Požární stanice (malá)",
+                19: "Obvodní oddělení Policie (malá)",
+                20: "Výjezdová základna záchranné služby (malé)"
             },
             vehicleTypes: {
                 0: 'CAS 20',

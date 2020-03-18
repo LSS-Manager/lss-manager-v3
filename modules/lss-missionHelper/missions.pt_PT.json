@@ -1128,5 +1128,24 @@
         },
         "credits": 3000,
         "poi": 53
+    },
+    "82": {
+        "name": "Ferido num poste de alta tens\u00e3o",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "heavyRescue": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Cirurgi\u00e3o geral"
+        }
     }
 }

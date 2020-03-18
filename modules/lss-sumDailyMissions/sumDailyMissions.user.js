@@ -267,7 +267,7 @@
             extended: 'uitgebreid',
             extended2: 'uitgebreid',
             built: 'gebouwd',
-            team: 'Team',
+            team: 'Teamopname',
             prisoner: 'Arrestanten getransporteerd',
             num_missions: 'Aantal meldingen',
             num_patients: 'Aantal patiënten',
