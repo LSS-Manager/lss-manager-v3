@@ -2304,7 +2304,11 @@
         "vehicles": {
             "fustw": 1
         },
-        "credits": 150
+        "credits": 150,
+        "followup": {
+            "0": 98,
+            "1": 476
+        }
     },
     "146": {
         "name": "Brennendes Reetdachhaus",
@@ -2349,6 +2353,11 @@
         "credits": 100,
         "expansions": {
             "0": 128
+        },
+        "followup": {
+            "0": 27,
+            "1": 43,
+            "2": 83
         }
     },
     "149": {
@@ -2767,6 +2776,9 @@
             "max": 7,
             "specialisation": "Allgemeine Innere"
         },
+        "followup": {
+            "0": 429
+        },
         "percentages": {
             "dlk": 30,
             "fwk": 75
@@ -3116,6 +3128,9 @@
         "expansions": {
             "0": 359
         },
+        "followup": {
+            "0": 486
+        },
         "percentages": {
             "fustw": 100
         }
@@ -3137,6 +3152,13 @@
         "poi": 20,
         "prisoners": {
             "max": 5
+        },
+        "followup": {
+            "0": 44,
+            "1": 74,
+            "2": 106,
+            "3": 107,
+            "4": 270
         }
     },
     "202": {
@@ -3655,6 +3677,11 @@
         "credits": 5000,
         "special": {
             "averageMinimumEmployeesPolice": 50
+        },
+        "followup": {
+            "0": 44,
+            "1": 74,
+            "2": 106
         },
         "siwa": true,
         "dauer": "2 Stunden"
@@ -8403,6 +8430,12 @@
             "specialisation": "Unfallchirurgie"
         },
         "poi": 6,
+        "followup": {
+            "0": 168,
+            "1": 169,
+            "2": 170,
+            "3": 280
+        },
         "percentages": {
             "oel": 20,
             "hoehen": 10,
@@ -8436,7 +8469,12 @@
             "rth": 5,
             "specialisation": "Unfallchirurgie"
         },
-        "poi": 7,
+        "followup": {
+            "0": 168,
+            "1": 169,
+            "2": 170,
+            "3": 280
+        },
         "percentages": {
             "oel": 20,
             "hoehen": 10,
@@ -8471,6 +8509,12 @@
             "specialisation": "Unfallchirurgie"
         },
         "poi": 24,
+        "followup": {
+            "0": 168,
+            "1": 169,
+            "2": 170,
+            "3": 280
+        },
         "percentages": {
             "oel": 20,
             "hoehen": 10,

@@ -40,6 +40,7 @@ $.get(missionlink)
         let special = {};
         let percentages = {};
         let expansions = [];
+        let followup = [];
         let dauer;
 
         data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
@@ -85,6 +86,11 @@ $.get(missionlink)
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
+                });
+            } else if (content.match(/Follow-Up/)) {
+                let followupsLinks = $(this).find("a");
+                followupsLinks.each(function () {
+                    followup.push($(this).attr("href").replace(/\D/g, ""));
                 });
             }
         });
@@ -167,6 +173,10 @@ $.get(missionlink)
 
         if (expansions) {
             mission.expansions = expansions;
+        }
+
+        if (followup) {
+            mission.followup = followup;
         }
 
         if (percentages) {
