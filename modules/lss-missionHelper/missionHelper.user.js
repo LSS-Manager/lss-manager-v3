@@ -3335,7 +3335,7 @@ const lssm_missionhelper_adjustPosition = () => {
           }
 
           if (SETTINGS.expansions && MISSION.expansions) {
-              content.innerHTML += '<br>${I18n.t('lssm.missionhelper.exp')}:<br>';
+              content.innerHTML += `<br>${I18n.t('lssm.missionhelper.exp')}:<br>`;
               for (let i of Object.keys(MISSION.expansions)) {
                   let id = MISSION.expansions[i];
                   content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
@@ -3343,7 +3343,7 @@ const lssm_missionhelper_adjustPosition = () => {
           }
 
           if (SETTINGS.followup && MISSION.followup) {
-              content.innerHTML += '<br>${I18n.t('lssm.missionhelper.fwm')}:<br> ';
+              content.innerHTML += `<br>${I18n.t('lssm.missionhelper.fwm')}:<br> `;
               for (let i of Object.keys(MISSION.followup)) {
                   let id = MISSION.followup[i];
                   content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
