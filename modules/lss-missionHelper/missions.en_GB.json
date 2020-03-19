@@ -7,7 +7,12 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 110
+        "credits": 110,
+        "followup": {
+            "0": 11,
+            "1": 7,
+            "2": 24
+        }
     },
     "1": {
         "name": "Container fire",
@@ -32,6 +37,10 @@
             "0": 27,
             "1": 16,
             "2": 19
+        },
+        "followup": {
+            "0": 3,
+            "1": 7
         }
     },
     "3": {
@@ -45,6 +54,10 @@
         "credits": 340,
         "expansions": {
             "0": 27
+        },
+        "followup": {
+            "0": 2,
+            "1": 7
         }
     },
     "4": {
@@ -58,6 +71,9 @@
         "credits": 200,
         "expansions": {
             "0": 14
+        },
+        "followup": {
+            "0": 7
         }
     },
     "5": {
@@ -83,7 +99,11 @@
         "vehicles": {
             "truck": 2
         },
-        "credits": 600
+        "credits": 600,
+        "followup": {
+            "0": 7,
+            "1": 22
+        }
     },
     "7": {
         "name": "Burning leaves",
@@ -111,6 +131,10 @@
             "0": 20,
             "1": 22,
             "2": 6
+        },
+        "followup": {
+            "0": 7,
+            "1": 22
         }
     },
     "9": {
@@ -212,7 +236,11 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 340
+        "credits": 340,
+        "followup": {
+            "0": 7,
+            "1": 22
+        }
     },
     "18": {
         "name": "Out of control bonfire",
@@ -232,7 +260,11 @@
         "vehicles": {
             "truck": 1
         },
-        "credits": 650
+        "credits": 650,
+        "followup": {
+            "0": 7,
+            "1": 22
+        }
     },
     "20": {
         "name": "Basement fire",
@@ -281,6 +313,10 @@
             "bchief": 1
         },
         "credits": 2700,
+        "followup": {
+            "0": 5,
+            "1": 22
+        },
         "percentages": {
             "platform": 100,
             "bchief": 50
@@ -323,8 +359,11 @@
         },
         "expansions": {
             "0": 24,
-            "1": 2,
-            "2": 29
+            "1": 2
+        },
+        "followup": {
+            "0": 25,
+            "1": 29
         }
     },
     "26": {
@@ -774,7 +813,11 @@
             "transport": 50,
             "specialisation": "General Internal"
         },
-        "poi": 12
+        "poi": 12,
+        "followup": {
+            "0": 94,
+            "1": 14
+        }
     },
     "61": {
         "name": "Light Aircraft Crash (Airfield)",
@@ -803,7 +846,12 @@
         "vehicles": {
             "police": 1
         },
-        "credits": 400
+        "credits": 400,
+        "followup": {
+            "0": 55,
+            "1": 67,
+            "2": 56
+        }
     },
     "63": {
         "name": "Transient Ischemic Attack",

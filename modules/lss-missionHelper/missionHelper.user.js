@@ -14,6 +14,8 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Gefangene',
         water: 'Wasserbedarf',
         to: 'bis zu',
+        exp: 'Ausbreitungen',
+        fwm: 'Folgeeinsätze',
         averageMinimumEmployeesFire: 'Durchschnittlich mindestens benötigte Feuerwehrleute',
         averageMinimumEmployeesPolice: 'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
         ambulance_only: 'Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!',
@@ -70,6 +72,10 @@ const lssm_missionhelper_adjustPosition = () => {
             expansions: {
                 label: 'Ausbreitungen',
                 description: 'Zeigt, zu was sich der Einsatz ausbreiten kann. (Zeigt nur einfache Ausbreitung)'
+            },
+            followup: {
+                label: 'Folgeeinsätze',
+                description: 'Zeigt, was der Einsatz für Folgeinsätze generieren kann'
             },
             show_100: {
                 label: 'Zeige 100% Wahrscheinlichkeit',
@@ -191,6 +197,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patients',
         prisoners: 'Prisoners',
         to: 'up to',
+        exp: 'Spreads',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
@@ -341,6 +348,8 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.en_GB.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
+        exp: 'Spreads',
+        fwm: 'Follow-up missions',
         SWATPersonnel: "Needed Armed Response Personnel",
         settings: {
             name: {
@@ -382,6 +391,10 @@ const lssm_missionhelper_adjustPosition = () => {
             expansions: {
                 label: 'distributions',
                 description: 'Shows what the bet can spread to. (Shows only simple spread)'
+            },
+            followup: {
+                label: 'Follow-up missions',
+                description: 'Shows what the insert can generate for follow-up missions'
             },
             show_100: {
                 label: 'Show 100% probability',
@@ -610,6 +623,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'presos',
         water: 'Wasserbedarf',
         to: 'hasta',
+        exp: 'Diferenciales',
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
         transport: 'transportar',
@@ -884,6 +898,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'pacientes',
         prisoners: 'detentos',
         to: 'até',
+        exp: 'Divulgação',
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
         transport: 'levar',
@@ -1158,6 +1173,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'patienter',
         prisoners: 'fångar',
         to: 'upp till',
+        exp: 'bredbara',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
@@ -1302,6 +1318,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patienter',
         prisoners: 'Fanger',
         to: 'op til',
+        exp: 'Sprede',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Denne mission er kun ambulance!',
         title: 'Missionhelper',
@@ -1446,6 +1463,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Pacienti',
         prisoners: 'Vězni',
         to: 'až do',
+        exp: 'Šíření',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Tato mise je pouze sanitka!',
         title: 'Pomocník mise',
@@ -1590,6 +1608,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'hastalar',
         prisoners: 'Mahkumlar',
         to: 'kadar',
+        exp: 'Yayıldı',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Bu görev sadece ambulanstır!',
         title: 'Misyonhelper',
@@ -1734,6 +1753,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Pasienter',
         prisoners: 'innsatte',
         to: 'opp til',
+        exp: 'Spre',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Dette oppdraget er kun ambulanse!',
         title: 'Missionhelper',
@@ -1878,6 +1898,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Pacjenci',
         prisoners: 'Więźniowie',
         to: 'aż do',
+        exp: 'Rozprzestrzeniania',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Ta misja to tylko ambulans!',
         title: 'Pomocnik misjonarza',
@@ -2022,6 +2043,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Pazienti',
         prisoners: 'Prigionieri',
         to: 'fino',
+        exp: 'Diffondere',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Questa missione e\' riservata alle ambulanze.!',
         title: 'Missionhelper',
@@ -2166,6 +2188,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patients',
         prisoners: 'prisonniers',
         to: 'jusqu\'à',
+        exp: 'Propagation',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Cette mission est réservée aux ambulances !',
         title: 'Aide à la mission',
@@ -2307,6 +2330,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Пациенты',
         prisoners: 'Заключенные',
         to: 'вплоть до',
+        exp: 'Распространяться',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Это задание только для скорой помощи!',
         title: 'Миссионер',
@@ -2446,6 +2470,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Пацієнти',
         prisoners: 'В\'язні',
         to: 'аж до',
+        exp: 'Поширення',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Ця місія є лише швидкою допомогою!',
         title: 'Місіонер',
@@ -2590,6 +2615,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: '患者さん',
         prisoners: '囚人',
         to: 'まで',
+        exp: '普及',
         SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'このミッションは救急車のみです！',
         title: 'ミッションヘルパー',
@@ -2733,6 +2759,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: '환자',
         prisoners: '죄수',
         to: '까지',
+        exp: '확산',
         ambulance_only: '이 임무는 구급차 전용입니다!',
         title: '선교사',
         transport: '수송',
@@ -2875,6 +2902,7 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Patiënten',
         prisoners: 'Gevangenen',
         to: 'tot',
+        exp: 'Verspreidingen',
         ambulance_only: 'Deze inzet is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
@@ -3109,6 +3137,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     description: I18n.t('lssm.missionhelper.settings.expansions.description')
                 }
             },
+            followup: {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.followup.label'),
+                    type: 'toggle',
+                    description: I18n.t('lssm.missionhelper.settings.followup.description')
+                }
+            },
             show_100: {
                 default: false,
                 ui: {
@@ -3302,7 +3338,15 @@ const lssm_missionhelper_adjustPosition = () => {
               content.innerHTML += '<br>';
               for (let i of Object.keys(MISSION.expansions)) {
                   let id = MISSION.expansions[i];
-                  content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
+                  content.innerHTML += `${I18n.t('lssm.missionhelper.exp')}:<br> <a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
+              }
+          }
+
+          if (SETTINGS.followup && MISSION.followup) {
+              content.innerHTML += '<br>';
+              for (let i of Object.keys(MISSION.followup)) {
+                  let id = MISSION.followup[i];
+                  content.innerHTML += `${I18n.t('lssm.missionhelper.fwm')}:<br> <a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
               }
           }
 
