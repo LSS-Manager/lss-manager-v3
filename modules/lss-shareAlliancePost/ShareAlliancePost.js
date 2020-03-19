@@ -523,7 +523,7 @@
             const offsetInHours = getSetting('timeOffset');
             let time = new Date();
             let customTime = time.getHours() + offsetInHours;
-            customTime = customTime > 24 ? customTime - 24 : customTime;
+            customTime = customTime >= 24 ? customTime - 24 : customTime;
 
             // Prepare required Vehicles
             const alertText = $('.alert-danger');
