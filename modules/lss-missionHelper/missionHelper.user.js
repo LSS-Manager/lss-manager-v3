@@ -3335,10 +3335,10 @@ const lssm_missionhelper_adjustPosition = () => {
           }
 
           if (SETTINGS.expansions && MISSION.expansions) {
-              content.innerHTML += '<br>';
+              content.innerHTML += '<br>${I18n.t('lssm.missionhelper.exp')}:<br>';
               for (let i of Object.keys(MISSION.expansions)) {
                   let id = MISSION.expansions[i];
-                  content.innerHTML += `${I18n.t('lssm.missionhelper.exp')}:<br> <a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
+                  content.innerHTML += `<a href="../einsaetze/${id}?mission_id=${MISSION_ID}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
               }
           }
 
