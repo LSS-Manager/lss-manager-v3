@@ -9383,5 +9383,43 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "515": {
+        "name": "Brand einer Produktionshalle",
+        "stations": {
+            "0": 18,
+            "2": 6,
+            "6": 4,
+            "9": 1,
+            "werk": 1
+        },
+        "vehicles": {
+            "truck": 10,
+            "dlk": 3,
+            "elw1": 2,
+            "elw2": 1,
+            "atem": 2,
+            "rw": 2,
+            "mess": 1,
+            "gwl2": 2,
+            "ulf": 1,
+            "tm": 1,
+            "gwwerk": 1,
+            "fustw": 4,
+            "gkw": 1,
+            "mtwtz": 1,
+            "mzkw": 1
+        },
+        "credits": 83002,
+        "patients": {
+            "max": 10,
+            "transport": 40,
+            "nef": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 40,
+        "percentages": {
+            "mess": 30
+        }
     }
 }
