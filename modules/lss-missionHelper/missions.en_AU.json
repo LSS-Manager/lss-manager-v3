@@ -1875,7 +1875,7 @@
             "bchief": 2,
             "police": 2
         },
-        "credits": 73002,
+        "credits": 7300,
         "patients": {
             "max": 8,
             "min": 2,
@@ -1899,7 +1899,7 @@
             "mcv": 1,
             "police": 4
         },
-        "credits": 100002,
+        "credits": 10000,
         "patients": {
             "max": 20,
             "min": 8,
@@ -1949,7 +1949,7 @@
             "platform": 3,
             "tanker": 3
         },
-        "credits": 90002,
+        "credits": 9000,
         "poi": 21
     },
     "136": {
