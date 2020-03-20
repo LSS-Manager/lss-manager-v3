@@ -83,6 +83,7 @@ else if (I18n.locale == "en_GB")
         "14": ["Breathing Apparatus Support Unit (BASU)", 0],
         "15": ["Incident Command and Control Unit (ICCU)", 0],
         "16": ["Rescue Pump", 0],
+        "17": ["CARP", 0]
     };
 }
 else if (I18n.locale == "en_AU")
@@ -111,7 +112,8 @@ else if (I18n.locale == "en_AU")
         "9": ["Air Ambulance", 2],
         "10": ["BASU", 0],
         "11": ["MCV", 0],
-        "12": ["Rescue Pumper", 0]
+        "12": ["Rescue Pumper", 0],
+        "13": ["Aerial Pumper", 0]
     };
 }
 else if (I18n.locale == "es_ES")
@@ -458,10 +460,11 @@ else if (I18n.locale == "ru_RU") {
         "6": ["АЦ-9,4-60", 0],
         "7": ["АПТ-5,0-70", 0],
         "8": ["Полицейская машина", 6],
-        "9": ["Вертолёт службы спасения", 2],
+        "9": ["Медицинский вертолёт", 2],
         "10": ["Mobile air", 0],
         "11": ["ПКП", 0],
-        "12": ["ПСА", 0]
+        "12": ["ПСА", 0],
+        "13": ["АЦЛ", 0]
     };
 }
 else if (I18n.locale == "uk_UA") {

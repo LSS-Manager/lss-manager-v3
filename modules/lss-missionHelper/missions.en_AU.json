@@ -1850,5 +1850,116 @@
             "transport": 60,
             "specialisation": "General Surgeon"
         }
+    },
+    "129": {
+        "name": "Spinal injury",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "General Surgeon"
+    },
+    "130": {
+        "name": "Partial Building Collapse",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 2,
+            "bchief": 2,
+            "police": 2
+        },
+        "credits": 7300,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatology"
+        }
+    },
+    "131": {
+        "name": "Full Building Collapse",
+        "stations": {
+            "0": 14,
+            "2": 5,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "heavyRescue": 4,
+            "platform": 2,
+            "bchief": 4,
+            "mcv": 1,
+            "police": 4
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatology"
+        }
+    },
+    "132": {
+        "name": "3rd degree burns",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "General Surgeon"
+    },
+    "133": {
+        "name": "Serious head injury",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurosurgery"
+    },
+    "134": {
+        "name": "Traumatic limb amputation",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "General Surgeon"
+    },
+    "135": {
+        "name": "Big farm fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "136": {
+        "name": "Back pain",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "General Internal"
     }
 }

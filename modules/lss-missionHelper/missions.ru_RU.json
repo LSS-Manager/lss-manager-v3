@@ -1522,5 +1522,115 @@
             "transport": 60,
             "specialisation": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         }
+    },
+    "111": {
+        "name": "\u0422\u0440\u0430\u0432\u043c\u0430 \u043f\u043e\u0437\u0432\u043e\u043d\u043e\u0447\u043d\u0438\u043a\u0430",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+    },
+    "112": {
+        "name": "\u0427\u0430\u0441\u0442\u0438\u0447\u043d\u043e\u0435 \u043e\u0431\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u0437\u0434\u0430\u043d\u0438\u044f",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 5,
+            "heavyRescue": 2,
+            "platform": 3,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 30,
+            "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        }
+    },
+    "113": {
+        "name": "\u041e\u0431\u0440\u0443\u0448\u0435\u043d\u0438\u0435 \u0437\u0434\u0430\u043d\u0438\u044f",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 7,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 60,
+            "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        }
+    },
+    "114": {
+        "name": "\u041e\u0436\u043e\u0433\u0438 3\u0439 \u0441\u0442\u0435\u043f\u0435\u043d\u0438",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+    },
+    "115": {
+        "name": "\u0427\u0435\u0440\u0435\u043f\u043d\u043e-\u043c\u043e\u0437\u0433\u043e\u0432\u0430\u044f \u0442\u0440\u0430\u0432\u043c\u0430",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "\u041d\u0435\u0439\u0440\u043e\u0445\u0438\u0440\u0443\u0440\u0433\u0438\u044f"
+    },
+    "116": {
+        "name": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0430\u044f \u0430\u043c\u043f\u0443\u0442\u0430\u0446\u0438\u044f \u043a\u043e\u043d\u0435\u0447\u043d\u043e\u0441\u0442\u0438",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "\u0425\u0438\u0440\u0443\u0440\u0433 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+    },
+    "117": {
+        "name": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u043f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0444\u0435\u0440\u043c\u0435",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "118": {
+        "name": "\u0411\u043e\u043b\u0438 \u0432 \u0441\u043f\u0438\u043d\u0435",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "\u041d\u0435\u0432\u0440\u043e\u043b\u043e\u0433\u0438\u044f"
     }
 }

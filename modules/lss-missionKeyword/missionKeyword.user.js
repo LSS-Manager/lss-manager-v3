@@ -536,7 +536,8 @@
         511: 'Herrenloses Gepäckstück',
         512: 'Herrenloses Gepäckstück',
         513: 'Hausdach eingestürzt',
-        514: 'Durchsuchung - Gebäudekomplex'
+        514: 'Durchsuchung - Gebäudekomplex',
+        515: 'Brand einer Produktionshalle'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -1075,7 +1076,15 @@
         143: 'Stuck Climber',
         144: 'Threatening an official',
         145: 'Fire in an office building',
-        146: 'Injured person on high voltage mast'
+        146: 'Injured person on high voltage mast',
+        147: 'Spinal injury',
+        148: 'Partial collapse of the building',
+        149: 'Building collapse',
+        150: '3rd degree burns',
+        151: 'Serious head injury',
+        152: 'Traumatic limb amputation',
+        153: 'Big farm fire',
+        154: 'Back pain'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1222,7 +1231,15 @@
         125: 'Threatening an official',
         126: 'Threatening an official',
         127: 'Fire in silo',
-        128: 'Injured person on high voltage mast'
+        128: 'Injured person on high voltage mast',
+        129: 'Spinal injury',
+        130: 'Partial Building Collapse',
+        131: 'Full Building Collapse',
+        132: '3rd degree burns',
+        133: 'Serious head injury',
+        134: 'Traumatic limb amputation',
+        135: 'Big farm fire',
+        136: 'Back pain'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -2865,7 +2882,15 @@
         107: 'Застрявший альпинист',
         108: 'Угроза насилия',
         109: 'Возгорание силоса',
-        110: 'Человек на высоковольтном столбе'
+        110: 'Человек на высоковольтном столбе',
+        111: 'Травма позвоночника',
+        112: 'Частичное обрушение здания',
+        113: 'Обрушение здания',
+        114: 'Ожоги 3й степени',
+        115: 'Черепно-мозговая травма',
+        116: 'Травматическая ампутация конечности',
+        117: 'Большой пожар на ферме',
+        118: 'Боли в спине'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -4293,7 +4318,8 @@
       511: 'POL 1',
       512: 'POL 1',
       513: 'THW 3',
-      514: 'BP 2'
+      514: 'BP 2',
+      515: 'B 7'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -4801,7 +4827,15 @@
       143: 'TECH 1',
       144: 'POL 1',
       145: 'FIRE 6',
-      146: 'TECH 1'
+      146: 'TECH 1',
+      147: 'MED 1',
+      148: 'FIRE 3',
+      149: 'FIRE 4',
+      150: 'MED 1',
+      151: 'MED 1',
+      152: 'MED 1',
+      153: 'FIRE 5',
+      154: 'MED 1'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -4932,7 +4966,15 @@
       125: 'POL 1',
       126: 'POL 1',
       127: 'FIRE 3',
-      128: 'TECH 1'
+      128: 'TECH 1',
+      129: 'MED 1',
+      130: 'FIRE 3',
+      131: 'FIRE 6',
+      132: 'MED 1',
+      133: 'MED 1',
+      134: 'MED 1',
+      135: 'FIRE 5',
+      136: 'MED 1'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -6367,7 +6409,15 @@
       107: 'TECH 1',
       108: 'POL 1',
       109: 'FIRE 5',
-      110: 'TECH 1'
+      110: 'TECH 1',
+      111: 'MED 1',
+      112: 'FIRE 3',
+      113: 'FIRE 5',
+      114: 'MED 1',
+      115: 'MED 1',
+      116: 'MED 1',
+      117: 'FIRE 4',
+      118: 'MED 1'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',

@@ -17,7 +17,7 @@ $.get(missionlink)
             police: "полицейские автомобили",
             arff: 'АПСР',
             mcv: "мобильные командные пункты",
-            rth: "HEMS",
+            rth: "вертолёта",
             policeHeli: "Police Helicopter",
             ambulance: "скорые"
         };
@@ -70,8 +70,8 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/транспортировки/)) {
                 transport = number;
-            } else if (content.match(/NEF/)) {
-                nef = number;
+            } else if (content.match(/вертолёта/)) {
+                rth = number;
             } else if (content.match(/Специализации пациента/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Макс\. число заключённых/)) {

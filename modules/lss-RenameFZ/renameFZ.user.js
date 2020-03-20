@@ -256,6 +256,7 @@
             validStationTypes: {
                 0: "Fire Station",
                 2: "Ambulance Station",
+                5: "Medical Helicopter station",
                 6: "Police Station",
                 7: "Dispatch Center",
                 13: "Police Aviation",
@@ -281,7 +282,8 @@
                 13: 'Armed Response Vehicle (ARV)',
                 14: 'Breathing Apparatus Support Unit (BASU)',
                 15: 'Incident Command and Control Unit (ICCU)',
-                16: 'Rescue Pump'
+                16: 'Rescue Pump',
+                17: 'CARP'
             }
         }
     };
@@ -301,6 +303,7 @@
             validStationTypes: {
                 0: "Fire Station",
                 2: "Ambulance Station",
+                5: "Air Ambulance Station",
                 6: "Police Station",
                 7: "Dispatch Center",
                 18: "Fire Station (Small)",
@@ -320,7 +323,8 @@
                 9: 'Air Ambulance',
                 10: 'BASU',
                 11: 'MCV',
-                12: 'Rescue Pumper'
+                12: 'Rescue Pumper',
+                13: 'Aerial Pumper'
             }
         }
     };
@@ -893,6 +897,7 @@
             validStationTypes: {
                 0: "Пожарная станция",
                 2: "Станция скорой помощи",
+                5: "Вертолётная станция",
                 6: "Полицейский участок",
                 7: "Диспетчерский пункт",
                 18: "Пожарная станция (малая)",
@@ -909,10 +914,11 @@
                 6: 'АЦ-9,4-60',
                 7: 'АПТ-5,0-70',
                 8: 'Полицейская машина',
-                9: 'Вертолёт службы спасения',
+                9: 'Медицинский вертолёт',
                 10: 'Mobile air',
                 11: 'ПКП',
-                12: 'ПСА'
+                12: 'ПСА',
+                13: 'АЦЛ'
             }
         }
     };
