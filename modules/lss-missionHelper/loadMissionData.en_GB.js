@@ -72,8 +72,8 @@ $.get(missionlink)
                 patientsMin = number;
             } else if (content.match(/transported/)) {
                 transport = number;
-            } else if (content.match(/NEF/)) {
-                nef = number;
+            } else if (content.match(/Helicopter/)) {
+                rth = number;
             } else if (content.match(/Patient Specializations/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maximum Number of Prisoners/)) {

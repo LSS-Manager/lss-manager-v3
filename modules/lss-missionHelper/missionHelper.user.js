@@ -557,7 +557,8 @@ const lssm_missionhelper_adjustPosition = () => {
             hazmat: "HazMat",
             mcv: "Mobile Command Vehicle",
             police: "Police Car",
-            arff: "ARFF"
+            arff: "ARFF",
+            rth: "Air Ambulance"
         },
         pois: [
             "Park",
@@ -2403,7 +2404,8 @@ const lssm_missionhelper_adjustPosition = () => {
             hazmat: "автомобили обезвреживания",
             mcv: "мобильные командные пункты",
             police: "полицейские автомобили",
-            arff: "АПСР"
+            arff: "АПСР",
+            rth: "вертолёта"
         },
         pois: [
             "Парк",
