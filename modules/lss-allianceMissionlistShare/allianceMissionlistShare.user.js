@@ -88,7 +88,10 @@
     $('#missions-panel-body').on('click', '.allianceShareButton', function (e) {
         e.preventDefault();
         $.ajax({
-            url: '/missions/' + $(this).attr('data-header') + '/alliance'
+            url: '/missions/' + $(this).attr('data-header') + '/alliance',
+            headers: {
+                'X-LSS-Manager': lssm.headerVersion()
+            },
         });
         $(this).addClass('btn__disabled');
     });
