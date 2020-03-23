@@ -5871,5 +5871,30 @@
             "transport": 70,
             "specialisation": "General Internal"
         }
+    },
+    "356": {
+        "name": "Cruise ship fire",
+        "stations": {
+            "0": 13,
+            "3": 6,
+            "11": 1
+        },
+        "vehicles": {
+            "truck": 7,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 2,
+            "air": 1,
+            "hazmat": 1,
+            "mcv": 1,
+            "largeFireboat": 2
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 12,
+            "transport": 40,
+            "specialisation": "General Internal"
+        },
+        "poi": 38
     }
 }

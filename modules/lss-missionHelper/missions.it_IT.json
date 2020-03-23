@@ -979,7 +979,7 @@
         },
         "percentages": {
             "hazmat": 50
-		}
+        }
     },
     "73": {
         "name": "Grave incidente con autobus coinvolto",
@@ -1967,5 +1967,39 @@
             "specialisation": "Traumatologia"
         },
         "poi": 27
+    },
+    "132": {
+        "name": "Balle di fieno in fiamme",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "133": {
+        "name": "Aggressione a sanitari",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 4,
+            "transport": 40,
+            "specialisation": "Traumatologia"
+        },
+        "prisoners": {
+            "max": 2
+        }
     }
 }

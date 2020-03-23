@@ -1961,5 +1961,18 @@
         "transport": 80,
         "rth": 30,
         "specialisation": "General Internal"
+    },
+    "137": {
+        "name": "Straw bale stack on fire",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

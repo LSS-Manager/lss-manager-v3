@@ -10019,5 +10019,33 @@
             "0": 62,
             "1": 64
         }
+    },
+    "574": {
+        "name": "Assistentie handhaving",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 300,
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "575": {
+        "name": "Assistentie handhaving",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "noodhulpeen": 2
+        },
+        "credits": 500,
+        "poi": 14,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

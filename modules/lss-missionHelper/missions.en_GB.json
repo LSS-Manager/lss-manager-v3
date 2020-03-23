@@ -2178,5 +2178,22 @@
         "transport": 80,
         "rth": 30,
         "specialisation": "General Internal"
+    },
+    "155": {
+        "name": "Suspicious package",
+        "stations": {
+            "6": 8
+        },
+        "vehicles": {
+            "k9": 1,
+            "police": 8
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 1
+        },
+        "special": {
+            "SWATPersonnel": 8
+        }
     }
 }

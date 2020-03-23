@@ -1118,5 +1118,18 @@
             "transport": 60,
             "specialisation": "\u4e00\u822c\u5916\u79d1"
         }
+    },
+    "83": {
+        "name": "\u71c3\u3048\u308b\u30ef\u30e9\u306e\u5c71",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

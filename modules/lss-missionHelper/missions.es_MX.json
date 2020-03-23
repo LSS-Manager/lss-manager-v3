@@ -1698,5 +1698,18 @@
             "transport": 60,
             "specialisation": "Cirug\u00eda general"
         }
+    },
+    "124": {
+        "name": "Incendio de una pila de paja",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

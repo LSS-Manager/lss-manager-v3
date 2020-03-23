@@ -1278,5 +1278,18 @@
             "transport": 60,
             "specialisation": "V\u0161eobecn\u00fd chirurg"
         }
+    },
+    "92": {
+        "name": "Po\u017e\u00e1r stohu sl\u00e1my",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

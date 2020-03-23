@@ -1169,5 +1169,18 @@
             "transport": 60,
             "specialisation": "Genel Cerrah"
         }
+    },
+    "84": {
+        "name": "Saman y\u0131\u011f\u0131n\u0131 yan\u0131yor",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }
