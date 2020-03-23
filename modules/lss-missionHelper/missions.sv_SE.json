@@ -1701,5 +1701,18 @@
             "transport": 60,
             "specialisation": "Allm\u00e4nkirurg"
         }
+    },
+    "122": {
+        "name": "Brinnande h\u00f6bal",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

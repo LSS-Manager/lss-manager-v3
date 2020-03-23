@@ -1988,5 +1988,28 @@
             "truck": 1
         },
         "credits": 1200
+    },
+    "139": {
+        "name": "P\u0142on\u0105cy stos bel s\u0142omy",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
+    },
+    "140": {
+        "name": "Zalana piwnica \/ dom \/ gara\u017c",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
     }
 }

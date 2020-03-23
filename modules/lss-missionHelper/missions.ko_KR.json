@@ -1086,5 +1086,18 @@
             "transport": 60,
             "specialisation": "\uc77c\ubc18 \uc678\uacfc"
         }
+    },
+    "81": {
+        "name": "\ubd88\ud0c0\ub294 \ubccf\uc9da \ub354\ubbf8",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }

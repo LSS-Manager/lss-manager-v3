@@ -1693,6 +1693,9 @@
 
             $.ajax({
                 url: `/vehicles/${vehicleID}/editName`,
+                headers: {
+                    'X-LSS-Manager': lssm.headerVersion()
+                },
                 success: function (data) {
                     $(`#vehicle_form_holder_${vehicleID}`).html(data);
                     $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));

@@ -1147,5 +1147,18 @@
             "transport": 60,
             "specialisation": "Cirurgi\u00e3o geral"
         }
+    },
+    "83": {
+        "name": "Inc\u00eandio numa pilha de fardos de palha",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 1500,
+        "poi": 21
     }
 }
