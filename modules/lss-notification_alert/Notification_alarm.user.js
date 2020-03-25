@@ -337,6 +337,27 @@
     }
   }
 
+  I18n.translations.ro_RO.lssm['n-alarm'] = {
+    not_support: "Acest browser nu acceptă notificări HTML5",
+    inithead: "Initalizare",
+    chat_message: "Mesaj de chat de la ",
+    blend: "Ascunde după:",
+    seconds: "Secunde",
+    settings: {
+      title: "Notificare-Alertă",
+      chat_title: "Cat mesaje",
+      chat_text: "Obțineți mesajele de chat ca notificare.",
+      s5_title: "Cerere de transport",
+      save: "Salva",
+      close: "Închide",
+      s5_text: "Obțineți solicitările de transport ca notificare",
+      status_title: "Starea",
+      status_text: "Obțineți toate mesajele de stare ca notificare.",
+      chatp_title: "Obțineți mesaje de chat ca informații pop-up",
+      chatp_text: "Obținetoate mesajele de chat ca mesaj pop-up în partea dreaptă"
+    }
+  }
+
   I18n.translations.nl_NL.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",

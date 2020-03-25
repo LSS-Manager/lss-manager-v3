@@ -895,6 +895,62 @@
             }
         }
     };
+    I18n.translations.ro_RO.lssm.extendedBuilding = {
+        title: 'Vedere extinsă la clădire',
+        crew: 'Echipaj (max)',
+        fms: 'Statut',
+        assignment: 'Assign Personnel',
+        neededPersonnel: 'Needed Personnel',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Personnel Overview',
+        schooling: 'Education',
+        schoolingsMulti: 'All Combinations of Educations',
+        schoolingsSingle: 'Single Educations',
+        amount: 'Amount',
+        expansionName: 'Description',
+        vehicleType: 'Type',
+        binding: 'Atribuit',
+        bindingAmount: 'Legat',
+        settings: {
+            neededPersonnel: {
+                label: 'Personal necesar',
+                description: 'Arată personalul necesar în cazul în care toate vehiculele urmează să fie ocupate',
+            },
+            switchStatus: {
+                label: 'Schimbare rapidă a stării',
+                description: 'Starea unui vehicul poate fi schimbată direct între S2 și S6 prin afișarea stării',
+            },
+            assignmentBtn: {
+                label: 'Atribuire rapidă',
+                description: 'Adaugă un buton pentru a ajunge rapid la fereastra "Atribuire personal"',
+            },
+            assignedWorkers: {
+                label: 'Personal alocat',
+                description: 'Arată pentru fiecare vehicul cât de mult personal este alocat',
+            },
+            currentCrew: {
+                label: 'Echipajul curent',
+                description: 'Indică pentru fiecare vehicul câți angajați se află în prezent pe vehicul',
+            },
+            expansions: {
+                label: 'Afișare expansiuni',
+                description: 'Afișarea stării curente a extinderilor',
+            },
+            personnelOverview: {
+                label: 'Prezentare generală extinsă a personalului',
+                description: 'Arată în prezentarea generală a personalului cât de mult personal are ce formare',
+            },
+            vehicleType: {
+                label: 'Afișare tip vehicul',
+                description: 'Afișează tipul vehiculului în lista de vehicule.',
+            },
+            expansionDate: {
+                label: 'Data finalizării extinderii',
+                description: 'Se afișează în lista de extinderi și când construcția va fi terminată (lucrări numai în legătură cu setarea "Arată extinderi")',
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

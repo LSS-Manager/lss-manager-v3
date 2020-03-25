@@ -527,6 +527,19 @@
             }
         ]
     };
+    I18n.translations.ro_RO.lssm.heatmap = {
+        active: 'Activ',
+        vehicleType: 'Grupuri',
+        radius: 'Rază',
+        intensity: 'Intensitate',
+        close: 'Închide',
+        vehicleGroups: [
+            {
+                name: 'Combinație proprie',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

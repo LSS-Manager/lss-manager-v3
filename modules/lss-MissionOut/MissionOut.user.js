@@ -49,6 +49,9 @@
     I18n.translations.ko_KR.lssm.missionOut = {
         title: '미션 숨기기 / 보이기'
     };
+    I18n.translations.ro_RO.lssm.missionOut = {
+        title: 'Ascundere/Afișare misiune'
+    };
     I18n.translations.nl_NL.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };

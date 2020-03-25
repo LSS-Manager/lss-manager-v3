@@ -391,7 +391,7 @@ else if (I18n.locale == "it_IT") {
         "Cella della prigione": 10,
         "Altra cella": 10,
         // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
+        "Altre classi": 20,
     };
     lssm.carsById = {
         "0": ["ABP", 0],
@@ -540,6 +540,31 @@ else if (I18n.locale == "ko_KR") {
         "7": ["생화학 인명구조차", 0],
         "8": ["사고 대응차량(IRV)", 6],
         "9": ["수색구조용 헬기", 2]
+    };
+}
+else if (I18n.locale == "ro_RO") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Extensie ambulanță": 0,
+        "Extensie aeroport": 1,
+        "Extindere salvare acvatică": 2,
+        // Pol-Erweiterungen (10-19)
+        "Celulă de pușcărie": 10,
+        "Celulă suplimentară": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Pompă de incendiu tip 1", 0],
+        "1": ["Pompă de incendiu tip 2", 0],
+        "2": ["Camion cu platformă", 0],
+        "3": ["Unitate șef batalion", 0],
+        "4": ["Vehicul greu de salvare", 0],
+        "5": ["Ambulanță ALS", 2],
+        "6": ["Cisternă de apă", 0],
+        "7": ["Materiale periculoase", 0],
+        "8": ["Mașină de patrulare", 6],
+        "9": ["Salvare aeriană", 2]
     };
 }
 else if (I18n.locale == "nl_NL")

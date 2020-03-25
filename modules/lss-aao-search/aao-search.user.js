@@ -15,7 +15,7 @@
         search_aao: "Hledání AAO",
         use_dd: "Použít rozbalovací nabídku: ",
         reset: "Obnovit",
-        select: "Please select..."
+        select: "Vyberte..."
     };
     I18n.translations.pl_PL['lssm']['aaosearch'] = {
         search_aao: "Szukaj AAO",
@@ -45,7 +45,7 @@
         search_aao: "Ricerca AAO",
         use_dd: "Utilizzare il menu a tendina: ",
         reset: "Reset",
-        select: "Please select..."
+        select: "Si prega di selezionare..."
     };
     I18n.translations.tr_TR['lssm']['aaosearch'] = {
         search_aao: "AAO'da Ara",
@@ -94,6 +94,12 @@
         use_dd: "드롭 다운 사용 : ",
         reset: "초기화",
         select: "선택 해주세요..."
+    };
+    I18n.translations.ro_RO['lssm']['aaosearch'] = {
+        search_aao: "Caută AAO",
+        use_dd: "Utilizare verticală: ",
+        reset: "Reseta",
+        select: "Citește și..."
     };
 	I18n.translations.nl_NL['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",

@@ -309,6 +309,25 @@
         import_fail: "오류 : 파일을 가져 오는 중 오류가 발생했습니다 : <strong> {0} </strong>. 개발자에게 알려주십시오."
     };
 
+    I18n.translations.ro_RO.lssm.managedsettings = {
+        title: "Setări LSSM",
+        text1: "Aici puteți modifica setările plugin-urilor activate.",
+        text2: "",
+        save: "Salvare & Închidere",
+        settings_tab: "Setări",
+        addField_btn: "Adăugare",
+        export_btn: "Setări export",
+        import_btn: "Importsetări",
+        reset_btn: "Resetarea setărilor",
+        reset_hint: "Sigur reinițializați setările acestui modul la valorile implicite?",
+        reset_success: "Reinițializați cu succes setările. Trebuie să reîncărcați pagina pentru a le face să funcționeze.",
+        export_success: "Setări exportate cu succes",
+        export_hint: "Rețineți că numai setările salvate anterior ale modulelor activate în prezent pot fi exportate.",
+        import_success: "Setările au fost importate cu succes. Trebuie să reîncărcați pagina pentru a le face să funcționeze.",
+        import_missmatch: "Fișierul de citire nu mai este, din păcate, compatibil cu versiunea curentă de LSSM.",
+        import_fail: "Eroare: Eroare la importul fișierului: <strong> {0} </strong>. Vă rugăm să informați un dezvoltator."
+    };
+
     I18n.translations.nl_NL.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",

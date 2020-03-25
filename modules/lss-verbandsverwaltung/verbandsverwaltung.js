@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -195,6 +195,18 @@
         updateMessage: '값이 자동으로 업데이트됩니다<br>마다 ' + updateMin + ' 의사록.',
         chartErr: '차트를로드 할 수 없습니다 "{{chart}}"!<br>우리는 이것이 이미 일부 브라우저에서 발생한다는 것을 알고 있지만 아직 이유는 없습니다. 부디 <b>하지마</b> 이미이 문제에 대해이 오류를보고하십시오!',
         hoverTip: '팁 : 요소 위에 마우스를 올려 놓으면 값 기록이 표시됩니다..'
+    };
+    I18n.translations.ro_RO.lssm.verbandsverwaltung = {
+        name: 'Administrare',
+        allianceFunds: 'Fondurile Alianței',
+        allianceCredits: 'Credite câștigate',
+        users: 'Membri',
+        onlineUsers: 'Membrii online',
+        allianceRank: 'Rang în Lista Alianței',
+        page: 'Pagina',
+        updateMessage: 'Actualizarea automată a valorilor<br>Fiecare ' + updateMin + ' Minute.',
+        chartErr: 'Imposibil de încărcat diagrama "{{chart}}"!<br>Știm deja că acest lucru se întâmplă cu unele browsere, dar nu încă de ce. Vă rugăm să nu \'t raport- ne această eroare ca suntem deja pe această problemă!',
+        hoverTip: 'Indicație: treceți cu mouse-ul peste un element pentru a afișa un istoric de valori.'
     };
     I18n.translations.nl_NL.lssm.verbandsverwaltung = {
         name: 'Administratie',

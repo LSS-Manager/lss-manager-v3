@@ -210,6 +210,19 @@
         fms5H1: '운송업자'
     };
 
+    I18n.translations.ro_RO.lssm.statusDispatching = {
+        name: 'Cereri de transport îmbunătățite',
+        fms: 'Transport solicitat',
+        nextVehicle: 'Du-te la următorul vehicul cu o cerere de transport',
+        backToAlarm: 'Înapoi la misiune',
+        settingsTitle: 'Solicitări de transport îmbunătățite - Setări',
+        settingsAttr: 'Faceți clic pe butonul "Transport solicitat" în masca de misiune automat',
+        settingsAttrDesc: 'Activarea acestei opțiuni oferă clic automat pe butonul " transport solicitat " din masca de misiune. În acest fel va trebui să treacă prin toate cererile de transport înainte de a putea vizualiza detalii la misiune. Activarea acestei opțiuni permite procesarea mai rapidă a solicitărilor de transport.<br>'
+            + 'Dezactivarea acestei opțiuni permite a vedea detaliile misiunii înainte de procesarea solicitărilor de transport. Butoanele "Du-te la următorul vehicul cu o cerere de transport" și "Înapoi la misiune" nu sunt afectate de această setare și sunt întotdeauna automat clic.',
+        close: 'Închide',
+        fms5H1: 'Transportate'
+    };
+
     I18n.translations.nl_NL.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

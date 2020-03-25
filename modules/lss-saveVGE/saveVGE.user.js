@@ -83,6 +83,12 @@
         noVGE: "저장된 얼라이언스 미션이 없습니다!",
         VGEs: "LSAMs"
     };
+    I18n.translations.ro_RO['lssm']['saveVGE'] = {
+        save: "Salva",
+        del: "Şterge",
+        noVGE: "Nici o misiune a Alianței salvată!",
+        VGEs: "LSAMs"
+    };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
     	del: "Verwijderen",

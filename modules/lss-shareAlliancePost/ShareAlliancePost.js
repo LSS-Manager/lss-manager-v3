@@ -324,6 +324,25 @@
         }
     };
 
+    I18n.translations.ro_RO.lssm.sharealliancepost = {
+        share: 'Împărtăşi...',
+        chat: 'Conversație...',
+        alert: 'Alertă...',
+        chatm: 'Pentru a Chat-ul de echipă',
+        clock: 'ora o\'',
+        reqVehIdent: 'Vehicule necesare:',
+        reqVeh: 'Nu sunt necesare alte vehicule.',
+        settings: {
+            title: 'Alertare, partajare și postare',
+            jumpNext: 'Salt la următoarea misiune după alertare',
+            enableKeyboard: 'Activarea comenzilor rapide de la tastatură',
+            defaultPostToChat: 'Post la chat este implicit',
+            shortcutKeys: 'Listă separată prin virgulă de taste pentru alertare. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Șabloane de mesaje. Substituenţi: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
+            timeOffset: 'Deplasare pentru %TIME_OFFSET%-formatter în ore'
+        }
+    };
+
     
     const managedSettings = {
         id: LSS_SHAREALLIANCEPOST_STORAGE,
