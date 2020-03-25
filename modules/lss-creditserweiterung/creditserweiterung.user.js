@@ -544,7 +544,7 @@
             noFurtherRank: '더 이상 순위가 없습니다'
         }
     };
-    I18n.translations.en_GB.lssm.creditserweiterung = {
+    I18n.translations.ro_RO.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? credite câștigate.*/i,
         ranks: {
             0: 'Începăto',
