@@ -209,6 +209,19 @@
             cells: '전체 세포 숨기기'
         }
     };
+    I18n.translations.ro_RO.lssm.destfilter = {
+        title: 'Filtru destinație',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Ascunde spitale complete',
+            department: 'Ascunde spitale lefarsina fara departamentul necesar',
+            distance: 'Ascundedestinațiile peste x km distanță (0 dezactivează)',
+            tax: 'Ascundeți destinațiile cu o TAXĂ mai mare de x%',
+            cells: 'Ascunderea celulelor complete'
+        }
+    };
     I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

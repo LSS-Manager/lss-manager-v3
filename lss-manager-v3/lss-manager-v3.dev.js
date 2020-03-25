@@ -91,6 +91,7 @@ I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.es_MX = ['es_MX', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.ko_KR = ['ko_KR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.ro_RO = ['ro_RO', 'en_US', 'en_AU', 'en_GB', 'de_DE']
 // en, en_GB and en_AU are essentially the same.
 I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de_DE'];
@@ -116,6 +117,7 @@ if (!I18n.translations.hasOwnProperty('pt_BR')) I18n.translations.pt_BR = {};
 if (!I18n.translations.hasOwnProperty('es_MX')) I18n.translations.es_MX = {};
 if (!I18n.translations.hasOwnProperty('ja_JP')) I18n.translations.ja_JP = {};
 if (!I18n.translations.hasOwnProperty('ko_KR')) I18n.translations.ko_KR = {};
+if (!I18n.translations.hasOwnProperty('ro_RO')) I18n.translations.ro_RO = {};
 if (!I18n.translations.hasOwnProperty('nl_NL')) I18n.translations.nl_NL = {};
 
 I18n.translations.de_DE.lssm = {
@@ -421,6 +423,24 @@ I18n.translations.ko_KR.lssm = {
     mapkit: "이 모듈은 Mapkit을 지원하지 않습니다",
     apps: {}
 };
+I18n.translations.ro_RO.lssm = {
+    appstore_welcome: "Bine ati venit la Appstore de LSS Manager",
+    appstore_desc: "Aici veți găsi diverse plugin-uri care va îmbogăți experiența dumneavoastră de joc. Fiecare plugin poate fi " +
+        "activată individual prin plasarea manetei pe verde. Dacă există probleme, vă puteți alătura " +
+        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> Sau " +
+        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
+        "\" target=\"blank\">scrie un mesaj pe forum</a>.",
+    back_lss: "Înapoi la joc",
+    settings: "Setări",
+    saving: "Salvarea...",
+    save: "Salva",
+    activated: "Următoarele module au fost activate:",
+    cantactivate: "nu poate fi activat, deoarece este incompatibil cu următoarele modul(e):",
+    cantload: "<h2>LSS-Manager nu a putut fi încărcat</h2>Vă rugăm să contactați un membru al echipei de dezvoltare.",
+    login: "Vă rugăm să vă conectați mai întâi",
+    mapkit: "Acest modul nu acceptă Mapkit",
+    apps: {}
+};
 I18n.translations.nl_NL.lssm = {
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
@@ -459,6 +479,7 @@ lssm.Module = {
             uk_UA: 'Контроль виклику',
             ja_JP: 'コールビューコントロール',
             ko_KR: '콜뷰 컨트롤',
+            ro_RO: 'Controlul vizualizării apelurilor',
             nl_NL: 'Besturing met toetsenbord'
         },
         active: false,
@@ -479,6 +500,7 @@ lssm.Module = {
             uk_UA: 'Керуйте поданням місії за допомогою клавіатури.',
             ja_JP: 'キーボードでミッションビューを制御します。',
             ko_KR: '키보드로 미션 뷰를 제어하십시오.',
+            ro_RO: 'Controlați vizualizarea misiunii cu tastatura.',
             nl_NL: 'Bestuur het meldingscherm met het toetsenbord.'
         },
         source: '/modules/lss-keyboardAlert/lss-keyboardAlert.user.js',
@@ -548,6 +570,8 @@ lssm.Module = {
                  'そのウィンドウ内での最後の訪問以降にいくつのミッションなどがあるかを示しています。',
             ko_KR: '지도에서 주요 초점으로 봅니다. 메뉴를 사용하여 미션 및 기타 창을 변경할 수 있습니다. 배지 ' +
                  '그 창에서 마지막으로 방문한 이후 얼마나 많은 미션 등이 있는지 알려줍니다.',
+            ro_RO: 'Vezi cu accent principal pe hartă. Misiunile și alte ferestre pot fi modificate utilizând un meniu. O insignă ' +
+                'este să vă spun cât de multe misiuni, etc aveți de la ultima ta vizită în această fereastră.',
             nl_NL: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
                 'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
                 'meldingen voor je bij.'
@@ -578,6 +602,7 @@ lssm.Module = {
             uk_UA: 'Перегляньте зі стовідсотковою картою у верхній частині - нижче, ніж чотири вікна дзвінки, будівлі, чат та радіо.',
             ja_JP: '上部に100％マップで表示-4つのウィンドウが呼び出し、建物、チャット、ラジオの下に表示されます。',
             ko_KR: '4 개의 창문 통화, 건물, 채팅 및 라디오 아래에서 위쪽 영역에 100 %지도가 표시됩니다.',
+            ro_RO: 'Vezi cu 100% hartă în zona superioară - sub care cele patru ferestre apeluri, clădiri, chat și radio.',
             nl_NL: 'Design met een grote kaart bovenaan je scherm. onder de kaart zijn de vier overige schermen; ' +
                 'meldingen, gebouwen, chat en statusmeldingen weergegeven.'
         },
@@ -607,6 +632,7 @@ lssm.Module = {
             uk_UA: 'Макет без карти. Чотири вікна використовують 100% заданої висоти браузера.',
             ja_JP: 'マップなしのレイアウト。 4つのウィンドウは、指定されたブラウザーの高さの100％を使用しています。',
             ko_KR: '지도가없는 레이아웃. 네 개의 창은 주어진 브라우저 높이의 100 %를 사용하고 있습니다.',
+            ro_RO: 'Aspect fără hartă. Cele patru ferestre folosesc 100% din înălțimea browserului dat.',
             nl_NL: 'Design zonder kaart. De vier overige schermen vullen het gehele scherm.'
         },
         source: '/modules/lss-layout-03/layout-03.user.js',
@@ -647,6 +673,8 @@ lssm.Module = {
                 '「その下の建物、チャット、ラジオ。',
             ko_KR: '왼쪽에 높이가 100 % 인지도. 그 옆에는 통화가 있으며 각 범주는 자체 열에 있습니다. ' +
                  '그 건물 아래, 채팅 및 라디오.',
+            ro_RO: 'Harta cu 100% înălțime pe partea stângă. Lângă ea apelurile, fiecare categorie din propria coloană. ' +
+                'Mai jos că clădirile, chat-ul și radio.',
             nl_NL: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht ' +
                 'van de meldingen en daaronder hebben de overige schermen een eigen kolom'
         },
@@ -678,6 +706,7 @@ lssm.Module = {
             uk_UA: 'Місівиз',
             ja_JP: 'ミッションアウト',
             ko_KR: '미션 아웃',
+            ro_RO: 'Misiune',
             nl_NL: 'Meldingen inklappen'
         },
         active: false,
@@ -709,6 +738,8 @@ lssm.Module = {
                  'それぞれ。',
             ko_KR: '미션 목록 항목을 최소화하십시오. 모든 통화를 한 번에 확장하거나 최소화하거나 ' +
                  '각각.',
+            ro_RO: 'Minimizați intrările din lista de misiuni. Puteți fie să extindeți, fie să minimizați toate apelurile simultan sau să le faceți pentru ' +
+                'fiecare dintre ele.',
             nl_NL: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
         },
         source: '/modules/lss-MissionOut/MissionOut.user.js',
@@ -732,6 +763,7 @@ lssm.Module = {
             uk_UA: 'Збережіть створені виклики альянсу',
             ja_JP: '作成した同盟コールを保存する',
             ko_KR: '생성 된 동맹 통화 저장',
+            ro_RO: 'Salvarea apelurilor de alianță create',
             nl_NL: 'Zelfgemaakte inzetten opslaan.'
         },
         active: false,
@@ -752,6 +784,7 @@ lssm.Module = {
             uk_UA: 'Вмикає функцію збереження власних створених викликів місії, щоб використовувати їх як шаблон.',
             ja_JP: '作成した独自のミッションコールを保存してテンプレートとして使用する機能を有効にします。',
             ko_KR: '생성 된 미션 호출을 저장하여 템플릿으로 사용하는 기능을 활성화합니다.',
+            ro_RO: 'Permite unei funcții de salvare a propriilor apeluri de misiune create pentru a le utiliza ca șablon.',
             nl_NL: 'Maakt het mogelijk om zelfgemaakte inzetten op te slaan als sjabloon om ze later te gebruiken.'
         },
         source: '/modules/lss-saveVGE/saveVGE.user.js',
@@ -816,6 +849,7 @@ lssm.Module = {
             uk_UA: 'Сповіщення про сповіщення',
             ja_JP: '通知アラート',
             ko_KR: '알림 경고',
+            ro_RO: 'Alertă de notificare',
             nl_NL: 'Browsermeldingen'
         },
         active: false,
@@ -837,6 +871,7 @@ lssm.Module = {
             uk_UA: 'Чаткові повідомлення HTML5 за допомогою системи сповіщень браузера.',
             ja_JP: 'ブラウザ通知システムを使用したHTML5チャット通知。',
             ko_KR: '브라우저 알림 시스템을 사용한 HTML5 채팅 알림.',
+            ro_RO: 'HTML5 Chatnotifications folosind sistemul de notificare a browserului.',
             nl_NL: 'Toon HTML5 chatnotificaties met behulp van het notificatiesysteem van je browser zodat je nooit ' +
                 'meer een chat of melding hoeft te missen.'
         },
@@ -865,6 +900,7 @@ lssm.Module = {
             uk_UA: 'Новий дизайн для гри.',
             ja_JP: 'ゲームの新しいデザイン。',
             ko_KR: '게임을위한 새로운 디자인.',
+            ro_RO: 'Design nou pentru joc.',
             nl_NL: 'Een nieuw uiterlijk voor het spel.'
         },
         source: '/modules/lss-redesign-01/redesign-01.user.js',
@@ -887,6 +923,7 @@ lssm.Module = {
             uk_UA: 'Позначені події',
             ja_JP: 'マークされたイベント',
             ko_KR: '표시된 이벤트',
+            ro_RO: 'Evenimente marcate',
             nl_NL: 'Merken gebeurtenissen'
         },
         active: false,
@@ -908,6 +945,7 @@ lssm.Module = {
             uk_UA: 'Виводить поточні події з великої літери!',
             ja_JP: '現在のイベントを大文字のLINEで表示します！',
             ko_KR: '대문자로 표시된 현재 이벤트를 표시합니다!',
+            ro_RO: 'Afișează evenimentele curente cu linia cu majuscule!',
             nl_NL: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
         },
         source: '/modules/lss-eventmissions/eventmission.user.js',
@@ -930,6 +968,7 @@ lssm.Module = {
             uk_UA: 'Фільтр призначення',
             ja_JP: '宛先フィルター',
             ko_KR: '대상 필터',
+            ro_RO: 'Filtru destinație',
             nl_NL: 'Bestemming Filter'
         },
         active: false,
@@ -950,6 +989,7 @@ lssm.Module = {
             uk_UA: 'Дозволяє приховати зайняті або невідповідні пункти для мовних запитів',
             ja_JP: 'スピーチ要求のために忙しいまたは不適切な目的地を隠すことができます',
             ko_KR: '음성 요청을 위해 바쁘거나 부적절한 대상을 숨길 수 있습니다',
+            ro_RO: 'Vă permite să ascundeți destinațiile ocupate sau nepotrivite pentru solicitările de vorbire',
             nl_NL: 'Hiermee kunt u drukke of ongeschikte bestemmingen voor spraakverzoeken verbergen.'
         },
         source: '/modules/lss-destinationFilter/DestinationFilter.user.js',
@@ -973,6 +1013,7 @@ lssm.Module = {
             uk_UA: 'Попросити транспорт на карті',
             ja_JP: '地図でトランスポートをリクエスト',
             ko_KR: '지도에서 운송 요청',
+            ro_RO: 'Cerere de transport pe hartă',
             nl_NL: 'Spraakaanvragen op de kaart weergeven.'
         },
         active: false,
@@ -993,6 +1034,7 @@ lssm.Module = {
             uk_UA: 'Показує перевезення запитів у лівому нижньому куті карти.',
             ja_JP: 'マップの左下隅にリクエストトランスポートを表示します。',
             ko_KR: '왼쪽 하단지도에 요청 전송을 표시합니다.',
+            ro_RO: 'Afișează solicitările de transport în colțul din stânga jos al hărții.',
             nl_NL: 'Toont alle spraakaanvragen op de kaart.'
         },
         source: '/modules/lss-FMS5InMap/FMS5InMap.user.js',
@@ -1015,6 +1057,7 @@ lssm.Module = {
             uk_UA: 'Годинник',
             ja_JP: '時計',
             ko_KR: '시계',
+            ro_RO: 'Ceas',
             nl_NL: 'Klok'
         },
         active: false,
@@ -1035,6 +1078,7 @@ lssm.Module = {
             uk_UA: 'Вмикає невеликий годинник у межах карти.',
             ja_JP: 'マップ内の小さな時計を有効にします。',
             ko_KR: '지도 내에서 작은 시계를 사용합니다.',
+            ro_RO: 'Activează un ceas mic în cadrul hărții.',
             nl_NL: 'Toont een kleine klok op de kaart.'
         },
         source: '/modules/lss-clock/clock.user.js',
@@ -1078,6 +1122,7 @@ lssm.Module = {
             uk_UA: 'Частка місії',
             ja_JP: 'ミッションシェア',
             ko_KR: '미션 쉐어',
+            ro_RO: 'Partea misiunii',
             nl_NL: 'Meldingen vrijgeven'
         },
         active: false,
@@ -1098,6 +1143,7 @@ lssm.Module = {
             uk_UA: 'Миттєво діліться місіями, не відкриваючи дзвінок, натиснувши кнопку в огляді.',
             ja_JP: '概要のボタンをクリックして、通話を開かずにミッションを即座に共有します。',
             ko_KR: '개요에서 버튼을 클릭하여 전화를 걸지 않고도 미션을 즉시 공유 할 수 있습니다.',
+            ro_RO: 'Partajați instantaneu misiunifără a deschide apelul făcând clic pe un buton din prezentare generală.',
             nl_NL: 'Vanuit het hoofdscherm gemakkelijk meldingen vrijgeven in je team met behulp van een extra knop in ' +
                 'de meldingenlijst.'
         },
@@ -1122,6 +1168,7 @@ lssm.Module = {
             uk_UA: 'Попередження, обмін та публікація',
             ja_JP: 'アラート、共有、投稿',
             ko_KR: '알림, 공유 및 게시',
+            ro_RO: 'Alertare, partajare și postare',
             nl_NL: 'Alarmeren, delen & Posten'
         },
         active: false,
@@ -1142,6 +1189,7 @@ lssm.Module = {
             uk_UA: 'Додає нову кнопку для оповіщення, обміну та публікації попередньо визначених повідомлень у чаті. Всього за один крок!',
             ja_JP: '事前定義されたメッセージをアラート、共有、およびチャットに投稿するための新しいボタンを追加します。 ワンステップで！',
             ko_KR: '미리 정의 된 메시지를 경고, 공유 및 채팅에 게시 할 수있는 새로운 버튼을 추가합니다. 한 단계만으로!',
+            ro_RO: 'Adăuga un nou buton pentru alertare, partajare și postare mesaje predefinite în chat. În doar un pas!',
             nl_NL: 'Voeg een nieuwe knop toe voor alarmeren, delen en een vooraf ingesteld bericht in de chat posten. In slechts één stap!'
         },
         source: '/modules/lss-shareAlliancePost/ShareAlliancePost.js',
@@ -1165,6 +1213,7 @@ lssm.Module = {
             uk_UA: 'Пошук місії',
             ja_JP: 'ミッション検索',
             ko_KR: '미션 검색',
+            ro_RO: 'Căutarea misiunii',
             nl_NL: 'Meldingen doorzoeken'
         },
         active: false,
@@ -1194,6 +1243,8 @@ lssm.Module = {
                  '早く。',
             ko_KR: '통화 검색 및 필터링-하단에있는 버튼 그룹을 사용하면 검색된 미션을 변경할 수 있습니다. ' +
                  '빨리.',
+            ro_RO: 'Căutați apeluri și filtrați-le - un grup de butoane din partea de jos vă permite să schimbați misiunile căutate ' +
+                 'repede.',
             nl_NL: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat ' +
                 'je snel door je meldingen bladeren.'
         },
@@ -1204,7 +1255,8 @@ lssm.Module = {
         name: {
             de_DE: 'Dashboard',
             ko_KR: '계기반',
-            ja_JP: 'ダッシュボード'
+            ja_JP: 'ダッシュボード',
+            ro_RO: 'Tablou de bord'
         },
         active: false,
         description: {
@@ -1212,6 +1264,7 @@ lssm.Module = {
             en_US: 'Dashboard',
             ja_JP: '建物と車両の概要を明確に表示するダッシュボード。',
             ko_KR: '계기반',
+            ro_RO: 'Tablou de bord',
             nl_NL: 'Een Dashboard waarin je een duidelijk overzicht krijgt van je gebouwen en voertuigen.'
         },
         source: '/modules/lss-dashboard/dashboard.user.js',
@@ -1235,6 +1288,7 @@ lssm.Module = {
             uk_UA: 'Станція станції',
             ja_JP: '駅の状態',
             ko_KR: '스테이션 상태',
+            ro_RO: 'Starea stației',
             nl_NL: 'Voertuigstatus bij gebouwen'
         },
         active: false,
@@ -1255,6 +1309,7 @@ lssm.Module = {
             uk_UA: 'Показує код транспортних засобів на станції, що наводить на карту.',
             ja_JP: 'マップ上のステーションホバー上の車両のコードを表示します。',
             ko_KR: '스테이션 호버의 차량 코드를지도에 표시합니다.',
+            ro_RO: 'Afișează pe hartă codul vehiculelor de pe stația.',
             nl_NL: 'Toont de status van voertuigen van een gebouw als je je muis boven het gebouw houdt.'
         },
         source: '/modules/lss-WachenHoverStati/WachenHoverStati.user.js',
@@ -1278,6 +1333,7 @@ lssm.Module = {
             uk_UA: 'Перейменуйте транспортний засіб',
             ja_JP: '車両の名前を変更',
             ko_KR: '차량 이름 바꾸기',
+            ro_RO: 'Redenumiți vehiculul',
             nl_NL: 'Voertuigen herbenoemen'
         },
         active: false,
@@ -1298,6 +1354,7 @@ lssm.Module = {
             uk_UA: 'Перейменуйте транспортні засоби оптом за допомогою тегів.',
             ja_JP: 'タグを使用して車両の名前を一括で変更します。',
             ko_KR: '태그를 사용하여 차량 이름을 일괄 변경하십시오.',
+            ro_RO: 'Redenumiți vehiculele în vrac folosind etichete.',
             nl_NL: 'Maakt het makkelijk om grote hoeveelheiden voertuigen snel van een nieuwe naam te voorzien met ' +
                 'behulp van tags.'
         },
@@ -1322,6 +1379,7 @@ lssm.Module = {
             uk_UA: 'Телеметрія',
             ja_JP: 'テレメトリー',
             ko_KR: '원격 측정',
+            ro_RO: 'Telemetrie',
             nl_NL: 'Telemetrie'
         },
         active: true,
@@ -1342,6 +1400,7 @@ lssm.Module = {
             uk_UA: 'Надсилає дані команді розробників для створення статистики',
             ja_JP: '統計を作成するために、開発者チームにデータを送信します',
             ko_KR: '통계를 작성하기 위해 개발자 팀에 데이터를 보냅니다.',
+            ro_RO: 'Trimite date către echipa de dezvoltatori în scopul creării unei statistici',
             nl_NL: 'Stuurt gegevens naar het developmentteam om statistieken te kunnen gebruiken.'
         },
         source: '/modules/telemetry/telemetry.user.js',
@@ -1378,6 +1437,7 @@ lssm.Module = {
             uk_UA: 'показати Назад тривогу вгорі',
             ja_JP: '上に戻るアラームを表示',
             ko_KR: '위의 뒤로 알람 표시',
+            ro_RO: 'arată Alarma înapoi de mai sus',
             nl_NL: 'Extra annuleerknop'
         },
         active: false,
@@ -1398,6 +1458,7 @@ lssm.Module = {
             uk_UA: 'Показує кнопку "Все назад" також над транспортними засобами',
             ja_JP: '車両の上にもオールバックアラームボタンを表示します',
             ko_KR: '차량 위의 전체 뒤로 알람 버튼 표시',
+            ro_RO: 'Afișează butonul de alarmă All back deasupra vehiculelor',
             nl_NL: 'Voegt een extra annuleerknop toe bovenaan de voertuiglijst.'
         },
         source: '/modules/lss-showBackAlarmAbove/showBackAlarmAbove.js',
@@ -1422,6 +1483,7 @@ lssm.Module = {
             uk_UA: 'AAO-пошук',
             ja_JP: 'AAO-検索',
             ko_KR: 'AAO 검색',
+            ro_RO: 'Vino să cauți',
             nl_NL: 'AUR-zoekfuncties'
         },
         active: false,
@@ -1442,6 +1504,7 @@ lssm.Module = {
             uk_UA: 'Пакує всі AAO в спадний список, у якому можна шукати',
             ja_JP: 'すべてのAAOを検索可能なドロップダウンにパックします',
             ko_KR: '모든 AAO를 검색 가능한 드롭 다운에 포장',
+            ro_RO: 'Pachetează toate AAO-urile într-un meniu derulant',
             nl_NL: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
         },
         source: '/modules/lss-aao-search/aao-search.user.js',
@@ -1474,6 +1537,7 @@ lssm.Module = {
             uk_UA: 'Показує на карті щільність вибору типів транспортних засобів для виявлення прогалин у постачанні.',
             ja_JP: '選択可能な車両タイプの密度を地図上に表示して、供給ギャップを特定します。',
             ko_KR: '공급 격차를 식별하기 위해 선택 가능한 차량 유형의 밀도를지도에 표시합니다.',
+            ro_RO: 'Afișează densitatea tipurilor de vehicule selectabile pe hartă pentru a identifica lacunele de aprovizionare.',
             nl_NL: 'Maakt het mogelijk om de verspreiding per voertuigsoort te zien. Hiermee kun je zien waar je nog ' +
                 'extra voertuigen nodig hebt voor optimale dekking van je inzetgebied.'
         },
@@ -1499,6 +1563,7 @@ lssm.Module = {
             uk_UA: 'Центр-карта',
             ja_JP: 'センターマップ',
             ko_KR: '센터 맵',
+            ro_RO: 'Centru-hartă',
             nl_NL: 'KAART CENTREREN'
         },
         active: false,
@@ -1519,6 +1584,7 @@ lssm.Module = {
             uk_UA: 'Центрує карту на завантаженні сторінки та натисканні. Так само, як вам зручніше.',
             ja_JP: 'ページの読み込み時とクリック時に地図の中心を合わせます。 好きなように。',
             ko_KR: '페이지로드 및 클릭시 맵을 중앙에 배치합니다. 원하는대로.',
+            ro_RO: 'Centrează harta pe pagina de încărcare și pe clic. Așa preferi.',
             nl_NL: 'Maakt het mogelijk zelf de zoom en het bereik van de kaart in te stellen als je het spel opstart of door gebruik van de Centreer-knop'
         },
         source: '/modules/lss-centermap/Centermap.user.js',
@@ -1539,6 +1605,7 @@ lssm.Module = {
             uk_UA: 'Місіонер',
             ja_JP: 'ミッションヘルパー',
             ko_KR: '선교사',
+            ro_RO: 'Ajutor de misiune',
             nl_NL: 'Meldinghelper'
         },
         active: false,
@@ -1559,6 +1626,7 @@ lssm.Module = {
             uk_UA: 'Показує необхідні транспортні засоби в масці місії.',
             ja_JP: 'ミッションマスクに必要な車両を表示します。',
             ko_KR: '미션 마스크에 필요한 차량을 표시합니다.',
+            ro_RO: 'Arată vehiculele necesare în masca de misiune.',
             nl_NL: 'Toont de benodigde voertuigen in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
@@ -1584,6 +1652,7 @@ lssm.Module = {
             uk_UA: 'Розширені запити на транспорт',
             ja_JP: '強化されたトランスポート要求',
             ko_KR: '향상된 전송 요청',
+            ro_RO: 'Cereri de transport îmbunătățite',
             nl_NL: 'Verbeterde spraakaanvragen'
         },
         active: false,
@@ -1604,6 +1673,7 @@ lssm.Module = {
             uk_UA: 'Швидше обробляти транспортні запити.',
             ja_JP: 'トランスポート要求の処理の高速化。',
             ko_KR: '전송 요청의 빠른 처리',
+            ro_RO: 'Procesarea mai rapidă a cererilor de transport.',
             nl_NL: 'Sneller verwerken van spraakaanvragen.'
         },
         source: '/modules/lss-statusDispatching/statusDispatching.user.js',
@@ -1631,6 +1701,7 @@ lssm.Module = {
             es_ES: 'Ajustes',
             ja_JP: '設定',
             ko_KR: '설정',
+            ro_RO: 'Setări',
             pt_PT: 'Configurações'
         },
         active: true,
@@ -1650,6 +1721,7 @@ lssm.Module = {
             es_ES: 'Parametrizaciones globales',
             ja_JP: '全体設定',
             ko_KR: '글로벌 설정',
+            ro_RO: 'Setări globale',
             pt_PT: 'Configurações globais'
         },
         source: '/modules/lss-managedsettings/ManagedSettings.user.js',
@@ -1675,6 +1747,7 @@ lssm.Module = {
             uk_UA: 'Ключові слова місії',
             ja_JP: 'ミッションキーワード',
             ko_KR: '미션 키워드',
+            ro_RO: 'Misiunea Cuvinte cheie',
             nl_NL: 'Steekwoorden bij meldingen'
         },
         active: false,
@@ -1696,6 +1769,7 @@ lssm.Module = {
             uk_UA: 'Показує ключові слова для місій. Ключові слова орієнтовані на ті, які використовуються в Баварії.',
             ja_JP: 'ミッションのキーワードを表示します。 キーワードは、バイエルンで使用されているものを対象としています。',
             ko_KR: '미션의 키워드를 보여줍니다. 키워드는 바이에른에서 사용되는 키워드를 대상으로합니다.',
+            ro_RO: 'Afișează cuvinte cheie pentru misiuni. Cuvintele cheie sunt orientate spre cele utilizate în Bavaria.',
             nl_NL: 'Toont steekwoorden bij de meldingen. Deze steekwoorden zijn grotendeels gebaseerd op de ' +
                 'steekwoorden die in Nederlandse hulpverlening gebruikt worden.'
         },
@@ -1722,6 +1796,7 @@ lssm.Module = {
             uk_UA: 'Дата місії',
             ja_JP: 'ミッション日',
             ko_KR: '임무 날짜',
+            ro_RO: 'Data misiunii',
             nl_NL: 'Begintijd melding weergeven'
         },
         active: false,
@@ -1742,6 +1817,7 @@ lssm.Module = {
             uk_UA: 'Показує дату створення місії та години / хвилини з тих пір',
             ja_JP: 'ミッションが生成された日付とそれ以降の時間/分を表示します',
             ko_KR: '임무가 생성 된 날짜와 그 이후의 시간 / 분을 표시합니다',
+            ro_RO: 'Afișează data la care a fost generată misiunea și orele/minutele de atunci',
             nl_NL: 'Deze module toont de begintijd en -datum van je melding en laat daarnaast zien hoeveel tijd er ' +
                 'verstreken is sinds de melding binnenkwam.'
         },
@@ -1768,6 +1844,7 @@ lssm.Module = {
             uk_UA: 'Фільтр піктограм',
             ja_JP: 'アイコン構築フィルター',
             ko_KR: '아이콘 빌딩 필터',
+            ro_RO: 'Filtru pentru construirea pictogramelor',
             nl_NL: 'REDESIGN FILTERKNOPPEN GEBOUWEN'
         },
         active: false,
@@ -1788,6 +1865,7 @@ lssm.Module = {
             uk_UA: 'Замінює будівельний фільтр на піктограми.',
             ja_JP: '建物フィルターをアイコンに置き換えます。',
             ko_KR: '건물 필터를 아이콘으로 바꿉니다.',
+            ro_RO: 'Înlocuiește filtrul clădirii cu pictograme.',
             nl_NL: 'Vervangt de gebouwfilter met nieuwe iconen.'
         },
         source: '/modules/lss-iconFilter/iconFilter.user.js',
@@ -1813,6 +1891,7 @@ lssm.Module = {
             uk_UA: 'Сума за щоденну статистику',
             ja_JP: '毎日の統計の合計',
             ko_KR: '일일 통계 합계',
+            ro_RO: 'Suma pentru statisticile zilnice',
             nl_NL: 'Totaalweergave in dagsamenvatting'
         },
         active: false,
@@ -1834,6 +1913,7 @@ lssm.Module = {
             uk_UA: 'На сторінці щоденної статистики відображаються суми за місії, пацієнти, ув\'язнені та альянс',
             ja_JP: '毎日の統計ページにミッション、患者、囚人、同盟の合計を表示します',
             ko_KR: '일일 통계 페이지에서 미션, 환자, 죄수 및 동맹에 대한 합계를 표시합니다',
+            ro_RO: 'Arată sumele de peste misiuni, pacienți, prizonieri și alianță în pagina de statistici de zi cu zi',
             nl_NL: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
         },
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
@@ -1859,6 +1939,7 @@ lssm.Module = {
             uk_UA: 'Правила тривоги-лічильник',
             ja_JP: 'アラーム規制カウンター',
             ko_KR: '알람 조절 카운터',
+            ro_RO: 'Alarmă-Regulamente-Counter',
             nl_NL: 'AUR-Klik-Teller'
         },
         active: false,
@@ -1879,6 +1960,7 @@ lssm.Module = {
             uk_UA: 'Підраховує натискання кнопки тривоги',
             ja_JP: 'アラーム規制ボタンのクリックをカウントします',
             ko_KR: '알람 조절 버튼의 클릭 수를 계산합니다.',
+            ro_RO: 'Contorizează clicurile pe un buton de alarmă-regulament',
             nl_NL: 'Telt het aantal keer dat een AUR aangeklikt is.'
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
@@ -1903,6 +1985,7 @@ lssm.Module = {
             uk_UA: 'Кредитна експансія',
             ja_JP: 'クレジット拡大',
             ko_KR: '신용 확장',
+            ro_RO: 'Extinderea creditului',
             nl_NL: 'Credits-uitbreiding'
         },
         active: false,
@@ -1923,6 +2006,7 @@ lssm.Module = {
             uk_UA: 'Додайте якусь спеціальну інформацію про кредити у спадному списку',
             ja_JP: 'クレジットに関する特別な情報をドロップダウンリストに追加します',
             ko_KR: '드롭 다운 목록에 크레딧에 대한 특별한 정보를 추가하십시오',
+            ro_RO: 'Adăugați câteva informații speciale despre credite într-o listă verticală',
             nl_NL: 'Voegt wat speciale informatie over de credits toe in een vervolgkeuzelijst'
         },
         source: '/modules/lss-creditserweiterung/creditserweiterung.user.js',
@@ -1944,6 +2028,7 @@ lssm.Module = {
             uk_UA: 'Ідентифікатор користувача',
             ja_JP: 'ユーザーID',
             ko_KR: '사용자 ID',
+            ro_RO: 'ID utilizator',
             nl_NL: 'User-ID'
         },
         active: false,
@@ -1964,6 +2049,7 @@ lssm.Module = {
             uk_UA: 'Показує власний ідентифікатор у рядку заголовка та відповідний ідентифікатор користувача у профілі.',
             ja_JP: 'ヘッダー行に独自のIDを表示し、プロファイルにそれぞれのユーザーIDを表示します。',
             ko_KR: '헤더 행에 고유 ID를, 프로파일에 해당 사용자 ID를 표시합니다.',
+            ro_RO: 'Afișează propriul ID în linia antet și ID-ul de utilizator respectiv în profil.',
             nl_NL: 'Toont de eigen ID in de kopregel en de betreffende gebruikers-ID in het profiel.'
         },
         source: '/modules/lss-userid/lss-userId.user.js',
@@ -1988,6 +2074,7 @@ lssm.Module = {
             uk_UA: 'показати Чатбтон вище',
             ja_JP: 'チャットボタンを上に表示',
             ko_KR: '위의 채팅 버튼 표시',
+            ro_RO: 'arată Butonul de chat de mai sus',
             nl_NL: 'Toon boven chat-knop'
         },
         active: false,
@@ -2008,6 +2095,7 @@ lssm.Module = {
             uk_UA: 'Відображає кнопку Історія чатів у заголовку чату.',
             ja_JP: 'チャットヘッダーにチャット履歴ボタンを表示します。',
             ko_KR: '채팅 헤더에 채팅 기록 버튼을 표시합니다.',
+            ro_RO: 'Afișează butonul Istoric conversații în antetul conversației.',
             nl_NL: 'Toont de chatgeschiedenisknop  in de chatheader.'
         },
         source: '/modules/lss-showChatbuttonAbove/showChatbuttonAbove.user.js',
@@ -2044,6 +2132,7 @@ lssm.Module = {
             uk_UA: "Розширення альянсу",
             ja_JP: "アライアンス拡張",
             ko_KR: "얼라이언스 확장",
+            ro_RO: "Extinderea alianței",
             nl_NL: "Team-uitbreiding"
         },
         active: false,
@@ -2064,6 +2153,7 @@ lssm.Module = {
             uk_UA: "Огляд альянсу з першого погляду у головне вікно",
             ja_JP: "メインウィンドウでのアライアンスの概要",
             ko_KR: "기본 창에서 얼라이언스 개요를 한눈에",
+            ro_RO: "Prezentare generală a alianței dintr-o privire în fereastra principală",
             nl_NL: "Teamoverzicht in een oogopslag in het hoofdvenster"
         },
         source: "/modules/lss-verbandsverwaltung/verbandsverwaltung.js",
@@ -2088,6 +2178,7 @@ lssm.Module = {
             uk_UA: "огляд",
             ja_JP: "概要",
             ko_KR: "개요",
+            ro_RO: "Prezentare generală",
             nl_NL: "overzicht"
         },
         active: false,
@@ -2108,6 +2199,7 @@ lssm.Module = {
             uk_UA: "Огляд всіх транспортних засобів, а також будівель.",
             ja_JP: "すべての車両と建物の概要。",
             ko_KR: "건물뿐만 아니라 모든 차량의 개요.",
+            ro_RO: "Prezentare generală a tuturor vehiculelor, precum și a clădirilor.",
             nl_NL: "Overzicht van alle voertuigen, later ook gebouwen."
         },
         source: "/modules/lss-overview/overview.js",
@@ -2132,6 +2224,7 @@ lssm.Module = {
             uk_UA: "Вид з розширеною будівлею",
             ja_JP: "拡張建物ビュー",
             ko_KR: "확장 된 건물 전망",
+            ro_RO: "Vedere extinsă a clădirii",
             nl_NL: "Uitgebreide bouwweergave"
         },
         active: false,
@@ -2152,6 +2245,7 @@ lssm.Module = {
             uk_UA: "Огляд розширень та потреб у персоналі",
             ja_JP: "拡張機能と要員要件の概要",
             ko_KR: "내선 및 인원 요구 사항 개요",
+            ro_RO: "Prezentare generală a extensiilor și a cerințelor personalului",
             nl_NL: "Overzicht van uitbreidingen en personeelsvereisten"
         },
         source: "/modules/lss-extendedBuilding/extendedBuilding.js",
@@ -2175,6 +2269,7 @@ lssm.Module = {
             uk_UA: "Лічильник статусу",
             ja_JP: "ステータスカウンター",
             ko_KR: "상태 카운터",
+            ro_RO: "Contor de stare",
             nl_NL: "Statusteller"
         },
         active: false,
@@ -2195,6 +2290,7 @@ lssm.Module = {
             uk_UA: "Відображає кількість окремих статусів.",
             ja_JP: "個々のステータスの数を表示します。",
             ko_KR: "개별 상태 수를 표시합니다.",
+            ro_RO: "Afișează numărul de stări individuale.",
             nl_NL: "Geeft het aantal van ten individuele statussen."
         },
         source: "/modules/lss-statuscount/statuscount.js",

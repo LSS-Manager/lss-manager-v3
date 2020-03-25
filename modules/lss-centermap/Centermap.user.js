@@ -258,6 +258,22 @@
         }
     };
 
+    I18n.translations.en_US.lssm.centermap = {
+        center: "Centrul",
+        settings: {
+            title: "Centru-hartă",
+            choose: "Vă rugăm să selectați",
+            option1: "Implicit",
+            option1desc: "Nivelul de zoom implicit și centrarea pe centrul de control ",
+            option2: "Dinamic",
+            alliance: "Ia în considerare alianța",
+            option2desc: "Harta centrală că toate misiunile și stațiile sunt vizibile.",
+            option3: "Particularizate",
+            option3desc: "Setați poziția personalizată și nivelul de zoom.",
+            set: "Salvare poziție curentă"
+        }
+    };
+
     I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {

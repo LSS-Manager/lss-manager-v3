@@ -47,6 +47,9 @@
     I18n.translations.ko_KR['lssm']['allianceMissionlistShare'] = {
         title: "동맹의 석방"
     };
+    I18n.translations.ro_RO['lssm']['allianceMissionlistShare'] = {
+        title: "Eliberarea în alianță"
+    };
     I18n.translations.nl_NL['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };

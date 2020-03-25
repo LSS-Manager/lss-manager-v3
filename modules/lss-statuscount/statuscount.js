@@ -387,6 +387,30 @@
             }
         }
     };
+    I18n.translations.ro_RO.lssm.statuscount = {
+        name: "Număr de stare",
+        settings: {
+            show: "Afișare/Ascundere",
+            status: {
+                show: {
+                    label: "Arată",
+                    description: "Starea ar trebui să fie afișată? Important: Această setare are o prioritate mai mare decât alte setări, adică dacă această setare este dezactivată, starea nu va fi afișată niciodată."
+                },
+                hide: {
+                    label: "Arată numai la cerere",
+                    description: "Contorul este afișat numai dacă cel puțin un vehicul este în această stare. (Atenție: În cazul în care contorul este complet ascuns, acesta nu va fi afișat, chiar dacă această setare este activat!)"
+                },
+                percent: {
+                    label: "Afișare procentaje",
+                    description: "Ar trebui să se afișeze procentul din această stare?"
+                }
+            },
+            round: {
+                label: "Procente rotunde",
+                description: "Câte zecimale ar trebui rotunjite procentele (dacă sunt afișate)?"
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

@@ -508,6 +508,36 @@ I18n.translations.ko_KR['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
+I18n.translations.ro_RO['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
 I18n.translations.nl_NL['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {

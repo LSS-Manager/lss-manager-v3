@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -542,6 +542,33 @@
             updateMessage: '값이 자동으로 업데이트됩니다<br>5 분마다.<br>크레딧과 동전은<br>지속적으로 최신.',
             allianceFunds: '얼라이언스 기금',
             noFurtherRank: '더 이상 순위가 없습니다'
+        }
+    };
+    I18n.translations.en_GB.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? credite câștigate.*/i,
+        ranks: {
+            0: 'Începăto',
+            200: 'Pompier',
+            10000: 'Pompier-șef',
+            100000: 'Operator dispozitiv de stins focu',
+            1000000: 'Locotenent',
+            5000000: 'Căpitan',
+            20000000: 'Căpitan de personal',
+            50000000: 'Șef batalion',
+            1000000000: 'Șef divizie',
+            2000000000: 'Șef adjunct',
+            5000000000: 'Șeful pompierilor'
+        },
+        texts: {
+            reloadMessage: 'Vă rugăm să deschideți profilul dvs<br>și reîncărcați site-ul!',
+            dropdownName: 'Extinderea creditelor',
+            creditsOverview: 'Prezentare generală',
+            coinsProtokoll: 'Lista monedelor',
+            earnedCredits: 'Credite câștigate în totalitate',
+            creditsToNextRank: 'Credite la rangul următor',
+            updateMessage: 'Actualizarea automată a valorilor<br>la fiecare 5 minute.<br>Creditele și monedele sunt<br>actualizate în mod continuu.',
+            allianceFunds: 'Fondurile Alianței',
+            noFurtherRank: 'Nu mai sunt alte ranguri.'
         }
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {
