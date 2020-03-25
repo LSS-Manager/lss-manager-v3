@@ -258,7 +258,7 @@
         }
     };
 
-    I18n.translations.en_US.lssm.centermap = {
+    I18n.translations.ro_RO.lssm.centermap = {
         center: "Centrul",
         settings: {
             title: "Centru-hartă",
