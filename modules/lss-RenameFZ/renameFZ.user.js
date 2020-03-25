@@ -1313,6 +1313,69 @@
         }
     };
 
+    I18n.translations.ro_RO.lssm.renameFz = {
+        name: 'Redenumirea vehiculelor',
+        rename: "Redenumiţi",
+        id: "{id} Id-ul vehiculului",
+        old: "{old} Nume curent",
+        vehicleType: "{vehicleType} Tipul vehiculului",
+        stationName: "{stationName} Denumirea clădirii",
+        tagging: '{tagging} Marcarea tipului de vehicul',
+        number: '{number} Contor de tip',
+        numberRoman: '{numberRoman} Contor de tip (cifre romane)',
+        dispatch: '{dispatch} Numele Centrului de expediere',
+        dispatchAlias: '{dispatchAlias} Alias de Centrul de expediere',
+        stationAlias: '{stationAlias} Clădire-Alias',
+        saveAll: 'salvare toate',
+        statusWaiting: 'Așteptați intrarea',
+        statusError: '<b>Eroare în timpul generației!</b> Dacă această eroare apare din nou, vă rugăm să-l raportați. Vă rugăm să furnizați următoarele informații:',
+        statusWorking: 'Generați nume și formulare. Acest lucru poate dura o anumită perioadă de timp, în funcție de sistem și numărul de vehicule.',
+        statusSuccess: 'Nume și formulare generate cu succes!',
+        nameAlreadyCorrect: 'Numele corespunde deja șablonului!',
+        nameToLong: 'Numele este prea lung pentru următoarele vehicule:',
+        nameToLongOriginalName: 'Nume original',
+        nameToLongGeneratedName: 'Nume generat',
+        nameToLongShortenedName: 'Nume nou/scurtat',
+        helpTitle: 'Puteți găsi o mică instrucțiune sub acest link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Pornire contor',
+        counterOverride: 'Dacă există mai multe vehicule de același tip, începe cu 1 oricum.',
+        startNumHelp: 'Aici aveți posibilitatea să introduceți o valoare de început pentru contorul de tip. Dacă setați 0 ca valoare de pornire, primul vehicul de un tip nu va primi numerotare, acest lucru este foarte practic, dacă aveți doar un singur vehicul de un tip pe o apărătoare și nu doriți să-l numerotare. Dar puteți începe, de asemenea, contra la 5 (indiferent de motiv pe care doriți, dar este posibil ;))',
+        toggleNameCorrect: 'Afișați/Ascundeți vehiculele cu numele corecte',
+        settings: {
+            show: 'Afișare/Ascundere',
+            names: {
+                vehicleTypes: 'tipuri de vehicule',
+                stations: 'Alias de construcție'
+            },
+            descriptions: {
+                vehicleTypes: 'Aici aveți posibilitatea să setați nume alternative pentru fiecare tip de vehicul. Le puteți utiliza atunci când vă redenumiți vehiculele prin intermediul centrului de expediere.',
+                stations: 'Aici aveți posibilitatea să setați nume alternative pentru fiecare clădire. Le puteți utiliza atunci când vă redenumiți vehiculele prin intermediul centrului de expediere.'
+            },
+            validStationTypes: {
+                0: "Stație de pompieri",
+                2: "Stație de ambulanță",
+                6: "Secție de poliție",
+                7: "Dispecerat",
+                18: "Stație de pompieri (mică)",
+                19: "Secție de poliţie (secție mică)",
+                20: "Stație de ambulanță (stație mică)",
+            },
+            vehicleTypes: {
+                0: 'Pompă de incendiu tip 1',
+                1: 'Pompă de incendiu tip 2',
+                2: 'Camion cu platformă',
+                3: 'Unitate șef batalion',
+                4: 'Vehicul greu de salvare',
+                5: 'Ambulanță ALS',
+                6: 'Cisternă de apă',
+                7: 'Materiale periculoase',
+                8: 'Mașină de patrulare',
+                9: 'Salvare aeriană'
+            }
+        }
+    };
+
     I18n.translations.nl_NL.lssm.renameFz = {
         name: 'Voertuigen herbenoemen',
         rename: "Naam aanpassen",

@@ -1,1 +1,1015 @@
-[]
+{
+    "0": {
+        "name": "Co\u0219 de gunoi \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110,
+        "poi": 4
+    },
+    "1": {
+        "name": "Container \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 170
+    },
+    "2": {
+        "name": "Automobil \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 370,
+        "expansions": {
+            "0": 27,
+            "1": 16,
+            "2": 19
+        }
+    },
+    "3": {
+        "name": "Motociclet\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340,
+        "expansions": {
+            "0": 27
+        }
+    },
+    "4": {
+        "name": "Iarb\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 200,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "5": {
+        "name": "Camer\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Internist general"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "6": {
+        "name": "\u0218opron \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 600
+    },
+    "7": {
+        "name": "Frunze \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 210,
+        "expansions": {
+            "0": 14
+        }
+    },
+    "8": {
+        "name": "Depozit de de\u0219euri \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 220,
+        "expansions": {
+            "0": 20,
+            "1": 22,
+            "2": 6
+        }
+    },
+    "9": {
+        "name": "Balot de paie \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 250,
+        "expansions": {
+            "0": 14,
+            "1": 6
+        }
+    },
+    "10": {
+        "name": "Tractor \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 600
+    },
+    "11": {
+        "name": "Cabin\u0103 telefonic\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 240
+    },
+    "12": {
+        "name": "Copac c\u0103zut pe strad\u0103",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 310,
+        "expansions": {
+            "0": 25
+        }
+    },
+    "13": {
+        "name": "Camion \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 980
+    },
+    "14": {
+        "name": "C\u00e2mp mic \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000,
+        "expansions": {
+            "0": 15
+        }
+    },
+    "15": {
+        "name": "Incendiu de vegeta\u021bie mic",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1010,
+        "poi": 3
+    },
+    "16": {
+        "name": "Caravan\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1100
+    },
+    "17": {
+        "name": "Cutie po\u0219tal\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 340
+    },
+    "18": {
+        "name": "Gr\u0103mad\u0103 de crengi uscate",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 700
+    },
+    "19": {
+        "name": "Rulot\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 650
+    },
+    "20": {
+        "name": "Subsol \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "truck": 3
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 2,
+            "specialisation": "Internist general"
+        },
+        "percentages": {
+            "bchief": 90
+        }
+    },
+    "21": {
+        "name": "\u0218emineu \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 2400,
+        "expansions": {
+            "0": 22
+        },
+        "percentages": {
+            "platform": 100
+        }
+    },
+    "22": {
+        "name": "Acoperi\u0219 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "platform": 1,
+            "truck": 3,
+            "bchief": 1
+        },
+        "credits": 2700,
+        "percentages": {
+            "platform": 100,
+            "bchief": 50
+        }
+    },
+    "23": {
+        "name": "Incendiu \u00een buc\u0103t\u0103rie",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "24": {
+        "name": "Sta\u021bie de autobuz \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900,
+        "poi": 4
+    },
+    "25": {
+        "name": "Accident rutier",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "transport": 40,
+            "specialisation": "Traumatologie"
+        },
+        "expansions": {
+            "0": 24,
+            "1": 2,
+            "2": 29
+        }
+    },
+    "26": {
+        "name": "Incendiu \u00eentr-un supermarket mic",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Internist general"
+        },
+        "poi": 9
+    },
+    "27": {
+        "name": "Garaj \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1400
+    },
+    "28": {
+        "name": "Ma\u0219in\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 2470,
+        "percentages": {
+            "tanker": 30
+        }
+    },
+    "29": {
+        "name": "Scurgere dintr-o cistern\u0103 necunoscut\u0103",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "police": 3,
+            "hazmat": 2
+        },
+        "credits": 5300
+    },
+    "30": {
+        "name": "Scurgere de gaze",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 400
+    },
+    "31": {
+        "name": "Incendiu \u00eentr-un c\u0103min",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "bchief": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1310
+    },
+    "32": {
+        "name": "Combin\u0103 agricol\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
+    },
+    "33": {
+        "name": "Incendiu \u00eentr-un supermarket mic",
+        "stations": {
+            "0": 5,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 2,
+            "transport": 30,
+            "specialisation": "Internist general"
+        },
+        "poi": 9
+    },
+    "34": {
+        "name": "Incendiu \u00eentr-un spital",
+        "stations": {
+            "0": 10,
+            "2": 6
+        },
+        "vehicles": {
+            "truck": 10,
+            "bchief": 2,
+            "heavyRescue": 2,
+            "tanker": 1,
+            "platform": 3
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 25,
+            "transport": 50,
+            "specialisation": "Internist general"
+        },
+        "poi": 2
+    },
+    "35": {
+        "name": "Intoxica\u021bie alcoolic\u0103",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Internist general"
+        }
+    },
+    "36": {
+        "name": "Dureri \u00een piept",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiologie"
+    },
+    "37": {
+        "name": "Criz\u0103 de astm",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Internist general"
+    },
+    "38": {
+        "name": "Convulsii",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "specialisation": "Neurologie"
+    },
+    "39": {
+        "name": "Febr\u0103",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 90,
+        "specialisation": "Internist general"
+    },
+    "40": {
+        "name": "Persoan\u0103 c\u0103zut\u0103",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologie"
+    },
+    "41": {
+        "name": "Incendiu \u00eentr-un atelier auto",
+        "stations": {
+            "0": 14,
+            "2": 2,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 2,
+            "platform": 2,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1,
+            "police": 2
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Internist general"
+        },
+        "poi": 15,
+        "percentages": {
+            "tanker": 40
+        }
+    },
+    "42": {
+        "name": "Persoan\u0103 c\u0103zut\u0103",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologie"
+    },
+    "43": {
+        "name": "Persoan\u0103 c\u0103zut\u0103",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Traumatologie"
+    },
+    "44": {
+        "name": "Furt din magazin",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 9,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "45": {
+        "name": "Furt din magazin",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "poi": 10,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "46": {
+        "name": "Accident cu ma\u0219ina parcat\u0103",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 9
+    },
+    "47": {
+        "name": "Accident cu ma\u0219ina parcat\u0103",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 10
+    },
+    "48": {
+        "name": "Furt de metal",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 8,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "49": {
+        "name": "Furt din buzunare",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 0,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "50": {
+        "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 4
+    },
+    "51": {
+        "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 5
+    },
+    "52": {
+        "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 6
+    },
+    "53": {
+        "name": "C\u0103l\u0103tor f\u0103r\u0103 bilet",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 7
+    },
+    "54": {
+        "name": "Accident cu ma\u0219ina parcat\u0103",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 120,
+        "poi": 14
+    },
+    "55": {
+        "name": "\u00cenc\u0103ierare",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "56": {
+        "name": "Protestatar",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 55
+        }
+    },
+    "57": {
+        "name": "Protest f\u0103r\u0103 aprobare",
+        "vehicles": {
+            "police": 7
+        },
+        "credits": 10020
+    },
+    "58": {
+        "name": "Buc\u0103t\u0103rie \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "59": {
+        "name": "Salvare animale",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
+    "60": {
+        "name": "Incendiu \u00eentr-o sal\u0103 de sport",
+        "stations": {
+            "0": 9,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Internist general"
+        },
+        "poi": 12
+    },
+    "61": {
+        "name": "Accident de avion u\u0219or (Aerodrom)",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "arff": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 28
+    },
+    "62": {
+        "name": "Pl\u00e2ngere pentru g\u0103l\u0103gie",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 400
+    },
+    "63": {
+        "name": "Atac ischemic trec\u0103tor",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Neurochirurgie"
+    },
+    "64": {
+        "name": "Accident \u00een care este implicat un autobuz",
+        "stations": {
+            "0": 3,
+            "2": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 12,
+            "transport": 50,
+            "specialisation": "Internist general"
+        }
+    },
+    "65": {
+        "name": "Buc\u0103t\u0103rie \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1000
+    },
+    "66": {
+        "name": "Camer\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1
+        },
+        "credits": 1400,
+        "patients": {
+            "max": 1,
+            "transport": 50,
+            "specialisation": "Internist general"
+        },
+        "percentages": {
+            "platform": 30
+        }
+    },
+    "67": {
+        "name": "\u00cenc\u0103ierare",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologie"
+        },
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "68": {
+        "name": "Incendiu \u00eentr-un supermarket mare",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "Internist general"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "69": {
+        "name": "Scurgere dintr-o cistern\u0103 necunoscut\u0103",
+        "stations": {
+            "0": 13,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 4300
+    },
+    "70": {
+        "name": "Incendiu \u00eentr-un supermarket mare",
+        "stations": {
+            "0": 8,
+            "2": 3,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "platform": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "police": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 6,
+            "transport": 30,
+            "specialisation": "Internist general"
+        },
+        "poi": 10,
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "71": {
+        "name": "S\u00e2ngerare nazal\u0103",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "specialisation": "Chirurg general"
+    },
+    "72": {
+        "name": "Accident de avion u\u0219or",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "hazmat": 1
+        },
+        "credits": 4000,
+        "patients": {
+            "max": 4,
+            "transport": 60,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "hazmat": 50
+        }
+    },
+    "73": {
+        "name": "Accident grav \u00een care este implicat un autobuz",
+        "stations": {
+            "0": 5,
+            "2": 8,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "platform": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 12,
+            "transport": 80,
+            "specialisation": "Chirurg general"
+        }
+    },
+    "74": {
+        "name": "Incendiu major",
+        "vehicles": {
+            "truck": 10,
+            "bchief": 3,
+            "platform": 2,
+            "tanker": 2,
+            "heavyRescue": 2
+        },
+        "credits": 10210
+    }
+}

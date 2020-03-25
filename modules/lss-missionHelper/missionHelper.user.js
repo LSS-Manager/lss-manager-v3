@@ -2897,6 +2897,147 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.ro_RO.lssm.missionhelper = {
+        diy_mission: 'Această misiune pare a fi o misiune de alianță la scară largă.',
+        siwa: 'Misiune planificată',
+        vge: 'Misiune a alianței la scară largă',
+        patients: 'Pacienţii',
+        prisoners: 'Prizonieri',
+        to: 'până la',
+        exp: 'Se răspândeşte',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Misiunea asta e doar pentru ambulanță!',
+        title: 'Ajutor de misiune',
+        transport: 'Transport',
+        settings: {
+            name: {
+                label: 'Numele',
+                description: 'Afișează numele misiunii în ajutor.'
+            },
+            id: {
+                label: 'Id',
+                description: 'Afișează ID-ul misiunii în ajutor.'
+            },
+            type: {
+                label: 'ID DE TIP',
+                description: 'Afișează ID-ul tipului de misiune în ajutor.'
+            },
+            poi: {
+                label: 'Apoi',
+                description: 'Indică în ajutor la ce punct de interes se află operațiunea.'
+            },
+            live_patients: {
+                label: 'Numărul de pacienți',
+                description: 'Arată live cât de mulți pacienți sunt în prezent în uz.'
+            },
+            vehicles: {
+                label: 'Vehicule',
+                description: 'Afișează vehiculele necesare.'
+            },
+            patients: {
+                label: 'informații despre pacient',
+                description: 'Afișează informații despre (potențialii) pacienți.'
+            },
+            prisoners: {
+                label: 'informații prizonier',
+                description: 'Afișează informații despre (potențialii) deținuți.'
+            },
+            special: {
+                label: 'Alte informații',
+                description: 'Afișează informații speciale, ar fi numărul minim mediu de personal necesar.'
+            },
+            expansions: {
+                label: 'Distribuţii',
+                description: 'Arată la ce se poate răspândi pariul. (Afișează numai o simplă răspândire)'
+            },
+            show_100: {
+                label: 'Arată probabilitatea 100%',
+                description: 'Afișează probabilitatea pentru un vehicul, chiar dacă este 100%.'
+            },
+            credits: {
+                label: 'Câștigul salarial mediu',
+                description: 'Afișează câștigurile medii pe care le obțineți pentru această atribuire.'
+            },
+            show_siwa: {
+                label: 'Cerințe ale agenților de securitate',
+                description: 'Arată cerințele pentru agenții de pază în ajutor, de asemenea.'
+            },
+            mission_time: {
+                label: 'Timp de creare',
+                description: 'Afișează data și ora la care a fost creată misiunea.'
+            }
+        },
+        vehicles: {
+            truck: "Mașini de pompieri",
+            platform: "Camioane cu platformă",
+            heavyRescue: "grele de salvare",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "Șeful de batalion",
+            tanker: "Cisterne de apă",
+            hazmat: "pentru transportul mărfurilor periculoase",
+            mcv: "comandă forțe mobile",
+            police: "Mașini de poliție",
+            arff: "Serviciu aeronautic de salvare și luptă împotriva incendiilor",
+            rth: "Air Ambulance"
+        },
+        pois: [
+            "Parc",
+            "Lac",
+            "Spital",
+            "Pădure",
+            "Stație de autobuz",
+            "Stație de tramvai",
+            "Gară (trafic regional)",
+            "Gară (trafic regional și deplasări pe distanțe lungi)",
+            "Stație de marfă",
+            "Supermarket (mic)",
+            "Supermarket (mare)",
+            "Stație de benzină",
+            "Școală",
+            "Muzeu",
+            "Centru comercial",
+            "Atelier auto",
+            "Ieșire pe autostradă",
+            "Târg de Crăciun",
+            "Depozit",
+            "Discotecă",
+            "Stadion",
+            "Fermă",
+            "Clădire de birouri",
+            "Bazin de înot",
+            "Trecere de cale ferată",
+            "Teatru",
+            "Bâlci",
+            "Râu",
+            "Aeroport mic (pistă)",
+            "Aeroport mare (pistă)",
+            "Terminal aeroport",
+            "Bancă",
+            "Magazie",
+            "Pod",
+            "Restaurant fast-food",
+            "Port pentru mărfuri",
+            "Centru de reciclare",
+            "Bloc cu multe etaje",
+            "Doc pentru nave de croazieră",
+            "Debarcader",
+            "Trecere de nivel",
+            "Tunel",
+            "Depozit frigorific",
+            "Centrală electrică",
+            "Fabrică",
+            "Depozit de fier vechi",
+            "Stație de metrou",
+            "Rezervor mic pentru stocarea de substanțe chimice",
+            "Rezervor mare pentru stocarea de substanțe chimice",
+            "Hotel",
+            "Bar",
+            "Depozit de deșeuri",
+            "Parcare",
+            "Silo"
+        ]
+    };
+
     I18n.translations.nl_NL.lssm.missionhelper = {
         diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',

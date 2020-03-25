@@ -1714,5 +1714,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "123": {
+        "name": "Explosion - \u00d6verh\u00e4ngande fara",
+        "stations": {
+            "0": 7,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 1950
     }
 }
