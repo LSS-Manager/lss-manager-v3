@@ -9421,5 +9421,18 @@
         "percentages": {
             "mess": 30
         }
+    },
+    "516": {
+        "name": "Flugzeug Erstlandung",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "arff": 2
+        },
+        "credits": 1700,
+        "poi": 32,
+        "siwa": true,
+        "dauer": "30 Minuten"
     }
 }
