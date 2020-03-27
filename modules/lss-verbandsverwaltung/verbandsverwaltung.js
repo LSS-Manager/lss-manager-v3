@@ -352,19 +352,22 @@
         localStorage[lsName] = JSON.stringify(storage);
 
         if (lastEntry <= time-(updateMin*60) || !lastEntry) {
-            $.get("/api/allianceinfo")
-                .then(response => {
+            $.ajax({
+                url: '/api/allianceinfo',
+                headers: {
+                    'X-LSS-Manager': lssm.headerVersion()
+                },
+                success() {
 
                     // Write up-to-date values into localstorage
                     storage[time] = {
                         "credits": response.credits_current,
                         "total": parseInt(response.credits_total),
                         "rank": response.rank,
-                        "page": parseInt(response.rank / 20) + (response.rank%20 ? 1 : 0),
+                        "page": parseInt(response.rank / 20) + (response.rank % 20 ? 1 : 0),
                         "users": response.user_count,
                         "online": response.user_online_count
                     };
-
 
 
                     if (!response.finance_active) {
@@ -381,7 +384,8 @@
                     // Write the new json into the localstorage
                     localStorage[lsName] = JSON.stringify(storage);
                     drawGUI(storage, time);
-                });
+                }
+            });
 
         } else {
             drawGUI(storage, lastEntry);
