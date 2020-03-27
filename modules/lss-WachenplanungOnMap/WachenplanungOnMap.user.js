@@ -264,8 +264,8 @@
         // Type
 
         form += '<div class="input-group select required building_building_type"><div class="input-group-addon"><label class="select required " for="building_building_type"><abbr title="required">*</abbr> ' + I18n.t('lssm.wpom.btype') + '</label></div><select class="select required form-control" id="building_building_type"><option value=""></option>';
-        for (let i in btypes) {
-            form += '<option value="' + i + '">' + btypes[i] + '</option>';
+        for (let i in lssm.buildingTypes) {
+            form += '<option value="' + i + '">' + lssm.buildingTypes[i] + '</option>';
         }
         form += '</select></div>';
         // Name
@@ -443,20 +443,6 @@
     createSettings();
     // alle aktiven Typen zeichnen
     drawCircles(true);
-    let btypes = {};
-    $.get('/buildings/new')
-        .fail(function () {
-            console.log("Could not get building list. Disabling mapmarkers.");
-            $("#WachenplanungOnMap_remmarker").remove();
-            $("#WachenplanungOnMap_addmarker").remove();
-        })
-        .done(function (data) {
-            $.each($(data).find("#building_building_type option"), function (key, value) {
-                "use strict";
-                if (value.value !== "")
-                    btypes[value.value] = value.text;
-            });
-        });
     let pmid = 0;
     let plannedMarkers = lssm.settings.get("wpomp", []);
     let plannedMarkersMap = [];
