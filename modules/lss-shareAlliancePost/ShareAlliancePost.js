@@ -514,16 +514,33 @@
         const message = $('#allianceShareText').val();
 
         $('.alert_notify_alliance').html(I18n.t('lssm.sharealliancepost.share'));
-        $.get('/missions/' + missionId + '/alliance', () => {
-            $('.alert_notify_alliance').html(I18n.t('lssm.sharealliancepost.chat'));
-            $.post("/mission_replies", { authenticity_token: csrfToken, mission_reply: { alliance_chat: sendToAlliance, content: message, mission_id: missionId } }, (data, status, xhr) => {
-                $('.alert_notify_alliance').html(I18n.t('lssm.sharealliancepost.alert'));
-                if (getSetting('jumpNext')) {
-                    $('.alert_next').first().click();
-                } else {
-                    $('#mission_alarm_btn').click();
-                }
-            });
+        $.ajax({
+            url: `/missions/${missionId}/alliance`,
+            headers: {
+                'X-LSS-Manager': lssm.headerVersion()
+            },
+            success(data) {
+                $('.alert_notify_alliance').html(I18n.t('lssm.sharealliancepost.chat'));
+                $.ajax({
+                    type: 'POST',
+                    url: `/mission_replies`,
+                    headers: {
+                        'X-LSS-Manager': lssm.headerVersion()
+                    },
+                    data: {
+                        authenticity_token: csrfToken,
+                        mission_reply: {alliance_chat: sendToAlliance, content: message, mission_id: missionId}
+                    },
+                    success() {
+                        $('.alert_notify_alliance').html(I18n.t('lssm.sharealliancepost.alert'));
+                        if (getSetting('jumpNext')) {
+                            $('.alert_next').first().click();
+                        } else {
+                            $('#mission_alarm_btn').click();
+                        }
+                    }
+                });
+            }
         });
 
     };
