@@ -537,7 +537,8 @@
         512: 'Herrenloses Gepäckstück',
         513: 'Hausdach eingestürzt',
         514: 'Durchsuchung - Gebäudekomplex',
-        515: 'Brand einer Produktionshalle'
+        515: 'Brand einer Produktionshalle',
+        516: 'Flugzeug Erstlandung'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -4436,7 +4437,8 @@
       512: 'POL 1',
       513: 'THW 3',
       514: 'BP 2',
-      515: 'B 7'
+      515: 'B 7',
+      516: 'ABSICHERUNG'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
