@@ -8,7 +8,7 @@
 // 4 = Wasserrettung
 if (I18n.locale == "en_US")
 {
-	lssm.extensions = {
+    lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Ambulance extension": 0,
         "Water rescue expansion": 1,
@@ -18,7 +18,7 @@ if (I18n.locale == "en_US")
         "More cell": 10,
         // Schule-Erweiterungen (20-29)
         "More classrooms": 20,
-	};
+    };
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -569,7 +569,7 @@ else if (I18n.locale == "ro_RO") {
 }
 else if (I18n.locale == "nl_NL")
 {
-	lssm.extensions = {
+    lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Ambulance standplaats": 0,
         "Waterongevallenbestrijding": 1,
@@ -584,7 +584,7 @@ else if (I18n.locale == "nl_NL")
         "Arrestatieteam": 14,
         // Schule-Erweiterungen (20-29)
         "Extra klaslokaal": 20,
-	};
+    };
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -646,7 +646,7 @@ else if (I18n.locale == "nl_NL")
 }
 else if (I18n.locale == "de_DE")
 {
-	lssm.extensions = {
+    lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Rettungsdienst-Erweiterung": 0,
         "Wasserrettungs-Erweiterung": 1,
@@ -679,7 +679,32 @@ else if (I18n.locale == "de_DE")
         "2. Technischer Zug - Grundvoraussetzung": 44,
         "2. Technischer Zug: Bergungsgruppe 2": 45,
         "2. Technischer Zug: Zugtrupp ": 46,
-	};
+    };
+
+    lssm.buildingTypes = [
+        'Feuerwache',
+        'Feuerwehrschule',
+        'Rettungswache',
+        'Rettungsschule',
+        'Krankenhaus',
+        'Rettungshubschrauber-Station',
+        'Polizeiwache',
+        'Leitstelle',
+        'Polizeischule',
+        'THW',
+        'THW Bundesschule',
+        'Bereitschaftspolizei',
+        'Schnelleinsatzgruppe (SEG)',
+        'Polizeihubschrauberstation',
+        'Bereitstellungsraum',
+        'Wasserrettung',
+        'Verbandszellen',
+        'Polizei-Sondereinheiten',
+        'Feuerwache (Kleinwache)',
+        'Polizeiwache (Kleinwache)',
+        'Rettungswache (Kleinwache)'
+    ];
+    
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -806,8 +831,8 @@ lssm.car_list_all = function() {
 lssm.car_list_printable = function(list) {
     let data = "";
     $.each(list, function (key, car) {
-		data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_real + "\">" + car.fms_show + "</span> " + car.name +
-			"</div>";
+        data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_real + "\">" + car.fms_show + "</span> " + car.name +
+          "</div>";
     });
     return data;
 }
@@ -862,9 +887,9 @@ lssm.updateStatusCount = function(async=true) {
             'X-LSS-Manager': lssm.headerVersion()
         },
         success: function (response) {
-          for (let status in response) {
-              lssm.statusCount[status] = response[status];
-          }
+            for (let status in response) {
+                lssm.statusCount[status] = response[status];
+            }
         }
     });
 };
@@ -872,8 +897,8 @@ lssm.updateStatusCount = function(async=true) {
 // Funktion zum Updaten des FMS eigener Fzg.
 $(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
     if(t.type === "vehicle_fms"
-        && lssm.vehicles.hasOwnProperty(t.id)
-        && !t.fms_text.startsWith("[Verband]"))
+      && lssm.vehicles.hasOwnProperty(t.id)
+      && !t.fms_text.startsWith("[Verband]"))
     {
         let vehicle = lssm.vehicles[t.id];
         lssm.statusCount[vehicle.fms_show]--;
@@ -935,9 +960,9 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
         let m = map.getSize();
         let p = L.DomUtil.getPosition(info._div);
         let pos = {
-			x: changeX(p.x, m.x),
-			y: changeY(p.y, m.y)
-		};
+            x: changeX(p.x, m.x),
+            y: changeY(p.y, m.y)
+        };
         lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
         L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
     };
@@ -952,27 +977,27 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 // Add custom String format function
 if (!String.format) {
 //	console.log("execute");
-  String.format = function(format) {
-      let args = Array.prototype.slice.call(arguments, 1);
-    return format.replace(/{(\d+)}/g, function(match, number) {
-      return typeof args[number] != 'undefined' ? args[number] : match;
-    });
-  };
+    String.format = function(format) {
+        let args = Array.prototype.slice.call(arguments, 1);
+        return format.replace(/{(\d+)}/g, function(match, number) {
+            return typeof args[number] != 'undefined' ? args[number] : match;
+        });
+    };
 }
 lssm.notification = function(msg, type, duration) {
-	type = (typeof type === 'undefined') ? 'alert-success' : type;
-	duration = (typeof duration === 'undefined') ? 2000 : duration;
-	$("#content")
-		.before(
-			'<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
-			'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
-			'aria-label="close">&times;</a>' + msg +
-			'</div>');
-	setTimeout(function() {
-		$("#lssm_notification").slideUp("slow", function() {
-			$("#lssm_notification").remove();
-		});
-	}, duration);
+    type = (typeof type === 'undefined') ? 'alert-success' : type;
+    duration = (typeof duration === 'undefined') ? 2000 : duration;
+    $("#content")
+      .before(
+        '<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
+        'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
+        'aria-label="close">&times;</a>' + msg +
+        '</div>');
+    setTimeout(function() {
+        $("#lssm_notification").slideUp("slow", function() {
+            $("#lssm_notification").remove();
+        });
+    }, duration);
 };
 
 lssm.headerVersion = () => `${I18n.t('lssm.version')} ${lssm.version}`;

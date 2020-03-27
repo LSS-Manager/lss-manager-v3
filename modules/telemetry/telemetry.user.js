@@ -137,24 +137,29 @@
     {
         let data = {};
         // Lets grab the users key
-        $.get(lssm.config.key_link + user_id, function (data) {
-            try
-            {
-                // Try to parse the answer as JSON
-                data = JSON.parse(data);
-                lssm.key = data.code;
-                let name = $.trim($("#navbar_profile_link").text());
-                data.bro = getUserAgent();
-                data.pro = user_premium;
-                data.bui = lssm.buildings.length;
-                data.version = lssm.config.version;
-                data.mods = getModules();
-                data = JSON.stringify(data);
-                $.post(lssm.config.stats_uri, {
-                    uid: user_id, key: lssm.key, game: lssm.config.game, uname: name, data: data
-                });
-            } catch (e) {
-                lssm.key = null;
+        $.ajax({
+            url: lssm.config.key_link + user_id,
+            headers: {
+                'X-LSS-Manager': lssm.headerVersion()
+            },
+            success(data) {
+                try {
+                    // Try to parse the answer as JSON
+                    data = JSON.parse(data);
+                    lssm.key = data.code;
+                    let name = $.trim($("#navbar_profile_link").text());
+                    data.bro = getUserAgent();
+                    data.pro = user_premium;
+                    data.bui = lssm.buildings.length;
+                    data.version = lssm.config.version;
+                    data.mods = getModules();
+                    data = JSON.stringify(data);
+                    $.post(lssm.config.stats_uri, {
+                        uid: user_id, key: lssm.key, game: lssm.config.game, uname: name, data: data
+                    });
+                } catch (e) {
+                    lssm.key = null;
+                }
             }
         });
     }

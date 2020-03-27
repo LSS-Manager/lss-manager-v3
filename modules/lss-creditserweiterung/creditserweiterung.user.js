@@ -606,8 +606,12 @@
     }
 
     function createExtension() {
-        $.get("/api/credits")
-            .then(response => {
+        $.ajax({
+            url: '/api/credits',
+            headers: {
+                'X-LSS-Manager': lssm.headerVersion()
+            },
+            success(response) {
                 let earnedCredits = response.credits_user_total;
                 let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                 if (creditsOfNextRank === null) {
@@ -644,16 +648,21 @@
 
                 $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
 
-                $('#menu_creditsverwaltung').click(function() {
+                $('#menu_creditsverwaltung').click(function () {
                     updateValues();
                 });
-            });
+            }
+        });
     }
 
     function updateValues() {
         if (updateable) {
-            $.get("/api/credits")
-                .then(response => {
+            $.ajax({
+                url: '/api/credits',
+                headers: {
+                    'X-LSS-Manager': lssm.headerVersion()
+                },
+                success(response) {
                     let earnedCredits = response.credits_user_total;
                     let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                     if (creditsOfNextRank === null) {
@@ -673,10 +682,11 @@
                         $("#creditsextensionAllianceFunds").html(I18n.t('lssm.creditserweiterung.texts.allianceFunds') + ': ' + allianceFundsCredits.toLocaleString() + ' Credits');
                     }
                     updateable = false;
-                    setTimeout(function() {
+                    setTimeout(function () {
                         updateable = true;
                     }, 300000);
-                });
+                }
+            });
         }
     }
 

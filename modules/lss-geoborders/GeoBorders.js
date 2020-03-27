@@ -11,7 +11,7 @@
     };
 
     let openBtn = '<div id="borders-openBtn" class="leaflet-bar leaflet-control leaflet-control-custom map-expand-button" style="background-image: url(' + lssm.getlink('/modules/lss-geoborders/img/ico_de.png') + '); background-color: white; width: 26px; height: 26px;"></div>';
-    $('.leaflet-bottom.leaflet-left').append(openBtn);
+    $('.leaflet-control-container .leaflet-top.leaflet-left').append(openBtn);
 
     $('#borders-openBtn').click(() => {
         $('#borders-modal').show();

@@ -262,33 +262,33 @@
         let lastArr = storage[lastKey];
         if (lastArr.finance_active) {
             $("#verbandsverwaltungAllianceFunds").html(
-                '<a href="/verband/kasse" class="lightbox-open">' +
-                '' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' +
-                '' + lastArr.credits.toLocaleString() + ' Credits' +
-                '</a>'
+              '<a href="/verband/kasse" class="lightbox-open">' +
+              '' + I18n.t('lssm.verbandsverwaltung.allianceFunds') + ': ' +
+              '' + lastArr.credits.toLocaleString() + ' Credits' +
+              '</a>'
             );
         }
         // Write total earned credits
         $('#verbandsverwaltungAllianceCredits').html(
-            I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + lastArr.total.toLocaleString() + ' Credits'
+          I18n.t('lssm.verbandsverwaltung.allianceCredits') + ': ' + lastArr.total.toLocaleString() + ' Credits'
         );
 
         // And display the latest values
         $('#verbandsverwaltungAllianceRank').html(
-            '<a href="/alliances?page=' + lastArr.page + '" class="lightbox-open">' +
-            '' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' +
-            '' + lastArr.rank.toLocaleString() + ' (' +
-            '' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + lastArr.page.toLocaleString() + ')' +
-            '</a>'
+          '<a href="/alliances?page=' + lastArr.page + '" class="lightbox-open">' +
+          '' + I18n.t('lssm.verbandsverwaltung.allianceRank') + ': ' +
+          '' + lastArr.rank.toLocaleString() + ' (' +
+          '' + I18n.t('lssm.verbandsverwaltung.page') + ' ' + lastArr.page.toLocaleString() + ')' +
+          '</a>'
         );
 
         // Display current member statistic
         $('#verbandsverwaltungUsers').html(
-            '<a href="/verband/mitglieder" class="lightbox-open">' +
-            '' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' +
-            '' + lastArr.online.toLocaleString() + '/' + lastArr.users.toLocaleString() + ' ' +
-            '(' + Math.round((100 / lastArr.users) * lastArr.online) + '%)' +
-            '</a>'
+          '<a href="/verband/mitglieder" class="lightbox-open">' +
+          '' + I18n.t('lssm.verbandsverwaltung.onlineUsers') + ': ' +
+          '' + lastArr.online.toLocaleString() + '/' + lastArr.users.toLocaleString() + ' ' +
+          '(' + Math.round((100 / lastArr.users) * lastArr.online) + '%)' +
+          '</a>'
         );
         // Write History into Tables and output the stats
         let userData = [];
@@ -352,19 +352,22 @@
         localStorage[lsName] = JSON.stringify(storage);
 
         if (lastEntry <= time-(updateMin*60) || !lastEntry) {
-            $.get("/api/allianceinfo")
-                .then(response => {
+            $.ajax({
+                url: '/api/allianceinfo',
+                headers: {
+                    'X-LSS-Manager': lssm.headerVersion()
+                },
+                success(response) {
 
                     // Write up-to-date values into localstorage
                     storage[time] = {
                         "credits": response.credits_current,
                         "total": parseInt(response.credits_total),
                         "rank": response.rank,
-                        "page": parseInt(response.rank / 20) + (response.rank%20 ? 1 : 0),
+                        "page": parseInt(response.rank / 20) + (response.rank % 20 ? 1 : 0),
                         "users": response.user_count,
                         "online": response.user_online_count
                     };
-
 
 
                     if (!response.finance_active) {
@@ -381,7 +384,8 @@
                     // Write the new json into the localstorage
                     localStorage[lsName] = JSON.stringify(storage);
                     drawGUI(storage, time);
-                });
+                }
+            });
 
         } else {
             drawGUI(storage, lastEntry);
