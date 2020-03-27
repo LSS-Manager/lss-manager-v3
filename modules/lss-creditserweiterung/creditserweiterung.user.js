@@ -611,7 +611,7 @@
             headers: {
                 'X-LSS-Manager': lssm.headerVersion()
             },
-            success() {
+            success(response) {
                 let earnedCredits = response.credits_user_total;
                 let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                 if (creditsOfNextRank === null) {
@@ -662,7 +662,7 @@
                 headers: {
                     'X-LSS-Manager': lssm.headerVersion()
                 },
-                success() {
+                success(response) {
                     let earnedCredits = response.credits_user_total;
                     let creditsOfNextRank = getCreditsOfNextRank(earnedCredits);
                     if (creditsOfNextRank === null) {
