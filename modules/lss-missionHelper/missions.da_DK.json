@@ -1373,5 +1373,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "99": {
+        "name": "Ransagning af hus",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

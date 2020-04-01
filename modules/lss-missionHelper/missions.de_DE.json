@@ -2712,7 +2712,13 @@
             "radlader": 1,
             "fustw": 2
         },
-        "credits": 1020
+        "credits": 1020,
+        "followup": {
+            "0": 177,
+            "1": 464,
+            "2": 513,
+            "3": 162
+        }
     },
     "175": {
         "name": "Erdrutsch",
@@ -3430,6 +3436,11 @@
             "transport": 70,
             "nef": 40,
             "specialisation": "Unfallchirurgie"
+        },
+        "followup": {
+            "0": 177,
+            "1": 513,
+            "2": 166
         },
         "percentages": {
             "fwk": 40,
@@ -6271,6 +6282,9 @@
         },
         "expansions": {
             "0": 367
+        },
+        "followup": {
+            "0": 486
         }
     },
     "367": {

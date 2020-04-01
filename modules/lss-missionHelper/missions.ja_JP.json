@@ -1131,5 +1131,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "84": {
+        "name": "\u99d0\u5728\u8b66\u5bdf\u306e\u8972\u6483",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

@@ -1182,5 +1182,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "85": {
+        "name": "Konut bask\u0131n\u0131",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

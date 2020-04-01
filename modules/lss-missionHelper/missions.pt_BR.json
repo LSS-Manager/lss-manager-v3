@@ -1130,5 +1130,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "83": {
+        "name": "Buscas domicili\u00e1rias",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }
