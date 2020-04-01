@@ -5896,5 +5896,20 @@
             "specialisation": "General Internal"
         },
         "poi": 38
+    },
+    "357": {
+        "name": "Vehicle lost its load",
+        "stations": {
+            "0": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 2
+        },
+        "credits": 700,
+        "percentages": {
+            "truck": 30
+        }
     }
 }

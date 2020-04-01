@@ -2001,5 +2001,32 @@
         "prisoners": {
             "max": 2
         }
+    },
+    "134": {
+        "name": "Raid residenziale della polizia",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "135": {
+        "name": "Ascensore bloccato",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 400,
+        "expansions": {
+            "0": 104
+        }
     }
 }

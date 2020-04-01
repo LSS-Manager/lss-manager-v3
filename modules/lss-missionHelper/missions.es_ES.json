@@ -1728,5 +1728,18 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "126": {
+        "name": "Redada policial residencial",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

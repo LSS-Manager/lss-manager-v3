@@ -1637,5 +1637,28 @@
         },
         "credits": 1500,
         "poi": 21
+    },
+    "120": {
+        "name": "Feu de parking souterrain",
+        "stations": {
+            "0": 6,
+            "2": 3
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1,
+            "bchief": 1,
+            "air": 1
+        },
+        "credits": 3200,
+        "patients": {
+            "max": 5,
+            "transport": 50,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 52,
+        "percentages": {
+            "air": 30
+        }
     }
 }

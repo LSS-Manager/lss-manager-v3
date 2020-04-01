@@ -2011,5 +2011,18 @@
             "truck": 1
         },
         "credits": 1200
+    },
+    "141": {
+        "name": "Nalot policyjny na rezydencj\u0119",
+        "stations": {
+            "6": 4
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 750,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

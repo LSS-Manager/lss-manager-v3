@@ -2195,5 +2195,14 @@
         "special": {
             "SWATPersonnel": 8
         }
+    },
+    "156": {
+        "name": "Heatstroke",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "General Internal"
     }
 }
