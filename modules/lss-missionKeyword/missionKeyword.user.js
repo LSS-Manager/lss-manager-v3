@@ -538,7 +538,9 @@
         513: 'Hausdach eingestürzt',
         514: 'Durchsuchung - Gebäudekomplex',
         515: 'Brand einer Produktionshalle',
-        516: 'Flugzeug Erstlandung'
+        516: 'Flugzeug Erstlandung',
+        517: 'Brennender Baum',
+        518: 'Brennender Baum'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -1246,7 +1248,22 @@
         135: 'Big farm fire',
         136: 'Back pain',
         137: 'Straw bale stack on fire',
-        138: 'Residential police raid'
+        138: 'Residential police raid',
+        139: 'Escaped Detainee',
+        140: 'Fleeing Suspect',
+        141: 'Missing Person',
+        142: 'Execute Arrest Warrant',
+        143: 'Officer Down',
+        144: 'Search of a vehicle',
+        145: 'Small Violent Protest',
+        146: 'Medium Violent Protest',
+        147: 'Drug Deal',
+        148: 'Petrol Station Robbery',
+        149: 'Shots fired at Officer',
+        150: 'Dignitary Protection',
+        151: 'Siege Involving Firearm',
+        152: 'Attempted Homicide',
+        153: 'Museum robbery'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -2495,7 +2512,22 @@
         138: 'Uwięziony pies w rzece',
         139: 'Płonący stos bel słomy',
         140: 'Zalana piwnica / dom / garaż',
-        141: 'Nalot policyjny na rezydencję'
+        141: 'Nalot policyjny na rezydencję',
+        142: 'Ucieczka więźnia',
+        143: 'Uciekający podejrzany',
+        144: 'Poszukiwana osoba',
+        145: 'Oczekujący nakaz',
+        146: 'Ranny funkcjonariusz',
+        147: 'Przeszukanie pojazdu',
+        148: 'Mały niebezpieczny protest',
+        149: 'Średni niebezpieczny protest',
+        150: 'Handel narkotykamil',
+        151: 'Napad na stację benzynową',
+        152: 'Policjant pod ostrzałem',
+        153: 'Przemówienie VIPa',
+        154: 'Najazd na dom',
+        155: 'Usiłowanie morderstwa',
+        156: 'Napad na muzeum'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2927,7 +2959,22 @@
         117: 'Большой пожар на ферме',
         118: 'Боли в спине',
         119: 'Возгорание соломенного тюка',
-        120: 'Полицейский обыск жилого района'
+        120: 'Полицейский обыск жилого района',
+        121: 'Побег заключенного',
+        122: 'Подозреваемый убегает',
+        123: 'Пропажа человека',
+        124: 'Похищение ребёнка',
+        125: 'Полицейский ранен',
+        126: 'Розыск автомобиля',
+        127: 'Компания хулиганов',
+        128: 'Групповая драка',
+        129: 'Продажа наркотиков',
+        130: 'Ограбление АЗС',
+        131: 'Вооруженное нападение',
+        132: 'Охрана VIP-персоны',
+        133: 'Незаконное вторжение',
+        134: 'Попытка убийства',
+        135: 'Ограбление музея'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -4460,7 +4507,9 @@
       513: 'THW 3',
       514: 'BP 2',
       515: 'B 7',
-      516: 'ABSICHERUNG'
+      516: 'ABSICHERUNG',
+      517: 'B 1',
+      518: 'B 1'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -5121,7 +5170,22 @@
       135: 'FIRE 5',
       136: 'MED 1',
       137: 'FIRE 2',
-      138: 'POL 2'
+      138: 'POL 2',
+      139: 'POL 6',
+      140: 'POL 4',
+      141: 'POL 3',
+      142: 'POL 2',
+      143: 'POL 6',
+      144: 'POL 1',
+      145: 'POL 3',
+      146: 'POL 6',
+      147: 'POL 3',
+      148: 'POL 3',
+      149: 'POL 6',
+      150: 'Planned mission',
+      151: 'POL 4',
+      152: 'POL 5',
+      153: 'POL 3'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -6210,7 +6274,22 @@
       138: 'TECH 1',
       139: 'FIRE 2',
       140: 'FIRE 1',
-      141: 'POL 2'
+      141: 'POL 2',
+      142: 'POL 6',
+      143: 'POL 4',
+      144: 'POL 3',
+      145: 'POL 2',
+      146: 'POL 6',
+      147: 'POL 1',
+      148: 'POL 3',
+      149: 'POL 6',
+      150: 'POL 3',
+      151: 'POL 3',
+      152: 'POL 6',
+      153: 'Planowana misja',
+      154: 'POL 4',
+      155: 'POL 5',
+      156: 'POL 3'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -6594,7 +6673,22 @@
       117: 'FIRE 4',
       118: 'MED 1',
       119: 'FIRE 2',
-      120: 'POL 2'
+      120: 'POL 2',
+      121: 'POL 6',
+      122: 'POL 4',
+      123: 'POL 3',
+      124: 'POL 2',
+      125: 'POL 6',
+      126: 'POL 1',
+      127: 'POL 3',
+      128: 'POL 6',
+      129: 'POL 3',
+      130: 'POL 3',
+      131: 'POL 6',
+      132: 'Запланированная миссия',
+      133: 'POL 4',
+      134: 'POL 5',
+      135: 'POL 3'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',

@@ -2296,7 +2296,19 @@ lssm.Module = {
         source: "/modules/lss-statuscount/statuscount.js",
         inframe: false,
         needVehicles: true
-    }
+    },
+    CarrierCall: {
+        name: {
+            de_DE: 'Tragehilfe Nachforderung per FMS'
+        },
+        active: false,
+        description: {
+            de_DE: 'Bei Tragehilfe Nachforderung wird ein Sprechwunsch im Funk angezeigt.'
+        },
+        source: '/modules/lss-carrier-call/CarrierCall.user.js',
+        develop: false,
+        supportedLocales: ['de_DE'],
+    },
 };
 
 /**

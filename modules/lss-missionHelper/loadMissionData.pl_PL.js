@@ -18,9 +18,12 @@ $.get(missionlink)
             rth: "śmigłowiec LPR",
             ambulance: "ambulanse",
             arff: "SP LSP",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            policeHeli: "Police Helicopter",
+            k9: "Jednostki K-9",
+            pmotorcycle: "Police Motorcycle",
+            swatArmoured: "SWAT Armoured Vehicle",
+            swatSuv: "SWAT SUV",
+            policeHeli: "Helikopteru Policyjnego",
+            ambulance: "Ambulance"
         };
 
         let credits;
@@ -47,7 +50,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Średnie kredyty/)) {
                 credits = number;
-            } else if (content.match(/Wymagane|Wymagany|Wymagania/)) {
+            } else if (content.match(/Wymagane|Wymagany|Wymagania|Minimalnie/)) {
                 stations[getStation(content)] = number;
             } else if (content.match(/Miejsce/)) {
                 poi = getPOI(content);
@@ -56,7 +59,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Wymagane|Wymagany/)) {
+            if (content.match(/Wymagane|Wymagany|Potrzeba/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Szanse/)) {
                 percentages[getVehicle(content)] = number;
@@ -77,9 +80,9 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maksymalna liczba więźniów/)) {
                 prisonersMax = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/Wymagani policjanci SPKP/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/trwania/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/śmigłowiec LPR/)) {
                 rth = number;
@@ -268,7 +271,7 @@ $.get(missionlink)
                 0: "straży pożarnej",
                 2: "ratunkowego",
                 6: "policji",
-                13: "Police Helicopter"
+                13: "stacji Helikopterów Policyjnych"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

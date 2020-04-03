@@ -113,7 +113,12 @@ else if (I18n.locale == "en_AU")
         "10": ["BASU", 0],
         "11": ["MCV", 0],
         "12": ["Rescue Pumper", 0],
-        "13": ["Aerial Pumper", 0]
+        "13": ["Aerial Pumper", 0],
+        "14": ["Police helicopter", 6],
+        "15": ["TOG Armoured Bearcat", 6],
+        "16": ["K-9 Unit", 6],
+        "17": ["Police Motorcycle", 6],
+        "18": ["TOG SUV", 6]
     };
 }
 else if (I18n.locale == "es_ES")
@@ -378,7 +383,12 @@ else if (I18n.locale == "pl_PL")
         "10": ["SPGaz", 0],
         "11": ["Samochód Dowodzenia i Łączności", 0],
         "12": ["GBARt", 0],
-        "13": ["Podnośnik hydrauliczny", 0]
+        "13": ["Podnośnik hydrauliczny", 0],
+        "14": ["Helikopter Policyjny", 6],
+        "15": ["Opancerzony Pojazd SPKP", 6],
+        "16": ["Jednostka K-9", 6],
+        "17": ["Motocykl Policyjny", 6],
+        "18": ["SUV SPKP", 6]
     };
 }
 else if (I18n.locale == "it_IT") {
@@ -464,7 +474,12 @@ else if (I18n.locale == "ru_RU") {
         "10": ["Mobile air", 0],
         "11": ["ПКП", 0],
         "12": ["ПСА", 0],
-        "13": ["АЦЛ", 0]
+        "13": ["АЦЛ", 0],
+        "14": ["Полицейский вертолет", 6],
+        "15": ["Бронемашина спецназа", 6],
+        "16": ["Автомобиль с полицейской собакой", 6],
+        "17": ["Полицейский мотоцикл", 6],
+        "18": ["Внедорожник спецназа", 6]
     };
 }
 else if (I18n.locale == "uk_UA") {

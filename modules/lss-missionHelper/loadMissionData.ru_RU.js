@@ -18,7 +18,11 @@ $.get(missionlink)
             arff: 'АПСР',
             mcv: "мобильные командные пункты",
             rth: "вертолёта",
-            policeHeli: "Police Helicopter",
+            k9: "полицейские собаки",
+            pmotorcycle: "Police Motorcycle",
+            swatArmoured: "SWAT Armoured Vehicle",
+            swatSuv: "SWAT SUV",
+            policeHeli: "полицейский вертолет",
             ambulance: "скорые"
         };
 
@@ -46,7 +50,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Кредиты/)) {
                 credits = number;
-            } else if (content.match(/Требуемые|Требуемое/)) {
+            } else if (content.match(/Требуемые|Требуемое|Мин./)) {
                 stations[getStation(content)] = number;
             } else if (content.match(/Место/)) {
                 poi = getPOI(content);
@@ -55,7 +59,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Требуемые|Требуются/)) {
+            if (content.match(/Требуемые|Требуются|Нужны|Нужен/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Вероятность/)) {
                 percentages[getVehicle(content)] = number;
@@ -76,9 +80,9 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Макс\. число заключённых/)) {
                 prisonersMax = number;
-            } else if (content.match(/SWAT Personnel/)) {
+            } else if (content.match(/состав спецназа/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Продолжительность/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Доступные к расширению задания/)) {
                 let expansionLinks = $(this).find("a");
@@ -264,7 +268,8 @@ $.get(missionlink)
             let stationDefinitions = {
                 0: "пожарные станции",
                 2: "станции спасателей",
-                6: "полицейских участков"
+                6: "полицейских участков",
+                13: "площадок полицейских вертолетов"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
