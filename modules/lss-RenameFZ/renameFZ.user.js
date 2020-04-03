@@ -306,6 +306,7 @@
                 5: "Air Ambulance Station",
                 6: "Police Station",
                 7: "Dispatch Center",
+                13: "Police Air Wing",
                 18: "Fire Station (Small)",
                 19: "Police Station (Small station)",
                 20: "Ambulance station (Small station)"
@@ -324,7 +325,12 @@
                 10: 'BASU',
                 11: 'MCV',
                 12: 'Rescue Pumper',
-                13: 'Aerial Pumper'
+                13: 'Aerial Pumper',
+                14: 'Police helicopter',
+                15: 'TOG Armoured Bearcat',
+                16: 'K-9 Unit',
+                17: 'Police Motorcycle',
+                18: 'TOG SUV'
             }
         }
     };
@@ -502,6 +508,7 @@
                 5: "Stacja helikopterów",
                 6: "Komenda Policji",
                 7: "Centrum Powiadamiania Ratunkowego",
+                13: "Stacja Helikopterów Policji",
                 18: "Remiza",
                 19: "Posterunek Policji",
                 20: "Podstacja Pogotowia Ratunkowego"
@@ -520,7 +527,12 @@
                 10: 'SPGaz',
                 11: 'Samochód Dowodzenia i Łączności',
                 12: 'GBARt',
-                13: 'Podnośnik hydrauliczny'
+                13: 'Podnośnik hydrauliczny',
+                14: 'Helikopter Policyjny',
+                15: 'Opancerzony Pojazd SPKP',
+                16: 'Jednostka K-9',
+                17: 'Motocykl Policyjny',
+                18: 'SUV SPKP'
             }
         }
     };
@@ -900,6 +912,7 @@
                 5: "Вертолётная станция",
                 6: "Полицейский участок",
                 7: "Диспетчерский пункт",
+                13: "Площадка полицейского вертолета",
                 18: "Пожарная станция (малая)",
                 19: "Полицейский участок (малый)",
                 20: "Станция скорой помощи (малая)"
@@ -918,7 +931,12 @@
                 10: 'Mobile air',
                 11: 'ПКП',
                 12: 'ПСА',
-                13: 'АЦЛ'
+                13: 'АЦЛ',
+                14: 'Полицейский вертолет',
+                15: 'Бронемашина спецназа',
+                16: 'Автомобиль с полицейской собакой',
+                17: 'Полицейский мотоцикл',
+                18: 'Внедорожник спецназа'
             }
         }
     };

@@ -18,6 +18,10 @@ $.get(missionlink)
             police: "Police Car",
             arff: 'ARFF',
             rth: "HEMS",
+            k9: "K-9 Unit",
+            pmotorcycle: "Police Motorcycle",
+            swatArmoured: "SWAT Armoured Vehicle",
+            swatSuv: "SWAT SUV",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulance"
         };
@@ -262,7 +266,8 @@ $.get(missionlink)
             let stationDefinitions = {
               0: "Fire Station",
               2: "Rescue Station",
-              6: "Police Station"
+              6: "Police Station",
+             13: "Police Air Wing"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
