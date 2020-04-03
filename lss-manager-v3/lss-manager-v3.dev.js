@@ -2303,7 +2303,7 @@ lssm.Module = {
         },
         active: false,
         description: {
-            de_DE: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.'
+            de_DE: 'Bei Tragehilfe Nachforderung wird ein Sprechwunsch im Funk angezeigt.'
         },
         source: '/modules/lss-carrier-call/CarrierCall.user.js',
         develop: false,
