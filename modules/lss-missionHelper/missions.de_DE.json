@@ -9448,5 +9448,37 @@
         "poi": 32,
         "siwa": true,
         "dauer": "30 Minuten"
+    },
+    "517": {
+        "name": "Brennender Baum",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "dlk": 1
+        },
+        "credits": 800,
+        "percentages": {
+            "dlk": 40
+        }
+    },
+    "518": {
+        "name": "Brennender Baum",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "dlk": 1
+        },
+        "credits": 800,
+        "poi": 3,
+        "expansions": {
+            "0": 15
+        },
+        "percentages": {
+            "dlk": 40
+        }
     }
 }
