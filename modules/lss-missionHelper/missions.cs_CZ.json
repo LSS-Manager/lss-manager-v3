@@ -1304,5 +1304,155 @@
         "prisoners": {
             "max": 3
         }
+    },
+    "94": {
+        "name": "Kr\u00e1de\u017e velikono\u010dn\u00edho vaj\u00ed\u010dka",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "95": {
+        "name": "Kr\u00e1de\u017e \u0161t\u011btce z d\u00edlny",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "96": {
+        "name": "Zavalen\u00ed kr\u00e1li\u010d\u00ed d\u00edry",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "97": {
+        "name": "Napaden\u00ed velikono\u010dn\u00edho zaj\u00edce",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        }
+    },
+    "98": {
+        "name": "Po\u017e\u00e1r velikono\u010dn\u00edho ko\u0161\u00edku",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "99": {
+        "name": "\u00danik \u010dokol\u00e1dy z n\u00e1dr\u017ee",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "100": {
+        "name": "Va\u0159en\u00ed vajec v kotli",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "101": {
+        "name": "Setk\u00e1n\u00ed zaj\u00edc\u016f ve m\u011bst\u011b Velikono\u010dn\u00ed vaj\u00ed\u010dko",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 hodiny"
+    },
+    "102": {
+        "name": "Nehoda kamionu p\u0159ev\u00e1\u017eej\u00edc\u00ed velikono\u010dn\u00ed vejce",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        }
+    },
+    "103": {
+        "name": "Hon na velikono\u010dn\u00ed vejce",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "104": {
+        "name": "Velikono\u010dn\u00ed zaj\u00edc na je\u0159\u00e1bu",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

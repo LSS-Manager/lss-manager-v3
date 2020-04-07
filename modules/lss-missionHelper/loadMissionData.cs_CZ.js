@@ -15,7 +15,7 @@ $.get(missionlink)
             hazmat: "vozidla pro práci s nebezpečnými látkami",
             mcv: "velitelská vozidla",
             police: "policejní automobily",
-            ambulance: "Sanitkat",
+            ambulance: "sanitky",
             arff: "letištní speciály",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -81,7 +81,7 @@ $.get(missionlink)
                 rth = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Délka/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Rozšiřitelné mise/)) {
                 let expansionLinks = $(this).find("a");

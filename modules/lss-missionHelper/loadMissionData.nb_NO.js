@@ -79,7 +79,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Varighet/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/helikopter/)) {
                 rth = number;

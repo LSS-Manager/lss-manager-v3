@@ -15,7 +15,7 @@ $.get(missionlink)
             hazmat: "생화학 차량",
             mcv: "Incident Command and Control Unit",
             police: "경찰차",
-            ambulance: "Ambulance",
+            ambulance: "구급차",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -79,7 +79,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/기간/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/확장할 수 있는 임무/)) {
                 let expansionLinks = $(this).find("a");

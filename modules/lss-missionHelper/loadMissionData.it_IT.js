@@ -84,7 +84,7 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/elisoccorso/)) {
                 rth = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Durata/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Missioni espandibili/)) {
                 let expansionLinks = $(this).find("a");

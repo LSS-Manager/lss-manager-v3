@@ -1195,5 +1195,155 @@
         "prisoners": {
             "max": 3
         }
+    },
+    "86": {
+        "name": "Paskalya yumurtas\u0131 h\u0131rs\u0131z\u0131",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "87": {
+        "name": "At\u00f6lyeden f\u0131r\u00e7a \u00e7al\u0131nd\u0131",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "88": {
+        "name": "Tav\u015fan evi y\u0131k\u0131lm\u0131\u015f",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "89": {
+        "name": "Paskalya tav\u015fan\u0131 vuruldu",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Travmatoloji"
+        }
+    },
+    "90": {
+        "name": "Paskalya sepeti yaniyor",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "91": {
+        "name": "\u00c7ikolata Tankeri devrildi",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "92": {
+        "name": "Yumurta kazan\u0131 yan\u0131yor",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "93": {
+        "name": "Paskalya yumurtas\u0131 kasabas\u0131nda tav\u015fan toplant\u0131s\u0131",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 saat"
+    },
+    "94": {
+        "name": "Paskalya yumurtas\u0131 kamyonu devrildi",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Travmatoloji"
+        }
+    },
+    "95": {
+        "name": "\u00d6ncelikli g\u00f6rev: Paskalya yumurtas\u0131 av\u0131",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "96": {
+        "name": "Paskalya tav\u015fan\u0131 \u00fczerine vin\u00e7 d\u00fc\u015ft\u00fc",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

@@ -916,7 +916,18 @@
         354: 'Straw bale stack on fire',
         355: 'Injured free runner',
         356: 'Cruise ship fire',
-        357: 'Vehicle lost its load'
+        357: 'Vehicle lost its load',
+        358: 'Easter egg stolen from basket',
+        359: 'Chocolate Egg heist',
+        360: 'Collapsed rabbit hole',
+        361: 'Easter bunny hit by car',
+        362: 'Bulk Easter Egg pile fire',
+        363: 'Chocolate Tanker Spill',
+        364: 'Flashover when boiling eggs',
+        365: 'Easter market fair',
+        366: 'Easter Egg lorry crash',
+        367: 'Easter egg hunt',
+        368: 'Easter bunny on crane'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1091,7 +1102,18 @@
         153: 'Big farm fire',
         154: 'Back pain',
         155: 'Suspicious package',
-        156: 'Heatstroke'
+        156: 'Heatstroke',
+        157: 'Easter egg stolen from basket',
+        158: 'Chocolate Egg heist',
+        159: 'Collapsed rabbit hole',
+        160: 'Easter bunny hit by car',
+        161: 'Bulk Easter Egg pile fire',
+        162: 'Chocolate Tanker Spill',
+        163: 'Flashover when boiling eggs',
+        164: 'Easter market fair',
+        165: 'Easter Egg lorry crash',
+        166: 'Easter egg hunt',
+        167: 'Easter bunny on crane'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1263,7 +1285,18 @@
         150: 'Dignitary Protection',
         151: 'Siege Involving Firearm',
         152: 'Attempted Homicide',
-        153: 'Museum robbery'
+        153: 'Museum robbery',
+        154: 'Stolen easter eggs',
+        155: 'Chocolate Egg heist',
+        156: 'Collapsed rabbit hole',
+        157: 'Easter bunny hit by car',
+        158: 'Burning easter basket',
+        159: 'Chocolate Tanker Spill',
+        160: 'Burning egg boiler',
+        161: 'Easter community fair',
+        162: 'Easter egg truck crash',
+        163: 'Easter egg hunt',
+        164: 'Easter bunny on crane'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1408,7 +1441,18 @@
         123: 'Fuego en el granero',
         124: 'Persona herida en un poste de alto voltaje',
         125: 'Incendio de una pila de paja',
-        126: 'Redada policial residencial'
+        126: 'Redada policial residencial',
+        127: 'Ladrón de huevos de Pascua',
+        128: 'Robo de pincel del taller',
+        129: 'Derrumbe de conejera',
+        130: 'Conejo de Pascua atropellado',
+        131: 'Cesta de Pascua en llamas',
+        132: 'Vuelco de camión cisterna con chocolate',
+        133: 'Hervidor de huevos en llamas',
+        134: 'Encuentro de conejos en ciudad de Pascua',
+        135: 'Vuelco de camión con huevos de Pascua',
+        136: 'Misión prioritaria: Caza de huevos de Pascua',
+        137: 'Conejo de Pascua en grúa'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1552,7 +1596,18 @@
         122: 'Fuego en el granero',
         123: 'Persona herida en un poste de alto voltaje',
         124: 'Incendio de una pila de paja',
-        125: 'Redada policial residencial'
+        125: 'Redada policial residencial',
+        126: 'Ladrón de huevos de Pascua',
+        127: 'Robo de pincel del taller',
+        128: 'Derrumbe de conejera',
+        129: 'Conejo de Pascua atropellado',
+        130: 'Cesta de Pascua en llamas',
+        131: 'Vuelco de camión cisterna con chocolate',
+        132: 'Hervidor de huevos en llamas',
+        133: 'Encuentro de conejos en ciudad de Pascua',
+        134: 'Vuelco de camión con huevos de Pascua',
+        135: 'Misión prioritaria: Caza de huevos de Pascua',
+        136: 'Conejo de Pascua en grúa'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1655,7 +1710,18 @@
         81: 'Incêndio num silo',
         82: 'Ferido num poste de alta tensão',
         83: 'Incêndio numa pilha de fardos de palha',
-        84: 'Buscas domiciliárias'
+        84: 'Buscas domiciliárias',
+        85: 'Ladrão dos Ovos da Páscoa',
+        86: 'Escova roubada da Oficina',
+        87: 'Toca do Coelho Colapsou',
+        88: 'Coelhinho da Páscoa Atingido',
+        89: 'Cesto da Páscoa a Arder',
+        90: 'Tanque de Chocolate Derramado',
+        91: 'Caldeira de Ovo a Arder',
+        92: 'Encontro de Coelhos na cidade da páscoa',
+        93: 'Camião dos Ovos caputado',
+        94: 'Missão Prioritária: Caça aos Ovos da Páscoa',
+        95: 'Coelhinho da Páscoa numa grua'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1757,7 +1823,18 @@
         80: 'Incêndio num silo',
         81: 'Ferido num poste de alta tensão',
         82: 'Incêndio numa pilha de palha',
-        83: 'Buscas domiciliárias'
+        83: 'Buscas domiciliárias',
+        84: 'Ladrão dos Ovos da Páscoa',
+        85: 'Escova roubada da Oficina',
+        86: 'Toca do Coelho Colapsou',
+        87: 'Coelhinho da Páscoa Atingido',
+        88: 'Cesto da Páscoa a Arder',
+        89: 'Tanque de Chocolate Derramado',
+        90: 'Caldeira de Ovo a Arder',
+        91: 'Encontro de Coelhos na cidade da páscoa',
+        92: 'Camião dos Ovos caputado',
+        93: 'Missão Prioritária: Caça aos Ovos da Páscoa',
+        94: 'Coelhinho da Páscoa numa grua'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -1900,7 +1977,18 @@
         121: 'Personskada av högspänning',
         122: 'Brinnande höbal',
         123: 'Explosion - Överhängande fara',
-        124: 'Kramper'
+        124: 'Kramper',
+        125: 'Påskägg tjuv',
+        126: 'Pensel stulen från verkstad',
+        127: 'Kollapsat kaninhål',
+        128: 'Påkörd påskhare',
+        129: 'Bränning påskkorg',
+        130: 'Chokladutsläpp',
+        131: 'Brinnande äggkokare',
+        132: 'Harmöte i påskäggsstaden',
+        133: 'Vält påskäggsbil',
+        134: 'Prioriterat uppdrag: Påskäggsjakt',
+        135: 'Påskhare i lyftkran'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -2018,7 +2106,18 @@
         96: 'Silobrand',
         97: 'Tilskadekommen i højspændingsmast',
         98: 'Ild i halmballe',
-        99: 'Ransagning af hus'
+        99: 'Ransagning af hus',
+        100: 'Påskeægs tyv',
+        101: 'Børste stjålet fra værksted',
+        102: 'Sammenfaldet kaninhul',
+        103: 'Påkørt påskehare',
+        104: 'Brændende påskekurv',
+        105: 'Chokolade Tankvogns Spillage',
+        106: 'Brændende æggekoger',
+        107: 'Harekongres i Påske Æg Byen',
+        108: 'Påskeægs-lastbil væltet',
+        109: 'Prioritetsmission: Påskeægs jagt',
+        110: 'Påskehare på kran'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2130,7 +2229,18 @@
         90: 'Požár sila',
         91: 'Zraněná osoba na stožáru vysokého napětí',
         92: 'Požár stohu slámy',
-        93: 'Rezidenční policejní razie'
+        93: 'Rezidenční policejní razie',
+        94: 'Krádež velikonočního vajíčka',
+        95: 'Krádež štětce z dílny',
+        96: 'Zavalení králičí díry',
+        97: 'Napadení velikonočního zajíce',
+        98: 'Požár velikonočního košíku',
+        99: 'Únik čokolády z nádrže',
+        100: 'Vaření vajec v kotli',
+        101: 'Setkání zajíců ve městě Velikonoční vajíčko',
+        102: 'Nehoda kamionu převážející velikonoční vejce',
+        103: 'Hon na velikonoční vejce',
+        104: 'Velikonoční zajíc na jeřábu'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2234,7 +2344,18 @@
         82: 'Ambarda yangın',
         83: 'Yüksek gerilim hattı direğinde yaralı şahıs',
         84: 'Saman yığını yanıyor',
-        85: 'Konut baskını'
+        85: 'Konut baskını',
+        86: 'Paskalya yumurtası hırsızı',
+        87: 'Atölyeden fırça çalındı',
+        88: 'Tavşan evi yıkılmış',
+        89: 'Paskalya tavşanı vuruldu',
+        90: 'Paskalya sepeti yaniyor',
+        91: 'Çikolata Tankeri devrildi',
+        92: 'Yumurta kazanı yanıyor',
+        93: 'Paskalya yumurtası kasabasında tavşan toplantısı',
+        94: 'Paskalya yumurtası kamyonu devrildi',
+        95: 'Öncelikli görev: Paskalya yumurtası avı',
+        96: 'Paskalya tavşanı üzerine vinç düştü'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2352,7 +2473,18 @@
         96: 'Silobrann',
         97: 'Personskade på høyspentmast',
         98: 'Brann i halmballer',
-        99: 'Ransaking av bolig'
+        99: 'Ransaking av bolig',
+        100: 'Påskeegg tyv',
+        101: 'Børste tjålet fra påskeverksted',
+        102: 'Kollapset kanin hull',
+        103: 'Påkjørt påskehare',
+        104: 'Brennende påskekurv',
+        105: 'Sjokolate tankvogn lekkasje',
+        106: 'Brennende eggkoker',
+        107: 'Hare møte i Påskeegg byen',
+        108: 'Veltet påskeegg lastebil',
+        109: 'Prioritert oppdrag: Påskeegg jakt',
+        110: 'Påskehare på en kran'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2527,7 +2659,18 @@
         153: 'Przemówienie VIPa',
         154: 'Najazd na dom',
         155: 'Usiłowanie morderstwa',
-        156: 'Napad na muzeum'
+        156: 'Napad na muzeum',
+        157: 'Kradzież Jaj Wielkanocnych',
+        158: 'Skradziony pędzel z warsztatu',
+        159: 'Tąpnięcie zajęczej nory',
+        160: 'Potrącony Zajączek Wielkanocny',
+        161: 'Płonący koszyk wielkanocny',
+        162: 'Wyciek gorącej czekolady',
+        163: 'Pożar podgrzewacza do Jaj',
+        164: 'Jarmark Wielkanocny',
+        165: 'Wypadek ciężarówki z Jajami Wielkanocnymi',
+        166: 'Poszukiwanie Jaj Wielkanocnych',
+        167: 'Powieszony Zajączek Wielkanocny na dźwigu.'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2681,7 +2824,18 @@
         132: 'Balle di fieno in fiamme',
         133: 'Aggressione a sanitari',
         134: 'Raid residenziale della polizia',
-        135: 'Ascensore bloccato'
+        135: 'Ascensore bloccato',
+        136: 'Ladro di uova di Pasqua',
+        137: 'Spazzola rubata dall\'officina',
+        138: 'Tana del coniglio collassata',
+        139: 'Coniglietto di Pasqua colpito',
+        140: 'Cesto di Pasqua in fiamme',
+        141: 'Fuoriuscita dalla cisterna di cioccolato',
+        142: 'Caldaia per uova in fiamme',
+        143: 'Incontro della lepre nella città delle uova di Pasqua',
+        144: 'Camion delle uova di Pasqua rovesciato',
+        145: 'Missione prioritaria: caccia alle uova di Pasqua',
+        146: 'Coniglietto di Pasqua sulla gru'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -2820,7 +2974,18 @@
         117: 'Nausées - Vomissements',
         118: 'Blessé sur pylône éléctrique',
         119: 'Ballot de paille',
-        120: 'Feu de parking souterrain'
+        120: 'Feu de parking souterrain',
+        121: 'Vol d\'œufs de Pâques',
+        122: 'Aggression de cloche de Pâques',
+        123: 'Collision de cloches de Pâques',
+        124: 'Lapin de Pâques renversé',
+        125: 'Feu de reserve d\'œufs de Pâques',
+        126: 'Fuite de citerne de chocolat',
+        127: 'Feu de chocolaterie',
+        128: 'Convention des cloches de Pâques',
+        129: 'Camion d\'œufs de Pâques renversé',
+        130: 'Convention des cloches de Pâques',
+        131: 'Cloche de Pâques dans une grue'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -2974,7 +3139,18 @@
         132: 'Охрана VIP-персоны',
         133: 'Незаконное вторжение',
         134: 'Попытка убийства',
-        135: 'Ограбление музея'
+        135: 'Ограбление музея',
+        136: 'Кража пасхального яйца',
+        137: 'Кража кисти для пасхальных яиц',
+        138: 'Обвал кроличьей норы',
+        139: 'Спасти пасхального кролика',
+        140: 'Возгорание пасхальной корзины',
+        141: 'Разлив шоколадной цистерны',
+        142: 'Задымление при варке пасхальных яиц',
+        143: 'Сходка кроликов в поселке Пасхальном',
+        144: 'Опрокинулся пасхальный грузовик',
+        145: 'Срочно! Охота за пасхальными яйцами',
+        146: 'Кролик на подъёмном кране'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -3074,7 +3250,18 @@
         78: 'Спалах силоса',
         79: 'Постраждалий на лінії високовольтних передач',
         80: 'Займання тюка соломи',
-        81: 'Рейд поліції на житловий район'
+        81: 'Рейд поліції на житловий район',
+        82: 'Крадіжка пасхальних яєць',
+        83: 'Крадіжка пензлів з Майстерні',
+        84: 'Обвал Кролячої нори',
+        85: 'Хто збив Пасхального кролика',
+        86: 'Палаючий Пасхальний кошик',
+        87: 'Протікання цистерни з шоколадом',
+        88: 'Загоряння при варці яєць',
+        89: 'Зібрання зайців в містечку Пасхальних яєць',
+        90: 'Перекидання вантажівки з пасхальними яйцями',
+        91: 'Пріорітетне завдання: Полювання на Пасхальні яйця',
+        92: 'Пасхальний кролик на підйомному крані'
       }
     };
     I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
@@ -3177,7 +3364,18 @@
         81: 'サイロ火事',
         82: '送電塔で負傷した人',
         83: '燃えるワラの山',
-        84: '駐在警察の襲撃'
+        84: '駐在警察の襲撃',
+        85: 'イースターエッグ泥棒',
+        86: '工房から盗まれたブラシ',
+        87: '崩れたウサギの巣穴',
+        88: '事故ったイースターバニー',
+        89: '燃えるイースターバスケット',
+        90: 'チョコレートタンカー流出',
+        91: '燃えるエッグボイラー',
+        92: 'イースターエッグタウンの野ウサギ会議',
+        93: '横転したイースターエッグのトラック',
+        94: '優先ミッション：イースターエッグハント',
+        95: 'クレーンに乗ったイースターバニー'
       }
     };
     I18n.translations.ko_KR.lssm.missionKeywordDefaults = {
@@ -3278,7 +3476,18 @@
         79: '호흡 정지 환자',
         80: '고압 전봇대에서 부상을 입은 사람',
         81: '불타는 볏짚 더미',
-        82: '주거 관할 경찰 레이드'
+        82: '주거 관할 경찰 레이드',
+        83: '이스터 에그 도둑',
+        84: '작업장에서 브러시 도난',
+        85: '무너진 토끼굴',
+        86: '이스터 버니 교통사고',
+        87: '이스터 바구니 화재',
+        88: '초콜릿 탱크 유출',
+        89: '에그 보일러 화재',
+        90: '이스터 에그 마을의 토끼 회의',
+        91: '이스터 에그 트럭 전복',
+        92: '우선 순위 임무: 이스터 에그 헌트',
+        93: '크레인 위의 이스터 버니'
       }
     };
     I18n.translations.ro_RO.lssm.missionKeywordDefaults = {
@@ -3371,7 +3580,18 @@
         71: 'Sângerare nazală',
         72: 'Accident de avion ușor',
         73: 'Accident grav în care este implicat un autobuz',
-        74: 'Incendiu major'
+        74: 'Incendiu major',
+        75: 'Hoț de ouă de Paște',
+        76: 'Perie furată din Atelier',
+        77: 'Gaură de iepure prăbușită',
+        78: 'Iepuraș de paște lovit',
+        79: 'Coșuleț de Paște în flăcări',
+        80: 'Scurgere dintr-o cisternă de ciocolată',
+        81: 'Fierbător de ouă în flăcări',
+        82: 'Întrunirea iepurașilor în orașul ouălor de Paște',
+        83: 'Camion cu ouă de Paște răsturnat',
+        84: 'Misiune prioritară: vânătoarea ouălor de Paște',
+        85: 'Iepuraș de Paște pe macara'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -3967,7 +4187,18 @@
         574: 'Assistentie handhaving',
         575: 'Assistentie handhaving',
         576: 'Zwemmer in nood',
-        577: 'Zwemmer in nood'
+        577: 'Zwemmer in nood',
+        578: 'Paasei dief',
+        579: 'Kwast gestolen uit werkplaats',
+        580: 'Ingestort konijnenhol',
+        581: 'Aangevallen Paashaas',
+        582: 'Brandende paasmand',
+        583: 'Lekkende chocoladevrachtwagen',
+        584: 'Brandende eierkoker',
+        585: 'Hazenbijeenkomst in Paaseistad',
+        586: 'Gekantelde paaseivrachtwagen',
+        587: 'Prioriteit: paasei-jacht',
+        588: 'Paashaas in een kraan'
       }
     };
 
@@ -4869,7 +5100,18 @@
       354: 'FIRE 4',
       355: 'TECH 1',
       356: 'FIRE 5 SHIP',
-      357: 'POL 1'
+      357: 'POL 1',
+      358: 'POL 0.5',
+      359: 'POL 0.5',
+      360: 'TECH 1.5',
+      361: 'POL 0.5',
+      362: 'FIRE 0.5',
+      363: 'TECH 3.5',
+      364: 'FIRE 0.5',
+      365: 'Planned mission',
+      366: 'TECH 1.5',
+      367: 'POL 3.5',
+      368: 'TECH 0.5'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -5029,7 +5271,18 @@
       153: 'FIRE 5',
       154: 'MED 1',
       155: 'POL 6',
-      156: 'MED 1'
+      156: 'MED 1',
+      157: 'POL 0.5',
+      158: 'POL 0.5',
+      159: 'TECH 1.5',
+      160: 'POL 0.5',
+      161: 'FIRE 0.5',
+      162: 'TECH 3.5',
+      163: 'FIRE 0.5',
+      164: 'Planned mission',
+      165: 'TECH 1.5',
+      166: 'POL 3.5',
+      167: 'TECH 0.5'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -5185,7 +5438,18 @@
       150: 'Planned mission',
       151: 'POL 4',
       152: 'POL 5',
-      153: 'POL 3'
+      153: 'POL 3',
+      154: 'POL 0.5',
+      155: 'POL 0.5',
+      156: 'TECH 1.5',
+      157: 'POL 0.5',
+      158: 'FIRE 0.5',
+      159: 'TECH 3.5',
+      160: 'FIRE 0.5',
+      161: 'Planned mission',
+      162: 'TECH 1.5',
+      163: 'POL 3.5',
+      164: 'TECH 0.5'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -5314,7 +5578,18 @@
       123: 'FIRE 5',
       124: 'TECH 1',
       125: 'FIRE 2',
-      126: 'POL 2'
+      126: 'POL 2',
+      127: 'POL 0.5',
+      128: 'POL 0.5',
+      129: 'TECH 1.5',
+      130: 'POL 0.5',
+      131: 'FIRE 0.5',
+      132: 'TECH 3.5',
+      133: 'FIRE 0.5',
+      134: 'Misión planificada',
+      135: 'TECH 1.5',
+      136: 'POL 3.5',
+      137: 'TECH 0.5'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -5442,7 +5717,18 @@
       122: 'FIRE 5',
       123: 'TECH 1',
       124: 'FIRE 2',
-      125: 'POL 2'
+      125: 'POL 2',
+      126: 'POL 0.5',
+      127: 'POL 0.5',
+      128: 'TECH 1.5',
+      129: 'POL 0.5',
+      130: 'FIRE 0.5',
+      131: 'TECH 3.5',
+      132: 'FIRE 0.5',
+      133: 'Misión planificada',
+      134: 'TECH 1.5',
+      135: 'POL 3.5',
+      136: 'TECH 0.5'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -5529,7 +5815,18 @@
       81: 'FIRE 5',
       82: 'TECH 1',
       83: 'FIRE 2',
-      84: 'POL 2'
+      84: 'POL 2',
+      85: 'POL 0.5',
+      86: 'POL 0.5',
+      87: 'TECH 1.5',
+      88: 'POL 0.5',
+      89: 'FIRE 0.5',
+      90: 'TECH 3.5',
+      91: 'FIRE 0.5',
+      92: 'Missão planeada',
+      93: 'TECH 1.5',
+      94: 'POL 3.5',
+      95: 'TECH 0.5'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -5615,7 +5912,18 @@
       80: 'FIRE 5',
       81: 'TECH 1',
       82: 'FIRE 2',
-      83: 'POL 2'
+      83: 'POL 2',
+      84: 'POL 0.5',
+      85: 'POL 0.5',
+      86: 'TECH 1.5',
+      87: 'POL 0.5',
+      88: 'FIRE 0.5',
+      89: 'TECH 3.5',
+      90: 'FIRE 0.5',
+      91: 'Missão planeada',
+      92: 'TECH 1.5',
+      93: 'POL 3.5',
+      94: 'TECH 0.5'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -5742,7 +6050,18 @@
       121: 'TECH 1',
       122: 'FIRE 2',
       123: 'FIRE 2',
-      124: 'MED 1'
+      124: 'MED 1',
+      125: 'POL 0.5',
+      126: 'POL 0.5',
+      127: 'TECH 1.5',
+      128: 'POL 0.5',
+      129: 'FIRE 0.5',
+      130: 'TECH 3.5',
+      131: 'FIRE 0.5',
+      132: 'Planerat uppdrag',
+      133: 'TECH 1.5',
+      134: 'POL 3.5',
+      135: 'TECH 0.5'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -5844,7 +6163,18 @@
       96: 'FIRE 5',
       97: 'TECH 1',
       98: 'FIRE 2',
-      99: 'POL 2'
+      99: 'POL 2',
+      100: 'POL 0.5',
+      101: 'POL 0.5',
+      102: 'TECH 1.5',
+      103: 'POL 0.5',
+      104: 'FIRE 0.5',
+      105: 'TECH 3.5',
+      106: 'FIRE 0.5',
+      107: 'Planlagt mission',
+      108: 'TECH 1.5',
+      109: 'POL 3.5',
+      110: 'TECH 0.5'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -5940,7 +6270,18 @@
       90: 'FIRE 5',
       91: 'TECH 1',
       92: 'FIRE 2',
-      93: 'POL 2'
+      93: 'POL 2',
+      94: 'POL 0.5',
+      95: 'POL 0.5',
+      96: 'TECH 1.5',
+      97: 'POL 0.5',
+      98: 'FIRE 0.5',
+      99: 'TECH 3.5',
+      100: 'FIRE 0.5',
+      101: 'Plánovaná mise',
+      102: 'TECH 1.5',
+      103: 'POL 3.5',
+      104: 'TECH 0.5'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -6028,7 +6369,18 @@
       82: 'FIRE 5',
       83: 'TECH 1',
       84: 'FIRE 2',
-      85: 'POL 2'
+      85: 'POL 2',
+      86: 'POL 0.5',
+      87: 'POL 0.5',
+      88: 'TECH 1.5',
+      89: 'POL 0.5',
+      90: 'FIRE 0.5',
+      91: 'TECH 3.5',
+      92: 'FIRE 0.6',
+      93: 'Planlanan görev',
+      94: 'TECH 1.5',
+      95: 'POL 3.5',
+      96: 'TECH 0.5'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -6130,7 +6482,18 @@
       96: 'FIRE 5',
       97: 'TECH 1',
       98: 'FIRE 2',
-      99: 'POL 2'
+      99: 'POL 2',
+      100: 'POL 0.5',
+      101: 'POL 0.5',
+      102: 'TECH 1.5',
+      103: 'POL 0.5',
+      104: 'FIRE 0.5',
+      105: 'TECH 3.5',
+      106: 'FIRE 0.5',
+      107: 'Planlagt oppdrag',
+      108: 'TECH 1.5',
+      109: 'POL 3.5',
+      110: 'TECH 0.5'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -6289,7 +6652,18 @@
       153: 'Planowana misja',
       154: 'POL 4',
       155: 'POL 5',
-      156: 'POL 3'
+      156: 'POL 3',
+      157: 'POL 0.5',
+      158: 'POL 0.5',
+      159: 'TECH 1.5',
+      160: 'POL 0.5',
+      161: 'FIRE 0.5',
+      162: 'TECH 3.5',
+      163: 'FIRE 0.5',
+      164: 'Planowana misja',
+      165: 'TECH 1.5',
+      166: 'POL 3.5',
+      167: 'TECH 0.5'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -6427,7 +6801,18 @@
       132: 'FIRE 2',
       133: 'POL 1',
       134: 'POL 2',
-      135: 'FIRE 1'
+      135: 'FIRE 1',
+      136: 'POL 0.5',
+      137: 'POL 0.5',
+      138: 'TECH 1.5',
+      139: 'POL 0.5',
+      140: 'FIRE 0.5',
+      141: 'TECH 3.5',
+      142: 'FIRE 0.5',
+      143: 'Missione pianificata',
+      144: 'TECH 1.5',
+      145: 'POL 3.5',
+      146: 'TECH 0.5'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -6550,7 +6935,18 @@
       117: 'MED 1',
       118: 'TECH 1',
       119: 'FIRE 2',
-      120: 'FIRE 3'
+      120: 'FIRE 3',
+      121: 'POL 0.5',
+      122: 'POL 0.5',
+      123: 'TECH 1.5',
+      124: 'POL 0.5',
+      125: 'FIRE 0.5',
+      126: 'TECH 3.5',
+      127: 'FIRE 0.5',
+      128: 'Mission prévue',
+      129: 'TECH 1.5',
+      130: 'POL 3.5',
+      131: 'TECH 0.5'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -6688,7 +7084,18 @@
       132: 'Запланированная миссия',
       133: 'POL 4',
       134: 'POL 5',
-      135: 'POL 3'
+      135: 'POL 3',
+      136: 'POL 0.5',
+      137: 'POL 0.5',
+      138: 'TECH 1.5',
+      139: 'POL 0.5',
+      140: 'FIRE 0.5',
+      141: 'TECH 3.5',
+      142: 'FIRE 0.5',
+      143: 'Запланированная миссия',
+      144: 'TECH 1.5',
+      145: 'POL 3.5',
+      146: 'TECH 0.5'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -6772,7 +7179,18 @@
       78: 'FIRE 5',
       79: 'TECH 1',
       80: 'FIRE 2',
-      81: 'POL 2'
+      81: 'POL 2',
+      82: 'POL 0.5',
+      83: 'POL 0.5',
+      84: 'TECH 1.5',
+      85: 'POL 0.5',
+      86: 'FIRE 0.5',
+      87: 'TECH 3.5',
+      88: 'FIRE 0.5',
+      89: 'Запланована місія',
+      90: 'TECH 1.5',
+      91: 'POL 3.5',
+      92: 'TECH 0.5'
     };
     let DEFAULT_AAO_JAJP = {
       0: 'FIRE 1',
@@ -6859,7 +7277,18 @@
       81: 'FIRE 5',
       82: 'TECH 1',
       83: 'FIRE 2',
-      84: 'POL 2'
+      84: 'POL 2',
+      85: 'POL 0.5',
+      86: 'POL 0.5',
+      87: 'TECH 1.5',
+      88: 'POL 0.5',
+      89: 'FIRE 0.5',
+      90: 'TECH 3.5',
+      91: 'FIRE 0.5',
+      92: '計画ミッション',
+      93: 'TECH 1.5',
+      94: 'POL 3.5',
+      95: 'TECH 0.5'
     };
     let DEFAULT_AAO_KOKR = {
       0: 'FIRE 1',
@@ -6944,7 +7373,18 @@
       79: 'MED 1',
       80: 'TECH 1',
       81: 'FIRE 2',
-      82: 'POL 2'
+      82: 'POL 2',
+      83: 'POL 0.5',
+      84: 'POL 0.5',
+      85: 'TECH 1.5',
+      86: 'POL 0.5',
+      87: 'FIRE 0.5',
+      88: 'TECH 3.5',
+      89: 'FIRE 0.5',
+      90: '계획된 임무',
+      91: 'TECH 1.5',
+      92: 'POL 3.5',
+      93: 'TECH 0.5'
     };
     let DEFAULT_AAO_RORO = {
       0: 'FIRE 1',
@@ -7021,7 +7461,18 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'POL 0.5',
+      76: 'POL 0.5',
+      77: 'TECH 1.5',
+      78: 'POL 0.5',
+      79: 'FIRE 0.5',
+      80: 'TECH 3.5',
+      81: 'FIRE 0.5',
+      82: 'Misiune planificată',
+      83: 'TECH 1.5',
+      84: 'POL 3.5',
+      85: 'TECH 0.5'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -7601,7 +8052,18 @@
       574: 'P 1',
       575: 'P 1',
       576: 'A 1',
-      577: 'A 1'
+      577: 'A 1',
+      578: 'P 0.5',
+      579: 'P 0.5',
+      580: 'HV 1.5',
+      581: 'P 0.5',
+      582: 'BRAND 0.5',
+      583: 'HV 3.5',
+      584: 'BRAND 0.5',
+      585: 'GEPLAND 0.5',
+      586: 'HV 1.5',
+      587: 'P 3.5',
+      588: 'HV 0.5'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

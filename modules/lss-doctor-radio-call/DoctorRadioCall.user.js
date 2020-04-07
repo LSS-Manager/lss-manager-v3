@@ -4,7 +4,7 @@
   let LSS_RADIOCALL_STORAGE = "LSS_RADIOCALL_STORAGE";
 
   I18n.translations.de_DE.lssm.doctorradiocall = {
-    nef: "NEF",
+    nef2: "NEF",
     rth: "RTH",
     trag: "Tragehilfe",
     settings: {
@@ -65,15 +65,16 @@
 
   function handleFeedback(t) {
     // Does the message contain a NEF demand?
-      let isMissingNef = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0 && getSetting('nef1');
-      let isMissingRth, isMissingTrag;
+      let isMissingNef = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef')) >= 0;
+      let isMissingNef1, isMissingRth, isMissingTrag;
     if (I18n.locale == "de_DE") {
-       isMissingRth = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.rth')) >= 0 && getSetting('rth1');
-       isMissingTrag = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.trag')) >= 0 && getSetting('trag1');
+      isMissingNef1 = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.nef2')) >= 0 && getSetting('nef1');
+      isMissingRth = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.rth')) >= 0 && getSetting('rth1');
+      isMissingTrag = t.missing_text != null && t.missing_text.indexOf(I18n.t('lssm.doctorradiocall.trag')) >= 0 && getSetting('trag1');
     };
     // Issue radio message either when it's an own mission or alliance radio is on
       let showMessage = $('#alliance_radio_on').is(':visible') || $('#mission_list > div[mission_id=' + t.mission_id + ']').length > 0;
-    if ((isMissingNef || isMissingRth || isMissingTrag) && showMessage) {
+    if ((isMissingNef || isMissingNef1 || isMissingRth || isMissingTrag) && showMessage) {
       radioMessage({
         "mission_id": t.mission_id,
         "additionalText": "",

@@ -5911,5 +5911,155 @@
         "percentages": {
             "truck": 30
         }
+    },
+    "358": {
+        "name": "Easter egg stolen from basket",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "359": {
+        "name": "Chocolate Egg heist",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "360": {
+        "name": "Collapsed rabbit hole",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "361": {
+        "name": "Easter bunny hit by car",
+        "stations": {
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Traumatology"
+        }
+    },
+    "362": {
+        "name": "Bulk Easter Egg pile fire",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "363": {
+        "name": "Chocolate Tanker Spill",
+        "stations": {
+            "0": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "364": {
+        "name": "Flashover when boiling eggs",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "365": {
+        "name": "Easter market fair",
+        "stations": {
+            "0": 2,
+            "3": 4,
+            "5": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 hours"
+    },
+    "366": {
+        "name": "Easter Egg lorry crash",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Traumatology"
+        }
+    },
+    "367": {
+        "name": "Easter egg hunt",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "368": {
+        "name": "Easter bunny on crane",
+        "stations": {
+            "0": 12,
+            "5": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

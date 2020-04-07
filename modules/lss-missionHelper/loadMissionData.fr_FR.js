@@ -80,7 +80,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Durée/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/hélicoptère/)) {
                 rth = number;

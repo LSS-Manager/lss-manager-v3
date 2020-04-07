@@ -18,7 +18,7 @@ $.get(missionlink)
             rth: "Helicóptero HSR",
             arff: "Defesa Civil",
             policeHeli: "Police Helicopter",
-            ambulance: "Ambulancias"
+            ambulance: "Ambulâncias"
         };
 
         let credits;
@@ -77,7 +77,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Duração/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/expansíveis/)) {
                 let expansionLinks = $(this).find("a");

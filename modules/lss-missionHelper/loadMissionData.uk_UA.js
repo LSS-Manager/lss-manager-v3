@@ -19,7 +19,7 @@ $.get(missionlink)
             mcv: "мобильные командные пункты",
             rth: "HEMS",
             policeHeli: "Police Helicopter",
-            ambulance: "скорые"
+            ambulance: "швидкі допомоги"
         };
 
         let credits;
@@ -55,7 +55,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Необхідні/)) {
+            if (content.match(/Необхідні|Потрібні/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Вірогідність/)) {
                 percentages[getVehicle(content)] = number;
@@ -78,7 +78,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Тривалість/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/розширення/)) {
                 let expansionLinks = $(this).find("a");

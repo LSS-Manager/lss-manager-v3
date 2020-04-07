@@ -10088,5 +10088,155 @@
             "specialisation": "Traumatologie"
         },
         "poi": 23
+    },
+    "578": {
+        "name": "Paasei dief",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "579": {
+        "name": "Kwast gestolen uit werkplaats",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "580": {
+        "name": "Ingestort konijnenhol",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "hulpverlening": 1,
+            "noodhulpeen": 2
+        },
+        "credits": 1500
+    },
+    "581": {
+        "name": "Aangevallen Paashaas",
+        "stations": {
+            "3": 3,
+            "5": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "582": {
+        "name": "Brandende paasmand",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "583": {
+        "name": "Lekkende chocoladevrachtwagen",
+        "stations": {
+            "0": 10,
+            "5": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "hulpverlening": 2,
+            "bchief": 2,
+            "noodhulpeen": 3,
+            "gevaar": 1
+        },
+        "credits": 5000
+    },
+    "584": {
+        "name": "Brandende eierkoker",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "585": {
+        "name": "Hazenbijeenkomst in Paaseistad",
+        "stations": {
+            "0": 2,
+            "3": 4,
+            "5": 7
+        },
+        "vehicles": {
+            "noodhulpeen": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "586": {
+        "name": "Gekantelde paaseivrachtwagen",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "hulpverlening": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "587": {
+        "name": "Prioriteit: paasei-jacht",
+        "stations": {
+            "5": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 6
+        },
+        "credits": 1000
+    },
+    "588": {
+        "name": "Paashaas in een kraan",
+        "stations": {
+            "0": 12,
+            "5": 1
+        },
+        "vehicles": {
+            "redvoertuig": 1,
+            "bchief": 1,
+            "noodhulpeen": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

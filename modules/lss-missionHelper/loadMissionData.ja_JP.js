@@ -18,7 +18,7 @@ $.get(missionlink)
             rth: "Helicóptero HSR",
             arff: "空港用消防",
             policeHeli: "Police Helicopter",
-            ambulance: "Ambulancias"
+            ambulance: "救急車"
         };
 
         let credits;
@@ -54,7 +54,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/必要|が必要|necessária/)) {
+            if (content.match(/必要|が必要|必要な/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/な確率|が必要/)) {
                 percentages[getVehicle(content)] = number;
@@ -75,7 +75,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/期間/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/延長できるミッション/)) {
                 let expansionLinks = $(this).find("a");
