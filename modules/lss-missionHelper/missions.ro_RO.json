@@ -1011,5 +1011,155 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "Ho\u021b de ou\u0103 de Pa\u0219te",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "76": {
+        "name": "Perie furat\u0103 din Atelier",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "77": {
+        "name": "Gaur\u0103 de iepure pr\u0103bu\u0219it\u0103",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "78": {
+        "name": "Iepura\u0219 de pa\u0219te lovit",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "79": {
+        "name": "Co\u0219ule\u021b de Pa\u0219te \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "80": {
+        "name": "Scurgere dintr-o cistern\u0103 de ciocolat\u0103",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "81": {
+        "name": "Fierb\u0103tor de ou\u0103 \u00een fl\u0103c\u0103ri",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "82": {
+        "name": "\u00centrunirea iepura\u0219ilor \u00een ora\u0219ul ou\u0103lor de Pa\u0219te",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 ore"
+    },
+    "83": {
+        "name": "Camion cu ou\u0103 de Pa\u0219te r\u0103sturnat",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "84": {
+        "name": "Misiune prioritar\u0103: v\u00e2n\u0103toarea ou\u0103lor de Pa\u0219te",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "85": {
+        "name": "Iepura\u0219 de Pa\u0219te pe macara",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

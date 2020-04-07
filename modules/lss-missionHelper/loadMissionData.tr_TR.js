@@ -15,7 +15,7 @@ $.get(missionlink)
             hazmat: "Tehlikeli Madde",
             mcv: "Mobil Komuta",
             police: "Polis Arabaları",
-            ambulance: "Sanitkat",
+            ambulance: "Ambulanslar",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -79,7 +79,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Süre/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Genişletilebilen Görevler/)) {
                 let expansionLinks = $(this).find("a");

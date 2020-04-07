@@ -15,7 +15,7 @@ $.get(missionlink)
             hazmat: "gift- og kemikaliekøretøj",
             mcv: "utryckningsfordon",
             police: "politibiler",
-            ambulance: "ambulanser",
+            ambulance: "ambulancer",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",
@@ -79,7 +79,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/Armed Response Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duration/)) {
+            } else if (content.match(/Varighed/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Helikopter/)) {
                 rth = number;

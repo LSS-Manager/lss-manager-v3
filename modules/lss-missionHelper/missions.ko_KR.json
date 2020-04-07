@@ -1112,5 +1112,155 @@
         "prisoners": {
             "max": 3
         }
+    },
+    "83": {
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ub3c4\ub451",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "84": {
+        "name": "\uc791\uc5c5\uc7a5\uc5d0\uc11c \ube0c\ub7ec\uc2dc \ub3c4\ub09c",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "85": {
+        "name": "\ubb34\ub108\uc9c4 \ud1a0\ub07c\uad74",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "86": {
+        "name": "\uc774\uc2a4\ud130 \ubc84\ub2c8 \uad50\ud1b5\uc0ac\uace0",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "\uc678\uc0c1\ud559\uacfc"
+        }
+    },
+    "87": {
+        "name": "\uc774\uc2a4\ud130 \ubc14\uad6c\ub2c8 \ud654\uc7ac",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "88": {
+        "name": "\ucd08\ucf5c\ub9bf \ud0f1\ud06c \uc720\ucd9c",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "89": {
+        "name": "\uc5d0\uadf8 \ubcf4\uc77c\ub7ec \ud654\uc7ac",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "90": {
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ub9c8\uc744\uc758 \ud1a0\ub07c \ud68c\uc758",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2\uc2dc\uac04"
+    },
+    "91": {
+        "name": "\uc774\uc2a4\ud130 \uc5d0\uadf8 \ud2b8\ub7ed \uc804\ubcf5",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "\uc678\uc0c1\ud559\uacfc"
+        }
+    },
+    "92": {
+        "name": "\uc6b0\uc120 \uc21c\uc704 \uc784\ubb34: \uc774\uc2a4\ud130 \uc5d0\uadf8 \ud5cc\ud2b8",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "93": {
+        "name": "\ud06c\ub808\uc778 \uc704\uc758 \uc774\uc2a4\ud130 \ubc84\ub2c8",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

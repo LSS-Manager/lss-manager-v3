@@ -2297,5 +2297,155 @@
         "special": {
             "SWATPersonnel": 6
         }
+    },
+    "157": {
+        "name": "Kradzie\u017c Jaj Wielkanocnych",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "158": {
+        "name": "Skradziony p\u0119dzel z warsztatu",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "159": {
+        "name": "T\u0105pni\u0119cie zaj\u0119czej nory",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "160": {
+        "name": "Potr\u0105cony Zaj\u0105czek Wielkanocny",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "161": {
+        "name": "P\u0142on\u0105cy koszyk wielkanocny",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "162": {
+        "name": "Wyciek gor\u0105cej czekolady",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "163": {
+        "name": "Po\u017car podgrzewacza do Jaj",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "164": {
+        "name": "Jarmark Wielkanocny",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 godziny"
+    },
+    "165": {
+        "name": "Wypadek ci\u0119\u017car\u00f3wki z Jajami Wielkanocnymi",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "166": {
+        "name": "Poszukiwanie Jaj Wielkanocnych",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "167": {
+        "name": "Powieszony Zaj\u0105czek Wielkanocny na d\u017awigu.",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

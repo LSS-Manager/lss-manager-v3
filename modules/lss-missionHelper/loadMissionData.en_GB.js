@@ -15,7 +15,7 @@ $.get(missionlink)
             hazmat: "HazMat",
             mcv: "Incident Command and Control Unit",
             police: "Police Car",
-            ambulance: "Ambulance",
+            ambulance: "Ambulances",
             arff: "ARFF",
             k9: "Dog Support Units",
             swatSuv: "Armed Response Vehicle (ARV)",

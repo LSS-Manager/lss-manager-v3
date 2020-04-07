@@ -1736,5 +1736,155 @@
         "onlyRd": true,
         "transport": 100,
         "specialisation": "Inv\u00e4rtesmedicinare"
+    },
+    "125": {
+        "name": "P\u00e5sk\u00e4gg tjuv",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 100,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "126": {
+        "name": "Pensel stulen fr\u00e5n verkstad",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 150,
+        "poi": 12,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "127": {
+        "name": "Kollapsat kaninh\u00e5l",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 2,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 1500
+    },
+    "128": {
+        "name": "P\u00e5k\u00f6rd p\u00e5skhare",
+        "stations": {
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 38,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "129": {
+        "name": "Br\u00e4nning p\u00e5skkorg",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 110
+    },
+    "130": {
+        "name": "Chokladutsl\u00e4pp",
+        "stations": {
+            "0": 10,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 5000
+    },
+    "131": {
+        "name": "Brinnande \u00e4ggkokare",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800
+    },
+    "132": {
+        "name": "Harm\u00f6te i p\u00e5sk\u00e4ggsstaden",
+        "stations": {
+            "0": 2,
+            "2": 4,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 8,
+            "ambulance": 4,
+            "truck": 2
+        },
+        "credits": 7000,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 timmar"
+    },
+    "133": {
+        "name": "V\u00e4lt p\u00e5sk\u00e4ggsbil",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "specialisation": "Traumatologi"
+        }
+    },
+    "134": {
+        "name": "Prioriterat uppdrag: P\u00e5sk\u00e4ggsjakt",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1000
+    },
+    "135": {
+        "name": "P\u00e5skhare i lyftkran",
+        "stations": {
+            "0": 12,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000
     }
 }

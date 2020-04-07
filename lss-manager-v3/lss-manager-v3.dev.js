@@ -683,13 +683,13 @@ lssm.Module = {
     },
     DoctorRadioCall: {
         name: {
-            de_DE: 'NEF Nachforderung per FMS',
+            de_DE: 'Nachforderungen per FMS',
             en_US: 'HEMS request in radio',
             nl_NL: 'Spraakaanvraag voor MMT'
         },
         active: false,
         description: {
-            de_DE: 'Bei NEF Nachforderung wird ein Sprechwunsch im Funk angezeigt.',
+            de_DE: 'Bei Eingestellten Nachforderungen wird ein Sprechwunsch im Funk angezeigt.',
             en_US: 'Issues a radio call if HEMS is required.',
             nl_NL: 'Spraakaanvraag weergeven indien MMT benodigd is.'
         },
@@ -2296,19 +2296,7 @@ lssm.Module = {
         source: "/modules/lss-statuscount/statuscount.js",
         inframe: false,
         needVehicles: true
-    },
-    CarrierCall: {
-        name: {
-            de_DE: 'Tragehilfe Nachforderung per FMS'
-        },
-        active: false,
-        description: {
-            de_DE: 'Bei Tragehilfe Nachforderung wird ein Sprechwunsch im Funk angezeigt.'
-        },
-        source: '/modules/lss-carrier-call/CarrierCall.user.js',
-        develop: false,
-        supportedLocales: ['de_DE'],
-    },
+    }
 };
 
 /**

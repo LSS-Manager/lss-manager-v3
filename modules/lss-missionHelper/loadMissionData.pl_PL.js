@@ -23,7 +23,7 @@ $.get(missionlink)
             swatArmoured: "SWAT Armoured Vehicle",
             swatSuv: "SWAT SUV",
             policeHeli: "Helikopteru Policyjnego",
-            ambulance: "Ambulance"
+            ambulance: "ambulanse"
         };
 
         let credits;
