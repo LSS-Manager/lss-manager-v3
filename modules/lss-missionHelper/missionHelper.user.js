@@ -1392,7 +1392,7 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "Brandbiler",
-            platform: "Platformvogne",
+            platform: "Stigevogn",
             heavyRescue: "pionertjenesten",
             air: "højtrykskompressor",
             bchief: "Holdleder-køretøjer",

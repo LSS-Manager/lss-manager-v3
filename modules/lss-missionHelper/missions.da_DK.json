@@ -1540,7 +1540,7 @@
         },
         "vehicles": {
             "truck": 8,
-            "undefined": 1,
+            "platform": 1,
             "bchief": 4,
             "mcv": 1,
             "heavyRescue": 1,
@@ -1672,7 +1672,7 @@
         "vehicles": {
             "truck": 5,
             "bchief": 1,
-            "undefined": 1,
+            "platform": 1,
             "air": 1
         },
         "credits": 1850,

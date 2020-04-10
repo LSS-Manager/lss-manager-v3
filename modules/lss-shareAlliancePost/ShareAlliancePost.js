@@ -573,7 +573,7 @@
             const missionlink = $('#mission_help').attr('href');
             const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
-            fetch(`https://lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`).then(res=>res.json()).then(data => {
+            fetch(`https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`).then(res=>res.json()).then(data => {
         	    messages = messages.map((message) => {
                     message = message.replace(/%CREDITS%/g, data.credits.toLocaleString());
                     message = message.replace(/%ADDRESS%/g, address);
