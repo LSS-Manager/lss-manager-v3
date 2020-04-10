@@ -1137,7 +1137,6 @@
         "vehicles": {
             "truck": 2,
             "heavyRescue": 1,
-            "air": 1,
             "police": 1
         },
         "credits": 2300,
@@ -1146,9 +1145,6 @@
             "min": 2,
             "transport": 80,
             "specialisation": "Specialister i intern medicin"
-        },
-        "percentages": {
-            "air": 30
         }
     },
     "84": {
@@ -1535,5 +1531,187 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "111": {
+        "name": "Ild i str\u00e5t\u00e6kt hus",
+        "stations": {
+            "0": 13,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 8,
+            "undefined": 1,
+            "bchief": 4,
+            "mcv": 1,
+            "heavyRescue": 1,
+            "tanker": 1
+        },
+        "credits": 8000,
+        "patients": {
+            "max": 2,
+            "transport": 60,
+            "specialisation": "Specialister i intern medicin"
+        }
+    },
+    "112": {
+        "name": "Godstog i brand",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 40
+    },
+    "113": {
+        "name": "Godstog i brand",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 24
+    },
+    "114": {
+        "name": "Godstog i brand",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 6
+    },
+    "115": {
+        "name": "Godstog i brand",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1,
+            "air": 1
+        },
+        "credits": 2000,
+        "poi": 8
+    },
+    "116": {
+        "name": "St\u00f8rre trafikuheld i tunnel",
+        "stations": {
+            "0": 13,
+            "2": 7,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 2,
+            "heavyRescue": 3,
+            "tanker": 1,
+            "air": 1,
+            "hazmat": 1,
+            "mcv": 1,
+            "police": 3
+        },
+        "credits": 7000,
+        "patients": {
+            "max": 14,
+            "transport": 25,
+            "specialisation": "Specialister i intern medicin"
+        },
+        "poi": 41
+    },
+    "117": {
+        "name": "Ild i flere biler i tunnel",
+        "stations": {
+            "0": 8,
+            "2": 4
+        },
+        "vehicles": {
+            "truck": 6,
+            "bchief": 1,
+            "heavyRescue": 1,
+            "tanker": 1,
+            "air": 1,
+            "mcv": 1
+        },
+        "credits": 5000,
+        "patients": {
+            "max": 8,
+            "transport": 60,
+            "specialisation": "Specialister i intern medicin"
+        },
+        "poi": 41,
+        "percentages": {
+            "tanker": 40,
+            "air": 50
+        }
+    },
+    "118": {
+        "name": "Ild i Fastfood Restaurant",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "undefined": 1,
+            "air": 1
+        },
+        "credits": 1850,
+        "poi": 34
+    },
+    "120": {
+        "name": "Ukendt spild fra tankvogn",
+        "stations": {
+            "0": 11,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "police": 3,
+            "hazmat": 1
+        },
+        "credits": 4300
+    },
+    "121": {
+        "name": "Ild i sovev\u00e6relse",
+        "stations": {
+            "0": 3,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "air": 1
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "specialisation": "Neurologi"
+        },
+        "percentages": {
+            "air": 50
+        }
     }
 }

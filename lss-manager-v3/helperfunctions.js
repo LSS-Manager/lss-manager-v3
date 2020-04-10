@@ -12,7 +12,8 @@ if (I18n.locale == "en_US")
         // FW-Erwerterungen (0-9)
         "Ambulance extension": 0,
         "Water rescue expansion": 1,
-        "Airport extension": 2,
+        "Forestry Expansion": 2,
+        "Airport extension": 3,
         // Pol-Erweiterungen (10-19)
         "Prison cell": 10,
         "More cell": 10,
@@ -49,7 +50,12 @@ if (I18n.locale == "en_US")
         "26": ["SWAT SUV", 2],
         "27": ["BLS Ambulance", 1],
         "28": ["EMS Rescue", 1],
-        "29": ["EMS Chief", 1]
+        "29": ["EMS Chief", 1],
+        "30": ["Type 3 engine", 0],
+        "31": ["Type 5 engine", 0],
+        "32": ["Type 7 engine", 0],
+        "33": ["Pumper Tanker", 0],
+        "34": ["Crew Carrier", 0]
     };
 }
 else if (I18n.locale == "en_GB")
@@ -251,7 +257,12 @@ else if (I18n.locale == "sv_SE")
         "9": ["Ambulanshelikopter", 2],
         "10": ["Luftfordon", 0],
         "11": ["Mobilt ledningsfordon", 0],
-        "12": ["Räddningsfordon", 0]
+        "12": ["Räddningsfordon", 0],
+        "13": ["Polishelikopter", 6],
+        "14": ["Bepansrat insatsfordon", 6],
+        "15": ["Hundenhet", 6],
+        "16": ["Polismotorcykel", 6],
+        "17": ["Insatsfordon", 6]
     };
 }
 else if (I18n.locale == "cs_CZ") {
@@ -318,7 +329,7 @@ else if (I18n.locale == "da_DK") {
         "More classrooms": 20,
     };
     lssm.carsById = {
-        "0": ["Motorsprøjte", 0],
+        "0": ["Autosprøjte", 0],
         "1": ["Slangetender", 0],
         "2": ["Stigevogn", 0],
         "3": ["Indsatsleder", 0],
@@ -327,7 +338,10 @@ else if (I18n.locale == "da_DK") {
         "6": ["Tankvogn", 0],
         "7": ["CBRN", 0],
         "8": ["Patruljevogn", 6],
-        "9": ["Rednings Helikopter", 2]
+        "9": ["Rednings Helikopter", 2],
+        "10": ["Højtrykskompressor", 0],
+        "11": ["LKM", 0],
+        "12": ["Specialsprøjte", 0]
     };
 }
 else if (I18n.locale == "nb_NO") {

@@ -9480,5 +9480,28 @@
         "percentages": {
             "dlk": 40
         }
+    },
+    "519": {
+        "name": "H\u00fcpfburgunfall",
+        "stations": {
+            "0": 3,
+            "2": 5,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "fustw": 1,
+            "rw": 1,
+            "elw1": 1
+        },
+        "credits": 2000,
+        "patients": {
+            "max": 7,
+            "min": 3,
+            "transport": 80,
+            "nef": 60,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        }
     }
 }
