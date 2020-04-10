@@ -30,7 +30,8 @@ $.get(missionlink)
             swatSuv: "SWAT SUV",
             rth: "HEMS",
             policeHeli: "Police Helicopter",
-            ambulance: "Ambulances"
+            ambulance: "Ambulances",
+            brushtruck: "Wildland fire engines"
         };
 
         let credits;
@@ -279,7 +280,8 @@ $.get(missionlink)
                 8: "Police Helicopter",
                 11: "fire boat",
                 12: "rescue boat",
-                "water": "Water Rescue"
+                "water": "Water Rescue",
+                "forest": "Forestry expansion"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

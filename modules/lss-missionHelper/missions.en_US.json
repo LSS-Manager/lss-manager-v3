@@ -6061,5 +6061,93 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "369": {
+        "name": "Medium Wildfire",
+        "stations": {
+            "0": 8,
+            "forest": 2
+        },
+        "vehicles": {
+            "bchief": 1,
+            "tanker": 2,
+            "brushtruck": 4
+        },
+        "credits": 40002
+    },
+    "370": {
+        "name": "Large Wildfire",
+        "stations": {
+            "0": 10,
+            "forest": 3
+        },
+        "vehicles": {
+            "bchief": 2,
+            "tanker": 4,
+            "brushtruck": 6
+        },
+        "credits": 65002
+    },
+    "371": {
+        "name": "Major Wildfire",
+        "stations": {
+            "0": 14,
+            "5": 2,
+            "forest": 4
+        },
+        "vehicles": {
+            "bchief": 3,
+            "mcv": 1,
+            "tanker": 8,
+            "police": 2,
+            "brushtruck": 8
+        },
+        "credits": 100002
+    },
+    "372": {
+        "name": "Medium Controlled Burn",
+        "stations": {
+            "0": 3,
+            "forest": 1
+        },
+        "vehicles": {
+            "brushtruck": 2
+        },
+        "credits": 13002
+    },
+    "373": {
+        "name": "Large Controlled Burn",
+        "stations": {
+            "0": 6,
+            "forest": 3
+        },
+        "vehicles": {
+            "bchief": 1,
+            "brushtruck": 3
+        },
+        "credits": 18002
+    },
+    "374": {
+        "name": "Fire Break Clearing",
+        "stations": {
+            "0": 2,
+            "forest": 2
+        },
+        "vehicles": {
+            "brushtruck": 2
+        },
+        "credits": 6002,
+        "poi": 3
+    },
+    "375": {
+        "name": "Lightning Strike in Forest",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "brushtruck": 2
+        },
+        "credits": 7002,
+        "poi": 3
     }
 }

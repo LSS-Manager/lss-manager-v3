@@ -236,7 +236,12 @@
                 26: 'SWAT SUV',
                 27: 'BLS Ambulance',
                 28: 'EMS Rescue',
-                29: 'EMS Chief'
+                29: 'EMS Chief',
+                30: 'Type 3 engine',
+                31: 'Type 5 engine',
+                32: 'Type 7 engine',
+                33: 'Pumper Tanker',
+                34: 'Crew Carrier'
             }
         }
     };
@@ -582,6 +587,7 @@
                 5: "Ambulanshelikopterstation",
                 6: "Polisstation",
                 7: "Larmcentral",
+                13: "Polisflyg",
                 18: "Brandstation (liten)",
                 19: "Polisstation (liten)",
                 20: "Ambulansstation (liten)"
@@ -599,7 +605,12 @@
                 9: 'Ambulanshelikopter',
                 10: 'Luftfordon',
                 11: 'Mobilt ledningsfordon',
-                12: 'Räddningsfordon'
+                12: 'Räddningsfordon',
+                13: 'Polishelikopter',
+                14: 'Bepansrat insatsfordon',
+                15: 'Hundenhet',
+                16: 'Polismotorcykel',
+                17: 'Insatsfordon'
             }
         }
     };
@@ -654,7 +665,7 @@
                 20: "Ambulancestation (lille station)"
             },
             vehicleTypes: {
-                0: 'Motorsprøjte',
+                0: 'Autosprøjte',
                 1: 'Slangetender',
                 2: 'Stigevogn',
                 3: 'Indsatsleder',
@@ -663,7 +674,10 @@
                 6: 'Tankvogn',
                 7: 'CBRN',
                 8: 'Patruljevogn',
-                9: 'Rednings Helikopter'
+                9: 'Rednings Helikopter',
+                10: 'Højtrykskompressor',
+                11: 'LKM',
+                12: 'Specialsprøjte'
             }
         }
     };

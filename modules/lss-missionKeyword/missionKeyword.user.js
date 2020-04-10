@@ -540,7 +540,8 @@
         515: 'Brand einer Produktionshalle',
         516: 'Flugzeug Erstlandung',
         517: 'Brennender Baum',
-        518: 'Brennender Baum'
+        518: 'Brennender Baum',
+        519: 'Hüpfburgunfall'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -927,7 +928,14 @@
         365: 'Easter market fair',
         366: 'Easter Egg lorry crash',
         367: 'Easter egg hunt',
-        368: 'Easter bunny on crane'
+        368: 'Easter bunny on crane',
+        369: 'Medium Wildfire',
+        370: 'Large Wildfire',
+        371: 'Major Wildfire',
+        372: 'Medium Controlled Burn',
+        373: 'Large Controlled Burn',
+        374: 'Fire Break Clearing',
+        375: 'Lightning Strike in Forest'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1988,7 +1996,22 @@
         132: 'Harmöte i påskäggsstaden',
         133: 'Vält påskäggsbil',
         134: 'Prioriterat uppdrag: Påskäggsjakt',
-        135: 'Påskhare i lyftkran'
+        135: 'Påskhare i lyftkran',
+        136: 'Försök till rymning/Rymning',
+        137: 'Förföljande',
+        138: 'Försvunnen person',
+        139: 'Husrannsakan',
+        140: 'Vapenlagen',
+        141: 'Kontroll av fordon',
+        142: 'Ordningslagen, demonstration med tillstånd',
+        143: 'Ordningslagen, demonstration utan tillstånd',
+        144: 'Överlåtelse',
+        145: 'Överfallslarm',
+        146: 'Polis beskjuten',
+        147: 'Statsbesök',
+        148: 'Grovt rån',
+        149: 'Försök till mord/dråp',
+        150: 'Bankrån med gisslan'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -2117,7 +2140,18 @@
         107: 'Harekongres i Påske Æg Byen',
         108: 'Påskeægs-lastbil væltet',
         109: 'Prioritetsmission: Påskeægs jagt',
-        110: 'Påskehare på kran'
+        110: 'Påskehare på kran',
+        111: 'Ild i stråtækt hus',
+        112: 'Godstog i brand',
+        113: 'Godstog i brand',
+        114: 'Godstog i brand',
+        115: 'Godstog i brand',
+        116: 'Større trafikuheld i tunnel',
+        117: 'Ild i flere biler i tunnel',
+        118: 'Ild i Fastfood Restaurant',
+        119: 'Industribrand',
+        120: 'Ukendt spild fra tankvogn',
+        121: 'Ild i soveværelse'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -4740,7 +4774,8 @@
       515: 'B 7',
       516: 'ABSICHERUNG',
       517: 'B 1',
-      518: 'B 1'
+      518: 'B 1',
+      519: 'TECH 2'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -5111,7 +5146,14 @@
       365: 'Planned mission',
       366: 'TECH 1.5',
       367: 'POL 3.5',
-      368: 'TECH 0.5'
+      368: 'TECH 0.5',
+      369: 'FIRE 5',
+      370: 'FIRE 6',
+      371: 'FIRE 7',
+      372: 'FIRE 2',
+      373: 'FIRE 3',
+      374: 'FIRE 1',
+      375: 'FIRE 1'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -6061,7 +6103,22 @@
       132: 'Planerat uppdrag',
       133: 'TECH 1.5',
       134: 'POL 3.5',
-      135: 'TECH 0.5'
+      135: 'TECH 0.5',
+      136: 'POL 6',
+      137: 'POL 3',
+      138: 'POL 5',
+      139: 'POL 1',
+      140: 'POL 3',
+      141: 'POL 2',
+      142: 'POL 3',
+      143: 'POL 5',
+      144: 'POL 2',
+      145: 'POL 3',
+      146: 'POL 6',
+      147: 'Planerat uppdrag',
+      148: 'POL 4',
+      149: 'POL 2',
+      150: 'POL 6'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -6174,7 +6231,18 @@
       107: 'Planlagt mission',
       108: 'TECH 1.5',
       109: 'POL 3.5',
-      110: 'TECH 0.5'
+      110: 'TECH 0.5',
+      111: 'FIRE 8',
+      112: 'FIRE 4',
+      113: 'FIRE 4',
+      114: 'FIRE 4',
+      115: 'FIRE 4',
+      116: 'FIRE 7',
+      117: 'FIRE 6',
+      118: 'FIRE 3',
+      119: 'FIRE 5',
+      120: 'CBRN 2',
+      121: 'FIRE 2'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',

@@ -16,10 +16,12 @@ $.get(missionlink)
             police: "polisbilar",
             ambulance: "ambulanser",
             arff: "flygbrandfordon",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
             rth: "ambulanshelikopter",
-            policeHeli: "Police Helicopter",
+            k9: "hundenhet",
+            pmotorcycle: "Polismotorcykel",
+            swatArmoured: "Bepansrat insatsfordon",
+            swatSuv: "Insatsfordon",
+            policeHeli: "polishelikoptrar"
         };
 
         let credits;
@@ -76,7 +78,7 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Högsta antal fångar/)) {
                 prisonersMax = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/insatsstyrka/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Varaktighet/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
@@ -267,7 +269,7 @@ $.get(missionlink)
                 0: "brandstationer",
                 2: "räddningsstationer",
                 6: "polisstationer",
-                13: "Police Helicopter"
+                13: "Polisflyg"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
