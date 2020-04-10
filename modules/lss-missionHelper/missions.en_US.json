@@ -6073,7 +6073,7 @@
             "tanker": 2,
             "brushtruck": 4
         },
-        "credits": 40002
+        "credits": 4000
     },
     "370": {
         "name": "Large Wildfire",
@@ -6086,7 +6086,7 @@
             "tanker": 4,
             "brushtruck": 6
         },
-        "credits": 65002
+        "credits": 6500
     },
     "371": {
         "name": "Major Wildfire",
@@ -6102,7 +6102,7 @@
             "police": 2,
             "brushtruck": 8
         },
-        "credits": 100002
+        "credits": 10000
     },
     "372": {
         "name": "Medium Controlled Burn",
@@ -6113,7 +6113,7 @@
         "vehicles": {
             "brushtruck": 2
         },
-        "credits": 13002
+        "credits": 1300
     },
     "373": {
         "name": "Large Controlled Burn",
@@ -6125,7 +6125,7 @@
             "bchief": 1,
             "brushtruck": 3
         },
-        "credits": 18002
+        "credits": 1800
     },
     "374": {
         "name": "Fire Break Clearing",
@@ -6136,7 +6136,7 @@
         "vehicles": {
             "brushtruck": 2
         },
-        "credits": 6002,
+        "credits": 600,
         "poi": 3
     },
     "375": {
@@ -6147,7 +6147,7 @@
         "vehicles": {
             "brushtruck": 2
         },
-        "credits": 7002,
+        "credits": 700,
         "poi": 3
     }
 }
