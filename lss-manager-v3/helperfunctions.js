@@ -456,9 +456,9 @@ else if (I18n.locale == "fr_FR") {
         "7": ["VIRT", 0],
         "8": ["Véhicule de patrouille", 6],
         "9": ["Dragon", 2],
-        "10": ["Mobile air", 0],
+        "10": ["VAR", 0],
         "11": ["Véhicule mobile de comm.", 0],
-        "12": ["Véhicule de secours", 0],
+        "12": ["FPTSR", 0],
         "13": ["Véhicule Toute Utilité", 0]
     };
 }

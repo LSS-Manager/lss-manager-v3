@@ -873,9 +873,9 @@
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
                 9: 'Dragon',
-                10: 'Mobile air',
+                10: 'VAR',
                 11: 'Véhicule mobile de comm.',
-                12: 'Véhicule de secours',
+                12: 'FPTSR',
                 13: 'Véhicule Toute Utilité'
             }
         }

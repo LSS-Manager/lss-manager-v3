@@ -27,7 +27,7 @@
 			text = text.replace('Hasentreffen in Ostereistedt', '🥚 Hasentreffen in Ostereistedt');
 			text = text.replace('Osterei in Wasser', '🥚 Osterei in Wasser');
 			text = text.replace('Osterei-LKW umgestürzt', '🥚 Osterei-LKW umgestürzt');
-			text = text.replace('Schwerpunkteinsatz Osterei suche', '🥚 Schwerpunkteinsatz Osterei suche');
+			text = text.replace('Schwerpunkteinsatz Ostereiersuche', '🥚 Schwerpunkteinsatz Ostereiersuche');
 			text = text.replace('Ei rollt in Schlangenlinien', '🥚 Ei rollt in Schlangenlinien');
 			text = text.replace('Osterhase auf Kran', '🥚 Osterhase auf Kran');
 
