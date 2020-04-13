@@ -2447,5 +2447,42 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "168": {
+        "name": "Wybuch gazu w mieszkaniu",
+        "stations": {
+            "0": 8,
+            "2": 4
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 2,
+            "bchief": 1,
+            "tanker": 1
+        },
+        "credits": 5200,
+        "patients": {
+            "max": 4,
+            "transport": 50,
+            "specialisation": "Interna"
+        },
+        "percentages": {
+            "tanker": 20
+        }
+    },
+    "169": {
+        "name": "Ulatniaj\u0105cy si\u0119 gaz",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 1,
+            "hazmat": 1
+        },
+        "credits": 2200,
+        "percentages": {
+            "hazmat": 20
+        }
     }
 }

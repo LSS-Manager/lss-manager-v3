@@ -2177,5 +2177,40 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "147": {
+        "name": "Dipendente intrappolato sotto il ponte auto",
+        "stations": {
+            "0": 4,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 2,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "police": 2
+        },
+        "credits": 3800,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 10,
+        "percentages": {
+            "bchief": 10
+        }
+    },
+    "148": {
+        "name": "Bonifica insetti",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 450
     }
 }

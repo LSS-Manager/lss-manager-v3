@@ -2410,5 +2410,22 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "165": {
+        "name": "Domestic violence",
+        "stations": {
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1200,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 90,
+            "specialisation": "General Internal"
+        }
     }
 }

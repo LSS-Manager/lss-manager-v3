@@ -324,6 +324,25 @@
         }
     };
 
+    I18n.translations.fi_FI.lssm.sharealliancepost = {
+        share: 'Jaa...',
+        chat: 'Chat...',
+        alert: 'Ilmoituksen...',
+        chatm: 'Tiimikeskusteluun',
+        clock: 'o \'kello',
+        reqVehIdent: 'Tarvittavat ajoneuvot:',
+        reqVeh: 'Muita ajoneuvoja ei tarvita.',
+        settings: {
+            title: 'Hälytys, Jaa ja julkaise',
+            jumpNext: 'Siirry seuraavaan tehtävään hälytyksen jälkeen',
+            enableKeyboard: 'Pikanäppäinten ottaminen käyttöön',
+            defaultPostToChat: 'Lähetä chat on oletuksena',
+            shortcutKeys: 'Pilkulla erotettu hälytysnäppäinten luettelo. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages: 'Viestimallit. Paikkamerkit: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
+            timeOffset: 'Siirtymä %TIME_OFFSET%-formatter tunteina'
+        }
+    };
+
     I18n.translations.ro_RO.lssm.sharealliancepost = {
         share: 'Împărtăşi...',
         chat: 'Conversație...',

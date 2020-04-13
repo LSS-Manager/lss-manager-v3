@@ -456,9 +456,9 @@ else if (I18n.locale == "fr_FR") {
         "7": ["VIRT", 0],
         "8": ["Véhicule de patrouille", 6],
         "9": ["Dragon", 2],
-        "10": ["Mobile air", 0],
+        "10": ["VAR", 0],
         "11": ["Véhicule mobile de comm.", 0],
-        "12": ["Véhicule de secours", 0],
+        "12": ["FPTSR", 0],
         "13": ["Véhicule Toute Utilité", 0]
     };
 }
@@ -594,6 +594,31 @@ else if (I18n.locale == "ro_RO") {
         "7": ["Materiale periculoase", 0],
         "8": ["Mașină de patrulare", 6],
         "9": ["Salvare aeriană", 2]
+    };
+}
+else if (I18n.locale == "fi_FI") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Ambulanssilaajennus": 0,
+        "Lentokenttälaajennus": 1,
+        "Vesipelastuslaajennus": 2,
+        // Pol-Erweiterungen (10-19)
+        "Vankilan selli": 10,
+        "Lisäselli": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Tyypin 1 paloauto", 0],
+        "1": ["Tyypin 2 paloauto", 0],
+        "2": ["Nostolava-auto", 0],
+        "3": ["Johtoauto", 0],
+        "4": ["Raskas pelastusauto", 0],
+        "5": ["ALS-ambulanssi", 2],
+        "6": ["Säiliöauto", 0],
+        "7": ["Kemikaalitorjunta", 0],
+        "8": ["Partioauto", 6],
+        "9": ["Lääkärihelikopteri", 2]
     };
 }
 else if (I18n.locale == "nl_NL")

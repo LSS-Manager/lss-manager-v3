@@ -951,6 +951,62 @@
             }
         }
     };
+    I18n.translations.fi_FI.lssm.extendedBuilding = {
+        title: 'Laajennettu rakennusnäkymä',
+        crew: 'Miehistö (enint.)',
+        fms: 'Tila',
+        assignment: 'Osoita henkilöstöä',
+        neededPersonnel: 'Tarvitaan henkilöstöä',
+        expansionFinished: 'Finished',
+        expansionNotStarted: 'Not started',
+        personnelOverview: 'Henkilöstökatsaus',
+        schooling: 'Koulutus',
+        schoolingsMulti: 'Kaikki koulutusyhdistelmät',
+        schoolingsSingle: 'Yksittäiset koulutukset',
+        amount: 'Amount',
+        expansionName: 'Kuvaus',
+        vehicleType: 'Type',
+        binding: 'Osoitettu ajoneuvo',
+        bindingAmount: 'Bound',
+        settings: {
+            neededPersonnel: {
+                label: 'Vaadittava henkilöstö',
+                description: 'Näyttää tarvittavan henkilöstön, jos kaikkia ajoneuvoja halutaan käyttää kokonaan',
+            },
+            switchStatus: {
+                label: 'Nopea tilanmuutos',
+                description: 'Ajoneuvon tilaa voidaan muuttaa suoraan tilanäytön kautta S2: n ja S6: n välillä',
+            },
+            assignmentBtn: {
+                label: 'Nopea tehtävä',
+                description: 'Lisää painikkeen, jonka avulla pääset nopeasti "Palvella henkilöstö" -ikkunaan',
+            },
+            assignedWorkers: {
+                label: 'Määrätty henkilöstö',
+                description: 'Näyttää kullekin ajoneuvolle, kuinka paljon henkilöä on osoitettu',
+            },
+            currentCrew: {
+                label: 'Nykyinen miehistö',
+                description: 'Osoittaa kullekin ajoneuvolle kuinka monta henkilöä istuu tällä hetkellä ajoneuvossa',
+            },
+            expansions: {
+                label: 'Näytä laajennukset',
+                description: 'Näytä laajennusten nykyinen tila',
+            },
+            personnelOverview: {
+                label: 'Laajempi henkilöstökatsaus',
+                description: 'Näyttää henkilöstökatsauksessa, kuinka paljon henkilöstöllä on mitä koulutusta',
+            },
+            vehicleType: {
+                label: 'Näytä ajoneuvotyyppi',
+                description: 'Näyttää ajoneuvotyypin ajoneuvoluettelossa.',
+            },
+            expansionDate: {
+                label: 'Laajennuksen valmistumispäivämäärä',
+                description: 'Näytetään laajennusluettelossa myös silloin, kun rakennus valmistuu (toimii vain asetuksen "Näytä laajennukset" yhteydessä)',
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.extendedBuilding = {
         title: 'Uitgebreide bouwweergave',
         crew: "Bezetting (Maximaal)",

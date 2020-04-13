@@ -873,9 +873,9 @@
                 7: 'VIRT',
                 8: 'Véhicule de patrouille',
                 9: 'Dragon',
-                10: 'Mobile air',
+                10: 'VAR',
                 11: 'Véhicule mobile de comm.',
-                12: 'Véhicule de secours',
+                12: 'FPTSR',
                 13: 'Véhicule Toute Utilité'
             }
         }
@@ -1404,6 +1404,69 @@
                 7: 'Materiale periculoase',
                 8: 'Mașină de patrulare',
                 9: 'Salvare aeriană'
+            }
+        }
+    };
+
+    I18n.translations.fi_FI.lssm.renameFz = {
+        name: 'Nimeä ajoneuvot uudelleen',
+        rename: "nimeä uudelleen",
+        id: "{id} Ajoneuvon tunnus",
+        old: "{old} Nykyinen nimi",
+        vehicleType: "{vehicleType} Ajoneuvotyyppi",
+        stationName: "{stationName} Rakennuksen nimi",
+        tagging: '{tagging} Ajoneuvotyypin merkintä',
+        number: '{number} Tyyppilaskuri',
+        numberRoman: '{numberRoman} Tyyppilaskuri (roomalaiset numerot)',
+        dispatch: '{dispatch} Lähetyskeskuksen nimi',
+        dispatchAlias: '{dispatchAlias} Lähetyskeskuksen alias',
+        stationAlias: '{stationAlias} Rakennus Alias',
+        saveAll: 'Tallenna kaikki',
+        statusWaiting: 'Odota syöttöä',
+        statusError: '<b>Virhe luomisen aikana!</b> Jos tämä virhe toistuu, ilmoita siitä. Antakaa seuraavat tiedot:',
+        statusWorking: 'Luo nimiä ja lomakkeita. Tämä voi viedä tietyn ajan järjestelmästä ja ajoneuvojen lukumäärästä riippuen.',
+        statusSuccess: 'Nimet ja lomakkeet luotu onnistuneesti!',
+        nameAlreadyCorrect: 'Nimi vastaa jo mallia!',
+        nameToLong: 'Nimi on liian pitkä seuraaville ajoneuvoille:',
+        nameToLongOriginalName: 'Alkuperäinen nimi',
+        nameToLongGeneratedName: 'Luotu nimi',
+        nameToLongShortenedName: 'Uusi / lyhennetty nimi',
+        helpTitle: 'Löydät pienen ohjeen tästä linkistä: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Laskurin aloitus',
+        counterOverride: 'Jos saman tyyppisiä ajoneuvoja on useita, aloita joka tapauksessa yhdellä.',
+        startNumHelp: 'Täällä voit kirjoittaa tyyppimittarin aloitusarvon. Jos asetat lähtöarvoksi 0, tyypin ensimmäinen ajoneuvo ei saa numerointia, tämä on erittäin käytännöllistä, jos vartijalla on vain yksi tyyppinen ajoneuvo etkä halua numeroida sitä. Mutta voit myös käynnistää laskurin 5: stä (mistä tahansa syystä haluat, mutta se on mahdollista;))',
+        toggleNameCorrect: 'Näytä / piilota oikeilla nimillä varustetut ajoneuvot',
+        settings: {
+            show: 'Näytä piilota',
+            names: {
+                vehicleTypes: 'ajoneuvotyypit',
+                stations: 'Rakennus-alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Täällä voit asettaa vaihtoehtoiset nimet kullekin ajoneuvotyypille. Voit käyttää niitä nimeäessäsi ajoneuvoja uudelleen nimeämiskeskuksen kautta.',
+                stations: 'Täällä voit asettaa vaihtoehtoiset nimet jokaiselle rakennukselle. Voit käyttää niitä nimeäessäsi ajoneuvoja uudelleen nimeämiskeskuksen kautta.'
+            },
+            validStationTypes: {
+                0: "Paloasema",
+                2: "Ambulanssiasema",
+                6: "Poliisiasema",
+                7: "Hätäkeskus",
+                18: "Paloasema (pieni)",
+                19: "Poliisiasema (pieni asema)",
+                20: "Ambulanssiasema (pieni asema)",
+            },
+            vehicleTypes: {
+                0: 'Tyypin 1 paloauto',
+                1: 'Tyypin 2 paloauto',
+                2: 'Nostolava-auto',
+                3: 'Johtoauto',
+                4: 'Raskas pelastusauto',
+                5: 'ALS-ambulanssi',
+                6: 'Säiliöauto',
+                7: 'Kemikaalitorjunta',
+                8: 'Partioauto',
+                9: 'Lääkärihelikopteri'
             }
         }
     };

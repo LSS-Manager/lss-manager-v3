@@ -84,6 +84,11 @@
             "Aceste date includ: ID-ul dvs., numele de utilizator, numărul de gărzi, browserul utilizat și modulele activate.\r\n\r\n" +
             "Ești de acord cu asta?"
     };
+    I18n.translations.fi_FI.lssm.telemetry = {
+        question: "LSS Manager lähettää ei-henkilökohtaisia tietoja kehittäjille komentosarjan parantamiseksi ja virheiden löytämiseksi.\r\n" +
+		    "Näitä tietoja ovat: tunnuksesi, käyttäjänimesi, vartijoiden lukumäärä, käytetty selain ja käytössä olevat moduulit.\r\n\r\n" +
+		    "Oletko samaa mieltä tästä?"
+	};
 	I18n.translations.nl_NL.lssm.telemetry = {
 		question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
 			"Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +

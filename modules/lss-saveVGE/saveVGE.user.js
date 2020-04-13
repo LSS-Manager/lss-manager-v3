@@ -89,6 +89,12 @@
         noVGE: "Nici o misiune a Alianței salvată!",
         VGEs: "LSAMs"
     };
+    I18n.translations.fi_FI['lssm']['saveVGE'] = {
+        save: "Tallentaa",
+        del: "Poistaa",
+        noVGE: "Ei tallennettu Alliance Mission!",
+        VGEs: "LSAMs"
+    };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
     	del: "Verwijderen",

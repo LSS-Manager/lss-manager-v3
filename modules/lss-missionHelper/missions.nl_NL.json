@@ -10238,5 +10238,52 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "589": {
+        "name": "Voorzorgslanding vliegtuig met 1-6 personen",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "crashtender": 1,
+            "afoosc": 1
+        },
+        "credits": 1100,
+        "poi": 29
+    },
+    "590": {
+        "name": "Noodlanding vliegtuig met 7-30 personen",
+        "stations": {
+            "0": 13,
+            "3": 11,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 2,
+            "hulpverlening": 1,
+            "adembescherming": 1,
+            "waarschuwing": 2,
+            "gevaar": 1,
+            "bchief": 1,
+            "hovd": 1,
+            "crashtender": 3,
+            "afoosc": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 30,
+            "min": 12,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 32,
+        "percentages": {
+            "hulpverlening": 20,
+            "waarschuwing": 10,
+            "gevaar": 10
+        }
     }
 }

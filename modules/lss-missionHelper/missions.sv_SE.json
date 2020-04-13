@@ -2171,5 +2171,24 @@
         "special": {
             "SWATPersonnel": 6
         }
+    },
+    "151": {
+        "name": "Trafikolycka - mindre motorfordon, moped",
+        "stations": {
+            "0": 1,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "police": 1
+        },
+        "credits": 750,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 65,
+            "specialisation": "Traumatologi"
+        }
     }
 }

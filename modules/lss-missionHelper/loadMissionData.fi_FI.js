@@ -1,4 +1,4 @@
-const missionlink = $('#mission_help').attr('href')||window.location.href.replace(/\?.*$/, "");
+const missionlink = $('#mission_help').attr('href') || window.location.href.replace(/\?.*$/, "");
 const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
 
 $.get(missionlink)
@@ -6,19 +6,19 @@ $.get(missionlink)
         data = $(data);
 
         let vehicleDefinitons = {
-            truck: "camiones de bomberos",
-            platform: "camiones con plataforma",
-            heavyRescue: "Furgones de Útiles Varios",
+            truck: "paloautot",
+            platform: "nostolava-auto",
+            heavyRescue: "raskaat pelastusautot",
             air: "aéreo",
-            bchief: "unidades de Mando y Comunicaciones",
-            mcv: "unidades de mando",
-            tanker: "(c|C)amiones cisterna",
-            hazmat: "vehículos de materiales peligrosos",
-            police: "coches patrulla",
+            bchief: "johtoauto",
+            mcv: "johtokeskusauto",
+            tanker: "säiliöauto",
+            hazmat: "kemikaalitorjunta-auto",
+            police: "poliisiauto",
             rth: "Helicóptero HSR",
-            arff: "CBA",
+            arff: "lentokenttäpaloauto",
             policeHeli: "Police Helicopter",
-            ambulance: "Ambulancias"
+            ambulance: "Ambulanțe"
         };
 
         let credits;
@@ -40,48 +40,48 @@ $.get(missionlink)
         let expansions = [];
         let dauer;
 
-        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(1) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Media de créditos/)) {
+            if (content.match(/Keskim\. krediitit/)) {
                 credits = number;
-            } else if (content.match(/necesarios|necesarias|Requisitos de/)) {
+            } else if (content.match(/Vaaditut/)) {
                 stations[getStation(content)] = number;
-            } else if (content.match(/Lugar/)) {
+            } else if (content.match(/Paikka/)) {
                 poi = getPOI(content);
             }
         });
-        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Se necesitan|necesarios|necesarias/)) {
+            if (content.match(/Vaaditut/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/Probabilidad/)) {
+            } else if (content.match(/Todennäköisyys/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
-        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function(){
+        data.find(".col-md-4:nth-of-type(3) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/N\.º máximo de pacientes/)) {
+            if (content.match(/Potilaita enint\./)) {
                 patientsMax = number;
-            } else if (content.match(/Número mínimo de pacientes/)) {
+            } else if (content.match(/Potilaiden vähimmäismäärä/)) {
                 patientsMin = number;
-            } else if (content.match(/transportar/)) {
+            } else if (content.match(/joudutaan kuljettamaan/)) {
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
-            } else if (content.match(/Especializaciones de pacientes/)) {
+            } else if (content.match(/erikoisalat/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/N\.º máximo de presos/)) {
+            } else if (content.match(/Vankien enimmäismäärä/)) {
                 prisonersMax = number;
             } else if (content.match(/SWAT Personnel/)) {
                 special["SWATPersonnel"] = number;
-            } else if (content.match(/Duración/)) {
+            } else if (content.match(/Durată/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
-            } else if (content.match(/expansión/)) {
+            } else if (content.match(/Laajennettavat/)) {
                 let expansionLinks = $(this).find("a");
-                expansionLinks.each(function() {
+                expansionLinks.each(function () {
                     expansions.push($(this).attr("href").replace(/\D/g, ""));
                 });
             }
@@ -179,10 +179,10 @@ $.get(missionlink)
         $.post(`${lssm.config.server}/modules/lss-missionHelper/writeMission.php`, {
             mission: mission,
             id: missionID,
-            lang: "es_ES"
+            lang: "fi_FI"
         })
             .done(response => {
-                if (response.startsWith('Error'))  {
+                if (response.startsWith('Error')) {
                     return console.error(`missionHelper Error:\n${response}`);
                 }
                 console.log(`Registered Missiontype ${missionID}`);
@@ -197,60 +197,60 @@ $.get(missionlink)
 
         function getPOI(content) {
             let pois = [
-                "Parque",
-                "Lago",
-                "Hospital",
-                "Bosque",
-                "Parada de autobús",
-                "Parada de tranvía",
-                "Parada de tren \\(cercanías\\)",
-                "Parada de tren \\(cercanías y larga distancia\\)",
-                "Estación de mercancías",
-                "Supermercado \\(pequeño\\)",
-                "Supermercado \\(grande\\)",
-                "Gasolinera",
-                "Escuela",
+                "Puisto",
+                "Järvi",
+                "Sairaala",
+                "Metsä",
+                "Linja-autopysäkki",
+                "Raitiovaunupysäkki",
+                "Rautatieasema \\(paikallisliikenne\\)",
+                "Rautatieasema \\(paikallis- ja pitkän matkan liikenne\\)",
+                "Tavara-asema",
+                "Valintamyymälä \\(pieni\\)",
+                "Valintamyymälä \\(iso\\)",
+                "Huoltoasema",
+                "Koulu",
                 "Museo",
-                "Centro comercial",
-                "Taller",
-                "Salida de autopista",
-                "Mercado navideño",
-                "Depósito",
-                "Discoteca",
-                "Estadio",
-                "Granja",
-                "Edificio de oficinas",
-                "Piscina",
-                "Railroad Crossing",
-                "Cine",
-                "Feria",
-                "Río",
-                "Aeropuerto pequeño \\(pista\\)",
-                "Aeropuerto grande \\(pista\\)",
-                "Terminal de aeropuerto",
-                "Banco",
-                "Almacén",
-                "Puente",
-                "Restaurante de comida rápida",
-                "Puerto de mercancías",
-                "Centro de reciclaje",
-                "Rascacielos",
-                "Cubierta de yate",
-                "Puerto deportivo",
-                "Paso a nivel",
-                "Túnel",
-                "Almacén frigorífico",
-                "Central eléctrica",
-                "Fábrica",
-                "Chatarrería",
-                "Estación de metro",
-                "Almacén químico pequeño",
-                "Almacén químico grande",
-                "Hotel",
-                "Bar",
-                "Vertedero",
-                "Aparcamiento",
-				"Granero"
+                "Ostoskeskus",
+                "Autokorjaamo",
+                "Moottoritien poistumisliittymä",
+                "Joulumarkkinat",
+                "Varastorakennus",
+                "Disko",
+                "Stadion",
+                "Maatila",
+                "Toimistorakennus",
+                "Uima-allas",
+                "Trecere de cale ferată",
+                "Teatteri",
+                "Messukenttä",
+                "Joki",
+                "Pieni lentoasema \\(kiitorata\\)",
+                "Suuri lentokenttä \\(kiitorata\\)",
+                "Lentokenttäterminaali",
+                "Pankki",
+                "Varasto",
+                "Silta",
+                "Pikaruokaravintola",
+                "Rahtisatama",
+                "Kierrätyskeskus",
+                "Pilvenpiirtäjä",
+                "Risteilyaluslaituri",
+                "Venesatama",
+                "Rautatieristeys",
+                "Tunneli",
+                "Kylmävarasto",
+                "Voimalaitos",
+                "Tehdas",
+                "Romuttamo",
+                "Metroasema",
+                "Pieni kemikaalisäiliö",
+                "Iso kemikaalisäiliö",
+                "Hotelli",
+                "Baari",
+                "Kaatopaikka",
+                "Pysäköintihalli",
+                "Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {
@@ -261,9 +261,9 @@ $.get(missionlink)
 
         function getStation(content) {
             let stationDefinitions = {
-              0: "Parques de bomberos",
-              2: "Estaciones de rescate",
-              6: "comisarías de policía"
+                0: "paloasemat",
+                2: "pelastusasemat",
+                6: "poliisiasemat"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

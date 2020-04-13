@@ -328,6 +328,25 @@
         import_fail: "Eroare: Eroare la importul fișierului: <strong> {0} </strong>. Vă rugăm să informați un dezvoltator."
     };
 
+    I18n.translations.fi_FI.lssm.managedsettings = {
+        title: "LSSM-asetukset",
+        text1: "Täällä voit muuttaa aktivoitujen laajennusten asetuksia.",
+        text2: "",
+        save: "Tallenna ja sulje",
+        settings_tab: "asetukset",
+        addField_btn: "Lisätä",
+        export_btn: "Vie asetukset",
+        import_btn: "Tuo asetukset",
+        reset_btn: "Palauta asetukset",
+        reset_hint: "Haluatko varmasti palauttaa tämän moduulin asetukset oletusarvoihin?",
+        reset_success: "Palauta asetukset onnistuneesti. Sivu on ladattava uudelleen, jotta ne toimivat.",
+        export_success: "Asetusten vienti onnistui",
+        export_hint: "Huomaa, että vain aktiivisesti aktivoitujen moduulien aiemmin tallennetut asetukset voidaan viedä.",
+        import_success: "Asetusten tuonti onnistui. Sivu on ladattava uudelleen, jotta ne toimivat.",
+        import_missmatch: "Lukutiedosto ei valitettavasti ole enää yhteensopiva LSSM: n nykyisen version kanssa.",
+        import_fail: "Virhe: Tiedoston tuonnissa tapahtui virhe: <strong> {0} </strong>. Ole hyvä ja ilmoita siitä kehittäjälle."
+    };
+
     I18n.translations.nl_NL.lssm.managedsettings = {
         title: "LSSM instellingen",
         text1: "Hier kun je de instellingen van je geïnstalleerde plugins aanpassen.",

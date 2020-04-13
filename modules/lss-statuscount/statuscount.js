@@ -411,6 +411,30 @@
             }
         }
     };
+    I18n.translations.fi_FI.lssm.statuscount = {
+        name: "Tila-Määrä",
+        settings: {
+            show: "Näytä tai piilota",
+            status: {
+                show: {
+                    label: "Näytä",
+                    description: "Näytetäänkö tila lainkaan? Tärkeää: Tällä asetuksella on suurempi prioriteetti kuin muilla asetuksilla, eli jos tämä asetus on pois päältä, tila ei koskaan näy."
+                },
+                hide: {
+                    label: "Näytä vain tarvittaessa",
+                    description: "Laskuri näkyy vain, jos tässä tilassa on vähintään yksi ajoneuvo. (Huomio: Jos laskuri on täysin piilotettu, sitä ei koskaan näytetä, vaikka tämä asetus olisi aktivoitu!)"
+                },
+                percent: {
+                    label: "Näytä prosentit",
+                    description: "Näytetäänkö tämän tilan prosenttiosuus?"
+                }
+            },
+            round: {
+                label: "Pyöristetyt prosenttiosuudet",
+                description: "Kuinka moneen desimaaliin prosenttiosuudet (jos näytetään) pyöristetään?"
+            }
+        }
+    };
     I18n.translations.nl_NL.lssm.statuscount = {
         name: "Status-Teller",
         settings: {

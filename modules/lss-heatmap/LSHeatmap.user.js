@@ -540,6 +540,19 @@
             }
         ]
     };
+    I18n.translations.fi_FI.lssm.heatmap = {
+        active: 'aktiivinen',
+        vehicleType: 'ryhmät',
+        radius: 'Säde',
+        intensity: 'Intensiteetti',
+        close: 'kiinni',
+        vehicleGroups: [
+            {
+                name: 'Oma yhdistelmä',
+                vehicles: []
+            }
+        ]
+    };
     I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',

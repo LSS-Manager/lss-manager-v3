@@ -101,6 +101,12 @@
         reset: "Reseta",
         select: "Citește și..."
     };
+    I18n.translations.fi_FI['lssm']['aaosearch'] = {
+        search_aao: "Hae AAO: sta",
+        use_dd: "Käytä pudotusvalikkoa: ",
+        reset: "Nollaa",
+        select: "Ole hyvä ja valitse..."
+    };
 	I18n.translations.nl_NL['lssm']['aaosearch'] = {
         search_aao: "AUR Doorzoeken",
         use_dd: "Gebruik dropdown-menu: ",

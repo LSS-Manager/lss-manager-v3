@@ -1713,5 +1713,80 @@
         "percentages": {
             "air": 50
         }
+    },
+    "122": {
+        "name": "Afsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 24
+    },
+    "123": {
+        "name": "Afsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 6
+    },
+    "124": {
+        "name": "Afsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 7
     }
 }

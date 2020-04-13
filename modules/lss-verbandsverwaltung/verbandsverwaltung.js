@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -207,6 +207,18 @@
         updateMessage: 'Actualizarea automată a valorilor<br>Fiecare ' + updateMin + ' Minute.',
         chartErr: 'Imposibil de încărcat diagrama "{{chart}}"!<br>Știm deja că acest lucru se întâmplă cu unele browsere, dar nu încă de ce. Vă rugăm să nu \'t raport- ne această eroare ca suntem deja pe această problemă!',
         hoverTip: 'Indicație: treceți cu mouse-ul peste un element pentru a afișa un istoric de valori.'
+    };
+    I18n.translations.fi_FI.lssm.verbandsverwaltung = {
+        name: 'antaminen',
+        allianceFunds: 'Allianssirahastot',
+        allianceCredits: 'Ansaitut luotot',
+        users: 'Jäsenet',
+        onlineUsers: 'Jäsenet verkossa',
+        allianceRank: 'Sijoitus Alliancelistissa',
+        page: 'Sivu',
+        updateMessage: 'Arvot päivittyvät automaattisesti<br>joka ' + updateMin + ' pöytäkirja.',
+        chartErr: 'Kaaviota ei voitu ladata "{{chart}}"!<br>Tiedämme jo, että näin tapahtuu joillakin selaimilla, mutta ei vielä miksi. <b> Älä </b> ilmoita meille tästä virheestä, koska olemme jo ongelmassa!',
+        hoverTip: 'Vihje: Vie hiiri elementin päälle nähdäksesi arvohistorian.'
     };
     I18n.translations.nl_NL.lssm.verbandsverwaltung = {
         name: 'Administratie',

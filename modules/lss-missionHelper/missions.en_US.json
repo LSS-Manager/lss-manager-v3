@@ -6149,5 +6149,33 @@
         },
         "credits": 700,
         "poi": 3
+    },
+    "376": {
+        "name": "Plane off the runway",
+        "stations": {
+            "0": 8,
+            "3": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "platform": 1,
+            "arff": 2,
+            "ambulance": 2,
+            "bchief": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 20,
+            "min": 10,
+            "transport": 25,
+            "specialisation": "Traumatology"
+        },
+        "poi": 29,
+        "expansions": {
+            "0": 120
+        },
+        "percentages": {
+            "platform": 50
+        }
     }
 }
