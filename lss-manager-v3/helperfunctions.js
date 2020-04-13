@@ -596,6 +596,31 @@ else if (I18n.locale == "ro_RO") {
         "9": ["Salvare aeriană", 2]
     };
 }
+else if (I18n.locale == "fi_FI") {
+    lssm.extensions = {
+        // FW-Erwerterungen (0-9)
+        "Ambulanssilaajennus": 0,
+        "Lentokenttälaajennus": 1,
+        "Vesipelastuslaajennus": 2,
+        // Pol-Erweiterungen (10-19)
+        "Vankilan selli": 10,
+        "Lisäselli": 10,
+        // Schule-Erweiterungen (20-29)
+        "More classrooms": 20,
+    };
+    lssm.carsById = {
+        "0": ["Tyypin 1 paloauto", 0],
+        "1": ["Tyypin 2 paloauto", 0],
+        "2": ["Nostolava-auto", 0],
+        "3": ["Johtoauto", 0],
+        "4": ["Raskas pelastusauto", 0],
+        "5": ["ALS-ambulanssi", 2],
+        "6": ["Säiliöauto", 0],
+        "7": ["Kemikaalitorjunta", 0],
+        "8": ["Partioauto", 6],
+        "9": ["Lääkärihelikopteri", 2]
+    };
+}
 else if (I18n.locale == "nl_NL")
 {
     lssm.extensions = {

@@ -3053,6 +3053,147 @@ const lssm_missionhelper_adjustPosition = () => {
         ]
     };
 
+    I18n.translations.fi_FI.lssm.missionhelper = {
+        diy_mission: 'Tämä tehtävä näyttää olevan laaja-alainen liittoutumatehtävä.',
+        siwa: 'Suunniteltu tehtävä',
+        vge: 'Laajamittainen liittoutumatehtävä',
+        patients: 'potilaat',
+        prisoners: 'vangit',
+        to: 'aikeissa',
+        exp: 'levitteet',
+        SWATPersonnel: "Needed SWAT Personnel",
+        ambulance_only: 'Tämä tehtävä on vain ambulanssi!',
+        title: 'Tehtävän auttaja',
+        transport: 'Kuljetus',
+        settings: {
+            name: {
+                label: 'Nimi',
+                description: 'Näyttää avustajan operaation nimen.'
+            },
+            id: {
+                label: 'ID',
+                description: 'Näyttää operaattorin tunnuksen auttajassa.'
+            },
+            type: {
+                label: 'TYP-tunnus',
+                description: 'Näyttää avustajan operaatiotyypin tunnuksen.'
+            },
+            poi: {
+                label: 'KP',
+                description: 'Ilmaisee auttajassa, missä KP: ssä toiminta on.'
+            },
+            live_patients: {
+                label: 'Potilaiden lukumäärä',
+                description: 'Näyttää live-tilassa kuinka monta potilasta on tällä hetkellä käytössä.'
+            },
+            vehicles: {
+                label: 'ajoneuvot',
+                description: 'Näyttää vaadittavat ajoneuvot.'
+            },
+            patients: {
+                label: 'potilastiedot',
+                description: 'Näyttää tiedot (potentiaalisista) potilaista.'
+            },
+            prisoners: {
+                label: 'vangin tiedot',
+                description: 'Näyttää (potentiaalisista) vankeista.'
+            },
+            special: {
+                label: 'Muita tietoja',
+                description: 'Näyttää erityistietoja, kuten tarvittavan henkilöstön keskimääräisen vähimmäismäärän.'
+            },
+            expansions: {
+                label: 'jakaumat',
+                description: 'Näyttää, mihin veto voi levitä. (Näyttää vain yksinkertaisen levityksen)'
+            },
+            show_100: {
+                label: 'Näytä 100% todennäköisyys',
+                description: 'Näyttää todennäköisyyden ajoneuvolle, vaikka se olisi 100%.'
+            },
+            credits: {
+                label: 'Keskimääräiset ansiot',
+                description: 'Näyttää keskimäärin ansaitsemasi tämän toimeksiannon.'
+            },
+            show_siwa: {
+                label: 'Turvallisuusvaatimukset',
+                description: 'Näyttää myös auttajassa oleville vartijoille asetetut vaatimukset.'
+            },
+            mission_time: {
+                label: 'Luomisaika',
+                description: 'Näyttää päivämäärän ja kellonajan, jolloin operaatio luotiin.'
+            }
+        },
+        vehicles: {
+            truck: "paloautot",
+            platform: "nostolava-auto",
+            heavyRescue: "raskaat pelastusautot",
+            air: "Breathing Apparatus Support Unit",
+            bchief: "johtoauto",
+            tanker: "säiliöauto",
+            hazmat: "kemikaalitorjunta-auto",
+            mcv: "johtokeskusauto",
+            police: "poliisiauto",
+            arff: "lentokenttäpaloauto",
+            rth: "Air Ambulance"
+        },
+        pois: [
+            "Puisto",
+            "Järvi",
+            "Sairaala",
+            "Metsä",
+            "Linja-autopysäkki",
+            "Raitiovaunupysäkki",
+            "Rautatieasema (paikallisliikenne)",
+            "Rautatieasema (paikallis- ja pitkän matkan liikenne)",
+            "Tavara-asema",
+            "Valintamyymälä (pieni)",
+            "Valintamyymälä (iso)",
+            "Huoltoasema",
+            "Koulu",
+            "Museo",
+            "Ostoskeskus",
+            "Autokorjaamo",
+            "Moottoritien poistumisliittymä",
+            "Joulumarkkinat",
+            "Varastorakennus",
+            "Disko",
+            "Stadion",
+            "Maatila",
+            "Toimistorakennus",
+            "Uima-allas",
+            "Trecere de cale ferată",
+            "Teatteri",
+            "Messukenttä",
+            "Joki",
+            "Pieni lentoasema (kiitorata)",
+            "Suuri lentokenttä (kiitorata)",
+            "Lentokenttäterminaali",
+            "Pankki",
+            "Varasto",
+            "Silta",
+            "Pikaruokaravintola",
+            "Rahtisatama",
+            "Kierrätyskeskus",
+            "Pilvenpiirtäjä",
+            "Risteilyaluslaituri",
+            "Venesatama",
+            "Rautatieristeys",
+            "Tunneli",
+            "Kylmävarasto",
+            "Voimalaitos",
+            "Tehdas",
+            "Romuttamo",
+            "Metroasema",
+            "Pieni kemikaalisäiliö",
+            "Iso kemikaalisäiliö",
+            "Hotelli",
+            "Baari",
+            "Kaatopaikka",
+            "Pysäköintihalli",
+            "Silo"
+        ]
+    };
+
     I18n.translations.nl_NL.lssm.missionhelper = {
         diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
         siwa: 'Geplande inzet',
