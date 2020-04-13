@@ -52,6 +52,9 @@
     I18n.translations.ro_RO.lssm.missionOut = {
         title: 'Ascundere/Afișare misiune'
     };
+    I18n.translations.fi_FI.lssm.missionOut = {
+        title: 'Piilota / Näytä tehtävä'
+    };
     I18n.translations.nl_NL.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };

@@ -50,6 +50,9 @@
     I18n.translations.ro_RO['lssm']['allianceMissionlistShare'] = {
         title: "Eliberarea în alianță"
     };
+    I18n.translations.fi_FI['lssm']['allianceMissionlistShare'] = {
+        title: "Vapauta liittoutumassa"
+    };
     I18n.translations.nl_NL['lssm']['allianceMissionlistShare'] = {
         title: "In team vrijgeven"
     };

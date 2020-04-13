@@ -10,7 +10,7 @@ $.get(missionlink)
             platform: "SP wysokościow",
             heavyRescue: "ratownictwa technicznego",
             air: "SPGaz",
-            bchief: "szefa brygady",
+            bchief: "Oficera Operacyjnego",
             tanker: "z wodą",
             hazmat: "SP Rchem",
             mcv: "samochody dowodzenia i łączności",

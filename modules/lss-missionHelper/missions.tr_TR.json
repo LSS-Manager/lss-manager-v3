@@ -1345,5 +1345,74 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "97": {
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Travmatoloji"
+        },
+        "poi": 24
+    },
+    "98": {
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Travmatoloji"
+        },
+        "poi": 6
+    },
+    "99": {
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Travmatoloji"
+        },
+        "poi": 7
     }
 }

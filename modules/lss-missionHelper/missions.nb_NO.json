@@ -1534,5 +1534,74 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "111": {
+        "name": "Avsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traume"
+        },
+        "poi": 24
+    },
+    "112": {
+        "name": "Avsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traume"
+        },
+        "poi": 5
+    },
+    "113": {
+        "name": "Avsporet godstog",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "hazmat": 2,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "Traume"
+        },
+        "poi": 7
     }
 }

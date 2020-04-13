@@ -358,6 +358,27 @@
     }
   }
 
+  I18n.translations.fi_FI.lssm['n-alarm'] = {
+    not_support: "Tämä selain ei tue HTML5-ilmoituksia",
+    inithead: "alustus",
+    chat_message: "Chat-viesti ",
+    blend: "Piilota jälkeen:",
+    seconds: "sekuntia",
+    settings: {
+      title: "Ilmoittaminen-Alert",
+      chat_title: "Chat-viestit",
+      chat_text: "Hanki chat-viestit ilmoituksena.",
+      s5_title: "Kuljetuspyyntö",
+      save: "Tallentaa",
+      close: "kiinni",
+      s5_text: "Hanki kuljetuspyynnöt ilmoituksena",
+      status_title: "Tila",
+      status_text: "Hanki kaikki tilaviestit ilmoituksina.",
+      chatp_title: "Hanki chat-viestit ponnahdusikkunoina",
+      chatp_text: "Hanki kaikki chat-viestit ponnahdusikkunaina oikealla puolella"
+    }
+  }
+
   I18n.translations.nl_NL.lssm['n-alarm'] = {
     not_support: "Deze browser ondersteunt helaas geen HTML5-meldingen",
     inithead: "Aan het laden",

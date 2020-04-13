@@ -223,6 +223,19 @@
         fms5H1: 'Transportate'
     };
 
+    I18n.translations.fi_FI.lssm.statusDispatching = {
+        name: 'Parannetut kuljetuspyynnöt',
+        fms: 'Kuljetusta pyydetään',
+        nextVehicle: 'Siirry seuraavaan ajoneuvoon kuljetuspyynnöllä',
+        backToAlarm: 'Takaisin tehtävään',
+        settingsTitle: 'Parannetut kuljetuspyynnöt - Asetukset',
+        settingsAttr: 'Napsauta operaation naamion painiketta "Kuljetuspyydetty" automaattisesti',
+        settingsAttrDesc: 'Tämän vaihtoehdon ottaminen käyttöön antaa automaattisen napsautuksen operaation naamion "pyydetty kuljetus" -painikkeesta. Tällä tavalla sinun on käynyt läpi kaikki kuljetuspyynnöt ennen kuin voit tarkastella tehtävän yksityiskohtia. Tämän vaihtoehdon ottaminen käyttöön mahdollistaa kuljetuspyyntöjen nopeamman käsittelyn.<br>'
+            + 'Tämän vaihtoehdon poistaminen käytöstä antaa mahdollisuuden nähdä operaation yksityiskohdat ennen kuljetuspyyntöjen käsittelyä. Tämä asetus ei vaikuta painikkeisiin "Siirry seuraavaan ajoneuvoon kuljetuspyynnöllä" ja "Takaisin tehtävään", ja ne napsautetaan aina automaattisesti.',
+        close: 'kiinni',
+        fms5H1: 'transportier'
+    };
+
     I18n.translations.nl_NL.lssm.statusDispatching = {
         name : 'Verbeterde spraakaanvragen',
         fms : 'Spraakaanvraag beantwoorden',

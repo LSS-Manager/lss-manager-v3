@@ -11,7 +11,7 @@ $.get(missionlink)
             heavyRescue: "Furgones de Útiles Varios",
             air: "aéreo",
             bchief: "unidades de Mando y Comunicaciones",
-            mcv: "vehículos de mando",
+            mcv: "unidades de mando",
             tanker: "(c|C)amiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
             police: "coches patrulla",

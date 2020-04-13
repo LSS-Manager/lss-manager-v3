@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.pt)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -47,15 +47,15 @@
             5000000000: 'Fire Chief'
         },
         texts:{
-            reloadMessage: 'Please open your profile<br>and reload the website!',
-            dropdownName: 'Creditsextension',
-            creditsOverview: 'Overview',
-            coinsProtokoll: 'Coins List',
-            earnedCredits: 'Totally earned Credits',
-            creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
-            allianceFunds: 'Alliance Funds',
-            noFurtherRank: 'There are no further ranks'
+            reloadMessage: 'Avaa profiilisi <br> ja lataa verkkosivusto uudelleen!',
+            dropdownName: 'Luoton jatkaminen',
+            creditsOverview: 'Yleiskatsaus',
+            coinsProtokoll: 'Kolikkalista',
+            earnedCredits: 'Täysin ansaitut luotot',
+            creditsToNextRank: 'Lainat seuraavalle sijoitukselle',
+            updateMessage: 'Arvot päivittyvät automaattisesti<br>joka 5. minuutti.<br>Lainat ja kolikot ovat<br>jatkuvasti ajan tasalla.',
+            allianceFunds: 'Allianssirahastot',
+            noFurtherRank: 'Enemmän rivejä ei ole'
         }
     };
     I18n.translations.en_GB.lssm.creditserweiterung = {
@@ -569,6 +569,33 @@
             updateMessage: 'Actualizarea automată a valorilor<br>la fiecare 5 minute.<br>Creditele și monedele sunt<br>actualizate în mod continuu.',
             allianceFunds: 'Fondurile Alianței',
             noFurtherRank: 'Nu mai sunt alte ranguri.'
+        }
+    };
+    I18n.translations.fi_FI.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? krediittiä ansaittu.*/i,
+        ranks: {
+            0: 'Harjoittelija',
+            200: 'Pelastaja',
+            10000: 'Ylipalomies',
+            100000: 'Palotarkastaja',
+            1000000: 'Luutnantti',
+            5000000: 'Kapteeni',
+            20000000: 'Asemamestari',
+            50000000: 'Paloesimies',
+            1000000000: 'Aluepalopäällikkö',
+            2000000000: 'Pelastuspäällikkö',
+            5000000000: 'Pelastusjohtaja'
+        },
+        texts: {
+            reloadMessage: 'Please open your profile<br>and reload the website!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Overview',
+            coinsProtokoll: 'Coins List',
+            earnedCredits: 'Totally earned Credits',
+            creditsToNextRank: 'Credits to next rank',
+            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            allianceFunds: 'Alliance Funds',
+            noFurtherRank: 'There are no further ranks'
         }
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {

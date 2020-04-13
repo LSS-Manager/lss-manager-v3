@@ -274,6 +274,22 @@
         }
     };
 
+    I18n.translations.fi_FI.lssm.centermap = {
+        center: "Keskusta",
+        settings: {
+            title: "Centre-Kartta",
+            choose: "Ole hyvä ja valitse",
+            option1: "oletusarvo",
+            option1desc: "Oletusarvoinen zoomaustaso ja keskitys ohjauskeskukseen ",
+            option2: "Dynaaminen",
+            alliance: "Ota liitto huomioon",
+            option2desc: "Keskitä kartta, että kaikki operaatiot ja asemat ovat näkyvissä.",
+            option3: "Mukautettu",
+            option3desc: "Aseta mukautettu sijainti ja zoomaustaso.",
+            set: "Tallenna nykyinen sijainti"
+        }
+    };
+
     I18n.translations.nl_NL.lssm.centermap = {
         center: "Centreren",
         settings: {

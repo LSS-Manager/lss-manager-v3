@@ -222,6 +222,19 @@
             cells: 'Ascunderea celulelor complete'
         }
     };
+    I18n.translations.fi_FI.lssm.destfilter = {
+        title: 'Kohdesuodatin',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Piilota täydet sairaalat',
+            department: 'Piilota sairaalat ilman tarvittavaa osastoa',
+            distance: 'Piilota kohteet yli x km etäisyyden (0 deaktivoituu)',
+            tax: 'Piilota kohteet, joiden TAX on yli x%',
+            cells: 'Piilota täydet solut'
+        }
+    };
     I18n.translations.nl_NL.lssm.destfilter = {
         title: 'Bestemming Filter',
         freeBeds: 'Vrije bedden',

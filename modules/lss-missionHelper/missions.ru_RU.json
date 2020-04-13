@@ -2111,5 +2111,80 @@
             "truck": 1
         },
         "credits": 2000
+    },
+    "147": {
+        "name": "\u0421\u0445\u043e\u0434 \u0441 \u0440\u0435\u043b\u044c\u0441\u043e\u0432 \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0435\u0437\u0434\u0430",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "poi": 24
+    },
+    "148": {
+        "name": "\u0421\u0445\u043e\u0434 \u0441 \u0440\u0435\u043b\u044c\u0441\u043e\u0432 \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0435\u0437\u0434\u0430",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "poi": 6
+    },
+    "149": {
+        "name": "\u0421\u0445\u043e\u0434 \u0441 \u0440\u0435\u043b\u044c\u0441\u043e\u0432 \u0442\u043e\u0432\u0430\u0440\u043d\u043e\u0433\u043e \u043f\u043e\u0435\u0437\u0434\u0430",
+        "stations": {
+            "0": 15,
+            "2": 3,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "bchief": 2,
+            "heavyRescue": 4,
+            "air": 2,
+            "hazmat": 2,
+            "mcv": 1,
+            "police": 2
+        },
+        "credits": 10000,
+        "patients": {
+            "max": 4,
+            "transport": 100,
+            "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0438\u044f"
+        },
+        "poi": 7
     }
 }
