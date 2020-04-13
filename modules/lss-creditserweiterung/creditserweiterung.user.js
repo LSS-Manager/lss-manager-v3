@@ -47,15 +47,16 @@
             5000000000: 'Fire Chief'
         },
         texts:{
-            reloadMessage: 'Avaa profiilisi <br> ja lataa verkkosivusto uudelleen!',
-            dropdownName: 'Luoton jatkaminen',
-            creditsOverview: 'Yleiskatsaus',
-            coinsProtokoll: 'Kolikkalista',
-            earnedCredits: 'Täysin ansaitut luotot',
-            creditsToNextRank: 'Lainat seuraavalle sijoitukselle',
-            updateMessage: 'Arvot päivittyvät automaattisesti<br>joka 5. minuutti.<br>Lainat ja kolikot ovat<br>jatkuvasti ajan tasalla.',
-            allianceFunds: 'Allianssirahastot',
-            noFurtherRank: 'Enemmän rivejä ei ole'
+            reloadMessage: 'Please open your profile<br>and reload the website!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Overview',
+            coinsProtokoll: 'Coins List',
+            earnedCredits: 'Totally earned Credits',
+            creditsToNextRank: 'Credits to next rank',
+            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
+            allianceFunds: 'Alliance Funds',
+            noFurtherRank: 'There are no further ranks'
+
         }
     };
     I18n.translations.en_GB.lssm.creditserweiterung = {
@@ -587,15 +588,15 @@
             5000000000: 'Pelastusjohtaja'
         },
         texts: {
-            reloadMessage: 'Please open your profile<br>and reload the website!',
-            dropdownName: 'Creditsextension',
-            creditsOverview: 'Overview',
-            coinsProtokoll: 'Coins List',
-            earnedCredits: 'Totally earned Credits',
-            creditsToNextRank: 'Credits to next rank',
-            updateMessage: 'Values update automatically<br>every 5 minutes.<br>Credits and Coins are<br>continuously up to date.',
-            allianceFunds: 'Alliance Funds',
-            noFurtherRank: 'There are no further ranks'
+            reloadMessage: 'Avaa profiilisi <br> ja lataa verkkosivusto uudelleen!',
+            dropdownName: 'Luoton jatkaminen',
+            creditsOverview: 'Yleiskatsaus',
+            coinsProtokoll: 'Kolikkalista',
+            earnedCredits: 'Täysin ansaitut luotot',
+            creditsToNextRank: 'Lainat seuraavalle sijoitukselle',
+            updateMessage: 'Arvot päivittyvät automaattisesti<br>joka 5. minuutti.<br>Lainat ja kolikot ovat<br>jatkuvasti ajan tasalla.',
+            allianceFunds: 'Allianssirahastot',
+            noFurtherRank: 'Enemmän rivejä ei ole'
         }
     };
     I18n.translations.nl_NL.lssm.creditserweiterung = {
@@ -621,6 +622,7 @@
             updateMessage: 'Waarden worden elke<br>5 minuten automatisch bijgewerkt.<br>Credits en coins zijn<br>continu up to date.',
             allianceFunds: 'Teamkas',
             noFurtherRank: 'Geen verdere rangen meer'
+            
         }
     };
 
