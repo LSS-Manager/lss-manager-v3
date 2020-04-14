@@ -238,14 +238,14 @@
         };
 
         I18n.translations.cs_CZ['lssm']['sumDailyMissions'] = {
-            patient_treatment: 'Patient Treatment',
+            patient_treatment: 'šetření pacienta',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
             extended: 'constructed',
             extended2: 'Extended',
             built: 'constructed',
-            teame: ' Aliance',
+            teame: ' aliance',
             team: '\\[Aliance\\]',
             prisoner: 'Prisoner Transported',
             num_missions: 'Součet misí',
