@@ -693,9 +693,9 @@ else if (I18n.locale == "nl_NL")
         "50": ["TS-OR | Tankautospuit - Oppervlakteredding", 0],
         "51": ["HVH | HulpverleningsHaakarmbak", 0],
         "52": ["RR | Rapid Responder", 1],
-        "53": ["AT-C | AT-Commandant",],
-        "54": ["AT-O | AT-Operator",],
-        "55": ["AT-M | AT-Materiaalwagen",]
+        "53": ["AT-C | AT-Commandant", 2],
+        "54": ["AT-O | AT-Operator", 2],
+        "55": ["AT-M | AT-Materiaalwagen", 2]
     };
 }
 else if (I18n.locale == "de_DE")
