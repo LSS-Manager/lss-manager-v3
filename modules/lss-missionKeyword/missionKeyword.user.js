@@ -4375,7 +4375,9 @@
         587: 'Prioriteit: paasei-jacht',
         588: 'Paashaas in een kraan',
         589: 'Voorzorgslanding klein vliegtuig',
-        590: 'Noodlanding groot vliegtuig'
+        590: 'Noodlanding groot vliegtuig',
+        591: 'Uitslaande brand in veestal',
+        592: 'Brand op bedrijventerein'
       }
     };
 
@@ -8401,7 +8403,9 @@
       587: 'P 3.5',
       588: 'HV 0.5',
       589: 'VOS KLEIN',
-      590: 'VOS GROOT'
+      590: 'VOS GROOT',
+      591: 'ZEER GROTE BRAND',
+      592: 'ZEER GROTE BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung
