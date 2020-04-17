@@ -3290,7 +3290,8 @@ const lssm_missionhelper_adjustPosition = () => {
             ovdg: "OvD-Geneeskunde",
             atc: "AT Commandant",
             ato: "AT Operator",
-            atm: "AT Materiaalwagen"
+            atm: "AT Materiaalwagen",
+            press: "DA-VL"
         },
         pois: [
             "Park",

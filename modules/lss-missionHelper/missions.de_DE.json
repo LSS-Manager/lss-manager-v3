@@ -9503,5 +9503,38 @@
             "rth": 10,
             "specialisation": "Unfallchirurgie"
         }
+    },
+    "520": {
+        "name": "Hotelbrand",
+        "stations": {
+            "0": 10,
+            "2": 8,
+            "6": 3,
+            "9": 3
+        },
+        "vehicles": {
+            "truck": 12,
+            "dlk": 4,
+            "elw1": 3,
+            "elw2": 1,
+            "atem": 1,
+            "gwl2": 1,
+            "mess": 1,
+            "fustw": 4,
+            "gkw": 2,
+            "mtwtz": 2,
+            "mzkw": 2
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 10,
+            "transport": 50,
+            "nef": 40,
+            "specialisation": "Allgemeine Innere"
+        },
+        "percentages": {
+            "mess": 40
+        }
     }
 }

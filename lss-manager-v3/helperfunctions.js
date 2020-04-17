@@ -695,7 +695,8 @@ else if (I18n.locale == "nl_NL")
         "52": ["RR | Rapid Responder", 1],
         "53": ["AT-C | AT-Commandant", 2],
         "54": ["AT-O | AT-Operator", 2],
-        "55": ["AT-M | AT-Materiaalwagen", 2]
+        "55": ["AT-M | AT-Materiaalwagen", 2],
+        "56": ["DA-VL | Dienstauto Voorlichter", 0]
     };
 }
 else if (I18n.locale == "de_DE")

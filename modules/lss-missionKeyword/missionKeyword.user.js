@@ -541,7 +541,8 @@
         516: 'Flugzeug Erstlandung',
         517: 'Brennender Baum',
         518: 'Brennender Baum',
-        519: 'Hüpfburgunfall'
+        519: 'Hüpfburgunfall',
+        520: 'Hotelbrand'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -4373,8 +4374,8 @@
         586: 'Gekantelde paaseivrachtwagen',
         587: 'Prioriteit: paasei-jacht',
         588: 'Paashaas in een kraan',
-        589: 'Voorzorgslanding vliegtuig met 1-6 personen',
-        590: 'Noodlanding vliegtuig met 7-30 personen'
+        589: 'Voorzorgslanding klein vliegtuig',
+        590: 'Noodlanding groot vliegtuig'
       }
     };
 
@@ -4917,7 +4918,8 @@
       516: 'ABSICHERUNG',
       517: 'B 1',
       518: 'B 1',
-      519: 'TECH 2'
+      519: 'THL 2',
+      520: 'B 7'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
