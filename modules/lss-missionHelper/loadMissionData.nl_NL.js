@@ -30,7 +30,8 @@ $.get(missionlink)
             afoosc: "AFO/OSC",
             atc: "AT Commandant",
             ato: "AT Operator",
-            atm: "AT Materiaalwagen"
+            atm: "AT Materiaalwagen",
+            press: "DA-VL"
         };
 
         let credits;

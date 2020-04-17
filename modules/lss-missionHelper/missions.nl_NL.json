@@ -10240,20 +10240,30 @@
         "credits": 2000
     },
     "589": {
-        "name": "Voorzorgslanding vliegtuig met 1-6 personen",
+        "name": "Voorzorgslanding klein vliegtuig",
         "stations": {
-            "0": 1
+            "0": 10,
+            "3": 4
         },
         "vehicles": {
             "truck": 1,
             "crashtender": 1,
             "afoosc": 1
         },
-        "credits": 1100,
-        "poi": 29
+        "credits": 1980,
+        "patients": {
+            "max": 6,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 29,
+        "expansions": {
+            "0": 590
+        }
     },
     "590": {
-        "name": "Noodlanding vliegtuig met 7-30 personen",
+        "name": "Noodlanding groot vliegtuig",
         "stations": {
             "0": 13,
             "3": 11,
@@ -10272,18 +10282,76 @@
             "noodhulpeen": 4,
             "ovdp": 1
         },
-        "credits": 1500,
+        "credits": 8640,
         "patients": {
             "max": 30,
             "min": 12,
             "transport": 60,
             "specialisation": "Algemene Heelkunde"
         },
-        "poi": 32,
+        "poi": 31,
         "percentages": {
             "hulpverlening": 20,
             "waarschuwing": 10,
             "gevaar": 10
         }
+    },
+    "591": {
+        "name": "Uitslaande brand in veestal",
+        "stations": {
+            "0": 18,
+            "3": 3,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 7,
+            "redvoertuig": 1,
+            "slangenwagen": 1,
+            "adembescherming": 1,
+            "waarschuwing": 4,
+            "gevaar": 1,
+            "bchief": 1,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 3,
+            "ovdp": 1
+        },
+        "credits": 9450,
+        "patients": {
+            "max": 3,
+            "min": 1,
+            "transport": 80,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 21
+    },
+    "592": {
+        "name": "Brand op bedrijventerein",
+        "stations": {
+            "0": 23,
+            "3": 4,
+            "5": 5
+        },
+        "vehicles": {
+            "truck": 8,
+            "redvoertuig": 2,
+            "slangenwagen": 2,
+            "adembescherming": 1,
+            "waarschuwing": 4,
+            "gevaar": 1,
+            "bchief": 2,
+            "hovd": 1,
+            "commando": 1,
+            "noodhulpeen": 4,
+            "ovdp": 1
+        },
+        "credits": 11060,
+        "patients": {
+            "max": 6,
+            "min": 1,
+            "transport": 90,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 51
     }
 }
