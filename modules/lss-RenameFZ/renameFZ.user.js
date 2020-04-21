@@ -792,6 +792,7 @@
                 5: "Base elisoccorso",
                 6: "Stazione di polizia",
                 7: "Centrale operativa",
+                13: "Elibase polizia",
                 18: "Caserma dei vigili del fuoco (piccola)",
                 19: "Stazione di polizia (stazione piccola)",
                 20: "Stazione ambulanze (stazione piccola)"
@@ -809,7 +810,12 @@
                 9: 'APS',
                 10: 'AF/ARIA',
                 11: 'UCL',
-                12: 'Autogrù'
+                12: 'Autogrù',
+                13: 'Elicottero della Polizia',
+                14: 'Furgone Antisommossa',
+                15: 'Unità cinofila antidroga',
+                16: 'Moto della Polizia',
+                17: 'UOPI Suv'
             }
         }
     };
@@ -1162,6 +1168,7 @@
             validStationTypes: {
                 0: "Unidade do corpo de bombeiros",
                 2: "Estação de ambulância",
+                5: "Centro de meios aéreos",
                 6: "Delegacia de polícia",
                 7: "Central de Despacho",
                 18: "Unidade do corpo de bombeiros (pequena)",

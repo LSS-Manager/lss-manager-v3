@@ -15,7 +15,7 @@ $.get(missionlink)
             tanker: "pipa",
             hazmat: "produtos perigosos",
             police: "Viaturas de polícia",
-            rth: "Helicóptero HSR",
+            rth: "Heli INEM",
             arff: "Defesa Civil",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulâncias"
@@ -71,6 +71,8 @@ $.get(missionlink)
                 transport = number;
             } else if (content.match(/NEF/)) {
                 nef = number;
+            } else if (content.match(/helicóptero/)) {
+                rth = number;
             } else if (content.match(/Especializações de paciente/)) {
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Número máximo de detentos/)) {
@@ -262,8 +264,8 @@ $.get(missionlink)
         function getStation(content) {
             let stationDefinitions = {
                0: "corpos de bombeiros",
-              2: "Estações de resgate",
-              6: "delegacias de polícia"
+               2: "Estações de resgate",
+               6: "delegacias de polícia"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {
