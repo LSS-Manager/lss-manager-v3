@@ -1885,5 +1885,19 @@
             "specialisation": "Traumatologie"
         },
         "poi": 6
+    },
+    "135": {
+        "name": "Feu de silo",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 4,
+            "platform": 1,
+            "heavyRescue": 1,
+            "bchief": 2
+        },
+        "credits": 3000,
+        "poi": 53
     }
 }

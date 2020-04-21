@@ -531,7 +531,7 @@
             "police": 2,
             "air": 1
         },
-        "credits": 5200,
+        "credits": 5500,
         "patients": {
             "max": 4,
             "transport": 50,
@@ -2204,6 +2204,45 @@
     },
     "148": {
         "name": "Bonifica insetti",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "truck": 1
+        },
+        "credits": 450
+    },
+    "149": {
+        "name": "Incendio cisterna chimica",
+        "stations": {
+            "0": 8,
+            "2": 5,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 5,
+            "heavyRescue": 4,
+            "bchief": 1,
+            "police": 4,
+            "hazmat": 1,
+            "air": 1
+        },
+        "credits": 8500,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 20,
+            "rth": 5,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 48,
+        "special": {
+            "averageMinimumEmployeesFire": 40
+        }
+    },
+    "150": {
+        "name": "Incendio barbecue",
         "stations": {
             "0": 1
         },

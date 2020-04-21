@@ -1331,5 +1331,25 @@
             "specialisation": "\uc678\uc0c1\ud559\uacfc"
         },
         "poi": 7
+    },
+    "97": {
+        "name": "\ud2b9\uc218 \ubc00\ud3d0 \uacf5\uac04 \uad6c\uc870",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "\uc77c\ubc18 \uc678\uacfc"
+        }
     }
 }

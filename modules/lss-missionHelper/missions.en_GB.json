@@ -2374,5 +2374,19 @@
             "min": 2,
             "specialisation": "General Surgeon"
         }
+    },
+    "169": {
+        "name": "Heathland fire",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 8,
+            "bchief": 3,
+            "tanker": 1,
+            "mcv": 1
+        },
+        "credits": 8000,
+        "poi": 54
     }
 }

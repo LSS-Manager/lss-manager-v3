@@ -1010,5 +1010,25 @@
             "heavyRescue": 2
         },
         "credits": 10210
+    },
+    "75": {
+        "name": "Pelastus kaivannosta",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "Yleiskirurgi"
+        }
     }
 }

@@ -1414,5 +1414,25 @@
             "specialisation": "Travmatoloji"
         },
         "poi": 7
+    },
+    "100": {
+        "name": "Kaz\u0131 \u00e7al\u0131\u015fmas\u0131 s\u0131ras\u0131nda g\u00f6\u00e7\u00fck",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "Genel Cerrah"
+        }
     }
 }

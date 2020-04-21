@@ -262,7 +262,8 @@ $.get(missionlink)
                 "Bar",
                 "Landfill site",
 				"Parking Garage",
-				"Silo"
+				"Silo",
+				"Heathland"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

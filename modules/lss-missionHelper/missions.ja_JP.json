@@ -1363,5 +1363,25 @@
             "specialisation": "\u707d\u5bb3\u5916\u79d1"
         },
         "poi": 6
+    },
+    "99": {
+        "name": "\u6398\u524a\u73fe\u5834\u6551\u52a9",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "\u4e00\u822c\u5916\u79d1"
+        }
     }
 }

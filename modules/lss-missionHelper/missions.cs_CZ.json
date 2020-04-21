@@ -1523,5 +1523,15 @@
             "specialisation": "\u00darazov\u00e1 chirurgie"
         },
         "poi": 7
+    },
+    "108": {
+        "name": "Odstran\u011bn\u00ed nebezpe\u010dn\u00e9ho hmyzu",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 900
     }
 }

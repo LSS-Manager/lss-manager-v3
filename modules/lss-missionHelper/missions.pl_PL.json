@@ -2484,5 +2484,35 @@
         "percentages": {
             "hazmat": 20
         }
+    },
+    "170": {
+        "name": "Zatrzymanie obywatelskie (pijany kierowca)",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 1000
+    },
+    "171": {
+        "name": "Zatrzymanie obywatelskie (pr\u00f3ba ucieczki sprawcy wypadku)",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 2000
+    },
+    "172": {
+        "name": "Podejrzana osoba pod szko\u0142\u0105 (diler)",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 1000
     }
 }
