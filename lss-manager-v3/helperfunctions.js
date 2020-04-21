@@ -430,7 +430,12 @@ else if (I18n.locale == "it_IT") {
         "9": ["APS", 0],
         "10": ["AF/ARIA", 0],
         "11": ["UCL", 0],
-        "12": ["Autogrù", 0]
+        "12": ["Autogrù", 0],
+        "13": ["Elicottero della Polizia", 2],
+        "14": ["Furgone Antisommossa", 2],
+        "15": ["Unità cinofila antidroga", 2],
+        "16": ["Moto della Polizia", 2],
+        "17": ["UOPI Suv", 2]
     };
 }
 else if (I18n.locale == "fr_FR") {

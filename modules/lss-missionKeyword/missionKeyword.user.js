@@ -1748,7 +1748,14 @@
         96: 'Descarrilamento de Comboio de Carga',
         97: 'Descarrilamento de Comboio de Carga',
         98: 'Descarrilamento de Comboio de Carga',
-        99: 'Resgate na vala'
+        99: 'Resgate na vala',
+        100: 'Lesão na coluna vertebral',
+        101: 'Colapso de fachada de edifício',
+        102: 'Colapso de edifício',
+        103: 'Queimaduras de 3° grau',
+        104: 'Lesões cerebrais graves',
+        105: 'Grande incêndio num palheiro',
+        106: 'Dores nas costas'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -2919,7 +2926,21 @@
         147: 'Dipendente intrappolato sotto il ponte auto',
         148: 'Bonifica insetti',
         149: 'Incendio cisterna chimica',
-        150: 'Incendio barbecue'
+        150: 'Incendio barbecue',
+        151: 'Evasione',
+        152: 'Sospetto in fuga',
+        153: 'Mandato di arresto',
+        154: 'Sparatoria in corso',
+        155: 'Perquisizione veicolo',
+        156: 'Piccola protesta violenta',
+        157: 'Media protesta violenta',
+        158: 'Spaccio di droga',
+        159: 'Rapina al benzinaio',
+        160: 'Sparatoria al posto di blocco',
+        161: 'Protezione VIP',
+        162: 'Furto in appartamento',
+        163: 'Tentato omicidio',
+        164: 'Furto al museo'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -6058,7 +6079,14 @@
       96: 'TECH 5',
       97: 'TECH 5',
       98: 'TECH 5',
-      99: 'TECH 1'
+      99: 'TECH 1',
+      100: 'MED 1',
+      101: 'TECH 2',
+      102: 'TECH 3',
+      103: 'MED 1',
+      104: 'MED 1',
+      105: 'FIRE 7',
+      106: 'MED 1'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -7101,7 +7129,21 @@
       147: 'TECH 2',
       148: 'TECH 1',
       149: 'FIRE 4 CBRN',
-      150: 'FIRE 1'
+      150: 'FIRE 1',
+      151: 'POL 4',
+      152: 'POL 2',
+      153: 'POL 3',
+      154: 'POL 5',
+      155: 'POL 3',
+      156: 'POL 4',
+      157: 'POL 6',
+      158: 'POL 3',
+      159: 'POL 3',
+      160: 'POL 5',
+      161: 'Missione pianificata',
+      162: 'POL 2',
+      163: 'POL 3',
+      164: 'POL 2'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',

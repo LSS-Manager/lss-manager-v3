@@ -483,9 +483,9 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hotel",
             "Bar",
             "Landfill site",
-			"Parking Garage",
-			"Silo",
-			"Heathland"
+            "Parking Garage",
+            "Silo",
+            "Heathland"
         ]
     };
 
@@ -978,7 +978,7 @@ const lssm_missionhelper_adjustPosition = () => {
             tanker: "Caminhões pipa",
             hazmat: "Viaturas de produtos perigosos",
             police: "Viaturas de polícia",
-            rth: "Helicóptero HSR",
+            rth: "Heli INEM",
             arff: "Defesa Civil",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulancia"
@@ -2131,9 +2131,11 @@ const lssm_missionhelper_adjustPosition = () => {
             rth: "elisoccorso",
             ambulance: "Ambulanza Medicalizzata",
             arff: "Flotta aerea antincendio AIB",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            policeHeli: "Police Helicopter"
+            k9: "unitò cinofila antidroga",
+            pmotorcycle: "Moto della Polizia",
+            swatArmoured: "furgone Antisommossa",
+            swatSuv: "Suv UOPI",
+            policeHeli: "elicottero della polizia"
         },
         pois: [
             "Parco",

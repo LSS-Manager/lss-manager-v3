@@ -19,9 +19,11 @@ $.get(missionlink)
             rth: "elisoccorso",
             ambulance: "Ambulanze",
             arff: "ARFF",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            policeHeli: "Police Helicopter"
+            k9: "unitò cinofila antidroga",
+            pmotorcycle: "Moto della Polizia",
+            swatArmoured: "furgone Antisommossa",
+            swatSuv: "Suv UOPI",
+            policeHeli: "elicottero della polizia"
         };
 
         let credits;
@@ -57,7 +59,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria/)) {
+            if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria|Richiesta|Richiesto/)) {
                 vehicles[getVehicle(content)] = number;
 			} else if (content.match(/Media min. Personale antincendio/)) {
                 special["averageMinimumEmployeesFire"] = number;
@@ -271,7 +273,7 @@ $.get(missionlink)
                 0: "Caserme dei vigili del fuoco",
                 2: "Stazioni di soccorso",
                 6: "stazioni di polizia",
-                13: "Police Helicopter"
+                13: "elicotteri della polizia"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

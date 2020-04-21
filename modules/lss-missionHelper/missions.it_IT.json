@@ -2251,5 +2251,231 @@
             "truck": 1
         },
         "credits": 450
+    },
+    "151": {
+        "name": "Evasione",
+        "stations": {
+            "6": 7,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 4,
+            "policeHeli": 1,
+            "swatSuv": 2
+        },
+        "credits": 4000,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "152": {
+        "name": "Sospetto in fuga",
+        "stations": {
+            "6": 4,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 3000,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "153": {
+        "name": "Mandato di arresto",
+        "stations": {
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 154
+        }
+    },
+    "154": {
+        "name": "Sparatoria in corso",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 4,
+            "swatSuv": 2
+        },
+        "credits": 1600,
+        "patients": {
+            "max": 3,
+            "specialisation": "Chirurgia generale"
+        }
+    },
+    "155": {
+        "name": "Perquisizione veicolo",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 2,
+            "k9": 1
+        },
+        "credits": 1000
+    },
+    "156": {
+        "name": "Piccola protesta violenta",
+        "stations": {
+            "2": 2,
+            "6": 6
+        },
+        "vehicles": {
+            "police": 4,
+            "k9": 1,
+            "swatSuv": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 3,
+            "specialisation": "Traumatologia"
+        },
+        "prisoners": {
+            "max": 2
+        },
+        "expansions": {
+            "0": 157
+        }
+    },
+    "157": {
+        "name": "Media protesta violenta",
+        "stations": {
+            "2": 3,
+            "6": 7
+        },
+        "vehicles": {
+            "police": 6,
+            "k9": 1,
+            "swatSuv": 2,
+            "swatArmoured": 2
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 5,
+            "specialisation": "Traumatologia"
+        },
+        "prisoners": {
+            "max": 4
+        }
+    },
+    "158": {
+        "name": "Spaccio di droga",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 3,
+            "k9": 1
+        },
+        "credits": 1500,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "159": {
+        "name": "Rapina al benzinaio",
+        "stations": {
+            "6": 8
+        },
+        "vehicles": {
+            "police": 3,
+            "swatSuv": 1
+        },
+        "credits": 1250,
+        "poi": 11,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "160": {
+        "name": "Sparatoria al posto di blocco",
+        "stations": {
+            "2": 1,
+            "6": 8,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 6,
+            "policeHeli": 1
+        },
+        "credits": 4100,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "161": {
+        "name": "Protezione VIP",
+        "stations": {
+            "6": 10
+        },
+        "vehicles": {
+            "police": 4,
+            "policeHeli": 1,
+            "k9": 1,
+            "swatSuv": 1
+        },
+        "credits": 4000,
+        "siwa": true,
+        "dauer": "30 Minuti"
+    },
+    "162": {
+        "name": "Furto in appartamento",
+        "stations": {
+            "6": 5
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 1250,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "163": {
+        "name": "Tentato omicidio",
+        "stations": {
+            "2": 1,
+            "6": 9
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologia"
+        },
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "164": {
+        "name": "Furto al museo",
+        "stations": {
+            "6": 9
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 1000,
+        "poi": 13,
+        "prisoners": {
+            "max": 3
+        }
     }
 }

@@ -1412,5 +1412,105 @@
             "min": 2,
             "specialisation": "Cirurgi\u00e3o geral"
         }
+    },
+    "100": {
+        "name": "Les\u00e3o na coluna vertebral",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "Cirurgi\u00e3o geral"
+    },
+    "101": {
+        "name": "Colapso de fachada de edif\u00edcio",
+        "stations": {
+            "0": 5,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "102": {
+        "name": "Colapso de edif\u00edcio",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 1,
+            "bchief": 2,
+            "police": 2
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "103": {
+        "name": "Queimaduras de 3\u00b0 grau",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Cirurgi\u00e3o geral"
+    },
+    "104": {
+        "name": "Les\u00f5es cerebrais graves",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurocirurgia"
+    },
+    "105": {
+        "name": "Grande inc\u00eandio num palheiro",
+        "stations": {
+            "0": 13
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 3,
+            "platform": 1,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "106": {
+        "name": "Dores nas costas",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "Cl\u00ednica m\u00e9dica"
     }
 }
