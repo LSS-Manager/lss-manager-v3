@@ -11,7 +11,7 @@ $.get(missionlink)
             heavyRescue: "Véhicule de secours routier",
             boat: "Boat",
             air: "Assistance respiratoire",
-            bchief: "(c|C)hef[^s] de groupe",
+            bchief: "de groupe",
             tanker: "(c|C)amion-citerne[^s]",
             hazmat: "risques technologiques",
             police: "Voitures de police",
@@ -255,7 +255,8 @@ $.get(missionlink)
                 "Hôtel",
                 "Bar",
                 "Décharge",
-                "Parking couvert"
+                "Parking couvert",
+                "Silo"
             ];
             for (let i = 0; i < pois.length; i++) {
                 if (content.match(pois[i])) {

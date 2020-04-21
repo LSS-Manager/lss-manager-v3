@@ -1328,5 +1328,25 @@
             "specialisation": "\u0422\u0440\u0430\u0432\u043c\u0430\u0442\u043e\u043b\u043e\u0433\u0456\u044f"
         },
         "poi": 7
+    },
+    "96": {
+        "name": "\u041f\u043e\u0440\u044f\u0442\u0443\u043d\u043e\u043a \u0456\u0437 \u0442\u0440\u0430\u043d\u0448\u0435\u0457",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "\u0425\u0456\u0440\u0443\u0440\u0433 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        }
     }
 }

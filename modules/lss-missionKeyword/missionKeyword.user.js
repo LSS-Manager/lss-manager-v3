@@ -937,7 +937,8 @@
         373: 'Large Controlled Burn',
         374: 'Fire Break Clearing',
         375: 'Lightning Strike in Forest',
-        376: 'Plane off the runway'
+        376: 'Plane off the runway',
+        377: 'Off-road Rescue'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1124,7 +1125,8 @@
         165: 'Easter Egg lorry crash',
         166: 'Easter egg hunt',
         167: 'Easter bunny on crane',
-        168: 'Trench Rescue'
+        168: 'Trench Rescue',
+        169: 'Heathland fire'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1308,7 +1310,8 @@
         162: 'Easter egg truck crash',
         163: 'Easter egg hunt',
         164: 'Easter bunny on crane',
-        165: 'Domestic violence'
+        165: 'Domestic violence',
+        166: 'Drug Lab Fire'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1467,7 +1470,8 @@
         137: 'Conejo de Pascua en grúa',
         138: 'Descarrilamiento del tren de carga',
         139: 'Descarrilamiento del tren de carga',
-        140: 'Descarrilamiento del tren de carga'
+        140: 'Descarrilamiento del tren de carga',
+        141: 'Rescate en zanjas'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1625,7 +1629,8 @@
         136: 'Conejo de Pascua en grúa',
         137: 'Descarrilamiento de tren de carga',
         138: 'Descarrilamiento de tren de carga',
-        139: 'Descarrilamiento de tren de carga'
+        139: 'Descarrilamiento de tren de carga',
+        140: 'Rescate en zanjas'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1742,7 +1747,8 @@
         95: 'Coelhinho da Páscoa numa grua',
         96: 'Descarrilamento de Comboio de Carga',
         97: 'Descarrilamento de Comboio de Carga',
-        98: 'Descarrilamento de Comboio de Carga'
+        98: 'Descarrilamento de Comboio de Carga',
+        99: 'Resgate na vala'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1858,7 +1864,8 @@
         94: 'Coelhinho da Páscoa numa grua',
         95: 'Descarrilamento de Comboio de Carga',
         96: 'Descarrilamento de Comboio de Carga',
-        97: 'Descarrilamento de Comboio de Carga'
+        97: 'Descarrilamento de Comboio de Carga',
+        98: 'Resgate na vala'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -2028,7 +2035,8 @@
         148: 'Grovt rån',
         149: 'Försök till mord/dråp',
         150: 'Bankrån med gisslan',
-        151: 'Trafikolycka - mindre motorfordon, moped'
+        151: 'Trafikolycka - mindre motorfordon, moped',
+        152: 'Hundbett'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -2171,7 +2179,8 @@
         121: 'Ild i soveværelse',
         122: 'Afsporet godstog',
         123: 'Afsporet godstog',
-        124: 'Afsporet godstog'
+        124: 'Afsporet godstog',
+        125: 'Grøft redning'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2297,7 +2306,8 @@
         104: 'Velikonoční zajíc na jeřábu',
         105: 'Vykolejení vlaku',
         106: 'Vykolejení vlaku',
-        107: 'Vykolejení vlaku'
+        107: 'Vykolejení vlaku',
+        108: 'Odstranění nebezpečného hmyzu'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2415,7 +2425,8 @@
         96: 'Paskalya tavşanı üzerine vinç düştü',
         97: 'Yük treni raydan çıktı',
         98: 'Yük treni raydan çıktı',
-        99: 'Yük treni raydan çıktı'
+        99: 'Yük treni raydan çıktı',
+        100: 'Kazı çalışması sırasında göçük'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2547,7 +2558,8 @@
         110: 'Påskehare på en kran',
         111: 'Avsporet godstog',
         112: 'Avsporet godstog',
-        113: 'Avsporet godstog'
+        113: 'Avsporet godstog',
+        114: 'Grøftredning'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2735,7 +2747,10 @@
         166: 'Poszukiwanie Jaj Wielkanocnych',
         167: 'Powieszony Zajączek Wielkanocny na dźwigu.',
         168: 'Wybuch gazu w mieszkaniu',
-        169: 'Ulatniający się gaz'
+        169: 'Ulatniający się gaz',
+        170: 'Zatrzymanie obywatelskie (pijany kierowca)',
+        171: 'Zatrzymanie obywatelskie (próba ucieczki sprawcy wypadku)',
+        172: 'Podejrzana osoba pod szkołą (diler)'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2902,7 +2917,9 @@
         145: 'Missione prioritaria: caccia alle uova di Pasqua',
         146: 'Coniglietto di Pasqua sulla gru',
         147: 'Dipendente intrappolato sotto il ponte auto',
-        148: 'Bonifica insetti'
+        148: 'Bonifica insetti',
+        149: 'Incendio cisterna chimica',
+        150: 'Incendio barbecue'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -3055,7 +3072,8 @@
         131: 'Cloche de Pâques dans une grue',
         132: 'Déraillement de train de fret',
         133: 'Déraillement de train de fret',
-        134: 'Déraillement de train de fret'
+        134: 'Déraillement de train de fret',
+        135: 'Feu de silo'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -3223,7 +3241,8 @@
         146: 'Кролик на подъёмном кране',
         147: 'Сход с рельсов товарного поезда',
         148: 'Сход с рельсов товарного поезда',
-        149: 'Сход с рельсов товарного поезда'
+        149: 'Сход с рельсов товарного поезда',
+        150: 'Спасение человека из траншеи'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -3337,7 +3356,8 @@
         92: 'Пасхальний кролик на підйомному крані',
         93: 'Сходження товарного потяга з рейок',
         94: 'Сходження товарного потяга з рейок',
-        95: 'Сходження товарного потяга з рейок'
+        95: 'Сходження товарного потяга з рейок',
+        96: 'Порятунок із траншеї'
       }
     };
     I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
@@ -3454,7 +3474,8 @@
         95: 'クレーンに乗ったイースターバニー',
         96: '貨物列車脱線',
         97: '貨物列車脱線',
-        98: '貨物列車脱線'
+        98: '貨物列車脱線',
+        99: '掘削現場救助'
       }
     };
     I18n.translations.ko_KR.lssm.missionKeywordDefaults = {
@@ -3569,7 +3590,8 @@
         93: '크레인 위의 이스터 버니',
         94: '화물 운송 열차 탈선',
         95: '화물 운송 열차 탈선',
-        96: '화물 운송 열차 탈선'
+        96: '화물 운송 열차 탈선',
+        97: '특수 밀폐 공간 구조'
       }
     };
     I18n.translations.ro_RO.lssm.missionKeywordDefaults = {
@@ -3673,7 +3695,8 @@
         82: 'Întrunirea iepurașilor în orașul ouălor de Paște',
         83: 'Camion cu ouă de Paște răsturnat',
         84: 'Misiune prioritară: vânătoarea ouălor de Paște',
-        85: 'Iepuraș de Paște pe macara'
+        85: 'Iepuraș de Paște pe macara',
+        86: 'Salvare din tranșeea'
       }
     };
     I18n.translations.fi_FI.lssm.missionKeywordDefaults = {
@@ -3766,7 +3789,8 @@
         71: 'Nenäverenvuoto',
         72: 'Pienkoneen maahansyöksy',
         73: 'Vakava linja-auto-onnettomuus',
-        74: 'Suuri tulipalo'
+        74: 'Suuri tulipalo',
+        75: 'Pelastus kaivannosta'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -4377,7 +4401,9 @@
         589: 'Voorzorgslanding klein vliegtuig',
         590: 'Noodlanding groot vliegtuig',
         591: 'Uitslaande brand in veestal',
-        592: 'Brand op bedrijventerein'
+        592: 'Brand op bedrijventerein',
+        593: 'Begeleiding demonstratie (klein)',
+        594: 'Begeleiding demonstratie (groot)'
       }
     };
 
@@ -5300,7 +5326,8 @@
       373: 'FIRE 3',
       374: 'FIRE 1',
       375: 'FIRE 1',
-      376: 'TECH 2 PLANE'
+      376: 'TECH 2 PLANE',
+      377: 'TECH 1'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -5472,7 +5499,8 @@
       165: 'TECH 1.5',
       166: 'POL 3.5',
       167: 'TECH 0.5',
-      168: 'TECH 2'
+      168: 'TECH 2',
+      169: 'FIRE 4'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -5640,7 +5668,8 @@
       162: 'TECH 1.5',
       163: 'POL 3.5',
       164: 'TECH 0.5',
-      165: 'POL 2'
+      165: 'POL 2',
+      166: 'CBRN 2'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -5783,7 +5812,8 @@
       137: 'TECH 0.5',
       138: 'TECH 5',
       139: 'TECH 5',
-      140: 'TECH 5'
+      140: 'TECH 5',
+      141: 'TECH 1'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -5925,7 +5955,8 @@
       136: 'TECH 0.5',
       137: 'TECH 5',
       138: 'TECH 5',
-      139: 'TECH 5'
+      139: 'TECH 5',
+      140: 'TECH 1'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -6026,7 +6057,8 @@
       95: 'TECH 0.5',
       96: 'TECH 5',
       97: 'TECH 5',
-      98: 'TECH 5'
+      98: 'TECH 5',
+      99: 'TECH 1'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -6126,7 +6158,8 @@
       94: 'TECH 0.5',
       95: 'TECH 5',
       96: 'TECH 5',
-      97: 'TECH 5'
+      97: 'TECH 5',
+      98: 'TECH 1'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -6280,7 +6313,8 @@
       148: 'POL 4',
       149: 'POL 2',
       150: 'POL 6',
-      151: 'TECH 1'
+      151: 'TECH 1',
+      152: 'POL 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -6407,7 +6441,8 @@
       121: 'FIRE 2',
       122: 'TECH 5',
       123: 'TECH 5',
-      124: 'TECH 5'
+      124: 'TECH 5',
+      125: 'TECH 1'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -6517,7 +6552,8 @@
       104: 'TECH 0.5',
       105: 'TECH 5',
       106: 'TECH 5',
-      107: 'TECH 5'
+      107: 'TECH 5',
+      108: 'TECH 1'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -6619,7 +6655,8 @@
       96: 'TECH 0.5',
       97: 'TECH 5',
       98: 'TECH 5',
-      99: 'TECH 5'
+      99: 'TECH 5',
+      100: 'TECH 1'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -6735,7 +6772,8 @@
       110: 'TECH 0.5',
       111: 'TECH 5',
       112: 'TECH 5',
-      113: 'TECH 5'
+      113: 'TECH 5',
+      114: 'TECH 1'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -6907,7 +6945,10 @@
       166: 'POL 3.5',
       167: 'TECH 0.5',
       168: 'FIRE 4',
-      169: 'TECH 1'
+      169: 'TECH 1',
+      170: 'POL 1',
+      171: 'POL 1',
+      172: 'POL 1'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -7058,7 +7099,9 @@
       145: 'POL 3.5',
       146: 'TECH 0.5',
       147: 'TECH 2',
-      148: 'TECH 1'
+      148: 'TECH 1',
+      149: 'FIRE 4 CBRN',
+      150: 'FIRE 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -7195,7 +7238,8 @@
       131: 'TECH 0.5',
       132: 'TECH 5',
       133: 'TECH 5',
-      134: 'TECH 5'
+      134: 'TECH 5',
+      135: 'FIRE 2'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -7347,7 +7391,8 @@
       146: 'TECH 0.5',
       147: 'TECH 5',
       148: 'TECH 5',
-      149: 'TECH 5'
+      149: 'TECH 5',
+      150: 'TECH 1'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -7445,7 +7490,8 @@
       92: 'TECH 0.5',
       93: 'TECH 5',
       94: 'TECH 5',
-      95: 'TECH 5'
+      95: 'TECH 5',
+      96: 'TECH 1'
     };
     let DEFAULT_AAO_JAJP = {
       0: 'FIRE 1',
@@ -7546,7 +7592,8 @@
       95: 'TECH 0.5',
       96: 'TECH 5',
       97: 'TECH 5',
-      98: 'TECH 5'
+      98: 'TECH 5',
+      99: 'TECH 1'
     };
     let DEFAULT_AAO_KOKR = {
       0: 'FIRE 1',
@@ -7645,7 +7692,8 @@
       93: 'TECH 0.5',
       94: 'TECH 5',
       95: 'TECH 5',
-      96: 'TECH 5'
+      96: 'TECH 5',
+      97: 'TECH 1'
     };
     let DEFAULT_AAO_RORO = {
       0: 'FIRE 1',
@@ -7733,7 +7781,8 @@
       82: 'Misiune planificată',
       83: 'TECH 1.5',
       84: 'POL 3.5',
-      85: 'TECH 0.5'
+      85: 'TECH 0.5',
+      86: 'TECH 1'
     };
     let DEFAULT_AAO_FIFI = {
       0: 'FIRE 1',
@@ -7810,7 +7859,8 @@
       71: 'MED 1',
       72: 'FIRE 3',
       73: 'TECH 3',
-      74: 'FIRE 7'
+      74: 'FIRE 7',
+      75: 'TECH 1'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -8405,7 +8455,9 @@
       589: 'VOS KLEIN',
       590: 'VOS GROOT',
       591: 'ZEER GROTE BRAND',
-      592: 'ZEER GROTE BRAND'
+      592: 'ZEER GROTE BRAND',
+      593: 'GEPLAND',
+      594: 'GEPLAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

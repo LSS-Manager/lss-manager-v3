@@ -484,7 +484,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bar",
             "Landfill site",
 			"Parking Garage",
-			"Silo"
+			"Silo",
+			"Heathland"
         ]
     };
 
@@ -2330,7 +2331,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Hôtel",
             "Bar",
             "Décharge",
-            "Parking couvert"
+            "Parking couvert",
+            "Silo"
         ]
     };
 

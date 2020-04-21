@@ -1392,5 +1392,25 @@
             "specialisation": "Traumatologia"
         },
         "poi": 7
+    },
+    "99": {
+        "name": "Resgate na vala",
+        "stations": {
+            "0": 5,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 3,
+            "bchief": 1,
+            "heavyRescue": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 4,
+            "min": 2,
+            "specialisation": "Cirurgi\u00e3o geral"
+        }
     }
 }

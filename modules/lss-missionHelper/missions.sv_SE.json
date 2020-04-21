@@ -2190,5 +2190,24 @@
             "transport": 65,
             "specialisation": "Traumatologi"
         }
+    },
+    "152": {
+        "name": "Hundbett",
+        "stations": {
+            "2": 3,
+            "6": 4
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologi"
+        },
+        "prisoners": {
+            "max": 1
+        }
     }
 }

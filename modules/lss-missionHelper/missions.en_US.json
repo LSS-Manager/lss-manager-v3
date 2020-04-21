@@ -6177,5 +6177,21 @@
         "percentages": {
             "platform": 50
         }
+    },
+    "377": {
+        "name": "Off-road Rescue",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1,
+            "brushtruck": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "specialisation": "General Surgeon"
+        }
     }
 }

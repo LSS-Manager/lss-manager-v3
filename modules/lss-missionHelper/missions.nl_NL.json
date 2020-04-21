@@ -10353,5 +10353,39 @@
             "specialisation": "Traumatologie"
         },
         "poi": 51
+    },
+    "593": {
+        "name": "Begeleiding demonstratie (klein)",
+        "stations": {
+            "5": 3,
+            "11": 1
+        },
+        "vehicles": {
+            "noodhulpeen": 3,
+            "megroep": 3,
+            "mecommando": 1
+        },
+        "credits": 4000,
+        "siwa": true,
+        "dauer": "2 uur"
+    },
+    "594": {
+        "name": "Begeleiding demonstratie (groot)",
+        "stations": {
+            "3": 1,
+            "5": 5,
+            "11": 3
+        },
+        "vehicles": {
+            "noodhulpeen": 4,
+            "hond": 1,
+            "megroep": 6,
+            "mecommando": 2,
+            "ovdp": 1,
+            "ambulance": 1
+        },
+        "credits": 6500,
+        "siwa": true,
+        "dauer": "3 uur"
     }
 }
