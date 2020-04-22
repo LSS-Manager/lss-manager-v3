@@ -148,7 +148,7 @@
         };
 
         I18n.translations.it_IT['lssm']['sumDailyMissions'] = {
-            patient_treatment: 'Trattamento del paziente',
+            patient_treatment: 'Trattamento e trasporto paziente',
             education: 'educazione',
             purchase: 'acquisito',
             cancelled: 'Annullato',

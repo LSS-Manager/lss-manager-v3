@@ -7,7 +7,7 @@ $.get(missionlink)
 
         let vehicleDefinitons = {
             truck: "(t|T)ankautospuiten",
-            noodhulpeen: "(n|N)oodhulpeenheden",
+            police: "(n|N)oodhulpeenheden",
             bchief: "OvD-B",
             redvoertuig: "((r|R)edvoertuigen)|((h|H)oogwerker)",
             slangenwagen: "(s|S)langenwagen",
@@ -31,7 +31,7 @@ $.get(missionlink)
             atc: "AT Commandant",
             ato: "AT Operator",
             atm: "AT Materiaalwagen",
-            press: "DA-VL"
+            press: "Voorlichter"
         };
 
         let credits;

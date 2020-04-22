@@ -3269,7 +3269,7 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "Tankautospuiten",
-            noodhulpeen: "Noodhulpeenheden",
+            police: "Noodhulpeenheden",
             bchief: "OvD-B",
             redvoertuig: "Redvoertuigen",
             hoogwerker: "Hoogwerker",
@@ -3295,7 +3295,7 @@ const lssm_missionhelper_adjustPosition = () => {
             atc: "AT Commandant",
             ato: "AT Operator",
             atm: "AT Materiaalwagen",
-            press: "DA-VL"
+            press: "Voorlichter"
         },
         pois: [
             "Park",
