@@ -60,14 +60,14 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "truck": 2,
             "bchief": 1,
             "redvoertuig": 1
         },
         "credits": 1400,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "6": {
@@ -209,7 +209,7 @@
             "specialisation": "Interne Geneeskunde"
         },
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "17": {
@@ -252,7 +252,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "bchief": 1,
             "hovd": 1,
             "truck": 3,
@@ -279,7 +279,7 @@
         },
         "credits": 2400,
         "percentages": {
-            "hoogwerker": 100
+            "redvoertuig": 100
         }
     },
     "22": {
@@ -289,7 +289,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "redvoertuig": 1,
             "truck": 3,
             "bchief": 1,
@@ -297,7 +297,7 @@
         },
         "credits": 2700,
         "percentages": {
-            "hoogwerker": 100,
+            "redvoertuig": 100,
             "hovd": 50
         }
     },
@@ -312,7 +312,7 @@
         },
         "credits": 1200,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "24": {
@@ -333,7 +333,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "hulpverlening": 1,
             "bchief": 1,
             "truck": 1
@@ -360,7 +360,7 @@
             "bchief": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3510,
         "poi": 10,
@@ -397,7 +397,7 @@
         "credits": 1600,
         "poi": 21,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "slangenwagen": 20
         }
     },
@@ -415,7 +415,7 @@
             "adembescherming": 1,
             "hovd": 1,
             "slangenwagen": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2470,
         "patients": {
@@ -487,7 +487,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2100,
         "poi": 10
@@ -605,7 +605,7 @@
             "adembescherming": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3720,
         "poi": 11,
@@ -622,7 +622,7 @@
             "bchief": 2,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 8
+            "police": 8
         },
         "credits": 10000,
         "patients": {
@@ -730,7 +730,8 @@
             "hulpverlening": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
-            "commando": 1
+            "commando": 1,
+            "press": 1
         },
         "credits": 1700,
         "poi": 12,
@@ -750,7 +751,7 @@
         "credits": 230,
         "poi": 12,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "55": {
@@ -796,7 +797,7 @@
         },
         "credits": 210,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "58": {
@@ -835,7 +836,7 @@
         },
         "credits": 800,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "61": {
@@ -852,7 +853,7 @@
             "0": 22
         },
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "62": {
@@ -882,7 +883,7 @@
         },
         "credits": 500,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "64": {
@@ -897,7 +898,7 @@
         },
         "credits": 700,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "65": {
@@ -931,7 +932,7 @@
         },
         "credits": 320,
         "percentages": {
-            "hoogwerker": 30
+            "redvoertuig": 30
         }
     },
     "68": {
@@ -976,7 +977,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200,
         "poi": 9,
@@ -990,7 +991,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200,
         "poi": 10,
@@ -1004,7 +1005,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200,
         "poi": 14,
@@ -1018,7 +1019,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200,
         "prisoners": {
@@ -1031,7 +1032,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 500,
         "prisoners": {
@@ -1044,7 +1045,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 300,
         "prisoners": {
@@ -1063,7 +1064,7 @@
             "bchief": 1,
             "hovd": 1,
             "hulpverlening": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3000,
         "patients": {
@@ -1087,7 +1088,7 @@
             "truck": 1,
             "bchief": 1,
             "hulpverlening": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2000,
         "patients": {
@@ -1114,7 +1115,7 @@
             "0": 34
         },
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "79": {
@@ -1140,11 +1141,14 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200,
         "prisoners": {
             "max": 1
+        },
+        "expansions": {
+            "0": 568
         }
     },
     "82": {
@@ -1155,7 +1159,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "bchief": 1,
             "hulpverlening": 1,
             "truck": 1
@@ -1196,7 +1200,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 300,
         "patients": {
@@ -1214,7 +1218,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1000,
         "patients": {
@@ -1379,7 +1383,7 @@
         "vehicles": {
             "gevaar": 1,
             "bchief": 1,
-            "noodhulpeen": 1,
+            "police": 1,
             "truck": 1
         },
         "credits": 1200,
@@ -1420,7 +1424,7 @@
             "0": 32
         },
         "percentages": {
-            "hoogwerker": 100
+            "redvoertuig": 100
         }
     },
     "104": {
@@ -1465,7 +1469,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "bchief": 1,
             "hulpverlening": 1,
             "truck": 1
@@ -1489,7 +1493,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "bchief": 1,
             "hulpverlening": 1,
             "truck": 1
@@ -1513,7 +1517,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "bchief": 1,
             "hulpverlening": 1,
             "truck": 1
@@ -1541,7 +1545,7 @@
         },
         "credits": 500,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "111": {
@@ -1557,7 +1561,7 @@
         },
         "credits": 1500,
         "percentages": {
-            "hoogwerker": 80,
+            "redvoertuig": 80,
             "slangenwagen": 10
         }
     },
@@ -1567,7 +1571,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 400,
         "poi": 14,
@@ -1581,7 +1585,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 1000,
         "poi": 14,
@@ -1610,7 +1614,7 @@
             "truck": 2,
             "bchief": 1,
             "redvoertuig": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1400
     },
@@ -1655,7 +1659,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "ambulance": 3
         },
         "credits": 3700,
@@ -1668,7 +1672,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2000,
         "siwa": true,
@@ -1681,7 +1685,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "ambulance": 2
         },
         "credits": 4000,
@@ -1708,7 +1712,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "polHeli": 1
         },
         "credits": 4000,
@@ -1721,7 +1725,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "polHeli": 1
         },
         "credits": 4000,
@@ -1734,7 +1738,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "polHeli": 1
         },
         "credits": 4000
@@ -1746,7 +1750,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "polHeli": 1
         },
         "credits": 3500
@@ -1763,7 +1767,7 @@
         "credits": 600,
         "poi": 21,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "127": {
@@ -1820,14 +1824,14 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1
         },
         "credits": 1400,
         "percentages": {
-            "hoogwerker": 50
+            "redvoertuig": 50
         }
     },
     "131": {
@@ -1837,7 +1841,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1,
+            "police": 1,
             "truck": 3,
             "redvoertuig": 1,
             "bchief": 1,
@@ -2017,7 +2021,8 @@
             "adembescherming": 1,
             "slangenwagen": 3,
             "hovd": 2,
-            "commando": 1
+            "commando": 1,
+            "press": 1
         },
         "credits": 8000,
         "poi": 3,
@@ -2035,114 +2040,114 @@
             "slangenwagen": 10,
             "hovd": 4,
             "commando": 2,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 22500
-    },
-    "146": {
-        "name": "Brandende vogelverschrikker",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 350
-    },
-    "147": {
-        "name": "Brandend pompoenveld",
-        "stations": {
-            "0": 6
-        },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1
-        },
-        "credits": 850
-    },
-    "148": {
-        "name": "Overkookte pompoensoep",
-        "stations": {
-            "0": 1,
-            "3": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 1500,
-        "patients": {
-            "max": 1,
-            "specialisation": "Neurologie"
-        }
-    },
-    "149": {
-        "name": "Heks vast in boom",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1,
-            "redvoertuig": 1
-        },
-        "credits": 900,
-        "patients": {
-            "max": 1,
-            "transport": 80,
-            "specialisation": "Traumatologie"
-        }
-    },
-    "150": {
-        "name": "Monster uitgebroken",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 4
-        },
-        "credits": 1600
-    },
-    "151": {
-        "name": "Gestolen pompoenen",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 100
-    },
-    "152": {
-        "name": "Frankenstein gespot",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 3
-        },
-        "credits": 550
-    },
-    "153": {
-        "name": "Snoep diefstal",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 100
-    },
-    "154": {
-        "name": "Horrorclown gespot",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 600,
-        "prisoners": {
-            "max": 1
-        }
+    },	
+    "146": {	
+        "name": "Brandende vogelverschrikker",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 350	
+    },	
+    "147": {	
+        "name": "Brandend pompoenveld",	
+        "stations": {	
+            "0": 6	
+        },	
+        "vehicles": {	
+            "truck": 2,	
+            "bchief": 1	
+        },	
+        "credits": 850	
+    },	
+    "148": {	
+        "name": "Overkookte pompoensoep",	
+        "stations": {	
+            "0": 1,	
+            "3": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 1500,	
+        "patients": {	
+            "max": 1,	
+            "specialisation": "Neurologie"	
+        }	
+    },	
+    "149": {	
+        "name": "Heks vast in boom",	
+        "stations": {	
+            "0": 3	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "redvoertuig": 1	
+        },	
+        "credits": 900,	
+        "patients": {	
+            "max": 1,	
+            "transport": 80,	
+            "specialisation": "Traumatologie"	
+        }	
+    },	
+    "150": {	
+        "name": "Monster uitgebroken",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 4	
+        },	
+        "credits": 1600	
+    },	
+    "151": {	
+        "name": "Gestolen pompoenen",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 100	
+    },	
+    "152": {	
+        "name": "Frankenstein gespot",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 3	
+        },	
+        "credits": 550	
+    },	
+    "153": {	
+        "name": "Snoep diefstal",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 100	
+    },	
+    "154": {	
+        "name": "Horrorclown gespot",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 600,	
+        "prisoners": {	
+            "max": 1	
+        }	
     },
     "155": {
         "name": "Gaslekkage",
@@ -2240,222 +2245,222 @@
             "hovd": 50,
             "adembescherming": 20
         }
-    },
-    "160": {
-        "name": "Brandende cadeautjes",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 550
-    },
-    "161": {
-        "name": "Sinterklaas van dak gegleden",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Traumatologie"
-    },
-    "162": {
-        "name": "Pepernoot op hoofd",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Traumatologie"
-    },
-    "163": {
-        "name": "Piet bestolen",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 500
-    },
-    "164": {
-        "name": "Kind geschrokken",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 0
-    },
-    "165": {
-        "name": "Piet klem in schoorsteen",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "redvoertuig": 1
-        },
-        "credits": 950,
-        "patients": {
-            "max": 1,
-            "min": 1
-        }
-    },
-    "166": {
-        "name": "Demonstratie zwarte piet",
-        "stations": {
-            "5": 3
-        },
-        "vehicles": {
-            "noodhulpeen": 4
-        },
-        "credits": 1200
-    },
-    "167": {
-        "name": "Schoenen dief",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 200
-    },
-    "168": {
-        "name": "Verstikking in pepernoot",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 80
-    },
-    "169": {
-        "name": "Brandende kerstboom",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 550
-    },
-    "170": {
-        "name": "Brandende kerstboom",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 550,
-        "poi": 17
-    },
-    "171": {
-        "name": "Verkeersongeval door gladheid",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "bchief": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 550,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologie"
-        },
-        "percentages": {
-            "bchief": 40
-        }
-    },
-    "172": {
-        "name": "Gevallen kerstman",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Traumatologie"
-    },
-    "173": {
-        "name": "Ruzie op de kerstmarkt",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 1000,
-        "poi": 17,
-        "prisoners": {
-            "max": 2
-        }
-    },
-    "174": {
-        "name": "Diefstal op de kerstmarkt",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 200,
-        "poi": 17,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "175": {
-        "name": "Brandende kerstmarktkraam",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 600,
-        "poi": 17
-    },
-    "176": {
-        "name": "Gevallen schaatser",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 60,
-        "specialisation": "Traumatologie"
-    },
-    "177": {
-        "name": "Gevallen persoon door gladheid",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 60,
-        "specialisation": "Traumatologie"
-    },
-    "178": {
-        "name": "Donkere dagen offensief",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 600
-    },
-    "179": {
-        "name": "Snijwond door gebroken kerstbal",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 20,
-        "specialisation": "Traumatologie"
+    },	
+    "160": {	
+        "name": "Brandende cadeautjes",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 550	
+    },	
+    "161": {	
+        "name": "Sinterklaas van dak gegleden",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 100,	
+        "specialisation": "Traumatologie"	
+    },	
+    "162": {	
+        "name": "Pepernoot op hoofd",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 50,	
+        "specialisation": "Traumatologie"	
+    },	
+    "163": {	
+        "name": "Piet bestolen",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 500	
+    },	
+    "164": {	
+        "name": "Kind geschrokken",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 0	
+    },	
+    "165": {	
+        "name": "Piet klem in schoorsteen",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "redvoertuig": 1	
+        },	
+        "credits": 950,	
+        "patients": {	
+            "max": 1,	
+            "min": 1	
+        }	
+    },	
+    "166": {	
+        "name": "Demonstratie zwarte piet",	
+        "stations": {	
+            "5": 3	
+        },	
+        "vehicles": {	
+            "police": 4	
+        },	
+        "credits": 1200	
+    },	
+    "167": {	
+        "name": "Schoenen dief",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 200	
+    },	
+    "168": {	
+        "name": "Verstikking in pepernoot",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 80	
+    },	
+    "169": {	
+        "name": "Brandende kerstboom",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 550	
+    },	
+    "170": {	
+        "name": "Brandende kerstboom",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 550,	
+        "poi": 17	
+    },	
+    "171": {	
+        "name": "Verkeersongeval door gladheid",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "bchief": 1,	
+            "police": 1	
+        },	
+        "credits": 550,	
+        "patients": {	
+            "max": 1,	
+            "min": 1,	
+            "transport": 100,	
+            "specialisation": "Traumatologie"	
+        },	
+        "percentages": {	
+            "bchief": 40	
+        }	
+    },	
+    "172": {	
+        "name": "Gevallen kerstman",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 100,	
+        "specialisation": "Traumatologie"	
+    },	
+    "173": {	
+        "name": "Ruzie op de kerstmarkt",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 1000,	
+        "poi": 17,	
+        "prisoners": {	
+            "max": 2	
+        }	
+    },	
+    "174": {	
+        "name": "Diefstal op de kerstmarkt",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 200,	
+        "poi": 17,	
+        "prisoners": {	
+            "max": 1	
+        }	
+    },	
+    "175": {	
+        "name": "Brandende kerstmarktkraam",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 600,	
+        "poi": 17	
+    },	
+    "176": {	
+        "name": "Gevallen schaatser",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 60,	
+        "specialisation": "Traumatologie"	
+    },	
+    "177": {	
+        "name": "Gevallen persoon door gladheid",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 60,	
+        "specialisation": "Traumatologie"	
+    },	
+    "178": {	
+        "name": "Donkere dagen offensief",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 600	
+    },	
+    "179": {	
+        "name": "Snijwond door gebroken kerstbal",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 20,	
+        "specialisation": "Traumatologie"	
     },
     "180": {
         "name": "Bergen object uit water voor politie",
@@ -2467,7 +2472,7 @@
         "vehicles": {
             "truck": 1,
             "watervoertuig": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1000,
         "poi": 1
@@ -2481,7 +2486,7 @@
             "water": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "watervoertuig": 1,
             "truck": 1,
             "hulpverlening": 1,
@@ -2508,7 +2513,7 @@
             "water": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "watervoertuig": 1,
             "hulpverlening": 1,
             "truck": 1,
@@ -2568,7 +2573,7 @@
             "truck": 1,
             "bchief": 1,
             "watervoertuig": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1200,
         "poi": 1
@@ -2612,7 +2617,7 @@
         },
         "credits": 310,
         "percentages": {
-            "hoogwerker": 50
+            "redvoertuig": 50
         }
     },
     "189": {
@@ -2654,7 +2659,7 @@
         },
         "credits": 420,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "192": {
@@ -2747,7 +2752,7 @@
         },
         "credits": 190,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "199": {
@@ -2756,7 +2761,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 800,
@@ -2774,7 +2779,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "truck": 1,
             "bchief": 1,
@@ -2792,7 +2797,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 850,
@@ -2815,7 +2820,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 1500,
@@ -2838,7 +2843,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "truck": 1,
             "bchief": 1,
             "hulpverlening": 1,
@@ -2864,7 +2869,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "truck": 1,
             "bchief": 1,
             "hulpverlening": 1,
@@ -2900,7 +2905,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 850,
         "patients": {
@@ -2910,7 +2915,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 20,
+            "redvoertuig": 20,
             "wateraanhanger": 50
         }
     },
@@ -2928,7 +2933,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1100,
         "patients": {
@@ -2938,7 +2943,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 50
+            "redvoertuig": 50
         }
     },
     "207": {
@@ -2956,7 +2961,7 @@
             "hulpverlening": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 900,
         "patients": {
@@ -2965,7 +2970,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 10,
+            "redvoertuig": 10,
             "hulpverlening": 40,
             "wateraanhanger": 10
         }
@@ -2985,7 +2990,7 @@
             "hulpverlening": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 1200,
         "patients": {
@@ -2994,7 +2999,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "hulpverlening": 60,
             "wateraanhanger": 50
         }
@@ -3014,7 +3019,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1100,
         "patients": {
@@ -3024,7 +3029,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 10,
+            "redvoertuig": 10,
             "hulpverlening": 50
         }
     },
@@ -3043,7 +3048,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1500,
         "patients": {
@@ -3054,7 +3059,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "hulpverlening": 50
         }
     },
@@ -3075,7 +3080,7 @@
             "commando": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2000,
         "patients": {
@@ -3086,7 +3091,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 80,
+            "redvoertuig": 80,
             "hulpverlening": 80,
             "hovd": 50,
             "commando": 50
@@ -3105,7 +3110,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "patients": {
@@ -3132,7 +3137,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 2,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1100,
         "patients": {
@@ -3142,7 +3147,7 @@
         },
         "poi": 1,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "214": {
@@ -3202,7 +3207,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 620,
@@ -3216,7 +3221,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "polHeli": 1,
             "ovdp": 1,
             "truck": 1,
@@ -3254,7 +3259,7 @@
             "truck": 2,
             "hulpverlening": 1,
             "redvoertuig": 1,
-            "noodhulpeen": 1,
+            "police": 1,
             "ambulance": 1
         },
         "credits": 3000,
@@ -3268,7 +3273,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 800,
@@ -3286,7 +3291,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "polHeli": 1
         },
@@ -3341,7 +3346,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 750,
         "poi": 6,
@@ -3355,7 +3360,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 750,
         "poi": 6,
@@ -3378,7 +3383,7 @@
             "adembescherming": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1700,
         "poi": 11,
@@ -3404,7 +3409,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 800,
         "poi": 4
@@ -3415,7 +3420,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 800,
         "poi": 4,
@@ -3435,7 +3440,7 @@
         },
         "credits": 900,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "234": {
@@ -3449,7 +3454,7 @@
             "bchief": 3,
             "hovd": 2,
             "commando": 2,
-            "noodhulpeen": 12
+            "police": 12
         },
         "credits": 11500,
         "patients": {
@@ -3467,7 +3472,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 400,
         "patients": {
@@ -3483,7 +3488,7 @@
             "5": 5
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 1500,
@@ -3509,7 +3514,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "adembescherming": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 780,
         "percentages": {
@@ -3557,7 +3562,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1150,
         "patients": {
@@ -3581,7 +3586,7 @@
             "truck": 1,
             "bchief": 1,
             "watervoertuig": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "poi": 1,
@@ -3596,7 +3601,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 750
     },
@@ -3617,7 +3622,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "megroep": 3,
             "mecommando": 1
@@ -3632,7 +3637,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 4
+            "police": 4
         },
         "credits": 600
     },
@@ -3643,7 +3648,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1,
             "megroep": 3,
             "mecommando": 1
@@ -3658,7 +3663,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "megroep": 3,
             "mecommando": 1,
             "polHeli": 1
@@ -3672,7 +3677,7 @@
             "9": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "polHeli": 1
         },
         "credits": 2700
@@ -3683,7 +3688,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 300
     },
@@ -3701,7 +3706,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1000,
         "patients": {
@@ -3730,7 +3735,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1300,
         "patients": {
@@ -3744,22 +3749,22 @@
         "percentages": {
             "wateraanhanger": 60
         }
-    },
-    "253": {
-        "name": "Grote boek van Sinterklaas aangespoeld",
-        "stations": {
-            "0": 12,
-            "5": 1,
-            "water": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "watervoertuig": 1,
-            "wateraanhanger": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 1000,
-        "poi": 1
+    },	
+    "253": {	
+        "name": "Grote boek van Sinterklaas aangespoeld",	
+        "stations": {	
+            "0": 12,	
+            "5": 1,	
+            "water": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "watervoertuig": 1,	
+            "wateraanhanger": 1,	
+            "police": 1	
+        },	
+        "credits": 1000,	
+        "poi": 1	
     },
     "254": {
         "name": "Brandende goederenwagon",
@@ -3802,7 +3807,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 400
     },
@@ -3812,7 +3817,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 500
     },
@@ -3827,7 +3832,7 @@
         },
         "credits": 250,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "259": {
@@ -3841,7 +3846,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1050,
         "patients": {
@@ -3876,7 +3881,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 430
     },
@@ -3901,12 +3906,12 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 650,
         "poi": 0,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "265": {
@@ -3966,7 +3971,7 @@
             "commando": 1,
             "crashtender": 2,
             "afoosc": 1,
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 2600,
@@ -3994,7 +3999,7 @@
             "commando": 1,
             "crashtender": 2,
             "afoosc": 1,
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 2700,
@@ -4011,7 +4016,7 @@
             "bchief": 1,
             "crashtender": 2,
             "afoosc": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "truck": 1
         },
         "credits": 1800,
@@ -4047,7 +4052,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "crashtender": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1100,
         "patients": {
@@ -4072,7 +4077,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "crashtender": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2100,
         "patients": {
@@ -4101,7 +4106,7 @@
             "hovd": 1,
             "commando": 1,
             "crashtender": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 3000,
@@ -4128,7 +4133,7 @@
             "truck": 1,
             "bchief": 1,
             "crashtender": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1650,
         "poi": 31,
@@ -4148,7 +4153,7 @@
             "bchief": 1,
             "hovd": 1,
             "crashtender": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 2500,
@@ -4184,7 +4189,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 750
     },
@@ -4200,7 +4205,7 @@
         "credits": 850,
         "poi": 15,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "281": {
@@ -4216,7 +4221,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2700,
         "poi": 15,
@@ -4244,7 +4249,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3620,
         "patients": {
@@ -4275,7 +4280,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 500
     },
@@ -4291,7 +4296,7 @@
         "credits": 1400,
         "poi": 10,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "286": {
@@ -4311,7 +4316,7 @@
         },
         "poi": 0,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "287": {
@@ -4326,7 +4331,7 @@
         "credits": 350,
         "poi": 18,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "288": {
@@ -4355,7 +4360,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2150,
         "poi": 18,
@@ -4382,7 +4387,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3000,
         "poi": 18,
@@ -4408,7 +4413,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 4200,
         "poi": 18,
@@ -4427,7 +4432,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1575,
         "patients": {
@@ -4452,7 +4457,7 @@
             "truck": 2,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2450,
         "patients": {
@@ -4470,7 +4475,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 550,
         "poi": 14
@@ -4481,7 +4486,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 450,
         "poi": 14
@@ -4498,7 +4503,7 @@
         "credits": 900,
         "poi": 13,
         "percentages": {
-            "hoogwerker": 70
+            "redvoertuig": 70
         }
     },
     "297": {
@@ -4512,7 +4517,7 @@
             "redvoertuig": 1,
             "bchief": 1,
             "adembescherming": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1500,
         "poi": 13,
@@ -4535,7 +4540,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2200,
         "patients": {
@@ -4561,7 +4566,7 @@
             "truck": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "poi": 1,
@@ -4583,7 +4588,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1450,
         "patients": {
@@ -4602,7 +4607,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 750
     },
@@ -4618,7 +4623,7 @@
         "credits": 850,
         "poi": 22,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "303": {
@@ -4634,7 +4639,7 @@
         "credits": 1650,
         "poi": 22,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "304": {
@@ -4650,7 +4655,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2400,
         "poi": 22,
@@ -4671,7 +4676,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1450,
         "patients": {
@@ -4696,7 +4701,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "hovd": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2100,
         "patients": {
@@ -4723,7 +4728,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 3250,
@@ -4748,7 +4753,7 @@
             "slangenwagen": 4,
             "hovd": 2,
             "commando": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 11500,
         "poi": 3,
@@ -4770,7 +4775,7 @@
             "slangenwagen": 6,
             "hovd": 3,
             "commando": 2,
-            "noodhulpeen": 5
+            "police": 5
         },
         "credits": 18750,
         "poi": 3
@@ -4782,7 +4787,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 750,
         "patients": {
@@ -4800,7 +4805,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 650,
         "patients": {
@@ -4825,7 +4830,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 4000,
         "patients": {
@@ -4849,7 +4854,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1000,
         "poi": 6
@@ -4865,7 +4870,7 @@
             "truck": 2,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2100,
         "patients": {
@@ -4895,8 +4900,9 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
-            "ovdp": 1
+            "police": 3,
+            "ovdp": 1,
+            "press": 1
         },
         "credits": 3250,
         "patients": {
@@ -4918,7 +4924,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1100,
         "prisoners": {
@@ -4931,7 +4937,7 @@
             "5": 6
         },
         "vehicles": {
-            "noodhulpeen": 4
+            "police": 4
         },
         "credits": 2000,
         "prisoners": {
@@ -4993,7 +4999,8 @@
             "gevaar": 1,
             "hovd": 1,
             "watervoertuig": 1,
-            "wateraanhanger": 2
+            "wateraanhanger": 2,
+            "press": 1
         },
         "credits": 4750,
         "patients": {
@@ -5044,7 +5051,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 750,
         "patients": {
@@ -5061,7 +5068,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 900,
         "patients": {
@@ -5079,7 +5086,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1100,
         "patients": {
@@ -5106,7 +5113,7 @@
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3650,
         "poi": 21,
@@ -5135,7 +5142,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 7000,
         "poi": 21,
@@ -5158,7 +5165,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 700,
         "patients": {
@@ -5183,7 +5190,7 @@
         },
         "vehicles": {
             "hond": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 350
     },
@@ -5195,7 +5202,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1,
             "hond": 1
         },
@@ -5220,7 +5227,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1500,
@@ -5236,7 +5243,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1500,
@@ -5253,7 +5260,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "hond": 1,
             "polHeli": 1
         },
@@ -5275,7 +5282,7 @@
         "credits": 850,
         "poi": 12,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "335": {
@@ -5288,12 +5295,12 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1750,
         "poi": 12,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "336": {
@@ -5309,7 +5316,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2850,
         "poi": 12,
@@ -5326,7 +5333,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1000,
         "patients": {
@@ -5346,7 +5353,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1550,
@@ -5371,7 +5378,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1150,
         "poi": 11,
@@ -5396,7 +5403,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2500,
         "poi": 11,
@@ -5461,7 +5468,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1375,
         "patients": {
@@ -5492,7 +5499,8 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1
+            "police": 1,
+            "press": 1
         },
         "credits": 2850,
         "patients": {
@@ -5522,7 +5530,7 @@
             "gevaar": 2,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 5
+            "police": 5
         },
         "credits": 18500
     },
@@ -5539,7 +5547,7 @@
             "gevaar": 1,
             "hovd": 2,
             "commando": 1,
-            "noodhulpeen": 5
+            "police": 5
         },
         "credits": 17500
     },
@@ -5558,7 +5566,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1750,
         "patients": {
@@ -5568,7 +5576,7 @@
         },
         "poi": 1,
         "percentages": {
-            "hoogwerker": 10,
+            "redvoertuig": 10,
             "hulpverlening": 10
         }
     },
@@ -5587,7 +5595,7 @@
             "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3150,
         "patients": {
@@ -5597,7 +5605,7 @@
         },
         "poi": 1,
         "percentages": {
-            "hoogwerker": 40,
+            "redvoertuig": 40,
             "hulpverlening": 40
         }
     },
@@ -5608,7 +5616,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "hond": 1
         },
         "credits": 2350,
@@ -5623,7 +5631,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1500,
@@ -5640,12 +5648,12 @@
         "vehicles": {
             "truck": 1,
             "redvoertuig": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1400,
         "poi": 33,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "353": {
@@ -5659,7 +5667,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3300,
         "patients": {
@@ -5669,7 +5677,7 @@
         },
         "poi": 33,
         "percentages": {
-            "hoogwerker": 60
+            "redvoertuig": 60
         }
     },
     "354": {
@@ -5688,7 +5696,7 @@
             "hovd": 1,
             "commando": 1,
             "afoosc": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 5150,
@@ -5759,7 +5767,7 @@
             "slangenwagen": 10,
             "hovd": 3,
             "commando": 2,
-            "noodhulpeen": 8
+            "police": 8
         },
         "credits": 22500,
         "poi": 3
@@ -5793,7 +5801,7 @@
         },
         "credits": 300,
         "percentages": {
-            "hoogwerker": 40
+            "redvoertuig": 40
         }
     },
     "361": {
@@ -5807,7 +5815,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1150,
         "patients": {
@@ -5816,7 +5824,7 @@
             "specialisation": "Algemene Heelkunde"
         },
         "percentages": {
-            "hoogwerker": 60
+            "redvoertuig": 60
         }
     },
     "362": {
@@ -5832,7 +5840,7 @@
             "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2350,
         "patients": {
@@ -5884,7 +5892,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3250,
         "patients": {
@@ -5913,7 +5921,7 @@
             "commando": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 4800,
         "patients": {
@@ -5924,7 +5932,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 20,
+            "redvoertuig": 20,
             "hulpverlening": 20,
             "adembescherming": 40,
             "hovd": 50,
@@ -5937,7 +5945,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 550,
         "poi": 12,
@@ -5951,7 +5959,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 400,
         "poi": 12
@@ -5963,7 +5971,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1000,
         "patients": {
@@ -5980,7 +5988,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1150,
         "patients": {
@@ -6002,7 +6010,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1200,
         "patients": {
@@ -6015,83 +6023,83 @@
         "percentages": {
             "hulpverlening": 80
         }
-    },
-    "371": {
-        "name": "Verlaten slee langs waterkant",
-        "stations": {
-            "0": 3,
-            "3": 1,
-            "5": 1,
-            "water": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "bchief": 1,
-            "watervoertuig": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Interne Geneeskunde"
-        },
-        "poi": 1
-    },
-    "372": {
-        "name": "Brandende kerststal",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 600,
-        "poi": 17
-    },
-    "373": {
-        "name": "Brandwonden door gourmetstel",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 20,
-        "specialisation": "Algemene Heelkunde"
-    },
-    "374": {
-        "name": "Geluidsoverlast door kerstmuziek",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 500
-    },
-    "375": {
-        "name": "Persoon bekneld onder kerstpakketten",
-        "stations": {
-            "0": 6,
-            "3": 1,
-            "5": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "hulpverlening": 1,
-            "bchief": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Algemene Heelkunde"
-        },
-        "percentages": {
-            "hulpverlening": 20,
-            "bchief": 80
-        }
+    },	
+    "371": {	
+        "name": "Verlaten slee langs waterkant",	
+        "stations": {	
+            "0": 3,	
+            "3": 1,	
+            "5": 1,	
+            "water": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "bchief": 1,	
+            "watervoertuig": 1,	
+            "police": 1	
+        },	
+        "credits": 1200,	
+        "patients": {	
+            "max": 1,	
+            "transport": 50,	
+            "specialisation": "Interne Geneeskunde"	
+        },	
+        "poi": 1	
+    },	
+    "372": {	
+        "name": "Brandende kerststal",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 600,	
+        "poi": 17	
+    },	
+    "373": {	
+        "name": "Brandwonden door gourmetstel",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 20,	
+        "specialisation": "Algemene Heelkunde"	
+    },	
+    "374": {	
+        "name": "Geluidsoverlast door kerstmuziek",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 500	
+    },	
+    "375": {	
+        "name": "Persoon bekneld onder kerstpakketten",	
+        "stations": {	
+            "0": 6,	
+            "3": 1,	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "hulpverlening": 1,	
+            "bchief": 1,	
+            "police": 1	
+        },	
+        "credits": 1000,	
+        "patients": {	
+            "max": 1,	
+            "min": 1,	
+            "transport": 50,	
+            "specialisation": "Algemene Heelkunde"	
+        },	
+        "percentages": {	
+            "hulpverlening": 20,	
+            "bchief": 80	
+        }	
     },
     "376": {
         "name": "Persoon te water",
@@ -6108,7 +6116,7 @@
             "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3000,
         "patients": {
@@ -6118,7 +6126,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "hulpverlening": 50
         }
     },
@@ -6138,7 +6146,7 @@
             "hovd": 1,
             "watervoertuig": 4,
             "wateraanhanger": 2,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 5200,
         "patients": {
@@ -6148,7 +6156,7 @@
         },
         "poi": 27,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "hulpverlening": 70,
             "hovd": 20
         }
@@ -6165,7 +6173,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "gevaar": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1950,
         "patients": {
@@ -6195,7 +6203,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4
+            "police": 4
         },
         "credits": 4000,
         "patients": {
@@ -6248,7 +6256,7 @@
         "credits": 900,
         "poi": 0,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "384": {
@@ -6265,7 +6273,7 @@
         "credits": 2150,
         "poi": 0,
         "percentages": {
-            "hoogwerker": 40,
+            "redvoertuig": 40,
             "hulpverlening": 10
         }
     },
@@ -6283,12 +6291,12 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3650,
         "poi": 0,
         "percentages": {
-            "hoogwerker": 80,
+            "redvoertuig": 80,
             "hulpverlening": 20,
             "adembescherming": 40,
             "slangenwagen": 20,
@@ -6310,7 +6318,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 5100,
         "poi": 0,
@@ -6361,7 +6369,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "patients": {
@@ -6388,7 +6396,7 @@
         "credits": 800,
         "poi": 46,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "391": {
@@ -6405,7 +6413,7 @@
         "credits": 1500,
         "poi": 46,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "slangenwagen": 20
         }
     },
@@ -6448,7 +6456,7 @@
             "waarschuwing": 1,
             "gevaar": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 4800,
         "poi": 46,
@@ -6475,7 +6483,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 6800,
         "poi": 46,
@@ -6500,7 +6508,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 9500,
         "poi": 46,
@@ -6522,7 +6530,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2600,
         "poi": 11,
@@ -6544,7 +6552,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1200,
         "percentages": {
@@ -6566,7 +6574,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1750,
         "patients": {
@@ -6587,7 +6595,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1850,
@@ -6603,7 +6611,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "hond": 1
         },
         "credits": 1850,
@@ -6618,7 +6626,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2250,
         "poi": 10,
@@ -6663,7 +6671,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 150,
         "patients": {
@@ -6695,7 +6703,7 @@
         "credits": 500,
         "poi": 47,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "408": {
@@ -6710,7 +6718,7 @@
         "credits": 800,
         "poi": 47,
         "percentages": {
-            "hoogwerker": 40
+            "redvoertuig": 40
         }
     },
     "409": {
@@ -6740,7 +6748,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2500,
         "patients": {
@@ -6771,7 +6779,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2650,
         "patients": {
@@ -6802,7 +6810,7 @@
             "slangenwagen": 2,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 4850,
         "patients": {
@@ -6831,7 +6839,7 @@
             "slangenwagen": 2,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 6700,
         "patients": {
@@ -6887,7 +6895,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3000,
         "poi": 49,
@@ -6902,7 +6910,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1000,
         "patients": {
@@ -6920,7 +6928,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1150,
         "patients": {
@@ -6939,7 +6947,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1000,
         "patients": {
@@ -6961,7 +6969,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1200,
         "patients": {
@@ -6982,7 +6990,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2200,
         "poi": 41
@@ -6993,7 +7001,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2200,
         "poi": 41,
@@ -7008,7 +7016,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "hond": 1
         },
@@ -7026,7 +7034,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1,
             "hond": 1,
             "polHeli": 1
@@ -7049,7 +7057,7 @@
         "credits": 850,
         "poi": 48,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "426": {
@@ -7065,7 +7073,7 @@
         "credits": 1550,
         "poi": 48,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "427": {
@@ -7081,7 +7089,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2500,
         "poi": 48,
@@ -7107,7 +7115,8 @@
             "waarschuwing": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2,
+            "press": 1
         },
         "credits": 4850,
         "poi": 48,
@@ -7134,7 +7143,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 6850,
         "poi": 48,
@@ -7165,7 +7174,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 950,
         "patients": {
@@ -7190,7 +7199,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1050,
         "patients": {
@@ -7218,7 +7227,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1200,
         "patients": {
@@ -7246,7 +7255,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3800,
         "patients": {
@@ -7274,7 +7283,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 4000,
@@ -7299,7 +7308,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "patients": {
@@ -7309,7 +7318,7 @@
         },
         "poi": 52,
         "percentages": {
-            "hoogwerker": 40,
+            "redvoertuig": 40,
             "wateraanhanger": 40
         }
     },
@@ -7328,7 +7337,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1150,
         "patients": {
@@ -7338,7 +7347,7 @@
         },
         "poi": 52,
         "percentages": {
-            "hoogwerker": 60,
+            "redvoertuig": 60,
             "hulpverlening": 20
         }
     },
@@ -7356,7 +7365,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 850,
         "patients": {
@@ -7366,7 +7375,7 @@
         },
         "poi": 1,
         "percentages": {
-            "hoogwerker": 10,
+            "redvoertuig": 10,
             "wateraanhanger": 60
         }
     },
@@ -7385,7 +7394,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1100,
         "patients": {
@@ -7395,7 +7404,7 @@
         },
         "poi": 1,
         "percentages": {
-            "hoogwerker": 20,
+            "redvoertuig": 20,
             "hulpverlening": 10
         }
     },
@@ -7410,7 +7419,7 @@
             "truck": 1,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 950,
         "patients": {
@@ -7420,7 +7429,7 @@
         },
         "poi": 44,
         "percentages": {
-            "hoogwerker": 30,
+            "redvoertuig": 30,
             "bchief": 20
         }
     },
@@ -7436,7 +7445,7 @@
             "redvoertuig": 1,
             "bchief": 1,
             "hovd": 1,
-            "noodhulpeen": 4
+            "police": 4
         },
         "credits": 1950,
         "patients": {
@@ -7446,7 +7455,7 @@
         },
         "poi": 44,
         "percentages": {
-            "hoogwerker": 60,
+            "redvoertuig": 60,
             "hovd": 10
         }
     },
@@ -7464,7 +7473,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 2300,
@@ -7475,7 +7484,7 @@
         },
         "poi": 44,
         "percentages": {
-            "hoogwerker": 60
+            "redvoertuig": 60
         }
     },
     "443": {
@@ -7490,7 +7499,7 @@
         "credits": 750,
         "poi": 39,
         "percentages": {
-            "hoogwerker": 20
+            "redvoertuig": 20
         }
     },
     "444": {
@@ -7506,7 +7515,7 @@
         "credits": 1550,
         "poi": 39,
         "percentages": {
-            "hoogwerker": 40
+            "redvoertuig": 40
         }
     },
     "445": {
@@ -7522,7 +7531,7 @@
             "bchief": 1,
             "adembescherming": 1,
             "hovd": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2500,
         "patients": {
@@ -7533,7 +7542,7 @@
         },
         "poi": 39,
         "percentages": {
-            "hoogwerker": 80,
+            "redvoertuig": 80,
             "adembescherming": 10,
             "hovd": 50
         }
@@ -7553,7 +7562,7 @@
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 2600,
@@ -7583,8 +7592,9 @@
             "adembescherming": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
-            "ovdp": 1
+            "police": 3,
+            "ovdp": 1,
+            "press": 1
         },
         "credits": 4900,
         "patients": {
@@ -7653,7 +7663,7 @@
         },
         "credits": 350,
         "percentages": {
-            "hoogwerker": 40,
+            "redvoertuig": 40,
             "hulpverlening": 20
         }
     },
@@ -7679,7 +7689,7 @@
         },
         "credits": 320,
         "percentages": {
-            "hoogwerker": 10
+            "redvoertuig": 10
         }
     },
     "455": {
@@ -7706,7 +7716,7 @@
         "credits": 800,
         "poi": 38,
         "percentages": {
-            "hoogwerker": 10,
+            "redvoertuig": 10,
             "slangenwagen": 20
         }
     },
@@ -7724,7 +7734,7 @@
         "credits": 1950,
         "poi": 38,
         "percentages": {
-            "hoogwerker": 50,
+            "redvoertuig": 50,
             "slangenwagen": 60
         }
     },
@@ -7791,7 +7801,7 @@
             "commando": 1,
             "crashtender": 2,
             "afoosc": 1,
-            "noodhulpeen": 5,
+            "police": 5,
             "ovdp": 1
         },
         "credits": 2950,
@@ -7813,7 +7823,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 1600,
@@ -7833,7 +7843,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 1600,
@@ -7852,7 +7862,7 @@
             "truck": 1,
             "bchief": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 550,
         "expansions": {
@@ -7876,7 +7886,7 @@
             "truck": 1,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 950,
         "patients": {
@@ -7887,7 +7897,7 @@
         },
         "poi": 37,
         "percentages": {
-            "hoogwerker": 20,
+            "redvoertuig": 20,
             "bchief": 10
         }
     },
@@ -7902,7 +7912,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1600,
         "patients": {
@@ -7913,7 +7923,7 @@
         },
         "poi": 37,
         "percentages": {
-            "hoogwerker": 80
+            "redvoertuig": 80
         }
     },
     "467": {
@@ -7928,7 +7938,7 @@
             "redvoertuig": 1,
             "bchief": 1,
             "hovd": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2750,
         "patients": {
@@ -7958,7 +7968,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 4950,
@@ -7991,7 +8001,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 7000,
@@ -8017,7 +8027,7 @@
         "vehicles": {
             "truck": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 700,
         "patients": {
@@ -8043,7 +8053,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 1100,
@@ -8066,7 +8076,7 @@
         "vehicles": {
             "truck": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 700,
         "patients": {
@@ -8092,7 +8102,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1
         },
         "credits": 1100,
@@ -8118,7 +8128,7 @@
             "adembescherming": 1,
             "slangenwagen": 1,
             "hovd": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 5000,
         "poi": 22,
@@ -8143,7 +8153,7 @@
             "slangenwagen": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1,
+            "police": 1,
             "ovdp": 1
         },
         "credits": 5250,
@@ -8174,7 +8184,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 300,
         "patients": {
@@ -8218,7 +8228,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 850,
         "patients": {
@@ -8247,7 +8257,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1750,
         "patients": {
@@ -8276,7 +8286,7 @@
             "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3000,
         "patients": {
@@ -8302,7 +8312,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "gevaar": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1150,
         "patients": {
@@ -8329,7 +8339,7 @@
             "bchief": 1,
             "waarschuwing": 1,
             "gevaar": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3600,
         "patients": {
@@ -8358,7 +8368,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 4000,
@@ -8442,7 +8452,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1,
+            "police": 1,
             "ovdp": 1
         },
         "credits": 1650,
@@ -8464,7 +8474,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 1,
+            "police": 1,
             "ovdp": 1
         },
         "credits": 1650,
@@ -8480,7 +8490,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "megroep": 3,
             "mecommando": 1
@@ -8498,7 +8508,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "ovdp": 1,
             "megroep": 3,
             "mecommando": 1
@@ -8522,7 +8532,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "watervoertuig": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1400,
         "patients": {
@@ -8549,7 +8559,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "watervoertuig": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1400,
         "patients": {
@@ -8578,7 +8588,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 900,
         "patients": {
@@ -8608,7 +8618,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 1200,
         "patients": {
@@ -8631,7 +8641,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 550
     },
@@ -8641,7 +8651,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 450
     },
@@ -8657,7 +8667,7 @@
             "hulpverlening": 1,
             "bchief": 1,
             "hovd": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1200,
         "patients": {
@@ -8681,7 +8691,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "patients": {
@@ -8705,7 +8715,7 @@
             "truck": 3,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2000,
         "patients": {
@@ -8730,7 +8740,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 2250,
@@ -8751,7 +8761,7 @@
         "vehicles": {
             "truck": 1,
             "redvoertuig": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 900,
         "poi": 50,
@@ -8770,7 +8780,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1600,
         "patients": {
@@ -8797,7 +8807,7 @@
             "slangenwagen": 1,
             "gevaar": 1,
             "hovd": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2800,
         "patients": {
@@ -8830,7 +8840,7 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2950,
         "patients": {
@@ -8863,7 +8873,8 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3
+            "police": 3,
+            "press": 1
         },
         "credits": 5000,
         "poi": 50,
@@ -8890,7 +8901,8 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3
+            "police": 3,
+            "press": 1
         },
         "credits": 7200,
         "poi": 50,
@@ -8923,7 +8935,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1850,
         "patients": {
@@ -8960,7 +8972,7 @@
             "truck": 2,
             "redvoertuig": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1900,
         "patients": {
@@ -8987,7 +8999,7 @@
             "bchief": 1,
             "watervoertuig": 1,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1750,
         "patients": {
@@ -9017,7 +9029,7 @@
             "bchief": 1,
             "watervoertuig": 2,
             "wateraanhanger": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1850,
         "patients": {
@@ -9047,7 +9059,7 @@
             "bchief": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3000,
         "patients": {
@@ -9080,7 +9092,7 @@
             "commando": 1,
             "watervoertuig": 3,
             "wateraanhanger": 2,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 3100,
@@ -9115,7 +9127,7 @@
             "commando": 1,
             "watervoertuig": 4,
             "wateraanhanger": 2,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 3300,
@@ -9151,7 +9163,7 @@
             "commando": 1,
             "watervoertuig": 4,
             "wateraanhanger": 3,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1,
             "polHeli": 1
         },
@@ -9212,285 +9224,285 @@
         "onlyRd": true,
         "transport": 25,
         "specialisation": "Interne Geneeskunde"
-    },
-    "525": {
-        "name": "Auto in brand door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 370
-    },
-    "526": {
-        "name": "Auto in brand door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 370
-    },
-    "527": {
-        "name": "Afval in brand door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 220
-    },
-    "528": {
-        "name": "Afval in brand door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 220
-    },
-    "529": {
-        "name": "Grasbrand door vuurwerk",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 1000
-    },
-    "530": {
-        "name": "Kelderbrand door vuurwerk",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Interne Geneeskunde"
-        },
-        "percentages": {
-            "bchief": 90
-        }
-    },
-    "531": {
-        "name": "Brandend bushokje door vuurwerk",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 900,
-        "poi": 4
-    },
-    "532": {
-        "name": "Brandend balkon door vuurwerk",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2,
-            "redvoertuig": 1
-        },
-        "credits": 1500,
-        "percentages": {
-            "redvoertuig": 30
-        }
-    },
-    "533": {
-        "name": "Brandende papiercontainer door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "534": {
-        "name": "Brandende heg door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "535": {
-        "name": "Brandende heg door vuurwerk",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "536": {
-        "name": "Beschonken bestuurder na Oud en Nieuw feest",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 150
-    },
-    "537": {
-        "name": "Beschonken bestuurder na Oud en Nieuw feest",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 150
-    },
-    "538": {
-        "name": "Rieten kap woning in brand door vuurwerk",
-        "stations": {
-            "0": 7,
-            "3": 3,
-            "5": 2
-        },
-        "vehicles": {
-            "truck": 5,
-            "redvoertuig": 1,
-            "bchief": 1,
-            "adembescherming": 1,
-            "noodhulpeen": 2
-        },
-        "credits": 4200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 50,
-            "mmtarts": 50,
-            "specialisation": "Interne Geneeskunde"
-        },
-        "percentages": {
-            "adembescherming": 30
-        }
-    },
-    "539": {
-        "name": "Auto beschadigd door vuurwerk",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 200
-    },
-    "540": {
-        "name": "Overtreding op vuurwerkbesluit",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 200
-    },
-    "541": {
-        "name": "Handletsel door vuurwerk",
-        "stations": {
-            "3": 3
-        },
-        "onlyRd": true,
-        "transport": 90,
-        "mmtarts": 80,
-        "specialisation": "Traumatologie"
-    },
-    "542": {
-        "name": "Verkeersongeval door gladheid",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "bchief": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 550,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologie"
-        },
-        "percentages": {
-            "bchief": 40
-        }
-    },
-    "543": {
-        "name": "Verkeersongeval door gladheid",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1,
-            "bchief": 1,
-            "noodhulpeen": 1
-        },
-        "credits": 550,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologie"
-        },
-        "percentages": {
-            "bchief": 40
-        }
-    },
-    "544": {
-        "name": "Gevallen persoon door gladheid",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 60,
-        "specialisation": "Traumatologie"
-    },
-    "545": {
-        "name": "Gevallen persoon door gladheid",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 60,
-        "specialisation": "Traumatologie"
-    },
-    "546": {
-        "name": "Donkere dagen offensief",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 600
-    },
-    "547": {
-        "name": "Donkere dagen offensief",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 600
+    },	
+    "525": {	
+        "name": "Auto in brand door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 370	
+    },	
+    "526": {	
+        "name": "Auto in brand door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 370	
+    },	
+    "527": {	
+        "name": "Afval in brand door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 220	
+    },	
+    "528": {	
+        "name": "Afval in brand door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 220	
+    },	
+    "529": {	
+        "name": "Grasbrand door vuurwerk",	
+        "stations": {	
+            "0": 2	
+        },	
+        "vehicles": {	
+            "truck": 2	
+        },	
+        "credits": 1000	
+    },	
+    "530": {	
+        "name": "Kelderbrand door vuurwerk",	
+        "stations": {	
+            "0": 3	
+        },	
+        "vehicles": {	
+            "bchief": 1,	
+            "truck": 3	
+        },	
+        "credits": 2500,	
+        "patients": {	
+            "max": 2,	
+            "specialisation": "Interne Geneeskunde"	
+        },	
+        "percentages": {	
+            "bchief": 90	
+        }	
+    },	
+    "531": {	
+        "name": "Brandend bushokje door vuurwerk",	
+        "stations": {	
+            "0": 3	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 900,	
+        "poi": 4	
+    },	
+    "532": {	
+        "name": "Brandend balkon door vuurwerk",	
+        "stations": {	
+            "0": 2	
+        },	
+        "vehicles": {	
+            "truck": 2,	
+            "redvoertuig": 1	
+        },	
+        "credits": 1500,	
+        "percentages": {	
+            "redvoertuig": 30	
+        }	
+    },	
+    "533": {	
+        "name": "Brandende papiercontainer door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 400	
+    },	
+    "534": {	
+        "name": "Brandende heg door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 400	
+    },	
+    "535": {	
+        "name": "Brandende heg door vuurwerk",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 400	
+    },	
+    "536": {	
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 150	
+    },	
+    "537": {	
+        "name": "Beschonken bestuurder na Oud en Nieuw feest",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 150	
+    },	
+    "538": {	
+        "name": "Rieten kap woning in brand door vuurwerk",	
+        "stations": {	
+            "0": 7,	
+            "3": 3,	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "truck": 5,	
+            "redvoertuig": 1,	
+            "bchief": 1,	
+            "adembescherming": 1,	
+            "police": 2	
+        },	
+        "credits": 4200,	
+        "patients": {	
+            "max": 2,	
+            "min": 1,	
+            "transport": 50,	
+            "mmtarts": 50,	
+            "specialisation": "Interne Geneeskunde"	
+        },	
+        "percentages": {	
+            "adembescherming": 30	
+        }	
+    },	
+    "539": {	
+        "name": "Auto beschadigd door vuurwerk",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 200	
+    },	
+    "540": {	
+        "name": "Overtreding op vuurwerkbesluit",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 200	
+    },	
+    "541": {	
+        "name": "Handletsel door vuurwerk",	
+        "stations": {	
+            "3": 3	
+        },	
+        "onlyRd": true,	
+        "transport": 90,	
+        "mmtarts": 80,	
+        "specialisation": "Traumatologie"	
+    },	
+    "542": {	
+        "name": "Verkeersongeval door gladheid",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "bchief": 1,	
+            "police": 1	
+        },	
+        "credits": 550,	
+        "patients": {	
+            "max": 1,	
+            "min": 1,	
+            "transport": 100,	
+            "specialisation": "Traumatologie"	
+        },	
+        "percentages": {	
+            "bchief": 40	
+        }	
+    },	
+    "543": {	
+        "name": "Verkeersongeval door gladheid",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1,	
+            "bchief": 1,	
+            "police": 1	
+        },	
+        "credits": 550,	
+        "patients": {	
+            "max": 1,	
+            "min": 1,	
+            "transport": 100,	
+            "specialisation": "Traumatologie"	
+        },	
+        "percentages": {	
+            "bchief": 40	
+        }	
+    },	
+    "544": {	
+        "name": "Gevallen persoon door gladheid",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 60,	
+        "specialisation": "Traumatologie"	
+    },	
+    "545": {	
+        "name": "Gevallen persoon door gladheid",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 60,	
+        "specialisation": "Traumatologie"	
+    },	
+    "546": {	
+        "name": "Donkere dagen offensief",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 600	
+    },	
+    "547": {	
+        "name": "Donkere dagen offensief",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 600	
     },
     "548": {
         "name": "Steekincident (groot)",
@@ -9505,7 +9517,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 10,
+            "police": 10,
             "ovdp": 1
         },
         "credits": 4200,
@@ -9533,7 +9545,7 @@
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 10,
+            "police": 10,
             "ovdp": 1
         },
         "credits": 4200,
@@ -9598,7 +9610,7 @@
             "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 2200,
         "patients": {
@@ -9620,7 +9632,7 @@
             "5": 3
         },
         "vehicles": {
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 500,
         "prisoners": {
@@ -9638,7 +9650,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 3800,
         "patients": {
@@ -9675,7 +9687,7 @@
             "bchief": 1,
             "adembescherming": 1,
             "slangenwagen": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 3200,
         "patients": {
@@ -9708,8 +9720,9 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4,
-            "ovdp": 1
+            "police": 4,
+            "ovdp": 1,
+            "press": 1
         },
         "credits": 6400,
         "patients": {
@@ -9742,8 +9755,9 @@
             "gevaar": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4,
-            "ovdp": 1
+            "police": 4,
+            "ovdp": 1,
+            "press": 1
         },
         "credits": 10714,
         "patients": {
@@ -9763,7 +9777,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 200
     },
@@ -9773,7 +9787,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 400,
         "prisoners": {
@@ -9786,35 +9800,35 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 400,
         "poi": 16,
         "prisoners": {
             "max": 1
         }
-    },
-    "562": {
-        "name": "Hart gestolen",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "noodhulpeen": 2
-        },
-        "credits": 400,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "563": {
-        "name": "Hart gebroken",
-        "stations": {
-            "3": 1
-        },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Cardiologie"
+    },	
+    "562": {	
+        "name": "Hart gestolen",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "police": 2	
+        },	
+        "credits": 400,	
+        "prisoners": {	
+            "max": 1	
+        }	
+    },	
+    "563": {	
+        "name": "Hart gebroken",	
+        "stations": {	
+            "3": 1	
+        },	
+        "onlyRd": true,	
+        "transport": 100,	
+        "specialisation": "Cardiologie"	
     },
     "564": {
         "name": "Voetganger onder tram",
@@ -9827,7 +9841,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 3
+            "police": 3
         },
         "credits": 2040,
         "patients": {
@@ -9850,7 +9864,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 2140,
         "patients": {
@@ -9873,7 +9887,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 1540,
         "patients": {
@@ -9891,7 +9905,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 400,
         "prisoners": {
@@ -9909,7 +9923,7 @@
             "11": 2
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "hond": 1,
             "ato": 4,
             "atc": 1,
@@ -9944,7 +9958,7 @@
             "truck": 1,
             "hulpverlening": 1,
             "bchief": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "hond": 1,
             "ato": 4,
             "atc": 1,
@@ -9973,7 +9987,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 2,
+            "police": 2,
             "ato": 4,
             "atc": 1,
             "atm": 1,
@@ -10026,7 +10040,7 @@
             "5": 1
         },
         "vehicles": {
-            "noodhulpeen": 1
+            "police": 1
         },
         "credits": 300,
         "poi": 14,
@@ -10040,7 +10054,7 @@
             "5": 2
         },
         "vehicles": {
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 500,
         "poi": 14,
@@ -10057,7 +10071,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 510,
         "patients": {
@@ -10077,7 +10091,7 @@
         },
         "vehicles": {
             "truck": 1,
-            "noodhulpeen": 2
+            "police": 2
         },
         "credits": 1010,
         "patients": {
@@ -10088,156 +10102,156 @@
             "specialisation": "Traumatologie"
         },
         "poi": 23
-    },
-    "578": {
-        "name": "Paasei dief",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 100,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "579": {
-        "name": "Kwast gestolen uit werkplaats",
-        "stations": {
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 150,
-        "poi": 12,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "580": {
-        "name": "Ingestort konijnenhol",
-        "stations": {
-            "5": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 2,
-            "hulpverlening": 1,
-            "noodhulpeen": 2
-        },
-        "credits": 1500
-    },
-    "581": {
-        "name": "Aangevallen Paashaas",
-        "stations": {
-            "3": 3,
-            "5": 1
-        },
-        "vehicles": {
-            "noodhulpeen": 1
-        },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 38,
-            "specialisation": "Traumatologie"
-        }
-    },
-    "582": {
-        "name": "Brandende paasmand",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 110
-    },
-    "583": {
-        "name": "Lekkende chocoladevrachtwagen",
-        "stations": {
-            "0": 10,
-            "5": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "hulpverlening": 2,
-            "bchief": 2,
-            "noodhulpeen": 3,
-            "gevaar": 1
-        },
-        "credits": 5000
-    },
-    "584": {
-        "name": "Brandende eierkoker",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 800
-    },
-    "585": {
-        "name": "Hazenbijeenkomst in Paaseistad",
-        "stations": {
-            "0": 2,
-            "3": 4,
-            "5": 7
-        },
-        "vehicles": {
-            "noodhulpeen": 8,
-            "ambulance": 4,
-            "truck": 2
-        },
-        "credits": 7000,
-        "poi": 20,
-        "siwa": true,
-        "dauer": "2 uur"
-    },
-    "586": {
-        "name": "Gekantelde paaseivrachtwagen",
-        "stations": {
-            "0": 8
-        },
-        "vehicles": {
-            "truck": 2,
-            "hulpverlening": 1,
-            "bchief": 1
-        },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "specialisation": "Traumatologie"
-        }
-    },
-    "587": {
-        "name": "Prioriteit: paasei-jacht",
-        "stations": {
-            "5": 3
-        },
-        "vehicles": {
-            "noodhulpeen": 6
-        },
-        "credits": 1000
-    },
-    "588": {
-        "name": "Paashaas in een kraan",
-        "stations": {
-            "0": 12,
-            "5": 1
-        },
-        "vehicles": {
-            "redvoertuig": 1,
-            "bchief": 1,
-            "noodhulpeen": 1,
-            "truck": 1
-        },
-        "credits": 2000
+    },	
+    "578": {	
+        "name": "Paasei dief",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 100,	
+        "prisoners": {	
+            "max": 1	
+        }	
+    },	
+    "579": {	
+        "name": "Kwast gestolen uit werkplaats",	
+        "stations": {	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 150,	
+        "poi": 12,	
+        "prisoners": {	
+            "max": 1	
+        }	
+    },	
+    "580": {	
+        "name": "Ingestort konijnenhol",	
+        "stations": {	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "truck": 4,	
+            "bchief": 2,	
+            "hulpverlening": 1,	
+            "police": 2	
+        },	
+        "credits": 1500	
+    },	
+    "581": {	
+        "name": "Aangevallen Paashaas",	
+        "stations": {	
+            "3": 3,	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "police": 1	
+        },	
+        "credits": 300,	
+        "patients": {	
+            "max": 1,	
+            "min": 1,	
+            "transport": 38,	
+            "specialisation": "Traumatologie"	
+        }	
+    },	
+    "582": {	
+        "name": "Brandende paasmand",	
+        "stations": {	
+            "0": 1	
+        },	
+        "vehicles": {	
+            "truck": 1	
+        },	
+        "credits": 110	
+    },	
+    "583": {	
+        "name": "Lekkende chocoladevrachtwagen",	
+        "stations": {	
+            "0": 10,	
+            "5": 2	
+        },	
+        "vehicles": {	
+            "truck": 4,	
+            "hulpverlening": 2,	
+            "bchief": 2,	
+            "police": 3,	
+            "gevaar": 1	
+        },	
+        "credits": 5000	
+    },	
+    "584": {	
+        "name": "Brandende eierkoker",	
+        "stations": {	
+            "0": 2	
+        },	
+        "vehicles": {	
+            "truck": 2	
+        },	
+        "credits": 800	
+    },	
+    "585": {	
+        "name": "Hazenbijeenkomst in Paaseistad",	
+        "stations": {	
+            "0": 2,	
+            "3": 4,	
+            "5": 7	
+        },	
+        "vehicles": {	
+            "police": 8,	
+            "ambulance": 4,	
+            "truck": 2	
+        },	
+        "credits": 7000,	
+        "poi": 20,	
+        "siwa": true,	
+        "dauer": "2 uur"	
+    },	
+    "586": {	
+        "name": "Gekantelde paaseivrachtwagen",	
+        "stations": {	
+            "0": 8	
+        },	
+        "vehicles": {	
+            "truck": 2,	
+            "hulpverlening": 1,	
+            "bchief": 1	
+        },	
+        "credits": 2200,	
+        "patients": {	
+            "max": 2,	
+            "min": 1,	
+            "specialisation": "Traumatologie"	
+        }	
+    },	
+    "587": {	
+        "name": "Prioriteit: paasei-jacht",	
+        "stations": {	
+            "5": 3	
+        },	
+        "vehicles": {	
+            "police": 6	
+        },	
+        "credits": 1000	
+    },	
+    "588": {	
+        "name": "Paashaas in een kraan",	
+        "stations": {	
+            "0": 12,	
+            "5": 1	
+        },	
+        "vehicles": {	
+            "redvoertuig": 1,	
+            "bchief": 1,	
+            "police": 1,	
+            "truck": 1	
+        },	
+        "credits": 2000	
     },
     "589": {
         "name": "Voorzorgslanding klein vliegtuig",
@@ -10279,7 +10293,7 @@
             "hovd": 1,
             "crashtender": 3,
             "afoosc": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 8640,
@@ -10310,10 +10324,11 @@
             "adembescherming": 1,
             "waarschuwing": 4,
             "gevaar": 1,
+            "press": 1,
             "bchief": 1,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 3,
+            "police": 3,
             "ovdp": 1
         },
         "credits": 9450,
@@ -10339,10 +10354,11 @@
             "adembescherming": 1,
             "waarschuwing": 4,
             "gevaar": 1,
+            "press": 1,
             "bchief": 2,
             "hovd": 1,
             "commando": 1,
-            "noodhulpeen": 4,
+            "police": 4,
             "ovdp": 1
         },
         "credits": 11060,
@@ -10361,7 +10377,7 @@
             "11": 1
         },
         "vehicles": {
-            "noodhulpeen": 3,
+            "police": 3,
             "megroep": 3,
             "mecommando": 1
         },
@@ -10377,7 +10393,7 @@
             "11": 3
         },
         "vehicles": {
-            "noodhulpeen": 4,
+            "police": 4,
             "hond": 1,
             "megroep": 6,
             "mecommando": 2,
