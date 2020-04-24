@@ -17,10 +17,12 @@ $.get(missionlink)
             police: "policejní automobily",
             ambulance: "sanitky",
             arff: "letištní speciály",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "vrtulník",
-            policeHeli: "Police Helicopter",
+            k9: "vozidla Kynologů PČR",
+            pmotorcycle: "Policejní motocykl",
+            swatArmoured: "Obrněné vozidlo URNA",
+            swatSuv: "URNA SUV",
+            policeHeli: "Policejní vrtulníky",
+            rth: "vrtulník"
         };
 
         let credits;
@@ -56,7 +58,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/Požadované|Požadovaná/)) {
+            if (content.match(/Požadované|Požadovaná|Potřebné|Potřebná/)) {
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Pravděpodobnost/)) {
                 percentages[getVehicle(content)] = number;
@@ -79,7 +81,7 @@ $.get(missionlink)
                 prisonersMax = number;
             } else if (content.match(/vrtulník/)) {
                 rth = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/personál URNY/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Délka/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
@@ -268,7 +270,7 @@ $.get(missionlink)
                 0: "požární stanice",
                 2: "záchranářské stanice",
                 6: "oddělení Policie",
-                13: "Police Helicopter"
+                13: "Letecké služby PČR"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

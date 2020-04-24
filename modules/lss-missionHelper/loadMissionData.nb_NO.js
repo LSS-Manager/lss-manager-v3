@@ -17,10 +17,12 @@ $.get(missionlink)
             police: "politibiler",
             ambulance: "ambulanser",
             arff: "brann- og redningstjeneste for fly",
-            k9: "Dog Support Units",
-            swatSuv: "Armed Response Vehicle (ARV)",
-            rth: "Räddningshelikopter",
-            policeHeli: "Police Helicopter",
+            k9: "hundepatruljer",
+            pmotorcycle: "Politimotorsykkel",
+            swatArmoured: "Pansret kjøretøy",
+            swatSuv: "Delta kjøretøy",
+            policeHeli: "politihelikoptere",
+            rth: "Räddningshelikopter"
         };
 
         let credits;
@@ -47,7 +49,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Gjennomsnittlig kreditt/)) {
                 credits = number;
-            } else if (content.match(/Nødvendige|Krav på|Min./)) {
+            } else if (content.match(/Nødvendige|Krav på|Min.|Minimum/)) {
                 stations[getStation(content)] = number;
             } else if (content.match(/Sted/)) {
                 poi = getPOI(content);
@@ -77,7 +79,7 @@ $.get(missionlink)
                 specialisation = $(this).find("td:last-of-type").text().trim();
             } else if (content.match(/Maks antall pågripelser/)) {
                 prisonersMax = number;
-            } else if (content.match(/Armed Response Personnel/)) {
+            } else if (content.match(/delta-personell/)) {
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Varighet/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
@@ -268,7 +270,7 @@ $.get(missionlink)
                 0: "brannstasjoner",
                 2: "ambulansestasjoner",
                 6: "politistasjoner",
-                13: "Police Helicopter"
+                13: "politihelikopter stasjoner"
             };
             for (let station in stationDefinitions) {
                 if (content.match(stationDefinitions[station])) {

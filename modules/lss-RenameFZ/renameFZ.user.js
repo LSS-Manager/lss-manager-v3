@@ -385,6 +385,7 @@
 				5: "Základna Letecké záchranné služby",
                 6: "Obvodní oddělení Policie",
                 7: "Dispečink",
+                13: 'Letecká služba PČR',
                 18: "Požární stanice (malá)",
                 19: "Obvodní oddělení Policie (malá)",
                 20: "Výjezdová základna záchranné služby (malé)"
@@ -400,7 +401,12 @@
                 7: 'TACH',
                 8: 'Policejní automobil',
                 9: 'Vrtulník LZS',
-                10: 'AP'
+                10: 'AP',
+                11: 'Policejní vrtulník',
+                12: 'Obrněné vozidlo URNA',
+                13: 'Vozidlo Kynologů PČR',
+                14: 'Policejní motocykl',
+                15: 'URNA SUV'
             }
         }
     };
@@ -660,6 +666,7 @@
                 5: "Helikopterstation",
                 6: "Politistation",
                 7: "Alarmcentral",
+                13: "Politihelikopterstation",
                 18: "Brandstation (lille station)",
                 19: "Politistation (lille station)",
                 20: "Ambulancestation (lille station)"
@@ -677,7 +684,12 @@
                 9: 'Rednings Helikopter',
                 10: 'Højtrykskompressor',
                 11: 'LKM',
-                12: 'Specialsprøjte'
+                12: 'Specialsprøjte',
+                13: 'Politihelikopter',
+                14: 'AKS Pansret mandskabsvogn',
+                15: 'Hundepatrulje',
+                16: 'Politimotorcykel',
+                17: 'AKS Patruljevogn'
             }
         }
     };
@@ -727,6 +739,7 @@
                 5: "Helikopterstasjon",
                 6: "Politistasjon",
                 7: "Nødetatssenter",
+                13: "Politiheliport",
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
                 20: "Ambulansestasjon (liten)"
@@ -742,7 +755,12 @@
                 7: 'CBRNe enhet',
                 8: 'Patruljebil',
                 9: 'Luftambulanse',
-                10: 'Snorkelbil'
+                10: 'Snorkelbil',
+                11: 'Politihelikopter',
+                12: 'Pansret kjøretøy',
+                13: 'Hundepatrulje',
+                14: 'Politimotorsykkel',
+                15: 'Delta kjøretøy'
             }
         }
     };

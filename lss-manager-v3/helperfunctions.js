@@ -288,7 +288,12 @@ else if (I18n.locale == "cs_CZ") {
         "7": ["TACH", 0],
         "8": ["Policejní automobil", 2],
         "9": ["Vrtulník LZS", 1],
-        "10": ["AP", 0]
+        "10": ["AP", 0],
+        "11": ["Policejní vrtulník", 2],
+        "12": ["Obrněné vozidlo URNA", 2],
+        "13": ["Vozidlo Kynologů PČR", 2],
+        "14": ["Policejní motocykl", 2],
+        "15": ["URNA SUV", 2]
     };
 }
 else if (I18n.locale == "tr_TR") {
@@ -341,7 +346,12 @@ else if (I18n.locale == "da_DK") {
         "9": ["Rednings Helikopter", 1],
         "10": ["Højtrykskompressor", 0],
         "11": ["LKM", 0],
-        "12": ["Specialsprøjte", 0]
+        "12": ["Specialsprøjte", 0],
+        "13": ["Politihelikopter", 2],
+        "14": ["AKS Pansret mandskabsvogn", 2],
+        "15": ["Hundepatrulje", 2],
+        "16": ["Politimotorcykel", 2],
+        "17": ["AKS Patruljevogn", 2]
     };
 }
 else if (I18n.locale == "nb_NO") {
@@ -367,7 +377,12 @@ else if (I18n.locale == "nb_NO") {
         "7": ["CBRNe enhet", 0],
         "8": ["Patruljebil", 2],
         "9": ["Luftambulanse", 1],
-        "10": ["Snorkelbil", 0]
+        "10": ["Snorkelbil", 0],
+        "11": ["Politihelikopter", 2],
+        "12": ["Pansret kjøretøy", 2],
+        "13": ["Hundepatrulje", 2],
+        "14": ["Politimotorsykkel", 2],
+        "15": ["Delta kjøretøy", 2]
     };
 }
 else if (I18n.locale == "pl_PL")
