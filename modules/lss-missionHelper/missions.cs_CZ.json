@@ -1533,5 +1533,279 @@
             "truck": 1
         },
         "credits": 900
+    },
+    "109": {
+        "name": "V\u011bze\u0148 na \u00fat\u011bku",
+        "stations": {
+            "6": 7,
+            "13": 1
+        },
+        "vehicles": {
+            "k9": 1,
+            "police": 10,
+            "policeHeli": 1
+        },
+        "credits": 4000,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "110": {
+        "name": "Podez\u0159el\u00fd na \u00fat\u011bku",
+        "stations": {
+            "6": 4,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 5,
+            "policeHeli": 1
+        },
+        "credits": 3000,
+        "prisoners": {
+            "max": 1
+        }
+    },
+    "111": {
+        "name": "Poh\u0159e\u0161ovan\u00e1 osoba",
+        "stations": {
+            "0": 6,
+            "2": 1,
+            "6": 4,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 5,
+            "truck": 2,
+            "bchief": 1,
+            "policeHeli": 1
+        },
+        "credits": 4500,
+        "patients": {
+            "max": 1,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 3
+    },
+    "112": {
+        "name": "P\u0159ik\u00e1zan\u00e1 pohotovost",
+        "stations": {
+            "6": 2,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 3,
+            "policeHeli": 1
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 113
+        }
+    },
+    "113": {
+        "name": "Post\u0159elen\u00fd policista",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 6
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "V\u0161eobecn\u00fd chirurg"
+        }
+    },
+    "114": {
+        "name": "Hled\u00e1n\u00ed vozidla",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 2,
+            "k9": 1
+        },
+        "credits": 1000
+    },
+    "115": {
+        "name": "Mal\u00fd n\u00e1siln\u00fd protest",
+        "stations": {
+            "2": 2,
+            "6": 6
+        },
+        "vehicles": {
+            "police": 4,
+            "k9": 1
+        },
+        "credits": 2200,
+        "patients": {
+            "max": 3,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "prisoners": {
+            "max": 2
+        },
+        "expansions": {
+            "0": 116
+        }
+    },
+    "116": {
+        "name": "St\u0159edn\u00ed n\u00e1siln\u00fd protest",
+        "stations": {
+            "2": 3,
+            "6": 7,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 7,
+            "k9": 1,
+            "policeHeli": 1
+        },
+        "credits": 3000,
+        "patients": {
+            "max": 5,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "prisoners": {
+            "max": 4
+        }
+    },
+    "117": {
+        "name": "Obchod s drogami",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 4,
+            "k9": 1
+        },
+        "credits": 1500,
+        "prisoners": {
+            "max": 2
+        }
+    },
+    "118": {
+        "name": "Loupe\u017e na \u010derpac\u00ed stanici",
+        "stations": {
+            "6": 8,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 4,
+            "policeHeli": 1
+        },
+        "credits": 1250,
+        "poi": 11,
+        "prisoners": {
+            "max": 3
+        },
+        "special": {
+            "SWATPersonnel": 12
+        }
+    },
+    "119": {
+        "name": "St\u0159elba na policistu",
+        "stations": {
+            "2": 1,
+            "6": 10,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 8,
+            "policeHeli": 1,
+            "k9": 2
+        },
+        "credits": 4100,
+        "patients": {
+            "max": 2,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "special": {
+            "SWATPersonnel": 6
+        }
+    },
+    "120": {
+        "name": "VIP vystoupen\u00ed",
+        "stations": {
+            "6": 15,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 6,
+            "policeHeli": 1,
+            "k9": 2
+        },
+        "credits": 4000,
+        "special": {
+            "SWATPersonnel": 18
+        },
+        "siwa": true,
+        "dauer": "30 minut"
+    },
+    "121": {
+        "name": "Dom\u00e1c\u00ed invaze",
+        "stations": {
+            "6": 9,
+            "13": 1
+        },
+        "vehicles": {
+            "police": 4,
+            "policeHeli": 1,
+            "k9": 1
+        },
+        "credits": 1250,
+        "prisoners": {
+            "max": 2
+        },
+        "special": {
+            "SWATPersonnel": 4
+        }
+    },
+    "122": {
+        "name": "Pokus o vra\u017edu",
+        "stations": {
+            "2": 1,
+            "6": 9
+        },
+        "vehicles": {
+            "police": 6,
+            "k9": 1
+        },
+        "credits": 1000,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "\u00darazov\u00e1 chirurgie"
+        },
+        "prisoners": {
+            "max": 1
+        },
+        "special": {
+            "SWATPersonnel": 6
+        }
+    },
+    "123": {
+        "name": "Loupe\u017e v muzeu",
+        "stations": {
+            "6": 9
+        },
+        "vehicles": {
+            "police": 4,
+            "k9": 1
+        },
+        "credits": 1000,
+        "poi": 13,
+        "prisoners": {
+            "max": 3
+        },
+        "special": {
+            "SWATPersonnel": 6
+        }
     }
 }

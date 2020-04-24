@@ -542,7 +542,8 @@
         517: 'Brennender Baum',
         518: 'Brennender Baum',
         519: 'Hüpfburgunfall',
-        520: 'Hotelbrand'
+        520: 'Hotelbrand',
+        521: 'Explosion in Feuerwerksfabrik'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -2187,7 +2188,22 @@
         122: 'Afsporet godstog',
         123: 'Afsporet godstog',
         124: 'Afsporet godstog',
-        125: 'Grøft redning'
+        125: 'Grøft redning',
+        126: 'Fangeflugt',
+        127: 'Eftersættelse',
+        128: 'Savnet person',
+        129: 'Ransagning efter efterlyst',
+        130: 'Politibetjent såret',
+        131: 'Ransagning af bil',
+        132: 'Lille demonstration',
+        133: 'Mellem demonstration',
+        134: 'Narkohandel',
+        135: 'Røveri på tankstation',
+        136: 'Skud mod politiet',
+        137: 'Beskyttelse af VIP',
+        138: 'Indbrud i øjeblikket',
+        139: 'Mordforsøg',
+        140: 'Røveri på museum'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2314,7 +2330,22 @@
         105: 'Vykolejení vlaku',
         106: 'Vykolejení vlaku',
         107: 'Vykolejení vlaku',
-        108: 'Odstranění nebezpečného hmyzu'
+        108: 'Odstranění nebezpečného hmyzu',
+        109: 'Vězeň na útěku',
+        110: 'Podezřelý na útěku',
+        111: 'Pohřešovaná osoba',
+        112: 'Přikázaná pohotovost',
+        113: 'Postřelený policista',
+        114: 'Hledání vozidla',
+        115: 'Malý násilný protest',
+        116: 'Střední násilný protest',
+        117: 'Obchod s drogami',
+        118: 'Loupež na čerpací stanici',
+        119: 'Střelba na policistu',
+        120: 'VIP vystoupení',
+        121: 'Domácí invaze',
+        122: 'Pokus o vraždu',
+        123: 'Loupež v muzeu'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2566,7 +2597,22 @@
         111: 'Avsporet godstog',
         112: 'Avsporet godstog',
         113: 'Avsporet godstog',
-        114: 'Grøftredning'
+        114: 'Grøftredning',
+        115: 'Fange som rømmer',
+        116: 'Mistenkt som flykter',
+        117: 'Savnet person',
+        118: 'Arrestordre',
+        119: 'Politibetjent nede',
+        120: 'Ransakelse av kjøretøy',
+        121: 'Liten demonstrasjon',
+        122: 'Mellomstor demonstrasjon',
+        123: 'Narkotikasalg',
+        124: 'Bensinstasjonsran',
+        125: 'Skudd avfyrt mot politibetjent',
+        126: 'VIP oppdrag',
+        127: 'Innbrudd',
+        128: 'Drapsforsøk',
+        129: 'Innbrudd på museum'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -4968,7 +5014,8 @@
       517: 'B 1',
       518: 'B 1',
       519: 'THL 2',
-      520: 'B 7'
+      520: 'B 7',
+      521: 'B 8'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -6470,7 +6517,22 @@
       122: 'TECH 5',
       123: 'TECH 5',
       124: 'TECH 5',
-      125: 'TECH 1'
+      125: 'TECH 1',
+      126: 'POL 6',
+      127: 'POL 4',
+      128: 'POL 3',
+      129: 'POL 2',
+      130: 'POL 6',
+      131: 'POL 1',
+      132: 'POL 3',
+      133: 'POL 6',
+      134: 'POL 3',
+      135: 'POL 3',
+      136: 'POL 6',
+      137: 'Planlagt mission',
+      138: 'POL 4',
+      139: 'POL 5',
+      140: 'POL 3'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -6581,7 +6643,22 @@
       105: 'TECH 5',
       106: 'TECH 5',
       107: 'TECH 5',
-      108: 'TECH 1'
+      108: 'TECH 1',
+      109: 'POL 6',
+      110: 'POL 4',
+      111: 'POL 3',
+      112: 'POL 2',
+      113: 'POL 6',
+      114: 'POL 1',
+      115: 'POL 3',
+      116: 'POL 6',
+      117: 'POL 3',
+      118: 'POL 3',
+      119: 'POL 6',
+      120: 'Plánovaná mise',
+      121: 'POL 4',
+      122: 'POL 5',
+      123: 'POL 3'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -6801,7 +6878,22 @@
       111: 'TECH 5',
       112: 'TECH 5',
       113: 'TECH 5',
-      114: 'TECH 1'
+      114: 'TECH 1',
+      115: 'POL 6',
+      116: 'POL 4',
+      117: 'POL 3',
+      118: 'POL 2',
+      119: 'POL 6',
+      120: 'POL 1',
+      121: 'POL 3',
+      122: 'POL 6',
+      123: 'POL 3',
+      124: 'POL 3',
+      125: 'POL 6',
+      126: 'Planlagt oppdrag',
+      127: 'POL 4',
+      128: 'POL 5',
+      129: 'POL 3'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',

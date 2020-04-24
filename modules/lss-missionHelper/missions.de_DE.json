@@ -9536,5 +9536,47 @@
         "percentages": {
             "mess": 40
         }
+    },
+    "521": {
+        "name": "Explosion in Feuerwerksfabrik",
+        "stations": {
+            "0": 30,
+            "2": 10,
+            "6": 5,
+            "9": 3,
+            "13": 1,
+            "werk": 1
+        },
+        "vehicles": {
+            "truck": 40,
+            "rw": 10,
+            "elw1": 6,
+            "elw2": 1,
+            "mess": 3,
+            "gefahr": 1,
+            "dlk": 6,
+            "oel": 1,
+            "gwl2": 5,
+            "atem": 2,
+            "dekon": 1,
+            "fustw": 10,
+            "polheli": 1,
+            "gwwerk": 1,
+            "tm": 1,
+            "ulf": 1,
+            "mzkw": 2,
+            "mtwtz": 2,
+            "gkw": 2,
+            "radlader": 2
+        },
+        "credits": 15600,
+        "patients": {
+            "max": 50,
+            "min": 30,
+            "transport": 85,
+            "nef": 75,
+            "specialisation": "Allgemeine Chirurgie"
+        },
+        "poi": 40
     }
 }
