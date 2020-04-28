@@ -1897,5 +1897,14 @@
         "special": {
             "SWATPersonnel": 6
         }
+    },
+    "130": {
+        "name": "Anafylaktisk sjokk",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Generell medisin"
     }
 }

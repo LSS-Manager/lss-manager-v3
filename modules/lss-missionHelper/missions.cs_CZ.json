@@ -1807,5 +1807,15 @@
         "special": {
             "SWATPersonnel": 6
         }
+    },
+    "124": {
+        "name": "Resuscitace pomoc\u00ed AED",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1300
     }
 }

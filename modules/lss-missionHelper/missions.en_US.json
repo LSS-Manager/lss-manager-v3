@@ -6193,5 +6193,25 @@
             "transport": 50,
             "specialisation": "General Surgeon"
         }
+    },
+    "378": {
+        "name": "SCUBA Injury",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "General Internal",
+        "poi": 1
+    },
+    "379": {
+        "name": "SCUBA Injury",
+        "stations": {
+            "3": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "General Internal",
+        "poi": 39
     }
 }

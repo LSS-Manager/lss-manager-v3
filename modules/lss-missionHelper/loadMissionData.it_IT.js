@@ -61,7 +61,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria|Richiesta|Richiesto/)) {
                 vehicles[getVehicle(content)] = number;
-			} else if (content.match(/Media min. Personale antincendio/)) {
+			} else if (content.match(/del Fuoco/)) {
                 special["averageMinimumEmployeesFire"] = number;
             } else if (content.match(/Possibilità|richiesta|Possibile/)) {
                 percentages[getVehicle(content)] = number;

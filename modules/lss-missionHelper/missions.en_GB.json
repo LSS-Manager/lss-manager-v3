@@ -476,19 +476,21 @@
         "poi": 9
     },
     "34": {
-        "name": "Fire in Hospital",
+        "name": "Fire in Hospital - Major Incident",
         "stations": {
-            "0": 10,
+            "0": 13,
             "2": 6
         },
         "vehicles": {
             "truck": 10,
-            "bchief": 2,
+            "bchief": 8,
+            "mcv": 1,
             "heavyRescue": 2,
             "tanker": 1,
-            "platform": 3
+            "platform": 2,
+            "air": 1
         },
-        "credits": 6000,
+        "credits": 10000,
         "patients": {
             "max": 25,
             "transport": 50,
@@ -557,16 +559,16 @@
         "specialisation": "Traumatology"
     },
     "41": {
-        "name": "Car workshop fire",
+        "name": "Car workshop fire - persons reported",
         "stations": {
-            "0": 14,
+            "0": 16,
             "2": 2,
             "6": 2
         },
         "vehicles": {
             "truck": 8,
-            "bchief": 2,
-            "platform": 2,
+            "bchief": 4,
+            "platform": 1,
             "heavyRescue": 1,
             "tanker": 1,
             "hazmat": 1,
@@ -2024,21 +2026,20 @@
         }
     },
     "145": {
-        "name": "Fire in an office building",
+        "name": "Fire in an office building - Major Incident",
         "stations": {
             "0": 15,
             "2": 2,
             "6": 3
         },
         "vehicles": {
-            "truck": 10,
-            "platform": 4,
+            "truck": 16,
+            "platform": 2,
             "heavyRescue": 2,
-            "bchief": 2,
+            "bchief": 8,
             "mcv": 1,
             "police": 3,
-            "air": 1,
-            "tanker": 1
+            "air": 1
         },
         "credits": 7000,
         "patients": {
@@ -2156,15 +2157,15 @@
         "specialisation": "General Surgeon"
     },
     "153": {
-        "name": "Big farm fire",
+        "name": "Hay shed fire - Large",
         "stations": {
             "0": 13
         },
         "vehicles": {
-            "truck": 9,
-            "bchief": 2,
-            "platform": 3,
-            "tanker": 3
+            "truck": 8,
+            "bchief": 6,
+            "platform": 1,
+            "tanker": 2
         },
         "credits": 9000,
         "poi": 21
@@ -2376,7 +2377,7 @@
         }
     },
     "169": {
-        "name": "Heathland fire",
+        "name": "Heathland fire - large",
         "stations": {
             "0": 13
         },
@@ -2388,5 +2389,14 @@
         },
         "credits": 8000,
         "poi": 54
+    },
+    "170": {
+        "name": "Anaphylaxis",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "General Internal"
     }
 }

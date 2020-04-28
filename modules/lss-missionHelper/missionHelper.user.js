@@ -2064,6 +2064,7 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'fino',
         exp: 'Espansione',
         SWATPersonnel: "Needed SWAT Personnel",
+		averageMinimumEmployeesFire: 'Vigili del Fuoco richiesti',
         ambulance_only: 'Questa missione e\' riservata alle ambulanze.!',
         title: 'Missionhelper',
         transport: 'Trasporto',

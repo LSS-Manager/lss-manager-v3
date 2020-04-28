@@ -2477,5 +2477,61 @@
         "prisoners": {
             "max": 3
         }
+    },
+    "165": {
+        "name": "Incendio albergo (PICCOLO)",
+        "stations": {
+            "0": 8,
+            "2": 5,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 2,
+            "bchief": 1,
+            "police": 2,
+            "air": 1
+        },
+        "credits": 6500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 30,
+            "rth": 2,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 49,
+        "percentages": {
+            "bchief": 15,
+            "air": 10
+        }
+    },
+    "166": {
+        "name": "Incendio cisterna chimica (PICCOLA)",
+        "stations": {
+            "0": 6,
+            "2": 5,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 2,
+            "bchief": 1,
+            "police": 2,
+            "hazmat": 1,
+            "tanker": 1
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 20,
+            "rth": 5,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 47,
+        "special": {
+            "averageMinimumEmployeesFire": 25
+        }
     }
 }
