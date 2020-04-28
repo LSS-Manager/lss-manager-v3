@@ -2514,5 +2514,35 @@
             "police": 1
         },
         "credits": 1000
+    },
+    "173": {
+        "name": "Pr\u00f3ba samob\u00f3jcza (skok z budynku)",
+        "stations": {
+            "0": 5,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "platform": 1,
+            "police": 1
+        },
+        "credits": 3500,
+        "patients": {
+            "max": 1,
+            "transport": 80,
+            "specialisation": "Interna"
+        }
+    },
+    "174": {
+        "name": "Po\u017car autokaru",
+        "stations": {
+            "0": 4
+        },
+        "vehicles": {
+            "truck": 3,
+            "platform": 1
+        },
+        "credits": 3000
     }
 }

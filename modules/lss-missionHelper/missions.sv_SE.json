@@ -2209,5 +2209,16 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "153": {
+        "name": "H\u00e4stolycka",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 65,
+        "rth": 30,
+        "specialisation": "Traumatologi",
+        "poi": 20
     }
 }

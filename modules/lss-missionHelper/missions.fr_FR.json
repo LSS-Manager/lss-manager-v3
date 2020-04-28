@@ -1899,5 +1899,14 @@
         },
         "credits": 3000,
         "poi": 53
+    },
+    "136": {
+        "name": "Choc anaphylactique",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Interne g\u00e9n\u00e9ral"
     }
 }

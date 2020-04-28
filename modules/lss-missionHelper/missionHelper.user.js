@@ -2062,15 +2062,16 @@ const lssm_missionhelper_adjustPosition = () => {
         patients: 'Pazienti',
         prisoners: 'Prigionieri',
         to: 'fino',
-        exp: 'Diffondere',
+        exp: 'Espansione',
         SWATPersonnel: "Needed SWAT Personnel",
+		averageMinimumEmployeesFire: 'Vigili del Fuoco richiesti',
         ambulance_only: 'Questa missione e\' riservata alle ambulanze.!',
         title: 'Missionhelper',
         transport: 'Trasporto',
         settings: {
             name: {
                 label: 'Nome',
-                description: 'Mostra il nome della missione nell\'aiutante.'
+                description: 'Mostra il nome della missione nell\'aiuto.'
             },
             id: {
                 label: 'ID',

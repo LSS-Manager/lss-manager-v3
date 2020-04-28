@@ -1512,5 +1512,14 @@
         "transport": 80,
         "rth": 30,
         "specialisation": "Cl\u00ednica m\u00e9dica"
+    },
+    "107": {
+        "name": "Choque anafil\u00e1tico",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Cl\u00ednica m\u00e9dica"
     }
 }

@@ -124,7 +124,7 @@ if (!I18n.translations.hasOwnProperty('nl_NL')) I18n.translations.nl_NL = {};
 
 I18n.translations.de_DE.lssm = {
     lssm: "LSS-Manager",
-    version: "Stable",
+    version: "Beta",
     appstore: "APPSTORE",
     appstore_welcome: "Willkommen im Appstore vom LSS Manager",
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
@@ -285,7 +285,7 @@ I18n.translations.it_IT.lssm = {
     appstore_welcome: "Benvenuti nell'Appstore di LSS Manager",
     appstore_desc: "Qui troverete vari plugin che arricchiranno la vostra esperienza di gioco. Ogni plugin può essere " +
         "attivabile singolarmente posizionando la leva su verde. Se ci sono dei problemi, puoi unirti al nostro " +
-        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discordia</a> ovvero " +
+        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> ovvero " +
         "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
         "\" target=\"blank\">scrivere un messaggio nel forum</a>.",
     back_lss: "Torna al gioco",
@@ -578,8 +578,8 @@ lssm.Module = {
                  'forteller deg hvor mange oppdrag osv. du har siden forrige besøk i det vinduet.',
             cs_CZ: 'Zobrazit s hlavním zaměřením na mapě. Mise a další okna lze změnit pomocí nabídky. Odznak ' +
                  'vám říká, kolik misí atd. máte od vaší poslední návštěvy v tomto okně.',
-            it_IT: 'Vista con focus principale sulla mappa. Le missioni e le altre finestre possono essere modificate utilizzando un menu. Un distintivo ' +
-                'ti dice quante missioni ecc.hai avuto dall\'ultima visita all\'interno di quella finestra.',
+            it_IT: 'Vista con focus principale sulla mappa. Le missioni e le altre finestre possono essere modificate utilizzando un menu. Un badge ' +
+                'ti dice quante missioni ecc. hai avuto dall\'ultima visita all\'interno di quella finestra.',
             tr_TR: 'Harita üzerinde odaklanarak görüntüleyin. Görevler ve diğer pencereler bir menü kullanılarak değiştirilebilir. Bir rozet ' +
                  'bu pencerede yaptığınız son ziyaretten bu yana kaç tane göreviniz vs. olduğunu söylüyor.',
             fr_FR: 'Vue avec mise au point principale sur la carte. Les missions et autres fenêtres peuvent être modifiées à l\'aide d\'un menu. ' +
@@ -619,7 +619,7 @@ lssm.Module = {
             da_DK: 'Vis med 100% kort på det øvre område-nedenfor, at de fire Windows opkald, bygninger, chat og radio.',
             nb_NO: 'Vis med 100% kart i det øvre området - under at de fire vinduene ringer, bygninger, chat og radio.',
             cs_CZ: 'Zobrazit se 100% mapou v horní části - pod tím čtyři okna volá, budovy, chat a rádio.',
-            it_IT: 'Visualizza con la mappa al 100% nella parte superiore - sotto che le quattro finestre chiama, edifici, chat e radio.',
+            it_IT: 'Visualizza la mappa al 100% nella parte superiore - sotto le quattro finestre missioni, edifici, chat e radio.',
             tr_TR: 'Üst kısımda% 100 harita ile görün - altında dört pencere arandı, binalar, sohbet ve radyo.',
             fr_FR: 'Vue avec la carte à 100% dans la zone supérieure - en dessous que les quatre fenêtres appels, les bâtiments, le chat et la radio.',
             ru_RU: 'Просмотр со 100% картой в верхней части экрана - под ней четыре окна звонков, здания, чат и радио.',
@@ -686,7 +686,7 @@ lssm.Module = {
                  'Under det bygningene, chat og radio.',
             cs_CZ: 'Mapa se 100% výškou na levé straně. Vedle ní jsou volání, každá kategorie ve svém vlastním sloupci. ' +
                 'Pod nimi budovy, chat a rádio.',
-            it_IT: 'Mappa con il 100% di altezza sul lato sinistro. Accanto ad esso le chiamate, ogni categoria nella propria colonna. ' +
+            it_IT: 'Mappa con il 100% di altezza sul lato sinistro. Accanto ad esso le missioni, ogni categoria nella propria colonna. ' +
                 'Sotto gli edifici, chiacchierata e radio.',
             tr_TR: 'Sol tarafta% 100 yükseklikte harita. Yanında aramalar, her kategori kendi sütununda. ' +
                 'Bunun altında binalar, sohbet ve radyo.',
@@ -728,7 +728,7 @@ lssm.Module = {
         name: {
             de_DE: 'MissionOut',
             pl_PL: 'MisjaOut',
-            it_IT: 'MissioneOut',
+            it_IT: 'Fine Missione',
             cs_CZ: 'Misionout',
             ru_RU: 'Миссия',
             uk_UA: 'Місівиз',
@@ -755,7 +755,7 @@ lssm.Module = {
             cs_CZ: 'Minimalizujte položky seznamu misí. Můžete buď rozšířit nebo minimalizovat všechny hovory najednou, nebo to udělat pro ' +
                  'každý.',
             it_IT: 'Ridurre al minimo le voci dell\'elenco delle missioni.È possibile espandere o ridurre al minimo tutte ' +
-                'le chiamate in una sola volta o farlo per ciascuna di esse.',
+                'le missioni in una sola volta o farlo per ciascuna di esse.',
             tr_TR: 'Görev listesi girişlerini en aza indirin. Tüm aramaları aynı anda genişletebilir veya en aza indirebilirsiniz veya ' +
                  'her biri.',
             fr_FR: 'Minimiser les entrées de la liste des missions. Vous pouvez soit développer ou réduire tous les appels ' +
@@ -787,7 +787,7 @@ lssm.Module = {
             da_DK: 'Gem oprettede Alliance opkald',
             nb_NO: 'Lagre opprettede alliansesamtaler',
             cs_CZ: 'Uložit vytvořené spojenecké hovory',
-            it_IT: 'Salvare le chiamate all\'alleanza create',
+            it_IT: 'Salvare le missioni create dall\'alleanza',
             tr_TR: 'Oluşturulan ittifak çağrılarını kaydet',
             fr_FR: 'Enregistrer les appels d\'alliance créés',
             ru_RU: 'Сохранить созданные вызовы альянса',
@@ -809,7 +809,7 @@ lssm.Module = {
             da_DK: 'Aktiverer en funktion til at gemme egne oprettede missionskald til at bruge dem som skabelon.',
             nb_NO: 'Gjør det mulig for en funksjon å lagre egne opprettede oppdragsanrop for å bruke dem som mal.',
             cs_CZ: 'Umožňuje funkci uložit vlastní vytvořená volání mise a použít je jako šablonu.',
-            it_IT: 'Abilita una funzione per salvare le proprie chiamate di missione create per usarle come modello.',
+            it_IT: 'Abilita una funzione per salvare le proprie missioni create, per usarle come modello.',
             tr_TR: 'Bir işlevin kendi oluşturduğu görev çağrılarını şablon olarak kullanmak için kaydetmesini sağlar.',
             fr_FR: 'Permet à une fonction de sauvegarder ses propres appels de mission créés pour les utiliser comme modèle.',
             ru_RU: 'Позволяет сохранить собственные созданные вызовы миссии и использовать их в качестве шаблона.',
@@ -875,7 +875,7 @@ lssm.Module = {
             da_DK: 'Meddelelse om besked',
             nb_NO: 'varslingsvarsel',
             cs_CZ: 'Upozornění na oznámení',
-            it_IT: 'Allarme di notifica',
+            it_IT: 'Notifica di allarme',
             fr_FR: 'Alerte de notification',
             tr_TR: 'Bildirim Uyarısı',
             ru_RU: 'Уведомление Предупреждение ',
@@ -898,7 +898,7 @@ lssm.Module = {
             da_DK: 'HTML5 Chatnotifikationer ved hjælp af browseren notifikationssystem.',
             nb_NO: 'HTML5 Chatnotifikasjoner ved hjelp av nettleservarslingssystemet.',
             cs_CZ: 'Hlášení HTML5 pomocí notifikačního systému prohlížeče.',
-            it_IT: 'Chatnotifications HTML5 utilizzando il sistema di notifiche del browser.',
+            it_IT: 'Notifiche della chat HTML5 utilizzando il sistema di notifiche del browser.',
             tr_TR: 'Tarayıcı bildirim sistemini kullanarak HTML5 Sohbet bildirimleri.',
             fr_FR: 'HTML5 Chat Notifications à l\'aide du système de notification du navigateur.',
             ru_RU: 'HTML5 Чатнотификации с помощью системы оповещения браузера.',
@@ -1356,7 +1356,7 @@ lssm.Module = {
             da_DK: 'Viser koden for køretøjer på stationen hover på kortet.',
             nb_NO: 'Viser koden til kjøretøyer på stasjonspekeren på kartet.',
             cs_CZ: 'Zobrazuje kód vozidel na stanici, která se vznáší na mapě.',
-            it_IT: 'Mostra il codice dei veicoli sulla stazione di hover stazione sulla mappa',
+            it_IT: 'Mostra lo stato dei veicoli soffermandosi sulla stazione nella mappa',
             tr_TR: 'Harita üzerinde istasyonun üzerine gelindiğinde araçların kodunu gösterir.',
             fr_FR: 'Affiche le code des véhicules en station sur la carte.',
             ru_RU: 'Показывает код транспортного средства на станции, наведенной на карту.',
@@ -1403,7 +1403,7 @@ lssm.Module = {
             da_DK: 'Omdøb køretøjer i bulk ved hjælp af Tags.',
             nb_NO: 'Gi nytt navn til kjøretøy i bulk ved hjelp av tagger.',
             cs_CZ: 'Přejmenujte vozidla hromadně pomocí značek.',
-            it_IT: 'Rinominare i veicoli alla rinfusa utilizzando i tag',
+            it_IT: 'Rinominare molteplici veicoli utilizzando i tag',
             tr_TR: 'Etiketleri kullanarak araçları toplu olarak yeniden adlandırın.',
             fr_FR: 'Renommer les véhicules en vrac à l\'aide d\'étiquettes.',
             ru_RU: 'Переименование транспортных средств навалом/насыпью с помощью меток.',
@@ -1534,7 +1534,7 @@ lssm.Module = {
             es_ES: 'AAO-Buscar',
             pt_PT: 'Pesquisa AAO',
             pl_PL: 'AAO-Szukanie',
-            it_IT: 'Ricerca AAO',
+            it_IT: 'Ricerca Regole Automatiche',
             tr_TR: 'AAO-Arama',
             da_DK: 'AAO-Søg',
             nb_NO: 'AAO-søk',
@@ -1559,7 +1559,7 @@ lssm.Module = {
             da_DK: 'Pakker alle AAO \' er i en søgbar dropdown',
             nb_NO: 'Pakker alle AAO \'s i en søkbar dropdown',
             cs_CZ: 'Zabalí všechna AAO do rozevírací rozbalovací nabídky',
-            it_IT: 'Confeziona tutti gli AAO in un menu a tendina ricercabile.',
+            it_IT: 'Racchiudi tutte le Regole Automatiche in un menu a tendina ricercabile.',
             tr_TR: 'Paketler tüm AAO \'s aranabilir bir açılır içine',
             fr_FR: 'Emballe tous les AAO dans un menu déroulant interrogeable',
             ru_RU: 'Упаковывает все AAO\ в выпадающий список с возможностью поиска.',
@@ -1593,7 +1593,7 @@ lssm.Module = {
             da_DK: 'Viser tætheden af valgbar køretøjstyper på kortet for at identificere forsynings huller.',
             nb_NO: 'Viser tettheten av valgbare kjøretøytyper på kartet for å identifisere forsynings huller.',
             cs_CZ: 'Zobrazuje hustotu vybraných typů vozidel na mapě k identifikaci mezer v zásobování.',
-            it_IT: 'Mostra la densità dei tipi di veicoli selezionabili sulla mappa per identificare i vuoti di approvvigionamento',
+            it_IT: 'Mostra l\'area di intervento dei tipi di veicoli selezionabili sulla mappa per identificare le zone non coperte.',
             tr_TR: 'Tedarik boşluklarını belirlemek için haritaüzerinde seçilebilir araç türlerinin yoğunluğunu gösterir.',
             fr_FR: 'Affiche la densité des types de véhicules sélectionnables sur la carte pour identifier les lacunes d\'approvisionnement.',
             ru_RU: 'Показывает плотность выбранных типов транспортных средств на карте для выявления пробелов в поставках.',
@@ -1712,7 +1712,7 @@ lssm.Module = {
             da_DK: 'Forbedrede transport anmodninger',
             nb_NO: 'Forbedrede transportforespørsler',
             cs_CZ: 'Vylepšené požadavky na dopravu',
-            it_IT: 'Maggiori richieste di trasporto',
+            it_IT: 'Richieste di trasporto avanzate',
             tr_TR: 'Geliştirilmiş taşıma talepleri',
             fr_FR: 'Demandes de transport améliorées',
             ru_RU: 'Расширенные запросы на транспортировку',
@@ -1884,7 +1884,7 @@ lssm.Module = {
             da_DK: 'Viser den dato, hvor missionen blev genereret, og timer/minutter siden da',
             nb_NO: 'Viser datoen da oppdraget ble generert og timene / minuttene siden den gang',
             cs_CZ: 'Zobrazuje datum, kdy byla mise vytvořena, a hodiny / minuty od té doby',
-            it_IT: 'Mostra la data in cui la missione è stata generata e le ore/minuti da allora.',
+            it_IT: 'Mostra la data in cui la missione è stata generata e il tempo trascorso.',
             tr_TR: 'Görevin oluşturulduğu tarihi ve o zamandan beri geçen saati / dakikayı gösterir',
             fr_FR: 'Affiche la date à laquelle la mission a été générée et les heures/minutes depuis lors.',
             ru_RU: 'Показывает дату создания миссии и часы/минуты, прошедшие с тех пор.',
@@ -1934,7 +1934,7 @@ lssm.Module = {
             da_DK: 'Erstatter bygnings filteret med ikoner.',
             nb_NO: 'Erstatter bygge filter med ikoner.',
             cs_CZ: 'Nahrazuje stavební filtr ikonami.',
-            it_IT: 'Sostituisce il filtro dell\'edificio con icone.',
+            it_IT: 'Sostituisce l\'edificio con icone.',
             tr_TR: 'Bina filtresini simgelerle değiştirir.',
             fr_FR: 'Remplace le filtre du bâtiment par des icônes.',
             ru_RU: 'Заменяет фильтр здания значками.',
@@ -2011,7 +2011,7 @@ lssm.Module = {
             da_DK: 'Alarm-regulativer-Counter',
             nb_NO: 'Alarm-forskrift-Counter',
             cs_CZ: 'Počítadlo poplašných předpisů',
-            it_IT: 'Allarme-Regolamenti-Contatore',
+            it_IT: 'Contatore Regole Automatiche',
             tr_TR: 'Alarm-Yönetmelikler-Sayaç',
             fr_FR: 'Alarme-Régulations-Compteur d\'alarmes',
             ru_RU: 'Сигнализация-регулирование - счетчик',
@@ -2033,7 +2033,7 @@ lssm.Module = {
             da_DK: 'Tæller Klik på en alarm-Regulations-knap',
             nb_NO: 'Teller klikk på en alarm-regelverket-knappen',
             cs_CZ: 'Počítá kliknutí na tlačítko alarm-předpisy',
-            it_IT: 'Conta i clic su un pulsante di regolazione dell\'allarme',
+            it_IT: 'Conta i clic su ogni pulsante delle regole automatiche',
             tr_TR: 'Bir alarm düzenlemeleri düğmesine tıklamaları sayar',
             fr_FR: 'Compter les clics sur un bouton de régulation d\'alarme',
             ru_RU: 'Считывает количество нажатий на кнопку регулировки сигнализации.',
@@ -2081,7 +2081,7 @@ lssm.Module = {
             da_DK: 'Tilføj nogle specielle oplysninger om kreditterne på en rulleliste',
             nb_NO: 'Legg til spesiell informasjon om studiepoengene i en rullegardinliste',
             cs_CZ: 'Do rozevíracího seznamu přidejte některé zvláštní informace o kreditech',
-            it_IT: 'Aggiungere alcune informazioni speciali sui crediti in un elenco a discesa',
+            it_IT: 'Aggiungere alcune informazioni speciali sui crediti in un elenco a scomparsa',
             tr_TR: 'Açılır listeye krediler hakkında bazı özel bilgiler ekleyin',
             fr_FR: 'Ajouter des informations spéciales sur les crédits dans une liste déroulante',
             ru_RU: 'Добавление специальной информации о кредитах в выпадающий список',
@@ -2152,7 +2152,7 @@ lssm.Module = {
             da_DK: 'Vis Chatbutton ovenfor',
             nb_NO: 'vis Chatbutton over',
             cs_CZ: 'zobrazit Chatbutton výše',
-            it_IT: 'mostra Chatbutton Sopra',
+            it_IT: 'Mostra bottone chat',
             tr_TR: 'Chatbutton\'u yukarıda göster',
             fr_FR: 'Afficher le bouton Chat ci-dessus',
             ru_RU: 'Показать Кнопку Чаттон Наверху',
@@ -2355,7 +2355,7 @@ lssm.Module = {
             da_DK: "Status tæller",
             nb_NO: "Status teller",
             cs_CZ: "Počítadlo stavu",
-            it_IT: "Stato Contatore",
+            it_IT: "Contatore di stato",
             tr_TR: "Durum Sayacı",
             fr_FR: "Compteur de statuts",
             ru_RU: "Счетчик статуса",

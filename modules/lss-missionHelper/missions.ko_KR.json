@@ -1351,5 +1351,14 @@
             "min": 2,
             "specialisation": "\uc77c\ubc18 \uc678\uacfc"
         }
+    },
+    "98": {
+        "name": "\uacfc\ubbfc\uc99d",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "\uc77c\ubc18 \ub0b4\uacfc"
     }
 }

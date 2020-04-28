@@ -1030,5 +1030,14 @@
             "min": 2,
             "specialisation": "Yleiskirurgi"
         }
+    },
+    "76": {
+        "name": "Anafylaksia",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
     }
 }

@@ -2077,5 +2077,14 @@
         "special": {
             "SWATPersonnel": 6
         }
+    },
+    "141": {
+        "name": "Anafylaktisk shock",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Specialister i intern medicin"
     }
 }

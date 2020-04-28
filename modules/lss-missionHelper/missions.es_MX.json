@@ -1963,5 +1963,14 @@
             "min": 2,
             "specialisation": "Cirug\u00eda general"
         }
+    },
+    "141": {
+        "name": "Choque anafil\u00e1ctico",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Medicina interna general"
     }
 }

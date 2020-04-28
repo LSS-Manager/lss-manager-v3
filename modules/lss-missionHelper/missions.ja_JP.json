@@ -1383,5 +1383,14 @@
             "min": 2,
             "specialisation": "\u4e00\u822c\u5916\u79d1"
         }
+    },
+    "100": {
+        "name": "\u30a2\u30ca\u30d5\u30a3\u30e9\u30ad\u30b7\u30fc",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "\u4e00\u822c\u5185\u79d1"
     }
 }
