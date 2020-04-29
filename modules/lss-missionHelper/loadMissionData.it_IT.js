@@ -59,7 +59,7 @@ $.get(missionlink)
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
             let content = $(this).text().trim();
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
-            if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria|Richiesta|Richiesto/)) {
+            if (content.match(/richieste|richiesti|richiesta|richiesto|Richiesti|necessaria|Richiesta|Richiesto/) && !content.match(/del Fuoco/))  {
                 vehicles[getVehicle(content)] = number;
 			} else if (content.match(/del Fuoco/)) {
                 special["averageMinimumEmployeesFire"] = number;
