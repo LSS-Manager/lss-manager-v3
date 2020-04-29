@@ -2212,6 +2212,8 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'jusqu\'à',
         exp: 'Propagation',
         SWATPersonnel: "Needed SWAT Personnel",
+        averageMinimumEmployeesFire: 'Moyenne minimale Pompiers',
+        averageMinimumEmployeesHoehen: 'Spécialistes IMP requis',
         ambulance_only: 'Cette mission est réservée aux ambulances !',
         title: 'Aide à la mission',
         transport: 'transport',
@@ -2286,7 +2288,8 @@ const lssm_missionhelper_adjustPosition = () => {
             rth: "Dragon",
             ambulance: "Ambulances",
             gkw: 'Véhicule Tout Usage',
-            arff: "ARFF"
+            arff: "ARFF",
+            hoehen: "VGRIMP"
         },
         pois: [
             "Parc",

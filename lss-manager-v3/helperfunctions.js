@@ -456,7 +456,7 @@ else if (I18n.locale == "it_IT") {
 else if (I18n.locale == "fr_FR") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
-        "Extension d’ambulance": 0,
+        "Service de Santé et de Secours Médical": 0,
         "Water rescue expansion": 1,
         "Airport extension": 2,
         // Pol-Erweiterungen (10-19)
@@ -477,9 +477,11 @@ else if (I18n.locale == "fr_FR") {
         "8": ["Véhicule de patrouille", 2],
         "9": ["Dragon", 1],
         "10": ["VAR", 0],
-        "11": ["Véhicule mobile de comm.", 0],
+        "11": ["VPC", 0],
         "12": ["FPTSR", 0],
-        "13": ["Véhicule Toute Utilité", 0]
+        "13": ["VTU", 0],
+        "14": ["VGRIMP", 0],
+        "15": ["BEA", 0]
     };
 }
 else if (I18n.locale == "ru_RU") {

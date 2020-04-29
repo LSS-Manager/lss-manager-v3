@@ -14,13 +14,14 @@ $.get(missionlink)
             bchief: "de groupe",
             tanker: "(c|C)amion-citerne[^s]",
             hazmat: "risques technologiques",
-            police: "Voitures de police",
+            police: "police",
             arff: 'ARFF',
             mcv: 'poste de commandement',
             rth: "hélicoptère",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulances",
-            gkw: 'Véhicule Tout Usage'
+            gkw: 'VTU',
+            hoehen: 'VGRIMP'
         };
 
         let credits;
@@ -60,6 +61,8 @@ $.get(missionlink)
                 vehicles[getVehicle(content)] = number;
             } else if (content.match(/Moyenne minimale Pompiers/)) {
                 special["averageMinimumEmployeesFire"] = number;
+            } else if (content.match(/Spécialistes IMP/)) {
+                special["averageMinimumEmployeesHoehen"] = number;
             } else if (content.match(/Chances qu’un|Chances que/)) {
                 percentages[getVehicle(content)] = number;
             }

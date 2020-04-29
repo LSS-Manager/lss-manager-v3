@@ -1908,5 +1908,296 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Interne g\u00e9n\u00e9ral"
+    },
+    "137": {
+        "name": "Bless\u00e9 sur \u00e9chafaudage",
+        "stations": {
+            "0": 12,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 1,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 1800,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Traumatologie"
+        },
+        "percentages": {
+            "platform": 40,
+            "police": 30
+        }
+    },
+    "138": {
+        "name": "Chute d'escalade",
+        "stations": {
+            "0": 12,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1500,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "rth": 75,
+            "specialisation": "Traumatologie"
+        }
+    },
+    "139": {
+        "name": "Accident de parachutisme",
+        "stations": {
+            "0": 12,
+            "2": 5
+        },
+        "vehicles": {
+            "truck": 1,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 1900,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 22
+    },
+    "140": {
+        "name": "Accident de parachutisme",
+        "stations": {
+            "0": 12,
+            "2": 5
+        },
+        "vehicles": {
+            "truck": 1,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 1900,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 43
+    },
+    "141": {
+        "name": "Accident de parachutisme",
+        "stations": {
+            "0": 12,
+            "2": 5
+        },
+        "vehicles": {
+            "truck": 1,
+            "bchief": 1,
+            "platform": 1
+        },
+        "credits": 1900,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Traumatologie"
+        },
+        "poi": 44
+    },
+    "142": {
+        "name": "Malaise dans une grue",
+        "stations": {
+            "0": 12,
+            "2": 1,
+            "6": 1
+        },
+        "vehicles": {
+            "bchief": 1,
+            "police": 1,
+            "truck": 1
+        },
+        "credits": 2000,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "143": {
+        "name": "Nacelle bloqu\u00e9e en position haute",
+        "stations": {
+            "0": 10,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 2,
+            "transport": 100,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "expansions": {
+            "0": 144
+        }
+    },
+    "144": {
+        "name": "Nacelle bloqu\u00e9e en position haute (> 32m)",
+        "stations": {
+            "0": 10,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "platform": 1,
+            "bchief": 1,
+            "police": 2,
+            "truck": 1
+        },
+        "credits": 1800,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 2,
+            "transport": 50,
+            "rth": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        }
+    },
+    "145": {
+        "name": "Objet mena\u00e7ant de tomber (inaccessible)",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "gkw": 1,
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 900,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        }
+    },
+    "146": {
+        "name": "Chemin\u00e9e mena\u00e7ant de tomber (inaccessible)",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "gkw": 1,
+            "platform": 1,
+            "bchief": 1,
+            "truck": 1
+        },
+        "credits": 900,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        }
+    },
+    "147": {
+        "name": "Personnes bloqu\u00e9es dans une attraction",
+        "stations": {
+            "0": 9,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "bchief": 1
+        },
+        "credits": 2300,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 14,
+            "transport": 50,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "poi": 26
+    },
+    "148": {
+        "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre",
+        "stations": {
+            "0": 8,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1,
+            "bchief": 1
+        },
+        "credits": 2200,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "expansions": {
+            "0": 149
+        }
+    },
+    "149": {
+        "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre (non accessible)",
+        "stations": {
+            "0": 8,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 1,
+            "bchief": 1
+        },
+        "credits": 2400,
+        "special": {
+            "averageMinimumEmployeesHoehen": 5
+        },
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "specialisation": "Interne g\u00e9n\u00e9ral"
+        },
+        "percentages": {
+            "police": 30
+        }
     }
 }
