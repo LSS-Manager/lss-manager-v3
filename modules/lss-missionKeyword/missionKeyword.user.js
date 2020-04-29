@@ -3158,7 +3158,20 @@
         133: 'Déraillement de train de fret',
         134: 'Déraillement de train de fret',
         135: 'Feu de silo',
-        136: 'Choc anaphylactique'
+        136: 'Choc anaphylactique',
+        137: 'Blessé sur échafaudage',
+        138: 'Chute d\'escalade',
+        139: 'Accident de parachutisme',
+        140: 'Accident de parachutisme',
+        141: 'Accident de parachutisme',
+        142: 'Malaise dans une grue',
+        143: 'Nacelle bloquée en position haute',
+        144: 'Nacelle bloquée en position haute (> 32m)',
+        145: 'Objet menaçant de tomber (inaccessible)',
+        146: 'Cheminée menaçant de tomber (inaccessible)',
+        147: 'Personnes bloquées dans une attraction',
+        148: 'Évacuation personne obèse par la fenêtre',
+        149: 'Évacuation personne obèse par la fenêtre (non accessible)'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -7417,7 +7430,20 @@
       133: 'TECH 5',
       134: 'TECH 5',
       135: 'FIRE 2',
-      136: 'MED 1'
+      136: 'MED 1',
+      137: 'TECH 1',
+      138: 'TECH 1',
+      139: 'TECH 1',
+      140: 'TECH 1',
+      141: 'TECH 1',
+      142: 'TECH 1',
+      143: 'TECH 1',
+      144: 'TECH 1',
+      145: 'TECH 1',
+      146: 'TECH 1',
+      147: 'TECH 2',
+      148: 'TECH 1',
+      149: 'TECH 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',

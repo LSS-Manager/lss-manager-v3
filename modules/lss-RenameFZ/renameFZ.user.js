@@ -880,6 +880,7 @@
             validStationTypes: {
                 0: "Centre de secours",
                 2: "Poste ambulancier",
+                5: "Station d’hélicoptère",
                 6: "Poste de police",
                 7: "Centre de Traitement des Appels",
                 18: "Centre de Première Intervention",
@@ -898,9 +899,11 @@
                 8: 'Véhicule de patrouille',
                 9: 'Dragon',
                 10: 'VAR',
-                11: 'Véhicule mobile de comm.',
+                11: 'VPC',
                 12: 'FPTSR',
-                13: 'Véhicule Toute Utilité'
+                13: 'VTU',
+                14: 'VGRIMP',
+                15: 'BEA'
             }
         }
     };
