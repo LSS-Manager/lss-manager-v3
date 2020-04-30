@@ -313,7 +313,7 @@
         "poi": 4
     },
     "25": {
-        "name": "Wypadek drogowy",
+        "name": "Kolizja drogowa",
         "stations": {
             "0": 3
         },
@@ -321,11 +321,6 @@
             "truck": 1
         },
         "credits": 1000,
-        "patients": {
-            "max": 1,
-            "transport": 40,
-            "specialisation": "Traumatologia"
-        },
         "expansions": {
             "0": 24,
             "1": 2,
@@ -393,7 +388,7 @@
         "credits": 5300
     },
     "30": {
-        "name": "Wyciek gazu",
+        "name": "Wyciek paliwa",
         "stations": {
             "0": 1
         },
@@ -1186,7 +1181,7 @@
         "credits": 900
     },
     "87": {
-        "name": "Wypadek traktoru",
+        "name": "Wypadek traktora",
         "stations": {
             "0": 3,
             "2": 1
@@ -1648,7 +1643,7 @@
         }
     },
     "116": {
-        "name": "Czujka czadu\/Co2 w budynku mieszkalnym",
+        "name": "Czujka czadu w budynku mieszkalnym",
         "stations": {
             "0": 2,
             "2": 1,
@@ -2003,7 +1998,7 @@
         "poi": 21
     },
     "140": {
-        "name": "Zalana piwnica \/ dom \/ gara\u017c",
+        "name": "Zalana piwnica",
         "stations": {
             "0": 2
         },

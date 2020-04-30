@@ -377,7 +377,7 @@
         }
     },
     "29": {
-        "name": "Ukendt udslip fra tankskib",
+        "name": "Ukendt udslip fra tankvogn",
         "stations": {
             "0": 13,
             "6": 2
@@ -442,7 +442,7 @@
         "poi": 9
     },
     "34": {
-        "name": "Ild i hospital",
+        "name": "Hospitals Brand",
         "stations": {
             "0": 10,
             "2": 6
@@ -477,7 +477,7 @@
         }
     },
     "36": {
-        "name": "Brystsmerter",
+        "name": "Butiks tyveri",
         "stations": {
             "2": 3
         },
@@ -1029,7 +1029,7 @@
         }
     },
     "76": {
-        "name": "Industribrand",
+        "name": "Bygnings Brand Industribygning",
         "stations": {
             "0": 6,
             "2": 2
@@ -1107,7 +1107,7 @@
         }
     },
     "82": {
-        "name": "Rulledrundt F\u00e6rdselsuheld",
+        "name": "F\u00e6rdselsuheld bil p\u00e5 taget",
         "stations": {
             "0": 4,
             "2": 3,
@@ -1167,7 +1167,7 @@
         "specialisation": "Kirurg"
     },
     "86": {
-        "name": "Delvist Bygnings Kolaps",
+        "name": "Delvist bygningskollaps",
         "stations": {
             "0": 5,
             "2": 2,
@@ -1190,7 +1190,7 @@
         }
     },
     "87": {
-        "name": "Bygnings Kolaps",
+        "name": "Bygningskollaps",
         "stations": {
             "0": 7,
             "2": 4,
@@ -1213,7 +1213,7 @@
         }
     },
     "88": {
-        "name": "3 Grads Forbranding",
+        "name": "3 grads forbr\u00e6nding",
         "stations": {
             "2": 4
         },
@@ -1223,7 +1223,7 @@
         "specialisation": "Kirurg"
     },
     "89": {
-        "name": "Seri\u00f8st Hovedskade",
+        "name": "Seri\u00f8s Hovedskade",
         "stations": {
             "2": 3
         },
@@ -1233,7 +1233,7 @@
         "specialisation": "Neurokirurgi"
     },
     "90": {
-        "name": "Traumatisk Kropsdel Amputation",
+        "name": "Traumatisk Amputation",
         "stations": {
             "2": 4
         },
@@ -1267,7 +1267,7 @@
         "specialisation": "Specialister i intern medicin"
     },
     "93": {
-        "name": "Cafeterie Brand",
+        "name": "Ild i cafeteria",
         "stations": {
             "0": 6,
             "2": 2
@@ -1306,7 +1306,7 @@
         }
     },
     "95": {
-        "name": "Vold mod en tjenestemand",
+        "name": "Vold mod tjenestemand",
         "stations": {
             "2": 1,
             "6": 4
@@ -1358,7 +1358,7 @@
         }
     },
     "98": {
-        "name": "Ild i halmballe",
+        "name": "Ild i halmoplag",
         "stations": {
             "0": 8
         },
