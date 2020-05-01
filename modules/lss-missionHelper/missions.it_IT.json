@@ -2214,7 +2214,7 @@
         "credits": 450
     },
     "149": {
-        "name": "Incendio cisterna chimica",
+        "name": "Incendio cisterna chimica (grande)",
         "stations": {
             "0": 8,
             "2": 5,
@@ -2533,5 +2533,34 @@
         "special": {
             "averageMinimumEmployeesFire": 25
         }
+    },
+    "167": {
+        "name": "Allagamento appartamento",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 450
+    },
+    "168": {
+        "name": "Giostra ferma sulle rotaie",
+        "stations": {
+            "0": 4,
+            "2": 2
+        },
+        "vehicles": {
+            "heavyRescue": 2,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 4,
+            "transport": 10,
+            "specialisation": "Medicina interna generale"
+        },
+        "poi": 26
     }
 }

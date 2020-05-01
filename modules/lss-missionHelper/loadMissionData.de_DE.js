@@ -40,7 +40,7 @@ $.get(missionlink)
             anhdle: 'Drucklufterzeugung',
             polheli: 'Polizeihubschrauber',
             arff: 'Flugfeldlöschfahrzeug',
-            rtf: 'Rettungstreppen',
+            rtf: 'Rettungstreppe',
             taucher: 'Taucher',
             mek: 'MEK-Fahrzeuge',
             sek: 'SEK-Fahrzeuge',

@@ -810,7 +810,7 @@
         "credits": 400
     },
     "63": {
-        "name": "Misst\u00e4nkt Stroke",
+        "name": "Misst\u00e4nkt stroke",
         "stations": {
             "2": 1
         },
@@ -2164,7 +2164,7 @@
             "k9": 1
         },
         "credits": 2000,
-        "poi": 13,
+        "poi": 31,
         "prisoners": {
             "max": 3
         },
