@@ -2073,7 +2073,7 @@
     "144": {
         "name": "Nacelle bloqu\u00e9e en position haute (> 32m)",
         "stations": {
-            "0": 10,
+            "0": 12,
             "2": 4,
             "6": 1
         },
@@ -2097,7 +2097,7 @@
     "145": {
         "name": "Objet mena\u00e7ant de tomber (inaccessible)",
         "stations": {
-            "0": 6
+            "0": 12
         },
         "vehicles": {
             "gkw": 1,
@@ -2113,7 +2113,7 @@
     "146": {
         "name": "Chemin\u00e9e mena\u00e7ant de tomber (inaccessible)",
         "stations": {
-            "0": 6
+            "0": 12
         },
         "vehicles": {
             "gkw": 1,
@@ -2129,7 +2129,7 @@
     "147": {
         "name": "Personnes bloqu\u00e9es dans une attraction",
         "stations": {
-            "0": 9,
+            "0": 12,
             "2": 2
         },
         "vehicles": {
@@ -2151,7 +2151,7 @@
     "148": {
         "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre",
         "stations": {
-            "0": 8,
+            "0": 12,
             "2": 2,
             "6": 1
         },
@@ -2177,7 +2177,7 @@
     "149": {
         "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre (non accessible)",
         "stations": {
-            "0": 8,
+            "0": 12,
             "2": 2,
             "6": 1
         },
