@@ -359,17 +359,17 @@
     I18n.translations.it_IT.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? crediti guadagnati.*/i,
         ranks: {
-            0: 'Recluta',
-            200: 'Vigile del fuoco',
-            10000: 'Vigile del fuoco senior',
-            100000: 'Operatore di apparecchi antincendio',
-            1000000: 'Tenente',
-            5000000: 'Capitano',
-            20000000: 'Stato maggiore',
-            50000000: 'Capo-pattuglia',
-            1000000000: 'Capo divisione',
-            2000000000: 'Vice capo',
-            5000000000: 'Capo dei pompieri'
+            0: 'Vigile del fuoco',
+            200: 'Vigile del fuoco esperto',
+            10000: 'Vigile del fuoco coordinatore',
+            100000: 'Caposquadra',
+            1000000: 'Caposquadra esperto',
+            5000000: 'Caporeparto',
+            20000000: 'Caporeparto esperto',
+            50000000: 'Ispettore antincendi',
+            1000000000: 'Direttore antincendi capo esperto',
+            2000000000: 'Dirigente generale',
+            5000000000: 'Dirigente generale Capo del Corpo'
         },
         texts: {
             reloadMessage: 'Apri il tuo profilo<br>e ricarica il sito web!',

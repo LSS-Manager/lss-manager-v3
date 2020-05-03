@@ -3606,8 +3606,8 @@ const lssm_missionhelper_adjustPosition = () => {
                   MISSION.vehicles.elw1 -= MISSION.vehicles.elw2;
                   if (MISSION.vehicles.elw1 <= 0) delete MISSION.vehicles.elw1;
               }
-              if (SETTINGS.hide_rw && MISSION.vehicles.rw && MISSION.vehicles.lf) {
-                  MISSION.vehicles.rw -= MISSION.vehicles.lf;
+              if (SETTINGS.hide_rw && MISSION.vehicles.rw && MISSION.vehicles.truck) {
+                  MISSION.vehicles.rw -= MISSION.vehicles.truck;
                   if (MISSION.vehicles.rw <= 0) delete MISSION.vehicles.rw;
               }
               for (let vehicle in MISSION.vehicles) {
@@ -3638,6 +3638,7 @@ const lssm_missionhelper_adjustPosition = () => {
           SETTINGS.prisoners && MISSION.prisoners && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.prisoners.min !== MISSION.prisoners.max) && (`${MISSION.prisoners.min || 0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.prisoners.max}<br>`);
 
           SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesFire && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesFire')}: ${MISSION.special.averageMinimumEmployeesFire}<br>`);
+          SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesHoehen && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesHoehen')}: ${MISSION.special.averageMinimumEmployeesHoehen}<br>`);
           SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
           SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
 

@@ -3039,8 +3039,8 @@
       pol: 'POL',
       thw: 'TECH',
       bp: 'POL',
-      bma: 'SDAA',
-      bmaLong: 'Sistema di allarme antincendio',
+      bma: 'SDA',
+      bmaLong: 'Système d\'alarme',
       show: 'Afficher/Masquer',
       keywords: {
         0: 'Feu de poubelle',
