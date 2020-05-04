@@ -1443,5 +1443,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Genel Dahiliye"
+    },
+    "102": {
+        "name": "Yaral\u0131 ko\u015fucu",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Genel Dahiliye"
     }
 }

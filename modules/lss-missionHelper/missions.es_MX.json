@@ -1972,5 +1972,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Medicina interna general"
+    },
+    "142": {
+        "name": "Corredor lesionado",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Medicina interna general"
     }
 }

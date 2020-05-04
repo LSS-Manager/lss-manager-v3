@@ -1183,6 +1183,7 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'upp till',
         exp: 'bredbara',
         SWATPersonnel: "Nödvändig insatsstyrka",
+        averageMinimumEmployeesPolice: 'i genomsnitt Polispersonal',
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
         transport: 'Transport',

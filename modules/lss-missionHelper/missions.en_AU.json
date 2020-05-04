@@ -2461,5 +2461,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "General Internal"
+    },
+    "168": {
+        "name": "Injured runner",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "General Internal"
     }
 }

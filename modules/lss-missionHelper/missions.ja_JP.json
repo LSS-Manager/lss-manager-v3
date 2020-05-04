@@ -1392,5 +1392,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "\u4e00\u822c\u5185\u79d1"
+    },
+    "101": {
+        "name": "\u8ca0\u50b7\u30e9\u30f3\u30ca\u30fc",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "\u4e00\u822c\u5185\u79d1"
     }
 }

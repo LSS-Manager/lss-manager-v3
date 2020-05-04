@@ -2220,5 +2220,24 @@
         "rth": 30,
         "specialisation": "Traumatologi",
         "poi": 20
+    },
+    "154": {
+        "name": "Upplopp - evenemang, arena",
+        "stations": {
+            "6": 15
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 6000,
+        "patients": {
+            "max": 10,
+            "transport": 20,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 20,
+        "special": {
+            "averageMinimumEmployeesPolice": 24
+        }
     }
 }

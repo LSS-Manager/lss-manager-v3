@@ -2539,5 +2539,72 @@
             "platform": 1
         },
         "credits": 3000
+    },
+    "175": {
+        "name": "Zalana dom",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "176": {
+        "name": "Zalana gara\u017c",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 1200
+    },
+    "177": {
+        "name": "Kot na drzewie",
+        "stations": {
+            "0": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "platform": 1
+        },
+        "credits": 1500,
+        "percentages": {
+            "platform": 20
+        }
+    },
+    "178": {
+        "name": "Kolizja drogowa",
+        "stations": {
+            "0": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 1500
+    },
+    "179": {
+        "name": "Potr\u0105cenie na przej\u015bciu dla pieszych",
+        "stations": {
+            "0": 4,
+            "2": 3,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 3,
+            "heavyRescue": 1,
+            "police": 2
+        },
+        "credits": 2500,
+        "patients": {
+            "max": 3,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Interna"
+        }
     }
 }

@@ -59,6 +59,8 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/Nödvändiga/)) {
                 vehicles[getVehicle(content)] = number;
+            } else if (content.match(/i genomsnitt Polispersonal/)) {
+                special["averageMinimumEmployeesPolice"] = number;
             } else if (content.match(/Sannolikhet/)) {
                 percentages[getVehicle(content)] = number;
             }

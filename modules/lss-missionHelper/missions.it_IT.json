@@ -887,7 +887,7 @@
             "6": 2
         },
         "vehicles": {
-            "truck": 6,
+            "truck": 5,
             "bchief": 1,
             "platform": 1,
             "heavyRescue": 2,
