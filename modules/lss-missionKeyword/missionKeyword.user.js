@@ -3039,8 +3039,8 @@
       pol: 'POL',
       thw: 'TECH',
       bp: 'POL',
-      bma: 'SDAA',
-      bmaLong: 'Sistema di allarme antincendio',
+      bma: 'SDA',
+      bmaLong: 'Système d\'alarme',
       show: 'Afficher/Masquer',
       keywords: {
         0: 'Feu de poubelle',
@@ -5644,7 +5644,7 @@
       168: 'TECH 2',
       169: 'FIRE 4',
       170: 'MED 1',
-      171: 'FIRE '
+      171: 'FIRE 1'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -6477,7 +6477,7 @@
       151: 'TECH 1',
       152: 'POL 1',
       153: 'MED 1',
-      154: 'POL '
+      154: 'POL 2'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -6750,7 +6750,7 @@
       122: 'POL 5',
       123: 'POL 3',
       124: 'MED 1',
-      125: 'MED '
+      125: 'MED 1'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -7171,7 +7171,7 @@
       176: 'TECH 1',
       177: 'TECH 1',
       178: 'TECH 1',
-      179: 'TECH 1'
+      179: 'TECH 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -8728,8 +8728,8 @@
       594: 'GEPLAND',
       595: 'A 1',
       596: 'A 2',
-      597: '',
-      598: ''
+      597: 'KLEINE BRAND',
+      598: 'MIDDEL BRAND'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

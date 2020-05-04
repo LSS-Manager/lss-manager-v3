@@ -1039,5 +1039,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
+    },
+    "77": {
+        "name": "Loukkaantunut juoksija",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
     }
 }

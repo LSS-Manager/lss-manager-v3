@@ -1817,5 +1817,22 @@
             "truck": 1
         },
         "credits": 1300
+    },
+    "125": {
+        "name": "Snesen\u00ed pacienta",
+        "stations": {
+            "0": 4,
+            "2": 1
+        },
+        "vehicles": {
+            "truck": 1,
+            "ambulance": 1
+        },
+        "credits": 1300,
+        "patients": {
+            "max": 1,
+            "transport": 90,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        }
     }
 }

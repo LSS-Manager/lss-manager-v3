@@ -6213,5 +6213,19 @@
         "transport": 100,
         "specialisation": "General Internal",
         "poi": 39
+    },
+    "380": {
+        "name": "Boat Leaking Fuel",
+        "stations": {
+            "0": 8,
+            "11": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "hazmat": 1,
+            "largeFireboat": 1
+        },
+        "credits": 1000,
+        "poi": 39
     }
 }

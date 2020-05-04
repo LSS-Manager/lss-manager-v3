@@ -2086,5 +2086,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Specialister i intern medicin"
+    },
+    "142": {
+        "name": "Skadet l\u00f8ber",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Specialister i intern medicin"
     }
 }

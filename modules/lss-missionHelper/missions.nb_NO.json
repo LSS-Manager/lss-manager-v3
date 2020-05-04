@@ -1906,5 +1906,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Generell medisin"
+    },
+    "131": {
+        "name": "Skadet l\u00f8per",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Generell medisin"
     }
 }

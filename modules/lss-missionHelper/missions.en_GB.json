@@ -2398,5 +2398,18 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "General Internal"
+    },
+    "171": {
+        "name": "Thatched Cottage Chimney Fire",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 800,
+        "expansions": {
+            "0": 108
+        }
     }
 }

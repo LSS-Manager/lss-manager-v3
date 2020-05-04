@@ -1190,5 +1190,14 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Internist general"
+    },
+    "88": {
+        "name": "Alerg\u0103tor ranit",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 70,
+        "specialisation": "Internist general"
     }
 }
