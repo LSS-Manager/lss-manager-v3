@@ -8,6 +8,7 @@
         cellTax: 'Abgabe an Besitzer',
         settings: {
             beds: 'Volle KH ausblenden',
+            beds1: 'Blende Krankenhäuser unter x Betten aus',
             department: 'KH ohne korrekte Fachabteilung ausblenden',
             distance: 'Ziele über x km Entfernung ausblenden (0 deaktiviert)',
             tax: 'Ziele mit einer Abgabe von mehr als x% ausblenden',
@@ -21,6 +22,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -30,6 +32,7 @@
     I18n.translations.cs_CZ.lssm.destfilter = {
         title: 'Destination Filter',
         freeBeds: 'Free beds',
+        beds1: 'Blind hospitals under x beds off',
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
@@ -47,6 +50,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -60,6 +64,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -73,6 +78,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Ukrywać pełne szpitale',
+            beds1: 'Ukryj szpitale pod x łóżkami',
             department: 'Ukrywać szpitale bez potrzebnego oddziału',
             distance: 'Ukrywać cele podróży powyżej x km (0 dezaktywuje się)',
             tax: 'Ukrycie miejsc przeznaczenia z podatkiem podatkowym wyższym niż x%',
@@ -86,6 +92,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -99,6 +106,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -112,6 +120,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -125,6 +134,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Nascondi ospedali completi',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Nascondi ospedali senza reparto necessario',
             distance: 'Nascondi destinazioni oltre la distanza di x km (0 disattiva)',
             tax: 'Nascondi destinazioni con una TASSA superiore a x%',
@@ -138,6 +148,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -151,6 +162,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -164,6 +176,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Скрыть полные больницы',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Скрывать больницы без необходимого отделения',
             distance: 'Скрыть пункты назначения на расстоянии свыше x км (деактивируется 0)',
             tax: 'Скрытие пунктов назначения с коэффициентом TAX выше x%.',
@@ -177,6 +190,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
@@ -190,6 +204,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: '病院全体を隠す',
+            beds1: 'Blind hospitals under x beds off',
             department: '必要な部門のない病院を隠す',
             distance: 'x kmの距離を超える目的地を非表示（0が無効化）',
             tax: 'TAXがx％を超える仕向地を非表示にする',
@@ -203,6 +218,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: '전체 병원 숨기기',
+            beds1: 'Blind hospitals under x beds off',
             department: '필요한 부서없이 병원 숨기기',
             distance: 'xkm 거리 이상의 목적지 숨기기 (0 비활성화)',
             tax: '세금이 x %보다 높은 목적지 숨기기',
@@ -216,6 +232,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Ascunde spitale complete',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Ascunde spitale lefarsina fara departamentul necesar',
             distance: 'Ascundedestinațiile peste x km distanță (0 dezactivează)',
             tax: 'Ascundeți destinațiile cu o TAXĂ mai mare de x%',
@@ -229,6 +246,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Piilota täydet sairaalat',
+            beds1: 'Blind hospitals under x beds off',
             department: 'Piilota sairaalat ilman tarvittavaa osastoa',
             distance: 'Piilota kohteet yli x km etäisyyden (0 deaktivoituu)',
             tax: 'Piilota kohteet, joiden TAX on yli x%',
@@ -242,6 +260,7 @@
         cellTax: 'Afdrachtpercentage',
         settings: {
             beds: 'Verberg volle ziekenhuizen',
+            beds1: 'Verberg ziekenhuizen onder x bedden',
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
@@ -259,6 +278,15 @@
                 ui: {
                     label: I18n.t('lssm.destfilter.settings.beds'),
                     type: 'checkbox'
+                }
+            },
+            beds1: {
+                default: 30,
+                ui: {
+                    label: I18n.t('lssm.destfilter.settings.beds1'),
+                    type: 'number',
+                    min:0,
+                    max:30
                 }
             },
             department: {
@@ -310,13 +338,14 @@
                 el.parentNode.parentNode.classList.remove('hidden');
                 let info = el.innerHTML.trim();
                 let distance = parseFloat(info.match(/\d+[.,]\d+ km/)[0].replace(/,/, '.').replace(/[^\d.]/g, ''));
-                let freeBeds = parseInt(info.match(new RegExp(`${I18n.t('lssm.destfilter.freeBeds')}: \\d+`))[0].replace(/\D+/g, ''));
+                let freeBeds = parseInt(info.match(new RegExp(`${I18n.t('lssm.destfilter.freeBeds')}: -?\\d+`))[0].replace(/[^-0-9]*/g, ''));
                 let department = info.indexOf('label-success') > -1;
                 let tax = 0;
                 let taxMatch = info.match(new RegExp(`${I18n.t('lssm.destfilter.tax')}: \\d+ %`));
                 if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
                 if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
                 getSetting('beds') && freeBeds === 0 && hide();
+                getSetting('beds1') > 0; freeBeds > getSetting('beds1') && hide();
                 getSetting('department') && !department && hide();
                 tax > getSetting('tax') && hide();
             });
@@ -395,6 +424,10 @@
         min: 0,
         max: 50,
         step: 10
+    }));
+    mode === 'hospital' && settingsNode.appendChild(settingNode('beds1', 'number', {
+        min: 0,
+        max: 30
     }));
 
     document.querySelector('.alert-info').insertAdjacentElement('afterend', settingsNode);

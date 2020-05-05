@@ -2837,7 +2837,8 @@
         176: 'Zalana garaż',
         177: 'Kot na drzewie',
         178: 'Kolizja drogowa',
-        179: 'Potrącenie na przejściu dla pieszych'
+        179: 'Potrącenie na przejściu dla pieszych',
+        180: 'Wypadek małego busa przewożącego osoby'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -7171,7 +7172,8 @@
       176: 'TECH 1',
       177: 'TECH 1',
       178: 'TECH 1',
-      179: 'TECH 2'
+      179: 'TECH 2',
+      180: 'TECH 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
