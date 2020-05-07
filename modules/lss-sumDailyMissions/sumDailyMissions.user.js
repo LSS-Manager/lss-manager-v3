@@ -186,13 +186,13 @@
         };
 
         I18n.translations.fr_FR['lssm']['sumDailyMissions'] = {
-            patient_treatment: 'Patient Treatment',
+            patient_treatment: 'Traitement de patient',
             education: 'education',
-            purchase: 'bought',
+            purchase: 'acheté',
             cancelled: 'Cancelled',
-            extended: 'constructed',
+            extended: 'construit',
             extended2: 'Extended',
-            built: 'constructed',
+            built: 'construit',
             teame: ' Alliance',
             team: '\\[Alliance\\]',
             prisoner: 'Prisoner Transported',

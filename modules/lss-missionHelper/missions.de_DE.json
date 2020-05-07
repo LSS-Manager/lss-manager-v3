@@ -9599,7 +9599,7 @@
         }
     },
     "522": {
-        "name": "Medizinischer Notfall in Flugzeug auf kleinem Flughafen",
+        "name": "Medizinischer Notfall in Flugzeug",
         "stations": {
             "0": 10,
             "2": 3
@@ -9620,7 +9620,7 @@
         }
     },
     "523": {
-        "name": "Medizinischer Notfall in Flugzeug auf gro\u00dfem Flughafen",
+        "name": "Medizinischer Notfall in Flugzeug",
         "stations": {
             "0": 1,
             "2": 3
