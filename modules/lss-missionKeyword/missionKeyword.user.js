@@ -544,8 +544,9 @@
         519: 'Hüpfburgunfall',
         520: 'Hotelbrand',
         521: 'Explosion in Feuerwerksfabrik',
-        522: 'Medizinischer Notfall in Flugzeug auf kleinem Flughafen',
-        523: 'Medizinischer Notfall in Flugzeug auf großem Flughafen'
+        522: 'Medizinischer Notfall in Flugzeug',
+        523: 'Medizinischer Notfall in Flugzeug',
+        524: 'Brand in Spänebunker'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -2833,11 +2834,12 @@
         172: 'Podejrzana osoba pod szkołą (diler)',
         173: 'Próba samobójcza (skok z budynku)',
         174: 'Pożar autokaru',
-        175: 'Zalana dom',
-        176: 'Zalana garaż',
+        175: 'Zalany dom',
+        176: 'Zalany garaż',
         177: 'Kot na drzewie',
         178: 'Kolizja drogowa',
-        179: 'Potrącenie na przejściu dla pieszych'
+        179: 'Potrącenie na przejściu dla pieszych',
+        180: 'Wypadek małego busa przewożącego osoby'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -5086,7 +5088,8 @@
       520: 'B 7',
       521: 'B 8',
       522: 'RD 1',
-      523: 'RD 1'
+      523: 'RD 1',
+      524: 'B 4'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -7171,7 +7174,8 @@
       176: 'TECH 1',
       177: 'TECH 1',
       178: 'TECH 1',
-      179: 'TECH 2'
+      179: 'TECH 2',
+      180: 'TECH 2'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',

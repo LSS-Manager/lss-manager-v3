@@ -186,7 +186,8 @@ const lssm_missionhelper_adjustPosition = () => {
             "Industire-Allgemein",
             "Automobilindustrie",
             "Müllverbrennungsanlage",
-            "Eishalle"
+            "Eishalle",
+            "Holzverarbeitung"
         ]
     };
 

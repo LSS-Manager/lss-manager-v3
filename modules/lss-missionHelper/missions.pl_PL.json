@@ -2541,7 +2541,7 @@
         "credits": 3000
     },
     "175": {
-        "name": "Zalana dom",
+        "name": "Zalany dom",
         "stations": {
             "0": 2
         },
@@ -2551,7 +2551,7 @@
         "credits": 1200
     },
     "176": {
-        "name": "Zalana gara\u017c",
+        "name": "Zalany gara\u017c",
         "stations": {
             "0": 2
         },
@@ -2602,6 +2602,28 @@
         "credits": 2500,
         "patients": {
             "max": 3,
+            "min": 1,
+            "transport": 50,
+            "specialisation": "Interna"
+        }
+    },
+    "180": {
+        "name": "Wypadek ma\u0142ego busa przewo\u017c\u0105cego osoby",
+        "stations": {
+            "0": 12,
+            "2": 5,
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 5,
+            "bchief": 1,
+            "heavyRescue": 2,
+            "ambulance": 1
+        },
+        "credits": 5500,
+        "patients": {
+            "max": 5,
             "min": 1,
             "transport": 50,
             "specialisation": "Interna"

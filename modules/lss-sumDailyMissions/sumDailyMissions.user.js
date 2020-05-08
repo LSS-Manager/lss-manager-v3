@@ -26,6 +26,8 @@
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
+			cancelled2: 'Refund',
+			cancelled3: 'demolished',
             extended: 'constructed',
             extended2: 'Extended',
             built: 'constructed',
@@ -184,13 +186,13 @@
         };
 
         I18n.translations.fr_FR['lssm']['sumDailyMissions'] = {
-            patient_treatment: 'Patient Treatment',
+            patient_treatment: 'Traitement de patient',
             education: 'education',
-            purchase: 'bought',
+            purchase: 'acheté',
             cancelled: 'Cancelled',
-            extended: 'constructed',
+            extended: 'construit',
             extended2: 'Extended',
-            built: 'constructed',
+            built: 'construit',
             teame: ' Alliance',
             team: '\\[Alliance\\]',
             prisoner: 'Prisoner Transported',
@@ -383,7 +385,8 @@
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.education')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.extended2')) ||
                         einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.built')) ||
-                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled2')))
+                        einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled2')) ||
+						einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.cancelled3')))
                 {
                 }
                 else if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.prisoner')))
