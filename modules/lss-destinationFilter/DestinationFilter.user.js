@@ -260,7 +260,7 @@
         cellTax: 'Afdrachtpercentage',
         settings: {
             beds: 'Verberg volle ziekenhuizen',
-            beds1: 'Verberg ziekenhuizen onder x bedden',
+            beds1: 'Verberg ziekenhuizen met minder dan x vrije bedden',
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
