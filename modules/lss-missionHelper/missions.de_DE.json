@@ -9639,5 +9639,41 @@
         "percentages": {
             "rtf": 20
         }
+    },
+    "524": {
+        "name": "Brand in Sp\u00e4nebunker",
+        "stations": {
+            "0": 8,
+            "2": 2,
+            "6": 2,
+            "9": 1
+        },
+        "vehicles": {
+            "truck": 6,
+            "rw": 2,
+            "dlk": 2,
+            "elw1": 3,
+            "elw2": 1,
+            "atem": 1,
+            "gwl2": 1,
+            "fustw": 2,
+            "gkw": 1,
+            "mtwtz": 1,
+            "mzkw": 1,
+            "radlader": 1
+        },
+        "credits": 5000,
+        "patients": {
+            "max": 3,
+            "min": 1,
+            "transport": 50,
+            "nef": 35,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 44,
+        "percentages": {
+            "elw2": 15,
+            "atem": 50
+        }
     }
 }
