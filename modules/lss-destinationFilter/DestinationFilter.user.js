@@ -345,7 +345,7 @@
                 if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
                 if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
                 getSetting('beds') && freeBeds === 0 && hide();
-                getSetting('beds1') > 0; freeBeds > getSetting('beds1') && hide();
+                getSetting('beds1') > 0; freeBeds < getSetting('beds1') && hide();
                 getSetting('department') && !department && hide();
                 tax > getSetting('tax') && hide();
             });
