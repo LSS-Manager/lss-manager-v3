@@ -2876,7 +2876,7 @@
                 schooling: 'MMT-Bemanningslid'
             },
             bambulance: {
-                name: 'B-ambulance',
+                name: 'Zorgambulance',
                 min: 1,
                 max: 2,
                 credits: 5000,
