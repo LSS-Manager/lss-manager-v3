@@ -2856,7 +2856,7 @@
                 credits: 15000,
                 coins: 25,
                 schooling: 'Voorlichter',
-                special: 'Benodigd vanaf 7 brandweerposten.'
+                special: 'Benodigd vanaf 14 brandweerposten.'
             }
         },
         ambulance: {
