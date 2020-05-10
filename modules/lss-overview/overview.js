@@ -81,16 +81,16 @@
 
     I18n.translations.nl_NL.lssm.overview = {
         vehicleType: 'Type voertuig',
-        min: 'minimum personeel',
-        max: 'maximaal personeel',
+        min: 'Minimum personeel',
+        max: 'Maximaal personeel',
         cost: 'Prijs',
-        schooling: 'opleiding',
-        special: 'speciaal',
+        schooling: 'Opleiding',
+        special: 'Speciaal',
         none: 'Geen',
         vehiclesName: 'Voertuigen',
         buildingsName: 'Gebouwen',
-        buildingType: 'bouwnaam',
-        maxlevel: 'maximaal uitbreidingsniveau',
+        buildingType: 'Bouwnaam',
+        maxlevel: 'Maximaal uitbreidingsniveau',
         levelcost: 'Kosten van de uitbreidingsfasen',
         startPersonell: 'Start Personeel',
         startVehicle: 'Start voertuig',
@@ -2458,8 +2458,8 @@
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Geen uitbreidingen mogelijk',
-            maxBuildings: 'Alle 25 gebouwen één Dispatch Center',
-            special: 'Het controlecentrum is het administratief centrum.'
+            maxBuildings: 'Voor iedere 25 gebouwen één meldkamer',
+            special: 'De meldkamer is het administratief centrum.'
         },
         fw: {
             name: 'Brandweer, Kazerne',
@@ -2469,9 +2469,9 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
             startPersonell: 10,
             startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
-            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in elk geval 7 dagen, 100.000 Credits/20 Coins)',
+            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
-            special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
+            special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
         },
         fwschule: {
             name: 'Brandweer, Academie',
@@ -2481,9 +2481,9 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
-            extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
+            extensions: 'Tot 3 extra klaslokalen (in alle gevallen 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Brandweeracademie met behulp van de credits van de Teamkas uitbreiden.'
         },
         rw: {
             name: 'Ambulance, standplaats',
@@ -2515,9 +2515,9 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
-            extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
+            extensions: 'Tot 3 extra klaslokalen (in alle gevallen 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Universiteit Faculteit Geneeskunde met behulp van de credits van de Teamkas uitbreiden.'
         },
         kh: {
             name: 'Ziekenhuis',
@@ -2529,19 +2529,19 @@
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
             extensions: 'Diverse specialisaties (in elk geval 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen het Team Ziekenhuis met behulp van de credits van de Teamkas uitbreiden.'
         },
         rth: {
             name: 'MMT Standplaats',
             credits: 1000000,
             coins: 50,
             maxlevel: 3,
-            levelcost: '1.000.000.000 Credits/50 Coins per stuk',
+            levelcost: '1. 10.000<br>2. 50.000<br>3. 100.000',
             startPersonell: 1,
             startVehicle: 'Geen startend voertuig',
             maxBuildings: 'zie speciale kenmerken',
             extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            special: 'Er kunnen maximaal 4 landingsplaatsen per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         pol: {
             name: 'Politie, Opkomstbureau',
@@ -2551,7 +2551,7 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
             startVehicle: 'DA Noodhulp',
-            extensions: 'cel (25.000 Credits)<br>Max. 10 can be built',
+            extensions: 'cel (25.000 Credits)<br>Max. 10 kunnen worden gebouwd',
             maxBuildings: '1.100',
         },
         polschule: {
@@ -2564,7 +2564,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Politie Academie met behulp van de credits van de Teamkas uitbreiden.'
         },
         polheli: {
             name: 'Politiehelikopter standplaats',
@@ -2574,9 +2574,9 @@
             levelcost: '1.000.000.000 Credits/50 Coins per stuk',
             startPersonell: 3,
             startVehicle: 'Geen startend voertuig',
-            maxBuildings: 'zie speciale kenmerken',
+            maxBuildings: 'Zie speciale kenmerken',
             extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            special: 'Er kunnen maximaal 4 landingsplaatsen per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         psonder: {
             name: 'Politie, Hoofdbureau',
@@ -2586,7 +2586,7 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 1,
             startVehicle: 'OvD-P',
-            extensions: 'OvD-P (3 Dagen, 40.000 Credits/5 Coins)<br>Mobiele Eenheid, Sectie (5 Dagen, 100.000 Credits/20 Coins)<br>Levende Have (7 Dagen, 100.000 Credits/20Coins)',
+            extensions: '2de OvD-P (3 Dagen, 40.000 Credits/5 Coins)<br>Mobiele Eenheid, Sectie (5 Dagen, 100.000 Credits/20 Coins)<br>Levende Have (7 Dagen, 100.000 Credits/20Coins)<br>Arrestatieteam (5 Dagen, 200.000 Credits/20 Coins)',
             maxBuildings: 'Geen limiet'
         }
     };
