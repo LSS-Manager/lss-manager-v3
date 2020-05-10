@@ -358,7 +358,7 @@
         import_btn: "Instellingen importeren",
         reset_btn: "Reset",
         reset_hint: "Weet u zeker dat u de instellingen van deze module wilt resetten naar de standaardwaarden?",
-        reset_success: "Stel de instellingen succesvol terug. Je moet de pagina opnieuw laden om ze te laten werken.",
+        reset_success: "De instellingen succesvol gereset. Je moet de pagina opnieuw laden om ze te laten werken.",
         export_success: "Instellingen succesvol geëxporteerd",
         export_hint: "Houdt er rekening mee dat alleen eerder opgeslagen instellingen van momenteel geactiveerde modules kunnen worden geëxporteerd.",
         import_success: "De instellingen zijn succesvol geïmporteerd. Ververs de pagina om ze te gebruiken.",
