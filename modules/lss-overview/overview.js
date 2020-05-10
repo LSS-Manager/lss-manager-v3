@@ -89,7 +89,7 @@
         none: 'Geen',
         vehiclesName: 'Voertuigen',
         buildingsName: 'Gebouwen',
-        buildingType: 'Bouwnaam',
+        buildingType: 'Gebouwnaam',
         maxlevel: 'Maximaal uitbreidingsniveau',
         levelcost: 'Kosten van de uitbreidingsfasen',
         startPersonell: 'Start Personeel',
@@ -2677,7 +2677,7 @@
                 max: 2,
                 credits: 19200,
                 coins: 25,
-                schooling: 'Advieseur gevaarlijke stoffen',
+                schooling: 'Adviseur Gevaarlijke Stoffen',
                 special: 'Benodigd vanaf 11 brandweerposten.'
             },
             al: {
@@ -2694,7 +2694,7 @@
                 max: 3,
                 credits: 27500,
                 coins: 25,
-                schooling: 'Brandweerchauffeur zwaar',
+                schooling: 'Brandweerchauffeur-zwaar',
                 special: 'Benodigd vanaf 14 brandweerposten.'
             },
             da: {
@@ -2722,7 +2722,7 @@
                 special: 'Benodigd vanaf 6 brandweerposten.'
             },
             dbk: {
-                name: 'DB-K',
+                name: 'Dienstbus Klein',
                 min: 1,
                 max: 9,
                 credits: 2500,
@@ -2734,7 +2734,7 @@
                 max: 3,
                 credits: 5000,
                 coins: 12,
-                schooling: 'brandweerchauffeur zwaar',
+                schooling: 'Brandweerchauffeur-zwaar',
             },
             hv: {
                 name: 'Hulpverleningsvoertuig',
@@ -2823,7 +2823,7 @@
                 max: 6,
                 credits: 10000,
                 coins: 25,
-                schooling: 'duiker / duikploegleider'
+                schooling: 'Duiker / Duikploegleider'
             },
             woa: {
                 name: 'Waterongevallen aanhanger',
@@ -2839,7 +2839,7 @@
                 max: 9,
                 credits: 10000,
                 coins: 25,
-                schooling: 'oppervlakteredder'
+                schooling: 'Oppervlakteredder'
             },
             tsor: {
                 name: 'TS-OR | Tankautospuit - Oppervlakteredding',
@@ -2847,7 +2847,16 @@
                 max: 9,
                 credits: 10000,
                 coins: 25,
-                schooling: 'oppervlakteredder'
+                schooling: 'Oppervlakteredder'
+            },
+            davl: {
+                name: 'Dienstauto Voorlichter',
+                min: 1,
+                max: 1,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Voorlichter',
+                special: 'Benodigd vanaf 7 brandweerposten.'
             }
         },
         ambulance: {
@@ -2880,7 +2889,7 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Officier van Dienst Geneeskunde',
-                special: 'Kan optreden vanaf de 8e bewaker of extensie'
+                special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding'
             },
             rr: {
                 name: 'Rapid Responder',
@@ -2920,7 +2929,7 @@
                 max: 1,
                 credits: 10000,
                 coins: 25,
-                schooling: 'officier van dienst - politie'
+                schooling: 'Officier van Dienst - politie'
             },
             mefl: {
                 name: 'ME Flexbus',
@@ -2943,6 +2952,7 @@
                 min: 1,
                 max: 2,
                 credits: 8000,
+                coins: 25,
                 schooling: 'Hondengeleider'
             },
             dbhg: {
@@ -2950,8 +2960,33 @@
                 min: 1,
                 max: 2,
                 credits: 10000,
+                coins: 25,
                 schooling: 'Hondengeleider'
-            }
+            },
+            ATO: {
+                name: 'AT-Operator',
+                min: 2,
+                max: 4,
+                credits: 10000,
+                coins: 25,
+                schooling: 'Operator AT'
+            },
+            ATC: {
+                name: 'AT-Commandant',
+                min: 1,
+                max: 2,
+                cedits: 10000,
+                coins: 25,
+                schooling: 'Operator AT'
+            },
+            ATM: {
+                name: 'AT-Materiaalwagen',
+                min: 1,
+                max: 2,
+                cedits: 15000,
+                coins: 25,
+                schooling: 'Operator AT'
+            }                
         },
         heli: {
             rth: {
