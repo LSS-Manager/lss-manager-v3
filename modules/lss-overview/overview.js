@@ -85,7 +85,7 @@
         max: 'Maximaal personeel',
         cost: 'Prijs',
         schooling: 'Opleiding',
-        special: 'Speciaal',
+        special: 'Bijzonderheden',
         none: 'Geen',
         vehiclesName: 'Voertuigen',
         buildingsName: 'Gebouwen',
@@ -2527,7 +2527,7 @@
             levelcost: 'in elk geval 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
-            extensions: 'Diverse specialisaties (in alle gevallen 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
+            extensions: 'Diverse specialisaties (in alle gevallen 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde en Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
             special: 'Penningmeesters en Admins kunnen het Team Ziekenhuis met behulp van de credits van de Teamkas uitbreiden.'
         },
@@ -2766,7 +2766,8 @@
                 min: 1,
                 max: 3,
                 credits: 17000,
-                coins: 25
+                coins: 25,
+                special: 'Benodigd vanaf 7 brandweerposten.'
             },
             pmwvd: {
                 name: 'Waarschuwings- en Verkenningsdienst',
