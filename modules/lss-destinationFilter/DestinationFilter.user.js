@@ -157,9 +157,9 @@
     };
     I18n.translations.fr_FR.lssm.destfilter = {
         title: 'Filtre de destination',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
+        freeBeds: 'Lits libres',
+        tax: 'TAXE',
+        cellTax: 'owner\'s TAXE',
         settings: {
             beds: 'Hide full hospitals',
             beds1: 'Blind hospitals under x beds off',

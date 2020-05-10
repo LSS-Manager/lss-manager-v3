@@ -147,7 +147,7 @@
 
     I18n.translations.fr_FR.lssm.statusDispatching = {
         name: 'Demandes de transport améliorées',
-        fms: 'Transport demandé',
+        fms: 'Demande de transport envoyée',
         nextVehicle: 'Aller au véhicule suivant avec une demande de transport',
         backToAlarm: 'Retour à la mission',
         settingsTitle: 'Demandes de transport améliorées - Paramètres',
