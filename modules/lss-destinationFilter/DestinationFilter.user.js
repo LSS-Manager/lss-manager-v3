@@ -281,7 +281,7 @@
                 }
             },
             beds1: {
-                default: 30,
+                default: 0,
                 ui: {
                     label: I18n.t('lssm.destfilter.settings.beds1'),
                     type: 'number',

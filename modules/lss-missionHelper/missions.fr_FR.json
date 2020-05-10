@@ -1109,7 +1109,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "rtw": 3
+            "ambulance": 3
         },
         "credits": 1300,
         "patients": {
@@ -1138,7 +1138,7 @@
         "vehicles": {
             "truck": 3,
             "bchief": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
