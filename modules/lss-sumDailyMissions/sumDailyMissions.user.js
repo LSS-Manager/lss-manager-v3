@@ -190,6 +190,7 @@
             education: 'education',
             purchase: 'acheté',
             cancelled: 'Cancelled',
+            cancelled2: 'bâtiment',
             extended: 'construit',
             extended2: 'Extended',
             built: 'construit',

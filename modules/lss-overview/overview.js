@@ -2976,7 +2976,7 @@
                 name: 'AT-Commandant',
                 min: 1,
                 max: 2,
-                cedits: 10000,
+                credits: 10000,
                 coins: 25,
                 schooling: 'Operator AT'
             },
@@ -2984,7 +2984,7 @@
                 name: 'AT-Materiaalwagen',
                 min: 1,
                 max: 2,
-                cedits: 15000,
+                credits: 15000,
                 coins: 25,
                 schooling: 'Operator AT'
             }                

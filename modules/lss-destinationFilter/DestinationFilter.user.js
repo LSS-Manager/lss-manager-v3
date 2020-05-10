@@ -161,11 +161,11 @@
         tax: 'TAXE',
         cellTax: 'owner\'s TAXE',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
+            beds: 'Cacher les hôpitaux complets',
+            beds1: 'Hôpitaux pour aveugles de moins de x lits',
+            department: 'Cacher les hôpitaux sans service nécessaire',
+            distance: 'Cacher les destinations situées à plus de x km de distance (0 désactive)',
+            tax: 'Cacher les destinations dont la TAXE est supérieure à x%',
             cells: 'Masquer les cellules pleines'
         }
     };
