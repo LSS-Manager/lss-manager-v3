@@ -3164,7 +3164,7 @@
         116: 'Menacer un fonctionnaire',
         117: 'Nausées - Vomissements',
         118: 'Blessé sur pylône éléctrique',
-        119: 'Ballot de paille',
+        119: 'Feu de pile de ballots de paille',
         120: 'Feu de parking souterrain',
         121: 'Vol d\'œufs de Pâques',
         122: 'Aggression de cloche de Pâques',
