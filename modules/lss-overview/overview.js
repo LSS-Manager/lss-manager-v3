@@ -94,8 +94,8 @@
         levelcost: 'Kosten van de uitbreidingsfasen',
         startPersonell: 'Start Personeel',
         startVehicle: 'Start voertuig',
-        extensions: 'uitbreidingen',
-        maxBuildins: 'gebouwgrens'
+        extensions: 'Uitbreidingen',
+        maxBuildins: 'Gebouwgrens'
     };
     if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|larmcentralen-spelet|meldkamerspel)(\.de|\.com|\.co\.uk|\.es|\.se)\/#?$/)) {
 
@@ -2527,7 +2527,7 @@
             levelcost: 'in elk geval 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
-            extensions: 'Diverse specialisaties (in elk geval 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
+            extensions: 'Diverse specialisaties (in alle gevallen 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
             special: 'Penningmeesters en Admins kunnen het Team Ziekenhuis met behulp van de credits van de Teamkas uitbreiden.'
         },
@@ -2541,7 +2541,7 @@
             startVehicle: 'Geen startend voertuig',
             maxBuildings: 'zie speciale kenmerken',
             extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kunnen maximaal 4 landingsplaatsen per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            special: 'Er kan maximaal 1 landingsplaats per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 gebouwen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         pol: {
             name: 'Politie, Opkomstbureau',
