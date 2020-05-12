@@ -10458,5 +10458,36 @@
             "specialisation": "Algemene Heelkunde"
         },
         "poi": 45
+    },
+    "599": {
+        "name": "Tanken zonder betalen",
+        "stations": {
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 500,
+        "poi": 11,
+        "expansions": {
+            "0": 600
+        }
+    },
+    "600": {
+        "name": "Tanken zonder betalen",
+        "stations": {
+            "5": 2
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 500,
+        "poi": 11,
+        "prisoners": {
+            "max": 1
+        },
+        "expansions": {
+            "0": 124
+        }
     }
 }

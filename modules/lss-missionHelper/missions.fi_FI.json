@@ -1048,5 +1048,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
+    },
+    "78": {
+        "name": "Kadonnut lapsi",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
+        }
     }
 }

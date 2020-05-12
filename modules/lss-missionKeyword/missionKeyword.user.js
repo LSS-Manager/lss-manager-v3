@@ -945,7 +945,9 @@
         377: 'Off-road Rescue',
         378: 'SCUBA Injury',
         379: 'SCUBA Injury',
-        380: 'Boat Leaking Fuel'
+        380: 'Boat Leaking Fuel',
+        381: 'Small Earthquake',
+        382: 'Large Earthquake'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1135,7 +1137,10 @@
         168: 'Trench Rescue',
         169: 'Heathland fire - large',
         170: 'Anaphylaxis',
-        171: 'Thatched Cottage Chimney Fire'
+        171: 'Thatched Cottage Chimney Fire',
+        172: 'Commercial Burglary',
+        173: 'Warehouse Fire - Major Incident',
+        174: 'Warehouse Fire - Major Incident'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1322,7 +1327,9 @@
         165: 'Domestic violence',
         166: 'Drug Lab Fire',
         167: 'Anaphylaxis',
-        168: 'Injured runner'
+        168: 'Injured runner',
+        169: 'Concert',
+        170: 'Random Breath Test'
       }
     };
     I18n.translations.es_ES.lssm.missionKeywordDefaults = {
@@ -1484,7 +1491,8 @@
         140: 'Descarrilamiento del tren de carga',
         141: 'Rescate en zanjas',
         142: 'Choque anafiláctico',
-        143: 'Corredor lesionado'
+        143: 'Corredor lesionado',
+        144: 'Niño desaparecido'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -1645,7 +1653,8 @@
         139: 'Descarrilamiento de tren de carga',
         140: 'Rescate en zanjas',
         141: 'Choque anafiláctico',
-        142: 'Corredor lesionado'
+        142: 'Corredor lesionado',
+        143: 'Desaparición de niño'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1772,7 +1781,9 @@
         105: 'Grande incêndio num palheiro',
         106: 'Dores nas costas',
         107: 'Choque anafilático',
-        108: 'Corredor lesionado'
+        108: 'Corredor lesionado',
+        109: 'Criança perdida',
+        110: 'Fogo num aterro sanitário'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -1891,7 +1902,8 @@
         97: 'Descarrilamento de Comboio de Carga',
         98: 'Resgate na vala',
         99: 'Choque anafilático',
-        100: 'Corredor lesionado'
+        100: 'Corredor lesionado',
+        101: 'Criança perdida'
       }
     };
     I18n.translations.sv_SE.lssm.missionKeywordDefaults = {
@@ -2064,7 +2076,8 @@
         151: 'Trafikolycka - mindre motorfordon, moped',
         152: 'Hundbett',
         153: 'Hästolycka',
-        154: 'Upplopp - evenemang, arena'
+        154: 'Upplopp - evenemang, arena',
+        155: 'Narkotikabrott'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -2225,7 +2238,8 @@
         139: 'Mordforsøg',
         140: 'Røveri på museum',
         141: 'Anafylaktisk shock',
-        142: 'Skadet løber'
+        142: 'Skadet løber',
+        143: 'Barn forsvundet'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2369,7 +2383,8 @@
         122: 'Pokus o vraždu',
         123: 'Loupež v muzeu',
         124: 'Resuscitace pomocí AED',
-        125: 'Snesení pacienta'
+        125: 'Snesení pacienta',
+        126: 'Požár v kancelářské budově'
       }
     };
     I18n.translations.tr_TR.lssm.missionKeywordDefaults = {
@@ -2490,7 +2505,8 @@
         99: 'Yük treni raydan çıktı',
         100: 'Kazı çalışması sırasında göçük',
         101: 'Anafilaksi',
-        102: 'Yaralı koşucu'
+        102: 'Yaralı koşucu',
+        103: 'Kayıp Çocuk araniyor'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2640,7 +2656,8 @@
         128: 'Drapsforsøk',
         129: 'Innbrudd på museum',
         130: 'Anafylaktisk sjokk',
-        131: 'Skadet løper'
+        131: 'Skadet løper',
+        132: 'Barn forsvunnet'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2839,7 +2856,9 @@
         177: 'Kot na drzewie',
         178: 'Kolizja drogowa',
         179: 'Potrącenie na przejściu dla pieszych',
-        180: 'Wypadek małego busa przewożącego osoby'
+        180: 'Wypadek małego busa przewożącego osoby',
+        181: 'Pożar transformatora',
+        182: 'Rozległy pożar wysypiska śmieci'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -3026,7 +3045,9 @@
         165: 'Incendio albergo (PICCOLO)',
         166: 'Incendio cisterna chimica (PICCOLA)',
         167: 'Allagamento appartamento',
-        168: 'Giostra ferma sulle rotaie'
+        168: 'Giostra ferma sulle rotaie',
+        169: 'Dissesto statico',
+        170: 'Incidente Skydiver'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -3164,7 +3185,7 @@
         116: 'Menacer un fonctionnaire',
         117: 'Nausées - Vomissements',
         118: 'Blessé sur pylône éléctrique',
-        119: 'Ballot de paille',
+        119: 'Feu de pile de ballots de paille',
         120: 'Feu de parking souterrain',
         121: 'Vol d\'œufs de Pâques',
         122: 'Aggression de cloche de Pâques',
@@ -3195,7 +3216,9 @@
         147: 'Personnes bloquées dans une attraction',
         148: 'Évacuation personne obèse par la fenêtre',
         149: 'Évacuation personne obèse par la fenêtre (non accessible)',
-        150: 'Coupure profonde'
+        150: 'Coupure profonde',
+        151: 'Essouflement',
+        152: 'Essouflement - Antécédants cardiaques'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -3366,7 +3389,8 @@
         149: 'Сход с рельсов товарного поезда',
         150: 'Спасение человека из траншеи',
         151: 'Анафилактический шок',
-        152: 'Травмированный бегун'
+        152: 'Травмированный бегун',
+        153: 'Пропавший ребёнок'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -3483,7 +3507,8 @@
         95: 'Сходження товарного потяга з рейок',
         96: 'Порятунок із траншеї',
         97: 'Анафілактичний шок',
-        98: 'Травмований бігун'
+        98: 'Травмований бігун',
+        99: 'Зникнення дитини'
       }
     };
     I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
@@ -3603,7 +3628,8 @@
         98: '貨物列車脱線',
         99: '掘削現場救助',
         100: 'アナフィラキシー',
-        101: '負傷ランナー'
+        101: '負傷ランナー',
+        102: '迷子'
       }
     };
     I18n.translations.ko_KR.lssm.missionKeywordDefaults = {
@@ -3721,7 +3747,8 @@
         96: '화물 운송 열차 탈선',
         97: '특수 밀폐 공간 구조',
         98: '과민증',
-        99: '부상 당한 주자'
+        99: '부상 당한 주자',
+        100: '아동 실종'
       }
     };
     I18n.translations.ro_RO.lssm.missionKeywordDefaults = {
@@ -3828,7 +3855,8 @@
         85: 'Iepuraș de Paște pe macara',
         86: 'Salvare din tranșeea',
         87: 'Anafilaxie',
-        88: 'Alergător ranit'
+        88: 'Alergător ranit',
+        89: 'Copil pierdut'
       }
     };
     I18n.translations.fi_FI.lssm.missionKeywordDefaults = {
@@ -3924,7 +3952,8 @@
         74: 'Suuri tulipalo',
         75: 'Pelastus kaivannosta',
         76: 'Anafylaksia',
-        77: 'Loukkaantunut juoksija'
+        77: 'Loukkaantunut juoksija',
+        78: 'Kadonnut lapsi'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -4541,7 +4570,9 @@
         595: 'Ongeval bijtend middel (huishoudelijk)',
         596: 'Ongeval bijtend middel (huishoudelijk)',
         597: 'Brand in asielzoekerscentrum',
-        598: 'Brand in asielzoekerscentrum (wasserette)'
+        598: 'Brand in asielzoekerscentrum (wasserette)',
+        599: 'Tanken zonder betalen',
+        600: 'Tanken zonder betalen'
       }
     };
 
@@ -5472,7 +5503,9 @@
       377: 'TECH 1',
       378: 'MED 1',
       379: 'MED 1',
-      380: 'TECH 2 BOAT'
+      380: 'TECH 2 BOAT',
+      381: 'TECH 1',
+      382: 'TECH 3'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -5647,7 +5680,10 @@
       168: 'TECH 2',
       169: 'FIRE 4',
       170: 'MED 1',
-      171: 'FIRE 1'
+      171: 'FIRE 1',
+      172: 'POL 2',
+      173: 'FIRE 7',
+      174: 'FIRE 7'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -5818,7 +5854,9 @@
       165: 'POL 2',
       166: 'CBRN 2',
       167: 'MED 1',
-      168: 'MED 1'
+      168: 'MED 1',
+      169: 'Planned mission',
+      170: 'Planned mission'
     };
     let DEFAULT_AAO_ESES = {
       0: 'FIRE 1',
@@ -5964,7 +6002,8 @@
       140: 'TECH 5',
       141: 'TECH 1',
       142: 'MED 1',
-      143: 'MED 1'
+      143: 'MED 1',
+      144: 'POL 2'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -6109,7 +6148,8 @@
       139: 'TECH 5',
       140: 'TECH 1',
       141: 'MED 1',
-      142: 'MED 1'
+      142: 'MED 1',
+      143: 'POL 2'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -6220,7 +6260,9 @@
       105: 'FIRE 7',
       106: 'MED 1',
       107: 'MED 1',
-      108: 'MED 1'
+      108: 'MED 1',
+      109: 'POL 2',
+      110: 'FIRE 3'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -6323,7 +6365,8 @@
       97: 'TECH 5',
       98: 'TECH 1',
       99: 'MED 1',
-      100: 'MED 1'
+      100: 'MED 1',
+      101: 'POL 2'
     };
     let DEFAULT_AAO_SVSE = {
       0: 'FIRE 1',
@@ -6480,7 +6523,8 @@
       151: 'TECH 1',
       152: 'POL 1',
       153: 'MED 1',
-      154: 'POL 2'
+      154: 'POL 2',
+      155: 'POL 1'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -6625,7 +6669,8 @@
       139: 'POL 5',
       140: 'POL 3',
       141: 'MED 1',
-      142: 'MED 1'
+      142: 'MED 1',
+      143: 'POL 2'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -6753,7 +6798,8 @@
       122: 'POL 5',
       123: 'POL 3',
       124: 'MED 1',
-      125: 'MED 1'
+      125: 'MED 1',
+      126: 'FIRE 6'
     };
     let DEFAULT_AAO_TRTR = {
       0: 'FIRE 1',
@@ -6858,7 +6904,8 @@
       99: 'TECH 5',
       100: 'TECH 1',
       101: 'MED 1',
-      102: 'MED 1'
+      102: 'MED 1',
+      103: 'POL 2'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -6992,7 +7039,8 @@
       128: 'POL 5',
       129: 'POL 3',
       130: 'MED 1',
-      131: 'MED 1'
+      131: 'MED 1',
+      132: 'POL 2'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -7175,7 +7223,9 @@
       177: 'TECH 1',
       178: 'TECH 1',
       179: 'TECH 2',
-      180: 'TECH 2'
+      180: 'TECH 2',
+      181: 'FIRE 2',
+      182: 'FIRE 6'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -7346,7 +7396,9 @@
       165: 'FIRE 3',
       166: 'CBRN 2',
       167: 'TECH 1',
-      168: 'TECH 1'
+      168: 'TECH 1',
+      169: 'TECH 1',
+      170: 'TECH 1'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -7499,7 +7551,9 @@
       147: 'TECH 2',
       148: 'TECH 1',
       149: 'TECH 1',
-      150: 'MED 1'
+      150: 'MED 1',
+      151: 'MED 1',
+      152: 'MED 1'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -7654,7 +7708,8 @@
       149: 'TECH 5',
       150: 'TECH 1',
       151: 'MED 1',
-      152: 'MED 1'
+      152: 'MED 1',
+      153: 'POL 2'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -7755,7 +7810,8 @@
       95: 'TECH 5',
       96: 'TECH 1',
       97: 'MED 1',
-      98: 'MED 1'
+      98: 'MED 1',
+      99: 'POL 2'
     };
     let DEFAULT_AAO_JAJP = {
       0: 'FIRE 1',
@@ -7859,7 +7915,8 @@
       98: 'TECH 5',
       99: 'TECH 1',
       100: 'MED 1',
-      101: 'MED 1'
+      101: 'MED 1',
+      102: 'POL 2'
     };
     let DEFAULT_AAO_KOKR = {
       0: 'FIRE 1',
@@ -7961,7 +8018,8 @@
       96: 'TECH 5',
       97: 'TECH 1',
       98: 'MED 1',
-      99: 'MED 1'
+      99: 'MED 1',
+      100: 'POL 2'
     };
     let DEFAULT_AAO_RORO = {
       0: 'FIRE 1',
@@ -8052,7 +8110,8 @@
       85: 'TECH 0.5',
       86: 'TECH 1',
       87: 'MED 1',
-      88: 'MED 1'
+      88: 'MED 1',
+      89: 'POL 2'
     };
     let DEFAULT_AAO_FIFI = {
       0: 'FIRE 1',
@@ -8132,7 +8191,8 @@
       74: 'FIRE 7',
       75: 'TECH 1',
       76: 'MED 1',
-      77: 'MED 1'
+      77: 'MED 1',
+      78: 'POL 2'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -8733,7 +8793,9 @@
       595: 'A 1',
       596: 'A 2',
       597: 'KLEINE BRAND',
-      598: 'MIDDEL BRAND'
+      598: 'MIDDEL BRAND',
+      599: 'P 1',
+      600: 'P 2'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

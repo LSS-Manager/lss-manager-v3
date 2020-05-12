@@ -2095,5 +2095,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Specialister i intern medicin"
+    },
+    "143": {
+        "name": "Barn forsvundet",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "Specialister i intern medicin"
+        }
     }
 }

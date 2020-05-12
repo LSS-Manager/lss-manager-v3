@@ -275,7 +275,7 @@ $.get(missionlink)
         function getStation(content) {
             let stationDefinitions = {
                 0: "Fire Station",
-                3: "Rescue Station",
+                3: "Ambulance Station",
                 5: "Police Station",
                 8: "Police Helicopter",
                 11: "fire boat",

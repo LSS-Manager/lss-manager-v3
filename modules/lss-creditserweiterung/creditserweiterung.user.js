@@ -413,17 +413,17 @@
     I18n.translations.fr_FR.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9],)? crédits obtenus.*/i,
         ranks: {
-            0: 'Bleusaille',
-            200: 'Pompier',
-            10000: 'Pompier vétéran',
-            100000: 'Opérateur d’équipement de pompier',
+            0: 'Auxiliaire',
+            200: 'Sapeur',
+            10000: 'Caporal',
+            100000: 'Caporal-chef',
             1000000: 'Sergent',
-            5000000: 'Adjudant',
-            20000000: 'Adjudant-chef',
-            50000000: 'Lieutenant',
-            1000000000: 'Capitaine',
-            2000000000: 'Commandant',
-            5000000000: 'Lieutenant-colonel'
+            5000000: 'Sergent-chef',
+            20000000: 'Adjudant',
+            50000000: 'Adjudant-chef',
+            1000000000: 'Lieutenant',
+            2000000000: 'Capitaine',
+            5000000000: 'Commandant'
         },
         texts: {
             reloadMessage: 'Veuillez ouvrir votre profil <br>et recharger le site !',

@@ -1834,5 +1834,27 @@
             "transport": 90,
             "specialisation": "V\u0161eobecn\u00fd internista"
         }
+    },
+    "126": {
+        "name": "Po\u017e\u00e1r v kancel\u00e1\u0159sk\u00e9 budov\u011b",
+        "stations": {
+            "0": 15,
+            "2": 2,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 4,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "police": 3,
+            "tanker": 1
+        },
+        "credits": 8500,
+        "patients": {
+            "max": 4,
+            "specialisation": "V\u0161eobecn\u00fd internista"
+        },
+        "poi": 22
     }
 }

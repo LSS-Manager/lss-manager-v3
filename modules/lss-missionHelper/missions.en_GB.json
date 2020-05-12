@@ -2411,5 +2411,63 @@
         "expansions": {
             "0": 108
         }
+    },
+    "172": {
+        "name": "Commercial Burglary",
+        "stations": {
+            "6": 6
+        },
+        "vehicles": {
+            "police": 4,
+            "k9": 1
+        },
+        "credits": 2000,
+        "prisoners": {
+            "max": 3
+        }
+    },
+    "173": {
+        "name": "Warehouse Fire - Major Incident",
+        "stations": {
+            "0": 20,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 15,
+            "platform": 2,
+            "hazmat": 1,
+            "tanker": 1,
+            "bchief": 8,
+            "mcv": 1,
+            "air": 1,
+            "police": 3
+        },
+        "credits": 14000,
+        "poi": 32,
+        "percentages": {
+            "tanker": 50
+        }
+    },
+    "174": {
+        "name": "Warehouse Fire - Major Incident",
+        "stations": {
+            "0": 20,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 15,
+            "platform": 2,
+            "hazmat": 1,
+            "tanker": 1,
+            "bchief": 8,
+            "mcv": 1,
+            "air": 1,
+            "police": 3
+        },
+        "credits": 14000,
+        "poi": 42,
+        "percentages": {
+            "tanker": 50
+        }
     }
 }

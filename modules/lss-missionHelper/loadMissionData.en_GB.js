@@ -51,7 +51,7 @@ $.get(missionlink)
             } else if (content.match(/Required|Requirement|Min./)) {
                 stations[getStation(content)] = number;
             } else if (content.match(/Place/)) {
-                poi = getPOI(content);
+                poi = getPOI(content.trim().replace(/^Place/, ''));
             }
         });
         data.find(".col-md-4:nth-of-type(2) table tbody tr").each(function () {
@@ -266,7 +266,7 @@ $.get(missionlink)
                 "Heathland"
             ];
             for (let i = 0; i < pois.length; i++) {
-                if (content.match(pois[i])) {
+                if (content.trim().match(new RegExp(`^${pois[i]}`))) {
                     return i;
                 }
             }

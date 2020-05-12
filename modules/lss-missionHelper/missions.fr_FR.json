@@ -1109,7 +1109,7 @@
             "heavyRescue": 1,
             "bchief": 1,
             "police": 1,
-            "rtw": 3
+            "ambulance": 3
         },
         "credits": 1300,
         "patients": {
@@ -1138,7 +1138,7 @@
         "vehicles": {
             "truck": 3,
             "bchief": 1,
-            "rtw": 1
+            "ambulance": 1
         },
         "credits": 1000,
         "patients": {
@@ -1626,7 +1626,7 @@
         }
     },
     "119": {
-        "name": "Ballot de paille",
+        "name": "Feu de pile de ballots de paille",
         "stations": {
             "0": 8
         },
@@ -2215,5 +2215,23 @@
             "transport": 100,
             "specialisation": "Interne g\u00e9n\u00e9ral"
         }
+    },
+    "151": {
+        "name": "Essouflement",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 30,
+        "specialisation": "Interne g\u00e9n\u00e9ral"
+    },
+    "152": {
+        "name": "Essouflement - Ant\u00e9c\u00e9dants cardiaques",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "specialisation": "Cardiologie"
     }
 }

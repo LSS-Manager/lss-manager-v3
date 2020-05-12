@@ -1199,5 +1199,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Internist general"
+    },
+    "89": {
+        "name": "Copil pierdut",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "Internist general"
+        }
     }
 }

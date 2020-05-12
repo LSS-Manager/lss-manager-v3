@@ -1401,5 +1401,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "\u4e00\u822c\u5185\u79d1"
+    },
+    "102": {
+        "name": "\u8ff7\u5b50",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "\u4e00\u822c\u5185\u79d1"
+        }
     }
 }

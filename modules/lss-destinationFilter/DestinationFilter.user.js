@@ -157,15 +157,15 @@
     };
     I18n.translations.fr_FR.lssm.destfilter = {
         title: 'Filtre de destination',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
+        freeBeds: 'Lits libres',
+        tax: 'TAXE',
+        cellTax: 'owner\'s TAXE',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
+            beds: 'Cacher les hôpitaux complets',
+            beds1: 'Hôpitaux pour aveugles de moins de x lits',
+            department: 'Cacher les hôpitaux sans service nécessaire',
+            distance: 'Cacher les destinations situées à plus de x km de distance (0 désactive)',
+            tax: 'Cacher les destinations dont la TAXE est supérieure à x%',
             cells: 'Masquer les cellules pleines'
         }
     };
@@ -260,7 +260,7 @@
         cellTax: 'Afdrachtpercentage',
         settings: {
             beds: 'Verberg volle ziekenhuizen',
-            beds1: 'Verberg ziekenhuizen onder x bedden',
+            beds1: 'Verberg ziekenhuizen met minder dan x vrije bedden',
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
@@ -281,7 +281,7 @@
                 }
             },
             beds1: {
-                default: 30,
+                default: 0,
                 ui: {
                     label: I18n.t('lssm.destfilter.settings.beds1'),
                     type: 'number',
