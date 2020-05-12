@@ -2470,5 +2470,34 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "General Internal"
+    },
+    "169": {
+        "name": "Concert",
+        "stations": {
+            "0": 3,
+            "2": 1,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 2,
+            "ambulance": 1,
+            "police": 7
+        },
+        "credits": 4400,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "3 hours"
+    },
+    "170": {
+        "name": "Random Breath Test",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 4
+        },
+        "credits": 3000,
+        "siwa": true,
+        "dauer": "2 hours"
     }
 }

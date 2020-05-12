@@ -1400,5 +1400,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Cl\u00ednica m\u00e9dica"
+    },
+    "101": {
+        "name": "Crian\u00e7a perdida",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "Cl\u00ednica m\u00e9dica"
+        }
     }
 }

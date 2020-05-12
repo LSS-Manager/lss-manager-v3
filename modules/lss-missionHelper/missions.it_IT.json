@@ -2562,5 +2562,35 @@
             "specialisation": "Medicina interna generale"
         },
         "poi": 26
+    },
+    "169": {
+        "name": "Dissesto statico",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 1
+        },
+        "credits": 450
+    },
+    "170": {
+        "name": "Incidente Skydiver",
+        "stations": {
+            "0": 2,
+            "2": 4
+        },
+        "vehicles": {
+            "heavyRescue": 1,
+            "platform": 1,
+            "truck": 1
+        },
+        "credits": 1500,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "rth": 15,
+            "specialisation": "Traumatologia"
+        }
     }
 }

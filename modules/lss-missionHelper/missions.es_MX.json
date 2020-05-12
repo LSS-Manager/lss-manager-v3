@@ -1981,5 +1981,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "Medicina interna general"
+    },
+    "143": {
+        "name": "Desaparici\u00f3n de ni\u00f1o",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "Medicina interna general"
+        }
     }
 }

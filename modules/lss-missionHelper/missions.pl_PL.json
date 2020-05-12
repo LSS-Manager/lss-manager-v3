@@ -2628,5 +2628,35 @@
             "transport": 50,
             "specialisation": "Interna"
         }
+    },
+    "181": {
+        "name": "Po\u017car transformatora",
+        "stations": {
+            "0": 1
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1500
+    },
+    "182": {
+        "name": "Rozleg\u0142y po\u017car wysypiska \u015bmieci",
+        "stations": {
+            "0": 21,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 1,
+            "truck": 17,
+            "bchief": 1,
+            "tanker": 1,
+            "mcv": 1,
+            "hazmat": 1
+        },
+        "credits": 10000,
+        "percentages": {
+            "tanker": 90,
+            "hazmat": 20
+        }
     }
 }

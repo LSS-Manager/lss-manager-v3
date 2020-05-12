@@ -2239,5 +2239,18 @@
         "special": {
             "averageMinimumEmployeesPolice": 24
         }
+    },
+    "155": {
+        "name": "Narkotikabrott",
+        "stations": {
+            "6": 3
+        },
+        "vehicles": {
+            "police": 2
+        },
+        "credits": 400,
+        "prisoners": {
+            "max": 1
+        }
     }
 }

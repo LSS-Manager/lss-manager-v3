@@ -6227,5 +6227,39 @@
         },
         "credits": 1000,
         "poi": 39
+    },
+    "381": {
+        "name": "Small Earthquake",
+        "stations": {
+            "0": 2
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 300,
+        "expansions": {
+            "0": 382
+        }
+    },
+    "382": {
+        "name": "Large Earthquake",
+        "stations": {
+            "0": 10,
+            "3": 3
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 1,
+            "heavyRescue": 2,
+            "bchief": 2,
+            "air": 1
+        },
+        "credits": 650,
+        "patients": {
+            "max": 10,
+            "min": 2,
+            "transport": 80,
+            "specialisation": "Traumatology"
+        }
     }
 }

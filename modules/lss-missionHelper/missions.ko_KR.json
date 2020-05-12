@@ -1369,5 +1369,21 @@
         "onlyRd": true,
         "transport": 70,
         "specialisation": "\uc77c\ubc18 \ub0b4\uacfc"
+    },
+    "100": {
+        "name": "\uc544\ub3d9 \uc2e4\uc885",
+        "stations": {
+            "2": 1,
+            "6": 2
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 700,
+        "patients": {
+            "max": 1,
+            "transport": 75,
+            "specialisation": "\uc77c\ubc18 \ub0b4\uacfc"
+        }
     }
 }
