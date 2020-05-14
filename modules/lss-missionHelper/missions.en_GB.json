@@ -1031,7 +1031,6 @@
         "vehicles": {
             "truck": 4,
             "bchief": 1,
-            "platform": 1,
             "heavyRescue": 2,
             "police": 2
         },
