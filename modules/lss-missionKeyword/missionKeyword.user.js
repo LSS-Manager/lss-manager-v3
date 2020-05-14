@@ -546,7 +546,9 @@
         521: 'Explosion in Feuerwerksfabrik',
         522: 'Medizinischer Notfall in Flugzeug',
         523: 'Medizinischer Notfall in Flugzeug',
-        524: 'Brand in Spänebunker'
+        524: 'Brand in Spänebunker',
+        525: 'Supermarkt eingestürzt',
+        526: 'Supermarkt eingestürzt'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -1492,7 +1494,15 @@
         141: 'Rescate en zanjas',
         142: 'Choque anafiláctico',
         143: 'Corredor lesionado',
-        144: 'Niño desaparecido'
+        144: 'Niño desaparecido',
+        145: 'Lesión medular',
+        146: 'Derrumbe parcial de un edificio',
+        147: 'Derrumbe de un edificio',
+        148: 'Quemaduras de tercer grado',
+        149: 'Traumatismo cerebral',
+        150: 'Amputación traumática de la extremidad',
+        151: 'Gran incendio en una granja',
+        152: 'Dolor de espalda'
       }
     };
     I18n.translations.es_MX.lssm.missionKeywordDefaults = {
@@ -3953,7 +3963,14 @@
         75: 'Pelastus kaivannosta',
         76: 'Anafylaksia',
         77: 'Loukkaantunut juoksija',
-        78: 'Kadonnut lapsi'
+        78: 'Kadonnut lapsi',
+        79: 'Selkärankavamma',
+        80: 'Rakennuksen osittainen sortuma',
+        81: 'Rakennussortuma',
+        82: '3. asteen palovammat',
+        83: 'Vakava päävamma',
+        84: 'Traumaattinen raajan amputaatio',
+        85: 'Iso maatilan tulipalo'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -5120,7 +5137,9 @@
       521: 'B 8',
       522: 'RD 1',
       523: 'RD 1',
-      524: 'B 4'
+      524: 'B 4',
+      525: 'THW ',
+      526: 'THW '
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -6003,7 +6022,15 @@
       141: 'TECH 1',
       142: 'MED 1',
       143: 'MED 1',
-      144: 'POL 2'
+      144: 'POL 2',
+      145: 'MED 1',
+      146: 'TECH 2',
+      147: 'TECH 3',
+      148: 'MED 1',
+      149: 'MED 1',
+      150: 'MED 1',
+      151: 'FIRE 7',
+      152: 'MED 1'
     };
     let DEFAULT_AAO_ESMX = {
       0: 'FIRE 1',
@@ -8192,7 +8219,14 @@
       75: 'TECH 1',
       76: 'MED 1',
       77: 'MED 1',
-      78: 'POL 2'
+      78: 'POL 2',
+      79: 'MED 1',
+      80: 'TECH 2',
+      81: 'TECH 3',
+      82: 'MED 1',
+      83: 'MED 1',
+      84: 'MED 1',
+      85: 'FIRE 7'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',

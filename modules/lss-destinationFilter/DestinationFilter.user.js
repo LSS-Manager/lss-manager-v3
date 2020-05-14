@@ -134,7 +134,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Nascondi ospedali completi',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Nascondi ospedal sotto x posti disponibili',
             department: 'Nascondi ospedali senza reparto necessario',
             distance: 'Nascondi destinazioni oltre la distanza di x km (0 disattiva)',
             tax: 'Nascondi destinazioni con una TASSA superiore a x%',

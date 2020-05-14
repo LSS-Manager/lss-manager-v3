@@ -15,7 +15,7 @@ $.get(missionlink)
             tanker: "säiliöauto",
             hazmat: "kemikaalitorjunta-auto",
             police: "poliisiauto",
-            rth: "Helicóptero HSR",
+            rth: "Lääkärihelikopteri",
             arff: "lentokenttäpaloauto",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulanțe"
@@ -79,6 +79,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Durată/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/Helikopteripyynnön/)) {
+                rth = number;
             } else if (content.match(/Laajennettavat/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function () {

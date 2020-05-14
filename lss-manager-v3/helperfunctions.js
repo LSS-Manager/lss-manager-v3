@@ -150,7 +150,7 @@ else if (I18n.locale == "es_ES")
         "6": ["Camión BNP", 0],
         "7": ["Camión TPP", 0],
         "8": ["Coche patrulla", 2],
-        "9": ["Helicóptero HSR", 1],
+        "9": ["HEMS", 1],
         "10": ["Vehículo aéreo", 0],
         "11": ["Vehículo de mando móvil", 0],
         "12": ["Vehículo de rescate", 0]
@@ -640,7 +640,7 @@ else if (I18n.locale == "fi_FI") {
         "6": ["Säiliöauto", 0],
         "7": ["Kemikaalitorjunta", 0],
         "8": ["Partioauto", 2],
-        "9": ["Lääkärihelikopteri", 1]
+        "9": ["Lääkärihelikopteri (HEMS)", 1]
     };
 }
 else if (I18n.locale == "nl_NL")
