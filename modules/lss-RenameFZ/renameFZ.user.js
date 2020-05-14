@@ -1103,7 +1103,7 @@
                 6: 'Camión BNP',
                 7: 'Camión TPP',
                 8: 'Coche patrulla',
-                9: 'Helicóptero HSR',
+                9: 'HEMS',
                 10: 'Vehículo aéreo',
                 11: 'Vehículo de mando móvil',
                 12: 'Vehículo de rescate'
@@ -1494,7 +1494,7 @@
                 6: 'Säiliöauto',
                 7: 'Kemikaalitorjunta',
                 8: 'Partioauto',
-                9: 'Lääkärihelikopteri'
+                9: 'Lääkärihelikopteri (HEMS)'
             }
         }
     };

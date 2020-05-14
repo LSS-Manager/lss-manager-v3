@@ -704,7 +704,7 @@ const lssm_missionhelper_adjustPosition = () => {
             tanker: "camiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
             police: "coches patrulla",
-            rth: "Helicóptero HSR",
+            rth: "HEMS",
             arff: "CBA",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulancia"
@@ -3151,7 +3151,7 @@ const lssm_missionhelper_adjustPosition = () => {
             mcv: "johtokeskusauto",
             police: "poliisiauto",
             arff: "lentokenttäpaloauto",
-            rth: "Air Ambulance"
+            rth: "Lääkärihelikopteri"
         },
         pois: [
             "Puisto",

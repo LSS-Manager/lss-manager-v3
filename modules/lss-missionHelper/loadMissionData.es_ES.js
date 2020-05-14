@@ -15,7 +15,7 @@ $.get(missionlink)
             tanker: "(c|C)amiones cisterna",
             hazmat: "vehículos de materiales peligrosos",
             police: "coches patrulla",
-            rth: "Helicóptero HSR",
+            rth: "HEMS",
             arff: "CBA",
             policeHeli: "Police Helicopter",
             ambulance: "Ambulancias"
@@ -79,6 +79,8 @@ $.get(missionlink)
                 special["SWATPersonnel"] = number;
             } else if (content.match(/Duración/)) {
                 dauer = $(this).find("td:last-of-type").text().trim();
+            } else if (content.match(/helicoptero/)) {
+                rth = number;
             } else if (content.match(/expansión/)) {
                 let expansionLinks = $(this).find("a");
                 expansionLinks.each(function() {

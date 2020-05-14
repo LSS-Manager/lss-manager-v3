@@ -1064,5 +1064,105 @@
             "transport": 75,
             "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
         }
+    },
+    "79": {
+        "name": "Selk\u00e4rankavamma",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "Yleiskirurgi"
+    },
+    "80": {
+        "name": "Rakennuksen osittainen sortuma",
+        "stations": {
+            "0": 6,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "81": {
+        "name": "Rakennussortuma",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatologia"
+        }
+    },
+    "82": {
+        "name": "3. asteen palovammat",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Yleiskirurgi"
+    },
+    "83": {
+        "name": "Vakava p\u00e4\u00e4vamma",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Aivokirurgia"
+    },
+    "84": {
+        "name": "Traumaattinen raajan amputaatio",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "Yleiskirurgi"
+    },
+    "85": {
+        "name": "Iso maatilan tulipalo",
+        "stations": {
+            "0": 15
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
     }
 }

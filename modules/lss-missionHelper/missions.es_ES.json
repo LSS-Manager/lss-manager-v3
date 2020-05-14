@@ -2006,5 +2006,115 @@
             "transport": 75,
             "specialisation": "Medicina interna general"
         }
+    },
+    "145": {
+        "name": "Lesi\u00f3n medular",
+        "stations": {
+            "2": 2
+        },
+        "onlyRd": true,
+        "transport": 50,
+        "rth": 50,
+        "specialisation": "Cirug\u00eda general"
+    },
+    "146": {
+        "name": "Derrumbe parcial de un edificio",
+        "stations": {
+            "0": 6,
+            "2": 2,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 2,
+            "platform": 1,
+            "bchief": 1,
+            "police": 2
+        },
+        "credits": 7500,
+        "patients": {
+            "max": 8,
+            "min": 2,
+            "transport": 40,
+            "rth": 10,
+            "specialisation": "Traumatolog\u00eda"
+        }
+    },
+    "147": {
+        "name": "Derrumbe de un edificio",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 1
+        },
+        "vehicles": {
+            "truck": 4,
+            "heavyRescue": 3,
+            "platform": 2,
+            "bchief": 2,
+            "police": 1
+        },
+        "credits": 9000,
+        "patients": {
+            "max": 20,
+            "min": 8,
+            "transport": 50,
+            "rth": 20,
+            "specialisation": "Traumatolog\u00eda"
+        }
+    },
+    "148": {
+        "name": "Quemaduras de tercer grado",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 100,
+        "specialisation": "Cirug\u00eda general"
+    },
+    "149": {
+        "name": "Traumatismo cerebral",
+        "stations": {
+            "2": 3
+        },
+        "onlyRd": true,
+        "transport": 100,
+        "rth": 90,
+        "specialisation": "Neurocirug\u00eda"
+    },
+    "150": {
+        "name": "Amputaci\u00f3n traum\u00e1tica de la extremidad",
+        "stations": {
+            "2": 4
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 50,
+        "specialisation": "Cirug\u00eda general"
+    },
+    "151": {
+        "name": "Gran incendio en una granja",
+        "stations": {
+            "0": 15
+        },
+        "vehicles": {
+            "truck": 9,
+            "bchief": 2,
+            "platform": 3,
+            "tanker": 3
+        },
+        "credits": 9000,
+        "poi": 21
+    },
+    "152": {
+        "name": "Dolor de espalda",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "Medicina interna general"
     }
 }
