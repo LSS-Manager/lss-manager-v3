@@ -258,7 +258,7 @@ $.get(missionlink)
                 "Bahnhof \\(Regionalverkehr und Fernverkehr\\)",
                 "Güterbahnhof",
                 "Supermarkt \\(Klein\\)",
-                "Supermarkt \\(Goß\\)",
+                "Supermarkt \\(Groß\\)",
                 "Tankstelle",
                 "Schule",
                 "Museum",
