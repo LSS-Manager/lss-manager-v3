@@ -153,7 +153,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Bahnhof (Regional und Fernverkehr)",
             "Güterbahnhof",
             "Supermarkt (Klein)",
-            "Supermarkt (Goß)",
+            "Supermarkt (Groß)",
             "Tankstelle",
             "Schule",
             "Museum",
