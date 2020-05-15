@@ -493,6 +493,7 @@
             "max": 3,
             "specialisation": "Allgemeine Innere"
         },
+        "poi": 10,
         "special": {
             "averageMinimumEmployeesFire": 30
         },
@@ -872,6 +873,7 @@
             "fustw": 1
         },
         "credits": 100,
+        "poi": 10,
         "prisoners": {
             "max": 1
         },
@@ -898,7 +900,8 @@
         "vehicles": {
             "fustw": 1
         },
-        "credits": 120
+        "credits": 120,
+        "poi": 10
     },
     "64": {
         "name": "Metalldiebstahl",
@@ -4615,6 +4618,9 @@
             "specialisation": "Allgemeine Innere"
         },
         "poi": 9,
+        "expansions": {
+            "0": 526
+        },
         "percentages": {
             "fwk": 75,
             "dlk": 70
@@ -4643,6 +4649,10 @@
             "transport": 50,
             "nef": 50,
             "specialisation": "Allgemeine Innere"
+        },
+        "poi": 10,
+        "expansions": {
+            "0": 525
         },
         "percentages": {
             "fwk": 75,
@@ -7913,6 +7923,7 @@
             "nef": 50,
             "specialisation": "Allgemeine Innere"
         },
+        "poi": 10,
         "percentages": {
             "fwk": 10,
             "dlk": 50
@@ -9675,5 +9686,73 @@
             "elw2": 15,
             "atem": 50
         }
+    },
+    "525": {
+        "name": "Supermarkt eingest\u00fcrzt",
+        "stations": {
+            "0": 16,
+            "2": 14,
+            "6": 4,
+            "9": 3
+        },
+        "vehicles": {
+            "fustw": 3,
+            "elw2": 1,
+            "elw1": 3,
+            "dlk": 2,
+            "truck": 6,
+            "rw": 4,
+            "fwk": 2,
+            "mtwtz": 2,
+            "gkw": 2,
+            "mzkw": 2,
+            "radlader": 2,
+            "anhdle": 2
+        },
+        "credits": 8500,
+        "patients": {
+            "max": 30,
+            "min": 8,
+            "transport": 75,
+            "nef": 60,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 10,
+        "percentages": {
+            "elw2": 60
+        }
+    },
+    "526": {
+        "name": "Supermarkt eingest\u00fcrzt",
+        "stations": {
+            "0": 13,
+            "2": 8,
+            "6": 2,
+            "9": 2
+        },
+        "vehicles": {
+            "fustw": 2,
+            "elw1": 1,
+            "dlk": 2,
+            "truck": 4,
+            "rw": 3,
+            "fwk": 1,
+            "mtwtz": 1,
+            "gkw": 1,
+            "mzkw": 1,
+            "radlader": 1,
+            "anhdle": 1
+        },
+        "credits": 4500,
+        "patients": {
+            "max": 15,
+            "min": 4,
+            "transport": 75,
+            "nef": 60,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 9
     }
 }

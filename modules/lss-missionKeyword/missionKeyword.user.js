@@ -5138,8 +5138,8 @@
       522: 'RD 1',
       523: 'RD 1',
       524: 'B 4',
-      525: 'THW ',
-      526: 'THW '
+      525: 'THW 3',
+      526: 'THW 2'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
