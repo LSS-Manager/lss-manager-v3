@@ -1,11 +1,11 @@
 (function (I18n, $) {
 	I18n.translations.de_DE.lssm.telemetry = {
-		question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
+		question: "Der LSS-Manager sendet Meta-Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
 		"Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
 		"Stimmst zu diesem zu?"
 	};
     I18n.translations.en_US.lssm.telemetry = {
-		question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
+		question: "The LSS Manager sends meta-data to the developers to improve the script and find errors.\r\n" +
 		"These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
 		"Do you agree with this?"
 	};
