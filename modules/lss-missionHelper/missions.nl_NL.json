@@ -10489,5 +10489,47 @@
         "expansions": {
             "0": 124
         }
+    },
+    "601": {
+        "name": "Bewusteloos persoon op een bankje",
+        "stations": {
+            "3": 1,
+            "5": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 500,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 60,
+            "specialisation": "Interne Geneeskunde"
+        },
+        "poi": 26
+    },
+    "602": {
+        "name": "Beveiliger aangevallen",
+        "stations": {
+            "3": 1,
+            "5": 3
+        },
+        "vehicles": {
+            "police": 3
+        },
+        "credits": 510,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 40,
+            "specialisation": "Algemene Heelkunde"
+        },
+        "poi": 19,
+        "prisoners": {
+            "max": 2
+        },
+        "expansions": {
+            "0": 202
+        }
     }
 }

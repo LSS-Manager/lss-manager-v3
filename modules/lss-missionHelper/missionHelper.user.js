@@ -1904,7 +1904,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Stor kjemisk lagringstank",
             "Hotell",
             "Bar",
-            "Avfallsdeponi",
+            "Deponi",
             "Parkeringshus",
 			"Silo"
         ]
@@ -2491,7 +2491,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Большое хранилище химикатов",
             "Гостиница",
             "Бар",
-            "Мусорный полигон",
+            "Свалка",
             "Паркинг",
 			"Силос"
         ]
@@ -2569,11 +2569,11 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         vehicles: {
             truck: "пожежні машини",
-            platform: "вантажні платформи",
+            platform: "пожежні автодрабини",
             heavyRescue: "важкі рятувальні машини",
             air: "Carro aria",
-            bchief: "машини командира батальйону",
-            tanker: "автоцистерн",
+            bchief: "штабні автомобілі",
+            tanker: "автонасосні",
             hazmat: "машини знезараження",
             mcv: "Mobile Command Vehicle",
             police: "поліцейські машини",
@@ -2636,7 +2636,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Велике сховище хімікатів",
             "Готель",
             "Бар",
-            "Сміттєзвалище",
+            "Звалище",
             "Гараж",
 			"Силос"
         ]
@@ -2780,7 +2780,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "化学薬品タンク\\（大型\\）",
             "ホテル",
             "バー",
-            "埋立地",
+            "処分場",
             "駐車ガレージ",
 			"サイロ"
         ]
@@ -3031,7 +3031,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Atelier auto",
             "Ieșire pe autostradă",
             "Târg de Crăciun",
-            "Depozit",
+            "asdasdas",
             "Discotecă",
             "Stadion",
             "Fermă",
@@ -3064,7 +3064,7 @@ const lssm_missionhelper_adjustPosition = () => {
             "Rezervor mare pentru stocarea de substanțe chimice",
             "Hotel",
             "Bar",
-            "Depozit de deșeuri",
+            "Depozit",
             "Parcare",
             "Silo"
         ]

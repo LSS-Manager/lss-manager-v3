@@ -2592,5 +2592,48 @@
             "rth": 15,
             "specialisation": "Traumatologia"
         }
+    },
+    "171": {
+        "name": "Incendio albergo (GRANDE)",
+        "stations": {
+            "0": 8,
+            "2": 8,
+            "6": 4
+        },
+        "vehicles": {
+            "truck": 6,
+            "heavyRescue": 4,
+            "tanker": 1,
+            "bchief": 1,
+            "police": 4,
+            "air": 1
+        },
+        "credits": 10900,
+        "patients": {
+            "max": 35,
+            "min": 2,
+            "transport": 20,
+            "rth": 4,
+            "specialisation": "Traumatologia"
+        },
+        "poi": 49,
+        "special": {
+            "averageMinimumEmployeesFire": 40
+        }
+    },
+    "172": {
+        "name": "Guasto al semaforo",
+        "stations": {
+            "6": 1
+        },
+        "vehicles": {
+            "police": 1
+        },
+        "credits": 550,
+        "expansions": {
+            "0": 25,
+            "1": 64,
+            "2": 106
+        }
     }
 }
