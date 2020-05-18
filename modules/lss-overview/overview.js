@@ -2442,6 +2442,8 @@
 
     I18n.translations.nl_NL.lssm.overview.hiorgs = {
         brand: 'Brandweer',
+        waterongeval: 'Waterongevallen',
+        vbb: 'Vliegtuigbrandbestrijding',
         ambulance: 'Ambulance',
         pol: 'Politie',
         hoofd: 'Politie hoofdbureau',
@@ -2817,7 +2819,18 @@
                 credits: 6000,
                 coins: 12,
                 special: 'Haakarmvoertuig benodigd'
-            },
+            },            
+            davl: {
+                name: 'Dienstauto Voorlichter',
+                min: 1,
+                max: 1,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Voorlichter',
+                special: 'Benodigd vanaf 14 brandweerposten.'
+            }
+        },
+        waterongeval: {
             wo: {
                 name: 'Waterongevallenvoertuig',
                 min: 4,
@@ -2849,15 +2862,40 @@
                 credits: 10000,
                 coins: 25,
                 schooling: 'Oppervlakteredder'
-            },
-            davl: {
-                name: 'Dienstauto Voorlichter',
-                min: 1,
-                max: 1,
+            }
+        },
+        vbb: {
+            ct4: {
+                name: 'Crashtender (4x4)',
+                min: 2,
+                max: 3,
                 credits: 15000,
                 coins: 25,
-                schooling: 'Voorlichter',
-                special: 'Benodigd vanaf 14 brandweerposten.'
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+           ct6: {
+                name: 'Crashtender (6x6)',
+                min: 2,
+                max: 3,
+                credits: 40000,
+                coins: 25,
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+            ct8: {
+                name: 'Crashtender (8x8)',
+                min: 2,
+                max: 3,
+                credits: 60000,
+                coins: 25,
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+            afo: {
+                name: 'Airport Fire Officer / On Scene Commander',
+                min: 1,
+                max: 2,
+                credits: 12000,
+                coins: 25,
+                schooling: 'Airport Fire Officer / On Scene Commander'
             }
         },
         ambulance: {
@@ -2898,7 +2936,7 @@
                 max: 1,
                 credits: 2500,
                 coins: 18
-            },
+            }
         },
         pol: {
             fustw: {
