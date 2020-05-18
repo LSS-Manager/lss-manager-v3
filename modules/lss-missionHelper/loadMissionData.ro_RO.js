@@ -56,7 +56,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/necesare|necesar/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/să fie/)) {
+            } else if (content.match(/să fie|Probabilitate/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
@@ -215,7 +215,7 @@ $.get(missionlink)
                 "Atelier auto",
                 "Ieșire pe autostradă",
                 "Târg de Crăciun",
-                "Depozit",
+                "asdasdasd",
                 "Discotecă",
                 "Stadion",
                 "Fermă",
@@ -248,7 +248,7 @@ $.get(missionlink)
                 "Rezervor mare pentru stocarea de substanțe chimice",
                 "Hotel",
                 "Bar",
-                "Depozit de deșeuri",
+                "Depozit",
                 "Parcare",
                 "Silo"
             ];

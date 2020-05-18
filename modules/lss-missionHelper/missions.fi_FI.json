@@ -1164,5 +1164,32 @@
         },
         "credits": 9000,
         "poi": 21
+    },
+    "86": {
+        "name": "Selk\u00e4kipu",
+        "stations": {
+            "2": 1
+        },
+        "onlyRd": true,
+        "transport": 80,
+        "rth": 30,
+        "specialisation": "Yleisl\u00e4\u00e4k\u00e4ri"
+    },
+    "87": {
+        "name": "Kaatopaikan tulipalo",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51,
+        "percentages": {
+            "tanker": 30
+        }
     }
 }

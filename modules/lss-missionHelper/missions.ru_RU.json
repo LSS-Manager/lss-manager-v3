@@ -2247,5 +2247,22 @@
             "transport": 75,
             "specialisation": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         }
+    },
+    "154": {
+        "name": "\u041f\u043e\u0436\u0430\u0440 \u043d\u0430 \u0441\u0432\u0430\u043b\u043a\u0435",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51,
+        "percentages": {
+            "tanker": 30
+        }
     }
 }

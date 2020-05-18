@@ -1385,5 +1385,22 @@
             "transport": 75,
             "specialisation": "\uc77c\ubc18 \ub0b4\uacfc"
         }
+    },
+    "101": {
+        "name": "\uc4f0\ub808\uae30\ub9e4\ub9bd\uc7a5 \ud654\uc7ac",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51,
+        "percentages": {
+            "tanker": 30
+        }
     }
 }

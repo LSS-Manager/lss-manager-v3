@@ -2468,5 +2468,18 @@
         "percentages": {
             "tanker": 50
         }
+    },
+    "175": {
+        "name": "Landfill fire",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 4,
+            "bchief": 3,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51
     }
 }

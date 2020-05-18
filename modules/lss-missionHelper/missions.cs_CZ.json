@@ -1856,5 +1856,15 @@
             "specialisation": "V\u0161eobecn\u00fd internista"
         },
         "poi": 22
+    },
+    "127": {
+        "name": "\u00daklid po dopravn\u00ed nehod\u011b",
+        "stations": {
+            "0": 5
+        },
+        "vehicles": {
+            "truck": 2
+        },
+        "credits": 1200
     }
 }

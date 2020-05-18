@@ -56,7 +56,7 @@ $.get(missionlink)
             let number = $(this).find("td:last-of-type").text().trim().replace(/\D/g, "");
             if (content.match(/必要|が必要|必要な/)) {
                 vehicles[getVehicle(content)] = number;
-            } else if (content.match(/な確率|が必要/)) {
+            } else if (content.match(/な確率|が必要|が必要な確率/)) {
                 percentages[getVehicle(content)] = number;
             }
         });
@@ -246,7 +246,7 @@ $.get(missionlink)
                 "化学薬品タンク\\（大型\\）",
                 "ホテル",
                 "バー",
-                "埋立地",
+                "処分場",
                 "駐車ガレージ",
 				"サイロ"
             ];

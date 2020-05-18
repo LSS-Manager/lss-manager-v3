@@ -2499,5 +2499,22 @@
         "credits": 3000,
         "siwa": true,
         "dauer": "2 hours"
+    },
+    "171": {
+        "name": "Football Game",
+        "stations": {
+            "0": 2,
+            "2": 2,
+            "6": 3
+        },
+        "vehicles": {
+            "truck": 1,
+            "ambulance": 2,
+            "police": 6
+        },
+        "credits": 4400,
+        "poi": 20,
+        "siwa": true,
+        "dauer": "2 hours"
     }
 }

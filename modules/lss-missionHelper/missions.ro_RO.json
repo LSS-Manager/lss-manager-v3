@@ -1215,5 +1215,22 @@
             "transport": 75,
             "specialisation": "Internist general"
         }
+    },
+    "90": {
+        "name": "Incendiu la depozitul",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51,
+        "percentages": {
+            "tanker": 30
+        }
     }
 }

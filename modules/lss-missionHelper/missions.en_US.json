@@ -6238,7 +6238,9 @@
         },
         "credits": 300,
         "expansions": {
-            "0": 382
+            "0": 382,
+            "1": 383,
+            "2": 384
         }
     },
     "382": {
@@ -6258,6 +6260,54 @@
         "patients": {
             "max": 10,
             "min": 2,
+            "transport": 80,
+            "specialisation": "Traumatology"
+        },
+        "expansions": {
+            "0": 384
+        }
+    },
+    "383": {
+        "name": "Medium Earthquake",
+        "stations": {
+            "0": 6,
+            "3": 1
+        },
+        "vehicles": {
+            "truck": 2,
+            "heavyRescue": 1,
+            "bchief": 1,
+            "air": 1
+        },
+        "credits": 600,
+        "patients": {
+            "max": 5,
+            "transport": 80,
+            "specialisation": "Traumatology"
+        },
+        "expansions": {
+            "0": 382,
+            "1": 384
+        }
+    },
+    "384": {
+        "name": "Major Earthquake",
+        "stations": {
+            "0": 15,
+            "3": 5
+        },
+        "vehicles": {
+            "truck": 10,
+            "platform": 2,
+            "heavyRescue": 5,
+            "bchief": 4,
+            "police": 1,
+            "air": 2
+        },
+        "credits": 700,
+        "patients": {
+            "max": 30,
+            "min": 10,
             "transport": 80,
             "specialisation": "Traumatology"
         }

@@ -2252,5 +2252,26 @@
         "prisoners": {
             "max": 1
         }
+    },
+    "156": {
+        "name": "Trafikolycka - vilt",
+        "stations": {
+            "0": 4,
+            "2": 4,
+            "6": 2
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1,
+            "police": 1
+        },
+        "credits": 1010,
+        "patients": {
+            "max": 4,
+            "min": 1,
+            "transport": 40,
+            "specialisation": "Traumatologi"
+        },
+        "poi": 3
     }
 }

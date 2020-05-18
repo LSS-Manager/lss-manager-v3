@@ -254,7 +254,7 @@ $.get(missionlink)
                 "Stor kjemisk lagringstank",
                 "Hotell",
                 "Bar",
-                "Avfallsdeponi",
+                "Deponi",
                 "Parkeringshus",
 				"Silo"
             ];

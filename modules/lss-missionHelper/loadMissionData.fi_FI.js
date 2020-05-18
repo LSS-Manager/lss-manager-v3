@@ -264,7 +264,7 @@ $.get(missionlink)
         function getStation(content) {
             let stationDefinitions = {
                 0: "paloasemat",
-                2: "pelastusasemat",
+                2: "ambulanssiasemat",
                 6: "poliisiasemat"
             };
             for (let station in stationDefinitions) {
