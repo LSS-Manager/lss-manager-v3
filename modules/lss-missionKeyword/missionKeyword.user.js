@@ -1669,7 +1669,8 @@
         140: 'Rescate en zanjas',
         141: 'Choque anafiláctico',
         142: 'Corredor lesionado',
-        143: 'Desaparición de niño'
+        143: 'Desaparición de niño',
+        144: 'Incendio en vertedero'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -6206,7 +6207,8 @@
       140: 'TECH 1',
       141: 'MED 1',
       142: 'MED 1',
-      143: 'POL 2'
+      143: 'POL 2',
+      144: 'FIRE 5'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',

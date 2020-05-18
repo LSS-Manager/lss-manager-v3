@@ -1997,5 +1997,22 @@
             "transport": 75,
             "specialisation": "Medicina interna general"
         }
+    },
+    "144": {
+        "name": "Incendio en vertedero",
+        "stations": {
+            "0": 8
+        },
+        "vehicles": {
+            "truck": 5,
+            "bchief": 1,
+            "platform": 1,
+            "tanker": 1
+        },
+        "credits": 3500,
+        "poi": 51,
+        "percentages": {
+            "tanker": 30
+        }
     }
 }
