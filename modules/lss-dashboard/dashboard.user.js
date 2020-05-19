@@ -1140,6 +1140,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             if (I18n.locale == "de_DE")
                 $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>')
                     .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_wret">Wasser</a>')
+                    .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_rhs">RHS</a>')
             $("#wp_sub").append('<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">' + I18n.t('lssm.dashboard.school') + '</a>')
                 .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_son">' + I18n.t('lssm.dashboard.other') + '</a>');
             curtab_db = "#db_main_outer";
