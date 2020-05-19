@@ -49,7 +49,8 @@ $.get(missionlink)
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher',
             gwsan: 'GW-San',
-            gwwa: 'GW-Wasserrettung'
+            gwwa: 'GW-Wasserrettung',
+            rescue_dog: 'Rettungshundestaffel'
         };
 
         let credits;
@@ -310,6 +311,7 @@ $.get(missionlink)
                 11: "Bereitschaftspolizeiwache",
                 13: "Polizeihubschrauberstationen",
                 15: "Wasserrettungswachen",
+                21: "Rettungshundestaffeln",
                 "sek": "SEK-Wachen",
                 "mek": "MEK-Wachen",
                 "werk": "Werkfeuerwehren"

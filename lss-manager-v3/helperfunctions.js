@@ -748,6 +748,7 @@ else if (I18n.locale == "de_DE")
         "Führung": 30,
         "Sanitätsdienst": 31,
         "Wasserrettung": 32,
+        "Rettungshundestaffel": 33,
         // THW-Erweiterungen (40-49)
         "Bergungsgruppe 2": 40,
         "Zugtrupp": 41,
@@ -779,7 +780,8 @@ else if (I18n.locale == "de_DE")
         'Polizei-Sondereinheiten',
         'Feuerwache (Kleinwache)',
         'Polizeiwache (Kleinwache)',
-        'Rettungswache (Kleinwache)'
+        'Rettungswache (Kleinwache)',
+        'Rettungshundestaffel'
     ];
     
     lssm.carsById = {
@@ -873,7 +875,8 @@ else if (I18n.locale == "de_DE")
         "87": ["TLF 4000", 0],
         "88": ["KLF", 0],
         "89": ["MLF", 0],
-        "90": ["HLF 10", 0]
+        "90": ["HLF 10", 0],
+        "91": ["Rettungshundefahrzeug", 1]
     };
 }
 lssm.getVehicleNameById = function(vehicleId) {
