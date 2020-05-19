@@ -140,7 +140,8 @@ const lssm_missionhelper_adjustPosition = () => {
             tm: 'Teleskopmasten',
             turbo: 'Turbolöscher',
             gwsan: 'GW-San',
-            gwwa: 'GW-Wasserrettung'
+            gwwa: 'GW-Wasserrettung',
+            rescue_dog: 'Rettungshundestaffel'
         },
         pois: [
             "Park",

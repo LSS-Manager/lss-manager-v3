@@ -38,6 +38,8 @@
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
     $('#missions-panel-body > div:nth-child(6)').remove();
+    $('#missions-panel-body > div:nth-child(7)').remove();
+    $('#missions-panel-body > div:nth-child(8)').remove();
     if ("undefined" != typeof mapkit) {
     } else
     map.invalidateSize(true);

@@ -548,7 +548,8 @@
         523: 'Medizinischer Notfall in Flugzeug',
         524: 'Brand in Spänebunker',
         525: 'Supermarkt eingestürzt',
-        526: 'Supermarkt eingestürzt'
+        526: 'Supermarkt eingestürzt',
+        527: 'Verschüttete Person'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -5165,7 +5166,8 @@
       523: 'RD 1',
       524: 'B 4',
       525: 'THW 3',
-      526: 'THW 2'
+      526: 'THW 2',
+      527: 'THL 2 RHS'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
