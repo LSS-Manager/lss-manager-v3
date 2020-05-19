@@ -23,8 +23,8 @@ I18n.translations.de_DE['lssm']['dashboard'] = {
     carswp: 'FAHRZEUGE',
     patiwp: 'PATIENTEN',
     levwp: 'STUFE',
-    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
-    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg', 'bepo'],
+    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei', 'Rettungshundestaffel'],
+    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg', 'bepo', 'rhs'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
     nofz: "Keine Fahrzeuge vorhanden",
 }
@@ -623,7 +623,8 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             'kh_clinic': 0,
             'wret': 0,
             'seg': 0,
-            'bepo': 0
+            'bepo': 0,
+            'rhs': 0
         };
         $.each(lssm.buildings, function (key, build) {
             switch (build.building_type) {
@@ -672,8 +673,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_SEG:
                     building_amount.seg += 1;
                     break;
+                //BPol
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                     building_amount.bepo += 1;
+                    break;
+                //RHS
+                case BUILDING_TYPE_RESCUE_DOG_UNIT:
+                    building_amount.rhs += 1;
                     break;
             }
         });
@@ -693,7 +699,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 backgroundColor: 'rgba(0,0,0,0)',
                 height: '200'
             },
-            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow', 'darkgreen'],
+            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow', 'darkgreen', 'purple'],
             title: {
                 text: I18n.t('lssm.dashboard.ge')
             },
@@ -855,6 +861,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     appendto = "rd";
                     icon = "fa-ambulance";
                     maxcars = 9;
+                    break;
+                case BUILDING_TYPE_RESCUE_DOG_UNIT:
+                    appendto = "rhs";
+                    icon = "fa-search";
                     break;
                 case BUILDING_TYPE_POLIZEIWACHE:
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
