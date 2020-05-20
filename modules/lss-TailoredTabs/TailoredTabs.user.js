@@ -185,7 +185,7 @@
             short: 'seg',
             vehicles: [58, 59, 60]
         };
-        if (getSetting('rsh1')) {
+        if (getSetting('rhs1')) {
             segSection.vehicles.push(91);
         }
         sections.push(segSection);
