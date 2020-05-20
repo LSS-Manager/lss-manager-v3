@@ -750,6 +750,18 @@
         },
         "credits": 1000
     },
+    "59": {
+        "name": "Resgate de animal",
+        "stations": {
+            "0": 6
+        },
+        "vehicles": {
+            "truck": 1,
+            "heavyRescue": 1
+        },
+        "credits": 900,
+        "poi": 21
+    },
     "60": {
         "name": "Fogo em sal\u00e3o de esportes",
         "stations": {
