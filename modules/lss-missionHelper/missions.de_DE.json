@@ -2771,8 +2771,7 @@
             "0": 7,
             "2": 4,
             "6": 2,
-            "9": 3,
-            "21": 1
+            "9": 3
         },
         "vehicles": {
             "gkw": 2,
@@ -2784,8 +2783,7 @@
             "elw1": 1,
             "rw": 1,
             "fwk": 1,
-            "fustw": 2,
-            "rescue_dog": 1
+            "fustw": 2
         },
         "credits": 4600,
         "patients": {
@@ -3420,8 +3418,7 @@
             "0": 25,
             "2": 9,
             "6": 5,
-            "9": 1,
-            "21": 1
+            "9": 1
         },
         "vehicles": {
             "truck": 20,
@@ -3435,7 +3432,6 @@
             "atem": 2,
             "dekon": 1,
             "fustw": 4,
-            "rescue_dog": 1,
             "gkw": 1,
             "radlader": 1,
             "anhdle": 1,
@@ -3784,14 +3780,12 @@
             "0": 1,
             "2": 1,
             "6": 2,
-            "13": 1,
-            "21": 1
+            "13": 1
         },
         "vehicles": {
             "fustw": 2,
             "polheli": 1,
-            "truck": 1,
-            "rescue_dog": 1
+            "truck": 1
         },
         "credits": 4500,
         "patients": {
@@ -7712,8 +7706,7 @@
             "0": 20,
             "2": 10,
             "6": 10,
-            "9": 5,
-            "21": 1
+            "9": 5
         },
         "vehicles": {
             "truck": 18,
@@ -7727,8 +7720,7 @@
             "gkw": 2,
             "mtwtz": 2,
             "radlader": 2,
-            "mzkw": 2,
-            "rescue_dog": 1
+            "mzkw": 2
         },
         "credits": 8000,
         "patients": {
@@ -9010,16 +9002,14 @@
             "2": 1,
             "6": 4,
             "13": 1,
-            "15": 2,
-            "21": 1
+            "15": 2
         },
         "vehicles": {
             "polheli": 1,
             "fustw": 6,
             "truck": 1,
             "boot": 2,
-            "elw1": 1,
-            "rescue_dog": 1
+            "elw1": 1
         },
         "credits": 3000,
         "patients": {
@@ -9109,8 +9099,7 @@
             "0": 8,
             "2": 10,
             "6": 3,
-            "9": 3,
-            "21": 1
+            "9": 3
         },
         "vehicles": {
             "truck": 6,
@@ -9123,8 +9112,7 @@
             "mtwtz": 2,
             "radlader": 1,
             "anhdle": 1,
-            "fustw": 4,
-            "rescue_dog": 1
+            "fustw": 4
         },
         "credits": 8000,
         "patients": {
@@ -9788,7 +9776,212 @@
             "min": 1,
             "transport": 100,
             "nef": 100,
-            "rth": 15
+            "rth": 15,
+            "specialisation": "Unfallchirurgie"
+        }
+    },
+    "530": {
+        "name": "Eingest\u00fcrztes Wohnhaus",
+        "stations": {
+            "0": 7,
+            "2": 4,
+            "6": 2,
+            "9": 3,
+            "21": 1
+        },
+        "vehicles": {
+            "gkw": 2,
+            "radlader": 2,
+            "mtwtz": 1,
+            "mzkw": 1,
+            "truck": 3,
+            "dlk": 1,
+            "elw1": 1,
+            "rw": 1,
+            "fwk": 1,
+            "fustw": 2,
+            "rescue_dog": 1
+        },
+        "credits": 4900,
+        "patients": {
+            "max": 7,
+            "specialisation": "Allgemeine Innere"
+        },
+        "followup": {
+            "0": 429
+        },
+        "percentages": {
+            "dlk": 30,
+            "fwk": 75
+        }
+    },
+    "531": {
+        "name": "Gasexplosion",
+        "stations": {
+            "0": 25,
+            "2": 9,
+            "6": 5,
+            "9": 1,
+            "21": 1
+        },
+        "vehicles": {
+            "truck": 20,
+            "fwk": 1,
+            "rw": 2,
+            "dlk": 2,
+            "elw1": 4,
+            "elw2": 2,
+            "gwl2": 2,
+            "mess": 2,
+            "atem": 2,
+            "dekon": 1,
+            "fustw": 4,
+            "rescue_dog": 1,
+            "gkw": 1,
+            "radlader": 1,
+            "anhdle": 1,
+            "mtwtz": 1,
+            "mzkw": 1
+        },
+        "credits": 11500,
+        "patients": {
+            "max": 10,
+            "transport": 70,
+            "nef": 40,
+            "specialisation": "Unfallchirurgie"
+        },
+        "followup": {
+            "0": 177,
+            "1": 513,
+            "2": 166
+        },
+        "percentages": {
+            "fwk": 40,
+            "dekon": 10
+        }
+    },
+    "532": {
+        "name": "Suche nach Vermissten",
+        "stations": {
+            "0": 1,
+            "2": 1,
+            "6": 2,
+            "13": 1,
+            "21": 1
+        },
+        "vehicles": {
+            "fustw": 2,
+            "polheli": 1,
+            "truck": 1,
+            "rescue_dog": 1
+        },
+        "credits": 4800,
+        "patients": {
+            "max": 1,
+            "specialisation": "Kardiologie"
+        }
+    },
+    "533": {
+        "name": "Personensuche nahe Gew\u00e4sser",
+        "stations": {
+            "0": 4,
+            "2": 1,
+            "6": 4,
+            "13": 1,
+            "15": 2,
+            "21": 1
+        },
+        "vehicles": {
+            "polheli": 1,
+            "fustw": 6,
+            "truck": 1,
+            "boot": 2,
+            "elw1": 1,
+            "rescue_dog": 1
+        },
+        "credits": 3300,
+        "patients": {
+            "max": 1,
+            "min": 1,
+            "transport": 100,
+            "nef": 90,
+            "rth": 25,
+            "specialisation": "Allgemeine Innere"
+        },
+        "poi": 1,
+        "special": {
+            "averageMinimumEmployeesPolice": 12,
+            "averageMinimumEmployeesFire": 9
+        }
+    },
+    "534": {
+        "name": "Einsturz Parkhaus",
+        "stations": {
+            "0": 20,
+            "2": 10,
+            "6": 10,
+            "9": 5,
+            "21": 1
+        },
+        "vehicles": {
+            "truck": 18,
+            "rw": 2,
+            "gwl2": 1,
+            "fustw": 10,
+            "dlk": 3,
+            "fwk": 2,
+            "elw1": 5,
+            "elw2": 2,
+            "gkw": 2,
+            "mtwtz": 2,
+            "radlader": 2,
+            "mzkw": 2,
+            "rescue_dog": 1
+        },
+        "credits": 8300,
+        "patients": {
+            "max": 10,
+            "transport": 70,
+            "nef": 50,
+            "rth": 10,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 35
+    },
+    "535": {
+        "name": "Schwimmbaddach eingest\u00fcrzt",
+        "stations": {
+            "0": 8,
+            "2": 10,
+            "6": 3,
+            "9": 3,
+            "21": 1
+        },
+        "vehicles": {
+            "truck": 6,
+            "rw": 2,
+            "elw1": 2,
+            "fwk": 1,
+            "dlk": 1,
+            "gkw": 3,
+            "mzkw": 2,
+            "mtwtz": 2,
+            "radlader": 1,
+            "anhdle": 1,
+            "fustw": 4,
+            "rescue_dog": 1
+        },
+        "credits": 8300,
+        "patients": {
+            "max": 20,
+            "transport": 75,
+            "nef": 40,
+            "rth": 5,
+            "specialisation": "Unfallchirurgie"
+        },
+        "poi": 23,
+        "percentages": {
+            "fwk": 80
         }
     }
 }

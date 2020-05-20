@@ -549,7 +549,15 @@
         524: 'Brand in Spänebunker',
         525: 'Supermarkt eingestürzt',
         526: 'Supermarkt eingestürzt',
-        527: 'Verschüttete Person'
+        527: 'Verschüttete Person',
+        528: '',
+        529: '',
+        530: 'Eingestürztes Wohnhaus',
+        531: 'Gasexplosion',
+        532: 'Suche nach Vermissten',
+        533: 'Personensuche nahe Gewässer',
+        534: 'Einsturz Parkhaus',
+        535: 'Schwimmbaddach eingestürzt'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -5167,7 +5175,15 @@
       524: 'B 4',
       525: 'THW 3',
       526: 'THW 2',
-      527: 'THL 2 RHS'
+      527: 'THL 2 RHS',
+      528: '',
+      529: '',
+      530: 'THL EINSTURZ RHS',
+      531: 'B EXPLOSION RHS',
+      532: 'POL 2 RHS',
+      533: 'POL 3 RHS',
+      534: 'THL 4 RHS',
+      535: 'THW 3 RHS'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
