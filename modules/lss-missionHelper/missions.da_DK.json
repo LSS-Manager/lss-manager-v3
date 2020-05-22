@@ -1678,6 +1678,25 @@
         "credits": 1850,
         "poi": 34
     },
+    "119": {
+        "name": "Bygnings Brand Industribygning",
+        "stations": {
+            "0": 6,
+            "2": 2
+        },
+        "vehicles": {
+            "truck": 5,
+            "platform": 2,
+            "bchief": 2,
+            "mcv": 1,
+            "hazmat": 1
+        },
+        "credits": 5300,
+        "patients": {
+            "max": 4,
+            "specialisation": "Kirurg"
+        }
+    },
     "120": {
         "name": "Ukendt spild fra tankvogn",
         "stations": {
