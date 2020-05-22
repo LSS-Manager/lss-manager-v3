@@ -2473,7 +2473,7 @@
             startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
             extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
-            special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
+            special: 'Vanaf de 25e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
         },
         fwschule: {
             name: 'Brandweer, Academie',
@@ -2502,12 +2502,13 @@
             name: 'Ambulance, VWS-post',
             credits: 100000,
             coins: 25,
-            maxlevel: 2,
+            maxlevel: 1,
             levelcost: '1. 10.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
             extensions: 'Geen uitbreidingen mogelijk',
-            maxBuildings: 'Geen limiet'
+            maxBuildings: 'Geen limiet',
+            special: 'Kan worden omgebouwd tot Ambulance standplaats voor 100.000 credits. Het ombouwen duurt 24 uur.'
         },
         rwschule: {
             name: 'Universiteit Faculteit Geneeskunde',
@@ -2555,6 +2556,7 @@
             startVehicle: 'DA Noodhulp',
             extensions: 'cel (25.000 Credits)<br>Max. 10 kunnen worden gebouwd',
             maxBuildings: '1.100',
+            special: 'Vanaf het 25e opkomstbureau stijgen de kosten voor de bouw van een nieuw opkomstbureau volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal opkomstbureaus − 22)</code>. De Coins prijs blijft constant!'
         },
         polschule: {
             name: 'Politie, Academie',
@@ -2758,7 +2760,7 @@
             sl: {
                 name: 'Slangenwagen',
                 min: 1,
-                max: 3,
+                max: 9,
                 credits: 17300,
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
