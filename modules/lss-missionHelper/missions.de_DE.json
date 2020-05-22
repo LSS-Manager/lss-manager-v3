@@ -9780,6 +9780,56 @@
             "specialisation": "Unfallchirurgie"
         }
     },
+    "528": {
+        "name": "Fischsterben in Gew\u00e4sser",
+        "stations": {
+            "0": 5,
+            "6": 1,
+            "9": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "rw": 1,
+            "elw1": 1,
+            "mess": 1,
+            "gkw": 1,
+            "mzkw": 1,
+            "mtwtz": 1,
+            "boot": 2,
+            "fustw": 2
+        },
+        "credits": 5000,
+        "poi": 1,
+        "percentages": {
+            "mess": 30
+        }
+    },
+    "529": {
+        "name": "Fischsterben in Gew\u00e4sser",
+        "stations": {
+            "0": 5,
+            "6": 1,
+            "9": 1,
+            "15": 2
+        },
+        "vehicles": {
+            "truck": 3,
+            "rw": 1,
+            "elw1": 1,
+            "mess": 1,
+            "gkw": 1,
+            "mzkw": 1,
+            "mtwtz": 1,
+            "boot": 2,
+            "fustw": 2
+        },
+        "credits": 5000,
+        "poi": 27,
+        "percentages": {
+            "mess": 30
+        }
+    },
     "530": {
         "name": "Eingest\u00fcrztes Wohnhaus",
         "stations": {
