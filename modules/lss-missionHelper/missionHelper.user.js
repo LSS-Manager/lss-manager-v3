@@ -96,10 +96,10 @@ const lssm_missionhelper_adjustPosition = () => {
         },
         transport: 'Transport',
         tragehilfe: 'Tragehilfe',
-        vehicles: {
+        requirements: {
             firetrucks: 'Löschfahrzeuge',
             platform_trucks: 'Drehleitern',
-            heavy_rescue_vehicles: 'Rüstwagen/AB-Rüst',
+            heavy_rescue_vehicles: 'Rüstwagen',
             battalion_chief_vehicles: 'ELW 1',
             mobile_command_vehicles: 'ELW 2',
             mobile_air_vehicles: 'GW-Atemschutz',
@@ -126,7 +126,8 @@ const lssm_missionhelper_adjustPosition = () => {
             thw_gkw: 'Gerätekraftwagen',
             thw_mzkw: 'Mehrzweckkraftwagen',
             thw_mtwtz: 'MTW-TZ',
-            thw_brmg_r: 'Radlader (BRmG R) mit LKW K 9',
+            thw_brmg_r: 'Radlader (BRmG R)',
+			thw_lkw: 'LKW K 9',
             thw_dle: 'Anhänger Drucklufterzeugung',
             police_helicopters: 'Polizeihubschrauber',
             arff: 'Flugfeldlöschfahrzeug',
@@ -197,7 +198,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Prisoners',
         to: 'up to',
         exp: 'Spreads',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
         transport: 'Transport',
@@ -259,7 +260,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Shows the date and time when the mission was created.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Firetrucks",
             platform_trucks: "Platform truck",
             heavy_rescue_vehicles: "Heavy Rescue vehicles or Utility unit",
@@ -350,7 +351,7 @@ const lssm_missionhelper_adjustPosition = () => {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
         exp: 'Spreads',
         fwm: 'Follow-up missions',
-        swat_personnel: "Needed Armed Response Personnel",
+        SWATPersonnel: "Needed Armed Response Personnel",
         settings: {
             name: {
                 label: 'Name',
@@ -425,7 +426,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_cars: "Police Car",
             arff: "ARFF",
             k9: "Dog Support Unit",
-            swatSuv: "Armed Response Vehicle (ARV)",
+            swat_suv: "Armed Response Vehicle (ARV)",
             helicopter: "HEMS",
             police_helicopters: "Police helicopter",
         },
@@ -548,7 +549,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Shows the date and time when the mission was created.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Fire engines",
             platform_trucks: "Turntable Ladder",
             heavy_rescue_vehicles: "Rescue",
@@ -692,7 +693,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Muestra la fecha y la hora en que se creó la misión.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "camiones de bomberos",
             platform_trucks: "camiones con plataforma",
             heavy_rescue_vehicles: "Furgones de Útiles Vario",
@@ -825,7 +826,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Muestra la fecha y la hora en que se creó la misión.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "camiones de bomberos",
             platform_trucks: "camiones con plataforma",
             heavy_rescue_vehicles: "Furgones de Útiles Vario",
@@ -967,7 +968,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Mostra a data e hora em que a missão foi criada.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Caminhões de bombeiro",
             platform_trucks: "Caminhões plataforma",
             heavy_rescue_vehicles: "Veículos de resgate pesado",
@@ -1100,7 +1101,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Mostra a data e hora em que a missão foi criada.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Caminhões de bombeiro",
             platform_trucks: "Caminhões plataforma",
             heavy_rescue_vehicles: "Veículos de resgate pesado",
@@ -1181,7 +1182,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'fångar',
         to: 'upp till',
         exp: 'bredbara',
-        swat_personnel: "Nödvändig insatsstyrka",
+        SWATPersonnel: "Nödvändig insatsstyrka",
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
         transport: 'Transport',
@@ -1243,7 +1244,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Visar datum och tid då uppdraget skapades.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "släckbilar",
             platform_trucks: "stegbilar",
             heavy_rescue_vehicles: "Lastväxlare",
@@ -1328,7 +1329,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Fanger',
         to: 'op til',
         exp: 'Sprede',
-        swat_personnel: "Nødvendige AKS personel",
+        SWATPersonnel: "Nødvendige AKS personel",
         ambulance_only: 'Denne mission er kun ambulance!',
         title: 'Missionhelper',
         transport: 'Transportere',
@@ -1390,7 +1391,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Viser dato og klokkeslæt, hvor missionen blev oprettet.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Brandbiler",
             platform_trucks: "Stigevogn",
             heavy_rescue_vehicles: "pionertjenesten",
@@ -1475,7 +1476,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Vězni',
         to: 'až do',
         exp: 'Šíření',
-        swat_personnel: "Potřebný personál URNY",
+        SWATPersonnel: "Potřebný personál URNY",
         ambulance_only: 'Tato mise je pouze sanitka!',
         title: 'Pomocník mise',
         transport: 'Doprava',
@@ -1537,7 +1538,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Zobrazuje datum a čas, kdy byla mise vytvořena.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "hasičské vozy",
             platform_trucks: "automobilové žebříky",
             heavy_rescue_vehicles: "těžká technická vozidla",
@@ -1622,7 +1623,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Mahkumlar',
         to: 'kadar',
         exp: 'Yayıldı',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Bu görev sadece ambulanstır!',
         title: 'Misyonhelper',
         transport: 'Taşıma',
@@ -1684,7 +1685,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Görevin oluşturulduğu tarih ve saati gösterir.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "itfaiye aracı",
             platform_trucks: "Platformlu Kamyon",
             heavy_rescue_vehicles: "Büyük Kurtarma",
@@ -1767,7 +1768,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'innsatte',
         to: 'opp til',
         exp: 'Spre',
-        swat_personnel: "Nødvendig delta-personell",
+        SWATPersonnel: "Nødvendig delta-personell",
         ambulance_only: 'Dette oppdraget er kun ambulanse!',
         title: 'Missionhelper',
         transport: 'Transportere',
@@ -1829,7 +1830,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Viser dato og klokkeslett da oppdraget ble opprettet.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Brannbiler",
             platform_trucks: "høyderedskap",
             heavy_rescue_vehicles: "redningsbiler",
@@ -1914,7 +1915,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Więźniowie',
         to: 'aż do',
         exp: 'Rozprzestrzeniania',
-        swat_personnel: "Wymagani policjanci SPKP",
+        SWATPersonnel: "Wymagani policjanci SPKP",
         ambulance_only: 'Ta misja to tylko ambulans!',
         title: 'Pomocnik misjonarza',
         transport: 'Transport',
@@ -1976,7 +1977,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Pokazuje datę i godzinę utworzenia misji.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "samochody pożarnicze",
             platform_trucks: "SP wysokościowe",
             heavy_rescue_vehicles: "ciężkie samochody ratowniczo-gaśnicze",
@@ -2061,7 +2062,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Prigionieri',
         to: 'fino',
         exp: 'Espansione',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         averageMinimumEmployeesFire: 'Vigili del Fuoco richiesti',
         ambulance_only: 'Questa missione e\' riservata alle ambulanze.!',
         title: 'Missionhelper',
@@ -2124,7 +2125,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Mostra la data e l\'ora in cui la missione è stata creata.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Autopompe",
             platform_trucks: "Autoscale",
             heavy_rescue_vehicles: "Veicoli di soccorso pesante",
@@ -2210,7 +2211,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'prisonniers',
         to: 'jusqu\'à',
         exp: 'Propagation',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         averageMinimumEmployeesFire: 'Moyenne minimale Pompiers',
         averageMinimumEmployeesHoehen: 'Spécialistes IMP requis',
         ambulance_only: 'Cette mission est réservée aux ambulances !',
@@ -2274,7 +2275,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Affiche la date et l\'heure de création de la mission.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Fourgons d’incendie",
             platform_trucks: "Moyen Elévateur Aérien",
             heavy_rescue_vehicles: "Véhicule de secours routier",
@@ -2356,7 +2357,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Заключенные',
         to: 'вплоть до',
         exp: 'Распространяться',
-        swat_personnel: "Требуемый личный состав спецназа",
+        SWATPersonnel: "Требуемый личный состав спецназа",
         ambulance_only: 'Это задание только для скорой помощи!',
         title: 'Миссионер',
         transport: 'Транспорт',
@@ -2418,7 +2419,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Показывает дату и время создания миссии.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "пожарные машины",
             platform_trucks: "платформы",
             heavy_rescue_vehicles: "машины для спасательных работ в тяжёлых условиях",
@@ -2502,7 +2503,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'В\'язні',
         to: 'аж до',
         exp: 'Поширення',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Ця місія є лише швидкою допомогою!',
         title: 'Місіонер',
         transport: 'Транспорт',
@@ -2564,7 +2565,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Показує дату та час створення місії.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "пожежні машини",
             platform_trucks: "вантажні платформи",
             heavy_rescue_vehicles: "важкі рятувальні машини",
@@ -2647,7 +2648,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: '囚人',
         to: 'まで',
         exp: '普及',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'このミッションは救急車のみです！',
         title: 'ミッションヘルパー',
         transport: '輸送',
@@ -2709,7 +2710,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'ミッションが作成された日時を表示します。'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "消防車が    ",
             platform_trucks: "プラットフォームトラック",
             heavy_rescue_vehicles: "大型救助車",
@@ -2852,7 +2853,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: '미션이 생성 된 날짜와 시간을 보여줍니다.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "소방차",
             platform_trucks: "플랫폼 트럭",
             heavy_rescue_vehicles: "중장비 구조 차량",
@@ -2934,7 +2935,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Prizonieri',
         to: 'până la',
         exp: 'Se răspândeşte',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Misiunea asta e doar pentru ambulanță!',
         title: 'Ajutor de misiune',
         transport: 'Transport',
@@ -2996,7 +2997,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Afișează data și ora la care a fost creată misiunea.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Mașini de pompieri",
             platform_trucks: "Camioane cu platformă",
             heavy_rescue_vehicles: "grele de salvare",
@@ -3075,7 +3076,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'vangit',
         to: 'aikeissa',
         exp: 'levitteet',
-        swat_personnel: "Needed SWAT Personnel",
+        SWATPersonnel: "Needed SWAT Personnel",
         ambulance_only: 'Tämä tehtävä on vain ambulanssi!',
         title: 'Tehtävän auttaja',
         transport: 'Kuljetus',
@@ -3137,7 +3138,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Näyttää päivämäärän ja kellonajan, jolloin operaatio luotiin.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "paloautot",
             platform_trucks: "nostolava-auto",
             heavy_rescue_vehicles: "raskaat pelastusautot",
@@ -3277,7 +3278,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Toont de datum en tijd waarop de inzet is gemaakt.'
             }
         },
-        vehicles: {
+        requirements: {
             firetrucks: "Tankautospuiten",
             police_cars: "Noodhulpeenheden",
             battalion_chief_vehicles: "OvD-B",
@@ -3576,16 +3577,15 @@ const lssm_missionhelper_adjustPosition = () => {
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
-                content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) || ''}<sub>${(SETTINGS.id && `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) || ''}${(SETTINGS.type && `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) || ''}${(MISSION.poi && SETTINGS.poi && `&nbsp;<sub>POI: ${I18n.t(`lssm.missionhelper.pois.${MISSION.poi}`)} <sub>[${MISSION.poi}]</sub></sub>`) || ''}</sub></h3><br>`;
+                content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) || ''}<sub>${(SETTINGS.id && `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) || ''}${(SETTINGS.type && `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) || ''}${(MISSION.poi && SETTINGS.poi && `&nbsp;<sub>POI: ${I18n.t(`lssm.missionhelper.pois.${MISSION.poi}`)} <sub>[${MISSION.place}]</sub></sub>`) || ''}</sub></h3><br>`;
             }
 
             if (MISSION.onlyRd) {
                 content.innerHTML += `<small>${I18n.t('lssm.missionhelper.ambulance_only')}</small><br>`;
-                (MISSION.transport || MISSION.specialisation) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.transport && `${MISSION.transport}%`) || ""}${void 0 !== typeof MISSION.specialisation && ` (${MISSION.specialisation})`}`);
-                MISSION.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.nef}%`);
-                MISSION.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.mmtarts}%`);
-                MISSION.helicopter && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.helicopter')}: ${MISSION.helicopter}%`);
-                MISSION.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.tragehilfe}%`);
+                (MISSION.chances.patient_transport || MISSION.additional.patient_specializations) && (content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.chances.patient_transport && `${MISSION.chances.patient_transport}%`) || ""}${void 0 !== typeof MISSION.additional.patient_specializations && ` (${MISSION.additional.patient_specializations})`}`);
+                MISSION.chances.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.requirements.nef')}: ${MISSION.chances.nef}%`);
+                MISSION.chances.helicopter && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.requirements.helicopter')}: ${MISSION.chances.helicopter}%`);
+                MISSION.chances.patient_other_treatment && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.chances.patient_other_treatment}%`);
                 return lssm_missionhelper_adjustPosition();
             }
 
@@ -3600,9 +3600,9 @@ const lssm_missionhelper_adjustPosition = () => {
             SETTINGS.live_patients && patients > 0 && (content.innerHTML += `<span class="badge" id="${LSSM_MH_PREFIX}_live_patients">${I18n.t('lssm.missionhelper.patients')}: ${patients}</span><br><br>`);
 
             if (SETTINGS.vehicles) {
-                if (SETTINGS.hide_elw1 && MISSION.vehicles.battalion_chief_vehicles && MISSION.vehicles.mobile_command_vehicles) {
-                    MISSION.vehicles.battalion_chief_vehicles -= MISSION.vehicles.mobile_command_vehicles;
-                    if (MISSION.vehicles.battalion_chief_vehicles <= 0) delete MISSION.vehicles.battalion_chief_vehicles;
+                if (SETTINGS.hide_elw1 && MISSION.requirements.battalion_chief_vehicles && MISSION.requirements.mobile_command_vehicles) {
+                    MISSION.requirements.battalion_chief_vehicles -= MISSION.vehicles.mobile_command_vehicles;
+                    if (MISSION.requirements.battalion_chief_vehicles <= 0) delete MISSION.vehicles.battalion_chief_vehicles;
                 }
                 if (SETTINGS.hide_rw && MISSION.vehicles.rw && MISSION.vehicles.lf) {
                     MISSION.vehicles.rw -= MISSION.vehicles.lf;
@@ -3610,55 +3610,55 @@ const lssm_missionhelper_adjustPosition = () => {
                 }
                 for (let vehicle in MISSION.requirements) {
                     if (!MISSION.requirements.hasOwnProperty(vehicle)) continue;
-                    content.innerHTML += `${MISSION.requirements[vehicle]}x ${I18n.t(`lssm.missionhelper.requirements.${vehicle}`)} ${(MISSION.percentages && MISSION.percentages[vehicle] && `(${MISSION.percentages[vehicle]}%)`) || (SETTINGS.show_100 && `(100%)`) || ''}<br>`;
+                    content.innerHTML += `${MISSION.requirements[vehicle]}x ${I18n.t(`lssm.missionhelper.requirements.${vehicle}`)} ${(MISSION.chances && MISSION.chances[vehicle] && `(${MISSION.chances[vehicle]}%)`) || (SETTINGS.show_100 && `(100%)`) || ''}<br>`;
                 }
             }
 
-            if (MISSION.patients && SETTINGS.patients) {
-                content.innerHTML += `<br>${I18n.t('lssm.missionhelper.patients')}: ${(MISSION.patients.min !== MISSION.patients.max) && (`${MISSION.patients.min || 0} ${I18n.t('lssm.missionhelper.to')}`) || ''} ${MISSION.patients.max}<br>`;
+            if (MISSION.additional || MISSION.chances && SETTINGS.patients) {
+                content.innerHTML += `<br>${I18n.t('lssm.missionhelper.patients')}: ${(MISSION.additional.possible_patient_min !== MISSION.additional.possible_patient) && (`${MISSION.additional.possible_patient_min || 0} ${I18n.t('lssm.missionhelper.to')}`) || ''} ${MISSION.additional.possible_patient}<br>`;
 
-                if (MISSION.patients.transport || MISSION.patients.specialisation) {
-                    content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.patients.transport && `${MISSION.patients.transport}%`) || ""}${void 0 !== typeof MISSION.patients.specialisation && ` (${MISSION.patients.specialisation})`}`;
+                if (MISSION.chances.patient_transport || MISSION.additional.patient_specializations) {
+                    content.innerHTML += `${I18n.t('lssm.missionhelper.transport')}: ${(MISSION.chances.patient_transport && `${MISSION.chances.patient_transport}%`) || ""}${void 0 !== typeof MISSION.additional.patient_specializations && ` (${MISSION.additional.patient_specializations})`}`;
                 }
 
-                MISSION.patients.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.nef')}: ${MISSION.patients.nef}%`);
-                MISSION.patients.mmtarts && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.mmtarts')}: ${MISSION.patients.mmtarts}%`);
-                MISSION.patients.helicopter && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.vehicles.helicopter')}: ${MISSION.patients.helicopter}%`);
-                MISSION.patients.tragehilfe && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.patients.tragehilfe}%`);
+                MISSION.chances.nef && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.requirements.nef')}: ${MISSION.chances.nef}%`);
+                MISSION.chances.helicopter && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.requirements.helicopter')}: ${MISSION.chances.helicopter}%`);
+                MISSION.chances.patient_other_treatment && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.chances.patient_other_treatment}%`);
 
-                I18n.locale === 'de_DE' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.lna')} (100%)`);
-                I18n.locale === 'de_DE' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.orgl')} (100%)`);
-                I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.emschief')} (100%)`);
-                I18n.locale === 'nl_NL' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.vehicles.ovdg')} (100%)`);
+                I18n.locale === 'de_DE' && patients >= 5 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.requirements.lna')} (100%)`);
+                I18n.locale === 'de_DE' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.requirements.orgl')} (100%)`);
+                I18n.locale === 'en_US' && patients >= 10 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.requirements.emschief')} (100%)`);
+                I18n.locale === 'nl_NL' && patients >= 3 && (content.innerHTML += `<br>1x ${I18n.t('lssm.missionhelper.requirements.ovdg')} (100%)`);
                 content.innerHTML += '<br>';
             }
 
-            SETTINGS.prisoners && MISSION.prisoners && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.prisoners.min !== MISSION.prisoners.max) && (`${MISSION.prisoners.min || 0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.prisoners.max}<br>`);
+            SETTINGS.prisoners && MISSION.additional && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.prisoners')}: ${(MISSION.additional.min_possible_prisoners !== MISSION.additional.max_possible_prisoners) && (`${MISSION.additional.min_possible_prisoners || 0} ${I18n.t('lssm.missionhelper.to')}`)} ${MISSION.additional.max_possible_prisoners}<br>`);
 
-            SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesFire && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesFire')}: ${MISSION.special.averageMinimumEmployeesFire}<br>`);
-            SETTINGS.special && MISSION.special && MISSION.special.averageMinimumEmployeesPolice && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.special.averageMinimumEmployeesPolice}<br>`);
-            SETTINGS.special && MISSION.special && MISSION.special.SWATPersonnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.special.SWATPersonnel}<br>`);
+            SETTINGS.special && MISSION.additional && MISSION.additional.average_min_fire_personnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesFire')}: ${MISSION.additional.average_min_fire_personnel}<br>`);
+            SETTINGS.special && MISSION.additional && MISSION.additional.average_min_police_personnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesPolice')}: ${MISSION.additional.average_min_police_personnel}<br>`);
+            SETTINGS.special && MISSION.additional && MISSION.additional.swat_personnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.SWATPersonnel')}: ${MISSION.additional.swat_personnel}<br>`);
+            SETTINGS.special && MISSION.additional && MISSION.additional.height_rescue_personnel && (content.innerHTML += `<br>${I18n.t('lssm.missionhelper.averageMinimumEmployeesHoehen')}: ${MISSION.additional.height_rescue_personnel}<br>`);
 
-            if (SETTINGS.water && MISSION.water || SETTINGS.credits && MISSION.credits || SETTINGS.mission_time) {
+            if (SETTINGS.water && MISSION.requirements.water_needed || SETTINGS.credits && MISSION.average_credits || SETTINGS.mission_time) {
                 content.innerHTML += '<br>';
-                SETTINGS.credits && MISSION.credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.credits.toLocaleString()} Credits</span>&nbsp;`);
-                SETTINGS.water && MISSION.water && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.water.toLocaleString()} Liter</span>&nbsp;`);
+                SETTINGS.credits && MISSION.average_credits && (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.average_credits.toLocaleString()} Credits</span>&nbsp;`);
+                SETTINGS.water && MISSION.requirements.water_needed && (content.innerHTML += `<span class="badge badge-secondary">${I18n.t('lssm.missionhelper.water')}: ${MISSION.requirements.water_needed.toLocaleString()} Liter</span>&nbsp;`);
                 SETTINGS.mission_time && (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes['data-original-title'].value}</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
-            if (SETTINGS.expansions && MISSION.expansions) {
+            if (SETTINGS.expansions && MISSION.additional.expansion_missions_ids) {
                 content.innerHTML += `<br>${I18n.t('lssm.missionhelper.exp')}:<br>`;
-                for (let i of Object.keys(MISSION.expansions)) {
-                    let id = MISSION.expansions[i];
+                for (let i of Object.keys(MISSION.additional.expansion_missions_ids)) {
+                    let id = MISSION.additional.expansion_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
                 }
             }
 
-            if (SETTINGS.followup && MISSION.followup) {
+            if (SETTINGS.followup && MISSION.additional.followup_missions_ids) {
                 content.innerHTML += `<br>${I18n.t('lssm.missionhelper.fwm')}:<br> `;
-                for (let i of Object.keys(MISSION.followup)) {
-                    let id = MISSION.followup[i];
+                for (let i of Object.keys(MISSION.additional.followup_missions_ids)) {
+                    let id = MISSION.additional.followup_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id}</span></a>`;
                 }
             }
