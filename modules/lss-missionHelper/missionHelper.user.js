@@ -3934,9 +3934,9 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.requirements.mobile_command_vehicles
                 ) {
                     MISSION.requirements.battalion_chief_vehicles -=
-                        MISSION.vehicles.mobile_command_vehicles;
+                        MISSION.requirements.mobile_command_vehicles;
                     if (MISSION.requirements.battalion_chief_vehicles <= 0)
-                        delete MISSION.vehicles.battalion_chief_vehicles;
+                        delete MISSION.requirements.battalion_chief_vehicles;
                 }
                 if (
                     SETTINGS.hide_rw &&
