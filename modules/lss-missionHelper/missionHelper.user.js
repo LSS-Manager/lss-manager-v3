@@ -14,7 +14,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.de_DE.lssm.missionhelper = {
         diy_mission:
             'Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.',
-        siwa: 'Sicherheitswache',
+        guard_mission: 'Sicherheitswache',
         vge: 'VerbandsGroßEinsatz',
         patients: 'Patienten',
         prisoners: 'Gefangene',
@@ -211,7 +211,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.en_US.lssm.missionhelper = {
         diy_mission: 'This mission seems to be a large scale alliance mission.',
-        siwa: 'Planned mission',
+        guard_mission: 'Planned mission',
         vge: 'Large scale alliance mission',
         patients: 'Patients',
         prisoners: 'Prisoners',
@@ -673,7 +673,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.es_ES.lssm.missionhelper = {
         diy_mission:
             'Esta misión parece ser una misión de alianza a gran escala.',
-        siwa: 'Misión planificada',
+        guard_mission: 'Misión planificada',
         vge: 'misión de alianza a gran escala',
         patients: 'pacientes',
         prisoners: 'presos',
@@ -973,7 +973,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.pt_PT.lssm.missionhelper = {
         diy_mission:
             'Esta missão parece ser uma missão de aliança em larga escala.',
-        siwa: 'Missão planeada',
+        guard_mission: 'Missão planeada',
         vge: 'missão de aliança em larga escala',
         patients: 'pacientes',
         prisoners: 'detentos',
@@ -1266,7 +1266,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.sv_SE.lssm.missionhelper = {
         diy_mission:
             'Detta uppdrag verkar vara ett alliansuppdrag i stor skala.',
-        siwa: 'Planerat uppdrag',
+        guard_mission: 'Planerat uppdrag',
         vge: 'Stora alliansuppdrag',
         patients: 'patienter',
         prisoners: 'fångar',
@@ -1420,7 +1420,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.da_DK.lssm.missionhelper = {
         diy_mission:
             'Denne mission synes at være en alliansemission i stor skala.',
-        siwa: 'Planlagt mission',
+        guard_mission: 'Planlagt mission',
         vge: 'Stor skala alliance mission',
         patients: 'Patienter',
         prisoners: 'Fanger',
@@ -1575,7 +1575,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.cs_CZ.lssm.missionhelper = {
         diy_mission: 'Tato mise se jeví jako rozsáhlá alianční mise.',
-        siwa: 'Plánovaná mise',
+        guard_mission: 'Plánovaná mise',
         vge: 'Velká alianční mise',
         patients: 'Pacienti',
         prisoners: 'Vězni',
@@ -1731,7 +1731,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.tr_TR.lssm.missionhelper = {
         diy_mission:
             'Bu misyon büyük ölçekli bir ittifak görevi gibi görünüyor.',
-        siwa: 'Planlanan görev',
+        guard_mission: 'Planlanan görev',
         vge: 'Büyük ölçekli ittifak misyonu',
         patients: 'hastalar',
         prisoners: 'Mahkumlar',
@@ -1882,7 +1882,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.nb_NO.lssm.missionhelper = {
         diy_mission:
             'Dette oppdraget ser ut til å være et allianseoppdrag i stor skala.',
-        siwa: 'Planlagt oppdrag',
+        guard_mission: 'Planlagt oppdrag',
         vge: 'Alliansemisjon i stor skala',
         patients: 'Pasienter',
         prisoners: 'innsatte',
@@ -2036,7 +2036,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.pl_PL.lssm.missionhelper = {
         diy_mission: 'Ta misja wydaje się być misją sojuszników na dużą skalę.',
-        siwa: 'Planowana misja',
+        guard_mission: 'Planowana misja',
         vge: 'Misja sojuszu na dużą skalę',
         patients: 'Pacjenci',
         prisoners: 'Więźniowie',
@@ -2192,7 +2192,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.it_IT.lssm.missionhelper = {
         diy_mission:
             "Questa missione sembra essere una missione su larga scala dell'alleanza..",
-        siwa: 'Missione pianificata',
+        guard_mission: 'Missione pianificata',
         vge: "Missione dell'alleanza su larga scala",
         patients: 'Pazienti',
         prisoners: 'Prigionieri',
@@ -2352,7 +2352,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.fr_FR.lssm.missionhelper = {
         diy_mission:
             "Cette mission semble être une mission d'alliance à grande échelle.",
-        siwa: 'Mission prévue',
+        guard_mission: 'Mission prévue',
         vge: "Mission d'alliance à grande échelle",
         patients: 'Patients',
         prisoners: 'prisonniers',
@@ -2509,7 +2509,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.ru_RU.lssm.missionhelper = {
         diy_mission:
             'Эта миссия, похоже, является широкомасштабной миссией альянса.',
-        siwa: 'Запланированная миссия',
+        guard_mission: 'Запланированная миссия',
         vge: 'Запланированная миссия',
         patients: 'Пациенты',
         prisoners: 'Заключенные',
@@ -2666,7 +2666,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.uk_UA.lssm.missionhelper = {
         diy_mission: 'Ця місія, здається, є масштабною місією альянсу.',
-        siwa: 'Запланована місія',
+        guard_mission: 'Запланована місія',
         vge: 'Велика місія альянсу',
         patients: 'Пацієнти',
         prisoners: "В'язні",
@@ -2817,7 +2817,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.ja_JP.lssm.missionhelper = {
         diy_mission: 'このミッションは大規模な同盟ミッションのようです。',
-        siwa: '計画ミッション',
+        guard_mission: '計画ミッション',
         vge: '大規模同盟ミッション',
         patients: '患者さん',
         prisoners: '囚人',
@@ -2963,7 +2963,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.ko_KR.lssm.missionhelper = {
         diy_mission: '이 임무는 대규모 동맹 임무 인 것 같습니다.',
-        siwa: '계획된 임무',
+        guard_mission: '계획된 임무',
         vge: '대규모 동맹 임무',
         patients: '환자',
         prisoners: '죄수',
@@ -3111,7 +3111,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.ro_RO.lssm.missionhelper = {
         diy_mission:
             'Această misiune pare a fi o misiune de alianță la scară largă.',
-        siwa: 'Misiune planificată',
+        guard_mission: 'Misiune planificată',
         vge: 'Misiune a alianței la scară largă',
         patients: 'Pacienţii',
         prisoners: 'Prizonieri',
@@ -3264,7 +3264,7 @@ const lssm_missionhelper_adjustPosition = () => {
     I18n.translations.fi_FI.lssm.missionhelper = {
         diy_mission:
             'Tämä tehtävä näyttää olevan laaja-alainen liittoutumatehtävä.',
-        siwa: 'Suunniteltu tehtävä',
+        guard_mission: 'Suunniteltu tehtävä',
         vge: 'Laajamittainen liittoutumatehtävä',
         patients: 'potilaat',
         prisoners: 'vangit',
@@ -3412,7 +3412,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
     I18n.translations.nl_NL.lssm.missionhelper = {
         diy_mission: 'Deze inzet lijkt een grootschalige team inzet te zijn.',
-        siwa: 'Geplande inzet',
+        guard_mission: 'Geplande inzet',
         vge: 'Grootschalige team inzet',
         patients: 'Patiënten',
         prisoners: 'Gevangenen',
@@ -3907,9 +3907,9 @@ const lssm_missionhelper_adjustPosition = () => {
                 return lssm_missionhelper_adjustPosition();
             }
 
-            if (MISSION.siwa) {
+            if (MISSION.additional.guard_mission) {
                 content.innerHTML += `<h4>${I18n.t(
-                    'lssm.missionhelper.siwa'
+                    'lssm.missionhelper.guard_mission'
                 )}</h4>`;
                 if (!SETTINGS.show_siwa)
                     return lssm_missionhelper_adjustPosition();
