@@ -3966,8 +3966,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 }
             }
 
-            if (MISSION.additional || (MISSION.chances && SETTINGS.patients)) {
-                MISSION.additional.possible_patient &&
+            if ((MISSION.additional || (MISSION.chances && SETTINGS.patients)) && MISSION.additional.possible_patient) {
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.patients'
                     )}: ${(MISSION.additional.possible_patient_min !==
@@ -4027,7 +4026,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
             SETTINGS.prisoners &&
                 MISSION.additional &&
-                MISSION.max_possible_prisoners &&
+                MISSION.additional.max_possible_prisoners &&
                 (content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.prisoners'
                 )}: ${MISSION.additional.min_possible_prisoners !==
