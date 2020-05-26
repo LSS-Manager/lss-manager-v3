@@ -2088,5 +2088,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "88": {
+        "id": 88,
+        "name": "Aseiden luvaton hallussapito",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

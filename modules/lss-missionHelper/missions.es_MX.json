@@ -2578,5 +2578,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "145": {
+        "id": 145,
+        "name": "Persona con arma de fuego",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

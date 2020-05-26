@@ -2861,5 +2861,27 @@
         "prerequisites": {
             "fire_stations": 5
         }
+    },
+    "128": {
+        "id": 128,
+        "name": "Neopr\u00e1vn\u011bn\u00e9 dr\u017een\u00ed zbran\u00ed",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

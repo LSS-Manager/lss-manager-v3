@@ -3566,5 +3566,62 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "173": {
+        "id": 173,
+        "name": "Incendio palazzetto dello sport",
+        "place": "Stadio",
+        "average_credits": 7500,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 10,
+            "patient_transport": 5,
+            "helicopter": 1
+        },
+        "additional": {
+            "possible_patient": 110,
+            "possible_patient_min": 20,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 24,
+            "police_stations": 4,
+            "fire_stations": 7
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Apertura porta",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
     }
 }

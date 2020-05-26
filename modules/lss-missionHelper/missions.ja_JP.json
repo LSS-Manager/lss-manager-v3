@@ -2243,5 +2243,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "104": {
+        "id": 104,
+        "name": "\u6b66\u5668\u985e\u306e\u4e0d\u6cd5\u6240\u6301",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

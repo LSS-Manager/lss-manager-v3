@@ -3059,5 +3059,27 @@
         "prerequisites": {
             "police_stations": 3
         }
+    },
+    "154": {
+        "id": 154,
+        "name": "Possession ill\u00e9gale d'arme-\u00e0-feu",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

@@ -3346,5 +3346,28 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "176": {
+        "id": 176,
+        "name": "Unauthorized possession of weapons",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 4
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

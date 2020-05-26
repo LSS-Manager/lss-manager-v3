@@ -9171,5 +9171,105 @@
             "rescue_stations": 5,
             "fire_stations": 15
         }
+    },
+    "385": {
+        "id": 385,
+        "name": "Trespasser on Tracks",
+        "place": "Train station (regional traffic)",
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 233
+            },
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "386": {
+        "id": 386,
+        "name": "Trespasser on Tracks",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 233
+            },
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "387": {
+        "id": 387,
+        "name": "Trespasser on Tracks",
+        "place": "Railroad Crossing",
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 233
+            },
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "388": {
+        "id": 388,
+        "name": "Trespasser on Tracks",
+        "place": "Rail Crossing",
+        "average_credits": 900,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 233
+            },
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
     }
 }

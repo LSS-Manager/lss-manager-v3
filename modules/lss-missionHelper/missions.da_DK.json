@@ -3319,5 +3319,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "145": {
+        "id": 145,
+        "name": "Ulovlig v\u00e5benbesiddelse",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

@@ -2203,5 +2203,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "103": {
+        "id": 103,
+        "name": "Pessoa armada",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

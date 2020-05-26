@@ -3280,5 +3280,33 @@
             "police_stations": 3,
             "fire_stations": 2
         }
+    },
+    "172": {
+        "id": 172,
+        "name": "Music Festival",
+        "place": "Stadium",
+        "average_credits": 8000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 4,
+            "police_cars": 8,
+            "k9": 3
+        },
+        "chances": {},
+        "additional": {
+            "duration": "4 hours",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 10,
+            "fire_stations": 2
+        }
     }
 }

@@ -2195,5 +2195,27 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "102": {
+        "id": 102,
+        "name": "\ud5c8\uac00\ubc1b\uc9c0 \uc54a\uc740 \ubb34\uae30 \uc18c\uc9c0",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

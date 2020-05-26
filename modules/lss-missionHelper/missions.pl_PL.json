@@ -3694,5 +3694,67 @@
         "prerequisites": {
             "fire_stations": 2
         }
+    },
+    "185": {
+        "id": 185,
+        "name": "Poszukiwania zaginionej osoby",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "186": {
+        "id": 186,
+        "name": "Zabezpieczenie meczu pi\u0142karskiego",
+        "place": "Stadion",
+        "average_credits": 3700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 4,
+            "swat_personnel": 12,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 8,
+            "fire_stations": 7
+        }
     }
 }
