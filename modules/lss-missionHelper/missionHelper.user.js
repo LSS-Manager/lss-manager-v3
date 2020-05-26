@@ -3802,10 +3802,10 @@ const lssm_missionhelper_adjustPosition = () => {
     const MISSION_TYPE = MISSION_WINDOW
         ? mission_help[0]
             ? mission_help
-                  .attr('href')
-                  .split('/')
-                  .pop()
-                  .replace(/\?.*/, '')
+                .attr('href')
+                .split('/')
+                .pop()
+                .replace(/\?.*/, '')
             : null
         : window.location.href.match(/\d+([^?]|$)/)[0];
     const MISSION_ID = window.location.href.replace(/\D/g, '');
@@ -3840,16 +3840,16 @@ const lssm_missionhelper_adjustPosition = () => {
                 localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? ''
                     : 'hidden'
-            }"></article>
+                }"></article>
 <br class="unpinned">
 <span id="${LSSM_MH_PREFIX}_toggle"><span class="${
                 localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? 'up'
                     : 'down'
-            }"></span></span>`;
+                }"></span></span>`;
 
             MISSION_WINDOW &&
-            localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
+                localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
                 ? pin_missionhelper(markup)
                 : unpin_missionhelper(markup);
 
@@ -3862,19 +3862,19 @@ const lssm_missionhelper_adjustPosition = () => {
                         document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                    }</span>&nbsp;`);
+                        }</span>&nbsp;`);
                 return lssm_missionhelper_adjustPosition();
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) ||
                     ''}<sub>${(SETTINGS.id &&
-                    `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
+                        `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
-                    `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
+                        `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
                     ''}${(MISSION.place &&
-                    SETTINGS.poi &&
-                    `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
+                        SETTINGS.poi &&
+                        `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
                     ''}</sub></h3><br>`;
             }
 
@@ -3890,9 +3890,9 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                        ''}${void 0 !==
-                        typeof MISSION.additional.patient_specializations &&
-                        ` (${MISSION.additional.patient_specializations})`}`);
+                    ''}${void 0 !==
+                    typeof MISSION.additional.patient_specializations &&
+                    ` (${MISSION.additional.patient_specializations})`}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -3957,30 +3957,30 @@ const lssm_missionhelper_adjustPosition = () => {
                         continue;
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
-                    }x ${I18n.t(
-                        `lssm.missionhelper.requirements.${
+                        }x ${I18n.t(
+                            `lssm.missionhelper.requirements.${
                             MISSION.additional &&
-                            MISSION.additional.allow_rw_instead_of_lf &&
-                            vehicle === 'firetrucks'
+                                MISSION.additional.allow_rw_instead_of_lf &&
+                                vehicle === 'firetrucks'
                                 ? 'allow_rw_instead_of_lf'
                                 : vehicle
-                        }`
-                    )} ${(MISSION.chances &&
-                        MISSION.chances[vehicle] &&
-                        `(${MISSION.chances[vehicle]}%)`) ||
+                            }`
+                        )} ${(MISSION.chances &&
+                            MISSION.chances[vehicle] &&
+                            `(${MISSION.chances[vehicle]}%)`) ||
                         (SETTINGS.show_100 && `(100%)`) ||
                         ''}<br>`;
                 }
             }
 
             if ((MISSION.additional || (MISSION.chances && SETTINGS.patients)) && MISSION.additional.possible_patient) {
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.patients'
-                    )}: ${(MISSION.additional.possible_patient_min !==
-                        MISSION.additional.possible_patient &&
-                        `${MISSION.additional.possible_patient_min ||
-                            0} ${I18n.t('lssm.missionhelper.to')}`) ||
-                        ''} ${MISSION.additional.possible_patient}<br>`);
+                (content.innerHTML += `<br>${I18n.t(
+                    'lssm.missionhelper.patients'
+                )}: ${(MISSION.additional.possible_patient_min !==
+                    MISSION.additional.possible_patient &&
+                    `${MISSION.additional.possible_patient_min ||
+                    0} ${I18n.t('lssm.missionhelper.to')}`) ||
+                ''} ${MISSION.additional.possible_patient}<br>`);
 
                 if (
                     MISSION.chances.patient_transport ||
@@ -3990,9 +3990,9 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                        ''}${void 0 !==
-                        typeof MISSION.additional.patient_specializations &&
-                        ` (${MISSION.additional.patient_specializations})`}`;
+                    ''}${void 0 !==
+                    typeof MISSION.additional.patient_specializations &&
+                    ` (${MISSION.additional.patient_specializations})`}`;
                 }
 
                 MISSION.chances.nef &&
@@ -4037,10 +4037,10 @@ const lssm_missionhelper_adjustPosition = () => {
                 (content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.prisoners'
                 )}: ${MISSION.additional.min_possible_prisoners !==
-                    MISSION.additional.max_possible_prisoners &&
-                    `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
-                        'lssm.missionhelper.to'
-                    )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
+                MISSION.additional.max_possible_prisoners &&
+                `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
+                    'lssm.missionhelper.to'
+                )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
 
             SETTINGS.special &&
                 MISSION.additional &&
@@ -4086,7 +4086,7 @@ const lssm_missionhelper_adjustPosition = () => {
                         document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                    }</span>&nbsp;`);
+                        }</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
@@ -4103,7 +4103,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     let id = MISSION.additional.expansion_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
-                    }</span></a>`;
+                        }</span></a>`;
                 }
             }
 
@@ -4117,7 +4117,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     let id = MISSION.additional.followup_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
-                    }</span></a>`;
+                        }</span></a>`;
                 }
             }
 
@@ -4131,9 +4131,9 @@ const lssm_missionhelper_adjustPosition = () => {
         let missionhelp_bounding = missionhelp.getBoundingClientRect();
         missionhelp.style.opacity =
             element_bounding.right > missionhelp_bounding.left &&
-            element_bounding.left < missionhelp_bounding.right &&
-            element_bounding.bottom > missionhelp_bounding.top &&
-            element_bounding.top < missionhelp_bounding.bottom
+                element_bounding.left < missionhelp_bounding.right &&
+                element_bounding.bottom > missionhelp_bounding.top &&
+                element_bounding.top < missionhelp_bounding.bottom
                 ? 0.1
                 : null;
     };
