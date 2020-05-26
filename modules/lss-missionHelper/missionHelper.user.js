@@ -27,6 +27,7 @@ const lssm_missionhelper_adjustPosition = () => {
         averageMinimumEmployeesPolice:
             'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
         ambulance_only: 'Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!',
+        allow_rw_instead_of_lf: 'Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.',
         title: 'Einsatzhelfer',
         settings: {
             name: {
@@ -82,6 +83,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Sonstige Informationen',
                 description:
                     'Zeigt Spezielle Informationen, wie z.B. das durchschnittlich mindestens benötige Personal, an.',
+            },
+            lfrw: {
+                label: 'Zeige ob RW oder GKW Einsatz bearbeiten kann',
+                description:
+                    'Zeigt einen Hinweiß im Einsatz an, ob dieser auch mit einem RW oder GKW bearbeitet werden kann statt eines Löschfahrzeugs.',
             },
             expansions: {
                 label: 'Ausbreitungen',
@@ -160,6 +166,7 @@ const lssm_missionhelper_adjustPosition = () => {
             turboloescher: 'Turbolöscher',
             gw_san: 'GW-San',
             gwwa: 'GW-Wasserrettung',
+            rescue_dog_units: 'Rettungshundestaffel',
             allow_rw_instead_of_lf: 'Löschfahrzeuge oder Rüstwagen oder GKW',
         },
         pois: [
@@ -222,6 +229,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
         transport: 'Transport',
+        allow_rw_instead_of_lf: 'This Mission can also be carried out with a Heavy Rescue instead of a firetruck',
         settings: {
             name: {
                 label: 'Name',
@@ -272,6 +280,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Show 100% probability',
                 description:
                     'Shows the probability for a vehicle even if it is 100%.',
+            },
+            lfrw: {
+                label: 'Show if the Heavy Rescue can process the mission',
+                description:
+                    'Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck.',
             },
             credits: {
                 label: 'Average earnings',
@@ -437,6 +450,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 description:
                     'Shows the probability for a vehicle even if it is 100%.',
             },
+            lfrw: {
+                label: 'Show if the Heavy Rescue can process the mission',
+                description:
+                    'Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck.',
+            },
             credits: {
                 label: 'Average earnings',
                 description:
@@ -581,6 +599,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 description:
                     'Shows the probability for a vehicle even if it is 100%.',
             },
+            lfrw: {
+                label: 'Show if the Heavy Rescue can process the mission',
+                description:
+                    'Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck.',
+            },
             credits: {
                 label: 'Average earnings',
                 description:
@@ -683,6 +706,7 @@ const lssm_missionhelper_adjustPosition = () => {
         exp: 'Diferenciales',
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
+        allow_rw_instead_of_lf: 'Esta misión también se puede llevar a cabo con un rescate pesado en lugar de un camión de bomberos',
         transport: 'transportar',
         settings: {
             name: {
@@ -736,6 +760,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Mostrar 100% de probabilidad',
                 description:
                     'Muestra la probabilidad de un vehículo incluso si es 100%.',
+            },
+            lfrw: {
+                label: 'Mostrar si el rescate pesado puede procesar la misión',
+                description:
+                    'Muestra un mensaje en la Misión si también se puede procesar con un Rescate pesado en lugar de un camión de bomberos.',
             },
             credits: {
                 label: 'Ganancias medias',
@@ -882,6 +911,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 description:
                     'Muestra la probabilidad de un vehículo incluso si es 100%.',
             },
+            lfrw: {
+                label: 'Mostrar si el rescate pesado puede procesar la misión',
+                description:
+                    'Muestra un mensaje en la Misión si también se puede procesar con un Rescate pesado en lugar de un camión de bomberos.',
+            },
             credits: {
                 label: 'Ganancias medias',
                 description:
@@ -983,6 +1017,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
         transport: 'levar',
+        allow_rw_instead_of_lf: 'Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros',
         settings: {
             name: {
                 label: 'Primeiro nome',
@@ -1033,6 +1068,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Mostrar 100% de chance',
                 description:
                     'Mostra a probabilidade de um veículo, mesmo que seja 100%.',
+            },
+            lfrw: {
+                label: 'Mostrar se o Heavy Rescue pode processar a missão',
+                description:
+                    'Exibe uma mensagem na missão se também pode ser processada com um resgate pesado em vez de um caminhão de bombeiros.',
             },
             credits: {
                 label: 'Ganho médio',
@@ -1176,6 +1216,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 description:
                     'Mostra a probabilidade de um veículo, mesmo que seja 100%.',
             },
+            lfrw: {
+                label: 'Mostrar se o Heavy Rescue pode processar a missão',
+                description:
+                    'Exibe uma mensagem na missão se também pode ser processada com um resgate pesado em vez de um caminhão de bombeiros.',
+            },
             credits: {
                 label: 'Ganho médio',
                 description:
@@ -1277,6 +1322,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
         transport: 'Transport',
+        allow_rw_instead_of_lf: 'Detta uppdrag kan också utföras med en tung räddning istället för en eldstad',
         settings: {
             name: {
                 label: 'namn',
@@ -1325,6 +1371,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Visa 100% sannolikhet ',
                 description:
                     'Visar sannolikheten för ett fordon även om det är 100%.',
+            },
+            lfrw: {
+                label: 'Visa om Heavy Rescue kan behandla uppdraget',
+                description:
+                    'Visar ett meddelande i uppdraget om det också kan behandlas med en tung räddning istället för en brandbil.',
             },
             credits: {
                 label: 'Genomsnittlig inkomst',
@@ -1431,6 +1482,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Denne mission er kun ambulance!',
         title: 'Missionhelper',
         transport: 'Transportere',
+        allow_rw_instead_of_lf: 'Denne mission kan også udføres med en tung redning i stedet for et ildsted',
         settings: {
             name: {
                 label: 'Navn',
@@ -1480,6 +1532,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Vis 100% sandsynlighed',
                 description:
                     'Viser sandsynligheden for et køretøj, selvom det er 100%.',
+            },
+            lfrw: {
+                label: 'Vis om Heavy Rescue kan behandle missionen',
+                description:
+                    'Viser en meddelelse i missionen, om den også kan behandles med en tung redning i stedet for en brandbil.',
             },
             credits: {
                 label: 'Gennemsnitlig indtjeningGennemsnitlig indtjening',
@@ -1586,6 +1643,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Tato mise je pouze sanitka!',
         title: 'Pomocník mise',
         transport: 'Doprava',
+        allow_rw_instead_of_lf: 'Tuto misi lze místo hasičského záchranného sboru provést také s těžkou záchranou',
         settings: {
             name: {
                 label: 'název',
@@ -1636,6 +1694,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Zobrazit 100% pravděpodobnost',
                 description:
                     'Zobrazuje pravděpodobnost pro vozidlo, i když je to 100%.',
+            },
+            lfrw: {
+                label: 'Ukažte, zda může těžká záchranná mise zpracovat',
+                description:
+                    'Zobrazuje v misi zprávu, zda ji lze namísto hasičského vozu zpracovat také pomocí těžké záchrany.',
             },
             credits: {
                 label: 'Průměrné příjmy',
@@ -1742,6 +1805,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Bu görev sadece ambulanstır!',
         title: 'Misyonhelper',
         transport: 'Taşıma',
+        allow_rw_instead_of_lf: 'Bu Görev, itfaiye yerine Ağır Kurtarma ile de gerçekleştirilebilir',
         settings: {
             name: {
                 label: 'isim',
@@ -1789,6 +1853,11 @@ const lssm_missionhelper_adjustPosition = () => {
             show_100: {
                 label: '% 100 olasılığı göster',
                 description: 'Bir aracın% 100 olsa bile olasılığını gösterir.',
+            },
+            lfrw: {
+                label: 'Ağır Kurtarma\'nın görevi yerine getirip getiremeyeceğini göster',
+                description:
+                    'Görevde, itfaiye aracı yerine Ağır Kurtarma ile de işlenip işlenemeyeceğini bildiren bir mesaj görüntüler.',
             },
             credits: {
                 label: 'Ortalama kazanç',
@@ -1893,6 +1962,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Dette oppdraget er kun ambulanse!',
         title: 'Missionhelper',
         transport: 'Transportere',
+        allow_rw_instead_of_lf: 'Dette oppdraget kan også utføres med en tung redning i stedet for en ildsted',
         settings: {
             name: {
                 label: 'Navn',
@@ -1941,6 +2011,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Vis 100% sannsynlighet',
                 description:
                     'Viser sannsynligheten for et kjøretøy selv om det er 100%.',
+            },
+            lfrw: {
+                label: 'Vis om Heavy Rescue kan behandle oppdraget',
+                description:
+                    'Viser en melding i oppdraget om den også kan behandles med en tung redning i stedet for en brannbil.',
             },
             credits: {
                 label: 'Gjennomsnittlig inntjening',
@@ -2047,6 +2122,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Ta misja to tylko ambulans!',
         title: 'Pomocnik misjonarza',
         transport: 'Transport',
+        allow_rw_instead_of_lf: 'Tę misję można również przeprowadzić ciężkim ratunkiem zamiast wozu strażackiego',
         settings: {
             name: {
                 label: 'Nazwa',
@@ -2097,6 +2173,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Pokaż 100% prawdopodobieństwo',
                 description:
                     'Pokazuje prawdopodobieństwo dla pojazdu, nawet jeśli jest to 100%.',
+            },
+            lfrw: {
+                label: 'Pokaż, czy Heavy Rescue może przetworzyć misję',
+                description:
+                    'Wyświetla komunikat w misji, czy można go również przetworzyć ciężkim ratunkiem zamiast wozu strażackiego.',
             },
             credits: {
                 label: 'Średni wynik finansowy',
@@ -2204,6 +2285,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: "Questa missione e' riservata alle ambulanze.!",
         title: 'Missionhelper',
         transport: 'Trasporto',
+        allow_rw_instead_of_lf: 'Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco',
         settings: {
             name: {
                 label: 'Nome',
@@ -2255,6 +2337,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Mostra il 100% di probabilità',
                 description:
                     'Mostra la probabilità per un veicolo anche se è al 100%.',
+            },
+            lfrw: {
+                label: 'Mostra se Heavy Rescue può elaborare la missione',
+                description:
+                    'Visualizza un messaggio nella missione se può essere elaborato anche con un salvataggio pesante anziché un camion dei pompieri.',
             },
             credits: {
                 label: 'Guadagno medio',
@@ -2365,6 +2452,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Cette mission est réservée aux ambulances !',
         title: 'Aide à la mission',
         transport: 'transport',
+        allow_rw_instead_of_lf: 'Cette mission peut également être effectuée avec un sauvetage lourd au lieu d\'un camion de pompier',
         settings: {
             name: {
                 label: 'Nom',
@@ -2416,6 +2504,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Montrer 100% de probabilité',
                 description:
                     "Indique la probabilité pour un véhicule même s'il est à 100%.",
+            },
+            lfrw: {
+                label: 'Montrer si le Heavy Rescue peut traiter la mission',
+                description:
+                    'Affiche un message dans la mission indiquant s\'il peut également être traité avec un sauvetage lourd au lieu d\'un camion de pompiers.',
             },
             credits: {
                 label: 'Salaire moyen',
@@ -2520,6 +2613,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Это задание только для скорой помощи!',
         title: 'Миссионер',
         transport: 'Транспорт',
+        allow_rw_instead_of_lf: 'Эта миссия также может быть выполнена с помощью тяжелого спасателя вместо пожарной машины',
         settings: {
             name: {
                 label: 'Имя',
@@ -2572,6 +2666,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Показать 100% вероятность',
                 description:
                     'Показывает вероятность для транспортного средства, даже если она составляет 100%.',
+            },
+            lfrw: {
+                label: 'Показать, может ли тяжелое спасение выполнить миссию',
+                description:
+                    'Отображает сообщение в миссии, можно ли его также обработать с помощью тяжелого спасателя вместо пожарной машины.',
             },
             credits: {
                 label: 'Средний заработок',
@@ -2677,6 +2776,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Ця місія є лише швидкою допомогою!',
         title: 'Місіонер',
         transport: 'Транспорт',
+        allow_rw_instead_of_lf: 'Ця місія також може бути здійснена за допомогою важкого порятунку замість пожежогасіння',
         settings: {
             name: {
                 label: "Ім'я",
@@ -2726,6 +2826,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Показати 100% вірогідність',
                 description:
                     'Показує ймовірність для транспортного засобу, навіть якщо він 100%.',
+            },
+            lfrw: {
+                label: 'Покажіть, чи може важкий порятунок обробити місію',
+                description:
+                    'Відображає повідомлення в Місії, чи може воно також оброблятися важким порятунком замість пожежної машини.',
             },
             credits: {
                 label: 'Середній заробіток',
@@ -2828,6 +2933,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'このミッションは救急車のみです！',
         title: 'ミッションヘルパー',
         transport: '輸送',
+        allow_rw_instead_of_lf: 'このミッションは、消防車の代わりにヘビーレスキューで実施することもできます',
         settings: {
             name: {
                 label: '名前',
@@ -2874,6 +2980,11 @@ const lssm_missionhelper_adjustPosition = () => {
             show_100: {
                 label: '100％の確率を表示',
                 description: '車両が100％であっても、車両の確率を示します。',
+            },
+            lfrw: {
+                label: 'Heavy Rescueがミッションを処理できるかどうかを示します',
+                description:
+                    '消防車の代わりにヘビーレスキューで処理できるかどうか、ミッションにメッセージを表示します。',
             },
             credits: {
                 label: '平均収益',
@@ -2973,6 +3084,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: '이 임무는 구급차 전용입니다!',
         title: '선교사',
         transport: '수송',
+        allow_rw_instead_of_lf: '이 임무는 소방차 대신 무거운 구조로도 수행 할 수 있습니다',
         settings: {
             name: {
                 label: '이름',
@@ -3020,6 +3132,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: '100 % 확률 표시',
                 description:
                     '차량이 100 % 인 경우에도 차량의 확률을 표시합니다.',
+            },
+            lfrw: {
+                label: 'Heavy Rescue가 임무를 처리 할 수 있는지 표시',
+                description:
+                    '소방차 대신 무거운 구조로도 처리 할 수 있는지 여부를 미션에 표시합니다.',
             },
             credits: {
                 label: '평균 수입',
@@ -3122,6 +3239,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Misiunea asta e doar pentru ambulanță!',
         title: 'Ajutor de misiune',
         transport: 'Transport',
+        allow_rw_instead_of_lf: 'Această misiune poate fi, de asemenea, efectuată cu o salvare grea în loc de un autoturism ',
         settings: {
             name: {
                 label: 'Numele',
@@ -3173,6 +3291,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Arată probabilitatea 100%',
                 description:
                     'Afișează probabilitatea pentru un vehicul, chiar dacă este 100%.',
+            },
+            lfrw: {
+                label: 'Arătați dacă salvarea grea poate procesa misiunea',
+                description:
+                    'Afișează un mesaj în misiune dacă poate fi, de asemenea, procesat cu o salvare grea în locul unui camion de pompieri.',
             },
             credits: {
                 label: 'Câștigul salarial mediu',
@@ -3275,6 +3398,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Tämä tehtävä on vain ambulanssi!',
         title: 'Tehtävän auttaja',
         transport: 'Kuljetus',
+        allow_rw_instead_of_lf: 'Tämä operaatio voidaan suorittaa myös Heavy Rescue -palvelun kanssa tulipalon sijaan',
         settings: {
             name: {
                 label: 'Nimi',
@@ -3323,6 +3447,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Näytä 100% todennäköisyys',
                 description:
                     'Näyttää todennäköisyyden ajoneuvolle, vaikka se olisi 100%.',
+            },
+            lfrw: {
+                label: 'Näytä, pystyykö Heavy Rescue käsittelemään tehtävän',
+                description:
+                    'Näyttää operaatiossa viestin, voidaanko se käsitellä myös Heavy Rescue -palvelulla paloauton sijasta.',
             },
             credits: {
                 label: 'Keskimääräiset ansiot',
@@ -3422,6 +3551,7 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Deze inzet is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
+        allow_rw_instead_of_lf: 'Deze inzet kan ook worden afgehandeld met een een Hulpverleningsvoertuig of Hulpverleningshaakarmbak i.p.v. Tankautospuit.',
         settings: {
             name: {
                 label: 'Naam',
@@ -3466,6 +3596,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Incidentuitbreiding',
                 description:
                     'Toont, of en hoe deze melding zich uitbreiden kan (Laat alleen de eerste uitbreiding zien)',
+            },
+            lfrw: {
+                label: 'Laat zien of Hulpverleningsvoertuig invoegen kan bewerken',
+                description:
+                    'Toont een notitie in de operatie als deze ook met een Hulpverleningsvoertuig in plaats van een Tankautospuit kan worden verwerkt.',
             },
             show_100: {
                 label: 'Toon 100% waarschijnlijkheid',
@@ -3705,6 +3840,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     type: 'toggle',
                     description: I18n.t(
                         'lssm.missionhelper.settings.show_100.description'
+                    ),
+                },
+            },
+            lfrw: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.lfrw.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.lfrw.description'
                     ),
                 },
             },
@@ -3959,13 +4104,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
                         }x ${I18n.t(
-                            `lssm.missionhelper.requirements.${
-                            MISSION.additional &&
-                                MISSION.additional.allow_rw_instead_of_lf &&
-                                vehicle === 'firetrucks'
-                                ? 'allow_rw_instead_of_lf'
-                                : vehicle
-                            }`
+                            `lssm.missionhelper.requirements.${vehicle}`
                         )} ${(MISSION.chances &&
                             MISSION.chances[vehicle] &&
                             `(${MISSION.chances[vehicle]}%)`) ||
@@ -4042,6 +4181,13 @@ const lssm_missionhelper_adjustPosition = () => {
                 `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
                     'lssm.missionhelper.to'
                 )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
+
+            SETTINGS.lfrw &&
+                MISSION.additional &&
+                MISSION.additional.allow_rw_instead_of_lf &&
+                (content.innerHTML += `<br>${I18n.t(
+                    'lssm.missionhelper.allow_rw_instead_of_lf'
+                )}<br>`);
 
             SETTINGS.special &&
                 MISSION.additional &&
