@@ -1246,6 +1246,7 @@
         },
         "requirements": {
             "firetrucks": 4,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -3439,6 +3440,7 @@
         },
         "requirements": {
             "firetrucks": 12,
+            "spokesman": 1,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 2,
             "elw3": 1,
@@ -3625,7 +3627,7 @@
         "name": "Bergen object uit water voor politie",
         "place": "Meer",
         "average_credits": 1000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3684,7 +3686,7 @@
         "name": "Personenauto in sloot",
         "place": "Sloot",
         "average_credits": 1400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3719,7 +3721,7 @@
         "name": "Paard in sloot",
         "place": "Sloot",
         "average_credits": 1200,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3744,7 +3746,7 @@
         "name": "Eend verstrikt in visdraad",
         "place": "Meer",
         "average_credits": 400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3767,7 +3769,7 @@
         "name": "Verlaten kinderfiets langs waterkant",
         "place": "Meer",
         "average_credits": 1200,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4266,7 +4268,7 @@
         "name": "Persoon te water",
         "place": "Rivier",
         "average_credits": 850,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4302,7 +4304,7 @@
         "name": "Persoon te water",
         "place": "Rivier",
         "average_credits": 1100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4337,7 +4339,7 @@
         "name": "Personenauto te water",
         "place": "Rivier",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -4374,7 +4376,7 @@
         "name": "Personenauto te water",
         "place": "Rivier",
         "average_credits": 1200,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -4411,7 +4413,7 @@
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
         "average_credits": 1100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4448,7 +4450,7 @@
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
         "average_credits": 1500,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4486,7 +4488,7 @@
         "name": "Aanvaring met vrachtschip en motorboot",
         "place": "Rivier",
         "average_credits": 2000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4528,7 +4530,7 @@
         "name": "Omgeslagen zeilboot",
         "place": "Meer",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -4562,7 +4564,7 @@
         "name": "Omgeslagen zeilboot",
         "place": "Meer",
         "average_credits": 1100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5263,7 +5265,7 @@
         "name": "Zwemmer vermist",
         "place": "Meer",
         "average_credits": 1150,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5297,7 +5299,7 @@
         "name": "Verlaten kleding langs waterkant",
         "place": "Meer",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5509,7 +5511,7 @@
         "name": "Vrachtwagen te water",
         "place": "Rivier",
         "average_credits": 1000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -5546,7 +5548,7 @@
         "name": "Vrachtwagen te water",
         "place": "Rivier",
         "average_credits": 1300,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -6792,7 +6794,7 @@
         "name": "Brandend plezierjacht",
         "place": "Meer",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -6820,7 +6822,7 @@
         "name": "Brandend plezierjacht",
         "place": "Meer",
         "average_credits": 1450,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -7265,6 +7267,7 @@
         },
         "requirements": {
             "firetrucks": 3,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -7341,7 +7344,7 @@
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
         "average_credits": 1450,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -7365,7 +7368,7 @@
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
         "average_credits": 3100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -7397,7 +7400,7 @@
         "name": "Brand op binnenvaartschip",
         "place": "Rivier",
         "average_credits": 4750,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -7405,6 +7408,7 @@
         },
         "requirements": {
             "firetrucks": 3,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -8115,6 +8119,7 @@
         },
         "requirements": {
             "firetrucks": 2,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -8206,7 +8211,7 @@
         "name": "Zwemmer vermist",
         "place": "Meer",
         "average_credits": 1750,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -8243,7 +8248,7 @@
         "name": "Zwemmer vermist",
         "place": "Meer",
         "average_credits": 3150,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -8647,7 +8652,7 @@
         "name": "Brand op passagiersschip",
         "place": "Rivier",
         "average_credits": 1450,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -8680,7 +8685,7 @@
         "name": "Brand op passagiersschip",
         "place": "Rivier",
         "average_credits": 3250,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -8714,7 +8719,7 @@
         "name": "Brand op passagiersschip",
         "place": "Rivier",
         "average_credits": 4800,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -8888,7 +8893,7 @@
         "name": "Persoon te water",
         "place": "Rivier",
         "average_credits": 3000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -8925,7 +8930,7 @@
         "name": "Persoon te water",
         "place": "Rivier",
         "average_credits": 5200,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10369,6 +10374,7 @@
         },
         "requirements": {
             "firetrucks": 4,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -10622,7 +10628,7 @@
         "name": "Persoon te water",
         "place": "Haventerrein",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10658,7 +10664,7 @@
         "name": "Persoon te water",
         "place": "Haventerrein",
         "average_credits": 1150,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10695,7 +10701,7 @@
         "name": "Duiker vermist",
         "place": "Meer",
         "average_credits": 850,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10731,7 +10737,7 @@
         "name": "Duiker vermist",
         "place": "Meer",
         "average_credits": 1100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -10996,6 +11002,7 @@
         },
         "requirements": {
             "firetrucks": 4,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -11097,7 +11104,7 @@
         "name": "Zwaan met gebroken poot",
         "place": "Meer",
         "average_credits": 400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/cat_gruen.png",
             "1": "/images/cat_gelb.png",
@@ -11940,7 +11947,7 @@
         "name": "Watersporter vermist",
         "place": "Meer",
         "average_credits": 850,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -11976,7 +11983,7 @@
         "name": "Watersporter vermist",
         "place": "Meer",
         "average_credits": 1750,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -12013,7 +12020,7 @@
         "name": "Watersporter vermist",
         "place": "Meer",
         "average_credits": 3000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -12359,7 +12366,7 @@
         "name": "Personenauto in sloot",
         "place": "Sloot",
         "average_credits": 1400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -12394,7 +12401,7 @@
         "name": "Personenauto in sloot",
         "place": "Sloot",
         "average_credits": 1400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -12429,7 +12436,7 @@
         "name": "Personenauto te water",
         "place": "Rivier",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -12467,7 +12474,7 @@
         "name": "Personenauto te water",
         "place": "Rivier",
         "average_credits": 1200,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -12823,6 +12830,7 @@
         },
         "requirements": {
             "firetrucks": 4,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -12858,6 +12866,7 @@
         },
         "requirements": {
             "firetrucks": 8,
+            "spokesman": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -12992,7 +13001,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 1750,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13030,7 +13039,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 1850,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13068,7 +13077,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 3000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13106,7 +13115,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 3100,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13149,7 +13158,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 3300,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13191,7 +13200,7 @@
         "name": "Aanvaring met vrachtschip en passagiersschip",
         "place": "Rivier",
         "average_credits": 4750,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -13640,6 +13649,7 @@
         },
         "requirements": {
             "firetrucks": 8,
+            "spokesman": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -13681,6 +13691,7 @@
         },
         "requirements": {
             "firetrucks": 12,
+            "spokesman": 1,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -14261,6 +14272,7 @@
         },
         "requirements": {
             "firetrucks": 7,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -14299,6 +14311,7 @@
         },
         "requirements": {
             "firetrucks": 8,
+            "spokesman": 1,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "elw3": 1,
@@ -14669,6 +14682,7 @@
         },
         "requirements": {
             "firetrucks": 4,
+            "spokesman": 1,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "elw3": 1,

@@ -3687,7 +3687,7 @@
         "name": "Drowning",
         "place": "Lake",
         "average_credits": 1250,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3719,7 +3719,7 @@
         "name": "Drowning",
         "place": "River",
         "average_credits": 1250,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3751,7 +3751,7 @@
         "name": "Car in river",
         "place": "River",
         "average_credits": 1400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3783,7 +3783,7 @@
         "name": "Car in lake",
         "place": "Lake",
         "average_credits": 1400,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3844,7 +3844,7 @@
         "name": "Medium flooding",
         "place": null,
         "average_credits": 1550,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3876,7 +3876,7 @@
         "name": "Large flooding",
         "place": null,
         "average_credits": 2500,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3909,7 +3909,7 @@
         "name": "Giant flooding",
         "place": null,
         "average_credits": 4000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3942,7 +3942,7 @@
         "name": "Light aircraft crash in water",
         "place": "River",
         "average_credits": 4000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3975,7 +3975,7 @@
         "name": "Light aircraft crash in water",
         "place": "Lake",
         "average_credits": 4000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -4008,7 +4008,7 @@
         "name": "Bridge collapse",
         "place": "Bridge",
         "average_credits": 7000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -6828,7 +6828,7 @@
         "name": "Swimmer in distress",
         "place": "Lake",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -6858,7 +6858,7 @@
         "name": "Swimmer in distress",
         "place": "River",
         "average_credits": 900,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -7935,7 +7935,7 @@
         "name": "Bus in river",
         "place": "River",
         "average_credits": 4000,
-        "generated_by": ,
+        "generated_by": "",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
