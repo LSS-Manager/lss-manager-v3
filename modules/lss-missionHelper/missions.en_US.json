@@ -3687,7 +3687,7 @@
         "name": "Drowning",
         "place": "Lake",
         "average_credits": 1250,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3719,7 +3719,7 @@
         "name": "Drowning",
         "place": "River",
         "average_credits": 1250,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3751,7 +3751,7 @@
         "name": "Car in river",
         "place": "River",
         "average_credits": 1400,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3783,7 +3783,7 @@
         "name": "Car in lake",
         "place": "Lake",
         "average_credits": 1400,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3844,7 +3844,7 @@
         "name": "Medium flooding",
         "place": null,
         "average_credits": 1550,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3876,7 +3876,7 @@
         "name": "Large flooding",
         "place": null,
         "average_credits": 2500,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3909,7 +3909,7 @@
         "name": "Giant flooding",
         "place": null,
         "average_credits": 4000,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3942,7 +3942,7 @@
         "name": "Light aircraft crash in water",
         "place": "River",
         "average_credits": 4000,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -3975,7 +3975,7 @@
         "name": "Light aircraft crash in water",
         "place": "Lake",
         "average_credits": 4000,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -4008,7 +4008,7 @@
         "name": "Bridge collapse",
         "place": "Bridge",
         "average_credits": 7000,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -6828,7 +6828,7 @@
         "name": "Swimmer in distress",
         "place": "Lake",
         "average_credits": 900,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -6858,7 +6858,7 @@
         "name": "Swimmer in distress",
         "place": "River",
         "average_credits": 900,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -7935,7 +7935,7 @@
         "name": "Bus in river",
         "place": "River",
         "average_credits": 4000,
-        "generated_by": "<span class=\"translation_missing localeapp\" title=\"translation missing: en_US.-\"> </span>",
+        "generated_by": ,
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -8786,12 +8786,14 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "brush_truck": 4,
             "battalion_chief_vehicles": 1,
             "water_tankers": 2
         },
         "chances": {},
         "additional": {},
         "prerequisites": {
+            "brush_extension": 2,
             "fire_stations": 8
         }
     },
@@ -8807,12 +8809,14 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "brush_truck": 6,
             "battalion_chief_vehicles": 2,
             "water_tankers": 4
         },
         "chances": {},
         "additional": {},
         "prerequisites": {
+            "brush_extension": 3,
             "fire_stations": 10
         }
     },
@@ -8828,6 +8832,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "brush_truck": 8,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
             "water_tankers": 8,
@@ -8837,6 +8842,7 @@
         "additional": {},
         "prerequisites": {
             "police_stations": 2,
+            "brush_extension": 4,
             "fire_stations": 14
         }
     },
@@ -8851,10 +8857,13 @@
             "1": "/images/fire_gelb.png",
             "2": "/images/fire_rot.png"
         },
-        "requirements": {},
+        "requirements": {
+            "brush_truck": 2
+        },
         "chances": {},
         "additional": {},
         "prerequisites": {
+            "brush_extension": 1,
             "fire_stations": 3
         }
     },
@@ -8870,11 +8879,13 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "brush_truck": 3,
             "battalion_chief_vehicles": 1
         },
         "chances": {},
         "additional": {},
         "prerequisites": {
+            "brush_extension": 3,
             "fire_stations": 6
         }
     },
@@ -8889,10 +8900,13 @@
             "1": "/images/fire_gelb.png",
             "2": "/images/fire_rot.png"
         },
-        "requirements": {},
+        "requirements": {
+            "brush_truck": 2
+        },
         "chances": {},
         "additional": {},
         "prerequisites": {
+            "brush_extension": 2,
             "fire_stations": 2
         }
     },
@@ -8907,7 +8921,9 @@
             "1": "/images/fire_gelb.png",
             "2": "/images/fire_rot.png"
         },
-        "requirements": {},
+        "requirements": {
+            "brush_truck": 2
+        },
         "chances": {},
         "additional": {},
         "prerequisites": {
@@ -8961,7 +8977,8 @@
             "2": "/images/fallingrocks_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "brush_truck": 1
         },
         "chances": {
             "patient_transport": 50

@@ -3001,6 +3001,7 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
+            "swat_suv": 2,
             "police_helicopters": 1,
             "police_cars": 4
         },
@@ -3073,6 +3074,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "swat_suv": 2,
             "police_cars": 4
         },
         "chances": {},
@@ -3119,6 +3121,7 @@
             "2": "/images/baseball_rot.png"
         },
         "requirements": {
+            "swat_suv": 1,
             "police_cars": 4,
             "k9": 1
         },
@@ -3148,6 +3151,8 @@
             "2": "/images/baseball_rot.png"
         },
         "requirements": {
+            "swat_suv": 2,
+            "swat_armored_vehicle": 2,
             "police_cars": 6,
             "k9": 1
         },
@@ -3197,6 +3202,7 @@
             "2": "/images/gas_rot.png"
         },
         "requirements": {
+            "swat_suv": 1,
             "police_cars": 3
         },
         "chances": {},
@@ -3249,6 +3255,7 @@
             "2": "/images/clock_rot.png"
         },
         "requirements": {
+            "swat_suv": 1,
             "police_helicopters": 1,
             "police_cars": 4,
             "k9": 1
