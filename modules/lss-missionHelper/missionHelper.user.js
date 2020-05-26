@@ -3516,6 +3516,7 @@ const lssm_missionhelper_adjustPosition = () => {
             at_o: 'AT Operator',
             at_m: 'AT Materiaalwagen',
             spokesman: 'Voorlichter',
+            allow_rw_instead_of_lf: 'Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken',
         },
         pois: [
             'Park',
