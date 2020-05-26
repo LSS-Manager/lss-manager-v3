@@ -1,2243 +1,3119 @@
 {
     "0": {
+        "id": 0,
         "name": "Brand ute - soptunna",
-        "stations": {
-            "0": 1
+        "place": "Bussh\u00e5llplats",
+        "average_credits": 110,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 110,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "1": {
+        "id": 1,
         "name": "Brand ute - container",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 170
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "2": {
+        "id": 2,
         "name": "Brand ute - fordon, personbil",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 370,
-        "expansions": {
-            "0": 27,
-            "1": 16,
-            "2": 19
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "3": {
+        "id": 3,
         "name": "Brand ute - fordon, motorcykel",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 340,
-        "expansions": {
-            "0": 27
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "4": {
+        "id": 4,
         "name": "Brand ute - terr\u00e4ng, gr\u00e4sbrand",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 200,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "5": {
+        "id": 5,
         "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "6": {
+        "id": 6,
         "name": "Brand i byggnad - mindre, frist\u00e5ende",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "7": {
+        "id": 7,
         "name": "Brand ute - l\u00f6v",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 210,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "8": {
+        "id": 8,
         "name": "Brand ute - sopor",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 220,
-        "expansions": {
-            "0": 20,
-            "1": 22,
-            "2": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "9": {
+        "id": 9,
         "name": "Brand ute - h\u00f6bal",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 250,
-        "expansions": {
-            "0": 14,
-            "1": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "10": {
+        "id": 10,
         "name": "Brand ute - fordon, arbetsmaskin",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "11": {
+        "id": 11,
         "name": "Brand ute - telefonkiosk",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 240
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "12": {
+        "id": 12,
         "name": "Hinder p\u00e5 v\u00e4g",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 310,
-        "expansions": {
-            "0": 25
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "13": {
+        "id": 13,
         "name": "Brand ute - fordon, lastbil",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 980
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "14": {
+        "id": 14,
         "name": "Brand ute - terr\u00e4ng, skogsbrand",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000,
-        "expansions": {
-            "0": 15
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "15": {
+        "id": 15,
         "name": "Brand ute - terr\u00e4ng",
-        "stations": {
-            "0": 1
+        "place": "Skog",
+        "average_credits": 1010,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1010,
-        "poi": 3
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "16": {
+        "id": 16,
         "name": "Brand ute - fordon, husvagn",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1100
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "17": {
+        "id": 17,
         "name": "Brand ute - postl\u00e5da",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 340
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "18": {
+        "id": 18,
         "name": "Brand ute - rish\u00f6g",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 700
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "19": {
+        "id": 19,
         "name": "Brand ute - fordon, sl\u00e4pvagn",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 650
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "20": {
+        "id": 20,
         "name": "Brand i byggnad - flerfamiljshus, k\u00e4llare",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "battalion_chief_vehicles": 90
         },
-        "percentages": {
-            "bchief": 90
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "21": {
+        "id": 21,
         "name": "Soteld",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "bchief": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2400,
-        "expansions": {
-            "0": 22
+        "chances": {
+            "platform_trucks": 100
         },
-        "percentages": {
-            "platform": 100
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "22": {
+        "id": 22,
         "name": "Brand i byggnad - flerfamiljshus, vind",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "truck": 3,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2700,
-        "percentages": {
-            "platform": 100,
-            "bchief": 50
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "23": {
+        "id": 23,
         "name": "Brinnande fett",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "24": {
+        "id": 24,
         "name": "Brand ute - busskur",
-        "stations": {
-            "0": 3
+        "place": "Bussh\u00e5llplats",
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 900,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "25": {
+        "id": 25,
         "name": "Trafikolycka - singel",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "transport": 40,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 40
         },
-        "expansions": {
-            "0": 24,
-            "1": 2,
-            "2": 29
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "26": {
+        "id": 26,
         "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
-        "stations": {
-            "0": 5,
-            "2": 1
+        "place": "Mataff\u00e4r",
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1500,
-        "patients": {
-            "max": 2,
-            "transport": 30,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 30
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
     },
     "27": {
+        "id": 27,
         "name": "Brand i byggnad - parkeringshus",
-        "stations": {
-            "0": 4
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
     },
     "28": {
+        "id": 28,
         "name": "Brand i byggnad - industri, maskin",
-        "stations": {
-            "0": 5
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
         },
-        "credits": 2470,
-        "percentages": {
-            "tanker": 30
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
         }
     },
     "29": {
+        "id": 29,
         "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 2
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
         },
-        "credits": 5300
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "30": {
+        "id": 30,
         "name": "Utsl\u00e4pp farligt \u00e4mne - gas",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "31": {
+        "id": 31,
         "name": "Brand i byggnad - villa",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "bchief": 1,
-            "platform": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 1310
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "32": {
+        "id": 32,
         "name": "Brand ute - fordon, sk\u00f6rdetr\u00f6ska",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "33": {
+        "id": 33,
         "name": "Brand i byggnad - publik lokal, mataff\u00e4r",
-        "stations": {
-            "0": 5,
-            "2": 1
+        "place": "Mataff\u00e4r",
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1500,
-        "patients": {
-            "max": 2,
-            "transport": 30,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 30
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
     },
     "34": {
+        "id": 34,
         "name": "Brand i byggnad - v\u00e5rd, sjukhus",
-        "stations": {
-            "0": 10,
-            "2": 6
+        "place": "Sjukhus",
+        "average_credits": 6000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 10,
-            "bchief": 2,
-            "heavyRescue": 2,
-            "tanker": 1,
-            "platform": 3
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
         },
-        "credits": 6000,
-        "patients": {
-            "max": 25,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 2
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     },
     "35": {
-        "name": "Fylleri\/LOB",
-        "stations": {
-            "2": 1,
-            "6": 1
+        "id": 35,
+        "name": "Fylleri/LOB",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     },
     "36": {
+        "id": 36,
         "name": "Br\u00f6stsm\u00e4rta",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Kardiologi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "37": {
+        "id": 37,
         "name": "Andningsbesv\u00e4r",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Inv\u00e4rtesmedicinare"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "38": {
+        "id": 38,
         "name": "Misst\u00e4nkt stroke",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Neurologi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "39": {
+        "id": 39,
         "name": "Akut buk",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Inv\u00e4rtesmedicinare"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "40": {
+        "id": 40,
         "name": "Trauma",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "41": {
+        "id": 41,
         "name": "Brand i byggnad - industri, verkstad",
-        "stations": {
-            "0": 14,
-            "2": 2,
-            "6": 2
+        "place": "Bilverkstad",
+        "average_credits": 6000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 8,
-            "bchief": 2,
-            "platform": 2,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "hazmat": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 6000,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
         },
-        "poi": 15,
-        "percentages": {
-            "tanker": 40
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
         }
     },
     "42": {
+        "id": 42,
         "name": "Misst\u00e4nkt fraktur",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "43": {
+        "id": 43,
         "name": "Fallolycka",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "44": {
+        "id": 44,
         "name": "St\u00f6ld",
-        "stations": {
-            "6": 1
+        "place": "Mataff\u00e4r",
+        "average_credits": 100,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 9,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "45": {
+        "id": 45,
         "name": "St\u00f6ld",
-        "stations": {
-            "6": 1
+        "place": "Stormarknad",
+        "average_credits": 100,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 10,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "46": {
+        "id": 46,
         "name": "Trafikolycka, singel",
-        "stations": {
-            "6": 1
+        "place": "Mataff\u00e4r",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 9
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "47": {
+        "id": 47,
         "name": "Trafikolycka",
-        "stations": {
-            "6": 1
+        "place": "Stormarknad",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 10
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "48": {
+        "id": 48,
         "name": "P\u00e5g\u00e5ende inbrott",
-        "stations": {
-            "6": 1
+        "place": "Varustation",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 8,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "49": {
+        "id": 49,
         "name": "Personr\u00e5n",
-        "stations": {
-            "6": 1
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 0,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "50": {
+        "id": 50,
         "name": "Bedr\u00e4geri",
-        "stations": {
-            "6": 1
+        "place": "Bussh\u00e5llplats",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "51": {
+        "id": 51,
         "name": "Bedr\u00e4geri",
-        "stations": {
-            "6": 1
+        "place": "Sp\u00e5rvagnsh\u00e5llplats",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 5
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "52": {
+        "id": 52,
         "name": "Bedr\u00e4geri",
-        "stations": {
-            "6": 1
+        "place": "T\u00e5gstation (regionalt\u00e5g)",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 6
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "53": {
+        "id": 53,
         "name": "Bedr\u00e4geri",
-        "stations": {
-            "6": 1
+        "place": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 7
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "54": {
+        "id": 54,
         "name": "Trafikolycka, singel",
-        "stations": {
-            "6": 1
+        "place": "K\u00f6pcentrum",
+        "average_credits": 120,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 14
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "55": {
+        "id": 55,
         "name": "Br\u00e5k",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologi"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologi"
         },
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "56": {
+        "id": 56,
         "name": "Misshandel",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 500,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 55
+        "prerequisites": {
+            "police_stations": 2
         }
     },
     "57": {
+        "id": 57,
         "name": "Ordningslagen, demonstration",
-        "vehicles": {
-            "police": 7
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "credits": 10020
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
     },
     "58": {
+        "id": 58,
         "name": "Brand i byggnad - flerfamiljshus, k\u00f6k",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "59": {
+        "id": 59,
         "name": "Djurr\u00e4ddning",
-        "stations": {
-            "0": 6
+        "place": "Bondg\u00e5rd",
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 900,
-        "poi": 21
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "60": {
+        "id": 60,
         "name": "Brand i byggnad - publik lokal, idrottshall",
-        "stations": {
-            "0": 9,
-            "2": 2
+        "place": "Skola",
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2000,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 12
-    },
-    "61": {
-        "name": "Flygkrasch",
-        "stations": {
-            "0": 4,
-            "2": 2
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
-        "vehicles": {
-            "truck": 1,
-            "arff": 2
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 4,
-            "transport": 60,
-            "specialisation": "Traumatologi"
-        },
-        "poi": 28
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
     },
     "62": {
+        "id": 62,
         "name": "Ordningslagen, ov\u00e4sen",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "63": {
+        "id": 63,
         "name": "Misst\u00e4nkt stroke",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 70,
-        "specialisation": "Neurokirurgi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "64": {
+        "id": 64,
         "name": "Trafikolycka - singel, buss",
-        "stations": {
-            "0": 3,
-            "2": 8
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 12,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
         }
     },
     "65": {
+        "id": 65,
         "name": "Brand i byggnad - flerfamiljshus, l\u00e4genhet",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "66": {
+        "id": 66,
         "name": "Brand i byggnad - radhus",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "67": {
+        "id": 67,
         "name": "Misshandel, grov",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologi"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologi"
         },
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "68": {
+        "id": 68,
         "name": "Brand i byggnad - publik lokal, stormarknad",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Stormarknad",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2,
-            "platform": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "tanker": 20
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "69": {
+        "id": 69,
         "name": "Utsl\u00e4pp farligt \u00e4mne - \u00f6vrigt",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
         },
-        "credits": 4300
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "70": {
+        "id": 70,
         "name": "Brand i byggnad - publik lokal, stormarknad",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Stormarknad",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2,
-            "platform": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "tanker": 20
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "71": {
+        "id": 71,
         "name": "Bl\u00f6dning",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "specialisation": "Allm\u00e4nkirurg"
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "72": {
+        "id": 72,
         "name": "Flygh\u00e4ndelse - varningslarm",
-        "stations": {
-            "0": 13,
-            "2": 2
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
         },
-        "credits": 4000,
-        "patients": {
-            "max": 4,
-            "transport": 60,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
         },
-        "percentages": {
-            "hazmat": 50
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
         }
     },
     "73": {
+        "id": 73,
         "name": "Trafikolycka - flera fordon, buss",
-        "stations": {
-            "0": 5,
-            "2": 8,
-            "6": 2
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "platform": 1,
-            "heavyRescue": 2,
-            "police": 2
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 2000,
-        "patients": {
-            "max": 12,
-            "transport": 80,
-            "specialisation": "Allm\u00e4nkirurg"
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
         }
     },
     "74": {
+        "id": 74,
         "name": "Stor brand",
-        "vehicles": {
-            "truck": 10,
-            "bchief": 3,
-            "platform": 2,
-            "tanker": 2,
-            "heavyRescue": 2
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
-        "credits": 10210
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
     },
     "75": {
+        "id": 75,
         "name": "Olaga hot",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "transport": 30,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
-    },
-    "76": {
-        "name": "St\u00f6ld p\u00e5 julmarknad",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "poi": 17
-    },
-    "77": {
-        "name": "Brinnande julst\u00e5nd",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 610,
-        "patients": {
-            "max": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
-        },
-        "poi": 17
-    },
-    "78": {
-        "name": "Brand p\u00e5 julmarknad",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 310,
-        "patients": {
-            "max": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
-        },
-        "poi": 17
-    },
-    "79": {
-        "name": "Trafikolycka - is",
-        "stations": {
-            "0": 4
-        },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
-        },
-        "credits": 1410,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologi"
-        },
-        "percentages": {
-            "heavyRescue": 100
-        }
-    },
-    "80": {
-        "name": "Brinnande julgran",
-        "stations": {
-            "0": 6
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 870
-    },
-    "81": {
-        "name": "Brinnande julkrans",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 800
-    },
-    "82": {
-        "name": "Br\u00e5k p\u00e5 julmarknad",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 2
-        },
-        "credits": 600,
-        "patients": {
-            "max": 2,
-            "specialisation": "Traumatologi"
-        },
-        "poi": 17
     },
     "83": {
+        "id": 83,
         "name": "Fastkl\u00e4md",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2
         },
-        "credits": 1100,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "84": {
+        "id": 84,
         "name": "L\u00f6sa f\u00f6rem\u00e5l",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
         },
-        "credits": 450,
-        "percentages": {
-            "platform": 50
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "85": {
+        "id": 85,
         "name": "Trafikolycka - flera fordon",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 1
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1300,
-        "patients": {
-            "max": 5,
-            "min": 1,
-            "transport": 20,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "86": {
+        "id": 86,
         "name": "Brand ute - fordon, lastbil",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3
+        "requirements": {
+            "firetrucks": 3
         },
-        "credits": 900
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "87": {
+        "id": 87,
         "name": "Trafikolycka - arbetsmaskin",
-        "stations": {
-            "0": 3,
-            "2": 1
+        "place": "Bondg\u00e5rd",
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "ambulance": 1
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "transport": 0,
-            "specialisation": "Allm\u00e4nkirurg"
+        "chances": {
+            "patient_transport": 0
         },
-        "poi": 21
-    },
-    "88": {
-        "name": "Bilbrand orsakad av fyrverkerier",
-        "stations": {
-            "0": 1
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
         },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 370
-    },
-    "89": {
-        "name": "Grovavfallsbrand orsakad av fyrverkerier",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 220
-    },
-    "90": {
-        "name": "Liten f\u00e4ltbrand orsakad av fyrverkerier",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 1000
-    },
-    "91": {
-        "name": "Brand i k\u00e4llare orsakad av fyrverkerier",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Inv\u00e4rtesmedicinare"
-        },
-        "percentages": {
-            "bchief": 90
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
         }
-    },
-    "92": {
-        "name": "Bussh\u00e5llplatsbrand orsakad av fyrverkerier",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 900,
-        "poi": 4
-    },
-    "93": {
-        "name": "Balkongbrand orsakad av fyrverkerier",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
-        },
-        "credits": 1500,
-        "percentages": {
-            "platform": 30
-        }
-    },
-    "94": {
-        "name": "Br\u00e4nder i papperscontainrar orsakade av fyrverkerier",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "95": {
-        "name": "Buskbrand orsakad av sm\u00e4llare",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "96": {
-        "name": "Alkoholp\u00e5verkad f\u00f6rare efter ny\u00e5rsfest",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150
-    },
-    "97": {
-        "name": "Brand i str\u00e5takshus orsakad av fyrverkerier",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 5,
-            "platform": 1,
-            "bchief": 1,
-            "air": 1,
-            "police": 2
-        },
-        "credits": 4200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
-        },
-        "percentages": {
-            "air": 30
-        }
-    },
-    "98": {
-        "name": "Bil skadad av fyrverkerier",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "99": {
-        "name": "Brott mot f\u00f6rordningen om explosiva varor",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "100": {
-        "name": "Handskada orsakad av fyrverkerier",
-        "stations": {
-            "2": 3
-        },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Traumatologi"
     },
     "101": {
+        "id": 101,
         "name": "Brand ute - fordon, lastfordon",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 1400,
-        "percentages": {
-            "tanker": 10
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
         }
     },
     "102": {
+        "id": 102,
         "name": "Brand ute - fordon, sopbil",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 2,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 2000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "103": {
+        "id": 103,
         "name": "Trafikolycka - motorcykel",
-        "stations": {
-            "0": 3,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2300,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
         }
     },
     "104": {
+        "id": 104,
         "name": "Utsl\u00e4pp farligt \u00e4mne - kolmonoxid",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 2
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "air": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2300,
-        "patients": {
-            "max": 10,
-            "min": 2,
-            "transport": 80,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 80
         },
-        "percentages": {
-            "air": 30
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 5
         }
     },
     "105": {
+        "id": 105,
         "name": "R\u00e5n, v\u00e4pnat",
-        "stations": {
-            "6": 7
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 5
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4
         },
-        "credits": 1300,
-        "patients": {
-            "max": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "swat_personnel": 6,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
-        "poi": 9,
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
         }
     },
     "106": {
-        "name": "V\u00e5ld\/hot mot tj\u00e4nsteman",
-        "stations": {
-            "2": 1,
-            "6": 4
+        "id": 106,
+        "name": "V\u00e5ld/hot mot tj\u00e4nsteman",
+        "place": "Tunnelbanestation",
+        "average_credits": 750,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 750,
-        "patients": {
-            "max": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
-        "poi": 41,
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
         }
     },
     "107": {
+        "id": 107,
         "name": "Trafikolycka - singel, volt",
-        "stations": {
-            "0": 4,
-            "2": 3,
-            "6": 3
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 3000,
-        "patients": {
-            "max": 4,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 4
         }
     },
     "108": {
+        "id": 108,
         "name": "Ofri luftv\u00e4g",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Inv\u00e4rtesmedicinare"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "109": {
+        "id": 109,
         "name": "Ryggtrauma",
-        "stations": {
-            "2": 2
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "rth": 50,
-        "specialisation": "Allm\u00e4nkirurg"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
     },
     "110": {
-        "name": "Ras\/skred",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 1
+        "id": 110,
+        "name": "Ras/skred",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2,
-            "platform": 1,
-            "bchief": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 7500,
-        "patients": {
-            "max": 8,
-            "min": 2,
-            "transport": 40,
-            "rth": 10,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "111": {
-        "name": "Ras\/skred - byggnad",
-        "stations": {
-            "0": 7,
-            "2": 4,
-            "6": 1
+        "id": 111,
+        "name": "Ras/skred - byggnad",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 3,
-            "platform": 2,
-            "bchief": 2,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
         },
-        "credits": 9000,
-        "patients": {
-            "max": 20,
-            "min": 8,
-            "transport": 50,
-            "rth": 20,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
         }
     },
     "112": {
+        "id": 112,
         "name": "Allvarlig br\u00e4nnskada",
-        "stations": {
-            "2": 4
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "rth": 100,
-        "specialisation": "Allm\u00e4nkirurg"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
     },
     "113": {
+        "id": 113,
         "name": "Skallskada",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "rth": 90,
-        "specialisation": "Neurokirurgi"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "114": {
+        "id": 114,
         "name": "Amputationsskada",
-        "stations": {
-            "2": 4
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 80,
-        "rth": 50,
-        "specialisation": "Allm\u00e4nkirurg"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
     },
     "115": {
+        "id": 115,
         "name": "Brand i byggnad - ladug\u00e5rd",
-        "stations": {
-            "0": 13
+        "place": "Bondg\u00e5rd",
+        "average_credits": 9000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 2,
-            "platform": 3,
-            "tanker": 3
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
         },
-        "credits": 9000,
-        "poi": 21
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
     },
     "116": {
+        "id": 116,
         "name": "Ryggsm\u00e4rtor",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 80,
-        "rth": 30,
-        "specialisation": "Inv\u00e4rtesmedicinare"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "117": {
+        "id": 117,
         "name": "Brand i byggnad - skola",
-        "stations": {
-            "0": 6,
-            "2": 2
+        "place": "Skola",
+        "average_credits": 1300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1300,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 12
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
     },
     "118": {
+        "id": 118,
         "name": "Person - sv\u00e5r bel\u00e4genhet",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 650,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {
+            "platform_trucks": 50
         },
-        "percentages": {
-            "platform": 50
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "119": {
+        "id": 119,
         "name": "Explosion - inomhus",
-        "stations": {
-            "0": 13,
-            "2": 3,
-            "6": 7
+        "place": null,
+        "average_credits": 3400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 2,
-            "mcv": 1,
-            "police": 8
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "police_cars": 8
         },
-        "credits": 3400,
-        "patients": {
-            "max": 5,
-            "transport": 60,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 5,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "fire_stations": 13
         }
     },
     "120": {
+        "id": 120,
         "name": "Brand i byggnad - Silo",
-        "stations": {
-            "0": 8
+        "place": "Silo",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 8,
-            "platform": 1,
-            "heavyRescue": 1,
-            "bchief": 2
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 3000,
-        "poi": 53
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
     },
     "121": {
+        "id": 121,
         "name": "Personskada av h\u00f6gsp\u00e4nning",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 650,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 60,
-            "specialisation": "Allm\u00e4nkirurg"
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
-    },
-    "122": {
-        "name": "Brinnande h\u00f6bal",
-        "stations": {
-            "0": 8
-        },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "tanker": 1
-        },
-        "credits": 1500,
-        "poi": 21
     },
     "123": {
+        "id": 123,
         "name": "Explosion - \u00d6verh\u00e4ngande fara",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 1950,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 1950
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "124": {
+        "id": 124,
         "name": "Kramper",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Inv\u00e4rtesmedicinare"
-    },
-    "125": {
-        "name": "P\u00e5sk\u00e4gg tjuv",
-        "stations": {
-            "6": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
         },
-        "vehicles": {
-            "police": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
-        "credits": 100,
-        "prisoners": {
-            "max": 1
+        "prerequisites": {
+            "rescue_stations": 1
         }
-    },
-    "126": {
-        "name": "Pensel stulen fr\u00e5n verkstad",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150,
-        "poi": 12,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "127": {
-        "name": "Kollapsat kaninh\u00e5l",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 2,
-            "heavyRescue": 1,
-            "police": 2
-        },
-        "credits": 1500
-    },
-    "128": {
-        "name": "P\u00e5k\u00f6rd p\u00e5skhare",
-        "stations": {
-            "2": 3,
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 38,
-            "specialisation": "Traumatologi"
-        }
-    },
-    "129": {
-        "name": "Br\u00e4nning p\u00e5skkorg",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 110
-    },
-    "130": {
-        "name": "Chokladutsl\u00e4pp",
-        "stations": {
-            "0": 10,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 1
-        },
-        "credits": 5000
-    },
-    "131": {
-        "name": "Brinnande \u00e4ggkokare",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 800
-    },
-    "132": {
-        "name": "Harm\u00f6te i p\u00e5sk\u00e4ggsstaden",
-        "stations": {
-            "0": 2,
-            "2": 4,
-            "6": 7
-        },
-        "vehicles": {
-            "police": 8,
-            "ambulance": 4,
-            "truck": 2
-        },
-        "credits": 7000,
-        "poi": 20,
-        "siwa": true,
-        "dauer": "2 timmar"
-    },
-    "133": {
-        "name": "V\u00e4lt p\u00e5sk\u00e4ggsbil",
-        "stations": {
-            "0": 8
-        },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "bchief": 1
-        },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "specialisation": "Traumatologi"
-        }
-    },
-    "134": {
-        "name": "Prioriterat uppdrag: P\u00e5sk\u00e4ggsjakt",
-        "stations": {
-            "6": 3
-        },
-        "vehicles": {
-            "police": 6
-        },
-        "credits": 1000
-    },
-    "135": {
-        "name": "P\u00e5skhare i lyftkran",
-        "stations": {
-            "0": 12,
-            "6": 1
-        },
-        "vehicles": {
-            "platform": 1,
-            "bchief": 1,
-            "police": 1,
-            "truck": 1
-        },
-        "credits": 2000
     },
     "136": {
-        "name": "F\u00f6rs\u00f6k till rymning\/Rymning",
-        "stations": {
-            "6": 7,
-            "13": 1
+        "id": 136,
+        "name": "F\u00f6rs\u00f6k till rymning",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "k9": 1,
-            "police": 10,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
         },
-        "credits": 4000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
         }
     },
     "137": {
+        "id": 137,
         "name": "F\u00f6rf\u00f6ljande",
-        "stations": {
-            "6": 4,
-            "13": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 5,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
         },
-        "credits": 3000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
         }
     },
     "138": {
+        "id": 138,
         "name": "F\u00f6rsvunnen person",
-        "stations": {
-            "0": 6,
-            "2": 1,
-            "6": 4,
-            "13": 1
+        "place": "Skog",
+        "average_credits": 4500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 8,
-            "k9": 1,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 1
         },
-        "credits": 4500,
-        "patients": {
-            "max": 1,
-            "specialisation": "Inv\u00e4rtesmedicinare"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
-        "poi": 3
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
     },
     "139": {
+        "id": 139,
         "name": "Husrannsakan",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 2000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 140
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 129
+        "prerequisites": {
+            "police_stations": 2
         }
     },
     "140": {
+        "id": 140,
         "name": "Vapenlagen",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 4
+        "requirements": {
+            "police_cars": 4
         },
-        "credits": 1500,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Allm\u00e4nkirurg"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "swat_personnel": 3,
+            "patient_specializations": "Allm\u00e4nkirurg"
         },
-        "special": {
-            "SWATPersonnel": 3
+        "prerequisites": {
+            "police_stations": 8
         }
     },
     "141": {
+        "id": 141,
         "name": "Kontroll av fordon",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 2,
+        "requirements": {
+            "police_cars": 2,
             "k9": 1
         },
-        "credits": 1000,
-        "expansions": {
-            "0": 47
-        },
-        "percentages": {
+        "chances": {
             "k9": 20
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 47
+            }
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "142": {
+        "id": 142,
         "name": "Ordningslagen, demonstration med tillst\u00e5nd",
-        "stations": {
-            "2": 2,
-            "6": 6,
-            "13": 1
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 4,
+        "requirements": {
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 25,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 25
         },
-        "prisoners": {
-            "max": 2
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {},
+            "max_possible_prisoners": 2,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
         },
-        "expansions": {
-            "0": 132
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6,
+            "police_helicopter_stations": 1
         }
     },
     "143": {
+        "id": 143,
         "name": "Ordningslagen, demonstration utan tillst\u00e5nd",
-        "stations": {
-            "2": 3,
-            "6": 7,
-            "13": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 5,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5,
             "k9": 2
         },
-        "credits": 3000,
-        "patients": {
-            "max": 4,
-            "min": 2,
-            "transport": 25,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 25
         },
-        "prisoners": {
-            "max": 25
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "max_possible_prisoners": 25,
+            "swat_personnel": 3,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
         },
-        "special": {
-            "SWATPersonnel": 3
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         }
     },
     "144": {
+        "id": 144,
         "name": "\u00d6verl\u00e5telse",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
         },
-        "vehicles": {
-            "police": 2,
+        "requirements": {
+            "police_cars": 2,
             "k9": 1
         },
-        "credits": 1500,
-        "prisoners": {
-            "max": 2
-        },
-        "percentages": {
+        "chances": {
             "k9": 20
+        },
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "145": {
+        "id": 145,
         "name": "\u00d6verfallslarm",
-        "stations": {
-            "6": 8,
-            "13": 1
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "policeHeli": 1,
-            "police": 4
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4
         },
-        "credits": 1250,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 105
+            },
+            "max_possible_prisoners": 3
         },
-        "expansions": {
-            "0": 105
+        "prerequisites": {
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         }
     },
     "146": {
+        "id": 146,
         "name": "Polis beskjuten",
-        "stations": {
-            "2": 1,
-            "6": 10,
-            "13": 1
+        "place": null,
+        "average_credits": 4100,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 8,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
             "k9": 1
         },
-        "credits": 4100,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 100
         },
-        "special": {
-            "SWATPersonnel": 6
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
         }
     },
     "147": {
+        "id": 147,
         "name": "Statsbes\u00f6k",
-        "stations": {
-            "6": 15
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
         },
-        "vehicles": {
-            "police": 6,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
             "k9": 2
         },
-        "credits": 4000,
-        "special": {
-            "SWATPersonnel": 8
+        "chances": {},
+        "additional": {
+            "duration": "30 minuter",
+            "swat_personnel": 8,
+            "guard_mission": true
         },
-        "siwa": true,
-        "dauer": "30 minuter"
+        "prerequisites": {
+            "police_stations": 15
+        }
     },
     "148": {
+        "id": 148,
         "name": "Grovt r\u00e5n",
-        "stations": {
-            "6": 9,
-            "13": 1
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 1250,
-        "prisoners": {
-            "max": 2
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "swat_personnel": 5
         },
-        "special": {
-            "SWATPersonnel": 5
+        "prerequisites": {
+            "police_stations": 9,
+            "police_helicopter_stations": 1
         }
     },
     "149": {
-        "name": "F\u00f6rs\u00f6k till mord\/dr\u00e5p",
-        "stations": {
-            "2": 1,
-            "6": 9
+        "id": 149,
+        "name": "F\u00f6rs\u00f6k till mord/dr\u00e5p",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 100
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
         }
     },
     "150": {
+        "id": 150,
         "name": "Bankr\u00e5n med gisslan",
-        "stations": {
-            "6": 9
+        "place": "Bank",
+        "average_credits": 2000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 12,
+        "requirements": {
+            "police_cars": 12,
             "k9": 1
         },
-        "credits": 2000,
-        "poi": 31,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 6
         },
-        "special": {
-            "SWATPersonnel": 6
+        "prerequisites": {
+            "police_stations": 9
         }
     },
     "151": {
+        "id": 151,
         "name": "Trafikolycka - mindre motorfordon, moped",
-        "stations": {
-            "0": 1,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
         },
-        "credits": 750,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 65,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     },
     "152": {
+        "id": 152,
         "name": "Hundbett",
-        "stations": {
-            "2": 3,
-            "6": 4
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 100
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 4
         }
     },
     "153": {
+        "id": 153,
         "name": "H\u00e4stolycka",
-        "stations": {
-            "2": 3
+        "place": "Arena",
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 65,
-        "rth": 30,
-        "specialisation": "Traumatologi",
-        "poi": 20
+        "requirements": {},
+        "chances": {
+            "patient_transport": 65,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "154": {
+        "id": 154,
         "name": "Upplopp - evenemang, arena",
-        "stations": {
-            "6": 15
+        "place": "Arena",
+        "average_credits": 6000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 6000,
-        "patients": {
-            "max": 10,
-            "transport": 20,
-            "specialisation": "Traumatologi"
+        "chances": {
+            "patient_transport": 20
         },
-        "poi": 20,
-        "special": {
-            "averageMinimumEmployeesPolice": 24
+        "additional": {
+            "possible_patient": 10,
+            "average_min_police_personnel": 24,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 15
+        }
+    },
+    "155": {
+        "id": 155,
+        "name": "Narkotikabrott",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "156": {
+        "id": 156,
+        "name": "Trafikolycka - vilt",
+        "place": "Skog",
+        "average_credits": 1010,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "157": {
+        "id": 157,
+        "name": "Yrsel",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 38
+            },
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

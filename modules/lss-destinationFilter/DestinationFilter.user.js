@@ -134,7 +134,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Nascondi ospedali completi',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Nascondi ospedal sotto x posti disponibili',
             department: 'Nascondi ospedali senza reparto necessario',
             distance: 'Nascondi destinazioni oltre la distanza di x km (0 disattiva)',
             tax: 'Nascondi destinazioni con una TASSA superiore a x%',
@@ -157,15 +157,15 @@
     };
     I18n.translations.fr_FR.lssm.destfilter = {
         title: 'Filtre de destination',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
+        freeBeds: 'Lits libres',
+        tax: 'TAXE',
+        cellTax: 'owner\'s TAXE',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
+            beds: 'Cacher les hôpitaux complets',
+            beds1: 'Hôpitaux pour aveugles de moins de x lits',
+            department: 'Cacher les hôpitaux sans service nécessaire',
+            distance: 'Cacher les destinations situées à plus de x km de distance (0 désactive)',
+            tax: 'Cacher les destinations dont la TAXE est supérieure à x%',
             cells: 'Masquer les cellules pleines'
         }
     };

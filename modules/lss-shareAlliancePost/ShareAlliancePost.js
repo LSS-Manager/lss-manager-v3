@@ -592,9 +592,9 @@
             const missionlink = $('#mission_help').attr('href');
             const missionID = missionlink.replace(/\?.*$/, "").match(/\d*$/)[0];
             const langCode = I18n.currentLocale();
-            fetch(`https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`).then(res=>res.json()).then(data => {
+            fetch(`https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`, {cache: 'no-cache'}).then(res=>res.json()).then(data => {
         	    messages = messages.map((message) => {
-                    message = message.replace(/%CREDITS%/g, data.credits.toLocaleString());
+                    message = message.replace(/%CREDITS%/g, data.average_credits.toLocaleString());
                     message = message.replace(/%ADDRESS%/g, address);
                     message = message.replace(/%CITY%/g, ort);
                     message = message.replace(/%TIME_OFFSET%/g, `${customTime}:${time.getMinutes() < 10 ? `0${time.getMinutes()}` : time.getMinutes()} ${I18n.t('lssm.sharealliancepost.clock')}`);

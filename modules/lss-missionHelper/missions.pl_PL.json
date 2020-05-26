@@ -1,2632 +1,3760 @@
 {
     "0": {
+        "id": 0,
         "name": "Po\u017car kosza na \u015bmieci",
-        "stations": {
-            "0": 1
+        "place": "Przystanek autobusowy",
+        "average_credits": 110,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 110,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "1": {
+        "id": 1,
         "name": "Po\u017car kontenera",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 170
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "2": {
+        "id": 2,
         "name": "P\u0142on\u0105cy samoch\u00f3d",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 370,
-        "expansions": {
-            "0": 27,
-            "1": 16,
-            "2": 19
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "3": {
+        "id": 3,
         "name": "P\u0142on\u0105cy motocykl",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 340,
-        "expansions": {
-            "0": 27
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "4": {
+        "id": 4,
         "name": "P\u0142on\u0105ca trawa",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 200,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "5": {
+        "id": 5,
         "name": "Po\u017car pomieszczenia",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "6": {
-        "name": "Po\u017car kom\u00f3rki ogrodowej",
-        "stations": {
-            "0": 2
+        "id": 6,
+        "name": "Po\u017car altanki",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "7": {
+        "id": 7,
         "name": "P\u0142on\u0105ce li\u015bcie",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 210,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "8": {
+        "id": 8,
         "name": "Po\u017car gabaryt\u00f3w",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 220,
-        "expansions": {
-            "0": 20,
-            "1": 22,
-            "2": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "9": {
+        "id": 9,
         "name": "Po\u017car beli s\u0142omy",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 250,
-        "expansions": {
-            "0": 14,
-            "1": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "10": {
+        "id": 10,
         "name": "Po\u017car traktora",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "11": {
+        "id": 11,
         "name": "P\u0142on\u0105ca budka telefoniczna",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 240
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "12": {
+        "id": 12,
         "name": "Drzewo na drodze",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 310,
-        "expansions": {
-            "0": 25
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "13": {
+        "id": 13,
         "name": "P\u0142on\u0105ca ci\u0119\u017car\u00f3wka",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 980
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "14": {
+        "id": 14,
         "name": "Ma\u0142y po\u017car pola",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000,
-        "expansions": {
-            "0": 15
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "15": {
+        "id": 15,
         "name": "Ma\u0142y po\u017car lasu",
-        "stations": {
-            "0": 1
+        "place": "Las",
+        "average_credits": 1010,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1010,
-        "poi": 3
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "16": {
+        "id": 16,
         "name": "Po\u017car przyczepy kempingowej",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1100
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "17": {
+        "id": 17,
         "name": "P\u0142on\u0105ca skrzynka na listy",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 340
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "18": {
+        "id": 18,
         "name": "Sterta ga\u0142\u0119zi",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 700
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "19": {
+        "id": 19,
         "name": "P\u0142on\u0105ca przyczepa",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 650
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "20": {
+        "id": 20,
         "name": "Po\u017car piwnicy",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Interna"
+        "chances": {
+            "battalion_chief_vehicles": 90
         },
-        "percentages": {
-            "bchief": 90
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "21": {
+        "id": 21,
         "name": "Po\u017car komina",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "bchief": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2400,
-        "expansions": {
-            "0": 22
+        "chances": {
+            "platform_trucks": 100
         },
-        "percentages": {
-            "platform": 100
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "22": {
+        "id": 22,
         "name": "Po\u017car dachu",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "truck": 3,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2700,
-        "percentages": {
-            "platform": 100,
-            "bchief": 50
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "23": {
+        "id": 23,
         "name": "P\u0142on\u0105cy t\u0142uszcz",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "24": {
+        "id": 24,
         "name": "P\u0142on\u0105cy przystanek autobusowy",
-        "stations": {
-            "0": 3
+        "place": "Przystanek autobusowy",
+        "average_credits": 900,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 900,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "25": {
+        "id": 25,
         "name": "Kolizja drogowa",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1000,
-        "expansions": {
-            "0": 24,
-            "1": 2,
-            "2": 29
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "26": {
+        "id": 26,
         "name": "Po\u017car ma\u0142ego supermarketu",
-        "stations": {
-            "0": 5,
-            "2": 1
+        "place": "Supermarket (ma\u0142y)",
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1500,
-        "patients": {
-            "max": 2,
-            "transport": 30,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 30
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
     },
     "27": {
+        "id": 27,
         "name": "Po\u017car gara\u017cu",
-        "stations": {
-            "0": 4
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
     },
     "28": {
+        "id": 28,
         "name": "P\u0142on\u0105ca maszyna",
-        "stations": {
-            "0": 5
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
         },
-        "credits": 2470,
-        "percentages": {
-            "tanker": 30
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
         }
     },
     "29": {
+        "id": 29,
         "name": "Wyciek nieznanej substancji z cysterny",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "mcv": 1,
-            "police": 3,
-            "hazmat": 2
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
         },
-        "credits": 5300
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "30": {
+        "id": 30,
         "name": "Wyciek paliwa",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "31": {
+        "id": 31,
         "name": "Po\u017car kominka",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "bchief": 1,
-            "platform": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 1310
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "32": {
+        "id": 32,
         "name": "Po\u017car kombajnu",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "33": {
+        "id": 33,
         "name": "Po\u017car ma\u0142ego supermarketu",
-        "stations": {
-            "0": 5,
-            "2": 1
+        "place": "Supermarket (ma\u0142y)",
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1500,
-        "patients": {
-            "max": 2,
-            "transport": 30,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 30
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
     },
     "34": {
-        "name": "Ogie\u0144 w szpitalu",
-        "stations": {
-            "0": 10,
-            "2": 6
+        "id": 34,
+        "name": "Po\u017car w szpitalu",
+        "place": "Szpital",
+        "average_credits": 6000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 10,
-            "bchief": 2,
-            "heavyRescue": 2,
-            "tanker": 1,
-            "platform": 3
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
         },
-        "credits": 6000,
-        "patients": {
-            "max": 25,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 2
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     },
     "35": {
+        "id": 35,
         "name": "Zatrucie alkoholem",
-        "stations": {
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Interna"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     },
     "36": {
+        "id": 36,
         "name": "B\u00f3l w klatce piersiowej",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Kardiologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "37": {
+        "id": 37,
         "name": "Zaostrzenie astmy",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Interna"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "38": {
+        "id": 38,
         "name": "Napad padaczkowy",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Neurologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "39": {
+        "id": 39,
         "name": "Gor\u0105czka",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Interna"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "40": {
-        "name": "Upadek",
-        "stations": {
-            "2": 1
+        "id": 40,
+        "name": "Upadek z wysoko\u015bci",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "41": {
+        "id": 41,
         "name": "Po\u017car warsztatu samochodowego",
-        "stations": {
-            "0": 14,
-            "2": 2,
-            "6": 2
+        "place": "Warsztat samochodowy",
+        "average_credits": 6000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 8,
-            "bchief": 2,
-            "platform": 2,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "hazmat": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 6000,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
         },
-        "poi": 15,
-        "percentages": {
-            "tanker": 40
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
         }
     },
     "42": {
+        "id": 42,
         "name": "Upadek",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "43": {
+        "id": 43,
         "name": "Upadek",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 30,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "44": {
+        "id": 44,
         "name": "Kradzie\u017c sklepowa",
-        "stations": {
-            "6": 1
+        "place": "Supermarket (ma\u0142y)",
+        "average_credits": 100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 9,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "45": {
+        "id": 45,
         "name": "Kradzie\u017c sklepowa",
-        "stations": {
-            "6": 1
+        "place": "Supermarket (du\u017cy)",
+        "average_credits": 100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 10,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "46": {
+        "id": 46,
         "name": "Incydent z zaparkowanym pojazdem",
-        "stations": {
-            "6": 1
+        "place": "Supermarket (ma\u0142y)",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 9
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "47": {
+        "id": 47,
         "name": "Incydent z zaparkowanym pojazdem",
-        "stations": {
-            "6": 1
+        "place": "Supermarket (du\u017cy)",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 10
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "48": {
+        "id": 48,
         "name": "Kradzie\u017c metalu",
-        "stations": {
-            "6": 1
+        "place": "Stacja towarowa",
+        "average_credits": 150,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 8,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "49": {
+        "id": 49,
         "name": "Kradzie\u017c kieszonkowa",
-        "stations": {
-            "6": 1
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 0,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "50": {
+        "id": 50,
         "name": "Jazda bez biletu",
-        "stations": {
-            "6": 1
+        "place": "Przystanek autobusowy",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "51": {
+        "id": 51,
         "name": "Jazda bez biletu",
-        "stations": {
-            "6": 1
+        "place": "Przystanek tramwajowy",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 5
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "52": {
+        "id": 52,
         "name": "Jazda bez biletu",
-        "stations": {
-            "6": 1
+        "place": "Dworzec kolejowy (ruch podmiejski)",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 6
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "53": {
+        "id": 53,
         "name": "Jazda bez biletu",
-        "stations": {
-            "6": 1
+        "place": "Dworzec kolejowy (ruch podmiejski i dalekobie\u017cny)",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 7
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "54": {
+        "id": 54,
         "name": "Incydent z zaparkowanym pojazdem",
-        "stations": {
-            "6": 1
+        "place": "Centrum handlowe",
+        "average_credits": 120,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 14
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "55": {
+        "id": 55,
         "name": "B\u00f3jka",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "56": {
+        "id": 56,
         "name": "Zamieszki",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 500,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 55
+        "prerequisites": {
+            "police_stations": 2
         }
     },
     "57": {
+        "id": 57,
         "name": "Nielegalna demonstracja",
-        "vehicles": {
-            "police": 7
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "credits": 10020
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
     },
     "58": {
+        "id": 58,
         "name": "Po\u017car kuchni",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "59": {
-        "name": "Ratunek zwierz\u0119cia",
-        "stations": {
-            "0": 6
+        "id": 59,
+        "name": "Uwi\u0119zione zwierz\u0119",
+        "place": "Gospodarstwo rolne",
+        "average_credits": 900,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 900,
-        "poi": 21
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "60": {
+        "id": 60,
         "name": "Po\u017car hali sportowej",
-        "stations": {
-            "0": 9,
-            "2": 2
+        "place": "Szko\u0142a",
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
         },
-        "credits": 2000,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 12
-    },
-    "61": {
-        "name": "Katastrofa lekkiego samolotu (lotnisko)",
-        "stations": {
-            "0": 4,
-            "2": 2
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Interna"
         },
-        "vehicles": {
-            "truck": 1,
-            "arff": 2
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 4,
-            "transport": 60,
-            "specialisation": "Traumatologia"
-        },
-        "poi": 28
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
     },
     "62": {
+        "id": 62,
         "name": "Skarga na ha\u0142as",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "63": {
+        "id": 63,
         "name": "Przemijaj\u0105cy incydent niedokrwienny",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 70,
-        "specialisation": "Neurochirurgia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "64": {
+        "id": 64,
         "name": "Wypadek z udzia\u0142em autobusu",
-        "stations": {
-            "0": 3,
-            "2": 8
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 12,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
         }
     },
     "65": {
+        "id": 65,
         "name": "Po\u017car kuchni",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "66": {
+        "id": 66,
         "name": "Po\u017car pomieszczenia",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "67": {
+        "id": 67,
         "name": "B\u00f3jka",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "68": {
+        "id": 68,
         "name": "Po\u017car du\u017cego supermarketu",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Supermarket (du\u017cy)",
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2,
-            "platform": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "Interna"
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "tanker": 20
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "69": {
+        "id": 69,
         "name": "Wyciek nieznanej substancji z cysterny",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
         },
-        "credits": 4300
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "70": {
+        "id": 70,
         "name": "Po\u017car du\u017cego supermarketu",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Supermarket (du\u017cy)",
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 2,
-            "platform": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "Interna"
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "tanker": 20
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "71": {
+        "id": 71,
         "name": "Krwawienie z nosa",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "specialisation": "Chirurg og\u00f3lny"
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "72": {
-        "name": "Katastrofa lekkiego samolotu",
-        "stations": {
-            "0": 13,
-            "2": 2
+        "id": 72,
+        "name": "Katastrofa awionetki",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "tanker": 1,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
         },
-        "credits": 4000,
-        "patients": {
-            "max": 4,
-            "transport": 60,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
         },
-        "percentages": {
-            "hazmat": 50
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
         }
     },
     "73": {
+        "id": 73,
         "name": "Powa\u017cny wypadek z udzia\u0142em autobusu",
-        "stations": {
-            "0": 5,
-            "2": 8,
-            "6": 2
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "platform": 1,
-            "heavyRescue": 2,
-            "police": 2
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 2000,
-        "patients": {
-            "max": 12,
-            "transport": 80,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
         }
     },
     "74": {
+        "id": 74,
         "name": "Du\u017cy po\u017car",
-        "vehicles": {
-            "truck": 10,
-            "bchief": 3,
-            "platform": 2,
-            "tanker": 2,
-            "heavyRescue": 2
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
-        "credits": 10210
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
     },
     "75": {
+        "id": 75,
         "name": "Agresywny pasa\u017cer",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "transport": 30,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
-    },
-    "76": {
-        "name": "Kradzie\u017c na jarmarku bo\u017conarodzeniowym",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "poi": 17
-    },
-    "77": {
-        "name": "P\u0142on\u0105cy stragan bo\u017conarodzeniowy",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 610,
-        "patients": {
-            "max": 1,
-            "specialisation": "Interna"
-        },
-        "poi": 17
-    },
-    "78": {
-        "name": "Po\u017car na jarmarku bo\u017conarodzeniowym",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 310,
-        "patients": {
-            "max": 1,
-            "specialisation": "Interna"
-        },
-        "poi": 17
-    },
-    "79": {
-        "name": "Wypadek drogowy - l\u00f3d",
-        "stations": {
-            "0": 4
-        },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
-        },
-        "credits": 1410,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
-        },
-        "percentages": {
-            "heavyRescue": 100
-        }
-    },
-    "80": {
-        "name": "P\u0142on\u0105ca choinka",
-        "stations": {
-            "0": 6
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 870
-    },
-    "81": {
-        "name": "P\u0142on\u0105cy wieniec adwentowy",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 800
-    },
-    "82": {
-        "name": "B\u00f3jka na jarmarku bo\u017conarodzeniowym",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 2
-        },
-        "credits": 600,
-        "patients": {
-            "max": 2,
-            "specialisation": "Traumatologia"
-        },
-        "poi": 17
     },
     "83": {
+        "id": 83,
         "name": "Osoba uwi\u0119ziona pod maszyn\u0105",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2
         },
-        "credits": 1100,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "84": {
+        "id": 84,
         "name": "Uszkodzony dach",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
         },
-        "credits": 450,
-        "percentages": {
-            "platform": 50
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "85": {
+        "id": 85,
         "name": "Dachowanie samochodu",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 1
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "police": 1,
-            "ambulance": 3
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1300,
-        "patients": {
-            "max": 5,
-            "min": 1,
-            "transport": 20,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "86": {
+        "id": 86,
         "name": "Po\u017car samochodu ci\u0119\u017carowego z naczep\u0105",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3
+        "requirements": {
+            "firetrucks": 3
         },
-        "credits": 900
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "87": {
+        "id": 87,
         "name": "Wypadek traktora",
-        "stations": {
-            "0": 3,
-            "2": 1
+        "place": "Gospodarstwo rolne",
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "ambulance": 1
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "transport": 0,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 0
         },
-        "poi": 21
-    },
-    "88": {
-        "name": "Po\u017car pojazdu wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 1
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
         },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 370
-    },
-    "89": {
-        "name": "Po\u017car gabaryt\u00f3w wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 220
-    },
-    "90": {
-        "name": "Po\u017car ma\u0142ego pola wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 1000
-    },
-    "91": {
-        "name": "Po\u017car piwnicy wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Interna"
-        },
-        "percentages": {
-            "bchief": 90
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
         }
-    },
-    "92": {
-        "name": "Po\u017car wiaty przystankowej wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 900,
-        "poi": 4
-    },
-    "93": {
-        "name": "Po\u017car balkonu wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
-        },
-        "credits": 1500,
-        "percentages": {
-            "platform": 30
-        }
-    },
-    "94": {
-        "name": "P\u0142on\u0105ce kontenery z papierem podpalone przez fajerwerki",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "95": {
-        "name": "Po\u017car \u017cywop\u0142otu podpalonego przez petard\u0119",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "96": {
-        "name": "Kierowca pijany po imprezie sylwestrowej",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150
-    },
-    "97": {
-        "name": "Po\u017car dachu krytego strzech\u0105 wywo\u0142any fajerwerkami",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 5,
-            "platform": 1,
-            "bchief": 1,
-            "air": 1,
-            "police": 2
-        },
-        "credits": 4200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Interna"
-        },
-        "percentages": {
-            "air": 30
-        }
-    },
-    "98": {
-        "name": "Uszkodzenie pojazdu wywo\u0142ane fajerwerkami",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "99": {
-        "name": "Naruszenie przepis\u00f3w ustawy o materia\u0142ach wybuchowych przeznaczonych do u\u017cytku cywilnego",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "100": {
-        "name": "Uraz r\u0119ki w wyniku u\u017cycia fajerwerk\u00f3w",
-        "stations": {
-            "2": 3
-        },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Traumatologia"
     },
     "101": {
+        "id": 101,
         "name": "P\u0142on\u0105cy pojazd ci\u0119\u017carowy",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 2500,
-        "percentages": {
-            "tanker": 10
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
         }
     },
     "102": {
+        "id": 102,
         "name": "P\u0142on\u0105ca \u015bmieciarka",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 2,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 1
         },
-        "credits": 5000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "103": {
+        "id": 103,
         "name": "Wypadek motocyklowy",
-        "stations": {
-            "0": 3,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2300,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
         }
     },
     "104": {
+        "id": 104,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie boczne",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 1
+        "place": null,
+        "average_credits": 3200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 3200,
-        "patients": {
-            "max": 5,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 7
         }
     },
     "105": {
+        "id": 105,
         "name": "Najechanie na ty\u0142 samochodu",
-        "stations": {
-            "0": 4,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "rth": 10,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     },
     "106": {
+        "id": 106,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie czo\u0142owe",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 1
+        "place": null,
+        "average_credits": 3200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 3200,
-        "patients": {
-            "max": 5,
-            "min": 1,
-            "transport": 50,
-            "rth": 70,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 70
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 7
         }
     },
     "107": {
+        "id": 107,
         "name": "Wypadek na przeje\u017adzie kolejowym",
-        "stations": {
-            "0": 7,
-            "2": 2,
-            "6": 1
+        "place": "Przejazd kolejowy",
+        "average_credits": 3700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 3700,
-        "patients": {
-            "max": 4,
-            "min": 1,
-            "transport": 50,
-            "rth": 50,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
         },
-        "poi": 24
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "108": {
+        "id": 108,
         "name": "Nag\u0142e zatrzymanie kr\u0105\u017cenia",
-        "stations": {
-            "0": 7,
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Interna"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "109": {
+        "id": 109,
         "name": "Udar m\u00f3zgu",
-        "stations": {
-            "0": 3,
-            "2": 2
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
         },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Interna"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
         }
     },
     "110": {
+        "id": 110,
         "name": "Ci\u0119\u017cki uraz miednicy",
-        "stations": {
-            "0": 5,
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
         },
-        "credits": 1800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Chirurg og\u00f3lny"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "111": {
-        "name": "Amputacja urazowa ko\u0144czyny,",
-        "stations": {
-            "0": 6,
-            "2": 3
+        "id": 111,
+        "name": "Amputacja urazowa ko\u0144czyny",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
         },
-        "credits": 2200,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Chirurg og\u00f3lny"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "112": {
+        "id": 112,
         "name": "Uraz g\u0142owy wymagaj\u0105cy pilnej interwencji neurochirurgicznej",
-        "stations": {
-            "0": 7,
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 90
         },
-        "credits": 1800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 90,
-            "specialisation": "Neurochirurgia"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "113": {
+        "id": 113,
         "name": "Oparzenie II\u00ba i III\u00ba przekraczaj\u0105ce 20% powierzchni cia\u0142a",
-        "stations": {
-            "0": 3,
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 80
         },
-        "credits": 1800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 80,
-            "specialisation": "Chirurg og\u00f3lny"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "114": {
+        "id": 114,
         "name": "Uraz kr\u0119gos\u0142upa",
-        "stations": {
-            "0": 7,
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "ambulance": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
         },
-        "credits": 1800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 50,
-            "specialisation": "Chirurg og\u00f3lny"
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     },
     "115": {
+        "id": 115,
         "name": "Pomoc Policji w otwarciu mieszkania",
-        "stations": {
-            "0": 2,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "police": 1
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 2
         }
     },
     "116": {
+        "id": 116,
         "name": "Czujka czadu w budynku mieszkalnym",
-        "stations": {
-            "0": 2,
-            "2": 1,
-            "6": 0
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1100,
-        "patients": {
-            "max": 2,
-            "transport": 80,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 0,
+            "fire_stations": 2
         }
     },
     "117": {
+        "id": 117,
         "name": "Rozszczelnienie Butli z gazem",
-        "stations": {
-            "0": 8,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1800
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 8
+        }
     },
     "118": {
+        "id": 118,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "stations": {
-            "0": 12
+        "place": "Magazyn",
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 2
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2
         },
-        "credits": 6500,
-        "poi": 32
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 12
+        }
     },
     "119": {
+        "id": 119,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "stations": {
-            "0": 12
+        "place": null,
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 2
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2
         },
-        "credits": 6500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 12
+        }
     },
     "120": {
+        "id": 120,
         "name": "Po\u017car Ma\u0142ego Magazynu",
-        "stations": {
-            "0": 12
+        "place": "Fabryka",
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 2
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2
         },
-        "credits": 6500,
-        "poi": 44
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 12
+        }
     },
     "121": {
+        "id": 121,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "stations": {
-            "0": 15
+        "place": "Magazyn",
+        "average_credits": 9500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 4
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 4
         },
-        "credits": 9500,
-        "poi": 32
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 15
+        }
     },
     "122": {
+        "id": 122,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "stations": {
-            "0": 15
+        "place": null,
+        "average_credits": 9500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 4
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 4
         },
-        "credits": 9500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 15
+        }
     },
     "123": {
+        "id": 123,
         "name": "Po\u017car Du\u017cego Magazynu",
-        "stations": {
-            "0": 15
+        "place": "Fabryka",
+        "average_credits": 9500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 1,
-            "platform": 4
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 4
         },
-        "credits": 9500,
-        "poi": 44
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 15
+        }
     },
     "124": {
+        "id": 124,
         "name": "Po\u017car Pustostanu",
-        "stations": {
-            "0": 12,
-            "2": 3,
-            "6": 1
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 1,
-            "platform": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
         },
-        "credits": 4500,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 12
         }
     },
     "125": {
+        "id": 125,
         "name": "Po\u017car chlewni",
-        "stations": {
-            "0": 16,
-            "2": 3,
-            "6": 1
+        "place": "Gospodarstwo rolne",
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 1,
-            "platform": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 6500,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 21
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 16
+        }
     },
     "126": {
+        "id": 126,
         "name": "Zad\u0142awienie",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Interna"
-    },
-    "127": {
-        "name": "Wypadek Na Przeje\u017adzie Kolejowym",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 1
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
         },
-        "credits": 3700,
-        "patients": {
-            "max": 4,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Chirurg og\u00f3lny"
-        },
-        "poi": 24
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "128": {
+        "id": 128,
         "name": "Po\u017car w sto\u0142\u00f3wce",
-        "stations": {
-            "0": 6,
-            "2": 2
+        "place": "Szko\u0142a",
+        "average_credits": 1300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 1300,
-        "patients": {
-            "max": 2,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 12
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
     },
     "129": {
+        "id": 129,
         "name": "Wypadek rowerzysty na trasie rowerowej",
-        "stations": {
-            "2": 2,
-            "6": 1
+        "place": "Las",
+        "average_credits": 800,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 50,
-            "rth": 30,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
         },
-        "poi": 3
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1
+        }
     },
     "130": {
+        "id": 130,
         "name": "Zatrzymanie akcji serca",
-        "stations": {
-            "2": 4
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "rth": 100,
-        "specialisation": "Kardiologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
     },
     "131": {
+        "id": 131,
         "name": "Unieruchomiony Wspinacz",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 650,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Interna"
+        "chances": {
+            "platform_trucks": 50
         },
-        "percentages": {
-            "platform": 50
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "132": {
+        "id": 132,
         "name": "Pochylone drzewo na budynek mieszkalny",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 700
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "133": {
+        "id": 133,
         "name": "Zagro\u017cenie dla urz\u0119dnika pa\u0144stwowego",
-        "stations": {
-            "2": 1,
-            "6": 4
+        "place": "Stacja metra",
+        "average_credits": 750,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 750,
-        "patients": {
-            "max": 1,
-            "specialisation": "Interna"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Interna"
         },
-        "poi": 46,
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
         }
     },
     "134": {
+        "id": 134,
         "name": "Zwierz\u0119 uwi\u0119zione w studni",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "135": {
+        "id": 135,
         "name": "Po\u017car silosu",
-        "stations": {
-            "0": 8
+        "place": "Silos",
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "platform": 1,
-            "heavyRescue": 1,
-            "bchief": 2
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 3000,
-        "poi": 53
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
     },
     "136": {
+        "id": 136,
         "name": "Po\u017car Stodo\u0142y",
-        "stations": {
-            "0": 12
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 9,
-            "bchief": 2,
-            "platform": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "police_cars": 1
         },
-        "credits": 3500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 12
+        }
     },
     "137": {
+        "id": 137,
         "name": "Poszkodowana osoba przez s\u0142up wysokiego napi\u0119cia",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 650,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 60,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "138": {
+        "id": 138,
         "name": "Uwi\u0119ziony pies w rzece",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "139": {
+        "id": 139,
         "name": "P\u0142on\u0105cy stos bel s\u0142omy",
-        "stations": {
-            "0": 8
+        "place": "Gospodarstwo rolne",
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
         },
-        "credits": 1500,
-        "poi": 21
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
     },
     "140": {
+        "id": 140,
         "name": "Zalana piwnica",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "141": {
+        "id": 141,
         "name": "Nalot policyjny na rezydencj\u0119",
-        "stations": {
-            "6": 4
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 4
+        "requirements": {
+            "police_cars": 4
         },
-        "credits": 750,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     },
     "142": {
+        "id": 142,
         "name": "Ucieczka wi\u0119\u017ania",
-        "stations": {
-            "6": 7,
-            "13": 1
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "k9": 1,
-            "police": 10,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
         },
-        "credits": 4000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
         }
     },
     "143": {
+        "id": 143,
         "name": "Uciekaj\u0105cy podejrzany",
-        "stations": {
-            "6": 4,
-            "13": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 5,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
         },
-        "credits": 3000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
         }
     },
     "144": {
+        "id": 144,
         "name": "Poszukiwana osoba",
-        "stations": {
-            "0": 6,
-            "2": 1,
-            "6": 4,
-            "13": 1
+        "place": "Las",
+        "average_credits": 4500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 5,
-            "truck": 2,
-            "bchief": 1,
-            "policeHeli": 1
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 5
         },
-        "credits": 4500,
-        "patients": {
-            "max": 1,
-            "specialisation": "Interna"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
         },
-        "poi": 3
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
     },
     "145": {
+        "id": 145,
         "name": "Oczekuj\u0105cy nakaz",
-        "stations": {
-            "6": 2,
-            "13": 1
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 3,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
         },
-        "credits": 2000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 146
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 146
+        "prerequisites": {
+            "police_stations": 2,
+            "police_helicopter_stations": 1
         }
     },
     "146": {
+        "id": 146,
         "name": "Ranny funkcjonariusz",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "police": 6
+        "requirements": {
+            "police_cars": 6
         },
-        "credits": 1500,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Chirurg og\u00f3lny"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "147": {
+        "id": 147,
         "name": "Przeszukanie pojazdu",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 2,
+        "requirements": {
+            "police_cars": 2,
             "k9": 1
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 6
+        }
     },
     "148": {
+        "id": 148,
         "name": "Ma\u0142y niebezpieczny protest",
-        "stations": {
-            "2": 2,
-            "6": 6
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 4,
+        "requirements": {
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 2200,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 149
+            },
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 2
-        },
-        "expansions": {
-            "0": 149
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
         }
     },
     "149": {
+        "id": 149,
         "name": "\u015aredni niebezpieczny protest",
-        "stations": {
-            "2": 3,
-            "6": 7,
-            "13": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 7,
-            "k9": 1,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 5,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 4
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "police_helicopter_stations": 1
         }
     },
     "150": {
-        "name": "Handel narkotykamil",
-        "stations": {
-            "6": 6
+        "id": 150,
+        "name": "Handel Narkotykami",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
         },
-        "vehicles": {
-            "police": 4,
+        "requirements": {
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 1500,
-        "prisoners": {
-            "max": 2
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "151": {
+        "id": 151,
         "name": "Napad na stacj\u0119 benzynow\u0105",
-        "stations": {
-            "6": 8,
-            "13": 1
+        "place": "Stacja paliw",
+        "average_credits": 1250,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4
         },
-        "credits": 1250,
-        "poi": 11,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 12
         },
-        "special": {
-            "SWATPersonnel": 12
+        "prerequisites": {
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         }
     },
     "152": {
+        "id": 152,
         "name": "Policjant pod ostrza\u0142em",
-        "stations": {
-            "2": 1,
-            "6": 10,
-            "13": 1
+        "place": null,
+        "average_credits": 4100,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 8,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
             "k9": 2
         },
-        "credits": 4100,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
         },
-        "special": {
-            "SWATPersonnel": 6
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
         }
     },
     "153": {
+        "id": 153,
         "name": "Przem\u00f3wienie VIPa",
-        "stations": {
-            "6": 15
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
         },
-        "vehicles": {
-            "police": 6,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
             "k9": 2
         },
-        "credits": 4000,
-        "special": {
-            "SWATPersonnel": 18
+        "chances": {},
+        "additional": {
+            "duration": "30 minut",
+            "swat_personnel": 18,
+            "guard_mission": true
         },
-        "siwa": true,
-        "dauer": "30 minutes"
+        "prerequisites": {
+            "police_stations": 15
+        }
     },
     "154": {
+        "id": 154,
         "name": "Najazd na dom",
-        "stations": {
-            "6": 9,
-            "13": 1
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "policeHeli": 1,
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 1250,
-        "prisoners": {
-            "max": 2
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "swat_personnel": 4
         },
-        "special": {
-            "SWATPersonnel": 4
+        "prerequisites": {
+            "police_stations": 9,
+            "police_helicopter_stations": 1
         }
     },
     "155": {
+        "id": 155,
         "name": "Usi\u0142owanie morderstwa",
-        "stations": {
-            "2": 1,
-            "6": 9
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 6,
+        "requirements": {
+            "police_cars": 6,
             "k9": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
         },
-        "special": {
-            "SWATPersonnel": 6
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
         }
     },
     "156": {
+        "id": 156,
         "name": "Napad na muzeum",
-        "stations": {
-            "6": 9
+        "place": "Muzeum",
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 4,
+        "requirements": {
+            "police_cars": 4,
             "k9": 1
         },
-        "credits": 1000,
-        "poi": 13,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 6
         },
-        "special": {
-            "SWATPersonnel": 6
+        "prerequisites": {
+            "police_stations": 9
         }
-    },
-    "157": {
-        "name": "Kradzie\u017c Jaj Wielkanocnych",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "158": {
-        "name": "Skradziony p\u0119dzel z warsztatu",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150,
-        "poi": 12,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "159": {
-        "name": "T\u0105pni\u0119cie zaj\u0119czej nory",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 2,
-            "heavyRescue": 1,
-            "police": 2
-        },
-        "credits": 1500
-    },
-    "160": {
-        "name": "Potr\u0105cony Zaj\u0105czek Wielkanocny",
-        "stations": {
-            "2": 3,
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 38,
-            "specialisation": "Traumatologia"
-        }
-    },
-    "161": {
-        "name": "P\u0142on\u0105cy koszyk wielkanocny",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 110
-    },
-    "162": {
-        "name": "Wyciek gor\u0105cej czekolady",
-        "stations": {
-            "0": 10,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 1
-        },
-        "credits": 5000
-    },
-    "163": {
-        "name": "Po\u017car podgrzewacza do Jaj",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 800
-    },
-    "164": {
-        "name": "Jarmark Wielkanocny",
-        "stations": {
-            "0": 2,
-            "2": 4,
-            "6": 7
-        },
-        "vehicles": {
-            "police": 8,
-            "ambulance": 4,
-            "truck": 2
-        },
-        "credits": 7000,
-        "poi": 20,
-        "siwa": true,
-        "dauer": "2 godziny"
-    },
-    "165": {
-        "name": "Wypadek ci\u0119\u017car\u00f3wki z Jajami Wielkanocnymi",
-        "stations": {
-            "0": 8
-        },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "bchief": 1
-        },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "specialisation": "Traumatologia"
-        }
-    },
-    "166": {
-        "name": "Poszukiwanie Jaj Wielkanocnych",
-        "stations": {
-            "6": 3
-        },
-        "vehicles": {
-            "police": 6
-        },
-        "credits": 1000
-    },
-    "167": {
-        "name": "Powieszony Zaj\u0105czek Wielkanocny na d\u017awigu.",
-        "stations": {
-            "0": 12,
-            "6": 1
-        },
-        "vehicles": {
-            "platform": 1,
-            "bchief": 1,
-            "police": 1,
-            "truck": 1
-        },
-        "credits": 2000
     },
     "168": {
+        "id": 168,
         "name": "Wybuch gazu w mieszkaniu",
-        "stations": {
-            "0": 8,
-            "2": 4
+        "place": null,
+        "average_credits": 5200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "platform": 2,
-            "bchief": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1
         },
-        "credits": 5200,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 50
         },
-        "percentages": {
-            "tanker": 20
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
         }
     },
     "169": {
+        "id": 169,
         "name": "Ulatniaj\u0105cy si\u0119 gaz",
-        "stations": {
-            "0": 5
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1
         },
-        "credits": 2200,
-        "percentages": {
-            "hazmat": 20
+        "chances": {
+            "hazmat_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
         }
     },
     "170": {
+        "id": 170,
         "name": "Zatrzymanie obywatelskie (pijany kierowca)",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "171": {
+        "id": 171,
         "name": "Zatrzymanie obywatelskie (pr\u00f3ba ucieczki sprawcy wypadku)",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 2000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2
+        }
     },
     "172": {
+        "id": 172,
         "name": "Podejrzana osoba pod szko\u0142\u0105 (diler)",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "173": {
+        "id": 173,
         "name": "Pr\u00f3ba samob\u00f3jcza (skok z budynku)",
-        "stations": {
-            "0": 5,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "platform": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "platform_trucks": 1,
+            "police_cars": 1
         },
-        "credits": 3500,
-        "patients": {
-            "max": 1,
-            "transport": 80,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "174": {
+        "id": 174,
         "name": "Po\u017car autokaru",
-        "stations": {
-            "0": 4
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
         },
-        "credits": 3000
-    },
-    "175": {
-        "name": "Zalany dom",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 1200
-    },
-    "176": {
-        "name": "Zalany gara\u017c",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 1200
-    },
-    "177": {
-        "name": "Kot na drzewie",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1
-        },
-        "credits": 1500,
-        "percentages": {
-            "platform": 20
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
         }
     },
-    "178": {
-        "name": "Kolizja drogowa",
-        "stations": {
-            "0": 3,
-            "6": 1
+    "175": {
+        "id": 175,
+        "name": "Zalany dom",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Zalany gara\u017c",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "177": {
+        "id": 177,
+        "name": "Kot na drzewie",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "179": {
+        "id": 179,
         "name": "Potr\u0105cenie na przej\u015bciu dla pieszych",
-        "stations": {
-            "0": 4,
-            "2": 3,
-            "6": 1
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 2500,
-        "patients": {
-            "max": 3,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     },
     "180": {
+        "id": 180,
         "name": "Wypadek ma\u0142ego busa przewo\u017c\u0105cego osoby",
-        "stations": {
-            "0": 12,
-            "2": 5,
-            "6": 1
+        "place": null,
+        "average_credits": 5500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1,
-            "truck": 5,
-            "bchief": 1,
-            "heavyRescue": 2,
-            "ambulance": 1
+        "requirements": {
+            "firetrucks": 5,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
         },
-        "credits": 5500,
-        "patients": {
-            "max": 5,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Interna"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "Po\u017car transformatora",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "Rozleg\u0142y po\u017car wysypiska \u015bmieci",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 17,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 90,
+            "hazmat_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 21
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Potrzebne Wsparcie Podczas Zatrzymania",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 113
+            },
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "184": {
+        "id": 184,
+        "name": "Gniazdo szerszeni w budynku mieszkalnym",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Poszukiwania zaginionej osoby",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "186": {
+        "id": 186,
+        "name": "Zabezpieczenie meczu pi\u0142karskiego",
+        "place": "Stadion",
+        "average_credits": 3700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 4,
+            "swat_personnel": 12,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 8,
+            "fire_stations": 7
         }
     }
 }

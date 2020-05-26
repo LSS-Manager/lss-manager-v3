@@ -55,7 +55,8 @@
                 17: "Polizei-Sondereinheiten",
                 18: "Feuerwache (Kleinwache)",
                 19: "Polizeiwache (Kleinwache)",
-                20: "Rettungswache (Kleinwache)"
+                20: "Rettungswache (Kleinwache)",
+                21: "Rettungshundestaffel"
             },
             vehicleTypes: {
                 0: 'LF 20',
@@ -148,7 +149,8 @@
                 87: 'TLF 4000',
                 88: 'KLF',
                 89: 'MLF',
-                90: 'HLF 10'
+                90: 'HLF 10',
+                91: 'Rettungshundefahrzeug'
             }
         }
     };
@@ -1103,7 +1105,7 @@
                 6: 'Camión BNP',
                 7: 'Camión TPP',
                 8: 'Coche patrulla',
-                9: 'Helicóptero HSR',
+                9: 'HEMS',
                 10: 'Vehículo aéreo',
                 11: 'Vehículo de mando móvil',
                 12: 'Vehículo de rescate'
@@ -1494,7 +1496,7 @@
                 6: 'Säiliöauto',
                 7: 'Kemikaalitorjunta',
                 8: 'Partioauto',
-                9: 'Lääkärihelikopteri'
+                9: 'Lääkärihelikopteri (HEMS)'
             }
         }
     };

@@ -1,2566 +1,3634 @@
 {
     "0": {
+        "id": 0,
         "name": "Bidone in fiamme",
-        "stations": {
-            "0": 1
+        "place": "Fermata dell'autobus",
+        "average_credits": 110,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 110,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "1": {
+        "id": 1,
         "name": "Container in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 170
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "2": {
+        "id": 2,
         "name": "Auto in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 370,
-        "expansions": {
-            "0": 27,
-            "1": 16,
-            "2": 19
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "3": {
+        "id": 3,
         "name": "Moto in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 400,
-        "expansions": {
-            "0": 27
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "4": {
+        "id": 4,
         "name": "Erba che brucia",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 300,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "5": {
+        "id": 5,
         "name": "Stanza in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "6": {
+        "id": 6,
         "name": "Casotto nel giardino in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "7": {
+        "id": 7,
         "name": "Foglie che bruciano",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 210,
-        "expansions": {
-            "0": 14
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "8": {
+        "id": 8,
         "name": "Rifiuti sparsi in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 220,
-        "expansions": {
-            "0": 20,
-            "1": 22,
-            "2": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "9": {
+        "id": 9,
         "name": "Balla di paglia in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 250,
-        "expansions": {
-            "0": 14,
-            "1": 6
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "10": {
+        "id": 10,
         "name": "Trattore in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 600
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "11": {
+        "id": 11,
         "name": "Cabina telefonica in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 240
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "12": {
+        "id": 12,
         "name": "Albero su strada",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 310,
-        "expansions": {
-            "0": 25
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     },
     "13": {
+        "id": 13,
         "name": "Camion in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 980
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "14": {
+        "id": 14,
         "name": "Piccolo campo in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2
+        "requirements": {
+            "firetrucks": 2
         },
-        "credits": 1000,
-        "expansions": {
-            "0": 15
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "15": {
+        "id": 15,
         "name": "Piccolo incendio boschivo",
-        "stations": {
-            "0": 1
+        "place": "Bosco",
+        "average_credits": 1010,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1010,
-        "poi": 3
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "16": {
+        "id": 16,
         "name": "Roulotte in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1100
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "17": {
+        "id": 17,
         "name": "Buca delle lettere in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 340
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "18": {
+        "id": 18,
         "name": "Mucchio di arbusti",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 700
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "19": {
+        "id": 19,
         "name": "Rimorchio in fiamme",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 650
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "20": {
+        "id": 20,
         "name": "Seminterrato in fiamme",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "battalion_chief_vehicles": 20
         },
-        "percentages": {
-            "bchief": 20
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "21": {
+        "id": 21,
         "name": "Camino in fiamme",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
         },
-        "credits": 600,
-        "expansions": {
-            "0": 22
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
         }
     },
     "22": {
+        "id": 22,
         "name": "Tetto in fiamme",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 900
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "23": {
+        "id": 23,
         "name": "Incendio da grasso",
-        "stations": {
-            "0": 3
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1200
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "24": {
+        "id": 24,
         "name": "Incendio fermata autobus",
-        "stations": {
-            "0": 3
+        "place": "Fermata dell'autobus",
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 900,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     },
     "25": {
+        "id": 25,
         "name": "Incidente stradale",
-        "stations": {
-            "0": 2,
-            "2": 3
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 4,
-            "transport": 40,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 40
         },
-        "expansions": {
-            "0": 24,
-            "1": 2,
-            "2": 29
+        "additional": {
+            "possible_patient": 4,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 2
         }
     },
     "26": {
+        "id": 26,
         "name": "Incendio in supermercato (PICCOLO)",
-        "stations": {
-            "0": 5,
-            "2": 3
+        "place": "Supermercato (piccolo)",
+        "average_credits": 1300,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1300,
-        "patients": {
-            "max": 4,
-            "transport": 35,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 35
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 5
+        }
     },
     "27": {
+        "id": 27,
         "name": "Garage in fiamme",
-        "stations": {
-            "0": 4
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1100
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
     },
     "28": {
+        "id": 28,
         "name": "Macchinario in fiamme",
-        "stations": {
-            "0": 5
+        "place": null,
+        "average_credits": 1700,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1700
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
     },
     "29": {
+        "id": 29,
         "name": "Fuoriuscita sconosciuta da autocisterna",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "police": 2,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 3000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "30": {
+        "id": 30,
         "name": "Perdita di gas",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "31": {
+        "id": 31,
         "name": "Camino in fiamme",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "platform": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
         },
-        "credits": 1310
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "32": {
+        "id": 32,
         "name": "Mietitrice in fiamme",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 800
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "33": {
+        "id": 33,
         "name": "Incendio in supermercato (PICCOLO)",
-        "stations": {
-            "0": 5,
-            "2": 1
+        "place": "Supermercato (piccolo)",
+        "average_credits": 1100,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1100,
-        "patients": {
-            "max": 4,
-            "transport": 30,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 30
         },
-        "poi": 9
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
     },
     "34": {
+        "id": 34,
         "name": "Incendio in ospedale",
-        "stations": {
-            "0": 10,
-            "2": 6
+        "place": "Ospedale",
+        "average_credits": 8200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 8,
-            "bchief": 2,
-            "heavyRescue": 3,
-            "tanker": 1,
-            "platform": 2,
-            "mcv": 1,
-            "air": 1
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
         },
-        "credits": 8200,
-        "patients": {
-            "max": 25,
-            "transport": 40,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 40
         },
-        "poi": 2
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     },
     "35": {
+        "id": 35,
         "name": "Intossicazione da alcol",
-        "stations": {
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "specialisation": "Medicina interna generale"
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     },
     "36": {
+        "id": 36,
         "name": "Dolore toracico",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "specialisation": "Cardiologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "37": {
+        "id": 37,
         "name": "Asma acuto",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Medicina interna generale"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "38": {
+        "id": 38,
         "name": "Epilessia",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 50,
-        "specialisation": "Neurologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "39": {
+        "id": 39,
         "name": "Febbre",
-        "stations": {
-            "2": 3
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Medicina interna generale"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     },
     "40": {
+        "id": 40,
         "name": "Caduta accidentale",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 80,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "41": {
+        "id": 41,
         "name": "Incendio in officina meccanica",
-        "stations": {
-            "0": 14,
-            "2": 2,
-            "6": 2
+        "place": "Officina meccanica",
+        "average_credits": 5500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "platform": 1,
-            "heavyRescue": 2,
-            "tanker": 1,
-            "hazmat": 1,
-            "police": 2,
-            "air": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 5500,
-        "patients": {
-            "max": 4,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "battalion_chief_vehicles": 60,
+            "platform_trucks": 40,
+            "water_tankers": 20,
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
         },
-        "poi": 15,
-        "percentages": {
-            "tanker": 20,
-            "bchief": 30,
-            "air": 30,
-            "platform": 40
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
         }
     },
     "42": {
+        "id": 42,
         "name": "Caduta accidentale",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 80,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "43": {
+        "id": 43,
         "name": "Caduta accidentale",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 80,
-        "specialisation": "Traumatologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "44": {
+        "id": 44,
         "name": "Taccheggio",
-        "stations": {
-            "6": 1
+        "place": "Supermercato (piccolo)",
+        "average_credits": 100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 9,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "45": {
+        "id": 45,
         "name": "Taccheggio",
-        "stations": {
-            "6": 1
+        "place": "Supermercato (grande)",
+        "average_credits": 100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 100,
-        "poi": 10,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "46": {
+        "id": 46,
         "name": "Incidente contro auto parcheggiata",
-        "stations": {
-            "6": 1
+        "place": "Supermercato (piccolo)",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 9
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "47": {
+        "id": 47,
         "name": "Incidente contro auto parcheggiata",
-        "stations": {
-            "6": 1
+        "place": "Supermercato (grande)",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 10
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "48": {
+        "id": 48,
         "name": "Furto di metalli",
-        "stations": {
-            "6": 1
+        "place": "Stazione merci",
+        "average_credits": 150,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 8,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "49": {
+        "id": 49,
         "name": "Borseggio",
-        "stations": {
-            "6": 1
+        "place": "Parco",
+        "average_credits": 150,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 150,
-        "poi": 0,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     },
     "50": {
+        "id": 50,
         "name": "Passeggero senza biglietto",
-        "stations": {
-            "6": 1
+        "place": "Fermata dell'autobus",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 4
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "51": {
+        "id": 51,
         "name": "Passeggero senza biglietto",
-        "stations": {
-            "6": 1
+        "place": "Fermata del tram",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 5
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "52": {
+        "id": 52,
         "name": "Passeggero senza biglietto",
-        "stations": {
-            "6": 1
+        "place": "Stazione ferroviaria (traffico regionale)",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 6
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "53": {
+        "id": 53,
         "name": "Passeggero senza biglietto",
-        "stations": {
-            "6": 1
+        "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 7
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "54": {
+        "id": 54,
         "name": "Incidente contro auto parcheggiata",
-        "stations": {
-            "6": 1
+        "place": "Centro commerciale",
+        "average_credits": 120,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 120,
-        "poi": 14
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "55": {
+        "id": 55,
         "name": "Rissa",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 2
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "56": {
+        "id": 56,
         "name": "Manifestante violento",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 500,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 55
+        "prerequisites": {
+            "police_stations": 2
         }
     },
     "57": {
+        "id": 57,
         "name": "Manifestazione non autorizzata",
-        "vehicles": {
-            "police": 7
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "credits": 10020
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
     },
     "58": {
+        "id": 58,
         "name": "Cucina in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "59": {
+        "id": 59,
         "name": "Soccorso animali",
-        "stations": {
-            "0": 6
+        "place": "Azienda agricola",
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 900,
-        "poi": 21
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
     },
     "60": {
+        "id": 60,
         "name": "Palestra in fiamme",
-        "stations": {
-            "0": 9,
-            "2": 2
+        "place": "Scuola",
+        "average_credits": 3000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 1,
-            "air": 1,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 10,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 50
         },
-        "poi": 12
-    },
-    "61": {
-        "name": "Leggero incidente aereo (aerodromo)",
-        "stations": {
-            "0": 4,
-            "2": 2
+        "additional": {
+            "possible_patient": 10,
+            "patient_specializations": "Medicina interna generale"
         },
-        "vehicles": {
-            "truck": 1,
-            "arff": 2
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 4,
-            "transport": 60,
-            "specialisation": "Traumatologia"
-        },
-        "poi": 28
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
     },
     "62": {
+        "id": 62,
         "name": "Lamentele per disturbo della quiete",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "63": {
+        "id": 63,
         "name": "Attacco ischemico transitorio",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 70,
-        "specialisation": "Neurochirurgia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "64": {
+        "id": 64,
         "name": "Incidente con autobus coinvolto",
-        "stations": {
-            "0": 3,
-            "2": 8
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 900,
-        "patients": {
-            "max": 12,
-            "transport": 40,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
         }
     },
     "65": {
+        "id": 65,
         "name": "Cucina in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 400
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
     },
     "66": {
+        "id": 66,
         "name": "Stanza in fiamme",
-        "stations": {
-            "0": 2
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
         },
-        "credits": 700,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "67": {
+        "id": 67,
         "name": "Rissa",
-        "stations": {
-            "6": 3
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 700,
-        "patients": {
-            "max": 3,
-            "transport": 50,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 50
         },
-        "prisoners": {
-            "max": 2
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "68": {
+        "id": 68,
         "name": "Incendio in supermercato (GRANDE)",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Supermercato (grande)",
+        "average_credits": 4500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "bchief": 1,
-            "platform": 1,
-            "heavyRescue": 2,
-            "air": 1,
-            "mcv": 1,
-            "tanker": 1,
-            "police": 2
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 4500,
-        "patients": {
-            "max": 6,
-            "transport": 30,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "mobile_air_vehicles": 40,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "air": 40
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "69": {
+        "id": 69,
         "name": "Fuoriuscita chimica da autocisterna",
-        "stations": {
-            "0": 13,
-            "6": 2
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "bchief": 1,
-            "police": 2,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 2500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
     },
     "70": {
+        "id": 70,
         "name": "Incendio in supermercato (GRANDE)",
-        "stations": {
-            "0": 8,
-            "2": 3,
-            "6": 2
+        "place": "Supermercato (grande)",
+        "average_credits": 4500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "bchief": 1,
-            "platform": 1,
-            "heavyRescue": 2,
-            "air": 1,
-            "mcv": 1,
-            "tanker": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 4500,
-        "patients": {
-            "max": 25,
-            "transport": 30,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "mobile_air_vehicles": 40,
+            "patient_transport": 30
         },
-        "poi": 10,
-        "percentages": {
-            "air": 40
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
         }
     },
     "71": {
+        "id": 71,
         "name": "Epistassi",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "specialisation": "Chirurgia generale"
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "72": {
+        "id": 72,
         "name": "Incidente aereo (LIEVE)",
-        "stations": {
-            "0": 20,
-            "2": 2
+        "place": null,
+        "average_credits": 3200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "bchief": 1,
-            "heavyRescue": 2,
-            "tanker": 1,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
         },
-        "credits": 3200,
-        "patients": {
-            "max": 6,
-            "transport": 50,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 50
         },
-        "percentages": {
-            "hazmat": 50
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 20
         }
     },
     "73": {
+        "id": 73,
         "name": "Grave incidente con autobus coinvolto",
-        "stations": {
-            "0": 5,
-            "2": 8,
-            "6": 2
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 2,
-            "police": 2
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 2200,
-        "patients": {
-            "max": 15,
-            "transport": 50,
-            "specialisation": "Chirurgia generale"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 15,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
         }
     },
     "74": {
+        "id": 74,
         "name": "Grande incendio",
-        "vehicles": {
-            "truck": 10,
-            "bchief": 2,
-            "platform": 2,
-            "tanker": 2,
-            "heavyRescue": 2
+        "place": null,
+        "average_credits": 9800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
         },
-        "credits": 9800
-    },
-    "75": {
-        "name": "Furto al mercatino di Natale",
-        "stations": {
-            "6": 2
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
         },
-        "vehicles": {
-            "police": 1
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
         },
-        "credits": 300,
-        "poi": 17
-    },
-    "76": {
-        "name": "Bancarella del mercatino di Natale in fiamme",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 610,
-        "patients": {
-            "max": 1,
-            "specialisation": "Medicina interna generale"
-        },
-        "poi": 17
-    },
-    "77": {
-        "name": "Fuoco al mercatino di Natale",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 310,
-        "patients": {
-            "max": 1,
-            "specialisation": "Medicina interna generale"
-        },
-        "poi": 17
-    },
-    "78": {
-        "name": "Incidente stradale - ghiaccio",
-        "stations": {
-            "0": 4
-        },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
-        },
-        "credits": 1410,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
-        },
-        "percentages": {
-            "heavyRescue": 100
-        }
-    },
-    "79": {
-        "name": "Albero di Natale in fiamme",
-        "stations": {
-            "0": 6
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 870
-    },
-    "80": {
-        "name": "Corona dell'avvento in fiamme",
-        "stations": {
-            "0": 5
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 800
-    },
-    "81": {
-        "name": "Rissa al mercatino di Natale",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "police": 2
-        },
-        "credits": 600,
-        "patients": {
-            "max": 2,
-            "specialisation": "Traumatologia"
-        },
-        "poi": 17
+        "prerequisites": {}
     },
     "82": {
+        "id": 82,
         "name": "Persona intrappolata sotto un macchinario",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1100,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
-        }
-    },
-    "83": {
-        "name": "Tetto danneggiato",
-        "stations": {
-            "0": 3
+        "chances": {
+            "patient_transport": 100
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
         },
-        "credits": 450,
-        "percentages": {
-            "platform": 50
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "84": {
+        "id": 84,
         "name": "Collisione multipla",
-        "stations": {
-            "0": 4,
-            "6": 1
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "police": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 800
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 4
+        }
     },
     "85": {
+        "id": 85,
         "name": "Tubo acquedotto rotto",
-        "stations": {
-            "0": 6
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1200
-    },
-    "86": {
-        "name": "Auto in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 370
-    },
-    "87": {
-        "name": "Rifiuti ingombranti in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 220
-    },
-    "88": {
-        "name": "Piccolo campo in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 1000
-    },
-    "89": {
-        "name": "Seminterrato in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "bchief": 1,
-            "truck": 3
-        },
-        "credits": 2500,
-        "patients": {
-            "max": 2,
-            "specialisation": "Medicina interna generale"
-        },
-        "percentages": {
-            "bchief": 90
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
         }
-    },
-    "90": {
-        "name": "Fermata dell'autobus in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 3
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 900,
-        "poi": 4
-    },
-    "91": {
-        "name": "Balcone in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2,
-            "platform": 1
-        },
-        "credits": 1500,
-        "percentages": {
-            "platform": 30
-        }
-    },
-    "92": {
-        "name": "Container di carta in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "93": {
-        "name": "Siepe in fiamme a causa di un petardo",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 400
-    },
-    "94": {
-        "name": "Conducente ubriaco dopo la festa di Capodanno",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150
-    },
-    "95": {
-        "name": "Casa con tetto di paglia in fiamme a causa di fuochi d'artificio",
-        "stations": {
-            "0": 7,
-            "2": 3,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 5,
-            "platform": 1,
-            "bchief": 1,
-            "air": 1,
-            "police": 2
-        },
-        "credits": 4200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
-        },
-        "percentages": {
-            "air": 30
-        }
-    },
-    "96": {
-        "name": "Auto danneggiata da fuochi d'artificio",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "97": {
-        "name": "Violazione delle Norme sugli esplosivi",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 200
-    },
-    "98": {
-        "name": "Ferita alla mano provocata da fuochi d'artificio",
-        "stations": {
-            "2": 3
-        },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Traumatologia"
     },
     "99": {
+        "id": 99,
         "name": "Veicolo di trasporto merci pesante in fiamme",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "100": {
+        "id": 100,
         "name": "Veicolo della nettezza urbana in fiamme",
-        "stations": {
-            "0": 7,
-            "6": 1
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
     },
     "101": {
+        "id": 101,
         "name": "Incidente con trattore",
-        "stations": {
-            "0": 3,
-            "2": 1
+        "place": "Azienda agricola",
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "transport": 80,
-            "specialisation": "Chirurgia generale"
+        "chances": {
+            "patient_transport": 80
         },
-        "poi": 21
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
     },
     "102": {
+        "id": 102,
         "name": "Esplosione in box auto",
-        "stations": {
-            "0": 6,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1900,
-        "patients": {
-            "max": 1,
-            "transport": 50,
-            "specialisation": "Chirurgia generale"
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
         }
     },
     "103": {
+        "id": 103,
         "name": "Cisterna treno danneggiata",
-        "stations": {
-            "0": 11
+        "place": "Stazione merci",
+        "average_credits": 1400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1,
-            "hazmat": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1
         },
-        "credits": 1400,
-        "poi": 8
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 11
+        }
     },
     "104": {
+        "id": 104,
         "name": "Soccorso a persona",
-        "stations": {
-            "0": 3,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 700,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 60,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
         }
     },
     "105": {
+        "id": 105,
         "name": "Intossicazione da monossido",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 2
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "air": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 2500,
-        "patients": {
-            "max": 10,
-            "min": 2,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "mobile_air_vehicles": 20,
+            "patient_transport": 50
         },
-        "percentages": {
-            "air": 20
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 5
         }
     },
     "106": {
+        "id": 106,
         "name": "Maxi tamponamento",
-        "stations": {
-            "0": 5,
-            "2": 4,
-            "6": 1
+        "place": null,
+        "average_credits": 3800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 3,
-            "police": 3
+        "requirements": {
+            "firetrucks": 3,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 3
         },
-        "credits": 3800,
-        "patients": {
-            "max": 30,
-            "min": 10,
-            "transport": 30,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 10,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "107": {
+        "id": 107,
         "name": "Auto ribaltata",
-        "stations": {
-            "0": 4,
-            "2": 2,
-            "6": 1
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
+        "requirements": {
+            "firetrucks": 1,
             "fwk": 1,
-            "police": 1,
-            "truck": 1,
-            "heavyRescue": 1
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1500,
-        "patients": {
-            "max": 4,
-            "min": 2,
-            "transport": 80,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "fwk": 50,
+            "patient_transport": 80
         },
-        "percentages": {
-            "fwk": 50
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     },
     "108": {
+        "id": 108,
         "name": "Tir in bilico sul cavalcavia",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 1
+        "place": "Ponte",
+        "average_credits": 3500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
+        "requirements": {
+            "firetrucks": 2,
             "fwk": 1,
-            "truck": 2,
-            "platform": 1,
-            "bchief": 1,
-            "heavyRescue": 2,
-            "police": 2
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 3500,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "patient_transport": 100
         },
-        "percentages": {
-            "bchief": 20
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "109": {
+        "id": 109,
         "name": "Incidente con veicoli particolari",
-        "stations": {
-            "0": 4,
-            "2": 2,
-            "6": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 3,
-            "min": 1,
-            "transport": 90,
-            "rth": 10,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     },
     "110": {
+        "id": 110,
         "name": "Crollo palazzina",
-        "stations": {
-            "0": 6,
-            "2": 4,
-            "6": 1
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 3,
-            "platform": 1,
-            "bchief": 2,
-            "mcv": 1,
-            "police": 1,
-            "fwk": 1
+        "requirements": {
+            "firetrucks": 4,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
         },
-        "credits": 10000,
-        "patients": {
-            "max": 20,
-            "min": 8,
-            "transport": 40,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "fwk": 80,
+            "patient_transport": 40
         },
-        "percentages": {
-            "fwk": 80
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 6
         }
     },
     "111": {
+        "id": 111,
         "name": "Crollo parziale palazzina",
-        "stations": {
-            "0": 5,
-            "2": 2,
-            "6": 1
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 2,
-            "platform": 1,
-            "bchief": 1,
-            "police": 2,
-            "fwk": 1
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 7500,
-        "patients": {
-            "max": 8,
-            "min": 2,
-            "transport": 50,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "fwk": 20,
+            "patient_transport": 50
         },
-        "percentages": {
-            "fwk": 20
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     },
     "112": {
+        "id": 112,
         "name": "Trauma spinale",
-        "stations": {
-            "2": 6
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 100,
-        "rth": 45,
-        "specialisation": "Neurologia"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 6
+        }
     },
     "113": {
+        "id": 113,
         "name": "Caduta da parete rocciosa",
-        "stations": {
-            "0": 1,
-            "2": 6
+        "place": "Bosco",
+        "average_credits": 1200,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "heavyRescue": 2
+        "requirements": {
+            "heavy_rescue_vehicles": 2
         },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "rth": 75,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 75
         },
-        "poi": 3
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 1
+        }
     },
     "114": {
+        "id": 114,
         "name": "Chiamata muta",
-        "stations": {
-            "6": 1
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 500
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "115": {
+        "id": 115,
         "name": "Deragliamento treno",
-        "stations": {
-            "0": 10,
-            "2": 12,
-            "6": 4
+        "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "average_credits": 12000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "heavyRescue": 4,
-            "bchief": 1,
-            "mcv": 1,
-            "police": 4,
-            "hazmat": 1,
-            "fwk": 1
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
         },
-        "credits": 12000,
-        "patients": {
-            "max": 50,
-            "min": 20,
-            "transport": 35,
-            "rth": 5,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 35,
+            "helicopter": 5
         },
-        "poi": 7
+        "additional": {
+            "possible_patient": 50,
+            "possible_patient_min": 20,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 12,
+            "police_stations": 4,
+            "fire_stations": 10
+        }
     },
     "116": {
+        "id": 116,
         "name": "Nave cisterna in fiamme",
-        "stations": {
-            "0": 8,
-            "2": 6,
-            "6": 4
+        "place": "Porto mercantile",
+        "average_credits": 12000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 6,
-            "platform": 1,
-            "bchief": 2,
-            "mcv": 1,
-            "heavyRescue": 4,
-            "hazmat": 1,
-            "air": 1,
-            "tanker": 2,
-            "police": 6
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 6
         },
-        "credits": 12000,
-        "patients": {
-            "max": 40,
-            "min": 10,
-            "transport": 40,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 40
         },
-        "poi": 35
+        "additional": {
+            "possible_patient": 40,
+            "possible_patient_min": 10,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "fire_stations": 8
+        }
     },
     "117": {
+        "id": 117,
         "name": "Persona scomparsa nel bosco",
-        "stations": {
-            "0": 6,
-            "2": 2,
-            "6": 2
+        "place": "Bosco",
+        "average_credits": 6000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 3,
-            "mcv": 1,
-            "police": 3
+        "requirements": {
+            "firetrucks": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 3
         },
-        "credits": 6000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "rth": 20,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
         },
-        "poi": 3,
-        "special": {
-            "averageMinimumEmployeesFire": 20
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 20,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
         }
     },
     "118": {
+        "id": 118,
         "name": "Incidente auto-bici",
-        "stations": {
-            "2": 4,
-            "6": 4
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 90,
-            "rth": 10,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 4
         }
     },
     "119": {
+        "id": 119,
         "name": "Violenza domestica",
-        "stations": {
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 90,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 90
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     },
     "120": {
+        "id": 120,
         "name": "Soffocamento",
-        "stations": {
-            "2": 1
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "onlyRd": true,
-        "transport": 90,
-        "specialisation": "Medicina interna generale"
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     },
     "121": {
+        "id": 121,
         "name": "Scoppio bombola del gas",
-        "stations": {
-            "0": 4,
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "platform": 1,
-            "police": 1
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
         },
-        "credits": 1400,
-        "patients": {
-            "max": 6,
-            "min": 2,
-            "transport": 50,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
         },
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
         }
     },
     "122": {
+        "id": 122,
         "name": "Incendio mensa scolastica",
-        "stations": {
-            "0": 4,
-            "2": 2
+        "place": "Scuola",
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 1200,
-        "patients": {
-            "max": 8,
-            "transport": 40,
-            "specialisation": "Chirurgia generale"
+        "chances": {
+            "patient_transport": 40
         },
-        "poi": 12
+        "additional": {
+            "possible_patient": 8,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 4
+        }
     },
     "123": {
+        "id": 123,
         "name": "Incendio stadio",
-        "stations": {
-            "0": 5,
-            "2": 40,
-            "6": 4
+        "place": "Stadio",
+        "average_credits": 3800,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 8,
-            "heavyRescue": 3,
-            "platform": 2,
-            "bchief": 1,
-            "mcv": 1,
-            "police": 6,
-            "air": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
         },
-        "credits": 3800,
-        "patients": {
-            "max": 260,
-            "min": 180,
-            "transport": 8,
-            "rth": 1,
-            "specialisation": "Chirurgia generale"
+        "chances": {
+            "water_tankers": 10,
+            "patient_transport": 8,
+            "helicopter": 1
         },
-        "poi": 20,
-        "percentages": {
-            "tanker": 10
+        "additional": {
+            "possible_patient": 260,
+            "possible_patient_min": 180,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 40,
+            "police_stations": 4,
+            "fire_stations": 5
         }
     },
     "124": {
+        "id": 124,
         "name": "Scalatore in difficolt\u00e0",
-        "stations": {
-            "0": 2,
-            "2": 1
+        "place": "Bosco",
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 2,
-            "platform": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2
         },
-        "credits": 1200,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 85,
-            "rth": 10,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 85,
+            "helicopter": 10
         },
-        "poi": 3,
-        "percentages": {
-            "platform": 30
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
         }
     },
     "125": {
+        "id": 125,
         "name": "Ostacolo in corsia",
-        "stations": {
-            "6": 1
+        "place": "Uscita autostradale",
+        "average_credits": 500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "police": 1
+        "requirements": {
+            "police_cars": 1
         },
-        "credits": 500,
-        "poi": 16
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     },
     "126": {
+        "id": 126,
         "name": "Aggressione a pubblico ufficiale",
-        "stations": {
-            "2": 1,
-            "6": 4
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 1000,
-        "patients": {
-            "max": 2,
-            "transport": 40,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 40
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 2,
+            "max_possible_prisoners": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
         }
     },
     "127": {
+        "id": 127,
         "name": "Spray urticante in luogo pubblico",
-        "stations": {
-            "0": 2,
-            "2": 5,
-            "6": 2
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1,
-            "police": 4,
-            "hazmat": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
         },
-        "credits": 1800,
-        "patients": {
-            "max": 12,
-            "min": 2,
-            "transport": 50,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "hazmat_vehicles": 20,
+            "patient_transport": 35
         },
-        "percentages": {
-            "hazmat": 20
+        "additional": {
+            "possible_patient": 12,
+            "possible_patient_min": 2,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 2,
+            "fire_stations": 2
         }
     },
     "128": {
+        "id": 128,
         "name": "Silos in fiamme",
-        "stations": {
-            "0": 5
+        "place": "Silos",
+        "average_credits": 3500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "platform": 1,
-            "heavyRescue": 1,
-            "bchief": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 3500,
-        "poi": 53,
-        "percentages": {
-            "bchief": 10
+        "chances": {
+            "battalion_chief_vehicles": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
         }
     },
     "129": {
+        "id": 129,
         "name": "Blitz attivit\u00e0 commerciale illegale",
-        "stations": {
-            "6": 4
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 6
+        "requirements": {
+            "police_cars": 6
         },
-        "credits": 1500,
-        "prisoners": {
-            "max": 4
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     },
     "130": {
+        "id": 130,
         "name": "Ferito sul traliccio dell'alta tensione",
-        "stations": {
-            "0": 4,
-            "2": 1
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "platform": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 650,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
         }
     },
     "131": {
+        "id": 131,
         "name": "Auto nel fiume",
-        "stations": {
-            "0": 2,
-            "2": 1,
-            "6": 1
+        "place": "Fiume",
+        "average_credits": 2500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 2,
-            "police": 2,
-            "fwk": 1
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 2500,
-        "patients": {
-            "max": 4,
-            "min": 1,
-            "transport": 90,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 90
         },
-        "poi": 27
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 2
+        }
     },
     "132": {
+        "id": 132,
         "name": "Balle di fieno in fiamme",
-        "stations": {
-            "0": 2
+        "place": "Azienda agricola",
+        "average_credits": 1500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 2,
+            "water_tankers": 1
         },
-        "credits": 1500,
-        "poi": 21,
-        "percentages": {
-            "tanker": 20
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
         }
     },
     "133": {
+        "id": 133,
         "name": "Aggressione a sanitari",
-        "stations": {
-            "2": 1,
-            "6": 1
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 1000,
-        "patients": {
-            "max": 4,
-            "transport": 40,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 40
         },
-        "prisoners": {
-            "max": 2
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
         }
     },
     "134": {
+        "id": 134,
         "name": "Raid residenziale della polizia",
-        "stations": {
-            "6": 4
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 4
+        "requirements": {
+            "police_cars": 4
         },
-        "credits": 750,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     },
     "135": {
+        "id": 135,
         "name": "Ascensore bloccato",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1,
-            "heavyRescue": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 400,
-        "expansions": {
-            "0": 104
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 104
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
-    },
-    "136": {
-        "name": "Ladro di uova di Pasqua",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 100,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "137": {
-        "name": "Spazzola rubata dall'officina",
-        "stations": {
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 150,
-        "poi": 12,
-        "prisoners": {
-            "max": 1
-        }
-    },
-    "138": {
-        "name": "Tana del coniglio collassata",
-        "stations": {
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "bchief": 2,
-            "heavyRescue": 1,
-            "police": 2
-        },
-        "credits": 1500
-    },
-    "139": {
-        "name": "Coniglietto di Pasqua colpito",
-        "stations": {
-            "2": 3,
-            "6": 1
-        },
-        "vehicles": {
-            "police": 1
-        },
-        "credits": 300,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 38,
-            "specialisation": "Traumatologia"
-        }
-    },
-    "140": {
-        "name": "Cesto di Pasqua in fiamme",
-        "stations": {
-            "0": 1
-        },
-        "vehicles": {
-            "truck": 1
-        },
-        "credits": 110
-    },
-    "141": {
-        "name": "Fuoriuscita dalla cisterna di cioccolato",
-        "stations": {
-            "0": 10,
-            "6": 2
-        },
-        "vehicles": {
-            "truck": 4,
-            "heavyRescue": 2,
-            "bchief": 2,
-            "police": 3,
-            "hazmat": 1
-        },
-        "credits": 5000
-    },
-    "142": {
-        "name": "Caldaia per uova in fiamme",
-        "stations": {
-            "0": 2
-        },
-        "vehicles": {
-            "truck": 2
-        },
-        "credits": 800
-    },
-    "143": {
-        "name": "Incontro della lepre nella citt\u00e0 delle uova di Pasqua",
-        "stations": {
-            "0": 2,
-            "2": 4,
-            "6": 7
-        },
-        "vehicles": {
-            "police": 8,
-            "truck": 2
-        },
-        "credits": 7000,
-        "poi": 20,
-        "siwa": true,
-        "dauer": "2 Ore"
-    },
-    "144": {
-        "name": "Camion delle uova di Pasqua rovesciato",
-        "stations": {
-            "0": 8
-        },
-        "vehicles": {
-            "truck": 2,
-            "heavyRescue": 1,
-            "bchief": 1
-        },
-        "credits": 2200,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "specialisation": "Traumatologia"
-        }
-    },
-    "145": {
-        "name": "Missione prioritaria: caccia alle uova di Pasqua",
-        "stations": {
-            "6": 3
-        },
-        "vehicles": {
-            "police": 6
-        },
-        "credits": 1000
-    },
-    "146": {
-        "name": "Coniglietto di Pasqua sulla gru",
-        "stations": {
-            "0": 12,
-            "6": 1
-        },
-        "vehicles": {
-            "platform": 1,
-            "bchief": 1,
-            "police": 1,
-            "truck": 1
-        },
-        "credits": 2000
     },
     "147": {
+        "id": 147,
         "name": "Dipendente intrappolato sotto il ponte auto",
-        "stations": {
-            "0": 4,
-            "6": 3
+        "place": "Officina meccanica",
+        "average_credits": 3800,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 2,
-            "bchief": 1,
-            "heavyRescue": 2,
-            "police": 2
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
         },
-        "credits": 3800,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "battalion_chief_vehicles": 10,
+            "patient_transport": 100
         },
-        "poi": 10,
-        "percentages": {
-            "bchief": 10
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 4
         }
     },
     "148": {
+        "id": 148,
         "name": "Bonifica insetti",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 450
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "149": {
-        "name": "Incendio cisterna chimica (grande)",
-        "stations": {
-            "0": 8,
-            "2": 5,
-            "6": 4
+        "id": 149,
+        "name": "Incendio cisterna chimica",
+        "place": "Grande serbatoio di accumulo sostanze chimiche",
+        "average_credits": 8500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 5,
-            "heavyRescue": 4,
-            "bchief": 1,
-            "police": 4,
-            "hazmat": 1,
-            "air": 1
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
         },
-        "credits": 8500,
-        "patients": {
-            "max": 10,
-            "min": 2,
-            "transport": 20,
-            "rth": 5,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 5
         },
-        "poi": 48,
-        "special": {
-            "averageMinimumEmployeesFire": 40
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "average_min_fire_personnel": 40,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "fire_stations": 8
         }
     },
     "150": {
+        "id": 150,
         "name": "Incendio barbecue",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "heavyRescue": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
         },
-        "credits": 450
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "151": {
+        "id": 151,
         "name": "Evasione",
-        "stations": {
-            "6": 7,
-            "13": 1
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "policeHeli": 1,
-            "swatSuv": 2
+        "requirements": {
+            "swat_suv": 2,
+            "police_helicopters": 1,
+            "police_cars": 4
         },
-        "credits": 4000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
         }
     },
     "152": {
+        "id": 152,
         "name": "Sospetto in fuga",
-        "stations": {
-            "6": 4,
-            "13": 1
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 3000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
         }
     },
     "153": {
+        "id": 153,
         "name": "Mandato di arresto",
-        "stations": {
-            "6": 2
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 2000,
-        "prisoners": {
-            "max": 1
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 154
+            },
+            "max_possible_prisoners": 1
         },
-        "expansions": {
-            "0": 154
+        "prerequisites": {
+            "police_stations": 2
         }
     },
     "154": {
+        "id": 154,
         "name": "Sparatoria in corso",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "swatSuv": 2
+        "requirements": {
+            "swat_suv": 2,
+            "police_cars": 4
         },
-        "credits": 1600,
-        "patients": {
-            "max": 3,
-            "specialisation": "Chirurgia generale"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 0,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "155": {
+        "id": 155,
         "name": "Perquisizione veicolo",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "vehicles": {
-            "police": 2,
+        "requirements": {
+            "police_cars": 2,
             "k9": 1
         },
-        "credits": 1000
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 6
+        }
     },
     "156": {
+        "id": 156,
         "name": "Piccola protesta violenta",
-        "stations": {
-            "2": 2,
-            "6": 6
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "k9": 1,
-            "swatSuv": 1
+        "requirements": {
+            "swat_suv": 1,
+            "police_cars": 4,
+            "k9": 1
         },
-        "credits": 2200,
-        "patients": {
-            "max": 3,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 157
+            },
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 2
-        },
-        "expansions": {
-            "0": 157
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
         }
     },
     "157": {
+        "id": 157,
         "name": "Media protesta violenta",
-        "stations": {
-            "2": 3,
-            "6": 7
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 6,
-            "k9": 1,
-            "swatSuv": 2,
-            "swatArmoured": 2
+        "requirements": {
+            "swat_suv": 2,
+            "swat_armored_vehicle": 2,
+            "police_cars": 6,
+            "k9": 1
         },
-        "credits": 3000,
-        "patients": {
-            "max": 5,
-            "specialisation": "Traumatologia"
+        "chances": {},
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "patient_specializations": "Traumatologia"
         },
-        "prisoners": {
-            "max": 4
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7
         }
     },
     "158": {
+        "id": 158,
         "name": "Spaccio di droga",
-        "stations": {
-            "6": 6
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
         },
-        "vehicles": {
-            "police": 3,
+        "requirements": {
+            "police_cars": 3,
             "k9": 1
         },
-        "credits": 1500,
-        "prisoners": {
-            "max": 2
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 6
         }
     },
     "159": {
+        "id": 159,
         "name": "Rapina al benzinaio",
-        "stations": {
-            "6": 8
+        "place": "Stazione di servizio",
+        "average_credits": 1250,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
         },
-        "vehicles": {
-            "police": 3,
-            "swatSuv": 1
+        "requirements": {
+            "swat_suv": 1,
+            "police_cars": 3
         },
-        "credits": 1250,
-        "poi": 11,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 8
         }
     },
     "160": {
+        "id": 160,
         "name": "Sparatoria al posto di blocco",
-        "stations": {
-            "2": 1,
-            "6": 8,
-            "13": 1
+        "place": null,
+        "average_credits": 4100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 6,
-            "policeHeli": 1
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6
         },
-        "credits": 4100,
-        "patients": {
-            "max": 2,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 8,
+            "police_helicopter_stations": 1
         }
     },
     "161": {
+        "id": 161,
         "name": "Protezione VIP",
-        "stations": {
-            "6": 10
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
         },
-        "vehicles": {
-            "police": 4,
-            "policeHeli": 1,
-            "k9": 1,
-            "swatSuv": 1
+        "requirements": {
+            "swat_suv": 1,
+            "police_helicopters": 1,
+            "police_cars": 4,
+            "k9": 1
         },
-        "credits": 4000,
-        "siwa": true,
-        "dauer": "30 Minuti"
+        "chances": {},
+        "additional": {
+            "duration": "30 Minuti",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 10
+        }
     },
     "162": {
+        "id": 162,
         "name": "Furto in appartamento",
-        "stations": {
-            "6": 5
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
         },
-        "vehicles": {
-            "police": 2
+        "requirements": {
+            "police_cars": 2
         },
-        "credits": 1250,
-        "prisoners": {
-            "max": 2
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 5
         }
     },
     "163": {
+        "id": 163,
         "name": "Tentato omicidio",
-        "stations": {
-            "2": 1,
-            "6": 9
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 4
+        "requirements": {
+            "police_cars": 4
         },
-        "credits": 1000,
-        "patients": {
-            "max": 1,
-            "min": 1,
-            "transport": 100,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 100
         },
-        "prisoners": {
-            "max": 1
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
         }
     },
     "164": {
+        "id": 164,
         "name": "Furto al museo",
-        "stations": {
-            "6": 9
+        "place": "Museo",
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
-        "vehicles": {
-            "police": 3
+        "requirements": {
+            "police_cars": 3
         },
-        "credits": 1000,
-        "poi": 13,
-        "prisoners": {
-            "max": 3
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 9
         }
     },
     "165": {
+        "id": 165,
         "name": "Incendio albergo (PICCOLO)",
-        "stations": {
-            "0": 8,
-            "2": 5,
-            "6": 4
+        "place": "Hotel",
+        "average_credits": 6500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 2,
-            "bchief": 1,
-            "police": 2,
-            "air": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 6500,
-        "patients": {
-            "max": 8,
-            "min": 2,
-            "transport": 30,
-            "rth": 2,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "battalion_chief_vehicles": 15,
+            "mobile_air_vehicles": 10,
+            "patient_transport": 30,
+            "helicopter": 2
         },
-        "poi": 49,
-        "percentages": {
-            "bchief": 15,
-            "air": 10
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "fire_stations": 8
         }
     },
     "166": {
+        "id": 166,
         "name": "Incendio cisterna chimica (PICCOLA)",
-        "stations": {
-            "0": 6,
-            "2": 5,
-            "6": 4
+        "place": "Piccolo serbatoio di accumulo sostanze chimiche",
+        "average_credits": 6000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 3,
-            "heavyRescue": 2,
-            "bchief": 1,
-            "police": 2,
-            "hazmat": 1,
-            "tanker": 1
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
         },
-        "credits": 6000,
-        "patients": {
-            "max": 10,
-            "min": 2,
-            "transport": 20,
-            "rth": 5,
-            "specialisation": "Traumatologia"
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 5
         },
-        "poi": 47,
-        "special": {
-            "averageMinimumEmployeesFire": 25
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "average_min_fire_personnel": 25,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "fire_stations": 6
         }
     },
     "167": {
+        "id": 167,
         "name": "Allagamento appartamento",
-        "stations": {
-            "0": 1
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
         },
-        "vehicles": {
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1
         },
-        "credits": 450
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     },
     "168": {
+        "id": 168,
         "name": "Giostra ferma sulle rotaie",
-        "stations": {
-            "0": 4,
-            "2": 2
+        "place": "Luna park",
+        "average_credits": 1500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/themepark_gruen.png",
+            "1": "/images/themepark_gelb.png",
+            "2": "/images/themepark_rot.png"
         },
-        "vehicles": {
-            "heavyRescue": 2,
-            "platform": 1,
-            "truck": 1
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2
         },
-        "credits": 1500,
-        "patients": {
-            "max": 4,
-            "transport": 10,
-            "specialisation": "Medicina interna generale"
+        "chances": {
+            "patient_transport": 10
         },
-        "poi": 26
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "Dissesto statico",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "Incidente Skydiver",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 15
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 2
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Incendio albergo (GRANDE)",
+        "place": "Hotel",
+        "average_credits": 10900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 4
+        },
+        "additional": {
+            "possible_patient": 35,
+            "possible_patient_min": 2,
+            "average_min_fire_personnel": 40,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Guasto al semaforo",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25,
+                "1": 64,
+                "2": 106
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Incendio palazzetto dello sport",
+        "place": "Stadio",
+        "average_credits": 7500,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "water_tankers": 10,
+            "patient_transport": 5,
+            "helicopter": 1
+        },
+        "additional": {
+            "possible_patient": 110,
+            "possible_patient_min": 20,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 24,
+            "police_stations": 4,
+            "fire_stations": 7
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Apertura porta",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
     }
 }
