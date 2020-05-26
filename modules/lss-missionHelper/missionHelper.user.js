@@ -160,6 +160,7 @@ const lssm_missionhelper_adjustPosition = () => {
             turboloescher: 'Turbolöscher',
             gw_san: 'GW-San',
             gwwa: 'GW-Wasserrettung',
+            allow_rw_instead_of_lf: 'Löschfahrzeuge oder Rüstwagen oder GKW',
         },
         pois: [
             'Park',
@@ -3957,7 +3958,13 @@ const lssm_missionhelper_adjustPosition = () => {
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
                     }x ${I18n.t(
-                        `lssm.missionhelper.requirements.${vehicle}`
+                        `lssm.missionhelper.requirements.${
+                            MISSION.additional &&
+                            MISSION.additional.allow_rw_instead_of_lf &&
+                            vehicle === 'firetrucks'
+                                ? 'allow_rw_instead_of_lf'
+                                : vehicle
+                        }`
                     )} ${(MISSION.chances &&
                         MISSION.chances[vehicle] &&
                         `(${MISSION.chances[vehicle]}%)`) ||
