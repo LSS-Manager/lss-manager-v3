@@ -1,0 +1,3373 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Bin fire",
+        "place": null,
+        "average_credits": 110,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 11,
+                "1": 7,
+                "2": 24
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Container fire",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Burning car",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            },
+            "followup_missions_ids": {
+                "0": 3,
+                "1": 7
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Burning motorbike",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            },
+            "followup_missions_ids": {
+                "0": 2,
+                "1": 7
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Burning grass",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            },
+            "followup_missions_ids": {
+                "0": 7
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Room fire",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Garden shed fire",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 7,
+                "1": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Burning leaves",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "Bulk rubbish fire",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            },
+            "followup_missions_ids": {
+                "0": 7,
+                "1": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Bale of straw fire",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Tractor fire",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Phonebox on fire",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Tree on the road",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Burning truck",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Little field fire",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Little forest fire",
+        "place": "Forest",
+        "average_credits": 1010,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Caravan fire",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Postbox on fire",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 7,
+                "1": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Out of control bonfire",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Burning trailer",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 7,
+                "1": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Basement fire",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Chimney fire",
+        "place": null,
+        "average_credits": 1900,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 10
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Roof fire",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {
+            "followup_missions_ids": {
+                "0": 5,
+                "1": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Grease Fire",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Burning bus shelter",
+        "place": "Bus stop",
+        "average_credits": 900,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Road accident",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2
+            },
+            "followup_missions_ids": {
+                "0": 25,
+                "1": 29
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Small Supermarket Fire",
+        "place": "Supermarket (small)",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Garage fire",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Burning machine",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "Unknown Tanker Spill",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Gas Leak",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "Fireplace fire",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Harvester fire",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Small Supermarket Fire",
+        "place": "Supermarket (small)",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Fire in Hospital - Major Incident",
+        "place": "Hospital",
+        "average_credits": 10000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 13
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Alcoholic intoxication",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Chest Pains",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cardiology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Acute asthma",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Seizure",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Fever",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Fallen person",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Car workshop fire - persons reported",
+        "place": "Car workshop",
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 16
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Fallen person",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "Fallen person",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Shoplifting",
+        "place": "Supermarket (small)",
+        "average_credits": 100,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Shoplifting",
+        "place": "Supermarket (big)",
+        "average_credits": 100,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Parked car accident",
+        "place": "Supermarket (small)",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Parked car accident",
+        "place": "Supermarket (big)",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Metal burglary",
+        "place": "Goods station",
+        "average_credits": 150,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Pickpocketing",
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Fare dodger",
+        "place": "Bus stop",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Fare dodger",
+        "place": "Tram stop",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Fare dodger",
+        "place": "Train station (regional traffic)",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Fare dodger",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Parked car accident",
+        "place": "Mall",
+        "average_credits": 120,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Brawl",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "Rioter",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Unannounced demonstration",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Kitchen Fire",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Animal Rescue",
+        "place": "Farm",
+        "average_credits": 900,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Sports hall fire",
+        "place": "School",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "followup_missions_ids": {
+                "0": 94,
+                "1": 14
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "Noise Complaint",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 55,
+                "1": 67,
+                "2": 56
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Transient Ischemic Attack",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurosurgery"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Accident Involving a Bus",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Kitchen Fire",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Room fire",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Brawl",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Big Supermarket Fire",
+        "place": "Supermarket (big)",
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "Unknown Tanker Spill",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "Big Supermarket Fire",
+        "place": "Supermarket (big)",
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Nosebleed",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Light Aircraft Crash",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "Serious Accident Involving a Bus",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Major fire",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "Partial Building Collapse",
+        "place": null,
+        "average_credits": 4800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Industrial Fire",
+        "place": null,
+        "average_credits": 4800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Patient Transfer",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {}
+    },
+    "78": {
+        "id": 78,
+        "name": "Cardiac Arrest",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Respiratory Arrest",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Road Traffic Collision (Major)",
+        "place": null,
+        "average_credits": 16000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 6,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 8
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 2,
+            "only_alliance_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {}
+    },
+    "90": {
+        "id": 90,
+        "name": "Cyclist hit by HGV",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Fail to stop",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Person with a weapon",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 4
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "High-Risk Warrant",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "swat_personnel": 8
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "School fire",
+        "place": "School",
+        "average_credits": 5300,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 13
+        }
+    },
+    "102": {
+        "id": 102,
+        "name": "Burning manufacturing machine",
+        "place": "Warehouse",
+        "average_credits": 2470,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "103": {
+        "id": 103,
+        "name": "Burning manufacturing machine",
+        "place": "Factory",
+        "average_credits": 2470,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "104": {
+        "id": 104,
+        "name": "Burning manufacturing machine",
+        "place": "Cold Storage Warehouse",
+        "average_credits": 2470,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Concern for welfare",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "106": {
+        "id": 106,
+        "name": "Hit and Run",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "107": {
+        "id": 107,
+        "name": "Row of garages on fire",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "108": {
+        "id": 108,
+        "name": "Thatched cottage fire",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "109": {
+        "id": 109,
+        "name": "Trespasser on railway line",
+        "place": "Train station (regional traffic)",
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "110": {
+        "id": 110,
+        "name": "Trespasser on railway line",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "Trespasser on railway line",
+        "place": "Railroad Crossing",
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "Trespasser on railway line",
+        "place": "Rail Crossing",
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "126": {
+        "id": 126,
+        "name": "HGV Fire",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "127": {
+        "id": 127,
+        "name": "Bin Lorry Fire",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "128": {
+        "id": 128,
+        "name": "RTC Entrapment",
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "Multi vehicle RTC",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 7,
+            "possible_patient_min": 3,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "130": {
+        "id": 130,
+        "name": "Multi vehicle RTC entrapment",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 7,
+            "possible_patient_min": 3,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "HGV Lost its load",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "HGV Lost its load (Livestock)",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "swat_personnel": 2
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "fire_stations": 1
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "HGV Lost its load (milk)",
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "Goods Train Fire",
+        "place": "Rail Crossing",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "Goods Train Fire",
+        "place": "Railroad Crossing",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "Goods Train Fire",
+        "place": "Train station (regional traffic)",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "Goods Train Fire",
+        "place": "Goods station",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "Large Drunken Disorder",
+        "place": null,
+        "average_credits": 950,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "139": {
+        "id": 139,
+        "name": "Fire in silo",
+        "place": "Silo",
+        "average_credits": 3000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "140": {
+        "id": 140,
+        "name": "Domestic Violence",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "141": {
+        "id": 141,
+        "name": "Choking",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "142": {
+        "id": 142,
+        "name": "Barn fire",
+        "place": "Farm",
+        "average_credits": 2000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "143": {
+        "id": 143,
+        "name": "Stuck Climber",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "144": {
+        "id": 144,
+        "name": "Threatening an official",
+        "place": "Subway station",
+        "average_credits": 750,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "145": {
+        "id": 145,
+        "name": "Fire in an office building - Major Incident",
+        "place": "Office Building",
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 16,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "mobile_air_vehicles": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "146": {
+        "id": 146,
+        "name": "Injured person on high voltage mast",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "147": {
+        "id": 147,
+        "name": "Spinal injury",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "148": {
+        "id": 148,
+        "name": "Partial collapse of the building",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "149": {
+        "id": 149,
+        "name": "Building collapse",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "150": {
+        "id": 150,
+        "name": "3rd degree burns",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "Serious head injury",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurosurgery"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "152": {
+        "id": 152,
+        "name": "Traumatic limb amputation",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "153": {
+        "id": 153,
+        "name": "Hay shed fire - Large",
+        "place": "Farm",
+        "average_credits": 9000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 6,
+            "platform_trucks": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "154": {
+        "id": 154,
+        "name": "Back pain",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "155": {
+        "id": 155,
+        "name": "Suspicious package",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 8,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 8
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "156": {
+        "id": 156,
+        "name": "Heatstroke",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "168": {
+        "id": 168,
+        "name": "Trench Rescue",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "Heathland fire - large",
+        "place": "Heathland",
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "Anaphylaxis",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Thatched Cottage Chimney Fire",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 108
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Commercial Burglary",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Warehouse Fire - Major Incident",
+        "place": "Warehouse",
+        "average_credits": 14000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 20
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Warehouse Fire - Major Incident",
+        "place": "Cold Storage Warehouse",
+        "average_credits": 14000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 20
+        }
+    },
+    "175": {
+        "id": 175,
+        "name": "Landfill fire",
+        "place": "Landfill site",
+        "average_credits": 3500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Unauthorized possession of weapons",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 4
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    }
+}

@@ -1,0 +1,2221 @@
+{
+    "0": {
+        "id": 0,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc4f0\ub808\uae30\ud1b5)",
+        "place": "\ubc84\uc2a4 \uc815\ub958\uc7a5",
+        "average_credits": 110,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ucee8\ud14c\uc774\ub108)",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ucc28\ub7c9)",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc624\ud1a0\ubc14\uc774)",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc794\ub514\ubc2d)",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubc29)",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uacf5\uad6c \ucc3d\uace0)",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ub099\uc5fd)",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc4f0\ub808\uae30\ub354\ubbf8)",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc9da\ub354\ubbf8)",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ud2b8\ub799\ud130)",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ube44\uc0c1 \uc804\ud654)",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "\uac00\ub85c\uc218",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ud2b8\ub7ed)",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc18c\uaddc\ubaa8 \ub4e4\ud310)",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc18c\ud615 \ub4e4\ubd88)",
+        "place": "\uc232",
+        "average_credits": 1010,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc774\ub3d9 \uc8fc\ud0dd)",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc6b0\ud3b8\ud568)",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "\ub364\ubd88 \ub354\ubbf8",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ud2b8\ub808\uc77c\ub7ec)",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc9c0\ud558\uc2e4)",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uad74\ub69d)",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 100
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc9c0\ubd95)",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uae30\ub984)",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubc84\uc2a4 \uc815\ub958\uc18c)",
+        "place": "\ubc84\uc2a4 \uc815\ub958\uc7a5",
+        "average_credits": 900,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "\uad50\ud1b5\uc0ac\uace0",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc18c\ud615 \uc288\ud37c\ub9c8\ucf13)",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\uc18c\ud615)",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ucc28\uace0)",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uae30\uacc4)",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "\uc6d0\uc778 \ubbf8\uc0c1 \ud0f1\ud06c \uc720\ucd9c",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "\uac00\uc2a4 \ub204\ucd9c \uc0ac\uace0",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubcbd\ub09c\ub85c)",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc218\ud655\uae30)",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc18c\ud615 \uc288\ud37c\ub9c8\ucf13)",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\uc18c\ud615)",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubcd1\uc6d0)",
+        "place": "\ubcd1\uc6d0",
+        "average_credits": 6000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "\uc54c\ucf54\uc62c \uc911\ub3c5 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "\ud749\ubd80 \ud1b5\uc99d \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc2ec\uc7a5 \uc758\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "\uae09\uc131 \ucc9c\uc2dd \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "\ubc1c\uc791 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc2e0\uacbd\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "\ubc1c\uc5f4 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "\uc4f0\ub7ec\uc9c4 \uc2dc\ubbfc",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ucc28\ub7c9 \uc815\ube44\uc18c)",
+        "place": "\ucc28\ub7c9 \uc815\ube44\uc18c",
+        "average_credits": 6000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "\uc4f0\ub7ec\uc9c4 \uc2dc\ubbfc",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "\uc4f0\ub7ec\uc9c4 \uc2dc\ubbfc",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "\uac00\uac8c \uc808\ub3c4 \uc0ac\uac74",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\uc18c\ud615)",
+        "average_credits": 100,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "\uac00\uac8c \uc808\ub3c4 \uc0ac\uac74",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\ub300\ud615)",
+        "average_credits": 100,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "\uc8fc\ucc28 \ucc28\ub7c9 \uc0ac\uace0",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\uc18c\ud615)",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "\uc8fc\ucc28 \ucc28\ub7c9 \uc0ac\uace0",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\ub300\ud615)",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "\uae08\uc18d \uac15\ub3c4 \uc0ac\uac74",
+        "place": "\ud654\ubb3c\uc5ed",
+        "average_credits": 150,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "\uc18c\ub9e4\uce58\uae30 \uc0ac\uac74",
+        "place": "\uacf5\uc6d0",
+        "average_credits": 150,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "\ubb34\uc784\uc2b9\ucc28 \uc0ac\uac74",
+        "place": "\ubc84\uc2a4 \uc815\ub958\uc7a5",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "\ubb34\uc784\uc2b9\ucc28 \uc0ac\uac74",
+        "place": "\uc804\ucc28 \uc815\ub958\uc7a5",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "\ubb34\uc784\uc2b9\ucc28 \uc0ac\uac74",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5)",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "\ubb34\uc784\uc2b9\ucc28 \uc0ac\uac74",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5 \ubc0f \uc7a5\uac70\ub9ac \uc5ec\ud589\uc5ed)",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "\uc8fc\ucc28 \ucc28\ub7c9 \uc0ac\uace0",
+        "place": "\uc1fc\ud551\ubab0",
+        "average_credits": 120,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "\ub09c\ud22c \uc0ac\uac74",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "\ud3ed\ub3d9 \uc0ac\uac74",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "\uae30\uc2b5 \ub370\ubaa8",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubd80\uc5cc)",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "\ub3d9\ubb3c \uad6c\uc870",
+        "place": "\ub18d\uc7a5",
+        "average_credits": 900,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc2a4\ud3ec\uce20 \ud640)",
+        "place": "\ud559\uad50",
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "61": {
+        "id": 61,
+        "name": "\uacbd\ube44\ud589\uae30 \ucd94\ub77d(\ube44\ud589\uc7a5)",
+        "place": "\uc18c\ud615 \uacf5\ud56d(\ud65c\uc8fc\ub85c)",
+        "average_credits": 2500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "\uc18c\uc74c \uc7a5\uc560",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "\uc77c\uacfc\uc131 \ub1cc\ud5c8\ud608 \ubc1c\uc791 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc2e0\uacbd\uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "\ubc84\uc2a4 \uad50\ud1b5\uc0ac\uace0",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubd80\uc5cc)",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ubc29)",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "\ub09c\ud22c \uc0ac\uac74",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ub300\ud615 \uc288\ud37c\ub9c8\ucf13)",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\ub300\ud615)",
+        "average_credits": 3000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "\uc6d0\uc778 \ubbf8\uc0c1 \ud0f1\ud06c \uc720\ucd9c",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ub300\ud615 \uc288\ud37c\ub9c8\ucf13)",
+        "place": "\uc288\ud37c\ub9c8\ucf13(\ub300\ud615)",
+        "average_credits": 3000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "\ucf54\ud53c \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "\uacbd\ube44\ud589\uae30 \ucd94\ub77d",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "\uc2ec\uac01\ud55c \ubc84\uc2a4 \uad50\ud1b5\uc0ac\uace0",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\ub300\ud615)",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "\uac74\ubb3c \ubd80\ubd84 \ubd95\uad34",
+        "place": null,
+        "average_credits": 7300,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc0b0\uc5c5 \ub2e8\uc9c0)",
+        "place": null,
+        "average_credits": 4800,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "\ud658\uc790 \uc774\uc1a1",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {}
+    },
+    "78": {
+        "id": 78,
+        "name": "\uc2ec\uc7a5\ub9c8\ube44 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "\ud638\ud761 \uc815\uc9c0 \ud658\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "\uace0\uc555 \uc804\ubd07\ub300\uc5d0\uc11c \ubd80\uc0c1\uc744 \uc785\uc740 \uc0ac\ub78c",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "\ubd88\ud0c0\ub294 \ubccf\uc9da \ub354\ubbf8",
+        "place": "\ub18d\uc7a5",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "\uc8fc\uac70 \uad00\ud560 \uacbd\ucc30 \ub808\uc774\ub4dc",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "\ud654\ubb3c \uc6b4\uc1a1 \uc5f4\ucc28 \ud0c8\uc120",
+        "place": "\ucca0\uae38 \uac74\ub110\ubaa9",
+        "average_credits": 10000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "\ud654\ubb3c \uc6b4\uc1a1 \uc5f4\ucc28 \ud0c8\uc120",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5)",
+        "average_credits": 10000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "\ud654\ubb3c \uc6b4\uc1a1 \uc5f4\ucc28 \ud0c8\uc120",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5 \ubc0f \uc7a5\uac70\ub9ac \uc5ec\ud589\uc5ed)",
+        "average_credits": 10000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "\ud2b9\uc218 \ubc00\ud3d0 \uacf5\uac04 \uad6c\uc870",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "\uacfc\ubbfc\uc99d",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "\ubd80\uc0c1 \ub2f9\ud55c \uc8fc\uc790",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "\uc544\ub3d9 \uc2e4\uc885",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "\uc4f0\ub808\uae30\ub9e4\ub9bd\uc7a5 \ud654\uc7ac",
+        "place": "\ub9e4\ub9bd\uc9c0",
+        "average_credits": 3500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "102": {
+        "id": 102,
+        "name": "\ud5c8\uac00\ubc1b\uc9c0 \uc54a\uc740 \ubb34\uae30 \uc18c\uc9c0",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    }
+}

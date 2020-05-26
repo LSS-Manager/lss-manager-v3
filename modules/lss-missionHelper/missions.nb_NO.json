@@ -1,0 +1,3047 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Brennende s\u00f8ppeldunk",
+        "place": "Busstopp",
+        "average_credits": 110,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Containerbrann",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Brennende bil",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Brennende motorsykkel",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Gressbrann",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Brann i rom",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Brennende hageskur",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Brennende l\u00f8v",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "S\u00f8ppelbrann",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Brennende halmball",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Brennende traktor",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Brennende telefonkiosk",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Tre p\u00e5 veien",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Brennende lastebil",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Liten \u00e5kerbrann",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Liten buskbrann",
+        "place": "Skog",
+        "average_credits": 1010,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Brennende bobil",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Brennende postkasse",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Haug med kvister",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Brennende trailer",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Kjellerbrann",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Skorsteinsbrann",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 100
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Takbrann",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Fettbrann",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Brennende busskur",
+        "place": "Busstopp",
+        "average_credits": 900,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Veiulykke",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Liten brann i matvarebutikk",
+        "place": "Matvarebutikk (liten)",
+        "average_credits": 1500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Brennende garasje",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Brennende maskin",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "Ukjent tankutslipp",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Gasslekkasje",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "B\u00e5lbrann",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Brennende tresker",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Liten brann i matvarebutikk",
+        "place": "Matvarebutikk (liten)",
+        "average_credits": 1500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Brann p\u00e5 sykehus",
+        "place": "Sykehus",
+        "average_credits": 6000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Alkoholrus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Brystsmerter",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Akutt astma",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Anfall",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Nevrologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Feber",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Fall",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Brann i verksted",
+        "place": "Bilverksted",
+        "average_credits": 6000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Fall",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "Fall",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Butikktyveri",
+        "place": "Matvarebutikk (liten)",
+        "average_credits": 100,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Butikktyveri",
+        "place": "Matvarebutikk (stor)",
+        "average_credits": 100,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Ulykke med parkert bil",
+        "place": "Matvarebutikk (liten)",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Ulykke med parkert bil",
+        "place": "Matvarebutikk (stor)",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Innbrudd",
+        "place": "Godsstasjon",
+        "average_credits": 150,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Lommetyveri",
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Billettsniking",
+        "place": "Busstopp",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Billettsniking",
+        "place": "Trikkestopp",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Billettsniking",
+        "place": "Togstasjon (regional)",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Billettsniking",
+        "place": "Togstasjon (regional og langdistanse)",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Ulykke med parkert bil",
+        "place": "Kj\u00f8pesenter",
+        "average_credits": 120,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Sl\u00e5sskamp",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "Oppr\u00f8r",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Ikke kunngjort demonstrasjon",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Kj\u00f8kkenbrann",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Dyreredning",
+        "place": "G\u00e5rd",
+        "average_credits": 900,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Brennende sportshall",
+        "place": "Skole",
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "St\u00f8yklage",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Transitorisk iskemisk anfall (drypp)",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Nevrokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Ulykke med buss",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Kj\u00f8kkenbrann",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Brann i rom",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Sl\u00e5sskamp",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Stor brann i matvarebutikk",
+        "place": "Matvarebutikk (stor)",
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "Ukjent tankutslipp",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "Stor brann i matvarebutikk",
+        "place": "Matvarebutikk (stor)",
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Nesebl\u00f8dning",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Krasj med lettfly",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "Alvorlig ulykke med buss",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Storbrann",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "Delvis kollapset bygning",
+        "place": null,
+        "average_credits": 7300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Industribrann",
+        "place": null,
+        "average_credits": 4800,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Pasienttransport",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {}
+    },
+    "78": {
+        "id": 78,
+        "name": "Hjertestans",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Pustestopp",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "Motorsykkelulykke",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "V\u00e6pnet ran",
+        "place": "Matvarebutikk (liten)",
+        "average_credits": 1300,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "Bilulykke",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 4
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "CO-forgiftning",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Fremmedlegeme",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "Ryggmargskade",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "Takras",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "Sammenrast bygning",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "Brannskade (3. grads)",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Hodeskade",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Nevrokirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Amputasjon",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "G\u00e5rdsbrann (stor)",
+        "place": "G\u00e5rd",
+        "average_credits": 9000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Ryggsmerter",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Brann i kafeteria",
+        "place": "Skole",
+        "average_credits": 1300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "Klatreulykke",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "Vold mot offentlig tjenesteperson",
+        "place": "Metrostasjon",
+        "average_credits": 750,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "Silobrann",
+        "place": "Silo",
+        "average_credits": 3000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "Personskade p\u00e5 h\u00f8yspentmast",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Brann i halmballer",
+        "place": "G\u00e5rd",
+        "average_credits": 1500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Ransaking av bolig",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "Avsporet godstog ",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "Avsporet godstog ",
+        "place": "Trikkestopp",
+        "average_credits": 10000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "Avsporet godstog ",
+        "place": "Togstasjon (regional og langdistanse)",
+        "average_credits": 10000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "114": {
+        "id": 114,
+        "name": "Gr\u00f8ftredning",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "115": {
+        "id": 115,
+        "name": "Fange som r\u00f8mmer",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "116": {
+        "id": 116,
+        "name": "Mistenkt som flykter",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "Savnet person",
+        "place": "Skog",
+        "average_credits": 4500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "Arrestordre",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 119
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "Politibetjent nede",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "Ransakelse av kj\u00f8ret\u00f8y",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "121": {
+        "id": 121,
+        "name": "Liten demonstrasjon",
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 122
+            },
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
+    },
+    "122": {
+        "id": 122,
+        "name": "Mellomstor demonstrasjon",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "123": {
+        "id": 123,
+        "name": "Narkotikasalg",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "124": {
+        "id": 124,
+        "name": "Bensinstasjonsran",
+        "place": "Bensinstasjon",
+        "average_credits": 1250,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 12
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        }
+    },
+    "125": {
+        "id": 125,
+        "name": "Skudd avfyrt mot politibetjent",
+        "place": null,
+        "average_credits": 4100,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
+        }
+    },
+    "126": {
+        "id": 126,
+        "name": "VIP oppdrag",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 minutter",
+            "swat_personnel": 18,
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 15,
+            "police_helicopter_stations": 1
+        }
+    },
+    "127": {
+        "id": 127,
+        "name": "Innbrudd",
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "swat_personnel": 4
+        },
+        "prerequisites": {
+            "police_stations": 9,
+            "police_helicopter_stations": 1
+        }
+    },
+    "128": {
+        "id": 128,
+        "name": "Drapsfors\u00f8k",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "Innbrudd p\u00e5 museum",
+        "place": "Museum",
+        "average_credits": 1000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 6
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "130": {
+        "id": 130,
+        "name": "Anafylaktisk sjokk",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "Skadet l\u00f8per",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "Barn forsvunnet",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "Deponibrann",
+        "place": "Deponi",
+        "average_credits": 3500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "Ulovlig v\u00e5penbesittelse",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    }
+}
