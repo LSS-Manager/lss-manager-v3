@@ -3548,10 +3548,12 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Gevangenen',
         to: 'tot',
         exp: 'Verspreidingen',
+        averageMinimumEmployeesFire:
+            'Gemiddeld minimum aantal benodigde brandweermannen',
         ambulance_only: 'Deze inzet is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'Deze inzet kan ook worden afgehandeld met een een Hulpverleningsvoertuig of Hulpverleningshaakarmbak i.p.v. Tankautospuit.',
+        allow_rw_instead_of_lf: 'Deze inzet kan ook worden afgehandeld met een Hulpverleningsvoertuig i.p.v. Tankautospuit.',
         settings: {
             name: {
                 label: 'Naam',
