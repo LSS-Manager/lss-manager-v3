@@ -826,13 +826,15 @@ lssm.Module = {
     releaseNotes: {
         name: {
             de_DE: 'Release Notes',
-            en_US: 'Release Notes'
+            en_US: 'Release Notes',
+	    nl_NL: 'Release Notes'
         },
         active: false,
         inframe: false,
         description: {
             de_DE: 'Informiert immer über die Neusten Updates im LSSM',
-            en_US: 'Provides information about the latest updates in LSSM'
+            en_US: 'Provides information about the latest updates in LSSM',
+            nl_NL: 'Geeft een overzicht van de laatste updates in LSSM'
         },
         source: '/modules/lss-releasenotes/Releasenotes.user.js',
         develop: false
@@ -961,7 +963,7 @@ lssm.Module = {
             ko_KR: '표시된 이벤트',
             ro_RO: 'Evenimente marcate',
             fi_FI: 'Merkittyjä tapahtumia',
-            nl_NL: 'Merken gebeurtenissen'
+            nl_NL: 'Markeer Eventinzetten'
         },
         active: false,
         inframe: true,
@@ -984,7 +986,7 @@ lssm.Module = {
             ko_KR: '대문자로 표시된 현재 이벤트를 표시합니다!',
             ro_RO: 'Afișează evenimentele curente cu linia cu majuscule!',
             fi_FI: 'Näyttää nykyiset tapahtumat isoilla kirjaimilla LINE!',
-            nl_NL: 'Toont de actuele gebeurtenissen met hoofdlettercode LINE!'
+            nl_NL: 'Toont afbeeldingen bij de eventinzetten!'
         },
         source: '/modules/lss-eventmissions/eventmission.user.js',
         develop: false
@@ -1694,7 +1696,7 @@ lssm.Module = {
             ko_KR: '미션 마스크에 필요한 차량을 표시합니다.',
             ro_RO: 'Arată vehiculele necesare în masca de misiune.',
             fi_FI: 'Näyttää vaadittavat ajoneuvot operaation naamarissa.',
-            nl_NL: 'Toont de benodigde voertuigen in het meldingscherm.'
+            nl_NL: 'Toont diverse informatie over een inzet in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -1743,7 +1745,7 @@ lssm.Module = {
             ko_KR: '전송 요청의 빠른 처리',
             ro_RO: 'Procesarea mai rapidă a cererilor de transport.',
             fi_FI: 'Kuljetuspyyntöjen nopeampi käsittely.',
-            nl_NL: 'Sneller verwerken van spraakaanvragen.'
+            nl_NL: 'Diverse automatische handelingen bij spraakaanvragen.'
         },
         source: '/modules/lss-statusDispatching/statusDispatching.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -1921,7 +1923,7 @@ lssm.Module = {
             ko_KR: '아이콘 빌딩 필터',
             ro_RO: 'Filtru pentru construirea pictogramelor',
             fi_FI: 'Kuvake rakennus suodatin',
-            nl_NL: 'REDESIGN FILTERKNOPPEN GEBOUWEN'
+            nl_NL: 'Redesign Filterknoppen Gebouwen'
         },
         active: false,
         description: {
@@ -1943,7 +1945,7 @@ lssm.Module = {
             ko_KR: '건물 필터를 아이콘으로 바꿉니다.',
             ro_RO: 'Înlocuiește filtrul clădirii cu pictograme.',
             fi_FI: 'Korvaa rakennussuodattimen kuvakkeilla.',
-            nl_NL: 'Vervangt de gebouwfilter met nieuwe iconen.'
+            nl_NL: 'Vervangt de gebouwfilterknoppen met nieuwe iconen.'
         },
         source: '/modules/lss-iconFilter/iconFilter.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -1993,7 +1995,8 @@ lssm.Module = {
             ko_KR: '일일 통계 페이지에서 미션, 환자, 죄수 및 동맹에 대한 합계를 표시합니다',
             ro_RO: 'Arată sumele de peste misiuni, pacienți, prizonieri și alianță în pagina de statistici de zi cu zi',
             fi_FI: 'Näyttää summat virkamatkoista, potilaista, vankeista ja liittolaisista päivittäisellä tilasivulla',
-            nl_NL: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen en teamopnames.'
+            nl_NL: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen, teammeldingen' +
+		'en teamopnames.'
         },
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -2291,7 +2294,7 @@ lssm.Module = {
             ko_KR: "건물뿐만 아니라 모든 차량의 개요.",
             ro_RO: "Prezentare generală a tuturor vehiculelor, precum și a clădirilor.",
             fi_FI: "Katsaus kaikista ajoneuvoista ja rakennuksista.",
-            nl_NL: "Overzicht van alle voertuigen, later ook gebouwen."
+            nl_NL: "Overzicht van alle voertuigen en gebouwen."
         },
         source: "/modules/lss-overview/overview.js",
         inframe: true,
@@ -2386,7 +2389,7 @@ lssm.Module = {
             ko_KR: "개별 상태 수를 표시합니다.",
             ro_RO: "Afișează numărul de stări individuale.",
             fi_FI: "Näyttää yksittäisten tilojen määrän.",
-            nl_NL: "Geeft het aantal van ten individuele statussen."
+            nl_NL: "Geeft het aantal van de individuele statussen weer."
         },
         source: "/modules/lss-statuscount/statuscount.js",
         inframe: false,
