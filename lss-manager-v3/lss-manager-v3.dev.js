@@ -468,7 +468,7 @@ I18n.translations.nl_NL.lssm = {
         "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a>"+
         " of <a href=\"https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
         "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>. " +
-	"Door op een plug-in te drukken, ziet u de uitgebreide omschrijving.", 
+        "Door op een plug-in te drukken, ziet u de uitgebreide omschrijving.", 
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
