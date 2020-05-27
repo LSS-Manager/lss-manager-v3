@@ -467,7 +467,8 @@ I18n.translations.nl_NL.lssm = {
         "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Als er problemen zijn, " +
         "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a>"+
         " of <a href=\"https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
-        "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>.",
+        "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>. " +
+	"Door op een plug-in te drukken, ziet u de uitgebreide omschrijving.", 
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -597,7 +598,7 @@ lssm.Module = {
             fi_FI: 'Näkymä pääpaino kartalla. Matkat ja muut ikkunat voidaan muuttaa valikon avulla. Merkki ' +
                  'kertoo kuinka monta virkamatkaa jne. sinulla on viimeisen vierailusi jälkeen siinä ikkunassa.',
             nl_NL: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
-                'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal bericheten en ' +
+                'met menuknoppen tussen de andere schermen gewisseld worden. Een teller houdt het aantal berichten en ' +
                 'meldingen voor je bij.'
         },
         source: '/modules/lss-layout-01/layout-01.user.js',
@@ -827,7 +828,7 @@ lssm.Module = {
         name: {
             de_DE: 'Release Notes',
             en_US: 'Release Notes',
-	    nl_NL: 'Release Notes'
+            nl_NL: 'Release Notes'
         },
         active: false,
         inframe: false,
