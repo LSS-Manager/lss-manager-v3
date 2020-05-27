@@ -3600,9 +3600,9 @@ const lssm_missionhelper_adjustPosition = () => {
                     'Toont, of en hoe deze melding zich uitbreiden kan (Laat alleen de eerste uitbreiding zien)',
             },
             lfrw: {
-                label: 'Laat zien of Hulpverleningsvoertuig invoegen kan bewerken',
+                label: 'Hulpverleningsvoertuig i.p.v. Tankautospuit',
                 description:
-                    'Toont een notitie in de operatie als deze ook met een Hulpverleningsvoertuig in plaats van een Tankautospuit kan worden verwerkt.',
+                    'Toont een opmerking als de inzet ook met een Hulpverleningsvoertuig in plaats van een Tankautospuit kan worden afgehandelt.',
             },
             show_100: {
                 label: 'Toon 100% waarschijnlijkheid',
