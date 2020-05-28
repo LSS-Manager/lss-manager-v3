@@ -2696,7 +2696,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
@@ -3113,6 +3115,224 @@
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "158": {
+        "id": 158,
+        "name": "Trafikolycka - singel, personbil i vatten",
+        "place": "Sj\u00f6",
+        "average_credits": 1400,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "nef": 90,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "159": {
+        "id": 159,
+        "name": "Trafikolycka - singel, lastbil i vatten",
+        "place": "Sj\u00f6",
+        "average_credits": 2000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "160": {
+        "id": 160,
+        "name": "Trafikolycka - singel, buss i vatten",
+        "place": "Sj\u00f6",
+        "average_credits": 3000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "161": {
+        "id": 161,
+        "name": "Dykolycka",
+        "place": "Sj\u00f6",
+        "average_credits": 1000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "nef": 90,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "162": {
+        "id": 162,
+        "name": "F\u00f6rsvunnen person - vid vatten",
+        "place": "Sj\u00f6",
+        "average_credits": 3000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "nef": 90,
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "Drunkning",
+        "place": "Sj\u00f6",
+        "average_credits": 1000,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "wasserrettung": 1
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "Drunkning",
+        "place": "Sj\u00f6",
+        "average_credits": 1200,
+        "generated_by": "Sj\u00f6r\u00e4ddning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "nef": 90,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
             "rescue_stations": 1
         }
     }

@@ -1323,6 +1323,10 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'upp till',
         exp: 'bredbara',
         SWATPersonnel: 'Nödvändig insatsstyrka',
+        averageMinimumEmployeesFire:
+            'Minuter i genomsnitt Brandpersonal',
+        averageMinimumEmployeesPolice:
+            'Minuter i genomsnitt Polispersonal',
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
         transport: 'Transport',
@@ -1398,15 +1402,15 @@ const lssm_missionhelper_adjustPosition = () => {
             },
         },
         requirements: {
-            firetrucks: 'släckbilar',
-            platform_trucks: 'stegbilar',
+            firetrucks: 'Släckbilar',
+            platform_trucks: 'Stegbilar',
             heavy_rescue_vehicles: 'Lastväxlare',
-            mobile_air_vehicles: 'Fordon',
-            battalion_chief_vehicles: 'brandchefsbilar',
-            water_tankers: 'tankbilar',
-            hazmat_vehicles: 'farligt gods-fordon',
+            mobile_air_vehicles: 'Luftfordon',
+            battalion_chief_vehicles: 'Brandbefäl',
+            water_tankers: 'Tankbilar',
+            hazmat_vehicles: 'Farligt gods-fordon',
             mobile_command_vehicles: 'Ledningsfordon',
-            police_cars: 'polisbilar',
+            police_cars: 'Polisbilar',
             ambulances: 'Ambulans',
             arff: 'ARFF',
             helicopter: 'Ambulanshelikopter',
@@ -1414,7 +1418,9 @@ const lssm_missionhelper_adjustPosition = () => {
             pmotorcycle: 'Polismotorcykel',
             swat_armored_vehicle: 'Bepansrat insatsfordon',
             swat_suv: 'Insatsfordon',
-            police_helicopters: 'Polishelikopter',
+            police_helicopters: 'Polishelikoptrar',
+            boats: 'Båtar',
+            diver_units: 'Dykbilar',
         },
         pois: [
             'Park',
@@ -3731,6 +3737,7 @@ const lssm_missionhelper_adjustPosition = () => {
             'Bedrijventerrein',
             'Haventerrein',
             'Bouwterrein',
+            'Silo',
         ],
     };
 
