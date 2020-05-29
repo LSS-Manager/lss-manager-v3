@@ -8766,7 +8766,7 @@
             "police_cars": 2
         },
         "chances": {
-            "lf": 30
+            "firetrucks": 30
         },
         "additional": {},
         "prerequisites": {
