@@ -2747,7 +2747,7 @@
             "police_cars": 1
         },
         "chances": {
-            "lf": 10,
+            "firetrucks": 10,
             "nef": 70,
             "patient_transport": 100
         },
@@ -2924,7 +2924,7 @@
             "police_cars": 1
         },
         "chances": {
-            "lf": 10,
+            "firetrucks": 10,
             "patient_transport": 10
         },
         "additional": {
@@ -6882,7 +6882,7 @@
             "boats": 1
         },
         "chances": {
-            "lf": 20,
+            "firetrucks": 20,
             "diver_units": 10,
             "nef": 90,
             "patient_other_treatment": 0,
@@ -13564,6 +13564,55 @@
             "thw": 3,
             "rescue_dog_units": 1,
             "fire_stations": 8
+        }
+    },
+    "536": {
+        "id": 536,
+        "name": "Einbruch in Supermarkt",
+        "place": "Supermarkt (Klein)",
+        "average_credits": 600,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "537": {
+        "id": 537,
+        "name": "Einbruch in Supermarkt",
+        "place": "Supermarkt (Gro\u00df)",
+        "average_credits": 1100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "firetrucks": 10
+        },
+        "additional": {
+            "max_possible_prisoners": 1,
+            "allow_rw_instead_of_lf": 1
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 1
         }
     }
 }

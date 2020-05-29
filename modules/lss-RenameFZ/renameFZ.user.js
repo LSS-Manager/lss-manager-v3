@@ -618,7 +618,10 @@
                 14: 'Bepansrat insatsfordon',
                 15: 'Hundenhet',
                 16: 'Polismotorcykel',
-                17: 'Insatsfordon'
+                17: 'Insatsfordon',
+                18: 'Dykbil',
+                19: 'Tryckkammarbil',
+                20: 'Liten räddningsbåt'
             }
         }
     };

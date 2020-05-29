@@ -9067,7 +9067,7 @@
         "id": 381,
         "name": "Small Earthquake",
         "place": null,
-        "average_credits": 300,
+        "average_credits": 500,
         "generated_by": "Fire station",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",
@@ -9093,7 +9093,7 @@
         "id": 382,
         "name": "Large Earthquake",
         "place": null,
-        "average_credits": 650,
+        "average_credits": 2100,
         "generated_by": "Fire station",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",
@@ -9127,7 +9127,7 @@
         "id": 383,
         "name": "Medium Earthquake",
         "place": null,
-        "average_credits": 600,
+        "average_credits": 1200,
         "generated_by": "Fire station",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",
@@ -9161,7 +9161,7 @@
         "id": 384,
         "name": "Major Earthquake",
         "place": null,
-        "average_credits": 700,
+        "average_credits": 3200,
         "generated_by": "Fire station",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",

@@ -236,7 +236,7 @@ else if (I18n.locale == "sv_SE")
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Ambulansutbyggnad": 0,
-        "Water rescue expansion": 1,
+        "Sjöräddning": 1,
         "Airport extension": 2,
         // Pol-Erweiterungen (10-19)
         "Fängelsecell": 10,
@@ -262,7 +262,10 @@ else if (I18n.locale == "sv_SE")
         "14": ["Bepansrat insatsfordon", 2],
         "15": ["Hundenhet", 2],
         "16": ["Polismotorcykel", 2],
-        "17": ["Insatsfordon", 2]
+        "17": ["Insatsfordon", 2],
+        "18": ["Dykbil", 0],
+        "19": ["Tryckkammarbil", 0],
+        "20": ["Liten räddningsbåt", 0]
     };
 }
 else if (I18n.locale == "cs_CZ") {

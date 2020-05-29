@@ -27,7 +27,8 @@ const lssm_missionhelper_adjustPosition = () => {
         averageMinimumEmployeesPolice:
             'Durchschnittlich mindestens benötigte Polizisten/Polizistinnen',
         ambulance_only: 'Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!',
-        allow_rw_instead_of_lf: 'Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.',
+        allow_rw_instead_of_lf:
+            'Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.',
         title: 'Einsatzhelfer',
         settings: {
             name: {
@@ -229,7 +230,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'This Mission can also be carried out with a Heavy Rescue instead of a firetruck',
+        allow_rw_instead_of_lf:
+            'This Mission can also be carried out with a Heavy Rescue instead of a firetruck',
         settings: {
             name: {
                 label: 'Name',
@@ -330,6 +332,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_helicopters: 'Police Helicopter',
             emschief: 'EMS Chief',
             brush_truck: 'Wildland fire engines',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -486,6 +489,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -637,6 +641,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'SWAT Armoured Vehicle',
             swat_suv: 'SWAT SUV',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -706,7 +711,8 @@ const lssm_missionhelper_adjustPosition = () => {
         exp: 'Diferenciales',
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
-        allow_rw_instead_of_lf: 'Esta misión también se puede llevar a cabo con un rescate pesado en lugar de un camión de bomberos',
+        allow_rw_instead_of_lf:
+            'Esta misión también se puede llevar a cabo con un rescate pesado en lugar de un camión de bomberos',
         transport: 'transportar',
         settings: {
             name: {
@@ -796,6 +802,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'CBA',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Camiones de bomberos o rescate pesado',
         },
         pois: [
             'Parque',
@@ -946,6 +953,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'CBA',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Camiones de bomberos o rescate pesado',
         },
         pois: [
             'Parque',
@@ -1017,7 +1025,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Esta misión es sólo de ambulancias.!',
         title: 'Missionhelper',
         transport: 'levar',
-        allow_rw_instead_of_lf: 'Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros',
+        allow_rw_instead_of_lf:
+            'Esta missão também pode ser realizada com um resgate pesado em vez de um caminhão de bombeiros',
         settings: {
             name: {
                 label: 'Primeiro nome',
@@ -1103,6 +1112,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'Defesa Civil',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Caminhões de bombeiros ou resgate pesado',
         },
         pois: [
             'Parque',
@@ -1250,6 +1260,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'Defesa Civil',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Caminhões de bombeiros ou resgate pesado',
         },
         pois: [
             'Parque',
@@ -1319,10 +1330,15 @@ const lssm_missionhelper_adjustPosition = () => {
         to: 'upp till',
         exp: 'bredbara',
         SWATPersonnel: 'Nödvändig insatsstyrka',
+        averageMinimumEmployeesFire:
+            'Minuter i genomsnitt Brandpersonal',
+        averageMinimumEmployeesPolice:
+            'Minuter i genomsnitt Polispersonal',
         ambulance_only: 'Detta uppdrag är endast ambulans!',
         title: 'Missionhelper',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'Detta uppdrag kan också utföras med en tung räddning istället för en eldstad',
+        allow_rw_instead_of_lf:
+            'Detta uppdrag kan också utföras med en tung räddning istället för en eldstad',
         settings: {
             name: {
                 label: 'namn',
@@ -1393,15 +1409,15 @@ const lssm_missionhelper_adjustPosition = () => {
             },
         },
         requirements: {
-            firetrucks: 'släckbilar',
-            platform_trucks: 'stegbilar',
+            firetrucks: 'Släckbilar',
+            platform_trucks: 'Stegbilar',
             heavy_rescue_vehicles: 'Lastväxlare',
-            mobile_air_vehicles: 'Fordon',
-            battalion_chief_vehicles: 'brandchefsbilar',
-            water_tankers: 'tankbilar',
-            hazmat_vehicles: 'farligt gods-fordon',
+            mobile_air_vehicles: 'Luftfordon',
+            battalion_chief_vehicles: 'Brandbefäl',
+            water_tankers: 'Tankbilar',
+            hazmat_vehicles: 'Farligt gods-fordon',
             mobile_command_vehicles: 'Ledningsfordon',
-            police_cars: 'polisbilar',
+            police_cars: 'Polisbilar',
             ambulances: 'Ambulans',
             arff: 'ARFF',
             helicopter: 'Ambulanshelikopter',
@@ -1409,7 +1425,10 @@ const lssm_missionhelper_adjustPosition = () => {
             pmotorcycle: 'Polismotorcykel',
             swat_armored_vehicle: 'Bepansrat insatsfordon',
             swat_suv: 'Insatsfordon',
-            police_helicopters: 'Polishelikopter',
+            police_helicopters: 'Polishelikoptrar',
+            boats: 'Båtar',
+            diver_units: 'Dykbilar',
+            allow_rw_instead_of_lf: 'Brandbilar eller tung räddning',
         },
         pois: [
             'Park',
@@ -1482,7 +1501,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Denne mission er kun ambulance!',
         title: 'Missionhelper',
         transport: 'Transportere',
-        allow_rw_instead_of_lf: 'Denne mission kan også udføres med en tung redning i stedet for et ildsted',
+        allow_rw_instead_of_lf:
+            'Denne mission kan også udføres med en tung redning i stedet for et ildsted',
         settings: {
             name: {
                 label: 'Navn',
@@ -1572,6 +1592,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'AKS Patruljevogn',
             police_helicopters: 'Politihelikopter',
             helicopter: 'Rednings Helikopter',
+            allow_rw_instead_of_lf: 'Brandbiler eller tung redning',
         },
         pois: [
             'Park',
@@ -1643,7 +1664,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Tato mise je pouze sanitka!',
         title: 'Pomocník mise',
         transport: 'Doprava',
-        allow_rw_instead_of_lf: 'Tuto misi lze místo hasičského záchranného sboru provést také s těžkou záchranou',
+        allow_rw_instead_of_lf:
+            'Tuto misi lze místo hasičského záchranného sboru provést také s těžkou záchranou',
         settings: {
             name: {
                 label: 'název',
@@ -1733,6 +1755,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Obrněné vozidlo URNA',
             swat_suv: 'URNA SUV',
             police_helicopters: 'Policejní vrtulník',
+            allow_rw_instead_of_lf: 'Hasičské vozy nebo těžká záchranná služba',
         },
         pois: [
             'Park',
@@ -1805,7 +1828,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Bu görev sadece ambulanstır!',
         title: 'Misyonhelper',
         transport: 'Taşıma',
-        allow_rw_instead_of_lf: 'Bu Görev, itfaiye yerine Ağır Kurtarma ile de gerçekleştirilebilir',
+        allow_rw_instead_of_lf:
+            'Bu Görev, itfaiye yerine Ağır Kurtarma ile de gerçekleştirilebilir',
         settings: {
             name: {
                 label: 'isim',
@@ -1855,7 +1879,8 @@ const lssm_missionhelper_adjustPosition = () => {
                 description: 'Bir aracın% 100 olsa bile olasılığını gösterir.',
             },
             lfrw: {
-                label: 'Ağır Kurtarma\'nın görevi yerine getirip getiremeyeceğini göster',
+                label:
+                    "Ağır Kurtarma'nın görevi yerine getirip getiremeyeceğini göster",
                 description:
                     'Görevde, itfaiye aracı yerine Ağır Kurtarma ile de işlenip işlenemeyeceğini bildiren bir mesaj görüntüler.',
             },
@@ -1890,6 +1915,7 @@ const lssm_missionhelper_adjustPosition = () => {
             k9: 'Dog Support Units',
             swat_suv: 'Armed Response Vehicle (ARV)',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'İtfaiye araçları veya ağır kurtarma',
         },
         pois: [
             'Park',
@@ -1962,7 +1988,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Dette oppdraget er kun ambulanse!',
         title: 'Missionhelper',
         transport: 'Transportere',
-        allow_rw_instead_of_lf: 'Dette oppdraget kan også utføres med en tung redning i stedet for en ildsted',
+        allow_rw_instead_of_lf:
+            'Dette oppdraget kan også utføres med en tung redning i stedet for en ildsted',
         settings: {
             name: {
                 label: 'Navn',
@@ -2051,6 +2078,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Delta kjøretøy',
             police_helicopters: 'Politihelikopter',
             helicopter: 'Räddningshelikopter',
+            allow_rw_instead_of_lf: 'Brannbiler eller tung redning',
         },
         pois: [
             'Park',
@@ -2122,7 +2150,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Ta misja to tylko ambulans!',
         title: 'Pomocnik misjonarza',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'Tę misję można również przeprowadzić ciężkim ratunkiem zamiast wozu strażackiego',
+        allow_rw_instead_of_lf:
+            'Tę misję można również przeprowadzić ciężkim ratunkiem zamiast wozu strażackiego',
         settings: {
             name: {
                 label: 'Nazwa',
@@ -2212,6 +2241,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Opancerzony Pojazd SPKP',
             swat_suv: 'SUV SPKP',
             police_helicopters: 'Helikopter Policyjny',
+            allow_rw_instead_of_lf: 'Wozy strażackie lub ciężki ratunek',
         },
         pois: [
             'Park',
@@ -2285,7 +2315,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: "Questa missione e' riservata alle ambulanze.!",
         title: 'Missionhelper',
         transport: 'Trasporto',
-        allow_rw_instead_of_lf: 'Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco',
+        allow_rw_instead_of_lf:
+            'Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco',
         settings: {
             name: {
                 label: 'Nome',
@@ -2378,6 +2409,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'furgone Antisommossa',
             swat_suv: 'Suv UOPI',
             police_helicopters: 'elicottero della polizia',
+            allow_rw_instead_of_lf: 'Camion dei pompieri o salvataggio pesante',
         },
         pois: [
             'Parco',
@@ -2452,7 +2484,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Cette mission est réservée aux ambulances !',
         title: 'Aide à la mission',
         transport: 'transport',
-        allow_rw_instead_of_lf: 'Cette mission peut également être effectuée avec un sauvetage lourd au lieu d\'un camion de pompier',
+        allow_rw_instead_of_lf:
+            "Cette mission peut également être effectuée avec un sauvetage lourd au lieu d'un camion de pompier",
         settings: {
             name: {
                 label: 'Nom',
@@ -2508,7 +2541,7 @@ const lssm_missionhelper_adjustPosition = () => {
             lfrw: {
                 label: 'Montrer si le Heavy Rescue peut traiter la mission',
                 description:
-                    'Affiche un message dans la mission indiquant s\'il peut également être traité avec un sauvetage lourd au lieu d\'un camion de pompiers.',
+                    "Affiche un message dans la mission indiquant s'il peut également être traité avec un sauvetage lourd au lieu d'un camion de pompiers.",
             },
             credits: {
                 label: 'Salaire moyen',
@@ -2541,6 +2574,7 @@ const lssm_missionhelper_adjustPosition = () => {
             thw_gkw: 'Véhicule Tout Usage',
             arff: 'ARFF',
             height_rescue_units: 'VGRIMP',
+            allow_rw_instead_of_lf: 'Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage',
         },
         pois: [
             'Parc',
@@ -2613,7 +2647,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Это задание только для скорой помощи!',
         title: 'Миссионер',
         transport: 'Транспорт',
-        allow_rw_instead_of_lf: 'Эта миссия также может быть выполнена с помощью тяжелого спасателя вместо пожарной машины',
+        allow_rw_instead_of_lf:
+            'Эта миссия также может быть выполнена с помощью тяжелого спасателя вместо пожарной машины',
         settings: {
             name: {
                 label: 'Имя',
@@ -2705,6 +2740,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Бронемашина спецназа',
             swat_suv: 'Внедорожник спецназа',
             police_helicopters: 'Полицейский вертолет',
+            allow_rw_instead_of_lf: 'Пожарные машины или тяжелые спасатели',
         },
         pois: [
             'Парк',
@@ -2776,7 +2812,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Ця місія є лише швидкою допомогою!',
         title: 'Місіонер',
         transport: 'Транспорт',
-        allow_rw_instead_of_lf: 'Ця місія також може бути здійснена за допомогою важкого порятунку замість пожежогасіння',
+        allow_rw_instead_of_lf:
+            'Ця місія також може бути здійснена за допомогою важкого порятунку замість пожежогасіння',
         settings: {
             name: {
                 label: "Ім'я",
@@ -2862,6 +2899,7 @@ const lssm_missionhelper_adjustPosition = () => {
             k9: 'Dog Support Units',
             swat_suv: 'Armed Response Vehicle (ARV)',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'Пожежні машини або важкі рятувальні',
         },
         pois: [
             'Парк',
@@ -2933,7 +2971,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'このミッションは救急車のみです！',
         title: 'ミッションヘルパー',
         transport: '輸送',
-        allow_rw_instead_of_lf: 'このミッションは、消防車の代わりにヘビーレスキューで実施することもできます',
+        allow_rw_instead_of_lf:
+            'このミッションは、消防車の代わりにヘビーレスキューで実施することもできます',
         settings: {
             name: {
                 label: '名前',
@@ -3014,6 +3053,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: '消防車または重い救助',
         },
         pois: [
             '公園',
@@ -3084,7 +3124,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: '이 임무는 구급차 전용입니다!',
         title: '선교사',
         transport: '수송',
-        allow_rw_instead_of_lf: '이 임무는 소방차 대신 무거운 구조로도 수행 할 수 있습니다',
+        allow_rw_instead_of_lf:
+            '이 임무는 소방차 대신 무거운 구조로도 수행 할 수 있습니다',
         settings: {
             name: {
                 label: '이름',
@@ -3167,6 +3208,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: '소방차 또는 무거운 구조',
         },
         pois: [
             '공원',
@@ -3239,7 +3281,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Misiunea asta e doar pentru ambulanță!',
         title: 'Ajutor de misiune',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'Această misiune poate fi, de asemenea, efectuată cu o salvare grea în loc de un autoturism ',
+        allow_rw_instead_of_lf:
+            'Această misiune poate fi, de asemenea, efectuată cu o salvare grea în loc de un autoturism ',
         settings: {
             name: {
                 label: 'Numele',
@@ -3326,6 +3369,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff:
                 'Serviciu aeronautic de salvare și luptă împotriva incendiilor',
             helicopter: 'Air Ambulance',
+            allow_rw_instead_of_lf: 'Camioane de pompieri sau salvare grea',
         },
         pois: [
             'Parc',
@@ -3398,7 +3442,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Tämä tehtävä on vain ambulanssi!',
         title: 'Tehtävän auttaja',
         transport: 'Kuljetus',
-        allow_rw_instead_of_lf: 'Tämä operaatio voidaan suorittaa myös Heavy Rescue -palvelun kanssa tulipalon sijaan',
+        allow_rw_instead_of_lf:
+            'Tämä operaatio voidaan suorittaa myös Heavy Rescue -palvelun kanssa tulipalon sijaan',
         settings: {
             name: {
                 label: 'Nimi',
@@ -3481,6 +3526,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_cars: 'poliisiauto',
             arff: 'lentokenttäpaloauto',
             helicopter: 'Air Ambulance',
+            allow_rw_instead_of_lf: 'Paloautot tai raskas pelastus',
         },
         pois: [
             'Puisto',
@@ -3553,7 +3599,8 @@ const lssm_missionhelper_adjustPosition = () => {
         ambulance_only: 'Deze inzet is alleen voor de ambulance!',
         title: 'Meldinghelper',
         transport: 'Transport',
-        allow_rw_instead_of_lf: 'Deze inzet kan ook worden afgehandeld met een Hulpverleningsvoertuig i.p.v. Tankautospuit.',
+        allow_rw_instead_of_lf:
+            'Deze inzet kan ook worden afgehandeld met een Hulpverleningsvoertuig i.p.v. Tankautospuit.',
         settings: {
             name: {
                 label: 'Naam',
@@ -3653,7 +3700,8 @@ const lssm_missionhelper_adjustPosition = () => {
             at_o: 'AT Operator',
             at_m: 'AT Materiaalwagen',
             spokesman: 'Voorlichter',
-            allow_rw_instead_of_lf: 'Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken',
+            allow_rw_instead_of_lf:
+                'Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken',
         },
         pois: [
             'Park',
@@ -3710,6 +3758,7 @@ const lssm_missionhelper_adjustPosition = () => {
             'Bedrijventerrein',
             'Haventerrein',
             'Bouwterrein',
+            'Silo',
         ],
     };
 
@@ -3950,10 +3999,10 @@ const lssm_missionhelper_adjustPosition = () => {
     const MISSION_TYPE = MISSION_WINDOW
         ? mission_help[0]
             ? mission_help
-                .attr('href')
-                .split('/')
-                .pop()
-                .replace(/\?.*/, '')
+                  .attr('href')
+                  .split('/')
+                  .pop()
+                  .replace(/\?.*/, '')
             : null
         : window.location.href.match(/\d+([^?]|$)/)[0];
     const MISSION_ID = window.location.href.replace(/\D/g, '');
@@ -3988,16 +4037,16 @@ const lssm_missionhelper_adjustPosition = () => {
                 localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? ''
                     : 'hidden'
-                }"></article>
+            }"></article>
 <br class="unpinned">
 <span id="${LSSM_MH_PREFIX}_toggle"><span class="${
                 localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? 'up'
                     : 'down'
-                }"></span></span>`;
+            }"></span></span>`;
 
             MISSION_WINDOW &&
-                localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
+            localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
                 ? pin_missionhelper(markup)
                 : unpin_missionhelper(markup);
 
@@ -4010,19 +4059,19 @@ const lssm_missionhelper_adjustPosition = () => {
                         document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                        }</span>&nbsp;`);
+                    }</span>&nbsp;`);
                 return lssm_missionhelper_adjustPosition();
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) ||
                     ''}<sub>${(SETTINGS.id &&
-                        `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
+                    `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
-                        `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
+                    `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
                     ''}${(MISSION.place &&
-                        SETTINGS.poi &&
-                        `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
+                    SETTINGS.poi &&
+                    `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
                     ''}</sub></h3><br>`;
             }
 
@@ -4038,9 +4087,9 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                    ''}${void 0 !==
-                    typeof MISSION.additional.patient_specializations &&
-                    ` (${MISSION.additional.patient_specializations})`}`);
+                        ''}${void 0 !==
+                        typeof MISSION.additional.patient_specializations &&
+                        ` (${MISSION.additional.patient_specializations})`}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -4105,24 +4154,36 @@ const lssm_missionhelper_adjustPosition = () => {
                         continue;
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
-                        }x ${I18n.t(
-                            `lssm.missionhelper.requirements.${vehicle}`
-                        )} ${(MISSION.chances &&
-                            MISSION.chances[vehicle] &&
-                            `(${MISSION.chances[vehicle]}%)`) ||
+                    }x ${I18n.t(
+                        `lssm.missionhelper.requirements.${
+                            SETTINGS.lfrw &&
+                            MISSION.additional &&
+                            MISSION.additional.allow_rw_instead_of_lf &&
+                            vehicle === 'firetrucks'
+                                ? 'allow_rw_instead_of_lf'
+                                : vehicle
+                        }`
+                    )} ${(MISSION.chances &&
+                        MISSION.chances[vehicle] &&
+                        `(${MISSION.chances[vehicle]}%)`) ||
                         (SETTINGS.show_100 && `(100%)`) ||
                         ''}<br>`;
                 }
             }
 
-            if ((MISSION.additional || (MISSION.chances && SETTINGS.patients)) && MISSION.additional.possible_patient) {
-                (content.innerHTML += `<br>${I18n.t(
+            if (
+                (MISSION.additional ||
+                    (MISSION.chances && SETTINGS.patients)) &&
+                MISSION.additional.possible_patient
+            ) {
+                content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.patients'
                 )}: ${(MISSION.additional.possible_patient_min !==
                     MISSION.additional.possible_patient &&
-                    `${MISSION.additional.possible_patient_min ||
-                    0} ${I18n.t('lssm.missionhelper.to')}`) ||
-                ''} ${MISSION.additional.possible_patient}<br>`);
+                    `${MISSION.additional.possible_patient_min || 0} ${I18n.t(
+                        'lssm.missionhelper.to'
+                    )}`) ||
+                    ''} ${MISSION.additional.possible_patient}<br>`;
 
                 if (
                     MISSION.chances.patient_transport ||
@@ -4132,9 +4193,9 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                    ''}${void 0 !==
-                    typeof MISSION.additional.patient_specializations &&
-                    ` (${MISSION.additional.patient_specializations})`}`;
+                        ''}${void 0 !==
+                        typeof MISSION.additional.patient_specializations &&
+                        ` (${MISSION.additional.patient_specializations})`}`;
                 }
 
                 MISSION.chances.nef &&
@@ -4179,17 +4240,10 @@ const lssm_missionhelper_adjustPosition = () => {
                 (content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.prisoners'
                 )}: ${MISSION.additional.min_possible_prisoners !==
-                MISSION.additional.max_possible_prisoners &&
-                `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
-                    'lssm.missionhelper.to'
-                )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
-
-            SETTINGS.lfrw &&
-                MISSION.additional &&
-                MISSION.additional.allow_rw_instead_of_lf &&
-                (content.innerHTML += `<br>${I18n.t(
-                    'lssm.missionhelper.allow_rw_instead_of_lf'
-                )}<br>`);
+                    MISSION.additional.max_possible_prisoners &&
+                    `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
+                        'lssm.missionhelper.to'
+                    )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
 
             SETTINGS.special &&
                 MISSION.additional &&
@@ -4235,7 +4289,7 @@ const lssm_missionhelper_adjustPosition = () => {
                         document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                        }</span>&nbsp;`);
+                    }</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
@@ -4252,7 +4306,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     let id = MISSION.additional.expansion_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
-                        }</span></a>`;
+                    }</span></a>`;
                 }
             }
 
@@ -4266,7 +4320,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     let id = MISSION.additional.followup_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
-                        }</span></a>`;
+                    }</span></a>`;
                 }
             }
 
@@ -4280,9 +4334,9 @@ const lssm_missionhelper_adjustPosition = () => {
         let missionhelp_bounding = missionhelp.getBoundingClientRect();
         missionhelp.style.opacity =
             element_bounding.right > missionhelp_bounding.left &&
-                element_bounding.left < missionhelp_bounding.right &&
-                element_bounding.bottom > missionhelp_bounding.top &&
-                element_bounding.top < missionhelp_bounding.bottom
+            element_bounding.left < missionhelp_bounding.right &&
+            element_bounding.bottom > missionhelp_bounding.top &&
+            element_bounding.top < missionhelp_bounding.bottom
                 ? 0.1
                 : null;
     };
