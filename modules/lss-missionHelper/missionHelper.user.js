@@ -332,6 +332,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_helicopters: 'Police Helicopter',
             emschief: 'EMS Chief',
             brush_truck: 'Wildland fire engines',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -488,6 +489,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -639,6 +641,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'SWAT Armoured Vehicle',
             swat_suv: 'SWAT SUV',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
             'Park',
@@ -799,6 +802,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'CBA',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Camiones de bomberos o rescate pesado',
         },
         pois: [
             'Parque',
@@ -949,6 +953,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'CBA',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Camiones de bomberos o rescate pesado',
         },
         pois: [
             'Parque',
@@ -1107,6 +1112,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'Defesa Civil',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Caminhões de bombeiros ou resgate pesado',
         },
         pois: [
             'Parque',
@@ -1254,6 +1260,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff: 'Defesa Civil',
             police_helicopters: 'Police Helicopter',
             ambulances: 'Ambulancia',
+            allow_rw_instead_of_lf: 'Caminhões de bombeiros ou resgate pesado',
         },
         pois: [
             'Parque',
@@ -1421,6 +1428,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_helicopters: 'Polishelikoptrar',
             boats: 'Båtar',
             diver_units: 'Dykbilar',
+            allow_rw_instead_of_lf: 'Brandbilar eller tung räddning',
         },
         pois: [
             'Park',
@@ -1584,6 +1592,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'AKS Patruljevogn',
             police_helicopters: 'Politihelikopter',
             helicopter: 'Rednings Helikopter',
+            allow_rw_instead_of_lf: 'Brandbiler eller tung redning',
         },
         pois: [
             'Park',
@@ -1746,6 +1755,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Obrněné vozidlo URNA',
             swat_suv: 'URNA SUV',
             police_helicopters: 'Policejní vrtulník',
+            allow_rw_instead_of_lf: 'Hasičské vozy nebo těžká záchranná služba',
         },
         pois: [
             'Park',
@@ -1905,6 +1915,7 @@ const lssm_missionhelper_adjustPosition = () => {
             k9: 'Dog Support Units',
             swat_suv: 'Armed Response Vehicle (ARV)',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'İtfaiye araçları veya ağır kurtarma',
         },
         pois: [
             'Park',
@@ -2067,6 +2078,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Delta kjøretøy',
             police_helicopters: 'Politihelikopter',
             helicopter: 'Räddningshelikopter',
+            allow_rw_instead_of_lf: 'Brannbiler eller tung redning',
         },
         pois: [
             'Park',
@@ -2229,6 +2241,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Opancerzony Pojazd SPKP',
             swat_suv: 'SUV SPKP',
             police_helicopters: 'Helikopter Policyjny',
+            allow_rw_instead_of_lf: 'Wozy strażackie lub ciężki ratunek',
         },
         pois: [
             'Park',
@@ -2396,6 +2409,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'furgone Antisommossa',
             swat_suv: 'Suv UOPI',
             police_helicopters: 'elicottero della polizia',
+            allow_rw_instead_of_lf: 'Camion dei pompieri o salvataggio pesante',
         },
         pois: [
             'Parco',
@@ -2560,6 +2574,7 @@ const lssm_missionhelper_adjustPosition = () => {
             thw_gkw: 'Véhicule Tout Usage',
             arff: 'ARFF',
             height_rescue_units: 'VGRIMP',
+            allow_rw_instead_of_lf: 'Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage',
         },
         pois: [
             'Parc',
@@ -2725,6 +2740,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Бронемашина спецназа',
             swat_suv: 'Внедорожник спецназа',
             police_helicopters: 'Полицейский вертолет',
+            allow_rw_instead_of_lf: 'Пожарные машины или тяжелые спасатели',
         },
         pois: [
             'Парк',
@@ -2883,6 +2899,7 @@ const lssm_missionhelper_adjustPosition = () => {
             k9: 'Dog Support Units',
             swat_suv: 'Armed Response Vehicle (ARV)',
             police_helicopters: 'Police Helicopter',
+            allow_rw_instead_of_lf: 'Пожежні машини або важкі рятувальні',
         },
         pois: [
             'Парк',
@@ -3036,6 +3053,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: '消防車または重い救助',
         },
         pois: [
             '公園',
@@ -3190,6 +3208,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            allow_rw_instead_of_lf: '소방차 또는 무거운 구조',
         },
         pois: [
             '공원',
@@ -3350,6 +3369,7 @@ const lssm_missionhelper_adjustPosition = () => {
             arff:
                 'Serviciu aeronautic de salvare și luptă împotriva incendiilor',
             helicopter: 'Air Ambulance',
+            allow_rw_instead_of_lf: 'Camioane de pompieri sau salvare grea',
         },
         pois: [
             'Parc',
@@ -3506,6 +3526,7 @@ const lssm_missionhelper_adjustPosition = () => {
             police_cars: 'poliisiauto',
             arff: 'lentokenttäpaloauto',
             helicopter: 'Air Ambulance',
+            allow_rw_instead_of_lf: 'Paloautot tai raskas pelastus',
         },
         pois: [
             'Puisto',
