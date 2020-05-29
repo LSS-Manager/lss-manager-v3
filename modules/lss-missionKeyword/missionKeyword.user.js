@@ -5223,8 +5223,8 @@
       533: 'POL 3 RHS',
       534: 'THL 4 RHS',
       535: 'THW 3 RHS',
-      536: 'POL ',
-      537: 'POL ',
+      536: 'POL 1',
+      537: 'POL 3',
       538: 'RD 2'
     };
     let DEFAULT_AAO_ENUS = {

@@ -3137,7 +3137,6 @@
             "boats": 2
         },
         "chances": {
-            "nef": 90,
             "patient_transport": 90
         },
         "additional": {
@@ -3171,7 +3170,6 @@
             "boats": 3
         },
         "chances": {
-            "nef": 30,
             "patient_transport": 90
         },
         "additional": {
@@ -3204,7 +3202,6 @@
             "boats": 3
         },
         "chances": {
-            "nef": 30,
             "patient_transport": 90
         },
         "additional": {
@@ -3234,7 +3231,6 @@
             "boats": 1
         },
         "chances": {
-            "nef": 90,
             "patient_transport": 90
         },
         "additional": {
@@ -3267,7 +3263,6 @@
             "boats": 2
         },
         "chances": {
-            "nef": 90,
             "patient_transport": 100,
             "helicopter": 25
         },
@@ -3322,7 +3317,6 @@
             "boats": 1
         },
         "chances": {
-            "nef": 90,
             "patient_transport": 90
         },
         "additional": {
