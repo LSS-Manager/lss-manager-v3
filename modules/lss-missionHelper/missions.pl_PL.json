@@ -3756,5 +3756,67 @@
             "police_stations": 8,
             "fire_stations": 7
         }
+    },
+    "187": {
+        "id": 187,
+        "name": "Po\u017car rafinerii",
+        "place": "Fabryka",
+        "average_credits": 7200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 13,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 5,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 4,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "188": {
+        "id": 188,
+        "name": "Zawalenie si\u0119 wie\u017cy ko\u015bcio\u0142a",
+        "place": null,
+        "average_credits": 5600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 4,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 4,
+            "fire_stations": 10
+        }
     }
 }

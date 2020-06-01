@@ -2883,5 +2883,32 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "129": {
+        "id": 129,
+        "name": "Nehoda se zv\u00ed\u0159etem",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
     }
 }

@@ -3308,5 +3308,32 @@
             "police_stations": 10,
             "fire_stations": 2
         }
+    },
+    "173": {
+        "id": 173,
+        "name": "Car accident with animal",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
     }
 }

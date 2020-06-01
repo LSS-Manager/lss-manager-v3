@@ -2846,5 +2846,32 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "155": {
+        "id": 155,
+        "name": "Accidente de transporte de animales",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatolog\u00eda"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
     }
 }

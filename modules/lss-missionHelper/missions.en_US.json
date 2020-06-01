@@ -9288,5 +9288,28 @@
         "prerequisites": {
             "police_stations": 7
         }
+    },
+    "389": {
+        "id": 389,
+        "name": "Small forest fire",
+        "place": "Forest",
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 9
+        }
     }
 }

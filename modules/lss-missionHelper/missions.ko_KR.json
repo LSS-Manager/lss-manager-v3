@@ -2217,5 +2217,32 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "103": {
+        "id": 103,
+        "name": "\ub3d9\ubb3c\uc774 \uc788\ub294 \uc790\ub3d9\ucc28 \uc0ac\uace0",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
     }
 }
