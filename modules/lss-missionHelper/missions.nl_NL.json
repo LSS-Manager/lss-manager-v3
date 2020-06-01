@@ -14711,5 +14711,49 @@
             "police_stations": 5,
             "fire_stations": 19
         }
+    },
+    "606": {
+        "id": 606,
+        "name": "Onbevoegden op spoor",
+        "place": "Rangeeremplacement",
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "607": {
+        "id": 607,
+        "name": "Onbevoegden op spoor",
+        "place": "Spoorwegovergang",
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

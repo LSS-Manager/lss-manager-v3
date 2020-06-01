@@ -11,14 +11,7 @@
         errorloading: "Fehler beim Laden der Releasenotes.",
         link_caption: "Release Notes"
     };
-
     I18n.translations.en_US['lssm']['releasenotes'] = {
-        title: "New",
-        close: "Cool!",
-        errorloading: "Error loading Releasenotes.",
-        link_caption: "Release Notes"
-    };
-    I18n.translations.fj['lssm']['releasenotes'] = {
         title: "New",
         close: "Cool!",
         errorloading: "Error loading Releasenotes.",

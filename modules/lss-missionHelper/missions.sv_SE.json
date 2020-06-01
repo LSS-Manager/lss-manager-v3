@@ -3327,5 +3327,46 @@
             "wasserrettung": 1,
             "rescue_stations": 1
         }
+    },
+    "165": {
+        "id": 165,
+        "name": "Snatteri",
+        "place": "Mataff\u00e4r",
+        "average_credits": 400,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "Hissn\u00f6dl\u00e4ge",
+        "place": "Kontorsbyggnad",
+        "average_credits": 450,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/elevator_gruen.png",
+            "1": "/images/elevator_gelb.png",
+            "2": "/images/elevator_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

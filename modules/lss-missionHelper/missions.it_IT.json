@@ -3630,5 +3630,68 @@
         "prerequisites": {
             "fire_stations": 4
         }
+    },
+    "175": {
+        "id": 175,
+        "name": "Deragliamento treno (PICCOLO)",
+        "place": "Stazione ferroviaria (traffico regionale)",
+        "average_credits": 5200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 20,
+            "helicopter": 2
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "average_min_fire_personnel": 20,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 4,
+            "fire_stations": 10
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Terremoto (PICCOLO)",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 2
+        }
     }
 }

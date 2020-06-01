@@ -32,14 +32,10 @@
 // @include      *://www.nodsentralspillet.com/*
 // @include      *://operacni-stredisko.cz/*
 // @include      *://www.operacni-stredisko.cz/*
-// @include      *://112-merkez.com/*
-// @include      *://www.112-merkez.com/*
 // @include      *://jogo-operador112.com/*
 // @include      *://www.jogo-operador112.com/*
 // @include      *://operador193.com/*
 // @include      *://www.operador193.com/*
-// @include      *://centro-de-mando.mx/*
-// @include      *://www.centro-de-mando.mx/*
 // @include      *://dyspetcher101-game.com/*
 // @include      *://www.dyspetcher101-game.com/*
 // @include      *://missionchief-japan.com/*
