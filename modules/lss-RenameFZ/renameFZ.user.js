@@ -1874,9 +1874,9 @@
     }
 
     function applyNewName(vehicleID, last=false) {
-        if (set.vehicles[vehicleID].newName.length > 40) {
+        if (set.vehicles[vehicleID].newName.length > 150) {
             $(`#${prefix}_nameToLongDiv`).show();
-            $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 40) + "</td></tr>");
+            $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 150) + "</td></tr>");
         }
         if (!$(`#vehicle_new_name_${vehicleID}`)[0]) {
             $(`#vehicle_form_holder_${vehicleID}`)
@@ -1890,7 +1890,7 @@
                 },
                 success: function (data) {
                     $(`#vehicle_form_holder_${vehicleID}`).html(data);
-                    $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
+                    $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 150));
                     if (last && executionFailed !== true) {
                         $(`#${prefix}_status`).html(`Status: ${I18n.t('lssm.renameFz.statusSuccess')}`);
                     }
@@ -1901,7 +1901,7 @@
                 }
             });
         } else {
-            $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 40));
+            $(`#vehicle_new_name_${vehicleID}`).val(set.vehicles[vehicleID].newName.substr(0, 150));
         }
     }
 

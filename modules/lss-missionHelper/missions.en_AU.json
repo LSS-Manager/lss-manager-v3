@@ -3273,7 +3273,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 hours"
+            "duration": "2 hours",
+            "guard_mission": true
         },
         "prerequisites": {
             "rescue_stations": 2,
