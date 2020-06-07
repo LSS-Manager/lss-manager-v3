@@ -13611,5 +13611,31 @@
             "police_stations": 3,
             "fire_stations": 1
         }
+    },
+    "538": {
+        "id": 538,
+        "name": "Verbrennung",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 75,
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6
+        }
     }
 }
