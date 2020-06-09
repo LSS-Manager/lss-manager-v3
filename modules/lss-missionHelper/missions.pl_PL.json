@@ -3818,5 +3818,101 @@
             "police_stations": 4,
             "fire_stations": 10
         }
+    },
+    "189": {
+        "id": 189,
+        "name": "Zderzenie wozu stra\u017cackiego z samochodem osobowym",
+        "place": "Zjazd z autostrady",
+        "average_credits": 1600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 65
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "190": {
+        "id": 190,
+        "name": "Zderzenie radiowozu z samochodem osobowym",
+        "place": "Zjazd z autostrady",
+        "average_credits": 1600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 65
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Zderzenie karetki z samochodem osobowym",
+        "place": "Zjazd z autostrady",
+        "average_credits": 1600,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 65
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
     }
 }

@@ -1949,5 +1949,30 @@
             "rescue_stations": 3,
             "police_stations": 3
         }
+    },
+    "93": {
+        "id": 93,
+        "name": "Spargerea conductei",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "heavy_rescue_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

@@ -3392,5 +3392,27 @@
         "prerequisites": {
             "fire_stations": 20
         }
+    },
+    "178": {
+        "id": 178,
+        "name": "Medium forest fire",
+        "place": "Forest",
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

@@ -3368,5 +3368,35 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "167": {
+        "id": 167,
+        "name": "Explosion - utomhus",
+        "place": null,
+        "average_credits": 2110,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 13
+        }
     }
 }
