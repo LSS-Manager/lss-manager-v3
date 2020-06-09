@@ -2404,7 +2404,7 @@
     "110": {
         "id": 110,
         "name": "Fogo num aterro sanit\u00e1rio",
-        "place": null,
+        "place": "Aterro sanit\u00e1rio",
         "average_credits": 3500,
         "generated_by": "Unidade do corpo de bombeiros",
         "icons": {
@@ -2473,6 +2473,31 @@
         "prerequisites": {
             "rescue_stations": 3,
             "police_stations": 3
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "Cano de \u00e1gua furado",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Unidade do corpo de bombeiros",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "heavy_rescue_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
         }
     }
 }

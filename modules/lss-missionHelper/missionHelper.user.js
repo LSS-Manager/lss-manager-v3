@@ -789,8 +789,8 @@ const lssm_missionhelper_adjustPosition = () => {
             },
         },
         requirements: {
-            firetrucks: 'camiones de bomberos',
-            platform_trucks: 'camiones con plataforma',
+            firetrucks: 'Camiones de bomberos',
+            platform_trucks: 'Camiones con plataforma',
             heavy_rescue_vehicles: 'Furgones de Útiles Vario',
             mobile_air_vehicles: 'Mobile Air',
             battalion_chief_vehicles: 'unidades de Mando y Comunicaciones',

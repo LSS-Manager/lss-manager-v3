@@ -14755,5 +14755,55 @@
         "prerequisites": {
             "police_stations": 2
         }
+    },
+    "608": {
+        "id": 608,
+        "name": "Persoon aangevallen door hond",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 1
+        }
+    },
+    "609": {
+        "id": 609,
+        "name": "Assistentie huisarts",
+        "place": "Huisartsenpraktijk",
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

@@ -2292,5 +2292,30 @@
             "rescue_stations": 3,
             "police_stations": 3
         }
+    },
+    "106": {
+        "id": 106,
+        "name": "\u6c34\u9053\u7ba1\u7834\u88c2",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "heavy_rescue_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

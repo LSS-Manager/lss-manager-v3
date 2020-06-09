@@ -9311,5 +9311,31 @@
             "brush_extension": 1,
             "fire_stations": 9
         }
+    },
+    "390": {
+        "id": 390,
+        "name": "Cliff collapse on highway",
+        "place": "Highway exit",
+        "average_credits": 7000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
     }
 }
