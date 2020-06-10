@@ -953,7 +953,7 @@
         371: 'Major Wildfire',
         372: 'Medium Controlled Burn',
         373: 'Large Controlled Burn',
-        374: 'Fire Break Clearing',
+        374: 'Firebreak Clearing',
         375: 'Lightning Strike in Forest',
         376: 'Plane off the runway',
         377: 'Off-road Rescue',
@@ -969,7 +969,13 @@
         387: 'Trespasser on Tracks',
         388: 'Trespasser on Tracks',
         389: 'Small forest fire',
-        390: 'Cliff collapse on highway'
+        390: 'Cliff collapse on highway',
+        391: 'Cabin fire',
+        392: 'Campsite fire',
+        393: 'Medium forest fire',
+        394: 'Large Forest Fire',
+        395: 'Major Forest Fire',
+        396: 'Fire Watch'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -5378,7 +5384,13 @@
       387: 'POL 2',
       388: 'POL 2',
       389: 'FIRE 2',
-      390: 'TECH 3'
+      390: 'TECH 3',
+      391: 'FIRE 3',
+      392: 'FIRE 3',
+      393: 'FIRE 4',
+      394: 'FIRE 5',
+      395: 'FIRE 7',
+      396: 'Planned mission'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',

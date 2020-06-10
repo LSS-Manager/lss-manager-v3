@@ -8891,7 +8891,7 @@
     },
     "374": {
         "id": 374,
-        "name": "Fire Break Clearing",
+        "name": "Firebreak Clearing",
         "place": "Forest",
         "average_credits": 600,
         "generated_by": "Fire station",
@@ -9306,7 +9306,11 @@
             "water_tankers": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 393
+            }
+        },
         "prerequisites": {
             "brush_extension": 1,
             "fire_stations": 9
@@ -9336,6 +9340,198 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 10
+        }
+    },
+    "391": {
+        "id": 391,
+        "name": "Cabin fire",
+        "place": "Forest Cabin",
+        "average_credits": 3000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 369,
+                "1": 370,
+                "2": 371,
+                "3": 372,
+                "4": 373,
+                "5": 389
+            },
+            "followup_missions_ids": {
+                "0": 389,
+                "1": 369
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 9
+        }
+    },
+    "392": {
+        "id": 392,
+        "name": "Campsite fire",
+        "place": "Campsite",
+        "average_credits": 3000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "brush_truck": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "expansion_missions_ids": {
+                "0": 369,
+                "1": 370,
+                "2": 371,
+                "3": 372,
+                "4": 373
+            },
+            "followup_missions_ids": {
+                "0": 389
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "393": {
+        "id": 393,
+        "name": "Medium forest fire",
+        "place": "Forest",
+        "average_credits": 5500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 5,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 394
+            }
+        },
+        "prerequisites": {
+            "brush_extension": 3,
+            "fire_stations": 11
+        }
+    },
+    "394": {
+        "id": 394,
+        "name": "Large Forest Fire",
+        "place": "Forest",
+        "average_credits": 8000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 395
+            }
+        },
+        "prerequisites": {
+            "brush_extension": 5,
+            "fire_stations": 15
+        }
+    },
+    "395": {
+        "id": 395,
+        "name": "Major Forest Fire",
+        "place": "Forest",
+        "average_credits": 11000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 10,
+            "fire_aviation": 1,
+            "battalion_chief_vehicles": 7,
+            "mobile_command_vehicles": 2,
+            "water_tankers": 4,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 369,
+                "1": 389
+            }
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "brush_extension": 7,
+            "fire_aviation_count": 1,
+            "fire_stations": 18
+        }
+    },
+    "396": {
+        "id": 396,
+        "name": "Fire Watch",
+        "place": "Forest",
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 hour",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 2
         }
     }
 }
