@@ -206,7 +206,8 @@
                 13: "Fire Station (Small)",
                 14: "Urgent Care Center",
                 15: "Police Station (Small station)",
-                16: "Ambulance station (Small station)"
+                16: "Ambulance station (Small station)",
+                17: "Firefighting plane station"
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -243,7 +244,12 @@
                 31: 'Type 5 engine',
                 32: 'Type 7 engine',
                 33: 'Pumper Tanker',
-                34: 'Crew Carrier'
+                34: 'Crew Carrier',
+                35: 'Water drop helicopter',
+                36: 'Air tanker',
+                37: 'Heavy air tanker',
+                38: 'Type 4 engine',
+                39: 'Type 6 engine'
             }
         }
     };

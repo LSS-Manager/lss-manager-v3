@@ -226,6 +226,7 @@ const lssm_missionhelper_adjustPosition = () => {
         prisoners: 'Prisoners',
         to: 'up to',
         exp: 'Spreads',
+        fwm: 'Follow-up missions',
         SWATPersonnel: 'Needed SWAT Personnel',
         ambulance_only: 'This mission is ambulance-only!',
         title: 'Missionhelper',
@@ -332,7 +333,8 @@ const lssm_missionhelper_adjustPosition = () => {
             police_helicopters: 'Police Helicopter',
             emschief: 'EMS Chief',
             brush_truck: 'Wildland fire engines',
-            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
+            fire_aviation: 'Airborne Firefighting Vehicles',
+            allow_rw_instead_of_lf: 'Fire trucks or Heavy Rescue',
         },
         pois: [
             'Park',

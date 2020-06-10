@@ -55,7 +55,12 @@ if (I18n.locale == "en_US")
         "31": ["Type 5 engine", 0],
         "32": ["Type 7 engine", 0],
         "33": ["Pumper Tanker", 0],
-        "34": ["Crew Carrier", 0]
+        "34": ["Crew Carrier", 0],
+        "35": ["Water drop helicopter", 0],
+        "36": ["Air tanker", 0],
+        "37": ["Heavy air tanker", 0],
+        "38": ["Type 4 engine", 0],
+        "39": ["Type 6 engine", 0]
     };
 }
 else if (I18n.locale == "en_GB")
