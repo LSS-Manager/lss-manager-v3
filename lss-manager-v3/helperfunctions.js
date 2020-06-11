@@ -765,6 +765,7 @@ else if (I18n.locale == "de_DE")
         "2. Technischer Zug - Grundvoraussetzung": 44,
         "2. Technischer Zug: Bergungsgruppe 2": 45,
         "2. Technischer Zug: Zugtrupp ": 46,
+        "Fachgruppe Ortung": 47,
     };
 
     lssm.buildingTypes = [
@@ -884,7 +885,9 @@ else if (I18n.locale == "de_DE")
         "88": ["KLF", 0],
         "89": ["MLF", 0],
         "90": ["HLF 10", 0],
-        "91": ["Rettungshundefahrzeug", 1]
+        "91": ["Rettungshundefahrzeug", 1],
+        "92": ["Anh Hund", 3],
+        "93": ["MTW-OV", 3]
     };
 }
 lssm.getVehicleNameById = function(vehicleId) {

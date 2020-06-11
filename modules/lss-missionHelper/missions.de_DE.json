@@ -4184,7 +4184,8 @@
         "additional": {
             "possible_patient": 7,
             "followup_missions_ids": {
-                "0": 429
+                "0": 429,
+                "1": 539
             },
             "patient_specializations": "Allgemeine Innere"
         },
@@ -4750,6 +4751,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 540
+            },
             "followup_missions_ids": {
                 "0": 44,
                 "1": 74,
@@ -6776,6 +6780,9 @@
         "chances": {},
         "additional": {
             "duration": "3 Stunden",
+            "expansion_missions_ids": {
+                "0": 540
+            },
             "average_min_police_personnel": 150,
             "guard_mission": true
         },
@@ -13108,6 +13115,9 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 545
+            },
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13336,7 +13346,8 @@
         "additional": {
             "possible_patient": 7,
             "followup_missions_ids": {
-                "0": 429
+                "0": 429,
+                "1": 539
             },
             "patient_specializations": "Allgemeine Innere"
         },
@@ -13509,6 +13520,9 @@
         },
         "additional": {
             "possible_patient": 10,
+            "followup_missions_ids": {
+                "0": 539
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13636,6 +13650,220 @@
         },
         "prerequisites": {
             "rescue_stations": 6
+        }
+    },
+    "539": {
+        "id": 539,
+        "name": "Versch\u00fcttete Personen",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "thw_gkw": 2,
+            "thw_mtwtz": 2,
+            "thw_brmg_r": 2,
+            "thw_mzkw": 2,
+            "thw_lkw": 2,
+            "rescue_dog_units": 2
+        },
+        "chances": {
+            "nef": 60,
+            "patient_transport": 100,
+            "helicopter": 15
+        },
+        "additional": {
+            "possible_patient": 12,
+            "possible_patient_min": 1,
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "thw": 2,
+            "rescue_dog_units": 2
+        }
+    },
+    "540": {
+        "id": 540,
+        "name": "Einsturz Stadiontrib\u00fcne",
+        "place": "Stadion",
+        "average_credits": 16000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 20,
+            "fwk": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 5,
+            "lebefkw": 3,
+            "height_rescue_units": 3,
+            "police_cars": 5,
+            "thw_gkw": 4,
+            "thw_mtwtz": 2,
+            "thw_brmg_r": 4,
+            "thw_mzkw": 3,
+            "thw_lkw": 4,
+            "grukw": 9,
+            "fukw": 1,
+            "rescue_dog_units": 3
+        },
+        "chances": {
+            "nef": 50,
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 100,
+            "possible_patient_min": 50,
+            "followup_missions_ids": {
+                "0": 539
+            },
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 20,
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "thw": 5,
+            "rescue_dog_units": 2,
+            "fire_stations": 30
+        }
+    },
+    "541": {
+        "id": 541,
+        "name": "Erdrutsch",
+        "place": null,
+        "average_credits": 1220,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_lkw": 1,
+            "rescue_dog_units": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 539
+            }
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "thw": 1,
+            "rescue_dog_units": 1
+        }
+    },
+    "542": {
+        "id": 542,
+        "name": "Supermarkt eingest\u00fcrzt",
+        "place": "Supermarkt (Gro\u00df)",
+        "average_credits": 8500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "fwk": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 3,
+            "thw_gkw": 2,
+            "thw_mtwtz": 2,
+            "thw_brmg_r": 2,
+            "thw_mzkw": 2,
+            "thw_lkw": 2,
+            "thw_dle": 2,
+            "rescue_dog_units": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 60,
+            "nef": 60,
+            "patient_transport": 75,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 8,
+            "followup_missions_ids": {
+                "0": 539
+            },
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 14,
+            "police_stations": 4,
+            "thw": 3,
+            "rescue_dog_units": 1,
+            "fire_stations": 16
+        }
+    },
+    "543": {
+        "id": 543,
+        "name": "Supermarkt eingest\u00fcrzt",
+        "place": "Supermarkt (Klein)",
+        "average_credits": 4500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1,
+            "thw_dle": 1,
+            "rescue_dog_units": 1
+        },
+        "chances": {
+            "nef": 60,
+            "patient_transport": 75,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 4,
+            "followup_missions_ids": {
+                "0": 539
+            },
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "thw": 2,
+            "rescue_dog_units": 1,
+            "fire_stations": 13
         }
     }
 }
