@@ -560,7 +560,14 @@
         535: 'Schwimmbaddach eingestürzt',
         536: 'Einbruch in Supermarkt',
         537: 'Einbruch in Supermarkt',
-        538: 'Verbrennung'
+        538: 'Verbrennung',
+        539: 'Verschüttete Personen',
+        540: 'Einsturz Stadiontribüne',
+        541: 'Erdrutsch',
+        542: 'Supermarkt eingestürzt',
+        543: 'Supermarkt eingestürzt',
+        544: 'Säureangriff auf Hauswand',
+        545: 'Brand bei Holzverarbeiter'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -4991,7 +4998,14 @@
       535: 'THW 3 RHS',
       536: 'POL 1',
       537: 'POL 3',
-      538: 'RD 2'
+      538: 'RD 2',
+      539: 'THW 2 RHS',
+      540: 'THL EINSTURZ RHS',
+      541: 'THW 1 RHS',
+      542: 'THW 3 RHS',
+      543: 'THW 2 RHS',
+      544: '',
+      545: ''
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',

@@ -150,7 +150,9 @@
                 88: 'KLF',
                 89: 'MLF',
                 90: 'HLF 10',
-                91: 'Rettungshundefahrzeug'
+                91: 'Rettungshundefahrzeug',
+                92: 'Anh Hund',
+                93: 'MTW-OV'
             }
         }
     };
