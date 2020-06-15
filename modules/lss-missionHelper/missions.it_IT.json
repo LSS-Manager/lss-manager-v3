@@ -3724,5 +3724,60 @@
             "police_stations": 2,
             "fire_stations": 4
         }
+    },
+    "178": {
+        "id": 178,
+        "name": "Terremoto (GRANDE)",
+        "place": null,
+        "average_credits": 2650,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "179": {
+        "id": 179,
+        "name": "Voragine stradale",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 4
+        }
     }
 }

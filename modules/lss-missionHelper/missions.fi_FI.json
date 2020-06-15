@@ -2162,5 +2162,53 @@
         "prerequisites": {
             "fire_stations": 3
         }
+    },
+    "91": {
+        "id": 91,
+        "name": "Murtunut k\u00e4si",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Murtunut jalka",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }

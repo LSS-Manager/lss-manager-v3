@@ -2269,5 +2269,53 @@
         "prerequisites": {
             "fire_stations": 3
         }
+    },
+    "105": {
+        "id": 105,
+        "name": "\ubd80\ub7ec\uc9c4 \ud314",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "106": {
+        "id": 106,
+        "name": "\ubd80\ub7ec\uc9c4 \ub2e4\ub9ac",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }
