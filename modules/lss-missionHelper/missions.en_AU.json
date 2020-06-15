@@ -3361,5 +3361,38 @@
         "prerequisites": {
             "fire_stations": 3
         }
+    },
+    "175": {
+        "id": 175,
+        "name": "Bridge Collapse",
+        "place": "Bridge",
+        "average_credits": 5500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 15,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 13
+        }
     }
 }

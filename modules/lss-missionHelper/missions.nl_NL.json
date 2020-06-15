@@ -14805,5 +14805,110 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "610": {
+        "id": 610,
+        "name": "Brand in nachtclub",
+        "place": "Caf\u00e9/Club",
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 611
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "611": {
+        "id": 611,
+        "name": "Brand in nachtclub",
+        "place": "Caf\u00e9/Club",
+        "average_credits": 3350,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 4,
+            "ovdp": 1
+        },
+        "chances": {
+            "platform_trucks": 65,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 612
+            },
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 5,
+            "fire_stations": 6
+        }
+    },
+    "612": {
+        "id": 612,
+        "name": "Brand in nachtclub",
+        "place": "Caf\u00e9/Club",
+        "average_credits": 11020,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "hondengeleider": 1,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {
+            "platform_trucks": 65,
+            "nef": 15,
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 8,
+            "max_possible_prisoners": 4,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 11,
+            "police_stations": 7,
+            "bereitschaftspolizei": 1,
+            "fire_stations": 17
+        }
     }
 }

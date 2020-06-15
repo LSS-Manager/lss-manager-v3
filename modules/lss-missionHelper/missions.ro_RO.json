@@ -1879,7 +1879,7 @@
     "90": {
         "id": 90,
         "name": "Incendiu la depozitul",
-        "place": "Depozit",
+        "place": "Depozit de de\u0219euri",
         "average_credits": 3500,
         "generated_by": "Sta\u021bie de pompieri",
         "icons": {
@@ -1973,6 +1973,54 @@
         "additional": {},
         "prerequisites": {
             "fire_stations": 3
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "M\u00e2n\u0103 fracturat\u0103",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "Picior fracturat",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
         }
     }
 }

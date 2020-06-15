@@ -299,7 +299,7 @@
             "allow_rw_instead_of_lf": true
         },
         "prerequisites": {
-            "fire_stations": 1
+            "fire_stations": 4
         }
     },
     "13": {
@@ -1839,7 +1839,7 @@
         },
         "additional": {},
         "prerequisites": {
-            "fire_stations": 3
+            "fire_stations": 4
         }
     },
     "99": {
@@ -1947,7 +1947,7 @@
         },
         "prerequisites": {
             "rescue_stations": 1,
-            "fire_stations": 1
+            "fire_stations": 4
         }
     },
     "103": {
@@ -1977,7 +1977,7 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 1,
-            "fire_stations": 1
+            "fire_stations": 4
         }
     },
     "104": {
@@ -2103,7 +2103,7 @@
         "chances": {},
         "additional": {},
         "prerequisites": {
-            "fire_stations": 1
+            "fire_stations": 4
         }
     },
     "109": {
@@ -2124,7 +2124,7 @@
         "chances": {},
         "additional": {},
         "prerequisites": {
-            "fire_stations": 1
+            "fire_stations": 4
         }
     },
     "110": {
@@ -3111,7 +3111,7 @@
     },
     "156": {
         "id": 156,
-        "name": "Bris de conduite d'eau",
+        "name": "Rupture de canalisation",
         "place": null,
         "average_credits": 1000,
         "generated_by": "Centre de secours",
@@ -3132,6 +3132,38 @@
         "additional": {},
         "prerequisites": {
             "fire_stations": 3
+        }
+    },
+    "157": {
+        "id": 157,
+        "name": "Malaise dans une \u00e9olienne",
+        "place": "Eolienne",
+        "average_credits": 1800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 4,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 12
         }
     }
 }

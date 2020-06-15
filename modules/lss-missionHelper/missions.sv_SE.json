@@ -3398,5 +3398,32 @@
             "police_stations": 3,
             "fire_stations": 13
         }
+    },
+    "168": {
+        "id": 168,
+        "name": "Drunkning - bass\u00e4ng",
+        "place": "Badhus",
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
     }
 }
