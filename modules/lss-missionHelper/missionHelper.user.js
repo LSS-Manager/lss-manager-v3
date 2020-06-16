@@ -122,7 +122,10 @@ const lssm_missionhelper_adjustPosition = () => {
             show_rdu: {
                 label: 'Hundeicon hinter Einsatzname',
                 description: 'Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser die RHS braucht.',
-            }
+            },
+            show_rdu1: {
+                label: 'Auch im Einsatzhelfer anzeigen',
+            },
         },
         transport: 'Transport',
         tragehilfe: 'Tragehilfe',
@@ -3991,6 +3994,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.show_rdu1 = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_rdu1.label'),
+                    type: 'checkbox',
+                    parent: SETTINGS_STORAGE + "_show_rdu_toggle",
+                },
+            };
             break;
         case 'en_US':
             break;
@@ -4085,7 +4096,7 @@ const lssm_missionhelper_adjustPosition = () => {
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${((SETTINGS.name && MISSION.name) ||
-                    '') + (SETTINGS.show_rdu && MISSION.requirements?.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
+                    '') + (SETTINGS.show_rdu1 && MISSION.requirements?.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
                     `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
                     `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
