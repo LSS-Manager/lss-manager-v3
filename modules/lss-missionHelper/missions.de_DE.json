@@ -13679,6 +13679,7 @@
         "additional": {
             "possible_patient": 12,
             "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
