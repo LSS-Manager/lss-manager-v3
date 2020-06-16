@@ -119,6 +119,10 @@ const lssm_missionhelper_adjustPosition = () => {
                 label: 'Generierungszeit',
                 description: 'Zeigt die Zeit der Generierung des Einsatzes an.',
             },
+            show_rdu: {
+                label: 'Hundeicon hinter Einsatzname',
+                description: 'Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser die RHS braucht.',
+            }
         },
         transport: 'Transport',
         tragehilfe: 'Tragehilfe',
@@ -3977,6 +3981,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.show_rdu = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_rdu.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_rdu.description'
+                    ),
+                },
+            };
             break;
         case 'en_US':
             break;
@@ -4065,9 +4079,13 @@ const lssm_missionhelper_adjustPosition = () => {
                 return lssm_missionhelper_adjustPosition();
             }
 
+            if (SETTINGS.show_rdu && MISSION.requirements?.rescue_dog_units) {
+                document.getElementById('missionH1').insertAdjacentHTML('beforeend', '&nbsp;🐶');
+            }
+
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
-                content.innerHTML += `<h3>${(SETTINGS.name && MISSION.name) ||
-                    ''}<sub>${(SETTINGS.id &&
+                content.innerHTML += `<h3>${((SETTINGS.name && MISSION.name) ||
+                    '') + (SETTINGS.show_rdu && MISSION.requirements?.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
                     `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
                     `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
