@@ -688,7 +688,7 @@
                 $(wrapper).attr('data-opened', 'true');
                 let form = $('#ls-heatmap-config .ls-form-group');
                 // Active
-                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.active')}</td><td><input class="ls-input" type="checkbox" id="heatmap-active" ${getSetting('heatmap-active') ? 'checked' : ''}></td></tr>`);
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.active')}</td><td><input class="ls-input" type="checkbox" id="heatmap-active" ${getSetting('heatmap-active') ? 'checked' : ''}></td><td><button id="heatmap_reset" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.reset')}</button></td></tr>`);
                 // Vehicle-Selection
                 let vehicle_options = '';
                 for (let key in vehicleGroups) {
@@ -705,7 +705,7 @@
                 form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.intensity')}</td><td><div class="value-slider" data-min="0" data-max="50" data-value="${getSetting('heatmap-intensity')}" id="heatmap-intensity"><div id="intensity-handle" class="ui-slider-handle"></div></div></td></tr>`);
 
                 // Btns
-                form.append(`<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.close')}</button></td><td><button id="heatmap_reset" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.reset')}</button></td></tr>`);
+                form.append(`<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.close')}</button></td></tr>`);
 
                 $('#heatmap_close').click(() => {
                     $('#ls-heatmap-config-img').click();
