@@ -149,6 +149,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -498,6 +501,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -629,6 +635,10 @@
                 "0": 25,
                 "1": 29
             },
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -656,6 +666,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -816,6 +829,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -841,13 +857,17 @@
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
-            "mobile_air_vehicles": 1
+            "mobile_air_vehicles": 1,
+            "kdow_orgl": 1
         },
         "chances": {
             "patient_transport": 50
         },
         "additional": {
             "possible_patient": 25,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -873,6 +893,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -894,11 +917,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Cardiology"
         },
         "prerequisites": {
@@ -923,6 +950,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -942,11 +972,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
             "patient_specializations": "Neurology"
         },
         "prerequisites": {
@@ -971,6 +1005,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -995,6 +1032,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1027,6 +1067,9 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1053,6 +1096,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1077,6 +1123,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-4"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1329,6 +1378,10 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-4"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1446,6 +1499,9 @@
                 "0": 94,
                 "1": 14
             },
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1497,6 +1553,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "Neurosurgery"
         },
         "prerequisites": {
@@ -1523,6 +1583,10 @@
         },
         "additional": {
             "possible_patient": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1569,6 +1633,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1593,6 +1660,10 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-4"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1624,6 +1695,9 @@
         },
         "additional": {
             "possible_patient": 6,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1682,6 +1756,9 @@
         },
         "additional": {
             "possible_patient": 6,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1706,6 +1783,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1736,6 +1817,9 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1765,6 +1849,9 @@
         },
         "additional": {
             "possible_patient": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1816,6 +1903,9 @@
         "chances": {},
         "additional": {
             "possible_patient": 6,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1843,6 +1933,9 @@
         "chances": {},
         "additional": {
             "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1890,6 +1983,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1909,11 +2005,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 70
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1944,6 +2044,11 @@
             "possible_patient": 20,
             "possible_patient_min": 2,
             "only_alliance_mission": true,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2",
+                "2": "C-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {}
@@ -1971,6 +2076,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2067,10 +2176,14 @@
             "battalion_chief_vehicles": 2
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 6,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2161,6 +2274,10 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2188,6 +2305,10 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2243,6 +2364,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2401,14 +2525,19 @@
         },
         "requirements": {
             "firetrucks": 2,
-            "police_cars": 1
+            "police_cars": 1,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "kdow_orgl": 25
         },
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2430,14 +2559,20 @@
         },
         "requirements": {
             "firetrucks": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "kdow_orgl": 50
         },
         "additional": {
             "possible_patient": 7,
             "possible_patient_min": 3,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2461,14 +2596,19 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "kdow_orgl": 50
         },
         "additional": {
             "possible_patient": 7,
             "possible_patient_min": 3,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2710,6 +2850,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2730,11 +2874,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2777,14 +2925,20 @@
         "requirements": {
             "firetrucks": 1,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "heavy_rescue_vehicles": 1,
+            "kdow_orgl": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "kdow_orgl": 75
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -2811,6 +2965,9 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2843,6 +3000,9 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2873,6 +3033,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2894,11 +3057,15 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2921,15 +3088,20 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "kdow_orgl": 1
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 10
+            "helicopter": 10,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 8,
             "possible_patient_min": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2954,15 +3126,20 @@
             "battalion_chief_vehicles": 2,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 3,
-            "police_cars": 1
+            "police_cars": 1,
+            "kdow_orgl": 1
         },
         "chances": {
             "patient_transport": 50,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 8,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2985,11 +3162,15 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 100
+            "helicopter": 100,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3010,11 +3191,15 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 90
+            "helicopter": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "Neurosurgery"
         },
         "prerequisites": {
@@ -3035,11 +3220,15 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3088,6 +3277,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3136,6 +3329,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3159,10 +3355,15 @@
             "heavy_rescue_vehicles": 2,
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_critical_care": 100
+        },
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3212,6 +3413,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3236,6 +3440,9 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 108
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
             }
         },
         "prerequisites": {

@@ -3974,5 +3974,227 @@
             "police_stations": 1,
             "fire_stations": 12
         }
+    },
+    "198": {
+        "id": 198,
+        "name": "Wypadek podczas nurkowania",
+        "place": "Jezioro",
+        "average_credits": 2000,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "diver_units": 1,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Zaginiona osoba w pobli\u017cu wody",
+        "place": "Jezioro",
+        "average_credits": 5500,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "water_rescue": 1,
+            "diver_units": 1,
+            "boats": 4
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Osoba ton\u0105ca w wodzie",
+        "place": "Jezioro",
+        "average_credits": 800,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "wasserrettung": 1
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Osoba ton\u0105ca w wodzie",
+        "place": "Jezioro",
+        "average_credits": 1200,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "water_rescue": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Samoch\u00f3d w wodzie",
+        "place": "Jezioro",
+        "average_credits": 2000,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "water_rescue": 1,
+            "diver_units": 2,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Ci\u0119\u017car\u00f3wka w wodzie",
+        "place": "Jezioro",
+        "average_credits": 3400,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "water_rescue": 3,
+            "diver_units": 3,
+            "boats": 5
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Bus w Wodzie",
+        "place": "Jezioro",
+        "average_credits": 3000,
+        "generated_by": "Stacja WOPR",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
     }
 }
