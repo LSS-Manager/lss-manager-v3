@@ -298,7 +298,10 @@
                 14: 'Breathing Apparatus Support Unit (BASU)',
                 15: 'Incident Command and Control Unit (ICCU)',
                 16: 'Rescue Pump',
-                17: 'CARP'
+                17: 'CARP',
+                18: 'Co-Responder Vehicle',
+                19: 'Joint Response Unit',
+                20: 'Operational Team Leader'
             }
         }
     };
@@ -530,6 +533,7 @@
                 6: "Komenda Policji",
                 7: "Centrum Powiadamiania Ratunkowego",
                 13: "Stacja Helikopterów Policji",
+                15: "Stacja WOPR",
                 18: "Remiza",
                 19: "Posterunek Policji",
                 20: "Podstacja Pogotowia Ratunkowego"
@@ -538,8 +542,8 @@
                 0: 'Ciężki samochód gaśniczy',
                 1: 'Średni samochód gaśniczy',
                 2: 'Drabina mechaniczna',
-                3: 'Samochód operacyjny',
-                4: 'Samochód Ratownictwa Technicznego',
+                3: 'Samochód Oficera Operacyjnego',
+                4: 'Samochód ratownictwa technicznego',
                 5: 'Ambulans P',
                 6: 'Cysterna gaśnicza',
                 7: 'Samochód ratownictwa chemicznego',
@@ -553,7 +557,15 @@
                 15: 'Opancerzony Pojazd SPKP',
                 16: 'Jednostka K-9',
                 17: 'Motocykl Policyjny',
-                18: 'SUV SPKP'
+                18: 'SUV SPKP',
+                19: 'S.WOPR',
+                20: 'Quad',
+                21: 'L.Ratownicza',
+                22: 'Ponton',
+                23: 'Skuter',
+                24: 'Samochód SLRw',
+                25: 'Dźwig SP',
+                26: 'Łódź SP'
             }
         }
     };

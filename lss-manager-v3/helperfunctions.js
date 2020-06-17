@@ -94,7 +94,10 @@ else if (I18n.locale == "en_GB")
         "14": ["Breathing Apparatus Support Unit (BASU)", 0],
         "15": ["Incident Command and Control Unit (ICCU)", 0],
         "16": ["Rescue Pump", 0],
-        "17": ["CARP", 0]
+        "17": ["CARP", 0],
+        "18": ["Co-Responder Vehicle", 0],
+        "19": ["Joint Response Unit", 2],
+        "20": ["Operational Team Leader", 1]
     };
 }
 else if (I18n.locale == "en_AU")
@@ -398,7 +401,7 @@ else if (I18n.locale == "pl_PL")
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Rozbudowa dla pogotowia": 0,
-        "Water rescue expansion": 1,
+        "Ratownictwo Wodne": 1,
         "Airport extension": 2,
         // Pol-Erweiterungen (10-19)
         "Cela więzienna": 10,
@@ -410,8 +413,8 @@ else if (I18n.locale == "pl_PL")
         "0": ["Ciężki samochód gaśniczy", 0],
         "1": ["Średni samochód gaśniczy", 0],
         "2": ["Drabina mechaniczna", 0],
-        "3": ["Samochód operacyjny", 0],
-        "4": ["Samochód Ratownictwa Technicznego", 0],
+        "3": ["Samochód Oficera Operacyjnego", 0],
+        "4": ["Samochód ratownictwa technicznego", 0],
         "5": ["Ambulans P", 1],
         "6": ["Cysterna gaśnicza", 0],
         "7": ["Samochód ratownictwa chemicznego", 0],
@@ -425,7 +428,15 @@ else if (I18n.locale == "pl_PL")
         "15": ["Opancerzony Pojazd SPKP", 2],
         "16": ["Jednostka K-9", 2],
         "17": ["Motocykl Policyjny", 2],
-        "18": ["SUV SPKP", 2]
+        "18": ["SUV SPKP", 2],
+        "19": ["S.WOPR", 4],
+        "20": ["Quad", 4],
+        "21": ["L.Ratownicza", 4],
+        "22": ["Ponton", 4],
+        "23": ["Skuter", 4],
+        "24": ["Samochód SLRw", 4],
+        "25": ["Dźwig SP", 4],
+        "26": ["Łódź SP", 4]
     };
 }
 else if (I18n.locale == "it_IT") {

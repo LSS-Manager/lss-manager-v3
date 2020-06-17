@@ -406,6 +406,8 @@ const lssm_missionhelper_adjustPosition = () => {
         exp: 'Spreads',
         fwm: 'Follow-up missions',
         SWATPersonnel: 'Needed Armed Response Personnel',
+        criticalchance: 'Critical Care Chance',
+        ukcodes: 'Possible patient codes',
         settings: {
             name: {
                 label: 'Name',
@@ -498,6 +500,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_suv: 'Armed Response Vehicle (ARV)',
             helicopter: 'HEMS',
             police_helicopters: 'Police helicopter',
+            kdow_orgl: 'Operational Team Leader',
             allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
         },
         pois: [
@@ -2237,7 +2240,7 @@ const lssm_missionhelper_adjustPosition = () => {
             platform_trucks: 'SP wysokościowe',
             heavy_rescue_vehicles: 'ciężkie samochody ratowniczo-gaśnicze',
             mobile_air_vehicles: 'SPGaz',
-            battalion_chief_vehicles: 'Oficera Operacyjnego',
+            battalion_chief_vehicles: 'Samochód Oficera Operacyjnego',
             water_tankers: 'cysterny z wodą',
             hazmat_vehicles: 'SP Rchem',
             mobile_command_vehicles: 'samochody dowodzenia i łączności',
@@ -2250,6 +2253,10 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'Opancerzony Pojazd SPKP',
             swat_suv: 'SUV SPKP',
             police_helicopters: 'Helikopter Policyjny',
+            water_rescue: 'Samochód WOPR',
+            diver_units: 'Samochód SLRw',
+            boats: 'łodzie',
+            fwk: 'Dźwig SP',
             allow_rw_instead_of_lf: 'Wozy strażackie lub ciężki ratunek',
         },
         pois: [
@@ -4121,6 +4128,15 @@ const lssm_missionhelper_adjustPosition = () => {
                         ''}${void 0 !==
                         typeof MISSION.additional.patient_specializations &&
                         ` (${MISSION.additional.patient_specializations})`}`);
+                
+                MISSION.chances.patient_critical_care &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.criticalchance'
+                )}: ${MISSION.chances.patient_critical_care}%`);
+                MISSION.additional.patient_uk_code_possible &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.ukcodes'
+                )}: ${MISSION.additional.patient_uk_code_possible}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -4228,6 +4244,16 @@ const lssm_missionhelper_adjustPosition = () => {
                         typeof MISSION.additional.patient_specializations &&
                         ` (${MISSION.additional.patient_specializations})`}`;
                 }
+
+                MISSION.chances.patient_critical_care &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.criticalchance'
+                    )}: ${MISSION.chances.patient_critical_care}%`);
+
+                MISSION.additional.patient_uk_code_possible &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.ukcodes'
+                    )}: ${MISSION.additional.patient_uk_code_possible}`);
 
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
