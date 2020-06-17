@@ -2049,7 +2049,7 @@ lssm.Module = {
             nl_NL: 'Telt het aantal keer dat een AUR aangeklikt is.'
         },
         source: '/modules/lss-AAO-Zaehler/aao-zaehler.js',
-        inframe: false,
+        inframe: true,
         develop: false
     },
     creditserweiterung: {
