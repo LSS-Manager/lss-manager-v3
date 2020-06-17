@@ -4090,13 +4090,13 @@ const lssm_missionhelper_adjustPosition = () => {
                 return lssm_missionhelper_adjustPosition();
             }
 
-            if (SETTINGS.show_rdu && MISSION.requirements?.rescue_dog_units) {
+            if (SETTINGS.show_rdu && MISSION.requirements.rescue_dog_units) {
                 document.getElementById('missionH1').insertAdjacentHTML('beforeend', '&nbsp;🐶');
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${((SETTINGS.name && MISSION.name) ||
-                    '') + (SETTINGS.show_rdu1 && MISSION.requirements?.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
+                    '') + (SETTINGS.show_rdu1 && MISSION.requirements.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
                     `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
                     `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
