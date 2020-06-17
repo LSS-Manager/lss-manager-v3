@@ -4136,7 +4136,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 MISSION.additional.patient_uk_code_possible &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.ukcodes'
-                )}: ${MISSION.additional.patient_uk_code_possible}`);
+                )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -4253,7 +4253,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 MISSION.additional.patient_uk_code_possible &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.ukcodes'
-                    )}: ${MISSION.additional.patient_uk_code_possible}`);
+                    )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
 
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
