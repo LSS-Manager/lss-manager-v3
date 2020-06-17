@@ -2,6 +2,28 @@
  * @author Fabian Hassels (https://github.com/eaglefsd)
  */
 (function ($, I18n) {
+    const SETTINGS = "LSS_AAO_ZAEHLER_STORAGE";
+
+    const managedSettings = {
+        "id": SETTINGS,
+        "title": I18n.t('lssm.apps.aaoZaehler.name'),
+        "settings": {
+            "border": {
+                "default": false,
+                "ui": {
+                    "label": 'Auf Klick umranden',
+                    "type": "toggle",
+                    "description": 'Umrandet eine AAO sobald sie einmal angeklickt wurde.'
+                }
+            },
+        }
+    };
+    lssm.managedSettings.register(managedSettings);
+    /**
+     * Prüft, ob die Einsatzseite geöffnet ist oder nicht.
+     * @return boolean true, wenn die aktuelle URL der Einsatzseite entspricht, false wenn nicht.
+     */
+    if(!window.location.href.match(/missions\/\d+$/)) return;
 
     I18n.translations.de_DE['lssm']['aaozaehler'] = {
         reset: "Reset AAO-Zähler"
@@ -60,28 +82,24 @@
     I18n.translations.nl_NL['lssm']['aaozaehler'] = { //AUR
         reset: "AUR-teller resetten"
     };
-    /**
-     * Prüft, ob die Einsatzseite geöffnet ist oder nicht.
-     * @return boolean true, wenn die aktuelle URL der Einsatzseite entspricht, false wenn nicht.
-     */
-    if(!window.location.href.match(/missions\/\d+$/)) return;
+
+    const getSetting = (setting) => lssm.managedSettings.getSetting(SETTINGS, setting);
 
     /**
      * Erstellt das Element für den Zähler.
      */
     function erstelleZaehler() {
-        $('.aao').each(function () {
+        $('.aao, .vehicle_group').each(function () {
             $(this).find('span:not(.glyphicon):first').after(' <span class="aaoZaehler">0</span>x');
         });
 
-        $('[vehicle_group_id]').each(function () {
-            $(this).find('div').after(' <span class="aaoZaehler">0</span>x');
-        });
-
         // Zähler-Reset Button
-        $('#mission-aao-group').after('<button id="resetAAOZaehler" class="btn  btn-default btn-xs" type="button">' + I18n.t('lssm.aaozaehler.reset') +'</button>');
+        $('#mission-aao-group').after(`<button id="resetAAOZaehler" class="btn  btn-default btn-xs" type="button">${I18n.t('lssm.aaozaehler.reset')}</button>`);
         // Zähler-Reset Funktion
-        $('#resetAAOZaehler').click(function(){$('.aaoZaehler').replaceWith(' <span class="aaoZaehler">0</span>');});
+        $('#resetAAOZaehler').click(function(){
+            $('.aaoZaehler').replaceWith(' <span class="aaoZaehler">0</span>');
+            $('.aao, .vehicle_group').css('border', 'unset');
+        });
     }
 
     /**
@@ -97,11 +115,8 @@
     // Startlogik
     erstelleZaehler();
 
-    $('.aao').bind('click', function () {
+    $('.aao, .vehicle_group').bind('click', function () {
         setzeAaoZaehlerHoch(this);
-    });
-
-    $('[vehicle_group_id]').bind('click', function () {
-        setzeAaoZaehlerHoch(this);
+        getSetting('border') && $(this).css('border', '2px solid green');
     });
 })($, I18n);
