@@ -2687,7 +2687,18 @@
         190: 'Zderzenie radiowozu z samochodem osobowym',
         191: 'Zderzenie karetki z samochodem osobowym',
         192: 'Rozpylona nieznana substancja w markecie',
-        193: 'Wybuch agregatu chłodzącego'
+        193: 'Wybuch agregatu chłodzącego',
+        194: 'Pożar w fabryce opon',
+        195: 'Wypadek więziennego autobusu',
+        196: 'Pokazy Pożarnicze w przedszkolu',
+        197: 'Zwisająca gałąź',
+        198: 'Wypadek podczas nurkowania',
+        199: 'Zaginiona osoba w pobliżu wody',
+        200: 'Osoba tonąca w wodzie',
+        201: 'Osoba tonąca w wodzie',
+        202: 'Samochód w wodzie',
+        203: 'Ciężarówka w wodzie',
+        204: 'Bus w Wodzie'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -6985,7 +6996,18 @@
       190: 'TECH 2',
       191: 'TECH 2',
       192: 'CBRN 1',
-      193: 'FIRE 3'
+      193: 'FIRE 3',
+      194: '',
+      195: '',
+      196: '',
+      197: '',
+      198: 'TECH 1 WATER',
+      199: 'TECH 1 WATER',
+      200: 'TECH 1 WATER',
+      201: 'TECH 1 WATER',
+      202: 'TECH 1 WATER',
+      203: 'TECH 1 WATER',
+      204: 'TECH 1 WATER'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
