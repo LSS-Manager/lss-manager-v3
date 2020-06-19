@@ -639,11 +639,11 @@ const lssm_missionhelper_adjustPosition = () => {
         requirements: {
             firetrucks: 'Fire engines',
             platform_trucks: 'Turntable Ladder',
-            heavy_rescue_vehicles: 'Rescue',
+            heavy_rescue_vehicles: 'Major Rescue Vehicle',
             mobile_air_vehicles: 'Breathing Apparatus Support Unit',
             battalion_chief_vehicles: 'Support Vehicle',
-            water_tankers: 'Water Tanker',
-            hazmat_vehicles: 'HazMat',
+            water_tankers: 'Bulk Water Tanker',
+            hazmat_vehicles: 'HAZMAT Truck',
             mobile_command_vehicles: 'Mobile Command Vehicle',
             police_cars: 'Police Car',
             arff: 'ARFF',
@@ -653,7 +653,7 @@ const lssm_missionhelper_adjustPosition = () => {
             swat_armored_vehicle: 'SWAT Armoured Vehicle',
             swat_suv: 'SWAT SUV',
             police_helicopters: 'Police Helicopter',
-            allow_rw_instead_of_lf: 'Fire trucks or heavy rescue',
+            allow_rw_instead_of_lf: 'Fire trucks or Major Rescue Vehicle',
         },
         pois: [
             'Park',

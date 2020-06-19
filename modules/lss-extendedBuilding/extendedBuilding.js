@@ -169,7 +169,7 @@
     };
     I18n.translations.pl_PL.lssm.extendedBuilding = {
         title: 'Rozszerzony widok budynku',
-        crew: 'Załoga (Max)',
+        crew: 'Załoga (maks.)',
         fms: 'Status',
         assignment: 'Przydzielenie personelu',
         neededPersonnel: 'Potrzebny personel',

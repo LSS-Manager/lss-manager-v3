@@ -194,7 +194,7 @@
         let rhsSection = {
             name: 'RHS',
             short: 'rhs',
-            vehicles: [91]
+            vehicles: [91, 92]
         };
         sections.push(rhsSection);
     }
