@@ -708,7 +708,7 @@
                 const langCode = I18n.currentLocale();
                 fetch(
                     `https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`,
-                    { cache: 'no-cache' }
+                    { cache: 'default' }
                 )
                     .then(res => res.json())
                     .then(data => {
