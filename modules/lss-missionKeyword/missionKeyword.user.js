@@ -5040,7 +5040,7 @@
       542: 'THW 3 RHS',
       543: 'THW 2 RHS',
       544: 'ABC 1',
-      545: ''
+      545: 'B 6'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',

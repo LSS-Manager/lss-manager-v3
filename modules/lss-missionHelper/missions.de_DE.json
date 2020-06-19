@@ -13901,5 +13901,53 @@
             "police_stations": 3,
             "fire_stations": 14
         }
+    },
+    "545": {
+        "id": 545,
+        "name": "Brand bei Holzverarbeiter",
+        "place": "Holzverarbeitung",
+        "average_credits": 9500,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 4,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_mzkw": 1,
+            "thw_lkw": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 25,
+            "water_tankers": 50,
+            "mobile_air_vehicles": 60,
+            "gwmess": 10,
+            "nef": 40,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "average_min_fire_personnel": 100,
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "thw": 1,
+            "fire_stations": 15
+        }
     }
 }
