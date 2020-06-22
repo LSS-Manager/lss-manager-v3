@@ -3779,5 +3779,64 @@
             "police_stations": 1,
             "fire_stations": 4
         }
+    },
+    "180": {
+        "id": 180,
+        "name": "Incendio industria (PICCOLO)",
+        "place": "Fabbrica",
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "Incendio industria (MEDIO)",
+        "place": "Fabbrica",
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 4,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 6
+        }
     }
 }

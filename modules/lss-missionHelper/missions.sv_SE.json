@@ -3425,5 +3425,30 @@
         "prerequisites": {
             "fire_stations": 4
         }
+    },
+    "169": {
+        "id": 169,
+        "name": "Transport mellan v\u00e5rdinr\u00e4ttningar",
+        "place": "Sjukhus",
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {
+            "rescue_stations": 5
+        }
     }
 }

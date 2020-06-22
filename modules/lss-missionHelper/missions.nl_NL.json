@@ -14910,5 +14910,68 @@
             "bereitschaftspolizei": 1,
             "fire_stations": 17
         }
+    },
+    "613": {
+        "id": 613,
+        "name": "Doorzoeking risicopand",
+        "place": null,
+        "average_credits": 4210,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 3,
+            "ovdp": 1,
+            "at_c": 1,
+            "at_o": 4,
+            "at_m": 1
+        },
+        "chances": {
+            "ovdp": 10
+        },
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "bereitschaftspolizei": 2
+        }
+    },
+    "614": {
+        "id": 614,
+        "name": "Verward persoon op dak",
+        "place": null,
+        "average_credits": 4390,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "police_cars": 4,
+            "ovdp": 1,
+            "at_c": 1,
+            "at_o": 4,
+            "at_m": 1
+        },
+        "chances": {
+            "platform_trucks": 100,
+            "ovdp": 50
+        },
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "bereitschaftspolizei": 1,
+            "fire_stations": 3
+        }
     }
 }

@@ -3394,5 +3394,31 @@
             "police_stations": 3,
             "fire_stations": 13
         }
+    },
+    "176": {
+        "id": 176,
+        "name": "Turbulance Injury",
+        "place": "Large Airport (Runway)",
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }

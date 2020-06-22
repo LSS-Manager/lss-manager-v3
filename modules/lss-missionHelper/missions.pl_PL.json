@@ -3975,6 +3975,73 @@
             "fire_stations": 12
         }
     },
+    "194": {
+        "id": 194,
+        "name": "Po\u017car w fabryce opon",
+        "place": "Fabryka",
+        "average_credits": 10000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "hazmat_vehicles": 3
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 70
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "195": {
+        "id": 195,
+        "name": "Wypadek wi\u0119ziennego autobusu",
+        "place": "Zjazd z autostrady",
+        "average_credits": 3700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/bus_gruen.png",
+            "1": "/images/bus_gelb.png",
+            "2": "/images/bus_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 5,
+            "k9": 3
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 5,
+            "swat_personnel": 12,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 9,
+            "fire_stations": 6
+        }
+    },
     "198": {
         "id": 198,
         "name": "Wypadek podczas nurkowania",

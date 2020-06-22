@@ -2317,5 +2317,29 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "107": {
+        "id": 107,
+        "name": "\ud0c8\uc218\ub41c \uc2dc\ubbfc",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }
