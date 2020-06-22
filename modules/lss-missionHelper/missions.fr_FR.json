@@ -3165,5 +3165,25 @@
             "police_stations": 1,
             "fire_stations": 12
         }
+    },
+    "158": {
+        "id": 158,
+        "name": "Stationnement g\u00eanant",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/comment_gruen.png",
+            "1": "/images/comment_gelb.png",
+            "2": "/images/comment_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

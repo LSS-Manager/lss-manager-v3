@@ -3644,5 +3644,27 @@
         "prerequisites": {
             "police_stations": 6
         }
+    },
+    "180": {
+        "id": 180,
+        "name": "Fire involving Acetylene cylinders",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 11
+        }
     }
 }

@@ -2210,5 +2210,29 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "93": {
+        "id": 93,
+        "name": "Nestehukkainen henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }

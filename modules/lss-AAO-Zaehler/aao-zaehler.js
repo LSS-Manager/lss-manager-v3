@@ -93,8 +93,8 @@
     };
     I18n.translations.nl_NL['lssm']['aaozaehler'] = { //AUR
         reset: "AUR-teller resetten",
-        label1: 'Grens op klik',
-        description1: 'Grenst aan een AUR als er eenmaal op is geklikt.'
+        label1: 'Omlijning van AUR',
+        description1: 'Geeft een omlijning om de AUR als er op geklikt is.'
     };
     const managedSettings = {
         id: SETTINGS,
