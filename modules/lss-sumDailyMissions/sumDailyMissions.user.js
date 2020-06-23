@@ -4,6 +4,7 @@
     {
         I18n.translations.de_DE['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patienten Behandlung',
+            patient_treatment1: 'Patienten Behandlung und Transport',
             education: 'Ausbildung',
             purchase: 'gekauft',
             cancelled: 'Abgebrochen',
@@ -23,6 +24,7 @@
 
         I18n.translations.en_US['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment and Transport',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -43,6 +45,7 @@
 
         I18n.translations.es_ES['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'comprado',
             cancelled: 'Cancelled',
@@ -61,6 +64,7 @@
 
         I18n.translations.pt_PT['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'comprado',
             cancelled: 'Cancelled',
@@ -79,6 +83,7 @@
 
         I18n.translations.pl_PL['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Zwrot',
@@ -97,6 +102,7 @@
 
         I18n.translations.sv_SE['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Återlämna',
@@ -115,6 +121,7 @@
 
         I18n.translations.da_DK['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Återlämna',
@@ -133,6 +140,7 @@
 
         I18n.translations.nb_NO['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Återlämna',
@@ -188,6 +196,7 @@
 
         I18n.translations.fr_FR['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Traitement de patient',
+            patient_treatment1: 'Traitement de patient et transport',
             education: 'education',
             purchase: 'acheté',
             cancelled: 'Cancelled',
@@ -207,6 +216,7 @@
 
         I18n.translations.ru_RU['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -225,6 +235,7 @@
 
         I18n.translations.uk_UA['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -243,6 +254,7 @@
 
         I18n.translations.cs_CZ['lssm']['sumDailyMissions'] = {
             patient_treatment: 'šetření pacienta',
+            patient_treatment1: 'šetření pacienta',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -261,6 +273,7 @@
 
         I18n.translations.ja_JP['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -279,6 +292,7 @@
 
         I18n.translations.ko_KR['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -297,6 +311,7 @@
 
         I18n.translations.ro_RO['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -315,6 +330,7 @@
 
         I18n.translations.fi_FI['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
             cancelled: 'Cancelled',
@@ -333,6 +349,7 @@
 
         I18n.translations.nl_NL['lssm']['sumDailyMissions'] = {
             patient_treatment: 'Patiënten behandeling',
+            patient_treatment1: 'Patiënten behandeling en transport',
             education: 'Opleiding',
             purchase: 'gekocht',
             cancelled: 'Afgebroken',
