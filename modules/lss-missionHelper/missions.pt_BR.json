@@ -2325,5 +2325,29 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "108": {
+        "id": 108,
+        "name": "Desidrata\u00e7\u00e3o",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Bases do SAMU",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }

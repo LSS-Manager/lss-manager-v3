@@ -150,16 +150,17 @@
         };
 
         I18n.translations.it_IT['lssm']['sumDailyMissions'] = {
-            patient_treatment: 'Trattamento e trasporto paziente',
+            patient_treatment: 'Trattamento e trasporto pazienti',
+            patient_treatment1: 'Trattamento pazienti',
             education: 'educazione',
             purchase: 'acquisito',
             cancelled: 'Annullato',
             extended: 'edificata',
             extended2: 'Extended',
-            built: 'edificata',
+            built: 'costruito',
             teame: ' Alleanza',
             team: '\\[Alleanza\\]',
-            prisoner: 'Prisoner Transported',
+            prisoner: 'Detenuto trasportato',
             num_missions: 'Somma / Crediti missioni',
             num_patients: 'Somma / Crediti pazienti',
             num_prisoners: 'Somma / Crediti i prigionieri',
@@ -380,7 +381,8 @@
             for(let i=0;i<anzahl_pro_einsatz.length;i++)
             {
                 //Zähle Anzahl behandelter Patienten
-                if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')))
+                if(einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
+                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment1')))
                 {
                     anzahl = anzahl_pro_einsatz[i].innerHTML;
                     sum_patienten = sum_patienten + Number(anzahl.replace(" x",""));
@@ -420,7 +422,8 @@
             }
             for (let i = 0; i < credit_pro_einsatz.length; i++) {
                 //Zähle Anzahl behandelter Patienten
-                if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment'))) {
+                if (einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment')) ||
+                    einsatz_titel[i].innerText.match(I18n.t('lssm.sumDailyMissions.patient_treatment1'))) {
                     anzahl = credit_pro_einsatz[i].innerHTML;
                     cre_patienten = cre_patienten + Number(anzahl.replace(/[,.]/g, '').replace(/\D/g, ''));
                 }
