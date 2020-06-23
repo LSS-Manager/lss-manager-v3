@@ -4404,7 +4404,7 @@ const lssm_missionhelper_adjustPosition = () => {
         });
         el.addEventListener('mouseleave', () => {
             let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
-            missionhelp.style.opacity = null;
+            missionhelp && missionhelp.style.opacity = null;
         });
     });
     document
@@ -4415,7 +4415,7 @@ const lssm_missionhelper_adjustPosition = () => {
             });
             el.addEventListener('mouseleave', () => {
                 let missionhelp = document.querySelector(`#${LSSM_MH_PREFIX}`);
-                missionhelp.style.opacity = null;
+                missionhelp && missionhelp.style.opacity = null;
             });
         });
 
