@@ -1,0 +1,94 @@
+{
+    "diy_mission": "Bu misyon büyük ölçekli bir ittifak görevi gibi görünüyor.",
+    "guard_mission": "Planlanan görev",
+    "vge": "Büyük ölçekli ittifak misyonu",
+    "patients": "hastalar",
+    "prisoners": "Mahkumlar",
+    "to": "kadar",
+    "exp": "Yayıldı",
+    "SWATPersonnel": "Needed SWAT Personnel",
+    "ambulance_only": "Bu görev sadece ambulanstır!",
+    "title": "Misyonhelper",
+    "transport": "Taşıma",
+    "allow_rw_instead_of_lf": "Bu Görev, itfaiye yerine Ağır Kurtarma ile de gerçekleştirilebilir",
+    "settings": {
+        "name": {
+            "label": "isim",
+            "description": "Yardımcıdaki görevin adını gösterir."
+        },
+        "id": {
+            "label": "İD",
+            "description": "Yardımcıdaki görevin kimliğini görüntüler."
+        },
+        "type": {
+            "label": "TYP kimliği",
+            "description": "Yardımcıdaki görev türünün kimliğini görüntüler."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Yardımcıda işlemin hangi İÇN olduğunu gösterir."
+        },
+        "live_patients": {
+            "label": "Hasta sayısı",
+            "description": "Şu anda kaç hastanın kullanımda olduğunu canlı gösterir."
+        },
+        "vehicles": {
+            "label": "Araçlar",
+            "description": "Gerekli araçları görüntüler."
+        },
+        "patients": {
+            "label": "hasta bilgisi",
+            "description": "(Potansiyel) hastalar hakkında bilgi gösterir."
+        },
+        "prisoners": {
+            "label": "mahkum bilgisi",
+            "description": "(Potansiyel) mahkumlar hakkında bilgi gösterir."
+        },
+        "special": {
+            "label": "Diğer bilgiler",
+            "description": "Gerekli ortalama asgari personel sayısı gibi özel bilgileri görüntüler."
+        },
+        "expansions": {
+            "label": "dağılımları",
+            "description": "Bahsin neye yayılabileceğini gösterir. (Yalnızca basit yayılımı gösterir)"
+        },
+        "show_100": {
+            "label": "% 100 olasılığı göster",
+            "description": "Bir aracın% 100 olsa bile olasılığını gösterir."
+        },
+        "lfrw": {
+            "label": "Ağır Kurtarma'nın görevi yerine getirip getiremeyeceğini göster",
+            "description": "Görevde, itfaiye aracı yerine Ağır Kurtarma ile de işlenip işlenemeyeceğini bildiren bir mesaj görüntüler."
+        },
+        "credits": {
+            "label": "Ortalama kazanç",
+            "description": "Bu ödev için aldığınız ortalama kazançları gösterir."
+        },
+        "show_siwa": {
+            "label": "Güvenlik görevlilerinin gereksinimleri",
+            "description": "Yardımcıdaki güvenlik görevlilerinin gereksinimlerini de gösterir."
+        },
+        "mission_time": {
+            "label": "Yaratılış Zamanı",
+            "description": "Görevin oluşturulduğu tarih ve saati gösterir."
+        }
+    },
+    "requirements": {
+        "firetrucks": "itfaiye aracı",
+        "platform_trucks": "Platformlu Kamyon",
+        "heavy_rescue_vehicles": "Büyük Kurtarma",
+        "mobile_air_vehicles": "Mobile Air",
+        "battalion_chief_vehicles": "Tabur Amiri",
+        "water_tankers": "Su Tankerleri",
+        "hazmat_vehicles": "Tehlikeli Madde",
+        "mobile_command_vehicles": "Mobil Komuta",
+        "police_cars": "Polis Arabaları",
+        "helicopter": "HEMS",
+        "ambulances": "Sanitkat",
+        "arff": "ARFF",
+        "k9": "Dog Support Units",
+        "swat_suv": "Armed Response Vehicle (ARV)",
+        "police_helicopters": "Police Helicopter",
+        "allow_rw_instead_of_lf": "İtfaiye araçları veya ağır kurtarma"
+    }
+}

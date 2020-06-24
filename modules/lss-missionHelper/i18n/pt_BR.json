@@ -1,0 +1,81 @@
+{
+    "diy_mission": "Esta missão parece ser uma missão de aliança em larga escala.",
+    "settings": {
+        "name": {
+            "label": "Primeiro nome",
+            "description": "Mostre o nome da missão no ajudante."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Exiba o ID da missão no assistente."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Exiba o ID do tipo de missão no assistente."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Indique no assistente em que POI está a operação."
+        },
+        "live_patients": {
+            "label": "Número de pacientes",
+            "description": "Mostra ao vivo quantos pacientes estão em uso no momento."
+        },
+        "vehicles": {
+            "label": "Veículos",
+            "description": "Mostre os veículos necessários."
+        },
+        "patients": {
+            "label": "informação do paciente",
+            "description": "Mostrar informações sobre pacientes (potenciais)."
+        },
+        "prisoners": {
+            "label": "informações sobre detentos",
+            "description": "Exibe informações sobre (potenciais) detentos."
+        },
+        "special": {
+            "label": "Outra informação",
+            "description": "Exibe informações especiais, como o número médio mínimo de pessoal necessário."
+        },
+        "expansions": {
+            "label": "distribuições",
+            "description": "Mostre o que a aposta pode alcançar. (Mostrar apenas dispersão simples)"
+        },
+        "show_100": {
+            "label": "Mostrar 100% de chance",
+            "description": "Mostra a probabilidade de um veículo, mesmo que seja 100%."
+        },
+        "lfrw": {
+            "label": "Mostrar se o Heavy Rescue pode processar a missão",
+            "description": "Exibe uma mensagem na missão se também pode ser processada com um resgate pesado em vez de um caminhão de bombeiros."
+        },
+        "credits": {
+            "label": "Ganho médio",
+            "description": "Mostra os ganhos médios que você ganha com esta tarefa."
+        },
+        "show_siwa": {
+            "label": "Requisitos dos guardas de segurança",
+            "description": "Ele também mostra os requisitos para guardas de segurança no assistente."
+        },
+        "mission_time": {
+            "label": "Tempo de criação",
+            "description": "Mostra a data e hora em que a missão foi criada."
+        }
+    },
+    "requirements": {
+        "firetrucks": "Caminhões de bombeiro",
+        "platform_trucks": "Caminhões plataforma",
+        "heavy_rescue_vehicles": "Veículos de resgate pesado",
+        "mobile_air_vehicles": "Mobile Air",
+        "battalion_chief_vehicles": "Viaturas de batalhão",
+        "mobile_command_vehicles": "vehículos de mando",
+        "water_tankers": "Caminhões pipa",
+        "hazmat_vehicles": "Viaturas de produtos perigosos",
+        "police_cars": "Viaturas de polícia",
+        "helicopter": "Helicóptero HSR",
+        "arff": "Defesa Civil",
+        "police_helicopters": "Police Helicopter",
+        "ambulances": "Ambulancia",
+        "allow_rw_instead_of_lf": "Caminhões de bombeiros ou resgate pesado"
+    }
+}

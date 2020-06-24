@@ -476,7 +476,7 @@ else if (I18n.locale == "fr_FR") {
     lssm.extensions = {
         // FW-Erwerterungen (0-9)
         "Service de Santé et de Secours Médical": 0,
-        "Water rescue expansion": 1,
+        "Unité nautique": 1,
         "Airport extension": 2,
         // Pol-Erweiterungen (10-19)
         "Cellule de prison": 10,
@@ -484,6 +484,10 @@ else if (I18n.locale == "fr_FR") {
         // Schule-Erweiterungen (20-29)
         "More classrooms": 20,
     };
+    lssm.educations = [
+        'SAV (Sauvetage Aquatique)',
+        'PLG (Plongeur)',
+    ];
     lssm.carsById = {
         "0": ["FPT", 0],
         "1": ["FPTL", 0],
@@ -500,7 +504,9 @@ else if (I18n.locale == "fr_FR") {
         "12": ["FPTSR", 0],
         "13": ["VTU", 0],
         "14": ["VGRIMP", 0],
-        "15": ["BEA", 0]
+        "15": ["BEA", 0],
+        "16": ["VPL", 4],
+        "17": ["BLS", 4],
     };
 }
 else if (I18n.locale == "ru_RU") {

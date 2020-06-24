@@ -1,0 +1,154 @@
+{
+  "diy_mission": "Questa missione sembra essere una missione su larga scala dell'alleanza..",
+  "guard_mission": "Missione pianificata",
+  "vge": "Missione dell'alleanza su larga scala",
+  "patients": "Pazienti",
+  "prisoners": "Prigionieri",
+  "to": "fino",
+  "exp": "Espansione",
+  "SWATPersonnel": "Needed SWAT Personnel",
+  "averageMinimumEmployeesFire": "Vigili del Fuoco richiesti",
+  "ambulance_only": "Questa missione e' riservata alle ambulanze.!",
+  "title": "Missionhelper",
+  "transport": "Trasporto",
+  "allow_rw_instead_of_lf": "Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco",
+  "settings": {
+    "name": {
+      "label": "Nome",
+      "description": "Mostra il nome della missione nell'aiuto."
+    },
+    "id": {
+      "label": "ID",
+      "description": "Visualizza l'ID della missione nell'helper."
+    },
+    "type": {
+      "label": "TIPO-ID",
+      "description": "Visualizza l'ID del tipo di missione nell'helper."
+    },
+    "poi": {
+      "label": "POI",
+      "description": "Indica nell'helper a quale PDI si trova l'operazione."
+    },
+    "live_patients": {
+      "label": "Numero di pazienti",
+      "description": "Mostra dal vivo quanti pazienti sono attualmente in uso."
+    },
+    "vehicles": {
+      "label": "Veicoli",
+      "description": "Visualizza i veicoli necessari."
+    },
+    "patients": {
+      "label": "informazioni sul paziente",
+      "description": "Mostra informazioni sui (potenziali) pazienti."
+    },
+    "prisoners": {
+      "label": "prisoner information",
+      "description": "Mostra informazioni sui (potenziali) prigionieri."
+    },
+    "special": {
+      "label": "Altre informazioni",
+      "description": "Visualizza informazioni speciali, come ad esempio il numero medio minimo di persone richieste."
+    },
+    "expansions": {
+      "label": "erogazioni",
+      "description": "Mostra a cosa può diffondersi la scommessa. (Mostra solo spread semplice)"
+    },
+    "show_100": {
+      "label": "Mostra il 100% di probabilità",
+      "description": "Mostra la probabilità per un veicolo anche se è al 100%."
+    },
+    "lfrw": {
+      "label": "Mostra se Heavy Rescue può elaborare la missione",
+      "description": "Visualizza un messaggio nella missione se può essere elaborato anche con un salvataggio pesante anziché un camion dei pompieri."
+    },
+    "credits": {
+      "label": "Guadagno medio",
+      "description": "Mostra i guadagni medi che si ottengono per questo incarico."
+    },
+    "show_siwa": {
+      "label": "Requisiti delle guardie di sicurezza",
+      "description": "Mostra i requisiti per le guardie di sicurezza anche nell'helper."
+    },
+    "mission_time": {
+      "label": "Tempo di creazione",
+      "description": "Mostra la data e l'ora in cui la missione è stata creata."
+    }
+  },
+  "requirements": {
+    "firetrucks": "Autopompe",
+    "platform_trucks": "Autoscale",
+    "heavy_rescue_vehicles": "Veicoli di soccorso pesante",
+    "mobile_air_vehicles": "Carro aria",
+    "battalion_chief_vehicles": "Funzionario",
+    "water_tankers": "Autobotti",
+    "hazmat_vehicles": "Mezzi N.B.C.R.",
+    "mobile_command_vehicles": "Mobile Command Vehicle",
+    "police_cars": "Volanti della polizia",
+    "helicopter": "elisoccorso",
+    "fwk": "Autogrù",
+    "ambulances": "Ambulanza Medicalizzata",
+    "arff": "Flotta aerea antincendio AIB",
+    "k9": "unitò cinofila antidroga",
+    "pmotorcycle": "Moto della Polizia",
+    "swat_armored_vehicle": "furgone Antisommossa",
+    "swat_suv": "Suv UOPI",
+    "police_helicopters": "elicottero della polizia",
+    "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
+  },
+  "pois": [
+    "Parco",
+    "Lago",
+    "Ospedale",
+    "Bosco",
+    "Fermata dell'autobus",
+    "Fermata del tram",
+    "Stazione ferroviaria \\(traffico regionale\\)",
+    "Stazione ferroviaria \\(traffico regionale e viaggi a lunga distanza\\)",
+    "Stazione merci",
+    "Supermercato \\(piccolo\\)",
+    "Supermercato \\(grande\\)",
+    "Stazione di servizio",
+    "Scuola",
+    "Museo",
+    "Centro commercial",
+    "Officina meccanica",
+    "Uscita autostradale",
+    "Mercatino di Natale",
+    "Storehouse",
+    "Discoteca",
+    "Stadio",
+    "Azienda agricola",
+    "Edificio adibito a uffici",
+    "Piscina",
+    "Railroad Crossing",
+    "Teatro",
+    "Luna park",
+    "Fiume",
+    "Piccolo aeroporto \\(pista\\)",
+    "Grande aeroporto \\(pista\\)",
+    "Terminal aeroporto",
+    "Banca",
+    "Magazzino",
+    "Ponte",
+    "Tavola calda",
+    "Porto mercantile",
+    "Piattaforma ecologica",
+    "Grattacielo",
+    "Molo navi da crociera",
+    "Porticciolo",
+    "Passaggio a livello",
+    "Galleria",
+    "Magazzino a celle frigorifere",
+    "Centrale elettrica",
+    "Fabbrica",
+    "Deposito rottami",
+    "Stazione metropolitana",
+    "Piccolo serbatoio di accumulo sostanze chimiche",
+    "Grande serbatoio di accumulo sostanze chimiche",
+    "Hotel",
+    "Bar",
+    "Discarica",
+    "Parcheggio coperto",
+    "Silos"
+  ]
+}

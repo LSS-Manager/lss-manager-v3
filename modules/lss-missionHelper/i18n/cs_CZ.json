@@ -1,0 +1,96 @@
+{
+  "diy_mission": "Tato mise se jeví jako rozsáhlá alianční mise.",
+  "guard_mission": "Plánovaná mise",
+  "vge": "Velká alianční mise",
+  "patients": "Pacienti",
+  "prisoners": "Vězni",
+  "to": "až do",
+  "exp": "Šíření",
+  "SWATPersonnel": "Potřebný personál URNY",
+  "ambulance_only": "Tato mise je pouze sanitka!",
+  "title": "Pomocník mise",
+  "transport": "Doprava",
+  "allow_rw_instead_of_lf": "Tuto misi lze místo hasičského záchranného sboru provést také s těžkou záchranou",
+  "settings": {
+    "name": {
+      "label": "název",
+      "description": "Zobrazuje název mise v pomocníkovi."
+    },
+    "id": {
+      "label": "ID",
+      "description": "Zobrazuje ID mise v pomocníkovi."
+    },
+    "type": {
+      "label": "TYP-ID",
+      "description": "Zobrazuje ID typu mise v pomocníkovi."
+    },
+    "poi": {
+      "label": "POI",
+      "description": "Označuje v pomocníkovi, na kterém POI je operace."
+    },
+    "live_patients": {
+      "label": "Počet pacientů",
+      "description": "Ukazuje živě, kolik pacientů se v současné době používá."
+    },
+    "vehicles": {
+      "label": "Vozidla",
+      "description": "Zobrazí požadovaná vozidla."
+    },
+    "patients": {
+      "label": "informace o pacientovi",
+      "description": "Zobrazuje informace o (potenciálních) pacientech."
+    },
+    "prisoners": {
+      "label": "informace vězně",
+      "description": "Zobrazuje informace o (potenciálních) vězňech."
+    },
+    "special": {
+      "label": "Jiná informace",
+      "description": "Zobrazuje speciální informace, například průměrný minimální požadovaný počet zaměstnanců."
+    },
+    "expansions": {
+      "label": "distribuce",
+      "description": "Ukazuje, na co se může sázka rozšířit. (Zobrazuje pouze jednoduché šíření)"
+    },
+    "show_100": {
+      "label": "Zobrazit 100% pravděpodobnost",
+      "description": "Zobrazuje pravděpodobnost pro vozidlo, i když je to 100%."
+    },
+    "lfrw": {
+      "label": "Ukažte, zda může těžká záchranná mise zpracovat",
+      "description": "Zobrazuje v misi zprávu, zda ji lze namísto hasičského vozu zpracovat také pomocí těžké záchrany."
+    },
+    "credits": {
+      "label": "Průměrné příjmy",
+      "description": "Zobrazuje průměrné příjmy, které získáte za tuto úlohu."
+    },
+    "show_siwa": {
+      "label": "Požadavky na bezpečnostní strážce",
+      "description": "Ukazuje také požadavky na bezpečnostní strážce v pomocníkovi."
+    },
+    "mission_time": {
+      "label": "Čas vytvoření",
+      "description": "Zobrazuje datum a čas, kdy byla mise vytvořena."
+    }
+  },
+  "requirements": {
+    "firetrucks": "hasičské vozy",
+    "platform_trucks": "automobilové žebříky",
+    "heavy_rescue_vehicles": "těžká technická vozidla",
+    "mobile_air_vehicles": "Mobile Air",
+    "battalion_chief_vehicles": "velitelské automobily",
+    "water_tankers": "kombinované hasící automobily",
+    "hazmat_vehicles": "vozidla pro práci s nebezpečnými látkami",
+    "mobile_command_vehicles": "velitelská vozidla",
+    "police_cars": "policejní automobily",
+    "helicopter": "Vrtulník LZS",
+    "ambulances": "Sanitkat",
+    "arff": "letištní speciály",
+    "k9": "Vozidlo Kynologů PČR",
+    "pmotorcycle": "Policejní motocykl",
+    "swat_armored_vehicle": "Obrněné vozidlo URNA",
+    "swat_suv": "URNA SUV",
+    "police_helicopters": "Policejní vrtulník",
+    "allow_rw_instead_of_lf": "Hasičské vozy nebo těžká záchranná služba"
+  }
+}

@@ -202,7 +202,7 @@
             cancelled: 'Cancelled',
             cancelled2: 'bâtiment',
             extended: 'construit',
-            extended2: 'Extended',
+            extended2: 'prolongée',
             built: 'construit',
             teame: ' Alliance',
             team: '\\[Alliance\\]',

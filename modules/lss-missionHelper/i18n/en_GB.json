@@ -1,0 +1,103 @@
+{
+    "diy_mission": "This mission seems to be a large scale alliance mission.",
+    "exp": "Spreads",
+    "fwm": "Follow-up missions",
+    "SWATPersonnel": "Needed Armed Response Personnel",
+    "criticalchance": "Critical Care Chance",
+    "ukcodes": "Possible patient codes",
+    "settings": {
+        "name": {
+            "label": "Name",
+            "description": "Shows the name of the mission in the helper."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Displays the ID of the mission in the helper."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description":
+                "Displays the ID of the mission type in the helper."
+        },
+        "poi": {
+            "label": "POI",
+            "description":
+                "Indicates in the helper which POI the operation is at."
+        },
+        "live_patients": {
+            "label": "Number of patients",
+            "description":
+                "Shows live how many patients are currently in use."
+        },
+        "vehicles": {
+            "label": "Vehicles",
+            "description": "Displays the required vehicles."
+        },
+        "patients": {
+            "label": "patient information",
+            "description": "Shows information about (potential) patients."
+        },
+        "prisoners": {
+            "label": "prisoner information",
+            "description": "Shows information about (potential) prisoners."
+        },
+        "special": {
+            "label": "Other information",
+            "description":
+                "Displays special information, such as the average minimum number of personnel required."
+        },
+        "expansions": {
+            "label": "distributions",
+            "description":
+                "Shows what the bet can spread to. (Shows only simple spread)"
+        },
+        "followup": {
+            "label": "Follow-up missions",
+            "description":
+                "Shows what the insert can generate for follow-up missions"
+        },
+        "show_100": {
+            "label": "Show 100% probability",
+            "description":
+                "Shows the probability for a vehicle even if it is 100%."
+        },
+        "lfrw": {
+            "label": "Show if the Heavy Rescue can process the mission",
+            "description":
+                "Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck."
+        },
+        "credits": {
+            "label": "Average earnings",
+            "description":
+                "Shows the average earnings you get for this assignment."
+        },
+        "show_siwa": {
+            "label": "Requirements of security guards",
+            "description":
+                "Shows the requirements for security guards in the helper as well."
+        },
+        "mission_time": {
+            "label": "Creation Time",
+            "description":
+                "Shows the date and time when the mission was created."
+    }
+},
+"requirements": {
+    "firetrucks": "Fire engines",
+    "platform_trucks": "Aerial Appliance",
+    "heavy_rescue_vehicles": "Rescue Support Unit or Rescue Pump",
+    "mobile_air_vehicles": "Breathing Apparatus Support Unit",
+    "battalion_chief_vehicles": "Fire Officer",
+    "water_tankers": "Water Carrier",
+    "hazmat_vehicles": "HazMat",
+    "mobile_command_vehicles": "Incident Command and Control Unit",
+    "police_cars": "Police Car",
+    "arff": "ARFF",
+    "k9": "Dog Support Unit",
+    "swat_suv": "Armed Response Vehicle (ARV)",
+    "helicopter": "HEMS",
+    "police_helicopters": "Police helicopter",
+    "kdow_orgl": "Operational Team Leader",
+    "allow_rw_instead_of_lf": "Fire trucks or heavy rescue"
+}
+}
