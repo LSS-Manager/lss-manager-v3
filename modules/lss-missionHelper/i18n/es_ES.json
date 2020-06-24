@@ -1,0 +1,92 @@
+{
+    "diy_mission": "Esta misión parece ser una misión de alianza a gran escala.",
+    "guard_mission": "misión planificada",
+    "vge": "misión de alianza a gran escala",
+    "patients": "pacientes",
+    "prisoners": "presos",
+    "water": "Wasserbedarf",
+    "to": "hasta",
+    "exp": "Diferenciales",
+    "ambulance_only": "Esta misión es sólo de ambulancias.!",
+    "title": "Missionhelper",
+    "allow_rw_instead_of_lf": "Esta misión también se puede llevar a cabo con un rescate pesado en lugar de un camión de bomberos",
+    "transport": "transportar",
+    "settings": {
+        "name": {
+            "label": "Nombre",
+            "description": "Muestra el nombre de la misión en el ayudante."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Muestra el ID de la misión en el asistente."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Muestra el ID del tipo de misión en el asistente."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Indica en el asistente en qué PDI se encuentra la operación."
+        },
+        "live_patients": {
+            "label": "Número de pacientes",
+            "description": "Muestra en vivo cuántos pacientes están actualmente en uso."
+        },
+        "vehicles": {
+            "label": "Vehículos",
+            "description": "Muestra los vehículos necesarios."
+        },
+        "patients": {
+            "label": "información del paciente",
+            "description": "Muestra informmación sobre pacientes (potenciales)."
+        },
+        "prisoners": {
+            "label": "información sobre los presos",
+            "description": "Muestra información sobre prisioneros (potenciales)."
+        },
+        "special": {
+            "label": "Otra información",
+            "description": "Muestra informmación especial, como el promedio mínimo de personal necesario."
+        },
+        "expansions": {
+            "label": "distribuciones",
+            "description": "Muestra a qué puede llegar la apuesta. (Muestra sólo la dispersión simple)"
+        },
+        "show_100": {
+            "label": "Mostrar 100% de probabilidad",
+            "description": "Muestra la probabilidad de un vehículo incluso si es 100%."
+        },
+        "lfrw": {
+            "label": "Mostrar si el rescate pesado puede procesar la misión",
+            "description": "Muestra un mensaje en la Misión si también se puede procesar con un Rescate pesado en lugar de un camión de bomberos."
+        },
+        "credits": {
+            "label": "Ganancias medias",
+            "description": "Muestra el promedio de ganancias que usted obtiene por esta asignación."
+        },
+        "show_siwa": {
+            "label": "Requisitos de los guardias de seguridad",
+            "description": "También muestra los requisitos para los guardias de seguridad en el ayudante."
+        },
+        "mission_time": {
+            "label": "Hora de creación",
+            "description": "Muestra la fecha y la hora en que se creó la misión."
+        }
+    },
+    "requirements": {
+        "firetrucks": "Camiones de bomberos",
+        "platform_trucks": "Camiones con plataforma",
+        "heavy_rescue_vehicles": "Furgones de Útiles Vario",
+        "mobile_air_vehicles": "Mobile Air",
+        "battalion_chief_vehicles": "unidades de Mando y Comunicaciones",
+        "mobile_command_vehicles": "unidades de mando",
+        "water_tankers": "camiones cisterna",
+        "hazmat_vehicles": "vehículos de materiales peligrosos",
+        "police_cars": "coches patrulla",
+        "helicopter": "Helicóptero HSR",
+        "arff": "CBA",
+        "police_helicopters": "Police Helicopter",
+        "ambulances": "Ambulancia",
+        "allow_rw_instead_of_lf": "Camiones de bomberos o rescate pesado"
+    }
+}

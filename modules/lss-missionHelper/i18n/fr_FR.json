@@ -1,0 +1,102 @@
+{
+        "diy_mission": "Cette mission semble être une mission d'alliance à grande échelle.",
+        "guard_mission": "Mission prévue",
+        "vge": "Mission d'alliance à grande échelle",
+        "patients": "Patients",
+        "prisoners": "prisonniers",
+        "to": "jusqu'à",
+        "exp": "Propagation",
+        "SWATPersonnel": "Needed SWAT Personnel",
+        "averageMinimumEmployeesFire": "Moyenne minimale Pompiers",
+        "averageMinimumEmployeesHoehen": "Spécialistes IMP requis",
+        "averageMinimumEmployeesPolice": "Moyenne minimale Policiers",
+        "education": "Personnel formé requis",
+        "ambulance_only": "Cette mission est réservée aux ambulances !",
+        "title": "Aide à la mission",
+        "transport": "transport",
+        "allow_rw_instead_of_lf": "Cette mission peut également être effectuée avec un sauvetage lourd au lieu d'un camion de pompier",
+        "settings": {
+            "name": {
+                "label": "Nom",
+                "description": "Affiche le nom de la mission dans l'assistant."
+            },
+            "id": {
+                "label": "ID",
+                "description": "Affiche l'ID de la mission dans l'aide."
+            },
+            "type": {
+                "label": "TYP-ID",
+                "description": "Affiche l'ID du type de mission dans l'aide."
+            },
+            "poi": {
+                "label": "POI",
+                "description": "Indique dans l'aide à quel POI se trouve l'opération."
+            },
+            "live_patients": {
+                "label": "Nombre de patients",
+                "description": "Affiche en temps réel le nombre de patients en cours d'utilisation."
+            },
+            "vehicles": {
+                "label": "Véhicules",
+                "description": "Affiche les véhicules requis."
+            },
+            "patients": {
+                "label": "renseignements sur le patient",
+                "description": "Affiche des informations sur les patients (potentiels)."
+            },
+            "prisoners": {
+                "label": "renseignements sur le détenu",
+                "description": "Affiche des informations sur les détenus (potentiels)."
+            },
+            "special": {
+                "label": "Autres informations",
+                "description": "Affiche des informations spéciales, telles que le nombre minimum moyen d'employés requis."
+            },
+            "education": {
+                "label": "Montrer les personnes formées nécessaires"
+            },
+            "expansions": {
+                "label": "répartitions",
+                "description": "Montre à quoi le pari peut s'étendre. (N'affiche que la propagation simple)"
+            },
+            "show_100": {
+                "label": "Montrer 100% de probabilité",
+                "description": "Indique la probabilité pour un véhicule même s'il est à 100%."
+            },
+            "lfrw": {
+                "label": "Montrer si le Heavy Rescue peut traiter la mission",
+                "description": "Affiche un message dans la mission indiquant s'il peut également être traité avec un sauvetage lourd au lieu d'un camion de pompiers."
+            },
+            "credits": {
+                "label": "Salaire moyen",
+                "description": "Indique le salaire moyen que vous touchez pour cette affectation."
+            },
+            "show_siwa": {
+                "label": "Exigences applicables aux agents de sécurité",
+                "description": "Affiche également les exigences pour les agents de sécurité de l'assistant."
+            },
+            "mission_time": {
+                "label": "Heure de création",
+                "description": "Affiche la date et l'heure de création de la mission."
+            }
+        },
+        "requirements": {
+            "firetrucks": "Fourgons d’incendie",
+            "platform_trucks": "Moyen Elévateur Aérien",
+            "heavy_rescue_vehicles": "Véhicule de secours routier",
+            "mobile_air_vehicles": "Assistance respiratoire",
+            "battalion_chief_vehicles": "Chefs de groupe",
+            "water_tankers": "Camions-citernes",
+            "hazmat_vehicles": "risques technologiques",
+            "mobile_command_vehicles": "poste de commandement",
+            "police_cars": "Voitures de police",
+            "helicopter": "Dragon",
+            "ambulances": "Ambulances",
+            "thw_gkw": "Véhicule Tout Usage",
+            "arff": "ARFF",
+            "height_rescue_units": "VGRIMP",
+            "water_rescue": "VPL",
+            "boats": "BLS",
+            "allow_rw_instead_of_lf": "Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage"
+        }
+    }

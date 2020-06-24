@@ -1,0 +1,96 @@
+{
+    "diy_mission": "Denne mission synes at være en alliansemission i stor skala.",
+    "guard_mission": "Planlagt mission",
+    "vge": "Stor skala alliance mission",
+    "patients": "Patienter",
+    "prisoners": "Fanger",
+    "to": "op til",
+    "exp": "Sprede",
+    "SWATPersonnel": "Nødvendige AKS personel",
+    "ambulance_only": "Denne mission er kun ambulance!",
+    "title": "Missionhelper",
+    "transport": "Transportere",
+    "allow_rw_instead_of_lf": "Denne mission kan også udføres med en tung redning i stedet for et ildsted",
+    "settings": {
+        "name": {
+            "label": "Navn",
+            "description": "Viser missionens navn i hjælperen."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Viser ID for missionen i hjælperen."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Viser ID for missionstypen i hjælperen."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Angiver i hjælperen, hvilket POI operationen er ved."
+        },
+        "live_patients": {
+            "label": "Antal patienter",
+            "description": "Viser live, hvor mange patienter der i øjeblikket er i brug."
+        },
+        "vehicles": {
+            "label": "Køretøjer",
+            "description": "Viser de nødvendige køretøjer."
+        },
+        "patients": {
+            "label": "patientinformation",
+            "description": "Viser oplysninger om (potentielle) patienter."
+        },
+        "prisoners": {
+            "label": "fangeoplysninger",
+            "description": "Viser oplysninger om (potentielle) fanger."
+        },
+        "special": {
+            "label": "Andre oplysninger",
+            "description": "Viser speciel information, såsom det gennemsnitlige minimalt antal krævede medarbejdere."
+        },
+        "expansions": {
+            "label": "distributioner",
+            "description": "Viser, hvad indsatsen kan sprede sig til. (Viser kun enkel spredning)"
+        },
+        "show_100": {
+            "label": "Vis 100% sandsynlighed",
+            "description": "Viser sandsynligheden for et køretøj, selvom det er 100%."
+        },
+        "lfrw": {
+            "label": "Vis om Heavy Rescue kan behandle missionen",
+            "description": "Viser en meddelelse i missionen, om den også kan behandles med en tung redning i stedet for en brandbil."
+        },
+        "credits": {
+            "label": "Gennemsnitlig indtjeningGennemsnitlig indtjening",
+            "description": "Viser den gennemsnitlige indtjening, du får for denne opgave."
+        },
+        "show_siwa": {
+            "label": "Krav til sikkerhedsvagter",
+            "description": "Viser også kravene til sikkerhedsvagter i hjælperen."
+        },
+        "mission_time": {
+            "label": "Oprettelsestid",
+            "description": "Viser dato og klokkeslæt, hvor missionen blev oprettet."
+        }
+    },
+    "requirements": {
+        "firetrucks": "Brandbiler",
+        "platform_trucks": "Stigevogn",
+        "heavy_rescue_vehicles": "pionertjenesten",
+        "mobile_air_vehicles": "højtrykskompressor",
+        "battalion_chief_vehicles": "Holdleder-køretøjer",
+        "water_tankers": "vandtankvogne",
+        "hazmat_vehicles": "gift- og kemikaliekøretøjer",
+        "mobile_command_vehicles": "ledelses- og kommunikationsmoduler",
+        "police_cars": "politibiler",
+        "ambulances": "Ambulans",
+        "arff": "ARFF",
+        "k9": "Hundepatrulje",
+        "pmotorcycle": "Politimotorcykel",
+        "swat_armored_vehicle": "AKS Pansret mandskabsvogn",
+        "swat_suv": "AKS Patruljevogn",
+        "police_helicopters": "Politihelikopter",
+        "helicopter": "Rednings Helikopter",
+        "allow_rw_instead_of_lf": "Brandbiler eller tung redning"
+    }
+}
