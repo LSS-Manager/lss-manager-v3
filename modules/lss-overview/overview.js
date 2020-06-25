@@ -2932,6 +2932,15 @@
                 schooling: 'Officier van Dienst Geneeskunde',
                 special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding'
             },
+            ovdg: {
+                name: 'Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
+                min: 1,
+                max: 1,
+                credits: 25000,
+                coins: 25,
+                schooling: 'Officier van Dienst Geneeskunde',
+                special: 'Per 10 Ambulanceposten (Standplaatsen en VWS-posten) kan één OVDG-RR gekocht worden'
+            },
             rr: {
                 name: 'Rapid Responder',
                 min: 1,

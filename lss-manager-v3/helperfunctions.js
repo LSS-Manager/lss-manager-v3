@@ -743,7 +743,8 @@ else if (I18n.locale == "nl_NL")
         "53": ["AT-C | AT-Commandant", 2],
         "54": ["AT-O | AT-Operator", 2],
         "55": ["AT-M | AT-Materiaalwagen", 2],
-        "56": ["DA-VL | Dienstauto Voorlichter", 0]
+        "56": ["DA-VL | Dienstauto Voorlichter", 0],
+        "57": ["DA OVDG-RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder", 1]
     };
 }
 else if (I18n.locale == "de_DE")
