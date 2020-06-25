@@ -2932,7 +2932,7 @@
                 schooling: 'Officier van Dienst Geneeskunde',
                 special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding'
             },
-            ovdg: {
+            ovdgrr: {
                 name: 'Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
                 min: 1,
                 max: 1,
