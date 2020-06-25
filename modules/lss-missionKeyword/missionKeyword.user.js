@@ -3085,7 +3085,17 @@
         155: 'AVP VL contre animal',
         156: 'Rupture de canalisation',
         157: 'Malaise dans une éolienne',
-        158: 'Stationnement gênant'
+        158: 'Stationnement gênant',
+        159: 'Intoxication alimentaire',
+        160: 'VL immergée',
+        161: 'PL immergé',
+        162: "Dégagement d'hélice entravée",
+        163: 'Accident de plongée',
+        164: "Disparition inquiétante près d'un point d'eau",
+        165: "Personne tombée à l'eau",
+        166: "Accident d'embarcation de plaisance",
+        167: "Accident d'embarcation TMD",
+        168: "Personne tombée à l'eau"
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -7383,7 +7393,17 @@
       155: 'POL 1',
       156: 'TECH 1',
       157: 'TECH 1',
-      158: 'POL 1'
+      158: 'POL 1',
+      159: 'MED 1',
+      160: 'TECH 1 WATER',
+      161: 'TECH 1 WATER',
+      162: 'TECH 1 WATER',
+      163: 'TECH 1 WATER',
+      164: 'TECH 1 WATER',
+      165: 'TECH 1 WATER',
+      166: 'TECH 1 WATER',
+      167: 'TECH 1 WATER',
+      168: 'TECH 1 WATER'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',

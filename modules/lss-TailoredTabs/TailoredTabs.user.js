@@ -30,6 +30,14 @@
                     "description": 'Werkfeuerwehr in eigenen Tab'
                 }
             },
+            "abwlf": {
+                "default": false,
+                "ui": {
+                    "label": 'WLF und AB',
+                    "type": "toggle",
+                    "description": 'Wechsellader und AB in eigenen Tab'
+                }
+            },
             "heli": {
                 "default": false,
                 "ui": {
@@ -155,12 +163,20 @@
         sections.push(icaoSection);
     }
     if (getSetting('wf') && !isKtwMode) {
-        let icaoSection = {
+        let wfSection = {
             name: 'WF',
             short: 'wf',
             vehicles: [83, 84, 85, 86]
         };
-        sections.push(icaoSection);
+        sections.push(wfSection);
+    }
+    if (getSetting('abwlf') && !isKtwMode) {
+        let abwlfSection = {
+            name: 'AB u. WLF',
+            short: 'abwlf',
+            vehicles: [46, 47, 48, 49, 54, 62, 71, 77, 78]
+        };
+        sections.push(abwlfSection);
     }
     if (getSetting('nas') && !isKtwMode) {
         let naSection = {

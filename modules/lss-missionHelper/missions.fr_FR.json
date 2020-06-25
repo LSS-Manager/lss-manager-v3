@@ -3191,7 +3191,7 @@
         "name": "VL immerg\u00e9e",
         "place": "Rivi\u00e8re",
         "average_credits": 1800,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3232,7 +3232,7 @@
         "name": "PL immerg\u00e9",
         "place": "Rivi\u00e8re",
         "average_credits": 2900,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3275,7 +3275,7 @@
         "name": "D\u00e9gagement d'h\u00e9lice entrav\u00e9e",
         "place": "Marina",
         "average_credits": 1000,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3283,18 +3283,16 @@
         },
         "requirements": {
             "battalion_chief_vehicles": 1,
-            "police_cars": 2,
+            "water_rescue": 1,
             "boats": 1,
             "personnel_educations": {
-                "2": 3,
-                "1": 1
+                "2": 3
             }
         },
         "chances": {},
         "additional": {
             "personnel_educations": {
-                "PLG (Plongeur)": 3,
-                "SAV (Sauvetage Aquatique)": 1
+                "PLG (Plongeur)": 3
             }
         },
         "prerequisites": {
@@ -3307,7 +3305,7 @@
         "name": "Accident de plong\u00e9e",
         "place": "Lac",
         "average_credits": 1100,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3343,10 +3341,10 @@
     },
     "164": {
         "id": 164,
-        "name": "Personne disparue pr\u00e8s d'un point d'eau",
+        "name": "Disparition inqui\u00e9tante pr\u00e8s d'un point d'eau",
         "place": "Lac",
         "average_credits": 3800,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3388,7 +3386,7 @@
         "name": "Personne tomb\u00e9e \u00e0 l'eau",
         "place": "Rivi\u00e8re",
         "average_credits": 1000,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3427,7 +3425,7 @@
         "name": "Accident d'embarcation de plaisance",
         "place": "Voie naviguable",
         "average_credits": 1800,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3467,7 +3465,7 @@
         "name": "Accident d'embarcation TMD",
         "place": "Voie naviguable",
         "average_credits": 9200,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -3509,9 +3507,9 @@
     "168": {
         "id": 168,
         "name": "Personne tomb\u00e9e \u00e0 l'eau",
-        "place": "Rivi\u00e8re",
+        "place": "Lac",
         "average_credits": 1000,
-        "generated_by": "Secours en mer",
+        "generated_by": "Secours nautique",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
