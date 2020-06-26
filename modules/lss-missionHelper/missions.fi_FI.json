@@ -2234,5 +2234,132 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "95": {
+        "id": 95,
+        "name": "Auringonpistos",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "L\u00e4mp\u00f6halvaus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "L\u00e4mp\u00f6kouristus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Nestehukasta k\u00e4rsiv\u00e4 henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Grillipalo",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

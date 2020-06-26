@@ -567,7 +567,10 @@
         542: 'Supermarkt eingestürzt',
         543: 'Supermarkt eingestürzt',
         544: 'Säureangriff auf Hauswand',
-        545: 'Brand bei Holzverarbeiter'
+        545: 'Brand bei Holzverarbeiter',
+        546: 'Hitzschlagvorsorge bei Stau',
+        547: 'Badestellenüberwachung',
+        548: 'Grillbrand'
       }
     };
     I18n.translations.en_US.lssm.missionKeywordDefaults = {
@@ -984,7 +987,16 @@
         395: 'Major Forest Fire',
         396: 'Fire Watch',
         397: 'Burning Bus Terminal',
-        398: 'Traffic light failure'
+        398: 'Traffic light failure',
+        399: 'Train station fire (small)',
+        400: 'Train station fire (medium)',
+        401: 'Train station fire (small)',
+        402: 'Train station fire (medium)',
+        403: 'Sunstroke',
+        404: 'Heat stroke',
+        405: 'Heat cramp',
+        406: 'Dehydrated person',
+        407: 'Barbecue fire'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -1183,7 +1195,15 @@
         177: 'Large field fire',
         178: 'Medium forest fire',
         179: 'Hare Coursing',
-        180: 'Fire involving Acetylene cylinders'
+        180: 'Fire involving Acetylene cylinders',
+        181: '',
+        182: '',
+        183: '',
+        184: 'Sunstroke',
+        185: 'Heat stroke',
+        186: 'Heat cramp',
+        187: 'Dehydrated person',
+        188: 'Barbecue fire'
       }
     };
     I18n.translations.en_AU.lssm.missionKeywordDefaults = {
@@ -1556,7 +1576,13 @@
         156: 'Tubería de agua rota',
         157: 'Brazo roto',
         158: 'Bierna rota',
-        159: 'Deshidratación'
+        159: 'Deshidratación',
+        160: '',
+        161: 'Insolación',
+        162: 'Golpe de calor',
+        163: 'Calambre por calor',
+        164: 'Persona deshidratada',
+        165: 'Incendio por barbacoa'
       }
     };
     I18n.translations.pt_PT.lssm.missionKeywordDefaults = {
@@ -1691,7 +1717,13 @@
         113: 'Cano de água furado',
         114: 'Braço partido',
         115: 'Perna partida',
-        116: 'Desidratação'
+        116: 'Desidratação',
+        117: '',
+        118: 'Insolação',
+        119: 'Golpe de calor',
+        120: 'Cãibra por calor',
+        121: 'Pessoa desidratada',
+        122: 'Incêndio de churrasco'
       }
     };
     I18n.translations.pt_BR.lssm.missionKeywordDefaults = {
@@ -2006,7 +2038,13 @@
         166: 'Hissnödläge',
         167: 'Explosion - utomhus',
         168: 'Drunkning - bassäng',
-        169: 'Transport mellan vårdinrättningar'
+        169: 'Transport mellan vårdinrättningar',
+        170: '',
+        171: 'Solsting',
+        172: 'Värmeslag',
+        173: 'Värmekramp',
+        174: 'Uttorkad person',
+        175: 'Grillbrand'
       }
     };
     I18n.translations.da_DK.lssm.missionKeywordDefaults = {
@@ -2175,7 +2213,13 @@
         147: 'Ødelagt vandrør',
         148: 'Brækket arm',
         149: 'Brækket ben',
-        150: 'Dehydreret person'
+        150: 'Dehydreret person',
+        151: '',
+        152: 'Solstik',
+        153: 'Hedeslag',
+        154: 'Varmekrampe',
+        155: 'Dehydreret person',
+        156: 'Grillbrand'
       }
     };
     I18n.translations.cs_CZ.lssm.missionKeywordDefaults = {
@@ -2324,10 +2368,16 @@
         127: 'Úklid po dopravní nehodě',
         128: 'Neoprávněné držení zbraní',
         129: 'Nehoda se zvířetem',
-        130: '',
+        130: 'Nefunkční vodovod',
         131: 'Nehoda auta s cyklistou',
         132: 'Nouzové otevření bytu',
-        133: 'Nouzové přistání vrtulníku'
+        133: 'Nouzové přistání vrtulníku',
+        134: 'Únik kyseliny dusičné',
+        135: 'Úpal',
+        136: 'Úžeh',
+        137: 'Křeče z tepla',
+        138: 'Dehydrovaná osoba',
+        139: 'Požár grilu'
       }
     };
     I18n.translations.nb_NO.lssm.missionKeywordDefaults = {
@@ -2485,7 +2535,13 @@
         136: 'Ødelagt vannrør',
         137: 'Armbrudd',
         138: 'Benbrudd',
-        139: 'Dehydrert person'
+        139: 'Dehydrert person',
+        140: '',
+        141: 'Solstikk',
+        142: 'Heteslag',
+        143: 'Hetekrampe',
+        144: 'Dehydrert person',
+        145: 'Grillbrann'
       }
     };
     I18n.translations.pl_PL.lssm.missionKeywordDefaults = {
@@ -2708,7 +2764,12 @@
         201: 'Osoba tonąca w wodzie',
         202: 'Samochód w wodzie',
         203: 'Ciężarówka w wodzie',
-        204: 'Bus w Wodzie'
+        204: 'Bus w Wodzie',
+        205: 'Porażenie słoneczne',
+        206: 'Udar cieplny',
+        207: 'Kurcze cieplne',
+        208: 'Odwodniona osoba',
+        209: 'Pożar podczas grilla'
       }
     };
     I18n.translations.it_IT.lssm.missionKeywordDefaults = {
@@ -2908,7 +2969,14 @@
         178: 'Terremoto (GRANDE)',
         179: 'Voragine stradale',
         180: 'Incendio industria (PICCOLO)',
-        181: 'Incendio industria (MEDIO)'
+        181: 'Incendio industria (MEDIO)',
+        182: '',
+        183: '',
+        184: 'Insolazione',
+        185: 'Colpo di calore',
+        186: 'Crampo da calore',
+        187: 'Persona disidratata',
+        188: 'Barbecue in fiamme'
       }
     };
     I18n.translations.fr_FR.lssm.missionKeywordDefaults = {
@@ -3095,7 +3163,12 @@
         165: "Personne tombée à l'eau",
         166: "Accident d'embarcation de plaisance",
         167: "Accident d'embarcation TMD",
-        168: "Personne tombée à l'eau"
+        168: "Personne tombée à l'eau",
+        169: 'Insolation',
+        170: 'Coup de chaleur',
+        171: 'Crampe de chaleur',
+        172: 'Personne déshydratée',
+        173: 'Incendie de barbecue'
       }
     };
     I18n.translations.ru_RU.lssm.missionKeywordDefaults = {
@@ -3274,7 +3347,13 @@
         157: 'Поломка водопровода',
         158: 'Перелом руки',
         159: 'Перелом ноги',
-        160: 'Обезвоживание'
+        160: 'Обезвоживание',
+        161: '',
+        162: 'Солнечный удар',
+        163: 'Тепловой удар',
+        164: 'Тепловые судороги',
+        165: 'Обезвоживание организма',
+        166: 'Возгорание гриля'
       }
     };
     I18n.translations.uk_UA.lssm.missionKeywordDefaults = {
@@ -3399,7 +3478,13 @@
         103: 'Поломка водопроводу',
         104: 'Перелом руки',
         105: 'Перелом ноги',
-        106: 'Сильне зневоднення'
+        106: 'Сильне зневоднення',
+        107: '',
+        108: 'Сонячний удар',
+        109: 'Тепловий удар',
+        110: 'Теплові судоми',
+        111: 'Зневоджена людина',
+        112: 'Багаття для шашликів'
       }
     };
     I18n.translations.ja_JP.lssm.missionKeywordDefaults = {
@@ -3527,7 +3612,13 @@
         106: '水道管破裂',
         107: '腕の骨折',
         108: '脚の骨折',
-        109: '脱水症状'
+        109: '脱水症状',
+        110: '',
+        111: '日射病',
+        112: '熱中症',
+        113: '熱けいれん',
+        114: '脱水症状',
+        115: 'バーベキュー火災'
       }
     };
     I18n.translations.ko_KR.lssm.missionKeywordDefaults = {
@@ -3653,7 +3744,13 @@
         104: '고장난 배수관',
         105: '부러진 팔',
         106: '부러진 다리',
-        107: '탈수된 시민'
+        107: '탈수된 시민',
+        108: '',
+        109: '일사병',
+        110: '열사병',
+        111: '열 경련',
+        112: '탈수된 시민',
+        113: '바베큐 화재'
       }
     };
     I18n.translations.ro_RO.lssm.missionKeywordDefaults = {
@@ -3768,7 +3865,13 @@
         93: 'Spargerea conductei',
         94: 'Mână fracturată',
         95: 'Picior fracturat',
-        96: 'Persoană deshidratată'
+        96: 'Persoană deshidratată',
+        97: '',
+        98: 'Insolație',
+        99: 'Șoc termic',
+        100: 'Crampe de la căldură',
+        101: 'Persoană deshidratată',
+        102: 'Foc de grătar'
       }
     };
     I18n.translations.fi_FI.lssm.missionKeywordDefaults = {
@@ -3880,7 +3983,13 @@
         90: 'Rikkoutunut vesiputki',
         91: 'Murtunut käsi',
         92: 'Murtunut jalka',
-        93: 'Nestehukkainen henkilö'
+        93: 'Nestehukkainen henkilö',
+        94: '',
+        95: 'Auringonpistos',
+        96: 'Lämpöhalvaus',
+        97: 'Lämpökouristus',
+        98: 'Nestehukasta kärsivä henkilö',
+        99: 'Grillipalo'
       }
     };
     I18n.translations.nl_NL.lssm.missionKeywordDefaults = {
@@ -4513,7 +4622,14 @@
         611: 'Brand in nachtclub',
         612: 'Brand in nachtclub',
         613: 'Doorzoeking risicopand',
-        614: 'Verward persoon op dak'
+        614: 'Verward persoon op dak',
+        615: '',
+        616: '',
+        617: '',
+        618: '',
+        619: '',
+        620: '',
+        621: ''
       }
     };
 
@@ -4720,9 +4836,9 @@
       180: 'RD 2',
       181: 'RD 2',
       182: 'RD 1',
-      183: 'RD 1',
-      184: 'RD 1',
-      185: 'RD 1',
+      183: 'RD 0.5',
+      184: 'RD 0.5',
+      185: 'RD 0.5',
       186: 'B 4',
       187: 'B 3',
       188: 'POL 1',
@@ -5082,7 +5198,10 @@
       542: 'THW 3 RHS',
       543: 'THW 2 RHS',
       544: 'ABC 1',
-      545: 'B 6'
+      545: 'B 6',
+      546: 'ABSICHERUNG',
+      547: 'ABSICHERUNG',
+      548: 'B 0.5'
     };
     let DEFAULT_AAO_ENUS = {
       0: 'FIRE 1',
@@ -5483,7 +5602,16 @@
       395: 'FIRE 7',
       396: 'Planned mission',
       397: 'FIRE 3',
-      398: 'Planned mission'
+      398: 'Planned mission',
+      399: '',
+      400: '',
+      401: '',
+      402: '',
+      403: 'MED 0.5',
+      404: 'MED 0.5',
+      405: 'MED 0.5',
+      406: 'MED 0.5',
+      407: 'FIRE 0.5'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
@@ -5667,7 +5795,15 @@
       177: 'FIRE 5',
       178: 'FIRE 3',
       179: 'POL 3',
-      180: 'CBRN 1'
+      180: 'CBRN 1',
+      181: '',
+      182: '',
+      183: '',
+      184: 'MED 0.5',
+      185: 'MED 0.5',
+      186: 'MED 0.5',
+      187: 'MED 0.5',
+      188: 'FIRE 0.5'
     };
     let DEFAULT_AAO_ENAU = {
       0: 'FIRE 1',
@@ -6008,7 +6144,13 @@
       156: 'TECH 1',
       157: 'MED 1',
       158: 'MED 1',
-      159: 'MED 1'
+      159: 'MED 1',
+      160: '',
+      161: 'MED 0.5',
+      162: 'MED 0.5',
+      163: 'MED 0.5',
+      164: 'MED 0.5',
+      165: 'FIRE 0.5'
     };
     let DEFAULT_AAO_PTPT = {
       0: 'FIRE 1',
@@ -6127,7 +6269,13 @@
       113: 'TECH 1',
       114: 'MED 1',
       115: 'MED 1',
-      116: 'MED 1'
+      116: 'MED 1',
+      117: '',
+      118: 'MED 0.5',
+      119: 'MED 0.5',
+      120: 'MED 0.5',
+      121: 'MED 0.5',
+      122: 'FIRE 0.5'
     };
     let DEFAULT_AAO_PTBR = {
       0: 'FIRE 1',
@@ -6410,7 +6558,13 @@
       166: 'TECH 1',
       167: 'FIRE 2',
       168: 'MED 1',
-      169: 'MEDT'
+      169: 'MEDT',
+      170: '',
+      171: 'MED 0.5',
+      172: 'MED 0.5',
+      173: 'MED 0.5',
+      174: 'MED 0.5',
+      175: 'FIRE 0.5'
     };
     let DEFAULT_AAO_DADK = {
       0: 'FIRE 1',
@@ -6563,7 +6717,13 @@
       147: 'TECH 1',
       148: 'MED 1',
       149: 'MED 1',
-      150: 'MED 1'
+      150: 'MED 1',
+      151: '',
+      152: 'MED 0.5',
+      153: 'MED 0.5',
+      154: 'MED 0.5',
+      155: 'MED 0.5',
+      156: 'FIRE 0.5'
     };
     let DEFAULT_AAO_CSCZ = {
       0: 'FIRE 1',
@@ -6696,10 +6856,16 @@
       127: 'TECH 1',
       128: 'POL 3',
       129: 'POL 1',
-      130: '',
+      130: 'TECH 1',
       131: 'TECH 1',
       132: 'TECH 1',
-      133: 'TECH 4'
+      133: 'TECH 4',
+      134: '',
+      135: 'MED 0.5',
+      136: 'MED 0.5',
+      137: 'MED 0.5',
+      138: 'MED 0.5',
+      139: 'FIRE 0.5'
     };
     let DEFAULT_AAO_NBNO = {
       0: 'FIRE 1',
@@ -6841,7 +7007,13 @@
       136: 'TECH 1',
       137: 'MED 1',
       138: 'MED 1',
-      139: 'MED 1'
+      139: 'MED 1',
+      140: '',
+      141: 'MED 0.5',
+      142: 'MED 0.5',
+      143: 'MED 0.5',
+      144: 'MED 0.5',
+      145: 'FIRE 0.5'
     };
     let DEFAULT_AAO_PLPL = {
       0: 'FIRE 1',
@@ -7048,7 +7220,12 @@
       201: 'TECH 1 WATER',
       202: 'TECH 1 WATER',
       203: 'TECH 1 WATER',
-      204: 'TECH 1 WATER'
+      204: 'TECH 1 WATER',
+      205: 'MED 0.5',
+      206: 'MED 0.5',
+      207: 'MED 0.5',
+      208: 'MED 0.5',
+      209: 'FIRE 0.5'
     };
     let DEFAULT_AAO_ITIT = {
       0: 'FIRE 1',
@@ -7232,7 +7409,14 @@
       178: 'TECH 4',
       179: 'TECH 1',
       180: 'FIRE 1',
-      181: 'FIRE 3'
+      181: 'FIRE 3',
+      182: '',
+      183: '',
+      184: 'MED 0.5',
+      185: 'MED 0.5',
+      186: 'MED 0.5',
+      187: 'MED 0.5',
+      188: 'FIRE 0.5'
     };
     let DEFAULT_AAO_FRFR = {
       0: 'FIRE 1',
@@ -7403,7 +7587,12 @@
       165: 'TECH 1 WATER',
       166: 'TECH 1 WATER',
       167: 'TECH 1 WATER',
-      168: 'TECH 1 WATER'
+      168: 'TECH 1 WATER',
+      169: 'MED 0.5',
+      170: 'MED 0.5',
+      171: 'MED 0.5',
+      172: 'MED 0.5',
+      173: 'FIRE 0.5'
     };
     let DEFAULT_AAO_RURU = {
       0: 'FIRE 1',
@@ -7566,7 +7755,13 @@
       157: 'TECH 1',
       158: 'MED 1',
       159: 'MED 1',
-      160: 'MED 1'
+      160: 'MED 1',
+      161: '',
+      162: 'MED 0.5',
+      163: 'MED 0.5',
+      164: 'MED 0.5',
+      165: 'MED 0.5',
+      166: 'FIRE 0.5'
     };
     let DEFAULT_AAO_UKUA = {
       0: 'FIRE 1',
@@ -7675,7 +7870,13 @@
       103: 'TECH 1',
       104: 'MED 1',
       105: 'MED 1',
-      106: 'MED 1'
+      106: 'MED 1',
+      107: '',
+      108: 'MED 0.5',
+      109: 'MED 0.5',
+      110: 'MED 0.5',
+      111: 'MED 0.5',
+      112: 'FIRE 0.5'
     };
     let DEFAULT_AAO_JAJP = {
       0: 'FIRE 1',
@@ -7787,7 +7988,13 @@
       106: 'TECH 1',
       107: 'MED 1',
       108: 'MED 1',
-      109: 'MED 1'
+      109: 'MED 1',
+      110: '',
+      111: 'MED 0.5',
+      112: 'MED 0.5',
+      113: 'MED 0.5',
+      114: 'MED 0.5',
+      115: 'FIRE 0.5'
     };
     let DEFAULT_AAO_KOKR = {
       0: 'FIRE 1',
@@ -7897,7 +8104,13 @@
       104: 'TECH 1',
       105: 'MED 1',
       106: 'MED 1',
-      107: 'MED 1'
+      107: 'MED 1',
+      108: '',
+      109: 'MED 0.5',
+      110: 'MED 0.5',
+      111: 'MED 0.5',
+      112: 'MED 0.5',
+      113: 'FIRE 0.5'
     };
     let DEFAULT_AAO_RORO = {
       0: 'FIRE 1',
@@ -7996,7 +8209,13 @@
       93: 'TECH 1',
       94: 'MED 1',
       95: 'MED 1',
-      96: 'MED 1'
+      96: 'MED 1',
+      97: '',
+      98: 'MED 0.5',
+      99: 'MED 0.5',
+      100: 'MED 0.5',
+      101: 'MED 0.5',
+      102: 'FIRE 0.5'
     };
     let DEFAULT_AAO_FIFI = {
       0: 'FIRE 1',
@@ -8092,7 +8311,13 @@
       90: 'TECH 1',
       91: 'MED 1',
       92: 'MED 1',
-      93: 'MED 1'
+      93: 'MED 1',
+      94: '',
+      95: 'MED 0.5',
+      96: 'MED 0.5',
+      97: 'MED 0.5',
+      98: 'MED 0.5',
+      99: 'FIRE 0.5'
     };
     let DEFAULT_AAO_NLNL = {
       0: 'KLEINE BRAND',
@@ -8709,7 +8934,14 @@
       611: 'KLEINE BRAND',
       612: 'GROTE BRAND',
       613: 'P 3',
-      614: 'HV 1'
+      614: 'HV 1',
+      615: '',
+      616: '',
+      617: 'A 0.5',
+      618: 'A 0.5',
+      619: 'A 0.5',
+      620: 'A 0.5',
+      621: 'BRAND 0.5'
     };
 
     // Alle Einsatz-IDs mit Stichwort-Zuweisung

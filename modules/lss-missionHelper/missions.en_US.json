@@ -9583,5 +9583,132 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "403": {
+        "id": 403,
+        "name": "Sunstroke",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "404": {
+        "id": 404,
+        "name": "Heat stroke",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "405": {
+        "id": 405,
+        "name": "Heat cramp",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "406": {
+        "id": 406,
+        "name": "Dehydrated person",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "407": {
+        "id": 407,
+        "name": "Barbecue fire",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
+            "date_end": "Thu, 01 Oct 2020 00:00:00 -0400"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

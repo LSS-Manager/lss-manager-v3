@@ -2341,5 +2341,132 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "109": {
+        "id": 109,
+        "name": "\uc77c\uc0ac\ubcd1",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\uae08, 26 6\uc6d4 2020 10:00:00 +0900",
+            "date_end": "\ubaa9, 01 10\uc6d4 2020 00:00:00 +0900",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "110": {
+        "id": 110,
+        "name": "\uc5f4\uc0ac\ubcd1",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\uae08, 26 6\uc6d4 2020 10:00:00 +0900",
+            "date_end": "\ubaa9, 01 10\uc6d4 2020 00:00:00 +0900",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "\uc5f4 \uacbd\ub828",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\uae08, 26 6\uc6d4 2020 10:00:00 +0900",
+            "date_end": "\ubaa9, 01 10\uc6d4 2020 00:00:00 +0900",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "\ud0c8\uc218\ub41c \uc2dc\ubbfc",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\uae08, 26 6\uc6d4 2020 10:00:00 +0900",
+            "date_end": "\ubaa9, 01 10\uc6d4 2020 00:00:00 +0900",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "\ubc14\ubca0\ud050 \ud654\uc7ac",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "\uae08, 26 6\uc6d4 2020 10:00:00 +0900",
+            "date_end": "\ubaa9, 01 10\uc6d4 2020 00:00:00 +0900"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

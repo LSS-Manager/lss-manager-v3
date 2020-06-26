@@ -2389,5 +2389,132 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "111": {
+        "id": 111,
+        "name": "\u65e5\u5c04\u75c5",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u91d1, 26 6\u6708 2020 10:00:00 +0900",
+            "date_end": "\u6728, 01 10\u6708 2020 00:00:00 +0900",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "\u71b1\u4e2d\u75c7",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u91d1, 26 6\u6708 2020 10:00:00 +0900",
+            "date_end": "\u6728, 01 10\u6708 2020 00:00:00 +0900",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "\u71b1\u3051\u3044\u308c\u3093",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u91d1, 26 6\u6708 2020 10:00:00 +0900",
+            "date_end": "\u6728, 01 10\u6708 2020 00:00:00 +0900",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "114": {
+        "id": 114,
+        "name": "\u8131\u6c34\u75c7\u72b6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u91d1, 26 6\u6708 2020 10:00:00 +0900",
+            "date_end": "\u6728, 01 10\u6708 2020 00:00:00 +0900",
+            "patient_specializations": "\u4e00\u822c\u5185\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "115": {
+        "id": 115,
+        "name": "\u30d0\u30fc\u30d9\u30ad\u30e5\u30fc\u706b\u707d",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\u6d88\u9632\u5c40",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "\u91d1, 26 6\u6708 2020 10:00:00 +0900",
+            "date_end": "\u6728, 01 10\u6708 2020 00:00:00 +0900"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }
