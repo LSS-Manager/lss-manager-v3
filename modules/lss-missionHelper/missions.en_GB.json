@@ -3685,6 +3685,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 BST",
             "date_end": "Thu, 01 Oct 2020 00:00:00 BST",
             "patient_specializations": "General Internal"
@@ -3711,6 +3714,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 BST",
             "date_end": "Thu, 01 Oct 2020 00:00:00 BST",
             "patient_specializations": "General Internal"
@@ -3737,6 +3743,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 BST",
             "date_end": "Thu, 01 Oct 2020 00:00:00 BST",
             "patient_specializations": "General Internal"
@@ -3763,6 +3773,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 BST",
             "date_end": "Thu, 01 Oct 2020 00:00:00 BST",
             "patient_specializations": "General Internal"

@@ -4625,11 +4625,11 @@
         614: 'Verward persoon op dak',
         615: '',
         616: '',
-        617: '',
-        618: '',
-        619: '',
-        620: '',
-        621: ''
+        617: 'Zonnesteek',
+        618: 'Hitteslag',
+        619: 'Hittekramp',
+        620: 'Uitgedroogde persoon',
+        621: 'Barbecuebrand'
       }
     };
 
