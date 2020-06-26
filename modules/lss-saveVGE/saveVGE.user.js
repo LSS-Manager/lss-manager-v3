@@ -1,26 +1,104 @@
 (function (I18n, $) {
-    I18n.translations.de['lssm']['saveVGE'] = {
+    I18n.translations.de_DE['lssm']['saveVGE'] = {
         save: "Speichern",
         del: "Löschen",
         noVGE:"Keine gespeicherten VGE!",
         VGEs:"VGEs"
     };
-	  I18n.translations.en['lssm']['saveVGE'] = {
+    I18n.translations.en_US['lssm']['saveVGE'] = {
         save: "Save",
         del: "Delete",
         noVGE:"No saved Alliance Mission!",
-        VGEs:"VGEs"
+        VGEs:"LSAMs"
     };
-    I18n.translations.es['lssm']['saveVGE'] = {
+    I18n.translations.cs_CZ['lssm']['saveVGE'] = {
+        save: "Uložit",
+        del: "Odstranit",
+        noVGE: "Žádná uložená alianční mise!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.es_ES['lssm']['saveVGE'] = {
         save: "Guardar",
         del: "Borrar",
         noVGE: "No se ha salvado la misión de la Alianza!",
         VGEs: "VGEs"
     };
-    I18n.translations.nl['lssm']['saveVGE'] = {
+    I18n.translations.pt_PT['lssm']['saveVGE'] = {
+        save: "Salvar",
+        del: "Excluir",
+        noVGE: "A missão Alianz não foi salva!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.sv_SE['lssm']['saveVGE'] = {
+        save: "Spara",
+        del: "Radera",
+        noVGE:"Inget räddat Alliance Mission!",
+        VGEs:"VGEs"
+    };
+    I18n.translations.da_DK['lssm']['saveVGE'] = {
+        save: "Gemme",
+        del: "Slet",
+        noVGE: "Ingen gemt Alliance Mission!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.tr_TR['lssm']['saveVGE'] = {
+        save: "kurtarma",
+        del: "Sil",
+        noVGE: "Kurtarılmış İttifak Görevi yok!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.nb_NO['lssm']['saveVGE'] = {
+        save: "Lagre",
+        del: "Slett",
+        noVGE: "Ingen reddet Alliance Mission!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.pl_PL['lssm']['saveVGE'] = {
+        save: "Oszczędzaj.",
+        del: "Usuń",
+        noVGE: "Nie ma uratowanej Misji Sojuszniczej!",
+        VGEs: "VGEs"
+    };
+    I18n.translations.ru_RU['lssm']['saveVGE'] = {
+        save: "Сохранить",
+        del: "удалять",
+        noVGE: "Нет спасенной миссии Альянса!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.uk_UA['lssm']['saveVGE'] = {
+        save: "Зберегти",
+        del: "Видалити",
+        noVGE: "Не збережена місія Альянсу!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.ja_JP['lssm']['saveVGE'] = {
+        save: "セーブ",
+        del: "削除する",
+        noVGE: "保存された同盟ミッションはありません！",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.ko_KR['lssm']['saveVGE'] = {
+        save: "저장",
+        del: "지우다",
+        noVGE: "저장된 얼라이언스 미션이 없습니다!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.ro_RO['lssm']['saveVGE'] = {
+        save: "Salva",
+        del: "Şterge",
+        noVGE: "Nici o misiune a Alianței salvată!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.fi_FI['lssm']['saveVGE'] = {
+        save: "Tallentaa",
+        del: "Poistaa",
+        noVGE: "Ei tallennettu Alliance Mission!",
+        VGEs: "LSAMs"
+    };
+    I18n.translations.nl_NL['lssm']['saveVGE'] = {
         save: "Opslaan",
-    		del: "Verwijderen",
-    		noVGE:"Geen opgeslagen grote teaminzetten!",
+    	del: "Verwijderen",
+    	noVGE:"Geen opgeslagen grote teaminzetten!",
         VGEs:"Grote teaminzet aanmaken"
     };
     let prefix = "saveVGE", saveMissions = JSON.parse(localStorage.getItem(prefix)) || {}

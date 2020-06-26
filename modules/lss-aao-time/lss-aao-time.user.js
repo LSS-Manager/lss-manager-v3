@@ -1,7 +1,7 @@
 (($, win, I18n) => {
     if (!location.pathname.match(/\/missions\/\d+/)) return;
 
-    I18n.translations.de.lssm.aaotime = {
+    I18n.translations.de_DE.lssm.aaotime = {
         timeRegex: /([0-9]{2}) Min. ([0-9]{2}) Sek./i,
         hourIdentifier: 'Std.',
         timeWithHoursRegex: /([0-9]{2}) Std. ([0-9]{2}) Min. ([0-9]{2}) Sek./i,
@@ -14,7 +14,7 @@
         timeFormat: '{0} min {1} sek',
         timeFormatWithHours: '{0} h {1} min {2} sek',
     };
-    I18n.translations.en.lssm.aaotime = {
+    I18n.translations.en_US.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
         hourIdentifier: 'hrs',
         timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
@@ -27,7 +27,46 @@
         timeFormat: '{0} min {1} sec',
         timeFormatWithHours: '{0} h {1} min {2} sec',
     };
-    I18n.translations.es.lssm.aaotime = {
+    I18n.translations.pl_PL.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) s./i,
+        hourIdentifier: 'hrs',
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) s./i,
+        leastTime: 'Przynajmniej <strong>{0}</strong>',
+        duration: 'Czas trwania: {0}',
+        missingVehicles1: 'W przypadku następujących pojazdów nie było możliwe określenie czasu:',
+        missingVehicles2: 'Mogą nie być obecni lub nie być wymienieni z czasem.',
+        missingVehicles3: 'Błąd w obliczaniu czasu. Wymagane pojazdy mogą nie być obecne lub nie być wymienione wraz z czasem.',
+        unsupportedKeys: 'Czas trwania nie mógł zostać określony, ponieważ ARR zawiera kombinacje pojazdów, które nie są jeszcze obsługiwane przez ten moduł: {0}',
+        timeFormat: '{0} min {1} s',
+        timeFormatWithHours: '{0} h {1} min {2} s',
+    };
+    I18n.translations.sv_SE.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sek./i,
+        hourIdentifier: 'hrs',
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sek./i,
+        leastTime: 'Minst <strong>{0}</strong>',
+        duration: 'Varaktighet: {0}',
+        missingVehicles1: 'För följande fordon var det inte möjligt att bestämma tiden:',
+        missingVehicles2: 'De kanske inte är närvarande eller listas med en tid.',
+        missingVehicles3: 'Fel vid beräkning av tiden. De nödvändiga fordonen kanske inte finns eller listas med tiden.',
+        unsupportedKeys: 'Varaktigheten kunde inte fastställas eftersom denna ARR innehåller fordonskombinationer som ännu inte stöds av den här modulen: {0}',
+        timeFormat: '{0} min {1} sek',
+        timeFormatWithHours: '{0} h {1} min {2} sek',
+    };
+    I18n.translations.it_IT.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
+        hourIdentifier: 'ore',
+        timeWithHoursRegex: /([0-9]{2}) ore. ([0-9]{2}) min. ([0-9]{2}) sec./i,
+        leastTime: 'Almeno <strong>{0}</strong>',
+        duration: 'Durata {0}',
+        missingVehicles1: 'Per i seguenti veicoli non è stato possibile determinare l\'ora:',
+        missingVehicles2: 'Potrebbero non essere presenti o elencati con un certo tempo.',
+        missingVehicles3: 'Errore nel calcolo del tempo. I veicoli richiesti potrebbero non essere presenti o elencati con un tempo.',
+        unsupportedKeys: 'La durata non ha potuto essere determinata perché questo ARR contiene combinazioni di veicoli che non sono ancora supportate da questo modulo: {0}',
+        timeFormat: '{0} min {1} sec',
+        timeFormatWithHours: '{0} h {1} min {2} sec',
+    };
+    I18n.translations.es_ES.lssm.aaotime = {
         timeRegex: /([0-9]{2}) min. ([0-9]{2}) seg./i,
         hourIdentifier: 'hrs',
         timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) seg./i,
@@ -40,7 +79,33 @@
         timeFormat: '{0} min {1} seg',
         timeFormatWithHours: '{0} h {1} min {2} seg',
     };
-    I18n.translations.nl.lssm.aaotime = {
+    I18n.translations.fr_FR.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
+        hourIdentifier: 'heures',
+        timeWithHoursRegex: /([0-9]{2}) heures. ([0-9]{2}) min. ([0-9]{2}) sec./i,
+        leastTime: 'Au moins <strong>{0}</strong>',
+        duration: 'Durée du projet: {0}',
+        missingVehicles1: 'Pour les véhicules suivants, il n\'a pas été possible de déterminer l\'heure:',
+        missingVehicles2: 'They might not be present or listed with a time.',
+        missingVehicles3: 'Error calculating the time. The required vehicles might not be present or listed with a time.',
+        unsupportedKeys: 'The duration could not be determined because this ARR contains vehicle combinations that are not yet supported by this module: {0}',
+        timeFormat: '{0} min {1} sec',
+        timeFormatWithHours: '{0} h {1} min {2} sec',
+    };
+    I18n.translations.ru_RU.lssm.aaotime = {
+        timeRegex: /([0-9]{2}) min. ([0-9]{2}) sec./i,
+        hourIdentifier: 'hrs',
+        timeWithHoursRegex: /([0-9]{2}) hrs. ([0-9]{2}) min. ([0-9]{2}) sec./i,
+        leastTime: 'At least <strong>{0}</strong>',
+        duration: 'Duration: {0}',
+        missingVehicles1: 'For the following vehicles it was not possible to determine the time:',
+        missingVehicles2: 'They might not be present or listed with a time.',
+        missingVehicles3: 'Error calculating the time. The required vehicles might not be present or listed with a time.',
+        unsupportedKeys: 'The duration could not be determined because this ARR contains vehicle combinations that are not yet supported by this module: {0}',
+        timeFormat: '{0} min {1} sec',
+        timeFormatWithHours: '{0} h {1} min {2} sec',
+    };
+    I18n.translations.nl_NL.lssm.aaotime = {
         timeRegex: /([0-9]{2}) minuten ([0-9]{2}) seconden/i,
         hourIdentifier: 'uur',
         timeWithHoursRegex: /([0-9]{2}) uur ([0-9]{2}) minuten ([0-9]{2}) seconden/i,

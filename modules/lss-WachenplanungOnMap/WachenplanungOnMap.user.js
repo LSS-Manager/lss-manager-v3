@@ -1,5 +1,5 @@
 (function (map, I18n, $) {
-    I18n.translations.de['lssm']['wpom'] = {
+    I18n.translations.de_DE['lssm']['wpom'] = {
         setmarker: "Marker setzen",
         remmarker: "Marker entfernen",
         plan: "Wache planen",
@@ -10,42 +10,6 @@
         set: "Setzen",
         rem: "Entfernen",
         brem: "Geplante Wache entfernen"
-    };
-    I18n.translations.en['lssm']['wpom'] = {
-        setmarker: "Set marker",
-        remmarker: "Remove marker",
-        plan: "Add planned building",
-        vehicles: "Vehicles",
-        btype: "Building type",
-        bname: "Name",
-        addveh: "Add vehicle",
-        set: "Set",
-        rem: "Remove",
-        brem: "Remove planned building"
-    };
-    I18n.translations.fj['lssm']['wpom'] = {
-        setmarker: "Set marker",
-        remmarker: "Remove marker",
-        plan: "Add planned building",
-        vehicles: "Vehicles",
-        btype: "Building type",
-        bname: "Name",
-        addveh: "Add vehicle",
-        set: "Set",
-        rem: "Remove",
-        brem: "Remove planned building"
-    };
-    I18n.translations.nl['lssm']['wpom'] = {
-        setmarker: "Plaats markering",
-        remmarker: "Verwijder markering",
-        plan: "Plaats een gepland gebouw",
-        vehicles: "Voertuigen",
-        btype: "Gebouwtype",
-        bname: "Naam",
-        addveh: "voeg voertuig toe",
-        set: "Plaats",
-        rem: "Verwijder",
-        brem: "Verwijder gepland gebouw"
     };
     let markers = [], settings = {
         set: {
@@ -60,8 +24,8 @@
             showCars: true,
             showSlider: true,
             showRadInput: false
-        }, locale: I18n.locale || 'de', translations: {
-            de: {
+        }, locale: I18n.locale || 'de_DE', translations: {
+            de_DE: {
                 attributionControl: "Wachen-Planung by Lost &amp; Northdegree"
             }
         }, prefix: 'WachenplanungOnMap'
@@ -76,7 +40,11 @@
         12: ['#cdd668', 'seg'],
         15: ['#009dff', 'wr'],
         13: ['#147014', 'phl'],
-        5: ['#e6f268', 'rhl']
+        5: ['#e6f268', 'rhl'],
+        17: ['#0e4f0e', 'bp'],
+        18: ['#ff4b38', 'fw'],
+        19: ['#1d9b1d', 'pol'],
+        20: ['#f9ffb7', 'rw']
     };
 
     function rmLayer(id) {
@@ -245,6 +213,8 @@
             case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                 building_marker_image = "/images/building_bereitschaftspolizei.png";
                 break;
+            case BUILDING_TYPE_POLIZEISONDEREINHEITEN:
+                building_marker_image = "/images/building_polizeisondereinheiten.png"
 
             case BUILDING_TYPE_SEG:
                 building_marker_image = "/images/building_seg.png";
@@ -294,8 +264,8 @@
         // Type
 
         form += '<div class="input-group select required building_building_type"><div class="input-group-addon"><label class="select required " for="building_building_type"><abbr title="required">*</abbr> ' + I18n.t('lssm.wpom.btype') + '</label></div><select class="select required form-control" id="building_building_type"><option value=""></option>';
-        for (let i in btypes) {
-            form += '<option value="' + i + '">' + btypes[i] + '</option>';
+        for (let i in lssm.buildingTypes) {
+            form += '<option value="' + i + '">' + lssm.buildingTypes[i] + '</option>';
         }
         form += '</select></div>';
         // Name
@@ -399,7 +369,7 @@
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_fw" ' + (settings.set.fw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_fw"></label></div><span class="label label-fw">Feuerwehr</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_pol" ' + (settings.set.pol ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_pol"></label></div><span class="label label-pol">Polizei</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_phl" ' + (settings.set.phl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_phl"></label></div><span class="label label-phl">Polizei Helikopter</span></div>';
-        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" ' + (settings.set.bp ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_bp"></label></div><span class="label label-bp">Bereitschaftspolizei</span></div>';
+        html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_bp" ' + (settings.set.bp ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_bp"></label></div><span class="label label-bp">BPol/P-Sonder</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rw" ' + (settings.set.rw ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rw"></label></div><span class="label label-rw">Rettungsdienst</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_rhl" ' + (settings.set.rhl ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_rhl"></label></div><span class="label label-rhl">Rettungs Helikopter</span></div>';
         html += '<div class="lssm_wachen_selector"><div class="onoffswitch"><input class="onoffswitch-checkbox" id="' + settings.prefix + '_mark_seg" ' + (settings.set.seg ? 'checked="true"' : "") + ' name="onoffswitch" type="checkbox"><label class="onoffswitch-label" for="' + settings.prefix + '_mark_seg"></label></div><span class="label label-seg">SEG</span></div>';
@@ -473,20 +443,6 @@
     createSettings();
     // alle aktiven Typen zeichnen
     drawCircles(true);
-    let btypes = {};
-    $.get('/buildings/new')
-        .fail(function () {
-            console.log("Could not get building list. Disabling mapmarkers.");
-            $("#WachenplanungOnMap_remmarker").remove();
-            $("#WachenplanungOnMap_addmarker").remove();
-        })
-        .done(function (data) {
-            $.each($(data).find("#building_building_type option"), function (key, value) {
-                "use strict";
-                if (value.value !== "")
-                    btypes[value.value] = value.text;
-            });
-        });
     let pmid = 0;
     let plannedMarkers = lssm.settings.get("wpomp", []);
     let plannedMarkersMap = [];

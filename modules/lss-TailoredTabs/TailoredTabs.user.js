@@ -30,6 +30,14 @@
                     "description": 'Werkfeuerwehr in eigenen Tab'
                 }
             },
+            "abwlf": {
+                "default": false,
+                "ui": {
+                    "label": 'WLF und AB',
+                    "type": "toggle",
+                    "description": 'Wechsellader und AB in eigenen Tab'
+                }
+            },
             "heli": {
                 "default": false,
                 "ui": {
@@ -70,12 +78,28 @@
                     "parent": SETTINGS + "_nas_toggle",
                 }
             },
+            "rhs": {
+                "default": false,
+                "ui": {
+                    "label": 'RHS',
+                    "type": "toggle",
+                    "description": 'Hundestaffeln in eigenen Tab'
+                }
+            },
             "seg": {
                 "default": false,
                 "ui": {
                     "label": 'SEG',
                     "type": "toggle",
-                    "description": 'SEG Einheiten in eigenem Tab'
+                    "description": 'SEG Einheiten in eigenen Tab'
+                }
+            },
+            "rhs1": {
+                "default": false,
+                "ui": {
+                    "label": 'RHS hinzufügen',
+                    "type": "checkbox",
+                    "parent": SETTINGS + "_seg_toggle",
                 }
             },
             "ktw": {
@@ -139,12 +163,20 @@
         sections.push(icaoSection);
     }
     if (getSetting('wf') && !isKtwMode) {
-        let icaoSection = {
+        let wfSection = {
             name: 'WF',
             short: 'wf',
             vehicles: [83, 84, 85, 86]
         };
-        sections.push(icaoSection);
+        sections.push(wfSection);
+    }
+    if (getSetting('abwlf') && !isKtwMode) {
+        let abwlfSection = {
+            name: 'AB u. WLF',
+            short: 'abwlf',
+            vehicles: [46, 47, 48, 49, 54, 62, 71, 77, 78]
+        };
+        sections.push(abwlfSection);
     }
     if (getSetting('nas') && !isKtwMode) {
         let naSection = {
@@ -169,7 +201,18 @@
             short: 'seg',
             vehicles: [58, 59, 60]
         };
+        if (getSetting('rhs1')) {
+            segSection.vehicles.push(91);
+        }
         sections.push(segSection);
+    }
+    if (getSetting('rhs') && !isKtwMode) {
+        let rhsSection = {
+            name: 'RHS',
+            short: 'rhs',
+            vehicles: [91, 92]
+        };
+        sections.push(rhsSection);
     }
     if (getSetting('heli') && !isKtwMode) {
         let heliSection = {

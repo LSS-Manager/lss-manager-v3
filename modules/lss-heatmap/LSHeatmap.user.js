@@ -8,7 +8,7 @@
             .filter( key => predicate(obj[key]) )
             .reduce( (res, key) => (res[key] = obj[key], res), {} );
 
-    I18n.translations.de.lssm.heatmap = {
+    I18n.translations.de_DE.lssm.heatmap = {
         active: 'Aktiviert',
         vehicleType: 'Gruppierung',
         radius: 'Radius',
@@ -206,7 +206,7 @@
             }
         ]
     };
-    I18n.translations.en.lssm.heatmap = {
+    I18n.translations.en_US.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',
@@ -319,7 +319,7 @@
             }
         ]
     };
-    I18n.translations.fj.lssm.heatmap = {
+    I18n.translations.en_GB.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',
@@ -332,7 +332,7 @@
             }
         ]
     };
-    I18n.translations.eu.lssm.heatmap = {
+    I18n.translations.en_AU.lssm.heatmap = {
         active: 'Active',
         vehicleType: 'Groups',
         radius: 'Radius',
@@ -345,7 +345,20 @@
             }
         ]
     };
-    I18n.translations.es.lssm.heatmap = {
+    I18n.translations.cs_CZ.lssm.heatmap = {
+        active: 'Aktivní',
+        vehicleType: 'Skupiny',
+        radius: 'Poloměr',
+        intensity: 'Intenzita',
+        close: 'Zavřít',
+        vehicleGroups: [
+            {
+                name: 'Vlastní kombinace',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.es_ES.lssm.heatmap = {
         active: 'Activo',
         vehicleType: 'Grupos',
         radius: 'Radio',
@@ -358,7 +371,189 @@
             }
         ]
     };
-    I18n.translations.nl.lssm.heatmap = {
+    I18n.translations.pt_PT.lssm.heatmap = {
+        active: 'Ativo',
+        vehicleType: 'Grupos',
+        radius: 'Raio',
+        intensity: 'Intensidade',
+        close: 'Fechar',
+        vehicleGroups: [
+            {
+                name: 'Combinação própria',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.pl_PL.lssm.heatmap = {
+        active: 'Aktywny',
+        vehicleType: 'Grupy',
+        radius: 'Promień',
+        intensity: 'Intensywność',
+        close: 'Zamknij się.',
+        vehicleGroups: [
+            {
+                name: 'Kombinacja własna',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.sv_SE.lssm.heatmap = {
+        active: 'Aktiva',
+        vehicleType: 'grupper',
+        radius: 'Radie',
+        intensity: 'Intensitet',
+        close: 'Stänga',
+        vehicleGroups: [
+            {
+                name: 'Egen kombination',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.da_DK.lssm.heatmap = {
+        active: 'Aktiv',
+        vehicleType: 'grupper',
+        radius: 'Radius',
+        intensity: 'Intensitet',
+        close: 'Tæt',
+        vehicleGroups: [
+            {
+                name: 'Egen kombination',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.nb_NO.lssm.heatmap = {
+        active: 'Aktiv',
+        vehicleType: 'grupper',
+        radius: 'Radius',
+        intensity: 'Intensitet',
+        close: 'Lukk',
+        vehicleGroups: [
+            {
+                name: 'Egen kombinasjon',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.it_IT.lssm.heatmap = {
+        active: 'Attivo',
+        vehicleType: 'Gruppi',
+        radius: 'Raggio',
+        intensity: 'Intensità',
+        close: 'Chiudere',
+        vehicleGroups: [
+            {
+                name: 'Combinazione propria',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.tr_TR.lssm.heatmap = {
+        active: 'Aktif',
+        vehicleType: 'Gruplar',
+        radius: 'yarıçap',
+        intensity: 'yoğunluk',
+        close: 'Kapat',
+        vehicleGroups: [
+            {
+                name: 'Kendi Kombinasyonu',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.fr_FR.lssm.heatmap = {
+        active: 'Actif',
+        vehicleType: 'Groupes',
+        radius: 'Rayon',
+        intensity: 'Intensité',
+        close: 'Fermer',
+        vehicleGroups: [
+            {
+                name: 'Combinaison propre',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ru_RU.lssm.heatmap = {
+        active: 'Активный',
+        vehicleType: 'Группы',
+        radius: 'Радиус',
+        intensity: 'Интенсивность',
+        close: 'Близко',
+        vehicleGroups: [
+            {
+                name: 'Собственная комбинация',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.uk_UA.lssm.heatmap = {
+        active: 'Активний',
+        vehicleType: 'Групи',
+        radius: 'Радіус',
+        intensity: 'Інтенсивність',
+        close: 'Закрити',
+        vehicleGroups: [
+            {
+                name: 'Власна комбінація',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ja_JP.lssm.heatmap = {
+        active: 'アクティブ',
+        vehicleType: 'グループ',
+        radius: '半径',
+        intensity: '強度',
+        close: '閉じる',
+        vehicleGroups: [
+            {
+                name: '独自の組み合わせ',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ko_KR.lssm.heatmap = {
+        active: '유효한',
+        vehicleType: '여러 떼',
+        radius: '반지름',
+        intensity: '강렬',
+        close: '닫기',
+        vehicleGroups: [
+            {
+                name: '자신의 조합',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.ro_RO.lssm.heatmap = {
+        active: 'Activ',
+        vehicleType: 'Grupuri',
+        radius: 'Rază',
+        intensity: 'Intensitate',
+        close: 'Închide',
+        vehicleGroups: [
+            {
+                name: 'Combinație proprie',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.fi_FI.lssm.heatmap = {
+        active: 'aktiivinen',
+        vehicleType: 'ryhmät',
+        radius: 'Säde',
+        intensity: 'Intensiteetti',
+        close: 'kiinni',
+        vehicleGroups: [
+            {
+                name: 'Oma yhdistelmä',
+                vehicles: []
+            }
+        ]
+    };
+    I18n.translations.nl_NL.lssm.heatmap = {
         active: 'Actief',
         vehicleType: 'Fracties',
         radius: 'Radius',
@@ -479,7 +674,7 @@
     }
 
     function renderMapSettings() {
-        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 32px; width: 32px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
+        let markup = `<div id="ls-heatmap-config-wrapper" class="leaflet-bar leaflet-control" style="background-color: ${$('body').hasClass('dark') ? '#323232' : 'white'};"><img id="ls-heatmap-config-img" style="height: 26px; width:26px; cursor: pointer;" src="${lssm.getlink('/modules/lss-heatmap/img/ls-heat-layer.png')}"></div>`;
         $('.leaflet-control-container .leaflet-bottom.leaflet-left').append(markup);
         $('#ls-heatmap-config-img').click(() => {
             $('#ls-heatmap-config-custom').remove();
@@ -493,7 +688,7 @@
                 $(wrapper).attr('data-opened', 'true');
                 let form = $('#ls-heatmap-config .ls-form-group');
                 // Active
-                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.active')}</td><td><input class="ls-input" type="checkbox" id="heatmap-active" ${getSetting('heatmap-active') ? 'checked' : ''}></td></tr>`);
+                form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.active')}</td><td><input class="ls-input" type="checkbox" id="heatmap-active" ${getSetting('heatmap-active') ? 'checked' : ''}></td><td><button id="heatmap_reset" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.reset')}</button></td></tr>`);
                 // Vehicle-Selection
                 let vehicle_options = '';
                 for (let key in vehicleGroups) {
@@ -510,7 +705,7 @@
                 form.append(`<tr class="ls-heatmap-option"><td>${I18n.t('lssm.heatmap.intensity')}</td><td><div class="value-slider" data-min="0" data-max="50" data-value="${getSetting('heatmap-intensity')}" id="heatmap-intensity"><div id="intensity-handle" class="ui-slider-handle"></div></div></td></tr>`);
 
                 // Btns
-                form.append(`<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.close')}</button></td><td><button id="heatmap_reset" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.reset')}</button></td></tr>`);
+                form.append(`<tr class="ls-heatmap-option"><td><button id="heatmap_close" class="btn btn-default btn-xs">${I18n.t('lssm.heatmap.close')}</button></td></tr>`);
 
                 $('#heatmap_close').click(() => {
                     $('#ls-heatmap-config-img').click();

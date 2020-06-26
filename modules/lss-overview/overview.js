@@ -1,6 +1,6 @@
 (($, win, I18n) => {
     const prefix = lssm.config.prefix + "_overview";
-    I18n.translations.de.lssm.overview = {
+    I18n.translations.de_DE.lssm.overview = {
         vehicleType: 'Fahrzeugtyp',
         min: 'mindest Personal',
         max: 'maximal Personal',
@@ -20,7 +20,7 @@
         wtank: 'Wassertank'
     };
 
-    I18n.translations.en.lssm.overview = {
+    I18n.translations.en_US.lssm.overview = {
         vehicleType: 'Vehicle Type',
         min: 'minimum staff',
         max: 'maximum staff',
@@ -38,10 +38,29 @@
         extensions: 'extensions',
         maxBuildins: 'building boundary'
     };
-    I18n.translations.eu.lssm.overview = {};
-    I18n.translations.fj.lssm.overview = {};
+    I18n.translations.en_AU.lssm.overview = {};
+    I18n.translations.en_GB.lssm.overview = {};
 
-    I18n.translations.es.lssm.overview = {
+    I18n.translations.sv_SE.lssm.overview = {
+        vehicleType: 'fordonstyp',
+        min: 'lägsta personal',
+        max: 'maximal personal',
+        cost: 'Pris',
+        schooling: 'Utbildning',
+        special: 'Särskild',
+        none: 'Ingen',
+        vehiclesName: 'Fordon',
+        buildingsName: 'Byggnader',
+        buildingType: 'Byggnads namn',
+        maxlevel: 'maximal expansionsnivå',
+        levelcost: 'Kostnader för utvidgningsstegen',
+        startPersonell: 'Starta personal',
+        startVehicle: 'Starta fordonet',
+        extensions: 'förlängningar',
+        maxBuildins: 'bygggräns'
+    };
+
+    I18n.translations.es_ES.lssm.overview = {
         vehicleType: 'Tipo de vehículo',
         min: 'mínimo personal',
         max: 'máximo personal',
@@ -60,25 +79,25 @@
         maxBuildins: 'límite de construcción'
     };
 
-    I18n.translations.nl.lssm.overview = {
+    I18n.translations.nl_NL.lssm.overview = {
         vehicleType: 'Type voertuig',
-        min: 'minimum personeel',
-        max: 'maximaal personeel',
+        min: 'Minimum personeel',
+        max: 'Maximaal personeel',
         cost: 'Prijs',
-        schooling: 'opleiding',
-        special: 'speciaal',
+        schooling: 'Opleiding',
+        special: 'Bijzonderheden',
         none: 'Geen',
         vehiclesName: 'Voertuigen',
         buildingsName: 'Gebouwen',
-        buildingType: 'bouwnaam',
-        maxlevel: 'maximaal uitbreidingsniveau',
+        buildingType: 'Gebouwnaam',
+        maxlevel: 'Maximaal uitbreidingsniveau',
         levelcost: 'Kosten van de uitbreidingsfasen',
         startPersonell: 'Start Personeel',
         startVehicle: 'Start voertuig',
-        extensions: 'uitbreidingen',
-        maxBuildins: 'gebouwgrens'
+        extensions: 'Uitbreidingen',
+        maxBuildins: 'Gebouwgrens'
     };
-    if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel)(\.de|\.com|\.co\.uk|\.es)\/#?$/)) {
+    if (document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|larmcentralen-spelet|meldkamerspel)(\.de|\.com|\.co\.uk|\.es|\.se)\/#?$/)) {
 
         let overviewBtn = $(
             '<a id="' + prefix + '_button" class="leaflet-bar leaflet-control leaflet-control-custom hidden-xs lssm_overview lightbox-open">' +
@@ -90,7 +109,7 @@
         return;
     }
 
-    I18n.translations.de.lssm.overview.buildings = {
+    I18n.translations.de_DE.lssm.overview.buildings = {
         lst: {
             name: 'Leitstelle',
             credits: 0,
@@ -317,7 +336,7 @@
         }
     };
 
-    I18n.translations.de.lssm.overview.hiorgs = {
+    I18n.translations.de_DE.lssm.overview.hiorgs = {
         fw: 'Feuerwehr',
         fwspecial: 'Werk-/Flughafenfeuerwehr',
         rd: 'Rettungsdienst',
@@ -330,7 +349,7 @@
         seg: 'SEG'
     };
 
-    I18n.translations.de.lssm.overview.vehicles = {
+    I18n.translations.de_DE.lssm.overview.vehicles = {
         fw: {
             lf20: {
                 name: 'LF 20',
@@ -1112,14 +1131,14 @@
         }
     };
 
-    I18n.translations.en.lssm.overview.hiorgs = {
+    I18n.translations.en_US.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter'
     };
 
-    I18n.translations.en.lssm.overview.buildings = {
+    I18n.translations.en_US.lssm.overview.buildings = {
         lst: {
             name: 'Dispatch Center',
             credits: 0,
@@ -1293,7 +1312,7 @@
         }
     };
 
-    I18n.translations.en.lssm.overview.vehicles = {
+    I18n.translations.en_US.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Type 1 Fire Engine',
@@ -1548,14 +1567,14 @@
         }
     };
 
-    I18n.translations.fj.lssm.overview.hiorgs = {
+    I18n.translations.en_GB.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter'
     };
 
-    I18n.translations.fj.lssm.overview.buildings = {
+    I18n.translations.en_GB.lssm.overview.buildings = {
         lst: {
             name: 'Dispatch Center',
             credits: 0,
@@ -1697,7 +1716,7 @@
         }
     };
 
-    I18n.translations.fj.lssm.overview.vehicles = {
+    I18n.translations.en_GB.lssm.overview.vehicles = {
         fd: {
             rl: {
                 name: 'Water Ladder',
@@ -1820,14 +1839,14 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.hiorgs = {
+    I18n.translations.en_AU.lssm.overview.hiorgs = {
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter'
     };
 
-    I18n.translations.eu.lssm.overview.buildings = {
+    I18n.translations.en_AU.lssm.overview.buildings = {
         lst: {
             name: 'Dispatch Center',
             credits: 0,
@@ -1934,7 +1953,7 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.vehicles = {
+    I18n.translations.en_AU.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Class 2 Pumper',
@@ -2023,179 +2042,179 @@
         }
     };
 
-    I18n.translations.eu.lssm.overview.hiorgs = {
-        fd: 'Fire Department',
-        rd: 'Rescue Department',
-        pol: 'Police',
+    I18n.translations.sv_SE.lssm.overview.hiorgs = {
+        fd: 'Brandstation',
+        rd: 'Rädda',
+        pol: 'Polis',
         heli: 'Helicopter'
     };
 
-    I18n.translations.eu.lssm.overview.buildings = {
+    I18n.translations.sv_SE.lssm.overview.buildings = {
         lst: {
-            name: 'Dispatch Center',
+            name: 'Larmcentral',
             credits: 0,
             coins: 0,
             maxlevel: 0,
-            levelcost: 'No expansion stages possible',
+            levelcost: 'Inga utvidgningssteg möjliga',
             startPersonell: 0,
-            startVehicle: 'No vehicles stationable',
-            extensions: 'No extensions possible',
-            maxBuildings: 'All 25 buildings one Dispatch Center',
-            special: 'The control centre is the administrative centre.'
+            startVehicle: 'Inga fordon stationära',
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Alla 25 byggnader ett utsändningscenter',
+            special: 'Kontrollcentret är det administrativa centret.'
         },
         fw: {
-            name: 'Fire Department',
+            name: 'Brandstation',
             credits: 100000,
             coins: 30,
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 10,
-            startVehicle: 'Class 2 Pumper, Class 1 Tanker',
-            extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
+            startVehicle: 'BAS 1 - Släckbil, BAS 2 - Släckbil',
+            extensions: 'Ambulans (7 Days, 100.000 Credits/20 Coins)<br>Vattenräddning (7 Days, 100.000 Credits/20 Coins)<br>Flygplats (7 Days, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
-            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
+            special: 'Från den 24: e brandstationen och framåt ökar kostnaden för att bygga en ny brandstation enligt följande formel: <code>100.000+200.000*LOG<sub>2</sub>(Antal befintliga brandstationer − 22)</code>. Myntpriset förblir konstant!'
         },
         fwklein: {
-            name: 'Fire Station (Small)',
+            name: 'Brandstation (liten)',
             credits: 50000,
             coins: 25,
             maxlevel: 5,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Conversion to Normal Guard: Difference Price to Normal Guard',
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000<br>Konvertering till Normal Guard: Skillnadspris till Normal Guard',
             startPersonell: 10,
-            startVehicle: 'Class 2 Pumper, Class 1 Tanker',
+            startVehicle: 'BAS 1 - Släckbil, BAS 2 - Släckbil',
             maxBuildings: '2.400',
-            special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>50.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. Max. 1 Million Credits. The Coins price remains constant!'
+            special: 'Från den 24: e brandstationen och framåt ökar kostnaden för att bygga en ny brandstation enligt följande formel: <code>50.000+200.000*LOG<sub>2</sub>(Antal befintliga brandstationer − 22)</code>. Max. 1 miljon krediter. Myntpriset förblir konstant!'
         },
         fwschule: {
-            name: 'Fire Academy',
+            name: 'Brandskola',
             credits: 500000,
             coins: 50,
             maxlevel: 0,
-            levelcost: 'No expansion stages possible',
+            levelcost: 'Inga utvidgningssteg möjliga',
             startPersonell: 0,
-            startVehicle: 'No vehicles stationable',
-            extensions: 'Up to 3 more Classrooms (in each case 7 Days, 400.000 Credits/40 Coins)',
-            maxBuildings: 'No limit',
-            special: 'Minister of Finance and Admins can be Allianz Fire Academys with the help of credits from the Allianz treasury (Expand) build.'
+            startVehicle: 'Inga fordon stationära',
+            extensions: 'Upp till 3 klassrum till (i båda fallen 7 dagar, 400 000 krediter / 40 mynt)',
+            maxBuildings: 'Ingen gräns',
+            special: 'Finansminister och förvaltare kan vara Allianz Fire Academies med hjälp av krediter från Allianz Treasury (Expand).'
         },
         rw: {
-            name: 'Ambulance Station',
+            name: 'Ambulansstation',
             credits: 200000,
             coins: 35,
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
-            extensions: 'No extensions possible',
-            maxBuildings: 'No Limit'
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Ingen gräns'
         },
         rwklein: {
-            name: 'Ambulance station (Small station)',
+            name: 'Ambulansstation (liten)',
             credits: 100000,
             coins: 25,
             maxlevel: 6,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
-            extensions: 'No extensions possible',
-            maxBuildings: 'No Limit'
+            extensions: 'Inga förlängningar möjliga',
+            maxBuildings: 'Ingen gräns'
         },
         kh: {
-            name: 'Hospital',
+            name: 'Sjukhus',
             credits: 200000,
             coins: 35,
             maxlevel: 20,
-            levelcost: 'in each case 19.000 Credits/11 Coins',
+            levelcost: 'i båda fallen 19.000 krediter / 11 mynt',
             startPersonell: 0,
-            startVehicle: 'No vehicles can be stationed, but 10 beds from the start',
-            extensions: 'Several specialisations (in each case 7 Days, 70.000 Credits/15 Coins,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
-            maxBuildings: 'No Limit',
-            special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
+            startVehicle: 'Inga fordon kan stationeras utan 10 bäddar från början',
+            extensions: 'Flera specialiseringar (i båda fallen 7 dagar, 70.000 krediter / 15 mynt,  General Internal and General Surgeon only 10.000 Credits/10 Coins)',
+            maxBuildings: 'Ingen gräns',
+            special: 'Finansminister och administratörer kan vara Allianz Hospital med hjälp av krediter från Allianz Treasury (Expand).'
         },
         pol: {
-            name: 'Police Station',
+            name: 'Polisstation',
             credits: 100000,
             coins: 35,
             maxlevel: 14,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
-            startVehicle: 'Police Car',
-            extensions: 'Cell (25.000 Credits)<br>Max. 10 can be built',
+            startVehicle: 'Radiobil',
+            extensions: 'Cell (25.000 krediter) <br> Max. 10 kan byggas',
             maxBuildings: '1.100',
         },
         polklein: {
-            name: 'Police Station (small station)',
+            name: 'Polisstation (liten) ',
             credits: 50000,
             coins: 25,
             maxlevel: 4,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-4. 100.000',
             startPersonell: 2,
-            startVehicle: 'Police Car',
+            startVehicle: 'Radiobill',
             maxBuildings: '1.100',
         }
     };
 
-    I18n.translations.eu.lssm.overview.vehicles = {
+    I18n.translations.sv_SE.lssm.overview.vehicles = {
         fd: {
             t1fe: {
-                name: 'Class 2 Pumper',
+                name: 'BAS 1 - Släckbil',
                 min: 1,
                 max: 6,
                 credits: 5000,
                 coins: 25
             },
             t2fe: {
-                name: 'Class 1 Tanker',
+                name: 'BAS 2 - Släckbil',
                 min: 1,
                 max: 3,
                 credits: 5000,
                 coins: 25
             },
             dlk: {
-                name: 'Turntable Ladder',
+                name: 'M32L - Stegbil',
                 min: 1,
                 max: 3,
                 credits: 10000,
                 coins: 30,
-                special: 'Required from 3 fire stations'
+                special: 'Krävs när du har byggt 3 brandstationer'
             },
             rw: {
-                name: 'Heavy Rescue',
+                name: 'Lastväxlare',
                 min: 1,
                 max: 4,
                 credits: 12180,
                 coins: 25,
-                special: 'Required from 4 fire stations'
+                special: 'Krävs när du har byggt 4 brandstationer'
             },
             elw1: {
-                name: 'Rapid Response Vehicle',
+                name: 'Befälsfordon',
                 min: 1,
                 max: 3,
                 credits: 10000,
                 coins: 25,
-                special: 'Required from 6 fire stations'
+                special: 'Krävs när du har byggt 6 brandstationer'
             },
             watertanker: {
-                name: 'Water Tanker',
+                name: 'BAS 4 - Tankbil',
                 min: 1,
                 max: 3,
                 credits: 17300,
                 coins: 25,
-                special: 'Required from 7 fire stations'
+                special: 'Krävs när du har byggt 7 brandstationer'
             },
             hazm: {
-                name: 'HAZMAT Truck',
+                name: 'Industribrandbi',
                 min: 1,
                 max: 6,
                 credits: 19200,
                 coins: 25,
                 schooling: 'Hazmat',
-                special: 'Required from 11 fire stations'
+                special: 'Krävs när du har byggt 11 brandstationer'
             },
         },
         rd: {
             rtw: {
-                name: 'Ambulance',
+                name: 'Ambulans',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -2204,7 +2223,7 @@
         },
         heli: {
             hems: {
-                name: 'Helitak',
+                name: 'Räddningshelikopter',
                 min: 1,
                 max: 1,
                 credits: 300000,
@@ -2213,7 +2232,7 @@
         },
         pol: {
             fustw: {
-                name: 'Police Car',
+                name: 'Radiobil',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -2222,14 +2241,14 @@
         }
     };
 
-    I18n.translations.es.lssm.overview.hiorgs = {
+    I18n.translations.es_ES.lssm.overview.hiorgs = {
         fd: 'Parques de bomberos',
         rd: 'Estaciones de rescate',
         pol: 'comisarías de policía',
         heli: 'Helicopter'
     };
 
-    I18n.translations.es.lssm.overview.buildings = {
+    I18n.translations.es_ES.lssm.overview.buildings = {
         lst: {
             name: 'Centralita',
             credits: 0,
@@ -2334,7 +2353,7 @@
         }
     };
 
-    I18n.translations.es.lssm.overview.vehicles = {
+    I18n.translations.es_ES.lssm.overview.vehicles = {
         fd: {
             t1fe: {
                 name: 'Camión BUP',
@@ -2421,15 +2440,17 @@
         }
     };
 
-    I18n.translations.nl.lssm.overview.hiorgs = {
+    I18n.translations.nl_NL.lssm.overview.hiorgs = {
         brand: 'Brandweer',
+        waterongeval: 'Waterongevallen',
+        vbb: 'Vliegtuigbrandbestrijding',
         ambulance: 'Ambulance',
         pol: 'Politie',
         hoofd: 'Politie hoofdbureau',
         heli: 'Helikopter'
     };
 
-    I18n.translations.nl.lssm.overview.buildings = {
+    I18n.translations.nl_NL.lssm.overview.buildings = {
         lst: {
             name: 'Meldkamer',
             credits: 0,
@@ -2439,8 +2460,8 @@
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Geen uitbreidingen mogelijk',
-            maxBuildings: 'Alle 25 gebouwen één Dispatch Center',
-            special: 'Het controlecentrum is het administratief centrum.'
+            maxBuildings: 'Voor iedere 25 gebouwen één meldkamer',
+            special: 'De meldkamer is het administratief centrum.'
         },
         fw: {
             name: 'Brandweer, Kazerne',
@@ -2450,9 +2471,9 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
             startPersonell: 10,
             startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
-            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in elk geval 7 dagen, 100.000 Credits/20 Coins)',
+            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
-            special: 'Vanaf de 24e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. The Coins price remains constant!'
+            special: 'Vanaf de 25e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
         },
         fwschule: {
             name: 'Brandweer, Academie',
@@ -2462,9 +2483,9 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
-            extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
+            extensions: 'Tot 3 extra klaslokalen (in alle gevallen 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Brandweeracademie zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Brandweeracademie met behulp van de credits van de Teamkas uitbreiden.'
         },
         rw: {
             name: 'Ambulance, standplaats',
@@ -2481,12 +2502,13 @@
             name: 'Ambulance, VWS-post',
             credits: 100000,
             coins: 25,
-            maxlevel: 2,
+            maxlevel: 1,
             levelcost: '1. 10.000',
             startPersonell: 3,
             startVehicle: 'Ambulance',
             extensions: 'Geen uitbreidingen mogelijk',
-            maxBuildings: 'Geen limiet'
+            maxBuildings: 'Geen limiet',
+            special: 'Kan worden omgebouwd tot Ambulance standplaats voor 100.000 credits. Het ombouwen duurt 24 uur.'
         },
         rwschule: {
             name: 'Universiteit Faculteit Geneeskunde',
@@ -2496,9 +2518,9 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen stationeerbaar',
-            extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
+            extensions: 'Tot 3 extra klaslokalen (in alle gevallen 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Universiteit Faculteit Geneeskunde zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Universiteit Faculteit Geneeskunde met behulp van de credits van de Teamkas uitbreiden.'
         },
         kh: {
             name: 'Ziekenhuis',
@@ -2508,21 +2530,21 @@
             levelcost: 'in elk geval 19.000 Credits/11 Coins',
             startPersonell: 0,
             startVehicle: 'Geen voertuigen kunnen worden gestationeerd, maar 10 bedden vanaf het begin',
-            extensions: 'Diverse specialisaties (in elk geval 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde and Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
+            extensions: 'Diverse specialisaties (in alle gevallen 7 Dagen, 70.000 Credits/15 Coins,  Interne Geneeskunde en Algemene Heelkunde slechts 10.000 Credits/10 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Ziekenhuis zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen het Team Ziekenhuis met behulp van de credits van de Teamkas uitbreiden.'
         },
         rth: {
             name: 'MMT Standplaats',
             credits: 1000000,
             coins: 50,
             maxlevel: 3,
-            levelcost: '1.000.000.000 Credits/50 Coins per stuk',
+            levelcost: '1. 10.000<br>2. 50.000<br>3. 100.000',
             startPersonell: 1,
             startVehicle: 'Geen startend voertuig',
             maxBuildings: 'zie speciale kenmerken',
             extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            special: 'Er kan maximaal 1 landingsplaats per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 gebouwen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         pol: {
             name: 'Politie, Opkomstbureau',
@@ -2532,8 +2554,9 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
             startVehicle: 'DA Noodhulp',
-            extensions: 'cel (25.000 Credits)<br>Max. 10 can be built',
+            extensions: 'cel (25.000 Credits)<br>Max. 10 kunnen worden gebouwd',
             maxBuildings: '1.100',
+            special: 'Vanaf het 25e opkomstbureau stijgen de kosten voor de bouw van een nieuw opkomstbureau volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal opkomstbureaus − 22)</code>. De Coins prijs blijft constant!'
         },
         polschule: {
             name: 'Politie, Academie',
@@ -2545,7 +2568,7 @@
             startVehicle: 'Geen voertuigen stationeerbaar',
             extensions: 'Tot 3 extra klaslokalen (in elk geval 7 dagen, 400.000 Credits/40 Coins)',
             maxBuildings: 'Geen limiet',
-            special: 'Minister van Financiën en Admins kunnen Allianz Fire Academys zijn met behulp van kredieten van de Allianz treasury (Expand) build.'
+            special: 'Penningmeesters en Admins kunnen de Team Politie Academie met behulp van de credits van de Teamkas uitbreiden.'
         },
         polheli: {
             name: 'Politiehelikopter standplaats',
@@ -2555,9 +2578,9 @@
             levelcost: '1.000.000.000 Credits/50 Coins per stuk',
             startPersonell: 3,
             startVehicle: 'Geen startend voertuig',
-            maxBuildings: 'zie speciale kenmerken',
+            maxBuildings: 'Zie speciale kenmerken',
             extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kunnen maximaal 4 aanlegsteigers per station (uitbreidingsstadia) worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            special: 'Er kunnen maximaal 4 landingsplaatsen per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 landingsplaatsen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
         },
         psonder: {
             name: 'Politie, Hoofdbureau',
@@ -2567,12 +2590,12 @@
             levelcost: 'Geen uitbreidingsstappen mogelijk',
             startPersonell: 1,
             startVehicle: 'OvD-P',
-            extensions: 'OvD-P (3 Dagen, 40.000 Credits/5 Coins)<br>Mobiele Eenheid, Sectie (5 Dagen, 100.000 Credits/20 Coins)<br>Levende Have (7 Dagen, 100.000 Credits/20Coins)',
+            extensions: '2de OvD-P (3 Dagen, 40.000 Credits/5 Coins)<br>Mobiele Eenheid, Sectie (5 Dagen, 100.000 Credits/20 Coins)<br>Levende Have (7 Dagen, 100.000 Credits/20Coins)<br>Arrestatieteam (5 Dagen, 200.000 Credits/20 Coins)',
             maxBuildings: 'Geen limiet'
         }
     };
 
-    I18n.translations.nl.lssm.overview.vehicles = {
+    I18n.translations.nl_NL.lssm.overview.vehicles = {
         brand: {
             siv: {
                 name: 'SIV',
@@ -2658,7 +2681,7 @@
                 max: 2,
                 credits: 19200,
                 coins: 25,
-                schooling: 'Advieseur gevaarlijke stoffen',
+                schooling: 'Adviseur Gevaarlijke Stoffen',
                 special: 'Benodigd vanaf 11 brandweerposten.'
             },
             al: {
@@ -2675,7 +2698,7 @@
                 max: 3,
                 credits: 27500,
                 coins: 25,
-                schooling: 'Brandweerchauffeur zwaar',
+                schooling: 'Brandweerchauffeur-zwaar',
                 special: 'Benodigd vanaf 14 brandweerposten.'
             },
             da: {
@@ -2703,7 +2726,7 @@
                 special: 'Benodigd vanaf 6 brandweerposten.'
             },
             dbk: {
-                name: 'DB-K',
+                name: 'Dienstbus Klein',
                 min: 1,
                 max: 9,
                 credits: 2500,
@@ -2715,7 +2738,7 @@
                 max: 3,
                 credits: 5000,
                 coins: 12,
-                schooling: 'brandweerchauffeur zwaar',
+                schooling: 'Brandweerchauffeur-zwaar',
             },
             hv: {
                 name: 'Hulpverleningsvoertuig',
@@ -2737,7 +2760,7 @@
             sl: {
                 name: 'Slangenwagen',
                 min: 1,
-                max: 3,
+                max: 9,
                 credits: 17300,
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
@@ -2747,7 +2770,8 @@
                 min: 1,
                 max: 3,
                 credits: 17000,
-                coins: 25
+                coins: 25,
+                special: 'Benodigd vanaf 7 brandweerposten.'
             },
             pmwvd: {
                 name: 'Waarschuwings- en Verkenningsdienst',
@@ -2797,14 +2821,25 @@
                 credits: 6000,
                 coins: 12,
                 special: 'Haakarmvoertuig benodigd'
-            },
+            },            
+            davl: {
+                name: 'Dienstauto Voorlichter',
+                min: 1,
+                max: 1,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Voorlichter',
+                special: 'Benodigd vanaf 14 brandweerposten.'
+            }
+        },
+        waterongeval: {
             wo: {
                 name: 'Waterongevallenvoertuig',
                 min: 4,
                 max: 6,
                 credits: 10000,
                 coins: 25,
-                schooling: 'duiker / duikploegleider'
+                schooling: 'Duiker / Duikploegleider'
             },
             woa: {
                 name: 'Waterongevallen aanhanger',
@@ -2820,7 +2855,7 @@
                 max: 9,
                 credits: 10000,
                 coins: 25,
-                schooling: 'oppervlakteredder'
+                schooling: 'Oppervlakteredder'
             },
             tsor: {
                 name: 'TS-OR | Tankautospuit - Oppervlakteredding',
@@ -2828,7 +2863,41 @@
                 max: 9,
                 credits: 10000,
                 coins: 25,
-                schooling: 'oppervlakteredder'
+                schooling: 'Oppervlakteredder'
+            }
+        },
+        vbb: {
+            ct4: {
+                name: 'Crashtender (4x4)',
+                min: 2,
+                max: 3,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+           ct6: {
+                name: 'Crashtender (6x6)',
+                min: 2,
+                max: 3,
+                credits: 40000,
+                coins: 25,
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+            ct8: {
+                name: 'Crashtender (8x8)',
+                min: 2,
+                max: 3,
+                credits: 60000,
+                coins: 25,
+                schooling: 'Vliegtuigbrandbestrijding'
+            },
+            afo: {
+                name: 'Airport Fire Officer / On Scene Commander',
+                min: 1,
+                max: 2,
+                credits: 12000,
+                coins: 25,
+                schooling: 'Airport Fire Officer / On Scene Commander'
             }
         },
         ambulance: {
@@ -2848,7 +2917,7 @@
                 schooling: 'MMT-Bemanningslid'
             },
             bambulance: {
-                name: 'B-ambulance',
+                name: 'Zorgambulance',
                 min: 1,
                 max: 2,
                 credits: 5000,
@@ -2861,7 +2930,16 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Officier van Dienst Geneeskunde',
-                special: 'Kan optreden vanaf de 8e bewaker of extensie'
+                special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding'
+            },
+            ovdgrr: {
+                name: 'Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
+                min: 1,
+                max: 1,
+                credits: 25000,
+                coins: 25,
+                schooling: 'Officier van Dienst Geneeskunde',
+                special: 'Per 10 Ambulanceposten (Standplaatsen en VWS-posten) kan één OVDG-RR gekocht worden'
             },
             rr: {
                 name: 'Rapid Responder',
@@ -2869,7 +2947,7 @@
                 max: 1,
                 credits: 2500,
                 coins: 18
-            },
+            }
         },
         pol: {
             fustw: {
@@ -2901,7 +2979,7 @@
                 max: 1,
                 credits: 10000,
                 coins: 25,
-                schooling: 'officier van dienst - politie'
+                schooling: 'Officier van Dienst - politie'
             },
             mefl: {
                 name: 'ME Flexbus',
@@ -2924,6 +3002,7 @@
                 min: 1,
                 max: 2,
                 credits: 8000,
+                coins: 25,
                 schooling: 'Hondengeleider'
             },
             dbhg: {
@@ -2931,8 +3010,33 @@
                 min: 1,
                 max: 2,
                 credits: 10000,
+                coins: 25,
                 schooling: 'Hondengeleider'
-            }
+            },
+            ATO: {
+                name: 'AT-Operator',
+                min: 2,
+                max: 4,
+                credits: 10000,
+                coins: 25,
+                schooling: 'Operator AT'
+            },
+            ATC: {
+                name: 'AT-Commandant',
+                min: 1,
+                max: 2,
+                credits: 10000,
+                coins: 25,
+                schooling: 'Operator AT'
+            },
+            ATM: {
+                name: 'AT-Materiaalwagen',
+                min: 1,
+                max: 2,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Operator AT'
+            }                
         },
         heli: {
             rth: {
@@ -2980,25 +3084,25 @@
 
             $('#' + hiorg).append('<input type="text" class="search_input_field pull-right" id="search_' + hiorg + '">');
 
-            if (I18n.locale === "de") {
+            if (I18n.locale === "de_DE") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
-            } else if (I18n.locale === "en") {
+            } else if (I18n.locale === "en_US") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
-            } else if (I18n.locale === "fj") {
+            } else if (I18n.locale === "en_GB") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
-            } else if (I18n.locale === "nl") {
+            } else if (I18n.locale === "nl_NL") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
             }
 
             for (let vehicle in I18n.t('lssm.overview.vehicles')[hiorg]) {
                 vehicle = I18n.t('lssm.overview.vehicles')[hiorg][vehicle];
-                if (I18n.locale === "de") {
+                if (I18n.locale === "de_DE") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
-                } else if (I18n.locale === "en") {
+                } else if (I18n.locale === "en_US") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
-                } else if (I18n.locale === "fj") {
+                } else if (I18n.locale === "en_GB") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
-                } else if (I18n.locale === "nl") {
+                } else if (I18n.locale === "nl_NL") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 }
             }
