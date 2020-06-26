@@ -2571,5 +2571,132 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "118": {
+        "id": 118,
+        "name": "Insola\u00e7\u00e3o",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de ambul\u00e2ncia",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
+            "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "Golpe de calor",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de ambul\u00e2ncia",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
+            "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "C\u00e3ibra por calor",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de ambul\u00e2ncia",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
+            "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "121": {
+        "id": 121,
+        "name": "Pessoa desidratada",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de ambul\u00e2ncia",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
+            "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "122": {
+        "id": 122,
+        "name": "Inc\u00eandio de churrasco",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Unidade do corpo de bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
+            "date_end": "Qui, 01 Out 2020 00:00:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

@@ -14973,5 +14973,132 @@
             "bereitschaftspolizei": 1,
             "fire_stations": 3
         }
+    },
+    "617": {
+        "id": 617,
+        "name": "Zonnesteek",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "618": {
+        "id": 618,
+        "name": "Hitteslag",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "619": {
+        "id": 619,
+        "name": "Hittekramp",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "620": {
+        "id": 620,
+        "name": "Uitgedroogde persoon",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "621": {
+        "id": 621,
+        "name": "Barbecuebrand",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "vrij 26 jun 2020 10:00:00 CEST",
+            "date_end": "do 01 okt 2020 00:00:00 CEST"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

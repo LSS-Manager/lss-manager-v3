@@ -3542,5 +3542,132 @@
             "rescue_stations": 1,
             "fire_stations": 6
         }
+    },
+    "169": {
+        "id": 169,
+        "name": "Insolation",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "Coup de chaleur",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Crampe de chaleur",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Personne d\u00e9shydrat\u00e9e",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Incendie de barbecue",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

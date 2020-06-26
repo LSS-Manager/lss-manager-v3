@@ -3233,5 +3233,132 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "162": {
+        "id": 162,
+        "name": "\u0421\u043e\u043b\u043d\u0435\u0447\u043d\u044b\u0439 \u0443\u0434\u0430\u0440",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u041f\u0442, 26 \u0418\u044e\u043d 2020 10:00:00 +0300",
+            "date_end": "\u0427\u0442, 01 \u041e\u043a\u0442 2020 00:00:00 +0300",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "\u0422\u0435\u043f\u043b\u043e\u0432\u043e\u0439 \u0443\u0434\u0430\u0440",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u041f\u0442, 26 \u0418\u044e\u043d 2020 10:00:00 +0300",
+            "date_end": "\u0427\u0442, 01 \u041e\u043a\u0442 2020 00:00:00 +0300",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "\u0422\u0435\u043f\u043b\u043e\u0432\u044b\u0435 \u0441\u0443\u0434\u043e\u0440\u043e\u0433\u0438",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u041f\u0442, 26 \u0418\u044e\u043d 2020 10:00:00 +0300",
+            "date_end": "\u0427\u0442, 01 \u041e\u043a\u0442 2020 00:00:00 +0300",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "165": {
+        "id": 165,
+        "name": "\u041e\u0431\u0435\u0437\u0432\u043e\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0430",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u0421\u0442\u0430\u043d\u0446\u0438\u044f \u0441\u043a\u043e\u0440\u043e\u0439 \u043f\u043e\u043c\u043e\u0449\u0438",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "\u041f\u0442, 26 \u0418\u044e\u043d 2020 10:00:00 +0300",
+            "date_end": "\u0427\u0442, 01 \u041e\u043a\u0442 2020 00:00:00 +0300",
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "\u0412\u043e\u0437\u0433\u043e\u0440\u0430\u043d\u0438\u0435 \u0433\u0440\u0438\u043b\u044f",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\u041f\u043e\u0436\u0430\u0440\u043d\u0430\u044f \u0441\u0442\u0430\u043d\u0446\u0438\u044f",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "\u041f\u0442, 26 \u0418\u044e\u043d 2020 10:00:00 +0300",
+            "date_end": "\u0427\u0442, 01 \u041e\u043a\u0442 2020 00:00:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

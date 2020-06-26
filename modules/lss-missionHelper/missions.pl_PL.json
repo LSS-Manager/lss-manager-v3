@@ -4263,5 +4263,132 @@
             "police_stations": 3,
             "fire_stations": 5
         }
+    },
+    "205": {
+        "id": 205,
+        "name": "Pora\u017cenie s\u0142oneczne",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Udar cieplny",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Kurcze cieplne",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "208": {
+        "id": 208,
+        "name": "Odwodniona osoba",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "209": {
+        "id": 209,
+        "name": "Po\u017car podczas grilla",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "Pt, 26 Cze 2020 10:00:00 +0200",
+            "date_end": "Cz, 01 Pa\u017a 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }
