@@ -1,22 +1,61 @@
 (function ($, win, I18n) {
     const lsName = `${lssm.config.prefix}_missionOut`;
 
-    I18n.translations.de.lssm.missionOut = {
+    I18n.translations.de_DE.lssm.missionOut = {
         title: 'Einsatz aus/ein-blenden'
     };
-    I18n.translations.en.lssm.missionOut = {
+    I18n.translations.en_US.lssm.missionOut = {
         title: 'Hide/Show mission'
     };
-    I18n.translations.fj.lssm.missionOut = {
-        title: 'Hide/Show mission'
+    I18n.translations.cs_CZ.lssm.missionOut = {
+        title: 'Skrýt / Zobrazit misi'
     };
-    I18n.translations.eu.lssm.missionOut = {
-        title: 'Hide/Show mission'
+    I18n.translations.pl_PL.lssm.missionOut = {
+        title: 'Misja ukrycia/pokazania'
     };
-    I18n.translations.es.lssm.missionOut = {
+    I18n.translations.sv_SE.lssm.missionOut = {
+        title: 'Dölj / Visa uppdrag'
+    };
+    I18n.translations.da_DK.lssm.missionOut = {
+        title: 'Skjul / vis mission'
+    };
+    I18n.translations.nb_NO.lssm.missionOut = {
+        title: 'Skjul / vis misjon'
+    };
+    I18n.translations.it_IT.lssm.missionOut = {
+        title: 'Nascondi/Mostra missione'
+    };
+    I18n.translations.tr_TR.lssm.missionOut = {
+        title: 'Görevi Gizle/Göster'
+    };
+    I18n.translations.fr_FR.lssm.missionOut = {
+        title: 'Masquer/afficher la mission'
+    };
+    I18n.translations.ru_RU.lssm.missionOut = {
+        title: 'Скрыть / Показать миссию'
+    };
+    I18n.translations.uk_UA.lssm.missionOut = {
+        title: 'Сховати / показати місію'
+    };
+    I18n.translations.es_ES.lssm.missionOut = {
         title: 'Ocultar/Mostrar misión'
     };
-    I18n.translations.nl.lssm.missionOut = {
+    I18n.translations.pt_PT.lssm.missionOut = {
+        title: 'Ocultar / Mostrar missão'
+    };
+    I18n.translations.ja_JP.lssm.missionOut = {
+        title: 'ミッションの非表示/表示'
+    };
+    I18n.translations.ko_KR.lssm.missionOut = {
+        title: '미션 숨기기 / 보이기'
+    };
+    I18n.translations.ro_RO.lssm.missionOut = {
+        title: 'Ascundere/Afișare misiune'
+    };
+    I18n.translations.fi_FI.lssm.missionOut = {
+        title: 'Piilota / Näytä tehtävä'
+    };
+    I18n.translations.nl_NL.lssm.missionOut = {
         title: 'Verberg/toon melding'
     };
 

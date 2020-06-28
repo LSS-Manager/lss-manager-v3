@@ -1,4 +1,4 @@
-I18n.translations.de['lssm']['dashboard'] = {
+I18n.translations.de_DE['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Fahrzeuge",
@@ -23,12 +23,12 @@ I18n.translations.de['lssm']['dashboard'] = {
     carswp: 'FAHRZEUGE',
     patiwp: 'PATIENTEN',
     levwp: 'STUFE',
-    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei'],
-    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg', 'bepo'],
+    categories: ['Feuerwehr', 'Rettungsdienst', 'Polizei', 'THW', 'Krankenhaus', 'Wasserrettung', 'SEG', 'Bereitschaftspolizei', 'Rettungshundestaffel'],
+    categories_data: ['fw', 'rd', 'pol', 'thw', 'kh', 'wret', 'seg', 'bepo', 'rhs'],
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'thw_school'],
     nofz: "Keine Fahrzeuge vorhanden",
 }
-I18n.translations.en['lssm']['dashboard'] = {
+I18n.translations.en_US['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",
@@ -58,7 +58,7 @@ I18n.translations.en['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.fj['lssm']['dashboard'] = {
+I18n.translations.en_GB['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",
@@ -88,7 +88,7 @@ I18n.translations.fj['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.eu['lssm']['dashboard'] = {
+I18n.translations.en_AU['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Vehicles",
@@ -118,7 +118,127 @@ I18n.translations.eu['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.es['lssm']['dashboard'] = {
+I18n.translations.cs_CZ['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.sv_SE['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "fordon",
+        type: "Fordonstyp",
+        available: "Tillgängligt",
+        onsite: "På plats",
+        request: "Begäran",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Summa",
+    overview: "Översikt",
+    distribution: "Distribution",
+    station_plan: "Stationsplanering",
+    loading: "Dashboard laddas",
+    ge: 'Byggnader',
+    school: 'skolor',
+    wachen: 'Station',
+    other: 'Andra',
+    anz: 'Belopp',
+    perwp: 'ANSTÄLLD',
+    carswp: 'BILAR',
+    patiwp: 'PATIENTER',
+    levwp: 'NIVÅ',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.da_DK['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.nb_NO['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.es_ES['lssm']['dashboard'] = {
     name: "Tablero de mandos",
     vehicles: {
         name: "Vehículos",
@@ -148,7 +268,307 @@ I18n.translations.es['lssm']['dashboard'] = {
     categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
     nofz: "No vehicles found",
 }
-I18n.translations.nl['lssm']['dashboard'] = {
+I18n.translations.it_IT['lssm']['dashboard'] = {
+    name: "Cruscotto",
+    vehicles: {
+        name: "Veicoli",
+        type: "Tipo di veicolo",
+        available: "Disponibile",
+        onsite: "In loco",
+        request: "Richiesta",
+        transport: "Trasporto",
+        fms6: "Non disponibile",
+    },
+    total: "Somma",
+    overview: "Panoramica",
+    distribution: "Distribuzione",
+    station_plan: "Postazioni",
+    loading: "Il cruscotto si sta caricando",
+    ge: 'Edifici',
+    school: 'Scuole',
+    wachen: 'Postazioni',
+    other: 'Altro',
+    anz: 'Quantità',
+    perwp: 'PERSONALE',
+    carswp: 'VEICOLI',
+    patiwp: 'PAZIENTI',
+    levwp: 'LIVELLO',
+    categories: ['Pompieri', 'Ambulanze', 'Polizia', 'Ospedali'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "Nessun veicolo trovato",
+}
+I18n.translations.fr_FR['lssm']['dashboard'] = {
+    name: "Tableau de bord",
+    vehicles: {
+        name: "Véhicules",
+        type: "Type de véhicule",
+        available: "Disponible",
+        onsite: "Sur place",
+        request: "Demande",
+        transport: "Transport",
+        fms6: "Statut 6",
+    },
+    total: "Somme",
+    overview: "Vue d'ensemble",
+    distribution: "Distribution",
+    station_plan: "Planification des stations",
+    loading: "Le tableau de bord se charge",
+    ge: 'Bâtiments',
+    school: 'Écoles',
+    wachen: 'Gare',
+    other: 'Autre',
+    anz: 'Montant',
+    perwp: 'EMPLOYÉ',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'NIVEAU',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "Aucun véhicule trouvé",
+}
+I18n.translations.tr_TR['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.pt_PT['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.ru_RU['lssm']['dashboard'] = {
+    name: "Приборная панель",
+    vehicles: {
+        name: "Транспортные средства",
+        type: "Тип транспортного средства",
+        available: "В наличии",
+        onsite: "На сайте",
+        request: "Запрос",
+        transport: "Транспорт",
+        fms6: "Статус 6",
+    },
+    total: "Сумма",
+    overview: "Обзор",
+    distribution: "Распределение",
+    station_plan: "Планирование станции",
+    loading: "Приборная панель загружается",
+    ge: 'Здания',
+    school: 'Школы',
+    wachen: 'Вокзал',
+    other: 'Другое',
+    anz: 'Сумма',
+    perwp: 'ЭМПЛОИЯ',
+    carswp: 'САРС',
+    patiwp: 'ПАТИЕНТЫ',
+    levwp: 'ЛЕВЕЛЬ',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "Транспортные средства не найдены",
+}
+I18n.translations.uk_UA['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.ja_JP['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.ko_KR['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.ro_RO['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.fi_FI['lssm']['dashboard'] = {
+    name: "Dashboard",
+    vehicles: {
+        name: "Vehicles",
+        type: "Vehicle type",
+        available: "Available",
+        onsite: "On Site",
+        request: "Request",
+        transport: "Transport",
+        fms6: "Status 6",
+    },
+    total: "Sum",
+    overview: "Overview",
+    distribution: "Distribution",
+    station_plan: "Station planning",
+    loading: "Dashboard is loading",
+    ge: 'Buildings',
+    school: 'Schools',
+    wachen: 'Station',
+    other: 'Other',
+    anz: 'Amount',
+    perwp: 'EMPLOYEE',
+    carswp: 'CARS',
+    patiwp: 'PATIENTS',
+    levwp: 'LEVEL',
+    categories: ['Fire Stations', 'Rescue Stations', 'Police Stations', 'Hospitals'],
+    categories_data: ['fw', 'rd', 'pol', 'kh'],
+    categories_data_school: ['fw_school', 'rd_school', 'pol_school', 'kh_clinic'],
+    nofz: "No vehicles found",
+}
+I18n.translations.nl_NL['lssm']['dashboard'] = {
     name: "Dashboard",
     vehicles: {
         name: "Voertuigen",
@@ -190,7 +610,22 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
 (function ($, I18n) {
     function loadGraphs() {
         // Building Bar Chart
-        let building_amount = { 'fw': 0, 'fw_school': 0, 'rd': 0, 'rd_school': 0, 'pol': 0, 'pol_school': 0, 'thw': 0, 'thw_school': 0, 'kh': 0, 'kh_clinic': 0, 'wret': 0, 'seg': 0, 'bepo': 0 };
+        let building_amount = {
+            'fw': 0,
+            'fw_school': 0,
+            'rd': 0,
+            'rd_school': 0,
+            'pol': 0,
+            'pol_school': 0,
+            'thw': 0,
+            'thw_school': 0,
+            'kh': 0,
+            'kh_clinic': 0,
+            'wret': 0,
+            'seg': 0,
+            'bepo': 0,
+            'rhs': 0
+        };
         $.each(lssm.buildings, function (key, build) {
             switch (build.building_type) {
                 //Feuerwehr
@@ -238,8 +673,13 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_SEG:
                     building_amount.seg += 1;
                     break;
+                //BPol
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                     building_amount.bepo += 1;
+                    break;
+                //RHS
+                case BUILDING_TYPE_RESCUE_DOG_UNIT:
+                    building_amount.rhs += 1;
                     break;
             }
         });
@@ -254,12 +694,26 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             data_school.push(building_amount[ds[i]]);
         }
         $('#buildings_chart').highcharts({
-            chart: { type: 'column', backgroundColor: 'rgba(0,0,0,0)', height: '200' },
-            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow', 'darkgreen'],
-            title: { text: I18n.t('lssm.dashboard.ge') },
-            xAxis: { categories: I18n.t('lssm.dashboard.categories') },
-            yAxis: { title: { text: I18n.t('lssm.dashboard.anz') } },
-            legend: { enabled: false },
+            chart: {
+                type: 'column',
+                backgroundColor: 'rgba(0,0,0,0)',
+                height: '200'
+            },
+            colors: ["red", "orange", "green", "blue", "gold", 'black', 'yellow', 'darkgreen', 'purple'],
+            title: {
+                text: I18n.t('lssm.dashboard.ge')
+            },
+            xAxis: {
+                categories: I18n.t('lssm.dashboard.categories')
+            },
+            yAxis: {
+                title: {
+                    text: I18n.t('lssm.dashboard.anz')
+                }
+            },
+            legend: {
+                enabled: false
+            },
             series: [{
                 name: I18n.t('lssm.dashboard.wachen'),
                 colorByPoint: true,
@@ -269,15 +723,31 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 name: I18n.t('lssm.dashboard.school') + '/' + I18n.t('lssm.dashboard.ge'),
                 colorByPoint: true,
                 data: data_school
-            }]
+            }
+            ]
         });
         // Car-Donut-Charts
-        let cars = [
-            { 'data': [], 'total': 0 },
-            { 'data': [], 'total': 0 },
-            { 'data': [], 'total': 0 },
-            { 'data': [], 'total': 0 },
-            { 'data': [], 'total': 0 }];
+        let cars = [{
+            'data': [],
+            'total': 0
+        },
+        {
+            'data': [],
+            'total': 0
+        },
+        {
+            'data': [],
+            'total': 0
+        },
+        {
+            'data': [],
+            'total': 0
+        },
+        {
+            'data': [],
+            'total': 0
+        }
+        ];
         // Go through all cars and put them where they belong
         $.each(lssm.car_list_all(), function (key, veh) {
             let c = ["Undefined", 0];
@@ -288,7 +758,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 if (typeof (cars[c[1]].data[veh.type]) !== 'undefined') {
                     cars[c[1]].data[veh.type].y += 1;
                 } else {
-                    cars[c[1]].data[veh.type] = { name: c[0], y: 1 };
+                    cars[c[1]].data[veh.type] = {
+                        name: c[0],
+                        y: 1
+                    };
                 }
             }
         });
@@ -296,17 +769,33 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         function gr(k) {
             return (k != "" && k != null);
         }
-        let divs = [['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]], ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]], ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]], ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#0080FF", "#2E64FE", "#5578F7", "#5882FA", "#58ACFA", "#2ECCFA", "#002FA7"]], ["#wret-ges", "#wret-fz", ["#636363", "#848484", "#7C7C7C"]]];
+        let divs = [
+            ['#ff-ges', "#ff-fz", ["#701C1C", "#800000", "#A40000", "#B31B1B", "#B22222", "#CC0000", "#CE1620", "#D73B3E", "#E34234", "#CD5C5C", "#FF0000", "#FF0800", "#FF1C00", "#FF5C5C", "#FF6961"]],
+            ["#rd-ges", "#rd-fz", ["#f9690e", "#f9bf3b", "#d35400"]],
+            ["#pol-ges", "#pol-fz", ["#87d37c", "#65c6bb", "#16a085", "#019875", "#36d7b7"]],
+            ["#thw-ges", "#thw-fz", ["#002366", "#191970", "#00008B", "#00009C", "#002FA7", "#0000FF", "#0080FF", "#2E64FE", "#5578F7", "#5882FA", "#58ACFA", "#2ECCFA", "#002FA7"]],
+            ["#wret-ges", "#wret-fz", ["#636363", "#848484", "#7C7C7C"]]
+        ];
         for (let i = 0; i < 5; i++) {
             cars[i].data = $.grep(cars[i].data, gr);
             if (cars[i].total > 0) {
                 $(divs[i][1]).highcharts({
-                    chart: { backgroundColor: "rgba(0,0,0,0)", plotBorderWidth: 0, plotShadow: false },
-                    title: { text: '' },
-                    tooltip: { pointFormat: '<b>{series.name}: <b>{point.y}</b>' },
+                    chart: {
+                        backgroundColor: "rgba(0,0,0,0)",
+                        plotBorderWidth: 0,
+                        plotShadow: false
+                    },
+                    title: {
+                        text: ''
+                    },
+                    tooltip: {
+                        pointFormat: '<b>{series.name}: <b>{point.y}</b>'
+                    },
                     plotOptions: {
                         pie: {
-                            dataLabels: { enabled: false },
+                            dataLabels: {
+                                enabled: false
+                            },
                             center: ['50%', '50%']
                         }
                     },
@@ -323,6 +812,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 $(divs[i][1]).html('<div class="alert alert-danger">' + I18n.t('lssm.dashboard.nofz') + '</div>');
         }
     }
+
     function load_build_planning() {
         $.each(lssm.buildings, function (i, building) {
             let appendto = "son",
@@ -372,6 +862,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     icon = "fa-ambulance";
                     maxcars = 9;
                     break;
+                case BUILDING_TYPE_RESCUE_DOG_UNIT:
+                    appendto = "rd";
+                    icon = "fa-search";
+                    break;
                 case BUILDING_TYPE_POLIZEIWACHE:
                 case BUILDING_TYPE_BEREITSCHAFTSPOLIZEI:
                 case BUILDING_TYPE_POLIZEISONDEREINHEITEN:
@@ -395,11 +889,11 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $.each(vehicles, function (k, car) {
                 printcars +=
                     '<div id="db_veh_' + car.id + '">' +
-                    '<span class="building_list_fms building_list_fms_' + car.fms_real + ' lssm-wp-fz--fms">'
-                    + car.fms_show +
+                    '<span class="building_list_fms building_list_fms_' + car.fms_real + ' lssm-wp-fz--fms">' +
+                    car.fms_show +
                     '</span>' +
-                    '<a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms lssm-wp-fz--fms-vehicle">'
-                    + car.name +
+                    '<a href="/vehicles/' + car.id + '" class="lightbox-open building_list_fms lssm-wp-fz--fms-vehicle">' +
+                    car.name +
                     '</a>' +
                     '</div>';
             });
@@ -437,7 +931,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 bd_data +=
                     '<span class="label label-primary">' +
                     '<i class="glyphicon glyphicon-home"></i> ' +
-                    '<span>' + maxcars*-1 + ' </span>' +
+                    '<span>' + maxcars * -1 + ' </span>' +
                     I18n.t('lssm.dashboard.patiwp') +
                     '</span>';
             bd_data += '\
@@ -468,13 +962,27 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
         let c_table = $("#db_fzg_outer table tbody")
         c_table.html("");
         let cars = {};
-        let total = { 'free': 0, 'miss': 0, 'fms5': 0, 'transport': 0, 'fms6': 0, 'sum': 0 };
+        let total = {
+            'free': 0,
+            'miss': 0,
+            'fms5': 0,
+            'transport': 0,
+            'fms6': 0,
+            'sum': 0
+        };
         $.each(lssm.car_list_all(), function (key, veh) {
             let type = 0
             if (veh.type in lssm.carsById)
                 type = lssm.carsById[veh.type][0];
             if (typeof cars[type] == 'undefined') {
-                cars[type] = { 'free': 0, 'miss': 0, 'fms5': 0, 'transport': 0, 'fms6': 0, 'sum': 0 };
+                cars[type] = {
+                    'free': 0,
+                    'miss': 0,
+                    'fms5': 0,
+                    'transport': 0,
+                    'fms6': 0,
+                    'sum': 0
+                };
             }
             switch (veh.fms_real) {
                 case 3:
@@ -557,8 +1065,10 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
     }
     // Suche nach Wache/Fahrzeug
     let searchby = "wache";
+
     function wp_suche() {
-        let val = $("#wp_search").val(), elements = $("#db_wachen_outer .db_wachen_item");
+        let val = $("#wp_search").val(),
+            elements = $("#db_wachen_outer .db_wachen_item");
         if (val.length > 0) {
             if (searchby === "wache") {
                 elements.find(".panel-title:not(:conaintsci('" + val + "'))").closest(".db_wachen_item").fadeOut();
@@ -605,10 +1115,12 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             wp_suche();
         });
     }
+
     function closeDashboard() {
         $(document).unbind(lssm.hook.postname("lightboxClose"), closeDashboard)
         $("#" + prefix).remove();
     }
+
     function loadDashboard() {
         $(document).bind(lssm.hook.prename("lightboxClose"), closeDashboard);
         $.get(lssm.getlink("/modules/lss-dashboard/dashboard.html"), function (data) {
@@ -625,7 +1137,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
             $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_fw">' + I18n.t('lssm.dashboard.categories')[0] + '</a>')
                 .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_rd">' + I18n.t('lssm.dashboard.categories')[1] + '</a>')
                 .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_pol">' + I18n.t('lssm.dashboard.categories')[2] + '</a>');
-            if (I18n.locale == "de")
+            if (I18n.locale == "de_DE")
                 $('#wp_sub').append('<a class="btn btn-sm btn-default" href="#" id="wp_a_thw">THW</a>')
                     .append('<a class="btn btn-sm btn-default" href="#" id="wp_a_wret">Wasser</a>')
             $("#wp_sub").append('<a class="btn btn-sm btn-default" href="#" id="wp_a_sch">' + I18n.t('lssm.dashboard.school') + '</a>')

@@ -16,7 +16,7 @@
       '#missions strong{display:none!important}'+
       '#missions .btn-group{margin-left:11px}'+
       '#buildings_outer,#chat_outer,#radio_outer{margin-left:5px}'+
-      '#btn-alliance-new-mission{margin-bottom:0!important}'+
+      '#btn-alliance-new-event{margin-bottom:0!important}'+
       '.alliance_true .btn-group{float:right}'+
       '#chat_outer{padding:0}'+
       '#radio_outer{width:calc(16.66666667% - 40px)}'+
@@ -29,7 +29,7 @@
       '</style>'
     );
 
-    $('#btn-alliance-new-mission').parent().detach().insertAfter('#missions .btn-group').addClass('pull-right');
+    $('#btn-alliance-new-event').parent().detach().insertAfter('#missions .btn-group').addClass('pull-right');
 
     $('#missions_outer, #buildings_outer, #radio_outer, #chat_outer').removeClass('col-sm-4');
     $('#missions_outer').addClass('col-md-8');
@@ -37,6 +37,7 @@
     $('#chat_outer').addClass('col-sm-3');
     $('#radio_outer').addClass('col-md-2');
     $('#eventInfo').prependTo('#content');
+    $('#missions-panel-body > div:nth-child(6), #missions-panel-body > div:nth-child(7),#missions-panel-body > div:nth-child(8)').remove();
     if ("undefined" != typeof mapkit) {
     } else
     map.invalidateSize(true);

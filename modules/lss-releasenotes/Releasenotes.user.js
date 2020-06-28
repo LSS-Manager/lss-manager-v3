@@ -5,26 +5,19 @@
 
     let NUM_NOTES = 1;
 
-    I18n.translations.de['lssm']['releasenotes'] = {
+    I18n.translations.de_DE['lssm']['releasenotes'] = {
         title: "Neuerungen",
         close: "Cool!",
         errorloading: "Fehler beim Laden der Releasenotes.",
         link_caption: "Release Notes"
     };
-
-    I18n.translations.en['lssm']['releasenotes'] = {
+    I18n.translations.en_US['lssm']['releasenotes'] = {
         title: "New",
         close: "Cool!",
         errorloading: "Error loading Releasenotes.",
         link_caption: "Release Notes"
     };
-    I18n.translations.fj['lssm']['releasenotes'] = {
-        title: "New",
-        close: "Cool!",
-        errorloading: "Error loading Releasenotes.",
-        link_caption: "Release Notes"
-    };
-    I18n.translations.nl['lssm']['releasenotes'] = {
+    I18n.translations.nl_NL['lssm']['releasenotes'] = {
         title: "Updates",
         close: "Cool!",
         errorloading: "Fout bij het laden van de releasenote.",

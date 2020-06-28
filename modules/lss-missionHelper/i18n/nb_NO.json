@@ -1,0 +1,96 @@
+{
+    "diy_mission": "Dette oppdraget ser ut til å være et allianseoppdrag i stor skala.",
+    "guard_mission": "Planlagt oppdrag",
+    "vge": "Alliansemisjon i stor skala",
+    "patients": "Pasienter",
+    "prisoners": "innsatte",
+    "to": "opp til",
+    "exp": "Spre",
+    "SWATPersonnel": "Nødvendig delta-personell",
+    "ambulance_only": "Dette oppdraget er kun ambulanse!",
+    "title": "Missionhelper",
+    "transport": "Transportere",
+    "allow_rw_instead_of_lf": "Dette oppdraget kan også utføres med en tung redning i stedet for en ildsted",
+    "settings": {
+        "name": {
+            "label": "Navn",
+            "description": "Viser navnet på oppdraget i hjelperen."
+        },
+        "id": {
+            "label": "ID",
+            "description": "Viser IDen til oppdraget i hjelperen."
+        },
+        "type": {
+            "label": "TYP-ID",
+            "description": "Viser ID for oppdragstypen i hjelperen."
+        },
+        "poi": {
+            "label": "POI",
+            "description": "Indikerer i hjelperen hvilken POI operasjonen er på."
+        },
+        "live_patients": {
+            "label": "Antall pasienter",
+            "description": "Viser hvor mange pasienter som er i bruk."
+        },
+        "vehicles": {
+            "label": "kjøretøy",
+            "description": "Viser de nødvendige kjøretøyene."
+        },
+        "patients": {
+            "label": "pasientinformasjon",
+            "description": "Viser informasjon om (potensielle) pasienter."
+        },
+        "prisoners": {
+            "label": "fangeinformasjon",
+            "description": "Viser informasjon om (potensielle) fanger."
+        },
+        "special": {
+            "label": "Annen informasjon",
+            "description": "Viser spesiell informasjon, for eksempel gjennomsnittlig minimum antall ansatte som kreves."
+        },
+        "expansions": {
+            "label": "distribusjoner",
+            "description": "Viser hva innsatsen kan spre seg til. (Viser bare enkel oppslag)"
+        },
+        "show_100": {
+            "label": "Vis 100% sannsynlighet",
+            "description": "Viser sannsynligheten for et kjøretøy selv om det er 100%."
+        },
+        "lfrw": {
+            "label": "Vis om Heavy Rescue kan behandle oppdraget",
+            "description": "Viser en melding i oppdraget om den også kan behandles med en tung redning i stedet for en brannbil."
+        },
+        "credits": {
+            "label": "Gjennomsnittlig inntjening",
+            "description": "Viser gjennomsnittlig inntjening du får for denne oppgaven."
+        },
+        "show_siwa": {
+            "label": "Krav til sikkerhetsvakter",
+            "description": "Viser også kravene til sikkerhetsvakter i hjelperen."
+        },
+        "mission_time": {
+            "label": "Opprettingstid",
+            "description": "Viser dato og klokkeslett da oppdraget ble opprettet."
+        }
+    },
+    "requirements": {
+        "firetrucks": "Brannbiler",
+        "platform_trucks": "høyderedskap",
+        "heavy_rescue_vehicles": "redningsbiler",
+        "mobile_air_vehicles": "røykdykkere",
+        "battalion_chief_vehicles": "Bataljonsjefbil",
+        "water_tankers": "tankbiler",
+        "hazmat_vehicles": "CBRN",
+        "mobile_command_vehicles": "utryckningsfordon",
+        "police_cars": "politibiler",
+        "ambulances": "Ambulans",
+        "arff": "brann- og redningstjeneste for fly",
+        "k9": "Hundepatrulje",
+        "pmotorcycle": "Politimotorsykkel",
+        "swat_armored_vehicle": "Pansret kjøretøy",
+        "swat_suv": "Delta kjøretøy",
+        "police_helicopters": "Politihelikopter",
+        "helicopter": "Räddningshelikopter",
+        "allow_rw_instead_of_lf": "Brannbiler eller tung redning"
+    }
+}
