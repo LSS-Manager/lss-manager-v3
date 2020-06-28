@@ -26,7 +26,7 @@
             },
             "poi": {
                 "label": "KP",
-                "description": "Ilmaisee auttajassa, missä "KP": ssä toiminta on."
+                "description": "Ilmaisee auttajassa, missä KP: ssä toiminta on."
             },
             "live_patients": {
                 "label": "Potilaiden lukumäärä",
@@ -46,8 +46,7 @@
             },
             "special": {
                 "label": "Muita tietoja",
-                "description":
-                    "Näyttää erityistietoja, kuten tarvittavan henkilöstön keskimääräisen vähimmäismäärän."
+                "description": "Näyttää erityistietoja, kuten tarvittavan henkilöstön keskimääräisen vähimmäismäärän."
             },
             "expansions": {
                 "label": "jakaumat",
@@ -75,16 +74,16 @@
             }
         },
         "requirements": {
-            "firetrucks": "paloautot",
-            "platform_trucks": "nostolava-auto",
-            "heavy_rescue_vehicles": "raskaat pelastusautot",
+            "firetrucks": "Paloautot",
+            "platform_trucks": "Nostolava-auto",
+            "heavy_rescue_vehicles": "Raskaat pelastusautot",
             "mobile_air_vehicles": "Breathing Apparatus Support Unit",
-            "battalion_chief_vehicles": "johtoauto",
-            "water_tankers": "säiliöauto",
-            "hazmat_vehicles": "kemikaalitorjunta-auto",
-            "mobile_command_vehicles": "johtokeskusauto",
-            "police_cars": "poliisiauto",
-            "arff": "lentokenttäpaloauto",
+            "battalion_chief_vehicles": "Johtoauto",
+            "water_tankers": "Säiliöauto",
+            "hazmat_vehicles": "Kemikaalitorjunta-auto",
+            "mobile_command_vehicles": "Johtokeskusauto",
+            "police_cars": "Poliisiauto",
+            "arff": "Lentokenttäpaloauto",
             "helicopter": "Air Ambulance",
             "allow_rw_instead_of_lf": "Paloautot tai raskas pelastus"
         }

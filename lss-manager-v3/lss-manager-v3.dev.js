@@ -73,30 +73,30 @@ let lssm = {
 I18n.defaultLocale = 'de_DE';
 // Initialize fallbacks
 I18n.fallbacks = true;
-I18n.locales.de_DE = ['de_DE', 'en_US', 'en_AU', 'en_GB'];
-I18n.locales.nl_NL = ['nl_NL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.es_ES = ['es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.pl_PL = ['pl_PL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.sv_SE = ['sv_SE', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.it_IT = ['it_IT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.fr_FR = ['fr_FR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.ru_RU = ['ru_RU', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.da_DK = ['da_DK', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.cs_CZ = ['cs_CZ', 'en_US', 'en_AU', 'en_GB', 'de_DE']
-I18n.locales.uk_UA = ['uk_UA', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.tr_TR = ['tr_TR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.es_MX = ['es_MX', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.ja_JP = ['ja_JP', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.ko_KR = ['ko_KR', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.ro_RO = ['ro_RO', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.fi_FI = ['fi_FI', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.de_DE = ['de_DE'];
+I18n.locales.nl_NL = ['nl_NL', 'de_DE'];
+I18n.locales.es_ES = ['es_ES', 'de_DE'];
+I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'de_DE'];
+I18n.locales.pl_PL = ['pl_PL', 'de_DE'];
+I18n.locales.sv_SE = ['sv_SE', 'de_DE'];
+I18n.locales.it_IT = ['it_IT', 'de_DE'];
+I18n.locales.fr_FR = ['fr_FR', 'de_DE'];
+I18n.locales.ru_RU = ['ru_RU', 'de_DE'];
+I18n.locales.nb_NO = ['nb_NO', 'da_DK', 'de_DE'];
+I18n.locales.da_DK = ['da_DK', 'de_DE'];
+I18n.locales.cs_CZ = ['cs_CZ', 'de_DE']
+I18n.locales.uk_UA = ['uk_UA', 'de_DE'];
+I18n.locales.tr_TR = ['tr_TR', 'de_DE'];
+I18n.locales.pt_BR = ['pt_BR', 'pt_PT', 'es_ES', 'de_DE'];
+I18n.locales.es_MX = ['es_MX', 'es_ES', 'de_DE'];
+I18n.locales.ja_JP = ['ja_JP', 'de_DE'];
+I18n.locales.ko_KR = ['ko_KR', 'de_DE'];
+I18n.locales.ro_RO = ['ro_RO', 'de_DE'];
+I18n.locales.fi_FI = ['fi_FI', 'de_DE'];
 // en, en_GB and en_AU are essentially the same.
 I18n.locales.en_US = ['en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.en_GB = ['en_GB', 'en_US', 'en_AU', 'de_DE'];
-I18n.locales.en_AU = ['en_AU', 'en_US', 'en_GB', 'de_DE'];
+I18n.locales.en_GB = ['en_GB', 'en_US', 'de_DE'];
+I18n.locales.en_AU = ['en_AU', 'en_US', 'de_DE'];
 
 if (!I18n.translations.hasOwnProperty('de_DE')) I18n.translations.de_DE = {};
 if (!I18n.translations.hasOwnProperty('en_US')) I18n.translations.en_US = {};
@@ -390,7 +390,8 @@ I18n.translations.nb_NO.lssm = {
     apps: {}
 };
 I18n.translations.ja_JP.lssm = {
-    appstore_welcome: "LSS ManagerのAppstoreへようこそ",
+    appstore: "アプリストア",
+    appstore_welcome: "LSS Managerのアプリストアへようこそ",
     appstore_desc: "ここには、プレイ体験を豊かにするさまざまなプラグインがあります。 各プラグインは" +
         "レバーを緑に置くことで個別に作動します。 問題がある場合は、私たちに参加することができます " +
         "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> または " +
@@ -408,7 +409,8 @@ I18n.translations.ja_JP.lssm = {
     apps: {}
 };
 I18n.translations.ko_KR.lssm = {
-    appstore_welcome: "LSS Manager의 Appstore에 오신 것을 환영합니다",
+    appstore: "앱 스토어",
+    appstore_welcome: "LSS Manager의 앱 스토어에 오신 것을 환영합니다",
     appstore_desc: "여기에는 연주 경험을 풍부하게하는 다양한 플러그인이 있습니다. 각 플러그인은" +
         "레버를 녹색으로 놓으면 개별적으로 활성화됩니다. 문제가 있으면, 우리와 함께 할 수 있습니다 " +
         "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> 또는 " +
@@ -714,13 +716,39 @@ lssm.Module = {
         name: {
             de_DE: 'Nachforderungen per FMS',
             en_US: 'HEMS request in radio',
-            nl_NL: 'Spraakaanvraag voor MMT'
+            es_ES: 'Solicitud de HEMS en radio',
+            pl_PL: 'Żądanie HEMS w radiu',
+            sv_SE: 'HEMS-begäran i radio',
+            it_IT: 'Richiesta HEMS in radio',
+            fr_FR: 'Demande HEMS à la radio',
+            nl_NL: 'Spraakaanvraag voor MMT',
+            ru_RU: 'Запрос HEMS по радио',
+            da_DK: 'HEMS-anmodning i radio',
+            cs_CZ: 'HEMS požadavek v rádiu',
+            uk_UA: 'Запит HEMS в радіо',
+            ko_KR: '라디오에서 HEMS 요청',
+            ja_JP: '無線でのHEMSリクエスト',
+            ro_RO: 'Solicitare HEMS în radio',
+            fi_FI: 'HEMS-pyyntö radiosta'
         },
         active: false,
         description: {
             de_DE: 'Bei Eingestellten Nachforderungen wird ein Sprechwunsch im Funk angezeigt.',
             en_US: 'Issues a radio call if HEMS is required.',
-            nl_NL: 'Spraakaanvraag weergeven indien MMT benodigd is.'
+            es_ES: 'Emite una llamada de radio si se requiere HEMS.',
+            pl_PL: 'Wysyła połączenie radiowe, jeśli wymagany jest HEMS.',
+            sv_SE: 'Sänder ett radiosamtal om HEMS krävs.',
+            it_IT: 'Emette una chiamata radio se è richiesto HEMS.',
+            fr_FR: 'Emet un appel radio si HEMS est requis.',
+            nl_NL: 'Spraakaanvraag weergeven indien MMT benodigd is.',
+            ru_RU: 'Выдает радиовызов, если требуется HEMS.',
+            da_DK: 'Afgiver et radioopkald, hvis HEMS er påkrævet.',
+            cs_CZ: 'Pokud je vyžadován HEMS, provede rádiové volání.',
+            uk_UA: 'Видає радіодзвінок, якщо потрібен HEMS.',
+            ko_KR: 'HEMS가 필요한 경우 무선 통화를 발행합니다.',
+            ja_JP: 'HEMSが必要な場合は、無線呼び出しを発行します。',
+            ro_RO: 'Emite un apel radio dacă este necesar HEMS.',
+            fi_FI: 'Soittaa radiopuhelun, jos HEMS vaaditaan.'
         },
         source: '/modules/lss-doctor-radio-call/DoctorRadioCall.user.js',
         develop: false
@@ -729,6 +757,7 @@ lssm.Module = {
         name: {
             de_DE: 'MissionOut',
             pl_PL: 'MisjaOut',
+            sv_SE: 'Uppdrag ut',
             it_IT: 'Fine Missione',
             cs_CZ: 'Misionout',
             ru_RU: 'Миссия',
@@ -998,7 +1027,7 @@ lssm.Module = {
             en_US: 'Destination filter',
             es_ES: 'Filtro de destino',
             pl_PL: 'Filtr miejsca przeznaczenia',
-            sv_SE: 'Destinationsfilter',
+            sv_SE: 'Målfilter',
             da_DK: 'Destinations filter',
             nb_NO: 'Destinasjonsfilter',
             cs_CZ: 'Cílový filtr',
@@ -1308,6 +1337,7 @@ lssm.Module = {
     dashboard: {
         name: {
             de_DE: 'Dashboard',
+            ru_RU: 'Панель приборов',
             ko_KR: '계기반',
             ja_JP: 'ダッシュボード',
             fi_FI: 'kojelauta',
@@ -1317,6 +1347,7 @@ lssm.Module = {
         description: {
             de_DE: 'Dashboard',
             en_US: 'Dashboard',
+            ru_RU: 'Панель приборов',
             ja_JP: '建物と車両の概要を明確に表示するダッシュボード。',
             ko_KR: '계기반',
             ro_RO: 'Tablou de bord',
@@ -1537,6 +1568,7 @@ lssm.Module = {
             es_ES: 'AAO-Buscar',
             pt_PT: 'Pesquisa AAO',
             pl_PL: 'AAO-Szukanie',
+            sv_SE: 'AAO Sök',
             it_IT: 'Ricerca Regole Automatiche',
             tr_TR: 'AAO-Arama',
             da_DK: 'AAO-Søg',
@@ -1665,8 +1697,11 @@ lssm.Module = {
         name: {
             de_DE: 'Einsatzhelfer',
             en_US: 'Missionhelper',
-            es_ES: 'Missionhelper',
+            es_ES: 'Ayudante de misión',
             pl_PL: 'Pomocnik misjonarza',
+            sv_SE: 'Akutarbetare',
+            it_IT: 'Soccorritori di emergenza',
+            da_DK: 'Beredskabsmedarbejder',
             cs_CZ: 'Pomocník mise',
             tr_TR: 'Misyonhelper',
             fr_FR: 'Aide à la mission',
@@ -1675,7 +1710,8 @@ lssm.Module = {
             ja_JP: 'ミッションヘルパー',
             ko_KR: '선교사',
             ro_RO: 'Ajutor de misiune',
-            nl_NL: 'Meldinghelper'
+            nl_NL: 'Meldinghelper',
+            fi_FI: 'Hätätyöntekijä'
         },
         active: false,
         description: {
@@ -2213,6 +2249,7 @@ lssm.Module = {
             es_ES: "Extensión de la alianza",
             pt_PT: "Extensão da Aliança",
             pl_PL: "Rozszerzenie sojuszu",
+            sv_SE: 'Allians-förlängning',
             it_IT: "Alleanza-estensione",
             da_DK: "Alliance-udvidelse",
             nb_NO: "Alliance-forlengelse",

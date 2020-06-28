@@ -76,9 +76,9 @@
     "requirements": {
         "firetrucks": "Brandbiler",
         "platform_trucks": "Stigevogn",
-        "heavy_rescue_vehicles": "pionertjenesten",
+        "heavy_rescue_vehicles": "redningsvogn",
         "mobile_air_vehicles": "højtrykskompressor",
-        "battalion_chief_vehicles": "Holdleder-køretøjer",
+        "battalion_chief_vehicles": "indsatsleder-køretøj",
         "water_tankers": "vandtankvogne",
         "hazmat_vehicles": "gift- og kemikaliekøretøjer",
         "mobile_command_vehicles": "ledelses- og kommunikationsmoduler",

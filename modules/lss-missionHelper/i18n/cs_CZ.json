@@ -74,9 +74,9 @@
     }
   },
   "requirements": {
-    "firetrucks": "hasičské vozy",
-    "platform_trucks": "automobilové žebříky",
-    "heavy_rescue_vehicles": "těžká technická vozidla",
+    "firetrucks": "Cisternové automobilové stříkačky",
+    "platform_trucks": "Automobilové žebříky",
+    "heavy_rescue_vehicles": "TA",
     "mobile_air_vehicles": "Mobile Air",
     "battalion_chief_vehicles": "velitelské automobily",
     "water_tankers": "kombinované hasící automobily",
@@ -84,13 +84,13 @@
     "mobile_command_vehicles": "velitelská vozidla",
     "police_cars": "policejní automobily",
     "helicopter": "Vrtulník LZS",
-    "ambulances": "Sanitkat",
+    "ambulances": "Sanitky",
     "arff": "letištní speciály",
     "k9": "Vozidlo Kynologů PČR",
     "pmotorcycle": "Policejní motocykl",
     "swat_armored_vehicle": "Obrněné vozidlo URNA",
     "swat_suv": "URNA SUV",
     "police_helicopters": "Policejní vrtulník",
-    "allow_rw_instead_of_lf": "Hasičské vozy nebo těžká záchranná služba"
+    "allow_rw_instead_of_lf": "cisternové automobilové stříkačky nebo těžká záchranná služba"
   }
 }
