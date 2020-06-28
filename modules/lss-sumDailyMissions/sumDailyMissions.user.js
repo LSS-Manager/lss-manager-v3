@@ -2,7 +2,7 @@
     let site_location = window.location.href;
     if(site_location.match('daily'))
     {
-        I18n.translations.de_DE['lssm']['sumDailyMissions'] = {
+        I18n.translations.de_DE.lssm.sumDailyMissions = {
             patient_treatment: 'Patienten Behandlung',
             patient_treatment1: 'Patienten Behandlung und Transport',
             education: 'Ausbildung',
@@ -22,7 +22,7 @@
             num_teame: 'Anzahl / Credits Verbandseinlieferungen'
         };
 
-        I18n.translations.en_US['lssm']['sumDailyMissions'] = {
+        I18n.translations.en_US.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment and Transport',
             education: 'education',
@@ -43,7 +43,7 @@
             num_teame: 'Sum / Credits Alliance Treatment'
         };
 
-        I18n.translations.es_ES['lssm']['sumDailyMissions'] = {
+        I18n.translations.es_ES.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -62,7 +62,7 @@
             num_teame: 'Tratamiento de alianza suma / créditos'
         };
 
-        I18n.translations.pt_PT['lssm']['sumDailyMissions'] = {
+        I18n.translations.pt_PT.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -81,7 +81,7 @@
             num_teame: 'Soma / Créditos aliança tratamento'
         };
 
-        I18n.translations.pl_PL['lssm']['sumDailyMissions'] = {
+        I18n.translations.pl_PL.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -100,7 +100,7 @@
             num_teame: 'Suma / Kredyty traktowania sojuszu'
         };
 
-        I18n.translations.sv_SE['lssm']['sumDailyMissions'] = {
+        I18n.translations.sv_SE.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -119,7 +119,7 @@
             num_teame: 'Summa / Krediter alliansbehandling'
         };
 
-        I18n.translations.da_DK['lssm']['sumDailyMissions'] = {
+        I18n.translations.da_DK.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -138,7 +138,7 @@
             num_teame: 'Sum / Kreditter alliansebehandling'
         };
 
-        I18n.translations.nb_NO['lssm']['sumDailyMissions'] = {
+        I18n.translations.nb_NO.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -157,7 +157,7 @@
             num_teame: 'Sum / Kreditter alliansebehandling'
         };
 
-        I18n.translations.it_IT['lssm']['sumDailyMissions'] = {
+        I18n.translations.it_IT.lssm.sumDailyMissions = {
             patient_treatment: 'Trattamento e trasporto pazienti',
             patient_treatment1: 'Trattamento pazienti',
             education: 'educazione',
@@ -176,7 +176,7 @@
             num_teame: 'Somma / Crediti trattamento dell\'alleanza'
         };
 
-        I18n.translations.tr_TR['lssm']['sumDailyMissions'] = {
+        I18n.translations.tr_TR.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             education: 'education',
             purchase: 'bought',
@@ -194,7 +194,7 @@
             num_teame: 'Toplam ittifak tedavisi'
         };
 
-        I18n.translations.fr_FR['lssm']['sumDailyMissions'] = {
+        I18n.translations.fr_FR.lssm.sumDailyMissions = {
             patient_treatment: 'Traitement de patient',
             patient_treatment1: 'Traitement de patient et transport',
             education: 'education',
@@ -214,7 +214,7 @@
             num_teame: 'Traitement Sum / Crédits Alliance'
         };
 
-        I18n.translations.ru_RU['lssm']['sumDailyMissions'] = {
+        I18n.translations.ru_RU.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -233,7 +233,7 @@
             num_teame: 'Сумма / кредитов альянса лечения'
         };
 
-        I18n.translations.uk_UA['lssm']['sumDailyMissions'] = {
+        I18n.translations.uk_UA.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -252,7 +252,7 @@
             num_teame: 'Сума / кредитів лікування альянсу'
         };
 
-        I18n.translations.cs_CZ['lssm']['sumDailyMissions'] = {
+        I18n.translations.cs_CZ.lssm.sumDailyMissions = {
             patient_treatment: 'šetření pacienta',
             patient_treatment1: 'šetření pacienta',
             education: 'education',
@@ -271,7 +271,7 @@
             num_teame: 'Součet / kreditů alianční léčby'
         };
 
-        I18n.translations.ja_JP['lssm']['sumDailyMissions'] = {
+        I18n.translations.ja_JP.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -290,7 +290,7 @@
             num_teame: '合計/クレジット同盟の扱い'
         };
 
-        I18n.translations.ko_KR['lssm']['sumDailyMissions'] = {
+        I18n.translations.ko_KR.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -309,7 +309,7 @@
             num_teame: '총 / 크레딧 제휴 처리'
         };
 
-        I18n.translations.ro_RO['lssm']['sumDailyMissions'] = {
+        I18n.translations.ro_RO.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -328,7 +328,7 @@
             num_teame: 'Suma / credite tratamentului alianței'
         };
 
-        I18n.translations.fi_FI['lssm']['sumDailyMissions'] = {
+        I18n.translations.fi_FI.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
             education: 'education',
@@ -347,7 +347,7 @@
             num_teame: 'Summa / hyvitys allianssikäsittelyyn'
         };
 
-        I18n.translations.nl_NL['lssm']['sumDailyMissions'] = {
+        I18n.translations.nl_NL.lssm.sumDailyMissions = {
             patient_treatment: 'Patiënten behandeling',
             patient_treatment1: 'Patiënten behandeling en transport',
             education: 'Opleiding',
