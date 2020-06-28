@@ -1,0 +1,3673 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Feu de poubelle",
+        "place": "Arr\u00eat de bus",
+        "average_credits": 110,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Feu de benne \u00e0 ordures",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Feu de V\u00e9hicule l\u00e9ger",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Feu de 2 roues",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Feu de v\u00e9g\u00e9tation",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Feu de chambre",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Feu de cabanon",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Feu divers",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "Feu d'encombrants",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Feu de paille",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Feu d'engin agricole",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Feu de cabine t\u00e9l\u00e9phonique",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Arbre sur la Voie Publique",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Feu de Poids Lourd",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "water_tankers": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Feu de r\u00e9colte sur pied (petit)",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 70
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Feu en for\u00eat (petit)",
+        "place": "For\u00eat",
+        "average_credits": 1010,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Feu de caravane",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Feu de boite aux lettres",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Feu de broussailles",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Remorque en feu",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Feu de cave",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Feu de chemin\u00e9e",
+        "place": null,
+        "average_credits": 1330,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            },
+            "average_min_fire_personnel": 6
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Feu de toiture",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Feu d'hydrocarbures",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Feu d'abri bus",
+        "place": "Arr\u00eat de bus",
+        "average_credits": 900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Accident Voie Publique",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Petit supermarch\u00e9 en feu",
+        "place": "Supermarch\u00e9 (petit)",
+        "average_credits": 1100,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Feu de garage",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Machine en feu",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "D\u00e9versement de citerne inconnue",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Fuite de gaz",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "Feu de chemin\u00e9e",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Feu d'engin agricole",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Petit supermarch\u00e9 en feu",
+        "place": "Supermarch\u00e9 (petit)",
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Feu d'ERP - H\u00f4pital",
+        "place": "H\u00f4pital",
+        "average_credits": 5000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Ivresse manifeste",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Douleurs Thoraciques R\u00e9centes",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Crise d'asthme",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Convulsions",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Fi\u00e8vre",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Chute",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Feu d'ERP - Concessionnaire",
+        "place": "Garage automobile",
+        "average_credits": 6000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Chute",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Vol \u00e0 l\u2019\u00e9talage",
+        "place": "Supermarch\u00e9 (petit)",
+        "average_credits": 100,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Vol \u00e0 l\u2019\u00e9talage",
+        "place": "Supermarch\u00e9 (grand)",
+        "average_credits": 100,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Accident de voiture gar\u00e9e",
+        "place": "Supermarch\u00e9 (petit)",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Accident de voiture gar\u00e9e",
+        "place": "Supermarch\u00e9 (grand)",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Vol de M\u00e9taux",
+        "place": "Sup\u00e9rette",
+        "average_credits": 150,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Pickpocket",
+        "place": "Parc",
+        "average_credits": 150,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Resquilleur",
+        "place": "Arr\u00eat de bus",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Resquilleur",
+        "place": "Arr\u00eat de tram",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Resquilleur",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Resquilleur",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Accident de voiture gar\u00e9e",
+        "place": "Centre commercial",
+        "average_credits": 120,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Rixe",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "Casseur",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Manifestation non autoris\u00e9e",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Feu de cuisine",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 10,
+            "platform_trucks": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Sauvetage d'animal",
+        "place": "Ferme",
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Feu d'ERP - Salle de sport",
+        "place": "\u00c9cole",
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "61": {
+        "id": 61,
+        "name": "Crash d'a\u00e9ronef",
+        "place": "Petit a\u00e9roport (piste)",
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 4
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "Tapage",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Accident Isch\u00e9mique Transitoire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Accident de bus",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Feu de cuisine",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 10,
+            "platform_trucks": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Feu de chambre",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "platform_trucks": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Rixe",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Feu d'ERP - Supermarch\u00e9",
+        "place": "Supermarch\u00e9 (grand)",
+        "average_credits": 3300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "D\u00e9versement de citerne inconnue",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Epistaxis",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Accident d\u2019aviation l\u00e9g\u00e8re",
+        "place": null,
+        "average_credits": 3700,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "Accident de bus grave",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Incendie de grande ampleur",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "82": {
+        "id": 82,
+        "name": "Carambolage",
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "ambulances": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Un camion avec une semi-remorque en feu",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Accident de tracteur",
+        "place": "Ferme",
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "B\u00e2chage",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Poids lourd en feu",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 10
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Camion poubelle en feu",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "Feu de pavillon",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "102": {
+        "id": 102,
+        "name": "D\u00e9clenchement de t\u00e9l\u00e9alarme",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 0,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "103": {
+        "id": 103,
+        "name": "Enfant en bas age laiss\u00e9 seul",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "police_cars": 1,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "104": {
+        "id": 104,
+        "name": "Suspicion de fracture du rachis",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 45
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Chute du 2\u00e8me \u00e9tage",
+        "place": "For\u00eat",
+        "average_credits": 1200,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 1
+        }
+    },
+    "106": {
+        "id": 106,
+        "name": "Objet mena\u00e7ant de tomber",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 145
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "107": {
+        "id": 107,
+        "name": "Chemin\u00e9e mena\u00e7ant de tomber",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 146
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "108": {
+        "id": 108,
+        "name": "D\u00e9struction d'hymenopt\u00e8res",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "109": {
+        "id": 109,
+        "name": "Ass\u00e8chement de locaux",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "110": {
+        "id": 110,
+        "name": "Personne ne r\u00e9pondant pas aux appels",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "D\u00e9couverte de NAC",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "AVP impliquant une moto",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 3,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "\u00c9touffement",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "114": {
+        "id": 114,
+        "name": "Feu de caf\u00e9t\u00e9ria",
+        "place": "\u00c9cole",
+        "average_credits": 1300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "115": {
+        "id": 115,
+        "name": "Escaladeur coinc\u00e9",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "116": {
+        "id": 116,
+        "name": "Menacer un fonctionnaire",
+        "place": "Station de m\u00e9tro",
+        "average_credits": 750,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "Naus\u00e9es - Vomissements",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "Bless\u00e9 sur pyl\u00f4ne \u00e9l\u00e9ctrique",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "Feu de pile de ballots de paille",
+        "place": "Ferme",
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "Feu de parking souterrain",
+        "place": "Parking couvert",
+        "average_credits": 3200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 6
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "D\u00e9raillement de train de fret",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "D\u00e9raillement de train de fret",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
+        "average_credits": 10000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "D\u00e9raillement de train de fret",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
+        "average_credits": 10000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "Feu de silo",
+        "place": "Silo",
+        "average_credits": 3000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "Choc anaphylactique",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "Bless\u00e9 sur \u00e9chafaudage",
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "platform_trucks": 40,
+            "police_cars": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "Chute d'escalade",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "139": {
+        "id": 139,
+        "name": "Accident de parachutisme",
+        "place": "Bureaux",
+        "average_credits": 1900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 12
+        }
+    },
+    "140": {
+        "id": 140,
+        "name": "Accident de parachutisme",
+        "place": "Centrale \u00e9lectrique",
+        "average_credits": 1900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 12
+        }
+    },
+    "141": {
+        "id": 141,
+        "name": "Accident de parachutisme",
+        "place": "Usine",
+        "average_credits": 1900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 12
+        }
+    },
+    "142": {
+        "id": 142,
+        "name": "Malaise dans une grue",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "143": {
+        "id": 143,
+        "name": "Nacelle bloqu\u00e9e en position haute",
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "expansion_missions_ids": {
+                "0": 144
+            },
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
+    "144": {
+        "id": 144,
+        "name": "Nacelle bloqu\u00e9e en position haute (> 32m)",
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "height_rescue_personnel": 5,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "145": {
+        "id": 145,
+        "name": "Objet mena\u00e7ant de tomber (inaccessible)",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "height_rescue_personnel": 5
+        },
+        "prerequisites": {
+            "fire_stations": 12
+        }
+    },
+    "146": {
+        "id": 146,
+        "name": "Chemin\u00e9e mena\u00e7ant de tomber (inaccessible)",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "height_rescue_personnel": 5
+        },
+        "prerequisites": {
+            "fire_stations": 12
+        }
+    },
+    "147": {
+        "id": 147,
+        "name": "Personnes bloqu\u00e9es dans une attraction",
+        "place": "F\u00eate foraine",
+        "average_credits": 2300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/themepark_gruen.png",
+            "1": "/images/themepark_gelb.png",
+            "2": "/images/themepark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 14,
+            "possible_patient_min": 0,
+            "height_rescue_personnel": 5,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 12
+        }
+    },
+    "148": {
+        "id": 148,
+        "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre",
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 149
+            },
+            "height_rescue_personnel": 5,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "149": {
+        "id": 149,
+        "name": "\u00c9vacuation personne ob\u00e8se par la fen\u00eatre (non accessible)",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "police_cars": 30,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "150": {
+        "id": 150,
+        "name": "Coupure profonde",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "Essouflement",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "152": {
+        "id": 152,
+        "name": "Essouflement - Ant\u00e9c\u00e9dants cardiaques",
+        "place": null,
+        "average_credits": 880,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "153": {
+        "id": 153,
+        "name": "Violences Domestiques",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/comment_gruen.png",
+            "1": "/images/comment_gelb.png",
+            "2": "/images/comment_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "154": {
+        "id": 154,
+        "name": "Possession ill\u00e9gale d'arme-\u00e0-feu",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "155": {
+        "id": 155,
+        "name": "AVP VL contre animal",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
+    },
+    "156": {
+        "id": 156,
+        "name": "Rupture de canalisation",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "heavy_rescue_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "157": {
+        "id": 157,
+        "name": "Malaise dans une \u00e9olienne",
+        "place": "Eolienne",
+        "average_credits": 1800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 4,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 12
+        }
+    },
+    "158": {
+        "id": 158,
+        "name": "Stationnement g\u00eanant",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/comment_gruen.png",
+            "1": "/images/comment_gelb.png",
+            "2": "/images/comment_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "160": {
+        "id": 160,
+        "name": "VL immerg\u00e9e",
+        "place": "Rivi\u00e8re",
+        "average_credits": 1800,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "thw_gkw": 1,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 2,
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 3,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 2,
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "161": {
+        "id": 161,
+        "name": "PL immerg\u00e9",
+        "place": "Rivi\u00e8re",
+        "average_credits": 2900,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 2,
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 2,
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 11
+        }
+    },
+    "162": {
+        "id": 162,
+        "name": "D\u00e9gagement d'h\u00e9lice entrav\u00e9e",
+        "place": "Marina",
+        "average_credits": 1000,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 3
+            }
+        },
+        "chances": {},
+        "additional": {
+            "personnel_educations": {
+                "PLG (Plongeur)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "fire_stations": 6
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "Accident de plong\u00e9e",
+        "place": "Lac",
+        "average_credits": 1100,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "Disparition inqui\u00e9tante pr\u00e8s d'un point d'eau",
+        "place": "Lac",
+        "average_credits": 3800,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 6,
+            "water_rescue": 2,
+            "boats": 2,
+            "personnel_educations": {
+                "1": 6
+            },
+            "rth": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_police_personnel": 15,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "SAV (Sauvetage Aquatique)": 6
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 4,
+            "rescue_stations": 2,
+            "police_stations": 4,
+            "rescue_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "165": {
+        "id": 165,
+        "name": "Personne tomb\u00e9e \u00e0 l'eau",
+        "place": "Rivi\u00e8re",
+        "average_credits": 1000,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "Accident d'embarcation de plaisance",
+        "place": "Voie naviguable",
+        "average_credits": 1800,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "water_rescue": 2,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 3,
+                "1": 4
+            }
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 3,
+                "SAV (Sauvetage Aquatique)": 4
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 5,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "167": {
+        "id": 167,
+        "name": "Accident d'embarcation TMD",
+        "place": "Voie naviguable",
+        "average_credits": 9200,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "water_rescue": 2,
+            "boats": 2,
+            "personnel_educations": {
+                "2": 6,
+                "1": 4
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 6,
+                "SAV (Sauvetage Aquatique)": 4
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 3,
+            "police_stations": 4,
+            "fire_stations": 13
+        }
+    },
+    "168": {
+        "id": 168,
+        "name": "Personne tomb\u00e9e \u00e0 l'eau",
+        "place": "Lac",
+        "average_credits": 1000,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "water_rescue": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "Insolation",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "Coup de chaleur",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Crampe de chaleur",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Personne d\u00e9shydrat\u00e9e",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Incendie de barbecue",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "Ven., 26 Juin 2020 10:00:00 +0200",
+            "date_end": "Jeu., 01 Oct. 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    }
+}

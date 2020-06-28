@@ -1,0 +1,2365 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Roskispalo",
+        "place": "Linja-autopys\u00e4kki",
+        "average_credits": 110,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Konttipalo",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Autopalo",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Moottoripy\u00f6r\u00e4palo",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Ruohikkopalo",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Huonepalo",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Puutarhavajan palo",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Palavia lehti\u00e4",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "Suurj\u00e4tepalo",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Hein\u00e4paalipalo",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Traktoripalo",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Puhelinkoppipalo",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Puu tiell\u00e4",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Kuorma-autopalo",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Pieni maastopalo",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Pieni mets\u00e4palo",
+        "place": "Mets\u00e4",
+        "average_credits": 1010,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Matkailuautopalo",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Postilaatikkopalo",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Risukasapalo",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Per\u00e4vaunupalo",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Kellaripalo",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Savupiippupalo",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 100
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Kattopalo",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Rasvapalo",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Linja-autokatoksen palo",
+        "place": "Linja-autopys\u00e4kki",
+        "average_credits": 900,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Tieonnettomuus",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2
+            },
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Pieni valintamyym\u00e4l\u00e4palo",
+        "place": "Valintamyym\u00e4l\u00e4 (pieni)",
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Autotallipalo",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Konepalo",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Kaasuvuoto",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "Takkapalo",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Puimakonepalo",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Pieni valintamyym\u00e4l\u00e4palo",
+        "place": "Valintamyym\u00e4l\u00e4 (pieni)",
+        "average_credits": 1500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Sairaalapalo",
+        "place": "Sairaala",
+        "average_credits": 6000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Alkoholimyrkytys",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Rintakipuja",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Astmakohtaus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Kouristuskohtaus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Kuume",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Kaatunut henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Autokorjaamopalo",
+        "place": "Autokorjaamo",
+        "average_credits": 6000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Kaatunut henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "Kaatunut henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Myym\u00e4l\u00e4varkaus",
+        "place": "Valintamyym\u00e4l\u00e4 (pieni)",
+        "average_credits": 100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Myym\u00e4l\u00e4varkaus",
+        "place": "Valintamyym\u00e4l\u00e4 (iso)",
+        "average_credits": 100,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Pys\u00e4k\u00f6intionnettomuus",
+        "place": "Valintamyym\u00e4l\u00e4 (pieni)",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Pys\u00e4k\u00f6intionnettomuus",
+        "place": "Valintamyym\u00e4l\u00e4 (iso)",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Metallimurto",
+        "place": "Tavara-asema",
+        "average_credits": 150,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Taskuvarkaus",
+        "place": "Puisto",
+        "average_credits": 150,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Maksamatta j\u00e4tt\u00e4nyt matkustaja",
+        "place": "Linja-autopys\u00e4kki",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Maksamatta j\u00e4tt\u00e4nyt matkustaja",
+        "place": "Raitiovaunupys\u00e4kki",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Maksamatta j\u00e4tt\u00e4nyt matkustaja",
+        "place": "Rautatieasema (paikallisliikenne)",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Maksamatta j\u00e4tt\u00e4nyt matkustaja",
+        "place": "Rautatieasema (paikallis- ja pitk\u00e4n matkan liikenne)",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Pys\u00e4k\u00f6intionnettomuus",
+        "place": "Ostoskeskus",
+        "average_credits": 120,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Tappelu",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "H\u00e4iri\u00f6k\u00e4ytt\u00e4ytyminen",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Ilmoittamatta j\u00e4rjestetty mielenosoitus ",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Keitti\u00f6palo",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "El\u00e4imen pelastus",
+        "place": "Maatila",
+        "average_credits": 900,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Urheiluhallipalo",
+        "place": "Koulu",
+        "average_credits": 2000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "61": {
+        "id": 61,
+        "name": "Pienkoneen maahansy\u00f6ksy (lentokentt\u00e4)",
+        "place": "Pieni lentoasema (kiitorata)",
+        "average_credits": 2500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "Meluvalitus",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Ohimenev\u00e4 aivoverenkiertoh\u00e4iri\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Aivokirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Linja-auto-onnettomuus",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Keitti\u00f6palo",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Huonepalo",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Tappelu",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Iso valintamyym\u00e4l\u00e4palo",
+        "place": "Valintamyym\u00e4l\u00e4 (iso)",
+        "average_credits": 3000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "Tuntematon s\u00e4ili\u00f6vuoto",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "Iso valintamyym\u00e4l\u00e4palo",
+        "place": "Valintamyym\u00e4l\u00e4 (iso)",
+        "average_credits": 3000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Nen\u00e4verenvuoto",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Pienkoneen maahansy\u00f6ksy",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "Vakava linja-auto-onnettomuus",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Suuri tulipalo",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "Pelastus kaivannosta",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Anafylaksia",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Loukkaantunut juoksija",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "Kadonnut lapsi",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Selk\u00e4rankavamma",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "Rakennuksen osittainen sortuma",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "Rakennussortuma",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "3. asteen palovammat",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Vakava p\u00e4\u00e4vamma",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Aivokirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Traumaattinen raajan amputaatio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleiskirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "Iso maatilan tulipalo",
+        "place": "Maatila",
+        "average_credits": 9000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 15
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "Selk\u00e4kipu",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "Kaatopaikan tulipalo",
+        "place": "Kaatopaikka",
+        "average_credits": 3500,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "Aseiden luvaton hallussapito",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Auto+el\u00e4intraileri liikenneonnettomuudessa",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Poliisiasema",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Rikkoutunut vesiputki",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20,
+            "heavy_rescue_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Murtunut k\u00e4si",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Murtunut jalka",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Nestehukkainen henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "Auringonpistos",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "L\u00e4mp\u00f6halvaus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "L\u00e4mp\u00f6kouristus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Nestehukasta k\u00e4rsiv\u00e4 henkil\u00f6",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300",
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Grillipalo",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "pe 26. kes 2020 klo 10.00:00 +0300",
+            "date_end": "to 01. lok 2020 klo 00.00:00 +0300"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    }
+}

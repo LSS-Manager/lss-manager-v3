@@ -1,0 +1,3125 @@
+{
+    "0": {
+        "id": 0,
+        "name": "Ho\u0159\u00edc\u00ed popelnice",
+        "place": "Autobusov\u00e1 zast\u00e1vka",
+        "average_credits": 110,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Ho\u0159\u00edc\u00ed kontejner",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Ho\u0159\u00edc\u00ed automobil",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Ho\u0159\u00edc\u00ed motocykl",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "Po\u017e\u00e1r tr\u00e1vy",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Po\u017e\u00e1r v pokoji",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Po\u017e\u00e1r zahradn\u00edho alt\u00e1nu",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Po\u017e\u00e1r list\u00ed",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "Ho\u0159\u00edc\u00ed hromada odpadk\u016f",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Ho\u0159\u00edc\u00ed bal\u00edk sl\u00e1my",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Ho\u0159\u00edc\u00ed traktor",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Ho\u0159\u00edc\u00ed telefonn\u00ed budka",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Strom p\u0159es cestu",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Ho\u0159\u00edc\u00ed kamion",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "Mal\u00fd po\u017e\u00e1r na poli",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "Mal\u00fd p\u0159\u00edrodn\u00ed po\u017e\u00e1r",
+        "place": "Les",
+        "average_credits": 1010,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Ho\u0159\u00edc\u00ed karavan",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Ho\u0159\u00edc\u00ed po\u0161tovn\u00ed schr\u00e1nka",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "Ho\u0159\u00edc\u00ed hromada v\u011btv\u00ed",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Ho\u0159\u00edc\u00ed p\u0159\u00edv\u011bs",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Po\u017e\u00e1r ve sklep\u011b",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Ho\u0159\u00edc\u00ed kom\u00edn",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 100
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "Po\u017e\u00e1r st\u0159echy",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Ho\u0159\u00edc\u00ed olej",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Po\u017e\u00e1r autobusov\u00e9 zast\u00e1vky",
+        "place": "Autobusov\u00e1 zast\u00e1vka",
+        "average_credits": 900,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Dopravn\u00ed nehoda",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
+        "place": "Supermarket (mal\u00fd)",
+        "average_credits": 1500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Po\u017e\u00e1r gar\u00e1\u017ee",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Ho\u0159\u00edc\u00ed stroj",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "\u00danik nafty z cisterny",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "\u00danik plynu",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "Po\u017e\u00e1r krbu",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Po\u017e\u00e1r \u017eac\u00edho stroje",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
+        "place": "Supermarket (mal\u00fd)",
+        "average_credits": 1500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Po\u017e\u00e1r v nemocnici",
+        "place": "Nemocnice",
+        "average_credits": 6000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Otrava alkoholem",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "Bolest na hrudi",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Astmatick\u00fd z\u00e1chvat",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Z\u00e1chvat",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Hore\u010dka",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Po\u017e\u00e1r v autoservisu",
+        "place": "Autoservis",
+        "average_credits": 6000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "Bezvl\u00e1dn\u00e1 osoba",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Kr\u00e1de\u017e v obchod\u011b",
+        "place": "Supermarket (mal\u00fd)",
+        "average_credits": 100,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Kr\u00e1de\u017e v obchod\u011b",
+        "place": "Supermarket (velk\u00fd)",
+        "average_credits": 100,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Nehoda na parkovi\u0161ti",
+        "place": "Supermarket (mal\u00fd)",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Nehoda na parkovi\u0161ti",
+        "place": "Supermarket (velk\u00fd)",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Kr\u00e1de\u017e kovu",
+        "place": "N\u00e1kladov\u00e9 n\u00e1dra\u017e\u00ed",
+        "average_credits": 150,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Kaps\u00e1\u0159i",
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "place": "Autobusov\u00e1 zast\u00e1vka",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "place": "Tramvajov\u00e1 zast\u00e1vka",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "\u010cern\u00fd pasa\u017e\u00e9r",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Nehoda na parkovi\u0161ti",
+        "place": "N\u00e1kupn\u00ed centrum",
+        "average_credits": 120,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Rva\u010dka",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "V\u00fdtr\u017enictv\u00ed",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "Nenahl\u00e1\u0161en\u00e1 demonstrace",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Po\u017e\u00e1r v kuchyni",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Z\u00e1chrana zv\u00ed\u0159ete",
+        "place": "Farma",
+        "average_credits": 900,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Po\u017e\u00e1r sportovn\u00ed haly",
+        "place": "\u0160kola",
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "St\u00ed\u017enost na hluk",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Tranzitorn\u00ed ischemick\u00e1 ataka",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Nehoda autobusu",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Po\u017e\u00e1r v kuchyni",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Po\u017e\u00e1r v pokoji",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Rva\u010dka",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
+        "place": "Supermarket (velk\u00fd)",
+        "average_credits": 3000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "\u00danik nafty z cisterny",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
+        "place": "Supermarket (velk\u00fd)",
+        "average_credits": 3000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Krv\u00e1cen\u00ed z nosu",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "Nehoda lehk\u00e9ho letounu",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "V\u00e1\u017en\u00e1 nehoda autobusu",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "Velk\u00fd ohe\u0148",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "D\u00edt\u011b zam\u010den\u00e9 ve vozidle",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Dopravn\u00ed nehoda s p\u0159evr\u00e1cen\u00edm",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 4
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Poran\u011bn\u00ed p\u00e1te\u0159e",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "\u010c\u00e1ste\u010dn\u00e9 z\u0159\u00edcen\u00ed budovy",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Z\u0159\u00edcen\u00ed budovy",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "Pop\u00e1leniny 3. stupn\u011b",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "V\u00e1\u017en\u00e9 poran\u011bn\u00ed hlavy",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "Amputace kon\u010detiny",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Po\u017e\u00e1r velk\u00e9 farmy",
+        "place": "Farma",
+        "average_credits": 9000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Bolest zad",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "Dopravn\u00ed nehoda motocyklu",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "Du\u0161en\u00ed",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "Po\u017e\u00e1r j\u00eddelny",
+        "place": "\u0160kola",
+        "average_credits": 1300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "Zaseknut\u00fd horolezec",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Napaden\u00ed \u00fa\u0159edn\u00edka",
+        "place": "Stanice metra",
+        "average_credits": 750,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Po\u017e\u00e1r sila",
+        "place": "Silo",
+        "average_credits": 3000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Zran\u011bn\u00e1 osoba na sto\u017e\u00e1ru vysok\u00e9ho nap\u011bt\u00ed",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Po\u017e\u00e1r stohu sl\u00e1my",
+        "place": "Farma",
+        "average_credits": 1500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Reziden\u010dn\u00ed policejn\u00ed razie",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed p\u0159ejezd",
+        "average_credits": 10000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "106": {
+        "id": 106,
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "average_credits": 10000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "107": {
+        "id": 107,
+        "name": "Vykolejen\u00ed vlaku",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "average_credits": 10000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "108": {
+        "id": 108,
+        "name": "Odstran\u011bn\u00ed nebezpe\u010dn\u00e9ho hmyzu",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "109": {
+        "id": 109,
+        "name": "V\u011bze\u0148 na \u00fat\u011bku",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "110": {
+        "id": 110,
+        "name": "Podez\u0159el\u00fd na \u00fat\u011bku",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "Poh\u0159e\u0161ovan\u00e1 osoba",
+        "place": "Les",
+        "average_credits": 4500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "P\u0159ik\u00e1zan\u00e1 pohotovost",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 113
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "Post\u0159elen\u00fd policista",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd chirurg"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "114": {
+        "id": 114,
+        "name": "Hled\u00e1n\u00ed vozidla",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "115": {
+        "id": 115,
+        "name": "Mal\u00fd n\u00e1siln\u00fd protest",
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 116
+            },
+            "max_possible_prisoners": 2,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
+    },
+    "116": {
+        "id": 116,
+        "name": "St\u0159edn\u00ed n\u00e1siln\u00fd protest",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "Obchod s drogami",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "Loupe\u017e na \u010derpac\u00ed stanici",
+        "place": "\u010cerpac\u00ed stanice",
+        "average_credits": 1250,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 12
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "police_helicopter_stations": 1
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "St\u0159elba na policistu",
+        "place": null,
+        "average_credits": 4100,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "VIP vystoupen\u00ed",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 minut",
+            "swat_personnel": 18,
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 15,
+            "police_helicopter_stations": 1
+        }
+    },
+    "121": {
+        "id": 121,
+        "name": "Dom\u00e1c\u00ed invaze",
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "swat_personnel": 4
+        },
+        "prerequisites": {
+            "police_stations": 9,
+            "police_helicopter_stations": 1
+        }
+    },
+    "122": {
+        "id": 122,
+        "name": "Pokus o vra\u017edu",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 6,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 9
+        }
+    },
+    "123": {
+        "id": 123,
+        "name": "Loupe\u017e v muzeu",
+        "place": "Muzeum",
+        "average_credits": 1000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "swat_personnel": 6
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "124": {
+        "id": 124,
+        "name": "Resuscitace pomoc\u00ed AED",
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "125": {
+        "id": 125,
+        "name": "Snesen\u00ed pacienta",
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "126": {
+        "id": 126,
+        "name": "Po\u017e\u00e1r v kancel\u00e1\u0159sk\u00e9 budov\u011b",
+        "place": "Kancel\u00e1\u0159sk\u00e1 budova",
+        "average_credits": 8500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "127": {
+        "id": 127,
+        "name": "\u00daklid po dopravn\u00ed nehod\u011b",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "128": {
+        "id": 128,
+        "name": "Neopr\u00e1vn\u011bn\u00e9 dr\u017een\u00ed zbran\u00ed",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "Nehoda se zv\u00ed\u0159etem",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "Nehoda auta s cyklistou",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "Nouzov\u00e9 otev\u0159en\u00ed bytu",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "Nouzov\u00e9 p\u0159ist\u00e1n\u00ed vrtuln\u00edku",
+        "place": null,
+        "average_credits": 3700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 2,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "\u00dapal",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
+            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "\u00da\u017eeh",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
+            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "K\u0159e\u010de z tepla",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
+            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "Dehydrovan\u00e1 osoba",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
+            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "139": {
+        "id": 139,
+        "name": "Po\u017e\u00e1r grilu",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
+            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    }
+}

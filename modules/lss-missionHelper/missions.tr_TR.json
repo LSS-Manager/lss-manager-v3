@@ -1,0 +1,2284 @@
+{
+    "0": {
+        "id": 0,
+        "name": "\u00c7\u00f6p kutusu yang\u0131n\u0131",
+        "place": "Otob\u00fcs dura\u011f\u0131",
+        "average_credits": 110,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "1": {
+        "id": 1,
+        "name": "Konteyner yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 170,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "2": {
+        "id": 2,
+        "name": "Araba yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27,
+                "1": 16,
+                "2": 19
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "3": {
+        "id": 3,
+        "name": "Motosiklet yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 27
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "4": {
+        "id": 4,
+        "name": "\u00c7im yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "5": {
+        "id": 5,
+        "name": "Oda yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "6": {
+        "id": 6,
+        "name": "Bah\u00e7e kul\u00fcbesi yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "7": {
+        "id": 7,
+        "name": "Yaprak yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "8": {
+        "id": 8,
+        "name": "\u00c7\u00f6p y\u0131\u011f\u0131n\u0131 yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 20,
+                "1": 22,
+                "2": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "9": {
+        "id": 9,
+        "name": "Saman balyas\u0131 yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 14,
+                "1": 6
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "10": {
+        "id": 10,
+        "name": "Trakt\u00f6r yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "11": {
+        "id": 11,
+        "name": "Yangin detekt\u00f6r alarmi",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "12": {
+        "id": 12,
+        "name": "Yola d\u00fc\u015fm\u00fc\u015f a\u011fa\u00e7",
+        "place": null,
+        "average_credits": 310,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "13": {
+        "id": 13,
+        "name": "Kamyon yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "14": {
+        "id": 14,
+        "name": "K\u00fc\u00e7\u00fck tarla yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 15
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "15": {
+        "id": 15,
+        "name": "K\u00fc\u00e7\u00fck yaban yang\u0131n\u0131",
+        "place": "Orman",
+        "average_credits": 1010,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "16": {
+        "id": 16,
+        "name": "Karavan yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "17": {
+        "id": 17,
+        "name": "Posta kutusu yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 340,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "18": {
+        "id": 18,
+        "name": "\u00c7al\u0131 y\u0131\u011f\u0131n\u0131",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "19": {
+        "id": 19,
+        "name": "Dorse yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "20": {
+        "id": 20,
+        "name": "Bodrum kat\u0131 yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "21": {
+        "id": 21,
+        "name": "Baca yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 2400,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 100
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 22
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "22": {
+        "id": 22,
+        "name": "\u00c7at\u0131 yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 2700,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 50,
+            "platform_trucks": 100
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "23": {
+        "id": 23,
+        "name": "Gres yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "24": {
+        "id": 24,
+        "name": "Otob\u00fcs dura\u011f\u0131 yang\u0131n\u0131",
+        "place": "Otob\u00fcs dura\u011f\u0131",
+        "average_credits": 900,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "25": {
+        "id": 25,
+        "name": "Trafik kazas\u0131",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 24,
+                "1": 2,
+                "2": 29
+            },
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "26": {
+        "id": 26,
+        "name": "K\u00fc\u00e7\u00fck s\u00fcpermarket yang\u0131n\u0131",
+        "place": "S\u00fcpermarket (k\u00fc\u00e7\u00fck)",
+        "average_credits": 1500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "27": {
+        "id": 27,
+        "name": "Garaj yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "28": {
+        "id": 28,
+        "name": "Makine yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 2470,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "29": {
+        "id": 29,
+        "name": "Yabanc\u0131 tanker s\u0131z\u0131nt\u0131s\u0131",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "30": {
+        "id": 30,
+        "name": "Gaz ka\u00e7a\u011f\u0131",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "allow_rw_instead_of_lf": true
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "31": {
+        "id": 31,
+        "name": "\u015e\u00f6mine yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1310,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "32": {
+        "id": 32,
+        "name": "Bi\u00e7erd\u00f6ver yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "33": {
+        "id": 33,
+        "name": "K\u00fc\u00e7\u00fck s\u00fcpermarket yang\u0131n\u0131",
+        "place": "S\u00fcpermarket (k\u00fc\u00e7\u00fck)",
+        "average_credits": 1500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "34": {
+        "id": 34,
+        "name": "Hastane yang\u0131n\u0131",
+        "place": "Hastane",
+        "average_credits": 6000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
+    },
+    "35": {
+        "id": 35,
+        "name": "Alkol zehirlenmesi",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "36": {
+        "id": 36,
+        "name": "G\u00f6\u011f\u00fcs a\u011fr\u0131lar\u0131",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Kardiyoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "37": {
+        "id": 37,
+        "name": "Akut ast\u0131m",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "38": {
+        "id": 38,
+        "name": "Fel\u00e7",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "N\u00f6roloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "39": {
+        "id": 39,
+        "name": "Y\u00fcksek ate\u015f",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "40": {
+        "id": 40,
+        "name": "Y\u00fcksekten d\u00fc\u015fme",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "41": {
+        "id": 41,
+        "name": "Oto tamirhanesi yang\u0131n\u0131",
+        "place": "Oto tamirhanesi",
+        "average_credits": 6000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 40,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "42": {
+        "id": 42,
+        "name": "Y\u00fcksekten d\u00fc\u015fme",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "43": {
+        "id": 43,
+        "name": "Y\u00fcksekten d\u00fc\u015fme",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "44": {
+        "id": 44,
+        "name": "Ma\u011faza h\u0131rs\u0131zl\u0131\u011f\u0131",
+        "place": "S\u00fcpermarket (k\u00fc\u00e7\u00fck)",
+        "average_credits": 100,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "45": {
+        "id": 45,
+        "name": "Ma\u011faza h\u0131rs\u0131zl\u0131\u011f\u0131",
+        "place": "S\u00fcpermarket (b\u00fcy\u00fck)",
+        "average_credits": 100,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "46": {
+        "id": 46,
+        "name": "Park halindeki araba kazas\u0131",
+        "place": "S\u00fcpermarket (k\u00fc\u00e7\u00fck)",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "47": {
+        "id": 47,
+        "name": "Park halindeki araba kazas\u0131",
+        "place": "S\u00fcpermarket (b\u00fcy\u00fck)",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "48": {
+        "id": 48,
+        "name": "Metal h\u0131rs\u0131zl\u0131\u011f\u0131",
+        "place": "Y\u00fck istasyonu",
+        "average_credits": 150,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "49": {
+        "id": 49,
+        "name": "Yankesicilik",
+        "place": "Park",
+        "average_credits": 150,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "50": {
+        "id": 50,
+        "name": "Ka\u00e7ak yolcu",
+        "place": "Otob\u00fcs dura\u011f\u0131",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "51": {
+        "id": 51,
+        "name": "Ka\u00e7ak yolcu",
+        "place": "Tramvay dura\u011f\u0131",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "52": {
+        "id": 52,
+        "name": "Ka\u00e7ak yolcu",
+        "place": "Tren istasyonu (b\u00f6lgesel trafik)",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "53": {
+        "id": 53,
+        "name": "Ka\u00e7ak yolcu",
+        "place": "Tren istasyonu (b\u00f6lgesel trafik ve uzun mesafeli yolculuk)",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "54": {
+        "id": 54,
+        "name": "Park halindeki araba kazas\u0131",
+        "place": "Al\u0131\u015fveri\u015f Merkezi",
+        "average_credits": 120,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "55": {
+        "id": 55,
+        "name": "Arbede",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "56": {
+        "id": 56,
+        "name": "G\u00f6sterici",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 55
+            },
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "57": {
+        "id": 57,
+        "name": "\u0130zinsiz g\u00f6steri",
+        "place": null,
+        "average_credits": 10020,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "58": {
+        "id": 58,
+        "name": "Mutfak yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "59": {
+        "id": 59,
+        "name": "Hayvan kurtarma",
+        "place": "\u00c7iftlik",
+        "average_credits": 900,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "60": {
+        "id": 60,
+        "name": "Spor salonu yang\u0131n\u0131",
+        "place": "Okul",
+        "average_credits": 2000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "62": {
+        "id": 62,
+        "name": "G\u00fcr\u00fclt\u00fc \u015fikayeti",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "63": {
+        "id": 63,
+        "name": "Ge\u00e7ici \u0130skemik Atak",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Beyin Cerrahisi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "64": {
+        "id": 64,
+        "name": "Otob\u00fcs kazas\u0131",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 3
+        }
+    },
+    "65": {
+        "id": 65,
+        "name": "Mutfak yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "66": {
+        "id": 66,
+        "name": "Oda yang\u0131n\u0131",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "67": {
+        "id": 67,
+        "name": "Arbede",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "68": {
+        "id": 68,
+        "name": "B\u00fcy\u00fck s\u00fcpermarket yang\u0131n\u0131",
+        "place": "S\u00fcpermarket (b\u00fcy\u00fck)",
+        "average_credits": 3000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "69": {
+        "id": 69,
+        "name": "Yabanc\u0131 tanker s\u0131z\u0131nt\u0131s\u0131",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "70": {
+        "id": 70,
+        "name": "B\u00fcy\u00fck s\u00fcpermarket yang\u0131n\u0131",
+        "place": "S\u00fcpermarket (b\u00fcy\u00fck)",
+        "average_credits": 3000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "water_tankers": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 6,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "71": {
+        "id": 71,
+        "name": "Burun kanamas\u0131",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Cerrah"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "72": {
+        "id": 72,
+        "name": "K\u00fc\u00e7\u00fck U\u00e7ak Kazas\u0131",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "hazmat_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "73": {
+        "id": 73,
+        "name": "B\u00fcy\u00fck otob\u00fcs kazas\u0131",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 12,
+            "patient_specializations": "Genel Cerrah"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 5
+        }
+    },
+    "74": {
+        "id": 74,
+        "name": "B\u00fcy\u00fck yang\u0131n",
+        "place": null,
+        "average_credits": 10210,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "only_alliance_mission": true
+        },
+        "prerequisites": {}
+    },
+    "75": {
+        "id": 75,
+        "name": "Ara\u00e7 devrilmesi",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 4
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Silahl\u0131 soygun",
+        "place": "S\u00fcpermarket (k\u00fc\u00e7\u00fck)",
+        "average_credits": 1300,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Motosiklet Kazas\u0131",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "Bo\u011fucu",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Kafeterya Yang\u0131n\u0131",
+        "place": "Okul",
+        "average_credits": 1300,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "S\u0131k\u0131\u015fm\u0131\u015f da\u011fc\u0131",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "G\u00f6revliye tehdit",
+        "place": "Metro istasyonu",
+        "average_credits": 750,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "Ambarda yang\u0131n",
+        "place": "Ambar",
+        "average_credits": 3000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Y\u00fcksek gerilim hatt\u0131 dire\u011finde yaral\u0131 \u015fah\u0131s",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Cerrah"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "84": {
+        "id": 84,
+        "name": "Saman y\u0131\u011f\u0131n\u0131 yan\u0131yor",
+        "place": "\u00c7iftlik",
+        "average_credits": 1500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "85": {
+        "id": 85,
+        "name": "Konut bask\u0131n\u0131",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "place": "Tren istasyonu (b\u00f6lgesel trafik)",
+        "average_credits": 10000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Y\u00fck treni raydan \u00e7\u0131kt\u0131",
+        "place": "Tren istasyonu (b\u00f6lgesel trafik ve uzun mesafeli yolculuk)",
+        "average_credits": 10000,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 0,
+            "patient_specializations": "Travmatoloji"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Kaz\u0131 \u00e7al\u0131\u015fmas\u0131 s\u0131ras\u0131nda g\u00f6\u00e7\u00fck",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "patient_specializations": "Genel Cerrah"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "Anafilaksi",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "102": {
+        "id": 102,
+        "name": "Yaral\u0131 ko\u015fucu",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulans \u0130stasyonu",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "103": {
+        "id": 103,
+        "name": "Kay\u0131p \u00c7ocuk araniyor",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Genel Dahiliye"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "104": {
+        "id": 104,
+        "name": "\u00c7\u00f6pl\u00fck yaniyor",
+        "place": "\u00c7\u00f6pl\u00fck",
+        "average_credits": 3500,
+        "generated_by": "\u0130tfaiye \u0130stasyonu",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 30
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Yetkisiz silah bulundurma",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Polis Karakolu",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    }
+}
