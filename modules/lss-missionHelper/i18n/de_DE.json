@@ -8,8 +8,8 @@
         "to": "bis zu",
         "exp": "Ausbreitungen",
         "fwm": "Folgeeinsätze",
-        "averageMinimumEmployeesFire": "Durchschnittlich mindestens benötigte Feuerwehrleute",
-        "averageMinimumEmployeesPolice": "Durchschnittlich mindestens benötigte Polizisten/Polizistinnen",
+        "averageMinimumEmployeesFire": "Durchschnittliche min. Personalanzahl (Feuerwehr)",
+        "averageMinimumEmployeesPolice": "Durchschnittliche min. Personalanzahl (Polizei)",
         "ambulance_only": "Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!",
         "allow_rw_instead_of_lf": "Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.",
         "title": "Einsatzhelfer",
@@ -135,7 +135,7 @@
             "thw_dle": "Anhänger Drucklufterzeugung",
             "police_helicopters": "Polizeihubschrauber",
             "arff": "Flugfeldlöschfahrzeug",
-            "rettungstreppe": "Rettungstreppenfahrzeug",
+            "rettungstreppe": "Rettungstreppe",
             "diver_units": "Taucher",
             "mek": "MEK-Fahrzeuge",
             "sek": "SEK-Fahrzeuge",
@@ -145,7 +145,7 @@
             "turboloescher": "Turbolöscher",
             "gw_san": "GW-San",
             "seg_elw": "ELW 1 (SEG)",
-            "gwwa": "GW-Wasserrettung",
+            "water_rescue": "GW-Wasserrettung",
             "rescue_dog_units": "Rettungshundestaffel",
             "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW"
         }
