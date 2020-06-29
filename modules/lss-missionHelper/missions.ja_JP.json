@@ -2390,6 +2390,28 @@
             "rescue_stations": 3
         }
     },
+    "110": {
+        "id": 110,
+        "name": "\u98df\u4e2d\u6bd2",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\u6551\u6025\u8eca\u30b9\u30c6\u30fc\u30b7\u30e7\u30f3",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\u4e00\u822c\u5916\u79d1"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "111": {
         "id": 111,
         "name": "\u65e5\u5c04\u75c5",

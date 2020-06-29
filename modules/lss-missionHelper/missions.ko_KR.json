@@ -2342,6 +2342,28 @@
             "rescue_stations": 3
         }
     },
+    "108": {
+        "id": 108,
+        "name": "\uc2dd\uc911\ub3c5",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "109": {
         "id": 109,
         "name": "\uc77c\uc0ac\ubcd1",
