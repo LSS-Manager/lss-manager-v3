@@ -1,3 +1,5 @@
+/* global lssm, missionMarkerAdd */
+
 (I18n => {
     fetch(
         (I18n.translations[I18n.locale].lssm.eventmission = lssm.getlink(
@@ -27,5 +29,12 @@
                     caption.innerHTML
                 }`;
             });
+
+            const missionMarkerAddOrig = missionMarkerAdd;
+            // eslint-disable-next-line no-global-assign
+            missionMarkerAdd = function(t) {
+                prefixesByType.hasOwnProperty(t.mtid) && (t.caption = `${prefixesByType[t.mtid].join('')} ${t.caption}`);
+                missionMarkerAddOrig(t);
+            };
         });
 })(window.I18n);

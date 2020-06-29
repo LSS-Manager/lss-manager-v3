@@ -2047,6 +2047,28 @@
             "rescue_stations": 3
         }
     },
+    "97": {
+        "id": 97,
+        "name": "Intoxica\u021bie alimentar\u0103",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "98": {
         "id": 98,
         "name": "Insola\u021bie",

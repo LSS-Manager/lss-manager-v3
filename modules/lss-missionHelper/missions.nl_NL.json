@@ -14974,6 +14974,48 @@
             "fire_stations": 3
         }
     },
+    "615": {
+        "id": 615,
+        "name": "Sportblessure opgelopen",
+        "place": "Sporthal",
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "616": {
+        "id": 616,
+        "name": "Sportblessure opgelopen",
+        "place": "Sportveld",
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "617": {
         "id": 617,
         "name": "Zonnesteek",

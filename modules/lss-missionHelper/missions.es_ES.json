@@ -2971,6 +2971,28 @@
             "rescue_stations": 3
         }
     },
+    "160": {
+        "id": 160,
+        "name": "Intoxicaci\u00f3n alimentaria",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Parque de ambulancias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cirug\u00eda general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "161": {
         "id": 161,
         "name": "Insolaci\u00f3n",

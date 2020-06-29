@@ -3420,5 +3420,28 @@
         "prerequisites": {
             "rescue_stations": 3
         }
+    },
+    "177": {
+        "id": 177,
+        "name": "Unsafe Scaffolding",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

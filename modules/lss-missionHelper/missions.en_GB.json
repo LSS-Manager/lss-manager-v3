@@ -3667,6 +3667,84 @@
             "fire_stations": 11
         }
     },
+    "181": {
+        "id": 181,
+        "name": "Flat Fire in High Rise",
+        "place": "High Rise",
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "Flat Fire in High Rise - Persons Reported",
+        "place": "High Rise",
+        "average_credits": 6000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Fire alarm activation in high rise premises",
+        "place": "High Rise",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 181,
+                "1": 182
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
     "184": {
         "id": 184,
         "name": "Sunstroke",

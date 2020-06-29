@@ -3186,6 +3186,28 @@
             "police_stations": 2
         }
     },
+    "159": {
+        "id": 159,
+        "name": "Intoxication alimentaire",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "160": {
         "id": 160,
         "name": "VL immerg\u00e9e",

@@ -3839,6 +3839,65 @@
             "fire_stations": 6
         }
     },
+    "182": {
+        "id": 182,
+        "name": "Incendio industria (GRANDE)",
+        "place": "Fabbrica",
+        "average_credits": 2500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 5,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Incendio capannone",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 20
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
     "184": {
         "id": 184,
         "name": "Insolazione",
