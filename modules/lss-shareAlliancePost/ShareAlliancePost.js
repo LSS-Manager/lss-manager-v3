@@ -713,7 +713,7 @@
                     .then(res => res.json())
                     .then(data => {
                         messages = messages.map(message => {
-                            message = message.replace(/%CREDITS%/g, data.average_credits.toLocaleString()||'');
+                            message = message.replace(/%CREDITS%/g, data.average_credits?.toLocaleString()||'');
                             message = message.replace(/%ADDRESS%/g, address);
                             message = message.replace(/%CITY%/g, ort);
                             message = message.replace(
