@@ -353,6 +353,8 @@
             education: 'Opleiding',
             purchase: 'gekocht',
             cancelled: 'Afgebroken',
+            cancelled2: 'Terugbetaald',
+            cancelled3: 'gesloopt',
             extended: 'uitgebreid',
             extended2: 'uitgebreid',
             built: 'gebouwd',

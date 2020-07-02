@@ -772,9 +772,9 @@
             vehicleTypes: {
                 0: 'Mannskapsbil',
                 1: 'Lett mannskapsbil',
-                2: 'Brannbilstige',
-                3: 'Kommandoenhet',
-                4: 'MRU',
+                2: 'Stigebil',
+                3: 'Innsatslederbil',
+                4: 'Redningsbil',
                 5: 'Ambulanse',
                 6: 'Tankbil',
                 7: 'CBRNe enhet',
@@ -785,7 +785,10 @@
                 12: 'Pansret kjøretøy',
                 13: 'Hundepatrulje',
                 14: 'Politimotorsykkel',
-                15: 'Delta kjøretøy'
+                15: 'Delta kjøretøy',
+                16: 'Røykdykkerbil',
+                17: 'Innsatsstøttebil',
+                18: 'Tungredningsbil'
             }
         }
     };

@@ -3316,5 +3316,301 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "146": {
+        "id": 146,
+        "name": "Str\u00e5tak hytte brann",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "147": {
+        "id": 147,
+        "name": "Togbrann (godstog)",
+        "place": "Planovergang",
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "148": {
+        "id": 148,
+        "name": "Togbrann (godstog)",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "149": {
+        "id": 149,
+        "name": "Togbrann (godstog)",
+        "place": "Togstasjon (regional)",
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "150": {
+        "id": 150,
+        "name": "Togbrann (godstog)",
+        "place": "Godsstasjon",
+        "average_credits": 2000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "Stor trafikkulykke i tunnel",
+        "place": "Tunnel",
+        "average_credits": 7000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 14,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "152": {
+        "id": 152,
+        "name": "Bilbrann i tunnel",
+        "place": "Tunnel",
+        "average_credits": 5000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "water_tankers": 40,
+            "mobile_air_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 8,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "153": {
+        "id": 153,
+        "name": "Brann p\u00e5 gatekj\u00f8kken",
+        "place": "Gatekj\u00f8kken",
+        "average_credits": 1850,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "154": {
+        "id": 154,
+        "name": "Industribrann",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "155": {
+        "id": 155,
+        "name": "Ukjent kjemikalielekkasje",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "156": {
+        "id": 156,
+        "name": "Brann p\u00e5 soverom ",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Nevrologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
     }
 }
