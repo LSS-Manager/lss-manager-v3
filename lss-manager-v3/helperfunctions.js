@@ -380,9 +380,9 @@ else if (I18n.locale == "nb_NO") {
     lssm.carsById = {
         "0": ["Mannskapsbil", 0],
         "1": ["Lett mannskapsbil", 0],
-        "2": ["Brannbilstige", 0],
-        "3": ["Kommandoenhet", 0],
-        "4": ["MRU", 0],
+        "2": ["Stigebil", 0],
+        "3": ["Innsatslederbil", 0],
+        "4": ["Redningsbil", 0],
         "5": ["Ambulanse", 1],
         "6": ["Tankbil", 0],
         "7": ["CBRNe enhet", 0],
@@ -393,7 +393,10 @@ else if (I18n.locale == "nb_NO") {
         "12": ["Pansret kjøretøy", 2],
         "13": ["Hundepatrulje", 2],
         "14": ["Politimotorsykkel", 2],
-        "15": ["Delta kjøretøy", 2]
+        "15": ["Delta kjøretøy", 2],
+        "16": ["Røykdykkerbil", 0],
+        "17": ["Innsatsstøttebil", 0],
+        "18": ["Tungredningsbil", 0]
     };
 }
 else if (I18n.locale == "pl_PL")
