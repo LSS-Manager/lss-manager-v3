@@ -996,7 +996,19 @@
         404: 'Heat stroke',
         405: 'Heat cramp',
         406: 'Dehydrated person',
-        407: 'Barbecue fire'
+        407: 'Barbecue fire',
+        408: 'Car ignited by fireworks',
+        409: 'Bulky waste ignited by fireworks',
+        410: 'Small field fire caused by fireworks',
+        411: 'Basement fire caused by fireworks',
+        412: 'Burning Bus shelter ignited by fireworks',
+        413: 'Fire on balcony caused by fireworks',
+        414: 'Burning paper containers ignited by fireworks',
+        415: 'Burning hedge ignited by firecracker',
+        416: 'Burning thatched roof house ignited by fireworks',
+        417: 'Car damaged by fireworks',
+        418: 'Violation of Explosives Law',
+        419: 'Hand injury caused by fireworks'
       }
     };
     I18n.translations.en_GB.lssm.missionKeywordDefaults = {
@@ -5603,15 +5615,27 @@
       396: 'Planned mission',
       397: 'FIRE 3',
       398: 'Planned mission',
-      399: '',
-      400: '',
-      401: '',
-      402: '',
+      399: 'FIRE 3',
+      400: 'FIRE 5',
+      401: 'FIRE 3',
+      402: 'FIRE 5',
       403: 'MED 0.5',
       404: 'MED 0.5',
       405: 'MED 0.5',
       406: 'MED 0.5',
-      407: 'FIRE 0.5'
+      407: 'FIRE 0.5',
+      408: 'FIRE 1',
+      409: 'FIRE 1',
+      410: 'FIRE 1',
+      411: 'FIRE 1',
+      412: 'FIRE 1',
+      413: 'FIRE 1',
+      414: 'FIRE 1',
+      415: 'FIRE 1',
+      416: 'FIRE 4',
+      417: 'POL 1',
+      418: 'POL 1',
+      419: 'MED 1'
     };
     let DEFAULT_AAO_ENGB = {
       0: 'FIRE 1',
