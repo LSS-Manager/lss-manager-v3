@@ -2371,5 +2371,65 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "115": {
+        "id": 115,
+        "name": "Inc\u00eandio pequeno num hotel",
+        "place": "Hotel",
+        "average_credits": 3000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 116
+            },
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "116": {
+        "id": 116,
+        "name": "Inc\u00eandio m\u00e9dio num hotel",
+        "place": "Hotel",
+        "average_credits": 5000,
+        "generated_by": "Unidade de bombeiros militar",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 118
+            },
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
     }
 }

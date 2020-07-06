@@ -2383,5 +2383,63 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "100": {
+        "id": 100,
+        "name": "Pieni hotellipalo",
+        "place": "Hotelli",
+        "average_credits": 3000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 101
+            },
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "Keskisuuri hotellipalo",
+        "place": "Hotelli",
+        "average_credits": 5000,
+        "generated_by": "Paloasema",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {},
+            "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
     }
 }

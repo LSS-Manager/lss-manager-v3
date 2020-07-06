@@ -2195,5 +2195,63 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "103": {
+        "id": 103,
+        "name": "Incendiu mic \u00een hotel",
+        "place": "Hotel",
+        "average_credits": 3000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 104
+            },
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "104": {
+        "id": 104,
+        "name": "Incendiu mediu \u00een hotel",
+        "place": "Hotel",
+        "average_credits": 5000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {},
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
     }
 }

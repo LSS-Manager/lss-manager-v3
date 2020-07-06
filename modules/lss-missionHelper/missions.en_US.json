@@ -9642,7 +9642,7 @@
         "additional": {
             "possible_patient": 12,
             "expansion_missions_ids": {
-                "0": 406
+                "0": 411
             },
             "patient_specializations": "Traumatology"
         },
@@ -9675,7 +9675,7 @@
         "additional": {
             "possible_patient": 6,
             "expansion_missions_ids": {
-                "0": 402
+                "0": 423
             },
             "patient_specializations": "General Internal"
         },
@@ -9710,7 +9710,7 @@
         "additional": {
             "possible_patient": 12,
             "expansion_missions_ids": {
-                "0": 407
+                "0": 424
             },
             "patient_specializations": "Traumatology"
         },
@@ -9847,79 +9847,10 @@
             "fire_stations": 1
         }
     },
-    "408": {
-        "id": 408,
-        "name": "Car ignited by fireworks",
-        "place": null,
-        "average_credits": 740,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "409": {
-        "id": 409,
-        "name": "Bulky waste ignited by fireworks",
-        "place": null,
-        "average_credits": 440,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "410": {
-        "id": 410,
-        "name": "Small field fire caused by fireworks",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "411": {
-        "id": 411,
-        "name": "Basement fire caused by fireworks",
-        "place": null,
+    "420": {
+        "id": 420,
+        "name": "Pier on fire",
+        "place": "Pier",
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {
@@ -9928,222 +9859,17 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 3,
-            "battalion_chief_vehicles": 1
-        },
-        "chances": {
-            "battalion_chief_vehicles": 90
-        },
-        "additional": {
-            "possible_patient": 2,
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
-            "patient_specializations": "General Internal"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "412": {
-        "id": 412,
-        "name": "Burning Bus shelter ignited by fireworks",
-        "place": "Bus stop",
-        "average_credits": 1800,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "413": {
-        "id": 413,
-        "name": "Fire on balcony caused by fireworks",
-        "place": null,
-        "average_credits": 3000,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "platform_trucks": 30
-        },
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "414": {
-        "id": 414,
-        "name": "Burning paper containers ignited by fireworks",
-        "place": null,
-        "average_credits": 800,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "415": {
-        "id": 415,
-        "name": "Burning hedge ignited by firecracker",
-        "place": null,
-        "average_credits": 800,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "416": {
-        "id": 416,
-        "name": "Burning thatched roof house ignited by fireworks",
-        "place": null,
-        "average_credits": 8400,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
+            "firetrucks": 4,
+            "large_rescue_boat": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
-            "mobile_air_vehicles": 1,
-            "police_cars": 2
+            "heavy_rescue_vehicles": 1
         },
-        "chances": {
-            "mobile_air_vehicles": 30,
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
-            "patient_specializations": "General Internal"
-        },
+        "chances": {},
+        "additional": {},
         "prerequisites": {
-            "rescue_stations": 3,
-            "police_stations": 2,
+            "rescue_boat_docks": 1,
             "fire_stations": 7
-        }
-    },
-    "417": {
-        "id": 417,
-        "name": "Car damaged by fireworks",
-        "place": null,
-        "average_credits": 400,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/caraccident_gruen.png",
-            "1": "/images/caraccident_gelb.png",
-            "2": "/images/caraccident_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "418": {
-        "id": 418,
-        "name": "Violation of Explosives Law",
-        "place": null,
-        "average_credits": 400,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/blast_gruen.png",
-            "1": "/images/blast_gelb.png",
-            "2": "/images/blast_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "419": {
-        "id": 419,
-        "name": "Hand injury caused by fireworks",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance station",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "date_start": "Fri, 03 Jul 2020 11:00:00 -0400",
-            "date_end": "Sun, 05 Jul 2020 11:00:00 -0400",
-            "patient_specializations": "Traumatology"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
         }
     }
 }

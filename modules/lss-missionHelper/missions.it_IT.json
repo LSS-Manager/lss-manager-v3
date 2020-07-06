@@ -4024,5 +4024,57 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "189": {
+        "id": 189,
+        "name": "Incendio palo elettrico",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 1
+        }
+    },
+    "190": {
+        "id": 190,
+        "name": "Overdose",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 133
+            },
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
     }
 }

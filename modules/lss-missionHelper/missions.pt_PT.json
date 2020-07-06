@@ -1,7 +1,7 @@
 {
     "0": {
         "id": 0,
-        "name": "Inc\u00eandio em caixote do lixo",
+        "name": "Inc\u00eandio num caixote do lixo",
         "place": "Paragem de Autocarro",
         "average_credits": 110,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -21,7 +21,7 @@
     },
     "1": {
         "id": 1,
-        "name": "Inc\u00eandio em contentor do lixo",
+        "name": "Inc\u00eandio num contentor do lixo",
         "place": null,
         "average_credits": 170,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -426,7 +426,7 @@
     },
     "19": {
         "id": 19,
-        "name": "Inc\u00eandio num trailer",
+        "name": "Inc\u00eandio num Reboque",
         "place": null,
         "average_credits": 650,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -667,7 +667,7 @@
     },
     "29": {
         "id": 29,
-        "name": "Combust\u00edvel derramado",
+        "name": "Derrame de Combust\u00edvel",
         "place": null,
         "average_credits": 5300,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -1338,7 +1338,7 @@
     },
     "58": {
         "id": 58,
-        "name": "Inc\u00eandio na cozinha",
+        "name": "Inc\u00eandio numa cozinha",
         "place": null,
         "average_credits": 1000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -1478,7 +1478,7 @@
     },
     "65": {
         "id": 65,
-        "name": "Inc\u00eandio na cozinha",
+        "name": "Inc\u00eandio numa cozinha",
         "place": null,
         "average_credits": 1000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -1582,7 +1582,7 @@
     },
     "69": {
         "id": 69,
-        "name": "Combust\u00edvel derramado",
+        "name": "Derrame de Combust\u00edvel",
         "place": null,
         "average_credits": 4300,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -1693,7 +1693,7 @@
     },
     "73": {
         "id": 73,
-        "name": "Grave acidente envolvendo um autocarro",
+        "name": "Acidente Grave envolvendo um autocarro",
         "place": null,
         "average_credits": 2000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2111,7 +2111,7 @@
     },
     "99": {
         "id": 99,
-        "name": "Resgate na vala",
+        "name": "Resgate numa vala",
         "place": null,
         "average_credits": 2500,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2477,7 +2477,7 @@
     },
     "113": {
         "id": 113,
-        "name": "Cano de \u00e1gua furado",
+        "name": "Rebentamento de Conduta de \u00e1gua",
         "place": null,
         "average_credits": 1000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2700,7 +2700,7 @@
     },
     "122": {
         "id": 122,
-        "name": "Inc\u00eandio de churrasco",
+        "name": "Inc\u00eandio num churrasco",
         "place": null,
         "average_credits": 600,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2719,6 +2719,90 @@
         },
         "prerequisites": {
             "fire_stations": 1
+        }
+    },
+    "123": {
+        "id": 123,
+        "name": "Inc\u00eandio pequeno num hotel",
+        "place": "Hotel",
+        "average_credits": 3000,
+        "generated_by": "Unidade do corpo de bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 124
+            },
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "124": {
+        "id": 124,
+        "name": "Inc\u00eandio m\u00e9dio num hotel",
+        "place": "Hotel",
+        "average_credits": 5000,
+        "generated_by": "Unidade do corpo de bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {},
+            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
+    },
+    "125": {
+        "id": 125,
+        "name": "Incidente numa Mina",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Unidade do corpo de bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 10
         }
     }
 }
