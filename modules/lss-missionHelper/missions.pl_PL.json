@@ -930,30 +930,6 @@
             "rescue_stations": 3
         }
     },
-    "40": {
-        "id": 40,
-        "name": "Upadek z wysoko\u015bci",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "patient_specializations": "Traumatologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
     "41": {
         "id": 41,
         "name": "Po\u017car warsztatu samochodowego",
@@ -990,30 +966,6 @@
     },
     "42": {
         "id": 42,
-        "name": "Upadek",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "patient_specializations": "Traumatologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "43": {
-        "id": 43,
         "name": "Upadek",
         "place": null,
         "average_credits": null,
@@ -3636,8 +3588,7 @@
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "water_tankers": 1,
-            "hazmat_vehicles": 1,
-            "police_cars": 1
+            "hazmat_vehicles": 1
         },
         "chances": {
             "water_tankers": 90,
@@ -3666,9 +3617,6 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
-                "0": 113
-            },
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -3801,8 +3749,6 @@
             "firetrucks": 10,
             "battalion_chief_vehicles": 3,
             "platform_trucks": 4,
-            "mobile_air_vehicles": 1,
-            "hazmat_vehicles": 2,
             "police_cars": 5
         },
         "chances": {

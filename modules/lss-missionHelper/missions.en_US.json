@@ -9675,7 +9675,7 @@
         "additional": {
             "possible_patient": 6,
             "expansion_missions_ids": {
-                "0": 402
+                "0": 423
             },
             "patient_specializations": "General Internal"
         },
@@ -9710,7 +9710,7 @@
         "additional": {
             "possible_patient": 12,
             "expansion_missions_ids": {
-                "0": 412
+                "0": 424
             },
             "patient_specializations": "Traumatology"
         },
