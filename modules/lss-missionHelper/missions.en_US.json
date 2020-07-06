@@ -9642,7 +9642,7 @@
         "additional": {
             "possible_patient": 12,
             "expansion_missions_ids": {
-                "0": 406
+                "0": 411
             },
             "patient_specializations": "Traumatology"
         },
@@ -9710,7 +9710,7 @@
         "additional": {
             "possible_patient": 12,
             "expansion_missions_ids": {
-                "0": 407
+                "0": 412
             },
             "patient_specializations": "Traumatology"
         },
@@ -9845,6 +9845,31 @@
         },
         "prerequisites": {
             "fire_stations": 1
+        }
+    },
+    "420": {
+        "id": 420,
+        "name": "Pier on fire",
+        "place": "Pier",
+        "average_credits": 5000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "large_rescue_boat": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "rescue_boat_docks": 1,
+            "fire_stations": 7
         }
     }
 }

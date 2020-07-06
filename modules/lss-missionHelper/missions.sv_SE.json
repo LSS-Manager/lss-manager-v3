@@ -3601,5 +3601,31 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "176": {
+        "id": 176,
+        "name": "P\u00e5tr\u00e4ffad person, \u00f6verfall",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
     }
 }

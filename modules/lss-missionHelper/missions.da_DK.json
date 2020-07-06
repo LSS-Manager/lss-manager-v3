@@ -3614,5 +3614,62 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "157": {
+        "id": 157,
+        "name": "Hotelbrand (lille)",
+        "place": "Hotel",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 158
+            },
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "158": {
+        "id": 158,
+        "name": "Hotelbrand (mellemstor)",
+        "place": "Hotel",
+        "average_credits": 5000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
     }
 }

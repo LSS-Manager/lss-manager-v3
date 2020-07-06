@@ -4441,5 +4441,68 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "210": {
+        "id": 210,
+        "name": "Napad na sklep w centrum handlowym",
+        "place": "Centrum handlowe",
+        "average_credits": 7300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "max_possible_prisoners": 6,
+            "swat_personnel": 18,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 10,
+            "fire_stations": 15
+        }
+    },
+    "211": {
+        "id": 211,
+        "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
+        "place": "Przejazd kolejowy",
+        "average_credits": 2300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 8
+        }
     }
 }

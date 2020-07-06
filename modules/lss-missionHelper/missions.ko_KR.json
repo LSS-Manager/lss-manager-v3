@@ -2490,5 +2490,65 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "114": {
+        "id": 114,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc18c\ud615 \ud638\ud154)",
+        "place": "\ud638\ud154",
+        "average_credits": 3000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 115
+            },
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 4
+        }
+    },
+    "115": {
+        "id": 115,
+        "name": "\ud654\uc7ac \ud604\uc7a5(\uc911\ud615 \ud638\ud154)",
+        "place": "\ud638\ud154",
+        "average_credits": 5000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 117
+            },
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 6
+        }
     }
 }
