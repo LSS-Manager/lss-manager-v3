@@ -1220,22 +1220,22 @@
                 0: "Unidade do corpo de bombeiros",
                 2: "Estação de ambulância",
                 5: "Centro de meios aéreos",
-                6: "Delegacia de polícia",
+                6: "Esquadra de Polícia",
                 7: "Central de Despacho",
                 18: "Unidade do corpo de bombeiros (pequena)",
-                19: "Delegacia de polícia (estação pequena)",
+                19: "Esquadra de Polícia (Pequena)",
                 20: "Estação de ambulância (estação pequena)"
             },
             vehicleTypes: {
                 0: 'VRCI',
                 1: 'VLCI',
-                2: 'VE32',
+                2: 'VE',
                 3: 'VCOT',
                 4: 'VSAT',
                 5: 'ABSC',
                 6: 'VTTU',
                 7: 'VPME',
-                8: 'CP',
+                8: 'Carro patrulha',
                 9: 'Heli INEM'
             }
         }

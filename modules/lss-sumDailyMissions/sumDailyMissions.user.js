@@ -73,7 +73,7 @@
             built: 'construído',
             team: '\\[Aliança\\]',
             teame: ' Aliança',
-            prisoner: 'Prisoner Transported',
+            prisoner: 'A transportar detido',
             num_missions: 'Soma / Créditos missões',
             num_patients: 'Soma / Créditos pacientes',
             num_prisoners: 'Soma / Créditos prisioneiros',

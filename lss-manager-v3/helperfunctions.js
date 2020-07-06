@@ -204,13 +204,13 @@ else if (I18n.locale == "pt_PT") {
     lssm.carsById = {
         "0": ["VRCI", 0],
         "1": ["VLCI", 0],
-        "2": ["VE32", 0],
+        "2": ["VE", 0],
         "3": ["VCOT", 0],
         "4": ["VSAT", 0],
         "5": ["ABSC", 1],
         "6": ["VTTU", 0],
         "7": ["VPME", 0],
-        "8": ["CP", 2],
+        "8": ["Carro patrulha", 2],
         "9": ["Heli INEM", 1]
     };
 }
