@@ -3433,9 +3433,7 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 170
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u043e\u0431\u0449\u0435\u0433\u043e \u043f\u0440\u043e\u0444\u0438\u043b\u044f"
         },
         "prerequisites": {

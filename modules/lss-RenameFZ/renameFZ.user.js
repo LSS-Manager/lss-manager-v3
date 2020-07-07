@@ -692,6 +692,7 @@
                 6: "Politistation",
                 7: "Alarmcentral",
                 13: "Politihelikopterstation",
+                15: "Vandredningsstation",
                 18: "Brandstation (lille station)",
                 19: "Politistation (lille station)",
                 20: "Ambulancestation (lille station)"
@@ -714,7 +715,10 @@
                 14: 'AKS Pansret mandskabsvogn',
                 15: 'Hundepatrulje',
                 16: 'Politimotorcykel',
-                17: 'AKS Patruljevogn'
+                17: 'AKS Patruljevogn',
+                18: 'Dykkerbil',
+                19: 'Kystlivredderbil',
+                20: 'Bådtrailer'
             }
         }
     };
@@ -1220,22 +1224,22 @@
                 0: "Unidade do corpo de bombeiros",
                 2: "Estação de ambulância",
                 5: "Centro de meios aéreos",
-                6: "Delegacia de polícia",
+                6: "Esquadra de Polícia",
                 7: "Central de Despacho",
                 18: "Unidade do corpo de bombeiros (pequena)",
-                19: "Delegacia de polícia (estação pequena)",
+                19: "Esquadra de Polícia (Pequena)",
                 20: "Estação de ambulância (estação pequena)"
             },
             vehicleTypes: {
                 0: 'VRCI',
                 1: 'VLCI',
-                2: 'VE32',
+                2: 'VE',
                 3: 'VCOT',
                 4: 'VSAT',
                 5: 'ABSC',
                 6: 'VTTU',
                 7: 'VPME',
-                8: 'CP',
+                8: 'Carro patrulha',
                 9: 'Heli INEM'
             }
         }

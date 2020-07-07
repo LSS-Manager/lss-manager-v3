@@ -3671,5 +3671,225 @@
             "rescue_stations": 8,
             "fire_stations": 6
         }
+    },
+    "160": {
+        "id": 160,
+        "name": "Bil k\u00f8rt i vandet",
+        "place": "S\u00f8",
+        "average_credits": 1400,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "161": {
+        "id": 161,
+        "name": "Lastbil k\u00f8rt i vandet",
+        "place": "S\u00f8",
+        "average_credits": 2000,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "162": {
+        "id": 162,
+        "name": "Bus k\u00f8rt i vandet",
+        "place": "S\u00f8",
+        "average_credits": 3000,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "Dykkerulykke",
+        "place": "S\u00f8",
+        "average_credits": 1000,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "Mand over bord - Person i vandet",
+        "place": "S\u00f8",
+        "average_credits": 3000,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "165": {
+        "id": 165,
+        "name": "Person faldet i vandet",
+        "place": "S\u00f8",
+        "average_credits": 1200,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "Person faldet i vandet",
+        "place": "Flod",
+        "average_credits": 1200,
+        "generated_by": "Vandredningsstation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
     }
 }
