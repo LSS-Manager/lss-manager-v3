@@ -362,7 +362,10 @@ else if (I18n.locale == "da_DK") {
         "14": ["AKS Pansret mandskabsvogn", 2],
         "15": ["Hundepatrulje", 2],
         "16": ["Politimotorcykel", 2],
-        "17": ["AKS Patruljevogn", 2]
+        "17": ["AKS Patruljevogn", 2],
+        "18": ["Dykkerbil", 4],
+        "19": ["Kystlivredderbil", 4],
+        "20": ["Bådtrailer", 4]
     };
 }
 else if (I18n.locale == "nb_NO") {

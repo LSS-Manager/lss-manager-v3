@@ -7,6 +7,8 @@
     "to": "op til",
     "exp": "Sprede",
     "SWATPersonnel": "Nødvendige AKS personel",
+    "averageMinimumEmployeesFire": "Minimum i gennemsnit Brandpersonale",
+    "averageMinimumEmployeesPolice": "Minimum i gennemsnit Politipersonale",
     "ambulance_only": "Denne mission er kun ambulance!",
     "title": "Missionhelper",
     "transport": "Transportere",
@@ -91,6 +93,8 @@
         "swat_suv": "AKS Patruljevogn",
         "police_helicopters": "Politihelikopter",
         "helicopter": "Rednings Helikopter",
+        "boats": "Både",
+        "diver_units": "Dykkerbiler",
         "allow_rw_instead_of_lf": "Brandbiler eller tung redning"
     }
 }

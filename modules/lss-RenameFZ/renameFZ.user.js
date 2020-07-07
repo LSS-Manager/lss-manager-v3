@@ -692,6 +692,7 @@
                 6: "Politistation",
                 7: "Alarmcentral",
                 13: "Politihelikopterstation",
+                15: "Vandredningsstation",
                 18: "Brandstation (lille station)",
                 19: "Politistation (lille station)",
                 20: "Ambulancestation (lille station)"
@@ -714,7 +715,10 @@
                 14: 'AKS Pansret mandskabsvogn',
                 15: 'Hundepatrulje',
                 16: 'Politimotorcykel',
-                17: 'AKS Patruljevogn'
+                17: 'AKS Patruljevogn',
+                18: 'Dykkerbil',
+                19: 'Kystlivredderbil',
+                20: 'Bådtrailer'
             }
         }
     };
