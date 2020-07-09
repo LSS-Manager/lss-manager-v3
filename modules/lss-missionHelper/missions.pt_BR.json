@@ -2422,7 +2422,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 118
+            },
             "patient_specializations": "Cl\u00ednica m\u00e9dica"
         },
         "prerequisites": {

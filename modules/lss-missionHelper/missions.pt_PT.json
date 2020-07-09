@@ -134,7 +134,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -464,7 +464,7 @@
         },
         "additional": {
             "possible_patient": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -613,7 +613,7 @@
         },
         "additional": {
             "possible_patient": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -774,7 +774,7 @@
         },
         "additional": {
             "possible_patient": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -804,7 +804,7 @@
         },
         "additional": {
             "possible_patient": 25,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 6,
@@ -830,7 +830,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "patient_at_end_of_mission": true,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -879,7 +879,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -927,7 +927,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -983,7 +983,7 @@
         },
         "additional": {
             "possible_patient": 4,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -1398,7 +1398,7 @@
         },
         "additional": {
             "possible_patient": 4,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -1469,7 +1469,7 @@
         },
         "additional": {
             "possible_patient": 12,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 8,
@@ -1517,7 +1517,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -1572,7 +1572,7 @@
         },
         "additional": {
             "possible_patient": 6,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -1630,7 +1630,7 @@
         },
         "additional": {
             "possible_patient": 6,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -1798,7 +1798,7 @@
         },
         "additional": {
             "possible_patient": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -1824,7 +1824,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -1851,7 +1851,7 @@
         },
         "additional": {
             "possible_patient": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -1882,7 +1882,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "patient_at_end_of_mission": true,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -1907,7 +1907,7 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -2321,7 +2321,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -2345,7 +2345,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 2
@@ -2369,7 +2369,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -2394,7 +2394,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -2566,7 +2566,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -2614,7 +2614,7 @@
             "possible_patient_min": 1,
             "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
             "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 2
@@ -2640,7 +2640,7 @@
             "possible_patient_min": 1,
             "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
             "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 4
@@ -2666,7 +2666,7 @@
             "possible_patient_min": 1,
             "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
             "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 4
@@ -2692,7 +2692,7 @@
             "possible_patient_min": 1,
             "date_start": "Sex, 26 Jun 2020 10:00:00 +0100",
             "date_end": "Qui, 01 Out 2020 00:00:00 +0100",
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -2723,7 +2723,7 @@
     },
     "123": {
         "id": 123,
-        "name": "Inc\u00eandio pequeno num hotel",
+        "name": "Pequeno inc\u00eandio num hotel",
         "place": "Hotel",
         "average_credits": 3000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2743,7 +2743,7 @@
             "expansion_missions_ids": {
                 "0": 124
             },
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -2752,7 +2752,7 @@
     },
     "124": {
         "id": 124,
-        "name": "Inc\u00eandio m\u00e9dio num hotel",
+        "name": "Inc\u00eandio num hotel",
         "place": "Hotel",
         "average_credits": 5000,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2772,7 +2772,7 @@
         "additional": {
             "possible_patient": 10,
             "expansion_missions_ids": {},
-            "patient_specializations": "Cl\u00ednica m\u00e9dica"
+            "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
             "rescue_stations": 8,
@@ -2783,7 +2783,7 @@
         "id": 125,
         "name": "Incidente numa Mina",
         "place": null,
-        "average_credits": 3000,
+        "average_credits": 6000,
         "generated_by": "Unidade do corpo de bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",

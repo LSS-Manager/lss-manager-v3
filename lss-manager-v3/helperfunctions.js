@@ -304,7 +304,9 @@ else if (I18n.locale == "cs_CZ") {
         "12": ["Obrněné vozidlo URNA", 2],
         "13": ["Vozidlo Kynologů PČR", 2],
         "14": ["Policejní motocykl", 2],
-        "15": ["URNA SUV", 2]
+        "15": ["URNA SUV", 2],
+        "16": ["Protiplynový automobil", 0],
+        "17": ["MOS", 0]
     };
 }
 else if (I18n.locale == "tr_TR") {
