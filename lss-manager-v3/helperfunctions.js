@@ -6,20 +6,7 @@
 // 2 = Polizei
 // 3 = THW
 // 4 = Wasserrettung
-if (I18n.locale == "en_US")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulance extension": 0,
-        "Water rescue expansion": 1,
-        "Forestry Expansion": 2,
-        "Airport extension": 3,
-        // Pol-Erweiterungen (10-19)
-        "Prison cell": 10,
-        "More cell": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+if (I18n.locale == "en_US") {
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -63,19 +50,7 @@ if (I18n.locale == "en_US")
         "39": ["Type 6 engine", 0]
     };
 }
-else if (I18n.locale == "en_GB")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulance extension": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Prison cell": 10,
-        "More cell": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+else if (I18n.locale == "en_GB") {
     lssm.carsById = {
         "0": ["Water Ladder", 0],
         "1": ["Light 4X4 Pump (L4P)", 0],
@@ -100,19 +75,7 @@ else if (I18n.locale == "en_GB")
         "20": ["Operational Team Leader", 1]
     };
 }
-else if (I18n.locale == "en_AU")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulance extension": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Prison cell": 10,
-        "More cell": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+else if (I18n.locale == "en_AU") {
     lssm.carsById = {
         "0": ["Pumper", 0],
         "1": ["Light Tanker", 0],
@@ -135,19 +98,7 @@ else if (I18n.locale == "en_AU")
         "18": ["TOG SUV", 2]
     };
 }
-else if (I18n.locale == "es_ES")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Extensión de ambulancia": 0,
-        "Extensión de aeropuerto": 1,
-        "Extensión de rescate acuático": 2,
-        // Pol-Erweiterungen (10-19)
-        "Calabozo": 10,
-        "Más celdas": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+else if (I18n.locale == "es_ES") {
     lssm.carsById = {
         "0": ["Camión BUP", 0],
         "1": ["Camión BUL", 0],
@@ -165,17 +116,6 @@ else if (I18n.locale == "es_ES")
     };
 }
 else if (I18n.locale == "es_MX") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Extensión de ambulancia": 0,
-        "Extensión de aeropuerto": 1,
-        "Extensión de rescate acuático": 2,
-        // Pol-Erweiterungen (10-19)
-        "Calabozo": 10,
-        "Más celdas": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Camión de Bomberos", 0],
         "1": ["Camión BUL", 0],
@@ -190,17 +130,6 @@ else if (I18n.locale == "es_MX") {
     };
 }
 else if (I18n.locale == "pt_PT") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Extensão de ambulância": 0,
-        "Extensão de aeroporto": 1,
-        "Expansão de resgate aquático": 2,
-        // Pol-Erweiterungen (10-19)
-        "Cela de presídio": 10,
-        "Mais celas": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["VRCI", 0],
         "1": ["VLCI", 0],
@@ -215,17 +144,6 @@ else if (I18n.locale == "pt_PT") {
     };
 }
 else if (I18n.locale == "pt_BR") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Extensão de ambulância": 0,
-        "Extensão de aeroporto": 1,
-        "Expansão de resgate aquático": 2,
-        // Pol-Erweiterungen (10-19)
-        "Cela de presídio": 10,
-        "Mais celas": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["ABTS", 0],
         "1": ["ABT", 0],
@@ -239,19 +157,7 @@ else if (I18n.locale == "pt_BR") {
         "9": ["Helicóptero Resgate", 1]
     };
 }
-else if (I18n.locale == "sv_SE")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulansutbyggnad": 0,
-        "Sjöräddning": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Fängelsecell": 10,
-        "Fler celler": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+else if (I18n.locale == "sv_SE") {
     lssm.carsById = {
         "0": ["BAS 1 - Släckbil", 0],
         "1": ["BAS 2 - Släckbil", 0],
@@ -277,17 +183,6 @@ else if (I18n.locale == "sv_SE")
     };
 }
 else if (I18n.locale == "cs_CZ") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Rozšíření záchranky": 0,
-        "Rozšíření letiště": 1,
-        "Rozšíření vodní záchranky": 2,
-        // Pol-Erweiterungen (10-19)
-        "Vězeňská cela": 10,
-        "Více cel": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["CAS 20", 0],
         "1": ["CAS 30", 0],
@@ -310,17 +205,6 @@ else if (I18n.locale == "cs_CZ") {
     };
 }
 else if (I18n.locale == "tr_TR") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulans ek bölümü": 0,
-        "Havalimanı ek bölümü": 1,
-        "Su kurtarma büyütmesi": 2,
-        // Pol-Erweiterungen (10-19)
-        "Hapishane hücresi": 10,
-        "Daha fazla hücre": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["YSA", 0],
         "1": ["IKA", 0],
@@ -335,17 +219,6 @@ else if (I18n.locale == "tr_TR") {
     };
 }
 else if (I18n.locale == "da_DK") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulanceudvidelse": 0,
-        "Lufthavnsudvidelse": 1,
-        "Vandredningsudvidelse": 2,
-        // Pol-Erweiterungen (10-19)
-        "Fængselscelle": 10,
-        "Mere celle": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Autosprøjte", 0],
         "1": ["Slangetender", 0],
@@ -371,17 +244,6 @@ else if (I18n.locale == "da_DK") {
     };
 }
 else if (I18n.locale == "nb_NO") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulanseutvidelse": 0,
-        "Flyplassutvidelse": 1,
-        "Vannredningsutvidelse": 2,
-        // Pol-Erweiterungen (10-19)
-        "Fengselscelle": 10,
-        "Flere celler": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Mannskapsbil", 0],
         "1": ["Lett mannskapsbil", 0],
@@ -404,19 +266,7 @@ else if (I18n.locale == "nb_NO") {
         "18": ["Tungredningsbil", 0]
     };
 }
-else if (I18n.locale == "pl_PL")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Rozbudowa dla pogotowia": 0,
-        "Ratownictwo Wodne": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Cela więzienna": 10,
-        "Dodatkowa cela": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
+else if (I18n.locale == "pl_PL") {
     lssm.carsById = {
         "0": ["Ciężki samochód gaśniczy", 0],
         "1": ["Średni samochód gaśniczy", 0],
@@ -448,18 +298,7 @@ else if (I18n.locale == "pl_PL")
     };
 }
 else if (I18n.locale == "it_IT") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Estensione ambulanze": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Cella della prigione": 10,
-        "Altra cella": 10,
-        // Schule-Erweiterungen (20-29)
-        "Altre classi": 20,
-    };
-    lssm.carsById = {
+   lssm.carsById = {
         "0": ["ABP", 0],
         "1": ["AS", 0],
         "2": ["AV/FNZ", 0],
@@ -481,17 +320,6 @@ else if (I18n.locale == "it_IT") {
     };
 }
 else if (I18n.locale == "fr_FR") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Service de Santé et de Secours Médical": 0,
-        "Unité nautique": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Cellule de prison": 10,
-        "Plus de cellules": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.educations = [
         'SAV (Sauvetage Aquatique)',
         'PLG (Plongeur)',
@@ -518,17 +346,6 @@ else if (I18n.locale == "fr_FR") {
     };
 }
 else if (I18n.locale == "ru_RU") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Расширение станции скорой помощи": 0,
-        "Water rescue expansion": 1,
-        "Airport extension": 2,
-        // Pol-Erweiterungen (10-19)
-        "Тюремная камера": 10,
-        "Ещё камера": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["АЦ-3,0-40", 0],
         "1": ["АЦ 2,3-40", 0],
@@ -552,17 +369,6 @@ else if (I18n.locale == "ru_RU") {
     };
 }
 else if (I18n.locale == "uk_UA") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Розширення станції швидкої допомоги": 0,
-        "Розширення аеропорту": 1,
-        "Розширення водолазно-рятувальної станції": 2,
-        // Pol-Erweiterungen (10-19)
-        "Камера в'язниці": 10,
-        "Ще камера": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Пожежна автоцистерна", 0],
         "1": ["Автомобіль першої допомоги", 0],
@@ -577,17 +383,6 @@ else if (I18n.locale == "uk_UA") {
     };
 }
 else if (I18n.locale == "ja_JP") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "救急車の増設": 0,
-        "空港の増設": 1,
-        "水難救助隊の増設": 2,
-        // Pol-Erweiterungen (10-19)
-        "独房": 10,
-        "独房の追加": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["救助ハシゴ", 0],
         "1": ["戦術対応車両（TRV）", 0],
@@ -602,17 +397,6 @@ else if (I18n.locale == "ja_JP") {
     };
 }
 else if (I18n.locale == "ko_KR") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "구급차 확충": 0,
-        "비행장 확충": 1,
-        "수상 구조 확충": 2,
-        // Pol-Erweiterungen (10-19)
-        "유치장": 10,
-        "추가 유치장": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["구조사다리", 0],
         "1": ["전술 대응 차량(TRV)", 0],
@@ -627,17 +411,6 @@ else if (I18n.locale == "ko_KR") {
     };
 }
 else if (I18n.locale == "ro_RO") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Extensie ambulanță": 0,
-        "Extensie aeroport": 1,
-        "Extindere salvare acvatică": 2,
-        // Pol-Erweiterungen (10-19)
-        "Celulă de pușcărie": 10,
-        "Celulă suplimentară": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Pompă de incendiu tip 1", 0],
         "1": ["Pompă de incendiu tip 2", 0],
@@ -652,17 +425,6 @@ else if (I18n.locale == "ro_RO") {
     };
 }
 else if (I18n.locale == "fi_FI") {
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulanssilaajennus": 0,
-        "Lentokenttälaajennus": 1,
-        "Vesipelastuslaajennus": 2,
-        // Pol-Erweiterungen (10-19)
-        "Vankilan selli": 10,
-        "Lisäselli": 10,
-        // Schule-Erweiterungen (20-29)
-        "More classrooms": 20,
-    };
     lssm.carsById = {
         "0": ["Tyypin 1 paloauto", 0],
         "1": ["Tyypin 2 paloauto", 0],
@@ -676,24 +438,7 @@ else if (I18n.locale == "fi_FI") {
         "9": ["Lääkärihelikopteri (HEMS)", 1]
     };
 }
-else if (I18n.locale == "nl_NL")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Ambulance standplaats": 0,
-        "Waterongevallenbestrijding": 1,
-        "Vliegtuigbrandbestrijding": 2,
-        "Haakarmbak parkeerplaats": 5,
-        // Pol-Erweiterungen (10-19)
-        "Gevangeniscel": 10,
-        "Extra cel": 10,
-        "2e OvD-P": 11,
-        "Mobiele Eenheid, Sectie": 12,
-        "Levende Have": 13,
-        "Arrestatieteam": 14,
-        // Schule-Erweiterungen (20-29)
-        "Extra klaslokaal": 20,
-    };
+else if (I18n.locale == "nl_NL") {
     lssm.carsById = {
         "0": ["SIV | Snel Interventie Voertuig", 0],
         "1": ["TS 8/9 | Tankautospuit (8/9 personen)", 0],
@@ -755,45 +500,7 @@ else if (I18n.locale == "nl_NL")
         "57": ["DA OVDG-RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder", 1]
     };
 }
-else if (I18n.locale == "de_DE")
-{
-    lssm.extensions = {
-        // FW-Erwerterungen (0-9)
-        "Rettungsdienst-Erweiterung": 0,
-        "Wasserrettungs-Erweiterung": 1,
-        "Flughafen-Erweiterung": 2,
-        "Großwache": 3,
-        "Werkfeuerwehr": 4,
-        "Abrollbehälter-Stellplatz": 5,
-        // Pol-Erweiterungen (10-19)
-        "Zelle": 10,
-        "Weitere Zelle": 10,
-        "2. Zug der 1. Hundertschaft ": 11,
-        "3. Zug der 1. Hundertschaft ": 11,
-        "Sonderfahrzeug: Gefangenenkraftwagen": 12,
-        "Technischer Zug: Wasserwerfer": 13,
-        "SEK 1. Zug": 14,
-        "SEK 2. Zug": 14,
-        "MEK 1. Zug": 15,
-        "MEK 2. Zug": 15,
-        //Schule-Erweiterungen (20-29)
-        "Weiterer Klassenraum": 20,
-        // SEG-Erweiterungen (30-39)
-        "Führung": 30,
-        "Sanitätsdienst": 31,
-        "Wasserrettung": 32,
-        "Rettungshundestaffel": 33,
-        // THW-Erweiterungen (40-49)
-        "Bergungsgruppe 2": 40,
-        "Zugtrupp": 41,
-        "Fachgruppe Räumen": 42,
-        "Fachgruppe Wassergefahren": 43,
-        "2. Technischer Zug - Grundvoraussetzung": 44,
-        "2. Technischer Zug: Bergungsgruppe 2": 45,
-        "2. Technischer Zug: Zugtrupp ": 46,
-        "Fachgruppe Ortung": 47,
-    };
-
+else if (I18n.locale == "de_DE") {
     lssm.buildingTypes = [
         'Feuerwache',
         'Feuerwehrschule',
