@@ -419,7 +419,9 @@
                 12: 'Obrněné vozidlo URNA',
                 13: 'Vozidlo Kynologů PČR',
                 14: 'Policejní motocykl',
-                15: 'URNA SUV'
+                15: 'URNA SUV',
+                16: 'Protiplynový automobil',
+                17: 'MOS'
             }
         }
     };
