@@ -2691,7 +2691,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 550
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -4842,8 +4844,7 @@
                 "0": 44,
                 "1": 74,
                 "2": 106,
-                "3": 107,
-                "4": 270
+                "3": 107
             },
             "max_possible_prisoners": 5
         },
