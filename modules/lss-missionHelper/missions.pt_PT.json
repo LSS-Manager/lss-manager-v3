@@ -545,7 +545,7 @@
     },
     "24": {
         "id": 24,
-        "name": "Paragem do autocarro a arder",
+        "name": "Paragem de autocarro a arder",
         "place": "Paragem de Autocarro",
         "average_credits": 900,
         "generated_by": "Unidade do corpo de bombeiros",
@@ -2403,7 +2403,7 @@
     },
     "110": {
         "id": 110,
-        "name": "Fogo num aterro sanit\u00e1rio",
+        "name": "Inc\u00eandio num aterro sanit\u00e1rio",
         "place": "Aterro sanit\u00e1rio",
         "average_credits": 3500,
         "generated_by": "Unidade do corpo de bombeiros",

@@ -2691,6 +2691,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 550
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2724,6 +2727,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 550
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -14158,6 +14164,42 @@
         },
         "prerequisites": {
             "mek": 1
+        }
+    },
+    "550": {
+        "id": 550,
+        "name": "LKW auf PKW gest\u00fcrzt",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "gwoil": 1,
+            "police_cars": 4,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "gwoil": 80,
+            "nef": 75,
+            "patient_transport": 80,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 6
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "thw": 1,
+            "fire_stations": 10
         }
     }
 }
