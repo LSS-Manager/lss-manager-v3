@@ -2727,6 +2727,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 550
+            },
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
