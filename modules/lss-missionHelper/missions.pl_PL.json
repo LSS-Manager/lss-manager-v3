@@ -4450,5 +4450,57 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "212": {
+        "id": 212,
+        "name": "Po\u017car Fabryki Chemikali\u00f3w",
+        "place": "Fabryka",
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 3,
+            "hazmat_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 80
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Du\u017cy po\u017car pola",
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 7
+        }
     }
 }

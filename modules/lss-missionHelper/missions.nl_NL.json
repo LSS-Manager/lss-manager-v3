@@ -15210,5 +15210,74 @@
             "police_stations": 2,
             "fire_stations": 6
         }
+    },
+    "624": {
+        "id": 624,
+        "name": "Onbeheerde bagage gevonden",
+        "place": "Centraal Station",
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 625
+            }
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "625": {
+        "id": 625,
+        "name": "Onbeheerde bagage gevonden",
+        "place": "Centraal Station",
+        "average_credits": 1970,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 2,
+            "ovdp": 1
+        },
+        "chances": {
+            "ovdp": 5
+        },
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 5,
+            "bereitschaftspolizei": 1
+        }
+    },
+    "626": {
+        "id": 626,
+        "name": "Onbeheerde bagage gevonden",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
