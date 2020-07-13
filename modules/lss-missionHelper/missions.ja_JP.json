@@ -2589,14 +2589,35 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 119
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "\u4e00\u822c\u5185\u79d1"
         },
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 6
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "\u4fe1\u53f7\u6a5f\u306e\u6545\u969c",
+        "place": "\u4fe1\u53f7\u3067\u6a2a\u65ad",
+        "average_credits": 250,
+        "generated_by": "\u8b66\u5bdf\u7f72",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20\u5206",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     }
 }

@@ -9641,9 +9641,7 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {
-                "0": 411
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9674,9 +9672,7 @@
         },
         "additional": {
             "possible_patient": 6,
-            "expansion_missions_ids": {
-                "0": 423
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9709,9 +9705,7 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {
-                "0": 424
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9870,6 +9864,30 @@
         "prerequisites": {
             "rescue_boat_docks": 1,
             "fire_stations": 7
+        }
+    },
+    "421": {
+        "id": 421,
+        "name": "Panic attack",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

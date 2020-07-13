@@ -14193,7 +14193,8 @@
             "helicopter": 10
         },
         "additional": {
-            "possible_patient": 6
+            "possible_patient": 6,
+            "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
             "rescue_stations": 4,

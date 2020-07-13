@@ -3663,14 +3663,35 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 160
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 6
+        }
+    },
+    "159": {
+        "id": 159,
+        "name": "\u00d8delagt trafikklys",
+        "place": "Lyskryss",
+        "average_credits": 250,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20 minutter",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     }
 }

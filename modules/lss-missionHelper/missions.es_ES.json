@@ -3179,5 +3179,28 @@
             "rescue_stations": 8,
             "fire_stations": 6
         }
+    },
+    "168": {
+        "id": 168,
+        "name": "Fallo de sem\u00e1foro",
+        "place": "Intersecci\u00f3n con sem\u00e1foros",
+        "average_credits": 250,
+        "generated_by": "Comisar\u00eda de polic\u00eda",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20 minutter",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

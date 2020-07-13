@@ -2246,14 +2246,35 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 106
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
             "rescue_stations": 8,
             "fire_stations": 6
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Semafor defect",
+        "place": "Intersec\u021bie cu semafor",
+        "average_credits": 250,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20 minutes",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     }
 }

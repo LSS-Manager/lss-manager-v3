@@ -2431,5 +2431,28 @@
             "rescue_stations": 8,
             "fire_stations": 6
         }
+    },
+    "117": {
+        "id": 117,
+        "name": "Sem\u00e1foros quebrados",
+        "place": "Interse\u00e7\u00e3o com sem\u00e1foros",
+        "average_credits": 250,
+        "generated_by": "Delegacias de pol\u00edcia militar",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20 minutos",
+            "guard_mission": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

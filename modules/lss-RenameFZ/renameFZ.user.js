@@ -19,7 +19,7 @@
         statusWaiting: 'Warte auf Eingabe',
         statusError: '<b>Fehler bei der Generierung!</b> Sollte dieser Fehler ein weiteres mal auftreten, bitte melde ihn. Bitte teile dann folgendes mit:',
         statusWorking: 'Generiere Namen und Formulare. Dies kann, abhängig von System und Anzahl der Fahrzeuge, eine gewisse Zeit in Anspruch nehmen.',
-        statusSuccess: 'Namen und Forumlare erfolgreich generiert!',
+        statusSuccess: 'Namen und Formulare erfolgreich generiert!',
         nameAlreadyCorrect: 'Name entspricht bereits der Vorlage!',
         nameToLong: 'Für folgende Fahrzeuge ist der Name zu lang:',
         nameToLongOriginalName: 'Ursprünglicher Name',
