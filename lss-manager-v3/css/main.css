@@ -22,10 +22,6 @@ li {
 
 ################################################## */
 
-.lssm-wp-fz-panel-heading--red {
-  background-color:
-}
-
 .lssm-wp-fz--info {
   border-radius: .25em !important;
   display: inline-block !important;
@@ -349,17 +345,17 @@ div#preloader {
 }
 
 .label-rw {
-  background-color: #f9ffb7 !important;
+  background-color: #eb7900 !important;
   color: #4a4a4a !important
 }
 
 .label-rhl {
-  background-color: #e6f268 !important;
+  background-color: #ed9e00 !important;
   color: #4a4a4a !important;
 }
 
 .label-seg{
-  background-color: #cdd668 !important;
+  background-color: #cc6d00 !important;
   color: #4a4a4a !important;
 }
 
