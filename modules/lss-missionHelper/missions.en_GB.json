@@ -3936,7 +3936,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 192
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {

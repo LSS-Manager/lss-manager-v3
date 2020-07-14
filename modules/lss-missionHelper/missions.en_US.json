@@ -9641,7 +9641,9 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 411
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9672,7 +9674,9 @@
         },
         "additional": {
             "possible_patient": 6,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 423
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9705,7 +9709,9 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 424
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {

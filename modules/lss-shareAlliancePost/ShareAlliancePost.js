@@ -508,7 +508,7 @@
         optionsBtnMarkup += '<div style="text-align: left;"><ul>';
         $.each(messages, (index, msg) => {
             optionsBtnMarkup +=
-                '<li class="customAllianceShareText">' + msg + '</li>';
+                '<li class="custom_alliance_share_text">' + msg + '</li>';
         });
         optionsBtnMarkup += '</ul></div>';
         optionsBtnMarkup += '</div>';
@@ -527,7 +527,7 @@
             $('#openAllianceShareOptions').hide();
         });
 
-        $('.customAllianceShareText').click(function() {
+        $('.custom_alliance_share_text').click(function() {
             $('#allianceShareText').val($(this).text());
         });
 
