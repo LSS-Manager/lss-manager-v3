@@ -4,7 +4,7 @@
         "name": "Inc\u00eandio num caixote do lixo",
         "place": "Paragem de Autocarro",
         "average_credits": 110,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -24,7 +24,7 @@
         "name": "Inc\u00eandio num contentor do lixo",
         "place": null,
         "average_credits": 170,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -44,7 +44,7 @@
         "name": "Inc\u00eandio num carro",
         "place": null,
         "average_credits": 370,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -70,7 +70,7 @@
         "name": "Inc\u00eandio numa mota",
         "place": null,
         "average_credits": 340,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -94,7 +94,7 @@
         "name": "Inc\u00eandio num relvado",
         "place": null,
         "average_credits": 200,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -118,7 +118,7 @@
         "name": "Inc\u00eandio num quarto",
         "place": null,
         "average_credits": 1400,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -145,7 +145,7 @@
         "name": "Inc\u00eandio num jardim",
         "place": null,
         "average_credits": 600,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -165,7 +165,7 @@
         "name": "Inc\u00eandio de sobrantes",
         "place": null,
         "average_credits": 210,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -189,7 +189,7 @@
         "name": "Pequeno inc\u00eandio numa lixeira",
         "place": null,
         "average_credits": 220,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -215,7 +215,7 @@
         "name": "Inc\u00eandio num fardo de palha",
         "place": null,
         "average_credits": 250,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -240,7 +240,7 @@
         "name": "Trator a arder",
         "place": null,
         "average_credits": 600,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -260,7 +260,7 @@
         "name": "Cabine telef\u00f3nica a arder",
         "place": null,
         "average_credits": 240,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -280,7 +280,7 @@
         "name": "Queda de \u00c1rvore",
         "place": null,
         "average_credits": 310,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/sawmill_gruen.png",
             "1": "/images/sawmill_gelb.png",
@@ -305,7 +305,7 @@
         "name": "Inc\u00eandio num cami\u00e3o",
         "place": null,
         "average_credits": 980,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -325,7 +325,7 @@
         "name": "Pequeno inc\u00eandio agr\u00edcola",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -349,7 +349,7 @@
         "name": "Pequeno inc\u00eandio florestal",
         "place": "Floresta",
         "average_credits": 1010,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -369,7 +369,7 @@
         "name": "Inc\u00eandio numa caravana",
         "place": null,
         "average_credits": 1100,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -389,7 +389,7 @@
         "name": "Inc\u00eandio numa caixa de correio",
         "place": null,
         "average_credits": 340,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -409,7 +409,7 @@
         "name": "Queimada descontrolada",
         "place": null,
         "average_credits": 700,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -429,7 +429,7 @@
         "name": "Inc\u00eandio num Reboque",
         "place": null,
         "average_credits": 650,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -449,7 +449,7 @@
         "name": "Inc\u00eandio numa cave",
         "place": null,
         "average_credits": 2500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -475,7 +475,7 @@
         "name": "Chamin\u00e9 a arder",
         "place": null,
         "average_credits": 2400,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -503,7 +503,7 @@
         "name": "Inc\u00eandio no telhado de uma casa",
         "place": null,
         "average_credits": 2700,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -528,7 +528,7 @@
         "name": "Fog\u00e3o a arder",
         "place": null,
         "average_credits": 1200,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -548,7 +548,7 @@
         "name": "Paragem de autocarro a arder",
         "place": "Paragem de Autocarro",
         "average_credits": 900,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -568,7 +568,7 @@
         "name": "Acidente de via\u00e7\u00e3o",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -598,7 +598,7 @@
         "name": "Pequeno inc\u00eandio num supermercado",
         "place": "Supermercado (pequeno)",
         "average_credits": 1500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -625,7 +625,7 @@
         "name": "Inc\u00eandio numa garagem",
         "place": null,
         "average_credits": 1400,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -645,7 +645,7 @@
         "name": "M\u00e1quina agr\u00edcola a arder",
         "place": null,
         "average_credits": 2470,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -670,7 +670,7 @@
         "name": "Derrame de Combust\u00edvel",
         "place": null,
         "average_credits": 5300,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/oil_gruen.png",
             "1": "/images/oil_gelb.png",
@@ -695,7 +695,7 @@
         "name": "Fuga de g\u00e1s",
         "place": null,
         "average_credits": 400,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/oil_gruen.png",
             "1": "/images/oil_gelb.png",
@@ -717,7 +717,7 @@
         "name": "Inc\u00eandio numa salamandra",
         "place": null,
         "average_credits": 1310,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -739,7 +739,7 @@
         "name": "Ceifeira a arder",
         "place": null,
         "average_credits": 1200,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -759,7 +759,7 @@
         "name": "Pequeno Inc\u00eandio num Supermercado",
         "place": "Supermercado (pequeno)",
         "average_credits": 1500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -786,7 +786,7 @@
         "name": "Inc\u00eandio no hospital",
         "place": "Hospital",
         "average_credits": 6000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -962,7 +962,7 @@
         "name": "Inc\u00eandio numa oficina de mec\u00e2nica",
         "place": "Oficina mec\u00e2nica",
         "average_credits": 6000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1341,7 +1341,7 @@
         "name": "Inc\u00eandio numa cozinha",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1361,7 +1361,7 @@
         "name": "Resgate de animal",
         "place": "Quinta",
         "average_credits": 900,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/cat_gruen.png",
             "1": "/images/cat_gelb.png",
@@ -1382,7 +1382,7 @@
         "name": "Inc\u00eandio num pavilh\u00e3o desportivo",
         "place": "Escola",
         "average_credits": 2000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1454,7 +1454,7 @@
         "name": "Acidente com autocarro envolvido",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1481,7 +1481,7 @@
         "name": "Inc\u00eandio numa cozinha",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1501,7 +1501,7 @@
         "name": "Inc\u00eandio num quarto",
         "place": null,
         "average_credits": 1400,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1552,7 +1552,7 @@
         "name": "Grande inc\u00eandio num supermercado",
         "place": "Supermercado (grande)",
         "average_credits": 3000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1585,7 +1585,7 @@
         "name": "Derrame de Combust\u00edvel",
         "place": null,
         "average_credits": 4300,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/oil_gruen.png",
             "1": "/images/oil_gelb.png",
@@ -1610,7 +1610,7 @@
         "name": "Grande inc\u00eandio num supermercado",
         "place": "Supermercado (grande)",
         "average_credits": 3000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1654,7 +1654,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -1665,7 +1665,7 @@
         "name": "Queda de pequena aeronave",
         "place": null,
         "average_credits": 4000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/planecrash_gruen.png",
             "1": "/images/planecrash_gelb.png",
@@ -1696,7 +1696,7 @@
         "name": "Acidente Grave envolvendo um autocarro",
         "place": null,
         "average_credits": 2000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1714,7 +1714,7 @@
         },
         "additional": {
             "possible_patient": 12,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 8,
@@ -1727,7 +1727,7 @@
         "name": "Inc\u00eandio de grandes dimens\u00f5es",
         "place": null,
         "average_credits": 10210,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/blast_gruen.png",
             "1": "/images/blast_gelb.png",
@@ -1751,7 +1751,7 @@
         "name": "Acidente envolvendo v\u00e1rias viaturas",
         "place": null,
         "average_credits": 3000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1782,7 +1782,7 @@
         "name": "Acidente de mota",
         "place": null,
         "average_credits": 2300,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/icy_road_gruen.png",
             "1": "/images/icy_road_gelb.png",
@@ -1835,7 +1835,7 @@
         "name": "Inc\u00eandio no refeit\u00f3rio",
         "place": "Escola",
         "average_credits": 1300,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1864,7 +1864,7 @@
         "name": "Preso a fazer escalada",
         "place": null,
         "average_credits": 650,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/climbing_gruen.png",
             "1": "/images/climbing_gelb.png",
@@ -1919,7 +1919,7 @@
         "name": "Inc\u00eandio num silo",
         "place": "Silo",
         "average_credits": 3000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -1959,7 +1959,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -1971,7 +1971,7 @@
         "name": "Inc\u00eandio numa pilha de fardos de palha",
         "place": "Quinta",
         "average_credits": 1500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2015,7 +2015,7 @@
         "name": "Descarrilamento de Comboio de Carga",
         "place": null,
         "average_credits": 10000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2048,7 +2048,7 @@
         "name": "Descarrilamento de Comboio de Carga",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
         "average_credits": 10000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2081,7 +2081,7 @@
         "name": "Descarrilamento de Comboio de Carga",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
         "average_credits": 10000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2114,7 +2114,7 @@
         "name": "Resgate numa vala",
         "place": null,
         "average_credits": 2500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2130,7 +2130,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -2157,7 +2157,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 2
@@ -2168,7 +2168,7 @@
         "name": "Colapso de fachada de edif\u00edcio",
         "place": null,
         "average_credits": 7500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2201,7 +2201,7 @@
         "name": "Colapso de edif\u00edcio",
         "place": null,
         "average_credits": 9000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2248,7 +2248,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 4
@@ -2284,7 +2284,7 @@
         "name": "Grande inc\u00eandio num palheiro",
         "place": "Quinta",
         "average_credits": 9000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2406,7 +2406,7 @@
         "name": "Inc\u00eandio num aterro sanit\u00e1rio",
         "place": "Aterro sanit\u00e1rio",
         "average_credits": 3500,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2480,7 +2480,7 @@
         "name": "Rebentamento de Conduta de \u00e1gua",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/river_gruen.png",
             "1": "/images/river_gelb.png",
@@ -2588,7 +2588,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "Cirurgi\u00e3o geral"
+            "patient_specializations": "Cirurgia Geral"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -2703,7 +2703,7 @@
         "name": "Inc\u00eandio num churrasco",
         "place": null,
         "average_credits": 600,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2726,7 +2726,7 @@
         "name": "Pequeno inc\u00eandio num hotel",
         "place": "Hotel",
         "average_credits": 3000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2755,7 +2755,7 @@
         "name": "Inc\u00eandio num hotel",
         "place": "Hotel",
         "average_credits": 5000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
@@ -2771,7 +2771,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 126
+            },
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -2784,7 +2786,7 @@
         "name": "Incidente numa Mina",
         "place": null,
         "average_credits": 6000,
-        "generated_by": "Unidade do corpo de bombeiros",
+        "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
             "1": "/images/fire_gelb.png",
