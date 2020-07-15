@@ -283,7 +283,7 @@
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
             cells: 'Verberg volle cellen',
-            cellsYellow: 'Verberg politiebureaus/cellen met minder vrije cellen dan nodig is'
+            cellsYellow: 'Verberg politiebureaus/cellencomplexen met minder vrije cellen dan nodig zijn'
         }
     };
 
