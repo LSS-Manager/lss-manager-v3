@@ -1223,14 +1223,14 @@
                 stations: 'Aquí puede establecer nombres alternativos para cada edificio. Puede utilizarlos al cambiar el nombre de sus vehículos a través del centro de envío.'
             },
             validStationTypes: {
-                0: "Unidade do corpo de bombeiros",
+                0: "Corpo de Bombeiros",
                 2: "Estação de ambulância",
                 5: "Centro de meios aéreos",
                 6: "Esquadra de Polícia",
-                7: "Central de Despacho",
-                18: "Unidade do corpo de bombeiros (pequena)",
+                7: "Centro de Comando",
+                18: "Corpo de Bombeiros (Pequeno)",
                 19: "Esquadra de Polícia (Pequena)",
-                20: "Estação de ambulância (estação pequena)"
+                20: "Estação de Ambulâncias (Pequena)"
             },
             vehicleTypes: {
                 0: 'VRCI',
