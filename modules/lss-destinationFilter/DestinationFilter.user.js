@@ -1,5 +1,7 @@
 ((I18n) => {
     const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
+    
+    const gefkwCountries = ['de_DE'];
 
     I18n.translations.de_DE.lssm.destfilter = {
         title: 'Zielort Filter',
@@ -322,11 +324,13 @@
                     type: 'checkbox'
                 }
             },
-            cellsYellow: {
-                default: false,
-                ui: {
-                    label: I18n.t('lssm.destfilter.settings.cellsYellow'),
-                    type: 'checkbox'
+            ...gefkwCountries.includes(I18n.locale) && {
+                cellsYellow: {
+                    default: false,
+                    ui: {
+                        label: I18n.t('lssm.destfilter.settings.cellsYellow'),
+                        type: 'checkbox'
+                    }
                 }
             },
             distance: {
@@ -445,7 +449,7 @@
     mode === 'hospital' && settingsNode.appendChild(settingNode('beds', 'checkbox'));
     mode === 'hospital' && settingsNode.appendChild(settingNode('department', 'checkbox'));
     mode === 'prison' && settingsNode.appendChild(settingNode('cells', 'checkbox'));
-    mode === 'prison' && settingsNode.appendChild(settingNode('cellsYellow', 'checkbox'));
+    mode === 'prison' && gefkwCountries.includes(I18n.locale) && settingsNode.appendChild(settingNode('cellsYellow', 'checkbox'));
     settingsNode.appendChild(settingNode('distance', 'number', {
         min: 0
     }));
