@@ -595,7 +595,7 @@
     },
     "26": {
         "id": 26,
-        "name": "Pequeno inc\u00eandio num supermercado",
+        "name": "Inc\u00eandio num Supermercado",
         "place": "Supermercado (pequeno)",
         "average_credits": 1500,
         "generated_by": "Corpo de Bombeiros",
@@ -2771,7 +2771,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 126
+            },
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
