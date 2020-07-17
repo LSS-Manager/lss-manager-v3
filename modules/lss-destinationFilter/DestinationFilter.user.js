@@ -1,5 +1,7 @@
 ((I18n) => {
     const LSS_DESTFILTER_STORAGE = 'LSS_DESTFILTER_STORAGE';
+    
+    const gefkwCountries = ['de_DE'];
 
     I18n.translations.de_DE.lssm.destfilter = {
         title: 'Zielort Filter',
@@ -12,7 +14,8 @@
             department: 'KH ohne korrekte Fachabteilung ausblenden',
             distance: 'Ziele über x km Entfernung ausblenden (0 deaktiviert)',
             tax: 'Ziele mit einer Abgabe von mehr als x% ausblenden',
-            cells: 'Volle Polizeistationen/Zellen ausblenden'
+            cells: 'Volle Polizeistationen/Zellen ausblenden',
+            cellsYellow: 'Polizeistationen/Zellen mit weniger freien Zellen als benötigt ausblenden'
         }
     };
     I18n.translations.en_US.lssm.destfilter = {
@@ -26,49 +29,53 @@
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            cells: 'Hide full cells',
+            cellsYellow: 'Hide police stations/cells with fewer free cells than required'
         }
     };
     I18n.translations.cs_CZ.lssm.destfilter = {
-        title: 'Destination Filter',
+        title: 'Cílový filtr',
         freeBeds: 'Free beds',
-        beds1: 'Blind hospitals under x beds off',
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Skrýt plné nemocnice',
+            beds1: 'Nevidomé nemocnice pod x lůžka off',
+            department: 'Skrýt nemocnice bez potřebného oddělení',
+            distance: 'Skrýt cíle nad x km vzdálenost (0 deaktivuje)',
+            tax: 'Skrýt cíle s DPH vyšší než x%',
+            cells: 'Skrýt celé buňky',
+            cellsYellow: 'Skrytí policejních stanic/buněk s menším počtem volných buněk, než je požadováno'
         }
     };
     I18n.translations.es_ES.lssm.destfilter = {
-        title: 'Destination Filter',
+        title: 'Filtro de destino',
         freeBeds: 'Free beds',
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Ocultar hospitales completos',
+            beds1: 'Hospitales ciegos bajo x camas apagadas',
+            department: 'Ocultar hospitales sin necesidad de departamento',
+            distance: 'Ocultar destinos por encima de x km de distancia (0 desactiva)',
+            tax: 'Ocultar destinos con un IMPUESTO superior a x%',
+            cells: 'Ocultar celdas completas',
+            cellsYellow: 'Ocultar las comisarías/células con menos celdas libres de las necesarias'
         }
     };
     I18n.translations.pt_PT.lssm.destfilter = {
-        title: 'Destination Filter',
+        title: 'Filtro destino',
         freeBeds: 'Free beds',
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Esconder hospitais completos',
+            beds1: 'Hospitais cegos sob x camas fora',
+            department: 'Esconder hospitais sem o departamento necessário',
+            distance: 'Esconder destinos acima de x km distância (0 desativa)',
+            tax: 'Esconder destinos com um IMPOSTO superior a x%',
+            cells: 'Esconder células completas',
+            cellsYellow: 'Esconder esquadras/células com menos células livres do que o necessário'
         }
     };
     I18n.translations.pl_PL.lssm.destfilter = {
@@ -82,21 +89,23 @@
             department: 'Ukrywać szpitale bez potrzebnego oddziału',
             distance: 'Ukrywać cele podróży powyżej x km (0 dezaktywuje się)',
             tax: 'Ukrycie miejsc przeznaczenia z podatkiem podatkowym wyższym niż x%',
-            cells: 'Ukrywać pełne komórki'
+            cells: 'Ukrywać pełne komórki',
+            cellsYellow: 'Ukrywanie posterunków policji/komórek z mniejszą ilością wolnych komórek niż jest to wymagane'
         }
     };
     I18n.translations.sv_SE.lssm.destfilter = {
-        title: 'Destination Filter',
+        title: 'Målfilter',
         freeBeds: 'Free beds',
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Dölj hela sjukhus',
+            beds1: 'Blinda sjukhus under x bäddar av',
+            department: 'Göm sjukhus utan nödvändig avdelning',
+            distance: 'Dölj destinationer över x km avstånd (0 inaktiverar)',
+            tax: 'Dölj mål med en moms som är högre än x%',
+            cells: 'Dölja fullständiga celler',
+            cellsYellow: 'Dölj polisstationer/celler med färre lediga celler än vad som krävs'
         }
     };
     I18n.translations.da_DK.lssm.destfilter = {
@@ -105,12 +114,13 @@
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Skjul fulde hospitaler',
+            beds1: 'Blinde hospitaler under x senge off',
+            department: 'Skjul hospitaler uden behov afdeling',
+            distance: 'Skjul destinationer over x km afstand (0 deaktiverer)',
+            tax: 'Skjul destinationer med en moms, der er højere end x%',
+            cells: 'Skjul hele celler',
+            cellsYellow: 'Skjul politistationer/celler med færre ledige celler end påkrævet'
         }
     };
     I18n.translations.nb_NO.lssm.destfilter = {
@@ -119,12 +129,13 @@
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Skjul hele sykehus',
+            beds1: 'Blind sykehus under x senger av',
+            department: 'Skjul sykehus uten nødvendig avdeling',
+            distance: 'Skjul destinasjoner over x km avstand (0 deaktiverer)',
+            tax: 'Skjul destinasjoner med en avgift som er høyere enn x %',
+            cells: 'Skjul hele celler',
+            cellsYellow: 'Skjul politistasjoner/celler med færre frie celler enn nødvendig'
         }
     };
     I18n.translations.it_IT.lssm.destfilter = {
@@ -138,7 +149,8 @@
             department: 'Nascondi ospedali senza reparto necessario',
             distance: 'Nascondi destinazioni oltre la distanza di x km (0 disattiva)',
             tax: 'Nascondi destinazioni con una TASSA superiore a x%',
-            cells: 'Nascondi celle piene'
+            cells: 'Nascondi celle piene',
+            cellsYellow: 'Nascondere le stazioni di polizia/celle con meno celle libere del necessario'
         }
     };
     I18n.translations.tr_TR.lssm.destfilter = {
@@ -152,7 +164,8 @@
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            cells: 'Hide full cells',
+            cellsYellow: 'Hide police stations/cells with fewer free cells than required'
         }
     };
     I18n.translations.fr_FR.lssm.destfilter = {
@@ -166,7 +179,8 @@
             department: 'Cacher les hôpitaux sans service nécessaire',
             distance: 'Cacher les destinations situées à plus de x km de distance (0 désactive)',
             tax: 'Cacher les destinations dont la TAXE est supérieure à x%',
-            cells: 'Masquer les cellules pleines'
+            cells: 'Masquer les cellules pleines',
+            cellsYellow: 'Cachez les commissariats de police / cellules avec moins de cellules libres que nécessaire'
         }
     };
     I18n.translations.ru_RU.lssm.destfilter = {
@@ -176,11 +190,12 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Скрыть полные больницы',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Слепые больницы под х койками',
             department: 'Скрывать больницы без необходимого отделения',
             distance: 'Скрыть пункты назначения на расстоянии свыше x км (деактивируется 0)',
             tax: 'Скрытие пунктов назначения с коэффициентом TAX выше x%.',
-            cells: 'Скрыть полные ячейки'
+            cells: 'Скрыть полные ячейки',
+            cellsYellow: 'Скрывать полицейские участки/клетки с меньшим количеством свободных камер, чем требуется'
         }
     };
     I18n.translations.uk_UA.lssm.destfilter = {
@@ -189,12 +204,13 @@
         tax: 'TAX',
         cellTax: 'owner\'s tax',
         settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells'
+            beds: 'Сховати повні лікарні',
+            beds1: 'Сліпі лікарні під x ліжками вимкнено',
+            department: 'Сховати лікарні без необхідності департаменту',
+            distance: 'Сховати пункти призначення над відстанню x км (0 деактивувати)',
+            tax: 'Сховати пункти призначення з ПОДАТКОМ вище, ніж x%',
+            cells: 'Сховати повні клітинки',
+            cellsYellow: 'Сховати поліцейські станції/комірки з меншою кількістю вільних клітинок, ніж вимагається'
         }
     };
     I18n.translations.ja_JP.lssm.destfilter = {
@@ -204,11 +220,12 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: '病院全体を隠す',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: '盲目の病院は×ベッドオフ以下',
             department: '必要な部門のない病院を隠す',
             distance: 'x kmの距離を超える目的地を非表示（0が無効化）',
             tax: 'TAXがx％を超える仕向地を非表示にする',
-            cells: 'セル全体を非表示'
+            cells: 'セル全体を非表示',
+            cellsYellow: '必要以上に少ないフリーセルで警察署/セルを隠す'
         }
     };
     I18n.translations.ko_KR.lssm.destfilter = {
@@ -218,11 +235,12 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: '전체 병원 숨기기',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'X 베드 오프 아래 블라인드 병원',
             department: '필요한 부서없이 병원 숨기기',
             distance: 'xkm 거리 이상의 목적지 숨기기 (0 비활성화)',
             tax: '세금이 x %보다 높은 목적지 숨기기',
-            cells: '전체 세포 숨기기'
+            cells: '전체 세포 숨기기',
+            cellsYellow: '필요한 것보다 적은 무료 셀로 경찰서 / 셀 숨기기'
         }
     };
     I18n.translations.ro_RO.lssm.destfilter = {
@@ -232,11 +250,12 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Ascunde spitale complete',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Spitale oarbe sub x paturi off',
             department: 'Ascunde spitale lefarsina fara departamentul necesar',
             distance: 'Ascundedestinațiile peste x km distanță (0 dezactivează)',
             tax: 'Ascundeți destinațiile cu o TAXĂ mai mare de x%',
-            cells: 'Ascunderea celulelor complete'
+            cells: 'Ascunderea celulelor complete',
+            cellsYellow: 'Ascunderea secțiilor/celulelor de poliție cu mai puține celule libere decât este necesar'
         }
     };
     I18n.translations.fi_FI.lssm.destfilter = {
@@ -246,11 +265,12 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Piilota täydet sairaalat',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Sokeat sairaalat alle x vuodepaikkaa pois',
             department: 'Piilota sairaalat ilman tarvittavaa osastoa',
             distance: 'Piilota kohteet yli x km etäisyyden (0 deaktivoituu)',
             tax: 'Piilota kohteet, joiden TAX on yli x%',
-            cells: 'Piilota täydet solut'
+            cells: 'Piilota täydet solut',
+            cellsYellow: 'Piilota poliisiasemat /solut, joissa on vähemmän vapaita soluja kuin tarvitaan'
         }
     };
     I18n.translations.nl_NL.lssm.destfilter = {
@@ -264,7 +284,8 @@
             department: 'Verberg ziekenhuizen zonder benodigde afdeling',
             distance: 'Verberg bestemmingen boven x km afstand (0 wordt gedeactiveerd)',
             tax: 'Verberg bestemmingen met een Kosten hoger dan x%.',
-            cells: 'Verberg volle cellen'
+            cells: 'Verberg volle cellen',
+            cellsYellow: 'Verberg politiebureaus/cellencomplexen met minder vrije cellen dan nodig zijn'
         }
     };
 
@@ -301,6 +322,15 @@
                 ui: {
                     label: I18n.t('lssm.destfilter.settings.cells'),
                     type: 'checkbox'
+                }
+            },
+            ...gefkwCountries.includes(I18n.locale) && {
+                cellsYellow: {
+                    default: false,
+                    ui: {
+                        label: I18n.t('lssm.destfilter.settings.cellsYellow'),
+                        type: 'checkbox'
+                    }
                 }
             },
             distance: {
@@ -358,6 +388,8 @@
                 let taxMatch = el.innerText.match(new RegExp(`${I18n.t('lssm.destfilter.cellTax')}: \\d+%`));
                 if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
                 getSetting('cells') && el.classList.contains('btn-danger') && hide();
+                getSetting('cellsYellow') && el.classList.contains('btn-warning') && hide();
+                if (taxMatch) tax = parseInt(taxMatch[0].replace(/\D+/g, ''));
                 if (getSetting('distance') > 0) distance > getSetting('distance') && hide();
                 tax > getSetting('tax') && hide();
             });
@@ -417,6 +449,7 @@
     mode === 'hospital' && settingsNode.appendChild(settingNode('beds', 'checkbox'));
     mode === 'hospital' && settingsNode.appendChild(settingNode('department', 'checkbox'));
     mode === 'prison' && settingsNode.appendChild(settingNode('cells', 'checkbox'));
+    mode === 'prison' && gefkwCountries.includes(I18n.locale) && settingsNode.appendChild(settingNode('cellsYellow', 'checkbox'));
     settingsNode.appendChild(settingNode('distance', 'number', {
         min: 0
     }));

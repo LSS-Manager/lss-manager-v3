@@ -860,7 +860,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 case BUILDING_TYPE_SEG:
                     appendto = "rd";
                     icon = "fa-ambulance";
-                    maxcars = 9;
                     break;
                 case BUILDING_TYPE_RESCUE_DOG_UNIT:
                     appendto = "rd";
@@ -874,7 +873,6 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                     break;
                 case BUILDING_TYPE_THW:
                     appendto = "thw";
-                    maxcars = 15;
                     break;
                 case BUILDING_TYPE_FEUERWEHRSCHULE:
                 case BUILDING_TYPE_RETTUNGSSCHULE:
@@ -924,7 +922,7 @@ jQuery.expr[":"].conaintsci = jQuery.expr.createPseudo(function (arg) {
                 bd_data +=
                     '<span class="label label-primary">' +
                     '<i class="glyphicon glyphicon-home"></i> ' +
-                    '<span>' + vehicles.length + '/' + maxcars + ' </span>' +
+                    '<span>' + vehicles.length + '/' + vehicles.length + ' </span>' +
                     I18n.t('lssm.dashboard.carswp') +
                     '</span>';
             else if (maxcars < 0)

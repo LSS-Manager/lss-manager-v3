@@ -2246,9 +2246,7 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 106
-            },
+            "expansion_missions_ids": {},
             "patient_specializations": "Internist general"
         },
         "prerequisites": {

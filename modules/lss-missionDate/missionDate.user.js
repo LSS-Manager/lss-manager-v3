@@ -218,7 +218,7 @@
             'Avr',
             'Mai',
             'Juin',
-            'Juil',
+            'Juill',
             'Août',
             'Sep',
             'Oct',
@@ -322,7 +322,7 @@
         if (I18n.locale === 'en_GB') {
             let offset = today.getTimezoneOffset() / 60;
             // Zahl 1, weil EST UTC+1 ist
-            let newOffset = 0 - offset;
+            let newOffset = 1 - offset;
             newHour -= newOffset;
         }
         if (I18n.locale === 'pt_PT') {

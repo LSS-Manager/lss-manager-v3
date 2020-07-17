@@ -595,7 +595,7 @@
     },
     "26": {
         "id": 26,
-        "name": "Pequeno inc\u00eandio num supermercado",
+        "name": "Inc\u00eandio num Supermercado",
         "place": "Supermercado (pequeno)",
         "average_credits": 1500,
         "generated_by": "Corpo de Bombeiros",
@@ -839,7 +839,7 @@
     },
     "36": {
         "id": 36,
-        "name": "Dores peitorais",
+        "name": "Dores no peito",
         "place": null,
         "average_credits": null,
         "generated_by": "Esta\u00e7\u00e3o de ambul\u00e2ncia",
@@ -1549,7 +1549,7 @@
     },
     "68": {
         "id": 68,
-        "name": "Grande inc\u00eandio num supermercado",
+        "name": "Inc\u00eandio de Grandes Dimens\u00f5es num supermercado",
         "place": "Supermercado (grande)",
         "average_credits": 3000,
         "generated_by": "Corpo de Bombeiros",
@@ -1607,7 +1607,7 @@
     },
     "70": {
         "id": 70,
-        "name": "Grande inc\u00eandio num supermercado",
+        "name": "Inc\u00eandio de Grandes Dimens\u00f5es num supermercado",
         "place": "Supermercado (grande)",
         "average_credits": 3000,
         "generated_by": "Corpo de Bombeiros",
@@ -2281,7 +2281,7 @@
     },
     "105": {
         "id": 105,
-        "name": "Grande inc\u00eandio num palheiro",
+        "name": "Inc\u00eandio de Grandes Dimens\u00f5es num palheiro",
         "place": "Quinta",
         "average_credits": 9000,
         "generated_by": "Corpo de Bombeiros",
