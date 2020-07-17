@@ -550,7 +550,7 @@
   $mainDiv.click(function() {
     $(this).hide('slow');
   });
-    let $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
+    let $contentDiv = $('<div class="panel-body" style="background-color: white; color: black;"></div>');
     let $ul = $('<ul id="chatNoteUl"></ul>');
   $ul.css({
     'list-style': 'none',
@@ -570,7 +570,7 @@
   }
 
   function ChatPopup(date, user_id, username, mission_id, message) {
-      let e = "<li><span class='mission_chat_message_username'>[" + date + "] <a href='/profile/" + user_id + "' class='lightbox-open'>" + username + ":</a></span>";
+      let e = "<li><span class='mission_chat_message_username'>[" + date + "] <a href='/profile/" + user_id + "' class='lightbox-open' style='color: blue;'>" + username + ":</a></span>";
     mission_id && (e = e + "<a href='/missions/" + mission_id + "' class='lightbox-open'><span class='glyphicon glyphicon-bell'></span></a> ");
     e = e + " " + message + "</li>";
     $(e).appendTo($ul).delay(getSetting('n-alarm-timeout-chatp') * 1000).hide('slow', function() {
