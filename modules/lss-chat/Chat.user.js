@@ -24,7 +24,7 @@
     $mainDiv.click(function(){
         $(this).hide('slow');
     });
-    let $contentDiv = $('<div class="panel-body" style="background-color: white;"></div>');
+    let $contentDiv = $('<div class="panel-body" style="background-color: white; color: black;"></div>');
     let $ul = $('<ul id="chatNoteUl"></ul>');
     $ul.css({
         'list-style': 'none',
