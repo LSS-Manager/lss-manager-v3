@@ -4133,9 +4133,7 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {
-                "0": 192
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
         },
@@ -4166,6 +4164,80 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Hotel fire (large)",
+        "place": "Hotel",
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 10,
+            "mobile_air_vehicles": 30,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 20,
+            "expansion_missions_ids": {
+                "0": 193
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
+    },
+    "193": {
+        "id": 193,
+        "name": "Hotel fire (major)",
+        "place": "Hotel",
+        "average_credits": 12000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 50,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 30,
+            "police_stations": 6,
+            "fire_stations": 20
         }
     }
 }

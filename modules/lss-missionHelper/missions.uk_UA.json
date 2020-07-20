@@ -2525,5 +2525,73 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "116": {
+        "id": 116,
+        "name": "\u0412\u0435\u043b\u0438\u0447\u0435\u0437\u043d\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
+        "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "average_credits": 8000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 10,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 20,
+            "expansion_missions_ids": {
+                "0": 117
+            },
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "\u0412\u0435\u043b\u0438\u043a\u0430 \u043f\u043e\u0436\u0435\u0436\u0430 \u0432 \u0433\u043e\u0442\u0435\u043b\u0456",
+        "place": "\u0413\u043e\u0442\u0435\u043b\u044c",
+        "average_credits": 12000,
+        "generated_by": "\u041f\u043e\u0436\u0435\u0436\u043d\u0430 \u0447\u0430\u0441\u0442\u0438\u043d\u0430",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 50,
+            "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
+        },
+        "prerequisites": {
+            "rescue_stations": 30,
+            "police_stations": 6,
+            "fire_stations": 20
+        }
     }
 }

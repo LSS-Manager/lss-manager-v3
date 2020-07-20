@@ -3796,5 +3796,87 @@
         "prerequisites": {
             "rescue_stations": 2
         }
+    },
+    "178": {
+        "id": 178,
+        "name": "Noyade",
+        "place": "Rivi\u00e8re",
+        "average_credits": 1300,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 3,
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 3,
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "179": {
+        "id": 179,
+        "name": "Noyade",
+        "place": "Lac",
+        "average_credits": 1300,
+        "generated_by": "Secours nautique",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "2": 3,
+                "1": 3
+            }
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral",
+            "personnel_educations": {
+                "PLG (Plongeur)": 3,
+                "SAV (Sauvetage Aquatique)": 3
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
     }
 }
