@@ -3665,6 +3665,9 @@
         },
         "additional": {
             "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 167
+            },
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -3943,7 +3946,7 @@
         "additional": {
             "possible_patient": 20,
             "expansion_missions_ids": {
-                "0": 117
+                "0": 168
             },
             "patient_specializations": "Specialister i intern medicin"
         },

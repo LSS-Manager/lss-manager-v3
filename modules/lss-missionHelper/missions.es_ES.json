@@ -3140,7 +3140,7 @@
         "additional": {
             "possible_patient": 6,
             "expansion_missions_ids": {
-                "0": 162
+                "0": 167
             },
             "patient_specializations": "Medicina interna general"
         },
@@ -3171,7 +3171,7 @@
         "additional": {
             "possible_patient": 10,
             "expansion_missions_ids": {
-                "0": 164
+                "0": 169
             },
             "patient_specializations": "Medicina interna general"
         },
@@ -3231,7 +3231,7 @@
         "additional": {
             "possible_patient": 20,
             "expansion_missions_ids": {
-                "0": 165
+                "0": 170
             },
             "patient_specializations": "Medicina interna general"
         },

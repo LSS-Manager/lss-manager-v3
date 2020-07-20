@@ -10088,7 +10088,9 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 423
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatology"
         },
@@ -10156,7 +10158,9 @@
         },
         "additional": {
             "possible_patient": 12,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 424
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatology"
         },
@@ -10368,7 +10372,7 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 Minuten",
+            "duration": "30 minutes",
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },

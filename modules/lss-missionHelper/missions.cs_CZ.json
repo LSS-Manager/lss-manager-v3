@@ -3204,7 +3204,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 143
+            },
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3253,10 +3255,12 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 3
         },
         "chances": {
             "water_tankers": 10,
+            "mobile_air_vehicles": 30,
             "patient_transport": 40
         },
         "additional": {
@@ -3267,7 +3271,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
-            "rescue_stations": 15,
+            "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
         }
@@ -3286,9 +3290,11 @@
         "requirements": {
             "firetrucks": 14,
             "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 6
         },
         "chances": {
@@ -3299,7 +3305,7 @@
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
-            "rescue_stations": 30,
+            "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
         }

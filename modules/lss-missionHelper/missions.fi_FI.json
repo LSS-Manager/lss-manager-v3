@@ -584,7 +584,8 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2
+                "1": 2,
+                "2": 29
             },
             "patient_specializations": "Traumatologia"
         },
@@ -2434,7 +2435,9 @@
         },
         "additional": {
             "possible_patient": 10,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 103
+            },
             "patient_specializations": "Yleisl\u00e4\u00e4k\u00e4ri"
         },
         "prerequisites": {
