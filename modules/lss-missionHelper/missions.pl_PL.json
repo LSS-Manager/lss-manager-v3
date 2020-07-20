@@ -4502,5 +4502,63 @@
         "prerequisites": {
             "fire_stations": 7
         }
+    },
+    "214": {
+        "id": 214,
+        "name": "Uruchomiony ROP (R\u0119czny ostrzegacz po\u017carowy) w galerii handlowej",
+        "place": "Centrum handlowe",
+        "average_credits": 2100,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "Wybuch - przerwany gazoci\u0105g",
+        "place": null,
+        "average_credits": 8700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 80
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
     }
 }

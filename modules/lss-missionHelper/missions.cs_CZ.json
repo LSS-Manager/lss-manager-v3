@@ -3238,6 +3238,78 @@
             "police_stations": 1
         }
     },
+    "143": {
+        "id": 143,
+        "name": "Velk\u00fd po\u017e\u00e1r v hotelu",
+        "place": "Hotel",
+        "average_credits": 8000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "water_tankers": 10,
+            "mobile_air_vehicles": 30,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 20,
+            "expansion_missions_ids": {
+                "0": 144
+            },
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
+    },
+    "144": {
+        "id": 144,
+        "name": "Rozs\u00e1hl\u00fd po\u017e\u00e1r v hotelu",
+        "place": "Hotel",
+        "average_credits": 12000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 14,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 50,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 6,
+            "fire_stations": 20
+        }
+    },
     "146": {
         "id": 146,
         "name": "Po\u017e\u00e1r do\u0161kov\u00e9 st\u0159echy",

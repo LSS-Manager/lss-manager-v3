@@ -76,7 +76,7 @@
     "requirements": {
         "firetrucks": "Brannbiler",
         "platform_trucks": "høyderedskap",
-        "heavy_rescue_vehicles": "redningsbiler",
+        "heavy_rescue_vehicles": "Tungredningsbiler",
         "mobile_air_vehicles": "Røykdykkere",
         "battalion_chief_vehicles": "innsatsledere fra brann",
         "water_tankers": "tankbiler",

@@ -2696,7 +2696,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
@@ -3652,6 +3654,30 @@
         },
         "prerequisites": {
             "rescue_stations": 10
+        }
+    },
+    "178": {
+        "id": 178,
+        "name": "Vinglig f\u00e4rd",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 179
+            }
+        },
+        "prerequisites": {
+            "police_stations": 3
         }
     }
 }
