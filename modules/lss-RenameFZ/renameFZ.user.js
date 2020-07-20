@@ -780,7 +780,7 @@
                 1: 'Lett mannskapsbil',
                 2: 'Stigebil',
                 3: 'Innsatslederbil',
-                4: 'Redningsbil',
+                4: 'Tungredningsbil',
                 5: 'Ambulanse',
                 6: 'Tankbil',
                 7: 'CBRNe enhet',
@@ -794,7 +794,7 @@
                 15: 'Delta kjøretøy',
                 16: 'Røykdykkerbil',
                 17: 'Innsatsstøttebil',
-                18: 'Tungredningsbil'
+                18: 'Redningsbil'
             }
         }
     };
