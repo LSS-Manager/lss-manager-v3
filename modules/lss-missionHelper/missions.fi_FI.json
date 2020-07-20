@@ -584,8 +584,7 @@
             "possible_patient": 1,
             "expansion_missions_ids": {
                 "0": 24,
-                "1": 2,
-                "2": 29
+                "1": 2
             },
             "patient_specializations": "Traumatologia"
         },
