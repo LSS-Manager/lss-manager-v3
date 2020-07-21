@@ -15345,5 +15345,108 @@
             "police_stations": 1,
             "fire_stations": 6
         }
+    },
+    "631": {
+        "id": 631,
+        "name": "Brandende frituurpan",
+        "place": "Frietkraam",
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 632
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "632": {
+        "id": 632,
+        "name": "Brandende frietkraam",
+        "place": "Frietkraam",
+        "average_credits": 3040,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 20,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "633": {
+        "id": 633,
+        "name": "Brandwonden door frituurolie",
+        "place": "Frietkraam",
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 100,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 10
+        }
+    },
+    "634": {
+        "id": 634,
+        "name": "Overval frietkraam",
+        "place": "Frietkraam",
+        "average_credits": 2180,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
+        }
     }
 }
