@@ -4459,7 +4459,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "<span class=\"translation_missing localeapp\" title=\"translation missing: it_IT.buildings.gastroenterology\">Gastroenterology</span>"
+            "patient_specializations": "Gastroenterologia"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -4579,7 +4579,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "patient_specializations": "<span class=\"translation_missing localeapp\" title=\"translation missing: it_IT.buildings.oncology\">Oncology</span>"
+            "patient_specializations": "Oncologia"
         },
         "prerequisites": {
             "rescue_stations": 1
