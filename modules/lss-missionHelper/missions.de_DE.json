@@ -18,7 +18,8 @@
             "expansion_missions_ids": {
                 "0": 24,
                 "1": 140
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -43,7 +44,8 @@
             "expansion_missions_ids": {
                 "0": 5,
                 "1": 2
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -70,7 +72,8 @@
                 "1": 138,
                 "2": 141,
                 "3": 146
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -91,7 +94,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -114,7 +119,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 14
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -142,6 +148,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -164,7 +171,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -191,7 +200,8 @@
                 "2": 139,
                 "3": 140,
                 "4": 141
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -212,7 +222,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -232,7 +244,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -252,7 +266,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -272,7 +288,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -307,7 +325,8 @@
                 "10": 238,
                 "11": 239
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -328,7 +347,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -353,7 +374,8 @@
             "expansion_missions_ids": {
                 "0": 131
             },
-            "average_min_fire_personnel": 9
+            "average_min_fire_personnel": 9,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -379,7 +401,8 @@
             "expansion_missions_ids": {
                 "0": 134,
                 "1": 135
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -400,7 +423,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -420,7 +445,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -440,7 +467,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -460,7 +489,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -485,6 +516,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -513,7 +545,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 22
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -539,7 +572,9 @@
             "battalion_chief_vehicles": 50,
             "platform_trucks": 100
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -559,7 +594,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -579,7 +616,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -604,6 +643,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -635,7 +675,8 @@
             "heavy_rescue_vehicles": 30
         },
         "additional": {
-            "average_min_fire_personnel": 25
+            "average_min_fire_personnel": 25,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 4
@@ -662,7 +703,8 @@
                 "1": 103,
                 "2": 104,
                 "3": 105
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 4
@@ -690,7 +732,9 @@
             "water_tankers": 30,
             "mobile_air_vehicles": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 5
         }
@@ -716,7 +760,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 95
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 6
@@ -743,7 +788,8 @@
                 "1": 30,
                 "2": 95
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -766,7 +812,9 @@
             "platform_trucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -786,7 +834,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -819,6 +869,7 @@
         "additional": {
             "possible_patient": 3,
             "average_min_fire_personnel": 30,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -850,7 +901,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 320
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 5
@@ -880,7 +932,9 @@
             "gwmess": 20,
             "hazmat_dekon": 10
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 10
         }
@@ -900,7 +954,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -920,7 +976,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -940,7 +998,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -963,7 +1023,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 35
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -993,7 +1054,8 @@
             "mobile_command_vehicles": 90
         },
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {}
     },
@@ -1023,7 +1085,9 @@
             "gwmess": 80,
             "hazmat_vehicles": 70
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 11
         }
@@ -1050,6 +1114,7 @@
             "possible_patient": 12,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {}
@@ -1072,6 +1137,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1094,6 +1160,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -1120,6 +1187,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -1145,6 +1213,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1171,6 +1240,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -1197,6 +1267,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1223,6 +1294,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1254,6 +1326,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1278,6 +1351,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1302,6 +1376,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1336,6 +1411,7 @@
             "possible_patient": 20,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {}
@@ -1359,7 +1435,8 @@
             "expansion_missions_ids": {
                 "0": 74
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1384,7 +1461,8 @@
             "expansion_missions_ids": {
                 "0": 74
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1405,7 +1483,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1425,7 +1505,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1446,7 +1528,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1468,7 +1551,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1490,7 +1574,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1511,7 +1596,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1531,7 +1618,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1551,7 +1640,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1571,7 +1662,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1591,7 +1684,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1619,6 +1714,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -1650,6 +1746,7 @@
                 "1": 107
             },
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1675,7 +1772,8 @@
             "expansion_missions_ids": {
                 "0": 73
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -1697,7 +1795,8 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {}
     },
@@ -1722,7 +1821,8 @@
                 "1": 103,
                 "2": 104,
                 "3": 105
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "max_police_stations": 7,
@@ -1749,6 +1849,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -1776,7 +1877,9 @@
         "chances": {
             "platform_trucks": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -1804,6 +1907,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -1838,6 +1942,7 @@
             "expansion_missions_ids": {
                 "0": 470
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1861,7 +1966,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1881,7 +1988,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1918,6 +2027,7 @@
             "expansion_missions_ids": {
                 "0": 213
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1953,6 +2063,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -1976,7 +2087,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -2006,7 +2118,9 @@
             "water_tankers": 30,
             "mobile_air_vehicles": 50
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -2037,6 +2151,7 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2073,6 +2188,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2099,7 +2215,8 @@
             "expansion_missions_ids": {
                 "0": 74
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -2121,7 +2238,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 4
@@ -2147,6 +2265,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -2178,6 +2297,7 @@
         "additional": {
             "possible_patient": 11,
             "possible_patient_min": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2206,7 +2326,8 @@
                 "0": 30,
                 "1": 95
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2235,7 +2356,8 @@
                 "0": 124,
                 "1": 97,
                 "2": 394
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -2261,6 +2383,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2287,7 +2410,9 @@
             "battalion_chief_vehicles": 60,
             "gwoil": 80
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -2312,6 +2437,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2351,6 +2477,7 @@
             "possible_patient": 25,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {}
@@ -2373,7 +2500,9 @@
         "chances": {
             "police_cars": 50
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 8,
             "fire_stations": 2
@@ -2409,6 +2538,7 @@
                 "2": 104,
                 "3": 105
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2436,7 +2566,9 @@
             "battalion_chief_vehicles": 70,
             "platform_trucks": 50
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "max_police_stations": 7,
             "max_rescue_stations": 2,
@@ -2468,6 +2600,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2500,6 +2633,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -2529,7 +2663,9 @@
             "battalion_chief_vehicles": 70,
             "platform_trucks": 50
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 8,
             "max_rescue_stations": 2,
@@ -2552,7 +2688,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 5
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 6,
@@ -2581,6 +2718,7 @@
             "possible_patient": 6,
             "possible_patient_min": 1,
             "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2608,6 +2746,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Gyn\u00e4kologie"
         },
         "prerequisites": {
@@ -2634,6 +2773,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Gyn\u00e4kologie"
         },
         "prerequisites": {
@@ -2660,6 +2800,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Gyn\u00e4kologie"
         },
         "prerequisites": {
@@ -2694,6 +2835,7 @@
             "expansion_missions_ids": {
                 "0": 550
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2730,6 +2872,7 @@
             "expansion_missions_ids": {
                 "0": 550
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2759,6 +2902,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2787,6 +2931,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2817,6 +2962,7 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2848,6 +2994,7 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2877,6 +3024,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2907,6 +3055,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2944,6 +3093,7 @@
                 "5": 127,
                 "6": 89
             },
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -2977,7 +3127,8 @@
                 "0": 132,
                 "1": 133
             },
-            "average_min_fire_personnel": 25
+            "average_min_fire_personnel": 25,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 7
@@ -3002,7 +3153,8 @@
         },
         "chances": {},
         "additional": {
-            "average_min_fire_personnel": 40
+            "average_min_fire_personnel": 40,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -3029,7 +3181,8 @@
         },
         "chances": {},
         "additional": {
-            "average_min_fire_personnel": 40
+            "average_min_fire_personnel": 40,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 5,
@@ -3061,7 +3214,8 @@
                 "0": 136,
                 "1": 137
             },
-            "average_min_fire_personnel": 18
+            "average_min_fire_personnel": 18,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -3094,7 +3248,8 @@
                 "0": 136,
                 "1": 137
             },
-            "average_min_fire_personnel": 18
+            "average_min_fire_personnel": 18,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 5,
@@ -3130,6 +3285,7 @@
         "additional": {
             "possible_patient": 1,
             "average_min_fire_personnel": 80,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -3166,6 +3322,7 @@
         "additional": {
             "possible_patient": 1,
             "average_min_fire_personnel": 80,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -3190,7 +3347,8 @@
         },
         "chances": {},
         "additional": {
-            "average_min_fire_personnel": 9
+            "average_min_fire_personnel": 9,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -3219,7 +3377,8 @@
             "water_tankers": 20
         },
         "additional": {
-            "average_min_fire_personnel": 27
+            "average_min_fire_personnel": 27,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -3244,7 +3403,8 @@
         },
         "chances": {},
         "additional": {
-            "average_min_fire_personnel": 9
+            "average_min_fire_personnel": 9,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 5,
@@ -3274,7 +3434,8 @@
             "water_tankers": 20
         },
         "additional": {
-            "average_min_fire_personnel": 27
+            "average_min_fire_personnel": 27,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 5,
@@ -3302,7 +3463,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 447
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -3323,7 +3485,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -3343,7 +3507,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -3367,7 +3533,8 @@
             "followup_missions_ids": {
                 "0": 98,
                 "1": 476
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3399,6 +3566,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -3425,7 +3593,8 @@
         },
         "additional": {
             "possible_patient": 1,
-            "possible_patient_min": 1
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
         },
         "prerequisites": {}
     },
@@ -3451,7 +3620,8 @@
             "followup_missions_ids": {
                 "0": 43,
                 "1": 83
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3472,7 +3642,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -3493,7 +3665,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3515,7 +3688,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3
@@ -3542,6 +3716,7 @@
                 "0": 356
             },
             "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -3564,7 +3739,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3591,6 +3767,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -3619,6 +3796,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Urologie"
         },
         "prerequisites": {
@@ -3645,6 +3823,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Urologie"
         },
         "prerequisites": {
@@ -3671,6 +3850,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -3693,7 +3873,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 4
@@ -3715,7 +3896,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -3736,7 +3918,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -3756,7 +3940,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 4
         }
@@ -3783,6 +3969,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -3811,7 +3998,9 @@
             "fwk": 10,
             "platform_trucks": 10
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -3835,6 +4024,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -3861,6 +4051,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -3889,7 +4080,9 @@
             "platform_trucks": 40,
             "height_rescue_units": 40
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 12
@@ -3917,7 +4110,9 @@
             "platform_trucks": 50,
             "height_rescue_units": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 12
@@ -3942,7 +4137,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 237
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -3968,7 +4164,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 237
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -3994,7 +4191,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 237
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -4020,7 +4218,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 4,
             "fire_stations": 15
@@ -4041,7 +4241,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "max_police_stations": 3,
             "fire_stations": 9
@@ -4063,7 +4265,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 4,
             "fire_stations": 9
@@ -4094,7 +4298,8 @@
                 "1": 464,
                 "2": 513,
                 "3": 162
-            }
+            },
+            "filter_id": "technical_aid_organization_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -4119,7 +4324,9 @@
             "thw_lkw": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
         "prerequisites": {
             "max_police_stations": 1,
             "thw": 1
@@ -4153,7 +4360,8 @@
             "expansion_missions_ids": {
                 "0": 177,
                 "1": 213
-            }
+            },
+            "filter_id": "technical_aid_organization_missions"
         },
         "prerequisites": {
             "thw": 1,
@@ -4193,6 +4401,7 @@
                 "0": 429,
                 "1": 539
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -4236,6 +4445,7 @@
             "expansion_missions_ids": {
                 "0": 213
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -4265,6 +4475,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurochirurgie"
         },
         "prerequisites": {
@@ -4292,6 +4503,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurochirurgie"
         },
         "prerequisites": {
@@ -4318,6 +4530,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurochirurgie"
         },
         "prerequisites": {
@@ -4343,6 +4556,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -4369,6 +4583,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
             "patient_specializations": "Allgemeine Innere"
@@ -4397,6 +4612,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
             "patient_specializations": "Allgemeine Innere"
@@ -4424,6 +4640,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
             "patient_specializations": "Allgemeine Innere"
@@ -4471,6 +4688,7 @@
             "expansion_missions_ids": {
                 "0": 462
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -4504,7 +4722,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 186
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "rescue_stations": 9,
@@ -4528,7 +4747,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3
@@ -4552,7 +4772,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 73
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -4573,7 +4794,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -4597,7 +4820,8 @@
             "expansion_missions_ids": {
                 "0": 194
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -4619,7 +4843,9 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "max_police_stations": 4,
             "fire_stations": 4
@@ -4642,7 +4868,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 5,
             "fire_stations": 4
@@ -4670,6 +4898,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -4695,7 +4924,9 @@
             "grukw": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
         "prerequisites": {
             "bereitschaftspolizei": 1
         }
@@ -4716,7 +4947,9 @@
             "grukw": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
         "prerequisites": {
             "bereitschaftspolizei": 1
         }
@@ -4737,7 +4970,9 @@
             "grukw": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
         "prerequisites": {
             "bereitschaftspolizei": 1
         }
@@ -4759,7 +4994,9 @@
             "grukw": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "bereitschaftspolizei": 1
@@ -4781,7 +5018,9 @@
             "grukw": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "riot_police_missions"
+        },
         "prerequisites": {
             "bereitschaftspolizei": 1
         }
@@ -4813,7 +5052,8 @@
             "followup_missions_ids": {
                 "0": 486
             },
-            "max_possible_prisoners": 5
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -4849,7 +5089,8 @@
                 "2": 106,
                 "3": 107
             },
-            "max_possible_prisoners": 5
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -4887,6 +5128,7 @@
                 "0": 205
             },
             "average_min_fire_personnel": 40,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -4926,6 +5168,7 @@
                 "0": 206
             },
             "average_min_fire_personnel": 60,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -4972,6 +5215,7 @@
             "possible_patient": 7,
             "possible_patient_min": 2,
             "average_min_fire_personnel": 105,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5013,6 +5257,7 @@
             "possible_patient": 20,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {}
@@ -5053,6 +5298,7 @@
             "expansion_missions_ids": {
                 "0": 213
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5076,7 +5322,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -5100,6 +5348,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5126,6 +5375,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5152,6 +5402,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -5202,6 +5453,7 @@
                 "1": 513,
                 "2": 166
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5240,6 +5492,7 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5275,6 +5528,7 @@
         "additional": {
             "possible_patient": 12,
             "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5318,6 +5572,7 @@
             "possible_patient": 40,
             "possible_patient_min": 20,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {}
@@ -5355,6 +5610,7 @@
             "possible_patient": 20,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {}
@@ -5378,7 +5634,8 @@
         "additional": {
             "duration": "2 Stunden",
             "average_min_fire_personnel": 25,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -5404,7 +5661,8 @@
         "additional": {
             "duration": "2 Stunden",
             "average_min_fire_personnel": 4,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -5431,7 +5689,8 @@
         "additional": {
             "duration": "8 Stunden",
             "average_min_fire_personnel": 18,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -5456,7 +5715,8 @@
         "chances": {},
         "additional": {
             "duration": "4 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions"
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -5489,7 +5749,8 @@
                 "2": 106
             },
             "average_min_police_personnel": 50,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -5514,7 +5775,8 @@
         "chances": {},
         "additional": {
             "duration": "1 Stunde",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -5538,7 +5800,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions"
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -5562,7 +5825,8 @@
         "chances": {},
         "additional": {
             "duration": "15 Minuten",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -5585,7 +5849,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 7,
@@ -5609,7 +5874,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -5635,6 +5901,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Kardiologie"
         },
@@ -5665,7 +5932,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 4,
@@ -5698,6 +5966,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -5734,6 +6003,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -5766,6 +6036,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5800,6 +6071,7 @@
             "expansion_missions_ids": {
                 "0": 93
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5837,6 +6109,7 @@
             "expansion_missions_ids": {
                 "0": 93
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5876,6 +6149,7 @@
             "expansion_missions_ids": {
                 "0": 213
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5899,7 +6173,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -5927,6 +6203,7 @@
         },
         "additional": {
             "possible_patient": 15,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -5956,6 +6233,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -5978,7 +6256,9 @@
             "boats": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 1
         }
@@ -6004,6 +6284,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6035,6 +6316,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6068,6 +6350,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6102,6 +6385,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6135,6 +6419,7 @@
         },
         "additional": {
             "possible_patient": 15,
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6159,7 +6444,9 @@
             "boats": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 1
         }
@@ -6185,6 +6472,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6216,6 +6504,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6249,6 +6538,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6283,6 +6573,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6316,6 +6607,7 @@
         },
         "additional": {
             "possible_patient": 15,
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6351,6 +6643,7 @@
         "additional": {
             "possible_patient": 30,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {}
@@ -6372,7 +6665,8 @@
         "chances": {},
         "additional": {
             "duration": "1 Stunde",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -6403,6 +6697,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -6434,7 +6729,9 @@
             "hazmat_dekon": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 3,
             "thw": 1,
@@ -6463,7 +6760,8 @@
         "additional": {
             "followup_missions_ids": {
                 "0": 528
-            }
+            },
+            "filter_id": "water_watch_missions"
         },
         "prerequisites": {
             "wasserrettung": 1,
@@ -6493,7 +6791,8 @@
         "additional": {
             "followup_missions_ids": {
                 "0": 529
-            }
+            },
+            "filter_id": "water_watch_missions"
         },
         "prerequisites": {
             "wasserrettung": 1,
@@ -6520,6 +6819,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6548,7 +6848,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -6574,7 +6875,8 @@
         "chances": {},
         "additional": {
             "duration": "1 Stunde",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -6600,6 +6902,7 @@
         "additional": {
             "possible_patient": 1,
             "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -6639,6 +6942,7 @@
             "expansion_missions_ids": {
                 "0": 526
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6679,6 +6983,7 @@
             "expansion_missions_ids": {
                 "0": 525
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6705,7 +7010,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 9
         }
@@ -6731,6 +7038,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6757,7 +7065,9 @@
             "battalion_chief_vehicles": 20,
             "heavy_rescue_vehicles": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -6790,6 +7100,7 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6814,7 +7125,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -6840,6 +7152,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -6873,7 +7186,8 @@
                 "0": 540
             },
             "average_min_police_personnel": 150,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -6898,7 +7212,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 6
@@ -6926,6 +7241,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -6953,6 +7269,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -6986,6 +7303,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -7023,7 +7341,8 @@
                 "1": 204,
                 "2": 205,
                 "3": 509
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 5
@@ -7058,6 +7377,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7094,7 +7414,8 @@
                 "7": 126,
                 "8": 127,
                 "9": 128
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -7131,6 +7452,7 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -7167,7 +7489,8 @@
                 "3": 104,
                 "4": 103,
                 "5": 105
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -7197,7 +7520,8 @@
         "additional": {
             "duration": "2 Stunden",
             "average_min_police_personnel": 60,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7231,7 +7555,8 @@
         "additional": {
             "duration": "3 Stunden",
             "average_min_police_personnel": 150,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7263,7 +7588,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -7293,7 +7619,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 10
+            "max_possible_prisoners": 10,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 5,
@@ -7316,7 +7643,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -7343,6 +7672,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -7373,6 +7703,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -7404,6 +7735,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7431,6 +7763,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -7459,6 +7792,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7491,6 +7825,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7530,6 +7865,7 @@
         "additional": {
             "possible_patient": 15,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -7565,6 +7901,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7596,6 +7933,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7632,7 +7970,8 @@
                 "8": 103,
                 "9": 104,
                 "10": 105
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -7663,6 +8002,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -7707,6 +8047,7 @@
         "additional": {
             "possible_patient": 40,
             "possible_patient_min": 15,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7735,7 +8076,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 4
@@ -7758,7 +8101,8 @@
         "chances": {},
         "additional": {
             "duration": "1 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -7791,7 +8135,8 @@
                 "1": 104,
                 "2": 103,
                 "3": 102
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -7833,6 +8178,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7865,7 +8211,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7900,6 +8247,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -7925,7 +8273,9 @@
             "rettungstreppe": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -7945,7 +8295,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 10
         }
@@ -7968,7 +8320,9 @@
             "rettungstreppe": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -7995,6 +8349,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -8028,6 +8383,7 @@
         },
         "additional": {
             "possible_patient": 30,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8060,6 +8416,7 @@
         },
         "additional": {
             "possible_patient": 30,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8095,6 +8452,7 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -8130,6 +8488,7 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -8153,7 +8512,9 @@
             "arff": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -8173,7 +8534,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -8193,7 +8556,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -8218,6 +8583,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -8243,6 +8609,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8269,6 +8636,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Neurologie"
         },
         "prerequisites": {
@@ -8293,7 +8661,9 @@
             "arff": 4
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -8316,7 +8686,9 @@
             "arff": 4
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -8339,7 +8711,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 4
         }
@@ -8366,6 +8740,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -8401,7 +8776,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "technical_aid_organization_missions"
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -8439,6 +8815,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -8482,6 +8859,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -8529,7 +8907,8 @@
                 "17": 105,
                 "18": 213,
                 "19": 214
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -8571,6 +8950,7 @@
             "possible_patient": 20,
             "possible_patient_min": 10,
             "only_alliance_mission": true,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {}
@@ -8600,6 +8980,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8636,6 +9017,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8663,7 +9045,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -8691,6 +9074,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8715,7 +9099,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "mek": 1,
@@ -8742,6 +9127,7 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -8767,7 +9153,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 358
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -8798,6 +9185,7 @@
         "additional": {
             "possible_patient": 4,
             "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Chirurgie"
         },
@@ -8830,7 +9218,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 5
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "mek": 1,
@@ -8860,7 +9249,8 @@
             "followup_missions_ids": {
                 "0": 486
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -8889,6 +9279,7 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8932,6 +9323,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -8970,6 +9362,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9000,7 +9393,8 @@
                 "2": 125,
                 "3": 126,
                 "4": 127
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -9026,6 +9420,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9050,7 +9445,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "mek": 1
@@ -9077,7 +9473,9 @@
         "chances": {
             "fwk": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
@@ -9104,7 +9502,9 @@
         "chances": {
             "fwk": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
@@ -9131,7 +9531,9 @@
         "chances": {
             "fwk": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
@@ -9161,7 +9563,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 237
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -9189,6 +9592,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -9217,7 +9621,8 @@
                 "0": 131,
                 "1": 132,
                 "2": 133
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -9251,6 +9656,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9288,6 +9694,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9326,6 +9733,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9357,6 +9765,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9401,6 +9810,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9429,7 +9839,9 @@
             "rettungstreppe": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 1
@@ -9454,6 +9866,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -9483,6 +9896,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -9517,7 +9931,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 447
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -9553,6 +9968,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -9585,7 +10001,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 515
-            }
+            },
+            "filter_id": "factory_fire_brigade_missions"
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -9613,7 +10030,9 @@
         "chances": {
             "mobile_air_vehicles": 10
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 5
@@ -9635,6 +10054,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -9663,7 +10083,9 @@
         "chances": {
             "mobile_air_vehicles": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 5
@@ -9687,7 +10109,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 4
@@ -9715,7 +10139,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 7
@@ -9744,6 +10170,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -9768,7 +10195,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 1
@@ -9789,7 +10218,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 1
@@ -9810,7 +10241,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 1
@@ -9831,7 +10264,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 2
@@ -9852,7 +10287,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 2
@@ -9879,7 +10316,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 6
@@ -9903,7 +10342,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 396
-            }
+            },
+            "filter_id": "factory_fire_brigade_missions"
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -9925,7 +10365,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 2
@@ -9946,7 +10388,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 1
@@ -9980,6 +10424,7 @@
         "additional": {
             "possible_patient": 6,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -10015,7 +10460,9 @@
             "mobile_command_vehicles": 25,
             "mobile_air_vehicles": 40
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 6
@@ -10044,7 +10491,9 @@
             "mobile_command_vehicles": 25,
             "mobile_air_vehicles": 40
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 6
@@ -10075,7 +10524,9 @@
             "mobile_command_vehicles": 25,
             "mobile_air_vehicles": 40
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "factory_fire_brigade_missions"
+        },
         "prerequisites": {
             "werkfeuerwehr": 1,
             "fire_stations": 6
@@ -10104,6 +10555,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10132,6 +10584,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10159,6 +10612,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10188,7 +10642,8 @@
                 "2": 121,
                 "3": 394,
                 "4": 13
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -10223,6 +10678,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10248,6 +10704,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10277,6 +10734,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10300,7 +10758,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -10334,6 +10794,7 @@
         },
         "additional": {
             "possible_patient": 20,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10380,6 +10841,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10408,6 +10870,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10433,6 +10896,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10458,6 +10922,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10496,6 +10961,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10535,6 +11001,7 @@
         },
         "additional": {
             "possible_patient": 20,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10562,6 +11029,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10595,6 +11063,7 @@
             "expansion_missions_ids": {
                 "0": 352
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10633,6 +11102,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10672,6 +11142,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10714,6 +11185,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10753,7 +11225,8 @@
                 "9": 238,
                 "10": 239
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -10780,6 +11253,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10813,6 +11287,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10854,6 +11329,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10883,6 +11359,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10912,7 +11389,8 @@
                 "0": 134,
                 "1": 135
             },
-            "average_min_fire_personnel": 10
+            "average_min_fire_personnel": 10,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 4
@@ -10947,6 +11425,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -10971,7 +11450,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -11003,6 +11484,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11038,6 +11520,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11073,6 +11556,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11100,7 +11584,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -11131,6 +11616,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11165,6 +11651,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -11192,6 +11679,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
             "patient_specializations": "Allgemeine Innere"
@@ -11237,6 +11725,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11268,7 +11757,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 433
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -11299,7 +11789,9 @@
         "chances": {
             "fwk": 75
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "thw": 1,
@@ -11349,6 +11841,7 @@
         },
         "additional": {
             "possible_patient": 20,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11379,6 +11872,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11405,6 +11899,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11431,6 +11926,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11463,6 +11959,7 @@
         },
         "additional": {
             "possible_patient": 5,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11496,6 +11993,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11521,7 +12019,9 @@
             "boats": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 1,
             "police_stations": 2
@@ -11544,7 +12044,9 @@
             "boats": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 1,
             "police_stations": 2
@@ -11576,6 +12078,7 @@
         "additional": {
             "possible_patient": 20,
             "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11610,6 +12113,7 @@
         "additional": {
             "possible_patient": 20,
             "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11644,6 +12148,7 @@
         "additional": {
             "possible_patient": 20,
             "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -11674,6 +12179,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11720,6 +12226,7 @@
                 "2": 170,
                 "3": 280
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11767,6 +12274,7 @@
                 "2": 170,
                 "3": 280
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11814,6 +12322,7 @@
                 "2": 170,
                 "3": 280
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11846,6 +12355,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11878,6 +12388,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11912,6 +12423,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11946,6 +12458,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -11985,6 +12498,7 @@
             "possible_patient": 3,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 27,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -12027,7 +12541,8 @@
             "expansion_missions_ids": {
                 "0": 462,
                 "1": 465
-            }
+            },
+            "filter_id": "factory_fire_brigade_missions"
         },
         "prerequisites": {
             "werkfeuerwehr": 1,
@@ -12054,7 +12569,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 4
+            "max_possible_prisoners": 4,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "rescue_stations": 11,
@@ -12090,6 +12606,7 @@
             "expansion_missions_ids": {
                 "0": 368
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12129,6 +12646,7 @@
         "additional": {
             "possible_patient": 250,
             "possible_patient_min": 120,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12167,6 +12685,7 @@
         "additional": {
             "possible_patient": 70,
             "possible_patient_min": 35,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12204,6 +12723,7 @@
         "additional": {
             "possible_patient": 25,
             "possible_patient_min": 10,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12228,7 +12748,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -12256,6 +12777,7 @@
         "additional": {
             "possible_patient": 17,
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -12284,7 +12806,9 @@
             "fwk": 5,
             "platform_trucks": 70
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -12317,6 +12841,7 @@
             "possible_patient_min": 1,
             "average_min_fire_personnel": 9,
             "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -12356,6 +12881,7 @@
             "possible_patient_min": 1,
             "average_min_fire_personnel": 9,
             "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -12393,6 +12919,7 @@
         "additional": {
             "possible_patient": 15,
             "possible_patient_min": 6,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -12421,6 +12948,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologie"
         },
         "prerequisites": {
@@ -12460,6 +12988,7 @@
         },
         "additional": {
             "possible_patient": 20,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -12495,6 +13024,7 @@
         },
         "additional": {
             "possible_patient": 30,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12529,7 +13059,9 @@
             "thw_lkw": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
         "prerequisites": {
             "police_stations": 3,
             "police_helicopter_stations": 1,
@@ -12563,7 +13095,9 @@
             "thw_lkw": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
         "prerequisites": {
             "police_stations": 3,
             "police_helicopter_stations": 1,
@@ -12611,6 +13145,7 @@
                 "3": 497,
                 "4": 253
             },
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12641,6 +13176,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -12680,6 +13216,7 @@
         },
         "additional": {
             "possible_patient": 17,
+            "filter_id": "water_watch_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12713,6 +13250,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -12749,7 +13287,8 @@
             "expansion_missions_ids": {
                 "0": 205,
                 "1": 206
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -12776,6 +13315,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12797,7 +13337,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -12817,7 +13359,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -12853,6 +13397,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -12880,7 +13425,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 2
+            "max_possible_prisoners": 2,
+            "filter_id": "riot_police_missions"
         },
         "prerequisites": {
             "police_stations": 1,
@@ -12922,6 +13468,7 @@
         },
         "additional": {
             "possible_patient": 10,
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -12949,7 +13496,8 @@
         "chances": {},
         "additional": {
             "duration": "30 Minuten",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -12973,7 +13521,9 @@
         "chances": {
             "platform_trucks": 40
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -12999,7 +13549,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 15
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -13030,6 +13581,7 @@
         "additional": {
             "possible_patient": 7,
             "possible_patient_min": 3,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13070,6 +13622,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13127,6 +13680,7 @@
                 "3": 18,
                 "4": 318
             },
+            "filter_id": "factory_fire_brigade_missions",
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -13160,6 +13714,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13189,6 +13744,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13234,6 +13790,7 @@
             "expansion_missions_ids": {
                 "0": 545
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13278,6 +13835,7 @@
         "additional": {
             "possible_patient": 30,
             "possible_patient_min": 8,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13320,6 +13878,7 @@
         "additional": {
             "possible_patient": 15,
             "possible_patient_min": 4,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13355,6 +13914,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -13390,7 +13950,9 @@
         "chances": {
             "gwmess": 30
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 2,
             "police_stations": 1,
@@ -13423,7 +13985,9 @@
         "chances": {
             "gwmess": 30
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
         "prerequisites": {
             "wasserrettung": 2,
             "police_stations": 1,
@@ -13465,6 +14029,7 @@
                 "0": 429,
                 "1": 539
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -13520,6 +14085,7 @@
                 "1": 513,
                 "2": 166
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13550,6 +14116,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Kardiologie"
         },
@@ -13590,6 +14157,7 @@
             "possible_patient_min": 1,
             "average_min_fire_personnel": 9,
             "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -13639,6 +14207,7 @@
             "followup_missions_ids": {
                 "0": 539
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13683,6 +14252,7 @@
         },
         "additional": {
             "possible_patient": 20,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13709,7 +14279,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -13735,7 +14306,8 @@
         },
         "additional": {
             "max_possible_prisoners": 1,
-            "allow_rw_instead_of_lf": 1
+            "allow_rw_instead_of_lf": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3,
@@ -13762,6 +14334,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13795,6 +14368,7 @@
         "additional": {
             "possible_patient": 12,
             "possible_patient_min": 1,
+            "filter_id": "technical_aid_organization_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -13845,6 +14419,7 @@
             "followup_missions_ids": {
                 "0": 539
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13879,7 +14454,8 @@
         "additional": {
             "followup_missions_ids": {
                 "0": 539
-            }
+            },
+            "filter_id": "technical_aid_organization_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -13926,6 +14502,7 @@
             "followup_missions_ids": {
                 "0": 539
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13973,6 +14550,7 @@
             "followup_missions_ids": {
                 "0": 539
             },
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -14010,6 +14588,7 @@
         },
         "additional": {
             "possible_patient": 3,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -14057,6 +14636,7 @@
             "possible_patient": 6,
             "possible_patient_min": 2,
             "average_min_fire_personnel": 100,
+            "filter_id": "technical_aid_organization_missions",
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -14087,6 +14667,7 @@
         "additional": {
             "duration": "4 Stunden",
             "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
         },
@@ -14113,6 +14694,7 @@
         "additional": {
             "duration": "2 Stunden",
             "guard_mission": true,
+            "filter_id": "water_watch_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
         },
@@ -14136,6 +14718,7 @@
         },
         "chances": {},
         "additional": {
+            "filter_id": "firehouse_missions",
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
         },
@@ -14160,7 +14743,8 @@
         "chances": {},
         "additional": {
             "duration": "2 Stunden",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "mek": 1
@@ -14194,6 +14778,7 @@
         },
         "additional": {
             "possible_patient": 6,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -14219,7 +14804,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 2
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1

@@ -316,7 +316,10 @@ else if (I18n.locale == "it_IT") {
         "14": ["Furgone Antisommossa", 2],
         "15": ["Unità cinofila antidroga", 2],
         "16": ["Moto della Polizia", 2],
-        "17": ["UOPI Suv", 2]
+        "17": ["UOPI Suv", 2],
+        "18": ["VLV", 1],
+        "19": ["MSA", 1],
+        "20": ["Ambulanza Ordinaria", 1]
     };
 }
 else if (I18n.locale == "fr_FR") {

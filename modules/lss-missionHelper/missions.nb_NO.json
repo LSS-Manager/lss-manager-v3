@@ -14,7 +14,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -34,7 +36,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -59,7 +63,8 @@
                 "0": 27,
                 "1": 16,
                 "2": 19
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -83,7 +88,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 27
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -107,7 +113,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 14
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -134,6 +141,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -155,7 +163,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -178,7 +188,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 14
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -204,7 +215,8 @@
                 "0": 20,
                 "1": 22,
                 "2": 6
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -229,7 +241,8 @@
             "expansion_missions_ids": {
                 "0": 14,
                 "1": 6
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -250,7 +263,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -270,7 +285,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -294,7 +311,8 @@
             "expansion_missions_ids": {
                 "0": 25
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -315,7 +333,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -338,7 +358,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 15
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -359,7 +380,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -379,7 +402,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -399,7 +424,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -419,7 +446,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -439,7 +468,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -464,6 +495,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -492,7 +524,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 22
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -518,7 +551,9 @@
             "battalion_chief_vehicles": 50,
             "platform_trucks": 100
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -538,7 +573,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -558,7 +595,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -587,6 +626,7 @@
                 "1": 2,
                 "2": 29
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -613,6 +653,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -635,7 +676,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 4
         }
@@ -660,7 +703,9 @@
         "chances": {
             "water_tankers": 30
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 5
         }
@@ -684,7 +729,9 @@
             "police_cars": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
@@ -706,7 +753,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -729,7 +777,9 @@
             "platform_trucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -749,7 +799,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -774,6 +826,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -804,6 +857,7 @@
         },
         "additional": {
             "possible_patient": 25,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -829,6 +883,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Generell medisin"
         },
@@ -855,6 +910,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Kardiologi"
         },
         "prerequisites": {
@@ -879,6 +935,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -903,6 +960,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Nevrologi"
         },
         "prerequisites": {
@@ -927,6 +985,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -951,6 +1010,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -983,6 +1043,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1009,6 +1070,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1033,6 +1095,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1055,7 +1118,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1077,7 +1141,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1098,7 +1163,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1118,7 +1185,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1139,7 +1208,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1161,7 +1231,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1182,7 +1253,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1202,7 +1275,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1222,7 +1297,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1242,7 +1319,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1262,7 +1341,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1285,6 +1366,7 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1310,7 +1392,8 @@
             "expansion_missions_ids": {
                 "0": 55
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -1332,7 +1415,8 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {}
     },
@@ -1351,7 +1435,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -1372,7 +1458,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -1398,6 +1486,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1420,7 +1509,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1443,6 +1534,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Nevrokirurgi"
         },
         "prerequisites": {
@@ -1469,6 +1561,7 @@
         },
         "additional": {
             "possible_patient": 12,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1491,7 +1584,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -1517,6 +1612,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1541,6 +1637,7 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1572,6 +1669,7 @@
         },
         "additional": {
             "possible_patient": 6,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1599,7 +1697,9 @@
             "police_cars": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
@@ -1630,6 +1730,7 @@
         },
         "additional": {
             "possible_patient": 6,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1654,6 +1755,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1684,6 +1786,7 @@
         },
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1714,6 +1817,7 @@
         },
         "additional": {
             "possible_patient": 12,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1742,7 +1846,8 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {}
     },
@@ -1766,6 +1871,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1793,6 +1899,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1817,7 +1924,8 @@
         },
         "additional": {
             "possible_patient": 1,
-            "possible_patient_min": 1
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
         },
         "prerequisites": {}
     },
@@ -1839,6 +1947,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1863,6 +1972,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1890,6 +2000,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1916,6 +2027,7 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1945,6 +2057,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1975,6 +2088,7 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2001,6 +2115,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2026,6 +2141,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2057,6 +2173,7 @@
         "additional": {
             "possible_patient": 8,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2090,6 +2207,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 8,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2117,6 +2235,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2142,6 +2261,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Nevrokirurgi"
         },
         "prerequisites": {
@@ -2167,6 +2287,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2191,7 +2312,9 @@
             "water_tankers": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -2215,6 +2338,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2241,6 +2365,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2270,6 +2395,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Generell medisin"
         },
@@ -2296,6 +2422,7 @@
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2321,7 +2448,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 8
         }
@@ -2348,6 +2477,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2372,7 +2502,9 @@
             "water_tankers": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 8
         }
@@ -2393,7 +2525,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -2424,6 +2557,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2457,6 +2591,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2490,6 +2625,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 0,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2519,6 +2655,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2545,7 +2682,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 7,
@@ -2569,7 +2707,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4,
@@ -2596,6 +2735,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Generell medisin"
         },
@@ -2626,7 +2766,8 @@
             "expansion_missions_ids": {
                 "0": 119
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -2651,6 +2792,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -2673,7 +2815,9 @@
             "k9": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 6
         }
@@ -2700,6 +2844,7 @@
                 "0": 122
             },
             "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2727,6 +2872,7 @@
         "additional": {
             "possible_patient": 5,
             "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -2752,7 +2898,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 2
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 6
@@ -2776,7 +2923,8 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 3,
-            "swat_personnel": 12
+            "swat_personnel": 12,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 8,
@@ -2806,6 +2954,7 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "swat_personnel": 6,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traume"
         },
@@ -2835,7 +2984,8 @@
         "additional": {
             "duration": "30 minutter",
             "swat_personnel": 18,
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 15,
@@ -2861,7 +3011,8 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 2,
-            "swat_personnel": 4
+            "swat_personnel": 4,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 9,
@@ -2891,6 +3042,7 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
             "swat_personnel": 6,
+            "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traume"
         },
@@ -2917,7 +3069,8 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 3,
-            "swat_personnel": 6
+            "swat_personnel": 6,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 9
@@ -2941,6 +3094,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2965,6 +3119,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -2990,6 +3145,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3017,7 +3173,9 @@
         "chances": {
             "water_tankers": 30
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 8
         }
@@ -3038,7 +3196,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 8
@@ -3064,6 +3223,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -3091,7 +3251,9 @@
             "battalion_chief_vehicles": 20,
             "heavy_rescue_vehicles": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -3114,6 +3276,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -3138,6 +3301,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -3162,6 +3326,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3184,6 +3349,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -3208,6 +3374,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
             "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
             "patient_specializations": "Generell medisin"
@@ -3234,6 +3401,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
             "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
             "patient_specializations": "Generell medisin"
@@ -3260,6 +3428,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
             "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
             "patient_specializations": "Generell medisin"
@@ -3286,6 +3455,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
             "date_end": "Tor, 01 Okt 2020 00:00:00 +0200",
             "patient_specializations": "Generell medisin"
@@ -3310,6 +3480,7 @@
         },
         "chances": {},
         "additional": {
+            "filter_id": "firehouse_missions",
             "date_start": "Fre, 26 Jun 2020 10:00:00 +0200",
             "date_end": "Tor, 01 Okt 2020 00:00:00 +0200"
         },
@@ -3341,6 +3512,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3367,7 +3539,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -3391,7 +3565,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -3415,7 +3591,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -3439,7 +3617,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 13
         }
@@ -3470,6 +3650,7 @@
         },
         "additional": {
             "possible_patient": 14,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3503,6 +3684,7 @@
         },
         "additional": {
             "possible_patient": 8,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3528,7 +3710,9 @@
             "mobile_air_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -3553,6 +3737,7 @@
         "chances": {},
         "additional": {
             "possible_patient": 4,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -3579,7 +3764,9 @@
             "police_cars": 3
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 11
@@ -3606,6 +3793,7 @@
         },
         "additional": {
             "possible_patient": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Nevrologi"
         },
         "prerequisites": {
@@ -3635,6 +3823,7 @@
             "expansion_missions_ids": {
                 "0": 158
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3666,6 +3855,7 @@
             "expansion_missions_ids": {
                 "0": 160
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3690,7 +3880,8 @@
         "chances": {},
         "additional": {
             "duration": "20 minutter",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3724,10 +3915,11 @@
             "expansion_missions_ids": {
                 "0": 161
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
-            "rescue_stations": 15,
+            "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
         }
@@ -3756,10 +3948,11 @@
         },
         "additional": {
             "possible_patient": 50,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
-            "rescue_stations": 30,
+            "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
         }

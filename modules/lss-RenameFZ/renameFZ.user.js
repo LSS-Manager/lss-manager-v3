@@ -867,7 +867,10 @@
                 14: 'Furgone Antisommossa',
                 15: 'Unità cinofila antidroga',
                 16: 'Moto della Polizia',
-                17: 'UOPI Suv'
+                17: 'UOPI Suv',
+                18: 'VLV',
+                19: 'MSA',
+                20: 'Ambulanza Ordinaria'
             }
         }
     };

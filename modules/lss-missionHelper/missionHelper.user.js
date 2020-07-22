@@ -11,12 +11,19 @@ const lssm_missionhelper_adjustPosition = () => {
 };
 
 (async I18n => {
-    await Promise.all(I18n.locales[I18n.locale].map(async locale => 
-        I18n.translations[locale].lssm.missionhelper = await fetch(I18n.translations[locale].lssm.missionhelper = lssm.getlink(
-            `/modules/lss-missionHelper/i18n/${locale}.json`,
-            false
-        )).then(res => res.json())
-    ));
+    await Promise.all(
+        I18n.locales[I18n.locale].map(
+            async locale =>
+                (I18n.translations[locale].lssm.missionhelper = await fetch(
+                    (I18n.translations[
+                        locale
+                    ].lssm.missionhelper = lssm.getlink(
+                        `/modules/lss-missionHelper/i18n/${locale}.json`,
+                        false
+                    ))
+                ).then(res => res.json()))
+        )
+    );
 
     const SETTINGS_STORAGE = `${LSSM_MH_PREFIX}_STORAGE`;
 
@@ -244,9 +251,11 @@ const lssm_missionhelper_adjustPosition = () => {
             managed_settings.settings.show_rdu1 = {
                 default: false,
                 ui: {
-                    label: I18n.t('lssm.missionhelper.settings.show_rdu1.label'),
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.show_rdu1.label'
+                    ),
                     type: 'checkbox',
-                    parent: SETTINGS_STORAGE + "_show_rdu_toggle",
+                    parent: SETTINGS_STORAGE + '_show_rdu_toggle',
                 },
             };
             break;
@@ -254,9 +263,11 @@ const lssm_missionhelper_adjustPosition = () => {
             managed_settings.settings.education = {
                 default: false,
                 ui: {
-                    label: I18n.t('lssm.missionhelper.settings.education.label'),
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.education.label'
+                    ),
                     type: 'checkbox',
-                    parent: SETTINGS_STORAGE + "_special_toggle",
+                    parent: SETTINGS_STORAGE + '_special_toggle',
                 },
             };
             break;
@@ -348,12 +359,17 @@ const lssm_missionhelper_adjustPosition = () => {
             }
 
             if (SETTINGS.show_rdu && MISSION.requirements.rescue_dog_units) {
-                document.getElementById('missionH1').insertAdjacentHTML('beforeend', '&nbsp;🐶');
+                document
+                    .getElementById('missionH1')
+                    .insertAdjacentHTML('beforeend', '&nbsp;🐶');
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${((SETTINGS.name && MISSION.name) ||
-                    '') + (SETTINGS.show_rdu1 && MISSION.requirements.rescue_dog_units ? '&nbsp;🐶' : '')}<sub>${(SETTINGS.id &&
+                    '') +
+                    (SETTINGS.show_rdu1 && MISSION.requirements.rescue_dog_units
+                        ? '&nbsp;🐶'
+                        : '')}<sub>${(SETTINGS.id &&
                     `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
                     `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
@@ -365,40 +381,75 @@ const lssm_missionhelper_adjustPosition = () => {
 
             MISSION.onlyRd = !Object.keys(MISSION.requirements).length;
 
-            if (MISSION.onlyRd) {
-                content.innerHTML += `<small>${I18n.t(
-                    'lssm.missionhelper.ambulance_only'
-                )}</small><br>`;
-                (MISSION.chances.patient_transport ||
-                    MISSION.additional.patient_specializations) &&
-                    (content.innerHTML += `${I18n.t(
+            const getAmbulanceCode = () => {
+                let html = '';
+                if (
+                    I18n.locale === 'it_IT' &&
+                    (MISSION.chances.patient_transport ||
+                        MISSION.additional.possible_patient_specializations)
+                ) {
+                    html += `${I18n.t(
+                        'lssm.missionhelper.transport'
+                    )}: ${(MISSION.chances.patient_transport &&
+                        `${MISSION.chances.patient_transport}%`) ||
+                        ''}${void 0 !==
+                        typeof MISSION.additional
+                            .possible_patient_specializations &&
+                        ` ( ${Object.values(
+                            MISSION.additional.possible_patient_specializations
+                        ).join(' or ')} )`}`;
+                } else if (
+                    MISSION.chances.patient_transport ||
+                    MISSION.additional.patient_specializations
+                ) {
+                    html += `${I18n.t(
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
                         ''}${void 0 !==
                         typeof MISSION.additional.patient_specializations &&
-                        ` (${MISSION.additional.patient_specializations})`}`);
-                
+                        ` (${MISSION.additional.patient_specializations})`}`;
+                }
+
                 MISSION.chances.patient_critical_care &&
-                    (content.innerHTML += `<br>${I18n.t(
+                    (html += `<br>${I18n.t(
                         'lssm.missionhelper.criticalchance'
-                )}: ${MISSION.chances.patient_critical_care}%`);
+                    )}: ${MISSION.chances.patient_critical_care}%`);
+
                 MISSION.additional.patient_uk_code_possible &&
-                    (content.innerHTML += `<br>${I18n.t(
+                    (html += `<br>${I18n.t(
                         'lssm.missionhelper.ukcodes'
-                )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
+                    )}: ${Object.values(
+                        MISSION.additional.patient_uk_code_possible
+                    ).join(' or ')}`);
+
+                MISSION.additional.patient_it_code_possible &&
+                    (html += `<br>${I18n.t(
+                        'lssm.missionhelper.itcodes'
+                    )}: ${Object.values(
+                        MISSION.additional.patient_it_code_possible
+                    ).join(' oppure ')}`);
+
                 MISSION.chances.nef &&
-                    (content.innerHTML += `<br>${I18n.t(
+                    (html += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
                     )}: ${MISSION.chances.nef}%`);
                 MISSION.chances.helicopter &&
-                    (content.innerHTML += `<br>${I18n.t(
+                    (html += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.helicopter'
                     )}: ${MISSION.chances.helicopter}%`);
                 MISSION.chances.patient_other_treatment &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.tragehilfe'
-                    )}: ${MISSION.chances.patient_other_treatment}%`);
+                    (html += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${
+                        MISSION.chances.patient_other_treatment
+                    }%`);
+                return html;
+            };
+
+            if (MISSION.onlyRd) {
+                content.innerHTML += `<small>${I18n.t(
+                    'lssm.missionhelper.ambulance_only'
+                )}</small><br>`;
+                content.innerHTML += getAmbulanceCode();
                 return lssm_missionhelper_adjustPosition();
             }
 
@@ -446,7 +497,8 @@ const lssm_missionhelper_adjustPosition = () => {
                 for (let vehicle in MISSION.requirements) {
                     if (
                         !MISSION.requirements.hasOwnProperty(vehicle) ||
-                        vehicle === 'water_needed' || vehicle === 'personnel_educations'
+                        vehicle === 'water_needed' ||
+                        vehicle === 'personnel_educations'
                     )
                         continue;
                     content.innerHTML += `${
@@ -482,41 +534,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     )}`) ||
                     ''} ${MISSION.additional.possible_patient}<br>`;
 
-                if (
-                    MISSION.chances.patient_transport ||
-                    MISSION.additional.patient_specializations
-                ) {
-                    content.innerHTML += `${I18n.t(
-                        'lssm.missionhelper.transport'
-                    )}: ${(MISSION.chances.patient_transport &&
-                        `${MISSION.chances.patient_transport}%`) ||
-                        ''}${void 0 !==
-                        typeof MISSION.additional.patient_specializations &&
-                        ` (${MISSION.additional.patient_specializations})`}`;
-                }
-
-                MISSION.chances.patient_critical_care &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.criticalchance'
-                    )}: ${MISSION.chances.patient_critical_care}%`);
-
-                MISSION.additional.patient_uk_code_possible &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.ukcodes'
-                    )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
-
-                MISSION.chances.nef &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.requirements.nef'
-                    )}: ${MISSION.chances.nef}%`);
-                MISSION.chances.helicopter &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.requirements.helicopter'
-                    )}: ${MISSION.chances.helicopter}%`);
-                MISSION.chances.patient_other_treatment &&
-                    (content.innerHTML += `<br>${I18n.t(
-                        'lssm.missionhelper.tragehilfe'
-                    )}: ${MISSION.chances.patient_other_treatment}%`);
+                content.innerHTML += getAmbulanceCode();
 
                 I18n.locale === 'de_DE' &&
                     patients >= 5 &&
@@ -559,13 +577,17 @@ const lssm_missionhelper_adjustPosition = () => {
                     'lssm.missionhelper.averageMinimumEmployeesFire'
                 )}: ${MISSION.additional.average_min_fire_personnel}<br>`);
 
-            SETTINGS.special && 
-            SETTINGS.education && 
-            MISSION.additional &&
-            MISSION.additional.personnel_educations &&
+            SETTINGS.special &&
+                SETTINGS.education &&
+                MISSION.additional &&
+                MISSION.additional.personnel_educations &&
                 (content.innerHTML += `<br><b>${I18n.t(
                     'lssm.missionhelper.education'
-                )}</b>:<br>${Object.entries(MISSION.additional.personnel_educations).map(([schooling, amount]) => `${amount}x ${schooling}`).join('<br>')}<br>`);
+                )}</b>:<br>${Object.entries(
+                    MISSION.additional.personnel_educations
+                )
+                    .map(([schooling, amount]) => `${amount}x ${schooling}`)
+                    .join('<br>')}<br>`);
 
             SETTINGS.special &&
                 MISSION.additional &&

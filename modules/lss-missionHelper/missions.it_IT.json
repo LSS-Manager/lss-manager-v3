@@ -14,7 +14,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -34,7 +36,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -59,7 +63,8 @@
                 "0": 27,
                 "1": 16,
                 "2": 19
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -83,7 +88,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 27
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -107,7 +113,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 14
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -135,6 +142,17 @@
         },
         "additional": {
             "possible_patient": 1,
+            "patient_it_code_possible": {
+                "0": "KC01G",
+                "1": "KC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -156,7 +174,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -179,7 +199,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 14
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -205,7 +226,8 @@
                 "0": 20,
                 "1": 22,
                 "2": 6
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -230,7 +252,8 @@
             "expansion_missions_ids": {
                 "0": 14,
                 "1": 6
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -251,7 +274,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -271,7 +296,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -295,7 +322,8 @@
             "expansion_missions_ids": {
                 "0": 25
             },
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -316,7 +344,9 @@
             "firetrucks": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -339,7 +369,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 15
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -360,7 +391,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -380,7 +413,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -400,7 +435,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -420,7 +457,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -440,7 +479,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -466,6 +507,17 @@
         },
         "additional": {
             "possible_patient": 2,
+            "patient_it_code_possible": {
+                "0": "KC01G",
+                "1": "KC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -491,7 +543,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 22
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 3
@@ -514,7 +567,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -534,7 +589,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -554,7 +611,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 3
         }
@@ -584,6 +643,20 @@
                 "1": 2,
                 "2": 29
             },
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -611,6 +684,18 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -633,7 +718,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 4
         }
@@ -654,7 +741,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 5
         }
@@ -677,7 +766,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
@@ -700,7 +791,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -722,7 +814,9 @@
             "platform_trucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -742,7 +836,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -767,6 +863,18 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -799,6 +907,17 @@
         },
         "additional": {
             "possible_patient": 25,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -824,6 +943,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC07G",
+                "1": "SC07V",
+                "2": "SC07R"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -850,6 +980,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC02G",
+                "1": "KC02R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Cardiologia",
+                "1": "Chirurgia cardiaca",
+                "2": "Cardiologia",
+                "3": "Chirurgia cardiaca"
+            },
             "patient_specializations": "Cardiologia"
         },
         "prerequisites": {
@@ -874,6 +1015,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC03G",
+                "1": "KC03R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -898,6 +1048,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC04R",
+                "1": "KC04G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Neurologia",
+                "1": "Neurochirurgia",
+                "2": "Neurologia",
+                "3": "Neurochirurgia"
+            },
             "patient_specializations": "Neurologia"
         },
         "prerequisites": {
@@ -922,6 +1083,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC15G",
+                "1": "KC15V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Malattie infettive",
+                "1": "Malattie infettive"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -946,6 +1116,23 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC01V",
+                "1": "KC01G",
+                "2": "SC01G",
+                "3": "ZC01R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -982,6 +1169,18 @@
         },
         "additional": {
             "possible_patient": 4,
+            "patient_it_code_possible": {
+                "0": "ZC03G",
+                "1": "ZC03R",
+                "2": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1008,6 +1207,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01G",
+                "1": "ZC01R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1032,6 +1242,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "PC01G",
+                "1": "PC01R",
+                "2": "PC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1054,7 +1278,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1076,7 +1301,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1097,7 +1323,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1117,7 +1345,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1138,7 +1368,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1160,7 +1391,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -1181,7 +1413,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1201,7 +1435,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1221,7 +1457,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1241,7 +1479,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1261,7 +1501,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1284,6 +1526,23 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "PC01G",
+                "2": "SC01R",
+                "3": "SC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1309,7 +1568,8 @@
             "expansion_missions_ids": {
                 "0": 55
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -1331,7 +1591,8 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {}
     },
@@ -1350,7 +1611,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -1371,7 +1634,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -1398,6 +1663,17 @@
         },
         "additional": {
             "possible_patient": 10,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1420,7 +1696,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -1443,6 +1721,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC04G",
+                "1": "KC04R",
+                "2": "SC04G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Neurologia",
+                "1": "Neurochirurgia",
+                "2": "Neurologia",
+                "3": "Neurochirurgia",
+                "4": "Neurologia",
+                "5": "Neurochirurgia"
+            },
             "patient_specializations": "Neurochirurgia"
         },
         "prerequisites": {
@@ -1469,6 +1761,20 @@
         },
         "additional": {
             "possible_patient": 12,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1491,7 +1797,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -1517,6 +1825,15 @@
         },
         "additional": {
             "possible_patient": 1,
+            "patient_it_code_possible": {
+                "0": "KC03G",
+                "1": "KC03R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1543,6 +1860,23 @@
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "PC01G",
+                "2": "SC01R",
+                "3": "SC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1576,6 +1910,18 @@
         },
         "additional": {
             "possible_patient": 6,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1603,7 +1949,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
@@ -1636,6 +1984,18 @@
         },
         "additional": {
             "possible_patient": 25,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -1660,6 +2020,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC12V",
+                "1": "KC12G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Otorinolaringoiatria",
+                "2": "Chirurgia generale",
+                "3": "Otorinolaringoiatria"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -1690,6 +2061,17 @@
         },
         "additional": {
             "possible_patient": 6,
+            "patient_it_code_possible": {
+                "0": "ZC01G",
+                "1": "ZC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -1718,6 +2100,20 @@
         },
         "additional": {
             "possible_patient": 15,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -1746,7 +2142,8 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true
+            "only_alliance_mission": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {}
     },
@@ -1771,6 +2168,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "LC01R",
+                "1": "ZC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -1796,7 +2204,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
@@ -1818,7 +2228,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 6
         }
@@ -1840,7 +2252,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 7
@@ -1863,7 +2277,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 7
@@ -1889,6 +2305,17 @@
         },
         "additional": {
             "possible_patient": 1,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -1917,6 +2344,17 @@
         },
         "additional": {
             "possible_patient": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -1943,7 +2381,9 @@
             "hazmat_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 11
         }
@@ -1970,6 +2410,19 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC01G",
+                "1": "KC20G",
+                "2": "KC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Medicina interna generale",
+                "4": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2002,6 +2455,15 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "KC03R",
+                "1": "KC03G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2032,6 +2494,20 @@
         "additional": {
             "possible_patient": 30,
             "possible_patient_min": 10,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2064,6 +2540,17 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2098,6 +2585,17 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2129,6 +2627,17 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2164,6 +2673,17 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 8,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2198,6 +2718,20 @@
         "additional": {
             "possible_patient": 8,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2225,6 +2759,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "ZC01R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Neurologia"
         },
         "prerequisites": {
@@ -2252,6 +2797,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -2275,7 +2831,12 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 119
+            },
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -2307,6 +2868,20 @@
         "additional": {
             "possible_patient": 50,
             "possible_patient_min": 20,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2343,6 +2918,20 @@
         "additional": {
             "possible_patient": 40,
             "possible_patient_min": 10,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2376,6 +2965,20 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 20,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -2406,6 +3009,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01G",
+                "1": "SC01R",
+                "2": "SC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2434,6 +3051,17 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
+            "patient_it_code_possible": {
+                "0": "KC01G",
+                "1": "KC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2459,6 +3087,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC03R",
+                "1": "PC03R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2489,6 +3126,17 @@
         "additional": {
             "possible_patient": 6,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "LC01G",
+                "1": "LC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2517,6 +3165,17 @@
         },
         "additional": {
             "possible_patient": 8,
+            "patient_it_code_possible": {
+                "0": "QC01G",
+                "1": "QC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -2553,6 +3212,20 @@
         "additional": {
             "possible_patient": 260,
             "possible_patient_min": 180,
+            "patient_it_code_possible": {
+                "0": "YC01G",
+                "1": "YC01R",
+                "2": "YC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -2585,6 +3258,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -2608,7 +3295,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 1
         }
@@ -2633,6 +3322,20 @@
         "additional": {
             "possible_patient": 2,
             "max_possible_prisoners": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2664,6 +3367,20 @@
         "additional": {
             "possible_patient": 12,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "PC01R",
+                "1": "PC01G",
+                "2": "PC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2692,7 +3409,9 @@
         "chances": {
             "battalion_chief_vehicles": 10
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 5
         }
@@ -2713,7 +3432,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 4
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -2741,6 +3461,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2771,6 +3505,20 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2797,7 +3545,9 @@
         "chances": {
             "water_tankers": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 2
         }
@@ -2823,6 +3573,20 @@
             "possible_patient": 4,
             "possible_patient_min": 0,
             "max_possible_prisoners": 2,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2846,7 +3610,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4
@@ -2871,7 +3636,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 104
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2901,6 +3667,20 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "LC01R",
+                "1": "LC01G",
+                "2": "LC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2925,7 +3705,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -2958,6 +3739,20 @@
             "possible_patient": 10,
             "possible_patient_min": 2,
             "average_min_fire_personnel": 40,
+            "patient_it_code_possible": {
+                "0": "LC01R",
+                "1": "LC01G",
+                "2": "LC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2983,7 +3778,8 @@
         },
         "chances": {},
         "additional": {
-            "allow_rw_instead_of_lf": true
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -3007,7 +3803,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 7,
@@ -3030,7 +3827,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 4,
@@ -3056,7 +3854,8 @@
             "expansion_missions_ids": {
                 "0": 154
             },
-            "max_possible_prisoners": 1
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2
@@ -3081,6 +3880,17 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 0,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Chirurgia generale"
         },
@@ -3104,7 +3914,9 @@
             "k9": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 6
         }
@@ -3132,6 +3944,17 @@
                 "0": 157
             },
             "max_possible_prisoners": 2,
+            "patient_it_code_possible": {
+                "0": "SC01V",
+                "1": "SC01G"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3160,6 +3983,17 @@
         "additional": {
             "possible_patient": 5,
             "max_possible_prisoners": 4,
+            "patient_it_code_possible": {
+                "0": "SC01V",
+                "1": "SC01G"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3184,7 +4018,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 2
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 6
@@ -3207,7 +4042,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 8
@@ -3234,6 +4070,17 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -3263,7 +4110,8 @@
         "chances": {},
         "additional": {
             "duration": "30 Minuti",
-            "guard_mission": true
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 10
@@ -3285,7 +4133,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 2
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 5
@@ -3312,6 +4161,15 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
+            "patient_it_code_possible": {
+                "0": "KC20R",
+                "1": "ZC20R"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -3336,7 +4194,8 @@
         },
         "chances": {},
         "additional": {
-            "max_possible_prisoners": 3
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 9
@@ -3369,6 +4228,18 @@
         "additional": {
             "possible_patient": 8,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3404,6 +4275,20 @@
             "possible_patient": 10,
             "possible_patient_min": 2,
             "average_min_fire_personnel": 25,
+            "patient_it_code_possible": {
+                "0": "LC01R",
+                "1": "LC01G",
+                "2": "LC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3427,7 +4312,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -3454,6 +4341,17 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 0,
+            "patient_it_code_possible": {
+                "0": "PC01G",
+                "1": "PC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Medicina interna generale"
         },
@@ -3477,7 +4375,9 @@
             "firetrucks": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 1
         }
@@ -3505,6 +4405,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
@@ -3540,6 +4451,18 @@
             "possible_patient": 35,
             "possible_patient_min": 2,
             "average_min_fire_personnel": 40,
+            "patient_it_code_possible": {
+                "0": "PC03G",
+                "1": "PC03R",
+                "2": "PC01G"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3568,7 +4491,8 @@
                 "0": 25,
                 "1": 64,
                 "2": 106
-            }
+            },
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
@@ -3602,6 +4526,20 @@
         "additional": {
             "possible_patient": 110,
             "possible_patient_min": 20,
+            "patient_it_code_possible": {
+                "0": "YC01G",
+                "1": "YC01R",
+                "2": "YC01V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -3626,7 +4564,9 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 4
         }
@@ -3656,6 +4596,20 @@
             "possible_patient": 20,
             "possible_patient_min": 5,
             "average_min_fire_personnel": 20,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3686,6 +4640,20 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3717,6 +4685,20 @@
         "additional": {
             "possible_patient": 15,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3749,6 +4731,20 @@
         "additional": {
             "possible_patient": 30,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3774,7 +4770,9 @@
             "police_cars": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 4
@@ -3802,6 +4800,17 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "LC03R",
+                "1": "LC03G",
+                "2": "LC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -3832,6 +4841,17 @@
         "additional": {
             "possible_patient": 25,
             "possible_patient_min": 4,
+            "patient_it_code_possible": {
+                "0": "LC03R",
+                "1": "LC03G",
+                "2": "LC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3865,6 +4885,17 @@
         "additional": {
             "possible_patient": 30,
             "possible_patient_min": 5,
+            "patient_it_code_possible": {
+                "0": "LC03R",
+                "1": "LC03G",
+                "2": "LC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3892,7 +4923,9 @@
         "chances": {
             "battalion_chief_vehicles": 20
         },
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 6
@@ -3916,6 +4949,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC19G",
+                "1": "ZC19R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
             "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
             "patient_specializations": "Medicina interna generale"
@@ -3942,6 +4984,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC19G",
+                "1": "ZC19R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
             "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
             "patient_specializations": "Medicina interna generale"
@@ -3968,6 +5019,13 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC19G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale"
+            },
             "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
             "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
             "patient_specializations": "Medicina interna generale"
@@ -3994,6 +5052,15 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC19G",
+                "1": "ZC19V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
             "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
             "date_end": "Gio, 01 Ott 2020 00:00:00 +0200",
             "patient_specializations": "Medicina interna generale"
@@ -4018,6 +5085,7 @@
         },
         "chances": {},
         "additional": {
+            "filter_id": "firehouse_missions",
             "date_start": "Ven, 26 Giu 2020 10:00:00 +0200",
             "date_end": "Gio, 01 Ott 2020 00:00:00 +0200"
         },
@@ -4041,7 +5109,9 @@
             "police_cars": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "police_stations": 1,
             "fire_stations": 1
@@ -4070,6 +5140,19 @@
             "expansion_missions_ids": {
                 "0": 133
             },
+            "patient_it_code_possible": {
+                "0": "ZC07G",
+                "1": "KC07G",
+                "2": "KC07R",
+                "3": "ZC07R"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale",
+                "3": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -4095,6 +5178,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC10V",
+                "1": "KC10G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Urologia",
+                "2": "Chirurgia generale",
+                "3": "Urologia"
+            },
             "patient_specializations": "Urologia"
         },
         "prerequisites": {
@@ -4119,6 +5213,17 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC03G",
+                "1": "KC03R",
+                "2": "KC03V"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -4150,12 +5255,356 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "ZC03G",
+                "1": "ZC03R",
+                "2": "ZC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Medicina interna generale"
+            },
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
             "rescue_stations": 6,
             "police_stations": 4,
             "fire_stations": 8
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Ipoglicemia ",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC08R"
+            },
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale"
+            },
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Cambio catetere",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC10V",
+                "1": "KC10G"
+            },
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Urologia",
+                "2": "Chirurgia generale",
+                "3": "Urologia"
+            },
+            "patient_specializations": "Urologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Frattura di femore",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC01G",
+                "1": "KC01V"
+            },
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Dolore addominale",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 85
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC09G",
+                "1": "KC09V"
+            },
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Gastroenterologia",
+                "2": "Chirurgia generale",
+                "3": "Gastroenterologia"
+            },
+            "patient_specializations": "Gastroenterologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Infarto",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC02R",
+                "1": "PC02R",
+                "2": "LC02R"
+            },
+            "possible_patient_specializations": {
+                "0": "Cardiologia",
+                "1": "Chirurgia cardiaca",
+                "2": "Cardiologia",
+                "3": "Chirurgia cardiaca",
+                "4": "Cardiologia",
+                "5": "Chirurgia cardiaca"
+            },
+            "patient_specializations": "Chirurgia cardiaca"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Ictus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC04R",
+                "1": "KC04G"
+            },
+            "possible_patient_specializations": {
+                "0": "Neurologia",
+                "1": "Neurochirurgia",
+                "2": "Neurologia",
+                "3": "Neurochirurgia"
+            },
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Arresto cardiaco",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC02R",
+                "1": "SC02R"
+            },
+            "possible_patient_specializations": {
+                "0": "Cardiologia",
+                "1": "Chirurgia cardiaca",
+                "2": "Cardiologia",
+                "3": "Chirurgia cardiaca"
+            },
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Rottura delle acque",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC14G",
+                "1": "SC14G"
+            },
+            "possible_patient_specializations": {
+                "0": "Ginecologia",
+                "1": "Ginecologia"
+            },
+            "patient_specializations": "Ginecologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Decadimento in pz oncologico",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC06R",
+                "1": "KC06G"
+            },
+            "possible_patient_specializations": {
+                "0": "Oncologia",
+                "1": "Oncologia"
+            },
+            "patient_specializations": "Oncologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Medica/Non identificata",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC20G",
+                "1": "KC20R"
+            },
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale"
+            },
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

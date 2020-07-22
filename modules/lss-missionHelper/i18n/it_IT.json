@@ -11,6 +11,7 @@
   "ambulance_only": "Questa missione e' riservata alle ambulanze.!",
   "title": "Missionhelper",
   "transport": "Trasporto",
+  "itcodes": "Codici patologie possibili nella missione",
   "allow_rw_instead_of_lf": "Questa Missione può anche essere eseguita con un Rescue pesante invece di un colpo di fuoco",
   "settings": {
     "name": {
