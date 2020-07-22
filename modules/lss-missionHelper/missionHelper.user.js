@@ -390,7 +390,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 MISSION.additional.patient_it_code_possible &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.itcodes'
-                    )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' or ')}`);
+                )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' oppure ')}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -512,7 +512,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 MISSION.additional.patient_it_code_possible &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.itcodes'
-                    )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' or ')}`);
+                    )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' oppure ')}`);
 
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
