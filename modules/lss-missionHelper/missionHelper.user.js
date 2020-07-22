@@ -387,6 +387,10 @@ const lssm_missionhelper_adjustPosition = () => {
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.ukcodes'
                 )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
+                MISSION.additional.patient_it_code_possible &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.itcodes'
+                    )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' or ')}`);
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.requirements.nef'
@@ -504,6 +508,11 @@ const lssm_missionhelper_adjustPosition = () => {
                     (content.innerHTML += `<br>${I18n.t(
                         'lssm.missionhelper.ukcodes'
                     )}: ${Object.values(MISSION.additional.patient_uk_code_possible).join(' or ')}`);
+                
+                MISSION.additional.patient_it_code_possible &&
+                    (content.innerHTML += `<br>${I18n.t(
+                        'lssm.missionhelper.itcodes'
+                    )}: ${Object.values(MISSION.additional.patient_it_code_possible).join(' or ')}`);
 
                 MISSION.chances.nef &&
                     (content.innerHTML += `<br>${I18n.t(
