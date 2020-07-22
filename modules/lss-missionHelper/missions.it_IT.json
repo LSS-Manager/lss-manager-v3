@@ -2404,6 +2404,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 119
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
@@ -4364,6 +4367,246 @@
             "rescue_stations": 6,
             "police_stations": 4,
             "fire_stations": 8
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Ipoglicemia ",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Cambio catetere",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Urologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Frattura di femore",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Dolore addominale",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 85
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "<span class=\"translation_missing localeapp\" title=\"translation missing: it_IT.buildings.gastroenterology\">Gastroenterology</span>"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Infarto",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Chirurgia cardiaca"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Ictus",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Neurochirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Arresto cardiaco",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Cardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Rottura delle acque",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Ginecologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Decadimento in pz oncologico",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "<span class=\"translation_missing localeapp\" title=\"translation missing: it_IT.buildings.oncology\">Oncology</span>"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Medica/Non identificata",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_specializations": "Medicina interna generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }
