@@ -4202,7 +4202,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "rescue_stations": 15,
+            "rescue_stations": 10,
             "police_stations": 3,
             "fire_stations": 10
         }
@@ -4237,7 +4237,7 @@
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "rescue_stations": 30,
+            "rescue_stations": 15,
             "police_stations": 6,
             "fire_stations": 20
         }
