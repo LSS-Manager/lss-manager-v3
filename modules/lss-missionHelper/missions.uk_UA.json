@@ -2696,6 +2696,7 @@
             "expansion_missions_ids": {
                 "0": 117
             },
+            "filter_id": "firehouse_missions",
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {
@@ -2728,6 +2729,7 @@
         },
         "additional": {
             "possible_patient": 50,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "\u0422\u0435\u0440\u0430\u043f\u0435\u0432\u0442 \u0437\u0430\u0433\u0430\u043b\u044c\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0444\u0456\u043b\u044e"
         },
         "prerequisites": {

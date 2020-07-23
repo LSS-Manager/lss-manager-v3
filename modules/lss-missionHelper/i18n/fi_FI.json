@@ -77,14 +77,14 @@
             "firetrucks": "Paloautot",
             "platform_trucks": "Nostolava-auto",
             "heavy_rescue_vehicles": "Raskaat pelastusautot",
-            "mobile_air_vehicles": "Breathing Apparatus Support Unit",
+            "mobile_air_vehicles": "Paineilmahuoltoautot",
             "battalion_chief_vehicles": "Johtoauto",
             "water_tankers": "Säiliöauto",
             "hazmat_vehicles": "Kemikaalitorjunta-auto",
-            "mobile_command_vehicles": "Johtokeskusauto",
+            "mobile_command_vehicles": "Johtokeskusautot",
             "police_cars": "Poliisiauto",
             "arff": "Lentokenttäpaloauto",
-            "helicopter": "Air Ambulance",
+            "helicopter": "Helikopteripyynnön",
             "allow_rw_instead_of_lf": "Paloautot tai raskas pelastus"
         }
     }
