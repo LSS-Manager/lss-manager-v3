@@ -16134,7 +16134,8 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 632
-            }
+            },
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 1
@@ -16164,6 +16165,7 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Algemene Heelkunde"
         },
         "prerequisites": {
@@ -16191,6 +16193,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_specializations": "Algemene Heelkunde"
         },
         "prerequisites": {
@@ -16213,7 +16216,9 @@
             "police_cars": 5
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
         "prerequisites": {
             "police_stations": 4,
             "police_helicopter_stations": 1

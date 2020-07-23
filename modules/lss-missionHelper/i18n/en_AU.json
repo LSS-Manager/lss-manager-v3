@@ -2,6 +2,8 @@
 
 {
     "diy_mission": "This mission seems to be a large scale alliance mission.",
+    "averageMinimumEmployeesFire": "Average min . Fire Personnel",
+    "averageMinimumEmployeesPolice": "Average min . Police Personnel",
     "settings": {
         "name": {
             "label": "Name",
@@ -81,6 +83,8 @@
         "swat_armored_vehicle": "SWAT Armoured Vehicle",
         "swat_suv": "SWAT SUV",
         "police_helicopters": "Police Helicopter",
+        "boats": "Boats",
+        "water_rescue": "SES Vehicle",
         "allow_rw_instead_of_lf": "Fire trucks or Major Rescue Vehicle"
     }
 }

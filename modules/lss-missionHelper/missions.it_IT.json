@@ -5295,6 +5295,7 @@
             "patient_it_code_possible": {
                 "0": "KC08R"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Medicina interna generale"
             },
@@ -5326,6 +5327,7 @@
                 "0": "KC10V",
                 "1": "KC10G"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Chirurgia generale",
                 "1": "Urologia",
@@ -5360,6 +5362,7 @@
                 "0": "KC01G",
                 "1": "KC01V"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Medicina interna generale",
                 "1": "Traumatologia",
@@ -5394,6 +5397,7 @@
                 "0": "KC09G",
                 "1": "KC09V"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Chirurgia generale",
                 "1": "Gastroenterologia",
@@ -5429,6 +5433,7 @@
                 "1": "PC02R",
                 "2": "LC02R"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Cardiologia",
                 "1": "Chirurgia cardiaca",
@@ -5465,6 +5470,7 @@
                 "0": "KC04R",
                 "1": "KC04G"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Neurologia",
                 "1": "Neurochirurgia",
@@ -5499,6 +5505,7 @@
                 "0": "KC02R",
                 "1": "SC02R"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Cardiologia",
                 "1": "Chirurgia cardiaca",
@@ -5533,6 +5540,7 @@
                 "0": "KC14G",
                 "1": "SC14G"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Ginecologia",
                 "1": "Ginecologia"
@@ -5565,6 +5573,7 @@
                 "0": "KC06R",
                 "1": "KC06G"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Oncologia",
                 "1": "Oncologia"
@@ -5597,6 +5606,7 @@
                 "0": "KC20G",
                 "1": "KC20R"
             },
+            "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"

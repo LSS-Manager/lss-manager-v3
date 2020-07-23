@@ -95,7 +95,10 @@ else if (I18n.locale == "en_AU") {
         "15": ["TOG Armoured Bearcat", 2],
         "16": ["K-9 Unit", 2],
         "17": ["Police Motorcycle", 2],
-        "18": ["TOG SUV", 2]
+        "18": ["TOG SUV", 2],
+        "19": ["Tanker", 0],
+        "20": ["SES Vehicle", 4],
+        "21": ["Multi-Purpose Boat", 4]
     };
 }
 else if (I18n.locale == "es_ES") {
@@ -438,7 +441,11 @@ else if (I18n.locale == "fi_FI") {
         "6": ["Säiliöauto", 0],
         "7": ["Kemikaalitorjunta", 0],
         "8": ["Partioauto", 2],
-        "9": ["Lääkärihelikopteri (HEMS)", 1]
+        "9": ["Lääkärihelikopteri (HEMS)", 1],
+        "10": ["Paineilmahuoltoauto", 0],
+        "11": ["Johtokeskusauto", 0],
+        "12": ["Pelastusauto", 0],
+        "13": ["Säiliösammutusauto", 0]
     };
 }
 else if (I18n.locale == "nl_NL") {

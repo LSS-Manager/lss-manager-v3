@@ -325,6 +325,7 @@
                 6: "Police Station",
                 7: "Dispatch Center",
                 13: "Police Air Wing",
+                15: "SES unit",
                 18: "Fire Station (Small)",
                 19: "Police Station (Small station)",
                 20: "Ambulance station (Small station)"
@@ -348,7 +349,10 @@
                 15: 'TOG Armoured Bearcat',
                 16: 'K-9 Unit',
                 17: 'Police Motorcycle',
-                18: 'TOG SUV'
+                18: 'TOG SUV',
+                19: 'Tanker',
+                20: 'SES Vehicle',
+                21: 'Multi-Purpose Boat'
             }
         }
     };
@@ -1533,7 +1537,11 @@
                 6: 'Säiliöauto',
                 7: 'Kemikaalitorjunta',
                 8: 'Partioauto',
-                9: 'Lääkärihelikopteri (HEMS)'
+                9: 'Lääkärihelikopteri (HEMS)',
+                10: 'Paineilmahuoltoauto',
+                11: 'Johtokeskusauto',
+                12: 'Pelastusauto',
+                13: 'Säiliösammutusauto'
             }
         }
     };

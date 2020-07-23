@@ -3779,5 +3779,431 @@
             "police_stations": 6,
             "fire_stations": 20
         }
+    },
+    "190": {
+        "id": 190,
+        "name": "Car in Water",
+        "place": "Lake",
+        "average_credits": 1400,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Car in Water",
+        "place": "River",
+        "average_credits": 1400,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Truck in Water",
+        "place": "Lake",
+        "average_credits": 2000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "193": {
+        "id": 193,
+        "name": "Truck in Water",
+        "place": "River",
+        "average_credits": 2000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "194": {
+        "id": 194,
+        "name": "Bus in Water",
+        "place": "Lake",
+        "average_credits": 3000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 8,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "195": {
+        "id": 195,
+        "name": "Bus in Water",
+        "place": "River",
+        "average_credits": 3000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 8,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "Injured Hiker",
+        "place": "Forest",
+        "average_credits": 1500,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "water_rescue": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "police_stations": 1
+        }
+    },
+    "197": {
+        "id": 197,
+        "name": "Missing person near water",
+        "place": "Lake",
+        "average_credits": 3000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Missing person near water",
+        "place": "River",
+        "average_credits": 3000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Swimmer in Distress",
+        "place": "Lake",
+        "average_credits": 1000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "police_stations": 1
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Swimmer in Distress",
+        "place": "River",
+        "average_credits": 1000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "police_stations": 1
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Drowning",
+        "place": "Lake",
+        "average_credits": 1200,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Drowning",
+        "place": "River",
+        "average_credits": 1200,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
     }
 }

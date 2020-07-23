@@ -9,6 +9,8 @@
         "fwm": "Follow-up missions",
         "SWATPersonnel": "Needed SWAT Personnel",
         "ambulance_only": "This mission is ambulance-only!",
+        "averageMinimumEmployeesFire": "Average min . Fire Personnel",
+        "averageMinimumEmployeesPolice": "Average min . Police Personnel",
         "title": "Missionhelper",
         "transport": "Transport",
         "allow_rw_instead_of_lf":
