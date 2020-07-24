@@ -234,10 +234,11 @@
     };
     async function loadChart(element, name, data) {
         try {
+            const width = $('#alliance_li ul').width();
             element.highcharts({
                 chart: {
-                    width: $('#alliance_li ul').width() - 10,
-                    height: $('#alliance_li ul').width() - 10
+                    width:  width > 300 ? width - 10 : 290,
+                    height: width > 300 ? width - 10 : 290
                 },
                 title: {
                     text: name
@@ -422,22 +423,24 @@
         $('#verbandsverwaltungCharts').toggle();
     });
 
-    $('#verbandsverwaltungDropdown').css('position', 'absolute');
-    $('#verbandsverwaltungCharts').css('position', 'absolute');
-    $('#verbandsverwaltungDropdown').css('z-index', '999');
-    $('#verbandsverwaltungCharts').css('z-index', '999');
-    $('#verbandsverwaltungDropdown').css('background', '#BA1D1A');
-    $('#verbandsverwaltungCharts').css('background', '#BA1D1A');
-    $('#verbandsverwaltungDropdown').css('width', '100%');
-    $('#verbandsverwaltungCharts').css('width', '100%');
-    $('#verbandsverwaltungDropdown').css('top', '0px');
-    $('#verbandsverwaltungCharts').css('top', '0px');
-    $('#verbandsverwaltungDropdown').css('left', (0 - $('#alliance_li ul').width()) + 'px');
-    $('#verbandsverwaltungCharts').css('left', (0 + $('#alliance_li ul').width()) + 'px');
-    $('#verbandsverwaltungDropdown').css('padding', '5px');
-    $('#verbandsverwaltungCharts').css('padding', '5px');
-    $('#verbandsverwaltungDropdown').css('border', '1px solid black');
-    $('#verbandsverwaltungCharts').css('border', '1px solid black');
+    $('#verbandsverwaltungDropdown').css('position', 'absolute')
+        .css('z-index', '999')
+        .css('background', '#BA1D1A')
+        .css('width', '100%')
+        .css('min-width', '300px')
+        .css('top', '0px')
+        .css('right', $('#alliance_li ul').width() + 'px')
+        .css('padding', '5px')
+        .css('border', '1px solid black');
+    $('#verbandsverwaltungCharts').css('position', 'absolute')
+        .css('z-index', '999')
+        .css('background', '#BA1D1A')
+        .css('width', '100%')
+        .css('min-width', '300px')
+        .css('top', '0px')
+        .css('left', (0 + $('#alliance_li ul').width()) + 'px')
+        .css('padding', '5px')
+        .css('border', '1px solid black');
 
     // Alte Verbandsverwaltungs-Einsträge löschen
     for (let localStorageItem in localStorage) {
