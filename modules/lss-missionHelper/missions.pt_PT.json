@@ -3027,5 +3027,38 @@
             "police_stations": 6,
             "fire_stations": 20
         }
+    },
+    "128": {
+        "id": 128,
+        "name": "Derrocada da Mina",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 4,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "police_stations": 5,
+            "fire_stations": 10
+        }
     }
 }
