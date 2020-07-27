@@ -3482,6 +3482,31 @@
             "fire_stations": 20
         }
     },
+    "145": {
+        "id": 145,
+        "name": "Alergick\u00e1 reakce",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "146": {
         "id": 146,
         "name": "Po\u017e\u00e1r do\u0161kov\u00e9 st\u0159echy",

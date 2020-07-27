@@ -16116,6 +16116,72 @@
             "fire_stations": 6
         }
     },
+    "629": {
+        "id": 629,
+        "name": "Lek/zinken plezierjacht",
+        "place": "Jachthaven",
+        "average_credits": 2320,
+        "generated_by": "",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1,
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "630": {
+        "id": 630,
+        "name": "Lek/zinken plezierjacht",
+        "place": "Jachthaven",
+        "average_credits": 3160,
+        "generated_by": "",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1,
+            "diver_units": 2,
+            "boats": 1
+        },
+        "chances": {
+            "platform_trucks": 15,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
     "631": {
         "id": 631,
         "name": "Brandende frituurpan",

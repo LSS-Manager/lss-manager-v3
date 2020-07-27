@@ -2783,5 +2783,30 @@
             "police_stations": 6,
             "fire_stations": 20
         }
+    },
+    "119": {
+        "id": 119,
+        "name": "\uc54c\ub808\ub974\uae30 \ubc18\uc751",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\uc2ec\uc7a5 \uc758\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

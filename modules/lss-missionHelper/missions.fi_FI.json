@@ -2672,6 +2672,31 @@
             "fire_stations": 20
         }
     },
+    "105": {
+        "id": 105,
+        "name": "Allerginen reaktio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulanssiasema",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "106": {
         "id": 106,
         "name": "Logistiikkakeskuksen tulipalo",
@@ -2717,10 +2742,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 3,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1,
-            "mobile_air_vehicles": 1
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 3
         },
         "chances": {},
         "additional": {
@@ -2743,10 +2766,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 3,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1,
-            "mobile_air_vehicles": 1
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 3
         },
         "chances": {},
         "additional": {
@@ -2769,10 +2790,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 3,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1,
-            "mobile_air_vehicles": 1
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 3
         },
         "chances": {},
         "additional": {
@@ -2795,10 +2814,8 @@
         },
         "requirements": {
             "firetrucks": 4,
-            "battalion_chief_vehicles": 3,
-            "mobile_command_vehicles": 1,
-            "water_tankers": 1,
-            "mobile_air_vehicles": 1
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 3
         },
         "chances": {},
         "additional": {
@@ -2879,7 +2896,7 @@
     },
     "113": {
         "id": 113,
-        "name": "ulipalo pikaruokaravintolassa",
+        "name": "Tulipalo pikaruokaravintolassa",
         "place": "Pikaruokaravintola",
         "average_credits": 1850,
         "generated_by": "Paloasema",
@@ -2892,6 +2909,7 @@
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
+            "water_tankers": 1,
             "mobile_air_vehicles": 1
         },
         "chances": {},
@@ -2918,6 +2936,7 @@
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "platform_trucks": 2,
+            "water_tankers": 3,
             "hazmat_vehicles": 1
         },
         "chances": {},

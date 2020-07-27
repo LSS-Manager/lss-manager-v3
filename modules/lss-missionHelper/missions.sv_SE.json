@@ -3856,13 +3856,36 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 179
-            },
+            "expansion_missions_ids": {},
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3
+        }
+    },
+    "179": {
+        "id": 179,
+        "name": "Flygande besiktning",
+        "place": null,
+        "average_credits": 1450,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 137
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 9
         }
     }
 }
