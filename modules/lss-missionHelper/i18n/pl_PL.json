@@ -68,6 +68,10 @@
       "label": "Wymogi strażników bezpieczeństwa",
       "description": "Pokazuje również wymagania strażników bezpieczeństwa w pomocniku."
     },
+    "show_k9": {
+      "label": "Ikona psa za nazwą misji",
+      "description": "Pokazuje psa emoji za nazwą misji, jeśli wymagany jest k9."
+    },
     "mission_time": {
       "label": "Czas tworzenia",
       "description": "Pokazuje datę i godzinę utworzenia misji."

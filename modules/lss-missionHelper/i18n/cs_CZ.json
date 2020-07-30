@@ -68,6 +68,10 @@
       "label": "Požadavky na bezpečnostní strážce",
       "description": "Ukazuje také požadavky na bezpečnostní strážce v pomocníkovi."
     },
+    "show_k9": {
+      "label": "Ikona psa za názvem mise",
+      "description": "Zobrazuje psí emodži za názvem mise, pokud je požadováno Kynologů PČR."
+    },
     "mission_time": {
       "label": "Čas vytvoření",
       "description": "Zobrazuje datum a čas, kdy byla mise vytvořena."

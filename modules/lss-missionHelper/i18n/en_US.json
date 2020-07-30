@@ -81,6 +81,10 @@
                 "description":
                     "Shows the requirements for security guards in the helper as well."
         },
+        "show_k9": {
+            "label": "Dog icon behind mission name",
+            "description": "Shows a dog emoji behind the mission name if k9 is required."
+        },
             "mission_time": {
                 "label": "Creation Time",
                 "description":

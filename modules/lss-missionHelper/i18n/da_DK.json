@@ -70,6 +70,10 @@
             "label": "Krav til sikkerhedsvagter",
             "description": "Viser også kravene til sikkerhedsvagter i hjælperen."
         },
+        "show_k9": {
+            "label": "Hund ikon bag mission navn",
+            "description": "Viser en hund emoji bag mission navn, hvis Hundepatrulje er påkrævet."
+        },
         "mission_time": {
             "label": "Oprettelsestid",
             "description": "Viser dato og klokkeslæt, hvor missionen blev oprettet."

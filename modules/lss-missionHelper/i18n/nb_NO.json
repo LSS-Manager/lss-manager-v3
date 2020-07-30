@@ -68,6 +68,10 @@
             "label": "Krav til sikkerhetsvakter",
             "description": "Viser også kravene til sikkerhetsvakter i hjelperen."
         },
+        "show_k9": {
+            "label": "Hundeikon bak oppdragsnavn",
+            "description": "Viser en hundeemoji bak oppdragsnavnet hvis Hundepatrulje er nødvendig."
+        },
         "mission_time": {
             "label": "Opprettingstid",
             "description": "Viser dato og klokkeslett da oppdraget ble opprettet."
