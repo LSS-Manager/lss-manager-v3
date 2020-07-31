@@ -167,6 +167,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             },
+            show_k9: {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_k9.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_k9.description'
+                    ),
+                },
+            },
             credits: {
                 default: true,
                 ui: {
@@ -362,6 +372,12 @@ const lssm_missionhelper_adjustPosition = () => {
                 document
                     .getElementById('missionH1')
                     .insertAdjacentHTML('beforeend', '&nbsp;🐶');
+            }
+
+            if (SETTINGS.show_k9 && (MISSION.requirements.k9 || MISSION.requirements.hondengeleider)) {
+                document
+                    .getElementById('missionH1')
+                    .insertAdjacentHTML('beforeend', '&nbsp;🐕‍🦺');
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {

@@ -73,7 +73,7 @@
         }
     },
     "requirements": {
-        "firetrucks": "Caminhões de bombeiro",
+        "firetrucks": "Veículos de Combate a Incêndios",
         "platform_trucks": "Caminhões plataforma",
         "heavy_rescue_vehicles": "Veículos de resgate pesado",
         "mobile_air_vehicles": "Mobile Air",
@@ -86,6 +86,6 @@
         "arff": "Defesa Civil",
         "police_helicopters": "Police Helicopter",
         "ambulances": "Ambulancia",
-        "allow_rw_instead_of_lf": "Caminhões de bombeiros ou resgate pesado"
+        "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou resgate pesado"
     }
 }

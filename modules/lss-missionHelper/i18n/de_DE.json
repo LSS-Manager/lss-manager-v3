@@ -96,6 +96,10 @@
             },
             "show_rdu1": {
                 "label": "Auch im Einsatzhelfer anzeigen"
+            },
+            "show_k9": {
+                "label": "Hundeicon hinter Einsatzname (Polizei)",
+                "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser den SchutzHund braucht."
             }
         },
         "transport": "Transport",
@@ -147,6 +151,7 @@
             "seg_elw": "ELW 1 (SEG)",
             "water_rescue": "GW-Wasserrettung",
             "rescue_dog_units": "Rettungshundestaffel",
+            "k9": "DHuFüKw",
             "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW"
         }
     }

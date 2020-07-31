@@ -70,6 +70,10 @@
       "label": "Requisiti delle guardie di sicurezza",
       "description": "Mostra i requisiti per le guardie di sicurezza anche nell'helper."
     },
+    "show_k9": {
+      "label": "Icona del cane dietro il nome della missione",
+      "description": "Mostra un cane emoji dietro il nome della missione se è richiesto cinofila antidroga."
+    },
     "mission_time": {
       "label": "Tempo di creazione",
       "description": "Mostra la data e l'ora in cui la missione è stata creata."

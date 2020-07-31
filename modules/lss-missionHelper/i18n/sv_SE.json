@@ -70,6 +70,10 @@
             "label": "Krav på säkerhetsvakter",
             "description": "Visar också kraven för säkerhetsvakter i hjälpen."
         },
+        "show_k9": {
+            "label": "Hundikon bakom uppdragsnamn",
+            "description": "Visar en hundemoji bakom uppdragsnamnet om Hundenhet krävs."
+        },
         "mission_time": {
             "label": "Skapningstid",
             "description": "Visar datum och tid då uppdraget skapades."

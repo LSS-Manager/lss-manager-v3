@@ -14846,5 +14846,32 @@
             "police_stations": 1,
             "fire_stations": 13
         }
+    },
+    "553": {
+        "id": 553,
+        "name": "Ver\u00e4tzung",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 100,
+            "patient_transport": 100,
+            "helicopter": 35
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }

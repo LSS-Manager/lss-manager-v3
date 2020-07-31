@@ -68,6 +68,10 @@
                 "label": "Helper bij geplande inzetten",
                 "description": "Toont de meldinghelper ook bij geplande inzetten."
             },
+            "show_k9": {
+                "label": "Hond emoticon achter de inzetnaam",
+                "description": "Toont een emoticon van een hond achter de inzetnaam indien een hondengeleider vereist is."
+            },
             "mission_time": {
                 "label": "Aanmaak tijd",
                 "description": "Toont de datum en tijd waarop de inzet is gemaakt."

@@ -152,7 +152,8 @@
                 90: 'HLF 10',
                 91: 'Rettungshundefahrzeug',
                 92: 'Anh Hund',
-                93: 'MTW-OV'
+                93: 'MTW-OV',
+                94: 'DHuFüKw'
             }
         }
     };

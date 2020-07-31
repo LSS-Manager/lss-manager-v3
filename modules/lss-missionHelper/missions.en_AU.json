@@ -3825,7 +3825,7 @@
         },
         "chances": {
             "patient_transport": 90,
-            "helicopter": 90
+            "helicopter": 10
         },
         "additional": {
             "possible_patient": 2,
@@ -3860,7 +3860,7 @@
         },
         "chances": {
             "patient_transport": 90,
-            "helicopter": 90
+            "helicopter": 10
         },
         "additional": {
             "possible_patient": 2,
@@ -4032,7 +4032,8 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "filter_id": "water_watch_missions"
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Traumatology"
         },
         "prerequisites": {
             "wasserrettung": 1,
@@ -4101,7 +4102,6 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "average_min_fire_personnel": 9,
             "average_min_police_personnel": 12,
             "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
@@ -4181,7 +4181,7 @@
         },
         "chances": {
             "patient_transport": 90,
-            "helicopter": 90
+            "helicopter": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -4215,7 +4215,7 @@
         },
         "chances": {
             "patient_transport": 90,
-            "helicopter": 90
+            "helicopter": 10
         },
         "additional": {
             "possible_patient": 1,
