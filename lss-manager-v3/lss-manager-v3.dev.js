@@ -2166,10 +2166,12 @@ lssm.modules = {
                 }
                 for (let l in lssm.Module[mod][k]) {
                     l = l.toString();
-                    if (!(mod in I18n.translations[l].lssm.apps)) {
-                        I18n.translations[l].lssm.apps[mod] = {};
-                    }
-                    I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
+		    if (I18n.translations.hasOwnProperty(l)) {
+                    	if (!(mod in I18n.translations[l].lssm.apps)) {
+			    I18n.translations[l].lssm.apps[mod] = {};
+                   	}
+                    	I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
+		    }
                 }
             }
         }
