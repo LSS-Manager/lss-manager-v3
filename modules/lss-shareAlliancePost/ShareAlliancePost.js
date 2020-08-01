@@ -87,26 +87,6 @@
         },
     };
 
-    I18n.translations.es_ES.lssm.sharealliancepost = {
-        share: 'Compartir...',
-        chat: 'Chat...',
-        alert: 'Alerta...',
-        clock: 'en punto',
-        reqVehIdent: 'Vehículos necesarios:',
-        reqVeh: 'No se requieren otros vehículos.',
-        settings: {
-            title: 'Alerta, Compartir y Publicar',
-            jumpNext: 'Saltar a la siguiente misión después de alertar',
-            enableKeyboard: 'Habilitar accesos directos de teclado',
-            defaultPostToChat: 'Publicar en el chat es predeterminado',
-            shortcutKeys:
-                'Lista de teclas separadas por comas para alertas. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Plantillas de mensajes. Marcadores de posición: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'Offset para %TIME_OFFSET%-formatter en horas',
-        },
-    };
-
     I18n.translations.pt_PT.lssm.sharealliancepost = {
         share: 'Compartilhar...',
         chat: 'Conversa...',
@@ -170,27 +150,6 @@
         },
     };
 
-    I18n.translations.da_DK.lssm.sharealliancepost = {
-        share: 'Del...',
-        chat: 'Snak...',
-        alert: 'Alert...',
-        chatm: 'Til teamchat',
-        clock: 'er det',
-        reqVehIdent: 'Påkrævede køretøjer:',
-        reqVeh: 'Ingen andre køretøjer kræves.',
-        settings: {
-            title: 'Alert, del & indlæg',
-            jumpNext: 'Gå til næste mission efter alarmering',
-            enableKeyboard: 'Aktivér tastaturgenveje',
-            defaultPostToChat: 'Indlæg til chat er som standard',
-            shortcutKeys:
-                'Kommasepareret liste over nøgler til alarmering. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Meddelelsesskabeloner. pladsholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'Offset i %TIME_OFFSET% -format i timer',
-        },
-    };
-
     I18n.translations.nb_NO.lssm.sharealliancepost = {
         share: 'Dele...',
         chat: 'Chat...',
@@ -233,27 +192,6 @@
         },
     };
 
-    I18n.translations.tr_TR.lssm.sharealliancepost = {
-        share: 'Paylaş...',
-        chat: 'Sohbet...',
-        alert: 'Uyarmak...',
-        chatm: 'Takım Sohbetine',
-        clock: 'saat',
-        reqVehIdent: 'Gerekli araçlar:',
-        reqVeh: 'Başka araca gerek yok.',
-        settings: {
-            title: 'Uyarı, Paylaş ve Gönder',
-            jumpNext: 'Uyarı verdikten sonra bir sonraki göreve atla',
-            enableKeyboard: 'Klavye kısayollarını etkinleştir',
-            defaultPostToChat: 'Sohbete gönder varsayılan',
-            shortcutKeys:
-                'Uyarı için virgülle ayrılmış anahtar listesi. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Mesaj şablonları. Yer tutucular: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'İçin ofset %TIME_OFFSET%-saat olarak saat',
-        },
-    };
-
     I18n.translations.fr_FR.lssm.sharealliancepost = {
         share: 'Partager....',
         chat: 'Chat...',
@@ -275,69 +213,6 @@
         },
     };
 
-    I18n.translations.ru_RU.lssm.sharealliancepost = {
-        share: 'Поделиться...',
-        chat: 'Чат...',
-        alert: 'Тревога...',
-        chatm: 'В командный чат',
-        clock: 'в',
-        reqVehIdent: 'Требуются машины:',
-        reqVeh: 'Других транспортных средств не требуется.',
-        settings: {
-            title: 'Предупреждение, обмен информацией и почта',
-            jumpNext: 'Перейти к следующей миссии после оповещения',
-            enableKeyboard: 'Включить горячие клавиши на клавиатуре',
-            defaultPostToChat: 'Отправка сообщения в чат по умолчанию',
-            shortcutKeys:
-                'Разделенный запятой список клавиш для оповещения. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Шаблоны сообщений. Места хранения: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'Смещение для %TIME_OFFSET%-формата в часах',
-        },
-    };
-
-    I18n.translations.uk_UA.lssm.sharealliancepost = {
-        share: 'Поділитися ...',
-        chat: 'Чат ...',
-        alert: 'Сповіщення ...',
-        chatm: 'До командного чату',
-        clock: 'вечора',
-        reqVehIdent: 'Необхідні машини:',
-        reqVeh: 'Ніяких інших транспортних засобів не потрібно.',
-        settings: {
-            title: 'Попередження, обмін та публікація',
-            jumpNext: 'Перейдіть до наступної місії після попередження',
-            enableKeyboard: 'Увімкнути комбінації клавіш',
-            defaultPostToChat: 'Повідомлення у чаті за замовчуванням',
-            shortcutKeys:
-                'Список розділених комами клавіш для оповіщення. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Шаблони повідомлень. Заставники: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'Зсув для %TIME_OFFSET%-форматор в годинах',
-        },
-    };
-
-    I18n.translations.ja_JP.lssm.sharealliancepost = {
-        share: '共有...',
-        chat: 'チャット...',
-        alert: 'アラート...',
-        chatm: 'チームチャットへ',
-        clock: '時です',
-        reqVehIdent: '必要な車両：',
-        reqVeh: '他の車両は必要ありません。',
-        settings: {
-            title: 'アラート、共有、投稿',
-            jumpNext: '警告後に次のミッションにジャンプ',
-            enableKeyboard: 'キーボードショートカットを有効にする',
-            defaultPostToChat: 'チャットへの投稿がデフォルトです',
-            shortcutKeys:
-                'アラート用のキーのカンマ区切りリスト。 [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'アラート用のキーのカンマ区切りリスト。 <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'のオフセット %TIME_OFFSET% -フォーマッター数時間',
-        },
-    };
-
     I18n.translations.ko_KR.lssm.sharealliancepost = {
         share: '공유...',
         chat: '잡담...',
@@ -356,27 +231,6 @@
             messages:
                 '메시지 템플릿. 자리 표시 자 :<ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
             timeOffset: '에 대한 오프셋 %TIME_OFFSET%-시간 단위의 포맷터',
-        },
-    };
-
-    I18n.translations.fi_FI.lssm.sharealliancepost = {
-        share: 'Jaa...',
-        chat: 'Chat...',
-        alert: 'Ilmoituksen...',
-        chatm: 'Tiimikeskusteluun',
-        clock: "o 'kello",
-        reqVehIdent: 'Tarvittavat ajoneuvot:',
-        reqVeh: 'Muita ajoneuvoja ei tarvita.',
-        settings: {
-            title: 'Hälytys, Jaa ja julkaise',
-            jumpNext: 'Siirry seuraavaan tehtävään hälytyksen jälkeen',
-            enableKeyboard: 'Pikanäppäinten ottaminen käyttöön',
-            defaultPostToChat: 'Lähetä chat on oletuksena',
-            shortcutKeys:
-                'Pilkulla erotettu hälytysnäppäinten luettelo. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
-            messages:
-                'Viestimallit. Paikkamerkit: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
-            timeOffset: 'Siirtymä %TIME_OFFSET%-formatter tunteina',
         },
     };
 
@@ -448,11 +302,11 @@
             },
             messages: {
                 default: [
-                    'Frei zum Mitverdienen', // First entry is default
-                    'Rettungsdienst für %PATIENTS_LEFT% Patienten benötigt',
+                    'Free to earn money', // First entry is default
+                    'Rescue service for %PATIENTS_LEFT% patients needed',
                     'Weitere Kräfte benötigt',
-                    'Unterstützung in %ADDRESS% benötigt',
-                    'Offen bis %TIME_OFFSET%.',
+                    'Support in %ADDRESS% needed',
+                    'Open until %TIME_OFFSET%.',
                     '%REQUIRED_VEHICLES%',
                 ],
                 ui: {

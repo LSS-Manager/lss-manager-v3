@@ -114,22 +114,6 @@
         }
     };
 
-    I18n.translations.es_ES.lssm.centermap = {
-        center: "Centro",
-        settings: {
-            title: "Mapa del centro",
-            choose: "Por favor, seleccione",
-            option1: "Predeterminado",
-            option1desc: "Nivel de zoom predeterminado y centrado en el centro de control ",
-            option2: "Dinámico",
-            alliance: "Tener en cuenta la alianza",
-            option2desc: "Mapa del centro que indica que todas las misiones y estaciones son visibles.",
-            option3: "A medida",
-            option3desc: "Establecer la posición personalizada y el nivel de zoom.",
-            set: "Guardar la posición actual"
-        }
-    };
-
     I18n.translations.pt_PT.lssm.centermap = {
         center: "Centro",
         settings: {
@@ -162,22 +146,6 @@
         }
     };
 
-    I18n.translations.tr_TR.lssm.centermap = {
-        center: "merkez",
-        settings: {
-            title: "Merkezi-Harita",
-            choose: "Lütfen seçin",
-            option1: "Varsayılan",
-            option1desc: "Varsayılan zoom seviyesi ve kontrol merkezinde merkezleme ",
-            option2: "Dinamik",
-            alliance: "İttifakı dikkate alın",
-            option2desc: "Tüm görevlerin ve istasyonların görülebileceği orta harita.",
-            option3: "görenek",
-            option3desc: "Özel konum ve yakınlaştırma seviyesi ayarlayın.",
-            set: "Mevcut konumu kaydet"
-        }
-    };
-
     I18n.translations.fr_FR.lssm.centermap = {
         center: "Centre",
         settings: {
@@ -191,54 +159,6 @@
             option3: "Personnalisé",
             option3desc: "Réglez la position et le niveau de zoom personnalisés.",
             set: "Enregistrer la position actuelle"
-        }
-    };
-
-    I18n.translations.ru_RU.lssm.centermap = {
-        center: "Центр",
-        settings: {
-            title: "Карта-центр",
-            choose: "Пожалуйста, выберите",
-            option1: "По умолчанию",
-            option1desc: "Уровень масштабирования по умолчанию и центр внимания на блоке управления ",
-            option2: "Динамический",
-            alliance: "Принять во внимание альянс",
-            option2desc: "Карта центра, чтобы все миссии и станции были видны.",
-            option3: "Пользовательский",
-            option3desc: "Установите пользовательское положение и уровень масштабирования.",
-            set: "Сохранить текущее положение"
-        }
-    };
-
-    I18n.translations.uk_UA.lssm.centermap = {
-        center: "Центр",
-        settings: {
-            title: "Центр-карта",
-            choose: "Виберіть будь ласка",
-            option1: "За замовчуванням",
-            option1desc: "Рівень масштабування та центральне значення в центрі управління",
-            option2: "Динамічний",
-            alliance: "Враховуйте альянс",
-            option2desc: "Центральна карта, щоб усі місії та станції були видні.",
-            option3: "Користувальницькі",
-            option3desc: "Встановіть власну позицію та рівень масштабування.",
-            set: "Зберегти поточну позицію"
-        }
-    };
-
-    I18n.translations.ja_JP.lssm.centermap = {
-        center: "センター",
-        settings: {
-            title: "センターマップ",
-            choose: "選んでください",
-            option1: "デフォルト",
-            option1desc: "デフォルトのズームレベルとコントロールセンターの中心 ",
-            option2: "動的",
-            alliance: "同盟を考慮する",
-            option2desc: "すべてのミッションとステーションが見えるセンターマップ。",
-            option3: "カスタム",
-            option3desc: "カスタムの位置とズームレベルを設定します。",
-            set: "現在の位置を保存"
         }
     };
 
@@ -271,22 +191,6 @@
             option3: "Particularizate",
             option3desc: "Setați poziția personalizată și nivelul de zoom.",
             set: "Salvare poziție curentă"
-        }
-    };
-
-    I18n.translations.fi_FI.lssm.centermap = {
-        center: "Keskusta",
-        settings: {
-            title: "Centre-Kartta",
-            choose: "Ole hyvä ja valitse",
-            option1: "oletusarvo",
-            option1desc: "Oletusarvoinen zoomaustaso ja keskitys ohjauskeskukseen ",
-            option2: "Dynaaminen",
-            alliance: "Ota liitto huomioon",
-            option2desc: "Keskitä kartta, että kaikki operaatiot ja asemat ovat näkyvissä.",
-            option3: "Mukautettu",
-            option3desc: "Aseta mukautettu sijainti ja zoomaustaso.",
-            set: "Tallenna nykyinen sijainti"
         }
     };
 

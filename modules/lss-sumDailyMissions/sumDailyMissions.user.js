@@ -43,25 +43,6 @@
             num_teame: 'Sum / Credits Alliance Treatment'
         };
 
-        I18n.translations.es_ES.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
-            purchase: 'comprado',
-            cancelled: 'Cancelled',
-            extended: 'construida',
-            extended2: 'Extended',
-            built: 'construido',
-            teame: ' Alianza',
-            team: '\\[Alianza\\]',
-            prisoner: 'Prisionero transportado',
-            num_missions: 'Suma / créditos Misiones',
-            num_patients: 'Suma / créditos pacientes',
-            num_prisoners: 'Suma / créditos de prisioneros',
-            num_team: 'Suma / créditos de misiones de alianza',
-            num_teame: 'Tratamiento de alianza suma / créditos'
-        };
-
         I18n.translations.pt_PT.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
@@ -119,25 +100,6 @@
             num_teame: 'Summa / Krediter alliansbehandling'
         };
 
-        I18n.translations.da_DK.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'Uddannelse',
-            purchase: 'købt',
-            cancelled: 'Återlämna',
-            extended: 'uppförd',
-            extended2: 'bygget',
-            built: 'bygget',
-            teame: ' Alliance',
-            team: '\\[Alliance\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: 'Sum / Kreditter missioner',
-            num_patients: 'Sum / Kreditter patienten',
-            num_prisoners: 'Sum / Kreditter fanger',
-            num_team: 'Sum / Kreditter alliance missioner',
-            num_teame: 'Sum / Kreditter alliansebehandling'
-        };
-
         I18n.translations.nb_NO.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',
             patient_treatment1: 'Patient Treatment',
@@ -177,24 +139,6 @@
             num_teame: 'Somma / Crediti trattamento dell\'alleanza'
         };
 
-        I18n.translations.tr_TR.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            education: 'education',
-            purchase: 'bought',
-            cancelled: 'Cancelled',
-            extended: 'constructed',
-            extended2: 'Extended',
-            built: 'İnşa edilen',
-            teame: ' Birlik',
-            team: '\\[Birlik\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: 'Toplam görevler',
-            num_patients: 'Toplam hastalar',
-            num_prisoners: 'Toplam mahkumlar',
-            num_team: 'Toplam ittifak misyonları',
-            num_teame: 'Toplam ittifak tedavisi'
-        };
-
         I18n.translations.fr_FR.lssm.sumDailyMissions = {
             patient_treatment: 'Traitement de patient',
             patient_treatment1: 'Traitement de patient et transport',
@@ -215,44 +159,6 @@
             num_teame: 'Traitement Sum / Crédits Alliance'
         };
 
-        I18n.translations.ru_RU.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
-            purchase: 'bought',
-            cancelled: 'Cancelled',
-            extended: 'constructed',
-            extended2: 'Extended',
-            built: 'возведено',
-            teame: ' Альянс',
-            team: '\\[Альянс\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: 'Сумма / кредитов миссий',
-            num_patients: 'Сумма / кредитов пациентов',
-            num_prisoners: 'Сумма / кредитов заключенных',
-            num_team: 'Сумма / кредитов миссий альянса',
-            num_teame: 'Сумма / кредитов альянса лечения'
-        };
-
-        I18n.translations.uk_UA.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
-            purchase: 'bought',
-            cancelled: 'Cancelled',
-            extended: 'constructed',
-            extended2: 'Extended',
-            built: 'збудовано',
-            teame: ' Альянс',
-            team: '\\[Альянс\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: 'Сумові / кредитів місії',
-            num_patients: 'Сума / кредитів пацієнтів',
-            num_prisoners: 'Суми / кредитів в\'язнів',
-            num_team: 'Сума / кредитів місій альянсу',
-            num_teame: 'Сума / кредитів лікування альянсу'
-        };
-
         I18n.translations.cs_CZ.lssm.sumDailyMissions = {
             patient_treatment: 'šetření pacienta',
             patient_treatment1: 'šetření pacienta',
@@ -270,25 +176,6 @@
             num_prisoners: 'Součet / kreditů vězňů',
             num_team: 'Sečtěte / kreditů alianční mise',
             num_teame: 'Součet / kreditů alianční léčby'
-        };
-
-        I18n.translations.ja_JP.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
-            purchase: 'bought',
-            cancelled: 'Cancelled',
-            extended: 'constructed',
-            extended2: 'Extended',
-            built: '建築され',
-            teame: ' アライアンス',
-            team: '\\[アライアンス\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: '合計/クレジットミッション',
-            num_patients: '患者合計/クレジット',
-            num_prisoners: '合計/クレジットの囚人',
-            num_team: 'アライアンスミッション合計/クレジット',
-            num_teame: '合計/クレジット同盟の扱い'
         };
 
         I18n.translations.ko_KR.lssm.sumDailyMissions = {
@@ -327,25 +214,6 @@
             num_prisoners: 'Suma / credite prizonieri',
             num_team: 'Sume / credite misiuni de alianță',
             num_teame: 'Suma / credite tratamentului alianței'
-        };
-
-        I18n.translations.fi_FI.lssm.sumDailyMissions = {
-            patient_treatment: 'Patient Treatment',
-            patient_treatment1: 'Patient Treatment',
-            education: 'education',
-            purchase: 'bought',
-            cancelled: 'Cancelled',
-            extended: 'constructed',
-            extended2: 'Extended',
-            built: 'constructed',
-            teame: ' Alliance',
-            team: '\\[Alliance\\]',
-            prisoner: 'Prisoner Transported',
-            num_missions: 'Summa / Luotot virkamatkat',
-            num_patients: 'Summa / Luotot potilaille',
-            num_prisoners: 'Summa / Luotot vankeille',
-            num_team: 'Sumna / Luotot liittouman tehtävät',
-            num_teame: 'Summa / hyvitys allianssikäsittelyyn'
         };
 
         I18n.translations.nl_NL.lssm.sumDailyMissions = {

@@ -28,11 +28,6 @@
         label1: 'Gränsa vid klick',
         description1: 'Gränsar till en AAO när den har klickats en gång.'
     };
-    I18n.translations.da_DK['lssm']['aaozaehler'] = {
-        reset: "Nulstil AAO-tæller",
-        label1: 'Kant på klik',
-        description1: 'Afgrænser en AAO, når den er blevet klikket én gang.'
-    };
     I18n.translations.nb_NO['lssm']['aaozaehler'] = {
         reset: "Tilbakestill AAO-telleren",
         label1: 'Kant på klikk',
@@ -43,38 +38,15 @@
         label1: 'Confine su click',
         description1: 'Confina un AAO una volta che è stato cliccato una volta.'
     };
-    I18n.translations.tr_TR['lssm']['aaozaehler'] = {
-        reset: "AAO sayacını sıfırla"
-    };
     I18n.translations.fr_FR['lssm']['aaozaehler'] = {
         reset: "Réinitialiser le compteur AAO",
         label1: 'Frontière sur clic',
         description1: "Il suffit de cliquer une fois sur un AAO pour l'ouvrir."
     };
-    I18n.translations.ru_RU['lssm']['aaozaehler'] = {
-        reset: "Сброс счетчика AAO",
-        label1: 'Граница щелчком мыши',
-        description1: 'Граничит с AAO после однократного нажатия.'
-    };
-    I18n.translations.uk_UA['lssm']['aaozaehler'] = {
-        reset: "Скинути лічильник AAO",
-        label1: 'Межі при натисканні',
-        description1: 'Межує з AAO після того, як його було натиснено один раз.'
-    };
-    I18n.translations.es_ES['lssm']['aaozaehler'] = {
-        reset: "Restablecer contador AAO",
-        label1: 'La frontera en el clic',
-        description1: 'Bordea un AAO una vez que se ha pulsado una vez.'
-    };
     I18n.translations.pt_PT['lssm']['aaozaehler'] = {
         reset: "Redefinir contador AAO",
         label1: 'Fronteira em clique',
         description1: 'Faz fronteira com uma AAO depois de clicada uma vez.'
-    };
-    I18n.translations.ja_JP['lssm']['aaozaehler'] = {
-        reset: "AAOカウンターをリセット",
-        label1: 'クリックでボーダー',
-        description1: '1回クリックするとAAOの境界線が表示されます。'
     };
     I18n.translations.ko_KR['lssm']['aaozaehler'] = {
         reset: "AAO 카운터 재설정",
@@ -85,11 +57,6 @@
         reset: "Resetați contorul AAO",
         label1: 'Faceți clic pe clic',
         description1: 'Încadrează un AAO odată ce a fost făcut clic pe o dată.'
-    };
-    I18n.translations.fi_FI['lssm']['aaozaehler'] = {
-        reset: "Nollaa AAO-laskuri",
-        label1: 'Reuna napsautuksella',
-        description1: 'Rajaa AAO: ta, kun sitä on napsautettu kerran.'
     };
     I18n.translations.nl_NL['lssm']['aaozaehler'] = { //AUR
         reset: "AUR-teller resetten",

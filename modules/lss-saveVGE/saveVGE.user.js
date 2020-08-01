@@ -17,12 +17,6 @@
         noVGE: "Žádná uložená alianční mise!",
         VGEs: "VGEs"
     };
-    I18n.translations.es_ES['lssm']['saveVGE'] = {
-        save: "Guardar",
-        del: "Borrar",
-        noVGE: "No se ha salvado la misión de la Alianza!",
-        VGEs: "VGEs"
-    };
     I18n.translations.pt_PT['lssm']['saveVGE'] = {
         save: "Salvar",
         del: "Excluir",
@@ -34,18 +28,6 @@
         del: "Radera",
         noVGE:"Inget räddat Alliance Mission!",
         VGEs:"VGEs"
-    };
-    I18n.translations.da_DK['lssm']['saveVGE'] = {
-        save: "Gemme",
-        del: "Slet",
-        noVGE: "Ingen gemt Alliance Mission!",
-        VGEs: "VGEs"
-    };
-    I18n.translations.tr_TR['lssm']['saveVGE'] = {
-        save: "kurtarma",
-        del: "Sil",
-        noVGE: "Kurtarılmış İttifak Görevi yok!",
-        VGEs: "LSAMs"
     };
     I18n.translations.nb_NO['lssm']['saveVGE'] = {
         save: "Lagre",
@@ -59,24 +41,6 @@
         noVGE: "Nie ma uratowanej Misji Sojuszniczej!",
         VGEs: "VGEs"
     };
-    I18n.translations.ru_RU['lssm']['saveVGE'] = {
-        save: "Сохранить",
-        del: "удалять",
-        noVGE: "Нет спасенной миссии Альянса!",
-        VGEs: "LSAMs"
-    };
-    I18n.translations.uk_UA['lssm']['saveVGE'] = {
-        save: "Зберегти",
-        del: "Видалити",
-        noVGE: "Не збережена місія Альянсу!",
-        VGEs: "LSAMs"
-    };
-    I18n.translations.ja_JP['lssm']['saveVGE'] = {
-        save: "セーブ",
-        del: "削除する",
-        noVGE: "保存された同盟ミッションはありません！",
-        VGEs: "LSAMs"
-    };
     I18n.translations.ko_KR['lssm']['saveVGE'] = {
         save: "저장",
         del: "지우다",
@@ -87,12 +51,6 @@
         save: "Salva",
         del: "Şterge",
         noVGE: "Nici o misiune a Alianței salvată!",
-        VGEs: "LSAMs"
-    };
-    I18n.translations.fi_FI['lssm']['saveVGE'] = {
-        save: "Tallentaa",
-        del: "Poistaa",
-        noVGE: "Ei tallennettu Alliance Mission!",
         VGEs: "LSAMs"
     };
     I18n.translations.nl_NL['lssm']['saveVGE'] = {

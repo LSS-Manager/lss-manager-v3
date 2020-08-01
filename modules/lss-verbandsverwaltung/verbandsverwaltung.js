@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|centro-de-mando|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|dispetcher112|alarmcentral-spil|nodsentralspillet|operacni-stredisko|112-merkez|operador193|jogo-operador112|dyspetcher101-game|missionchief-japan|missionchief-korea|jocdispecerat112|hatakeskuspeli)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.es|\.mx|\.se|\.pl|\.it|\.fr|\.ru|.gr)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -27,18 +27,6 @@
         updateMessage: 'Values update automatically<br>every ' + updateMin + ' minutes.',
         chartErr: 'Could not load chart "{{chart}}"!<br>We already know that this happens with some browsers, but not yet why. Please <b>don\'t</b> report us this error as we are already on this problem!',
         hoverTip: 'Tip: Hover over an element to display a value history.'
-    };
-    I18n.translations.es_ES.lssm.verbandsverwaltung = {
-        name: 'Administración',
-        allianceFunds: 'Fondos de la Alianza',
-        allianceCredits: 'Créditos Obtenidos',
-        users: 'Miembros',
-        onlineUsers: 'Miembros en línea',
-        allianceRank: 'Rango en Alliancelista',
-        page: 'Página',
-        updateMessage: 'Los valores se actualizan automáticamente<br>cada ' + updateMin + ' actas.',
-        chartErr: 'No se pudo cargar el gráfico "{{chart}}"!<br>Ya sabemos que esto sucede con algunos navegadores, pero aún no sabemos por qué. Por favor <b>no nos informe de este error ya que estamos en este problema!',
-        hoverTip: 'Consejo: Pase el ratón por encima de un elemento para mostrar un historial de valores.'
     };
     I18n.translations.pt_PT.lssm.verbandsverwaltung = {
         name: 'Administração',
@@ -88,18 +76,6 @@
         chartErr: 'Det gick inte att ladda diagrammet "{{chart}}"!<br>Vi vet redan att detta händer med vissa webbläsare, men ännu inte varför. Snälla <b> inte </b> anmäla oss det här felet eftersom vi redan har problemet!',
         hoverTip: 'Tips: Håll muspekaren över ett element för att visa en värdehistorik.'
     };
-    I18n.translations.da_DK.lssm.verbandsverwaltung = {
-        name: 'Administration',
-        allianceFunds: 'Alliance fonde',
-        allianceCredits: 'Optjente kredit',
-        users: 'Medlemmer',
-        onlineUsers: 'Medlemmer online',
-        allianceRank: 'Rang i Alliancelist',
-        page: 'Side',
-        updateMessage: 'Værdier opdateres automatisk<br>hvert ' + updateMin + ' minut.',
-        chartErr: 'Kunne ikke indlæse diagram "{{chart}}"!<br>Vi ved allerede, at dette sker med nogle browsere, men endnu ikke hvorfor. Venligst <b> ikke </b> indberet os denne fejl, da vi allerede har problemet.',
-        hoverTip: 'Tip: Hold markøren over et element for at få vist en værdihistorik.'
-    };
     I18n.translations.nb_NO.lssm.verbandsverwaltung = {
         name: 'Administrasjon',
         allianceFunds: 'Alliansefond',
@@ -124,18 +100,6 @@
         chartErr: 'Impossibile caricare il grafico "{{chart}}"!<br>Sappiamo già che questo accade con alcuni browser, ma non ancora perché. Per favore <b>don\'t</b> segnalateci questo errore perché siamo già su questo problema!',
         hoverTip: 'Suggerimento: passare con il mouse su un elemento per visualizzare la cronologia dei valori.'
     };
-    I18n.translations.tr_TR.lssm.verbandsverwaltung = {
-        name: 'yönetim',
-        allianceFunds: 'İttifak Fonları',
-        allianceCredits: 'Kazanılan Krediler',
-        users: 'Üyeler',
-        onlineUsers: 'Çevrimiçi üyeler',
-        allianceRank: 'Alliancelist sıralaması',
-        page: 'Sayfa',
-        updateMessage: 'Değerler otomatik olarak güncellenir<br>her ' + updateMin + ' dakika.',
-        chartErr: 'Grafik yüklenemedi "{{chart}}"!<br>Bunun bazı tarayıcılarda olduğunu zaten biliyoruz, ancak nedenini henüz bilmiyoruz. Lütfen zaten bu sorunu yaşadığımız için <b> bize bu hatayı bildirin!',
-        hoverTip: 'İpucu: Bir değer geçmişi görüntülemek için imlecinizi bir öğenin üzerine getirin.'
-    };
     I18n.translations.fr_FR.lssm.verbandsverwaltung = {
         name: 'Administration',
         allianceFunds: 'Fonds Alliance',
@@ -147,42 +111,6 @@
         updateMessage: 'Mise à jour automatique des valeurs <br>chaque valeur ' + updateMin + ' minutes.',
         chartErr: 'Impossible de charger le graphique "{{chart}}"!<br>Nous savons déjà que cela se produit avec certains navigateurs, mais pas encore pourquoi. S\'il vous plaît<b>don\'t</b> nous signaler cette erreur comme nous sommes déjà sur ce problème !',
         hoverTip: 'Astuce : Survolez un élément pour afficher l\'historique des valeurs.'
-    };
-    I18n.translations.ru_RU.lssm.verbandsverwaltung = {
-        name: 'Администрация',
-        allianceFunds: 'Альянс Фонды',
-        allianceCredits: 'Заработанные Кредиты',
-        users: 'Члены',
-        onlineUsers: 'Участники онлайн',
-        allianceRank: 'Рейтинг в Альянс-листе',
-        page: 'Страница',
-        updateMessage: 'Обновление значений автоматически<br> для каждого из них ' + updateMin + ' протокол.',
-        chartErr: 'Не смог загрузить диаграмму "{{chart}}"!<br>Мы уже знаем, что это происходит с некоторыми браузерами, но пока не знаем, почему. Пожалуйста, <b>don\'t</b> сообщите нам об этой ошибке, поскольку мы уже сталкиваемся с этой проблемой!',
-        hoverTip: 'Совет: наведите указатель мыши на элемент, чтобы отобразить историю значений.'
-    };
-    I18n.translations.uk_UA.lssm.verbandsverwaltung = {
-        name: 'Адміністрація',
-        allianceFunds: 'Фонди Альянсу',
-        allianceCredits: 'Зароблені кредити',
-        users: 'Члени',
-        onlineUsers: 'Учасники онлайн',
-        allianceRank: 'Місце у Альянсі',
-        page: 'Сторінка',
-        updateMessage: 'Значення оновлюються автоматично<br>кожен ' + updateMin + ' хвилин.',
-        chartErr: 'Не вдалося завантажити діаграму "{{chart}}"!<br>Ми вже знаємо, що це відбувається з деякими браузерами, але ще не чому. Будь ласка, <b> не \ t </b> повідомте про цю помилку, оскільки ми вже вирішуємо цю проблему!',
-        hoverTip: 'Порада: Наведіть курсор на елемент, щоб відобразити історію значень.'
-    };
-    I18n.translations.ja_JP.lssm.verbandsverwaltung = {
-        name: '運営管理',
-        allianceFunds: 'アライアンス基金',
-        allianceCredits: '獲得したクレジット',
-        users: '会員',
-        onlineUsers: 'オンライン会員',
-        allianceRank: 'アライアンス・リストのランク',
-        page: 'ページ',
-        updateMessage: '値は自動的に<br>更新されます ' + updateMin + ' 分。',
-        chartErr: 'グラフを読み込めませんでした "{{chart}}"!<br>一部のブラウザでこれが発生することはすでにわかっていますが、まだ理由はわかりません。<br> この問題は既に報告されているため、このエラーを報告しないでください。',
-        hoverTip: 'ヒント：要素にカーソルを合わせると、値の履歴が表示されます.'
     };
     I18n.translations.ko_KR.lssm.verbandsverwaltung = {
         name: '관리',
@@ -207,18 +135,6 @@
         updateMessage: 'Actualizarea automată a valorilor<br>Fiecare ' + updateMin + ' Minute.',
         chartErr: 'Imposibil de încărcat diagrama "{{chart}}"!<br>Știm deja că acest lucru se întâmplă cu unele browsere, dar nu încă de ce. Vă rugăm să nu \'t raport- ne această eroare ca suntem deja pe această problemă!',
         hoverTip: 'Indicație: treceți cu mouse-ul peste un element pentru a afișa un istoric de valori.'
-    };
-    I18n.translations.fi_FI.lssm.verbandsverwaltung = {
-        name: 'antaminen',
-        allianceFunds: 'Allianssirahastot',
-        allianceCredits: 'Ansaitut luotot',
-        users: 'Jäsenet',
-        onlineUsers: 'Jäsenet verkossa',
-        allianceRank: 'Sijoitus Alliancelistissa',
-        page: 'Sivu',
-        updateMessage: 'Arvot päivittyvät automaattisesti<br>joka ' + updateMin + ' pöytäkirja.',
-        chartErr: 'Kaaviota ei voitu ladata "{{chart}}"!<br>Tiedämme jo, että näin tapahtuu joillakin selaimilla, mutta ei vielä miksi. <b> Älä </b> ilmoita meille tästä virheestä, koska olemme jo ongelmassa!',
-        hoverTip: 'Vihje: Vie hiiri elementin päälle nähdäksesi arvohistorian.'
     };
     I18n.translations.nl_NL.lssm.verbandsverwaltung = {
         name: 'Administratie',
