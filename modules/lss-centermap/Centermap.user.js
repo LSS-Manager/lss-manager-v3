@@ -81,22 +81,8 @@
             set: "Spara aktuell position"
         }
     };
+    
 
-    I18n.translations.da_DK.lssm.centermap = {
-        center: "Centrum",
-        settings: {
-            title: "Centre-kort",
-            choose: "Vælg venligst",
-            option1: "Standard",
-            option1desc: "Standard zoomniveau og centrering på kontrolcentret ",
-            option2: "Dynamisk",
-            alliance: "Tag alliance i betragtning",
-            option2desc: "Centerkort, hvor alle missioner og stationer er synlige.",
-            option3: "skik",
-            option3desc: "Indstil tilpasset position og zoomniveau.",
-            set: "Gem den aktuelle position"
-        }
-    };
 
     I18n.translations.nb_NO.lssm.centermap = {
         center: "Senter",

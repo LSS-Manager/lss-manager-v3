@@ -16,9 +16,6 @@ if (!localStorage["lssm_new_year_2020"]) {
             case "nl_NL":
                 alert("Wij wensen u een goede start in het jaar 2020!\nUw LSS-Manager Team :)");
                 break;
-            case "es_ES":
-                alert("Le deseamos un buen comienzo en el año 2020!\nSu equipo de LSS Manager :)");
-                break;
             case "fr_FR":
                 alert("Nous vous souhaitons un bon départ dans l'année 2020 !\nVotre équipe de gestionnaires de la LSS :)");
                 break;
@@ -27,9 +24,6 @@ if (!localStorage["lssm_new_year_2020"]) {
                 break;
             case "pl_PL":
                 alert("Życzymy Państwu dobrego startu w roku 2020!\nTwój zespół menedżera LSS :)");
-                break;
-            case "ru_RU":
-                alert("Желаем Вам хорошего старта в 2020 году!\nВаша команда менеджеров LSS :)");
                 break;
             case "sv_SE":
                 alert("Vi önskar dig en bra start till 2020!\nDitt LSS-chefsteam :)");

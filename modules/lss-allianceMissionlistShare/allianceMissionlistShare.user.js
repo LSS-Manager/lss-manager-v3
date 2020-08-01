@@ -11,9 +11,6 @@
     I18n.translations.sv_SE['lssm']['allianceMissionlistShare'] = {
         title: "Släpp i allians"
     };
-    I18n.translations.da_DK['lssm']['allianceMissionlistShare'] = {
-        title: "Slip i alliance"
-    };
     I18n.translations.nb_NO['lssm']['allianceMissionlistShare'] = {
         title: "Slipp i allianse"
     };
