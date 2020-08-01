@@ -32,23 +32,23 @@ let lssm = {
         version: "3.3.7",
         github: 'https://github.com/LSS-Manager/lss-manager-v3',
         prefix: 'lssm',
-        game: window.location.hostname.toLowerCase().replace("www.",""),
+        game: window.location.hostname.toLowerCase().replace("www.", ""),
     },
-    loadScript: function (link, no_cache=false) {
+    loadScript: function (link, no_cache = false) {
         try {
             $.getScript(this.getlink(link, no_cache));
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    loadStyle: function (link, no_cache=false) {
+    loadStyle: function (link, no_cache = false) {
         try {
             $('body').append('<link href="' + this.getlink(link, no_cache) + '" rel="stylesheet" type="text/css">');
         } catch (e) {
             console.error("On script load: " + e.message);
         }
     },
-    getlink: function (file, no_cache=false) {
+    getlink: function (file, no_cache = false) {
         try {
             let uid = "";
             let game = "";
@@ -75,7 +75,7 @@ I18n.defaultLocale = 'de_DE';
 I18n.fallbacks = true;
 I18n.locales.de_DE = ['de_DE', 'en_US', 'en_AU', 'en_GB'];
 I18n.locales.nl_NL = ['nl_NL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
-I18n.locales.pt_PT = ['pt_PT', 'es_ES', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
+I18n.locales.pt_PT = ['pt_PT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.pl_PL = ['pl_PL', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.sv_SE = ['sv_SE', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
 I18n.locales.it_IT = ['it_IT', 'en_US', 'en_AU', 'en_GB', 'de_DE'];
@@ -112,8 +112,8 @@ I18n.translations.de_DE.lssm = {
     appstore_desc: "Hier findest du verschiedene Plugins, die dein Spielerlebnis bereichern sollen. Jedes Plugin " +
         "kann einzeln aktiviert werden, indem du den Hebel auf Grün stellst. Sollte es zu irgendwelchen Problemen " +
         "kommen, kannst du gerne zu uns in den <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> " +
-"kommen  oder <a href=\"https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
-"\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
+        "kommen  oder <a href=\"https://forum.leitstellenspiel.de/index.php/Thread/11166-LSS-MANAGER-V3/" +
+        "\" target=\"blank\">im Forum einen Beitrag verfassen</a>.",
     back_lss: "Zurück zu Leitstellenspiel",
     settings: "Einstellungen",
     saving: "Speichere...",
@@ -257,24 +257,6 @@ I18n.translations.fr_FR.lssm = {
     mapkit: "Ce module ne supporte pas Mapkit",
     apps: {}
 };
-I18n.translations.da_DK.lssm = {
-    appstore_welcome: "Velkommen til Appstore fra LSS Manager",
-    appstore_desc: "Her finder du forskellige plugins, der beriger din spilleoplevelse. Hver plugin kan være " +
-        "aktiveres individuelt ved at placere grebet på grønt. Hvis der er problemer, kan du tilmelde dig vores " +
-        "<a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a> eller " +
-        "<a href=\"http://board.missionchief.com/index.php/Thread/146-LSS-Manager-for-missionchief/" +
-        "\" target=\"blank\">skriv en besked i forummet</a>.",
-    back_lss: "Tilbage til spillet",
-    settings: "Indstillinger",
-    saving: "Gemmer ...",
-    save: "Gemme",
-    activated: "Følgende moduler er blevet aktiveret:",
-    cantactivate: "kan ikke aktiveres, da det ikke er kompatibelt med følgende modul (er):",
-    cantload: "<h2>LSS-Manager kunne ikke indlæses</h2>Kontakt venligst et medlem af udviklingsteamet.",
-    login: "Log venligst ind først",
-    mapkit: "Dette modul understøtter ikke Mapkit",
-    apps: {}
-};
 I18n.translations.nb_NO.lssm = {
     appstore_welcome: "Velkommen til Appstore til LSS Manager",
     appstore_desc: "Her finner du forskjellige plugins som vil berike din spillopplevelse. Hver plugin kan være " +
@@ -334,10 +316,10 @@ I18n.translations.nl_NL.lssm = {
     appstore_welcome: "Welkom bij de App Store van LSS Manager",
     appstore_desc: "Hier vindt u verschillende plug-ins die uw game-ervaring kunnen verbeteren. " +
         "Elke plugin kan individueel worden geactiveerd, de bijbehorende hendel op groen te zetten. Als er problemen zijn, " +
-        "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a>"+
+        "bent u van harte welkom om naar ons toe te komen in de <a href=\"https://discord.gg/RcTNjpB\" target=\"blank\">Discord</a>" +
         " of <a href=\"https://forum.meldkamerspel.com/index.php/Thread/52-LSS-Manager-for-meldkamerspel/" +
         "\" target=\"blank\">een bericht te plaatsen in ons onderwerp op het forum.</a>. " +
-        "Door op een plug-in te drukken, ziet u de uitgebreide omschrijving.", 
+        "Door op een plug-in te drukken, ziet u de uitgebreide omschrijving.",
     back_lss: "Terug naar Meldkamerspel",
     settings: "Instellingen",
     saving: "Wijzigingen aan het opslaan...",
@@ -407,7 +389,7 @@ lssm.Module = {
         source: '/modules/lss-fms7-target/Fms7Target.js',
         inframe: false,
         supportedLocales: ['de_DE'],
-	    develop: true
+        develop: true
     },
     Layout01: {
         name: {
@@ -427,15 +409,15 @@ lssm.Module = {
             sv_SE: 'Visa med huvudfokus på kartan. Uppdrag och andra fönster kan ändras med en meny. Ett märke säger hur många ' +
                 'uppdrag etc. du har sedan ditt senaste besök i det fönstret.',
             nb_NO: 'Vis med hovedfokus på kartet. Oppdrag og andre vinduer kan endres ved hjelp av en meny. Et merke ' +
-                 'forteller deg hvor mange oppdrag osv. du har siden forrige besøk i det vinduet.',
+                'forteller deg hvor mange oppdrag osv. du har siden forrige besøk i det vinduet.',
             cs_CZ: 'Zobrazit s hlavním zaměřením na mapě. Mise a další okna lze změnit pomocí nabídky. Odznak ' +
-                 'vám říká, kolik misí atd. máte od vaší poslední návštěvy v tomto okně.',
+                'vám říká, kolik misí atd. máte od vaší poslední návštěvy v tomto okně.',
             it_IT: 'Vista con focus principale sulla mappa. Le missioni e le altre finestre possono essere modificate utilizzando un menu. Un badge ' +
                 'ti dice quante missioni ecc. hai avuto dall\'ultima visita all\'interno di quella finestra.',
             fr_FR: 'Vue avec mise au point principale sur la carte. Les missions et autres fenêtres peuvent être modifiées à l\'aide d\'un menu. ' +
                 'Un badge vous indique le nombre de missions, etc. que vous avez effectuées depuis votre dernière visite dans cette fenêtre.',
             ko_KR: '지도에서 주요 초점으로 봅니다. 메뉴를 사용하여 미션 및 기타 창을 변경할 수 있습니다. 배지 ' +
-                 '그 창에서 마지막으로 방문한 이후 얼마나 많은 미션 등이 있는지 알려줍니다.',
+                '그 창에서 마지막으로 방문한 이후 얼마나 많은 미션 등이 있는지 알려줍니다.',
             ro_RO: 'Vezi cu accent principal pe hartă. Misiunile și alte ferestre pot fi modificate utilizând un meniu. O insignă ' +
                 'este să vă spun cât de multe misiuni, etc aveți de la ultima ta vizită în această fereastră.',
             nl_NL: 'Design met een extra grote kaartweergave aan de linkerkant. Aan de rechterkant van het scherm kan ' +
@@ -508,7 +490,7 @@ lssm.Module = {
                 'kolumnie. Poniżej znajdują się budynki, czat i radio.',
             sv_SE: 'Karta med 100% höjd på vänster sida. Bredvid den samtal, varje kategori i sin egen kolumn. Under det finns byggnaderna, chatten och radio.',
             nb_NO: 'Kart med 100% høyde på venstre side. Ved siden av det samtalene, hver kategori i sin egen kolonne. ' +
-                 'Under det bygningene, chat og radio.',
+                'Under det bygningene, chat og radio.',
             cs_CZ: 'Mapa se 100% výškou na levé straně. Vedle ní jsou volání, každá kategorie ve svém vlastním sloupci. ' +
                 'Pod nimi budovy, chat a rádio.',
             it_IT: 'Mappa con il 100% di altezza sul lato sinistro. Accanto ad esso le missioni, ogni categoria nella propria colonna. ' +
@@ -516,7 +498,7 @@ lssm.Module = {
             fr_FR: 'Carte avec 100% de hauteur sur le côté gauche. A côté, les appels, chaque catégorie dans sa propre ' +
                 'colonne. En dessous, les bâtiments, le chat et la radio.',
             ko_KR: '왼쪽에 높이가 100 % 인지도. 그 옆에는 통화가 있으며 각 범주는 자체 열에 있습니다. ' +
-                 '그 건물 아래, 채팅 및 라디오.',
+                '그 건물 아래, 채팅 및 라디오.',
             ro_RO: 'Harta cu 100% înălțime pe partea stângă. Lângă ea apelurile, fiecare categorie din propria coloană. ' +
                 'Mai jos că clădirile, chat-ul și radio.',
             nl_NL: 'Design met een langwerpige kaart aan de linkerzijde van het scherm. Daarnaast een groot overzicht ' +
@@ -573,19 +555,19 @@ lssm.Module = {
             en_US: 'Minimize mission list entries. You can either expand or minimize all calls at once or do it for ' +
                 'each one.',
             pt_PT: 'Minimize as entradas da lista de missões. Você pode expandir ou minimizar todas as chamadas de uma só vez ou fazê-lo por ' +
-                 'cada um.',
+                'cada um.',
             pl_PL: 'Minimalizacja wpisów na liście misji. Możesz albo rozszerzyć lub zminimalizować wszystkie połączenia' +
                 ' jednocześnie, albo zrobić to dla każdego z nich.',
             sv_SE: 'Minimera poster i uppdragslistan. Du kan antingen expandera eller minimera alla samtal samtidigt eller göra det för var och en.',
             nb_NO: 'Minimer oppføringslisteoppføringer. Du kan enten utvide eller minimere alle samtaler samtidig eller gjøre det for hver enkelt.',
             cs_CZ: 'Minimalizujte položky seznamu misí. Můžete buď rozšířit nebo minimalizovat všechny hovory najednou, nebo to udělat pro ' +
-                 'každý.',
+                'každý.',
             it_IT: 'Ridurre al minimo le voci dell\'elenco delle missioni.È possibile espandere o ridurre al minimo tutte ' +
                 'le missioni in una sola volta o farlo per ciascuna di esse.',
             fr_FR: 'Minimiser les entrées de la liste des missions. Vous pouvez soit développer ou réduire tous les appels ' +
                 'en même temps, soit le faire pour chacun d\'entre eux.',
             ko_KR: '미션 목록 항목을 최소화하십시오. 모든 통화를 한 번에 확장하거나 최소화하거나 ' +
-                 '각각.',
+                '각각.',
             ro_RO: 'Minimizați intrările din lista de misiuni. Puteți fie să extindeți, fie să minimizați toate apelurile simultan sau să le faceți pentru ' +
                 'fiecare dintre ele.',
             nl_NL: 'Verkleint de meldingen in de lijst. Je kunt alle meldingen verkleint weergeven of per melding kiezen.'
@@ -911,7 +893,7 @@ lssm.Module = {
         source: '/modules/lss-allianceMissionlistShare/allianceMissionlistShare.user.js',
         develop: false
     },
-	ShareAlliancePost: {
+    ShareAlliancePost: {
         name: {
             de_DE: 'Alarmieren, Teilen & Posten',
             en_US: 'Alert, Share & Post',
@@ -965,19 +947,19 @@ lssm.Module = {
             en_US: 'Search for calls & filter them - a group of buttons on the bottom lets you change searched missions ' +
                 'quickly.',
             pt_PT: 'Pesquise chamadas e filtre-as - um grupo de botões na parte inferior permite alterar rapidamente ' +
-                 'as missões procuraram.',
+                'as missões procuraram.',
             pl_PL: 'Wyszukiwanie połączeń i filtrowanie ich - grupa przycisków na dole pozwala szybko zmieniać wyszukiwane misje.',
             sv_SE: 'Sök efter samtal och filtrera dem - en grupp knappar längst ner låter dig snabbt ändra sökta uppdrag.',
             nb_NO: 'Søk etter anrop og filtrer dem - en gruppe knapper nederst lar deg endre søkte oppdrag ' +
-                 'raskt.',
+                'raskt.',
             cs_CZ: 'Hledání hovorů a jejich filtrování - skupina tlačítek dole umožňuje změnit hledané mise ' +
-                 'rychle.',
+                'rychle.',
             it_IT: 'Cerca le chiamate e filtrale - un gruppo di pulsanti in basso ti permette di cambiare rapidamente le missioni cercate.',
             fr_FR: 'Rechercher des appels et les filtrer - un groupe de boutons en bas vous permet de modifier rapidement les missions recherchées.',
             ko_KR: '통화 검색 및 필터링-하단에있는 버튼 그룹을 사용하면 검색된 미션을 변경할 수 있습니다. ' +
-                 '빨리.',
+                '빨리.',
             ro_RO: 'Căutați apeluri și filtrați-le - un grup de butoane din partea de jos vă permite să schimbați misiunile căutate ' +
-                 'repede.',
+                'repede.',
             nl_NL: 'In het overzicht meldingen zoeken en filteren. Een rij knoppen aan de onderkant van het scherm laat ' +
                 'je snel door je meldingen bladeren.'
         },
@@ -1169,22 +1151,15 @@ lssm.Module = {
         description: {
             de_DE: 'Packt alle AAO\'s in ein durchsuchbares dropdown',
             en_US: 'Packs all AAO\'s into a searchable dropdown',
-            es_ES: 'Empaqueta todos los AAO en un menú desplegable que permite realizar búsquedas',
             pt_PT: 'Empacote todas as AAOs em um menu suspenso que permite pesquisar',
             pl_PL: 'Pakuje wszystkie AAO w przeszukiwalny dropdown',
             sv_SE: 'Packar alla AAO: er i en sökbar rullgardinsmeny',
-            da_DK: 'Pakker alle AAO \' er i en søgbar dropdown',
             nb_NO: 'Pakker alle AAO \'s i en søkbar dropdown',
             cs_CZ: 'Zabalí všechna AAO do rozevírací rozbalovací nabídky',
             it_IT: 'Racchiudi tutte le Regole Automatiche in un menu a tendina ricercabile.',
-            tr_TR: 'Paketler tüm AAO \'s aranabilir bir açılır içine',
             fr_FR: 'Emballe tous les AAO dans un menu déroulant interrogeable',
-            ru_RU: 'Упаковывает все AAO\ в выпадающий список с возможностью поиска.',
-            uk_UA: 'Пакує всі AAO в спадний список, у якому можна шукати',
-            ja_JP: 'すべてのAAOを検索可能なドロップダウンにパックします',
             ko_KR: '모든 AAO를 검색 가능한 드롭 다운에 포장',
             ro_RO: 'Pachetează toate AAO-urile într-un meniu derulant',
-            fi_FI: 'Pakkaa kaikki AAO: t haettavissa olevaan pudotusvalikkoon',
             nl_NL: 'Maakt het mogelijk om de Alarm en Uitrukregels te doorzoeken met een dropdownmenu.'
         },
         source: '/modules/lss-aao-search/aao-search.user.js',
@@ -1271,22 +1246,15 @@ lssm.Module = {
         description: {
             de_DE: 'Zeigt benötigte Fahrzeuge an!',
             en_US: 'Shows required vehicles in mission mask.',
-            es_ES: 'Muestra los vehículos requeridos en la máscara de la misión.',
             pt_PT: 'Mostra os veículos necessários na máscara da missão.',
             pl_PL: 'Pokazuje wymagane pojazdy w masce misji.',
             sv_SE: 'Visar nödvändiga fordon i uppdragsmask.',
-            da_DK: 'Viser påkrævede køretøjer i mission Mask.',
             nb_NO: 'Viser nødvendige kjøretøyer i misjons masken.',
             cs_CZ: 'Zobrazuje požadovaná vozidla v maskovací misi.',
             it_IT: 'Mostra i veicoli richiesti nella maschera di missione.',
-            tr_TR: 'Görev maskesinde gerekli araçları gösterir.',
             fr_FR: 'Affiche les véhicules requis en masque de mission.',
-            ru_RU: 'Показывает необходимые транспортные средства в маске миссии.',
-            uk_UA: 'Показує необхідні транспортні засоби в масці місії.',
-            ja_JP: 'ミッションマスクに必要な車両を表示します。',
             ko_KR: '미션 마스크에 필요한 차량을 표시합니다.',
             ro_RO: 'Arată vehiculele necesare în masca de misiune.',
-            fi_FI: 'Näyttää vaadittavat ajoneuvot operaation naamarissa.',
             nl_NL: 'Toont diverse informatie over een inzet in het meldingscherm.'
         },
         source: '/modules/lss-missionHelper/missionHelper.user.js',
@@ -1503,7 +1471,7 @@ lssm.Module = {
             ko_KR: '일일 통계 페이지에서 미션, 환자, 죄수 및 동맹에 대한 합계를 표시합니다',
             ro_RO: 'Arată sumele de peste misiuni, pacienți, prizonieri și alianță în pagina de statistici de zi cu zi',
             nl_NL: 'Geeft een totaaloverzicht van het aantal meldingen, patienten, gevangenen, teammeldingen' +
-		'en teamopnames.'
+                'en teamopnames.'
         },
         source: '/modules/lss-sumDailyMissions/sumDailyMissions.user.js',
         noapp: false, // Nicht im App-Store auflisten
@@ -1858,7 +1826,7 @@ lssm.appstore = {
                 '<div class="panel panel-default" style="display: inline-block;width:100%;">' +
                 '<div class="panel-body">' +
                 '<span class="pull-right">';
-            if(!nomapkit)
+            if (!nomapkit)
                 dom += '<div class="onoffswitch">' +
                     '<input class="onoffswitch-checkbox" id="lssm.modules_' + mods[i] + '" ' +
                     (mod.active ? 'checked="true"' : '') + ' value="' + mods[i] +
@@ -1867,10 +1835,10 @@ lssm.appstore = {
                     '</div>';
             dom += '</span>' +
                 '<h4>' + I18n.t('lssm.apps.' + mods[i] + '.name') + '</h4>';
-            if(!nomapkit)
+            if (!nomapkit)
                 dom += '<small style="display:none">' + I18n.t('lssm.apps.' + mods[i] + '.description');
             else
-                dom += '<small style="color:darkred">' +I18n.t('lssm.mapkit');
+                dom += '<small style="color:darkred">' + I18n.t('lssm.mapkit');
 
             dom += '</small>' +
                 '</div>' +
@@ -1967,7 +1935,7 @@ lssm.appstore = {
         if (action === "Reload") {
             location.reload();
         } else {
-            $(document).unbind(lssm.hook.prename("lightboxClose"),lssm.appstore.closeAppstore);
+            $(document).unbind(lssm.hook.prename("lightboxClose"), lssm.appstore.closeAppstore);
             // Inform the user about activated modules.
             let activated = "";
             for (let m in action) {
@@ -2035,8 +2003,7 @@ lssm.settings = {
         }
     },
 
-    exists: function(key)
-    {
+    exists: function (key) {
         return localStorage.getItem(lssm.config.prefix + '_' + key) !== null;
     },
 
@@ -2148,7 +2115,7 @@ lssm.modules = {
         "use strict";
         let arr = {};
         for (let i in lssm.Module) {
-            if(lssm.Module[i].active)
+            if (lssm.Module[i].active)
                 arr[i] = lssm.Module[i].active;
         }
         lssm.settings.set("Modules", arr);
@@ -2166,10 +2133,12 @@ lssm.modules = {
                 }
                 for (let l in lssm.Module[mod][k]) {
                     l = l.toString();
-                    if (!(mod in I18n.translations[l].lssm.apps)) {
-                        I18n.translations[l].lssm.apps[mod] = {};
-                    }
-                    I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
+		    if (I18n.translations.hasOwnProperty(l)) {
+                    	if (!(mod in I18n.translations[l].lssm.apps)) {
+			    I18n.translations[l].lssm.apps[mod] = {};
+                   	}
+                    	I18n.translations[l].lssm.apps[mod][k] = lssm.Module[mod][k][l];
+		    }
                 }
             }
         }
@@ -2208,7 +2177,7 @@ lssm.modules = {
             console.error("On lssm_module load: " + e.message);
         }
     },
-    isActive: function(e) {
+    isActive: function (e) {
         return lssm.Module[e].active;
     }
 };
