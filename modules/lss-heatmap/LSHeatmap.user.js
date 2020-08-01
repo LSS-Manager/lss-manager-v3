@@ -358,19 +358,6 @@
             }
         ]
     };
-    I18n.translations.es_ES.lssm.heatmap = {
-        active: 'Activo',
-        vehicleType: 'Grupos',
-        radius: 'Radio',
-        intensity: 'Intensidad',
-        close: 'Cerrar',
-        vehicleGroups: [
-            {
-                name: 'Combinación propia',
-                vehicles: []
-            }
-        ]
-    };
     I18n.translations.pt_PT.lssm.heatmap = {
         active: 'Ativo',
         vehicleType: 'Grupos',
@@ -410,19 +397,6 @@
             }
         ]
     };
-    I18n.translations.da_DK.lssm.heatmap = {
-        active: 'Aktiv',
-        vehicleType: 'grupper',
-        radius: 'Radius',
-        intensity: 'Intensitet',
-        close: 'Tæt',
-        vehicleGroups: [
-            {
-                name: 'Egen kombination',
-                vehicles: []
-            }
-        ]
-    };
     I18n.translations.nb_NO.lssm.heatmap = {
         active: 'Aktiv',
         vehicleType: 'grupper',
@@ -449,19 +423,6 @@
             }
         ]
     };
-    I18n.translations.tr_TR.lssm.heatmap = {
-        active: 'Aktif',
-        vehicleType: 'Gruplar',
-        radius: 'yarıçap',
-        intensity: 'yoğunluk',
-        close: 'Kapat',
-        vehicleGroups: [
-            {
-                name: 'Kendi Kombinasyonu',
-                vehicles: []
-            }
-        ]
-    };
     I18n.translations.fr_FR.lssm.heatmap = {
         active: 'Actif',
         vehicleType: 'Groupes',
@@ -471,45 +432,6 @@
         vehicleGroups: [
             {
                 name: 'Combinaison propre',
-                vehicles: []
-            }
-        ]
-    };
-    I18n.translations.ru_RU.lssm.heatmap = {
-        active: 'Активный',
-        vehicleType: 'Группы',
-        radius: 'Радиус',
-        intensity: 'Интенсивность',
-        close: 'Близко',
-        vehicleGroups: [
-            {
-                name: 'Собственная комбинация',
-                vehicles: []
-            }
-        ]
-    };
-    I18n.translations.uk_UA.lssm.heatmap = {
-        active: 'Активний',
-        vehicleType: 'Групи',
-        radius: 'Радіус',
-        intensity: 'Інтенсивність',
-        close: 'Закрити',
-        vehicleGroups: [
-            {
-                name: 'Власна комбінація',
-                vehicles: []
-            }
-        ]
-    };
-    I18n.translations.ja_JP.lssm.heatmap = {
-        active: 'アクティブ',
-        vehicleType: 'グループ',
-        radius: '半径',
-        intensity: '強度',
-        close: '閉じる',
-        vehicleGroups: [
-            {
-                name: '独自の組み合わせ',
                 vehicles: []
             }
         ]
@@ -536,19 +458,6 @@
         vehicleGroups: [
             {
                 name: 'Combinație proprie',
-                vehicles: []
-            }
-        ]
-    };
-    I18n.translations.fi_FI.lssm.heatmap = {
-        active: 'aktiivinen',
-        vehicleType: 'ryhmät',
-        radius: 'Säde',
-        intensity: 'Intensiteetti',
-        close: 'kiinni',
-        vehicleGroups: [
-            {
-                name: 'Oma yhdistelmä',
                 vehicles: []
             }
         ]

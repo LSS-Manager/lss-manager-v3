@@ -43,27 +43,6 @@
     }
   }
 
-  I18n.translations.es_ES.lssm['n-alarm'] = {
-    not_support: "Este navegador no soporta Notificaciones HTML5",
-    inithead: "Initalización",
-    chat_message: "Mensaje de chat de ",
-    blend: "Ocultar después:",
-    seconds: "segunda porción",
-    settings: {
-      title: "Notificación-Alerta",
-      chat_title: "Mensajes de chat",
-      chat_text: "Recibe mensajes de chat como notificación.",
-      s5_title: "Solicitud de transporte",
-      save: "Guardar",
-      close: "Cerrar",
-      s5_text: "Obtener órdenes de transporte como notificación",
-      status_title: "Estado",
-      status_text: "Obtenga todos los mensajes de estado como notificación.",
-      chatp_title: "Obtener mensajes de chat como ventana emergente de información",
-      chatp_text: "Obtener todos los mensajes de chat como mensaje emergente en el lado derecho"
-    }
-  }
-
   I18n.translations.pt_PT.lssm['n-alarm'] = {
     not_support: "Este navegador não suporta notificações HTML5",
     inithead: "Inicialização",
@@ -148,27 +127,6 @@
     }
   }
 
-  I18n.translations.da_DK.lssm['n-alarm'] = {
-    not_support: "Denne browser understøtter ikke HTML5-meddelelser",
-    inithead: "Initialisering",
-    chat_message: "Chatbesked fra ",
-    blend: "Skjul efter:",
-    seconds: "sekunder",
-    settings: {
-      title: "Meddelelse-Alert",
-      chat_title: "Chatbeskeder",
-      chat_text: "Få chatbeskeder som anmeldelse.",
-      s5_title: "Transportanmodning",
-      save: "Gemme",
-      close: "Tæt",
-      s5_text: "Få transportanmodninger som anmeldelse",
-      status_title: "Status",
-      status_text: "Få alle statusmeddelelser som anmeldelse.",
-      chatp_title: "Hent chatbeskeder som informations popup",
-      chatp_text: "Hent alle chatbeskeder som popup-besked i højre side"
-    }
-  }
-
   I18n.translations.nb_NO.lssm['n-alarm'] = {
     not_support: "Denne nettleseren støtter ikke HTML5-varsler",
     inithead: "initialisering",
@@ -211,27 +169,6 @@
     }
   }
 
-  I18n.translations.tr_TR.lssm['n-alarm'] = {
-    not_support: "Bu tarayıcı HTML5-Bildirimlerini desteklemiyor",
-    inithead: "Başlatma",
-    chat_message: "Adlı kişiden gelen sohbet mesajı ",
-    blend: "Sonra gizle:",
-    seconds: "saniye",
-    settings: {
-      title: "Bildirim-Uyarısı",
-      chat_title: "Sohbet mesajları",
-      chat_text: "Sohbet mesajlarını bildirim olarak alın.",
-      s5_title: "Taşıma Talebi",
-      save: "Kaydetmek",
-      close: "Yakın",
-      s5_text: "Aktarım Isteklerini bildirim olarak alma",
-      status_title: "Durum",
-      status_text: "Tüm durum iletilerini bildirim olarak alın.",
-      chatp_title: "Bilgi açılır pencere olarak sohbet mesajları alma",
-      chatp_text: "Tüm sohbet mesajlarını sağ tarafta açılır ileti olarak alın"
-    }
-  }
-
   I18n.translations.fr_FR.lssm['n-alarm'] = {
     not_support: "Ce navigateur ne supporte pas les notifications HTML5.",
     inithead: "Initalisation",
@@ -250,69 +187,6 @@
       status_text: "Obtenir tous les messages d'état comme notification.",
       chatp_title: "Obtenir des messages de chat sous forme de popup d'information",
       chatp_text: "Obtenir tous les messages du chat sous forme de message popup sur le côté droit"
-    }
-  }
-
-  I18n.translations.ru_RU.lssm['n-alarm'] = {
-    not_support: "Этот браузер не поддерживает HTML5-уведомления.",
-    inithead: "Инитализация",
-    chat_message: "Сообщение чата от ",
-    blend: "Спрячься после:",
-    seconds: "секунды",
-    settings: {
-      title: "Уведомление-оповещение-оповещение",
-      chat_title: "Сообщения чата",
-      chat_text: "Получать сообщения в чате в качестве уведомления.",
-      s5_title: "Запрос на транспортировку",
-      save: "Сохранить",
-      close: "Близко",
-      s5_text: "Получать запросы на транспортировку в качестве уведомления",
-      status_title: "Статус",
-      status_text: "Получать все сообщения о состоянии в виде уведомлений.",
-      chatp_title: "Получать сообщения чата в виде всплывающего окна информации",
-      chatp_text: "Получить все сообщения чата в виде всплывающего сообщения на правой стороне экрана."
-    }
-  }
-
-  I18n.translations.uk_UA.lssm['n-alarm'] = {
-    not_support: "Цей браузер не підтримує HTML5-сповіщення",
-    inithead: "Ініціалізація",
-    chat_message: "Повідомлення чату від ",
-    blend: "Сховати після:",
-    seconds: "секунд",
-    settings: {
-      title: "Повідомлення-Повідомлення",
-      chat_title: "Повідомлення чату",
-      chat_text: "Отримуйте повідомлення в чаті як сповіщення.",
-      s5_title: "Запит на транспорт",
-      save: "Зберегти",
-      close: "Закрити",
-      s5_text: "Отримайте запити на транспорт як повідомлення",
-      status_title: "Статус",
-      status_text: "Отримати всі повідомлення про стан як сповіщення.",
-      chatp_title: "Отримуйте повідомлення в чаті як спливаюче повідомлення",
-      chatp_text: "Отримайте всі повідомлення в чаті як спливаюче повідомлення праворуч"
-    }
-  }
-
-  I18n.translations.ja_JP.lssm['n-alarm'] = {
-    not_support: "このブラウザはHTML5-Notificationsをサポートしていません",
-    inithead: "初期化",
-    chat_message: "からのチャットメッセージ ",
-    blend: "後に隠す：",
-    seconds: "秒",
-    settings: {
-      title: "通知アラート",
-      chat_title: "チャットメッセージ",
-      chat_text: "通知としてチャットメッセージを取得します。",
-      s5_title: "輸送依頼",
-      save: "セーブ",
-      close: "閉じる",
-      s5_text: "通知としてトランスポートリクエストを取得する",
-      status_title: "状態",
-      status_text: "すべてのステータスメッセージを通知として取得します。",
-      chatp_title: "情報ポップアップとしてチャットメッセージを取得する",
-      chatp_text: "すべてのチャットメッセージを右側のポップアップメッセージとして取得する"
     }
   }
 
@@ -355,27 +229,6 @@
       status_text: "Obțineți toate mesajele de stare ca notificare.",
       chatp_title: "Obțineți mesaje de chat ca informații pop-up",
       chatp_text: "Obținetoate mesajele de chat ca mesaj pop-up în partea dreaptă"
-    }
-  }
-
-  I18n.translations.fi_FI.lssm['n-alarm'] = {
-    not_support: "Tämä selain ei tue HTML5-ilmoituksia",
-    inithead: "alustus",
-    chat_message: "Chat-viesti ",
-    blend: "Piilota jälkeen:",
-    seconds: "sekuntia",
-    settings: {
-      title: "Ilmoittaminen-Alert",
-      chat_title: "Chat-viestit",
-      chat_text: "Hanki chat-viestit ilmoituksena.",
-      s5_title: "Kuljetuspyyntö",
-      save: "Tallentaa",
-      close: "kiinni",
-      s5_text: "Hanki kuljetuspyynnöt ilmoituksena",
-      status_title: "Tila",
-      status_text: "Hanki kaikki tilaviestit ilmoituksina.",
-      chatp_title: "Hanki chat-viestit ponnahdusikkunoina",
-      chatp_text: "Hanki kaikki chat-viestit ponnahdusikkunaina oikealla puolella"
     }
   }
 

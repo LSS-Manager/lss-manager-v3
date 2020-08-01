@@ -57,25 +57,6 @@
         dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
     };
 
-    I18n.translations.es_ES.lssm.missionDate = {
-        ago: 'hace',
-        months: [
-            'Ene',
-            'Feb',
-            'Mar',
-            'Abr',
-            'May',
-            'Jun',
-            'Jul',
-            'Ago',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dic',
-        ],
-        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
-    };
-
     I18n.translations.pt_PT.lssm.missionDate = {
         ago: 'atrás',
         months: [
@@ -133,25 +114,6 @@
         dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
     };
 
-    I18n.translations.da_DK.lssm.missionDate = {
-        ago: 'siden',
-        months: [
-            'Jan',
-            'Feb',
-            'Mar',
-            'Apr',
-            'May',
-            'Jun',
-            'Jul',
-            'Aug',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec',
-        ],
-        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
-    };
-
     I18n.translations.nb_NO.lssm.missionDate = {
         ago: 'siden',
         months: [
@@ -190,25 +152,6 @@
         dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
     };
 
-    I18n.translations.tr_TR.lssm.missionDate = {
-        ago: 'Önce',
-        months: [
-            'Oca',
-            'şub',
-            'mar',
-            'nis',
-            'may',
-            'hazi',
-            'temm',
-            'ağu',
-            'Sep',
-            'Oct',
-            'Nov',
-            'Dec',
-        ],
-        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
-    };
-
     I18n.translations.fr_FR.lssm.missionDate = {
         ago: 'il y a',
         months: [
@@ -224,25 +167,6 @@
             'Oct',
             'Nov',
             'Déc.',
-        ],
-        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
-    };
-
-    I18n.translations.ru_RU.lssm.missionDate = {
-        ago: 'назад',
-        months: [
-            'Янв',
-            'Фев',
-            'Мар',
-            'Апр',
-            'Май',
-            'Июнь',
-            'Июль',
-            'Авг',
-            'Сен',
-            'Окт',
-            'Ноя',
-            'Дек',
         ],
         dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
     };
@@ -329,18 +253,6 @@
             let offset = today.getTimezoneOffset() / 60;
             // Zahl 1, weil EST UTC+1 ist
             let newOffset = 1 - offset;
-            newHour -= newOffset;
-        }
-        if (I18n.locale === 'ru_RU') {
-            let offset = today.getTimezoneOffset() / 60;
-            // Zahl 1, weil EST UTC+1 ist
-            let newOffset = 3 - offset;
-            newHour -= newOffset;
-        }
-        if (I18n.locale === 'tr_TR') {
-            let offset = today.getTimezoneOffset() / 60;
-            // Zahl 1, weil EST UTC+1 ist
-            let newOffset = 3 - offset;
             newHour -= newOffset;
         }
         if (I18n.locale === 'en_AU') {

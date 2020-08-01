@@ -101,37 +101,6 @@ else if (I18n.locale == "en_AU") {
         "21": ["Multi-Purpose Boat", 4]
     };
 }
-else if (I18n.locale == "es_ES") {
-    lssm.carsById = {
-        "0": ["Camión BUP", 0],
-        "1": ["Camión BUL", 0],
-        "2": ["Camión AE", 0],
-        "3": ["Vehículo UMC", 0],
-        "4": ["FUV", 0],
-        "5": ["Ambulancia", 1],
-        "6": ["Camión BNP", 0],
-        "7": ["Camión TPP", 0],
-        "8": ["Coche patrulla", 2],
-        "9": ["HEMS", 1],
-        "10": ["Vehículo aéreo", 0],
-        "11": ["Vehículo de mando móvil", 0],
-        "12": ["Vehículo de rescate", 0]
-    };
-}
-else if (I18n.locale == "es_MX") {
-    lssm.carsById = {
-        "0": ["Camión de Bomberos", 0],
-        "1": ["Camión BUL", 0],
-        "2": ["Camión con escalera telescópica", 0],
-        "3": ["Vehículo UMC", 0],
-        "4": ["Camión de Rescate", 0],
-        "5": ["Ambulancias Tipo II", 1],
-        "6": ["Camión de Bomberos Cisterna", 0],
-        "7": ["Camión TPP", 0],
-        "8": ["Coche patrulla", 2],
-        "9": ["Helicóptero HSR", 1]
-    };
-}
 else if (I18n.locale == "pt_PT") {
     lssm.carsById = {
         "0": ["VRCI", 0],
@@ -144,20 +113,6 @@ else if (I18n.locale == "pt_PT") {
         "7": ["VPME", 0],
         "8": ["Carro patrulha", 2],
         "9": ["Heli INEM", 1]
-    };
-}
-else if (I18n.locale == "pt_BR") {
-    lssm.carsById = {
-        "0": ["ABTS", 0],
-        "1": ["ABT", 0],
-        "2": ["ABE", 0],
-        "3": ["APS", 0],
-        "4": ["ACA", 0],
-        "5": ["SAMU", 1],
-        "6": ["AT", 0],
-        "7": ["APP", 0],
-        "8": ["Carro de Polícia Militar", 2],
-        "9": ["Helicóptero Resgate", 1]
     };
 }
 else if (I18n.locale == "sv_SE") {
@@ -205,45 +160,6 @@ else if (I18n.locale == "cs_CZ") {
         "15": ["URNA SUV", 2],
         "16": ["Protiplynový automobil", 0],
         "17": ["MOS", 0]
-    };
-}
-else if (I18n.locale == "tr_TR") {
-    lssm.carsById = {
-        "0": ["YSA", 0],
-        "1": ["IKA", 0],
-        "2": ["MA", 0],
-        "3": ["KA", 0],
-        "4": ["CMA", 0],
-        "5": ["AA", 1],
-        "6": ["SIA", 0],
-        "7": ["TMMA", 0],
-        "8": ["Polis Aracı", 2],
-        "9": ["Ambulans Helikopteri", 1]
-    };
-}
-else if (I18n.locale == "da_DK") {
-    lssm.carsById = {
-        "0": ["Autosprøjte", 0],
-        "1": ["Slangetender", 0],
-        "2": ["Stigevogn", 0],
-        "3": ["Indsatsleder", 0],
-        "4": ["Pionertjenesten", 0],
-        "5": ["Ambulance", 1],
-        "6": ["Tankvogn", 0],
-        "7": ["CBRN", 0],
-        "8": ["Patruljevogn", 2],
-        "9": ["Rednings Helikopter", 1],
-        "10": ["Højtrykskompressor", 0],
-        "11": ["LKM", 0],
-        "12": ["Specialsprøjte", 0],
-        "13": ["Politihelikopter", 2],
-        "14": ["AKS Pansret mandskabsvogn", 2],
-        "15": ["Hundepatrulje", 2],
-        "16": ["Politimotorcykel", 2],
-        "17": ["AKS Patruljevogn", 2],
-        "18": ["Dykkerbil", 4],
-        "19": ["Kystlivredderbil", 4],
-        "20": ["Bådtrailer", 4]
     };
 }
 else if (I18n.locale == "nb_NO") {
@@ -351,57 +267,6 @@ else if (I18n.locale == "fr_FR") {
         "17": ["BLS", 4],
     };
 }
-else if (I18n.locale == "ru_RU") {
-    lssm.carsById = {
-        "0": ["АЦ-3,0-40", 0],
-        "1": ["АЦ 2,3-40", 0],
-        "2": ["АЛ-42", 0],
-        "3": ["Штабной автомобиль", 0],
-        "4": ["АБР-5", 0],
-        "5": ["Машина Скорой Помощи", 1],
-        "6": ["АЦ-9,4-60", 0],
-        "7": ["АПТ-5,0-70", 0],
-        "8": ["Полицейская машина", 2],
-        "9": ["Медицинский вертолёт", 1],
-        "10": ["Mobile air", 0],
-        "11": ["ПКП", 0],
-        "12": ["ПСА", 0],
-        "13": ["АЦЛ", 0],
-        "14": ["Полицейский вертолет", 2],
-        "15": ["Бронемашина спецназа", 2],
-        "16": ["Автомобиль с полицейской собакой", 2],
-        "17": ["Полицейский мотоцикл", 2],
-        "18": ["Внедорожник спецназа", 2]
-    };
-}
-else if (I18n.locale == "uk_UA") {
-    lssm.carsById = {
-        "0": ["Пожежна автоцистерна", 0],
-        "1": ["Автомобіль першої допомоги", 0],
-        "2": ["Пожежна автодрабина", 0],
-        "3": ["Штабний автомобіль", 0],
-        "4": ["Пожежно-рятувальний автомобіль", 0],
-        "5": ["Автомобіль швидкої медичної допомоги", 1],
-        "6": ["Автонасосна пожежна станція", 0],
-        "7": ["Автомобіль РХБ захисту", 0],
-        "8": ["Поліцейський автомобіль", 2],
-        "9": ["Пошуково-рятувальний вертоліт", 1]
-    };
-}
-else if (I18n.locale == "ja_JP") {
-    lssm.carsById = {
-        "0": ["救助ハシゴ", 0],
-        "1": ["戦術対応車両（TRV）", 0],
-        "2": ["ターンテーブルはしご（TL）", 0],
-        "3": ["指令ユニット", 0],
-        "4": ["大型救助ユニット（MRU）", 0],
-        "5": ["救急車", 1],
-        "6": ["水槽車", 0],
-        "7": ["危険物取扱ユニット", 0],
-        "8": ["事故対応車両（IRV）", 2],
-        "9": ["SARヘリコプター", 1]
-    };
-}
 else if (I18n.locale == "ko_KR") {
     lssm.carsById = {
         "0": ["구조사다리", 0],
@@ -428,24 +293,6 @@ else if (I18n.locale == "ro_RO") {
         "7": ["Materiale periculoase", 0],
         "8": ["Mașină de patrulare", 2],
         "9": ["Salvare aeriană", 1]
-    };
-}
-else if (I18n.locale == "fi_FI") {
-    lssm.carsById = {
-        "0": ["Tyypin 1 paloauto", 0],
-        "1": ["Tyypin 2 paloauto", 0],
-        "2": ["Nostolava-auto", 0],
-        "3": ["Johtoauto", 0],
-        "4": ["Raskas pelastusauto", 0],
-        "5": ["ALS-ambulanssi", 1],
-        "6": ["Säiliöauto", 0],
-        "7": ["Kemikaalitorjunta", 0],
-        "8": ["Partioauto", 2],
-        "9": ["Lääkärihelikopteri (HEMS)", 1],
-        "10": ["Paineilmahuoltoauto", 0],
-        "11": ["Johtokeskusauto", 0],
-        "12": ["Pelastusauto", 0],
-        "13": ["Säiliösammutusauto", 0]
     };
 }
 else if (I18n.locale == "nl_NL") {

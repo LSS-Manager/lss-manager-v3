@@ -48,21 +48,6 @@
             cellsYellow: 'Skrytí policejních stanic/buněk s menším počtem volných buněk, než je požadováno'
         }
     };
-    I18n.translations.es_ES.lssm.destfilter = {
-        title: 'Filtro de destino',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Ocultar hospitales completos',
-            beds1: 'Hospitales ciegos bajo x camas apagadas',
-            department: 'Ocultar hospitales sin necesidad de departamento',
-            distance: 'Ocultar destinos por encima de x km de distancia (0 desactiva)',
-            tax: 'Ocultar destinos con un IMPUESTO superior a x%',
-            cells: 'Ocultar celdas completas',
-            cellsYellow: 'Ocultar las comisarías/células con menos celdas libres de las necesarias'
-        }
-    };
     I18n.translations.pt_PT.lssm.destfilter = {
         title: 'Filtro destino',
         freeBeds: 'Free beds',
@@ -108,21 +93,6 @@
             cellsYellow: 'Dölj polisstationer/celler med färre lediga celler än vad som krävs'
         }
     };
-    I18n.translations.da_DK.lssm.destfilter = {
-        title: 'Destinationsfilter',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Skjul fulde hospitaler',
-            beds1: 'Blinde hospitaler under x senge off',
-            department: 'Skjul hospitaler uden behov afdeling',
-            distance: 'Skjul destinationer over x km afstand (0 deaktiverer)',
-            tax: 'Skjul destinationer med en moms, der er højere end x%',
-            cells: 'Skjul hele celler',
-            cellsYellow: 'Skjul politistationer/celler med færre ledige celler end påkrævet'
-        }
-    };
     I18n.translations.nb_NO.lssm.destfilter = {
         title: 'Destinasjonsfilter',
         freeBeds: 'Free beds',
@@ -153,21 +123,6 @@
             cellsYellow: 'Nascondere le stazioni di polizia/celle con meno celle libere del necessario'
         }
     };
-    I18n.translations.tr_TR.lssm.destfilter = {
-        title: 'Hedef Filtresi',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
-            department: 'Hide hospitals without needed department',
-            distance: 'Hide destinations above x km distance (0 deactivates)',
-            tax: 'Hide destinations with a TAX higher than x%',
-            cells: 'Hide full cells',
-            cellsYellow: 'Hide police stations/cells with fewer free cells than required'
-        }
-    };
     I18n.translations.fr_FR.lssm.destfilter = {
         title: 'Filtre de destination',
         freeBeds: 'Lits libres',
@@ -181,51 +136,6 @@
             tax: 'Cacher les destinations dont la TAXE est supérieure à x%',
             cells: 'Masquer les cellules pleines',
             cellsYellow: 'Cachez les commissariats de police / cellules avec moins de cellules libres que nécessaire'
-        }
-    };
-    I18n.translations.ru_RU.lssm.destfilter = {
-        title: 'Фильтр назначения Фильтр назначения',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Скрыть полные больницы',
-            beds1: 'Слепые больницы под х койками',
-            department: 'Скрывать больницы без необходимого отделения',
-            distance: 'Скрыть пункты назначения на расстоянии свыше x км (деактивируется 0)',
-            tax: 'Скрытие пунктов назначения с коэффициентом TAX выше x%.',
-            cells: 'Скрыть полные ячейки',
-            cellsYellow: 'Скрывать полицейские участки/клетки с меньшим количеством свободных камер, чем требуется'
-        }
-    };
-    I18n.translations.uk_UA.lssm.destfilter = {
-        title: 'Фільтр призначення',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Сховати повні лікарні',
-            beds1: 'Сліпі лікарні під x ліжками вимкнено',
-            department: 'Сховати лікарні без необхідності департаменту',
-            distance: 'Сховати пункти призначення над відстанню x км (0 деактивувати)',
-            tax: 'Сховати пункти призначення з ПОДАТКОМ вище, ніж x%',
-            cells: 'Сховати повні клітинки',
-            cellsYellow: 'Сховати поліцейські станції/комірки з меншою кількістю вільних клітинок, ніж вимагається'
-        }
-    };
-    I18n.translations.ja_JP.lssm.destfilter = {
-        title: '宛先フィルター',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: '病院全体を隠す',
-            beds1: '盲目の病院は×ベッドオフ以下',
-            department: '必要な部門のない病院を隠す',
-            distance: 'x kmの距離を超える目的地を非表示（0が無効化）',
-            tax: 'TAXがx％を超える仕向地を非表示にする',
-            cells: 'セル全体を非表示',
-            cellsYellow: '必要以上に少ないフリーセルで警察署/セルを隠す'
         }
     };
     I18n.translations.ko_KR.lssm.destfilter = {
@@ -256,21 +166,6 @@
             tax: 'Ascundeți destinațiile cu o TAXĂ mai mare de x%',
             cells: 'Ascunderea celulelor complete',
             cellsYellow: 'Ascunderea secțiilor/celulelor de poliție cu mai puține celule libere decât este necesar'
-        }
-    };
-    I18n.translations.fi_FI.lssm.destfilter = {
-        title: 'Kohdesuodatin',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
-        settings: {
-            beds: 'Piilota täydet sairaalat',
-            beds1: 'Sokeat sairaalat alle x vuodepaikkaa pois',
-            department: 'Piilota sairaalat ilman tarvittavaa osastoa',
-            distance: 'Piilota kohteet yli x km etäisyyden (0 deaktivoituu)',
-            tax: 'Piilota kohteet, joiden TAX on yli x%',
-            cells: 'Piilota täydet solut',
-            cellsYellow: 'Piilota poliisiasemat /solut, joissa on vähemmän vapaita soluja kuin tarvitaan'
         }
     };
     I18n.translations.nl_NL.lssm.destfilter = {
