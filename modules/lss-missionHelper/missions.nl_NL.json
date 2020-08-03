@@ -16289,5 +16289,97 @@
             "police_stations": 4,
             "police_helicopter_stations": 1
         }
+    },
+    "635": {
+        "id": 635,
+        "name": "Ladingdiefstal",
+        "place": "Verzorgingsplaats (Snelweg)",
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "636": {
+        "id": 636,
+        "name": "Personen aangetroffen in vrachtwagen",
+        "place": "Verzorgingsplaats (Snelweg)",
+        "average_credits": 3330,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 5,
+            "ovdp": 1
+        },
+        "chances": {
+            "ovdp": 50,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "expansion_missions_ids": {
+                "0": 637
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 6,
+            "bereitschaftspolizei": 1
+        }
+    },
+    "637": {
+        "id": 637,
+        "name": "Personen aangetroffen in vrachtwagen",
+        "place": "Verzorgingsplaats (Snelweg)",
+        "average_credits": 5680,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "ovdp": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 10,
+            "max_possible_prisoners": 3,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 10,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2
+        }
     }
 }

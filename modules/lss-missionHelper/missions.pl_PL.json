@@ -4863,5 +4863,66 @@
             "police_stations": 1,
             "fire_stations": 7
         }
+    },
+    "218": {
+        "id": 218,
+        "name": "Pomoc Zespo\u0142owi Ratownictwa Medycznego",
+        "place": null,
+        "average_credits": 1170,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 0
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "219": {
+        "id": 219,
+        "name": "Zabezpieczenie l\u0105dowiska LPR  podczas wypadku",
+        "place": null,
+        "average_credits": 1010,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 7
+        }
     }
 }

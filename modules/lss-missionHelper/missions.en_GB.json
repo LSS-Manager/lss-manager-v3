@@ -4266,5 +4266,83 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "195": {
+        "id": 195,
+        "name": "Flat Fire in Clad High Rise",
+        "place": "High Rise with Cladding",
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "Flat Fire in Clad High Rise - Persons Reported",
+        "place": "High Rise with Cladding",
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "197": {
+        "id": 197,
+        "name": "Fire alarm activation in Clad High Rise premises",
+        "place": "High Rise with Cladding",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 185,
+                "1": 182
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }
