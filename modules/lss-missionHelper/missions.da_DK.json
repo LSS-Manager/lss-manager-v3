@@ -4214,5 +4214,123 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "170": {
+        "id": 170,
+        "name": "Person p\u00e5 spor",
+        "place": "Togstation (lokal trafik)",
+        "average_credits": 900,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 172
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Person p\u00e5 spor",
+        "place": "Togstation (lokal og national /international trafik)",
+        "average_credits": 900,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 173
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Person ramt af tog",
+        "place": "Togstation (lokal trafik)",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Person ramt af tog",
+        "place": "Togstation (lokal og national /international trafik)",
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
     }
 }

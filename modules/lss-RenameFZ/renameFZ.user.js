@@ -590,6 +590,83 @@
         }
     };
 
+    I18n.translations.da_DK.lssm.renameFz = {
+        name: 'Omdøb køretøjer',
+        rename: "omdøb",
+        id: "{id} Id for køretøj",
+        old: "{old} Nuværende navn",
+        vehicleType: "{vehicleType} Type køretøj",
+        stationName: "{stationName} Bygningens navn",
+        tagging: '{tagging} Mærkning af køretøjstypen',
+        number: '{number} Type tæller',
+        numberRoman: '{numberRoman} Type tæller (romertal)',
+        dispatch: '{dispatch} Navn på dispatchcenter',
+        dispatchAlias: '{dispatchAlias} Alias of Dispatchcenter',
+        stationAlias: '{stationAlias} Bygning-Alias',
+        saveAll: 'Gem alle',
+        statusWaiting: 'Vent på input',
+        statusError: '<b>Fejl under generation!</b> Hvis denne fejl opstår igen, skal du rapportere den. Angiv følgende oplysninger:',
+        statusWorking: 'Generer navne og formularer. Dette kan tage en vis tid, afhængigt af systemet og antallet af køretøjer.',
+        statusSuccess: 'Navne og Forumlare er genereret!',
+        nameAlreadyCorrect: 'Navn svarer allerede til skabelonen!',
+        nameToLong: 'Navnet er for langt til følgende køretøjer:',
+        nameToLongOriginalName: 'Originalt navn',
+        nameToLongGeneratedName: 'Genereret navn',
+        nameToLongShortenedName: 'Nyt / forkortet navn',
+        helpTitle: 'Du kan finde en lille instruktion under dette link: ',
+        helpLink: 'https://github.com/LSS-Manager/lss-manager-v3/wiki/RenameFZ',
+        startNum: 'Counter start',
+        counterOverride: 'Hvis der er flere køretøjer af samme type, start alligevel med 1.',
+        startNumHelp: 'Her kan du indtaste en startværdi for typetælleren. Hvis du indstiller 0 som startværdi, får det første køretøj af en type ikke nummereringen, dette er meget praktisk, hvis du kun har et køretøj af en type på en vagt og ikke ønsker at nummerere det. Men du kan også starte tælleren kl. 5 (uanset hvad du vil, men det er muligt;) )',
+        toggleNameCorrect: 'Vis / skjul køretøjer med korrekte navne',
+        settings: {
+            show: 'Vis / Skjul',
+            names: {
+                vehicleTypes: 'køretøjstyper',
+                stations: 'Bygning alias'
+            },
+            descriptions: {
+                vehicleTypes: 'Her kan du indstille alternative navne for hver køretøjstype. Du kan bruge dem, når du omdøber dine køretøjer via ekspeditionscentret.',
+                stations: 'Her kan du indstille alternative navne for hver bygning. Du kan bruge dem, når du omdøber dine køretøjer via ekspeditionscentret.'
+            },
+            validStationTypes: {
+                0: "Brandstation",
+                2: "Ambulancestation",
+                5: "Helikopterstation",
+                6: "Politistation",
+                7: "Alarmcentral",
+                13: "Politihelikopterstation",
+                15: "Vandredningsstation",
+                18: "Brandstation (lille station)",
+                19: "Politistation (lille station)",
+                20: "Ambulancestation (lille station)"
+            },
+            vehicleTypes: {
+                0: 'Autosprøjte',
+                1: 'Slangetender',
+                2: 'Stigevogn',
+                3: 'Indsatsleder',
+                4: 'Pionertjenesten',
+                5: 'Ambulance',
+                6: 'Tankvogn',
+                7: 'CBRN',
+                8: 'Patruljevogn',
+                9: 'Rednings Helikopter',
+                10: 'Højtrykskompressor',
+                11: 'LKM',
+                12: 'Specialsprøjte',
+                13: 'Politihelikopter',
+                14: 'AKS Pansret mandskabsvogn',
+                15: 'Hundepatrulje',
+                16: 'Politimotorcykel',
+                17: 'AKS Patruljevogn',
+                18: 'Dykkerbil',
+                19: 'Kystlivredderbil',
+                20: 'Bådtrailer'
+            }
+        }
+    };
+
     I18n.translations.nb_NO.lssm.renameFz = {
         name: 'Gi kjøretøy nytt navn',
         rename: "Gi nytt navn",

@@ -114,6 +114,25 @@
         dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
     };
 
+    I18n.translations.da_DK.lssm.missionDate = {
+        ago: 'siden',
+        months: [
+            'Jan',
+            'Feb',
+            'Mar',
+            'Apr',
+            'May',
+            'Jun',
+            'Jul',
+            'Aug',
+            'Sep',
+            'Oct',
+            'Nov',
+            'Dec',
+        ],
+        dateRegex: /([0-9]{2}) (.*) ([0-9]{2}):([0-9]{2})/i,
+    };
+
     I18n.translations.nb_NO.lssm.missionDate = {
         ago: 'siden',
         months: [

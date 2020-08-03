@@ -93,6 +93,21 @@
             cellsYellow: 'Dölj polisstationer/celler med färre lediga celler än vad som krävs'
         }
     };
+    I18n.translations.da_DK.lssm.destfilter = {
+        title: 'Destinationsfilter',
+        freeBeds: 'Free beds',
+        tax: 'TAX',
+        cellTax: 'owner\'s tax',
+        settings: {
+            beds: 'Skjul fulde hospitaler',
+            beds1: 'Blinde hospitaler under x senge off',
+            department: 'Skjul hospitaler uden behov afdeling',
+            distance: 'Skjul destinationer over x km afstand (0 deaktiverer)',
+            tax: 'Skjul destinationer med en moms, der er højere end x%',
+            cells: 'Skjul hele celler',
+            cellsYellow: 'Skjul politistationer/celler med færre ledige celler end påkrævet'
+        }
+    };
     I18n.translations.nb_NO.lssm.destfilter = {
         title: 'Destinasjonsfilter',
         freeBeds: 'Free beds',

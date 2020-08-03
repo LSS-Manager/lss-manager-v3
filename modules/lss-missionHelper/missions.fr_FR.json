@@ -4093,5 +4093,121 @@
         "prerequisites": {
             "rescue_stations": 4
         }
+    },
+    "195": {
+        "id": 195,
+        "name": "Personnes sur les voies",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
+        "average_credits": 900,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 197
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "Personnes sur les voies",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
+        "average_credits": 900,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 198
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "197": {
+        "id": 197,
+        "name": "Personne sous un train",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
+        "average_credits": 3000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Personne sous un train",
+        "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
+        "average_credits": 3000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 8
+        }
     }
 }

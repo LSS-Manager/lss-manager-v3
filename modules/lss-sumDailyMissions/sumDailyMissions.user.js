@@ -99,6 +99,25 @@
             num_team: 'Summa / Krediter alliansuppdrag',
             num_teame: 'Summa / Krediter alliansbehandling'
         };
+        
+        I18n.translations.da_DK.lssm.sumDailyMissions = {
+            patient_treatment: 'Patient Treatment',
+            patient_treatment1: 'Patient Treatment',
+            education: 'Uddannelse',
+            purchase: 'købt',
+            cancelled: 'Återlämna',
+            extended: 'uppförd',
+            extended2: 'bygget',
+            built: 'bygget',
+            teame: ' Alliance',
+            team: '\\[Alliance\\]',
+            prisoner: 'Prisoner Transported',
+            num_missions: 'Sum / Kreditter missioner',
+            num_patients: 'Sum / Kreditter patienten',
+            num_prisoners: 'Sum / Kreditter fanger',
+            num_team: 'Sum / Kreditter alliance missioner',
+            num_teame: 'Sum / Kreditter alliansebehandling'
+        };
 
         I18n.translations.nb_NO.lssm.sumDailyMissions = {
             patient_treatment: 'Patient Treatment',

@@ -127,6 +127,27 @@
     }
   }
 
+  I18n.translations.da_DK.lssm['n-alarm'] = {
+    not_support: "Denne browser understøtter ikke HTML5-meddelelser",
+    inithead: "Initialisering",
+    chat_message: "Chatbesked fra ",
+    blend: "Skjul efter:",
+    seconds: "sekunder",
+    settings: {
+      title: "Meddelelse-Alert",
+      chat_title: "Chatbeskeder",
+      chat_text: "Få chatbeskeder som anmeldelse.",
+      s5_title: "Transportanmodning",
+      save: "Gemme",
+      close: "Tæt",
+      s5_text: "Få transportanmodninger som anmeldelse",
+      status_title: "Status",
+      status_text: "Få alle statusmeddelelser som anmeldelse.",
+      chatp_title: "Hent chatbeskeder som informations popup",
+      chatp_text: "Hent alle chatbeskeder som popup-besked i højre side"
+    }
+  }
+
   I18n.translations.nb_NO.lssm['n-alarm'] = {
     not_support: "Denne nettleseren støtter ikke HTML5-varsler",
     inithead: "initialisering",

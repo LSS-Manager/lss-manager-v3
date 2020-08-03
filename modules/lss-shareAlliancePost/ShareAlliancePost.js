@@ -150,6 +150,27 @@
         },
     };
 
+    I18n.translations.da_DK.lssm.sharealliancepost = {
+        share: 'Del...',
+        chat: 'Snak...',
+        alert: 'Alert...',
+        chatm: 'Til teamchat',
+        clock: 'er det',
+        reqVehIdent: 'Påkrævede køretøjer:',
+        reqVeh: 'Ingen andre køretøjer kræves.',
+        settings: {
+            title: 'Alert, del & indlæg',
+            jumpNext: 'Gå til næste mission efter alarmering',
+            enableKeyboard: 'Aktivér tastaturgenveje',
+            defaultPostToChat: 'Indlæg til chat er som standard',
+            shortcutKeys:
+                'Kommasepareret liste over nøgler til alarmering. [17 = ctrl, 89 = y] (<a href="https://keycode.info" target="_blank">Info</a>)',
+            messages:
+                'Meddelelsesskabeloner. pladsholdere: <ul><li>%ADDRESS%</li><li>%TIME_OFFSET%</li><li>%PATIENTS_LEFT%</li><li>%REQUIRED_VEHICLES%</li><li>%CREDITS%</li></ul>',
+            timeOffset: 'Offset i %TIME_OFFSET% -format i timer',
+        },
+    };
+
     I18n.translations.nb_NO.lssm.sharealliancepost = {
         share: 'Dele...',
         chat: 'Chat...',

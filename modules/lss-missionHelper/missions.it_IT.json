@@ -5617,6 +5617,82 @@
             "rescue_stations": 1
         }
     },
+    "208": {
+        "id": 208,
+        "name": "Cefalea",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC04G",
+                "1": "KC04V",
+                "2": "KC04R"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Neurologia",
+                "1": "Neurochirurgia",
+                "2": "Neurologia",
+                "3": "Neurochirurgia",
+                "4": "Neurologia",
+                "5": "Neurochirurgia"
+            },
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "209": {
+        "id": 209,
+        "name": "Auto travolta al passaggio a livello",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 95
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia"
+            },
+            "patient_specializations": "Chirurgia generale"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
     "212": {
         "id": 212,
         "name": "Incendio grattacielo",

@@ -28,6 +28,11 @@
         label1: 'Gränsa vid klick',
         description1: 'Gränsar till en AAO när den har klickats en gång.'
     };
+    I18n.translations.da_DK['lssm']['aaozaehler'] = {
+        reset: "Nulstil AAO-tæller",
+        label1: 'Kant på klik',
+        description1: 'Afgrænser en AAO, når den er blevet klikket én gang.'
+    };
     I18n.translations.nb_NO['lssm']['aaozaehler'] = {
         reset: "Tilbakestill AAO-telleren",
         label1: 'Kant på klikk',

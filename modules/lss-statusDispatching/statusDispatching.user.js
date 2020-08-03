@@ -80,6 +80,19 @@
         fms5H1: 'transportní'
     };
 
+    I18n.translations.da_DK.lssm.statusDispatching = {
+        name: 'Forbedrede transportanmodninger',
+        fms: 'Transport anmodet',
+        nextVehicle: 'Gå til det næste køretøj med en transportanmodning',
+        backToAlarm: 'Tilbage til mission',
+        settingsTitle: 'Forbedrede transportanmodninger - Indstillinger',
+        settingsAttr: 'Klik automatisk på knappen "Anmodet om transport" i missionmasken',
+        settingsAttrDesc: 'Aktivering af denne mulighed giver automatisk klik på knappen "anmodet om transport" i missionsmasken. På denne måde skal du gennemgå alle transportanmodninger, før du kan se detaljer til missionen. Aktivering af denne mulighed giver hurtigere behandling af transportanmodninger.<br>'
+            + 'Deaktivering af denne mulighed gør det muligt at se mission detaljer før behandling af transportanmodninger. Knapperne "Gå til det næste køretøj med en transportanmodning" og "Tilbage til mission" påvirkes ikke af denne indstilling og klikkes altid automatisk.',
+        close: 'Tæt',
+        fms5H1: 'transportiert'
+    };
+
     I18n.translations.nb_NO.lssm.statusDispatching = {
         name: 'Forbedrede transportforespørsler',
         fms: 'Transport forespurt',
