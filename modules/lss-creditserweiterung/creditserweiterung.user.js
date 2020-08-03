@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|alarmcentral-spil|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -192,6 +192,33 @@
             updateMessage: 'Värden uppdateras automatiskt <br> var femte minut.<br>Krediter och mynt är<br>kontinuerligt uppdaterat.',
             allianceFunds: 'Alliansfonder',
             noFurtherRank: 'Det finns inga ytterligare rangordningar'
+        }
+    };
+    I18n.translations.da_DK.lssm.creditserweiterung = {
+        earnedCreditsRegEx: /(.*)([0-9],)? tjente kreditter.*/i,
+        ranks: {
+            0: 'Lærling',
+            200: 'Brandmand',
+            10000: 'Seniorbrandmand',
+            100000: 'Brandoperatør',
+            1000000: 'Løjtnant',
+            5000000: 'Kaptajn',
+            20000000: 'Stabskaptajn',
+            50000000: 'Holdleder',
+            1000000000: 'Indsatsleder',
+            2000000000: 'Vicebrandchef',
+            5000000000: 'Brandchef'
+        },
+        texts: {
+            reloadMessage: 'Åbn din profil <br> og genindlæs webstedet!',
+            dropdownName: 'Creditsextension',
+            creditsOverview: 'Oversigt',
+            coinsProtokoll: 'Liste over mønter',
+            earnedCredits: 'Totalt optjente kredit',
+            creditsToNextRank: 'Kreditter til næste rang',
+            updateMessage: 'Værdier opdateres automatisk <br> hvert 5. minut. <br> Kreditter og mønter er løbende ajour.',
+            allianceFunds: 'Alliance fonde',
+            noFurtherRank: 'Der er ingen yderligere rækker'
         }
     };
     I18n.translations.nb_NO.lssm.creditserweiterung = {

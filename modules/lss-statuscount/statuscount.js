@@ -147,6 +147,30 @@
             }
         }
     };
+    I18n.translations.da_DK.lssm.statuscount = {
+        name: "Status-antal",
+        settings: {
+            show: "Vis / Skjul",
+            status: {
+                show: {
+                    label: "At vise",
+                    description: "Skal status overhovedet vises? Vigtigt: Denne indstilling har en højere prioritet end andre indstillinger, dvs. hvis denne indstilling er slået fra, vises status aldrig."
+                },
+                hide: {
+                    label: "Vis kun efter behov",
+                    description: "Tælleren vises kun, hvis mindst et køretøj er i denne status. (Bemærk: Hvis tælleren er helt skjult, vises den aldrig, selvom denne indstilling er aktiveret!)"
+                },
+                percent: {
+                    label: "Vis procenter",
+                    description: "Skal procentdelen af denne status vises?"
+                }
+            },
+            round: {
+                label: "Runde procenter",
+                description: "Hvor mange decimaler skal procentdelene (hvis vist) afrundes til?"
+            }
+        }
+    };
     I18n.translations.nb_NO.lssm.statuscount = {
         name: "Status-Count",
         settings: {

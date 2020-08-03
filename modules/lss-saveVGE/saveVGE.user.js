@@ -29,6 +29,12 @@
         noVGE:"Inget räddat Alliance Mission!",
         VGEs:"VGEs"
     };
+    I18n.translations.da_DK['lssm']['saveVGE'] = {
+        save: "Gemme",
+        del: "Slet",
+        noVGE: "Ingen gemt Alliance Mission!",
+        VGEs: "VGEs"
+    };
     I18n.translations.nb_NO['lssm']['saveVGE'] = {
         save: "Lagre",
         del: "Slett",

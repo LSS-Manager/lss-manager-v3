@@ -2,7 +2,7 @@
     const lsName = "lssmVerbandsverwaltung_" + user_id + "_" + alliance_id;
     const updateMin = 30; // Minuten-Inetrval in dem geupdatet wird
 
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|alarmcentral-spil|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
 
     I18n.translations.de_DE.lssm.verbandsverwaltung = {
         name: 'Verwaltung',
@@ -75,6 +75,18 @@
         updateMessage: 'Värden uppdateras automatiskt <br> varje ' + updateMin + ' minuter.',
         chartErr: 'Det gick inte att ladda diagrammet "{{chart}}"!<br>Vi vet redan att detta händer med vissa webbläsare, men ännu inte varför. Snälla <b> inte </b> anmäla oss det här felet eftersom vi redan har problemet!',
         hoverTip: 'Tips: Håll muspekaren över ett element för att visa en värdehistorik.'
+    };
+    I18n.translations.da_DK.lssm.verbandsverwaltung = {
+        name: 'Administration',
+        allianceFunds: 'Alliance fonde',
+        allianceCredits: 'Optjente kredit',
+        users: 'Medlemmer',
+        onlineUsers: 'Medlemmer online',
+        allianceRank: 'Rang i Alliancelist',
+        page: 'Side',
+        updateMessage: 'Værdier opdateres automatisk<br>hvert ' + updateMin + ' minut.',
+        chartErr: 'Kunne ikke indlæse diagram "{{chart}}"!<br>Vi ved allerede, at dette sker med nogle browsere, men endnu ikke hvorfor. Venligst <b> ikke </b> indberet os denne fejl, da vi allerede har problemet.',
+        hoverTip: 'Tip: Hold markøren over et element for at få vist en værdihistorik.'
     };
     I18n.translations.nb_NO.lssm.verbandsverwaltung = {
         name: 'Administrasjon',

@@ -119,6 +119,25 @@
         import_fail: "Fel: Ett fel inträffade vid import av filen: <strong> {0} </strong>. Informera en utvecklare."
     };
 
+    I18n.translations.da_DK.lssm.managedsettings = {
+        title: "LSSM-indstillinger",
+        text1: "Her kan du ændre indstillingerne for dine aktiverede plugins.",
+        text2: "",
+        save: "Gem og luk",
+        settings_tab: "Indstillinger",
+        addField_btn: "Tilføje",
+        export_btn: "Eksporter indstillinger",
+        import_btn: "Importer indstillinger",
+        reset_btn: "Nulstil indstillingerne",
+        reset_hint: "Er du sikker på, at du vil nulstille indstillingerne for dette modul til standardværdier?",
+        reset_success: "Nulstil indstillingerne. Du skal genindlæse siden for at få dem til at fungere.",
+        export_success: "Eksporterede indstillinger",
+        export_hint: "Bemærk, at kun tidligere gemte indstillinger af aktuelt aktiverede moduler kan eksporteres.",
+        import_success: "Indstillingerne blev importeret med succes. Du skal genindlæse siden for at få dem til at fungere.",
+        import_missmatch: "Den indlæste fil er desværre ikke længere kompatibel med den aktuelle version af LSSM.",
+        import_fail: "Fejl: Der opstod en fejl under import af filen:<strong> {0} </strong>. Fortæl en udvikler."
+    };
+
     I18n.translations.nb_NO.lssm.managedsettings = {
         title: "LSSM-innstillinger",
         text1: "Her kan du endre innstillingene for dine aktiverte plugins.",

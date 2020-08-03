@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         LSS Manager v3 Autoupdater
-// @version      3.3.7
+// @version      3.3.7.1
 // @description  Das Tool für LSS
 // @author       lost | northdegree | mausmajor | dlrg-dominik | mrweezle | sanni | jan
 // @homepage     https://lss-manager.de
@@ -16,6 +16,8 @@
 // @include      *://www.missionchief-australia.com/*
 // @include      *://larmcentralen-spelet.se/*
 // @include      *://www.larmcentralen-spelet.se/*
+// @include      *://alarmcentral-spil.dk/*
+// @include      *://www.alarmcentral-spil.dk/*
 // @include      *://operatorratunkowy.pl/*
 // @include      *://www.operatorratunkowy.pl/*
 // @include      *://operatore112.it/*

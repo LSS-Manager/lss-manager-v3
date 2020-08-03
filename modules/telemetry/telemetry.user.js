@@ -29,6 +29,11 @@
             "Dessa data inkluderar: ditt ID, användarnamn, antalet vakter, den webbläsare som används och aktiverade moduler.\r\n\r\n" +
             "Håller du med om detta?"
     };
+    I18n.translations.da_DK.lssm.telemetry = {
+        question: "LSS Manager sender ikke-personlige data til udviklerne for at forbedre scriptet og finde fejl.\r\n" +
+            "Disse data inkluderer: dit ID, brugernavn, antallet af vagter, den anvendte browser og aktiverede moduler.\r\n\r\n" +
+            "Er du enig i dette?"
+    };
     I18n.translations.nb_NO.lssm.telemetry = {
         question: "LSS Manager sender ikke-personlige data til utviklerne for å forbedre skriptet og finne feil.\r\n" +
             "Disse dataene inkluderer: IDen din, brukernavnet, antall vakter, nettleseren som er brukt og aktiverte moduler.\r\n\r\n" +

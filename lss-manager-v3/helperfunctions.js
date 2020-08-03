@@ -162,6 +162,31 @@ else if (I18n.locale == "cs_CZ") {
         "17": ["MOS", 0]
     };
 }
+else if (I18n.locale == "da_DK") {
+    lssm.carsById = {
+        "0": ["Autosprøjte", 0],
+        "1": ["Slangetender", 0],
+        "2": ["Stigevogn", 0],
+        "3": ["Indsatsleder", 0],
+        "4": ["Pionertjenesten", 0],
+        "5": ["Ambulance", 1],
+        "6": ["Tankvogn", 0],
+        "7": ["CBRN", 0],
+        "8": ["Patruljevogn", 2],
+        "9": ["Rednings Helikopter", 1],
+        "10": ["Højtrykskompressor", 0],
+        "11": ["LKM", 0],
+        "12": ["Specialsprøjte", 0],
+        "13": ["Politihelikopter", 2],
+        "14": ["AKS Pansret mandskabsvogn", 2],
+        "15": ["Hundepatrulje", 2],
+        "16": ["Politimotorcykel", 2],
+        "17": ["AKS Patruljevogn", 2],
+        "18": ["Dykkerbil", 4],
+        "19": ["Kystlivredderbil", 4],
+        "20": ["Bådtrailer", 4]
+    };
+}
 else if (I18n.locale == "nb_NO") {
     lssm.carsById = {
         "0": ["Mannskapsbil", 0],
