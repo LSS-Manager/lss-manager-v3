@@ -2318,15 +2318,14 @@
         },
         rth: {
             name: 'MMT Standplaats',
-            credits: 1000000,
+            credits: 800000,
             coins: 50,
             maxlevel: 3,
             levelcost: '1. 10.000<br>2. 50.000<br>3. 100.000',
             startPersonell: 1,
             startVehicle: 'Geen startend voertuig',
-            maxBuildings: 'zie speciale kenmerken',
-            extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kan maximaal 1 landingsplaats per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 gebouwen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            maxBuildings: 'Maximaal 1 gebouw per 10 ambulance gebouwen',
+            extensions: 'Geen uitbreidingen mogelijk'
         },
         pol: {
             name: 'Politie, Opkomstbureau',
@@ -2696,7 +2695,8 @@
                 max: 4,
                 credits: 30000,
                 coins: 12,
-                schooling: 'MMT-Bemanningslid'
+                schooling: 'MMT-Bemanningslid',
+                special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één MMT-Auto gekocht worden'
             },
             bambulance: {
                 name: 'Zorgambulance',
@@ -2721,7 +2721,7 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Officier van Dienst Geneeskunde',
-                special: 'Per 10 Ambulanceposten (Standplaatsen en VWS-posten) kan één OVDG-RR gekocht worden'
+                special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één OVDG-RR gekocht worden'
             },
             rr: {
                 name: 'Rapid Responder',
@@ -2825,9 +2825,10 @@
                 name: 'Lifeliner',
                 min: 1,
                 max: 4,
-                credits: 300000,
+                credits: 500000,
                 coins: 30,
-                schooling: 'MMT-Bemanningslid'
+                schooling: 'MMT-Bemanningslid',
+                special: 'Per 25 gebouwen (alle gebouwen) kan één Lifeliner gekocht worden'
             },
             polheli: {
                 name: 'Politiehelikopter',
