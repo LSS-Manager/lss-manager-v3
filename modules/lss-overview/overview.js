@@ -2378,31 +2378,31 @@
 
     I18n.translations.nl_NL.lssm.overview.vehicles = {
         brand: {
-            siv: {
-                name: 'SIV',
+            si2: {
+                name: 'SI-2',
                 min: 1,
                 max: 2,
                 credits: 5000,
                 coins: 25
             },
-            ts4: {
-                name: 'TS 4',
+            ts45: {
+                name: 'TS 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
-            tst4: {
-                name: 'TST 4',
+            tst45: {
+                name: 'TST 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
-            tstnbb4: {
-                name: 'TST-NBB 4',
+            tstnb45: {
+                name: 'TST-NB 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
@@ -2420,8 +2420,8 @@
                 credits: 5000,
                 coins: 25
             },
-            tstnbb67: {
-                name: 'TST-NBB 6/7',
+            tstnb67: {
+                name: 'TST-NB 6/7',
                 min: 1,
                 max: 7,
                 credits: 5000,
@@ -2441,8 +2441,8 @@
                 credits: 5000,
                 coins: 25
             },
-            tstnbb89: {
-                name: 'TST-NBB 8/9',
+            tstnb89: {
+                name: 'TST-NB 8/9',
                 min: 1,
                 max: 9,
                 credits: 5000,
@@ -2546,21 +2546,21 @@
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
             },
-            tw: {
-                name: 'Tankwagen',
+            wt: {
+                name: 'Watertankwagen',
                 min: 1,
                 max: 3,
                 credits: 17000,
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
             },
-            pmwvd: {
-                name: 'Waarschuwings- en Verkenningsdienst',
+            daveb: {
+                name: 'Verkenningseenheid Brandweer',
                 min: 1,
                 max: 4,
                 credits: 18300,
                 coins: 25,
-                schooling: 'Waarschuwings- en Verkenningsdienst',
+                schooling: 'Verkenningseenheid Brandweer',
                 special: 'Benodigd vanaf 10 brandweerposten.'
             },
             abh: {
@@ -2580,7 +2580,7 @@
                 special: 'Haakarmvoertuig benodigd'
             },
             wth: {
-                name: 'Watertransporthaakarmbak',
+                name: 'Watertankhaakarmbak',
                 min: 0,
                 max: 0,
                 credits: 6000,
