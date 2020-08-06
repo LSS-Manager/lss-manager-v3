@@ -2126,7 +2126,7 @@
     "105": {
         "id": 105,
         "name": "Chute du 2\u00e8me \u00e9tage",
-        "place": "For\u00eat",
+        "place": null,
         "average_credits": 1200,
         "generated_by": "Poste Ambulancier",
         "icons": {
@@ -2134,9 +2134,7 @@
             "1": "/images/medicalstore_gelb.png",
             "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "heavy_rescue_vehicles": 2
-        },
+        "requirements": {},
         "chances": {
             "patient_transport": 100,
             "helicopter": 75
