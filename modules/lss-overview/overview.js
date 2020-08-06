@@ -2318,15 +2318,14 @@
         },
         rth: {
             name: 'MMT Standplaats',
-            credits: 1000000,
+            credits: 800000,
             coins: 50,
             maxlevel: 3,
             levelcost: '1. 10.000<br>2. 50.000<br>3. 100.000',
             startPersonell: 1,
             startVehicle: 'Geen startend voertuig',
-            maxBuildings: 'zie speciale kenmerken',
-            extensions: 'Geen uitbreidingen mogelijk',
-            special: 'Er kan maximaal 1 landingsplaats per gebouw worden gebouwd. Tot het 125ste gebouw (van alle soorten) kunnen maximaal 4 gebouwen worden gebouwd. Dan groeit het aantal met 1 per 25 gebouwen (vanaf 125.).'
+            maxBuildings: 'Maximaal 1 gebouw per 10 ambulance gebouwen',
+            extensions: 'Geen uitbreidingen mogelijk'
         },
         pol: {
             name: 'Politie, Opkomstbureau',
@@ -2379,31 +2378,31 @@
 
     I18n.translations.nl_NL.lssm.overview.vehicles = {
         brand: {
-            siv: {
-                name: 'SIV',
+            si2: {
+                name: 'SI-2',
                 min: 1,
                 max: 2,
                 credits: 5000,
                 coins: 25
             },
-            ts4: {
-                name: 'TS 4',
+            ts45: {
+                name: 'TS 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
-            tst4: {
-                name: 'TST 4',
+            tst45: {
+                name: 'TST 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
-            tstnbb4: {
-                name: 'TST-NBB 4',
+            tstnb45: {
+                name: 'TST-NB 4/5',
                 min: 1,
-                max: 4,
+                max: 5,
                 credits: 5000,
                 coins: 25
             },
@@ -2421,8 +2420,8 @@
                 credits: 5000,
                 coins: 25
             },
-            tstnbb67: {
-                name: 'TST-NBB 6/7',
+            tstnb67: {
+                name: 'TST-NB 6/7',
                 min: 1,
                 max: 7,
                 credits: 5000,
@@ -2442,8 +2441,8 @@
                 credits: 5000,
                 coins: 25
             },
-            tstnbb89: {
-                name: 'TST-NBB 8/9',
+            tstnb89: {
+                name: 'TST-NB 8/9',
                 min: 1,
                 max: 9,
                 credits: 5000,
@@ -2547,21 +2546,21 @@
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
             },
-            tw: {
-                name: 'Tankwagen',
+            wt: {
+                name: 'Watertankwagen',
                 min: 1,
                 max: 3,
                 credits: 17000,
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
             },
-            pmwvd: {
-                name: 'Waarschuwings- en Verkenningsdienst',
+            daveb: {
+                name: 'Verkenningseenheid Brandweer',
                 min: 1,
                 max: 4,
                 credits: 18300,
                 coins: 25,
-                schooling: 'Waarschuwings- en Verkenningsdienst',
+                schooling: 'Verkenningseenheid Brandweer',
                 special: 'Benodigd vanaf 10 brandweerposten.'
             },
             abh: {
@@ -2581,7 +2580,7 @@
                 special: 'Haakarmvoertuig benodigd'
             },
             wth: {
-                name: 'Watertransporthaakarmbak',
+                name: 'Watertankhaakarmbak',
                 min: 0,
                 max: 0,
                 credits: 6000,
@@ -2696,7 +2695,8 @@
                 max: 4,
                 credits: 30000,
                 coins: 12,
-                schooling: 'MMT-Bemanningslid'
+                schooling: 'MMT-Bemanningslid',
+                special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één MMT-Auto gekocht worden'
             },
             bambulance: {
                 name: 'Zorgambulance',
@@ -2721,7 +2721,7 @@
                 credits: 25000,
                 coins: 25,
                 schooling: 'Officier van Dienst Geneeskunde',
-                special: 'Per 10 Ambulanceposten (Standplaatsen en VWS-posten) kan één OVDG-RR gekocht worden'
+                special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één OVDG-RR gekocht worden'
             },
             rr: {
                 name: 'Rapid Responder',
@@ -2825,9 +2825,10 @@
                 name: 'Lifeliner',
                 min: 1,
                 max: 4,
-                credits: 300000,
+                credits: 500000,
                 coins: 30,
-                schooling: 'MMT-Bemanningslid'
+                schooling: 'MMT-Bemanningslid',
+                special: 'Per 25 gebouwen (alle gebouwen) kan één Lifeliner gekocht worden'
             },
             polheli: {
                 name: 'Politiehelikopter',
