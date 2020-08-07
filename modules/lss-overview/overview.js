@@ -2252,7 +2252,7 @@
             maxlevel: 16,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
             startPersonell: 10,
-            startVehicle: 'SIV,TS 8/9,TST 8/9,TST 6/7,TST 4,TS 4,TST-NBB 8/9,TST-NBB 6/7,TST-NBB 4,TS 6/7',
+            startVehicle: 'SI-2,TS 8/9,TST 8/9,TST 6/7,TST 4/5,TS 4/5,TST-NB 8/9,TST-NB 6/7,TST-NB 4/5,TS 6/7',
             extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
             special: 'Vanaf de 25e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
@@ -2628,7 +2628,7 @@
                 max: 0,
                 credits: 9000,
                 coins: 12,
-                special: 'TS, TST, TST-NBB, SIV, WO, HV, DA/DB benodigd'
+                special: 'TS, TST, TST-NB, SI-2, WO, HV, DA/DB benodigd'
             },
             pmor: {
                 name: 'PM-OR | Materieelvoertuig - Oppervlakteredding',
