@@ -378,7 +378,13 @@ div#preloader {
 }
 
 .label-wr {
-  background-color: #009dff !important
+  background-color: #009dff !important;
+  color: #4a4a4a !important;
+}
+
+.label-rhs {
+  background-color: #5cc7a0 !important;
+  color: #4a4a4a !important;
 }
 
 
