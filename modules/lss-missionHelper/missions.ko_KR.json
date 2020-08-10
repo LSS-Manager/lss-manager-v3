@@ -2926,5 +2926,33 @@
             "police_stations": 2,
             "fire_stations": 8
         }
+    },
+    "124": {
+        "id": 124,
+        "name": "\ud130\ub110 \ub0b4 \ub2e8\uc77c \ucc28\ub7c9 \ud654\uc7ac",
+        "place": "\ud130\ub110",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
     }
 }

@@ -4344,5 +4344,29 @@
         "prerequisites": {
             "fire_stations": 3
         }
+    },
+    "198": {
+        "id": 198,
+        "name": "Large public disturbance",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 12,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 8,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 12
+        }
     }
 }
