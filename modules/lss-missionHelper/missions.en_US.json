@@ -10485,5 +10485,69 @@
             "rescue_stations": 1,
             "fire_stations": 9
         }
+    },
+    "426": {
+        "id": 426,
+        "name": "Medical emergency on ship",
+        "place": "Cargo port",
+        "average_credits": 700,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/cruiseship_gruen.png",
+            "1": "/images/cruiseship_gelb.png",
+            "2": "/images/cruiseship_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "firetrucks": 40,
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "427": {
+        "id": 427,
+        "name": "Medical emergency on ship",
+        "place": "Cruise ship dock",
+        "average_credits": 700,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/cruiseship_gruen.png",
+            "1": "/images/cruiseship_gelb.png",
+            "2": "/images/cruiseship_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "firetrucks": 40,
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
     }
 }

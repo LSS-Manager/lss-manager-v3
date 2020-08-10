@@ -4348,5 +4348,56 @@
             "police_stations": 2,
             "fire_stations": 8
         }
+    },
+    "207": {
+        "id": 207,
+        "name": "Single vehicle fire in tunnel",
+        "place": "Tunnel",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "208": {
+        "id": 208,
+        "name": "Drug Warrant",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "swat_personnel": 6,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

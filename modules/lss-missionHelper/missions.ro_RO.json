@@ -2619,5 +2619,33 @@
             "police_stations": 2,
             "fire_stations": 8
         }
+    },
+    "113": {
+        "id": 113,
+        "name": "Incendiu de singur vehicol \u00een tunel",
+        "place": "Tunel",
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
     }
 }
