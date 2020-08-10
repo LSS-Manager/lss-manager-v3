@@ -117,6 +117,10 @@
                 settings.set['bp'] = el.prop('checked');
                 drawCircles(false, 11);
                 break;
+            case settings.prefix + '_mark_bp':
+                settings.set['bp'] = el.prop('checked');
+                drawCircles(false, 17);
+                break;
             case settings.prefix + '_mark_kh':
                 settings.set['kh'] = el.prop('checked');
                 drawCircles(false, 4);
@@ -225,6 +229,7 @@
                 break;
             case BUILDING_TYPE_POLIZEISONDEREINHEITEN:
                 building_marker_image = "/images/building_polizeisondereinheiten.png"
+                break;
 
             case BUILDING_TYPE_SEG:
                 building_marker_image = "/images/building_seg.png";
