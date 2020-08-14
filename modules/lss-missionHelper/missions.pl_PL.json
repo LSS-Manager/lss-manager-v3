@@ -1745,7 +1745,7 @@
         "id": 73,
         "name": "Powa\u017cny wypadek z udzia\u0142em autobusu",
         "place": null,
-        "average_credits": 2000,
+        "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -1937,7 +1937,7 @@
         "id": 87,
         "name": "Wypadek traktora",
         "place": "Gospodarstwo rolne",
-        "average_credits": 1000,
+        "average_credits": 1700,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -2050,7 +2050,7 @@
         "id": 104,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie boczne",
         "place": null,
-        "average_credits": 3200,
+        "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -2116,7 +2116,7 @@
         "id": 106,
         "name": "Wypadek dw\u00f3ch samochod\u00f3w - Zderzenie czo\u0142owe",
         "place": null,
-        "average_credits": 3200,
+        "average_credits": 3500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -2635,7 +2635,6 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
-            "mobile_air_vehicles": 1,
             "police_cars": 1
         },
         "chances": {
@@ -3921,7 +3920,7 @@
         "id": 187,
         "name": "Po\u017car rafinerii",
         "place": "Fabryka",
-        "average_credits": 7200,
+        "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3952,7 +3951,7 @@
         "id": 188,
         "name": "Zawalenie si\u0119 wie\u017cy ko\u015bcio\u0142a",
         "place": null,
-        "average_credits": 5600,
+        "average_credits": 8000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/constructioncrane_gruen.png",
@@ -4463,7 +4462,7 @@
         "id": 204,
         "name": "Bus w Wodzie",
         "place": "Jezioro",
-        "average_credits": 3000,
+        "average_credits": 4000,
         "generated_by": "Stacja WOPR",
         "icons": {
             "0": "/images/waterpark_gruen.png",
@@ -4668,7 +4667,7 @@
         "id": 211,
         "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
         "place": "Przejazd kolejowy",
-        "average_credits": 2300,
+        "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",

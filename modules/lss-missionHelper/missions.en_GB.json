@@ -4336,8 +4336,7 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 185,
-                "1": 182
+                "0": 195
             },
             "filter_id": "firehouse_missions"
         },
