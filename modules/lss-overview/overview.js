@@ -2249,11 +2249,11 @@
             name: 'Brandweer, Kazerne',
             credits: 100000,
             coins: 30,
-            maxlevel: 16,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-16. 100.000',
+            maxlevel: 24,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-24. 100.000',
             startPersonell: 10,
             startVehicle: 'SI-2,TS 8/9,TST 8/9,TST 6/7,TST 4/5,TS 4/5,TST-NB 8/9,TST-NB 6/7,TST-NB 4/5,TS 6/7',
-            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>6*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
+            extensions: 'Ambulance (7 dagen, 100.000 Credits/20 Coins)<br>Waterongevallenbestrijding (7 dagen, 400.000 Credits/25 Coins)<br>Vliegtuigbrandbestrijding (7 dagen, 100.000 Credits/20 Coins)<br>10*Haakarmbak parkeerplaats (in alle gevallen 7 dagen, 100.000 Credits/20 Coins)',
             maxBuildings: '2.400',
             special: 'Vanaf de 25e brandweerkazerne stijgen de kosten voor de bouw van een nieuwe brandweerkazerne volgens de volgende formule: <code>100.000+200.000*LOG<sub>2</sub>(Aantal brandweerposten − 22)</code>. De Coins prijs blijft constant!'
         },
@@ -2273,8 +2273,8 @@
             name: 'Ambulance, standplaats',
             credits: 200000,
             coins: 35,
-            maxlevel: 14,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
+            maxlevel: 19,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-19. 100.000',
             startPersonell: 2,
             startVehicle: 'Ambulance',
             extensions: 'Geen uitbreidingen mogelijk',
@@ -2331,8 +2331,8 @@
             name: 'Politie, Opkomstbureau',
             credits: 100000,
             coins: 35,
-            maxlevel: 14,
-            levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
+            maxlevel: 19,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-19. 100.000',
             startPersonell: 2,
             startVehicle: 'DA Noodhulp',
             extensions: 'cel (25.000 Credits)<br>Max. 10 kunnen worden gebouwd',
@@ -2378,78 +2378,16 @@
 
     I18n.translations.nl_NL.lssm.overview.vehicles = {
         brand: {
-            si2: {
-                name: 'SI-2',
-                min: 1,
-                max: 2,
-                credits: 5000,
-                coins: 25
-            },
-            ts45: {
-                name: 'TS 4/5',
-                min: 1,
-                max: 5,
-                credits: 5000,
-                coins: 25
-            },
-            tst45: {
-                name: 'TST 4/5',
-                min: 1,
-                max: 5,
-                credits: 5000,
-                coins: 25
-            },
-            tstnb45: {
-                name: 'TST-NB 4/5',
-                min: 1,
-                max: 5,
-                credits: 5000,
-                coins: 25
-            },
-            ts67: {
-                name: 'TS 6/7',
-                min: 1,
-                max: 7,
-                credits: 5000,
-                coins: 25
-            },
-            tst67: {
-                name: 'TST 6/7',
-                min: 1,
-                max: 7,
-                credits: 5000,
-                coins: 25
-            },
-            tstnb67: {
-                name: 'TST-NB 6/7',
-                min: 1,
-                max: 7,
-                credits: 5000,
-                coins: 25
-            },
-            ts89: {
-                name: 'TS 8/9',
-                min: 1,
-                max: 9,
-                credits: 5000,
-                coins: 25
-            },
-            tst89: {
-                name: 'TST 8/9',
-                min: 1,
-                max: 9,
-                credits: 5000,
-                coins: 25
-            },
-            tstnb89: {
-                name: 'TST-NB 8/9',
-                min: 1,
-                max: 9,
-                credits: 5000,
-                coins: 25
+            abh: {
+                name: 'ABH | Adembeschermingshaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
             },
             ab: {
-                name: 'AB',
+                name: 'AB | Adembeschermingsvoertuig',
                 min: 1,
                 max: 3,
                 credits: 11680,
@@ -2457,7 +2395,7 @@
                 special: 'Benodigd vanaf 5 brandweerposten.'
             },
             daags: {
-                name: 'DA-AGS',
+                name: 'DA-AGS | Adviseur Gevaarlijke Stoffen',
                 min: 1,
                 max: 2,
                 credits: 19200,
@@ -2466,15 +2404,23 @@
                 special: 'Benodigd vanaf 11 brandweerposten.'
             },
             al: {
-                name: 'AL',
+                name: 'AL | Autoladder ',
                 min: 1,
                 max: 3,
                 credits: 10000,
                 coins: 30,
                 special: 'Benodigd vanaf 3 brandweerposten.'
             },
+            coh: {
+                name: 'COH | Commandohaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
             co: {
-                name: 'CO',
+                name: 'CO | Commandovoertuig',
                 min: 1,
                 max: 3,
                 credits: 27500,
@@ -2483,14 +2429,37 @@
                 special: 'Benodigd vanaf 14 brandweerposten.'
             },
             da: {
-                name: 'DA',
+                name: 'DA | Dienstauto',
                 min: 1,
                 max: 4,
                 credits: 2000,
                 coins: 10
             },
+            dbk: {
+                name: 'DB-K | Dienstbus Klein',
+                min: 1,
+                max: 9,
+                credits: 2500,
+                coins: 12
+            },
+            dph: {
+                name: 'DPH | Dompelpomphaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
+            ha: {
+                name: 'HA | Haakarmvoertuig',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 12,
+                schooling: 'Brandweerchauffeur-zwaar',
+            },
             dahod: {
-                name: 'DA-HOD',
+                name: 'DA-HOD | Hoofd Officier van Dienst Brandweer',
                 min: 1,
                 max: 1,
                 credits: 25500,
@@ -2498,39 +2467,8 @@
                 schooling: 'Hoofd Officier van Dienst',
                 special: 'Benodigd vanaf 13 brandweerposten.'
             },
-            daovd: {
-                name: 'DA-OVD',
-                min: 1,
-                max: 1,
-                credits: 10000,
-                coins: 25,
-                special: 'Benodigd vanaf 6 brandweerposten.'
-            },
-            dbk: {
-                name: 'Dienstbus Klein',
-                min: 1,
-                max: 9,
-                credits: 2500,
-                coins: 12
-            },
-            ha: {
-                name: 'Haakarmvoertuig',
-                min: 1,
-                max: 3,
-                credits: 5000,
-                coins: 12,
-                schooling: 'Brandweerchauffeur-zwaar',
-            },
-            hv: {
-                name: 'Hulpverleningsvoertuig',
-                min: 1,
-                max: 3,
-                credits: 12180,
-                coins: 25,
-                special: 'Benodigd vanaf 4 brandweerposten.'
-            },
             hw: {
-                name: 'Hoogwerker',
+                name: 'HW | Hoogwerker',
                 min: 1,
                 max: 3,
                 credits: 10000,
@@ -2538,98 +2476,144 @@
                 special: 'Benodigd vanaf 3 brandweerposten.'
 
             },
+            hvh: {
+                name: 'HVH | Hulpverleningshaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },       
+            hv: {
+                name: 'HV | Hulpverleningsvoertuig',
+                min: 1,
+                max: 3,
+                credits: 12180,
+                coins: 25,
+                special: 'Benodigd vanaf 4 brandweerposten.'
+            },
+            daovd: {
+                name: 'DA-OVD | Officier van Dienst Brandweer',
+                min: 1,
+                max: 1,
+                credits: 10000,
+                coins: 25,
+                special: 'Benodigd vanaf 6 brandweerposten.'
+            },
             sl: {
-                name: 'Slangenwagen',
+                name: 'SL | Slangenwagen',
                 min: 1,
                 max: 9,
                 credits: 17300,
                 coins: 25,
                 special: 'Benodigd vanaf 7 brandweerposten.'
             },
-            wt: {
-                name: 'Watertankwagen',
+            si2: {
+                name: 'SI-2 | Snel Inzetbare Eenheid (2 pers.)',
                 min: 1,
-                max: 3,
-                credits: 17000,
-                coins: 25,
-                special: 'Benodigd vanaf 7 brandweerposten.'
+                max: 2,
+                credits: 5000,
+                coins: 25
+            },
+            ts45: {
+                name: 'TS 4/5 | Tankautospuit (4/5 pers.)',
+                min: 1,
+                max: 5,
+                credits: 5000,
+                coins: 25
+            },
+            tst45: {
+                name: 'TST 4/5 | Tankautospuit Terreinvaardig (4/5 pers.)',
+                min: 1,
+                max: 5,
+                credits: 5000,
+                coins: 25
+            },
+            tstnb45: {
+                name: 'TST-NB 4/5 | Tankautospuit Natuurbrandbestrijding (4/5 pers.)',
+                min: 1,
+                max: 5,
+                credits: 5000,
+                coins: 25
+            },
+            ts67: {
+                name: 'TS 6/7 | Tankautospuit (6/7 pers.)',
+                min: 1,
+                max: 7,
+                credits: 5000,
+                coins: 25
+            },
+            tst67: {
+                name: 'TST 6/7 | Tankautospuit Terreinvaardig (6/7 pers.)',
+                min: 1,
+                max: 7,
+                credits: 5000,
+                coins: 25
+            },
+            tstnb67: {
+                name: 'TST-NB 6/7 | Tankautospuit Natuurbrandbestrijding (6/7 pers.)',
+                min: 1,
+                max: 7,
+                credits: 5000,
+                coins: 25
+            },
+            ts89: {
+                name: 'TS 8/9 | Tankautospuit (8/9 pers.)',
+                min: 1,
+                max: 9,
+                credits: 5000,
+                coins: 25
+            },
+            tst89: {
+                name: 'TST 8/9 | Tankautospuit Terreinvaardig (8/9 pers.)',
+                min: 1,
+                max: 9,
+                credits: 5000,
+                coins: 25
+            },
+            tstnb89: {
+                name: 'TST-NB 8/9 | Tankautospuit Natuurbrandbestrijding (8/9 pers.)',
+                min: 1,
+                max: 9,
+                credits: 5000,
+                coins: 25
             },
             daveb: {
-                name: 'Verkenningseenheid Brandweer',
+                name: 'DA-VEB | Verkenningseenheid Brandweer',
                 min: 1,
                 max: 4,
                 credits: 18300,
                 coins: 25,
                 schooling: 'Verkenningseenheid Brandweer',
                 special: 'Benodigd vanaf 10 brandweerposten.'
-            },
-            abh: {
-                name: 'Adembeschermingshaakarmbak',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Haakarmvoertuig benodigd'
-            },
-            coh: {
-                name: 'Commandohaakarmbak',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Haakarmvoertuig benodigd'
-            },
-            wth: {
-                name: 'Watertankhaakarmbak',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Haakarmvoertuig benodigd'
-            },
-            dph: {
-                name: 'Dompelpomphaakarmbak',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Haakarmvoertuig benodigd'
-            },
-            hvh: {
-                name: 'HulpverleningsHaakarmbak',
-                min: 0,
-                max: 0,
-                credits: 6000,
-                coins: 12,
-                special: 'Haakarmvoertuig benodigd'
-            },            
+            },     
             davl: {
-                name: 'Dienstauto Voorlichter',
+                name: 'DA-VL | Dienstauto Voorlichter',
                 min: 1,
                 max: 1,
                 credits: 15000,
                 coins: 25,
                 schooling: 'Voorlichter',
                 special: 'Benodigd vanaf 14 brandweerposten.'
+            },
+            wth: {
+                name: 'WTH | Watertankhaakarmbak',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: 12,
+                special: 'Haakarmvoertuig benodigd'
+            },
+            wt: {
+                name: 'WT | Watertankwagen',
+                min: 1,
+                max: 3,
+                credits: 17000,
+                coins: 25,
+                special: 'Benodigd vanaf 7 brandweerposten.'
             }
         },
         waterongeval: {
-            wo: {
-                name: 'Waterongevallenvoertuig',
-                min: 4,
-                max: 6,
-                credits: 10000,
-                coins: 25,
-                schooling: 'Duiker / Duikploegleider'
-            },
-            woa: {
-                name: 'Waterongevallen aanhanger',
-                min: 0,
-                max: 0,
-                credits: 9000,
-                coins: 12,
-                special: 'TS, TST, TST-NB, SI-2, WO, HV, DA/DB benodigd'
-            },
             pmor: {
                 name: 'PM-OR | Materieelvoertuig - Oppervlakteredding',
                 min: 4,
@@ -2645,11 +2629,35 @@
                 credits: 10000,
                 coins: 25,
                 schooling: 'Oppervlakteredder'
+            },
+            wo: {
+                name: 'WO | Waterongevallenvoertuig',
+                min: 4,
+                max: 6,
+                credits: 10000,
+                coins: 25,
+                schooling: 'Duiker / Duikploegleider'
+            },
+            woa: {
+				name: 'WOA | Waterongevallen aanhanger',
+                min: 0,
+                max: 0,
+                credits: 9000,
+                coins: 12,
+                special: 'TS, TST, TST-NB, SI-2, WO, PM-OR, HV, DB benodigd'
             }
         },
         vbb: {
+            afo: {
+                name: 'AFO/OSC | Airport Fire Officer / On Scene Commander',
+                min: 1,
+                max: 2,
+                credits: 12000,
+                coins: 25,
+                schooling: 'Airport Fire Officer / On Scene Commander'
+            },
             ct4: {
-                name: 'Crashtender (4x4)',
+                name: 'CT (4x4) | Crashtender',
                 min: 2,
                 max: 3,
                 credits: 15000,
@@ -2657,7 +2665,7 @@
                 schooling: 'Vliegtuigbrandbestrijding'
             },
            ct6: {
-                name: 'Crashtender (6x6)',
+                name: 'CT (6x6) | Crashtender',
                 min: 2,
                 max: 3,
                 credits: 40000,
@@ -2665,20 +2673,12 @@
                 schooling: 'Vliegtuigbrandbestrijding'
             },
             ct8: {
-                name: 'Crashtender (8x8)',
+                name: 'CT (8x8) | Crashtender',
                 min: 2,
                 max: 3,
                 credits: 60000,
                 coins: 25,
                 schooling: 'Vliegtuigbrandbestrijding'
-            },
-            afo: {
-                name: 'Airport Fire Officer / On Scene Commander',
-                min: 1,
-                max: 2,
-                credits: 12000,
-                coins: 25,
-                schooling: 'Airport Fire Officer / On Scene Commander'
             }
         },
         ambulance: {
@@ -2698,15 +2698,8 @@
                 schooling: 'MMT-Bemanningslid',
                 special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één MMT-Auto gekocht worden'
             },
-            bambulance: {
-                name: 'Zorgambulance',
-                min: 1,
-                max: 2,
-                credits: 5000,
-                coins: 25
-            },
             ovdg: {
-                name: 'Officier van Dienst Geneeskunde',
+                name: 'OvD-G | Officier van Dienst Geneeskunde',
                 min: 1,
                 max: 1,
                 credits: 25000,
@@ -2715,7 +2708,7 @@
                 special: 'Benodigd vanaf de 8 gebouwen en/of uitbreiding'
             },
             ovdgrr: {
-                name: 'Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
+                name: 'DA OvD-G/RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder',
                 min: 1,
                 max: 1,
                 credits: 25000,
@@ -2724,11 +2717,18 @@
                 special: 'Per 10 Ambulanceposten (Standplaatsen, VWS-posten en uitbreidingen) kan één OVDG-RR gekocht worden'
             },
             rr: {
-                name: 'Rapid Responder',
+                name: 'RR | Rapid Responder',
                 min: 1,
                 max: 1,
                 credits: 2500,
                 coins: 18
+            },
+            bambulance: {
+                name: 'Zorgambulance',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 25
             }
         },
         pol: {
@@ -2756,7 +2756,7 @@
         },
         hoofd: {
             ovdp: {
-                name: 'Officier van Dienst - Politie',
+                name: 'OvD-P | Officier van Dienst - Politie',
                 min: 1,
                 max: 1,
                 credits: 10000,
@@ -2796,7 +2796,7 @@
                 schooling: 'Hondengeleider'
             },
             ATO: {
-                name: 'AT-Operator',
+                name: 'AT-O | AT-Operator',
                 min: 2,
                 max: 4,
                 credits: 10000,
@@ -2804,7 +2804,7 @@
                 schooling: 'Operator AT'
             },
             ATC: {
-                name: 'AT-Commandant',
+                name: 'AT-C | AT-Commandant',
                 min: 1,
                 max: 2,
                 credits: 10000,
@@ -2812,7 +2812,7 @@
                 schooling: 'Operator AT'
             },
             ATM: {
-                name: 'AT-Materiaalwagen',
+                name: 'AT-M | AT-Materiaalwagen',
                 min: 1,
                 max: 2,
                 credits: 15000,
