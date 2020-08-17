@@ -4277,5 +4277,29 @@
             "police_stations": 2,
             "fire_stations": 13
         }
+    },
+    "201": {
+        "id": 201,
+        "name": "Feu d'ERP - Restaurant",
+        "place": "Restauration rapide",
+        "average_credits": 2080,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 8
+        }
     }
 }

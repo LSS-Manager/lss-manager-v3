@@ -3866,5 +3866,29 @@
             "police_stations": 1,
             "fire_stations": 3
         }
+    },
+    "160": {
+        "id": 160,
+        "name": "Po\u017e\u00e1r skl\u00e1dky",
+        "place": "Skl\u00e1dka",
+        "average_credits": 2500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 5
+        }
     }
 }
