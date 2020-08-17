@@ -3943,5 +3943,30 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "182": {
+        "id": 182,
+        "name": "Brand i byggnad - Snabbmatsrestaurang",
+        "place": "Snabbmatsrestaurang",
+        "average_credits": 1850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

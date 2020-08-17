@@ -4367,5 +4367,83 @@
         "prerequisites": {
             "police_stations": 12
         }
+    },
+    "199": {
+        "id": 199,
+        "name": "Person matching the description of a suspect in a crime",
+        "place": null,
+        "average_credits": 240,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 200
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Person matching the description of a suspect in a violent crime",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 201
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Person matching the description of a suspect in a violent crime (Firearms Marker)",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 4,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
     }
 }

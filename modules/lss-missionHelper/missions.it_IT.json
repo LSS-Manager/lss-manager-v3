@@ -5839,5 +5839,77 @@
             "rescue_stations": 1,
             "police_stations": 1
         }
+    },
+    "214": {
+        "id": 214,
+        "name": "Trasporto secondario",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "nef": 0,
+            "patient_transport": 0
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
+        },
+        "prerequisites": {}
+    },
+    "215": {
+        "id": 215,
+        "name": "Crollo ponte",
+        "place": "Ponte",
+        "average_credits": 5100,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 5,
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 8
+        }
     }
 }

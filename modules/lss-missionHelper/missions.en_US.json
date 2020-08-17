@@ -10549,5 +10549,60 @@
             "rescue_stations": 1,
             "fire_stations": 3
         }
+    },
+    "428": {
+        "id": 428,
+        "name": "Security Check",
+        "place": null,
+        "average_credits": 650,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "429": {
+        "id": 429,
+        "name": "Car vs Powerline",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 20,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
     }
 }

@@ -16433,5 +16433,106 @@
         "prerequisites": {
             "rescue_stations": 10
         }
+    },
+    "640": {
+        "id": 640,
+        "name": "Brand in hangaar",
+        "place": "Vliegveld (klein): Hangaar",
+        "average_credits": 910,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "elw_airport": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 641
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 10
+        }
+    },
+    "641": {
+        "id": 641,
+        "name": "Brand in hangaar",
+        "place": "Vliegveld (klein): Hangaar",
+        "average_credits": 1930,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 1,
+            "elw_airport": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 642
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
+    "642": {
+        "id": 642,
+        "name": "Brand in hangaar",
+        "place": "Vliegveld (klein): Hangaar",
+        "average_credits": 10580,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "elw3": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 3,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "ovdp": 1,
+            "elw_airport": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 40,
+            "nef": 15,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 12,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 16
+        }
     }
 }

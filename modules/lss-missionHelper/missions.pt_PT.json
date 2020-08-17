@@ -3108,5 +3108,36 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "131": {
+        "id": 131,
+        "name": "Incidente num Elevador",
+        "place": null,
+        "average_credits": 3850,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
     }
 }

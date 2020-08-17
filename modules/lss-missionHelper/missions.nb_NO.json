@@ -4154,5 +4154,41 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "169": {
+        "id": 169,
+        "name": "Brann i kraftverk",
+        "place": "Kraftverk",
+        "average_credits": 14500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
     }
 }

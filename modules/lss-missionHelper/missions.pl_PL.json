@@ -4975,5 +4975,57 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "222": {
+        "id": 222,
+        "name": "Zatrucie pokarmowe",
+        "place": null,
+        "average_credits": 810,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "223": {
+        "id": 223,
+        "name": "Rodz\u0105ca Kobieta",
+        "place": null,
+        "average_credits": 810,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Urologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
