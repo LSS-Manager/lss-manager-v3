@@ -986,6 +986,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Internist general"
         },
         "prerequisites": {
@@ -1011,6 +1012,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -1071,6 +1073,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -1096,6 +1099,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -1784,6 +1788,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Chirurg general"
         },
         "prerequisites": {
@@ -2183,6 +2188,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Chirurg general"
         },
         "prerequisites": {

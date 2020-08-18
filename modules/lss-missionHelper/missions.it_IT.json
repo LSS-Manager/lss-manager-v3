@@ -1092,6 +1092,7 @@
                 "0": "Malattie infettive",
                 "1": "Malattie infettive"
             },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -2031,6 +2032,7 @@
                 "2": "Chirurgia generale",
                 "3": "Otorinolaringoiatria"
             },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Chirurgia generale"
         },
         "prerequisites": {
@@ -3096,6 +3098,7 @@
                 "0": "Medicina interna generale",
                 "1": "Medicina interna generale"
             },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Medicina interna generale"
         },
         "prerequisites": {
@@ -5859,7 +5862,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },

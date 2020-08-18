@@ -984,6 +984,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -1009,6 +1010,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -1069,6 +1071,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -1094,6 +1097,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -1754,6 +1758,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Kirurg"
         },
         "prerequisites": {
@@ -1923,7 +1928,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -2114,6 +2120,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -3665,6 +3672,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Kirurg"
         },
         "prerequisites": {

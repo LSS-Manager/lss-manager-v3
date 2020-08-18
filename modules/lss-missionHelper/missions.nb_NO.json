@@ -986,6 +986,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -1011,6 +1012,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1071,6 +1073,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1096,6 +1099,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traume"
         },
         "prerequisites": {
@@ -1756,6 +1760,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {
@@ -1925,7 +1930,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -2116,6 +2122,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Generell medisin"
         },
         "prerequisites": {
@@ -3350,6 +3357,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Generell kirurgi"
         },
         "prerequisites": {

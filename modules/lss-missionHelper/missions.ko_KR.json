@@ -986,6 +986,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
         },
         "prerequisites": {
@@ -1011,6 +1012,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
         },
         "prerequisites": {
@@ -1071,6 +1073,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
         },
         "prerequisites": {
@@ -1096,6 +1099,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
         },
         "prerequisites": {
@@ -1783,6 +1787,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
         },
         "prerequisites": {
@@ -1953,7 +1958,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -2490,6 +2496,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
         },
         "prerequisites": {
