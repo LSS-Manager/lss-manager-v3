@@ -986,6 +986,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -1011,6 +1012,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -1071,6 +1073,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -1096,6 +1099,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -1756,6 +1760,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -2184,6 +2189,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {

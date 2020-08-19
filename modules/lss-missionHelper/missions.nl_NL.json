@@ -1139,6 +1139,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
@@ -1162,6 +1163,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Algemene Heelkunde"
         },
         "prerequisites": {
@@ -3081,7 +3083,8 @@
         "additional": {
             "duration": "2 uur",
             "guard_mission": true,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -3476,7 +3479,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -5053,7 +5057,8 @@
         "additional": {
             "duration": "2 uur",
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -6207,7 +6212,8 @@
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 10
@@ -6232,7 +6238,8 @@
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 10
@@ -6257,7 +6264,8 @@
         "chances": {},
         "additional": {
             "allow_rw_instead_of_lf": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 10
@@ -11929,7 +11937,8 @@
             "elw_airport": 50
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 10
@@ -11952,7 +11961,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 10

@@ -1138,6 +1138,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -1161,6 +1163,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -1295,6 +1299,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1352,6 +1357,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 20,
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1377,6 +1383,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 20,
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -1985,11 +1992,15 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "k9": 5
+        },
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -3594,7 +3605,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -3618,8 +3630,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -3740,7 +3753,8 @@
         "chances": {},
         "additional": {
             "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -3768,6 +3782,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Allgemeine Innere"
         },
@@ -4025,6 +4040,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -5040,7 +5056,8 @@
             "lebefkw": 2,
             "gefkw": 1,
             "police_cars": 2,
-            "grukw": 6
+            "grukw": 6,
+            "k9": 1
         },
         "chances": {
             "police_cars": 100
@@ -5053,7 +5070,8 @@
                 "0": 486
             },
             "max_possible_prisoners": 5,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 1,
@@ -5076,9 +5094,12 @@
             "gefkw": 1,
             "police_cars": 2,
             "grukw": 9,
-            "fukw": 1
+            "fukw": 1,
+            "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "k9": 40
+        },
         "additional": {
             "expansion_missions_ids": {
                 "0": 540
@@ -5090,7 +5111,8 @@
                 "3": 107
             },
             "max_possible_prisoners": 5,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 1,
@@ -5662,7 +5684,8 @@
             "duration": "2 Stunden",
             "average_min_fire_personnel": 4,
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -5690,7 +5713,8 @@
             "duration": "8 Stunden",
             "average_min_fire_personnel": 18,
             "guard_mission": true,
-            "filter_id": "rapid_deployment_group_missions"
+            "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -5716,7 +5740,8 @@
         "additional": {
             "duration": "4 Stunden",
             "guard_mission": true,
-            "filter_id": "rapid_deployment_group_missions"
+            "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 3
@@ -5750,7 +5775,8 @@
             },
             "average_min_police_personnel": 50,
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -5801,7 +5827,8 @@
         "additional": {
             "duration": "2 Stunden",
             "guard_mission": true,
-            "filter_id": "rapid_deployment_group_missions"
+            "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -5845,12 +5872,16 @@
         },
         "requirements": {
             "police_helicopters": 1,
-            "police_cars": 10
+            "police_cars": 10,
+            "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "k9": 15
+        },
         "additional": {
             "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 7,
@@ -6849,7 +6880,8 @@
         "additional": {
             "duration": "2 Stunden",
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -7177,7 +7209,8 @@
             "gefkw": 2,
             "police_cars": 5,
             "grukw": 27,
-            "fukw": 3
+            "fukw": 3,
+            "k9": 2
         },
         "chances": {},
         "additional": {
@@ -7187,7 +7220,8 @@
             },
             "average_min_police_personnel": 150,
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7405,15 +7439,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -7514,6 +7549,7 @@
             "police_cars": 6,
             "grukw": 6,
             "fukw": 1,
+            "k9": 2,
             "wasserwerfer": 3
         },
         "chances": {},
@@ -7521,7 +7557,9 @@
             "duration": "2 Stunden",
             "average_min_police_personnel": 60,
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7549,6 +7587,7 @@
             "police_cars": 5,
             "grukw": 27,
             "fukw": 3,
+            "k9": 2,
             "wasserwerfer": 3
         },
         "chances": {},
@@ -7556,7 +7595,8 @@
             "duration": "3 Stunden",
             "average_min_police_personnel": 150,
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -7589,7 +7629,8 @@
         "additional": {
             "duration": "2 Stunden",
             "guard_mission": true,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -7615,12 +7656,16 @@
             "police_cars": 7,
             "grukw": 9,
             "fukw": 1,
+            "k9": 1,
             "wasserwerfer": 3
         },
-        "chances": {},
+        "chances": {
+            "k9": 40
+        },
         "additional": {
             "max_possible_prisoners": 10,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 5,
@@ -8321,7 +8366,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 1
@@ -8350,6 +8396,7 @@
         "additional": {
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Unfallchirurgie"
         },
@@ -8513,7 +8560,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 1
@@ -10055,6 +10103,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Allgemeine Chirurgie"
         },
         "prerequisites": {
@@ -10705,6 +10755,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "allow_ktw_instead_of_rtw": true,
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -10871,6 +10923,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Unfallchirurgie"
         },
         "prerequisites": {
@@ -13421,12 +13474,16 @@
         "requirements": {
             "lebefkw": 3,
             "grukw": 9,
-            "fukw": 1
+            "fukw": 1,
+            "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "k9": 30
+        },
         "additional": {
             "max_possible_prisoners": 2,
-            "filter_id": "riot_police_missions"
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 1,
@@ -13497,7 +13554,8 @@
         "additional": {
             "duration": "30 Minuten",
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 1
@@ -14668,6 +14726,7 @@
             "duration": "4 Stunden",
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true,
             "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
             "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
         },

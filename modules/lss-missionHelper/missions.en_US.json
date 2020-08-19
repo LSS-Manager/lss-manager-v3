@@ -146,6 +146,17 @@
                 "0": 88
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1F",
+                "1": "7-D-2F",
+                "2": "7-D-3F",
+                "3": "7-D-4F",
+                "4": "7-C-2F",
+                "5": "7-C-3F",
+                "6": "7-C-4F",
+                "7": "7-B-2F",
+                "8": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -506,6 +517,24 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1F",
+                "1": "7-D-2F",
+                "2": "7-D-3F",
+                "3": "7-D-4F",
+                "4": "7-C-2F",
+                "5": "7-C-3F",
+                "6": "7-C-4F",
+                "7": "7-B-2F",
+                "8": "7-A-1F",
+                "9": "8-D-1G",
+                "10": "8-D-2G",
+                "11": "8-D-3G",
+                "12": "8-D-4G",
+                "13": "8-D-5G",
+                "14": "8-C-1G",
+                "15": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -646,6 +675,18 @@
                 "3": 98
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2p",
+                "1": "29-D-2q",
+                "2": "29-D-2n",
+                "3": "29-D-4",
+                "4": "29-D-5",
+                "5": "29-B-1",
+                "6": "29-B-2",
+                "7": "29-B-3",
+                "8": "29-B-4",
+                "9": "29-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -857,6 +898,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "23-B-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -882,6 +926,11 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "21-A-1",
+                "1": "21-A-2"
+            },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -908,6 +957,17 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "10-D-1",
+                "1": "10-D-2",
+                "2": "10-D-3",
+                "3": "10-D-4",
+                "4": "10-C-1",
+                "5": "10-C-2 ",
+                "6": "10-C-3",
+                "7": "10-C-4",
+                "8": "10-A-1"
+            },
             "patient_specializations": "Cardiology"
         },
         "prerequisites": {
@@ -934,6 +994,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "6-E-1A",
+                "1": "6-D-1A",
+                "2": "6-D-2A",
+                "3": "6-D-3A",
+                "4": "6-D-4A",
+                "5": "6-C-1A"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -960,6 +1028,42 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "12-D-1",
+                "1": "12-D-2",
+                "2": "12-D-3",
+                "3": "12-D-4",
+                "4": "12-C-1",
+                "5": "12-C-2",
+                "6": "12-C-3",
+                "7": "12-C-4",
+                "8": "12-C-5",
+                "9": "12-C-6",
+                "10": "12-C-7 ",
+                "11": "12-B-1",
+                "12": "12-A-1",
+                "13": "12-A-2",
+                "14": "12-A-3",
+                "15": "12-A-4",
+                "16": "12-A-5",
+                "17": "12-D-1E",
+                "18": "12-D-2E",
+                "19": "12-D-3E",
+                "20": "12-D-4E",
+                "21": "12-C-1E",
+                "22": "12-C-2E",
+                "23": "12-C-3E",
+                "24": "12-C-4E",
+                "25": "12-C-5E",
+                "26": "12-C-6E",
+                "27": "12-C-7E",
+                "28": "12-B-1E",
+                "29": "12-A-1E",
+                "30": "12-A-2E",
+                "31": "12-A-3E",
+                "32": "12-A-4E",
+                "33": "12-A-5E"
+            },
             "patient_specializations": "Neurology"
         },
         "prerequisites": {
@@ -986,6 +1090,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-4"
+            },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1012,6 +1120,20 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "17-D-1G",
+                "1": "17-D-2G",
+                "2": "17-D-3G",
+                "3": "17-D-4G",
+                "4": "17-D-5G",
+                "5": "17-B-1G",
+                "6": "17-B-2G",
+                "7": "17-B-3G",
+                "8": "17-A-1G",
+                "9": "17-A-2G",
+                "10": "17-A-3G"
+            },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1088,6 +1210,13 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "13-D-1",
+                "1": "13-C-1",
+                "2": "13-C-2",
+                "3": "13-C-3",
+                "4": "13-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1149,6 +1278,10 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-3F",
+                "1": "7-A-1F"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1211,6 +1344,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1487,6 +1623,14 @@
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -1564,6 +1708,9 @@
             "possible_patient_min": 10,
             "only_alliance_mission": true,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1f"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {}
@@ -1732,6 +1879,9 @@
             "possible_patient_min": 1,
             "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-B-2"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -1765,6 +1915,9 @@
                 "0": 25
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2p"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -1795,6 +1948,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1823,6 +1979,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1852,6 +2011,9 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1879,6 +2041,37 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "4-D-1A",
+                "1": "4-D-2A",
+                "2": "4-D-3A",
+                "3": "4-B-1A",
+                "4": "4-B-2A",
+                "5": "4-B-3A",
+                "6": "4-A-1A",
+                "7": "27-D-1G",
+                "8": "27-D-2G",
+                "9": "27-D-3G",
+                "10": "27-D-4G",
+                "11": "27-D-5G",
+                "12": "27-B-1G",
+                "13": "27-B-2G",
+                "14": "27-B-3G",
+                "15": "27-B-4G",
+                "16": "27-B-5G",
+                "17": "27-A-1G",
+                "18": "27-D-1P",
+                "19": "27-D-2P",
+                "20": "27-D-3P",
+                "21": "27-D-4P",
+                "22": "27-D-5P",
+                "23": "27-B-1P",
+                "24": "27-B-2P",
+                "25": "27-B-3P",
+                "26": "27-B-4P",
+                "27": "27-B-5P",
+                "28": "27-A-1P"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -1905,7 +2098,10 @@
         "additional": {
             "duration": "3 hours",
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "23-C-4"
+            }
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -1933,7 +2129,10 @@
         "additional": {
             "duration": "2 hours",
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-3"
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -1961,7 +2160,10 @@
         "additional": {
             "duration": "3 hours",
             "guard_mission": true,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-3"
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -2041,6 +2243,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "25-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -2132,6 +2337,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2164,6 +2372,20 @@
                 "0": 90
             },
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "3-D-1",
+                "1": "3-D-2",
+                "2": "3-D-3",
+                "3": "3-D-4",
+                "4": "3-D-5",
+                "5": "3-D-6",
+                "6": "3-D-7",
+                "7": "3-B-1",
+                "8": "3-B-2",
+                "9": "3-B-3",
+                "10": "3-A-1",
+                "11": "3-A-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2227,6 +2449,9 @@
             "possible_patient": 7,
             "possible_patient_min": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2279,6 +2504,25 @@
             "possible_patient_min": 1,
             "swat_personnel": 12,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1S",
+                "1": "27-D-2S",
+                "2": "27-D-3S",
+                "3": "27-D-4S",
+                "4": "27-D-5S",
+                "5": "27-B-2S",
+                "6": "27-B-3S",
+                "7": "27-B-4S",
+                "8": "27-D-1G",
+                "9": "27-D-2G",
+                "10": "27-D-3G",
+                "11": "27-D-4G",
+                "12": "27-D-5G",
+                "13": "27-B-2G",
+                "14": "27-B-3G",
+                "15": "27-B-4G",
+                "16": "27-B-5G"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Surgeon"
         },
@@ -2308,6 +2552,17 @@
             "possible_patient_min": 1,
             "swat_personnel": 24,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-2G",
+                "6": "27-B-3G",
+                "7": "27-B-4G",
+                "8": "27-B-5G"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Surgeon"
         },
@@ -2383,6 +2638,38 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "2-E-1",
+                "1": "2-D-1",
+                "2": "2-D-2",
+                "3": "2-D-3",
+                "4": "2-D-4",
+                "5": "2-C-1",
+                "6": "2-C-2",
+                "7": "2-B-1",
+                "8": "2-A-1",
+                "9": "2-A-2",
+                "10": "2-E-1I",
+                "11": "2-D-1I",
+                "12": "2-D-2I",
+                "13": "2-D-3I",
+                "14": "2-D-4I",
+                "15": "2-C-1I",
+                "16": "2-C-2I",
+                "17": "2-B-1I",
+                "18": "2-A-1I",
+                "19": "2-A-2I",
+                "20": "2-E-1M",
+                "21": "2-D-1M",
+                "22": "2-D-2M",
+                "23": "2-D-3M",
+                "24": "2-D-4M",
+                "25": "2-C-1M",
+                "26": "2-C-2M",
+                "27": "2-B-1M",
+                "28": "2-A-1M",
+                "29": "2-A-2M"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2435,6 +2722,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2462,6 +2752,16 @@
             "possible_patient": 6,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1S",
+                "1": "27-D-2S",
+                "2": "27-D-3S",
+                "3": "27-D-4S",
+                "4": "27-D-5S",
+                "5": "27-B-2S",
+                "6": "27-B-3S",
+                "7": "27-B-4S"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2493,7 +2793,10 @@
         "additional": {
             "only_alliance_mission": true,
             "swat_personnel": 24,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-D-1E"
+            }
         },
         "prerequisites": {}
     },
@@ -2561,7 +2864,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2585,7 +2889,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2609,7 +2914,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2633,7 +2939,8 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 2
@@ -2656,6 +2963,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-11"
+            },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -2684,6 +2995,10 @@
             "possible_patient": 25,
             "possible_patient_min": 5,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
+            "allow_arff_instead_of_lf": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2713,6 +3028,9 @@
             "possible_patient_min": 1,
             "swat_personnel": 18,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Surgeon"
         },
@@ -2786,6 +3104,17 @@
             "possible_patient": 6,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-2G",
+                "6": "27-B-3G",
+                "7": "27-B-4G",
+                "8": "27-B-5G"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2816,6 +3145,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -2843,6 +3175,19 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "23-D-1",
+                "1": "23-D-2",
+                "2": "23-C-1",
+                "3": "23-C-2",
+                "4": "23-C-3",
+                "5": "23-C-4",
+                "6": "23-C-5",
+                "7": "23-C-6",
+                "8": "23-C-7",
+                "9": "23-C-8",
+                "10": "23-B-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -2878,6 +3223,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -2996,6 +3344,18 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "2-E-1",
+                "1": "2-D-1",
+                "2": "2-D-2",
+                "3": "2-D-3",
+                "4": "2-D-4",
+                "5": "2-C-1",
+                "6": "2-C-2",
+                "7": "2-B-1",
+                "8": "2-A-1",
+                "9": "2-A-2"
+            },
             "patient_specializations": "Cardiology"
         },
         "prerequisites": {
@@ -3071,6 +3431,10 @@
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-3",
+                "1": "30-B-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3099,6 +3463,10 @@
             "possible_patient": 5,
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-3",
+                "1": "30-B-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3182,6 +3550,9 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 5,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3264,6 +3635,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3316,6 +3690,9 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3362,6 +3739,21 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "24-D-1",
+                "1": "24-D-2",
+                "2": "24-D-3",
+                "3": "24-D-4",
+                "4": "24-D-5",
+                "5": "24-D-6",
+                "6": "24-D-7",
+                "7": "24-C-1",
+                "8": "24-C-2",
+                "9": "24-C-3",
+                "10": "24-B-1",
+                "11": "24-B-2",
+                "12": "24-A-1"
+            },
             "patient_specializations": "Gynecology"
         },
         "prerequisites": {
@@ -3413,6 +3805,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "20-A-1C"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -3470,6 +3865,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3503,6 +3901,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3536,6 +3937,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3592,6 +3996,15 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1C",
+                "1": "8-D-2C",
+                "2": "8-D-3C",
+                "3": "8-D-4C",
+                "4": "8-D-5C",
+                "5": "8-C-1C",
+                "6": "8-B-1C"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3625,6 +4038,9 @@
         "additional": {
             "possible_patient": 25,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3651,6 +4067,13 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3676,6 +4099,13 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3703,6 +4133,9 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1b"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3734,6 +4167,9 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1b"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -3762,6 +4198,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "25-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -3814,6 +4253,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3846,6 +4288,9 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -3901,6 +4346,16 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-D-3",
+                "3": "14-D-4",
+                "4": "14-C-1",
+                "5": "14-B-1",
+                "6": "14-B-2",
+                "7": "14-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -3934,6 +4389,16 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-D-3",
+                "3": "14-D-4",
+                "4": "14-C-1",
+                "5": "14-B-1",
+                "6": "14-B-2",
+                "7": "14-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -3967,6 +4432,9 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2S"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -4000,6 +4468,9 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2S"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -4032,6 +4503,14 @@
                 "0": 170
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-C-1",
+                "3": "14-B-1",
+                "4": "14-B-2",
+                "5": "14-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4064,6 +4543,14 @@
                 "0": 171
             },
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-C-1",
+                "3": "14-B-1",
+                "4": "14-B-2",
+                "5": "14-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4098,6 +4585,14 @@
                 "0": 172
             },
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-C-1",
+                "3": "14-B-1",
+                "4": "14-B-2",
+                "5": "14-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4131,6 +4626,14 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-C-1",
+                "3": "14-B-1",
+                "4": "14-B-2",
+                "5": "14-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4165,6 +4668,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -4199,6 +4705,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -4235,6 +4744,9 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3X"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -4264,6 +4776,21 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "28-C-1",
+                "1": "28-C-2",
+                "2": "28-C-3",
+                "3": "28-C-4",
+                "4": "28-C-5",
+                "5": "28-C-6",
+                "6": "28-C-7",
+                "7": "28-C-8",
+                "8": "28-C-9",
+                "9": "28-C-10",
+                "10": "28-C-11",
+                "11": "28-C-12",
+                "12": "28-A-1"
+            },
             "patient_specializations": "Neurology"
         },
         "prerequisites": {
@@ -4289,6 +4816,20 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "31-E-1",
+                "1": "31-D-1",
+                "2": "31-D-2",
+                "3": "31-D-3",
+                "4": "31-D-4 ",
+                "5": "31-C-1",
+                "6": "31-C-2",
+                "7": "31-C-3",
+                "8": "31-A-1",
+                "9": "31-A-2",
+                "10": "31-A-3"
+            },
+            "patient_allow_first_responder_chance": 100,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -4314,6 +4855,20 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "21-D-1 ",
+                "1": "21-D-2 ",
+                "2": "21-D-3 ",
+                "3": "21-D-4 ",
+                "4": "21-C-1 ",
+                "5": "21-C-2 ",
+                "6": "21-B-1",
+                "7": "21-B-2 ",
+                "8": "21-B-3 ",
+                "9": "21-B-4 ",
+                "10": "21-A-1",
+                "11": "21-A-2 "
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -4346,6 +4901,14 @@
                 "0": 170
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-C-1",
+                "3": "14-B-1",
+                "4": "14-B-2",
+                "5": "14-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4378,6 +4941,17 @@
             "possible_patient_min": 1,
             "swat_personnel": 6,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-2G",
+                "6": "27-B-3G",
+                "7": "27-B-4G",
+                "8": "27-B-5G"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -4416,6 +4990,9 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4444,6 +5021,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4504,6 +5084,9 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4536,6 +5119,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4571,6 +5157,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4604,6 +5193,25 @@
                 "0": 104
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1S",
+                "1": "27-D-2S",
+                "2": "27-D-3S",
+                "3": "27-D-4S",
+                "4": "27-D-5S",
+                "5": "27-B-2S",
+                "6": "27-B-3S",
+                "7": "27-B-4S",
+                "8": "27-D-1G",
+                "9": "27-D-2G",
+                "10": "27-D-3G",
+                "11": "27-D-4G",
+                "12": "27-D-5G",
+                "13": "27-B-2G",
+                "14": "27-B-3G",
+                "15": "27-B-4G",
+                "16": "27-B-5G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4638,6 +5246,9 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1e"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4670,6 +5281,9 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2o"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -4702,6 +5316,9 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2o"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -4734,6 +5351,9 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2o"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -4771,6 +5391,9 @@
                 "2": 152
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -4829,6 +5452,9 @@
         "additional": {
             "possible_patient": 14,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1f"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -4861,6 +5487,9 @@
                 "0": 205
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5091,6 +5720,15 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1G",
+                "1": "8-D-2G",
+                "2": "8-D-3G",
+                "3": "8-D-4G",
+                "4": "8-D-5G",
+                "5": "8-C-1G",
+                "6": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5126,6 +5764,9 @@
         "additional": {
             "possible_patient": 8,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5205,6 +5846,9 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5234,6 +5878,9 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5268,6 +5915,9 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5486,6 +6136,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5511,6 +6164,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-1",
+                "1": "9-D-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5536,6 +6193,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "6-E-1",
+                "1": "6-E-1A"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5561,6 +6222,16 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "6-D-1",
+                "1": "6-D-2",
+                "2": "6-D-3",
+                "3": "6-D-4",
+                "4": "6-D-1A",
+                "5": "6-D-2A",
+                "6": "6-D-3A",
+                "7": "6-D-4A"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5586,6 +6257,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "6-C-1",
+                "1": "6-C-1A"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5611,6 +6286,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "5-D-1",
+                "1": "5-C-1",
+                "2": "5-C-2",
+                "3": "5-C-3",
+                "4": "5-A-1",
+                "5": "5-A-2"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5665,7 +6348,8 @@
             "expansion_missions_ids": {
                 "0": 120
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 11
@@ -5691,7 +6375,8 @@
             "expansion_missions_ids": {
                 "0": 162
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "allow_arff_instead_of_lf": true
         },
         "prerequisites": {
             "fire_stations": 11
@@ -5720,6 +6405,11 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-1",
+                "2": "22-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5752,6 +6442,11 @@
         "additional": {
             "possible_patient": 20,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-1",
+                "2": "22-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5785,6 +6480,11 @@
         "additional": {
             "possible_patient": 40,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3",
+                "1": "22-B-1",
+                "2": "22-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5819,6 +6519,43 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1B",
+                "1": "8-D-2B",
+                "2": "8-D-3B",
+                "3": "8-D-4B",
+                "4": "8-D-5B",
+                "5": "8-C-1B",
+                "6": "8-B-1B",
+                "7": "8-D-1C",
+                "8": "8-D-2C",
+                "9": "8-D-3C",
+                "10": "8-D-4C",
+                "11": "8-D-5C",
+                "12": "8-C-1C",
+                "13": "8-B-1C",
+                "14": "8-D-1R",
+                "15": "8-D-2R",
+                "16": "8-D-3R",
+                "17": "8-D-4R",
+                "18": "8-D-5R",
+                "19": "8-C-1R",
+                "20": "8-B-1R",
+                "21": "8-D-1N",
+                "22": "8-D-2N",
+                "23": "8-D-3N",
+                "24": "8-D-4N",
+                "25": "8-D-5N",
+                "26": "8-C-1N",
+                "27": "8-B-1N",
+                "28": "8-D-1G",
+                "29": "8-D-2G",
+                "30": "8-D-3G",
+                "31": "8-D-4G",
+                "32": "8-D-5G",
+                "33": "8-C-1G",
+                "34": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5852,6 +6589,43 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1B",
+                "1": "8-D-2B",
+                "2": "8-D-3B",
+                "3": "8-D-4B",
+                "4": "8-D-5B",
+                "5": "8-C-1B",
+                "6": "8-B-1B",
+                "7": "8-D-1C",
+                "8": "8-D-2C",
+                "9": "8-D-3C",
+                "10": "8-D-4C",
+                "11": "8-D-5C",
+                "12": "8-C-1C",
+                "13": "8-B-1C",
+                "14": "8-D-1R",
+                "15": "8-D-2R",
+                "16": "8-D-3R",
+                "17": "8-D-4R",
+                "18": "8-D-5R",
+                "19": "8-C-1R",
+                "20": "8-B-1R",
+                "21": "8-D-1N",
+                "22": "8-D-2N",
+                "23": "8-D-3N",
+                "24": "8-D-4N",
+                "25": "8-D-5N",
+                "26": "8-C-1N",
+                "27": "8-B-1N",
+                "28": "8-D-1G",
+                "29": "8-D-2G",
+                "30": "8-D-3G",
+                "31": "8-D-4G",
+                "32": "8-D-5G",
+                "33": "8-C-1G",
+                "34": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -5883,6 +6657,9 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -5915,6 +6692,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -5948,6 +6728,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -5981,6 +6764,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -6061,6 +6847,22 @@
         "additional": {
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1C",
+                "1": "8-D-2C",
+                "2": "8-D-3C",
+                "3": "8-D-4C",
+                "4": "8-D-5C",
+                "5": "8-C-1C",
+                "6": "8-B-1C",
+                "7": "8-D-1G",
+                "8": "8-D-2G",
+                "9": "8-D-3G",
+                "10": "8-D-4G",
+                "11": "8-D-5G",
+                "12": "8-C-1G",
+                "13": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6094,6 +6896,22 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1C",
+                "1": "8-D-2C",
+                "2": "8-D-3C",
+                "3": "8-D-4C",
+                "4": "8-D-5C",
+                "5": "8-C-1C",
+                "6": "8-B-1C",
+                "7": "8-D-1G",
+                "8": "8-D-2G",
+                "9": "8-D-3G",
+                "10": "8-D-4G",
+                "11": "8-D-5G",
+                "12": "8-C-1G",
+                "13": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6129,6 +6947,22 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6164,6 +6998,22 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6194,6 +7044,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -6226,6 +7079,41 @@
             "max_possible_prisoners": 1,
             "swat_personnel": 6,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-1G",
+                "6": "27-B-2G",
+                "7": "27-B-3G",
+                "8": "27-B-4G",
+                "9": "27-B-5G",
+                "10": "27-A-1G",
+                "11": "27-D-1S",
+                "12": "27-D-2S",
+                "13": "27-D-3S",
+                "14": "27-D-4S",
+                "15": "27-D-5S",
+                "16": "27-B-1S",
+                "17": "27-B-2S",
+                "18": "27-B-3S",
+                "19": "27-B-4S",
+                "20": "27-B-5S",
+                "21": "27-A-1S",
+                "22": "27-D-1P",
+                "23": "27-D-2P",
+                "24": "27-D-3P",
+                "25": "27-D-4P",
+                "26": "27-D-5P",
+                "27": "27-B-1P",
+                "28": "27-B-2P",
+                "29": "27-B-3P",
+                "30": "27-B-4P",
+                "31": "27-B-5P",
+                "32": "27-A-1P"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -6279,6 +7167,52 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "1-D-1",
+                "1": "1-C-1",
+                "2": "1-C-2",
+                "3": "1-C-3",
+                "4": "1-C-4",
+                "5": "1-C-5",
+                "6": "1-C-6",
+                "7": "2-E-1I",
+                "8": "2-E-1M",
+                "9": "2-D-1I",
+                "10": "2-D-2I",
+                "11": "2-D-3I",
+                "12": "2-D-1M",
+                "13": "2-D-2M",
+                "14": "2-D-3M",
+                "15": "5-D-1",
+                "16": "5-C-1",
+                "17": "5-C-2",
+                "18": "5-C-3",
+                "19": "6-E-1",
+                "20": "6-D-1",
+                "21": "6-D-2",
+                "22": "6-D-3",
+                "23": "6-D-4",
+                "24": "6-C-1",
+                "25": "9-E-1",
+                "26": "9-E-2",
+                "27": "9-D-1",
+                "28": "10-D-1",
+                "29": "10-D-2",
+                "30": "10-D-3",
+                "31": "10-D-4",
+                "32": "10-C-1",
+                "33": "10-C-2",
+                "34": "11-E-1",
+                "35": "11-D-1",
+                "36": "11-D-2",
+                "37": "12-D-1",
+                "38": "12-D-2",
+                "39": "12-D-3",
+                "40": "12-D-4",
+                "41": "12-C-1",
+                "42": "12-C-2",
+                "43": "12-C-3"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -6306,7 +7240,24 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "33-D-1T",
+                "1": "33-D-2T",
+                "2": "33-C-1T",
+                "3": "33-C-2T",
+                "4": "33-C-3T",
+                "5": "33-C-4T",
+                "6": "33-C-5T",
+                "7": "33-C-6T",
+                "8": "33-A-1T",
+                "9": "33-A-2T",
+                "10": "33-A-3T",
+                "11": "33-A-1T",
+                "12": "33-A-2T",
+                "13": "33-A-3T"
+            },
+            "allow_ktw_instead_of_rtw": true
         },
         "prerequisites": {}
     },
@@ -6329,6 +7280,20 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "36-D-1",
+                "1": "36-D-2",
+                "2": "36-D-3",
+                "3": "36-D-4",
+                "4": "36-C-1",
+                "5": "36-C-2",
+                "6": "36-C-3",
+                "7": "36-C-4",
+                "8": "36-C-5",
+                "9": "36-A-1",
+                "10": "36-A-2",
+                "11": "36-A-3"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6356,6 +7321,48 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "25-D-1B",
+                "1": "25-D-1W",
+                "2": "25-D-1V",
+                "3": "25-D-1",
+                "4": "25-D-2B",
+                "5": "25-D-2V",
+                "6": "25-D-2W",
+                "7": "25-D-2",
+                "8": "25-B-1",
+                "9": "25-B-2",
+                "10": "25-B-3",
+                "11": "25-B-4",
+                "12": "25-B-5",
+                "13": "25-B-6",
+                "14": " 25-B-1B",
+                "15": "25-B-2B",
+                "16": "25-B-3B",
+                "17": "25-B-4B",
+                "18": "25-B-5B",
+                "19": "25-B-6B",
+                "20": "25-B-1V",
+                "21": "25-B-2V",
+                "22": "25-B-3V",
+                "23": "25-B-4V",
+                "24": "25-B-5V",
+                "25": "25-B-6V",
+                "26": "25-B-1W",
+                "27": "25-B-2W",
+                "28": "25-B-3W",
+                "29": "25-B-4W",
+                "30": "25-B-5W",
+                "31": "25-B-6W",
+                "32": "25-A-1",
+                "33": "25-A-2",
+                "34": "25-A-1B",
+                "35": "25-A-2B",
+                "36": "25-A-1V",
+                "37": "25-A-2V",
+                "38": "25-A-1W",
+                "39": "25-A-2W"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -6394,6 +7401,17 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1F",
+                "1": "7-D-2F,7-D-3F",
+                "2": "7-D-4F",
+                "3": "7-C-2F",
+                "4": "7-C-3F",
+                "5": "7-C-4F",
+                "6": "7-B-1F",
+                "7": "7-B-2F",
+                "8": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6430,6 +7448,23 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1E",
+                "1": "7-D-2E,7-D-3E",
+                "2": "7-D-4E",
+                "3": "7-C-2E",
+                "4": "7-C-3E",
+                "5": "7-C-4E",
+                "6": "7-B-1E",
+                "7": "7-B-2E",
+                "8": "7-A-1E",
+                "9": "30-D-1",
+                "10": "30-D-2",
+                "11": "30-D-3",
+                "12": "30-B-1",
+                "13": "30-B-2",
+                "14": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -6457,6 +7492,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "33-C-6T"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6482,6 +7520,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "33-C-6T"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6511,6 +7552,22 @@
                 "0": 254
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6543,6 +7600,22 @@
                 "0": 255
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6581,6 +7654,22 @@
                 "0": 256
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6616,6 +7705,22 @@
         "additional": {
             "possible_patient": 50,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6647,6 +7752,41 @@
             "max_possible_prisoners": 1,
             "swat_personnel": 6,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-1G",
+                "6": "27-B-2G",
+                "7": "27-B-3G",
+                "8": "27-B-4G",
+                "9": "27-B-5G",
+                "10": "27-A-1G",
+                "11": "27-D-1S",
+                "12": "27-D-2S",
+                "13": "27-D-3S",
+                "14": "27-D-4S",
+                "15": "27-D-5S",
+                "16": "27-B-1S",
+                "17": "27-B-2S",
+                "18": "27-B-3S",
+                "19": "27-B-4S",
+                "20": "27-B-5S",
+                "21": "27-A-1S",
+                "22": "27-D-1P",
+                "23": "27-D-2P",
+                "24": "27-D-3P",
+                "25": "27-D-4P",
+                "26": "27-D-5P",
+                "27": "27-B-1P",
+                "28": "27-B-2P",
+                "29": "27-B-3P",
+                "30": "27-B-4P",
+                "31": "27-B-5P",
+                "32": "27-A-1P"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -6676,6 +7816,41 @@
             "possible_patient": 1,
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1G",
+                "1": "27-D-2G",
+                "2": "27-D-3G",
+                "3": "27-D-4G",
+                "4": "27-D-5G",
+                "5": "27-B-1G",
+                "6": "27-B-2G",
+                "7": "27-B-3G",
+                "8": "27-B-4G",
+                "9": "27-B-5G",
+                "10": "27-A-1G",
+                "11": "27-D-1S",
+                "12": "27-D-2S",
+                "13": "27-D-3S",
+                "14": "27-D-4S",
+                "15": "27-D-5S",
+                "16": "27-B-1S",
+                "17": "27-B-2S",
+                "18": "27-B-3S",
+                "19": "27-B-4S",
+                "20": "27-B-5S",
+                "21": "27-A-1S",
+                "22": "27-D-1P",
+                "23": "27-D-2P",
+                "24": "27-D-3P",
+                "25": "27-D-4P",
+                "26": "27-D-5P",
+                "27": "27-B-1P",
+                "28": "27-B-2P",
+                "29": "27-B-3P",
+                "30": "27-B-4P",
+                "31": "27-B-5P",
+                "32": "27-A-1P"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -6704,6 +7879,22 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6739,6 +7930,22 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6766,6 +7973,14 @@
             "possible_patient": 2,
             "max_possible_prisoners": 3,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -6872,6 +8087,22 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -6928,6 +8159,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -6958,6 +8197,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -6985,6 +8232,21 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "28-C-1",
+                "1": "28-C-2",
+                "2": "28-C-3",
+                "3": "28-C-4",
+                "4": "28-C-5",
+                "5": "28-C-6",
+                "6": "28-C-7",
+                "7": "28-C-8",
+                "8": "28-C-9",
+                "9": "28-C-10",
+                "10": "28-C-11",
+                "11": "28-C-12",
+                "12": "28-A-1"
+            },
             "patient_specializations": "Neurosurgery"
         },
         "prerequisites": {
@@ -7044,6 +8306,22 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7103,6 +8381,34 @@
                 "1": 88
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F",
+                "14": "8-D-1G",
+                "15": "8-D-2G",
+                "16": "8-D-3G",
+                "17": "8-D-5G",
+                "18": "8-C-1G",
+                "19": "8-B-1G",
+                "20": "30-D-1",
+                "21": "30-D-2",
+                "22": "30-D-3",
+                "23": "30-B-1",
+                "24": "30-B-2",
+                "25": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7140,6 +8446,34 @@
                 "1": 88
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F",
+                "14": "8-D-1G",
+                "15": "8-D-2G",
+                "16": "8-D-3G",
+                "17": "8-D-5G",
+                "18": "8-C-1G",
+                "19": "8-B-1G",
+                "20": "30-D-1",
+                "21": "30-D-2",
+                "22": "30-D-3",
+                "23": "30-B-1",
+                "24": "30-B-2",
+                "25": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7170,6 +8504,16 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-D-3",
+                "3": "14-D-4",
+                "4": "14-C-1",
+                "5": "14-B-1",
+                "6": "14-B-2",
+                "7": "14-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -7201,6 +8545,16 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-1",
+                "1": "14-D-2",
+                "2": "14-D-3",
+                "3": "14-D-4",
+                "4": "14-C-1",
+                "5": "14-B-1",
+                "6": "14-B-2",
+                "7": "14-A-1"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -7451,6 +8805,9 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-4M"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7483,6 +8840,9 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-4M"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7515,6 +8875,9 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 4,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-4M"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7617,6 +8980,12 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "7-A-3",
+                "1": "18-C-7",
+                "2": "18-B-1",
+                "3": "18-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7642,6 +9011,15 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "7-D-2",
+                "1": "7-D-3",
+                "2": "7-D-4",
+                "3": "7-C-2",
+                "4": "7-C-3",
+                "5": "7-C-4",
+                "6": "7-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7670,6 +9048,15 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-D-2",
+                "1": "7-D-3",
+                "2": "7-D-4",
+                "3": "7-C-2",
+                "4": "7-C-3",
+                "5": "7-C-4",
+                "6": "7-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7698,6 +9085,9 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2M"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7730,6 +9120,9 @@
                 "0": 88
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7756,6 +9149,17 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "15-E-1E",
+                "1": "15-D-1E",
+                "2": "15-D-2E",
+                "3": "15-D-3E",
+                "4": "15-D-5E",
+                "5": "15-D-6E",
+                "6": "15-D-7E",
+                "7": "15-D-8E",
+                "8": "15-C-1E"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7784,6 +9188,22 @@
             "possible_patient": 10,
             "max_possible_prisoners": 6,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-1S",
+                "1": "27-D-2S",
+                "2": "27-D-3S",
+                "3": "27-D-4S",
+                "4": "27-B-2S",
+                "5": "27-B-3S",
+                "6": "27-B-4S",
+                "7": "27-D-1P",
+                "8": "27-D-2P",
+                "9": "27-D-3P",
+                "10": "27-D-4P",
+                "11": "27-B-2P",
+                "12": "27-B-3P",
+                "13": "27-B-4P"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7815,6 +9235,15 @@
             "possible_patient": 6,
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1G",
+                "1": "8-D-2G",
+                "2": "8-D-3G",
+                "3": "8-D-4G",
+                "4": "8-D-5G",
+                "5": "8-C-1G",
+                "6": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7847,6 +9276,15 @@
             "possible_patient": 6,
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1G",
+                "1": "8-D-2G",
+                "2": "8-D-3G",
+                "3": "8-D-4G",
+                "4": "8-D-5G",
+                "5": "8-C-1G",
+                "6": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7879,6 +9317,15 @@
             "possible_patient": 6,
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1G",
+                "1": "8-D-2G",
+                "2": "8-D-3G",
+                "3": "8-D-4G",
+                "4": "8-D-5G",
+                "5": "8-C-1G",
+                "6": "8-B-1G"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -7913,6 +9360,9 @@
                 "0": 307
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7947,6 +9397,9 @@
                 "0": 306
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -7981,6 +9434,9 @@
                 "0": 308
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8015,6 +9471,9 @@
                 "0": 309
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8050,6 +9509,9 @@
                 "0": 310
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8085,6 +9547,9 @@
                 "0": 311
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8120,6 +9585,9 @@
                 "0": 312
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8155,6 +9623,9 @@
                 "0": 313
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8189,6 +9660,9 @@
         "additional": {
             "possible_patient": 60,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8223,6 +9697,9 @@
         "additional": {
             "possible_patient": 60,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8257,6 +9734,9 @@
         "additional": {
             "possible_patient": 60,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8291,6 +9771,9 @@
         "additional": {
             "possible_patient": 60,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1d"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8324,6 +9807,9 @@
             "possible_patient": 20,
             "possible_patient_min": 1,
             "filter_id": "water_watch_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1b"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -8359,6 +9845,15 @@
                 "0": 181
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1C",
+                "1": "8-D-2C",
+                "2": "8-D-3C",
+                "3": "8-D-4C",
+                "4": "8-D-5C",
+                "5": "8-C-1C",
+                "6": "8-B-1C"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8387,6 +9882,22 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -8419,6 +9930,9 @@
         "additional": {
             "possible_patient": 30,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8453,6 +9967,22 @@
         "additional": {
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8515,6 +10045,22 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8549,6 +10095,14 @@
                 "0": 322
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-A-1",
+                "1": "29-B-1",
+                "2": "29-B-2",
+                "3": "29-B-3",
+                "4": "29-B-4",
+                "5": "29-D-5"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8580,6 +10134,9 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
@@ -8609,6 +10166,12 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-0",
+                "1": "27-B-0",
+                "2": "4-D-0",
+                "3": "4-B-0"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8637,6 +10200,12 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-0",
+                "1": "27-B-0",
+                "2": "4-D-0",
+                "3": "4-B-0"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8661,7 +10230,25 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-D-1",
+                "1": "26-C-1",
+                "2": "26-C-2",
+                "3": "26-C-3",
+                "4": "26-B-1",
+                "5": "26-A-1",
+                "6": "26-A-2",
+                "7": "26-A-3",
+                "8": "26-A-4",
+                "9": "26-A-5",
+                "10": "26-A-6",
+                "11": "26-A-7",
+                "12": "26-A-8",
+                "13": "26-A-9",
+                "14": "26-A-10",
+                "15": "26-A-11"
+            }
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -8691,6 +10278,14 @@
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-1",
+                "1": "30-D-2",
+                "2": "30-D-3",
+                "3": "30-B-1",
+                "4": "30-B-2",
+                "5": "30-A-1"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -8774,6 +10369,17 @@
             "possible_patient_min": 1,
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "6-C-1",
+                "1": "6-D-1",
+                "2": "6-D-2",
+                "3": "20-D-1",
+                "4": "20-D-0",
+                "5": "20-B-1",
+                "6": "22-B-1",
+                "7": "22-B-2"
+            },
+            "patient_allow_first_responder_chance": 25,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -8947,6 +10553,17 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "6-C-1",
+                "1": "6-D-1",
+                "2": "6-D-2",
+                "3": "20-D-1",
+                "4": "20-D-0",
+                "5": "20-B-1",
+                "6": "22-B-1",
+                "7": "22-B-2"
+            },
+            "patient_allow_first_responder_chance": 25,
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -8974,6 +10591,13 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "11-E-1",
+                "1": "11-D-1",
+                "2": "11-D-2",
+                "3": "11-A-1"
+            },
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9003,6 +10627,19 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "15-E-1",
+                "1": "15-D-2",
+                "2": "15-D-3",
+                "3": "15-D-4",
+                "4": "15-D-5",
+                "5": "15-D-6",
+                "6": "15-D-7",
+                "7": "15-D-8",
+                "8": "15-D-9",
+                "9": "15-C-1",
+                "10": "17-D-1"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -9037,6 +10674,17 @@
             "possible_patient": 12,
             "possible_patient_min": 5,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "6-C-1",
+                "1": "6-D-1",
+                "2": "6-D-2",
+                "3": "20-D-1",
+                "4": "20-D-0",
+                "5": "20-B-1",
+                "6": "22-B-1",
+                "7": "22-B-2"
+            },
+            "patient_allow_first_responder_chance": 25,
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -9147,6 +10795,14 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-2",
+                "1": "7-C-3",
+                "2": "7-D-1",
+                "3": "7-D-2",
+                "4": "7-D-3",
+                "5": "7-D-4"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9380,6 +11036,9 @@
                 "0": 120
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1a"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9409,6 +11068,9 @@
             "possible_patient": 2,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-5a"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -9434,6 +11096,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-4"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9459,6 +11124,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "14-D-4"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9545,6 +11213,16 @@
                 "0": 384
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-2",
+                "1": "22-D-3",
+                "2": "22-D-5",
+                "3": "22-D-6",
+                "4": "30-D-1",
+                "5": "30-D-2",
+                "6": "30-B-1",
+                "7": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9580,6 +11258,16 @@
                 "1": 384
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-2",
+                "1": "22-D-3",
+                "2": "22-D-5",
+                "3": "22-D-6",
+                "4": "30-D-1",
+                "5": "30-D-2",
+                "6": "30-B-1",
+                "7": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9613,6 +11301,16 @@
             "possible_patient": 30,
             "possible_patient_min": 10,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-2",
+                "1": "22-D-3",
+                "2": "22-D-5",
+                "3": "22-D-6",
+                "4": "30-D-1",
+                "5": "30-D-2",
+                "6": "30-B-1",
+                "7": "30-A-1"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -9815,6 +11513,18 @@
                 "1": 369
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1F",
+                "1": "7-D-2F",
+                "2": "7-D-3F",
+                "3": "7-D-4F",
+                "4": "7-C-2F",
+                "5": "7-C-3F",
+                "6": "7-C-4F",
+                "7": "7-B-1F",
+                "8": "7-B-2F",
+                "9": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9855,6 +11565,18 @@
                 "0": 389
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-E-1F",
+                "1": "7-D-2F",
+                "2": "7-D-3F",
+                "3": "7-D-4F",
+                "4": "7-C-2F",
+                "5": "7-C-3F",
+                "6": "7-C-4F",
+                "7": "7-B-1F",
+                "8": "7-B-2F",
+                "9": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -9999,6 +11721,22 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -10056,6 +11794,22 @@
                 "0": 400
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -10092,6 +11846,22 @@
                 "0": 423
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -10126,6 +11896,22 @@
                 "0": 402
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -10162,6 +11948,22 @@
                 "0": 424
             },
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -10189,6 +11991,37 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "26-A-6",
+                "2": "26-A-11",
+                "3": "26-A-18",
+                "4": "26-C-2",
+                "5": "19-C-2",
+                "6": "28-C-8C",
+                "7": "28-C-8E",
+                "8": "28-C-8F",
+                "9": "28-C-8H",
+                "10": "28-C-8I",
+                "11": "28-C-8J",
+                "12": "28-C-8L",
+                "13": "28-C-8M",
+                "14": "28-C-8U",
+                "15": "28-C-8X",
+                "16": "28-C-8Z",
+                "17": "20-A-1H",
+                "18": "20-B-0H",
+                "19": "20-B-1H",
+                "20": "20-C-0H",
+                "21": "20-C-1H",
+                "22": "20-D-0H",
+                "23": "20-D-1H",
+                "24": "20-D-2H",
+                "25": "12-A-3",
+                "26": "12-A-5",
+                "27": "31-D-1",
+                "28": "31-D-2"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
             "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
             "patient_specializations": "General Internal"
@@ -10216,6 +12049,37 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "26-A-6",
+                "2": "26-A-11",
+                "3": "26-A-18",
+                "4": "26-C-2",
+                "5": "19-C-2",
+                "6": "28-C-8C",
+                "7": "28-C-8E",
+                "8": "28-C-8F",
+                "9": "28-C-8H",
+                "10": "28-C-8I",
+                "11": "28-C-8J",
+                "12": "28-C-8L",
+                "13": "28-C-8M",
+                "14": "28-C-8U",
+                "15": "28-C-8X",
+                "16": "28-C-8Z",
+                "17": "20-A-1H",
+                "18": "20-B-0H",
+                "19": "20-B-1H",
+                "20": "20-C-0H",
+                "21": "20-C-1H",
+                "22": "20-D-0H",
+                "23": "20-D-1H",
+                "24": "20-D-2H",
+                "25": "12-A-3",
+                "26": "12-A-5",
+                "27": "31-D-1",
+                "28": "31-D-2"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
             "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
             "patient_specializations": "General Internal"
@@ -10243,6 +12107,19 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "20-A-1H",
+                "1": "26-A-6",
+                "2": "26-A-6",
+                "3": "20-B-0H",
+                "4": "20-B-1H",
+                "5": "20-C-0H",
+                "6": "20-C-1H",
+                "7": "20-D-0H",
+                "8": "20-D-1H",
+                "9": "20-D-2H",
+                "10": "26-A-18"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
             "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
             "patient_specializations": "General Internal"
@@ -10270,6 +12147,17 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-3",
+                "1": "20-A-1H",
+                "2": "20-B-0H",
+                "3": "20-B-1H",
+                "4": "20-C-0H",
+                "5": "20-C-1H",
+                "6": "20-D-0H",
+                "7": "20-D-1H",
+                "8": "20-D-2H"
+            },
             "date_start": "Fri, 26 Jun 2020 10:00:00 -0400",
             "date_end": "Thu, 01 Oct 2020 00:00:00 -0400",
             "patient_specializations": "General Internal"
@@ -10411,6 +12299,22 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -10448,6 +12352,22 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-1",
+                "1": "8-D-2",
+                "2": "8-D-3",
+                "3": "8-D-5",
+                "4": "8-C-1",
+                "5": "8-B-1",
+                "6": "7-E-1F",
+                "7": "7-D-2F",
+                "8": "7-D-3F",
+                "9": "7-D-4F",
+                "10": "7-C-2F",
+                "11": "7-C-3F",
+                "12": "7-C-4F",
+                "13": "7-A-1F"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -10597,6 +12517,9 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-4"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {

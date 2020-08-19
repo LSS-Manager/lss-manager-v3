@@ -997,6 +997,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -1022,6 +1023,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -1082,6 +1084,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
@@ -1747,6 +1750,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -2351,6 +2355,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -2459,6 +2464,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -3142,6 +3148,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -3167,6 +3174,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Interne g\u00e9n\u00e9ral"
         },
         "prerequisites": {
@@ -3192,6 +3200,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 50,
             "patient_specializations": "Cardiologie"
         },
         "prerequisites": {
@@ -3370,6 +3379,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_allow_first_responder_chance": 80,
             "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
