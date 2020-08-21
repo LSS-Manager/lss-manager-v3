@@ -2942,6 +2942,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 557
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
@@ -3005,6 +3008,9 @@
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 2,
+            "expansion_missions_ids": {
+                "0": 557
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
@@ -3066,6 +3072,9 @@
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
+            "expansion_missions_ids": {
+                "0": 557
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
@@ -14945,12 +14954,16 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
-            "police_cars": 2
+            "police_cars": 2,
+            "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "k9": 10
+        },
         "additional": {
             "max_possible_prisoners": 2,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_k9_only_if_guard_dogs_present": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -15036,6 +15049,42 @@
             "rescue_stations": 4,
             "police_stations": 3,
             "fire_stations": 13
+        }
+    },
+    "557": {
+        "id": 557,
+        "name": "Schwerer Verkehrsunfall",
+        "place": null,
+        "average_credits": 4800,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "gwoil": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "gwoil": 40,
+            "nef": 70,
+            "patient_transport": 90,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_stations": 9
         }
     }
 }

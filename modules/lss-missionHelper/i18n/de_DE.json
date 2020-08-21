@@ -11,7 +11,9 @@
         "averageMinimumEmployeesFire": "Durchschnittliche min. Personalanzahl (Feuerwehr)",
         "averageMinimumEmployeesPolice": "Durchschnittliche min. Personalanzahl (Polizei)",
         "ambulance_only": "Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!",
+        "frchance": "First Responder Wahrscheinlichkeit",
         "allow_rw_instead_of_lf": "Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.",
+        "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
         "title": "Einsatzhelfer",
         "settings": {
             "name": {
@@ -100,6 +102,14 @@
             "show_k9": {
                 "label": "Hundeicon hinter Einsatzname (Polizei)",
                 "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser den SchutzHund braucht."
+            },
+            "show_ktwrtw": {
+                "label": "KTW statt RTW",
+                "description": "Zeigt ob ein KTW anstatt eines RTWs genutzt werden kann."
+            },
+            "show_frchance": {
+                "label": "FirstResponder Chance",
+                "description": "Zeigt mit wieviel % ein beliebiges Fahrzeug zum behandeln ausreicht."
             }
         },
         "transport": "Transport",
@@ -152,6 +162,8 @@
             "water_rescue": "GW-Wasserrettung",
             "rescue_dog_units": "Rettungshundestaffel",
             "k9": "DHuFüKw",
-            "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW"
+            "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW",
+            "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
+            "ktw_or_rtw": "RTW oder KTW oder KTW Typ B"
         }
     }
