@@ -268,6 +268,30 @@ const lssm_missionhelper_adjustPosition = () => {
                     parent: SETTINGS_STORAGE + '_show_rdu_toggle',
                 },
             };
+            managed_settings.settings.show_frchance = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.show_frchance.label'
+                    ),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_frchance.description'
+                    ),
+                },
+            };
+            managed_settings.settings.show_ktwrtw = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.show_ktwrtw.label'
+                    ),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_ktwrtw.description'
+                    ),
+                },
+            };
             break;
         case 'fr_FR':
             managed_settings.settings.education = {
@@ -418,6 +442,10 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.chances.patient_transport ||
                     MISSION.additional.patient_specializations
                 ) {
+                    SETTINGS.show_ktwrtw &&
+                        MISSION.additional &&
+                        MISSION.additional.allow_ktw_instead_of_rtw &&
+                        (html += `<br>${I18n.t('lssm.missionhelper.allow_ktw_instead_of_rtw')}<br>`);
                     html += `${I18n.t(
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
@@ -458,6 +486,12 @@ const lssm_missionhelper_adjustPosition = () => {
                     (html += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${
                         MISSION.chances.patient_other_treatment
                     }%`);
+                SETTINGS.show_frchance &&
+                    MISSION.additional &&
+                    MISSION.additional.patient_allow_first_responder_chance &&
+                    (html += `<br>${I18n.t('lssm.missionhelper.frchance')}: ${
+                    MISSION.additional.patient_allow_first_responder_chance
+                        }%`);
                 return html;
             };
 
@@ -517,17 +551,19 @@ const lssm_missionhelper_adjustPosition = () => {
                         vehicle === 'personnel_educations'
                     )
                         continue;
+                    let vehicleName = vehicle;
+                    if (SETTINGS.lfrw &&
+                            MISSION.additional &&
+                            MISSION.additional.allow_rw_instead_of_lf &&
+                            vehicle === 'firetrucks') vehicleName = 'allow_rw_instead_of_lf';
+                    else if (SETTINGS.show_ktwrtw &&
+                            MISSION.additional &&
+                            MISSION.additional.allow_ktw_instead_of_rtw &&
+                            vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
                     }x ${I18n.t(
-                        `lssm.missionhelper.requirements.${
-                            SETTINGS.lfrw &&
-                            MISSION.additional &&
-                            MISSION.additional.allow_rw_instead_of_lf &&
-                            vehicle === 'firetrucks'
-                                ? 'allow_rw_instead_of_lf'
-                                : vehicle
-                        }`
+                        `lssm.missionhelper.requirements.${vehicleName}`
                     )} ${(MISSION.chances &&
                         MISSION.chances[vehicle] &&
                         `(${MISSION.chances[vehicle]}%)`) ||
