@@ -582,7 +582,7 @@
                     .match(/\d*$/)[0];
                 const langCode = I18n.currentLocale();
                 fetch(
-                    `https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`,
+                    `https://lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`,
                     { cache: 'no-cache' }
                 )
                     .then(res => res.json())
