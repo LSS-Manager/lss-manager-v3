@@ -668,6 +668,7 @@ lssm.Module = {
         source: '/modules/lss-geoborders/GeoBorders.js',
         develop: false,
         supportedLocales: ['de_DE'],
+        nomapkit: true,
     },
     vonginator: {
         name: {
