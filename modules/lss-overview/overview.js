@@ -112,7 +112,7 @@
             startPersonell: 10,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 20.000 mehr).',
             extensions: 'Rettungsdienst (7 Tage, 100.000 Credits/20 Coins)<br>Wasserrettung (7 Tage, 400.000 Credits/25 Coins)<br>Flughafen (7 Tage, 300.000 Credits/25 Coins)<br>Großwache (7 Tage, 1.000.000 Credits/50 Coins)<br>Werkfeuerwehr (7 Tage, 100.000 Credits/20 Coins)<br>9*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.400',
+            maxBuildings: '4.000',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         fwklein: {
@@ -124,7 +124,7 @@
             startPersonell: 9,
             startVehicle: 'LF 20 oder LF 10 oder LF 8/6 oder LF 20/16 oder LF 10/6 oder LF 16-TS oder KLF oder MLF oder TSF-W. Ab Dienstgrad Gruppenführer(in) auch HLF 20/HLF 10 (dann Baukosten 15.000 mehr).',
             extensions: '2*Abrollbehälter-Stellplatz (jeweils 7 Tage, 100.000 Credits/20 Coins)',
-            maxBuildings: '2.400',
+            maxBuildings: '4.000',
             special: 'Ab der 24. Feuerwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>50.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Feuerwachen − 22)</code>. Max. 1 Million Credits. Der Coins-Preis bleibt konstant!'
         },
         fwschule: {
@@ -205,7 +205,7 @@
             levelcost: 'Keine Ausbaustufen möglich',
             startPersonell: 10,
             startVehicle: 'KTW Typ B',
-            extensions: 'Führung (3 Tage, 25.000 Credits/5 Coins)<br>Sanitätsdienst (3 Tage, 25.000 Credits/5 Coins)<br>Wasserrettung (7 Tage, 500.000 Credits/25 Coins)',
+            extensions: 'Führung (3 Tage, 25.000 Credits/5 Coins)<br>Sanitätsdienst (3 Tage, 25.000 Credits/5 Coins)<br>Wasserrettung (7 Tage, 500.000 Credits/25 Coins)<br>Rettungshundestaffel (7 Tage, 350.000 Credits/25 Coins)',
             maxBuildings: 'Keine Grenze'
         },
         pol: {
@@ -216,8 +216,8 @@
             levelcost: '1. 10.000<br>2. 50.000<br>3.-14. 100.000',
             startPersonell: 2,
             startVehicle: 'FuStW',
-            extensions: 'Zelle (25.000 Credits)<br>Max. 10 können gebaut werden',
-            maxBuildings: '1.100',
+            extensions: 'Zelle (25.000 Credits)<br>Max. 10 können gebaut werden<br>Diensthundestaffel (5 Tage, 100.000 Credits/10 Coins)',
+            maxBuildings: '1.500',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         polklein: {
@@ -229,7 +229,7 @@
             startPersonell: 2,
             startVehicle: 'FuStW',
             extensions: 'Zelle (25.000 Credits)<br>Max. 2 können gebaut werden',
-            maxBuildings: '1.100',
+            maxBuildings: '1.500',
             special: 'Ab der 24. Polizeiwache steigen die Kosten für den Neubau einer Wache nach folgender Formel: <code>100.000+200.000*LOG<sub>2</sub>(Anzahl der vorhandenen Polizeiache − 22)</code>. Der Coins-Preis bleibt konstant!'
         },
         polschule: {
@@ -264,7 +264,7 @@
             levelcost: 'Keine Ausbaustufen möglich',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
-            extensions: '2. Zug Hundertschaft (3 Tage, 25.000 Credits/5 Coins)<br>3. Zug Hundertschaftt (3 Tage, 25.000 Credits/5 Coins)<br>Sonderfahrzeug: Gefangenenkraftwagen (3 Tage, 25.000 Credits/5 Coins)<br>Technischer Zug: Wasserwerfer (7 Tage, 25.000 Credits/5 Coins)<br>SEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>SEK 2. Zug(7 Tage, 100.000 Credits/10 Coins)<br>MEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>MEK 2. Zug (7 Tage, 100.000 Credits/10 Coins)',
+            extensions: '2. Zug Hundertschaft (3 Tage, 25.000 Credits/5 Coins)<br>3. Zug Hundertschaftt (3 Tage, 25.000 Credits/5 Coins)<br>Sonderfahrzeug: Gefangenenkraftwagen (3 Tage, 25.000 Credits/5 Coins)<br>Technischer Zug: Wasserwerfer (7 Tage, 25.000 Credits/5 Coins)<br>SEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>SEK 2. Zug(7 Tage, 100.000 Credits/10 Coins)<br>MEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>MEK 2. Zug (7 Tage, 100.000 Credits/10 Coins)<br>Diensthundestaffel (5 Tage, 100.000 Credits/10 Coins)',
             maxBuildings: 'Keine Grenze',
             special: 'Mit dem Bau einer Bereitschaftspolizei bekommt man automatisch 4 Stellplätze für einen Zug (3 GruKw & 1 leBefKw) geschenkt. Die Wache generiert noch keine Einsätze. Um Einsätze zu erhalten muss man die erste Ausbaustufe bauen.'
         },
@@ -276,7 +276,7 @@
             levelcost: 'Keine Ausbaustufen möglich',
             startPersonell: 0,
             startVehicle: 'Kein Startfahrzeug',
-            extensions: 'SEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>SEK 2. Zug(7 Tage, 100.000 Credits/10 Coins)<br>MEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>MEK 2. Zug (7 Tage, 100.000 Credits/10 Coins)',
+            extensions: 'SEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>SEK 2. Zug(7 Tage, 100.000 Credits/10 Coins)<br>MEK 1. Zug (7 Tage, 100.000 Credits/10 Coins)<br>MEK 2. Zug (7 Tage, 100.000 Credits/10 Coins)<br>Diensthundestaffel (5 Tage, 100.000 Credits/10 Coins)',
             maxBuildings: 'Keine Grenze',
         },
         wr: {
@@ -291,6 +291,18 @@
             maxBuildings: 'Keine Grenze',
             special: 'Beim Bau bekommst du 10 Leute sowie ein GW-Wasserrettung geschenkt'
         },
+        rhs: {
+            name: 'Rettungshundestaffel',
+            credits: 450000,
+            coins: 30,
+            maxlevel: 5,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-5. 100.000',
+            startPersonell: 6,
+            startVehicle: 'Rettungshundefahrzeug',
+            extensions: 'Keine Ausbauten möglich',
+            maxBuildings: 'Keine Grenze',
+            special: 'Beim Bau bekommst du 10 Leute sowie ein Rettungshundefahrzeug geschenkt'
+        },
         thw: {
             name: 'THW Ortsverband',
             credits: 200000,
@@ -299,7 +311,7 @@
             levelcost: 'Keine Ausbaustufen möglich',
             startPersonell: 9,
             startVehicle: 'GKW',
-            extensions: 'Bergungsgruppe (7 Tage, 25.000 Credits/5 Coins)<br>Zugtrupp (7 Tage, 25.000 Credits/5 Coins)<br>Fachgruppe Räumen (7 Tage, 25.000 Credits/5 Coins)<br>Fachgruppe Wassergefahren (7 Tage, 500.000 Credits/25 Coins)<br>2. TZ (7 Tage, 25.000 Credits/5 Coins)<br>2. TZ Bergungsgruppe 2 (7 Tage, 25.000 Credits/5 Coins)<br>2. TZ Zugtrupp (7 Tage, 25.000 Credits/5 Coins)',
+            extensions: 'Bergungsgruppe (7 Tage, 25.000 Credits/5 Coins)<br>Zugtrupp (7 Tage, 25.000 Credits/5 Coins)<br>Fachgruppe Räumen (7 Tage, 25.000 Credits/5 Coins)<br>Fachgruppe Wassergefahren (7 Tage, 500.000 Credits/25 Coins)<br>2. TZ (7 Tage, 25.000 Credits/5 Coins)<br>2. TZ Bergungsgruppe 2 (7 Tage, 25.000 Credits/5 Coins)<br>2. TZ Zugtrupp (7 Tage, 25.000 Credits/5 Coins)<br>Fachgruppe Ortung (7 Tage, 450.000 Credits/25 Coins)',
             maxBuildings: 'z.Zt nicht bekannt',
             special: 'Mit dem Bau eines THW-Ortsverbands bekommt man einen GKW geschenkt. Mit dem Bau eines THW-Ortsverbands bekommt man 9 Mitglieder dazu. Baukosten für weitere THW-Liegenschaften: 2. Ortsverband 300.000 Credits/ 35 Coins, 3. Ortsverband 358.496 Credits/ 35 Coins, 4. Ortsverband 432.193 Credits/ 35 Coins, 5. Ortsverband 458.496 Credits/ 35 Coins. Formel: <code>200.000+100.000*LOG<sub>2</sub>(Anzahl der vorhandenen Wachen + 1)</code>'
         },
@@ -327,7 +339,8 @@
         thw: 'THW',
         wr: 'Wasserrettung',
         heli: 'Helikopter',
-        seg: 'SEG'
+        seg: 'SEG',
+        rhs: 'RHS'
     };
 
     I18n.translations.de_DE.lssm.overview.vehicles = {
@@ -853,6 +866,14 @@
                 max: 2,
                 credits: 5000,
                 coins: 25
+            },
+            dhufukw: {
+                name: 'DHuFüKw',
+                min: 1,
+                max: 2,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Hundeführer (Schutzhund)'
             }
         },
         bepol: {
@@ -935,6 +956,14 @@
                 credits: 17500,
                 coins: 25,
                 schooling: 'FüKw'
+            },
+            dhufukw: {
+                name: 'DHuFüKw',
+                min: 1,
+                max: 2,
+                credits: 15000,
+                coins: 25,
+                schooling: 'Hundeführer (Schutzhund)'
             }
         },
         thw: {
@@ -991,6 +1020,22 @@
                 credits: 2500,
                 coins: 12,
                 schooling: 'Fachgruppe Räumen'
+            },
+            mtwov: {
+                name: 'MTW-OV',
+                min: 4,
+                max: 5,
+                credits: 19000,
+                coins: x,
+                schooling: 'Rettungshundeführer (THW)'
+            },
+            anhhund: {
+                name: 'Anh Hund',
+                min: 0,
+                max: 0,
+                credits: 6000,
+                coins: x,
+                special: 'Am Einsatzort sind ein "Rettungshundefahrzeug" und ein "Anh Hund" vom THW gleichwertig!'
             },
             lkw7: {
                 name: 'LKW 7 Lkr 19tm',
@@ -1100,6 +1145,15 @@
                 schooling: 'SEG-Einsatzleitung',
                 special: 'Kann automatisch eingehende Sprechwünsche der eigenen Rettungsmittel bearbeiten und ihnen im Transportfall ein geeignetes Krankenhaus zuweisen. Die automatische Zuweisungsfunktion kann in dessen Einstellungen verändert werden.'
             },
+            rhf: {
+                name: 'Rettungshundefahrzeug',
+                min: 4,
+                max: 5,
+                credits: 25000,
+                coins: 25,
+                schooling: 'Rettungshundeführer (SEG)',
+                special: 'Am Einsatzort sind ein "Rettungshundefahrzeug" und ein "Anh Hund" vom THW gleichwertig!'
+            },
             gwsan: {
                 name: 'GW-San',
                 min: 6,
@@ -1108,6 +1162,17 @@
                 coins: 25,
                 schooling: 'SEG-GW-SAN',
                 special: 'Pro GW-San können 5 KTW Typ B wie ein RTW arbeiten. Er behandelt die Patienten zwar größtenteils, aber für die letzten paar Prozente braucht man dann einen RTW, KTW Typ B oder ähnliches'
+            }
+        },
+        rhs: {
+            rhf: {
+                name: 'Rettungshundefahrzeug',
+                min: 4,
+                max: 5,
+                credits: 25000,
+                coins: 25,
+                schooling: 'Rettungshundeführer (SEG)',
+                special: 'Am Einsatzort sind ein "Rettungshundefahrzeug" und ein "Anh Hund" vom THW gleichwertig!'
             }
         }
     };
@@ -2870,7 +2935,7 @@
             if (I18n.locale === "de_DE") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
             } else if (I18n.locale === "en_US") {
-                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
+                $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.wtank') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>')
             } else if (I18n.locale === "en_GB") {
                 $('#' + hiorg).append('<table id="table-' + hiorg + '" class="table table-striped" role="grid"><thead><th>' + I18n.t('lssm.overview.vehicleType') + '</th><th>' + I18n.t('lssm.overview.min') + '</th><th>' + I18n.t('lssm.overview.max') + '</th><th>' + I18n.t('lssm.overview.cost') + '</th><th>' + I18n.t('lssm.overview.schooling') + '</th><th>' + I18n.t('lssm.overview.special') + '</th></thead><tbody id="table-' + hiorg + '-body"></tbody></table>');
             } else if (I18n.locale === "nl_NL") {
@@ -2882,7 +2947,7 @@
                 if (I18n.locale === "de_DE") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "en_US") {
-                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "en_GB") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "nl_NL") {
