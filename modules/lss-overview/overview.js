@@ -36,7 +36,8 @@
         startPersonell: 'Start Personnel',
         startVehicle: 'Start vehicle',
         extensions: 'extensions',
-        maxBuildins: 'building boundary'
+        maxBuildins: 'building boundary',
+        wtank: 'Watertank'
     };
     I18n.translations.en_AU.lssm.overview = {};
     I18n.translations.en_GB.lssm.overview = {};
@@ -1181,7 +1182,8 @@
         fd: 'Fire Department',
         rd: 'Rescue Department',
         pol: 'Police',
-        heli: 'Helicopter'
+        heli: 'Helicopter',
+        brush: 'Brush'
     };
 
     I18n.translations.en_US.lssm.overview.buildings = {
@@ -1198,14 +1200,14 @@
             special: 'The control centre is the administrative centre.'
         },
         fw: {
-            name: 'Fire Department',
+            name: 'Fire Station',
             credits: 100000,
             coins: 30,
             maxlevel: 40,
             levelcost: '1. 10.000<br>2. 50.000<br>3.-40. 100.000',
             startPersonell: 10,
             startVehicle: 'Type 1 fire engine, Type 2 fire engine',
-            extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)',
+            extensions: 'Ambulance (7 Days, 100.000 Credits/20 Coins)<br>Water Rescue (7 Days, 100.000 Credits/20 Coins)<br>Airport (7 Days, 100.000 Credits/20 Coins)<br>Forestry (7 Days, 50.000 Credits/13 Coins)',
             maxBuildings: '2.400',
             special: 'From the 24th fire station onwards, the cost of building a new fire station increases according to the following formula: <code>100.000+200.000*LOG<sub>2</sub>(Number of existing fire stations − 22)</code>. The Coins price remains constant!'
         },
@@ -1267,7 +1269,7 @@
             special: 'Minister of Finance and Admins can be Allianz Hospital with the help of credits from the Allianz treasury (Expand) build.'
         },
         khklein: {
-            name: 'Urgent Care Center',
+            name: 'Clinic',
             credits: 100000,
             coins: 25,
             maxlevel: 5,
@@ -1323,7 +1325,7 @@
             special: 'Minister of Finance and Admins can be Allianz Police Academys with the help of credits from the Allianz treasury (Expand) build.'
         },
         polheli: {
-            name: 'Police Aviation Station',
+            name: 'Police Aviation',
             credits: 1000000,
             coins: 50,
             maxlevel: 4,
@@ -1338,9 +1340,9 @@
             name: 'Rescue Boat Dock',
             credits: 500000,
             coins: 35,
-            maxlevel: 0,
+            maxlevel: 16,
             levelcost: 'I Dont know',
-            startPersonell: 0,
+            startPersonell: 2,
             startVehicle: '',
             extensions: '',
             maxBuildings: 'No Limit'
@@ -1349,12 +1351,23 @@
             name: 'Fire Boat Dock',
             credits: 500000,
             coins: 35,
-            maxlevel: 0,
+            maxlevel: 16,
             levelcost: 'I Dont know',
-            startPersonell: 0,
+            startPersonell: 2,
             startVehicle: '',
             extensions: '',
             maxBuildings: 'No Limit'
+        },
+        fps: {
+            name: 'Firefighting plane station',
+            credits: 1500000,
+            coins: 50,
+            maxlevel: x,
+            levelcost: 1500000,
+            startPersonell: 2,
+            startVehicle: 'Water drop helicopter',
+            extensions: '',
+            maxBuildins: 'No Limit'
         }
     };
 
@@ -1453,6 +1466,7 @@
                 max: 3,
                 credits: 17300,
                 coins: 25,
+                wtank: 3000,
                 special: 'Required from 7 fire stations'
             },
             hazm: {
@@ -1610,7 +1624,97 @@
                 special: 'Required from 8 Police stations'
 
             },
-        }
+        },
+        brush: {
+            t3fe: {
+                name: 'Type 3 Fire Engine',
+                min: 3,
+                max: 5,
+                credits: 19000,
+                coins: 19,
+                wtank: 500
+            },
+            t4fe: {
+                name: 'Type 4 Fire Engine',
+                min: 3,
+                max: 5,
+                credits: 10000,
+                coins: 10,
+                wtank: 750
+            },
+            t5fe: {
+                name: 'Type 5 Fire Engine',
+                min: 1,
+                max: 3,
+                credits: 8000,
+                coins: 8,
+                wtank: 400
+            },
+            t6fe: {
+                name: 'Type 6 Fire Engine',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 5
+            },
+            t7fe: {
+                name: 'Type 7 Fire Engine',
+                min: 1,
+                max: 2,
+                credits: 5000,
+                coins: 25
+            },
+            pumpert: {
+                name: 'Pumper Tanker',
+                min: 1,
+                max: 6,
+                credits: 19000,
+                coins: 19,
+                wtank: 1500
+            },
+            crewc: {
+                name: 'Crew Carrier',
+                min: 1,
+                max: 12,
+                credits: 10000,
+                coins: 10
+            },
+            wdh: {
+                name: 'Water drop helicopter',
+                min: 2,
+                max: 5,
+                credits: 300000,
+                coins: 130,
+                wtank: 2000,
+                schooling: 'Airborne firefighting'
+            },
+            att: {
+                name: 'Air tanker',
+                min: 2,
+                max: 5,
+                credits: 1000000,
+                coins: 50,
+                wtank: 7200,
+                schooling: 'Airborne firefighting'
+            },
+            hat: {
+                name: 'Heavy air tanker',
+                min: 2,
+                max: 5,
+                credits: 1500000,
+                coins: 65,
+                wtank: 12000,
+                schooling: 'Airborne firefighting'
+            },
+            dozer: {
+                name: 'Dozer Trailer',
+                min: 1,
+                max: 1,
+                credits: 20000,
+                coins: 15,
+                schooling: 'Heavy Mashine Operator'
+            }
+        },
     };
 
     I18n.translations.en_GB.lssm.overview.hiorgs = {
@@ -2947,7 +3051,7 @@
                 if (I18n.locale === "de_DE") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "en_US") {
-                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' L</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
+                    $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.wtank ? vehicle.wtank.toLocaleString() : 0) + ' gal</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "en_GB") {
                     $('#table-' + hiorg + '-body').append('<tr><td>' + vehicle.name + '</td><td>' + (vehicle.min || vehicle.min === 0 ? vehicle.min : "undefined") + '</td><td>' + (vehicle.max || vehicle.max === 0 ? vehicle.max : "undefined") + '</td><td>' + (vehicle.credits ? vehicle.credits.toLocaleString() : "undefined") + ' Credits / ' + (vehicle.coins ? vehicle.coins.toLocaleString() : "undefined") + ' Coins</td><td>' + (vehicle.schooling ? vehicle.schooling : I18n.t('lssm.overview.none')) + '</td><td>' + (vehicle.special ? vehicle.special : "") + '</td></tr>');
                 } else if (I18n.locale === "nl_NL") {

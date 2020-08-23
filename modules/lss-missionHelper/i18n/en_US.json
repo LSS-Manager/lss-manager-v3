@@ -4,6 +4,8 @@
         "vge": "Large scale alliance mission",
         "patients": "Patients",
         "prisoners": "Prisoners",
+        "water": "Gallons of water",
+        "water1": "gal",
         "to": "up to",
         "exp": "Spreads",
         "fwm": "Follow-up missions",
@@ -38,6 +40,10 @@
                 "label": "Number of patients",
                 "description":
                     "Shows live how many patients are currently in use."
+        },
+        "water": {
+            "label": "Water demand",
+            "description": "Shows the total amount of water required."
         },
             "vehicles": {
                 "label": "Vehicles",
