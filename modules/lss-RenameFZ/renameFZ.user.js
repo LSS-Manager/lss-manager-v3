@@ -252,7 +252,9 @@
                 36: 'Air tanker',
                 37: 'Heavy air tanker',
                 38: 'Type 4 engine',
-                39: 'Type 6 engine'
+                39: 'Type 6 engine',
+                40: 'Dozer Trailer',
+                41: 'Crew cap semi'
             }
         }
     };

@@ -1708,11 +1708,20 @@
             },
             dozer: {
                 name: 'Dozer Trailer',
-                min: 1,
-                max: 1,
+                min: 0,
+                max: 0,
                 credits: 20000,
                 coins: 15,
-                schooling: 'Heavy Mashine Operator'
+                schooling: 'Heavy Machinery Operating',
+                special: 'Dozer Trailer that can be towed with the Crew cap semi. Requires Heavy Machinery Operating and Truck Driver\'s License trained personnel to operate.<br> The dozer trailer cannot be assigned personnel, <br>either assign your trained personnel to the towing vehicle, or assign them to a separate unit en route.'
+            },
+            crewcs: {
+                name: 'Crew cap semi',
+                min: 1,
+                max: 3,
+                credits: 5000,
+                coins: 12,
+                schooling: 'Truck Driver\'s License'
             }
         },
     };

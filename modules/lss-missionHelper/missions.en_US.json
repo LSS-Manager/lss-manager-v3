@@ -402,6 +402,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 432
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10849,12 +10852,16 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 12000,
             "brush_truck": 4,
             "battalion_chief_vehicles": 1,
             "water_tankers": 2
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 370
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10874,12 +10881,16 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 16000,
             "brush_truck": 6,
             "battalion_chief_vehicles": 2,
             "water_tankers": 4
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 371
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10899,6 +10910,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 30000,
             "brush_truck": 8,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
@@ -10927,10 +10939,14 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1000,
             "brush_truck": 2
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 373
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10950,6 +10966,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2000,
             "brush_truck": 3,
             "battalion_chief_vehicles": 1
         },
@@ -10997,10 +11014,14 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1000,
             "brush_truck": 2
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 389
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11434,6 +11455,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5000,
             "brush_truck": 3,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1
@@ -11490,6 +11512,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4000,
             "firetrucks": 4,
             "brush_truck": 1,
             "battalion_chief_vehicles": 1,
@@ -11544,6 +11567,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4000,
             "firetrucks": 4,
             "brush_truck": 1,
             "battalion_chief_vehicles": 1,
@@ -11596,6 +11620,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 9000,
             "brush_truck": 5,
             "battalion_chief_vehicles": 2,
             "water_tankers": 2
@@ -11624,6 +11649,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 15000,
             "brush_truck": 8,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 1,
@@ -11653,6 +11679,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 19000,
             "brush_truck": 10,
             "fire_aviation": 1,
             "battalion_chief_vehicles": 7,
@@ -12526,6 +12553,96 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 4
+        }
+    },
+    "430": {
+        "id": 430,
+        "name": "Subway train derailment",
+        "place": "Subway station",
+        "average_credits": 4000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-1C"
+            },
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
+    "432": {
+        "id": 432,
+        "name": "Small Wildfire",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 4000,
+            "brush_truck": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 369
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 3
+        }
+    },
+    "433": {
+        "id": 433,
+        "name": "Small Controlled Burn",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 500,
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 372
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 2
         }
     }
 }

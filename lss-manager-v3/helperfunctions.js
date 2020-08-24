@@ -47,7 +47,9 @@ if (I18n.locale == "en_US") {
         "36": ["Air tanker", 0],
         "37": ["Heavy air tanker", 0],
         "38": ["Type 4 engine", 0],
-        "39": ["Type 6 engine", 0]
+        "39": ["Type 6 engine", 0],
+        "40": ["Dozer Trailer", 0],
+        "41": ["Crew cap semi", 0]
     };
 }
 else if (I18n.locale == "en_GB") {
