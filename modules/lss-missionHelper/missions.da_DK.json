@@ -4431,5 +4431,34 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "177": {
+        "id": 177,
+        "name": "Massepanik p\u00e5 diskotek",
+        "place": "Diskotek",
+        "average_credits": 3500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Kirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
+        }
     }
 }

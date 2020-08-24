@@ -5031,5 +5031,64 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "224": {
+        "id": 224,
+        "name": "Porwanie",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 2,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 6,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 8
+        }
+    },
+    "225": {
+        "id": 225,
+        "name": "Podejrzany pakunek w autobusie/tramwaju",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "swat_personnel": 18,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 8,
+            "fire_stations": 7
+        }
     }
 }

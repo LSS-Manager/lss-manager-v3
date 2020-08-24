@@ -4311,5 +4311,37 @@
         "prerequisites": {
             "fire_stations": 8
         }
+    },
+    "202": {
+        "id": 202,
+        "name": "Mouvement de foule dans une discoth\u00e8que",
+        "place": "Discoth\u00e8que",
+        "average_credits": 3800,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 2,
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 18,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9,
+            "fire_stations": 8
+        }
     }
 }

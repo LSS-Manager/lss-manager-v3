@@ -4441,5 +4441,33 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "210": {
+        "id": 210,
+        "name": "Large Nightclub Brawl",
+        "place": "Discotheque",
+        "average_credits": 3500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
+        }
     }
 }
