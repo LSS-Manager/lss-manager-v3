@@ -41,7 +41,7 @@
                 "description":
                     "Shows live how many patients are currently in use."
         },
-        "water": {
+        "waterus": {
             "label": "Water demand",
             "description": "Shows the total amount of water required."
         },

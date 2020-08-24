@@ -306,13 +306,13 @@ const lssm_missionhelper_adjustPosition = () => {
             };
             break;
         case 'en_US':
-            managed_settings.settings.water = {
+            managed_settings.settings.waterus = {
                 default: true,
                 ui: {
-                    label: I18n.t('lssm.missionhelper.settings.water.label'),
+                    label: I18n.t('lssm.missionhelper.settings.waterus.label'),
                     type: 'toggle',
                     description: I18n.t(
-                        'lssm.missionhelper.settings.water.description'
+                        'lssm.missionhelper.settings.waterus.description'
                     ),
                 },
             };
