@@ -306,6 +306,16 @@ const lssm_missionhelper_adjustPosition = () => {
             };
             break;
         case 'en_US':
+            managed_settings.settings.waterus = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.waterus.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.waterus.description'
+                    ),
+                },
+            };
             break;
     }
 
@@ -673,7 +683,9 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'
-                    )}: ${MISSION.requirements.water_needed.toLocaleString()} Liter</span>&nbsp;`);
+                )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
+                    'lssm.missionhelper.water1'
+                )}</span>&nbsp;`);
                 SETTINGS.mission_time &&
                     (content.innerHTML += `<span class="badge badge-secondary">${
                         document.querySelector('#missionH1').attributes[
