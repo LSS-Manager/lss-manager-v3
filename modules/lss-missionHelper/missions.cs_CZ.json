@@ -3909,7 +3909,6 @@
             "2": "/images/clock_rot.png"
         },
         "requirements": {
-            "heavy_rescue_vehicles": 1,
             "police_cars": 1
         },
         "chances": {},

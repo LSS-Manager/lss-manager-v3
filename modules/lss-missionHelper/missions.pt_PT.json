@@ -2136,7 +2136,7 @@
     "96": {
         "id": 96,
         "name": "Descarrilamento de Comboio de Carga",
-        "place": null,
+        "place": "Passagem de N\u00edvel",
         "average_credits": 10000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
@@ -3016,6 +3016,7 @@
         "requirements": {
             "firetrucks": 14,
             "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
@@ -3170,6 +3171,311 @@
         },
         "prerequisites": {
             "rescue_stations": 4
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "Inc\u00eandio num Armaz\u00e9m Agr\u00edcola",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "Inc\u00eandio num Comboio de Mercadorias",
+        "place": "Cruzamento Ferrovi\u00e1rio",
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "Inc\u00eandio num Comboio de Mercadorias",
+        "place": "Passagem de N\u00edvel",
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "Inc\u00eandio num Comboio de Mercadorias",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "Inc\u00eandio num Comboio de Mercadorias",
+        "place": "Esta\u00e7\u00e3o de Mercadorias",
+        "average_credits": 2000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "139": {
+        "id": 139,
+        "name": "Acidente Grave Dentro de um T\u00fanel",
+        "place": "T\u00fanel",
+        "average_credits": 7000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 14,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "140": {
+        "id": 140,
+        "name": "V\u00e1rias Viaturas a Arder Dentro de um T\u00fanel",
+        "place": "T\u00fanel",
+        "average_credits": 5000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "water_tankers": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 13
+        }
+    },
+    "141": {
+        "id": 141,
+        "name": "Inc\u00eandio em Restaurante de Fast Food",
+        "place": "Restaurante Fast Food",
+        "average_credits": 1850,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "142": {
+        "id": 142,
+        "name": "Inc\u00eandio Industrial",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Cirurgia Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "143": {
+        "id": 143,
+        "name": "Derrame de Mat\u00e9rias Perigosas",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "144": {
+        "id": 144,
+        "name": "Inc\u00eandio num Dormit\u00f3rio",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Neurologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
         }
     }
 }
