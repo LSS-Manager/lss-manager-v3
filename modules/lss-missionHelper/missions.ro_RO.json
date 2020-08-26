@@ -2646,6 +2646,10 @@
         },
         "additional": {
             "possible_patient": 4,
+            "expansion_missions_ids": {
+                "0": 122,
+                "1": 123
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Internist general"
         },
@@ -2714,6 +2718,322 @@
         "prerequisites": {
             "rescue_stations": 10,
             "police_stations": 9
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "Incendiu \u00een caban\u0103 cu stuf",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "Incendiu tren comerical",
+        "place": "Trecere de nivel",
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "Incendiu tren comerical",
+        "place": "Trecere de cale ferat\u0103",
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "120": {
+        "id": 120,
+        "name": "Incendiu tren comerical",
+        "place": "Gar\u0103 (trafic regional)",
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "121": {
+        "id": 121,
+        "name": "Incendiu tren comerical",
+        "place": "Sta\u021bie de marf\u0103",
+        "average_credits": 2000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "122": {
+        "id": 122,
+        "name": "Accident grav \u00een tunel",
+        "place": "Tunel",
+        "average_credits": 7000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 14,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "123": {
+        "id": 123,
+        "name": "Incendiu de multiple vehicule \u00een tunel",
+        "place": "Tunel",
+        "average_credits": 5000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "water_tankers": 40,
+            "mobile_air_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "124": {
+        "id": 124,
+        "name": "Incendiu \u00een restaurant fast-food",
+        "place": "Restaurant fast-food",
+        "average_credits": 1850,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "125": {
+        "id": 125,
+        "name": "Incendiu industrial",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "126": {
+        "id": 126,
+        "name": "Scurgere din rezervor necunoscut",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "127": {
+        "id": 127,
+        "name": "Incendiu mic \u00een buc\u0103tarie",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
         }
     }
 }
