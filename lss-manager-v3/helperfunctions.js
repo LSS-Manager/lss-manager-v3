@@ -114,7 +114,9 @@ else if (I18n.locale == "pt_PT") {
         "6": ["VTTU", 0],
         "7": ["VPME", 0],
         "8": ["Carro patrulha", 2],
-        "9": ["Heli INEM", 1]
+        "9": ["Heli INEM", 1],
+        "10": ["VCOC", 0],
+        "11": ["VUCI", 0]
     };
 }
 else if (I18n.locale == "sv_SE") {

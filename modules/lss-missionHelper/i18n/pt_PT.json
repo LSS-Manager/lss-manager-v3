@@ -74,18 +74,18 @@
     },
     "requirements": {
         "firetrucks": "Veículos de Combate a Incêndios",
-        "platform_trucks": "Caminhões plataforma",
-        "heavy_rescue_vehicles": "Veículos de resgate pesado",
-        "mobile_air_vehicles": "Mobile Air",
-        "battalion_chief_vehicles": "Viaturas de batalhão",
-        "mobile_command_vehicles": "vehículos de mando",
-        "water_tankers": "Caminhões pipa",
-        "hazmat_vehicles": "Viaturas de produtos perigosos",
-        "police_cars": "Viaturas de polícia",
+        "platform_trucks": "Veículos Escada",
+        "heavy_rescue_vehicles": "Veículos de Desencarceramento",
+        "mobile_air_vehicles": "Veículos aéreos móveis",
+        "battalion_chief_vehicles": "Veículos de Comando",
+        "mobile_command_vehicles": "Veículo de Comando e Comunicações",
+        "water_tankers": "Veículos Tanque",
+        "hazmat_vehicles": "Veículos para Matérias Perigosas",
+        "police_cars": "Carros de Patrulha",
         "helicopter": "Heli INEM",
         "arff": "Defesa Civil",
         "police_helicopters": "Police Helicopter",
         "ambulances": "Ambulancia",
-        "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou resgate pesado"
+        "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
     }
 }

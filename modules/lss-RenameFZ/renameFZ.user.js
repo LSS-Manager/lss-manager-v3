@@ -950,7 +950,9 @@
                 6: 'VTTU',
                 7: 'VPME',
                 8: 'Carro patrulha',
-                9: 'Heli INEM'
+                9: 'Heli INEM',
+                10: 'VCOC',
+                11: 'VUCI'
             }
         }
     };
