@@ -321,7 +321,10 @@ else if (I18n.locale == "ro_RO") {
         "6": ["Cisternă de apă", 0],
         "7": ["Materiale periculoase", 0],
         "8": ["Mașină de patrulare", 2],
-        "9": ["Salvare aeriană", 1]
+        "9": ["Salvare aeriană", 1],
+        "10": ["Mașină de suport logistic", 0],
+        "11": ["Mașină de comanda și control", 0],
+        "12": ["Mașină de intervenții accidente colective", 0]
     };
 }
 else if (I18n.locale == "nl_NL") {

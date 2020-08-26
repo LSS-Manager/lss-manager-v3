@@ -1078,7 +1078,10 @@
                 6: 'Cisternă de apă',
                 7: 'Materiale periculoase',
                 8: 'Mașină de patrulare',
-                9: 'Salvare aeriană'
+                9: 'Salvare aeriană',
+                10: 'Mașină de suport logistic',
+                11: 'Mașină de comanda și control',
+                12: 'Mașină de intervenții accidente colective'
             }
         }
     };
