@@ -350,7 +350,7 @@ else if (I18n.locale == "nl_NL") {
         "18": ["HW | Hoogwerker", 0],
         "19": ["DA-HOD | Hoofd-Officier van Dienst - Brandweer", 0],
         "20": ["DA | Dienstauto (4 personen)", 0],
-        "21": ["DB | Dienstbus (9 personen)", 0],
+        "21": ["DB-K | Dienstbus klein (9 personen)", 0],
         "22": ["DA Noodhulp | Dienstauto Noodhulp", 2],
         "23": ["Lifeliner", 1],
         "24": ["DA-AGS | Adviseur Gevaarlijke Stoffen", 0],
