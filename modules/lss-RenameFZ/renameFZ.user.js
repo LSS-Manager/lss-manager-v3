@@ -1157,7 +1157,7 @@
                 18: 'HW',
                 19: 'DA-HOD',
                 20: 'DA',
-                21: 'DB',
+                21: 'DB-K',
                 22: 'DA Noodhulp',
                 23: 'Lifeliner',
                 24: 'DA-AGS',
