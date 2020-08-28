@@ -2738,10 +2738,12 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 3
         },
         "chances": {
             "water_tankers": 10,
+            "mobile_air_vehicles": 30,
             "patient_transport": 40
         },
         "additional": {
@@ -2775,6 +2777,7 @@
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 6
         },
         "chances": {
@@ -2954,6 +2957,10 @@
         },
         "additional": {
             "possible_patient": 4,
+            "expansion_missions_ids": {
+                "0": 133,
+                "1": 134
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
         },
@@ -3022,6 +3029,313 @@
         "prerequisites": {
             "rescue_stations": 10,
             "police_stations": 9
+        }
+    },
+    "128": {
+        "id": 128,
+        "name": "\ucd08\uac00 \uc9c0\ubd95 \uc624\ub450\ub9c9 \ud654\uc7ac",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "129": {
+        "id": 129,
+        "name": "\ud654\ubb3c \uc5f4\ucc28 \ud654\uc7ac",
+        "place": "\ucca0\ub3c4 \uac74\ub110\ubaa9",
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "130": {
+        "id": 130,
+        "name": "\ud654\ubb3c \uc5f4\ucc28 \ud654\uc7ac",
+        "place": "\ucca0\uae38 \uac74\ub110\ubaa9",
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "131": {
+        "id": 131,
+        "name": "\ud654\ubb3c \uc5f4\ucc28 \ud654\uc7ac",
+        "place": "\uae30\ucc28\uc5ed(\uc9c0\uc5ed \uad50\ud1b5)",
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "132": {
+        "id": 132,
+        "name": "\ud654\ubb3c \uc5f4\ucc28 \ud654\uc7ac",
+        "place": "\ud654\ubb3c\uc5ed",
+        "average_credits": 2000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "133": {
+        "id": 133,
+        "name": "\ud130\ub110 \ub0b4 \ub300\ud615 \ucc28\ub7c9",
+        "place": "\ud130\ub110",
+        "average_credits": 7000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 14,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "134": {
+        "id": 134,
+        "name": "\ud130\ub110 \ub0b4 \ubcf5\ud569\uc801 \ucc28\ub7c9 \ud654\uc7ac",
+        "place": "\ud130\ub110",
+        "average_credits": 5000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "water_tankers": 40,
+            "mobile_air_vehicles": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "\ud328\uc2a4\ud2b8\ud478\ub4dc\uc810 \ud654\uc7ac",
+        "place": "\ud328\uc2a4\ud2b8\ud478\ub4dc \ub808\uc2a4\ud1a0\ub791",
+        "average_credits": 1850,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "136": {
+        "id": 136,
+        "name": "\uc0b0\uc5c5 \ud604\uc7a5 \ud654\uc7ac",
+        "place": null,
+        "average_credits": 5300,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "137": {
+        "id": 137,
+        "name": "\uc54c \uc218 \uc5c6\ub294 \ud0f1\ucee4 \uc720\ucd9c",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "138": {
+        "id": 138,
+        "name": "\uc791\uc740 \ubd80\uc5cc \ud654\uc7ac",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc2e0\uacbd\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
         }
     }
 }
