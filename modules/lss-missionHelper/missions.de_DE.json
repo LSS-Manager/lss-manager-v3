@@ -15085,5 +15085,42 @@
             "police_stations": 5,
             "fire_stations": 9
         }
+    },
+    "558": {
+        "id": 558,
+        "name": "Brennende B\u00fchne",
+        "place": "Festplatz",
+        "average_credits": 7500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "gwmess": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "gwmess": 40,
+            "nef": 50,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
     }
 }
