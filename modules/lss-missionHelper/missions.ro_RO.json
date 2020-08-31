@@ -2720,6 +2720,37 @@
             "police_stations": 9
         }
     },
+    "116": {
+        "id": 116,
+        "name": "Incendiu \u00eentr-o cl\u0103dire de birouri",
+        "place": "Cl\u0103dire de birouri",
+        "average_credits": 7000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
     "117": {
         "id": 117,
         "name": "Incendiu \u00een caban\u0103 cu stuf",

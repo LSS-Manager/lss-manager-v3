@@ -4527,5 +4527,88 @@
             "rescue_stations": 1,
             "fire_stations": 1
         }
+    },
+    "205": {
+        "id": 205,
+        "name": "Statement Gathering",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Firearms Attack",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 8,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 3,
+            "expansion_missions_ids": {
+                "0": 207
+            },
+            "max_possible_prisoners": 1,
+            "swat_personnel": 6,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 12
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Firearms Attack (Major Incident)",
+        "place": null,
+        "average_credits": 15000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "k9": 4
+        },
+        "chances": {},
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 8,
+            "max_possible_prisoners": 2,
+            "swat_personnel": 10,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 9,
+            "police_stations": 18
+        }
     }
 }
