@@ -671,7 +671,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 )}: ${MISSION.additional.height_rescue_personnel}<br>`);
 
             if (
-                (SETTINGS.water && MISSION.requirements.water_needed) ||
+                ((SETTINGS.water || SETTINGS.waterus) && MISSION.requirements.water_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
             ) {
@@ -679,7 +679,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 SETTINGS.credits &&
                     MISSION.average_credits &&
                     (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.average_credits.toLocaleString()} Credits</span>&nbsp;`);
-                SETTINGS.water &&
+                (SETTINGS.water || SETTINGS.waterus) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'

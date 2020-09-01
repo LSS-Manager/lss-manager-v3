@@ -4469,5 +4469,38 @@
             "rescue_stations": 10,
             "police_stations": 9
         }
+    },
+    "211": {
+        "id": 211,
+        "name": "Fire in Office Building",
+        "place": "Office Building",
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "mobile_air_vehicles": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
     }
 }

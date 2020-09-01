@@ -5090,5 +5090,66 @@
             "police_stations": 8,
             "fire_stations": 7
         }
+    },
+    "226": {
+        "id": 226,
+        "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
+        "place": "Przejazd kolejowy",
+        "average_credits": 2300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "227": {
+        "id": 227,
+        "name": "Po\u017car w zajezdni tramwajowej",
+        "place": null,
+        "average_credits": 3600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 11
+        }
     }
 }

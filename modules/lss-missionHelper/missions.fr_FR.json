@@ -4343,5 +4343,76 @@
             "police_stations": 9,
             "fire_stations": 8
         }
+    },
+    "203": {
+        "id": 203,
+        "name": "Feu dans b\u00e2timent de bureaux",
+        "place": "Bureaux",
+        "average_credits": 7000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "police_cars": 50,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 4,
+            "expansion_missions_ids": {
+                "0": 204
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Feu dans b\u00e2timent de bureaux de grande hauteur",
+        "place": "Bureaux",
+        "average_credits": 10500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "police_cars": 50,
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
     }
 }
