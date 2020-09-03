@@ -292,6 +292,18 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.show_arfflf = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.show_ktwrtw.label'
+                    ),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_ktwrtw.description'
+                    ),
+                },
+            };
             break;
         case 'fr_FR':
             managed_settings.settings.education = {
@@ -570,6 +582,10 @@ const lssm_missionhelper_adjustPosition = () => {
                             MISSION.additional &&
                             MISSION.additional.allow_ktw_instead_of_rtw &&
                             vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
+                    else if (SETTINGS.show_arfflf &&
+                        MISSION.additional &&
+                        MISSION.additional.allow_arff_instead_of_lf &&
+                        vehicle === 'firetrucks') vehicleName = 'allow_arff_instead_of_lf';
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
                     }x ${I18n.t(
