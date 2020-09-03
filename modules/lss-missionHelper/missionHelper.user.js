@@ -292,6 +292,18 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.show_arfflf = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.show_arfflf.label'
+                    ),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_arfflf.description'
+                    ),
+                },
+            };
             break;
         case 'fr_FR':
             managed_settings.settings.education = {
@@ -302,6 +314,18 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                     type: 'checkbox',
                     parent: SETTINGS_STORAGE + '_special_toggle',
+                },
+            };
+            break;
+        case 'pl_PL':
+            managed_settings.settings.waterpl = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.waterpl.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.waterpl.description'
+                    ),
                 },
             };
             break;
@@ -570,6 +594,10 @@ const lssm_missionhelper_adjustPosition = () => {
                             MISSION.additional &&
                             MISSION.additional.allow_ktw_instead_of_rtw &&
                             vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
+                    else if (SETTINGS.show_arfflf &&
+                        MISSION.additional &&
+                        MISSION.additional.allow_arff_instead_of_lf &&
+                        vehicle === 'firetrucks') vehicleName = 'allow_arff_instead_of_lf';
                     content.innerHTML += `${
                         MISSION.requirements[vehicle]
                     }x ${I18n.t(
@@ -671,7 +699,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 )}: ${MISSION.additional.height_rescue_personnel}<br>`);
 
             if (
-                ((SETTINGS.water || SETTINGS.waterus) && MISSION.requirements.water_needed) ||
+                ((SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl) && MISSION.requirements.water_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
             ) {
@@ -679,7 +707,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 SETTINGS.credits &&
                     MISSION.average_credits &&
                     (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.average_credits.toLocaleString()} Credits</span>&nbsp;`);
-                (SETTINGS.water || SETTINGS.waterus) &&
+                (SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'

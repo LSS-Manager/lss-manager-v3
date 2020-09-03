@@ -395,7 +395,8 @@
             "platform_trucks": 1
         },
         "chances": {
-            "platform_trucks": 80
+            "platform_trucks": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -496,7 +497,8 @@
         },
         "chances": {
             "mobile_command_vehicles": 50,
-            "water_tankers": 10
+            "water_tankers": 10,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -723,7 +725,8 @@
         "chances": {
             "mobile_command_vehicles": 70,
             "water_tankers": 20,
-            "mobile_air_vehicles": 50
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1134,7 +1137,9 @@
             "2": "/images/bar_coktail_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1158,7 +1163,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2037,7 +2044,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2092,7 +2101,8 @@
             "police_cars": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 70
+            "heavy_rescue_vehicles": 70,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2227,7 +2237,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2250,7 +2262,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2273,7 +2287,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2296,7 +2312,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2319,7 +2337,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2342,7 +2362,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2365,7 +2387,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2388,7 +2412,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2411,7 +2437,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2434,7 +2462,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2457,7 +2487,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2576,7 +2608,8 @@
         },
         "chances": {
             "battalion_chief_vehicles": 50,
-            "hazmat_vehicles": 10
+            "hazmat_vehicles": 10,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -2762,7 +2795,8 @@
             "police_cars": 1
         },
         "chances": {
-            "heavy_rescue_vehicles": 90
+            "heavy_rescue_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -4418,7 +4452,8 @@
             "ovdp": 1
         },
         "chances": {
-            "ovdp": 50
+            "ovdp": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -5177,7 +5212,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -5200,7 +5237,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -5306,7 +5345,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -5437,7 +5478,9 @@
         "requirements": {
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -6832,7 +6875,8 @@
             "platform_trucks": 1
         },
         "chances": {
-            "platform_trucks": 80
+            "platform_trucks": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -7189,7 +7233,8 @@
             "mobile_command_vehicles": 50,
             "elw3": 50,
             "water_tankers": 20,
-            "mobile_air_vehicles": 50
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -15750,7 +15795,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -15772,7 +15819,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,

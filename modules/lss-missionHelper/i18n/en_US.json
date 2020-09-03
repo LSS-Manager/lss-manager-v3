@@ -67,6 +67,10 @@
                 "description":
                     "Shows what the bet can spread to. (Shows only simple spread)"
         },
+        "followup": {
+            "label": "Follow-up missions",
+            "description": "Shows what the insert can generate for follow-up missions"
+        },
             "show_100": {
                 "label": "Show 100% probability",
                 "description":

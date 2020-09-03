@@ -141,7 +141,10 @@ else if (I18n.locale == "sv_SE") {
         "17": ["Insatsfordon", 2],
         "18": ["Dykbil", 0],
         "19": ["Tryckkammarbil", 0],
-        "20": ["Liten räddningsbåt", 0]
+        "20": ["Liten räddningsbåt", 0],
+        "21": ["Terrängbil", 0],
+        "22": ["Bandvagn", 0],
+        "23": ["ATV", 0]
     };
 }
 else if (I18n.locale == "cs_CZ") {
@@ -242,7 +245,10 @@ else if (I18n.locale == "pl_PL") {
         "23": ["Skuter", 4],
         "24": ["Samochód SLRw", 4],
         "25": ["Dźwig SP", 4],
-        "26": ["Łódź SP", 4]
+        "26": ["Łódź SP", 4],
+        "27": ["SRWys", 0],
+        "28": ["SLRr", 0],
+        "29": ["GLBA", 0]
     };
 }
 else if (I18n.locale == "it_IT") {

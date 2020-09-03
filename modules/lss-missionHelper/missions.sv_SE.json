@@ -491,7 +491,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -879,7 +880,9 @@
         "requirements": {
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1366,7 +1369,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1637,7 +1642,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1755,7 +1762,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2152,7 +2161,9 @@
             "police_helicopters": 1,
             "police_cars": 4
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -2179,7 +2190,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -2517,7 +2530,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2734,7 +2748,9 @@
             "police_cars": 8,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
@@ -2788,7 +2804,9 @@
         "requirements": {
             "police_cars": 4
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2849,7 +2867,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
@@ -4029,6 +4049,236 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Misst\u00e4nkt skogsbrand, unders\u00f6kning",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2,
+            "water_tankers": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 186
+            },
+            "followup_missions_ids": {
+                "0": 189
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 3
+        }
+    },
+    "186": {
+        "id": 186,
+        "name": "Skogsbrand, mellan",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 4,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 187
+            },
+            "followup_missions_ids": {
+                "0": 189,
+                "1": 190,
+                "2": 185
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 2,
+            "fire_stations": 8
+        }
+    },
+    "187": {
+        "id": 187,
+        "name": "Skogsbrand, utbredd",
+        "place": null,
+        "average_credits": 6500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 4
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 188
+            },
+            "followup_missions_ids": {
+                "0": 189,
+                "1": 190,
+                "2": 191,
+                "3": 186
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 3,
+            "fire_stations": 10
+        }
+    },
+    "188": {
+        "id": 188,
+        "name": "Skogsbrand, toppbrand",
+        "place": null,
+        "average_credits": 10000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 8,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 8,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 189,
+                "1": 190,
+                "2": 191,
+                "3": 187
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "brush_extension": 4,
+            "fire_stations": 14
+        }
+    },
+    "189": {
+        "id": 189,
+        "name": "Kontrollerad brand, liten",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 190
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 2
+        }
+    },
+    "190": {
+        "id": 190,
+        "name": "Kontrollerad brand, mellan",
+        "place": null,
+        "average_credits": 1300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 191
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1,
+            "fire_stations": 3
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Kontrollerad brand, utbredd",
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 3,
+            "fire_stations": 6
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Skogsbrand, eftersl\u00e4ckning",
+        "place": "Skog",
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 2,
+            "fire_stations": 2
         }
     }
 }

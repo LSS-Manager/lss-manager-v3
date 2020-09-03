@@ -6,6 +6,7 @@
     "prisoners": "fångar",
     "to": "upp till",
     "exp": "bredbara",
+    "fwm": "Följeuppdrag",
     "SWATPersonnel": "Nödvändig insatsstyrka",
     "averageMinimumEmployeesFire": "Minuter i genomsnitt Brandpersonal",
     "averageMinimumEmployeesPolice": "Minuter i genomsnitt Polispersonal",
@@ -54,6 +55,10 @@
             "label": "distributioner",
             "description": "Visar vad insatsen kan spridas till. (Visar bara enkel spridning)"
         },
+        "followup": {
+            "label": "Uppföljningsuppdrag",
+            "description": "Visar vad insatsen kan generera för uppföljningsuppdrag"
+        },
         "show_100": {
             "label": "Visa 100% sannolikhet ",
             "description": "Visar sannolikheten för ett fordon även om det är 100%."
@@ -99,6 +104,7 @@
         "police_helicopters": "Polishelikoptrar",
         "boats": "Båtar",
         "diver_units": "Dykbilar",
+        "brush_truck": "Skogsbrandsfordon",
         "allow_rw_instead_of_lf": "Brandbilar eller tung räddning"
     }
 }

@@ -512,7 +512,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -864,7 +865,8 @@
             "mobile_command_vehicles": 20,
             "platform_trucks": 80,
             "heavy_rescue_vehicles": 50,
-            "gwmess": 30
+            "gwmess": 30,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 3,
@@ -1109,7 +1111,9 @@
             "heavy_rescue_vehicles": 5,
             "gwoil": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 12,
             "possible_patient_min": 10,
@@ -1132,7 +1136,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_other_treatment": 20
+            "patient_other_treatment": 20,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1158,7 +1163,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1327,7 +1334,8 @@
         "chances": {
             "mobile_command_vehicles": 10,
             "heavy_rescue_vehicles": 30,
-            "nef": 40
+            "nef": 40,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -1412,7 +1420,8 @@
             "hazmat_vehicles": 4
         },
         "chances": {
-            "mobile_command_vehicles": 80
+            "mobile_command_vehicles": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 20,
@@ -1716,7 +1725,8 @@
             "police_cars": 1
         },
         "chances": {
-            "nef": 80
+            "nef": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1745,7 +1755,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "expansion_missions_ids": {
@@ -1852,7 +1864,8 @@
             "police_cars": 1
         },
         "chances": {
-            "nef": 50
+            "nef": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1909,7 +1922,8 @@
             "height_rescue_units": 1
         },
         "chances": {
-            "platform_trucks": 30
+            "platform_trucks": 30,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -1942,7 +1956,8 @@
             "police_cars": 2
         },
         "chances": {
-            "nef": 75
+            "nef": 75,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 8,
@@ -2031,7 +2046,8 @@
             "mobile_command_vehicles": 40,
             "heavy_rescue_vehicles": 50,
             "gwmess": 30,
-            "hazmat_dekon": 10
+            "hazmat_dekon": 10,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2303,7 +2319,8 @@
         },
         "chances": {
             "mobile_command_vehicles": 75,
-            "nef": 30
+            "nef": 30,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 11,
@@ -3730,7 +3747,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
@@ -4417,7 +4436,8 @@
         },
         "chances": {
             "fwk": 75,
-            "platform_trucks": 30
+            "platform_trucks": 30,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 7,
@@ -4462,7 +4482,8 @@
             "mobile_command_vehicles": 40,
             "heavy_rescue_vehicles": 50,
             "gwmess": 30,
-            "hazmat_dekon": 10
+            "hazmat_dekon": 10,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -5150,7 +5171,8 @@
             "battalion_chief_vehicles": 100,
             "platform_trucks": 50,
             "water_tankers": 60,
-            "mobile_air_vehicles": 25
+            "mobile_air_vehicles": 25,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -5189,7 +5211,8 @@
             "platform_trucks": 75,
             "water_tankers": 90,
             "mobile_air_vehicles": 70,
-            "nef": 33
+            "nef": 33,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 4,
@@ -5239,7 +5262,8 @@
             "platform_trucks": 100,
             "water_tankers": 90,
             "mobile_air_vehicles": 70,
-            "nef": 50
+            "nef": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 7,
@@ -5282,7 +5306,9 @@
             "thw_lkw": 2,
             "hazmat_dekon": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 10,
@@ -5596,7 +5622,8 @@
             "thw_lkw": 2
         },
         "chances": {
-            "nef": 80
+            "nef": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 40,
@@ -5634,7 +5661,8 @@
             "thw_lkw": 1
         },
         "chances": {
-            "nef": 80
+            "nef": 80,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 20,
@@ -5937,7 +5965,9 @@
             "police_helicopters": 1,
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
@@ -6732,7 +6762,8 @@
             "police_cars": 3
         },
         "chances": {
-            "fwk": 75
+            "fwk": 75,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -7279,7 +7310,8 @@
         },
         "chances": {
             "heavy_rescue_vehicles": 30,
-            "nef": 40
+            "nef": 40,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -8399,7 +8431,9 @@
             "arff": 2,
             "rettungstreppe": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 5,
             "filter_id": "firehouse_missions",
@@ -8792,7 +8826,9 @@
             "height_rescue_units": 1,
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
@@ -8866,6 +8902,7 @@
         },
         "chances": {
             "nef": 75,
+            "patient_transport": 30,
             "height_rescue_units": 50
         },
         "additional": {
@@ -8910,6 +8947,7 @@
         },
         "chances": {
             "nef": 25,
+            "patient_transport": 30,
             "helicopter": 10
         },
         "additional": {
@@ -8999,7 +9037,8 @@
             "thw_lkw": 2
         },
         "chances": {
-            "nef": 50
+            "nef": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 20,
@@ -9031,7 +9070,8 @@
             "police_cars": 2
         },
         "chances": {
-            "nef": 50
+            "nef": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 10,
@@ -9068,6 +9108,7 @@
         },
         "chances": {
             "nef": 50,
+            "patient_transport": 30,
             "helicopter": 25
         },
         "additional": {
@@ -9178,7 +9219,9 @@
             "police_cars": 4,
             "fukw": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 1,
@@ -10105,7 +10148,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -10476,7 +10521,8 @@
             "thw_gkw": 2
         },
         "chances": {
-            "nef": 50
+            "nef": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 6,
@@ -10757,7 +10803,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -11706,6 +11754,7 @@
         "chances": {
             "platform_trucks": 40,
             "nef": 50,
+            "patient_transport": 30,
             "height_rescue_units": 30
         },
         "additional": {
@@ -12049,6 +12098,7 @@
         },
         "chances": {
             "nef": 75,
+            "patient_transport": 30,
             "helicopter": 10
         },
         "additional": {
@@ -14086,7 +14136,8 @@
         },
         "chances": {
             "fwk": 75,
-            "platform_trucks": 30
+            "platform_trucks": 30,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 7,
@@ -14178,7 +14229,9 @@
             "police_cars": 2,
             "rescue_dog_units": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
@@ -15106,7 +15159,8 @@
             "police_cars": 4
         },
         "chances": {
-            "gwmess": 40,
+            "mobile_command_vehicles": 5,
+            "gwmess": 5,
             "nef": 50,
             "patient_transport": 60
         },

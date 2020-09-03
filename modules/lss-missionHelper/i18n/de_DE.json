@@ -108,6 +108,10 @@
                 "label": "KTW statt RTW",
                 "description": "Zeigt ob ein KTW anstatt eines RTWs genutzt werden kann."
             },
+            "show_arfflf": {
+                "description": "Zeigt an, wenn statt eines LF auch FLF am Einsatzort möglich sind.",
+                "label": "Anzeigen, wenn FLF als LF erlaubt sind"
+            },
             "show_frchance": {
                 "label": "FirstResponder Chance",
                 "description": "Zeigt mit wieviel % ein beliebiges Fahrzeug zum behandeln ausreicht."
@@ -165,6 +169,7 @@
             "k9": "DHuFüKw",
             "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW",
             "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
+            "allow_arff_instead_of_lf": "Löschfahrzeuge oder Flugfeldlöschfahrzeuge",
             "ktw_or_rtw": "RTW oder KTW oder KTW Typ B"
         }
     }

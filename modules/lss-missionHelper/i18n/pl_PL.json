@@ -4,6 +4,8 @@
   "vge": "Misja sojuszu na dużą skalę",
   "patients": "Pacjenci",
   "prisoners": "Więźniowie",
+  "water": "Potrzebna woda",
+  "water1": "litrów",
   "to": "aż do",
   "exp": "Rozprzestrzeniania",
   "SWATPersonnel": "Wymagani policjanci SPKP",
@@ -35,6 +37,10 @@
     "vehicles": {
       "label": "Pojazdy",
       "description": "Wyświetla wymagane pojazdy."
+    },
+    "waterpl": {
+      "label": "Zapotrzebowanie na wodę",
+      "description": "Pokazuje całkowitą wymaganą ilość wody."
     },
     "patients": {
       "label": "patient information",
@@ -82,7 +88,7 @@
     "platform_trucks": "SP wysokościowe",
     "heavy_rescue_vehicles": "samochody ratownictwa technicznego",
     "mobile_air_vehicles": "SPGaz",
-    "battalion_chief_vehicles": "Samochód Oficera Operacyjnego",
+    "battalion_chief_vehicles": "Samochody Oficera Operacyjnego lub SLRr",
     "water_tankers": "cysterny z wodą",
     "hazmat_vehicles": "SP Rchem",
     "mobile_command_vehicles": "samochody dowodzenia i łączności",
@@ -99,6 +105,7 @@
     "diver_units": "Samochód SLRw",
     "boats": "łodzie",
     "fwk": "Dźwig SP",
+    "height_rescue_units": "Ratownictwo Wyskościowe",
     "allow_rw_instead_of_lf": "Wozy strażackie lub ciężki ratunek"
   }
 }

@@ -511,7 +511,10 @@
                 23: 'Skuter',
                 24: 'Samochód SLRw',
                 25: 'Dźwig SP',
-                26: 'Łódź SP'
+                26: 'Łódź SP',
+                27: 'SRWys',
+                28: 'SLRr',
+                29: 'GLBA'
             }
         }
     };
@@ -587,7 +590,10 @@
                 17: 'Insatsfordon',
                 18: 'Dykbil',
                 19: 'Tryckkammarbil',
-                20: 'Liten räddningsbåt'
+                20: 'Liten räddningsbåt',
+                21: 'Terrängbil',
+                22: 'Bandvagn',
+                23: 'ATV'
             }
         }
     };
