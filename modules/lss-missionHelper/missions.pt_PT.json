@@ -491,7 +491,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -879,7 +880,9 @@
         "requirements": {
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1366,7 +1369,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1637,7 +1642,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1755,7 +1762,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1991,7 +2000,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2019,7 +2029,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -2252,7 +2264,9 @@
             "heavy_rescue_vehicles": 2,
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 2,
@@ -2731,7 +2745,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -3083,7 +3099,9 @@
         "requirements": {
             "police_cars": 5
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -3438,7 +3456,9 @@
             "platform_trucks": 1,
             "water_tankers": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
@@ -3492,7 +3512,9 @@
             "firetrucks": 2,
             "battalion_chief_vehicles": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",

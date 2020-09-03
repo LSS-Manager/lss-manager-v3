@@ -141,7 +141,10 @@ else if (I18n.locale == "sv_SE") {
         "17": ["Insatsfordon", 2],
         "18": ["Dykbil", 0],
         "19": ["Tryckkammarbil", 0],
-        "20": ["Liten räddningsbåt", 0]
+        "20": ["Liten räddningsbåt", 0],
+        "21": ["Terrängbil", 0],
+        "22": ["Bandvagn", 0],
+        "23": ["ATV", 0]
     };
 }
 else if (I18n.locale == "cs_CZ") {

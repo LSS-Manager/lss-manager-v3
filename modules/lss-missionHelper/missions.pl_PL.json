@@ -491,7 +491,8 @@
             "battalion_chief_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 90
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -875,7 +876,9 @@
         "requirements": {
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1311,7 +1314,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1582,7 +1587,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -1700,7 +1707,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -2781,7 +2790,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "platform_trucks": 50
+            "platform_trucks": 50,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
@@ -2831,7 +2841,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "max_possible_prisoners": 2,
@@ -3104,7 +3116,9 @@
             "police_helicopters": 1,
             "police_cars": 5
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
@@ -3160,7 +3174,9 @@
         "requirements": {
             "police_cars": 6
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -3209,7 +3225,9 @@
             "police_cars": 4,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "expansion_missions_ids": {
@@ -3240,7 +3258,9 @@
             "police_cars": 7,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 5,
             "max_possible_prisoners": 4,
@@ -3824,7 +3844,9 @@
         "requirements": {
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",

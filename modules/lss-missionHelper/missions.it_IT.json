@@ -503,7 +503,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "battalion_chief_vehicles": 20
+            "battalion_chief_vehicles": 20,
+            "patient_transport": 30
         },
         "additional": {
             "possible_patient": 2,
@@ -939,7 +940,9 @@
         "requirements": {
             "police_cars": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -1523,7 +1526,9 @@
         "requirements": {
             "police_cars": 3
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "max_possible_prisoners": 2,
@@ -2017,7 +2022,9 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
@@ -3879,7 +3886,9 @@
             "swat_suv": 2,
             "police_cars": 4
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "possible_patient_min": 0,
@@ -3940,7 +3949,9 @@
             "police_cars": 4,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 3,
             "expansion_missions_ids": {
@@ -3982,7 +3993,9 @@
             "police_cars": 6,
             "k9": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
             "possible_patient": 5,
             "max_possible_prisoners": 4,

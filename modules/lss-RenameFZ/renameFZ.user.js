@@ -587,7 +587,10 @@
                 17: 'Insatsfordon',
                 18: 'Dykbil',
                 19: 'Tryckkammarbil',
-                20: 'Liten räddningsbåt'
+                20: 'Liten räddningsbåt',
+                21: 'Terrängbil',
+                22: 'Bandvagn',
+                23: 'ATV'
             }
         }
     };
