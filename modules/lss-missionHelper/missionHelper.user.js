@@ -296,11 +296,11 @@ const lssm_missionhelper_adjustPosition = () => {
                 default: false,
                 ui: {
                     label: I18n.t(
-                        'lssm.missionhelper.settings.show_ktwrtw.label'
+                        'lssm.missionhelper.settings.show_arfflf.label'
                     ),
                     type: 'toggle',
                     description: I18n.t(
-                        'lssm.missionhelper.settings.show_ktwrtw.description'
+                        'lssm.missionhelper.settings.show_arfflf.description'
                     ),
                 },
             };
