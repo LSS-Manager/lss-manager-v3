@@ -5091,33 +5091,6 @@
             "fire_stations": 7
         }
     },
-    "226": {
-        "id": 226,
-        "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
-        "place": "Przejazd kolejowy",
-        "average_credits": 2300,
-        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
-            "mobile_air_vehicles": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 8
-        }
-    },
     "227": {
         "id": 227,
         "name": "Po\u017car w zajezdni tramwajowej",
@@ -5150,6 +5123,29 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 11
+        }
+    },
+    "236": {
+        "id": 236,
+        "name": "Atak Hakera na Stron\u0119 Rz\u0105dow\u0105",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }
