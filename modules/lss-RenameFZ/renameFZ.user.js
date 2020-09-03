@@ -511,7 +511,10 @@
                 23: 'Skuter',
                 24: 'Samochód SLRw',
                 25: 'Dźwig SP',
-                26: 'Łódź SP'
+                26: 'Łódź SP',
+                27: 'SRWys',
+                28: 'SLRr',
+                29: 'GLBA'
             }
         }
     };

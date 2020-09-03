@@ -245,7 +245,10 @@ else if (I18n.locale == "pl_PL") {
         "23": ["Skuter", 4],
         "24": ["Samochód SLRw", 4],
         "25": ["Dźwig SP", 4],
-        "26": ["Łódź SP", 4]
+        "26": ["Łódź SP", 4],
+        "27": ["SRWys", 0],
+        "28": ["SLRr", 0],
+        "29": ["GLBA", 0]
     };
 }
 else if (I18n.locale == "it_IT") {

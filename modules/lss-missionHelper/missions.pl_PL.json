@@ -11,6 +11,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 200,
             "firetrucks": 1
         },
         "chances": {},
@@ -33,6 +34,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 900,
             "firetrucks": 1
         },
         "chances": {},
@@ -55,6 +57,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1800,
             "firetrucks": 1
         },
         "chances": {},
@@ -82,6 +85,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1000,
             "firetrucks": 1
         },
         "chances": {},
@@ -107,6 +111,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2600,
             "firetrucks": 1
         },
         "chances": {},
@@ -132,6 +137,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4300,
             "firetrucks": 2,
             "platform_trucks": 1
         },
@@ -160,6 +166,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 3100,
             "firetrucks": 2
         },
         "chances": {},
@@ -182,6 +189,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1000,
             "firetrucks": 1
         },
         "chances": {},
@@ -207,6 +215,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1600,
             "firetrucks": 1
         },
         "chances": {},
@@ -234,6 +243,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4000,
             "firetrucks": 1
         },
         "chances": {},
@@ -260,6 +270,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2800,
             "firetrucks": 1
         },
         "chances": {},
@@ -282,6 +293,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 600,
             "firetrucks": 1
         },
         "chances": {},
@@ -330,6 +342,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5800,
             "firetrucks": 2
         },
         "chances": {},
@@ -352,6 +365,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5200,
             "firetrucks": 2
         },
         "chances": {},
@@ -377,6 +391,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5100,
             "firetrucks": 1
         },
         "chances": {},
@@ -399,6 +414,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 3100,
             "firetrucks": 2
         },
         "chances": {},
@@ -421,6 +437,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 300,
             "firetrucks": 1
         },
         "chances": {},
@@ -465,6 +482,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1500,
             "firetrucks": 1
         },
         "chances": {},
@@ -487,6 +505,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5100,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1
         },
@@ -515,6 +534,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2800,
             "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
@@ -544,6 +564,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 6500,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
@@ -571,6 +592,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 700,
             "firetrucks": 1
         },
         "chances": {},
@@ -593,6 +615,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 800,
             "firetrucks": 1
         },
         "chances": {},
@@ -615,6 +638,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 1300,
             "firetrucks": 1
         },
         "chances": {},
@@ -642,6 +666,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7800,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1
         },
@@ -670,6 +695,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4000,
             "firetrucks": 2
         },
         "chances": {},
@@ -692,6 +718,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 12000,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -719,6 +746,7 @@
             "2": "/images/oil_rot.png"
         },
         "requirements": {
+            "water_needed": 7500,
             "firetrucks": 4,
             "battalion_chief_vehicles": 2,
             "heavy_rescue_vehicles": 2,
@@ -746,6 +774,7 @@
             "2": "/images/oil_rot.png"
         },
         "requirements": {
+            "water_needed": 2800,
             "firetrucks": 1
         },
         "chances": {},
@@ -769,6 +798,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 2100,
             "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
@@ -793,6 +823,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 5000,
             "firetrucks": 2
         },
         "chances": {},
@@ -843,6 +874,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 25000,
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 3,
@@ -1005,6 +1037,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 20000,
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 2,
@@ -1386,6 +1419,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 3700,
             "firetrucks": 2
         },
         "chances": {},
@@ -1431,6 +1465,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1
@@ -1507,6 +1542,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 2700,
             "firetrucks": 2,
             "heavy_rescue_vehicles": 1
         },
@@ -1612,6 +1648,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 17000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 1,
@@ -1733,6 +1770,7 @@
             "2": "/images/planecrash_rot.png"
         },
         "requirements": {
+            "water_needed": 9000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -1765,6 +1803,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 4000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -1903,6 +1942,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 3000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -1935,6 +1975,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8000,
             "firetrucks": 3
         },
         "chances": {},
@@ -1957,6 +1998,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 2400,
             "firetrucks": 3,
             "ambulances": 1,
             "battalion_chief_vehicles": 1
@@ -1986,6 +2028,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7500,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1,
@@ -2014,6 +2057,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8800,
             "firetrucks": 3,
             "battalion_chief_vehicles": 2,
             "water_tankers": 1,
@@ -2040,6 +2084,7 @@
             "2": "/images/icy_road_rot.png"
         },
         "requirements": {
+            "water_needed": 1700,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "police_cars": 1
@@ -2070,6 +2115,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 2500,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -2103,6 +2149,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 2300,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -2136,6 +2183,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 2500,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -2169,6 +2217,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 3800,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
@@ -2442,6 +2491,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8500,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "police_cars": 1
@@ -2468,6 +2518,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 17500,
             "firetrucks": 9,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2
@@ -2492,6 +2543,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 26000,
             "firetrucks": 9,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2
@@ -2612,6 +2664,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 10000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -2644,6 +2697,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 11500,
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -2702,6 +2756,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7500,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1
         },
@@ -2889,6 +2944,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 10000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 1,
@@ -2914,6 +2970,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 19000,
             "firetrucks": 9,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 1,
@@ -2991,6 +3048,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 11000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1
@@ -3479,6 +3537,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 13000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
@@ -3511,6 +3570,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 7500,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "hazmat_vehicles": 1
@@ -3634,6 +3694,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8000,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1
         },
@@ -3790,6 +3851,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4700,
             "firetrucks": 2
         },
         "chances": {},
@@ -3812,6 +3874,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 42000,
             "firetrucks": 17,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -3954,6 +4017,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 32000,
             "firetrucks": 13,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
@@ -3985,6 +4049,7 @@
             "2": "/images/constructioncrane_rot.png"
         },
         "requirements": {
+            "water_needed": 4500,
             "firetrucks": 10,
             "battalion_chief_vehicles": 3,
             "platform_trucks": 4,
@@ -4050,6 +4115,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 3000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
@@ -4083,6 +4149,7 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
+            "water_needed": 3000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
@@ -4144,6 +4211,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 8000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
@@ -4178,6 +4246,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 26000,
             "firetrucks": 7,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
@@ -4638,6 +4707,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 1800,
             "firetrucks": 1
         },
         "chances": {},
@@ -4728,6 +4798,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 35000,
             "firetrucks": 12,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 3,
@@ -4760,6 +4831,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 20000,
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "water_tankers": 2
@@ -4809,6 +4881,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 30000,
             "firetrucks": 10,
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
@@ -4845,6 +4918,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 4800,
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
@@ -4873,6 +4947,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 10000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 2,
             "heavy_rescue_vehicles": 1,
@@ -5125,6 +5200,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 20000,
             "firetrucks": 5,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 3,
@@ -5168,6 +5244,119 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "237": {
+        "id": 237,
+        "name": "Po\u017car skrzyd\u0142a turbiny wiatrowej",
+        "place": null,
+        "average_credits": 1700,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 5000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "height_rescue_units": 2
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "238": {
+        "id": 238,
+        "name": "Po\u017car \u017curawia na budowie",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 10000,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "height_rescue_units": 4
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "239": {
+        "id": 239,
+        "name": "Po\u017car komina chutniczego",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 15000,
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 2,
+            "height_rescue_units": 3
+        },
+        "chances": {},
+        "additional": {},
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "240": {
+        "id": 240,
+        "name": "Po\u017car biurowca",
+        "place": null,
+        "average_credits": 15000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 50000,
+            "firetrucks": 20,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 4,
+            "height_rescue_units": 6,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 70
+        },
+        "additional": {
+            "possible_patient": 30,
+            "possible_patient_min": 20,
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 20
         }
     }
 }
