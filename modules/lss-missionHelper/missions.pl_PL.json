@@ -283,7 +283,7 @@
     },
     "11": {
         "id": 11,
-        "name": "P\u0142on\u0105ca budka telefoniczna",
+        "name": "Zwarcie w instalacji elektrycznej",
         "place": null,
         "average_credits": 240,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -774,7 +774,6 @@
             "2": "/images/oil_rot.png"
         },
         "requirements": {
-            "water_needed": 2800,
             "firetrucks": 1
         },
         "chances": {},
@@ -866,7 +865,7 @@
         "id": 34,
         "name": "Po\u017car w szpitalu",
         "place": "Szpital",
-        "average_credits": 6000,
+        "average_credits": 6400,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -879,7 +878,8 @@
             "battalion_chief_vehicles": 2,
             "platform_trucks": 3,
             "heavy_rescue_vehicles": 2,
-            "water_tankers": 1
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2
         },
         "chances": {
             "patient_transport": 50
@@ -1649,11 +1649,13 @@
         },
         "requirements": {
             "water_needed": 17000,
-            "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
+            "mobile_air_vehicles": 2,
             "police_cars": 1
         },
         "chances": {
@@ -1762,7 +1764,7 @@
         "id": 72,
         "name": "Katastrofa awionetki",
         "place": null,
-        "average_credits": 4000,
+        "average_credits": 4500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/planecrash_gruen.png",
@@ -1772,6 +1774,7 @@
         "requirements": {
             "water_needed": 9000,
             "firetrucks": 4,
+            "fwk": 1,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
@@ -2701,6 +2704,7 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
+            "water_tankers": 1,
             "police_cars": 1
         },
         "chances": {
@@ -2947,8 +2951,7 @@
             "water_needed": 10000,
             "firetrucks": 4,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "platform_trucks": 1
         },
         "chances": {},
         "additional": {
@@ -4074,7 +4077,7 @@
         "id": 189,
         "name": "Zderzenie wozu stra\u017cackiego z samochodem osobowym",
         "place": "Zjazd z autostrady",
-        "average_credits": 1600,
+        "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -4107,7 +4110,7 @@
         "id": 190,
         "name": "Zderzenie radiowozu z samochodem osobowym",
         "place": "Zjazd z autostrady",
-        "average_credits": 1600,
+        "average_credits": 2500,
         "generated_by": "Komenda Policji",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -4141,7 +4144,7 @@
         "id": 191,
         "name": "Zderzenie karetki z samochodem osobowym",
         "place": "Zjazd z autostrady",
-        "average_credits": 1600,
+        "average_credits": 2500,
         "generated_by": "Stacja Pogotowia Ratunkowego",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -4175,7 +4178,7 @@
         "id": 192,
         "name": "Rozpylona nieznana substancja w markecie",
         "place": null,
-        "average_credits": 6500,
+        "average_credits": 6650,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/radiation_gruen.png",
@@ -4186,6 +4189,7 @@
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
             "police_cars": 2
         },
@@ -4203,7 +4207,7 @@
         "id": 193,
         "name": "Wybuch agregatu ch\u0142odz\u0105cego",
         "place": null,
-        "average_credits": 5000,
+        "average_credits": 4900,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4217,7 +4221,7 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 1
         },
         "chances": {
             "patient_transport": 20,
@@ -4763,7 +4767,7 @@
         "id": 211,
         "name": "Po\u017car wagon\u00f3w kolejowych na bocznicy",
         "place": "Przejazd kolejowy",
-        "average_credits": 3000,
+        "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4947,20 +4951,24 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "water_needed": 10000,
-            "firetrucks": 5,
+            "water_needed": 6000,
+            "firetrucks": 2,
             "battalion_chief_vehicles": 2,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
             "police_cars": 2
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 124,
+                "1": 213,
+                "2": 226,
+                "3": 182
+            },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "police_stations": 1,
+            "police_stations": 2,
             "fire_stations": 7
         }
     },
@@ -5262,10 +5270,12 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
-            "height_rescue_units": 2
+            "height_rescue_units": 1
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 7
         }
@@ -5291,14 +5301,16 @@
             "height_rescue_units": 4
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 7
         }
     },
     "239": {
         "id": 239,
-        "name": "Po\u017car komina chutniczego",
+        "name": "Po\u017car komina hutniczego",
         "place": null,
         "average_credits": 4000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
@@ -5314,10 +5326,12 @@
             "platform_trucks": 3,
             "heavy_rescue_vehicles": 2,
             "mobile_air_vehicles": 2,
-            "height_rescue_units": 3
+            "height_rescue_units": 2
         },
         "chances": {},
-        "additional": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
         "prerequisites": {
             "fire_stations": 7
         }
@@ -5351,12 +5365,76 @@
         "additional": {
             "possible_patient": 30,
             "possible_patient_min": 20,
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
             "rescue_stations": 10,
             "police_stations": 5,
             "fire_stations": 20
+        }
+    },
+    "241": {
+        "id": 241,
+        "name": "Karambol w tunelu",
+        "place": "Tunel",
+        "average_credits": 3200,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "water_needed": 4000,
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 80
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 15
+        }
+    },
+    "242": {
+        "id": 242,
+        "name": "Przewr\u00f3cenie Si\u0119 Cysterny Z Paliwem",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "water_needed": 5000,
+            "firetrucks": 4,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 14
         }
     }
 }

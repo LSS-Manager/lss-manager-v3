@@ -15175,5 +15175,46 @@
             "police_stations": 3,
             "fire_stations": 10
         }
+    },
+    "559": {
+        "id": 559,
+        "name": "Unbekannte Fl\u00fcssigkeit aus LKW",
+        "place": "Chemiepark",
+        "average_credits": 3100,
+        "generated_by": "Werkfeuerwehr",
+        "icons": {
+            "0": "/images/oil_gruen.png",
+            "1": "/images/oil_gelb.png",
+            "2": "/images/oil_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "ulf": 1,
+            "gw_werkfeuerwehr": 1,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 40,
+            "nef": 45,
+            "patient_transport": 50,
+            "gw_werkfeuerwehr": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "factory_fire_brigade_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "werkfeuerwehr": 1,
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 10
+        }
     }
 }
