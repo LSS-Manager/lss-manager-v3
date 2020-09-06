@@ -3,6 +3,7 @@
 (function(I18n, $) {
     let LSS_SHAREALLIANCEPOST_STORAGE = 'LSS_SHAREALLIANCEPOST_STORAGE';
 
+
     I18n.translations.de_DE.lssm.sharealliancepost = {
         share: 'Teilen...',
         chat: 'Chatten...',
@@ -529,7 +530,7 @@
         });
     };
 
-    const transformMessages = callback => {
+    const transformMessages = async callback => {
         try {
             // Prepare values for %ADDRESS% and %PATIENTS_LEFT%
             // Possible inputs 'xy street, 1234 city', '1234 city', '123 city | 2' (where 2 is number of patients)
@@ -580,13 +581,9 @@
                 const missionID = missionlink
                     .replace(/\?.*$/, '')
                     .match(/\d*$/)[0];
-                const langCode = I18n.currentLocale();
-                fetch(
-                    `https://proxy.lss-manager.de/api/missions.php?lang=${langCode}&mission=${missionID}`,
-                    { cache: 'no-cache' }
-                )
-                    .then(res => res.json())
-                    .then(data => {
+                let requirements = JSON.parse(localStorage.aMissions).value;
+                if(requirements.filter(e => e.id == parseInt(missionID))[0] == undefined) await $.getJSON('/einsaetze.json').done(data => {localStorage.setItem('aMissions', JSON.stringify({lastUpdate: new Date().getTime(), value: data})); requirements = data;})
+                let data = requirements.filter(e => e.id == parseInt(missionID))[0];
                         messages = messages.map(message => {
                             message = message.replace(/%CREDITS%/g, data.average_credits?.toLocaleString()||'');
                             message = message.replace(/%ADDRESS%/g, address);
@@ -611,8 +608,7 @@
                             return message;
                         });
                         callback();
-                    });
-            }
+                    };
         } catch (e) {
             console.log('Error transforming messages', e);
         }
