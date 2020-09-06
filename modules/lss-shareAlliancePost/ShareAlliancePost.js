@@ -1,9 +1,8 @@
 /* global jQuery, I18n, lssm */
 
-(async function(I18n, $) {
+(function(I18n, $) {
     let LSS_SHAREALLIANCEPOST_STORAGE = 'LSS_SHAREALLIANCEPOST_STORAGE';
 
-    if(!localStorage.aMissions || JSON.parse(localStorage.aMissions).lastUpdate < (new Date().getTime() - 5 * 1000 * 60)) await $.getJSON('/einsaetze.json').done(data => localStorage.setItem('aMissions', JSON.stringify({lastUpdate: new Date().getTime(), value: data})) );
 
     I18n.translations.de_DE.lssm.sharealliancepost = {
         share: 'Teilen...',
@@ -531,7 +530,7 @@
         });
     };
 
-    const transformMessages = callback => {
+    const transformMessages = async callback => {
         try {
             // Prepare values for %ADDRESS% and %PATIENTS_LEFT%
             // Possible inputs 'xy street, 1234 city', '1234 city', '123 city | 2' (where 2 is number of patients)
@@ -609,8 +608,7 @@
                             return message;
                         });
                         callback();
-                    });
-            }
+                    };
         } catch (e) {
             console.log('Error transforming messages', e);
         }
