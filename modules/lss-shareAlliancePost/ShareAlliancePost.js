@@ -1,8 +1,9 @@
 /* global jQuery, I18n, lssm */
 
-(function(I18n, $) {
+(async function(I18n, $) {
     let LSS_SHAREALLIANCEPOST_STORAGE = 'LSS_SHAREALLIANCEPOST_STORAGE';
-
+	
+	if(!localStorage.aMissions || JSON.parse(localStorage.aMissions).lastUpdate < (new Date().getTime() - 1000 * 60 * 60 * 24)) await $.getJSON('/einsaetze.json').done(data => localStorage.setItem('aMissions', JSON.stringify({lastUpdate: new Date().getTime(), value: data})) );
 
     I18n.translations.de_DE.lssm.sharealliancepost = {
         share: 'Teilen...',
