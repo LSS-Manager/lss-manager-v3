@@ -2867,9 +2867,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
@@ -4279,6 +4277,34 @@
         "prerequisites": {
             "brush_extension": 2,
             "fire_stations": 2
+        }
+    },
+    "193": {
+        "id": 193,
+        "name": "Panik p\u00e5 discot",
+        "place": "Nattklubb",
+        "average_credits": 3500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Allm\u00e4nkirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
         }
     }
 }

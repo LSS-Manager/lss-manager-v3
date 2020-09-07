@@ -4529,5 +4529,67 @@
             "police_stations": 3,
             "fire_stations": 15
         }
+    },
+    "212": {
+        "id": 212,
+        "name": "Fire in Warehouse",
+        "place": "Warehouse",
+        "average_credits": 2230,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 50
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 8
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Recycling Centre Fire",
+        "place": "Recycling Centre",
+        "average_credits": 10000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 15
+        }
     }
 }

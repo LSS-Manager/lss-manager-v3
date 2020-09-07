@@ -4432,5 +4432,63 @@
             "police_stations": 3,
             "fire_stations": 15
         }
+    },
+    "205": {
+        "id": 205,
+        "name": "Mission de sensibilisation dans une \u00e9cole",
+        "place": "\u00c9cole",
+        "average_credits": 1800,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {},
+        "chances": {},
+        "additional": {
+            "duration": "60 minutes",
+            "average_min_fire_personnel": 3,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Feu de centre de recyclage",
+        "place": "Centre de recyclage",
+        "average_credits": 9720,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 16
+        }
     }
 }

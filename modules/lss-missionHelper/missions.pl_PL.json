@@ -4961,8 +4961,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -5229,6 +5228,68 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 11
+        }
+    },
+    "228": {
+        "id": 228,
+        "name": "Potr\u0105cenie przez poci\u0105g",
+        "place": null,
+        "average_credits": 5425,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 5
+        },
+        "chances": {
+            "battalion_chief_vehicles": 100,
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 90,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "229": {
+        "id": 229,
+        "name": "Nieprzytomna osoba na chodniku",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
         }
     },
     "236": {
