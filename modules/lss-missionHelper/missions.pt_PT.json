@@ -3524,5 +3524,36 @@
             "rescue_stations": 1,
             "fire_stations": 3
         }
+    },
+    "145": {
+        "id": 145,
+        "name": "Acidente com El\u00e9trico",
+        "place": "Paragem de El\u00e9trico",
+        "average_credits": 7000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "fire_stations": 8
+        }
     }
 }

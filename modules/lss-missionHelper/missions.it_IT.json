@@ -6094,5 +6094,86 @@
             "rescue_stations": 2,
             "fire_stations": 2
         }
+    },
+    "220": {
+        "id": 220,
+        "name": "Frana",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 2
+        },
+        "chances": {
+            "battalion_chief_vehicles": 25
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 221
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "fire_stations": 6
+        }
+    },
+    "221": {
+        "id": 221,
+        "name": "Persone sotto le macerie",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_helicopters": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "fwk": 40,
+            "patient_transport": 85,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 12,
+            "possible_patient_min": 2,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 8
+        }
     }
 }
