@@ -1559,28 +1559,6 @@
             "fire_stations": 3
         }
     },
-    "65": {
-        "id": 65,
-        "name": "Po\u017car kuchni",
-        "place": null,
-        "average_credits": 1000,
-        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
     "66": {
         "id": 66,
         "name": "Po\u017car pomieszczenia",
@@ -1640,7 +1618,7 @@
         "id": 68,
         "name": "Po\u017car du\u017cego supermarketu",
         "place": "Supermarket (du\u017cy)",
-        "average_credits": 3000,
+        "average_credits": 6000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1656,67 +1634,6 @@
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "mobile_air_vehicles": 2,
-            "police_cars": 1
-        },
-        "chances": {
-            "water_tankers": 20,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 6,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "Interna"
-        },
-        "prerequisites": {
-            "rescue_stations": 3,
-            "police_stations": 2,
-            "fire_stations": 8
-        }
-    },
-    "69": {
-        "id": 69,
-        "name": "Wyciek nieznanej substancji z cysterny",
-        "place": null,
-        "average_credits": 4300,
-        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
-        "icons": {
-            "0": "/images/oil_gruen.png",
-            "1": "/images/oil_gelb.png",
-            "2": "/images/oil_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 2,
-            "heavy_rescue_vehicles": 2,
-            "hazmat_vehicles": 1,
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "police_stations": 2,
-            "fire_stations": 13
-        }
-    },
-    "70": {
-        "id": 70,
-        "name": "Po\u017car du\u017cego supermarketu",
-        "place": "Supermarket (du\u017cy)",
-        "average_credits": 3000,
-        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
             "police_cars": 1
         },
         "chances": {
@@ -2465,7 +2382,8 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 2
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1
         },
         "chances": {
             "patient_transport": 80
@@ -2473,6 +2391,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 0,
+            "expansion_missions_ids": {
+                "0": 5
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
         },
@@ -2587,7 +2508,7 @@
         "id": 121,
         "name": "Po\u017car Du\u017cego Magazynu",
         "place": "Magazyn",
-        "average_credits": 9500,
+        "average_credits": 10000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2595,9 +2516,12 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 9,
+            "firetrucks": 12,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 4
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
         },
         "chances": {},
         "additional": {
@@ -2846,10 +2770,10 @@
         "requirements": {
             "firetrucks": 1,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "heavy_rescue_vehicles": 1,
+            "height_rescue_units": 1
         },
         "chances": {
-            "platform_trucks": 50,
             "patient_transport": 30
         },
         "additional": {
@@ -4325,10 +4249,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 60,
-                "1": 128
-            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -4827,7 +4747,7 @@
         "id": 213,
         "name": "Du\u017cy po\u017car pola",
         "place": null,
-        "average_credits": 1800,
+        "average_credits": 3800,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4836,9 +4756,9 @@
         },
         "requirements": {
             "water_needed": 20000,
-            "firetrucks": 6,
+            "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "water_tankers": 2
+            "water_tankers": 1
         },
         "chances": {},
         "additional": {
@@ -4890,7 +4810,7 @@
             "battalion_chief_vehicles": 3,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 3,
-            "water_tankers": 3,
+            "water_tankers": 1,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 2,
             "police_cars": 4
@@ -5046,8 +4966,7 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100,
-            "helicopter": 60
+            "patient_transport": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -5072,8 +4991,7 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100,
-            "helicopter": 60
+            "patient_transport": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -5131,7 +5049,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Urologia"
+            "patient_specializations": "Ginekologia"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -5360,7 +5278,7 @@
             "platform_trucks": 4,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
-            "height_rescue_units": 4
+            "height_rescue_units": 2
         },
         "chances": {},
         "additional": {
@@ -5402,7 +5320,7 @@
         "id": 240,
         "name": "Po\u017car biurowca",
         "place": null,
-        "average_credits": 15000,
+        "average_credits": 20000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -5417,7 +5335,7 @@
             "platform_trucks": 4,
             "water_tankers": 3,
             "mobile_air_vehicles": 4,
-            "height_rescue_units": 6,
+            "height_rescue_units": 4,
             "police_cars": 5
         },
         "chances": {
@@ -5473,7 +5391,7 @@
         "id": 242,
         "name": "Przewr\u00f3cenie Si\u0119 Cysterny Z Paliwem",
         "place": null,
-        "average_credits": 2500,
+        "average_credits": 3000,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -5483,6 +5401,7 @@
         "requirements": {
             "water_needed": 5000,
             "firetrucks": 4,
+            "fwk": 1,
             "heavy_rescue_vehicles": 1,
             "police_cars": 2
         },
@@ -5491,6 +5410,9 @@
         },
         "additional": {
             "possible_patient": 2,
+            "expansion_missions_ids": {
+                "0": 29
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Interna"
         },
