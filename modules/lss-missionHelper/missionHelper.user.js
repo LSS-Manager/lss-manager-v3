@@ -340,6 +340,26 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.subsequent = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.subsequent.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.subsequent.description'
+                    ),
+                },
+            };
+            managed_settings.settings.show_droinv = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_droinv.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_droinv.description'
+                    ),
+                },
+            };
             break;
     }
 
@@ -594,6 +614,10 @@ const lssm_missionhelper_adjustPosition = () => {
                             MISSION.additional &&
                             MISSION.additional.allow_ktw_instead_of_rtw &&
                             vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
+                    else if (SETTINGS.show_droinv &&
+                        MISSION.additional &&
+                        MISSION.additional.allow_drone_instead_of_investigation &&
+                        vehicle === 'fbi_investigation') vehicleName = 'fbi_drone';
                     else if (SETTINGS.show_arfflf &&
                         MISSION.additional &&
                         MISSION.additional.allow_arff_instead_of_lf &&
@@ -751,6 +775,19 @@ const lssm_missionhelper_adjustPosition = () => {
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
                     }</span></a>`;
+                }
+            }
+            if (SETTINGS.subsequent && MISSION.subsequent_missions_ids) {
+                content.innerHTML += `<br>${I18n.t(
+                    'lssm.missionhelper.subs'
+                )}:<br> `;
+                for (let i of Object.keys(
+                    MISSION.subsequent_missions_ids
+                )) {
+                    let id = MISSION.subsequent_missions_ids[i];
+                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
+                        MISSIONS[id] ? MISSIONS[id].name : id
+                        }</span></a>`;
                 }
             }
 

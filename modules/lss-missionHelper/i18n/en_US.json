@@ -9,6 +9,7 @@
         "to": "up to",
         "exp": "Spreads",
         "fwm": "Follow-up missions",
+        "subs": "Subsequent missions on success",
         "SWATPersonnel": "Needed SWAT Personnel",
         "ambulance_only": "This mission is ambulance-only!",
         "averageMinimumEmployeesFire": "Average min . Fire Personnel",
@@ -69,7 +70,15 @@
         },
         "followup": {
             "label": "Follow-up missions",
-            "description": "Shows what the insert can generate for follow-up missions"
+            "description": "Shows what the mission can generate for follow-up missions"
+        },
+        "subsequent": {
+            "label": "Subsequent missions",
+            "description": "Shows what the mission can generate for Subsequent missions at the end of mission"
+        },
+        "show_droinv": {
+            "label": "Show drone can replace investigation",
+            "description": "Shows whether an FBI Surveillance Drone can replace an FBI Investigation wagon"
         },
             "show_100": {
                 "label": "Show 100% probability",
@@ -127,9 +136,16 @@
             "swat_suv": "SWAT SUV",
             "helicopter": "HEMS",
             "police_helicopters": "Police Helicopter",
+            "fbi": "FBI Units",
+            "fbi_drone": "FBI Surveillance Drone",
+            "fbi_mcc": "FBI Mobile Command Centers",
+            "fbi_bomb": "FBI Bomb Technician Vehicles",
+            "fbi_investigation": "FBI Investigation wagons",
+            "sheriff": "Sheriff",
             "emschief": "EMS Chief",
             "brush_truck": "Wildland fire engines",
             "fire_aviation": "Airborne Firefighting Vehicles",
-            "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue"
+            "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue",
+            "allow_drone_instead_of_investigation": "FBI Surveillance Drone can Replace Investigation wagon"
     }
 }

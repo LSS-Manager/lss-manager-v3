@@ -1183,7 +1183,8 @@
         rd: 'Rescue Department',
         pol: 'Police',
         heli: 'Helicopter',
-        brush: 'Brush'
+        brush: 'Brush',
+        fbi: 'FBI'
     };
 
     I18n.translations.en_US.lssm.overview.buildings = {
@@ -1311,6 +1312,16 @@
             startPersonell: 2,
             startVehicle: 'Patrol Car',
             maxBuildings: '1.100',
+        },
+        fbi: {
+            name: 'Federal Police Station',
+            credits: 5000000,
+            coins: 50,
+            maxlevel: 20,
+            levelcost: '1. 10.000<br>2. 50.000<br>3.-20. 100.000',
+            startPersonell: 10,
+            startVehicle: 'FBI Unit',
+            maxBuildings: 'x',
         },
         polschule: {
             name: 'Police Academy',
@@ -1588,6 +1599,14 @@
                 credits: 5000,
                 coins: 25
             },
+            sheriff: {
+                name: 'Sheriff Unit',
+                min: 1,
+                max: 2,
+                credits: 15000,
+                coins: 20,
+                schooling: 'Sheriff'
+            },
             k9: {
                 name: 'K-9',
                 min: 1,
@@ -1623,6 +1642,46 @@
                 schooling: 'SWAT',
                 special: 'Required from 8 Police stations'
 
+            },
+        },
+        fbi: {
+            fbiu: {
+                name: 'FBI Unit',
+                min: 2,
+                max: 4,
+                credits: 10000,
+                coins: 15
+            },
+            fbiiw: {
+                name: 'Sheriff Unit',
+                min: 2,
+                max: 4,
+                credits: 10000,
+                coins: 15
+            },
+            fbimcc: {
+                name: 'FBI Mobile Command Center',
+                min: 1,
+                max: 4,
+                credits: 25000,
+                coins: 25,
+                schooling: 'FBI Mobile Center Commmander'
+            },
+            fbibomb: {
+                name: 'FBI Bomb Technician Vehicle',
+                min: 1,
+                max: 2,
+                credits: 35000,
+                coins: 35,
+                schooling: 'FBI Bomb Technician'
+            },
+            fbidrone: {
+                name: 'FBI Surveillance Drone',
+                min: 1,
+                max: 1,
+                credits: 25000,
+                coins: 25,
+                schooling: 'FBI Drone Operator'
             },
         },
         brush: {

@@ -49,7 +49,13 @@ if (I18n.locale == "en_US") {
         "38": ["Type 4 engine", 0],
         "39": ["Type 6 engine", 0],
         "40": ["Dozer Trailer", 0],
-        "41": ["Crew cap semi", 0]
+        "41": ["Crew cap semi", 0],
+        "42": ["FBI Unit", 2],
+        "43": ["FBI Investigation Wagon", 2],
+        "44": ["FBI Mobile Command Center", 2],
+        "45": ["FBI Bomb Technician Vehicle", 2],
+        "46": ["FBI Surveillance Drone", 2],
+        "47": ["Sheriff Unit", 2]
     };
 }
 else if (I18n.locale == "en_GB") {
