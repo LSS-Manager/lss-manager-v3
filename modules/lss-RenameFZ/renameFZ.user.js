@@ -210,7 +210,8 @@
                 14: "Urgent Care Center",
                 15: "Police Station (Small station)",
                 16: "Ambulance station (Small station)",
-                17: "Firefighting plane station"
+                17: "Firefighting plane station",
+                18: 'Federal Police Station'
             },
             vehicleTypes: {
                 0: 'Type 1 fire engine',
@@ -254,7 +255,13 @@
                 38: 'Type 4 engine',
                 39: 'Type 6 engine',
                 40: 'Dozer Trailer',
-                41: 'Crew cap semi'
+                41: 'Crew cap semi',
+                42: 'FBI Unit',
+                43: 'FBI Investigation Wagon',
+                44: 'FBI Mobile Command Center',
+                45: 'FBI Bomb Technician Vehicle',
+                46: 'FBI Surveillance Drone',
+                47: 'Sheriff Unit'
             }
         }
     };
@@ -721,6 +728,7 @@
                 6: "Politistasjon",
                 7: "Nødetatssenter",
                 13: "Politiheliport",
+                15: "Vannredning",
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
                 20: "Ambulansestasjon (liten)"
@@ -744,7 +752,10 @@
                 15: 'Delta kjøretøy',
                 16: 'Røykdykkerbil',
                 17: 'Innsatsstøttebil',
-                18: 'Redningsbil'
+                18: 'Redningsbil',
+                19: 'Dykkerbil',
+                20: 'Lett redningsbåt',
+                21: 'Branntankbil'
             }
         }
     };

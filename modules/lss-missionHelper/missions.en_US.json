@@ -12786,5 +12786,810 @@
             "police_stations": 1,
             "fire_stations": 10
         }
+    },
+    "438": {
+        "id": 438,
+        "name": "Serve court order",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 464
+            }
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "439": {
+        "id": 439,
+        "name": "Serve eviction notice",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 440
+            }
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "440": {
+        "id": 440,
+        "name": "Eviction standby",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/courthouse_gruen.png",
+            "1": "/images/courthouse_gelb.png",
+            "2": "/images/courthouse_rot.png"
+        },
+        "requirements": {
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "15 minutes",
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "441": {
+        "id": 441,
+        "name": "Office Investigation",
+        "place": "Office Building",
+        "average_credits": 500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "fbi": 1,
+            "fbi_investigation": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 442,
+                "1": 443
+            },
+            "allow_drone_instead_of_investigation": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1
+        }
+    },
+    "442": {
+        "id": 442,
+        "name": "Office used for crypto attacks",
+        "place": "Office Building",
+        "average_credits": 1600,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fbi": 3,
+            "fbi_investigation": 1,
+            "fbi_mcc": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 444
+            }
+        },
+        "prerequisites": {
+            "federalpolice_stations": 3
+        }
+    },
+    "443": {
+        "id": 443,
+        "name": "Office embedded in corruption",
+        "place": "Office Building",
+        "average_credits": 1900,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "fbi": 3,
+            "fbi_investigation": 1,
+            "fbi_mcc": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "federal_police_missions"
+        },
+        "prerequisites": {
+            "federalpolice_stations": 3
+        }
+    },
+    "444": {
+        "id": 444,
+        "name": "Cyber-Criminal organization hideout",
+        "place": null,
+        "average_credits": 3600,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "fbi": 5,
+            "fbi_mcc": 1,
+            "fbi_drone": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 8,
+            "swat_personnel": 10,
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 8
+        }
+    },
+    "445": {
+        "id": 445,
+        "name": "Restaurant Investigation",
+        "place": "Fast Food Restaurant",
+        "average_credits": 500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "fbi": 1,
+            "fbi_investigation": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 446
+            }
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1
+        }
+    },
+    "446": {
+        "id": 446,
+        "name": "Money laundry operations inside restaurant",
+        "place": "Fast Food Restaurant",
+        "average_credits": 1700,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fbi": 3,
+            "fbi_investigation": 1,
+            "fbi_mcc": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "federal_police_missions",
+            "subsequent_missions_ids": {
+                "0": 447
+            }
+        },
+        "prerequisites": {
+            "federalpolice_stations": 3
+        }
+    },
+    "447": {
+        "id": 447,
+        "name": "Criminal organization meeting",
+        "place": null,
+        "average_credits": 3700,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/fbi_gruen.png",
+            "1": "/images/fbi_gelb.png",
+            "2": "/images/fbi_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "fbi": 5,
+            "fbi_mcc": 1,
+            "fbi_drone": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 10,
+            "swat_personnel": 12,
+            "filter_id": "federal_police_missions",
+            "subsequent_mission_only": true
+        },
+        "prerequisites": {
+            "federalpolice_stations": 8
+        }
+    },
+    "448": {
+        "id": 448,
+        "name": "Notebook stolen from school",
+        "place": "School",
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "449": {
+        "id": 449,
+        "name": "Burglary in basement",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "450": {
+        "id": 450,
+        "name": "Property damaged",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "451": {
+        "id": 451,
+        "name": "Disturbance of peace",
+        "place": null,
+        "average_credits": 250,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "452": {
+        "id": 452,
+        "name": "Motorcycle accident",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "firetrucks": 10,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 1
+        }
+    },
+    "453": {
+        "id": 453,
+        "name": "Drunk driving",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "454": {
+        "id": 454,
+        "name": "Breakdown of vehicle",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "455": {
+        "id": 455,
+        "name": "Robbery",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "456": {
+        "id": 456,
+        "name": "Domestic violence",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "457": {
+        "id": 457,
+        "name": "Bicycle stolen",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "458": {
+        "id": 458,
+        "name": "Safeguarding of musical parade",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 hour",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "459": {
+        "id": 459,
+        "name": "Horse riding accident with vehicle",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3
+        }
+    },
+    "460": {
+        "id": 460,
+        "name": "Traffic surveillance",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 hour",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "461": {
+        "id": 461,
+        "name": "Petrol fraud",
+        "place": "Gas station",
+        "average_credits": 300,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "462": {
+        "id": 462,
+        "name": "Illegal gun withdrawal",
+        "place": null,
+        "average_credits": 1700,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi": 4,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "federalpolice_stations": 1
+        }
+    },
+    "463": {
+        "id": 463,
+        "name": "Silent alarm triggered inside bank",
+        "place": "High Rise",
+        "average_credits": 500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "464": {
+        "id": 464,
+        "name": "Warrant enforcement",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "sheriff": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "465": {
+        "id": 465,
+        "name": "Wrong-way driver",
+        "place": "Highway exit",
+        "average_credits": 1000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "466": {
+        "id": 466,
+        "name": "Hunter accidently injured trespasser",
+        "place": "Forest",
+        "average_credits": 200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
+        }
+    },
+    "467": {
+        "id": 467,
+        "name": "Mass panic in discotheque",
+        "place": "Discotheque",
+        "average_credits": 3500,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 9
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 2
+        },
+        "additional": {
+            "possible_patient": 17,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 9
+        }
+    },
+    "468": {
+        "id": 468,
+        "name": "Abandoned luggage",
+        "place": "Train station (regional traffic)",
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "469": {
+        "id": 469,
+        "name": "Abandoned luggage",
+        "place": "Bridge",
+        "average_credits": 150,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

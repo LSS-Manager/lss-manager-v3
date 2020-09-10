@@ -7,6 +7,8 @@
     "to": "opp til",
     "exp": "Spre",
     "SWATPersonnel": "Nødvendig delta-personell",
+    "averageMinimumEmployeesFire": "Gjennomsnittlig min. Brannpersonell",
+    "averageMinimumEmployeesPolice": "Gjennomsnittlig min. Politipersonell",
     "ambulance_only": "Dette oppdraget er kun ambulanse!",
     "title": "Missionhelper",
     "transport": "Transportere",
@@ -95,6 +97,8 @@
         "swat_suv": "Delta kjøretøy",
         "police_helicopters": "Politihelikopter",
         "helicopter": "Räddningshelikopter",
+        "diver_units": "Dykkerbil",
+        "boats": "Lett Redningsbåt",
         "allow_rw_instead_of_lf": "Brannbiler eller tung redning"
     }
 }
