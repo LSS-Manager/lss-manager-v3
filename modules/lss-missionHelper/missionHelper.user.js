@@ -471,7 +471,7 @@ const lssm_missionhelper_adjustPosition = () => {
                             .possible_patient_specializations &&
                         ` ( ${Object.values(
                             MISSION.additional.possible_patient_specializations
-                        ).join(' or ')} )`}`;
+                        ).join(' oppure ')} )`}`;
                 } else if (
                     MISSION.chances.patient_transport ||
                     MISSION.additional.patient_specializations

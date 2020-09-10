@@ -721,6 +721,7 @@
                 6: "Politistasjon",
                 7: "Nødetatssenter",
                 13: "Politiheliport",
+                15: "Vannredning",
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
                 20: "Ambulansestasjon (liten)"
@@ -744,7 +745,10 @@
                 15: 'Delta kjøretøy',
                 16: 'Røykdykkerbil',
                 17: 'Innsatsstøttebil',
-                18: 'Redningsbil'
+                18: 'Redningsbil',
+                19: 'Dykkerbil',
+                20: 'Lett redningsbåt',
+                21: 'Branntankbil'
             }
         }
     };

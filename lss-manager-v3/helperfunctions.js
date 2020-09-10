@@ -214,7 +214,10 @@ else if (I18n.locale == "nb_NO") {
         "15": ["Delta kjøretøy", 2],
         "16": ["Røykdykkerbil", 0],
         "17": ["Innsatsstøttebil", 0],
-        "18": ["Redningsbil", 0]
+        "18": ["Redningsbil", 0],
+        "19": ["Dykkerbil", 4],
+        "20": ["Lett redningsbåt", 4],
+        "21": ["Branntankbil", 0]
     };
 }
 else if (I18n.locale == "pl_PL") {

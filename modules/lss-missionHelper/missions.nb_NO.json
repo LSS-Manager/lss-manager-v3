@@ -4327,5 +4327,225 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "179": {
+        "id": 179,
+        "name": "Bil under vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 1400,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 1,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "180": {
+        "id": 180,
+        "name": "Lastebil under vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 2000,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 1,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "Buss under vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 3000,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 2,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "water_watch_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 3,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "Dykkerulykke",
+        "place": "Innsj\u00f8",
+        "average_credits": 1000,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Savnet person ved vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 3000,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "184": {
+        "id": 184,
+        "name": "Person i vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 1000,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 1
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Person i vann",
+        "place": "Innsj\u00f8",
+        "average_credits": 1200,
+        "generated_by": "Vannredning",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
     }
 }
