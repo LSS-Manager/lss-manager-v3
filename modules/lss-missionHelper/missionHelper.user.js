@@ -777,14 +777,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     }</span></a>`;
                 }
             }
-            if (SETTINGS.subsequent && MISSION.subsequent_missions_ids) {
+            if (SETTINGS.subsequent && MISSION.additional.subsequent_missions_ids) {
                 content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.subs'
                 )}:<br> `;
                 for (let i of Object.keys(
-                    MISSION.subsequent_missions_ids
+                    MISSION.additional.subsequent_missions_ids
                 )) {
-                    let id = MISSION.subsequent_missions_ids[i];
+                    let id = MISSION.additional.subsequent_missions_ids[i];
                     content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
                         MISSIONS[id] ? MISSIONS[id].name : id
                         }</span></a>`;
