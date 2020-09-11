@@ -1653,7 +1653,7 @@
                 coins: 15
             },
             fbiiw: {
-                name: 'Sheriff Unit',
+                name: 'FBI Investigation Wagon',
                 min: 2,
                 max: 4,
                 credits: 10000,

@@ -15216,5 +15216,35 @@
             "police_stations": 2,
             "fire_stations": 10
         }
+    },
+    "560": {
+        "id": 560,
+        "name": "Absicherung Motocrossrennen",
+        "place": "Motorsportanlage",
+        "average_credits": 3000,
+        "generated_by": "SEG",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 4,
+            "gw_san": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "4 Stunden",
+            "average_min_fire_personnel": 10,
+            "guard_mission": true,
+            "filter_id": "rapid_deployment_group_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "seg": 1,
+            "fire_stations": 5
+        }
     }
 }
