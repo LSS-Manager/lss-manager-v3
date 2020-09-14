@@ -6175,5 +6175,59 @@
             "police_helicopter_stations": 1,
             "fire_stations": 8
         }
+    },
+    "222": {
+        "id": 222,
+        "name": "Chiusura uscita autostradale",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "45 Minuti",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "223": {
+        "id": 223,
+        "name": "Sversamento di olio su strada",
+        "place": null,
+        "average_credits": 580,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25,
+                "1": 118,
+                "2": 106
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 1
+        }
     }
 }

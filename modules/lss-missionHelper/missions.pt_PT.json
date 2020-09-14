@@ -3555,5 +3555,32 @@
             "police_stations": 4,
             "fire_stations": 8
         }
+    },
+    "146": {
+        "id": 146,
+        "name": "Atropelamento de Ciclistas",
+        "place": null,
+        "average_credits": 2950,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Cirurgia Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 5
+        }
     }
 }

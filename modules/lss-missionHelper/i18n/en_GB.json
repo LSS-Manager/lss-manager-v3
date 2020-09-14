@@ -3,6 +3,7 @@
     "exp": "Spreads",
     "fwm": "Follow-up missions",
     "SWATPersonnel": "Needed Armed Response Personnel",
+	"averageMinimumEmployeesFire": "Average min . Fire Personnel",
     "criticalchance": "Critical Care Chance",
     "ukcodes": "Possible patient codes",
     "settings": {
