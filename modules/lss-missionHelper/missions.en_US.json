@@ -137,7 +137,6 @@
         },
         "chances": {
             "platform_trucks": 30,
-            "nef": 0,
             "patient_transport": 50
         },
         "additional": {
@@ -667,7 +666,6 @@
             "firetrucks": 1
         },
         "chances": {
-            "nef": 0,
             "patient_transport": 40
         },
         "additional": {
@@ -958,7 +956,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 100
         },
         "additional": {
@@ -995,7 +992,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 50
         },
         "additional": {
@@ -1029,7 +1025,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 50
         },
         "additional": {
@@ -1091,7 +1086,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 90
         },
         "additional": {
@@ -1121,7 +1115,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 30
         },
         "additional": {
@@ -1211,7 +1204,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 50
         },
         "additional": {
@@ -2660,7 +2652,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 70
         },
         "additional": {
@@ -2745,7 +2736,6 @@
             "police_cars": 2
         },
         "chances": {
-            "nef": 0,
             "patient_transport": 50
         },
         "additional": {
@@ -7299,7 +7289,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 0
         },
         "additional": {
@@ -12787,6 +12776,43 @@
             "fire_stations": 10
         }
     },
+    "435": {
+        "id": 435,
+        "name": "Overturned tanker truck",
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "77-C-2",
+                "1": "77-D-10"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
     "438": {
         "id": 438,
         "name": "Serve court order",
@@ -13424,7 +13450,7 @@
     "463": {
         "id": 463,
         "name": "Silent alarm triggered inside bank",
-        "place": "High Rise",
+        "place": "Bank",
         "average_credits": 500,
         "generated_by": "Police station",
         "icons": {

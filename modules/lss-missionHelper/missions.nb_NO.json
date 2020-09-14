@@ -4328,6 +4328,31 @@
             "fire_stations": 15
         }
     },
+    "173": {
+        "id": 173,
+        "name": "Uhell med syre",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "179": {
         "id": 179,
         "name": "Bil under vann",

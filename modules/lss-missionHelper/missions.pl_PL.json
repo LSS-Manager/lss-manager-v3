@@ -5216,6 +5216,60 @@
             "rescue_stations": 4
         }
     },
+    "230": {
+        "id": 230,
+        "name": "Nieprzytomna osoba na przystanku autobusowym",
+        "place": "Przystanek autobusowy",
+        "average_credits": 1500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "231": {
+        "id": 231,
+        "name": "Z\u0142amanie otwarte",
+        "place": "Park",
+        "average_credits": 1500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
     "236": {
         "id": 236,
         "name": "Atak Hakera na Stron\u0119 Rz\u0105dow\u0105",

@@ -4728,5 +4728,97 @@
             "rescue_stations": 4,
             "fire_stations": 6
         }
+    },
+    "211": {
+        "id": 211,
+        "name": "Railway Embankement Fire",
+        "place": "Train station (regional traffic)",
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "Railway Embankement Fire",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Railway Embankement Fire",
+        "place": "Railroad Crossing",
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "Railway Embankement Fire",
+        "place": "Rail Crossing",
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
     }
 }
