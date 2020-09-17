@@ -4515,5 +4515,262 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "214": {
+        "id": 214,
+        "name": "D\u00e9tenu en fuite",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "Recherche de malfaiteur",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1
+        }
+    },
+    "216": {
+        "id": 216,
+        "name": "Ex\u00e9cution de mandat d'arr\u00eat",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "police_helicopters": 40
+        },
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 217
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "police_helicopter_stations": 1
+        }
+    },
+    "217": {
+        "id": 217,
+        "name": "Agent en difficult\u00e9",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "218": {
+        "id": 218,
+        "name": "Recherche de  v\u00e9hicule",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "219": {
+        "id": 219,
+        "name": "Vente de stup\u00e9fiants sur la VP",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "220": {
+        "id": 220,
+        "name": "Vendeur \u00e0 la sauvette",
+        "place": null,
+        "average_credits": 1850,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "221": {
+        "id": 221,
+        "name": "Contr\u00f4le routier",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 minutes",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "222": {
+        "id": 222,
+        "name": "Activation d'alarme d'intrusion",
+        "place": null,
+        "average_credits": 1050,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 223
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "223": {
+        "id": 223,
+        "name": "Agression \u00e0 domicile",
+        "place": null,
+        "average_credits": 1290,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2
+        }
     }
 }

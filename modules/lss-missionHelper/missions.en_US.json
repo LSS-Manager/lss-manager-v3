@@ -13197,6 +13197,10 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "77-D-7",
+                "1": "77-D-6"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -13293,6 +13297,10 @@
             "possible_patient": 1,
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "114-D-1",
+                "1": "114-D-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -13366,6 +13374,9 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "77-D-6"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -13537,6 +13548,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "135-D-2"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -13567,6 +13581,11 @@
             "possible_patient": 17,
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "patient_us_code_possible": {
+                "0": "135-D-1",
+                "1": "113-D-1",
+                "2": "113-D-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {

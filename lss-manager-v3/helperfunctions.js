@@ -309,6 +309,9 @@ else if (I18n.locale == "fr_FR") {
         "15": ["BEA", 0],
         "16": ["VPL", 4],
         "17": ["BLS", 4],
+        "18": ["Choucas", 2],
+        "19": ["Equipe cynophile", 2],
+        "20": ["Unité motocycliste", 2]
     };
 }
 else if (I18n.locale == "ko_KR") {

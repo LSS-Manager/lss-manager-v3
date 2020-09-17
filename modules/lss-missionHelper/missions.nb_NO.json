@@ -2810,9 +2810,9 @@
         "average_credits": 1500,
         "generated_by": "Politistasjon",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
             "police_cars": 6

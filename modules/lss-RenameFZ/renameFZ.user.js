@@ -881,6 +881,7 @@
                 5: "Station d’hélicoptère",
                 6: "Poste de police",
                 7: "Centre de Traitement des Appels",
+                13: "Forces aériennes de la Gendarmerie nationale",
                 18: "Centre de Première Intervention",
                 19: "Commissariat (police)",
                 20: "Poste ambulancier (petit)"
@@ -903,7 +904,10 @@
                 14: 'VGRIMP',
                 15: 'BEA',
                 16: 'VPL',
-                17: 'BLS'
+                17: 'BLS',
+                18: 'Choucas',
+                19: 'Equipe cynophile',
+                20: 'Unité motocycliste',
             }
         }
     };
