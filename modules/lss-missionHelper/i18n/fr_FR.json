@@ -75,6 +75,10 @@
                 "label": "Exigences applicables aux agents de sécurité",
                 "description": "Affiche également les exigences pour les agents de sécurité de l'assistant."
             },
+            "show_k9": {
+                "label": "L'icône du chien derrière le nom de la mission",
+                "description": "Affiche un chien emoji derrière le nom de la mission si le k9 est requis."
+            },
             "mission_time": {
                 "label": "Heure de création",
                 "description": "Affiche la date et l'heure de création de la mission."
@@ -90,6 +94,8 @@
             "hazmat_vehicles": "Véhicules risques technologiques",
             "mobile_command_vehicles": "Véhicules poste de commandement",
             "police_cars": "Voitures de police",
+            "police_helicopters": "Soutien aérien FAG",
+            "k9": "Unité cynophile",
             "helicopter": "Dragon",
             "rth": "Dragon",
             "ambulances": "Ambulances",

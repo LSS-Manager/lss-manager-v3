@@ -5869,7 +5869,6 @@
         },
         "requirements": {},
         "chances": {
-            "nef": 0,
             "patient_transport": 0
         },
         "additional": {

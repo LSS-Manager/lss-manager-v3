@@ -449,20 +449,20 @@ const lssm_missionhelper_adjustPosition = () => {
             if (SETTINGS.show_rdu && MISSION.requirements.rescue_dog_units) {
                 document
                     .getElementById('missionH1')
-                    .insertAdjacentHTML('beforeend', '&nbsp;🐶');
+                    .insertAdjacentHTML('beforeend', '&nbsp;🐕‍🦺');
             }
 
             if (SETTINGS.show_k9 && (MISSION.requirements.k9 || MISSION.requirements.hondengeleider)) {
                 document
                     .getElementById('missionH1')
-                    .insertAdjacentHTML('beforeend', '&nbsp;🐕‍🦺');
+                    .insertAdjacentHTML('beforeend', '&nbsp;🐶');
             }
 
             if (SETTINGS.name || SETTINGS.id || SETTINGS.type || SETTINGS.poi) {
                 content.innerHTML += `<h3>${((SETTINGS.name && MISSION.name) ||
                     '') +
                     (SETTINGS.show_rdu1 && MISSION.requirements.rescue_dog_units
-                        ? '&nbsp;🐶'
+                        ? '&nbsp;🐕‍🦺'
                         : '')}<sub>${(SETTINGS.id &&
                     `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
                     ''}${(SETTINGS.type &&
