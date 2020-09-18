@@ -15246,5 +15246,33 @@
             "seg": 1,
             "fire_stations": 5
         }
+    },
+    "561": {
+        "id": 561,
+        "name": "Fremdk\u00f6rper in Wunde",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Rettungswache",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 508
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }
