@@ -189,7 +189,7 @@
             built: 'constructed',
             teame: ' aliance',
             team: '\\[Aliance\\]',
-            prisoner: 'Prisoner Transported',
+            prisoner: 'Vězeň převezen',
             num_missions: 'Součet / kreditů misí',
             num_patients: 'Součet / kreditů pacientů',
             num_prisoners: 'Součet / kreditů vězňů',
