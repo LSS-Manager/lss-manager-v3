@@ -10,7 +10,7 @@
 		'#chat_outer .panel-body,#radio_outer .panel-body{height:calc(100% - 40px);max-height:100%;padding-bottom:0}'+
 		'#chat_outer>div,#radio>div,#radio_outer>div{height:100%;margin:0}'+
 		'#missions{height:100%}'+
-		'#missions strong{display:none!important}'+
+		'.missions-panel-head strong{display:none!important}'+
 		'#missions>div>div>.btn-group{margin-bottom:5px;width:100%;border-radius:3px}'+
 		'#missions>div>div>.btn-group a{border:none;border-right:3px solid}'+
 		'#missions>div>div>.btn-group a:last-child{border:none}'+
