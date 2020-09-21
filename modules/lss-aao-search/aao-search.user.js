@@ -130,7 +130,7 @@
     function activateSearch()
     {
         "use strict";
-        $("#mission-aao-group").before('<input type="text" search_class="aao_searchable" class="search_input_field" id="lssm_aao_search" style="min-width: 400px;" placeholder="'+I18n.t('lssm.aaosearch.search_aao')+'">');
+        $("#mission-aao-group").before('<input type="text" search_class="aao_searchable" autocomplete="off" class="search_input_field" id="lssm_aao_search" style="min-width: 400px;" placeholder="'+I18n.t("lssm.aaosearch.search_aao") +'">');
         $('#lssm_aao_search').focus();
         $("#mission-aao-group").before('<div id="lssm_aao_results"></div>');
         $("#mission-aao-group").before('<div id="lssm_vehicle_group_results"></div>');
