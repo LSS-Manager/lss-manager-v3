@@ -25,7 +25,7 @@
         cellTax: 'owner\'s tax',
         settings: {
             beds: 'Hide full hospitals',
-            beds1: 'Blind hospitals under x beds off',
+            beds1: 'Hide hospitals under x beds',
             department: 'Hide hospitals without needed department',
             distance: 'Hide destinations above x km distance (0 deactivates)',
             tax: 'Hide destinations with a TAX higher than x%',
