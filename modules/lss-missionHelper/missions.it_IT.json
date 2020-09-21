@@ -6228,5 +6228,55 @@
             "police_stations": 1,
             "fire_stations": 1
         }
+    },
+    "224": {
+        "id": 224,
+        "name": "Frodi sul carburante",
+        "place": "Stazione di servizio",
+        "average_credits": 550,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "225": {
+        "id": 225,
+        "name": "Albero su rotaie",
+        "place": "Stazione ferroviaria (traffico regionale)",
+        "average_credits": 1000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 193
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 1
+        }
     }
 }

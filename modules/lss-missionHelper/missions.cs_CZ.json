@@ -4020,5 +4020,38 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "165": {
+        "id": 165,
+        "name": "Po\u017e\u00e1r tr\u017enice",
+        "place": "Tr\u017enice",
+        "average_credits": 3700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 80,
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": " firehouse_missions ",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 9
+        }
     }
 }
