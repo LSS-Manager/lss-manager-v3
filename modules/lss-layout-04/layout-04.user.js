@@ -13,7 +13,7 @@
       '#buildings_outer .panel-body{height:calc(49vh - 40px);max-height:100%}'+
       '#chat_outer .panel-body,#radio_outer .panel-body{height:calc(100% - 55px);max-height:100%;padding-bottom:0;width: 100%;}'+
       '#chat_outer>div,#radio>div,#radio_outer>div{height:100%;margin:0}'+
-      '#missions strong{display:none!important}'+
+      '.missions-panel-head strong{display:none!important}'+
       '#missions .btn-group{margin-left:11px}'+
       '#buildings_outer,#chat_outer,#radio_outer{margin-left:5px}'+
       '#btn-alliance-new-event{margin-bottom:0!important}'+

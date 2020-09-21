@@ -4516,6 +4516,116 @@
             "rescue_stations": 1
         }
     },
+    "208": {
+        "id": 208,
+        "name": "Feu d'industrie",
+        "place": "Usine",
+        "average_credits": 4860,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "police_cars": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 209,
+                "1": 210
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "209": {
+        "id": 209,
+        "name": "Feu d'industrie \u00e9tendu",
+        "place": "Usine",
+        "average_credits": 9440,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 5,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 7,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 5,
+            "fire_stations": 15
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Feu d'industrie SEVESO",
+        "place": "Usine",
+        "average_credits": 28350,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "battalion_chief_vehicles": 8,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 8,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 6,
+            "fire_stations": 18
+        }
+    },
     "214": {
         "id": 214,
         "name": "D\u00e9tenu en fuite",

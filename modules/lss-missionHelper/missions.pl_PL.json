@@ -4887,8 +4887,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -5266,6 +5265,65 @@
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "232": {
+        "id": 232,
+        "name": "Pr\u00f3ba samob\u00f3jcza - podci\u0119cie \u017cy\u0142",
+        "place": "Park",
+        "average_credits": 1900,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "233": {
+        "id": 233,
+        "name": "Pilny transport mi\u0119dzyszpitalny",
+        "place": "Szpital",
+        "average_credits": 1500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions"
         },
         "prerequisites": {
             "rescue_stations": 4

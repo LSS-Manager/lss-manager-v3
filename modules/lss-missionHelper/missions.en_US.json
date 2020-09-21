@@ -12813,6 +12813,37 @@
             "fire_stations": 13
         }
     },
+    "436": {
+        "id": 436,
+        "name": "Concussion",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "30-D-2",
+                "1": "30-D-3",
+                "2": "30-B-1",
+                "3": "30-B-3"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "438": {
         "id": 438,
         "name": "Serve court order",
