@@ -930,15 +930,13 @@
         "name": "Alcoholic intoxication",
         "place": null,
         "average_credits": null,
-        "generated_by": "Police Station",
+        "generated_by": "Ambulance Station",
         "icons": {
-            "0": "/images/bar_coktail_gruen.png",
-            "1": "/images/bar_coktail_gelb.png",
-            "2": "/images/bar_coktail_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "police_cars": 1
-        },
+        "requirements": {},
         "chances": {
             "patient_transport": 30
         },
@@ -948,13 +946,12 @@
             "patient_uk_code_possible": {
                 "0": "C-3"
             },
-            "filter_id": "police_station_missions",
+            "filter_id": "ambulance_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "police_stations": 1
+            "rescue_stations": 1
         }
     },
     "36": {

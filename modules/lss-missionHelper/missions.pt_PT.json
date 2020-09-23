@@ -871,28 +871,25 @@
         "name": "Indiv\u00edduo alcoolizado",
         "place": null,
         "average_credits": null,
-        "generated_by": "Esquadra de Pol\u00edcia",
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
         "icons": {
-            "0": "/images/bar_coktail_gruen.png",
-            "1": "/images/bar_coktail_gelb.png",
-            "2": "/images/bar_coktail_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {
-            "police_cars": 1
-        },
+        "requirements": {},
         "chances": {
             "patient_transport": 30
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "police_station_missions",
+            "filter_id": "ambulance_station_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "police_stations": 1
+            "rescue_stations": 1
         }
     },
     "36": {
