@@ -4932,6 +4932,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "filter_id": "police_station_missions",
             "patient_specializations": "Traumatology"
         },
@@ -4958,6 +4962,9 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-3"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_allow_first_responder_chance": 50,
             "patient_specializations": "General Surgeon"
@@ -4979,11 +4986,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Gynecology"
         },
@@ -4993,7 +5004,7 @@
     },
     "221": {
         "id": 221,
-        "name": "Difficulty Breathing",
+        "name": "Breathing Problems",
         "place": null,
         "average_credits": null,
         "generated_by": "Ambulance Station",
@@ -5004,11 +5015,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Traumatology"
         },
@@ -5018,7 +5033,7 @@
     },
     "222": {
         "id": 222,
-        "name": "Difficulty Breathing",
+        "name": "Breathing Problems",
         "place": null,
         "average_credits": null,
         "generated_by": "Ambulance Station",
@@ -5029,11 +5044,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
         },
@@ -5043,7 +5062,7 @@
     },
     "223": {
         "id": 223,
-        "name": "Difficulty Breathing",
+        "name": "Breathing Problems",
         "place": null,
         "average_credits": null,
         "generated_by": "Ambulance Station",
@@ -5054,11 +5073,15 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
         },
@@ -5084,6 +5107,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
         },
@@ -5094,7 +5121,7 @@
     "225": {
         "id": 225,
         "name": "ANPR Activation (RPU) (County Lines)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 3000,
         "generated_by": "Police Station",
         "icons": {
@@ -5123,7 +5150,7 @@
     "226": {
         "id": 226,
         "name": "ANPR Activation (RPU) (Wanted Person)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 2000,
         "generated_by": "Police Station",
         "icons": {
@@ -5151,7 +5178,7 @@
     "227": {
         "id": 227,
         "name": "Traffic stop (RPU) (No Insurance)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 700,
         "generated_by": "Police Station",
         "icons": {
@@ -5178,7 +5205,7 @@
     "228": {
         "id": 228,
         "name": "Traffic stop (RPU) (No Tax)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 700,
         "generated_by": "Police Station",
         "icons": {
@@ -5205,7 +5232,7 @@
     "229": {
         "id": 229,
         "name": "Traffic stop (RPU) (No MOT)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 700,
         "generated_by": "Police Station",
         "icons": {
@@ -5232,7 +5259,7 @@
     "230": {
         "id": 230,
         "name": "Traffic stop (RPU) (Dangerous Driving)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 700,
         "generated_by": "Police Station",
         "icons": {
@@ -5259,7 +5286,7 @@
     "231": {
         "id": 231,
         "name": "Speed Enforcement (RPU)",
-        "place": "Mayor Road Standby Point",
+        "place": "Major Road Standby Point",
         "average_credits": 500,
         "generated_by": "Police Station",
         "icons": {
