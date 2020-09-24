@@ -951,7 +951,6 @@
                 "0": "C-3"
             },
             "filter_id": "ambulance_station_missions",
-            "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {

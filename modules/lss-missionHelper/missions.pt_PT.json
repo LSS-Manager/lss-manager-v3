@@ -885,7 +885,6 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_at_end_of_mission": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
@@ -3584,7 +3583,7 @@
         "id": 147,
         "name": "Queda num Po\u00e7o",
         "place": null,
-        "average_credits": 4000,
+        "average_credits": 2000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",

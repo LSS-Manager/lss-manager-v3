@@ -913,7 +913,6 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_at_end_of_mission": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -4884,7 +4883,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
