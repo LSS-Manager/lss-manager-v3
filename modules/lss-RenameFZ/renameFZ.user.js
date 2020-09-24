@@ -288,7 +288,8 @@
                 18: "Fire Station (Small)",
                 19: "Police Station (Small station)",
                 20: "Ambulance station (Small station)",
-                21: "Clinic"
+                21: "Clinic",
+                22: "Home Response Location"
             },
             vehicleTypes: {
                 0: 'Water Ladder',
@@ -311,7 +312,12 @@
                 17: 'CARP',
                 18: 'Co-Responder Vehicle',
                 19: 'Joint Response Unit',
-                20: 'Operational Team Leader'
+                20: 'Operational Team Leader',
+                21: 'General Practitioner',
+                22: 'Community First Responder',
+                23: 'Crew Carrier',
+                24: 'Traffic Car',
+                25: 'Armed Traffic Car'
             }
         }
     };

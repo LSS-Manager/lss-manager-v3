@@ -97,12 +97,13 @@
     "hazmat_vehicles": "HazMat Unit",
     "mobile_command_vehicles": "Incident Command and Control Unit",
     "police_cars": "Police Car",
+    "traffic_car": "Traffic Car",
     "arff": "ARFF",
     "k9": "Dog Support Unit",
     "swat_suv": "Armed Response Vehicle (ARV)",
     "helicopter": "HEMS",
     "police_helicopters": "Police helicopter",
     "kdow_orgl": "Operational Team Leader",
-    "allow_rw_instead_of_lf": "Fire trucks or heavy rescue"
+    "allow_rw_instead_of_lf": "Fire engines or Rescue Support Vehicles"
 }
 }

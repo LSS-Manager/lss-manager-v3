@@ -1909,6 +1909,18 @@
             extensions: 'No extensions possible',
             maxBuildings: 'No Limit'
         },
+        rth: {
+            name: 'Medical Helicopter Station',
+            credits: 1000000,
+            coins: 50,
+            maxlevel: 0,
+            levelcost: '1,000,000 Credits/50 Coins each',
+            startPersonell: 1,
+            startVehicle: 'No starting vehicle',
+            maxBuildings: 'see column "special"',
+            extensions: 'No extensions possible',
+            special: 'Up to 4 landing sites can be built per station (expansion stages). Up to the 125th building (of all kinds) a maximum of 4 landing sites can be built. After that the number of all 25 buildings grows by 1 (starting with 125.).You can also put Rapid Response Vehicle.'
+        },
         kh: {
             name: 'Hospital',
             credits: 200000,
@@ -1931,6 +1943,18 @@
             startVehicle: 'Non. You can buy max. 2 Vehicles',
             extensions: 'General Internal (10.000 Credits/10 Coins)',
             maxBuildings: 'No Limit'
+        },
+        homeb: {
+            name: 'Home Response Location',
+            credits: 10000,
+            coins: 10,
+            maxlevel: 0,
+            levelcost: 'not expandeble',
+            startPersonell: 1,
+            startVehicle: 'Non.',
+            extensions: 'non',
+            maxBuildings: 'No Limit',
+            special: 'It can only: Fire Officer, Rapid Response Vehicle, Operational Team Leader, General Practitioner, Community First Responder, Dog Support Unit (DSU) be stationed'
         }
     };
 
@@ -1990,6 +2014,52 @@
                 coins: 25,
                 schooling: 'Hazmat',
                 special: 'Required from 11 fire stations'
+            },
+            carp: {
+                name: 'CARP',
+                min: 1,
+                max: 6,
+                credits: 19000,
+                coins: 25
+            },
+            resp: {
+                name: 'Rescue Pump',
+                min: 1,
+                max: 9,
+                credits: 19000,
+                coins: 25
+            },
+            basu: {
+                name: 'BASU',
+                min: 1,
+                max: 3,
+                credits: 11680,
+                coins: 25,
+                special: 'Required from 5 fire stations'
+            },
+            iccu: {
+                name: 'ICCU',
+                min: 1,
+                max: 6,
+                credits: 25500,
+                coins: 25,
+                schooling: 'Mobile Command',
+                special: 'Required from 13 fire stations'
+            },
+            cores: {
+                name: 'Co-Responder Vehicle',
+                min: 1,
+                max: 1,
+                credits: 4000,
+                coins: 25,
+                schooling: 'Co-Responder Training'
+            },
+            crewc: {
+                name: 'Crew Carrier',
+                min: 1,
+                max: 12,
+                credits: 8000,
+                coins: 10,
             }
         },
         rd: {
@@ -2006,6 +2076,45 @@
                 max: 1,
                 credits: 4000,
                 coins: 20
+            },
+            jores: {
+                name: 'Joint Response Unit',
+                min: 1,
+                max: 3,
+                credits: 6000,
+                coins: 30
+            },
+            otl: {
+                name: 'Operational Team Leader',
+                min: 1,
+                max: 1,
+                credits: 20000,
+                coins: 25,
+                special: 'Required from 6 ambulance stations'
+            },
+            genp: {
+                name: 'General Practitioner',
+                min: 1,
+                max: 1,
+                credits: 4000,
+                coins: 20,
+                schooling: 'Critical Care',
+                special: 'Can only be placed at the home response location'
+            },
+            comfr: {
+                name: 'Community First Responder',
+                min: 1,
+                max: 1,
+                credits: 2500,
+                coins: 12,
+                special: 'Can only be placed at the home response location'
+            },
+            crewc: {
+                name: 'Crew Carrier',
+                min: 1,
+                max: 12,
+                credits: 8000,
+                coins: 10,
             }
         },
         pol: {
@@ -2033,17 +2142,38 @@
                 coins: 23,
                 schooling: 'Firearms Training',
                 special: 'Required from 8 Police stations'
-            }
+            },
+            jores: {
+                name: 'Joint Response Unit',
+                min: 1,
+                max: 3,
+                credits: 6000,
+                coins: 30
+            },
+            trafc: {
+                name: 'Traffic Car',
+                min: 1,
+                max: 2,
+                credits: 10000,
+                coins: 10,
+                schooling: 'Roads Policing Officer Training'
+            },
+            atrafc: {
+                name: 'Armed Traffic Car',
+                min: 1,
+                max: 2,
+                credits: 19000,
+                coins: 10,
+                schooling: 'Roads Policing Officer Training and Firearms Training'
+            },
         },
         heli: {
-            sar: {
-                name: 'SAR helicopter',
-                min: x,
-                max: x,
-                credits: x,
-                coins: x,
-                schooling: x,
-                special: 'x'
+            hems: {
+                name: 'HEMS',
+                min: 1,
+                max: 1,
+                credits: 300000,
+                coins: 30
             },
             polh: {
                 name: 'Police helicopter',
