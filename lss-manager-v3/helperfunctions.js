@@ -80,7 +80,12 @@ else if (I18n.locale == "en_GB") {
         "17": ["CARP", 0],
         "18": ["Co-Responder Vehicle", 0],
         "19": ["Joint Response Unit", 2],
-        "20": ["Operational Team Leader", 1]
+        "20": ["Operational Team Leader", 1],
+        "21": ["General Practitioner", 1],
+        "22": ["Community First Responder", 1],
+        "23": ["Crew Carrier", 0],
+        "24": ["Traffic Car", 2],
+        "25": ["Armed Traffic Car", 2]
     };
 }
 else if (I18n.locale == "en_AU") {
