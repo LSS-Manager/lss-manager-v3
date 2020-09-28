@@ -4648,5 +4648,77 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "183": {
+        "id": 183,
+        "name": "Ulovlig Varer Smugleri",
+        "place": "Containerhavn",
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "184": {
+        "id": 184,
+        "name": "Ulovlig Varer Smugleri",
+        "place": "Krydstogthavn",
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Ulovlig Varer Smugleri",
+        "place": "Godsstation",
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
     }
 }

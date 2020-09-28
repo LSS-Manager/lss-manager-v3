@@ -4624,6 +4624,78 @@
             "fire_stations": 18
         }
     },
+    "211": {
+        "id": 211,
+        "name": "Voiture abandonn\u00e9e",
+        "place": "Parking couvert",
+        "average_credits": 800,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "Voiture abandonn\u00e9e",
+        "place": "For\u00eat",
+        "average_credits": 800,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Agression d'un chauffeur de bus",
+        "place": "Arr\u00eat de bus",
+        "average_credits": 800,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
     "214": {
         "id": 214,
         "name": "D\u00e9tenu en fuite",

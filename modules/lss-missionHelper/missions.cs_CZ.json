@@ -4049,5 +4049,29 @@
             "police_stations": 2,
             "fire_stations": 9
         }
+    },
+    "166": {
+        "id": 166,
+        "name": "Neohl\u00e1\u0161en\u00e9 p\u00e1len\u00ed",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 2
+        }
     }
 }
