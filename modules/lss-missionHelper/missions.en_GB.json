@@ -4752,7 +4752,8 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 16,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "rescue_stations": 4,
@@ -4912,7 +4913,8 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 12,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatology"
         },
         "prerequisites": {
             "rescue_stations": 1,

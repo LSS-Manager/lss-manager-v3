@@ -871,7 +871,7 @@
         "name": "Otrava alkoholem",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -896,7 +896,7 @@
         "name": "Bolest na hrudi",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -921,7 +921,7 @@
         "name": "Astmatick\u00fd z\u00e1chvat",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -946,7 +946,7 @@
         "name": "Z\u00e1chvat",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -971,7 +971,7 @@
         "name": "Hore\u010dka",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -997,7 +997,7 @@
         "name": "Bezvl\u00e1dn\u00e1 osoba",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -1058,7 +1058,7 @@
         "name": "Bezvl\u00e1dn\u00e1 osoba",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -1084,7 +1084,7 @@
         "name": "Bezvl\u00e1dn\u00e1 osoba",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -1526,7 +1526,7 @@
         "name": "Tranzitorn\u00ed ischemick\u00e1 ataka",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -1751,7 +1751,7 @@
         "name": "Krv\u00e1cen\u00ed z nosu",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -1927,7 +1927,7 @@
         "name": "Poran\u011bn\u00ed p\u00e1te\u0159e",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2021,7 +2021,7 @@
         "name": "Pop\u00e1leniny 3. stupn\u011b",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2047,7 +2047,7 @@
         "name": "V\u00e1\u017en\u00e9 poran\u011bn\u00ed hlavy",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2073,7 +2073,7 @@
         "name": "Amputace kon\u010detiny",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2124,7 +2124,7 @@
         "name": "Bolest zad",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2149,7 +2149,7 @@
         "id": 85,
         "name": "Dopravn\u00ed nehoda motocyklu",
         "place": null,
-        "average_credits": 2300,
+        "average_credits": 800,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
             "0": "/images/icy_road_gruen.png",
@@ -2157,8 +2157,7 @@
             "2": "/images/icy_road_rot.png"
         },
         "requirements": {
-            "firetrucks": 3,
-            "battalion_chief_vehicles": 1,
+            "firetrucks": 1,
             "police_cars": 1
         },
         "chances": {
@@ -2180,7 +2179,7 @@
         "name": "Du\u0161en\u00ed",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -2319,7 +2318,7 @@
         "name": "Zran\u011bn\u00e1 osoba na sto\u017e\u00e1ru vysok\u00e9ho nap\u011bt\u00ed",
         "place": null,
         "average_credits": 650,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/climbing_gruen.png",
             "1": "/images/climbing_gelb.png",
@@ -2405,7 +2404,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2
@@ -3084,7 +3082,7 @@
             "patient_transport": 40
         },
         "additional": {
-            "possible_patient": 4,
+            "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
@@ -3160,10 +3158,10 @@
             "2": "/images/planecrash_rot.png"
         },
         "requirements": {
-            "firetrucks": 6,
+            "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 2,
+            "water_tankers": 1,
             "police_cars": 1
         },
         "chances": {
@@ -3212,7 +3210,7 @@
         "name": "\u00dapal",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3239,7 +3237,7 @@
         "name": "\u00da\u017eeh",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3266,7 +3264,7 @@
         "name": "K\u0159e\u010de z tepla",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3293,7 +3291,7 @@
         "name": "Dehydrovan\u00e1 osoba",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3511,7 +3509,7 @@
         "name": "Alergick\u00e1 reakce",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3806,8 +3804,9 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
         },
         "chances": {
             "patient_transport": 30
@@ -3819,6 +3818,7 @@
         },
         "prerequisites": {
             "rescue_stations": 1,
+            "police_stations": 1,
             "fire_stations": 3
         }
     },
@@ -3946,7 +3946,7 @@
         "name": "Epileptick\u00fd z\u00e1chvat",
         "place": null,
         "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3997,7 +3997,7 @@
         "name": "Komplikovan\u00fd porod",
         "place": null,
         "average_credits": 1100,
-        "generated_by": "V\u00fdjezdov\u00e1 z\u00e1kladna z\u00e1chrann\u00e9 slu\u017eby",
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
