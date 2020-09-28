@@ -5326,6 +5326,62 @@
             "rescue_stations": 4
         }
     },
+    "234": {
+        "id": 234,
+        "name": "Zawa\u0142",
+        "place": null,
+        "average_credits": 1400,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kardiologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "235": {
+        "id": 235,
+        "name": "Przedawkowanie Lek\u00f3w",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
     "236": {
         "id": 236,
         "name": "Atak Hakera na Stron\u0119 Rz\u0105dow\u0105",

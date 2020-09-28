@@ -4675,5 +4675,109 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "217": {
+        "id": 217,
+        "name": "Illegal Shipment Intercept",
+        "place": "Cargo port",
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "218": {
+        "id": 218,
+        "name": "Illegal Shipment Intercept",
+        "place": "Cruise ship dock",
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "219": {
+        "id": 219,
+        "name": "Illegal Shipment Intercept",
+        "place": "Goods station",
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "220": {
+        "id": 220,
+        "name": "Land Search",
+        "place": "Forest",
+        "average_credits": 12000,
+        "generated_by": "SES unit",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 5,
+            "water_rescue": 6,
+            "k9": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "45 minutes",
+            "guard_mission": true,
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 4,
+            "police_stations": 5,
+            "police_helicopter_stations": 1,
+            "fire_stations": 12
+        }
     }
 }

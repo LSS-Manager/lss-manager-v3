@@ -3505,5 +3505,74 @@
             "police_stations": 2,
             "fire_stations": 15
         }
+    },
+    "143": {
+        "id": 143,
+        "name": "\ubd88\ubc95 \ud654\ubb3c \ubc00\uc218",
+        "place": "\uc801\ud558\uad6c",
+        "average_credits": 800,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "144": {
+        "id": 144,
+        "name": "\ubd88\ubc95 \ud654\ubb3c \ubc00\uc218",
+        "place": "\uc720\ub78c\uc120 \ubd80\ub450",
+        "average_credits": 800,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "145": {
+        "id": 145,
+        "name": "\ubd88\ubc95 \ud654\ubb3c \ubc00\uc218",
+        "place": "\ud654\ubb3c\uc5ed",
+        "average_credits": 800,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
     }
 }

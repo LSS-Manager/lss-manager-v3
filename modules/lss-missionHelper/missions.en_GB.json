@@ -4887,6 +4887,38 @@
             "fire_stations": 10
         }
     },
+    "216": {
+        "id": 216,
+        "name": "Parachutist stuck in tree",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/paragliding_gruen.png",
+            "1": "/images/paragliding_gelb.png",
+            "2": "/images/paragliding_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "platform_trucks": 10,
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 12,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 6
+        }
+    },
     "217": {
         "id": 217,
         "name": "Diabetic problems",
