@@ -4153,15 +4153,21 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 4
+            "firetrucks": 4,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "kdow_orgl": 25,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 6,
             "expansion_missions_ids": {
                 "0": 190
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
@@ -4185,15 +4191,21 @@
         "requirements": {
             "firetrucks": 6,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
+            "platform_trucks": 1,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 10,
             "expansion_missions_ids": {
                 "0": 192
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
@@ -4245,17 +4257,23 @@
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "kdow_orgl": 1
         },
         "chances": {
             "water_tankers": 10,
             "mobile_air_vehicles": 30,
-            "patient_transport": 40
+            "patient_transport": 40,
+            "helicopter": 50,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 20,
             "expansion_missions_ids": {
                 "0": 193
+            },
+            "patient_uk_code_possible": {
+                "0": "C-2"
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
@@ -4285,13 +4303,20 @@
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 6
+            "police_cars": 6,
+            "kdow_orgl": 1,
+            "rth": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "helicopter": 100,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 50,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
         },
@@ -4319,6 +4344,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Cardiology"
         },
@@ -4366,13 +4395,18 @@
             "firetrucks": 8,
             "battalion_chief_vehicles": 5,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 1
+            "platform_trucks": 1,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 4,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
         },
@@ -4618,10 +4652,12 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 8,
-            "k9": 1
+            "k9": 1,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 6,
@@ -4631,6 +4667,10 @@
             },
             "max_possible_prisoners": 1,
             "swat_personnel": 6,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
             "filter_id": "police_station_missions",
             "patient_specializations": "Traumatology"
         },
@@ -4654,16 +4694,23 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 12,
-            "k9": 4
+            "k9": 4,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "helicopter": 100,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 15,
             "possible_patient_min": 8,
             "max_possible_prisoners": 2,
             "swat_personnel": 10,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
             "filter_id": "police_station_missions",
             "patient_specializations": "Traumatology"
         },
@@ -4742,16 +4789,22 @@
         "requirements": {
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
+            "platform_trucks": 1,
+            "kdow_orgl": 1
         },
         "chances": {
             "platform_trucks": 10,
-            "patient_transport": 60
+            "patient_transport": 60,
+            "kdow_orgl": 50,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 4,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 16,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "General Internal"
         },
@@ -4869,16 +4922,22 @@
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
             "hazmat_vehicles": 2,
-            "police_cars": 10
+            "police_cars": 10,
+            "kdow_orgl": 1
         },
         "chances": {
-            "patient_transport": 20
+            "patient_transport": 20,
+            "helicopter": 100,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 40,
             "possible_patient_min": 4,
             "max_possible_prisoners": 1,
             "swat_personnel": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "police_station_missions",
             "patient_specializations": "General Internal"
         },
@@ -4903,16 +4962,22 @@
             "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "heavy_rescue_vehicles": 1,
+            "kdow_orgl": 1
         },
         "chances": {
             "platform_trucks": 10,
-            "patient_transport": 20
+            "patient_transport": 20,
+            "kdow_orgl": 75,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
             "average_min_fire_personnel": 12,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatology"
         },
@@ -4939,6 +5004,10 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "General Internal"
         },
