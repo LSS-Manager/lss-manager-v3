@@ -3613,7 +3613,7 @@
     "148": {
         "id": 148,
         "name": "Assalto a um Banco",
-        "place": "Museu",
+        "place": "Banco",
         "average_credits": 2500,
         "generated_by": "Esquadra de Pol\u00edcia",
         "icons": {
@@ -3622,13 +3622,11 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
-            "police_cars": 5,
-            "k9": 1
+            "police_cars": 5
         },
         "chances": {},
         "additional": {
             "max_possible_prisoners": 2,
-            "swat_personnel": 4,
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
