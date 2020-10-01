@@ -3205,138 +3205,6 @@
             "fire_stations": 9
         }
     },
-    "135": {
-        "id": 135,
-        "name": "\u00dapal",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 10
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "136": {
-        "id": 136,
-        "name": "\u00da\u017eeh",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 60
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "137": {
-        "id": 137,
-        "name": "K\u0159e\u010de z tepla",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "138": {
-        "id": 138,
-        "name": "Dehydrovan\u00e1 osoba",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "139": {
-        "id": 139,
-        "name": "Po\u017e\u00e1r grilu",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "p\u00e1, 26 \u010dvn 2020 00:00:00 +0200",
-            "date_end": "\u010dt, 01 \u0159\u00edj 2020 00:00:00 +0200"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
     "140": {
         "id": 140,
         "name": "Mal\u00fd po\u017e\u00e1r v hotelu",
@@ -4041,7 +3909,7 @@
         },
         "additional": {
             "possible_patient": 6,
-            "filter_id": " firehouse_missions ",
+            "filter_id": "firehouse_missions",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {

@@ -2863,7 +2863,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
@@ -3672,138 +3674,6 @@
         },
         "prerequisites": {
             "rescue_stations": 2
-        }
-    },
-    "171": {
-        "id": 171,
-        "name": "Solsting",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 10
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 26 juni 2020 10.00.00 +0200",
-            "date_end": "tors, 01 okt 2020 00.00.00 +0200",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "172": {
-        "id": 172,
-        "name": "V\u00e4rmeslag",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 60
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 26 juni 2020 10.00.00 +0200",
-            "date_end": "tors, 01 okt 2020 00.00.00 +0200",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "173": {
-        "id": 173,
-        "name": "V\u00e4rmekramp",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 26 juni 2020 10.00.00 +0200",
-            "date_end": "tors, 01 okt 2020 00.00.00 +0200",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "174": {
-        "id": 174,
-        "name": "Uttorkad person",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 26 juni 2020 10.00.00 +0200",
-            "date_end": "tors, 01 okt 2020 00.00.00 +0200",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "175": {
-        "id": 175,
-        "name": "Grillbrand",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "fre, 26 juni 2020 10.00.00 +0200",
-            "date_end": "tors, 01 okt 2020 00.00.00 +0200"
-        },
-        "prerequisites": {
-            "fire_stations": 1
         }
     },
     "176": {
