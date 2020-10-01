@@ -15114,5 +15114,137 @@
             "police_stations": 2,
             "fire_stations": 5
         }
+    },
+    "563": {
+        "id": 563,
+        "name": "Absicherung Staatsbesuch",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 3,
+            "gw_san": 1,
+            "lebefkw": 3,
+            "police_cars": 12,
+            "grukw": 9,
+            "fukw": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "2 Stunden",
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 12,
+            "bereitschaftspolizei": 1,
+            "seg": 1,
+            "fire_stations": 3
+        }
+    },
+    "564": {
+        "id": 564,
+        "name": "Geplante Festnahme",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "mek": 4,
+            "police_cars": 1,
+            "fukw": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "mek": 1,
+            "police_stations": 4
+        }
+    },
+    "565": {
+        "id": 565,
+        "name": "Zugriff bei Geld\u00fcbergabe",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "mek": 4,
+            "police_cars": 4,
+            "fukw": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "mek": 1,
+            "police_stations": 5
+        }
+    },
+    "566": {
+        "id": 566,
+        "name": "Drogenhandel aufgeflogen",
+        "place": "Bahnhof (Regional und Fernverkehr)",
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "567": {
+        "id": 567,
+        "name": "Diebstahl auf Baustelle",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

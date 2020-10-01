@@ -903,7 +903,6 @@
             "patient_us_code_possible": {
                 "0": "23-B-1"
             },
-            "patient_at_end_of_mission": true,
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -12715,6 +12714,7 @@
         "chances": {},
         "additional": {
             "duration": "15 minutes",
+            "guard_mission": true,
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
