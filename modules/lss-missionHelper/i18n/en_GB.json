@@ -102,6 +102,7 @@
     "k9": "Dog Support Unit",
     "swat_suv": "Armed Response Vehicle (ARV)",
     "helicopter": "HEMS",
+	"rth": "HEMS",
     "police_helicopters": "Police helicopter",
     "kdow_orgl": "Operational Team Leader",
     "allow_rw_instead_of_lf": "Fire engines or Rescue Support Vehicles"

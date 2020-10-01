@@ -617,7 +617,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     else if (SETTINGS.show_droinv &&
                         MISSION.additional &&
                         MISSION.additional.allow_drone_instead_of_investigation &&
-                        vehicle === 'fbi_investigation') vehicleName = 'fbi_drone';
+                        vehicle === 'fbi_investigation') vehicleName = 'allow_drone_instead_of_investigation';
                     else if (SETTINGS.show_arfflf &&
                         MISSION.additional &&
                         MISSION.additional.allow_arff_instead_of_lf &&

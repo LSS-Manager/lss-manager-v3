@@ -4608,92 +4608,6 @@
             "rescue_stations": 9
         }
     },
-    "183": {
-        "id": 183,
-        "name": "Sonnenstich",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "nef": 0,
-            "patient_other_treatment": 5,
-            "patient_transport": 10
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "184": {
-        "id": 184,
-        "name": "Hitzschlag",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "nef": 40,
-            "patient_other_treatment": 2,
-            "patient_transport": 60
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
-    "185": {
-        "id": 185,
-        "name": "Hitzekrampf",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "nef": 80,
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 4
-        }
-    },
     "186": {
         "id": 186,
         "name": "Lagerhallenbrand",
@@ -11769,34 +11683,6 @@
             "fire_stations": 3
         }
     },
-    "461": {
-        "id": 461,
-        "name": "Dehydrierte Person",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "nef": 10,
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
     "462": {
         "id": 462,
         "name": "Gro\u00dffeuer in Lagerhalle",
@@ -14764,87 +14650,6 @@
             "fire_stations": 15
         }
     },
-    "546": {
-        "id": 546,
-        "name": "Hitzschlagvorsorge bei Stau",
-        "place": "Autobahnauf.- / abfahrt",
-        "average_credits": 5000,
-        "generated_by": "SEG",
-        "icons": {
-            "0": "/images/clock_gruen.png",
-            "1": "/images/clock_gelb.png",
-            "2": "/images/clock_rot.png"
-        },
-        "requirements": {
-            "ambulances": 4,
-            "gw_san": 1,
-            "police_cars": 2,
-            "seg_elw": 1
-        },
-        "chances": {},
-        "additional": {
-            "duration": "4 Stunden",
-            "guard_mission": true,
-            "filter_id": "rapid_deployment_group_missions",
-            "allow_ktw_instead_of_rtw": true,
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
-        },
-        "prerequisites": {
-            "police_stations": 2,
-            "seg": 2
-        }
-    },
-    "547": {
-        "id": 547,
-        "name": "Badestellen\u00fcberwachung",
-        "place": "See",
-        "average_credits": 1600,
-        "generated_by": "Wasserrettung",
-        "icons": {
-            "0": "/images/clock_gruen.png",
-            "1": "/images/clock_gelb.png",
-            "2": "/images/clock_rot.png"
-        },
-        "requirements": {
-            "boats": 1
-        },
-        "chances": {},
-        "additional": {
-            "duration": "2 Stunden",
-            "guard_mission": true,
-            "filter_id": "water_watch_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
-        },
-        "prerequisites": {
-            "wasserrettung": 1
-        }
-    },
-    "548": {
-        "id": 548,
-        "name": "Grillbrand",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "Feuerwache",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Freitag, 26. Juni 2020, 10:00 Uhr",
-            "date_end": "Donnerstag, 01. Oktober 2020, 00:00 Uhr"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
     "549": {
         "id": 549,
         "name": "Absicherung Geldtransport",
@@ -15308,6 +15113,138 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 5
+        }
+    },
+    "563": {
+        "id": 563,
+        "name": "Absicherung Staatsbesuch",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 3,
+            "gw_san": 1,
+            "lebefkw": 3,
+            "police_cars": 12,
+            "grukw": 9,
+            "fukw": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "2 Stunden",
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 12,
+            "bereitschaftspolizei": 1,
+            "seg": 1,
+            "fire_stations": 3
+        }
+    },
+    "564": {
+        "id": 564,
+        "name": "Geplante Festnahme",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "mek": 4,
+            "police_cars": 1,
+            "fukw": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "mek": 1,
+            "police_stations": 4
+        }
+    },
+    "565": {
+        "id": 565,
+        "name": "Zugriff bei Geld\u00fcbergabe",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "mek": 4,
+            "police_cars": 4,
+            "fukw": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "mek": 1,
+            "police_stations": 5
+        }
+    },
+    "566": {
+        "id": 566,
+        "name": "Drogenhandel aufgeflogen",
+        "place": "Bahnhof (Regional und Fernverkehr)",
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "567": {
+        "id": 567,
+        "name": "Diebstahl auf Baustelle",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     }
 }

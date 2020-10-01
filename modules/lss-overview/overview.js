@@ -875,6 +875,15 @@
                 credits: 15000,
                 coins: 25,
                 schooling: 'Hundeführer (Schutzhund)'
+            },
+            pmoto: {
+                name: 'Polizeimotorrad',
+                min: 1,
+                max: 1,
+                credits: 3000,
+                coins: 10,
+                schooling: 'Motorradstaffel',
+                special: 'Kann ein FuStW ersetzen, aber keine Gefangenen transportieren'
             }
         },
         bepol: {

@@ -153,7 +153,8 @@
                 91: 'Rettungshundefahrzeug',
                 92: 'Anh Hund',
                 93: 'MTW-OV',
-                94: 'DHuFüKw'
+                94: 'DHuFüKw',
+                95: 'Polizeimotorrad'
             }
         }
     };

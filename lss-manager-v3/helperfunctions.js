@@ -535,7 +535,8 @@ else if (I18n.locale == "de_DE") {
         "91": ["Rettungshundefahrzeug", 1],
         "92": ["Anh Hund", 3],
         "93": ["MTW-OV", 3],
-        "94": ["DHuFüKw", 2]
+        "94": ["DHuFüKw", 2],
+        "95": ["Polizeimotorrad", 2]
     };
 }
 lssm.getVehicleNameById = function(vehicleId) {
