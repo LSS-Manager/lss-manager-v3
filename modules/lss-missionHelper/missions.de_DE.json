@@ -15246,5 +15246,37 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "568": {
+        "id": 568,
+        "name": "Ausbruch gef\u00e4hrlicher Personen aus geschlossenem Vollzug",
+        "place": null,
+        "average_credits": 6500,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 3,
+            "gefkw": 1,
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "grukw": 9,
+            "fukw": 1,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions",
+            "need_k9_only_if_guard_dogs_present": true
+        },
+        "prerequisites": {
+            "police_stations": 7,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 2
+        }
     }
 }
