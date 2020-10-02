@@ -12688,10 +12688,7 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions",
-            "subsequent_missions_ids": {
-                "0": 440
-            }
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 3
