@@ -2863,7 +2863,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
@@ -4259,5 +4261,39 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {}
+    },
+    "197": {
+        "id": 197,
+        "name": "M\u00e4nniskorov",
+        "place": null,
+        "average_credits": 7000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 2,
+            "police_cars": 10,
+            "k9": 5
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 137
+            },
+            "max_possible_prisoners": 5,
+            "swat_personnel": 10,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 35,
+            "police_helicopter_stations": 2
+        }
     }
 }

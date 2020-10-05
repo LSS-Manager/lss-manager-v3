@@ -2307,10 +2307,12 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 3
         },
         "chances": {
             "water_tankers": 10,
+            "mobile_air_vehicles": 30,
             "patient_transport": 40
         },
         "additional": {
@@ -2341,9 +2343,11 @@
         "requirements": {
             "firetrucks": 14,
             "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 6
         },
         "chances": {
@@ -2549,9 +2553,11 @@
         "requirements": {
             "firetrucks": 8,
             "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
             "platform_trucks": 3,
             "heavy_rescue_vehicles": 4,
             "water_tankers": 2,
+            "mobile_air_vehicles": 2,
             "hazmat_vehicles": 1,
             "police_cars": 4
         },
@@ -3139,6 +3145,29 @@
         },
         "prerequisites": {
             "police_stations": 7
+        }
+    },
+    "135": {
+        "id": 135,
+        "name": "Incendiu de trap\u0103",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
         }
     }
 }

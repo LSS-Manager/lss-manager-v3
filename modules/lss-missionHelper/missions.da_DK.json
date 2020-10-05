@@ -4588,5 +4588,28 @@
         "prerequisites": {
             "police_stations": 7
         }
+    },
+    "186": {
+        "id": 186,
+        "name": "Brand i Kloak",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

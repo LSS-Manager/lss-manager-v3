@@ -4779,5 +4779,28 @@
             "police_helicopter_stations": 1,
             "fire_stations": 12
         }
+    },
+    "221": {
+        "id": 221,
+        "name": "Manhole fire",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

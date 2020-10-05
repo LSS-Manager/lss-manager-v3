@@ -10915,6 +10915,9 @@
             "expansion_missions_ids": {
                 "0": 370
             },
+            "followup_missions_ids": {
+                "0": 471
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10944,6 +10947,9 @@
             "expansion_missions_ids": {
                 "0": 371
             },
+            "followup_missions_ids": {
+                "0": 472
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -10972,6 +10978,9 @@
         },
         "chances": {},
         "additional": {
+            "followup_missions_ids": {
+                "0": 473
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11000,6 +11009,9 @@
             "expansion_missions_ids": {
                 "0": 373
             },
+            "followup_missions_ids": {
+                "0": 471
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11025,6 +11037,9 @@
         },
         "chances": {},
         "additional": {
+            "followup_missions_ids": {
+                "0": 472
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11074,6 +11089,9 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 389
+            },
+            "followup_missions_ids": {
+                "0": 470
             },
             "filter_id": "firehouse_missions"
         },
@@ -11518,6 +11536,9 @@
             "expansion_missions_ids": {
                 "0": 393
             },
+            "followup_missions_ids": {
+                "0": 470
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11683,6 +11704,9 @@
             "expansion_missions_ids": {
                 "0": 394
             },
+            "followup_missions_ids": {
+                "0": 471
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -11712,6 +11736,9 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 395
+            },
+            "followup_missions_ids": {
+                "0": 472
             },
             "filter_id": "firehouse_missions"
         },
@@ -11744,7 +11771,8 @@
         "additional": {
             "followup_missions_ids": {
                 "0": 369,
-                "1": 389
+                "1": 389,
+                "2": 473
             },
             "filter_id": "firehouse_missions"
         },
@@ -12477,6 +12505,9 @@
             "expansion_missions_ids": {
                 "0": 369
             },
+            "followup_missions_ids": {
+                "0": 470
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -12503,6 +12534,9 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 372
+            },
+            "followup_missions_ids": {
+                "0": 470
             },
             "filter_id": "firehouse_missions"
         },
@@ -13465,6 +13499,103 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "470": {
+        "id": 470,
+        "name": "Small Wildfire Clean up",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 1
+        }
+    },
+    "471": {
+        "id": 471,
+        "name": "Medium Wildfire Clean up",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "brush_truck": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 2,
+            "fire_stations": 1
+        }
+    },
+    "472": {
+        "id": 472,
+        "name": "Large Wildfire Clean up",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "brush_truck": 7,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 2,
+            "fire_stations": 6
+        }
+    },
+    "473": {
+        "id": 473,
+        "name": "Mayor Wildfire Clean up",
+        "place": null,
+        "average_credits": 9500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "brush_truck": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "brush_extension": 2,
+            "fire_stations": 12
         }
     }
 }
