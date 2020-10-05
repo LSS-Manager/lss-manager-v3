@@ -4820,5 +4820,69 @@
             "rescue_stations": 2,
             "police_stations": 2
         }
+    },
+    "224": {
+        "id": 224,
+        "name": "Malaise sur un ascenseur",
+        "place": "Bureaux",
+        "average_credits": 1630,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 12
+        }
+    },
+    "225": {
+        "id": 225,
+        "name": "Malaise sur un ascenseur",
+        "place": "Tour",
+        "average_credits": 1830,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "height_rescue_personnel": 5,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 12
+        }
     }
 }

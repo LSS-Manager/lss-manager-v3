@@ -2866,6 +2866,7 @@
             "platform_trucks": 3,
             "heavy_rescue_vehicles": 4,
             "water_tankers": 2,
+            "mobile_air_vehicles": 2,
             "hazmat_vehicles": 1,
             "police_cars": 4
         },
@@ -3271,6 +3272,7 @@
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 3,
             "water_tankers": 3,
+            "mobile_air_vehicles": 1,
             "police_cars": 2
         },
         "chances": {
@@ -3441,6 +3443,29 @@
         },
         "prerequisites": {
             "police_stations": 7
+        }
+    },
+    "146": {
+        "id": 146,
+        "name": "\ub9e8\ud640 \ud654\uc7ac",
+        "place": null,
+        "average_credits": 210,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
         }
     }
 }

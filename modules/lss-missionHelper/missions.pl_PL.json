@@ -5457,5 +5457,70 @@
             "police_stations": 2,
             "fire_stations": 14
         }
+    },
+    "243": {
+        "id": 243,
+        "name": "Po\u017car w szkole",
+        "place": "Szko\u0142a",
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 6,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "244": {
+        "id": 244,
+        "name": "Po\u017car bloku",
+        "place": null,
+        "average_credits": 6500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "fire_stations": 8
+        }
     }
 }

@@ -3500,5 +3500,36 @@
         "prerequisites": {
             "police_stations": 8
         }
+    },
+    "149": {
+        "id": 149,
+        "name": "Agress\u00f5es entre Adeptos",
+        "place": "Hotel",
+        "average_credits": 4500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 8,
+            "fire_stations": 10
+        }
     }
 }
