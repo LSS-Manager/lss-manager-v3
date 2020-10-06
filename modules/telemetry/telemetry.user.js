@@ -77,7 +77,7 @@
     };
     I18n.translations.nl_NL.lssm.telemetry = {
         question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
-          "Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal bewakers, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
+          "Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal posten, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
           "Bent u het hiermee eens?",
         v4: {
             title: "Zoekende Beta-Testers voor LSS-Manager V.4",
