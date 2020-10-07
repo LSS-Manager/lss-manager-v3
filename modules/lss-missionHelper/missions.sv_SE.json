@@ -3645,7 +3645,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
         "prerequisites": {
             "rescue_stations": 5
@@ -4292,7 +4293,7 @@
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
-            "police_stations": 35,
+            "police_stations": 12,
             "police_helicopter_stations": 2
         }
     }

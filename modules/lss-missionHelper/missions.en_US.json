@@ -10302,7 +10302,8 @@
                 "13": "26-A-9",
                 "14": "26-A-10",
                 "15": "26-A-11"
-            }
+            },
+            "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -13503,7 +13504,7 @@
     },
     "470": {
         "id": 470,
-        "name": "Small Wildfire Clean up",
+        "name": "Small wildfire cleanup",
         "place": null,
         "average_credits": 700,
         "generated_by": "Fire station",
@@ -13525,7 +13526,7 @@
     },
     "471": {
         "id": 471,
-        "name": "Medium Wildfire Clean up",
+        "name": "Medium wildfire cleanup",
         "place": null,
         "average_credits": 2000,
         "generated_by": "Fire station",
@@ -13549,7 +13550,7 @@
     },
     "472": {
         "id": 472,
-        "name": "Large Wildfire Clean up",
+        "name": "Large wildfire cleanup",
         "place": null,
         "average_credits": 4500,
         "generated_by": "Fire station",
@@ -13574,7 +13575,7 @@
     },
     "473": {
         "id": 473,
-        "name": "Mayor Wildfire Clean up",
+        "name": "Major wildfire cleanup",
         "place": null,
         "average_credits": 9500,
         "generated_by": "Fire station",

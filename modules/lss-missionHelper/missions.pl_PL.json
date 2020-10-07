@@ -4750,7 +4750,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -5186,7 +5187,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
             "rescue_stations": 4
@@ -5516,7 +5518,8 @@
         "additional": {
             "possible_patient": 10,
             "possible_patient_min": 2,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
             "rescue_stations": 8,
