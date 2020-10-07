@@ -118,6 +118,9 @@
   width: 100%;
   height: 100vh;
   z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .lssm-modal-overlay {
   position: fixed;
@@ -209,7 +212,7 @@ body.dark .lssm-modal-modal {
   background-color: #505050;
   color: white;
 }
-</style><div class="lssm-modal-container" id="lssm-v4-modal-container"><div data-modal="dialog" aria-expanded="true" class="lssm-modal-overlay"><div class="lssm-modal-top-right-slot"></div></div> <div aria-expanded="true" role="dialog" aria-modal="true" class="lssm-modal-modal v--modal vue-dialog" style="top: 75px; left: 650px; width: 500px; height: auto;"><div class="dialog-content"><div class="dialog-c-title">${I18n.t('lssm.telemetry.v4.title')}</div> <div class="dialog-c-text">${I18n.t('lssm.telemetry.v4.content_till_beta')} <a href="https://beta.lss-manager.de" target="blank">https://beta.lss-manager.de</a> ${I18n.t('lssm.telemetry.v4.content_till_discord')} <a href="https://discord.gg/RcTNjpB" target="blank">https://discord.gg/RcTNjpB</a> ${I18n.t('lssm.telemetry.v4.content_till_thread')} <a href="https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/" target="blank">https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/</a> ${I18n.t('lssm.telemetry.v4.content_end')} </div></div> <div class="vue-dialog-buttons"><button type="button" class="vue-dialog-button" style="flex: 1 1 100%;" id="lssm-v4-modal-close">${I18n.t('lssm.telemetry.v4.close')}</button></div> <!----></div></div>`;
+</style><div class="lssm-modal-container scrollable" id="lssm-v4-modal-container"><div data-modal="dialog" aria-expanded="true" class="lssm-modal-overlay"><div class="lssm-modal-top-right-slot"></div></div> <div aria-expanded="true" role="dialog" aria-modal="true" class="lssm-modal-modal v--modal vue-dialog" style="max-width: min(600px, 100%);"><div class="dialog-content"><div class="dialog-c-title">${I18n.t('lssm.telemetry.v4.title')}</div> <div class="dialog-c-text">${I18n.t('lssm.telemetry.v4.content_till_beta')} <a href="https://beta.lss-manager.de" target="blank">https://beta.lss-manager.de</a> ${I18n.t('lssm.telemetry.v4.content_till_discord')} <a href="https://discord.gg/RcTNjpB" target="blank">https://discord.gg/RcTNjpB</a> ${I18n.t('lssm.telemetry.v4.content_till_thread')} <a href="https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/" target="blank">https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/</a> ${I18n.t('lssm.telemetry.v4.content_end')} </div></div> <div class="vue-dialog-buttons"><button type="button" class="vue-dialog-button" style="flex: 1 1 100%;" id="lssm-v4-modal-close">${I18n.t('lssm.telemetry.v4.close')}</button></div> <!----></div></div>`;
         $('#lssm-v4-modal-close').click(() => {localStorage[V4_BETA_STORAGE] = 'clicked'; $('#lssm-v4-modal-container').remove();});
     }
 
