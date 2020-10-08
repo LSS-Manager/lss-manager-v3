@@ -330,13 +330,13 @@ const lssm_missionhelper_adjustPosition = () => {
             };
             break;
         case 'en_AU':
-            managed_settings.settings.phorse = {
+            managed_settings.settings.show_phorse = {
                 default: false,
                 ui: {
-                    label: I18n.t('lssm.missionhelper.settings.phorse.label'),
+                    label: I18n.t('lssm.missionhelper.settings.show_phorse.label'),
                     type: 'toggle',
                     description: I18n.t(
-                        'lssm.missionhelper.settings.phorse.description'
+                        'lssm.missionhelper.settings.show_phorse.description'
                     ),
                 },
             };
