@@ -3828,7 +3828,8 @@
         },
         "additional": {
             "possible_patient": 2,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
             "police_stations": 2,
@@ -4673,7 +4674,8 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "water_watch_missions",
-            "patient_at_end_of_mission": true
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
             "wasserrettung": 1,
@@ -4711,7 +4713,8 @@
         "additional": {
             "possible_patient": 3,
             "filter_id": "water_watch_missions",
-            "patient_at_end_of_mission": true
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
             "wasserrettung": 2,
@@ -15579,7 +15582,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
             "rescue_stations": 10,
@@ -15604,7 +15608,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Cardiologie"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -15801,7 +15806,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -15825,7 +15831,8 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions"
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
             "rescue_stations": 1
