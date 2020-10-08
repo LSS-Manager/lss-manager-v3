@@ -319,12 +319,24 @@ const lssm_missionhelper_adjustPosition = () => {
             break;
         case 'pl_PL':
             managed_settings.settings.waterpl = {
-                default: false,
+                default: true,
                 ui: {
                     label: I18n.t('lssm.missionhelper.settings.waterpl.label'),
                     type: 'toggle',
                     description: I18n.t(
                         'lssm.missionhelper.settings.waterpl.description'
+                    ),
+                },
+            };
+            break;
+        case 'en_AU':
+            managed_settings.settings.phorse = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.phorse.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.phorse.description'
                     ),
                 },
             };
@@ -450,6 +462,12 @@ const lssm_missionhelper_adjustPosition = () => {
                 document
                     .getElementById('missionH1')
                     .insertAdjacentHTML('beforeend', '&nbsp;🐕‍🦺');
+            }
+
+            if (SETTINGS.show_phorse && MISSION.requirements.police_horse) {
+                document
+                    .getElementById('missionH1')
+                    .insertAdjacentHTML('beforeend', '&nbsp;🐎');
             }
 
             if (SETTINGS.show_k9 && (MISSION.requirements.k9 || MISSION.requirements.hondengeleider)) {

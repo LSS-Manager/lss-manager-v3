@@ -98,6 +98,8 @@
     "swat_armored_vehicle": "furgone Antisommossa",
     "swat_suv": "Suv UOPI",
     "police_helicopters": "elicottero della polizia",
+    "commerce_police": "Volante Finanza",
+    "fbi_bomb_techician": "Furgone artificieri",
     "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
   }
 }

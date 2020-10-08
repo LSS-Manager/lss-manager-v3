@@ -352,7 +352,7 @@
                 1: 'Light Tanker',
                 2: 'Turntable Ladder',
                 3: 'Support Vehicle',
-                4: 'Rescue',
+                4: 'Major Rescue Vehicle',
                 5: 'Ambulance',
                 6: 'Bulk Water Tanker',
                 7: 'HAZMAT',
@@ -369,7 +369,8 @@
                 18: 'TOG SUV',
                 19: 'Tanker',
                 20: 'SES Vehicle',
-                21: 'Multi-Purpose Boat'
+                21: 'Rescue Boat',
+                22: 'Mounted Police'
             }
         }
     };
@@ -815,7 +816,8 @@
                 13: "Elibase polizia",
                 18: "Caserma dei vigili del fuoco (piccola)",
                 19: "Stazione di polizia (stazione piccola)",
-                20: "Stazione ambulanze (stazione piccola)"
+                20: "Stazione ambulanze (stazione piccola)",
+                21: "Caserma della Finanza"
             },
             vehicleTypes: {
                 0: 'ABP',
@@ -838,7 +840,9 @@
                 17: 'UOPI Suv',
                 18: 'VLV',
                 19: 'MSA',
-                20: 'Ambulanza Ordinaria'
+                20: 'Ambulanza Ordinaria',
+                21: 'Volante Finanza',
+                22: 'Furgone artificieri'
             }
         }
     };

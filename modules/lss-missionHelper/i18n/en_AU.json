@@ -65,6 +65,10 @@
             "label": "Dog icon behind mission name",
             "description": "Shows a dog emoji behind the mission name if k9 is required."
         },
+        "show_phorse": {
+            "label": "Horse icon behind mission name",
+            "description": "Shows a horse emoji behind the mission name if Mounted Police is required."
+        },
         "mission_time": {
             "label": "Creation Time",
             "description": "Shows the date and time when the mission was created."
@@ -89,6 +93,7 @@
         "police_helicopters": "Police Helicopter",
         "boats": "Boats",
         "water_rescue": "SES Vehicle",
+        "police_horse": "Mounted Police",
         "allow_rw_instead_of_lf": "Fire trucks or Major Rescue Vehicle"
     }
 }

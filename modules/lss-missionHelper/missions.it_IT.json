@@ -6102,7 +6102,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -6275,6 +6277,464 @@
         },
         "prerequisites": {
             "fire_stations": 15
+        }
+    },
+    "236": {
+        "id": 236,
+        "name": "Controlli doganali",
+        "place": "Porto mercantile",
+        "average_credits": 850,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "15 Minuti",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "commerce_police_stations": 1
+        }
+    },
+    "237": {
+        "id": 237,
+        "name": "Controlli doganali",
+        "place": "Molo navi da crociera",
+        "average_credits": 850,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "15 Minuti",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "commerce_police_stations": 1
+        }
+    },
+    "238": {
+        "id": 238,
+        "name": "Controlli doganali",
+        "place": "Terminal aeroporto",
+        "average_credits": 850,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "k9": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "15 Minuti",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "commerce_police_stations": 1
+        }
+    },
+    "239": {
+        "id": 239,
+        "name": "Controllo igienico sanitario",
+        "place": "Tavola calda",
+        "average_credits": 560,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "commerce_police_stations": 1
+        }
+    },
+    "240": {
+        "id": 240,
+        "name": "Pacco sospetto",
+        "place": "Stazione metropolitana",
+        "average_credits": 1200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "241": {
+        "id": 241,
+        "name": "Pacco sospetto",
+        "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
+        "average_credits": 1200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "242": {
+        "id": 242,
+        "name": "Pacco sospetto",
+        "place": "Terminal aeroporto",
+        "average_credits": 1200,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "ambulances": 1,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4
+        }
+    },
+    "243": {
+        "id": 243,
+        "name": "Verifica esercizio commerciale",
+        "place": "Supermercato (grande)",
+        "average_credits": 680,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "commerce_police_stations": 1
+        }
+    },
+    "244": {
+        "id": 244,
+        "name": "Verifica esercizio commerciale",
+        "place": "Supermercato (piccolo)",
+        "average_credits": 680,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "commerce_police_stations": 1
+        }
+    },
+    "245": {
+        "id": 245,
+        "name": "Container sospetto",
+        "place": "Porto mercantile",
+        "average_credits": 1500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "k9": 1,
+            "commerce_police": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "commerce_police_stations": 2
+        }
+    },
+    "246": {
+        "id": 246,
+        "name": "Controllo fiscale",
+        "place": "Edificio adibito a uffici",
+        "average_credits": 700,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "commerce_police_stations": 1
+        }
+    },
+    "247": {
+        "id": 247,
+        "name": "Disinnesco ordigno bellico",
+        "place": null,
+        "average_credits": 2800,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 6,
+            "fire_stations": 1
+        }
+    },
+    "248": {
+        "id": 248,
+        "name": "Perquisizione domestica",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "commerce_police_stations": 1
+        }
+    },
+    "249": {
+        "id": 249,
+        "name": "Controllo mezzi pesanti",
+        "place": "Porto mercantile",
+        "average_credits": 1100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "commerce_police_stations": 1
+        }
+    },
+    "250": {
+        "id": 250,
+        "name": "Controllo mezzi pesanti",
+        "place": "Uscita autostradale",
+        "average_credits": 1100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "commerce_police_stations": 1
+        }
+    },
+    "251": {
+        "id": 251,
+        "name": "Sgombero area abusiva (PICCOLO)",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "commerce_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "commerce_police_stations": 1
+        }
+    },
+    "252": {
+        "id": 252,
+        "name": "Sgombero area abusiva (MEDIO)",
+        "place": null,
+        "average_credits": 1800,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1,
+            "commerce_police": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 8,
+            "commerce_police_stations": 2
+        }
+    },
+    "253": {
+        "id": 253,
+        "name": "Sgombero area abusiva (GRANDE)",
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "swat_armored_vehicle": 2,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "k9": 1,
+            "commerce_police": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 10,
+            "police_helicopter_stations": 1,
+            "commerce_police_stations": 2
         }
     }
 }

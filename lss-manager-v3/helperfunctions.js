@@ -94,7 +94,7 @@ else if (I18n.locale == "en_AU") {
         "1": ["Light Tanker", 0],
         "2": ["Turntable Ladder", 0],
         "3": ["Support Vehicle", 0],
-        "4": ["Rescue", 0],
+        "4": ["Major Rescue Vehicle", 0],
         "5": ["Ambulance", 1],
         "6": ["Bulk Water Tanker", 0],
         "7": ["HAZMAT", 0],
@@ -111,7 +111,8 @@ else if (I18n.locale == "en_AU") {
         "18": ["TOG SUV", 2],
         "19": ["Tanker", 0],
         "20": ["SES Vehicle", 4],
-        "21": ["Multi-Purpose Boat", 4]
+        "21": ["Rescue Boat", 4],
+        "22": ["Mounted Police", 2]
     };
 }
 else if (I18n.locale == "pt_PT") {
@@ -287,7 +288,9 @@ else if (I18n.locale == "it_IT") {
         "17": ["UOPI Suv", 2],
         "18": ["VLV", 1],
         "19": ["MSA", 1],
-        "20": ["Ambulanza Ordinaria", 1]
+        "20": ["Ambulanza Ordinaria", 1],
+        "21": ["Volante Finanza", 2],
+        "22": ["Furgone artificieri", 2]
     };
 }
 else if (I18n.locale == "fr_FR") {
