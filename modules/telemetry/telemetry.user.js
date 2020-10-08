@@ -6,7 +6,7 @@
         v4: {
             title: "Beta-Tester für die V.4 gesucht!",
             content_till_beta: "Liebe/r " + window.user_name + ",<br>wie du vielleicht mitbekommen hast, neigt sich diese Version des LSS-Manager dem Ende entgegen. Eine brandneue Version 4 wird diese hier immer weiter ablösen. Dafür suchen wir aber noch Beta-Tester. Bis einschließlich 20. Oktober kannst du dich unter",
-            content_till_discord: "als Beta-Tester bewerben. Sollten wir dich annehmen, so werden wir dich per Privat-Nachricht informieren. Um die Zahl der Kommunikationswege gering zu halten musst du einen Account im Forum haben oder auf unserem Discord",
+            content_till_discord: "als Beta-Tester bewerben. <b>Wichtiger Hinweis: Das ist eine Bewerbung für das Add-On \"LSS-Manager\", NICHT für das Spiel selbst!</b>. Sollten wir dich annehmen, so werden wir dich per Privat-Nachricht informieren. Um die Zahl der Kommunikationswege gering zu halten musst du einen Account im Forum haben oder auf unserem Discord",
             content_till_thread: "sein. Bei Fragen hierzu kannst du uns jederzeit im Spiel (jxn_30, Ron31 oder SanniHameln) oder im Forum bzw. auf Discord anschreiben. Schau auch gerne mal in unserem Thread im Forum vorbei:",
             content_end: "<br><br>Viele Grüße,<br>Dein LSSM-Team!",
             close: "Diese Nachricht schließen."
@@ -19,7 +19,7 @@
         v4: {
             title: "Searching Beta-Testers for LSS-Manager V.4",
             content_till_beta: "Dear " + window.user_name + ",<br>as you may have heard on, this version of LSS-Manager will come to an end soon. A new Version 4 will replace this one more and more. Before our initial release, we want YOU as a Beta-Tester. Until 20th of October you may apply at ",
-            content_till_discord: "for Beta-Tests. Accepted Beta-Testers will be informed on 24th of October. To limit communication ways, you need either an Account in German Forum or on our Discord: ",
+            content_till_discord: "for Beta-Tests. <b>Important note: This is an application for the add-on \"LSS-Manager\", NOT for the game itself!</b> Accepted Beta-Testers will be informed on 24th of October. To limit communication ways, you need either an Account in German Forum or on our Discord: ",
             content_till_thread: ". If you got any questions, feel free to Ping or DM a @LSSM-Dev on our Discord! You may also have a look at our german Forum Thread:",
             content_end: "<br><br>Greetings,<br>Yours LSSM-Team!",
             close: "Close this message."
@@ -82,7 +82,7 @@
         v4: {
             title: "Zoekende Beta-Testers voor LSS-Manager V.4",
             content_till_beta: "Beste " + window.user_name + ",<br>zoals u wellicht heeft gehoord, zal deze versie van LSS-Manager binnenkort aflopen. Een nieuwe versie 4 zal deze steeds meer vervangen. Voor onze eerste release willen we U als Beta-Tester. Tot 20 oktober kunt u zich aanmelden bij ",
-            content_till_discord: "voor Beta-Tests. Geaccepteerde Beta-Testers zullen op 24 oktober worden geinformeerd. Om de communicatiemogelijkheden te beperken, heeft u een account nodig in het Duitse Forum of op onze Discord: ",
+            content_till_discord: "voor Beta-Tests. <b>Belangrijke opmerking: Dit is een applicatie voor de add-on \"LSS Manager\", NIET voor het spel zelf!</b> Geaccepteerde Beta-Testers zullen op 24 oktober worden geinformeerd. Om de communicatiemogelijkheden te beperken, heeft u een account nodig in het Duitse Forum of op onze Discord: ",
             content_till_thread: ". Als je vragen hebt, voel je vrij om Ping of DM een @LSSM-Dev op onze Discord! U kunt ook een kijkje nemen op onze Duitse Forum Thread:",
             content_end: "<br><br>Groeten,<br>Uw LSSM-Team!",
             close: "Sluit dit bericht"
