@@ -10818,6 +10818,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "17-D-5"
+            },
             "patient_specializations": "General Internal"
         },
         "prerequisites": {
@@ -11902,6 +11905,7 @@
             "expansion_missions_ids": {
                 "0": 400
             },
+            "followup_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -11954,6 +11958,9 @@
             "expansion_missions_ids": {
                 "0": 423
             },
+            "followup_missions_ids": {
+                "0": 478
+            },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -12004,6 +12011,7 @@
             "expansion_missions_ids": {
                 "0": 402
             },
+            "followup_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -12055,6 +12063,9 @@
             "possible_patient": 12,
             "expansion_missions_ids": {
                 "0": 424
+            },
+            "followup_missions_ids": {
+                "0": 479
             },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
@@ -12127,6 +12138,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "10-D-2"
+            },
             "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
@@ -12189,6 +12203,10 @@
         },
         "additional": {
             "possible_patient": 15,
+            "followup_missions_ids": {
+                "0": 480,
+                "1": 482
+            },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -12242,6 +12260,10 @@
         },
         "additional": {
             "possible_patient": 15,
+            "followup_missions_ids": {
+                "0": 481,
+                "1": 483
+            },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -12290,6 +12312,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "77-D-1",
+                "1": "77-D-10"
+            },
             "patient_specializations": "Traumatology"
         },
         "prerequisites": {
@@ -12321,6 +12347,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "73-B-2"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -12353,6 +12382,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "73-B-2"
+            },
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatology"
         },
@@ -13597,6 +13629,218 @@
         "prerequisites": {
             "brush_extension": 2,
             "fire_stations": 12
+        }
+    },
+    "478": {
+        "id": 478,
+        "name": "Train station collapse (Medium)",
+        "place": "Train station (regional traffic)",
+        "average_credits": 6000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 12
+        }
+    },
+    "479": {
+        "id": 479,
+        "name": "Train station collapse (Medium)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 6000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 2,
+            "fire_stations": 12
+        }
+    },
+    "480": {
+        "id": 480,
+        "name": "Train station collapse (Large)",
+        "place": "Train station (regional traffic)",
+        "average_credits": 9800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 6,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 13,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "481": {
+        "id": 481,
+        "name": "Train station collapse (Large)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 9800,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 6,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 13,
+            "police_stations": 3,
+            "fire_stations": 15
+        }
+    },
+    "482": {
+        "id": 482,
+        "name": "Train station collapse (Major)",
+        "place": "Train station (regional traffic)",
+        "average_credits": 15000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 8,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 18,
+            "police_stations": 5,
+            "fire_stations": 20
+        }
+    },
+    "483": {
+        "id": 483,
+        "name": "Train station collapse (Major)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 15000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 6,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 8,
+            "police_cars": 6
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 18,
+            "police_stations": 5,
+            "fire_stations": 20
         }
     }
 }

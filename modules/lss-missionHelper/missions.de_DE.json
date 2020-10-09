@@ -15278,5 +15278,38 @@
             "police_helicopter_stations": 1,
             "bereitschaftspolizei": 2
         }
+    },
+    "569": {
+        "id": 569,
+        "name": "Tankstellen\u00fcberfall - Eskaliert",
+        "place": "Tankstelle",
+        "average_credits": 4000,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "sek": 4,
+            "police_cars": 6,
+            "fukw": 1
+        },
+        "chances": {
+            "nef": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 0,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "sek": 1,
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
     }
 }

@@ -80,9 +80,9 @@
           "Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal posten, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
           "Bent u het hiermee eens?",
         v4: {
-            title: "Zoekende Beta-Testers voor LSS-Manager V.4",
+            title: "Gezocht, Beta-Testers voor LSS-Manager V.4",
             content_till_beta: "Beste " + window.user_name + ",<br>zoals u wellicht heeft gehoord, zal deze versie van LSS-Manager binnenkort aflopen. Een nieuwe versie 4 zal deze steeds meer vervangen. Voor onze eerste release willen we U als Beta-Tester. Tot 20 oktober kunt u zich aanmelden bij ",
-            content_till_discord: "voor Beta-Tests. <b>Belangrijke opmerking: Dit is een applicatie voor de add-on \"LSS Manager\", NIET voor het spel zelf!</b> Geaccepteerde Beta-Testers zullen op 24 oktober worden geinformeerd. Om de communicatiemogelijkheden te beperken, heeft u een account nodig in het Duitse Forum of op onze Discord: ",
+            content_till_discord: "voor Beta-Tests. <b>Belangrijke opmerking: Dit is een sollicitatie voor de add-on \"LSS Manager\", NIET voor het spel zelf!</b> Geaccepteerde Beta-Testers zullen op 24 oktober worden geinformeerd. Om de communicatiemogelijkheden te beperken, heeft u een account nodig in het Duitse Forum of op onze Discord: ",
             content_till_thread: ". Als je vragen hebt, voel je vrij om Ping of DM een @LSSM-Dev op onze Discord! U kunt ook een kijkje nemen op onze Duitse Forum Thread:",
             content_end: "<br><br>Groeten,<br>Uw LSSM-Team!",
             close: "Sluit dit bericht"

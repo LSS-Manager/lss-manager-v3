@@ -4868,7 +4868,6 @@
         },
         "requirements": {
             "police_cars": 6,
-            "k9": 1,
             "police_horse": 2
         },
         "chances": {
