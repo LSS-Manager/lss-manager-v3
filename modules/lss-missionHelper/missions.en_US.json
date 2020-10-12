@@ -11905,7 +11905,9 @@
             "expansion_missions_ids": {
                 "0": 400
             },
-            "followup_missions_ids": {},
+            "followup_missions_ids": {
+                "0": 476
+            },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -12011,7 +12013,9 @@
             "expansion_missions_ids": {
                 "0": 402
             },
-            "followup_missions_ids": {},
+            "followup_missions_ids": {
+                "0": 477
+            },
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",
@@ -13629,6 +13633,43 @@
         "prerequisites": {
             "brush_extension": 2,
             "fire_stations": 12
+        }
+    },
+    "474": {
+        "id": 474,
+        "name": "Carpentry workshop fire",
+        "place": "Carpentry Workshop",
+        "average_credits": 4200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "69-E-6"
+            },
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
         }
     },
     "478": {

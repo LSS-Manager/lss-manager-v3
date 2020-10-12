@@ -3531,5 +3531,143 @@
             "police_stations": 8,
             "fire_stations": 10
         }
+    },
+    "150": {
+        "id": 150,
+        "name": "Abalroamento Ferrovi\u00e1rio",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
+        "average_credits": 7500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 151
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "Abalroamento Ferrovi\u00e1rio",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
+        "average_credits": 7500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "expansion_missions_ids": {
+                "0": 143
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "152": {
+        "id": 152,
+        "name": "Colisao Ferrovi\u00e1ria",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
+        "average_credits": 12000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 50,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "fire_stations": 12
+        }
+    },
+    "153": {
+        "id": 153,
+        "name": "Colisao Ferrovi\u00e1ria",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
+        "average_credits": 12000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 50,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 4,
+            "fire_stations": 12
+        }
     }
 }

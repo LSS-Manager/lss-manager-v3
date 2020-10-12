@@ -3966,5 +3966,37 @@
         "prerequisites": {
             "rescue_stations": 2
         }
+    },
+    "168": {
+        "id": 168,
+        "name": "Po\u017e\u00e1r truhl\u00e1rny",
+        "place": "Truhl\u00e1rna",
+        "average_credits": 4200,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 10
+        }
     }
 }

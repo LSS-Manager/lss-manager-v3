@@ -4295,6 +4295,33 @@
             "police_helicopter_stations": 2
         }
     },
+    "198": {
+        "id": 198,
+        "name": "Inbrott - 'smash and grab'",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 10,
+            "k9": 5
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 137
+            },
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
     "200": {
         "id": 200,
         "name": "Brand i byggnad - publik lokal, museum",

@@ -5287,5 +5287,44 @@
         "prerequisites": {
             "fire_stations": 6
         }
+    },
+    "233": {
+        "id": 233,
+        "name": "Person under tree",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "kdow_orgl": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "patient_uk_code_possible": {
+                "0": "C-1",
+                "1": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "rescue_helicopter_stations": 1,
+            "fire_stations": 6
+        }
     }
 }

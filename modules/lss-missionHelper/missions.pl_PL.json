@@ -5524,5 +5524,28 @@
             "rescue_stations": 8,
             "fire_stations": 8
         }
+    },
+    "245": {
+        "id": 245,
+        "name": "Pow\u00f3d\u017a - uk\u0142adanie work\u00f3w z piaskiem",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

@@ -16847,5 +16847,55 @@
             "police_stations": 6,
             "bereitschaftspolizei": 1
         }
+    },
+    "657": {
+        "id": 657,
+        "name": "Hoge koorts",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "658": {
+        "id": 658,
+        "name": "Hand in keukenmixer",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

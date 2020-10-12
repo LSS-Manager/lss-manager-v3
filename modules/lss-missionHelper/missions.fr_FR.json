@@ -4884,5 +4884,39 @@
             "rescue_stations": 4,
             "fire_stations": 12
         }
+    },
+    "226": {
+        "id": 226,
+        "name": "Feu de chaumi\u00e8re",
+        "place": null,
+        "average_credits": 4080,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
     }
 }

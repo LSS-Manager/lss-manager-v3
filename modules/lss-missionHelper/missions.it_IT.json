@@ -6102,9 +6102,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -6278,6 +6276,81 @@
         "prerequisites": {
             "fire_stations": 15
         }
+    },
+    "230": {
+        "id": 230,
+        "name": "Incendio centrale elettrica (MEDIA)",
+        "place": "Centrale elettrica",
+        "average_credits": 4000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 4,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V",
+                "3": "ZC03R",
+                "4": "ZC03G",
+                "5": "ZC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Medicina interna generale",
+                "8": "Medicina interna generale"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "fire_stations": 11
+        }
+    },
+    "231": {
+        "id": 231,
+        "name": "Controllo rilevatore antincendio",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "8 Minuti",
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {}
     },
     "236": {
         "id": 236,

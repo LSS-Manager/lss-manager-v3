@@ -3467,5 +3467,35 @@
         "prerequisites": {
             "fire_stations": 6
         }
+    },
+    "147": {
+        "id": 147,
+        "name": "\ub098\ubb34\uc5d0 \uae54\ub9b0 \uc0ac\ub78c",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "allow_rw_instead_of_lf": true,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
     }
 }
