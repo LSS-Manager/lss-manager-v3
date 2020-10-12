@@ -7199,6 +7199,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 569
+            },
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions"
         },
