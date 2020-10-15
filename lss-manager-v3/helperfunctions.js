@@ -178,7 +178,9 @@ else if (I18n.locale == "cs_CZ") {
         "14": ["Policejní motocykl", 2],
         "15": ["URNA SUV", 2],
         "16": ["Protiplynový automobil", 0],
-        "17": ["MOS", 0]
+        "17": ["MOS", 0],
+        "18": ["Vozidlo vyšetřovatelů DN", 2],
+        "19": ["Vozidlo pyrotechika PČR", 2]
     };
 }
 else if (I18n.locale == "da_DK") {
@@ -203,7 +205,8 @@ else if (I18n.locale == "da_DK") {
         "17": ["AKS Patruljevogn", 2],
         "18": ["Dykkerbil", 4],
         "19": ["Kystlivredderbil", 4],
-        "20": ["Bådtrailer", 4]
+        "20": ["Bådtrailer", 4],
+        "21": ["Indsatsleder Politi", 2]
     };
 }
 else if (I18n.locale == "nb_NO") {

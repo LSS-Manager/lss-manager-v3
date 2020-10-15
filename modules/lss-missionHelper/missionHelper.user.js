@@ -329,6 +329,18 @@ const lssm_missionhelper_adjustPosition = () => {
                 },
             };
             break;
+        case 'da_DK':
+            managed_settings.settings.subsequent = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.subsequent.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.subsequent.description'
+                    ),
+                },
+            };
+            break;
         case 'en_AU':
             managed_settings.settings.show_phorse = {
                 default: false,

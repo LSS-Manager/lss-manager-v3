@@ -615,7 +615,8 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 40
@@ -625,9 +626,11 @@
             "expansion_missions_ids": {
                 "0": 24,
                 "1": 2,
-                "2": 29
+                "2": 29,
+                "3": 169
             },
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -1163,11 +1166,13 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -1185,11 +1190,13 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -1341,11 +1348,13 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 1
@@ -1559,7 +1568,8 @@
         },
         "requirements": {
             "firetrucks": 2,
-            "heavy_rescue_vehicles": 1
+            "heavy_rescue_vehicles": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50
@@ -1567,6 +1577,7 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -1820,7 +1831,8 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 80
@@ -1828,6 +1840,7 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd chirurg"
         },
         "prerequisites": {
@@ -1905,7 +1918,8 @@
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 100
@@ -1914,6 +1928,7 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -2158,7 +2173,8 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50
@@ -2166,6 +2182,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -2665,11 +2682,13 @@
         },
         "requirements": {
             "police_cars": 2,
-            "k9": 1
+            "k9": 1,
+            "traffic_car": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 6
@@ -3076,7 +3095,8 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 40
@@ -3085,6 +3105,7 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
         },
         "prerequisites": {
@@ -3105,7 +3126,8 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 90,
@@ -3114,6 +3136,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3526,7 +3549,8 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 25
@@ -3534,6 +3558,7 @@
         "additional": {
             "possible_patient": 14,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
@@ -3997,6 +4022,392 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 10
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "Dopravn\u00ed nehoda bez zran\u011bn\u00ed",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 1
+        }
+    },
+    "170": {
+        "id": 170,
+        "name": "Dopravn\u00ed nehoda cisterny",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "traffic_car": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 6
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "N\u00e1lez nabouran\u00e9ho vozidla",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 73,
+                "1": 64,
+                "2": 76,
+                "3": 85
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 1
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina ve \u0161kole",
+        "place": "\u0160kola",
+        "average_credits": 3700,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 6
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na vlakov\u00e9m n\u00e1dra\u017e\u00ed",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
+        "average_credits": 3500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 6
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na vlakov\u00e9m n\u00e1dra\u017e\u00ed",
+        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "average_credits": 3500,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 6
+        }
+    },
+    "175": {
+        "id": 175,
+        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na autobusov\u00e9m n\u00e1dra\u017e\u00ed",
+        "place": "Autobusov\u00e1 zast\u00e1vka",
+        "average_credits": 3200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 6
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina v n\u00e1kupn\u00edm centru",
+        "place": "N\u00e1kupn\u00ed centrum",
+        "average_credits": 3600,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 4,
+            "k9": 1,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 6
+        }
+    },
+    "177": {
+        "id": 177,
+        "name": "Po\u017e\u00e1r muni\u010dn\u00edho skladu",
+        "place": "Muni\u010dn\u00edho skladu",
+        "average_credits": 17000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 20,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "fbi_bomb": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 6,
+            "bomb_disposal_count": 1,
+            "fire_stations": 15
+        }
+    },
+    "178": {
+        "id": 178,
+        "name": "Po\u017e\u00e1r skladu pyrotechniky",
+        "place": "Skladu pyrotechniky",
+        "average_credits": 13000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "police_stations": 3,
+            "bomb_disposal_count": 1,
+            "fire_stations": 13
+        }
+    },
+    "179": {
+        "id": 179,
+        "name": "N\u00e1lez opu\u0161t\u011bn\u00e9ho zavazadla",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 2,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "bomb_disposal_count": 1,
+            "fire_stations": 1
+        }
+    },
+    "180": {
+        "id": 180,
+        "name": "N\u00e1lez munice",
+        "place": null,
+        "average_credits": 2300,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "bomb_disposal_count": 1,
+            "fire_stations": 2
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "N\u00e1lez munice",
+        "place": "Les",
+        "average_credits": 2300,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 3,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "bomb_disposal_count": 1,
+            "fire_stations": 2
         }
     }
 }

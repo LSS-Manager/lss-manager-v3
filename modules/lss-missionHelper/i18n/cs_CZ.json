@@ -94,6 +94,8 @@
     "pmotorcycle": "Policejní motocykl",
     "swat_armored_vehicle": "Obrněné vozidlo URNA",
     "swat_suv": "URNA SUV",
+    "traffic_car": "Vozidlo vyšetřovatelů DN",
+    "fbi_bomb": "Vozidlo pyrotechika PČR",
     "police_helicopters": "Policejní vrtulník",
     "allow_rw_instead_of_lf": "cisternové automobilové stříkačky nebo těžká záchranná služba"
   }

@@ -1034,7 +1034,8 @@
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "water_tankers": 40,
@@ -1043,6 +1044,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -1666,7 +1668,8 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "elw_police": 1
         },
         "chances": {
             "water_tankers": 20,
@@ -1675,6 +1678,7 @@
         "additional": {
             "possible_patient": 6,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -1699,11 +1703,13 @@
             "battalion_chief_vehicles": 2,
             "heavy_rescue_vehicles": 2,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 2,
@@ -1818,7 +1824,8 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 80
@@ -1826,6 +1833,7 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Kirurg"
         },
         "prerequisites": {
@@ -2006,7 +2014,8 @@
         "requirements": {
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 50
@@ -2014,6 +2023,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -2064,7 +2074,8 @@
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -2073,6 +2084,7 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -2180,7 +2192,8 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 40,
@@ -2190,6 +2203,7 @@
             "possible_patient": 8,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -2214,7 +2228,8 @@
             "battalion_chief_vehicles": 2,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 3,
-            "police_cars": 1
+            "police_cars": 1,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 50,
@@ -2224,6 +2239,7 @@
             "possible_patient": 20,
             "possible_patient_min": 8,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -2706,7 +2722,8 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 25
@@ -2714,6 +2731,7 @@
         "additional": {
             "possible_patient": 14,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -2829,11 +2847,13 @@
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 2,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 2,
@@ -2889,7 +2909,8 @@
             "heavy_rescue_vehicles": 4,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -2898,6 +2919,7 @@
             "possible_patient": 4,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -2925,7 +2947,8 @@
             "heavy_rescue_vehicles": 4,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -2934,6 +2957,7 @@
             "possible_patient": 4,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -2961,7 +2985,8 @@
             "heavy_rescue_vehicles": 4,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 2,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -2970,6 +2995,7 @@
             "possible_patient": 4,
             "possible_patient_min": 0,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -3270,13 +3296,15 @@
             "2": "/images/gas_rot.png"
         },
         "requirements": {
-            "police_cars": 4
+            "police_cars": 4,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
             "max_possible_prisoners": 3,
             "swat_personnel": 12,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 8
@@ -3296,7 +3324,8 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 8,
-            "k9": 2
+            "k9": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -3306,6 +3335,7 @@
             "possible_patient_min": 1,
             "swat_personnel": 6,
             "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -3329,14 +3359,16 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 6,
-            "k9": 2
+            "k9": 2,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
             "duration": "30 minutter",
             "swat_personnel": 18,
             "guard_mission": true,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 15,
@@ -3356,13 +3388,15 @@
         },
         "requirements": {
             "police_cars": 4,
-            "k9": 1
+            "k9": 1,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
             "max_possible_prisoners": 2,
             "swat_personnel": 4,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 9
@@ -3381,7 +3415,8 @@
         },
         "requirements": {
             "police_cars": 6,
-            "k9": 1
+            "k9": 1,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 100
@@ -3392,6 +3427,7 @@
             "max_possible_prisoners": 1,
             "swat_personnel": 6,
             "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -3413,13 +3449,15 @@
         },
         "requirements": {
             "police_cars": 4,
-            "k9": 1
+            "k9": 1,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
             "max_possible_prisoners": 3,
             "swat_personnel": 6,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 9
@@ -3487,7 +3525,8 @@
             "2": "/images/zoom_rot.png"
         },
         "requirements": {
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 75
@@ -3495,6 +3534,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -3810,7 +3850,8 @@
             "battalion_chief_vehicles": 1,
             "police_cars": 2,
             "diver_units": 2,
-            "boats": 2
+            "boats": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 90
@@ -3818,6 +3859,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "water_watch_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Specialister i intern medicin"
         },
@@ -3844,7 +3886,8 @@
             "battalion_chief_vehicles": 1,
             "police_cars": 3,
             "diver_units": 3,
-            "boats": 3
+            "boats": 3,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 90
@@ -3852,6 +3895,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "water_watch_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -3877,7 +3921,8 @@
             "battalion_chief_vehicles": 1,
             "police_cars": 3,
             "diver_units": 3,
-            "boats": 3
+            "boats": 3,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 90
@@ -3885,6 +3930,7 @@
         "additional": {
             "possible_patient": 15,
             "filter_id": "water_watch_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -3940,7 +3986,8 @@
             "battalion_chief_vehicles": 1,
             "police_helicopters": 1,
             "police_cars": 6,
-            "boats": 2
+            "boats": 2,
+            "elw_police": 2
         },
         "chances": {
             "patient_transport": 100,
@@ -3952,6 +3999,7 @@
             "average_min_fire_personnel": 9,
             "average_min_police_personnel": 12,
             "filter_id": "water_watch_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Specialister i intern medicin"
         },
@@ -4039,7 +4087,8 @@
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {
             "water_tankers": 10,
@@ -4052,6 +4101,7 @@
                 "0": 168
             },
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4079,7 +4129,8 @@
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 6
+            "police_cars": 6,
+            "elw_police": 2
         },
         "chances": {
             "patient_transport": 40
@@ -4087,6 +4138,7 @@
         "additional": {
             "possible_patient": 50,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4187,7 +4239,8 @@
             "firetrucks": 2,
             "battalion_chief_vehicles": 2,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 90
@@ -4196,6 +4249,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -4220,7 +4274,8 @@
             "firetrucks": 2,
             "battalion_chief_vehicles": 2,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 90
@@ -4229,6 +4284,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "need_elw_police_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -4282,12 +4338,14 @@
             "2": "/images/baseball_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "elw_police": 1
         },
         "chances": {},
         "additional": {
             "swat_personnel": 6,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 8
@@ -4313,7 +4371,8 @@
             "water_tankers": 2,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 1,
-            "police_cars": 4
+            "police_cars": 4,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 60
@@ -4321,6 +4380,7 @@
         "additional": {
             "possible_patient": 10,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4377,7 +4437,8 @@
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "elw_police": 1
         },
         "chances": {
             "mobile_air_vehicles": 50,
@@ -4386,6 +4447,7 @@
         "additional": {
             "possible_patient": 4,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4413,7 +4475,8 @@
             "heavy_rescue_vehicles": 3,
             "water_tankers": 3,
             "mobile_air_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 20
@@ -4421,6 +4484,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4501,7 +4565,8 @@
             "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "elw_police": 1
         },
         "chances": {
             "patient_transport": 30
@@ -4509,6 +4574,7 @@
         "additional": {
             "possible_patient": 7,
             "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
             "patient_specializations": "Specialister i intern medicin"
         },
         "prerequisites": {
@@ -4640,6 +4706,379 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
+        }
+    },
+    "190": {
+        "id": 190,
+        "name": "Lille voldelig demonstration",
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "expansion_missions_ids": {
+                "0": 191
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Mellem voldelig demonstration",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 7,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 7,
+            "police_helicopter_stations": 1
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Blind passager fundet",
+        "place": "Godsstation",
+        "average_credits": 2000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/cruiseship_gruen.png",
+            "1": "/images/cruiseship_gelb.png",
+            "2": "/images/cruiseship_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 8,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 7,
+            "fire_stations": 1
+        }
+    },
+    "193": {
+        "id": 193,
+        "name": "Blind passager fundet",
+        "place": "Containerhavn",
+        "average_credits": 2000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/cruiseship_gruen.png",
+            "1": "/images/cruiseship_gelb.png",
+            "2": "/images/cruiseship_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 8,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 7,
+            "fire_stations": 1
+        }
+    },
+    "194": {
+        "id": 194,
+        "name": "Blind passager fundet",
+        "place": "Krydstogthavn",
+        "average_credits": 2000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/cruiseship_gruen.png",
+            "1": "/images/cruiseship_gelb.png",
+            "2": "/images/cruiseship_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 8,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 7,
+            "fire_stations": 1
+        }
+    },
+    "195": {
+        "id": 195,
+        "name": "Demonstranter p\u00e5 landingsbane",
+        "place": "Lille lufthavn (landingsbane)",
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 6,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 7,
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 4,
+            "fire_stations": 1
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "Demonstranter p\u00e5 landingsbane",
+        "place": "Stor lufthavn (landingsbane)",
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 6,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 7,
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 4,
+            "fire_stations": 1
+        }
+    },
+    "197": {
+        "id": 197,
+        "name": "Aktiveret overfaldsalarm",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 6
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Unders\u00f8gelse af formodet kriminalitet",
+        "place": "Kontorbygning",
+        "average_credits": 4000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 199,
+                "1": 201
+            },
+            "need_elw_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Kontor brugt til krypterings angreb",
+        "place": "Kontorbygning",
+        "average_credits": 6000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 8,
+            "elw_police": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "subsequent_missions_ids": {
+                "0": 200
+            },
+            "subsequent_mission_only": true,
+            "need_elw_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Gemmested for cyber-kriminel organisation",
+        "place": null,
+        "average_credits": 3600,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 8,
+            "swat_personnel": 10,
+            "filter_id": "police_station_missions",
+            "subsequent_mission_only": true,
+            "need_elw_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Kontor indblandet i korruption",
+        "place": "Kontorbygning",
+        "average_credits": 1900,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 5,
+            "filter_id": "police_station_missions",
+            "subsequent_mission_only": true,
+            "need_elw_police_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 3
         }
     }
 }
