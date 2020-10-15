@@ -54,6 +54,10 @@
             "label": "distributioner",
             "description": "Viser, hvad indsatsen kan sprede sig til. (Viser kun enkel spredning)"
         },
+        "subsequent": {
+            "label": "Efterfølgende missioner",
+            "description": "Viser, hvad missionen kan generere til efterfølgende missioner i slutningen af missionen"
+        },
         "show_100": {
             "label": "Vis 100% sandsynlighed",
             "description": "Viser sandsynligheden for et køretøj, selvom det er 100%."
@@ -96,6 +100,7 @@
         "swat_armored_vehicle": "AKS Pansret mandskabsvogn",
         "swat_suv": "AKS Patruljevogn",
         "police_helicopters": "Politihelikopter",
+        "elw_police": "Indsatsleder Politi",
         "helicopter": "Rednings Helikopter",
         "boats": "Både",
         "diver_units": "Dykkerbiler",

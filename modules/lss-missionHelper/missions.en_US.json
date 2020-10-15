@@ -12013,9 +12013,7 @@
             "expansion_missions_ids": {
                 "0": 402
             },
-            "followup_missions_ids": {
-                "0": 477
-            },
+            "followup_missions_ids": {},
             "filter_id": "firehouse_missions",
             "patient_us_code_possible": {
                 "0": "8-D-1",

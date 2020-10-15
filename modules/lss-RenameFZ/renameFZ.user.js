@@ -423,7 +423,8 @@
                 13: 'Letecká služba PČR',
                 18: "Požární stanice (malá)",
                 19: "Obvodní oddělení Policie (malá)",
-                20: "Výjezdová základna záchranné služby (malé)"
+                20: "Výjezdová základna záchranné služby (malé)",
+                21: "Pyrotechnická služba PČR"
             },
             vehicleTypes: {
                 0: 'CAS 20',
@@ -443,7 +444,9 @@
                 14: 'Policejní motocykl',
                 15: 'URNA SUV',
                 16: 'Protiplynový automobil',
-                17: 'MOS'
+                17: 'MOS',
+                18: 'Vozidlo vyšetřovatelů DN',
+                19: 'Vozidlo pyrotechika PČR'
             }
         }
     };
@@ -685,7 +688,8 @@
                 17: 'AKS Patruljevogn',
                 18: 'Dykkerbil',
                 19: 'Kystlivredderbil',
-                20: 'Bådtrailer'
+                20: 'Bådtrailer',
+                21: 'Indsatsleder Politi'
             }
         }
     };
