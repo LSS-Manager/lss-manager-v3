@@ -577,6 +577,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "max_police_stations": 2,
             "fire_stations": 3
         }
     },
@@ -15313,6 +15314,75 @@
             "sek": 1,
             "rescue_stations": 2,
             "police_stations": 6
+        }
+    },
+    "570": {
+        "id": 570,
+        "name": "Blitzeinschlag in Wohnhaus",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 70,
+            "nef": 35,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 22,
+                "1": 571
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 4
+        }
+    },
+    "571": {
+        "id": 571,
+        "name": "Dachstuhlbrand",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "nef": 35,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 4
         }
     }
 }
