@@ -4144,38 +4144,10 @@
             "fire_stations": 6
         }
     },
-    "173": {
-        "id": 173,
-        "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na vlakov\u00e9m n\u00e1dra\u017e\u00ed",
-        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed doprava)",
-        "average_credits": 3500,
-        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
-        "icons": {
-            "0": "/images/blast_gruen.png",
-            "1": "/images/blast_gelb.png",
-            "2": "/images/blast_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "police_cars": 4,
-            "k9": 1,
-            "fbi_bomb": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "police_stations": 6,
-            "bomb_disposal_count": 1,
-            "fire_stations": 6
-        }
-    },
     "174": {
         "id": 174,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na vlakov\u00e9m n\u00e1dra\u017e\u00ed",
-        "place": "\u017delezni\u010dn\u00ed stanice (region\u00e1ln\u00ed a d\u00e1lkov\u00e1 doprava)",
+        "place": "Vlakov\u00e9 n\u00e1dra\u017e\u00ed",
         "average_credits": 3500,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4203,7 +4175,7 @@
     "175": {
         "id": 175,
         "name": "Nahl\u00e1\u0161ena v\u00fdbu\u0161nina na autobusov\u00e9m n\u00e1dra\u017e\u00ed",
-        "place": "Autobusov\u00e1 zast\u00e1vka",
+        "place": "Autobusov\u00e9 n\u00e1dra\u017e\u00ed",
         "average_credits": 3200,
         "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
         "icons": {
@@ -4259,7 +4231,7 @@
     "177": {
         "id": 177,
         "name": "Po\u017e\u00e1r muni\u010dn\u00edho skladu",
-        "place": "Muni\u010dn\u00edho skladu",
+        "place": "Muni\u010dn\u00ed sklad",
         "average_credits": 17000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -4297,7 +4269,7 @@
     "178": {
         "id": 178,
         "name": "Po\u017e\u00e1r skladu pyrotechniky",
-        "place": "Skladu pyrotechniky",
+        "place": "Sklad pyrotechniky",
         "average_credits": 13000,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
