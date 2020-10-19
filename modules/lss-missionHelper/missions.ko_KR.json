@@ -3497,5 +3497,265 @@
             "rescue_stations": 5,
             "fire_stations": 6
         }
+    },
+    "148": {
+        "id": 148,
+        "name": "\ucf58\uc11c\ud2b8",
+        "place": "\uacbd\uae30\uc7a5",
+        "average_credits": 7000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 \uc2dc\uac04",
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
+    },
+    "150": {
+        "id": 150,
+        "name": "\ubd88\ud0c0\ub294 \ud5c8\uc218\uc544\ube44",
+        "place": null,
+        "average_credits": 350,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "151": {
+        "id": 151,
+        "name": "\ubd88\ud0c0\ub294 \ud638\ubc15\ubc2d",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "152": {
+        "id": 152,
+        "name": "\ub108\ubb34 \uc624\ub798 \uc775\ud78c \ud638\ubc15 \uc218\ud504",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900",
+            "patient_specializations": "\uc2e0\uacbd\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "153": {
+        "id": 153,
+        "name": "\ub098\ubb34\uc758 \ub9c8\ub140",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900",
+            "patient_specializations": "\uc678\uc0c1\ud559\uacfc"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "154": {
+        "id": 154,
+        "name": "\uc880\ube44\uc5d0 \ubb3c\ub9b0 \uc0c1\ucc98",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900",
+            "patient_specializations": "\uc2e0\uacbd\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "155": {
+        "id": 155,
+        "name": "\ubaac\uc2a4\ud130 \ud0c8\uc8fc",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "156": {
+        "id": 156,
+        "name": "\ud638\ubc15 \uc808\ub3c4",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "157": {
+        "id": 157,
+        "name": "\ud504\ub791\ucf04\uc288\ud0c0\uc778 \ubaa9\uaca9",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "158": {
+        "id": 158,
+        "name": "\uc0ac\ud0d5 \ub3c4\ub451",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\uc6d4, 19 10\uc6d4 2020 09:00:00 +0000",
+            "date_end": "\uc77c, 01 11\uc6d4 2020 23:59:00 +0900"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

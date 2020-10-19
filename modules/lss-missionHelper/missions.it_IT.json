@@ -1523,7 +1523,7 @@
             "police_cars": 3
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 50
         },
         "additional": {
             "possible_patient": 3,
@@ -2428,6 +2428,7 @@
                 "3": "Medicina interna generale",
                 "4": "Traumatologia"
             },
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -2872,6 +2873,7 @@
         "additional": {
             "possible_patient": 50,
             "possible_patient_min": 20,
+            "average_min_fire_personnel": 40,
             "patient_it_code_possible": {
                 "0": "ZC01R",
                 "1": "ZC01G",
@@ -2889,7 +2891,7 @@
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
-            "rescue_stations": 12,
+            "rescue_stations": 14,
             "police_stations": 4,
             "fire_stations": 10
         }
@@ -3211,12 +3213,12 @@
         },
         "chances": {
             "water_tankers": 10,
-            "patient_transport": 8,
+            "patient_transport": 6,
             "helicopter": 1
         },
         "additional": {
-            "possible_patient": 260,
-            "possible_patient_min": 180,
+            "possible_patient": 30,
+            "possible_patient_min": 8,
             "patient_it_code_possible": {
                 "0": "YC01G",
                 "1": "YC01R",
@@ -3433,7 +3435,8 @@
             "2": "/images/theft_rot.png"
         },
         "requirements": {
-            "police_cars": 6
+            "police_cars": 4,
+            "commerce_police": 2
         },
         "chances": {},
         "additional": {
@@ -3441,7 +3444,8 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "police_stations": 4
+            "police_stations": 4,
+            "commerce_police_stations": 2
         }
     },
     "130": {
@@ -3480,6 +3484,7 @@
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
             },
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -3505,6 +3510,7 @@
             "police_cars": 2
         },
         "chances": {
+            "fwk": 50,
             "patient_transport": 90
         },
         "additional": {
@@ -5920,7 +5926,8 @@
                 "3": "Traumatologia",
                 "4": "Medicina interna generale",
                 "5": "Traumatologia"
-            }
+            },
+            "patient_at_end_of_mission": true
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -6011,8 +6018,8 @@
     "222": {
         "id": 222,
         "name": "Chiusura uscita autostradale",
-        "place": null,
-        "average_credits": 550,
+        "place": "Uscita autostradale",
+        "average_credits": 1500,
         "generated_by": "Stazione di polizia",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -6102,7 +6109,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -6351,6 +6360,108 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {}
+    },
+    "232": {
+        "id": 232,
+        "name": "Incendio centrale elettrica (GRANDE)",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "hazmat_vehicles": 20,
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 10,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V",
+                "3": "ZC03R",
+                "4": "ZC03G",
+                "5": "ZC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Medicina interna generale",
+                "8": "Medicina interna generale"
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 12
+        }
+    },
+    "233": {
+        "id": 233,
+        "name": "Maxitamponamento in galleria",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "battalion_chief_vehicles": 30,
+            "water_tankers": 20,
+            "hazmat_vehicles": 20,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 14,
+            "possible_patient_min": 4,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
     },
     "236": {
         "id": 236,
@@ -6808,6 +6919,268 @@
             "police_stations": 10,
             "police_helicopter_stations": 1,
             "commerce_police_stations": 2
+        }
+    },
+    "254": {
+        "id": 254,
+        "name": "Spauracchio in fiamme",
+        "place": null,
+        "average_credits": 350,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "Campo di zucche in fiamme",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "256": {
+        "id": 256,
+        "name": "Zuppa bruciata",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Strega contro un albero",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "ZC01R",
+                "3": "SC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Traumatologia"
+            },
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "258": {
+        "id": 258,
+        "name": "Morso di zombie",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "SC15R",
+                "1": "SC15G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Malattie infettive",
+                "1": "Malattie infettive"
+            },
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "Mostro scatenato",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_it_code_possible": {
+                "0": "SC01R",
+                "1": "SC01G",
+                "2": "SC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            },
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "260": {
+        "id": 260,
+        "name": "Zucca rubata",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "261": {
+        "id": 261,
+        "name": "Frankenstein avvistato",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "262": {
+        "id": 262,
+        "name": "Furto di caramelle",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
+            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
         }
     }
 }
