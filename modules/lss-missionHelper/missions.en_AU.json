@@ -4852,6 +4852,36 @@
             "fire_stations": 6
         }
     },
+    "223": {
+        "id": 223,
+        "name": "Sports event",
+        "place": "Stadium",
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7,
+            "police_horse": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 hour",
+            "guard_mission": true,
+            "filter_id": "firehouse_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
+    },
     "225": {
         "id": 225,
         "name": "Large Violent Protest",

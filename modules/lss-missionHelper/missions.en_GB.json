@@ -136,35 +136,6 @@
             "fire_stations": 1
         }
     },
-    "5": {
-        "id": 5,
-        "name": "Room fire",
-        "place": null,
-        "average_credits": 800,
-        "generated_by": "Fire Station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "patient_uk_code_possible": {
-                "0": "C-2"
-            },
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "General Internal"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
     "6": {
         "id": 6,
         "name": "Garden shed fire",
@@ -590,8 +561,7 @@
         },
         "additional": {
             "followup_missions_ids": {
-                "0": 5,
-                "1": 22
+                "0": 22
             },
             "filter_id": "firehouse_missions"
         },
@@ -1707,35 +1677,6 @@
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "66": {
-        "id": 66,
-        "name": "Room fire",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Fire Station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "patient_uk_code_possible": {
-                "0": "C-2"
-            },
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "General Internal"
         },
         "prerequisites": {
             "fire_stations": 2

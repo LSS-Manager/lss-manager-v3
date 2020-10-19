@@ -2454,7 +2454,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2
@@ -2488,7 +2487,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2

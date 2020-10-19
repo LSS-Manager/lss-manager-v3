@@ -3497,5 +3497,33 @@
             "rescue_stations": 5,
             "fire_stations": 6
         }
+    },
+    "148": {
+        "id": 148,
+        "name": "\ucf58\uc11c\ud2b8",
+        "place": "\uacbd\uae30\uc7a5",
+        "average_credits": 7000,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 \uc2dc\uac04",
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
     }
 }
