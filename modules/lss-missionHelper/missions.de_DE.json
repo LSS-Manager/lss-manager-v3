@@ -2836,6 +2836,211 @@
             "rescue_stations": 5
         }
     },
+    "111": {
+        "id": 111,
+        "name": "Brennende Vogelscheuche",
+        "place": null,
+        "average_credits": 350,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "112": {
+        "id": 112,
+        "name": "Brennendes K\u00fcrbisfeld",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "113": {
+        "id": 113,
+        "name": "K\u00fcrbissuppe \u00fcbergekocht",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "114": {
+        "id": 114,
+        "name": "Hexe h\u00e4ngt in Baum",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr",
+            "patient_specializations": "Unfallchirurgie"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "116": {
+        "id": 116,
+        "name": "Monster ausgebrochen",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "117": {
+        "id": 117,
+        "name": "K\u00fcrbisse geklaut",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "118": {
+        "id": 118,
+        "name": "Frankenstein gesichtet",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "119": {
+        "id": 119,
+        "name": "S\u00fc\u00dfigkeitendiebstahl",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Montag, 19. Oktober 2020, 09:00 Uhr",
+            "date_end": "Sonntag, 01. November 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
     "120": {
         "id": 120,
         "name": "LKW umgest\u00fcrzt",

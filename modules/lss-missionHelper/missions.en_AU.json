@@ -1860,6 +1860,236 @@
         },
         "prerequisites": {}
     },
+    "75": {
+        "id": 75,
+        "name": "Burning bogle",
+        "place": null,
+        "average_credits": 350,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "76": {
+        "id": 76,
+        "name": "Burning pumpkin field",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "Pumpkin soup overcooked",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT",
+            "patient_specializations": "Neurology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "Witch in tree",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Zombie bite",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT",
+            "patient_specializations": "Neurology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "Monster broke loose",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "Pumpkin stolen",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "Frankenstein sighted",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "83": {
+        "id": 83,
+        "name": "Candy theft",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Mon, 19 Oct 2020 09:00:00 UTC",
+            "date_end": "Sun, 01 Nov 2020 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
     "84": {
         "id": 84,
         "name": "Cyclist hit by truck",

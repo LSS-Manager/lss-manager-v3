@@ -5108,5 +5108,237 @@
         "prerequisites": {
             "police_stations": 3
         }
+    },
+    "202": {
+        "id": 202,
+        "name": "Br\u00e6ndende fugleskr\u00e6msel",
+        "place": null,
+        "average_credits": 350,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Br\u00e6ndende gr\u00e6skarmark",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Overkogt gr\u00e6skarsuppe",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 3
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Heks i tr\u00e6",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Zombie-bid",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
+            "patient_specializations": "Neurologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Monster slap l\u00f8s",
+        "place": null,
+        "average_credits": 1600,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "208": {
+        "id": 208,
+        "name": "Gr\u00e6skar stj\u00e5let",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "209": {
+        "id": 209,
+        "name": "Frankenstein spottet",
+        "place": null,
+        "average_credits": 550,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Sliktyveri",
+        "place": null,
+        "average_credits": 100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/ghost_gruen.png",
+            "1": "/images/ghost_gelb.png",
+            "2": "/images/ghost_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
+            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
