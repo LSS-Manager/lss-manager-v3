@@ -2863,7 +2863,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "patient_at_end_of_mission": true,
@@ -4256,10 +4258,11 @@
         },
         "chances": {},
         "additional": {
-            "only_alliance_mission": true,
             "filter_id": "firehouse_missions"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "fire_stations": 10
+        }
     },
     "197": {
         "id": 197,
@@ -4320,6 +4323,37 @@
         },
         "prerequisites": {
             "police_stations": 7
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "F\u00f6rberedelse f\u00f6r grovtbrott",
+        "place": "H\u00f6ghus",
+        "average_credits": 1000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 137
+            },
+            "max_possible_prisoners": 5,
+            "average_min_police_personnel": 5,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 3
         }
     },
     "200": {

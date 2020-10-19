@@ -4379,5 +4379,41 @@
             "bomb_disposal_count": 1,
             "fire_stations": 2
         }
+    },
+    "182": {
+        "id": 182,
+        "name": "\u00datok aktivn\u00edho st\u0159elce",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "police_helicopters": 1,
+            "police_cars": 12,
+            "k9": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 15,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 18,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 10,
+            "police_helicopter_stations": 1,
+            "fire_stations": 5
+        }
     }
 }

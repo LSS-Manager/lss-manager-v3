@@ -4624,5 +4624,33 @@
             "rescue_stations": 5,
             "fire_stations": 6
         }
+    },
+    "188": {
+        "id": 188,
+        "name": "Konsert",
+        "place": "Stadion",
+        "average_credits": 7000,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 7
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 time",
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 5,
+            "fire_stations": 3
+        }
     }
 }

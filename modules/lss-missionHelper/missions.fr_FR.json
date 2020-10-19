@@ -4918,5 +4918,30 @@
             "police_stations": 2,
             "fire_stations": 7
         }
+    },
+    "227": {
+        "id": 227,
+        "name": "Feu de balcon",
+        "place": null,
+        "average_credits": 1350,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
     }
 }
