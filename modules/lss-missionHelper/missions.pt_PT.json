@@ -3758,11 +3758,9 @@
         },
         "requirements": {
             "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "mobile_air_vehicles": 1
+            "battalion_chief_vehicles": 1
         },
         "chances": {
-            "mobile_air_vehicles": 50,
             "patient_transport": 30
         },
         "additional": {
