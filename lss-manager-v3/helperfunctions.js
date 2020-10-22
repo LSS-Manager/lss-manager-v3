@@ -156,7 +156,8 @@ else if (I18n.locale == "sv_SE") {
         "20": ["Liten räddningsbåt", 0],
         "21": ["Terrängbil", 0],
         "22": ["Bandvagn", 0],
-        "23": ["ATV", 0]
+        "23": ["ATV", 0],
+        "24": ["Polishäst", 2]
     };
 }
 else if (I18n.locale == "cs_CZ") {
@@ -266,7 +267,8 @@ else if (I18n.locale == "pl_PL") {
         "26": ["Łódź SP", 4],
         "27": ["SRWys", 0],
         "28": ["SLRr", 0],
-        "29": ["GLBA", 0]
+        "29": ["GLBA", 0],
+        "30": ["Radiowóz WRD", 2]
     };
 }
 else if (I18n.locale == "it_IT") {

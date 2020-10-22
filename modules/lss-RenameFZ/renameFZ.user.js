@@ -532,7 +532,8 @@
                 26: 'Łódź SP',
                 27: 'SRWys',
                 28: 'SLRr',
-                29: 'GLBA'
+                29: 'GLBA',
+                30: 'Radiowóz WRD'
             }
         }
     };
@@ -611,7 +612,8 @@
                 20: 'Liten räddningsbåt',
                 21: 'Terrängbil',
                 22: 'Bandvagn',
-                23: 'ATV'
+                23: 'ATV',
+                24: 'Polishäst'
             }
         }
     };
