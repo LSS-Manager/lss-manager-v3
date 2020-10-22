@@ -2742,7 +2742,8 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 8,
-            "k9": 1
+            "k9": 1,
+            "police_horse": 2
         },
         "chances": {
             "patient_transport": 30
@@ -2750,6 +2751,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Inv\u00e4rtesmedicinare"
         },
@@ -2855,7 +2857,8 @@
         },
         "requirements": {
             "police_cars": 4,
-            "k9": 1
+            "k9": 1,
+            "police_horse": 5
         },
         "chances": {
             "patient_transport": 25
@@ -2868,6 +2871,7 @@
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -2891,7 +2895,8 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 5,
-            "k9": 2
+            "k9": 2,
+            "police_horse": 8
         },
         "chances": {
             "patient_transport": 25
@@ -2902,6 +2907,7 @@
             "max_possible_prisoners": 25,
             "swat_personnel": 3,
             "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true,
             "patient_at_end_of_mission": true,
             "patient_specializations": "Traumatologi"
         },
@@ -3012,14 +3018,16 @@
         "requirements": {
             "police_helicopters": 1,
             "police_cars": 6,
-            "k9": 2
+            "k9": 2,
+            "police_horse": 4
         },
         "chances": {},
         "additional": {
             "duration": "30 minuter",
             "swat_personnel": 8,
             "guard_mission": true,
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 15
@@ -3204,7 +3212,8 @@
             "2": "/images/stadium_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "police_horse": 5
         },
         "chances": {
             "patient_transport": 20
@@ -3213,6 +3222,7 @@
             "possible_patient": 10,
             "average_min_police_personnel": 24,
             "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -4284,6 +4294,7 @@
             "patient_transport": 80
         },
         "additional": {
+            "possible_patient": 1,
             "possible_patient_min": 1,
             "expansion_missions_ids": {
                 "0": 137
@@ -4616,6 +4627,136 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Kommendering - musikfestival",
+        "place": "Arena",
+        "average_credits": 8000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 4,
+            "police_cars": 8,
+            "k9": 3,
+            "police_horse": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "4 timmar",
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "police_stations": 10,
+            "fire_stations": 2
+        }
+    },
+    "211": {
+        "id": 211,
+        "name": "Patrullering - park",
+        "place": "Park",
+        "average_credits": 1000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "police_horse": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "Patrullering - stadsmilj\u00f6",
+        "place": "Centrum",
+        "average_credits": 1900,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "police_horse": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Patrullering - krogmilj\u00f6",
+        "place": "Nattklubb",
+        "average_credits": 3000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "police_horse": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "Kommendering - torgm\u00f6te",
+        "place": "Torg",
+        "average_credits": 2500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "k9": 3,
+            "police_horse": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "2 timmar",
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "need_police_horse_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 8
         }
     }
 }

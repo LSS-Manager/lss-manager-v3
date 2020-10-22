@@ -545,7 +545,8 @@
         },
         "additional": {
             "expansion_missions_ids": {
-                "0": 22
+                "0": 22,
+                "1": 571
             },
             "filter_id": "firehouse_missions"
         },

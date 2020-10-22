@@ -3217,8 +3217,8 @@
             "helicopter": 1
         },
         "additional": {
-            "possible_patient": 30,
-            "possible_patient_min": 8,
+            "possible_patient": 260,
+            "possible_patient_min": 30,
             "patient_it_code_possible": {
                 "0": "YC01G",
                 "1": "YC01R",

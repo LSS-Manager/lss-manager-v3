@@ -79,6 +79,10 @@
             "label": "Hundikon bakom uppdragsnamn",
             "description": "Visar en hundemoji bakom uppdragsnamnet om Hundenhet krävs."
         },
+        "show_phorse": {
+            "label": "Hästikon bakom uppdragets namn",
+            "description": "Visar en hästemoji bakom uppdragsnamnet om det krävs Polishäst."
+        },
         "mission_time": {
             "label": "Skapningstid",
             "description": "Visar datum och tid då uppdraget skapades."
@@ -102,6 +106,7 @@
         "swat_armored_vehicle": "Bepansrat insatsfordon",
         "swat_suv": "Insatsfordon",
         "police_helicopters": "Polishelikoptrar",
+        "police_horse": "Polishäst",
         "boats": "Båtar",
         "diver_units": "Dykbilar",
         "brush_truck": "Skogsbrandsfordon",

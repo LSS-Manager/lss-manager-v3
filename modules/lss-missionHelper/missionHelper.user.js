@@ -341,6 +341,18 @@ const lssm_missionhelper_adjustPosition = () => {
                 },
             };
             break;
+        case 'sv_SE':
+            managed_settings.settings.show_phorse = {
+                default: false,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.show_phorse.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.show_phorse.description'
+                    ),
+                },
+            };
+            break;
         case 'en_AU':
             managed_settings.settings.show_phorse = {
                 default: false,

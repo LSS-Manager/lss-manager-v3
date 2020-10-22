@@ -5837,5 +5837,230 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "260": {
+        "id": 260,
+        "name": "Jazda pod pr\u0105d",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "261": {
+        "id": 261,
+        "name": "St\u0142uczka",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "262": {
+        "id": 262,
+        "name": "Jazda bez w\u0142\u0105czonych \u015bwiate\u0142",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "263": {
+        "id": 263,
+        "name": "Niezabezpieczony \u0142adunek w poje\u017adzie",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "264": {
+        "id": 264,
+        "name": "Zaparkowanie pojazdu na chodniku",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "265": {
+        "id": 265,
+        "name": "Pojazd Stoj\u0105cy na Zakazie",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "266": {
+        "id": 266,
+        "name": "Poruszanie Si\u0119 Uszkodzonego Pojazdu",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "267": {
+        "id": 267,
+        "name": "Pojazd Blokuj\u0105cy Wjazd na Posesj\u0119",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "268": {
+        "id": 268,
+        "name": "Nietrze\u017awy Kierowca",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

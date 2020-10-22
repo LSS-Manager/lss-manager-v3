@@ -1617,8 +1617,10 @@
         "additional": {
             "possible_patient": 3,
             "expansion_missions_ids": {
-                "0": 90,
-                "1": 298
+                "0": 298
+            },
+            "followup_missions_ids": {
+                "0": 90
             },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
@@ -1653,8 +1655,10 @@
         "chances": {},
         "additional": {
             "expansion_missions_ids": {
-                "0": 59,
-                "1": 90
+                "0": 59
+            },
+            "followup_missions_ids": {
+                "0": 90
             },
             "max_possible_prisoners": 1,
             "filter_id": "police_station_missions"
@@ -1974,7 +1978,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "max_possible_prisoners": 1,
@@ -2528,7 +2532,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "max_possible_prisoners": 1,
@@ -2623,7 +2627,7 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "filter_id": "police_station_missions",
@@ -2730,7 +2734,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "filter_id": "police_station_missions"
@@ -10570,7 +10574,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "max_possible_prisoners": 2,
@@ -10606,7 +10610,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
+            "followup_missions_ids": {
                 "0": 90
             },
             "max_possible_prisoners": 1,
