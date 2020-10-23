@@ -3863,8 +3863,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -15589,6 +15590,35 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 4
+        }
+    },
+    "572": {
+        "id": 572,
+        "name": "\u00dcberfall auf Spielhalle",
+        "place": null,
+        "average_credits": 1700,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {
+            "nef": 0,
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "average_min_police_personnel": 12,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     }
 }
