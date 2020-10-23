@@ -320,33 +320,6 @@
             "fire_stations": 4
         }
     },
-    "13": {
-        "id": 13,
-        "name": "Feu de Poids Lourd",
-        "place": null,
-        "average_credits": 980,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "battalion_chief_vehicles": 1,
-            "water_tankers": 1
-        },
-        "chances": {
-            "battalion_chief_vehicles": 40,
-            "water_tankers": 20
-        },
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
     "14": {
         "id": 14,
         "name": "Feu de r\u00e9colte sur pied (petit)",
