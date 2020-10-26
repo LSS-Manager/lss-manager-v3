@@ -1723,14 +1723,16 @@
                 min: 1,
                 max: 2,
                 credits: 5000,
-                coins: 5
+                coins: 5,
+                wtank: 150
             },
             t7fe: {
                 name: 'Type 7 Fire Engine',
                 min: 1,
                 max: 2,
                 credits: 5000,
-                coins: 25
+                coins: 5,
+                wtank: 50
             },
             pumpert: {
                 name: 'Pumper Tanker',

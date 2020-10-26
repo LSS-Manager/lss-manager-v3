@@ -5112,6 +5112,38 @@
             "fire_stations": 3
         }
     },
+    "224": {
+        "id": 224,
+        "name": "Museum Fire",
+        "place": "Museum",
+        "average_credits": 7500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
     "225": {
         "id": 225,
         "name": "Large Violent Protest",

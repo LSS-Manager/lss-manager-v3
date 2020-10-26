@@ -3526,6 +3526,37 @@
             "fire_stations": 3
         }
     },
+    "149": {
+        "id": 149,
+        "name": "\ubc15\ubb3c\uad00 \ud654\uc7ac",
+        "place": "\ubc15\ubb3c\uad00",
+        "average_credits": 7500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 20
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
     "150": {
         "id": 150,
         "name": "\ubd88\ud0c0\ub294 \ud5c8\uc218\uc544\ube44",
