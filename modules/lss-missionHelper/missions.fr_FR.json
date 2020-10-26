@@ -4917,6 +4917,34 @@
             "fire_stations": 2
         }
     },
+    "228": {
+        "id": 228,
+        "name": "Feu en sous-sol",
+        "place": null,
+        "average_credits": 1900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
     "229": {
         "id": 229,
         "name": "\u00c9pouvantail en feu",

@@ -13950,6 +13950,70 @@
             "fire_stations": 1
         }
     },
+    "476": {
+        "id": 476,
+        "name": "Train station collapse (Small) (Fire alarm system)",
+        "place": "Train station (regional traffic)",
+        "average_credits": 4000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 8
+        }
+    },
+    "477": {
+        "id": 477,
+        "name": "Train station collapse (Small) (Fire alarm system)",
+        "place": "Train station (regional traffic and long-distance travel)",
+        "average_credits": 3200,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "22-D-3Y"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 8
+        }
+    },
     "478": {
         "id": 478,
         "name": "Train station collapse (Medium)",

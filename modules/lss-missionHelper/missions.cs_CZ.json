@@ -4416,6 +4416,35 @@
             "fire_stations": 5
         }
     },
+    "183": {
+        "id": 183,
+        "name": "Zran\u011bn\u00ed motorovou pilou",
+        "place": "Les",
+        "average_credits": 1300,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1
+        }
+    },
     "184": {
         "id": 184,
         "name": "Ho\u0159\u00edc\u00ed stra\u0161\u00e1k",

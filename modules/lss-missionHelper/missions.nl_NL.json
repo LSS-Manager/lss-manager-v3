@@ -17232,5 +17232,53 @@
             "police_stations": 5,
             "fire_stations": 18
         }
+    },
+    "662": {
+        "id": 662,
+        "name": "Verkeerscontrole",
+        "place": null,
+        "average_credits": 2205,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 uur",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "663": {
+        "id": 663,
+        "name": "Verkeerscontrole",
+        "place": "Verzorgingsplaats (Snelweg)",
+        "average_credits": 6450,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "duration": "2 uur",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
     }
 }
