@@ -4916,5 +4916,229 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "201": {
+        "id": 201,
+        "name": "Trafikkuhell uten personskade",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 1
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Lastebilvelt",
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 6
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Bil i gr\u00f8ften",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 73,
+                "1": 64,
+                "2": 76,
+                "3": 85
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 1
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Trafikkstopp (Ingen forsikring)",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 91
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Trafikkstopp (Vinglete kj\u00f8ring)",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 91
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Trafikkstopp (Ikke EU godkjent)",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 91
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Trafikkstopp (Uaktsom kj\u00f8ring)",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 91
+            },
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "208": {
+        "id": 208,
+        "name": "Promillekontroll",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "traffic_car": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "20 Minutter",
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
