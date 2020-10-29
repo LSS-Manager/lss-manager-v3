@@ -233,7 +233,9 @@ else if (I18n.locale == "nb_NO") {
         "18": ["Redningsbil", 0],
         "19": ["Dykkerbil", 4],
         "20": ["Lett redningsbåt", 4],
-        "21": ["Branntankbil", 0]
+        "21": ["Branntankbil", 0],
+        "22": ["Utrykningspolitibil", 2],
+        "23": ["Utrykningsenhetbil", 2]
     };
 }
 else if (I18n.locale == "pl_PL") {
@@ -419,7 +421,10 @@ else if (I18n.locale == "nl_NL") {
         "54": ["AT-O | AT-Operator", 2],
         "55": ["AT-M | AT-Materiaalwagen", 2],
         "56": ["DA-VL | Dienstauto Voorlichter", 0],
-        "57": ["DA OVDG-RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder", 1]
+        "57": ["DA OVDG-RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder", 1],
+        "58": ["DB-AV | Dienstbus Arrestantenvervoer", 2],
+        "59": ["NH-O | Noodhulp Onopvallend", 2],
+        "60": ["DB-Bike | Dienstbus Biketeam", 2]
     };
 }
 else if (I18n.locale == "de_DE") {

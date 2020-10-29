@@ -104,6 +104,7 @@
             "at_c": "AT Commandant",
             "at_o": "AT Operator",
             "at_m": "AT Materiaalwagen",
+            "bike_police": "Biketeams",
             "spokesman": "Voorlichter",
             "allow_rw_instead_of_lf": "Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken"
         }

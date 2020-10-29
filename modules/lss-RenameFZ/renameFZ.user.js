@@ -769,7 +769,9 @@
                 18: 'Redningsbil',
                 19: 'Dykkerbil',
                 20: 'Lett redningsbåt',
-                21: 'Branntankbil'
+                21: 'Branntankbil',
+                22: 'Utrykningspolitibil',
+                23: 'Utrykningsenhetbil'
             }
         }
     };
@@ -1233,7 +1235,10 @@
                 54: 'AT-O',
                 55: 'AT-M',
                 56: 'DA-VL',
-                57: 'DA OVDG-RR'
+                57: 'DA OVDG-RR',
+                58: 'DB-AV',
+                59: 'NH-O',
+                60: 'DB-Bike'
             }
         }
     };
