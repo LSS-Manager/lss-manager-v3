@@ -15619,5 +15619,47 @@
         "prerequisites": {
             "police_stations": 4
         }
+    },
+    "573": {
+        "id": 573,
+        "name": "Chemikalienaustritt - Kl\u00e4rwerk",
+        "place": "Kl\u00e4rwerk",
+        "average_credits": 8500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/olfass_gruen.png",
+            "1": "/images/olfass_gelb.png",
+            "2": "/images/olfass_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "mobile_air_vehicles": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "mobile_command_vehicles": 75,
+            "platform_trucks": 40,
+            "hazmat_dekon": 50,
+            "nef": 45,
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
     }
 }
