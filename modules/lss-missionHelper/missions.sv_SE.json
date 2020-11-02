@@ -4397,238 +4397,6 @@
             "fire_stations": 13
         }
     },
-    "201": {
-        "id": 201,
-        "name": "Brinnande f\u00e5gelskr\u00e4mma",
-        "place": null,
-        "average_credits": 350,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "202": {
-        "id": 202,
-        "name": "Brinnande pumpaf\u00e4lt",
-        "place": null,
-        "average_credits": 850,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "203": {
-        "id": 203,
-        "name": "\u00d6verkokt pumpasoppa",
-        "place": null,
-        "average_credits": 1500,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "mobile_air_vehicles": 1
-        },
-        "chances": {
-            "mobile_air_vehicles": 50,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100",
-            "patient_specializations": "Neurologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 3
-        }
-    },
-    "204": {
-        "id": 204,
-        "name": "H\u00e4xa i tr\u00e4d",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100",
-            "patient_specializations": "Traumatologi"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "205": {
-        "id": 205,
-        "name": "Zombiebett",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 100
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100",
-            "patient_specializations": "Neurologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "206": {
-        "id": 206,
-        "name": "Monster p\u00e5 rymmen",
-        "place": null,
-        "average_credits": 1600,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "207": {
-        "id": 207,
-        "name": "Stulen pumpa",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "208": {
-        "id": 208,
-        "name": "Frankenstein i sikte",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "209": {
-        "id": 209,
-        "name": "Godisst\u00f6ld",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "m\u00e5n, 19 okt 2020 09.00.00 +0000",
-            "date_end": "s\u00f6n, 01 nov 2020 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
     "210": {
         "id": 210,
         "name": "Kommendering - musikfestival",
@@ -4757,6 +4525,70 @@
         },
         "prerequisites": {
             "police_stations": 8
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "R\u00f6klukt - ute",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3,
+                "4": 4,
+                "5": 7,
+                "6": 8,
+                "7": 9,
+                "8": 10,
+                "9": 11,
+                "10": 14,
+                "11": 16,
+                "12": 17,
+                "13": 18,
+                "14": 19
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "216": {
+        "id": 216,
+        "name": "\u00d6vrig r\u00e4ddning, d\u00f6rrbryt",
+        "place": "H\u00f6ghus",
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 180
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
         }
     }
 }

@@ -6109,7 +6109,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -6982,134 +6984,21 @@
             "commerce_police_stations": 2
         }
     },
-    "254": {
-        "id": 254,
-        "name": "Spauracchio in fiamme",
-        "place": null,
-        "average_credits": 350,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "255": {
-        "id": 255,
-        "name": "Campo di zucche in fiamme",
-        "place": null,
-        "average_credits": 850,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "256": {
-        "id": 256,
-        "name": "Zuppa bruciata",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "257": {
-        "id": 257,
-        "name": "Strega contro un albero",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "patient_it_code_possible": {
-                "0": "SC01R",
-                "1": "SC01G",
-                "2": "ZC01R",
-                "3": "SC01V"
-            },
-            "filter_id": "firehouse_missions",
-            "possible_patient_specializations": {
-                "0": "Medicina interna generale",
-                "1": "Traumatologia",
-                "2": "Medicina interna generale",
-                "3": "Traumatologia",
-                "4": "Medicina interna generale",
-                "5": "Traumatologia",
-                "6": "Medicina interna generale",
-                "7": "Traumatologia"
-            },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "258": {
-        "id": 258,
-        "name": "Morso di zombie",
-        "place": null,
+    "263": {
+        "id": 263,
+        "name": "Inalazione di sostanze nocive",
+        "place": "Piccolo serbatoio di accumulo sostanze chimiche",
         "average_credits": null,
         "generated_by": "Stazione ambulanze",
         "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
-        "requirements": {},
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
         "chances": {
             "patient_transport": 100
         },
@@ -7117,131 +7006,61 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "patient_it_code_possible": {
-                "0": "SC15R",
-                "1": "SC15G"
+                "0": "ZC03R",
+                "1": "ZC01G"
             },
             "filter_id": "ambulance_station_missions",
             "possible_patient_specializations": {
-                "0": "Malattie infettive",
-                "1": "Malattie infettive"
+                "0": "Medicina interna generale",
+                "1": "Medicina interna generale",
+                "2": "Traumatologia"
             },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "patient_at_end_of_mission": true
         },
         "prerequisites": {
-            "rescue_stations": 1
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 1
         }
     },
-    "259": {
-        "id": 259,
-        "name": "Mostro scatenato",
-        "place": null,
-        "average_credits": 1600,
+    "264": {
+        "id": 264,
+        "name": "Rapina in banca",
+        "place": "Banca",
+        "average_credits": 2400,
         "generated_by": "Stazione di polizia",
         "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
         },
         "requirements": {
-            "police_cars": 2
+            "swat_suv": 2,
+            "police_cars": 4,
+            "k9": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 90
         },
         "additional": {
             "possible_patient": 2,
+            "possible_patient_min": 1,
             "patient_it_code_possible": {
-                "0": "SC01R",
-                "1": "SC01G",
-                "2": "SC01V"
+                "0": "PC01R",
+                "1": "PC01G"
             },
             "filter_id": "police_station_missions",
             "possible_patient_specializations": {
                 "0": "Medicina interna generale",
                 "1": "Traumatologia",
                 "2": "Medicina interna generale",
-                "3": "Traumatologia",
-                "4": "Medicina interna generale",
-                "5": "Traumatologia"
+                "3": "Traumatologia"
             },
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
+            "patient_at_end_of_mission": true
         },
         "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "260": {
-        "id": 260,
-        "name": "Zucca rubata",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "261": {
-        "id": 261,
-        "name": "Frankenstein avvistato",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "262": {
-        "id": 262,
-        "name": "Furto di caramelle",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Lun, 19 Ott 2020 09:00:00 +0000",
-            "date_end": "Dom, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
+            "rescue_stations": 1,
+            "police_stations": 6
         }
     }
 }

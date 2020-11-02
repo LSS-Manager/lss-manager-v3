@@ -3747,234 +3747,6 @@
         },
         "prerequisites": {}
     },
-    "146": {
-        "id": 146,
-        "name": "Brandende vogelverschrikker",
-        "place": null,
-        "average_credits": 350,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "147": {
-        "id": 147,
-        "name": "Brandend pompoenveld",
-        "place": null,
-        "average_credits": 850,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "fire_stations": 6
-        }
-    },
-    "148": {
-        "id": 148,
-        "name": "Overkookte pompoensoep",
-        "place": null,
-        "average_credits": 1500,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET",
-            "patient_specializations": "Neurologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 1
-        }
-    },
-    "149": {
-        "id": 149,
-        "name": "Heks vast in boom",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 80
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET",
-            "patient_specializations": "Traumatologie"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "150": {
-        "id": 150,
-        "name": "Monster uitgebroken",
-        "place": null,
-        "average_credits": 1600,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 4
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "151": {
-        "id": 151,
-        "name": "Gestolen pompoenen",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "152": {
-        "id": 152,
-        "name": "Frankenstein gespot",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "153": {
-        "id": 153,
-        "name": "Snoep diefstal",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "154": {
-        "id": 154,
-        "name": "Horrorclown gespot",
-        "place": null,
-        "average_credits": 600,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "max_possible_prisoners": 1,
-            "filter_id": "police_station_missions",
-            "date_start": "ma 19 okt 2020 09:00:00 UTC",
-            "date_end": "zo 01 nov 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
     "155": {
         "id": 155,
         "name": "Gaslekkage",
@@ -17291,6 +17063,59 @@
         },
         "prerequisites": {
             "police_stations": 5
+        }
+    },
+    "664": {
+        "id": 664,
+        "name": "Acute buikpijn door stomp",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Urologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "665": {
+        "id": 665,
+        "name": "Acute buikpijn door val",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Urologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     },
     "669": {
