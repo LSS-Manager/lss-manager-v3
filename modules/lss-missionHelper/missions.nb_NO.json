@@ -4685,125 +4685,16 @@
             "fire_stations": 13
         }
     },
-    "190": {
-        "id": 190,
-        "name": "Brennende fugleskremsel",
+    "199": {
+        "id": 199,
+        "name": "Uhell med motorsag",
         "place": null,
-        "average_credits": 350,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "191": {
-        "id": 191,
-        "name": "Brennende gresskar\u00e5ker",
-        "place": null,
-        "average_credits": 850,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "192": {
-        "id": 192,
-        "name": "Overkokt gresskarsuppe",
-        "place": null,
-        "average_credits": 1500,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "mobile_air_vehicles": 1
-        },
-        "chances": {
-            "mobile_air_vehicles": 50,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
-            "patient_specializations": "Nevrologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 3
-        }
-    },
-    "193": {
-        "id": 193,
-        "name": "Heks i tre",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
-            "patient_specializations": "Traume"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "194": {
-        "id": 194,
-        "name": "Zombiebitt",
-        "place": null,
-        "average_credits": null,
+        "average_credits": 400,
         "generated_by": "Ambulansestasjon",
         "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
         "chances": {
@@ -4813,108 +4704,10 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100",
-            "patient_specializations": "Nevrologi"
+            "patient_specializations": "Traume"
         },
         "prerequisites": {
             "rescue_stations": 1
-        }
-    },
-    "195": {
-        "id": 195,
-        "name": "Monster p\u00e5 r\u00f8mmen",
-        "place": null,
-        "average_credits": 1600,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "196": {
-        "id": 196,
-        "name": "Stj\u00e5let gresskar",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "197": {
-        "id": 197,
-        "name": "Frankenstein observert",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "198": {
-        "id": 198,
-        "name": "Godterityveri",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Man, 19 Okt 2020 09:00:00 +0000",
-            "date_end": "S\u00f8n, 01 Nov 2020 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
         }
     },
     "201": {
@@ -4996,9 +4789,7 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 73,
-                "1": 64,
-                "2": 76,
-                "3": 85
+                "1": 64
             },
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
@@ -5025,9 +4816,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 91
-            },
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
         },
@@ -5052,9 +4840,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 91
-            },
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
         },
@@ -5079,9 +4864,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 91
-            },
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
         },
@@ -5106,9 +4888,6 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 91
-            },
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
         },

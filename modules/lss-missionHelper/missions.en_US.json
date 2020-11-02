@@ -1720,248 +1720,6 @@
         },
         "prerequisites": {}
     },
-    "63": {
-        "id": 63,
-        "name": "Burning bogle",
-        "place": null,
-        "average_credits": 350,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "64": {
-        "id": 64,
-        "name": "Burning pumpkin field",
-        "place": null,
-        "average_credits": 850,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "65": {
-        "id": 65,
-        "name": "Pumpkin soup overcooked",
-        "place": null,
-        "average_credits": 1500,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "battalion_chief_vehicles": 1,
-            "mobile_air_vehicles": 1
-        },
-        "chances": {
-            "mobile_air_vehicles": 50,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "patient_us_code_possible": {
-                "0": "7-C-3F",
-                "1": "7-A-1F"
-            },
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
-            "patient_specializations": "Neurology"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 3
-        }
-    },
-    "66": {
-        "id": 66,
-        "name": "Witch in tree",
-        "place": null,
-        "average_credits": 900,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "patient_us_code_possible": {
-                "0": "17-D-1"
-            },
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
-            "patient_specializations": "Traumatology"
-        },
-        "prerequisites": {
-            "fire_stations": 3
-        }
-    },
-    "67": {
-        "id": 67,
-        "name": "Zombie bite",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 100
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_us_code_possible": {
-                "0": "3-B-2"
-            },
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500",
-            "patient_specializations": "Neurology"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "68": {
-        "id": 68,
-        "name": "Monster broke loose",
-        "place": null,
-        "average_credits": 1600,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 4
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "69": {
-        "id": 69,
-        "name": "Pumpkin stolen",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "70": {
-        "id": 70,
-        "name": "Frankenstein sighted",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "71": {
-        "id": 71,
-        "name": "Candy theft",
-        "place": null,
-        "average_credits": 100,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/ghost_gruen.png",
-            "1": "/images/ghost_gelb.png",
-            "2": "/images/ghost_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Mon, 19 Oct 2020 09:00:00 +0000",
-            "date_end": "Sun, 01 Nov 2020 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
     "72": {
         "id": 72,
         "name": "Person check",
@@ -14224,6 +13982,35 @@
             "rescue_stations": 18,
             "police_stations": 5,
             "fire_stations": 20
+        }
+    },
+    "484": {
+        "id": 484,
+        "name": "Accident with chainsaw",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "27-D-4",
+                "1": "27-D-5"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }
