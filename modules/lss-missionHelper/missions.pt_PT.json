@@ -3723,5 +3723,41 @@
             "rescue_stations": 4,
             "police_stations": 8
         }
+    },
+    "165": {
+        "id": 165,
+        "name": "Explos\u00e3o numa Bomba de Gasolina",
+        "place": "Bomba de Gasolina",
+        "average_credits": 12000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 3,
+            "hazmat_vehicles": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 75,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 15
+        }
     }
 }
