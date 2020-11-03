@@ -1724,7 +1724,7 @@
             "battalion_chief_vehicles": 1,
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "traffic_car": 2
         },
         "chances": {
             "patient_transport": 80
@@ -1732,6 +1732,7 @@
         "additional": {
             "possible_patient": 12,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -1917,7 +1918,8 @@
             "water_needed": 2400,
             "firetrucks": 3,
             "ambulances": 1,
-            "battalion_chief_vehicles": 1
+            "battalion_chief_vehicles": 1,
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 0
@@ -1925,6 +1927,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -2003,7 +2006,7 @@
             "water_needed": 1700,
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
-            "police_cars": 1
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50
@@ -2011,6 +2014,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -2035,7 +2039,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 1
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50,
@@ -2045,6 +2049,7 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": 1,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -2103,7 +2108,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 1
+            "traffic_car": 2
         },
         "chances": {
             "patient_transport": 50,
@@ -2113,6 +2118,7 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -2137,7 +2143,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 1
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50,
@@ -2147,6 +2153,7 @@
             "possible_patient": 4,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {
@@ -2512,6 +2519,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 28000,
             "firetrucks": 12,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -2539,6 +2547,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 28000,
             "firetrucks": 12,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -2566,6 +2575,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
+            "water_needed": 28000,
             "firetrucks": 12,
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
@@ -2701,35 +2711,6 @@
         "prerequisites": {
             "rescue_stations": 2,
             "fire_stations": 6
-        }
-    },
-    "129": {
-        "id": 129,
-        "name": "Wypadek rowerzysty na trasie rowerowej",
-        "place": "Las",
-        "average_credits": 800,
-        "generated_by": "Komenda Policji",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {
-            "patient_transport": 50,
-            "helicopter": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "police_station_missions",
-            "patient_specializations": "Chirurg og\u00f3lny"
-        },
-        "prerequisites": {
-            "rescue_stations": 2,
-            "police_stations": 1
         }
     },
     "130": {
@@ -3718,7 +3699,7 @@
         "requirements": {
             "firetrucks": 3,
             "heavy_rescue_vehicles": 1,
-            "police_cars": 2
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50
@@ -3727,6 +3708,7 @@
             "possible_patient": 3,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -3751,7 +3733,7 @@
             "ambulances": 1,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 1
+            "traffic_car": 1
         },
         "chances": {
             "patient_transport": 50
@@ -3760,6 +3742,7 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Interna"
         },
         "prerequisites": {
@@ -4014,7 +3997,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 3
+            "traffic_car": 3
         },
         "chances": {
             "patient_transport": 50,
@@ -4024,6 +4007,7 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4048,7 +4032,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 3
+            "traffic_car": 3
         },
         "chances": {
             "patient_transport": 50,
@@ -4058,6 +4042,7 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4082,7 +4067,7 @@
             "firetrucks": 4,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
-            "police_cars": 3
+            "traffic_car": 3
         },
         "chances": {
             "patient_transport": 50,
@@ -4092,6 +4077,7 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "filter_id": "ambulance_station_missions",
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -4215,8 +4201,9 @@
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 2,
             "police_helicopters": 1,
-            "police_cars": 5,
-            "k9": 3
+            "police_cars": 1,
+            "k9": 3,
+            "traffic_car": 5
         },
         "chances": {
             "patient_transport": 10
@@ -4226,6 +4213,8 @@
             "max_possible_prisoners": 5,
             "swat_personnel": 12,
             "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true,
             "patient_specializations": "Traumatologia"
         },
         "prerequisites": {
@@ -5617,11 +5606,14 @@
             "2": "/images/zoom_rot.png"
         },
         "requirements": {
-            "police_cars": 1
+            "police_cars": 1,
+            "traffic_car": 1
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions"
+            "filter_id": "police_station_missions",
+            "need_traffic_car_only_if_present": true,
+            "allow_traffic_car_instead_of_fustw": true
         },
         "prerequisites": {
             "police_stations": 2
@@ -5949,6 +5941,37 @@
         },
         "prerequisites": {
             "police_stations": 6
+        }
+    },
+    "279": {
+        "id": 279,
+        "name": "Wypadek rowerzysty na trasie rowerowej",
+        "place": "Las",
+        "average_credits": 1900,
+        "generated_by": "Stacja Pogotowia Ratunkowego",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg og\u00f3lny"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 3
         }
     }
 }

@@ -4059,7 +4059,7 @@
             "water_tankers": 10,
             "mobile_air_vehicles": 30,
             "patient_transport": 40,
-            "helicopter": 50,
+            "helicopter": 20,
             "patient_critical_care": 100
         },
         "additional": {
@@ -4104,7 +4104,7 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 100,
+            "helicopter": 7,
             "patient_critical_care": 100
         },
         "additional": {
@@ -4495,7 +4495,7 @@
         },
         "chances": {
             "patient_transport": 30,
-            "helicopter": 100,
+            "helicopter": 25,
             "patient_critical_care": 100
         },
         "additional": {
@@ -4723,7 +4723,7 @@
         },
         "chances": {
             "patient_transport": 20,
-            "helicopter": 100,
+            "helicopter": 10,
             "patient_critical_care": 75
         },
         "additional": {
