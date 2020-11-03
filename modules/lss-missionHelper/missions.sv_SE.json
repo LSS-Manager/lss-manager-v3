@@ -2866,9 +2866,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4196,8 +4194,7 @@
             "2": "/images/climbing_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "police_cars": 1
+            "firetrucks": 1
         },
         "chances": {
             "patient_transport": 100

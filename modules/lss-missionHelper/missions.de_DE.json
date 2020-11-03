@@ -15075,9 +15075,6 @@
         "additional": {
             "possible_patient": 1,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 508
-            },
             "filter_id": "ambulance_station_missions",
             "patient_specializations": "Unfallchirurgie"
         },
