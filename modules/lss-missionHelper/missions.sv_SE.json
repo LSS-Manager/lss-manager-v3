@@ -2866,7 +2866,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -3147,7 +3149,7 @@
         "id": 152,
         "name": "Hundbett",
         "place": null,
-        "average_credits": null,
+        "average_credits": 300,
         "generated_by": "Polisstation",
         "icons": {
             "0": "/images/cat_gruen.png",
@@ -4556,31 +4558,6 @@
                 "12": 17,
                 "13": 18,
                 "14": 19
-            },
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "216": {
-        "id": 216,
-        "name": "\u00d6vrig r\u00e4ddning, d\u00f6rrbryt",
-        "place": "H\u00f6ghus",
-        "average_credits": 400,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "expansion_missions_ids": {
-                "0": 180
             },
             "filter_id": "firehouse_missions"
         },

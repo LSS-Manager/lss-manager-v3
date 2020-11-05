@@ -2049,7 +2049,7 @@
             "possible_patient": 5,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
-            "need_traffic_car_only_if_present": 1,
+            "need_traffic_car_only_if_present": true,
             "patient_specializations": "Chirurg og\u00f3lny"
         },
         "prerequisites": {

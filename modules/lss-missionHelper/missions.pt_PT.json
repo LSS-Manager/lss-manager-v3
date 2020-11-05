@@ -3759,5 +3759,230 @@
             "police_stations": 5,
             "fire_stations": 15
         }
+    },
+    "170": {
+        "id": 170,
+        "name": "Amea\u00e7a de bomba num hotel",
+        "place": "Hotel",
+        "average_credits": 3000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi_bomb": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 10
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Pacote suspeito",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "172": {
+        "id": 172,
+        "name": "Amea\u00e7a de bomba num comboio",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
+        "average_credits": 3500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi_bomb": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "173": {
+        "id": 173,
+        "name": "Amea\u00e7a de bomba num comboio",
+        "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
+        "average_credits": 3500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi_bomb": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 9
+        }
+    },
+    "174": {
+        "id": 174,
+        "name": "Mala abandonada na rua",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "175": {
+        "id": 175,
+        "name": "Amea\u00e7a de bomba num autocarro",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4,
+            "fbi_bomb": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "176": {
+        "id": 176,
+        "name": "Carga explosiva",
+        "place": null,
+        "average_credits": 5500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "fbi_bomb": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 10
+        }
+    },
+    "177": {
+        "id": 177,
+        "name": "Amea\u00e7a de bomba num aeroporto",
+        "place": "Aeroporto",
+        "average_credits": 4500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5,
+            "fbi_bomb": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 10
+        }
+    },
+    "178": {
+        "id": 178,
+        "name": "Desactiva\u00e7\u00e3o de bomba num autom\u00f3vel",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "fbi_bomb": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "need_bomb_only_if_present": true
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
     }
 }
