@@ -992,7 +992,9 @@
                 8: 'Carro patrulha',
                 9: 'Heli INEM',
                 10: 'VCOC',
-                11: 'VUCI'
+                11: 'VUCI',
+                12: 'UEP',
+                13: 'EPRI'
             }
         }
     };

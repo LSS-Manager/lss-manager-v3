@@ -3149,7 +3149,7 @@
         "id": 152,
         "name": "Hundbett",
         "place": null,
-        "average_credits": null,
+        "average_credits": 300,
         "generated_by": "Polisstation",
         "icons": {
             "0": "/images/cat_gruen.png",
