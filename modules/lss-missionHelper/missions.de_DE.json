@@ -15453,5 +15453,35 @@
             "police_stations": 2,
             "fire_stations": 14
         }
+    },
+    "574": {
+        "id": 574,
+        "name": "Brandsicherheitswache bei Feuerwerk",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "1 Stunde 30 Minuten",
+            "average_min_fire_personnel": 12,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions",
+            "allow_ktw_instead_of_rtw": true
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 3
+        }
     }
 }
