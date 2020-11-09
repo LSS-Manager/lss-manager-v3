@@ -3581,5 +3581,28 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "160": {
+        "id": 160,
+        "name": "\ubd88\ud0c0\ub294 \ud654\ubb3c\uce78",
+        "place": "\ud654\ubb3c\uc5ed",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

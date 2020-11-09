@@ -17118,6 +17118,73 @@
             "rescue_stations": 1
         }
     },
+    "666": {
+        "id": 666,
+        "name": "Ongeval met hete luchtballon",
+        "place": null,
+        "average_credits": 2440,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/hotairbaloon_gruen.png",
+            "1": "/images/hotairbaloon_gelb.png",
+            "2": "/images/hotairbaloon_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "667": {
+        "id": 667,
+        "name": "Ongeval met hete luchtballon",
+        "place": null,
+        "average_credits": 4420,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/hotairbaloon_gruen.png",
+            "1": "/images/hotairbaloon_gelb.png",
+            "2": "/images/hotairbaloon_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "spokesman": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3,
+            "ovdp": 1
+        },
+        "chances": {
+            "nef": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 6,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 5,
+            "fire_stations": 14
+        }
+    },
     "669": {
         "id": 669,
         "name": "Toezicht Park",

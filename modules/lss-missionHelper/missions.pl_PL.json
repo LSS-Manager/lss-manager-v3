@@ -5943,6 +5943,58 @@
             "police_stations": 6
         }
     },
+    "271": {
+        "id": 271,
+        "name": "Wypadek drogowy z udzia\u0142em samochodu ci\u0119\u017carowego",
+        "place": "Zjazd z autostrady",
+        "average_credits": 2300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 65,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 12
+        }
+    },
+    "272": {
+        "id": 272,
+        "name": "Publiczne Spozywanie Alkoholu",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "279": {
         "id": 279,
         "name": "Wypadek rowerzysty na trasie rowerowej",

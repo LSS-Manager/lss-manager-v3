@@ -4710,6 +4710,29 @@
             "rescue_stations": 1
         }
     },
+    "200": {
+        "id": 200,
+        "name": "Brann i godsvogn",
+        "place": "Godsstasjon",
+        "average_credits": 1500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
     "201": {
         "id": 201,
         "name": "Trafikkuhell uten personskade",

@@ -3284,5 +3284,28 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "149": {
+        "id": 149,
+        "name": "Vagon de marfa \u00een fl\u0103c\u0103ri",
+        "place": "Sta\u021bie de marf\u0103",
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }
