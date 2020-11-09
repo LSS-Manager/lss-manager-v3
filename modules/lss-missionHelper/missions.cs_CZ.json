@@ -381,9 +381,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 194
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -2187,7 +2185,9 @@
         },
         "additional": {
             "possible_patient": 2,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
             "patient_specializations": "V\u0161eobecn\u00fd internista"
@@ -4487,6 +4487,31 @@
             "rescue_stations": 3,
             "police_stations": 4,
             "fire_stations": 7
+        }
+    },
+    "194": {
+        "id": 194,
+        "name": "Po\u017e\u00e1r lesa",
+        "place": "Les",
+        "average_credits": 3700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 10
         }
     }
 }
