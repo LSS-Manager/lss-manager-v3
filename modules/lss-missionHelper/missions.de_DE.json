@@ -15483,5 +15483,73 @@
             "police_stations": 3,
             "fire_stations": 3
         }
+    },
+    "575": {
+        "id": 575,
+        "name": "Unklare Rauchentwicklung",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 0,
+                "1": 1,
+                "2": 2,
+                "3": 3,
+                "4": 4,
+                "5": 5,
+                "6": 7,
+                "7": 8,
+                "8": 13,
+                "9": 15,
+                "10": 16,
+                "11": 17,
+                "12": 19,
+                "13": 20,
+                "14": 21,
+                "15": 22,
+                "16": 24,
+                "17": 26,
+                "18": 28,
+                "19": 29,
+                "20": 34,
+                "21": 36,
+                "22": 51,
+                "23": 86,
+                "24": 96,
+                "25": 101,
+                "26": 102,
+                "27": 186,
+                "28": 299,
+                "29": 302,
+                "30": 303,
+                "31": 321,
+                "32": 323,
+                "33": 324,
+                "34": 327,
+                "35": 328,
+                "36": 335,
+                "37": 352,
+                "38": 396,
+                "39": 400,
+                "40": 515,
+                "41": 517,
+                "42": 545,
+                "43": 552
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }
