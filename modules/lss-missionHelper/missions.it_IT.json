@@ -3999,6 +3999,9 @@
         },
         "additional": {
             "possible_patient": 5,
+            "expansion_missions_ids": {
+                "0": 266
+            },
             "max_possible_prisoners": 4,
             "patient_it_code_possible": {
                 "0": "SC01V",

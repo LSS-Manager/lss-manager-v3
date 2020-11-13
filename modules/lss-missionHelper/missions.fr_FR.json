@@ -1158,7 +1158,7 @@
     "48": {
         "id": 48,
         "name": "Vol de M\u00e9taux",
-        "place": "Sup\u00e9rette",
+        "place": "Gare de marchandises",
         "average_credits": 150,
         "generated_by": "Gendarmerie",
         "icons": {
@@ -4973,7 +4973,7 @@
     "239": {
         "id": 239,
         "name": "Feu de wagon - Fret",
-        "place": "Sup\u00e9rette",
+        "place": "Gare de marchandises",
         "average_credits": 1500,
         "generated_by": "Centre de secours",
         "icons": {

@@ -381,7 +381,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 194
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -628,7 +630,8 @@
                 "0": 24,
                 "1": 2,
                 "2": 29,
-                "3": 169
+                "3": 169,
+                "4": 194
             },
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
@@ -3055,14 +3058,14 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "firetrucks": 2
+            "firetrucks": 1
         },
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 5
+            "fire_stations": 3
         }
     },
     "128": {
@@ -4468,7 +4471,6 @@
         },
         "requirements": {
             "firetrucks": 3,
-            "ambulances": 1,
             "battalion_chief_vehicles": 1,
             "police_cars": 2,
             "traffic_car": 1
