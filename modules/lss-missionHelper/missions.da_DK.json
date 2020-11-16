@@ -5190,5 +5190,29 @@
         "prerequisites": {
             "fire_stations": 6
         }
+    },
+    "213": {
+        "id": 213,
+        "name": "Laserkontrol",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 minutter",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

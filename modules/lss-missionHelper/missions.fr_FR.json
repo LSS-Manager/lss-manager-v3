@@ -4992,5 +4992,29 @@
         "prerequisites": {
             "fire_stations": 6
         }
+    },
+    "240": {
+        "id": 240,
+        "name": "Contr\u00f4le de vitesse",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Gendarmerie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 minutes",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

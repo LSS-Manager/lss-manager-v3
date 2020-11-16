@@ -5374,5 +5374,44 @@
         "prerequisites": {
             "police_stations": 2
         }
+    },
+    "238": {
+        "id": 238,
+        "name": "Restaurant fire",
+        "place": "Fast Food Restaurant",
+        "average_credits": 10000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 20,
+            "water_tankers": 20,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
     }
 }

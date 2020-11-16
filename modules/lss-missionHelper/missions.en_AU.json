@@ -5026,5 +5026,29 @@
         "prerequisites": {
             "fire_stations": 6
         }
+    },
+    "246": {
+        "id": 246,
+        "name": "Speed radar",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration": "30 Minutes",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

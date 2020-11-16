@@ -4587,5 +4587,28 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "217": {
+        "id": 217,
+        "name": "Inbrottslarm, H\u00f6ghus",
+        "place": "H\u00f6ghus",
+        "average_credits": 500,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
     }
 }
