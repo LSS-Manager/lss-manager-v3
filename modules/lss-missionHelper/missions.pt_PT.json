@@ -3792,6 +3792,37 @@
             "fire_stations": 5
         }
     },
+    "167": {
+        "id": 167,
+        "name": "Inunda\u00e7\u00e3o numa Garagem",
+        "place": "Garagem de Estacionamento",
+        "average_credits": 4000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 4,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 5,
+            "fire_stations": 8
+        }
+    },
     "170": {
         "id": 170,
         "name": "Amea\u00e7a de bomba num hotel",

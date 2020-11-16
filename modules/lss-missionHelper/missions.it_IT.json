@@ -7132,5 +7132,85 @@
             "police_stations": 7,
             "police_helicopter_stations": 1
         }
+    },
+    "267": {
+        "id": 267,
+        "name": "Pulsante antipanico in banca",
+        "place": "Banca",
+        "average_credits": 750,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 219
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "268": {
+        "id": 268,
+        "name": "Incendio Discoteca",
+        "place": "Discoteca",
+        "average_credits": 6000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 4,
+            "mobile_air_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {
+            "mobile_command_vehicles": 20,
+            "platform_trucks": 40,
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 60,
+            "possible_patient_min": 20,
+            "patient_it_code_possible": {
+                "0": "PC01R",
+                "1": "PC01G",
+                "2": "PC01V",
+                "3": "PC03R",
+                "4": "PC03G",
+                "5": "PC03V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia",
+                "6": "Medicina interna generale",
+                "7": "Medicina interna generale",
+                "8": "Medicina interna generale"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 8,
+            "fire_stations": 10
+        }
     }
 }
