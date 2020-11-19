@@ -2,28 +2,12 @@
     I18n.translations.de_DE.lssm.telemetry = {
         question: "Der LSS-Manager sendet Nicht-Personenbezogene Daten an die Entwickler zur Verbesserung des Skriptes und zum finden von Fehlern.\r\n"+
           "Zu diesen Daten gehören: Deine ID, dein Nutzername, die Anzahl der Wachen, der genutzte Browser und aktivierte Module.\r\n\r\n"+
-          "Stimmst zu diesem zu?",
-        v4: {
-            title: "Beta-Tester für die V.4 gesucht!",
-            content_till_beta: "Liebe/r " + window.user_name + ",<br>wie du vielleicht mitbekommen hast, neigt sich diese Version des LSS-Manager dem Ende entgegen. Eine brandneue Version 4 wird diese hier immer weiter ablösen. Dafür suchen wir aber noch Beta-Tester. Bis einschließlich 20. Oktober kannst du dich unter",
-            content_till_discord: "als Beta-Tester bewerben. <b>Wichtiger Hinweis: Das ist eine Bewerbung für das Add-On \"LSS-Manager\", NICHT für das Spiel selbst!</b>. Sollten wir dich annehmen, so werden wir dich per Privat-Nachricht informieren. Um die Zahl der Kommunikationswege gering zu halten musst du einen Account im Forum haben oder auf unserem Discord",
-            content_till_thread: "sein. Bei Fragen hierzu kannst du uns jederzeit im Spiel (jxn_30, Ron31 oder SanniHameln) oder im Forum bzw. auf Discord anschreiben. Schau auch gerne mal in unserem Thread im Forum vorbei:",
-            content_end: "<br><br>Viele Grüße,<br>Dein LSSM-Team!",
-            close: "Diese Nachricht schließen."
-        }
+          "Stimmst zu diesem zu?"
     };
     I18n.translations.en_US.lssm.telemetry = {
         question: "The LSS Manager sends non-personal data to the developers to improve the script and find errors.\r\n" +
           "These data include: your ID, username, the number of guards, the browser used, and enabled modules.\r\n\r\n" +
-          "Do you agree with this?",
-        v4: {
-            title: "Searching Beta-Testers for LSS-Manager V.4",
-            content_till_beta: "Dear " + window.user_name + ",<br>as you may have heard on, this version of LSS-Manager will come to an end soon. A new Version 4 will replace this one more and more. Before our initial release, we want YOU as a Beta-Tester. Until 20th of October you may apply at ",
-            content_till_discord: "for Beta-Tests. <b>Important note: This is an application for the add-on \"LSS-Manager\", NOT for the game itself!</b> Accepted Beta-Testers will be informed on 24th of October. To limit communication ways, you need either an Account in German Forum or on our Discord: ",
-            content_till_thread: ". If you got any questions, feel free to Ping or DM a @LSSM-Dev on our Discord! You may also have a look at our german Forum Thread:",
-            content_end: "<br><br>Greetings,<br>Yours LSSM-Team!",
-            close: "Close this message."
-        }
+          "Do you agree with this?"
     };
     I18n.translations.pt_PT.lssm.telemetry = {
         question: "O LSS Manager envia dados não pessoais aos desenvolvedores para melhorar o script e encontrar erros.\r\n" +
@@ -78,143 +62,8 @@
     I18n.translations.nl_NL.lssm.telemetry = {
         question: "De LSS Manager stuurt niet-persoonlijke gegevens naar de ontwikkelaars om het script te verbeteren en fouten te vinden.\r\n" +
           "Deze gegevens omvatten: uw ID, gebruikersnaam, het aantal posten, de gebruikte browser en ingeschakelde modules.\r\n\r\n" +
-          "Bent u het hiermee eens?",
-        v4: {
-            title: "Gezocht, Beta-Testers voor LSS-Manager V.4",
-            content_till_beta: "Beste " + window.user_name + ",<br>zoals u wellicht heeft gehoord, zal deze versie van LSS-Manager binnenkort aflopen. Een nieuwe versie 4 zal deze steeds meer vervangen. Voor onze eerste release willen we U als Beta-Tester. Tot 20 oktober kunt u zich aanmelden bij ",
-            content_till_discord: "voor Beta-Tests. <b>Belangrijke opmerking: Dit is een sollicitatie voor de add-on \"LSS Manager\", NIET voor het spel zelf!</b> Geaccepteerde Beta-Testers zullen op 24 oktober worden geinformeerd. Om de communicatiemogelijkheden te beperken, heeft u een account nodig in het Duitse Forum of op onze Discord: ",
-            content_till_thread: ". Als je vragen hebt, voel je vrij om Ping of DM een @LSSM-Dev op onze Discord! U kunt ook een kijkje nemen op onze Duitse Forum Thread:",
-            content_end: "<br><br>Groeten,<br>Uw LSSM-Team!",
-            close: "Sluit dit bericht"
-        }
+          "Bent u het hiermee eens?"
     };
-
-    const V4_BETA_STORAGE = 'LSSM_V4_Beta_Hint';
-
-    if (window.location.pathname === '/' && !localStorage[V4_BETA_STORAGE]) {
-        document.body.innerHTML += `<style>
-.lssm-modal-container {
-  z-index: 5001 !important;
-}
-.lssm-modal-container .lssm-modal-overlay[data-modal=dialog] {
-  background-color: rgba(0, 0, 0, 0.7);
-  pointer-events: none;
-}
-.lssm-modal-container .lssm-modal-modal {
-  padding: 1rem;
-  overflow: auto !important;
-  max-height: 100vh !important;
-}
-
-.lssm-modal-block-scroll {
-  overflow: hidden;
-  width: 100vw;
-}
-.lssm-modal-container {
-  position: fixed;
-  box-sizing: border-box;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: 999;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.lssm-modal-overlay {
-  position: fixed;
-  box-sizing: border-box;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.2);
-  /* z-index: 999; */
-  opacity: 1;
-}
-.lssm-modal-container.scrollable {
-  height: 100%;
-  min-height: 100vh;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-}
-.lssm-modal-modal {
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-
-  background-color: white;
-  border-radius: 3px;
-  box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
-}
-.lssm-modal-container.scrollable .lssm-modal-modal {
-  margin-bottom: 2px;
-}
-.lssm-modal-top-right-slot {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-.vue-dialog div {
-  box-sizing: border-box;
-}
-.vue-dialog .dialog-flex {
-  width: 100%;
-  height: 100%;
-}
-.vue-dialog .dialog-content {
-  flex: 1 0 auto;
-  width: 100%;
-  padding: 15px;
-  font-size: 14px;
-}
-.vue-dialog .dialog-c-title {
-  font-weight: 600;
-  padding-bottom: 15px;
-}
-.vue-dialog .vue-dialog-buttons {
-  display: flex;
-  flex: 0 1 auto;
-  width: 100%;
-  border-top: 1px solid #eee;
-}
-.vue-dialog .vue-dialog-buttons-none {
-  width: 100%;
-  padding-bottom: 15px;
-}
-.vue-dialog-button {
-  font-size: 12px !important;
-  background: transparent;
-  padding: 0;
-  margin: 0;
-  border: 0;
-  cursor: pointer;
-  box-sizing: border-box;
-  line-height: 40px;
-  height: 40px;
-  color: inherit;
-  font: inherit;
-  outline: none;
-}
-.vue-dialog-button:hover {
-  background: rgba(0, 0, 0, 0.01);
-}
-.vue-dialog-button:active {
-  background: rgba(0, 0, 0, 0.025);
-}
-.vue-dialog-button:not(:first-of-type) {
-  border-left: 1px solid #eee;
-}
-body.dark .lssm-modal-modal {
-  background-color: #505050;
-  color: white;
-}
-</style><div class="lssm-modal-container scrollable" id="lssm-v4-modal-container"><div data-modal="dialog" aria-expanded="true" class="lssm-modal-overlay"><div class="lssm-modal-top-right-slot"></div></div> <div aria-expanded="true" role="dialog" aria-modal="true" class="lssm-modal-modal v--modal vue-dialog" style="max-width: min(600px, 100%);"><div class="dialog-content"><div class="dialog-c-title">${I18n.t('lssm.telemetry.v4.title')}</div> <div class="dialog-c-text">${I18n.t('lssm.telemetry.v4.content_till_beta')} <a href="https://beta.lss-manager.de" target="blank">https://beta.lss-manager.de</a> ${I18n.t('lssm.telemetry.v4.content_till_discord')} <a href="https://discord.gg/RcTNjpB" target="blank">https://discord.gg/RcTNjpB</a> ${I18n.t('lssm.telemetry.v4.content_till_thread')} <a href="https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/" target="blank">https://forum.leitstellenspiel.de/index.php?thread/19176-lss-manager-v-4/</a> ${I18n.t('lssm.telemetry.v4.content_end')} </div></div> <div class="vue-dialog-buttons"><button type="button" class="vue-dialog-button" style="flex: 1 1 100%;" id="lssm-v4-modal-close">${I18n.t('lssm.telemetry.v4.close')}</button></div> <!----></div></div>`;
-        $('#lssm-v4-modal-close').click(() => {localStorage[V4_BETA_STORAGE] = 'clicked'; $('#lssm-v4-modal-container').remove();});
-    }
 
     function getModules()
     {
