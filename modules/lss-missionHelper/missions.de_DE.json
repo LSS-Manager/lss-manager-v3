@@ -15551,5 +15551,42 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "576": {
+        "id": 576,
+        "name": "Brand in Parkhaus",
+        "place": "Flughafen (gro\u00df): Parkhaus",
+        "average_credits": 3000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "gwoil": 1,
+            "gwmess": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "hazmat_vehicles": 15,
+            "nef": 20,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 11
+        }
     }
 }
