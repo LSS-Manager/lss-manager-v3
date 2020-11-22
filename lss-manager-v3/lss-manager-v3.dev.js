@@ -661,7 +661,7 @@ lssm.Module = {
             de_DE: 'Kreis- & Landesgrenzen'
         },
         active: false,
-        inframe: false,
+        inframe: true,
         description: {
             de_DE: 'Zeigt aktivierte Grenzen für Kreise, Bezirke und Bundesländer an.'
         },
