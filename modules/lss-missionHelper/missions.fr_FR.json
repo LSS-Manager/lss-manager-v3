@@ -1070,7 +1070,7 @@
         "name": "Vol \u00e0 l\u2019\u00e9talage",
         "place": "Supermarch\u00e9 (petit)",
         "average_credits": 100,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1093,7 +1093,7 @@
         "name": "Vol \u00e0 l\u2019\u00e9talage",
         "place": "Supermarch\u00e9 (grand)",
         "average_credits": 100,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1116,7 +1116,7 @@
         "name": "Accident de voiture gar\u00e9e",
         "place": "Supermarch\u00e9 (petit)",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1138,7 +1138,7 @@
         "name": "Accident de voiture gar\u00e9e",
         "place": "Supermarch\u00e9 (grand)",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1160,7 +1160,7 @@
         "name": "Vol de M\u00e9taux",
         "place": "Gare de marchandises",
         "average_credits": 150,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1183,7 +1183,7 @@
         "name": "Pickpocket",
         "place": "Parc",
         "average_credits": 150,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1206,7 +1206,7 @@
         "name": "Resquilleur",
         "place": "Arr\u00eat de bus",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1228,7 +1228,7 @@
         "name": "Resquilleur",
         "place": "Arr\u00eat de tram",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1250,7 +1250,7 @@
         "name": "Resquilleur",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1272,7 +1272,7 @@
         "name": "Resquilleur",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -1294,7 +1294,7 @@
         "name": "Accident de voiture gar\u00e9e",
         "place": "Centre commercial",
         "average_credits": 120,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -1316,7 +1316,7 @@
         "name": "Rixe",
         "place": null,
         "average_credits": 700,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -1343,7 +1343,7 @@
         "name": "Casseur",
         "place": null,
         "average_credits": 500,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -1369,7 +1369,7 @@
         "name": "Manifestation non autoris\u00e9e",
         "place": null,
         "average_credits": 10020,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -1497,7 +1497,7 @@
         "name": "Tapage",
         "place": null,
         "average_credits": 400,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/dancinghall_gruen.png",
             "1": "/images/dancinghall_gelb.png",
@@ -1629,7 +1629,7 @@
         "name": "Rixe",
         "place": null,
         "average_credits": 700,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -2406,7 +2406,7 @@
         "name": "Menacer un fonctionnaire",
         "place": "Station de m\u00e9tro",
         "average_credits": 750,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -3199,7 +3199,7 @@
         "name": "Violences Domestiques",
         "place": null,
         "average_credits": 400,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/comment_gruen.png",
             "1": "/images/comment_gelb.png",
@@ -3221,7 +3221,7 @@
         "name": "Possession ill\u00e9gale d'arme-\u00e0-feu",
         "place": null,
         "average_credits": 2500,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/shooting_gruen.png",
             "1": "/images/shooting_gelb.png",
@@ -3244,7 +3244,7 @@
         "name": "AVP VL contre animal",
         "place": null,
         "average_credits": 1200,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -3332,7 +3332,7 @@
         "name": "Stationnement g\u00eanant",
         "place": null,
         "average_credits": 240,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/comment_gruen.png",
             "1": "/images/comment_gelb.png",
@@ -3911,7 +3911,7 @@
         "name": "Personnes sur les voies",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
         "average_credits": 900,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/tramway_gruen.png",
             "1": "/images/tramway_gelb.png",
@@ -3937,7 +3937,7 @@
         "name": "Personnes sur les voies",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
         "average_credits": 900,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/tramway_gruen.png",
             "1": "/images/tramway_gelb.png",
@@ -3963,7 +3963,7 @@
         "name": "Personne sous un train",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux)",
         "average_credits": 3000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -3995,7 +3995,7 @@
         "name": "Personne sous un train",
         "place": "Gare ferroviaire (trajets r\u00e9gionaux et grandes lignes)",
         "average_credits": 3000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -4121,7 +4121,7 @@
         "name": "Mouvement de foule dans une discoth\u00e8que",
         "place": "Discoth\u00e8que",
         "average_credits": 3800,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/dancinghall_gruen.png",
             "1": "/images/dancinghall_gelb.png",
@@ -4417,7 +4417,7 @@
         "name": "Voiture abandonn\u00e9e",
         "place": "Parking couvert",
         "average_credits": 800,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/zoom_gruen.png",
             "1": "/images/zoom_gelb.png",
@@ -4439,7 +4439,7 @@
         "name": "Voiture abandonn\u00e9e",
         "place": "For\u00eat",
         "average_credits": 800,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/zoom_gruen.png",
             "1": "/images/zoom_gelb.png",
@@ -4461,7 +4461,7 @@
         "name": "Agression d'un chauffeur de bus",
         "place": "Arr\u00eat de bus",
         "average_credits": 800,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -4489,7 +4489,7 @@
         "name": "D\u00e9tenu en fuite",
         "place": null,
         "average_credits": 4000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -4515,7 +4515,7 @@
         "name": "Recherche de malfaiteur",
         "place": null,
         "average_credits": 3000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/zoom_gruen.png",
             "1": "/images/zoom_gelb.png",
@@ -4540,7 +4540,7 @@
         "name": "Ex\u00e9cution de mandat d'arr\u00eat",
         "place": null,
         "average_credits": 2000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/theft_gruen.png",
             "1": "/images/theft_gelb.png",
@@ -4570,7 +4570,7 @@
         "name": "Agent en difficult\u00e9",
         "place": null,
         "average_credits": 1500,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -4598,7 +4598,7 @@
         "name": "Recherche de  v\u00e9hicule",
         "place": null,
         "average_credits": 1000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/zoom_gruen.png",
             "1": "/images/zoom_gelb.png",
@@ -4621,7 +4621,7 @@
         "name": "Vente de stup\u00e9fiants sur la VP",
         "place": null,
         "average_credits": 1500,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/cannabis_gruen.png",
             "1": "/images/cannabis_gelb.png",
@@ -4645,7 +4645,7 @@
         "name": "Vendeur \u00e0 la sauvette",
         "place": null,
         "average_credits": 1850,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -4668,7 +4668,7 @@
         "name": "Contr\u00f4le routier",
         "place": null,
         "average_credits": 2000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/clock_gruen.png",
             "1": "/images/clock_gelb.png",
@@ -4692,7 +4692,7 @@
         "name": "Activation d'alarme d'intrusion",
         "place": null,
         "average_credits": 1050,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -4718,7 +4718,7 @@
         "name": "Agression \u00e0 domicile",
         "place": null,
         "average_credits": 1290,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/baseball_gruen.png",
             "1": "/images/baseball_gelb.png",
@@ -4945,7 +4945,7 @@
         "name": "Contr\u00f4le de vitesse",
         "place": null,
         "average_credits": 2000,
-        "generated_by": "Gendarmerie",
+        "generated_by": "Poste de police",
         "icons": {
             "0": "/images/zoom_gruen.png",
             "1": "/images/zoom_gelb.png",
@@ -4962,6 +4962,40 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "241": {
+        "id": 241,
+        "name": "Atelier de menuiserie en feu",
+        "place": null,
+        "average_credits": 4200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
         }
     }
 }

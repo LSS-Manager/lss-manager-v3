@@ -5413,5 +5413,32 @@
             "police_stations": 1,
             "fire_stations": 10
         }
+    },
+    "239": {
+        "id": 239,
+        "name": "Stop and Search",
+        "place": "Fast Food Restaurant",
+        "average_credits": 300,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "followup_missions_ids": {
+                "0": 92,
+                "1": 200,
+                "2": 201
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

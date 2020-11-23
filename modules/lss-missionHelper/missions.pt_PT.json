@@ -3823,6 +3823,31 @@
             "fire_stations": 8
         }
     },
+    "168": {
+        "id": 168,
+        "name": "Traumatismo Cr\u00e2nio-Encef\u00e1lico",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurocirurgia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
     "170": {
         "id": 170,
         "name": "Amea\u00e7a de bomba num hotel",
