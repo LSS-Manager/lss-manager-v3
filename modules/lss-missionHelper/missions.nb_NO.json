@@ -3563,7 +3563,7 @@
     },
     "152": {
         "id": 152,
-        "name": "Bilbrann i tunnel",
+        "name": "Flere kj\u00f8ret\u00f8y i brann i tunnel",
         "place": "Tunnel",
         "average_credits": 5000,
         "generated_by": "Brannstasjon",
@@ -4965,6 +4965,40 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Brann i snekkerverksted",
+        "place": "Snekkerverksted",
+        "average_credits": 4200,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 13
         }
     }
 }

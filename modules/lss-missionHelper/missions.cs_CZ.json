@@ -4544,5 +4544,41 @@
             "police_stations": 1,
             "fire_stations": 10
         }
+    },
+    "196": {
+        "id": 196,
+        "name": "Po\u017e\u00e1r \u010derpac\u00ed stanice",
+        "place": "\u010cerpac\u00ed stanice",
+        "average_credits": 4700,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 8,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 2,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "mobile_air_vehicles": 50,
+            "patient_transport": 15
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4,
+            "fire_stations": 15
+        }
     }
 }

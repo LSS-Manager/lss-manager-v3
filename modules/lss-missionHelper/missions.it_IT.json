@@ -7214,5 +7214,70 @@
             "police_stations": 8,
             "fire_stations": 10
         }
+    },
+    "269": {
+        "id": 269,
+        "name": "Controllo antidroga",
+        "place": "Scuola",
+        "average_credits": 1000,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration": "10 Minuti",
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "270": {
+        "id": 270,
+        "name": "Rissa in discoteca",
+        "place": "Discoteca",
+        "average_credits": 950,
+        "generated_by": "Stazione di polizia",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "police_station_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3
+        }
     }
 }

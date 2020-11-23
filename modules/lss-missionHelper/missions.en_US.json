@@ -14059,5 +14059,55 @@
         "prerequisites": {
             "police_stations": 2
         }
+    },
+    "487": {
+        "id": 487,
+        "name": "Bird strike",
+        "place": "Large Airport (Runway)",
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "arff": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 120
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        }
+    },
+    "488": {
+        "id": 488,
+        "name": "Bird strike",
+        "place": "Small Airport (Runway)",
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "arff": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
+        }
     }
 }
