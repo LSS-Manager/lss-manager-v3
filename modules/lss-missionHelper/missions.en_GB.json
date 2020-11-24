@@ -5417,7 +5417,7 @@
     "239": {
         "id": 239,
         "name": "Stop and Search",
-        "place": "Fast Food Restaurant",
+        "place": null,
         "average_credits": 300,
         "generated_by": "Police Station",
         "icons": {

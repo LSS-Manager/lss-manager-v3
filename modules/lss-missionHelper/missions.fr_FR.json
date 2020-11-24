@@ -4967,7 +4967,7 @@
     "241": {
         "id": 241,
         "name": "Atelier de menuiserie en feu",
-        "place": null,
+        "place": "Atelier de menuiserie",
         "average_credits": 4200,
         "generated_by": "Centre de secours",
         "icons": {
