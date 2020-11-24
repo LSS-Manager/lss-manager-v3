@@ -401,7 +401,6 @@
         $('#' + settings.prefix + '_setmarker').on("click", setMarker);
         $('#' + settings.prefix + '_remmarker').on("click", remMarker);
         $('#' + settings.prefix + '_settings').change(changeSetting);
-        $('#' + settings.prefix + '_settings').css('z-index', 901);
         setCircleRadius();
     }
 
