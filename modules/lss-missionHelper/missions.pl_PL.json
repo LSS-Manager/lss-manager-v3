@@ -3342,7 +3342,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minut",
+            "duration_text": "30 minut",
+            "duration": 1800,
             "swat_personnel": 18,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -4739,7 +4740,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"

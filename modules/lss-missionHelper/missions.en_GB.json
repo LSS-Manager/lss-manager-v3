@@ -4026,7 +4026,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minutes",
+            "duration_text": "20 minutes",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -5286,7 +5287,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 hour",
+            "duration_text": "1 hour",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -5367,7 +5369,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 Minutes",
+            "duration_text": "30 minutes",
+            "duration": 1800,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },

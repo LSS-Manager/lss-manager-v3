@@ -3023,7 +3023,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minuter",
+            "duration_text": "30 minuter",
+            "duration": 1800,
             "swat_personnel": 8,
             "guard_mission": true,
             "filter_id": "police_station_missions",
@@ -4416,7 +4417,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "4 timmar",
+            "duration_text": "4 timmar",
+            "duration": 14400,
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true
@@ -4517,7 +4519,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 timmar",
+            "duration_text": "2 timmar",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true

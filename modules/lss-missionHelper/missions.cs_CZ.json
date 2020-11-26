@@ -2866,7 +2866,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minut",
+            "duration_text": "30 minut",
+            "duration": 1800,
             "swat_personnel": 18,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -3325,7 +3326,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minut",
+            "duration_text": "20 minut",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -3742,7 +3744,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minut",
+            "duration_text": "20 minut",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },

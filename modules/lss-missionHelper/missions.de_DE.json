@@ -3658,8 +3658,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -5606,7 +5607,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "average_min_fire_personnel": 25,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
@@ -5633,7 +5635,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "average_min_fire_personnel": 4,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
@@ -5662,7 +5665,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "8 Stunden",
+            "duration_text": "8 Stunden",
+            "duration": 28800,
             "average_min_fire_personnel": 18,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
@@ -5690,7 +5694,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "4 Stunden",
+            "duration_text": "4 Stunden",
+            "duration": 14400,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
             "allow_ktw_instead_of_rtw": true
@@ -5719,7 +5724,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "followup_missions_ids": {
                 "0": 44,
                 "1": 74,
@@ -5752,7 +5758,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 Stunde",
+            "duration_text": "1 Stunde",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -5777,7 +5784,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
             "allow_ktw_instead_of_rtw": true
@@ -5803,7 +5811,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "15 Minuten",
+            "duration_text": "15 Minuten",
+            "duration": 900,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -5916,7 +5925,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -6649,7 +6659,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 Stunde",
+            "duration_text": "1 Stunde",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -6833,7 +6844,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true
@@ -6861,7 +6873,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 Stunde",
+            "duration_text": "1 Stunde",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -7169,7 +7182,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "3 Stunden",
+            "duration_text": "3 Stunden",
+            "duration": 10800,
             "expansion_missions_ids": {
                 "0": 540
             },
@@ -7398,15 +7412,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -7512,7 +7527,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "average_min_police_personnel": 60,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
@@ -7550,7 +7566,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "3 Stunden",
+            "duration_text": "3 Stunden",
+            "duration": 10800,
             "average_min_police_personnel": 150,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
@@ -7585,7 +7602,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions",
             "allow_ktw_instead_of_rtw": true
@@ -8103,7 +8121,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 Stunden",
+            "duration_text": "1 Stunde",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -8213,7 +8232,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -8785,7 +8805,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "technical_aid_organization_missions"
         },
@@ -9059,7 +9080,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -9461,7 +9483,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -11610,7 +11633,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "riot_police_missions"
         },
@@ -13500,7 +13524,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 Minuten",
+            "duration_text": "30 Minuten",
+            "duration": 1800,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
             "allow_arff_instead_of_lf": true
@@ -14671,7 +14696,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -15045,7 +15071,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "4 Stunden",
+            "duration_text": "4 Stunden",
+            "duration": 14400,
             "average_min_fire_personnel": 10,
             "guard_mission": true,
             "filter_id": "rapid_deployment_group_missions",
@@ -15139,7 +15166,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "2 Stunden",
+            "duration_text": "2 Stunden",
+            "duration": 7200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "allow_ktw_instead_of_rtw": true
@@ -15472,7 +15500,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 Stunde 30 Minuten",
+            "duration_text": "1 Stunde 30 Minuten",
+            "duration": 5400,
             "average_min_fire_personnel": 12,
             "guard_mission": true,
             "filter_id": "firehouse_missions",
