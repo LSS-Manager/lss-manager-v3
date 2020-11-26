@@ -3013,7 +3013,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minutter",
+            "duration_text": "30 minutter",
+            "duration": 1800,
             "swat_personnel": 18,
             "guard_mission": true,
             "filter_id": "police_station_missions"
@@ -3784,7 +3785,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 minutter",
+            "duration_text": "20 minutter",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -4643,7 +4645,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "1 time",
+            "duration_text": "1 time",
+            "duration": 3600,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
         },
@@ -4934,7 +4937,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "20 Minutter",
+            "duration_text": "20 minutter",
+            "duration": 1200,
             "guard_mission": true,
             "filter_id": "police_station_missions",
             "need_traffic_car_only_if_present": true
@@ -4959,7 +4963,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minutter",
+            "duration_text": "30 minutter",
+            "duration": 1800,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },

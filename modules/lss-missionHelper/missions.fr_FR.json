@@ -4233,7 +4233,8 @@
         "requirements": {},
         "chances": {},
         "additional": {
-            "duration": "60 minutes",
+            "duration_text": "1\u00a0heure",
+            "duration": 3600,
             "average_min_fire_personnel": 3,
             "guard_mission": true,
             "filter_id": "firehouse_missions"
@@ -4679,7 +4680,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minutes",
+            "duration_text": "30\u00a0minutes",
+            "duration": 1800,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -4956,7 +4958,8 @@
         },
         "chances": {},
         "additional": {
-            "duration": "30 minutes",
+            "duration_text": "30\u00a0minutes",
+            "duration": 1800,
             "guard_mission": true,
             "filter_id": "police_station_missions"
         },
@@ -4967,7 +4970,7 @@
     "241": {
         "id": 241,
         "name": "Atelier de menuiserie en feu",
-        "place": null,
+        "place": "Atelier de menuiserie",
         "average_credits": 4200,
         "generated_by": "Centre de secours",
         "icons": {
