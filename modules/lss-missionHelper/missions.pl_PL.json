@@ -4740,8 +4740,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -6097,6 +6096,62 @@
             "possible_patient": 2,
             "filter_id": "police_station_missions",
             "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "277": {
+        "id": 277,
+        "name": "Karambol",
+        "place": null,
+        "average_credits": 4300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "278": {
+        "id": 278,
+        "name": "Stalking",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 2

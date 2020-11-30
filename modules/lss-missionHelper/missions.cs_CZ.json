@@ -4583,5 +4583,30 @@
             "police_stations": 4,
             "fire_stations": 15
         }
+    },
+    "197": {
+        "id": 197,
+        "name": "Akutn\u00ed z\u00e1n\u011bt mo\u010dov\u00fdch cest",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Urologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
     }
 }
