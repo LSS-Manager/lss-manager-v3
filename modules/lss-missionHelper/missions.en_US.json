@@ -14127,5 +14127,55 @@
         "prerequisites": {
             "fire_stations": 7
         }
+    },
+    "489": {
+        "id": 489,
+        "name": "Possible Cannabis Farm",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/cannabis_gruen.png",
+            "1": "/images/cannabis_gelb.png",
+            "2": "/images/cannabis_rot.png"
+        },
+        "requirements": {
+            "police_helicopters": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 107
+            },
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "police_helicopter_stations": 1
+        }
+    },
+    "490": {
+        "id": 490,
+        "name": "Suspicious package",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
     }
 }

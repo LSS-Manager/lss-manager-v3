@@ -3848,6 +3848,31 @@
             "rescue_stations": 3
         }
     },
+    "169": {
+        "id": 169,
+        "name": "Controlo de Velocidade",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "170": {
         "id": 170,
         "name": "Amea\u00e7a de bomba num hotel",

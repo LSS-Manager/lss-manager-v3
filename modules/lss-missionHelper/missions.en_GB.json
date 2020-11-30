@@ -5443,5 +5443,44 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "240": {
+        "id": 240,
+        "name": "Fire in shopping centre",
+        "place": "Mall",
+        "average_credits": 7000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "water_tankers": 20,
+            "mobile_air_vehicles": 70,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 1,
+            "fire_stations": 13
+        }
     }
 }
