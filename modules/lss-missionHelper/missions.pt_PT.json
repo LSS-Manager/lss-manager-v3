@@ -4097,5 +4097,218 @@
         "prerequisites": {
             "police_stations": 6
         }
+    },
+    "179": {
+        "id": 179,
+        "name": "Luta no mercado de Natal",
+        "place": "Mercado de Natal",
+        "average_credits": 600,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "180": {
+        "id": 180,
+        "name": "Queima da coroa do Advento",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "181": {
+        "id": 181,
+        "name": "Inc\u00eandio na bancada do mercado de Natal",
+        "place": "Mercado de Natal",
+        "average_credits": 610,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "\u00c1rvore de Natal em chamas",
+        "place": null,
+        "average_credits": 870,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "183": {
+        "id": 183,
+        "name": "Inc\u00eandio no mercado de Natal",
+        "place": "Mercado de Natal",
+        "average_credits": 310,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "184": {
+        "id": 184,
+        "name": "Roubo no mercado de Natal",
+        "place": "Mercado de Natal",
+        "average_credits": 300,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "185": {
+        "id": 185,
+        "name": "Acidente de tr\u00e1fego - gelo",
+        "place": null,
+        "average_credits": 1410,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "186": {
+        "id": 186,
+        "name": "Pessoa inebriada no mercado de Natal",
+        "place": "Mercado de Natal",
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Ter, 01 Dez 2020 10:00:00 +0000",
+            "date_end": "S\u00e1b, 26 Dez 2020 23:59:00 +0000",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

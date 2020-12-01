@@ -2269,6 +2269,206 @@
             "fire_stations": 13
         }
     },
+    "95": {
+        "id": 95,
+        "name": "Theft at christmas market",
+        "place": "Christmas market",
+        "average_credits": 300,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "Burning christmas market stall",
+        "place": "Christmas market",
+        "average_credits": 610,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "Fire at christmas market",
+        "place": "Christmas market",
+        "average_credits": 310,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Traffic accident - ice",
+        "place": null,
+        "average_credits": 1410,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-3"
+            },
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Burning christmas tree",
+        "place": null,
+        "average_credits": 870,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Burning advent wreath",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "Brawl at christmas market",
+        "place": "Christmas market",
+        "average_credits": 600,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "patient_uk_code_possible": {
+                "0": "C-3",
+                "1": "C-4"
+            },
+            "filter_id": "police_station_missions",
+            "date_start": "Tue, 01 Dec 2020 10:00:00 GMT",
+            "date_end": "Sat, 26 Dec 2020 23:59:00 GMT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "102": {
         "id": 102,
         "name": "Burning manufacturing machine",
