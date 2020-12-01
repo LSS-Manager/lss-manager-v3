@@ -4608,5 +4608,218 @@
         "prerequisites": {
             "rescue_stations": 2
         }
+    },
+    "198": {
+        "id": 198,
+        "name": "Rva\u010dka na v\u00e1no\u010dn\u00edm trhu",
+        "place": "V\u00e1no\u010dn\u00ed trh",
+        "average_credits": 600,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Ho\u0159\u00edc\u00ed adventn\u00ed v\u011bnec",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Ho\u0159\u00edc\u00ed st\u00e1nek na v\u00e1no\u010dn\u00edm trhu",
+        "place": "V\u00e1no\u010dn\u00ed trh",
+        "average_credits": 610,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Ho\u0159\u00edc\u00ed v\u00e1no\u010dn\u00ed strome\u010dek",
+        "place": null,
+        "average_credits": 870,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Po\u017e\u00e1r na v\u00e1no\u010dn\u00edm trhu",
+        "place": "V\u00e1no\u010dn\u00ed trh",
+        "average_credits": 310,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Kr\u00e1de\u017e na v\u00e1no\u010dn\u00edm trhu",
+        "place": "V\u00e1no\u010dn\u00ed trh",
+        "average_credits": 300,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Dopravn\u00ed nehoda \u2013 led",
+        "place": null,
+        "average_credits": 1410,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "patient_specializations": "\u00darazov\u00e1 chirurgie"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Opil\u00e1 osoba na v\u00e1no\u010dn\u00edm trhu",
+        "place": "V\u00e1no\u010dn\u00ed trh",
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "\u00fat, 01 pro 2020 10:00:00 +0100",
+            "date_end": "so, 26 pro 2020 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

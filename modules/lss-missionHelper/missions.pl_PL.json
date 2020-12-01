@@ -1792,6 +1792,192 @@
             "police_stations": 2
         }
     },
+    "76": {
+        "id": 76,
+        "name": "Kradzie\u017c na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "average_credits": 300,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "77": {
+        "id": 77,
+        "name": "P\u0142on\u0105cy stragan bo\u017conarodzeniowy",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "average_credits": 610,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "78": {
+        "id": 78,
+        "name": "Po\u017car na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "average_credits": 310,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "79": {
+        "id": 79,
+        "name": "Wypadek drogowy - l\u00f3d",
+        "place": null,
+        "average_credits": 1410,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "heavy_rescue_vehicles": 100,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 3,
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "fire_stations": 4
+        }
+    },
+    "80": {
+        "id": 80,
+        "name": "P\u0142on\u0105ca choinka",
+        "place": null,
+        "average_credits": 870,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "81": {
+        "id": 81,
+        "name": "P\u0142on\u0105cy wieniec adwentowy",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 5
+        }
+    },
+    "82": {
+        "id": 82,
+        "name": "B\u00f3jka na jarmarku bo\u017conarodzeniowym",
+        "place": "Jarmark Bo\u017conarodzeniowy",
+        "average_credits": 600,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Wt, 01 Gru 2020 10:00:00 +0100",
+            "date_end": "So, 26 Gru 2020 23:59:00 +0100",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "83": {
         "id": 83,
         "name": "Osoba uwi\u0119ziona pod maszyn\u0105",
@@ -4740,7 +4926,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
