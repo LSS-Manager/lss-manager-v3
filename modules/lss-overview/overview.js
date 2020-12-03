@@ -2071,6 +2071,14 @@
                 max: 12,
                 credits: 8000,
                 coins: 10,
+            },
+            heavy44t: {
+                name: 'Heavy 4x4 Tanker',
+                coins: 25,
+                credits: 25_000,
+                min: 1,
+                max: 3,
+                special: 'Work as a Water Carrier and Water Ladder'
             }
         },
         rd: {

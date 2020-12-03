@@ -14,14 +14,14 @@ const lssm_missionhelper_adjustPosition = () => {
     await Promise.all(
         I18n.locales[I18n.locale].map(
             async locale =>
-                (I18n.translations[locale].lssm.missionhelper = await fetch(
-                    (I18n.translations[
-                        locale
-                    ].lssm.missionhelper = lssm.getlink(
-                        `/modules/lss-missionHelper/i18n/${locale}.json`,
-                        false
-                    ))
-                ).then(res => res.json()))
+            (I18n.translations[locale].lssm.missionhelper = await fetch(
+                (I18n.translations[
+                    locale
+                ].lssm.missionhelper = lssm.getlink(
+                    `/modules/lss-missionHelper/i18n/${locale}.json`,
+                    false
+                ))
+            ).then(res => res.json()))
         )
     );
 
@@ -418,10 +418,10 @@ const lssm_missionhelper_adjustPosition = () => {
     const MISSION_TYPE = MISSION_WINDOW
         ? mission_help[0]
             ? mission_help
-                  .attr('href')
-                  .split('/')
-                  .pop()
-                  .replace(/\?.*/, '')
+                .attr('href')
+                .split('/')
+                .pop()
+                .replace(/\?.*/, '')
             : null
         : window.location.href.match(/\d+([^?]|$)/)[0];
     const MISSION_ID = window.location.href.replace(/\D/g, '');
@@ -452,20 +452,18 @@ const lssm_missionhelper_adjustPosition = () => {
 <a class="pull-right" id="${LSSM_MH_PREFIX}_pin">
     <i class="glyphicon glyphicon-pushpin"></i>
 </a>
-<article class="content ${
-                localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
+<article class="content ${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? ''
                     : 'hidden'
-            }"></article>
+                }"></article>
 <br class="unpinned">
-<span id="${LSSM_MH_PREFIX}_toggle"><span class="${
-                localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
+<span id="${LSSM_MH_PREFIX}_toggle"><span class="${localStorage[`${LSSM_MH_PREFIX}_toggle`] === 'true'
                     ? 'up'
                     : 'down'
-            }"></span></span>`;
+                }"></span></span>`;
 
             MISSION_WINDOW &&
-            localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
+                localStorage[`${LSSM_MH_PREFIX}_state`] === 'pinned'
                 ? pin_missionhelper(markup)
                 : unpin_missionhelper(markup);
 
@@ -474,11 +472,10 @@ const lssm_missionhelper_adjustPosition = () => {
             if (!MISSION_TYPE) {
                 content.innerText = I18n.t('lssm.missionhelper.diy_mission');
                 SETTINGS.mission_time &&
-                    (content.innerHTML += `<span class="badge badge-secondary">${
-                        document.querySelector('#missionH1').attributes[
+                    (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                    }</span>&nbsp;`);
+                        }</span>&nbsp;`);
                 return lssm_missionhelper_adjustPosition();
             }
 
@@ -506,13 +503,13 @@ const lssm_missionhelper_adjustPosition = () => {
                     (SETTINGS.show_rdu1 && MISSION.requirements.rescue_dog_units
                         ? '&nbsp;🐕‍🦺'
                         : '')}<sub>${(SETTINGS.id &&
-                    `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
-                    ''}${(SETTINGS.type &&
-                    `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
-                    ''}${(MISSION.place &&
-                    SETTINGS.poi &&
-                    `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
-                    ''}</sub></h3><br>`;
+                            `&nbsp;<sub>ID: ${MISSION_ID}</sub>`) ||
+                        ''}${(SETTINGS.type &&
+                            `&nbsp;<sub>Type: ${MISSION_TYPE}</sub>`) ||
+                        ''}${(MISSION.place &&
+                            SETTINGS.poi &&
+                            `&nbsp;<sub>POI: ${MISSION.place}</sub>`) ||
+                        ''}</sub></h3><br>`;
             }
 
             MISSION.onlyRd = !Object.keys(MISSION.requirements).length;
@@ -528,12 +525,12 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                        ''}${void 0 !==
-                        typeof MISSION.additional
-                            .possible_patient_specializations &&
-                        ` ( ${Object.values(
-                            MISSION.additional.possible_patient_specializations
-                        ).join(' oppure ')} )`}`;
+                    ''}${void 0 !==
+                    typeof MISSION.additional
+                        .possible_patient_specializations &&
+                    ` ( ${Object.values(
+                        MISSION.additional.possible_patient_specializations
+                    ).join(' oppure ')} )`}`;
                 } else if (
                     MISSION.chances.patient_transport ||
                     MISSION.additional.patient_specializations
@@ -546,9 +543,9 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.transport'
                     )}: ${(MISSION.chances.patient_transport &&
                         `${MISSION.chances.patient_transport}%`) ||
-                        ''}${void 0 !==
-                        typeof MISSION.additional.patient_specializations &&
-                        ` (${MISSION.additional.patient_specializations})`}`;
+                    ''}${void 0 !==
+                    typeof MISSION.additional.patient_specializations &&
+                    ` (${MISSION.additional.patient_specializations})`}`;
                 }
 
                 MISSION.chances.patient_critical_care &&
@@ -579,14 +576,12 @@ const lssm_missionhelper_adjustPosition = () => {
                         'lssm.missionhelper.requirements.helicopter'
                     )}: ${MISSION.chances.helicopter}%`);
                 MISSION.chances.patient_other_treatment &&
-                    (html += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${
-                        MISSION.chances.patient_other_treatment
-                    }%`);
+                    (html += `<br>${I18n.t('lssm.missionhelper.tragehilfe')}: ${MISSION.chances.patient_other_treatment
+                        }%`);
                 SETTINGS.show_frchance &&
                     MISSION.additional &&
                     MISSION.additional.patient_allow_first_responder_chance &&
-                    (html += `<br>${I18n.t('lssm.missionhelper.frchance')}: ${
-                    MISSION.additional.patient_allow_first_responder_chance
+                    (html += `<br>${I18n.t('lssm.missionhelper.frchance')}: ${MISSION.additional.patient_allow_first_responder_chance
                         }%`);
                 return html;
             };
@@ -649,13 +644,13 @@ const lssm_missionhelper_adjustPosition = () => {
                         continue;
                     let vehicleName = vehicle;
                     if (SETTINGS.lfrw &&
-                            MISSION.additional &&
-                            MISSION.additional.allow_rw_instead_of_lf &&
-                            vehicle === 'firetrucks') vehicleName = 'allow_rw_instead_of_lf';
+                        MISSION.additional &&
+                        MISSION.additional.allow_rw_instead_of_lf &&
+                        vehicle === 'firetrucks') vehicleName = 'allow_rw_instead_of_lf';
                     else if (SETTINGS.show_ktwrtw &&
-                            MISSION.additional &&
-                            MISSION.additional.allow_ktw_instead_of_rtw &&
-                            vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
+                        MISSION.additional &&
+                        MISSION.additional.allow_ktw_instead_of_rtw &&
+                        vehicle === 'ambulances') vehicleName = 'ktw_or_rtw';
                     else if (SETTINGS.show_droinv &&
                         MISSION.additional &&
                         MISSION.additional.allow_drone_instead_of_investigation &&
@@ -664,13 +659,12 @@ const lssm_missionhelper_adjustPosition = () => {
                         MISSION.additional &&
                         MISSION.additional.allow_arff_instead_of_lf &&
                         vehicle === 'firetrucks') vehicleName = 'allow_arff_instead_of_lf';
-                    content.innerHTML += `${
-                        MISSION.requirements[vehicle]
-                    }x ${I18n.t(
-                        `lssm.missionhelper.requirements.${vehicleName}`
-                    )} ${(MISSION.chances &&
-                        MISSION.chances[vehicle] &&
-                        `(${MISSION.chances[vehicle]}%)`) ||
+                    content.innerHTML += `${MISSION.requirements[vehicle]
+                        }x ${I18n.t(
+                            `lssm.missionhelper.requirements.${vehicleName}`
+                        )} ${(MISSION.chances &&
+                            MISSION.chances[vehicle] &&
+                            `(${MISSION.chances[vehicle]}%)`) ||
                         (SETTINGS.show_100 && `(100%)`) ||
                         ''}<br>`;
                 }
@@ -688,7 +682,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     `${MISSION.additional.possible_patient_min || 0} ${I18n.t(
                         'lssm.missionhelper.to'
                     )}`) ||
-                    ''} ${MISSION.additional.possible_patient}<br>`;
+                ''} ${MISSION.additional.possible_patient}<br>`;
 
                 content.innerHTML += getAmbulanceCode();
 
@@ -721,10 +715,10 @@ const lssm_missionhelper_adjustPosition = () => {
                 (content.innerHTML += `<br>${I18n.t(
                     'lssm.missionhelper.prisoners'
                 )}: ${MISSION.additional.min_possible_prisoners !==
-                    MISSION.additional.max_possible_prisoners &&
-                    `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
-                        'lssm.missionhelper.to'
-                    )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
+                MISSION.additional.max_possible_prisoners &&
+                `${MISSION.additional.min_possible_prisoners || 0} ${I18n.t(
+                    'lssm.missionhelper.to'
+                )}`} ${MISSION.additional.max_possible_prisoners}<br>`);
 
             SETTINGS.special &&
                 MISSION.additional &&
@@ -777,15 +771,14 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'
-                )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
-                    'lssm.missionhelper.water1'
-                )}</span>&nbsp;`);
+                    )}: ${MISSION.requirements.water_needed.toLocaleString()} ${I18n.t(
+                        'lssm.missionhelper.water1'
+                    )}</span>&nbsp;`);
                 SETTINGS.mission_time &&
-                    (content.innerHTML += `<span class="badge badge-secondary">${
-                        document.querySelector('#missionH1').attributes[
+                    (content.innerHTML += `<span class="badge badge-secondary">${document.querySelector('#missionH1').attributes[
                             'data-original-title'
                         ].value
-                    }</span>&nbsp;`);
+                        }</span>&nbsp;`);
                 content.innerHTML += '<br>';
             }
 
@@ -800,9 +793,8 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.additional.expansion_missions_ids
                 )) {
                     let id = MISSION.additional.expansion_missions_ids[i];
-                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
-                        MISSIONS[id] ? MISSIONS[id].name : id
-                    }</span></a>`;
+                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id
+                        }</span></a>`;
                 }
             }
 
@@ -814,9 +806,8 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.additional.followup_missions_ids
                 )) {
                     let id = MISSION.additional.followup_missions_ids[i];
-                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
-                        MISSIONS[id] ? MISSIONS[id].name : id
-                    }</span></a>`;
+                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id
+                        }</span></a>`;
                 }
             }
             if (SETTINGS.subsequent && MISSION.additional.subsequent_missions_ids) {
@@ -827,8 +818,7 @@ const lssm_missionhelper_adjustPosition = () => {
                     MISSION.additional.subsequent_missions_ids
                 )) {
                     let id = MISSION.additional.subsequent_missions_ids[i];
-                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${
-                        MISSIONS[id] ? MISSIONS[id].name : id
+                    content.innerHTML += `<a href="../einsaetze/${id}"><span class="badge">${MISSIONS[id] ? MISSIONS[id].name : id
                         }</span></a>`;
                 }
             }
@@ -843,9 +833,9 @@ const lssm_missionhelper_adjustPosition = () => {
         let missionhelp_bounding = missionhelp.getBoundingClientRect();
         missionhelp.style.opacity =
             element_bounding.right > missionhelp_bounding.left &&
-            element_bounding.left < missionhelp_bounding.right &&
-            element_bounding.bottom > missionhelp_bounding.top &&
-            element_bounding.top < missionhelp_bounding.bottom
+                element_bounding.left < missionhelp_bounding.right &&
+                element_bounding.bottom > missionhelp_bounding.top &&
+                element_bounding.top < missionhelp_bounding.bottom
                 ? 0.1
                 : null;
     };

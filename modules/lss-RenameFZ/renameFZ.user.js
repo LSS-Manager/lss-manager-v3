@@ -318,7 +318,8 @@
                 22: 'Community First Responder',
                 23: 'Crew Carrier',
                 24: 'Traffic Car',
-                25: 'Armed Traffic Car'
+                25: 'Armed Traffic Car',
+                26: 'Heavy 4x4 Tanker'
             }
         }
     };
@@ -417,7 +418,7 @@
             validStationTypes: {
                 0: "Požární stanice",
                 2: "Výjezdová základna záchranné služby",
-				5: "Základna Letecké záchranné služby",
+                5: "Základna Letecké záchranné služby",
                 6: "Obvodní oddělení Policie",
                 7: "Dispečink",
                 13: 'Letecká služba PČR',
@@ -927,6 +928,10 @@
                 18: 'Choucas',
                 19: 'Equipe cynophile',
                 20: 'Unité motocycliste',
+                21: 'CCFS',
+                22: 'CCFM',
+                23: 'CCFL',
+                24: 'VLHR'
             }
         }
     };
@@ -1303,7 +1308,7 @@
         });
 
         let buildings = lssm.buildings;
-        buildings.sort((a,b) => (a.caption > b.caption) ? 1 : ((b.caption > a.caption) ? -1 : 0));
+        buildings.sort((a, b) => (a.caption > b.caption) ? 1 : ((b.caption > a.caption) ? -1 : 0));
         $.each(lssm.buildings, function (key, station) {
             if (I18n.t('lssm.renameFz.settings.validStationTypes')[station.building_type]) {
                 let tmpObject = {
@@ -1451,7 +1456,7 @@
             }
             let numNewNames = 0;
             for (let i = 0; i < vehiclesNum; i++) {
-                status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i+1}/${vehiclesNum})`);
+                status.html(`Status: ${I18n.t('lssm.renameFz.statusWorking')} (${i + 1}/${vehiclesNum})`);
                 let vehicleRow = $(vehicles[i]);
                 let vehicleCaption = mode === "leitstelle" ? vehicleRow.find('[id^=vehicle_caption_]') : vehicleRow.find("td[sortvalue]");
                 let vehicleID = mode === "leitstelle" ? vehicleCaption.attr("id").replace(/\D/g, "") : vehicleCaption.find("a").attr("href").replace(/\D/g, "");
@@ -1467,7 +1472,7 @@
                     set.vehicles[vehicleID].vehicleType = lssm.carsById[vehicle.type][0];
                 }
                 if (needTagging) {
-                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`]||set.vehicles[vehicleID].vehicleType;
+                    set.vehicles[vehicleID].tagging = settings[`renameFz_vehicleTypes-${vehicle.type}`] || set.vehicles[vehicleID].vehicleType;
                 }
                 if (needStationAlias) {
                     set.vehicles[vehicleID].stationAlias = settings[`renameFz_stations-${vehicle.building}`];
@@ -1476,10 +1481,10 @@
                     set.vehicles[vehicleID].dispatchAlias = settings[`renameFz_stations-${(mode === "leitstelle" ? window.location.href : $('.btn-group.pull-right:first-of-type .btn:nth-of-type(2)').attr("href")).replace(/\D/g, "")}`];
                 }
                 if (needNumber) {
-                    set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID)||"";
+                    set.vehicles[vehicleID].number = getVehicleNumberAtStation(vehicleID) || "";
                 }
                 if (needNumberRoman) {
-                    set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number||0);
+                    set.vehicles[vehicleID].numberRoman = arabicToRoman(set.vehicles[vehicleID].number || 0);
                     set.vehicles[vehicleID].numberRoman = (set.vehicles[vehicleID].numberRoman === "0" ? "" : set.vehicles[vehicleID].numberRoman);
                 }
                 set.vehicles[vehicleID].newName = set.str.str.replace(/{(.*?)}/g, (match, p1) => typeof set.vehicles[vehicleID][p1] !== void 0 ? set.vehicles[vehicleID][p1] : match);
@@ -1493,7 +1498,7 @@
                     }
                 } else {
                     numNewNames++;
-                    window.setTimeout(function() {
+                    window.setTimeout(function () {
                         applyNewName(vehicleID, (i + 1 === vehiclesNum));
                     }, numNewNames * 100);
                 }
@@ -1503,7 +1508,7 @@
         }
     }
 
-    function applyNewName(vehicleID, last=false) {
+    function applyNewName(vehicleID, last = false) {
         if (set.vehicles[vehicleID].newName.length > 150) {
             $(`#${prefix}_nameToLongDiv`).show();
             $(`#${prefix}_nameToLongTableBody`).append("<tr><td>" + set.vehicles[vehicleID].old + "</td><td>" + set.vehicles[vehicleID].newName + "</td><td>" + set.vehicles[vehicleID].newName.substr(0, 150) + "</td></tr>");
@@ -1563,7 +1568,7 @@
     function createSettings() {
         if ($(`#${prefix}`).length) return;
         $('#vehicle_table').before(`\
-<a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"]||"open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
+<a id="toggleRename" state="${localStorage["lssm_renameFz_visibility"] || "open"}"><i class="glyphicon glyphicon-eye-close"></i></a><br>
 <div id="${prefix}">
     <p><strong>${I18n.t('lssm.renameFz.helpTitle')}<a target="_blank" href="${I18n.t('lssm.renameFz.helpLink')}">${I18n.t('lssm.renameFz.helpLink')}</a></strong></p>
     <div id="${prefix}_buttons"></div>
@@ -1597,7 +1602,7 @@
     <input type="button" class="btn btn-success" id="${prefix}_saveAll" value="${I18n.t('lssm.renameFz.saveAll')}"/>
     <input type="button" class="btn btn-primary" id="${prefix}_toggle_name_correct" mode="hide" value="${I18n.t('lssm.renameFz.toggleNameCorrect')}"/>
 </div>`);
-        $(`#${prefix}`)[(localStorage["lssm_renameFz_visibility"]||"open") === "close" ? "hide" : "show"]();
+        $(`#${prefix}`)[(localStorage["lssm_renameFz_visibility"] || "open") === "close" ? "hide" : "show"]();
         let buttons = "";
         for (let i in set.options) {
             buttons += `<a href="#" class="btn btn-default btn-xs" data-str="{${i}}">${I18n.t(`lssm.renameFz.${i}`)}</a>`;
@@ -1605,10 +1610,10 @@
         $(`#${prefix}_buttons`).append(buttons);
 
         $('.helpButton')
-            .on('mouseenter', function() {
+            .on('mouseenter', function () {
                 $(`#${$(this).attr('helpBox')}`).show();
             })
-            .on('mouseleave', function() {
+            .on('mouseleave', function () {
                 $(`#${$(this).attr('helpBox')}`).hide();
             });
 
@@ -1624,7 +1629,7 @@
             let pos = start + $(e.target).data('str').length;
             input.selectionStart = pos;
             input.selectionEnd = pos;
-            changeInput({'target': input});
+            changeInput({ 'target': input });
             input.focus();
             return false;
         });
@@ -1640,19 +1645,19 @@
         $(`#${prefix}_rename`).click(rename);
         $(`#${prefix}_saveAll`).click(function () {
             for (let i = 0; i < $(".vehicle_form input.btn.btn-success").length; i++) {
-                setTimeout(function() {
+                setTimeout(function () {
                     $($(".vehicle_form input.btn.btn-success")[i]).click();
                 }, 100 * i);
             }
             $(`.${prefix}_name_correct`).remove();
         });
 
-        $(`#${prefix}_toggle_name_correct`).click(function() {
+        $(`#${prefix}_toggle_name_correct`).click(function () {
             let rows = $(`.${prefix}_name_correct`).parent().parent().parent();
             $(this).attr("mode") === "hide" ? (rows.hide() && $(this).attr("mode", "show")) : (rows.show() && $(this).attr("mode", "hide"));
         });
 
-        $('#toggleRename').click(function() {
+        $('#toggleRename').click(function () {
             let state_new = $(this).attr("state") === "open" ? "close" : "open";
             localStorage["lssm_renameFz_visibility"] = state_new;
             $(`#${prefix}`)[state_new === "close" ? "hide" : "show"]();
@@ -1663,10 +1668,10 @@
 
         if (input_saved) {
             input_saved = JSON.parse(input_saved);
-            $(`#${prefix}_startNum`).val(input_saved.counter||1);
-            $('#lssm-inline-counterOverride').prop("checked", input_saved.counterOverride||0);
+            $(`#${prefix}_startNum`).val(input_saved.counter || 1);
+            $('#lssm-inline-counterOverride').prop("checked", input_saved.counterOverride || 0);
             $(`#${prefix}_string`)
-                .val(input_saved.str||"")
+                .val(input_saved.str || "")
                 .trigger("change");
         }
     }
