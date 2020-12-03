@@ -6,6 +6,7 @@
         "prisoners": "prisonniers",
         "to": "jusqu'à",
         "exp": "Propagation",
+        "fwm": "Missions de suivi",
         "SWATPersonnel": "Needed SWAT Personnel",
         "averageMinimumEmployeesFire": "Moyenne minimale Pompiers",
         "averageMinimumEmployeesHoehen": "Spécialistes IMP requis",
@@ -59,6 +60,10 @@
                 "label": "répartitions",
                 "description": "Montre à quoi le pari peut s'étendre. (N'affiche que la propagation simple)"
             },
+            "followup": {
+                "label": "Missions de suivi",
+                "description": "Montre ce que la mission peut générer pour les missions de suivi"
+            },
             "show_100": {
                 "label": "Montrer 100% de probabilité",
                 "description": "Indique la probabilité pour un véhicule même s'il est à 100%."
@@ -89,7 +94,7 @@
             "platform_trucks": "Moyen Elévateur Aérien",
             "heavy_rescue_vehicles": "Véhicule de secours routier",
             "mobile_air_vehicles": "Assistance respiratoire",
-            "battalion_chief_vehicles": "Chefs de groupe",
+            "battalion_chief_vehicles": "Chefs de groupe ou VLHR",
             "water_tankers": "Camions-citernes",
             "hazmat_vehicles": "Véhicules risques technologiques",
             "mobile_command_vehicles": "Véhicules poste de commandement",
@@ -104,6 +109,8 @@
             "height_rescue_units": "VGRIMP",
             "water_rescue": "VPL",
             "boats": "BLS",
+            "brush_truck": "CCF",
+            "elw3": "VLHR",
             "allow_rw_instead_of_lf": "Camions de pompiers ou sauvetage lourd ou Véhicule Tout Usage"
         }
     }

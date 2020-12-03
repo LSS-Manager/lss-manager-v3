@@ -85,7 +85,8 @@ else if (I18n.locale == "en_GB") {
         "22": ["Community First Responder", 1],
         "23": ["Crew Carrier", 0],
         "24": ["Traffic Car", 2],
-        "25": ["Armed Traffic Car", 2]
+        "25": ["Armed Traffic Car", 2],
+        "26": ["Heavy 4x4 Tanker", 0]
     };
 }
 else if (I18n.locale == "en_AU") {
@@ -277,7 +278,7 @@ else if (I18n.locale == "pl_PL") {
     };
 }
 else if (I18n.locale == "it_IT") {
-   lssm.carsById = {
+    lssm.carsById = {
         "0": ["ABP", 0],
         "1": ["AS", 0],
         "2": ["AV/FNZ", 0],
@@ -329,7 +330,11 @@ else if (I18n.locale == "fr_FR") {
         "17": ["BLS", 4],
         "18": ["Choucas", 2],
         "19": ["Equipe cynophile", 2],
-        "20": ["Unité motocycliste", 2]
+        "20": ["Unité motocycliste", 2],
+        "21": ["CCFS", 0],
+        "22": ["CCFM", 0],
+        "23": ["CCFL", 0],
+        "24": ["VLHR", 0]
     };
 }
 else if (I18n.locale == "ko_KR") {
@@ -455,7 +460,7 @@ else if (I18n.locale == "de_DE") {
         'Rettungswache (Kleinwache)',
         'Rettungshundestaffel'
     ];
-    
+
     lssm.carsById = {
         "0": ["LF 20", 0],
         "1": ["LF 10", 0],
@@ -555,19 +560,19 @@ else if (I18n.locale == "de_DE") {
         "95": ["Polizeimotorrad", 2]
     };
 }
-lssm.getVehicleNameById = function(vehicleId) {
-    if(vehicleId in lssm.carsById){
+lssm.getVehicleNameById = function (vehicleId) {
+    if (vehicleId in lssm.carsById) {
         return lssm.carsById[vehicleId][0];
     } else {
         return null;
     }
 }
 
-lssm.car_list = function(building) {
+lssm.car_list = function (building) {
     // liefert die Fahrzeuge einer Wache zurück
     let data = [];
     $.each(lssm.vehicles, function (vid, car) {
-        if(car.building != building)
+        if (car.building != building)
             return true;
         data.push({
             "id": vid,
@@ -580,20 +585,20 @@ lssm.car_list = function(building) {
     });
     return data;
 }
-lssm.car_list_all = function() {
+lssm.car_list_all = function () {
     return lssm.vehicles;
 }
 // Formatiert Fahrzeugliste um (mit FMS)
-lssm.car_list_printable = function(list) {
+lssm.car_list_printable = function (list) {
     let data = "";
     $.each(list, function (key, car) {
         data += "<div style=\"margin-top: 3px;\"><span class=\"building_list_fms building_list_fms_" + car.fms_real + "\">" + car.fms_show + "</span> " + car.name +
-          "</div>";
+            "</div>";
     });
     return data;
 }
 
-lssm.get_vehicles = function(async=true, overwritePathSetting=false) {
+lssm.get_vehicles = function (async = true, overwritePathSetting = false) {
     let path = window.location.pathname.length;
     if (path <= 2 || overwritePathSetting) {
         let tmpCar = {};
@@ -633,7 +638,7 @@ lssm.statusCount = {
     9: 0
 };
 
-lssm.updateStatusCount = function(async=true) {
+lssm.updateStatusCount = function (async = true) {
     $.ajax({
         url: "/api/vehicle_states",
         method: "GET",
@@ -651,11 +656,10 @@ lssm.updateStatusCount = function(async=true) {
 };
 
 // Funktion zum Updaten des FMS eigener Fzg.
-$(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
-    if(t.type === "vehicle_fms"
-      && lssm.vehicles.hasOwnProperty(t.id)
-      && !t.fms_text.startsWith("[Verband]"))
-    {
+$(document).bind(lssm.hook.postname("radioMessage"), function (event, t) {
+    if (t.type === "vehicle_fms"
+        && lssm.vehicles.hasOwnProperty(t.id)
+        && !t.fms_text.startsWith("[Verband]")) {
         let vehicle = lssm.vehicles[t.id];
         lssm.statusCount[vehicle.fms_show]--;
         lssm.vehicles[t.id].name = t.caption;
@@ -665,7 +669,7 @@ $(document).bind(lssm.hook.postname("radioMessage"), function(event, t) {
     }
 });
 
-lssm.get_buildings = function(async=true, overwritePathSetting=false) {
+lssm.get_buildings = function (async = true, overwritePathSetting = false) {
     let path = window.location.pathname.length;
     if (path <= 2 || overwritePathSetting) {
         $.ajax({
@@ -683,7 +687,7 @@ lssm.get_buildings = function(async=true, overwritePathSetting=false) {
     }
 };
 // liefert ein Div zurück welches auf der Karte verschoben werden kann und seine Position speichert und beim laden wieder annimmt.
-lssm.newDragableDivOnMap=function(id, classe, pos) {
+lssm.newDragableDivOnMap = function (id, classe, pos) {
     function changeX(p, m) {
         if (p <= -m + info._div.offsetWidth + 20)
             return -m + info._div.offsetWidth + 20;
@@ -705,7 +709,7 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 
     info.onAdd = function () {
         this._div = L.DomUtil.create('div', classe || "");
-        this._div.id = id+"Div";
+        this._div.id = id + "Div";
         let m = map.getSize();
         L.DomUtil.setPosition(info._div, new L.Point(changeX(pos.x, m.x), changeY(pos.y, m.y)));
         this.update();
@@ -719,8 +723,8 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
             x: changeX(p.x, m.x),
             y: changeY(p.y, m.y)
         };
-        lssm.settings.set(lssm.config.prefix + "_"+id+"Position",pos);
-        L.DomUtil.setPosition(info._div, new L.Point(pos.x,pos.y));
+        lssm.settings.set(lssm.config.prefix + "_" + id + "Position", pos);
+        L.DomUtil.setPosition(info._div, new L.Point(pos.x, pos.y));
     };
 
     info.addTo(map);
@@ -732,25 +736,25 @@ lssm.newDragableDivOnMap=function(id, classe, pos) {
 
 // Add custom String format function
 if (!String.format) {
-//	console.log("execute");
-    String.format = function(format) {
+    //	console.log("execute");
+    String.format = function (format) {
         let args = Array.prototype.slice.call(arguments, 1);
-        return format.replace(/{(\d+)}/g, function(match, number) {
+        return format.replace(/{(\d+)}/g, function (match, number) {
             return typeof args[number] != 'undefined' ? args[number] : match;
         });
     };
 }
-lssm.notification = function(msg, type, duration) {
+lssm.notification = function (msg, type, duration) {
     type = (typeof type === 'undefined') ? 'alert-success' : type;
     duration = (typeof duration === 'undefined') ? 2000 : duration;
     $("#content")
-      .before(
-        '<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
-        'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
-        'aria-label="close">&times;</a>' + msg +
-        '</div>');
-    setTimeout(function() {
-        $("#lssm_notification").slideUp("slow", function() {
+        .before(
+            '<div class="alert alert-dismissable ' + type + '" id="lssm_notification" ' +
+            'style="text-align:center;width:90%"><a href="#" class="close" data-dismiss="alert" ' +
+            'aria-label="close">&times;</a>' + msg +
+            '</div>');
+    setTimeout(function () {
+        $("#lssm_notification").slideUp("slow", function () {
             $("#lssm_notification").remove();
         });
     }, duration);
