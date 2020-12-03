@@ -12806,7 +12806,7 @@
     "434": {
         "id": 434,
         "name": "Restaurant fire",
-        "place": "Fast Food Restaurant",
+        "place": "Restaurant",
         "average_credits": 5000,
         "generated_by": "Fire station",
         "icons": {

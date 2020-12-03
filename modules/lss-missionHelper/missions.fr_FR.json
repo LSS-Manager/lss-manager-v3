@@ -117,6 +117,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "max_fire_stations": 5,
             "fire_stations": 1
         }
     },
@@ -268,6 +269,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "max_fire_stations": 5,
             "fire_stations": 1
         }
     },
@@ -332,7 +334,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 3,
+            "brush_truck": 3,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1
         },
@@ -340,35 +342,10 @@
             "battalion_chief_vehicles": 70
         },
         "additional": {
-            "expansion_missions_ids": {
-                "0": 15
-            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 7
-        }
-    },
-    "15": {
-        "id": 15,
-        "name": "Feu en for\u00eat (petit)",
-        "place": "For\u00eat",
-        "average_credits": 1010,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 1
         }
     },
     "16": {
@@ -434,6 +411,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "max_fire_stations": 5,
             "fire_stations": 1
         }
     },
@@ -789,6 +767,7 @@
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
+            "max_fire_stations": 5,
             "fire_stations": 3
         }
     },
@@ -2684,7 +2663,7 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 5,
+            "brush_truck": 5,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1
         },
@@ -5898,6 +5877,101 @@
         },
         "prerequisites": {
             "fire_stations": 6
+        }
+    },
+    "268": {
+        "id": 268,
+        "name": "Feu d'engin agricole",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "269": {
+        "id": 269,
+        "name": "Feu de v\u00e9g\u00e9tation",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 271
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "270": {
+        "id": 270,
+        "name": "Feu de broussailles",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "271": {
+        "id": 271,
+        "name": "Feu de r\u00e9colte sur pied (petit)",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "brush_truck": 3,
+            "battalion_chief_vehicles": 1,
+            "water_tankers": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 70
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 7
         }
     }
 }
