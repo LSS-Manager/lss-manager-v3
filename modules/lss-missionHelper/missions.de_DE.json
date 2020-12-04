@@ -15886,5 +15886,82 @@
             "police_stations": 2,
             "fire_stations": 6
         }
+    },
+    "578": {
+        "id": 578,
+        "name": "Blaus\u00e4ureaustritt",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "nef": 25,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
+    },
+    "579": {
+        "id": 579,
+        "name": "Blaus\u00e4ureaustritt",
+        "place": "Chemiepark",
+        "average_credits": 4800,
+        "generated_by": "Werkfeuerwehr",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ulf": 1,
+            "gw_werkfeuerwehr": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "gwmess": 2,
+            "hazmat_vehicles": 1,
+            "police_cars": 4,
+            "hazmat_dekon": 1
+        },
+        "chances": {
+            "nef": 25,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "filter_id": "factory_fire_brigade_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "werkfeuerwehr": 1,
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
     }
 }
