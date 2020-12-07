@@ -6340,9 +6340,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -7591,6 +7589,84 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "fire_stations": 4
+        }
+    },
+    "290": {
+        "id": 290,
+        "name": "Allagamento (MEDIO)",
+        "place": null,
+        "average_credits": 3500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 40
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 4,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "291": {
+        "id": 291,
+        "name": "Demolizione programmata",
+        "place": null,
+        "average_credits": 8000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "ambulances": 4,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "40 minuti",
+            "duration": 2400,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 4,
+            "fire_stations": 8
         }
     }
 }

@@ -3902,240 +3902,6 @@
             "fire_stations": 10
         }
     },
-    "160": {
-        "id": 160,
-        "name": "Brandende cadeautjes",
-        "place": null,
-        "average_credits": 550,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "161": {
-        "id": 161,
-        "name": "Sinterklaas van dak gegleden",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance, standplaats",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 100
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET",
-            "patient_specializations": "Traumatologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "162": {
-        "id": 162,
-        "name": "Pepernoot op hoofd",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance, standplaats",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET",
-            "patient_specializations": "Traumatologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "163": {
-        "id": 163,
-        "name": "Piet bestolen",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "164": {
-        "id": 164,
-        "name": "Kind geschrokken",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance, standplaats",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 0
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET",
-            "patient_specializations": "Interne Geneeskunde"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "165": {
-        "id": 165,
-        "name": "Piet klem in schoorsteen",
-        "place": null,
-        "average_credits": 950,
-        "generated_by": "Brandweer, Kazerne",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "firehouse_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET",
-            "patient_specializations": "Traumatologie"
-        },
-        "prerequisites": {
-            "fire_stations": 1
-        }
-    },
-    "166": {
-        "id": 166,
-        "name": "Toezicht manifestatie pietendiscussie",
-        "place": null,
-        "average_credits": 1200,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {
-            "police_cars": 4
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 3
-        }
-    },
-    "167": {
-        "id": 167,
-        "name": "Schoenen dief",
-        "place": null,
-        "average_credits": 200,
-        "generated_by": "Politie, Opkomstbureau",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "168": {
-        "id": 168,
-        "name": "Verstikking in pepernoot",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance, standplaats",
-        "icons": {
-            "0": "/images/sint_gruen.png",
-            "1": "/images/sint_gelb.png",
-            "2": "/images/sint_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 80
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "za 14 nov 2020 10:00:00 CET",
-            "date_end": "zo 06 dec 2020 23:59:00 CET",
-            "patient_specializations": "Traumatologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
     "169": {
         "id": 169,
         "name": "Brandende kerstboom",
@@ -18152,6 +17918,51 @@
         },
         "prerequisites": {
             "fire_stations": 4
+        }
+    },
+    "679": {
+        "id": 679,
+        "name": "Heling",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "680": {
+        "id": 680,
+        "name": "Heling",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }

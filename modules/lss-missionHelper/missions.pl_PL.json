@@ -6373,5 +6373,53 @@
             "police_stations": 1,
             "fire_stations": 3
         }
+    },
+    "297": {
+        "id": 297,
+        "name": "Niebezpiecznie przechylony baner reklamowy",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/museum_art_gruen.png",
+            "1": "/images/museum_art_gelb.png",
+            "2": "/images/museum_art_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 25
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "298": {
+        "id": 298,
+        "name": "Zak\u0142\u00f3canie Porz\u0105dku Publicznego",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }
