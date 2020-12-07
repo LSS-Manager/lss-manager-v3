@@ -3618,5 +3618,28 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "161": {
+        "id": 161,
+        "name": "Persoan\u0103 suspect\u0103",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

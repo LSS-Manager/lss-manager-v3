@@ -14380,5 +14380,58 @@
         "prerequisites": {
             "police_stations": 6
         }
+    },
+    "491": {
+        "id": 491,
+        "name": "Suspicious Person",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "492": {
+        "id": 492,
+        "name": "Arrhythmia",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "19-C-6",
+                "1": "19-A-1",
+                "2": "19-C-3"
+            },
+            "patient_specializations": "Cardiology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

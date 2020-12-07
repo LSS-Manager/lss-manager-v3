@@ -5255,5 +5255,28 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "220": {
+        "id": 220,
+        "name": "Mistenkelig person",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
