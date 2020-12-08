@@ -14572,6 +14572,176 @@
             "rescue_stations": 1
         }
     },
+    "542": {
+        "id": 542,
+        "name": "Verkeersongeval door gladheid",
+        "place": null,
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "543": {
+        "id": 543,
+        "name": "Verkeersongeval door gladheid",
+        "place": null,
+        "average_credits": 1010,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40,
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "544": {
+        "id": 544,
+        "name": "Gevallen persoon door gladheid",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "545": {
+        "id": 545,
+        "name": "Gevallen persoon door gladheid",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "546": {
+        "id": 546,
+        "name": "Donkere dagen offensief",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "547": {
+        "id": 547,
+        "name": "Donkere dagen offensief",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "za 05 dec 2020 23:00:00 CET",
+            "date_end": "zo 27 dec 2020 00:00:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "548": {
         "id": 548,
         "name": "Steekincident (groot)",
