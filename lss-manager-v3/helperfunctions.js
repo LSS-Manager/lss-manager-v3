@@ -348,9 +348,10 @@ else if (I18n.locale == "ko_KR") {
         "6": ["물탱크차", 0],
         "7": ["생화학 인명구조차", 0],
         "8": ["사고 대응차량(IRV)", 2],
-        "9": ["수색구조용 헬기", 1],
+        "9": ["구급 헬리콥터", 1],
         "10": ["이동식 호흡 장비", 0],
-        "11": ["구조 공작차", 0]
+        "11": ["구조 공작차", 0],
+        "12": ["사다리차", 0]
     };
 }
 else if (I18n.locale == "ro_RO") {
@@ -364,10 +365,11 @@ else if (I18n.locale == "ro_RO") {
         "6": ["Cisternă de apă", 0],
         "7": ["Materiale periculoase", 0],
         "8": ["Mașină de patrulare", 2],
-        "9": ["Salvare aeriană", 1],
+        "9": ["Elicopter SMURD", 1],
         "10": ["Mașină de suport logistic", 0],
         "11": ["Mașină de comanda și control", 0],
-        "12": ["Mașină de intervenții accidente colective", 0]
+        "12": ["Mașină de intervenții accidente colective", 0],
+        "13": ["Platforma Autoutilitara", 0]
     };
 }
 else if (I18n.locale == "nl_NL") {

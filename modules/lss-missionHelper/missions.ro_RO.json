@@ -3641,5 +3641,228 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "162": {
+        "id": 162,
+        "name": "Lovitura la coloana",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "163": {
+        "id": 163,
+        "name": "Pr\u0103bu\u0219irea par\u021bial\u0103 a unei cl\u0103diri ",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 8,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 1,
+            "fire_stations": 5
+        }
+    },
+    "164": {
+        "id": 164,
+        "name": "Cladire prabusita",
+        "place": null,
+        "average_credits": 9000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 1,
+            "fire_stations": 7
+        }
+    },
+    "165": {
+        "id": 165,
+        "name": "Arsuri de gradul 3",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "166": {
+        "id": 166,
+        "name": "Lovitura grava la cap",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurochirurgie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "167": {
+        "id": 167,
+        "name": "Amputarea traumatic\u0103 a membrelor",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "168": {
+        "id": 168,
+        "name": "Foc mare \u00een Ferma",
+        "place": "Ferm\u0103",
+        "average_credits": 9000,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 3,
+            "water_tankers": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
+        }
+    },
+    "169": {
+        "id": 169,
+        "name": "Dureri de spate",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80,
+            "helicopter": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

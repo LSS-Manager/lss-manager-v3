@@ -1046,6 +1046,7 @@
             validStationTypes: {
                 0: "소방서",
                 2: "응급실",
+                5: '구급 헬리콥터 스테이션',
                 6: "경찰서",
                 7: "지휘센터",
                 18: ">소방서(소형)",
@@ -1062,9 +1063,10 @@
                 6: '물탱크차',
                 7: '생화학 인명구조차',
                 8: '사고 대응차량(IRV)',
-                9: '수색구조용 헬기',
+                9: '구급 헬리콥터',
                 10: '이동식 호흡 장비',
-                11: '구조 공작차'
+                11: '구조 공작차',
+                12: '사다리차'
             }
         }
     };
@@ -1111,6 +1113,7 @@
             validStationTypes: {
                 0: "Stație de pompieri",
                 2: "Stație de ambulanță",
+                5: 'Stație de elicopter medical',
                 6: "Secție de poliție",
                 7: "Dispecerat",
                 18: "Stație de pompieri (mică)",
@@ -1127,10 +1130,11 @@
                 6: 'Cisternă de apă',
                 7: 'Materiale periculoase',
                 8: 'Mașină de patrulare',
-                9: 'Salvare aeriană',
+                9: 'Elicopter SMURD',
                 10: 'Mașină de suport logistic',
                 11: 'Mașină de comanda și control',
-                12: 'Mașină de intervenții accidente colective'
+                12: 'Mașină de intervenții accidente colective',
+                13: 'Platforma Autoutilitara'
             }
         }
     };
