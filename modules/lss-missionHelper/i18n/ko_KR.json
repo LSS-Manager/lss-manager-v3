@@ -85,7 +85,7 @@
         "arff": "ARFF",
         "k9": "Dog Support Unit",
         "swat_suv": "Armed Response Vehicle (ARV)",
-        "helicopter": "HEMS",
+        "helicopter": "구급 헬리콥터",
         "police_helicopters": "Police helicopter",
         "allow_rw_instead_of_lf": "소방차 또는 무거운 구조"
     }
