@@ -15963,5 +15963,37 @@
             "police_stations": 3,
             "fire_stations": 14
         }
+    },
+    "580": {
+        "id": 580,
+        "name": "Ausschreitungen durch alkoholisierte Menschengruppe",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 2,
+            "police_cars": 6,
+            "grukw": 6
+        },
+        "chances": {
+            "nef": 20,
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 5,
+            "max_possible_prisoners": 5,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 8,
+            "bereitschaftspolizei": 1
+        }
     }
 }
