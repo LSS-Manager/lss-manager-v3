@@ -154,7 +154,8 @@
                 92: 'Anh Hund',
                 93: 'MTW-OV',
                 94: 'DHuFüKw',
-                95: 'Polizeimotorrad'
+                95: 'Polizeimotorrad',
+                96: 'Außenlastbehälter (allgemein)'
             }
         }
     };

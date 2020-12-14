@@ -394,7 +394,8 @@
         },
         "requirements": {
             "water_needed": 800,
-            "firetrucks": 1
+            "firetrucks": 1,
+            "helicopter_bucket": 1
         },
         "chances": {},
         "additional": {
@@ -402,7 +403,8 @@
                 "0": 134,
                 "1": 135
             },
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "need_helicopter_bucket_only_if_present": true
         },
         "prerequisites": {
             "fire_stations": 2
@@ -3433,7 +3435,8 @@
             "water_needed": 8000,
             "firetrucks": 1,
             "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_tankers": 1,
+            "helicopter_bucket": 1
         },
         "chances": {
             "water_tankers": 70
@@ -3444,7 +3447,8 @@
                 "1": 137
             },
             "average_min_fire_personnel": 18,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "need_helicopter_bucket_only_if_present": true
         },
         "prerequisites": {
             "max_police_stations": 4,
@@ -3467,7 +3471,8 @@
             "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "water_tankers": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "helicopter_bucket": 1
         },
         "chances": {
             "water_tankers": 70
@@ -3478,7 +3483,8 @@
                 "1": 137
             },
             "average_min_fire_personnel": 18,
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "need_helicopter_bucket_only_if_present": true
         },
         "prerequisites": {
             "police_stations": 5,
@@ -3504,7 +3510,8 @@
             "platform_trucks": 1,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 1
+            "police_cars": 1,
+            "helicopter_bucket": 1
         },
         "chances": {
             "mobile_command_vehicles": 30,
@@ -3515,6 +3522,7 @@
             "possible_patient": 1,
             "average_min_fire_personnel": 80,
             "filter_id": "firehouse_missions",
+            "need_helicopter_bucket_only_if_present": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
@@ -3541,7 +3549,8 @@
             "platform_trucks": 1,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "helicopter_bucket": 1
         },
         "chances": {
             "mobile_command_vehicles": 30,
@@ -3552,6 +3561,7 @@
             "possible_patient": 1,
             "average_min_fire_personnel": 80,
             "filter_id": "firehouse_missions",
+            "need_helicopter_bucket_only_if_present": true,
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
