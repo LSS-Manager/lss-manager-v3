@@ -5525,5 +5525,55 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "225": {
+        "id": 225,
+        "name": "Elektrisk st\u00f8d",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "226": {
+        "id": 226,
+        "name": "Patrulje p\u00e5 g\u00e5gade",
+        "place": "Bycenter",
+        "average_credits": 1500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutter",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
