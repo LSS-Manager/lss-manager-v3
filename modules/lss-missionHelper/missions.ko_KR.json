@@ -4160,5 +4160,55 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "181": {
+        "id": 181,
+        "name": "\uac10\uc804\uc0ac",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "182": {
+        "id": 182,
+        "name": "\ub178\uc0c1 \ud310\ub9e4 \uc2dc\uc7a5 \uc21c\ucc30",
+        "place": "\ub3c4\uc2dc \uc911\uc2ec\uac00",
+        "average_credits": 1500,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30\ubd84",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

@@ -4926,7 +4926,8 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 182
+                "2": 226,
+                "3": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
@@ -6420,6 +6421,41 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "299": {
+        "id": 299,
+        "name": "Katastrofa budowlana",
+        "place": null,
+        "average_credits": 9800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/constructioncrane_gruen.png",
+            "1": "/images/constructioncrane_gelb.png",
+            "2": "/images/constructioncrane_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 3,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 6,
+            "hazmat_vehicles": 1,
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 60,
+            "helicopter": 40
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 6,
+            "fire_stations": 12
         }
     }
 }

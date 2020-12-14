@@ -4335,5 +4335,28 @@
         "prerequisites": {
             "rescue_stations": 2
         }
+    },
+    "188": {
+        "id": 188,
+        "name": "Inc\u00eandio num ve\u00edculo de mercadorias",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }

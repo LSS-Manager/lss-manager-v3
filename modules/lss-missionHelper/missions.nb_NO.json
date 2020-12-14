@@ -5278,5 +5278,55 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "221": {
+        "id": 221,
+        "name": "Elektrisk st\u00f8t",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "222": {
+        "id": 222,
+        "name": "Fotpatrulje",
+        "place": "Sentrum",
+        "average_credits": 1500,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutter",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

@@ -3864,5 +3864,55 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "170": {
+        "id": 170,
+        "name": "Electrocutare",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "171": {
+        "id": 171,
+        "name": "Patrularea pie\u021bii de strad\u0103",
+        "place": "Pia\u021ba or\u0103\u0219eneasc\u0103",
+        "average_credits": 1500,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minute",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

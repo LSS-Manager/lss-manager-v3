@@ -3052,7 +3052,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4887,6 +4889,34 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 1
+        }
+    },
+    "238": {
+        "id": 238,
+        "name": "Person fast i lekplatsst\u00e4llning",
+        "place": "Lekpark",
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/climbing_gruen.png",
+            "1": "/images/climbing_gelb.png",
+            "2": "/images/climbing_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
         }
     }
 }
