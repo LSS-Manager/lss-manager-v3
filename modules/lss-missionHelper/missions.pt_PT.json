@@ -2862,10 +2862,12 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 3
         },
         "chances": {
             "water_tankers": 10,
+            "mobile_air_vehicles": 30,
             "patient_transport": 40
         },
         "additional": {
@@ -3261,10 +3263,12 @@
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1
         },
         "chances": {
             "water_tankers": 50,
+            "mobile_air_vehicles": 50,
             "patient_transport": 60
         },
         "additional": {
@@ -4357,6 +4361,198 @@
         },
         "prerequisites": {
             "fire_stations": 6
+        }
+    },
+    "191": {
+        "id": 191,
+        "name": "Queda de ve\u00edculo numa ravina",
+        "place": null,
+        "average_credits": 5500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "fwk": 1,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
+    },
+    "192": {
+        "id": 192,
+        "name": "Queda de arquibancada do est\u00e1dio",
+        "place": "Est\u00e1dio",
+        "average_credits": 8000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 9,
+            "fwk": 2,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 3,
+            "fire_stations": 14
+        }
+    },
+    "193": {
+        "id": 193,
+        "name": "Acidente multi-vitimas",
+        "place": null,
+        "average_credits": 7000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "fwk": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 15,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "194": {
+        "id": 194,
+        "name": "Choque frontal entre ve\u00edculos pesados",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2,
+            "fire_stations": 14
+        }
+    },
+    "195": {
+        "id": 195,
+        "name": "Inc\u00eandio num bloco de apartamentos",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 3,
+            "mobile_air_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 25,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 9
+        }
+    },
+    "196": {
+        "id": 196,
+        "name": "Resgate em altura",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 5
         }
     }
 }

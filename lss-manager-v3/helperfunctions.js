@@ -118,21 +118,23 @@ else if (I18n.locale == "en_AU") {
 }
 else if (I18n.locale == "pt_PT") {
     lssm.carsById = {
-        "0": ["VRCI", 0],
+        "0": ["VFCI", 0],
         "1": ["VLCI", 0],
         "2": ["VE", 0],
         "3": ["VCOT", 0],
         "4": ["VSAT", 0],
         "5": ["ABSC", 1],
         "6": ["VTTU", 0],
-        "7": ["VPME", 0],
-        "8": ["Carro patrulha", 2],
+        "7": ["VPMA", 0],
+        "8": ["CP", 2],
         "9": ["Heli INEM", 1],
         "10": ["VCOC", 0],
         "11": ["VUCI", 0],
-        "12": ["UEP", 2],
-        "13": ["EPRI", 2]
-
+        "12": ["UEP/UI - CIEXSS", 2],
+        "13": ["EPRI", 2],
+        "14": ["VP", 0],
+        "15": ["UAAR", 0],
+        "16": ["VSAE", 0]
     };
 }
 else if (I18n.locale == "sv_SE") {
@@ -239,7 +241,9 @@ else if (I18n.locale == "nb_NO") {
         "20": ["Lett redningsbåt", 4],
         "21": ["Branntankbil", 0],
         "22": ["Utrykningspolitibil", 2],
-        "23": ["Utrykningsenhetbil", 2]
+        "23": ["Utrykningsenhetbil", 2],
+        "24": ["Legebil", 1],
+        "25": ["Innsatslederbil helse", 1]
     };
 }
 else if (I18n.locale == "pl_PL") {

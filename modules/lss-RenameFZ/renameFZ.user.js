@@ -747,7 +747,8 @@
                 15: "Vannredning",
                 18: "Brannstasjon (liten)",
                 19: "Politistasjon (liten)",
-                20: "Ambulansestasjon (liten)"
+                20: "Ambulansestasjon (liten)",
+                21: "Legevakt"
             },
             vehicleTypes: {
                 0: 'Mannskapsbil',
@@ -773,7 +774,9 @@
                 20: 'Lett redningsbåt',
                 21: 'Branntankbil',
                 22: 'Utrykningspolitibil',
-                23: 'Utrykningsenhetbil'
+                23: 'Utrykningsenhetbil',
+                24: 'Legebil',
+                25: 'Innsatslederbil helse'
             }
         }
     };
@@ -984,23 +987,27 @@
                 7: "Centro de Comando",
                 18: "Corpo de Bombeiros (Pequeno)",
                 19: "Esquadra de Polícia (Pequena)",
-                20: "Estação de Ambulâncias (Pequena)"
+                20: "Estação de Ambulâncias (Pequena)",
+                21: "Centro de Saúde"
             },
             vehicleTypes: {
-                0: 'VRCI',
+                0: 'VFCI',
                 1: 'VLCI',
                 2: 'VE',
                 3: 'VCOT',
                 4: 'VSAT',
                 5: 'ABSC',
                 6: 'VTTU',
-                7: 'VPME',
-                8: 'Carro patrulha',
+                7: 'VPMA',
+                8: 'CP',
                 9: 'Heli INEM',
                 10: 'VCOC',
                 11: 'VUCI',
-                12: 'UEP',
-                13: 'EPRI'
+                12: 'UEP/UI - CIEXSS',
+                13: 'EPRI',
+                14: 'VP',
+                15: 'UAAR',
+                16: 'VSAE'
             }
         }
     };
