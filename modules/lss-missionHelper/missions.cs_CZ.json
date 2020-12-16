@@ -141,6 +141,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
@@ -527,7 +530,8 @@
         },
         "additional": {
             "expansion_missions_ids": {
-                "0": 22
+                "0": 22,
+                "1": 210
             },
             "filter_id": "firehouse_missions"
         },
@@ -786,6 +790,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -1454,6 +1461,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -1605,6 +1615,9 @@
         },
         "chances": {},
         "additional": {
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -1632,6 +1645,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
@@ -3719,6 +3735,9 @@
         },
         "additional": {
             "possible_patient": 1,
+            "expansion_missions_ids": {
+                "0": 210
+            },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Neurologie"
         },

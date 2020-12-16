@@ -377,14 +377,14 @@
             "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 1
+            "firetrucks": 2
         },
         "chances": {},
         "additional": {
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "fire_stations": 1
+            "fire_stations": 2
         }
     },
     "16": {
@@ -627,6 +627,7 @@
                 "1": 2,
                 "2": 29
             },
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologia"
         },
@@ -702,6 +703,7 @@
             "water_tankers": 1
         },
         "chances": {
+            "heavy_rescue_vehicles": 50,
             "water_tankers": 30
         },
         "additional": {
@@ -850,7 +852,6 @@
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 3,
-            "heavy_rescue_vehicles": 2,
             "water_tankers": 1
         },
         "chances": {
@@ -1040,6 +1041,7 @@
         },
         "chances": {
             "water_tankers": 40,
+            "hazmat_vehicles": 50,
             "patient_transport": 50
         },
         "additional": {
@@ -1666,7 +1668,6 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "police_cars": 1
         },
@@ -1816,11 +1817,10 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "firetrucks": 4,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 2,
-            "police_cars": 2
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 4
         },
         "chances": {
             "patient_transport": 80
@@ -1905,8 +1905,8 @@
             "2": "/images/icy_road_rot.png"
         },
         "requirements": {
-            "firetrucks": 3,
-            "battalion_chief_vehicles": 1,
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
             "police_cars": 1
         },
         "chances": {
@@ -1914,6 +1914,7 @@
         },
         "additional": {
             "possible_patient": 2,
+            "allow_rw_instead_of_lf": true,
             "filter_id": "firehouse_missions",
             "patient_specializations": "Clinica Geral"
         },
@@ -2053,8 +2054,7 @@
         "requirements": {
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1
+            "platform_trucks": 1
         },
         "chances": {},
         "additional": {
@@ -2108,7 +2108,7 @@
         "requirements": {
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
-            "water_tankers": 1
+            "water_tankers": 2
         },
         "chances": {},
         "additional": {
@@ -2145,7 +2145,7 @@
         "id": 96,
         "name": "Descarrilamento de Comboio de Carga",
         "place": "Passagem de N\u00edvel",
-        "average_credits": 10000,
+        "average_credits": 9000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2155,7 +2155,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2
@@ -2179,7 +2178,7 @@
         "id": 97,
         "name": "Descarrilamento de Comboio de Carga",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
-        "average_credits": 10000,
+        "average_credits": 9000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2189,7 +2188,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2
@@ -2213,7 +2211,7 @@
         "id": 98,
         "name": "Descarrilamento de Comboio de Carga",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
-        "average_credits": 10000,
+        "average_credits": 9000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2223,7 +2221,6 @@
         "requirements": {
             "firetrucks": 10,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 2,
             "police_cars": 2
@@ -2553,7 +2550,7 @@
         "id": 110,
         "name": "Inc\u00eandio num aterro sanit\u00e1rio",
         "place": "Aterro Sanit\u00e1rio",
-        "average_credits": 3500,
+        "average_credits": 3000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2563,7 +2560,6 @@
         "requirements": {
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1,
             "water_tankers": 1
         },
         "chances": {
@@ -2831,8 +2827,7 @@
         "requirements": {
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "heavy_rescue_vehicles": 2,
-            "water_tankers": 1,
+            "platform_trucks": 1,
             "hazmat_vehicles": 1,
             "police_cars": 2
         },
@@ -2900,8 +2895,8 @@
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
             "platform_trucks": 2,
-            "heavy_rescue_vehicles": 2,
             "water_tankers": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 6
         },
         "chances": {
@@ -2933,7 +2928,6 @@
             "firetrucks": 10,
             "battalion_chief_vehicles": 4,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 2,
             "hazmat_vehicles": 2,
             "police_cars": 3
         },
@@ -3098,7 +3092,6 @@
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
             "water_tankers": 1
         },
         "chances": {
@@ -3263,11 +3256,10 @@
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
+            "water_tankers": 2,
             "mobile_air_vehicles": 1
         },
         "chances": {
-            "water_tankers": 50,
             "mobile_air_vehicles": 50,
             "patient_transport": 60
         },
@@ -3321,8 +3313,8 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 1,
-            "water_tankers": 1
+            "platform_trucks": 2,
+            "water_tankers": 2
         },
         "chances": {
             "patient_transport": 30
@@ -3407,7 +3399,7 @@
         "requirements": {
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
-            "heavy_rescue_vehicles": 2,
+            "heavy_rescue_vehicles": 3,
             "police_cars": 4
         },
         "chances": {
@@ -3608,7 +3600,7 @@
         "id": 152,
         "name": "Colisao Ferrovi\u00e1ria",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional)",
-        "average_credits": 12000,
+        "average_credits": 10000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/tramway_gruen.png",
@@ -3619,9 +3611,7 @@
             "firetrucks": 12,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 1,
             "hazmat_vehicles": 2,
             "police_cars": 4
         },
@@ -3743,7 +3733,6 @@
             "firetrucks": 10,
             "battalion_chief_vehicles": 4,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 2,
             "heavy_rescue_vehicles": 4,
             "water_tankers": 3,
             "hazmat_vehicles": 4,
@@ -3768,7 +3757,7 @@
         "id": 166,
         "name": "Incidente com parapente",
         "place": null,
-        "average_credits": 4000,
+        "average_credits": null,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/paragliding_gruen.png",
@@ -3776,7 +3765,6 @@
             "2": "/images/paragliding_rot.png"
         },
         "requirements": {
-            "firetrucks": 2,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2
@@ -3788,6 +3776,7 @@
         "additional": {
             "possible_patient": 2,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "patient_specializations": "Clinica Geral"
         },
         "prerequisites": {
