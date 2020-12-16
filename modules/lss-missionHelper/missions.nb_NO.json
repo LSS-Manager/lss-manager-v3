@@ -879,7 +879,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -904,7 +905,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -954,7 +956,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -1005,7 +1008,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -1066,7 +1070,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -1092,7 +1097,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -1957,7 +1963,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -1982,7 +1989,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2127,7 +2135,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2154,7 +2163,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -2248,7 +2258,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 100
+            "helicopter": 100,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2274,7 +2285,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 90
+            "helicopter": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2300,7 +2312,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3959,7 +3972,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -3992,7 +4006,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -4701,7 +4716,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -5327,6 +5343,85 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "223": {
+        "id": 223,
+        "name": "Diabetes",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "224": {
+        "id": 224,
+        "name": "Dyreangrep",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Politistasjon",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traume"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "225": {
+        "id": 225,
+        "name": "F\u00f8dsel",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Gynekologisk"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

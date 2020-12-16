@@ -76,7 +76,7 @@
         "firetrucks": "Veículos de Combate a Incêndios",
         "platform_trucks": "Veículos Escada",
         "heavy_rescue_vehicles": "Veículos de Desencarceramento",
-        "mobile_air_vehicles": "Veículos aéreos móveis",
+        "mobile_air_vehicles": "Unidade Autónoma de Ar Respirável",
         "battalion_chief_vehicles": "Veículos de Comando",
         "mobile_command_vehicles": "Veículo de Comando e Comunicações",
         "water_tankers": "Veículos Tanque",
@@ -85,6 +85,7 @@
         "fbi_bomb": "Carrinhas de Inativação de Explosivos e Segurança em Subsolo",
         "helicopter": "Heli INEM",
         "arff": "Defesa Civil",
+        "fwk": "Veículo de Socorro e Assistência Especial",
         "police_helicopters": "Police Helicopter",
         "ambulances": "Ambulancia",
         "allow_rw_instead_of_lf": "Veículos de Combate a Incêndios ou Veículos de Desencarceramento ou Veículo Urbano de Combate a Incêndios"
