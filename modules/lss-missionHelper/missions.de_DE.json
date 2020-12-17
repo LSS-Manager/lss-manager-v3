@@ -11230,6 +11230,40 @@
             "rescue_stations": 3
         }
     },
+    "428": {
+        "id": 428,
+        "name": "Schneelast auf Dach",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Feuerwache",
+        "icons": {
+            "0": "/images/snowy_gruen.png",
+            "1": "/images/snowy_gelb.png",
+            "2": "/images/snowy_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "height_rescue_units": 1,
+            "police_cars": 1
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "heavy_rescue_vehicles": 20,
+            "height_rescue_units": 5
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dienstag, 01. Dezember 2020, 10:00 Uhr",
+            "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 3
+        }
+    },
     "429": {
         "id": 429,
         "name": "Staubexplosion",
