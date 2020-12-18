@@ -4943,7 +4943,7 @@
     "225": {
         "id": 225,
         "name": "Malaise sur un ascenseur",
-        "place": "Tour",
+        "place": "Gratte-ciel",
         "average_credits": 1830,
         "generated_by": "Centre de secours",
         "icons": {
@@ -5168,7 +5168,7 @@
     },
     "242": {
         "id": 242,
-        "name": "Feu de centre commercial",
+        "name": "Feu d'ERP - Centre commercial",
         "place": "Centre commercial",
         "average_credits": 7000,
         "generated_by": "Centre de secours",
