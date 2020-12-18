@@ -16193,7 +16193,8 @@
             "heavy_rescue_vehicles": 1,
             "mobile_air_vehicles": 1,
             "gwmess": 1,
-            "police_cars": 14
+            "police_cars": 14,
+            "hazmat_dekon": 1
         },
         "chances": {
             "mobile_command_vehicles": 50,
