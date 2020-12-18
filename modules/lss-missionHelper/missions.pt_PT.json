@@ -809,34 +809,6 @@
             "fire_stations": 6
         }
     },
-    "33": {
-        "id": 33,
-        "name": "Inc\u00eandio num Supermercado",
-        "place": "Supermercado",
-        "average_credits": 1500,
-        "generated_by": "Corpo de Bombeiros",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 1
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 2,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "Clinica Geral"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 5
-        }
-    },
     "34": {
         "id": 34,
         "name": "Inc\u00eandio no hospital",
@@ -1055,58 +1027,6 @@
             "fire_stations": 14
         }
     },
-    "42": {
-        "id": 42,
-        "name": "Pessoa ca\u00edda no solo",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_allow_first_responder_chance": 50,
-            "patient_specializations": "Traumatologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "43": {
-        "id": 43,
-        "name": "Pessoa ca\u00edda no solo",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_allow_first_responder_chance": 50,
-            "patient_specializations": "Traumatologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
     "44": {
         "id": 44,
         "name": "Furto numa loja",
@@ -1155,28 +1075,6 @@
     },
     "46": {
         "id": 46,
-        "name": "Acidente com carro estacionado",
-        "place": null,
-        "average_credits": 120,
-        "generated_by": "Esquadra de Pol\u00edcia",
-        "icons": {
-            "0": "/images/caraccident_gruen.png",
-            "1": "/images/caraccident_gelb.png",
-            "2": "/images/caraccident_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "47": {
-        "id": 47,
         "name": "Acidente com carro estacionado",
         "place": null,
         "average_credits": 120,
@@ -1248,28 +1146,6 @@
         "name": "Furto por Carteirista",
         "place": null,
         "average_credits": 120,
-        "generated_by": "Esquadra de Pol\u00edcia",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "51": {
-        "id": 51,
-        "name": "Furto por Carteirista",
-        "place": null,
-        "average_credits": 140,
         "generated_by": "Esquadra de Pol\u00edcia",
         "icons": {
             "0": "/images/theft_gruen.png",
@@ -1576,116 +1452,6 @@
             "fire_stations": 3
         }
     },
-    "65": {
-        "id": 65,
-        "name": "Inc\u00eandio numa cozinha",
-        "place": null,
-        "average_credits": 1000,
-        "generated_by": "Corpo de Bombeiros",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "firehouse_missions"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "66": {
-        "id": 66,
-        "name": "Inc\u00eandio num quarto",
-        "place": null,
-        "average_credits": 1400,
-        "generated_by": "Corpo de Bombeiros",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 2,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "platform_trucks": 30,
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "Clinica Geral"
-        },
-        "prerequisites": {
-            "fire_stations": 2
-        }
-    },
-    "67": {
-        "id": 67,
-        "name": "Agress\u00f5es m\u00fatuas",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Esquadra de Pol\u00edcia",
-        "icons": {
-            "0": "/images/baseball_gruen.png",
-            "1": "/images/baseball_gelb.png",
-            "2": "/images/baseball_rot.png"
-        },
-        "requirements": {
-            "police_cars": 3
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 3,
-            "max_possible_prisoners": 2,
-            "filter_id": "police_station_missions",
-            "patient_specializations": "Traumatologia"
-        },
-        "prerequisites": {
-            "police_stations": 3
-        }
-    },
-    "68": {
-        "id": 68,
-        "name": "Inc\u00eandio num Hipermercado",
-        "place": "Hipermercado",
-        "average_credits": 3000,
-        "generated_by": "Corpo de Bombeiros",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "water_tankers": 1,
-            "police_cars": 1
-        },
-        "chances": {
-            "water_tankers": 20,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 6,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "Clinica Geral"
-        },
-        "prerequisites": {
-            "rescue_stations": 3,
-            "police_stations": 2,
-            "fire_stations": 8
-        }
-    },
     "69": {
         "id": 69,
         "name": "Derrame de Combust\u00edvel",
@@ -1728,7 +1494,6 @@
             "firetrucks": 6,
             "battalion_chief_vehicles": 2,
             "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "police_cars": 1
         },
@@ -1873,9 +1638,9 @@
             "2": "/images/caraccident_rot.png"
         },
         "requirements": {
-            "firetrucks": 3,
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
-            "heavy_rescue_vehicles": 1,
+            "heavy_rescue_vehicles": 3,
             "police_cars": 2
         },
         "chances": {
@@ -2827,7 +2592,6 @@
         "requirements": {
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
             "hazmat_vehicles": 1,
             "police_cars": 2
         },
@@ -2854,8 +2618,7 @@
         "requirements": {
             "firetrucks": 8,
             "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
+            "platform_trucks": 2,
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "police_cars": 3
@@ -3633,7 +3396,7 @@
         "id": 153,
         "name": "Colisao Ferrovi\u00e1ria",
         "place": "Esta\u00e7\u00e3o de Comboios (tr\u00e1fego regional e viagem de longa dist\u00e2ncia)",
-        "average_credits": 12000,
+        "average_credits": 10000,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/tramway_gruen.png",
@@ -3644,9 +3407,7 @@
             "firetrucks": 12,
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
-            "platform_trucks": 4,
             "heavy_rescue_vehicles": 4,
-            "water_tankers": 1,
             "hazmat_vehicles": 2,
             "police_cars": 4
         },
