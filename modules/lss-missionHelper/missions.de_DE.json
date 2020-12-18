@@ -16245,6 +16245,7 @@
         "additional": {
             "possible_patient": 1,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
             "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
             "patient_specializations": "Unfallchirurgie"
@@ -16279,6 +16280,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
             "date_start": "Freitag, 18. Dezember 2020, 10:00 Uhr",
             "date_end": "Samstag, 26. Dezember 2020, 23:59 Uhr",
             "patient_specializations": "Unfallchirurgie"

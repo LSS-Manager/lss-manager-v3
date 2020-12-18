@@ -3074,9 +3074,9 @@
     },
     "115": {
         "id": 115,
-        "name": "Deragliamento treno",
+        "name": "Deragliamento treno (MEDIO)",
         "place": "Stazione ferroviaria (traffico regionale e viaggi a lunga distanza)",
-        "average_credits": 12000,
+        "average_credits": 14000,
         "generated_by": "Caserma dei vigili del fuoco",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3097,7 +3097,7 @@
             "helicopter": 5
         },
         "additional": {
-            "possible_patient": 50,
+            "possible_patient": 80,
             "possible_patient_min": 20,
             "average_min_fire_personnel": 40,
             "patient_it_code_possible": {
@@ -6249,7 +6249,7 @@
         "id": 222,
         "name": "Chiusura uscita autostradale",
         "place": "Uscita autostradale",
-        "average_credits": 1500,
+        "average_credits": 2500,
         "generated_by": "Stazione di polizia",
         "icons": {
             "0": "/images/clock_gruen.png",
@@ -6340,9 +6340,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
