@@ -14486,5 +14486,74 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "495": {
+        "id": 495,
+        "name": "Counterfeit Goods raid",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
+    },
+    "496": {
+        "id": 496,
+        "name": "Debris on runway",
+        "place": "Small Airport (Runway)",
+        "average_credits": 350,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "497": {
+        "id": 497,
+        "name": "Debris on runway",
+        "place": "Large Airport (Runway)",
+        "average_credits": 350,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
     }
 }

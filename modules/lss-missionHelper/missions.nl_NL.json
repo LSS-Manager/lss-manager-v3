@@ -18187,5 +18187,93 @@
             "rescue_stations": 1,
             "police_stations": 1
         }
+    },
+    "683": {
+        "id": 683,
+        "name": "Geweld tegen hulpverleners",
+        "place": null,
+        "average_credits": 670,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 684,
+                "1": 685
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "684": {
+        "id": 684,
+        "name": "Geweld tegen hulpverleners",
+        "place": null,
+        "average_credits": 1510,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 685
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "riot_police_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "bereitschaftspolizei": 1
+        }
+    },
+    "685": {
+        "id": 685,
+        "name": "Geweld tegen hulpverleners",
+        "place": null,
+        "average_credits": 3150,
+        "generated_by": "Politie, Hoofdbureau",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "hondengeleider": 2,
+            "police_cars": 6,
+            "ovdp": 1
+        },
+        "chances": {
+            "ovdp": 10,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 3,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Algemene Heelkunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 7,
+            "bereitschaftspolizei": 2
+        }
     }
 }

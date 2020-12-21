@@ -6340,7 +6340,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -7781,6 +7783,55 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 2
+        }
+    },
+    "296": {
+        "id": 296,
+        "name": "Allagamento (GRANDE)",
+        "place": null,
+        "average_credits": 8500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 7,
+            "fwk": 1,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 8,
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {
+            "patient_transport": 25
+        },
+        "additional": {
+            "possible_patient": 25,
+            "possible_patient_min": 10,
+            "average_min_fire_personnel": 40,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G",
+                "2": "ZC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 12
         }
     }
 }
