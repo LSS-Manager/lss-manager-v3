@@ -6457,5 +6457,29 @@
             "police_stations": 6,
             "fire_stations": 12
         }
+    },
+    "300": {
+        "id": 300,
+        "name": "Drzewo powalone na samoch\u00f3d",
+        "place": null,
+        "average_credits": 850,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/sawmill_gruen.png",
+            "1": "/images/sawmill_gelb.png",
+            "2": "/images/sawmill_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
     }
 }
