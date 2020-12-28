@@ -4125,5 +4125,619 @@
             "police_stations": 1,
             "fire_stations": 5
         }
+    },
+    "197": {
+        "id": 197,
+        "name": "Inc\u00eandio num ve\u00edculo causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "198": {
+        "id": 198,
+        "name": "Inc\u00eandio em residuos volumosos cusado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Pequeno inc\u00eandio rural causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "200": {
+        "id": 200,
+        "name": "Inc\u00eandio numa cave causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "201": {
+        "id": 201,
+        "name": "Inc\u00eandio numa paragem de autocarro causado por fogo-de-artif\u00edcio",
+        "place": "Paragem de Autocarro",
+        "average_credits": 900,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "202": {
+        "id": 202,
+        "name": "Inc\u00eandio numa varanda causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "203": {
+        "id": 203,
+        "name": "Inc\u00eandio em contentores de papel causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "204": {
+        "id": 204,
+        "name": "Cerca incendiada por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "205": {
+        "id": 205,
+        "name": "Condutor b\u00eabado ap\u00f3s a festa de passagem de ano",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "206": {
+        "id": 206,
+        "name": "Inc\u00eandio no telhado de palha causado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 4200,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "207": {
+        "id": 207,
+        "name": "Ve\u00edculo danificado por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "208": {
+        "id": 208,
+        "name": "Viola\u00e7\u00e3o da Lei dos Explosivos",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "209": {
+        "id": 209,
+        "name": "Ferimentos na m\u00e3o causados por fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "Animal em p\u00e2nico por causa do fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "211": {
+        "id": 211,
+        "name": "Les\u00e3o na prepara\u00e7\u00e3o de fogo-de-artificio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "212": {
+        "id": 212,
+        "name": "Les\u00e3o por uso indevido de fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "213": {
+        "id": 213,
+        "name": "Ferido ap\u00f3s explosao de fogo-de-artificio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "Apreens\u00e3o causada pela observa\u00e7\u00e3o de fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Esta\u00e7\u00e3o de Ambul\u00e2ncias",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "Vigil\u00e2ncia da festa de Passagem do Ano na cidade",
+        "place": "Mercado Ambulante",
+        "average_credits": 15000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hora 30 minutos",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        }
+    },
+    "216": {
+        "id": 216,
+        "name": "Utiliza\u00e7\u00e3o ilegal de fogo-de-artif\u00edcio",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "217": {
+        "id": 217,
+        "name": "Utiliza\u00e7\u00e3o de fogo-de-artif\u00edcio perto da estrada",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 218
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "218": {
+        "id": 218,
+        "name": "Acidente de via\u00e7\u00e3o devido ao uso de fogo-de-artif\u00edcio perto da estrada",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000",
+            "patient_specializations": "Traumatologia"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        }
+    },
+    "219": {
+        "id": 219,
+        "name": "Fogo-de-artif\u00edcio sabotado",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dom, 27 Dez 2020 23:59:00 +0000",
+            "date_end": "Sex, 01 Jan 2021 23:59:00 +0000"
+        },
+        "prerequisites": {
+            "police_stations": 4
+        }
     }
 }

@@ -1889,6 +1889,342 @@
             "fire_stations": 3
         }
     },
+    "85": {
+        "id": 85,
+        "name": "Feu de voiture caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "86": {
+        "id": 86,
+        "name": "Feu d'encombrants caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "87": {
+        "id": 87,
+        "name": "Petit feu de champ caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "88": {
+        "id": 88,
+        "name": "Sous-sol en feu caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Abribus en feu caus\u00e9 par des feux d'artifice",
+        "place": "Arr\u00eat de bus",
+        "average_credits": 900,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Feu de balcon caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Feu de container papier caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Feu de haie caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Conduite en \u00e9tat d'ivresse apr\u00e8s le R\u00e9veillon",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "Feu de chaumi\u00e8re caus\u00e9 par des feux d'artifice",
+        "place": null,
+        "average_credits": 4200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "Voiture endommag\u00e9e par des feux d'artifice",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "Infraction au d\u00e9cret n\u00b0\u00a090-897 sur les artifices de divertissement",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "Blessure \u00e0 la main caus\u00e9e par des feux d'artifice",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
     "98": {
         "id": 98,
         "name": "B\u00e2chage",
@@ -5433,6 +5769,284 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
+        }
+    },
+    "278": {
+        "id": 278,
+        "name": "Animal paniqu\u00e9 par les feux d'artifice",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "279": {
+        "id": 279,
+        "name": "Blessure suite \u00e0 un artifice non d\u00e9clench\u00e9",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "280": {
+        "id": 280,
+        "name": "Blessure due \u00e0 l'utilisation inappropri\u00e9e de feux d'artifice",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "281": {
+        "id": 281,
+        "name": "Personne touch\u00e9e par un feu d'artifice",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "282": {
+        "id": 282,
+        "name": "Saisie de feux d'artifice",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Poste Ambulancier",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "283": {
+        "id": 283,
+        "name": "Surveillance des festivit\u00e9s Nouvel An dans le centre-ville",
+        "place": "Centre-ville",
+        "average_credits": 15000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1\u00a0heure 30\u00a0minutes",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        }
+    },
+    "284": {
+        "id": 284,
+        "name": "Usage ill\u00e9gal de feux d'artifices",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "285": {
+        "id": 285,
+        "name": "Usage de feux d'artifices \u00e0 proximit\u00e9 de la route",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 286
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "286": {
+        "id": 286,
+        "name": "AVP caus\u00e9 par l'utilisation de feux d'artifices pr\u00e8s de la route",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        }
+    },
+    "287": {
+        "id": 287,
+        "name": "Feu d'artifice sabot\u00e9",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Poste de police",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Dim., 27 D\u00e9c. 2020 23:59:00 +0100",
+            "date_end": "Ven., 01 Janv. 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     }
 }
