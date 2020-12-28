@@ -2025,6 +2025,342 @@
             "fire_stations": 3
         }
     },
+    "88": {
+        "id": 88,
+        "name": "Bilbrand orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "89": {
+        "id": 89,
+        "name": "Grovavfallsbrand orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "90": {
+        "id": 90,
+        "name": "Liten f\u00e4ltbrand orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "91": {
+        "id": 91,
+        "name": "Brand i k\u00e4llare orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "92": {
+        "id": 92,
+        "name": "Bussh\u00e5llplatsbrand orsakad av fyrverkerier",
+        "place": "Bussh\u00e5llplats",
+        "average_credits": 900,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "93": {
+        "id": 93,
+        "name": "Balkongbrand orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "94": {
+        "id": 94,
+        "name": "Br\u00e4nder i papperscontainrar orsakade av fyrverkerier",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "95": {
+        "id": 95,
+        "name": "Buskbrand orsakad av sm\u00e4llare",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "96": {
+        "id": 96,
+        "name": "Alkoholp\u00e5verkad f\u00f6rare efter ny\u00e5rsfest",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "97": {
+        "id": 97,
+        "name": "Brand i str\u00e5takshus orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": 4200,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Inv\u00e4rtesmedicinare"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "98": {
+        "id": 98,
+        "name": "Bil skadad av fyrverkerier",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "99": {
+        "id": 99,
+        "name": "Brott mot f\u00f6rordningen om explosiva varor",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Handskada orsakad av fyrverkerier",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
     "101": {
         "id": 101,
         "name": "Brand ute - fordon, lastfordon",
@@ -4757,6 +5093,284 @@
         "prerequisites": {
             "rescue_stations": 1,
             "police_stations": 1
+        }
+    },
+    "244": {
+        "id": 244,
+        "name": "Panikslaget djur orsakat av fyrverkerier",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "245": {
+        "id": 245,
+        "name": "Personskada orsakad av skadad fyrverkeripj\u00e4s",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "246": {
+        "id": 246,
+        "name": "Personskada orsakad av felaktig fyrverkeripj\u00e4s",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "247": {
+        "id": 247,
+        "name": "Personskada orsakad av fyrverkeripj\u00e4s",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "248": {
+        "id": 248,
+        "name": "Anfall orsakad av fyrverkeri-tittande",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansstation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "249": {
+        "id": 249,
+        "name": "Kommendering - ny\u00e5rsfirande i centrum",
+        "place": "Centrum",
+        "average_credits": 15000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 timme 30 minuter",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        }
+    },
+    "250": {
+        "id": 250,
+        "name": "Anv\u00e4ndande av illegala fyrverkeripj\u00e4ser",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "251": {
+        "id": 251,
+        "name": "Anv\u00e4ndande av fyrverkeripj\u00e4s n\u00e4ra v\u00e4g",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 252
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "252": {
+        "id": 252,
+        "name": "Trafikolycka orsakad av fyrverkeripj\u00e4ser n\u00e4r v\u00e4g",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        }
+    },
+    "253": {
+        "id": 253,
+        "name": "Saboterad fyrverkeripj\u00e4s",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "s\u00f6n, 27 dec 2020 23.59.00 +0100",
+            "date_end": "fre, 01 jan 2021 23.59.00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     }
 }

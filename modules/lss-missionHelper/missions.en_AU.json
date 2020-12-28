@@ -2087,6 +2087,342 @@
             "fire_stations": 3
         }
     },
+    "99": {
+        "id": 99,
+        "name": "Car ignited by fireworks",
+        "place": null,
+        "average_credits": 370,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "100": {
+        "id": 100,
+        "name": "Bulky waste ignited by fireworks",
+        "place": null,
+        "average_credits": 220,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "101": {
+        "id": 101,
+        "name": "Small field fire caused by fireworks",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "102": {
+        "id": 102,
+        "name": "Basement fire caused by fireworks",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "103": {
+        "id": 103,
+        "name": "Burning Bus shelter ignited by fireworks",
+        "place": "Bus stop",
+        "average_credits": 900,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "104": {
+        "id": 104,
+        "name": "Fire on balcony caused by fireworks",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 30
+        },
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "105": {
+        "id": 105,
+        "name": "Burning paper containers ignited by fireworks",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "106": {
+        "id": 106,
+        "name": "Burning hedge ignited by firecracker",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "107": {
+        "id": 107,
+        "name": "Drunk driver after New Year's Eve party",
+        "place": null,
+        "average_credits": 150,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "108": {
+        "id": 108,
+        "name": "Burning thatched roof house ignited by fireworks",
+        "place": null,
+        "average_credits": 4200,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "mobile_air_vehicles": 30,
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 7
+        }
+    },
+    "109": {
+        "id": 109,
+        "name": "Car damaged by fireworks",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "110": {
+        "id": 110,
+        "name": "Violation of Explosives Act (1999)",
+        "place": null,
+        "average_credits": 200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/blast_gruen.png",
+            "1": "/images/blast_gelb.png",
+            "2": "/images/blast_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "111": {
+        "id": 111,
+        "name": "Hand injury caused by fireworks",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
     "112": {
         "id": 112,
         "name": "Road Train Fire",
@@ -5230,6 +5566,284 @@
         "prerequisites": {
             "rescue_stations": 5,
             "fire_stations": 6
+        }
+    },
+    "254": {
+        "id": 254,
+        "name": "Panicking animal caused by fireworks",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "Injury through exploding non-starter",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "256": {
+        "id": 256,
+        "name": "Injury from improper use of fireworks",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Person hit by firework",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "258": {
+        "id": 258,
+        "name": "Seizure caused by watching firework",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "Guarding inner-city New Year's Eve party",
+        "place": "City Centre",
+        "average_credits": 15000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour 30 minutes",
+            "duration": 5400,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 4
+        }
+    },
+    "260": {
+        "id": 260,
+        "name": "Usage of illegal firework",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2
+        }
+    },
+    "261": {
+        "id": 261,
+        "name": "Usage of fireworks near road",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/icy_road_gruen.png",
+            "1": "/images/icy_road_gelb.png",
+            "2": "/images/icy_road_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 262
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "262": {
+        "id": 262,
+        "name": "Car crash caused by firework-usage near road",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT",
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 2
+        }
+    },
+    "263": {
+        "id": 263,
+        "name": "Sabotaged firework",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Sun, 27 Dec 2020 23:59:00 AEDT",
+            "date_end": "Fri, 01 Jan 2021 23:59:00 AEDT"
+        },
+        "prerequisites": {
+            "police_stations": 4
         }
     }
 }
