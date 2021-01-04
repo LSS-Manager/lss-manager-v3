@@ -3518,7 +3518,7 @@
         "id": 166,
         "name": "Incidente com parapente",
         "place": null,
-        "average_credits": null,
+        "average_credits": 1200,
         "generated_by": "Corpo de Bombeiros",
         "icons": {
             "0": "/images/paragliding_gruen.png",
@@ -3526,6 +3526,7 @@
             "2": "/images/paragliding_rot.png"
         },
         "requirements": {
+            "firetrucks": 1,
             "battalion_chief_vehicles": 1,
             "platform_trucks": 2,
             "heavy_rescue_vehicles": 2
