@@ -2866,9 +2866,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4758,6 +4756,94 @@
         },
         "prerequisites": {
             "rescue_stations": 1,
+            "police_stations": 1
+        }
+    },
+    "240": {
+        "id": 240,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "Bussh\u00e5llplats",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "241": {
+        "id": 241,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "Sp\u00e5rvagnsh\u00e5llplats",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "242": {
+        "id": 242,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "T\u00e5gstation (regionalt\u00e5g)",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "243": {
+        "id": 243,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "T\u00e5gstation (regional- och fj\u00e4rrt\u00e5g)",
+        "average_credits": 150,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
             "police_stations": 1
         }
     }
