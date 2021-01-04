@@ -3934,6 +3934,43 @@
             "fire_stations": 13
         }
     },
+    "190": {
+        "id": 190,
+        "name": "Inc\u00eandio num Restaurante",
+        "place": "Restaurante",
+        "average_credits": 5000,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "platform_trucks": 50,
+            "water_tankers": 20,
+            "mobile_air_vehicles": 20,
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 1,
+            "fire_stations": 10
+        }
+    },
     "191": {
         "id": 191,
         "name": "Queda de ve\u00edculo numa ravina",
