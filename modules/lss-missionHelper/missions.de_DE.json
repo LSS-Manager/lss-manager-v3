@@ -3668,9 +3668,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -15788,6 +15787,73 @@
         },
         "prerequisites": {
             "rescue_stations": 2
+        }
+    },
+    "592": {
+        "id": 592,
+        "name": "Unangemeldete Demonstration (Gro\u00df)",
+        "place": null,
+        "average_credits": 15000,
+        "generated_by": "Bereitschaftspolizei",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "lebefkw": 4,
+            "gefkw": 1,
+            "police_helicopters": 1,
+            "police_cars": 10,
+            "grukw": 9,
+            "fukw": 1,
+            "wasserwerfer": 3
+        },
+        "chances": {
+            "nef": 30,
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "filter_id": "riot_police_missions",
+            "patient_specializations": "Allgemeine Innere"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 7,
+            "police_helicopter_stations": 1,
+            "bereitschaftspolizei": 1
+        }
+    },
+    "593": {
+        "id": 593,
+        "name": "Beseitigung kontaminierter Erde",
+        "place": null,
+        "average_credits": 1000,
+        "generated_by": "THW",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "thw_gkw": 1,
+            "thw_mtwtz": 1,
+            "thw_brmg_r": 1,
+            "thw_lkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "technical_aid_organization_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "thw": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1
         }
     }
 }
