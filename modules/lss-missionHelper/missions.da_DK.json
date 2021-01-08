@@ -5419,5 +5419,459 @@
             "rescue_stations": 1,
             "fire_stations": 4
         }
+    },
+    "252": {
+        "id": 252,
+        "name": "Uheld ved bagning af jubil\u00e6umskage",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 1
+        }
+    },
+    "253": {
+        "id": 253,
+        "name": "En g\u00e6sts jubil\u00e6umsballon sidder fast i et tr\u00e6",
+        "place": null,
+        "average_credits": 600,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "254": {
+        "id": 254,
+        "name": "Brand for\u00e5rsaget af elektriske dele ved jubilumsfest (lille)",
+        "place": null,
+        "average_credits": 1850,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "Brand for\u00e5rsaget af elektriske dele ved jubilumsfest (stor)",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "256": {
+        "id": 256,
+        "name": "Jubil\u00e6umsgave stj\u00e5let",
+        "place": null,
+        "average_credits": 400,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Sabotage ved jubil\u00e6ums-jukeboksen",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "258": {
+        "id": 258,
+        "name": "Jubil\u00e6umsg\u00e6st forsvundet",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/dancinghall_gruen.png",
+            "1": "/images/dancinghall_gelb.png",
+            "2": "/images/dancinghall_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "Jubil\u00e6umsg\u00e6ster stjal dekoration",
+        "place": null,
+        "average_credits": 3000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 3,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "260": {
+        "id": 260,
+        "name": "Jubil\u00e6umsg\u00e6ster stjal kage",
+        "place": null,
+        "average_credits": 5000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 4,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 6
+        }
+    },
+    "261": {
+        "id": 261,
+        "name": "G\u00e6st spiste for meget jubi\u00e6umskage",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "262": {
+        "id": 262,
+        "name": "Papirskade fra \u00e5bning af jubil\u00e6umsgaver",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "263": {
+        "id": 263,
+        "name": "Jubil\u00e6umsfestg\u00e6st med ledsmerter efter dans",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 7
+        }
+    },
+    "264": {
+        "id": 264,
+        "name": "Jubil\u00e6umsfestg\u00e6st ramt af korkprop",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "265": {
+        "id": 265,
+        "name": "Jubil\u00e6umsfestg\u00e6st bevidstl\u00f8s",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Hjertekirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "266": {
+        "id": 266,
+        "name": "Der mangler folk p\u00e5 dansegulvet",
+        "place": null,
+        "average_credits": 7500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "20 minutter",
+            "duration": 1200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "267": {
+        "id": 267,
+        "name": "Pust balloner op til jubil\u00e6umsfest",
+        "place": null,
+        "average_credits": 15000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 2,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "10 minutter",
+            "duration": 600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "268": {
+        "id": 268,
+        "name": "G\u00e6st drak forgiftede drinks til jubil\u00e6umsfesten",
+        "place": null,
+        "average_credits": 1200,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/bar_coktail_gruen.png",
+            "1": "/images/bar_coktail_gelb.png",
+            "2": "/images/bar_coktail_rot.png"
+        },
+        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 18,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "date_start": "Tor, 07 Jan 2021 11:00:00 +0100",
+            "date_end": "S\u00f8n, 10 Jan 2021 23:59:00 +0100",
+            "patient_specializations": "Kirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 3,
+            "fire_stations": 6
+        }
     }
 }

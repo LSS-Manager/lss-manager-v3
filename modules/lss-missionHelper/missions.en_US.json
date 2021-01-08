@@ -14341,8 +14341,7 @@
             "2": "/images/planecrash_rot.png"
         },
         "requirements": {
-            "firetrucks": 1,
-            "police_cars": 1
+            "firetrucks": 1
         },
         "chances": {},
         "additional": {
