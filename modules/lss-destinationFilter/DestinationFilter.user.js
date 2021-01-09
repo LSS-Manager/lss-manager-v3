@@ -110,9 +110,9 @@
     };
     I18n.translations.nb_NO.lssm.destfilter = {
         title: 'Destinasjonsfilter',
-        freeBeds: 'Free beds',
-        tax: 'TAX',
-        cellTax: 'owner\'s tax',
+        freeBeds: 'Ledige sengeposter',
+        tax: 'SKATT',
+        cellTax: 'eierskatt',
         settings: {
             beds: 'Skjul hele sykehus',
             beds1: 'Blind sykehus under x senger av',
