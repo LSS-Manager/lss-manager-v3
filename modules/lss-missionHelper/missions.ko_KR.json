@@ -4054,5 +4054,31 @@
             "rescue_stations": 4,
             "fire_stations": 8
         }
+    },
+    "208": {
+        "id": 208,
+        "name": "\uc0b0\uc545 \ub3c4\ub85c\uc5d0\uc11c \uc790\uc804\uac70 \ucd94\ub77d",
+        "place": "\uc5b8\ub355",
+        "average_credits": null,
+        "generated_by": "\uc751\uae09\uc2e4",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 20
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "\uc77c\ubc18 \uc678\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

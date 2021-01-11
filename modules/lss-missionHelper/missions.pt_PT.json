@@ -4163,5 +4163,61 @@
             "police_stations": 1,
             "fire_stations": 5
         }
+    },
+    "220": {
+        "id": 220,
+        "name": "Inc\u00eandio Rural",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 221
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "221": {
+        "id": 221,
+        "name": "Grande Inc\u00eandio Rural",
+        "place": null,
+        "average_credits": 8500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 12,
+            "battalion_chief_vehicles": 4,
+            "mobile_command_vehicles": 1,
+            "water_tankers": 3,
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 12
+        }
     }
 }
