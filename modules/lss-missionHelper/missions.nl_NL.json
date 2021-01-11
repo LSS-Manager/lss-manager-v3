@@ -17731,5 +17731,55 @@
             "police_stations": 2,
             "fire_stations": 14
         }
+    },
+    "703": {
+        "id": 703,
+        "name": "Plotselinge verlammingsverschijnselen",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "704": {
+        "id": 704,
+        "name": "Acute bewustzijnsdaling",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

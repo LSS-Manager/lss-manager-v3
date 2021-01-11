@@ -4739,5 +4739,30 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "235": {
+        "id": 235,
+        "name": "Poran\u011bn\u00ed elektrick\u00fdm proudem",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
     }
 }

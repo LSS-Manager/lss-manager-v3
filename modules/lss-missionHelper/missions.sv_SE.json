@@ -4846,5 +4846,54 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "254": {
+        "id": 254,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "Bro",
+        "average_credits": 350,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "255": {
+        "id": 255,
+        "name": "V\u00e5ld i hemmet",
+        "place": null,
+        "average_credits": 1250,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/baseball_gruen.png",
+            "1": "/images/baseball_gelb.png",
+            "2": "/images/baseball_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 1,
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

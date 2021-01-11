@@ -5918,5 +5918,36 @@
         "prerequisites": {
             "fire_stations": 13
         }
+    },
+    "266": {
+        "id": 266,
+        "name": "Motorcross Accident",
+        "place": "Dirt Race Track",
+        "average_credits": null,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 5,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_uk_code_possible": {
+                "0": "C-2",
+                "1": "C-1"
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
     }
 }
