@@ -5265,30 +5265,29 @@
             "rescue_stations": 1
         }
     },
-    "269": {
-        "id": 269,
-        "name": "Syklist falt p\u00e5 sti",
-        "place": "Bratt skr\u00e5ning",
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
+    "270": {
+        "id": 270,
+        "name": "Nedfall fra tunneltak",
+        "place": "Tunnel",
+        "average_credits": 2800,
+        "generated_by": "Brannstasjon",
         "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
         },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 100,
-            "helicopter": 20
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 3
         },
+        "chances": {},
         "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Generell kirurgi"
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
-            "rescue_stations": 1
+            "police_stations": 3,
+            "fire_stations": 4
         }
     }
 }
