@@ -3668,8 +3668,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -4358,7 +4359,10 @@
         },
         "prerequisites": {
             "police_stations": 2,
-            "thw": 1
+            "thw": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1
         }
     },
     "175": {
@@ -4384,7 +4388,10 @@
         },
         "prerequisites": {
             "max_police_stations": 1,
-            "thw": 1
+            "thw": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1
         }
     },
     "176": {
@@ -4420,6 +4427,9 @@
         },
         "prerequisites": {
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -4464,6 +4474,10 @@
             "rescue_stations": 4,
             "police_stations": 2,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 7
         }
     },
@@ -4509,6 +4523,8 @@
             "rescue_stations": 1,
             "police_stations": 2,
             "thw": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 11
         }
     },
@@ -4666,6 +4682,9 @@
             "rescue_stations": 9,
             "police_stations": 9,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 18
         }
     },
@@ -5202,6 +5221,9 @@
             "rescue_stations": 3,
             "police_stations": 5,
             "thw": 3,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 30
         }
     },
@@ -5242,7 +5264,11 @@
             "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2
+        }
     },
     "208": {
         "id": 208,
@@ -5442,6 +5468,10 @@
             "rescue_stations": 9,
             "police_stations": 5,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 25
         }
     },
@@ -5558,7 +5588,12 @@
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 1
+        }
     },
     "222": {
         "id": 222,
@@ -5597,7 +5632,10 @@
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1
+        }
     },
     "223": {
         "id": 223,
@@ -6741,6 +6779,7 @@
         "prerequisites": {
             "police_stations": 3,
             "thw": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 12
         }
     },
@@ -6957,6 +6996,9 @@
         "prerequisites": {
             "police_stations": 2,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -6998,6 +7040,9 @@
         "prerequisites": {
             "police_stations": 2,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -7421,15 +7466,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -8083,6 +8129,10 @@
             "rescue_stations": 10,
             "police_stations": 6,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 30
         }
     },
@@ -8215,6 +8265,10 @@
             "rescue_stations": 8,
             "police_stations": 5,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 25
         }
     },
@@ -8823,6 +8877,9 @@
             "police_stations": 2,
             "bereitschaftspolizei": 1,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 3
         }
     },
@@ -8908,6 +8965,10 @@
             "rescue_stations": 5,
             "police_stations": 5,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 25
         }
     },
@@ -8995,7 +9056,12 @@
             "filter_id": "firehouse_missions",
             "patient_specializations": "Allgemeine Innere"
         },
-        "prerequisites": {}
+        "prerequisites": {
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2
+        }
     },
     "351": {
         "id": 351,
@@ -9377,6 +9443,10 @@
             "rescue_stations": 5,
             "police_stations": 4,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 15
         }
     },
@@ -9985,6 +10055,7 @@
         "prerequisites": {
             "police_stations": 1,
             "thw": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -10485,6 +10556,7 @@
             "police_stations": 1,
             "police_helicopter_stations": 1,
             "thw": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 13
         }
     },
@@ -10905,6 +10977,10 @@
             "rescue_stations": 2,
             "police_stations": 5,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 14
         }
     },
@@ -11026,6 +11102,9 @@
             "rescue_stations": 5,
             "police_stations": 2,
             "thw": 2,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 10
         }
     },
@@ -11394,6 +11473,10 @@
             "rescue_stations": 10,
             "police_stations": 10,
             "thw": 5,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 20
         }
     },
@@ -11490,6 +11573,9 @@
             "rescue_stations": 4,
             "police_stations": 2,
             "thw": 3,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 7
         }
     },
@@ -11764,6 +11850,10 @@
             "rescue_stations": 5,
             "police_stations": 6,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 27
         }
     },
@@ -11827,6 +11917,9 @@
         "prerequisites": {
             "police_stations": 2,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 6
         }
     },
@@ -11881,6 +11974,10 @@
             "rescue_stations": 10,
             "police_stations": 6,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 2,
             "fire_stations": 30
         }
     },
@@ -13028,6 +13125,10 @@
             "rescue_stations": 10,
             "police_stations": 3,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 3,
             "fire_stations": 8
         }
     },
@@ -13099,6 +13200,10 @@
             "police_stations": 3,
             "police_helicopter_stations": 1,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 2,
             "fire_stations": 11
         }
     },
@@ -13135,6 +13240,10 @@
             "police_stations": 3,
             "police_helicopter_stations": 1,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 2,
             "fire_stations": 11
         }
     },
@@ -13185,6 +13294,9 @@
             "wasserrettung": 5,
             "police_stations": 6,
             "thw": 3,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 3,
+            "thw_gkw_count": 4,
             "fire_stations": 15
         }
     },
@@ -13256,6 +13368,9 @@
             "wasserrettung": 5,
             "police_stations": 6,
             "thw": 3,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 3,
+            "thw_gkw_count": 4,
             "fire_stations": 15
         }
     },
@@ -13437,6 +13552,10 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 4
         }
     },
@@ -13513,6 +13632,9 @@
             "rescue_stations": 6,
             "police_stations": 4,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 18
         }
     },
@@ -13668,6 +13790,9 @@
             "rescue_stations": 8,
             "police_stations": 3,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 10
         }
     },
@@ -13728,6 +13853,10 @@
             "police_stations": 5,
             "police_helicopter_stations": 1,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 30
         }
     },
@@ -13836,6 +13965,10 @@
             "rescue_stations": 2,
             "police_stations": 2,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 8
         }
     },
@@ -13881,6 +14014,10 @@
             "rescue_stations": 14,
             "police_stations": 4,
             "thw": 3,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 16
         }
     },
@@ -13924,6 +14061,10 @@
             "rescue_stations": 8,
             "police_stations": 2,
             "thw": 2,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 13
         }
     },
@@ -13961,6 +14102,7 @@
             "police_stations": 1,
             "thw": 1,
             "rescue_dog_units": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 3
         }
     },
@@ -13996,6 +14138,9 @@
             "wasserrettung": 2,
             "police_stations": 1,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -14031,6 +14176,9 @@
             "wasserrettung": 2,
             "police_stations": 1,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 5
         }
     },
@@ -14077,6 +14225,10 @@
             "police_stations": 2,
             "thw": 3,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 7
         }
     },
@@ -14133,6 +14285,10 @@
             "police_stations": 5,
             "thw": 1,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 25
         }
     },
@@ -14257,6 +14413,10 @@
             "police_stations": 10,
             "thw": 5,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 20
         }
     },
@@ -14302,6 +14462,10 @@
             "police_stations": 3,
             "thw": 3,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 3,
             "fire_stations": 8
         }
     },
@@ -14417,7 +14581,11 @@
         "prerequisites": {
             "rescue_stations": 6,
             "thw": 2,
-            "rescue_dog_units": 2
+            "rescue_dog_units": 2,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2
         }
     },
     "540": {
@@ -14470,6 +14638,10 @@
             "bereitschaftspolizei": 1,
             "thw": 5,
             "rescue_dog_units": 2,
+            "thw_bergung_count": 3,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 4,
+            "thw_gkw_count": 4,
             "fire_stations": 30
         }
     },
@@ -14502,7 +14674,10 @@
         "prerequisites": {
             "police_stations": 2,
             "thw": 1,
-            "rescue_dog_units": 1
+            "rescue_dog_units": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1
         }
     },
     "542": {
@@ -14552,6 +14727,10 @@
             "police_stations": 4,
             "thw": 3,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 2,
+            "thw_zugtrupp_count": 2,
+            "thw_fg_raeumen_count": 2,
+            "thw_gkw_count": 2,
             "fire_stations": 16
         }
     },
@@ -14600,6 +14779,10 @@
             "police_stations": 2,
             "thw": 2,
             "rescue_dog_units": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 13
         }
     },
@@ -14685,6 +14868,10 @@
             "rescue_stations": 5,
             "police_stations": 4,
             "thw": 1,
+            "thw_bergung_count": 1,
+            "thw_zugtrupp_count": 1,
+            "thw_fg_raeumen_count": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 15
         }
     },
@@ -14748,6 +14935,7 @@
             "rescue_stations": 4,
             "police_stations": 2,
             "thw": 1,
+            "thw_gkw_count": 1,
             "fire_stations": 10
         }
     },
