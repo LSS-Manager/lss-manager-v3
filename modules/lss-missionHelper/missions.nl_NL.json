@@ -331,7 +331,7 @@
         "id": 14,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 1600,
+        "average_credits": 1895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3263,7 +3263,7 @@
         "id": 127,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 2980,
+        "average_credits": 3245,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3316,7 +3316,7 @@
         "id": 129,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 1770,
+        "average_credits": 2035,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3583,7 +3583,7 @@
         "id": 140,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 1600,
+        "average_credits": 1895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3607,7 +3607,7 @@
         "id": 141,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 2640,
+        "average_credits": 2905,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3634,7 +3634,7 @@
         "id": 142,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 3810,
+        "average_credits": 4230,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3662,7 +3662,7 @@
         "id": 143,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 6170,
+        "average_credits": 6470,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3694,7 +3694,7 @@
         "id": 144,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 9060,
+        "average_credits": 9425,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3725,7 +3725,7 @@
         "id": 145,
         "name": "Natuurbrand",
         "place": null,
-        "average_credits": 25590,
+        "average_credits": 26410,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4928,7 +4928,7 @@
         "id": 214,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 1260,
+        "average_credits": 1555,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4951,7 +4951,7 @@
         "id": 215,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 2640,
+        "average_credits": 2905,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -4978,7 +4978,7 @@
         "id": 216,
         "name": "Bosbrand",
         "place": "Bos",
-        "average_credits": 3750,
+        "average_credits": 3985,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7542,7 +7542,7 @@
         "id": 308,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 11590,
+        "average_credits": 12020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -7574,7 +7574,7 @@
         "id": 309,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 17370,
+        "average_credits": 17930,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8081,7 +8081,7 @@
         "id": 326,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 5400,
+        "average_credits": 5635,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8119,7 +8119,7 @@
         "id": 327,
         "name": "Brand in landbouwschuur",
         "place": "Boerderij",
-        "average_credits": 8460,
+        "average_credits": 8760,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -8981,7 +8981,7 @@
         "id": 355,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 3810,
+        "average_credits": 4230,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -9010,7 +9010,7 @@
         "id": 356,
         "name": "Heidebrand",
         "place": "Bos",
-        "average_credits": 7350,
+        "average_credits": 8020,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -9043,7 +9043,7 @@
         "id": 357,
         "name": "Natuurbrand",
         "place": "Bos",
-        "average_credits": 22680,
+        "average_credits": 23740,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15067,7 +15067,7 @@
         "id": 591,
         "name": "Uitslaande brand in veestal",
         "place": "Boerderij",
-        "average_credits": 10630,
+        "average_credits": 10775,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15107,7 +15107,7 @@
         "id": 592,
         "name": "Brand op bedrijventerrein",
         "place": "Bedrijventerrein",
-        "average_credits": 12240,
+        "average_credits": 12540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15453,7 +15453,7 @@
         "id": 604,
         "name": "Brand in Silo",
         "place": "Silo",
-        "average_credits": 5190,
+        "average_credits": 5455,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -15492,7 +15492,7 @@
         "id": 605,
         "name": "Brand in Silo",
         "place": "Silo",
-        "average_credits": 11340,
+        "average_credits": 11760,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17780,7 +17780,7 @@
         "id": 709,
         "name": "Brand in boerderij",
         "place": "Boerderij",
-        "average_credits": 2540,
+        "average_credits": 2650,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17816,7 +17816,7 @@
         "id": 710,
         "name": "Brand in boerderij",
         "place": "Boerderij",
-        "average_credits": 5710,
+        "average_credits": 5945,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17854,7 +17854,7 @@
         "id": 711,
         "name": "Brand in boerderij",
         "place": "Boerderij",
-        "average_credits": 12300,
+        "average_credits": 12540,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17893,7 +17893,7 @@
         "id": 712,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
-        "average_credits": 2280,
+        "average_credits": 2575,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17924,7 +17924,7 @@
         "id": 713,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
-        "average_credits": 4340,
+        "average_credits": 4515,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -17961,7 +17961,7 @@
         "id": 714,
         "name": "Brand in hooischuur",
         "place": "Boerderij",
-        "average_credits": 13230,
+        "average_credits": 13595,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -18000,7 +18000,7 @@
         "id": 715,
         "name": "Akkerbrand",
         "place": "Boerderij",
-        "average_credits": 2280,
+        "average_credits": 2515,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -18030,7 +18030,7 @@
         "id": 716,
         "name": "Akkerbrand",
         "place": "Boerderij",
-        "average_credits": 10090,
+        "average_credits": 10330,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -18067,7 +18067,7 @@
         "id": 717,
         "name": "Akkerbrand",
         "place": "Boerderij",
-        "average_credits": 16400,
+        "average_credits": 16895,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
