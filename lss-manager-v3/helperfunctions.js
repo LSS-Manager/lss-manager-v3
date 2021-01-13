@@ -438,7 +438,9 @@ else if (I18n.locale == "nl_NL") {
         "57": ["DA OVDG-RR | Dienstvoertuig Officier van Dienst-Geneeskundig/Rapid Responder", 1],
         "58": ["DB-AV | Dienstbus Arrestantenvervoer", 2],
         "59": ["NH-O | Noodhulp Onopvallend", 2],
-        "60": ["DB-Bike | Dienstbus Biketeam", 2]
+        "60": ["DB-Bike | Dienstbus Biketeam", 2],
+        "61": ["SLH | Slangenhaakarmbak", 0],
+        "62": ["TS-HV | Tankautospuit-Hulpverlening", 0]
     };
 }
 else if (I18n.locale == "de_DE") {

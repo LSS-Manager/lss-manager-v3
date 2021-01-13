@@ -4,6 +4,8 @@
         "vge": "Grootschalige team inzet",
         "patients": "Patiënten",
         "prisoners": "Gevangenen",
+        "water": "Water Benodigd",
+        "water1": "L.",
         "to": "tot",
         "exp": "Verspreidingen",
         "averageMinimumEmployeesFire": "Gemiddeld minimum aantal benodigde brandweermannen",
@@ -31,6 +33,10 @@
             "live_patients": {
                 "label": "Aantal patiënten",
                 "description": "Laat live zien hoeveel patiënten er momenteel zijn."
+            },
+            "waternl": {
+                "label": "Water Benodigd",
+                "description": "Toont de totale hoeveelheid water die nodig is."
             },
             "vehicles": {
                 "label": "Voertuigen",
@@ -83,7 +89,7 @@
             "battalion_chief_vehicles": "OvD-B",
             "platform_trucks": "Redvoertuigen",
             "water_tankers": "Slangenwagen",
-            "heavy_rescue_vehicles": "Hulpverleningsvoertuigen",
+            "heavy_rescue_vehicles": "Hulpverleningsvoertuigen of Tankautospuit - Hulpverlening",
             "mobile_air_vehicles": "Adembeschermingsvoertuigen",
             "mobile_command_vehicles": "HOVD",
             "gwmess": "Verkenningseenheden",
