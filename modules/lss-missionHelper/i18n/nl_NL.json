@@ -36,7 +36,7 @@
             },
             "waternl": {
                 "label": "Water Benodigd",
-                "description": "Toont de totale hoeveelheid water die nodig is."
+                "description": "Toont de totale hoeveelheid water dat nodig is."
             },
             "vehicles": {
                 "label": "Voertuigen",
