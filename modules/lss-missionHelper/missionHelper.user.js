@@ -317,6 +317,18 @@ const lssm_missionhelper_adjustPosition = () => {
                 },
             };
             break;
+        case 'nl_NL':
+            managed_settings.settings.waternl = {
+                default: true,
+                ui: {
+                    label: I18n.t('lssm.missionhelper.settings.waternl.label'),
+                    type: 'toggle',
+                    description: I18n.t(
+                        'lssm.missionhelper.settings.waternl.description'
+                    ),
+                },
+            };
+            break;
         case 'pl_PL':
             managed_settings.settings.waterpl = {
                 default: true,
@@ -764,7 +776,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 )}: ${MISSION.additional.height_rescue_personnel}<br>`);
 
             if (
-                ((SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl) && MISSION.requirements.water_needed) ||
+                ((SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waternl) && MISSION.requirements.water_needed) ||
                 (SETTINGS.credits && MISSION.average_credits) ||
                 SETTINGS.mission_time
             ) {
@@ -772,7 +784,7 @@ const lssm_missionhelper_adjustPosition = () => {
                 SETTINGS.credits &&
                     MISSION.average_credits &&
                     (content.innerHTML += `<span class="badge badge-secondary">~ ${MISSION.average_credits.toLocaleString()} Credits</span>&nbsp;`);
-                (SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl) &&
+                (SETTINGS.water || SETTINGS.waterus || SETTINGS.waterpl || SETTINGS.waternl) &&
                     MISSION.requirements.water_needed &&
                     (content.innerHTML += `<span class="badge badge-secondary">${I18n.t(
                         'lssm.missionhelper.water'

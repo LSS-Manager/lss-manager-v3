@@ -1257,7 +1257,9 @@
                 57: 'DA OVDG-RR',
                 58: 'DB-AV',
                 59: 'NH-O',
-                60: 'DB-Bike'
+                60: 'DB-Bike',
+                61: 'SLH',
+                62: 'TS-HV'
             }
         }
     };
