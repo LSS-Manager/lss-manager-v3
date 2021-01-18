@@ -4080,5 +4080,59 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "209": {
+        "id": 209,
+        "name": "\ub300\uaddc\ubaa8 \uad50\ud1b5 \ud1b5\uc81c",
+        "place": "\ub2e4\ub9ac",
+        "average_credits": 6000,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1\uc2dc\uac04",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "210": {
+        "id": 210,
+        "name": "\uc544\ud30c\ud2b8 \ud654\uc7ac \uae09\uc99d",
+        "place": "\uace0\uce35 \uac74\ubb3c",
+        "average_credits": 1500,
+        "generated_by": "\uc18c\ubc29\uc11c",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "\uc77c\ubc18 \ub0b4\uacfc"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     }
 }

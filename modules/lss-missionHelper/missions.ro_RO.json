@@ -3784,5 +3784,59 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "198": {
+        "id": 198,
+        "name": "Blocaj major \u00een trafic",
+        "place": "Pod",
+        "average_credits": 6000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 or\u0103",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "199": {
+        "id": 199,
+        "name": "Foc \u00een bloc inalt",
+        "place": "Bloc cu multe etaje",
+        "average_credits": 1500,
+        "generated_by": "Sta\u021bie de pompieri",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Internist general"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     }
 }
