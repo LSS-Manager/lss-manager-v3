@@ -5289,5 +5289,34 @@
             "police_stations": 3,
             "fire_stations": 4
         }
+    },
+    "271": {
+        "id": 271,
+        "name": "Leilighetsbrann i h\u00f8yblokk",
+        "place": "Skyskraper",
+        "average_credits": 1500,
+        "generated_by": "Brannstasjon",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 4,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Generell medisin"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 10
+        }
     }
 }

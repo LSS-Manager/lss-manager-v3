@@ -765,7 +765,7 @@
     },
     "30": {
         "id": 30,
-        "name": "Gas Leak",
+        "name": "Fuel spill from car",
         "place": null,
         "average_credits": 400,
         "generated_by": "Fire Station",
@@ -5948,6 +5948,31 @@
         },
         "prerequisites": {
             "rescue_stations": 3
+        }
+    },
+    "267": {
+        "id": 267,
+        "name": "Flooding on carriageway",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
         }
     }
 }

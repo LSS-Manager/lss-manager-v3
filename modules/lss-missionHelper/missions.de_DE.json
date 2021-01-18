@@ -16078,7 +16078,7 @@
             "patient_specializations": "Allgemeine Innere"
         },
         "prerequisites": {
-            "police_stations": 2,
+            "police_stations": 4,
             "thw": 1,
             "thw_bergung_count": 1,
             "thw_zugtrupp_count": 1,

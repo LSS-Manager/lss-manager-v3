@@ -14450,5 +14450,67 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "511": {
+        "id": 511,
+        "name": "Major road block",
+        "place": "Bridge",
+        "average_credits": 6000,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 5
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 5
+        }
+    },
+    "512": {
+        "id": 512,
+        "name": "Apartment fire in High Rise",
+        "place": "High Rise",
+        "average_credits": 2000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 6,
+            "expansion_missions_ids": {
+                "0": 102
+            },
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1F",
+                "1": "7-A-2"
+            },
+            "patient_specializations": "Traumatology"
+        },
+        "prerequisites": {
+            "rescue_stations": 6,
+            "fire_stations": 8
+        }
     }
 }
