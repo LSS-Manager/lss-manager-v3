@@ -854,7 +854,8 @@
             "water_tankers": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 25,
@@ -1562,7 +1563,8 @@
             "heavy_rescue_vehicles": 1
         },
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 75
         },
         "additional": {
             "possible_patient": 12,
@@ -1673,7 +1675,8 @@
         },
         "chances": {
             "water_tankers": 20,
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 95
         },
         "additional": {
             "possible_patient": 6,
@@ -1828,7 +1831,8 @@
             "elw_police": 1
         },
         "chances": {
-            "patient_transport": 80
+            "patient_transport": 80,
+            "patient_critical_care": 95
         },
         "additional": {
             "possible_patient": 12,
@@ -2197,7 +2201,8 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 10
+            "helicopter": 10,
+            "patient_critical_care": 45
         },
         "additional": {
             "possible_patient": 8,
@@ -2214,7 +2219,7 @@
     },
     "87": {
         "id": 87,
-        "name": "Bygningskollaps ",
+        "name": "Bygningskollaps",
         "place": null,
         "average_credits": 9000,
         "generated_by": "Brandstation",
@@ -2233,7 +2238,8 @@
         },
         "chances": {
             "patient_transport": 50,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 20,
@@ -2726,7 +2732,8 @@
             "elw_police": 1
         },
         "chances": {
-            "patient_transport": 25
+            "patient_transport": 25,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 14,
@@ -2762,7 +2769,8 @@
         "chances": {
             "water_tankers": 40,
             "mobile_air_vehicles": 50,
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 8,
@@ -3764,7 +3772,8 @@
             "firetrucks": 4
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 15
         },
         "additional": {
             "possible_patient": 6,
@@ -3796,7 +3805,8 @@
             "platform_trucks": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 10,
@@ -4095,7 +4105,8 @@
         "chances": {
             "water_tankers": 10,
             "mobile_air_vehicles": 30,
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 20,
@@ -4135,7 +4146,8 @@
             "elw_police": 2
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 50,
@@ -4377,7 +4389,8 @@
             "elw_police": 1
         },
         "chances": {
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 20
         },
         "additional": {
             "possible_patient": 10,
@@ -4407,7 +4420,8 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 17,
@@ -4571,7 +4585,8 @@
             "elw_police": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 30
         },
         "additional": {
             "possible_patient": 7,
@@ -4959,7 +4974,8 @@
             "elw_police": 1
         },
         "chances": {
-            "patient_transport": 30
+            "patient_transport": 30,
+            "patient_critical_care": 55
         },
         "additional": {
             "possible_patient": 7,
@@ -5277,7 +5293,8 @@
             "platform_trucks": 50,
             "water_tankers": 20,
             "mobile_air_vehicles": 20,
-            "patient_transport": 60
+            "patient_transport": 60,
+            "patient_critical_care": 40
         },
         "additional": {
             "possible_patient": 5,
@@ -5498,6 +5515,338 @@
         "prerequisites": {
             "rescue_stations": 6,
             "fire_stations": 10
+        }
+    },
+    "274": {
+        "id": 274,
+        "name": "Motions l\u00f8b",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "ambulances": 2,
+            "police_cars": 4,
+            "k9": 1,
+            "elw_police": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 time",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 6
+        }
+    },
+    "275": {
+        "id": 275,
+        "name": "Sports Event",
+        "place": "Stadion",
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 55,
+            "patient_critical_care": 45
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 2,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 2
+        }
+    },
+    "276": {
+        "id": 276,
+        "name": "Brand p\u00e5 stadion",
+        "place": "Stadion",
+        "average_credits": 8000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 2,
+            "platform_trucks": 3,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 3,
+            "mobile_air_vehicles": 2,
+            "police_cars": 10,
+            "k9": 1,
+            "elw_police": 2
+        },
+        "chances": {
+            "patient_transport": 80,
+            "patient_critical_care": 45
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 8,
+            "fire_stations": 15
+        }
+    },
+    "277": {
+        "id": 277,
+        "name": "Masse sl\u00e5skamp ved match",
+        "place": "Stadion",
+        "average_credits": 8000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "police_cars": 10,
+            "k9": 3,
+            "elw_police": 2
+        },
+        "chances": {
+            "patient_transport": 50,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 10,
+            "fire_stations": 1
+        }
+    },
+    "278": {
+        "id": 278,
+        "name": "Derby kamp",
+        "place": "Stadion",
+        "average_credits": 12000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "police_cars": 15,
+            "k9": 3,
+            "elw_police": 2
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 2,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "police_stations": 15
+        }
+    },
+    "279": {
+        "id": 279,
+        "name": "Masse sl\u00e5skamp ved Derby match",
+        "place": "Stadion",
+        "average_credits": 14500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/stadium_gruen.png",
+            "1": "/images/stadium_gelb.png",
+            "2": "/images/stadium_rot.png"
+        },
+        "requirements": {
+            "police_cars": 10,
+            "k9": 3,
+            "elw_police": 2
+        },
+        "chances": {
+            "patient_transport": 35,
+            "patient_critical_care": 45
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 10,
+            "filter_id": "police_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 10
+        }
+    },
+    "280": {
+        "id": 280,
+        "name": "Kollapset bro",
+        "place": "Bro",
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/fallingrocks_gruen.png",
+            "1": "/images/fallingrocks_gelb.png",
+            "2": "/images/fallingrocks_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 1,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "police_cars": 5,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 25,
+            "patient_critical_care": 25
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "filter_id": "ambulance_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 15,
+            "police_stations": 6,
+            "fire_stations": 13
+        }
+    },
+    "281": {
+        "id": 281,
+        "name": "Drukne ulykke",
+        "place": "Sv\u00f8mmehal",
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 55
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "282": {
+        "id": 282,
+        "name": "Klor forgiftning",
+        "place": "Sv\u00f8mmehal",
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 40
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 2,
+            "expansion_missions_ids": {
+                "0": 283
+            },
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "fire_stations": 11
+        }
+    },
+    "283": {
+        "id": 283,
+        "name": "Evakuering for klorudslip",
+        "place": "Sv\u00f8mmehal",
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "hazmat_vehicles": 2,
+            "police_cars": 5,
+            "elw_police": 1
+        },
+        "chances": {
+            "patient_transport": 75,
+            "patient_critical_care": 30
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 3,
+            "filter_id": "ambulance_station_missions",
+            "need_elw_police_only_if_present": true,
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 6,
+            "fire_stations": 6
         }
     }
 }

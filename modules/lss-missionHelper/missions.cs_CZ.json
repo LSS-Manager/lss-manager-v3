@@ -4796,5 +4796,1029 @@
             "police_stations": 15,
             "police_helicopter_stations": 1
         }
+    },
+    "255": {
+        "id": 255,
+        "name": "Nehoda pot\u00e1p\u011b\u010de",
+        "place": "Rybn\u00edk",
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "divers_extension_count": 1
+        }
+    },
+    "256": {
+        "id": 256,
+        "name": "Nehoda pot\u00e1p\u011b\u010de",
+        "place": "\u0158eka",
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "divers_extension_count": 1
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Nehoda pot\u00e1p\u011b\u010de",
+        "place": "Rybn\u00edk",
+        "average_credits": 2000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "divers_extension_count": 1
+        }
+    },
+    "258": {
+        "id": 258,
+        "name": "Nehoda pot\u00e1p\u011b\u010de",
+        "place": "\u0158eka",
+        "average_credits": 2000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "diver_units": 1,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "divers_extension_count": 1
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "Auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 2800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "260": {
+        "id": 260,
+        "name": "Auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 2800,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "261": {
+        "id": 261,
+        "name": "Auto ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 2800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "262": {
+        "id": 262,
+        "name": "Auto ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 2800,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "263": {
+        "id": 263,
+        "name": "Auto ve vod\u011b",
+        "place": "Mal\u00fd p\u0159\u00edstav",
+        "average_credits": 2800,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "264": {
+        "id": 264,
+        "name": "Auto ve vod\u011b",
+        "place": "Mal\u00fd p\u0159\u00edstav",
+        "average_credits": 2800,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 2,
+            "diver_units": 2,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "divers_extension_count": 2,
+            "fire_stations": 6
+        }
+    },
+    "265": {
+        "id": 265,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "266": {
+        "id": 266,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "267": {
+        "id": 267,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "268": {
+        "id": 268,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "269": {
+        "id": 269,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "270": {
+        "id": 270,
+        "name": "N\u00e1kladn\u00ed auto ve vod\u011b",
+        "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "271": {
+        "id": 271,
+        "name": "Autobus ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "272": {
+        "id": 272,
+        "name": "Autobus ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "273": {
+        "id": 273,
+        "name": "Autobus ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "274": {
+        "id": 274,
+        "name": "Autobus ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "275": {
+        "id": 275,
+        "name": "Autobus ve vod\u011b",
+        "place": "Most",
+        "average_credits": 4000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "276": {
+        "id": 276,
+        "name": "Autobus ve vod\u011b",
+        "place": "Most",
+        "average_credits": 4000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 3,
+            "diver_units": 3,
+            "boats": 3
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 3,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "divers_extension_count": 3,
+            "fire_stations": 6
+        }
+    },
+    "277": {
+        "id": 277,
+        "name": "Poh\u0159e\u0161ovan\u00e1 osoba v bl\u00edzkosti vody",
+        "place": "Rybn\u00edk",
+        "average_credits": 3000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "278": {
+        "id": 278,
+        "name": "Poh\u0159e\u0161ovan\u00e1 osoba v bl\u00edzkosti vody",
+        "place": "\u0158eka",
+        "average_credits": 3000,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 6,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 9,
+            "average_min_police_personnel": 12,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 6
+        }
+    },
+    "279": {
+        "id": 279,
+        "name": "Osoba ve vod\u011b",
+        "place": "Rybn\u00edk",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "280": {
+        "id": 280,
+        "name": "Osoba ve vod\u011b",
+        "place": "\u0158eka",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "281": {
+        "id": 281,
+        "name": "Osoba ve vod\u011b",
+        "place": "Truhl\u00e1rna",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "282": {
+        "id": 282,
+        "name": "Osoba ve vod\u011b",
+        "place": "N\u00e1kladn\u00ed p\u0159\u00edstav",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "283": {
+        "id": 283,
+        "name": "Osoba ve vod\u011b",
+        "place": "Mal\u00fd p\u0159\u00edstav",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "284": {
+        "id": 284,
+        "name": "Osoba ve vod\u011b",
+        "place": "P\u0159\u00edstavi\u0161t\u011b v\u00fdletn\u00edch lod\u00ed",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
+    },
+    "285": {
+        "id": 285,
+        "name": "Osoba ve vod\u011b",
+        "place": "K\u0159i\u017eovatka se semafory",
+        "average_credits": 1500,
+        "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "filter_id": "water_watch_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1
+        }
     }
 }

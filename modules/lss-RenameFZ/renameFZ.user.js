@@ -422,7 +422,8 @@
                 5: "Základna Letecké záchranné služby",
                 6: "Obvodní oddělení Policie",
                 7: "Dispečink",
-                13: 'Letecká služba PČR',
+                13: "Letecká služba PČR",
+                15: "Vodní záchranná služba ČČK",
                 18: "Požární stanice (malá)",
                 19: "Obvodní oddělení Policie (malá)",
                 20: "Výjezdová základna záchranné služby (malé)",
@@ -448,7 +449,12 @@
                 16: 'Protiplynový automobil',
                 17: 'MOS',
                 18: 'Vozidlo vyšetřovatelů DN',
-                19: 'Vozidlo pyrotechika PČR'
+                19: 'Vozidlo pyrotechika PČR',
+                20: 'Přívěs se člunem',
+                21: 'Přívěs se člunem VZS ČČK',
+                22: 'Potápěčský automobil',
+                23: 'SUV VZS ČČK',
+                24: 'Dodávka VZS ČČK'
             }
         }
     };
@@ -693,7 +699,11 @@
                 18: 'Dykkerbil',
                 19: 'Kystlivredderbil',
                 20: 'Bådtrailer',
-                21: 'Indsatsleder Politi'
+                21: 'Indsatsleder Politi',
+                22: 'Nødbehlandler',
+                23: 'Akutlæge',
+                24: 'Indsatsleder Akutlæge',
+                25: 'Mobil Behandlingsplads'
             }
         }
     };
