@@ -1,151 +1,140 @@
 {
-        "diy_mission": "This mission seems to be a large scale alliance mission.",
-        "guard_mission": "Planned mission",
-        "vge": "Large scale alliance mission",
-        "patients": "Patients",
-        "prisoners": "Prisoners",
-        "water": "Water needed",
-        "water1": "gal",
-        "to": "up to",
-        "exp": "Spreads",
-        "fwm": "Follow-up missions",
-        "subs": "Subsequent missions on success",
-        "SWATPersonnel": "Needed SWAT Personnel",
-        "ambulance_only": "This mission is ambulance-only!",
-        "averageMinimumEmployeesFire": "Average min . Fire Personnel",
-        "averageMinimumEmployeesPolice": "Average min . Police Personnel",
-        "title": "Missionhelper",
-        "transport": "Transport",
-        "allow_rw_instead_of_lf":
-            "This Mission can also be carried out with a Heavy Rescue instead of a firetruck",
-        "settings": {
-            "name": {
-                "label": "Name",
-                "description": "Shows the name of the mission in the helper."
-        },
-            "id": {
-                "label": "ID",
-                "description": "Displays the ID of the mission in the helper."
-        },
-            "type": {
-                "label": "TYP-ID",
-                "description":
-                    "Displays the ID of the mission type in the helper."
-        },
-            "poi": {
-                "label": "POI",
-                "description":
-                    "Indicates in the helper which POI the operation is at."
-        },
-            "live_patients": {
-                "label": "Number of patients",
-                "description":
-                    "Shows live how many patients are currently in use."
-        },
-        "waterus": {
-            "label": "Water demand",
-            "description": "Shows the total amount of water required."
-        },
-            "vehicles": {
-                "label": "Vehicles",
-                "description": "Displays the required vehicles."
-        },
-            "patients": {
-                "label": "patient information",
-                "description": "Shows information about (potential) patients."
-        },
-            "prisoners": {
-                "label": "prisoner information",
-                "description": "Shows information about (potential) prisoners."
-        },
-            "special": {
-                "label": "Other information",
-                "description":
-                    "Displays special information, such as the average minimum number of personnel required."
-        },
-            "expansions": {
-                "label": "distributions",
-                "description":
-                    "Shows what the bet can spread to. (Shows only simple spread)"
-        },
-        "followup": {
-            "label": "Follow-up missions",
-            "description": "Shows what the mission can generate for follow-up missions"
-        },
-        "subsequent": {
-            "label": "Subsequent missions",
-            "description": "Shows what the mission can generate for Subsequent missions at the end of mission"
-        },
-        "show_droinv": {
-            "label": "Show drone can replace investigation",
-            "description": "Shows whether an FBI Surveillance Drone can replace an FBI Investigation wagon"
-        },
-            "show_100": {
-                "label": "Show 100% probability",
-                "description":
-                    "Shows the probability for a vehicle even if it is 100%."
-        },
-            "lfrw": {
-                "label": "Show if the Heavy Rescue can process the mission",
-                "description":
-                    "Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck."
-        },
-            "credits": {
-                "label": "Average earnings",
-                "description":
-                    "Shows the average earnings you get for this assignment."
-        },
-            "show_siwa": {
-                "label": "Requirements of security guards",
-                "description":
-                    "Shows the requirements for security guards in the helper as well."
-        },
-        "show_k9": {
-            "label": "Dog icon behind mission name",
-            "description": "Shows a dog emoji behind the mission name if k9 is required."
-        },
-            "mission_time": {
-                "label": "Creation Time",
-                "description":
-                    "Shows the date and time when the mission was created."
-        }
+  "diy_mission": "This mission seems to be a large scale alliance mission.",
+  "guard_mission": "Planned mission",
+  "vge": "Large scale alliance mission",
+  "patients": "Patients",
+  "prisoners": "Prisoners",
+  "water": "Water needed",
+  "water1": "gal",
+  "to": "up to",
+  "exp": "Spreads",
+  "fwm": "Follow-up missions",
+  "subs": "Subsequent missions on success",
+  "SWATPersonnel": "Needed SWAT Personnel",
+  "ambulance_only": "This mission is ambulance-only!",
+  "averageMinimumEmployeesFire": "Average min . Fire Personnel",
+  "averageMinimumEmployeesPolice": "Average min . Police Personnel",
+  "title": "Missionhelper",
+  "transport": "Transport",
+  "allow_rw_instead_of_lf": "This Mission can also be carried out with a Heavy Rescue instead of a firetruck",
+  "settings": {
+    "name": {
+      "label": "Name",
+      "description": "Shows the name of the mission in the helper."
     },
-        "requirements": {
-            "firetrucks": "Firetrucks",
-            "platform_trucks": "Platform truck",
-            "heavy_rescue_vehicles": "Heavy Rescue vehicles or Utility unit",
-            "boats": "Boat",
-            "mobile_air_vehicles": "Mobile Air",
-            "battalion_chief_vehicles": "Battalion Chief Vehicle",
-            "water_tankers": "Water Tanker",
-            "hazmat_vehicles": "HazMat Vehicle",
-            "mobile_command_vehicles": "Mobile Command Vehicle",
-            "arff": "ARFF",
-            "large_fire_boat": "Large Fireboat",
-            "ambulances": "Ambulances",
-            "als": "ALS Ambulance",
-            "bls": "BLS Ambulance",
-            "fly": "Fly-Car",
-            "ems": "EMS Rescue",
-            "mcu": "Mass Casualty Unit",
-            "large_rescue_boat": "Large Rescueboat",
-            "police_cars": "Police Car",
-            "k9": "K-9 Unit",
-            "pmotorcycle": "Police Motorcycle",
-            "swat_armored_vehicle": "SWAT Armoured Vehicle",
-            "swat_suv": "SWAT SUV",
-            "helicopter": "HEMS",
-            "police_helicopters": "Police Helicopter",
-            "fbi": "FBI Units",
-            "fbi_drone": "FBI Surveillance Drone",
-            "fbi_mcc": "FBI Mobile Command Centers",
-            "fbi_bomb": "FBI Bomb Technician Vehicles",
-            "fbi_investigation": "FBI Investigation wagons",
-            "sheriff": "Sheriff",
-            "emschief": "EMS Chief",
-            "brush_truck": "Wildland fire engines",
-            "fire_aviation": "Airborne Firefighting Vehicles",
-            "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue",
-            "allow_drone_instead_of_investigation": "FBI Surveillance Drone can Replace Investigation wagon"
+    "id": {
+      "label": "ID",
+      "description": "Displays the ID of the mission in the helper."
+    },
+    "type": {
+      "label": "TYP-ID",
+      "description": "Displays the ID of the mission type in the helper."
+    },
+    "poi": {
+      "label": "POI",
+      "description": "Indicates in the helper which POI the operation is at."
+    },
+    "live_patients": {
+      "label": "Number of patients",
+      "description": "Shows live how many patients are currently in use."
+    },
+    "waterus": {
+      "label": "Water demand",
+      "description": "Shows the total amount of water required."
+    },
+    "vehicles": {
+      "label": "Vehicles",
+      "description": "Displays the required vehicles."
+    },
+    "patients": {
+      "label": "patient information",
+      "description": "Shows information about (potential) patients."
+    },
+    "prisoners": {
+      "label": "prisoner information",
+      "description": "Shows information about (potential) prisoners."
+    },
+    "special": {
+      "label": "Other information",
+      "description": "Displays special information, such as the average minimum number of personnel required."
+    },
+    "expansions": {
+      "label": "distributions",
+      "description": "Shows what the bet can spread to. (Shows only simple spread)"
+    },
+    "followup": {
+      "label": "Follow-up missions",
+      "description": "Shows what the mission can generate for follow-up missions"
+    },
+    "subsequent": {
+      "label": "Subsequent missions",
+      "description": "Shows what the mission can generate for Subsequent missions at the end of mission"
+    },
+    "show_droinv": {
+      "label": "Show drone can replace investigation",
+      "description": "Shows whether an FBI Surveillance Drone can replace an FBI Investigation wagon"
+    },
+    "show_100": {
+      "label": "Show 100% probability",
+      "description": "Shows the probability for a vehicle even if it is 100%."
+    },
+    "lfrw": {
+      "label": "Show if the Heavy Rescue can process the mission",
+      "description": "Displays a message in the Mission whether it can also be processed with a Heavy Rescue instead of a fire truck."
+    },
+    "credits": {
+      "label": "Average earnings",
+      "description": "Shows the average earnings you get for this assignment."
+    },
+    "show_siwa": {
+      "label": "Requirements of security guards",
+      "description": "Shows the requirements for security guards in the helper as well."
+    },
+    "show_k9": {
+      "label": "Dog icon behind mission name",
+      "description": "Shows a dog emoji behind the mission name if k9 is required."
+    },
+    "mission_time": {
+      "label": "Creation Time",
+      "description": "Shows the date and time when the mission was created."
     }
+  },
+  "requirements": {
+    "firetrucks": "Firetrucks",
+    "platform_trucks": "Platform truck",
+    "heavy_rescue_vehicles": "Heavy Rescue vehicles or Utility unit",
+    "boats": "Boat",
+    "mobile_air_vehicles": "Mobile Air",
+    "battalion_chief_vehicles": "Battalion Chief Vehicle",
+    "water_tankers": "Water Tanker",
+    "hazmat_vehicles": "HazMat Vehicle",
+    "mobile_command_vehicles": "Mobile Command Vehicle",
+    "arff": "ARFF",
+    "large_fire_boat": "Large Fireboat",
+    "ambulances": "Ambulances",
+    "als": "ALS Ambulance",
+    "bls": "BLS Ambulance",
+    "fly": "Fly-Car",
+    "ems": "EMS Rescue",
+    "mcu": "Mass Casualty Unit",
+    "large_rescue_boat": "Large Rescueboat",
+    "police_cars": "Police Car",
+    "k9": "K-9 Unit",
+    "pmotorcycle": "Police Motorcycle",
+    "swat_armored_vehicle": "SWAT Armoured Vehicle",
+    "swat_suv": "SWAT SUV",
+    "helicopter": "HEMS",
+    "police_helicopters": "Police Helicopter",
+    "fbi": "FBI Units",
+    "fbi_drone": "FBI Surveillance Drone",
+    "fbi_mcc": "FBI Mobile Command Centers",
+    "fbi_bomb": "FBI Bomb Technician Vehicles",
+    "fbi_investigation": "FBI Investigation wagons",
+    "sheriff": "Sheriff",
+    "emschief": "EMS Chief",
+    "brush_truck": "Wildland fire engines",
+    "fire_aviation": "Airborne Firefighting Vehicles",
+    "allow_rw_instead_of_lf": "Fire trucks or Heavy Rescue",
+    "allow_drone_instead_of_investigation": "FBI Surveillance Drone can Replace Investigation wagon"
+  }
 }

@@ -1,92 +1,92 @@
 {
-    "diy_mission": "이 임무는 대규모 동맹 임무 인 것 같습니다.",
-    "guard_mission": "계획된 임무",
-    "vge": "대규모 동맹 임무",
-    "patients": "환자",
-    "prisoners": "죄수",
-    "to": "까지",
-    "exp": "확산",
-    "ambulance_only": "이 임무는 구급차 전용입니다!",
-    "title": "선교사",
-    "transport": "수송",
-    "allow_rw_instead_of_lf": "이 임무는 소방차 대신 무거운 구조로도 수행 할 수 있습니다",
-    "settings": {
-        "name": {
-            "label": "이름",
-            "description": "도우미의 임무 이름을 표시합니다."
-        },
-        "id": {
-            "label": "신분증",
-            "description": "헬퍼에서 미션의 ID를 표시합니다."
-        },
-        "type": {
-            "label": "유형 ID",
-            "description": "헬퍼에서 미션 유형의 ID를 표시합니다."
-        },
-        "poi": {
-            "label": "다음",
-            "description": "도우미에서 작업이 있는 POI를 나타냅니다."
-        },
-        "live_patients": {
-            "label": "환자 수",
-            "description": "현재 사용중인 환자 수를 실시간으로 보여줍니다."
-        },
-        "vehicles": {
-            "label": "차량",
-            "description": "필요한 차량을 표시합니다."
-        },
-        "patients": {
-            "label": "환자 정보",
-            "description": "(잠재적) 환자에 대한 정보를 표시합니다."
-        },
-        "prisoners": {
-            "label": "죄수 정보",
-            "description": "(잠재적 인) 포로에 대한 정보를 표시합니다."
-        },
-        "special": {
-            "label": "기타 정보",
-            "description": "필요한 평균 최소 인원 수와 같은 특수 정보를 표시합니다."
-        },
-        "expansions": {
-            "label": "분포",
-            "description": "베팅이 퍼질 수있는 것을 보여줍니다. (간단한 스프레드 만 표시)"
-        },
-        "show_100": {
-            "label": "100 % 확률 표시",
-            "description": "차량이 100 % 인 경우에도 차량의 확률을 표시합니다."
-        },
-        "lfrw": {
-            "label": "Heavy Rescue가 임무를 처리 할 수 있는지 표시",
-            "description": "소방차 대신 무거운 구조로도 처리 할 수 있는지 여부를 미션에 표시합니다."
-        },
-        "credits": {
-            "label": "평균 수입",
-            "description": "이 과제에서 얻은 평균 수입을 보여줍니다."
-        },
-        "show_siwa": {
-            "label": "경비원의 요구 사항",
-            "description": "도우미의 보안 요원에 대한 요구 사항도 표시합니다."
-        },
-        "mission_time": {
-            "label": "창조 시간",
-            "description": "미션이 생성 된 날짜와 시간을 보여줍니다."
-        }
+  "diy_mission": "이 임무는 대규모 동맹 임무 인 것 같습니다.",
+  "guard_mission": "계획된 임무",
+  "vge": "대규모 동맹 임무",
+  "patients": "환자",
+  "prisoners": "죄수",
+  "to": "까지",
+  "exp": "확산",
+  "ambulance_only": "이 임무는 구급차 전용입니다!",
+  "title": "선교사",
+  "transport": "수송",
+  "allow_rw_instead_of_lf": "이 임무는 소방차 대신 무거운 구조로도 수행 할 수 있습니다",
+  "settings": {
+    "name": {
+      "label": "이름",
+      "description": "도우미의 임무 이름을 표시합니다."
     },
-    "requirements": {
-        "firetrucks": "소방차",
-        "platform_trucks": "플랫폼 트럭",
-        "heavy_rescue_vehicles": "중장비 구조 차량",
-        "mobile_air_vehicles": "이동식 호흡 장비",
-        "battalion_chief_vehicles": "소방대장 차량",
-        "water_tankers": "수상 탱커",
-        "hazmat_vehicles": "생화학 차량",
-        "mobile_command_vehicles": "Incident Command and Control Unit",
-        "police_cars": "경찰차",
-        "arff": "ARFF",
-        "k9": "Dog Support Unit",
-        "swat_suv": "Armed Response Vehicle (ARV)",
-        "helicopter": "구급 헬리콥터",
-        "police_helicopters": "Police helicopter",
-        "allow_rw_instead_of_lf": "소방차 또는 무거운 구조"
+    "id": {
+      "label": "신분증",
+      "description": "헬퍼에서 미션의 ID를 표시합니다."
+    },
+    "type": {
+      "label": "유형 ID",
+      "description": "헬퍼에서 미션 유형의 ID를 표시합니다."
+    },
+    "poi": {
+      "label": "다음",
+      "description": "도우미에서 작업이 있는 POI를 나타냅니다."
+    },
+    "live_patients": {
+      "label": "환자 수",
+      "description": "현재 사용중인 환자 수를 실시간으로 보여줍니다."
+    },
+    "vehicles": {
+      "label": "차량",
+      "description": "필요한 차량을 표시합니다."
+    },
+    "patients": {
+      "label": "환자 정보",
+      "description": "(잠재적) 환자에 대한 정보를 표시합니다."
+    },
+    "prisoners": {
+      "label": "죄수 정보",
+      "description": "(잠재적 인) 포로에 대한 정보를 표시합니다."
+    },
+    "special": {
+      "label": "기타 정보",
+      "description": "필요한 평균 최소 인원 수와 같은 특수 정보를 표시합니다."
+    },
+    "expansions": {
+      "label": "분포",
+      "description": "베팅이 퍼질 수있는 것을 보여줍니다. (간단한 스프레드 만 표시)"
+    },
+    "show_100": {
+      "label": "100 % 확률 표시",
+      "description": "차량이 100 % 인 경우에도 차량의 확률을 표시합니다."
+    },
+    "lfrw": {
+      "label": "Heavy Rescue가 임무를 처리 할 수 있는지 표시",
+      "description": "소방차 대신 무거운 구조로도 처리 할 수 있는지 여부를 미션에 표시합니다."
+    },
+    "credits": {
+      "label": "평균 수입",
+      "description": "이 과제에서 얻은 평균 수입을 보여줍니다."
+    },
+    "show_siwa": {
+      "label": "경비원의 요구 사항",
+      "description": "도우미의 보안 요원에 대한 요구 사항도 표시합니다."
+    },
+    "mission_time": {
+      "label": "창조 시간",
+      "description": "미션이 생성 된 날짜와 시간을 보여줍니다."
     }
+  },
+  "requirements": {
+    "firetrucks": "소방차",
+    "platform_trucks": "플랫폼 트럭",
+    "heavy_rescue_vehicles": "중장비 구조 차량",
+    "mobile_air_vehicles": "이동식 호흡 장비",
+    "battalion_chief_vehicles": "소방대장 차량",
+    "water_tankers": "수상 탱커",
+    "hazmat_vehicles": "생화학 차량",
+    "mobile_command_vehicles": "Incident Command and Control Unit",
+    "police_cars": "경찰차",
+    "arff": "ARFF",
+    "k9": "Dog Support Unit",
+    "swat_suv": "Armed Response Vehicle (ARV)",
+    "helicopter": "구급 헬리콥터",
+    "police_helicopters": "Police helicopter",
+    "allow_rw_instead_of_lf": "소방차 또는 무거운 구조"
+  }
 }

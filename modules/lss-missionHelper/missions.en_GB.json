@@ -2163,7 +2163,7 @@
         "id": 91,
         "name": "Fail to stop",
         "place": null,
-        "average_credits": 1000,
+        "average_credits": 5000,
         "generated_by": "Police Station",
         "icons": {
             "0": "/images/icy_road_gruen.png",
@@ -2172,7 +2172,7 @@
         },
         "requirements": {
             "police_helicopters": 1,
-            "police_cars": 6,
+            "police_cars": 4,
             "k9": 1,
             "traffic_car": 2
         },

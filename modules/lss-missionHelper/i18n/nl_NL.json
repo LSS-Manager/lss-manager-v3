@@ -1,117 +1,117 @@
 {
-        "diy_mission": "Deze inzet lijkt een grootschalige team inzet te zijn.",
-        "guard_mission": "Geplande inzet",
-        "vge": "Grootschalige team inzet",
-        "patients": "Patiënten",
-        "prisoners": "Gevangenen",
-        "water": "Water Benodigd",
-        "water1": "L.",
-        "to": "tot",
-        "exp": "Verspreidingen",
-        "averageMinimumEmployeesFire": "Gemiddeld minimum aantal benodigde brandweermannen",
-        "ambulance_only": "Deze inzet is alleen voor de ambulance!",
-        "title": "Meldinghelper",
-        "transport": "Transport",
-        "allow_rw_instead_of_lf": "Deze inzet kan ook worden afgehandeld met een Hulpverleningsvoertuig i.p.v. Tankautospuit.",
-        "settings": {
-            "name": {
-                "label": "Naam",
-                "description": "Toont de naam van de inzet in de helper."
-            },
-            "id": {
-                "label": "ID",
-                "description": "Toont de ID van de inzet in de helper."
-            },
-            "type": {
-                "label": "TYPE-ID",
-                "description": "Toont de ID van het inzettype in de helper."
-            },
-            "poi": {
-                "label": "POI",
-                "description": "Geeft in de helper aan op welke POI de inzet betrekking heeft."
-            },
-            "live_patients": {
-                "label": "Aantal patiënten",
-                "description": "Laat live zien hoeveel patiënten er momenteel zijn."
-            },
-            "waternl": {
-                "label": "Water Benodigd",
-                "description": "Toont de totale hoeveelheid water dat nodig is."
-            },
-            "vehicles": {
-                "label": "Voertuigen",
-                "description": "Geeft de benodigde voertuigen weer."
-            },
-            "patients": {
-                "label": "Patiënteninformatie",
-                "description": "Toont informatie over (potentiële) patiënten."
-            },
-            "prisoners": {
-                "label": "Gevangeneninformatie",
-                "description": "Toont informatie over (potentiële) gevangenen"
-            },
-            "special": {
-                "label": "Overige informatie",
-                "description": "Toont speciale informatie, zoals het minimum aantal personeelsleden dat nodig is."
-            },
-            "expansions": {
-                "label": "Incidentuitbreiding",
-                "description": "Toont, of en hoe deze melding zich uitbreiden kan (Laat alleen de eerste uitbreiding zien)"
-            },
-            "lfrw": {
-                "label": "Hulpverleningsvoertuig i.p.v. Tankautospuit",
-                "description": "Toont een opmerking als de inzet ook met een Hulpverleningsvoertuig in plaats van een Tankautospuit kan worden afgehandelt."
-            },
-            "show_100": {
-                "label": "Toon 100% waarschijnlijkheid",
-                "description": "Toont de waarschijnlijkheid van een voertuig, ook al is het 100%."
-            },
-            "credits": {
-                "label": "Gemiddelde verdiensten",
-                "description": "Toont de gemiddelde verdiensten die je krijgt voor deze opdracht."
-            },
-            "show_siwa": {
-                "label": "Helper bij geplande inzetten",
-                "description": "Toont de meldinghelper ook bij geplande inzetten."
-            },
-            "show_k9": {
-                "label": "Hond emoticon achter de inzetnaam",
-                "description": "Toont een emoticon van een hond achter de inzetnaam indien een hondengeleider vereist is."
-            },
-            "mission_time": {
-                "label": "Aanmaak tijd",
-                "description": "Toont de datum en tijd waarop de inzet is gemaakt."
-            }
-        },
-        "requirements": {
-            "firetrucks": "Tankautospuiten",
-            "police_cars": "Noodhulpeenheden",
-            "battalion_chief_vehicles": "OvD-B",
-            "platform_trucks": "Redvoertuigen",
-            "water_tankers": "Slangenwagen",
-            "heavy_rescue_vehicles": "Hulpverleningsvoertuigen of Tankautospuit - Hulpverlening",
-            "mobile_air_vehicles": "Adembeschermingsvoertuigen",
-            "mobile_command_vehicles": "HOVD",
-            "gwmess": "Verkenningseenheden",
-            "hazmat_vehicles": "Adviseurs Gevaarlijke Stoffen",
-            "ovdp": "Officiers van Dienst Politie",
-            "elw3": "Commandowagen",
-            "ambulances": "Ambulances",
-            "nef": "MMT-arts",
-            "grukw": "ME Groepsvoertuig",
-            "lebefkw": "ME Commandovoertuigen",
-            "police_helicopters": "Politiehelikopter",
-            "diver_units": "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
-            "boats": "Waterongevallenaanhangers",
-            "hondengeleider": "Hondengeleider",
-            "arff": "Crashtender",
-            "elw_airport": "AFO/OSC",
-            "ovdg": "OvD-Geneeskunde",
-            "at_c": "AT Commandant",
-            "at_o": "AT Operator",
-            "at_m": "AT Materiaalwagen",
-            "bike_police": "Biketeams",
-            "spokesman": "Voorlichter",
-            "allow_rw_instead_of_lf": "Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken"
-        }
+  "diy_mission": "Deze inzet lijkt een grootschalige team inzet te zijn.",
+  "guard_mission": "Geplande inzet",
+  "vge": "Grootschalige team inzet",
+  "patients": "Patiënten",
+  "prisoners": "Gevangenen",
+  "water": "Water Benodigd",
+  "water1": "L.",
+  "to": "tot",
+  "exp": "Verspreidingen",
+  "averageMinimumEmployeesFire": "Gemiddeld minimum aantal benodigde brandweermannen",
+  "ambulance_only": "Deze inzet is alleen voor de ambulance!",
+  "title": "Meldinghelper",
+  "transport": "Transport",
+  "allow_rw_instead_of_lf": "Deze inzet kan ook worden afgehandeld met een Hulpverleningsvoertuig i.p.v. Tankautospuit.",
+  "settings": {
+    "name": {
+      "label": "Naam",
+      "description": "Toont de naam van de inzet in de helper."
+    },
+    "id": {
+      "label": "ID",
+      "description": "Toont de ID van de inzet in de helper."
+    },
+    "type": {
+      "label": "TYPE-ID",
+      "description": "Toont de ID van het inzettype in de helper."
+    },
+    "poi": {
+      "label": "POI",
+      "description": "Geeft in de helper aan op welke POI de inzet betrekking heeft."
+    },
+    "live_patients": {
+      "label": "Aantal patiënten",
+      "description": "Laat live zien hoeveel patiënten er momenteel zijn."
+    },
+    "waternl": {
+      "label": "Water Benodigd",
+      "description": "Toont de totale hoeveelheid water dat nodig is."
+    },
+    "vehicles": {
+      "label": "Voertuigen",
+      "description": "Geeft de benodigde voertuigen weer."
+    },
+    "patients": {
+      "label": "Patiënteninformatie",
+      "description": "Toont informatie over (potentiële) patiënten."
+    },
+    "prisoners": {
+      "label": "Gevangeneninformatie",
+      "description": "Toont informatie over (potentiële) gevangenen"
+    },
+    "special": {
+      "label": "Overige informatie",
+      "description": "Toont speciale informatie, zoals het minimum aantal personeelsleden dat nodig is."
+    },
+    "expansions": {
+      "label": "Incidentuitbreiding",
+      "description": "Toont, of en hoe deze melding zich uitbreiden kan (Laat alleen de eerste uitbreiding zien)"
+    },
+    "lfrw": {
+      "label": "Hulpverleningsvoertuig i.p.v. Tankautospuit",
+      "description": "Toont een opmerking als de inzet ook met een Hulpverleningsvoertuig in plaats van een Tankautospuit kan worden afgehandelt."
+    },
+    "show_100": {
+      "label": "Toon 100% waarschijnlijkheid",
+      "description": "Toont de waarschijnlijkheid van een voertuig, ook al is het 100%."
+    },
+    "credits": {
+      "label": "Gemiddelde verdiensten",
+      "description": "Toont de gemiddelde verdiensten die je krijgt voor deze opdracht."
+    },
+    "show_siwa": {
+      "label": "Helper bij geplande inzetten",
+      "description": "Toont de meldinghelper ook bij geplande inzetten."
+    },
+    "show_k9": {
+      "label": "Hond emoticon achter de inzetnaam",
+      "description": "Toont een emoticon van een hond achter de inzetnaam indien een hondengeleider vereist is."
+    },
+    "mission_time": {
+      "label": "Aanmaak tijd",
+      "description": "Toont de datum en tijd waarop de inzet is gemaakt."
     }
+  },
+  "requirements": {
+    "firetrucks": "Tankautospuiten",
+    "police_cars": "Noodhulpeenheden",
+    "battalion_chief_vehicles": "OvD-B",
+    "platform_trucks": "Redvoertuigen",
+    "water_tankers": "Slangenwagen",
+    "heavy_rescue_vehicles": "Hulpverleningsvoertuigen of Tankautospuit - Hulpverlening",
+    "mobile_air_vehicles": "Adembeschermingsvoertuigen",
+    "mobile_command_vehicles": "HOVD",
+    "gwmess": "Verkenningseenheden",
+    "hazmat_vehicles": "Adviseurs Gevaarlijke Stoffen",
+    "ovdp": "Officiers van Dienst Politie",
+    "elw3": "Commandowagen",
+    "ambulances": "Ambulances",
+    "nef": "MMT-arts",
+    "grukw": "ME Groepsvoertuig",
+    "lebefkw": "ME Commandovoertuigen",
+    "police_helicopters": "Politiehelikopter",
+    "diver_units": "Waterongevallenvoertuigen / Oppervlaktereddingsteams",
+    "boats": "Waterongevallenaanhangers",
+    "hondengeleider": "Hondengeleider",
+    "arff": "Crashtender",
+    "elw_airport": "AFO/OSC",
+    "ovdg": "OvD-Geneeskunde",
+    "at_c": "AT Commandant",
+    "at_o": "AT Operator",
+    "at_m": "AT Materiaalwagen",
+    "bike_police": "Biketeams",
+    "spokesman": "Voorlichter",
+    "allow_rw_instead_of_lf": "Tankautospuiten of Hulpverleningsvoertuigen of Hulpverleningshaakarmbakken"
+  }
+}

@@ -1,176 +1,176 @@
 {
-        "diy_mission": "Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.",
-        "guard_mission": "Sicherheitswache",
-        "vge": "VerbandsGroßEinsatz",
-        "patients": "Patienten",
-        "prisoners": "Gefangene",
-        "water": "Wasserbedarf",
-        "water1": "Liter",
-        "to": "bis zu",
-        "exp": "Ausbreitungen",
-        "fwm": "Folgeeinsätze",
-        "averageMinimumEmployeesFire": "Durchschnittliche min. Personalanzahl (Feuerwehr)",
-        "averageMinimumEmployeesPolice": "Durchschnittliche min. Personalanzahl (Polizei)",
-        "ambulance_only": "Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!",
-        "frchance": "First Responder Wahrscheinlichkeit",
-        "allow_rw_instead_of_lf": "Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.",
-        "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
-        "title": "Einsatzhelfer",
-        "settings": {
-            "name": {
-                "label": "Name",
-                "description": "Zeigt den Namen des Einsatzes im Helfer an."
-            },
-            "id": {
-                "label": "ID",
-                "description": "Zeigt die ID des Einsatzes im Helfer an."
-            },
-            "type": {
-                "label": "TYP-ID",
-                "description": "Zeigt die ID des Einsatz-Typs im Helfer an."
-            },
-            "poi": {
-                "label": "POI",
-                "description": "Zeigt im Helfer an, an welchem POI der Einsatz ist."
-            },
-            "live_patients": {
-                "label": "Zahl der Patienten",
-                "description": "Zeigt live an, wie viele Patienten der Einsatz aktuell hat."
-            },
-            "water": {
-                "label": "Wasserbedarf",
-                "description": "Zeigt die insgesamt benötigte Wassermenge an."
-            },
-            "vehicles": {
-                "label": "Fahrzeuge",
-                "description": "Zeigt die benötigten Fahrzeuge an."
-            },
-            "hide_elw1": {
-                "label": "ELW 1 einfach werten",
-                "description": "Zieht die Zahl der benötigten ELW 2 von den ELW 1 ab und blendet ELW 1 aus, falls die Anzahl unter 0 sinkt."
-            },
-            "hide_rw": {
-                "label": "Rüstwagen einfach werten",
-                "description": "Zieht die Zahl der benötigten LF von den RW ab und blendet RW aus, falls die Anzahl unter 0 sinkt. Diese Funktion ist für Leute gedacht, die ein reines HLF-System fahren."
-            },
-            "patients": {
-                "label": "Patienteninformationen",
-                "description": "Zeigt Informationen über (potentielle) Patienten."
-            },
-            "prisoners": {
-                "label": "Gefangeneninformationen",
-                "description": "Zeigt Informationen über (potentielle) Gefangene"
-            },
-            "special": {
-                "label": "Sonstige Informationen",
-                "description": "Zeigt Spezielle Informationen, wie z.B. das durchschnittlich mindestens benötige Personal, an."
-            },
-            "lfrw": {
-                "label": "Zeige ob RW oder GKW Einsatz bearbeiten kann",
-                "description": "Zeigt einen Hinweiß im Einsatz an, ob dieser auch mit einem RW oder GKW bearbeitet werden kann statt eines Löschfahrzeugs."
-            },
-            "expansions": {
-                "label": "Ausbreitungen",
-                "description": "Zeigt, zu was sich der Einsatz ausbreiten kann. (Zeigt nur einfache Ausbreitung)"
-            },
-            "followup": {
-                "label": "Folgeeinsätze",
-                "description": "Zeigt, was der Einsatz für Folgeinsätze generieren kann"
-            },
-            "show_100": {
-                "label": "Zeige 100% Wahrscheinlichkeit",
-                "description": "Zeigt die Wahrscheinlichkeit für ein Fahrzeug auch an, wenn diese 100% beträgt."
-            },
-            "credits": {
-                "label": "Durchschnittlicher Verdienst",
-                "description": "Zeigt den durchschnittlichen Verdienst, den man für diesen Einsatz bekommt an."
-            },
-            "show_siwa": {
-                "label": "Anforderungen von Sicherheitswachen",
-                "description": "Zeigt die Anforderungen bei Sicherheitswachen auch im Helfer an."
-            },
-            "mission_time": {
-                "label": "Generierungszeit",
-                "description": "Zeigt die Zeit der Generierung des Einsatzes an."
-            },
-            "show_rdu": {
-                "label": "Hundeicon hinter Einsatzname",
-                "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser die RHS braucht."
-            },
-            "show_rdu1": {
-                "label": "Auch im Einsatzhelfer anzeigen"
-            },
-            "show_k9": {
-                "label": "Hundeicon hinter Einsatzname (Polizei)",
-                "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser den SchutzHund braucht."
-            },
-            "show_ktwrtw": {
-                "label": "KTW statt RTW",
-                "description": "Zeigt ob ein KTW anstatt eines RTWs genutzt werden kann."
-            },
-            "show_arfflf": {
-                "description": "Zeigt an, wenn statt eines LF auch FLF am Einsatzort möglich sind.",
-                "label": "Anzeigen, wenn FLF als LF erlaubt sind"
-            },
-            "show_frchance": {
-                "label": "FirstResponder Chance",
-                "description": "Zeigt mit wieviel % ein beliebiges Fahrzeug zum behandeln ausreicht."
-            }
-        },
-        "transport": "Transport",
-        "tragehilfe": "Tragehilfe",
-        "requirements": {
-            "firetrucks": "Löschfahrzeuge",
-            "platform_trucks": "Drehleitern",
-            "heavy_rescue_vehicles": "Rüstwagen",
-            "battalion_chief_vehicles": "ELW 1",
-            "mobile_command_vehicles": "ELW 2",
-            "mobile_air_vehicles": "GW-Atemschutz",
-            "gwoil": "GW-Öl",
-            "gwmess": "GW-Messtechnik",
-            "hazmat_vehicles": "GW-Gefahrgut",
-            "water_tankers": "Schlauchwagen",
-            "hazmat_dekon": "Dekon-P",
-            "fwk": "Feuerwehrkran",
-            "height_rescue_units": "GW-Höhenrettung",
-            "police_cars": "Funkstreifenwagen",
-            "boats": "Boot",
-            "lebefkw": "Leichter Befehlskraftwagen",
-            "fukw": "Führungskraftwagen",
-            "grukw": "Gruppenkraftwagen",
-            "gefkw": "Gefangenenkraftwagen",
-            "wasserwerfer": "Wasserwerfer",
-            "nef": "NEF",
-            "helicopter": "RTH",
-            "lna": "KdoW-LNA",
-            "orgl": "KdoW-OrgL",
-            "ambulances": "RTW",
-            "ktw": "KTW oder RTW",
-            "thw_gkw": "Gerätekraftwagen",
-            "thw_mzkw": "Mehrzweckkraftwagen",
-            "thw_mtwtz": "MTW-TZ",
-            "thw_brmg_r": "Radlader (BRmG R)",
-            "thw_lkw": "LKW K 9",
-            "thw_dle": "Anhänger Drucklufterzeugung",
-            "police_helicopters": "Polizeihubschrauber",
-            "helicopter_bucket": "Außenlastbehälter (allgemein)",
-            "arff": "Flugfeldlöschfahrzeug",
-            "rettungstreppe": "Rettungstreppe",
-            "diver_units": "Taucher",
-            "mek": "MEK-Fahrzeuge",
-            "sek": "SEK-Fahrzeuge",
-            "gw_werkfeuerwehr": "GW-Werkfeuerwehr",
-            "ulf": "ULF mit Löscharm",
-            "teleskopmast": "Teleskopmasten",
-            "turboloescher": "Turbolöscher",
-            "gw_san": "GW-San",
-            "seg_elw": "ELW 1 (SEG)",
-            "water_rescue": "GW-Wasserrettung",
-            "rescue_dog_units": "Rettungshundestaffel",
-            "k9": "DHuFüKw",
-            "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW",
-            "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
-            "allow_arff_instead_of_lf": "Löschfahrzeuge oder Flugfeldlöschfahrzeuge",
-            "ktw_or_rtw": "RTW oder KTW oder KTW Typ B"
-        }
+  "diy_mission": "Dieser Einsatz scheint ein selbst erstellter Verbandsgroßeinsatz zu sein.",
+  "guard_mission": "Sicherheitswache",
+  "vge": "VerbandsGroßEinsatz",
+  "patients": "Patienten",
+  "prisoners": "Gefangene",
+  "water": "Wasserbedarf",
+  "water1": "Liter",
+  "to": "bis zu",
+  "exp": "Ausbreitungen",
+  "fwm": "Folgeeinsätze",
+  "averageMinimumEmployeesFire": "Durchschnittliche min. Personalanzahl (Feuerwehr)",
+  "averageMinimumEmployeesPolice": "Durchschnittliche min. Personalanzahl (Polizei)",
+  "ambulance_only": "Dieser Einsatz ist ein reiner Rettungsdienst-Einsatz!",
+  "frchance": "First Responder Wahrscheinlichkeit",
+  "allow_rw_instead_of_lf": "Dieser Einsatz kann auch mit einem RW oder GKW bearbeitet werden statt eines Löschfahrzeugs.",
+  "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
+  "title": "Einsatzhelfer",
+  "settings": {
+    "name": {
+      "label": "Name",
+      "description": "Zeigt den Namen des Einsatzes im Helfer an."
+    },
+    "id": {
+      "label": "ID",
+      "description": "Zeigt die ID des Einsatzes im Helfer an."
+    },
+    "type": {
+      "label": "TYP-ID",
+      "description": "Zeigt die ID des Einsatz-Typs im Helfer an."
+    },
+    "poi": {
+      "label": "POI",
+      "description": "Zeigt im Helfer an, an welchem POI der Einsatz ist."
+    },
+    "live_patients": {
+      "label": "Zahl der Patienten",
+      "description": "Zeigt live an, wie viele Patienten der Einsatz aktuell hat."
+    },
+    "water": {
+      "label": "Wasserbedarf",
+      "description": "Zeigt die insgesamt benötigte Wassermenge an."
+    },
+    "vehicles": {
+      "label": "Fahrzeuge",
+      "description": "Zeigt die benötigten Fahrzeuge an."
+    },
+    "hide_elw1": {
+      "label": "ELW 1 einfach werten",
+      "description": "Zieht die Zahl der benötigten ELW 2 von den ELW 1 ab und blendet ELW 1 aus, falls die Anzahl unter 0 sinkt."
+    },
+    "hide_rw": {
+      "label": "Rüstwagen einfach werten",
+      "description": "Zieht die Zahl der benötigten LF von den RW ab und blendet RW aus, falls die Anzahl unter 0 sinkt. Diese Funktion ist für Leute gedacht, die ein reines HLF-System fahren."
+    },
+    "patients": {
+      "label": "Patienteninformationen",
+      "description": "Zeigt Informationen über (potentielle) Patienten."
+    },
+    "prisoners": {
+      "label": "Gefangeneninformationen",
+      "description": "Zeigt Informationen über (potentielle) Gefangene"
+    },
+    "special": {
+      "label": "Sonstige Informationen",
+      "description": "Zeigt Spezielle Informationen, wie z.B. das durchschnittlich mindestens benötige Personal, an."
+    },
+    "lfrw": {
+      "label": "Zeige ob RW oder GKW Einsatz bearbeiten kann",
+      "description": "Zeigt einen Hinweiß im Einsatz an, ob dieser auch mit einem RW oder GKW bearbeitet werden kann statt eines Löschfahrzeugs."
+    },
+    "expansions": {
+      "label": "Ausbreitungen",
+      "description": "Zeigt, zu was sich der Einsatz ausbreiten kann. (Zeigt nur einfache Ausbreitung)"
+    },
+    "followup": {
+      "label": "Folgeeinsätze",
+      "description": "Zeigt, was der Einsatz für Folgeinsätze generieren kann"
+    },
+    "show_100": {
+      "label": "Zeige 100% Wahrscheinlichkeit",
+      "description": "Zeigt die Wahrscheinlichkeit für ein Fahrzeug auch an, wenn diese 100% beträgt."
+    },
+    "credits": {
+      "label": "Durchschnittlicher Verdienst",
+      "description": "Zeigt den durchschnittlichen Verdienst, den man für diesen Einsatz bekommt an."
+    },
+    "show_siwa": {
+      "label": "Anforderungen von Sicherheitswachen",
+      "description": "Zeigt die Anforderungen bei Sicherheitswachen auch im Helfer an."
+    },
+    "mission_time": {
+      "label": "Generierungszeit",
+      "description": "Zeigt die Zeit der Generierung des Einsatzes an."
+    },
+    "show_rdu": {
+      "label": "Hundeicon hinter Einsatzname",
+      "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser die RHS braucht."
+    },
+    "show_rdu1": {
+      "label": "Auch im Einsatzhelfer anzeigen"
+    },
+    "show_k9": {
+      "label": "Hundeicon hinter Einsatzname (Polizei)",
+      "description": "Zeigt ein Hundeemoji hinter dem Einsatznamen, wenn dieser den SchutzHund braucht."
+    },
+    "show_ktwrtw": {
+      "label": "KTW statt RTW",
+      "description": "Zeigt ob ein KTW anstatt eines RTWs genutzt werden kann."
+    },
+    "show_arfflf": {
+      "description": "Zeigt an, wenn statt eines LF auch FLF am Einsatzort möglich sind.",
+      "label": "Anzeigen, wenn FLF als LF erlaubt sind"
+    },
+    "show_frchance": {
+      "label": "FirstResponder Chance",
+      "description": "Zeigt mit wieviel % ein beliebiges Fahrzeug zum behandeln ausreicht."
     }
+  },
+  "transport": "Transport",
+  "tragehilfe": "Tragehilfe",
+  "requirements": {
+    "firetrucks": "Löschfahrzeuge",
+    "platform_trucks": "Drehleitern",
+    "heavy_rescue_vehicles": "Rüstwagen",
+    "battalion_chief_vehicles": "ELW 1",
+    "mobile_command_vehicles": "ELW 2",
+    "mobile_air_vehicles": "GW-Atemschutz",
+    "gwoil": "GW-Öl",
+    "gwmess": "GW-Messtechnik",
+    "hazmat_vehicles": "GW-Gefahrgut",
+    "water_tankers": "Schlauchwagen",
+    "hazmat_dekon": "Dekon-P",
+    "fwk": "Feuerwehrkran",
+    "height_rescue_units": "GW-Höhenrettung",
+    "police_cars": "Funkstreifenwagen",
+    "boats": "Boot",
+    "lebefkw": "Leichter Befehlskraftwagen",
+    "fukw": "Führungskraftwagen",
+    "grukw": "Gruppenkraftwagen",
+    "gefkw": "Gefangenenkraftwagen",
+    "wasserwerfer": "Wasserwerfer",
+    "nef": "NEF",
+    "helicopter": "RTH",
+    "lna": "KdoW-LNA",
+    "orgl": "KdoW-OrgL",
+    "ambulances": "RTW",
+    "ktw": "KTW oder RTW",
+    "thw_gkw": "Gerätekraftwagen",
+    "thw_mzkw": "Mehrzweckkraftwagen",
+    "thw_mtwtz": "MTW-TZ",
+    "thw_brmg_r": "Radlader (BRmG R)",
+    "thw_lkw": "LKW K 9",
+    "thw_dle": "Anhänger Drucklufterzeugung",
+    "police_helicopters": "Polizeihubschrauber",
+    "helicopter_bucket": "Außenlastbehälter (allgemein)",
+    "arff": "Flugfeldlöschfahrzeug",
+    "rettungstreppe": "Rettungstreppe",
+    "diver_units": "Taucher",
+    "mek": "MEK-Fahrzeuge",
+    "sek": "SEK-Fahrzeuge",
+    "gw_werkfeuerwehr": "GW-Werkfeuerwehr",
+    "ulf": "ULF mit Löscharm",
+    "teleskopmast": "Teleskopmasten",
+    "turboloescher": "Turbolöscher",
+    "gw_san": "GW-San",
+    "seg_elw": "ELW 1 (SEG)",
+    "water_rescue": "GW-Wasserrettung",
+    "rescue_dog_units": "Rettungshundestaffel",
+    "k9": "DHuFüKw",
+    "allow_rw_instead_of_lf": "Löschfahrzeuge oder Rüstwagen oder GKW",
+    "allow_ktw_instead_of_rtw": "KTW statt RTW kann genutzt werden",
+    "allow_arff_instead_of_lf": "Löschfahrzeuge oder Flugfeldlöschfahrzeuge",
+    "ktw_or_rtw": "RTW oder KTW oder KTW Typ B"
+  }
+}
