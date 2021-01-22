@@ -600,7 +600,7 @@
                 window.hasOwnProperty('lssmv4')
             ) {
                 markup +=
-                    '<button id="missionkeywordsToV4" type="button">→ LSSM V.4</button>';
+                    '<button id="missionkeywordsToV4" type="button" class="btn btn-success">→ LSSM V.4</button>';
             }
             markup += '</h3>';
             if (module.info_text) {
@@ -645,24 +645,32 @@
                     .addEventListener('click', e => {
                         e.preventDefault();
                         const keywords = {};
-                        Object.keys(
+                        Object.entries(
                             lssm.managedSettings.getSettings(
                                 'LSS_MISSIONKEYWORD_STORAGE'
                             )
                         ).forEach(([mission, { value }]) => {
-                            if (!mission.match(/missionKeyword-\d+/)) return;
+                            if (!mission.match(/^missionKeyword-\d+$/)) return;
                             mission = mission.replace(/^.*-/, '');
-                            if (!keywords.hasOwnPropery(value))
+                            if (!keywords.hasOwnProperty(value))
                                 keywords[value] = [];
                             keywords[value].push(mission);
                         });
-                        console.log(keywords);
-                        /*window.lssmv4.$store.dispatch('settings/setSetting', {
-                    moduleId: 'extendedCallWindow',
-                    settingId: 'missionKeywords',
-                    value: [],
-                });
-            */
+                        window.lssmv4.$store
+                            .dispatch('settings/setSetting', {
+                                moduleId: 'extendedCallWindow',
+                                settingId: 'missionKeywords',
+                                value: {
+                                    value: Object.entries(keywords).map(
+                                        ([keyword, missions]) => ({
+                                            keyword,
+                                            missions,
+                                        })
+                                    ),
+                                    enabled: true,
+                                },
+                            })
+                            .then(() => alert('👍'));
                     });
             }
         });
