@@ -4797,6 +4797,28 @@
             "police_helicopter_stations": 1
         }
     },
+    "254": {
+        "id": 254,
+        "name": "\u00danik pohonn\u00fdch hmot na vozovku",
+        "place": null,
+        "average_credits": 750,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/olfass_gruen.png",
+            "1": "/images/olfass_gelb.png",
+            "2": "/images/olfass_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
     "255": {
         "id": 255,
         "name": "Nehoda pot\u00e1p\u011b\u010de",
@@ -5684,7 +5706,7 @@
     "281": {
         "id": 281,
         "name": "Osoba ve vod\u011b",
-        "place": "Truhl\u00e1rna",
+        "place": "Most",
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {

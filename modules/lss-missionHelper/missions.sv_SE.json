@@ -2866,7 +2866,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4919,6 +4921,31 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "257": {
+        "id": 257,
+        "name": "Brand ute - soptipp",
+        "place": "Soptipp",
+        "average_credits": 2470,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "water_tankers": 2,
+            "hazmat_vehicles": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 11
         }
     }
 }
