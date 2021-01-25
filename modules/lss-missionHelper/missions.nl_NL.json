@@ -17827,6 +17827,58 @@
             "fire_stations": 6
         }
     },
+    "707": {
+        "id": 707,
+        "name": "ANPR hit: Rijden zonder rijbewijs",
+        "place": "Snelweg oprit / afrit",
+        "average_credits": 800,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 124
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "708": {
+        "id": 708,
+        "name": "ANPR hit: Gesignaleerd persoon",
+        "place": "Snelweg oprit / afrit",
+        "average_credits": 1300,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 124
+            },
+            "max_possible_prisoners": 2,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
     "709": {
         "id": 709,
         "name": "Brand in boerderij",

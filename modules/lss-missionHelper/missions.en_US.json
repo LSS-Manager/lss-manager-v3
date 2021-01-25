@@ -14512,5 +14512,72 @@
             "rescue_stations": 6,
             "fire_stations": 8
         }
+    },
+    "513": {
+        "id": 513,
+        "name": "Transporter fell on side",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "29-D-2",
+                "1": "29-D-5",
+                "2": "29-D-6",
+                "3": "29-D-7",
+                "4": "29-D-8",
+                "5": "29-D-9",
+                "6": "29-B-1",
+                "7": "29-B-3"
+            },
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "514": {
+        "id": 514,
+        "name": "Illegal internet activity",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Federal Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "fbi": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 442,
+                "1": 444
+            },
+            "max_possible_prisoners": 1,
+            "filter_id": "federal_police_missions"
+        },
+        "prerequisites": {
+            "federalpolice_stations": 1
+        }
     }
 }

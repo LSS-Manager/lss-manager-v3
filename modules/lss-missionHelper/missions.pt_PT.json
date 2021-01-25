@@ -4280,5 +4280,38 @@
             "police_stations": 2,
             "fire_stations": 5
         }
+    },
+    "224": {
+        "id": 224,
+        "name": "Inc\u00eandio num Centro Comercial",
+        "place": "Centro Comercial",
+        "average_credits": 7850,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 10,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 3,
+            "water_tankers": 3,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 10,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 3,
+            "fire_stations": 10
+        }
     }
 }

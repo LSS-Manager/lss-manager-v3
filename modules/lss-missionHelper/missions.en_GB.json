@@ -5974,5 +5974,63 @@
         "prerequisites": {
             "police_stations": 5
         }
+    },
+    "268": {
+        "id": 268,
+        "name": "HGV Rollover Down Embankment",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/caraccident_gruen.png",
+            "1": "/images/caraccident_gelb.png",
+            "2": "/images/caraccident_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 70,
+            "helicopter": 40,
+            "patient_critical_care": 65
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 8
+        }
+    },
+    "269": {
+        "id": 269,
+        "name": "Illegal internet activity",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

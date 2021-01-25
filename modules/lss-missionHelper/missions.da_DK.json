@@ -5517,11 +5517,64 @@
             "fire_stations": 10
         }
     },
+    "272": {
+        "id": 272,
+        "name": "Transport K\u00f8ret\u00f8j V\u00e6ltet",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Kirurg"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 6
+        }
+    },
+    "273": {
+        "id": 273,
+        "name": "Ulovlig Internet Aktivitet",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "max_possible_prisoners": 1,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
     "274": {
         "id": 274,
         "name": "Motions l\u00f8b",
         "place": null,
-        "average_credits": null,
+        "average_credits": 8000,
         "generated_by": "Politistation",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
