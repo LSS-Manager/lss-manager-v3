@@ -3094,7 +3094,8 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "expansion_missions_ids": {
-                "0": 557
+                "0": 557,
+                "1": 596
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
@@ -3668,8 +3669,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
