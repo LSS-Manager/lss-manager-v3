@@ -840,6 +840,7 @@
                 6: "Stazione di polizia",
                 7: "Centrale operativa",
                 13: "Elibase polizia",
+                15: "Caserma soccorso acquatico VVF",
                 18: "Caserma dei vigili del fuoco (piccola)",
                 19: "Stazione di polizia (stazione piccola)",
                 20: "Stazione ambulanze (stazione piccola)",
@@ -868,7 +869,11 @@
                 19: 'MSA',
                 20: 'Ambulanza Ordinaria',
                 21: 'Volante Finanza',
-                22: 'Furgone artificieri'
+                22: 'Furgone artificieri',
+                23: 'Camion NSSA',
+                24: 'Pickup SAF',
+                25: 'Barca',
+                26: 'AF/BUS'
             }
         }
     };

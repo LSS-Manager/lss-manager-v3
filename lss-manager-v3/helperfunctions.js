@@ -320,7 +320,11 @@ else if (I18n.locale == "it_IT") {
         "19": ["MSA", 1],
         "20": ["Ambulanza Ordinaria", 1],
         "21": ["Volante Finanza", 2],
-        "22": ["Furgone artificieri", 2]
+        "22": ["Furgone artificieri", 2],
+        "23": ["Camion NSSA", 4],
+        "24": ["Pickup SAF", 4],
+        "25": ["Barce", 4],
+        "26": ["AF/BUS", 0]
     };
 }
 else if (I18n.locale == "fr_FR") {
