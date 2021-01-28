@@ -6114,9 +6114,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -7888,6 +7886,299 @@
             "rescue_stations": 10,
             "police_stations": 2,
             "fire_stations": 8
+        }
+    },
+    "314": {
+        "id": 314,
+        "name": "Auto nell'acqua",
+        "place": "Lago",
+        "average_credits": 2000,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "water_rescue": 1
+        },
+        "chances": {
+            "fwk": 25,
+            "patient_transport": 85
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "315": {
+        "id": 315,
+        "name": "Camion nell'acqua",
+        "place": "Lago",
+        "average_credits": 2500,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2,
+            "water_rescue": 1
+        },
+        "chances": {
+            "patient_transport": 85
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "316": {
+        "id": 316,
+        "name": "Bus nell'acqua",
+        "place": "Lago",
+        "average_credits": 4200,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "fwk": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 3,
+            "water_rescue": 2,
+            "diver_units": 1
+        },
+        "chances": {
+            "patient_transport": 65
+        },
+        "additional": {
+            "possible_patient": 15,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC01G"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 10,
+            "police_stations": 3,
+            "fire_stations": 5
+        }
+    },
+    "317": {
+        "id": 317,
+        "name": "Incidente sommozzatore",
+        "place": "Lago",
+        "average_credits": 3500,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "mobile_command_vehicles": 1,
+            "water_rescue": 1,
+            "diver_units": 2,
+            "boats": 1
+        },
+        "chances": {
+            "patient_transport": 95
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC03R"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 13
+        }
+    },
+    "318": {
+        "id": 318,
+        "name": "Persona dispersa in mare",
+        "place": "Lago",
+        "average_credits": 4200,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_helicopters": 1,
+            "police_cars": 2,
+            "water_rescue": 1,
+            "diver_units": 1,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 95,
+            "helicopter": 25
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 25,
+            "average_min_police_personnel": 8,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC03R"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "police_stations": 4,
+            "fire_stations": 8
+        }
+    },
+    "319": {
+        "id": 319,
+        "name": "Segnalazione di persona in acqua",
+        "place": "Fiume",
+        "average_credits": 1000,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "water_rescue": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "water_watch_missions"
+        },
+        "prerequisites": {
+            "wasserrettung": 1
+        }
+    },
+    "320": {
+        "id": 320,
+        "name": "Segnalazione di persona in acqua",
+        "place": "Lago",
+        "average_credits": 2500,
+        "generated_by": "Caserma soccorso acquatico VVF",
+        "icons": {
+            "0": "/images/waterpark_gruen.png",
+            "1": "/images/waterpark_gelb.png",
+            "2": "/images/waterpark_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2,
+            "water_rescue": 1,
+            "diver_units": 1,
+            "boats": 2
+        },
+        "chances": {
+            "patient_transport": 95
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 15,
+            "patient_it_code_possible": {
+                "0": "ZC01R",
+                "1": "ZC03R"
+            },
+            "filter_id": "water_watch_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale"
+            },
+            "patient_at_end_of_mission": true
+        },
+        "prerequisites": {
+            "wasserrettung": 2,
+            "rescue_stations": 1
         }
     }
 }

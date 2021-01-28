@@ -8,6 +8,7 @@
   "exp": "Espansione",
   "SWATPersonnel": "Needed SWAT Personnel",
   "averageMinimumEmployeesFire": "Vigili del Fuoco richiesti",
+  "averageMinimumEmployeesPolice": "Media min. Personale di polizia",
   "ambulance_only": "Questa missione e' riservata alle ambulanze.!",
   "title": "Missionhelper",
   "transport": "Trasporto",
@@ -100,6 +101,9 @@
     "police_helicopters": "elicottero della polizia",
     "commerce_police": "Volante Finanza",
     "fbi_bomb": "Furgone artificieri",
+    "diver_units": "Camion tecnico NSSA",
+    "boats": "Barche",
+    "water_rescue": "Pickup SAF",
     "allow_rw_instead_of_lf": "Camion dei pompieri o salvataggio pesante"
   }
 }

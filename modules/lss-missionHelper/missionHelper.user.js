@@ -398,6 +398,16 @@ const lssm_missionhelper_adjustPosition = () => {
                     ),
                 },
             };
+            managed_settings.settings.education = {
+                default: false,
+                ui: {
+                    label: I18n.t(
+                        'lssm.missionhelper.settings.education.label'
+                    ),
+                    type: 'checkbox',
+                    parent: SETTINGS_STORAGE + '_special_toggle',
+                },
+            };
             managed_settings.settings.show_droinv = {
                 default: false,
                 ui: {

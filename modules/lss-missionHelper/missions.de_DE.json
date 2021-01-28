@@ -394,8 +394,7 @@
         },
         "requirements": {
             "water_needed": 800,
-            "firetrucks": 1,
-            "helicopter_bucket": 1
+            "firetrucks": 1
         },
         "chances": {},
         "additional": {
@@ -403,8 +402,7 @@
                 "0": 134,
                 "1": 135
             },
-            "filter_id": "firehouse_missions",
-            "need_helicopter_bucket_only_if_present": true
+            "filter_id": "firehouse_missions"
         },
         "prerequisites": {
             "fire_stations": 2
@@ -3094,8 +3092,7 @@
             "possible_patient": 4,
             "possible_patient_min": 2,
             "expansion_missions_ids": {
-                "0": 557,
-                "1": 596
+                "0": 557
             },
             "filter_id": "firehouse_missions",
             "patient_specializations": "Unfallchirurgie"
@@ -3669,9 +3666,8 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 27,
-                "1": 43,
-                "2": 83
+                "0": 43,
+                "1": 83
             },
             "filter_id": "police_station_missions"
         },
