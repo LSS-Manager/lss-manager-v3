@@ -7,6 +7,9 @@
 // 3 = THW
 // 4 = Wasserrettung
 if (I18n.locale == "en_US") {
+    lssm.educations = [
+        'HazMat',
+    ];
     lssm.carsById = {
         "0": ["Type 1 fire engine", 0],
         "1": ["Type 2 fire engine", 0],
@@ -55,7 +58,10 @@ if (I18n.locale == "en_US") {
         "44": ["FBI Mobile Command Center", 2],
         "45": ["FBI Bomb Technician Vehicle", 2],
         "46": ["FBI Surveillance Drone", 2],
-        "47": ["Sheriff Unit", 2]
+        "47": ["Sheriff Unit", 2],
+        "48": ["EMS Fire Engine/Ambulance", 1],
+        "49": ["Tactical Ambulance", 1],
+        "50": ["Hazmat Ambulance", 1]
     };
 }
 else if (I18n.locale == "en_GB") {

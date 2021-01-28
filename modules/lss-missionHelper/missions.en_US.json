@@ -1303,7 +1303,10 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 2,
             "mobile_air_vehicles": 1,
-            "hazmat_vehicles": 1
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "heavy_rescue_vehicles": 30,
@@ -1311,7 +1314,10 @@
             "hazmat_vehicles": 70
         },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "fire_stations": 11
@@ -1332,7 +1338,10 @@
             "firetrucks": 3,
             "battalion_chief_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "hazmat_vehicles": 1
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "heavy_rescue_vehicles": 50,
@@ -1344,7 +1353,10 @@
             "patient_us_code_possible": {
                 "0": "29-D-3"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -1949,7 +1961,10 @@
             "battalion_chief_vehicles": 2,
             "mobile_command_vehicles": 1,
             "platform_trucks": 2,
-            "hazmat_vehicles": 1
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -1960,11 +1975,14 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
-            "patient_specializations": "General Surgeon"
+            "patient_specializations": "General Surgeon",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
-            "fire_stations": 6
+            "fire_stations": 11
         }
     },
     "88": {
@@ -2321,11 +2339,17 @@
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 2,
             "hazmat_vehicles": 2,
-            "police_cars": 3
+            "police_cars": 3,
+            "personnel_educations": {
+                "-1": 8
+            }
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 8
+            }
         },
         "prerequisites": {
             "police_stations": 2,
@@ -2430,11 +2454,17 @@
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 2,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {},
         "additional": {
-            "filter_id": "firehouse_missions"
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "police_stations": 2,
@@ -3581,7 +3611,10 @@
             "battalion_chief_vehicles": 2,
             "platform_trucks": 2,
             "hazmat_vehicles": 2,
-            "police_cars": 4
+            "police_cars": 4,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -3594,12 +3627,15 @@
             "patient_us_code_possible": {
                 "0": "7-C-1F"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 5,
             "police_stations": 4,
-            "fire_stations": 10
+            "fire_stations": 11
         }
     },
     "140": {
@@ -4046,7 +4082,10 @@
             "battalion_chief_vehicles": 1,
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
-            "hazmat_vehicles": 1
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -4063,7 +4102,10 @@
                 "5": "8-C-1C",
                 "6": "8-B-1C"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 6,
@@ -5503,7 +5545,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 25
@@ -5514,7 +5559,10 @@
             "patient_us_code_possible": {
                 "0": "29-D-1f"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 7,
@@ -5772,7 +5820,10 @@
             "heavy_rescue_vehicles": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 50
@@ -5789,7 +5840,10 @@
                 "5": "8-C-1G",
                 "6": "8-B-1G"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 5,
@@ -6571,7 +6625,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 4
+            "police_cars": 4,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -6616,7 +6673,10 @@
                 "33": "8-C-1G",
                 "34": "8-B-1G"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 5,
@@ -6641,7 +6701,10 @@
             "heavy_rescue_vehicles": 1,
             "water_tankers": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -6686,7 +6749,10 @@
                 "33": "8-C-1G",
                 "34": "8-B-1G"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -7053,7 +7119,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 2,
             "hazmat_vehicles": 1,
-            "police_cars": 4
+            "police_cars": 4,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 30
@@ -7077,7 +7146,10 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 5,
@@ -8498,7 +8570,10 @@
             "platform_trucks": 1,
             "heavy_rescue_vehicles": 4,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 70
@@ -8538,7 +8613,10 @@
                 "24": "30-B-2",
                 "25": "30-A-1"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 15,
@@ -9293,7 +9371,10 @@
             "firetrucks": 2,
             "battalion_chief_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 6
+            "police_cars": 6,
+            "personnel_educations": {
+                "-1": 2
+            }
         },
         "chances": {
             "patient_transport": 15
@@ -9311,7 +9392,10 @@
                 "5": "8-C-1G",
                 "6": "8-B-1G"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 2
+            }
         },
         "prerequisites": {
             "rescue_stations": 5,
@@ -9900,7 +9984,10 @@
         },
         "requirements": {
             "firetrucks": 1,
-            "hazmat_vehicles": 1
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 2
+            }
         },
         "chances": {
             "hazmat_vehicles": 70,
@@ -9921,7 +10008,10 @@
                 "5": "8-C-1C",
                 "6": "8-B-1C"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 2
+            }
         },
         "prerequisites": {
             "rescue_stations": 1,
@@ -10025,7 +10115,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "water_tankers": 40,
@@ -10050,7 +10143,10 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Internal",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 3,
@@ -10616,7 +10712,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 3
+            "police_cars": 3,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 50
@@ -10636,7 +10735,10 @@
                 "7": "22-B-2"
             },
             "patient_allow_first_responder_chance": 25,
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -12217,7 +12319,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 8
+            "police_cars": 8,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "water_tankers": 20,
@@ -12246,7 +12351,10 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 13,
@@ -12274,7 +12382,10 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 8
+            "police_cars": 8,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "water_tankers": 20,
@@ -12303,7 +12414,10 @@
                 "12": "7-C-4F",
                 "13": "7-A-1F"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 13,
@@ -12660,7 +12774,10 @@
             "mobile_command_vehicles": 1,
             "heavy_rescue_vehicles": 1,
             "hazmat_vehicles": 1,
-            "police_cars": 2
+            "police_cars": 2,
+            "personnel_educations": {
+                "-1": 4
+            }
         },
         "chances": {
             "patient_transport": 50
@@ -12672,7 +12789,10 @@
                 "0": "77-C-2",
                 "1": "77-D-10"
             },
-            "patient_specializations": "Traumatology"
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
         },
         "prerequisites": {
             "rescue_stations": 2,
@@ -14578,6 +14698,329 @@
         },
         "prerequisites": {
             "federalpolice_stations": 1
+        }
+    },
+    "515": {
+        "id": 515,
+        "name": "Chlorine Exposure",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 2
+            }
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-4C",
+                "1": "8-C-1C",
+                "2": "8-B-1C"
+            },
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 2
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "516": {
+        "id": 516,
+        "name": "Containment Breach at Lab",
+        "place": "Laboratory",
+        "average_credits": 7500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 2,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 5,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-5C",
+                "1": "8-D-5B",
+                "2": "8-D-6",
+                "3": "8-D-6C",
+                "4": "8-D-6B"
+            },
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 2,
+            "fire_stations": 13
+        }
+    },
+    "517": {
+        "id": 517,
+        "name": "Agricultural Chemical Leak",
+        "place": "Farm",
+        "average_credits": 3500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-D-2C",
+                "1": "8-D-3C",
+                "2": "8-D-4C",
+                "3": "8-C-1C",
+                "4": "8-B-1C"
+            },
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 11
+        }
+    },
+    "518": {
+        "id": 518,
+        "name": "Container Leaking Unknown Substance",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 2
+            }
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 2
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
+    },
+    "519": {
+        "id": 519,
+        "name": "Aircraft Leaking Fuel",
+        "place": "Small Airport (Runway)",
+        "average_credits": 1500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "arff": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
+    },
+    "520": {
+        "id": 520,
+        "name": "Aircraft Leaking Fuel",
+        "place": "Large Airport (Runway)",
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/planecrash_gruen.png",
+            "1": "/images/planecrash_gelb.png",
+            "2": "/images/planecrash_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "arff": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
+    },
+    "521": {
+        "id": 521,
+        "name": "Radioactive Exposure",
+        "place": "Hospital",
+        "average_credits": 2500,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "8-B-1R"
+            },
+            "patient_specializations": "Traumatology",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "fire_stations": 11
+        }
+    },
+    "522": {
+        "id": 522,
+        "name": "Fuel Spill in Waterway",
+        "place": "River",
+        "average_credits": 3000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
+    },
+    "523": {
+        "id": 523,
+        "name": "Fuel Spill in Waterway",
+        "place": "Lake",
+        "average_credits": 3000,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "boats": 1,
+            "personnel_educations": {
+                "-1": 4
+            }
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions",
+            "personnel_educations": {
+                "HazMat": 4
+            }
+        },
+        "prerequisites": {
+            "wasserrettung": 1,
+            "rescue_stations": 2,
+            "fire_stations": 11
         }
     }
 }

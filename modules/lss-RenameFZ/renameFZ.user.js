@@ -263,7 +263,10 @@
                 44: 'FBI Mobile Command Center',
                 45: 'FBI Bomb Technician Vehicle',
                 46: 'FBI Surveillance Drone',
-                47: 'Sheriff Unit'
+                47: 'Sheriff Unit',
+                48: 'EMS Fire Engine/Ambulance',
+                49: 'Tactical Ambulance',
+                50: 'Hazmat Ambulance'
             }
         }
     };

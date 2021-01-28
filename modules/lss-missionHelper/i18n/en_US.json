@@ -14,6 +14,7 @@
   "ambulance_only": "This mission is ambulance-only!",
   "averageMinimumEmployeesFire": "Average min . Fire Personnel",
   "averageMinimumEmployeesPolice": "Average min . Police Personnel",
+  "education": "Required Personnel",
   "title": "Missionhelper",
   "transport": "Transport",
   "allow_rw_instead_of_lf": "This Mission can also be carried out with a Heavy Rescue instead of a firetruck",
@@ -57,6 +58,9 @@
     "special": {
       "label": "Other information",
       "description": "Displays special information, such as the average minimum number of personnel required."
+    },
+    "education": {
+      "label": "Show the necessary trained people"
     },
     "expansions": {
       "label": "distributions",
