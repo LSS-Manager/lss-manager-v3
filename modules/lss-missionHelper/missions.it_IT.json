@@ -6114,9 +6114,7 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {
-                "0": 193
-            },
+            "expansion_missions_ids": {},
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8181,6 +8179,151 @@
         "prerequisites": {
             "wasserrettung": 2,
             "rescue_stations": 1
+        }
+    },
+    "321": {
+        "id": 321,
+        "name": "Impalcatura pericolante",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 323
+            },
+            "only_alliance_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {}
+    },
+    "322": {
+        "id": 322,
+        "name": "Sottopasso allagato",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "323": {
+        "id": 323,
+        "name": "Caduta calcinacci",
+        "place": null,
+        "average_credits": 980,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
+    },
+    "324": {
+        "id": 324,
+        "name": "Crollo impalcatura",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 60
+        },
+        "additional": {
+            "possible_patient": 3,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "LC01R",
+                "1": "LC01G",
+                "2": "LC01V"
+            },
+            "filter_id": "firehouse_missions",
+            "possible_patient_specializations": {
+                "0": "Medicina interna generale",
+                "1": "Traumatologia",
+                "2": "Medicina interna generale",
+                "3": "Traumatologia",
+                "4": "Medicina interna generale",
+                "5": "Traumatologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 2,
+            "fire_stations": 4
+        }
+    },
+    "328": {
+        "id": 328,
+        "name": "Incendio boschivo (GRANDE)",
+        "place": "Bosco",
+        "average_credits": 8500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "mobile_command_vehicles": 1,
+            "heavy_rescue_vehicles": 4,
+            "water_tankers": 2,
+            "police_helicopters": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "police_helicopter_stations": 1,
+            "fire_stations": 14
         }
     }
 }

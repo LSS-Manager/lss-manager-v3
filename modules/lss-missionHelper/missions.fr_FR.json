@@ -5573,5 +5573,31 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "292": {
+        "id": 292,
+        "name": "Animal dans un arbre",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1,
+            "thw_gkw": 1
+        },
+        "chances": {
+            "platform_trucks": 10
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

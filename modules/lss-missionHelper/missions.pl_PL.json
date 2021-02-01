@@ -6476,5 +6476,59 @@
             "police_stations": 2,
             "fire_stations": 14
         }
+    },
+    "318": {
+        "id": 318,
+        "name": "Podpalenie Samochodu",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "319": {
+        "id": 319,
+        "name": "Napad Na Konw\u00f3j Z Pieni\u0119dzmi",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Komenda Policji",
+        "icons": {
+            "0": "/images/shooting_gruen.png",
+            "1": "/images/shooting_gelb.png",
+            "2": "/images/shooting_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3,
+            "k9": 1
+        },
+        "chances": {
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 3,
+            "max_possible_prisoners": 1,
+            "swat_personnel": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 8
+        }
     }
 }
