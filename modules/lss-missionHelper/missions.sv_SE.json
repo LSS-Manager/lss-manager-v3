@@ -4947,5 +4947,27 @@
         "prerequisites": {
             "fire_stations": 11
         }
+    },
+    "258": {
+        "id": 258,
+        "name": "Kvargl\u00f6mt bagage",
+        "place": "Bro",
+        "average_credits": 450,
+        "generated_by": "Polisstation",
+        "icons": {
+            "0": "/images/glasses_gruen.png",
+            "1": "/images/glasses_gelb.png",
+            "2": "/images/glasses_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }

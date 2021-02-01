@@ -15022,5 +15022,28 @@
             "rescue_stations": 2,
             "fire_stations": 11
         }
+    },
+    "524": {
+        "id": 524,
+        "name": "Cat stuck in tree",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Fire station",
+        "icons": {
+            "0": "/images/cat_gruen.png",
+            "1": "/images/cat_gelb.png",
+            "2": "/images/cat_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "platform_trucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 3
+        }
     }
 }

@@ -380,7 +380,7 @@
         "id": 16,
         "name": "Brand in woonwagen",
         "place": null,
-        "average_credits": 1100,
+        "average_credits": 1350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -402,8 +402,8 @@
             "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
-            "police_stations": 1,
-            "fire_stations": 4
+            "rescue_stations": 1,
+            "fire_stations": 6
         }
     },
     "17": {
@@ -479,7 +479,7 @@
         "id": 20,
         "name": "Brand in kelder",
         "place": null,
-        "average_credits": 1800,
+        "average_credits": 2810,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -504,15 +504,16 @@
             "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
+            "rescue_stations": 1,
             "police_stations": 1,
-            "fire_stations": 3
+            "fire_stations": 13
         }
     },
     "21": {
         "id": 21,
         "name": "Schoorsteenbrand",
         "place": null,
-        "average_credits": 2400,
+        "average_credits": 840,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -614,7 +615,7 @@
         "id": 25,
         "name": "Verkeersongeval met beknelling",
         "place": null,
-        "average_credits": 1000,
+        "average_credits": 1420,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -637,8 +638,9 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
+            "rescue_stations": 1,
             "police_stations": 1,
-            "fire_stations": 3
+            "fire_stations": 6
         }
     },
     "26": {
@@ -788,7 +790,7 @@
         "id": 32,
         "name": "Schoorsteenbrand woning met rietenkap",
         "place": null,
-        "average_credits": 1310,
+        "average_credits": 1350,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1410,7 +1412,7 @@
         "id": 56,
         "name": "Brand in sporthal",
         "place": "School",
-        "average_credits": 3100,
+        "average_credits": 6260,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -1427,11 +1429,16 @@
             "water_tankers": 1,
             "mobile_air_vehicles": 1
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 30
+        },
         "additional": {
-            "filter_id": "firehouse_missions"
+            "possible_patient": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
+            "rescue_stations": 1,
             "police_stations": 1,
             "fire_stations": 16
         }
@@ -1744,7 +1751,7 @@
         "id": 69,
         "name": "Persoon bekneld onder boom",
         "place": null,
-        "average_credits": 1000,
+        "average_credits": 1080,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/sawmill_gruen.png",
@@ -1768,7 +1775,7 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
-            "rescue_stations": 2,
+            "rescue_stations": 1,
             "fire_stations": 6
         }
     },
@@ -2599,7 +2606,7 @@
         "id": 101,
         "name": "Koolmonoxide vrijgekomen",
         "place": null,
-        "average_credits": 1200,
+        "average_credits": 1660,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -2623,6 +2630,7 @@
             "patient_specializations": "Interne Geneeskunde"
         },
         "prerequisites": {
+            "rescue_stations": 2,
             "police_stations": 1,
             "fire_stations": 11
         }
@@ -2656,7 +2664,7 @@
         "id": 103,
         "name": "Schoorsteenbrand",
         "place": null,
-        "average_credits": 2400,
+        "average_credits": 840,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3816,7 +3824,7 @@
         "id": 157,
         "name": "Brand in ziekenhuis",
         "place": "Ziekenhuis",
-        "average_credits": 3570,
+        "average_credits": 4070,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -3842,8 +3850,8 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
-            "police_stations": 2,
-            "fire_stations": 10
+            "rescue_stations": 2,
+            "fire_stations": 14
         }
     },
     "158": {
@@ -3928,8 +3936,8 @@
         "id": 181,
         "name": "Verkeersongeval met beknelling",
         "place": "Sloot",
-        "average_credits": 1600,
-        "generated_by": "Brandweer, Kazerne",
+        "average_credits": 2090,
+        "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
             "1": "/images/caraccident_gelb.png",
@@ -3949,7 +3957,7 @@
         },
         "additional": {
             "possible_patient": 1,
-            "filter_id": "firehouse_missions",
+            "filter_id": "water_watch_missions",
             "patient_at_end_of_mission": true,
             "patient_specializations": "Interne Geneeskunde"
         },
@@ -3957,7 +3965,7 @@
             "wasserrettung": 1,
             "rescue_stations": 1,
             "police_stations": 2,
-            "fire_stations": 4
+            "fire_stations": 6
         }
     },
     "182": {
@@ -13212,7 +13220,7 @@
         "id": 497,
         "name": "Personenauto te water",
         "place": "Rivier",
-        "average_credits": 1200,
+        "average_credits": 4850,
         "generated_by": "",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -13232,6 +13240,7 @@
             "platform_trucks": 50,
             "heavy_rescue_vehicles": 60,
             "boats": 50,
+            "nef": 10,
             "patient_transport": 90
         },
         "additional": {
@@ -13241,10 +13250,10 @@
             "patient_specializations": "Traumatologie"
         },
         "prerequisites": {
-            "wasserrettung": 2,
-            "rescue_stations": 2,
+            "wasserrettung": 3,
+            "rescue_stations": 10,
             "police_stations": 3,
-            "fire_stations": 12
+            "fire_stations": 6
         }
     },
     "498": {
@@ -13397,7 +13406,7 @@
         "id": 503,
         "name": "Kettingbotsing",
         "place": "Snelweg oprit / afrit",
-        "average_credits": 2250,
+        "average_credits": 6060,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
             "0": "/images/caraccident_gruen.png",
@@ -13414,6 +13423,7 @@
             "ovdp": 1
         },
         "chances": {
+            "nef": 5,
             "patient_transport": 80
         },
         "additional": {
@@ -13423,9 +13433,8 @@
             "patient_specializations": "Algemene Heelkunde"
         },
         "prerequisites": {
-            "rescue_stations": 8,
-            "police_stations": 3,
-            "bereitschaftspolizei": 1,
+            "rescue_stations": 10,
+            "police_stations": 5,
             "fire_stations": 14
         }
     },
@@ -15024,7 +15033,7 @@
     "590": {
         "id": 590,
         "name": "Noodlanding groot vliegtuig",
-        "place": "Vliegveld (klein): Vliegtuig parkeerplaats",
+        "place": "Vliegveld (groot): Start-/Landingsbaan",
         "average_credits": 8640,
         "generated_by": "Brandweer, Kazerne",
         "icons": {
@@ -17831,7 +17840,7 @@
         "id": 707,
         "name": "ANPR hit: Rijden zonder rijbewijs",
         "place": "Snelweg oprit / afrit",
-        "average_credits": 670,
+        "average_credits": 800,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -17857,7 +17866,7 @@
         "id": 708,
         "name": "ANPR hit: Gesignaleerd persoon",
         "place": "Snelweg oprit / afrit",
-        "average_credits": 840,
+        "average_credits": 1300,
         "generated_by": "Politie, Opkomstbureau",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -18198,6 +18207,56 @@
         "prerequisites": {
             "police_stations": 10,
             "fire_stations": 39
+        }
+    },
+    "718": {
+        "id": 718,
+        "name": "Acute luchtweginfectie",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "719": {
+        "id": 719,
+        "name": "Klaplong",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

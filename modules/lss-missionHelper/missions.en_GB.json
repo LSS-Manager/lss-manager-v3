@@ -4310,7 +4310,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "police_stations": 3
+            "police_stations": 6
         }
     },
     "201": {
@@ -6031,6 +6031,87 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "270": {
+        "id": 270,
+        "name": "Fire in petrol station shop (small)",
+        "place": "Petrol Station",
+        "average_credits": 1450,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "271": {
+        "id": 271,
+        "name": "Fire in petrol station shop (Medium)",
+        "place": "Petrol Station",
+        "average_credits": 2500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "platform_trucks": 5
+        },
+        "additional": {
+            "average_min_fire_personnel": 13,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "272": {
+        "id": 272,
+        "name": "Fire in petrol station (large)",
+        "place": "Petrol Station",
+        "average_credits": 8000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 3,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "water_tankers": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {
+            "water_tankers": 5,
+            "hazmat_vehicles": 5
+        },
+        "additional": {
+            "average_min_fire_personnel": 30,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 13
         }
     }
 }
