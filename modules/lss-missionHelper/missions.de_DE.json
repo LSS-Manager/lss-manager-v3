@@ -3667,8 +3667,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -16001,6 +16002,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
+            "max_possible_prisoners": 10,
             "filter_id": "riot_police_missions",
             "patient_specializations": "Allgemeine Innere"
         },
