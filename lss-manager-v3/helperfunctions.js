@@ -169,7 +169,10 @@ else if (I18n.locale == "sv_SE") {
         "21": ["Terrängbil", 0],
         "22": ["Bandvagn", 0],
         "23": ["ATV", 0],
-        "24": ["Polishäst", 2]
+        "24": ["Polishäst", 2],
+        "25": ["Brandhelikopter", 0],
+        "26": ["Vattenbombare", 0],
+        "27": ["Stor Vattenbombare", 0]
     };
 }
 else if (I18n.locale == "cs_CZ") {

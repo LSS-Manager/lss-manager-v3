@@ -597,7 +597,8 @@
                 13: "Polisflyg",
                 18: "Brandstation (liten)",
                 19: "Polisstation (liten)",
-                20: "Ambulansstation (liten)"
+                20: "Ambulansstation (liten)",
+                21: "Brandflygsstation"
             },
             vehicleTypes: {
                 0: 'BAS 1 - Släckbil',
@@ -624,7 +625,10 @@
                 21: 'Terrängbil',
                 22: 'Bandvagn',
                 23: 'ATV',
-                24: 'Polishäst'
+                24: 'Polishäst',
+                25: 'Brandhelikopter',
+                26: 'Vattenbombare',
+                27: 'Stor Vattenbombare'
             }
         }
     };

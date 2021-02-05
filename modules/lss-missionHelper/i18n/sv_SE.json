@@ -4,6 +4,8 @@
   "vge": "Stora alliansuppdrag",
   "patients": "patienter",
   "prisoners": "fångar",
+  "water": "Vatten som behövs",
+  "water1": "l",
   "to": "upp till",
   "exp": "bredbara",
   "fwm": "Följeuppdrag",
@@ -34,6 +36,10 @@
     "live_patients": {
       "label": "Antal patienter",
       "description": "Visar hur många patienter som för närvarande används."
+    },
+    "waterse": {
+      "label": "Efterfrågan på vatten",
+      "description": "Visar den totala mängd vatten som krävs."
     },
     "vehicles": {
       "label": "fordon",
@@ -110,6 +116,7 @@
     "boats": "Båtar",
     "diver_units": "Dykbilar",
     "brush_truck": "Skogsbrandsfordon",
+    "fire_aviation": "Brandflygsenhet",
     "allow_rw_instead_of_lf": "Brandbilar eller tung räddning"
   }
 }

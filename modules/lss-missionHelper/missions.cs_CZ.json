@@ -5846,7 +5846,7 @@
     "286": {
         "id": 286,
         "name": "Po\u017e\u00e1r motorestu",
-        "place": "Centrum m\u011bsta",
+        "place": "Motorest",
         "average_credits": 5300,
         "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
         "icons": {
@@ -5875,6 +5875,247 @@
             "rescue_stations": 2,
             "police_stations": 3,
             "fire_stations": 14
+        }
+    },
+    "287": {
+        "id": 287,
+        "name": "P\u00e1r sn\u011bdl p\u0159\u00edli\u0161 \u010dokol\u00e1dy",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "288": {
+        "id": 288,
+        "name": "Nervozita",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "289": {
+        "id": 289,
+        "name": "Infarkt z \u0161oku p\u0159i \u017e\u00e1dosti o ruku",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "290": {
+        "id": 290,
+        "name": "Zlomen\u00e9 srdce",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "V\u00fdjezdov\u00e9 stanovi\u0161t\u011b ZZS",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "291": {
+        "id": 291,
+        "name": "Valent\u00fdnskou v\u00fdzdobu v restauraci zachv\u00e1til po\u017e\u00e1r",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        }
+    },
+    "292": {
+        "id": 292,
+        "name": "Roz\u0161\u00ed\u0159il se ohe\u0148 ze sv\u00ed\u010dky p\u0159i ve\u010de\u0159i",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100",
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "293": {
+        "id": 293,
+        "name": "Hled\u00e1n\u00ed ztracen\u00e9ho p\u0159\u00edtele",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "294": {
+        "id": 294,
+        "name": "Ohl\u00e1\u0161en\u00ed hluku kv\u016fli h\u00e1daj\u00edc\u00edmu se p\u00e1ru",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "295": {
+        "id": 295,
+        "name": "Ukraden\u00e9 srdce",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Obvodn\u00ed odd\u011blen\u00ed Policie",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "p\u00e1, 05 \u00fano 2021 10:00:00 +0000",
+            "date_end": "ne, 14 \u00fano 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }
