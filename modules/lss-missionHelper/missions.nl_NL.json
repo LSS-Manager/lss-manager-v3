@@ -18258,5 +18258,246 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "727": {
+        "id": 727,
+        "name": "Stel heeft te veel chocola gegeten",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "728": {
+        "id": 728,
+        "name": "Vlinders in de buik",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "729": {
+        "id": 729,
+        "name": "Hartaanval door aanzoekschok",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "730": {
+        "id": 730,
+        "name": "Gebroken hart",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulance, standplaats",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Cardiologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "731": {
+        "id": 731,
+        "name": "Valentijnsdecoraties in restaurant in brand gevlogen",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        }
+    },
+    "732": {
+        "id": 732,
+        "name": "Brand door diner met kaarsen",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Brandweer, Kazerne",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET",
+            "patient_specializations": "Interne Geneeskunde"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "733": {
+        "id": 733,
+        "name": "Zoektocht naar verdwenen vriendje",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "734": {
+        "id": 734,
+        "name": "Klacht over luidruchtig ruzi\u00ebnd stel",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "735": {
+        "id": 735,
+        "name": "Gestolen hart",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Politie, Opkomstbureau",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "vrij 05 feb 2021 10:00:00 UTC",
+            "date_end": "zo 14 feb 2021 23:59:00 CET"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

@@ -5923,5 +5923,246 @@
         "prerequisites": {
             "fire_stations": 1
         }
+    },
+    "290": {
+        "id": 290,
+        "name": "Par spiste for meget chokolade",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "291": {
+        "id": 291,
+        "name": "Sommerfugle i mave",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "292": {
+        "id": 292,
+        "name": "Hjerteanfald for\u00e5rsaget af frieri",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 90
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "293": {
+        "id": 293,
+        "name": "Knust hjerte",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulancestation",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 50
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Kardiologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 3
+        }
+    },
+    "294": {
+        "id": 294,
+        "name": "Ild i valentinspynt i restaurant",
+        "place": null,
+        "average_credits": 2000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1
+        },
+        "chances": {
+            "patient_transport": 20
+        },
+        "additional": {
+            "possible_patient": 8,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 7,
+            "fire_stations": 7
+        }
+    },
+    "295": {
+        "id": 295,
+        "name": "Brand fra stearinlysmiddag breder sig",
+        "place": null,
+        "average_credits": 500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 2,
+            "possible_patient_min": 2,
+            "filter_id": "firehouse_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
+            "patient_specializations": "Specialister i intern medicin"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 2
+        }
+    },
+    "296": {
+        "id": 296,
+        "name": "Efters\u00f8gning efter savnet k\u00e6reste",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "297": {
+        "id": 297,
+        "name": "St\u00f8jklager over par, der sk\u00e6ndes",
+        "place": null,
+        "average_credits": 700,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "298": {
+        "id": 298,
+        "name": "Hjerte stj\u00e5let",
+        "place": null,
+        "average_credits": 1100,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions",
+            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
+            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }
