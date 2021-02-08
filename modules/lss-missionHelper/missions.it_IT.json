@@ -6114,7 +6114,9 @@
         },
         "chances": {},
         "additional": {
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 193
+            },
             "filter_id": "firehouse_missions"
         },
         "prerequisites": {
@@ -8295,6 +8297,62 @@
             "rescue_stations": 3,
             "police_stations": 2,
             "fire_stations": 4
+        }
+    },
+    "325": {
+        "id": 325,
+        "name": "Concerto",
+        "place": "Teatro",
+        "average_credits": 12000,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "ambulances": 8,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 ora 20 minuti",
+            "duration": 4800,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 8,
+            "police_stations": 4,
+            "fire_stations": 6
+        }
+    },
+    "326": {
+        "id": 326,
+        "name": "Incendio boschivo (PICCOLO)",
+        "place": "Bosco",
+        "average_credits": 1250,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 5
         }
     },
     "328": {

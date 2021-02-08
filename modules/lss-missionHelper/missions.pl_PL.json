@@ -6530,6 +6530,79 @@
             "police_stations": 8
         }
     },
+    "320": {
+        "id": 320,
+        "name": "Zawalenie Budynku Mieszkalnego",
+        "place": null,
+        "average_credits": 4500,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 6,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 3
+        },
+        "chances": {
+            "platform_trucks": 60,
+            "patient_transport": 45
+        },
+        "additional": {
+            "possible_patient": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 3,
+            "fire_stations": 8
+        }
+    },
+    "321": {
+        "id": 321,
+        "name": "Zawalenie Wie\u017cowca",
+        "place": "Wie\u017cowiec",
+        "average_credits": 14000,
+        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 15,
+            "battalion_chief_vehicles": 2,
+            "platform_trucks": 4,
+            "heavy_rescue_vehicles": 5,
+            "water_tankers": 1,
+            "mobile_air_vehicles": 2,
+            "police_helicopters": 1,
+            "police_cars": 5
+        },
+        "chances": {
+            "battalion_chief_vehicles": 90,
+            "platform_trucks": 70,
+            "water_tankers": 40,
+            "patient_transport": 45,
+            "helicopter": 10
+        },
+        "additional": {
+            "possible_patient": 20,
+            "possible_patient_min": 5,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Interna"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "police_stations": 5,
+            "fire_stations": 15
+        }
+    },
     "326": {
         "id": 326,
         "name": "Para zjad\u0142a zbyt du\u017co czekoladek",

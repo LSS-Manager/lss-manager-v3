@@ -5924,6 +5924,51 @@
             "fire_stations": 1
         }
     },
+    "285": {
+        "id": 285,
+        "name": "Mist\u00e6nkelig pakke",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "286": {
+        "id": 286,
+        "name": "R\u00f8veri hos guldsmed",
+        "place": "Indk\u00f8bscenter",
+        "average_credits": 800,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "290": {
         "id": 290,
         "name": "Par spiste for meget chokolade",

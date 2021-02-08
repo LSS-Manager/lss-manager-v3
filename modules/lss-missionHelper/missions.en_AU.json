@@ -5422,6 +5422,54 @@
             "fire_stations": 3
         }
     },
+    "270": {
+        "id": 270,
+        "name": "Suspicious package",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2,
+            "k9": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 7
+        }
+    },
+    "271": {
+        "id": 271,
+        "name": "Armed robbery crime scene security",
+        "place": "Mall",
+        "average_credits": 12000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 3
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "2 hours",
+            "duration": 7200,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3
+        }
+    },
     "275": {
         "id": 275,
         "name": "Couple ate too much chocolate",
