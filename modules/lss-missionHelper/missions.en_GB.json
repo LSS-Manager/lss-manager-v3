@@ -6114,6 +6114,31 @@
             "fire_stations": 13
         }
     },
+    "273": {
+        "id": 273,
+        "name": "Large fuel spill in petrol station forecourt",
+        "place": "Petrol Station",
+        "average_credits": 1500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 10,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 11
+        }
+    },
     "277": {
         "id": 277,
         "name": "Couple ate too much chocolate",

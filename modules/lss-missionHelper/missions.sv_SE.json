@@ -2866,9 +2866,7 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {
-                "0": 132
-            },
+            "expansion_missions_ids": {},
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4977,6 +4975,71 @@
         },
         "prerequisites": {
             "police_stations": 1
+        }
+    },
+    "259": {
+        "id": 259,
+        "name": "J\u00e4rnv\u00e4g - p\u00e5k\u00f6rd person",
+        "place": "J\u00e4rnv\u00e4gs\u00f6verg\u00e5ng",
+        "average_credits": 2500,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "expansion_missions_ids": {
+                "0": 260
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 3,
+            "fire_stations": 6
+        }
+    },
+    "260": {
+        "id": 260,
+        "name": "J\u00e4rnv\u00e4g - kollision/ursp\u00e5rning",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Brandstation",
+        "icons": {
+            "0": "/images/tramway_gruen.png",
+            "1": "/images/tramway_gelb.png",
+            "2": "/images/tramway_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 5,
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 2,
+            "heavy_rescue_vehicles": 2,
+            "hazmat_vehicles": 2,
+            "police_cars": 4
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 4,
+            "fire_stations": 13
         }
     },
     "261": {

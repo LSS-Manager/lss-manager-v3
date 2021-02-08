@@ -4210,6 +4210,50 @@
             "fire_stations": 1
         }
     },
+    "214": {
+        "id": 214,
+        "name": "\uc218\uc0c1\ud55c \uc18c\ud3ec",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "\ubcf4\uc11d\uc0c1 \uc808\ub3c4\uc0ac\uac74",
+        "place": "\uc1fc\ud551\ubab0",
+        "average_credits": 800,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "219": {
         "id": 219,
         "name": "\ucd08\ucf5c\ub9bf\uc744 \ub108\ubb34 \ub9ce\uc774 \uba39\uc740 \uc5f0\uc778",

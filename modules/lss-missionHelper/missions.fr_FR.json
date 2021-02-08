@@ -5600,6 +5600,65 @@
             "fire_stations": 3
         }
     },
+    "293": {
+        "id": 293,
+        "name": "D\u00e9couverte d'engin explosif'",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/zoom_gruen.png",
+            "1": "/images/zoom_gelb.png",
+            "2": "/images/zoom_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "police_cars": 6
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 294
+            },
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 6,
+            "fire_stations": 6
+        }
+    },
+    "294": {
+        "id": 294,
+        "name": "D\u00e9couverte d'engin explosif fuyant",
+        "place": null,
+        "average_credits": 2200,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/radiation_gruen.png",
+            "1": "/images/radiation_gelb.png",
+            "2": "/images/radiation_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "ambulances": 1,
+            "battalion_chief_vehicles": 1,
+            "hazmat_vehicles": 1,
+            "police_cars": 8,
+            "thw_gkw": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "police_stations": 8,
+            "fire_stations": 11
+        }
+    },
     "298": {
         "id": 298,
         "name": "Un couple a mang\u00e9 trop de chocolat",

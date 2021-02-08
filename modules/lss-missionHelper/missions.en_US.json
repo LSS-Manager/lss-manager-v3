@@ -15046,6 +15046,28 @@
             "fire_stations": 3
         }
     },
+    "525": {
+        "id": 525,
+        "name": "Jewelry store robbery",
+        "place": "Mall",
+        "average_credits": 800,
+        "generated_by": "Police station",
+        "icons": {
+            "0": "/images/theft_gruen.png",
+            "1": "/images/theft_gelb.png",
+            "2": "/images/theft_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "528": {
         "id": 528,
         "name": "Couple ate too much chocolate",
@@ -15065,6 +15087,9 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-11"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
             "patient_specializations": "General Internal"
@@ -15075,7 +15100,7 @@
     },
     "529": {
         "id": 529,
-        "name": "Butterflies in stomach",
+        "name": "Butterflies stuck in heart",
         "place": null,
         "average_credits": null,
         "generated_by": "Ambulance station",
@@ -15092,9 +15117,14 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "26-A-5",
+                "1": "26-B-1",
+                "2": "26-A-6"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "General Internal"
+            "patient_specializations": "Cardiology"
         },
         "prerequisites": {
             "rescue_stations": 1
@@ -15119,6 +15149,9 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-2"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
             "patient_specializations": "Cardiology"
@@ -15146,6 +15179,9 @@
             "possible_patient": 2,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
+            "patient_us_code_possible": {
+                "0": "9-E-2"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
             "patient_specializations": "Cardiology"
@@ -15176,6 +15212,9 @@
         "additional": {
             "possible_patient": 8,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
             "patient_specializations": "General Internal"
@@ -15206,6 +15245,9 @@
             "possible_patient": 2,
             "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
+            "patient_us_code_possible": {
+                "0": "7-C-1"
+            },
             "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
             "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
             "patient_specializations": "General Internal"
