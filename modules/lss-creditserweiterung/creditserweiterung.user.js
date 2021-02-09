@@ -1,5 +1,5 @@
 (($, win, I18n) => {
-    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|alarmcentral-spil|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/#?$/)) return;
+    if (!document.URL.match(/(leitstellenspiel|missionchief|missionchief-australia|meldkamerspel|larmcentralen-spelet|alarmcentral-spil|operatorratunkowy|operatore112|operateur112|nodsentralspillet|operacni-stredisko|operador193|jogo-operador112|missionchief-korea|jocdispecerat112)(\.de|\.com|\.co\.uk|\.dk|\.cz|\.se|\.pl|\.it|\.fr|.gr)\/(#|\?)?$/)) return;
 
     I18n.translations.de_DE.lssm.creditserweiterung = {
         earnedCreditsRegEx: /(.*)([0-9\.]*)? verdiente Credits(.*)/i,
@@ -516,13 +516,6 @@
         coinsUpdateOrigin(a);
         $('#menu_creditsverwaltung').attr('title', 'Credits: ' + $('#navigation_top').text().replace(/[\D.]*/, '') + '\nCoins: ' + $('#coins_top').text().replace(/[\D.]*/, ''));
     };
-
-    if (location.pathname.match(/\/missions\/\d+/)) return;
-    if (location.pathname.match(/\/profile\/\d+/)) return;
-    if (location.pathname.match(/\/vehicles\/\d+/)) return;
-    if (location.pathname.match(/\/buildings\/\d+/)) return;
-    if (location.pathname.match(/\/alliances\/\d+/)) return;
-    if (location.pathname.match(/\/verband\/\d+/)) return;
 
     createExtension();
     setTimeout(function() {
