@@ -544,7 +544,11 @@
                 27: 'SRWys',
                 28: 'SLRr',
                 29: 'GLBA',
-                30: 'Radiowóz WRD'
+                30: 'Radiowóz WRD',
+                31: 'Ambulans S',
+                32: 'Samochód Lekarza',
+                33: 'Motoambulans',
+                34: 'Ambulans T'
             }
         }
     };
