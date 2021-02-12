@@ -11060,40 +11060,6 @@
             "rescue_stations": 3
         }
     },
-    "428": {
-        "id": 428,
-        "name": "Schneelast auf Dach",
-        "place": null,
-        "average_credits": 1500,
-        "generated_by": "Feuerwache",
-        "icons": {
-            "0": "/images/snowy_gruen.png",
-            "1": "/images/snowy_gelb.png",
-            "2": "/images/snowy_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "height_rescue_units": 1,
-            "police_cars": 1
-        },
-        "chances": {
-            "platform_trucks": 50,
-            "heavy_rescue_vehicles": 20,
-            "height_rescue_units": 5
-        },
-        "additional": {
-            "filter_id": "firehouse_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Freitag, 12. Februar 2021, 10:00 Uhr"
-        },
-        "prerequisites": {
-            "police_stations": 1,
-            "fire_stations": 3
-        }
-    },
     "429": {
         "id": 429,
         "name": "Staubexplosion",
@@ -16470,6 +16436,32 @@
             "thw_fg_raeumen_count": 2,
             "thw_gkw_count": 3,
             "fire_stations": 32
+        }
+    },
+    "607": {
+        "id": 607,
+        "name": "Verkehrserziehung an Schule",
+        "place": "Schule",
+        "average_credits": 1800,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 Minuten",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1,
+            "fire_stations": 3
         }
     }
 }
