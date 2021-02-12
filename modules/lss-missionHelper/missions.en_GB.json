@@ -6118,7 +6118,7 @@
         "id": 273,
         "name": "Large fuel spill in petrol station forecourt",
         "place": "Petrol Station",
-        "average_credits": 1500,
+        "average_credits": 2500,
         "generated_by": "Fire Station",
         "icons": {
             "0": "/images/fire_gruen.png",

@@ -296,7 +296,11 @@ else if (I18n.locale == "pl_PL") {
         "27": ["SRWys", 0],
         "28": ["SLRr", 0],
         "29": ["GLBA", 0],
-        "30": ["Radiowóz WRD", 2]
+        "30": ["Radiowóz WRD", 2],
+        "31": ["Ambulans S", 1],
+        "32": ["Samochód Lekarza", 1],
+        "33": ["Motoambulans", 1],
+        "34": ["Ambulans T", 1]
     };
 }
 else if (I18n.locale == "it_IT") {
