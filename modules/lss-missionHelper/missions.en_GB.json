@@ -6138,5 +6138,89 @@
         "prerequisites": {
             "fire_stations": 11
         }
+    },
+    "274": {
+        "id": 274,
+        "name": "Fire Alarm Activation in Sheltered Housing",
+        "place": "Sheltered housing scheme",
+        "average_credits": 1000,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 275
+            },
+            "average_min_fire_personnel": 8,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
+        }
+    },
+    "275": {
+        "id": 275,
+        "name": "Flat Fire in Sheltered Housing",
+        "place": "Sheltered housing scheme",
+        "average_credits": 2500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {},
+        "additional": {
+            "average_min_fire_personnel": 13,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 6
+        }
+    },
+    "276": {
+        "id": 276,
+        "name": "Flat Fire in Sheltered Housing (Persons Reported)",
+        "place": "Sheltered housing scheme",
+        "average_credits": 3500,
+        "generated_by": "Fire Station",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 2
+        },
+        "chances": {
+            "patient_transport": 70,
+            "patient_critical_care": 10
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "average_min_fire_personnel": 18,
+            "patient_uk_code_possible": {
+                "0": "C-2"
+            },
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 8
+        }
     }
 }

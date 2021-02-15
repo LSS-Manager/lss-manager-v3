@@ -4361,5 +4361,30 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "244": {
+        "id": 244,
+        "name": "Patrulhamento no mercado",
+        "place": "Mercado Ambulante",
+        "average_credits": 1500,
+        "generated_by": "Esquadra de Pol\u00edcia",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "30 minutos",
+            "duration": 1800,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
     }
 }
