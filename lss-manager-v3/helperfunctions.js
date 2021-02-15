@@ -466,7 +466,8 @@ else if (I18n.locale == "nl_NL") {
         "59": ["NH-O | Noodhulp Onopvallend", 2],
         "60": ["DB-Bike | Dienstbus Biketeam", 2],
         "61": ["SLH | Slangenhaakarmbak", 0],
-        "62": ["TS-HV | Tankautospuit-Hulpverlening", 0]
+        "62": ["TS-HV | Tankautospuit-Hulpverlening", 0],
+        "63": ["DM-RR | Rapid Responder - Motor", 1]
     };
 }
 else if (I18n.locale == "de_DE") {
