@@ -7464,15 +7464,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -16149,247 +16150,6 @@
             "fire_stations": 5
         }
     },
-    "597": {
-        "id": 597,
-        "name": "Paar hat zu viel Schokolade gegessen",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "598": {
-        "id": 598,
-        "name": "Schmetterlinge im Bauch",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "599": {
-        "id": 599,
-        "name": "Schock durch Heiratsantrag",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Kardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "600": {
-        "id": 600,
-        "name": "Gebrochenes Herz",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Rettungswache",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Kardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "601": {
-        "id": 601,
-        "name": "Valentinsdekoration in Restaurant brennt",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Feuerwache",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "602": {
-        "id": 602,
-        "name": "Feuer durch Abendessen bei Kerzenlicht",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Feuerwache",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr",
-            "patient_specializations": "Allgemeine Innere"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "603": {
-        "id": 603,
-        "name": "Suche nach nicht vorhandenem Partner",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Polizeiwache",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "604": {
-        "id": 604,
-        "name": "L\u00e4rmbeschwerde wegen streitendem Paar",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Polizeiwache",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "605": {
-        "id": 605,
-        "name": "Herz gestohlen",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Polizeiwache",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Freitag, 05. Februar 2021, 10:00 Uhr",
-            "date_end": "Sonntag, 14. Februar 2021, 23:59 Uhr"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
     "606": {
         "id": 606,
         "name": "Brennender Bahnhof",
@@ -16460,8 +16220,7 @@
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
-            "police_stations": 1,
-            "fire_stations": 3
+            "police_stations": 1
         }
     }
 }

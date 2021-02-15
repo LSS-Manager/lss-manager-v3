@@ -3914,247 +3914,6 @@
             "fire_stations": 1
         }
     },
-    "203": {
-        "id": 203,
-        "name": "Un cuplu a m\u00e2ncat prea mult\u0103 ciocolat\u0103",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Internist general"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "204": {
-        "id": 204,
-        "name": "Flutura\u0219i \u00een stomac",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Internist general"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "205": {
-        "id": 205,
-        "name": "Atac de cord cauzat de \u0219ocul de la propunere",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Cardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "206": {
-        "id": 206,
-        "name": "Inim\u0103 fr\u00e2nt\u0103",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Cardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "207": {
-        "id": 207,
-        "name": "Decora\u021biile de Ziua \u00cendr\u0103gosti\u021bilor la restaurant au luat foc",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Sta\u021bie de pompieri",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Internist general"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "208": {
-        "id": 208,
-        "name": "Focul de la cina romantic\u0103 la lumina lum\u00e2n\u0103rilor s-a r\u0103sp\u00e2ndit",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Sta\u021bie de pompieri",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200",
-            "patient_specializations": "Internist general"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "209": {
-        "id": 209,
-        "name": "Caut\u0103 un iubit disp\u0103rut",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Sec\u021bie de poli\u021bie",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "210": {
-        "id": 210,
-        "name": "Pl\u00e2ngere de zgomot cauzat\u0103 de un cuplu care se ceart\u0103",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Sec\u021bie de poli\u021bie",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "211": {
-        "id": 211,
-        "name": "Inim\u0103 furat\u0103",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Sec\u021bie de poli\u021bie",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Vin., 05 Feb. 2021 10:00:00 +0000",
-            "date_end": "Dum., 14 Feb. 2021 23:59:00 +0200"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
     "212": {
         "id": 212,
         "name": "Pachet suspect",
@@ -4197,6 +3956,60 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "214": {
+        "id": 214,
+        "name": "Freerunner ranit",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "215": {
+        "id": 215,
+        "name": "Cioburi de sticla \u00een palma",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Sta\u021bie de ambulan\u021b\u0103",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurg general"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

@@ -5272,245 +5272,38 @@
             "fire_stations": 8
         }
     },
-    "268": {
-        "id": 268,
-        "name": "Ett par har \u00e4tit f\u00f6r mycket choklad",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "269": {
-        "id": 269,
-        "name": "Fj\u00e4rilar i magen",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "270": {
-        "id": 270,
-        "name": "Hj\u00e4rtattack till f\u00f6ljd av frierichock",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Kardiologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "271": {
-        "id": 271,
-        "name": "Krossat hj\u00e4rta",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansstation",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Kardiologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "272": {
-        "id": 272,
-        "name": "Brinnande alla hj\u00e4rtans-dekorationer p\u00e5 restaurang",
-        "place": null,
-        "average_credits": 2000,
+    "277": {
+        "id": 277,
+        "name": "Brokollaps",
+        "place": "Bro",
+        "average_credits": 7000,
         "generated_by": "Brandstation",
         "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
+            "0": "/images/river_gruen.png",
+            "1": "/images/river_gelb.png",
+            "2": "/images/river_rot.png"
         },
         "requirements": {
             "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "273": {
-        "id": 273,
-        "name": "Brand orsakad av middag med levande ljus har spridit sig",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Brandstation",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100",
-            "patient_specializations": "Inv\u00e4rtesmedicinare"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "274": {
-        "id": 274,
-        "name": "S\u00f6kande efter f\u00f6rsvunnen pojkv\u00e4n",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
+            "battalion_chief_vehicles": 2,
+            "mobile_command_vehicles": 1,
+            "platform_trucks": 1,
+            "mobile_air_vehicles": 1,
             "police_cars": 2
         },
-        "chances": {},
+        "chances": {
+            "patient_transport": 50
+        },
         "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100"
+            "possible_patient": 20,
+            "filter_id": "firehouse_missions",
+            "patient_at_end_of_mission": true,
+            "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "275": {
-        "id": 275,
-        "name": "Klagom\u00e5l om h\u00f6gljutt pargr\u00e4l",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "276": {
-        "id": 276,
-        "name": "Stulet hj\u00e4rta",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Polisstation",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "fre, 05 feb 2021 10.00.00 +0000",
-            "date_end": "s\u00f6n, 14 feb 2021 23.59.00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
+            "rescue_stations": 10,
+            "police_stations": 2,
+            "fire_stations": 13
         }
     }
 }
