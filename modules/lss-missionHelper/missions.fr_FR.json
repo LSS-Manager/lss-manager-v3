@@ -5659,9 +5659,9 @@
             "fire_stations": 11
         }
     },
-    "298": {
-        "id": 298,
-        "name": "Un couple a mang\u00e9 trop de chocolat",
+    "295": {
+        "id": 295,
+        "name": "Coupure l\u00e9g\u00e8re / Plaie ouverte",
         "place": null,
         "average_credits": null,
         "generated_by": "Poste Ambulancier",
@@ -5669,235 +5669,22 @@
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
             "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Interne g\u00e9n\u00e9ral"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "299": {
-        "id": 299,
-        "name": "Des papillons dans le ventre",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Poste Ambulancier",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Interne g\u00e9n\u00e9ral"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "300": {
-        "id": 300,
-        "name": "Infarctus d\u00fb au choc provoqu\u00e9 par une demande en mariage",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Poste Ambulancier",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Cardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "301": {
-        "id": 301,
-        "name": "C\u0153ur bris\u00e9",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Poste Ambulancier",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Cardiologie"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "302": {
-        "id": 302,
-        "name": "Des d\u00e9corations de la Saint-Valentin prennent feu dans un restaurant",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
         },
         "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Interne g\u00e9n\u00e9ral"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "303": {
-        "id": 303,
-        "name": "Un feu s'est d\u00e9clench\u00e9 \u00e0 partir d'une bougie d'un d\u00eener en amoureux",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Centre de secours",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
+            "heavy_rescue_vehicles": 1
         },
         "chances": {
             "patient_transport": 70
         },
         "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100",
-            "patient_specializations": "Interne g\u00e9n\u00e9ral"
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Chirurgien g\u00e9n\u00e9ral"
         },
         "prerequisites": {
             "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "304": {
-        "id": 304,
-        "name": "Recherche d'un petit ami disparu",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Poste de police",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "305": {
-        "id": 305,
-        "name": "Plainte pour nuisances sonores suite \u00e0 une dispute de couple",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Poste de police",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "306": {
-        "id": 306,
-        "name": "C\u0153ur vol\u00e9",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Poste de police",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven., 05 F\u00e9vr. 2021 10:00:00 +0000",
-            "date_end": "Dim., 14 F\u00e9vr. 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
+            "fire_stations": 4
         }
     }
 }

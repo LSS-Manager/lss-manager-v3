@@ -4787,8 +4787,7 @@
             "expansion_missions_ids": {
                 "0": 124,
                 "1": 213,
-                "2": 226,
-                "3": 182
+                "2": 182
             },
             "max_possible_prisoners": 1,
             "filter_id": "firehouse_missions"
