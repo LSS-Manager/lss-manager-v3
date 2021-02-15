@@ -5394,247 +5394,6 @@
             "fire_stations": 1
         }
     },
-    "275": {
-        "id": 275,
-        "name": "Kj\u00e6rester spiste for mye sjokolade",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "276": {
-        "id": 276,
-        "name": "Sommerfugler i magen",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "277": {
-        "id": 277,
-        "name": "Sjokk fra spontan frier",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Kardiologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "278": {
-        "id": 278,
-        "name": "Knust hjerte",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulansestasjon",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Kardiologi"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "279": {
-        "id": 279,
-        "name": "Valentinsdekorasjoner p\u00e5 restaurant har tatt fyr",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "280": {
-        "id": 280,
-        "name": "Brann fra romantisk m\u00e5ltid med stearinlys",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Brannstasjon",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Generell medisin"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "281": {
-        "id": 281,
-        "name": "S\u00f8k etter savnet kj\u00e6reste",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "282": {
-        "id": 282,
-        "name": "St\u00f8y fra kj\u00e6rester som krangler",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "283": {
-        "id": 283,
-        "name": "Stj\u00e5let hjerte",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Politistasjon",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fre, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "S\u00f8n, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
     "284": {
         "id": 284,
         "name": "Mistenkelig pakke",
@@ -5678,6 +5437,60 @@
         },
         "prerequisites": {
             "police_stations": 2
+        }
+    },
+    "286": {
+        "id": 286,
+        "name": "Skadet fril\u00f8per",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1,
+            "heavy_rescue_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1,
+            "fire_stations": 4
+        }
+    },
+    "287": {
+        "id": 287,
+        "name": "Glassk\u00e5r i h\u00e5nd",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Ambulansestasjon",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Generell kirurgi"
+        },
+        "prerequisites": {
+            "rescue_stations": 1
         }
     }
 }

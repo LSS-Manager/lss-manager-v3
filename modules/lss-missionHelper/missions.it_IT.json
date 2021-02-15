@@ -8355,6 +8355,35 @@
             "fire_stations": 5
         }
     },
+    "327": {
+        "id": 327,
+        "name": "Incendio boschivo (MEDIO)",
+        "place": "Bosco",
+        "average_credits": 3900,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 4,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 2,
+            "water_tankers": 1,
+            "police_cars": 3
+        },
+        "chances": {
+            "battalion_chief_vehicles": 40
+        },
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "police_stations": 3,
+            "fire_stations": 8
+        }
+    },
     "328": {
         "id": 328,
         "name": "Incendio boschivo (GRANDE)",
@@ -8382,247 +8411,6 @@
             "police_stations": 4,
             "police_helicopter_stations": 1,
             "fire_stations": 14
-        }
-    },
-    "331": {
-        "id": 331,
-        "name": "Coppia ha esagerato con la cioccolata",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stazione ambulanze",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Medicina interna generale"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "332": {
-        "id": 332,
-        "name": "Farfalle nello stomaco",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stazione ambulanze",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Medicina interna generale"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "333": {
-        "id": 333,
-        "name": "Attacco di cuore dovuto a proposta di matrimonio",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stazione ambulanze",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Cardiologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "334": {
-        "id": 334,
-        "name": "Cuore spezzato",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stazione ambulanze",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Cardiologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "335": {
-        "id": 335,
-        "name": "Le decorazioni di San Valentino hanno preso fuoco al ristorante",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Medicina interna generale"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "336": {
-        "id": 336,
-        "name": "Fiamme divampate dalla cena a lume di candela",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Caserma dei vigili del fuoco",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100",
-            "patient_specializations": "Medicina interna generale"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "337": {
-        "id": 337,
-        "name": "Alla ricerca del fidanzato perduto",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "338": {
-        "id": 338,
-        "name": "Lamentela per quiete turbata da una lite di coppia",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "339": {
-        "id": 339,
-        "name": "Cuore rubato",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Stazione di polizia",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Ven, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Dom, 14 Feb 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
         }
     }
 }

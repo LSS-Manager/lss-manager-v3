@@ -15068,9 +15068,9 @@
             "police_stations": 2
         }
     },
-    "528": {
-        "id": 528,
-        "name": "Couple ate too much chocolate",
+    "526": {
+        "id": 526,
+        "name": "Glass shard embedded in hand",
         "place": null,
         "average_credits": null,
         "generated_by": "Ambulance station",
@@ -15080,253 +15080,20 @@
             "2": "/images/medicalstore_rot.png"
         },
         "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_us_code_possible": {
-                "0": "26-A-11"
-            },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "General Internal"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "529": {
-        "id": 529,
-        "name": "Butterflies stuck in heart",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance station",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_us_code_possible": {
-                "0": "26-A-5",
-                "1": "26-B-1",
-                "2": "26-A-6"
-            },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "Cardiology"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "530": {
-        "id": 530,
-        "name": "Heart attack due shock from proposing",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance station",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_us_code_possible": {
-                "0": "9-E-2"
-            },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "Cardiology"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "531": {
-        "id": 531,
-        "name": "Broken heart",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Ambulance station",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "patient_us_code_possible": {
-                "0": "9-E-2"
-            },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "Cardiology"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "532": {
-        "id": 532,
-        "name": "Valentines decorations at restaurant caught fire",
-        "place": null,
-        "average_credits": 2000,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 5,
-            "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
-        },
-        "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "patient_us_code_possible": {
-                "0": "7-C-1"
-            },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "General Internal"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "533": {
-        "id": 533,
-        "name": "Fire from candle light dinner has spread",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Fire station",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
         "chances": {
             "patient_transport": 70
         },
         "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 2,
-            "filter_id": "firehouse_missions",
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
             "patient_us_code_possible": {
-                "0": "7-C-1"
+                "0": "27-D-4"
             },
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500",
-            "patient_specializations": "General Internal"
+            "patient_specializations": "General Surgeon"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
-        }
-    },
-    "534": {
-        "id": 534,
-        "name": "Search for missing boyfriend",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "535": {
-        "id": 535,
-        "name": "Noise complaint over a fighting couple",
-        "place": null,
-        "average_credits": 700,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 1
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 1
-        }
-    },
-    "536": {
-        "id": 536,
-        "name": "Heart stolen",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Police station",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Fri, 05 Feb 2021 10:00:00 +0000",
-            "date_end": "Sun, 14 Feb 2021 23:59:00 -0500"
-        },
-        "prerequisites": {
-            "police_stations": 2
+            "rescue_stations": 1
         }
     }
 }

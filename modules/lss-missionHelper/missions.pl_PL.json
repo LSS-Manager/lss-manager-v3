@@ -6670,119 +6670,11 @@
             "fire_stations": 15
         }
     },
-    "326": {
-        "id": 326,
-        "name": "Para zjad\u0142a zbyt du\u017co czekoladek",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
-            "patient_specializations": "Interna"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "327": {
-        "id": 327,
-        "name": "Motyle w brzuchu",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
-            "patient_specializations": "Interna"
-        },
-        "prerequisites": {
-            "rescue_stations": 1
-        }
-    },
-    "328": {
-        "id": 328,
-        "name": "Atak serca z powodu szoku wywo\u0142anego o\u015bwiadczynami",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 90
-        },
-        "additional": {
-            "possible_patient": 1,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
-            "patient_specializations": "Kardiologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 2
-        }
-    },
-    "329": {
-        "id": 329,
-        "name": "Z\u0142amane serce",
-        "place": null,
-        "average_credits": null,
-        "generated_by": "Stacja Pogotowia Ratunkowego",
-        "icons": {
-            "0": "/images/medicalstore_gruen.png",
-            "1": "/images/medicalstore_gelb.png",
-            "2": "/images/medicalstore_rot.png"
-        },
-        "requirements": {},
-        "chances": {
-            "patient_transport": 50
-        },
-        "additional": {
-            "possible_patient": 2,
-            "possible_patient_min": 1,
-            "filter_id": "ambulance_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
-            "patient_specializations": "Kardiologia"
-        },
-        "prerequisites": {
-            "rescue_stations": 3
-        }
-    },
-    "330": {
-        "id": 330,
-        "name": "W restauracji zapali\u0142y si\u0119 dekoracje walentynkowe",
-        "place": null,
-        "average_credits": 2000,
+    "322": {
+        "id": 322,
+        "name": "Po\u017car Domku Letniskowego",
+        "place": "Las",
+        "average_credits": 2500,
         "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
         "icons": {
             "0": "/images/fire_gruen.png",
@@ -6792,82 +6684,31 @@
         "requirements": {
             "firetrucks": 5,
             "battalion_chief_vehicles": 1,
-            "platform_trucks": 1
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 1,
+            "mobile_air_vehicles": 1,
+            "police_cars": 2
         },
         "chances": {
-            "patient_transport": 20
-        },
-        "additional": {
-            "possible_patient": 8,
-            "filter_id": "firehouse_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
-            "patient_specializations": "Interna"
-        },
-        "prerequisites": {
-            "rescue_stations": 7,
-            "fire_stations": 7
-        }
-    },
-    "331": {
-        "id": 331,
-        "name": "Podczas kolacji przy \u015bwiecach dosz\u0142o do po\u017caru",
-        "place": null,
-        "average_credits": 500,
-        "generated_by": "Jednostka Ratowniczo-Ga\u015bnicza",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 1
-        },
-        "chances": {
-            "patient_transport": 70
+            "platform_trucks": 80,
+            "patient_transport": 35
         },
         "additional": {
             "possible_patient": 2,
-            "possible_patient_min": 2,
             "filter_id": "firehouse_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100",
             "patient_specializations": "Interna"
         },
         "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 2
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
         }
     },
-    "332": {
-        "id": 332,
-        "name": "Poszukaj zaginionego ch\u0142opaka",
+    "323": {
+        "id": 323,
+        "name": "Sprzeda\u017c Alkoholu Nieletnim",
         "place": null,
-        "average_credits": 1100,
-        "generated_by": "Komenda Policji",
-        "icons": {
-            "0": "/images/zoom_gruen.png",
-            "1": "/images/zoom_gelb.png",
-            "2": "/images/zoom_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
-        }
-    },
-    "333": {
-        "id": 333,
-        "name": "Skarga na ha\u0142as k\u0142\u00f3c\u0105cej si\u0119 pary",
-        "place": null,
-        "average_credits": 700,
+        "average_credits": 450,
         "generated_by": "Komenda Policji",
         "icons": {
             "0": "/images/zoom_gruen.png",
@@ -6879,36 +6720,10 @@
         },
         "chances": {},
         "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
+            "filter_id": "police_station_missions"
         },
         "prerequisites": {
             "police_stations": 1
-        }
-    },
-    "334": {
-        "id": 334,
-        "name": "Skradzione serce",
-        "place": null,
-        "average_credits": 1100,
-        "generated_by": "Komenda Policji",
-        "icons": {
-            "0": "/images/theft_gruen.png",
-            "1": "/images/theft_gelb.png",
-            "2": "/images/theft_rot.png"
-        },
-        "requirements": {
-            "police_cars": 2
-        },
-        "chances": {},
-        "additional": {
-            "filter_id": "police_station_missions",
-            "date_start": "Pt, 05 Lut 2021 10:00:00 +0000",
-            "date_end": "Nd, 14 Lut 2021 23:59:00 +0100"
-        },
-        "prerequisites": {
-            "police_stations": 2
         }
     },
     "335": {
