@@ -631,11 +631,9 @@
         "additional": {
             "possible_patient": 1,
             "expansion_missions_ids": {
-                "0": 24,
-                "1": 2,
-                "2": 29,
-                "3": 169,
-                "4": 194
+                "0": 2,
+                "1": 29,
+                "2": 169
             },
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
@@ -819,34 +817,6 @@
         },
         "prerequisites": {
             "fire_stations": 6
-        }
-    },
-    "33": {
-        "id": 33,
-        "name": "Mal\u00fd po\u017e\u00e1r v supermarketu",
-        "place": "Supermarket (mal\u00fd)",
-        "average_credits": 1500,
-        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 4,
-            "battalion_chief_vehicles": 1
-        },
-        "chances": {
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 2,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 1,
-            "fire_stations": 5
         }
     },
     "34": {
@@ -1741,40 +1711,6 @@
         "prerequisites": {
             "police_stations": 2,
             "fire_stations": 13
-        }
-    },
-    "70": {
-        "id": 70,
-        "name": "Velk\u00fd po\u017e\u00e1r v supermarketu",
-        "place": "Supermarket (velk\u00fd)",
-        "average_credits": 3000,
-        "generated_by": "Po\u017e\u00e1rn\u00ed stanice",
-        "icons": {
-            "0": "/images/fire_gruen.png",
-            "1": "/images/fire_gelb.png",
-            "2": "/images/fire_rot.png"
-        },
-        "requirements": {
-            "firetrucks": 6,
-            "battalion_chief_vehicles": 2,
-            "platform_trucks": 1,
-            "heavy_rescue_vehicles": 1,
-            "water_tankers": 1,
-            "police_cars": 1
-        },
-        "chances": {
-            "water_tankers": 20,
-            "patient_transport": 30
-        },
-        "additional": {
-            "possible_patient": 6,
-            "filter_id": "firehouse_missions",
-            "patient_specializations": "V\u0161eobecn\u00fd internista"
-        },
-        "prerequisites": {
-            "rescue_stations": 3,
-            "police_stations": 2,
-            "fire_stations": 8
         }
     },
     "71": {
@@ -5818,7 +5754,7 @@
     "285": {
         "id": 285,
         "name": "Osoba ve vod\u011b",
-        "place": "K\u0159i\u017eovatka se semafory",
+        "place": "Plov\u00e1rna",
         "average_credits": 1500,
         "generated_by": "Vodn\u00ed z\u00e1chrann\u00e1 slu\u017eba \u010c\u010cK",
         "icons": {
