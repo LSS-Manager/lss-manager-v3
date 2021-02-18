@@ -2,6 +2,7 @@
   "diy_mission": "This mission seems to be a large scale alliance mission.",
   "averageMinimumEmployeesFire": "Average min . Fire Personnel",
   "averageMinimumEmployeesPolice": "Average min . Police Personnel",
+  "criticalchance": "Critical Care Chance",
   "settings": {
     "name": {
       "label": "Name",

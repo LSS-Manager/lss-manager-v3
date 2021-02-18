@@ -914,7 +914,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -964,7 +965,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -1911,7 +1913,8 @@
         "chances": {
             "mobile_command_vehicles": 70,
             "mobile_air_vehicles": 60,
-            "patient_transport": 50
+            "patient_transport": 50,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 6,
@@ -2222,7 +2225,8 @@
             "police_cars": 2
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 65
         },
         "additional": {
             "possible_patient": 4,
@@ -2384,7 +2388,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 90
+            "patient_transport": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2610,7 +2615,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 50,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 10
         },
         "additional": {
             "possible_patient": 1,
@@ -2642,7 +2648,8 @@
         },
         "chances": {
             "patient_transport": 40,
-            "helicopter": 10
+            "helicopter": 10,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 8,
@@ -2677,7 +2684,8 @@
         },
         "chances": {
             "patient_transport": 50,
-            "helicopter": 20
+            "helicopter": 20,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 20,
@@ -2705,7 +2713,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 100
+            "helicopter": 100,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2731,7 +2740,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 100,
-            "helicopter": 90
+            "helicopter": 90,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 1,
@@ -2757,7 +2767,8 @@
         "requirements": {},
         "chances": {
             "patient_transport": 80,
-            "helicopter": 50
+            "helicopter": 50,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -3681,7 +3692,8 @@
             "firetrucks": 4
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 6,
@@ -3713,7 +3725,8 @@
             "platform_trucks": 1
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 50
         },
         "additional": {
             "possible_patient": 10,
@@ -3776,7 +3789,8 @@
         "chances": {
             "water_tankers": 10,
             "mobile_air_vehicles": 30,
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 20,
@@ -3814,7 +3828,8 @@
             "police_cars": 6
         },
         "chances": {
-            "patient_transport": 40
+            "patient_transport": 40,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 50,
@@ -4844,7 +4859,8 @@
             "firetrucks": 1
         },
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 100
         },
         "additional": {
             "possible_patient": 1,
@@ -5167,7 +5183,8 @@
         },
         "requirements": {},
         "chances": {
-            "patient_transport": 100
+            "patient_transport": 100,
+            "patient_critical_care": 25
         },
         "additional": {
             "possible_patient": 1,
@@ -5522,6 +5539,196 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "284": {
+        "id": 284,
+        "name": "Patient transport on request",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "285": {
+        "id": 285,
+        "name": "Patient fell down the stairs",
+        "place": null,
+        "average_credits": 800,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "patient_critical_care": 50
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "286": {
+        "id": 286,
+        "name": "Carbon monoxide poisoning",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/gas_gruen.png",
+            "1": "/images/gas_gelb.png",
+            "2": "/images/gas_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 75,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 6,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 4,
+            "fire_stations": 6
+        }
+    },
+    "287": {
+        "id": 287,
+        "name": "Dehydration",
+        "place": null,
+        "average_credits": 810,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 60,
+            "patient_critical_care": 70
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Internal"
+        },
+        "prerequisites": {
+            "rescue_stations": 2
+        }
+    },
+    "288": {
+        "id": 288,
+        "name": "Internal bleeding",
+        "place": null,
+        "average_credits": 900,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 40,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 5
+        }
+    },
+    "289": {
+        "id": 289,
+        "name": "Multiple organ trauma",
+        "place": null,
+        "average_credits": 810,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 100,
+            "helicopter": 40,
+            "patient_critical_care": 100
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "Neurosurgery"
+        },
+        "prerequisites": {
+            "rescue_stations": 4
+        }
+    },
+    "290": {
+        "id": 290,
+        "name": "Mass poisoning",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Ambulance Station",
+        "icons": {
+            "0": "/images/ambulance_gruen.png",
+            "1": "/images/ambulance_gelb.png",
+            "2": "/images/ambulance_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 40,
+            "helicopter": 10,
+            "patient_critical_care": 60
+        },
+        "additional": {
+            "possible_patient": 10,
+            "possible_patient_min": 5,
+            "filter_id": "ambulance_station_missions",
+            "patient_specializations": "General Surgeon"
+        },
+        "prerequisites": {
+            "rescue_stations": 20
         }
     }
 }
