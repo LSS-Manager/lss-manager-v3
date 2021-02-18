@@ -375,7 +375,12 @@
                 19: 'Tanker',
                 20: 'SES Vehicle',
                 21: 'Rescue Boat',
-                22: 'Mounted Police'
+                22: 'Mounted Police',
+                23: 'Paramedic Supervisor',
+                24: 'ICP',
+                25: 'ICS',
+                26: 'Ambulance Rescue',
+                27: 'Mass Casualty Unit'
             }
         }
     };

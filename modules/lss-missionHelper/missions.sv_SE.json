@@ -2866,7 +2866,9 @@
         "additional": {
             "possible_patient": 2,
             "possible_patient_min": 1,
-            "expansion_missions_ids": {},
+            "expansion_missions_ids": {
+                "0": 132
+            },
             "max_possible_prisoners": 2,
             "filter_id": "police_station_missions",
             "need_police_horse_only_if_present": true,
@@ -4345,7 +4347,7 @@
     },
     "199": {
         "id": 199,
-        "name": "F\u00f6rberedelse f\u00f6r grovtbrott",
+        "name": "F\u00f6rberedelse f\u00f6r grovt brott",
         "place": "H\u00f6ghus",
         "average_credits": 1000,
         "generated_by": "Polisstation",

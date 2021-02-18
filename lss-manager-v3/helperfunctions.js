@@ -119,7 +119,12 @@ else if (I18n.locale == "en_AU") {
         "19": ["Tanker", 0],
         "20": ["SES Vehicle", 4],
         "21": ["Rescue Boat", 4],
-        "22": ["Mounted Police", 2]
+        "22": ["Mounted Police", 2],
+        "23": ["Paramedic Supervisor", 1],
+        "24": ["ICP", 1],
+        "25": ["ICS", 1],
+        "26": ["Ambulance Rescue", 1],
+        "27": ["Mass Casualty Unit", 1]
     };
 }
 else if (I18n.locale == "pt_PT") {
