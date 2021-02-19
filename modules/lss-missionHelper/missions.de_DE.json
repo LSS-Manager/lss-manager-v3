@@ -3667,8 +3667,9 @@
                 "0": 128
             },
             "followup_missions_ids": {
-                "0": 43,
-                "1": 83
+                "0": 27,
+                "1": 43,
+                "2": 83
             },
             "filter_id": "police_station_missions"
         },
@@ -7464,15 +7465,16 @@
         "additional": {
             "expansion_missions_ids": {
                 "0": 25,
-                "1": 120,
-                "2": 121,
-                "3": 122,
-                "4": 123,
-                "5": 124,
-                "6": 125,
-                "7": 126,
-                "8": 127,
-                "9": 128
+                "1": 27,
+                "2": 120,
+                "3": 121,
+                "4": 122,
+                "5": 123,
+                "6": 124,
+                "7": 125,
+                "8": 126,
+                "9": 127,
+                "10": 128
             },
             "filter_id": "police_station_missions"
         },
@@ -16216,6 +16218,56 @@
             "duration_text": "30 Minuten",
             "duration": 1800,
             "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 1
+        }
+    },
+    "608": {
+        "id": 608,
+        "name": "Abgebrochener Notruf",
+        "place": null,
+        "average_credits": 300,
+        "generated_by": "Polizeiwache",
+        "icons": {
+            "0": "/images/comment_gruen.png",
+            "1": "/images/comment_gelb.png",
+            "2": "/images/comment_rot.png"
+        },
+        "requirements": {
+            "police_cars": 1
+        },
+        "chances": {},
+        "additional": {
+            "expansion_missions_ids": {
+                "0": 72,
+                "1": 73,
+                "2": 77,
+                "3": 87,
+                "4": 92,
+                "5": 102,
+                "6": 108,
+                "7": 152,
+                "8": 194,
+                "9": 244,
+                "10": 274,
+                "11": 277,
+                "12": 295,
+                "13": 317,
+                "14": 319,
+                "15": 339,
+                "16": 352,
+                "17": 391,
+                "18": 392,
+                "19": 411,
+                "20": 431,
+                "21": 447,
+                "22": 460,
+                "23": 499,
+                "24": 527,
+                "25": 532
+            },
             "filter_id": "police_station_missions"
         },
         "prerequisites": {
