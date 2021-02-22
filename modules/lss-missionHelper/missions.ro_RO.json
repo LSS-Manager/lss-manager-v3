@@ -4011,5 +4011,31 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "216": {
+        "id": 216,
+        "name": "Filarea unui suspect",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Sec\u021bie de poli\u021bie",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 or\u0103",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

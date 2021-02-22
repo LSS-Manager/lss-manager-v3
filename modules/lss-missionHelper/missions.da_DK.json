@@ -5771,8 +5771,8 @@
         "id": 280,
         "name": "Kollapset bro",
         "place": "Bro",
-        "average_credits": null,
-        "generated_by": "Ambulancestation",
+        "average_credits": 7000,
+        "generated_by": "Brandstation",
         "icons": {
             "0": "/images/fallingrocks_gruen.png",
             "1": "/images/fallingrocks_gelb.png",
@@ -5796,7 +5796,7 @@
         "additional": {
             "possible_patient": 20,
             "possible_patient_min": 5,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
@@ -5836,8 +5836,8 @@
         "id": 282,
         "name": "Klor forgiftning",
         "place": "Sv\u00f8mmehal",
-        "average_credits": null,
-        "generated_by": "Ambulancestation",
+        "average_credits": 500,
+        "generated_by": "Brandstation",
         "icons": {
             "0": "/images/waterpark_gruen.png",
             "1": "/images/waterpark_gelb.png",
@@ -5858,7 +5858,7 @@
             "expansion_missions_ids": {
                 "0": 283
             },
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "patient_specializations": "Traumatologi"
         },
         "prerequisites": {
@@ -5870,8 +5870,8 @@
         "id": 283,
         "name": "Evakuering for klorudslip",
         "place": "Sv\u00f8mmehal",
-        "average_credits": null,
-        "generated_by": "Ambulancestation",
+        "average_credits": 1200,
+        "generated_by": "Brandstation",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
             "1": "/images/medicalstore_gelb.png",
@@ -5892,7 +5892,7 @@
         "additional": {
             "possible_patient": 5,
             "possible_patient_min": 3,
-            "filter_id": "ambulance_station_missions",
+            "filter_id": "firehouse_missions",
             "need_elw_police_only_if_present": true,
             "patient_specializations": "Traumatologi"
         },
@@ -6021,6 +6021,32 @@
         },
         "prerequisites": {
             "rescue_stations": 1
+        }
+    },
+    "289": {
+        "id": 289,
+        "name": "Observation af mist\u00e6nkt",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "Politistation",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 time",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
         }
     }
 }

@@ -4386,5 +4386,33 @@
         "prerequisites": {
             "police_stations": 1
         }
+    },
+    "245": {
+        "id": 245,
+        "name": "Inc\u00eandio num autocarro",
+        "place": null,
+        "average_credits": 1500,
+        "generated_by": "Corpo de Bombeiros",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 3,
+            "battalion_chief_vehicles": 1
+        },
+        "chances": {
+            "patient_transport": 30
+        },
+        "additional": {
+            "possible_patient": 12,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Clinica Geral"
+        },
+        "prerequisites": {
+            "rescue_stations": 5,
+            "fire_stations": 6
+        }
     }
 }
