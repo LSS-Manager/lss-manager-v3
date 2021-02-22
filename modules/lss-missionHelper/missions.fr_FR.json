@@ -2217,7 +2217,7 @@
         "id": 110,
         "name": "Personne ne r\u00e9pondant pas aux appels",
         "place": null,
-        "average_credits": 850,
+        "average_credits": 550,
         "generated_by": "Poste Ambulancier",
         "icons": {
             "0": "/images/medicalstore_gruen.png",
@@ -5685,6 +5685,61 @@
         "prerequisites": {
             "rescue_stations": 1,
             "fire_stations": 4
+        }
+    },
+    "296": {
+        "id": 296,
+        "name": "Feu d'appartement",
+        "place": null,
+        "average_credits": 2500,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "battalion_chief_vehicles": 1,
+            "platform_trucks": 1,
+            "heavy_rescue_vehicles": 3,
+            "police_cars": 2
+        },
+        "chances": {
+            "patient_transport": 80
+        },
+        "additional": {
+            "possible_patient": 4,
+            "possible_patient_min": 1,
+            "filter_id": "firehouse_missions",
+            "patient_specializations": "Traumatologie"
+        },
+        "prerequisites": {
+            "rescue_stations": 3,
+            "police_stations": 3,
+            "fire_stations": 6
+        }
+    },
+    "297": {
+        "id": 297,
+        "name": "Chute de ligne \u00e9l\u00e9ctrique",
+        "place": null,
+        "average_credits": 450,
+        "generated_by": "Centre de secours",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 1
+        },
+        "chances": {},
+        "additional": {
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "fire_stations": 2
         }
     }
 }

@@ -5541,6 +5541,32 @@
             "rescue_stations": 1
         }
     },
+    "274": {
+        "id": 274,
+        "name": "Observation of a suspect",
+        "place": null,
+        "average_credits": 4000,
+        "generated_by": "Police Station",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 hour",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
+    },
     "284": {
         "id": 284,
         "name": "Patient transport on request",

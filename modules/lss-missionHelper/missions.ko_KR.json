@@ -4307,5 +4307,31 @@
         "prerequisites": {
             "rescue_stations": 1
         }
+    },
+    "218": {
+        "id": 218,
+        "name": "\uc6a9\uc758\uc790 \uac10\uc2dc",
+        "place": null,
+        "average_credits": 6000,
+        "generated_by": "\uacbd\ucc30\uc11c",
+        "icons": {
+            "0": "/images/clock_gruen.png",
+            "1": "/images/clock_gelb.png",
+            "2": "/images/clock_rot.png"
+        },
+        "requirements": {
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1\uc2dc\uac04",
+            "duration": 3600,
+            "max_possible_prisoners": 1,
+            "guard_mission": true,
+            "filter_id": "police_station_missions"
+        },
+        "prerequisites": {
+            "police_stations": 2
+        }
     }
 }

@@ -8412,5 +8412,70 @@
             "police_helicopter_stations": 1,
             "fire_stations": 14
         }
+    },
+    "329": {
+        "id": 329,
+        "name": "Stipsi",
+        "place": null,
+        "average_credits": null,
+        "generated_by": "Stazione ambulanze",
+        "icons": {
+            "0": "/images/medicalstore_gruen.png",
+            "1": "/images/medicalstore_gelb.png",
+            "2": "/images/medicalstore_rot.png"
+        },
+        "requirements": {},
+        "chances": {
+            "patient_transport": 75
+        },
+        "additional": {
+            "possible_patient": 1,
+            "possible_patient_min": 1,
+            "patient_it_code_possible": {
+                "0": "KC09V",
+                "1": "KC09G"
+            },
+            "filter_id": "ambulance_station_missions",
+            "possible_patient_specializations": {
+                "0": "Chirurgia generale",
+                "1": "Gastroenterologia",
+                "2": "Chirurgia generale",
+                "3": "Gastroenterologia"
+            }
+        },
+        "prerequisites": {
+            "rescue_stations": 1
+        }
+    },
+    "330": {
+        "id": 330,
+        "name": "Partita di calcio",
+        "place": "Stadio",
+        "average_credits": 8500,
+        "generated_by": "Caserma dei vigili del fuoco",
+        "icons": {
+            "0": "/images/fire_gruen.png",
+            "1": "/images/fire_gelb.png",
+            "2": "/images/fire_rot.png"
+        },
+        "requirements": {
+            "firetrucks": 2,
+            "ambulances": 2,
+            "battalion_chief_vehicles": 1,
+            "heavy_rescue_vehicles": 1,
+            "police_cars": 2
+        },
+        "chances": {},
+        "additional": {
+            "duration_text": "1 ora",
+            "duration": 3600,
+            "guard_mission": true,
+            "filter_id": "firehouse_missions"
+        },
+        "prerequisites": {
+            "rescue_stations": 2,
+            "police_stations": 2,
+            "fire_stations": 6
+        }
     }
 }

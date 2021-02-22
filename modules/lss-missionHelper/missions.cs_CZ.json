@@ -630,11 +630,6 @@
         },
         "additional": {
             "possible_patient": 1,
-            "expansion_missions_ids": {
-                "0": 2,
-                "1": 29,
-                "2": 169
-            },
             "filter_id": "firehouse_missions",
             "need_traffic_car_only_if_present": true,
             "patient_specializations": "\u00darazov\u00e1 chirurgie"
@@ -3379,7 +3374,7 @@
             "possible_patient": 1,
             "possible_patient_min": 1,
             "filter_id": "ambulance_station_missions",
-            "patient_specializations": "Kardiologie"
+            "patient_specializations": "V\u0161eobecn\u00fd internista"
         },
         "prerequisites": {
             "rescue_stations": 1
